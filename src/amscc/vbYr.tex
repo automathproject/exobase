@@ -1,0 +1,29 @@
+\uuid{vbYr}
+\titre{Indépendance}
+\theme{probabilités}
+\auteur{}
+\datecreate{2023-01-24}
+\organisation{AMSCC}
+\contenu{
+
+\begin{enumerate}
+\item \question{ Une urne contient 12 boules numérotées de 1 à 12 . On en tire une hasard, et on considère les événements
+$$
+\begin{aligned}
+	& A=\text { "tirage d'un nombre pair", } \\
+	& B=\text { "tirage d'un multiple de } 3 " .
+\end{aligned}
+$$
+Les événements $A$ et $B$ sont-ils indépendants? }
+\reponse{  On a :
+	$$
+	\begin{gathered}
+		A=\{2,4,6,8,10,12\} \\
+		B=\{3,6,9,12\} \\
+		A \cap B=\{6,12\}
+	\end{gathered}
+	$$
+	On a donc $\prob(A)=1 / 2, \prob(B)=1 / 3$ et $\prob(A \cap B)=1 / 6=\prob(A) \prob(B)$. Les événements $A$ et $B$ sont indépendants. }
+\item \question{ Reprendre la question avec une urne contenant 13 boules. }
+\reponse{ Les événements $A, B$ et $A \cap B$ s'écrivent encore exactement de la même façon. Mais cette fois, on a : $P\prob(A)=6 / 13, \prob(B)=4 / 13$ et $\prob(A \cap B)=2 / 13 \neq 24 / 169$. Les événements $A$ et $B$ ne sont pas indépendants. C'est conforme à l'intuition. Il n'y a plus la même répartition de boules paires et de boules impaires, et dans les multiples de 3 compris entre 1 et 13, la répartition des nombres pairs et impairs est restée inchangée. }
+\end{enumerate}}
