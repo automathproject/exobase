@@ -1,0 +1,101 @@
+{
+  "uuid": "1fFk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6620",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:11.969Z"
+  },
+  "contenu": [
+    {
+      "id": "0d6b4630-9bea-4693-96d7-f8481723e24d",
+      "type": "description",
+      "value": {
+        "latex": "Pour tout $z\\in\\Cc$, on définit $\\exp(z)=\\sum_{n=0}^\\infty {1\\over n!}z^n$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(z\\in\\Cc\\)</span>, on définit\n<span class=\"math inline\">\\(\\exp(z)=\\sum_{n=0}^\\infty {1\\over\nn!}z^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "389cb223-091f-4431-9a1a-5bcfa7ee5faa",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la fonction $\\exp$ est continue et vérifie :\n\n$\\exp(0)=1;\\quad \\forall a,b\\in{\\Cc},\\ \\exp(a+b)=\\exp(a).\\exp(b).\n$",
+        "html": "<p>Montrer que la fonction <span class=\"math inline\">\\(\\exp\\)</span> est\ncontinue et vérifie :</p>\n<p><span class=\"math inline\">\\(\\exp(0)=1;\\quad \\forall a,b\\in{\\Cc},\\\n\\exp(a+b)=\\exp(a).\\exp(b).\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "152a04cd-cd8a-4756-ad11-7b89936e5de7",
+      "type": "question",
+      "value": {
+        "latex": "On note $e=\\exp(1)$ et $f(z)=\\exp(z)=e^z$. Etablir les résultats suivants :\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "c0c5dac9-9f2e-43ee-a0d2-3a776376b243",
+      "type": "question",
+      "value": {
+        "latex": "$\\forall z\\in{\\Cc},\\ e^z\\not=0$.",
+        "html": "<p><span class=\"math inline\">\\(\\forall z\\in{\\Cc},\\\ne^z\\not=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5f429118-2d21-4855-a687-76ff8ef32c1e",
+      "type": "question",
+      "value": {
+        "latex": "$f'(z)=f(z)$.",
+        "html": "<p><span class=\"math inline\">\\(f&#39;(z)=f(z)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "72e9ecb5-31bb-4357-b421-f59a066f3a4f",
+      "type": "question",
+      "value": {
+        "latex": "$f_{|\\Rr}$ est croissante, positive, tend vers $+\\infty$ quand $x\\to+\\infty$,\ntend vers $0$ quand $x\\to-\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(f_{|\\Rr}\\)</span> est croissante,\npositive, tend vers <span class=\"math inline\">\\(+\\infty\\)</span> quand\n<span class=\"math inline\">\\(x\\to+\\infty\\)</span>, tend vers <span\nclass=\"math inline\">\\(0\\)</span> quand <span\nclass=\"math inline\">\\(x\\to-\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "145584e9-b5fc-43cf-aa75-5e28d51b418d",
+      "type": "question",
+      "value": {
+        "latex": "Il existe un nombre  positif $\\pi$ tel que\n$e^{i{\\pi\\over2}}=i$ et tel que $e^z=1$ ssi $z\\in2i\\pi\\Zz$.",
+        "html": "<p>Il existe un nombre positif <span class=\"math inline\">\\(\\pi\\)</span>\ntel que <span class=\"math inline\">\\(e^{i{\\pi\\over2}}=i\\)</span> et tel\nque <span class=\"math inline\">\\(e^z=1\\)</span> ssi <span\nclass=\"math inline\">\\(z\\in2i\\pi\\Zz\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "11aa461b-fe4d-4278-acb6-69f38b7539b4",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est périodique de période $2i\\pi$.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est périodique de période\n<span class=\"math inline\">\\(2i\\pi\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "572210a9-f0cb-443a-853d-ece188cd2cbb",
+      "type": "question",
+      "value": {
+        "latex": "$t\\to e^{it}$ est une surjection de $\\Rr$ sur le cercle unité.",
+        "html": "<p><span class=\"math inline\">\\(t\\to e^{it}\\)</span> est une surjection\nde <span class=\"math inline\">\\(\\Rr\\)</span> sur le cercle unité.</p>\n"
+      }
+    },
+    {
+      "id": "2181ddfb-fee6-41e2-9620-4905d830fbc6",
+      "type": "question",
+      "value": {
+        "latex": "$f({\\Cc})= {\\Cc}^*$.",
+        "html": "<p><span class=\"math inline\">\\(f({\\Cc})= {\\Cc}^*\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour tout <span class=\"math inline\">\\(z\\in\\Cc\\)</span>, on définit\n<span class=\"math inline\">\\(\\exp(z)=\\sum_{n=0}^\\infty {1\\over\nn!}z^n\\)</span>.</ ..."
+}

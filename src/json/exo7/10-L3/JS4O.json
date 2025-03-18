@@ -1,0 +1,77 @@
+{
+  "uuid": "JS4O",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2292",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:50.955Z"
+  },
+  "contenu": [
+    {
+      "id": "bf1ec675-d4c9-4121-9f48-054d38b8fae3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(x^3-x+2)$ l'id\\'eal principal engendr\\'e\npar $x^3-x+2$ dans l'anneau  $\\Qq[x]$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((x^3-x+2)\\)</span> l’idéal principal\nengendré par <span class=\"math inline\">\\(x^3-x+2\\)</span> dans l’anneau\n<span class=\"math inline\">\\(\\Qq[x]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3572fa16-4a16-49b6-85c0-4b7406659a2b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'anneau quotient $\\Qq[x]/(x^3-x+2)$ est un corps.",
+        "html": "<p>Montrer que l’anneau quotient <span\nclass=\"math inline\">\\(\\Qq[x]/(x^3-x+2)\\)</span> est un corps.</p>\n"
+      }
+    },
+    {
+      "id": "cc7e5612-affb-47cd-a22d-06bcae3f1964",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $P=x^{3}-x+2$. Sa réduction  $\\bar{P}=x^{3}-x-1$ modulo $3$ est\n    de degré $3$ et n'a pas de racine, donc $\\bar{P}$ est irréductible\n    dans $\\Zz_{3}[x]$. Comme $P$ est primitif, on en déduit que $P$ est\n    irréductible dans $\\Zz[x]$, puis dans $\\Qq[x]$. Comme $\\Qq[x]$ est\n    principal, on en déduit que $(P)$ est maximal, et donc que\n    $\\Qq[x]/(P)$ est un corps.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P=x^{3}-x+2\\)</span>. Sa réduction\n<span class=\"math inline\">\\(\\bar{P}=x^{3}-x-1\\)</span> modulo <span\nclass=\"math inline\">\\(3\\)</span> est de degré <span\nclass=\"math inline\">\\(3\\)</span> et n’a pas de racine, donc <span\nclass=\"math inline\">\\(\\bar{P}\\)</span> est irréductible dans <span\nclass=\"math inline\">\\(\\Zz_{3}[x]\\)</span>. Comme <span\nclass=\"math inline\">\\(P\\)</span> est primitif, on en déduit que <span\nclass=\"math inline\">\\(P\\)</span> est irréductible dans <span\nclass=\"math inline\">\\(\\Zz[x]\\)</span>, puis dans <span\nclass=\"math inline\">\\(\\Qq[x]\\)</span>. Comme <span\nclass=\"math inline\">\\(\\Qq[x]\\)</span> est principal, on en déduit que\n<span class=\"math inline\">\\((P)\\)</span> est maximal, et donc que <span\nclass=\"math inline\">\\(\\Qq[x]/(P)\\)</span> est un corps.</p>\n"
+      }
+    },
+    {
+      "id": "0ad04e01-f6aa-41cd-86b2-70b6cbeb2d09",
+      "type": "question",
+      "value": {
+        "latex": "Soit $y$ l'image de $x$ dans $\\Qq[x]/(x^3-x+2)$ par la surjection\ncanonique. Calculer son inverse.",
+        "html": "<p>Soit <span class=\"math inline\">\\(y\\)</span> l’image de <span\nclass=\"math inline\">\\(x\\)</span> dans <span\nclass=\"math inline\">\\(\\Qq[x]/(x^3-x+2)\\)</span> par la surjection\ncanonique. Calculer son inverse.</p>\n"
+      }
+    },
+    {
+      "id": "ba16e0a4-b6bf-4a85-b56d-d6a1f1185aa5",
+      "type": "reponse",
+      "value": {
+        "latex": "Dans $\\Qq[x]/(P)$, on a $y^{3}-y+2=0$, donc $y(y^{2}-1)=-2$ et\n    finalement $y(\\frac{1}{2}(1-y^{2}))=1$. Ainsi $y^{-1}=\\frac{1}{2}(1-y^{2})$.",
+        "html": "<p>Dans <span class=\"math inline\">\\(\\Qq[x]/(P)\\)</span>, on a <span\nclass=\"math inline\">\\(y^{3}-y+2=0\\)</span>, donc <span\nclass=\"math inline\">\\(y(y^{2}-1)=-2\\)</span> et finalement <span\nclass=\"math inline\">\\(y(\\frac{1}{2}(1-y^{2}))=1\\)</span>. Ainsi <span\nclass=\"math inline\">\\(y^{-1}=\\frac{1}{2}(1-y^{2})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "240126cf-e7a3-43ad-9719-5ce35a71c6a1",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $1+y+y^2$ est non nul et calculer son inverse.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(1+y+y^2\\)</span> est non nul\net calculer son inverse.</p>\n"
+      }
+    },
+    {
+      "id": "3991d4d4-6112-4666-a268-f91466e06846",
+      "type": "reponse",
+      "value": {
+        "latex": "$1+y+y^{2}=\\pi(1+x+x^{2})$. On a $\\pgcd(P,1+x+x^{2})=1$, et plus\n    précisément, en utilisant l'algorithme d' Euclide~:\n    $13=(x+4)P-(x^{2}+3x-5)(x^{2}+x+1)$ donc\n    $(y^{2}+y+1)^{-1}=\\frac{-1}{13}(y^{2}+3y-5)$.",
+        "html": "<p><span class=\"math inline\">\\(1+y+y^{2}=\\pi(1+x+x^{2})\\)</span>. On a\n<span class=\"math inline\">\\(\\pgcd(P,1+x+x^{2})=1\\)</span>, et plus\nprécisément, en utilisant l’algorithme d’ Euclide : <span\nclass=\"math inline\">\\(13=(x+4)P-(x^{2}+3x-5)(x^{2}+x+1)\\)</span> donc\n<span\nclass=\"math inline\">\\((y^{2}+y+1)^{-1}=\\frac{-1}{13}(y^{2}+3y-5)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((x^3-x+2)\\)</span> l’idéal principal\nengendré par <span class=\"math inline\">\\(x^3-x+2\\)</span> dans l’anneau\n<span ..."
+}

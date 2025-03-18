@@ -1,0 +1,37 @@
+{
+  "uuid": "NQkj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3598",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:30.194Z"
+  },
+  "contenu": [
+    {
+      "id": "bcf4ab42-04a2-4ce9-b0c2-03fefcad5c0f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $M \\in \\mathcal{M}_n(\\C)$ diagonalisable.\n    Soit $A = \\begin{pmatrix}M&M\\cr M&M\\cr\\end{pmatrix} \\in \\mathcal{M}_{2n}(\\C)$.\n    La matrice $A$ est-elle diagonalisable ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(M \\in \\mathcal{M}_n(\\C)\\)</span>\ndiagonalisable. Soit <span class=\"math inline\">\\(A =\n\\begin{pmatrix}M&amp;M\\cr M&amp;M\\cr\\end{pmatrix} \\in\n\\mathcal{M}_{2n}(\\C)\\)</span>. La matrice <span\nclass=\"math inline\">\\(A\\)</span> est-elle diagonalisable ?</p>\n"
+      }
+    },
+    {
+      "id": "76bec1ff-ca9d-48df-ad72-fba5e2f28ff4",
+      "type": "reponse",
+      "value": {
+        "latex": "S'inspirer du cas $n=1$. Soit $P = \\begin{pmatrix}I&I\\cr I&-I\\cr\\end{pmatrix}$ :\n\t     $P^{-1}AP = \\begin{pmatrix}2M&0\\cr 0&0\\cr\\end{pmatrix}$ est diagonalisable,\n\t     donc $A$ aussi.",
+        "html": "<p>S’inspirer du cas <span class=\"math inline\">\\(n=1\\)</span>. Soit\n<span class=\"math inline\">\\(P = \\begin{pmatrix}I&amp;I\\cr\nI&amp;-I\\cr\\end{pmatrix}\\)</span> : <span class=\"math inline\">\\(P^{-1}AP\n= \\begin{pmatrix}2M&amp;0\\cr 0&amp;0\\cr\\end{pmatrix}\\)</span> est\ndiagonalisable, donc <span class=\"math inline\">\\(A\\)</span> aussi.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(M \\in \\mathcal{M}_n(\\C)\\)</span>\ndiagonalisable. Soit <span class=\"math inline\"> ..."
+}

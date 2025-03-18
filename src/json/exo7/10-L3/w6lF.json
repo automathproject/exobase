@@ -1,0 +1,61 @@
+{
+  "uuid": "w6lF",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2277",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:16.857Z"
+  },
+  "contenu": [
+    {
+      "id": "dee83dee-b51e-4e77-9f56-fb1097a87ca5",
+      "type": "description",
+      "value": {
+        "latex": "Soit $P\\in \\Zz[x]$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P\\in \\Zz[x]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "519bd846-7d4a-4c93-a7c4-49563fee148a",
+      "type": "question",
+      "value": {
+        "latex": "Supposons que $P(0)$, $P(1)$ soient impairs. Montrer que\n$P$ n'a pas de racine dans $\\Zz$.\n(\\emph{Indication :} Utiliser la r\\'eduction modulo $2$.)",
+        "html": "<p>Supposons que <span class=\"math inline\">\\(P(0)\\)</span>, <span\nclass=\"math inline\">\\(P(1)\\)</span> soient impairs. Montrer que <span\nclass=\"math inline\">\\(P\\)</span> n’a pas de racine dans <span\nclass=\"math inline\">\\(\\Zz\\)</span>. (<em>Indication :</em> Utiliser la\nréduction modulo <span class=\"math inline\">\\(2\\)</span>.)</p>\n"
+      }
+    },
+    {
+      "id": "b3ed1412-424a-466f-88e8-74a989787a53",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $P(0)$ et $P(1)$ sont impairs, $\\bar{P}(\\bar{0})=\\bar{1}$ et\n     $\\bar{P}(\\bar{1})=\\bar{1}$, donc $\\bar{P}$ n'a pas de racine sur\n     $\\Zz/2\\Zz$. Donc $P$ n'a pas de racine sur $\\Zz$.",
+        "html": "<p>Si <span class=\"math inline\">\\(P(0)\\)</span> et <span\nclass=\"math inline\">\\(P(1)\\)</span> sont impairs, <span\nclass=\"math inline\">\\(\\bar{P}(\\bar{0})=\\bar{1}\\)</span> et <span\nclass=\"math inline\">\\(\\bar{P}(\\bar{1})=\\bar{1}\\)</span>, donc <span\nclass=\"math inline\">\\(\\bar{P}\\)</span> n’a pas de racine sur <span\nclass=\"math inline\">\\(\\Zz/2\\Zz\\)</span>. Donc <span\nclass=\"math inline\">\\(P\\)</span> n’a pas de racine sur <span\nclass=\"math inline\">\\(\\Zz\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8b9688ae-416a-4623-8187-e84902959fc7",
+      "type": "question",
+      "value": {
+        "latex": "Soit $n\\in \\Nn$ tel qu'aucun des entiers $P(0),\\dots,P(n-1)$\nne soit divisible par $n$. Montrer que\n$P$ n'a pas de racine dans $\\Zz$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(n\\in \\Nn\\)</span> tel qu’aucun des\nentiers <span class=\"math inline\">\\(P(0),\\dots,P(n-1)\\)</span> ne soit\ndivisible par <span class=\"math inline\">\\(n\\)</span>. Montrer que <span\nclass=\"math inline\">\\(P\\)</span> n’a pas de racine dans <span\nclass=\"math inline\">\\(\\Zz\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "95a787f3-f071-41c9-8463-19475e49729d",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $n$ ne divise aucun des $P(0),\\dots,P(n-1)$, alors\n     $\\bar{P}(\\bar{0})\\neq 0$,\\dots, $\\bar{P}(\\overline{n-1})\\neq 0$,\n     donc $\\bar{P}$ n'a pas de racine sur $\\Zz/n\\Zz$. Donc $P$ n'a pas de\n     racine sur $\\Zz$.",
+        "html": "<p>Si <span class=\"math inline\">\\(n\\)</span> ne divise aucun des <span\nclass=\"math inline\">\\(P(0),\\dots,P(n-1)\\)</span>, alors <span\nclass=\"math inline\">\\(\\bar{P}(\\bar{0})\\neq 0\\)</span>,…, <span\nclass=\"math inline\">\\(\\bar{P}(\\overline{n-1})\\neq 0\\)</span>, donc <span\nclass=\"math inline\">\\(\\bar{P}\\)</span> n’a pas de racine sur <span\nclass=\"math inline\">\\(\\Zz/n\\Zz\\)</span>. Donc <span\nclass=\"math inline\">\\(P\\)</span> n’a pas de racine sur <span\nclass=\"math inline\">\\(\\Zz\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(P\\in \\Zz[x]\\)</span>.</p>\n"
+}

@@ -1,0 +1,37 @@
+{
+  "uuid": "P7yX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3226",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:13.477Z"
+  },
+  "contenu": [
+    {
+      "id": "8963b278-2088-4bb1-b9ca-a4a66ad5d012",
+      "type": "description",
+      "value": {
+        "latex": "Factoriser $$1 -\\frac X{1!} + \\frac {X(X-1)}{2!} - \\dots +\n            (-1)^{n+1}\\frac {X(X-1)\\cdots(X-n)}{(n+1)!}.$$",
+        "html": "<p>Factoriser <span class=\"math display\">\\[1 -\\frac X{1!} + \\frac\n{X(X-1)}{2!} - \\dots +\n            (-1)^{n+1}\\frac {X(X-1)\\cdots(X-n)}{(n+1)!}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "aabf38ae-2d66-4810-bec2-581b5b6183e0",
+      "type": "reponse",
+      "value": {
+        "latex": "$ = (-1)^{n+1}\\frac {(X-1)\\cdots(X-n)\\bigl(X-(n+1)\\bigr)}{(n+1)!}$.",
+        "html": "<p><span class=\"math inline\">\\(= (-1)^{n+1}\\frac\n{(X-1)\\cdots(X-n)\\bigl(X-(n+1)\\bigr)}{(n+1)!}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Factoriser <span class=\"math display\">\\[1 -\\frac X{1!} + \\frac\n{X(X-1)}{2!} - \\dots +\n            (-1)^{n+1}\\frac {X(X-1)\\cdots(X-n)}{(n+1)!}.\\]</s ..."
+}

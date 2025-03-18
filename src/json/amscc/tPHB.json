@@ -1,0 +1,95 @@
+{
+  "uuid": "tPHB",
+  "titre": "Calcul d'une somme de série entière",
+  "theme": [
+    "séries entières"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-06-01",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:13.393Z"
+  },
+  "contenu": [
+    {
+      "id": "b35b0592-adc4-4979-88eb-733b9e2da622",
+      "type": "description",
+      "value": {
+        "latex": "Soit la série entière $\\displaystyle \\sum_{n\\geq 2} \\frac{(-1)^n}{n(n-1)}x^n$.",
+        "html": "<p>Soit la série entière <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n\\geq 2} \\frac{(-1)^n}{n(n-1)}x^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6f625dce-bbba-4214-84fc-85180c4915f2",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le rayon de convergence $R$ de cette série. Préciser son intervalle de convergence et le comportement de la série aux extrémités de cet intervalle.",
+        "html": "<p>Déterminer le rayon de convergence <span\nclass=\"math inline\">\\(R\\)</span> de cette série. Préciser son intervalle\nde convergence et le comportement de la série aux extrémités de cet\nintervalle.</p>\n"
+      }
+    },
+    {
+      "id": "c6709375-0eb9-4b12-a197-99622bcfa050",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$ et $D=[-1;1]$",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span> et <span\nclass=\"math inline\">\\(D=[-1;1]\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9a20ade0-88a0-4849-af18-858951a165f8",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le rayon de convergence de la série $\\displaystyle \\sum_{n\\geq 2} \\frac{(-1)^n}{(n-1)}x^{n-1}$ \n\tet de la série $\\displaystyle \\sum_{n\\geq 2}(-1)^n x^{n-2}$ ? \\\\\n\tÉtudier le comportement de chacune de ces séries au bord de son intervalle de convergence.",
+        "html": "<p>Déterminer le rayon de convergence de la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 2}\n\\frac{(-1)^n}{(n-1)}x^{n-1}\\)</span> et de la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 2}(-1)^n\nx^{n-2}\\)</span> ?<br />\nÉtudier le comportement de chacune de ces séries au bord de son\nintervalle de convergence.</p>\n"
+      }
+    },
+    {
+      "id": "cd94b2c7-1186-4590-a2ab-6e1a2fc82509",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour la première, $R=1$ et $D=]-1;1]$. \\\\\n\t\tPour la deuxième, $R=1$ et $D=]-1;1[$.",
+        "html": "<p>Pour la première, <span class=\"math inline\">\\(R=1\\)</span> et <span\nclass=\"math inline\">\\(D=]-1;1]\\)</span>.<br />\nPour la deuxième, <span class=\"math inline\">\\(R=1\\)</span> et <span\nclass=\"math inline\">\\(D=]-1;1[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c8b46fd5-9a20-4d2a-957b-ef941fa9d630",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la somme de la série $\\displaystyle \\sum_{n\\geq 2}(-1)^n x^{n-2}$.",
+        "html": "<p>Calculer la somme de la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 2}(-1)^n\nx^{n-2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "20fbff31-7314-459e-9800-378bf80cb6d0",
+      "type": "reponse",
+      "value": {
+        "latex": "\\[ \\forall x \\in ]-1;1[, \\qquad \\sum_{n=2}^{+\\infty}(-1)^n x^{n-2}\n\t\t=\\frac{1}{1+x}.\n\t\t\\]",
+        "html": "<p><span class=\"math display\">\\[\\forall x \\in ]-1;1[, \\qquad\n\\sum_{n=2}^{+\\infty}(-1)^n x^{n-2}\n        =\\frac{1}{1+x}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a0a1784e-f442-4ec1-a1cd-3a6526e4bc07",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la somme de la série $\\displaystyle \\sum_{n\\geq 2} \\frac{(-1)^n}{(n-1)}x^{n-1}$.",
+        "html": "<p>En déduire la somme de la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 2}\n\\frac{(-1)^n}{(n-1)}x^{n-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "14089f29-82eb-4f5c-bad2-c4a3d3cecb4d",
+      "type": "reponse",
+      "value": {
+        "latex": "\\[ \\forall x \\in ]-1;1[, \\qquad \\sum_{n=2}^{+\\infty} \\frac{(-1)^n}{(n-1)}x^{n-1}\n\t\t=\\ln(1+x).\n\t\t\\]",
+        "html": "<p><span class=\"math display\">\\[\\forall x \\in ]-1;1[, \\qquad\n\\sum_{n=2}^{+\\infty} \\frac{(-1)^n}{(n-1)}x^{n-1}\n        =\\ln(1+x).\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit la série entière <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n\\geq 2} \\frac{(-1)^n}{n(n-1)}x^n\\)</span>.</p>\n"
+}

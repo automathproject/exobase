@@ -1,0 +1,61 @@
+{
+  "uuid": "0Scu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4583",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Calcul de la somme d'une série entière",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:21.843Z"
+  },
+  "contenu": [
+    {
+      "id": "2c4bf127-3992-4832-a8a5-307393e50b46",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "bfe7813b-3be3-4f5b-bcd7-c8a1a87e40f3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer l'existence de~$f(z) = \\sum_{k=1}^{\\infty} kz^k$ pour~$z\\in\\C$,\n    $|z|<1$.",
+        "html": "<p>Montrer l’existence de <span class=\"math inline\">\\(f(z) =\n\\sum_{k=1}^{\\infty} kz^k\\)</span> pour <span\nclass=\"math inline\">\\(z\\in\\C\\)</span>, <span\nclass=\"math inline\">\\(|z|&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ecb56b97-cd8d-414f-941c-d50e6f4bac6e",
+      "type": "question",
+      "value": {
+        "latex": "Soit~$A\\in\\mathcal{M}_n(\\C)$. Montrer que $\\sum_{k=1}^{\\infty} kA^k$ converge\n    si et seulement si les valeurs propres de~$A$ sont de module strictement\n    inférieur à~$1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\in\\mathcal{M}_n(\\C)\\)</span>.\nMontrer que <span class=\"math inline\">\\(\\sum_{k=1}^{\\infty}\nkA^k\\)</span> converge si et seulement si les valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span> sont de module strictement inférieur\nà <span class=\"math inline\">\\(1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "07e1d5e2-2a59-4ef2-a003-55316817752b",
+      "type": "question",
+      "value": {
+        "latex": "La somme $S = \\sum_{k=1}^\\infty kA^k$ est-elle inversible~?",
+        "html": "<p>La somme <span class=\"math inline\">\\(S = \\sum_{k=1}^\\infty\nkA^k\\)</span> est-elle inversible ?</p>\n"
+      }
+    },
+    {
+      "id": "0926ed7e-7682-4edd-abc2-52f8875c1716",
+      "type": "reponse",
+      "value": {
+        "latex": "S'il existe $\\lambda\\in\\mathrm{Sp}(A)$ tel que $|\\lambda|\\ge 1$\n    et si $x$ est un vecteur propre associé alors $kA^kx = k\\lambda^kx\\not\\rightarrow0$\n    donc la série diverge.\n\n    Si toutes les valeurs propres de~$A$ sont de module $<1$, comme\n    $kA^k = \\sum_\\lambda \\lambda^kP_\\lambda(k)$ où les $P_\\lambda$\n    sont des polynômes à coefficients matriciels, la série converge absolument.\n$S = \\sum_{k=0}^\\infty (k+1)A^{k+1} = AS + \\sum_{k=0}^\\infty A^{k+1}\n                = AS + A(I-A)^{-1}$ donc $S = A(I-A)^{-2}$ est inversible ssi\n             $A$ l'est.",
+        "html": "<p>S’il existe <span\nclass=\"math inline\">\\(\\lambda\\in\\mathrm{Sp}(A)\\)</span> tel que <span\nclass=\"math inline\">\\(|\\lambda|\\ge 1\\)</span> et si <span\nclass=\"math inline\">\\(x\\)</span> est un vecteur propre associé alors\n<span class=\"math inline\">\\(kA^kx = k\\lambda^kx\\not\\rightarrow0\\)</span>\ndonc la série diverge.</p>\n<p>Si toutes les valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span> sont de module <span\nclass=\"math inline\">\\(&lt;1\\)</span>, comme <span\nclass=\"math inline\">\\(kA^k = \\sum_\\lambda \\lambda^kP_\\lambda(k)\\)</span>\noù les <span class=\"math inline\">\\(P_\\lambda\\)</span> sont des polynômes\nà coefficients matriciels, la série converge absolument. <span\nclass=\"math inline\">\\(S = \\sum_{k=0}^\\infty (k+1)A^{k+1} = AS +\n\\sum_{k=0}^\\infty A^{k+1}\n                = AS + A(I-A)^{-1}\\)</span> donc <span\nclass=\"math inline\">\\(S = A(I-A)^{-2}\\)</span> est inversible ssi <span\nclass=\"math inline\">\\(A\\)</span> l’est.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer l’existence de <span class=\"math inline\">\\(f(z) =\n\\sum_{k=1}^{\\infty} kz^k\\)</span> pour <span\nclass=\"math inline\">\\(z\\in\\C\\)</span>, <span ..."
+}

@@ -1,0 +1,93 @@
+{
+  "uuid": "cTqb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4409",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Fonction exponentielle complexe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:15.603Z"
+  },
+  "contenu": [
+    {
+      "id": "6c895fbd-350b-4861-ac20-86dc1706ba88",
+      "type": "description",
+      "value": {
+        "latex": "Résoudre dans $\\C$ :",
+        "html": "<p>Résoudre dans <span class=\"math inline\">\\(\\C\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "3c7674fd-dfb0-49be-829d-7de66cf8ec41",
+      "type": "question",
+      "value": {
+        "latex": "$\\cos z = 2$.",
+        "html": "<p><span class=\"math inline\">\\(\\cos z = 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d322572c-8d1a-4ddc-bab5-b2dd23cd59ea",
+      "type": "reponse",
+      "value": {
+        "latex": "$z \\equiv \\pm i\\ln(2+\\sqrt3\\,) (\\mathrm{mod}\\,{2\\pi})$.",
+        "html": "<p><span class=\"math inline\">\\(z \\equiv \\pm i\\ln(2+\\sqrt3\\,)\n(\\mathrm{mod}\\,{2\\pi})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "367e7b2b-1c5f-4d78-abc2-42d4db70e2d5",
+      "type": "question",
+      "value": {
+        "latex": "$\\ch z = -1$.",
+        "html": "<p><span class=\"math inline\">\\(\\ch z = -1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ee146475-7ea6-447f-8c28-d0d1a938b7d6",
+      "type": "reponse",
+      "value": {
+        "latex": "$z \\equiv i\\pi(\\mathrm{mod}\\,{2i\\pi})$.",
+        "html": "<p><span class=\"math inline\">\\(z \\equiv\ni\\pi(\\mathrm{mod}\\,{2i\\pi})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e8b9b685-8f86-418b-897a-feb36d51ab7e",
+      "type": "question",
+      "value": {
+        "latex": "$\\sin z + \\sin jz + \\sin j^2z = 0$.",
+        "html": "<p><span class=\"math inline\">\\(\\sin z + \\sin jz + \\sin j^2z =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "31783667-6315-4601-b130-9670ed1d37b7",
+      "type": "reponse",
+      "value": {
+        "latex": "$z \\equiv 0 (\\mathrm{mod}\\, {2\\pi})$ ou\n             $z \\equiv 0 (\\mathrm{mod}\\, {2j\\pi})$ ou\n             $z \\equiv 0 (\\mathrm{mod}\\, {2j^2\\pi})$.",
+        "html": "<p><span class=\"math inline\">\\(z \\equiv 0 (\\mathrm{mod}\\,\n{2\\pi})\\)</span> ou <span class=\"math inline\">\\(z \\equiv 0\n(\\mathrm{mod}\\, {2j\\pi})\\)</span> ou <span class=\"math inline\">\\(z\n\\equiv 0 (\\mathrm{mod}\\, {2j^2\\pi})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bad7d1b6-7602-4855-b1f0-47e67610c802",
+      "type": "question",
+      "value": {
+        "latex": "$8\\cos z + 4i\\sin z = 7 + 5i$.",
+        "html": "<p><span class=\"math inline\">\\(8\\cos z + 4i\\sin z = 7 + 5i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ce8f0607-b9f8-469e-a075-9c7ee7be2002",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\Leftrightarrow 6e^{2iz} -(7+5i)e^{iz} + 2 = 0 \\Leftrightarrow\n               \\begin{cases} e^{iz} = 1+i\\hfill:\n                       & z \\equiv \\pi/4 - i\\ln\\sqrt2      (\\mathrm{mod}\\,{2\\pi})\\cr\n                       e^{iz} = (1-i)/6  :\n                       & z \\equiv -\\pi/4 - i\\ln(\\sqrt2/6) (\\mathrm{mod}\\,{2\\pi}).\\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\Leftrightarrow 6e^{2iz} -(7+5i)e^{iz} +\n2 = 0 \\Leftrightarrow\n               \\begin{cases} e^{iz} = 1+i\\hfill:\n                       &amp; z \\equiv \\pi/4 -\ni\\ln\\sqrt2      (\\mathrm{mod}\\,{2\\pi})\\cr\n                       e^{iz} = (1-i)/6  :\n                       &amp; z \\equiv -\\pi/4 - i\\ln(\\sqrt2/6)\n(\\mathrm{mod}\\,{2\\pi}).\\cr\\end{cases}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Résoudre dans <span class=\"math inline\">\\(\\C\\)</span> :</p>\n"
+}

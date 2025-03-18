@@ -1,0 +1,173 @@
+{
+  "uuid": "YqYZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2230",
+    "auteur": "matos",
+    "createdAt": "2008-04-23",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:30.856Z"
+  },
+  "contenu": [
+    {
+      "id": "2fe8c877-e454-4a4e-a93c-aab73f995fc0",
+      "type": "description",
+      "value": {
+        "latex": "Etant donn\\'es $n$ vecteurs lin\\'eairement ind\\'ependants de $\\Rr^m$, $\\{a_1, \\cdots , a_n\\}$, on veut calculer une base orthonormale pour span$\\{a_1, \\cdots , a_n\\}$.\n\n On pose $A=[ a_1, a_2, \\cdots , a_n] \\in \\Rr^{m\\times n}$ et on consid\\`ere la factorisation QR de $A$,\n$$ A=QR,\\ \\ \\ Q=[q_1, \\cdots , q_n] ,\\ \\ r_i^T, i=1, \\cdots , n \\mbox{ les lignes de }R$$",
+        "html": "<p>Etant donnés <span class=\"math inline\">\\(n\\)</span> vecteurs\nlinéairement indépendants de <span class=\"math inline\">\\(\\Rr^m\\)</span>,\n<span class=\"math inline\">\\(\\{a_1, \\cdots , a_n\\}\\)</span>, on veut\ncalculer une base orthonormale pour span<span\nclass=\"math inline\">\\(\\{a_1, \\cdots , a_n\\}\\)</span>.</p>\n<p>On pose <span class=\"math inline\">\\(A=[ a_1, a_2, \\cdots , a_n] \\in\n\\Rr^{m\\times n}\\)</span> et on considère la factorisation QR de <span\nclass=\"math inline\">\\(A\\)</span>, <span class=\"math display\">\\[A=QR,\\ \\\n\\ Q=[q_1, \\cdots , q_n] ,\\ \\ r_i^T, i=1, \\cdots , n \\mbox{ les lignes de\n}R\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "716857c8-4186-4f95-9e77-be45eb9adda7",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \n$$\\mbox{Im} A= \\mbox{span} \\{q_1, \\cdots , q_n\\} .$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\mbox{Im} A= \\mbox{span}\n\\{q_1, \\cdots , q_n\\} .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "246c433a-fcd8-453b-a710-2a4f63ddb3e7",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $k=1,\\cdots ,n\\quad a_k=\\sum_{i=1}^kr_{ik}q_i$ avec $r_{ik}=q_i^Ta_k$ par orthonormalit\\'e des $q_i$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(k=1,\\cdots ,n\\quad\na_k=\\sum_{i=1}^kr_{ik}q_i\\)</span> avec <span\nclass=\"math inline\">\\(r_{ik}=q_i^Ta_k\\)</span> par orthonormalité des\n<span class=\"math inline\">\\(q_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "78dd4184-b54d-4979-a231-137dd7fe78d3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$$q_k=\\frac{1}{r_{kk}} \\left( a_k -\\sum_{i=1}^{k-1}r_{ik}q_i\\right) \\ \\ \\ k=1, \\cdots , n$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[q_k=\\frac{1}{r_{kk}} \\left(\na_k -\\sum_{i=1}^{k-1}r_{ik}q_i\\right) \\ \\ \\ k=1, \\cdots , n\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "85d3db46-261b-41ff-914d-16d691c86c66",
+      "type": "reponse",
+      "value": {
+        "latex": "D\\'ecoule imm\\'ediatement de la question pr\\'ec\\'edente.",
+        "html": "<p>Découle immédiatement de la question précédente.</p>\n"
+      }
+    },
+    {
+      "id": "41534ef6-9462-47d7-918e-a1372313a7e1",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire un algorithme pour le calcul r\\'ecursif des $q_i$ (algorithme de Gram--Schmidt).",
+        "html": "<p>En déduire un algorithme pour le calcul récursif des <span\nclass=\"math inline\">\\(q_i\\)</span> (algorithme de Gram–Schmidt).</p>\n"
+      }
+    },
+    {
+      "id": "e05e8859-fb62-4da0-a562-c62388929127",
+      "type": "reponse",
+      "value": {
+        "latex": "Algorithme de Gram-Schmidt:\n\nPour $k=1, \\cdots , n$ faire\n\n\\hspace{1cm} $r_{ik}=q_i^Ta_k\\quad $ pour $i=1, \\cdots , k-1$\n\n\\hspace{1cm} $z_k=a_k-\\sum_{i=1}^{k-1} r_{ik}q_i$\n\n\\hspace{1cm} $r_{kk}=(z_k^Tz_k)^{1/2}$\n\n\\hspace{1cm}$q_k=z_k/r_{kk}$",
+        "html": "<p>Algorithme de Gram-Schmidt:</p>\n<p>Pour <span class=\"math inline\">\\(k=1, \\cdots , n\\)</span> faire</p>\n<p><span class=\"math inline\">\\(r_{ik}=q_i^Ta_k\\quad\\)</span> pour <span\nclass=\"math inline\">\\(i=1, \\cdots , k-1\\)</span></p>\n<p><span class=\"math inline\">\\(z_k=a_k-\\sum_{i=1}^{k-1}\nr_{ik}q_i\\)</span></p>\n<p><span class=\"math inline\">\\(r_{kk}=(z_k^Tz_k)^{1/2}\\)</span></p>\n<p><span class=\"math inline\">\\(q_k=z_k/r_{kk}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "21e8decc-6396-455a-8375-b1535e2d8d63",
+      "type": "question",
+      "value": {
+        "latex": "Algorithme de Gram--Schmidt modifi\\'e\n\nL'algorithme pr\\'ec\\'edent est instable num\\'eriquement d\\^u \\`a la perte d'orthogonalit\\'e dans le calcul des $q_i$. On va reformuler l'algorithme pour le rendre stable.\n\nPour $k=1, \\cdots , n-1$, on d\\'efinit $A^{(k)}\\in\\Rr^{m\\times (n-k+1)}$ de la fa\\c con suivante:\n$$[0 , A^{(k)}] =A-\\sum_{i=1}^{k-1} q_ir_i^T = \\sum_{i=k}^n q_ir_i^T$$\net on va d\\'ecrire l'\\'etape $k$ de l'algorithme.\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "a2d5d79f-660b-4573-a0ff-580989e12eea",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "2ea78616-382c-4eee-becf-28ff4eeb52d5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si on pose\n$$ A^{(k)} =[z,B] ,\\ \\ \\ z\\in\\Rr^m , \\ \\ \\ B\\in\\Rr^{m\\times (n-k)}$$\nalors\n$$r_{kk}=\\|z\\|_2, \\ \\ \\ q_k=z/r_{kk}.$$",
+        "html": "<p>Montrer que si on pose <span class=\"math display\">\\[A^{(k)} =[z,B] ,\\\n\\ \\ z\\in\\Rr^m , \\ \\ \\ B\\in\\Rr^{m\\times (n-k)}\\]</span> alors <span\nclass=\"math display\">\\[r_{kk}=\\|z\\|_2, \\ \\ \\ q_k=z/r_{kk}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a2983183-2bdf-4219-bdcf-5012a54bd4e2",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\sum_{i=k}^nq_ir_i^T =[q_k \\cdots q_n]\\left(\\begin{array}{c}r_k^T\\\\ \\vdots \\\\ r_n^T\\end{array}\\right) = q_k \\cdots q_n]\\left(\\begin{array}{ccccccc} \n0&\\cdots &0 &r_{kk} & \\cdots &\\cdots & r_{kn}\\\\\n0&\\cdots &0 & 0 & r_{k+1,k+1}&\\cdots & r_{k+1,n}\\\\\n\\vdots & \\vdots &\\vdots &\\vdots &\\vdots &\\vdots &\\vdots \\\\\n0&\\cdots & \\cdots&&&0&r_{nn}\\end{array}\\right)$$\n$$A^{(k)}e_k = z= [q_k \\cdots q_n]\\left(\\begin{array}{c}r_{kk}\\\\ 0\\\\ \\vdots \\\\ 0\\end{array}\\right)=r_{kk}q_k \\Rightarrow r_{kk}=\\|z\\|_2, q_k=z/r_{kk}$$",
+        "html": "<p><span class=\"math display\">\\[\\sum_{i=k}^nq_ir_i^T =[q_k \\cdots\nq_n]\\left(\\begin{array}{c}r_k^T\\\\ \\vdots \\\\ r_n^T\\end{array}\\right) =\nq_k \\cdots q_n]\\left(\\begin{array}{ccccccc}\n0&amp;\\cdots &amp;0 &amp;r_{kk} &amp; \\cdots &amp;\\cdots &amp; r_{kn}\\\\\n0&amp;\\cdots &amp;0 &amp; 0 &amp; r_{k+1,k+1}&amp;\\cdots &amp;\nr_{k+1,n}\\\\\n\\vdots &amp; \\vdots &amp;\\vdots &amp;\\vdots &amp;\\vdots &amp;\\vdots\n&amp;\\vdots \\\\\n0&amp;\\cdots &amp;\n\\cdots&amp;&amp;&amp;0&amp;r_{nn}\\end{array}\\right)\\]</span> <span\nclass=\"math display\">\\[A^{(k)}e_k = z= [q_k \\cdots\nq_n]\\left(\\begin{array}{c}r_{kk}\\\\ 0\\\\ \\vdots \\\\\n0\\end{array}\\right)=r_{kk}q_k \\Rightarrow r_{kk}=\\|z\\|_2,\nq_k=z/r_{kk}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5390f4f3-e019-469b-90e5-84cd130c2aaf",
+      "type": "question",
+      "value": {
+        "latex": "Comment peut--on calculer la ligne $k$ de $R$  \\`a partir de $A^{(k)}$?",
+        "html": "<p>Comment peut–on calculer la ligne <span\nclass=\"math inline\">\\(k\\)</span> de <span\nclass=\"math inline\">\\(R\\)</span> à partir de <span\nclass=\"math inline\">\\(A^{(k)}\\)</span>?</p>\n"
+      }
+    },
+    {
+      "id": "89127584-9f4a-4f15-8541-812421792cee",
+      "type": "reponse",
+      "value": {
+        "latex": "$$q_k^TA^{(k)} =[q_k^Tz, q_k^TB]=[1 , 0, \\cdots , 0]\\left(\\begin{array}{c}r_k^T\\\\ \\vdots \\\\r_n^T\\end{array}\\right)=r_k^T$$\net donc\n$$[r_{k,k+1}, \\cdots , r_{kn}]=q_k^TB$$",
+        "html": "<p><span class=\"math display\">\\[q_k^TA^{(k)} =[q_k^Tz, q_k^TB]=[1 , 0,\n\\cdots , 0]\\left(\\begin{array}{c}r_k^T\\\\ \\vdots\n\\\\r_n^T\\end{array}\\right)=r_k^T\\]</span> et donc <span\nclass=\"math display\">\\[[r_{k,k+1}, \\cdots , r_{kn}]=q_k^TB\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "778f110f-7209-47ec-a6cb-c0548d5ebe10",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $A^{(k+1)}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(A^{(k+1)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "12bbec58-14ab-4ef3-b788-b1f5e485a298",
+      "type": "reponse",
+      "value": {
+        "latex": "$$[0,\\cdots , 0, A^{(k+1)}] = \\sum_{i=k+1}^n q_ir_i^T= [0,\\cdots , 0, A^{(k)}] - q_kr_k^T= [0,\\cdots , 0,A^{(k)} - q_k(r_{kk}, \\cdots , r_{kn})]$$\n$$[ 0,\\cdots , 0, z-q_kr_{kk}, B-q_k(r_{k,k+1}, \\cdots , r_{kn})] \\Rightarrow A^{(k+1)}=B-q_k (r_{k,k+1}, \\cdots , r_{kn})$$",
+        "html": "<p><span class=\"math display\">\\[[0,\\cdots , 0, A^{(k+1)}] =\n\\sum_{i=k+1}^n q_ir_i^T= [0,\\cdots , 0, A^{(k)}] - q_kr_k^T= [0,\\cdots ,\n0,A^{(k)} - q_k(r_{kk}, \\cdots , r_{kn})]\\]</span> <span\nclass=\"math display\">\\[[ 0,\\cdots , 0, z-q_kr_{kk}, B-q_k(r_{k,k+1},\n\\cdots , r_{kn})] \\Rightarrow A^{(k+1)}=B-q_k (r_{k,k+1}, \\cdots ,\nr_{kn})\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "2376e856-424d-44b5-8702-91e46271ab53",
+      "type": "question",
+      "value": {
+        "latex": "A partir des questions pr\\'ec\\'edentes, d\\'ecrire l'algorithme qui permet le calcul de la factorisation $A=Q_1R_1$, $Q_1\\in\\Rr^{m \\times n}$ orthonormale, $R_1\\in\\Rr^{n\\times n}$ triangulaire sup\\'erieure (Gram--Schmidt modifi\\'e). Le calcul de $Q_1$ doit se faire sur place.",
+        "html": "<p>A partir des questions précédentes, décrire l’algorithme qui permet\nle calcul de la factorisation <span\nclass=\"math inline\">\\(A=Q_1R_1\\)</span>, <span\nclass=\"math inline\">\\(Q_1\\in\\Rr^{m \\times n}\\)</span> orthonormale,\n<span class=\"math inline\">\\(R_1\\in\\Rr^{n\\times n}\\)</span> triangulaire\nsupérieure (Gram–Schmidt modifié). Le calcul de <span\nclass=\"math inline\">\\(Q_1\\)</span> doit se faire sur place.</p>\n"
+      }
+    },
+    {
+      "id": "33fdbc5b-0232-41e1-a8b6-6606ea4165c8",
+      "type": "reponse",
+      "value": {
+        "latex": "Donn\\'ees: $A\\in\\Rr^{m\\times n}, $ rank$(A)=n$\n\nOn calcule la factorisation $A=Q_1R_1$, $Q_1\\in\\Rr^{m\\times n}$ orthonormale, $R_1\\in\\Rr^{n\\times n}$ triangulaire sup\\'erieure. Le calcul de $Q_1$ se fait sur place.\n\nPour $k=1, \\cdots , n$\n\n\\hspace{1cm} $r_{kk}=\\left(\\sum_{i=1}^m a_{ik}^2\\right)^{1/2} $\n\n\\hspace{1cm}pour $i=1, \\cdots  ,m$\n\n\\hspace{1.5cm}$a_{ik}\\leftarrow a_{ik}/r_{kk}$\n\n\\hspace{1cm} pour $j=k+1, \\cdots , n$\n\n\\hspace{1.5cm}$r_{kj}\\leftarrow\\sum_{i=1}^m a_{ik}a_{ij}$\n\n\\hspace{1.5cm} pour $i=1, \\cdots , m$\n\n\\hspace{2cm}  $a_{ij}\\leftarrow a_{ij}-a_{ik}r_{kj}$",
+        "html": "<p>Données: <span class=\"math inline\">\\(A\\in\\Rr^{m\\times n},\\)</span>\nrank<span class=\"math inline\">\\((A)=n\\)</span></p>\n<p>On calcule la factorisation <span\nclass=\"math inline\">\\(A=Q_1R_1\\)</span>, <span\nclass=\"math inline\">\\(Q_1\\in\\Rr^{m\\times n}\\)</span> orthonormale, <span\nclass=\"math inline\">\\(R_1\\in\\Rr^{n\\times n}\\)</span> triangulaire\nsupérieure. Le calcul de <span class=\"math inline\">\\(Q_1\\)</span> se\nfait sur place.</p>\n<p>Pour <span class=\"math inline\">\\(k=1, \\cdots , n\\)</span></p>\n<p><span class=\"math inline\">\\(r_{kk}=\\left(\\sum_{i=1}^m\na_{ik}^2\\right)^{1/2}\\)</span></p>\n<p>pour <span class=\"math inline\">\\(i=1, \\cdots  ,m\\)</span></p>\n<p><span class=\"math inline\">\\(a_{ik}\\leftarrow\na_{ik}/r_{kk}\\)</span></p>\n<p>pour <span class=\"math inline\">\\(j=k+1, \\cdots , n\\)</span></p>\n<p><span class=\"math inline\">\\(r_{kj}\\leftarrow\\sum_{i=1}^m\na_{ik}a_{ij}\\)</span></p>\n<p>pour <span class=\"math inline\">\\(i=1, \\cdots , m\\)</span></p>\n<p><span class=\"math inline\">\\(a_{ij}\\leftarrow\na_{ij}-a_{ik}r_{kj}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "ace62af6-7502-4b2a-a41b-99603c17143d",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la complexit\\'e de l'algorithme pr\\'ec\\'edent?",
+        "html": "<p>Quelle est la complexité de l’algorithme précédent?</p>\n"
+      }
+    },
+    {
+      "id": "1800b9ed-8160-46bf-80c5-023e1ca8e991",
+      "type": "reponse",
+      "value": {
+        "latex": "complexit\\'e: $mn^2$ flops.",
+        "html": "<p>complexité: <span class=\"math inline\">\\(mn^2\\)</span> flops.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Etant donnés <span class=\"math inline\">\\(n\\)</span> vecteurs\nlinéairement indépendants de <span class=\"math inline\">\\(\\Rr^m\\)</span>,\n<span class=\" ..."
+}

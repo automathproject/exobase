@@ -1,0 +1,45 @@
+{
+  "uuid": "AX5X",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3878",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Etude de fonctions",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:06.698Z"
+  },
+  "contenu": [
+    {
+      "id": "908a7327-b176-4128-820d-101e3125c607",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {[a,b]} \\to {\\R}$ monotone.\nPour $x \\in {]a,b[}$,\non pose $\\delta(x) = \\bigl|\\lim_{y\\to x^+} f(y) - \\lim_{y\\to x^-} f(y)\\bigr|$\n(saut de $f$ en $x$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to {\\R}\\)</span>\nmonotone. Pour <span class=\"math inline\">\\(x \\in {]a,b[}\\)</span>, on\npose <span class=\"math inline\">\\(\\delta(x) = \\bigl|\\lim_{y\\to x^+} f(y)\n- \\lim_{y\\to x^-} f(y)\\bigr|\\)</span> (saut de <span\nclass=\"math inline\">\\(f\\)</span> en <span\nclass=\"math inline\">\\(x\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "c7137313-a22c-4a33-b615-9588d4d87163",
+      "type": "question",
+      "value": {
+        "latex": "Pour $n \\in \\N^*$, montrer que\n      $E_n = \\left\\{ x \\in {]a,b[} \\text{ tq } \\delta(x) > \\frac 1n \\right\\}$ est fini.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, montrer que\n<span class=\"math inline\">\\(E_n = \\left\\{ x \\in {]a,b[} \\text{ tq }\n\\delta(x) &gt; \\frac 1n \\right\\}\\)</span> est fini.</p>\n"
+      }
+    },
+    {
+      "id": "593d0255-15b2-4573-94a9-b6129eba3326",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que l'ensemble des points de discontinuité de $f$ est au plus dénombrable.",
+        "html": "<p>En déduire que l’ensemble des points de discontinuité de <span\nclass=\"math inline\">\\(f\\)</span> est au plus dénombrable.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to {\\R}\\)</span>\nmonotone. Pour <span class=\"math inline\">\\(x \\in {]a,b[}\\)</span>, on\npose <span cla ..."
+}

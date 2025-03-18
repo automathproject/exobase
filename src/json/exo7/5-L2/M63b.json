@@ -1,0 +1,77 @@
+{
+  "uuid": "M63b",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4853",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Fonctions vectorielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:04.634Z"
+  },
+  "contenu": [
+    {
+      "id": "e01ec245-6484-432c-9610-5b76171d954f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\varphi : {[a,b]} \\to {\\R^2}, t \\mapsto {M_t}$ une courbe param{\\'e}tr{\\'e}e de classe\n$\\mathcal{C}^1$ de longueur non nulle.\nLe centre de gravit{\\'e} de la courbe est le point $G$ tel que\n$ \\int_{t=a}^b \\vec{GM_t}\\|\\vec M\\,'(t)\\|\\,dt = \\vec 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varphi : {[a,b]} \\to {\\R^2}, t\n\\mapsto {M_t}\\)</span> une courbe param<span>é</span>tr<span>é</span>e\nde classe <span class=\"math inline\">\\(\\mathcal{C}^1\\)</span> de longueur\nnon nulle. Le centre de gravit<span>é</span> de la courbe est le point\n<span class=\"math inline\">\\(G\\)</span> tel que <span\nclass=\"math inline\">\\(\\int_{t=a}^b \\vec{GM_t}\\|\\vec M\\,&#39;(t)\\|\\,dt =\n\\vec 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f4531655-62f9-42e2-9d53-3f3bdef9948a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer l'existence et l'unicit{\\'e} de $G$.",
+        "html": "<p>Montrer l’existence et l’unicit<span>é</span> de <span\nclass=\"math inline\">\\(G\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2b0fa125-4174-4217-ae0c-f40084917a02",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}terminer le centre de gravit{\\'e} d'un demi-cercle.\n    (On admet que $G$ est ind{\\'e}pendant du param{\\'e}trage)",
+        "html": "<p>D<span>é</span>terminer le centre de gravit<span>é</span> d’un\ndemi-cercle. (On admet que <span class=\"math inline\">\\(G\\)</span> est\nind<span>é</span>pendant du param<span>é</span>trage)</p>\n"
+      }
+    },
+    {
+      "id": "9877af03-ac71-486d-bcbe-5f5e63cc1d00",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $G$ appartient {\\`a} l'enveloppe convexe de la courbe.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(G\\)</span> appartient\n<span>à</span> l’enveloppe convexe de la courbe.</p>\n"
+      }
+    },
+    {
+      "id": "7c7d99e8-bb95-4f45-8d33-6e5063ab71de",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si la courbe admet un axe de sym{\\'e}trie, $\\Delta$, alors $G \\in \\Delta$.\n    (Si $\\sigma$ est la sym{\\'e}trie associ{\\'e}e, consid{\\'e}rer la courbe d{\\'e}crite par\n    $N_t = \\sigma(M_t)$)",
+        "html": "<p>Montrer que si la courbe admet un axe de sym<span>é</span>trie, <span\nclass=\"math inline\">\\(\\Delta\\)</span>, alors <span\nclass=\"math inline\">\\(G \\in \\Delta\\)</span>. (Si <span\nclass=\"math inline\">\\(\\sigma\\)</span> est la sym<span>é</span>trie\nassoci<span>é</span>e, consid<span>é</span>rer la courbe\nd<span>é</span>crite par <span class=\"math inline\">\\(N_t =\n\\sigma(M_t)\\)</span>)</p>\n"
+      }
+    },
+    {
+      "id": "8856c7f9-ac7a-4262-91ed-1856148985ff",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\Phi : {\\R^2} \\to {\\R^2}$ une isom{\\'e}trie affine.\n    Montrer que si $G$ est le centre de gravit{\\'e} de $\\mathcal{C}$, alors $\\Phi(G)$ est le centre\n    de gravit{\\'e} de $\\Phi(\\mathcal{C})$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\Phi : {\\R^2} \\to {\\R^2}\\)</span>\nune isom<span>é</span>trie affine. Montrer que si <span\nclass=\"math inline\">\\(G\\)</span> est le centre de gravit<span>é</span>\nde <span class=\"math inline\">\\(\\mathcal{C}\\)</span>, alors <span\nclass=\"math inline\">\\(\\Phi(G)\\)</span> est le centre de\ngravit<span>é</span> de <span\nclass=\"math inline\">\\(\\Phi(\\mathcal{C})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e41fe988-4d86-448c-a6c6-e2d52ed40ae2",
+      "type": "reponse",
+      "value": {
+        "latex": "demi-cercle unit{\\'e} $ \\Rightarrow  x = 0$, $y = \\frac 2\\pi$.\nSommes de Riemann + l'enveloppe convexe d'un compact est compacte.\n$\\vec N\\,'(t) = \\vec\\sigma(\\vec M\\,'(t))  \\Rightarrow \n             \\|\\vec N\\,'(t)\\| = \\|\\vec M\\,'(t))\\|$.\\par\n             $ \\int_{t=a}^b \\vec{GN_t}\\|\\vec N\\,'(t)\\|\\,dt = \\vec 0\n             =  \\int_{t=a}^b \\vec{\\sigma(G)N_t}\\|\\vec M\\,'(t)\\|\\,dt$,\n             donc $\\sigma(G) = G$.",
+        "html": "<p>demi-cercle unit<span>é</span> <span\nclass=\"math inline\">\\(\\Rightarrow  x = 0\\)</span>, <span\nclass=\"math inline\">\\(y = \\frac 2\\pi\\)</span>. Sommes de Riemann +\nl’enveloppe convexe d’un compact est compacte. <span\nclass=\"math inline\">\\(\\vec N\\,&#39;(t) = \\vec\\sigma(\\vec\nM\\,&#39;(t))  \\Rightarrow\n             \\|\\vec N\\,&#39;(t)\\| = \\|\\vec M\\,&#39;(t))\\|\\)</span>.</p>\n<p><span class=\"math inline\">\\(\\int_{t=a}^b \\vec{GN_t}\\|\\vec\nN\\,&#39;(t)\\|\\,dt = \\vec 0\n             =  \\int_{t=a}^b \\vec{\\sigma(G)N_t}\\|\\vec\nM\\,&#39;(t)\\|\\,dt\\)</span>, donc <span class=\"math inline\">\\(\\sigma(G) =\nG\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\varphi : {[a,b]} \\to {\\R^2}, t\n\\mapsto {M_t}\\)</span> une courbe param<span>é</span>tr<span>é</span>e\nde classe < ..."
+}

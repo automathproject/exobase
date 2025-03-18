@@ -1,0 +1,77 @@
+{
+  "uuid": "queJ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7513",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:08.403Z"
+  },
+  "contenu": [
+    {
+      "id": "c23ccaf6-ef6e-4347-a288-358c99f434e0",
+      "type": "description",
+      "value": {
+        "latex": "Soit $P$ un plan euclidien orienté.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P\\)</span> un plan euclidien\norienté.</p>\n"
+      }
+    },
+    {
+      "id": "be7d6aeb-a34d-4e94-b645-14865741cea4",
+      "type": "question",
+      "value": {
+        "latex": "Donner la liste des éléments du groupe des isométries du plan qui conservent un carré.",
+        "html": "<p>Donner la liste des éléments du groupe des isométries du plan qui\nconservent un carré.</p>\n"
+      }
+    },
+    {
+      "id": "8d30f977-cc8f-44aa-8c4e-bacd88906be3",
+      "type": "reponse",
+      "value": {
+        "latex": "Les éléments du groupe des isométries du plan qui conservent un carré ont tous le centre $O$ du carré comme points fixes. Ce sont donc outre l'identité, des réflexions d'axe passant par $O$ et des rotations de centre $O$.\r\n    Il y a quatre rotations $Id,r,r^2, r^3$ où $r$ est la rotation de centre $O$ et d'angle $+\\pi/2$. Il y a aussi quatre réflexions $s,rs,r^2s,r^3s$.",
+        "html": "<p>Les éléments du groupe des isométries du plan qui conservent un carré\nont tous le centre <span class=\"math inline\">\\(O\\)</span> du carré comme\npoints fixes. Ce sont donc outre l’identité, des réflexions d’axe\npassant par <span class=\"math inline\">\\(O\\)</span> et des rotations de\ncentre <span class=\"math inline\">\\(O\\)</span>. Il y a quatre rotations\n<span class=\"math inline\">\\(Id,r,r^2, r^3\\)</span> où <span\nclass=\"math inline\">\\(r\\)</span> est la rotation de centre <span\nclass=\"math inline\">\\(O\\)</span> et d’angle <span\nclass=\"math inline\">\\(+\\pi/2\\)</span>. Il y a aussi quatre réflexions\n<span class=\"math inline\">\\(s,rs,r^2s,r^3s\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f45edf2c-491b-42d9-ac97-6b162c7748e5",
+      "type": "question",
+      "value": {
+        "latex": "Ce groupe est-il commutatif ?",
+        "html": "<p>Ce groupe est-il commutatif ?</p>\n"
+      }
+    },
+    {
+      "id": "8909b4a4-a400-484a-a97a-dce20322f2eb",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme la composée des réflexions dépend de l'ordre, $(rs)s=r$ et $s(rs)=r^{-1}$, ce groupe n'est pas commutatif.",
+        "html": "<p>Comme la composée des réflexions dépend de l’ordre, <span\nclass=\"math inline\">\\((rs)s=r\\)</span> et <span\nclass=\"math inline\">\\(s(rs)=r^{-1}\\)</span>, ce groupe n’est pas\ncommutatif.</p>\n"
+      }
+    },
+    {
+      "id": "f024d79c-cd4a-4480-aa7c-0aca83777570",
+      "type": "question",
+      "value": {
+        "latex": "Le groupe des déplacements du plan qui conservent un carré est-il commutatif ?",
+        "html": "<p>Le groupe des déplacements du plan qui conservent un carré est-il\ncommutatif ?</p>\n"
+      }
+    },
+    {
+      "id": "ec18adb1-45be-4a87-9d7f-434470667017",
+      "type": "reponse",
+      "value": {
+        "latex": "Le groupe des déplacements du plan qui conservent un carré est un sous-groupe du groupe commutatif des rotation de centre $O$. Il est donc commutatif.",
+        "html": "<p>Le groupe des déplacements du plan qui conservent un carré est un\nsous-groupe du groupe commutatif des rotation de centre <span\nclass=\"math inline\">\\(O\\)</span>. Il est donc commutatif.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(P\\)</span> un plan euclidien\norienté.</p>\n"
+}

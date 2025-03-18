@@ -1,0 +1,53 @@
+{
+  "uuid": "bTGR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6318",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Solution maximale",
+    "sousChapitre": "Solution maximale",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:02.717Z"
+  },
+  "contenu": [
+    {
+      "id": "03b6cb7f-74b5-401e-9128-6bb6cf465837",
+      "type": "description",
+      "value": {
+        "latex": "On considère l'équation différentielle du second ordre\n$$({\\cal E})\\quad\\quad y''+ y=f(x)$$\noù $f$ est une fonction continue sur ${\\Rr}$ tout entier.",
+        "html": "<p>On considère l’équation différentielle du second ordre <span\nclass=\"math display\">\\[({\\cal E})\\quad\\quad y&#39;&#39;+ y=f(x)\\]</span>\noù <span class=\"math inline\">\\(f\\)</span> est une fonction continue sur\n<span class=\"math inline\">\\({\\Rr}\\)</span> tout entier.</p>\n"
+      }
+    },
+    {
+      "id": "6a52e855-3e1f-4b8a-b500-ca2efaaa7b67",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $f$ est un polyn\\^ome de degré $n$. \nOn note $E$ l'espace vectoriel des polyn\\^omes réels de degré $\\leq n$. Montrer\nque l'application\n$u$, définie sur $E$ par $u(P) = P''+ P$, est une application injective de $E$\n dans lui-même. \n\nEn déduire que l'équation ($\\cal E$) a une et une seule solution polyn\\^omiale $g$ qui est de même\ndegré que $f$.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(f\\)</span> est un polynôme\nde degré <span class=\"math inline\">\\(n\\)</span>. On note <span\nclass=\"math inline\">\\(E\\)</span> l’espace vectoriel des polynômes réels\nde degré <span class=\"math inline\">\\(\\leq n\\)</span>. Montrer que\nl’application <span class=\"math inline\">\\(u\\)</span>, définie sur <span\nclass=\"math inline\">\\(E\\)</span> par <span class=\"math inline\">\\(u(P) =\nP&#39;&#39;+ P\\)</span>, est une application injective de <span\nclass=\"math inline\">\\(E\\)</span> dans lui-même.</p>\n<p>En déduire que l’équation (<span class=\"math inline\">\\(\\cal\nE\\)</span>) a une et une seule solution polynômiale <span\nclass=\"math inline\">\\(g\\)</span> qui est de même degré que <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e64cdba0-ab62-4dcc-98ed-891ddcaec6c9",
+      "type": "question",
+      "value": {
+        "latex": "On suppose maintenant que $f$ est une fonction continue quelconque sur ${\\Rr}$. \nMontrer que la fonction\n$$\\int_0^x f(t) \\sin(x-t) \\ dt $$ est une solution particulière de ($\\cal E$); en déduire la\nsolution générale de l'équation.",
+        "html": "<p>On suppose maintenant que <span class=\"math inline\">\\(f\\)</span> est\nune fonction continue quelconque sur <span\nclass=\"math inline\">\\({\\Rr}\\)</span>. Montrer que la fonction <span\nclass=\"math display\">\\[\\int_0^x f(t) \\sin(x-t) \\ dt\\]</span> est une\nsolution particulière de (<span class=\"math inline\">\\(\\cal E\\)</span>);\nen déduire la solution générale de l’équation.</p>\n"
+      }
+    },
+    {
+      "id": "855176c5-bb93-498a-962b-7630afe9a299",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $f$ vérifie l'inégalité $f(t) \\leq {1\\over{1+t^2}}$ pour tout\n$t\\in {\\Rr}$, toutes les solutions de ($\\cal E$) sont des fonctions bornées.\nA-t-on la même conclusion si la fonction $f$ est seulement bornée sur ${\\Rr}$?",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(f\\)</span> vérifie\nl’inégalité <span class=\"math inline\">\\(f(t) \\leq\n{1\\over{1+t^2}}\\)</span> pour tout <span class=\"math inline\">\\(t\\in\n{\\Rr}\\)</span>, toutes les solutions de (<span\nclass=\"math inline\">\\(\\cal E\\)</span>) sont des fonctions bornées.\nA-t-on la même conclusion si la fonction <span\nclass=\"math inline\">\\(f\\)</span> est seulement bornée sur <span\nclass=\"math inline\">\\({\\Rr}\\)</span>?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’équation différentielle du second ordre <span\nclass=\"math display\">\\[({\\cal E})\\quad\\quad y&#39;&#39;+ y=f(x)\\]</span>\noù <span clas ..."
+}

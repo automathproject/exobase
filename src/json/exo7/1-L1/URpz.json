@@ -1,0 +1,53 @@
+{
+  "uuid": "URpz",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2916",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Cardinal",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:42.724Z"
+  },
+  "contenu": [
+    {
+      "id": "b0e4672e-2358-481d-9f65-9bd1b9ae6d4f",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A_1, \\dots, A_n$\\ $n$ ensembles finis, et $E = \\bigcup_{i=1}^n A_i$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A_1, \\dots, A_n\\)</span> <span\nclass=\"math inline\">\\(n\\)</span> ensembles finis, et <span\nclass=\"math inline\">\\(E = \\bigcup_{i=1}^n A_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d7cc8e26-8894-4664-b404-f1b274b1cf87",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\mathrm{Card}\\,(E) \\le \\sum_{i=1}^n \\mathrm{Card}\\,(A_i)$. Cas d'{\\'e}galit{\\'e} ?",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathrm{Card}\\,(E) \\le\n\\sum_{i=1}^n \\mathrm{Card}\\,(A_i)\\)</span>. Cas\nd’<span>é</span>galit<span>é</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "3539d4fa-b5d7-4d04-847a-c819998116cb",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\mathrm{Card}\\,(E) \\ge \\sum_{i=1}^n \\mathrm{Card}\\,(A_i) -\n    \\sum_{1\\le i< j \\le n} \\mathrm{Card}\\,(A_i\\cap A_j)$. Cas d'{\\'e}galit{\\'e} ?",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathrm{Card}\\,(E) \\ge\n\\sum_{i=1}^n \\mathrm{Card}\\,(A_i) -\n    \\sum_{1\\le i&lt; j \\le n} \\mathrm{Card}\\,(A_i\\cap A_j)\\)</span>. Cas\nd’<span>é</span>galit<span>é</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "b6ce4651-2229-45fc-b9b2-9292907413c3",
+      "type": "reponse",
+      "value": {
+        "latex": "R{\\'e}currence. {\\'E}galit{\\'e} pour $n \\le 2$ ou les $A_i$ 3 {\\`a} 3 disjoints.",
+        "html": "<p>R<span>é</span>currence. <span>É</span>galit<span>é</span> pour <span\nclass=\"math inline\">\\(n \\le 2\\)</span> ou les <span\nclass=\"math inline\">\\(A_i\\)</span> 3 <span>à</span> 3 disjoints.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A_1, \\dots, A_n\\)</span> <span\nclass=\"math inline\">\\(n\\)</span> ensembles finis, et <span\nclass=\"math inline\"> ..."
+}

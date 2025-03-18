@@ -1,0 +1,69 @@
+{
+  "uuid": "c7RZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1731",
+    "auteur": "ridde",
+    "createdAt": "1999-11-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction convexe",
+    "sousChapitre": "Fonction convexe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:33.309Z"
+  },
+  "contenu": [
+    {
+      "id": "7a8a8508-be68-4161-9a05-e18bcefae29d",
+      "type": "description",
+      "value": {
+        "latex": "Soient $p$ et $q \\in ]0,  + \\infty[$ tels que $\\frac 1p  + \\frac 1q = 1$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q \\in ]0,  + \\infty[\\)</span> tels que <span\nclass=\"math inline\">\\(\\frac 1p  + \\frac 1q = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ee85d5f7-e92e-4f94-89c2-6e38e2301020",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\forall x, y>0$ $xy \\leq \\frac{x^p}p + \\frac{y^q}q$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\forall x, y&gt;0\\)</span>\n<span class=\"math inline\">\\(xy \\leq \\frac{x^p}p +\n\\frac{y^q}q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b4801cd1-7d7b-4b76-a6b9-c5442542e36e",
+      "type": "question",
+      "value": {
+        "latex": "Soient $x_1, \\ldots, x_n, y_1, \\ldots, y_n>0$ tels que $\\sum\\limits_{i = 1}\n^n x_i^p =\\sum\\limits_{i = 1}^n y_i^q  = 1$. Montrer que $\\sum\\limits_{i = 1}\n^n x_i y_i \\leq 1$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(x_1, \\ldots, x_n, y_1, \\ldots,\ny_n&gt;0\\)</span> tels que <span class=\"math inline\">\\(\\sum\\limits_{i =\n1}\n^n x_i^p =\\sum\\limits_{i = 1}^n y_i^q  = 1\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\sum\\limits_{i = 1}\n^n x_i y_i \\leq 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e5178640-6b24-461b-94bf-b75a5b974e2a",
+      "type": "question",
+      "value": {
+        "latex": "Soient $x_1, \\ldots, x_n, y_1, \\ldots, y_n>0$. Montrer l'in\\'egalit\\'e de Hölder :\n$$\\sum\\limits_{i = 1} ^n x_i y_i \\leq (\\sum\\limits_{i = 1} ^n x_i^p )^{\\frac 1p}\n(\\sum\\limits_{i = 1} ^n y_i^q )^{\\frac 1q}$$",
+        "html": "<p>Soient <span class=\"math inline\">\\(x_1, \\ldots, x_n, y_1, \\ldots,\ny_n&gt;0\\)</span>. Montrer l’inégalité de Hölder : <span\nclass=\"math display\">\\[\\sum\\limits_{i = 1} ^n x_i y_i \\leq\n(\\sum\\limits_{i = 1} ^n x_i^p )^{\\frac 1p}\n(\\sum\\limits_{i = 1} ^n y_i^q )^{\\frac 1q}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "6e4b0fa1-5823-455c-a161-6ba4499081dc",
+      "type": "question",
+      "value": {
+        "latex": "Soit $p>1$. En \\'ecrivant $ (x_i + y_i)^p = x_i (x_i + y_i)^{p-1} +\ny_i (x_i + y_i)^{p-1}$, montrer l'in\\'egalit\\'e de Minkowski :\n$$(\\sum\\limits_{i = 1} ^n { (x_i + y_i)}^p )^{\\frac 1p} \\leq\n(\\sum\\limits_{i = 1} ^n x_i^p )^{\\frac 1p}  + (\\sum\\limits_{i = 1} ^n y_i^p )^{\\frac 1p} $$",
+        "html": "<p>Soit <span class=\"math inline\">\\(p&gt;1\\)</span>. En écrivant <span\nclass=\"math inline\">\\((x_i + y_i)^p = x_i (x_i + y_i)^{p-1} +\ny_i (x_i + y_i)^{p-1}\\)</span>, montrer l’inégalité de Minkowski : <span\nclass=\"math display\">\\[(\\sum\\limits_{i = 1} ^n { (x_i + y_i)}^p )^{\\frac\n1p} \\leq\n(\\sum\\limits_{i = 1} ^n x_i^p )^{\\frac 1p}  + (\\sum\\limits_{i = 1} ^n\ny_i^p )^{\\frac 1p}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "0a0e6160-0ebe-43d4-867d-3810eaf60047",
+      "type": "question",
+      "value": {
+        "latex": "Soit $ (a_n)$ une suite strictement positive, $u_n = \\sum\\limits_{k = 1}^n\na_k^2$ et $v_n= \\sum\\limits_{k = 1}^n \\frac{a_k}k$. Montrer que si $ (u_n)$ converge\nalors $ (v_n)$ aussi.",
+        "html": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite strictement\npositive, <span class=\"math inline\">\\(u_n = \\sum\\limits_{k = 1}^n\na_k^2\\)</span> et <span class=\"math inline\">\\(v_n= \\sum\\limits_{k = 1}^n\n\\frac{a_k}k\\)</span>. Montrer que si <span\nclass=\"math inline\">\\((u_n)\\)</span> converge alors <span\nclass=\"math inline\">\\((v_n)\\)</span> aussi.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q \\in ]0,  + \\infty[\\)</span> tels que <span\nclass=\"math inline\"> ..."
+}

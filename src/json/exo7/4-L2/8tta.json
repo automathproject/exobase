@@ -1,0 +1,53 @@
+{
+  "uuid": "8tta",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1535",
+    "auteur": "ortiz",
+    "createdAt": "1999-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Endomorphisme particulier",
+    "sousChapitre": "Endomorphisme auto-adjoint",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:48.522Z"
+  },
+  "contenu": [
+    {
+      "id": "3f4feaba-0432-4e21-b69a-e91f6a06da48",
+      "type": "description",
+      "value": {
+        "latex": "Soient $E$ un espace vectoriel euclidien et $f$ un\nendomorphisme de $E$ tel que\n$${\\forall x\\in E,\n{\\|f(x)\\|}\\le {\\|x\\|}.}$$",
+        "html": "<p>Soient <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien et <span class=\"math inline\">\\(f\\)</span> un endomorphisme de\n<span class=\"math inline\">\\(E\\)</span> tel que <span\nclass=\"math display\">\\[{\\forall x\\in E,\n{\\|f(x)\\|}\\le {\\|x\\|}.}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d197944d-c974-4c24-bbf2-ce6baa5a71df",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "de706aee-448b-49c9-8ec7-e070f71fd49d",
+      "type": "question",
+      "value": {
+        "latex": "Soit $x\\in E$ tel que $f^{\\ast}(x)=x$. Montrer que\n${\\|f(x)-x\\|}^2={\\|f(x)\\|}^2-{\\|x\\|}^2.$",
+        "html": "<p>Soit <span class=\"math inline\">\\(x\\in E\\)</span> tel que <span\nclass=\"math inline\">\\(f^{\\ast}(x)=x\\)</span>. Montrer que <span\nclass=\"math inline\">\\({\\|f(x)-x\\|}^2={\\|f(x)\\|}^2-{\\|x\\|}^2.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c37f79de-0233-40e3-8bb9-dc54b8ba8934",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que $\\ker (f^{\\ast}-\\text{Id})\\subseteq \\ker (f-\\text{Id}).$",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(\\ker\n(f^{\\ast}-\\text{Id})\\subseteq \\ker (f-\\text{Id}).\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien et <span class=\"math inline\">\\(f\\)</span> un endomorphisme de\n<span cla ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "UdQo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2363",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire bornée",
+    "sousChapitre": "Application linéaire bornée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:44.869Z"
+  },
+  "contenu": [
+    {
+      "id": "d933990d-79e0-404a-8fdf-bb1e624e280c",
+      "type": "description",
+      "value": {
+        "latex": "Soient $E$ et $F$ deux espaces norm\\'es r\\'eels et $f:E\\to F$ une application born\\'ee sur\nla boule unit\\'e de $E$ et v\\'erifiant\n$$f(x+y)=f(x) +f(y)\\quad  \\text{pour tout } x, y \\in E \\; .$$\nMontrer que $f$ est lin\\'eaire continue.",
+        "html": "<p>Soient <span class=\"math inline\">\\(E\\)</span> et <span\nclass=\"math inline\">\\(F\\)</span> deux espaces normés réels et <span\nclass=\"math inline\">\\(f:E\\to F\\)</span> une application bornée sur la\nboule unité de <span class=\"math inline\">\\(E\\)</span> et vérifiant <span\nclass=\"math display\">\\[f(x+y)=f(x) +f(y)\\quad  \\text{pour tout } x, y\n\\in E \\; .\\]</span> Montrer que <span class=\"math inline\">\\(f\\)</span>\nest linéaire continue.</p>\n"
+      }
+    },
+    {
+      "id": "43c9267c-65fd-4ef6-828a-b2016b3f9242",
+      "type": "indication",
+      "value": {
+        "latex": "Il faut montrer $f(\\lambda x)=\\lambda f(x)$ pour $\\lambda\\in\\Rr$.\nLe faire pour $\\lambda \\in \\Nn$, puis $\\lambda \\in \\Zz$, puis \n$\\lambda \\in \\Qq$ et enfin $\\lambda \\in \\Rr$.",
+        "html": "<p>Il faut montrer <span class=\"math inline\">\\(f(\\lambda x)=\\lambda\nf(x)\\)</span> pour <span class=\"math inline\">\\(\\lambda\\in\\Rr\\)</span>.\nLe faire pour <span class=\"math inline\">\\(\\lambda \\in \\Nn\\)</span>, puis\n<span class=\"math inline\">\\(\\lambda \\in \\Zz\\)</span>, puis <span\nclass=\"math inline\">\\(\\lambda \\in \\Qq\\)</span> et enfin <span\nclass=\"math inline\">\\(\\lambda \\in \\Rr\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3764b89d-cee3-4e63-a80d-c0ddb3bc92f0",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $f$ est linéaire et bornée sur la boule unité alors elle est continue\n(voir le cours ou refaire la démonstration).\nIl reste à montrer que $f$ est linéaire : on a déjà \n$f(x+y)=f(x)+f(y)$ pour tout $x,y$ reste donc à prouver $f(\\lambda x) = \\lambda f(x)$. Pour tout $\\lambda \\in \\Rr$ et $x\\in E$.\n  \\begin{itemize}\nPour $\\lambda \\in \\Zz$, c'est une récurrence, $f(2x) = f(x+x)= f(x)+f(x) = 2f(x)$. Puis $f(3x) = f(2x+x) =f(2x)+f(x)=2f(x)+f(x)=3f(x)$ etc.\nDonc $f(nx) = nf(x)$ pour $n\\in \\Nn$.\nDe plus $0=f(0)=f(x+(-x))=f(x)+f(-x)$ donc $f(-x)=-f(x)$.\nEnsuite on a $f(-nx) = -nf(x)$ pour $n \\in \\Nn$.\nBilan : pour tout $\\lambda \\in \\Zz$ on a $f(\\lambda x) = \\lambda f(x)$.\nPour $\\lambda \\in \\Qq$, soit $\\lambda = \\frac pq$, $p,q \\in \\Zz$.\n$$f(\\frac pq x) = pf(\\frac 1 q x) = \\frac pqq f(\\frac x q) = \\frac pq f(q \\frac xq) = \\frac pq f(x).$$\nNous avons utilisé intensivement le premier point.\nSoit $\\lambda \\in \\Rr$ alors il existe une suite $(\\lambda_n)$ d'élément de $\\Qq$ qui converge vers $\\lambda$. Fixons $x\\in E$.\n$$f(\\lambda x)-\\lambda f (x) = f(\\lambda x)-f(\\lambda_nx)+f(\\lambda_nx)-\\lambda f(x)= f((\\lambda-\\lambda_n)x)+(\\lambda_n-\\lambda)f(x).$$\nNous avons utilisé le second point.\nSoit $\\epsilon \\in \\Qq_+^*$. Pour $n$ assez grand on a \n $\\|(\\lambda-\\lambda_n)x \\| < \\epsilon$. Donc\n$\\|\\frac 1 \\epsilon(\\lambda-\\lambda_n)x \\| \\in B(0,1)$ or $f$ est bornée sur\nla boule unité donc il existe $M>0$ tel que $f(\\frac 1 \\epsilon(\\lambda-\\lambda_n)x) \\le M$ (quelque soit $n$). Donc $f(\\lambda-\\lambda_n)x) \\le M\\epsilon$\n($\\epsilon$ est rationnel donc on peut le ``sortir''). \nDe même pour $n$ assez grand on a $(\\lambda_n-\\lambda)f(x) < \\epsilon$. Maintenant\n$$ \\|f(\\lambda x)-\\lambda f (x)\\| \\le \\| f((\\lambda-\\lambda_n)x)\\| + \\| (\\lambda_n-\\lambda)f(x)\\| < M\\epsilon+\\epsilon.$$\nDonc pour $x,\\lambda$ fix\\'es, $\\|f(\\lambda x)-\\lambda f (x)\\|$ est aussi petit que l'on veut, donc est nul ! D'o\\`u $f(\\lambda x)=\\lambda f(x)$ pour $\\lambda \\in \\Rr$.\n  \\end{itemize}",
+        "html": "<p>Si <span class=\"math inline\">\\(f\\)</span> est linéaire et bornée sur\nla boule unité alors elle est continue (voir le cours ou refaire la\ndémonstration). Il reste à montrer que <span\nclass=\"math inline\">\\(f\\)</span> est linéaire : on a déjà <span\nclass=\"math inline\">\\(f(x+y)=f(x)+f(y)\\)</span> pour tout <span\nclass=\"math inline\">\\(x,y\\)</span> reste donc à prouver <span\nclass=\"math inline\">\\(f(\\lambda x) = \\lambda f(x)\\)</span>. Pour tout\n<span class=\"math inline\">\\(\\lambda \\in \\Rr\\)</span> et <span\nclass=\"math inline\">\\(x\\in E\\)</span>.</p>\n<div class=\"itemize\">\n<p>Pour <span class=\"math inline\">\\(\\lambda \\in \\Zz\\)</span>, c’est une\nrécurrence, <span class=\"math inline\">\\(f(2x) = f(x+x)= f(x)+f(x) =\n2f(x)\\)</span>. Puis <span class=\"math inline\">\\(f(3x) = f(2x+x)\n=f(2x)+f(x)=2f(x)+f(x)=3f(x)\\)</span> etc. Donc <span\nclass=\"math inline\">\\(f(nx) = nf(x)\\)</span> pour <span\nclass=\"math inline\">\\(n\\in \\Nn\\)</span>. De plus <span\nclass=\"math inline\">\\(0=f(0)=f(x+(-x))=f(x)+f(-x)\\)</span> donc <span\nclass=\"math inline\">\\(f(-x)=-f(x)\\)</span>. Ensuite on a <span\nclass=\"math inline\">\\(f(-nx) = -nf(x)\\)</span> pour <span\nclass=\"math inline\">\\(n \\in \\Nn\\)</span>. Bilan : pour tout <span\nclass=\"math inline\">\\(\\lambda \\in \\Zz\\)</span> on a <span\nclass=\"math inline\">\\(f(\\lambda x) = \\lambda f(x)\\)</span>. Pour <span\nclass=\"math inline\">\\(\\lambda \\in \\Qq\\)</span>, soit <span\nclass=\"math inline\">\\(\\lambda = \\frac pq\\)</span>, <span\nclass=\"math inline\">\\(p,q \\in \\Zz\\)</span>. <span\nclass=\"math display\">\\[f(\\frac pq x) = pf(\\frac 1 q x) = \\frac pqq\nf(\\frac x q) = \\frac pq f(q \\frac xq) = \\frac pq f(x).\\]</span> Nous\navons utilisé intensivement le premier point. Soit <span\nclass=\"math inline\">\\(\\lambda \\in \\Rr\\)</span> alors il existe une suite\n<span class=\"math inline\">\\((\\lambda_n)\\)</span> d’élément de <span\nclass=\"math inline\">\\(\\Qq\\)</span> qui converge vers <span\nclass=\"math inline\">\\(\\lambda\\)</span>. Fixons <span\nclass=\"math inline\">\\(x\\in E\\)</span>. <span\nclass=\"math display\">\\[f(\\lambda x)-\\lambda f (x) = f(\\lambda\nx)-f(\\lambda_nx)+f(\\lambda_nx)-\\lambda f(x)=\nf((\\lambda-\\lambda_n)x)+(\\lambda_n-\\lambda)f(x).\\]</span> Nous avons\nutilisé le second point. Soit <span class=\"math inline\">\\(\\epsilon \\in\n\\Qq_+^*\\)</span>. Pour <span class=\"math inline\">\\(n\\)</span> assez\ngrand on a <span class=\"math inline\">\\(\\|(\\lambda-\\lambda_n)x \\| &lt;\n\\epsilon\\)</span>. Donc <span class=\"math inline\">\\(\\|\\frac 1\n\\epsilon(\\lambda-\\lambda_n)x \\| \\in B(0,1)\\)</span> or <span\nclass=\"math inline\">\\(f\\)</span> est bornée sur la boule unité donc il\nexiste <span class=\"math inline\">\\(M&gt;0\\)</span> tel que <span\nclass=\"math inline\">\\(f(\\frac 1 \\epsilon(\\lambda-\\lambda_n)x) \\le\nM\\)</span> (quelque soit <span class=\"math inline\">\\(n\\)</span>). Donc\n<span class=\"math inline\">\\(f(\\lambda-\\lambda_n)x) \\le\nM\\epsilon\\)</span> (<span class=\"math inline\">\\(\\epsilon\\)</span> est\nrationnel donc on peut le “sortir”). De même pour <span\nclass=\"math inline\">\\(n\\)</span> assez grand on a <span\nclass=\"math inline\">\\((\\lambda_n-\\lambda)f(x) &lt; \\epsilon\\)</span>.\nMaintenant <span class=\"math display\">\\[\\|f(\\lambda x)-\\lambda f (x)\\|\n\\le \\| f((\\lambda-\\lambda_n)x)\\| + \\| (\\lambda_n-\\lambda)f(x)\\| &lt;\nM\\epsilon+\\epsilon.\\]</span> Donc pour <span\nclass=\"math inline\">\\(x,\\lambda\\)</span> fixés, <span\nclass=\"math inline\">\\(\\|f(\\lambda x)-\\lambda f (x)\\|\\)</span> est aussi\npetit que l’on veut, donc est nul ! D’où <span\nclass=\"math inline\">\\(f(\\lambda x)=\\lambda f(x)\\)</span> pour <span\nclass=\"math inline\">\\(\\lambda \\in \\Rr\\)</span>.</p>\n</div>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(E\\)</span> et <span\nclass=\"math inline\">\\(F\\)</span> deux espaces normés réels et <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "M3po",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4072",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:04.330Z"
+  },
+  "contenu": [
+    {
+      "id": "d138d507-77d2-4602-a67f-0af1826e22a3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ un polynôme à coefficients réels de degré 2 donné.\nAu polynôme $P$ de degré inférieur ou égal à $2n$ on fait correspondre le\npolynôme $Q = AP' - nA'P$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un polynôme à\ncoefficients réels de degré 2 donné. Au polynôme <span\nclass=\"math inline\">\\(P\\)</span> de degré inférieur ou égal à <span\nclass=\"math inline\">\\(2n\\)</span> on fait correspondre le polynôme <span\nclass=\"math inline\">\\(Q = AP&#39; - nA&#39;P\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e405cfa9-534b-446e-9733-3a32ce89c9cd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'on définit ainsi un endomorphisme $\\Phi$ de $\\R_{2n}[X]$.",
+        "html": "<p>Montrer qu’on définit ainsi un endomorphisme <span\nclass=\"math inline\">\\(\\Phi\\)</span> de <span\nclass=\"math inline\">\\(\\R_{2n}[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "94fcd526-9f6b-4f98-a7b4-da3d581a80a3",
+      "type": "question",
+      "value": {
+        "latex": "Chercher les valeurs propres et les vecteurs propres de $\\Phi$ dans les\n    cas particuliers :\\par\n   \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "f0f0d2f7-a9af-45c6-ba52-8303377314f8",
+      "type": "question",
+      "value": {
+        "latex": "$A = X^2-1$,",
+        "html": "<p><span class=\"math inline\">\\(A = X^2-1\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "787dc771-5eed-4b0a-beb9-30b29eece696",
+      "type": "question",
+      "value": {
+        "latex": "$A = X^2$,",
+        "html": "<p><span class=\"math inline\">\\(A = X^2\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "c7d79eba-e0dc-439d-9cf1-7805db519089",
+      "type": "question",
+      "value": {
+        "latex": "$A = X^2+1$.",
+        "html": "<p><span class=\"math inline\">\\(A = X^2+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d62ed62c-7921-4328-8378-c3cbebe92771",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\lambda = 2k$, $P = \\alpha(X-1)^{n-k}(X+1)^{n+k}$ pour $-n \\le k \\le n$.\n$\\lambda = 0$, $P = \\alpha X^{2n}$.\n$\\lambda = 0$, $P = \\alpha (X^2+1)^n$.",
+        "html": "<p><span class=\"math inline\">\\(\\lambda = 2k\\)</span>, <span\nclass=\"math inline\">\\(P = \\alpha(X-1)^{n-k}(X+1)^{n+k}\\)</span> pour\n<span class=\"math inline\">\\(-n \\le k \\le n\\)</span>. <span\nclass=\"math inline\">\\(\\lambda = 0\\)</span>, <span\nclass=\"math inline\">\\(P = \\alpha X^{2n}\\)</span>. <span\nclass=\"math inline\">\\(\\lambda = 0\\)</span>, <span\nclass=\"math inline\">\\(P = \\alpha (X^2+1)^n\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un polynôme à\ncoefficients réels de degré 2 donné. Au polynôme <span\nclass=\"math inline\">\\(P\\)</span> d ..."
+}

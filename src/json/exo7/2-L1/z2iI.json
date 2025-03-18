@@ -1,0 +1,37 @@
+{
+  "uuid": "z2iI",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4279",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:21.223Z"
+  },
+  "contenu": [
+    {
+      "id": "4952d334-eaa9-4fd0-8c00-0f7bb6854c73",
+      "type": "description",
+      "value": {
+        "latex": "Calculer par récurrence :\n$I_n =  \\int_{t=0}^1 \\frac{t^n\\,d t}{\\sqrt[4]{t^3(1-t)}} $.",
+        "html": "<p>Calculer par récurrence : <span class=\"math inline\">\\(I_n\n=  \\int_{t=0}^1 \\frac{t^n\\,d t}{\\sqrt[4]{t^3(1-t)}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3ce6f8c2-1fe4-4c23-850d-e056236965cd",
+      "type": "reponse",
+      "value": {
+        "latex": "$I_n = \\pi\\sqrt2 \\prod_{k=1}^n \\bigl( 1-\\frac3{4k} \\bigr) $.",
+        "html": "<p><span class=\"math inline\">\\(I_n = \\pi\\sqrt2 \\prod_{k=1}^n \\bigl(\n1-\\frac3{4k} \\bigr)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer par récurrence : <span class=\"math inline\">\\(I_n\n=  \\int_{t=0}^1 \\frac{t^n\\,d t}{\\sqrt[4]{t^3(1-t)}}\\)</span>.</p>\n"
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "MaqG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "132",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Ensemble",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:59.536Z"
+  },
+  "contenu": [
+    {
+      "id": "fe09861f-df56-4604-939a-c04176a8ec1c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ une partie de $E$, on appelle fonction caractéristique de~$A$\nl'application~$f$ de~$E$ dans l'ensemble à deux éléments $\\{0, 1\\}$, telle\nque~:\n$$f(x)=\\begin{cases}\n0&  \\text{ si } x\\notin A \\cr 1& \\text{ si } x \\in A \\cr\n\\end{cases}$$\nSoit $A$ et $B$ deux parties de $E$, $f$ et $g$ leurs fonctions\ncaractéristiques. Montrer que les fonctions suivantes sont les fonctions\ncaractéristiques d'ensembles que l'on déterminera~:",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> une partie de <span\nclass=\"math inline\">\\(E\\)</span>, on appelle fonction caractéristique\nde <span class=\"math inline\">\\(A\\)</span> l’application <span\nclass=\"math inline\">\\(f\\)</span> de <span\nclass=\"math inline\">\\(E\\)</span> dans l’ensemble à deux éléments <span\nclass=\"math inline\">\\(\\{0, 1\\}\\)</span>, telle que : <span\nclass=\"math display\">\\[f(x)=\\begin{cases}\n0&amp;  \\text{ si } x\\notin A \\cr 1&amp; \\text{ si } x \\in A \\cr\n\\end{cases}\\]</span> Soit <span class=\"math inline\">\\(A\\)</span> et\n<span class=\"math inline\">\\(B\\)</span> deux parties de <span\nclass=\"math inline\">\\(E\\)</span>, <span class=\"math inline\">\\(f\\)</span>\net <span class=\"math inline\">\\(g\\)</span> leurs fonctions\ncaractéristiques. Montrer que les fonctions suivantes sont les fonctions\ncaractéristiques d’ensembles que l’on déterminera :</p>\n"
+      }
+    },
+    {
+      "id": "d7bcdf91-62ea-487b-b051-9b9862739337",
+      "type": "question",
+      "value": {
+        "latex": "$1-f$.",
+        "html": "<p><span class=\"math inline\">\\(1-f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "47b615d6-f0cb-42b9-9b5f-845c75417ff1",
+      "type": "question",
+      "value": {
+        "latex": "$fg$.",
+        "html": "<p><span class=\"math inline\">\\(fg\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b12c6772-96cc-4725-885d-1c8379bdad8d",
+      "type": "question",
+      "value": {
+        "latex": "$f+g-fg$.",
+        "html": "<p><span class=\"math inline\">\\(f+g-fg\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> une partie de <span\nclass=\"math inline\">\\(E\\)</span>, on appelle fonction caractéristique\nde <span clas ..."
+}

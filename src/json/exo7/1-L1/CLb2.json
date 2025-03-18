@@ -1,0 +1,53 @@
+{
+  "uuid": "CLb2",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3494",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Morphismes particuliers",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:19.052Z"
+  },
+  "contenu": [
+    {
+      "id": "025e2ad2-e810-456d-a5be-da5dc30f2358",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E =  K^3$, $F = \\{ \\vec X = (x,y,z) \\text{ tq }  x + 2y + z = 0 \\}$\net $G = \\text{vect}\\bigl(\\vec U = (1,1,1)\\bigr)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E =  K^3\\)</span>, <span\nclass=\"math inline\">\\(F = \\{ \\vec X = (x,y,z) \\text{ tq }  x + 2y + z =\n0 \\}\\)</span> et <span class=\"math inline\">\\(G = \\text{vect}\\bigl(\\vec U\n= (1,1,1)\\bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "434d2dc1-06fc-40e4-bd2a-130592475561",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que $F \\oplus G = E$.",
+        "html": "<p>Vérifier que <span class=\"math inline\">\\(F \\oplus G = E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "21751c55-956b-4a00-845f-4042e5c8a3e3",
+      "type": "question",
+      "value": {
+        "latex": "Soit $s$ la symétrie de base $F$ de direction $G$ et $\\vec X = (x,y,z)$.\n    Déterminer $s(\\vec X)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(s\\)</span> la symétrie de base <span\nclass=\"math inline\">\\(F\\)</span> de direction <span\nclass=\"math inline\">\\(G\\)</span> et <span class=\"math inline\">\\(\\vec X =\n(x,y,z)\\)</span>. Déterminer <span class=\"math inline\">\\(s(\\vec\nX)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8b6031ac-6789-4dc1-8a5a-d792547324e0",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{cases} 2x' = x - 2y - z  \\cr\n                  2y' = -x -z       \\cr\n                  2z' = -x -2y + z. \\cr \\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 2x&#39; = x - 2y - z  \\cr\n                  2y&#39; = -x -z       \\cr\n                  2z&#39; = -x -2y + z. \\cr \\end{cases}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E =  K^3\\)</span>, <span\nclass=\"math inline\">\\(F = \\{ \\vec X = (x,y,z) \\text{ tq }  x + 2y + z =\n0 \\}\\)</span> et  ..."
+}

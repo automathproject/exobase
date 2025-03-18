@@ -1,0 +1,47 @@
+{
+  "uuid": "erHi",
+  "titre": "Racine multiple",
+  "theme": [
+    "polynômes"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-23",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:53:21.487Z"
+  },
+  "contenu": [
+    {
+      "id": "f2060664-ae80-46b8-a9e1-3b8f13d558b6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le polynôme $P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3 !}+\\ldots+\\frac{X^n}{n !}$ n'a pas de racine multiple.",
+        "html": "<p>Montrer que le polynôme <span\nclass=\"math inline\">\\(P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3\n!}+\\ldots+\\frac{X^n}{n !}\\)</span> n’a pas de racine multiple.</p>\n"
+      }
+    },
+    {
+      "id": "51c4c224-6ccc-4cc8-988c-110ce6447472",
+      "type": "indication",
+      "value": {
+        "latex": "Supposer qu'il existe une racine multiple, c'est-à-dire qu'il existe $\\alpha$ tel que $P(\\alpha) = P'(\\alpha) = 0$ et raisonner par l'absurde.",
+        "html": "<p>Supposer qu’il existe une racine multiple, c’est-à-dire qu’il existe\n<span class=\"math inline\">\\(\\alpha\\)</span> tel que <span\nclass=\"math inline\">\\(P(\\alpha) = P&#39;(\\alpha) = 0\\)</span> et\nraisonner par l’absurde.</p>\n"
+      }
+    },
+    {
+      "id": "e7167cfd-8d36-4a22-91de-1a7f634f5c11",
+      "type": "reponse",
+      "value": {
+        "latex": "Raisonnement par l'absurde :\n$a$ est racine multiple ssi $P(a)=P^{\\prime}(a)=0$.\nOn a :\n$$\n\\begin{aligned}\n& P(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !}+\\frac{X^n}{n !} \\\\\n& P^{\\prime}(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !} \\\\\n& \\left.\\begin{array}{l}\nP(a)=0 \\quad \\Leftrightarrow 1+a+\\frac{a^2}{2 !}+\\ldots+\\frac{a^{n-1}}{(n-1) !}+\\frac{a^n}{n !}=0 \\\\\nP^{\\prime}(a)=0 \\Leftrightarrow 1+a+\\frac{a^2}{2 !}+\\ldots+\\frac{a^{n-1}}{(n-1) !}=0\n\\end{array}\\right\\} \\Rightarrow \\frac{a^n}{n !}=0 \\Leftrightarrow a=0 \\\\\n&\n\\end{aligned}\n$$\nor 0 n'est pas racine car $P(0)=1$, donc $a$ ne peut pas être racine simultanément de $P$ et $P^{\\prime}$. $a$ ne peut pas être racine multiple.",
+        "html": "<p>Raisonnement par l’absurde : <span class=\"math inline\">\\(a\\)</span>\nest racine multiple ssi <span\nclass=\"math inline\">\\(P(a)=P^{\\prime}(a)=0\\)</span>. On a : <span\nclass=\"math display\">\\[\\begin{aligned}\n&amp; P(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1)\n!}+\\frac{X^n}{n !} \\\\\n&amp; P^{\\prime}(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !}\n\\\\\n&amp; \\left.\\begin{array}{l}\nP(a)=0 \\quad \\Leftrightarrow 1+a+\\frac{a^2}{2\n!}+\\ldots+\\frac{a^{n-1}}{(n-1) !}+\\frac{a^n}{n !}=0 \\\\\nP^{\\prime}(a)=0 \\Leftrightarrow 1+a+\\frac{a^2}{2\n!}+\\ldots+\\frac{a^{n-1}}{(n-1) !}=0\n\\end{array}\\right\\} \\Rightarrow \\frac{a^n}{n !}=0 \\Leftrightarrow a=0 \\\\\n&amp;\n\\end{aligned}\\]</span> or 0 n’est pas racine car <span\nclass=\"math inline\">\\(P(0)=1\\)</span>, donc <span\nclass=\"math inline\">\\(a\\)</span> ne peut pas être racine simultanément\nde <span class=\"math inline\">\\(P\\)</span> et <span\nclass=\"math inline\">\\(P^{\\prime}\\)</span>. <span\nclass=\"math inline\">\\(a\\)</span> ne peut pas être racine multiple.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que le polynôme <span\nclass=\"math inline\">\\(P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3\n!}+\\ldots+\\frac{X^n}{n !}\\)</span> n’a pas de racine mult ..."
+}

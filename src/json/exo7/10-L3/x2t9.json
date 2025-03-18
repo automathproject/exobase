@@ -1,0 +1,53 @@
+{
+  "uuid": "x2t9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2278",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:17.829Z"
+  },
+  "contenu": [
+    {
+      "id": "496a1844-be0e-4ab1-a0db-9aefc3a8fdf2",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "2e87b810-ba0e-4392-a5a0-748f30fe25c3",
+      "type": "question",
+      "value": {
+        "latex": "Soit $P\\in \\Zz[x]$. Soit $\\dfrac{a}{b}$\n sa racine rationnelle : $P(\\dfrac{a}{b})=0$, $\\pgcd(a,b)=1$.\nMontrer que $\\forall\\,k\\in \\Zz$ $\\ (a-bk)$ divise $P(k)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P\\in \\Zz[x]\\)</span>. Soit <span\nclass=\"math inline\">\\(\\dfrac{a}{b}\\)</span> sa racine rationnelle :\n<span class=\"math inline\">\\(P(\\dfrac{a}{b})=0\\)</span>, <span\nclass=\"math inline\">\\(\\pgcd(a,b)=1\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\forall\\,k\\in \\Zz\\)</span> <span\nclass=\"math inline\">\\(\\ (a-bk)\\)</span> divise <span\nclass=\"math inline\">\\(P(k)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0a6f871d-5a4c-41e1-9f8d-f4cb33b452d2",
+      "type": "question",
+      "value": {
+        "latex": "Quelles racines rationnelles ont les polyn\\^omes\n$f(x)=x^3-6x^2+15x-14$ et $g(x)=2x^3+3x^2+6x-4$ ?",
+        "html": "<p>Quelles racines rationnelles ont les polynômes <span\nclass=\"math inline\">\\(f(x)=x^3-6x^2+15x-14\\)</span> et <span\nclass=\"math inline\">\\(g(x)=2x^3+3x^2+6x-4\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "10020b38-125e-4eda-9d4e-9a12e67324b2",
+      "type": "reponse",
+      "value": {
+        "latex": "$(X-\\frac{a}{b})|P$ donc $\\exists Q\\in\\Qq[x], \\,\n    P=(x-\\frac{a}{b})Q=(bx-a)\\frac{Q}{b}$. En réduisant tous les\n    coefficients de $Q$ au même dénominateur, on peut mettre $Q$ sous la\n    forme~: $Q=\\frac{1}{m}Q_{1}$, avec $Q_{1}\\in\\Zz[X]$ primitif. Alors\n    $bdP=(bx-a)Q_{1}$. En considérant les contenus de ces polynômes, on a\n    $c(bx-a)=\\pgcd(a,b)=1$, $c(Q_{1})=1$ donc $c(bdP)=bd\\,c(P)=1$. Ainsi\n    $bd=\\pm1$, et $(bx-a)|P$.\nOn considère par exemple les cas $k=0,\\dots,3$. (Pour $k=2$, on\n    constate que $P(2)=0$~: on peut diviser $P$ par $(X-2)$ et déterminer\n    les trois racines complexes de $P$...). On obtient que\n    $$\\begin{align*}\n    (*)&&\\qquad       a&|14       &\\quad   (k=0),      \\\\\n    (**)&&\\qquad   (a-b)&|4       &\\quad   (k=1),      \\\\\n    (***)&&\\qquad  (a-3b)&|2^{3}5 &\\quad   (k=3).      \\\\\n    \\end{align*}$$\n    Au passage On peut remarquer que si $\\alpha\\leq0$, $P(\\alpha)<0$, donc on\n    peut supposer $a>0$ et $b>0$.\n    \\begin{itemize}\nSi $a=1$~: $(**)\\Rightarrow b\\in\\{2,3,5\\}$. Aucune de ces\n      possibilités n'est compatible avec $(***)$.\nSi $a=2$~: $(**)\\Rightarrow b\\in\\{1,3,4,6\\}$. Comme $\\pgcd(a,b)=1$,\n      $4$et $6$ sont exclus. $3$ n'est pas compatible avec $(***)$. Pour\n      $2$, on vérifie que $P(2)=0$.\nSi $a=7$~: $(**)\\Rightarrow b\\in\\{3,5,9,11\\}$. Mais aucune de ces\n      solution ne convient.\nSi $a=14$~: $(**)\\Rightarrow b\\in\\{10,12,16,18\\}$ mais\n      $\\pgcd(a,b)=1$ exclu toutes ces possibilités.\n    \\end{itemize}\n    Finalement, $2$ est la seule racine rationnelle de $P$.",
+        "html": "<p><span class=\"math inline\">\\((X-\\frac{a}{b})|P\\)</span> donc <span\nclass=\"math inline\">\\(\\exists Q\\in\\Qq[x], \\,\n    P=(x-\\frac{a}{b})Q=(bx-a)\\frac{Q}{b}\\)</span>. En réduisant tous les\ncoefficients de <span class=\"math inline\">\\(Q\\)</span> au même\ndénominateur, on peut mettre <span class=\"math inline\">\\(Q\\)</span> sous\nla forme : <span class=\"math inline\">\\(Q=\\frac{1}{m}Q_{1}\\)</span>, avec\n<span class=\"math inline\">\\(Q_{1}\\in\\Zz[X]\\)</span> primitif. Alors\n<span class=\"math inline\">\\(bdP=(bx-a)Q_{1}\\)</span>. En considérant les\ncontenus de ces polynômes, on a <span\nclass=\"math inline\">\\(c(bx-a)=\\pgcd(a,b)=1\\)</span>, <span\nclass=\"math inline\">\\(c(Q_{1})=1\\)</span> donc <span\nclass=\"math inline\">\\(c(bdP)=bd\\,c(P)=1\\)</span>. Ainsi <span\nclass=\"math inline\">\\(bd=\\pm1\\)</span>, et <span\nclass=\"math inline\">\\((bx-a)|P\\)</span>. On considère par exemple les\ncas <span class=\"math inline\">\\(k=0,\\dots,3\\)</span>. (Pour <span\nclass=\"math inline\">\\(k=2\\)</span>, on constate que <span\nclass=\"math inline\">\\(P(2)=0\\)</span> : on peut diviser <span\nclass=\"math inline\">\\(P\\)</span> par <span\nclass=\"math inline\">\\((X-2)\\)</span> et déterminer les trois racines\ncomplexes de <span class=\"math inline\">\\(P\\)</span>...). On obtient que\n<span class=\"math display\">\\[\\begin{align*}\n    (*)&amp;&amp;\\qquad       a&amp;|14       &amp;\\quad   (k=0),      \\\\\n    (**)&amp;&amp;\\qquad   (a-b)&amp;|4       &amp;\\quad   (k=1),      \\\\\n    (***)&amp;&amp;\\qquad  (a-3b)&amp;|2^{3}5\n&amp;\\quad   (k=3).      \\\\\n    \\end{align*}\\]</span> Au passage On peut remarquer que si <span\nclass=\"math inline\">\\(\\alpha\\leq0\\)</span>, <span\nclass=\"math inline\">\\(P(\\alpha)&lt;0\\)</span>, donc on peut supposer\n<span class=\"math inline\">\\(a&gt;0\\)</span> et <span\nclass=\"math inline\">\\(b&gt;0\\)</span>.</p>\n<div class=\"itemize\">\n<p>Si <span class=\"math inline\">\\(a=1\\)</span> : <span\nclass=\"math inline\">\\((**)\\Rightarrow b\\in\\{2,3,5\\}\\)</span>. Aucune de\nces possibilités n’est compatible avec <span\nclass=\"math inline\">\\((***)\\)</span>. Si <span\nclass=\"math inline\">\\(a=2\\)</span> : <span\nclass=\"math inline\">\\((**)\\Rightarrow b\\in\\{1,3,4,6\\}\\)</span>. Comme\n<span class=\"math inline\">\\(\\pgcd(a,b)=1\\)</span>, <span\nclass=\"math inline\">\\(4\\)</span>et <span\nclass=\"math inline\">\\(6\\)</span> sont exclus. <span\nclass=\"math inline\">\\(3\\)</span> n’est pas compatible avec <span\nclass=\"math inline\">\\((***)\\)</span>. Pour <span\nclass=\"math inline\">\\(2\\)</span>, on vérifie que <span\nclass=\"math inline\">\\(P(2)=0\\)</span>. Si <span\nclass=\"math inline\">\\(a=7\\)</span> : <span\nclass=\"math inline\">\\((**)\\Rightarrow b\\in\\{3,5,9,11\\}\\)</span>. Mais\naucune de ces solution ne convient. Si <span\nclass=\"math inline\">\\(a=14\\)</span> : <span\nclass=\"math inline\">\\((**)\\Rightarrow b\\in\\{10,12,16,18\\}\\)</span> mais\n<span class=\"math inline\">\\(\\pgcd(a,b)=1\\)</span> exclu toutes ces\npossibilités.</p>\n</div>\n<p>Finalement, <span class=\"math inline\">\\(2\\)</span> est la seule\nracine rationnelle de <span class=\"math inline\">\\(P\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(P\\in \\Zz[x]\\)</span>. Soit <span\nclass=\"math inline\">\\(\\dfrac{a}{b}\\)</span> sa racine rationnelle :\n<span class=\" ..."
+}

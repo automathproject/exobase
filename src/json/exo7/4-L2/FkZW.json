@@ -1,0 +1,125 @@
+{
+  "uuid": "FkZW",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7403",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:08.830Z"
+  },
+  "contenu": [
+    {
+      "id": "f0bfb8a4-d6b6-4206-b7a0-7d2a2f76de12",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "4a9fee59-ab57-4dba-afae-13e02da36c7e",
+      "type": "question",
+      "value": {
+        "latex": "On rappelle que le seul polynôme irréductible de degré $2$ sur $\\mathbb{F}_2$ est $X^2+X+1$.\r\n\tMontrer que le polynôme $X^4+X^3+1$ est irréductible dans $\\mathbb{F}_2[X]$.",
+        "html": "<p>On rappelle que le seul polynôme irréductible de degré <span\nclass=\"math inline\">\\(2\\)</span> sur <span\nclass=\"math inline\">\\(\\mathbb{F}_2\\)</span> est <span\nclass=\"math inline\">\\(X^2+X+1\\)</span>. Montrer que le polynôme <span\nclass=\"math inline\">\\(X^4+X^3+1\\)</span> est irréductible dans <span\nclass=\"math inline\">\\(\\mathbb{F}_2[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1e10dff1-95c1-4a40-b3e5-3f9a1d6e5302",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $P=X^2+X+1$. Le polynôme $P$ est sans racine, donc s'il\r\nest réductible, il se factorise en deux polynômes de degré 2. Or\r\n$(X^2+X+1)^2=X^4+X^2+1$, qui est différent de $P$. Donc $P$ est\r\nirréductible.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P=X^2+X+1\\)</span>. Le polynôme\n<span class=\"math inline\">\\(P\\)</span> est sans racine, donc s’il est\nréductible, il se factorise en deux polynômes de degré 2. Or <span\nclass=\"math inline\">\\((X^2+X+1)^2=X^4+X^2+1\\)</span>, qui est différent\nde <span class=\"math inline\">\\(P\\)</span>. Donc <span\nclass=\"math inline\">\\(P\\)</span> est irréductible.</p>\n"
+      }
+    },
+    {
+      "id": "bc9c142e-afeb-47de-a5a0-125e324c58a8",
+      "type": "question",
+      "value": {
+        "latex": "On note $A:=\\mathbb{F}_2[X]/(X^4+X^3+1)$ l'anneau quotient de\t$\\mathbb{F}_2[X]$ par l'idéal engendré par $P$.\tL'anneau $A$ est-il un corps ? Combien a-t-il d'éléments ?",
+        "html": "<p>On note <span\nclass=\"math inline\">\\(A:=\\mathbb{F}_2[X]/(X^4+X^3+1)\\)</span> l’anneau\nquotient de <span class=\"math inline\">\\(\\mathbb{F}_2[X]\\)</span> par\nl’idéal engendré par <span class=\"math inline\">\\(P\\)</span>. L’anneau\n<span class=\"math inline\">\\(A\\)</span> est-il un corps ? Combien a-t-il\nd’éléments ?</p>\n"
+      }
+    },
+    {
+      "id": "60143ea0-c52e-4ca1-a1c3-195ea1c9fbdd",
+      "type": "reponse",
+      "value": {
+        "latex": "L'idéal $(X^4+X^3+1)$ est premier car $X^4+X^3+1$ est\r\nirréductible, donc il est maximal car $\\mathbb{F}_2[X]$ est principal, comme\r\ntout anneau de polynômes sur un corps. Or le quotient par un idéal\r\nmaximal est un corps. Donc $A$ est un corps. De plus, il est\r\nisomorphe au polynôme de $\\mathbb{F}_2[X]$ de degré au plus 3, donc $A$\r\npossède 16 éléments.",
+        "html": "<p>L’idéal <span class=\"math inline\">\\((X^4+X^3+1)\\)</span> est premier\ncar <span class=\"math inline\">\\(X^4+X^3+1\\)</span> est irréductible,\ndonc il est maximal car <span\nclass=\"math inline\">\\(\\mathbb{F}_2[X]\\)</span> est principal, comme tout\nanneau de polynômes sur un corps. Or le quotient par un idéal maximal\nest un corps. Donc <span class=\"math inline\">\\(A\\)</span> est un corps.\nDe plus, il est isomorphe au polynôme de <span\nclass=\"math inline\">\\(\\mathbb{F}_2[X]\\)</span> de degré au plus 3, donc\n<span class=\"math inline\">\\(A\\)</span> possède 16 éléments.</p>\n"
+      }
+    },
+    {
+      "id": "24c48dd5-315e-4d8e-a41c-4f3773b94bad",
+      "type": "question",
+      "value": {
+        "latex": "On note $\\alpha$ la classe du polynôme $X$ dans $A$. Déterminer $\\alpha^4$ et $\\alpha^{15}$ comme polynômes de degré au\r\n\tplus $3$ en $\\alpha$.",
+        "html": "<p>On note <span class=\"math inline\">\\(\\alpha\\)</span> la classe du\npolynôme <span class=\"math inline\">\\(X\\)</span> dans <span\nclass=\"math inline\">\\(A\\)</span>. Déterminer <span\nclass=\"math inline\">\\(\\alpha^4\\)</span> et <span\nclass=\"math inline\">\\(\\alpha^{15}\\)</span> comme polynômes de degré au\nplus <span class=\"math inline\">\\(3\\)</span> en <span\nclass=\"math inline\">\\(\\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aea0612d-1f6f-4d75-a3c8-ba95fc2d94e6",
+      "type": "reponse",
+      "value": {
+        "latex": "Puisque $A$ est un corps, $A^*$ contient 15 éléments, donc\r\nl'ordre de tout élément de $A^*$ est un diviseur de 15. En\r\nparticulier, $\\alpha^{15}=1$.",
+        "html": "<p>Puisque <span class=\"math inline\">\\(A\\)</span> est un corps, <span\nclass=\"math inline\">\\(A^*\\)</span> contient 15 éléments, donc l’ordre de\ntout élément de <span class=\"math inline\">\\(A^*\\)</span> est un diviseur\nde 15. En particulier, <span\nclass=\"math inline\">\\(\\alpha^{15}=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4e680ab8-4179-4c0d-b189-f1c1015ceda8",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer toutes les puissances de $\\alpha$, $\\alpha$ jusqu'à $\\alpha^{15}$, comme polynômes de degré au plus~$3$ en $\\alpha$.",
+        "html": "<p>Déterminer toutes les puissances de <span\nclass=\"math inline\">\\(\\alpha\\)</span>, <span\nclass=\"math inline\">\\(\\alpha\\)</span> jusqu’à <span\nclass=\"math inline\">\\(\\alpha^{15}\\)</span>, comme polynômes de degré au\nplus <span class=\"math inline\">\\(3\\)</span> en <span\nclass=\"math inline\">\\(\\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d3225297-b435-43b1-8ed5-d3124970d427",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{array}{l}\r\n\\alpha^1=\\alpha\\\\\r\n\\alpha^2=\\alpha^2\\\\\r\n\\alpha^3=\\alpha^3\\\\\r\n\\alpha^4=\\alpha^3+1\\\\\r\n\\alpha^5=\\alpha^4+\\alpha=\\alpha^3+\\alpha+1\\\\\r\n\\end{array}$$\r\n$$\\begin{array}{l}\r\n\\alpha^6=\\alpha^4+\\alpha^2+\\alpha=\\alpha^3+\\alpha^2+\\alpha+1\\\\\r\n\\alpha^7=\\alpha^4+\\alpha^3+\\alpha^2+\\alpha=\\alpha^2+\\alpha+1\\\\\r\n\\alpha^8=\\alpha^3+\\alpha^2+\\alpha\\\\\r\n\\alpha^9=\\alpha^4+\\alpha^3+\\alpha^2=\\alpha^2+1\\\\\r\n\\alpha^{10}=\\alpha^3+\\alpha\\\\\r\n\\end{array}$$\r\n$$\\begin{array}{l}\r\n\\alpha^{11}=\\alpha^4+\\alpha^2=\\alpha^3+\\alpha^2+1\\\\\r\n\\alpha^{12}=\\alpha^4+\\alpha^3+\\alpha=\\alpha+1\\\\\r\n\\alpha^{13}=\\alpha^2+\\alpha\\\\\r\n\\alpha^{14}=\\alpha^3+\\alpha^2\\\\\r\n\\alpha^{15}=1\r\n\\end{array}$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{array}{l}\n\\alpha^1=\\alpha\\\\\n\\alpha^2=\\alpha^2\\\\\n\\alpha^3=\\alpha^3\\\\\n\\alpha^4=\\alpha^3+1\\\\\n\\alpha^5=\\alpha^4+\\alpha=\\alpha^3+\\alpha+1\\\\\n\\end{array}\\]</span> <span class=\"math display\">\\[\\begin{array}{l}\n\\alpha^6=\\alpha^4+\\alpha^2+\\alpha=\\alpha^3+\\alpha^2+\\alpha+1\\\\\n\\alpha^7=\\alpha^4+\\alpha^3+\\alpha^2+\\alpha=\\alpha^2+\\alpha+1\\\\\n\\alpha^8=\\alpha^3+\\alpha^2+\\alpha\\\\\n\\alpha^9=\\alpha^4+\\alpha^3+\\alpha^2=\\alpha^2+1\\\\\n\\alpha^{10}=\\alpha^3+\\alpha\\\\\n\\end{array}\\]</span> <span class=\"math display\">\\[\\begin{array}{l}\n\\alpha^{11}=\\alpha^4+\\alpha^2=\\alpha^3+\\alpha^2+1\\\\\n\\alpha^{12}=\\alpha^4+\\alpha^3+\\alpha=\\alpha+1\\\\\n\\alpha^{13}=\\alpha^2+\\alpha\\\\\n\\alpha^{14}=\\alpha^3+\\alpha^2\\\\\n\\alpha^{15}=1\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "80af0ad8-5125-47f7-9c44-8b1531be7d57",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $\\alpha^7+\\alpha^8+\\alpha^9$ comme polynômes de degré au plus $3$ en $\\alpha$.",
+        "html": "<p>Déterminer <span\nclass=\"math inline\">\\(\\alpha^7+\\alpha^8+\\alpha^9\\)</span> comme\npolynômes de degré au plus <span class=\"math inline\">\\(3\\)</span> en\n<span class=\"math inline\">\\(\\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "53e753b7-8f0f-46f7-9768-f39adfff4c50",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\alpha^7+\\alpha^8+\\alpha^9=\\alpha^7(1+\\alpha+\\alpha^2)=\\alpha^{7+7}=\\alpha^{14}=\\alpha^3+\\alpha^2$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\alpha^7+\\alpha^8+\\alpha^9=\\alpha^7(1+\\alpha+\\alpha^2)=\\alpha^{7+7}=\\alpha^{14}=\\alpha^3+\\alpha^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "64f8cde3-99f0-4c88-bcd9-afba74a5b0f4",
+      "type": "question",
+      "value": {
+        "latex": "Ecrire l'inverse de $1+\\alpha+\\alpha^3$ comme\tpuissance de $\\alpha$.",
+        "html": "<p>Ecrire l’inverse de <span\nclass=\"math inline\">\\(1+\\alpha+\\alpha^3\\)</span> comme puissance de\n<span class=\"math inline\">\\(\\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c0286e00-c913-41bc-abca-679d002496f9",
+      "type": "reponse",
+      "value": {
+        "latex": "$(1+\\alpha+\\alpha^3)^{-1}=(\\alpha^5)^{-1}=\\alpha^{10}$.",
+        "html": "<p><span\nclass=\"math inline\">\\((1+\\alpha+\\alpha^3)^{-1}=(\\alpha^5)^{-1}=\\alpha^{10}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On rappelle que le seul polynôme irréductible de degré <span\nclass=\"math inline\">\\(2\\)</span> sur <span\nclass=\"math inline\">\\(\\mathbb{F}_2\\)</span> ..."
+}

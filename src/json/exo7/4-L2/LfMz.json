@@ -1,0 +1,37 @@
+{
+  "uuid": "LfMz",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3787",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Endomorphismes auto-adjoints",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:25.720Z"
+  },
+  "contenu": [
+    {
+      "id": "7a4ab6c9-9b76-4e7e-8f0c-cb980d981ea3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f \\in \\mathcal{L}(E)$. Montrer qu'il existe une base orthonormée\n$(\\vec e_1,\\dots,\\vec e_n)$ dont l'image par $f$ est une famille orthogonale.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f \\in \\mathcal{L}(E)\\)</span>.\nMontrer qu’il existe une base orthonormée <span\nclass=\"math inline\">\\((\\vec e_1,\\dots,\\vec e_n)\\)</span> dont l’image\npar <span class=\"math inline\">\\(f\\)</span> est une famille\northogonale.</p>\n"
+      }
+    },
+    {
+      "id": "68b361b4-2cf9-4b71-b753-73e7b424f4e6",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit ${\\cal B}$ une BON fixée, $M = \\text{Mat}_{\\cal B}(f)$,\n         ${\\cal B}'$ la BON cherchée et $P$ la matrice de passage de $\\cal B$\n         à ${\\cal B}'$. On veut que ${}^tM'M'$ soit diagonale avec\n         $M' = {}^tPMP$, cad ${}^tP^tMMP$ diagonale.",
+        "html": "<p>Soit <span class=\"math inline\">\\({\\cal B}\\)</span> une BON fixée,\n<span class=\"math inline\">\\(M = \\text{Mat}_{\\cal B}(f)\\)</span>, <span\nclass=\"math inline\">\\({\\cal B}&#39;\\)</span> la BON cherchée et <span\nclass=\"math inline\">\\(P\\)</span> la matrice de passage de <span\nclass=\"math inline\">\\(\\cal B\\)</span> à <span\nclass=\"math inline\">\\({\\cal B}&#39;\\)</span>. On veut que <span\nclass=\"math inline\">\\({}^tM&#39;M&#39;\\)</span> soit diagonale avec\n<span class=\"math inline\">\\(M&#39; = {}^tPMP\\)</span>, cad <span\nclass=\"math inline\">\\({}^tP^tMMP\\)</span> diagonale.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f \\in \\mathcal{L}(E)\\)</span>.\nMontrer qu’il existe une base orthonormée <span\nclass=\"math inline\"> ..."
+}

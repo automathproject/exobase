@@ -1,0 +1,61 @@
+{
+  "uuid": "qLK0",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4009",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Formule de Taylor",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:51.277Z"
+  },
+  "contenu": [
+    {
+      "id": "9cb63a15-00a0-48d7-b8b9-aa6b34a33faf",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {[a,b]} \\to \\R$ de classe $\\mathcal{C}^2$. On note $M = \\sup|f''|$ et on suppose $M>0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to \\R\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^2\\)</span>. On note <span\nclass=\"math inline\">\\(M = \\sup|f&#39;&#39;|\\)</span> et on suppose <span\nclass=\"math inline\">\\(M&gt;0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "64ec9d68-191e-474f-944c-47477a757675",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que : $\\forall\\ x \\in {]a,b[}$, on a $\\left|f'(x) - \\frac {f(b)-f(a)}{b-a}\\right|\n    < M\\frac {b-a}2$.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ x \\in\n{]a,b[}\\)</span>, on a <span class=\"math inline\">\\(\\left|f&#39;(x) -\n\\frac {f(b)-f(a)}{b-a}\\right|\n    &lt; M\\frac {b-a}2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3bc8cbcb-ad73-48ec-89ba-b1a445128142",
+      "type": "reponse",
+      "value": {
+        "latex": "Formule de Taylor pour calculer $f(a)$ et $f(b)$ à partir de $f(x)$.",
+        "html": "<p>Formule de Taylor pour calculer <span\nclass=\"math inline\">\\(f(a)\\)</span> et <span\nclass=\"math inline\">\\(f(b)\\)</span> à partir de <span\nclass=\"math inline\">\\(f(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "86e49c8f-0c9e-48a3-880d-c26530546d68",
+      "type": "question",
+      "value": {
+        "latex": "Si $\\left|f'(a) - \\frac {f(b)-f(a)}{b-a}\\right| = M\\frac {b-a}2$,\n    montrer que $f$\n    est polynomiale de degré inférieur ou égal à 2.",
+        "html": "<p>Si <span class=\"math inline\">\\(\\left|f&#39;(a) - \\frac\n{f(b)-f(a)}{b-a}\\right| = M\\frac {b-a}2\\)</span>, montrer que <span\nclass=\"math inline\">\\(f\\)</span> est polynomiale de degré inférieur ou\négal à 2.</p>\n"
+      }
+    },
+    {
+      "id": "e590a2e7-5440-441d-81a6-d1183ae3615c",
+      "type": "reponse",
+      "value": {
+        "latex": "\\'Etudier $f(x) - f(a) - (x-a)f'(a) \\pm M(x-a)^2/2$.",
+        "html": "<p>Étudier <span class=\"math inline\">\\(f(x) - f(a) - (x-a)f&#39;(a) \\pm\nM(x-a)^2/2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to \\R\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^2\\)</span>. On note <span\nclass=\"mat ..."
+}

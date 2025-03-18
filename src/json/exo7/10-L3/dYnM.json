@@ -1,0 +1,109 @@
+{
+  "uuid": "dYnM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2314",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:04.286Z"
+  },
+  "contenu": [
+    {
+      "id": "5028b3f7-82db-4176-a7ab-a1e7eb2f1fa4",
+      "type": "description",
+      "value": {
+        "latex": "Soient $f=x^6+x^5+x^4+x^3+1\\in \\Zz_2[x]\\ $, $g=x^3+x^2+1 \\in\n  \\Zz_2[x]$ deux polyn\\^omes sur le corps $\\Zz_2$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(f=x^6+x^5+x^4+x^3+1\\in \\Zz_2[x]\\\n\\)</span>, <span class=\"math inline\">\\(g=x^3+x^2+1 \\in\n  \\Zz_2[x]\\)</span> deux polynômes sur le corps <span\nclass=\"math inline\">\\(\\Zz_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f62785ef-2823-4b03-b469-1c2f2ff0ae7c",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant l'algorithme d'Euclide trouver le p.g.c.d. de $f$ et\n  $g$ et sa repr\\'esentation lin\\'eaire.",
+        "html": "<p>En utilisant l’algorithme d’Euclide trouver le p.g.c.d. de <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> et sa représentation linéaire.</p>\n"
+      }
+    },
+    {
+      "id": "bd73c7b1-41c4-4a3a-aaf2-eb36747e7095",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{align*}\n\n\nf&=g(x^{3}+x+1)+(x^{2}+x)\\\\\ng&=(x^{2}+x)x+1\n\\end{align*}$$\ndonc $\\pgcd(f,g)=1$ et\n$$\n1=g-(x^{2}+x)x=g-(f-g(x^{3}+x+1))x=(x^{4}+x^{2}+x+1)g-xf\n$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{align*}\n\n\nf&amp;=g(x^{3}+x+1)+(x^{2}+x)\\\\\ng&amp;=(x^{2}+x)x+1\n\\end{align*}\\]</span> donc <span\nclass=\"math inline\">\\(\\pgcd(f,g)=1\\)</span> et <span\nclass=\"math display\">\\[1=g-(x^{2}+x)x=g-(f-g(x^{3}+x+1))x=(x^{4}+x^{2}+x+1)g-xf\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d1d29f34-cc40-44e8-affd-b38b685f1004",
+      "type": "question",
+      "value": {
+        "latex": "Les polyn\\^omes $f$ et $g$ sont-ils irr\\'eductibles ?",
+        "html": "<p>Les polynômes <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> sont-ils irréductibles ?</p>\n"
+      }
+    },
+    {
+      "id": "78a2fd39-345a-420b-a288-3930d6f298f7",
+      "type": "reponse",
+      "value": {
+        "latex": "$f=(x^{4}+x+1)(x^{2}+x+1)$ donc $f$ n'est pas irréductible.\n\n$g$ est de degré $3$ et n'a pas de racine, donc $g$ est irréductible.",
+        "html": "<p><span class=\"math inline\">\\(f=(x^{4}+x+1)(x^{2}+x+1)\\)</span> donc\n<span class=\"math inline\">\\(f\\)</span> n’est pas irréductible.</p>\n<p><span class=\"math inline\">\\(g\\)</span> est de degré <span\nclass=\"math inline\">\\(3\\)</span> et n’a pas de racine, donc <span\nclass=\"math inline\">\\(g\\)</span> est irréductible.</p>\n"
+      }
+    },
+    {
+      "id": "930243cd-3e27-4bbe-adba-1d3bb61c2fbc",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(g)$ l'id\\'eal principal engendr\\'e par $g$.  Combien\n  d'\\'el\\'ements contient l'anneau quotient $A=\\Zz_2[x]/(g)$ ?",
+        "html": "<p>Soit <span class=\"math inline\">\\((g)\\)</span> l’idéal principal\nengendré par <span class=\"math inline\">\\(g\\)</span>. Combien d’éléments\ncontient l’anneau quotient <span\nclass=\"math inline\">\\(A=\\Zz_2[x]/(g)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "2acb32ad-aadc-48c2-b721-6c7821a2bb03",
+      "type": "reponse",
+      "value": {
+        "latex": "Les éléments de $A$ sont en bijection avec les polynômes de $\\Zz_{2}[x]$\nde degré $<\\deg(g)=3$. Il y a $8$ polynômes de degré au plus $2$ sur\n$\\Zz_{2}$, donc $A$ a $8$ éléments.",
+        "html": "<p>Les éléments de <span class=\"math inline\">\\(A\\)</span> sont en\nbijection avec les polynômes de <span\nclass=\"math inline\">\\(\\Zz_{2}[x]\\)</span> de degré <span\nclass=\"math inline\">\\(&lt;\\deg(g)=3\\)</span>. Il y a <span\nclass=\"math inline\">\\(8\\)</span> polynômes de degré au plus <span\nclass=\"math inline\">\\(2\\)</span> sur <span\nclass=\"math inline\">\\(\\Zz_{2}\\)</span>, donc <span\nclass=\"math inline\">\\(A\\)</span> a <span\nclass=\"math inline\">\\(8\\)</span> éléments.</p>\n"
+      }
+    },
+    {
+      "id": "a0a3200e-e366-4b7b-81b2-fccf752b7fe9",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\pi\\,:\\,\\Zz_2[x]\\to A$ la projection canonique.  On pose\n  $\\pi(x)=\\bar x\\in A$. Trouver l'inverse de l'\\'el\\'ement $\\pi(f)$\n  dans l'anneau quotient $A$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\pi\\,:\\,\\Zz_2[x]\\to A\\)</span> la\nprojection canonique. On pose <span class=\"math inline\">\\(\\pi(x)=\\bar\nx\\in A\\)</span>. Trouver l’inverse de l’élément <span\nclass=\"math inline\">\\(\\pi(f)\\)</span> dans l’anneau quotient <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "07fad553-f11f-4561-920f-73ff3fe654d1",
+      "type": "reponse",
+      "value": {
+        "latex": "On utilise la représentation linéaire $uf+vg=1$ de $\\pgcd(f,g)$ obtenue\nplus haut. $uf=1+vg$, donc $\\bar{u} \\bar{f}=\\bar{1}+\\bar{0}=\\bar{1}$.\nDonc $(\\bar{f})^{-1}=\\bar{u}=\\bar{x}$.",
+        "html": "<p>On utilise la représentation linéaire <span\nclass=\"math inline\">\\(uf+vg=1\\)</span> de <span\nclass=\"math inline\">\\(\\pgcd(f,g)\\)</span> obtenue plus haut. <span\nclass=\"math inline\">\\(uf=1+vg\\)</span>, donc <span\nclass=\"math inline\">\\(\\bar{u} \\bar{f}=\\bar{1}+\\bar{0}=\\bar{1}\\)</span>.\nDonc <span\nclass=\"math inline\">\\((\\bar{f})^{-1}=\\bar{u}=\\bar{x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c2bb95a9-cc01-4d65-b83b-47656debe9b4",
+      "type": "question",
+      "value": {
+        "latex": "L'anneau quotient $B=\\Zz_2[x]/(f)$ est-il un corps ?  Justifier\n  la r\\'eponse, i.e. donner une d\\'emonstration si $B$ est un corps ou\n  trouver un \\'el\\'ement non-inversible dans $B$ dans le cas\n  contraire.",
+        "html": "<p>L’anneau quotient <span class=\"math inline\">\\(B=\\Zz_2[x]/(f)\\)</span>\nest-il un corps ? Justifier la réponse, i.e. donner une démonstration si\n<span class=\"math inline\">\\(B\\)</span> est un corps ou trouver un\nélément non-inversible dans <span class=\"math inline\">\\(B\\)</span> dans\nle cas contraire.</p>\n"
+      }
+    },
+    {
+      "id": "a4e4cade-d9ab-44c7-b9c1-736484c7555b",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f_{1}=x^{2}+x+1$ et $f_{2}=x^{4}+x+1$. Alors $f_{1}f_{2}=f$ donc\n$\\bar{f_{1}}\\bar{f_{2}}=\\bar{0}$. Pourtant, $f$ ne divise ni $f_{1}$ ni\n$f_{2}$, donc $\\bar{f_{1}}\\neq \\bar{0}$ et $\\bar{f_{2}}\\neq \\bar{0}$~:\n $B$ n'est pas intègre, donc $B$ n'est pas un corps.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f_{1}=x^{2}+x+1\\)</span> et <span\nclass=\"math inline\">\\(f_{2}=x^{4}+x+1\\)</span>. Alors <span\nclass=\"math inline\">\\(f_{1}f_{2}=f\\)</span> donc <span\nclass=\"math inline\">\\(\\bar{f_{1}}\\bar{f_{2}}=\\bar{0}\\)</span>. Pourtant,\n<span class=\"math inline\">\\(f\\)</span> ne divise ni <span\nclass=\"math inline\">\\(f_{1}\\)</span> ni <span\nclass=\"math inline\">\\(f_{2}\\)</span>, donc <span\nclass=\"math inline\">\\(\\bar{f_{1}}\\neq \\bar{0}\\)</span> et <span\nclass=\"math inline\">\\(\\bar{f_{2}}\\neq \\bar{0}\\)</span> : <span\nclass=\"math inline\">\\(B\\)</span> n’est pas intègre, donc <span\nclass=\"math inline\">\\(B\\)</span> n’est pas un corps.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(f=x^6+x^5+x^4+x^3+1\\in \\Zz_2[x]\\\n\\)</span>, <span class=\"math inline\">\\(g=x^3+x^2+1 \\in\n  \\Zz_2[x]\\)</span> deux ..."
+}

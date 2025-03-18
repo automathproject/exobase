@@ -1,0 +1,61 @@
+{
+  "uuid": "mW3Q",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4540",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:57.275Z"
+  },
+  "contenu": [
+    {
+      "id": "2ed7a76d-2853-47c6-8f1f-6db52c42a13b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f_n(x) = \\frac{n^x}{(1+x)(1+x/2)\\dots(1+x/n)}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f_n(x) =\n\\frac{n^x}{(1+x)(1+x/2)\\dots(1+x/n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b8f5f8b-6ddb-4c23-8e61-cde4a8174a6a",
+      "type": "question",
+      "value": {
+        "latex": "\\'Etudier la convergence simple des fonctions $f_n$.",
+        "html": "<p>Étudier la convergence simple des fonctions <span\nclass=\"math inline\">\\(f_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2e072175-e161-4cc9-8e00-d620df80865b",
+      "type": "question",
+      "value": {
+        "latex": "On note $f = \\lim f_n$. Calculer $f(x)$ en fonction de $f(x-1)$ lorsque\n    ces deux quantités existent.",
+        "html": "<p>On note <span class=\"math inline\">\\(f = \\lim f_n\\)</span>. Calculer\n<span class=\"math inline\">\\(f(x)\\)</span> en fonction de <span\nclass=\"math inline\">\\(f(x-1)\\)</span> lorsque ces deux quantités\nexistent.</p>\n"
+      }
+    },
+    {
+      "id": "8d4661fc-7c79-4dab-ba1d-7cf5a9ab5fd8",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est de classe $\\mathcal{C}^1$ sur son domaine de définition\n    (on calculera $f_n'(x)/f_n(x)$).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est de classe\n<span class=\"math inline\">\\(\\mathcal{C}^1\\)</span> sur son domaine de\ndéfinition (on calculera <span\nclass=\"math inline\">\\(f_n&#39;(x)/f_n(x)\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "e0f2ac9a-8f1c-43ae-859d-17c40f456850",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{f_n(x)}{f_{n+1}(x)} = 1 - \\frac{x(x+1)}{2n^2}\n         +  o\\left(\\frac1{n^2}\\right)$\n         donc la série $\\sum\\ln f_n(x)$ est convergente pour tout $x\\notin -\\N^*$.\n$\\frac{f_n'(x)}{f_n(x)} \\to -\\gamma + \\sum_{k=1}^\\infty \\frac x{k(k+x)}$ lorsque $n\\to\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{f_n(x)}{f_{n+1}(x)} = 1 -\n\\frac{x(x+1)}{2n^2}\n         +  o\\left(\\frac1{n^2}\\right)\\)</span> donc la série <span\nclass=\"math inline\">\\(\\sum\\ln f_n(x)\\)</span> est convergente pour tout\n<span class=\"math inline\">\\(x\\notin -\\N^*\\)</span>. <span\nclass=\"math inline\">\\(\\frac{f_n&#39;(x)}{f_n(x)} \\to -\\gamma +\n\\sum_{k=1}^\\infty \\frac x{k(k+x)}\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f_n(x) =\n\\frac{n^x}{(1+x)(1+x/2)\\dots(1+x/n)}\\)</span>.</p>\n"
+}

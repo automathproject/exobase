@@ -1,0 +1,69 @@
+{
+  "uuid": "Ivdv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1788",
+    "auteur": "drutu",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Limite",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:56.708Z"
+  },
+  "contenu": [
+    {
+      "id": "d357d5a3-419e-4f9a-9339-c54b38d34852",
+      "type": "description",
+      "value": {
+        "latex": "Pour chacune des fonctions $f$ suivantes, \\'etudier l'existence d'une\nlimite en $(0,0,0)$  :",
+        "html": "<p>Pour chacune des fonctions <span class=\"math inline\">\\(f\\)</span>\nsuivantes, étudier l’existence d’une limite en <span\nclass=\"math inline\">\\((0,0,0)\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "7f3c2b67-878b-4d36-87fa-e9cc9300b8a5",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y,z)= \\frac{xyz}{x+y+z}$ ;",
+        "html": "<p><span class=\"math inline\">\\(f(x,y,z)= \\frac{xyz}{x+y+z}\\)</span>\n;</p>\n"
+      }
+    },
+    {
+      "id": "96f7306e-cfbb-42ed-ba35-b710abc05076",
+      "type": "reponse",
+      "value": {
+        "latex": "Supposons $x+y+z \\ne 0$. Alors\n\\[\n\\frac{xyz}{x+y+z} =\\frac{xy(h(x,y)-x-y)}{h(x,y)}\n=xy -\\frac{xy(x+y)}{h(x,y)}\n\\]\n d'o\\`u, avec\n\\[h(x,y)=(x+y)^4,\n\\]\nnous obtenons\n\\[\n\\frac{xyz}{x+y+z} \n=xy -\\frac{xy}{(x+y)^3} .\n\\]\nIl s'ensuit que\n\\[\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z)\\to (0,0,0)\\\\x+y+z=(x+y)^4\\\\\nx\\ne 0, y\\ne  0, z \\ne 0\\end{smallmatrix}}\\frac{xyz}{x+y+z} \n\\]\nn'existe pas, au moins non pas en tant que limite finie.\nD'autre part,\n\\[\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z)\\to (0,0,0)\\\\\nx+z\\ne 0,y= 0\\end{smallmatrix}}\\frac{xyz}{x+y+z} =0.\n\\]\nPar cons\\'equent,\n\\[\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z)\\to (0,0,0)\\\\\nx+y+z\\ne 0\\end{smallmatrix}}\\frac{xyz}{x+y+z}\n\\]\nne peut pas exister.",
+        "html": "<p>Supposons <span class=\"math inline\">\\(x+y+z \\ne 0\\)</span>. Alors\n<span class=\"math display\">\\[\\frac{xyz}{x+y+z}\n=\\frac{xy(h(x,y)-x-y)}{h(x,y)}\n=xy -\\frac{xy(x+y)}{h(x,y)}\\]</span> d’où, avec <span\nclass=\"math display\">\\[h(x,y)=(x+y)^4,\\]</span> nous obtenons <span\nclass=\"math display\">\\[\\frac{xyz}{x+y+z}\n=xy -\\frac{xy}{(x+y)^3} .\\]</span> Il s’ensuit que <span\nclass=\"math display\">\\[\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z)\\to\n(0,0,0)\\\\x+y+z=(x+y)^4\\\\\nx\\ne 0, y\\ne  0, z \\ne 0\\end{smallmatrix}}\\frac{xyz}{x+y+z}\\]</span>\nn’existe pas, au moins non pas en tant que limite finie. D’autre part,\n<span class=\"math display\">\\[\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z)\\to\n(0,0,0)\\\\\nx+z\\ne 0,y= 0\\end{smallmatrix}}\\frac{xyz}{x+y+z} =0.\\]</span> Par\nconséquent, <span\nclass=\"math display\">\\[\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z)\\to\n(0,0,0)\\\\\nx+y+z\\ne 0\\end{smallmatrix}}\\frac{xyz}{x+y+z}\\]</span> ne peut pas\nexister.</p>\n"
+      }
+    },
+    {
+      "id": "ed0cb7f5-e59c-4a9e-81a8-7eb69926cb72",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y,z)= \\frac{x+y}{x^2-y^2+z^2}$.",
+        "html": "<p><span class=\"math inline\">\\(f(x,y,z)=\n\\frac{x+y}{x^2-y^2+z^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c53ef05d-69db-4b22-a99b-5a04ffc10b32",
+      "type": "reponse",
+      "value": {
+        "latex": "La limite\n\\[\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z) \\to (0,0,0)\\\\ x\\ne \\pm y, z = 0\\end{smallmatrix}}f(x,y,z)= \n\\mathrm{lim}_{\\begin{smallmatrix}(x,y) \\to (0,0)\\\\\nx \\ne y\\end{smallmatrix}}\\frac 1{x-y}\n\\]\nn'existe pas car $\\mathrm{lim}_{\\begin{smallmatrix}(x,y) \\to (0,0)\\\\\ny=x-x^2\\end{smallmatrix}}\\frac 1{x-y}$ n'existe pas.\nPar cons\\'equent,\n\\[\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z) \\to (0,0,0)\\\\x^2-y^2+z^2\\ne 0\\end{smallmatrix}}f(x,y,z)\n= \n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z) \\to (0,0,0)\\\\x^2-y^2+z^2\\ne 0\\end{smallmatrix}}\\frac{x+y}{x^2-y^2+z^2}\n\\]\nne peut pas exister.",
+        "html": "<p>La limite <span\nclass=\"math display\">\\[\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z) \\to\n(0,0,0)\\\\ x\\ne \\pm y, z = 0\\end{smallmatrix}}f(x,y,z)=\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y) \\to (0,0)\\\\\nx \\ne y\\end{smallmatrix}}\\frac 1{x-y}\\]</span> n’existe pas car <span\nclass=\"math inline\">\\(\\mathrm{lim}_{\\begin{smallmatrix}(x,y) \\to (0,0)\\\\\ny=x-x^2\\end{smallmatrix}}\\frac 1{x-y}\\)</span> n’existe pas. Par\nconséquent, <span\nclass=\"math display\">\\[\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z) \\to\n(0,0,0)\\\\x^2-y^2+z^2\\ne 0\\end{smallmatrix}}f(x,y,z)\n=\n\\mathrm{lim}_{\\begin{smallmatrix}(x,y,z) \\to (0,0,0)\\\\x^2-y^2+z^2\\ne\n0\\end{smallmatrix}}\\frac{x+y}{x^2-y^2+z^2}\\]</span> ne peut pas\nexister.</p>\n"
+      }
+    },
+    {
+      "id": "1508a518-2e7c-4e7a-b5c7-58ab90b561f1",
+      "type": "indication",
+      "value": {
+        "latex": "\\begin{enumerate}\n\\item Raisonner \\`a l'aide d'une fonction $h$ des variables $x$ et $y$\ntelle que $x+y+z=h(x,y)$ et $\\lim_{(x,y) \\to (0,0)} h(x,y)=0$.\n\n\\item Montrer que, d\\'ej\\`a sous la contrainte suppl\\'ementaire $z=0$,\nla limite ne peut pas exister.\n\\end{enumerate}",
+        "html": "<ol>\n<li><p>Raisonner à l’aide d’une fonction <span\nclass=\"math inline\">\\(h\\)</span> des variables <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(y\\)</span> telle que <span\nclass=\"math inline\">\\(x+y+z=h(x,y)\\)</span> et <span\nclass=\"math inline\">\\(\\lim_{(x,y) \\to (0,0)} h(x,y)=0\\)</span>.</p></li>\n<li><p>Montrer que, déjà sous la contrainte supplémentaire <span\nclass=\"math inline\">\\(z=0\\)</span>, la limite ne peut pas\nexister.</p></li>\n</ol>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour chacune des fonctions <span class=\"math inline\">\\(f\\)</span>\nsuivantes, étudier l’existence d’une limite en <span\nclass=\"math inline\"> ..."
+}

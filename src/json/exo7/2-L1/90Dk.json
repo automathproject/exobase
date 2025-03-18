@@ -1,0 +1,37 @@
+{
+  "uuid": "90Dk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4417",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:01.785Z"
+  },
+  "contenu": [
+    {
+      "id": "9f817b6e-9ba1-4089-a121-9d8213b21de3",
+      "type": "description",
+      "value": {
+        "latex": "Si $\\alpha>0$, donner la nature des séries $\\sum_{n\\ge 2}\\frac{(-1)^n}{(-1)^n+n^\\alpha}$,\n$\\sum_{n\\ge 2}\\ln\\Bigl(1+\\frac{(-1)^n}{n^\\alpha}\\Bigr)$ et $\\sum_{n\\ge 2}\\frac1{n\\ln n}$.",
+        "html": "<p>Si <span class=\"math inline\">\\(\\alpha&gt;0\\)</span>, donner la nature\ndes séries <span class=\"math inline\">\\(\\sum_{n\\ge\n2}\\frac{(-1)^n}{(-1)^n+n^\\alpha}\\)</span>, <span\nclass=\"math inline\">\\(\\sum_{n\\ge\n2}\\ln\\Bigl(1+\\frac{(-1)^n}{n^\\alpha}\\Bigr)\\)</span> et <span\nclass=\"math inline\">\\(\\sum_{n\\ge 2}\\frac1{n\\ln n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d36fd663-2793-4d09-8a3d-bda9334a00d8",
+      "type": "reponse",
+      "value": {
+        "latex": "Effectuer un développement asymptotique pour les deux premières. Elles convergent si et seulement si $\\alpha>\\frac12$.\nLa troisième diverge par comparaison série-intégrale.",
+        "html": "<p>Effectuer un développement asymptotique pour les deux premières.\nElles convergent si et seulement si <span\nclass=\"math inline\">\\(\\alpha&gt;\\frac12\\)</span>. La troisième diverge\npar comparaison série-intégrale.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Si <span class=\"math inline\">\\(\\alpha&gt;0\\)</span>, donner la nature\ndes séries <span class=\"math inline\"> ..."
+}

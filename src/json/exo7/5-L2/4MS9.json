@@ -1,0 +1,61 @@
+{
+  "uuid": "4MS9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4637",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:30.356Z"
+  },
+  "contenu": [
+    {
+      "id": "8840f55f-3437-4946-b4da-6e1b4db84dae",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f:\\R \\to \\R$ $2\\pi$-périodique continue par morceaux.\nQue peut-on dire des coefficients de Fourier de $f$ si l'on~a~:",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique continue par morceaux.\nQue peut-on dire des coefficients de Fourier de <span\nclass=\"math inline\">\\(f\\)</span> si l’on a :</p>\n"
+      }
+    },
+    {
+      "id": "ebdadfdc-e54c-49ff-a689-c082466b87ba",
+      "type": "question",
+      "value": {
+        "latex": "$\\forall\\ x \\in \\R,\\ f(x+\\pi) = f(x)$ ?",
+        "html": "<p><span class=\"math inline\">\\(\\forall\\ x \\in \\R,\\ f(x+\\pi) =\nf(x)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "3b2135c0-e5e9-48be-bb5a-061b215f2cc4",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_{2p+1} = b_{2p+1} = 0$.",
+        "html": "<p><span class=\"math inline\">\\(a_{2p+1} = b_{2p+1} = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ade302ce-ebe7-4f03-b66e-81d5ded47471",
+      "type": "question",
+      "value": {
+        "latex": "$\\forall\\ x \\in \\R,\\ f(x+\\pi) = -f(x)$ ?",
+        "html": "<p><span class=\"math inline\">\\(\\forall\\ x \\in \\R,\\ f(x+\\pi) =\n-f(x)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "f224546f-42b8-4838-9912-683b588c62f7",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_{2p} = b_{2p} = 0$.",
+        "html": "<p><span class=\"math inline\">\\(a_{2p} = b_{2p} = 0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique continue par morceaux.\nQue peut-on dire  ..."
+}

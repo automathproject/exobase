@@ -1,0 +1,53 @@
+{
+  "uuid": "CzFp",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2345",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:28.490Z"
+  },
+  "contenu": [
+    {
+      "id": "dc928378-5bab-41cc-944d-66b95176002c",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "d7fc0ce4-b088-445f-8d84-c53fa8f1d670",
+      "type": "question",
+      "value": {
+        "latex": "Si $(x,y)\\in\\Rr^2$, on pose $||(x,y)||=\\max(|x+y|,|x-2y|)$. Montrer qu'il\ns'agit d'une norme sur $\\Rr^2$ et dessiner sa boule unit\\'e ferm\\'ee.",
+        "html": "<p>Si <span class=\"math inline\">\\((x,y)\\in\\Rr^2\\)</span>, on pose <span\nclass=\"math inline\">\\(||(x,y)||=\\max(|x+y|,|x-2y|)\\)</span>. Montrer\nqu’il s’agit d’une norme sur <span class=\"math inline\">\\(\\Rr^2\\)</span>\net dessiner sa boule unité fermée.</p>\n"
+      }
+    },
+    {
+      "id": "2c81b476-2683-4f05-8d5d-a0c24204a1bf",
+      "type": "question",
+      "value": {
+        "latex": "Soit $p,q$ deux normes sur $\\Rr^n$, $B_p$ et $B_q$ leurs boules unit\\'es\nferm\\'ees. Montrer que \n$$ B_q\\subset B_p\\Longleftrightarrow p\\leq q.$$\n\nQue signifie $ {1\\over2}B_p\\subset B_q\\subset 2B_p$ ? Exemples.",
+        "html": "<p>Soit <span class=\"math inline\">\\(p,q\\)</span> deux normes sur <span\nclass=\"math inline\">\\(\\Rr^n\\)</span>, <span\nclass=\"math inline\">\\(B_p\\)</span> et <span\nclass=\"math inline\">\\(B_q\\)</span> leurs boules unités fermées. Montrer\nque <span class=\"math display\">\\[B_q\\subset B_p\\Longleftrightarrow p\\leq\nq.\\]</span></p>\n<p>Que signifie <span class=\"math inline\">\\({1\\over2}B_p\\subset\nB_q\\subset 2B_p\\)</span> ? Exemples.</p>\n"
+      }
+    },
+    {
+      "id": "86a140ae-0d84-4f14-bc3a-9a815d808a2b",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}\nSi $||(x,y)||=0$ alors $\\max(|x+y|,|x-2y|)=0$ donc $x+y=0$ et $x-2y=0$ donc $x=0$ et $y=0$. Réciproquement $\\|(0,0)\\|=0$.\n$||\\lambda.(x,y)||= ||(\\lambda x,\\lambda y)||=\\max(|\\lambda x+ \\lambda y|,|\\lambda x-2\\lambda y|) = |\\lambda|\\max(|x+y|,|x-2y|) = |\\lambda|.||(x,y)||$.\n$\\|(x,y)+(x',y')\\| = \\|(x+x',y+y')\\| =  \\max(|x+x'+y+y'|,|x+x'-2y-2y'|) \\le \\max (|x+y|+|x'+y'|,|x-2y|+|x'-2y'|) \\le \\max(|x+y|,|x-2y|)+\\max(|x'+y'|, |x'-2y'|) \\le ||(x,y)||+ ||(x',y')||$.",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Si <span class=\"math inline\">\\((x,y)\\in\\Rr^2\\)</span>, on pose <span\nclass=\"math inline\">\\(||(x,y)||=\\max(|x+y|,|x-2y|)\\)</span>. Montrer\nqu’il s’a ..."
+}

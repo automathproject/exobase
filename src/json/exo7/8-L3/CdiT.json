@@ -1,0 +1,37 @@
+{
+  "uuid": "CdiT",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2177",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "true",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Action de groupe",
+    "sousChapitre": "Action de groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:48.082Z"
+  },
+  "contenu": [
+    {
+      "id": "91f82f5e-e1db-4fa1-9fe0-43e0d70606e5",
+      "type": "description",
+      "value": {
+        "latex": "Etant donn\\'es un groupe $G$ et un sous-groupe $H$, on d\\'efinit le normalisateur $\\textrm{Nor}_G(H)$ de $H$ dans $G$ comme l'ensemble des \\'el\\'ements $g\\in G$ tels que $gHg^{-1} = H$. \n\\smallskip\n\n(a) Montrer que $\\textrm{Nor}_G(H)$ est le plus grand sous-groupe de $G$ contenant $H$ comme sous-groupe distingu\\'e. \n\\smallskip\n\n(b) Montrer que le nombre de sous-groupes distincts conjugu\\'es de $H$ dans $G$ est \\'egal \\`a l'indice $[G:\\textrm{Nor}_G(H)]$ et qu'en particulier c'est un diviseur de l'ordre de $G$.",
+        "html": "<p>Etant donnés un groupe <span class=\"math inline\">\\(G\\)</span> et un\nsous-groupe <span class=\"math inline\">\\(H\\)</span>, on définit le\nnormalisateur <span class=\"math inline\">\\(\\textrm{Nor}_G(H)\\)</span> de\n<span class=\"math inline\">\\(H\\)</span> dans <span\nclass=\"math inline\">\\(G\\)</span> comme l’ensemble des éléments <span\nclass=\"math inline\">\\(g\\in G\\)</span> tels que <span\nclass=\"math inline\">\\(gHg^{-1} = H\\)</span>.</p>\n<p>(a) Montrer que <span\nclass=\"math inline\">\\(\\textrm{Nor}_G(H)\\)</span> est le plus grand\nsous-groupe de <span class=\"math inline\">\\(G\\)</span> contenant <span\nclass=\"math inline\">\\(H\\)</span> comme sous-groupe distingué.</p>\n<p>(b) Montrer que le nombre de sous-groupes distincts conjugués de\n<span class=\"math inline\">\\(H\\)</span> dans <span\nclass=\"math inline\">\\(G\\)</span> est égal à l’indice <span\nclass=\"math inline\">\\([G:\\textrm{Nor}_G(H)]\\)</span> et qu’en\nparticulier c’est un diviseur de l’ordre de <span\nclass=\"math inline\">\\(G\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eda979f2-6590-40f6-abf0-1eb421878a76",
+      "type": "indication",
+      "value": {
+        "latex": "(a) Aucune difficult\\'e.\n\n(b) Le nombre cherch\\'e est l'orbite de $H$ sous l'action de $G$ par conjugaison sur ses sous-groupes et $\\textrm{Nor}_G(H)$ est le fixateur de $H$ pour cette action.",
+        "html": "<p>(a) Aucune difficulté.</p>\n<p>(b) Le nombre cherché est l’orbite de <span\nclass=\"math inline\">\\(H\\)</span> sous l’action de <span\nclass=\"math inline\">\\(G\\)</span> par conjugaison sur ses sous-groupes et\n<span class=\"math inline\">\\(\\textrm{Nor}_G(H)\\)</span> est le fixateur\nde <span class=\"math inline\">\\(H\\)</span> pour cette action.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Etant donnés un groupe <span class=\"math inline\">\\(G\\)</span> et un\nsous-groupe <span class=\"math inline\">\\(H\\)</span>, on définit le\nnormalisateur ..."
+}

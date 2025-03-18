@@ -1,0 +1,53 @@
+{
+  "uuid": "cqFq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7134",
+    "auteur": "megy",
+    "createdAt": "2017-02-08",
+    "hasIndication": "true",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:40.102Z"
+  },
+  "contenu": [
+    {
+      "id": "9b9209b7-0d98-4fb8-a8d3-9ebc324b2baf",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "61743e68-3daa-4ba4-8b7c-576349ae92f7",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\Gamma$ un cercle, $O$ son centre et $M$ un point n'appartenant pas à $\\Gamma$. Deux sécantes issues de $M$ coupent $\\Gamma$ respectivement en $A$ et $B$, et en $C$ et $D$. Démontrer l'égalité:\r\n\\[2 (\\overrightarrow{MA},\\overrightarrow{MC}) = (\\overrightarrow{OB},\\overrightarrow{OD}) -  (\\overrightarrow{OC},\\overrightarrow{OA}).\\]",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\Gamma\\)</span> un cercle, <span\nclass=\"math inline\">\\(O\\)</span> son centre et <span\nclass=\"math inline\">\\(M\\)</span> un point n’appartenant pas à <span\nclass=\"math inline\">\\(\\Gamma\\)</span>. Deux sécantes issues de <span\nclass=\"math inline\">\\(M\\)</span> coupent <span\nclass=\"math inline\">\\(\\Gamma\\)</span> respectivement en <span\nclass=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span>, et en <span\nclass=\"math inline\">\\(C\\)</span> et <span\nclass=\"math inline\">\\(D\\)</span>. Démontrer l’égalité: <span\nclass=\"math display\">\\[2 (\\overrightarrow{MA},\\overrightarrow{MC}) =\n(\\overrightarrow{OB},\\overrightarrow{OD})\n-  (\\overrightarrow{OC},\\overrightarrow{OA}).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "ef956661-54fe-433b-96bb-4fa0d0d70865",
+      "type": "question",
+      "value": {
+        "latex": "Soient $A$ et $B$ deux points d'un cercle $\\Gamma$ de centre $O$ et de rayon $r$. Sur la droite $(OA)$, soit $C$ le point extérieur au cercle tel que la droite $(CB)$ recoupe le cercle en un point $M$ vérifiant $MC=r$. (On ne demande pas de construire ce point, le placer approximativement sur la figure.) Montrer que $\\widehat{ACB} = \\frac13 \\widehat{AOB}$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> deux points d’un cercle <span\nclass=\"math inline\">\\(\\Gamma\\)</span> de centre <span\nclass=\"math inline\">\\(O\\)</span> et de rayon <span\nclass=\"math inline\">\\(r\\)</span>. Sur la droite <span\nclass=\"math inline\">\\((OA)\\)</span>, soit <span\nclass=\"math inline\">\\(C\\)</span> le point extérieur au cercle tel que la\ndroite <span class=\"math inline\">\\((CB)\\)</span> recoupe le cercle en un\npoint <span class=\"math inline\">\\(M\\)</span> vérifiant <span\nclass=\"math inline\">\\(MC=r\\)</span>. (On ne demande pas de construire ce\npoint, le placer approximativement sur la figure.) Montrer que <span\nclass=\"math inline\">\\(\\widehat{ACB} = \\frac13\n\\widehat{AOB}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "593149ce-1d8f-4cd5-941d-6e4cefd92930",
+      "type": "indication",
+      "value": {
+        "latex": "Décomposer $(\\overrightarrow{MA},\\overrightarrow{MC})$ en $(\\overrightarrow{MA},\\overrightarrow{AD}) + (\\overrightarrow{AD},\\overrightarrow{MC})$.",
+        "html": "<p>Décomposer <span\nclass=\"math inline\">\\((\\overrightarrow{MA},\\overrightarrow{MC})\\)</span>\nen <span class=\"math inline\">\\((\\overrightarrow{MA},\\overrightarrow{AD})\n+ (\\overrightarrow{AD},\\overrightarrow{MC})\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\Gamma\\)</span> un cercle, <span\nclass=\"math inline\">\\(O\\)</span> son centre et <span\nclass=\"math inline\">\\(M\\)</s ..."
+}

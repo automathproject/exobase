@@ -1,0 +1,141 @@
+{
+  "uuid": "VFG3",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4055",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:23.769Z"
+  },
+  "contenu": [
+    {
+      "id": "e7c31cee-94ef-4174-8d48-0e30576f0bf5",
+      "type": "description",
+      "value": {
+        "latex": "Intégrer :",
+        "html": "<p>Intégrer :</p>\n"
+      }
+    },
+    {
+      "id": "2c446d10-d17d-4bc5-a3b6-3211cb95d708",
+      "type": "question",
+      "value": {
+        "latex": "$y'' -2y' + 2y = xe^x$.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; -2y&#39; + 2y =\nxe^x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bb036728-ce2b-4fb3-9112-cb5ee199fc3e",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = (x + a\\cos x + b\\sin x) e^x$.",
+        "html": "<p><span class=\"math inline\">\\(y = (x + a\\cos x + b\\sin x)\ne^x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9dde482b-5c11-4642-a829-a65edd907473",
+      "type": "question",
+      "value": {
+        "latex": "$y'' - 4y' + 4y = 2(x-2)e^x$.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; - 4y&#39; + 4y =\n2(x-2)e^x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "57c01906-6c47-4a27-8723-429c5b4d91df",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = (ax+b)e^{2x} + 2xe^x$.",
+        "html": "<p><span class=\"math inline\">\\(y = (ax+b)e^{2x} + 2xe^x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d9be6c62-c695-462f-8219-b8ed72b59a8c",
+      "type": "question",
+      "value": {
+        "latex": "$y'' - 4y' + 13y = 10\\cos 2x + 25\\sin 2x$.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; - 4y&#39; + 13y = 10\\cos 2x +\n25\\sin 2x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4a89fbc4-c129-461e-b803-f1f1ba8d2235",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = e^{2x}(a\\cos3x + b\\sin3x) + 2\\cos2x + \\sin 2x$.",
+        "html": "<p><span class=\"math inline\">\\(y = e^{2x}(a\\cos3x + b\\sin3x) + 2\\cos2x +\n\\sin 2x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d1652bc6-113c-4562-82a6-b5ff469e7922",
+      "type": "question",
+      "value": {
+        "latex": "$y'' + y = \\mathrm{cotan} x$.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; + y = \\mathrm{cotan}\nx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "700cb301-2c33-473f-89c7-efcf20bb20b0",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\sin x\\ln\\Bigl|\\tan \\frac x2\\Bigr| + \\lambda \\cos x + \\mu\\sin x$\n               (variation de la constante avec sin).",
+        "html": "<p><span class=\"math inline\">\\(y = \\sin x\\ln\\Bigl|\\tan \\frac x2\\Bigr| +\n\\lambda \\cos x + \\mu\\sin x\\)</span> (variation de la constante avec\nsin).</p>\n"
+      }
+    },
+    {
+      "id": "892913a4-7f04-4788-97f9-1915c31d6144",
+      "type": "question",
+      "value": {
+        "latex": "$y'' + 3y' + 2y = \\frac{x-1}{x^2} e^{-x}$.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; + 3y&#39; + 2y =\n\\frac{x-1}{x^2} e^{-x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "19f6d6b6-e252-4a65-9dd5-08fedd6c5b0a",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = (\\lambda + \\ln|x|)e^{-x} + \\mu e^{-2x}$.",
+        "html": "<p><span class=\"math inline\">\\(y = (\\lambda + \\ln|x|)e^{-x} + \\mu\ne^{-2x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d807fe10-04f5-4329-b7cd-c86a8dd23e09",
+      "type": "question",
+      "value": {
+        "latex": "$y'' + y = P(x)$ où $P$ est un polynôme.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; + y = P(x)\\)</span> où <span\nclass=\"math inline\">\\(P\\)</span> est un polynôme.</p>\n"
+      }
+    },
+    {
+      "id": "44d5044e-f385-4e1e-a428-23593237c1d7",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\lambda\\cos x + \\mu\\sin x + \\sum_{n=0}^\\infty (-1)^n P^{(2n)}(x)$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\lambda\\cos x + \\mu\\sin x +\n\\sum_{n=0}^\\infty (-1)^n P^{(2n)}(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "048c0501-55df-464b-9544-02faad69f64e",
+      "type": "question",
+      "value": {
+        "latex": "$y'^2 + y^2 = 1$ (dériver).",
+        "html": "<p><span class=\"math inline\">\\(y&#39;^2 + y^2 = 1\\)</span>\n(dériver).</p>\n"
+      }
+    },
+    {
+      "id": "f75200db-210a-4991-a3f5-55ea07645969",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = a\\cos x + b\\sin x$ avec $a^2 + b^2 = 1$ ou $y = \\pm1$.",
+        "html": "<p><span class=\"math inline\">\\(y = a\\cos x + b\\sin x\\)</span> avec <span\nclass=\"math inline\">\\(a^2 + b^2 = 1\\)</span> ou <span\nclass=\"math inline\">\\(y = \\pm1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Intégrer :</p>\n"
+}

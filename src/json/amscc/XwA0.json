@@ -1,0 +1,39 @@
+{
+  "uuid": "XwA0",
+  "titre": "Contrôle de qualité",
+  "theme": [
+    "tests d'hypothèses"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2022-09-28",
+    "hasIndication": false,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:18.634Z"
+  },
+  "contenu": [
+    {
+      "id": "9157b8eb-38aa-4cff-a57e-a369b552e18e",
+      "type": "description",
+      "value": {
+        "latex": "Pour simuler le tirage aléatoire uniforme avec un tableur, on peut utiliser la commande \\begin{center}\n\\texttt{=ALEA.ENTRE.BORNES(1;8)}\n\t\\end{center} qui génère un nombre entier aléatoire entre 1 et 8.",
+        "html": "<p>Pour simuler le tirage aléatoire uniforme avec un tableur, on peut\nutiliser la commande</p>\n<div class=\"center\">\n<p><code>=ALEA.ENTRE.BORNES(1;8)</code></p>\n</div>\n<p>qui génère un nombre entier aléatoire entre 1 et 8.</p>\n"
+      }
+    },
+    {
+      "id": "338439c9-2ae1-4b4b-969c-1a0802ca1379",
+      "type": "description",
+      "value": {
+        "latex": "\\`A l'aide d'un test du $\\chi^2$ et une simulation de 500 tirages de dé, peut-on affirmer que cette commande simule correctement un tirage uniforme ? On pourra illustrer le résultat à l'aide d'un histogramme.",
+        "html": "<p>À l’aide d’un test du <span class=\"math inline\">\\(\\chi^2\\)</span> et\nune simulation de 500 tirages de dé, peut-on affirmer que cette commande\nsimule correctement un tirage uniforme ? On pourra illustrer le résultat\nà l’aide d’un histogramme.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour simuler le tirage aléatoire uniforme avec un tableur, on peut\nutiliser la commande</p>\n<div class=\"center\">\n<p><code>=ALEA.ENTRE.BORNES(1;8)</ ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "q8Kb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6696",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:14.585Z"
+  },
+  "contenu": [
+    {
+      "id": "7484a265-b6fe-4b07-899b-38edc78db74d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une fonction holomorphe dans un ouvert connexe $\\Omega$. On va montrer\nl'équivalence entre \n\n(i) $f$ admet un logarithme holomorphe dans $\\Omega$.\n\n(ii)  $f$ admet des racines {\\bf de tous ordres} holomorphes dans $\\Omega$.\n\nOn a vu que (i) implique (ii).\nSupposons maintenant que (ii) est vérifié : pour chaque $n$ on note $f_n$ la\nfonction de $H(\\Omega)$ telle que\n$f_n^n(z)=f(z)$ si $z\\in\\Omega$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\ndans un ouvert connexe <span class=\"math inline\">\\(\\Omega\\)</span>. On\nva montrer l’équivalence entre</p>\n<p>(i) <span class=\"math inline\">\\(f\\)</span> admet un logarithme\nholomorphe dans <span class=\"math inline\">\\(\\Omega\\)</span>.</p>\n<p>(ii) <span class=\"math inline\">\\(f\\)</span> admet des racines\n<span><strong>de tous ordres</strong></span> holomorphes dans <span\nclass=\"math inline\">\\(\\Omega\\)</span>.</p>\n<p>On a vu que (i) implique (ii). Supposons maintenant que (ii) est\nvérifié : pour chaque <span class=\"math inline\">\\(n\\)</span> on note\n<span class=\"math inline\">\\(f_n\\)</span> la fonction de <span\nclass=\"math inline\">\\(H(\\Omega)\\)</span> telle que <span\nclass=\"math inline\">\\(f_n^n(z)=f(z)\\)</span> si <span\nclass=\"math inline\">\\(z\\in\\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d871340b-75a9-4544-b8fa-25a561850727",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a$ un zéro de $f$; que peut-on dire de la multiplicité de $a$ ? En\ndéduire que\n$f$ ne s'annule pas sur\n$\\Omega$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un zéro de <span\nclass=\"math inline\">\\(f\\)</span>; que peut-on dire de la multiplicité de\n<span class=\"math inline\">\\(a\\)</span> ? En déduire que <span\nclass=\"math inline\">\\(f\\)</span> ne s’annule pas sur <span\nclass=\"math inline\">\\(\\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6cba618d-41d8-4bba-9c39-c251aff09f3d",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\gamma$ une courbe fermée dans $\\Omega$\nde classe $C^1$ par morceaux. On pose $I={1\\over 2\\pi i}\\int_\\gamma\n{f'(z)\\over f(z)}\\ dz$, et $I_n={1\\over 2\\pi i}\\int_\\gamma\n{f_n'(z)\\over f_n(z)}\\ dz$. Montrer que $I$ et $I_n$ sont des entiers, $I=nI_n$,\npuis que\n$I=0$. Conclure.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\gamma\\)</span> une courbe fermée\ndans <span class=\"math inline\">\\(\\Omega\\)</span> de classe <span\nclass=\"math inline\">\\(C^1\\)</span> par morceaux. On pose <span\nclass=\"math inline\">\\(I={1\\over 2\\pi i}\\int_\\gamma\n{f&#39;(z)\\over f(z)}\\ dz\\)</span>, et <span\nclass=\"math inline\">\\(I_n={1\\over 2\\pi i}\\int_\\gamma\n{f_n&#39;(z)\\over f_n(z)}\\ dz\\)</span>. Montrer que <span\nclass=\"math inline\">\\(I\\)</span> et <span\nclass=\"math inline\">\\(I_n\\)</span> sont des entiers, <span\nclass=\"math inline\">\\(I=nI_n\\)</span>, puis que <span\nclass=\"math inline\">\\(I=0\\)</span>. Conclure.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\ndans un ouvert connexe <span class=\"math inline\">\\(\\Omega\\)</span>. On\nva montr ..."
+}

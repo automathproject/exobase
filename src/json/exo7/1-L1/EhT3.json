@@ -1,0 +1,53 @@
+{
+  "uuid": "EhT3",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3210",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Division euclidienne",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:28.181Z"
+  },
+  "contenu": [
+    {
+      "id": "08625177-9dd7-4a1f-b628-872c46520671",
+      "type": "description",
+      "value": {
+        "latex": "Soient $P,Q \\in { K[X]}$ non nuls et $D = \\text{pgcd}(P,Q)$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(P,Q \\in { K[X]}\\)</span> non nuls\net <span class=\"math inline\">\\(D = \\text{pgcd}(P,Q)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6978423a-e500-4ac1-814e-b7ce6fc15a19",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}montrer qu'il existe $U,V \\in { K[X]}$ uniques tels que :\n      $\\begin{cases} UP + VQ = D \\cr\n               \\deg  U < \\deg  Q - \\deg  D \\hfill\\cr\n               \\deg  V < \\deg  P - \\deg  D .\\end{cases}$",
+        "html": "<p>D<span>é</span>montrer qu’il existe <span class=\"math inline\">\\(U,V\n\\in { K[X]}\\)</span> uniques tels que : <span\nclass=\"math inline\">\\(\\begin{cases} UP + VQ = D \\cr\n               \\deg  U &lt; \\deg  Q - \\deg  D \\hfill\\cr\n               \\deg  V &lt; \\deg  P - \\deg  D .\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9a20ec6f-d24b-45b6-a7ad-1d09ec930dd2",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la m{\\'e}thode des divisions euclidiennes fournit $U$ et $V$.",
+        "html": "<p>Montrer que la m<span>é</span>thode des divisions euclidiennes\nfournit <span class=\"math inline\">\\(U\\)</span> et <span\nclass=\"math inline\">\\(V\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f04aee20-80cc-4bf5-8246-d8f2e26da7b2",
+      "type": "reponse",
+      "value": {
+        "latex": "R{\\'e}currence.",
+        "html": "<p>R<span>é</span>currence.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(P,Q \\in { K[X]}\\)</span> non nuls\net <span class=\"math inline\">\\(D = \\text{pgcd}(P,Q)\\)</span>.</p>\n"
+}

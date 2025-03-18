@@ -1,0 +1,45 @@
+{
+  "uuid": "avVb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2253",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:01.578Z"
+  },
+  "contenu": [
+    {
+      "id": "f0a3fb46-5c01-41a9-9a80-6f15d923ea51",
+      "type": "description",
+      "value": {
+        "latex": "\\label{ex:bar5}\nD\\'emontrer que tout anneau int\\`egre fini est un corps.",
+        "html": "<p><span id=\"ex:bar5\" label=\"ex:bar5\"></span> Démontrer que tout anneau\nintègre fini est un corps.</p>\n"
+      }
+    },
+    {
+      "id": "50cd700d-6ebc-47c4-8ee4-effce8bae23d",
+      "type": "indication",
+      "value": {
+        "latex": "Voir la solution de l'exercice \\ref{ptfermat}, deuxième question.",
+        "html": "<p>Voir la solution de l’exercice <a href=\"#ptfermat\"\ndata-reference-type=\"ref\" data-reference=\"ptfermat\">[ptfermat]</a>,\ndeuxième question.</p>\n"
+      }
+    },
+    {
+      "id": "7e3cba7e-e1e1-4bdd-87b3-39841243b3cf",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $a\\in A\\setminus\\{0\\}$. Soit $\\phi_{a}:A\\to A, x\\mapsto ax$. Si\n  $\\phi_{a}(x)=\\phi_{a}(y)$, alors $ax=ay$. \nMais $ax=ay $ ssi $a(x-y)=0$, or $a\\neq 0$ et $A$ est int\\`egre, donc $x=y$.\n\nAinsi $\\phi_{a}$ est injective de $A$ dans $A$. Comme $A$ est\n  fini, elle est donc aussi surjective~: $\\exists x\\in A, \\phi_{a}(x)=1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in A\\setminus\\{0\\}\\)</span>. Soit\n<span class=\"math inline\">\\(\\phi_{a}:A\\to A, x\\mapsto ax\\)</span>. Si\n<span class=\"math inline\">\\(\\phi_{a}(x)=\\phi_{a}(y)\\)</span>, alors\n<span class=\"math inline\">\\(ax=ay\\)</span>. Mais <span\nclass=\"math inline\">\\(ax=ay\\)</span> ssi <span\nclass=\"math inline\">\\(a(x-y)=0\\)</span>, or <span\nclass=\"math inline\">\\(a\\neq 0\\)</span> et <span\nclass=\"math inline\">\\(A\\)</span> est intègre, donc <span\nclass=\"math inline\">\\(x=y\\)</span>.</p>\n<p>Ainsi <span class=\"math inline\">\\(\\phi_{a}\\)</span> est injective de\n<span class=\"math inline\">\\(A\\)</span> dans <span\nclass=\"math inline\">\\(A\\)</span>. Comme <span\nclass=\"math inline\">\\(A\\)</span> est fini, elle est donc aussi\nsurjective : <span class=\"math inline\">\\(\\exists x\\in A,\n\\phi_{a}(x)=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"ex:bar5\" label=\"ex:bar5\"></span> Démontrer que tout anneau\nintègre fini est un corps.</p>\n"
+}

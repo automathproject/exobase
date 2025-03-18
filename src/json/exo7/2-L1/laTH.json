@@ -1,0 +1,53 @@
+{
+  "uuid": "laTH",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4252",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:40.646Z"
+  },
+  "contenu": [
+    {
+      "id": "695240c9-a219-4907-9621-782005d3ae57",
+      "type": "description",
+      "value": {
+        "latex": "Soient ${f,g} : {[a,b]} \\to \\R$ continues, $f$ positive décroissante.\n\nOn note $G(x) =  \\int_{t=a}^x g(t)\\,d t$, et\n$$M = \\sup\\{ G(x),\\ x \\in {[a,b]} \\}\\qquad m = \\inf\\{ G(x),\\ x \\in {[a,b]} \\}.$$",
+        "html": "<p>Soient <span class=\"math inline\">\\({f,g} : {[a,b]} \\to \\R\\)</span>\ncontinues, <span class=\"math inline\">\\(f\\)</span> positive\ndécroissante.</p>\n<p>On note <span class=\"math inline\">\\(G(x) =  \\int_{t=a}^x g(t)\\,d\nt\\)</span>, et <span class=\"math display\">\\[M = \\sup\\{ G(x),\\ x \\in\n{[a,b]} \\}\\qquad m = \\inf\\{ G(x),\\ x \\in {[a,b]} \\}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "df506eeb-166c-4708-9e86-8b5b05a63ac3",
+      "type": "question",
+      "value": {
+        "latex": "On suppose ici que $f$ est de classe $\\mathcal{C}^1$.\n     Démontrer que $mf(a) \\le  \\int_{t=a}^b f(t)g(t)\\,d t \\le Mf(a)$.",
+        "html": "<p>On suppose ici que <span class=\"math inline\">\\(f\\)</span> est de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^1\\)</span>. Démontrer que\n<span class=\"math inline\">\\(mf(a) \\le  \\int_{t=a}^b f(t)g(t)\\,d t \\le\nMf(a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "41d53ee4-2d8e-4a29-a22c-511dd0dd8a4b",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer la même inégalité si $f$ est seulement continue, en admettant\n     qu'elle est limite uniforme de fonctions de classe $\\mathcal{C}^1$ décroissantes.",
+        "html": "<p>Démontrer la même inégalité si <span class=\"math inline\">\\(f\\)</span>\nest seulement continue, en admettant qu’elle est limite uniforme de\nfonctions de classe <span class=\"math inline\">\\(\\mathcal{C}^1\\)</span>\ndécroissantes.</p>\n"
+      }
+    },
+    {
+      "id": "f50b400e-3864-4502-b5b4-632fd6479bf0",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer enfin qu'il existe $c \\in {[a,b]}$ tel que\n     $ \\int_{t=a}^b f(t)g(t)\\,d t = f(a)  \\int_{t=a}^c g(t)\\,d t$.",
+        "html": "<p>Démontrer enfin qu’il existe <span class=\"math inline\">\\(c \\in\n{[a,b]}\\)</span> tel que <span class=\"math inline\">\\(\\int_{t=a}^b\nf(t)g(t)\\,d t = f(a)  \\int_{t=a}^c g(t)\\,d t\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\({f,g} : {[a,b]} \\to \\R\\)</span>\ncontinues, <span class=\"math inline\">\\(f\\)</span> positive\ndécroissante.</p>\n<p> ..."
+}

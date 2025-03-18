@@ -1,0 +1,61 @@
+{
+  "uuid": "lUiH",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4217",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations aux dérivées partielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:55.371Z"
+  },
+  "contenu": [
+    {
+      "id": "e189cde2-8f0d-4dae-ba1f-7397efaf88d6",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {\\R^2} \\to \\R$ de classe $\\mathcal{C}^2$ et $g(u,v) = f(uv,u+v)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {\\R^2} \\to \\R\\)</span> de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> et <span\nclass=\"math inline\">\\(g(u,v) = f(uv,u+v)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fc4a79ec-825e-4695-96b4-bb27c48117a9",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\frac{\\partial^2 g}{\\partial u \\partial v}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\frac{\\partial^2 g}{\\partial u\n\\partial v}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fe1aa7dc-175d-4a5a-8cc9-b15ff1323b15",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{\\partial^2 g}{\\partial u \\partial v} = uv\\frac{\\partial^2 f}{\\partial x^2} + (u+v)\\frac{\\partial^2 f}{\\partial x \\partial y} + \\frac{\\partial^2 f}{\\partial y^2} + \\frac{\\partial f}{\\partial x}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{\\partial^2 g}{\\partial u \\partial\nv} = uv\\frac{\\partial^2 f}{\\partial x^2} + (u+v)\\frac{\\partial^2\nf}{\\partial x \\partial y} + \\frac{\\partial^2 f}{\\partial y^2} +\n\\frac{\\partial f}{\\partial x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "55cd5a71-62e4-4ba4-9c33-b50b4d8e18d7",
+      "type": "question",
+      "value": {
+        "latex": "Résoudre l'équation :\n    $x\\frac{\\partial^2 f}{\\partial x^2} + y\\frac{\\partial^2 f}{\\partial x \\partial y} + \\frac{\\partial^2 f}{\\partial y^2} + \\frac{\\partial f}{\\partial x} = y$.",
+        "html": "<p>Résoudre l’équation : <span class=\"math inline\">\\(x\\frac{\\partial^2\nf}{\\partial x^2} + y\\frac{\\partial^2 f}{\\partial x \\partial y} +\n\\frac{\\partial^2 f}{\\partial y^2} + \\frac{\\partial f}{\\partial x} =\ny\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "38013926-06f7-41fe-bfba-e58badc74d43",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x,y) = \\frac{xy}2 + h(u) + k(v)$ avec $u+v=y$, $uv=x$.",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = \\frac{xy}2 + h(u) +\nk(v)\\)</span> avec <span class=\"math inline\">\\(u+v=y\\)</span>, <span\nclass=\"math inline\">\\(uv=x\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {\\R^2} \\to \\R\\)</span> de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> et <span\nclass=\"math inlin ..."
+}

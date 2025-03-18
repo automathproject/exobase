@@ -1,0 +1,111 @@
+{
+  "uuid": "acya",
+  "titre": "Système linéaire avec paramètre et déterminant",
+  "theme": [
+    "Algèbre linéaire"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-18T17:52:35.240Z",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:35.240Z"
+  },
+  "contenu": [
+    {
+      "id": "bd64e870-f5fe-4e07-90ab-743847000a88",
+      "type": "description",
+      "value": {
+        "latex": "Considérer le système suivant dépendant d'un paramètre réel \\(m\\) :\n\\begin{center}\n$$\n\\begin{cases}\nx + my + (m-1)z = m+1, \\\\\n3x + 2y + mz = 3, \\\\\n(m-1)x + my + (m+1)z = m-1.\n\\end{cases}\n$$\n\\end{center}",
+        "html": "<p>Considérer le système suivant dépendant d’un paramètre réel <span\nclass=\"math inline\">\\(m\\)</span> :</p>\n<div class=\"center\">\n<p><span class=\"math display\">\\[\\begin{cases}\nx + my + (m-1)z = m+1, \\\\\n3x + 2y + mz = 3, \\\\\n(m-1)x + my + (m+1)z = m-1.\n\\end{cases}\\]</span></p>\n</div>\n"
+      }
+    },
+    {
+      "id": "df883ec4-8aa6-462e-8059-bf346b0b9443",
+      "type": "question",
+      "value": {
+        "latex": "Écrire le système sous forme matricielle, c'est-à-dire :\n    $$\n    A\\,\\mathbf{X} = \\mathbf{B},\n    $$\n    où \\(A\\) est la matrice des coefficients, \\(\\mathbf{X}\\) le vecteur des inconnues, et \\(\\mathbf{B}\\) le vecteur des constantes.",
+        "html": "<p>Écrire le système sous forme matricielle, c’est-à-dire : <span\nclass=\"math display\">\\[A\\,\\mathbf{X} = \\mathbf{B},\\]</span> où <span\nclass=\"math inline\">\\(A\\)</span> est la matrice des coefficients, <span\nclass=\"math inline\">\\(\\mathbf{X}\\)</span> le vecteur des inconnues, et\n<span class=\"math inline\">\\(\\mathbf{B}\\)</span> le vecteur des\nconstantes.</p>\n"
+      }
+    },
+    {
+      "id": "3aae1862-6770-4f0f-8b90-6cbd800fd5f3",
+      "type": "reponse",
+      "value": {
+        "latex": "La matrice $A$ est $\\begin{pmatrix}\n1 & m & m-1 \\\\ 3 & 2 & m \\\\ m-1 & m & m-1 \\\\\n\n\\end{pmatrix}$, le vecteur d'inconnue est $\\mathbf{X}=\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$ et le vecteur d'inconnue est $\\mathbf{B}=\\begin{pmatrix} m+1 \\\\ 3 \\\\ m-1 \\end{pmatrix}$",
+        "html": "<p>La matrice <span class=\"math inline\">\\(A\\)</span> est <span\nclass=\"math inline\">\\(\\begin{pmatrix}\n1 &amp; m &amp; m-1 \\\\ 3 &amp; 2 &amp; m \\\\ m-1 &amp; m &amp; m-1 \\\\\n\n\\end{pmatrix}\\)</span>, le vecteur d’inconnue est <span\nclass=\"math inline\">\\(\\mathbf{X}=\\begin{pmatrix} x \\\\ y \\\\ z\n\\end{pmatrix}\\)</span> et le vecteur d’inconnue est <span\nclass=\"math inline\">\\(\\mathbf{B}=\\begin{pmatrix} m+1 \\\\ 3 \\\\ m-1\n\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "7b9415dd-04a7-4cf7-a0b5-fa24fcec8377",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le déterminant de la matrice \\(A\\) et montrer que\n    $\n    \\det(A) = m^2(m-4).\n    $",
+        "html": "<p>Calculer le déterminant de la matrice <span\nclass=\"math inline\">\\(A\\)</span> et montrer que <span\nclass=\"math inline\">\\(\\det(A) = m^2(m-4).\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "acc91197-b40b-4114-b16b-39c2cbe39ad2",
+      "type": "reponse",
+      "value": {
+        "latex": "Le déterminant est $A$ est:\n$$\\det(A)=\\begin{vmatrix}\n1 & m & m-1 \\\\ 3 & 2 & m \\\\ m-1 & m & m-1 \\\\\n\\end{vmatrix}=\\begin{vmatrix}\n-m+2 & 0 & -2 \\\\ 3 & 2 & m \\\\ m-1 & m & m-1 \\\\\n\\end{vmatrix}\n$$\n$$=(2-m)(-m^2+2m+2)-6m+4m-4=m^2(m-4).$$",
+        "html": "<p>Le déterminant est <span class=\"math inline\">\\(A\\)</span> est: <span\nclass=\"math display\">\\[\\det(A)=\\begin{vmatrix}\n1 &amp; m &amp; m-1 \\\\ 3 &amp; 2 &amp; m \\\\ m-1 &amp; m &amp; m-1 \\\\\n\\end{vmatrix}=\\begin{vmatrix}\n-m+2 &amp; 0 &amp; -2 \\\\ 3 &amp; 2 &amp; m \\\\ m-1 &amp; m &amp; m-1 \\\\\n\\end{vmatrix}\\]</span> <span\nclass=\"math display\">\\[=(2-m)(-m^2+2m+2)-6m+4m-4=m^2(m-4).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "29dac561-2ff5-41ea-9efc-4cdee0ef392e",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les valeurs de \\(m\\) pour lesquelles le système n'a pas de solution unique.",
+        "html": "<p>Déterminer les valeurs de <span class=\"math inline\">\\(m\\)</span> pour\nlesquelles le système n’a pas de solution unique.</p>\n"
+      }
+    },
+    {
+      "id": "d297fce6-9875-447e-8b36-2f1adbd93210",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $m=0$ et $m=4$ la matrice $A$ pour déterminant $0$, la matrice $A$ n'est pas inversible donc il existe une infinité de solutions ou pas de solution.",
+        "html": "<p>Pour <span class=\"math inline\">\\(m=0\\)</span> et <span\nclass=\"math inline\">\\(m=4\\)</span> la matrice <span\nclass=\"math inline\">\\(A\\)</span> pour déterminant <span\nclass=\"math inline\">\\(0\\)</span>, la matrice <span\nclass=\"math inline\">\\(A\\)</span> n’est pas inversible donc il existe une\ninfinité de solutions ou pas de solution.</p>\n"
+      }
+    },
+    {
+      "id": "efb71e9f-b8ca-4654-91e7-ecc1b4fb6ad4",
+      "type": "question",
+      "value": {
+        "latex": "Le système a-t-il une solution pour $m=4$? Si oui, la déterminer.",
+        "html": "<p>Le système a-t-il une solution pour <span\nclass=\"math inline\">\\(m=4\\)</span>? Si oui, la déterminer.</p>\n"
+      }
+    },
+    {
+      "id": "d5186435-44ec-4810-be22-1ff7ce5b9980",
+      "type": "reponse",
+      "value": {
+        "latex": "Le système s'écrit:\n \\begin{center}\n$$\n\\begin{cases}\nx + 4y + 3z = 5, \\\\\n3x + 2y + 4z = 3, \\\\\n3x + 4y + 5z = 3.\n\\end{cases}\n$$\n\\end{center}\nIl est équivalent au système  \n \\begin{center}\n$$\n\\begin{cases}\nx=5+2y \\\\\nz=-2y \\\\\n15=3.\n\\end{cases}\n$$\n\\end{center}\nCe système n'a donc aucune solution!",
+        "html": "<p>Le système s’écrit:</p>\n<div class=\"center\">\n<p><span class=\"math display\">\\[\\begin{cases}\nx + 4y + 3z = 5, \\\\\n3x + 2y + 4z = 3, \\\\\n3x + 4y + 5z = 3.\n\\end{cases}\\]</span></p>\n</div>\n<p>Il est équivalent au système</p>\n<div class=\"center\">\n<p><span class=\"math display\">\\[\\begin{cases}\nx=5+2y \\\\\nz=-2y \\\\\n15=3.\n\\end{cases}\\]</span></p>\n</div>\n<p>Ce système n’a donc aucune solution!</p>\n"
+      }
+    },
+    {
+      "id": "028fb8c9-3ae6-46ef-93cc-1bded4b18265",
+      "type": "question",
+      "value": {
+        "latex": "Si \\(m \\neq 0\\) et \\(m \\neq 4\\), résoudre le système.",
+        "html": "<p>Si <span class=\"math inline\">\\(m \\neq 0\\)</span> et <span\nclass=\"math inline\">\\(m \\neq 4\\)</span>, résoudre le système.</p>\n"
+      }
+    },
+    {
+      "id": "6e0034eb-b9fc-42c0-9ff7-116d9335f010",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $m\\neq 4$ et $m\\neq 0$ alors le système a une unique solution:\n  $$x=-2\\frac{m-1}{m(m-4)},\\quad\n    y=\\frac{m^2-4m-3}{m(m-4)},\\quad z=\\frac{m+2}{m(m-4)}.$$",
+        "html": "<p>Si <span class=\"math inline\">\\(m\\neq 4\\)</span> et <span\nclass=\"math inline\">\\(m\\neq 0\\)</span> alors le système a une unique\nsolution: <span class=\"math display\">\\[x=-2\\frac{m-1}{m(m-4)},\\quad\n    y=\\frac{m^2-4m-3}{m(m-4)},\\quad z=\\frac{m+2}{m(m-4)}.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Considérer le système suivant dépendant d’un paramètre réel <span\nclass=\"math inline\">\\(m\\)</span> :</p>\n<div class=\"center\">\n<p><span class=\"math  ..."
+}

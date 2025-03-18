@@ -1,0 +1,317 @@
+{
+  "uuid": "5qDu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4413",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:53.655Z"
+  },
+  "contenu": [
+    {
+      "id": "768e3dcb-7951-4157-9eb6-ca49c13617d0",
+      "type": "description",
+      "value": {
+        "latex": "\\'Etudier la convergence des séries de terme général :",
+        "html": "<p>Étudier la convergence des séries de terme général :</p>\n"
+      }
+    },
+    {
+      "id": "323b59f2-6ee4-493a-90ee-7a4bf5806538",
+      "type": "question",
+      "value": {
+        "latex": "$\\left(1+\\frac 1n\\right)^n - e$.",
+        "html": "<p><span class=\"math inline\">\\(\\left(1+\\frac 1n\\right)^n -\ne\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8b7bad32-5c19-411f-abff-1b18c585b5a9",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sim -\\frac e{2n}  \\Rightarrow $ DV.",
+        "html": "<p><span class=\"math inline\">\\(\\sim -\\frac e{2n}  \\Rightarrow\\)</span>\nDV.</p>\n"
+      }
+    },
+    {
+      "id": "415b00d4-5c62-43e6-bed5-b1c53f06dc47",
+      "type": "question",
+      "value": {
+        "latex": "$\\ch^\\alpha n - \\sh^\\alpha n$.",
+        "html": "<p><span class=\"math inline\">\\(\\ch^\\alpha n - \\sh^\\alpha n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0c4cc2be-da12-4117-8181-d7e7b5ba4f13",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sim \\frac \\alpha{2^{\\alpha-1}}e^{n(\\alpha-2)}  \\Rightarrow $\n             CV ssi $\\alpha < 2$.",
+        "html": "<p><span class=\"math inline\">\\(\\sim \\frac\n\\alpha{2^{\\alpha-1}}e^{n(\\alpha-2)}  \\Rightarrow\\)</span> CV ssi <span\nclass=\"math inline\">\\(\\alpha &lt; 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "33272a47-5a68-4a5e-aa51-75794301a1cc",
+      "type": "question",
+      "value": {
+        "latex": "$2\\ln(n^3+1) - 3\\ln(n^2+1)$.",
+        "html": "<p><span class=\"math inline\">\\(2\\ln(n^3+1) - 3\\ln(n^2+1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d0916e3b-7de8-467c-8850-d603ad3d2ece",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sim -\\frac 3{n^2}  \\Rightarrow $ CV.",
+        "html": "<p><span class=\"math inline\">\\(\\sim -\\frac 3{n^2}  \\Rightarrow\\)</span>\nCV.</p>\n"
+      }
+    },
+    {
+      "id": "4a74a397-1201-4dd4-9ffa-6cbe011d61f1",
+      "type": "question",
+      "value": {
+        "latex": "$\\sqrt[n] {n+1} - \\sqrt[n] n$.",
+        "html": "<p><span class=\"math inline\">\\(\\sqrt[n] {n+1} - \\sqrt[n] n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4fb4e359-f826-4827-bb9c-2a30fc1c81fd",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sim \\frac 1{n^2}  \\Rightarrow $ CV.",
+        "html": "<p><span class=\"math inline\">\\(\\sim \\frac 1{n^2}  \\Rightarrow\\)</span>\nCV.</p>\n"
+      }
+    },
+    {
+      "id": "d93c1540-9dd2-4364-b3d4-bb7c1f209628",
+      "type": "question",
+      "value": {
+        "latex": "$\\arccos\\left(\\frac {n^3+1}{n^3+2} \\right)$.",
+        "html": "<p><span class=\"math inline\">\\(\\arccos\\left(\\frac {n^3+1}{n^3+2}\n\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "48a0ff22-657d-4532-8ff4-48c9a15fde00",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sim \\sqrt{\\frac 2{n^3}}  \\Rightarrow $ CV.",
+        "html": "<p><span class=\"math inline\">\\(\\sim \\sqrt{\\frac\n2{n^3}}  \\Rightarrow\\)</span> CV.</p>\n"
+      }
+    },
+    {
+      "id": "fb6fedf3-ad5f-4061-a9f9-7f1203684b2e",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac {a^n}{1+a^{2n}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac {a^n}{1+a^{2n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6de21d17-bc42-415a-80b4-a87ff1396d62",
+      "type": "reponse",
+      "value": {
+        "latex": "cv ssi $|a| \\ne 1$.",
+        "html": "<p>cv ssi <span class=\"math inline\">\\(|a| \\ne 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f6b4257-fb29-4a8e-95e7-d688b68fb933",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{(-1)^n}{\\sqrt{n^2+n}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(-1)^n}{\\sqrt{n^2+n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a927ab58-50f8-4c29-b453-a6fd4b3d8678",
+      "type": "reponse",
+      "value": {
+        "latex": "Série alternée $ \\Rightarrow $ CV.",
+        "html": "<p>Série alternée <span class=\"math inline\">\\(\\Rightarrow\\)</span>\nCV.</p>\n"
+      }
+    },
+    {
+      "id": "de04a065-26bc-45d0-af3b-92f5b452e2db",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{(-1)^n}{\\ln n}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(-1)^n}{\\ln n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "de5a4b49-a467-4cde-be87-6e6bbdbf1c8b",
+      "type": "reponse",
+      "value": {
+        "latex": "Série alternée $ \\Rightarrow $ CV.",
+        "html": "<p>Série alternée <span class=\"math inline\">\\(\\Rightarrow\\)</span>\nCV.</p>\n"
+      }
+    },
+    {
+      "id": "b40866e4-d7a1-4c2c-b8c6-6ae8f3adbb81",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{1+(-1)^n\\sqrt n}n$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{1+(-1)^n\\sqrt n}n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bfb204ad-71a3-45d7-b1f0-a6fd28ef8553",
+      "type": "reponse",
+      "value": {
+        "latex": "Harmonique + alternée $ \\Rightarrow $ DV.",
+        "html": "<p>Harmonique + alternée <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> DV.</p>\n"
+      }
+    },
+    {
+      "id": "3b205b70-6e27-4a49-928a-591d0abbc385",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{2.4.6\\dots(2n)}{n^n}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{2.4.6\\dots(2n)}{n^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4471a115-e7df-4a5e-b68f-63b03fadc504",
+      "type": "reponse",
+      "value": {
+        "latex": "d'Alembert $ \\Rightarrow $ CV.",
+        "html": "<p>d’Alembert <span class=\"math inline\">\\(\\Rightarrow\\)</span> CV.</p>\n"
+      }
+    },
+    {
+      "id": "ec5fd787-82f6-4962-9fd5-811c17a6a804",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{1!+2!+\\dots+n!}{(n+2)!}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\frac{1!+2!+\\dots+n!}{(n+2)!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "52e6ff86-f983-40f8-b711-b41fde641530",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\le \\frac{(n-1)(n-1)!+n!}{(n+2)!} \\le \\frac 2{(n+1)(n+2)}  \\Rightarrow $ CV.",
+        "html": "<p><span class=\"math inline\">\\(\\le \\frac{(n-1)(n-1)!+n!}{(n+2)!} \\le\n\\frac 2{(n+1)(n+2)}  \\Rightarrow\\)</span> CV.</p>\n"
+      }
+    },
+    {
+      "id": "84282b12-1496-4d4e-b241-b21cd642ef4e",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{1!-2!+\\dots\\pm n!}{(n+1)!}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{1!-2!+\\dots\\pm\nn!}{(n+1)!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3aa88c66-fcf3-4e23-bf4d-bfaae54ee26f",
+      "type": "reponse",
+      "value": {
+        "latex": "$= \\frac{(-1)^{n-1}}{n+1} +  O\\Bigl(\\frac1{n^2}\\Bigr)  \\Rightarrow $ CV.",
+        "html": "<p><span class=\"math inline\">\\(= \\frac{(-1)^{n-1}}{n+1}\n+  O\\Bigl(\\frac1{n^2}\\Bigr)  \\Rightarrow\\)</span> CV.</p>\n"
+      }
+    },
+    {
+      "id": "c6e229e0-e412-4ecf-9272-efaea5e995ca",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{(-1)^n}{\\ln n + \\sin(2n\\pi/3)}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(-1)^n}{\\ln n +\n\\sin(2n\\pi/3)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b163a5ee-8ab9-4fe9-9f73-5bc887e31e46",
+      "type": "reponse",
+      "value": {
+        "latex": "Décomposition en 3 séries alternées $ \\Rightarrow $ CV.",
+        "html": "<p>Décomposition en 3 séries alternées <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> CV.</p>\n"
+      }
+    },
+    {
+      "id": "d861aee3-5acf-4a32-b1a6-26b037c7bb10",
+      "type": "question",
+      "value": {
+        "latex": "$\\sqrt{1+\\frac{(-1)^n}{\\sqrt n}}-1$.",
+        "html": "<p><span class=\"math inline\">\\(\\sqrt{1+\\frac{(-1)^n}{\\sqrt\nn}}-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d09fd087-ecb4-4906-964e-811f4c37a051",
+      "type": "reponse",
+      "value": {
+        "latex": "$=\\frac{(-1)^n}{2\\sqrt n} - \\frac1{8n} +  O(n^{-3/2})  \\Rightarrow $ DV.",
+        "html": "<p><span class=\"math inline\">\\(=\\frac{(-1)^n}{2\\sqrt n} - \\frac1{8n}\n+  O(n^{-3/2})  \\Rightarrow\\)</span> DV.</p>\n"
+      }
+    },
+    {
+      "id": "ddd10806-52c6-41d3-bfed-b01288ff15d3",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{(-1)^n}{\\sqrt n + (-1)^n}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(-1)^n}{\\sqrt n +\n(-1)^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "af4991d4-3cda-4e48-a500-6df13aa75e6c",
+      "type": "reponse",
+      "value": {
+        "latex": "Regroupement de termes $ \\Rightarrow $ DV.",
+        "html": "<p>Regroupement de termes <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> DV.</p>\n"
+      }
+    },
+    {
+      "id": "2f692ca7-95af-4d97-8f7a-53e755b20ffd",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{(-1)^{[\\sqrt n\\,]}}n$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(-1)^{[\\sqrt n\\,]}}n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7d86b03f-4b2c-4256-beba-5102f542c381",
+      "type": "reponse",
+      "value": {
+        "latex": "Regroupement par paquets + CSI $ \\Rightarrow $ CV.",
+        "html": "<p>Regroupement par paquets + CSI <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> CV.</p>\n"
+      }
+    },
+    {
+      "id": "efa2eb2b-7a26-4d04-9a61-d0a70f1cd749",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{(\\ln n)^n}{n^{\\ln n}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(\\ln n)^n}{n^{\\ln n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d3c48c73-ae13-403c-b951-84f0e0be66eb",
+      "type": "reponse",
+      "value": {
+        "latex": "Terme général ne tend pas vers zéro, DV.",
+        "html": "<p>Terme général ne tend pas vers zéro, DV.</p>\n"
+      }
+    },
+    {
+      "id": "0a1c8cad-8b53-4d57-9aec-d0b9d22c1333",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac1{(\\ln n)^{\\ln n}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac1{(\\ln n)^{\\ln n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2172c60e-cd58-4c13-b28a-ffe9e3ff0544",
+      "type": "reponse",
+      "value": {
+        "latex": "$= \\frac1{n^{\\ln\\ln n}}  \\Rightarrow $ CV.",
+        "html": "<p><span class=\"math inline\">\\(= \\frac1{n^{\\ln\\ln\nn}}  \\Rightarrow\\)</span> CV.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Étudier la convergence des séries de terme général :</p>\n"
+}

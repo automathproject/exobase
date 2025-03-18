@@ -1,0 +1,61 @@
+{
+  "uuid": "pdwN",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4635",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:05.122Z"
+  },
+  "contenu": [
+    {
+      "id": "131df62c-8db6-43cd-ae05-0f61ee75fd43",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a \\in \\R\\setminus\\Z$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a \\in \\R\\setminus\\Z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f5a0500-0e94-4721-88af-c10e83da3481",
+      "type": "question",
+      "value": {
+        "latex": "Développer en série de Fourier la fonction définie sur $[-\\pi,\\pi]$ par :\n    $f(x) = \\cos(ax)$.",
+        "html": "<p>Développer en série de Fourier la fonction définie sur <span\nclass=\"math inline\">\\([-\\pi,\\pi]\\)</span> par : <span\nclass=\"math inline\">\\(f(x) = \\cos(ax)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "94df8146-4eff-4c6d-910c-5202b8f49b6d",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\cos ax = \\frac{\\sin \\pi a}{\\pi a} +\n              \\frac{2a\\sin\\pi a}\\pi\\sum_{n=1}^\\infty\n              \\frac{(-1)^n\\cos nx}{a^2-n^2}$.",
+        "html": "<p><span class=\"math inline\">\\(\\cos ax = \\frac{\\sin \\pi a}{\\pi a} +\n              \\frac{2a\\sin\\pi a}\\pi\\sum_{n=1}^\\infty\n              \\frac{(-1)^n\\cos nx}{a^2-n^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1760097f-57c1-414c-a827-94972888741f",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g(t) = \\sum_{n=1}^\\infty \\ln\\left(1-\\frac{t^2}{n^2}\\right)$.\n    Justifier l'existence et la dérivabilité de $g$ et la calculer.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g(t) = \\sum_{n=1}^\\infty\n\\ln\\left(1-\\frac{t^2}{n^2}\\right)\\)</span>. Justifier l’existence et la\ndérivabilité de <span class=\"math inline\">\\(g\\)</span> et la\ncalculer.</p>\n"
+      }
+    },
+    {
+      "id": "87ee7891-9d02-4ba9-897d-9200b68fd4fe",
+      "type": "reponse",
+      "value": {
+        "latex": "$g'(t) = \\sum_{n=1}^\\infty \\frac{2t}{t^2-n^2}\n                    = \\frac{\\pi\\cos\\pi t}{\\sin\\pi t} - \\frac 1t  \\Rightarrow \n              g(t) = \\ln\\left(\\lambda\\frac{\\sin\\pi t}t\\right)$ et $g(0) = 0  \\Rightarrow \n              g(t) = \\ln\\left(\\frac{\\sin\\pi t}{\\pi t}\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(g&#39;(t) = \\sum_{n=1}^\\infty\n\\frac{2t}{t^2-n^2}\n                    = \\frac{\\pi\\cos\\pi t}{\\sin\\pi t} - \\frac\n1t  \\Rightarrow\n              g(t) = \\ln\\left(\\lambda\\frac{\\sin\\pi t}t\\right)\\)</span>\net <span class=\"math inline\">\\(g(0) = 0  \\Rightarrow\n              g(t) = \\ln\\left(\\frac{\\sin\\pi t}{\\pi\nt}\\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a \\in \\R\\setminus\\Z\\)</span>.</p>\n"
+}

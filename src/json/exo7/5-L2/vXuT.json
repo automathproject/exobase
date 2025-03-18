@@ -1,0 +1,37 @@
+{
+  "uuid": "vXuT",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4328",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:16.145Z"
+  },
+  "contenu": [
+    {
+      "id": "86363e34-1aba-43e5-b2c1-92915e5bb6b1",
+      "type": "description",
+      "value": {
+        "latex": "Chercher un équivalent pour $n\\to\\infty$ de $ \\int_{t=1}^{1+1/n} \\sqrt{1+t^n}\\,d t$.",
+        "html": "<p>Chercher un équivalent pour <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span> de <span\nclass=\"math inline\">\\(\\int_{t=1}^{1+1/n} \\sqrt{1+t^n}\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "386adabe-9053-4c98-9106-312dd00ebbda",
+      "type": "reponse",
+      "value": {
+        "latex": "$u=t^n  \\Rightarrow  \\sim \\frac 1n  \\int_{u=1}^e \\frac{\\sqrt{1+u}}u\\,d u$.",
+        "html": "<p><span class=\"math inline\">\\(u=t^n  \\Rightarrow  \\sim \\frac\n1n  \\int_{u=1}^e \\frac{\\sqrt{1+u}}u\\,d u\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Chercher un équivalent pour <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span> de <span\nclass=\"math inline\">\\(\\int_{t=1}^{1+1/n} \\sqrt{1+t^n}\\,d t\\)</ ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "bUCP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7512",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:36.375Z"
+  },
+  "contenu": [
+    {
+      "id": "f138d8d3-aeff-42e5-ab57-dc7f1ec46e06",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A, B ,C$ un repère affine d'un plan affine $E$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A, B ,C\\)</span> un repère affine\nd’un plan affine <span class=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8111ed14-9983-4380-a4ee-c9fa3f2ab577",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les équations barycentriques des médianes du triangle $ABC$.",
+        "html": "<p>Déterminer les équations barycentriques des médianes du triangle\n<span class=\"math inline\">\\(ABC\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6e76d670-6b59-4e8b-9711-88569d6e0ebb",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $A$ a pour coordonnées barycentriques $(1,0,0)$ et le milieu $A'$ de $[BC]$ $(0,1,1)$, la médiane $(AA')$ de $ABC$ a pour équation barycentrique \r\n    $$\\det\\left(\\begin{array}{ccc}1&0&a\\\\ 0&1&b\\\\0&1&c\r\n    \\end{array}\\right)=c-b=0.$$\r\n    De même la médiane $(BB')$ a pour équation barycentrique $a=c$ et $(CC')$\r\n    $a=b$.",
+        "html": "<p>Comme <span class=\"math inline\">\\(A\\)</span> a pour coordonnées\nbarycentriques <span class=\"math inline\">\\((1,0,0)\\)</span> et le milieu\n<span class=\"math inline\">\\(A&#39;\\)</span> de <span\nclass=\"math inline\">\\([BC]\\)</span> <span\nclass=\"math inline\">\\((0,1,1)\\)</span>, la médiane <span\nclass=\"math inline\">\\((AA&#39;)\\)</span> de <span\nclass=\"math inline\">\\(ABC\\)</span> a pour équation barycentrique <span\nclass=\"math display\">\\[\\det\\left(\\begin{array}{ccc}1&amp;0&amp;a\\\\\n0&amp;1&amp;b\\\\0&amp;1&amp;c\n    \\end{array}\\right)=c-b=0.\\]</span> De même la médiane <span\nclass=\"math inline\">\\((BB&#39;)\\)</span> a pour équation barycentrique\n<span class=\"math inline\">\\(a=c\\)</span> et <span\nclass=\"math inline\">\\((CC&#39;)\\)</span> <span\nclass=\"math inline\">\\(a=b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c60b29ef-ea9e-4975-8c3b-6eedd2ce1f5a",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant la question précédente, montrer que les médianes du triangle $ABC$ sont concourantes.",
+        "html": "<p>En utilisant la question précédente, montrer que les médianes du\ntriangle <span class=\"math inline\">\\(ABC\\)</span> sont concourantes.</p>\n"
+      }
+    },
+    {
+      "id": "77244838-6d36-43b0-8642-ce23a83bb370",
+      "type": "reponse",
+      "value": {
+        "latex": "Les médianes du triangle $ABC$ sont concourantes au point de coordonnées barycentriques $(1,1,1)$..",
+        "html": "<p>Les médianes du triangle <span class=\"math inline\">\\(ABC\\)</span>\nsont concourantes au point de coordonnées barycentriques <span\nclass=\"math inline\">\\((1,1,1)\\)</span>..</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A, B ,C\\)</span> un repère affine\nd’un plan affine <span class=\"math inline\">\\(E\\)</span>.</p>\n"
+}

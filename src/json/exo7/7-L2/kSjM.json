@@ -1,0 +1,93 @@
+{
+  "uuid": "kSjM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6000",
+    "auteur": "quinio",
+    "createdAt": "2011-05-20",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité conditionnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:37.690Z"
+  },
+  "contenu": [
+    {
+      "id": "3e1da173-1580-440b-8395-27d036145626",
+      "type": "description",
+      "value": {
+        "latex": "On sait qu'à une date donnée, 3\\% d'une population\nest atteinte d'hépatite\nOn dispose de tests de dépistage de la maladie :\n\\begin{itemize}\n\\item Si la personne est malade, alors le test est positif avec une probabilité de 95\\%.\n\\item Si la personne est saine, alors le test est positif avec une probabilité de 10\\%.\n\\end{itemize}",
+        "html": "<p>On sait qu’à une date donnée, 3% d’une population est atteinte\nd’hépatite On dispose de tests de dépistage de la maladie :</p>\n<ul>\n<li><p>Si la personne est malade, alors le test est positif avec une\nprobabilité de 95%.</p></li>\n<li><p>Si la personne est saine, alors le test est positif avec une\nprobabilité de 10%.</p></li>\n</ul>\n"
+      }
+    },
+    {
+      "id": "6172f2c8-3377-4b84-ab13-eb01f8144616",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité pour une personne d'être malade\nsi son test est positif ?",
+        "html": "<p>Quelle est la probabilité pour une personne d’être malade si son test\nest positif ?</p>\n"
+      }
+    },
+    {
+      "id": "5497b5dd-3259-4a5b-bea9-065b729131d8",
+      "type": "reponse",
+      "value": {
+        "latex": "La probabilité pour une personne d'être malade si son test est\npositif est $P(M/T^{+})=P(T^{+}/M)P(M)/P(T^{+})$\nor $P(T^{+})=P(T^{+}/M)P(M)+P(T^{+}/S)P(S)=0.95\\cdot 0.03+0.1\\cdot\n0.97=0.125\\,5$. \nD'où : $P(M/T^{+})=22.7\\%$.",
+        "html": "<p>La probabilité pour une personne d’être malade si son test est\npositif est <span\nclass=\"math inline\">\\(P(M/T^{+})=P(T^{+}/M)P(M)/P(T^{+})\\)</span> or\n<span\nclass=\"math inline\">\\(P(T^{+})=P(T^{+}/M)P(M)+P(T^{+}/S)P(S)=0.95\\cdot\n0.03+0.1\\cdot\n0.97=0.125\\,5\\)</span>. D’où : <span\nclass=\"math inline\">\\(P(M/T^{+})=22.7\\%\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "21438c3b-37c1-4b90-9dc6-2a0d01bff54c",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité pour une personne d'être saine si\nson test est positif ?",
+        "html": "<p>Quelle est la probabilité pour une personne d’être saine si son test\nest positif ?</p>\n"
+      }
+    },
+    {
+      "id": "85cbaad4-a439-47c5-b2dc-2e56abfff49a",
+      "type": "reponse",
+      "value": {
+        "latex": "La probabilité pour une personne d'être saine si son test est\npositif est $P(S/T^{+})=1-P(M/T^{+})=77.3\\%$.",
+        "html": "<p>La probabilité pour une personne d’être saine si son test est positif\nest <span\nclass=\"math inline\">\\(P(S/T^{+})=1-P(M/T^{+})=77.3\\%\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cb41ddc9-c2f7-4a2a-9958-b1f8ab4b7978",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité pour une personne d'être malade\nsi son test est négatif ?",
+        "html": "<p>Quelle est la probabilité pour une personne d’être malade si son test\nest négatif ?</p>\n"
+      }
+    },
+    {
+      "id": "bd24af07-d6d3-4b9b-9505-81fc4ad69c36",
+      "type": "reponse",
+      "value": {
+        "latex": "La probabilité pour une personne d'être malade si son test est négatif \nest $P(M/T^{-})=0.0017$.",
+        "html": "<p>La probabilité pour une personne d’être malade si son test est\nnégatif est <span class=\"math inline\">\\(P(M/T^{-})=0.0017\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "813ac64b-252d-49e0-864e-f4e53fc25b3f",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité pour une personne d'être saine si\nson test est négatif ?",
+        "html": "<p>Quelle est la probabilité pour une personne d’être saine si son test\nest négatif ?</p>\n"
+      }
+    },
+    {
+      "id": "50dc9657-b588-4c6e-9222-8c121b5f8564",
+      "type": "reponse",
+      "value": {
+        "latex": "La probabilité pour une personne d'être saine si son test est négatif\nest $1-P(M/T^{-})=0.998=99.8\\%$.",
+        "html": "<p>La probabilité pour une personne d’être saine si son test est négatif\nest <span class=\"math inline\">\\(1-P(M/T^{-})=0.998=99.8\\%\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On sait qu’à une date donnée, 3% d’une population est atteinte\nd’hépatite On dispose de tests de dépistage de la maladie :</p>\n<ul>\n<li><p>Si la pe ..."
+}

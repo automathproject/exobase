@@ -1,0 +1,77 @@
+{
+  "uuid": "9jo6",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1642",
+    "auteur": "barraud",
+    "createdAt": "2003-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Diagonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:50.082Z"
+  },
+  "contenu": [
+    {
+      "id": "378c8ce1-4a65-4f4b-a7db-34f3dc1081bf",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ la matrice $A=\n  \\begin{pmatrix}\n    1&-1&-1\\\\\n   -1& 1&-1\\\\\n   -1&-1& 1\n  \\end{pmatrix}\n  $.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> la matrice <span\nclass=\"math inline\">\\(A=\n  \\begin{pmatrix}\n    1&amp;-1&amp;-1\\\\\n   -1&amp; 1&amp;-1\\\\\n   -1&amp;-1&amp; 1\n  \\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "55d1b8a2-bd27-4812-9fd3-a22190b0102c",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $^{t}\\!A$. La matrice $A$ est-elle diagonalisable~?",
+        "html": "<p>Calculer <span class=\"math inline\">\\(^{t}\\!A\\)</span>. La matrice\n<span class=\"math inline\">\\(A\\)</span> est-elle diagonalisable ?</p>\n"
+      }
+    },
+    {
+      "id": "5b3c72b1-d767-469c-9ac7-e9c4a3f0ca0c",
+      "type": "reponse",
+      "value": {
+        "latex": "${}^t{A}=A$ donc $A$ est diagonalisable dans une base\n    orthonormée.",
+        "html": "<p><span class=\"math inline\">\\({}^t{A}=A\\)</span> donc <span\nclass=\"math inline\">\\(A\\)</span> est diagonalisable dans une base\northonormée.</p>\n"
+      }
+    },
+    {
+      "id": "a6bfb42e-81f6-4a02-9076-68c224e1b0e3",
+      "type": "question",
+      "value": {
+        "latex": "Diagonaliser $A$.",
+        "html": "<p>Diagonaliser <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0a43c7c1-caa0-4fb9-a98a-2c696838072c",
+      "type": "reponse",
+      "value": {
+        "latex": "Par exemple~: $P=\n    \\begin{pmatrix}\n      1& 1& 1\\\\\n      1&-1& 0\\\\\n      1& 0&-1\n    \\end{pmatrix}\n$, $P^{-1}AP=\n\\begin{pmatrix}\n  -1& 0& 0\\\\\n   0& 2& 0\\\\\n   0& 0& 2\n \\end{pmatrix}\n$.",
+        "html": "<p>Par exemple : <span class=\"math inline\">\\(P=\n    \\begin{pmatrix}\n      1&amp; 1&amp; 1\\\\\n      1&amp;-1&amp; 0\\\\\n      1&amp; 0&amp;-1\n    \\end{pmatrix}\\)</span>, <span class=\"math inline\">\\(P^{-1}AP=\n\\begin{pmatrix}\n  -1&amp; 0&amp; 0\\\\\n   0&amp; 2&amp; 0\\\\\n   0&amp; 0&amp; 2\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "17fdf80d-4762-4212-b0ac-5623e64f9bc5",
+      "type": "question",
+      "value": {
+        "latex": "Diagonaliser $A$ dans une base orthonormée (pour le produit scalaire\n    usuel de $\\R^{3}$).",
+        "html": "<p>Diagonaliser <span class=\"math inline\">\\(A\\)</span> dans une base\northonormée (pour le produit scalaire usuel de <span\nclass=\"math inline\">\\(\\R^{3}\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "63dc190e-45db-4a67-b96f-e1b273a5d44e",
+      "type": "reponse",
+      "value": {
+        "latex": "$Q=\n   \\begin{pmatrix}\n     1/\\sqrt{3} & 1/\\sqrt{2} & 1/\\sqrt{6} \\\\\n     1/\\sqrt{3} &-1/\\sqrt{2} & 1/\\sqrt{6} \\\\\n     1/\\sqrt{3} &          0 &-2/\\sqrt{6} \n   \\end{pmatrix}\n$, $Q^{-1}AQ=\\begin{pmatrix}\n  -1& 0& 0\\\\\n   0& 2& 0\\\\\n   0& 0& 2\n \\end{pmatrix}\n$ et ${}^t{Q}=Q^{-1}$",
+        "html": "<p><span class=\"math inline\">\\(Q=\n   \\begin{pmatrix}\n     1/\\sqrt{3} &amp; 1/\\sqrt{2} &amp; 1/\\sqrt{6} \\\\\n     1/\\sqrt{3} &amp;-1/\\sqrt{2} &amp; 1/\\sqrt{6} \\\\\n     1/\\sqrt{3} &amp;          0 &amp;-2/\\sqrt{6}\n   \\end{pmatrix}\\)</span>, <span\nclass=\"math inline\">\\(Q^{-1}AQ=\\begin{pmatrix}\n  -1&amp; 0&amp; 0\\\\\n   0&amp; 2&amp; 0\\\\\n   0&amp; 0&amp; 2\n\\end{pmatrix}\\)</span> et <span\nclass=\"math inline\">\\({}^t{Q}=Q^{-1}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> la matrice <span\nclass=\"math inline\"> ..."
+}

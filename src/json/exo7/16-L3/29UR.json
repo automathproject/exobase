@@ -1,0 +1,61 @@
+{
+  "uuid": "29UR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7608",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:12.565Z"
+  },
+  "contenu": [
+    {
+      "id": "3e3eb5e0-4617-4cbb-97e8-1e3399949e34",
+      "type": "description",
+      "value": {
+        "latex": "On rappelle qu'à toute matrice $A=\\begin{pmatrix} a&b\\\\c&d\\end{pmatrix}$ de $SL(2,\\Rr)$,\r\non associe l'application linéaire fractionnaire\r\n$$\\begin{array}{cccc}\r\n h_A :& \\Cc-\\{-\\frac{d}{c}\\}&\\longrightarrow&\\Cc-\\{\\frac{a}{c}\\}\\\\&z&\\longmapsto& \\frac{az+b}{cz+d}\r\n\\end{array}$$",
+        "html": "<p>On rappelle qu’à toute matrice <span\nclass=\"math inline\">\\(A=\\begin{pmatrix}\na&amp;b\\\\c&amp;d\\end{pmatrix}\\)</span> de <span\nclass=\"math inline\">\\(SL(2,\\Rr)\\)</span>, on associe l’application\nlinéaire fractionnaire <span class=\"math display\">\\[\\begin{array}{cccc}\nh_A :&amp;\n\\Cc-\\{-\\frac{d}{c}\\}&amp;\\longrightarrow&amp;\\Cc-\\{\\frac{a}{c}\\}\\\\&amp;z&amp;\\longmapsto&amp;\n\\frac{az+b}{cz+d}\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a3788bf8-1e96-49c4-9660-8138eefa65ea",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $h_A$ envoie $\\mathbb{H}$ sur $\\mathbb{H}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(h_A\\)</span> envoie <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span> sur <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0e6585b7-d501-433a-8d93-8773eb60dfd9",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z\\in\\mathbb{H}$.\r\n\\begin{eqnarray*}Im(h_A(z)&=&\\frac{1}{2i}\\left(\\frac{az+b}{cz+d}-\\overline{\\frac{az+b}{cz+d}}\\right)=\\frac{1}{2i}\\left(\\frac{az+b}{cz+d}-\\frac{a\\overline{z}+b}{c\\overline{z}+d}\\right)\\\\\r\n&=&\\frac{1}{2i}\\frac{(ad-bc)(z-\\overline{z})}{|cz+d|^2}\r\n=\\frac{\\det A}{|cz+d|^2}Im(z)>0.\r\n\\end{eqnarray*}\r\nDonc, $h_A(z)\\in\\mathbb{H}$ et $h_A$ envoie le demi-plan $\\mathbb{H}$ sur lui-même.",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\in\\mathbb{H}\\)</span>. <span\nclass=\"math display\">\\[\\begin{aligned}\nIm(h_A(z)&amp;=&amp;\\frac{1}{2i}\\left(\\frac{az+b}{cz+d}-\\overline{\\frac{az+b}{cz+d}}\\right)=\\frac{1}{2i}\\left(\\frac{az+b}{cz+d}-\\frac{a\\overline{z}+b}{c\\overline{z}+d}\\right)\\\\\n&amp;=&amp;\\frac{1}{2i}\\frac{(ad-bc)(z-\\overline{z})}{|cz+d|^2}\n=\\frac{\\det A}{|cz+d|^2}Im(z)&gt;0.\n\\end{aligned}\\]</span> Donc, <span\nclass=\"math inline\">\\(h_A(z)\\in\\mathbb{H}\\)</span> et <span\nclass=\"math inline\">\\(h_A\\)</span> envoie le demi-plan <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span> sur lui-même.</p>\n"
+      }
+    },
+    {
+      "id": "4f5e63ad-507b-4340-96c3-6dba04a2a925",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout élément $z$ de $\\mathbb{H}$, il existe $A\\in SL(2,\\Rr)$ \r\ntel que $h_A(i)=z$.",
+        "html": "<p>Montrer que pour tout élément <span class=\"math inline\">\\(z\\)</span>\nde <span class=\"math inline\">\\(\\mathbb{H}\\)</span>, il existe <span\nclass=\"math inline\">\\(A\\in SL(2,\\Rr)\\)</span> tel que <span\nclass=\"math inline\">\\(h_A(i)=z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "60839037-f71b-44aa-839a-fbe432cc6d61",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z=x+iy\\in\\mathbb{H}$. Soit $A\\in SL(2,\\Rr)$.\r\n$$h_A(i)=z\\iff ai+b=z(ci+d)\\iff ai+b=(dx-cy)+i(cx+dy)$$\r\n$$ \\iff \\left\\{\\begin{array}{ccc} b&=&dx-cy\\\\ a&=&cx+dy\\end{array}\\right..$$\r\n    On peut par exemple choisir, puisque $y$ est strictement positif, $A=\\frac{1}{\\sqrt{y}}\\begin{pmatrix}\r\n    y&x\\\\\r\n                    0&1\r\n                   \\end{pmatrix}$",
+        "html": "<p>Soit <span class=\"math inline\">\\(z=x+iy\\in\\mathbb{H}\\)</span>. Soit\n<span class=\"math inline\">\\(A\\in SL(2,\\Rr)\\)</span>. <span\nclass=\"math display\">\\[h_A(i)=z\\iff ai+b=z(ci+d)\\iff\nai+b=(dx-cy)+i(cx+dy)\\]</span> <span class=\"math display\">\\[\\iff\n\\left\\{\\begin{array}{ccc} b&amp;=&amp;dx-cy\\\\\na&amp;=&amp;cx+dy\\end{array}\\right..\\]</span> On peut par exemple\nchoisir, puisque <span class=\"math inline\">\\(y\\)</span> est strictement\npositif, <span class=\"math inline\">\\(A=\\frac{1}{\\sqrt{y}}\\begin{pmatrix}\n    y&amp;x\\\\\n                    0&amp;1\n                   \\end{pmatrix}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On rappelle qu’à toute matrice <span\nclass=\"math inline\">\\(A=\\begin{pmatrix}\na&amp;b\\\\c&amp;d\\end{pmatrix}\\)</span> de <span\nclass=\"math inline\"> ..."
+}

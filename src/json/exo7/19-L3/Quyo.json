@@ -1,0 +1,37 @@
+{
+  "uuid": "Quyo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6953",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Variance, covariance, fonction génératrice",
+    "sousChapitre": "Variance, covariance, fonction génératrice",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:34.216Z"
+  },
+  "contenu": [
+    {
+      "id": "d9da1357-d0a6-4903-bbd7-227c12be6cae",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ une variable aléatoire réelle dans $L^2$.\nMontrer que $\\displaystyle \\text{Var}(X)=\\min_{t\\in\\Rr}E((X-t)^2)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire\nréelle dans <span class=\"math inline\">\\(L^2\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\displaystyle\n\\text{Var}(X)=\\min_{t\\in\\Rr}E((X-t)^2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3b482ab6-1e79-4cbf-99ba-e3bb5fe6dd75",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $g(t)=E((X-t)^2)=E(X^2)-2tE(X)+t^2$. C'est une parabole dont le\nminimum est en $t=E(X)$ (on peut aussi dériver $g$ et trouver le minimum\nde cette manière).",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(g(t)=E((X-t)^2)=E(X^2)-2tE(X)+t^2\\)</span>. C’est\nune parabole dont le minimum est en <span\nclass=\"math inline\">\\(t=E(X)\\)</span> (on peut aussi dériver <span\nclass=\"math inline\">\\(g\\)</span> et trouver le minimum de cette\nmanière).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire\nréelle dans <span class=\"math inline\">\\(L^2\\)</span>. Montrer que <span\nclass=\"m ..."
+}

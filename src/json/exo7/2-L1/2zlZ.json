@@ -1,0 +1,37 @@
+{
+  "uuid": "2zlZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4303",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:43.635Z"
+  },
+  "contenu": [
+    {
+      "id": "7c3556ce-0ead-43dd-957b-53a0388f26d2",
+      "type": "description",
+      "value": {
+        "latex": "On admet que $ \\int_{t=0}^{+\\infty} e^{-t^2}\\,d t =\\frac{\\sqrt\\pi}2$.\nCalculer les intégrales :\n$I_n =  \\int_{t=0}^{+\\infty} e^{-t^2}t^{2n}\\,d t$ pour $n \\in \\N$.",
+        "html": "<p>On admet que <span class=\"math inline\">\\(\\int_{t=0}^{+\\infty}\ne^{-t^2}\\,d t =\\frac{\\sqrt\\pi}2\\)</span>. Calculer les intégrales :\n<span class=\"math inline\">\\(I_n =  \\int_{t=0}^{+\\infty}\ne^{-t^2}t^{2n}\\,d t\\)</span> pour <span class=\"math inline\">\\(n \\in\n\\N\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f63ccb40-2bb8-445e-9d10-9fa4b4b48ed6",
+      "type": "reponse",
+      "value": {
+        "latex": "$I_n = \\frac{(2n)!\\sqrt\\pi}{2^{2n+1}n!}$.",
+        "html": "<p><span class=\"math inline\">\\(I_n =\n\\frac{(2n)!\\sqrt\\pi}{2^{2n+1}n!}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On admet que <span class=\"math inline\">\\(\\int_{t=0}^{+\\infty}\ne^{-t^2}\\,d t =\\frac{\\sqrt\\pi}2\\)</span>. Calculer les intégrales :\n<span class=\"math ..."
+}

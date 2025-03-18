@@ -1,0 +1,93 @@
+{
+  "uuid": "ZsaF",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1951",
+    "auteur": "legall",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:31.994Z"
+  },
+  "contenu": [
+    {
+      "id": "99563bbf-795a-48e6-ae1b-eb7756af04b2",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ la fonction $2\\pi $-p\\'eriodique sur $\\Rr$ telle que \n$f(x)=\\vert x \\vert $ si $\\vert x \\vert \\leq \\pi .$",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la fonction <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique sur <span\nclass=\"math inline\">\\(\\Rr\\)</span> telle que <span\nclass=\"math inline\">\\(f(x)=\\vert x \\vert\\)</span> si <span\nclass=\"math inline\">\\(\\vert x \\vert \\leq \\pi .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "288951de-0c38-4e54-b4f3-7d360146cda6",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer la s\\'erie de Fourier de $f$.",
+        "html": "<p>Déterminer la série de Fourier de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e43b5cfb-8b55-481d-b4c3-62be4e06cb4c",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_0 = \\pi$ et pour $n\\ne 0$, $a_n = \\frac{2}{\\pi n^2} ((-1)^n - 1)$ (nul quand $n$ est pair), $b_n=0$.",
+        "html": "<p><span class=\"math inline\">\\(a_0 = \\pi\\)</span> et pour <span\nclass=\"math inline\">\\(n\\ne 0\\)</span>, <span class=\"math inline\">\\(a_n =\n\\frac{2}{\\pi n^2} ((-1)^n - 1)\\)</span> (nul quand <span\nclass=\"math inline\">\\(n\\)</span> est pair), <span\nclass=\"math inline\">\\(b_n=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3f1a092b-22a4-4684-baa9-1d6743f06e24",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\displaystyle{ \\int _{-\\pi}^\\pi \\vert x\\vert ^2dx}$. \nEn d\\'eduire la valeur de $\\displaystyle{ \\sum _{p=0} ^{\\infty } \n\\frac{1}{(2p+1)^4}}.$",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\displaystyle{ \\int _{-\\pi}^\\pi\n\\vert x\\vert ^2dx}\\)</span>. En déduire la valeur de <span\nclass=\"math inline\">\\(\\displaystyle{ \\sum _{p=0} ^{\\infty }\n\\frac{1}{(2p+1)^4}}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d18f69b3-32c4-4fb1-bcc9-6f31bc91b581",
+      "type": "reponse",
+      "value": {
+        "latex": "Par la formule de Parseval \n\t\\[\n\t\\frac{2 \\pi^2}{3} \n\t= \\frac{1}{\\pi} \\int_{-\\pi}^\\pi |x|^2 \\, dx\n\t= \\frac{\\pi^2}{2} + \\frac{16}{\\pi^2} \\sum_{p=0}^\\infty \\frac{1}{(2p+1)^4}\n\t\\]\n\tdonc $\\sum_{p=0}^\\infty \\frac{1}{(2p+1)^2} = \\frac{\\pi^4}{96}$.",
+        "html": "<p>Par la formule de Parseval <span class=\"math display\">\\[\\frac{2\n\\pi^2}{3}\n    = \\frac{1}{\\pi} \\int_{-\\pi}^\\pi |x|^2 \\, dx\n    = \\frac{\\pi^2}{2} + \\frac{16}{\\pi^2} \\sum_{p=0}^\\infty\n\\frac{1}{(2p+1)^4}\\]</span> donc <span\nclass=\"math inline\">\\(\\sum_{p=0}^\\infty \\frac{1}{(2p+1)^2} =\n\\frac{\\pi^4}{96}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cc60384d-0428-4722-8260-1463aa8bb2ac",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\displaystyle{ \\sum _{p=1}^\\infty \\frac{1}{n^4}}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\displaystyle{ \\sum\n_{p=1}^\\infty \\frac{1}{n^4}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2ad501ae-0234-4b6e-b605-b66a72e49776",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme\n\t\\[\n\t\\sum_{n=1}^\\infty \\frac{1}{n^4} = \\sum_{p=1}^\\infty \\frac{1}{(2p)^2} + \\sum_{p=0}^\\infty \\frac{1}{(2p+1)^2}\n\t= \\frac{1}{16} \\sum_{n=1}^\\infty \\frac{1}{n^4} + \\frac{\\pi^4}{96}\n\t\\]\n\til vient $\\displaystyle \\sum_{n=1}^\\infty \\frac{1}{n^4} = \\frac{15}{16} \\frac{\\pi^4}{96}\n\t= \\frac{\\pi^4}{90}$.",
+        "html": "<p>Comme <span class=\"math display\">\\[\\sum_{n=1}^\\infty \\frac{1}{n^4} =\n\\sum_{p=1}^\\infty \\frac{1}{(2p)^2} + \\sum_{p=0}^\\infty\n\\frac{1}{(2p+1)^2}\n    = \\frac{1}{16} \\sum_{n=1}^\\infty \\frac{1}{n^4} +\n\\frac{\\pi^4}{96}\\]</span> il vient <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n=1}^\\infty \\frac{1}{n^4} =\n\\frac{15}{16} \\frac{\\pi^4}{96}\n    = \\frac{\\pi^4}{90}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2e345da1-270c-41fa-ba72-d0954168c607",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\vert x\\vert = \\displaystyle{\\frac{\\pi }{2} \n-\\frac{4}{\\pi} \\sum _{p=0}^\\infty \\frac{ \\cos (2p+1)x }{(2p+1)^2}}$.\nEn d\\'eduire les valeurs de\n$\\displaystyle{ \\sum _{p=0}^\\infty \\frac{1}{(2p+1)^2}}$\npuis  $\\displaystyle{ \\sum _{p=1}^\\infty \\frac{1}{n^2}}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\vert x\\vert =\n\\displaystyle{\\frac{\\pi }{2}\n-\\frac{4}{\\pi} \\sum _{p=0}^\\infty \\frac{ \\cos (2p+1)x\n}{(2p+1)^2}}\\)</span>. En déduire les valeurs de <span\nclass=\"math inline\">\\(\\displaystyle{ \\sum _{p=0}^\\infty\n\\frac{1}{(2p+1)^2}}\\)</span> puis <span\nclass=\"math inline\">\\(\\displaystyle{ \\sum _{p=1}^\\infty\n\\frac{1}{n^2}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e2cebdcf-c11d-4b3e-80b1-ad3113bf2c28",
+      "type": "reponse",
+      "value": {
+        "latex": "C'est le théorème de Dirichlet. Appliqué en $x=0$, cela implique que \n\t$\\displaystyle \\sum_{p=0}^\\infty \\frac{1}{(2p+1)^2} = \\frac{\\pi}{4} \\frac{\\pi}{2} = \\frac{\\pi^2}{8}$. \n\tOn en déduit que $\\displaystyle \\sum_{p=0}^\\infty \\frac{1}{(2p+1)^2} = \\frac{\\pi^2}{6}$.",
+        "html": "<p>C’est le théorème de Dirichlet. Appliqué en <span\nclass=\"math inline\">\\(x=0\\)</span>, cela implique que <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{p=0}^\\infty \\frac{1}{(2p+1)^2}\n= \\frac{\\pi}{4} \\frac{\\pi}{2} = \\frac{\\pi^2}{8}\\)</span>. On en déduit\nque <span class=\"math inline\">\\(\\displaystyle \\sum_{p=0}^\\infty\n\\frac{1}{(2p+1)^2} = \\frac{\\pi^2}{6}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la fonction <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique sur <span\nclass=\"math inline\">\\(\\Rr\\)< ..."
+}

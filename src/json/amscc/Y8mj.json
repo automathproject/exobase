@@ -1,0 +1,95 @@
+{
+  "uuid": "Y8mj",
+  "titre": "Méthodes itératives",
+  "theme": [
+    "analyse numérique"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-04-21",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:27.525Z"
+  },
+  "contenu": [
+    {
+      "id": "6c726aa7-d41d-46b3-9e28-9d1e28100085",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a \\in \\mathbb{R}$ et soit la matrice $$A = \\begin{pmatrix} 1 & a & a \\\\ a & 1 & a \\\\ a & a & 1 \\end{pmatrix}$$ \n\nOn admet que le polynôme caractéristique de $A$ est $\\chi_A(X) = -(X-1+a)^2(X-1-2a)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a \\in \\mathbb{R}\\)</span> et soit la\nmatrice <span class=\"math display\">\\[A = \\begin{pmatrix} 1 &amp; a &amp;\na \\\\ a &amp; 1 &amp; a \\\\ a &amp; a &amp; 1 \\end{pmatrix}\\]</span></p>\n<p>On admet que le polynôme caractéristique de <span\nclass=\"math inline\">\\(A\\)</span> est <span\nclass=\"math inline\">\\(\\chi_A(X) = -(X-1+a)^2(X-1-2a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "80067a18-9aa0-441e-999b-223d23910157",
+      "type": "question",
+      "value": {
+        "latex": "En déduire des conditions sur $a \\in \\mathbb{R}$ telles que la matrice $A$ soit symétrique définie positive. On se restreindra à ce cas par la suite.",
+        "html": "<p>En déduire des conditions sur <span class=\"math inline\">\\(a \\in\n\\mathbb{R}\\)</span> telles que la matrice <span\nclass=\"math inline\">\\(A\\)</span> soit symétrique définie positive. On se\nrestreindra à ce cas par la suite.</p>\n"
+      }
+    },
+    {
+      "id": "4c0d5b13-8f7e-4b9a-a69c-9e74c0e96de0",
+      "type": "reponse",
+      "value": {
+        "latex": "La matrice $A$ est définie positive si ses valeurs propres $1-a>0$ et $1+2a>0$, autrement dit si $-\\frac{1}{2} < a < 1 $.",
+        "html": "<p>La matrice <span class=\"math inline\">\\(A\\)</span> est définie\npositive si ses valeurs propres <span\nclass=\"math inline\">\\(1-a&gt;0\\)</span> et <span\nclass=\"math inline\">\\(1+2a&gt;0\\)</span>, autrement dit si <span\nclass=\"math inline\">\\(-\\frac{1}{2} &lt; a &lt; 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3dc3c31e-1926-4438-a7d2-f78fb3034e36",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le rayon spectral de la matrice $I_3 - A$ où $I_3$ est la matrice identité.",
+        "html": "<p>Déterminer le rayon spectral de la matrice <span\nclass=\"math inline\">\\(I_3 - A\\)</span> où <span\nclass=\"math inline\">\\(I_3\\)</span> est la matrice identité.</p>\n"
+      }
+    },
+    {
+      "id": "110af39a-017e-4c70-aea9-521bb9f4d82c",
+      "type": "reponse",
+      "value": {
+        "latex": "D'après ce qui précède, la matrice $I_3-A$ a deux valeurs propres : $-a$ et $2a$. Son rayon spectral est donc $2|a|$.",
+        "html": "<p>D’après ce qui précède, la matrice <span\nclass=\"math inline\">\\(I_3-A\\)</span> a deux valeurs propres : <span\nclass=\"math inline\">\\(-a\\)</span> et <span\nclass=\"math inline\">\\(2a\\)</span>. Son rayon spectral est donc <span\nclass=\"math inline\">\\(2|a|\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d2c5d0b1-07b5-4203-901a-c5df92675fdb",
+      "type": "question",
+      "value": {
+        "latex": "En déduire des conditions nécessaires et suffisantes sur  $a \\in \\mathbb{R}$ pour que la méthode de Jacobi converge vers une solution du système $Ax=b$.",
+        "html": "<p>En déduire des conditions nécessaires et suffisantes sur <span\nclass=\"math inline\">\\(a \\in \\mathbb{R}\\)</span> pour que la méthode de\nJacobi converge vers une solution du système <span\nclass=\"math inline\">\\(Ax=b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "40b40fd8-430e-44eb-aff9-4f6fc82d3c41",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour que la méthode de Jacobi converge, il faut et il suffit que $\\rho(D-A)<1$ où $D=I_3$ est la diagonale de $A$.\n\t\tLa méthode converge si et seulement si $\\rho(D-A) = 2|a| <1$ . On en déduit que la condition nécessaire et suffisante de convergence de la méthode est que $-\\frac{1}{2} < a < \\frac{1}{2}$.",
+        "html": "<p>Pour que la méthode de Jacobi converge, il faut et il suffit que\n<span class=\"math inline\">\\(\\rho(D-A)&lt;1\\)</span> où <span\nclass=\"math inline\">\\(D=I_3\\)</span> est la diagonale de <span\nclass=\"math inline\">\\(A\\)</span>. La méthode converge si et seulement si\n<span class=\"math inline\">\\(\\rho(D-A) = 2|a| &lt;1\\)</span> . On en\ndéduit que la condition nécessaire et suffisante de convergence de la\nméthode est que <span class=\"math inline\">\\(-\\frac{1}{2} &lt; a &lt;\n\\frac{1}{2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1eac7c77-7d04-47f6-aef0-fd7d966d47c8",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer des conditions suffisantes sur  $a \\in \\mathbb{R}$ pour que la méthode de Gauss-Seidel converge vers une solution du système $Ax=b$.",
+        "html": "<p>Déterminer des conditions suffisantes sur <span\nclass=\"math inline\">\\(a \\in \\mathbb{R}\\)</span> pour que la méthode de\nGauss-Seidel converge vers une solution du système <span\nclass=\"math inline\">\\(Ax=b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "20204ac6-934f-414d-871a-f92f501d65f3",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour que la méthode de Gauss converge,  il suffit que la matrice soit symétrique définie positive.",
+        "html": "<p>Pour que la méthode de Gauss converge, il suffit que la matrice soit\nsymétrique définie positive.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a \\in \\mathbb{R}\\)</span> et soit la\nmatrice <span class=\"math display\"> ..."
+}

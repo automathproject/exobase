@@ -1,0 +1,93 @@
+{
+  "uuid": "ZFIn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7505",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:33.029Z"
+  },
+  "contenu": [
+    {
+      "id": "5d71a8e7-0b00-4018-b675-bc9dd5c4b010",
+      "type": "description",
+      "value": {
+        "latex": "On munit le plan affine euclidien $(P,<,>)$ d'un repère orthonormé\r\n$(O,\\vec{\\imath},\\vec{\\jmath})$.\r\nOn considère les points $A$ de coordonnées $(-2,1)$ et $B$ de coordonnées $(4,4)$.",
+        "html": "<p>On munit le plan affine euclidien <span\nclass=\"math inline\">\\((P,&lt;,&gt;)\\)</span> d’un repère orthonormé\n<span class=\"math inline\">\\((O,\\vec{\\imath},\\vec{\\jmath})\\)</span>. On\nconsidère les points <span class=\"math inline\">\\(A\\)</span> de\ncoordonnées <span class=\"math inline\">\\((-2,1)\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> de coordonnées <span\nclass=\"math inline\">\\((4,4)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "998b308e-22df-4342-9cae-c563c187c5f5",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les coordonnées du barycentre $G$ des points massiques $A(2)$ et $B(1)$.",
+        "html": "<p>Déterminer les coordonnées du barycentre <span\nclass=\"math inline\">\\(G\\)</span> des points massiques <span\nclass=\"math inline\">\\(A(2)\\)</span> et <span\nclass=\"math inline\">\\(B(1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0291e271-d597-46e3-9185-45efa0944766",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme la somme des masses $2+1$ est non nulle, le barycentre est bien défini.\r\n    L'abscisse de $G$ est $\\frac{2\\times (-2)+1\\times 4}{2+1}=0$\r\n    et l'ordonnée $\\frac{2\\times 1+1\\times 4}{2+1}=2$.",
+        "html": "<p>Comme la somme des masses <span class=\"math inline\">\\(2+1\\)</span>\nest non nulle, le barycentre est bien défini. L’abscisse de <span\nclass=\"math inline\">\\(G\\)</span> est <span\nclass=\"math inline\">\\(\\frac{2\\times (-2)+1\\times 4}{2+1}=0\\)</span> et\nl’ordonnée <span class=\"math inline\">\\(\\frac{2\\times 1+1\\times\n4}{2+1}=2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dbf0888b-1336-4ec3-807a-d07abbf8bce7",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $2GA^ 2+GB^2$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(2GA^ 2+GB^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "549acec2-3fa8-42f3-83e2-5cfb665b37af",
+      "type": "reponse",
+      "value": {
+        "latex": "$2GA^ 2+GB^2=2((-2)^2+(1-2)^2)+(4^2+(4-2)^2)=30$.",
+        "html": "<p><span class=\"math inline\">\\(2GA^\n2+GB^2=2((-2)^2+(1-2)^2)+(4^2+(4-2)^2)=30\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "260d32d3-1629-4dd3-b58e-122c0d8e5aa7",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que pour tout point $M$ du plan, on a $$2MA^2+MB^2=3MG^2 +2GA^ 2+GB^2.$$",
+        "html": "<p>Démontrer que pour tout point <span class=\"math inline\">\\(M\\)</span>\ndu plan, on a <span class=\"math display\">\\[2MA^2+MB^2=3MG^2 +2GA^\n2+GB^2.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "41e36216-98de-4d7e-b55d-7114de4b8590",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $M$ un point du plan $P$.\r\n    \\begin{eqnarray*}\r\n        2MA^2+MB^2&=&2\\vec{MA}^2+\\vec{MB}^2=2(\\vec{MG}+\\vec{GA})^2+(\\vec{MG}+\\vec{GB})^2\\\\\r\n        &=&3\\vec{MG}^2+<\\vec{MG},2\\vec{GA}+\\vec{GB}>+2\\vec{GA}^ 2+\\vec{GB}^2\\\\\r\n        &=&3MG^2+2GA^ 2+GB^2.\r\n    \\end{eqnarray*}",
+        "html": "<p>Soit <span class=\"math inline\">\\(M\\)</span> un point du plan <span\nclass=\"math inline\">\\(P\\)</span>. <span\nclass=\"math display\">\\[\\begin{aligned}\n        2MA^2+MB^2&amp;=&amp;2\\vec{MA}^2+\\vec{MB}^2=2(\\vec{MG}+\\vec{GA})^2+(\\vec{MG}+\\vec{GB})^2\\\\\n        &amp;=&amp;3\\vec{MG}^2+&lt;\\vec{MG},2\\vec{GA}+\\vec{GB}&gt;+2\\vec{GA}^\n2+\\vec{GB}^2\\\\\n        &amp;=&amp;3MG^2+2GA^ 2+GB^2.\n    \n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e4554389-650f-4578-9c9e-d516db237456",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer l'ensemble $\\mathcal L$ des points $M$ du plan tels que $2MA^2+MB^2=42$.",
+        "html": "<p>Déterminer l’ensemble <span class=\"math inline\">\\(\\mathcal L\\)</span>\ndes points <span class=\"math inline\">\\(M\\)</span> du plan tels que <span\nclass=\"math inline\">\\(2MA^2+MB^2=42\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e035434e-fced-483a-a820-8c0bdcfbe2b6",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $M$ un point du plan $P$.\r\n    \\begin{eqnarray*}\r\n        M\\in\\mathcal{L}&\\iff & 2MA^2+MB^2=42\\iff 3MG^2+2GA^ 2+GB^2=42\\\\\r\n        &\\iff& 3MG^2+30=42\\iff MG^2=4.\r\n    \\end{eqnarray*}\r\n    L'ensemble $\\mathcal L$ est donc le cercle de centre $G$ et de rayon $2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(M\\)</span> un point du plan <span\nclass=\"math inline\">\\(P\\)</span>. <span\nclass=\"math display\">\\[\\begin{aligned}\n        M\\in\\mathcal{L}&amp;\\iff &amp; 2MA^2+MB^2=42\\iff 3MG^2+2GA^\n2+GB^2=42\\\\\n        &amp;\\iff&amp; 3MG^2+30=42\\iff MG^2=4.\n    \n\\end{aligned}\\]</span> L’ensemble <span class=\"math inline\">\\(\\mathcal\nL\\)</span> est donc le cercle de centre <span\nclass=\"math inline\">\\(G\\)</span> et de rayon <span\nclass=\"math inline\">\\(2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On munit le plan affine euclidien <span\nclass=\"math inline\">\\((P,&lt;,&gt;)\\)</span> d’un repère orthonormé\n<span class=\"math inline\"> ..."
+}

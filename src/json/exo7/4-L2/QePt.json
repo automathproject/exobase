@@ -1,0 +1,109 @@
+{
+  "uuid": "QePt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7401",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:40.044Z"
+  },
+  "contenu": [
+    {
+      "id": "588c69ee-6e2f-423f-ad11-77c1a99109f0",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "c8edff85-e654-4e08-8515-f9da3d289590",
+      "type": "question",
+      "value": {
+        "latex": "Enoncer le théorème de la division euclidienne dans $k[X]$.",
+        "html": "<p>Enoncer le théorème de la division euclidienne dans <span\nclass=\"math inline\">\\(k[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3fadbc4e-b4f8-4df6-a65c-f5f3164d4f8b",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $P\\in k[X]$ et $D\\in k[X]^*$, il existe un unique\r\ncouple $(Q,\\,R)$ dans $k[X]$ tel que $P=QD+R$ et $\\deg(R)<\\deg(D)$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(P\\in k[X]\\)</span> et <span\nclass=\"math inline\">\\(D\\in k[X]^*\\)</span>, il existe un unique couple\n<span class=\"math inline\">\\((Q,\\,R)\\)</span> dans <span\nclass=\"math inline\">\\(k[X]\\)</span> tel que <span\nclass=\"math inline\">\\(P=QD+R\\)</span> et <span\nclass=\"math inline\">\\(\\deg(R)&lt;\\deg(D)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4c259c25-e9b2-42f5-9ca7-f189da5c7f5d",
+      "type": "question",
+      "value": {
+        "latex": "Enoncer le théorème de la division euclidienne dans $\\Z[i]$.",
+        "html": "<p>Enoncer le théorème de la division euclidienne dans <span\nclass=\"math inline\">\\(\\Z[i]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7c8d3f69-9c5b-48e9-8286-b1b60e7cc001",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $a\\in \\Z[i]$ et $d\\in \\Z[i]^*$, il existe un\r\ncouple $(q,\\,r)$ dans $k[X]$ tel que $a=qd+r$ et $|r|<|d|$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(a\\in \\Z[i]\\)</span> et <span\nclass=\"math inline\">\\(d\\in \\Z[i]^*\\)</span>, il existe un couple <span\nclass=\"math inline\">\\((q,\\,r)\\)</span> dans <span\nclass=\"math inline\">\\(k[X]\\)</span> tel que <span\nclass=\"math inline\">\\(a=qd+r\\)</span> et <span\nclass=\"math inline\">\\(|r|&lt;|d|\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d0445e7a-9f9c-4a31-908f-1d4b86aa85d6",
+      "type": "question",
+      "value": {
+        "latex": "Soit $G$ un groupe et $a$ un élément de $G$ d'ordre $n$. Soit $k$ un entier naturel. Quel est l'ordre de $a^k$ ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe et <span\nclass=\"math inline\">\\(a\\)</span> un élément de <span\nclass=\"math inline\">\\(G\\)</span> d’ordre <span\nclass=\"math inline\">\\(n\\)</span>. Soit <span\nclass=\"math inline\">\\(k\\)</span> un entier naturel. Quel est l’ordre de\n<span class=\"math inline\">\\(a^k\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "fb6e4654-748c-48a2-8346-70d049db67e3",
+      "type": "reponse",
+      "value": {
+        "latex": "L'ordre de $a^k$ est $\\frac{n}{n\\wedge k}$. En effet, soient\r\n$d=n\\wedge k$, $n'=n/d$ et $k'=k/d$, de sorte que $n'\\wedge k'=1$.\r\nPour tout $m$, on a $a^{km}=1\\iff n|km \\iff n'| k'm\\iff n'|m$. Donc\r\nl'ordre de $a^k$ est $n'$.",
+        "html": "<p>L’ordre de <span class=\"math inline\">\\(a^k\\)</span> est <span\nclass=\"math inline\">\\(\\frac{n}{n\\wedge k}\\)</span>. En effet, soient\n<span class=\"math inline\">\\(d=n\\wedge k\\)</span>, <span\nclass=\"math inline\">\\(n&#39;=n/d\\)</span> et <span\nclass=\"math inline\">\\(k&#39;=k/d\\)</span>, de sorte que <span\nclass=\"math inline\">\\(n&#39;\\wedge k&#39;=1\\)</span>. Pour tout <span\nclass=\"math inline\">\\(m\\)</span>, on a <span\nclass=\"math inline\">\\(a^{km}=1\\iff n|km \\iff n&#39;| k&#39;m\\iff\nn&#39;|m\\)</span>. Donc l’ordre de <span\nclass=\"math inline\">\\(a^k\\)</span> est <span\nclass=\"math inline\">\\(n&#39;\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "defba95d-26bc-4115-8413-60386fb48057",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que tout groupe d'ordre $13$ est commutatif.",
+        "html": "<p>Démontrer que tout groupe d’ordre <span\nclass=\"math inline\">\\(13\\)</span> est commutatif.</p>\n"
+      }
+    },
+    {
+      "id": "133e3e0c-175a-4794-9875-3f3a95456ab1",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $G$ d'ordre 13 et $x$ un élément non trivial de $G$. Par\r\nle théorème de Lagrange, $x$ ne peut qu'être d'ordre 13. Mais\r\n$\\langle x\\rangle$ contient déjà 13 éléments, donc $G=\\langle\r\nx\\rangle$. Ainsi $G$ est abélien car monogène.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> d’ordre 13 et <span\nclass=\"math inline\">\\(x\\)</span> un élément non trivial de <span\nclass=\"math inline\">\\(G\\)</span>. Par le théorème de Lagrange, <span\nclass=\"math inline\">\\(x\\)</span> ne peut qu’être d’ordre 13. Mais <span\nclass=\"math inline\">\\(\\langle x\\rangle\\)</span> contient déjà 13\néléments, donc <span class=\"math inline\">\\(G=\\langle\nx\\rangle\\)</span>. Ainsi <span class=\"math inline\">\\(G\\)</span> est\nabélien car monogène.</p>\n"
+      }
+    },
+    {
+      "id": "4d064925-b050-46d2-8495-b486dbce8b87",
+      "type": "question",
+      "value": {
+        "latex": "Donner l'exemple d'un nombre premier qui ne peut pas s'écrire comme somme de deux carrés.",
+        "html": "<p>Donner l’exemple d’un nombre premier qui ne peut pas s’écrire comme\nsomme de deux carrés.</p>\n"
+      }
+    },
+    {
+      "id": "c5a62bb8-12ba-480d-9a60-10e8bedc5ab7",
+      "type": "reponse",
+      "value": {
+        "latex": "Par exemple 7, puisque 7 est congru à 3 modulo 4 ou bien pusique ni 7-$1^2$=6, ni $7-2^2=3$, ni avec $n\\in\\N, n\\geq 3$, $7-n^2<0$ ne sont des carrés.",
+        "html": "<p>Par exemple 7, puisque 7 est congru à 3 modulo 4 ou bien pusique ni\n7-<span class=\"math inline\">\\(1^2\\)</span>=6, ni <span\nclass=\"math inline\">\\(7-2^2=3\\)</span>, ni avec <span\nclass=\"math inline\">\\(n\\in\\N, n\\geq 3\\)</span>, <span\nclass=\"math inline\">\\(7-n^2&lt;0\\)</span> ne sont des carrés.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Enoncer le théorème de la division euclidienne dans <span\nclass=\"math inline\">\\(k[X]\\)</span>.</p>\n"
+}

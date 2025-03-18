@@ -1,0 +1,37 @@
+{
+  "uuid": "YaCz",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4288",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:06.359Z"
+  },
+  "contenu": [
+    {
+      "id": "044ff232-bb16-4413-a32c-2392515b2129",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $\\lim_{n\\to\\infty} \\frac 1{\\sqrt{n^2-1}} + \\frac 1{\\sqrt{n^2-4}}\n          + \\dots + \\frac 1{\\sqrt{n^2-(n-1)^2}}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\lim_{n\\to\\infty} \\frac\n1{\\sqrt{n^2-1}} + \\frac 1{\\sqrt{n^2-4}}\n          + \\dots + \\frac 1{\\sqrt{n^2-(n-1)^2}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "878626bc-c52f-4b3b-9588-460b6b798fbc",
+      "type": "reponse",
+      "value": {
+        "latex": "$ \\int_{t=0}^1 \\frac {d t}{\\sqrt{1-t^2}} = \\frac \\pi2$.",
+        "html": "<p><span class=\"math inline\">\\(\\int_{t=0}^1 \\frac {d t}{\\sqrt{1-t^2}} =\n\\frac \\pi2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\"> ..."
+}

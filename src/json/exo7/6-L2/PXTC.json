@@ -1,0 +1,77 @@
+{
+  "uuid": "PXTC",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7280",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:13.820Z"
+  },
+  "contenu": [
+    {
+      "id": "40da1f9b-0b7f-46ee-bf8b-4644514d30dd",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "26ffa48e-7c7a-4955-8da4-bc2754e49e36",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout \\( \\theta \\in \\Rr\\), on~a\r\n\\[\r\n\\cos(5 \\theta) = 16 \\cos( \\theta)^5 - 20 \\cos( \\theta)^3 + 5 \\cos( \\theta).\r\n\\]",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(\\theta \\in\n\\Rr\\)</span>, on a <span class=\"math display\">\\[\\cos(5 \\theta) = 16\n\\cos( \\theta)^5 - 20 \\cos( \\theta)^3 + 5 \\cos( \\theta).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "8228d031-ff46-4707-95ca-583f76ab9fce",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que\r\n$$\r\n\\cos\\frac{\\pi}{5} = \\frac{1 + \\sqrt{5}}{4} \\quad \\text{ et } \\quad \r\n\\cos\\frac{3 \\pi}{5} = \\frac{1 - \\sqrt{5}}{4} $$\r\n\r\n$$\\sin\\frac{ \\pi}{10} = \\frac{-1 + \\sqrt{5}}{4} \\quad \\text{ et } \\quad \r\n\\sin\\frac{3 \\pi}{10} = \\frac{1 + \\sqrt{5}}{4}.\r\n$$\r\n\r\nOn vérifiera que\r\n\\[\r\n16 X^5 - 20 X^3 + 5 X + 1 = (X + 1) (4 X^2 - 2 X - 1)^2.\r\n\\]",
+        "html": "<p>En déduire que <span class=\"math display\">\\[\\cos\\frac{\\pi}{5} =\n\\frac{1 + \\sqrt{5}}{4} \\quad \\text{ et } \\quad\n\\cos\\frac{3 \\pi}{5} = \\frac{1 - \\sqrt{5}}{4}\\]</span></p>\n<p><span class=\"math display\">\\[\\sin\\frac{ \\pi}{10} = \\frac{-1 +\n\\sqrt{5}}{4} \\quad \\text{ et } \\quad\n\\sin\\frac{3 \\pi}{10} = \\frac{1 + \\sqrt{5}}{4}.\\]</span></p>\n<p>On vérifiera que <span class=\"math display\">\\[16 X^5 - 20 X^3 + 5 X +\n1 = (X + 1) (4 X^2 - 2 X - 1)^2.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "44981709-2ada-4c5e-a67e-f57564f19830",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la longueur des côtés d'un pentagone régulier inscrit \r\ndans un cercle de rayon \\(1\\)? celle d'un décagone régulier?",
+        "html": "<p>Quelle est la longueur des côtés d’un pentagone régulier inscrit dans\nun cercle de rayon <span class=\"math inline\">\\(1\\)</span>? celle d’un\ndécagone régulier?</p>\n"
+      }
+    },
+    {
+      "id": "24d4a9be-58e2-4f5c-ac77-52321526e91c",
+      "type": "question",
+      "value": {
+        "latex": "On considère la construction suivante:\r\n\r\n\\begin{center}\r\n\\includegraphics[scale=1]{images/img-mour-032}\r\n\\end{center}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nLes segments \\([AB]\\) et \\([CD]\\) sont deux diamètres orthogonaux d'un \r\ncercle \\(\\mathcal{C}\\) de centre \\(O\\). Notons \\(\\mathcal{C}_1\\) le cercle \r\nde diamètre \\([AO]\\), et \\(P\\) et \\(Q\\) les points d'intersection du \r\ncercle \\(\\mathcal{C}_1\\) et de la droite passant par \\(C\\) et par le \r\ncentre de \\(\\mathcal{C}_1\\). Soient \\(R_0\\) et \\(R_1\\) les points \r\nd'intersection de \\(\\mathcal{C}\\) et du cercle de centre \\(C\\) passant \r\npar \\(P\\), et soient \\(S_0\\) et \\(S_1\\) les points d'intersection \r\nde \\(\\mathcal{C}\\) et du cercle de centre \\(C\\) passant par \\(Q\\). \r\nCalculer les longueurs \\(CP\\) et \\(CQ\\).",
+        "html": "<p>On considère la construction suivante:</p>\n<div class=\"center\">\n<p><img src=\"images/img-mour-032\" alt=\"image\" /></p>\n</div>\n<p>Les segments <span class=\"math inline\">\\([AB]\\)</span> et <span\nclass=\"math inline\">\\([CD]\\)</span> sont deux diamètres orthogonaux d’un\ncercle <span class=\"math inline\">\\(\\mathcal{C}\\)</span> de centre <span\nclass=\"math inline\">\\(O\\)</span>. Notons <span\nclass=\"math inline\">\\(\\mathcal{C}_1\\)</span> le cercle de diamètre <span\nclass=\"math inline\">\\([AO]\\)</span>, et <span\nclass=\"math inline\">\\(P\\)</span> et <span\nclass=\"math inline\">\\(Q\\)</span> les points d’intersection du cercle\n<span class=\"math inline\">\\(\\mathcal{C}_1\\)</span> et de la droite\npassant par <span class=\"math inline\">\\(C\\)</span> et par le centre de\n<span class=\"math inline\">\\(\\mathcal{C}_1\\)</span>. Soient <span\nclass=\"math inline\">\\(R_0\\)</span> et <span\nclass=\"math inline\">\\(R_1\\)</span> les points d’intersection de <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> et du cercle de centre <span\nclass=\"math inline\">\\(C\\)</span> passant par <span\nclass=\"math inline\">\\(P\\)</span>, et soient <span\nclass=\"math inline\">\\(S_0\\)</span> et <span\nclass=\"math inline\">\\(S_1\\)</span> les points d’intersection de <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> et du cercle de centre <span\nclass=\"math inline\">\\(C\\)</span> passant par <span\nclass=\"math inline\">\\(Q\\)</span>. Calculer les longueurs <span\nclass=\"math inline\">\\(CP\\)</span> et <span\nclass=\"math inline\">\\(CQ\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "320de7a5-d2ae-41be-a40c-c608575e2c01",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la mesure des angles \\(\\widehat{COR_0}\\) \r\net \\(\\widehat{COS_0}\\).",
+        "html": "<p>En déduire la mesure des angles <span\nclass=\"math inline\">\\(\\widehat{COR_0}\\)</span> et <span\nclass=\"math inline\">\\(\\widehat{COS_0}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "85e67cc5-046e-4228-b435-c7e712e09008",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que les points \\(D R_0 S_0 S_1 R_1\\) forment un pentagone \r\nrégulier.",
+        "html": "<p>En déduire que les points <span class=\"math inline\">\\(D R_0 S_0 S_1\nR_1\\)</span> forment un pentagone régulier.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que pour tout <span class=\"math inline\">\\(\\theta \\in\n\\Rr\\)</span>, on a <span class=\"math display\"> ..."
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "0pKt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4641",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:22.078Z"
+  },
+  "contenu": [
+    {
+      "id": "4e1afc31-91e3-4a7a-a5d7-5fc121a5f712",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ continue $2\\pi$-périodique, $F(x) =  \\int_{t=0}^x f(t)\\,d t$,\n$a_n, b_n$ les coefficients de Fourier trigonométriques de~$f$ et\n$C = \\frac1{2\\pi} \\int_{t=0}^{2\\pi} (\\pi-t)f(t)\\,d t$. Montrer~:\n$$\\forall\\ x\\in\\R,\\ F(x) =\n\\frac{a_0x}2 + C + \\sum_{n=1}^\\infty \\frac{a_n\\sin nx - b_n\\cos nx}n.\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> continue <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique, <span\nclass=\"math inline\">\\(F(x) =  \\int_{t=0}^x f(t)\\,d t\\)</span>, <span\nclass=\"math inline\">\\(a_n, b_n\\)</span> les coefficients de Fourier\ntrigonométriques de <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(C = \\frac1{2\\pi} \\int_{t=0}^{2\\pi} (\\pi-t)f(t)\\,d\nt\\)</span>. Montrer : <span class=\"math display\">\\[\\forall\\ x\\in\\R,\\\nF(x) =\n\\frac{a_0x}2 + C + \\sum_{n=1}^\\infty \\frac{a_n\\sin nx - b_n\\cos\nnx}n.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> continue <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique, <span\nclass=\"math inline\"> ..."
+}

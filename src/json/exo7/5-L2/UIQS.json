@@ -1,0 +1,77 @@
+{
+  "uuid": "UIQS",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4120",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles non linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:21.239Z"
+  },
+  "contenu": [
+    {
+      "id": "d27f53fd-0e08-48ba-b03a-265ac0fd1c34",
+      "type": "description",
+      "value": {
+        "latex": "Soit $y$ une solution maximale de l'équation $y'=x-e^y$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(y\\)</span> une solution maximale de\nl’équation <span class=\"math inline\">\\(y&#39;=x-e^y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4492169e-b1f3-407a-a1cb-ae60714e3938",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $y$ est décroissante puis croissante.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(y\\)</span> est décroissante\npuis croissante.</p>\n"
+      }
+    },
+    {
+      "id": "8edcf106-2a55-400d-8c26-c59d8671141a",
+      "type": "reponse",
+      "value": {
+        "latex": "Régionnement.",
+        "html": "<p>Régionnement.</p>\n"
+      }
+    },
+    {
+      "id": "d70a117d-9b5d-4f45-a325-7254c47b7f1e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $y$ est définie jusqu'en $+\\infty$ et que sa courbe représentative\n    admet une branche parabolique horizontale.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(y\\)</span> est définie\njusqu’en <span class=\"math inline\">\\(+\\infty\\)</span> et que sa courbe\nreprésentative admet une branche parabolique horizontale.</p>\n"
+      }
+    },
+    {
+      "id": "351c1133-0533-46f8-9b39-35554c71fea9",
+      "type": "reponse",
+      "value": {
+        "latex": "idem.",
+        "html": "<p>idem.</p>\n"
+      }
+    },
+    {
+      "id": "fe6de18f-e557-4a62-a7f8-b3e10555bbc8",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\alpha > -\\infty$ et que $y \\to +\\infty$ lorsque $x\\to\\alpha^-$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\alpha &gt; -\\infty\\)</span>\net que <span class=\"math inline\">\\(y \\to +\\infty\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\to\\alpha^-\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1a8a037e-a88a-41eb-a6c7-177124747ff8",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $x<0$, $y'<-e^y  \\Rightarrow  -y'e^{-y}>1  \\Rightarrow  x > e^{-y} + C > C$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(x&lt;0\\)</span>, <span\nclass=\"math inline\">\\(y&#39;&lt;-e^y  \\Rightarrow  -y&#39;e^{-y}&gt;1  \\Rightarrow  x\n&gt; e^{-y} + C &gt; C\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(y\\)</span> une solution maximale de\nl’équation <span class=\"math inline\">\\(y&#39;=x-e^y\\)</span>.</p>\n"
+}

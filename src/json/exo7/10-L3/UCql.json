@@ -1,0 +1,53 @@
+{
+  "uuid": "UCql",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2307",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:56.801Z"
+  },
+  "contenu": [
+    {
+      "id": "f587d1d2-477b-4af7-a166-4e96078a9013",
+      "type": "description",
+      "value": {
+        "latex": "Trouver les facteurs multiples des polyn\\^omes suivants :",
+        "html": "<p>Trouver les facteurs multiples des polynômes suivants :</p>\n"
+      }
+    },
+    {
+      "id": "0e6f0d53-e789-4fb8-9199-6ece5ebaae7d",
+      "type": "question",
+      "value": {
+        "latex": "$x^6-15x^4+8x^3+51x^2-72x+27$;",
+        "html": "<p><span class=\"math inline\">\\(x^6-15x^4+8x^3+51x^2-72x+27\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "cf8254ce-afa0-4aa6-b1b8-d79694ca4be7",
+      "type": "question",
+      "value": {
+        "latex": "$x^6-2x^5-x^4-2x^3+5x^2+4x+4$.",
+        "html": "<p><span class=\"math inline\">\\(x^6-2x^5-x^4-2x^3+5x^2+4x+4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fad4d714-4330-4fa5-8ca2-0a5d28d226a2",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour obtenir les facteurs multiples, on utilise la remarque suivante~:\n$g$ est un facteur multiple de $f$ ssi $g$ est un facteur commun à $f$ et\nà $f'$ (dérivé formel de $f$).\n\nAinsi $\\pgcd(f,f')$ est le produit de tous les facteurs multiples de $f$,\navec exposant diminué de $1$ par rapport à $f$. Ainsi $f/\\pgcd(f,f')$ est\nle produit de tous les facteurs irréductibles de $f$, avec exposant $1$\npour tous. Finalement, $\\pgcd(\\pgcd(f,f'),f/\\pgcd(f,f'))$ est le produit\nde tous les facteurs multiples de $f$ avec exposant $1$.",
+        "html": "<p>Pour obtenir les facteurs multiples, on utilise la remarque\nsuivante : <span class=\"math inline\">\\(g\\)</span> est un facteur\nmultiple de <span class=\"math inline\">\\(f\\)</span> ssi <span\nclass=\"math inline\">\\(g\\)</span> est un facteur commun à <span\nclass=\"math inline\">\\(f\\)</span> et à <span\nclass=\"math inline\">\\(f&#39;\\)</span> (dérivé formel de <span\nclass=\"math inline\">\\(f\\)</span>).</p>\n<p>Ainsi <span class=\"math inline\">\\(\\pgcd(f,f&#39;)\\)</span> est le\nproduit de tous les facteurs multiples de <span\nclass=\"math inline\">\\(f\\)</span>, avec exposant diminué de <span\nclass=\"math inline\">\\(1\\)</span> par rapport à <span\nclass=\"math inline\">\\(f\\)</span>. Ainsi <span\nclass=\"math inline\">\\(f/\\pgcd(f,f&#39;)\\)</span> est le produit de tous\nles facteurs irréductibles de <span class=\"math inline\">\\(f\\)</span>,\navec exposant <span class=\"math inline\">\\(1\\)</span> pour tous.\nFinalement, <span\nclass=\"math inline\">\\(\\pgcd(\\pgcd(f,f&#39;),f/\\pgcd(f,f&#39;))\\)</span>\nest le produit de tous les facteurs multiples de <span\nclass=\"math inline\">\\(f\\)</span> avec exposant <span\nclass=\"math inline\">\\(1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Trouver les facteurs multiples des polynômes suivants :</p>\n"
+}

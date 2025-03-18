@@ -1,0 +1,77 @@
+{
+  "uuid": "rDZG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7712",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:33.550Z"
+  },
+  "contenu": [
+    {
+      "id": "adbe799f-aedb-4acf-b116-4d64c5116924",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "cc3c0f56-dbdd-4ef5-b64c-584bd4e3e66a",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les plans tangents et un champs de vecteurs normaux unitaires\r\nau paraboloïde hyperbolique $\\mathcal{P}$ d'équation $z=y^2-x^2$ au voisinage du point $A(0,0,0)$\r\nde coordonnées $(0,0,0)$.",
+        "html": "<p>Déterminer les plans tangents et un champs de vecteurs normaux\nunitaires au paraboloïde hyperbolique <span\nclass=\"math inline\">\\(\\mathcal{P}\\)</span> d’équation <span\nclass=\"math inline\">\\(z=y^2-x^2\\)</span> au voisinage du point <span\nclass=\"math inline\">\\(A(0,0,0)\\)</span> de coordonnées <span\nclass=\"math inline\">\\((0,0,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4f59e2a0-c136-4073-bc25-241ee96ebdde",
+      "type": "reponse",
+      "value": {
+        "latex": "Par l'exercice précédent, $\\mathcal{P}$ a pour plan tangent au point $M(x,y,z)$\r\nle plan d'équation $Z=2yY-2xX$. \r\nEn particulier, le plan tangent en $A$ est le plan d'équation $Z=0$\r\nengendré par les deux vecteurs de base $\\begin{pmatrix} 1\\\\0\\\\0\\end{pmatrix}$ et $\\begin{pmatrix} 0\\\\1\\\\0\\end{pmatrix}$.\r\nUn champs de vecteurs normaux unitaires est donc\r\n$$N(x,y,y)=\\frac{1}{\\sqrt{4x^2+4y^2+1}}\\begin{pmatrix} 2x\\\\-2y\\\\1 \\end{pmatrix}.$$",
+        "html": "<p>Par l’exercice précédent, <span\nclass=\"math inline\">\\(\\mathcal{P}\\)</span> a pour plan tangent au point\n<span class=\"math inline\">\\(M(x,y,z)\\)</span> le plan d’équation <span\nclass=\"math inline\">\\(Z=2yY-2xX\\)</span>. En particulier, le plan\ntangent en <span class=\"math inline\">\\(A\\)</span> est le plan d’équation\n<span class=\"math inline\">\\(Z=0\\)</span> engendré par les deux vecteurs\nde base <span class=\"math inline\">\\(\\begin{pmatrix}\n1\\\\0\\\\0\\end{pmatrix}\\)</span> et <span\nclass=\"math inline\">\\(\\begin{pmatrix} 0\\\\1\\\\0\\end{pmatrix}\\)</span>. Un\nchamps de vecteurs normaux unitaires est donc <span\nclass=\"math display\">\\[N(x,y,y)=\\frac{1}{\\sqrt{4x^2+4y^2+1}}\\begin{pmatrix}\n2x\\\\-2y\\\\1 \\end{pmatrix}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "2923dd45-7dd3-4b51-8230-12dda267be0b",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer l'application de Weingarten au point $A$ du paraboloïde hyperbolique $\\mathcal{P}$.",
+        "html": "<p>Déterminer l’application de Weingarten au point <span\nclass=\"math inline\">\\(A\\)</span> du paraboloïde hyperbolique <span\nclass=\"math inline\">\\(\\mathcal{P}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "03b232b6-e4c3-4bf6-911e-71524cbae57b",
+      "type": "reponse",
+      "value": {
+        "latex": "L'endomorphisme de Weingarten est donné au point $A(0,0,0)$\r\npar $W_A=-dN(A) : T_A\\mathcal{P}\\to T_A\\mathcal{P}$ \r\n$$\\begin{array}{c}   \\begin{pmatrix} 1\\\\0\\\\0\\end{pmatrix} \r\n\\mapsto -\\begin{pmatrix} 2\\\\0\\\\0 \\end{pmatrix}\\\\\r\n\\begin{pmatrix} 0\\\\1\\\\0\\end{pmatrix}\\mapsto\\begin{pmatrix}0\\\\2\\\\0\\end{pmatrix}\r\n \\end{array}$$",
+        "html": "<p>L’endomorphisme de Weingarten est donné au point <span\nclass=\"math inline\">\\(A(0,0,0)\\)</span> par <span\nclass=\"math inline\">\\(W_A=-dN(A) : T_A\\mathcal{P}\\to\nT_A\\mathcal{P}\\)</span> <span\nclass=\"math display\">\\[\\begin{array}{c}   \\begin{pmatrix}\n1\\\\0\\\\0\\end{pmatrix}\n\\mapsto -\\begin{pmatrix} 2\\\\0\\\\0 \\end{pmatrix}\\\\\n\\begin{pmatrix}\n0\\\\1\\\\0\\end{pmatrix}\\mapsto\\begin{pmatrix}0\\\\2\\\\0\\end{pmatrix}\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "124b9332-07c7-4b1c-a45a-b7531c2cbaeb",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la courbure de Gauss et les directions principales du paraboloïde hyperbolique $\\mathcal{P}$ au point $A$.",
+        "html": "<p>En déduire la courbure de Gauss et les directions principales du\nparaboloïde hyperbolique <span\nclass=\"math inline\">\\(\\mathcal{P}\\)</span> au point <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "59f9cd73-df2b-49d1-abf1-6eae58ca7b91",
+      "type": "reponse",
+      "value": {
+        "latex": "Ses valeurs propres sont donc $-2$ et $2$. La courbure de Gauss de $\\mathcal{P}$ en $A$ est donc $-4$.\r\nLes directions propres sont donc les axes de coordonnées $x$ et $y$.",
+        "html": "<p>Ses valeurs propres sont donc <span class=\"math inline\">\\(-2\\)</span>\net <span class=\"math inline\">\\(2\\)</span>. La courbure de Gauss de <span\nclass=\"math inline\">\\(\\mathcal{P}\\)</span> en <span\nclass=\"math inline\">\\(A\\)</span> est donc <span\nclass=\"math inline\">\\(-4\\)</span>. Les directions propres sont donc les\naxes de coordonnées <span class=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(y\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les plans tangents et un champs de vecteurs normaux\nunitaires au paraboloïde hyperbolique <span\nclass=\"math inline\">\\(\\mathcal{P}\\)</spa ..."
+}

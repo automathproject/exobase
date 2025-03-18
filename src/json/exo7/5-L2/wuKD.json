@@ -1,0 +1,37 @@
+{
+  "uuid": "wuKD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4058",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:18.965Z"
+  },
+  "contenu": [
+    {
+      "id": "942ebc3d-6e59-45a7-a164-16f068277dd8",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que l'équation : $y^{(4)}+y''+y = |\\sin x|$ admet une et une seule solution\n$\\pi$-périodique.",
+        "html": "<p>Montrer que l’équation : <span\nclass=\"math inline\">\\(y^{(4)}+y&#39;&#39;+y = |\\sin x|\\)</span> admet\nune et une seule solution <span\nclass=\"math inline\">\\(\\pi\\)</span>-périodique.</p>\n"
+      }
+    },
+    {
+      "id": "f6e99b8a-b24f-480c-aefe-d63d9876c6d0",
+      "type": "reponse",
+      "value": {
+        "latex": "$|\\sin x| = \\frac2\\pi -\\frac 4\\pi\\sum_{n=1}^\\infty \\frac{\\cos 2nx}{4n^2-1}\n \\Rightarrow  y = \\frac2\\pi -\\frac4\\pi\\sum_{n=1}^\\infty \\frac{\\cos 2nx}{(4n^2-1)(16n^4-4n^2+1)}$.\n\\par\nCette série converge et définit une fonction de classe $\\mathcal{C}^4$ solution de l'équation.\n\nUnicité : les solutions de l'équation homogène sont combinaison de\n$e^{jx}$, $e^{-jx}$, $e^{j^2x}$ et $e^{-j^2x}$ donc non $\\pi$-périodiques.",
+        "html": "<p><span class=\"math inline\">\\(|\\sin x| = \\frac2\\pi -\\frac\n4\\pi\\sum_{n=1}^\\infty \\frac{\\cos 2nx}{4n^2-1}\n\\Rightarrow  y = \\frac2\\pi -\\frac4\\pi\\sum_{n=1}^\\infty \\frac{\\cos\n2nx}{(4n^2-1)(16n^4-4n^2+1)}\\)</span>.</p>\n<p>Cette série converge et définit une fonction de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^4\\)</span> solution de l’équation.</p>\n<p>Unicité : les solutions de l’équation homogène sont combinaison de\n<span class=\"math inline\">\\(e^{jx}\\)</span>, <span\nclass=\"math inline\">\\(e^{-jx}\\)</span>, <span\nclass=\"math inline\">\\(e^{j^2x}\\)</span> et <span\nclass=\"math inline\">\\(e^{-j^2x}\\)</span> donc non <span\nclass=\"math inline\">\\(\\pi\\)</span>-périodiques.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que l’équation : <span\nclass=\"math inline\">\\(y^{(4)}+y&#39;&#39;+y = |\\sin x|\\)</span> admet\nune et une seule solution <span\nclass=\"math in ..."
+}

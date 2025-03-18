@@ -1,0 +1,61 @@
+{
+  "uuid": "gfii",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6267",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "sousChapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:48.651Z"
+  },
+  "contenu": [
+    {
+      "id": "8a7aad0f-32fd-40f6-a2cc-9234e0576ab2",
+      "type": "description",
+      "value": {
+        "latex": "On va proposer trois démonstrations possibles de l'exercice classique suivant :\nsoit $f$ une application de classe $C^1$ de ${\\Rr}$ dans lui-même, telle que\n$|f'(x)|\\leq k$ pour tout $x$ réel, où $k\\in ]0,1[$. Alors $F$ définie par\n$F(x,y)=(x+f(y),y+f(x))$ est un difféomorphisme de classe $C^1$ de ${\\Rr}^2$\n{\\bf sur} lui-même.",
+        "html": "<p>On va proposer trois démonstrations possibles de l’exercice classique\nsuivant : soit <span class=\"math inline\">\\(f\\)</span> une application de\nclasse <span class=\"math inline\">\\(C^1\\)</span> de <span\nclass=\"math inline\">\\({\\Rr}\\)</span> dans lui-même, telle que <span\nclass=\"math inline\">\\(|f&#39;(x)|\\leq k\\)</span> pour tout <span\nclass=\"math inline\">\\(x\\)</span> réel, où <span\nclass=\"math inline\">\\(k\\in ]0,1[\\)</span>. Alors <span\nclass=\"math inline\">\\(F\\)</span> définie par <span\nclass=\"math inline\">\\(F(x,y)=(x+f(y),y+f(x))\\)</span> est un\ndifféomorphisme de classe <span class=\"math inline\">\\(C^1\\)</span> de\n<span class=\"math inline\">\\({\\Rr}^2\\)</span>\n<span><strong>sur</strong></span> lui-même.</p>\n"
+      }
+    },
+    {
+      "id": "c27f80d5-0aa3-4e52-8bb3-6e0740454d7b",
+      "type": "question",
+      "value": {
+        "latex": "Remarquer que $F$ est injective et $F'(x,y)\\in$ Isom(${\\Rr}^2,{\\Rr}^2$)\npour tout $(x,y)$.\n\nReste à établir la surjection.",
+        "html": "<p>Remarquer que <span class=\"math inline\">\\(F\\)</span> est injective et\n<span class=\"math inline\">\\(F&#39;(x,y)\\in\\)</span> Isom(<span\nclass=\"math inline\">\\({\\Rr}^2,{\\Rr}^2\\)</span>) pour tout <span\nclass=\"math inline\">\\((x,y)\\)</span>.</p>\n<p>Reste à établir la surjection.</p>\n"
+      }
+    },
+    {
+      "id": "b247224b-d3bf-45bc-b1e6-b42a12f2ce89",
+      "type": "question",
+      "value": {
+        "latex": "1ère méthode : Montrer que $F$ est propre ($\\lim ||F(x,y)||=+\\infty$ quand\n$||(x,y)||\\to+\\infty$) et que si $(a,b)\\in{\\Rr}^2$, la fonction\n$g(x,y)=||F(x,y)-(a,b)||^2$ est différentiable et atteint sa borne inférieure\nen un point annulant $g'(x,y)$; conclure.",
+        "html": "<p>1ère méthode : Montrer que <span class=\"math inline\">\\(F\\)</span> est\npropre (<span class=\"math inline\">\\(\\lim ||F(x,y)||=+\\infty\\)</span>\nquand <span class=\"math inline\">\\(||(x,y)||\\to+\\infty\\)</span>) et que\nsi <span class=\"math inline\">\\((a,b)\\in{\\Rr}^2\\)</span>, la fonction\n<span class=\"math inline\">\\(g(x,y)=||F(x,y)-(a,b)||^2\\)</span> est\ndifférentiable et atteint sa borne inférieure en un point annulant <span\nclass=\"math inline\">\\(g&#39;(x,y)\\)</span>; conclure.</p>\n"
+      }
+    },
+    {
+      "id": "be3b0167-ef6f-49a6-ac1d-b33251d0ab23",
+      "type": "question",
+      "value": {
+        "latex": "2ème méthode : Montrer que $F({\\Rr}^2)$ est à la fois ouverte et fermée.\nConclure.",
+        "html": "<p>2ème méthode : Montrer que <span\nclass=\"math inline\">\\(F({\\Rr}^2)\\)</span> est à la fois ouverte et\nfermée. Conclure.</p>\n"
+      }
+    },
+    {
+      "id": "6254895a-ad87-49b0-805c-2a948ad86cae",
+      "type": "question",
+      "value": {
+        "latex": "3ème méthode : Si $(a,b)\\in{\\Rr}^2$, appliquer le théorème du point fixe à\nl'application $\\phi(x,y)=(a-f(y),b-f(x))$; conclure.",
+        "html": "<p>3ème méthode : Si <span\nclass=\"math inline\">\\((a,b)\\in{\\Rr}^2\\)</span>, appliquer le théorème du\npoint fixe à l’application <span\nclass=\"math inline\">\\(\\phi(x,y)=(a-f(y),b-f(x))\\)</span>; conclure.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On va proposer trois démonstrations possibles de l’exercice classique\nsuivant : soit <span class=\"math inline\">\\(f\\)</span> une application de\nclas ..."
+}

@@ -1,0 +1,37 @@
+{
+  "uuid": "2Ki8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4089",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:25.842Z"
+  },
+  "contenu": [
+    {
+      "id": "0d449ccd-7073-43e9-863f-46684da3d7d7",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : \\R \\to \\R$ de classe $\\mathcal{C}^2$ telle que :\n$\\forall\\ x \\in \\R,\\ f(x) + f''(x) \\ge 0$.\n\nMontrer que : $\\forall\\ x \\in \\R,\\ f(x) + f(x+\\pi) \\ge 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : \\R \\to \\R\\)</span> de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> telle que : <span\nclass=\"math inline\">\\(\\forall\\ x \\in \\R,\\ f(x) + f&#39;&#39;(x) \\ge\n0\\)</span>.</p>\n<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ x \\in \\R,\\ f(x) +\nf(x+\\pi) \\ge 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aaddeac0-7721-4069-ba45-448549de10f3",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x) =  \\int_{t=0}^x g(t)\\sin(x-t)\\,d t + \\lambda\\cos x + \\mu\\sin x$\n         avec $g = f+f''$.",
+        "html": "<p><span class=\"math inline\">\\(f(x) =  \\int_{t=0}^x g(t)\\sin(x-t)\\,d t +\n\\lambda\\cos x + \\mu\\sin x\\)</span> avec <span class=\"math inline\">\\(g =\nf+f&#39;&#39;\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : \\R \\to \\R\\)</span> de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> telle que : <span\nclass=\"math  ..."
+}

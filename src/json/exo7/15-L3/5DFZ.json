@@ -1,0 +1,77 @@
+{
+  "uuid": "5DFZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2418",
+    "auteur": "drutu",
+    "createdAt": "2007-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:23.621Z"
+  },
+  "contenu": [
+    {
+      "id": "7f0b30e9-e76c-49f9-8b3c-940bec205157",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X=\\{ a,b,c,d \\}$. Lesquelles parmi les collections de\nsous-ensembles suivants d\\'eterminent une topologie sur $X$ ?\nJustifier.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X=\\{ a,b,c,d \\}\\)</span>. Lesquelles\nparmi les collections de sous-ensembles suivants déterminent une\ntopologie sur <span class=\"math inline\">\\(X\\)</span> ? Justifier.</p>\n"
+      }
+    },
+    {
+      "id": "2f2cf773-d059-412f-b6ed-7f56e09d9268",
+      "type": "question",
+      "value": {
+        "latex": "$\\emptyset$, $X$, $\\{a\\}$, $\\{ b\\}$, $\\{a,c\\}$, $\\{a,b,c\\}$,\n  $\\{a,b\\}$;",
+        "html": "<p><span class=\"math inline\">\\(\\emptyset\\)</span>, <span\nclass=\"math inline\">\\(X\\)</span>, <span\nclass=\"math inline\">\\(\\{a\\}\\)</span>, <span class=\"math inline\">\\(\\{\nb\\}\\)</span>, <span class=\"math inline\">\\(\\{a,c\\}\\)</span>, <span\nclass=\"math inline\">\\(\\{a,b,c\\}\\)</span>, <span\nclass=\"math inline\">\\(\\{a,b\\}\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "cc8d2b6c-effb-423c-a94f-e26934817e3c",
+      "type": "reponse",
+      "value": {
+        "latex": "d\\'efinit une topologie.",
+        "html": "<p>définit une topologie.</p>\n"
+      }
+    },
+    {
+      "id": "91c08102-720c-45be-8605-32fcb2f1f297",
+      "type": "question",
+      "value": {
+        "latex": "$\\emptyset$, $X$, $\\{a\\}$, $\\{ b\\}$, $\\{a,b\\}$, $\\{\n  b,d\\}$;",
+        "html": "<p><span class=\"math inline\">\\(\\emptyset\\)</span>, <span\nclass=\"math inline\">\\(X\\)</span>, <span\nclass=\"math inline\">\\(\\{a\\}\\)</span>, <span class=\"math inline\">\\(\\{\nb\\}\\)</span>, <span class=\"math inline\">\\(\\{a,b\\}\\)</span>, <span\nclass=\"math inline\">\\(\\{\n  b,d\\}\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "743e53ad-5116-4341-828c-561225b1da8a",
+      "type": "reponse",
+      "value": {
+        "latex": "ne d\\'efinit pas une topologie,\ncar $\\{a\\}\\cup \\{ b,d\\}=\\{a,b,d\\}$ n'est pas dans la collection.",
+        "html": "<p>ne définit pas une topologie, car <span\nclass=\"math inline\">\\(\\{a\\}\\cup \\{ b,d\\}=\\{a,b,d\\}\\)</span> n’est pas\ndans la collection.</p>\n"
+      }
+    },
+    {
+      "id": "293f4ecc-cd7f-4a4d-a700-766c133bffa0",
+      "type": "question",
+      "value": {
+        "latex": "$\\emptyset$, $X$, $\\{a,c,d\\}$, $\\{b,c,d\\}$.",
+        "html": "<p><span class=\"math inline\">\\(\\emptyset\\)</span>, <span\nclass=\"math inline\">\\(X\\)</span>, <span\nclass=\"math inline\">\\(\\{a,c,d\\}\\)</span>, <span\nclass=\"math inline\">\\(\\{b,c,d\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ef63bed3-9c7f-45cb-ac97-4621bebb5449",
+      "type": "reponse",
+      "value": {
+        "latex": "ne d\\'efinit pas une topologie, car  $\\{a,c,d\\}\\cap\n\\{b,c,d\\}=\\{c,d\\}$ n'est pas dans la collection.",
+        "html": "<p>ne définit pas une topologie, car <span\nclass=\"math inline\">\\(\\{a,c,d\\}\\cap\n\\{b,c,d\\}=\\{c,d\\}\\)</span> n’est pas dans la collection.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X=\\{ a,b,c,d \\}\\)</span>. Lesquelles\nparmi les collections de sous-ensembles suivants déterminent une\ntopologie su ..."
+}

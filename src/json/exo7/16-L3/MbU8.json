@@ -1,0 +1,37 @@
+{
+  "uuid": "MbU8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2791",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:39.681Z"
+  },
+  "contenu": [
+    {
+      "id": "69a61845-635d-459b-92bb-6038c0b992a8",
+      "type": "description",
+      "value": {
+        "latex": "\\label{ex:burnol1.1.9}\n  Prouver qu'une fonction holomorphe sur un ouvert connexe,\n  de dérivée  identiquement nulle, est constante. Et si\n  l'ouvert n'est pas connexe?",
+        "html": "<p><span id=\"ex:burnol1.1.9\" label=\"ex:burnol1.1.9\"></span> Prouver\nqu’une fonction holomorphe sur un ouvert connexe, de dérivée\nidentiquement nulle, est constante. Et si l’ouvert n’est pas\nconnexe?</p>\n"
+      }
+    },
+    {
+      "id": "831965b1-9623-49d5-80a2-bd02efe2bcdd",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour \\'eviter des raisonnements topologiques, supposons dans un premier temps que $\\Omega$\nsoit un disque, par exemple le disque unit\\'e $\\Omega =D =D (0,1)$, et montrons que $f$ est constante et \\'egale \\`a\n$f(0)$. Si $z\\in D$, alors le segment $[0,z]\\subset D$ (et c'est pour cette raison que l'on a pris $\\Omega =D$).\nOn peut \\'ecrire\n$$f(z)-f(0)=\\int_0^z f'(z) \\, dz =0.$$\nSeulement, ici il faut expliquer le sens de cette int\\'egrale (non connue pour l'instant). Soit $\\gamma : [0,1]\\to [0,z]$,\n$\\gamma (t)=tz$, une param\\'erisation du segment $[0,z]$. Alors,\n$$\\begin{aligned}\n\\int _{0} ^z f'(w)\\, dw &= \\int _0^1 f'(\\gamma (t)) \\gamma '(t) \\, dt = \\int _0^1 f'(tz)z\\, dt\\\\\n&= \\int _0^1 \\Re \\big( f'(tz)z\\big) \\, dt + i \\int _0^1 \\Im \\big( f'(tz)z\\big) \\, dt =0.\n\\end{aligned}$$\nPour le cas d'un ouvert connexe $\\Omega$ quelconque le pr\\'ec\\'edent raisonnement montre qu'au voisinage de tout point\n$z_0\\in \\Omega$ la fonction $f$ est constante. C'est donc une propri\\'et\\'e ouverte. Autrement dit, si $z_0\\in \\Omega$\nest un point quelconque, l'ensemble\n$$\\mathcal{E} =\\{z\\in \\Omega \\, ; \\;\\; f(z)=f(z_0)\\}$$\nest un ouvert. Pour conclure il faut \\'etablir que $\\mathcal{E}$ est aussi un ferm\\'e de $\\Omega$ (topologie induite!!).\nOr ceci est \\'evident puisque $\\mathcal{E} =f^{-1} (\\{f(z_0)\\})$ et $f$ est continue.\nNotons que $\\mathcal{E} \\neq \\emptyset$ puisque $z_0\\in \\mathcal{E}$. Les seuls ensembles \\`a la fois ouverts et ferm\\'es du connexe\n$\\Omega$ \\'etant l'ensemble vide et $\\Omega$, on a $\\Omega = \\mathcal{E}$. La fonction $f$ est constante sur $\\Omega$.\nSi $\\Omega$ n'est pas connexe, $f$ peut  prendre diff\\'erentes valeurs sur les diff\\'erentes composantes\nconnexes de $\\Omega$.",
+        "html": "<p>Pour éviter des raisonnements topologiques, supposons dans un premier\ntemps que <span class=\"math inline\">\\(\\Omega\\)</span> soit un disque,\npar exemple le disque unité <span class=\"math inline\">\\(\\Omega =D =D\n(0,1)\\)</span>, et montrons que <span class=\"math inline\">\\(f\\)</span>\nest constante et égale à <span class=\"math inline\">\\(f(0)\\)</span>. Si\n<span class=\"math inline\">\\(z\\in D\\)</span>, alors le segment <span\nclass=\"math inline\">\\([0,z]\\subset D\\)</span> (et c’est pour cette\nraison que l’on a pris <span class=\"math inline\">\\(\\Omega =D\\)</span>).\nOn peut écrire <span class=\"math display\">\\[f(z)-f(0)=\\int_0^z f&#39;(z)\n\\, dz =0.\\]</span> Seulement, ici il faut expliquer le sens de cette\nintégrale (non connue pour l’instant). Soit <span\nclass=\"math inline\">\\(\\gamma : [0,1]\\to [0,z]\\)</span>, <span\nclass=\"math inline\">\\(\\gamma (t)=tz\\)</span>, une paramérisation du\nsegment <span class=\"math inline\">\\([0,z]\\)</span>. Alors, <span\nclass=\"math display\">\\[\\begin{aligned}\n\\int _{0} ^z f&#39;(w)\\, dw &amp;= \\int _0^1 f&#39;(\\gamma (t)) \\gamma\n&#39;(t) \\, dt = \\int _0^1 f&#39;(tz)z\\, dt\\\\\n&amp;= \\int _0^1 \\Re \\big( f&#39;(tz)z\\big) \\, dt + i \\int _0^1 \\Im\n\\big( f&#39;(tz)z\\big) \\, dt =0.\n\\end{aligned}\\]</span> Pour le cas d’un ouvert connexe <span\nclass=\"math inline\">\\(\\Omega\\)</span> quelconque le précédent\nraisonnement montre qu’au voisinage de tout point <span\nclass=\"math inline\">\\(z_0\\in \\Omega\\)</span> la fonction <span\nclass=\"math inline\">\\(f\\)</span> est constante. C’est donc une propriété\nouverte. Autrement dit, si <span class=\"math inline\">\\(z_0\\in\n\\Omega\\)</span> est un point quelconque, l’ensemble <span\nclass=\"math display\">\\[\\mathcal{E} =\\{z\\in \\Omega \\, ; \\;\\;\nf(z)=f(z_0)\\}\\]</span> est un ouvert. Pour conclure il faut établir que\n<span class=\"math inline\">\\(\\mathcal{E}\\)</span> est aussi un fermé de\n<span class=\"math inline\">\\(\\Omega\\)</span> (topologie induite!!). Or\nceci est évident puisque <span class=\"math inline\">\\(\\mathcal{E} =f^{-1}\n(\\{f(z_0)\\})\\)</span> et <span class=\"math inline\">\\(f\\)</span> est\ncontinue. Notons que <span class=\"math inline\">\\(\\mathcal{E} \\neq\n\\emptyset\\)</span> puisque <span class=\"math inline\">\\(z_0\\in\n\\mathcal{E}\\)</span>. Les seuls ensembles à la fois ouverts et fermés du\nconnexe <span class=\"math inline\">\\(\\Omega\\)</span> étant l’ensemble\nvide et <span class=\"math inline\">\\(\\Omega\\)</span>, on a <span\nclass=\"math inline\">\\(\\Omega = \\mathcal{E}\\)</span>. La fonction <span\nclass=\"math inline\">\\(f\\)</span> est constante sur <span\nclass=\"math inline\">\\(\\Omega\\)</span>. Si <span\nclass=\"math inline\">\\(\\Omega\\)</span> n’est pas connexe, <span\nclass=\"math inline\">\\(f\\)</span> peut prendre différentes valeurs sur\nles différentes composantes connexes de <span\nclass=\"math inline\">\\(\\Omega\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"ex:burnol1.1.9\" label=\"ex:burnol1.1.9\"></span> Prouver\nqu’une fonction holomorphe sur un ouvert connexe, de dérivée\nidentiquement nulle,  ..."
+}

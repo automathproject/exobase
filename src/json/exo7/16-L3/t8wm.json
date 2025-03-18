@@ -1,0 +1,37 @@
+{
+  "uuid": "t8wm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7640",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:17.782Z"
+  },
+  "contenu": [
+    {
+      "id": "91e07480-24b7-4532-9095-ab3563e26d61",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que pour tout nombre complexe $z$ dans le disque unité $\\Delta$, $$\\left|\\frac{4z+3}{4+3z}\\right|\\leq 1.$$",
+        "html": "<p>Montrer que pour tout nombre complexe <span\nclass=\"math inline\">\\(z\\)</span> dans le disque unité <span\nclass=\"math inline\">\\(\\Delta\\)</span>, <span\nclass=\"math display\">\\[\\left|\\frac{4z+3}{4+3z}\\right|\\leq\n1.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c5e1d8c6-c225-4340-9858-e5566724f81c",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\varphi (z) =\\frac{4z+3}{4+3z}$.\r\nSoit $\\zeta\\in\\partial\\Delta$,\r\n$$|\\varphi (\\zeta)|^2=\\frac{16|\\zeta|^2+9+12(\\zeta+\\overline{\\zeta})}{16+9|\\zeta|^2+12(\\zeta+\\overline{\\zeta})}=1.$$\r\nPar le principe du maximum appliqué à $\\varphi$ holomorphe sur le disque $\\Delta_{4/3}$ on obtient que pour tout $z\\in\\Delta$, $|\\varphi(z)|\\leq 1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varphi (z)\n=\\frac{4z+3}{4+3z}\\)</span>. Soit <span\nclass=\"math inline\">\\(\\zeta\\in\\partial\\Delta\\)</span>, <span\nclass=\"math display\">\\[|\\varphi\n(\\zeta)|^2=\\frac{16|\\zeta|^2+9+12(\\zeta+\\overline{\\zeta})}{16+9|\\zeta|^2+12(\\zeta+\\overline{\\zeta})}=1.\\]</span>\nPar le principe du maximum appliqué à <span\nclass=\"math inline\">\\(\\varphi\\)</span> holomorphe sur le disque <span\nclass=\"math inline\">\\(\\Delta_{4/3}\\)</span> on obtient que pour tout\n<span class=\"math inline\">\\(z\\in\\Delta\\)</span>, <span\nclass=\"math inline\">\\(|\\varphi(z)|\\leq 1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que pour tout nombre complexe <span\nclass=\"math inline\">\\(z\\)</span> dans le disque unité <span\nclass=\"math inline\">\\(\\Delta\\)</span>, <spa ..."
+}

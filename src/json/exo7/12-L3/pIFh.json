@@ -1,0 +1,53 @@
+{
+  "uuid": "pIFh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2524",
+    "auteur": "queffelec",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Différentiabilité, calcul de différentielles",
+    "sousChapitre": "Différentiabilité, calcul de différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:53.029Z"
+  },
+  "contenu": [
+    {
+      "id": "8c2aac80-4a3a-4097-9bae-199ba854998b",
+      "type": "description",
+      "value": {
+        "latex": "On consid\\`ere\nl'application $F:{\\Rr^2}\\to{\\Rr^2}$ d\\'efinie par\n$F(x,y)=(x^2+y^2,y^2)$; on note $F^{(k)}$ l'application $F$\ncompos\\'ee $k$-fois avec elle-m\\^eme. On consid\\`ere\n$\\Omega=\\{(x,y)\\in {\\Rr^2}\\ /\\\n\\lim_{k\\to\\infty}F^{(k)}(x,y)=(0,0)\\}$.",
+        "html": "<p>On considère l’application <span\nclass=\"math inline\">\\(F:{\\Rr^2}\\to{\\Rr^2}\\)</span> définie par <span\nclass=\"math inline\">\\(F(x,y)=(x^2+y^2,y^2)\\)</span>; on note <span\nclass=\"math inline\">\\(F^{(k)}\\)</span> l’application <span\nclass=\"math inline\">\\(F\\)</span> composée <span\nclass=\"math inline\">\\(k\\)</span>-fois avec elle-même. On considère <span\nclass=\"math inline\">\\(\\Omega=\\{(x,y)\\in {\\Rr^2}\\ /\\\n\\lim_{k\\to\\infty}F^{(k)}(x,y)=(0,0)\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2de4a670-8edf-40d7-8dcd-c8e58b91bb53",
+      "type": "question",
+      "value": {
+        "latex": "V\\'erifier que $(x,y)\\in\\Omega\\Longleftrightarrow\nF(x,y)\\in\\Omega$.",
+        "html": "<p>Vérifier que <span\nclass=\"math inline\">\\((x,y)\\in\\Omega\\Longleftrightarrow\nF(x,y)\\in\\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3bfb3347-b89f-424e-bec3-b55ac8f6dd60",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe $\\varepsilon>0$ tel que\n$||(x,y)||<\\varepsilon\\Longrightarrow||F'(x,y)||\\leq{\\frac 1 2}$; en\nd\\'eduire que $0$ est int\\'erieur \\`a $\\Omega$ puis que $\\Omega$\nest ouvert.",
+        "html": "<p>Montrer qu’il existe <span\nclass=\"math inline\">\\(\\varepsilon&gt;0\\)</span> tel que <span\nclass=\"math inline\">\\(||(x,y)||&lt;\\varepsilon\\Longrightarrow||F&#39;(x,y)||\\leq{\\frac\n1 2}\\)</span>; en déduire que <span class=\"math inline\">\\(0\\)</span> est\nintérieur à <span class=\"math inline\">\\(\\Omega\\)</span> puis que <span\nclass=\"math inline\">\\(\\Omega\\)</span> est ouvert.</p>\n"
+      }
+    },
+    {
+      "id": "6a807517-3610-4e28-8a6b-4d213ebc405d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que  $\\Omega$ est connexe.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\Omega\\)</span> est\nconnexe.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’application <span\nclass=\"math inline\">\\(F:{\\Rr^2}\\to{\\Rr^2}\\)</span> définie par <span\nclass=\"math inline\">\\(F(x,y)=(x^2+y^2,y^2)\\)< ..."
+}

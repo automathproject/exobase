@@ -1,0 +1,61 @@
+{
+  "uuid": "JIgi",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4600",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Equations différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:57.039Z"
+  },
+  "contenu": [
+    {
+      "id": "827ad0b2-4cb6-45e2-9333-c167ae5295ce",
+      "type": "description",
+      "value": {
+        "latex": "On pose $f(x) = \\sum_{n=0}^\\infty \\frac{x^n}{\\strut C_{2n}^n}$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(x) = \\sum_{n=0}^\\infty\n\\frac{x^n}{\\strut C_{2n}^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "53680e66-feb6-4828-a289-e60c73145b69",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le rayon de convergence et montrer que $f$ vérifie l'équation :\n    $x(4-x)y' - (x+2)y = -2$.",
+        "html": "<p>Déterminer le rayon de convergence et montrer que <span\nclass=\"math inline\">\\(f\\)</span> vérifie l’équation : <span\nclass=\"math inline\">\\(x(4-x)y&#39; - (x+2)y = -2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "482d777f-10b6-435d-86a3-74a0dc608ef5",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=4$.",
+        "html": "<p><span class=\"math inline\">\\(R=4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "50207b51-627a-469c-8860-50f6ae2e4d6c",
+      "type": "question",
+      "value": {
+        "latex": "Résoudre l'équation précédente pour $x > 0$\n    (utiliser le DL de $f$ en 0 à l'ordre 1 pour fixer la constante)\n    et en déduire la somme de la série\n    $\\sum_{n=0}^\\infty \\frac 1{\\strut C_{2n}^n}$.",
+        "html": "<p>Résoudre l’équation précédente pour <span class=\"math inline\">\\(x\n&gt; 0\\)</span> (utiliser le DL de <span\nclass=\"math inline\">\\(f\\)</span> en 0 à l’ordre 1 pour fixer la\nconstante) et en déduire la somme de la série <span\nclass=\"math inline\">\\(\\sum_{n=0}^\\infty \\frac 1{\\strut\nC_{2n}^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "15de36de-4571-4b7b-a997-fa27a0242b64",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = 4\\sqrt{\\frac x{(4-x)^3}}\\left(\\sqrt{\\frac{4-x}x}\n                  - \\Arctan\\sqrt{\\frac{4-x}x} + c\\right)$.\n             $f(x) = 1 + \\frac x2 + \\text{o}(x)  \\Rightarrow  c = \\frac\\pi2$.\n             $ \\Rightarrow \\sum_{n=0}^\\infty \\frac 1{\\strut C_{2n}^n}\n              = \\frac 43 + \\frac{2\\pi}{9\\sqrt 3}$.",
+        "html": "<p><span class=\"math inline\">\\(y = 4\\sqrt{\\frac\nx{(4-x)^3}}\\left(\\sqrt{\\frac{4-x}x}\n                  - \\Arctan\\sqrt{\\frac{4-x}x} + c\\right)\\)</span>. <span\nclass=\"math inline\">\\(f(x) = 1 + \\frac x2 + \\text{o}(x)  \\Rightarrow  c\n= \\frac\\pi2\\)</span>. <span class=\"math inline\">\\(\\Rightarrow\n\\sum_{n=0}^\\infty \\frac 1{\\strut C_{2n}^n}\n              = \\frac 43 + \\frac{2\\pi}{9\\sqrt 3}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(f(x) = \\sum_{n=0}^\\infty\n\\frac{x^n}{\\strut C_{2n}^n}\\)</span>.</p>\n"
+}

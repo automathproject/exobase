@@ -1,0 +1,37 @@
+{
+  "uuid": "4GXe",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3095",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Arithmétique dans Z",
+    "sousChapitre": "Divisibilité, division euclidienne",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:47.750Z"
+  },
+  "contenu": [
+    {
+      "id": "44c6a55e-a4cb-4e12-973e-d85609789ae6",
+      "type": "description",
+      "value": {
+        "latex": "Quel est le dernier chiffre de $7^{7^{7^{7^{7^{7^7}}}}}$ ?",
+        "html": "<p>Quel est le dernier chiffre de <span\nclass=\"math inline\">\\(7^{7^{7^{7^{7^{7^7}}}}}\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "dc8431b5-1593-4fe2-b255-c2ec1c1cc7c2",
+      "type": "reponse",
+      "value": {
+        "latex": "$7^4\\equiv 1(\\mathrm{mod}\\,{10})$, $7^2\\equiv 1(\\mathrm{mod}\\, 4)$ et $7^{7^{7^{7^7}}}$\nest impair donc $7^{7^{7^{7^{7^7}}}}\\equiv 7\\equiv 3(\\mathrm{mod}\\, 4)$ et\n$7^{7^{7^{7^{7^{7^7}}}}}\\equiv 7^3 \\equiv 3(\\mathrm{mod}\\,{10})$.",
+        "html": "<p><span class=\"math inline\">\\(7^4\\equiv 1(\\mathrm{mod}\\,{10})\\)</span>,\n<span class=\"math inline\">\\(7^2\\equiv 1(\\mathrm{mod}\\, 4)\\)</span> et\n<span class=\"math inline\">\\(7^{7^{7^{7^7}}}\\)</span> est impair donc\n<span class=\"math inline\">\\(7^{7^{7^{7^{7^7}}}}\\equiv 7\\equiv\n3(\\mathrm{mod}\\, 4)\\)</span> et <span\nclass=\"math inline\">\\(7^{7^{7^{7^{7^{7^7}}}}}\\equiv 7^3 \\equiv\n3(\\mathrm{mod}\\,{10})\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Quel est le dernier chiffre de <span\nclass=\"math inline\">\\(7^{7^{7^{7^{7^{7^7}}}}}\\)</span> ?</p>\n"
+}

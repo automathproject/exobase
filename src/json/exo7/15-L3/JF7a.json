@@ -1,0 +1,77 @@
+{
+  "uuid": "JF7a",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6200",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Compacité",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:35.657Z"
+  },
+  "contenu": [
+    {
+      "id": "e1af4b03-8a8a-48b2-8635-3db83eff9e78",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E=C_b(\\Rr)$ muni de la norme uniforme; pour $f\\in E$, on note\n$f_a$ la translatée de $f$ par $a$, ie la fonction $x\\to f(x-a)$, et $O_f$\nl'ensemble des translatées de $f$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E=C_b(\\Rr)\\)</span> muni de la norme\nuniforme; pour <span class=\"math inline\">\\(f\\in E\\)</span>, on note\n<span class=\"math inline\">\\(f_a\\)</span> la translatée de <span\nclass=\"math inline\">\\(f\\)</span> par <span\nclass=\"math inline\">\\(a\\)</span>, ie la fonction <span\nclass=\"math inline\">\\(x\\to f(x-a)\\)</span>, et <span\nclass=\"math inline\">\\(O_f\\)</span> l’ensemble des translatées de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3cfaf5b3-17eb-4c95-b6ee-5e352448daa9",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $f$ est périodique, $O_f$ est compact (considérer\nl'application $a\\to f_a$).",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(f\\)</span> est périodique,\n<span class=\"math inline\">\\(O_f\\)</span> est compact (considérer\nl’application <span class=\"math inline\">\\(a\\to f_a\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "e1dab0a0-8f4d-40c4-be19-ff73c799a7de",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ une limite uniforme sur $\\Rr$ de fonctions périodiques; montrer\nque $O_f$ est précompact.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une limite uniforme sur\n<span class=\"math inline\">\\(\\Rr\\)</span> de fonctions périodiques;\nmontrer que <span class=\"math inline\">\\(O_f\\)</span> est précompact.</p>\n"
+      }
+    },
+    {
+      "id": "b28f04bc-29e3-4c92-a6a7-9645549c1f90",
+      "type": "question",
+      "value": {
+        "latex": "On suppose cette fois $O_f$ précompact; on va montrer que $f$ est\nuniformé\\-ment continue.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "c6f23990-e92c-4aff-b0e1-61cb74b375c3",
+      "type": "question",
+      "value": {
+        "latex": "De toute suite $(f_{a_n})$ de $O_f$ on peut extraire une sous-suite\nconvergente dans $E$.",
+        "html": "<p>De toute suite <span class=\"math inline\">\\((f_{a_n})\\)</span> de\n<span class=\"math inline\">\\(O_f\\)</span> on peut extraire une sous-suite\nconvergente dans <span class=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "198cc1ef-6e62-4cfb-b96a-1e815be52e07",
+      "type": "question",
+      "value": {
+        "latex": "Si $x_n-y_n$ tend vers $0$, montrer que $(f_{x_n-y_n})$ n'a qu'une\nvaleur d'adhé\\-rence $f$; en déduire que $f(x_n)-f(y_n)$ tend vers $0$.",
+        "html": "<p>Si <span class=\"math inline\">\\(x_n-y_n\\)</span> tend vers <span\nclass=\"math inline\">\\(0\\)</span>, montrer que <span\nclass=\"math inline\">\\((f_{x_n-y_n})\\)</span> n’a qu’une valeur\nd’adhérence <span class=\"math inline\">\\(f\\)</span>; en déduire que <span\nclass=\"math inline\">\\(f(x_n)-f(y_n)\\)</span> tend vers <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c28d9c9a-9734-404b-9a1d-5316a466dcc6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est uniformément continue.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est uniformément\ncontinue.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E=C_b(\\Rr)\\)</span> muni de la norme\nuniforme; pour <span class=\"math inline\">\\(f\\in E\\)</span>, on note\n<span cla ..."
+}

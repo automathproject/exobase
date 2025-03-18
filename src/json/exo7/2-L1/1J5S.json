@@ -1,0 +1,37 @@
+{
+  "uuid": "1J5S",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4447",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:39.999Z"
+  },
+  "contenu": [
+    {
+      "id": "6c2f9331-66e5-49f9-9afb-e57e9480109b",
+      "type": "description",
+      "value": {
+        "latex": "Donner un équivalent simple de $\\sum_{k=0}^{n-1}\\frac1{n^2-k^2}$.",
+        "html": "<p>Donner un équivalent simple de <span\nclass=\"math inline\">\\(\\sum_{k=0}^{n-1}\\frac1{n^2-k^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1844df44-bd43-4a7c-ab86-0dc44d9de475",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{k=0}^{n-1}\\frac1{n^2-k^2}\n= \\frac1{2n}\\sum_{k=0}^{n-1}\\Bigl(\\frac1{n-k} + \\frac1{n+k}\\Bigr)\n= \\frac1{2n}\\Bigl(\\sum_{k=1}^{2n-1}\\frac1k +\\frac1n\\Bigr)\n\\sim \\frac{\\ln n}{2n}$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{k=0}^{n-1}\\frac1{n^2-k^2}\n= \\frac1{2n}\\sum_{k=0}^{n-1}\\Bigl(\\frac1{n-k} + \\frac1{n+k}\\Bigr)\n= \\frac1{2n}\\Bigl(\\sum_{k=1}^{2n-1}\\frac1k +\\frac1n\\Bigr)\n\\sim \\frac{\\ln n}{2n}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Donner un équivalent simple de <span\nclass=\"math inline\">\\(\\sum_{k=0}^{n-1}\\frac1{n^2-k^2}\\)</span>.</p>\n"
+}

@@ -1,0 +1,56 @@
+{
+  "uuid": "DnxY",
+  "titre": "Estimation sur un jeu de données",
+  "theme": [
+    "statistiques",
+    "tableur"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Maxime NGUYEN",
+    "createdAt": "2022-11-15",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:14.427Z"
+  },
+  "contenu": [
+    {
+      "id": "fa910080-855d-4f45-8242-80fb3641c047",
+      "type": "question",
+      "value": {
+        "latex": "A partir des données de l'échantillon, donner une estimation ponctuelle sans biais du prix moyen et de la variance du prix du carburant E10 en France. On précisera les estimateurs utilisés.",
+        "html": "<p>A partir des données de l’échantillon, donner une estimation\nponctuelle sans biais du prix moyen et de la variance du prix du\ncarburant E10 en France. On précisera les estimateurs utilisés.</p>\n"
+      }
+    },
+    {
+      "id": "48185e65-b15e-4ff8-b339-de4a7d04d331",
+      "type": "reponse",
+      "value": {
+        "latex": "Avec l'estimateur de moyenne empirique (sans biais et convergent), on trouve une estimation de la moyenne de prix de $1{,}661759$ et une variance de $0{,}0139$.",
+        "html": "<p>Avec l’estimateur de moyenne empirique (sans biais et convergent), on\ntrouve une estimation de la moyenne de prix de <span\nclass=\"math inline\">\\(1{,}661759\\)</span> et une variance de <span\nclass=\"math inline\">\\(0{,}0139\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cfe254a4-154e-41a0-aebc-0a1dd3b04742",
+      "type": "question",
+      "value": {
+        "latex": "Proposer une estimation par intervalle de confiance du prix moyen et de la variance du carburant E10 en France, respectivement pour une confiance de $95\\%$ puis $99\\%$.",
+        "html": "<p>Proposer une estimation par intervalle de confiance du prix moyen et\nde la variance du carburant E10 en France, respectivement pour une\nconfiance de <span class=\"math inline\">\\(95\\%\\)</span> puis <span\nclass=\"math inline\">\\(99\\%\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ab2e3604-cfa8-44c3-aebf-e897ce45c42a",
+      "type": "reponse",
+      "value": {
+        "latex": "On travaille sur un échantillon de taille $108$ donc les calculs se font avec la loi normale.\n\t\n\tPour $\\alpha = 5\\%$, on trouve $[1{,}6395 ; 1{,6840}]$. \n\t\n\tPour $\\alpha = 5\\%$, on trouve $[1{,}6325 ; 1{,6910}]$.",
+        "html": "<p>On travaille sur un échantillon de taille <span\nclass=\"math inline\">\\(108\\)</span> donc les calculs se font avec la loi\nnormale.</p>\n<p>Pour <span class=\"math inline\">\\(\\alpha = 5\\%\\)</span>, on trouve\n<span class=\"math inline\">\\([1{,}6395 ; 1{,6840}]\\)</span>.</p>\n<p>Pour <span class=\"math inline\">\\(\\alpha = 5\\%\\)</span>, on trouve\n<span class=\"math inline\">\\([1{,}6325 ; 1{,6910}]\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>A partir des données de l’échantillon, donner une estimation\nponctuelle sans biais du prix moyen et de la variance du prix du\ncarburant E10 en Fran ..."
+}

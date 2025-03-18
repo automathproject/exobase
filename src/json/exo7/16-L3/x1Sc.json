@@ -1,0 +1,53 @@
+{
+  "uuid": "x1Sc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7581",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:22.420Z"
+  },
+  "contenu": [
+    {
+      "id": "1e7b7d5e-79c0-4176-87f3-ca1d4d75eceb",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "f3d58949-02c6-4813-b446-59dccef0063f",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a$ un nombre complexe de module différent de $1$.\r\n Montrer que $$i\\int_0^{2\\pi}\\frac{d\\theta}{1-2a\\cos\\theta + a^2}=\\int_{\\partial\\Delta}\\frac{dz}{(z-a)(1-az)}.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un nombre complexe de\nmodule différent de <span class=\"math inline\">\\(1\\)</span>. Montrer que\n<span class=\"math display\">\\[i\\int_0^{2\\pi}\\frac{d\\theta}{1-2a\\cos\\theta\n+ a^2}=\\int_{\\partial\\Delta}\\frac{dz}{(z-a)(1-az)}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "77c5273f-ebdc-464f-998b-51226da49a6c",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les résidus des pôles de $\\frac{1}{(z-a)(1-az)}$ contenus dans le disque unité ouvert.",
+        "html": "<p>Déterminer les résidus des pôles de <span\nclass=\"math inline\">\\(\\frac{1}{(z-a)(1-az)}\\)</span> contenus dans le\ndisque unité ouvert.</p>\n"
+      }
+    },
+    {
+      "id": "a2ac9fc1-8a4c-42be-bfe5-248a0812720a",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la valeur de $\\int_0^{2\\pi}\\frac{d\\theta}{1-2a\\cos\\theta + a^2}$.",
+        "html": "<p>En déduire la valeur de <span\nclass=\"math inline\">\\(\\int_0^{2\\pi}\\frac{d\\theta}{1-2a\\cos\\theta +\na^2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un nombre complexe de\nmodule différent de <span class=\"math inline\">\\(1\\)</span>. Montrer que\n<span cla ..."
+}

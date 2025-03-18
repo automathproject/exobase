@@ -1,0 +1,61 @@
+{
+  "uuid": "i3Mj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6779",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Champ de vecteurs",
+    "sousChapitre": "Champ de vecteurs",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:31.227Z"
+  },
+  "contenu": [
+    {
+      "id": "5eb97493-d93e-46b5-95e0-39e0f9e1e472",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\phi_2 : \\Rr^2 \\to S^2 \\subset \\Rr^3$ la carte de la sphère $S^2$\ndonnée par la projection stéréographique du p\\^ole\nnord. En identifiant $\\Rr^2$ avec le plan complex\n$\\Cc$, on définit l'application $F : \\Rr^4 \\to\nS^2$ par : $$F(x,y,z,t) = \\phi_2(\\frac{z+it}{x+iy})\\ .\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\phi_2 : \\Rr^2 \\to S^2 \\subset\n\\Rr^3\\)</span> la carte de la sphère <span\nclass=\"math inline\">\\(S^2\\)</span> donnée par la projection\nstéréographique du pôle nord. En identifiant <span\nclass=\"math inline\">\\(\\Rr^2\\)</span> avec le plan complex <span\nclass=\"math inline\">\\(\\Cc\\)</span>, on définit l’application <span\nclass=\"math inline\">\\(F : \\Rr^4 \\to\nS^2\\)</span> par : <span class=\"math display\">\\[F(x,y,z,t) =\n\\phi_2(\\frac{z+it}{x+iy})\\ .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "000f7bb6-d0eb-4cda-8083-889853016b5d",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'expression explicite de $F$ et\nmontrer que la restriction de $F$ à la sphère $S^3\n\\subset \\Rr^4$ est une application $F : S^3 \\to S^2$\nqui est bien définie.",
+        "html": "<p>Calculer l’expression explicite de <span\nclass=\"math inline\">\\(F\\)</span> et montrer que la restriction de <span\nclass=\"math inline\">\\(F\\)</span> à la sphère <span\nclass=\"math inline\">\\(S^3\n\\subset \\Rr^4\\)</span> est une application <span class=\"math inline\">\\(F\n: S^3 \\to S^2\\)</span> qui est bien définie.</p>\n"
+      }
+    },
+    {
+      "id": "c50fb358-4ed2-4b4a-8d05-cf3082a6f35a",
+      "type": "question",
+      "value": {
+        "latex": "Sur $\\Rr^4$ on définit le champ de\nvecteurs $$X(x,y,z,t) = x \\frac\\partial{\\partial y} - \ny \\frac\\partial{\\partial x} + z \\frac\\partial{\\partial t}\n- t \\frac\\partial{\\partial z}\\ .\n$$\nCalculer le flot de $X$; est ce que $X$ est complet ?",
+        "html": "<p>Sur <span class=\"math inline\">\\(\\Rr^4\\)</span> on définit le champ de\nvecteurs <span class=\"math display\">\\[X(x,y,z,t) = x\n\\frac\\partial{\\partial y} -\ny \\frac\\partial{\\partial x} + z \\frac\\partial{\\partial t}\n- t \\frac\\partial{\\partial z}\\ .\\]</span> Calculer le flot de <span\nclass=\"math inline\">\\(X\\)</span>; est ce que <span\nclass=\"math inline\">\\(X\\)</span> est complet ?</p>\n"
+      }
+    },
+    {
+      "id": "f0a93922-f2a9-4a99-86c3-aa3cfc013b3f",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant le résultat de 2., montrer que\nsi $m\\in S^3$, alors $X(m) \\in T_m S^3$.",
+        "html": "<p>En utilisant le résultat de 2., montrer que si <span\nclass=\"math inline\">\\(m\\in S^3\\)</span>, alors <span\nclass=\"math inline\">\\(X(m) \\in T_m S^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8477f113-af23-4ca2-95c7-617d0b8401b9",
+      "type": "question",
+      "value": {
+        "latex": "Pour tout $m\\in S^3$ calculer $TF(m)(X(m)) \\in\nT_{F(m)} S^2$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(m\\in S^3\\)</span> calculer\n<span class=\"math inline\">\\(TF(m)(X(m)) \\in\nT_{F(m)} S^2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\phi_2 : \\Rr^2 \\to S^2 \\subset\n\\Rr^3\\)</span> la carte de la sphère <span\nclass=\"math inline\">\\(S^2\\)</span> donné ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "GHA9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4765",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Topologie des espaces vectoriels normés",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:50.978Z"
+  },
+  "contenu": [
+    {
+      "id": "5abf927f-a1ca-4c38-b972-b62d960a5110",
+      "type": "description",
+      "value": {
+        "latex": "Soient $E,F$ deux evn et $G = E \\times F$.\nOn pose pour $u = (\\vec x,\\vec y) \\in G$ :\n$$\\|u\\|_1 = \\|\\vec x\\,\\|_E + \\|\\vec y\\,\\|_F,\\quad\n  \\|u\\|_2 = \\sqrt{\\|\\vec x\\,\\|_E^2 + \\|\\vec y\\,\\|_F^2},\\quad\n  \\|u\\|_\\infty = \\max(\\|\\vec x\\,\\|_E , \\|\\vec y\\,\\|_F).$$",
+        "html": "<p>Soient <span class=\"math inline\">\\(E,F\\)</span> deux evn et <span\nclass=\"math inline\">\\(G = E \\times F\\)</span>. On pose pour <span\nclass=\"math inline\">\\(u = (\\vec x,\\vec y) \\in G\\)</span> : <span\nclass=\"math display\">\\[\\|u\\|_1 = \\|\\vec x\\,\\|_E + \\|\\vec y\\,\\|_F,\\quad\n  \\|u\\|_2 = \\sqrt{\\|\\vec x\\,\\|_E^2 + \\|\\vec y\\,\\|_F^2},\\quad\n  \\|u\\|_\\infty = \\max(\\|\\vec x\\,\\|_E , \\|\\vec y\\,\\|_F).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "110b1c3f-b1f4-4236-93dc-9d458b7e960d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que ce sont des normes sur $G$ et qu'elles sont deux {\\`a} deux {\\'e}quivalentes\n    (sans hypoth{\\`e}se de dimension finie).",
+        "html": "<p>Montrer que ce sont des normes sur <span\nclass=\"math inline\">\\(G\\)</span> et qu’elles sont deux <span>à</span>\ndeux <span>é</span>quivalentes (sans hypoth<span>è</span>se de dimension\nfinie).</p>\n"
+      }
+    },
+    {
+      "id": "1b05884e-29dc-4d9f-92ef-19854288fb17",
+      "type": "question",
+      "value": {
+        "latex": "On prend $E=F$. Montrer que pour chacune de ces normes, l'application\n    $G \\to E, {(\\vec x,\\vec y\\,)} \\mapsto {\\vec x+\\vec y}$ est continue.",
+        "html": "<p>On prend <span class=\"math inline\">\\(E=F\\)</span>. Montrer que pour\nchacune de ces normes, l’application <span class=\"math inline\">\\(G \\to\nE, {(\\vec x,\\vec y\\,)} \\mapsto {\\vec x+\\vec y}\\)</span> est\ncontinue.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(E,F\\)</span> deux evn et <span\nclass=\"math inline\">\\(G = E \\times F\\)</span>. On pose pour <span\nclass=\"math inl ..."
+}

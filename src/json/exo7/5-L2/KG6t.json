@@ -1,0 +1,77 @@
+{
+  "uuid": "KG6t",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4813",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Topologie des espaces vectoriels normés",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:58.733Z"
+  },
+  "contenu": [
+    {
+      "id": "8382a752-0113-4b0b-8c91-e43248c3591f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E = \\R[x]$ muni de la norme :\n$\\bigl\\|\\sum\\limits_i a_ix^i\\bigr\\| = \\sum\\limits_i|a_i|$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E = \\R[x]\\)</span> muni de la norme\n: <span class=\"math inline\">\\(\\bigl\\|\\sum\\limits_i a_ix^i\\bigr\\| =\n\\sum\\limits_i|a_i|\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c4bd167b-6a8a-4f55-8fcc-ff1f0e0bc136",
+      "type": "question",
+      "value": {
+        "latex": "Est-ce que $\\varphi : P  \\mapsto P(x+1)$ est continue ?",
+        "html": "<p>Est-ce que <span class=\"math inline\">\\(\\varphi : P  \\mapsto\nP(x+1)\\)</span> est continue ?</p>\n"
+      }
+    },
+    {
+      "id": "f1f0beb7-45a6-4f70-a678-4fb24e355852",
+      "type": "reponse",
+      "value": {
+        "latex": "Non : $\\|(x^2+1)^n\\| = 2^n$.",
+        "html": "<p>Non : <span class=\"math inline\">\\(\\|(x^2+1)^n\\| = 2^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "73901208-bb99-48fc-b717-1dc1e088c7e6",
+      "type": "question",
+      "value": {
+        "latex": "Est-ce que $\\psi : P  \\mapsto AP$ est continue ? ($A \\in E$ fix{\\'e})",
+        "html": "<p>Est-ce que <span class=\"math inline\">\\(\\psi : P  \\mapsto AP\\)</span>\nest continue ? (<span class=\"math inline\">\\(A \\in E\\)</span>\nfix<span>é</span>)</p>\n"
+      }
+    },
+    {
+      "id": "1ee2eff0-4c61-4253-8383-575a2a01e0d8",
+      "type": "reponse",
+      "value": {
+        "latex": "Oui : $\\|\\psi\\| = \\|A\\|$.",
+        "html": "<p>Oui : <span class=\"math inline\">\\(\\|\\psi\\| = \\|A\\|\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0d62d716-9310-421a-b3b1-fbb2426eecaf",
+      "type": "question",
+      "value": {
+        "latex": "Reprendre les questions pr{\\'e}c{\\'e}dentes avec la norme :\n    $\\|P\\| = \\sup\\{e^{-|t|}|P(t)|,\\ t\\in \\R\\}$.",
+        "html": "<p>Reprendre les questions pr<span>é</span>c<span>é</span>dentes avec la\nnorme : <span class=\"math inline\">\\(\\|P\\| = \\sup\\{e^{-|t|}|P(t)|,\\ t\\in\n\\R\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d451c6f8-0363-4440-a805-705b168fb6d9",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\|\\phi\\| = e$, $\\|\\psi(x^n)\\|/\\|x^n\\| \\text{ si }m n  \\Rightarrow  \\psi$\n             est discontinue.",
+        "html": "<p><span class=\"math inline\">\\(\\|\\phi\\| = e\\)</span>, <span\nclass=\"math inline\">\\(\\|\\psi(x^n)\\|/\\|x^n\\| \\text{ si }m\nn  \\Rightarrow  \\psi\\)</span> est discontinue.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E = \\R[x]\\)</span> muni de la norme\n: <span class=\"math inline\"> ..."
+}

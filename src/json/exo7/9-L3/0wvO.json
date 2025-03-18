@@ -1,0 +1,77 @@
+{
+  "uuid": "0wvO",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7745",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie projective",
+    "sousChapitre": "Géométrie projective",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:15:09.089Z"
+  },
+  "contenu": [
+    {
+      "id": "885436c2-7d5c-4e08-bae7-dd4112fc045a",
+      "type": "description",
+      "value": {
+        "latex": "Soit $F$ une homographie du plan projectif $P^2$ qui admet une droite $d$ de points fixes.",
+        "html": "<p>Soit <span class=\"math inline\">\\(F\\)</span> une homographie du plan\nprojectif <span class=\"math inline\">\\(P^2\\)</span> qui admet une droite\n<span class=\"math inline\">\\(d\\)</span> de points fixes.</p>\n"
+      }
+    },
+    {
+      "id": "752e7988-412c-418e-aed9-db79e6d97984",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'on peut choisir $f\\in GL(3,k)$ telle que $F=P(f)$ et $f$ admet un plan de points fixes.",
+        "html": "<p>Montrer qu’on peut choisir <span class=\"math inline\">\\(f\\in\nGL(3,k)\\)</span> telle que <span class=\"math inline\">\\(F=P(f)\\)</span>\net <span class=\"math inline\">\\(f\\)</span> admet un plan de points\nfixes.</p>\n"
+      }
+    },
+    {
+      "id": "7f44c068-70e8-48f2-868e-bb081d519bd3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer alors qu'il existe un point $O$ de $P^2$ (appelé centre de $F$) tel que pour tout point $M$ de $P^2$ non fixé par $F$, la droite $(MF(M))$ passe par $O$.",
+        "html": "<p>Montrer alors qu’il existe un point <span\nclass=\"math inline\">\\(O\\)</span> de <span\nclass=\"math inline\">\\(P^2\\)</span> (appelé centre de <span\nclass=\"math inline\">\\(F\\)</span>) tel que pour tout point <span\nclass=\"math inline\">\\(M\\)</span> de <span\nclass=\"math inline\">\\(P^2\\)</span> non fixé par <span\nclass=\"math inline\">\\(F\\)</span>, la droite <span\nclass=\"math inline\">\\((MF(M))\\)</span> passe par <span\nclass=\"math inline\">\\(O\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7bd6d524-96c1-4f42-80d8-51660bc775ea",
+      "type": "question",
+      "value": {
+        "latex": "Soit $d$ une droite et $O$ un point hors de $d$. Soit $A$ et $A'$ deux points hors de $d$ et $A\\not=O$ et $O,A,A'$ alignés. Montrer en choisissant un repère convenable qu'il existe une unique homographie $F$ telle que $d$ soit une droite de points fixes et $O$ le centre et qui envoie $A$ sur $A'$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(d\\)</span> une droite et <span\nclass=\"math inline\">\\(O\\)</span> un point hors de <span\nclass=\"math inline\">\\(d\\)</span>. Soit <span\nclass=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(A&#39;\\)</span> deux points hors de <span\nclass=\"math inline\">\\(d\\)</span> et <span\nclass=\"math inline\">\\(A\\not=O\\)</span> et <span\nclass=\"math inline\">\\(O,A,A&#39;\\)</span> alignés. Montrer en\nchoisissant un repère convenable qu’il existe une unique homographie\n<span class=\"math inline\">\\(F\\)</span> telle que <span\nclass=\"math inline\">\\(d\\)</span> soit une droite de points fixes et\n<span class=\"math inline\">\\(O\\)</span> le centre et qui envoie <span\nclass=\"math inline\">\\(A\\)</span> sur <span\nclass=\"math inline\">\\(A&#39;\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e208480c-8760-42da-8a1a-59fd6f61da10",
+      "type": "question",
+      "value": {
+        "latex": "Soit $F$ une homographie du plan projectif $P^2$ qui admet une droite $d$ de points fixes et de centre $O$. Sachant que $F(A)=A'$, construire l'image du point $M$ par $F$ dans les cas suivants.\r\n    \r\n    \\begin{figure}[!ht] \r\n        \\begin{center}\\includegraphics[scale=0.5]{images/img-mour-497-1}\\end{center}\r\n        \\caption{}\r\n    \\end{figure}\r\n    \r\n    \\begin{figure}[!ht] \r\n        \\begin{center}\\includegraphics[scale=0.5]{images/img-mour-497-2}\r\n            \\caption{le point $O$ est à l'infini}\\end{center}\r\n    \\end{figure}\r\n    \r\n    \\begin{figure}[!ht] \r\n        \\begin{center}\\includegraphics[scale=0.4]{images/img-mour-497-3}\r\n            \\caption{le point $0$ est à l'infini dans la direction de $d$}\\end{center}\r\n    \\end{figure}",
+        "html": "<p>Soit <span class=\"math inline\">\\(F\\)</span> une homographie du plan\nprojectif <span class=\"math inline\">\\(P^2\\)</span> qui admet une droite\n<span class=\"math inline\">\\(d\\)</span> de points fixes et de centre\n<span class=\"math inline\">\\(O\\)</span>. Sachant que <span\nclass=\"math inline\">\\(F(A)=A&#39;\\)</span>, construire l’image du point\n<span class=\"math inline\">\\(M\\)</span> par <span\nclass=\"math inline\">\\(F\\)</span> dans les cas suivants.</p>\n<figure>\n<div class=\"center\">\n<img src=\"images/img-mour-497-1\" />\n</div>\n<figcaption></figcaption>\n</figure>\n<figure>\n<div class=\"center\">\n<img src=\"images/img-mour-497-2\" />\n</div>\n<figcaption>le point <span class=\"math inline\">\\(O\\)</span> est à\nl’infini</figcaption>\n</figure>\n<figure>\n<div class=\"center\">\n<img src=\"images/img-mour-497-3\" />\n</div>\n<figcaption>le point <span class=\"math inline\">\\(0\\)</span> est à\nl’infini dans la direction de <span\nclass=\"math inline\">\\(d\\)</span></figcaption>\n</figure>\n"
+      }
+    },
+    {
+      "id": "d4f04da7-1efc-4675-a798-f4b682202458",
+      "type": "question",
+      "value": {
+        "latex": "Soit $H$ une involution. On considère deux points $P$ et $Q$ tels que avec leur image $P'$ et $Q'$ ils forment un repère projectif (aucun triplet n'est formé de points alignés).\r\n    On définit $O:=(PP')\\cap (QQ')$ et $d$ la droite reliant $(PQ')\\cap(QP')$ et $(PQ)\\cap(P'Q')$. Montrer que $H$ est l'homographie de droite fixe $d$ de centre $O$ qui envoie $P$ sur $P'$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(H\\)</span> une involution. On\nconsidère deux points <span class=\"math inline\">\\(P\\)</span> et <span\nclass=\"math inline\">\\(Q\\)</span> tels que avec leur image <span\nclass=\"math inline\">\\(P&#39;\\)</span> et <span\nclass=\"math inline\">\\(Q&#39;\\)</span> ils forment un repère projectif\n(aucun triplet n’est formé de points alignés). On définit <span\nclass=\"math inline\">\\(O:=(PP&#39;)\\cap (QQ&#39;)\\)</span> et <span\nclass=\"math inline\">\\(d\\)</span> la droite reliant <span\nclass=\"math inline\">\\((PQ&#39;)\\cap(QP&#39;)\\)</span> et <span\nclass=\"math inline\">\\((PQ)\\cap(P&#39;Q&#39;)\\)</span>. Montrer que <span\nclass=\"math inline\">\\(H\\)</span> est l’homographie de droite fixe <span\nclass=\"math inline\">\\(d\\)</span> de centre <span\nclass=\"math inline\">\\(O\\)</span> qui envoie <span\nclass=\"math inline\">\\(P\\)</span> sur <span\nclass=\"math inline\">\\(P&#39;\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3c99ecf1-9e27-4697-b6e6-95eb3200f743",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $F$ admet une droite $d$ de points fixes, $f$ fixe toutes les droites d'un plan. C'est donc en restriction à ce plan, une homothétie. Quitte à diviser par ce rapport non nul, on peut supposer que $f$ est l'identité sur ce plan.\nL'application $f$ est alors soit une dilatation, soit une transvection. Dans le premier cas, avec un repère adapté, tout point de coordonnées $(X,Y,Z)$ et son image de coordonnées $X,Y,\\lambda Z)$ sont coplanaires avec le point de coordonnées $(0,0,1)$.\r\n    Dans le second cas tout point de coordonnées $(X,Y,Z)$ et son image de coordonnées $(X,Y+Z,Z)$ sont coplanaires avec le point de coordonnées $(0,1,0)$.\r\n    On en déduit donc l'existence d'un centre $O$.\nOn choisit un repère projectif de $P^2$ composé de $M_1$ et $M_2$ sur $d$, puis $M_3=O$ et comme point unitaire $M_4=A$. On obtient un repère tel que $d$ ait pour équation $Z=0$ et $O$ pour coordonnées homogènes $[0:0:1]$ et $A$ pour coordonnées homogènes $[1:1:1]$. Notons $[x:x:z]$ des coordonées homogènes de $A'$ aligné avec $O$ et $A$ avec $x\\not=0$ car $A'\\not=O$ et  $z\\not=0$ car $A'\\not\\in d$.\r\n    On peut donc normaliser avec $A'[1:1:z]$. Comme $d$ doit être laissée fixe par l'homographie cherchée $P(f)$, quitte à normaliser, on peut supposer que $f$ est l'identité sur $vect(e_1,e_2)$. Comme $P(f)(A)=A'$, $f(e_1+e_2+e_3)=e_1+e_2+f(e_3)$ est proportionel à $e_1+e_2+ze_3$. Donc, $f(e_3)=ze_3$.\r\n    Réciproquement, cette application $f$ satisfait les conditions requises (voir le cas de la dilatation).\n\\begin{figure}[!ht] \r\n        \\begin{center}\\includegraphics[scale=0.6]{images/img-mour-497-4}\\end{center}\r\n        \\caption{}\r\n    \\end{figure}\r\n    Notons $\\phi$ l'homographie de droite fixe $d$ de centre $O$ qui envoie $P$ sur $P'$. On vérifie successivement qu'elle envoie $P$ sur $P'$, $Q$ sur $Q'$, $P'$ sur $P$ et enfin $Q'$ sur $Q$. Elle coïncide avec $H$ sur un repère projectif donc partout.",
+        "html": "<p>Comme <span class=\"math inline\">\\(F\\)</span> admet une droite <span\nclass=\"math inline\">\\(d\\)</span> de points fixes, <span\nclass=\"math inline\">\\(f\\)</span> fixe toutes les droites d’un plan.\nC’est donc en restriction à ce plan, une homothétie. Quitte à diviser\npar ce rapport non nul, on peut supposer que <span\nclass=\"math inline\">\\(f\\)</span> est l’identité sur ce plan.\nL’application <span class=\"math inline\">\\(f\\)</span> est alors soit une\ndilatation, soit une transvection. Dans le premier cas, avec un repère\nadapté, tout point de coordonnées <span\nclass=\"math inline\">\\((X,Y,Z)\\)</span> et son image de coordonnées <span\nclass=\"math inline\">\\(X,Y,\\lambda Z)\\)</span> sont coplanaires avec le\npoint de coordonnées <span class=\"math inline\">\\((0,0,1)\\)</span>. Dans\nle second cas tout point de coordonnées <span\nclass=\"math inline\">\\((X,Y,Z)\\)</span> et son image de coordonnées <span\nclass=\"math inline\">\\((X,Y+Z,Z)\\)</span> sont coplanaires avec le point\nde coordonnées <span class=\"math inline\">\\((0,1,0)\\)</span>. On en\ndéduit donc l’existence d’un centre <span\nclass=\"math inline\">\\(O\\)</span>. On choisit un repère projectif de\n<span class=\"math inline\">\\(P^2\\)</span> composé de <span\nclass=\"math inline\">\\(M_1\\)</span> et <span\nclass=\"math inline\">\\(M_2\\)</span> sur <span\nclass=\"math inline\">\\(d\\)</span>, puis <span\nclass=\"math inline\">\\(M_3=O\\)</span> et comme point unitaire <span\nclass=\"math inline\">\\(M_4=A\\)</span>. On obtient un repère tel que <span\nclass=\"math inline\">\\(d\\)</span> ait pour équation <span\nclass=\"math inline\">\\(Z=0\\)</span> et <span\nclass=\"math inline\">\\(O\\)</span> pour coordonnées homogènes <span\nclass=\"math inline\">\\([0:0:1]\\)</span> et <span\nclass=\"math inline\">\\(A\\)</span> pour coordonnées homogènes <span\nclass=\"math inline\">\\([1:1:1]\\)</span>. Notons <span\nclass=\"math inline\">\\([x:x:z]\\)</span> des coordonées homogènes de <span\nclass=\"math inline\">\\(A&#39;\\)</span> aligné avec <span\nclass=\"math inline\">\\(O\\)</span> et <span\nclass=\"math inline\">\\(A\\)</span> avec <span\nclass=\"math inline\">\\(x\\not=0\\)</span> car <span\nclass=\"math inline\">\\(A&#39;\\not=O\\)</span> et <span\nclass=\"math inline\">\\(z\\not=0\\)</span> car <span\nclass=\"math inline\">\\(A&#39;\\not\\in d\\)</span>. On peut donc normaliser\navec <span class=\"math inline\">\\(A&#39;[1:1:z]\\)</span>. Comme <span\nclass=\"math inline\">\\(d\\)</span> doit être laissée fixe par\nl’homographie cherchée <span class=\"math inline\">\\(P(f)\\)</span>, quitte\nà normaliser, on peut supposer que <span\nclass=\"math inline\">\\(f\\)</span> est l’identité sur <span\nclass=\"math inline\">\\(vect(e_1,e_2)\\)</span>. Comme <span\nclass=\"math inline\">\\(P(f)(A)=A&#39;\\)</span>, <span\nclass=\"math inline\">\\(f(e_1+e_2+e_3)=e_1+e_2+f(e_3)\\)</span> est\nproportionel à <span class=\"math inline\">\\(e_1+e_2+ze_3\\)</span>. Donc,\n<span class=\"math inline\">\\(f(e_3)=ze_3\\)</span>. Réciproquement, cette\napplication <span class=\"math inline\">\\(f\\)</span> satisfait les\nconditions requises (voir le cas de la dilatation).</p>\n<figure>\n<div class=\"center\">\n<img src=\"images/img-mour-497-4\" />\n</div>\n<figcaption></figcaption>\n</figure>\n<p>Notons <span class=\"math inline\">\\(\\phi\\)</span> l’homographie de\ndroite fixe <span class=\"math inline\">\\(d\\)</span> de centre <span\nclass=\"math inline\">\\(O\\)</span> qui envoie <span\nclass=\"math inline\">\\(P\\)</span> sur <span\nclass=\"math inline\">\\(P&#39;\\)</span>. On vérifie successivement qu’elle\nenvoie <span class=\"math inline\">\\(P\\)</span> sur <span\nclass=\"math inline\">\\(P&#39;\\)</span>, <span\nclass=\"math inline\">\\(Q\\)</span> sur <span\nclass=\"math inline\">\\(Q&#39;\\)</span>, <span\nclass=\"math inline\">\\(P&#39;\\)</span> sur <span\nclass=\"math inline\">\\(P\\)</span> et enfin <span\nclass=\"math inline\">\\(Q&#39;\\)</span> sur <span\nclass=\"math inline\">\\(Q\\)</span>. Elle coïncide avec <span\nclass=\"math inline\">\\(H\\)</span> sur un repère projectif donc\npartout.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(F\\)</span> une homographie du plan\nprojectif <span class=\"math inline\">\\(P^2\\)</span> qui admet une droite\n<span c ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "GMun",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2348",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:32.929Z"
+  },
+  "contenu": [
+    {
+      "id": "953b4068-53cd-4254-8efa-ab79ab9342f8",
+      "type": "description",
+      "value": {
+        "latex": "On d\\'esigne par $d(a,b)$ la distance euclidienne usuelle de $a,b\\in\\Rr^2$ et\non pose\n\n$$ \\delta(a,b)= \\left \\{\\begin{array}{ccc}\n&d(a,b)\\enskip &\\hbox{si}\\enskip\na,b\\enskip\n\\hbox{sont align\\'es avec l'origine}\\enskip O\\\\\n&d(0,a)+d(0,b)\\enskip & \\hbox{sinon}\n\\end{array}\\right.$$",
+        "html": "<p>On désigne par <span class=\"math inline\">\\(d(a,b)\\)</span> la\ndistance euclidienne usuelle de <span\nclass=\"math inline\">\\(a,b\\in\\Rr^2\\)</span> et on pose</p>\n<p><span class=\"math display\">\\[\\delta(a,b)= \\left \\{\\begin{array}{ccc}\n&amp;d(a,b)\\enskip &amp;\\hbox{si}\\enskip\na,b\\enskip\n\\hbox{sont alignés avec l&#39;origine}\\enskip O\\\\\n&amp;d(0,a)+d(0,b)\\enskip &amp; \\hbox{sinon}\n\\end{array}\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "74feac26-5674-45a0-a9ce-35d69f5feff8",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\delta$ est une distance sur $\\Rr^2$ (``distance SNCF\") plus\nfine que la distance usuelle. \n\n Dans\nla suite, on suppose $\\Rr^2$ muni de la topologie associ\\'ee \\`a $\\delta$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\delta\\)</span> est une\ndistance sur <span class=\"math inline\">\\(\\Rr^2\\)</span> (“distance\nSNCF\") plus fine que la distance usuelle.</p>\n<p>Dans la suite, on suppose <span class=\"math inline\">\\(\\Rr^2\\)</span>\nmuni de la topologie associée à <span\nclass=\"math inline\">\\(\\delta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5443ef12-b541-465e-8008-45e42cb71234",
+      "type": "question",
+      "value": {
+        "latex": "Soit $H$ le demi-plan $\\{(x,y)\\ ;\\ y>0\\}$~; montrer que $H$ est \nun ouvert ; d\\'eterminer $\\overline H$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(H\\)</span> le demi-plan <span\nclass=\"math inline\">\\(\\{(x,y)\\ ;\\ y&gt;0\\}\\)</span> ; montrer que <span\nclass=\"math inline\">\\(H\\)</span> est un ouvert ; déterminer <span\nclass=\"math inline\">\\(\\overline H\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1a5a223a-977a-4359-a6c6-9af0d5417301",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la topologie induite sur une droite vectorielle; sur\nle cercle unit\\'e\n$\\Gamma\n$~?",
+        "html": "<p>Quelle est la topologie induite sur une droite vectorielle; sur le\ncercle unité <span class=\"math inline\">\\(\\Gamma\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "1912c8aa-a467-4c73-85d1-caee5d858ac1",
+      "type": "question",
+      "value": {
+        "latex": "Lesquelles des transformations suivantes sont continues~: homoth\\'eties de centre $O$~;\nrotations de centre $O$~; translations~?",
+        "html": "<p>Lesquelles des transformations suivantes sont continues : homothéties\nde centre <span class=\"math inline\">\\(O\\)</span> ; rotations de centre\n<span class=\"math inline\">\\(O\\)</span> ; translations ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On désigne par <span class=\"math inline\">\\(d(a,b)\\)</span> la\ndistance euclidienne usuelle de <span\nclass=\"math inline\">\\(a,b\\in\\Rr^2\\)</span> et o ..."
+}

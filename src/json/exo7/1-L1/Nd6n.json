@@ -1,0 +1,37 @@
+{
+  "uuid": "Nd6n",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3395",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Propriétés élémentaires, généralités",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:06.043Z"
+  },
+  "contenu": [
+    {
+      "id": "9feeaf99-3a3a-49b7-8de9-5eee3cea57d2",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A = \\begin{pmatrix} 1&0&0\\cr 0&1&1\\cr 1&0&1 \\cr\\end{pmatrix}$.\nEn écrivant $A = I + J$, calculer $A^n$, $n \\in \\Z$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A = \\begin{pmatrix} 1&amp;0&amp;0\\cr\n0&amp;1&amp;1\\cr 1&amp;0&amp;1 \\cr\\end{pmatrix}\\)</span>. En écrivant\n<span class=\"math inline\">\\(A = I + J\\)</span>, calculer <span\nclass=\"math inline\">\\(A^n\\)</span>, <span class=\"math inline\">\\(n \\in\n\\Z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "648d7d3c-1fb6-4cd6-8817-2860c3b3113c",
+      "type": "reponse",
+      "value": {
+        "latex": "$A^n = \\begin{pmatrix} 1 & 0 & 0 \\cr C_n^2 & 1 & n \\cr n & 0 & 1 \\cr\\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(A^n = \\begin{pmatrix} 1 &amp; 0 &amp; 0\n\\cr C_n^2 &amp; 1 &amp; n \\cr n &amp; 0 &amp; 1\n\\cr\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A = \\begin{pmatrix} 1&amp;0&amp;0\\cr\n0&amp;1&amp;1\\cr 1&amp;0&amp;1 \\cr\\end{pmatrix}\\)</span>. En écrivant\n<span c ..."
+}

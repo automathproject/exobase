@@ -1,0 +1,61 @@
+{
+  "uuid": "hJ1M",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2558",
+    "auteur": "tahani",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Solution maximale",
+    "sousChapitre": "Solution maximale",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:04.855Z"
+  },
+  "contenu": [
+    {
+      "id": "d64c742c-ecb8-43ff-a297-41a91221ff86",
+      "type": "description",
+      "value": {
+        "latex": "On consid\\`ere l'\\'equation\n$$x'=3x^{2/3} \\mbox{                          :} (1)$$\navec condition initiale $x(0)=0$.",
+        "html": "<p>On considère l’équation <span class=\"math display\">\\[x&#39;=3x^{2/3}\n\\mbox{                          :} (1)\\]</span> avec condition initiale\n<span class=\"math inline\">\\(x(0)=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d2074d3a-0a5e-460b-9da7-136047e1de1d",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\varphi$ une solution de $(1)$ d\\'efinie sur\n$\\mathbb{R}$ telle que $\\varphi(0)=0$; on pose $\\lambda=\\inf \\{ t\n\\leq 0; \\varphi(t)=0\\} \\leq +\\infty$. Montrez que $\\varphi$ est\nidentiquement nulle sur $(\\lambda,\\mu)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varphi\\)</span> une solution de\n<span class=\"math inline\">\\((1)\\)</span> définie sur <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span> telle que <span\nclass=\"math inline\">\\(\\varphi(0)=0\\)</span>; on pose <span\nclass=\"math inline\">\\(\\lambda=\\inf \\{ t\n\\leq 0; \\varphi(t)=0\\} \\leq +\\infty\\)</span>. Montrez que <span\nclass=\"math inline\">\\(\\varphi\\)</span> est identiquement nulle sur <span\nclass=\"math inline\">\\((\\lambda,\\mu)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "93c94ea3-61d8-416e-8d3b-4ded24ca9462",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\lambda_n$ et $\\mu_n$ deux suites de points tels que\n$\\varphi(\\lambda_n)=\\varphi(\\mu_n)=0$ et convergeant\nrespectivement vers $\\lambda$ et $\\mu$, il reste \\`a montrer que\n$\\varphi$ est nulle sur chaque interval $[\\lambda_n,\\mu_n]$. Soit\n$c$ un extremum de $\\varphi$ sur cet interval, on a alors\nnecessairement $\\varphi'(c)=0$ et donc $3c^{2/3}=0$ et donc $c=0$\net donc $\\varphi(c)=\\varphi(0)=0$. Par cons\\'equent le sup et le\nmin de $\\varphi$ sur $[\\lambda_n,\\mu_n]$ sont nuls et donc\n$\\varphi$ est aussi nulle sur cet intervalle. En passant \\`a la\nlimite, on a prouv\\'e que $\\varphi$ est nulle sur $]\\lambda,\\mu[$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\lambda_n\\)</span> et <span\nclass=\"math inline\">\\(\\mu_n\\)</span> deux suites de points tels que\n<span class=\"math inline\">\\(\\varphi(\\lambda_n)=\\varphi(\\mu_n)=0\\)</span>\net convergeant respectivement vers <span\nclass=\"math inline\">\\(\\lambda\\)</span> et <span\nclass=\"math inline\">\\(\\mu\\)</span>, il reste à montrer que <span\nclass=\"math inline\">\\(\\varphi\\)</span> est nulle sur chaque interval\n<span class=\"math inline\">\\([\\lambda_n,\\mu_n]\\)</span>. Soit <span\nclass=\"math inline\">\\(c\\)</span> un extremum de <span\nclass=\"math inline\">\\(\\varphi\\)</span> sur cet interval, on a alors\nnecessairement <span class=\"math inline\">\\(\\varphi&#39;(c)=0\\)</span> et\ndonc <span class=\"math inline\">\\(3c^{2/3}=0\\)</span> et donc <span\nclass=\"math inline\">\\(c=0\\)</span> et donc <span\nclass=\"math inline\">\\(\\varphi(c)=\\varphi(0)=0\\)</span>. Par conséquent\nle sup et le min de <span class=\"math inline\">\\(\\varphi\\)</span> sur\n<span class=\"math inline\">\\([\\lambda_n,\\mu_n]\\)</span> sont nuls et donc\n<span class=\"math inline\">\\(\\varphi\\)</span> est aussi nulle sur cet\nintervalle. En passant à la limite, on a prouvé que <span\nclass=\"math inline\">\\(\\varphi\\)</span> est nulle sur <span\nclass=\"math inline\">\\(]\\lambda,\\mu[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eb4832c0-606a-4fcb-b4bf-d92b1d6177ba",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$\\varphi$ vaut $(t-\\lambda)^3$ si $t\\leq \\lambda$, $0$ sur\n$[\\lambda, \\mu]$ et $(t-\\mu)^3$ si $t \\geq \\mu$; en d\\'eduire\ntoutes les solutions maximales de $(1)$ d\\'efinies sur\n$\\mathbb{R}$ avec $x(0)=0$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\varphi\\)</span> vaut <span\nclass=\"math inline\">\\((t-\\lambda)^3\\)</span> si <span\nclass=\"math inline\">\\(t\\leq \\lambda\\)</span>, <span\nclass=\"math inline\">\\(0\\)</span> sur <span\nclass=\"math inline\">\\([\\lambda, \\mu]\\)</span> et <span\nclass=\"math inline\">\\((t-\\mu)^3\\)</span> si <span\nclass=\"math inline\">\\(t \\geq \\mu\\)</span>; en déduire toutes les\nsolutions maximales de <span class=\"math inline\">\\((1)\\)</span> définies\nsur <span class=\"math inline\">\\(\\mathbb{R}\\)</span> avec <span\nclass=\"math inline\">\\(x(0)=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7f6439a1-5cd4-4f18-8eec-dc52e8ea1146",
+      "type": "reponse",
+      "value": {
+        "latex": "On v\\'erifie que les solutions propos\\'ees v\\'erifient\nl'\\'equation diff\\'erentielle $(1)$. La fonction $x^{2/3}$ est\nlipschitzienne par rapport \\`a $x$ d\\`es que $x\\neq 0$. Si\n$\\varphi_2$ est une solution maximale sur $\\mathbb{R}$ v\\'erifiant\n$\\varphi_2(0)=0$, il existe alors n\\'ecessairement $\\lambda, \\mu$\n(d\\'efinis pr\\'ec\\'edement) tels que $\\varphi_2$ est nulle sur\n$]\\lambda,\\mu[$. Par continuit\\'e de la solution elle v\\'erifie\n$\\varphi(\\lambda)=\\varphi(\\mu)=0$. Mais alors\n$\\varphi_2'-\\varphi=0$ est donc $\\varphi_2=\\varphi+K$ o\\`u $K$ est\nune constante donn\\'ee. Du fait que\n$\\varphi_2(\\lambda)=\\varphi(\\lambda)+K=0+K=0$, on a $K=0$ ce qui\ntermine la d\\'emonstration.",
+        "html": "<p>On vérifie que les solutions proposées vérifient l’équation\ndifférentielle <span class=\"math inline\">\\((1)\\)</span>. La fonction\n<span class=\"math inline\">\\(x^{2/3}\\)</span> est lipschitzienne par\nrapport à <span class=\"math inline\">\\(x\\)</span> dès que <span\nclass=\"math inline\">\\(x\\neq 0\\)</span>. Si <span\nclass=\"math inline\">\\(\\varphi_2\\)</span> est une solution maximale sur\n<span class=\"math inline\">\\(\\mathbb{R}\\)</span> vérifiant <span\nclass=\"math inline\">\\(\\varphi_2(0)=0\\)</span>, il existe alors\nnécessairement <span class=\"math inline\">\\(\\lambda, \\mu\\)</span>\n(définis précédement) tels que <span\nclass=\"math inline\">\\(\\varphi_2\\)</span> est nulle sur <span\nclass=\"math inline\">\\(]\\lambda,\\mu[\\)</span>. Par continuité de la\nsolution elle vérifie <span\nclass=\"math inline\">\\(\\varphi(\\lambda)=\\varphi(\\mu)=0\\)</span>. Mais\nalors <span class=\"math inline\">\\(\\varphi_2&#39;-\\varphi=0\\)</span> est\ndonc <span class=\"math inline\">\\(\\varphi_2=\\varphi+K\\)</span> où <span\nclass=\"math inline\">\\(K\\)</span> est une constante donnée. Du fait que\n<span\nclass=\"math inline\">\\(\\varphi_2(\\lambda)=\\varphi(\\lambda)+K=0+K=0\\)</span>,\non a <span class=\"math inline\">\\(K=0\\)</span> ce qui termine la\ndémonstration.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’équation <span class=\"math display\">\\[x&#39;=3x^{2/3}\n\\mbox{                          :} (1)\\]</span> avec condition initiale\n<span  ..."
+}

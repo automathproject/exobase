@@ -1,0 +1,93 @@
+{
+  "uuid": "hnVK",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3518",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Polynôme annulateur",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:27.825Z"
+  },
+  "contenu": [
+    {
+      "id": "6b0a2eb5-7acc-44b6-a3e3-f1217837b922",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A=\\begin{pmatrix}a_1 &1  &       &(0)\\cr\n                 a_2 &   &\\ddots &   \\cr\n              \\vdots &   &       &1  \\cr\n                 a_n &(0)&       &0  \\cr\\end{pmatrix}$\noù les $a_i$ sont des réels positifs ou nuls, avec $a_1a_n > 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A=\\begin{pmatrix}a_1\n&amp;1  &amp;       &amp;(0)\\cr\n                 a_2 &amp;   &amp;\\ddots &amp;   \\cr\n              \\vdots &amp;   &amp;       &amp;1  \\cr\n                 a_n\n&amp;(0)&amp;       &amp;0  \\cr\\end{pmatrix}\\)</span> où les <span\nclass=\"math inline\">\\(a_i\\)</span> sont des réels positifs ou nuls, avec\n<span class=\"math inline\">\\(a_1a_n &gt; 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1fffa09c-2734-4736-a2c7-0fb0dc22da73",
+      "type": "question",
+      "value": {
+        "latex": "Quel est le polynôme caractérique de~$A$~?",
+        "html": "<p>Quel est le polynôme caractérique de <span\nclass=\"math inline\">\\(A\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "5b3d06b2-4a86-450a-acc2-74cb0057118e",
+      "type": "reponse",
+      "value": {
+        "latex": "$(-1)^n(X^n-a_nX^{n-1}-\\dots-a_1)$.",
+        "html": "<p><span\nclass=\"math inline\">\\((-1)^n(X^n-a_nX^{n-1}-\\dots-a_1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b567afe8-3ffa-419d-8112-0fefd24e5197",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $A$ admet une unique valeur propre $r>0$ et que l'on\n    a~$r < 1 + \\max(a_1,\\dots,a_n)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(A\\)</span> admet une unique\nvaleur propre <span class=\"math inline\">\\(r&gt;0\\)</span> et que l’on\na <span class=\"math inline\">\\(r &lt; 1 +\n\\max(a_1,\\dots,a_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5f8a6f6e-62f4-4053-851b-ce417e18bc1d",
+      "type": "reponse",
+      "value": {
+        "latex": "\\'Etude de $x \\mapsto (x^n-a_nx^{n-1}-\\dots-a_1)/x^n$.",
+        "html": "<p>Étude de <span class=\"math inline\">\\(x \\mapsto\n(x^n-a_nx^{n-1}-\\dots-a_1)/x^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "489b4a7c-f3df-4751-b61c-2df62b939839",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\lambda$ une valeur propre complexe de~$A$.\n    Montrer que $|\\lambda| \\le r$ et $|\\lambda|=r  \\Rightarrow  \\lambda=r$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\lambda\\)</span> une valeur propre\ncomplexe de <span class=\"math inline\">\\(A\\)</span>. Montrer que <span\nclass=\"math inline\">\\(|\\lambda| \\le r\\)</span> et <span\nclass=\"math inline\">\\(|\\lambda|=r  \\Rightarrow  \\lambda=r\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f8652c1a-fd24-4c90-92ee-bd409d2078b3",
+      "type": "reponse",
+      "value": {
+        "latex": "Inégalité triangulaire.",
+        "html": "<p>Inégalité triangulaire.</p>\n"
+      }
+    },
+    {
+      "id": "47fe33c3-7e7a-4d1c-9d29-1dd7a876f927",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe un entier $k$ tel que $A^k$ a tous ses\n    coefficients strictement positifs.",
+        "html": "<p>Montrer qu’il existe un entier <span class=\"math inline\">\\(k\\)</span>\ntel que <span class=\"math inline\">\\(A^k\\)</span> a tous ses coefficients\nstrictement positifs.</p>\n"
+      }
+    },
+    {
+      "id": "b9d81ccc-ef60-4a7e-a528-23150261e8a6",
+      "type": "reponse",
+      "value": {
+        "latex": "Expression générale de $A^k$.",
+        "html": "<p>Expression générale de <span class=\"math inline\">\\(A^k\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\"> ..."
+}

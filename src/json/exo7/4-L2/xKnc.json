@@ -1,0 +1,61 @@
+{
+  "uuid": "xKnc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3501",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Valeur propre, vecteur propre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:13.751Z"
+  },
+  "contenu": [
+    {
+      "id": "c85db8e6-0ae1-4449-a277-1ef98a7a8d0b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A = \\begin{pmatrix} 0 &1      &       &(0)     \\cr\n                    1 &\\ddots &\\ddots          \\cr\n                      &\\ddots &\\ddots &1       \\cr\n                    (0)&      &1      &0       \\cr \\end{pmatrix} \\in \\mathcal{M}_n(\\R)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A = \\begin{pmatrix} 0\n&amp;1      &amp;       &amp;(0)     \\cr\n                    1 &amp;\\ddots &amp;\\ddots          \\cr\n                      &amp;\\ddots &amp;\\ddots &amp;1       \\cr\n                    (0)&amp;      &amp;1      &amp;0       \\cr\n\\end{pmatrix} \\in \\mathcal{M}_n(\\R)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f2b019a7-37ba-4b26-b9b0-12f9bed7fe41",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $D_n(\\theta) = \\det(A+(2\\cos\\theta) I)$ par récurrence.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(D_n(\\theta) =\n\\det(A+(2\\cos\\theta) I)\\)</span> par récurrence.</p>\n"
+      }
+    },
+    {
+      "id": "4b433531-6c5b-49fb-b40d-c771440685df",
+      "type": "reponse",
+      "value": {
+        "latex": "$D_n = 2\\cos\\theta D_{n-1} - D_{n-2}  \\Rightarrow \n              D_n = \\frac{\\sin(n+1)\\theta}{\\sin\\theta}$.",
+        "html": "<p><span class=\"math inline\">\\(D_n = 2\\cos\\theta D_{n-1} -\nD_{n-2}  \\Rightarrow\n              D_n = \\frac{\\sin(n+1)\\theta}{\\sin\\theta}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9323c7f4-02e1-4bb8-a198-8d59789fb775",
+      "type": "question",
+      "value": {
+        "latex": "En déduire les valeurs propres de $A$.",
+        "html": "<p>En déduire les valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c5dec877-d5d2-47a1-8699-eca463a7605a",
+      "type": "reponse",
+      "value": {
+        "latex": "$-2\\cos\\left(\\frac{k\\pi}{n+1}\\right)$, $1 \\le k \\le n$.",
+        "html": "<p><span\nclass=\"math inline\">\\(-2\\cos\\left(\\frac{k\\pi}{n+1}\\right)\\)</span>,\n<span class=\"math inline\">\\(1 \\le k \\le n\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\"> ..."
+}

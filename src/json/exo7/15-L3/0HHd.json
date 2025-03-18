@@ -1,0 +1,69 @@
+{
+  "uuid": "0HHd",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2349",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:18.481Z"
+  },
+  "contenu": [
+    {
+      "id": "4db3fc78-bb83-4592-aac9-dc8b8e1d1e02",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "5d3cd892-ce7e-43e3-a8db-044c96c99082",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \n$||f||_\\infty= \\sup_{0\\leq x\\leq\n1}|f(x)|$ et  $||f||_1=\\int_0^1|f(t)|\\ dt$ sont deux normes \nsur $C([0,1],{\\Rr})$. Sont-elles \\'equivalentes ?",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(||f||_\\infty= \\sup_{0\\leq\nx\\leq\n1}|f(x)|\\)</span> et <span class=\"math inline\">\\(||f||_1=\\int_0^1|f(t)|\\\ndt\\)</span> sont deux normes sur <span\nclass=\"math inline\">\\(C([0,1],{\\Rr})\\)</span>. Sont-elles équivalentes\n?</p>\n"
+      }
+    },
+    {
+      "id": "0147ced3-6342-41ec-b375-a69664ec6ed7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\| f \\|_1 = \\int_0^1|f(t)|dt \\le \\int_0^1 \\|f\\|_\\infty dt \\le \\|f\\|_\\infty$.\nDonc $\\| f \\|_1 \\le \\|f\\|_\\infty$ Par contre il n'existe aucune constante $C>0$ tel que $\\|f\\|_\\infty \\le C \\| f \\|_1$ pour tout $f$. Pour montrer ceci par l'absurde, supposons qu'il existe une constante $C>0$ telle que\n$\\|f\\|_\\infty \\le C \\| f \\|_1$ pour tout $f$ de $ C([0,1],{\\Rr})$.\nRegardons les fonctions $f_k$ définies par $f_k(x) = 2k(1-kx)$ si\n$x\\in[0,\\frac1k]$ et $f_k(x)=0$ si $x > \\frac1k$. \nAlors $f_k \\in C([0,1],{\\Rr})$ et  $\\| f_k \\|_\\infty = 2k$ alors que $\\| f_k \\|_1 = 1$. On obtient $2k \\le C.1$ ce qui est contradicoire pour\n$k$ assez grand. Cela prouve que les normes ne sont pas équivalentes.",
+        "html": "<p><span class=\"math inline\">\\(\\| f \\|_1 = \\int_0^1|f(t)|dt \\le \\int_0^1\n\\|f\\|_\\infty dt \\le \\|f\\|_\\infty\\)</span>. Donc <span\nclass=\"math inline\">\\(\\| f \\|_1 \\le \\|f\\|_\\infty\\)</span> Par contre il\nn’existe aucune constante <span class=\"math inline\">\\(C&gt;0\\)</span>\ntel que <span class=\"math inline\">\\(\\|f\\|_\\infty \\le C \\| f\n\\|_1\\)</span> pour tout <span class=\"math inline\">\\(f\\)</span>. Pour\nmontrer ceci par l’absurde, supposons qu’il existe une constante <span\nclass=\"math inline\">\\(C&gt;0\\)</span> telle que <span\nclass=\"math inline\">\\(\\|f\\|_\\infty \\le C \\| f \\|_1\\)</span> pour tout\n<span class=\"math inline\">\\(f\\)</span> de <span\nclass=\"math inline\">\\(C([0,1],{\\Rr})\\)</span>. Regardons les fonctions\n<span class=\"math inline\">\\(f_k\\)</span> définies par <span\nclass=\"math inline\">\\(f_k(x) = 2k(1-kx)\\)</span> si <span\nclass=\"math inline\">\\(x\\in[0,\\frac1k]\\)</span> et <span\nclass=\"math inline\">\\(f_k(x)=0\\)</span> si <span class=\"math inline\">\\(x\n&gt; \\frac1k\\)</span>. Alors <span class=\"math inline\">\\(f_k \\in\nC([0,1],{\\Rr})\\)</span> et <span class=\"math inline\">\\(\\| f_k \\|_\\infty\n= 2k\\)</span> alors que <span class=\"math inline\">\\(\\| f_k \\|_1 =\n1\\)</span>. On obtient <span class=\"math inline\">\\(2k \\le C.1\\)</span>\nce qui est contradicoire pour <span class=\"math inline\">\\(k\\)</span>\nassez grand. Cela prouve que les normes ne sont pas équivalentes.</p>\n"
+      }
+    },
+    {
+      "id": "ecd39ca7-a68b-451f-9235-7addca1f0162",
+      "type": "question",
+      "value": {
+        "latex": "Les deux m\\'etriques associ\\'ees sont-elles topologiquement \\'equivalentes ?",
+        "html": "<p>Les deux métriques associées sont-elles topologiquement équivalentes\n?</p>\n"
+      }
+    },
+    {
+      "id": "b941a298-f2b0-4309-bce3-4df9e980aa9e",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme les métriques sont définies par des normes et que les normes ne sont pas équivalentes alors les métriques ne définissent pas la même topologie.",
+        "html": "<p>Comme les métriques sont définies par des normes et que les normes ne\nsont pas équivalentes alors les métriques ne définissent pas la même\ntopologie.</p>\n"
+      }
+    },
+    {
+      "id": "bd317dab-2d5b-4c0a-b35c-968f4055243a",
+      "type": "indication",
+      "value": {
+        "latex": "\\begin{itemize}\n  \\item Montrer $\\| f \\|_1 \\le \\|f\\|_\\infty$.\n  \\item Par un contre-exemple, montrer qu'il n'existe \naucune constante $C>0$ tel que $\\|f\\|_\\infty \\le C \\| f \\|_1$ pour tout $f$.\n\\end{itemize}",
+        "html": "<ul>\n<li><p>Montrer <span class=\"math inline\">\\(\\| f \\|_1 \\le\n\\|f\\|_\\infty\\)</span>.</p></li>\n<li><p>Par un contre-exemple, montrer qu’il n’existe aucune constante\n<span class=\"math inline\">\\(C&gt;0\\)</span> tel que <span\nclass=\"math inline\">\\(\\|f\\|_\\infty \\le C \\| f \\|_1\\)</span> pour tout\n<span class=\"math inline\">\\(f\\)</span>.</p></li>\n</ul>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que <span class=\"math inline\">\\(||f||_\\infty= \\sup_{0\\leq\nx\\leq\n1}|f(x)|\\)</span> et <span class=\"math inline\"> ..."
+}

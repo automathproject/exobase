@@ -1,0 +1,53 @@
+{
+  "uuid": "ZkXC",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6473",
+    "auteur": "drutu",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Sous-groupe, morphisme",
+    "sousChapitre": "Sous-groupe, morphisme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:00.520Z"
+  },
+  "contenu": [
+    {
+      "id": "26d10ab5-db6b-431b-abe5-a3b29770779b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $SL(n,\\R)=\\{ M\\in M_n(\\R )\\mid det\\, M=\\pm 1 \\}$ et soit l'action du groupe $SL(n,\\R)$ sur $\\R^n$ donnée par \n$$\nSL(n,\\R)\\times \\R^n \\to \\R^n\\, ,\n$$\n$$\n(M,\\, X)\\to MX\\; .\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(SL(n,\\R)=\\{ M\\in M_n(\\R )\\mid det\\,\nM=\\pm 1 \\}\\)</span> et soit l’action du groupe <span\nclass=\"math inline\">\\(SL(n,\\R)\\)</span> sur <span\nclass=\"math inline\">\\(\\R^n\\)</span> donnée par <span\nclass=\"math display\">\\[SL(n,\\R)\\times \\R^n \\to \\R^n\\, ,\\]</span> <span\nclass=\"math display\">\\[(M,\\, X)\\to MX\\; .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "0b04f2fc-2b1e-44d8-8cb7-79ca27864e8f",
+      "type": "question",
+      "value": {
+        "latex": "Trouver les orbites de cette action. Montrer que le centre de $SL(n,\\R)$ est $\\{ \\pm I \\}$.",
+        "html": "<p>Trouver les orbites de cette action. Montrer que le centre de <span\nclass=\"math inline\">\\(SL(n,\\R)\\)</span> est <span\nclass=\"math inline\">\\(\\{ \\pm I \\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "75f077d1-e5b8-4ad7-bb29-eac497818746",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout vecteur $X\\in \\R^n$, son stabilisateur est conjugué au sous-groupe \n$$\nP= \\left(\n                       \\begin{array}{cc}\n                         1 & *\\\\\n                         0 & SL(n-1,\\R)\n                       \\end{array} \n                                          \\right)\\; .$$",
+        "html": "<p>Montrer que, pour tout vecteur <span class=\"math inline\">\\(X\\in\n\\R^n\\)</span>, son stabilisateur est conjugué au sous-groupe <span\nclass=\"math display\">\\[P= \\left(\n                       \\begin{array}{cc}\n                         1 &amp; *\\\\\n                         0 &amp; SL(n-1,\\R)\n                       \\end{array}\n                                          \\right)\\; .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "4c5a51b3-99e8-4b5a-8de2-5eb129ee8939",
+      "type": "question",
+      "value": {
+        "latex": "Soit $SL(2,\\Z )$ muni de son action sur $\\Z^2$ définie par\n$$\nSL(2,\\Z)\\times \\Z^2 \\to \\Z^2\\, ,\n$$\n$$\n(M,\\, X)\\to MX\\; .\n$$\n\nTrouver ses orbites. Montrer que l'ensemble $\\Gamma(2)$ des matrices $M$ tels que $M=I$ (mod 2) est un sous-groupe de $SL(2,\\Z )$. Trouver ses orbites dans $\\Z^2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(SL(2,\\Z )\\)</span> muni de son\naction sur <span class=\"math inline\">\\(\\Z^2\\)</span> définie par <span\nclass=\"math display\">\\[SL(2,\\Z)\\times \\Z^2 \\to \\Z^2\\, ,\\]</span> <span\nclass=\"math display\">\\[(M,\\, X)\\to MX\\; .\\]</span></p>\n<p>Trouver ses orbites. Montrer que l’ensemble <span\nclass=\"math inline\">\\(\\Gamma(2)\\)</span> des matrices <span\nclass=\"math inline\">\\(M\\)</span> tels que <span\nclass=\"math inline\">\\(M=I\\)</span> (mod 2) est un sous-groupe de <span\nclass=\"math inline\">\\(SL(2,\\Z )\\)</span>. Trouver ses orbites dans <span\nclass=\"math inline\">\\(\\Z^2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(SL(n,\\R)=\\{ M\\in M_n(\\R )\\mid det\\,\nM=\\pm 1 \\}\\)</span> et soit l’action du groupe <span\nclass=\"math inline\"> ..."
+}

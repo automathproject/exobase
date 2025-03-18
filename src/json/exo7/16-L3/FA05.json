@@ -1,0 +1,93 @@
+{
+  "uuid": "FA05",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7606",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:27.254Z"
+  },
+  "contenu": [
+    {
+      "id": "c8400f90-cb92-44f8-8235-38ec0e8885f9",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ce7ca800-2b64-49a2-bf8c-239c1d8b2a58",
+      "type": "question",
+      "value": {
+        "latex": "Donner l'exemple d'une fonction $f :\\Cc\\to\\Cc$ indéfiniment dérivable au sens réel, mais non holomorphe. On justifiera ces deux propriétés.",
+        "html": "<p>Donner l’exemple d’une fonction <span class=\"math inline\">\\(f\n:\\Cc\\to\\Cc\\)</span> indéfiniment dérivable au sens réel, mais non\nholomorphe. On justifiera ces deux propriétés.</p>\n"
+      }
+    },
+    {
+      "id": "da28be3c-39c9-4e70-8588-b71248ba4353",
+      "type": "reponse",
+      "value": {
+        "latex": "L'application $f~:~\\Cc\\to\\Cc, z\\mapsto\\overline{z}$ est associée à l'application $f_\\Rr~:~(x,y)\\mapsto (x,-y)$.\r\nComme $f_\\Rr$ est polynomiale, elle est de classe $C^{\\infty}$. Par contre $\\frac{\\partial re(f)}{\\partial x}=1=-\\frac{\\partial Im(f)}{\\partial y}$.\r\nL'application $f$ qui ne vérifie les équation de Cauchy-Riemann en aucun point n'est pas holomorphe.",
+        "html": "<p>L’application <span class=\"math inline\">\\(f~:~\\Cc\\to\\Cc,\nz\\mapsto\\overline{z}\\)</span> est associée à l’application <span\nclass=\"math inline\">\\(f_\\Rr~:~(x,y)\\mapsto (x,-y)\\)</span>. Comme <span\nclass=\"math inline\">\\(f_\\Rr\\)</span> est polynomiale, elle est de classe\n<span class=\"math inline\">\\(C^{\\infty}\\)</span>. Par contre <span\nclass=\"math inline\">\\(\\frac{\\partial re(f)}{\\partial\nx}=1=-\\frac{\\partial Im(f)}{\\partial y}\\)</span>. L’application <span\nclass=\"math inline\">\\(f\\)</span> qui ne vérifie les équation de\nCauchy-Riemann en aucun point n’est pas holomorphe.</p>\n"
+      }
+    },
+    {
+      "id": "a10edbb2-19cf-4e05-b093-01ef120c2710",
+      "type": "question",
+      "value": {
+        "latex": "L'application $\\Cc-\\{3\\}\\to\\Cc$, $z\\mapsto \\frac{1}{z-3}$ admet-elle une primitive sur $\\Cc-\\{3\\}$ ? Justifier.",
+        "html": "<p>L’application <span class=\"math inline\">\\(\\Cc-\\{3\\}\\to\\Cc\\)</span>,\n<span class=\"math inline\">\\(z\\mapsto \\frac{1}{z-3}\\)</span> admet-elle\nune primitive sur <span class=\"math inline\">\\(\\Cc-\\{3\\}\\)</span> ?\nJustifier.</p>\n"
+      }
+    },
+    {
+      "id": "0099942f-dd8f-49a3-884a-25e7f075e8e5",
+      "type": "reponse",
+      "value": {
+        "latex": "On paramètre le cercle de centre $3$ et de rayon $1$ par $z=3+e^{i\\theta}$.\r\n $$\\int_{|z-3|=1}\\frac{dz}{z-3}=\\int_0^{2\\pi}\\frac{ie^{i\\theta}d\\theta}{e^{i\\theta}}=i\\int_0^{2\\pi}d\\theta=2i\\pi\\not=0.$$\r\n Comme l'intégrale de $z\\mapsto\\frac{1}{z-3}$ sur le chemin fermé cercle de centre $3$ et de rayon $1$ inclus dans le domaine $\\Cc-\\{3\\}$ n'est pas nulle,\r\n cette application n'admet pas de primitive sur $\\Cc-\\{3\\}$.",
+        "html": "<p>On paramètre le cercle de centre <span\nclass=\"math inline\">\\(3\\)</span> et de rayon <span\nclass=\"math inline\">\\(1\\)</span> par <span\nclass=\"math inline\">\\(z=3+e^{i\\theta}\\)</span>. <span\nclass=\"math display\">\\[\\int_{|z-3|=1}\\frac{dz}{z-3}=\\int_0^{2\\pi}\\frac{ie^{i\\theta}d\\theta}{e^{i\\theta}}=i\\int_0^{2\\pi}d\\theta=2i\\pi\\not=0.\\]</span>\nComme l’intégrale de <span\nclass=\"math inline\">\\(z\\mapsto\\frac{1}{z-3}\\)</span> sur le chemin fermé\ncercle de centre <span class=\"math inline\">\\(3\\)</span> et de rayon\n<span class=\"math inline\">\\(1\\)</span> inclus dans le domaine <span\nclass=\"math inline\">\\(\\Cc-\\{3\\}\\)</span> n’est pas nulle, cette\napplication n’admet pas de primitive sur <span\nclass=\"math inline\">\\(\\Cc-\\{3\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c54c43d3-fd27-4b52-9359-c4de967388ce",
+      "type": "question",
+      "value": {
+        "latex": "Donner l'exemple d'un ouvert étoilé de $\\Cc$. On précisera le point par rapport auquel l'ouvert est étoilé.",
+        "html": "<p>Donner l’exemple d’un ouvert étoilé de <span\nclass=\"math inline\">\\(\\Cc\\)</span>. On précisera le point par rapport\nauquel l’ouvert est étoilé.</p>\n"
+      }
+    },
+    {
+      "id": "b8bf3c07-c66d-448e-9f4a-b40b08abfe25",
+      "type": "reponse",
+      "value": {
+        "latex": "Le disque unité est convexe : il est donc étoilé par rapport à chacun de ses points.",
+        "html": "<p>Le disque unité est convexe : il est donc étoilé par rapport à chacun\nde ses points.</p>\n"
+      }
+    },
+    {
+      "id": "76cb9a54-5072-499a-95bc-cee68e5efa47",
+      "type": "question",
+      "value": {
+        "latex": "Donner l'exemple d'un ouvert non étoilé de $\\Cc$. On justifiera que l'exemple proposé n'est pas étoilé.",
+        "html": "<p>Donner l’exemple d’un ouvert non étoilé de <span\nclass=\"math inline\">\\(\\Cc\\)</span>. On justifiera que l’exemple proposé\nn’est pas étoilé.</p>\n"
+      }
+    },
+    {
+      "id": "15899912-7d46-431b-a774-b8cbb9dea869",
+      "type": "reponse",
+      "value": {
+        "latex": "L'ouvert $\\Cc-\\{3\\}$ n'est pas étoilé, car l'application holomorphe $z\\mapsto\\frac{1}{z-3}$ n'y admet pas de primitive.",
+        "html": "<p>L’ouvert <span class=\"math inline\">\\(\\Cc-\\{3\\}\\)</span> n’est pas\nétoilé, car l’application holomorphe <span\nclass=\"math inline\">\\(z\\mapsto\\frac{1}{z-3}\\)</span> n’y admet pas de\nprimitive.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Donner l’exemple d’une fonction <span class=\"math inline\">\\(f\n:\\Cc\\to\\Cc\\)</span> indéfiniment dérivable au sens réel, mais non\nholomorphe. On just ..."
+}

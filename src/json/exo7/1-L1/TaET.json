@@ -1,0 +1,37 @@
+{
+  "uuid": "TaET",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2958",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Trigonométrie",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:38.822Z"
+  },
+  "contenu": [
+    {
+      "id": "bf9f8002-b7b1-4286-a88f-16b4481dc76c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $n \\in \\N$, et $x \\in \\R$.\nExprimer $\\tan(nx)$ en fonction de $\\tan x$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(n \\in \\N\\)</span>, et <span\nclass=\"math inline\">\\(x \\in \\R\\)</span>. Exprimer <span\nclass=\"math inline\">\\(\\tan(nx)\\)</span> en fonction de <span\nclass=\"math inline\">\\(\\tan x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "788afd6a-5593-44d4-bcaf-82b6efba7549",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\tan(nx) = \\frac {C_n^1\\tan x - C_n^3\\tan^3 x + \\cdots}\n                            {C_n^0       - C_n^2\\tan^2 x + \\cdots}$.",
+        "html": "<p><span class=\"math inline\">\\(\\tan(nx) = \\frac {C_n^1\\tan x -\nC_n^3\\tan^3 x + \\cdots}\n                            {C_n^0       - C_n^2\\tan^2 x +\n\\cdots}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(n \\in \\N\\)</span>, et <span\nclass=\"math inline\">\\(x \\in \\R\\)</span>. Exprimer <span\nclass=\"math inline\"> ..."
+}

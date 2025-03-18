@@ -1,0 +1,45 @@
+{
+  "uuid": "5IlS",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2343",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:23.882Z"
+  },
+  "contenu": [
+    {
+      "id": "df6e23c9-a32d-482c-b344-47903b09fbfa",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que dans tout espace m\\'etrique $(E,d)$ une boule ferm\\'ee est un ferm\\'e,\nmais que l'adh\\'erence d'une boule ouverte $B(a,r)$ ne coincide pas\nn\\'ecessai\\-rement avec la boule ferm\\'ee $B'(a,r)$ (on pourra consid\\'erer dans \n$(\\Rr^2,||.||_\\infty)$, $E=[0,1]\\times\\{0\\}\\cup\\{0\\}\\times[0,1]$ et la boule\ncentr\\'ee en\n$({1\\over2},0)$ de rayon $1/2$).",
+        "html": "<p>Montrer que dans tout espace métrique <span\nclass=\"math inline\">\\((E,d)\\)</span> une boule fermée est un fermé, mais\nque l’adhérence d’une boule ouverte <span\nclass=\"math inline\">\\(B(a,r)\\)</span> ne coincide pas nécessairement\navec la boule fermée <span class=\"math inline\">\\(B&#39;(a,r)\\)</span>\n(on pourra considérer dans <span\nclass=\"math inline\">\\((\\Rr^2,||.||_\\infty)\\)</span>, <span\nclass=\"math inline\">\\(E=[0,1]\\times\\{0\\}\\cup\\{0\\}\\times[0,1]\\)</span> et\nla boule centrée en <span class=\"math inline\">\\(({1\\over2},0)\\)</span>\nde rayon <span class=\"math inline\">\\(1/2\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "bd80cf1f-8fdc-4a21-97ca-18a214670739",
+      "type": "indication",
+      "value": {
+        "latex": "Revenir à la définition de ce qu'est un ``ensemble fermé'' et de ce\nqu'est une ``boule fermée''.",
+        "html": "<p>Revenir à la définition de ce qu’est un “ensemble fermé” et de ce\nqu’est une “boule fermée”.</p>\n"
+      }
+    },
+    {
+      "id": "b6fbdfc2-71ef-42d0-a7d6-5e1124177049",
+      "type": "reponse",
+      "value": {
+        "latex": "Cette exercice justifie la terminologie ``boule fermée''. Il s'agit de montrer que le complémentaire d'une boule fermée est un ensemble ouvert. Il est vivement conseillé de faire un dessin. Soit $C = E \\setminus B'(a,r)$. Soit $x \\in C$, on cherche une boule ouverte $B(x,\\epsilon)$ contenue dans $C$. Comme $x\\in C$, $x \\notin B'(a,r)$ donc\n$d(a,x) > r$. Soit $\\epsilon$ tel que  $0 < \\epsilon < d(a,x)-r$. Montrons que\n$B(x,\\epsilon) \\subset C$ : pour $y \\in B(x,\\epsilon)$, l'inégalité triangulaire $d(a,x) \\le d(a,y)+d(y,x)$ donc $d(a,y) \\ge d(a,x)-d(y,x) \\ge d(a,x)-\\epsilon >r$. Comme $d(a,y) >r$ alors $y \\notin B'(a,r)$ donc $y \\in C$. Comme la preuve est valable quelque soit $y \\in B(x,\\epsilon)$, donc $B(x,\\epsilon) \\subset C$.\nEt donc $C$ est un ouvert.\nPour $a=(\\frac 12,0)$ et $r=\\frac 12$ on a \n$B'(a,r) = [0,1]\\times\\{0\\}\\cup\\{0\\}\\times[0,\\frac 12]$,\n$B(a,r) = ]0,1[ \\times \\{0\\}$ et $\\overline{B(a,r)} = [0,1]\\times\\{0\\}$.",
+        "html": "<p>Cette exercice justifie la terminologie “boule fermée”. Il s’agit de\nmontrer que le complémentaire d’une boule fermée est un ensemble ouvert.\nIl est vivement conseillé de faire un dessin. Soit <span\nclass=\"math inline\">\\(C = E \\setminus B&#39;(a,r)\\)</span>. Soit <span\nclass=\"math inline\">\\(x \\in C\\)</span>, on cherche une boule ouverte\n<span class=\"math inline\">\\(B(x,\\epsilon)\\)</span> contenue dans <span\nclass=\"math inline\">\\(C\\)</span>. Comme <span class=\"math inline\">\\(x\\in\nC\\)</span>, <span class=\"math inline\">\\(x \\notin B&#39;(a,r)\\)</span>\ndonc <span class=\"math inline\">\\(d(a,x) &gt; r\\)</span>. Soit <span\nclass=\"math inline\">\\(\\epsilon\\)</span> tel que <span\nclass=\"math inline\">\\(0 &lt; \\epsilon &lt; d(a,x)-r\\)</span>. Montrons\nque <span class=\"math inline\">\\(B(x,\\epsilon) \\subset C\\)</span> : pour\n<span class=\"math inline\">\\(y \\in B(x,\\epsilon)\\)</span>, l’inégalité\ntriangulaire <span class=\"math inline\">\\(d(a,x) \\le\nd(a,y)+d(y,x)\\)</span> donc <span class=\"math inline\">\\(d(a,y) \\ge\nd(a,x)-d(y,x) \\ge d(a,x)-\\epsilon &gt;r\\)</span>. Comme <span\nclass=\"math inline\">\\(d(a,y) &gt;r\\)</span> alors <span\nclass=\"math inline\">\\(y \\notin B&#39;(a,r)\\)</span> donc <span\nclass=\"math inline\">\\(y \\in C\\)</span>. Comme la preuve est valable\nquelque soit <span class=\"math inline\">\\(y \\in B(x,\\epsilon)\\)</span>,\ndonc <span class=\"math inline\">\\(B(x,\\epsilon) \\subset C\\)</span>. Et\ndonc <span class=\"math inline\">\\(C\\)</span> est un ouvert. Pour <span\nclass=\"math inline\">\\(a=(\\frac 12,0)\\)</span> et <span\nclass=\"math inline\">\\(r=\\frac 12\\)</span> on a <span\nclass=\"math inline\">\\(B&#39;(a,r) =\n[0,1]\\times\\{0\\}\\cup\\{0\\}\\times[0,\\frac 12]\\)</span>, <span\nclass=\"math inline\">\\(B(a,r) = ]0,1[ \\times \\{0\\}\\)</span> et <span\nclass=\"math inline\">\\(\\overline{B(a,r)} = [0,1]\\times\\{0\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que dans tout espace métrique <span\nclass=\"math inline\">\\((E,d)\\)</span> une boule fermée est un fermé, mais\nque l’adhérence d’une boule ou ..."
+}

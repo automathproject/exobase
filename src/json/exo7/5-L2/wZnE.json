@@ -1,0 +1,37 @@
+{
+  "uuid": "wZnE",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4212",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations aux dérivées partielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:18.372Z"
+  },
+  "contenu": [
+    {
+      "id": "71d3ba9f-7e71-4a3e-a3d1-1e6c4c9c7f8f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $g : \\R \\to \\R$ de classe $\\mathcal{C}^2$ et\n$f : {\\R^*\\times \\R} \\to \\R, {(x,y)} \\mapsto {g(y/x).}$\nTrouver $g$ telle que $\\frac{\\partial^2 f}{\\partial x^2} + \\frac{\\partial^2 f}{\\partial y^2} = \\frac y{x^3}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g : \\R \\to \\R\\)</span> de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> et <span\nclass=\"math inline\">\\(f : {\\R^*\\times \\R} \\to \\R, {(x,y)} \\mapsto\n{g(y/x).}\\)</span> Trouver <span class=\"math inline\">\\(g\\)</span> telle\nque <span class=\"math inline\">\\(\\frac{\\partial^2 f}{\\partial x^2} +\n\\frac{\\partial^2 f}{\\partial y^2} = \\frac y{x^3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a7aa3bf5-708c-4498-87c0-1947ae65d76a",
+      "type": "reponse",
+      "value": {
+        "latex": "$2tg'(t) + (1+t^2)g''(t) = t  \\Rightarrow \n          g(t) = \\frac t2 + \\lambda\\arctan t + \\mu$.",
+        "html": "<p><span class=\"math inline\">\\(2tg&#39;(t) + (1+t^2)g&#39;&#39;(t) =\nt  \\Rightarrow\n          g(t) = \\frac t2 + \\lambda\\arctan t + \\mu\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(g : \\R \\to \\R\\)</span> de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> et <span\nclass=\"math inline\">\\ ..."
+}

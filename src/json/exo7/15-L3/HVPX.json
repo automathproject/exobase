@@ -1,0 +1,61 @@
+{
+  "uuid": "HVPX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2397",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace métrique complet, espace de Banach",
+    "sousChapitre": "Espace métrique complet, espace de Banach",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:34.343Z"
+  },
+  "contenu": [
+    {
+      "id": "12c3c332-26e1-42a9-8a1d-2ffa4ac93758",
+      "type": "description",
+      "value": {
+        "latex": "\\label{exocomp}\nOn consid\\`ere l'espace des fonctions continues $X={\\cal\nC}([a,b])$.",
+        "html": "<p><span id=\"exocomp\" label=\"exocomp\"></span> On considère l’espace des\nfonctions continues <span class=\"math inline\">\\(X={\\cal\nC}([a,b])\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ba0b6777-c669-4e22-a7db-82e1d1d805d3",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\omega \\in X$ une fonction qui ne s'annule pas sur\n$[a,b]$. Posons $$d_\\omega (f,g) = \\sup_{t\\in[a,b]} |\\omega (t)\n(f(t)-g(t))| \\; .$$\n L'espace $(X,d_\\omega)$ est-il complet?",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\omega \\in X\\)</span> une fonction\nqui ne s’annule pas sur <span class=\"math inline\">\\([a,b]\\)</span>.\nPosons <span class=\"math display\">\\[d_\\omega (f,g) = \\sup_{t\\in[a,b]}\n|\\omega (t)\n(f(t)-g(t))| \\; .\\]</span> L’espace <span\nclass=\"math inline\">\\((X,d_\\omega)\\)</span> est-il complet?</p>\n"
+      }
+    },
+    {
+      "id": "f52bafa5-711c-45da-b88b-d9899189badb",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'espace $(X, \\|.\\|_1)$ n'est pas complet (o\\`u\n $\\|f\\|_1 = \\int _0^1 |f(t)| \\, dt$).",
+        "html": "<p>Montrer que l’espace <span class=\"math inline\">\\((X,\n\\|.\\|_1)\\)</span> n’est pas complet (où <span\nclass=\"math inline\">\\(\\|f\\|_1 = \\int _0^1 |f(t)| \\, dt\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "25c57fab-3b77-46f5-a4f8-91e4b99c79f5",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}\nMontrons que $(X,d_\\omega)$ est complet. Soit $(f_n)_n$ une suite de Cauchy pour cet distance. Alors pour chaque $t\\in[a,b]$, $(f_n(t))_n$ est une suite de Cauchy pour $(\\Rr,|.|)$. Comme $\\Rr$ est complet alors cette suite converge, notons $f(t)$ sa limite.\n\nIl faut montrer deux choses : premièrement que $(f_n)$ converge vers $f$ pour la distance considérée, deuxièmement que $f$ est bien dans l'espace $X$.\nComme $(f_n)$ est une suite de Cauchy. Pour $\\epsilon > 0$. Il existe $n\\ge0$ tel que pour tout $p\\ge 0$ : $d_\\omega(f_n,f_{n+p})  < \\epsilon.$\nDonc \n$$ \\sup_{t\\in[a,b]} |\\omega (t)\n(f_n(t)-f_{n+p}(t))| < \\epsilon.$$\nOn fait tendre $p$ vers $+\\infty$ et on obtient :\n$\\sup_{t\\in[a,b]} |\\omega (t) (f_n(t)-f(t))| < \\epsilon.$\nDonc $(f_n)$ converge vers $f$ pour la distance $d_\\omega$.\n$\\omega$ est une fonction non nulle sur le compact $[a,b]$, donc \nil existe $\\alpha >0$ tel que $\\omega(t)>\\alpha$ pour tout $t\\in[a,b]$.\nOn en déduit que \n$$\\|f_n-f\\|_\\infty \\le \\frac 1 \\alpha d_\\omega(f_n,f).$$\nComme $ d_\\omega(f_n,f)$ tend vers $0$ alors $f_n$ converge vers $f$ pour la norme infini. Donc $f$ est continue.\n\nConclusion : $(X,d_\\omega)$ est complet.",
+        "html": ""
+      }
+    },
+    {
+      "id": "6b14f131-6fdd-4c49-af4f-3bdd7a0fe158",
+      "type": "indication",
+      "value": {
+        "latex": "\\begin{enumerate}\n  \\item $(X,d_\\omega)$ est complet. La démonstration est presque la m\\^eme que pour montrer que\n$({\\cal C}([a,b]), \\|.\\|_\\infty)$ est complet.\n\n  \\item Prendre par exemple, la fonction $f_n$ définie sur $[0,1]$ par $f_n(t) = 1$ pour $t\\in[0,\\frac 12]$, $f_n(t)=(1-n(t-\\frac12))$ pour $t\\in[\\frac 12,\\frac 12+\\frac 1n]$\net $f(t)=0$ si $t\\ge \\frac 12+\\frac 1n$.\n\\end{enumerate}",
+        "html": "<ol>\n<li><p><span class=\"math inline\">\\((X,d_\\omega)\\)</span> est complet. La\ndémonstration est presque la même que pour montrer que <span\nclass=\"math inline\">\\(({\\cal C}([a,b]), \\|.\\|_\\infty)\\)</span> est\ncomplet.</p></li>\n<li><p>Prendre par exemple, la fonction <span\nclass=\"math inline\">\\(f_n\\)</span> définie sur <span\nclass=\"math inline\">\\([0,1]\\)</span> par <span\nclass=\"math inline\">\\(f_n(t) = 1\\)</span> pour <span\nclass=\"math inline\">\\(t\\in[0,\\frac 12]\\)</span>, <span\nclass=\"math inline\">\\(f_n(t)=(1-n(t-\\frac12))\\)</span> pour <span\nclass=\"math inline\">\\(t\\in[\\frac 12,\\frac 12+\\frac 1n]\\)</span> et <span\nclass=\"math inline\">\\(f(t)=0\\)</span> si <span\nclass=\"math inline\">\\(t\\ge \\frac 12+\\frac 1n\\)</span>.</p></li>\n</ol>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"exocomp\" label=\"exocomp\"></span> On considère l’espace des\nfonctions continues <span class=\"math inline\">\\(X={\\cal\nC}([a,b])\\)</span>.</p ..."
+}

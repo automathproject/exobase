@@ -1,0 +1,45 @@
+{
+  "uuid": "G2vt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2109",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Ordre d'un élément",
+    "sousChapitre": "Ordre d'un élément",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:49.333Z"
+  },
+  "contenu": [
+    {
+      "id": "30f7d1ab-b35c-4382-96ac-e1158f6466e1",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un ensemble muni d'une loi $\\star $ associative \n\n(i) admettant un \\'el\\'ement neutre \\`a gauche $e$ (i.e. $\\forall x \\in E \\quad e\\star x=x$)\net\n\n(ii) tel que tout \\'el\\'ement poss\\`ede un inverse \\`a gauche (i.e. $\\forall x \\in E \\quad \\exists y\\in E \\quad y\\star x =e$).\n\nMontrer que $E$ est un groupe pour la loi $\\star$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un ensemble muni d’une\nloi <span class=\"math inline\">\\(\\star\\)</span> associative</p>\n<p>(i) admettant un élément neutre à gauche <span\nclass=\"math inline\">\\(e\\)</span> (i.e. <span\nclass=\"math inline\">\\(\\forall x \\in E \\quad e\\star x=x\\)</span>) et</p>\n<p>(ii) tel que tout élément possède un inverse à gauche (i.e. <span\nclass=\"math inline\">\\(\\forall x \\in E \\quad \\exists y\\in E \\quad y\\star\nx =e\\)</span>).</p>\n<p>Montrer que <span class=\"math inline\">\\(E\\)</span> est un groupe pour\nla loi <span class=\"math inline\">\\(\\star\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d08dc29f-6857-4678-b8e9-b393744bbf0e",
+      "type": "indication",
+      "value": {
+        "latex": "On pourra montrer les points suivants:\n\n(a) $x\\star y=e \\Rightarrow y\\star x =e$\n\n(b) L'\\'el\\'ement neutre \\`a gauche est unique.\n\n(c) L'\\'el\\'ement neutre \\`a gauche est un \\'el\\'ement neutre \\`a droite aussi.\n\n(d) Tout \\'el\\'ement est inversible.",
+        "html": "<p>On pourra montrer les points suivants:</p>\n<p>(a) <span class=\"math inline\">\\(x\\star y=e \\Rightarrow y\\star x\n=e\\)</span></p>\n<p>(b) L’élément neutre à gauche est unique.</p>\n<p>(c) L’élément neutre à gauche est un élément neutre à droite\naussi.</p>\n<p>(d) Tout élément est inversible.</p>\n"
+      }
+    },
+    {
+      "id": "f53c2f5f-3ddd-4bed-93d7-af307ffa58f7",
+      "type": "reponse",
+      "value": {
+        "latex": "(a) Pour $x,y\\in E$ quelconques, notons $x^\\prime$ et $y^\\prime$ leurs inverses \\`a gauche\nrespectifs. Si $xy=e$, on a aussi $yx=(x^\\prime x)yx=x^\\prime (xy) x =x^\\prime x = e$.\n\\smallskip\n\n(b) Soit $f$ un \\'el\\'ement neutre \\`a gauche. On a donc $fe=e$. D'apr\\`es (a), on a aussi\n$ef=e$, c'est-\\`a-dire $f=e$.\n\\smallskip\n\n(c) Pour tout $x\\in E$, on a $xe=x(x^\\prime x)=(x x^\\prime) x = x$ puisque d'apr\\`es (a), $x\nx^\\prime = e$.\n\\smallskip\n\n(d) r\\'esulte alors de (a), (b) et (c).\n\\smallskip",
+        "html": "<p>(a) Pour <span class=\"math inline\">\\(x,y\\in E\\)</span> quelconques,\nnotons <span class=\"math inline\">\\(x^\\prime\\)</span> et <span\nclass=\"math inline\">\\(y^\\prime\\)</span> leurs inverses à gauche\nrespectifs. Si <span class=\"math inline\">\\(xy=e\\)</span>, on a aussi\n<span class=\"math inline\">\\(yx=(x^\\prime x)yx=x^\\prime (xy) x =x^\\prime\nx = e\\)</span>.</p>\n<p>(b) Soit <span class=\"math inline\">\\(f\\)</span> un élément neutre à\ngauche. On a donc <span class=\"math inline\">\\(fe=e\\)</span>. D’après\n(a), on a aussi <span class=\"math inline\">\\(ef=e\\)</span>, c’est-à-dire\n<span class=\"math inline\">\\(f=e\\)</span>.</p>\n<p>(c) Pour tout <span class=\"math inline\">\\(x\\in E\\)</span>, on a <span\nclass=\"math inline\">\\(xe=x(x^\\prime x)=(x x^\\prime) x = x\\)</span>\npuisque d’après (a), <span class=\"math inline\">\\(x\nx^\\prime = e\\)</span>.</p>\n<p>(d) résulte alors de (a), (b) et (c).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un ensemble muni d’une\nloi <span class=\"math inline\">\\(\\star\\)</span> associative</p>\n<p>(i) admettant  ..."
+}

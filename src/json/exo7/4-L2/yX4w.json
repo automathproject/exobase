@@ -1,0 +1,205 @@
+{
+  "uuid": "yX4w",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3711",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Espace vectoriel euclidien de dimension 3",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:17.635Z"
+  },
+  "contenu": [
+    {
+      "id": "c25731eb-5f27-45e1-ade3-2b6dbcd30480",
+      "type": "description",
+      "value": {
+        "latex": "Reconnaître les endomorphismes de $\\R^3$ définis par les expressions\nanalytiques dans la base canonique :",
+        "html": "<p>Reconnaître les endomorphismes de <span\nclass=\"math inline\">\\(\\R^3\\)</span> définis par les expressions\nanalytiques dans la base canonique :</p>\n"
+      }
+    },
+    {
+      "id": "10b7ecbe-a82c-455a-a2a3-9f4cc74f0042",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 3x' = 2x+2y+z \\cr 3y' = -2x+y+2z \\cr 3z' = x-2y+2z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 3x&#39; = 2x+2y+z \\cr\n3y&#39; = -2x+y+2z \\cr 3z&#39; = x-2y+2z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0e5e7cba-d48c-45c9-882b-924fd22a6bec",
+      "type": "reponse",
+      "value": {
+        "latex": "rotation autour de $(1,0,1)$ d'angle $-\\arccos(1/3)$.",
+        "html": "<p>rotation autour de <span class=\"math inline\">\\((1,0,1)\\)</span>\nd’angle <span class=\"math inline\">\\(-\\arccos(1/3)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d24c59de-d3eb-4229-8764-ae4bce421665",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 9x' = 8x+y-4z \\cr 9y' = -4x+4y-7z \\cr 9z'=x+8y+4z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 9x&#39; = 8x+y-4z \\cr\n9y&#39; = -4x+4y-7z \\cr 9z&#39;=x+8y+4z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c5ee1192-0c8d-4fba-8ead-5b5f444c1ee1",
+      "type": "reponse",
+      "value": {
+        "latex": "rotation autour de $(-3,1,1)$ d'angle $-\\arccos(7/18)$.",
+        "html": "<p>rotation autour de <span class=\"math inline\">\\((-3,1,1)\\)</span>\nd’angle <span class=\"math inline\">\\(-\\arccos(7/18)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "173229c6-99d9-42a0-8247-3e2ecdcf3080",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 3x' = -2x+2y-z \\cr 3y' = 2x+y-2z \\cr 3z' = -x-2y-2z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 3x&#39; = -2x+2y-z \\cr\n3y&#39; = 2x+y-2z \\cr 3z&#39; = -x-2y-2z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "cbc34d41-1e89-45f0-92b1-e45d12b9524d",
+      "type": "reponse",
+      "value": {
+        "latex": "demi-tour autour de $(-1,-2,1)$.",
+        "html": "<p>demi-tour autour de <span\nclass=\"math inline\">\\((-1,-2,1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eca426d2-b8de-4b05-a418-577c520bbc98",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 4x' = -2x - y\\sqrt6 + z\\sqrt6 \\cr\n             4y' = x\\sqrt6 + y + 3z \\cr\n             4z' = -x\\sqrt6 + 3y + z \\cr \\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 4x&#39; = -2x - y\\sqrt6 +\nz\\sqrt6 \\cr\n             4y&#39; = x\\sqrt6 + y + 3z \\cr\n             4z&#39; = -x\\sqrt6 + 3y + z \\cr \\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b7be5a83-05b1-488f-9cc4-6b4f888d45c2",
+      "type": "reponse",
+      "value": {
+        "latex": "rotation autour de $(0,1,1)$ d'angle $2\\pi/3$.",
+        "html": "<p>rotation autour de <span class=\"math inline\">\\((0,1,1)\\)</span>\nd’angle <span class=\"math inline\">\\(2\\pi/3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1400f82f-abe9-47e1-9df5-a0a92a958824",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases}x' = \\frac x{\\sqrt3} + \\frac y{\\sqrt2} - \\frac z{\\sqrt6} \\cr\n            y' = \\frac x{\\sqrt3}  + \\frac {2z}{\\sqrt6} \\cr\n            z' = \\frac x{\\sqrt3} - \\frac y{\\sqrt2} - \\frac z{\\sqrt6} \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases}x&#39; = \\frac x{\\sqrt3} +\n\\frac y{\\sqrt2} - \\frac z{\\sqrt6} \\cr\n            y&#39; = \\frac x{\\sqrt3}  + \\frac {2z}{\\sqrt6} \\cr\n            z&#39; = \\frac x{\\sqrt3} - \\frac y{\\sqrt2} - \\frac z{\\sqrt6}\n\\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "84d419a6-ded2-4079-b472-9b8753ad97aa",
+      "type": "reponse",
+      "value": {
+        "latex": "rotation autour de $(-2-\\sqrt3,1+\\sqrt2,\\sqrt2 - \\sqrt3)$\n             d'angle $\\arccos( \\frac {\\sqrt6 - \\sqrt2 + 1}{2\\sqrt6} )$.",
+        "html": "<p>rotation autour de <span\nclass=\"math inline\">\\((-2-\\sqrt3,1+\\sqrt2,\\sqrt2 - \\sqrt3)\\)</span>\nd’angle <span class=\"math inline\">\\(\\arccos( \\frac {\\sqrt6 - \\sqrt2 +\n1}{2\\sqrt6} )\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "55d776a5-bc2d-49c3-bb59-2d1fae357e01",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 3x' = x+2y+2z \\cr 3y' = 2x+y-2z \\cr 3z' = 2x-2y+z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 3x&#39; = x+2y+2z \\cr\n3y&#39; = 2x+y-2z \\cr 3z&#39; = 2x-2y+z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "6836033d-11b6-4b0a-9d8d-0f7e6f6dbaaf",
+      "type": "reponse",
+      "value": {
+        "latex": "symétrie par rapport à $x=y+z$.",
+        "html": "<p>symétrie par rapport à <span\nclass=\"math inline\">\\(x=y+z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2fa94880-9ac8-4cf1-a5bb-ddbc053befa2",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 7x' = -2x+6y-3z \\cr 7y' = 6x+3y+2z \\cr 7z' = -3x+2y+6z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 7x&#39; = -2x+6y-3z \\cr\n7y&#39; = 6x+3y+2z \\cr 7z&#39; = -3x+2y+6z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "53f7633f-e847-421e-a703-fe5d4959a36b",
+      "type": "reponse",
+      "value": {
+        "latex": "symétrie par rapport à $3x=2y-z$.",
+        "html": "<p>symétrie par rapport à <span\nclass=\"math inline\">\\(3x=2y-z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7116c008-eb40-4b2f-9c07-277ffd5df7b5",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 3x' = 2x-2y+z \\cr 3y' = -2x-y+2z \\cr 3z' = x+2y+2z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 3x&#39; = 2x-2y+z \\cr\n3y&#39; = -2x-y+2z \\cr 3z&#39; = x+2y+2z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c5d87aab-a59e-48a1-b96a-baff920feb13",
+      "type": "reponse",
+      "value": {
+        "latex": "symétrie par rapport à $x+2y-z=0$.",
+        "html": "<p>symétrie par rapport à <span\nclass=\"math inline\">\\(x+2y-z=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1260e11b-9549-4fbf-bbd2-11b2c422155c",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 3x' = 2x+y+2z \\cr 3y' = 2x-2y-z \\cr 3z' = -x-2y+2z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 3x&#39; = 2x+y+2z \\cr\n3y&#39; = 2x-2y-z \\cr 3z&#39; = -x-2y+2z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "af2e95af-c47a-4d6b-9723-cdded6c384f1",
+      "type": "reponse",
+      "value": {
+        "latex": "symétrie-rotation autour de $(1,-3,1)$ d'angle $-\\arccos(5/6)$.",
+        "html": "<p>symétrie-rotation autour de <span\nclass=\"math inline\">\\((1,-3,1)\\)</span> d’angle <span\nclass=\"math inline\">\\(-\\arccos(5/6)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3bb315e2-4f44-40ba-b2bf-86ab889caffb",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 4x' = -x+3y-z\\sqrt6 \\cr\n             4y' = 3x-y-z\\sqrt6  \\cr\n             4z' = x\\sqrt6+y\\sqrt6+2z \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 4x&#39; = -x+3y-z\\sqrt6 \\cr\n             4y&#39; = 3x-y-z\\sqrt6  \\cr\n             4z&#39; = x\\sqrt6+y\\sqrt6+2z \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0add128e-5438-4292-92f8-adbfcb19587f",
+      "type": "reponse",
+      "value": {
+        "latex": "symétrie-rotation autour de $(1,-1,0)$ d'angle $\\pi/3$.",
+        "html": "<p>symétrie-rotation autour de <span\nclass=\"math inline\">\\((1,-1,0)\\)</span> d’angle <span\nclass=\"math inline\">\\(\\pi/3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "30a80019-9215-4236-baaa-68ca7b85af86",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} 15x'=5x-10z \\cr 15y' = -8x+5y+6z \\cr 15z' = 6x-10y+8z \\cr\\end{cases}$\n   \\label{rotproj}",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} 15x&#39;=5x-10z \\cr\n15y&#39; = -8x+5y+6z \\cr 15z&#39; = 6x-10y+8z \\cr\\end{cases}\\)</span>\n<span id=\"rotproj\" label=\"rotproj\"></span></p>\n"
+      }
+    },
+    {
+      "id": "e164460a-8a61-45d7-b5e3-14e7b968d3e8",
+      "type": "reponse",
+      "value": {
+        "latex": "projection sur $2x+2y+z=0$ puis rotation d'angle $\\arccos(3/5)$.",
+        "html": "<p>projection sur <span class=\"math inline\">\\(2x+2y+z=0\\)</span> puis\nrotation d’angle <span class=\"math inline\">\\(\\arccos(3/5)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Reconnaître les endomorphismes de <span\nclass=\"math inline\">\\(\\R^3\\)</span> définis par les expressions\nanalytiques dans la base canonique :</p>\n"
+}

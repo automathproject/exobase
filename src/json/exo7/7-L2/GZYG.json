@@ -1,0 +1,61 @@
+{
+  "uuid": "GZYG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6908",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:31.337Z"
+  },
+  "contenu": [
+    {
+      "id": "cd8a8957-79a5-4b87-9924-beb3239bd9e7",
+      "type": "description",
+      "value": {
+        "latex": "Dans une dictature militaire, le dictateur veut augmenter le nombre de\nnaissances de garçons. Il impose la règle suivante : \nsi une femme donne naissance à une fille, elle doit continuer à faire\ndes enfants ; si elle donne naissance à un garçon, elle doit arrêter\nd'avoir des enfants. On suppose que chaque femme a au moins un enfant et \npas plus de 5 enfants.",
+        "html": "<p>Dans une dictature militaire, le dictateur veut augmenter le nombre\nde naissances de garçons. Il impose la règle suivante : si une femme\ndonne naissance à une fille, elle doit continuer à faire des enfants ;\nsi elle donne naissance à un garçon, elle doit arrêter d’avoir des\nenfants. On suppose que chaque femme a au moins un enfant et pas plus de\n5 enfants.</p>\n"
+      }
+    },
+    {
+      "id": "38aa9d67-73b5-4ff6-a39b-750b29c89df5",
+      "type": "question",
+      "value": {
+        "latex": "Soit $X$ le nombre de filles par femme. Quelle est la loi de $X$ ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> le nombre de filles par\nfemme. Quelle est la loi de <span class=\"math inline\">\\(X\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "aba7b08d-2425-491a-afa0-53a144139503",
+      "type": "reponse",
+      "value": {
+        "latex": "$P(X=k)=0,5^k 0,5= 0,5^{k+1}$ si $0\\le k\\le 4$, $P(X=5)=0,5^5$.",
+        "html": "<p><span class=\"math inline\">\\(P(X=k)=0,5^k 0,5= 0,5^{k+1}\\)</span> si\n<span class=\"math inline\">\\(0\\le k\\le 4\\)</span>, <span\nclass=\"math inline\">\\(P(X=5)=0,5^5\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "64470352-1e49-47d4-b626-49bc8dbb2376",
+      "type": "question",
+      "value": {
+        "latex": "Quel est le nombre moyen de filles d'une femme ? Le nombre moyen \nde garçons ?\nCette règle est-elle efficace pour augmenter le nombre de garçons ?",
+        "html": "<p>Quel est le nombre moyen de filles d’une femme ? Le nombre moyen de\ngarçons ? Cette règle est-elle efficace pour augmenter le nombre de\ngarçons ?</p>\n"
+      }
+    },
+    {
+      "id": "39af4823-d8f6-4924-95f1-43a321c6aada",
+      "type": "reponse",
+      "value": {
+        "latex": "$E(X)=\\sum_{0\\le k\\le 5} kP(X=k)= \\frac 14+ 2\\frac 18+3\\frac 1{16}+4\\frac{1}{32}+5\\frac{1}{32}=0,96875$.\n\n$Y=$ nombre de garçons. Il y a exactement 1 garçon sauf s'il y a 5 filles.\n$P(Y=0)=0,5^5=1/32$. $E(Y)=P(Y=1)\\times 1=0,96875$.  $E(X)=E(Y)$, donc pas\nefficace.",
+        "html": "<p><span class=\"math inline\">\\(E(X)=\\sum_{0\\le k\\le 5} kP(X=k)= \\frac\n14+ 2\\frac 18+3\\frac\n1{16}+4\\frac{1}{32}+5\\frac{1}{32}=0,96875\\)</span>.</p>\n<p><span class=\"math inline\">\\(Y=\\)</span> nombre de garçons. Il y a\nexactement 1 garçon sauf s’il y a 5 filles. <span\nclass=\"math inline\">\\(P(Y=0)=0,5^5=1/32\\)</span>. <span\nclass=\"math inline\">\\(E(Y)=P(Y=1)\\times 1=0,96875\\)</span>. <span\nclass=\"math inline\">\\(E(X)=E(Y)\\)</span>, donc pas efficace.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans une dictature militaire, le dictateur veut augmenter le nombre\nde naissances de garçons. Il impose la règle suivante : si une femme\ndonne nais ..."
+}

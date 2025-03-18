@@ -1,0 +1,45 @@
+{
+  "uuid": "Este",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "196",
+    "auteur": "ridde",
+    "createdAt": "1999-11-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Injection, surjection, bijection",
+    "sousChapitre": "Injection, surjection",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:29.258Z"
+  },
+  "contenu": [
+    {
+      "id": "e967e433-5040-459b-bb53-7122115fa88b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : X \\rightarrow Y$.On note ${\\hat{f}} : {\\mathcal{P} (X)} \\to {\\mathcal{P} (Y)},\n{A} \\mapsto {f (A)}$ et ${\\tilde{f}} : {\\mathcal{P} (Y)} \\to {\\mathcal{P} (X)},\n{B} \\mapsto {f^{-1} (B)}$. Montrer que :",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : X \\rightarrow Y\\)</span>.On note\n<span class=\"math inline\">\\({\\hat{f}} : {\\mathcal{P} (X)} \\to\n{\\mathcal{P} (Y)},\n{A} \\mapsto {f (A)}\\)</span> et <span class=\"math inline\">\\({\\tilde{f}}\n: {\\mathcal{P} (Y)} \\to {\\mathcal{P} (X)},\n{B} \\mapsto {f^{-1} (B)}\\)</span>. Montrer que :</p>\n"
+      }
+    },
+    {
+      "id": "ea6a8f27-7f97-4fa1-9550-734fd2561951",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est injective ssi $\\hat{f}$ est injective.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est injective ssi <span\nclass=\"math inline\">\\(\\hat{f}\\)</span> est injective.</p>\n"
+      }
+    },
+    {
+      "id": "50b3b2df-8bcb-4daf-8a66-ce7170339365",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est surjective ssi $\\tilde{f}$ est injective.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est surjective ssi <span\nclass=\"math inline\">\\(\\tilde{f}\\)</span> est injective.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : X \\rightarrow Y\\)</span>.On note\n<span class=\"math inline\"> ..."
+}

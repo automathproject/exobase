@@ -1,0 +1,77 @@
+{
+  "uuid": "n9qs",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5961",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégrales multiples, théorème de Fubini",
+    "sousChapitre": "Intégrales multiples, théorème de Fubini",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:16.345Z"
+  },
+  "contenu": [
+    {
+      "id": "55313dea-71eb-4a2e-ab79-0bfacb40d0ce",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "cddd2919-8690-4211-8a42-981b551399e4",
+      "type": "question",
+      "value": {
+        "latex": "Pour tout $t>0$, on pose~:\n$$\nf_{t}(x) = \\left(4\\pi t \\right)^{-\\frac{n}{2}}\ne^{-\\frac{|x|^2}{4t}}.\n$$\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "d722b1a1-8476-47bb-af1c-c4a0a7578dbf",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $t>0$, on pose~:\n$$\nf_{t}(x) = \\left(4\\pi t \\right)^{-\\frac{n}{2}}\ne^{-\\frac{|x|^2}{4t}}.\n$$\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "a6057ce9-6aae-48d4-9383-d698c1ad3bfd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout $t>0$, $\\int_{\\mathbb{R}^n}\nf_t(x)\\,dx = 1$.",
+        "html": "<p>Montrer que, pour tout <span class=\"math inline\">\\(t&gt;0\\)</span>,\n<span class=\"math inline\">\\(\\int_{\\mathbb{R}^n}\nf_t(x)\\,dx = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2eb6d13e-9772-499a-aa84-09c44473ee8a",
+      "type": "reponse",
+      "value": {
+        "latex": "On a\n\\begin{eqnarray*}\n\\int_{\\mathbb{R}^n} f_t(x)\\,dx & = & \\left(4\\pi t\n\\right)^{-\\frac{n}{2}} \\int_{\\mathbb{R}^n}\ne^{-\\frac{|x|^2}{4t}}\\,dx\\\\\n& = & \\left(4\\pi t \\right)^{-\\frac{n}{2}} \\prod_{i= 1}^{n}\n\\int_{\\mathbb{R}} e^{-\\frac{x_i^2}{4t}}\\,dx_i.\n\\end{eqnarray*}\nSachant que $\\int_{\\mathbb{R}} e^{-t^2} \\,dt = \\sqrt{\\pi}$, on en\nd\\'eduit que\n$$\n\\int_{\\mathbb{R}^n} f_t(x)\\,dx  = 1.\n$$",
+        "html": "<p>On a <span class=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathbb{R}^n} f_t(x)\\,dx &amp; = &amp; \\left(4\\pi t\n\\right)^{-\\frac{n}{2}} \\int_{\\mathbb{R}^n}\ne^{-\\frac{|x|^2}{4t}}\\,dx\\\\\n&amp; = &amp; \\left(4\\pi t \\right)^{-\\frac{n}{2}} \\prod_{i= 1}^{n}\n\\int_{\\mathbb{R}} e^{-\\frac{x_i^2}{4t}}\\,dx_i.\n\\end{aligned}\\]</span> Sachant que <span\nclass=\"math inline\">\\(\\int_{\\mathbb{R}} e^{-t^2} \\,dt =\n\\sqrt{\\pi}\\)</span>, on en déduit que <span\nclass=\"math display\">\\[\\int_{\\mathbb{R}^n} f_t(x)\\,dx  = 1.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1a2c79d9-c3c4-401a-9542-c85d42a36d0b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer  que, pour tout $\\delta>0$, $\\lim_{t\\rightarrow\n0}\\int_{\\{|x|>\\delta\\}} f_t(x)\\,dx = 0$.",
+        "html": "<p>Montrer que, pour tout <span\nclass=\"math inline\">\\(\\delta&gt;0\\)</span>, <span\nclass=\"math inline\">\\(\\lim_{t\\rightarrow\n0}\\int_{\\{|x|&gt;\\delta\\}} f_t(x)\\,dx = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ead030b8-088c-407e-b37d-a8ed2259f105",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\varepsilon>0$. Puisque $f_1$ est int\\'egrable sur $\\mathbb{R}^{n}$,\n il existe un $R>0$ tel que $$\\int_{\\mathcal{B}(0, R)^c} f_1(x)\\,dx < \\varepsilon.$$\n On remarque que $f_t(x) = t^{-\\frac{n}{2}}\\,f_1\\left(\\frac{x}{\\sqrt{t}}\n \\right)$. On a alors,\n\\begin{eqnarray*}\n\\int_{\\mathcal{B}(0, \\delta)^c} f_t(x)\\,dx &=&\n\\int_{\\mathcal{B}(0,\n\\delta)^c}t^{-\\frac{n}{2}}\\,f_1\\left(\\frac{x}{\\sqrt{t}}\n \\right) \\,dx = t^{-\\frac{n}{2}}\\,\\int_{\\mathcal{B}\\left(0,\n\\frac{\\delta}{\\sqrt{t}}\\right)^c} f_1(z) \\,t^{\\frac{n}{2}}\\,dz\n\\\\&=& \\int_{\\mathcal{B}\\left(0, \\frac{\\delta}{\\sqrt{t}}\\right)^c} f_1(z)\\,dz\n\\leq \\varepsilon,\n\\end{eqnarray*}\nd\\`es que $t < \\frac{\\delta^2}{R^2}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varepsilon&gt;0\\)</span>. Puisque\n<span class=\"math inline\">\\(f_1\\)</span> est intégrable sur <span\nclass=\"math inline\">\\(\\mathbb{R}^{n}\\)</span>, il existe un <span\nclass=\"math inline\">\\(R&gt;0\\)</span> tel que <span\nclass=\"math display\">\\[\\int_{\\mathcal{B}(0, R)^c} f_1(x)\\,dx &lt;\n\\varepsilon.\\]</span> On remarque que <span class=\"math inline\">\\(f_t(x)\n= t^{-\\frac{n}{2}}\\,f_1\\left(\\frac{x}{\\sqrt{t}}\n\\right)\\)</span>. On a alors, <span\nclass=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathcal{B}(0, \\delta)^c} f_t(x)\\,dx &amp;=&amp;\n\\int_{\\mathcal{B}(0,\n\\delta)^c}t^{-\\frac{n}{2}}\\,f_1\\left(\\frac{x}{\\sqrt{t}}\n\\right) \\,dx = t^{-\\frac{n}{2}}\\,\\int_{\\mathcal{B}\\left(0,\n\\frac{\\delta}{\\sqrt{t}}\\right)^c} f_1(z) \\,t^{\\frac{n}{2}}\\,dz\n\\\\&amp;=&amp; \\int_{\\mathcal{B}\\left(0,\n\\frac{\\delta}{\\sqrt{t}}\\right)^c} f_1(z)\\,dz\n\\leq \\varepsilon,\n\\end{aligned}\\]</span> dès que <span class=\"math inline\">\\(t &lt;\n\\frac{\\delta^2}{R^2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que, pour tout <span class=\"math inline\">\\(t&gt;0\\)</span>,\n<span class=\"math inline\">\\(\\int_{\\mathbb{R}^n}\nf_t(x)\\,dx = 1\\)</span>.</p>\n"
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "Gz2D",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3270",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Fraction rationnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:38.937Z"
+  },
+  "contenu": [
+    {
+      "id": "e2f5055d-7fff-4645-964e-ee2ef8f45425",
+      "type": "description",
+      "value": {
+        "latex": "Soit $F \\in { K(X)}$ non constante et $P \\in { K[X]}$, $P \\ne 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(F \\in { K(X)}\\)</span> non constante\net <span class=\"math inline\">\\(P \\in { K[X]}\\)</span>, <span\nclass=\"math inline\">\\(P \\ne 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "74a3e31d-90aa-46d4-afc9-8ad3607f219a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $P\\circ F \\ne 0$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(P\\circ F \\ne 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "33e74160-7da7-4c08-a562-f5aa6d55ddcd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'application${ K(X)} \\to { K(X)},  G \\mapsto  {G\\circ F}$ est un morphisme\n    injectif d'alg{\\`e}bre.",
+        "html": "<p>Montrer que l’application<span class=\"math inline\">\\({ K(X)} \\to {\nK(X)},  G \\mapsto  {G\\circ F}\\)</span> est un morphisme injectif\nd’alg<span>è</span>bre.</p>\n"
+      }
+    },
+    {
+      "id": "7b511732-ad5e-49e7-ba0e-800658f790dd",
+      "type": "question",
+      "value": {
+        "latex": "A quelle condition est-il surjectif ?",
+        "html": "<p>A quelle condition est-il surjectif ?</p>\n"
+      }
+    },
+    {
+      "id": "d15b53d5-f7da-4652-a34d-c6282b3585dd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que tous les isomorphismes de corps de ${ K(X)}$ sont de cette forme.",
+        "html": "<p>Montrer que tous les isomorphismes de corps de <span\nclass=\"math inline\">\\({ K(X)}\\)</span> sont de cette forme.</p>\n"
+      }
+    },
+    {
+      "id": "39ed3555-ae77-4e0a-ad9c-feb32ce6c7da",
+      "type": "reponse",
+      "value": {
+        "latex": "ssi $\\exists\\ G \\in { K(X)}$ tel que $G\\circ F = X  \\Rightarrow  P\\circ F = XQ\\circ F$.\n             \\par\n             $F = \\frac AB,\\ A \\wedge B = 1  \\Rightarrow \n              \\begin{cases}A\\mid(p_0 - Xq_0)\\cr B\\mid(p_n - Xq_n)\\end{cases}  \\Rightarrow \n              F$ est homographique.\n$F = \\phi(X)$.",
+        "html": "<p>ssi <span class=\"math inline\">\\(\\exists\\ G \\in { K(X)}\\)</span> tel\nque <span class=\"math inline\">\\(G\\circ F = X  \\Rightarrow  P\\circ F =\nXQ\\circ F\\)</span>.</p>\n<p><span class=\"math inline\">\\(F = \\frac AB,\\ A \\wedge B =\n1  \\Rightarrow\n              \\begin{cases}A\\mid(p_0 - Xq_0)\\cr B\\mid(p_n -\nXq_n)\\end{cases}  \\Rightarrow\n              F\\)</span> est homographique. <span\nclass=\"math inline\">\\(F = \\phi(X)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(F \\in { K(X)}\\)</span> non constante\net <span class=\"math inline\">\\(P \\in { K[X]}\\)</span>, <span\nclass=\"math inli ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "KIHy",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7116",
+    "auteur": "megy",
+    "createdAt": "2017-01-21",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:06.361Z"
+  },
+  "contenu": [
+    {
+      "id": "03bc2075-884b-4239-ba99-7aec310de241",
+      "type": "description",
+      "value": {
+        "latex": "\r\n\r\nSoit un quadrilatère convexe $ABCD$. Les points $E$, $F$, $G$, $H$ sont tels que $AEB$, $BFC$, $CGD$, $DHA$ sont rectangles isocèles en respectivement $E$, $F$, $G$, $H$. Les triangles $AEB$ et $CGD$ sont vers l'extérieur de $ABC$ , les triangles $BFC$ et $DHA$ vers l'intérieur.\r\nMontrer que $EFGH$ est un parallélogramme.",
+        "html": "<p>Soit un quadrilatère convexe <span\nclass=\"math inline\">\\(ABCD\\)</span>. Les points <span\nclass=\"math inline\">\\(E\\)</span>, <span\nclass=\"math inline\">\\(F\\)</span>, <span\nclass=\"math inline\">\\(G\\)</span>, <span class=\"math inline\">\\(H\\)</span>\nsont tels que <span class=\"math inline\">\\(AEB\\)</span>, <span\nclass=\"math inline\">\\(BFC\\)</span>, <span\nclass=\"math inline\">\\(CGD\\)</span>, <span\nclass=\"math inline\">\\(DHA\\)</span> sont rectangles isocèles en\nrespectivement <span class=\"math inline\">\\(E\\)</span>, <span\nclass=\"math inline\">\\(F\\)</span>, <span\nclass=\"math inline\">\\(G\\)</span>, <span\nclass=\"math inline\">\\(H\\)</span>. Les triangles <span\nclass=\"math inline\">\\(AEB\\)</span> et <span\nclass=\"math inline\">\\(CGD\\)</span> sont vers l’extérieur de <span\nclass=\"math inline\">\\(ABC\\)</span> , les triangles <span\nclass=\"math inline\">\\(BFC\\)</span> et <span\nclass=\"math inline\">\\(DHA\\)</span> vers l’intérieur. Montrer que <span\nclass=\"math inline\">\\(EFGH\\)</span> est un parallélogramme.</p>\n"
+      }
+    },
+    {
+      "id": "61632ff0-4bc9-47e2-b198-dadc55a11201",
+      "type": "indication",
+      "value": {
+        "latex": "Considérer la similitude de centre $A$, d'angle $\\pi/4$ et de rapport $\\sqrt 2$, et celle de centre $C$, d'angle $-\\pi/4$, et de rapport $1/\\sqrt 2$. Ou alors, utiliser les nombres complexes.",
+        "html": "<p>Considérer la similitude de centre <span\nclass=\"math inline\">\\(A\\)</span>, d’angle <span\nclass=\"math inline\">\\(\\pi/4\\)</span> et de rapport <span\nclass=\"math inline\">\\(\\sqrt 2\\)</span>, et celle de centre <span\nclass=\"math inline\">\\(C\\)</span>, d’angle <span\nclass=\"math inline\">\\(-\\pi/4\\)</span>, et de rapport <span\nclass=\"math inline\">\\(1/\\sqrt 2\\)</span>. Ou alors, utiliser les nombres\ncomplexes.</p>\n"
+      }
+    },
+    {
+      "id": "bfd6f10b-4e45-4f2f-a76d-c797d5fffcf2",
+      "type": "reponse",
+      "value": {
+        "latex": "La composée est une translation, on en déduit que $\\overrightarrow{HG}=\\overrightarrow{EF}$.",
+        "html": "<p>La composée est une translation, on en déduit que <span\nclass=\"math inline\">\\(\\overrightarrow{HG}=\\overrightarrow{EF}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit un quadrilatère convexe <span\nclass=\"math inline\">\\(ABCD\\)</span>. Les points <span\nclass=\"math inline\">\\(E\\)</span>, <span\nclass=\"math inline ..."
+}

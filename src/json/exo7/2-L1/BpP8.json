@@ -1,0 +1,125 @@
+{
+  "uuid": "BpP8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4228",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Somme de Riemann",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:09.626Z"
+  },
+  "contenu": [
+    {
+      "id": "481a0d1a-8031-4ba0-bc11-7577fc8e7de4",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "fe177109-d99e-4abb-803f-2d0eeea51730",
+      "type": "question",
+      "value": {
+        "latex": "Trouver $\\lim_{n\\to\\infty} \\frac 1{n+1} + \\frac 1{n+2} + \\dots + \\frac 1{kn}$\n    pour $k$ entier supérieur ou égal à $2$ fixé.",
+        "html": "<p>Trouver <span class=\"math inline\">\\(\\lim_{n\\to\\infty} \\frac 1{n+1} +\n\\frac 1{n+2} + \\dots + \\frac 1{kn}\\)</span> pour <span\nclass=\"math inline\">\\(k\\)</span> entier supérieur ou égal à <span\nclass=\"math inline\">\\(2\\)</span> fixé.</p>\n"
+      }
+    },
+    {
+      "id": "79eb6e99-a7c1-4d86-83a6-005a58f1fa25",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\ln k$.",
+        "html": "<p><span class=\"math inline\">\\(\\ln k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9e72af0c-7c5d-495a-ae6b-db946df66673",
+      "type": "question",
+      "value": {
+        "latex": "Trouver $\\lim_{n\\to\\infty} \\frac 1{n^2} \\Bigl( \\sqrt{1(n-1)}\n    + \\sqrt{2(n-2)} + \\dots + \\sqrt{(n-1)1} \\Bigr)$.",
+        "html": "<p>Trouver <span class=\"math inline\">\\(\\lim_{n\\to\\infty} \\frac 1{n^2}\n\\Bigl( \\sqrt{1(n-1)}\n    + \\sqrt{2(n-2)} + \\dots + \\sqrt{(n-1)1} \\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b5704c46-3d7e-438e-b914-c4bad7b37ee7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac \\pi8$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac \\pi8\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "52cdb268-0924-4682-b184-0b60324ecaa0",
+      "type": "question",
+      "value": {
+        "latex": "Trouver $\\lim_{n\\to\\infty} \\sqrt[n]{\\Bigl(1+\\frac 1n\\Bigr)\\Bigl(1+\\frac 2n\\Bigr) \\dots\n             \\Bigl(1+\\frac nn\\Bigr)}$.",
+        "html": "<p>Trouver <span class=\"math inline\">\\(\\lim_{n\\to\\infty}\n\\sqrt[n]{\\Bigl(1+\\frac 1n\\Bigr)\\Bigl(1+\\frac 2n\\Bigr) \\dots\n             \\Bigl(1+\\frac nn\\Bigr)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bc9c1a0f-474e-44a3-8dba-e3192ea5db5c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac 4e$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac 4e\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bfadda60-5b51-48d3-ab10-8d85b60a9398",
+      "type": "question",
+      "value": {
+        "latex": "Trouver $\\lim_{n\\to\\infty} \\ln\\left(1+\\frac\\pi n\\right)\\sum_{k=0}^{n-1} \\frac1{2+\\cos(3k\\pi/n)}$.",
+        "html": "<p>Trouver <span class=\"math inline\">\\(\\lim_{n\\to\\infty}\n\\ln\\left(1+\\frac\\pi n\\right)\\sum_{k=0}^{n-1}\n\\frac1{2+\\cos(3k\\pi/n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0f5c041b-0e40-4cda-a0a0-1ec8ea0167a1",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac13 \\int_{t=0}^{3\\pi}\\frac{d t}{2+\\cos t}\n             =  \\int_{t=0}^{\\pi}\\frac{d t}{2+\\cos t} = \\frac\\pi{\\sqrt3}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac13 \\int_{t=0}^{3\\pi}\\frac{d\nt}{2+\\cos t}\n             =  \\int_{t=0}^{\\pi}\\frac{d t}{2+\\cos t} =\n\\frac\\pi{\\sqrt3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "77a9373e-b428-4b01-8f5b-b6014ca53e89",
+      "type": "question",
+      "value": {
+        "latex": "Donner un équivalent pour $n\\to\\infty$ de $\\sum_{k=1}^n \\sqrt k$.",
+        "html": "<p>Donner un équivalent pour <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span> de <span\nclass=\"math inline\">\\(\\sum_{k=1}^n \\sqrt k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9871ea89-d320-484e-ba58-92b00e0fe1b3",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac 43n\\sqrt n$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac 43n\\sqrt n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f87d1a6c-b3dc-4dc2-8c8d-9c57ef9f10fb",
+      "type": "question",
+      "value": {
+        "latex": "Soit $A_1A_2\\dots A_n$ un polygone régulier inscrit dans un cercle de\n    rayon 1. Chercher $\\lim_{n\\to\\infty} \\frac 1n\\sum_{k=2}^n A_1A_k$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A_1A_2\\dots A_n\\)</span> un polygone\nrégulier inscrit dans un cercle de rayon 1. Chercher <span\nclass=\"math inline\">\\(\\lim_{n\\to\\infty} \\frac 1n\\sum_{k=2}^n\nA_1A_k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e0243f8e-c752-4b1a-bf7a-039ebcddf1b1",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac 4\\pi$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac 4\\pi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Trouver <span class=\"math inline\">\\(\\lim_{n\\to\\infty} \\frac 1{n+1} +\n\\frac 1{n+2} + \\dots + \\frac 1{kn}\\)</span> pour <span\nclass=\"math inline\"> ..."
+}

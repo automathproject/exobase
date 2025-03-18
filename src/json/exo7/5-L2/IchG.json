@@ -1,0 +1,77 @@
+{
+  "uuid": "IchG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4529",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:55.350Z"
+  },
+  "contenu": [
+    {
+      "id": "9d70728b-70a1-43e5-b2e1-2a27a5df5187",
+      "type": "description",
+      "value": {
+        "latex": "Soit~$f(a) = \\sum_{n=0}^\\infty e^{-a^2n^2}$ sous réserve de convergence $(a\\in\\R$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(f(a) = \\sum_{n=0}^\\infty\ne^{-a^2n^2}\\)</span> sous réserve de convergence <span\nclass=\"math inline\">\\((a\\in\\R\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "bbb84116-91a9-4433-8933-a5b8e1cb2ee7",
+      "type": "question",
+      "value": {
+        "latex": "Domaine de définition de~$f$~?",
+        "html": "<p>Domaine de définition de <span class=\"math inline\">\\(f\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "791089c4-7090-48ee-ac3b-7a798364e85f",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\R^*$.",
+        "html": "<p><span class=\"math inline\">\\(\\R^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "58cdb536-b938-4e05-9f78-6e1b694002bd",
+      "type": "question",
+      "value": {
+        "latex": "Limite de~$af(a)$ quand $a\\to0$~?",
+        "html": "<p>Limite de <span class=\"math inline\">\\(af(a)\\)</span> quand <span\nclass=\"math inline\">\\(a\\to0\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "b965dcf5-f68f-4b03-865e-16ce43e3ad12",
+      "type": "reponse",
+      "value": {
+        "latex": "CSI~: $\\frac{\\sqrt\\pi}{2a} =  \\int_{x=0}^\\infty e^{-a^2x^2}\\,d x \\le f(a) \\le  \\int_{x=0}^\\infty e^{-a^2x^2}\\,d x + 1 = \\frac{\\sqrt\\pi}{2a} + 1$. Donc $af(a)\\to \\frac{\\sqrt\\pi}2$ lorsque $a\\to0^+$.",
+        "html": "<p>CSI : <span class=\"math inline\">\\(\\frac{\\sqrt\\pi}{2a}\n=  \\int_{x=0}^\\infty e^{-a^2x^2}\\,d x \\le f(a) \\le  \\int_{x=0}^\\infty\ne^{-a^2x^2}\\,d x + 1 = \\frac{\\sqrt\\pi}{2a} + 1\\)</span>. Donc <span\nclass=\"math inline\">\\(af(a)\\to \\frac{\\sqrt\\pi}2\\)</span> lorsque <span\nclass=\"math inline\">\\(a\\to0^+\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2d0d1906-6f59-4e71-b1d1-4e5d06f79bd3",
+      "type": "question",
+      "value": {
+        "latex": "Limite de~$f(a)$ quand $a\\to+\\infty$~?",
+        "html": "<p>Limite de <span class=\"math inline\">\\(f(a)\\)</span> quand <span\nclass=\"math inline\">\\(a\\to+\\infty\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "6a8dc99d-de41-444e-b9d0-5aad756b4678",
+      "type": "reponse",
+      "value": {
+        "latex": "TCM~: $f(a)\\to 1$ lorsque $a\\to+\\infty$.",
+        "html": "<p>TCM : <span class=\"math inline\">\\(f(a)\\to 1\\)</span> lorsque <span\nclass=\"math inline\">\\(a\\to+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f(a) = \\sum_{n=0}^\\infty\ne^{-a^2n^2}\\)</span> sous réserve de convergence <span\nclass=\"math inline\">\\((a\\in\\R\\)</s ..."
+}

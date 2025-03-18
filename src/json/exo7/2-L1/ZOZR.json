@@ -1,0 +1,61 @@
+{
+  "uuid": "ZOZR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4689",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:08.004Z"
+  },
+  "contenu": [
+    {
+      "id": "208d668e-3672-451f-9bc7-a43a694f08aa",
+      "type": "description",
+      "value": {
+        "latex": "Pour $n \\in \\N^*$, on note $S(n)$ la somme des chiffres de l'{\\'e}criture d{\\'e}cimale de $n$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, on note <span\nclass=\"math inline\">\\(S(n)\\)</span> la somme des chiffres de\nl’<span>é</span>criture d<span>é</span>cimale de <span\nclass=\"math inline\">\\(n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "87b0e07a-0221-4175-9b8a-c766ccb57de6",
+      "type": "question",
+      "value": {
+        "latex": "Encadrer $S(n+1)$ en fonction de $S(n)$.\n    En d{\\'e}duire que la suite $\\left(\\frac {S(n+1)}{S(n)}\\right)$ est born{\\'e}e.",
+        "html": "<p>Encadrer <span class=\"math inline\">\\(S(n+1)\\)</span> en fonction de\n<span class=\"math inline\">\\(S(n)\\)</span>. En d<span>é</span>duire que\nla suite <span class=\"math inline\">\\(\\left(\\frac\n{S(n+1)}{S(n)}\\right)\\)</span> est born<span>é</span>e.</p>\n"
+      }
+    },
+    {
+      "id": "5d9fc946-34d9-4489-91cd-7bf11dbdfc07",
+      "type": "question",
+      "value": {
+        "latex": "Chercher $\\inf\\left\\{\\frac {S(n+1)}{S(n)} \\text{ tq } n \\in \\N^*\\right\\}$, et\n             $\\sup\\left\\{\\frac {S(n+1)}{S(n)} \\text{ tq } n \\in \\N^*\\right\\}$.",
+        "html": "<p>Chercher <span class=\"math inline\">\\(\\inf\\left\\{\\frac {S(n+1)}{S(n)}\n\\text{ tq } n \\in \\N^*\\right\\}\\)</span>, et <span\nclass=\"math inline\">\\(\\sup\\left\\{\\frac {S(n+1)}{S(n)} \\text{ tq } n \\in\n\\N^*\\right\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e8c07b29-9b4b-4656-a74e-991dc1280651",
+      "type": "question",
+      "value": {
+        "latex": "La suite $\\left(\\frac {S(n+1)}{S(n)}\\right)$ est-elle convergente ?",
+        "html": "<p>La suite <span class=\"math inline\">\\(\\left(\\frac\n{S(n+1)}{S(n)}\\right)\\)</span> est-elle convergente ?</p>\n"
+      }
+    },
+    {
+      "id": "91cbb0a9-bf7e-4bfb-b5a0-92e44e869f12",
+      "type": "reponse",
+      "value": {
+        "latex": "$1 \\le S(n+1) \\le S(n) + 1  \\Rightarrow  0 \\le \\frac {S(n+1)}{S(n)} \\le 2$.\n$\\inf = 0$ $(99\\dots99)$, $\\sup = 2$ $(100\\dots00)$.",
+        "html": "<p><span class=\"math inline\">\\(1 \\le S(n+1) \\le S(n) + 1  \\Rightarrow  0\n\\le \\frac {S(n+1)}{S(n)} \\le 2\\)</span>. <span\nclass=\"math inline\">\\(\\inf = 0\\)</span> <span\nclass=\"math inline\">\\((99\\dots99)\\)</span>, <span\nclass=\"math inline\">\\(\\sup = 2\\)</span> <span\nclass=\"math inline\">\\((100\\dots00)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, on note <span\nclass=\"math inline\">\\(S(n)\\)</span> la somme des chiffres de\nl’<span>é</span>cr ..."
+}

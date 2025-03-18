@@ -1,0 +1,61 @@
+{
+  "uuid": "GVZp",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2530",
+    "auteur": "tahani",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "sousChapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:41.156Z"
+  },
+  "contenu": [
+    {
+      "id": "6dfbf408-d97e-436e-b968-32be88cd9dab",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f:\n\\mathbb{R}^n \\rightarrow \\mathbb{R}^n$ une application $C^1$. On\nsuppose qu'il existe $\\alpha >0$ tel que pour tout $h,x \\in\n\\mathbb{R}^n$,\n\\[\n\\langle Df(x)(h),h \\rangle \\geq \\alpha\\langle h,h\\rangle.\n\\]",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\n\\mathbb{R}^n \\rightarrow \\mathbb{R}^n\\)</span> une application <span\nclass=\"math inline\">\\(C^1\\)</span>. On suppose qu’il existe <span\nclass=\"math inline\">\\(\\alpha &gt;0\\)</span> tel que pour tout <span\nclass=\"math inline\">\\(h,x \\in\n\\mathbb{R}^n\\)</span>, <span class=\"math display\">\\[\\langle Df(x)(h),h\n\\rangle \\geq \\alpha\\langle h,h\\rangle.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e036917a-41bc-446f-8979-c04bd4de1bc3",
+      "type": "question",
+      "value": {
+        "latex": "En consid\\'erant la fonction \n$t \\rightarrow \\varphi(t)= \\langle f(a+t(b-a)),b_a) \\rangle$, montrez que\n$$ \\langle f(b)-f(a),b-a \\rangle \\geq \\alpha \\langle b-a,b-a \\rangle \n\\text{ pour tout } a,b \\in \\mathbb{R}^n.$$ \nEn déduire que $f$ est une application ferm\\'ee.",
+        "html": "<p>En considérant la fonction <span class=\"math inline\">\\(t \\rightarrow\n\\varphi(t)= \\langle f(a+t(b-a)),b_a) \\rangle\\)</span>, montrez que <span\nclass=\"math display\">\\[\\langle f(b)-f(a),b-a \\rangle \\geq \\alpha \\langle\nb-a,b-a \\rangle\n\\text{ pour tout } a,b \\in \\mathbb{R}^n.\\]</span> En déduire que <span\nclass=\"math inline\">\\(f\\)</span> est une application fermée.</p>\n"
+      }
+    },
+    {
+      "id": "db11dc57-191b-4a5c-a3b1-45e9d21d0201",
+      "type": "question",
+      "value": {
+        "latex": "D\\'emontrer que, pour tout $x \\in E, Df(x)$ est un\nisomorphisme de $\\mathbb{R}^n$. En déduire que $f$ est une\napplication ouverte.",
+        "html": "<p>Démontrer que, pour tout <span class=\"math inline\">\\(x \\in E,\nDf(x)\\)</span> est un isomorphisme de <span\nclass=\"math inline\">\\(\\mathbb{R}^n\\)</span>. En déduire que <span\nclass=\"math inline\">\\(f\\)</span> est une application ouverte.</p>\n"
+      }
+    },
+    {
+      "id": "b4d6d03f-54cc-4d50-8a9f-3ef277d6b1cf",
+      "type": "question",
+      "value": {
+        "latex": "Conclure que $f$ est un diff\\'eomorphisme de classe $C^1$ de $\\mathbb{R}^n$ sur lui même.",
+        "html": "<p>Conclure que <span class=\"math inline\">\\(f\\)</span> est un\ndifféomorphisme de classe <span class=\"math inline\">\\(C^1\\)</span> de\n<span class=\"math inline\">\\(\\mathbb{R}^n\\)</span> sur lui même.</p>\n"
+      }
+    },
+    {
+      "id": "6a14bd0b-7c0f-43be-b72f-1c75e1d62670",
+      "type": "reponse",
+      "value": {
+        "latex": "$f$ et $\\varphi$ sont de classe $C^1$ car compos\\'ees d'applications de classe $C^1$. On a\n$$\nD\\varphi(t)= \\varphi'(t)=(\\Psi \\circ f \\circ \\theta)(t)'(t)\n= D\\Psi(f(\\theta(t)))\\circ Df(\\theta(t))\\circ D\\theta(t)\n= \\langle Df(a+t(b-a))(b-a),b-a \\rangle.\n$$ \nPar cons\\'equent:\n$$\n\\varphi'(t) \\geq \\alpha \\langle b-a,b-a \\rangle.\n$$\nOr, $\\varphi(1)-\\varphi(0)=\\langle f(b)-f(a),(b-a)\\rangle$ et il existe $t\\in\n]0,1[$ tel que $\\varphi(1)-\\varphi(0)=\\varphi'(t)$ d'o\\`u\n$$\n\\langle f(b)-f(a),b-a\\rangle \\geq \\alpha \\langle b-a,b-a\\rangle.\n$$\nIndications pour mq $f$ est ferm\\'ee: Posons $\\|x\\|=\\sqrt{\\langle x,x\\rangle}$\nalors\n$$\n\\alpha \\|b-a\\|^2 \\leq \\langle f(b)-f(a),b-a\\rangle \n\\leq \\|f(b)-f(a)\\|.\\|b-a\\|.\n$$ \nD'o\\`u $$\\|b-a\\| \\leq 1/\\alpha \\|f(b)-f(a)\\|.\n$$ \nSoit $F$ un ferm\\'e et $y_n$ une suite de points\nde $f(F)$ convergeant vers un point limite $y_\\infty$. Il faut\nmontrer que $y_\\infty \\in f(F)$. Soit $x_n$ une suite de points de\n$\\mathbb{R}^n$ tels que $f(x_n)=y_n$. Il reste \\`a montrer que\ncette suite admet est de Cauchy, qu'elle converge donc et que sa\nlimite $x_\\infty$ v\\'erifie $f(x_\\infty)=y_\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(\\varphi\\)</span> sont de classe <span\nclass=\"math inline\">\\(C^1\\)</span> car composées d’applications de\nclasse <span class=\"math inline\">\\(C^1\\)</span>. On a <span\nclass=\"math display\">\\[D\\varphi(t)= \\varphi&#39;(t)=(\\Psi \\circ f \\circ\n\\theta)(t)&#39;(t)\n= D\\Psi(f(\\theta(t)))\\circ Df(\\theta(t))\\circ D\\theta(t)\n= \\langle Df(a+t(b-a))(b-a),b-a \\rangle.\\]</span> Par conséquent: <span\nclass=\"math display\">\\[\\varphi&#39;(t) \\geq \\alpha \\langle b-a,b-a\n\\rangle.\\]</span> Or, <span\nclass=\"math inline\">\\(\\varphi(1)-\\varphi(0)=\\langle\nf(b)-f(a),(b-a)\\rangle\\)</span> et il existe <span\nclass=\"math inline\">\\(t\\in\n]0,1[\\)</span> tel que <span\nclass=\"math inline\">\\(\\varphi(1)-\\varphi(0)=\\varphi&#39;(t)\\)</span>\nd’où <span class=\"math display\">\\[\\langle f(b)-f(a),b-a\\rangle \\geq\n\\alpha \\langle b-a,b-a\\rangle.\\]</span> Indications pour mq <span\nclass=\"math inline\">\\(f\\)</span> est fermée: Posons <span\nclass=\"math inline\">\\(\\|x\\|=\\sqrt{\\langle x,x\\rangle}\\)</span> alors\n<span class=\"math display\">\\[\\alpha \\|b-a\\|^2 \\leq \\langle\nf(b)-f(a),b-a\\rangle\n\\leq \\|f(b)-f(a)\\|.\\|b-a\\|.\\]</span> D’où <span\nclass=\"math display\">\\[\\|b-a\\| \\leq 1/\\alpha \\|f(b)-f(a)\\|.\\]</span>\nSoit <span class=\"math inline\">\\(F\\)</span> un fermé et <span\nclass=\"math inline\">\\(y_n\\)</span> une suite de points de <span\nclass=\"math inline\">\\(f(F)\\)</span> convergeant vers un point limite\n<span class=\"math inline\">\\(y_\\infty\\)</span>. Il faut montrer que <span\nclass=\"math inline\">\\(y_\\infty \\in f(F)\\)</span>. Soit <span\nclass=\"math inline\">\\(x_n\\)</span> une suite de points de <span\nclass=\"math inline\">\\(\\mathbb{R}^n\\)</span> tels que <span\nclass=\"math inline\">\\(f(x_n)=y_n\\)</span>. Il reste à montrer que cette\nsuite admet est de Cauchy, qu’elle converge donc et que sa limite <span\nclass=\"math inline\">\\(x_\\infty\\)</span> vérifie <span\nclass=\"math inline\">\\(f(x_\\infty)=y_\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:\n\\mathbb{R}^n \\rightarrow \\mathbb{R}^n\\)</span> une application <span\nclass=\"math inline\">\\(C^1\\)</span>. On sup ..."
+}

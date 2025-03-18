@@ -1,0 +1,93 @@
+{
+  "uuid": "DfyA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4490",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Familles sommables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:14.252Z"
+  },
+  "contenu": [
+    {
+      "id": "0517063e-8f1e-45b6-8e59-3ead07d80d28",
+      "type": "description",
+      "value": {
+        "latex": "\\'Etudier la finitude des sommes suivantes~:",
+        "html": "<p>Étudier la finitude des sommes suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "ef8c0e56-62fd-4293-a647-cf4a7a5e23d5",
+      "type": "question",
+      "value": {
+        "latex": "$\\sum_{(i,j)\\in(\\N^*)^2}\\frac1{(i+j)^\\alpha}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\sum_{(i,j)\\in(\\N^*)^2}\\frac1{(i+j)^\\alpha}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5c0696bc-33d7-4c9c-86d4-c62c9a3759bc",
+      "type": "reponse",
+      "value": {
+        "latex": "Regroupement à $i+j$ constant $ \\Rightarrow $ CV ssi $\\alpha > 2$.",
+        "html": "<p>Regroupement à <span class=\"math inline\">\\(i+j\\)</span> constant\n<span class=\"math inline\">\\(\\Rightarrow\\)</span> CV ssi <span\nclass=\"math inline\">\\(\\alpha &gt; 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c9abd5d7-10ed-482d-beee-1451ec13a28c",
+      "type": "question",
+      "value": {
+        "latex": "$\\sum_{(i,j)\\in(\\N^*)^2}\\frac1{\\strut i^\\alpha +j^\\alpha}$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{(i,j)\\in(\\N^*)^2}\\frac1{\\strut\ni^\\alpha +j^\\alpha}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "19374a43-3c04-4533-9b37-8c3e20b35ec3",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $\\alpha\\ge 1$ on a par convexité~:\n             $2^{1-\\alpha}(i+j)^\\alpha \\le i^\\alpha+j^\\alpha \\le (i+j)^\\alpha$\n             donc il y a convergence ssi $\\alpha > 2$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(\\alpha\\ge 1\\)</span> on a par\nconvexité : <span class=\"math inline\">\\(2^{1-\\alpha}(i+j)^\\alpha \\le\ni^\\alpha+j^\\alpha \\le (i+j)^\\alpha\\)</span> donc il y a convergence ssi\n<span class=\"math inline\">\\(\\alpha &gt; 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5eb95b43-bcc2-4557-bd8e-176b1f56db15",
+      "type": "question",
+      "value": {
+        "latex": "$\\sum_{x\\in\\Q\\cap[1,+\\infty[}\\frac1{x^2}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\sum_{x\\in\\Q\\cap[1,+\\infty[}\\frac1{x^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7b5615fd-9974-4589-a13e-a5a295c68879",
+      "type": "reponse",
+      "value": {
+        "latex": "Il y a une infinité de termes supérieurs à~$1/4$.",
+        "html": "<p>Il y a une infinité de termes supérieurs à <span\nclass=\"math inline\">\\(1/4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "969026e6-b851-4b26-a8d8-37789076b8f8",
+      "type": "question",
+      "value": {
+        "latex": "$\\sum_{(p,q)\\in\\N^2}\\frac1{a^p+b^q}$, ${a>1,b>1}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\sum_{(p,q)\\in\\N^2}\\frac1{a^p+b^q}\\)</span>, <span\nclass=\"math inline\">\\({a&gt;1,b&gt;1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "57d6f4c9-c168-4cfc-baaf-ec4dd8a210bd",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac1{a^p+b^q} \\le \\frac1{2\\sqrt a^p\\sqrt b^q}  \\Rightarrow $ sommable.",
+        "html": "<p><span class=\"math inline\">\\(\\frac1{a^p+b^q} \\le \\frac1{2\\sqrt\na^p\\sqrt b^q}  \\Rightarrow\\)</span> sommable.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Étudier la finitude des sommes suivantes :</p>\n"
+}

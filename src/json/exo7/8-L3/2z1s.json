@@ -1,0 +1,37 @@
+{
+  "uuid": "2z1s",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2105",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "true",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Ordre d'un élément",
+    "sousChapitre": "Ordre d'un élément",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:42.679Z"
+  },
+  "contenu": [
+    {
+      "id": "1b12e4d1-1fa1-451e-b89a-4da2269ae5da",
+      "type": "description",
+      "value": {
+        "latex": "Soit $n$ et $p$ deux entiers, $p\\leq n$. D\\'emontrer, gr\\^ace \\`a un d\\'enombrement, la\nformule suivante:\n$$\\sum _{ 0\\leq k\\leq p} C_n ^k C_ {n-k}^{p-k} =2^p C_n^p$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(n\\)</span> et <span\nclass=\"math inline\">\\(p\\)</span> deux entiers, <span\nclass=\"math inline\">\\(p\\leq n\\)</span>. Démontrer, grâce à un\ndénombrement, la formule suivante: <span class=\"math display\">\\[\\sum _{\n0\\leq k\\leq p} C_n ^k C_ {n-k}^{p-k} =2^p C_n^p\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "2f008e12-fa6e-498c-afdc-2291c2f76489",
+      "type": "indication",
+      "value": {
+        "latex": "Compter, dans un ensemble $E$ \\`a $n$ \\'el\\'ements, le nombre de parties \\`a $p$\n\\'el\\'ements obtenues en r\\'eunissant une partie $X$ \\`a $k$ \\'el\\'ements \\`a une \npartie \\`a $p-k$ \\'el\\'ements du compl\\'ementaire de $X$ dans $E$, $k$ d\\'ecrivant\n$\\{0,\\ldots, p\\}$.",
+        "html": "<p>Compter, dans un ensemble <span class=\"math inline\">\\(E\\)</span> à\n<span class=\"math inline\">\\(n\\)</span> éléments, le nombre de parties à\n<span class=\"math inline\">\\(p\\)</span> éléments obtenues en réunissant\nune partie <span class=\"math inline\">\\(X\\)</span> à <span\nclass=\"math inline\">\\(k\\)</span> éléments à une partie à <span\nclass=\"math inline\">\\(p-k\\)</span> éléments du complémentaire de <span\nclass=\"math inline\">\\(X\\)</span> dans <span\nclass=\"math inline\">\\(E\\)</span>, <span class=\"math inline\">\\(k\\)</span>\ndécrivant <span class=\"math inline\">\\(\\{0,\\ldots, p\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(n\\)</span> et <span\nclass=\"math inline\">\\(p\\)</span> deux entiers, <span\nclass=\"math inline\">\\(p\\leq n\\)</span>. D ..."
+}

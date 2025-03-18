@@ -1,0 +1,109 @@
+{
+  "uuid": "OflA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5003",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Courbes planes",
+    "sousChapitre": "Courbes définies par une condition",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:11.817Z"
+  },
+  "contenu": [
+    {
+      "id": "6215cb74-6459-440e-bf6e-686fdc9f03b9",
+      "type": "description",
+      "value": {
+        "latex": "Chercher les courbes planes vérifiant l'équation intrinsèque :",
+        "html": "<p>Chercher les courbes planes vérifiant l’équation intrinsèque :</p>\n"
+      }
+    },
+    {
+      "id": "80c063b5-fe4d-4dea-8f14-15f40be2a325",
+      "type": "question",
+      "value": {
+        "latex": "$R=s$.",
+        "html": "<p><span class=\"math inline\">\\(R=s\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "857b80a8-5d3f-4673-80fb-47effe987df1",
+      "type": "reponse",
+      "value": {
+        "latex": "$x =  \\int_{}^s \\cos\\ln|t|\\,d t,\\quad\n              y =  \\int_{}^s \\sin\\ln|t|\\,d t,\\quad\n              \\rho = \\pm\\frac1{\\sqrt2}e^{\\theta+\\pi/4}$.",
+        "html": "<p><span class=\"math inline\">\\(x =  \\int_{}^s \\cos\\ln|t|\\,d t,\\quad\n              y =  \\int_{}^s \\sin\\ln|t|\\,d t,\\quad\n              \\rho = \\pm\\frac1{\\sqrt2}e^{\\theta+\\pi/4}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "773176cd-fb66-4ca6-80dd-2a307fc3167e",
+      "type": "question",
+      "value": {
+        "latex": "$Rs = 1$.",
+        "html": "<p><span class=\"math inline\">\\(Rs = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "20035120-1fbf-4b78-b336-dba09d2f38cd",
+      "type": "reponse",
+      "value": {
+        "latex": "$x =  \\int_0^s \\cos\\frac{u^2}2\\,du,\\quad\n              y =  \\int_0^s \\sin\\frac{u^2}2\\,du$\n             (Clothoïde ou spirale de Cornu)",
+        "html": "<p><span class=\"math inline\">\\(x =  \\int_0^s \\cos\\frac{u^2}2\\,du,\\quad\n              y =  \\int_0^s \\sin\\frac{u^2}2\\,du\\)</span> (Clothoïde ou\nspirale de Cornu)</p>\n"
+      }
+    },
+    {
+      "id": "033ae634-5942-4022-b1a8-d25217444ff8",
+      "type": "question",
+      "value": {
+        "latex": "$R^2 = 2as$, $a > 0$ donné.",
+        "html": "<p><span class=\"math inline\">\\(R^2 = 2as\\)</span>, <span\nclass=\"math inline\">\\(a &gt; 0\\)</span> donné.</p>\n"
+      }
+    },
+    {
+      "id": "682f9de9-19e0-4a20-ac88-ddd50aab346a",
+      "type": "reponse",
+      "value": {
+        "latex": "$x = a(\\varphi\\sin\\varphi + \\cos\\varphi),\\quad\n              y = a(-\\varphi\\cos\\varphi + \\sin\\varphi)$.",
+        "html": "<p><span class=\"math inline\">\\(x = a(\\varphi\\sin\\varphi +\n\\cos\\varphi),\\quad\n              y = a(-\\varphi\\cos\\varphi + \\sin\\varphi)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6bc3454b-9d9b-43fd-91eb-a08dc4c7e392",
+      "type": "question",
+      "value": {
+        "latex": "$R = 1+s^2$.",
+        "html": "<p><span class=\"math inline\">\\(R = 1+s^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4587b4c9-f9b3-47a0-8da0-ed3e806771f3",
+      "type": "reponse",
+      "value": {
+        "latex": "$x = \\ln\\Bigl|\\tan\\Bigr(\\frac\\varphi2+\\frac\\pi4\\Bigr)\\Bigr|,\\quad\n              y = \\frac1{\\cos\\varphi} = \\ch x$.",
+        "html": "<p><span class=\"math inline\">\\(x =\n\\ln\\Bigl|\\tan\\Bigr(\\frac\\varphi2+\\frac\\pi4\\Bigr)\\Bigr|,\\quad\n              y = \\frac1{\\cos\\varphi} = \\ch x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3ee5bdfe-124f-45a6-8e2d-e1b9206e3e9c",
+      "type": "question",
+      "value": {
+        "latex": "$R^2+s^2 = a^2$.",
+        "html": "<p><span class=\"math inline\">\\(R^2+s^2 = a^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b92c86bc-ef15-4e47-a203-7c8c21e881df",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=\\frac a4(\\sin2\\varphi + 2\\varphi),\\quad\n             y = \\frac a4\\cos2\\varphi$ (cycloïde).",
+        "html": "<p><span class=\"math inline\">\\(x=\\frac a4(\\sin2\\varphi + 2\\varphi),\\quad\n             y = \\frac a4\\cos2\\varphi\\)</span> (cycloïde).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Chercher les courbes planes vérifiant l’équation intrinsèque :</p>\n"
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "sjlA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3499",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Valeur propre, vecteur propre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:58.159Z"
+  },
+  "contenu": [
+    {
+      "id": "e60911d4-020b-44ff-88ef-d15c55a73953",
+      "type": "description",
+      "value": {
+        "latex": "Chercher les valeurs propres des matrices :",
+        "html": "<p>Chercher les valeurs propres des matrices :</p>\n"
+      }
+    },
+    {
+      "id": "cb4ae18b-e6ac-4027-aeed-f8e373b4cf47",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{pmatrix}0      &\\dots  &0      &1      \\cr\n          \\vdots &       &\\vdots &\\vdots \\cr\n          0      &\\dots  &0      &n-1    \\cr\n          1      &\\dots  &n-1    &n      \\cr \\end{pmatrix}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\begin{pmatrix}0      &amp;\\dots  &amp;0      &amp;1      \\cr\n          \\vdots &amp;       &amp;\\vdots &amp;\\vdots \\cr\n          0      &amp;\\dots  &amp;0      &amp;n-1    \\cr\n          1      &amp;\\dots  &amp;n-1    &amp;n      \\cr\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "278dc1d7-edea-4f7e-b3d0-cd43c7c7f465",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$ et les racines de $6\\lambda^2 -6n\\lambda -n(n-1)(2n-1) = 0$.",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span> et les racines de <span\nclass=\"math inline\">\\(6\\lambda^2 -6n\\lambda -n(n-1)(2n-1) =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1ac43c4c-dcbb-40e0-ab12-5145c77f263e",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{pmatrix}0            &\\sin\\alpha &\\sin2\\alpha \\cr\n          \\sin\\alpha   &0          &\\sin2\\alpha \\cr\n          \\sin2\\alpha  &\\sin\\alpha &0           \\end{pmatrix}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\begin{pmatrix}0            &amp;\\sin\\alpha\n&amp;\\sin2\\alpha \\cr\n          \\sin\\alpha   &amp;0          &amp;\\sin2\\alpha \\cr\n          \\sin2\\alpha  &amp;\\sin\\alpha\n&amp;0           \\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f542ad02-e401-4c74-9d19-0d3d136a29b6",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sin\\alpha+\\sin2\\alpha,\\quad -\\sin\\alpha,\\quad -\\sin2\\alpha$.",
+        "html": "<p><span class=\"math inline\">\\(\\sin\\alpha+\\sin2\\alpha,\\quad\n-\\sin\\alpha,\\quad -\\sin2\\alpha\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Chercher les valeurs propres des matrices :</p>\n"
+}

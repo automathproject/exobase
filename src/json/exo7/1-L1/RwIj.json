@@ -1,0 +1,69 @@
+{
+  "uuid": "RwIj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "2kur52c78pA",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Forme cartésienne, forme polaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:28.998Z"
+  },
+  "contenu": [
+    {
+      "id": "eda88fd4-61e8-4d1f-8ce8-7b14434f3e3b",
+      "type": "description",
+      "value": {
+        "latex": "Écrire sous la forme $a+ib$ les nombres complexes suivants :",
+        "html": "<p>Écrire sous la forme <span class=\"math inline\">\\(a+ib\\)</span> les\nnombres complexes suivants :</p>\n"
+      }
+    },
+    {
+      "id": "0455ca7e-ec27-46c0-aba6-d3564369461f",
+      "type": "question",
+      "value": {
+        "latex": "Nombre de module $2$ et d'argument $\\pi /3$.",
+        "html": "<p>Nombre de module <span class=\"math inline\">\\(2\\)</span> et d’argument\n<span class=\"math inline\">\\(\\pi /3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c386e815-dd21-42b6-9e69-504c2d514bf5",
+      "type": "reponse",
+      "value": {
+        "latex": "$z_1 = 2 e^{i\\frac \\pi 3} = 2(\\cos \\frac \\pi 3 + i \\sin \\frac \\pi 3) = 2 (\\frac 12+ i\\frac{\\sqrt3}{2}) = 1+i\\sqrt 3$.",
+        "html": "<p><span class=\"math inline\">\\(z_1 = 2 e^{i\\frac \\pi 3} = 2(\\cos \\frac\n\\pi 3 + i \\sin \\frac \\pi 3) = 2 (\\frac 12+ i\\frac{\\sqrt3}{2}) = 1+i\\sqrt\n3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "209923de-6b7f-4b86-838e-9c6b296ecec2",
+      "type": "question",
+      "value": {
+        "latex": "Nombre de module $3$ et d'argument $-\\pi /8$.",
+        "html": "<p>Nombre de module <span class=\"math inline\">\\(3\\)</span> et d’argument\n<span class=\"math inline\">\\(-\\pi /8\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8c93d0d7-eaca-4d6e-af66-9d3b9af254a7",
+      "type": "reponse",
+      "value": {
+        "latex": "$z_2 = 3e^{-i\\frac \\pi 8} = 3\\cos {\\pi \\over 8}-3i\\sin{\\pi \\over8}={3\\sqrt{2+\\sqrt2}\\over 2}-{3i\\sqrt{2-\\sqrt2}\\over 2}$.\n\n\nIl nous reste à expliquer comment nous avons calculé $\\cos \\frac \\pi 8$ et $\\sin \\frac\\pi 8$: \nposons $\\theta=\\frac{\\pi}{8}$,\nalors $2\\theta = \\frac \\pi 4$ et donc $\\cos(2\\theta)= \\frac {\\sqrt 2}{2} = \\sin(2\\theta)$.\nMais $\\cos(2\\theta) = 2\\cos^2 \\theta - 1$. Donc $\\cos^2\\theta = \\frac{\\cos(2\\theta) + 1}{2} = \\frac 14 (2 + \\sqrt 2)$.\nEt ensuite  $\\sin^2 \\theta = 1- \\cos^2 \\theta = \\frac 14 (2 - \\sqrt 2)$.\nComme $0 \\le \\theta = \\frac \\pi 8 \\le \\frac \\pi 2$, $\\cos \\theta$ et $\\sin \\theta$ sont des nombres positifs. Donc\n$$\\cos \\frac \\pi 8 = \\frac 12 \\sqrt{2 + \\sqrt 2} \\quad, \\quad \\sin \\frac \\pi 8 = \\frac 12 \\sqrt{2 - \\sqrt 2}.$$",
+        "html": "<p><span class=\"math inline\">\\(z_2 = 3e^{-i\\frac \\pi 8} = 3\\cos {\\pi\n\\over 8}-3i\\sin{\\pi \\over8}={3\\sqrt{2+\\sqrt2}\\over\n2}-{3i\\sqrt{2-\\sqrt2}\\over 2}\\)</span>.</p>\n<p>Il nous reste à expliquer comment nous avons calculé <span\nclass=\"math inline\">\\(\\cos \\frac \\pi 8\\)</span> et <span\nclass=\"math inline\">\\(\\sin \\frac\\pi 8\\)</span>: posons <span\nclass=\"math inline\">\\(\\theta=\\frac{\\pi}{8}\\)</span>, alors <span\nclass=\"math inline\">\\(2\\theta = \\frac \\pi 4\\)</span> et donc <span\nclass=\"math inline\">\\(\\cos(2\\theta)= \\frac {\\sqrt 2}{2} =\n\\sin(2\\theta)\\)</span>. Mais <span class=\"math inline\">\\(\\cos(2\\theta) =\n2\\cos^2 \\theta - 1\\)</span>. Donc <span\nclass=\"math inline\">\\(\\cos^2\\theta = \\frac{\\cos(2\\theta) + 1}{2} = \\frac\n14 (2 + \\sqrt 2)\\)</span>. Et ensuite <span class=\"math inline\">\\(\\sin^2\n\\theta = 1- \\cos^2 \\theta = \\frac 14 (2 - \\sqrt 2)\\)</span>. Comme <span\nclass=\"math inline\">\\(0 \\le \\theta = \\frac \\pi 8 \\le \\frac \\pi\n2\\)</span>, <span class=\"math inline\">\\(\\cos \\theta\\)</span> et <span\nclass=\"math inline\">\\(\\sin \\theta\\)</span> sont des nombres positifs.\nDonc <span class=\"math display\">\\[\\cos \\frac \\pi 8 = \\frac 12 \\sqrt{2 +\n\\sqrt 2} \\quad, \\quad \\sin \\frac \\pi 8 = \\frac 12 \\sqrt{2 - \\sqrt\n2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "4cdf9db5-7f49-4576-a612-d3c83c3cbbd9",
+      "type": "indication",
+      "value": {
+        "latex": "Il faut bien connaître ses formules trigonométriques.\nEn particulier si l'on connait $\\cos(2\\theta)$ ou $\\sin(2\\theta)$ on sait\ncalculer $\\cos \\theta$ et $\\sin \\theta$.",
+        "html": "<p>Il faut bien connaître ses formules trigonométriques. En particulier\nsi l’on connait <span class=\"math inline\">\\(\\cos(2\\theta)\\)</span> ou\n<span class=\"math inline\">\\(\\sin(2\\theta)\\)</span> on sait calculer\n<span class=\"math inline\">\\(\\cos \\theta\\)</span> et <span\nclass=\"math inline\">\\(\\sin \\theta\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Écrire sous la forme <span class=\"math inline\">\\(a+ib\\)</span> les\nnombres complexes suivants :</p>\n"
+}

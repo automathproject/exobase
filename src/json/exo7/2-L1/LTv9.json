@@ -1,0 +1,61 @@
+{
+  "uuid": "LTv9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4301",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:33.910Z"
+  },
+  "contenu": [
+    {
+      "id": "704ffc3b-8e73-4ec0-b107-73362038fdff",
+      "type": "description",
+      "value": {
+        "latex": "On pose $f(x) =  \\int_{t=x}^{+\\infty} \\frac{e^{-t}}t \\,d t$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(x) =  \\int_{t=x}^{+\\infty}\n\\frac{e^{-t}}t \\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5d47b9d4-9428-48e4-816a-289e226f3df2",
+      "type": "question",
+      "value": {
+        "latex": "Chercher $\\lim_{x\\to{+\\infty}} f(x)$.",
+        "html": "<p>Chercher <span class=\"math inline\">\\(\\lim_{x\\to{+\\infty}}\nf(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f80db4e4-c239-4a53-ac98-9583f5d9da15",
+      "type": "question",
+      "value": {
+        "latex": "A l'aide d'une intégration par parties, donner un équivalent de $f(x)$\n      pour $x\\to{+\\infty}$.",
+        "html": "<p>A l’aide d’une intégration par parties, donner un équivalent de <span\nclass=\"math inline\">\\(f(x)\\)</span> pour <span\nclass=\"math inline\">\\(x\\to{+\\infty}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "940fe6e2-4ed9-4067-96b9-c47aaa1f0cb3",
+      "type": "question",
+      "value": {
+        "latex": "Donner un équivalent de $f(x)$ pour $x\\to0^+$.",
+        "html": "<p>Donner un équivalent de <span class=\"math inline\">\\(f(x)\\)</span>\npour <span class=\"math inline\">\\(x\\to0^+\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0535a762-37e0-4ce2-a1e6-3d80a5292595",
+      "type": "reponse",
+      "value": {
+        "latex": "$e^{-x}/x$.\n$-\\ln x$.",
+        "html": "<p><span class=\"math inline\">\\(e^{-x}/x\\)</span>. <span\nclass=\"math inline\">\\(-\\ln x\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(f(x) =  \\int_{t=x}^{+\\infty}\n\\frac{e^{-t}}t \\,d t\\)</span>.</p>\n"
+}

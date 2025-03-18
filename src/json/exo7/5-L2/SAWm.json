@@ -1,0 +1,61 @@
+{
+  "uuid": "SAWm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4549",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:17.051Z"
+  },
+  "contenu": [
+    {
+      "id": "e78a6486-532b-4bf3-9c3c-167a9b21220d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(f_n)$ une suite de fonctions $[a,b]\\to[c,d]$ continues, bijectives, strictement\ncroissantes, convergeant simplement vers une fonction $f$ : $[a,b]\\to[c,d]$ elle aussi\ncontinue, bijective strictement croissante.",
+        "html": "<p>Soit <span class=\"math inline\">\\((f_n)\\)</span> une suite de\nfonctions <span class=\"math inline\">\\([a,b]\\to[c,d]\\)</span> continues,\nbijectives, strictement croissantes, convergeant simplement vers une\nfonction <span class=\"math inline\">\\(f\\)</span> : <span\nclass=\"math inline\">\\([a,b]\\to[c,d]\\)</span> elle aussi continue,\nbijective strictement croissante.</p>\n"
+      }
+    },
+    {
+      "id": "02d79612-b239-49e0-afcc-71a514f00643",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il y a convergence uniforme (deuxième théorème de Dini, considérer une subdivision de~$[a,b]$).",
+        "html": "<p>Montrer qu’il y a convergence uniforme (deuxième théorème de Dini,\nconsidérer une subdivision de <span\nclass=\"math inline\">\\([a,b]\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "bc154b79-a942-485e-9def-8a437ab6b774",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les fonctions réciproques $f_n^{-1}$ convergent simplement\n    vers une fonction~$g$ et que $g = f^{-1}$.",
+        "html": "<p>Montrer que les fonctions réciproques <span\nclass=\"math inline\">\\(f_n^{-1}\\)</span> convergent simplement vers une\nfonction <span class=\"math inline\">\\(g\\)</span> et que <span\nclass=\"math inline\">\\(g = f^{-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d8ea6607-b4dc-460b-9439-ee143e0d39ef",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $(f_n^{-1})$ converge uniformément vers~$f^{-1}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\((f_n^{-1})\\)</span> converge\nuniformément vers <span class=\"math inline\">\\(f^{-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "225381f8-4454-4d7a-9f5f-e26496c3210e",
+      "type": "reponse",
+      "value": {
+        "latex": "soit $y\\in{[c,d]}$ et $x_n = f_n^{-1}(y)$. La suite $(x_n)$ admet au plus\n         une valeur d'adhérence, $x = f^{-1}(y)$.",
+        "html": "<p>soit <span class=\"math inline\">\\(y\\in{[c,d]}\\)</span> et <span\nclass=\"math inline\">\\(x_n = f_n^{-1}(y)\\)</span>. La suite <span\nclass=\"math inline\">\\((x_n)\\)</span> admet au plus une valeur\nd’adhérence, <span class=\"math inline\">\\(x = f^{-1}(y)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((f_n)\\)</span> une suite de\nfonctions <span class=\"math inline\">\\([a,b]\\to[c,d]\\)</span> continues,\nbijectives, st ..."
+}

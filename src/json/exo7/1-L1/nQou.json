@@ -1,0 +1,157 @@
+{
+  "uuid": "nQou",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5076",
+    "auteur": "rouget",
+    "createdAt": "2010-06-30",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Trigonométrie",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:56.307Z"
+  },
+  "contenu": [
+    {
+      "id": "648bdd63-5ab4-4dec-ad73-86a1fc5fdf13",
+      "type": "description",
+      "value": {
+        "latex": "Calculer une primitive de chacune des fonctions suivantes~:",
+        "html": "<p>Calculer une primitive de chacune des fonctions suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "8216ef22-abd5-4dcd-99cf-728d10f8d29d",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\cos^2x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\cos^2x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "3500a3ce-03c3-4342-9e71-ffc5c9b1b981",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\cos^2x=\\frac{1}{2}(1+\\cos(2x))$ et une primitive de $x\\mapsto\\cos^2x$ est\n$x\\mapsto\\frac{1}{2}(x+\\frac{1}{2}\\sin(2x))$.",
+        "html": "<p><span class=\"math inline\">\\(\\cos^2x=\\frac{1}{2}(1+\\cos(2x))\\)</span>\net une primitive de <span class=\"math inline\">\\(x\\mapsto\\cos^2x\\)</span>\nest <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{2}(x+\\frac{1}{2}\\sin(2x))\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "537913be-5a2d-4927-a368-754494d37b46",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\cos^4x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\cos^4x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "e507e7a6-3ca8-49b8-b0fd-697139bb8aec",
+      "type": "reponse",
+      "value": {
+        "latex": "D'après les formules d'\\textsc{Euler},\n\n$$\\begin{align*}\n\\cos^4x&=\\left(\\frac{1}{2}(e^{ix}+e^{-ix})\\right)^4=\\frac{1}{16}(e^{4ix}+4e^{2ix}+6+4e^{-2ix}+e^{-4ix})\\\\\n &=\\frac{1}{16}(2\\cos(4x)+8\\cos(2x)+6)=\\frac{1}{8}(\\cos(4x)+4\\cos(2x)+3)\n\\end{align*}$$\nDonc, une primitive de la fonction $x\\mapsto\\cos^4x$ est $x\\mapsto\\frac{1}{8}(\\frac{1}{4}\\sin(4x)+2\\sin(2x)+3x)$.",
+        "html": "<p>D’après les formules d’<span class=\"smallcaps\">Euler</span>,</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\cos^4x&amp;=\\left(\\frac{1}{2}(e^{ix}+e^{-ix})\\right)^4=\\frac{1}{16}(e^{4ix}+4e^{2ix}+6+4e^{-2ix}+e^{-4ix})\\\\\n&amp;=\\frac{1}{16}(2\\cos(4x)+8\\cos(2x)+6)=\\frac{1}{8}(\\cos(4x)+4\\cos(2x)+3)\n\\end{align*}\\]</span> Donc, une primitive de la fonction <span\nclass=\"math inline\">\\(x\\mapsto\\cos^4x\\)</span> est <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{8}(\\frac{1}{4}\\sin(4x)+2\\sin(2x)+3x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f76c788e-c2db-4ac3-a286-6ed2b88c64c5",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\sin^4x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\sin^4x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "bcf7eda0-2fdd-4604-a4c7-6a9e8c866c35",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{align*}\n\\sin^4x&=\\left(\\frac{1}{2i}(e^{ix}-e^{-ix})\\right)^4=\\frac{1}{16}(e^{4ix}-4e^{2ix}+6-4e^{-2ix}+e^{-4ix})\\\\\n &=\\frac{1}{16}(2\\cos(4x)-8\\cos(2x)+6)=\\frac{1}{8}(\\cos(4x)-4\\cos(2x)+3)\n\\end{align*}$$\nDonc, une primitive de la fonction $x\\mapsto\\sin^4x$ est $x\\mapsto\\frac{1}{8}(\\frac{1}{4}\\sin(4x)-2\\sin(2x)+3x)$.",
+        "html": "<p><span class=\"math display\">\\[\\begin{align*}\n\\sin^4x&amp;=\\left(\\frac{1}{2i}(e^{ix}-e^{-ix})\\right)^4=\\frac{1}{16}(e^{4ix}-4e^{2ix}+6-4e^{-2ix}+e^{-4ix})\\\\\n&amp;=\\frac{1}{16}(2\\cos(4x)-8\\cos(2x)+6)=\\frac{1}{8}(\\cos(4x)-4\\cos(2x)+3)\n\\end{align*}\\]</span> Donc, une primitive de la fonction <span\nclass=\"math inline\">\\(x\\mapsto\\sin^4x\\)</span> est <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{8}(\\frac{1}{4}\\sin(4x)-2\\sin(2x)+3x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "39e18f1f-e06d-4524-96a9-280b9c92f684",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\cos^2x\\sin^2x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\cos^2x\\sin^2x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "056a64ca-c55e-4e0d-84a2-7f6520ef48f7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\cos^2x\\sin^2x=\\frac{1}{4}\\sin^2(2x)=\\frac{1}{8}(1-\\cos(4x))$ et une primitive de la fonction $x\\mapsto\\cos^2x\\sin^2x$\nest $x\\mapsto\\frac{1}{8}(x-\\frac{1}{4}\\sin(4x))$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\cos^2x\\sin^2x=\\frac{1}{4}\\sin^2(2x)=\\frac{1}{8}(1-\\cos(4x))\\)</span>\net une primitive de la fonction <span\nclass=\"math inline\">\\(x\\mapsto\\cos^2x\\sin^2x\\)</span> est <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{8}(x-\\frac{1}{4}\\sin(4x))\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e2195ca8-01fc-4f63-977f-fa39038369f2",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\sin^6x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\sin^6x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "4d74e0ab-1ad3-4993-bb75-e0fc2e5775ed",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{align*}\n\\sin^6x&=\\left(\\frac{1}{2i}(e^{ix}-e^{-ix})\\right)^6=-\\frac{1}{64}(e^{6ix}-6e^{4ix}+15e^{2ix}-20+15e^{-2ix}-6e^{-4ix}+\ne^{-6ix})\\\\\n &=-\\frac{1}{64}(2\\cos(6x)-12\\cos(4x)+30\\cos(2x)-20)=\\frac{1}{32}(-\\cos(6x)+6\\cos(4x)-15\\cos(2x)+10)\n\\end{align*}$$\nDonc, une primitive de la fonction $x\\mapsto\\sin^6x$ est\n$x\\mapsto\\frac{1}{32}(-\\frac{1}{6}\\sin(6x)+\\frac{3}{2}\\sin(4x)-\\frac{15}{2}\\sin(2x)+10x)$.",
+        "html": "<p><span class=\"math display\">\\[\\begin{align*}\n\\sin^6x&amp;=\\left(\\frac{1}{2i}(e^{ix}-e^{-ix})\\right)^6=-\\frac{1}{64}(e^{6ix}-6e^{4ix}+15e^{2ix}-20+15e^{-2ix}-6e^{-4ix}+\ne^{-6ix})\\\\\n&amp;=-\\frac{1}{64}(2\\cos(6x)-12\\cos(4x)+30\\cos(2x)-20)=\\frac{1}{32}(-\\cos(6x)+6\\cos(4x)-15\\cos(2x)+10)\n\\end{align*}\\]</span> Donc, une primitive de la fonction <span\nclass=\"math inline\">\\(x\\mapsto\\sin^6x\\)</span> est <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{32}(-\\frac{1}{6}\\sin(6x)+\\frac{3}{2}\\sin(4x)-\\frac{15}{2}\\sin(2x)+10x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ba9a8ad2-9eca-4529-b601-8be922f62c0d",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\cos x\\sin^6x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\cos x\\sin^6x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "9359d97f-718d-4bc3-ac7a-0b26a85b2dae",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\cos x\\sin^6x=\\sin'x\\sin^6x$ et une primitive de $x\\mapsto\\cos x\\sin^6x$ est $x\\mapsto\\frac{1}{7}\\sin^7x$.",
+        "html": "<p><span class=\"math inline\">\\(\\cos x\\sin^6x=\\sin&#39;x\\sin^6x\\)</span>\net une primitive de <span class=\"math inline\">\\(x\\mapsto\\cos\nx\\sin^6x\\)</span> est <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{7}\\sin^7x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cb56adb9-482e-4952-b8c1-ed0839270163",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\cos^5x\\sin^2x$,",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\cos^5x\\sin^2x\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "7f462869-46c9-4d73-bf6b-a4ad6749e424",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\cos^5x\\sin^2x=\\cos x(1-\\sin^2x)^2\\sin^2x=\\sin'x\\sin^2x-2\\sin'x\\sin^4x+\\sin'x\\sin^6x$ et une primitive de\n$x\\mapsto\\cos^5x\\sin^2x$ est $x\\mapsto\\frac{1}{3}\\sin^3x-\\frac{2}{5}\\sin^5x+\\frac{1}{7}\\sin^7x$.",
+        "html": "<p><span class=\"math inline\">\\(\\cos^5x\\sin^2x=\\cos\nx(1-\\sin^2x)^2\\sin^2x=\\sin&#39;x\\sin^2x-2\\sin&#39;x\\sin^4x+\\sin&#39;x\\sin^6x\\)</span>\net une primitive de <span\nclass=\"math inline\">\\(x\\mapsto\\cos^5x\\sin^2x\\)</span> est <span\nclass=\"math inline\">\\(x\\mapsto\\frac{1}{3}\\sin^3x-\\frac{2}{5}\\sin^5x+\\frac{1}{7}\\sin^7x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5d008ee1-7900-4c15-bdb7-f6c57dc1075b",
+      "type": "question",
+      "value": {
+        "latex": "$x\\mapsto\\cos^3x$.",
+        "html": "<p><span class=\"math inline\">\\(x\\mapsto\\cos^3x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8c4c21fb-7872-4614-8b7d-5cb5c946b71c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\cos^3x=\\sin'x-\\sin'x\\sin^2x$ et une primitive de $x\\mapsto\\cos^3x$ est $x\\mapsto\\sin x-\\frac{1}{3}\\sin^3x$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\cos^3x=\\sin&#39;x-\\sin&#39;x\\sin^2x\\)</span> et\nune primitive de <span class=\"math inline\">\\(x\\mapsto\\cos^3x\\)</span>\nest <span class=\"math inline\">\\(x\\mapsto\\sin\nx-\\frac{1}{3}\\sin^3x\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer une primitive de chacune des fonctions suivantes :</p>\n"
+}

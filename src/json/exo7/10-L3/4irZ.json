@@ -1,0 +1,53 @@
+{
+  "uuid": "4irZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6475",
+    "auteur": "drutu",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe fini",
+    "sousChapitre": "Groupe fini",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:40.375Z"
+  },
+  "contenu": [
+    {
+      "id": "842531d9-5d49-4de4-aeb1-17e1d83d5a94",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "d142c137-5393-4412-9af6-e790feaa9f10",
+      "type": "question",
+      "value": {
+        "latex": "Soit les applications $T:\\R \\cup\\{ \\infty \\} \\to \\R \\cup\\{ \\infty \\} ,\\; T(x)=x+4,\\; T(\\infty )=\\infty $, et $g:\\R \\cup\\{ \\infty \\} \\to \\R \\cup\\{ \\infty \\}$, \n$$\ng(x)=\\left\\{ \\begin{array}{ccc} \n          \\frac{x}{1-2x} & \\mbox{ si } & x\\in \\R\\setminus \\{ \\frac{1}{2}\\} \\; ; \\\\\n          \\infty & \\mbox{ si } & x= \\frac{1}{2} \\; ;\\\\ \n          -\\frac{1}{2} & \\mbox{ si } & x= \\infty \\;   \n          \\end{array}\\right.\n$$ \n\nMontrer que $T^k([-2,2])\\subset ]-\\infty ,\\, -2]\\cup [2,\\, \\infty [,\\; \\forall k\\in \\Z^* $ et que $g^m(]-\\infty ,\\, -1]\\cup [1,\\, \\infty [)\\subset [-1,\\, 1],\\; \\forall m\\in \\Z^* $.",
+        "html": "<p>Soit les applications <span class=\"math inline\">\\(T:\\R \\cup\\{ \\infty\n\\} \\to \\R \\cup\\{ \\infty \\} ,\\; T(x)=x+4,\\; T(\\infty )=\\infty\\)</span>,\net <span class=\"math inline\">\\(g:\\R \\cup\\{ \\infty \\} \\to \\R \\cup\\{\n\\infty \\}\\)</span>, <span class=\"math display\">\\[g(x)=\\left\\{\n\\begin{array}{ccc}\n          \\frac{x}{1-2x} &amp; \\mbox{ si } &amp; x\\in \\R\\setminus \\{\n\\frac{1}{2}\\} \\; ; \\\\\n          \\infty &amp; \\mbox{ si } &amp; x= \\frac{1}{2} \\; ;\\\\\n          -\\frac{1}{2} &amp; \\mbox{ si } &amp; x= \\infty \\;   \n          \\end{array}\\right.\\]</span></p>\n<p>Montrer que <span class=\"math inline\">\\(T^k([-2,2])\\subset ]-\\infty\n,\\, -2]\\cup [2,\\, \\infty [,\\; \\forall k\\in \\Z^*\\)</span> et que <span\nclass=\"math inline\">\\(g^m(]-\\infty ,\\, -1]\\cup [1,\\, \\infty [)\\subset\n[-1,\\, 1],\\; \\forall m\\in \\Z^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a5063273-e68e-4eb0-8a89-f7ee5b310f15",
+      "type": "question",
+      "value": {
+        "latex": "Soit $G$ le groupe des applications bijectives $h:\\R\\cup \\{ \\infty \\} \\to \\R\\cup \\{ \\infty \\}$, muni de l'opération de composition. Montrer que $G$ a une action naturelle sur $\\R \\cup\\{ \\infty \\}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> le groupe des\napplications bijectives <span class=\"math inline\">\\(h:\\R\\cup \\{ \\infty\n\\} \\to \\R\\cup \\{ \\infty \\}\\)</span>, muni de l’opération de composition.\nMontrer que <span class=\"math inline\">\\(G\\)</span> a une action\nnaturelle sur <span class=\"math inline\">\\(\\R \\cup\\{ \\infty\n\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a37a5994-7ee3-4194-b949-2ed2c33ce0aa",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le sous-groupe $\\Gamma $ de $G$ engendré par $T$ et $g$ est un groupe libre. {\\it Indication }: Regarder les orbites des nombres dans l'intervalle $]1,2[$.",
+        "html": "<p>Montrer que le sous-groupe <span\nclass=\"math inline\">\\(\\Gamma\\)</span> de <span\nclass=\"math inline\">\\(G\\)</span> engendré par <span\nclass=\"math inline\">\\(T\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> est un groupe libre.\n<span><em>Indication</em> </span>: Regarder les orbites des nombres dans\nl’intervalle <span class=\"math inline\">\\(]1,2[\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit les applications <span class=\"math inline\">\\(T:\\R \\cup\\{ \\infty\n\\} \\to \\R \\cup\\{ \\infty \\} ,\\; T(x)=x+4,\\; T(\\infty )=\\infty\\)</span>,\net <spa ..."
+}

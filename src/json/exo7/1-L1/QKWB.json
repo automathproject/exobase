@@ -1,0 +1,61 @@
+{
+  "uuid": "QKWB",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3275",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Fraction rationnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:19.686Z"
+  },
+  "contenu": [
+    {
+      "id": "c551a024-42f8-48b7-a4d6-d52af47d8c47",
+      "type": "description",
+      "value": {
+        "latex": "Soit $H = \\{ F \\in { K(X)}$ tel que $F(\\scriptstyle X) = F(\\frac 1X) \\}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(H = \\{ F \\in { K(X)}\\)</span> tel\nque <span class=\"math inline\">\\(F(\\scriptstyle X) = F(\\frac 1X)\n\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "31f45ff5-e890-4d39-9ec8-4dc8ad1ff872",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que : $F \\in H \\Leftrightarrow \\exists\\ G \\in { K(X)}$ tel que\n    $F(\\scriptstyle X) = G\\Bigl(\\scriptstyle X+\\frac 1X\\Bigr)$.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(F \\in H \\Leftrightarrow\n\\exists\\ G \\in { K(X)}\\)</span> tel que <span\nclass=\"math inline\">\\(F(\\scriptstyle X) = G\\Bigl(\\scriptstyle X+\\frac\n1X\\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "94af3955-9c6f-4330-8eac-55a5fde438f5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $H$ est un sous-corps de ${ K(X)}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(H\\)</span> est un sous-corps\nde <span class=\"math inline\">\\({ K(X)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1bb9b03c-42ca-41e3-8921-e9266f626ad1",
+      "type": "question",
+      "value": {
+        "latex": "Que vaut $\\dim_H({ K(X)})$ ? Donner une base de ${ K(X)}$ sur $H$.",
+        "html": "<p>Que vaut <span class=\"math inline\">\\(\\dim_H({ K(X)})\\)</span> ?\nDonner une base de <span class=\"math inline\">\\({ K(X)}\\)</span> sur\n<span class=\"math inline\">\\(H\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "303dbb1e-ccd6-4f6b-81e8-9ba9fbd7dba2",
+      "type": "reponse",
+      "value": {
+        "latex": "$ \\Rightarrow \\frac{P(\\scriptstyle X)}{Q(\\scriptstyle X)} =\n  \\frac{P(\\frac 1X)}{Q(\\frac 1X)} = \\frac{P(\\scriptstyle X)+P(\\frac\n    1X)}{Q(\\scriptstyle X)+Q(\\frac 1X)}$.",
+        "html": "<p><span class=\"math inline\">\\(\\Rightarrow \\frac{P(\\scriptstyle\nX)}{Q(\\scriptstyle X)} =\n  \\frac{P(\\frac 1X)}{Q(\\frac 1X)} = \\frac{P(\\scriptstyle X)+P(\\frac\n    1X)}{Q(\\scriptstyle X)+Q(\\frac 1X)}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(H = \\{ F \\in { K(X)}\\)</span> tel\nque <span class=\"math inline\">\\(F(\\scriptstyle X) = F(\\frac 1X)\n\\}\\)</span>.</p> ..."
+}

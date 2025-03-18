@@ -1,0 +1,45 @@
+{
+  "uuid": "iXNI",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6356",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:05.045Z"
+  },
+  "contenu": [
+    {
+      "id": "60cc42a1-4f52-4b2d-8c7a-b02ea22f5301",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "c3f82ea4-024a-4605-b5c4-cc00ba00e5aa",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la matrice $\\begin{pmatrix}e^{-2t}\\cos t & -\\sin t\\cr e^{-2t}\\sin t &\n\\cos t\\cr\\end{pmatrix}$ est la résolvante du système linéaire $x'(t)=A(t).x(t)$ où \n$$A(t)=\\begin{pmatrix}-2\\cos^2 t & -1-\\sin 2t\\cr 1-\\sin 2t &\n-2\\sin^2 t\\cr\\end{pmatrix}.$$ En déduire la solution du système $x'(t)=A(t).x(t)+ b(t)$ avec\n$b(t)=\\begin{pmatrix}e^{-t}\\cos t   \\cr e^{-t}\\sin t \n\\cr\\end{pmatrix}$",
+        "html": "<p>Montrer que la matrice <span\nclass=\"math inline\">\\(\\begin{pmatrix}e^{-2t}\\cos t &amp; -\\sin t\\cr\ne^{-2t}\\sin t &amp;\n\\cos t\\cr\\end{pmatrix}\\)</span> est la résolvante du système linéaire\n<span class=\"math inline\">\\(x&#39;(t)=A(t).x(t)\\)</span> où <span\nclass=\"math display\">\\[A(t)=\\begin{pmatrix}-2\\cos^2 t &amp; -1-\\sin\n2t\\cr 1-\\sin 2t &amp;\n-2\\sin^2 t\\cr\\end{pmatrix}.\\]</span> En déduire la solution du système\n<span class=\"math inline\">\\(x&#39;(t)=A(t).x(t)+ b(t)\\)</span> avec\n<span class=\"math inline\">\\(b(t)=\\begin{pmatrix}e^{-t}\\cos t   \\cr\ne^{-t}\\sin t\n\\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "075cb839-56b2-4b1a-af46-4b7de8620287",
+      "type": "question",
+      "value": {
+        "latex": "On considère maintenant l'équation différentielle ${d^2x(t)\\over\ndt^2}+x(t)=f(t)$ où $f$ est une application continue sur $\\Rr$. En\nappliquant la méthode de variation de Lagrange, trouver la solution du système\ntelle que\n$x(0)=x_0$.",
+        "html": "<p>On considère maintenant l’équation différentielle <span\nclass=\"math inline\">\\({d^2x(t)\\over\ndt^2}+x(t)=f(t)\\)</span> où <span class=\"math inline\">\\(f\\)</span> est\nune application continue sur <span class=\"math inline\">\\(\\Rr\\)</span>.\nEn appliquant la méthode de variation de Lagrange, trouver la solution\ndu système telle que <span class=\"math inline\">\\(x(0)=x_0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que la matrice <span\nclass=\"math inline\">\\(\\begin{pmatrix}e^{-2t}\\cos t &amp; -\\sin t\\cr\ne^{-2t}\\sin t &amp;\n\\cos t\\cr\\end{pmatrix}\\)</span ..."
+}

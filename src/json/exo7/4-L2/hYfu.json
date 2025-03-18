@@ -1,0 +1,93 @@
+{
+  "uuid": "hYfu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3454",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:27.359Z"
+  },
+  "contenu": [
+    {
+      "id": "6d31c057-aa57-4ab4-880d-a26b8d4660fa",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A \\in \\mathcal{M}_n(K)$ et\n$U = \\begin{pmatrix} 1       &\\dots  &1       \\cr\n                \\vdots  &       &\\vdots  \\cr\n                1       &\\dots  &1       \\cr \\end{pmatrix}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A \\in \\mathcal{M}_n(K)\\)</span> et\n<span class=\"math inline\">\\(U = \\begin{pmatrix}\n1       &amp;\\dots  &amp;1       \\cr\n                \\vdots  &amp;       &amp;\\vdots  \\cr\n                1       &amp;\\dots  &amp;1       \\cr\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b950f240-3330-4d0d-b56e-d49b2904b371",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que :\n    $\\det(A + \\alpha U) = \\det A + \\alpha \\sum \\text{cofacteurs de } A$.",
+        "html": "<p>Démontrer que : <span class=\"math inline\">\\(\\det(A + \\alpha U) = \\det\nA + \\alpha \\sum \\text{cofacteurs de } A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d332465c-e729-4a53-b230-faef89d8becd",
+      "type": "reponse",
+      "value": {
+        "latex": "Développer.",
+        "html": "<p>Développer.</p>\n"
+      }
+    },
+    {
+      "id": "9844e975-8a32-4695-a84e-6271a43ce050",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la valeur de\n     $D(a,b,c) = \\begin{vmatrix}a       & b      & \\dots  & b      \\cr\n                           c       & \\ddots & \\ddots & \\vdots \\cr\n                           \\vdots  & \\ddots & \\ddots & b      \\cr\n                           c       & \\dots  & c      & a      \\end{vmatrix}$,\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "36ff89a9-425f-4165-aa39-6c7a46f44ffc",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "93210b60-00af-4f7e-9562-ac9eb6220829",
+      "type": "question",
+      "value": {
+        "latex": "pour $b \\ne c$.",
+        "html": "<p>pour <span class=\"math inline\">\\(b \\ne c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "810e8450-e4ae-4ec0-8c13-1d54c4b8ccbb",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{cases} D(a-b,0,c-b) = (a-b)^n \\cr\n                       D(a-c,b-c,0) = (a-c)^n \\cr\\end{cases}  \\Rightarrow \n               D(a,b,c) = \\frac { c(a-b)^n - b(a-c)^n } {c-b}$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} D(a-b,0,c-b) = (a-b)^n \\cr\n                       D(a-c,b-c,0) = (a-c)^n\n\\cr\\end{cases}  \\Rightarrow\n               D(a,b,c) = \\frac { c(a-b)^n - b(a-c)^n }\n{c-b}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5b282a9a-bcfe-410d-810c-3802b0522292",
+      "type": "question",
+      "value": {
+        "latex": "pour $b = c$.",
+        "html": "<p>pour <span class=\"math inline\">\\(b = c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "faedce22-da19-4654-b6d5-430fea4115d1",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\det( (a-b)I + bU ) = (a-b)^n + nb(a-b)^{n-1}$.",
+        "html": "<p><span class=\"math inline\">\\(\\det( (a-b)I + bU ) = (a-b)^n +\nnb(a-b)^{n-1}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A \\in \\mathcal{M}_n(K)\\)</span> et\n<span class=\"math inline\"> ..."
+}

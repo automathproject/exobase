@@ -1,0 +1,45 @@
+{
+  "uuid": "jMS1",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2410",
+    "auteur": "bodin",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de Stone-Weirstrass, théorème d'Ascoli",
+    "sousChapitre": "Théorème de Stone-Weirstrass, théorème d'Ascoli",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:56.065Z"
+  },
+  "contenu": [
+    {
+      "id": "5eeda019-386e-4265-bb30-763f18ca6b8c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace compact. Soit $f_i$, $i=1,\\ldots,n$ une famille de $n$ élements\nde $\\mathcal{C}(E,\\Rr)$ qui sépare les points de $E$. Montrer que $E$ est homéomorphe \nà une partie de $\\Rr^n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace compact. Soit\n<span class=\"math inline\">\\(f_i\\)</span>, <span\nclass=\"math inline\">\\(i=1,\\ldots,n\\)</span> une famille de <span\nclass=\"math inline\">\\(n\\)</span> élements de <span\nclass=\"math inline\">\\(\\mathcal{C}(E,\\Rr)\\)</span> qui sépare les points\nde <span class=\"math inline\">\\(E\\)</span>. Montrer que <span\nclass=\"math inline\">\\(E\\)</span> est homéomorphe à une partie de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c9b68b68-37b0-4f95-aaaa-72cf90f06fd7",
+      "type": "indication",
+      "value": {
+        "latex": "Considérer l'application $\\Phi : E \\to \\Rr^n$ définie par $\\Phi = (f_1,\\ldots, f_n)$.",
+        "html": "<p>Considérer l’application <span class=\"math inline\">\\(\\Phi : E \\to\n\\Rr^n\\)</span> définie par <span class=\"math inline\">\\(\\Phi =\n(f_1,\\ldots, f_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "924b1bbb-c320-4769-9b75-21eaea6686a3",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\Phi : E \\to \\Rr^n$ définie par $\\Phi = (f_1,\\ldots, f_n)$ alors \n$\\Phi$ est continue car les $f_i$ sont continues. $\\Phi$ est injective :\nen effet si $x\\neq y$ alors comme  $\\{f_i\\}$ sépare les points on a $\\Phi(x)\\neq \\Phi(y)$, par contraposition\n$\\Phi$ est injective.\nNotons $F =  \\Phi(E)$ l'image directe de $E$. Alors $\\Phi : E \\to F$ est continue et bijective.\nComme $E$ est compact alors $\\Phi$ est un homéomorphisme.\nDonc $E$ est homéomorphe à $F$ qui est une partie de $\\Rr^n$.\n\\bigskip\n\n\\emph{Rappel : } Si  $\\Phi : E \\to F$ est continue et bijective et $E$ est un espace compact alors \n$\\Phi$ est un homéomorphisme.\n\nLa preuve est simple : soit $K$ un ensemble fermé de $E$,\ncomme $E$ est compact alors $K$ l'est aussi. Comme $\\Phi$ est continue alors\n$\\Phi(K)$ est un compact de $F$ donc un fermé.\nMais en écrivant ceci à l'aide de l'application $\\Phi^{-1}$ nous venons de  montrer\nque pour tout fermé $K$ de $E$, l'image réciproque de $K$ par  $\\Phi^{-1}$ (qui est \n$(\\Phi^{-1})^{-1}(K)=\\Phi(K)$) est un fermé. Donc $\\Phi^{-1}$ est continue. Donc \n$\\Phi$ est un homéomorphisme.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\Phi : E \\to \\Rr^n\\)</span> définie\npar <span class=\"math inline\">\\(\\Phi = (f_1,\\ldots, f_n)\\)</span> alors\n<span class=\"math inline\">\\(\\Phi\\)</span> est continue car les <span\nclass=\"math inline\">\\(f_i\\)</span> sont continues. <span\nclass=\"math inline\">\\(\\Phi\\)</span> est injective : en effet si <span\nclass=\"math inline\">\\(x\\neq y\\)</span> alors comme <span\nclass=\"math inline\">\\(\\{f_i\\}\\)</span> sépare les points on a <span\nclass=\"math inline\">\\(\\Phi(x)\\neq \\Phi(y)\\)</span>, par contraposition\n<span class=\"math inline\">\\(\\Phi\\)</span> est injective. Notons <span\nclass=\"math inline\">\\(F =  \\Phi(E)\\)</span> l’image directe de <span\nclass=\"math inline\">\\(E\\)</span>. Alors <span class=\"math inline\">\\(\\Phi\n: E \\to F\\)</span> est continue et bijective. Comme <span\nclass=\"math inline\">\\(E\\)</span> est compact alors <span\nclass=\"math inline\">\\(\\Phi\\)</span> est un homéomorphisme. Donc <span\nclass=\"math inline\">\\(E\\)</span> est homéomorphe à <span\nclass=\"math inline\">\\(F\\)</span> qui est une partie de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span>.</p>\n<p><em>Rappel :</em> Si <span class=\"math inline\">\\(\\Phi : E \\to\nF\\)</span> est continue et bijective et <span\nclass=\"math inline\">\\(E\\)</span> est un espace compact alors <span\nclass=\"math inline\">\\(\\Phi\\)</span> est un homéomorphisme.</p>\n<p>La preuve est simple : soit <span class=\"math inline\">\\(K\\)</span> un\nensemble fermé de <span class=\"math inline\">\\(E\\)</span>, comme <span\nclass=\"math inline\">\\(E\\)</span> est compact alors <span\nclass=\"math inline\">\\(K\\)</span> l’est aussi. Comme <span\nclass=\"math inline\">\\(\\Phi\\)</span> est continue alors <span\nclass=\"math inline\">\\(\\Phi(K)\\)</span> est un compact de <span\nclass=\"math inline\">\\(F\\)</span> donc un fermé. Mais en écrivant ceci à\nl’aide de l’application <span class=\"math inline\">\\(\\Phi^{-1}\\)</span>\nnous venons de montrer que pour tout fermé <span\nclass=\"math inline\">\\(K\\)</span> de <span\nclass=\"math inline\">\\(E\\)</span>, l’image réciproque de <span\nclass=\"math inline\">\\(K\\)</span> par <span\nclass=\"math inline\">\\(\\Phi^{-1}\\)</span> (qui est <span\nclass=\"math inline\">\\((\\Phi^{-1})^{-1}(K)=\\Phi(K)\\)</span>) est un\nfermé. Donc <span class=\"math inline\">\\(\\Phi^{-1}\\)</span> est continue.\nDonc <span class=\"math inline\">\\(\\Phi\\)</span> est un\nhoméomorphisme.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace compact. Soit\n<span class=\"math inline\">\\(f_i\\)</span>, <span\nclass=\"math inline\"> ..."
+}

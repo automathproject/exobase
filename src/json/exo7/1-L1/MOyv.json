@@ -1,0 +1,61 @@
+{
+  "uuid": "MOyv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2905",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Binôme de Newton et combinaison",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:58.772Z"
+  },
+  "contenu": [
+    {
+      "id": "c2bbf502-ba09-482f-8260-6a03dd780449",
+      "type": "description",
+      "value": {
+        "latex": "Soient $n,p \\in \\N$. On note $\\Gamma_n^p$ le nombre de $n$-uplets\n$(x_1,\\dots, x_n) \\in \\N^n$ tels que $x_1 + \\dots + x_n = p$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(n,p \\in \\N\\)</span>. On note <span\nclass=\"math inline\">\\(\\Gamma_n^p\\)</span> le nombre de <span\nclass=\"math inline\">\\(n\\)</span>-uplets <span\nclass=\"math inline\">\\((x_1,\\dots, x_n) \\in \\N^n\\)</span> tels que <span\nclass=\"math inline\">\\(x_1 + \\dots + x_n = p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c2098129-04f5-4419-90d3-2ae6240caaaf",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}terminer $\\Gamma_n^0$, $\\Gamma_n^1$, $\\Gamma_n^2$, $\\Gamma_2^n$.",
+        "html": "<p>D<span>é</span>terminer <span\nclass=\"math inline\">\\(\\Gamma_n^0\\)</span>, <span\nclass=\"math inline\">\\(\\Gamma_n^1\\)</span>, <span\nclass=\"math inline\">\\(\\Gamma_n^2\\)</span>, <span\nclass=\"math inline\">\\(\\Gamma_2^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2d35d1b9-80f0-4258-95e7-e43b732eeb71",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}montrer que $\\Gamma_{n+1}^{p+1} = \\Gamma_{n+1}^p + \\Gamma_n^{p+1}$\n    (on classera les $(n+1)$-uplets tels que $x_1 + \\dots + x_{n+1} = p + 1$\n    suivant que $x_1 = 0$ ou non).",
+        "html": "<p>D<span>é</span>montrer que <span\nclass=\"math inline\">\\(\\Gamma_{n+1}^{p+1} = \\Gamma_{n+1}^p +\n\\Gamma_n^{p+1}\\)</span> (on classera les <span\nclass=\"math inline\">\\((n+1)\\)</span>-uplets tels que <span\nclass=\"math inline\">\\(x_1 + \\dots + x_{n+1} = p + 1\\)</span> suivant que\n<span class=\"math inline\">\\(x_1 = 0\\)</span> ou non).</p>\n"
+      }
+    },
+    {
+      "id": "ae93e21d-82fc-42ac-ac09-a625e13f5721",
+      "type": "question",
+      "value": {
+        "latex": "En d{\\'e}duire que $\\Gamma_n^p = C_{n+p-1}^p$.",
+        "html": "<p>En d<span>é</span>duire que <span class=\"math inline\">\\(\\Gamma_n^p =\nC_{n+p-1}^p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "962ed201-8cb2-4f0e-9c08-d4f5ada3129c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\Gamma_n^0 = 1$, $\\Gamma_n^1 = n$, $\\Gamma_n^2 = \\frac {n(n+1)}2$,\n    $\\Gamma_2^n = n+1$.",
+        "html": "<p><span class=\"math inline\">\\(\\Gamma_n^0 = 1\\)</span>, <span\nclass=\"math inline\">\\(\\Gamma_n^1 = n\\)</span>, <span\nclass=\"math inline\">\\(\\Gamma_n^2 = \\frac {n(n+1)}2\\)</span>, <span\nclass=\"math inline\">\\(\\Gamma_2^n = n+1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(n,p \\in \\N\\)</span>. On note <span\nclass=\"math inline\">\\(\\Gamma_n^p\\)</span> le nombre de <span\nclass=\"math inli ..."
+}

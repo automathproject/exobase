@@ -1,0 +1,37 @@
+{
+  "uuid": "Gpx1",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5235",
+    "auteur": "rouget",
+    "createdAt": "2010-06-30",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:21.587Z"
+  },
+  "contenu": [
+    {
+      "id": "6d16aa3e-5dff-46b3-b40c-787cb34729aa",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que si les suites $(u_n^2)$ et $(u_n^3)$ convergent alors $(u_n)$ converge.",
+        "html": "<p>Montrer que si les suites <span\nclass=\"math inline\">\\((u_n^2)\\)</span> et <span\nclass=\"math inline\">\\((u_n^3)\\)</span> convergent alors <span\nclass=\"math inline\">\\((u_n)\\)</span> converge.</p>\n"
+      }
+    },
+    {
+      "id": "ce38722e-99ee-44b9-bb8b-9bde0ab88057",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $u_n^2\\rightarrow0$, alors $|u_n|=\\sqrt{|u_n^2|}\\rightarrow0$ et donc $u_n\\rightarrow0$.\nSi $u_n^2\\rightarrow\\ell\\neq0$, alors $(u_n)=(\\frac{u_n^3}{u_n^2})$ converge.\n(L'exercice n'a d'intérêt que si la suite $u$ est une suite complexe, car si $u$ est une suite réelle, on écrit immédiatement $u_n=\\sqrt[3]{u_n^3}$ \n(et non pas $u_n=\\sqrt{u_n^2}$)).",
+        "html": "<p>Si <span class=\"math inline\">\\(u_n^2\\rightarrow0\\)</span>, alors\n<span class=\"math inline\">\\(|u_n|=\\sqrt{|u_n^2|}\\rightarrow0\\)</span> et\ndonc <span class=\"math inline\">\\(u_n\\rightarrow0\\)</span>. Si <span\nclass=\"math inline\">\\(u_n^2\\rightarrow\\ell\\neq0\\)</span>, alors <span\nclass=\"math inline\">\\((u_n)=(\\frac{u_n^3}{u_n^2})\\)</span> converge.\n(L’exercice n’a d’intérêt que si la suite <span\nclass=\"math inline\">\\(u\\)</span> est une suite complexe, car si <span\nclass=\"math inline\">\\(u\\)</span> est une suite réelle, on écrit\nimmédiatement <span class=\"math inline\">\\(u_n=\\sqrt[3]{u_n^3}\\)</span>\n(et non pas <span class=\"math inline\">\\(u_n=\\sqrt{u_n^2}\\)</span>)).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que si les suites <span\nclass=\"math inline\">\\((u_n^2)\\)</span> et <span\nclass=\"math inline\">\\((u_n^3)\\)</span> convergent alors <span\nclass ..."
+}

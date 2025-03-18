@@ -1,0 +1,45 @@
+{
+  "uuid": "r0fG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4811",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Topologie des espaces vectoriels normés",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:07.706Z"
+  },
+  "contenu": [
+    {
+      "id": "f6b10730-472a-415d-92b3-6cfc70b0f749",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un $\\C$-evn et $u \\in {\\cal L}_c(E)$ tel que $\\mathrm{id}_E - u$ est\nbicontinu.\nMontrer que pour tout entier $n$, $\\mathrm{id}_E - u^n$ est bicontinu et comparer son inverse\n{\\`a} $\\sum_{k=0}^{n-1} \\bigl(\\mathrm{id}_E - e^{2ik\\pi/n}u\\bigr)^{-1}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(\\C\\)</span>-evn et <span class=\"math inline\">\\(u\n\\in {\\cal L}_c(E)\\)</span> tel que <span\nclass=\"math inline\">\\(\\mathrm{id}_E - u\\)</span> est bicontinu. Montrer\nque pour tout entier <span class=\"math inline\">\\(n\\)</span>, <span\nclass=\"math inline\">\\(\\mathrm{id}_E - u^n\\)</span> est bicontinu et\ncomparer son inverse <span>à</span> <span\nclass=\"math inline\">\\(\\sum_{k=0}^{n-1} \\bigl(\\mathrm{id}_E -\ne^{2ik\\pi/n}u\\bigr)^{-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "572704a7-d990-4e09-8436-62bc25688493",
+      "type": "indication",
+      "value": {
+        "latex": "D{\\'e}composer en {\\'e}l{\\'e}ments simples la fraction $\\frac1{1-X^n}$.",
+        "html": "<p>D<span>é</span>composer en <span>é</span>l<span>é</span>ments simples\nla fraction <span class=\"math inline\">\\(\\frac1{1-X^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cf28edb5-d046-4c1f-8db4-5833ff35c7d0",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac1{1-X^n} = \\frac 1n \\sum_{k=0}^{n-1} \\frac{1}{1-\\omega_k X}$,\n$\\omega_k = e^{2ik\\pi/n}$.\nDonc $1 = \\sum_{k=0}^{n-1} \\frac{1-X^n}{n(1-\\omega_k X)}$.\n\nIl s'agit de polyn{\\^o}mes, donc on peut remplacer $X$ par $u$, d'o{\\`u} :\n$(\\mathrm{id}_E - u^n)^{-1} = \\frac1n \\sum_{k=0}^{n-1}\\bigl(\\mathrm{id}_E - e^{2ik\\pi/n}u\\bigr)^{-1}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac1{1-X^n} = \\frac 1n \\sum_{k=0}^{n-1}\n\\frac{1}{1-\\omega_k X}\\)</span>, <span class=\"math inline\">\\(\\omega_k =\ne^{2ik\\pi/n}\\)</span>. Donc <span class=\"math inline\">\\(1 =\n\\sum_{k=0}^{n-1} \\frac{1-X^n}{n(1-\\omega_k X)}\\)</span>.</p>\n<p>Il s’agit de polyn<span>ô</span>mes, donc on peut remplacer <span\nclass=\"math inline\">\\(X\\)</span> par <span\nclass=\"math inline\">\\(u\\)</span>, d’o<span>ù</span> : <span\nclass=\"math inline\">\\((\\mathrm{id}_E - u^n)^{-1} = \\frac1n\n\\sum_{k=0}^{n-1}\\bigl(\\mathrm{id}_E -\ne^{2ik\\pi/n}u\\bigr)^{-1}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(\\C\\)</span>-evn et <span class=\"math inline\">\\(u\n\\in {\\cal L}_c(E)\\)</sp ..."
+}

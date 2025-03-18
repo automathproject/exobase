@@ -1,0 +1,37 @@
+{
+  "uuid": "7I6M",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3102",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Arithmétique dans Z",
+    "sousChapitre": "Divisibilité, division euclidienne",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:59.170Z"
+  },
+  "contenu": [
+    {
+      "id": "136a956d-60a9-4905-9fe8-95702c84d181",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que : $\\forall\\ n \\in \\Z$, $n^2 + 3n + 5$ n'est pas divisible par 121.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ n \\in \\Z\\)</span>,\n<span class=\"math inline\">\\(n^2 + 3n + 5\\)</span> n’est pas divisible\npar 121.</p>\n"
+      }
+    },
+    {
+      "id": "336c5af8-3410-4d5c-8062-cecd9a5cb836",
+      "type": "reponse",
+      "value": {
+        "latex": "$n^2 + 3n + 5 \\equiv (n-59)^2 - 88 (\\mathrm{mod}\\, {121})$.\n\nSi $121$ divise $n^2 + 3n + 5$, alors $11\\mid n-59  \\Rightarrow $\ncontradiction.",
+        "html": "<p><span class=\"math inline\">\\(n^2 + 3n + 5 \\equiv (n-59)^2 - 88\n(\\mathrm{mod}\\, {121})\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(121\\)</span> divise <span\nclass=\"math inline\">\\(n^2 + 3n + 5\\)</span>, alors <span\nclass=\"math inline\">\\(11\\mid n-59  \\Rightarrow\\)</span>\ncontradiction.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ n \\in \\Z\\)</span>,\n<span class=\"math inline\">\\(n^2 + 3n + 5\\)</span> n’est pas divisible\npar 121 ..."
+}

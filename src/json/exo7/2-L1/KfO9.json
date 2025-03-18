@@ -1,0 +1,53 @@
+{
+  "uuid": "KfO9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4012",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Formule de Taylor",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:32.480Z"
+  },
+  "contenu": [
+    {
+      "id": "deb6b82c-04e8-4096-912d-2d1e1fd6a3f0",
+      "type": "description",
+      "value": {
+        "latex": "\\label{diffinie}Différences finies\nSoit $f:\\R \\to \\R$ de classe $\\mathcal{C}^\\infty$ et $h > 0$.\nOn pose : $$\\Delta_hf(x) = \\frac {f(x+h/2) - f(x-h/2)}h\n  \\qquad \\text{et}\\quad\n\\Delta_h^p = \\underbrace{\\Delta_h \\circ \\Delta_h \\circ \\dots \\circ \\Delta_h}\n_{p \\text{ fois}}.$$\n\nPar exemple, $\\Delta_h^2f(x) = \\frac {f(x+h) - 2f(x) + f(x-h)}{h^2}$.",
+        "html": "<p><span id=\"diffinie\" label=\"diffinie\"></span>Différences finies Soit\n<span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^\\infty\\)</span> et <span\nclass=\"math inline\">\\(h &gt; 0\\)</span>. On pose : <span\nclass=\"math display\">\\[\\Delta_hf(x) = \\frac {f(x+h/2) - f(x-h/2)}h\n  \\qquad \\text{et}\\quad\n\\Delta_h^p = \\underbrace{\\Delta_h \\circ \\Delta_h \\circ \\dots \\circ\n\\Delta_h}\n_{p \\text{ fois}}.\\]</span></p>\n<p>Par exemple, <span class=\"math inline\">\\(\\Delta_h^2f(x) = \\frac\n{f(x+h) - 2f(x) + f(x-h)}{h^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5278da79-f114-45be-ae20-a42f195cdbcb",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "c1129c8b-0dcc-4f6a-9025-0eff704594b0",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que : $\\forall\\ x \\in \\R,\\ \\exists\\ \\theta \\in {]-1,1[} \\text{ tq } \\Delta_hf(x) = f'\\left(x + \\frac {\\theta h}2\\right)$.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ x \\in \\R,\\\n\\exists\\ \\theta \\in {]-1,1[} \\text{ tq } \\Delta_hf(x) = f&#39;\\left(x +\n\\frac {\\theta h}2\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fc3cc6d1-8ea3-4d70-9fde-2176df262116",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que : $\\forall\\ x \\in \\R,\\ \\exists\\ \\theta'\\in {]-1,1[} \\text{ tq } \\Delta_hf(x) = f'(x) + \\frac {h^2}{24} f^{(3)}\\left( x + \\frac{\\theta' h}2\\right)$.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ x \\in \\R,\\\n\\exists\\ \\theta&#39;\\in {]-1,1[} \\text{ tq } \\Delta_hf(x) = f&#39;(x) +\n\\frac {h^2}{24} f^{(3)}\\left( x + \\frac{\\theta&#39;\nh}2\\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"diffinie\" label=\"diffinie\"></span>Différences finies Soit\n<span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> de classe <span\nclass=\"math in ..."
+}

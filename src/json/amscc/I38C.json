@@ -1,0 +1,63 @@
+{
+  "uuid": "I38C",
+  "titre": "Étude de séries à termes positifs",
+  "theme": [
+    "séries"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-05-30",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:28.937Z"
+  },
+  "contenu": [
+    {
+      "id": "0bcc0d1a-dbbb-4804-b964-3bf9c79c296e",
+      "type": "description",
+      "value": {
+        "latex": "Pour chacune des séries suivantes, déterminer si elle converge ou diverge.",
+        "html": "<p>Pour chacune des séries suivantes, déterminer si elle converge ou\ndiverge.</p>\n"
+      }
+    },
+    {
+      "id": "9e826115-8d2f-4841-9db1-47dcabc643b8",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{1}{n^2+1}$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 1}\n\\frac{1}{n^2+1}\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "2be7b25f-5961-4df8-a85f-c88ffdac5b88",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $u_n = \\frac{1}{n^2+1}$. Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\underset{+\\infty}\\sim \\frac{1}{n^2}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 2>1$), la série $\\sum u_n$ converge.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n = \\frac{1}{n^2+1}\\)</span>.\nAlors <span class=\"math inline\">\\(u_n \\geq 0\\)</span> pour tout <span\nclass=\"math inline\">\\(n \\in \\N\\)</span> et <span\nclass=\"math inline\">\\(u_n \\underset{+\\infty}\\sim \\frac{1}{n^2}\\)</span>\ndonc par comparaison à une série de Riemann convergente (<span\nclass=\"math inline\">\\(\\alpha = 2&gt;1\\)</span>), la série <span\nclass=\"math inline\">\\(\\sum u_n\\)</span> converge.</p>\n"
+      }
+    },
+    {
+      "id": "fa7c2019-c2c2-44ef-b466-b8e7e7d23eb2",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 1}\n\\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "8030608f-b982-49cf-9aef-de1aa227b646",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $u_n = \\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}$. Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\leq \\frac{1}{n^2(\\sqrt{n}+1)} \\underset{+\\infty}\\sim \\frac{1}{n^{5/2}}$ pour tout $n \\in \\N$ donc par comparaison d'une série positive à une série de Riemann convergente, la série $\\sum u_n$ converge.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n =\n\\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}\\)</span>. Alors <span\nclass=\"math inline\">\\(u_n \\geq 0\\)</span> pour tout <span\nclass=\"math inline\">\\(n \\in \\N\\)</span> et <span\nclass=\"math inline\">\\(u_n \\leq \\frac{1}{n^2(\\sqrt{n}+1)}\n\\underset{+\\infty}\\sim \\frac{1}{n^{5/2}}\\)</span> pour tout <span\nclass=\"math inline\">\\(n \\in \\N\\)</span> donc par comparaison d’une série\npositive à une série de Riemann convergente, la série <span\nclass=\"math inline\">\\(\\sum u_n\\)</span> converge.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour chacune des séries suivantes, déterminer si elle converge ou\ndiverge.</p>\n"
+}

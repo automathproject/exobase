@@ -1,0 +1,69 @@
+{
+  "uuid": "rrmA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6851",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:16.653Z"
+  },
+  "contenu": [
+    {
+      "id": "33da2d46-1e12-4b44-8bbd-a1cca5af84ba",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a$ un réel, $a>1$. On considère la série\nentière\n$$\\sum_{n=0}^{+\\infty}{z^n\\over a^{n^2}}.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel, <span\nclass=\"math inline\">\\(a&gt;1\\)</span>. On considère la série entière\n<span class=\"math display\">\\[\\sum_{n=0}^{+\\infty}{z^n\\over\na^{n^2}}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "0eb9b230-ac1e-45d9-ab24-a948ecb9d63b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que sa somme, notée $f(z)$, est holomorphe dans $\\C$.\nMontrer qu'il existe $a_0>1$ tel que l'on ait, pour tout $a\\ge a_0$,\n$$\\sum_{k=1}^{+\\infty}{1\\over a^{k^2}}\\le {1\\over 100}.$$",
+        "html": "<p>Montrer que sa somme, notée <span\nclass=\"math inline\">\\(f(z)\\)</span>, est holomorphe dans <span\nclass=\"math inline\">\\(\\C\\)</span>. Montrer qu’il existe <span\nclass=\"math inline\">\\(a_0&gt;1\\)</span> tel que l’on ait, pour tout\n<span class=\"math inline\">\\(a\\ge a_0\\)</span>, <span\nclass=\"math display\">\\[\\sum_{k=1}^{+\\infty}{1\\over a^{k^2}}\\le {1\\over\n100}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5f096ab4-91c9-45f4-91b7-dd200181f75e",
+      "type": "question",
+      "value": {
+        "latex": "\\emph{Dans toute la suite, on supposera $a\\ge a_0$.}\\\\\nSoit $p$ entier, $p\\ge 1$. Montrer que l'on a, pour tout $z$ vérifiant\n$\\vert z\\vert =a^{2p}$,\n$${1\\over a^{p^2}}\\left\\vert f(z)-{z^p\\over a^{p^2}}\\right\\vert\\le\n{2\\over 100}.$$\nEn déduire que $f(z)$ a $p$ zéros, $z_1, \\dots ,z_p$ dans le disque\nouvert $D(0,a^{2p})$. Montrer que, quel que soit $p\\ge 1$, $z_p$ a les\npropriétés suivantes :\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "e73bda37-e1cb-4c49-9aa7-9ee473fbd089",
+      "type": "question",
+      "value": {
+        "latex": "$a^{2(p-1)}<\\vert z\\vert <a^{2p}$,",
+        "html": "<p><span class=\"math inline\">\\(a^{2(p-1)}&lt;\\vert z\\vert\n&lt;a^{2p}\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "16e4e911-080c-4339-b2ee-c8cc6d4a33e3",
+      "type": "question",
+      "value": {
+        "latex": "$z_p$ est un zéro simple,",
+        "html": "<p><span class=\"math inline\">\\(z_p\\)</span> est un zéro simple,</p>\n"
+      }
+    },
+    {
+      "id": "7ff4ccab-4efa-43c4-87f3-a9e586d45b46",
+      "type": "question",
+      "value": {
+        "latex": "$z_p$ est un réel négatif.",
+        "html": "<p><span class=\"math inline\">\\(z_p\\)</span> est un réel négatif.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel, <span\nclass=\"math inline\">\\(a&gt;1\\)</span>. On considère la série entière\n<span class=\"math d ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "2p2u",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4093",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:27.089Z"
+  },
+  "contenu": [
+    {
+      "id": "2785f872-c046-41b7-b83a-08d009508f64",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a : \\R \\to {\\R^{+*}}$ une fonction continue.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a : \\R \\to {\\R^{+*}}\\)</span> une\nfonction continue.</p>\n"
+      }
+    },
+    {
+      "id": "b4345866-9503-41f7-8fb1-c5ee033f65f3",
+      "type": "question",
+      "value": {
+        "latex": "Soit $y$ une solution de l'équation $ y'' + a(x)y = 0$.\n    Montrer que $y$ s'annule au moins une fois sur $\\R$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(y\\)</span> une solution de\nl’équation <span class=\"math inline\">\\(y&#39;&#39; + a(x)y = 0\\)</span>.\nMontrer que <span class=\"math inline\">\\(y\\)</span> s’annule au moins une\nfois sur <span class=\"math inline\">\\(\\R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "442758bd-21cf-466f-b3b8-48dd4c93ad3a",
+      "type": "reponse",
+      "value": {
+        "latex": "Sinon, la convexité de $y$ est incorrecte.",
+        "html": "<p>Sinon, la convexité de <span class=\"math inline\">\\(y\\)</span> est\nincorrecte.</p>\n"
+      }
+    },
+    {
+      "id": "8d00844a-fd5d-4812-8189-f532f60f7205",
+      "type": "question",
+      "value": {
+        "latex": "Soit $z$ une solution de l'équation $ z'' - a(x)z = 0$.\n    Montrer que $z=0$ ou bien $z$ s'annule au plus une fois sur $\\R$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\)</span> une solution de\nl’équation <span class=\"math inline\">\\(z&#39;&#39; - a(x)z = 0\\)</span>.\nMontrer que <span class=\"math inline\">\\(z=0\\)</span> ou bien <span\nclass=\"math inline\">\\(z\\)</span> s’annule au plus une fois sur <span\nclass=\"math inline\">\\(\\R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f5253979-9bc1-4307-9755-1d80354ed9a8",
+      "type": "reponse",
+      "value": {
+        "latex": "S'il existe $x$ tel que $z(x) = z'(x) = 0$, alors $z=0$ ce qui\n             est absurde.\\par\n             S'il existe $x$ tel que $z(x) = 0 \\ne z'(x)$, alors par convexité,\n             $z$ ne peut s'annuler ailleurs.",
+        "html": "<p>S’il existe <span class=\"math inline\">\\(x\\)</span> tel que <span\nclass=\"math inline\">\\(z(x) = z&#39;(x) = 0\\)</span>, alors <span\nclass=\"math inline\">\\(z=0\\)</span> ce qui est absurde.</p>\n<p>S’il existe <span class=\"math inline\">\\(x\\)</span> tel que <span\nclass=\"math inline\">\\(z(x) = 0 \\ne z&#39;(x)\\)</span>, alors par\nconvexité, <span class=\"math inline\">\\(z\\)</span> ne peut s’annuler\nailleurs.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a : \\R \\to {\\R^{+*}}\\)</span> une\nfonction continue.</p>\n"
+}

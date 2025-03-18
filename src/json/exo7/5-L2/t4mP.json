@@ -1,0 +1,61 @@
+{
+  "uuid": "t4mP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4814",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Topologie des espaces vectoriels normés",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:11.931Z"
+  },
+  "contenu": [
+    {
+      "id": "e1babe32-d91d-4598-bf48-013bf06d87b9",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel norm{\\'e} et $u,v \\in \\mathcal{L}(E)$ tels que\n$u\\circ v - v \\circ u = \\mathrm{id}_E$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnorm<span>é</span> et <span class=\"math inline\">\\(u,v \\in\n\\mathcal{L}(E)\\)</span> tels que <span class=\"math inline\">\\(u\\circ v -\nv \\circ u = \\mathrm{id}_E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e89491d7-4b7b-4967-8f3b-0b83b250fa38",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $u\\circ v^n - v^n \\circ u$ pour $n \\in \\N^*$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(u\\circ v^n - v^n \\circ\nu\\)</span> pour <span class=\"math inline\">\\(n \\in \\N^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "97327843-3646-46d7-aaa9-462c6f6f1667",
+      "type": "reponse",
+      "value": {
+        "latex": "$nv^{n-1}$.",
+        "html": "<p><span class=\"math inline\">\\(nv^{n-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d16e29da-75a3-4f95-9e05-394a15e5ad3a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u$ ou $v$ est discontinu.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u\\)</span> ou <span\nclass=\"math inline\">\\(v\\)</span> est discontinu.</p>\n"
+      }
+    },
+    {
+      "id": "25637642-25b2-416c-8d9e-885792b0f5d7",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $u$ et $v$ sont continus,\n             $n\\|v^{n-1}\\| \\le 2\\|u\\|\\,\\|v^n\\| \\le 2\\|u\\|\\,\\|v^{n-1}\\|\\,\\|v\\|$.\\par\n             S'il existe $k$ tel que $v^k = 0$, on peut remonter jusqu'{\\`a} $v = 0$, absurde.\n             Sinon, on a aussi une contradiction.",
+        "html": "<p>Si <span class=\"math inline\">\\(u\\)</span> et <span\nclass=\"math inline\">\\(v\\)</span> sont continus, <span\nclass=\"math inline\">\\(n\\|v^{n-1}\\| \\le 2\\|u\\|\\,\\|v^n\\| \\le\n2\\|u\\|\\,\\|v^{n-1}\\|\\,\\|v\\|\\)</span>.</p>\n<p>S’il existe <span class=\"math inline\">\\(k\\)</span> tel que <span\nclass=\"math inline\">\\(v^k = 0\\)</span>, on peut remonter\njusqu’<span>à</span> <span class=\"math inline\">\\(v = 0\\)</span>,\nabsurde. Sinon, on a aussi une contradiction.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnorm<span>é</span> et <span class=\"math inline\">\\(u,v \\in\n\\mathcal{L}(E)\\)</span> t ..."
+}

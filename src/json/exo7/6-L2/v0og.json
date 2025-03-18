@@ -1,0 +1,157 @@
+{
+  "uuid": "v0og",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5029",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Courbes planes",
+    "sousChapitre": "Propriétés métriques : longueur, courbure,...",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:22.383Z"
+  },
+  "contenu": [
+    {
+      "id": "5ff4ffa2-3c19-4ef1-a018-5f81a9bc276a",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les coordonnées du centre de courbure au point $M$ pour les courbes\nsuivantes :",
+        "html": "<p>Déterminer les coordonnées du centre de courbure au point <span\nclass=\"math inline\">\\(M\\)</span> pour les courbes suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "8eea9644-c28c-474f-ad2e-2d23acb30a2b",
+      "type": "question",
+      "value": {
+        "latex": "$x = 3t-t^3$,\\quad $y=3t^2$.",
+        "html": "<p><span class=\"math inline\">\\(x = 3t-t^3\\)</span>,<span\nclass=\"math inline\">\\(y=3t^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "37cecdf7-b231-4dfe-b1fb-55fa21cdead5",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=-4t^3$, $y=\\frac{3+6t^2-3t^4}2$.",
+        "html": "<p><span class=\"math inline\">\\(x=-4t^3\\)</span>, <span\nclass=\"math inline\">\\(y=\\frac{3+6t^2-3t^4}2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d1854c17-8bf7-4312-a473-472c4eca0b4b",
+      "type": "question",
+      "value": {
+        "latex": "$x=2\\cos t+\\cos 2t$,\\quad $y=2\\sin t-\\sin2t$.",
+        "html": "<p><span class=\"math inline\">\\(x=2\\cos t+\\cos 2t\\)</span>,<span\nclass=\"math inline\">\\(y=2\\sin t-\\sin2t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9204168b-de8e-47cc-b0e0-35bb79f522e9",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=6\\cos t-3\\cos2t$,\\quad $y=6\\sin t+3\\sin 2t$.",
+        "html": "<p><span class=\"math inline\">\\(x=6\\cos t-3\\cos2t\\)</span>,<span\nclass=\"math inline\">\\(y=6\\sin t+3\\sin 2t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c41389a4-524d-4421-9063-ec3de1027063",
+      "type": "question",
+      "value": {
+        "latex": "$x=t-\\sin t$,\\quad $y=1-\\cos t$.\n    (Cycloïde, indiquer une relation géométrique simple entre la courbe décrite\n    par $M$ et celle décrite par $I$)",
+        "html": "<p><span class=\"math inline\">\\(x=t-\\sin t\\)</span>,<span\nclass=\"math inline\">\\(y=1-\\cos t\\)</span>. (Cycloïde, indiquer une\nrelation géométrique simple entre la courbe décrite par <span\nclass=\"math inline\">\\(M\\)</span> et celle décrite par <span\nclass=\"math inline\">\\(I\\)</span>)</p>\n"
+      }
+    },
+    {
+      "id": "30702870-279d-4373-a174-89e15df1390a",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=t+\\sin t$,\\quad $y=-1+\\cos t$, $I_t = M_{t-\\pi} + (\\pi,-2)$.",
+        "html": "<p><span class=\"math inline\">\\(x=t+\\sin t\\)</span>,<span\nclass=\"math inline\">\\(y=-1+\\cos t\\)</span>, <span\nclass=\"math inline\">\\(I_t = M_{t-\\pi} + (\\pi,-2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "19eb649e-b82a-469d-96ca-ea8e4950e049",
+      "type": "question",
+      "value": {
+        "latex": "$x = a\\cos^3t$,\\quad $y=a\\sin^3t$.\n    (Astroïde) Construire le courbe $\\mathcal{C}$ et sa développée,\n    puis prouver par le calcul qu'elles sont semblables.",
+        "html": "<p><span class=\"math inline\">\\(x = a\\cos^3t\\)</span>,<span\nclass=\"math inline\">\\(y=a\\sin^3t\\)</span>. (Astroïde) Construire le\ncourbe <span class=\"math inline\">\\(\\mathcal{C}\\)</span> et sa\ndéveloppée, puis prouver par le calcul qu’elles sont semblables.</p>\n"
+      }
+    },
+    {
+      "id": "bddcf306-7855-4cef-bf8d-6931c482a5c4",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=a(\\cos^3t + 3\\cos t\\sin^2t)$,\\quad\n             $y=a(\\sin^3t + 3\\sin t\\cos^2t)$.\n             $x\\pm y = a(\\cos t\\pm \\sin t)^3  \\Rightarrow  $ similitude de centre $O$,\n             rapport $2$, angle $\\frac\\pi4$.",
+        "html": "<p><span class=\"math inline\">\\(x=a(\\cos^3t + 3\\cos t\\sin^2t)\\)</span>,\n<span class=\"math inline\">\\(y=a(\\sin^3t + 3\\sin t\\cos^2t)\\)</span>.\n<span class=\"math inline\">\\(x\\pm y = a(\\cos t\\pm \\sin\nt)^3  \\Rightarrow\\)</span> similitude de centre <span\nclass=\"math inline\">\\(O\\)</span>, rapport <span\nclass=\"math inline\">\\(2\\)</span>, angle <span\nclass=\"math inline\">\\(\\frac\\pi4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b2d5be02-6fd6-4afa-ae30-1e4f368cb690",
+      "type": "question",
+      "value": {
+        "latex": "Hyperbole d'équation $xy=1$.",
+        "html": "<p>Hyperbole d’équation <span class=\"math inline\">\\(xy=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2ceacefe-8f78-47b4-b02b-ecf0b64c5a3c",
+      "type": "reponse",
+      "value": {
+        "latex": "$x_I = \\frac{3x^4+1}{2x^3}$,\\quad $y_I = \\frac{x^4+3}{2x}$.",
+        "html": "<p><span class=\"math inline\">\\(x_I = \\frac{3x^4+1}{2x^3}\\)</span>,<span\nclass=\"math inline\">\\(y_I = \\frac{x^4+3}{2x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e37cd6d9-26c0-4c14-a3f4-7b191556ce17",
+      "type": "question",
+      "value": {
+        "latex": "Ellipse d'équation $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.",
+        "html": "<p>Ellipse d’équation <span class=\"math inline\">\\(\\frac{x^2}{a^2} +\n\\frac{y^2}{b^2} = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5d534dd2-5986-448f-b424-1ae62037fc83",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=\\left(a-\\frac {b^2}a\\right)\\cos^3 t$,\\quad\n             $y=\\left(b-\\frac {a^2}b\\right)\\sin^3 t$.",
+        "html": "<p><span class=\"math inline\">\\(x=\\left(a-\\frac {b^2}a\\right)\\cos^3\nt\\)</span>, <span class=\"math inline\">\\(y=\\left(b-\\frac\n{a^2}b\\right)\\sin^3 t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d2010943-f3ad-482d-a6a9-3972116e061e",
+      "type": "question",
+      "value": {
+        "latex": "$\\rho = e^\\theta$. (Spirale logarithmique)",
+        "html": "<p><span class=\"math inline\">\\(\\rho = e^\\theta\\)</span>. (Spirale\nlogarithmique)</p>\n"
+      }
+    },
+    {
+      "id": "ae624e54-7c15-4226-9b8d-df3ce520556c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\rho = e^{\\theta-\\pi/2}$.",
+        "html": "<p><span class=\"math inline\">\\(\\rho = e^{\\theta-\\pi/2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2e7210fd-ff83-4a76-96d1-9066af85f143",
+      "type": "question",
+      "value": {
+        "latex": "$\\rho = 1+\\cos\\theta$. (Cardioïde)",
+        "html": "<p><span class=\"math inline\">\\(\\rho = 1+\\cos\\theta\\)</span>.\n(Cardioïde)</p>\n"
+      }
+    },
+    {
+      "id": "eb220138-3d77-4516-b4f0-aa7e57e8b5f8",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=\\frac{2+\\cos\\theta-\\cos^2\\theta}3$,\\quad\n             $y=\\frac{\\sin\\theta(1-\\cos\\theta)}3$,\\quad\n             cardioïde homothétique.",
+        "html": "<p><span\nclass=\"math inline\">\\(x=\\frac{2+\\cos\\theta-\\cos^2\\theta}3\\)</span>,\n<span class=\"math inline\">\\(y=\\frac{\\sin\\theta(1-\\cos\\theta)}3\\)</span>,\ncardioïde homothétique.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les coordonnées du centre de courbure au point <span\nclass=\"math inline\">\\(M\\)</span> pour les courbes suivantes :</p>\n"
+}

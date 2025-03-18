@@ -1,0 +1,45 @@
+{
+  "uuid": "ZSRh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6235",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème du point fixe",
+    "sousChapitre": "Théorème du point fixe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:47.987Z"
+  },
+  "contenu": [
+    {
+      "id": "2eaed485-7bcd-463c-92ff-508161a511d6",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "1fcaa1e8-8af4-4143-bead-c4aad55858f3",
+      "type": "question",
+      "value": {
+        "latex": "On considère une matrice $A=(a_{ij})$ à coefficients réels telle que\n$\\sum_{i,j=1}^n  a_{ij}^2 <1$.\nEn utilisant le théorème du point fixe, montrer que quels que soient les réels\n$b_1,b_2,\\cdots b_n$, le système d'équations linéaires\n$$x_i-\\sum_{j=1}^n  a_{ij} x_j = b_i,\\  \\  \\  1\\leq i\\leq n$$\nadmet toujours une solution unique. En déduire $\\det (I-A)\\neq 0$.",
+        "html": "<p>On considère une matrice <span\nclass=\"math inline\">\\(A=(a_{ij})\\)</span> à coefficients réels telle que\n<span class=\"math inline\">\\(\\sum_{i,j=1}^n  a_{ij}^2 &lt;1\\)</span>. En\nutilisant le théorème du point fixe, montrer que quels que soient les\nréels <span class=\"math inline\">\\(b_1,b_2,\\cdots b_n\\)</span>, le\nsystème d’équations linéaires <span\nclass=\"math display\">\\[x_i-\\sum_{j=1}^n  a_{ij} x_j = b_i,\\  \\  \\  1\\leq\ni\\leq n\\]</span> admet toujours une solution unique. En déduire <span\nclass=\"math inline\">\\(\\det (I-A)\\neq 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a09dd447-7178-4c26-8253-d26fdba781cc",
+      "type": "question",
+      "value": {
+        "latex": "Montrer sous les mêmes hypothèses que le système non linéaire\n$$x_i-\\sum_{j=1}^n  \\sin(a_{ij} x_j) = b_i,\\  \\  \\  1\\leq i\\leq n$$\nadmet une unique solution.",
+        "html": "<p>Montrer sous les mêmes hypothèses que le système non linéaire <span\nclass=\"math display\">\\[x_i-\\sum_{j=1}^n  \\sin(a_{ij} x_j) =\nb_i,\\  \\  \\  1\\leq i\\leq n\\]</span> admet une unique solution.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère une matrice <span\nclass=\"math inline\">\\(A=(a_{ij})\\)</span> à coefficients réels telle que\n<span class=\"math inline\"> ..."
+}

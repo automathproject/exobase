@@ -1,0 +1,37 @@
+{
+  "uuid": "hEnR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6942",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Loi, indépendance, loi conditionnelle",
+    "sousChapitre": "Loi, indépendance, loi conditionnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:34.539Z"
+  },
+  "contenu": [
+    {
+      "id": "a9f37447-84b5-4f80-9cce-58e133a9d81e",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A$ et $B$ deux événements indépendants. Montrer que\n$A\\bot B^c$. En déduire que $A^c\\bot B$ et $A^c\\bot B^c$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> deux événements indépendants. Montrer\nque <span class=\"math inline\">\\(A\\bot B^c\\)</span>. En déduire que <span\nclass=\"math inline\">\\(A^c\\bot B\\)</span> et <span\nclass=\"math inline\">\\(A^c\\bot B^c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "45a8bd9a-2d2c-452e-a4b2-c70bc328bde4",
+      "type": "reponse",
+      "value": {
+        "latex": "$A=(A\\cap B)\\cup(A\\cap B^c)$ et cette union est disjointe, donc\n$P(A\\cap B^c)=P(A)-P(A\\cap B)$. Par indépendance, $P(A\\cap B)=P(A)P(B)$\ndonc $P(A\\cap B^c)=P(A)(1-P(B))=P(A)P(B^c)$, autrement dit $A\\bot B^c$.\nOn applique le résultat à $A'=B, B'=A$ et on trouve $A^c\\bot B$.\nOn réapplique le résultat à $A^c$ et $B$ pour trouver $A^c\\bot B^c$.",
+        "html": "<p><span class=\"math inline\">\\(A=(A\\cap B)\\cup(A\\cap B^c)\\)</span> et\ncette union est disjointe, donc <span class=\"math inline\">\\(P(A\\cap\nB^c)=P(A)-P(A\\cap B)\\)</span>. Par indépendance, <span\nclass=\"math inline\">\\(P(A\\cap B)=P(A)P(B)\\)</span> donc <span\nclass=\"math inline\">\\(P(A\\cap B^c)=P(A)(1-P(B))=P(A)P(B^c)\\)</span>,\nautrement dit <span class=\"math inline\">\\(A\\bot B^c\\)</span>. On\napplique le résultat à <span class=\"math inline\">\\(A&#39;=B,\nB&#39;=A\\)</span> et on trouve <span class=\"math inline\">\\(A^c\\bot\nB\\)</span>. On réapplique le résultat à <span\nclass=\"math inline\">\\(A^c\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> pour trouver <span\nclass=\"math inline\">\\(A^c\\bot B^c\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> deux événements indépendants. Montrer\nque <span class=\"math ..."
+}

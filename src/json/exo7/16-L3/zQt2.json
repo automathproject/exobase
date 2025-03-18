@@ -1,0 +1,37 @@
+{
+  "uuid": "zQt2",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2835",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:25.606Z"
+  },
+  "contenu": [
+    {
+      "id": "9f611e9a-076e-4c8b-b21d-19a13c4e125f",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les séries de Laurent de $f(z) = \\frac1{(z-1)(z-2)}$ dans chacune\ndes trois couronnes ouvertes  $0<|z|<1$, $1<|z|<2$,\n$2<|z|<\\infty$, ainsi que les séries de Laurent de $f$ aux\npoints $0$, $1$, $2$, et $3$. Quels sont les résidus en $z=0$, $z=1$,\n$z=2$ et $z=3$?",
+        "html": "<p>Déterminer les séries de Laurent de <span class=\"math inline\">\\(f(z)\n= \\frac1{(z-1)(z-2)}\\)</span> dans chacune des trois couronnes ouvertes\n<span class=\"math inline\">\\(0&lt;|z|&lt;1\\)</span>, <span\nclass=\"math inline\">\\(1&lt;|z|&lt;2\\)</span>, <span\nclass=\"math inline\">\\(2&lt;|z|&lt;\\infty\\)</span>, ainsi que les séries\nde Laurent de <span class=\"math inline\">\\(f\\)</span> aux points <span\nclass=\"math inline\">\\(0\\)</span>, <span\nclass=\"math inline\">\\(1\\)</span>, <span\nclass=\"math inline\">\\(2\\)</span>, et <span\nclass=\"math inline\">\\(3\\)</span>. Quels sont les résidus en <span\nclass=\"math inline\">\\(z=0\\)</span>, <span\nclass=\"math inline\">\\(z=1\\)</span>, <span\nclass=\"math inline\">\\(z=2\\)</span> et <span\nclass=\"math inline\">\\(z=3\\)</span>?</p>\n"
+      }
+    },
+    {
+      "id": "e9c26421-d905-46b1-90d1-48a1d445fd85",
+      "type": "reponse",
+      "value": {
+        "latex": "Observons tout d'abord que :\n$$ f(z) =\\frac{1}{(z-1)(z-2)}= \\frac{1}{z-2} +\\frac{1}{1-z}.$$\nOn a\n$$\\begin{aligned} \\frac{1}{1-z}=\\sum_{n\\geq 0}z^n \\quad &\\text{pour} \\;\\;  |z|<1 \\\\\n\\frac{1}{1-z}=-\\frac{1}{z}\\frac{1}{1-\\frac{1}{z}} =-\\frac{1}{z}\\sum_{n\\geq 0}z^{-n} = -\\sum_{n=-\\infty}^{-1} z^n &\\quad \\text{pour} \\;\\; |z|> 1.\\end{aligned}$$\nDe la m\\^eme mani\\`ere\n$$\\frac{1}{z-2}=-\\sum_{n\\geq 0}\\frac{1}{2^{n+1}}z^n \\quad \\text{si} \\;\\; |z|< 2 \\;\\; \\text{et} \\;\\;\n\\frac{1}{z-2}=\\sum_{n=-\\infty} ^{-1}\\frac{1}{2^{n+1}}z^n \\quad \\text{si} \\;\\; |z|>2.$$\nOn en d\\'eduit les expressions des s\\'eries de Laurent en $0$ dans les trois couronnes centr\\'ees \\`a l'origine.\nEn $z=1$ et $z=2$, $f$ a des p\\^oles simples. D'o\\`u\n$$\\mathrm{Res} (f,1) =\\lim_{z\\to 1} (z-1) f(z) = -1 \\quad  \\text{et} \\quad \\mathrm{Res} (f,2) =\\lim_{z\\to 2} (z-2) f(z) = 1.$$\nD\\'eterminons encore la s\\'erie de Laurent  $f$ en $1$:\n$$f(z) = \\frac{1}{z-1}\\frac{1}{(z-1)-1} =\\frac{1}{z-1} (-1) \\sum _{n\\geq 0} (z-1)^n = -\\sum_{n=-1}^\\infty (z-1)^n$$\npour $|z-1|<1$.",
+        "html": "<p>Observons tout d’abord que : <span class=\"math display\">\\[f(z)\n=\\frac{1}{(z-1)(z-2)}= \\frac{1}{z-2} +\\frac{1}{1-z}.\\]</span> On a <span\nclass=\"math display\">\\[\\begin{aligned} \\frac{1}{1-z}=\\sum_{n\\geq 0}z^n\n\\quad &amp;\\text{pour} \\;\\;  |z|&lt;1 \\\\\n\\frac{1}{1-z}=-\\frac{1}{z}\\frac{1}{1-\\frac{1}{z}}\n=-\\frac{1}{z}\\sum_{n\\geq 0}z^{-n} = -\\sum_{n=-\\infty}^{-1} z^n\n&amp;\\quad \\text{pour} \\;\\; |z|&gt; 1.\\end{aligned}\\]</span> De la même\nmanière <span class=\"math display\">\\[\\frac{1}{z-2}=-\\sum_{n\\geq\n0}\\frac{1}{2^{n+1}}z^n \\quad \\text{si} \\;\\; |z|&lt; 2 \\;\\; \\text{et}\n\\;\\;\n\\frac{1}{z-2}=\\sum_{n=-\\infty} ^{-1}\\frac{1}{2^{n+1}}z^n \\quad \\text{si}\n\\;\\; |z|&gt;2.\\]</span> On en déduit les expressions des séries de\nLaurent en <span class=\"math inline\">\\(0\\)</span> dans les trois\ncouronnes centrées à l’origine. En <span\nclass=\"math inline\">\\(z=1\\)</span> et <span\nclass=\"math inline\">\\(z=2\\)</span>, <span\nclass=\"math inline\">\\(f\\)</span> a des pôles simples. D’où <span\nclass=\"math display\">\\[\\mathrm{Res} (f,1) =\\lim_{z\\to 1} (z-1) f(z) = -1\n\\quad  \\text{et} \\quad \\mathrm{Res} (f,2) =\\lim_{z\\to 2} (z-2) f(z) =\n1.\\]</span> Déterminons encore la série de Laurent <span\nclass=\"math inline\">\\(f\\)</span> en <span\nclass=\"math inline\">\\(1\\)</span>: <span class=\"math display\">\\[f(z) =\n\\frac{1}{z-1}\\frac{1}{(z-1)-1} =\\frac{1}{z-1} (-1) \\sum _{n\\geq 0}\n(z-1)^n = -\\sum_{n=-1}^\\infty (z-1)^n\\]</span> pour <span\nclass=\"math inline\">\\(|z-1|&lt;1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les séries de Laurent de <span class=\"math inline\">\\(f(z)\n= \\frac1{(z-1)(z-2)}\\)</span> dans chacune des trois couronnes ouvertes\n<span  ..."
+}

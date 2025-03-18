@@ -1,0 +1,37 @@
+{
+  "uuid": "FUh4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7723",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe fini",
+    "sousChapitre": "Groupe fini",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:46.776Z"
+  },
+  "contenu": [
+    {
+      "id": "88300b34-1bb4-4e7c-b92b-d96b9caec9c2",
+      "type": "description",
+      "value": {
+        "latex": "Combien le groupe $\\mathcal{S}_5$ contient-il de $5$-Sylow ?",
+        "html": "<p>Combien le groupe <span class=\"math inline\">\\(\\mathcal{S}_5\\)</span>\ncontient-il de <span class=\"math inline\">\\(5\\)</span>-Sylow ?</p>\n"
+      }
+    },
+    {
+      "id": "475978a3-6d00-4b21-af9e-2e2a1ef68fff",
+      "type": "reponse",
+      "value": {
+        "latex": "Le théorème de Sylow donne que ce nombre $N$ est congru à 1 modulo $5$ et divise $24$. C'est donc $1$ ou $6$.\r\nComme $(12)(12345)(12)=(21345)$ n'est pas dans le $5$-Sylow (d'ordre $5$) $<(12345)>$ il y a un $5$-Sylow non distingué.\r\n Ainsi, $N=6$.",
+        "html": "<p>Le théorème de Sylow donne que ce nombre <span\nclass=\"math inline\">\\(N\\)</span> est congru à 1 modulo <span\nclass=\"math inline\">\\(5\\)</span> et divise <span\nclass=\"math inline\">\\(24\\)</span>. C’est donc <span\nclass=\"math inline\">\\(1\\)</span> ou <span\nclass=\"math inline\">\\(6\\)</span>. Comme <span\nclass=\"math inline\">\\((12)(12345)(12)=(21345)\\)</span> n’est pas dans le\n<span class=\"math inline\">\\(5\\)</span>-Sylow (d’ordre <span\nclass=\"math inline\">\\(5\\)</span>) <span\nclass=\"math inline\">\\(&lt;(12345)&gt;\\)</span> il y a un <span\nclass=\"math inline\">\\(5\\)</span>-Sylow non distingué. Ainsi, <span\nclass=\"math inline\">\\(N=6\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Combien le groupe <span class=\"math inline\">\\(\\mathcal{S}_5\\)</span>\ncontient-il de <span class=\"math inline\">\\(5\\)</span>-Sylow ?</p>\n"
+}

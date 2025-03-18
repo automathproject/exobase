@@ -1,0 +1,61 @@
+{
+  "uuid": "ydCE",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7390",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:17.777Z"
+  },
+  "contenu": [
+    {
+      "id": "97b4635e-f1cf-4e64-b86a-b40b8b5d1450",
+      "type": "description",
+      "value": {
+        "latex": "On admet $281$ est un nombre premier.",
+        "html": "<p>On admet <span class=\"math inline\">\\(281\\)</span> est un nombre\npremier.</p>\n"
+      }
+    },
+    {
+      "id": "79b6a431-5884-4d21-aeb6-30a502e61ee9",
+      "type": "question",
+      "value": {
+        "latex": "Peut-on écrire $281$ comme somme de deux carrés ? Si oui, faîtes le.",
+        "html": "<p>Peut-on écrire <span class=\"math inline\">\\(281\\)</span> comme somme\nde deux carrés ? Si oui, faîtes le.</p>\n"
+      }
+    },
+    {
+      "id": "57a946f9-5ed9-4d96-bed2-dde0cccd4a2e",
+      "type": "question",
+      "value": {
+        "latex": "Factoriser $280$. On choisit $x=3$. On admet que $3^{35}=60[281]$. Déterminer une racine $c$ de $-1$ modulo $281$.",
+        "html": "<p>Factoriser <span class=\"math inline\">\\(280\\)</span>. On choisit <span\nclass=\"math inline\">\\(x=3\\)</span>. On admet que <span\nclass=\"math inline\">\\(3^{35}=60[281]\\)</span>. Déterminer une racine\n<span class=\"math inline\">\\(c\\)</span> de <span\nclass=\"math inline\">\\(-1\\)</span> modulo <span\nclass=\"math inline\">\\(281\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b84f013e-d656-40f7-bc01-3935ee6259aa",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le $\\pgcd(281, c+i)$ dans l'anneau $\\Z[i]$ des entiers de Gauss.",
+        "html": "<p>Calculer le <span class=\"math inline\">\\(\\pgcd(281, c+i)\\)</span> dans\nl’anneau <span class=\"math inline\">\\(\\Z[i]\\)</span> des entiers de\nGauss.</p>\n"
+      }
+    },
+    {
+      "id": "2251031f-767b-4b50-96cf-440605d60cbb",
+      "type": "reponse",
+      "value": {
+        "latex": "$60^2=-53[281]$.\r\n$53^2=-1[281]$.\r\nDonc, $c=53$ est une racine de $-1$ modulo $281$.\n$281=5\\times(53+i)+(16-5i)$.\r\n$53-i=(3+i)(16-5i)$.\r\nDonc, $\\pgcd(281, c+i)=16-5i$.\r\nEn calculant $N(16-5i)$ on trouve $$16^2+5^2=281.$$",
+        "html": "<p><span class=\"math inline\">\\(60^2=-53[281]\\)</span>. <span\nclass=\"math inline\">\\(53^2=-1[281]\\)</span>. Donc, <span\nclass=\"math inline\">\\(c=53\\)</span> est une racine de <span\nclass=\"math inline\">\\(-1\\)</span> modulo <span\nclass=\"math inline\">\\(281\\)</span>. <span\nclass=\"math inline\">\\(281=5\\times(53+i)+(16-5i)\\)</span>. <span\nclass=\"math inline\">\\(53-i=(3+i)(16-5i)\\)</span>. Donc, <span\nclass=\"math inline\">\\(\\pgcd(281, c+i)=16-5i\\)</span>. En calculant <span\nclass=\"math inline\">\\(N(16-5i)\\)</span> on trouve <span\nclass=\"math display\">\\[16^2+5^2=281.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On admet <span class=\"math inline\">\\(281\\)</span> est un nombre\npremier.</p>\n"
+}

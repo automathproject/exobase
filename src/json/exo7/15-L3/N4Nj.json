@@ -1,0 +1,69 @@
+{
+  "uuid": "N4Nj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1874",
+    "auteur": "maillot",
+    "createdAt": "2001-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace vectoriel normé",
+    "sousChapitre": "Espace vectoriel normé",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:38.564Z"
+  },
+  "contenu": [
+    {
+      "id": "aee72e51-924b-48ec-aaa1-f66250ec9d0e",
+      "type": "description",
+      "value": {
+        "latex": "Soient $(E,\\|\\cdot\\|_E)$ et $(F,\\|\\cdot\\|_F)$ deux espaces vectoriels\nnormés. Soit $L$ une application linéaire de $E$ dans $F$.",
+        "html": "<p>Soient <span class=\"math inline\">\\((E,\\|\\cdot\\|_E)\\)</span> et <span\nclass=\"math inline\">\\((F,\\|\\cdot\\|_F)\\)</span> deux espaces vectoriels\nnormés. Soit <span class=\"math inline\">\\(L\\)</span> une application\nlinéaire de <span class=\"math inline\">\\(E\\)</span> dans <span\nclass=\"math inline\">\\(F\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4e9e6068-23d0-4ab5-a9f6-059c5322d445",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $L$ est continue en $0$ si et seulement si elle est\ncontinue en tout point de $E$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(L\\)</span> est continue en\n<span class=\"math inline\">\\(0\\)</span> si et seulement si elle est\ncontinue en tout point de <span class=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "de5e1dac-d62c-47ce-8e97-2f1715b3e111",
+      "type": "question",
+      "value": {
+        "latex": "On suppose qu'il existe une constante $K>0$ telle que\n$$\\|L(x)\\|_F\\le K\\|x\\|_E \\qquad \\forall x\\in E.$$\nMontrer que $L$ est continue.",
+        "html": "<p>On suppose qu’il existe une constante <span\nclass=\"math inline\">\\(K&gt;0\\)</span> telle que <span\nclass=\"math display\">\\[\\|L(x)\\|_F\\le K\\|x\\|_E \\qquad \\forall x\\in\nE.\\]</span> Montrer que <span class=\"math inline\">\\(L\\)</span> est\ncontinue.</p>\n"
+      }
+    },
+    {
+      "id": "e97db8f2-adbb-4704-9a6f-437fcdac28f5",
+      "type": "question",
+      "value": {
+        "latex": "Dans la suite, on suppose que $L$ est continue et on pose\n$$K=\\sup_{\\|x\\|_E=1} \\|L(x)\\|_F.$$\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "4a887eb6-ac14-474c-98aa-d58b8f81f9cc",
+      "type": "question",
+      "value": {
+        "latex": "Supposons que $K=+\\infty$. Montrer qu'alors il existe une\nsuite $(x_n)$ dans $E$ telle que $\\|x_n\\|=1$ pour tout $n$ et telle\nque $\\|L(x_n)\\|_F$ tend vers $+\\infty$. En déduire qu'il existe une\nsuite $y_n$ tendant vers $0$ et telle que $\\|L(y_n)\\|_F=1$.",
+        "html": "<p>Supposons que <span class=\"math inline\">\\(K=+\\infty\\)</span>. Montrer\nqu’alors il existe une suite <span class=\"math inline\">\\((x_n)\\)</span>\ndans <span class=\"math inline\">\\(E\\)</span> telle que <span\nclass=\"math inline\">\\(\\|x_n\\|=1\\)</span> pour tout <span\nclass=\"math inline\">\\(n\\)</span> et telle que <span\nclass=\"math inline\">\\(\\|L(x_n)\\|_F\\)</span> tend vers <span\nclass=\"math inline\">\\(+\\infty\\)</span>. En déduire qu’il existe une\nsuite <span class=\"math inline\">\\(y_n\\)</span> tendant vers <span\nclass=\"math inline\">\\(0\\)</span> et telle que <span\nclass=\"math inline\">\\(\\|L(y_n)\\|_F=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "da2693d4-98e0-4496-92fe-d7020bb723a7",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que $K\\in \\R_+$ et que pour tout $x\\in E$ on a\n$$\\|L(x)\\|_F\\le K\\|x\\|_E.$$",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(K\\in \\R_+\\)</span> et que\npour tout <span class=\"math inline\">\\(x\\in E\\)</span> on a <span\nclass=\"math display\">\\[\\|L(x)\\|_F\\le K\\|x\\|_E.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\((E,\\|\\cdot\\|_E)\\)</span> et <span\nclass=\"math inline\">\\((F,\\|\\cdot\\|_F)\\)</span> deux espaces vectoriels\nnormés. ..."
+}

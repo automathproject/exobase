@@ -1,0 +1,69 @@
+{
+  "uuid": "yg4B",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3999",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dérivabilité des fonctions réelles",
+    "sousChapitre": "Fonctions convexes",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:19.477Z"
+  },
+  "contenu": [
+    {
+      "id": "a3cc4d95-1db5-4dfb-8cbd-1dd488bf9b4a",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {\\R} \\to {\\R}$ continue. On suppose que :\n$\\forall\\ x \\in \\R,\\\nD^2f(x) = \\lim_{h \\to 0} \\frac {f(x+h)+f(x-h)-2f(x)}{h^2}$\nexiste.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {\\R} \\to {\\R}\\)</span> continue.\nOn suppose que : <span class=\"math inline\">\\(\\forall\\ x \\in \\R,\\\nD^2f(x) = \\lim_{h \\to 0} \\frac {f(x+h)+f(x-h)-2f(x)}{h^2}\\)</span>\nexiste.</p>\n"
+      }
+    },
+    {
+      "id": "d3c0f4a9-73f8-4d93-82bc-a6fbfc1b9ffb",
+      "type": "question",
+      "value": {
+        "latex": "Si $f$ est de classe $\\mathcal{C}^2$, calculer $D^2f(x)$.",
+        "html": "<p>Si <span class=\"math inline\">\\(f\\)</span> est de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^2\\)</span>, calculer <span\nclass=\"math inline\">\\(D^2f(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ee05b2bf-ee88-4205-9b2d-aef6c03904e7",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ quelconque et $a < b < c$ tels que\n      $f(a) = f(b) = f(c)$.\n\n      Montrer qu'il existe $x \\in {]a,c[}$ tq $D^2f(x) \\le 0$.\n      \n\n\nOn suppose à présent que : $\\forall\\ x \\in \\R, D^2f(x) \\ge 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> quelconque et <span\nclass=\"math inline\">\\(a &lt; b &lt; c\\)</span> tels que <span\nclass=\"math inline\">\\(f(a) = f(b) = f(c)\\)</span>.</p>\n<p>Montrer qu’il existe <span class=\"math inline\">\\(x \\in\n{]a,c[}\\)</span> tq <span class=\"math inline\">\\(D^2f(x) \\le\n0\\)</span>.</p>\n<p>On suppose à présent que : <span class=\"math inline\">\\(\\forall\\ x \\in\n\\R, D^2f(x) \\ge 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d74f14dd-1a02-4327-b8e0-80689f96f816",
+      "type": "question",
+      "value": {
+        "latex": "Soient $a < b < c$ et\n      $P$ le polynôme de degré inférieur ou égal à 2 coïncidant avec $f$\n      aux points $a,b,c$. Montrer que $P'' \\ge 0$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(a &lt; b &lt; c\\)</span> et <span\nclass=\"math inline\">\\(P\\)</span> le polynôme de degré inférieur ou égal\nà 2 coïncidant avec <span class=\"math inline\">\\(f\\)</span> aux points\n<span class=\"math inline\">\\(a,b,c\\)</span>. Montrer que <span\nclass=\"math inline\">\\(P&#39;&#39; \\ge 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5c2a134e-fce6-4c35-b40d-982dfbfb77ab",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $P''$ en fonction de $a,b,c$ et $f(a),f(b),f(c)$.\n      En déduire que $f$ est convexe.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(P&#39;&#39;\\)</span> en fonction\nde <span class=\"math inline\">\\(a,b,c\\)</span> et <span\nclass=\"math inline\">\\(f(a),f(b),f(c)\\)</span>. En déduire que <span\nclass=\"math inline\">\\(f\\)</span> est convexe.</p>\n"
+      }
+    },
+    {
+      "id": "aa001f39-f043-49c0-aac6-01bb5b1b7d9e",
+      "type": "reponse",
+      "value": {
+        "latex": "Prendre $x$ tel que $f(x)$ soit maximal.",
+        "html": "<p>Prendre <span class=\"math inline\">\\(x\\)</span> tel que <span\nclass=\"math inline\">\\(f(x)\\)</span> soit maximal.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {\\R} \\to {\\R}\\)</span> continue.\nOn suppose que : <span class=\"math inline\"> ..."
+}

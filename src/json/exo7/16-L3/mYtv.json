@@ -1,0 +1,37 @@
+{
+  "uuid": "mYtv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2833",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:08.616Z"
+  },
+  "contenu": [
+    {
+      "id": "5d78fb53-5ec9-491d-8dc4-42639cbd19f0",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer la série de Laurent à l'origine de\nla fonction analytique $\\exp(\\frac 1z)$, et son résidu à\nl'origine. En $z_0\\neq0$ quel est le résidu de cette fonction?",
+        "html": "<p>Déterminer la série de Laurent à l’origine de la fonction analytique\n<span class=\"math inline\">\\(\\exp(\\frac 1z)\\)</span>, et son résidu à\nl’origine. En <span class=\"math inline\">\\(z_0\\neq0\\)</span> quel est le\nrésidu de cette fonction?</p>\n"
+      }
+    },
+    {
+      "id": "8db8fef2-b3ca-4bf3-8a02-31fc1a8cea0a",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $e^w =\\sum_{n\\geq 0} \\frac{w^n}{n!}$,\n$$\\exp (\\frac{1}{z}) =\\sum_{n\\geq 0} \\frac{1}{n!}\\frac{1}{z^n} = \\sum_{n=-\\infty}^0 \\frac{1}{(-n)!} z^n.$$\nPar cons\\'equent, $\\mathrm{Res}(f,0) = 1$. Sinon, si $z_0\\neq 0$, alors $\\mathrm{Res}(f,z_0) = 0$ par holomorphie de $f$ dans  $\\C\\setminus \\{0\\}$.",
+        "html": "<p>Comme <span class=\"math inline\">\\(e^w =\\sum_{n\\geq 0}\n\\frac{w^n}{n!}\\)</span>, <span class=\"math display\">\\[\\exp (\\frac{1}{z})\n=\\sum_{n\\geq 0} \\frac{1}{n!}\\frac{1}{z^n} = \\sum_{n=-\\infty}^0\n\\frac{1}{(-n)!} z^n.\\]</span> Par conséquent, <span\nclass=\"math inline\">\\(\\mathrm{Res}(f,0) = 1\\)</span>. Sinon, si <span\nclass=\"math inline\">\\(z_0\\neq 0\\)</span>, alors <span\nclass=\"math inline\">\\(\\mathrm{Res}(f,z_0) = 0\\)</span> par holomorphie\nde <span class=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\(\\C\\setminus \\{0\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer la série de Laurent à l’origine de la fonction analytique\n<span class=\"math inline\">\\(\\exp(\\frac 1z)\\)</span>, et son résidu à\nl’origine ..."
+}

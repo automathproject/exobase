@@ -1,0 +1,93 @@
+{
+  "uuid": "yohs",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5955",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace L^p",
+    "sousChapitre": "Espace Lp",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:17.675Z"
+  },
+  "contenu": [
+    {
+      "id": "7ee4b7a2-1773-4c46-88c7-5ebd1937d1d2",
+      "type": "description",
+      "value": {
+        "latex": "\\ \\\\\n\n\\textbf{Th\\'eor\\`eme 1.}(Th\\'eor\\`eme de Riesz)\nPour tout $1\\leq p\\leq +\\infty$, l'espace $L^{p}(\\mu)$ est\ncomplet.\n\n\\bigskip\n\n\\textbf{Th\\'eor\\`eme 2.}\nSoit $p$  tel que $1\\leq p \\leq +\\infty$ et soit\n$\\{f_{n}\\}_{n\\in\\mathbb{N}}$ une suite de Cauchy dans $L^{p}(\\mu)$\nconvergeant vers une fonction $f\\in L^{p}(\\mu)$. Alors il existe\nune sous-suite de $\\{f_{n}\\}_{n\\in\\mathbb{N}}$ qui converge\nponctuellement presque-partout vers $f$.\n\n\\bigskip\n\n\\emph{Le but de cet exercice est de d\\'emontrer les\nth\\'eor\\`emes~1 et 2.}",
+        "html": "<p> <br />\n<strong>Théorème 1.</strong>(Théorème de Riesz) Pour tout <span\nclass=\"math inline\">\\(1\\leq p\\leq +\\infty\\)</span>, l’espace <span\nclass=\"math inline\">\\(L^{p}(\\mu)\\)</span> est complet.</p>\n<p><strong>Théorème 2.</strong> Soit <span\nclass=\"math inline\">\\(p\\)</span> tel que <span\nclass=\"math inline\">\\(1\\leq p \\leq +\\infty\\)</span> et soit <span\nclass=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span> une suite de\nCauchy dans <span class=\"math inline\">\\(L^{p}(\\mu)\\)</span> convergeant\nvers une fonction <span class=\"math inline\">\\(f\\in L^{p}(\\mu)\\)</span>.\nAlors il existe une sous-suite de <span\nclass=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span> qui converge\nponctuellement presque-partout vers <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n<p><em>Le but de cet exercice est de démontrer les théorèmes 1 et\n2.</em></p>\n"
+      }
+    },
+    {
+      "id": "211ac9d9-ef8b-44f2-9162-206ea4732cae",
+      "type": "question",
+      "value": {
+        "latex": "\\emph{Cas de $L^{\\infty}(\\mu)$.}\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "4973ee9e-b3af-4cfd-8ce2-b7870ebd351e",
+      "type": "reponse",
+      "value": {
+        "latex": "\\emph{Cas de $L^{\\infty}(\\mu)$.}\n\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "90fdd00d-7c29-494c-9751-6c9cb23ffce6",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\{f_{n}\\}_{n\\in\\mathbb{N}}$ une suite de Cauchy\nde $L^{\\infty}(\\mu)$. Pour $k, m, n\\geq 1$,  consid\\'erons les\nensembles\n\\begin{eqnarray*}\nA_{k} := \\{ x\\in\\Omega, |f_{k}(x)| > \\|f_{k}\\|_{\\infty}\\}~; &\nB_{m,n} := \\{ x\\in\\Omega, |f_{m}(x) - f_{n}(x)| > \\|f_{m} -\nf_n\\|_{\\infty} \\}.\n\\end{eqnarray*}\nMontrer que $E := \\bigcup_{k} A_{k}  \\bigcup_{n,m} B_{m,n}$ est de\nmesure nulle.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nune suite de Cauchy de <span\nclass=\"math inline\">\\(L^{\\infty}(\\mu)\\)</span>. Pour <span\nclass=\"math inline\">\\(k, m, n\\geq 1\\)</span>, considérons les ensembles\n<span class=\"math display\">\\[\\begin{aligned}\nA_{k} := \\{ x\\in\\Omega, |f_{k}(x)| &gt; \\|f_{k}\\|_{\\infty}\\}~; &amp;\nB_{m,n} := \\{ x\\in\\Omega, |f_{m}(x) - f_{n}(x)| &gt; \\|f_{m} -\nf_n\\|_{\\infty} \\}.\n\\end{aligned}\\]</span> Montrer que <span class=\"math inline\">\\(E :=\n\\bigcup_{k} A_{k}  \\bigcup_{n,m} B_{m,n}\\)</span> est de mesure\nnulle.</p>\n"
+      }
+    },
+    {
+      "id": "6ec5a219-b7ba-466e-835b-af2345784499",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\{f_{n}\\}_{n\\in\\mathbb{N}}$ une suite de Cauchy\nde $L^{\\infty}(\\mu)$. Pour $k, m, n\\geq 1$,  soient les ensembles\n\\begin{eqnarray*}\nA_{k} := \\{ x\\in\\Omega, |f_{k}(x)| > \\|f_{k}\\|_{\\infty}\\}~; &\nB_{m,n} := \\{ x\\in\\Omega, |f_{m}(x) - f_{n}(x)| > \\|f_{m} -\nf_n\\|_{\\infty} \\},\n\\end{eqnarray*}\net $E := \\bigcup_{k} A_{k}  \\bigcup_{n,m} B_{m,n}$. Par\nd\\'efinition de la norme infinie, les ensembles $A_k$ et $B_{n,m}$\nsont de mesure nulle. Par $\\sigma$-sous-additivit\\'e de $\\mu$, on\na\n$$\n\\mu(E) \\leq \\sum_{k} \\mu(A_k) + \\sum_{n,m}\\mu(B_{n,m}) = 0.\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nune suite de Cauchy de <span\nclass=\"math inline\">\\(L^{\\infty}(\\mu)\\)</span>. Pour <span\nclass=\"math inline\">\\(k, m, n\\geq 1\\)</span>, soient les ensembles <span\nclass=\"math display\">\\[\\begin{aligned}\nA_{k} := \\{ x\\in\\Omega, |f_{k}(x)| &gt; \\|f_{k}\\|_{\\infty}\\}~; &amp;\nB_{m,n} := \\{ x\\in\\Omega, |f_{m}(x) - f_{n}(x)| &gt; \\|f_{m} -\nf_n\\|_{\\infty} \\},\n\\end{aligned}\\]</span> et <span class=\"math inline\">\\(E := \\bigcup_{k}\nA_{k}  \\bigcup_{n,m} B_{m,n}\\)</span>. Par définition de la norme\ninfinie, les ensembles <span class=\"math inline\">\\(A_k\\)</span> et <span\nclass=\"math inline\">\\(B_{n,m}\\)</span> sont de mesure nulle. Par <span\nclass=\"math inline\">\\(\\sigma\\)</span>-sous-additivité de <span\nclass=\"math inline\">\\(\\mu\\)</span>, on a <span\nclass=\"math display\">\\[\\mu(E) \\leq \\sum_{k} \\mu(A_k) +\n\\sum_{n,m}\\mu(B_{n,m}) = 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9f441ee7-ff67-4982-8af1-e356c8384786",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que sur le compl\\'ementaire de\n$E$, la suite $\\{f_n\\}_{n\\in\\mathbb{N}}$ converge uniform\\'ement\nvers une fonction $f$.",
+        "html": "<p>Montrer que sur le complémentaire de <span\nclass=\"math inline\">\\(E\\)</span>, la suite <span\nclass=\"math inline\">\\(\\{f_n\\}_{n\\in\\mathbb{N}}\\)</span> converge\nuniformément vers une fonction <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4f79942d-da9e-4c24-836d-782ba67e8f4a",
+      "type": "reponse",
+      "value": {
+        "latex": "Sur $\\Omega\\setminus E$, on a~:\n$$\n\\sup_{x\\in\\Omega\\setminus E}|f_{n} - f_{m}| \\leq \\| f_{n} -\nf_{m}\\|_{\\infty},\n$$\ni.e. $\\{f_{n}\\}_{n\\in\\mathbb{N}}$ est une suite de Cauchy uniforme\nsur $\\Omega\\setminus E$. En particulier, pour tout\n$x\\in\\Omega\\setminus E$, la suite $\\{f_{n}(x)\\}_{n\\in\\mathbb{N}}$\nest une suite de Cauchy r\\'eelle, donc est convergeante  car\n$\\mathbb{R}$ est complet. Notons $f$ la limite ponctuelle de\n$f_{n}$ sur $\\Omega\\setminus E$. Montrons que la suite\n$\\{f_n\\}_{n\\in\\mathbb{N}}$ converge uniform\\'ement vers $f$ sur le\ncompl\\'ementaire de $E$. On a\n$$\n|f_{n}(x) - f(x)| = \\lim_{m\\rightarrow +\\infty}|f_{n}(x) -\nf_{m}(x)|\\leq\\lim_{m\\rightarrow +\\infty}\\|f_{n} -\nf_{m}\\|_{\\infty}.\n$$\nComme $\\{f_{n}\\}_{n\\in\\mathbb{N}}$ est de Cauchy dans\n$L^{\\infty}(\\mu)$, pour tout $\\varepsilon>0$, il existe un rang\n$N_{\\varepsilon}$ tel que pour $n,m > N_{\\varepsilon}$, $\\|f_{n} -\nf_{m}\\|_{\\infty} < \\varepsilon$.  Alors pour $n> N_{\\varepsilon}$,\n$$\n\\sup_{x\\in\\Omega\\setminus E}|f_{n}(x) - f(x)| \\leq \\varepsilon.\n$$\nIl est d\\'ecoule que  $\\{f_n\\}_{n\\in\\mathbb{N}}$ converge\nuniform\\'ement vers $f$ sur $\\Omega\\setminus E$.",
+        "html": "<p>Sur <span class=\"math inline\">\\(\\Omega\\setminus E\\)</span>, on a :\n<span class=\"math display\">\\[\\sup_{x\\in\\Omega\\setminus E}|f_{n} - f_{m}|\n\\leq \\| f_{n} -\nf_{m}\\|_{\\infty},\\]</span> i.e. <span\nclass=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span> est une suite\nde Cauchy uniforme sur <span class=\"math inline\">\\(\\Omega\\setminus\nE\\)</span>. En particulier, pour tout <span\nclass=\"math inline\">\\(x\\in\\Omega\\setminus E\\)</span>, la suite <span\nclass=\"math inline\">\\(\\{f_{n}(x)\\}_{n\\in\\mathbb{N}}\\)</span> est une\nsuite de Cauchy réelle, donc est convergeante car <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span> est complet. Notons <span\nclass=\"math inline\">\\(f\\)</span> la limite ponctuelle de <span\nclass=\"math inline\">\\(f_{n}\\)</span> sur <span\nclass=\"math inline\">\\(\\Omega\\setminus E\\)</span>. Montrons que la suite\n<span class=\"math inline\">\\(\\{f_n\\}_{n\\in\\mathbb{N}}\\)</span> converge\nuniformément vers <span class=\"math inline\">\\(f\\)</span> sur le\ncomplémentaire de <span class=\"math inline\">\\(E\\)</span>. On a <span\nclass=\"math display\">\\[|f_{n}(x) - f(x)| = \\lim_{m\\rightarrow\n+\\infty}|f_{n}(x) -\nf_{m}(x)|\\leq\\lim_{m\\rightarrow +\\infty}\\|f_{n} -\nf_{m}\\|_{\\infty}.\\]</span> Comme <span\nclass=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span> est de Cauchy\ndans <span class=\"math inline\">\\(L^{\\infty}(\\mu)\\)</span>, pour tout\n<span class=\"math inline\">\\(\\varepsilon&gt;0\\)</span>, il existe un rang\n<span class=\"math inline\">\\(N_{\\varepsilon}\\)</span> tel que pour <span\nclass=\"math inline\">\\(n,m &gt; N_{\\varepsilon}\\)</span>, <span\nclass=\"math inline\">\\(\\|f_{n} -\nf_{m}\\|_{\\infty} &lt; \\varepsilon\\)</span>. Alors pour <span\nclass=\"math inline\">\\(n&gt; N_{\\varepsilon}\\)</span>, <span\nclass=\"math display\">\\[\\sup_{x\\in\\Omega\\setminus E}|f_{n}(x) - f(x)|\n\\leq \\varepsilon.\\]</span> Il est découle que <span\nclass=\"math inline\">\\(\\{f_n\\}_{n\\in\\mathbb{N}}\\)</span> converge\nuniformément vers <span class=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(\\Omega\\setminus E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2c018659-b8ba-437d-b202-2e8947f6f751",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que\n$L^{\\infty}(\\mu)$ est complet.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(L^{\\infty}(\\mu)\\)</span>\nest complet.</p>\n"
+      }
+    },
+    {
+      "id": "4b94ed45-9912-47a6-ac59-a13820dd66f4",
+      "type": "reponse",
+      "value": {
+        "latex": "\\'Etendons la fonction $f$ \\`a $\\Omega$ en posant $f =\n0$ sur $E$. Il reste \\`a montrer que la fonction $f$ appartient\n\\`a $L^{\\infty}(\\mu)$. Pour $n> N_{\\varepsilon}$, et\n$x\\in\\Omega\\setminus E$, on a\n$$\n|f(x)| < |f_n(x)| + \\varepsilon \\leq \\|f_n(x)\\|_{\\infty}  +\n\\varepsilon\n$$\nOn en d\\'eduit que $\\|f\\|_{\\infty} \\leq \\|f_n(x)\\|_{\\infty}  +\n\\varepsilon < +\\infty$. Ainsi $L^{\\infty}(\\mu)$ est complet.",
+        "html": "<p>Étendons la fonction <span class=\"math inline\">\\(f\\)</span> à <span\nclass=\"math inline\">\\(\\Omega\\)</span> en posant <span\nclass=\"math inline\">\\(f =\n0\\)</span> sur <span class=\"math inline\">\\(E\\)</span>. Il reste à\nmontrer que la fonction <span class=\"math inline\">\\(f\\)</span>\nappartient à <span class=\"math inline\">\\(L^{\\infty}(\\mu)\\)</span>. Pour\n<span class=\"math inline\">\\(n&gt; N_{\\varepsilon}\\)</span>, et <span\nclass=\"math inline\">\\(x\\in\\Omega\\setminus E\\)</span>, on a <span\nclass=\"math display\">\\[|f(x)| &lt; |f_n(x)| + \\varepsilon \\leq\n\\|f_n(x)\\|_{\\infty}  +\n\\varepsilon\\]</span> On en déduit que <span\nclass=\"math inline\">\\(\\|f\\|_{\\infty} \\leq \\|f_n(x)\\|_{\\infty}  +\n\\varepsilon &lt; +\\infty\\)</span>. Ainsi <span\nclass=\"math inline\">\\(L^{\\infty}(\\mu)\\)</span> est complet.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p> <br />\n<strong>Théorème 1.</strong>(Théorème de Riesz) Pour tout <span\nclass=\"math inline\">\\(1\\leq p\\leq +\\infty\\)</span>, l’espace <span\nclass=\"m ..."
+}

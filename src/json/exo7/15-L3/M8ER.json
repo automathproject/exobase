@@ -1,0 +1,69 @@
+{
+  "uuid": "M8ER",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6177",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Compacité",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:37.482Z"
+  },
+  "contenu": [
+    {
+      "id": "6626fddf-16cb-448f-a6b8-b1ae399d6347",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ un espace topologique compact et $C(X)$ l'espace des fonctions\nconti\\-nues sur $X$ avec la norme uniforme.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace topologique\ncompact et <span class=\"math inline\">\\(C(X)\\)</span> l’espace des\nfonctions continues sur <span class=\"math inline\">\\(X\\)</span> avec la\nnorme uniforme.</p>\n"
+      }
+    },
+    {
+      "id": "3aceb9a7-fa67-4036-831a-12d9aff742c9",
+      "type": "question",
+      "value": {
+        "latex": "Soit $J$ un idéal propre de $C(X)$ ; montrer que toutes les fonctions de $J$\ns'annulent en un même point de $X$.\n\\emph{Indication :} raisonner par l'absurde, utiliser le fait qu'une fonction continue\n$\\neq0$ en $x$, est $\\neq0$ sur un voisinage de $x$ et recouvrir $X$ avec de\ntels voisinages. \n\n\\medskip\n\nPour $f\\in J$, on note $Z_f=f^{-1}(\\{0\\})$, l'ensemble des zéros de $f$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(J\\)</span> un idéal propre de <span\nclass=\"math inline\">\\(C(X)\\)</span> ; montrer que toutes les fonctions\nde <span class=\"math inline\">\\(J\\)</span> s’annulent en un même point de\n<span class=\"math inline\">\\(X\\)</span>. <em>Indication :</em> raisonner\npar l’absurde, utiliser le fait qu’une fonction continue <span\nclass=\"math inline\">\\(\\neq0\\)</span> en <span\nclass=\"math inline\">\\(x\\)</span>, est <span\nclass=\"math inline\">\\(\\neq0\\)</span> sur un voisinage de <span\nclass=\"math inline\">\\(x\\)</span> et recouvrir <span\nclass=\"math inline\">\\(X\\)</span> avec de tels voisinages.</p>\n<p>Pour <span class=\"math inline\">\\(f\\in J\\)</span>, on note <span\nclass=\"math inline\">\\(Z_f=f^{-1}(\\{0\\})\\)</span>, l’ensemble des zéros\nde <span class=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "93f55d46-f832-4ca8-94e8-eb39fe270a28",
+      "type": "question",
+      "value": {
+        "latex": "Soit $J$ un idéal de $C(X)$ et $Z=\\cap_{f\\in J}Z_f$; $Z$ est fermé.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "6c69ea82-c2ec-457b-8cbf-a274e8a266c1",
+      "type": "question",
+      "value": {
+        "latex": "Soit $K$ un fermé de $X$ disjoint de $Z$. Par un raisonnement\nanalogue à celui du 1., construire $f\\in J$, $f\\geq 0$ et ne s'annulant pas sur\n$K$.\n\nEtudier la limite $F$ de ${nf\\over{1+nf}}$ dans $C(X)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(K\\)</span> un fermé de <span\nclass=\"math inline\">\\(X\\)</span> disjoint de <span\nclass=\"math inline\">\\(Z\\)</span>. Par un raisonnement analogue à celui\ndu 1., construire <span class=\"math inline\">\\(f\\in J\\)</span>, <span\nclass=\"math inline\">\\(f\\geq 0\\)</span> et ne s’annulant pas sur <span\nclass=\"math inline\">\\(K\\)</span>.</p>\n<p>Etudier la limite <span class=\"math inline\">\\(F\\)</span> de <span\nclass=\"math inline\">\\({nf\\over{1+nf}}\\)</span> dans <span\nclass=\"math inline\">\\(C(X)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "28ac8fab-e8b1-4f1b-935a-2d240b80b61b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $g\\in C(X)$ s'annule sur un ouvert contenant $Z$,\nalors $g\\in J$ et $Z\\neq\\emptyset$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(g\\in C(X)\\)</span>\ns’annule sur un ouvert contenant <span class=\"math inline\">\\(Z\\)</span>,\nalors <span class=\"math inline\">\\(g\\in J\\)</span> et <span\nclass=\"math inline\">\\(Z\\neq\\emptyset\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1286f561-7d6c-4d40-bfaf-af95d4b22d28",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g\\in C(X)$ nulle sur $Z$; par un bon choix de $K$, montrer\nque $g\\in \\overline J$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g\\in C(X)\\)</span> nulle sur <span\nclass=\"math inline\">\\(Z\\)</span>; par un bon choix de <span\nclass=\"math inline\">\\(K\\)</span>, montrer que <span\nclass=\"math inline\">\\(g\\in \\overline J\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace topologique\ncompact et <span class=\"math inline\">\\(C(X)\\)</span> l’espace des\nfonctions conti ..."
+}

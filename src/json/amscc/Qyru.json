@@ -1,0 +1,48 @@
+{
+  "uuid": "Qyru",
+  "titre": "Sur-réservation d'un vol",
+  "theme": [
+    "variables aléatoires discrètes",
+    "loi binomiale"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-09-01",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:49.817Z"
+  },
+  "contenu": [
+    {
+      "id": "883dcf78-f68e-4fa3-ac0d-4d8c1dbf6a69",
+      "type": "description",
+      "value": {
+        "latex": "Pour des raisons de rentabilité, le vol Océanic $815$ reliant Sydney à Los Angeles a été sur-réservé. Il y a $98$ places dans l'avion et $100$ billets ont été vendus.",
+        "html": "<p>Pour des raisons de rentabilité, le vol Océanic <span\nclass=\"math inline\">\\(815\\)</span> reliant Sydney à Los Angeles a été\nsur-réservé. Il y a <span class=\"math inline\">\\(98\\)</span> places dans\nl’avion et <span class=\"math inline\">\\(100\\)</span> billets ont été\nvendus.</p>\n"
+      }
+    },
+    {
+      "id": "f3596a87-4c47-446a-9b17-8db38a731027",
+      "type": "question",
+      "value": {
+        "latex": "Sachant que la probabilité qu'un passager se désiste est de $10\\%$, quelle est la probabilité qu'au moins un passager reste bloqué à Sydney ?",
+        "html": "<p>Sachant que la probabilité qu’un passager se désiste est de <span\nclass=\"math inline\">\\(10\\%\\)</span>, quelle est la probabilité qu’au\nmoins un passager reste bloqué à Sydney ?</p>\n"
+      }
+    },
+    {
+      "id": "cd775903-c25c-48a7-8885-097565b8395c",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $Y$ le nombre de passagers à se présenter à l'embarquement: $Y\\sim \\mathcal{B}(100,0.9)$ et on cherche la probabilité qu'il y ait au moins un passager bloqué à Sydney, c'est-à-dire qu'il y ait plus de $99$ personne à se présenter:\n\t$$\\begin{align*}\n\t\\p(Y\\geq 99)&=\\p(Y=99)+\\p(Y=100) \\\\\n\t&=\\binom{100}{99}\\times 0.9^{99} \\times 0.1^{1} + \\binom{100}{100}\\times 0.9^{100} \\times 0.1^{0} \\\\\n\t&\\simeq 0.00032,\n\t\\end{align*}$$\n\tsoit environ $0.03$\\% de chance qu'il y ait au moins un passager bloqué à Sydney.",
+        "html": "<p>Soit <span class=\"math inline\">\\(Y\\)</span> le nombre de passagers à\nse présenter à l’embarquement: <span class=\"math inline\">\\(Y\\sim\n\\mathcal{B}(100,0.9)\\)</span> et on cherche la probabilité qu’il y ait\nau moins un passager bloqué à Sydney, c’est-à-dire qu’il y ait plus de\n<span class=\"math inline\">\\(99\\)</span> personne à se présenter: <span\nclass=\"math display\">\\[\\begin{align*}\n    \\p(Y\\geq 99)&amp;=\\p(Y=99)+\\p(Y=100) \\\\\n    &amp;=\\binom{100}{99}\\times 0.9^{99} \\times 0.1^{1} +\n\\binom{100}{100}\\times 0.9^{100} \\times 0.1^{0} \\\\\n    &amp;\\simeq 0.00032,\n    \\end{align*}\\]</span> soit environ <span\nclass=\"math inline\">\\(0.03\\)</span>% de chance qu’il y ait au moins un\npassager bloqué à Sydney.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour des raisons de rentabilité, le vol Océanic <span\nclass=\"math inline\">\\(815\\)</span> reliant Sydney à Los Angeles a été\nsur-réservé. Il y a <sp ..."
+}

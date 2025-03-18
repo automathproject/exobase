@@ -1,0 +1,53 @@
+{
+  "uuid": "zdvM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6855",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:25.775Z"
+  },
+  "contenu": [
+    {
+      "id": "b83b6ca8-899f-43c3-a5cc-863e4d0da6f8",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\alpha $ un nombre réel, $\\alpha >0$.\n\\subparagraph{I}\nPour tout $z$ dans $\\C$ et tout $t$ dans ${\\Rr}$, on pose\n$$f(z,t)={t^{\\alpha -1}\\over e^t-z}.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha\\)</span> un nombre réel,\n<span class=\"math inline\">\\(\\alpha &gt;0\\)</span>.</p>\n<h5 id=\"i\">I</h5>\n<p>Pour tout <span class=\"math inline\">\\(z\\)</span> dans <span\nclass=\"math inline\">\\(\\C\\)</span> et tout <span\nclass=\"math inline\">\\(t\\)</span> dans <span\nclass=\"math inline\">\\({\\Rr}\\)</span>, on pose <span\nclass=\"math display\">\\[f(z,t)={t^{\\alpha -1}\\over e^t-z}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "7e6b526b-350f-44bd-8511-54351a0186f5",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "ab6731cb-7aa8-4ccf-b1c6-4ea1c8455720",
+      "type": "question",
+      "value": {
+        "latex": "On note $[1,+\\infty\\mathclose[=\\{x\\in{\\Rr}\\vert \\ x\\ge\n1\\}$ et $\\Omega =\\C\\setminus [1,+\\infty\\mathclose[$. Soit $K$ un\ncompact inclus dans $\\Omega $. Démontrer brièvement qu'il existe un\nréel $c$, $c>0$, tel que l'on ait $\\inf_{z\\in K}\\inf_{x\\in\n[1,+\\infty\\mathclose[} \\vert x-z\\vert \\ge c$.",
+        "html": "<p>On note <span\nclass=\"math inline\">\\([1,+\\infty\\mathclose[=\\{x\\in{\\Rr}\\vert \\ x\\ge\n1\\}\\)</span> et <span class=\"math inline\">\\(\\Omega =\\C\\setminus\n[1,+\\infty\\mathclose[\\)</span>. Soit <span\nclass=\"math inline\">\\(K\\)</span> un compact inclus dans <span\nclass=\"math inline\">\\(\\Omega\\)</span>. Démontrer brièvement qu’il existe\nun réel <span class=\"math inline\">\\(c\\)</span>, <span\nclass=\"math inline\">\\(c&gt;0\\)</span>, tel que l’on ait <span\nclass=\"math inline\">\\(\\inf_{z\\in K}\\inf_{x\\in\n[1,+\\infty\\mathclose[} \\vert x-z\\vert \\ge c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9ad43f5f-68b1-4992-8e6a-e29582f391e6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la fonction $F$ définie par\n$$F(z)=\\int_0^{+\\infty}f(z,t)\\ dt$$\n est holomorphe dans $\\Omega $.",
+        "html": "<p>Montrer que la fonction <span class=\"math inline\">\\(F\\)</span>\ndéfinie par <span class=\"math display\">\\[F(z)=\\int_0^{+\\infty}f(z,t)\\\ndt\\]</span> est holomorphe dans <span\nclass=\"math inline\">\\(\\Omega\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\alpha\\)</span> un nombre réel,\n<span class=\"math inline\">\\(\\alpha &gt;0\\)</span>.</p>\n<h5 id=\"i\">I</h5>\n<p>Pour t ..."
+}

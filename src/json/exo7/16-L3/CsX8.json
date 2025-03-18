@@ -1,0 +1,61 @@
+{
+  "uuid": "CsX8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6679",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:23.899Z"
+  },
+  "contenu": [
+    {
+      "id": "9a3fb0fd-4f8f-40fc-b729-e55e8ab380d8",
+      "type": "description",
+      "value": {
+        "latex": "Pour $n\\ge 1$ et $0\\le k\\le n$, on désigne par $C_n^k$ le\ncoefficient binomial. Pour $r>0$, soit $c_r\\colon t\\mapsto re^{it}$, $t\\in\n[0,2\\pi]$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n\\ge 1\\)</span> et <span\nclass=\"math inline\">\\(0\\le k\\le n\\)</span>, on désigne par <span\nclass=\"math inline\">\\(C_n^k\\)</span> le coefficient binomial. Pour <span\nclass=\"math inline\">\\(r&gt;0\\)</span>, soit <span\nclass=\"math inline\">\\(c_r\\colon t\\mapsto re^{it}\\)</span>, <span\nclass=\"math inline\">\\(t\\in\n[0,2\\pi]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f6c4882a-bff1-4d9e-96d8-0849cf57da29",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \n$$C_n^k={1\\over 2i\\pi}\\int_{c_r}(1+z)^n{dz\\over z^{k+1}}.$$\nEn déduire que $C_{2n}^n\\le 4^n$.",
+        "html": "<p>Montrer que <span class=\"math display\">\\[C_n^k={1\\over\n2i\\pi}\\int_{c_r}(1+z)^n{dz\\over z^{k+1}}.\\]</span> En déduire que <span\nclass=\"math inline\">\\(C_{2n}^n\\le 4^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0560ae29-dbd0-4702-ad17-2d5d56eb406f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \n$$C_{2n}^n={1\\over 2i\\pi}\\int_{c_r}\\left( {1\\over z}\n+2+z\\right) ^n{dz\\over z}$$\n(on pourra utiliser 1.). En déduire que \n$$\\sum_{n=0}^{+\\infty}C_{2n}^n{1\\over 5^n}={1\\over\n2i\\pi}\\int_{c_r}{dz\\over 3z-1-z^2)}=\\sqrt 5 ,$$\nà condition que $r_1<r<r_2$, où $r_1<r_2$ sont les deux racines de\n$3z-1-z^2=0$.",
+        "html": "<p>Montrer que <span class=\"math display\">\\[C_{2n}^n={1\\over\n2i\\pi}\\int_{c_r}\\left( {1\\over z}\n+2+z\\right) ^n{dz\\over z}\\]</span> (on pourra utiliser 1.). En déduire\nque <span class=\"math display\">\\[\\sum_{n=0}^{+\\infty}C_{2n}^n{1\\over\n5^n}={1\\over\n2i\\pi}\\int_{c_r}{dz\\over 3z-1-z^2)}=\\sqrt 5 ,\\]</span> à condition que\n<span class=\"math inline\">\\(r_1&lt;r&lt;r_2\\)</span>, où <span\nclass=\"math inline\">\\(r_1&lt;r_2\\)</span> sont les deux racines de <span\nclass=\"math inline\">\\(3z-1-z^2=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "01f4d8a6-67cb-476a-b8cd-74b0e322c4a7",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$${1\\over 2i\\pi}\\int_{c_r}(1+z)^n\\left( 1+{1\\over z}\\right)^n{dz\\over\nz}=\\sum_{k=0}^n\\left( C_n^k\\right) ^2.$$\nEn déduire que \n$$\\sum_{k=0}^n\\left( C_n^k\\right) ^2=C_{2n}^n.$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[{1\\over\n2i\\pi}\\int_{c_r}(1+z)^n\\left( 1+{1\\over z}\\right)^n{dz\\over\nz}=\\sum_{k=0}^n\\left( C_n^k\\right) ^2.\\]</span> En déduire que <span\nclass=\"math display\">\\[\\sum_{k=0}^n\\left( C_n^k\\right)\n^2=C_{2n}^n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "7c0f7d41-1bee-49e1-a76a-579314fe836a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$${1\\over 2i\\pi}\\int_{c_1}{(z-1)^{2n}(z+1)^n\\over z^{2n+1}}dz=\n\\sum_{k=0}^n(-1)^kC_n^kC_{2n}^k.$$\nMontrer que si $z\\in c_1^*$, $\\vert z-1\\vert ^2\\vert z+1\\vert \\le\n{16\\over 9}\\sqrt 3$. En déduire que\n$$\\sum_{k=0}^n(-1)^kC_n^kC_{2n}^k\\le \\left( {16\\over 9}\\sqrt 3\\right)\n^n.$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[{1\\over\n2i\\pi}\\int_{c_1}{(z-1)^{2n}(z+1)^n\\over z^{2n+1}}dz=\n\\sum_{k=0}^n(-1)^kC_n^kC_{2n}^k.\\]</span> Montrer que si <span\nclass=\"math inline\">\\(z\\in c_1^*\\)</span>, <span\nclass=\"math inline\">\\(\\vert z-1\\vert ^2\\vert z+1\\vert \\le\n{16\\over 9}\\sqrt 3\\)</span>. En déduire que <span\nclass=\"math display\">\\[\\sum_{k=0}^n(-1)^kC_n^kC_{2n}^k\\le \\left(\n{16\\over 9}\\sqrt 3\\right)\n^n.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(n\\ge 1\\)</span> et <span\nclass=\"math inline\">\\(0\\le k\\le n\\)</span>, on désigne par <span\nclass=\"math inline\"> ..."
+}

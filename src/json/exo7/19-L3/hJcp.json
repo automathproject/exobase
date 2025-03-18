@@ -1,0 +1,37 @@
+{
+  "uuid": "hJcp",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6938",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Loi, indépendance, loi conditionnelle",
+    "sousChapitre": "Loi, indépendance, loi conditionnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:34.647Z"
+  },
+  "contenu": [
+    {
+      "id": "55e10e54-f4af-42d8-ac74-4ba41ad18c6f",
+      "type": "description",
+      "value": {
+        "latex": "Soient $X$ et $Y$ des variables aléatoires réelles indépendantes ayant \ndes lois continues. Montrer que $P(X=Y)=0$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(Y\\)</span> des variables aléatoires réelles\nindépendantes ayant des lois continues. Montrer que <span\nclass=\"math inline\">\\(P(X=Y)=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e0f2031c-5231-482b-81bb-4f884a8d906a",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f$ la densité de $X$ et $g$ la densité de $Y$. $X$ est indépendante\nde $Y$ donc $X$ est indépendante de $-Y$.\n\\begin{eqnarray*}\nP(-Y\\in [a,b])&=&P(Y\\in [-b,-a])=\\int_{-b}^{-a}g(t)\\,dt\\\\\n&=&\\int_a^b g(-u)\\,du \\mbox{ (changement de variable }u=-t)\n\\end{eqnarray*}\ndonc la densité de $-Y$ est $h(t)=g(-t)$. Par indépendance, $X+(-Y)$ a une\nloi continue de densité $f*h$, donc $P(X=Y)=P(X-Y=0)=\\int_0^0 f*h(x)\\,dx=0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la densité de <span\nclass=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> la densité de <span\nclass=\"math inline\">\\(Y\\)</span>. <span class=\"math inline\">\\(X\\)</span>\nest indépendante de <span class=\"math inline\">\\(Y\\)</span> donc <span\nclass=\"math inline\">\\(X\\)</span> est indépendante de <span\nclass=\"math inline\">\\(-Y\\)</span>. <span\nclass=\"math display\">\\[\\begin{aligned}\nP(-Y\\in [a,b])&amp;=&amp;P(Y\\in [-b,-a])=\\int_{-b}^{-a}g(t)\\,dt\\\\\n&amp;=&amp;\\int_a^b g(-u)\\,du \\mbox{ (changement de variable }u=-t)\n\\end{aligned}\\]</span> donc la densité de <span\nclass=\"math inline\">\\(-Y\\)</span> est <span\nclass=\"math inline\">\\(h(t)=g(-t)\\)</span>. Par indépendance, <span\nclass=\"math inline\">\\(X+(-Y)\\)</span> a une loi continue de densité\n<span class=\"math inline\">\\(f*h\\)</span>, donc <span\nclass=\"math inline\">\\(P(X=Y)=P(X-Y=0)=\\int_0^0\nf*h(x)\\,dx=0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(Y\\)</span> des variables aléatoires réelles\nindépendantes ayant des lo ..."
+}

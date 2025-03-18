@@ -1,0 +1,55 @@
+{
+  "uuid": "M9lT",
+  "titre": "Convergence de séries",
+  "theme": [
+    "séries"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-07-10",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:40.074Z"
+  },
+  "contenu": [
+    {
+      "id": "933fd4e7-8d54-44a0-830c-3075bcf78398",
+      "type": "question",
+      "value": {
+        "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{3}{4^n}$ est-elle convergente ? si oui, calculer la somme de cette série.",
+        "html": "<p>La série <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{3}{4^n}\\)</span> est-elle convergente ? si oui, calculer la somme\nde cette série.</p>\n"
+      }
+    },
+    {
+      "id": "a8f019bc-51d2-4dc3-8a69-00182972f8c0",
+      "type": "reponse",
+      "value": {
+        "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{3}{4^n}$ est une série géométrique de raison $\\frac{1}{4}$ donc elle converge et sa somme est donnée par la formule de la somme d'une série géométrique:\n\t\t\t$$\\sum_{n \\geq 0} \\frac{3}{4^n} = \\frac{3}{1-\\frac{1}{4}} = 4$$",
+        "html": "<p>La série <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{3}{4^n}\\)</span> est une série géométrique de raison <span\nclass=\"math inline\">\\(\\frac{1}{4}\\)</span> donc elle converge et sa\nsomme est donnée par la formule de la somme d’une série géométrique:\n<span class=\"math display\">\\[\\sum_{n \\geq 0} \\frac{3}{4^n} =\n\\frac{3}{1-\\frac{1}{4}} = 4\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "286ec10b-ddec-4602-8bf9-1ad2ca0a78aa",
+      "type": "question",
+      "value": {
+        "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)$ est-elle convergente ? absolument convergente ?",
+        "html": "<p>La série <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)\\)</span> est-elle\nconvergente ? absolument convergente ?</p>\n"
+      }
+    },
+    {
+      "id": "f1f05d44-6f05-4c0c-aec3-15614b9bd2d9",
+      "type": "reponse",
+      "value": {
+        "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)$ est une série à termes positifs. On a:\n\t\t\t$$\\lim_{n \\to +\\infty} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right) = 0$$\n\t\t\tet\n\t\t\t$$\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right) \\leq \\frac{1}{n}\\left(\\frac{1}{\\sqrt{n}}\\right) = \\frac{1}{n^{3/2}}$$\n\t\t\tLa série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n^{3/2}}$ est une série de Riemann convergente donc la série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)$ est convergente. Elle n'est pas absolument convergente car la série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}$ est divergente.",
+        "html": "<p>La série <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)\\)</span> est une série à\ntermes positifs. On a: <span class=\"math display\">\\[\\lim_{n \\to +\\infty}\n\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right) = 0\\]</span> et <span\nclass=\"math display\">\\[\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)\n\\leq \\frac{1}{n}\\left(\\frac{1}{\\sqrt{n}}\\right) =\n\\frac{1}{n^{3/2}}\\]</span> La série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{1}{n^{3/2}}\\)</span> est une série de Riemann convergente donc la\nsérie <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)\\)</span> est\nconvergente. Elle n’est pas absolument convergente car la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\)</span>\nest divergente.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>La série <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{3}{4^n}\\)</span> est-elle convergente ? si oui, calculer la somme\nde cette ..."
+}

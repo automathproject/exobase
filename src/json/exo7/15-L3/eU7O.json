@@ -1,0 +1,61 @@
+{
+  "uuid": "eU7O",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2382",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Compacité",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:52.417Z"
+  },
+  "contenu": [
+    {
+      "id": "d0ea236d-2484-4192-a56e-726fee6a5501",
+      "type": "description",
+      "value": {
+        "latex": "On se donne une m\\'etrique $d$ sur $X=[0,1]$ telle que\nl'identit\\'e $ i: (X, |.|) \\to (X,d)$ soit continue (i.e. la\ntopologie d\\'efinie par $d$ est moins fine que la topologie\nusuelle de $X$).",
+        "html": "<p>On se donne une métrique <span class=\"math inline\">\\(d\\)</span> sur\n<span class=\"math inline\">\\(X=[0,1]\\)</span> telle que l’identité <span\nclass=\"math inline\">\\(i: (X, |.|) \\to (X,d)\\)</span> soit continue (i.e.\nla topologie définie par <span class=\"math inline\">\\(d\\)</span> est\nmoins fine que la topologie usuelle de <span\nclass=\"math inline\">\\(X\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "8ae3e663-7c72-48be-b1ee-7f65ab08dc6b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que tout sous-ensemble de $X$ compact pour la\ntopologie usuelle est aussi compact pour la topologie d\\'efinie\npar $d$; puis montrer cette propri\\'et\\'e pour les ferm\\'es.",
+        "html": "<p>Montrer que tout sous-ensemble de <span\nclass=\"math inline\">\\(X\\)</span> compact pour la topologie usuelle est\naussi compact pour la topologie définie par <span\nclass=\"math inline\">\\(d\\)</span>; puis montrer cette propriété pour les\nfermés.</p>\n"
+      }
+    },
+    {
+      "id": "137bf187-520b-4995-9f5a-bb43561790cb",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $K$ un compact pour $|.|$. Soit $U_i$, $i\\in I$ tels\nque $K \\subset \\bigcup_{i\\in I} U_i$ et tels que $U_i$ soient des ouverts pour $d$. Alors les $U_i$ sont aussi des ouverts pour la topologie définie par $|.|$. \nComme $K$ est compact pour $|.|$ alors on peut extraire un ensemble fini $J\\subset I$ tel que $K \\subset \\bigcup_{i\\in J} U_i$. Donc $K$ est aussi compact pour $d$. \n\nSi $F$ est un fermé pour $|.|$ alors $F\\subset [0,1]$ est compact pour $|.|$\nDonc compact pour $d$, donc fermé pour $d$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(K\\)</span> un compact pour <span\nclass=\"math inline\">\\(|.|\\)</span>. Soit <span\nclass=\"math inline\">\\(U_i\\)</span>, <span class=\"math inline\">\\(i\\in\nI\\)</span> tels que <span class=\"math inline\">\\(K \\subset \\bigcup_{i\\in\nI} U_i\\)</span> et tels que <span class=\"math inline\">\\(U_i\\)</span>\nsoient des ouverts pour <span class=\"math inline\">\\(d\\)</span>. Alors\nles <span class=\"math inline\">\\(U_i\\)</span> sont aussi des ouverts pour\nla topologie définie par <span class=\"math inline\">\\(|.|\\)</span>. Comme\n<span class=\"math inline\">\\(K\\)</span> est compact pour <span\nclass=\"math inline\">\\(|.|\\)</span> alors on peut extraire un ensemble\nfini <span class=\"math inline\">\\(J\\subset I\\)</span> tel que <span\nclass=\"math inline\">\\(K \\subset \\bigcup_{i\\in J} U_i\\)</span>. Donc\n<span class=\"math inline\">\\(K\\)</span> est aussi compact pour <span\nclass=\"math inline\">\\(d\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(F\\)</span> est un fermé pour <span\nclass=\"math inline\">\\(|.|\\)</span> alors <span\nclass=\"math inline\">\\(F\\subset [0,1]\\)</span> est compact pour <span\nclass=\"math inline\">\\(|.|\\)</span> Donc compact pour <span\nclass=\"math inline\">\\(d\\)</span>, donc fermé pour <span\nclass=\"math inline\">\\(d\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "910c6abb-8e7e-440b-ac2b-8b9dad54a0ab",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que la topologie d\\'efinie par $d$ est la topologie\nusuelle.",
+        "html": "<p>En déduire que la topologie définie par <span\nclass=\"math inline\">\\(d\\)</span> est la topologie usuelle.</p>\n"
+      }
+    },
+    {
+      "id": "6bbc8789-9ec8-4ece-8a46-09d8a40e014b",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $U$ est un ouvert pour $d$ alors $U$ est un ouvert pour $|.|$.\nCar $i$ est continue. Réciproquement si $U$ est un ouvert pour $|.|$ alors\n$F = X\\setminus U$ est un fermé pour $|.|$ donc $F$ est un fermé pour $d$ par la question précédente, donc $U = X \\setminus F$ est un ouvert pour $d$.\nConclusion les ouverts pour $|.|$ et $d$ sont les mêmes donc\n$|.|$ et $d$ définissent la même topologie.",
+        "html": "<p>Si <span class=\"math inline\">\\(U\\)</span> est un ouvert pour <span\nclass=\"math inline\">\\(d\\)</span> alors <span\nclass=\"math inline\">\\(U\\)</span> est un ouvert pour <span\nclass=\"math inline\">\\(|.|\\)</span>. Car <span\nclass=\"math inline\">\\(i\\)</span> est continue. Réciproquement si <span\nclass=\"math inline\">\\(U\\)</span> est un ouvert pour <span\nclass=\"math inline\">\\(|.|\\)</span> alors <span class=\"math inline\">\\(F =\nX\\setminus U\\)</span> est un fermé pour <span\nclass=\"math inline\">\\(|.|\\)</span> donc <span\nclass=\"math inline\">\\(F\\)</span> est un fermé pour <span\nclass=\"math inline\">\\(d\\)</span> par la question précédente, donc <span\nclass=\"math inline\">\\(U = X \\setminus F\\)</span> est un ouvert pour\n<span class=\"math inline\">\\(d\\)</span>. Conclusion les ouverts pour\n<span class=\"math inline\">\\(|.|\\)</span> et <span\nclass=\"math inline\">\\(d\\)</span> sont les mêmes donc <span\nclass=\"math inline\">\\(|.|\\)</span> et <span\nclass=\"math inline\">\\(d\\)</span> définissent la même topologie.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On se donne une métrique <span class=\"math inline\">\\(d\\)</span> sur\n<span class=\"math inline\">\\(X=[0,1]\\)</span> telle que l’identité <span\nclass=\" ..."
+}

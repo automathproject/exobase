@@ -1,0 +1,85 @@
+{
+  "uuid": "pupo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2386",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Connexité",
+    "sousChapitre": "Connexité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:01.362Z"
+  },
+  "contenu": [
+    {
+      "id": "39fb78dd-9878-4c94-bd44-b58bbed8346e",
+      "type": "description",
+      "value": {
+        "latex": "Notons $T=\\{0\\}\\times [-1,1]\\cup [-1,1]\\times \\{0\\}$ muni de la\ntopologie induite par celle de $\\Rr^2$.",
+        "html": "<p>Notons <span class=\"math inline\">\\(T=\\{0\\}\\times [-1,1]\\cup\n[-1,1]\\times \\{0\\}\\)</span> muni de la topologie induite par celle de\n<span class=\"math inline\">\\(\\Rr^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "14d75157-42ee-4a96-86ac-d7300c26327f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $T$ est compact et connexe et que $f(T)$ est un\nsegment si $f:T\\to \\Rr$ est une fonction continue.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(T\\)</span> est compact et\nconnexe et que <span class=\"math inline\">\\(f(T)\\)</span> est un segment\nsi <span class=\"math inline\">\\(f:T\\to \\Rr\\)</span> est une fonction\ncontinue.</p>\n"
+      }
+    },
+    {
+      "id": "7541a5e2-3a11-4bb8-956e-ba83581f80e0",
+      "type": "reponse",
+      "value": {
+        "latex": "$T$ est compact car c'est un fermé borné de $\\Rr^2$.\n\nSoit $g : T \\longrightarrow \\{0,1\\}$ une application continue.\nPar connexité du segment  $[-1,1]$, $g$ est constante sur $\\{0\\}\\times [-1,1]$\n(et vaut $v$) ; $g$ est aussi constante sur $[-1,1]\\times \\{0\\}$ et vaut $v'$.\n Mais alors $v=g(0,0)=v'$ donc $g$ est constante sur $T$. Donc $T$ est connexe.\n\nPour $f:T\\to \\Rr$ une fonction continue. $T$ est compact donc $f(T)$ est compact.\n$T$ est connexe donc $f(T)$ est connexe. Donc $f(T)$ est un compact connexe de $\\Rr$ c'est donc un segment compact.",
+        "html": "<p><span class=\"math inline\">\\(T\\)</span> est compact car c’est un fermé\nborné de <span class=\"math inline\">\\(\\Rr^2\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\(g : T \\longrightarrow\n\\{0,1\\}\\)</span> une application continue. Par connexité du segment\n<span class=\"math inline\">\\([-1,1]\\)</span>, <span\nclass=\"math inline\">\\(g\\)</span> est constante sur <span\nclass=\"math inline\">\\(\\{0\\}\\times [-1,1]\\)</span> (et vaut <span\nclass=\"math inline\">\\(v\\)</span>) ; <span\nclass=\"math inline\">\\(g\\)</span> est aussi constante sur <span\nclass=\"math inline\">\\([-1,1]\\times \\{0\\}\\)</span> et vaut <span\nclass=\"math inline\">\\(v&#39;\\)</span>. Mais alors <span\nclass=\"math inline\">\\(v=g(0,0)=v&#39;\\)</span> donc <span\nclass=\"math inline\">\\(g\\)</span> est constante sur <span\nclass=\"math inline\">\\(T\\)</span>. Donc <span\nclass=\"math inline\">\\(T\\)</span> est connexe.</p>\n<p>Pour <span class=\"math inline\">\\(f:T\\to \\Rr\\)</span> une fonction\ncontinue. <span class=\"math inline\">\\(T\\)</span> est compact donc <span\nclass=\"math inline\">\\(f(T)\\)</span> est compact. <span\nclass=\"math inline\">\\(T\\)</span> est connexe donc <span\nclass=\"math inline\">\\(f(T)\\)</span> est connexe. Donc <span\nclass=\"math inline\">\\(f(T)\\)</span> est un compact connexe de <span\nclass=\"math inline\">\\(\\Rr\\)</span> c’est donc un segment compact.</p>\n"
+      }
+    },
+    {
+      "id": "c6bca27c-ab71-4784-b655-4f78889859a0",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer les points $x\\in T$ pour lesquels $T\\setminus \\{x\\}$ est connexe.",
+        "html": "<p>Déterminer les points <span class=\"math inline\">\\(x\\in T\\)</span>\npour lesquels <span class=\"math inline\">\\(T\\setminus \\{x\\}\\)</span> est\nconnexe.</p>\n"
+      }
+    },
+    {
+      "id": "3826423a-39ac-45a2-a8ce-a6ab994df509",
+      "type": "reponse",
+      "value": {
+        "latex": "Ce sont les quatre points cardinaux $N=(0,1)$, $S=(0,-1)$, $E=(1,0)$, $W=(-1,0)$.",
+        "html": "<p>Ce sont les quatre points cardinaux <span\nclass=\"math inline\">\\(N=(0,1)\\)</span>, <span\nclass=\"math inline\">\\(S=(0,-1)\\)</span>, <span\nclass=\"math inline\">\\(E=(1,0)\\)</span>, <span\nclass=\"math inline\">\\(W=(-1,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "65b5417f-d71c-473f-92dc-951df1697f26",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $T$ n'est hom\\'eomorphe \\`a aucune partie de\n$\\Rr$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(T\\)</span> n’est homéomorphe\nà aucune partie de <span class=\"math inline\">\\(\\Rr\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ee094efe-76c6-4f18-a70c-6c04ffd096d9",
+      "type": "reponse",
+      "value": {
+        "latex": "Par l'absurde, supposons que $T$ soit homéomorphe à une partie $I$ de $\\Rr$, alors\nil existe un homéomorphisme $f : T \\longrightarrow I$. Par le premier point\n$I$ est un segment compact $I = [a,b]$. $T\\setminus \\{ N\\}$ est connexe donc sont image par $f$, $f(T\\setminus \\{ N\\})$ est connexe, mais c'est aussi le segment $I$ privé d'un point. $I$ privé d'un point étant connexe, le point retiré est nécessairement une extrémité. Donc $f(N)=a$ ou $f(N)=b$. Supposons par exemple $f(N)=a$. On refait le même raisonnement avec $S$, qui s'envoie aussi sur une extrémité, comme $f$ est bijective cela ne peut être $a$, donc\n$f(S)=b$. Maintenant $f(E)$ est aussi une extrémité donc $f(E) \\in \\{a,b\\}$.\nMais alors $f$ n'est plus injective car on a $f(E)=f(N)$ ou $f(E)=f(S)$.\nContradiction.",
+        "html": "<p>Par l’absurde, supposons que <span class=\"math inline\">\\(T\\)</span>\nsoit homéomorphe à une partie <span class=\"math inline\">\\(I\\)</span> de\n<span class=\"math inline\">\\(\\Rr\\)</span>, alors il existe un\nhoméomorphisme <span class=\"math inline\">\\(f : T \\longrightarrow\nI\\)</span>. Par le premier point <span class=\"math inline\">\\(I\\)</span>\nest un segment compact <span class=\"math inline\">\\(I = [a,b]\\)</span>.\n<span class=\"math inline\">\\(T\\setminus \\{ N\\}\\)</span> est connexe donc\nsont image par <span class=\"math inline\">\\(f\\)</span>, <span\nclass=\"math inline\">\\(f(T\\setminus \\{ N\\})\\)</span> est connexe, mais\nc’est aussi le segment <span class=\"math inline\">\\(I\\)</span> privé d’un\npoint. <span class=\"math inline\">\\(I\\)</span> privé d’un point étant\nconnexe, le point retiré est nécessairement une extrémité. Donc <span\nclass=\"math inline\">\\(f(N)=a\\)</span> ou <span\nclass=\"math inline\">\\(f(N)=b\\)</span>. Supposons par exemple <span\nclass=\"math inline\">\\(f(N)=a\\)</span>. On refait le même raisonnement\navec <span class=\"math inline\">\\(S\\)</span>, qui s’envoie aussi sur une\nextrémité, comme <span class=\"math inline\">\\(f\\)</span> est bijective\ncela ne peut être <span class=\"math inline\">\\(a\\)</span>, donc <span\nclass=\"math inline\">\\(f(S)=b\\)</span>. Maintenant <span\nclass=\"math inline\">\\(f(E)\\)</span> est aussi une extrémité donc <span\nclass=\"math inline\">\\(f(E) \\in \\{a,b\\}\\)</span>. Mais alors <span\nclass=\"math inline\">\\(f\\)</span> n’est plus injective car on a <span\nclass=\"math inline\">\\(f(E)=f(N)\\)</span> ou <span\nclass=\"math inline\">\\(f(E)=f(S)\\)</span>. Contradiction.</p>\n"
+      }
+    },
+    {
+      "id": "15b08d04-38b1-4568-9145-fa5dfc21ac24",
+      "type": "indication",
+      "value": {
+        "latex": "Faites un dessin de $T$.\nPour la dernière question, raisonner par l'absurde. O\\`u peuvent\ns'envoyer les points de la deuxième question ?",
+        "html": "<p>Faites un dessin de <span class=\"math inline\">\\(T\\)</span>. Pour la\ndernière question, raisonner par l’absurde. Où peuvent s’envoyer les\npoints de la deuxième question ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Notons <span class=\"math inline\">\\(T=\\{0\\}\\times [-1,1]\\cup\n[-1,1]\\times \\{0\\}\\)</span> muni de la topologie induite par celle de\n<span class=\"math ..."
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "p7Qw",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4380",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:04.584Z"
+  },
+  "contenu": [
+    {
+      "id": "4a1b8239-ca3a-4ce4-8cc7-1e1a32cce506",
+      "type": "description",
+      "value": {
+        "latex": "Soit $P\\in \\C[X]$ de degré $n\\ge 1$.\nLe but de cet exercice est de prouver que $P$ admet une racine dans~$\\C$.\nOn suppose au contraire que $P$ ne s'annule pas et on considère pour\n$r \\ge 0$, $\\theta\\in{[0,2\\pi]}$~:\n$f(r,\\theta) = \\frac{r^ne^{in\\theta}}{P(re^{i\\theta})}$\net $F(r) =  \\int_{\\theta=0}^{2\\pi} f(r,\\theta)\\, d\\theta$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P\\in \\C[X]\\)</span> de degré <span\nclass=\"math inline\">\\(n\\ge 1\\)</span>. Le but de cet exercice est de\nprouver que <span class=\"math inline\">\\(P\\)</span> admet une racine\ndans <span class=\"math inline\">\\(\\C\\)</span>. On suppose au contraire\nque <span class=\"math inline\">\\(P\\)</span> ne s’annule pas et on\nconsidère pour <span class=\"math inline\">\\(r \\ge 0\\)</span>, <span\nclass=\"math inline\">\\(\\theta\\in{[0,2\\pi]}\\)</span> : <span\nclass=\"math inline\">\\(f(r,\\theta) =\n\\frac{r^ne^{in\\theta}}{P(re^{i\\theta})}\\)</span> et <span\nclass=\"math inline\">\\(F(r) =  \\int_{\\theta=0}^{2\\pi} f(r,\\theta)\\,\nd\\theta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2e2eb434-7adc-4f10-9736-122ac1d3de10",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $F$ est de classe $\\mathcal{C}^1$ sur $[0,+\\infty[$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(F\\)</span> est de classe\n<span class=\"math inline\">\\(\\mathcal{C}^1\\)</span> sur <span\nclass=\"math inline\">\\([0,+\\infty[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "99eeb140-e52d-4f01-94d0-89ff80e8489b",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que $ir \\frac{\\partial f}{\\partial r} = \\frac{\\partial f}{\\partial \\theta}$. En déduire que $F$ est constante.",
+        "html": "<p>Vérifier que <span class=\"math inline\">\\(ir \\frac{\\partial\nf}{\\partial r} = \\frac{\\partial f}{\\partial \\theta}\\)</span>. En déduire\nque <span class=\"math inline\">\\(F\\)</span> est constante.</p>\n"
+      }
+    },
+    {
+      "id": "947eedc9-3e6c-474a-ada6-67c958ad15ed",
+      "type": "question",
+      "value": {
+        "latex": "Obtenir une contradiction.",
+        "html": "<p>Obtenir une contradiction.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(P\\in \\C[X]\\)</span> de degré <span\nclass=\"math inline\">\\(n\\ge 1\\)</span>. Le but de cet exercice est de\nprouver qu ..."
+}

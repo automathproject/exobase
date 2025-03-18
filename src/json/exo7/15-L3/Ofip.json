@@ -1,0 +1,61 @@
+{
+  "uuid": "Ofip",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1885",
+    "auteur": "maillot",
+    "createdAt": "2001-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace vectoriel normé",
+    "sousChapitre": "Espace vectoriel normé",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:39.857Z"
+  },
+  "contenu": [
+    {
+      "id": "f9f62284-f614-41b0-b4e3-32dca40d7173",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel normé, et $(a,a')\\in E^2$,\n$(r,r')\\in(\\R_+^*)^2$. Montrer :",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnormé, et <span class=\"math inline\">\\((a,a&#39;)\\in E^2\\)</span>, <span\nclass=\"math inline\">\\((r,r&#39;)\\in(\\R_+^*)^2\\)</span>. Montrer :</p>\n"
+      }
+    },
+    {
+      "id": "8cab05c9-d19e-4e5f-81d2-1e33ae461153",
+      "type": "question",
+      "value": {
+        "latex": "$B(a,r)=\\{a\\}+B(0,r)$",
+        "html": "<p><span class=\"math inline\">\\(B(a,r)=\\{a\\}+B(0,r)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d5a365e5-3540-498b-85ae-a77682dd0e65",
+      "type": "question",
+      "value": {
+        "latex": "$B(a,r)=B(a',r') \\Leftrightarrow a=a' \\text{ et } r=r'$",
+        "html": "<p><span class=\"math inline\">\\(B(a,r)=B(a&#39;,r&#39;) \\Leftrightarrow\na=a&#39; \\text{ et } r=r&#39;\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e42a92c2-91cc-4196-aac6-0df05ffe6128",
+      "type": "question",
+      "value": {
+        "latex": "$B(a+a',r+r')=B(a,r)+B(a',r')$",
+        "html": "<p><span\nclass=\"math inline\">\\(B(a+a&#39;,r+r&#39;)=B(a,r)+B(a&#39;,r&#39;)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "26658a2d-4939-4802-b8dc-2c90340c6fbb",
+      "type": "question",
+      "value": {
+        "latex": "$B(a,r)\\cap B(a',r')\\neq\\emptyset\\Leftrightarrow\\|{a'-a}\\|{}<r+r'$.",
+        "html": "<p><span class=\"math inline\">\\(B(a,r)\\cap\nB(a&#39;,r&#39;)\\neq\\emptyset\\Leftrightarrow\\|{a&#39;-a}\\|{}&lt;r+r&#39;\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnormé, et <span class=\"math inline\">\\((a,a&#39;)\\in E^2\\)</span>, <span\nclass=\"math ..."
+}

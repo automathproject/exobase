@@ -1,0 +1,77 @@
+{
+  "uuid": "iG1S",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2508",
+    "auteur": "queffelec",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Différentiabilité, calcul de différentielles",
+    "sousChapitre": "Différentiabilité, calcul de différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:49.512Z"
+  },
+  "contenu": [
+    {
+      "id": "dae63b86-c1b3-4ca3-abf7-5c04c39c00f7",
+      "type": "description",
+      "value": {
+        "latex": "Soit, dans ${\\Rr^n}$, $F$\nun sous-espace ferm\\'e, et soit $f:{\\Rr^n}\\to\\Rr$ d\\'efinie par\n$f(x)=d(x,F)$. On rappelle que $f$ est $1$-lipschitzienne, et que\npour chaque $x$ il existe $y\\in F$ tel que $f(x)=d(x,y)$.",
+        "html": "<p>Soit, dans <span class=\"math inline\">\\({\\Rr^n}\\)</span>, <span\nclass=\"math inline\">\\(F\\)</span> un sous-espace fermé, et soit <span\nclass=\"math inline\">\\(f:{\\Rr^n}\\to\\Rr\\)</span> définie par <span\nclass=\"math inline\">\\(f(x)=d(x,F)\\)</span>. On rappelle que <span\nclass=\"math inline\">\\(f\\)</span> est <span\nclass=\"math inline\">\\(1\\)</span>-lipschitzienne, et que pour chaque\n<span class=\"math inline\">\\(x\\)</span> il existe <span\nclass=\"math inline\">\\(y\\in F\\)</span> tel que <span\nclass=\"math inline\">\\(f(x)=d(x,y)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b0e1e800-f898-41f0-a72e-705db01e7888",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $f$ est diff\\'erentiable en $x\\notin F$.\nMontrer que $||Df(x)||_{{\\cal L}(\\Rr^n,\\Rr)}\\leq 1$.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(f\\)</span> est\ndifférentiable en <span class=\"math inline\">\\(x\\notin F\\)</span>.\nMontrer que <span class=\"math inline\">\\(||Df(x)||_{{\\cal\nL}(\\Rr^n,\\Rr)}\\leq 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "93c58c85-3d37-4532-9bab-e9bdfafb7d86",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour montrer que $||Df(x)||_{{\\cal L}(\\Rr^n,\\Rr)}\\leq 1$,\nil faut montrer que si $h \\in \\mathbb{R}^n$, on a $|Df(x).h|\\leq\n||h||$. On a $$|Df(x).h|=|D_hf(x)|=|\\lim_{t \\rightarrow\n0}\\frac{f(x+th)-f(x)}{t}|.$$ Or $f$ est $1$-lipschitzienne et donc\n$|f(x+th)-f(x)|\\leq ||th||=t||h||.$ Par cons\\'equent pour tout $h\n\\in \\mathbb{R}^n$, $|Df(x).h|\\leq ||h||$ ce qui donne\nl'in\\'egalit\\'e demand\\'ee.",
+        "html": "<p>Pour montrer que <span class=\"math inline\">\\(||Df(x)||_{{\\cal\nL}(\\Rr^n,\\Rr)}\\leq 1\\)</span>, il faut montrer que si <span\nclass=\"math inline\">\\(h \\in \\mathbb{R}^n\\)</span>, on a <span\nclass=\"math inline\">\\(|Df(x).h|\\leq\n||h||\\)</span>. On a <span\nclass=\"math display\">\\[|Df(x).h|=|D_hf(x)|=|\\lim_{t \\rightarrow\n0}\\frac{f(x+th)-f(x)}{t}|.\\]</span> Or <span\nclass=\"math inline\">\\(f\\)</span> est <span\nclass=\"math inline\">\\(1\\)</span>-lipschitzienne et donc <span\nclass=\"math inline\">\\(|f(x+th)-f(x)|\\leq ||th||=t||h||.\\)</span> Par\nconséquent pour tout <span class=\"math inline\">\\(h\n\\in \\mathbb{R}^n\\)</span>, <span class=\"math inline\">\\(|Df(x).h|\\leq\n||h||\\)</span> ce qui donne l’inégalité demandée.</p>\n"
+      }
+    },
+    {
+      "id": "8edf577b-f9b7-497f-83fd-95684f044f4c",
+      "type": "question",
+      "value": {
+        "latex": "On consid\\`ere la fonction $\\varphi : t\\in[0,1]\\to\nf((1-t)x+ty)$; en calculant $\\varphi'(0)$ de deux fa\\c cons,\nmontrer que $Df(x).{\\frac{x-y}{||x-y||}}=1$ et $||Df(x)||_{{\\cal\nL}(\\Rr^n,\\Rr)}= 1$.",
+        "html": "<p>On considère la fonction <span class=\"math inline\">\\(\\varphi :\nt\\in[0,1]\\to\nf((1-t)x+ty)\\)</span>; en calculant <span\nclass=\"math inline\">\\(\\varphi&#39;(0)\\)</span> de deux façons, montrer\nque <span class=\"math inline\">\\(Df(x).{\\frac{x-y}{||x-y||}}=1\\)</span>\net <span class=\"math inline\">\\(||Df(x)||_{{\\cal\nL}(\\Rr^n,\\Rr)}= 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f26857ce-b238-4e04-b08a-abaed05b6bf0",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\varphi'(0)=\\lim_{t\n\\rightarrow 0}\\frac{\\varphi(t)-\\varphi(0)}{t-0}=\\lim_{t\n\\rightarrow 0}\\frac{f((1-t)x+ty)-f(x)}{t}=$$ $$\\lim_{t \\rightarrow\n0}\\frac{f(x+t(y-x))-f(x)}{t}=Df(x).(y-x).$$ Ou encore, soit $\\psi:\n\\mathbb{R} \\rightarrow \\mathbb{R}^n$ l'application\n$\\psi(t)=(1-t)x+ty$, on a alors $\\varphi(t)=f \\circ \\psi$ et\nd'apr\\`es la formule de diff\\'erentielle d'une composition:\n$$\\varphi'(0)=Df(\\psi(0)).D\\psi(0)=Df(x).(y-x).$$\nOr,\n$$d(x,F)=d(x,y)=||x-y||=\\frac{1}{1-t}||(1-t)(x-y)||=$$\n$$\\frac{1}{1-t}||[(1-t)x+ty]-[ty+(1-t)y]||\n=\\frac{1}{1-t}d((1-t)x+ty,y).$$ Notons $x_t=(1-t)x+ty$, on a alors\n$$d(x_t,y)=(1-t)d(x,F).$$\nOr, $\\varphi(t)=d(x_t,F) \\leq d(x_t,y) \\leq (1-t)d(x,y) \\leq\n\\varphi(0)$ et donc\n$$|\\varphi'(0)|=\\lim_{t\n\\rightarrow 0}\\frac{|\\varphi(t)-\\varphi(0)|}{t} =\\lim_{t\n\\rightarrow 0}\\frac{\\varphi(0)-\\varphi(t)}{t}\\geq$$\n$$ \\lim_{t \\rightarrow 0}\\frac{d(x,y)-(1-t)d(x,y)}{t} \\geq\nd(x,y)=||x-y||.$$ Donc\n$$|Df(x)(x-y)| \\geq ||x-y||$$ d'o\\`u la deuxi\\`eme inégalité.",
+        "html": "<p><span class=\"math display\">\\[\\varphi&#39;(0)=\\lim_{t\n\\rightarrow 0}\\frac{\\varphi(t)-\\varphi(0)}{t-0}=\\lim_{t\n\\rightarrow 0}\\frac{f((1-t)x+ty)-f(x)}{t}=\\]</span> <span\nclass=\"math display\">\\[\\lim_{t \\rightarrow\n0}\\frac{f(x+t(y-x))-f(x)}{t}=Df(x).(y-x).\\]</span> Ou encore, soit <span\nclass=\"math inline\">\\(\\psi:\n\\mathbb{R} \\rightarrow \\mathbb{R}^n\\)</span> l’application <span\nclass=\"math inline\">\\(\\psi(t)=(1-t)x+ty\\)</span>, on a alors <span\nclass=\"math inline\">\\(\\varphi(t)=f \\circ \\psi\\)</span> et d’après la\nformule de différentielle d’une composition: <span\nclass=\"math display\">\\[\\varphi&#39;(0)=Df(\\psi(0)).D\\psi(0)=Df(x).(y-x).\\]</span>\nOr, <span\nclass=\"math display\">\\[d(x,F)=d(x,y)=||x-y||=\\frac{1}{1-t}||(1-t)(x-y)||=\\]</span>\n<span class=\"math display\">\\[\\frac{1}{1-t}||[(1-t)x+ty]-[ty+(1-t)y]||\n=\\frac{1}{1-t}d((1-t)x+ty,y).\\]</span> Notons <span\nclass=\"math inline\">\\(x_t=(1-t)x+ty\\)</span>, on a alors <span\nclass=\"math display\">\\[d(x_t,y)=(1-t)d(x,F).\\]</span> Or, <span\nclass=\"math inline\">\\(\\varphi(t)=d(x_t,F) \\leq d(x_t,y) \\leq (1-t)d(x,y)\n\\leq\n\\varphi(0)\\)</span> et donc <span\nclass=\"math display\">\\[|\\varphi&#39;(0)|=\\lim_{t\n\\rightarrow 0}\\frac{|\\varphi(t)-\\varphi(0)|}{t} =\\lim_{t\n\\rightarrow 0}\\frac{\\varphi(0)-\\varphi(t)}{t}\\geq\\]</span> <span\nclass=\"math display\">\\[\\lim_{t \\rightarrow\n0}\\frac{d(x,y)-(1-t)d(x,y)}{t} \\geq\nd(x,y)=||x-y||.\\]</span> Donc <span class=\"math display\">\\[|Df(x)(x-y)|\n\\geq ||x-y||\\]</span> d’où la deuxième inégalité.</p>\n"
+      }
+    },
+    {
+      "id": "f139d806-0f10-43e9-962c-aba51ec4522f",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que $y$ est unique.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(y\\)</span> est unique.</p>\n"
+      }
+    },
+    {
+      "id": "e735a8dd-b714-43c7-bbcb-f605d1072aee",
+      "type": "reponse",
+      "value": {
+        "latex": "Raisonnons par l'absurde. Supposons qu'il existe deux point\n$y_1$ et $y_2$ tels que $d(x,F)=d(x,y_1)=d(x,y_2).$ Alors, de la\nmême manière que précédement, on a\n$Df(x).(x-y_1)=Df(x).(x-y_2)=d(x,F)$ et donc\n$Df(x).(x-y_1+x-y_2)=2d(x,F)$. Or, $||x-y_1+x-y_2||< 2d(x,F)$ car\nles vecteurs $x-y_1$ et $x-y_2$ ne sont pas alignés. Mais alors\ncela contredit le fait que $||Df(x)||_{\\cal\nL(\\mathbb{R}^n,\\mathbb{R})}=1$.",
+        "html": "<p>Raisonnons par l’absurde. Supposons qu’il existe deux point <span\nclass=\"math inline\">\\(y_1\\)</span> et <span\nclass=\"math inline\">\\(y_2\\)</span> tels que <span\nclass=\"math inline\">\\(d(x,F)=d(x,y_1)=d(x,y_2).\\)</span> Alors, de la\nmême manière que précédement, on a <span\nclass=\"math inline\">\\(Df(x).(x-y_1)=Df(x).(x-y_2)=d(x,F)\\)</span> et\ndonc <span class=\"math inline\">\\(Df(x).(x-y_1+x-y_2)=2d(x,F)\\)</span>.\nOr, <span class=\"math inline\">\\(||x-y_1+x-y_2||&lt; 2d(x,F)\\)</span> car\nles vecteurs <span class=\"math inline\">\\(x-y_1\\)</span> et <span\nclass=\"math inline\">\\(x-y_2\\)</span> ne sont pas alignés. Mais alors\ncela contredit le fait que <span class=\"math inline\">\\(||Df(x)||_{\\cal\nL(\\mathbb{R}^n,\\mathbb{R})}=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit, dans <span class=\"math inline\">\\({\\Rr^n}\\)</span>, <span\nclass=\"math inline\">\\(F\\)</span> un sous-espace fermé, et soit <span\nclass=\"math inl ..."
+}

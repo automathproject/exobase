@@ -1,0 +1,77 @@
+{
+  "uuid": "5Zub",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7161",
+    "auteur": "megy",
+    "createdAt": "2017-05-13",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:37.315Z"
+  },
+  "contenu": [
+    {
+      "id": "4402f463-b6d6-4fe5-96e1-5e19864ca181",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\mathcal C=ABCD$ un carré plein du plan (c'est-à-dire l'enveloppe convexe de ses sommets) et $O$ son centre.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\mathcal C=ABCD\\)</span> un carré\nplein du plan (c’est-à-dire l’enveloppe convexe de ses sommets) et <span\nclass=\"math inline\">\\(O\\)</span> son centre.</p>\n"
+      }
+    },
+    {
+      "id": "7662d836-16fc-4e21-a579-3ef1ec5d58d8",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g\\in \\operatorname{Isom}(\\mathcal C)$ une isométrie du carré, c'est-à-dire une isométrie du plan préservant le carré. Montrer qu'elle permute les sommets, puis que c'est une rotation de centre $O$ ou bien une réflexion d'axe contenant $O$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g\\in \\operatorname{Isom}(\\mathcal\nC)\\)</span> une isométrie du carré, c’est-à-dire une isométrie du plan\npréservant le carré. Montrer qu’elle permute les sommets, puis que c’est\nune rotation de centre <span class=\"math inline\">\\(O\\)</span> ou bien\nune réflexion d’axe contenant <span\nclass=\"math inline\">\\(O\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "107d5bf9-15cc-46f1-98ac-728c3a039dd1",
+      "type": "reponse",
+      "value": {
+        "latex": "Montrons d'abord qu'une isométrie du carré permute les sommets.\r\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "5bcf7320-57cd-4617-afa5-f942ee26ee52",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer entièrement  le groupe $G=\\operatorname{Isom}(\\mathcal C)$.",
+        "html": "<p>Déterminer entièrement le groupe <span\nclass=\"math inline\">\\(G=\\operatorname{Isom}(\\mathcal C)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0edb11b0-2ae7-40fb-b446-4f28b35a2105",
+      "type": "reponse",
+      "value": {
+        "latex": "Première preuve : \r\nconsidérons une diagonale, par exemple $[AC]$. Comme $g$ est une isométrie, la distance entre $A$ et $C$ est la même qu'entre leurs images. Or, deux points du carré à distance $AC$ sont forcément deux sommets d'une diagonale du carré. L'isométrie $g$ permute donc les sommets.",
+        "html": "<p>Première preuve : considérons une diagonale, par exemple <span\nclass=\"math inline\">\\([AC]\\)</span>. Comme <span\nclass=\"math inline\">\\(g\\)</span> est une isométrie, la distance entre\n<span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(C\\)</span> est la même qu’entre leurs images. Or,\ndeux points du carré à distance <span class=\"math inline\">\\(AC\\)</span>\nsont forcément deux sommets d’une diagonale du carré. L’isométrie <span\nclass=\"math inline\">\\(g\\)</span> permute donc les sommets.</p>\n"
+      }
+    },
+    {
+      "id": "80784edb-81b6-435d-9932-63d672e38ebe",
+      "type": "question",
+      "value": {
+        "latex": "Décrire le groupe $H=\\operatorname{Isom}^+(\\mathcal C)$ des isométries directes du carré et écrire un isomorphisme entre ce groupe et $\\Z/4\\Z$.",
+        "html": "<p>Décrire le groupe <span\nclass=\"math inline\">\\(H=\\operatorname{Isom}^+(\\mathcal C)\\)</span> des\nisométries directes du carré et écrire un isomorphisme entre ce groupe\net <span class=\"math inline\">\\(\\Z/4\\Z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d24548e3-2c2e-421c-9139-7b61ab3a1b2b",
+      "type": "reponse",
+      "value": {
+        "latex": "Deuxième preuve :  \r\nune isométrie est affine, donc préserve les barycentres, donc envoie les points extrémaux (ceux qui ne sont pas des barycentres d'autres points du carré) sur d'autres points extrémaux, et donc permute les sommets.",
+        "html": "<p>Deuxième preuve : une isométrie est affine, donc préserve les\nbarycentres, donc envoie les points extrémaux (ceux qui ne sont pas des\nbarycentres d’autres points du carré) sur d’autres points extrémaux, et\ndonc permute les sommets.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\mathcal C=ABCD\\)</span> un carré\nplein du plan (c’est-à-dire l’enveloppe convexe de ses sommets) et <span\nclass=\" ..."
+}

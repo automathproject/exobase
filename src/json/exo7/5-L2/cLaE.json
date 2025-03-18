@@ -1,0 +1,69 @@
+{
+  "uuid": "cLaE",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4534",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:35.713Z"
+  },
+  "contenu": [
+    {
+      "id": "03519591-36d6-40ce-825c-5de9832fb9f1",
+      "type": "description",
+      "value": {
+        "latex": "Soit $g(x) = \\sum_{n=0}^\\infty \\frac{(-1)^n}{n!\\,(x+n)}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g(x) = \\sum_{n=0}^\\infty\n\\frac{(-1)^n}{n!\\,(x+n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a5a3fc2c-ef2e-4097-be99-5d21718c5a75",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le domaine, $D$ de définition de $g$ et prouver que $g$ est de\n    classe $\\mathcal{C}^\\infty$ sur $D$.",
+        "html": "<p>Déterminer le domaine, <span class=\"math inline\">\\(D\\)</span> de\ndéfinition de <span class=\"math inline\">\\(g\\)</span> et prouver que\n<span class=\"math inline\">\\(g\\)</span> est de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^\\infty\\)</span> sur <span\nclass=\"math inline\">\\(D\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2838adac-4c3c-4627-9137-04e4740b4d66",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la quantité : $xg(x) - g(x+1)$ est constante sur $D$.",
+        "html": "<p>Montrer que la quantité : <span class=\"math inline\">\\(xg(x) -\ng(x+1)\\)</span> est constante sur <span\nclass=\"math inline\">\\(D\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac9b23ae-6cce-451c-b8db-df02af61ee11",
+      "type": "question",
+      "value": {
+        "latex": "Tracer la courbe représentative de $g$ sur $]0,+\\infty[$.",
+        "html": "<p>Tracer la courbe représentative de <span\nclass=\"math inline\">\\(g\\)</span> sur <span\nclass=\"math inline\">\\(]0,+\\infty[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ccebc867-b1c3-4611-a45c-4d8f49567396",
+      "type": "question",
+      "value": {
+        "latex": "Donner un équivalent de $g(x)$ en $+\\infty$ et en $0^+$.",
+        "html": "<p>Donner un équivalent de <span class=\"math inline\">\\(g(x)\\)</span> en\n<span class=\"math inline\">\\(+\\infty\\)</span> et en <span\nclass=\"math inline\">\\(0^+\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "059a345c-8c53-48c2-a07b-d731332d72f7",
+      "type": "reponse",
+      "value": {
+        "latex": "$xg(x) - g(x+1) = \\frac1e$.\nCSA $ \\Rightarrow  g' < 0$. $g(x)\\to +\\infty$ lorsque $x\\to0^+$,\n                               $g(x)\\to 0$ lorsque $x\\to+\\infty$.\n$g(x) \\sim \\frac1x$ en $0^+$ et $g(x) \\sim \\frac1{ex}$ en\n             $+\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(xg(x) - g(x+1) = \\frac1e\\)</span>. CSA\n<span class=\"math inline\">\\(\\Rightarrow  g&#39; &lt; 0\\)</span>. <span\nclass=\"math inline\">\\(g(x)\\to +\\infty\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\to0^+\\)</span>, <span\nclass=\"math inline\">\\(g(x)\\to 0\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\to+\\infty\\)</span>. <span\nclass=\"math inline\">\\(g(x) \\sim \\frac1x\\)</span> en <span\nclass=\"math inline\">\\(0^+\\)</span> et <span class=\"math inline\">\\(g(x)\n\\sim \\frac1{ex}\\)</span> en <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(g(x) = \\sum_{n=0}^\\infty\n\\frac{(-1)^n}{n!\\,(x+n)}\\)</span>.</p>\n"
+}

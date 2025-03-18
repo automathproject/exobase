@@ -1,0 +1,72 @@
+{
+  "uuid": "88TT",
+  "titre": "Etude d'une fonction",
+  "theme": [
+    "optimisation",
+    "fonctions de plusieurs variables"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-07-10",
+    "hasIndication": false,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:47.009Z"
+  },
+  "contenu": [
+    {
+      "id": "e020e077-d937-4a37-83a8-d99fcf8542b1",
+      "type": "description",
+      "value": {
+        "latex": "Soit la fonction $f$ définie sur $\\mathcal{D} \\subset \\R^2$ par \n$$f(x,y) = x^3 + y^3 - 3xy$$\noù $\\mathcal{D} = \\{ (x,y) \\in \\R^2 \\, , \\max(|x|,|y|) \\leq 2\\}$.",
+        "html": "<p>Soit la fonction <span class=\"math inline\">\\(f\\)</span> définie sur\n<span class=\"math inline\">\\(\\mathcal{D} \\subset \\R^2\\)</span> par <span\nclass=\"math display\">\\[f(x,y) = x^3 + y^3 - 3xy\\]</span> où <span\nclass=\"math inline\">\\(\\mathcal{D} = \\{ (x,y) \\in \\R^2 \\, , \\max(|x|,|y|)\n\\leq 2\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "33bcb1fc-5f2b-4f12-ad2b-5cc542219bce",
+      "type": "question",
+      "value": {
+        "latex": "Parmi les trois domaines représentés graphiquement ci-dessus, lequel est susceptible de représenter $\\mathcal{D}$ ?",
+        "html": "<p>Parmi les trois domaines représentés graphiquement ci-dessus, lequel\nest susceptible de représenter <span\nclass=\"math inline\">\\(\\mathcal{D}\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "bb4939e8-8786-45c1-9ced-e575b9c28c9b",
+      "type": "question",
+      "value": {
+        "latex": "L'ensemble $\\mathcal{D}$ est-il ouvert dans $\\R^2$ ? fermé dans $\\R^2$ ? Justifier très brièvement.",
+        "html": "<p>L’ensemble <span class=\"math inline\">\\(\\mathcal{D}\\)</span> est-il\nouvert dans <span class=\"math inline\">\\(\\R^2\\)</span> ? fermé dans <span\nclass=\"math inline\">\\(\\R^2\\)</span> ? Justifier très brièvement.</p>\n"
+      }
+    },
+    {
+      "id": "4449afcd-1566-421f-956a-f31d6f177cf4",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que $(0,0)$ et $(1,1)$ sont les deux seuls points critiques de $f$ dans l'intérieur du domaine  $\\mathcal{D}$.",
+        "html": "<p>Vérifier que <span class=\"math inline\">\\((0,0)\\)</span> et <span\nclass=\"math inline\">\\((1,1)\\)</span> sont les deux seuls points\ncritiques de <span class=\"math inline\">\\(f\\)</span> dans l’intérieur du\ndomaine <span class=\"math inline\">\\(\\mathcal{D}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "592caff0-1ca3-4af0-9c4d-85db3aaef11c",
+      "type": "question",
+      "value": {
+        "latex": "La fonction $f$ admet-elle un extremum local sur l'intérieur de $\\mathcal{D}$ ?",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> admet-elle un\nextremum local sur l’intérieur de <span\nclass=\"math inline\">\\(\\mathcal{D}\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "fbee51e1-93e0-4be5-a26e-ca52e4f8cce0",
+      "type": "question",
+      "value": {
+        "latex": "Justifier que $f$ admet un maximum global sur $\\mathcal{D}$ et le calculer.",
+        "html": "<p>Justifier que <span class=\"math inline\">\\(f\\)</span> admet un maximum\nglobal sur <span class=\"math inline\">\\(\\mathcal{D}\\)</span> et le\ncalculer.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit la fonction <span class=\"math inline\">\\(f\\)</span> définie sur\n<span class=\"math inline\">\\(\\mathcal{D} \\subset \\R^2\\)</span> par <span\nclass=\" ..."
+}

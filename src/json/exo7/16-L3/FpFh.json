@@ -1,0 +1,125 @@
+{
+  "uuid": "FpFh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7627",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:28.293Z"
+  },
+  "contenu": [
+    {
+      "id": "45e86af7-a52d-44a7-9039-b37983d794ab",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "a097f7df-f054-4806-8b22-3ebf4b52f82f",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler la définition de la branche principale du logarithme.",
+        "html": "<p>Rappeler la définition de la branche principale du logarithme.</p>\n"
+      }
+    },
+    {
+      "id": "06812e07-f56f-4ca6-9b31-f900beebf2b3",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{array}{cccc}\r\n \\log :& \\Cc-]-\\infty,0]&\\longrightarrow&\\Cc\\\\\r\n    &z         &\\longmapsto& \\ln_\\Rr(r)+i\\theta \\ \\ \\substack{\\textrm{ après avoir choisi l'écriture } z=re^{i\\theta}\\\\ \\textrm{ avec } r\\in[0,+\\infty[ \\textrm{ et } \\theta\\in]-\\pi,\\pi[}\r\n\\end{array}$$\r\n\r\n",
+        "html": "<p><span class=\"math display\">\\[\\begin{array}{cccc}\n\\log :&amp; \\Cc-]-\\infty,0]&amp;\\longrightarrow&amp;\\Cc\\\\\n    &amp;z         &amp;\\longmapsto&amp; \\ln_\\Rr(r)+i\\theta \\ \\\n\\substack{\\textrm{ après avoir choisi l&#39;écriture } z=re^{i\\theta}\\\\\n\\textrm{ avec } r\\in[0,+\\infty[ \\textrm{ et } \\theta\\in]-\\pi,\\pi[}\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "0bf8f8e9-cdb5-4dab-bfa8-7decdde46c62",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler la définition d'une primitive d'une fonction continue $f$ sur $\\Cc$.",
+        "html": "<p>Rappeler la définition d’une primitive d’une fonction continue <span\nclass=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "431204b4-895c-4aa0-9748-914a7e4848b3",
+      "type": "reponse",
+      "value": {
+        "latex": "Une primitive d'une application continue $f$ sur $\\Cc$ est une application holomorphe $F$ sur $\\Cc$ dont la dérivée complexe $F'$ est l'application $f$.",
+        "html": "<p>Une primitive d’une application continue <span\nclass=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(\\Cc\\)</span> est une application holomorphe <span\nclass=\"math inline\">\\(F\\)</span> sur <span\nclass=\"math inline\">\\(\\Cc\\)</span> dont la dérivée complexe <span\nclass=\"math inline\">\\(F&#39;\\)</span> est l’application <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3dce2689-a6d8-4672-b76d-87a7796f8684",
+      "type": "question",
+      "value": {
+        "latex": "Donner si possible l'exemple d'une fonction continue non holomorphe $f$ sur $\\Cc$ qui admet une primitive.",
+        "html": "<p>Donner si possible l’exemple d’une fonction continue non holomorphe\n<span class=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(\\Cc\\)</span> qui admet une primitive.</p>\n"
+      }
+    },
+    {
+      "id": "da5d04c9-99d2-410f-bb44-b1a84cc0fd81",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme la dérivée complexe d'une application holomorphe est holomorphe, il n'y a pas de tels exemples.",
+        "html": "<p>Comme la dérivée complexe d’une application holomorphe est\nholomorphe, il n’y a pas de tels exemples.</p>\n"
+      }
+    },
+    {
+      "id": "5fd4efe7-49e3-48b4-bad7-f1a7397a6a42",
+      "type": "question",
+      "value": {
+        "latex": "Donner si possible l'exemple d'une fonction holomorphe non constante de $\\Delta$ dans $\\Cc$. Dans le cas contraire, démontrer la non-existence.",
+        "html": "<p>Donner si possible l’exemple d’une fonction holomorphe non constante\nde <span class=\"math inline\">\\(\\Delta\\)</span> dans <span\nclass=\"math inline\">\\(\\Cc\\)</span>. Dans le cas contraire, démontrer la\nnon-existence.</p>\n"
+      }
+    },
+    {
+      "id": "7daaa771-5056-450d-bb00-1d9ae1ac7fa3",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{array}{cccc}\r\n Id :& \\Delta &\\longrightarrow&\\Cc\\\\\r\n    &z         &\\longmapsto& z\r\n\\end{array}$$\r\nest holomorphe non-constante.",
+        "html": "<p><span class=\"math display\">\\[\\begin{array}{cccc}\nId :&amp; \\Delta &amp;\\longrightarrow&amp;\\Cc\\\\\n    &amp;z         &amp;\\longmapsto&amp; z\n\\end{array}\\]</span> est holomorphe non-constante.</p>\n"
+      }
+    },
+    {
+      "id": "8f825567-ee88-4a31-9de5-fa98cd413f25",
+      "type": "question",
+      "value": {
+        "latex": "Donner si possible l'exemple d'une fonction holomorphe non constante de $\\Cc$ dans $\\Delta$. Dans le cas contraire, démontrer la non-existence.",
+        "html": "<p>Donner si possible l’exemple d’une fonction holomorphe non constante\nde <span class=\"math inline\">\\(\\Cc\\)</span> dans <span\nclass=\"math inline\">\\(\\Delta\\)</span>. Dans le cas contraire, démontrer\nla non-existence.</p>\n"
+      }
+    },
+    {
+      "id": "4040f464-a481-4e9d-9d18-19d2f81cd8c3",
+      "type": "reponse",
+      "value": {
+        "latex": "Par le théorème de Liouville, toute application entière bornée est constante~: il n'y a donc pas de tels exemples.",
+        "html": "<p>Par le théorème de Liouville, toute application entière bornée est\nconstante : il n’y a donc pas de tels exemples.</p>\n"
+      }
+    },
+    {
+      "id": "1ed52de9-4be0-4926-afa0-814de68f05c8",
+      "type": "question",
+      "value": {
+        "latex": "Donner si possible l'exemple d'une fonction holomorphe non constante de $\\mathbb{H}$ dans $\\Delta$. Dans le cas contraire, démontrer la non-existence.",
+        "html": "<p>Donner si possible l’exemple d’une fonction holomorphe non constante\nde <span class=\"math inline\">\\(\\mathbb{H}\\)</span> dans <span\nclass=\"math inline\">\\(\\Delta\\)</span>. Dans le cas contraire, démontrer\nla non-existence.</p>\n"
+      }
+    },
+    {
+      "id": "7ed1b63e-c10b-4c5e-aa7b-206bb3faf399",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{array}{cccc}\r\n C :& \\mathbb{H} &\\longrightarrow&\\Delta\\\\\r\n    &z         &\\longmapsto& \\frac{z-i}{z+i}\r\n\\end{array}\\textrm{ ou bien } \r\n\\begin{array}{cccc}\r\n e :& \\mathbb{H} &\\longrightarrow&\\Delta\\\\\r\n    &z         &\\longmapsto& \\exp(2i\\pi z)\r\n\\end{array}\r\n$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{array}{cccc}\nC :&amp; \\mathbb{H} &amp;\\longrightarrow&amp;\\Delta\\\\\n    &amp;z         &amp;\\longmapsto&amp; \\frac{z-i}{z+i}\n\\end{array}\\textrm{ ou bien }\n\\begin{array}{cccc}\ne :&amp; \\mathbb{H} &amp;\\longrightarrow&amp;\\Delta\\\\\n    &amp;z         &amp;\\longmapsto&amp; \\exp(2i\\pi z)\n\\end{array}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Rappeler la définition de la branche principale du logarithme.</p>\n"
+}

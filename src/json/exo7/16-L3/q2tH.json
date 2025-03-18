@@ -1,0 +1,45 @@
+{
+  "uuid": "q2tH",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6673",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:14.322Z"
+  },
+  "contenu": [
+    {
+      "id": "52c21250-b999-4125-af49-d05ba2a6ae30",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "4f0562b6-8453-4664-9054-98afef96891c",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\Omega $ un ouvert de $\\C$, $F$ et $G$ deux fonctions\nholomorphes dans $\\Omega $ et $\\gamma \\colon [a,b]\\to\\C$ un chemin tel\n que $\\gamma ^*\\subset \\Omega $. Montrer que \n$$\\int_\\gamma F(z)G'(z)\\ dz=F(\\gamma (b))G(\\gamma (b))-\nF(\\gamma (a))G(\\gamma (a))-\\int_\\gamma F'(z)G(z)\\ dz$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\Omega\\)</span> un ouvert de <span\nclass=\"math inline\">\\(\\C\\)</span>, <span\nclass=\"math inline\">\\(F\\)</span> et <span\nclass=\"math inline\">\\(G\\)</span> deux fonctions holomorphes dans <span\nclass=\"math inline\">\\(\\Omega\\)</span> et <span\nclass=\"math inline\">\\(\\gamma \\colon [a,b]\\to\\C\\)</span> un chemin tel\nque <span class=\"math inline\">\\(\\gamma ^*\\subset \\Omega\\)</span>.\nMontrer que <span class=\"math display\">\\[\\int_\\gamma F(z)G&#39;(z)\\\ndz=F(\\gamma (b))G(\\gamma (b))-\nF(\\gamma (a))G(\\gamma (a))-\\int_\\gamma F&#39;(z)G(z)\\ dz\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e7f38a70-f30f-4838-9c10-6e98c048edbe",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\int_\\gamma (z+2)e^{iz}\\ dz$, où $\\gamma $ est l'arc de\nparabole $\\displaystyle\\gamma (t)=t+i{t^2\\over\\pi^2}$ joignant (0,0) à $(\\pi,1)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\int_\\gamma (z+2)e^{iz}\\\ndz\\)</span>, où <span class=\"math inline\">\\(\\gamma\\)</span> est l’arc de\nparabole <span class=\"math inline\">\\(\\displaystyle\\gamma\n(t)=t+i{t^2\\over\\pi^2}\\)</span> joignant (0,0) à <span\nclass=\"math inline\">\\((\\pi,1)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\Omega\\)</span> un ouvert de <span\nclass=\"math inline\">\\(\\C\\)</span>, <span\nclass=\"math inline\">\\(F\\)</span> et <s ..."
+}

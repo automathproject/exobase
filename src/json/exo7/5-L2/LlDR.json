@@ -1,0 +1,93 @@
+{
+  "uuid": "LlDR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4617",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Analycité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:02.839Z"
+  },
+  "contenu": [
+    {
+      "id": "e0dab98e-ba7d-4bab-b0c1-33de9776a238",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(a_n)$ une suite réelle avec $a_0=0$ et $a_1=1$. On note \n$f(z)=\\sum_{n=0}^{\\infty}a_nz^n$. On suppose que $f$ est injective et que le rayon de convergence\nde la série entière vaut 1. On considère $\\Omega ^+=\\{z\\in \\C\\,|\\, \\Im z >0\\}$ et\n$D=\\{z\\in \\C\\,|\\, |z|<1\\}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite réelle avec\n<span class=\"math inline\">\\(a_0=0\\)</span> et <span\nclass=\"math inline\">\\(a_1=1\\)</span>. On note <span\nclass=\"math inline\">\\(f(z)=\\sum_{n=0}^{\\infty}a_nz^n\\)</span>. On\nsuppose que <span class=\"math inline\">\\(f\\)</span> est injective et que\nle rayon de convergence de la série entière vaut 1. On considère <span\nclass=\"math inline\">\\(\\Omega ^+=\\{z\\in \\C\\,|\\, \\Im z &gt;0\\}\\)</span> et\n<span class=\"math inline\">\\(D=\\{z\\in \\C\\,|\\, |z|&lt;1\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "00906595-8837-44f2-9d27-db521783b8ba",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout $z\\in D$, $f(z)\\in \\R$ si et seulement si $z\\in \\R$.",
+        "html": "<p>Montrer que, pour tout <span class=\"math inline\">\\(z\\in D\\)</span>,\n<span class=\"math inline\">\\(f(z)\\in \\R\\)</span> si et seulement si <span\nclass=\"math inline\">\\(z\\in \\R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9ea23530-99c7-4a97-9041-b238bffd2614",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(\\overline z) = \\overline{f(z)}$.",
+        "html": "<p><span class=\"math inline\">\\(f(\\overline z) =\n\\overline{f(z)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "385b69f6-732d-4d53-a9e4-0f7b94211f50",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f(D\\cap \\Omega ^+)\\subset \\Omega ^+$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f(D\\cap \\Omega ^+)\\subset\n\\Omega ^+\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1aaedbed-9f76-457c-a7db-55af26a500bf",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\Im(f)$ est de signe constant sur le connexe $D\\cap \\Omega ^+$\n    et $f(z)\\sim z$ au voisinage de~$0$.",
+        "html": "<p><span class=\"math inline\">\\(\\Im(f)\\)</span> est de signe constant sur\nle connexe <span class=\"math inline\">\\(D\\cap \\Omega ^+\\)</span> et <span\nclass=\"math inline\">\\(f(z)\\sim z\\)</span> au voisinage de <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6faac1e6-4d82-4fdb-a55a-ecc5b2059eb8",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout $|r|<1$, \n    $a_n=\\frac{2}{\\strut\\pi r^n} \\int_{\\theta=0}^{\\pi}\\Im (f(re^{i\\theta})) \\sin (n\\theta)\\, d \\theta$.",
+        "html": "<p>Montrer que, pour tout <span class=\"math inline\">\\(|r|&lt;1\\)</span>,\n<span class=\"math inline\">\\(a_n=\\frac{2}{\\strut\\pi r^n}\n\\int_{\\theta=0}^{\\pi}\\Im (f(re^{i\\theta})) \\sin (n\\theta)\\, d\n\\theta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "073d75e6-9657-490f-b97f-916b8c46695f",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrer terme à terme.",
+        "html": "<p>Intégrer terme à terme.</p>\n"
+      }
+    },
+    {
+      "id": "9654182e-b688-401b-8aa6-c6b8d658ff5c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $|\\sin (n\\theta)|\\le n|\\sin \\theta |$. En déduire que $|a_n|\\le n$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(|\\sin (n\\theta)|\\le n|\\sin\n\\theta |\\)</span>. En déduire que <span class=\"math inline\">\\(|a_n|\\le\nn\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a2fd84d0-eb0d-4b7a-a134-72d39351baef",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\Im (f(re^{i\\theta})) \\sin\\theta \\ge 0$ par la question {2.}.",
+        "html": "<p><span class=\"math inline\">\\(\\Im (f(re^{i\\theta})) \\sin\\theta \\ge\n0\\)</span> par la question <span>2.</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite réelle avec\n<span class=\"math inline\">\\(a_0=0\\)</span> et <span\nclass=\"math inline\"> ..."
+}

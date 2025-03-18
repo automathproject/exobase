@@ -1,0 +1,37 @@
+{
+  "uuid": "RFJr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2674",
+    "auteur": "matexo1",
+    "createdAt": "2002-02-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:43.902Z"
+  },
+  "contenu": [
+    {
+      "id": "74a3f814-b711-4137-91af-08a2ccb5594d",
+      "type": "description",
+      "value": {
+        "latex": "Calculer par la m{\\'e}thode des r{\\'e}sidus l'int{\\'e}grale de Wallis\n$$ W_n = \\int_0^{\\pi \\over 2} \\cos^{2n} \\theta\\,d\\theta. $$",
+        "html": "<p>Calculer par la m<span>é</span>thode des r<span>é</span>sidus\nl’int<span>é</span>grale de Wallis <span class=\"math display\">\\[W_n =\n\\int_0^{\\pi \\over 2} \\cos^{2n} \\theta\\,d\\theta.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5e60b385-14ab-4328-bd9e-bc885133521b",
+      "type": "reponse",
+      "value": {
+        "latex": "On a, sachant que $2\\cos\\theta = e^{i\\theta}+e^{-i\\theta}$:\n$$ W_n = {1\\over 4}\\int_0^{2\\pi } \\cos^{2n}\\theta\\,d\\theta\n = {1\\over 2^{2n+2}} \\int_C \\left(z+{1\\over z}\\right)^{2n}\\ {dz\\over iz}$$\no{\\`u} $C$ est le cercle trigonom{\\'e}trique et $z=e^{i\\theta}$. En posant\n$$f(z) = {1\\over z} \\left(z+{1\\over z}\\right)^{2n} $$\non a imm{\\'e}diatement\n$$ W_n = {\\pi \\over 2^{2n+1}} \\mbox{\\rm Res}(f, 0) $$\ncar $0$ est le seul p{\\^o}le de $f$. Le r{\\'e}sidu est en fait le coefficient en $1/z$ dans\nle d{\\'e}veloppement de $f$, c'est-{\\`a}-dire le coefficient constant dans $(z+1/z)^{2n}$,\nsoit par la formule du bin{\\^o}me, $C_{2n}^n$. Donc\n$$ W_n =  {\\pi \\over 2^{2n+1}} {(2n)!\\over (n!)^2}.$$",
+        "html": "<p>On a, sachant que <span class=\"math inline\">\\(2\\cos\\theta =\ne^{i\\theta}+e^{-i\\theta}\\)</span>: <span class=\"math display\">\\[W_n =\n{1\\over 4}\\int_0^{2\\pi } \\cos^{2n}\\theta\\,d\\theta\n= {1\\over 2^{2n+2}} \\int_C \\left(z+{1\\over z}\\right)^{2n}\\ {dz\\over\niz}\\]</span> o<span>ù</span> <span class=\"math inline\">\\(C\\)</span> est\nle cercle trigonom<span>é</span>trique et <span\nclass=\"math inline\">\\(z=e^{i\\theta}\\)</span>. En posant <span\nclass=\"math display\">\\[f(z) = {1\\over z} \\left(z+{1\\over\nz}\\right)^{2n}\\]</span> on a imm<span>é</span>diatement <span\nclass=\"math display\">\\[W_n = {\\pi \\over 2^{2n+1}} \\mbox{\\rm Res}(f,\n0)\\]</span> car <span class=\"math inline\">\\(0\\)</span> est le seul\np<span>ô</span>le de <span class=\"math inline\">\\(f\\)</span>. Le\nr<span>é</span>sidu est en fait le coefficient en <span\nclass=\"math inline\">\\(1/z\\)</span> dans le d<span>é</span>veloppement de\n<span class=\"math inline\">\\(f\\)</span>, c’est-<span>à</span>-dire le\ncoefficient constant dans <span\nclass=\"math inline\">\\((z+1/z)^{2n}\\)</span>, soit par la formule du\nbin<span>ô</span>me, <span class=\"math inline\">\\(C_{2n}^n\\)</span>. Donc\n<span class=\"math display\">\\[W_n =  {\\pi \\over 2^{2n+1}} {(2n)!\\over\n(n!)^2}.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer par la m<span>é</span>thode des r<span>é</span>sidus\nl’int<span>é</span>grale de Wallis <span class=\"math display\"> ..."
+}

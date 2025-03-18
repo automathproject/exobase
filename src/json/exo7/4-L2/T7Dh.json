@@ -1,0 +1,77 @@
+{
+  "uuid": "T7Dh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3707",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Espace vectoriel euclidien de dimension 3",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:45.547Z"
+  },
+  "contenu": [
+    {
+      "id": "439bcc03-90a3-4786-9c39-fddc43c69439",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel euclidien orienté de dimension 3, ${\\cal B}$ une base orthonormée\ndirecte de $E$ et $f \\in \\mathcal{L}(E)$ de matrice dans $\\cal B$ :\n$M = \\begin{pmatrix} 0      &-\\gamma &\\beta   \\cr\n               \\gamma &0       &-\\alpha \\cr\n               -\\beta &\\alpha  &0       \\cr\\end{pmatrix}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien orienté de dimension 3, <span class=\"math inline\">\\({\\cal\nB}\\)</span> une base orthonormée directe de <span\nclass=\"math inline\">\\(E\\)</span> et <span class=\"math inline\">\\(f \\in\n\\mathcal{L}(E)\\)</span> de matrice dans <span class=\"math inline\">\\(\\cal\nB\\)</span> : <span class=\"math inline\">\\(M = \\begin{pmatrix}\n0      &amp;-\\gamma &amp;\\beta   \\cr\n               \\gamma &amp;0       &amp;-\\alpha \\cr\n               -\\beta\n&amp;\\alpha  &amp;0       \\cr\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ba268850-543b-4cfa-b54c-6fd31b90c551",
+      "type": "question",
+      "value": {
+        "latex": "Reconaître $f$.",
+        "html": "<p>Reconaître <span class=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3e0765ef-6379-4247-901d-62b58337f659",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(\\vec x) = \\vec u\\wedge\\vec x$ avec\n    $\\vec u = (\\alpha,\\beta,\\gamma)$.",
+        "html": "<p><span class=\"math inline\">\\(f(\\vec x) = \\vec u\\wedge\\vec x\\)</span>\navec <span class=\"math inline\">\\(\\vec u =\n(\\alpha,\\beta,\\gamma)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "87cbe81b-686f-484a-994c-f2b87a228acd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\mathrm{id}_E + f$ est une bijection et calculer la bijection\n    réciproque.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathrm{id}_E + f\\)</span>\nest une bijection et calculer la bijection réciproque.</p>\n"
+      }
+    },
+    {
+      "id": "228c402e-eb3d-4492-82e1-70b980bf8af2",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\vec y = \\frac{\\vec x\n                     + (\\vec u\\mid\\vec x)\\vec u-\\vec u\\wedge\\vec x}\n                     {1+\\|\\vec u\\,\\|^2}$.",
+        "html": "<p><span class=\"math inline\">\\(\\vec y = \\frac{\\vec x\n                     + (\\vec u\\mid\\vec x)\\vec u-\\vec u\\wedge\\vec x}\n                     {1+\\|\\vec u\\,\\|^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "db836d37-bfda-4c45-94e5-402783436d14",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $g = (\\mathrm{id} - f) \\circ (\\mathrm{id} + f)^{-1}$ est une rotation et\n    préciser son axe et son angle.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(g = (\\mathrm{id} - f) \\circ\n(\\mathrm{id} + f)^{-1}\\)</span> est une rotation et préciser son axe et\nson angle.</p>\n"
+      }
+    },
+    {
+      "id": "6303e896-01d3-492e-8115-8eb28ba287b0",
+      "type": "reponse",
+      "value": {
+        "latex": "axe dirigé par $\\vec u$,\n             $\\cos\\theta = \\frac{1-\\|\\vec u\\,\\|^2}{1+\\|\\vec u\\,\\|^2}$,\n             $\\sin\\theta = \\frac{-2\\|\\vec u\\,\\|}{1+\\|\\vec u\\,\\|^2}$.",
+        "html": "<p>axe dirigé par <span class=\"math inline\">\\(\\vec u\\)</span>, <span\nclass=\"math inline\">\\(\\cos\\theta = \\frac{1-\\|\\vec u\\,\\|^2}{1+\\|\\vec\nu\\,\\|^2}\\)</span>, <span class=\"math inline\">\\(\\sin\\theta =\n\\frac{-2\\|\\vec u\\,\\|}{1+\\|\\vec u\\,\\|^2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien orienté de dimension 3, <span class=\"math inline\">\\({\\cal\nB}\\)</span> une ..."
+}

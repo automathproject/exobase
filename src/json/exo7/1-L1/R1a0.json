@@ -1,0 +1,53 @@
+{
+  "uuid": "R1a0",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7201",
+    "auteur": "megy",
+    "createdAt": "2019-07-23",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Relation d'équivalence, relation d'ordre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:23.769Z"
+  },
+  "contenu": [
+    {
+      "id": "7f829fb7-f589-4201-9368-3092ba4387df",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E=\\R^\\R$ l'ensemble des fonctions de $\\R$ dans $\\R$ et $f, g\\in E$. On dit que $f$ et $g$ ont \\og même germe en zéro\\fg{} et on note $f \\underset{0}{=} g$ si:\r\n\\[  \\exists \\epsilon>0, f|_{]-\\epsilon,\\epsilon[} = g|_{]-\\epsilon,\\epsilon[} \\]",
+        "html": "<p>Soit <span class=\"math inline\">\\(E=\\R^\\R\\)</span> l’ensemble des\nfonctions de <span class=\"math inline\">\\(\\R\\)</span> dans <span\nclass=\"math inline\">\\(\\R\\)</span> et <span class=\"math inline\">\\(f, g\\in\nE\\)</span>. On dit que <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> ont même germe en zéro et on note <span\nclass=\"math inline\">\\(f \\underset{0}{=} g\\)</span> si: <span\nclass=\"math display\">\\[\\exists \\epsilon&gt;0, f|_{]-\\epsilon,\\epsilon[}\n= g|_{]-\\epsilon,\\epsilon[}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "324541b4-1c07-4d04-b17f-60bbb4694385",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\underset{0}{=}$ est une relation d'équivalence sur $E$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\underset{0}{=}\\)</span> est\nune relation d’équivalence sur <span\nclass=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6d6d58dc-7f2c-4aa0-90f8-ed9661bdf559",
+      "type": "question",
+      "value": {
+        "latex": "Montrer  que si $f \\underset{0}{=} g$ alors $f(0)=g(0)$, mais que la réciproque est fausse.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(f \\underset{0}{=}\ng\\)</span> alors <span class=\"math inline\">\\(f(0)=g(0)\\)</span>, mais\nque la réciproque est fausse.</p>\n"
+      }
+    },
+    {
+      "id": "d283c9d6-8474-4634-a069-558d76552aa3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer également que pour tout $a\\in \\R^*$, il existe deux fonctions $f$ et $g$ avec $f \\underset{0}{=} g$ et $f(a)\\neq g(a)$.",
+        "html": "<p>Montrer également que pour tout <span class=\"math inline\">\\(a\\in\n\\R^*\\)</span>, il existe deux fonctions <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> avec <span class=\"math inline\">\\(f\n\\underset{0}{=} g\\)</span> et <span class=\"math inline\">\\(f(a)\\neq\ng(a)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E=\\R^\\R\\)</span> l’ensemble des\nfonctions de <span class=\"math inline\">\\(\\R\\)</span> dans <span\nclass=\"math inline ..."
+}

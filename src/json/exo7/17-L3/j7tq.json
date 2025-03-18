@@ -1,0 +1,61 @@
+{
+  "uuid": "j7tq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2237",
+    "auteur": "matos",
+    "createdAt": "2008-04-23",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:31.834Z"
+  },
+  "contenu": [
+    {
+      "id": "bd273353-051f-4cb8-888f-79d71feea949",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A=I-E-E^*$ une matrice carr\\'ee d'ordre $N$ o\\`u $E$ est une matrice strictement triangulaire inf\\'erieure ($e_{ij}=0$ pour $i\\leq j$). Pour r\\'esoudre le syst\\`eme $Ax=b\n$, on propose la m\\'ethode it\\'erative d\\'efinie par\n$$\\left\\{ \\begin{array}{ccc}\n(I-E)x_{2k+1}&=& E^* x_{2k} + b\\\\\n(I-E^*)x_{2k+2}&=& E x_{2k+1} + b\n\\end{array}\\right.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(A=I-E-E^*\\)</span> une matrice\ncarrée d’ordre <span class=\"math inline\">\\(N\\)</span> où <span\nclass=\"math inline\">\\(E\\)</span> est une matrice strictement\ntriangulaire inférieure (<span class=\"math inline\">\\(e_{ij}=0\\)</span>\npour <span class=\"math inline\">\\(i\\leq j\\)</span>). Pour résoudre le\nsystème <span class=\"math inline\">\\(Ax=b\\)</span>, on propose la méthode\nitérative définie par <span class=\"math display\">\\[\\left\\{\n\\begin{array}{ccc}\n(I-E)x_{2k+1}&amp;=&amp; E^* x_{2k} + b\\\\\n(I-E^*)x_{2k+2}&amp;=&amp; E x_{2k+1} + b\n\\end{array}\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "7a14a7d3-507c-40fd-bf68-a7c10d79f397",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer $B$ et $c$ pour que l'on ait:\n$$x_{2k+2} =Bx_{2k} +c .$$\nV\\'erifier que $B=M^{-1}N $ et $A=M-N$ avec $M=(I-E)(I-E^*)$ , $N=EE^*$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(B\\)</span> et <span\nclass=\"math inline\">\\(c\\)</span> pour que l’on ait: <span\nclass=\"math display\">\\[x_{2k+2} =Bx_{2k} +c .\\]</span> Vérifier que\n<span class=\"math inline\">\\(B=M^{-1}N\\)</span> et <span\nclass=\"math inline\">\\(A=M-N\\)</span> avec <span\nclass=\"math inline\">\\(M=(I-E)(I-E^*)\\)</span> , <span\nclass=\"math inline\">\\(N=EE^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "418fc8da-7481-40a5-b90a-647b6140ed5f",
+      "type": "reponse",
+      "value": {
+        "latex": "On a $x_{2k+1}=(I-E)^{-1}E^*x_{2k}+(I-E)^{-1}b$ et donc\n$$x_{2k+2}=(I-E^*)^{-1}E(I-E)^{-1}E^*x_{2k}+(I-E^*)^{-1}E(I-E)^{-1}b +\n(I-E^*)^{-1}b$$\nMais $E(I-E)^{-1}=(I-E)^{-1}E$ et alors\n$$x_{2k+2}=(I-E^*)^{-1}(I-E)^{-1}EE^*x_{2k}+\n(I-E^*)^{-1}(I-E)^{-1}(E+I-E)b=M^{-1}Nx_{2k}+M^{-1}b$$\navec\n$$M=(I-E)(I-E^*),\\quad N=EE^*,\\quad M-N=I-E-E^*=A$$",
+        "html": "<p>On a <span\nclass=\"math inline\">\\(x_{2k+1}=(I-E)^{-1}E^*x_{2k}+(I-E)^{-1}b\\)</span>\net donc <span\nclass=\"math display\">\\[x_{2k+2}=(I-E^*)^{-1}E(I-E)^{-1}E^*x_{2k}+(I-E^*)^{-1}E(I-E)^{-1}b\n+\n(I-E^*)^{-1}b\\]</span> Mais <span\nclass=\"math inline\">\\(E(I-E)^{-1}=(I-E)^{-1}E\\)</span> et alors <span\nclass=\"math display\">\\[x_{2k+2}=(I-E^*)^{-1}(I-E)^{-1}EE^*x_{2k}+\n(I-E^*)^{-1}(I-E)^{-1}(E+I-E)b=M^{-1}Nx_{2k}+M^{-1}b\\]</span> avec <span\nclass=\"math display\">\\[M=(I-E)(I-E^*),\\quad N=EE^*,\\quad\nM-N=I-E-E^*=A\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "aea54f19-22a3-4217-bdf6-691b1e9a1429",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $M^*+N$ est une matrice d\\'efinie positive. En d\\'eduire une condition n\\'ecessaire et suffisante pour la convergence de la m\\'ethode.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(M^*+N\\)</span> est une\nmatrice définie positive. En déduire une condition nécessaire et\nsuffisante pour la convergence de la méthode.</p>\n"
+      }
+    },
+    {
+      "id": "52030d8a-341f-461f-8f03-b0dd7a00ac25",
+      "type": "reponse",
+      "value": {
+        "latex": "$M^*+N=I-E-E^*+2EE^* $ et donc\n\n$v^*(M^*+N)v=\\|v\\|_2^2-v^*Ev-v^*E^*v+2v^*EE^*v=\\|E^*v\\|_2^2+(\\|v\\|_2^2+\\|E^*v\\|_2^2-2\\mbox{Re}(v,E^*v))$\nOn a l'in\\'egalit\\'e\n$$-2\\|v\\|\\|E^*v\\|\\leq -2|(v,E^*v)|\\leq -2|\\mbox{Re}(v,E^*v)|$$\net donc\n$$(\\|v\\|_2-\\|E^*v\\|_2)^2\\leq \\|v\\|_2^2\n+\\|E^*v\\|_2^2-2\\mbox{Re}(v,E^*v)\\Rightarrow$$\n$v^*(M^*+N)v\\geq \\|E^*v\\|_2^2 +(\\|v\\|-\\|E^*v\\|_2)^2$ implique que\n$$v^*(M^*+N)b=0\\Leftrightarrow \\|E^*v\\|_2=0 \\mbox{ et }\\|v\\|_2=\\|E^*v\\|_2\\Leftrightarrow\n\\|v\\|_2=0$$\nDonc $M^*+N$ est d\\'efinie positive et en appliquant un r\\'esultat d'un\nexercice pr\\'ec\\'edent on conclut que la m\\'ethode converge ssi $A$ est\nd\\'efinie positive.",
+        "html": "<p><span class=\"math inline\">\\(M^*+N=I-E-E^*+2EE^*\\)</span> et donc</p>\n<p><span\nclass=\"math inline\">\\(v^*(M^*+N)v=\\|v\\|_2^2-v^*Ev-v^*E^*v+2v^*EE^*v=\\|E^*v\\|_2^2+(\\|v\\|_2^2+\\|E^*v\\|_2^2-2\\mbox{Re}(v,E^*v))\\)</span>\nOn a l’inégalité <span class=\"math display\">\\[-2\\|v\\|\\|E^*v\\|\\leq\n-2|(v,E^*v)|\\leq -2|\\mbox{Re}(v,E^*v)|\\]</span> et donc <span\nclass=\"math display\">\\[(\\|v\\|_2-\\|E^*v\\|_2)^2\\leq \\|v\\|_2^2\n+\\|E^*v\\|_2^2-2\\mbox{Re}(v,E^*v)\\Rightarrow\\]</span> <span\nclass=\"math inline\">\\(v^*(M^*+N)v\\geq \\|E^*v\\|_2^2\n+(\\|v\\|-\\|E^*v\\|_2)^2\\)</span> implique que <span\nclass=\"math display\">\\[v^*(M^*+N)b=0\\Leftrightarrow \\|E^*v\\|_2=0 \\mbox{\net }\\|v\\|_2=\\|E^*v\\|_2\\Leftrightarrow\n\\|v\\|_2=0\\]</span> Donc <span class=\"math inline\">\\(M^*+N\\)</span> est\ndéfinie positive et en appliquant un résultat d’un exercice précédent on\nconclut que la méthode converge ssi <span\nclass=\"math inline\">\\(A\\)</span> est définie positive.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A=I-E-E^*\\)</span> une matrice\ncarrée d’ordre <span class=\"math inline\">\\(N\\)</span> où <span\nclass=\"math inline\"> ..."
+}

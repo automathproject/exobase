@@ -1,0 +1,53 @@
+{
+  "uuid": "yPkp",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1568",
+    "auteur": "ridde",
+    "createdAt": "1999-11-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Endomorphisme particulier",
+    "sousChapitre": "Endomorphisme orthogonal",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:16.766Z"
+  },
+  "contenu": [
+    {
+      "id": "4d5533f4-1d38-46d9-aa65-39eae516304c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace euclidien et $u\\in O (E)$ telle que $\\ker (u-id) \\neq E$.\nSoit $x\\in E$ tel que $u (x) \\neq x$. On pose $y = u (x)$. Alors on sait qu'il\nexiste une unique r\\'eflexion $r$ telle que $r (y) = x$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace euclidien et\n<span class=\"math inline\">\\(u\\in O (E)\\)</span> telle que <span\nclass=\"math inline\">\\(\\ker (u-id) \\neq E\\)</span>. Soit <span\nclass=\"math inline\">\\(x\\in E\\)</span> tel que <span\nclass=\"math inline\">\\(u (x) \\neq x\\)</span>. On pose <span\nclass=\"math inline\">\\(y = u (x)\\)</span>. Alors on sait qu’il existe une\nunique réflexion <span class=\"math inline\">\\(r\\)</span> telle que <span\nclass=\"math inline\">\\(r (y) = x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "13d1cabb-ccc8-4bd8-949d-96adaec00d80",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\ker (u-id) \\subset \\ker (r-id)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\ker (u-id) \\subset \\ker\n(r-id)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8613b9ac-b5d5-4354-8bea-e9197ce2ced1",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\dim \\ker (r\\circ u-id) >\\dim \\ker (u-id)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\dim \\ker (r\\circ u-id)\n&gt;\\dim \\ker (u-id)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "968458e4-f9b7-439e-96c1-46b1766bb0f5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer par r\\'ecurrence que toute isom\\'etrie vectorielle est la compos\\'ee\nde r\\'eflexions.",
+        "html": "<p>Montrer par récurrence que toute isométrie vectorielle est la\ncomposée de réflexions.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace euclidien et\n<span class=\"math inline\">\\(u\\in O (E)\\)</span> telle que <span\nclass=\"math inli ..."
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "wi0e",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4984",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Courbes planes",
+    "sousChapitre": "Courbes paramétrées",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:24.090Z"
+  },
+  "contenu": [
+    {
+      "id": "5cc98d19-299d-4ed2-a6b3-1170abca6436",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les points d'inflexion des courbes paramétrées suivantes :",
+        "html": "<p>Déterminer les points d’inflexion des courbes paramétrées suivantes\n:</p>\n"
+      }
+    },
+    {
+      "id": "fde63e34-95e5-47ce-9295-f4d061ce7ecb",
+      "type": "question",
+      "value": {
+        "latex": "$x=\\sin t$,\\quad             $y=\\frac{\\cos^2t}{2-\\cos t}$. (Bicorne)",
+        "html": "<p><span class=\"math inline\">\\(x=\\sin t\\)</span>,<span\nclass=\"math inline\">\\(y=\\frac{\\cos^2t}{2-\\cos t}\\)</span>. (Bicorne)</p>\n"
+      }
+    },
+    {
+      "id": "003e04fb-e0ce-4b18-9397-15f0532af4c7",
+      "type": "question",
+      "value": {
+        "latex": "$x=\\sin\\frac t2$,\\quad      $y=\\tan t$.",
+        "html": "<p><span class=\"math inline\">\\(x=\\sin\\frac t2\\)</span>,<span\nclass=\"math inline\">\\(y=\\tan t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "708ba798-ac67-49a3-a146-7c664806c547",
+      "type": "question",
+      "value": {
+        "latex": "$x=\\frac{e^t}t$,\\quad       $y=te^t$.",
+        "html": "<p><span class=\"math inline\">\\(x=\\frac{e^t}t\\)</span>,<span\nclass=\"math inline\">\\(y=te^t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e4acd77e-37b7-4fba-9aa1-44bc73f34c93",
+      "type": "question",
+      "value": {
+        "latex": "$x=\\sin t\\cos2t$,\\quad       $y=\\cos t\\sin2t$.",
+        "html": "<p><span class=\"math inline\">\\(x=\\sin t\\cos2t\\)</span>,<span\nclass=\"math inline\">\\(y=\\cos t\\sin2t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a7b01c90-5aef-4224-a52d-616a8be98ef4",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\left(\\frac{y'}{x'}\\right)' = \\frac{2t(t^2-t-1)}{(t-1)^2}\n               \\Rightarrow  t = \\frac{1\\pm\\sqrt5}2$.\n$\\det(M',M'')=\\frac32\\sin4t+3\\sin2t \\Rightarrow t=k\\pi$.",
+        "html": "<p><span class=\"math inline\">\\(\\left(\\frac{y&#39;}{x&#39;}\\right)&#39; =\n\\frac{2t(t^2-t-1)}{(t-1)^2}\n               \\Rightarrow  t = \\frac{1\\pm\\sqrt5}2\\)</span>. <span\nclass=\"math inline\">\\(\\det(M&#39;,M&#39;&#39;)=\\frac32\\sin4t+3\\sin2t\n\\Rightarrow t=k\\pi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les points d’inflexion des courbes paramétrées suivantes\n:</p>\n"
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "f5at",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4833",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:39.448Z"
+  },
+  "contenu": [
+    {
+      "id": "25622cb1-3958-4a44-b85d-06cb1a17713a",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel norm{\\'e},\n$(K_n)$ une suite d{\\'e}croissante de compacts non vides de $E$ et $K = \\bigcap_n K_n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnorm<span>é</span>, <span class=\"math inline\">\\((K_n)\\)</span> une suite\nd<span>é</span>croissante de compacts non vides de <span\nclass=\"math inline\">\\(E\\)</span> et <span class=\"math inline\">\\(K =\n\\bigcap_n K_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "97ccc668-59f6-4fd2-8631-d222448a9019",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $K \\ne \\varnothing$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(K \\ne\n\\varnothing\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7350939b-7427-40d3-a46b-cfddeb4e7207",
+      "type": "question",
+      "value": {
+        "latex": "Soit $U$ un ouvert contenant $K$. Montrer qu'il existe $n$ tel que $K_n \\subset U$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(U\\)</span> un ouvert contenant <span\nclass=\"math inline\">\\(K\\)</span>. Montrer qu’il existe <span\nclass=\"math inline\">\\(n\\)</span> tel que <span class=\"math inline\">\\(K_n\n\\subset U\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "18906032-786f-47d2-b560-6bda9f5a02fa",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\delta(K) = \\lim_{n\\to\\infty} \\delta(K_n)$ ($\\delta$ est le diam{\\`e}tre).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\delta(K) = \\lim_{n\\to\\infty}\n\\delta(K_n)\\)</span> (<span class=\"math inline\">\\(\\delta\\)</span> est le\ndiam<span>è</span>tre).</p>\n"
+      }
+    },
+    {
+      "id": "4b5cbcd7-fa00-4fd0-827f-c9ea5bf1d73b",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\ell = \\lim_{n\\to\\infty} \\delta(K_n)$.\nIl existe $x_n,y_n \\in K_n$ tels que $d(x_n,y_n) = \\delta(K_n)$.\nApr{\\`e}s extraction de sous-suites, on peut supposer que $x_n \\to x$ et\n$y_n \\to y$. Pour $\\varepsilon > 0$, $(\\overline B(x,\\varepsilon) \\cap K_n)$\net $(\\overline B(y,\\varepsilon) \\cap K_n)$ forment des suites d{\\'e}croissantes de\ncompacts non vides, donc $\\overline B(x,\\varepsilon) \\cap K$ et $\\overline B(y,\\varepsilon) \\cap K$\nsont non vides. Par cons{\\'e}quent, $\\delta(K) \\ge \\ell - 2\\varepsilon$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\ell = \\lim_{n\\to\\infty}\n\\delta(K_n)\\)</span>. Il existe <span class=\"math inline\">\\(x_n,y_n \\in\nK_n\\)</span> tels que <span class=\"math inline\">\\(d(x_n,y_n) =\n\\delta(K_n)\\)</span>. Apr<span>è</span>s extraction de sous-suites, on\npeut supposer que <span class=\"math inline\">\\(x_n \\to x\\)</span> et\n<span class=\"math inline\">\\(y_n \\to y\\)</span>. Pour <span\nclass=\"math inline\">\\(\\varepsilon &gt; 0\\)</span>, <span\nclass=\"math inline\">\\((\\overline B(x,\\varepsilon) \\cap K_n)\\)</span> et\n<span class=\"math inline\">\\((\\overline B(y,\\varepsilon) \\cap\nK_n)\\)</span> forment des suites d<span>é</span>croissantes de compacts\nnon vides, donc <span class=\"math inline\">\\(\\overline B(x,\\varepsilon)\n\\cap K\\)</span> et <span class=\"math inline\">\\(\\overline\nB(y,\\varepsilon) \\cap K\\)</span> sont non vides. Par\ncons<span>é</span>quent, <span class=\"math inline\">\\(\\delta(K) \\ge \\ell\n- 2\\varepsilon\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnorm<span>é</span>, <span class=\"math inline\">\\((K_n)\\)</span> une suite\nd<span>é</ ..."
+}

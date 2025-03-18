@@ -1,0 +1,29 @@
+{
+  "uuid": "WTVw",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6834",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Connexité",
+    "sousChapitre": "Connexité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:46.172Z"
+  },
+  "contenu": [
+    {
+      "id": "d0a079ec-5881-4ec2-bc85-aae4bd597373",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ un espace topologique connexe, soit $\\mathcal{U}$ un\nrecouvrement de $X$ par ouverts et soit $x_0 \\in X$ un\npoint de $X$. \nOn dit que $x$ est $n$-éloigné de $x_0$ s'il existe\n$U_0, \\dots, U_n \\in \\mathcal{U}$ tels  que $x_0 \\in U_0$,\n$U_{i-1} \\cap U_i \\neq \\emptyset$, $i=1, \\dots, n$ et\n$x\\in U_n$. Prenez le temps de dessiner ce que veut dire\n$n$-éloigné. On définit l'ensemble $A\\subset X$ par\n$$ \nA = \\{ \\,x\\in X \\mid \\exists n \\in \\Nn : \\text{$x$ est\n$n$-éloigné de $x_0$}\\,\\}\n\\ .\n$$\nDémontrer que $A$ est ouvert et fermé dans $X$. En\ndéduire que $A=X$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace topologique\nconnexe, soit <span class=\"math inline\">\\(\\mathcal{U}\\)</span> un\nrecouvrement de <span class=\"math inline\">\\(X\\)</span> par ouverts et\nsoit <span class=\"math inline\">\\(x_0 \\in X\\)</span> un point de <span\nclass=\"math inline\">\\(X\\)</span>. On dit que <span\nclass=\"math inline\">\\(x\\)</span> est <span\nclass=\"math inline\">\\(n\\)</span>-éloigné de <span\nclass=\"math inline\">\\(x_0\\)</span> s’il existe <span\nclass=\"math inline\">\\(U_0, \\dots, U_n \\in \\mathcal{U}\\)</span> tels que\n<span class=\"math inline\">\\(x_0 \\in U_0\\)</span>, <span\nclass=\"math inline\">\\(U_{i-1} \\cap U_i \\neq \\emptyset\\)</span>, <span\nclass=\"math inline\">\\(i=1, \\dots, n\\)</span> et <span\nclass=\"math inline\">\\(x\\in U_n\\)</span>. Prenez le temps de dessiner ce\nque veut dire <span class=\"math inline\">\\(n\\)</span>-éloigné. On définit\nl’ensemble <span class=\"math inline\">\\(A\\subset X\\)</span> par <span\nclass=\"math display\">\\[A = \\{ \\,x\\in X \\mid \\exists n \\in \\Nn :\n\\text{$x$ est\n$n$-éloigné de $x_0$}\\,\\}\n\\ .\\]</span> Démontrer que <span class=\"math inline\">\\(A\\)</span> est\nouvert et fermé dans <span class=\"math inline\">\\(X\\)</span>. En déduire\nque <span class=\"math inline\">\\(A=X\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace topologique\nconnexe, soit <span class=\"math inline\">\\(\\mathcal{U}\\)</span> un\nrecouvrement de ..."
+}

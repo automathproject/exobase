@@ -1,0 +1,45 @@
+{
+  "uuid": "Szs4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7206",
+    "auteur": "megy",
+    "createdAt": "2019-07-23",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Relation d'équivalence, relation d'ordre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:33.886Z"
+  },
+  "contenu": [
+    {
+      "id": "92c1a8f6-7ebc-42e8-9b5d-06fa38c26d85",
+      "type": "description",
+      "value": {
+        "latex": "(Cône sur un ensemble) \r\nSoit $X$ un ensemble et $Y = X\\times [0,1]$. Soit $\\mathcal R$ la relation d'équivalence la plus fine  sur $Y$ telle que $\\forall x,x'\\in X, (x,0)\\mathcal R (x',0)$.",
+        "html": "<p>(Cône sur un ensemble) Soit <span class=\"math inline\">\\(X\\)</span> un\nensemble et <span class=\"math inline\">\\(Y = X\\times [0,1]\\)</span>. Soit\n<span class=\"math inline\">\\(\\mathcal R\\)</span> la relation\nd’équivalence la plus fine sur <span class=\"math inline\">\\(Y\\)</span>\ntelle que <span class=\"math inline\">\\(\\forall x,x&#39;\\in X,\n(x,0)\\mathcal R (x&#39;,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "355a2d49-de00-465b-86d5-c6ce805c8f8e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $(x,t)\\mathcal R (x',t') \\iff \\left(t=t'=0)\\text{ ou } (x,t)=(x',t')\\right)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\((x,t)\\mathcal R\n(x&#39;,t&#39;) \\iff \\left(t=t&#39;=0)\\text{ ou }\n(x,t)=(x&#39;,t&#39;)\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "949ee0ff-0054-4aec-b674-55bbfd393a33",
+      "type": "question",
+      "value": {
+        "latex": "Le cône sur $X$, noté $\\operatorname{Cone}(X)$, est par définition $Y/\\mathcal R$. Le nom de \\og cône\\fg{} peut s'expliquer à l'aide de l'exemple suivant. Définir une bijection entre $\\operatorname{Cone}(\\mathbb S^1)$ et l'ensemble\r\n\\[ \\left\\{(x,y,z)\\in \\R^3\\:\\middle|\\: z^2=x^2+y^2, \\text{ et } 0\\leq z \\leq 1\\right\\}\\]\r\n(qui est un vrai cône au sens usuel: faire un dessin).",
+        "html": "<p>Le cône sur <span class=\"math inline\">\\(X\\)</span>, noté <span\nclass=\"math inline\">\\(\\operatorname{Cone}(X)\\)</span>, est par\ndéfinition <span class=\"math inline\">\\(Y/\\mathcal R\\)</span>. Le nom de\ncône peut s’expliquer à l’aide de l’exemple suivant. Définir une\nbijection entre <span class=\"math inline\">\\(\\operatorname{Cone}(\\mathbb\nS^1)\\)</span> et l’ensemble <span\nclass=\"math display\">\\[\\left\\{(x,y,z)\\in \\R^3\\:\\middle|\\: z^2=x^2+y^2,\n\\text{ et } 0\\leq z \\leq 1\\right\\}\\]</span> (qui est un vrai cône au\nsens usuel: faire un dessin).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>(Cône sur un ensemble) Soit <span class=\"math inline\">\\(X\\)</span> un\nensemble et <span class=\"math inline\">\\(Y = X\\times [0,1]\\)</span>. Soit\n<spa ..."
+}

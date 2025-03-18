@@ -1,0 +1,101 @@
+{
+  "uuid": "SdFM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2870",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:45.132Z"
+  },
+  "contenu": [
+    {
+      "id": "13b974d3-bfc8-48b0-b7e3-1788810bc64c",
+      "type": "description",
+      "value": {
+        "latex": "Le but de ce problème est d'établir les deux formules importantes:\n\\[ \\forall z\\in\\Cc\\setminus\\Zz\\quad \\frac\\pi{\\sin \\pi z} = \\frac1{z} +\n\\lim_{\\substack{N\\to+\\infty \\\\ M\\to+\\infty}} \n\\sum_{\\substack{-M\\leq n \\leq N \\\\ n\\neq0}}\n\\frac{(-1)^n}{z-n} = \\frac1z + \\sum_{n=1}^\\infty (-1)^n\\frac{2z}{z^2-n^2}\\] \n\\[\\forall z\\in\\Cc\\qquad \\sin(\\pi z) = \\lim_{N\\to\\infty} \\pi z\\prod_{n=1}^N (1 -\n\\frac{z^2}{n^2})\\]",
+        "html": "<p>Le but de ce problème est d’établir les deux formules importantes:\n<span class=\"math display\">\\[\\forall z\\in\\Cc\\setminus\\Zz\\quad\n\\frac\\pi{\\sin \\pi z} = \\frac1{z} +\n\\lim_{\\substack{N\\to+\\infty \\\\ M\\to+\\infty}}\n\\sum_{\\substack{-M\\leq n \\leq N \\\\ n\\neq0}}\n\\frac{(-1)^n}{z-n} = \\frac1z + \\sum_{n=1}^\\infty\n(-1)^n\\frac{2z}{z^2-n^2}\\]</span> <span class=\"math display\">\\[\\forall\nz\\in\\Cc\\qquad \\sin(\\pi z) = \\lim_{N\\to\\infty} \\pi z\\prod_{n=1}^N (1 -\n\\frac{z^2}{n^2})\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "86b16826-afa8-4c70-9cd5-20307961622f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer la convergence de la série\n$\\sum_{n=1}^\\infty \\frac{(-1)^n}{z-n}$ (regarder les sommes\npartielles pour les indices pairs).",
+        "html": "<p>Montrer la convergence de la série <span\nclass=\"math inline\">\\(\\sum_{n=1}^\\infty \\frac{(-1)^n}{z-n}\\)</span>\n(regarder les sommes partielles pour les indices pairs).</p>\n"
+      }
+    },
+    {
+      "id": "306d3a11-2310-4d8b-aa7b-c2916dc1e249",
+      "type": "question",
+      "value": {
+        "latex": "On pose $f(w) =  \\frac\\pi{\\sin \\pi\nw}$. Soit $z\\notin\\Zz$ fixé, soit $N>|z|-\\frac12$ et ${\\cal R}_N$ le carré\n$\\{|x|\\leq N+\\frac12$, $|y|\\leq N+\\frac12\\}$, et $C_N =\n\\partial {\\cal R}_N$ son\nbord parcouru dans le sens direct. Exprimer $\\frac1{2\\pi i}\n\\int_{C_N} \\frac{f(w)}{w-z}dw$ à l'aide du Théorème\ndes résidus.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(w) =  \\frac\\pi{\\sin \\pi\nw}\\)</span>. Soit <span class=\"math inline\">\\(z\\notin\\Zz\\)</span> fixé,\nsoit <span class=\"math inline\">\\(N&gt;|z|-\\frac12\\)</span> et <span\nclass=\"math inline\">\\({\\cal R}_N\\)</span> le carré <span\nclass=\"math inline\">\\(\\{|x|\\leq N+\\frac12\\)</span>, <span\nclass=\"math inline\">\\(|y|\\leq N+\\frac12\\}\\)</span>, et <span\nclass=\"math inline\">\\(C_N =\n\\partial {\\cal R}_N\\)</span> son bord parcouru dans le sens direct.\nExprimer <span class=\"math inline\">\\(\\frac1{2\\pi i}\n\\int_{C_N} \\frac{f(w)}{w-z}dw\\)</span> à l’aide du Théorème des\nrésidus.</p>\n"
+      }
+    },
+    {
+      "id": "14119edb-c746-4257-9352-75dfd5bedcec",
+      "type": "question",
+      "value": {
+        "latex": "Montrer $\\int_{C_N} \\frac{f(w)}w dw = 0$ (on notera que $f$ est\nimpaire) et en déduire :\n\\[ \\frac1{2\\pi i} \\int_{C_N} \\frac{f(w)}{w-z}dw =\n\\frac1{2\\pi i} \\int_{C_N} \\frac\\pi{\\sin \\pi \nw}\\frac{z}{w(w-z)}dw\\]",
+        "html": "<p>Montrer <span class=\"math inline\">\\(\\int_{C_N} \\frac{f(w)}w dw =\n0\\)</span> (on notera que <span class=\"math inline\">\\(f\\)</span> est\nimpaire) et en déduire : <span class=\"math display\">\\[\\frac1{2\\pi i}\n\\int_{C_N} \\frac{f(w)}{w-z}dw =\n\\frac1{2\\pi i} \\int_{C_N} \\frac\\pi{\\sin \\pi\nw}\\frac{z}{w(w-z)}dw\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "88459d4e-54ab-4b19-8ece-10e1e4276428",
+      "type": "question",
+      "value": {
+        "latex": "On rappelle l'identité $\\sin(w) = \\sin(x)\\ch(y) + i\n\\cos(x)\\sh(y)$ pour $w=x+iy$. Montrer $|\\sin w|^2 = \\sin^2\nx + \\sh^2 y$ ($x,y\\in\\Rr\\dots$). En déduire $|\\sin(\\pi w)| = \\ch(\\pi\ny)\\geq 1$ sur les bords verticaux du carré et $|\\sin(\\pi w)|\n\\geq \\sh(\\pi(N+\\frac12))\\geq \\sh(\\pi\\frac12) =\n2.301\\dots\\geq1$ sur les bords horizontaux. \nConclure la preuve de\n\\[ \\frac\\pi{\\sin \\pi z} = \\frac1z + \\sum_{n=1}^\\infty\n(-1)^n\\frac{2z}{z^2-n^2}\\]  \navec convergence uniforme pour $|z|$ borné.",
+        "html": "<p>On rappelle l’identité <span class=\"math inline\">\\(\\sin(w) =\n\\sin(x)\\ch(y) + i\n\\cos(x)\\sh(y)\\)</span> pour <span class=\"math inline\">\\(w=x+iy\\)</span>.\nMontrer <span class=\"math inline\">\\(|\\sin w|^2 = \\sin^2\nx + \\sh^2 y\\)</span> (<span\nclass=\"math inline\">\\(x,y\\in\\Rr\\dots\\)</span>). En déduire <span\nclass=\"math inline\">\\(|\\sin(\\pi w)| = \\ch(\\pi\ny)\\geq 1\\)</span> sur les bords verticaux du carré et <span\nclass=\"math inline\">\\(|\\sin(\\pi w)|\n\\geq \\sh(\\pi(N+\\frac12))\\geq \\sh(\\pi\\frac12) =\n2.301\\dots\\geq1\\)</span> sur les bords horizontaux. Conclure la preuve\nde <span class=\"math display\">\\[\\frac\\pi{\\sin \\pi z} = \\frac1z +\n\\sum_{n=1}^\\infty\n(-1)^n\\frac{2z}{z^2-n^2}\\]</span> avec convergence uniforme pour <span\nclass=\"math inline\">\\(|z|\\)</span> borné.</p>\n"
+      }
+    },
+    {
+      "id": "db8dac29-a6fc-41f0-9a0f-a94b8346dce0",
+      "type": "question",
+      "value": {
+        "latex": "Reprendre la même technique et prouver:\n\\[ \\forall z\\in\\Cc\\setminus\\Zz\\quad\\frac{\\pi \\cos(\\pi\nz)}{\\sin(\\pi z)} = \\lim_{N\\to\\infty} \n\\sum_{-N\\leq n\\leq N} \\frac1{z-n} = \\frac1z +\n\\sum_{n=1}^\\infty \\frac{2z}{z^2-n^2}\\;,\\]\navec convergence uniforme pour $|z|$ borné.",
+        "html": "<p>Reprendre la même technique et prouver: <span\nclass=\"math display\">\\[\\forall z\\in\\Cc\\setminus\\Zz\\quad\\frac{\\pi\n\\cos(\\pi\nz)}{\\sin(\\pi z)} = \\lim_{N\\to\\infty}\n\\sum_{-N\\leq n\\leq N} \\frac1{z-n} = \\frac1z +\n\\sum_{n=1}^\\infty \\frac{2z}{z^2-n^2}\\;,\\]</span> avec convergence\nuniforme pour <span class=\"math inline\">\\(|z|\\)</span> borné.</p>\n"
+      }
+    },
+    {
+      "id": "0bcfe1be-34e0-43fe-bc5e-eb5eb7eccc4d",
+      "type": "question",
+      "value": {
+        "latex": "On veut maintenant prouver: $\\sin(\\pi z) = \\lim_{N\\to\\infty}\n\\pi z\\prod_{n=1}^N (1 - \n\\frac{z^2}{n^2})$\n\nOn fixe une fois pour toutes $R>0$, et on va\nmontrer la formule pour $|z|<R$. \nSoit $N$ avec $N>R$ et notons $f_N(z) =\n\\frac{\\pi z}{\\sin(\\pi z)}\\prod_{n=1}^N (1 - \\frac{z^2}{n^2})$, prolongé\npar continuité en les $n$, $|n|\\leq N$. Montrer que $f_N$\nest holomorphe et ne s'annule pas sur $D(0,R)$.",
+        "html": "<p>On veut maintenant prouver: <span class=\"math inline\">\\(\\sin(\\pi z) =\n\\lim_{N\\to\\infty}\n\\pi z\\prod_{n=1}^N (1 -\n\\frac{z^2}{n^2})\\)</span></p>\n<p>On fixe une fois pour toutes <span\nclass=\"math inline\">\\(R&gt;0\\)</span>, et on va montrer la formule pour\n<span class=\"math inline\">\\(|z|&lt;R\\)</span>. Soit <span\nclass=\"math inline\">\\(N\\)</span> avec <span\nclass=\"math inline\">\\(N&gt;R\\)</span> et notons <span\nclass=\"math inline\">\\(f_N(z) =\n\\frac{\\pi z}{\\sin(\\pi z)}\\prod_{n=1}^N (1 - \\frac{z^2}{n^2})\\)</span>,\nprolongé par continuité en les <span class=\"math inline\">\\(n\\)</span>,\n<span class=\"math inline\">\\(|n|\\leq N\\)</span>. Montrer que <span\nclass=\"math inline\">\\(f_N\\)</span> est holomorphe et ne s’annule pas sur\n<span class=\"math inline\">\\(D(0,R)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "73c3957a-7d20-4f4f-8ffe-6d0e2b8aa409",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\gamma:[0,1]\\to\\Cc^*$ le chemin $\\gamma(t) =\nf_N(tz)$. On a donc $\\gamma(0) = 1$, $\\gamma(1) = f_N(z)$,\net $\\gamma(t)\\neq0$ pour tout $t$. Par un théorème démontré\nen cours (lequel?)\non a \n$\\gamma(1) = \\gamma(0)\\exp\\left(\\int_\\gamma \\frac{dw}w\\right) $.\nEn déduire $f_N(z) = \\exp\\left(\\int_0^1 \\frac{f_N'(tz)}{f_N(tz)}\nzdt\\right)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\gamma:[0,1]\\to\\Cc^*\\)</span> le\nchemin <span class=\"math inline\">\\(\\gamma(t) =\nf_N(tz)\\)</span>. On a donc <span class=\"math inline\">\\(\\gamma(0) =\n1\\)</span>, <span class=\"math inline\">\\(\\gamma(1) = f_N(z)\\)</span>, et\n<span class=\"math inline\">\\(\\gamma(t)\\neq0\\)</span> pour tout <span\nclass=\"math inline\">\\(t\\)</span>. Par un théorème démontré en cours\n(lequel?) on a <span class=\"math inline\">\\(\\gamma(1) =\n\\gamma(0)\\exp\\left(\\int_\\gamma \\frac{dw}w\\right)\\)</span>. En déduire\n<span class=\"math inline\">\\(f_N(z) = \\exp\\left(\\int_0^1\n\\frac{f_N&#39;(tz)}{f_N(tz)}\nzdt\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5626ae7b-698a-44d9-a702-9f2f08928d83",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\epsilon>0$. En utilisant la convergence uniforme pour\n $|z|$ borné\n du développement en fractions de $\\pi\\cotg(\\pi z)$,\nmontrer que pour $N$ suffisamment grand, on a $|f_N'(w)|\\leq\n \\epsilon |f_N(w)|$ pour tout $w\\in D(0,R)$, puis en déduire\n\\[ N\\gg0\\quad |z|<R \\implies\\quad |f_N(z)| \\leq e^{\\epsilon|z|} \\leq\n e^{\\epsilon R} \\]",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\epsilon&gt;0\\)</span>. En utilisant\nla convergence uniforme pour <span class=\"math inline\">\\(|z|\\)</span>\nborné du développement en fractions de <span\nclass=\"math inline\">\\(\\pi\\cotg(\\pi z)\\)</span>, montrer que pour <span\nclass=\"math inline\">\\(N\\)</span> suffisamment grand, on a <span\nclass=\"math inline\">\\(|f_N&#39;(w)|\\leq\n\\epsilon |f_N(w)|\\)</span> pour tout <span class=\"math inline\">\\(w\\in\nD(0,R)\\)</span>, puis en déduire <span class=\"math display\">\\[N\\gg0\\quad\n|z|&lt;R \\implies\\quad |f_N(z)| \\leq e^{\\epsilon|z|} \\leq\ne^{\\epsilon R}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "91a0abca-9355-49be-971c-4d51e60ea3cc",
+      "type": "question",
+      "value": {
+        "latex": "En déduire $\\lim_{N\\to\\infty} f_N(z) = 1$,\nuniformément sur $D(0,R)$. Conclure la\npreuve du produit infini de Euler pour $\\sin(z)$.",
+        "html": "<p>En déduire <span class=\"math inline\">\\(\\lim_{N\\to\\infty} f_N(z) =\n1\\)</span>, uniformément sur <span\nclass=\"math inline\">\\(D(0,R)\\)</span>. Conclure la preuve du produit\ninfini de Euler pour <span class=\"math inline\">\\(\\sin(z)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Le but de ce problème est d’établir les deux formules importantes:\n<span class=\"math display\"> ..."
+}

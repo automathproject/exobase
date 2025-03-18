@@ -1,0 +1,61 @@
+{
+  "uuid": "Ky60",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4488",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Familles sommables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:33.218Z"
+  },
+  "contenu": [
+    {
+      "id": "6b87d945-4f0e-4170-8e65-c233e9d61f7d",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "4cf1d926-85dc-4908-8a68-df69d1efa6b4",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f:\\R \\to \\R$ croissante. Montrer que l'ensemble des points\nde discontinuité de~$f$ est dénombrable (pour $[a,b]\\subset \\R$,\nconsidérer la famille $(f(x^+)-f(x^-))_{x\\in{[a,b]}}$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> croissante.\nMontrer que l’ensemble des points de discontinuité de <span\nclass=\"math inline\">\\(f\\)</span> est dénombrable (pour <span\nclass=\"math inline\">\\([a,b]\\subset \\R\\)</span>, considérer la famille\n<span class=\"math inline\">\\((f(x^+)-f(x^-))_{x\\in{[a,b]}}\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "4be932a8-4999-4d86-9be2-d2c085da5b68",
+      "type": "question",
+      "value": {
+        "latex": "Donner un exemple de fonction $f:\\R \\to \\R$ croissante ayant\nune infinité dénombrable de discontinuités.",
+        "html": "<p>Donner un exemple de fonction <span class=\"math inline\">\\(f:\\R \\to\n\\R\\)</span> croissante ayant une infinité dénombrable de\ndiscontinuités.</p>\n"
+      }
+    },
+    {
+      "id": "041143ed-92ac-4ca7-a85b-2449761ab4f9",
+      "type": "question",
+      "value": {
+        "latex": "$(**)$ Trouver une fonction $f:\\R \\to \\R$ {\\it strictement\\/} croissante dont\nl'ensemble des points de discontinuité est égal à~$\\Q$.",
+        "html": "<p><span class=\"math inline\">\\((**)\\)</span> Trouver une fonction <span\nclass=\"math inline\">\\(f:\\R \\to \\R\\)</span>\n<span><em>strictement</em></span> croissante dont l’ensemble des points\nde discontinuité est égal à <span class=\"math inline\">\\(\\Q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1e96d222-9ab6-4a9e-baa3-543837fe2716",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $(r_n)$ une énumération de~$Q$.\nOn pose $f(x) = \\sum_{r_n<x} \\frac 1{(n+1)^2}$.\n$f$ est strictement croissante car pour $x< y$ il existe $n\\in\\N$\ntel que $x< r_n< y$ donc $f(y)-f(x)\\ge \\frac1{(n+1)^2}$.\nSi $x\\in\\Q$, $x=r_k$ alors $f(x^+)-f(x^-)\\ge \\frac 1{(k+1)^2}$\nd'où $f$ est discontinue en~$x$.\nSi $x\\in\\R\\setminus\\Q$ et $n\\in\\N$ alors il existe un voisinage de~$x$\nne contenant aucun $r_i$, $i\\le n$ d'où\n\n$f(x^+)-f(x^-)\\le \\sum_{i> n}\\frac1{(i+1)^2}$\net $f$ est continue en~$x$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((r_n)\\)</span> une énumération\nde <span class=\"math inline\">\\(Q\\)</span>. On pose <span\nclass=\"math inline\">\\(f(x) = \\sum_{r_n&lt;x} \\frac 1{(n+1)^2}\\)</span>.\n<span class=\"math inline\">\\(f\\)</span> est strictement croissante car\npour <span class=\"math inline\">\\(x&lt; y\\)</span> il existe <span\nclass=\"math inline\">\\(n\\in\\N\\)</span> tel que <span\nclass=\"math inline\">\\(x&lt; r_n&lt; y\\)</span> donc <span\nclass=\"math inline\">\\(f(y)-f(x)\\ge \\frac1{(n+1)^2}\\)</span>. Si <span\nclass=\"math inline\">\\(x\\in\\Q\\)</span>, <span\nclass=\"math inline\">\\(x=r_k\\)</span> alors <span\nclass=\"math inline\">\\(f(x^+)-f(x^-)\\ge \\frac 1{(k+1)^2}\\)</span> d’où\n<span class=\"math inline\">\\(f\\)</span> est discontinue en <span\nclass=\"math inline\">\\(x\\)</span>. Si <span\nclass=\"math inline\">\\(x\\in\\R\\setminus\\Q\\)</span> et <span\nclass=\"math inline\">\\(n\\in\\N\\)</span> alors il existe un voisinage\nde <span class=\"math inline\">\\(x\\)</span> ne contenant aucun <span\nclass=\"math inline\">\\(r_i\\)</span>, <span class=\"math inline\">\\(i\\le\nn\\)</span> d’où</p>\n<p><span class=\"math inline\">\\(f(x^+)-f(x^-)\\le \\sum_{i&gt;\nn}\\frac1{(i+1)^2}\\)</span> et <span class=\"math inline\">\\(f\\)</span> est\ncontinue en <span class=\"math inline\">\\(x\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> croissante.\nMontrer que l’ensemble des points de discontinuité de <span\nclass=\"math inline\">\\ ..."
+}

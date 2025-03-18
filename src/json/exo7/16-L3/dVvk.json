@@ -1,0 +1,45 @@
+{
+  "uuid": "dVvk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6652",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:54.869Z"
+  },
+  "contenu": [
+    {
+      "id": "b4602cd2-1a81-4265-8979-56d288aeedd0",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "0832d6fe-ecf3-48c7-af58-a55fbe502037",
+      "type": "question",
+      "value": {
+        "latex": "Soient $\\rho $ un réel strictement positif, $z$ et $w$ des\nnombres complexes tels que $\\vert z\\vert >\\rho $ et $\\vert w\\vert\n>\\rho $, et $n$ un entier naturel.\n\nMontrer que \n$$\\left\\vert {1\\over w^n}-{1\\over z^n}\\right\\vert\\le \\vert z-w\\vert\n{n\\over \\rho ^{n+1}}$$\net que\n$$\\left\\vert {1\\over z-w}\\left({1\\over w^n}-{1\\over\nz^n}\\right)-{n\\over z^{n+1}}\\right\\vert =\n\\left\\vert\\sum_{k=1}^n\\left({1\\over w^n}-{1\\over z^n}\\right){1\\over\nz^{n-k+1}}\\right\\vert \\le \\vert z-w\\vert {n^2\\over \\rho ^{n+2}}$$\n\nSoient maintenant $\\sigma $ et $\\phi $ deux fonctions continues à\nvaleurs complexes définies sur un intervalle $I=[a,b]$. On fixe un point\n$z\\in \\C\\setminus \\sigma (I)$ et on pose $\\rho ={1\\over 2}\\inf_{a\\le\nt\\le b}\\vert \\sigma (t)-z\\vert $.",
+        "html": "<p>Soient <span class=\"math inline\">\\(\\rho\\)</span> un réel strictement\npositif, <span class=\"math inline\">\\(z\\)</span> et <span\nclass=\"math inline\">\\(w\\)</span> des nombres complexes tels que <span\nclass=\"math inline\">\\(\\vert z\\vert &gt;\\rho\\)</span> et <span\nclass=\"math inline\">\\(\\vert w\\vert\n&gt;\\rho\\)</span>, et <span class=\"math inline\">\\(n\\)</span> un entier\nnaturel.</p>\n<p>Montrer que <span class=\"math display\">\\[\\left\\vert {1\\over\nw^n}-{1\\over z^n}\\right\\vert\\le \\vert z-w\\vert\n{n\\over \\rho ^{n+1}}\\]</span> et que <span\nclass=\"math display\">\\[\\left\\vert {1\\over z-w}\\left({1\\over w^n}-{1\\over\nz^n}\\right)-{n\\over z^{n+1}}\\right\\vert =\n\\left\\vert\\sum_{k=1}^n\\left({1\\over w^n}-{1\\over z^n}\\right){1\\over\nz^{n-k+1}}\\right\\vert \\le \\vert z-w\\vert {n^2\\over \\rho\n^{n+2}}\\]</span></p>\n<p>Soient maintenant <span class=\"math inline\">\\(\\sigma\\)</span> et\n<span class=\"math inline\">\\(\\phi\\)</span> deux fonctions continues à\nvaleurs complexes définies sur un intervalle <span\nclass=\"math inline\">\\(I=[a,b]\\)</span>. On fixe un point <span\nclass=\"math inline\">\\(z\\in \\C\\setminus \\sigma (I)\\)</span> et on pose\n<span class=\"math inline\">\\(\\rho ={1\\over 2}\\inf_{a\\le\nt\\le b}\\vert \\sigma (t)-z\\vert\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "187a59fb-17e1-4a43-9c7f-717f5287eca0",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\displaystyle g(z)=\\int_a^b{\\phi (t)\\over (\\sigma (t)-z)^n}dt$.\nEn remplaçant dans a) $z$ par $\\sigma (t)-z$ et $w$ par $\\sigma\n(t)-z-h$ avec $\\vert h\\vert <\\rho $, montrer que\n$$\\left\\vert {g(z+h)-g(z)\\over h}-n\\int_a^b{\\phi (t)\\over (\\sigma\n(t)-z)^{n+1}}dt\\right\\vert\\le {\\vert h\\vert n^2\\over \\rho\n^{n+2}}\\int_a^b\\vert \\phi (t)\\vert dt$$\n\nEn déduire que $g(z)$ est holomorphe sur $\\C\\setminus \\sigma (I)$ et\nque $g'$ est donnée par\n$$g'(z)=n\\int_a^b{\\phi (t)\\over (\\sigma (t)-z)^{n+1}}dt$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\displaystyle g(z)=\\int_a^b{\\phi\n(t)\\over (\\sigma (t)-z)^n}dt\\)</span>. En remplaçant dans a) <span\nclass=\"math inline\">\\(z\\)</span> par <span class=\"math inline\">\\(\\sigma\n(t)-z\\)</span> et <span class=\"math inline\">\\(w\\)</span> par <span\nclass=\"math inline\">\\(\\sigma\n(t)-z-h\\)</span> avec <span class=\"math inline\">\\(\\vert h\\vert\n&lt;\\rho\\)</span>, montrer que <span class=\"math display\">\\[\\left\\vert\n{g(z+h)-g(z)\\over h}-n\\int_a^b{\\phi (t)\\over (\\sigma\n(t)-z)^{n+1}}dt\\right\\vert\\le {\\vert h\\vert n^2\\over \\rho\n^{n+2}}\\int_a^b\\vert \\phi (t)\\vert dt\\]</span></p>\n<p>En déduire que <span class=\"math inline\">\\(g(z)\\)</span> est\nholomorphe sur <span class=\"math inline\">\\(\\C\\setminus \\sigma\n(I)\\)</span> et que <span class=\"math inline\">\\(g&#39;\\)</span> est\ndonnée par <span class=\"math display\">\\[g&#39;(z)=n\\int_a^b{\\phi\n(t)\\over (\\sigma (t)-z)^{n+1}}dt\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(\\rho\\)</span> un réel strictement\npositif, <span class=\"math inline\">\\(z\\)</span> et <span\nclass=\"math inline\">\\ ..."
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "uZpe",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6760",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:19.343Z"
+  },
+  "contenu": [
+    {
+      "id": "1f5105b7-549d-4c77-8f73-c4ed4558e724",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\gamma_n$ le chemin dont l'image $\\gamma_n^*$ est le\nrectangle de sommets $\\pm(n+\\frac12)\\pm in$ parcouru une fois dans le sens\ndirect. Evaluer pour $a\\notin \\Zz$\n$$\\int_{\\gamma_n} \\frac{\\pi \\mathrm{cotan}(\\pi z)}{(z+a)^2} \\,dz\\ .\n$$\nMontrer que l'on a\n$$\n\\lim_{n\\to \\infty} \\int_{\\gamma_n} \\frac{\\pi \\mathrm{cotan}(\\pi z)}{(z+a)^2} \\,dz = 0\\ .\n$$\n(On pourra établir auparavant que, si $z$ appartient à $\\gamma_n^*$ et si\n$n$ est assez grand, on a $|\\mathrm{cotan}(\\pi z)|\\le 2$.) En déduire (cf. exercice \\ref{gijsexoav})\nque $\\displaystyle \\sum_{n\\in \\Zz} \\frac1{(a+n)^2} = \\left(\n\\frac{\\pi}{\\sin(\\pi a)} \\right)^2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\gamma_n\\)</span> le chemin dont\nl’image <span class=\"math inline\">\\(\\gamma_n^*\\)</span> est le rectangle\nde sommets <span class=\"math inline\">\\(\\pm(n+\\frac12)\\pm in\\)</span>\nparcouru une fois dans le sens direct. Evaluer pour <span\nclass=\"math inline\">\\(a\\notin \\Zz\\)</span> <span\nclass=\"math display\">\\[\\int_{\\gamma_n} \\frac{\\pi \\mathrm{cotan}(\\pi\nz)}{(z+a)^2} \\,dz\\ .\\]</span> Montrer que l’on a <span\nclass=\"math display\">\\[\\lim_{n\\to \\infty} \\int_{\\gamma_n} \\frac{\\pi\n\\mathrm{cotan}(\\pi z)}{(z+a)^2} \\,dz = 0\\ .\\]</span> (On pourra établir\nauparavant que, si <span class=\"math inline\">\\(z\\)</span> appartient à\n<span class=\"math inline\">\\(\\gamma_n^*\\)</span> et si <span\nclass=\"math inline\">\\(n\\)</span> est assez grand, on a <span\nclass=\"math inline\">\\(|\\mathrm{cotan}(\\pi z)|\\le 2\\)</span>.) En déduire\n(cf. exercice <a href=\"#gijsexoav\" data-reference-type=\"ref\"\ndata-reference=\"gijsexoav\">[gijsexoav]</a>) que <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\in \\Zz} \\frac1{(a+n)^2} =\n\\left(\n\\frac{\\pi}{\\sin(\\pi a)} \\right)^2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\gamma_n\\)</span> le chemin dont\nl’image <span class=\"math inline\">\\(\\gamma_n^*\\)</span> est le rectangle\nde somme ..."
+}

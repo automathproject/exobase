@@ -1,0 +1,61 @@
+{
+  "uuid": "wRas",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4497",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Familles sommables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:10.416Z"
+  },
+  "contenu": [
+    {
+      "id": "aeac18d8-ff70-4c59-b957-d99c59eab246",
+      "type": "description",
+      "value": {
+        "latex": "Soient $a,b,c\\in\\N^*$. On pose $f(z) = \\sum_{n=0}^\\infty \\frac{z^{bn}}{1-z^{an+c}}$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(a,b,c\\in\\N^*\\)</span>. On pose\n<span class=\"math inline\">\\(f(z) = \\sum_{n=0}^\\infty\n\\frac{z^{bn}}{1-z^{an+c}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "515f1a7e-c977-4c8a-a2a6-7d4bd96d5a31",
+      "type": "question",
+      "value": {
+        "latex": "Étudier la convergence de la série et montrer qu'on peut intervertir\n    $b$ et $c$ dans la formule.",
+        "html": "<p>Étudier la convergence de la série et montrer qu’on peut intervertir\n<span class=\"math inline\">\\(b\\)</span> et <span\nclass=\"math inline\">\\(c\\)</span> dans la formule.</p>\n"
+      }
+    },
+    {
+      "id": "378b3aa5-a27b-4a43-ad34-161839c7b6d3",
+      "type": "reponse",
+      "value": {
+        "latex": "Il y a convergence si $|z|<1$.\nOn a alors $f(z) = \\sum_{(n,p)\\in\\N^2}z^{anp + bn+cp}$.\nIl y a aussi convergence pour $|z|>1$ lorsque $a>b$ et on a dans ce cas~:\n$f(z) = \\sum_{(n,p)\\in\\N\\times\\N^*}z^{-anp + bn - cp}$ (non symétrique en $b,c$).",
+        "html": "<p>Il y a convergence si <span class=\"math inline\">\\(|z|&lt;1\\)</span>.\nOn a alors <span class=\"math inline\">\\(f(z) = \\sum_{(n,p)\\in\\N^2}z^{anp\n+ bn+cp}\\)</span>. Il y a aussi convergence pour <span\nclass=\"math inline\">\\(|z|&gt;1\\)</span> lorsque <span\nclass=\"math inline\">\\(a&gt;b\\)</span> et on a dans ce cas : <span\nclass=\"math inline\">\\(f(z) = \\sum_{(n,p)\\in\\N\\times\\N^*}z^{-anp + bn -\ncp}\\)</span> (non symétrique en <span\nclass=\"math inline\">\\(b,c\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "f53f8052-ed61-490d-a8c2-185767eed70e",
+      "type": "question",
+      "value": {
+        "latex": "Développer en série entière~: $\\sum_{m=1}^\\infty\\frac{z^{2m}}{1-z^m}$.",
+        "html": "<p>Développer en série entière : <span\nclass=\"math inline\">\\(\\sum_{m=1}^\\infty\\frac{z^{2m}}{1-z^m}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c211dfd2-a502-4405-baef-81bfb37479d0",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(z) = \\sum_{n=2}^\\infty d_nz^n$ avec $d_n =$ nombre de diviseurs de~$n$\ndans~$[[1,n-1]]$.",
+        "html": "<p><span class=\"math inline\">\\(f(z) = \\sum_{n=2}^\\infty d_nz^n\\)</span>\navec <span class=\"math inline\">\\(d_n =\\)</span> nombre de diviseurs\nde <span class=\"math inline\">\\(n\\)</span> dans <span\nclass=\"math inline\">\\([[1,n-1]]\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(a,b,c\\in\\N^*\\)</span>. On pose\n<span class=\"math inline\">\\(f(z) = \\sum_{n=0}^\\infty\n\\frac{z^{bn}}{1-z^{an+c}}\\)< ..."
+}

@@ -1,0 +1,119 @@
+{
+  "uuid": "r0au",
+  "titre": "Courbes de niveau",
+  "theme": [
+    "fonctions de plusieurs variables"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-03-01",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:04.508Z"
+  },
+  "contenu": [
+    {
+      "id": "7e270877-6266-4000-b72a-3b8342717068",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y) = \\sin(xy)$",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = \\sin(xy)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "735bba3c-efcd-498d-8758-f54b28811992",
+      "type": "reponse",
+      "value": {
+        "latex": "1-B : la fonction est périodique en $x$ et en $y$ ; $f$ ne change pas quand on échange $x$ et $y$, i.e. le graphe est symétrique par rapport au plan d’équation $y = x$ ; $f (0, y) = f (x,0) = 0$.",
+        "html": "<p>1-B : la fonction est périodique en <span\nclass=\"math inline\">\\(x\\)</span> et en <span\nclass=\"math inline\">\\(y\\)</span> ; <span\nclass=\"math inline\">\\(f\\)</span> ne change pas quand on échange <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(y\\)</span>, i.e. le graphe est symétrique par\nrapport au plan d’équation <span class=\"math inline\">\\(y = x\\)</span> ;\n<span class=\"math inline\">\\(f (0, y) = f (x,0) = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c31465b0-1ddb-4285-a9b8-650917da0898",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y) = \\sin(x-y)$",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = \\sin(x-y)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "bbbf6a67-7474-4883-b240-cd1edf571408",
+      "type": "reponse",
+      "value": {
+        "latex": "2-A : la fonction est périodique en $x$ et en $y$ ; $f$ est constante si $y = x +k$ (lignes de niveau parallèles à la droite d'équation $y=x$",
+        "html": "<p>2-A : la fonction est périodique en <span\nclass=\"math inline\">\\(x\\)</span> et en <span\nclass=\"math inline\">\\(y\\)</span> ; <span\nclass=\"math inline\">\\(f\\)</span> est constante si <span\nclass=\"math inline\">\\(y = x +k\\)</span> (lignes de niveau parallèles à\nla droite d’équation <span class=\"math inline\">\\(y=x\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b60ad151-7335-465c-b006-9547a9e2e140",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y) = (1-x^2)(1-y^2)$",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = (1-x^2)(1-y^2)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "edf03f80-c0f3-42cb-8f50-8a3236af7515",
+      "type": "reponse",
+      "value": {
+        "latex": "3-F : $f (\\pm1, y) = f (x,\\pm1) = 0$ ; la trace dans le plan $xz$ est $z = 1-x^2$ et dans le plan $yz$ est $z = 1-y^2$.",
+        "html": "<p>3-F : <span class=\"math inline\">\\(f (\\pm1, y) = f (x,\\pm1) =\n0\\)</span> ; la trace dans le plan <span\nclass=\"math inline\">\\(xz\\)</span> est <span class=\"math inline\">\\(z =\n1-x^2\\)</span> et dans le plan <span class=\"math inline\">\\(yz\\)</span>\nest <span class=\"math inline\">\\(z = 1-y^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8352250f-871e-41dc-93c9-c78a85652a69",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y) = \\frac{x-y}{1+x^2+y^2}$",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) =\n\\frac{x-y}{1+x^2+y^2}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "90bd448f-4dcd-49b5-8fe8-efe1a65e9e1a",
+      "type": "reponse",
+      "value": {
+        "latex": "4-E : $f (x,x) = 0$ ; $f (x, y) > 0$ si $x > y$ ; $f (x, y) < 0$ si $x < y$.",
+        "html": "<p>4-E : <span class=\"math inline\">\\(f (x,x) = 0\\)</span> ; <span\nclass=\"math inline\">\\(f (x, y) &gt; 0\\)</span> si <span\nclass=\"math inline\">\\(x &gt; y\\)</span> ; <span class=\"math inline\">\\(f\n(x, y) &lt; 0\\)</span> si <span class=\"math inline\">\\(x &lt;\ny\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f8c6bb7e-56bd-4b63-b1a5-ea43d95cb094",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y) = e^x \\cos(y)$",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = e^x \\cos(y)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "35285437-0149-40c4-8ccf-50c84d1d8695",
+      "type": "reponse",
+      "value": {
+        "latex": "5-D : la fonction est périodique en $y$ ;",
+        "html": "<p>5-D : la fonction est périodique en <span\nclass=\"math inline\">\\(y\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "ef5a303b-4eb2-47b4-93ee-959b5b27e07d",
+      "type": "question",
+      "value": {
+        "latex": "$f(x,y) = \\sin(x)-\\sin(y)$",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = \\sin(x)-\\sin(y)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "3fd02ee2-11b5-47da-b292-cc9ada36e286",
+      "type": "reponse",
+      "value": {
+        "latex": "6-C : la fonction est périodique en $x$ et en $y$.",
+        "html": "<p>6-C : la fonction est périodique en <span\nclass=\"math inline\">\\(x\\)</span> et en <span\nclass=\"math inline\">\\(y\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span class=\"math inline\">\\(f(x,y) = \\sin(xy)\\)</span></p>\n"
+}

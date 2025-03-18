@@ -1,0 +1,69 @@
+{
+  "uuid": "LwA2",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6713",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:38.687Z"
+  },
+  "contenu": [
+    {
+      "id": "24630752-d74c-4e47-bf7d-75207df23d90",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une fonction holomorphe non identiquement nulle dans un\nouvert $\\Omega $ connexe con\\-te\\-nant le disque fermé\n$\\overline{D(z_0,r)}$. Soit $\\gamma $ le cercle $\\{z\\vert\\ \\vert\nz-z_0\\vert =r\\}$ orienté positivement.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\nnon identiquement nulle dans un ouvert <span\nclass=\"math inline\">\\(\\Omega\\)</span> connexe contenant le disque fermé\n<span class=\"math inline\">\\(\\overline{D(z_0,r)}\\)</span>. Soit <span\nclass=\"math inline\">\\(\\gamma\\)</span> le cercle <span\nclass=\"math inline\">\\(\\{z\\vert\\ \\vert\nz-z_0\\vert =r\\}\\)</span> orienté positivement.</p>\n"
+      }
+    },
+    {
+      "id": "beb0155d-6531-4d52-bf88-6f9961fb40da",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$  a un nombre fini\nde zéros dans $D(z_0,r)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> a un nombre fini\nde zéros dans <span class=\"math inline\">\\(D(z_0,r)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a0f768cb-53a6-48f6-a77e-d2d82e9c93d3",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $f$ n'a pas de zéros sur $\\gamma ^*$. Calculer\n$\\displaystyle {1\\over 2i\\pi}\\int_\\gamma {f'(z)\\over f(z)}z^pdz$ pour\n$p=0,1,\\dots$ (utiliser les zéros de $f$ dans $D(z_0,r)$).",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(f\\)</span> n’a pas de\nzéros sur <span class=\"math inline\">\\(\\gamma ^*\\)</span>. Calculer <span\nclass=\"math inline\">\\(\\displaystyle {1\\over 2i\\pi}\\int_\\gamma\n{f&#39;(z)\\over f(z)}z^pdz\\)</span> pour <span\nclass=\"math inline\">\\(p=0,1,\\dots\\)</span> (utiliser les zéros de <span\nclass=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\(D(z_0,r)\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "c631fb38-39f6-41df-b42e-f6c469a6ff10",
+      "type": "question",
+      "value": {
+        "latex": "On suppose toujours que $f$ n'a pas de zéros sur $\\gamma ^*$. On prend\n$p=0$. Montrer que l'intégrale précédente est égale au nombre total de\nzéros de $f$ dans $D(z_0,r)$. Montrer que ce nombre est aussi l'indice du\npoint $0$ par rapport à la courbe fermée $\\Gamma =f(\\gamma )$.",
+        "html": "<p>On suppose toujours que <span class=\"math inline\">\\(f\\)</span> n’a\npas de zéros sur <span class=\"math inline\">\\(\\gamma ^*\\)</span>. On\nprend <span class=\"math inline\">\\(p=0\\)</span>. Montrer que l’intégrale\nprécédente est égale au nombre total de zéros de <span\nclass=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\(D(z_0,r)\\)</span>. Montrer que ce nombre est aussi\nl’indice du point <span class=\"math inline\">\\(0\\)</span> par rapport à\nla courbe fermée <span class=\"math inline\">\\(\\Gamma =f(\\gamma\n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0d0626aa-d8db-43fe-bf2f-7ddefddd72c7",
+      "type": "question",
+      "value": {
+        "latex": "Soit $w_0=f(z_0)$ et $n$ la multiplicité du zéro $z_0$ pour la\nfonction $f(z)-w_0$. Montrer que l'on peut choisir $\\varepsilon >0$ tel\nque $f'(z)$ ne s'annule pas pour $0<\\vert z-z_0\\vert <\\varepsilon $, et\nqu'il existe un $\\delta >0$ tel que pour tout $a$ avec $\\vert a-w_0\\vert\n<\\delta $, l'équation $f(z)=a$ a exactement $n$ racines dans le disque\n$\\vert z-z_0\\vert <\\varepsilon $.",
+        "html": "<p>Soit <span class=\"math inline\">\\(w_0=f(z_0)\\)</span> et <span\nclass=\"math inline\">\\(n\\)</span> la multiplicité du zéro <span\nclass=\"math inline\">\\(z_0\\)</span> pour la fonction <span\nclass=\"math inline\">\\(f(z)-w_0\\)</span>. Montrer que l’on peut choisir\n<span class=\"math inline\">\\(\\varepsilon &gt;0\\)</span> tel que <span\nclass=\"math inline\">\\(f&#39;(z)\\)</span> ne s’annule pas pour <span\nclass=\"math inline\">\\(0&lt;\\vert z-z_0\\vert &lt;\\varepsilon\\)</span>, et\nqu’il existe un <span class=\"math inline\">\\(\\delta &gt;0\\)</span> tel\nque pour tout <span class=\"math inline\">\\(a\\)</span> avec <span\nclass=\"math inline\">\\(\\vert a-w_0\\vert\n&lt;\\delta\\)</span>, l’équation <span\nclass=\"math inline\">\\(f(z)=a\\)</span> a exactement <span\nclass=\"math inline\">\\(n\\)</span> racines dans le disque <span\nclass=\"math inline\">\\(\\vert z-z_0\\vert &lt;\\varepsilon\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5b37b248-009e-46a6-b8ce-e0d3e1169c0a",
+      "type": "question",
+      "value": {
+        "latex": "En déduire le principe du maximum : si $f$ est holomorphe et non\nconstante dans $\\Omega $, alors $\\vert f\\vert$ n'a pas de maximum\ndans $\\Omega $.",
+        "html": "<p>En déduire le principe du maximum : si <span\nclass=\"math inline\">\\(f\\)</span> est holomorphe et non constante dans\n<span class=\"math inline\">\\(\\Omega\\)</span>, alors <span\nclass=\"math inline\">\\(\\vert f\\vert\\)</span> n’a pas de maximum dans\n<span class=\"math inline\">\\(\\Omega\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\nnon identiquement nulle dans un ouvert <span\nclass=\"math inline\">\\(\\Omega\\)</sp ..."
+}

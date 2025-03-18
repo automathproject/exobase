@@ -1,0 +1,45 @@
+{
+  "uuid": "CmGe",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7071",
+    "auteur": "megy",
+    "createdAt": "2017-01-11",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine dans le plan et dans l'espace",
+    "sousChapitre": "Propriétés des triangles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:47.119Z"
+  },
+  "contenu": [
+    {
+      "id": "cbde19e7-7236-402a-93a4-02c3ba2e1a16",
+      "type": "description",
+      "value": {
+        "latex": "\r\nSoit $A$  un point quelconque du diamètre d'un cercle $\\mathcal C$ et $B$ l'extrémité d'un rayon perpendiculaire à ce diamètre. On mène une droite $(BA)$ qui coupe le cercle en $P$, puis la tangente au point $P$ qui coupe en $C$ le diamètre prolongé. Démontrer que $CA = CP$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un point quelconque du\ndiamètre d’un cercle <span class=\"math inline\">\\(\\mathcal C\\)</span> et\n<span class=\"math inline\">\\(B\\)</span> l’extrémité d’un rayon\nperpendiculaire à ce diamètre. On mène une droite <span\nclass=\"math inline\">\\((BA)\\)</span> qui coupe le cercle en <span\nclass=\"math inline\">\\(P\\)</span>, puis la tangente au point <span\nclass=\"math inline\">\\(P\\)</span> qui coupe en <span\nclass=\"math inline\">\\(C\\)</span> le diamètre prolongé. Démontrer que\n<span class=\"math inline\">\\(CA = CP\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "05878d46-766a-45f3-858e-df6b66fb4760",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la caractérisation des triangles isocèles à l'aide d'angles.\r\n",
+        "html": "<p>Utiliser la caractérisation des triangles isocèles à l’aide\nd’angles.</p>\n"
+      }
+    },
+    {
+      "id": "040481f0-b3da-4017-bdf5-804a8356e6cd",
+      "type": "reponse",
+      "value": {
+        "latex": "\r\n\r\n\r\n\r\nPour montrer $CA=CP$, on va montrer que le triangle $CAP$ est donc isocèle en $C$.\r\n\r\nOn a les égalités d'angles:\r\n$$\\begin{align*}\r\n\\widehat{CAP} &= \\widehat{OAB} \\text{ car les angles sont opposés par le sommet}\\\\\r\n&= \\pi/2 - \\widehat{ABO} \\\\\r\n&= \\pi/2 -\\widehat{OPB}  \\text{ car $POB$ est isocèle en $O$}\\\\\r\n&= \\widehat{APC}\r\n\\end{align*}$$\r\n\r\nLe triangle $CAP$ est donc isocèle en $C$, et donc $CA=CP$.",
+        "html": "<p>Pour montrer <span class=\"math inline\">\\(CA=CP\\)</span>, on va\nmontrer que le triangle <span class=\"math inline\">\\(CAP\\)</span> est\ndonc isocèle en <span class=\"math inline\">\\(C\\)</span>.</p>\n<p>On a les égalités d’angles: <span\nclass=\"math display\">\\[\\begin{align*}\n\\widehat{CAP} &amp;= \\widehat{OAB} \\text{ car les angles sont opposés\npar le sommet}\\\\\n&amp;= \\pi/2 - \\widehat{ABO} \\\\\n&amp;= \\pi/2 -\\widehat{OPB}  \\text{ car $POB$ est isocèle en $O$}\\\\\n&amp;= \\widehat{APC}\n\\end{align*}\\]</span></p>\n<p>Le triangle <span class=\"math inline\">\\(CAP\\)</span> est donc isocèle\nen <span class=\"math inline\">\\(C\\)</span>, et donc <span\nclass=\"math inline\">\\(CA=CP\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un point quelconque du\ndiamètre d’un cercle <span class=\"math inline\">\\(\\mathcal C\\)</span> et\n<span cl ..."
+}

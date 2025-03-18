@@ -1,0 +1,37 @@
+{
+  "uuid": "2yZD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2149",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-groupe distingué",
+    "sousChapitre": "Sous-groupe distingué",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:42.587Z"
+  },
+  "contenu": [
+    {
+      "id": "594b4b75-b8a5-427d-a625-fe8f69f2f590",
+      "type": "description",
+      "value": {
+        "latex": "Soit $G$ un groupe fini et $H$ et $K$ deux sous-groupes de $G$. On suppose que $H$ est\ndistingu\\'e dans $G$, que $|H|$ et $|G/H|$ sont premiers entre eux et \n$|H|=|K|$. Montrer que $H=K$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe fini et <span\nclass=\"math inline\">\\(H\\)</span> et <span\nclass=\"math inline\">\\(K\\)</span> deux sous-groupes de <span\nclass=\"math inline\">\\(G\\)</span>. On suppose que <span\nclass=\"math inline\">\\(H\\)</span> est distingué dans <span\nclass=\"math inline\">\\(G\\)</span>, que <span\nclass=\"math inline\">\\(|H|\\)</span> et <span\nclass=\"math inline\">\\(|G/H|\\)</span> sont premiers entre eux et <span\nclass=\"math inline\">\\(|H|=|K|\\)</span>. Montrer que <span\nclass=\"math inline\">\\(H=K\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "74f06b2c-b445-4324-b06b-84c632c9b3d4",
+      "type": "reponse",
+      "value": {
+        "latex": "Consid\\'erons la surjection canonique $s:G\\rightarrow G/H$. D'apr\\`es l'exercice \\ref{ex:le12}, $|s(K)|$\ndivise $\\mathrm{pgcd}(|K|,|G/H|)$ qui est \\'egal \\`a $\\mathrm{pgcd}(|H|,|G/H|)$ (puisque $|H|=|K|$) et vaut\ndonc $1$. Conclusion: $s(K)=\\{1\\}$, c'est-\\`a-dire $K\\subset H$. D'o\\`u $K=H$ puisqu'ils ont\nm\\^eme ordre.",
+        "html": "<p>Considérons la surjection canonique <span\nclass=\"math inline\">\\(s:G\\rightarrow G/H\\)</span>. D’après l’exercice <a\nhref=\"#ex:le12\" data-reference-type=\"ref\"\ndata-reference=\"ex:le12\">[ex:le12]</a>, <span\nclass=\"math inline\">\\(|s(K)|\\)</span> divise <span\nclass=\"math inline\">\\(\\mathrm{pgcd}(|K|,|G/H|)\\)</span> qui est égal à\n<span class=\"math inline\">\\(\\mathrm{pgcd}(|H|,|G/H|)\\)</span> (puisque\n<span class=\"math inline\">\\(|H|=|K|\\)</span>) et vaut donc <span\nclass=\"math inline\">\\(1\\)</span>. Conclusion: <span\nclass=\"math inline\">\\(s(K)=\\{1\\}\\)</span>, c’est-à-dire <span\nclass=\"math inline\">\\(K\\subset H\\)</span>. D’où <span\nclass=\"math inline\">\\(K=H\\)</span> puisqu’ils ont même ordre.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe fini et <span\nclass=\"math inline\">\\(H\\)</span> et <span\nclass=\"math inline\">\\(K\\)</span> deux ..."
+}

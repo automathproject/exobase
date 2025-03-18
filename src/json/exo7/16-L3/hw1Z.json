@@ -1,0 +1,37 @@
+{
+  "uuid": "hw1Z",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2829",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:01.233Z"
+  },
+  "contenu": [
+    {
+      "id": "9e29ed2d-55c0-4509-97cc-84987a8fa19f",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que si une fonction entière $f$ a sa partie réelle\nbornée supérieurement  alors elle est constante (considérer\n$\\exp(f)$).",
+        "html": "<p>Montrer que si une fonction entière <span\nclass=\"math inline\">\\(f\\)</span> a sa partie réelle bornée\nsupérieurement alors elle est constante (considérer <span\nclass=\"math inline\">\\(\\exp(f)\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "c950b8c0-adf0-407c-a9e9-2fb3cb55439a",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $g(z) = e^{f(z)}$. On a $|g(z)| =e^{\\Re (f(z))}$. Par cons\\'equent $g$ est une fonction enti\\`ere born\\'ee. Elle est donc constante par d'Alembert-Liouville.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g(z) = e^{f(z)}\\)</span>. On a <span\nclass=\"math inline\">\\(|g(z)| =e^{\\Re (f(z))}\\)</span>. Par conséquent\n<span class=\"math inline\">\\(g\\)</span> est une fonction entière bornée.\nElle est donc constante par d’Alembert-Liouville.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que si une fonction entière <span\nclass=\"math inline\">\\(f\\)</span> a sa partie réelle bornée\nsupérieurement alors elle est constante (consi ..."
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "GX7v",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3013",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Anneau",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:11.892Z"
+  },
+  "contenu": [
+    {
+      "id": "9cad1d69-8d5f-4058-8215-8912c6f389f0",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ un anneau commutatif et $I$ un id{\\'e}al de $A$.\n\nOn note $\\sqrt{I} = \\{ x \\in A \\text{ tq } \\exists\\ n \\in \\N \\text{ tq } x^n \\in I \\}$\n(radical de $I$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau commutatif et\n<span class=\"math inline\">\\(I\\)</span> un id<span>é</span>al de <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n<p>On note <span class=\"math inline\">\\(\\sqrt{I} = \\{ x \\in A \\text{ tq }\n\\exists\\ n \\in \\N \\text{ tq } x^n \\in I \\}\\)</span> (radical de <span\nclass=\"math inline\">\\(I\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "b5184bc7-d0ee-41d1-a2cb-e8ee4e8e8c45",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\sqrt{I}$ est un id{\\'e}al de $A$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\sqrt{I}\\)</span> est un\nid<span>é</span>al de <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "14e842b6-2244-43f2-8261-c8dc369cac0b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\sqrt{\\sqrt I} = \\sqrt I$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\sqrt{\\sqrt I} = \\sqrt\nI\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2265391b-72f4-4c62-aed7-50f1fea6138d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\sqrt{I \\cap J} = \\sqrt I \\cap \\sqrt J$ et\n    $\\sqrt{I + J} \\supset \\sqrt I + \\sqrt J$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\sqrt{I \\cap J} = \\sqrt I\n\\cap \\sqrt J\\)</span> et <span class=\"math inline\">\\(\\sqrt{I + J}\n\\supset \\sqrt I + \\sqrt J\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "448d4c6c-3c4c-4494-8bcb-8039af4dca95",
+      "type": "question",
+      "value": {
+        "latex": "Exemple : $A = \\Z$, $I = 3648\\Z$. Trouver $\\sqrt I$.",
+        "html": "<p>Exemple : <span class=\"math inline\">\\(A = \\Z\\)</span>, <span\nclass=\"math inline\">\\(I = 3648\\Z\\)</span>. Trouver <span\nclass=\"math inline\">\\(\\sqrt I\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e8565901-182f-40b1-87b6-e045ed0f474a",
+      "type": "reponse",
+      "value": {
+        "latex": "Remarque : la r{\\'e}ciproque fausse : $A = \\Z[X]$, $I=(X)$, $J=(X+4)$.\n$114\\Z$.",
+        "html": "<p>Remarque : la r<span>é</span>ciproque fausse : <span\nclass=\"math inline\">\\(A = \\Z[X]\\)</span>, <span\nclass=\"math inline\">\\(I=(X)\\)</span>, <span\nclass=\"math inline\">\\(J=(X+4)\\)</span>. <span\nclass=\"math inline\">\\(114\\Z\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau commutatif et\n<span class=\"math inline\">\\(I\\)</span> un id<span>é</span>al de <span\nclass=\"ma ..."
+}

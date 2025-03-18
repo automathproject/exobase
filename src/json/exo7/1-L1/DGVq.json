@@ -1,0 +1,53 @@
+{
+  "uuid": "DGVq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "176",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Récurrence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:22.296Z"
+  },
+  "contenu": [
+    {
+      "id": "0fd94bb0-2dff-4220-9321-48ba2c41719f",
+      "type": "description",
+      "value": {
+        "latex": "On définit une suite $(F_n)$ de la fa\\c con suivante :\n$$F_{n+1} = F_n+F_{n-1} ; \\quad F_0=1 , F_1=1 \\ .$$",
+        "html": "<p>On définit une suite <span class=\"math inline\">\\((F_n)\\)</span> de la\nfaçon suivante : <span class=\"math display\">\\[F_{n+1} = F_n+F_{n-1} ;\n\\quad F_0=1 , F_1=1 \\ .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "6f7fee26-379c-4591-a704-33f0731657b9",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $F_n$ pour $1<n<10$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(F_n\\)</span> pour <span\nclass=\"math inline\">\\(1&lt;n&lt;10\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3750b31b-5b33-4715-b450-93841a779407",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'équation $x^2=x+1$ admet une unique solution positive \n$a$ que l'on calculera.",
+        "html": "<p>Montrer que l’équation <span class=\"math inline\">\\(x^2=x+1\\)</span>\nadmet une unique solution positive <span\nclass=\"math inline\">\\(a\\)</span> que l’on calculera.</p>\n"
+      }
+    },
+    {
+      "id": "6d709347-ccb9-427c-b3a9-71f7d8841918",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout $n\\geq 2$, on a\n$$a^{n-2}< F_n < a^{n-1} \\ .$$",
+        "html": "<p>Montrer que, pour tout <span class=\"math inline\">\\(n\\geq 2\\)</span>,\non a <span class=\"math display\">\\[a^{n-2}&lt; F_n &lt; a^{n-1} \\\n.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On définit une suite <span class=\"math inline\">\\((F_n)\\)</span> de la\nfaçon suivante : <span class=\"math display\"> ..."
+}

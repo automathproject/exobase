@@ -1,0 +1,125 @@
+{
+  "uuid": "lZFM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6605",
+    "auteur": "hueb",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Tranformée de Laplace et de Fourier",
+    "sousChapitre": "Tranformée de Laplace et de Fourier",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:07.596Z"
+  },
+  "contenu": [
+    {
+      "id": "bc19bfdb-0e24-4e96-865a-f4ad4c8803b0",
+      "type": "description",
+      "value": {
+        "latex": "Vérifier les\npropriétés suivantes de la transformation de Laplace $\\mathcal{L}$\n:",
+        "html": "<p>Vérifier les propriétés suivantes de la transformation de Laplace\n<span class=\"math inline\">\\(\\mathcal{L}\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "32d25d07-9688-4ccf-8f4a-344b0f4abf4b",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(c_1 F_1 + c_2 F_2) =c_1 \\mathcal{L}(F_1) + c_2\n  \\mathcal{L}(F_2)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(c_1 F_1 + c_2 F_2) =c_1\n\\mathcal{L}(F_1) + c_2\n  \\mathcal{L}(F_2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "361b49e8-4aff-44c8-a329-ea38fa8aea8c",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(e^{at}F(t))(s) =(\\mathcal{L} F)(s-a)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(e^{at}F(t))(s) =(\\mathcal{L}\nF)(s-a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "63b1ffd1-5129-41ad-a101-02ae42a32a59",
+      "type": "question",
+      "value": {
+        "latex": "Pour $G(t) = \\begin{cases} F(t-a),\\quad &t \\geq a,\\\\\n    0, \\quad &t \\leq a,\n                \\end{cases}$\n                on a $(\\mathcal{L}G)(s) =e^{-as}(\\mathcal{L}F)(s)\\ (a\n                \\geq 0)$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(G(t) = \\begin{cases} F(t-a),\\quad\n&amp;t \\geq a,\\\\\n    0, \\quad &amp;t \\leq a,\n                \\end{cases}\\)</span> on a <span\nclass=\"math inline\">\\((\\mathcal{L}G)(s) =e^{-as}(\\mathcal{L}F)(s)\\ (a\n                \\geq 0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2cc0b8e5-f1fe-441c-8cd5-3d7dd2a1153e",
+      "type": "question",
+      "value": {
+        "latex": "Pour $F_a(t) = F(at)$ on a $(\\mathcal{L}F_a)(s) =\n                \\frac 1a (\\mathcal{L}F)(\\frac sa)$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(F_a(t) = F(at)\\)</span> on a <span\nclass=\"math inline\">\\((\\mathcal{L}F_a)(s) =\n                \\frac 1a (\\mathcal{L}F)(\\frac sa)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4d3fa1d1-b54b-48f0-9a9e-0c0ba7d40ad4",
+      "type": "question",
+      "value": {
+        "latex": "Pour $G(t) = \\int_0^t F(u) du$ on a\n                $(\\mathcal{L}G) (s) = \\frac {(\\mathcal{L} F)(s)} s$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(G(t) = \\int_0^t F(u) du\\)</span> on\na <span class=\"math inline\">\\((\\mathcal{L}G) (s) = \\frac {(\\mathcal{L}\nF)(s)} s\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "da74ec3f-7fb3-4101-896a-c869ee478b19",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(t^n F(t)) = (-1)^n (\\mathcal{L}\n                F)^{(n)}$",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(t^n F(t)) = (-1)^n\n(\\mathcal{L}\n                F)^{(n)}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a6ce12dc-b98a-4e67-be86-1f66b6373a4e",
+      "type": "question",
+      "value": {
+        "latex": "Si $\\lim_{t\\to 0} \\frac {F(t)}t$ existe,\n                $\\mathcal{L}(\\frac {F(t)}t)(s) = \\int_s^{\\infty}\n                (\\mathcal{L} F)(\\zeta) d \\zeta$.\\}\n    \\item \\question{Si $F$ est périodique, $F(t+T) = F(t)$, alors\n                $$(\\mathcal{L}F)(s) = \\frac 1{1-e^{-sT}}\\int_0^T F(t)\n                e^{-st} dt$$}\n    \\item \\question{$\\lim_{s \\to +\\infty} (\\mathcal{L} F)(s) = 0$.}\n    \\item \\question{$\\lim_{s \\to +\\infty} (\\mathcal{L}F)(s) = 0$.}\n    \\item \\question{$\\lim_{t \\to 0, t > 0} F(t) = \\lim_{s \\to \\infty}\n                s (\\mathcal{L}F)(s)$ si les limites indiquées\n                existent (Théorème de la valeur initiale).}\n    \\item \\question{$\\lim_{t \\to \\infty} F(t) = \\lim_{s \\to 0} s\n                (\\mathcal{L} F)(s)$ si les limites indiquées\n                existent (Théorème de la valeur finale).}\n\\end{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "100d51eb-44c5-414b-b50e-77367a53f3f3",
+      "type": "question",
+      "value": {
+        "latex": "Si $F$ est périodique, $F(t+T) = F(t)$, alors\n                $$(\\mathcal{L}F)(s) = \\frac 1{1-e^{-sT}}\\int_0^T F(t)\n                e^{-st} dt$$",
+        "html": "<p>Si <span class=\"math inline\">\\(F\\)</span> est périodique, <span\nclass=\"math inline\">\\(F(t+T) = F(t)\\)</span>, alors <span\nclass=\"math display\">\\[(\\mathcal{L}F)(s) = \\frac 1{1-e^{-sT}}\\int_0^T\nF(t)\n                e^{-st} dt\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3924fa34-80f8-4c3e-be7e-89ee7f95bd61",
+      "type": "question",
+      "value": {
+        "latex": "$\\lim_{s \\to +\\infty} (\\mathcal{L} F)(s) = 0$.",
+        "html": "<p><span class=\"math inline\">\\(\\lim_{s \\to +\\infty} (\\mathcal{L} F)(s) =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1e04b812-d341-4aa2-bb15-8b060272864c",
+      "type": "question",
+      "value": {
+        "latex": "$\\lim_{s \\to +\\infty} (\\mathcal{L}F)(s) = 0$.",
+        "html": "<p><span class=\"math inline\">\\(\\lim_{s \\to +\\infty} (\\mathcal{L}F)(s) =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "99d3f40f-9850-4f2f-bab5-da0720bde1c7",
+      "type": "question",
+      "value": {
+        "latex": "$\\lim_{t \\to 0, t > 0} F(t) = \\lim_{s \\to \\infty}\n                s (\\mathcal{L}F)(s)$ si les limites indiquées\n                existent (Théorème de la valeur initiale).",
+        "html": "<p><span class=\"math inline\">\\(\\lim_{t \\to 0, t &gt; 0} F(t) = \\lim_{s\n\\to \\infty}\n                s (\\mathcal{L}F)(s)\\)</span> si les limites indiquées\nexistent (Théorème de la valeur initiale).</p>\n"
+      }
+    },
+    {
+      "id": "313ac665-990e-4826-81da-ba412982da55",
+      "type": "question",
+      "value": {
+        "latex": "$\\lim_{t \\to \\infty} F(t) = \\lim_{s \\to 0} s\n                (\\mathcal{L} F)(s)$ si les limites indiquées\n                existent (Théorème de la valeur finale).",
+        "html": "<p><span class=\"math inline\">\\(\\lim_{t \\to \\infty} F(t) = \\lim_{s \\to 0}\ns\n                (\\mathcal{L} F)(s)\\)</span> si les limites indiquées\nexistent (Théorème de la valeur finale).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Vérifier les propriétés suivantes de la transformation de Laplace\n<span class=\"math inline\">\\(\\mathcal{L}\\)</span> :</p>\n"
+}

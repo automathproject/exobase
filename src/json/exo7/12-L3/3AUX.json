@@ -1,0 +1,93 @@
+{
+  "uuid": "3AUX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2520",
+    "auteur": "queffelec",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Différentiabilité, calcul de différentielles",
+    "sousChapitre": "Différentiabilité, calcul de différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:36.981Z"
+  },
+  "contenu": [
+    {
+      "id": "ee2cd67d-1c77-4c66-9e3a-68da91bed646",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f:{\\Rr^2}\\to{\\Rr^2}$ d\\'efinie par\n$f(x,y)=(x^2-y,x^2+y^2)$ et $g=f\\circ f$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:{\\Rr^2}\\to{\\Rr^2}\\)</span> définie\npar <span class=\"math inline\">\\(f(x,y)=(x^2-y,x^2+y^2)\\)</span> et <span\nclass=\"math inline\">\\(g=f\\circ f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "be9b6a2a-2030-41a5-9791-4612a00db67b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ et $g$ sont de classe $C^1$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> sont de classe <span\nclass=\"math inline\">\\(C^1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eb03877e-6fdb-4dbc-9656-6bba1f926f1f",
+      "type": "reponse",
+      "value": {
+        "latex": "$f$ est de classe $C^\\infty$ car ses coordonn\\'ees le sont\n(polynômes). $g$ l'est car c'est la compos\\'ee de deux fonctions\n$C^\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est de classe <span\nclass=\"math inline\">\\(C^\\infty\\)</span> car ses coordonnées le sont\n(polynômes). <span class=\"math inline\">\\(g\\)</span> l’est car c’est la\ncomposée de deux fonctions <span\nclass=\"math inline\">\\(C^\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0971a481-9a0e-48de-991a-068de1494150",
+      "type": "question",
+      "value": {
+        "latex": "Calculer en tout point $(x,y)\\in{\\Rr^2}$ la matrice\njacobienne de $f$ not\\'ee $Df{(x,y)}$; calculer la matrice\njacobienne de $g$ au point $(0,0)$ not\\'ee $Dg{(0,0)}$.",
+        "html": "<p>Calculer en tout point <span\nclass=\"math inline\">\\((x,y)\\in{\\Rr^2}\\)</span> la matrice jacobienne de\n<span class=\"math inline\">\\(f\\)</span> notée <span\nclass=\"math inline\">\\(Df{(x,y)}\\)</span>; calculer la matrice jacobienne\nde <span class=\"math inline\">\\(g\\)</span> au point <span\nclass=\"math inline\">\\((0,0)\\)</span> notée <span\nclass=\"math inline\">\\(Dg{(0,0)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fd27bcf9-c2f6-41dc-a336-f4b06a4b8b32",
+      "type": "reponse",
+      "value": {
+        "latex": "La matrice jacobienne de $f$ est:\n$$Df(x,y)=\\left(\\begin{array}{cc}\n2x & -1 \\\\ 2x & 2y\n\\end{array}\\right)\n$$ D'ap\\`es la formule de diff\\'erentielle d'une compos\\'ee, on a\n$$Dg(x,y)=Df(f(x,y))\\circ Df(x,y).$$\nOr $f(0,0)=0$ et $$Df(0,0)=\\left(\\begin{array}{cc}0& -1 \\\\0& 0\n\\end{array}\\right)$$\net donc $$Dg(0,0)= \\left(\\begin{array}{cc}0& -1 \\\\0& 0\n\\end{array}.\\right)\\left(\\begin{array}{cc}0& -1 \\\\0& 0\n\\end{array}\\right)=0.$$",
+        "html": "<p>La matrice jacobienne de <span class=\"math inline\">\\(f\\)</span> est:\n<span class=\"math display\">\\[Df(x,y)=\\left(\\begin{array}{cc}\n2x &amp; -1 \\\\ 2x &amp; 2y\n\\end{array}\\right)\\]</span> D’apès la formule de différentielle d’une\ncomposée, on a <span class=\"math display\">\\[Dg(x,y)=Df(f(x,y))\\circ\nDf(x,y).\\]</span> Or <span class=\"math inline\">\\(f(0,0)=0\\)</span> et\n<span class=\"math display\">\\[Df(0,0)=\\left(\\begin{array}{cc}0&amp; -1\n\\\\0&amp; 0\n\\end{array}\\right)\\]</span> et donc <span\nclass=\"math display\">\\[Dg(0,0)= \\left(\\begin{array}{cc}0&amp; -1\n\\\\0&amp; 0\n\\end{array}.\\right)\\left(\\begin{array}{cc}0&amp; -1 \\\\0&amp; 0\n\\end{array}\\right)=0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1ec784e4-046a-4d67-b5fb-72209d42ad8f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe $\\rho>0$ tel que pour tout $(x,y)\\in\n\\overline{B_\\rho((0,0))}$ (la boule ferm\\'ee de centre $(0,0)$ et\nde rayon $\\rho$) on a $||Dg{(x,y)}||\\leq {\\frac 1 2}$.",
+        "html": "<p>Montrer qu’il existe <span class=\"math inline\">\\(\\rho&gt;0\\)</span>\ntel que pour tout <span class=\"math inline\">\\((x,y)\\in\n\\overline{B_\\rho((0,0))}\\)</span> (la boule fermée de centre <span\nclass=\"math inline\">\\((0,0)\\)</span> et de rayon <span\nclass=\"math inline\">\\(\\rho\\)</span>) on a <span\nclass=\"math inline\">\\(||Dg{(x,y)}||\\leq {\\frac 1 2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f453d4c9-7731-457e-97bb-8341a2cda78e",
+      "type": "reponse",
+      "value": {
+        "latex": "Par continuit\\'e de $Dg(x,y)$ \\`a l'origine et en prenant\n$\\epsilon=1/2$ on a:\n$$\\exists \\rho> 0, ||(x,y)-(0,0)||\\leq \\rho \\Rightarrow\n||Dg(x,y)-Dg(0,0)|| \\leq 1/2$$ d'o\\`u le r\\'esultat demand\\'e.",
+        "html": "<p>Par continuité de <span class=\"math inline\">\\(Dg(x,y)\\)</span> à\nl’origine et en prenant <span\nclass=\"math inline\">\\(\\epsilon=1/2\\)</span> on a: <span\nclass=\"math display\">\\[\\exists \\rho&gt; 0, ||(x,y)-(0,0)||\\leq \\rho\n\\Rightarrow\n||Dg(x,y)-Dg(0,0)|| \\leq 1/2\\]</span> d’où le résultat demandé.</p>\n"
+      }
+    },
+    {
+      "id": "2abfc14a-15dd-4078-a3b7-866fd2cbf3df",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la fonction $g$ admet un unique point fixe dans\n$\\overline{B_\\rho((0,0))}$.",
+        "html": "<p>Montrer que la fonction <span class=\"math inline\">\\(g\\)</span> admet\nun unique point fixe dans <span\nclass=\"math inline\">\\(\\overline{B_\\rho((0,0))}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6a0c2a18-49c9-4ade-ac20-e323e3da915d",
+      "type": "reponse",
+      "value": {
+        "latex": "D'apr\\`es les accroissements finis, pour tous $X,Y \\in\n\\mathbb{R}^2$, on a\n$$||g(X)-g(Y)|| \\leq \\sup_{Z \\in \\overline B_\\rho((0,0))}||Dg(Z)||.||X-Y|| \\leq 1/2||X-Y||$$\net donc $g$ est contractante. Le Boule $\\overline B_\\rho((0,0))$\nla boule $\\overline B_\\rho((0,0))$ \\'etant compacte et compl\\`ete,\nle th\\'eor\\`eme du point fixe permet de conclure.",
+        "html": "<p>D’après les accroissements finis, pour tous <span\nclass=\"math inline\">\\(X,Y \\in\n\\mathbb{R}^2\\)</span>, on a <span class=\"math display\">\\[||g(X)-g(Y)||\n\\leq \\sup_{Z \\in \\overline B_\\rho((0,0))}||Dg(Z)||.||X-Y|| \\leq\n1/2||X-Y||\\]</span> et donc <span class=\"math inline\">\\(g\\)</span> est\ncontractante. Le Boule <span class=\"math inline\">\\(\\overline\nB_\\rho((0,0))\\)</span> la boule <span class=\"math inline\">\\(\\overline\nB_\\rho((0,0))\\)</span> étant compacte et complète, le théorème du point\nfixe permet de conclure.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:{\\Rr^2}\\to{\\Rr^2}\\)</span> définie\npar <span class=\"math inline\">\\(f(x,y)=(x^2-y,x^2+y^2)\\)</span> et <span\nclas ..."
+}

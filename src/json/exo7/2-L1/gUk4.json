@@ -1,0 +1,61 @@
+{
+  "uuid": "gUk4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4432",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:26.407Z"
+  },
+  "contenu": [
+    {
+      "id": "2e4a35d1-13b5-4be2-861b-60aa04018e4c",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "d383a08a-f691-4ef5-9f9d-1d0de78881a0",
+      "type": "question",
+      "value": {
+        "latex": "Résoudre les équations différentielles :\n    $y'' + 2y' + 2y = 0$, $y'' + 4y' + 4y = 2e^{-x}\\cos x$.",
+        "html": "<p>Résoudre les équations différentielles : <span\nclass=\"math inline\">\\(y&#39;&#39; + 2y&#39; + 2y = 0\\)</span>, <span\nclass=\"math inline\">\\(y&#39;&#39; + 4y&#39; + 4y = 2e^{-x}\\cos\nx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a473d1c0-f472-4084-856d-88177407bc06",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = e^{-x}(a\\cos x + b\\sin x)$,\n             $y = e^{-x}\\sin x + e^{-2x}(cx+d)$.",
+        "html": "<p><span class=\"math inline\">\\(y = e^{-x}(a\\cos x + b\\sin x)\\)</span>,\n<span class=\"math inline\">\\(y = e^{-x}\\sin x +\ne^{-2x}(cx+d)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "66224b94-a5a1-4c93-9912-225f1703e173",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ la solution commune.\n    On définit la série de terme général\n    $u_n =  \\int_{x=n\\pi}^{(n+1)\\pi} f(x)\\,dx$.\n    Montrer que $\\sum u_n$ converge et calculer sa somme.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la solution commune. On\ndéfinit la série de terme général <span class=\"math inline\">\\(u_n\n=  \\int_{x=n\\pi}^{(n+1)\\pi} f(x)\\,dx\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\sum u_n\\)</span> converge et calculer sa\nsomme.</p>\n"
+      }
+    },
+    {
+      "id": "0bb4f669-d402-4a78-a7f1-e5335011bfec",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_n = \\frac{(-1)^ne^{-n\\pi}(e^\\pi+1)}2$,\n             $\\sum_{n=0}^\\infty u_n = \\frac12$.",
+        "html": "<p><span class=\"math inline\">\\(u_n =\n\\frac{(-1)^ne^{-n\\pi}(e^\\pi+1)}2\\)</span>, <span\nclass=\"math inline\">\\(\\sum_{n=0}^\\infty u_n = \\frac12\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Résoudre les équations différentielles : <span\nclass=\"math inline\">\\(y&#39;&#39; + 2y&#39; + 2y = 0\\)</span>, <span\nclass=\"math inline\"> ..."
+}

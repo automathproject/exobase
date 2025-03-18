@@ -1,0 +1,189 @@
+{
+  "uuid": "rSsq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3497",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Diagonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:54.385Z"
+  },
+  "contenu": [
+    {
+      "id": "06611a02-80d8-47e3-8800-d7de222efd89",
+      "type": "description",
+      "value": {
+        "latex": "Diagonaliser les matrices suivantes :",
+        "html": "<p>Diagonaliser les matrices suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "d073900d-69ff-46e8-802d-2306bc2d77a0",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix}-1 & 2   &-3   \\cr  2 & 2   &-6   \\cr -2 & 2   &-6   \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix}-1 &amp;\n2   &amp;-3   \\cr  2 &amp; 2   &amp;-6   \\cr -2 &amp;\n2   &amp;-6   \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "afb6673d-e56e-4b0f-bb33-87d24dadadfa",
+      "type": "reponse",
+      "value": {
+        "latex": "$P=\\begin{pmatrix}  1 &6    &6    \\cr -5 &12   &12   \\cr -3 &9-\\sqrt{57} &9+\\sqrt{57} \\cr\\end{pmatrix}$,\\,\n     $D=\\begin{pmatrix}-2 & 0&0 \\cr 0&-\\frac{3-\\sqrt{57}}2  & 0 \\cr 0 &0&-\\frac{3+\\sqrt{57}}2  \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix}  1\n&amp;6    &amp;6    \\cr -5 &amp;12   &amp;12   \\cr -3 &amp;9-\\sqrt{57}\n&amp;9+\\sqrt{57} \\cr\\end{pmatrix}\\)</span>,  <span\nclass=\"math inline\">\\(D=\\begin{pmatrix}-2 &amp; 0&amp;0 \\cr\n0&amp;-\\frac{3-\\sqrt{57}}2  &amp; 0 \\cr 0\n&amp;0&amp;-\\frac{3+\\sqrt{57}}2  \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "685e4c70-0302-4d12-8ee6-c06b6895f54d",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix} 0 & \\phantom-1 & 2 \\cr  1 & 1 & 1 \\cr 1 & 0 &-1 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 0 &amp; \\phantom-1\n&amp; 2 \\cr  1 &amp; 1 &amp; 1 \\cr 1 &amp; 0 &amp;-1\n\\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "3abf3e2a-9d9f-4633-812e-7192e7f21f65",
+      "type": "reponse",
+      "value": {
+        "latex": "$ P=    \\begin{pmatrix} 1 & \\phantom-3 &-1 \\cr -2 & 4 & 0 \\cr 1 & 1 & 1 \\cr\\end{pmatrix}$,\\,\n$     D=\\begin{pmatrix} 0 & 0&0 \\cr 0& 2 & 0 \\cr 0 &0&-2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=    \\begin{pmatrix} 1 &amp; \\phantom-3\n&amp;-1 \\cr -2 &amp; 4 &amp; 0 \\cr 1 &amp; 1 &amp; 1\n\\cr\\end{pmatrix}\\)</span>,  <span\nclass=\"math inline\">\\(D=\\begin{pmatrix} 0 &amp; 0&amp;0 \\cr 0&amp; 2\n&amp; 0 \\cr 0 &amp;0&amp;-2 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a419f354-4f4d-4fc2-8700-051889977f36",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix} 1 & 2    & 3     \\cr 2 & 3 & 1 \\cr 3 & 1     & 2     \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 1 &amp; 2    &amp;\n3     \\cr 2 &amp; 3 &amp; 1 \\cr 3 &amp; 1     &amp;\n2     \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "1ae929f7-b4dd-48eb-b02e-d95d6e933665",
+      "type": "reponse",
+      "value": {
+        "latex": "$P=\\begin{pmatrix}  1 &-2+\\sqrt{3} &-2-\\sqrt{3}  \\cr 1 & 1 & 1 \\cr 1 & 1-\\sqrt{3}  & 1+\\sqrt{3}  \\cr\\end{pmatrix}$,\\,\n   $ D= \\begin{pmatrix} 6 & 0&0 \\cr 0&\\sqrt{3}    & 0 \\cr 0 &0&-\\sqrt{3}    \\cr \\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix}  1 &amp;-2+\\sqrt{3}\n&amp;-2-\\sqrt{3}  \\cr 1 &amp; 1 &amp; 1 \\cr 1 &amp; 1-\\sqrt{3}  &amp;\n1+\\sqrt{3}  \\cr\\end{pmatrix}\\)</span>,  <span class=\"math inline\">\\(D=\n\\begin{pmatrix} 6 &amp; 0&amp;0 \\cr 0&amp;\\sqrt{3}    &amp; 0 \\cr 0\n&amp;0&amp;-\\sqrt{3}    \\cr \\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b6d45bc2-b692-432c-8d55-3f01e1856518",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix} 1 & 2     & 3     \\cr 2  &-1   &-4   \\cr 3 & 1     & 2     \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 1 &amp; 2     &amp;\n3     \\cr 2  &amp;-1   &amp;-4   \\cr 3 &amp; 1     &amp;\n2     \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5895e0a2-1f48-4d7b-8b3d-c33f3437028c",
+      "type": "reponse",
+      "value": {
+        "latex": "$     P=\\begin{pmatrix} -7 & 5+3\\sqrt{5} & 5-3\\sqrt{5} \\cr 11 &-4\\sqrt{5} & 4\\sqrt{5} \\cr 2 & 5+5\\sqrt{5} & 5-5\\sqrt{5} \\cr\\end{pmatrix}$,\\,\n     $D=\\begin{pmatrix} -3 & 0&0 \\cr 0&\\frac{5+\\sqrt{5}}2  & 0 \\cr 0 &0&\\frac{5-\\sqrt{5}}2     \\cr \\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix} -7 &amp; 5+3\\sqrt{5}\n&amp; 5-3\\sqrt{5} \\cr 11 &amp;-4\\sqrt{5} &amp; 4\\sqrt{5} \\cr 2 &amp;\n5+5\\sqrt{5} &amp; 5-5\\sqrt{5} \\cr\\end{pmatrix}\\)</span>,  <span\nclass=\"math inline\">\\(D=\\begin{pmatrix} -3 &amp; 0&amp;0 \\cr\n0&amp;\\frac{5+\\sqrt{5}}2  &amp; 0 \\cr 0\n&amp;0&amp;\\frac{5-\\sqrt{5}}2     \\cr \\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d7c3ed59-e3a6-4955-890d-fc461134c6c4",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix} 1 & 2 & 3 \\cr  2 & 1 & 3 \\cr 4 & 2 & 0 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 1 &amp; 2 &amp; 3\n\\cr  2 &amp; 1 &amp; 3 \\cr 4 &amp; 2 &amp; 0\n\\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b34bc7c0-0398-4ee2-a19f-9546c1faee2f",
+      "type": "reponse",
+      "value": {
+        "latex": "$     P=\\begin{pmatrix} 2 & 1 & 1 \\cr -5 & 1 & 1 \\cr 2 &-2 & 1 \\cr\\end{pmatrix}$,\\,\n$    D= \\begin{pmatrix}-1 & 0&0 \\cr 0&-3 & 0 \\cr 0 &0& 6 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix} 2 &amp; 1 &amp; 1 \\cr\n-5 &amp; 1 &amp; 1 \\cr 2 &amp;-2 &amp; 1 \\cr\\end{pmatrix}\\)</span>, \n<span class=\"math inline\">\\(D= \\begin{pmatrix}-1 &amp; 0&amp;0 \\cr\n0&amp;-3 &amp; 0 \\cr 0 &amp;0&amp; 6 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8b45a03c-af77-4c61-801c-8e6bcee706da",
+      "type": "question",
+      "value": {
+        "latex": "$  A=\\begin{pmatrix} 1  & 1  & 0 \\cr -1  & 1  & 2 \\cr 0  & 0  & 2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 1  &amp; 1  &amp; 0 \\cr\n-1  &amp; 1  &amp; 2 \\cr 0  &amp; 0  &amp; 2\n\\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f306eaa1-0115-4d62-a804-11347c307891",
+      "type": "reponse",
+      "value": {
+        "latex": "$     P=\\begin{pmatrix} 1  & 1  & 1 \\cr  i  &-i  & 1 \\cr 0  & 0  & 1 \\cr\\end{pmatrix}$,\\,\n$    D= \\begin{pmatrix}1+i & 0&0 \\cr 0&1-i & 0 \\cr 0 &0& 2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix} 1  &amp; 1  &amp; 1\n\\cr  i  &amp;-i  &amp; 1 \\cr 0  &amp; 0  &amp; 1\n\\cr\\end{pmatrix}\\)</span>,  <span class=\"math inline\">\\(D=\n\\begin{pmatrix}1+i &amp; 0&amp;0 \\cr 0&amp;1-i &amp; 0 \\cr 0 &amp;0&amp;\n2 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f8014dea-5855-4697-89b7-16a600c9a87f",
+      "type": "question",
+      "value": {
+        "latex": "$  A=\\begin{pmatrix} 2 &-1 &-1 \\cr -1 & 2 &-1 \\cr -1 &-1 & 2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 2 &amp;-1 &amp;-1 \\cr\n-1 &amp; 2 &amp;-1 \\cr -1 &amp;-1 &amp; 2 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "18831394-a13c-4513-bf7f-d4b6d002fb9f",
+      "type": "reponse",
+      "value": {
+        "latex": "$     P=\\begin{pmatrix} 1 & 1 & 1 \\cr  1 &-1 & 0 \\cr  1 & 0 &-1 \\cr\\end{pmatrix}$,\\,\n$    D= \\begin{pmatrix} 0 & 0&0 \\cr 0& 3 & 0 \\cr 0 &0& 3 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix} 1 &amp; 1 &amp; 1\n\\cr  1 &amp;-1 &amp; 0 \\cr  1 &amp; 0 &amp;-1\n\\cr\\end{pmatrix}\\)</span>,  <span class=\"math inline\">\\(D=\n\\begin{pmatrix} 0 &amp; 0&amp;0 \\cr 0&amp; 3 &amp; 0 \\cr 0 &amp;0&amp; 3\n\\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "95aca0e1-c92b-4d78-a348-55d959880bae",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix} 1 &-1 & 2 \\cr 3 &-3 & 6 \\cr 2 &-2 & 4 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 1 &amp;-1 &amp; 2 \\cr 3\n&amp;-3 &amp; 6 \\cr 2 &amp;-2 &amp; 4 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4b2bb146-1b87-46c6-8d94-ede35d698630",
+      "type": "reponse",
+      "value": {
+        "latex": "$     P=\\begin{pmatrix} 1 & 2 & 1 \\cr 1 & 0 & 3 \\cr 0 &-1 & 2 \\cr\\end{pmatrix}$,\\,\n$     D=\\begin{pmatrix} 0 & 0&0 \\cr 0& 0 & 0 \\cr 0 &0& 2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix} 1 &amp; 2 &amp; 1 \\cr 1\n&amp; 0 &amp; 3 \\cr 0 &amp;-1 &amp; 2 \\cr\\end{pmatrix}\\)</span>,  <span\nclass=\"math inline\">\\(D=\\begin{pmatrix} 0 &amp; 0&amp;0 \\cr 0&amp; 0\n&amp; 0 \\cr 0 &amp;0&amp; 2 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "89753f83-6fd2-43c8-b7a2-5646ae79cc5b",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix} 7 &-12 &-2 \\cr  3 &-4 & 0 \\cr -2 & 0 &-2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix} 7 &amp;-12 &amp;-2\n\\cr  3 &amp;-4 &amp; 0 \\cr -2 &amp; 0 &amp;-2\n\\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5eeb36c1-81b3-4f9d-8880-dc8238d7f3ca",
+      "type": "reponse",
+      "value": {
+        "latex": "$P= \\begin{pmatrix}-4 &-1  &-2 \\cr -3 &-1 &-1 \\cr  4 & 2 & 1 \\cr\\end{pmatrix}$,\\,\n$     D=\\begin{pmatrix} 0 & 0&0 \\cr 0&-1  & 0 \\cr 0 &0& 2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P= \\begin{pmatrix}-4 &amp;-1  &amp;-2 \\cr\n-3 &amp;-1 &amp;-1 \\cr  4 &amp; 2 &amp; 1 \\cr\\end{pmatrix}\\)</span>, \n<span class=\"math inline\">\\(D=\\begin{pmatrix} 0 &amp; 0&amp;0 \\cr\n0&amp;-1  &amp; 0 \\cr 0 &amp;0&amp; 2 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2b830816-d888-49e9-a052-b2abb2de7e18",
+      "type": "question",
+      "value": {
+        "latex": "$ A=\\begin{pmatrix}-2 & 8 & 6 \\cr -4 & 10 & 6 \\cr 4 &-8 &-4 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(A=\\begin{pmatrix}-2 &amp; 8 &amp; 6 \\cr\n-4 &amp; 10 &amp; 6 \\cr 4 &amp;-8 &amp;-4 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "19e68207-11e6-4234-b570-255fd12665a5",
+      "type": "reponse",
+      "value": {
+        "latex": "$     P=\\begin{pmatrix}-1 & 2 & 3 \\cr -1 & 1  & 0 \\cr 1 & 0 & 2 \\cr\\end{pmatrix}$,\\,\n$ D=  \\begin{pmatrix} 0 & 0&0 \\cr 0& 2 & 0 \\cr 0 &0& 2 \\cr\\end{pmatrix}$",
+        "html": "<p><span class=\"math inline\">\\(P=\\begin{pmatrix}-1 &amp; 2 &amp; 3 \\cr\n-1 &amp; 1  &amp; 0 \\cr 1 &amp; 0 &amp; 2 \\cr\\end{pmatrix}\\)</span>, \n<span class=\"math inline\">\\(D=  \\begin{pmatrix} 0 &amp; 0&amp;0 \\cr\n0&amp; 2 &amp; 0 \\cr 0 &amp;0&amp; 2 \\cr\\end{pmatrix}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Diagonaliser les matrices suivantes :</p>\n"
+}

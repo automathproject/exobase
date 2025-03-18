@@ -1,0 +1,61 @@
+{
+  "uuid": "oALd",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4295",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:46.622Z"
+  },
+  "contenu": [
+    {
+      "id": "34439bcb-4ed3-42b1-9318-102c3df869f8",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ab3358fe-342a-441c-a7b1-0965229d417a",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f : {]0,{+\\infty}[} \\to \\R$ une fonction continue telle que\n$\\begin{cases} f(x) \\to \\ell \\cr f(x) \\text{ si } x\\to{0^+}\\to L \\text{ si } x\\to{+\\infty} .\\cr\\end{cases}$\n\nPour $a > 0$, établir la convergence et calculer la valeur de\n$ \\int_{t=0}^{+\\infty} \\frac {f(at) - f(t)}t \\,d t$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {]0,{+\\infty}[} \\to \\R\\)</span>\nune fonction continue telle que <span\nclass=\"math inline\">\\(\\begin{cases} f(x) \\to \\ell \\cr f(x) \\text{ si }\nx\\to{0^+}\\to L \\text{ si } x\\to{+\\infty} .\\cr\\end{cases}\\)</span></p>\n<p>Pour <span class=\"math inline\">\\(a &gt; 0\\)</span>, établir la\nconvergence et calculer la valeur de <span\nclass=\"math inline\">\\(\\int_{t=0}^{+\\infty} \\frac {f(at) - f(t)}t \\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8434f796-ef41-45f3-a95b-11037c30bb9d",
+      "type": "reponse",
+      "value": {
+        "latex": "$ \\int_{t=x}^y \\frac {f(at)}t \\,d t =  \\int_{t=ax}^{ay} \\frac {f(t)}t \\,d t  \\Rightarrow \n  \\int_{t=x}^y \\frac {f(at)-f(t)}t \\,d t =  \\int_{t=ax}^x \\frac {f(t)}t \\,d t\n + \\int_{t=y}^{ay} \\frac {f(t)}t \\,d t$.\n\nOn obtient $ \\int_{t=0}^{+\\infty} \\frac {f(at) - f(t)}t \\,d t = (L-\\ell)\\ln a$.",
+        "html": "<p><span class=\"math inline\">\\(\\int_{t=x}^y \\frac {f(at)}t \\,d t\n=  \\int_{t=ax}^{ay} \\frac {f(t)}t \\,d t  \\Rightarrow\n  \\int_{t=x}^y \\frac {f(at)-f(t)}t \\,d t =  \\int_{t=ax}^x \\frac {f(t)}t\n\\,d t\n+ \\int_{t=y}^{ay} \\frac {f(t)}t \\,d t\\)</span>.</p>\n<p>On obtient <span class=\"math inline\">\\(\\int_{t=0}^{+\\infty} \\frac\n{f(at) - f(t)}t \\,d t = (L-\\ell)\\ln a\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f87d431c-e44e-4c13-a996-97cfa6004436",
+      "type": "question",
+      "value": {
+        "latex": "Application : Calculer $ \\int_{t=0}^1 \\frac{t-1}{\\ln t}\\,d t$.",
+        "html": "<p>Application : Calculer <span class=\"math inline\">\\(\\int_{t=0}^1\n\\frac{t-1}{\\ln t}\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a3538a51-c56a-47a3-90b7-1f9b04daed1c",
+      "type": "reponse",
+      "value": {
+        "latex": "$I =  \\int_{t=0}^{+\\infty} \\frac{e^{-t}-e^{-2t}}t\\,d t = \\ln 2$.",
+        "html": "<p><span class=\"math inline\">\\(I =  \\int_{t=0}^{+\\infty}\n\\frac{e^{-t}-e^{-2t}}t\\,d t = \\ln 2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {]0,{+\\infty}[} \\to \\R\\)</span>\nune fonction continue telle que <span\nclass=\"math inline\"> ..."
+}

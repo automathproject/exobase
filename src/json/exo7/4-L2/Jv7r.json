@@ -1,0 +1,69 @@
+{
+  "uuid": "Jv7r",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3640",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Endomorphisme particulier",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:20.993Z"
+  },
+  "contenu": [
+    {
+      "id": "1422998a-67c6-4d3f-8830-416c29ceeb9c",
+      "type": "description",
+      "value": {
+        "latex": "On note $f_n(x) = \\cos nx$ et $g_n(x) = \\sin nx$ ($x \\in \\R$, $n \\in \\N$).\n\nSoit $E_n$ l'espace engendré par la famille\n${\\cal F}_n = (f_0,\\dots,f_n,g_1,\\dots,g_n)$.",
+        "html": "<p>On note <span class=\"math inline\">\\(f_n(x) = \\cos nx\\)</span> et\n<span class=\"math inline\">\\(g_n(x) = \\sin nx\\)</span> (<span\nclass=\"math inline\">\\(x \\in \\R\\)</span>, <span class=\"math inline\">\\(n\n\\in \\N\\)</span>).</p>\n<p>Soit <span class=\"math inline\">\\(E_n\\)</span> l’espace engendré par\nla famille <span class=\"math inline\">\\({\\cal F}_n =\n(f_0,\\dots,f_n,g_1,\\dots,g_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d42957dc-4881-4d37-8abc-05dbe4982015",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour $k \\ge 1$, $(f_k,g_k)$ est libre.",
+        "html": "<p>Montrer que pour <span class=\"math inline\">\\(k \\ge 1\\)</span>, <span\nclass=\"math inline\">\\((f_k,g_k)\\)</span> est libre.</p>\n"
+      }
+    },
+    {
+      "id": "82b8d648-3ba8-49e5-bed7-a5ff30d508de",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\varphi : {E_n} \\to {E_n}, f \\mapsto {f''}$.\n    Chercher les sous-espaces propres de $\\varphi$.\n    En déduire que ${\\cal F}_n$ est libre.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varphi : {E_n} \\to {E_n}, f \\mapsto\n{f&#39;&#39;}\\)</span>. Chercher les sous-espaces propres de <span\nclass=\"math inline\">\\(\\varphi\\)</span>. En déduire que <span\nclass=\"math inline\">\\({\\cal F}_n\\)</span> est libre.</p>\n"
+      }
+    },
+    {
+      "id": "0896204d-18bc-4197-92fb-63b275e8d0d5",
+      "type": "question",
+      "value": {
+        "latex": "On note $a_k = \\frac{2k\\pi}{2n+1}$ et\n    ${\\varphi_k} : {E_n} \\to \\R, f \\mapsto {f(a_k).}$\n\n    Montrer que $(\\varphi_0,\\dots,\\varphi_{2n})$ est une base de $E_n^*$.\n    (On utilisera la fonction $f : x  \\mapsto \\prod_{k=1}^n (\\cos x - \\cos a_k)$)",
+        "html": "<p>On note <span class=\"math inline\">\\(a_k = \\frac{2k\\pi}{2n+1}\\)</span>\net <span class=\"math inline\">\\({\\varphi_k} : {E_n} \\to \\R, f \\mapsto\n{f(a_k).}\\)</span></p>\n<p>Montrer que <span\nclass=\"math inline\">\\((\\varphi_0,\\dots,\\varphi_{2n})\\)</span> est une\nbase de <span class=\"math inline\">\\(E_n^*\\)</span>. (On utilisera la\nfonction <span class=\"math inline\">\\(f : x  \\mapsto \\prod_{k=1}^n (\\cos\nx - \\cos a_k)\\)</span>)</p>\n"
+      }
+    },
+    {
+      "id": "899b016d-c2a0-42a7-a6fd-d63f785f5148",
+      "type": "question",
+      "value": {
+        "latex": "Soit $N \\in \\N^*$. On note $b_k = \\frac{2k\\pi}N$ et\n    ${\\psi_k} : {E_n}\\to \\R, f \\mapsto {f(b_k).}$\n    Montrer que $(\\psi_0,\\dots,\\psi_{N-1})$ est libre si et seulement si\n    $N \\le 2n+1$, et engendre $E_n^*$ si et seulement si $N \\ge 2n+1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(N \\in \\N^*\\)</span>. On note <span\nclass=\"math inline\">\\(b_k = \\frac{2k\\pi}N\\)</span> et <span\nclass=\"math inline\">\\({\\psi_k} : {E_n}\\to \\R, f \\mapsto\n{f(b_k).}\\)</span> Montrer que <span\nclass=\"math inline\">\\((\\psi_0,\\dots,\\psi_{N-1})\\)</span> est libre si et\nseulement si <span class=\"math inline\">\\(N \\le 2n+1\\)</span>, et\nengendre <span class=\"math inline\">\\(E_n^*\\)</span> si et seulement si\n<span class=\"math inline\">\\(N \\ge 2n+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "af28c10e-8b02-4fd9-8dff-99b077525030",
+      "type": "reponse",
+      "value": {
+        "latex": "3. Rmq : coefficients de Fourrier :\n    $\\alpha_p = \\frac 2{2n+1}\\sum_{k=0}^{2n} f(a_k)\\cos(pa_k)$ et\n    $\\beta_p = \\frac 2{2n+1}\\sum_{k=0}^{2n} f(a_k)\\sin(pa_k)$.",
+        "html": "<p>3. Rmq : coefficients de Fourrier : <span\nclass=\"math inline\">\\(\\alpha_p = \\frac 2{2n+1}\\sum_{k=0}^{2n}\nf(a_k)\\cos(pa_k)\\)</span> et <span class=\"math inline\">\\(\\beta_p = \\frac\n2{2n+1}\\sum_{k=0}^{2n} f(a_k)\\sin(pa_k)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On note <span class=\"math inline\">\\(f_n(x) = \\cos nx\\)</span> et\n<span class=\"math inline\">\\(g_n(x) = \\sin nx\\)</span> (<span\nclass=\"math inline\">\\ ..."
+}

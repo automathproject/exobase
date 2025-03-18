@@ -1,0 +1,37 @@
+{
+  "uuid": "SgPn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4456",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:51.462Z"
+  },
+  "contenu": [
+    {
+      "id": "6de75516-5ce0-4093-a0e4-bb3baf5543f2",
+      "type": "description",
+      "value": {
+        "latex": "On donne une suite de réels strictement positifs $(a_n)$, décroissante\net de limite nulle. Montrer que la série de terme général\n$\\frac{a_n-a_{n+1}}{a_n}$ diverge.",
+        "html": "<p>On donne une suite de réels strictement positifs <span\nclass=\"math inline\">\\((a_n)\\)</span>, décroissante et de limite nulle.\nMontrer que la série de terme général <span\nclass=\"math inline\">\\(\\frac{a_n-a_{n+1}}{a_n}\\)</span> diverge.</p>\n"
+      }
+    },
+    {
+      "id": "6e7d5b9f-6b69-4153-b916-0c479e7f434c",
+      "type": "reponse",
+      "value": {
+        "latex": "Méthode des rectangles~:\n$\\sum_{k=0}^n\\frac{a_k-a_{k+1}}{a_{k+1}}\\ge\n \\int_{t=a_{n+1}}^{a_0}\\frac{d t}t \\to +\\infty$ lorsque $k\\to\\infty$.\n\nSi $a_k\\sim a_{k+1}$ la série donnée diverge donc. Sinon, elle diverge\naussi car son terme général ne tend pas vers~$0$.",
+        "html": "<p>Méthode des rectangles : <span\nclass=\"math inline\">\\(\\sum_{k=0}^n\\frac{a_k-a_{k+1}}{a_{k+1}}\\ge\n\\int_{t=a_{n+1}}^{a_0}\\frac{d t}t \\to +\\infty\\)</span> lorsque <span\nclass=\"math inline\">\\(k\\to\\infty\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(a_k\\sim a_{k+1}\\)</span> la série\ndonnée diverge donc. Sinon, elle diverge aussi car son terme général ne\ntend pas vers <span class=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On donne une suite de réels strictement positifs <span\nclass=\"math inline\">\\((a_n)\\)</span>, décroissante et de limite nulle.\nMontrer que la série  ..."
+}

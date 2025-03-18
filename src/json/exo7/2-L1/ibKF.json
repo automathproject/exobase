@@ -1,0 +1,37 @@
+{
+  "uuid": "ibKF",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4408",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Fonction exponentielle complexe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:32.111Z"
+  },
+  "contenu": [
+    {
+      "id": "5f02ad4a-0d20-49a7-9023-7aa9382f4ed5",
+      "type": "description",
+      "value": {
+        "latex": "Montrer qu'il existe une infinité de complexes $z$ tels que $e^z = z$\n(on calculera $x$ en fonction de $y$, et on étudiera l'équation obtenue).",
+        "html": "<p>Montrer qu’il existe une infinité de complexes <span\nclass=\"math inline\">\\(z\\)</span> tels que <span\nclass=\"math inline\">\\(e^z = z\\)</span> (on calculera <span\nclass=\"math inline\">\\(x\\)</span> en fonction de <span\nclass=\"math inline\">\\(y\\)</span>, et on étudiera l’équation\nobtenue).</p>\n"
+      }
+    },
+    {
+      "id": "16fd09cc-7d21-4dcc-a730-337b7d17ccb9",
+      "type": "reponse",
+      "value": {
+        "latex": "$e^{x+iy} = x+iy \\Leftrightarrow \\begin{cases}x = y/\\tan y \\cr e^{-y/\\tan y}\n         = \\sin y/y.\\cr\\end{cases}$\n         Au voisinage de $2k\\pi^+$, $e^{-y/\\tan y} < \\sin y/y$ (point plat)\n         et au voisinage de $(2k+1)\\pi^-$, $e^{-y/\\tan y} > \\sin y/y$\n         (limite infinie).",
+        "html": "<p><span class=\"math inline\">\\(e^{x+iy} = x+iy \\Leftrightarrow\n\\begin{cases}x = y/\\tan y \\cr e^{-y/\\tan y}\n         = \\sin y/y.\\cr\\end{cases}\\)</span> Au voisinage de <span\nclass=\"math inline\">\\(2k\\pi^+\\)</span>, <span\nclass=\"math inline\">\\(e^{-y/\\tan y} &lt; \\sin y/y\\)</span> (point plat)\net au voisinage de <span class=\"math inline\">\\((2k+1)\\pi^-\\)</span>,\n<span class=\"math inline\">\\(e^{-y/\\tan y} &gt; \\sin y/y\\)</span> (limite\ninfinie).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer qu’il existe une infinité de complexes <span\nclass=\"math inline\">\\(z\\)</span> tels que <span\nclass=\"math inline\">\\(e^z = z\\)</span> (on cal ..."
+}

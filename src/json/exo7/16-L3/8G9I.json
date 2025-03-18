@@ -1,0 +1,45 @@
+{
+  "uuid": "8G9I",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6627",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:17.688Z"
+  },
+  "contenu": [
+    {
+      "id": "b80730ad-cbf3-4ed9-91c6-70adbced72ea",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\sum a_nz^n$ une série entière de rayon $1$. On pose\n$s_n=a_0+a_1+\\cdots+a_n$, $t_n={1\\over n+1}(s_0+s_1+\\cdots+s_n)$, $u(z)=\\sum\ns_nz^n$ et $v(z)=\\sum t_nz^n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\sum a_nz^n\\)</span> une série\nentière de rayon <span class=\"math inline\">\\(1\\)</span>. On pose <span\nclass=\"math inline\">\\(s_n=a_0+a_1+\\cdots+a_n\\)</span>, <span\nclass=\"math inline\">\\(t_n={1\\over n+1}(s_0+s_1+\\cdots+s_n)\\)</span>,\n<span class=\"math inline\">\\(u(z)=\\sum\ns_nz^n\\)</span> et <span class=\"math inline\">\\(v(z)=\\sum\nt_nz^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c0a66000-167a-4558-8369-86ed3ae1f7bb",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les rayons de convergence de $u$ et de $v$ sont égaux à $1$.",
+        "html": "<p>Montrer que les rayons de convergence de <span\nclass=\"math inline\">\\(u\\)</span> et de <span\nclass=\"math inline\">\\(v\\)</span> sont égaux à <span\nclass=\"math inline\">\\(1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4eff4d7d-a5dc-4376-9e55-da566e648b49",
+      "type": "question",
+      "value": {
+        "latex": "Etablir pour tout $|z|<1$, $u(z)={1\\over 1-z}\\sum a_nz^n$. Retrouver ainsi le\nthéorème d'Abel : soit $f(z)=\\sum a_nz^n$ une série entière de rayon $1$, telle\nque\n$\\sum a_n$ converge vers $A$. Alors $f(z)$ tend vers $A$ quand $z\\to 1$ non\ntangentiellement.",
+        "html": "<p>Etablir pour tout <span class=\"math inline\">\\(|z|&lt;1\\)</span>,\n<span class=\"math inline\">\\(u(z)={1\\over 1-z}\\sum a_nz^n\\)</span>.\nRetrouver ainsi le théorème d’Abel : soit <span\nclass=\"math inline\">\\(f(z)=\\sum a_nz^n\\)</span> une série entière de\nrayon <span class=\"math inline\">\\(1\\)</span>, telle que <span\nclass=\"math inline\">\\(\\sum a_n\\)</span> converge vers <span\nclass=\"math inline\">\\(A\\)</span>. Alors <span\nclass=\"math inline\">\\(f(z)\\)</span> tend vers <span\nclass=\"math inline\">\\(A\\)</span> quand <span class=\"math inline\">\\(z\\to\n1\\)</span> non tangentiellement.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\sum a_nz^n\\)</span> une série\nentière de rayon <span class=\"math inline\">\\(1\\)</span>. On pose <span\nclass=\"math  ..."
+}

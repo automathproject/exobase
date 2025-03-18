@@ -1,0 +1,144 @@
+{
+  "uuid": "4Z0U",
+  "titre": "Etude d'un jeu",
+  "theme": [
+    "variables aléatoires discrètes",
+    "approximation de loi"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-11",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:25.050Z"
+  },
+  "contenu": [
+    {
+      "id": "aff5dc6f-bcb4-4b55-aa70-e39ff148253e",
+      "type": "description",
+      "value": {
+        "latex": "Timothée vient d'ouvrir un salon de jeux. Pour l'instant, il n'a installé qu'une roulette et a simplifié le jeu de la manière suivante : on ne peut miser que 1 euro sur 1 seul des numéros (de 0 à 36 ) à la fois. Si le numéro misé sort, le joueur récupère sa mise plus 34 fois celle-ci ; sinon il perd sa mise.",
+        "html": "<p>Timothée vient d’ouvrir un salon de jeux. Pour l’instant, il n’a\ninstallé qu’une roulette et a simplifié le jeu de la manière suivante :\non ne peut miser que 1 euro sur 1 seul des numéros (de 0 à 36 ) à la\nfois. Si le numéro misé sort, le joueur récupère sa mise plus 34 fois\ncelle-ci ; sinon il perd sa mise.</p>\n"
+      }
+    },
+    {
+      "id": "f6aa24be-0f7d-41f1-8efc-42d8988dad5c",
+      "type": "description",
+      "value": {
+        "latex": "Camille vient au salon de jeux de Timothée et mise un euro sur le 21 . On note $X$ la variable aléatoire donnant le gain algébrique de Camille.",
+        "html": "<p>Camille vient au salon de jeux de Timothée et mise un euro sur le 21\n. On note <span class=\"math inline\">\\(X\\)</span> la variable aléatoire\ndonnant le gain algébrique de Camille.</p>\n"
+      }
+    },
+    {
+      "id": "411f2e80-6473-4ddb-88c9-614c82efb7ba",
+      "type": "question",
+      "value": {
+        "latex": "Donner la loi de $X$ .",
+        "html": "<p>Donner la loi de <span class=\"math inline\">\\(X\\)</span> .</p>\n"
+      }
+    },
+    {
+      "id": "d531acd7-0c00-48f8-9e8a-87c22bab4921",
+      "type": "reponse",
+      "value": {
+        "latex": "$X(\\Omega)=\\{-1 ; 34\\}, \\mathbb{P}(X=-1)=\\frac{36}{37}$ et $\\mathbb{P}(X=34)=\\frac{1}{37}$",
+        "html": "<p><span class=\"math inline\">\\(X(\\Omega)=\\{-1 ; 34\\},\n\\mathbb{P}(X=-1)=\\frac{36}{37}\\)</span> et <span\nclass=\"math inline\">\\(\\mathbb{P}(X=34)=\\frac{1}{37}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8de4c394-d887-4d08-bbd7-c41830dee732",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'espérance de $X$.",
+        "html": "<p>Calculer l’espérance de <span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ca70fb72-5147-4931-8021-3083f2d46050",
+      "type": "reponse",
+      "value": {
+        "latex": "Commenter. $-\\frac{2}{37}$",
+        "html": "<p>Commenter. <span class=\"math inline\">\\(-\\frac{2}{37}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5ff3bb1c-f23c-4bc8-84e2-0e7d4f4a2edb",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'écart type de $X$.",
+        "html": "<p>Calculer l’écart type de <span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d73f965b-3678-4246-9f10-715d83b7933e",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{210}{37}$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{210}{37}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "73ba0095-d8af-4fb8-a49d-8d4f9a3d232b",
+      "type": "description",
+      "value": {
+        "latex": "Timothée s'attend à avoir 5000 mises de un euro effectuées par mois dans son salon de jeux. On note $X_1, X_2, \\ldots, X_{5000}$ les 5000 variables aléatoires représentant les gains algébriques des clients correspondant à 5000 mises de un euro. On suppose les mises et donc les variables $X_1, X_2, \\ldots, X_{5000}$ indépendantes.",
+        "html": "<p>Timothée s’attend à avoir 5000 mises de un euro effectuées par mois\ndans son salon de jeux. On note <span class=\"math inline\">\\(X_1, X_2,\n\\ldots, X_{5000}\\)</span> les 5000 variables aléatoires représentant les\ngains algébriques des clients correspondant à 5000 mises de un euro. On\nsuppose les mises et donc les variables <span class=\"math inline\">\\(X_1,\nX_2, \\ldots, X_{5000}\\)</span> indépendantes.</p>\n"
+      }
+    },
+    {
+      "id": "09950226-daec-4f4e-92cc-aff6bcfbef81",
+      "type": "question",
+      "value": {
+        "latex": "Donner une approximation de la loi de la variable aléatoire $\\bar{X}_{5000}$.",
+        "html": "<p>Donner une approximation de la loi de la variable aléatoire <span\nclass=\"math inline\">\\(\\bar{X}_{5000}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "09018818-f52e-469b-80e7-010bf9043197",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\bar{X}_{5000} \\underset{a p p r o x}{\\sim} \\mathcal{N}\\left(-\\frac{2}{37} ; \\frac{21 \\sqrt{2}}{370}\\right)$",
+        "html": "<p><span class=\"math inline\">\\(\\bar{X}_{5000} \\underset{a p p r o\nx}{\\sim} \\mathcal{N}\\left(-\\frac{2}{37} ; \\frac{21\n\\sqrt{2}}{370}\\right)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "299c4564-ba07-49d0-b487-468f61c6f9ed",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité que Timothée et son salon de jeux perdent de l'argent sur 5000 mises ?",
+        "html": "<p>Quelle est la probabilité que Timothée et son salon de jeux perdent\nde l’argent sur 5000 mises ?</p>\n"
+      }
+    },
+    {
+      "id": "3cb21544-b3a0-4241-9c3e-81954ad23fd1",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\simeq 0.25$",
+        "html": "<p><span class=\"math inline\">\\(\\simeq 0.25\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "31ce0540-e685-41da-9f73-6aad8bf89009",
+      "type": "question",
+      "value": {
+        "latex": "À partir de combien de mises la probabilité que Timothée et son salon de jeux perdent de l'argent sur ces mises soit inférieure à $5 \\%$ ?",
+        "html": "<p>À partir de combien de mises la probabilité que Timothée et son salon\nde jeux perdent de l’argent sur ces mises soit inférieure à <span\nclass=\"math inline\">\\(5 \\%\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "cd8bf49e-05b3-4502-849c-68b2b97e7630",
+      "type": "reponse",
+      "value": {
+        "latex": "$29834$",
+        "html": "<p><span class=\"math inline\">\\(29834\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Timothée vient d’ouvrir un salon de jeux. Pour l’instant, il n’a\ninstallé qu’une roulette et a simplifié le jeu de la manière suivante :\non ne peut ..."
+}

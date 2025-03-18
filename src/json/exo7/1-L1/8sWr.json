@@ -1,0 +1,61 @@
+{
+  "uuid": "8sWr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7022",
+    "auteur": "megy",
+    "createdAt": "2016-08-25",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Récurrence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:05.856Z"
+  },
+  "contenu": [
+    {
+      "id": "8692787d-36a9-4875-a566-1b89607c7b1c",
+      "type": "description",
+      "value": {
+        "latex": "On considère la suite réelle $(u_n)_{n\\in\\N}$ définie par $u_0=2$ et pour tout $n\\in\\N,\\: u_{n+1}=\\sqrt{u_n}$.",
+        "html": "<p>On considère la suite réelle <span\nclass=\"math inline\">\\((u_n)_{n\\in\\N}\\)</span> définie par <span\nclass=\"math inline\">\\(u_0=2\\)</span> et pour tout <span\nclass=\"math inline\">\\(n\\in\\N,\\: u_{n+1}=\\sqrt{u_n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "52f6e4d4-b70d-4b1b-939d-95944b8129a2",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $n\\in\\N$, $u_n>1$.",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(n\\in\\N\\)</span>,\n<span class=\"math inline\">\\(u_n&gt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e4b79401-3f82-4110-91f8-5c3b95fc4fe6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout réel $a\\in]1;+\\infty[$, on a $\\frac{1}{\\sqrt a+1} \\leq \\frac12$.",
+        "html": "<p>Montrer que pour tout réel <span\nclass=\"math inline\">\\(a\\in]1;+\\infty[\\)</span>, on a <span\nclass=\"math inline\">\\(\\frac{1}{\\sqrt a+1} \\leq \\frac12\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b63cee3a-7240-4ba3-acb0-c3fca3c4f3b3",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que pour tout $n\\in\\N$, on a $u_{n+1}-1\\leq \\frac12\\left(u_n-1\\right)$.",
+        "html": "<p>En déduire que pour tout <span class=\"math inline\">\\(n\\in\\N\\)</span>,\non a <span class=\"math inline\">\\(u_{n+1}-1\\leq\n\\frac12\\left(u_n-1\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0bdc5182-8ade-4390-9a56-ef450e1a8ef6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $n\\in\\N$, $u_n-1 \\leq \\left(\\frac12\\right)^n$. En déduire la limite de la suite $(u_n)$.",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(n\\in\\N\\)</span>,\n<span class=\"math inline\">\\(u_n-1 \\leq \\left(\\frac12\\right)^n\\)</span>.\nEn déduire la limite de la suite <span\nclass=\"math inline\">\\((u_n)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la suite réelle <span\nclass=\"math inline\">\\((u_n)_{n\\in\\N}\\)</span> définie par <span\nclass=\"math inline\">\\(u_0=2\\)</span> et pour tou ..."
+}

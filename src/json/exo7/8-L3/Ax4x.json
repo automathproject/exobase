@@ -1,0 +1,37 @@
+{
+  "uuid": "Ax4x",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2118",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Ordre d'un élément",
+    "sousChapitre": "Ordre d'un élément",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:46.872Z"
+  },
+  "contenu": [
+    {
+      "id": "de8c0fc1-1a97-4d23-8bd4-13c8a8d8c3ce",
+      "type": "description",
+      "value": {
+        "latex": "Soit $G$ un groupe et $H<G$, $K<G$ deux sous-groupes de $G$. On suppose\nqu'il existe deux \\'el\\'ements $a,b \\in G$ tels que $Ha \\subset Kb$. Montrer que $H<K$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe et <span\nclass=\"math inline\">\\(H&lt;G\\)</span>, <span\nclass=\"math inline\">\\(K&lt;G\\)</span> deux sous-groupes de <span\nclass=\"math inline\">\\(G\\)</span>. On suppose qu’il existe deux éléments\n<span class=\"math inline\">\\(a,b \\in G\\)</span> tels que <span\nclass=\"math inline\">\\(Ha \\subset Kb\\)</span>. Montrer que <span\nclass=\"math inline\">\\(H&lt;K\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "406178a8-ab63-42d3-b5ff-0bc447642901",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $h\\in H$, on a $ha=k_hb$ pour un certain $k_h\\in K$. En \\'ecrivant \n$ha=h(ea)=hk_eb$, on obtient $k_h=hk_e$, ce qui donne $h=k_h (k_e)^{-1} \\in K$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(h\\in H\\)</span>, on a <span\nclass=\"math inline\">\\(ha=k_hb\\)</span> pour un certain <span\nclass=\"math inline\">\\(k_h\\in K\\)</span>. En écrivant <span\nclass=\"math inline\">\\(ha=h(ea)=hk_eb\\)</span>, on obtient <span\nclass=\"math inline\">\\(k_h=hk_e\\)</span>, ce qui donne <span\nclass=\"math inline\">\\(h=k_h (k_e)^{-1} \\in K\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe et <span\nclass=\"math inline\">\\(H&lt;G\\)</span>, <span\nclass=\"math inline\">\\(K&lt;G\\)</span> d ..."
+}

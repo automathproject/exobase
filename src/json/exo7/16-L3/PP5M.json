@@ -1,0 +1,61 @@
+{
+  "uuid": "PP5M",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7605",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:42.333Z"
+  },
+  "contenu": [
+    {
+      "id": "cb79a846-a6f7-4075-85cc-33cd8e31842a",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "04b462d9-84c0-415c-8126-8e26c72cfc20",
+      "type": "question",
+      "value": {
+        "latex": "\\'Enoncer le théorème de Rouché.",
+        "html": "<p>Énoncer le théorème de Rouché.</p>\n"
+      }
+    },
+    {
+      "id": "a1611d6a-da59-44ed-a441-fe3b58b34b75",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f$ et $g$ deux applications holomorphes sur un ouvert étoilé $D$ de $\\Cc$.\r\nSoit $\\Gamma$ un chemin fermé simple dans $D$. \r\nOn suppose que $$\\forall z\\in \\Gamma,\\ \\ |f(z)-g(z)|<|g(z)|.$$\r\nAlors $f$ et $g$ ont le même nombre de zéros compté avec multiplicité dans l'intérieur de $\\Gamma$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> deux applications holomorphes sur un\nouvert étoilé <span class=\"math inline\">\\(D\\)</span> de <span\nclass=\"math inline\">\\(\\Cc\\)</span>. Soit <span\nclass=\"math inline\">\\(\\Gamma\\)</span> un chemin fermé simple dans <span\nclass=\"math inline\">\\(D\\)</span>. On suppose que <span\nclass=\"math display\">\\[\\forall z\\in \\Gamma,\\ \\\n|f(z)-g(z)|&lt;|g(z)|.\\]</span> Alors <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> ont le même nombre de zéros compté avec\nmultiplicité dans l’intérieur de <span\nclass=\"math inline\">\\(\\Gamma\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "43082d93-7343-4863-a54b-9b68158a8b0b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les zéros du polynôme $ p(z) = z^{4}-7z-1 $ \r\nsont tous inclus dans le disque $\\Delta_2(0)$ centré en l'origine de rayon 2.\r\nOn vérifiera soigneusement toutes les hypothèses du théorème utilisé.",
+        "html": "<p>Montrer que les zéros du polynôme <span class=\"math inline\">\\(p(z) =\nz^{4}-7z-1\\)</span> sont tous inclus dans le disque <span\nclass=\"math inline\">\\(\\Delta_2(0)\\)</span> centré en l’origine de rayon\n2. On vérifiera soigneusement toutes les hypothèses du théorème\nutilisé.</p>\n"
+      }
+    },
+    {
+      "id": "aa878baf-17b7-4263-a35e-6cf42ae8d3d8",
+      "type": "reponse",
+      "value": {
+        "latex": "L'ouvert $\\Cc$ est étoilé et contient le chemin $\\partial\\Delta_2$ dont l'intérieur est $\\Delta_2$.\r\nLes deux applications $z\\mapsto z^4$ et $p$ sont polynômiales donc holomorphes sur $\\Cc$.\r\nSoit $z\\in\\partial\\Delta_2$. Alors \r\n$$|p(z)-z^4|=|7z+1|\\leq 7|z|+1\\leq 7\\times 2+1=15<2^4=|z^4|.$$\r\nPar le théorème de Rouché, le polynôme $p$ et $z\\mapsto z^4$ ont le même nombre de zéros compté avec multiplicités\r\ndans $\\Delta_2$, c'est à dire $4$.\r\nComme $p$ est non nul de degré $4$, tous ses zéros sont dans $\\Delta_2$.",
+        "html": "<p>L’ouvert <span class=\"math inline\">\\(\\Cc\\)</span> est étoilé et\ncontient le chemin <span class=\"math inline\">\\(\\partial\\Delta_2\\)</span>\ndont l’intérieur est <span class=\"math inline\">\\(\\Delta_2\\)</span>. Les\ndeux applications <span class=\"math inline\">\\(z\\mapsto z^4\\)</span> et\n<span class=\"math inline\">\\(p\\)</span> sont polynômiales donc\nholomorphes sur <span class=\"math inline\">\\(\\Cc\\)</span>. Soit <span\nclass=\"math inline\">\\(z\\in\\partial\\Delta_2\\)</span>. Alors <span\nclass=\"math display\">\\[|p(z)-z^4|=|7z+1|\\leq 7|z|+1\\leq 7\\times\n2+1=15&lt;2^4=|z^4|.\\]</span> Par le théorème de Rouché, le polynôme\n<span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(z\\mapsto z^4\\)</span> ont le même nombre de zéros\ncompté avec multiplicités dans <span\nclass=\"math inline\">\\(\\Delta_2\\)</span>, c’est à dire <span\nclass=\"math inline\">\\(4\\)</span>. Comme <span\nclass=\"math inline\">\\(p\\)</span> est non nul de degré <span\nclass=\"math inline\">\\(4\\)</span>, tous ses zéros sont dans <span\nclass=\"math inline\">\\(\\Delta_2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Énoncer le théorème de Rouché.</p>\n"
+}

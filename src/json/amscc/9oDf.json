@@ -1,0 +1,47 @@
+{
+  "uuid": "9oDf",
+  "titre": "Développement en série entière d'une fonction",
+  "theme": [
+    "séries entières"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2024-06-17",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:49.098Z"
+  },
+  "contenu": [
+    {
+      "id": "39746767-91d2-482b-8807-95d20703fda2",
+      "type": "description",
+      "value": {
+        "latex": "Soit la fonction d'une variable réelle $f \\colon x \\mapsto e^{x^2}-1$.",
+        "html": "<p>Soit la fonction d’une variable réelle <span class=\"math inline\">\\(f\n\\colon x \\mapsto e^{x^2}-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "43fd201b-60c4-4409-b6ed-9c879c467806",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer un développement en série entière de la fonction $f$ et préciser le rayon de convergence.",
+        "html": "<p>Déterminer un développement en série entière de la fonction <span\nclass=\"math inline\">\\(f\\)</span> et préciser le rayon de\nconvergence.</p>\n"
+      }
+    },
+    {
+      "id": "c54d2757-1b2e-467b-93a7-b46846066dfe",
+      "type": "reponse",
+      "value": {
+        "latex": "On en déduit en subtistuant $x$ par $x^2$ que pour tout $x \\in \\R$,\n\t\t$$f(x) = \\sum_{n=0}^{+\\infty} \\frac{x^{2n}}{n!}-1 = \\sum_{n=1}^{+\\infty} \\frac{x^{2n}}{n!}$$",
+        "html": "<p>On en déduit en subtistuant <span class=\"math inline\">\\(x\\)</span>\npar <span class=\"math inline\">\\(x^2\\)</span> que pour tout <span\nclass=\"math inline\">\\(x \\in \\R\\)</span>, <span\nclass=\"math display\">\\[f(x) = \\sum_{n=0}^{+\\infty} \\frac{x^{2n}}{n!}-1 =\n\\sum_{n=1}^{+\\infty} \\frac{x^{2n}}{n!}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit la fonction d’une variable réelle <span class=\"math inline\">\\(f\n\\colon x \\mapsto e^{x^2}-1\\)</span>.</p>\n"
+}

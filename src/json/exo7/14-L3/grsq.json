@@ -1,0 +1,37 @@
+{
+  "uuid": "grsq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5942",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Lemme de Fatou, convergence monotone",
+    "sousChapitre": "Lemme de Fatou, convergence monotone",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:14.220Z"
+  },
+  "contenu": [
+    {
+      "id": "610be9fc-599b-49cb-8ddf-aeee323c2608",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f_{n} = \\frac{1}{n} \\mathbf{1}_{[0, n]}$, $n\\in\\mathbb{N}$, et $f =\n0$. Montrer que $f_{n}$ converge uniform\\'ement vers $f$, mais que\n$$\n\\int_{\\Omega} f\\,d\\mu ~\\neq ~\\lim \\int_{\\Omega} f_{n}\\,d\\mu\n$$\nEst-ce que cela contredit le th\\'eor\\`eme de convergence\nmonotone ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(f_{n} = \\frac{1}{n} \\mathbf{1}_{[0,\nn]}\\)</span>, <span class=\"math inline\">\\(n\\in\\mathbb{N}\\)</span>, et\n<span class=\"math inline\">\\(f =\n0\\)</span>. Montrer que <span class=\"math inline\">\\(f_{n}\\)</span>\nconverge uniformément vers <span class=\"math inline\">\\(f\\)</span>, mais\nque <span class=\"math display\">\\[\\int_{\\Omega} f\\,d\\mu ~\\neq ~\\lim\n\\int_{\\Omega} f_{n}\\,d\\mu\\]</span> Est-ce que cela contredit le théorème\nde convergence monotone ?</p>\n"
+      }
+    },
+    {
+      "id": "06f1a68d-bb2d-4f9d-94b9-846df5b3ab37",
+      "type": "reponse",
+      "value": {
+        "latex": "Non, la suite de fonctions n'est pas m\\^eme monotone.",
+        "html": "<p>Non, la suite de fonctions n’est pas même monotone.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f_{n} = \\frac{1}{n} \\mathbf{1}_{[0,\nn]}\\)</span>, <span class=\"math inline\">\\(n\\in\\mathbb{N}\\)</span>, et\n<span cl ..."
+}

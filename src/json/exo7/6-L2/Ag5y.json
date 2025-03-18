@@ -1,0 +1,77 @@
+{
+  "uuid": "Ag5y",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2032",
+    "auteur": "liousse",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne de l'espace",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:44.006Z"
+  },
+  "contenu": [
+    {
+      "id": "c520b73f-1bf7-438f-aabc-db12e6424c60",
+      "type": "description",
+      "value": {
+        "latex": "Les formules suivantes d\\'efinissent-elles bien un changement de rep\\`ere ? Dans ce cas, \ndonner le changement de rep\\`ere inverse.",
+        "html": "<p>Les formules suivantes définissent-elles bien un changement de repère\n? Dans ce cas, donner le changement de repère inverse.</p>\n"
+      }
+    },
+    {
+      "id": "617f6471-3872-491c-b955-99b74d8d9b8f",
+      "type": "question",
+      "value": {
+        "latex": "$\\left\\{ \n         \\begin{array}{l}\n           x' =  y - z + 1 \\\\\n           y' = -x - 4y + 5z + 2 \\\\\n           z' = x - 5y + 5z + 1\n         \\end{array}\n      \\right. $",
+        "html": "<p><span class=\"math inline\">\\(\\left\\{\n         \\begin{array}{l}\n           x&#39; =  y - z + 1 \\\\\n           y&#39; = -x - 4y + 5z + 2 \\\\\n           z&#39; = x - 5y + 5z + 1\n         \\end{array}\n      \\right.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a65531d1-608a-482b-ba9e-89514743ba83",
+      "type": "question",
+      "value": {
+        "latex": "$\\left\\{  \n         \\begin{array}{l}\n           x' = 5x + 4y + 3z - 2 \\\\\n           y' = 2x + 3y + z + 2 \\\\\n           z' = 4x - y + 3z + 2\n         \\end{array}\n      \\right. $",
+        "html": "<p><span class=\"math inline\">\\(\\left\\{  \n         \\begin{array}{l}\n           x&#39; = 5x + 4y + 3z - 2 \\\\\n           y&#39; = 2x + 3y + z + 2 \\\\\n           z&#39; = 4x - y + 3z + 2\n         \\end{array}\n      \\right.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "57c7dd99-1114-4754-a5c2-46c378a87486",
+      "type": "question",
+      "value": {
+        "latex": "$\\left\\{  \n         \\begin{array}{l}\n           x' = -2x - 4y + 2z - 2 \\\\\n           y' = x + y - 5z + 1 \\\\\n           z' = -3x - 4y + 4z - 2\n         \\end{array}\n      \\right. $",
+        "html": "<p><span class=\"math inline\">\\(\\left\\{  \n         \\begin{array}{l}\n           x&#39; = -2x - 4y + 2z - 2 \\\\\n           y&#39; = x + y - 5z + 1 \\\\\n           z&#39; = -3x - 4y + 4z - 2\n         \\end{array}\n      \\right.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c67d8dc7-0cba-48ee-b2f4-2d23b9d6849a",
+      "type": "question",
+      "value": {
+        "latex": "$\\left\\{  \n         \\begin{array}{l}\n           x' = 3x - 5y + z + 2 \\\\\n           y' = 2x - y + z - 1 \\\\\n           z' = -3x - 4y - z - 5\n         \\end{array}\n      \\right. $",
+        "html": "<p><span class=\"math inline\">\\(\\left\\{  \n         \\begin{array}{l}\n           x&#39; = 3x - 5y + z + 2 \\\\\n           y&#39; = 2x - y + z - 1 \\\\\n           z&#39; = -3x - 4y - z - 5\n         \\end{array}\n      \\right.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d2b58393-8026-42e1-9404-a03eb4b0ffaf",
+      "type": "question",
+      "value": {
+        "latex": "$\\left\\{  \n         \\begin{array}{l}\n           x' = 2x - z + 1 \\\\\n           y' = -2x + 2y + 2z - 2 \\\\\n           z' = -2x + y - z \n         \\end{array}\n      \\right. $",
+        "html": "<p><span class=\"math inline\">\\(\\left\\{  \n         \\begin{array}{l}\n           x&#39; = 2x - z + 1 \\\\\n           y&#39; = -2x + 2y + 2z - 2 \\\\\n           z&#39; = -2x + y - z\n         \\end{array}\n      \\right.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "34cb800b-95ed-4f06-bd1f-10ea5f9d9a94",
+      "type": "question",
+      "value": {
+        "latex": "$\\left\\{  \n         \\begin{array}{l}\n           x' = x - 2y - 3z + 5 \\\\\n           y' = -3x + 4y + z - 2 \\\\\n           z' = 2x - y + 6z + 3\n         \\end{array}\n      \\right. $",
+        "html": "<p><span class=\"math inline\">\\(\\left\\{  \n         \\begin{array}{l}\n           x&#39; = x - 2y - 3z + 5 \\\\\n           y&#39; = -3x + 4y + z - 2 \\\\\n           z&#39; = 2x - y + 6z + 3\n         \\end{array}\n      \\right.\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Les formules suivantes définissent-elles bien un changement de repère\n? Dans ce cas, donner le changement de repère inverse.</p>\n"
+}

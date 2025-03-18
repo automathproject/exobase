@@ -1,0 +1,45 @@
+{
+  "uuid": "ly74",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6340",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Système linéaire à  coefficients constants",
+    "sousChapitre": "Système linéaire à  coefficients constants",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:05.325Z"
+  },
+  "contenu": [
+    {
+      "id": "50e4b8c0-671f-4318-b1c6-435011197952",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E=\\Cc^n$, $A\\in{\\cal L}(E,E)$ et le système différentiel $X'=AX$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E=\\Cc^n\\)</span>, <span\nclass=\"math inline\">\\(A\\in{\\cal L}(E,E)\\)</span> et le système\ndifférentiel <span class=\"math inline\">\\(X&#39;=AX\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2457395c-7923-4a88-a5a8-43bf59a8a469",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $X=e^{r_1t} u_1 + e^{r_2t} u_2$ est solution, où $u_i\\in E$\net $r_i\\in \\Cc$ distincts. Montrer que $e^{r_1t} u_1$ et $e^{r_2t} u_2$ sont\nsolutions.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(X=e^{r_1t} u_1 + e^{r_2t}\nu_2\\)</span> est solution, où <span class=\"math inline\">\\(u_i\\in\nE\\)</span> et <span class=\"math inline\">\\(r_i\\in \\Cc\\)</span> distincts.\nMontrer que <span class=\"math inline\">\\(e^{r_1t} u_1\\)</span> et <span\nclass=\"math inline\">\\(e^{r_2t} u_2\\)</span> sont solutions.</p>\n"
+      }
+    },
+    {
+      "id": "ec980d15-2570-4327-987a-ad916dad96ac",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $e^{rt}(u+tv)$ est solution où $u,v\\in E$ et\n$v\\not=0$. Montrer que $u$ n'est pas proportionnel à $v$ et que $\\dim\\hbox{\nKer} (A-rI_E)^2\\geq 2$.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(e^{rt}(u+tv)\\)</span> est\nsolution où <span class=\"math inline\">\\(u,v\\in E\\)</span> et <span\nclass=\"math inline\">\\(v\\not=0\\)</span>. Montrer que <span\nclass=\"math inline\">\\(u\\)</span> n’est pas proportionnel à <span\nclass=\"math inline\">\\(v\\)</span> et que <span\nclass=\"math inline\">\\(\\dim\\hbox{\nKer} (A-rI_E)^2\\geq 2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E=\\Cc^n\\)</span>, <span\nclass=\"math inline\">\\(A\\in{\\cal L}(E,E)\\)</span> et le système\ndifférentiel <span class=\"m ..."
+}

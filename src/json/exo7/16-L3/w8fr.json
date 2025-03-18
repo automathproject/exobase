@@ -1,0 +1,93 @@
+{
+  "uuid": "w8fr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7559",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:21.622Z"
+  },
+  "contenu": [
+    {
+      "id": "4c0690c5-c90a-4b66-9a4c-025f6da76602",
+      "type": "description",
+      "value": {
+        "latex": "Soit $D$ un ouvert de $\\Cc$ et $f : D\\to\\Cc$ une application holomorphe.\r\nSoit $T$ un triangle (plein) inclus dans le domaine $D$. On notera $p$ son périmètre.\r\nLe but de l'exercice est de montrer que \r\n$$\\int_{\\partial T}f(z)dz=0.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(D\\)</span> un ouvert de <span\nclass=\"math inline\">\\(\\Cc\\)</span> et <span class=\"math inline\">\\(f :\nD\\to\\Cc\\)</span> une application holomorphe. Soit <span\nclass=\"math inline\">\\(T\\)</span> un triangle (plein) inclus dans le\ndomaine <span class=\"math inline\">\\(D\\)</span>. On notera <span\nclass=\"math inline\">\\(p\\)</span> son périmètre. Le but de l’exercice est\nde montrer que <span class=\"math display\">\\[\\int_{\\partial\nT}f(z)dz=0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "afea770a-587c-4880-aea3-56bb9dc79540",
+      "type": "question",
+      "value": {
+        "latex": "En considérant les quatre triangles obtenus en traçant les segments entre deux milieux de côtés de $T$,\r\nmontrer que pour l'un de ces triangles noté $T_1$,\r\n$$|\\int_{\\partial T}f(z)dz|\\leq 4|\\int_{\\partial T_1}f(z)dz|.$$",
+        "html": "<p>En considérant les quatre triangles obtenus en traçant les segments\nentre deux milieux de côtés de <span class=\"math inline\">\\(T\\)</span>,\nmontrer que pour l’un de ces triangles noté <span\nclass=\"math inline\">\\(T_1\\)</span>, <span\nclass=\"math display\">\\[|\\int_{\\partial T}f(z)dz|\\leq 4|\\int_{\\partial\nT_1}f(z)dz|.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "523279ce-fd34-443c-abf6-0bd5c21690a8",
+      "type": "question",
+      "value": {
+        "latex": "En itérant cette construction, montrer que pour tout $n$, il existe un triangle $T_n\\subset T_{n-1}$ de périmètre $\\frac{p}{2^n}$\r\ntel que $$|\\int_{\\partial T}f(z)dz|\\leq 4^n|\\int_{\\partial T_1}f(z)dz|.$$",
+        "html": "<p>En itérant cette construction, montrer que pour tout <span\nclass=\"math inline\">\\(n\\)</span>, il existe un triangle <span\nclass=\"math inline\">\\(T_n\\subset T_{n-1}\\)</span> de périmètre <span\nclass=\"math inline\">\\(\\frac{p}{2^n}\\)</span> tel que <span\nclass=\"math display\">\\[|\\int_{\\partial T}f(z)dz|\\leq 4^n|\\int_{\\partial\nT_1}f(z)dz|.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "afd9eb49-fd9e-432a-a356-c1dcdeb166e8",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'intersection des $T_n$ est un point $c$ de $D$.",
+        "html": "<p>Montrer que l’intersection des <span\nclass=\"math inline\">\\(T_n\\)</span> est un point <span\nclass=\"math inline\">\\(c\\)</span> de <span\nclass=\"math inline\">\\(D\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "293589ed-1fca-4410-8e37-0dc247f4ac68",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'un existe une fonction continue $h$ sur $D$ nulle en $c$ telle que pour tout $z\\in D$,\r\n$$f(z)=f(c)+(z-c)f'(c)+(z-c)h(z).$$",
+        "html": "<p>Montrer qu’un existe une fonction continue <span\nclass=\"math inline\">\\(h\\)</span> sur <span\nclass=\"math inline\">\\(D\\)</span> nulle en <span\nclass=\"math inline\">\\(c\\)</span> telle que pour tout <span\nclass=\"math inline\">\\(z\\in D\\)</span>, <span\nclass=\"math display\">\\[f(z)=f(c)+(z-c)f&#39;(c)+(z-c)h(z).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "ead0f3e1-68a4-4082-a69c-4cfb47c4862c",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\int_{\\partial T_n}f(c)dz$ et $\\int_{\\partial T_n}(z-c)f'(c)dz$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\int_{\\partial\nT_n}f(c)dz\\)</span> et <span class=\"math inline\">\\(\\int_{\\partial\nT_n}(z-c)f&#39;(c)dz\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "38e1079c-eb7c-424d-a8b1-3a9995a13b46",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $\\epsilon >0$ il existe $N$ tel que pour $n\\geq N$,$$|\\int_{\\partial T_n}(z-c)h(z)dz|\\leq (\\frac{p}{2^n})^2\\varepsilon.$$",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(\\epsilon\n&gt;0\\)</span> il existe <span class=\"math inline\">\\(N\\)</span> tel que\npour <span class=\"math inline\">\\(n\\geq N\\)</span>,<span\nclass=\"math display\">\\[|\\int_{\\partial T_n}(z-c)h(z)dz|\\leq\n(\\frac{p}{2^n})^2\\varepsilon.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "62d43a57-3dd0-4f05-b323-fe8e20750b01",
+      "type": "question",
+      "value": {
+        "latex": "Conclure.",
+        "html": "<p>Conclure.</p>\n"
+      }
+    },
+    {
+      "id": "47ba548d-436b-4ab1-a72d-a11303c965af",
+      "type": "question",
+      "value": {
+        "latex": "Montrer en choisissant un découpage de $T$ avec un petit triangle autour de $a$ que \r\n si $f : D\\to\\Cc$ est une application continue et holomorphe sur $D-\\{a\\}$, alors pour tout triangle de sommet $a$ dans $D$,\r\n $\\int_{\\partial T}f(z)dz=0$.",
+        "html": "<p>Montrer en choisissant un découpage de <span\nclass=\"math inline\">\\(T\\)</span> avec un petit triangle autour de <span\nclass=\"math inline\">\\(a\\)</span> que si <span class=\"math inline\">\\(f :\nD\\to\\Cc\\)</span> est une application continue et holomorphe sur <span\nclass=\"math inline\">\\(D-\\{a\\}\\)</span>, alors pour tout triangle de\nsommet <span class=\"math inline\">\\(a\\)</span> dans <span\nclass=\"math inline\">\\(D\\)</span>, <span\nclass=\"math inline\">\\(\\int_{\\partial T}f(z)dz=0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(D\\)</span> un ouvert de <span\nclass=\"math inline\">\\(\\Cc\\)</span> et <span class=\"math inline\">\\(f :\nD\\to\\Cc\\)</spa ..."
+}

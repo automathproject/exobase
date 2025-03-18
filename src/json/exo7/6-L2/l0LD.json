@@ -1,0 +1,77 @@
+{
+  "uuid": "l0LD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5058",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Surfaces",
+    "sousChapitre": "Surfaces paramétrées",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:54.383Z"
+  },
+  "contenu": [
+    {
+      "id": "414c3113-7057-426c-9550-05255d5da35c",
+      "type": "description",
+      "value": {
+        "latex": "Soient ${\\cal S}_1$, ${\\cal S}_2$ les surfaces d'équations\n$x^2 + y^2 + xy = 1$ et $y^2 + z^2 + yz = 1$,\net $\\mathcal{C} = {\\cal S}_1 \\cap {\\cal S}_2$.",
+        "html": "<p>Soient <span class=\"math inline\">\\({\\cal S}_1\\)</span>, <span\nclass=\"math inline\">\\({\\cal S}_2\\)</span> les surfaces d’équations <span\nclass=\"math inline\">\\(x^2 + y^2 + xy = 1\\)</span> et <span\nclass=\"math inline\">\\(y^2 + z^2 + yz = 1\\)</span>, et <span\nclass=\"math inline\">\\(\\mathcal{C} = {\\cal S}_1 \\cap {\\cal\nS}_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "edd75461-8ab6-4446-8f90-eadb5692a2f7",
+      "type": "question",
+      "value": {
+        "latex": "Donner en tout point de $\\mathcal{C}$ le vecteur tangent à $\\mathcal{C}$.",
+        "html": "<p>Donner en tout point de <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> le vecteur tangent à <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9c290738-c9de-4a6e-b3ac-df9e117a6f25",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{pmatrix} (x+2y)(y+2z) \\cr -(2x+y)(y+2z) \\cr (2x+y)(2y+z)\\cr \\end{pmatrix}$\n             sauf pour $M=\\pm\\frac2{\\sqrt3}(1,-2,1)$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{pmatrix} (x+2y)(y+2z) \\cr\n-(2x+y)(y+2z) \\cr (2x+y)(2y+z)\\cr \\end{pmatrix}\\)</span> sauf pour <span\nclass=\"math inline\">\\(M=\\pm\\frac2{\\sqrt3}(1,-2,1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fe4180a9-403d-4597-9c27-a8e149ef3708",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\mathcal{C}$ est la réunion de deux courbes planes.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathcal{C}\\)</span> est la\nréunion de deux courbes planes.</p>\n"
+      }
+    },
+    {
+      "id": "42a67b21-eb74-4451-aabb-e18053eb511c",
+      "type": "reponse",
+      "value": {
+        "latex": "$(x-z)(x+y+z)=0$.",
+        "html": "<p><span class=\"math inline\">\\((x-z)(x+y+z)=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8e8fe808-41d5-447f-85a1-8aa78b05cc01",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la projection de $\\mathcal{C}$ sur $Oxz$ ?",
+        "html": "<p>Quelle est la projection de <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> sur <span\nclass=\"math inline\">\\(Oxz\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "14417540-de78-495e-a0e3-49005d97e50e",
+      "type": "reponse",
+      "value": {
+        "latex": "segment $x=z\\in {[-1,1]}$ et ellipse $x^2+z^2+xz=1$.",
+        "html": "<p>segment <span class=\"math inline\">\\(x=z\\in {[-1,1]}\\)</span> et\nellipse <span class=\"math inline\">\\(x^2+z^2+xz=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\({\\cal S}_1\\)</span>, <span\nclass=\"math inline\">\\({\\cal S}_2\\)</span> les surfaces d’équations <span\nclass=\"math  ..."
+}

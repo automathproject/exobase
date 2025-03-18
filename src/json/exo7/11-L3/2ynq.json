@@ -1,0 +1,125 @@
+{
+  "uuid": "2ynq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7697",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:21.148Z"
+  },
+  "contenu": [
+    {
+      "id": "dab8d8a3-4764-4ef7-a7bd-70cc3c7f5738",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "c0aac6a0-3d38-432c-a790-4e0e42b303a8",
+      "type": "question",
+      "value": {
+        "latex": "La courbe paramétrée suivante est-elle régulière ?\r\n$$\\begin{array}{ccc}\r\n c: \\Rr &\\to&\\Rr ^3\\\\ t&\\mapsto& \\left(\\begin{array}{c}t\\cos t \\\\ t\\sin t\\\\ t\\end{array}\\right).\r\n\\end{array}$$",
+        "html": "<p>La courbe paramétrée suivante est-elle régulière ? <span\nclass=\"math display\">\\[\\begin{array}{ccc}\nc: \\Rr &amp;\\to&amp;\\Rr ^3\\\\ t&amp;\\mapsto&amp;\n\\left(\\begin{array}{c}t\\cos t \\\\ t\\sin t\\\\ t\\end{array}\\right).\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c39d64b6-efde-4717-94b8-e069864af12b",
+      "type": "reponse",
+      "value": {
+        "latex": "Les composantes de l'application $c$ sont de classe $\\mathcal{C}^\\infty$.\r\n La dérivée de la dernière composante n'est jamais nulle.\r\n La courbe $c$ est donc régulière.",
+        "html": "<p>Les composantes de l’application <span\nclass=\"math inline\">\\(c\\)</span> sont de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^\\infty\\)</span>. La dérivée de la\ndernière composante n’est jamais nulle. La courbe <span\nclass=\"math inline\">\\(c\\)</span> est donc régulière.</p>\n"
+      }
+    },
+    {
+      "id": "621e79dd-7cc1-4147-b3e9-f1a2abdf9fbb",
+      "type": "question",
+      "value": {
+        "latex": "On fixe deux nombres réels $a<b$. Comparer la longueur de la portion de la courbe $c$ \r\nparamétrée par $[a,b]$ et $\\sqrt{2}(b-a)$.",
+        "html": "<p>On fixe deux nombres réels <span\nclass=\"math inline\">\\(a&lt;b\\)</span>. Comparer la longueur de la\nportion de la courbe <span class=\"math inline\">\\(c\\)</span> paramétrée\npar <span class=\"math inline\">\\([a,b]\\)</span> et <span\nclass=\"math inline\">\\(\\sqrt{2}(b-a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c955541a-8a21-47ba-9e70-3d75f6721586",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout paramètre $t$, $\\|\\dot{c}(t)\\|=\\sqrt{2+t^2}\\geq \\sqrt{2}$.\r\n Donc,\r\n $$L[c_{\\mid [a,b]}]=\\int_a^b \\|\\dot{c}(t)\\| dt\\geq\\sqrt{2}(b-a).$$",
+        "html": "<p>Pour tout paramètre <span class=\"math inline\">\\(t\\)</span>, <span\nclass=\"math inline\">\\(\\|\\dot{c}(t)\\|=\\sqrt{2+t^2}\\geq \\sqrt{2}\\)</span>.\nDonc, <span class=\"math display\">\\[L[c_{\\mid [a,b]}]=\\int_a^b\n\\|\\dot{c}(t)\\| dt\\geq\\sqrt{2}(b-a).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9dfce55e-3da4-406f-97e4-4ed1ba53578e",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer une surface quadrique qui contient l'image $\\mathcal{C}$ de la courbe $c$.",
+        "html": "<p>Déterminer une surface quadrique qui contient l’image <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> de la courbe <span\nclass=\"math inline\">\\(c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "84ac2520-25be-4fc4-ac12-fb36199f6513",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $t\\in\\Rr $,\r\n $$(t\\cos t)^2+(t\\sin t)^2=t^2=(t)^2.$$\r\n Par conséquent, $\\mathcal{C}$ est dans la quadrique d'équation $x^2+y^2=z^2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(t\\in\\Rr\\)</span>, <span\nclass=\"math display\">\\[(t\\cos t)^2+(t\\sin t)^2=t^2=(t)^2.\\]</span> Par\nconséquent, <span class=\"math inline\">\\(\\mathcal{C}\\)</span> est dans la\nquadrique d’équation <span\nclass=\"math inline\">\\(x^2+y^2=z^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6fec68ac-3554-442c-9615-2ed109d9f29c",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer un déplacement (non égal à l'identité) de l'espace $\\Rr ^3$ qui conserve l'image $\\mathcal{C}$ de la courbe $c$.",
+        "html": "<p>Déterminer un déplacement (non égal à l’identité) de l’espace <span\nclass=\"math inline\">\\(\\Rr ^3\\)</span> qui conserve l’image <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> de la courbe <span\nclass=\"math inline\">\\(c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7f9c0503-87cf-4476-863d-b907eea536de",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $t\\in\\Rr $, $c(-t)= \\left(\\begin{array}{c}-t\\cos t \\\\ t\\sin t\\\\- t\\end{array}\\right)$ et se déduit donc de $c(t)$\r\n par le demi-tour autour de l'axe des ordonnées (d'équation $x=z=0$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(t\\in\\Rr\\)</span>, <span\nclass=\"math inline\">\\(c(-t)= \\left(\\begin{array}{c}-t\\cos t \\\\ t\\sin\nt\\\\- t\\end{array}\\right)\\)</span> et se déduit donc de <span\nclass=\"math inline\">\\(c(t)\\)</span> par le demi-tour autour de l’axe des\nordonnées (d’équation <span class=\"math inline\">\\(x=z=0\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "4cc0e2ef-d5bf-4a72-94aa-67412133ef4e",
+      "type": "question",
+      "value": {
+        "latex": "Décrire l'allure de la courbe $\\mathcal{C}$.",
+        "html": "<p>Décrire l’allure de la courbe <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "324f98e0-eacb-40cf-a4ad-1d7eb1107472",
+      "type": "reponse",
+      "value": {
+        "latex": "$$ \\includegraphics[scale=.4]{images/img-mour-449}$$\r\n \r\n ",
+        "html": "<p><span\nclass=\"math display\">\\[\\includegraphics[scale=.4]{images/img-mour-449}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "418a2b78-fc5d-4aea-a933-7f0db07fa833",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la fonction torsion de la courbe $c$.",
+        "html": "<p>Calculer la fonction torsion de la courbe <span\nclass=\"math inline\">\\(c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "80806ae0-c556-43c3-a894-4d242408df20",
+      "type": "reponse",
+      "value": {
+        "latex": "$$c(t)=\\left(\\begin{array}{c}t\\cos t \\\\ t\\sin t\\\\ t\\end{array}\\right) ; \r\n \\dot{c}(t)=\\left(\\begin{array}{c}\\cos t -t\\sin t\\\\ \\sin t + t\\cos t\\\\ 1\\end{array}\\right) ;$$\r\n $$\r\n \\ddot{c}(t)=\\left(\\begin{array}{c}-2\\sin t -t\\cos t\\\\ 2\\cos t - t\\sin t\\\\ 0\\end{array}\\right) ; \r\n \\dddot{c}(t)=\\left(\\begin{array}{c}-3\\cos t +t\\sin t\\\\ -3\\sin t -t\\cos t\\\\ 0\\end{array}\\right).$$\r\n Ainsi, $$\\det\\begin{pmatrix}\r\n        \\cos t -t\\sin t &-2\\sin t -t\\cos t&-3\\cos t +t\\sin t\\\\\r\n \\sin t + t\\cos t&2\\cos t - t\\sin t&-3\\sin t - t\\cos t\\\\1&0&0\r\n        \\end{pmatrix}=t^2+6$$\r\n Par ailleurs,\r\n $$\\dot{c}(t)\\wedge\\ddot{c}(t)=\\left(\\begin{array}{c}\\cos t -t\\sin t\\\\ \\sin t + t\\cos t\\\\ 1\\end{array}\\right) \r\n \\wedge\\left(\\begin{array}{c}-2\\sin t -t\\cos t\\\\ 2\\cos t - t\\sin t\\\\ 0\\end{array}\\right)=\r\n \\begin{pmatrix}\r\n - 2\\cos t +t\\sin t\\\\-2\\sin t -t\\cos t\\\\2+t^2\r\n \\end{pmatrix}\r\n $$ dont la norme au carré est $t^4+5t^2+8$.\r\n La fonction torsion de $c$ est donc $$\\tau(t)=\\frac{t^2+6}{t^4+5t^2+8}.$$",
+        "html": "<p><span class=\"math display\">\\[c(t)=\\left(\\begin{array}{c}t\\cos t \\\\\nt\\sin t\\\\ t\\end{array}\\right) ;\n\\dot{c}(t)=\\left(\\begin{array}{c}\\cos t -t\\sin t\\\\ \\sin t + t\\cos t\\\\\n1\\end{array}\\right) ;\\]</span> <span\nclass=\"math display\">\\[\\ddot{c}(t)=\\left(\\begin{array}{c}-2\\sin t -t\\cos\nt\\\\ 2\\cos t - t\\sin t\\\\ 0\\end{array}\\right) ;\n\\dddot{c}(t)=\\left(\\begin{array}{c}-3\\cos t +t\\sin t\\\\ -3\\sin t -t\\cos\nt\\\\ 0\\end{array}\\right).\\]</span> Ainsi, <span\nclass=\"math display\">\\[\\det\\begin{pmatrix}\n        \\cos t -t\\sin t &amp;-2\\sin t -t\\cos t&amp;-3\\cos t +t\\sin t\\\\\n\\sin t + t\\cos t&amp;2\\cos t - t\\sin t&amp;-3\\sin t - t\\cos\nt\\\\1&amp;0&amp;0\n        \\end{pmatrix}=t^2+6\\]</span> Par ailleurs, <span\nclass=\"math display\">\\[\\dot{c}(t)\\wedge\\ddot{c}(t)=\\left(\\begin{array}{c}\\cos\nt -t\\sin t\\\\ \\sin t + t\\cos t\\\\ 1\\end{array}\\right)\n\\wedge\\left(\\begin{array}{c}-2\\sin t -t\\cos t\\\\ 2\\cos t - t\\sin t\\\\\n0\\end{array}\\right)=\n\\begin{pmatrix}\n- 2\\cos t +t\\sin t\\\\-2\\sin t -t\\cos t\\\\2+t^2\n\\end{pmatrix}\\]</span> dont la norme au carré est <span\nclass=\"math inline\">\\(t^4+5t^2+8\\)</span>. La fonction torsion de <span\nclass=\"math inline\">\\(c\\)</span> est donc <span\nclass=\"math display\">\\[\\tau(t)=\\frac{t^2+6}{t^4+5t^2+8}.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>La courbe paramétrée suivante est-elle régulière ? <span\nclass=\"math display\"> ..."
+}

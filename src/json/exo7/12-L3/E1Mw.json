@@ -1,0 +1,37 @@
+{
+  "uuid": "E1Mw",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2545",
+    "auteur": "tahani",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "sousChapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:40.632Z"
+  },
+  "contenu": [
+    {
+      "id": "b68f8b4f-f0a5-4280-977a-e36d19f52217",
+      "type": "description",
+      "value": {
+        "latex": "Donner l'allure de $C=\\{(x,y)\n\\in \\mathbb{R}^2; x^4+y^3-y^2+x-y=0\\}$ au voisinage des points\n$(0,0)$ et $(1,1)$.",
+        "html": "<p>Donner l’allure de <span class=\"math inline\">\\(C=\\{(x,y)\n\\in \\mathbb{R}^2; x^4+y^3-y^2+x-y=0\\}\\)</span> au voisinage des points\n<span class=\"math inline\">\\((0,0)\\)</span> et <span\nclass=\"math inline\">\\((1,1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7b0fd7fc-1a0d-408b-bcae-ce656a277693",
+      "type": "reponse",
+      "value": {
+        "latex": "Posons $f(x,y)=x^4+y^3-x^2-y^2+x-y$, $f(0,0)=0$ et $f(1,1)=0$.\n$\\mathbb{R}$ est un espace de Banach et $f$ est de classe $C^1$\ncar polynomiale.\n$$\\frac{\\partial f}{\\partial y}=3y^2-2y-1$$\n\\'Etude au point $(0,0)$, $\\frac{\\partial f}{\\partial y}(0,0)=-1$,\nc'est un isomorphisme de $\\mathbb{R}$. Nous sommes dans les\nconditions d'application du th\\'eor\\`eme des fonctions implicites.\nIl existe $I$ contenant $0$, $J$ contenant $0$ et $g: I\n\\rightarrow J$, $C^1$ tel que $g(0)=0$ et $f(x,g(x))=0, \\forall x\n\\in I$. On a\n$$x^4+(g(x))^3-x^2-(g(x))^2+x-g(x)=0$$\nEn d\\'erivant on obtient:\n$$4x^3+3g^2(x)g'(x)-2x-2g(x)g'(x)+1-g'(x)=0$$\nd'o\\`u $g'(0)=1$. On d\\'erive encore:\n$$12x^2+6g(x)g'(x)^2+3g^2(x)g''(x)-2-2g'(x)^2-2g(x)g''(x)-g''(x)=0$$\nd'o\\`u $$g''(0)=-4.$$ \\'Etude au point $(1,1)$, $\\frac{\\partial\nf}{\\partial y}(1,1)=0$. Ce n'est plus un diff\\'eo, on ne peut pas\nappliquer le th\\'eor\\`eme des fonctions implicites. Dans ce cas,\non prend la d\\'eriv\\'ee par rapport \\`a la premì\\`ere variable.\n$$\\frac{\\partial f}{\\partial x}=4x^3-2x+1$$\net donc $\\frac{\\partial f}{\\partial x}(1,1)=3$. Donc, d'apr\\`es le\nth\\'eor\\`eme des fonctions implicites, il existe $I$ contenant\n$1$, $J$ contenant $1$ et $g:I \\rightarrow J$ de classe $C^1$ tels\nque $g(1)=1$ et $f(g(x),x)=0, \\forall y \\in I$. On a\n$$g(y)^4-g^2(y)+g(y)+y^3-y^2-y=0$$\nEn d\\'erivant\n$$4g^3g'-2gg'+g'+3y^2-2y-1=0$$\nd'o\\`u $4g'(1)-g'(1)=0$ et donc $g'(1)=0$.\n$$12g^2(g')^2+4g^3g''-2gg''-2(g')^2+g''+6y-2=0$$\nd'o\\`u $g''(1)=-4/3$.",
+        "html": "<p>Posons <span\nclass=\"math inline\">\\(f(x,y)=x^4+y^3-x^2-y^2+x-y\\)</span>, <span\nclass=\"math inline\">\\(f(0,0)=0\\)</span> et <span\nclass=\"math inline\">\\(f(1,1)=0\\)</span>. <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span> est un espace de Banach et\n<span class=\"math inline\">\\(f\\)</span> est de classe <span\nclass=\"math inline\">\\(C^1\\)</span> car polynomiale. <span\nclass=\"math display\">\\[\\frac{\\partial f}{\\partial y}=3y^2-2y-1\\]</span>\nÉtude au point <span class=\"math inline\">\\((0,0)\\)</span>, <span\nclass=\"math inline\">\\(\\frac{\\partial f}{\\partial y}(0,0)=-1\\)</span>,\nc’est un isomorphisme de <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span>. Nous sommes dans les\nconditions d’application du théorème des fonctions implicites. Il existe\n<span class=\"math inline\">\\(I\\)</span> contenant <span\nclass=\"math inline\">\\(0\\)</span>, <span class=\"math inline\">\\(J\\)</span>\ncontenant <span class=\"math inline\">\\(0\\)</span> et <span\nclass=\"math inline\">\\(g: I\n\\rightarrow J\\)</span>, <span class=\"math inline\">\\(C^1\\)</span> tel que\n<span class=\"math inline\">\\(g(0)=0\\)</span> et <span\nclass=\"math inline\">\\(f(x,g(x))=0, \\forall x\n\\in I\\)</span>. On a <span\nclass=\"math display\">\\[x^4+(g(x))^3-x^2-(g(x))^2+x-g(x)=0\\]</span> En\ndérivant on obtient: <span\nclass=\"math display\">\\[4x^3+3g^2(x)g&#39;(x)-2x-2g(x)g&#39;(x)+1-g&#39;(x)=0\\]</span>\nd’où <span class=\"math inline\">\\(g&#39;(0)=1\\)</span>. On dérive encore:\n<span\nclass=\"math display\">\\[12x^2+6g(x)g&#39;(x)^2+3g^2(x)g&#39;&#39;(x)-2-2g&#39;(x)^2-2g(x)g&#39;&#39;(x)-g&#39;&#39;(x)=0\\]</span>\nd’où <span class=\"math display\">\\[g&#39;&#39;(0)=-4.\\]</span> Étude au\npoint <span class=\"math inline\">\\((1,1)\\)</span>, <span\nclass=\"math inline\">\\(\\frac{\\partial\nf}{\\partial y}(1,1)=0\\)</span>. Ce n’est plus un difféo, on ne peut pas\nappliquer le théorème des fonctions implicites. Dans ce cas, on prend la\ndérivée par rapport à la premìère variable. <span\nclass=\"math display\">\\[\\frac{\\partial f}{\\partial x}=4x^3-2x+1\\]</span>\net donc <span class=\"math inline\">\\(\\frac{\\partial f}{\\partial\nx}(1,1)=3\\)</span>. Donc, d’après le théorème des fonctions implicites,\nil existe <span class=\"math inline\">\\(I\\)</span> contenant <span\nclass=\"math inline\">\\(1\\)</span>, <span class=\"math inline\">\\(J\\)</span>\ncontenant <span class=\"math inline\">\\(1\\)</span> et <span\nclass=\"math inline\">\\(g:I \\rightarrow J\\)</span> de classe <span\nclass=\"math inline\">\\(C^1\\)</span> tels que <span\nclass=\"math inline\">\\(g(1)=1\\)</span> et <span\nclass=\"math inline\">\\(f(g(x),x)=0, \\forall y \\in I\\)</span>. On a <span\nclass=\"math display\">\\[g(y)^4-g^2(y)+g(y)+y^3-y^2-y=0\\]</span> En\ndérivant <span\nclass=\"math display\">\\[4g^3g&#39;-2gg&#39;+g&#39;+3y^2-2y-1=0\\]</span>\nd’où <span class=\"math inline\">\\(4g&#39;(1)-g&#39;(1)=0\\)</span> et donc\n<span class=\"math inline\">\\(g&#39;(1)=0\\)</span>. <span\nclass=\"math display\">\\[12g^2(g&#39;)^2+4g^3g&#39;&#39;-2gg&#39;&#39;-2(g&#39;)^2+g&#39;&#39;+6y-2=0\\]</span>\nd’où <span class=\"math inline\">\\(g&#39;&#39;(1)=-4/3\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Donner l’allure de <span class=\"math inline\">\\(C=\\{(x,y)\n\\in \\mathbb{R}^2; x^4+y^3-y^2+x-y=0\\}\\)</span> au voisinage des points\n<span class=\"math i ..."
+}

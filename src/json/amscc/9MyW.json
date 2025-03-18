@@ -1,0 +1,48 @@
+{
+  "uuid": "9MyW",
+  "titre": "Loi de Poisson",
+  "theme": [
+    "variables aléatoires discrètes",
+    "loi de Poisson"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-02-07",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:48.213Z"
+  },
+  "contenu": [
+    {
+      "id": "7612c0a2-ad42-4f2a-bc6b-62723b8be3d3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\lambda >0$ et $X$ suivant une loi de Poisson $\\mathcal{P}(\\lambda)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\lambda &gt;0\\)</span> et <span\nclass=\"math inline\">\\(X\\)</span> suivant une loi de Poisson <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1fec7b8b-3124-4bc5-82a6-01858dfd4c92",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que sa fonction de répartition est définie par \n\t$$\\forall n \\in \\N \\qquad \\PP(X \\leq n) = \\frac{1}{n!}\\int_{\\lambda}^{+\\infty} e^{-x} x^n \\dx$$",
+        "html": "<p>Démontrer que sa fonction de répartition est définie par <span\nclass=\"math display\">\\[\\forall n \\in \\N \\qquad \\PP(X \\leq n) =\n\\frac{1}{n!}\\int_{\\lambda}^{+\\infty} e^{-x} x^n \\dx\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5638f4a2-4e8f-4656-99f1-1c0e1769539e",
+      "type": "reponse",
+      "value": {
+        "latex": "Par récurrence sur $n$ et intégration par parties.",
+        "html": "<p>Par récurrence sur <span class=\"math inline\">\\(n\\)</span> et\nintégration par parties.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\lambda &gt;0\\)</span> et <span\nclass=\"math inline\">\\(X\\)</span> suivant une loi de Poisson <span\nclass=\"math inli ..."
+}

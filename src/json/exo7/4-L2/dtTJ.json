@@ -1,0 +1,53 @@
+{
+  "uuid": "dtTJ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1634",
+    "auteur": "barraud",
+    "createdAt": "2003-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Diagonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:17.665Z"
+  },
+  "contenu": [
+    {
+      "id": "b9976d79-d0ab-4cdb-9eba-06ae125390b5",
+      "type": "description",
+      "value": {
+        "latex": "On considère un endomorphisme $f$ d'un $\\C$ espace vectoriel $E$ de\ndimension finie $n$, tel que $f^2$ est diagonalisable. Le but de cet\nexercice est de démontrer que :\n$$\n  f\\text{ est diagonalisable }\\Leftrightarrow \\mathrm{Ker} f=\\mathrm{Ker} f^2\n$$",
+        "html": "<p>On considère un endomorphisme <span class=\"math inline\">\\(f\\)</span>\nd’un <span class=\"math inline\">\\(\\C\\)</span> espace vectoriel <span\nclass=\"math inline\">\\(E\\)</span> de dimension finie <span\nclass=\"math inline\">\\(n\\)</span>, tel que <span\nclass=\"math inline\">\\(f^2\\)</span> est diagonalisable. Le but de cet\nexercice est de démontrer que : <span class=\"math display\">\\[f\\text{ est\ndiagonalisable }\\Leftrightarrow \\mathrm{Ker} f=\\mathrm{Ker}\nf^2\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3e51fae6-7199-4aab-ba76-da3989c52ae7",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $f$ est diagonalisable. On note\n  $\\alpha_{1},...,\\alpha_{r}$ les valeurs propres (distinctes) de\n  $A$, et $E_{1},...,E_{r}$ les espaces propres associés.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "97bb8bf6-4649-481e-971d-2762ae26d8f5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $\\mathrm{Ker} f=\\{0\\}$ alors $\\mathrm{Ker} f^{2}=\\{0\\}$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(\\mathrm{Ker}\nf=\\{0\\}\\)</span> alors <span class=\"math inline\">\\(\\mathrm{Ker}\nf^{2}=\\{0\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2ca5e294-b92e-43cd-a769-2d6174f9f0f1",
+      "type": "question",
+      "value": {
+        "latex": "On suppose maintenant que $\\mathrm{Ker} f\\neq\\{0\\}$. On note\n    $\\alpha_{\\alpha_{1}},...,\\alpha_{\\alpha_{r}}$ les autres valeurs\n    propres de $f$, et $E_{0},...,E_{r}$ ses espaces propres. En\n    utilisant que $E=E_{0}\\oplus E_{1}\\oplus ...\\oplus E_{r}$, montrer\n    que si $f^{2}(x)=0$ alors $f(x)=0$. En déduire que $\\mathrm{Ker} f=\\mathrm{Ker} f^2$.",
+        "html": "<p>On suppose maintenant que <span class=\"math inline\">\\(\\mathrm{Ker}\nf\\neq\\{0\\}\\)</span>. On note <span\nclass=\"math inline\">\\(\\alpha_{\\alpha_{1}},...,\\alpha_{\\alpha_{r}}\\)</span>\nles autres valeurs propres de <span class=\"math inline\">\\(f\\)</span>, et\n<span class=\"math inline\">\\(E_{0},...,E_{r}\\)</span> ses espaces\npropres. En utilisant que <span class=\"math inline\">\\(E=E_{0}\\oplus\nE_{1}\\oplus ...\\oplus E_{r}\\)</span>, montrer que si <span\nclass=\"math inline\">\\(f^{2}(x)=0\\)</span> alors <span\nclass=\"math inline\">\\(f(x)=0\\)</span>. En déduire que <span\nclass=\"math inline\">\\(\\mathrm{Ker} f=\\mathrm{Ker} f^2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère un endomorphisme <span class=\"math inline\">\\(f\\)</span>\nd’un <span class=\"math inline\">\\(\\C\\)</span> espace vectoriel <span\nclass=\"mat ..."
+}

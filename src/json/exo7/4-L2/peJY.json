@@ -1,0 +1,37 @@
+{
+  "uuid": "peJY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3623",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Trigonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:48.812Z"
+  },
+  "contenu": [
+    {
+      "id": "9f6943d1-0bff-4cbd-ab27-7af31d6ed16e",
+      "type": "description",
+      "value": {
+        "latex": "Soit~$E$ un ev de dimension finie et $(u_n)$ une suite d'endomorphismes\ndiagonalisables convergeant vers~$u\\in\\mathcal{L}(E)$.\n\n$u$ est-il diagonalisable~?",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un ev de dimension finie\net <span class=\"math inline\">\\((u_n)\\)</span> une suite d’endomorphismes\ndiagonalisables convergeant vers <span\nclass=\"math inline\">\\(u\\in\\mathcal{L}(E)\\)</span>.</p>\n<p><span class=\"math inline\">\\(u\\)</span> est-il diagonalisable ?</p>\n"
+      }
+    },
+    {
+      "id": "a055fc10-d51e-4c6e-af01-4e29e391a79e",
+      "type": "reponse",
+      "value": {
+        "latex": "Non. Prendre $\\mathrm{mat}(u_n) = \\left(\\begin{smallmatrix}0&1\\cr0&1/n\\cr\\end{smallmatrix}\\right)$.",
+        "html": "<p>Non. Prendre <span class=\"math inline\">\\(\\mathrm{mat}(u_n) =\n\\left(\\begin{smallmatrix}0&amp;1\\cr0&amp;1/n\\cr\\end{smallmatrix}\\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un ev de dimension finie\net <span class=\"math inline\">\\((u_n)\\)</span> une suite d’endomorphismes\ndiago ..."
+}

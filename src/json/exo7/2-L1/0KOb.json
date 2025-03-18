@@ -1,0 +1,37 @@
+{
+  "uuid": "0KOb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4491",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Familles sommables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:36.497Z"
+  },
+  "contenu": [
+    {
+      "id": "4f97e48a-9b8b-4c49-b742-df4fae15a70c",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $\\sum_{n=0}^{+\\infty}\\sum_{k=n}^{+\\infty}\\frac1{k!}$.",
+        "html": "<p>Calculer <span\nclass=\"math inline\">\\(\\sum_{n=0}^{+\\infty}\\sum_{k=n}^{+\\infty}\\frac1{k!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "17d754cd-a0ca-40de-8123-3aa58bf5ba82",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{n=0}^{+\\infty}\\sum_{k=n}^{+\\infty}\\frac1{k!}=\n\\sum_{k=0}^{+\\infty}\\frac{k+1}{k!}=2e$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\sum_{n=0}^{+\\infty}\\sum_{k=n}^{+\\infty}\\frac1{k!}=\n\\sum_{k=0}^{+\\infty}\\frac{k+1}{k!}=2e\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span\nclass=\"math inline\">\\(\\sum_{n=0}^{+\\infty}\\sum_{k=n}^{+\\infty}\\frac1{k!}\\)</span>.</p>\n"
+}

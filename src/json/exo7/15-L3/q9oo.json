@@ -1,0 +1,45 @@
+{
+  "uuid": "q9oo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2405",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème du point fixe",
+    "sousChapitre": "Théorème du point fixe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:01.729Z"
+  },
+  "contenu": [
+    {
+      "id": "f61e9584-3de7-499d-847a-0123a88473b6",
+      "type": "description",
+      "value": {
+        "latex": "\\label{exoiter}\nSoit $(X,d)$ un espace m\\'etrique complet et soit $f: X\\to X$ une\napplication telle que l'une de ces it\\'er\\'ees $f^n$ est\nstrictement contractante, i.e. il existe $\\rho <1$ tel que\n$$ d(f^n(x),f^n(y)) \\leq \\rho d(x,y) \\quad \\mbox{pour tout} \\quad\nx,y\\in X \\; .$$ Montrer que $f$ poss\\`ede un unique point fixe.\nFaire le rapprochement avec l'exercice \\ref{exn13}.",
+        "html": "<p><span id=\"exoiter\" label=\"exoiter\"></span> Soit <span\nclass=\"math inline\">\\((X,d)\\)</span> un espace métrique complet et soit\n<span class=\"math inline\">\\(f: X\\to X\\)</span> une application telle que\nl’une de ces itérées <span class=\"math inline\">\\(f^n\\)</span> est\nstrictement contractante, i.e. il existe <span\nclass=\"math inline\">\\(\\rho &lt;1\\)</span> tel que <span\nclass=\"math display\">\\[d(f^n(x),f^n(y)) \\leq \\rho d(x,y) \\quad\n\\mbox{pour tout} \\quad\nx,y\\in X \\; .\\]</span> Montrer que <span\nclass=\"math inline\">\\(f\\)</span> possède un unique point fixe. Faire le\nrapprochement avec l’exercice <a href=\"#exn13\" data-reference-type=\"ref\"\ndata-reference=\"exn13\">[exn13]</a>.</p>\n"
+      }
+    },
+    {
+      "id": "29dc3db9-884d-43d7-a645-cb5715e45e09",
+      "type": "indication",
+      "value": {
+        "latex": "Montrer que l'unique point fixe $x$ de $f^n$, est un point fixe de $f$.\nPour cela écrire l'égalité $f^n(x)=x$ et composée habilement cette égalité.\nPour conclure utiliser l'unicité du point fixe de $f^n$.",
+        "html": "<p>Montrer que l’unique point fixe <span\nclass=\"math inline\">\\(x\\)</span> de <span\nclass=\"math inline\">\\(f^n\\)</span>, est un point fixe de <span\nclass=\"math inline\">\\(f\\)</span>. Pour cela écrire l’égalité <span\nclass=\"math inline\">\\(f^n(x)=x\\)</span> et composée habilement cette\négalité. Pour conclure utiliser l’unicité du point fixe de <span\nclass=\"math inline\">\\(f^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "674bc93e-cb8b-4e99-a3d3-b67809e447b9",
+      "type": "reponse",
+      "value": {
+        "latex": "Notons $g=f^n$. Alors $g$ est une application strictement contractante dans $X$ complet donc $g$ possède un unique point fixe que nous notons $x$.\nMontrons l'unicité d'un point fixe pour $f$. Soit\n$y\\in X$ tel que $f(y)=y$ alors $g(y)=f^n(y)=y$. Donc $y$ est aussi un point fixe pour $g$, donc $y=x$. \n\nIl reste à montrer que $f$ possède effectivement bien un tel point fixe.\nNous avons \n$$\\begin{align*}\n & f^n(x)=x \\\\\n \\Rightarrow \\qquad & f(f^n(x))=f(x) \\\\\n\\Rightarrow \\qquad & f^n(f(x))=f(x) \\\\\n\\Rightarrow \\qquad & g(f(x))=f(x) \\\\\n\\end{align*}$$\nNous venons de prouver que $f(x)$ est un point fixe de $g$. \nComme $g$ possède un unique point fixe $x$ alors $f(x)=x$ !!\nDonc $x$ est bien un point fixe pour $f$.",
+        "html": "<p>Notons <span class=\"math inline\">\\(g=f^n\\)</span>. Alors <span\nclass=\"math inline\">\\(g\\)</span> est une application strictement\ncontractante dans <span class=\"math inline\">\\(X\\)</span> complet donc\n<span class=\"math inline\">\\(g\\)</span> possède un unique point fixe que\nnous notons <span class=\"math inline\">\\(x\\)</span>. Montrons l’unicité\nd’un point fixe pour <span class=\"math inline\">\\(f\\)</span>. Soit <span\nclass=\"math inline\">\\(y\\in X\\)</span> tel que <span\nclass=\"math inline\">\\(f(y)=y\\)</span> alors <span\nclass=\"math inline\">\\(g(y)=f^n(y)=y\\)</span>. Donc <span\nclass=\"math inline\">\\(y\\)</span> est aussi un point fixe pour <span\nclass=\"math inline\">\\(g\\)</span>, donc <span\nclass=\"math inline\">\\(y=x\\)</span>.</p>\n<p>Il reste à montrer que <span class=\"math inline\">\\(f\\)</span> possède\neffectivement bien un tel point fixe. Nous avons <span\nclass=\"math display\">\\[\\begin{align*}\n&amp; f^n(x)=x \\\\\n\\Rightarrow \\qquad &amp; f(f^n(x))=f(x) \\\\\n\\Rightarrow \\qquad &amp; f^n(f(x))=f(x) \\\\\n\\Rightarrow \\qquad &amp; g(f(x))=f(x) \\\\\n\\end{align*}\\]</span> Nous venons de prouver que <span\nclass=\"math inline\">\\(f(x)\\)</span> est un point fixe de <span\nclass=\"math inline\">\\(g\\)</span>. Comme <span\nclass=\"math inline\">\\(g\\)</span> possède un unique point fixe <span\nclass=\"math inline\">\\(x\\)</span> alors <span\nclass=\"math inline\">\\(f(x)=x\\)</span> !! Donc <span\nclass=\"math inline\">\\(x\\)</span> est bien un point fixe pour <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"exoiter\" label=\"exoiter\"></span> Soit <span\nclass=\"math inline\">\\((X,d)\\)</span> un espace métrique complet et soit\n<span class=\"math inl ..."
+}

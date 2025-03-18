@@ -1,0 +1,61 @@
+{
+  "uuid": "PozC",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3728",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Forme quadratique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:37.476Z"
+  },
+  "contenu": [
+    {
+      "id": "b0eadc5e-06fc-4b79-b458-af93828a3769",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A = (a_{i,j})\\in \\mathcal{M}_n(\\R)$ à coefficients tous non nuls.\nOn note $A'$ la matrice de coefficient général $1/a_{i,j}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A = (a_{i,j})\\in\n\\mathcal{M}_n(\\R)\\)</span> à coefficients tous non nuls. On note <span\nclass=\"math inline\">\\(A&#39;\\)</span> la matrice de coefficient général\n<span class=\"math inline\">\\(1/a_{i,j}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "79d9ef15-3be4-4876-8c17-d034e8754e8b",
+      "type": "question",
+      "value": {
+        "latex": "Trouver les matrices $A$ telles que $A$ et $A'$ sont symétriques définies positives\n    (examiner les cas $n=1$, $n=2$, $n=n$).",
+        "html": "<p>Trouver les matrices <span class=\"math inline\">\\(A\\)</span> telles\nque <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(A&#39;\\)</span> sont symétriques définies\npositives (examiner les cas <span class=\"math inline\">\\(n=1\\)</span>,\n<span class=\"math inline\">\\(n=2\\)</span>, <span\nclass=\"math inline\">\\(n=n\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "f5fe73bb-6417-4802-a628-5c1dd196e29b",
+      "type": "reponse",
+      "value": {
+        "latex": "Il n'y a pas de solution pour $n=2$ donc pas non plus pour $n>2$.",
+        "html": "<p>Il n’y a pas de solution pour <span\nclass=\"math inline\">\\(n=2\\)</span> donc pas non plus pour <span\nclass=\"math inline\">\\(n&gt;2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cd27d94e-58cb-4c50-b15c-2a34bc21a733",
+      "type": "question",
+      "value": {
+        "latex": "Trouver les matrices $A$ telles que $A$ et $A'$ sont symétriques positives\n    (examiner les cas $n=2$, $n=3$, $n=n$).",
+        "html": "<p>Trouver les matrices <span class=\"math inline\">\\(A\\)</span> telles\nque <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(A&#39;\\)</span> sont symétriques positives\n(examiner les cas <span class=\"math inline\">\\(n=2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(n=n\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "7035eda1-a8f8-4f22-8afe-99063dc9b04f",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $n=3$ on trouve $A={}^tCC$ où $C$ est une colonne sans zéros,\npour $n\\ge 3$ on obtient le même résultat en considérant les blocs $3\\times3$\ncentrés sur la diagonale.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n=3\\)</span> on trouve <span\nclass=\"math inline\">\\(A={}^tCC\\)</span> où <span\nclass=\"math inline\">\\(C\\)</span> est une colonne sans zéros, pour <span\nclass=\"math inline\">\\(n\\ge 3\\)</span> on obtient le même résultat en\nconsidérant les blocs <span class=\"math inline\">\\(3\\times3\\)</span>\ncentrés sur la diagonale.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A = (a_{i,j})\\in\n\\mathcal{M}_n(\\R)\\)</span> à coefficients tous non nuls. On note <span\nclass=\"math inline\"> ..."
+}

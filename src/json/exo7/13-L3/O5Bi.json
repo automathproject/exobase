@@ -1,0 +1,45 @@
+{
+  "uuid": "O5Bi",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6329",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème de Cauchy-Lipschitz",
+    "sousChapitre": "Théorème de Cauchy-Lipschitz",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:59.507Z"
+  },
+  "contenu": [
+    {
+      "id": "8e06076a-e1e2-4a52-b67c-744fad2d7722",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ un champ de vecteurs de classe $C^1$ de $\\Rr^n$ dans $\\Rr^n$, et\non suppose (pour simplifier) que, pour toute donnée initiale $x$ de $\\Rr^n$, il\nexiste une unique solution passant par $x$ au temps $t=0$, définie sur $\\Rr$\ntout entier. On note $\\phi(t, x)$ cette solution (ou\n$\\phi$ le flot du champ).",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> un champ de vecteurs de\nclasse <span class=\"math inline\">\\(C^1\\)</span> de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span> dans <span\nclass=\"math inline\">\\(\\Rr^n\\)</span>, et on suppose (pour simplifier)\nque, pour toute donnée initiale <span class=\"math inline\">\\(x\\)</span>\nde <span class=\"math inline\">\\(\\Rr^n\\)</span>, il existe une unique\nsolution passant par <span class=\"math inline\">\\(x\\)</span> au temps\n<span class=\"math inline\">\\(t=0\\)</span>, définie sur <span\nclass=\"math inline\">\\(\\Rr\\)</span> tout entier. On note <span\nclass=\"math inline\">\\(\\phi(t, x)\\)</span> cette solution (ou <span\nclass=\"math inline\">\\(\\phi\\)</span> le flot du champ).</p>\n"
+      }
+    },
+    {
+      "id": "e5ab07fc-8126-42ea-b07a-98d585ca4756",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'on a $\\phi(s,\\phi(t,x))=\\phi(s+t,x)$ pour tous $s,t\\in\n\\Rr$.\net la vérifier sur l'équation  $x'=x^2,\nx(0)=\\alpha\\geq0$ aprés avoir précisé le domaine de définition du\nflot.",
+        "html": "<p>Montrer qu’on a <span\nclass=\"math inline\">\\(\\phi(s,\\phi(t,x))=\\phi(s+t,x)\\)</span> pour tous\n<span class=\"math inline\">\\(s,t\\in\n\\Rr\\)</span>. et la vérifier sur l’équation <span\nclass=\"math inline\">\\(x&#39;=x^2,\nx(0)=\\alpha\\geq0\\)</span> aprés avoir précisé le domaine de définition\ndu flot.</p>\n"
+      }
+    },
+    {
+      "id": "e12aae10-bf4b-4b8e-94fc-1ca4339b5b54",
+      "type": "question",
+      "value": {
+        "latex": "On fait $n=2$; décrire le flot lorsque $f(x,y)=(-x,y);\\quad\n(y,x);\\quad (-y,x)$, et vérifier la relation précédente.",
+        "html": "<p>On fait <span class=\"math inline\">\\(n=2\\)</span>; décrire le flot\nlorsque <span class=\"math inline\">\\(f(x,y)=(-x,y);\\quad\n(y,x);\\quad (-y,x)\\)</span>, et vérifier la relation précédente.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> un champ de vecteurs de\nclasse <span class=\"math inline\">\\(C^1\\)</span> de <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,93 @@
+{
+  "uuid": "79L1",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4152",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Dérivée partielle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:35.598Z"
+  },
+  "contenu": [
+    {
+      "id": "33a11dd9-4f1f-456c-a8c8-2d87e86eb65b",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les fonctions $f : {D \\subset {\\R^2}} \\to \\R$ vérifiant :",
+        "html": "<p>Déterminer les fonctions <span class=\"math inline\">\\(f : {D \\subset\n{\\R^2}} \\to \\R\\)</span> vérifiant :</p>\n"
+      }
+    },
+    {
+      "id": "b5818240-3a2d-44b4-ab8f-1c50ec111f06",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} \\frac{\\partial f}{\\partial x} = \\frac {2+x}y \\cr\n             \\frac{\\partial f}{\\partial y} = \\frac {2+y}x \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} \\frac{\\partial f}{\\partial\nx} = \\frac {2+x}y \\cr\n             \\frac{\\partial f}{\\partial y} = \\frac {2+y}x\n\\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f231517f-be9d-44d3-b20c-42cfe69d5b52",
+      "type": "reponse",
+      "value": {
+        "latex": "pas de solution.",
+        "html": "<p>pas de solution.</p>\n"
+      }
+    },
+    {
+      "id": "d7287ad4-4343-4055-abc4-723210ad60c5",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} \\frac{\\partial f}{\\partial x} = \\frac {1-y}{(x+y+1)^2} \\cr\n             \\frac{\\partial f}{\\partial y} = \\frac {2+x}{(x+y+1)^2} \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} \\frac{\\partial f}{\\partial\nx} = \\frac {1-y}{(x+y+1)^2} \\cr\n             \\frac{\\partial f}{\\partial y} = \\frac {2+x}{(x+y+1)^2}\n\\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2e3260aa-06eb-4cb7-b3ef-6b3787e9b4f2",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x,y) = \\frac {y-1}{x+y+1} + {}$ cste.",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = \\frac {y-1}{x+y+1} + {}\\)</span>\ncste.</p>\n"
+      }
+    },
+    {
+      "id": "07960a56-c302-4fab-9101-1e976c9faf69",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} \\frac{\\partial f}{\\partial x} = \\frac{y^2}{(x+y)^2} \\cr\n             \\frac{\\partial f}{\\partial y} = \\frac{x^2}{(x+y)^2} \\cr \\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} \\frac{\\partial f}{\\partial\nx} = \\frac{y^2}{(x+y)^2} \\cr\n             \\frac{\\partial f}{\\partial y} = \\frac{x^2}{(x+y)^2} \\cr\n\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "3e34be01-97c7-42f6-ae4e-ae74e8562248",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x,y) = \\frac{xy}{x+y} + {}$ cste.",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = \\frac{xy}{x+y} + {}\\)</span>\ncste.</p>\n"
+      }
+    },
+    {
+      "id": "81103c81-b518-4302-9fee-48720d101d34",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{cases} \\frac{\\partial f}{\\partial x} = 2x + \\frac 1y \\cr\n             \\frac{\\partial f}{\\partial y} = 2y - \\frac x{y^2} \\cr \\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases} \\frac{\\partial f}{\\partial\nx} = 2x + \\frac 1y \\cr\n             \\frac{\\partial f}{\\partial y} = 2y - \\frac x{y^2} \\cr\n\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "6d84696d-8262-47c1-9b0b-cd7d278e3290",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x,y) = x^2+y^2+\\frac xy + {}$ cste.",
+        "html": "<p><span class=\"math inline\">\\(f(x,y) = x^2+y^2+\\frac xy + {}\\)</span>\ncste.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les fonctions <span class=\"math inline\">\\(f : {D \\subset\n{\\R^2}} \\to \\R\\)</span> vérifiant :</p>\n"
+}

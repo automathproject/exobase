@@ -1,0 +1,37 @@
+{
+  "uuid": "fa8O",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3254",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:28.992Z"
+  },
+  "contenu": [
+    {
+      "id": "efa11f48-ac75-466f-b000-7290aacc990e",
+      "type": "description",
+      "value": {
+        "latex": "Soient $a,b,c$ les racines de $X^3 + pX + q$, $q \\ne 0$. Calculer :\n$\\sum_{\\sigma \\in S_3} \\left( \\frac {\\sigma(a)}{\\sigma(b)}\n                      + \\frac {\\sigma(b)}{\\sigma(c)}\n                      + \\frac {\\sigma(c)}{\\sigma(a)} \\right)$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(a,b,c\\)</span> les racines de\n<span class=\"math inline\">\\(X^3 + pX + q\\)</span>, <span\nclass=\"math inline\">\\(q \\ne 0\\)</span>. Calculer : <span\nclass=\"math inline\">\\(\\sum_{\\sigma \\in S_3} \\left( \\frac\n{\\sigma(a)}{\\sigma(b)}\n                      + \\frac {\\sigma(b)}{\\sigma(c)}\n                      + \\frac {\\sigma(c)}{\\sigma(a)}\n\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "af8f1660-7b50-46ba-914c-a5ac6e20ed29",
+      "type": "reponse",
+      "value": {
+        "latex": "$3\\Bigl(\\frac ab + \\frac ac + \\frac ba + \\frac bc + \\frac ca\n          + \\frac cb\\big) = -9$.",
+        "html": "<p><span class=\"math inline\">\\(3\\Bigl(\\frac ab + \\frac ac + \\frac ba +\n\\frac bc + \\frac ca\n          + \\frac cb\\big) = -9\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(a,b,c\\)</span> les racines de\n<span class=\"math inline\">\\(X^3 + pX + q\\)</span>, <span\nclass=\"math inline\"> ..."
+}

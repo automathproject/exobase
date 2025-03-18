@@ -1,0 +1,77 @@
+{
+  "uuid": "VOuX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4071",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:24.090Z"
+  },
+  "contenu": [
+    {
+      "id": "48b6db99-42f9-4bf4-a677-f6be55a2c1a0",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les éléments propres des endomorphismes suivants :",
+        "html": "<p>Déterminer les éléments propres des endomorphismes suivants :</p>\n"
+      }
+    },
+    {
+      "id": "24e326af-b471-4fbd-a7ca-af05007d3f49",
+      "type": "question",
+      "value": {
+        "latex": "$E = \\R[X]$\n   $\\Phi(P)(X) = X^2P''(X) + XP'(X)$.",
+        "html": "<p><span class=\"math inline\">\\(E = \\R[X]\\)</span> <span\nclass=\"math inline\">\\(\\Phi(P)(X) = X^2P&#39;&#39;(X) +\nXP&#39;(X)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b2111ce8-ffb5-40fc-a91a-2b17a2ee3009",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\lambda = n^2$ : $P(X) = aX^n$.",
+        "html": "<p><span class=\"math inline\">\\(\\lambda = n^2\\)</span> : <span\nclass=\"math inline\">\\(P(X) = aX^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d3777e9b-6e90-4055-bbc8-2c5b915ded9f",
+      "type": "question",
+      "value": {
+        "latex": "$E = \\mathcal{C}^\\infty(]0,+\\infty[)$\n   $\\Phi(f)(x) = x^2f''(x) + xf'(x)$.",
+        "html": "<p><span class=\"math inline\">\\(E =\n\\mathcal{C}^\\infty(]0,+\\infty[)\\)</span> <span\nclass=\"math inline\">\\(\\Phi(f)(x) = x^2f&#39;&#39;(x) +\nxf&#39;(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ee1dea8f-7266-4016-830d-df1096f2e5a0",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\lambda > 0$ : $f(x) = \\alpha x^{\\sqrt\\lambda} + \\beta x^{-\\sqrt\\lambda}$.\\par\n            $\\lambda = 0$ : $f(x) = \\alpha + \\beta\\ln x$.\\par\n            $\\lambda < 0$ : $f(x) = \\alpha\\cos\\bigl(\\sqrt{-\\lambda}\\ln x\\bigr)\n                                  + \\beta \\sin\\bigl(\\sqrt{-\\lambda}\\ln x\\bigr)$.",
+        "html": "<p><span class=\"math inline\">\\(\\lambda &gt; 0\\)</span> : <span\nclass=\"math inline\">\\(f(x) = \\alpha x^{\\sqrt\\lambda} + \\beta\nx^{-\\sqrt\\lambda}\\)</span>.</p>\n<p><span class=\"math inline\">\\(\\lambda = 0\\)</span> : <span\nclass=\"math inline\">\\(f(x) = \\alpha + \\beta\\ln x\\)</span>.</p>\n<p><span class=\"math inline\">\\(\\lambda &lt; 0\\)</span> : <span\nclass=\"math inline\">\\(f(x) = \\alpha\\cos\\bigl(\\sqrt{-\\lambda}\\ln x\\bigr)\n                                  + \\beta \\sin\\bigl(\\sqrt{-\\lambda}\\ln\nx\\bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "20e8436e-166a-4f48-96bb-3ad4db45e1b1",
+      "type": "question",
+      "value": {
+        "latex": "$E = \\mathcal{C}^\\infty(]0,1[)$\n  $\\Phi(f)(x) = \\sqrt{\\frac {1-x}x}f'(x)$.",
+        "html": "<p><span class=\"math inline\">\\(E = \\mathcal{C}^\\infty(]0,1[)\\)</span>\n<span class=\"math inline\">\\(\\Phi(f)(x) = \\sqrt{\\frac\n{1-x}x}f&#39;(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "89a7517b-bece-4869-808e-30a4bc0e5699",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\lambda \\in \\R$ : $f(x) = \\alpha\\exp\\lambda\\bigl( \\arcsin\\sqrt x  - \\sqrt{x(1-x)} \\bigr)$.",
+        "html": "<p><span class=\"math inline\">\\(\\lambda \\in \\R\\)</span> : <span\nclass=\"math inline\">\\(f(x) = \\alpha\\exp\\lambda\\bigl( \\arcsin\\sqrt x  -\n\\sqrt{x(1-x)} \\bigr)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les éléments propres des endomorphismes suivants :</p>\n"
+}

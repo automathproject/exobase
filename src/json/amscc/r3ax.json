@@ -1,0 +1,111 @@
+{
+  "uuid": "r3ax",
+  "titre": "Identification de lois usuelles",
+  "theme": [
+    "variables aléatoires discrètes"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-08-30",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:05.339Z"
+  },
+  "contenu": [
+    {
+      "id": "9065c24e-9692-4b99-85d8-112f6987d6a9",
+      "type": "description",
+      "value": {
+        "latex": "Pour chacune des situations suivantes, déterminer la loi de la variable aléatoire $X$ et donner son espérance.",
+        "html": "<p>Pour chacune des situations suivantes, déterminer la loi de la\nvariable aléatoire <span class=\"math inline\">\\(X\\)</span> et donner son\nespérance.</p>\n"
+      }
+    },
+    {
+      "id": "36a2089b-be94-4d76-8199-65478ef5a77b",
+      "type": "question",
+      "value": {
+        "latex": "On lance un dé équilibré 100 fois de suite et on note $X$ le nombre d'apparitions du chiffre \\og 2 \\fg{}.",
+        "html": "<p>On lance un dé équilibré 100 fois de suite et on note <span\nclass=\"math inline\">\\(X\\)</span> le nombre d’apparitions du chiffre\n.</p>\n"
+      }
+    },
+    {
+      "id": "8dab0853-5fba-4440-be7e-67cca0159b4c",
+      "type": "reponse",
+      "value": {
+        "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=100$ et $p=\\frac{1}{6}$. Son espérance est $\\E(X)=n\\times p = \\frac{50}{3}$.",
+        "html": "<p>La variable aléatoire <span class=\"math inline\">\\(X\\)</span> suit une\nloi binomiale de paramètres <span class=\"math inline\">\\(n=100\\)</span>\net <span class=\"math inline\">\\(p=\\frac{1}{6}\\)</span>. Son espérance est\n<span class=\"math inline\">\\(\\E(X)=n\\times p = \\frac{50}{3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b1d905fb-5460-4872-b87d-a1c777a64699",
+      "type": "description",
+      "value": {
+        "latex": "Deux personnes lancent chacune une pièce équilibrée. On dit que l'expérience est un succès si elles obtiennent toutes les deux \\og face \\fg{}.",
+        "html": "<p>Deux personnes lancent chacune une pièce équilibrée. On dit que\nl’expérience est un succès si elles obtiennent toutes les deux face\n.</p>\n"
+      }
+    },
+    {
+      "id": "b481ffad-cdd6-4001-9b79-6919d25ea694",
+      "type": "question",
+      "value": {
+        "latex": "Ces personnes répètent l'expérience 8 fois. On note $X$ le nombre de succès.",
+        "html": "<p>Ces personnes répètent l’expérience 8 fois. On note <span\nclass=\"math inline\">\\(X\\)</span> le nombre de succès.</p>\n"
+      }
+    },
+    {
+      "id": "739dda38-7109-415e-bb6e-210e098dcd4e",
+      "type": "reponse",
+      "value": {
+        "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=8$ et $p=\\frac{1}{4}$. Son espérance est $\\E(X)=n\\times p = 2$.",
+        "html": "<p>La variable aléatoire <span class=\"math inline\">\\(X\\)</span> suit une\nloi binomiale de paramètres <span class=\"math inline\">\\(n=8\\)</span> et\n<span class=\"math inline\">\\(p=\\frac{1}{4}\\)</span>. Son espérance est\n<span class=\"math inline\">\\(\\E(X)=n\\times p = 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7bbab667-7753-47ae-9de4-5b012437efbf",
+      "type": "question",
+      "value": {
+        "latex": "Ces personnes répètent l'expérience jusqu'à ce qu'elles obtiennent un succès. On note $X$ le nombre de lancers.",
+        "html": "<p>Ces personnes répètent l’expérience jusqu’à ce qu’elles obtiennent un\nsuccès. On note <span class=\"math inline\">\\(X\\)</span> le nombre de\nlancers.</p>\n"
+      }
+    },
+    {
+      "id": "e7004efd-9efe-466b-a421-35b5764e95a2",
+      "type": "reponse",
+      "value": {
+        "latex": "La variable aléatoire $X$ suit une loi géométrique de paramètre $p=\\frac{1}{4}$. Son espérance est $\\E(X) = \\frac{1}{p} = \\frac{1}{4}$.",
+        "html": "<p>La variable aléatoire <span class=\"math inline\">\\(X\\)</span> suit une\nloi géométrique de paramètre <span\nclass=\"math inline\">\\(p=\\frac{1}{4}\\)</span>. Son espérance est <span\nclass=\"math inline\">\\(\\E(X) = \\frac{1}{p} = \\frac{1}{4}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1c6db036-e01a-431b-9573-42da93712bb1",
+      "type": "description",
+      "value": {
+        "latex": "Une agence de location de voitures propose à ses clients 3 catégories de voitures : $A$, $B$ et $C$. Elle a constaté que dans une journée, $40\\%$ des demandes sont pour $A$, $50\\%$ des demandes sont pour $B$, $10\\%$ des demandes sont pour $C$. Les demandes de location sont supposées indépendantes.",
+        "html": "<p>Une agence de location de voitures propose à ses clients 3 catégories\nde voitures : <span class=\"math inline\">\\(A\\)</span>, <span\nclass=\"math inline\">\\(B\\)</span> et <span\nclass=\"math inline\">\\(C\\)</span>. Elle a constaté que dans une journée,\n<span class=\"math inline\">\\(40\\%\\)</span> des demandes sont pour <span\nclass=\"math inline\">\\(A\\)</span>, <span\nclass=\"math inline\">\\(50\\%\\)</span> des demandes sont pour <span\nclass=\"math inline\">\\(B\\)</span>, <span\nclass=\"math inline\">\\(10\\%\\)</span> des demandes sont pour <span\nclass=\"math inline\">\\(C\\)</span>. Les demandes de location sont\nsupposées indépendantes.</p>\n"
+      }
+    },
+    {
+      "id": "03f686a1-9de7-4d5b-a27f-a3e1db02e056",
+      "type": "question",
+      "value": {
+        "latex": "Un jour donné, l'agence a reçu 12 demandes de location. On note $X$ le nombre de catégories $A$ demandées.",
+        "html": "<p>Un jour donné, l’agence a reçu 12 demandes de location. On note <span\nclass=\"math inline\">\\(X\\)</span> le nombre de catégories <span\nclass=\"math inline\">\\(A\\)</span> demandées.</p>\n"
+      }
+    },
+    {
+      "id": "ab0c20a3-adae-4e4d-9b8e-39ba5279367c",
+      "type": "reponse",
+      "value": {
+        "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=12$ et $p=0.4$. Son espérance est $\\E(X) = 4{,}8$.",
+        "html": "<p>La variable aléatoire <span class=\"math inline\">\\(X\\)</span> suit une\nloi binomiale de paramètres <span class=\"math inline\">\\(n=12\\)</span> et\n<span class=\"math inline\">\\(p=0.4\\)</span>. Son espérance est <span\nclass=\"math inline\">\\(\\E(X) = 4{,}8\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour chacune des situations suivantes, déterminer la loi de la\nvariable aléatoire <span class=\"math inline\">\\(X\\)</span> et donner son\nespérance.</ ..."
+}

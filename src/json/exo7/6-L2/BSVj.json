@@ -1,0 +1,61 @@
+{
+  "uuid": "BSVj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7158",
+    "auteur": "megy",
+    "createdAt": "2017-05-13",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:45.316Z"
+  },
+  "contenu": [
+    {
+      "id": "3de3bee6-df9a-4808-936c-3de64ed57824",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\mathcal T=ABC$ un triangle et soit $g$ une isométrie de $\\mathcal T$, c'est-à-dire une isométrie du plan telle que $g(\\mathcal T)=\\mathcal T$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\mathcal T=ABC\\)</span> un triangle\net soit <span class=\"math inline\">\\(g\\)</span> une isométrie de <span\nclass=\"math inline\">\\(\\mathcal T\\)</span>, c’est-à-dire une isométrie du\nplan telle que <span class=\"math inline\">\\(g(\\mathcal T)=\\mathcal\nT\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "47dfad87-c6df-44b6-bc3a-9cc5328c5403",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $g$ envoie les sommets sur les sommets.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(g\\)</span> envoie les sommets\nsur les sommets.</p>\n"
+      }
+    },
+    {
+      "id": "02cb5d6a-fd55-4cdc-bf21-b0a577743665",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $g$ admet au moins un point fixe.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(g\\)</span> admet au moins un\npoint fixe.</p>\n"
+      }
+    },
+    {
+      "id": "aad39e70-a922-4638-91bc-18581b73b5fc",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $g$ n'est ni une translation ni une réflexion glissée.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(g\\)</span> n’est ni une\ntranslation ni une réflexion glissée.</p>\n"
+      }
+    },
+    {
+      "id": "80652e76-36a8-4fbd-92ed-6be7ffa7a388",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme une isométrie est affine, elle conserve les barycentres. Soit $P$ un sommet du triangle. Comme ce n'est pas un barycentre d'autres points du triangle, son image par une isométrie fixant le triangle non plus, c'est-à-dire que son image est un sommet. On en déduit que les sommets sont envoyés sur les sommets.\r\n\r\nPar préservation du barycentre une isométrie de $\\mathcal T$ fixe son isobarycentre.\r\n\r\nComme elle a au moins un point fixe, ça ne peut être une translation ou une symétrie glissée.",
+        "html": "<p>Comme une isométrie est affine, elle conserve les barycentres. Soit\n<span class=\"math inline\">\\(P\\)</span> un sommet du triangle. Comme ce\nn’est pas un barycentre d’autres points du triangle, son image par une\nisométrie fixant le triangle non plus, c’est-à-dire que son image est un\nsommet. On en déduit que les sommets sont envoyés sur les sommets.</p>\n<p>Par préservation du barycentre une isométrie de <span\nclass=\"math inline\">\\(\\mathcal T\\)</span> fixe son isobarycentre.</p>\n<p>Comme elle a au moins un point fixe, ça ne peut être une translation\nou une symétrie glissée.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\mathcal T=ABC\\)</span> un triangle\net soit <span class=\"math inline\">\\(g\\)</span> une isométrie de <span\nclass=\"m ..."
+}

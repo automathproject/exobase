@@ -1,0 +1,45 @@
+{
+  "uuid": "ZQUZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2841",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:51.267Z"
+  },
+  "contenu": [
+    {
+      "id": "86d73ed1-b210-4e1b-a5cc-2bef7f107fe0",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "dfab982e-cfc1-4661-8d71-a1ff3b5182a5",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g$ une fonction analytique ayant un zéro simple en\n$z_0$, et $f$ une autre fonction analytique définie dans un\nvoisinage de $z_0$. Montrer \n\\[ \\mathrm{Res}(\\frac fg, z_0) =\n\\frac{f(z_0)}{g'(z_0)}\\;.\\]",
+        "html": "<p>Soit <span class=\"math inline\">\\(g\\)</span> une fonction analytique\nayant un zéro simple en <span class=\"math inline\">\\(z_0\\)</span>, et\n<span class=\"math inline\">\\(f\\)</span> une autre fonction analytique\ndéfinie dans un voisinage de <span class=\"math inline\">\\(z_0\\)</span>.\nMontrer <span class=\"math display\">\\[\\mathrm{Res}(\\frac fg, z_0) =\n\\frac{f(z_0)}{g&#39;(z_0)}\\;.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "88a1b8ff-b2cc-4291-8b00-3b5dc22bbd7a",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $g$ a un zéro d'ordre\n$n$: $g(z_0+h) = h^n (c_0 + c_1 h + \\dots)$, $c_0\\neq0$, et l'on\nécrit $f(z_0+h) = a_0 + a_1 h +\\dots$. Montrer:\n\\[ \\mathrm{Res}(\\frac fg, z_0) = e_{n-1}\\]\navec $e_0$, $e_1$, \\dots, obtenus par  la division suivant les puissances\ncroissantes (comme dans les calculs de développement\nlimités):\n\\[ \\frac{a_0 + a_1 h + a_2 h^2 + \\dots}{c_0 + c_1 h + c_2\nh^2 + \\dots} = e_0 +\ne_1 h + e_2 h^2 +\\dots \\;.\\]",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(g\\)</span> a un zéro\nd’ordre <span class=\"math inline\">\\(n\\)</span>: <span\nclass=\"math inline\">\\(g(z_0+h) = h^n (c_0 + c_1 h + \\dots)\\)</span>,\n<span class=\"math inline\">\\(c_0\\neq0\\)</span>, et l’on écrit <span\nclass=\"math inline\">\\(f(z_0+h) = a_0 + a_1 h +\\dots\\)</span>. Montrer:\n<span class=\"math display\">\\[\\mathrm{Res}(\\frac fg, z_0) =\ne_{n-1}\\]</span> avec <span class=\"math inline\">\\(e_0\\)</span>, <span\nclass=\"math inline\">\\(e_1\\)</span>, …, obtenus par la division suivant\nles puissances croissantes (comme dans les calculs de développement\nlimités): <span class=\"math display\">\\[\\frac{a_0 + a_1 h + a_2 h^2 +\n\\dots}{c_0 + c_1 h + c_2\nh^2 + \\dots} = e_0 +\ne_1 h + e_2 h^2 +\\dots \\;.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(g\\)</span> une fonction analytique\nayant un zéro simple en <span class=\"math inline\">\\(z_0\\)</span>, et\n<span clas ..."
+}

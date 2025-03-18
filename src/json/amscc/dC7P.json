@@ -1,0 +1,55 @@
+{
+  "uuid": "dC7P",
+  "titre": "Calcul d'une somme de série entière",
+  "theme": [
+    "séries entières"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-06-01",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:47.616Z"
+  },
+  "contenu": [
+    {
+      "id": "3b7e3d67-d29d-4358-999f-b3f912455d39",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le domaine de convergence de la série entière $\\displaystyle \\sum_{n\\geq 0} \\frac{(n+2)2^n}{(n+1)!} z^n$ à variable complexe.",
+        "html": "<p>Déterminer le domaine de convergence de la série entière <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 0}\n\\frac{(n+2)2^n}{(n+1)!} z^n\\)</span> à variable complexe.</p>\n"
+      }
+    },
+    {
+      "id": "0e81954b-33f8-4d62-bd0a-fed1d06904fc",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=+\\infty$ et $D=\\mathbb{C}$.",
+        "html": "<p><span class=\"math inline\">\\(R=+\\infty\\)</span> et <span\nclass=\"math inline\">\\(D=\\mathbb{C}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "37ff7ed9-63d3-4771-8c72-59613d90b7b8",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler ce que vaut $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}$. En déduire $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}$, puis $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n$.",
+        "html": "<p>Rappeler ce que vaut <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}\\)</span>. En déduire <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n=0}^{+\\infty}\n\\frac{z^n}{(n+1)!}\\)</span>, puis <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n=0}^{+\\infty}\n\\frac{(n+2)2^n}{(n+1)!}z^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "77c6c6ad-e3d2-411a-bed9-21157c76b189",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\forall z \\in \\R, \\quad \\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}=e^z.$$\n\t\tPour la première somme:\n\t\t$$ \\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}\n\t\t= \\begin{cases} \\frac{e^z-1}{z} & \\text{ si } z \\neq 0 \\\\\n\t\t0 & \\text{ sinon }\n\t\t\\end{cases}\n\t\t$$\n\t\tPour la deuxième somme:\n\t\t$$ \\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n\n\t\t= \\begin{cases} \\frac{e^{2z}-1}{2z}+e^{2z} & \\text{ si } z \\neq 0 \\\\\n\t\t0 & \\text{ sinon }\n\t\t\\end{cases}\n\t\t$$",
+        "html": "<p><span class=\"math display\">\\[\\forall z \\in \\R, \\quad\n\\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}=e^z.\\]</span> Pour la première\nsomme: <span class=\"math display\">\\[\\forall z \\in \\R, \\qquad\n\\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}\n        = \\begin{cases} \\frac{e^z-1}{z} &amp; \\text{ si } z \\neq 0 \\\\\n        0 &amp; \\text{ sinon }\n        \\end{cases}\\]</span> Pour la deuxième somme: <span\nclass=\"math display\">\\[\\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty}\n\\frac{(n+2)2^n}{(n+1)!}z^n\n        = \\begin{cases} \\frac{e^{2z}-1}{2z}+e^{2z} &amp; \\text{ si } z\n\\neq 0 \\\\\n        0 &amp; \\text{ sinon }\n        \\end{cases}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer le domaine de convergence de la série entière <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 0}\n\\frac{(n+2)2^n}{(n+1)!} z^n\\)</sp ..."
+}

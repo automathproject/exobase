@@ -1,0 +1,61 @@
+{
+  "uuid": "mkeZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7601",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:10.588Z"
+  },
+  "contenu": [
+    {
+      "id": "2320f379-d8eb-48af-a5fc-8f37ab843292",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "51b0b50d-fb60-4fa5-b198-720df1d534dc",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler la définition de la branche principale du logarithme.",
+        "html": "<p>Rappeler la définition de la branche principale du logarithme.</p>\n"
+      }
+    },
+    {
+      "id": "8c4991a6-f5ab-4028-93a8-a575cc6affbb",
+      "type": "reponse",
+      "value": {
+        "latex": "On définit une détermination du logarithme en posant\r\n$$\\begin{array}{cccc}\r\n l_+ :& \\Cc-]-\\infty,0] & \\longrightarrow & \\Cc\\\\ & z=re^{i\\theta} (r>0, -\\pi<\\theta<\\pi)&\\longmapsto& \\log_\\Rr(r)+i\\theta.\r\n\\end{array}$$\r\nC'est une application continue, et même holomorphe telle que $$\\forall z\\in\\Cc-]-\\infty,0],\\ \\ e^{l_+(z)}=z.$$",
+        "html": "<p>On définit une détermination du logarithme en posant <span\nclass=\"math display\">\\[\\begin{array}{cccc}\nl_+ :&amp; \\Cc-]-\\infty,0] &amp; \\longrightarrow &amp; \\Cc\\\\ &amp;\nz=re^{i\\theta} (r&gt;0, -\\pi&lt;\\theta&lt;\\pi)&amp;\\longmapsto&amp;\n\\log_\\Rr(r)+i\\theta.\n\\end{array}\\]</span> C’est une application continue, et même holomorphe\ntelle que <span class=\"math display\">\\[\\forall z\\in\\Cc-]-\\infty,0],\\ \\\ne^{l_+(z)}=z.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "80dff00a-9fee-4c8c-a2c1-175fbeb1e8f7",
+      "type": "question",
+      "value": {
+        "latex": "Peut on définir un logarithme sur $\\Cc-C$ le plan complexe privé de l'ensemble\r\n$$ C:= [ \\; 0,1\\; ] \\cup \\{ \\; z \\in \\mathbb{C} \\; / \\; \\mid z-2 \\mid =1 \\; \\mathbb{H}ox{et} \\; Im(z) \\geq 0 \\; \\} \\cup [\\; 3, \\infty \\; [ ?$$\r\nOn appelle $U:=\\{z\\in\\Cc, \\mid z-2 \\mid < 1, Im(z) \\geq 0\\}$ la partie grisée,\r\net $V :=\\{z\\in\\Cc, z\\not\\in C, z\\not\\in U\\}$ le reste de $\\Cc-C$. \r\n$$__TIKZ_e03272b8-46f5-4d72-a8ec-75fe491a7a4b__$$\r\nOn précisera sur $U$ et sur $V$ l'argument choisi dans la définition du logarithme.",
+        "html": "<p>Peut on définir un logarithme sur <span\nclass=\"math inline\">\\(\\Cc-C\\)</span> le plan complexe privé de\nl’ensemble <span class=\"math display\">\\[C:= [ \\; 0,1\\; ] \\cup \\{ \\; z\n\\in \\mathbb{C} \\; / \\; \\mid z-2 \\mid =1 \\; \\mathbb{H}ox{et} \\; Im(z)\n\\geq 0 \\; \\} \\cup [\\; 3, \\infty \\; [ ?\\]</span> On appelle <span\nclass=\"math inline\">\\(U:=\\{z\\in\\Cc, \\mid z-2 \\mid &lt; 1, Im(z) \\geq\n0\\}\\)</span> la partie grisée, et <span class=\"math inline\">\\(V\n:=\\{z\\in\\Cc, z\\not\\in C, z\\not\\in U\\}\\)</span> le reste de <span\nclass=\"math inline\">\\(\\Cc-C\\)</span>. <span\nclass=\"math display\">\\[<!-- Conversion error: LaTeX Error:\nUndefined control sequence. -->\n<!-- Problematic TikZ content:\n\\draw[white, fill=gray!10] (-6,-2) rectangle (6,4);\r\n\\draw[shift={(3,0)}, thick, fill=gray!100] (2:0) arc (0:180:1cm);\r\n\\draw (2,1) node[below]{$U$} ;\r\n\\draw[thick] (0,0) -- (1,0) ;\r\n\\draw[thick] (3,0) -- (6,0) ;\r\n\\draw (0,0) node[below]{$0$} ;\r\n\\draw (-2,2) node[below]{$V$} ;\r\n\\draw (3,0) node[below]{$3$} ;\r\n\\draw (5.5,0) node[above]{$C$} ;\r\n\\draw (1,0) node[below]{$1$} ;\r\n\\draw (-4,4) node[below]{$\\Cc-C=U\\cup V$} ;\n-->\\]</span>\nOn précisera sur <span class=\"math inline\">\\(U\\)</span> et sur <span\nclass=\"math inline\">\\(V\\)</span> l’argument choisi dans la définition du\nlogarithme.</p>\n"
+      }
+    },
+    {
+      "id": "2bcfa46f-f696-42c3-aa66-721f6096ae18",
+      "type": "reponse",
+      "value": {
+        "latex": "On définit une détermination du logarithme en posant\r\n$$\\begin{array}{cccc}\r\n \\ell :& \\Cc-L & \\longrightarrow & \\Cc\\\\ & z=re^{i\\theta} (r>0, 0\\leq\\theta<2\\pi)&\\longmapsto& \r\n \\left\\{\\begin{array}{l} \\textrm{sur } U, \\\\ \\ \\ \\ \\ \\ell(z)=\\log_\\Rr(r)+i(\\theta +2\\pi).\\\\\r\n \\textrm{sur } V, \\\\ \\ \\ \\ \\ \\ell(z)=\\log_\\Rr(r)+i\\theta\\end{array}\r\n \\right.\r\n\\end{array}$$\r\nOn vérifie que $\\ell$ est continue : en particulier sur le disque ouvert de centre $(2,0)$ et de rayon $1$, $\\ell$ coïncide avec la fonction $\\log +2i\\pi$,\r\nqui est continue. \r\nOn vérifie aussi que pour tout $z\\in\\Cc-L$, $e^{\\ell(z)}=z$ : c'est donc une détermination du logarithme sur $\\Cc-L$.",
+        "html": "<p>On définit une détermination du logarithme en posant <span\nclass=\"math display\">\\[\\begin{array}{cccc}\n\\ell :&amp; \\Cc-L &amp; \\longrightarrow &amp; \\Cc\\\\ &amp; z=re^{i\\theta}\n(r&gt;0, 0\\leq\\theta&lt;2\\pi)&amp;\\longmapsto&amp;\n\\left\\{\\begin{array}{l} \\textrm{sur } U, \\\\ \\ \\ \\ \\\n\\ell(z)=\\log_\\Rr(r)+i(\\theta +2\\pi).\\\\\n\\textrm{sur } V, \\\\ \\ \\ \\ \\ \\ell(z)=\\log_\\Rr(r)+i\\theta\\end{array}\n\\right.\n\\end{array}\\]</span> On vérifie que <span\nclass=\"math inline\">\\(\\ell\\)</span> est continue : en particulier sur le\ndisque ouvert de centre <span class=\"math inline\">\\((2,0)\\)</span> et de\nrayon <span class=\"math inline\">\\(1\\)</span>, <span\nclass=\"math inline\">\\(\\ell\\)</span> coïncide avec la fonction <span\nclass=\"math inline\">\\(\\log +2i\\pi\\)</span>, qui est continue. On vérifie\naussi que pour tout <span class=\"math inline\">\\(z\\in\\Cc-L\\)</span>,\n<span class=\"math inline\">\\(e^{\\ell(z)}=z\\)</span> : c’est donc une\ndétermination du logarithme sur <span\nclass=\"math inline\">\\(\\Cc-L\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Rappeler la définition de la branche principale du logarithme.</p>\n"
+}

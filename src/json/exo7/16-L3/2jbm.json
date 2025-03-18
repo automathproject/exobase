@@ -1,0 +1,77 @@
+{
+  "uuid": "2jbm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6601",
+    "auteur": "hueb",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:13.225Z"
+  },
+  "contenu": [
+    {
+      "id": "b101d008-b6a9-47b4-8d3c-dd97696f141b",
+      "type": "description",
+      "value": {
+        "latex": "Démontrer que",
+        "html": "<p>Démontrer que</p>\n"
+      }
+    },
+    {
+      "id": "7a7af167-3ded-4816-8684-c568f3c83769",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(1) (s)= \\frac 1 s$",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(1) (s)= \\frac 1\ns\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "38f91078-330d-463e-906a-076eaedff653",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(t^n)(s) = \\frac {n!} {s^{n+1}}$",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(t^n)(s) = \\frac {n!}\n{s^{n+1}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "02c5fc01-b77f-46c3-8c4e-c6908b514d7c",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(e^{at})(s) = \\frac 1 {s-a}$",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(e^{at})(s) = \\frac 1\n{s-a}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a36a3468-46c3-411e-9674-5e56326dfaed",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(\\sin at)(s) = \\frac a {s^2+a^2}$",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(\\sin at)(s) = \\frac a\n{s^2+a^2}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2ca69430-f78a-4c41-bdbf-d698b4a7e144",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{L}(\\cos at)(s) = \\frac s {s^2+a^2}$",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{L}(\\cos at)(s) = \\frac s\n{s^2+a^2}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2b625def-abb9-4953-a12f-9632a718fcba",
+      "type": "question",
+      "value": {
+        "latex": "$$\\mathcal{L}(U_a)(s) = \\frac {e^{-as}} s, \\ \n\\text{où}\\  U_a(t) = \\begin{cases} 1,&t\\geq a,\\\\\n    0,&t < a,\\\\\n         \\end{cases}\n         a \\in \\Rr, a \\geq 0.$$",
+        "html": "<p><span class=\"math display\">\\[\\mathcal{L}(U_a)(s) = \\frac {e^{-as}} s,\n\\\n\\text{où}\\  U_a(t) = \\begin{cases} 1,&amp;t\\geq a,\\\\\n    0,&amp;t &lt; a,\\\\\n         \\end{cases}\n         a \\in \\Rr, a \\geq 0.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Démontrer que</p>\n"
+}

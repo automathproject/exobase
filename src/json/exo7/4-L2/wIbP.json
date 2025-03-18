@@ -1,0 +1,61 @@
+{
+  "uuid": "wIbP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3528",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Polynôme caractéristique, théorème de Cayley-Hamilton",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:09.688Z"
+  },
+  "contenu": [
+    {
+      "id": "20a29be1-2491-491b-ad89-052d0cf5e6ef",
+      "type": "description",
+      "value": {
+        "latex": "On considère le polynôme défini par :\n$\\forall\\ n \\in \\N,\\ P_n(x) = x^n - \\sum_{i=0}^{n-1} \\alpha_ix^i$ avec\n$\\alpha_0 > 0$ et $\\alpha_i \\ge 0$ pour $1 \\le i \\le n-1$.",
+        "html": "<p>On considère le polynôme défini par : <span\nclass=\"math inline\">\\(\\forall\\ n \\in \\N,\\ P_n(x) = x^n -\n\\sum_{i=0}^{n-1} \\alpha_ix^i\\)</span> avec <span\nclass=\"math inline\">\\(\\alpha_0 &gt; 0\\)</span> et <span\nclass=\"math inline\">\\(\\alpha_i \\ge 0\\)</span> pour <span\nclass=\"math inline\">\\(1 \\le i \\le n-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4badc4e3-0b21-41a5-ace7-66ceb9db24bd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe une unique racine dans $\\R^{+*}$ pour $P_n$.",
+        "html": "<p>Montrer qu’il existe une unique racine dans <span\nclass=\"math inline\">\\(\\R^{+*}\\)</span> pour <span\nclass=\"math inline\">\\(P_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "977df7d7-f5c8-4281-8358-9561504a8104",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $f_n : x  \\mapsto \\frac{P_n(x)}{x^n}$ croît strictement\n             de $-\\infty$ à 1 quand $x$ varie de $0$ à $+\\infty$.",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f_n : x  \\mapsto\n\\frac{P_n(x)}{x^n}\\)</span> croît strictement de <span\nclass=\"math inline\">\\(-\\infty\\)</span> à 1 quand <span\nclass=\"math inline\">\\(x\\)</span> varie de <span\nclass=\"math inline\">\\(0\\)</span> à <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "db1dd797-4f0f-4ff8-87bb-e3e4aa2cbee4",
+      "type": "question",
+      "value": {
+        "latex": "Soit $A = \\begin{pmatrix} 1       &1      &0      &\\dots  &0      \\cr\n                        2       &0      &1      &\\ddots &\\vdots \\cr\n                        \\vdots  &\\vdots &\\ddots &\\ddots &0      \\cr\n                        \\vdots  &\\vdots &       &\\ddots &1      \\cr\n                        n       &0      &\\dots  &\\dots  &0      \\cr\\end{pmatrix}$.\n    Montrer que $A$ admet une unique valeur propre réelle strictement positive.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A = \\begin{pmatrix}\n1       &amp;1      &amp;0      &amp;\\dots  &amp;0      \\cr\n                        2       &amp;0      &amp;1      &amp;\\ddots\n&amp;\\vdots \\cr\n                        \\vdots  &amp;\\vdots &amp;\\ddots &amp;\\ddots\n&amp;0      \\cr\n                        \\vdots  &amp;\\vdots &amp;       &amp;\\ddots\n&amp;1      \\cr\n                        n       &amp;0      &amp;\\dots  &amp;\\dots  &amp;0      \\cr\\end{pmatrix}\\)</span>.\nMontrer que <span class=\"math inline\">\\(A\\)</span> admet une unique\nvaleur propre réelle strictement positive.</p>\n"
+      }
+    },
+    {
+      "id": "c36dc47a-c6fa-4579-a3a4-fe2187239876",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\chi_A(x) = (-1)^n\\Bigl(x^n - \\sum_{k=1}^n kx^{n-k}\\Bigr)$.",
+        "html": "<p><span class=\"math inline\">\\(\\chi_A(x) = (-1)^n\\Bigl(x^n -\n\\sum_{k=1}^n kx^{n-k}\\Bigr)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère le polynôme défini par : <span\nclass=\"math inline\">\\(\\forall\\ n \\in \\N,\\ P_n(x) = x^n -\n\\sum_{i=0}^{n-1} \\alpha_ix^i\\)</span> avec <sp ..."
+}

@@ -1,0 +1,112 @@
+{
+  "uuid": "64Uj",
+  "titre": "Résolution d'une EDO par un schéma numérique",
+  "theme": [
+    "méthodes numériques",
+    "équations différentielles"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2024-04-29",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:33.746Z"
+  },
+  "contenu": [
+    {
+      "id": "018f920d-7239-4115-882c-60fd4cd0d14c",
+      "type": "description",
+      "value": {
+        "latex": "Soit l'équation différentielle sur $[0,1]$:\n$$(E)\t\\begin{cases} \n\ty'(t) = f(t,y(t)) \\\\\n\ty(0) = 0,\n\\end{cases} $$\noù\n$$\nf(t,y)=\\sin\\left((t+y)^2\\right).\n$$",
+        "html": "<p>Soit l’équation différentielle sur <span\nclass=\"math inline\">\\([0,1]\\)</span>: <span\nclass=\"math display\">\\[(E)   \\begin{cases}\n    y&#39;(t) = f(t,y(t)) \\\\\n    y(0) = 0,\n\\end{cases}\\]</span> où <span\nclass=\"math display\">\\[f(t,y)=\\sin\\left((t+y)^2\\right).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c23d30ca-9cdf-4c8d-8507-c081d2bf74c5",
+      "type": "question",
+      "value": {
+        "latex": "Justifier l'existence et l'unicité locale d'une solution $y$ de classe $\\mathcal{C}^1$.",
+        "html": "<p>Justifier l’existence et l’unicité locale d’une solution <span\nclass=\"math inline\">\\(y\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "09637df7-9c78-48e4-adf2-da9bae33fcf4",
+      "type": "reponse",
+      "value": {
+        "latex": "$f$ est $C^1$: Théorème de Cauchy-Lipschitz.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est <span\nclass=\"math inline\">\\(C^1\\)</span>: Théorème de Cauchy-Lipschitz.</p>\n"
+      }
+    },
+    {
+      "id": "be0804a2-98c5-47ce-b0b2-dfb3dddb3925",
+      "type": "question",
+      "value": {
+        "latex": "Justifier le caractère borné de $y$.",
+        "html": "<p>Justifier le caractère borné de <span\nclass=\"math inline\">\\(y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "af970dd2-a7c4-42ef-8e6b-dd0482eb80a0",
+      "type": "reponse",
+      "value": {
+        "latex": "$|y'(t)|\\leq 1$, donc $|y(t)|\\leq a+T=1$.",
+        "html": "<p><span class=\"math inline\">\\(|y&#39;(t)|\\leq 1\\)</span>, donc <span\nclass=\"math inline\">\\(|y(t)|\\leq a+T=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ea7a0d56-d4cd-41f1-aa7d-634610f67464",
+      "type": "reponse",
+      "value": {
+        "latex": "Principe de prolongement.",
+        "html": "<p>Principe de prolongement.</p>\n"
+      }
+    },
+    {
+      "id": "2a0f43b4-c6c3-4ffc-bc1c-818c75873c90",
+      "type": "description",
+      "value": {
+        "latex": "Pour approcher la solution de $(E)$, on propose le schéma numérique suivant : \n\t$h=1/N$, $t_n=nh$, $y_0=0$ et \n\t$$(S) \\colon y_{n+1} = y_n +  \\frac{h}{4}\\left( f(t_n,y_n)+3f\\left(t_n+ \\frac{2h}{3},y_n+\\frac{2h}{3}f(t_n,y_n) \\right) \\right)$$",
+        "html": "<p>Pour approcher la solution de <span\nclass=\"math inline\">\\((E)\\)</span>, on propose le schéma numérique\nsuivant : <span class=\"math inline\">\\(h=1/N\\)</span>, <span\nclass=\"math inline\">\\(t_n=nh\\)</span>, <span\nclass=\"math inline\">\\(y_0=0\\)</span> et <span class=\"math display\">\\[(S)\n\\colon y_{n+1} = y_n +  \\frac{h}{4}\\left( f(t_n,y_n)+3f\\left(t_n+\n\\frac{2h}{3},y_n+\\frac{2h}{3}f(t_n,y_n) \\right) \\right)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "92aa631b-66ec-43dc-8b22-e3f62a555dd3",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que ce schéma est convergent.",
+        "html": "<p>Démontrer que ce schéma est convergent.</p>\n"
+      }
+    },
+    {
+      "id": "e2d2ca2e-e417-435b-a642-5070de514ca9",
+      "type": "reponse",
+      "value": {
+        "latex": "On vérifie qu'il est consistant en appliquant le résultat du cours : on écrit le schéma sous la forme standard $y_{n+1} = y_n+hF(t_n,y_n,h)$ et on vérifie que $F(t,y,0) = f(t,y)$.\n\t\t\n\t\tPar ailleurs, on vérifie facilement que $F$ est lipschitzienne par rapport à la deuxième variable $y$, c'est une condition suffisante de stabilité du schéma.",
+        "html": "<p>On vérifie qu’il est consistant en appliquant le résultat du cours :\non écrit le schéma sous la forme standard <span\nclass=\"math inline\">\\(y_{n+1} = y_n+hF(t_n,y_n,h)\\)</span> et on vérifie\nque <span class=\"math inline\">\\(F(t,y,0) = f(t,y)\\)</span>.</p>\n<p>Par ailleurs, on vérifie facilement que <span\nclass=\"math inline\">\\(F\\)</span> est lipschitzienne par rapport à la\ndeuxième variable <span class=\"math inline\">\\(y\\)</span>, c’est une\ncondition suffisante de stabilité du schéma.</p>\n"
+      }
+    },
+    {
+      "id": "b1301421-778c-4f7e-9f5f-e27a2313a10d",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que ce schéma est consistant d'ordre 2.",
+        "html": "<p>Vérifier que ce schéma est consistant d’ordre 2.</p>\n"
+      }
+    },
+    {
+      "id": "8a9bfbf1-e743-4031-9689-248d380854da",
+      "type": "reponse",
+      "value": {
+        "latex": "On applique le critère énoncé et admis ci-dessus en calculant $\\frac{1}{2}f^{[1]}(t,y)$.",
+        "html": "<p>On applique le critère énoncé et admis ci-dessus en calculant <span\nclass=\"math inline\">\\(\\frac{1}{2}f^{[1]}(t,y)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit l’équation différentielle sur <span\nclass=\"math inline\">\\([0,1]\\)</span>: <span\nclass=\"math display\"> ..."
+}

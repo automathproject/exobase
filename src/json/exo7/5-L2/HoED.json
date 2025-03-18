@@ -1,0 +1,157 @@
+{
+  "uuid": "HoED",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4056",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:53.667Z"
+  },
+  "contenu": [
+    {
+      "id": "fa8a006a-e0a5-4466-8b99-ee9b41c2fc32",
+      "type": "description",
+      "value": {
+        "latex": "Intégrer les équations suivantes :",
+        "html": "<p>Intégrer les équations suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "f3eb84a8-777e-4170-8b65-fbb7909ebcd2",
+      "type": "question",
+      "value": {
+        "latex": "$y''-y'-e^{2x}y = e^{3x}$ (poser $u = e^x$).",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39;-y&#39;-e^{2x}y =\ne^{3x}\\)</span> (poser <span class=\"math inline\">\\(u =\ne^x\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "01d1ecfa-91b3-41b6-9b24-c5abb42fe7fc",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = -e^x + \\lambda e^{e^x} + \\mu e^{-e^x}$.",
+        "html": "<p><span class=\"math inline\">\\(y = -e^x + \\lambda e^{e^x} + \\mu\ne^{-e^x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5ca74696-360e-4490-9efa-37c079438958",
+      "type": "question",
+      "value": {
+        "latex": "$y'' - \\left(6x+\\frac1x\\right)y' + 8x^2y = x^4$ (poser $u=x^2$).",
+        "html": "<p><span class=\"math inline\">\\(y&#39;&#39; -\n\\left(6x+\\frac1x\\right)y&#39; + 8x^2y = x^4\\)</span> (poser <span\nclass=\"math inline\">\\(u=x^2\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "8c5faf8c-2607-4f37-bf25-66a4fd65297f",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\lambda e^{x^2} + \\mu e^{2x^2} + \\frac{2x^2+3}{16}$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\lambda e^{x^2} + \\mu e^{2x^2} +\n\\frac{2x^2+3}{16}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "11f167b8-9433-46b8-8b62-7149e42bf4bc",
+      "type": "question",
+      "value": {
+        "latex": "$x(1-2\\ln x)y'' + (1+2\\ln x)y' - \\frac4xy = 0$\n    (chercher une solution de la forme $y = x^\\alpha$).",
+        "html": "<p><span class=\"math inline\">\\(x(1-2\\ln x)y&#39;&#39; + (1+2\\ln x)y&#39;\n- \\frac4xy = 0\\)</span> (chercher une solution de la forme <span\nclass=\"math inline\">\\(y = x^\\alpha\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "a4bd904a-5d74-4a60-ad5e-c4e5e4f6aa82",
+      "type": "reponse",
+      "value": {
+        "latex": "$y=\\lambda x^2 + \\mu\\ln x$.",
+        "html": "<p><span class=\"math inline\">\\(y=\\lambda x^2 + \\mu\\ln x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fb0eb4eb-a2f8-449b-921f-7d686d7b1be2",
+      "type": "question",
+      "value": {
+        "latex": "$x^2y''-2xy'+2y = 2+2x^3\\sin x$ (poser $u = \\ln x$).",
+        "html": "<p><span class=\"math inline\">\\(x^2y&#39;&#39;-2xy&#39;+2y = 2+2x^3\\sin\nx\\)</span> (poser <span class=\"math inline\">\\(u = \\ln x\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "4273c634-d86a-4ec0-9927-688426196a27",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = ax + bx^2 + 1 - 2x\\sin x$.",
+        "html": "<p><span class=\"math inline\">\\(y = ax + bx^2 + 1 - 2x\\sin\nx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2cd725aa-b462-4049-a425-10e3c5276c91",
+      "type": "question",
+      "value": {
+        "latex": "$x(x+1)y'' - y' - 2y = 3x^2$\n    (chercher une solution de l'équation homogène de la forme $y = x^\\alpha$).",
+        "html": "<p><span class=\"math inline\">\\(x(x+1)y&#39;&#39; - y&#39; - 2y =\n3x^2\\)</span> (chercher une solution de l’équation homogène de la forme\n<span class=\"math inline\">\\(y = x^\\alpha\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "b095c18c-32aa-4e8f-8963-0cfd40c4b346",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = x^2\\ln|x+1| + \\lambda \\left(x^2\\ln\\left|\\frac x{x+1}\\right| + x-\\frac12\\right) + \\mu x^2$.",
+        "html": "<p><span class=\"math inline\">\\(y = x^2\\ln|x+1| + \\lambda\n\\left(x^2\\ln\\left|\\frac x{x+1}\\right| + x-\\frac12\\right) + \\mu\nx^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fe89062e-d97d-42e7-9abc-6f0bb71dfc90",
+      "type": "question",
+      "value": {
+        "latex": "$x^2y'' + 4xy' + (2-x^2)y = 1$ $\\Bigl($poser $y = \\frac u{x^2}\\Bigr)$.",
+        "html": "<p><span class=\"math inline\">\\(x^2y&#39;&#39; + 4xy&#39; + (2-x^2)y =\n1\\)</span> <span class=\"math inline\">\\(\\Bigl(\\)</span>poser <span\nclass=\"math inline\">\\(y = \\frac u{x^2}\\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "174424aa-fd61-472f-840f-5defaff8fa05",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\frac{-1 + a\\ch x + b\\sh x}{x^2}$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\frac{-1 + a\\ch x + b\\sh\nx}{x^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2be3f43b-0fab-43d4-8d7f-4b6327a05144",
+      "type": "question",
+      "value": {
+        "latex": "$(x^2+3)y'' + xy' - y = 1$ (chercher les solutions polynomiales).",
+        "html": "<p><span class=\"math inline\">\\((x^2+3)y&#39;&#39; + xy&#39; - y =\n1\\)</span> (chercher les solutions polynomiales).</p>\n"
+      }
+    },
+    {
+      "id": "48cbe2d4-dc0e-43db-889a-f072fff8341f",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\lambda\\sqrt{x^2+3} + \\mu x - 1$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\lambda\\sqrt{x^2+3} + \\mu x -\n1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5f92a47a-bf2c-47ae-b5ad-b030ce4dc2ec",
+      "type": "question",
+      "value": {
+        "latex": "$xy''-2y'-xy = 0$ (dériver deux fois).",
+        "html": "<p><span class=\"math inline\">\\(xy&#39;&#39;-2y&#39;-xy = 0\\)</span>\n(dériver deux fois).</p>\n"
+      }
+    },
+    {
+      "id": "751edb17-67df-4375-9f21-515aaa7ece52",
+      "type": "reponse",
+      "value": {
+        "latex": "$y^{(4)} - 2y'' + y = 0  \\Rightarrow  y = a(\\ch x -x\\sh x) + b(x\\ch x -\\sh x)$.",
+        "html": "<p><span class=\"math inline\">\\(y^{(4)} - 2y&#39;&#39; + y =\n0  \\Rightarrow  y = a(\\ch x -x\\sh x) + b(x\\ch x -\\sh x)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Intégrer les équations suivantes :</p>\n"
+}

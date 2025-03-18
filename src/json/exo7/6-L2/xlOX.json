@@ -1,0 +1,45 @@
+{
+  "uuid": "xlOX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7114",
+    "auteur": "megy",
+    "createdAt": "2017-01-21",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:25.037Z"
+  },
+  "contenu": [
+    {
+      "id": "3424c4c4-f805-4400-9545-1779db4c93a4",
+      "type": "description",
+      "value": {
+        "latex": "\r\nSoit $ABC$ un triangle isocèle en $A$, $A'$ et $B'$ les pieds des hauteurs issues de $A$ et $B$, $I$ le milieu de $[CB']$ et $J$ le milieu de $[A'I]$. Montrer que $(BI)$ et $(AJ)$ sont orthogonales.\r\n\r\n\\begin{center}\r\n\\includegraphics{../images/img007114-1}\r\n\\end{center}",
+        "html": "<p>Soit <span class=\"math inline\">\\(ABC\\)</span> un triangle isocèle en\n<span class=\"math inline\">\\(A\\)</span>, <span\nclass=\"math inline\">\\(A&#39;\\)</span> et <span\nclass=\"math inline\">\\(B&#39;\\)</span> les pieds des hauteurs issues de\n<span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(I\\)</span>\nle milieu de <span class=\"math inline\">\\([CB&#39;]\\)</span> et <span\nclass=\"math inline\">\\(J\\)</span> le milieu de <span\nclass=\"math inline\">\\([A&#39;I]\\)</span>. Montrer que <span\nclass=\"math inline\">\\((BI)\\)</span> et <span\nclass=\"math inline\">\\((AJ)\\)</span> sont orthogonales.</p>\n<div class=\"center\">\n<p><img src=\"../images/img007114-1\" alt=\"image\" /></p>\n</div>\n"
+      }
+    },
+    {
+      "id": "a4f8c39b-c844-4ff6-886d-4e8ad3239635",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser une similitude.",
+        "html": "<p>Utiliser une similitude.</p>\n"
+      }
+    },
+    {
+      "id": "a8ffc58e-92ea-438d-8582-ca4fade27a7d",
+      "type": "reponse",
+      "value": {
+        "latex": "Les triangles $AA'I$ et $BB'C$ sont semblables, par une similitude d'angle $\\pi/2$. L'image de $(AJ)$ par cette similitude est $(BI)$.",
+        "html": "<p>Les triangles <span class=\"math inline\">\\(AA&#39;I\\)</span> et <span\nclass=\"math inline\">\\(BB&#39;C\\)</span> sont semblables, par une\nsimilitude d’angle <span class=\"math inline\">\\(\\pi/2\\)</span>. L’image\nde <span class=\"math inline\">\\((AJ)\\)</span> par cette similitude est\n<span class=\"math inline\">\\((BI)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(ABC\\)</span> un triangle isocèle en\n<span class=\"math inline\">\\(A\\)</span>, <span\nclass=\"math inline\">\\(A&#39;\\)</ ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "fF5x",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6319",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Solution maximale",
+    "sousChapitre": "Solution maximale",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:03.690Z"
+  },
+  "contenu": [
+    {
+      "id": "d0ac8e63-8a9a-47fe-b177-f54e6832d7bf",
+      "type": "description",
+      "value": {
+        "latex": "On construit de proche en proche\nla suite de fonctions réelles $(y_n)$ par la relation\n$$y_0(x)=1,\\quad y_n(x)=1+\\int_0^x (y_{n-1}(t))^2 dt.$$",
+        "html": "<p>On construit de proche en proche la suite de fonctions réelles <span\nclass=\"math inline\">\\((y_n)\\)</span> par la relation <span\nclass=\"math display\">\\[y_0(x)=1,\\quad y_n(x)=1+\\int_0^x (y_{n-1}(t))^2\ndt.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "37ec181e-e651-4b48-97c3-075aa286ac3d",
+      "type": "question",
+      "value": {
+        "latex": "On suppose d'abord $x\\in [0,1[$. Montrer que la suite $(y_n)$ est croissante\n et majorée par\n${1\\over 1-x}$. En déduire que \n$y_n$ tend, quand $n\\to\\infty$, vers une limite qui est la solution\nde l'équation différentielle $y'=y^2$ valant $1$ en $0$.",
+        "html": "<p>On suppose d’abord <span class=\"math inline\">\\(x\\in [0,1[\\)</span>.\nMontrer que la suite <span class=\"math inline\">\\((y_n)\\)</span> est\ncroissante et majorée par <span class=\"math inline\">\\({1\\over\n1-x}\\)</span>. En déduire que <span class=\"math inline\">\\(y_n\\)</span>\ntend, quand <span class=\"math inline\">\\(n\\to\\infty\\)</span>, vers une\nlimite qui est la solution de l’équation différentielle <span\nclass=\"math inline\">\\(y&#39;=y^2\\)</span> valant <span\nclass=\"math inline\">\\(1\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8b9e7897-6933-46ab-a778-efc7bfe7bfda",
+      "type": "question",
+      "value": {
+        "latex": "Si $-1<x\\leq0$,  \nmontrer que $(y_{2n})$ et $(y_{2n+1})$ sont des suites adjacentes, telles que,\npour\n$n\\geq1$,\n${1\\over 1-x}\\leq y_{2n}\\leq1$ et $1+x\\leq y_{2n+1}\\leq {1\\over 1-x}$; retrouver\nla solution de l'équation sur\n$]-1,1[$ valant $1$ en $0$.",
+        "html": "<p>Si <span class=\"math inline\">\\(-1&lt;x\\leq0\\)</span>, montrer que\n<span class=\"math inline\">\\((y_{2n})\\)</span> et <span\nclass=\"math inline\">\\((y_{2n+1})\\)</span> sont des suites adjacentes,\ntelles que, pour <span class=\"math inline\">\\(n\\geq1\\)</span>, <span\nclass=\"math inline\">\\({1\\over 1-x}\\leq y_{2n}\\leq1\\)</span> et <span\nclass=\"math inline\">\\(1+x\\leq y_{2n+1}\\leq {1\\over 1-x}\\)</span>;\nretrouver la solution de l’équation sur <span\nclass=\"math inline\">\\(]-1,1[\\)</span> valant <span\nclass=\"math inline\">\\(1\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On construit de proche en proche la suite de fonctions réelles <span\nclass=\"math inline\">\\((y_n)\\)</span> par la relation <span\nclass=\"math display ..."
+}

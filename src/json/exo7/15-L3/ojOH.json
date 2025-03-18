@@ -1,0 +1,53 @@
+{
+  "uuid": "ojOH",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6127",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Dualité, topologie faible",
+    "sousChapitre": "Dualité, topologie faible",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:00.115Z"
+  },
+  "contenu": [
+    {
+      "id": "3ad49300-e84b-4737-bb2d-0a50124259e3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a,b\\in E$ evn, $B_1=\\{x\\in E/ \\Vert x-a\\Vert=\\Vert x-b\\Vert={1\\over2}\\Vert\na-b\\Vert\\}$, et pour $n>1$,  $B_n=\\{x\\in B_{n-1}/ \\Vert x-y\\Vert\\leq\n{1\\over2}\\delta(B_{n-1}),\\\n\\forall y\\in B_{n-1}\\}$, où $\\delta(B)$ désigne le diamètre de l'ensemble $B$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a,b\\in E\\)</span> evn, <span\nclass=\"math inline\">\\(B_1=\\{x\\in E/ \\Vert x-a\\Vert=\\Vert\nx-b\\Vert={1\\over2}\\Vert\na-b\\Vert\\}\\)</span>, et pour <span\nclass=\"math inline\">\\(n&gt;1\\)</span>, <span\nclass=\"math inline\">\\(B_n=\\{x\\in B_{n-1}/ \\Vert x-y\\Vert\\leq\n{1\\over2}\\delta(B_{n-1}),\\\n\\forall y\\in B_{n-1}\\}\\)</span>, où <span\nclass=\"math inline\">\\(\\delta(B)\\)</span> désigne le diamètre de\nl’ensemble <span class=\"math inline\">\\(B\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "769ef906-9dd4-4a2c-bfc2-aaa8ac5dc12f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\delta(B_{n})\\leq {1\\over2}\\delta(B_{n-1})$, et que $\\bigcap_n\nB_n=\\{{{a+b}\\over2}\\}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\delta(B_{n})\\leq\n{1\\over2}\\delta(B_{n-1})\\)</span>, et que <span\nclass=\"math inline\">\\(\\bigcap_n\nB_n=\\{{{a+b}\\over2}\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a7ec95fc-1b5b-4911-87a3-9dc4c6c6c123",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ une isométrie de $E$ {\\it sur} $F$ evn, telle que $f(0)=0$.\nMontrer en considérant la suite $(f(B_n))$ que pour tous $a,b\\in E$,\n$$f({{a+b}\\over2})={{f(a)+f(b)}\\over2}.$$\nEn déduire que $f$ est une isométrie linéaire. Que peut-on dire plus\ngénéralement d'une isométrie $f$ de $E$ sur $F$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une isométrie de <span\nclass=\"math inline\">\\(E\\)</span> <span><em>sur</em></span> <span\nclass=\"math inline\">\\(F\\)</span> evn, telle que <span\nclass=\"math inline\">\\(f(0)=0\\)</span>. Montrer en considérant la suite\n<span class=\"math inline\">\\((f(B_n))\\)</span> que pour tous <span\nclass=\"math inline\">\\(a,b\\in E\\)</span>, <span\nclass=\"math display\">\\[f({{a+b}\\over2})={{f(a)+f(b)}\\over2}.\\]</span> En\ndéduire que <span class=\"math inline\">\\(f\\)</span> est une isométrie\nlinéaire. Que peut-on dire plus généralement d’une isométrie <span\nclass=\"math inline\">\\(f\\)</span> de <span\nclass=\"math inline\">\\(E\\)</span> sur <span\nclass=\"math inline\">\\(F\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8320cb50-47da-40bb-ac9f-7609e38bfa79",
+      "type": "question",
+      "value": {
+        "latex": "On note $l^\\infty_n$ l'espace $\\Rr^n$ muni de la norme\n$\\sup_{1\\leq i\\leq n}\\vert x_i\\vert$, et on considère l'application $f:\nl^\\infty_n\\to l^\\infty_{n+1}$ définie par\n$f(x_1,\\cdots,x_n)=(x_1,\\cdots,x_n,\\sin x_1)$. Vérifier que $f$ est une\nisométrie non linéaire entre evn; pourquoi n'a-t-on pas de contra\\-diction avec\nce qui précède ?",
+        "html": "<p>On note <span class=\"math inline\">\\(l^\\infty_n\\)</span> l’espace\n<span class=\"math inline\">\\(\\Rr^n\\)</span> muni de la norme <span\nclass=\"math inline\">\\(\\sup_{1\\leq i\\leq n}\\vert x_i\\vert\\)</span>, et on\nconsidère l’application <span class=\"math inline\">\\(f:\nl^\\infty_n\\to l^\\infty_{n+1}\\)</span> définie par <span\nclass=\"math inline\">\\(f(x_1,\\cdots,x_n)=(x_1,\\cdots,x_n,\\sin\nx_1)\\)</span>. Vérifier que <span class=\"math inline\">\\(f\\)</span> est\nune isométrie non linéaire entre evn; pourquoi n’a-t-on pas de\ncontradiction avec ce qui précède ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a,b\\in E\\)</span> evn, <span\nclass=\"math inline\"> ..."
+}

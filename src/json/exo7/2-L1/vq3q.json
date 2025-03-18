@@ -1,0 +1,37 @@
+{
+  "uuid": "vq3q",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5706",
+    "auteur": "rouget",
+    "createdAt": "2010-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:08.637Z"
+  },
+  "contenu": [
+    {
+      "id": "f0b42b02-ba3c-4e8d-9d8e-753928017ed8",
+      "type": "description",
+      "value": {
+        "latex": "Nature de la série de terme général $u_n=\\sum_{k=1}^{n}\\frac{1}{(n+k)^p}$, $p\\in]0,+\\infty[$.",
+        "html": "<p>Nature de la série de terme général <span\nclass=\"math inline\">\\(u_n=\\sum_{k=1}^{n}\\frac{1}{(n+k)^p}\\)</span>,\n<span class=\"math inline\">\\(p\\in]0,+\\infty[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "494f0e03-ac2a-4b1c-aa03-4516163b2514",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout entier naturel non nul $n$, $0<\\frac{1}{2^pn^{p-1}}=\\sum_{k=1}^{n}\\frac{1}{(2n)^p}\\leqslant\\sum_{k=1}^{n}\\frac{1}{(n+k)^p}\\leqslant\\sum_{k=1}^{n}\\frac{1}{n^p}=\\frac{1}{n^{p-1}}$ et la série de terme général $u_n$ converge si et seulement si $p > 2$.",
+        "html": "<p>Pour tout entier naturel non nul <span\nclass=\"math inline\">\\(n\\)</span>, <span\nclass=\"math inline\">\\(0&lt;\\frac{1}{2^pn^{p-1}}=\\sum_{k=1}^{n}\\frac{1}{(2n)^p}\\leqslant\\sum_{k=1}^{n}\\frac{1}{(n+k)^p}\\leqslant\\sum_{k=1}^{n}\\frac{1}{n^p}=\\frac{1}{n^{p-1}}\\)</span>\net la série de terme général <span class=\"math inline\">\\(u_n\\)</span>\nconverge si et seulement si <span class=\"math inline\">\\(p &gt;\n2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Nature de la série de terme général <span\nclass=\"math inline\">\\(u_n=\\sum_{k=1}^{n}\\frac{1}{(n+k)^p}\\)</span>,\n<span class=\"math inline\"> ..."
+}

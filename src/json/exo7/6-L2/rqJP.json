@@ -1,0 +1,53 @@
+{
+  "uuid": "rqJP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4927",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Conique",
+    "sousChapitre": "Quadrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:16.351Z"
+  },
+  "contenu": [
+    {
+      "id": "36e024a3-9185-4c15-9b28-5272b6bed116",
+      "type": "description",
+      "value": {
+        "latex": "Soit ${\\cal S}$ une quadrique d'équation $f(x,y,z) = 0$. On note $q$ la forme\nquadratique associée à $f$.",
+        "html": "<p>Soit <span class=\"math inline\">\\({\\cal S}\\)</span> une quadrique\nd’équation <span class=\"math inline\">\\(f(x,y,z) = 0\\)</span>. On note\n<span class=\"math inline\">\\(q\\)</span> la forme quadratique associée à\n<span class=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b65fcc66-4142-4c5a-8857-3fbd44d49b25",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout point $A$ et tout vecteur $\\vec h$, on a :\n    $f(A+\\vec h) = f(A) + (\\vec{\\nabla f}(A)\\mid \\vec h) + q(\\vec h)$.",
+        "html": "<p>Montrer que, pour tout point <span class=\"math inline\">\\(A\\)</span>\net tout vecteur <span class=\"math inline\">\\(\\vec h\\)</span>, on a :\n<span class=\"math inline\">\\(f(A+\\vec h) = f(A) + (\\vec{\\nabla f}(A)\\mid\n\\vec h) + q(\\vec h)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "07f000bf-0fc7-4235-955a-bac7b7f70e96",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que ${\\cal S}$ n'est pas incluse dans un plan.\n    Montrer qu'un point $\\Omega$ est centre de symétrie de ${\\cal S}$\n    si et seulement si $\\vec{\\nabla f}(\\Omega) = \\vec 0$.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\({\\cal S}\\)</span> n’est\npas incluse dans un plan. Montrer qu’un point <span\nclass=\"math inline\">\\(\\Omega\\)</span> est centre de symétrie de <span\nclass=\"math inline\">\\({\\cal S}\\)</span> si et seulement si <span\nclass=\"math inline\">\\(\\vec{\\nabla f}(\\Omega) = \\vec 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cb34b5d2-a857-4452-bf01-e087395401e6",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que si $0$ n'est pas valeur propre de la matrice de $q$,\n    alors ${\\cal S}$ admet un centre unique.",
+        "html": "<p>En déduire que si <span class=\"math inline\">\\(0\\)</span> n’est pas\nvaleur propre de la matrice de <span class=\"math inline\">\\(q\\)</span>,\nalors <span class=\"math inline\">\\({\\cal S}\\)</span> admet un centre\nunique.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\({\\cal S}\\)</span> une quadrique\nd’équation <span class=\"math inline\">\\(f(x,y,z) = 0\\)</span>. On note\n<span class= ..."
+}

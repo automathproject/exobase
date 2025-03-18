@@ -1,0 +1,37 @@
+{
+  "uuid": "Updx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4895",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine dans le plan et dans l'espace",
+    "sousChapitre": "Propriétés des triangles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:26.701Z"
+  },
+  "contenu": [
+    {
+      "id": "59266664-f7eb-4f78-97c3-7e1ec77732a6",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A,B,C$ trois points non alignés et $M_1 \\in (AB)$.\nOn construit les points $M_2,M_3,M_4$ de la manière suivante~:\n\n-- $M_2$ est le projeté de $M_1$ sur $(BC)$ parallèlement à $(AC)$.\\par\n-- $M_3$ est le projeté de $M_2$ sur $(AC)$ parallèlement à $(AB)$.\\par\n-- $M_4$ est le projeté de $M_3$ sur $(AB)$ parallèlement à $(BC)$.\\par\n\nOn recommence ensuite les mêmes constructions à partir de $M_4$, ce qui\ndonne les points $M_5, M_6, M_7$.\n\nMontrer que $M_7 = M_1$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A,B,C\\)</span> trois points non\nalignés et <span class=\"math inline\">\\(M_1 \\in (AB)\\)</span>. On\nconstruit les points <span class=\"math inline\">\\(M_2,M_3,M_4\\)</span> de\nla manière suivante :</p>\n<p>– <span class=\"math inline\">\\(M_2\\)</span> est le projeté de <span\nclass=\"math inline\">\\(M_1\\)</span> sur <span\nclass=\"math inline\">\\((BC)\\)</span> parallèlement à <span\nclass=\"math inline\">\\((AC)\\)</span>.</p>\n<p>– <span class=\"math inline\">\\(M_3\\)</span> est le projeté de <span\nclass=\"math inline\">\\(M_2\\)</span> sur <span\nclass=\"math inline\">\\((AC)\\)</span> parallèlement à <span\nclass=\"math inline\">\\((AB)\\)</span>.</p>\n<p>– <span class=\"math inline\">\\(M_4\\)</span> est le projeté de <span\nclass=\"math inline\">\\(M_3\\)</span> sur <span\nclass=\"math inline\">\\((AB)\\)</span> parallèlement à <span\nclass=\"math inline\">\\((BC)\\)</span>.</p>\n<p>On recommence ensuite les mêmes constructions à partir de <span\nclass=\"math inline\">\\(M_4\\)</span>, ce qui donne les points <span\nclass=\"math inline\">\\(M_5, M_6, M_7\\)</span>.</p>\n<p>Montrer que <span class=\"math inline\">\\(M_7 = M_1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3de7a51a-9e1d-499b-88eb-91a1b0c3fd48",
+      "type": "reponse",
+      "value": {
+        "latex": "$M_1 \\mapsto M_4$ est affine, et échange $A$ et $B$. $\\Rightarrow$ involutive.",
+        "html": "<p><span class=\"math inline\">\\(M_1 \\mapsto M_4\\)</span> est affine, et\néchange <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span>. <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> involutive.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A,B,C\\)</span> trois points non\nalignés et <span class=\"math inline\">\\(M_1 \\in (AB)\\)</span>. On\nconstruit les p ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "a8Uf",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6807",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:48.303Z"
+  },
+  "contenu": [
+    {
+      "id": "0b73b2d8-9e8b-49f2-bdec-500fd5dbcb8f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel normé sur $\\Cc$. On\ndésigne par $\\overline B = \\{x\\in E \\mid \\Vert x\\Vert\n\\le1\\}$ la boule fermée de centre $0$ et de rayon $1$.\n\nSoit $F\\subset E$ un sous-espace vectoriel {\\bf fermé}\nde $E$. Pour $x\\in E$ on pose~:\n$$\nd(x,F) = \\inf_{y\\in F} \\Vert\\, x-y\\,\\Vert \\equiv \\inf \\{\\,\n\\Vert\\, x-y\\, \\Vert \\mid y\\in F\\,\\}\n\\ .\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel normé\nsur <span class=\"math inline\">\\(\\Cc\\)</span>. On désigne par <span\nclass=\"math inline\">\\(\\overline B = \\{x\\in E \\mid \\Vert x\\Vert\n\\le1\\}\\)</span> la boule fermée de centre <span\nclass=\"math inline\">\\(0\\)</span> et de rayon <span\nclass=\"math inline\">\\(1\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\(F\\subset E\\)</span> un sous-espace\nvectoriel <span><strong>fermé</strong></span> de <span\nclass=\"math inline\">\\(E\\)</span>. Pour <span class=\"math inline\">\\(x\\in\nE\\)</span> on pose : <span class=\"math display\">\\[d(x,F) = \\inf_{y\\in F}\n\\Vert\\, x-y\\,\\Vert \\equiv \\inf \\{\\,\n\\Vert\\, x-y\\, \\Vert \\mid y\\in F\\,\\}\n\\ .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3389d552-9a57-450f-ab9e-f6b7f07f1490",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $x\\in E$ on a $0\\le d(x,F) \\le\n\\Vert x\\Vert$.",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(x\\in E\\)</span> on\na <span class=\"math inline\">\\(0\\le d(x,F) \\le\n\\Vert x\\Vert\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1088fe4a-0bb1-4c01-a4ad-9f9c1812b306",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les deux conditions suivantes sont\néquivalentes. \n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "d55aa79e-9832-4814-be4a-d624b0eb218a",
+      "type": "question",
+      "value": {
+        "latex": "$d(x,F) = 0$;",
+        "html": "<p><span class=\"math inline\">\\(d(x,F) = 0\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "faaed36c-a75d-4f6d-94d0-36224315567c",
+      "type": "question",
+      "value": {
+        "latex": "$x\\in F$.",
+        "html": "<p><span class=\"math inline\">\\(x\\in F\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel normé\nsur <span class=\"math inline\">\\(\\Cc\\)</span>. On désigne par <span\nclass=\"mat ..."
+}

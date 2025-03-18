@@ -1,0 +1,45 @@
+{
+  "uuid": "Yn9C",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6332",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème de Cauchy-Lipschitz",
+    "sousChapitre": "Théorème de Cauchy-Lipschitz",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:02.332Z"
+  },
+  "contenu": [
+    {
+      "id": "c9dc82c6-9f5c-4ea7-9071-e0004e061f82",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une application\n$K$-lipschitzienne sur un ouvert $U\\subset \\Rr^n$. On va démon\\-trer que\nle flot de solutions de $x'=f(x)$, supposé défini sur un\nintervalle $[t_0,t_1]$, dépend continument de la condition initiale $\nx(t_0)=x_0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une application <span\nclass=\"math inline\">\\(K\\)</span>-lipschitzienne sur un ouvert <span\nclass=\"math inline\">\\(U\\subset \\Rr^n\\)</span>. On va démontrer que le\nflot de solutions de <span class=\"math inline\">\\(x&#39;=f(x)\\)</span>,\nsupposé défini sur un intervalle <span\nclass=\"math inline\">\\([t_0,t_1]\\)</span>, dépend continument de la\ncondition initiale <span class=\"math inline\">\\(x(t_0)=x_0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5dc3ca94-6c90-4a43-9645-788805f695b8",
+      "type": "question",
+      "value": {
+        "latex": "Soit $x_1,\\ x_2$ deux telles solutions; montrer que si $t\\in[t_0,t_1]$, \n$$||x_1(t)-x_2(t)||\\leq ||x_1(t_0)-x_2(t_0)||e^{K(t-t_0)}$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(x_1,\\ x_2\\)</span> deux telles\nsolutions; montrer que si <span\nclass=\"math inline\">\\(t\\in[t_0,t_1]\\)</span>, <span\nclass=\"math display\">\\[||x_1(t)-x_2(t)||\\leq\n||x_1(t_0)-x_2(t_0)||e^{K(t-t_0)}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "bfe8c776-ef0b-4dad-bfb0-d61df6602c09",
+      "type": "question",
+      "value": {
+        "latex": "En déduire le résultat et le vérifier sur l'exemple : $x'=x^2$ sur $\\Rr$.",
+        "html": "<p>En déduire le résultat et le vérifier sur l’exemple : <span\nclass=\"math inline\">\\(x&#39;=x^2\\)</span> sur <span\nclass=\"math inline\">\\(\\Rr\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une application <span\nclass=\"math inline\">\\(K\\)</span>-lipschitzienne sur un ouvert <span\nclass=\"math i ..."
+}

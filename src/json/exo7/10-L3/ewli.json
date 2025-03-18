@@ -1,0 +1,61 @@
+{
+  "uuid": "ewli",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6518",
+    "auteur": "drutu",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:05.257Z"
+  },
+  "contenu": [
+    {
+      "id": "a2505e6a-7823-4c21-9096-1ff3860f2ce6",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ un anneau commutatif et soit \n$$\nNil\\; (A):=\\{a\\in A \\mid \\exists n\\in N,\\; a^n=0 \\}\\; .\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau commutatif et\nsoit <span class=\"math display\">\\[Nil\\; (A):=\\{a\\in A \\mid \\exists n\\in\nN,\\; a^n=0 \\}\\; .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "ea447a56-d207-4ccb-8e13-2b8650cbbb16",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $Nil\\; (A)$ est un idéal de $A$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(Nil\\; (A)\\)</span> est un\nidéal de <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "63d1628c-14f2-447a-8d3e-469945c8e187",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $P$ est un idéal premier de $A$, alors $Nil\\; (A)\\subset P$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(P\\)</span> est un idéal\npremier de <span class=\"math inline\">\\(A\\)</span>, alors <span\nclass=\"math inline\">\\(Nil\\; (A)\\subset P\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "58fd8162-f441-4c7e-9c4e-216c104799e3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $x\\not\\in Nil\\; (A)$ il existe un idéal premier $P$ \ntel que $x\\not\\in P$ ({\\it Indication}: Utiliser le théorème de Zorn).",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(x\\not\\in Nil\\;\n(A)\\)</span> il existe un idéal premier <span\nclass=\"math inline\">\\(P\\)</span> tel que <span\nclass=\"math inline\">\\(x\\not\\in P\\)</span>\n(<span><em>Indication</em></span>: Utiliser le théorème de Zorn).</p>\n"
+      }
+    },
+    {
+      "id": "bb73a119-9456-476f-b114-a3a5a7a31dba",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que \n$$\nNil\\; (A)=\\bigcap_{P\\mbox{ premier }}P\\; .\n$$",
+        "html": "<p>En déduire que <span class=\"math display\">\\[Nil\\;\n(A)=\\bigcap_{P\\mbox{ premier }}P\\; .\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau commutatif et\nsoit <span class=\"math display\"> ..."
+}

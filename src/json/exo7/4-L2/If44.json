@@ -1,0 +1,53 @@
+{
+  "uuid": "If44",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3665",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Produit scalaire, norme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:17.815Z"
+  },
+  "contenu": [
+    {
+      "id": "81192972-ce32-466c-9983-91551ba7d434",
+      "type": "description",
+      "value": {
+        "latex": "On munit $E = \\R_n[X]$ du produit scalaire :\nPour $P = \\sum_i a_iX^i$ et $Q = \\sum_i b_iX^i$,\n$(P\\mid Q) = \\sum_i a_ib_i$.\n\nSoit $H = \\{ P \\in E \\text{ tq } P(1) = 0 \\}$.",
+        "html": "<p>On munit <span class=\"math inline\">\\(E = \\R_n[X]\\)</span> du produit\nscalaire : Pour <span class=\"math inline\">\\(P = \\sum_i a_iX^i\\)</span>\net <span class=\"math inline\">\\(Q = \\sum_i b_iX^i\\)</span>, <span\nclass=\"math inline\">\\((P\\mid Q) = \\sum_i a_ib_i\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\(H = \\{ P \\in E \\text{ tq } P(1) = 0\n\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e9f57b10-97b1-4d8a-bebb-3297fc32cf32",
+      "type": "question",
+      "value": {
+        "latex": "Trouver une base orthonormale de $H$.",
+        "html": "<p>Trouver une base orthonormale de <span\nclass=\"math inline\">\\(H\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "acb86088-b23c-490d-aa51-9e10ff3af72b",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $d(X,H)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(d(X,H)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c68330f6-5bd7-4603-967b-fc31d8728937",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac1{\\sqrt{n+1}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac1{\\sqrt{n+1}}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On munit <span class=\"math inline\">\\(E = \\R_n[X]\\)</span> du produit\nscalaire : Pour <span class=\"math inline\">\\(P = \\sum_i a_iX^i\\)</span>\net <spa ..."
+}

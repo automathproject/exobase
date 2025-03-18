@@ -1,0 +1,37 @@
+{
+  "uuid": "BJxY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4494",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Familles sommables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:07.992Z"
+  },
+  "contenu": [
+    {
+      "id": "4df9428d-a91d-440e-820c-19a4b67c6613",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que pour $x\\in\\C$, $|x|<1$, on a l'égalité :\n$\\sum_{n=0}^{+\\infty}\\frac{x^{2n+1}}{1-x^{2n+1}}=\n\\sum_{n=1}^{+\\infty}\\frac{x^{n}}{1-x^{2n}}$.",
+        "html": "<p>Montrer que pour <span class=\"math inline\">\\(x\\in\\C\\)</span>, <span\nclass=\"math inline\">\\(|x|&lt;1\\)</span>, on a l’égalité : <span\nclass=\"math inline\">\\(\\sum_{n=0}^{+\\infty}\\frac{x^{2n+1}}{1-x^{2n+1}}=\n\\sum_{n=1}^{+\\infty}\\frac{x^{n}}{1-x^{2n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "856a1691-1739-4d7a-91ac-2f52ccf169e7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{n=0}^{+\\infty}\\frac{x^{2n+1}}{1-x^{2n+1}}=\n\\sum_{(n,p)\\in\\N}^{+\\infty}x^{(p+1)(2n+1)}=\\sum_{p=0}^{+\\infty}\\frac{x^{p+1}}{1-x^{2p+2}}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\sum_{n=0}^{+\\infty}\\frac{x^{2n+1}}{1-x^{2n+1}}=\n\\sum_{(n,p)\\in\\N}^{+\\infty}x^{(p+1)(2n+1)}=\\sum_{p=0}^{+\\infty}\\frac{x^{p+1}}{1-x^{2p+2}}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que pour <span class=\"math inline\">\\(x\\in\\C\\)</span>, <span\nclass=\"math inline\">\\(|x|&lt;1\\)</span>, on a l’égalité : <span\nclass=\"math inl ..."
+}

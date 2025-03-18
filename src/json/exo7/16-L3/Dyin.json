@@ -1,0 +1,109 @@
+{
+  "uuid": "Dyin",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7602",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:25.965Z"
+  },
+  "contenu": [
+    {
+      "id": "72442834-a8f7-419e-b166-aa82b06c7a93",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "889d5396-d2b6-4a0d-92f7-40fd321b869c",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f :\\Cc\\to\\Cc$ une application holomorphe non constante. Montrer que l'image du plan complexe par $f$ \r\nrencontre tous les disques ouverts non vides $\\Delta_r(a)$ de $\\mathbb{C}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f :\\Cc\\to\\Cc\\)</span> une\napplication holomorphe non constante. Montrer que l’image du plan\ncomplexe par <span class=\"math inline\">\\(f\\)</span> rencontre tous les\ndisques ouverts non vides <span\nclass=\"math inline\">\\(\\Delta_r(a)\\)</span> de <span\nclass=\"math inline\">\\(\\mathbb{C}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "70706f5f-73ad-495c-a6bf-7024385982f9",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\Delta_r(a)$ le disque de centre $a\\in\\Cc$ et de rayon $r>0$. Supposons que $Im(f)$ ne rencontre pas $\\Delta_r(a)$.\r\nAlors,\r\n$$\\forall z\\in\\Cc,\\ \\ \\ |f(z)-a|\\geq r.$$\r\nL'application $\\Cc\\to\\Cc, z\\mapsto\\frac{1}{f(z)-a}$ est alors bien définie, \r\nholomorphe sur $\\Cc$ et majorée en module par $\\frac{1}{r}$.\r\nPar le théorème de Liouville, elle est donc constante.\r\nPuisque $w\\mapsto \\frac{1}{w-a}$ est injective sur $\\Cc-\\{a\\}$, en déduit que $f$ est constante.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\Delta_r(a)\\)</span> le disque de\ncentre <span class=\"math inline\">\\(a\\in\\Cc\\)</span> et de rayon <span\nclass=\"math inline\">\\(r&gt;0\\)</span>. Supposons que <span\nclass=\"math inline\">\\(Im(f)\\)</span> ne rencontre pas <span\nclass=\"math inline\">\\(\\Delta_r(a)\\)</span>. Alors, <span\nclass=\"math display\">\\[\\forall z\\in\\Cc,\\ \\ \\ |f(z)-a|\\geq r.\\]</span>\nL’application <span class=\"math inline\">\\(\\Cc\\to\\Cc,\nz\\mapsto\\frac{1}{f(z)-a}\\)</span> est alors bien définie, holomorphe sur\n<span class=\"math inline\">\\(\\Cc\\)</span> et majorée en module par <span\nclass=\"math inline\">\\(\\frac{1}{r}\\)</span>. Par le théorème de\nLiouville, elle est donc constante. Puisque <span\nclass=\"math inline\">\\(w\\mapsto \\frac{1}{w-a}\\)</span> est injective sur\n<span class=\"math inline\">\\(\\Cc-\\{a\\}\\)</span>, en déduit que <span\nclass=\"math inline\">\\(f\\)</span> est constante.</p>\n"
+      }
+    },
+    {
+      "id": "d4f61a39-57e3-4970-8a38-e33b33ba5f63",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que toute application holomorphe de $\\Cc$ dans $\\mathbb{H}$ est constante.",
+        "html": "<p>En déduire que toute application holomorphe de <span\nclass=\"math inline\">\\(\\Cc\\)</span> dans <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span> est constante.</p>\n"
+      }
+    },
+    {
+      "id": "7a602fba-b53b-4e5e-95f3-3b781d78963b",
+      "type": "reponse",
+      "value": {
+        "latex": "Une telle application entière ne rencontre par le disque $\\Delta_1(-2i)$ : elle est donc constante,\r\nd'après la question précédente.",
+        "html": "<p>Une telle application entière ne rencontre par le disque <span\nclass=\"math inline\">\\(\\Delta_1(-2i)\\)</span> : elle est donc constante,\nd’après la question précédente.</p>\n"
+      }
+    },
+    {
+      "id": "4732d2b8-60ec-4ce2-834b-1127c6b49d56",
+      "type": "question",
+      "value": {
+        "latex": "On considère $$\\begin{array}{cccc}\r\n h :& \\Cc-\\{-i\\}&\\longrightarrow&\\Cc \\\\&z&\\longmapsto& \\frac{z-i}{z+i}.\r\n\\end{array}$$\r\nMontrer que \r\n$\r\n \\forall z\\in\\Cc-\\{-i\\}, \\ \\ \\ 1-|h(z)|^2=\\frac{4 Im(z)}{|z+i|^2}.\r\n$",
+        "html": "<p>On considère <span class=\"math display\">\\[\\begin{array}{cccc}\nh :&amp; \\Cc-\\{-i\\}&amp;\\longrightarrow&amp;\\Cc\n\\\\&amp;z&amp;\\longmapsto&amp; \\frac{z-i}{z+i}.\n\\end{array}\\]</span> Montrer que <span class=\"math inline\">\\(\\forall\nz\\in\\Cc-\\{-i\\}, \\ \\ \\ 1-|h(z)|^2=\\frac{4 Im(z)}{|z+i|^2}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e0ae7410-48e2-4ab7-9ce2-d69438840da7",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z\\in\\Cc-\\{-i\\}$,\r\n\\begin{eqnarray*}\r\n 1-|h(z)|^2&=& 1-\\frac{z-i}{z+i}\\frac{\\overline{z}+i}{\\overline{z+i}}\r\n = 1-\\frac{|z|^2+i(z-\\overline{z})+1}{|z+i|^2}\\\\&=&1-\\frac{|z|^2-i(z-\\overline{z})+1+2i(z-\\overline{z})}{|z+i|^2}\r\n= \\frac{4 Im(z)}{|z+i|^2}.\r\n\\end{eqnarray*}",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\in\\Cc-\\{-i\\}\\)</span>, <span\nclass=\"math display\">\\[\\begin{aligned}\n1-|h(z)|^2&amp;=&amp;\n1-\\frac{z-i}{z+i}\\frac{\\overline{z}+i}{\\overline{z+i}}\n=\n1-\\frac{|z|^2+i(z-\\overline{z})+1}{|z+i|^2}\\\\&amp;=&amp;1-\\frac{|z|^2-i(z-\\overline{z})+1+2i(z-\\overline{z})}{|z+i|^2}\n= \\frac{4 Im(z)}{|z+i|^2}.\n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "59fe1d7d-80b1-4fa6-80bb-3075964e02fe",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que l'image du demi-plan de Poincaré $\\mathbb{H}$ par $h$ est une partie bornée de $\\Cc$.",
+        "html": "<p>En déduire que l’image du demi-plan de Poincaré <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span> par <span\nclass=\"math inline\">\\(h\\)</span> est une partie bornée de <span\nclass=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "50637fa8-821c-4aa5-bc0f-005e2c114610",
+      "type": "reponse",
+      "value": {
+        "latex": "Sur $\\mathbb{H}$, $Im(z)>0$ et donc $|h(z)|<1$. L'image du demi-plan $\\mathbb{H}$ par l'application $h$ est donc\r\nincluse dans le disque unité $\\Delta$ ; c'est donc une partie bornée de~$\\Cc$.",
+        "html": "<p>Sur <span class=\"math inline\">\\(\\mathbb{H}\\)</span>, <span\nclass=\"math inline\">\\(Im(z)&gt;0\\)</span> et donc <span\nclass=\"math inline\">\\(|h(z)|&lt;1\\)</span>. L’image du demi-plan <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span> par l’application <span\nclass=\"math inline\">\\(h\\)</span> est donc incluse dans le disque unité\n<span class=\"math inline\">\\(\\Delta\\)</span> ; c’est donc une partie\nbornée de <span class=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cb71594e-ed5f-49ea-9727-c54e3551f8b8",
+      "type": "question",
+      "value": {
+        "latex": "En déduire par une nouvelle démonstration que toute application holomorphe de $\\Cc$ dans $\\mathbb{H}$ est constante.",
+        "html": "<p>En déduire par une nouvelle démonstration que toute application\nholomorphe de <span class=\"math inline\">\\(\\Cc\\)</span> dans <span\nclass=\"math inline\">\\(\\mathbb{H}\\)</span> est constante.</p>\n"
+      }
+    },
+    {
+      "id": "7018258f-74a5-42fe-9991-93f077de56a7",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f :\\Cc\\to\\mathbb{H}$ une application holomorphe.\r\nPar composition, $h\\circ f :\\Cc\\to \\Cc$ est une application holomorphe dont l'image est bornée.\r\nPar le théorème de Liouville, elle est donc constante. Comme $h$ est injective, on en déduit que $f$ est constante.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f :\\Cc\\to\\mathbb{H}\\)</span> une\napplication holomorphe. Par composition, <span\nclass=\"math inline\">\\(h\\circ f :\\Cc\\to \\Cc\\)</span> est une application\nholomorphe dont l’image est bornée. Par le théorème de Liouville, elle\nest donc constante. Comme <span class=\"math inline\">\\(h\\)</span> est\ninjective, on en déduit que <span class=\"math inline\">\\(f\\)</span> est\nconstante.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f :\\Cc\\to\\Cc\\)</span> une\napplication holomorphe non constante. Montrer que l’image du plan\ncomplexe par <span cla ..."
+}

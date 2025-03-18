@@ -1,0 +1,69 @@
+{
+  "uuid": "HMcb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2400",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace métrique complet, espace de Banach",
+    "sousChapitre": "Espace métrique complet, espace de Banach",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:33.805Z"
+  },
+  "contenu": [
+    {
+      "id": "f9fb1501-96a7-4f98-ab01-210af93293c6",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel norm\\'e. On dit qu'une s\\'erie $\\sum u_k$ est normalement convergente\nsi la s\\'erie $\\sum \\| u_k \\|$ est convergente. On veut d\\'emontrer que $E$ est complet si et seulement\nsi toute s\\'erie normalement convergente est convergente.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnormé. On dit qu’une série <span class=\"math inline\">\\(\\sum u_k\\)</span>\nest normalement convergente si la série <span class=\"math inline\">\\(\\sum\n\\| u_k \\|\\)</span> est convergente. On veut démontrer que <span\nclass=\"math inline\">\\(E\\)</span> est complet si et seulement si toute\nsérie normalement convergente est convergente.</p>\n"
+      }
+    },
+    {
+      "id": "a23bfe9b-1e18-4a9e-be3e-defdced2baee",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(x_n)$ une suite de Cauchy de $E$; montrer qu'on peut en extraire une sous-suite\n$(x_{n_k})$ telle que la s\\'erie de terme g\\'en\\'eral $u_k = x_{n_{k+1}} - x_{n_k}$ \nsoit normalement convergente.\nEn d\\'eduire que si toute s\\'erie normalement convergente est convergente, alors $E$ est complet.",
+        "html": "<p>Soit <span class=\"math inline\">\\((x_n)\\)</span> une suite de Cauchy\nde <span class=\"math inline\">\\(E\\)</span>; montrer qu’on peut en\nextraire une sous-suite <span class=\"math inline\">\\((x_{n_k})\\)</span>\ntelle que la série de terme général <span class=\"math inline\">\\(u_k =\nx_{n_{k+1}} - x_{n_k}\\)</span> soit normalement convergente. En déduire\nque si toute série normalement convergente est convergente, alors <span\nclass=\"math inline\">\\(E\\)</span> est complet.</p>\n"
+      }
+    },
+    {
+      "id": "86c93ddf-5201-42df-8cca-2d6e1fc01476",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $(x_n)$ une suite de Cauchy. \nPour $\\epsilon = 1$ il existe $n_0\\in \\Nn$ tel que\n$$\\forall q \\ge n_0 \\qquad \\| x_{n_0}-x_q \\| < 1.$$\nPuis pour $\\epsilon = \\frac 12$ il existe $n_1 > n_0$ tel que\n$$\\forall q \\ge n_1 \\qquad \\| x_{n_1}-x_q \\| < \\frac 12.$$\nPuis par récurrence pour $\\epsilon = \\frac 1{2^k}$, on pose\n$n_k > n_{k-1}$ tel que \n$$\\forall q \\ge n_k \\qquad \\| x_{n_k}-x_q \\| < \\frac 1{2^k}.$$\n\nDonc en particulier à chaque étape on a\n$$\\| x_{n_{k+1}}-x_{n_k} \\| < \\frac 1 {2^k}.$$\nPosons $u_k = x_{n_{k+1}} - x_{n_k}$ \nAlors $\\|u_k\\| \\le \\frac 1 {2^k}$ donc\n$$\\sum_{k\\ge 0} \\| u_k \\| \\le \\sum_{k\\ge 0} \\frac 1 {2^k} = 2.$$\nDonc la série $\\sum_{k\\ge 0} u_k$ est normalement convergente.\nSi cette série converge notons $T=\\sum_{k= 0}^{+\\infty} u_k$ sa somme,\nC'est-à-dire la limite de $T_N = \\sum_{k= 0}^{N} u_k$. \nMais alors $T_N = x_{n_{N+1}}-x_{n_0}$ converge vers $T$.\nDonc la suite extraite $(x_{n_k})_k$ converge (vers $T+x_{n_0}$).\nConséquence : si toute s\\'erie normalement convergente est convergente, alors on peut extraire de toute suite de Cauchy une sous-suite convergente donc $E$ est complet.",
+        "html": "<p>Soit <span class=\"math inline\">\\((x_n)\\)</span> une suite de Cauchy.\nPour <span class=\"math inline\">\\(\\epsilon = 1\\)</span> il existe <span\nclass=\"math inline\">\\(n_0\\in \\Nn\\)</span> tel que <span\nclass=\"math display\">\\[\\forall q \\ge n_0 \\qquad \\| x_{n_0}-x_q \\| &lt;\n1.\\]</span> Puis pour <span class=\"math inline\">\\(\\epsilon = \\frac\n12\\)</span> il existe <span class=\"math inline\">\\(n_1 &gt; n_0\\)</span>\ntel que <span class=\"math display\">\\[\\forall q \\ge n_1 \\qquad \\|\nx_{n_1}-x_q \\| &lt; \\frac 12.\\]</span> Puis par récurrence pour <span\nclass=\"math inline\">\\(\\epsilon = \\frac 1{2^k}\\)</span>, on pose <span\nclass=\"math inline\">\\(n_k &gt; n_{k-1}\\)</span> tel que <span\nclass=\"math display\">\\[\\forall q \\ge n_k \\qquad \\| x_{n_k}-x_q \\| &lt;\n\\frac 1{2^k}.\\]</span></p>\n<p>Donc en particulier à chaque étape on a <span\nclass=\"math display\">\\[\\| x_{n_{k+1}}-x_{n_k} \\| &lt; \\frac 1\n{2^k}.\\]</span> Posons <span class=\"math inline\">\\(u_k = x_{n_{k+1}} -\nx_{n_k}\\)</span> Alors <span class=\"math inline\">\\(\\|u_k\\| \\le \\frac 1\n{2^k}\\)</span> donc <span class=\"math display\">\\[\\sum_{k\\ge 0} \\| u_k \\|\n\\le \\sum_{k\\ge 0} \\frac 1 {2^k} = 2.\\]</span> Donc la série <span\nclass=\"math inline\">\\(\\sum_{k\\ge 0} u_k\\)</span> est normalement\nconvergente. Si cette série converge notons <span\nclass=\"math inline\">\\(T=\\sum_{k= 0}^{+\\infty} u_k\\)</span> sa somme,\nC’est-à-dire la limite de <span class=\"math inline\">\\(T_N = \\sum_{k=\n0}^{N} u_k\\)</span>. Mais alors <span class=\"math inline\">\\(T_N =\nx_{n_{N+1}}-x_{n_0}\\)</span> converge vers <span\nclass=\"math inline\">\\(T\\)</span>. Donc la suite extraite <span\nclass=\"math inline\">\\((x_{n_k})_k\\)</span> converge (vers <span\nclass=\"math inline\">\\(T+x_{n_0}\\)</span>). Conséquence : si toute série\nnormalement convergente est convergente, alors on peut extraire de toute\nsuite de Cauchy une sous-suite convergente donc <span\nclass=\"math inline\">\\(E\\)</span> est complet.</p>\n"
+      }
+    },
+    {
+      "id": "1891ab74-954f-4e0b-a30a-d51e7b1b1491",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\sum u_k$ une s\\'erie normalement convergente. On note $S_n = \\sum _{k=0}^nu_k$. \nMontrer que $S_n$ est une suite de Cauchy.\nEn d\\'eduire que si $E$ est complet, alors toute série normalement convergente est convergente.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\sum u_k\\)</span> une série\nnormalement convergente. On note <span class=\"math inline\">\\(S_n = \\sum\n_{k=0}^nu_k\\)</span>. Montrer que <span\nclass=\"math inline\">\\(S_n\\)</span> est une suite de Cauchy. En déduire\nque si <span class=\"math inline\">\\(E\\)</span> est complet, alors toute\nsérie normalement convergente est convergente.</p>\n"
+      }
+    },
+    {
+      "id": "18c07daf-dc26-4d66-b1fe-ec5cd5afc6ce",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $p \\le q$.\n$$\\| S_q-S_p\\| = \\| \\sum_{k=p+1}^q u_k \\| \\le  \\sum_{k=p+1}^{q} \\| u_k \\|\n\\le  \\sum_{k=p+1}^{+\\infty} \\| u_k \\|$$\nOr la série $\\sum_{k\\ge 0} u_k$ est normalement convergente donc le reste\n$\\sum_{k=p+1}^{+\\infty} \\| u_k \\|$ tend vers $0$ quand $p\\rightarrow +\\infty$.\nFixons $\\epsilon >0$, il existe donc $N \\in \\Nn$ tel que pour $p\\ge N$ on a\n$\\sum_{k=p+1}^{+\\infty} \\| u_k \\| \\le \\epsilon$, donc pour tout $p,q \\ge N$ on a aussi $\\| S_q-S_p\\| \\le \\epsilon$. Donc la suite $(S_n)$ est de Cauchy.\nSi $E$ est complet alors $(S_n)$ converge, notons $S$ sa limite. Donc $\\| S_n -S\\|$ tend vers $0$. Dons la série $\\sum_{k\\ge 0} u_k$ est convergente (de somme $S$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(p \\le q\\)</span>. <span\nclass=\"math display\">\\[\\| S_q-S_p\\| = \\| \\sum_{k=p+1}^q u_k \\|\n\\le  \\sum_{k=p+1}^{q} \\| u_k \\|\n\\le  \\sum_{k=p+1}^{+\\infty} \\| u_k \\|\\]</span> Or la série <span\nclass=\"math inline\">\\(\\sum_{k\\ge 0} u_k\\)</span> est normalement\nconvergente donc le reste <span\nclass=\"math inline\">\\(\\sum_{k=p+1}^{+\\infty} \\| u_k \\|\\)</span> tend\nvers <span class=\"math inline\">\\(0\\)</span> quand <span\nclass=\"math inline\">\\(p\\rightarrow +\\infty\\)</span>. Fixons <span\nclass=\"math inline\">\\(\\epsilon &gt;0\\)</span>, il existe donc <span\nclass=\"math inline\">\\(N \\in \\Nn\\)</span> tel que pour <span\nclass=\"math inline\">\\(p\\ge N\\)</span> on a <span\nclass=\"math inline\">\\(\\sum_{k=p+1}^{+\\infty} \\| u_k \\| \\le\n\\epsilon\\)</span>, donc pour tout <span class=\"math inline\">\\(p,q \\ge\nN\\)</span> on a aussi <span class=\"math inline\">\\(\\| S_q-S_p\\| \\le\n\\epsilon\\)</span>. Donc la suite <span\nclass=\"math inline\">\\((S_n)\\)</span> est de Cauchy. Si <span\nclass=\"math inline\">\\(E\\)</span> est complet alors <span\nclass=\"math inline\">\\((S_n)\\)</span> converge, notons <span\nclass=\"math inline\">\\(S\\)</span> sa limite. Donc <span\nclass=\"math inline\">\\(\\| S_n -S\\|\\)</span> tend vers <span\nclass=\"math inline\">\\(0\\)</span>. Dons la série <span\nclass=\"math inline\">\\(\\sum_{k\\ge 0} u_k\\)</span> est convergente (de\nsomme <span class=\"math inline\">\\(S\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "5a1ae7ee-4923-4265-b655-4ad63a13bdeb",
+      "type": "indication",
+      "value": {
+        "latex": "\\begin{enumerate}\n  \\item \\'Ecrire ce que donne la définition de ``$(x_n)$ est une suite de Cauchy''\npour $\\epsilon=1$, puis $\\epsilon = \\frac 12$, ..., puis $\\epsilon = \\frac 1{2^k}$.\nFaire la somme. Remarquer que si $T_N = \\sum _{k=0}^N u_k$ alors $T_N =  x_{n_{N+1}}-x_{n_0}$.\n\n  \\item ...\n\\end{enumerate}",
+        "html": "<ol>\n<li><p>Écrire ce que donne la définition de “<span\nclass=\"math inline\">\\((x_n)\\)</span> est une suite de Cauchy” pour <span\nclass=\"math inline\">\\(\\epsilon=1\\)</span>, puis <span\nclass=\"math inline\">\\(\\epsilon = \\frac 12\\)</span>, ..., puis <span\nclass=\"math inline\">\\(\\epsilon = \\frac 1{2^k}\\)</span>. Faire la somme.\nRemarquer que si <span class=\"math inline\">\\(T_N = \\sum _{k=0}^N\nu_k\\)</span> alors <span class=\"math inline\">\\(T_N\n=  x_{n_{N+1}}-x_{n_0}\\)</span>.</p></li>\n<li><p>...</p></li>\n</ol>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nnormé. On dit qu’une série <span class=\"math inline\">\\(\\sum u_k\\)</span>\nest normal ..."
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "nvvB",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2920",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Cardinal",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:58.194Z"
+  },
+  "contenu": [
+    {
+      "id": "45bc069f-02c5-4548-9b82-9473c64dbf50",
+      "type": "description",
+      "value": {
+        "latex": "Soient $E,F$, deux ensembles non vides. On d{\\'e}finit deux relations sur $X = F^E$\npar :\n$$\\begin{matrix}\n  f \\sim g &\\iff &\\exists\\ \\phi : F \\to  F \\text{ bijective tq } g=\\phi\\circ f,\\hfill\\cr\n  f \\equiv g &\\iff &\\bigl( \\forall\\ x,y \\in E,\\ f(x)=f(y)\\iff g(x)=g(y)\\bigr).\\cr\n\\end{matrix}$$",
+        "html": "<p>Soient <span class=\"math inline\">\\(E,F\\)</span>, deux ensembles non\nvides. On d<span>é</span>finit deux relations sur <span\nclass=\"math inline\">\\(X = F^E\\)</span> par : <span\nclass=\"math display\">\\[\\begin{matrix}\n  f \\sim g &amp;\\iff &amp;\\exists\\ \\phi : F \\to  F \\text{ bijective tq }\ng=\\phi\\circ f,\\hfill\\cr\n  f \\equiv g &amp;\\iff &amp;\\bigl( \\forall\\ x,y \\in E,\\ f(x)=f(y)\\iff\ng(x)=g(y)\\bigr).\\cr\n\\end{matrix}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5824574e-77f0-4e29-8150-5ff3165ded65",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que ce sont des relations d'{\\'e}quivalence.",
+        "html": "<p>Montrer que ce sont des relations d’<span>é</span>quivalence.</p>\n"
+      }
+    },
+    {
+      "id": "c4822f37-05b0-4bcb-8ee2-706e0154755a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f \\sim g  \\Rightarrow  f \\equiv g$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f \\sim g  \\Rightarrow  f\n\\equiv g\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6208dbcf-3951-4f62-a2e1-589d66a31483",
+      "type": "question",
+      "value": {
+        "latex": "On suppose $f\\equiv g$. Montrer que $f \\sim g$ dans les cas suivants :\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "5f84e7ce-8e81-478f-bd12-2fbd050444c9",
+      "type": "question",
+      "value": {
+        "latex": "$F$ est fini et $f$ est surjective.",
+        "html": "<p><span class=\"math inline\">\\(F\\)</span> est fini et <span\nclass=\"math inline\">\\(f\\)</span> est surjective.</p>\n"
+      }
+    },
+    {
+      "id": "1f618a97-da28-4ee7-81bc-94832a347e34",
+      "type": "question",
+      "value": {
+        "latex": "$F$ est fini et $f$ est quelconque.",
+        "html": "<p><span class=\"math inline\">\\(F\\)</span> est fini et <span\nclass=\"math inline\">\\(f\\)</span> est quelconque.</p>\n"
+      }
+    },
+    {
+      "id": "814ff19d-2b8b-4dee-b7c2-2e7e07c0d0ba",
+      "type": "question",
+      "value": {
+        "latex": "$E$ est fini.",
+        "html": "<p><span class=\"math inline\">\\(E\\)</span> est fini.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(E,F\\)</span>, deux ensembles non\nvides. On d<span>é</span>finit deux relations sur <span\nclass=\"math inline\"> ..."
+}

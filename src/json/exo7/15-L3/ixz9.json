@@ -1,0 +1,45 @@
+{
+  "uuid": "ixz9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2372",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Compacité",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:55.513Z"
+  },
+  "contenu": [
+    {
+      "id": "c7bb4084-8d18-4309-be43-62645fba9472",
+      "type": "description",
+      "value": {
+        "latex": "Soient $K,F\\subset \\Rr^n$ des parties non vides, $K$ compact et $F$ ferm\\'e.\nMontrer qu'il existe $a\\in K$ et $b \\in F$ tel que $\\|a-b\\| = \\mathrm{dist}(K,F)$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(K,F\\subset \\Rr^n\\)</span> des\nparties non vides, <span class=\"math inline\">\\(K\\)</span> compact et\n<span class=\"math inline\">\\(F\\)</span> fermé. Montrer qu’il existe <span\nclass=\"math inline\">\\(a\\in K\\)</span> et <span class=\"math inline\">\\(b\n\\in F\\)</span> tel que <span class=\"math inline\">\\(\\|a-b\\| =\n\\mathrm{dist}(K,F)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c6b11f85-3dbe-4696-b289-c48a269990df",
+      "type": "indication",
+      "value": {
+        "latex": "Extraire des sous-suites...",
+        "html": "<p>Extraire des sous-suites...</p>\n"
+      }
+    },
+    {
+      "id": "706366bc-27db-4618-aa4c-72aa7f09cbaa",
+      "type": "reponse",
+      "value": {
+        "latex": "Notons $\\ell = \\mathrm{dist}(K,F)$. Alors il existe $(x_n)$ suite d'éléments de $K$ et $(y_n)$ suite d'éléments de $F$ telles que \n$\\|x_n - y_n\\| \\rightarrow \\ell$. Comme $K$ est compact alors on peut extraire de $(x_n)$ une sous-suite $(x_{\\phi(n)})$ qui converge dans $K$. Notons $a\\in K$ cette limite\nAlors la suite extraite $(y_{\\phi(n)})$ est bornée car\n$$\\| y_{\\phi(n)} \\| \\le \\| y_{\\phi(n)} - x_{\\phi(n)}\\|  + \\|x_{\\phi(n)}\\|.$$\nLa suite $(x_{\\phi(n)})$ qui converge est donc bornée, et\nla suite $(\\| y_{\\phi(n)} - x_{\\phi(n)}\\|)$ qui converge dans $\\Rr$ (vers $\\ell$) est bornée également. Donc la suite $(y_{\\phi(n)})$ est bornée on peut donc en extraire une sous-suite convergente $(y_{\\phi\\circ \\psi (n)})$.\nDe plus comme $F$ est fermé alors cette suite converge vers $b\\in F$.\nLa suite $(x_{\\phi\\circ \\psi (n)})$ extraite de $(x_{\\phi(n)})$ converge vers $a\\in K$. Et comme nous avons extrait deux suites $(x_n)$ et $(y_n)$ on a toujours $\\|x_{\\phi\\circ \\psi (n)} - y_{\\phi\\circ \\psi (n)}\\| \\rightarrow \\ell$.\nA la limite nous obtenons $\\| a-b\\| = \\ell$  avec $a\\in K$ et $b\\in F$.\nRemarque : si $K$ était supposé fermé mais pas compact alors le résultat précédent pourrait être faux. Par exemple pour $K = \\{ (x,y) \\in \\Rr^2 \\mid xy \\ge 1 \\text { et } y \\ge 0\\}$ et $F = \\{ (x,y) \\in \\Rr^2 \\mid y \\le0\\}$ nous avons $d(K,F) = 0$ mais $K\\cap F = \\varnothing$.",
+        "html": "<p>Notons <span class=\"math inline\">\\(\\ell =\n\\mathrm{dist}(K,F)\\)</span>. Alors il existe <span\nclass=\"math inline\">\\((x_n)\\)</span> suite d’éléments de <span\nclass=\"math inline\">\\(K\\)</span> et <span\nclass=\"math inline\">\\((y_n)\\)</span> suite d’éléments de <span\nclass=\"math inline\">\\(F\\)</span> telles que <span\nclass=\"math inline\">\\(\\|x_n - y_n\\| \\rightarrow \\ell\\)</span>. Comme\n<span class=\"math inline\">\\(K\\)</span> est compact alors on peut\nextraire de <span class=\"math inline\">\\((x_n)\\)</span> une sous-suite\n<span class=\"math inline\">\\((x_{\\phi(n)})\\)</span> qui converge dans\n<span class=\"math inline\">\\(K\\)</span>. Notons <span\nclass=\"math inline\">\\(a\\in K\\)</span> cette limite Alors la suite\nextraite <span class=\"math inline\">\\((y_{\\phi(n)})\\)</span> est bornée\ncar <span class=\"math display\">\\[\\| y_{\\phi(n)} \\| \\le \\| y_{\\phi(n)} -\nx_{\\phi(n)}\\|  + \\|x_{\\phi(n)}\\|.\\]</span> La suite <span\nclass=\"math inline\">\\((x_{\\phi(n)})\\)</span> qui converge est donc\nbornée, et la suite <span class=\"math inline\">\\((\\| y_{\\phi(n)} -\nx_{\\phi(n)}\\|)\\)</span> qui converge dans <span\nclass=\"math inline\">\\(\\Rr\\)</span> (vers <span\nclass=\"math inline\">\\(\\ell\\)</span>) est bornée également. Donc la suite\n<span class=\"math inline\">\\((y_{\\phi(n)})\\)</span> est bornée on peut\ndonc en extraire une sous-suite convergente <span\nclass=\"math inline\">\\((y_{\\phi\\circ \\psi (n)})\\)</span>. De plus comme\n<span class=\"math inline\">\\(F\\)</span> est fermé alors cette suite\nconverge vers <span class=\"math inline\">\\(b\\in F\\)</span>. La suite\n<span class=\"math inline\">\\((x_{\\phi\\circ \\psi (n)})\\)</span> extraite\nde <span class=\"math inline\">\\((x_{\\phi(n)})\\)</span> converge vers\n<span class=\"math inline\">\\(a\\in K\\)</span>. Et comme nous avons extrait\ndeux suites <span class=\"math inline\">\\((x_n)\\)</span> et <span\nclass=\"math inline\">\\((y_n)\\)</span> on a toujours <span\nclass=\"math inline\">\\(\\|x_{\\phi\\circ \\psi (n)} - y_{\\phi\\circ \\psi\n(n)}\\| \\rightarrow \\ell\\)</span>. A la limite nous obtenons <span\nclass=\"math inline\">\\(\\| a-b\\| = \\ell\\)</span> avec <span\nclass=\"math inline\">\\(a\\in K\\)</span> et <span\nclass=\"math inline\">\\(b\\in F\\)</span>. Remarque : si <span\nclass=\"math inline\">\\(K\\)</span> était supposé fermé mais pas compact\nalors le résultat précédent pourrait être faux. Par exemple pour <span\nclass=\"math inline\">\\(K = \\{ (x,y) \\in \\Rr^2 \\mid xy \\ge 1 \\text { et }\ny \\ge 0\\}\\)</span> et <span class=\"math inline\">\\(F = \\{ (x,y) \\in \\Rr^2\n\\mid y \\le0\\}\\)</span> nous avons <span class=\"math inline\">\\(d(K,F) =\n0\\)</span> mais <span class=\"math inline\">\\(K\\cap F =\n\\varnothing\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(K,F\\subset \\Rr^n\\)</span> des\nparties non vides, <span class=\"math inline\">\\(K\\)</span> compact et\n<span class=\" ..."
+}

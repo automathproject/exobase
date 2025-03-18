@@ -1,0 +1,141 @@
+{
+  "uuid": "wzyk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2238",
+    "auteur": "matos",
+    "createdAt": "2008-04-23",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:32.353Z"
+  },
+  "contenu": [
+    {
+      "id": "bd3f5c1c-78c5-4ea4-a06f-d13af6ed058a",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A$ et $B$ deux matrices r\\'eelles d'ordre $N$ et $a,b$ deux vecteurs de $\\Rr^n$. On consid\\`ere les deux it\\'erations suivantes:\n\\begin{equation}\\label{ite}\n\\left\\{ \\begin{array}{ccc}\nx_{k+1}&=& By_k +a\\\\\ny_{k+1}&=& Ax_k + b\n\\end{array}\\right.  \\ \\ k=0, 1, \\cdots\n\\end{equation}\navec $x_0, y_0 \\in\\Rr^n$ donn\\'es.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> deux matrices réelles d’ordre <span\nclass=\"math inline\">\\(N\\)</span> et <span\nclass=\"math inline\">\\(a,b\\)</span> deux vecteurs de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span>. On considère les deux itérations\nsuivantes: <span class=\"math display\">\\[\\label{ite}\n\\left\\{ \\begin{array}{ccc}\nx_{k+1}&amp;=&amp; By_k +a\\\\\ny_{k+1}&amp;=&amp; Ax_k + b\n\\end{array}\\right.  \\ \\ k=0, 1, \\cdots\\]</span> avec <span\nclass=\"math inline\">\\(x_0, y_0 \\in\\Rr^n\\)</span> donnés.</p>\n"
+      }
+    },
+    {
+      "id": "24f8456a-a004-4cb9-9fdb-0d7fd570d637",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer une condition n\\'ecessaire et suffisante de convergence des deux suites de vecteurs.",
+        "html": "<p>Déterminer une condition nécessaire et suffisante de convergence des\ndeux suites de vecteurs.</p>\n"
+      }
+    },
+    {
+      "id": "8dcfb0b4-6ba8-430b-9aed-9b55183eac58",
+      "type": "reponse",
+      "value": {
+        "latex": "C'est facile \\`a voir que si $(x_k)$ converge vers $x^*$ et $(y_k)$\n  converge vers $y^*$, alors $x^*$ et $y^*$ sont solution des syst\\`emes\n  $(I-BA)x^*=Bb+a$ et $(I-AB)y^*=Aa+b$. On a:\n$$\\left\\{\\begin{array}{l}x_{k+1}=B(Ax_{k-1}+b)+a=BAx_{k-1}+Bb+a\\\\\ny_{k+1}=A(By_{k-1}+a)+b = ABy_{k-1}+Aa+b\\end{array}\\right.$$\net donc $(x_k)$ converge ssi $\\rho (BA) <1$ et $(y_k)$ converge ssi $\\rho\n(AB)<1$.",
+        "html": "<p>C’est facile à voir que si <span class=\"math inline\">\\((x_k)\\)</span>\nconverge vers <span class=\"math inline\">\\(x^*\\)</span> et <span\nclass=\"math inline\">\\((y_k)\\)</span> converge vers <span\nclass=\"math inline\">\\(y^*\\)</span>, alors <span\nclass=\"math inline\">\\(x^*\\)</span> et <span\nclass=\"math inline\">\\(y^*\\)</span> sont solution des systèmes <span\nclass=\"math inline\">\\((I-BA)x^*=Bb+a\\)</span> et <span\nclass=\"math inline\">\\((I-AB)y^*=Aa+b\\)</span>. On a: <span\nclass=\"math display\">\\[\\left\\{\\begin{array}{l}x_{k+1}=B(Ax_{k-1}+b)+a=BAx_{k-1}+Bb+a\\\\\ny_{k+1}=A(By_{k-1}+a)+b = ABy_{k-1}+Aa+b\\end{array}\\right.\\]</span> et\ndonc <span class=\"math inline\">\\((x_k)\\)</span> converge ssi <span\nclass=\"math inline\">\\(\\rho (BA) &lt;1\\)</span> et <span\nclass=\"math inline\">\\((y_k)\\)</span> converge ssi <span\nclass=\"math inline\">\\(\\rho\n(AB)&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d2036448-d5d6-44e5-b4c8-63b92dc3bfe7",
+      "type": "question",
+      "value": {
+        "latex": "Soit $z_k= ( x_k, y_k)^T \\in\\Rr^{2n}$. Montrer que (\\ref{ite}) peut s'\\'ecrire\n$$z_{k+1}= Cz_k+c$$\no\\`u  $C$ est une matrice d'ordre $2n$. Expliciter $C$ et $c$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(z_k= ( x_k, y_k)^T\n\\in\\Rr^{2n}\\)</span>. Montrer que (<a href=\"#ite\"\ndata-reference-type=\"ref\" data-reference=\"ite\">[ite]</a>) peut s’écrire\n<span class=\"math display\">\\[z_{k+1}= Cz_k+c\\]</span> où <span\nclass=\"math inline\">\\(C\\)</span> est une matrice d’ordre <span\nclass=\"math inline\">\\(2n\\)</span>. Expliciter <span\nclass=\"math inline\">\\(C\\)</span> et <span\nclass=\"math inline\">\\(c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a7d5a141-d373-4f85-8290-a9c5fc38a172",
+      "type": "reponse",
+      "value": {
+        "latex": "$z_{k+1}=Cz_k+c$ avec\n  $C=\\left(\\begin{array}{cc}0&B\\\\A&0\\end{array}\\right),\n  c=\\left(\\begin{array}{c}a\\\\b\\end{array}\\right)$",
+        "html": "<p><span class=\"math inline\">\\(z_{k+1}=Cz_k+c\\)</span> avec <span\nclass=\"math inline\">\\(C=\\left(\\begin{array}{cc}0&amp;B\\\\A&amp;0\\end{array}\\right),\n  c=\\left(\\begin{array}{c}a\\\\b\\end{array}\\right)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "292c3a2d-bc4d-4be6-bf5c-e20883049110",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\rho^2(C)=\\rho(AB)$.",
+        "html": "<p>Montrer que <span\nclass=\"math inline\">\\(\\rho^2(C)=\\rho(AB)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8e850b4c-b206-4406-baaf-7fe3c7fd2d76",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\lambda$ valeur propre  non nulle de $C$ et $z=(x,y)^T$ vecteur\n  propre associ\\'e\n$$Cz=\\lambda z\\Leftrightarrow\\left\\{\\begin{array}{l}By=\\lambda x\\\\Ax=\\lambda\n    y\\end{array}\\right.\\Rightarrow ABy=\\lambda Ax=\\lambda^2 y\\Rightarrow$$\n$\\lambda^2$ est valeur propre de $AB$.\n\nSoit maintenant $\\alpha$ valeur propre de $AB$ $\\Leftrightarrow \\exists u\\neq 0: \\quad\nABu=\\alpha u$. On pose $\\beta^2=\\alpha$ et $x=Bu$, $y=\\beta u$\n$$C\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)= \\left(\\begin{array}{c}\\beta\n    Bu\\\\ABu\\end{array}\\right)=\\left(\\begin{array}{c}\\beta Bu\\\\\\beta^2\n    u\\end{array}\\right)=\\beta \\left(\\begin{array}{c}x\\\\y\\end{array}\\right)$$\net donc $\\rho^2 (C)=\\rho (AB)$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\lambda\\)</span> valeur propre non\nnulle de <span class=\"math inline\">\\(C\\)</span> et <span\nclass=\"math inline\">\\(z=(x,y)^T\\)</span> vecteur propre associé <span\nclass=\"math display\">\\[Cz=\\lambda\nz\\Leftrightarrow\\left\\{\\begin{array}{l}By=\\lambda x\\\\Ax=\\lambda\n    y\\end{array}\\right.\\Rightarrow ABy=\\lambda Ax=\\lambda^2\ny\\Rightarrow\\]</span> <span class=\"math inline\">\\(\\lambda^2\\)</span> est\nvaleur propre de <span class=\"math inline\">\\(AB\\)</span>.</p>\n<p>Soit maintenant <span class=\"math inline\">\\(\\alpha\\)</span> valeur\npropre de <span class=\"math inline\">\\(AB\\)</span> <span\nclass=\"math inline\">\\(\\Leftrightarrow \\exists u\\neq 0: \\quad\nABu=\\alpha u\\)</span>. On pose <span\nclass=\"math inline\">\\(\\beta^2=\\alpha\\)</span> et <span\nclass=\"math inline\">\\(x=Bu\\)</span>, <span class=\"math inline\">\\(y=\\beta\nu\\)</span> <span\nclass=\"math display\">\\[C\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)=\n\\left(\\begin{array}{c}\\beta\n    Bu\\\\ABu\\end{array}\\right)=\\left(\\begin{array}{c}\\beta Bu\\\\\\beta^2\n    u\\end{array}\\right)=\\beta\n\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)\\]</span> et donc <span\nclass=\"math inline\">\\(\\rho^2 (C)=\\rho (AB)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e134afcc-f2db-4774-8943-ad7f4b51e2cc",
+      "type": "question",
+      "value": {
+        "latex": "On consid\\`ere maintenant les deux it\\'erations suivantes:\n\\begin{equation}\\label{ite2}\n\\left\\{ \\begin{array}{ccc}\nx_{k+1}&=& By_k +a\\\\\ny_{k+1}&=& Ax_{k+1} + b\n\\end{array}\\right.  \\ \\ k=0, 1, \\cdots\n\\end{equation}\nDonner une condition n\\'ecessaire et suffisante de convergence.\n\nMontrer que (\\ref{ite2}) est \\'equivalent \\`a\n$$z_{k+1}= Dz_k+d$$\no\\`u  $D$ est une matrice d'ordre $2N$.\n\nMontrer que $\\rho (D)=\\rho (AB)$.",
+        "html": "<p>On considère maintenant les deux itérations suivantes: <span\nclass=\"math display\">\\[\\label{ite2}\n\\left\\{ \\begin{array}{ccc}\nx_{k+1}&amp;=&amp; By_k +a\\\\\ny_{k+1}&amp;=&amp; Ax_{k+1} + b\n\\end{array}\\right.  \\ \\ k=0, 1, \\cdots\\]</span> Donner une condition\nnécessaire et suffisante de convergence.</p>\n<p>Montrer que (<a href=\"#ite2\" data-reference-type=\"ref\"\ndata-reference=\"ite2\">[ite2]</a>) est équivalent à <span\nclass=\"math display\">\\[z_{k+1}= Dz_k+d\\]</span> où <span\nclass=\"math inline\">\\(D\\)</span> est une matrice d’ordre <span\nclass=\"math inline\">\\(2N\\)</span>.</p>\n<p>Montrer que <span class=\"math inline\">\\(\\rho (D)=\\rho\n(AB)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "30460810-6917-44e6-9063-eb251fd5c77b",
+      "type": "reponse",
+      "value": {
+        "latex": "$D=\\left(\\begin{array}{cc}0&B\\\\0&AB\\end{array}\\right),\\quad\n  d=\\left(\\begin{array}{c}a\\\\Aa+b\\end{array}\\right)$.\nLa d\\'emonstration de $\\rho (D)=\\rho (AB)$ se fait comme dans la question\n  pr\\'ec\\'edente.",
+        "html": "<p><span\nclass=\"math inline\">\\(D=\\left(\\begin{array}{cc}0&amp;B\\\\0&amp;AB\\end{array}\\right),\\quad\n  d=\\left(\\begin{array}{c}a\\\\Aa+b\\end{array}\\right)\\)</span>. La\ndémonstration de <span class=\"math inline\">\\(\\rho (D)=\\rho (AB)\\)</span>\nse fait comme dans la question précédente.</p>\n"
+      }
+    },
+    {
+      "id": "50677835-7b89-47bb-bf75-1321d0971586",
+      "type": "question",
+      "value": {
+        "latex": "{\\bf Taux de convergence}\n\nOn appelle taux de convergence asymptotique de la matrice it\\'erative $M$ le nombre\n$$R(M) =-\\ln (\\rho (M))) .$$\nOn pose $e^k=x^k-x^*$ l'erreur de l'it\\'er\\'e d'ordre $k$.\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "8b202e78-c114-4594-b71e-864f3f791221",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "10729613-6aad-4b88-9d60-25ece2886520",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le nombre d'it\\'erations $k$ pour r\\'eduire l'erreur d'un facteur $\\epsilon$ , i.e., $\\frac{\\|e^k\\|}{\\|e^0\\|}\\leq \\epsilon $ v\\'erifie\n$$k\\geq \\frac{-\\ln \\epsilon}{R(M)} .$$",
+        "html": "<p>Montrer que le nombre d’itérations <span\nclass=\"math inline\">\\(k\\)</span> pour réduire l’erreur d’un facteur\n<span class=\"math inline\">\\(\\epsilon\\)</span> , i.e., <span\nclass=\"math inline\">\\(\\frac{\\|e^k\\|}{\\|e^0\\|}\\leq \\epsilon\\)</span>\nvérifie <span class=\"math display\">\\[k\\geq \\frac{-\\ln \\epsilon}{R(M)}\n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a64e0cd6-4208-4b4a-9014-14bb118b21e7",
+      "type": "reponse",
+      "value": {
+        "latex": "$e^k=M^ke^0\\Rightarrow\\frac{\\|e^k\\|}{\\|e^0\\|}\\leq \\|M^k\\|\\leq\n  \\epsilon$. Il suffit donc d'avoir $\\|M^k\\|^{1/k} \\leq \\epsilon^{1/k}\\Rightarrow\n  \\log (\\|M^k\\|^{1/k})\\leq \\frac{1}{k}\\log\\epsilon$ c'est- \\`a dire $k\\geq\n  \\frac{\\log \\epsilon}{\\log (\\|M^k\\|^{1/k})}$ Mais comme $\\rho (M) \\leq\n  \\|M^k\\|^{1/k}$ on obtient finalement\n $$k\\geq -\\log\\epsilon /R(M)$$",
+        "html": "<p><span\nclass=\"math inline\">\\(e^k=M^ke^0\\Rightarrow\\frac{\\|e^k\\|}{\\|e^0\\|}\\leq\n\\|M^k\\|\\leq\n  \\epsilon\\)</span>. Il suffit donc d’avoir <span\nclass=\"math inline\">\\(\\|M^k\\|^{1/k} \\leq \\epsilon^{1/k}\\Rightarrow\n  \\log (\\|M^k\\|^{1/k})\\leq \\frac{1}{k}\\log\\epsilon\\)</span> c’est- à\ndire <span class=\"math inline\">\\(k\\geq\n  \\frac{\\log \\epsilon}{\\log (\\|M^k\\|^{1/k})}\\)</span> Mais comme <span\nclass=\"math inline\">\\(\\rho (M) \\leq\n  \\|M^k\\|^{1/k}\\)</span> on obtient finalement <span\nclass=\"math display\">\\[k\\geq -\\log\\epsilon /R(M)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "503daa38-f314-4a00-924a-f15e3b643ed8",
+      "type": "question",
+      "value": {
+        "latex": "Comparer le taux de convergence des algorithmes (\\ref{ite}) et (\\ref{ite2}).",
+        "html": "<p>Comparer le taux de convergence des algorithmes (<a href=\"#ite\"\ndata-reference-type=\"ref\" data-reference=\"ite\">[ite]</a>) et (<a\nhref=\"#ite2\" data-reference-type=\"ref\"\ndata-reference=\"ite2\">[ite2]</a>).</p>\n"
+      }
+    },
+    {
+      "id": "b8b62bd9-be54-4172-b94a-4a6afbdd4c99",
+      "type": "reponse",
+      "value": {
+        "latex": "nous avons $\\rho^2(C) = \\rho (AB) \\Rightarrow \\rho (C) =\\sqrt{\\rho (AB)}$ et\n  $\\rho (D)=\\rho (AB)$ . Donc $\\rho (D)<\\rho (C) \\Rightarrow R(D) >R(C)$. Donc on\n  atteint la m\\^eme r\\'eduction d'erreur avec un plus petit nombre\n  d'it\\'erations de la m\\'ethode 2)",
+        "html": "<p>nous avons <span class=\"math inline\">\\(\\rho^2(C) = \\rho (AB)\n\\Rightarrow \\rho (C) =\\sqrt{\\rho (AB)}\\)</span> et <span\nclass=\"math inline\">\\(\\rho (D)=\\rho (AB)\\)</span> . Donc <span\nclass=\"math inline\">\\(\\rho (D)&lt;\\rho (C) \\Rightarrow R(D)\n&gt;R(C)\\)</span>. Donc on atteint la même réduction d’erreur avec un\nplus petit nombre d’itérations de la méthode 2)</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> deux matrices réelles d’ordre <span\nclass=\"math inline\"> ..."
+}

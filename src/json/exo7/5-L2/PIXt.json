@@ -1,0 +1,37 @@
+{
+  "uuid": "PIXt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4372",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:10.733Z"
+  },
+  "contenu": [
+    {
+      "id": "eee257ac-7b59-48eb-994b-aee43f7dfa9f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\alpha\\in{]0,\\frac\\pi2[}$ et $\\lambda\\in\\R$.\nChercher un équivalent pour $n\\to\\infty$ de\n$I_n =  \\int_{x=0}^{\\alpha}\\sin(x)\\exp(\\lambda n\\sin^2(x))\\,d x$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha\\in{]0,\\frac\\pi2[}\\)</span> et\n<span class=\"math inline\">\\(\\lambda\\in\\R\\)</span>. Chercher un\néquivalent pour <span class=\"math inline\">\\(n\\to\\infty\\)</span> de <span\nclass=\"math inline\">\\(I_n =  \\int_{x=0}^{\\alpha}\\sin(x)\\exp(\\lambda\nn\\sin^2(x))\\,d x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1b1ab40a-bedb-4fb3-87d4-8f6a6e641317",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $\\lambda\\ne 0$~:\n$I_n = \\Bigl[\\frac{\\exp(\\lambda n\\sin^2(x))}{2\\lambda n\\cos(x)}\\Bigr]_{x=0}^\\alpha\n- \\int_{x=0}^{\\alpha}\\frac{\\sin(x)}{2\\lambda n\\cos^2(x)}\\exp(\\lambda n\\sin^2(x))\\,d x\n= \\frac{\\exp(\\lambda n\\sin^2(\\alpha))}{2\\lambda n\\cos(\\alpha)} - \\frac1{2\\lambda n}\n- \\frac{J_n}{2\\lambda n}$\navec $0\\le J_n\\le \\frac{I_n}{\\cos^2(\\alpha)}$.\nDonc $I_n\\sim \\frac{\\exp(\\lambda n\\sin^2(\\alpha))}{2\\lambda n\\cos(\\alpha)}$ si $\\lambda > 0$\net $I_n\\sim - \\frac1{2\\lambda n}$ si $\\lambda < 0$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(\\lambda\\ne 0\\)</span> : <span\nclass=\"math inline\">\\(I_n = \\Bigl[\\frac{\\exp(\\lambda\nn\\sin^2(x))}{2\\lambda n\\cos(x)}\\Bigr]_{x=0}^\\alpha\n- \\int_{x=0}^{\\alpha}\\frac{\\sin(x)}{2\\lambda n\\cos^2(x)}\\exp(\\lambda\nn\\sin^2(x))\\,d x\n= \\frac{\\exp(\\lambda n\\sin^2(\\alpha))}{2\\lambda n\\cos(\\alpha)} -\n\\frac1{2\\lambda n}\n- \\frac{J_n}{2\\lambda n}\\)</span> avec <span class=\"math inline\">\\(0\\le\nJ_n\\le \\frac{I_n}{\\cos^2(\\alpha)}\\)</span>. Donc <span\nclass=\"math inline\">\\(I_n\\sim \\frac{\\exp(\\lambda\nn\\sin^2(\\alpha))}{2\\lambda n\\cos(\\alpha)}\\)</span> si <span\nclass=\"math inline\">\\(\\lambda &gt; 0\\)</span> et <span\nclass=\"math inline\">\\(I_n\\sim - \\frac1{2\\lambda n}\\)</span> si <span\nclass=\"math inline\">\\(\\lambda &lt; 0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\alpha\\in{]0,\\frac\\pi2[}\\)</span> et\n<span class=\"math inline\">\\(\\lambda\\in\\R\\)</span>. Chercher un\néquivalent pou ..."
+}

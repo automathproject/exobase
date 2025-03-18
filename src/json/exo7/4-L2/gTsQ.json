@@ -1,0 +1,157 @@
+{
+  "uuid": "gTsQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5806",
+    "auteur": "rouget",
+    "createdAt": "2010-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Orthonormalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:24.400Z"
+  },
+  "contenu": [
+    {
+      "id": "b245b003-0ab7-43ec-9500-7ee1ace900a2",
+      "type": "description",
+      "value": {
+        "latex": "Rang et signature des formes quadratiques suivantes :",
+        "html": "<p>Rang et signature des formes quadratiques suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "30dde6c9-796b-4c2e-81ef-a722513264b0",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x,y,z)) = 2x^2-2y^2-6z^2+3xy-4xz+7yz$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x,y,z)) =\n2x^2-2y^2-6z^2+3xy-4xz+7yz\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cfd036d8-dc91-4cae-b4d5-739951020f1a",
+      "type": "reponse",
+      "value": {
+        "latex": "\\textbf{1ère solution.} La matrice de la forme quadratique $Q$ dans la base canonique de $\\Rr^3$ est $A=\\left(\\begin{array}{ccc}\n2&\\frac{3}{2}&-2\\\\\n\\frac{3}{2}&-2&\\frac{7}{2}\\\\\n-2&\\frac{7}{2}&-6\n\\end{array}\n\\right)$.\n\nLe polynôme caractéristique  de $A$ est \n\n$$\\begin{align*}\\ensuremath\n\\chi_A&=\\left|\\begin{array}{ccc}\n2-X&\\frac{3}{2}&-2\\\\\n\\frac{3}{2}&-2-X&\\frac{7}{2}\\\\\n-2&\\frac{7}{2}&-6-X\n\\end{array}\n\\right|= (2-X)\\left(X^2+8X-\\frac{1}{4}\\right) -\\frac{3}{2}\\left(-\\frac{3}{2}X-2\\right)-2\\left(-2X+\\frac{5}{4}\\right) \\\\\n &= -X^3-6X^2+\\frac{45}{2}X=-X\\left(X^2+6X-\\frac{45}{2}\\right).\n\\end{align*}$$\n\nPuisque $A$ est symétrique réelle, on sait que les valeurs propres de $A$ sont réelles. $\\chi_A$ admet pour racines $0$ et deux réels non nuls de signes contraires (puisque leur produit vaut $-\\frac{45}{2}$). Par suite, le rang et la signature de $Q$ sont \n\n\\begin{center}\n\\shadowbox{\n$r=2$ et $s = (1,1)$.\n}\n\\end{center}\n\n\\textbf{2ème solution.} On effectue une réduction de \\textsc{Gauss}.\n\n$$\\begin{align*}\\ensuremath\nQ((x,y,z))&= 2x^2-2y^2-6z^2+3xy-4xz+7yz=2x^2+x(3y-4z)-2y^2+7yz-6z^2\\\\\n &= 2\\left(x+\\frac{3}{4}y-z\\right)^2-2\\left(\\frac{3}{4}y-z\\right)^2-2y^2+7yz-6z^2 =2\\left(x+\\frac{3}{4}y-z\\right)^2-\\frac{25}{8}y^2+10yz-8z^2\\\\\n &= 2\\left(x+\\frac{3}{4}y-z\\right)^2-\\frac{25}{8}\\left(y-\\frac{8}{5}z\\right)^2.\n\\end{align*}$$\n\nLes formes linéaires $(x,y,z)\\mapsto x+\\frac{3}{4}y-z$ et $(x,y,z)\\mapsto y-\\frac{8}{5}z$ étant linéairement indépendantes, on retrouve le fait que $Q$ est de rang $r=2$ et de signature $s=(1,1)$. La forme quadratique $Q$ est dégénérée et n'est ni positive ni négative.",
+        "html": "<p><strong>1ère solution.</strong> La matrice de la forme quadratique\n<span class=\"math inline\">\\(Q\\)</span> dans la base canonique de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span> est <span\nclass=\"math inline\">\\(A=\\left(\\begin{array}{ccc}\n2&amp;\\frac{3}{2}&amp;-2\\\\\n\\frac{3}{2}&amp;-2&amp;\\frac{7}{2}\\\\\n-2&amp;\\frac{7}{2}&amp;-6\n\\end{array}\n\\right)\\)</span>.</p>\n<p>Le polynôme caractéristique de <span class=\"math inline\">\\(A\\)</span>\nest</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\n\\chi_A&amp;=\\left|\\begin{array}{ccc}\n2-X&amp;\\frac{3}{2}&amp;-2\\\\\n\\frac{3}{2}&amp;-2-X&amp;\\frac{7}{2}\\\\\n-2&amp;\\frac{7}{2}&amp;-6-X\n\\end{array}\n\\right|= (2-X)\\left(X^2+8X-\\frac{1}{4}\\right)\n-\\frac{3}{2}\\left(-\\frac{3}{2}X-2\\right)-2\\left(-2X+\\frac{5}{4}\\right)\n\\\\\n&amp;= -X^3-6X^2+\\frac{45}{2}X=-X\\left(X^2+6X-\\frac{45}{2}\\right).\n\\end{align*}\\]</span></p>\n<p>Puisque <span class=\"math inline\">\\(A\\)</span> est symétrique réelle,\non sait que les valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span> sont réelles. <span\nclass=\"math inline\">\\(\\chi_A\\)</span> admet pour racines <span\nclass=\"math inline\">\\(0\\)</span> et deux réels non nuls de signes\ncontraires (puisque leur produit vaut <span\nclass=\"math inline\">\\(-\\frac{45}{2}\\)</span>). Par suite, le rang et la\nsignature de <span class=\"math inline\">\\(Q\\)</span> sont</p>\n<div class=\"center\">\n\n</div>\n<p><strong>2ème solution.</strong> On effectue une réduction de <span\nclass=\"smallcaps\">Gauss</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\nQ((x,y,z))&amp;=\n2x^2-2y^2-6z^2+3xy-4xz+7yz=2x^2+x(3y-4z)-2y^2+7yz-6z^2\\\\\n&amp;=\n2\\left(x+\\frac{3}{4}y-z\\right)^2-2\\left(\\frac{3}{4}y-z\\right)^2-2y^2+7yz-6z^2\n=2\\left(x+\\frac{3}{4}y-z\\right)^2-\\frac{25}{8}y^2+10yz-8z^2\\\\\n&amp;=\n2\\left(x+\\frac{3}{4}y-z\\right)^2-\\frac{25}{8}\\left(y-\\frac{8}{5}z\\right)^2.\n\\end{align*}\\]</span></p>\n<p>Les formes linéaires <span class=\"math inline\">\\((x,y,z)\\mapsto\nx+\\frac{3}{4}y-z\\)</span> et <span class=\"math inline\">\\((x,y,z)\\mapsto\ny-\\frac{8}{5}z\\)</span> étant linéairement indépendantes, on retrouve le\nfait que <span class=\"math inline\">\\(Q\\)</span> est de rang <span\nclass=\"math inline\">\\(r=2\\)</span> et de signature <span\nclass=\"math inline\">\\(s=(1,1)\\)</span>. La forme quadratique <span\nclass=\"math inline\">\\(Q\\)</span> est dégénérée et n’est ni positive ni\nnégative.</p>\n"
+      }
+    },
+    {
+      "id": "c43a8bd4-cba5-4134-a626-ae72e14023cb",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x,y,z)) = 3x^2+3y^2+3z^2-2xy-2xz-2yz$",
+        "html": "<p><span class=\"math inline\">\\(Q((x,y,z)) =\n3x^2+3y^2+3z^2-2xy-2xz-2yz\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9305da47-455b-4775-8f42-28ddfbc45522",
+      "type": "reponse",
+      "value": {
+        "latex": "La matrice de $Q$ dans la base canonique $(i,j,k)$ est $A=\\left(\n\\begin{array}{ccc}\n3&-1&-1\\\\\n-1&3&-1\\\\\n-1&-1&3\n\\end{array}\n\\right)$. Le nombre $4$ est valeur propre de $A$ et puisque $A$ est diagonalisable, $4$ est valeur propre d'ordre $\\text{dim}(\\text{Ker}(A-4I_3))= 3 -\\text{rg}(A-4I_3)=2$.\nLa dernière valeur propre $\\lambda$ est fournie par $4+4+\\lambda=\\text{Tr}(A)= 9$ et $? = 1$. Ainsi, $\\text{Sp}(A) = (1,4,4)$.\n\nLes trois valeurs propres de $A$ sont strictement positives et donc la forme quadratique $Q$ est de rang $3$ et de signature $(3,0)$.\n\n\\begin{center}\n\\shadowbox{\n$Q$ est définie positive.\n}\n\\end{center}",
+        "html": "<p>La matrice de <span class=\"math inline\">\\(Q\\)</span> dans la base\ncanonique <span class=\"math inline\">\\((i,j,k)\\)</span> est <span\nclass=\"math inline\">\\(A=\\left(\n\\begin{array}{ccc}\n3&amp;-1&amp;-1\\\\\n-1&amp;3&amp;-1\\\\\n-1&amp;-1&amp;3\n\\end{array}\n\\right)\\)</span>. Le nombre <span class=\"math inline\">\\(4\\)</span> est\nvaleur propre de <span class=\"math inline\">\\(A\\)</span> et puisque <span\nclass=\"math inline\">\\(A\\)</span> est diagonalisable, <span\nclass=\"math inline\">\\(4\\)</span> est valeur propre d’ordre <span\nclass=\"math inline\">\\(\\text{dim}(\\text{Ker}(A-4I_3))= 3\n-\\text{rg}(A-4I_3)=2\\)</span>. La dernière valeur propre <span\nclass=\"math inline\">\\(\\lambda\\)</span> est fournie par <span\nclass=\"math inline\">\\(4+4+\\lambda=\\text{Tr}(A)= 9\\)</span> et <span\nclass=\"math inline\">\\(? = 1\\)</span>. Ainsi, <span\nclass=\"math inline\">\\(\\text{Sp}(A) = (1,4,4)\\)</span>.</p>\n<p>Les trois valeurs propres de <span class=\"math inline\">\\(A\\)</span>\nsont strictement positives et donc la forme quadratique <span\nclass=\"math inline\">\\(Q\\)</span> est de rang <span\nclass=\"math inline\">\\(3\\)</span> et de signature <span\nclass=\"math inline\">\\((3,0)\\)</span>.</p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    },
+    {
+      "id": "7b86601c-fd5f-4b22-8842-812ade8e6d76",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x,y,z,t)) = xy + yz+zt+tx$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x,y,z,t)) = xy +\nyz+zt+tx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8b21da9c-2da8-4858-8fda-29b36fb63437",
+      "type": "reponse",
+      "value": {
+        "latex": "Effectuons une réduction de \\textsc{Gauss}.\n\n\\begin{center}\n$Q((x,y,z,t))=xy+yz+zt+tx=(x+z)(y+t) =\\frac{1}{4}(x+y+z+t)^2-\\frac{1}{4}(x-y+z-t)^2$.\n\\end{center}\n\nPuisque les deux formes linéaires $(x,y,z,t)\\mapsto x+y+z+t$  et $(x,y,z,t)\\mapsto x-y+z-t$ sont linéairement indépendantes, la forme quadratique $Q$ est de rang $r=2$ et de signature $s=(1,1)$.",
+        "html": "<p>Effectuons une réduction de <span class=\"smallcaps\">Gauss</span>.</p>\n<div class=\"center\">\n<p><span class=\"math inline\">\\(Q((x,y,z,t))=xy+yz+zt+tx=(x+z)(y+t)\n=\\frac{1}{4}(x+y+z+t)^2-\\frac{1}{4}(x-y+z-t)^2\\)</span>.</p>\n</div>\n<p>Puisque les deux formes linéaires <span\nclass=\"math inline\">\\((x,y,z,t)\\mapsto x+y+z+t\\)</span> et <span\nclass=\"math inline\">\\((x,y,z,t)\\mapsto x-y+z-t\\)</span> sont\nlinéairement indépendantes, la forme quadratique <span\nclass=\"math inline\">\\(Q\\)</span> est de rang <span\nclass=\"math inline\">\\(r=2\\)</span> et de signature <span\nclass=\"math inline\">\\(s=(1,1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a6b6848a-7f24-4334-b807-83e8086a33aa",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x,y,z,t)) = x^2+(4+\\lambda)y^2+(1+4\\lambda)z^2+\\lambda t^2+4xy+2xz+4(1-\\lambda)yz+2\\lambda yt+(1-4\\lambda)zt$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x,y,z,t)) =\nx^2+(4+\\lambda)y^2+(1+4\\lambda)z^2+\\lambda\nt^2+4xy+2xz+4(1-\\lambda)yz+2\\lambda yt+(1-4\\lambda)zt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e4d0ae7a-099c-4084-95c6-00758f3b5b27",
+      "type": "reponse",
+      "value": {
+        "latex": "Effectuons une réduction de \\textsc{Gauss}.\n\n$$\\begin{align*}\\ensuremath\nQ((x,y,z,t))&=x^2+(4+\\lambda)y^2+(1+4\\lambda)z^2+\\lambda t^2+4xy+2xz+4(1-\\lambda)yz+2\\lambda yt+(1-4\\lambda)zt\\\\\n &=(x+2y+z)^2 +\\lambda y^2+4\\lambda z^2+\\lambda t^2 -4\\lambda yz+2\\lambda yt+(1-4\\lambda)zt\\\\\n &= (x+2y+z)^2+\\lambda(y-2z+t)^2+zt =(x+2y+z)^2+\\lambda(y-2z+t)^2+\\frac{1}{4}(z+t)^2-\\frac{1}{4}(z-t)^2.\n\\end{align*}$$\n\nSi $\\lambda< 0$, la forme quadratique $Q$ est de rang $4$ et de signature $(2,2)$.\n\nSi $\\lambda = 0$, la forme quadratique $Q$ est de rang $3$ et de signature $(2,1)$.\n\nSi $\\lambda> 0$, la forme quadratique $Q$ est de rang $4$ et de signature $(3,1)$.",
+        "html": "<p>Effectuons une réduction de <span class=\"smallcaps\">Gauss</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\nQ((x,y,z,t))&amp;=x^2+(4+\\lambda)y^2+(1+4\\lambda)z^2+\\lambda\nt^2+4xy+2xz+4(1-\\lambda)yz+2\\lambda yt+(1-4\\lambda)zt\\\\\n&amp;=(x+2y+z)^2 +\\lambda y^2+4\\lambda z^2+\\lambda t^2 -4\\lambda\nyz+2\\lambda yt+(1-4\\lambda)zt\\\\\n&amp;= (x+2y+z)^2+\\lambda(y-2z+t)^2+zt\n=(x+2y+z)^2+\\lambda(y-2z+t)^2+\\frac{1}{4}(z+t)^2-\\frac{1}{4}(z-t)^2.\n\\end{align*}\\]</span></p>\n<p>Si <span class=\"math inline\">\\(\\lambda&lt; 0\\)</span>, la forme\nquadratique <span class=\"math inline\">\\(Q\\)</span> est de rang <span\nclass=\"math inline\">\\(4\\)</span> et de signature <span\nclass=\"math inline\">\\((2,2)\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(\\lambda = 0\\)</span>, la forme\nquadratique <span class=\"math inline\">\\(Q\\)</span> est de rang <span\nclass=\"math inline\">\\(3\\)</span> et de signature <span\nclass=\"math inline\">\\((2,1)\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(\\lambda&gt; 0\\)</span>, la forme\nquadratique <span class=\"math inline\">\\(Q\\)</span> est de rang <span\nclass=\"math inline\">\\(4\\)</span> et de signature <span\nclass=\"math inline\">\\((3,1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1687454a-9a09-4db5-8a4e-27962e6718c5",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x_1,...,x_5)) =\\sum_{1\\leqslant i<j\\leqslant n}^{}x_ix_j$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x_1,...,x_5)) =\\sum_{1\\leqslant\ni&lt;j\\leqslant n}^{}x_ix_j\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "53d75a0e-9b3f-45d9-9a64-0a5dbd36e534",
+      "type": "reponse",
+      "value": {
+        "latex": "\\textbf{1ère solution.} La matrice de la forme quadratique $Q$ dans la base canonique est $A=\\frac{1}{2}\\left(\n\\begin{array}{ccccc}\n0&1&1&1&1\\\\\n1&0&1&1&1\\\\\n1&1&0&1&1\\\\\n1&1&1&0&1\\\\\n0&1&1&1&1\n\\end{array}\n\\right)$. Les valeurs propres de $A$ sont $-\\frac{1}{2}$ qui est d'ordre $4$ et $2$ qui est valeur propre simple.Donc, la signature de la forme quadratique $Q$ est \n\n\\begin{center}\n\\shadowbox{\n$s=(1,4)$.\n}\n\\end{center}\n\n\\textbf{2ème solution.}Effectuons une réduction de \\textsc{Gauss}.\n\n$$\\begin{align*}\\ensuremath\nQ((x_1,...,x_5))&= x_1x_2+x_1(x_3+x_4+x_5)+x_2(x_3+x_4+x_5)+x_3x_4+x_3x_5+x_4x_5\\\\\n &= (x_1+x_3+x_4+x_5)(x_2+ x_3+x_4+x_5) - (x_3+x_4+x_5)^2+x_3x_4+x_3x_5+x_4x_5\\\\\n &=\\frac{1}{4}(x_1+x_2+2x_3+2x_4+2x_5)^2-\\frac{1}{4}(x_1-x_2)^2-x_3^2-x_4^2-x_5^2-x_3x_4-x_3x_5-x_4x_5\\\\\n &=\\frac{1}{4}(x_1+x_2+2x_3+2x_4+2x_5)^2-\\frac{1}{4}(x_1-x_2)^2-\\left(x_3+\\frac{1}{2}x_4+\\frac{1}{2}x_5\\right)^2-\\frac{3}{4}x_4^2-\\frac{1}{2}x_4x_5-\\frac{3}{4}x_5^2\\\\\n &=\\frac{1}{4}(x_1+x_2+2x_3+2x_4+2x_5)^2-\\frac{1}{4}(x_1-x_2)^2-\\left(x_3+\\frac{1}{2}x_4+\\frac{1}{2}x_5\\right)^2 -\\frac{3}{4}\\left(x_4-\\frac{1}{3}x_5\\right)^2 -\\frac{5}{6}x_5^2,\n\\end{align*}$$\n\net on retrouve $s = (1,4)$.",
+        "html": "<p><strong>1ère solution.</strong> La matrice de la forme quadratique\n<span class=\"math inline\">\\(Q\\)</span> dans la base canonique est <span\nclass=\"math inline\">\\(A=\\frac{1}{2}\\left(\n\\begin{array}{ccccc}\n0&amp;1&amp;1&amp;1&amp;1\\\\\n1&amp;0&amp;1&amp;1&amp;1\\\\\n1&amp;1&amp;0&amp;1&amp;1\\\\\n1&amp;1&amp;1&amp;0&amp;1\\\\\n0&amp;1&amp;1&amp;1&amp;1\n\\end{array}\n\\right)\\)</span>. Les valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span> sont <span\nclass=\"math inline\">\\(-\\frac{1}{2}\\)</span> qui est d’ordre <span\nclass=\"math inline\">\\(4\\)</span> et <span\nclass=\"math inline\">\\(2\\)</span> qui est valeur propre simple.Donc, la\nsignature de la forme quadratique <span class=\"math inline\">\\(Q\\)</span>\nest</p>\n<div class=\"center\">\n\n</div>\n<p><strong>2ème solution.</strong>Effectuons une réduction de <span\nclass=\"smallcaps\">Gauss</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\nQ((x_1,...,x_5))&amp;=\nx_1x_2+x_1(x_3+x_4+x_5)+x_2(x_3+x_4+x_5)+x_3x_4+x_3x_5+x_4x_5\\\\\n&amp;= (x_1+x_3+x_4+x_5)(x_2+ x_3+x_4+x_5) -\n(x_3+x_4+x_5)^2+x_3x_4+x_3x_5+x_4x_5\\\\\n&amp;=\\frac{1}{4}(x_1+x_2+2x_3+2x_4+2x_5)^2-\\frac{1}{4}(x_1-x_2)^2-x_3^2-x_4^2-x_5^2-x_3x_4-x_3x_5-x_4x_5\\\\\n&amp;=\\frac{1}{4}(x_1+x_2+2x_3+2x_4+2x_5)^2-\\frac{1}{4}(x_1-x_2)^2-\\left(x_3+\\frac{1}{2}x_4+\\frac{1}{2}x_5\\right)^2-\\frac{3}{4}x_4^2-\\frac{1}{2}x_4x_5-\\frac{3}{4}x_5^2\\\\\n&amp;=\\frac{1}{4}(x_1+x_2+2x_3+2x_4+2x_5)^2-\\frac{1}{4}(x_1-x_2)^2-\\left(x_3+\\frac{1}{2}x_4+\\frac{1}{2}x_5\\right)^2\n-\\frac{3}{4}\\left(x_4-\\frac{1}{3}x_5\\right)^2 -\\frac{5}{6}x_5^2,\n\\end{align*}\\]</span></p>\n<p>et on retrouve <span class=\"math inline\">\\(s = (1,4)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "956e264a-a95a-49a6-80a7-ca734b1aacb2",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x_1,...,x_n)) =\\sum_{1\\leqslant i,j\\leqslant n}^{}ijx_ix_j$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x_1,...,x_n)) =\\sum_{1\\leqslant\ni,j\\leqslant n}^{}ijx_ix_j\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "946e3951-a6a6-4b35-afa9-75d5647c7710",
+      "type": "reponse",
+      "value": {
+        "latex": "$Q(x_1,...,x_n)=(x_1+...+x_n)^2$ et donc\n\n\\begin{center}\n\\shadowbox{\n$r = 1$ et $s = (1,0)$.\n}\n\\end{center}",
+        "html": "<p><span class=\"math inline\">\\(Q(x_1,...,x_n)=(x_1+...+x_n)^2\\)</span>\net donc</p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    },
+    {
+      "id": "9824aae2-a799-457b-b963-b858f5379669",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x_1,...,x_n)) =\\sum_{1\\leqslant i,j\\leqslant n}^{i}x_ix_j$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x_1,...,x_n)) =\\sum_{1\\leqslant\ni,j\\leqslant n}^{i}x_ix_j\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "93852c69-8dcc-47e9-bddb-2a50f0bc46b7",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $n\\geqslant 2$, $Q((x_1,...,x_n)) =\\left(\\sum_{i=1}^{n}ix_i\\right)\\left(\\sum_{j=1}^{n}x_j\\right)=\\frac{1}{4}\\left(\\sum_{i=1}^{n}(i+1)x_i\\right)^2-\\frac{1}{4}\\left(\\sum_{i=1}^{n}(i-1)x_i\\right)^2$. Donc \n\n\\begin{center}\n\\shadowbox{\n$r = 2$ et $s = (1,1)$\n}\n\\end{center}\n\ncar les deux formes linéaires $(x_1,...,x_n)\\mapsto \\sum_{i=1}^{n}(i+1)x_i$ et $(x_1,...,x_n)\\mapsto\\sum_{i=1}^{n}(i-1)x_i$ sont indépendantes pour $n\\geqslant2$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n\\geqslant 2\\)</span>, <span\nclass=\"math inline\">\\(Q((x_1,...,x_n))\n=\\left(\\sum_{i=1}^{n}ix_i\\right)\\left(\\sum_{j=1}^{n}x_j\\right)=\\frac{1}{4}\\left(\\sum_{i=1}^{n}(i+1)x_i\\right)^2-\\frac{1}{4}\\left(\\sum_{i=1}^{n}(i-1)x_i\\right)^2\\)</span>.\nDonc</p>\n<div class=\"center\">\n\n</div>\n<p>car les deux formes linéaires <span\nclass=\"math inline\">\\((x_1,...,x_n)\\mapsto\n\\sum_{i=1}^{n}(i+1)x_i\\)</span> et <span\nclass=\"math inline\">\\((x_1,...,x_n)\\mapsto\\sum_{i=1}^{n}(i-1)x_i\\)</span>\nsont indépendantes pour <span\nclass=\"math inline\">\\(n\\geqslant2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "69100bc6-8d92-4007-bf09-ee7b94f2e5d7",
+      "type": "question",
+      "value": {
+        "latex": "$Q((x_1,...,x_n)) =\\sum_{1\\leqslant i,j\\leqslant n}^{}\\text{Inf}(i,j)x_ix_j$.",
+        "html": "<p><span class=\"math inline\">\\(Q((x_1,...,x_n)) =\\sum_{1\\leqslant\ni,j\\leqslant n}^{}\\text{Inf}(i,j)x_ix_j\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac146405-83fe-43b8-9253-f85060086d2d",
+      "type": "reponse",
+      "value": {
+        "latex": "Puisque la matrice de $Q$ dans la base canonique est $\\left(\n\\begin{array}{cccccc}\n1&1&1&\\ldots&1&1\\\\\n1&2&2&\\ldots&2&2\\\\\n1&2&3&\\ldots&3&3\\\\\n\\vdots&\\vdots&\\vdots&\\ddots&\\vdots&\\vdots\\\\\n1&2&3& &n-1&n-1\\\\\n1&2&3&\\ldots&n-1&n\n\\end{array}\n\\right)$\n\n$$\\begin{align*}\nQ((x1,...,xn))&=\\sum_{1\\leqslant i,j\\leqslant n}^{}x_ix_j+\\sum_{2\\leqslant i,j\\leqslant n}^{}x_ix_j+ ... +\\sum_{n-1\\leqslant i,j\\leqslant n}^{}x_ix_j + x_n^2\\\\\n  &= (x_1+...+x_n)^2+(x_2+...+x_n)^2+...+(x_{n-1}+x_n)^2 + x_n^2.\n\\end{align*}$$\n\n\\begin{center}\n\\shadowbox{\n$Q$ est donc définie positive.\n}\n\\end{center}",
+        "html": "<p>Puisque la matrice de <span class=\"math inline\">\\(Q\\)</span> dans la\nbase canonique est <span class=\"math inline\">\\(\\left(\n\\begin{array}{cccccc}\n1&amp;1&amp;1&amp;\\ldots&amp;1&amp;1\\\\\n1&amp;2&amp;2&amp;\\ldots&amp;2&amp;2\\\\\n1&amp;2&amp;3&amp;\\ldots&amp;3&amp;3\\\\\n\\vdots&amp;\\vdots&amp;\\vdots&amp;\\ddots&amp;\\vdots&amp;\\vdots\\\\\n1&amp;2&amp;3&amp; &amp;n-1&amp;n-1\\\\\n1&amp;2&amp;3&amp;\\ldots&amp;n-1&amp;n\n\\end{array}\n\\right)\\)</span></p>\n<p><span class=\"math display\">\\[\\begin{align*}\nQ((x1,...,xn))&amp;=\\sum_{1\\leqslant i,j\\leqslant\nn}^{}x_ix_j+\\sum_{2\\leqslant i,j\\leqslant n}^{}x_ix_j+ ...\n+\\sum_{n-1\\leqslant i,j\\leqslant n}^{}x_ix_j + x_n^2\\\\\n  &amp;= (x_1+...+x_n)^2+(x_2+...+x_n)^2+...+(x_{n-1}+x_n)^2 + x_n^2.\n\\end{align*}\\]</span></p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    }
+  ],
+  "preview": "<p>Rang et signature des formes quadratiques suivantes :</p>\n"
+}

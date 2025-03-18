@@ -1,0 +1,61 @@
+{
+  "uuid": "X14I",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3190",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:55.104Z"
+  },
+  "contenu": [
+    {
+      "id": "02dae3a0-4485-4fe4-b706-88dfbf051a64",
+      "type": "description",
+      "value": {
+        "latex": "Soit $S\\subset \\N$ fini et $P=\\sum_{s\\in S} a_sX^s\\in\\C[X]$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(S\\subset \\N\\)</span> fini et <span\nclass=\"math inline\">\\(P=\\sum_{s\\in S} a_sX^s\\in\\C[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9689560b-87e6-472b-9fd4-867a73682b93",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que les $a_s$ sont r{\\'e}els. Montrer que $P$ a moins de racines strictement positives distinctes que la suite \n$(a_s)$ n'a de changement de signe.",
+        "html": "<p>On suppose que les <span class=\"math inline\">\\(a_s\\)</span> sont\nr<span>é</span>els. Montrer que <span class=\"math inline\">\\(P\\)</span> a\nmoins de racines strictement positives distinctes que la suite <span\nclass=\"math inline\">\\((a_s)\\)</span> n’a de changement de signe.</p>\n"
+      }
+    },
+    {
+      "id": "0d0f59fe-4acc-42a1-b1d8-ec8d4ef0bba4",
+      "type": "reponse",
+      "value": {
+        "latex": "R{\\'e}currence sur $\\mathrm{Card}\\,(S)$ en mettant le terme de plus bas degr{\\'e} en\nfacteur et en d{\\'e}rivant le quotient.",
+        "html": "<p>R<span>é</span>currence sur <span\nclass=\"math inline\">\\(\\mathrm{Card}\\,(S)\\)</span> en mettant le terme de\nplus bas degr<span>é</span> en facteur et en d<span>é</span>rivant le\nquotient.</p>\n"
+      }
+    },
+    {
+      "id": "833c1f59-61ee-4a1d-8e56-cca9265ab5d7",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $P$ v{\\'e}rifie~: $\\forall\\ s\\in S,\\ P(s)=0$. Montrer que $P$ est nul.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(P\\)</span>\nv<span>é</span>rifie : <span class=\"math inline\">\\(\\forall\\ s\\in S,\\\nP(s)=0\\)</span>. Montrer que <span class=\"math inline\">\\(P\\)</span> est\nnul.</p>\n"
+      }
+    },
+    {
+      "id": "21cf0bd7-f466-476c-b8e0-cb8c4032a954",
+      "type": "reponse",
+      "value": {
+        "latex": "Appliquer la question pr{\\'e}c{\\'e}dente aux suites $(\\Re(a_s))$ et $(\\Im(a_s))$.",
+        "html": "<p>Appliquer la question pr<span>é</span>c<span>é</span>dente aux suites\n<span class=\"math inline\">\\((\\Re(a_s))\\)</span> et <span\nclass=\"math inline\">\\((\\Im(a_s))\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(S\\subset \\N\\)</span> fini et <span\nclass=\"math inline\">\\(P=\\sum_{s\\in S} a_sX^s\\in\\C[X]\\)</span>.</p>\n"
+}

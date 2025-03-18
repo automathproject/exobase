@@ -1,0 +1,117 @@
+{
+  "uuid": "Rgfy",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7254",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:21.955Z"
+  },
+  "contenu": [
+    {
+      "id": "c9de699b-748e-427c-93ec-4f0429f4bba6",
+      "type": "description",
+      "value": {
+        "latex": "On rappelle qu'un quadrilatère d'un espace euclidien \\(E\\) est un \r\n\\emph{parallélogramme} si ses diagonales se coupent en leur milieu, \r\nappelé centre du parallélogramme.\r\n\r\nCette définition est aussi valable en dimension 1 et pour les cas où \r\ndeux sommets coïncident. (Dans ces cas, le parallélogramme est plat).\r\n\r\nOn dit que deux bipoints \\((A,B)\\) et \\((C,D)\\) sont \\emph{équipollents} \r\nsi le quadrilatère \\((ABDC)\\) est un parallélogramme.",
+        "html": "<p>On rappelle qu’un quadrilatère d’un espace euclidien <span\nclass=\"math inline\">\\(E\\)</span> est un <em>parallélogramme</em> si ses\ndiagonales se coupent en leur milieu, appelé centre du\nparallélogramme.</p>\n<p>Cette définition est aussi valable en dimension 1 et pour les cas où\ndeux sommets coïncident. (Dans ces cas, le parallélogramme est\nplat).</p>\n<p>On dit que deux bipoints <span class=\"math inline\">\\((A,B)\\)</span>\net <span class=\"math inline\">\\((C,D)\\)</span> sont <em>équipollents</em>\nsi le quadrilatère <span class=\"math inline\">\\((ABDC)\\)</span> est un\nparallélogramme.</p>\n"
+      }
+    },
+    {
+      "id": "1d8f6bc3-2db7-4604-8e36-1da4a5d776f1",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que pour tout couple de points \\((A,B)\\), les bipoints \r\n\\((A,B)\\) et \\((A,B)\\) sont équipollents. On dit alors que la relation \r\nd'équipollence est \\emph{réflexive}.",
+        "html": "<p>Vérifier que pour tout couple de points <span\nclass=\"math inline\">\\((A,B)\\)</span>, les bipoints <span\nclass=\"math inline\">\\((A,B)\\)</span> et <span\nclass=\"math inline\">\\((A,B)\\)</span> sont équipollents. On dit alors que\nla relation d’équipollence est <em>réflexive</em>.</p>\n"
+      }
+    },
+    {
+      "id": "c2af5443-701e-4f29-808f-8041100982e1",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tous bipoints \\((A,B)\\) et \\((C,D)\\), si les \r\nbipoints \\((A,B)\\) et \\((C,D)\\) sont équipollents alors les bipoints \r\n\\((C,D)\\) et \\((A,B)\\) le sont aussi. On dit alors que la relation \r\nd'équipollence est \\emph{symétrique}.",
+        "html": "<p>Montrer que pour tous bipoints <span\nclass=\"math inline\">\\((A,B)\\)</span> et <span\nclass=\"math inline\">\\((C,D)\\)</span>, si les bipoints <span\nclass=\"math inline\">\\((A,B)\\)</span> et <span\nclass=\"math inline\">\\((C,D)\\)</span> sont équipollents alors les\nbipoints <span class=\"math inline\">\\((C,D)\\)</span> et <span\nclass=\"math inline\">\\((A,B)\\)</span> le sont aussi. On dit alors que la\nrelation d’équipollence est <em>symétrique</em>.</p>\n"
+      }
+    },
+    {
+      "id": "90155633-fd8a-4ad4-8d17-81f1416c055c",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que la relation d'équipollence est \\emph{transitive}, \r\nc'est à dire que pour tous triplets \\((A,B)\\), \\((C,D)\\) et \\((F,G)\\) \r\nde bipoints, si les bipoints \\((A,B)\\) et \\((C,D)\\) sont équipollents \r\net si les bipoints \\((C,D)\\) et \\((F,G)\\) sont équipollents alors les \r\nbipoints \\((A,B)\\) et \\((F,G)\\) le sont aussi. (Indication : dans le \r\ncas où le quadrilatère \\((ABGF)\\) n'est pas plat, on pourra considérer \r\nla droite joignant les centres des parallélogrammes \\((ABDC)\\) et \r\n\\((CDGF)\\); dans le cas où le quadrilatère \\((ABGF)\\) est plat, on \r\npourra utiliser le théorème de Thalès.)",
+        "html": "<p>Démontrer que la relation d’équipollence est <em>transitive</em>,\nc’est à dire que pour tous triplets <span\nclass=\"math inline\">\\((A,B)\\)</span>, <span\nclass=\"math inline\">\\((C,D)\\)</span> et <span\nclass=\"math inline\">\\((F,G)\\)</span> de bipoints, si les bipoints <span\nclass=\"math inline\">\\((A,B)\\)</span> et <span\nclass=\"math inline\">\\((C,D)\\)</span> sont équipollents et si les\nbipoints <span class=\"math inline\">\\((C,D)\\)</span> et <span\nclass=\"math inline\">\\((F,G)\\)</span> sont équipollents alors les\nbipoints <span class=\"math inline\">\\((A,B)\\)</span> et <span\nclass=\"math inline\">\\((F,G)\\)</span> le sont aussi. (Indication : dans\nle cas où le quadrilatère <span class=\"math inline\">\\((ABGF)\\)</span>\nn’est pas plat, on pourra considérer la droite joignant les centres des\nparallélogrammes <span class=\"math inline\">\\((ABDC)\\)</span> et <span\nclass=\"math inline\">\\((CDGF)\\)</span>; dans le cas où le quadrilatère\n<span class=\"math inline\">\\((ABGF)\\)</span> est plat, on pourra utiliser\nle théorème de Thalès.)</p>\n"
+      }
+    },
+    {
+      "id": "bb78a7a2-8f49-4282-9921-71f7b73e3bde",
+      "type": "question",
+      "value": {
+        "latex": "On résume les trois propriétés précédentes en disant que la \r\nrelation d'équipollence est \\emph{une relation d'équivalence}.\r\nLa \\emph{classe d'équipollence} du bipoint \\((A,B)\\) est par \r\ndéfinition l'ensemble des bipoints équipollents à \\((A,B)\\).\r\nElle est appelée \\emph{vecteur} et notée \\(\\vec{AB}\\).\r\nSi \\((C,D)\\) est équipollent à \\((A,B)\\), on dit que \\((C,D)\\) est \r\nun \\emph{représentant} de \\(\\vec{AB}\\). Montrer qu'étant donné un \r\npoint \\(A\\) et un vecteur \\(\\vec{u}\\), il existe un unique point \\(B\\) \r\ntel que \\(\\vec{AB} = \\vec{u}\\). On notera \\(B = t_{\\vec{u}}(A)\\).",
+        "html": "<p>On résume les trois propriétés précédentes en disant que la relation\nd’équipollence est <em>une relation d’équivalence</em>. La <em>classe\nd’équipollence</em> du bipoint <span\nclass=\"math inline\">\\((A,B)\\)</span> est par définition l’ensemble des\nbipoints équipollents à <span class=\"math inline\">\\((A,B)\\)</span>. Elle\nest appelée <em>vecteur</em> et notée <span\nclass=\"math inline\">\\(\\vec{AB}\\)</span>. Si <span\nclass=\"math inline\">\\((C,D)\\)</span> est équipollent à <span\nclass=\"math inline\">\\((A,B)\\)</span>, on dit que <span\nclass=\"math inline\">\\((C,D)\\)</span> est un <em>représentant</em> de\n<span class=\"math inline\">\\(\\vec{AB}\\)</span>. Montrer qu’étant donné un\npoint <span class=\"math inline\">\\(A\\)</span> et un vecteur <span\nclass=\"math inline\">\\(\\vec{u}\\)</span>, il existe un unique point <span\nclass=\"math inline\">\\(B\\)</span> tel que <span\nclass=\"math inline\">\\(\\vec{AB} = \\vec{u}\\)</span>. On notera <span\nclass=\"math inline\">\\(B = t_{\\vec{u}}(A)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e0be0117-6167-47d7-9906-1d6366a15c1d",
+      "type": "question",
+      "value": {
+        "latex": "Étant donnés un point \\(A\\) et un représentant \\((F, G)\\) \r\ndu vecteur \\(\\vec{u}\\), construire à la règle et au compas le \r\npoint \\(t_{\\vec{u}}(A)\\).",
+        "html": "<p>Étant donnés un point <span class=\"math inline\">\\(A\\)</span> et un\nreprésentant <span class=\"math inline\">\\((F, G)\\)</span> du vecteur\n<span class=\"math inline\">\\(\\vec{u}\\)</span>, construire à la règle et\nau compas le point <span\nclass=\"math inline\">\\(t_{\\vec{u}}(A)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "43aca91f-771a-4aff-b303-aa800f858175",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si deux bipoints \\((A,B)\\) et \\((C,D)\\) sont \r\néquipollents, alors les bipoints \\((A,C)\\) et \\((B,D)\\) le sont aussi.",
+        "html": "<p>Montrer que si deux bipoints <span\nclass=\"math inline\">\\((A,B)\\)</span> et <span\nclass=\"math inline\">\\((C,D)\\)</span> sont équipollents, alors les\nbipoints <span class=\"math inline\">\\((A,C)\\)</span> et <span\nclass=\"math inline\">\\((B,D)\\)</span> le sont aussi.</p>\n"
+      }
+    },
+    {
+      "id": "9ccfb828-eb7c-45ac-8617-b6c3f2cd6c2a",
+      "type": "question",
+      "value": {
+        "latex": "On définit la somme de deux vecteurs \\(\\vec{u}\\) et \\(\\vec{v}\\) \r\npar le procédé suivant:\r\n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "a0822f8b-5324-44b2-ab88-eb6d5dda6c8f",
+      "type": "question",
+      "value": {
+        "latex": "On choisit un point \\(A\\).",
+        "html": "<p>On choisit un point <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3c2522e2-f965-4f51-8e5d-b8e9e40cd5dd",
+      "type": "question",
+      "value": {
+        "latex": "On détermine le point \\(B\\) tel que \\(\\vec{AB} = \\vec{u}\\).",
+        "html": "<p>On détermine le point <span class=\"math inline\">\\(B\\)</span> tel que\n<span class=\"math inline\">\\(\\vec{AB} = \\vec{u}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1a91be33-fd16-4154-ab60-132898cbb704",
+      "type": "question",
+      "value": {
+        "latex": "On détermine le point \\(C\\) tel que \\(\\vec{BC} = \\vec{v}\\).",
+        "html": "<p>On détermine le point <span class=\"math inline\">\\(C\\)</span> tel que\n<span class=\"math inline\">\\(\\vec{BC} = \\vec{v}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "682abeaa-c4a7-45d6-b3f4-8b45864aa0e5",
+      "type": "question",
+      "value": {
+        "latex": "On définit \\(\\vec{u} + \\vec{v} := \\vec{AC}\\).\r\n\\end{itemize}\r\nMontrer que la \\emph{somme} ainsi définie est indépendante du choix du \r\npoint de base \\(A\\), c'est à dire, montrer que si on choisit un autre \r\npoint \\(A'\\) comme point de base, le bipoint \\((A',C')\\) construit \r\nalors est équipollent au bipoint \\((A,C)\\) construit en partant du \r\npoint \\(A\\). (Indication : On pourra montrer que \\((A,A')\\) est \r\néquipollent à \\((C,C')\\).)",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>On rappelle qu’un quadrilatère d’un espace euclidien <span\nclass=\"math inline\">\\(E\\)</span> est un <em>parallélogramme</em> si ses\ndiagonales se co ..."
+}

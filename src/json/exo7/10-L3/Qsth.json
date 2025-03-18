@@ -1,0 +1,93 @@
+{
+  "uuid": "Qsth",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2275",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:55.484Z"
+  },
+  "contenu": [
+    {
+      "id": "aa3114a4-303c-4de0-b0a2-4d1237dc16cf",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que $f$ est irr\\'eductible dans \n$\\Qq[x]$ :",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est irréductible\ndans <span class=\"math inline\">\\(\\Qq[x]\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "59877dc9-3bc3-42fe-bf30-123f81adfc84",
+      "type": "question",
+      "value": {
+        "latex": "$f=x^4-8x^3+12x^2-6x+2$;",
+        "html": "<p><span class=\"math inline\">\\(f=x^4-8x^3+12x^2-6x+2\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "c469ff02-d434-4ca9-9c32-6c9b7492063c",
+      "type": "reponse",
+      "value": {
+        "latex": "$P$ est primitif, $2$ divise tous les coefficients de $P$ sauf le\n    dominant, et $4$ ne divise pas le terme constant~: d'après le critère\n    d'Eisenstein, on en déduit que $P$ est irréductible dans $\\Zz[x]$\n    (puis dans $\\Qq[x]$ car il est unitaire...).",
+        "html": "<p><span class=\"math inline\">\\(P\\)</span> est primitif, <span\nclass=\"math inline\">\\(2\\)</span> divise tous les coefficients de <span\nclass=\"math inline\">\\(P\\)</span> sauf le dominant, et <span\nclass=\"math inline\">\\(4\\)</span> ne divise pas le terme constant :\nd’après le critère d’Eisenstein, on en déduit que <span\nclass=\"math inline\">\\(P\\)</span> est irréductible dans <span\nclass=\"math inline\">\\(\\Zz[x]\\)</span> (puis dans <span\nclass=\"math inline\">\\(\\Qq[x]\\)</span> car il est unitaire...).</p>\n"
+      }
+    },
+    {
+      "id": "b9b5d0e5-6cf7-4273-a58e-928989bc8ca9",
+      "type": "question",
+      "value": {
+        "latex": "$f=x^5-12x^3+36x-12$;",
+        "html": "<p><span class=\"math inline\">\\(f=x^5-12x^3+36x-12\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "7dc20df5-5554-4fd2-8176-3c52ddd88cb0",
+      "type": "reponse",
+      "value": {
+        "latex": "On peut appliquer le même critère, avec $3$ cette fois.",
+        "html": "<p>On peut appliquer le même critère, avec <span\nclass=\"math inline\">\\(3\\)</span> cette fois.</p>\n"
+      }
+    },
+    {
+      "id": "0740d403-d4fd-4613-a09c-12b347c14ad2",
+      "type": "question",
+      "value": {
+        "latex": "$f=x^4-x^3+2x+1$;",
+        "html": "<p><span class=\"math inline\">\\(f=x^4-x^3+2x+1\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "9d38d77c-d42b-4855-a002-04b4fb508c74",
+      "type": "reponse",
+      "value": {
+        "latex": "$f$ est primitif, et sa réduction modulo $2$ est irréductible. Donc\n    $f$ est irréductible dans $\\Zz[x]$.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est primitif, et sa réduction\nmodulo <span class=\"math inline\">\\(2\\)</span> est irréductible. Donc\n<span class=\"math inline\">\\(f\\)</span> est irréductible dans <span\nclass=\"math inline\">\\(\\Zz[x]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fde220ad-a000-47ef-a2c4-91f910e4899d",
+      "type": "question",
+      "value": {
+        "latex": "$f=x^{p-1}+\\dots+x+1$, o\\`u $p$ est premier.",
+        "html": "<p><span class=\"math inline\">\\(f=x^{p-1}+\\dots+x+1\\)</span>, où <span\nclass=\"math inline\">\\(p\\)</span> est premier.</p>\n"
+      }
+    },
+    {
+      "id": "fd97f03d-6436-43e0-bf96-fa16b8fbdb83",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x+1)=\\sum_{k=1}^{p}C_{p}^{k}x^{k-1}$. Or $p|\\frac{p!}{k!(p-k)!}$\n    (car $p$ apparaît au numérateur, tandis que tous les facteurs du\n    dénominateur sont $<p$~; comme $p$ est premier, ils sont donc\n    premiers avec $p$). De plus $C_{p}^{1}=p$, donc $p^{2}$ ne divise pas\n    le terme constant de $f(x+1)$. D'après le critère d'Eisenstein,\n    $f(x+1)$ est irréductible, et donc $f$ aussi.",
+        "html": "<p><span\nclass=\"math inline\">\\(f(x+1)=\\sum_{k=1}^{p}C_{p}^{k}x^{k-1}\\)</span>. Or\n<span class=\"math inline\">\\(p|\\frac{p!}{k!(p-k)!}\\)</span> (car <span\nclass=\"math inline\">\\(p\\)</span> apparaît au numérateur, tandis que tous\nles facteurs du dénominateur sont <span\nclass=\"math inline\">\\(&lt;p\\)</span> ; comme <span\nclass=\"math inline\">\\(p\\)</span> est premier, ils sont donc premiers\navec <span class=\"math inline\">\\(p\\)</span>). De plus <span\nclass=\"math inline\">\\(C_{p}^{1}=p\\)</span>, donc <span\nclass=\"math inline\">\\(p^{2}\\)</span> ne divise pas le terme constant de\n<span class=\"math inline\">\\(f(x+1)\\)</span>. D’après le critère\nd’Eisenstein, <span class=\"math inline\">\\(f(x+1)\\)</span> est\nirréductible, et donc <span class=\"math inline\">\\(f\\)</span> aussi.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est irréductible\ndans <span class=\"math inline\">\\(\\Qq[x]\\)</span> :</p>\n"
+}

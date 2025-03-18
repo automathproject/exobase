@@ -1,0 +1,61 @@
+{
+  "uuid": "gPDK",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2585",
+    "auteur": "delaunay",
+    "createdAt": "2009-05-19",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Matrice et application linéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:31.869Z"
+  },
+  "contenu": [
+    {
+      "id": "34282804-6ecf-41f9-98c1-2033d53d9283",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A$ et $B$ des matrices non nulles de $M_n(\\R)$. On suppose que $A.B=0$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> des matrices non nulles de <span\nclass=\"math inline\">\\(M_n(\\R)\\)</span>. On suppose que <span\nclass=\"math inline\">\\(A.B=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6e7059b5-442a-47c0-a42d-6f5d85fb1bf5",
+      "type": "question",
+      "value": {
+        "latex": "D\\'emontrer que $\\Im B\\subset \\ker A$.",
+        "html": "<p>Démontrer que <span class=\"math inline\">\\(\\Im B\\subset \\ker\nA\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3d36c94c-5730-4a3d-9a7c-b433a0566f45",
+      "type": "reponse",
+      "value": {
+        "latex": "D\\'emontrons que $\\Im B\\subset \\ker A$.\n\nSoit $y\\in \\Im B$, il existe $x\\in\\R^n$ tel que $y=Bx$, d'o\\`u $Ay=ABx=0$, ainsi $y\\in\\ker A$ ce qui prouve l'inclusion.",
+        "html": "<p>Démontrons que <span class=\"math inline\">\\(\\Im B\\subset \\ker\nA\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\(y\\in \\Im B\\)</span>, il existe <span\nclass=\"math inline\">\\(x\\in\\R^n\\)</span> tel que <span\nclass=\"math inline\">\\(y=Bx\\)</span>, d’où <span\nclass=\"math inline\">\\(Ay=ABx=0\\)</span>, ainsi <span\nclass=\"math inline\">\\(y\\in\\ker A\\)</span> ce qui prouve l’inclusion.</p>\n"
+      }
+    },
+    {
+      "id": "817d9b4e-ea87-4b6e-81c1-b593202f650e",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que le rang de $A$ est \\'egal \\`a $n-1$, d\\'eterminer le rang de $B$.",
+        "html": "<p>On suppose que le rang de <span class=\"math inline\">\\(A\\)</span> est\négal à <span class=\"math inline\">\\(n-1\\)</span>, déterminer le rang de\n<span class=\"math inline\">\\(B\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9488e560-3452-4389-93ac-0bd17a1994d4",
+      "type": "reponse",
+      "value": {
+        "latex": "On suppose que le rang de $A$ est \\'egal \\`a $n-1$, d\\'eterminons le rang de $B$.\n\nOn a $\\mathrm{rg} B=\\dim \\Im B$ et on sait que $\\dim\\Im A+\\dim\\ker A=n$ par cons\\'equent, si $\\mathrm{rg} A=n-1$ on a $\\dim\\ker A=1$ et l'inclusion $\\Im B\\subset \\ker A$ implique $\\dim\\Im B\\leq 1$ or, $B$ est suppos\\'ee non nulle d'o\\`u $\\dim\\Im B=1=\\mathrm{rg} B$.",
+        "html": "<p>On suppose que le rang de <span class=\"math inline\">\\(A\\)</span> est\négal à <span class=\"math inline\">\\(n-1\\)</span>, déterminons le rang de\n<span class=\"math inline\">\\(B\\)</span>.</p>\n<p>On a <span class=\"math inline\">\\(\\mathrm{rg} B=\\dim \\Im B\\)</span> et\non sait que <span class=\"math inline\">\\(\\dim\\Im A+\\dim\\ker A=n\\)</span>\npar conséquent, si <span class=\"math inline\">\\(\\mathrm{rg}\nA=n-1\\)</span> on a <span class=\"math inline\">\\(\\dim\\ker A=1\\)</span> et\nl’inclusion <span class=\"math inline\">\\(\\Im B\\subset \\ker A\\)</span>\nimplique <span class=\"math inline\">\\(\\dim\\Im B\\leq 1\\)</span> or, <span\nclass=\"math inline\">\\(B\\)</span> est supposée non nulle d’où <span\nclass=\"math inline\">\\(\\dim\\Im B=1=\\mathrm{rg} B\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> des matrices non nulles de <span\nclass=\"math inline\"> ..."
+}

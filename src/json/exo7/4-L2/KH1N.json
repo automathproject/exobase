@@ -1,0 +1,77 @@
+{
+  "uuid": "KH1N",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1650",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Diagonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:21.938Z"
+  },
+  "contenu": [
+    {
+      "id": "dce8235d-2327-47a9-839e-9da0f25e2162",
+      "type": "description",
+      "value": {
+        "latex": "Soient $\\ M  $ et $  N \\in M_n (\\mathbb{K} )  .$ On note $  \\varphi _M \\in \\mathcal{L}\n(M_n (\\mathbb{K} ))  $ l'application $  N\\mapsto  MN-NM   .$",
+        "html": "<p>Soient <span class=\"math inline\">\\(\\ M\\)</span> et <span\nclass=\"math inline\">\\(N \\in M_n (\\mathbb{K} )  .\\)</span> On note <span\nclass=\"math inline\">\\(\\varphi _M \\in \\mathcal{L}\n(M_n (\\mathbb{K} ))\\)</span> l’application <span\nclass=\"math inline\">\\(N\\mapsto  MN-NM   .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e3443422-f259-4bd3-ab19-3bb71532fabf",
+      "type": "question",
+      "value": {
+        "latex": "Soient $  A= \\begin{pmatrix}3 &\n-4\\cr\n                                      2 & -3 \\cr \\end{pmatrix} $ et $  B= \\begin{pmatrix}1 & 2\\cr\n                                      0 & 1 \\cr \\end{pmatrix} .$ Diagonaliser $  A  $ et\nmontrer que $  B   $ n'est pas diagonalisable.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A= \\begin{pmatrix}3 &amp;\n-4\\cr\n                                      2 &amp; -3 \\cr\n\\end{pmatrix}\\)</span> et <span class=\"math inline\">\\(B=\n\\begin{pmatrix}1 &amp; 2\\cr\n                                      0 &amp; 1 \\cr \\end{pmatrix}\n.\\)</span> Diagonaliser <span class=\"math inline\">\\(A\\)</span> et\nmontrer que <span class=\"math inline\">\\(B\\)</span> n’est pas\ndiagonalisable.</p>\n"
+      }
+    },
+    {
+      "id": "fe38e18c-e891-45e0-9cb4-91ac7e1425a0",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $  N  $ est un vecteur propre associ\\'e \\`a une\nvaleur propre non nulle $  \\lambda   $ de $  \\varphi _M   $ alors $  N   $ est nilpotente. (on\npourra \\'etablir que pour tout $  k \\in \\N   :   MN^k-N^kM=k\\lambda N^k  $.)",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(N\\)</span> est un vecteur\npropre associé à une valeur propre non nulle <span\nclass=\"math inline\">\\(\\lambda\\)</span> de <span\nclass=\"math inline\">\\(\\varphi _M\\)</span> alors <span\nclass=\"math inline\">\\(N\\)</span> est nilpotente. (on pourra établir que\npour tout <span class=\"math inline\">\\(k \\in \\N   :   MN^k-N^kM=k\\lambda\nN^k\\)</span>.)</p>\n"
+      }
+    },
+    {
+      "id": "bf1d8525-bfc8-4832-be53-d11edf140c55",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'identit\\'e n'appartient pas \\`a l'image de $  \\varphi _M   .$ (utiliser la trace.)",
+        "html": "<p>Montrer que l’identité n’appartient pas à l’image de <span\nclass=\"math inline\">\\(\\varphi _M   .\\)</span> (utiliser la trace.)</p>\n"
+      }
+    },
+    {
+      "id": "0fa4d5ac-9859-431d-877e-9b4c537c3693",
+      "type": "question",
+      "value": {
+        "latex": "Soit $  D=\\begin{pmatrix}1 & 0  \\cr\n                                      0 & -1 \\cr \\end{pmatrix} .$ Diagonaliser $  \\varphi _D\n  $ puis $  \\varphi _A  .$ Montrer que\n$  \\varphi _B  $ n'est pas diagonalisable.",
+        "html": "<p>Soit <span class=\"math inline\">\\(D=\\begin{pmatrix}1 &amp; 0  \\cr\n                                      0 &amp; -1 \\cr \\end{pmatrix}\n.\\)</span> Diagonaliser <span class=\"math inline\">\\(\\varphi _D\\)</span>\npuis <span class=\"math inline\">\\(\\varphi _A  .\\)</span> Montrer que\n<span class=\"math inline\">\\(\\varphi _B\\)</span> n’est pas\ndiagonalisable.</p>\n"
+      }
+    },
+    {
+      "id": "fd64161c-d6e0-4015-aed6-586f2ef2c450",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $  M  $ est diagonalisable, $  \\varphi _M   $ est diagonalisable.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(M\\)</span> est\ndiagonalisable, <span class=\"math inline\">\\(\\varphi _M\\)</span> est\ndiagonalisable.</p>\n"
+      }
+    },
+    {
+      "id": "4cafbf0c-de5a-449f-b20a-11d3cb7f88bd",
+      "type": "question",
+      "value": {
+        "latex": "Etablir la r\\'eciproque lorsque $  M  $ a au moins une valeur propre.",
+        "html": "<p>Etablir la réciproque lorsque <span class=\"math inline\">\\(M\\)</span>\na au moins une valeur propre.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(\\ M\\)</span> et <span\nclass=\"math inline\">\\(N \\in M_n (\\mathbb{K} )  .\\)</span> On note <span\nclass=\"math inline ..."
+}

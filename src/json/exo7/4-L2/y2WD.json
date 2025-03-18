@@ -1,0 +1,61 @@
+{
+  "uuid": "y2WD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3544",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Polynôme annulateur",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:15.235Z"
+  },
+  "contenu": [
+    {
+      "id": "5070d83b-a0ac-40d6-8279-646226a14015",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A=\\left(\\begin{smallmatrix}1&1&1&1\\cr -1&1&-1&1\\cr -1&1&1&-1\\cr -1&-1&1&1\\cr\\end{smallmatrix}\\right)$.\\par",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(A=\\left(\\begin{smallmatrix}1&amp;1&amp;1&amp;1\\cr\n-1&amp;1&amp;-1&amp;1\\cr -1&amp;1&amp;1&amp;-1\\cr\n-1&amp;-1&amp;1&amp;1\\cr\\end{smallmatrix}\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a4928c5e-3629-44b3-99ab-9960f37c0ecf",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\det A$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\det A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e9d9a362-c697-4be4-993c-7c99ebbb4880",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $(A-xI)(\\,{}^t\\!A-xI)$ et en déduire $\\chi_A(x)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\((A-xI)(\\,{}^t\\!A-xI)\\)</span> et\nen déduire <span class=\"math inline\">\\(\\chi_A(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4d9332a1-ed45-4546-b433-edb7abc9d2a3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $A$ est $\\C$-diagonalisable.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(A\\)</span> est <span\nclass=\"math inline\">\\(\\C\\)</span>-diagonalisable.</p>\n"
+      }
+    },
+    {
+      "id": "1b96e97c-8984-4853-af34-075568ba84b1",
+      "type": "reponse",
+      "value": {
+        "latex": "$(A-xI)(\\,{}^t\\!A-xI) = (x^2-2x+4)I$, $\\chi_A(x) = x^2-2x+4$.\n$\\,{}^t\\!A = 2I-A$ donc $(A-xI)((2-x)I-A) = (x^2-2x+4)I$.\n             En prenant pour $x$ une des racines du polynôme $x^2-2x+4$, on obtient\n             un polynôme scindé à racines simples annulant $A$.",
+        "html": "<p><span class=\"math inline\">\\((A-xI)(\\,{}^t\\!A-xI) =\n(x^2-2x+4)I\\)</span>, <span class=\"math inline\">\\(\\chi_A(x) =\nx^2-2x+4\\)</span>. <span class=\"math inline\">\\(\\,{}^t\\!A = 2I-A\\)</span>\ndonc <span class=\"math inline\">\\((A-xI)((2-x)I-A) =\n(x^2-2x+4)I\\)</span>. En prenant pour <span\nclass=\"math inline\">\\(x\\)</span> une des racines du polynôme <span\nclass=\"math inline\">\\(x^2-2x+4\\)</span>, on obtient un polynôme scindé à\nracines simples annulant <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "FGOx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5938",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Tribu, fonction mesurable",
+    "sousChapitre": "Tribu, fonction mesurable",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:09.823Z"
+  },
+  "contenu": [
+    {
+      "id": "0dfa1e88-d39e-4fc7-9332-54b04fa61773",
+      "type": "description",
+      "value": {
+        "latex": "Soit $p>0$. Soit $f~:\\mathbb{R}^n \\rightarrow\\mathbb{R}^+$ la fonction\nd\\'efinie par $$f(x) = |x|^{-p} \\mathbf{1}_{\\{|x|<1\\}}(x).$$ Calculer\nl'int\\'egrale de $f$ par rapport \\`a la mesure de Lebesgue de\n$\\mathbb{R}^n$ de deux mani\\`eres diff\\'erentes~:",
+        "html": "<p>Soit <span class=\"math inline\">\\(p&gt;0\\)</span>. Soit <span\nclass=\"math inline\">\\(f~:\\mathbb{R}^n \\rightarrow\\mathbb{R}^+\\)</span>\nla fonction définie par <span class=\"math display\">\\[f(x) = |x|^{-p}\n\\mathbf{1}_{\\{|x|&lt;1\\}}(x).\\]</span> Calculer l’intégrale de <span\nclass=\"math inline\">\\(f\\)</span> par rapport à la mesure de Lebesgue de\n<span class=\"math inline\">\\(\\mathbb{R}^n\\)</span> de deux manières\ndifférentes :</p>\n"
+      }
+    },
+    {
+      "id": "4a804499-1321-4bc6-8ecc-5d031d3c9fd3",
+      "type": "question",
+      "value": {
+        "latex": "[(i)] En utilisant les coordonn\\'ees polaires et les\nm\\'ethodes standard de calcul d'int\\'egrales~;",
+        "html": "<p>[(i)] En utilisant les coordonnées polaires et les méthodes standard\nde calcul d’intégrales ;</p>\n"
+      }
+    },
+    {
+      "id": "71801be2-743c-4ab7-af38-cc381b6976b2",
+      "type": "reponse",
+      "value": {
+        "latex": "[(i)] On a~:\n\\begin{eqnarray*} \\int_{\\mathbb{R}^{n}} f(x)\\,dx & = &\n\\int_{\\mathbb{R}^n}|x|^{-p} \\mathbf{1}_{\\{|x|<1\\}}(x) \\,dx = \\int_{|x|<1}\n|x|^{-p}\\,dx = \\int_{r=0}^{1}\\int_{\\sigma \\in \\mathcal{S}_{n-1}}\nr^{n-p-1} dr d\\sigma\\\\\n& = & \\frac{2\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}\\right)}\n\\int_{0}^{1} r^{n-p-1}\\,dr.\n\\end{eqnarray*}\nPour $n \\leq p$, il vient\n\\begin{eqnarray*}\n \\int_{\\mathbb{R}^{n}} f(x)\\,dx &=& +\\infty.\n\\end{eqnarray*}\nPour $p < n$, il vient\n\\begin{eqnarray*}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &=&\n\\frac{2\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}\\right)}\n\\left[\\frac{r^{n-p}}{(n-p)}\\right]_{0}^{1} =\n\\frac{2\\pi^{\\frac{n}{2}}}{(n - p)\\Gamma\\left(\\frac{n}{2}\\right)}\n\\end{eqnarray*}",
+        "html": "<p>[(i)] On a : <span class=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &amp; = &amp;\n\\int_{\\mathbb{R}^n}|x|^{-p} \\mathbf{1}_{\\{|x|&lt;1\\}}(x) \\,dx =\n\\int_{|x|&lt;1}\n|x|^{-p}\\,dx = \\int_{r=0}^{1}\\int_{\\sigma \\in \\mathcal{S}_{n-1}}\nr^{n-p-1} dr d\\sigma\\\\\n&amp; = &amp; \\frac{2\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}\\right)}\n\\int_{0}^{1} r^{n-p-1}\\,dr.\n\\end{aligned}\\]</span> Pour <span class=\"math inline\">\\(n \\leq\np\\)</span>, il vient <span class=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &amp;=&amp; +\\infty.\n\\end{aligned}\\]</span> Pour <span class=\"math inline\">\\(p &lt;\nn\\)</span>, il vient <span class=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &amp;=&amp;\n\\frac{2\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}\\right)}\n\\left[\\frac{r^{n-p}}{(n-p)}\\right]_{0}^{1} =\n\\frac{2\\pi^{\\frac{n}{2}}}{(n - p)\\Gamma\\left(\\frac{n}{2}\\right)}\n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "2cc10413-5e2d-4f89-8809-5570ad6ecca4",
+      "type": "question",
+      "value": {
+        "latex": "[(ii)] En\ncalculant la mesure des ensembles $S_{f}(a) = \\{x\\in\\Omega,\nf(x)>a\\}$ et la d\\'efinition de l'int\\'egrale de Lebesgue.",
+        "html": "<p>[(ii)] En calculant la mesure des ensembles <span\nclass=\"math inline\">\\(S_{f}(a) = \\{x\\in\\Omega,\nf(x)&gt;a\\}\\)</span> et la définition de l’intégrale de Lebesgue.</p>\n"
+      }
+    },
+    {
+      "id": "f05760b5-07c9-4df4-a930-f0969f64e359",
+      "type": "reponse",
+      "value": {
+        "latex": "[(ii)] Pour $a\\in[0,+\\infty[$,\n\\begin{eqnarray*}\nS_{f}(a) = \\{ x\\in\\mathbb{R}^{n}, |x|^{-p} \\mathbf{1}_{|x|<1} > a\\} =\n\\{x\\in\\mathbb{R}^{n}, |x|^{-p} > a\\}\\cap \\mathcal{B}(0, 1),\n\\end{eqnarray*}\no\\`u $\\mathcal{B}(0, 1)$ est la boule de centre 0 et de rayon 1.\nAinsi\n\\begin{eqnarray*}\nS_{f}(a) = \\{ x\\in\\mathbb{R}^{n}, a^{-\\frac{1}{p}} > |x|\\}\\cap\n\\mathcal{B}(0, 1).\n\\end{eqnarray*}\nOn en d\\'eduit que $S_{f}(a) = \\mathcal{B}(0, 1)$ si\n$a^{-\\frac{1}{p}}>1$, i.e. si $a<1$ et que $S_{f}(a)$ est \\'egale\n\\`a la boule $\\mathcal{B}(0, a^{-\\frac{1}{p}})$ de centre 0 et de\nrayon $a^{-\\frac{1}{p}}$ lorsque $a\\geq 1$. Il vient alors~:\n\\begin{eqnarray*}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &=& \\int_{0}^{+\\infty}\n\\mu\\left(S_{f}(a)\\right)\\,da = \\int_{0}^{1}\n\\mu\\left(\\mathcal{B}(0,1) \\right)\\,da + \\int_{1}^{+\\infty}\n\\mu\\left(\\mathcal{B}(0, a^{-\\frac{1}{p}})\\right)\\,da\\\\\n& = & \\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)} +\n\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\\int_{1}^{+\\infty}\na^{-\\frac{n}{p}}\\,da.\n\\end{eqnarray*}\nSi $p\\geq n$, on obtient $\\int_{\\mathbb{R}^{n}} f(x)\\,dx =+\\infty$\net pour $p<n$, on a~:\n\\begin{eqnarray*}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx & =\n&\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)} +\n\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\\left[\\frac{a^{-\\frac{n}{p}+1}}{-\\frac{n}{p}+1}\\right]_{1}^{+\\infty}\\\\\n&=&\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\\left(1\n+ \\frac{p}{n-p} \\right) = \\frac{2\\pi^{\\frac{n}{2}}}{(n -\np)\\Gamma\\left(\\frac{n}{2}\\right)}.\n\\end{eqnarray*}",
+        "html": "<p>[(ii)] Pour <span class=\"math inline\">\\(a\\in[0,+\\infty[\\)</span>,\n<span class=\"math display\">\\[\\begin{aligned}\nS_{f}(a) = \\{ x\\in\\mathbb{R}^{n}, |x|^{-p} \\mathbf{1}_{|x|&lt;1} &gt;\na\\} =\n\\{x\\in\\mathbb{R}^{n}, |x|^{-p} &gt; a\\}\\cap \\mathcal{B}(0, 1),\n\\end{aligned}\\]</span> où <span class=\"math inline\">\\(\\mathcal{B}(0,\n1)\\)</span> est la boule de centre 0 et de rayon 1. Ainsi <span\nclass=\"math display\">\\[\\begin{aligned}\nS_{f}(a) = \\{ x\\in\\mathbb{R}^{n}, a^{-\\frac{1}{p}} &gt; |x|\\}\\cap\n\\mathcal{B}(0, 1).\n\\end{aligned}\\]</span> On en déduit que <span\nclass=\"math inline\">\\(S_{f}(a) = \\mathcal{B}(0, 1)\\)</span> si <span\nclass=\"math inline\">\\(a^{-\\frac{1}{p}}&gt;1\\)</span>, i.e. si <span\nclass=\"math inline\">\\(a&lt;1\\)</span> et que <span\nclass=\"math inline\">\\(S_{f}(a)\\)</span> est égale à la boule <span\nclass=\"math inline\">\\(\\mathcal{B}(0, a^{-\\frac{1}{p}})\\)</span> de\ncentre 0 et de rayon <span\nclass=\"math inline\">\\(a^{-\\frac{1}{p}}\\)</span> lorsque <span\nclass=\"math inline\">\\(a\\geq 1\\)</span>. Il vient alors : <span\nclass=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &amp;=&amp; \\int_{0}^{+\\infty}\n\\mu\\left(S_{f}(a)\\right)\\,da = \\int_{0}^{1}\n\\mu\\left(\\mathcal{B}(0,1) \\right)\\,da + \\int_{1}^{+\\infty}\n\\mu\\left(\\mathcal{B}(0, a^{-\\frac{1}{p}})\\right)\\,da\\\\\n&amp; = &amp; \\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\n+\n\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\\int_{1}^{+\\infty}\na^{-\\frac{n}{p}}\\,da.\n\\end{aligned}\\]</span> Si <span class=\"math inline\">\\(p\\geq n\\)</span>,\non obtient <span class=\"math inline\">\\(\\int_{\\mathbb{R}^{n}} f(x)\\,dx\n=+\\infty\\)</span> et pour <span class=\"math inline\">\\(p&lt;n\\)</span>,\non a : <span class=\"math display\">\\[\\begin{aligned}\n\\int_{\\mathbb{R}^{n}} f(x)\\,dx &amp; =\n&amp;\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)} +\n\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\\left[\\frac{a^{-\\frac{n}{p}+1}}{-\\frac{n}{p}+1}\\right]_{1}^{+\\infty}\\\\\n&amp;=&amp;\\frac{\\pi^{\\frac{n}{2}}}{\\Gamma\\left(\\frac{n}{2}+1\\right)}\\left(1\n+ \\frac{p}{n-p} \\right) = \\frac{2\\pi^{\\frac{n}{2}}}{(n -\np)\\Gamma\\left(\\frac{n}{2}\\right)}.\n\\end{aligned}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(p&gt;0\\)</span>. Soit <span\nclass=\"math inline\">\\(f~:\\mathbb{R}^n \\rightarrow\\mathbb{R}^+\\)</span>\nla fonction déf ..."
+}

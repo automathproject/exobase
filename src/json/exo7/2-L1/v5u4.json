@@ -1,0 +1,37 @@
+{
+  "uuid": "v5u4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3914",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonctions circulaires et hyperboliques inverses",
+    "sousChapitre": "Fonctions circulaires inverses",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:06.596Z"
+  },
+  "contenu": [
+    {
+      "id": "4ff68980-b1e5-45a9-853a-bcc978996bca",
+      "type": "description",
+      "value": {
+        "latex": "Le langage ``Pascal'' ne dispose pas des fonctions $\\arcsin$ et $\\arccos$.\nDéfinir $\\arcsin x$ et $\\arccos x$ à l'aide de la fonction $\\arctan$.",
+        "html": "<p>Le langage “Pascal” ne dispose pas des fonctions <span\nclass=\"math inline\">\\(\\arcsin\\)</span> et <span\nclass=\"math inline\">\\(\\arccos\\)</span>. Définir <span\nclass=\"math inline\">\\(\\arcsin x\\)</span> et <span\nclass=\"math inline\">\\(\\arccos x\\)</span> à l’aide de la fonction <span\nclass=\"math inline\">\\(\\arctan\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b6266681-59c2-4a3a-808a-fed3f687d5b3",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\arcsin x = \\arctan\\left( \\frac x{\\sqrt{1-x^2}} \\right)$.",
+        "html": "<p><span class=\"math inline\">\\(\\arcsin x = \\arctan\\left( \\frac\nx{\\sqrt{1-x^2}} \\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Le langage “Pascal” ne dispose pas des fonctions <span\nclass=\"math inline\">\\(\\arcsin\\)</span> et <span\nclass=\"math inline\">\\(\\arccos\\)</span>. Défi ..."
+}

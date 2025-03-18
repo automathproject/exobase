@@ -1,0 +1,85 @@
+{
+  "uuid": "rz5t",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3350",
+    "auteur": "quercia",
+    "createdAt": "2010-03-09",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Image et noyau, théorème du rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:11.113Z"
+  },
+  "contenu": [
+    {
+      "id": "980f04b8-213b-4748-8a9f-2cbb1db3c678",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f \\in \\mathcal{L}(E)$.\nOn pose $K = \\mathrm{Ker} f$, $I = \\Im f$,\n${\\cal K} = \\{ g \\in \\mathcal{L}(E) \\text{ tq } f\\circ g = 0 \\}$ et\n${\\cal I} = \\{ g \\in \\mathcal{L}(E) \\text{ tq } g\\circ f = 0 \\}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f \\in \\mathcal{L}(E)\\)</span>. On\npose <span class=\"math inline\">\\(K = \\mathrm{Ker} f\\)</span>, <span\nclass=\"math inline\">\\(I = \\Im f\\)</span>, <span\nclass=\"math inline\">\\({\\cal K} = \\{ g \\in \\mathcal{L}(E) \\text{ tq }\nf\\circ g = 0 \\}\\)</span> et <span class=\"math inline\">\\({\\cal I} = \\{ g\n\\in \\mathcal{L}(E) \\text{ tq } g\\circ f = 0 \\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a1e5ff59-ff19-494b-9c57-264b411a546c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que ${\\cal K}$ et ${\\cal I}$ sont des sev de $\\mathcal{L}(E)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\({\\cal K}\\)</span> et <span\nclass=\"math inline\">\\({\\cal I}\\)</span> sont des sev de <span\nclass=\"math inline\">\\(\\mathcal{L}(E)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "44463310-5d03-42c5-b6ed-7cb4bc6ae4cb",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g \\in \\mathcal{L}(E)$.\n    Montrer que : $g \\in {\\cal K} \\iff \\Im g \\subset K$,\n    et  : $g \\in {\\cal I} \\iff \\mathrm{Ker} g \\supset I$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g \\in \\mathcal{L}(E)\\)</span>.\nMontrer que : <span class=\"math inline\">\\(g \\in {\\cal K} \\iff \\Im g\n\\subset K\\)</span>, et : <span class=\"math inline\">\\(g \\in {\\cal I} \\iff\n\\mathrm{Ker} g \\supset I\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "67476070-8d38-44f0-83f4-e558009baee6",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "c105e97a-aa7e-4404-b127-2570da6b1889",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l' application\n        $\\Phi : {{\\cal K}} \\to {\\mathcal{L}({E,K})}, g \\mapsto {g^{|K}}$ est un isomorphisme\n        d'ev. En déduire $\\dim {\\cal K}$.",
+        "html": "<p>Montrer que l’ application <span class=\"math inline\">\\(\\Phi : {{\\cal\nK}} \\to {\\mathcal{L}({E,K})}, g \\mapsto {g^{|K}}\\)</span> est un\nisomorphisme d’ev. En déduire <span class=\"math inline\">\\(\\dim {\\cal\nK}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "94f60894-80c0-430f-9b64-058bd1e4ff70",
+      "type": "question",
+      "value": {
+        "latex": "Chercher de même $\\dim {\\cal I}$ en introduisant un supplémentaire $I'$\n        de $I$.",
+        "html": "<p>Chercher de même <span class=\"math inline\">\\(\\dim {\\cal I}\\)</span>\nen introduisant un supplémentaire <span\nclass=\"math inline\">\\(I&#39;\\)</span> de <span\nclass=\"math inline\">\\(I\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7bc10d28-b163-4258-9cfc-1c013d5e7584",
+      "type": "question",
+      "value": {
+        "latex": "Chercher aussi $\\dim({\\cal K} \\cap {\\cal I})$.",
+        "html": "<p>Chercher aussi <span class=\"math inline\">\\(\\dim({\\cal K} \\cap {\\cal\nI})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c1ac2e8f-3629-41e7-8f20-c571d1428afc",
+      "type": "reponse",
+      "value": {
+        "latex": "3. $\\dim {\\cal K} =(\\dim E)(\\dim \\mathrm{Ker} f) = \\dim {\\cal I}$, \\quad\n         $\\dim({\\cal K} \\cap {\\cal I})= (\\mathrm{rg} f)^2$.",
+        "html": "<p>3. <span class=\"math inline\">\\(\\dim {\\cal K} =(\\dim E)(\\dim\n\\mathrm{Ker} f) = \\dim {\\cal I}\\)</span>, <span\nclass=\"math inline\">\\(\\dim({\\cal K} \\cap {\\cal I})= (\\mathrm{rg}\nf)^2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f \\in \\mathcal{L}(E)\\)</span>. On\npose <span class=\"math inline\">\\(K = \\mathrm{Ker} f\\)</span>, <span\nclass=\"math  ..."
+}

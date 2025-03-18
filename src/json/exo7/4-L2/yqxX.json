@@ -1,0 +1,61 @@
+{
+  "uuid": "yqxX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3585",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Applications",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:18.103Z"
+  },
+  "contenu": [
+    {
+      "id": "77e3c3c4-ce0a-4b38-8e4b-ee113473c06f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A=\\begin{pmatrix}-1&2&1\\cr2&-1&-1\\cr-4&4&3\\cr\\end{pmatrix}$.",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(A=\\begin{pmatrix}-1&amp;2&amp;1\\cr2&amp;-1&amp;-1\\cr-4&amp;4&amp;3\\cr\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "683116fe-b7c8-4453-9615-ac9b3dffa441",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $A^n$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(A^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9629c51e-39af-4be0-90a1-b8a400d0b515",
+      "type": "question",
+      "value": {
+        "latex": "Soit $U_0=\\begin{pmatrix}-2\\cr4\\cr1\\end{pmatrix}$ et $(U_n)$ défini par la relation~:\n    $U_{n+1} = AU_n$. Calculer $U_n$ en fonction de~$n$.",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(U_0=\\begin{pmatrix}-2\\cr4\\cr1\\end{pmatrix}\\)</span>\net <span class=\"math inline\">\\((U_n)\\)</span> défini par la relation :\n<span class=\"math inline\">\\(U_{n+1} = AU_n\\)</span>. Calculer <span\nclass=\"math inline\">\\(U_n\\)</span> en fonction de <span\nclass=\"math inline\">\\(n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "92943e62-8deb-45c0-8235-5385eabb4a11",
+      "type": "question",
+      "value": {
+        "latex": "Soit $X(t) = \\begin{pmatrix}x(t)\\cr y(t)\\cr z(t)\\cr\\end{pmatrix}$.\n    Résoudre $\\frac{d X}{d t} = AX$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X(t) = \\begin{pmatrix}x(t)\\cr\ny(t)\\cr z(t)\\cr\\end{pmatrix}\\)</span>. Résoudre <span\nclass=\"math inline\">\\(\\frac{d X}{d t} = AX\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "101430f7-344e-416f-ae58-7069fad31f5d",
+      "type": "reponse",
+      "value": {
+        "latex": "$A^{2k}=I$, $A^{2k+1}=A$.",
+        "html": "<p><span class=\"math inline\">\\(A^{2k}=I\\)</span>, <span\nclass=\"math inline\">\\(A^{2k+1}=A\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span\nclass=\"math inline\">\\(A=\\begin{pmatrix}-1&amp;2&amp;1\\cr2&amp;-1&amp;-1\\cr-4&amp;4&amp;3\\cr\\end{pmatrix}\\)</span>.</p>\n"
+}

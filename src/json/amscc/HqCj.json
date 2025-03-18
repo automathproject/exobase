@@ -1,0 +1,127 @@
+{
+  "uuid": "HqCj",
+  "titre": "Conformité de la teneur en thiomersal dans un vaccin grippal pandémique",
+  "theme": [
+    "tests d'hypothèses"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Maxime NGUYEN",
+    "createdAt": "2024-11-24",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:28.120Z"
+  },
+  "contenu": [
+    {
+      "id": "0a570a5c-d9ab-4452-8f25-41ee4c7334ba",
+      "type": "description",
+      "value": {
+        "latex": "On s’intéresse à la campagne de vaccination contre la grippe A pandémique de l’année 2009 en France. On mène une étude sur la teneur en thiomersal dans un vaccin. Le thiomersal est un composé contenant du mercure, utilisé de longue date comme conservateur dans les médicaments, et notamment dans les vaccins, pour prévenir la contamination bactérienne. Toutefois, sa toxicité oblige à limiter la quantité utilisée.\n\nUn vaccin produit par un laboratoire français contient, selon la notice, 45 $\\mu g$ de thiomersal par dose. On suppose que la teneur en thiomersal suit une loi normale d'espérance $m$ et de variance $\\sigma^2$, inconnues. On dispose d’un échantillon de 16 valeurs disponibles dans le fichier joint.",
+        "html": "<p>On s’intéresse à la campagne de vaccination contre la grippe A\npandémique de l’année 2009 en France. On mène une étude sur la teneur en\nthiomersal dans un vaccin. Le thiomersal est un composé contenant du\nmercure, utilisé de longue date comme conservateur dans les médicaments,\net notamment dans les vaccins, pour prévenir la contamination\nbactérienne. Toutefois, sa toxicité oblige à limiter la quantité\nutilisée.</p>\n<p>Un vaccin produit par un laboratoire français contient, selon la\nnotice, 45 <span class=\"math inline\">\\(\\mu g\\)</span> de thiomersal par\ndose. On suppose que la teneur en thiomersal suit une loi normale\nd’espérance <span class=\"math inline\">\\(m\\)</span> et de variance <span\nclass=\"math inline\">\\(\\sigma^2\\)</span>, inconnues. On dispose d’un\néchantillon de 16 valeurs disponibles dans le fichier joint.</p>\n"
+      }
+    },
+    {
+      "id": "b4e499f7-91d0-4280-875e-55625e4e676a",
+      "type": "question",
+      "value": {
+        "latex": "On considère trois tests de conformité de la moyenne $m$, définis par les hypothèses suivantes : \n$$A : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m > 45,\n                \\end{cases} \\quad B : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m < 45,\n                \\end{cases} \\quad C : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m \\neq 45,\n                \\end{cases}$$\n    Si on veut se prémunir en priorité du risque :\n    \\begin{enumerate}\n        \\item[(a)] lié à la contamination bactérienne du vaccin,\n        \\item[(b)] ou de la toxicité du thiomersal,\n    \\end{enumerate}\n    quel test doit-on choisir dans chacun de ces deux cas ? Justifier rapidement.",
+        "html": "<p>On considère trois tests de conformité de la moyenne <span\nclass=\"math inline\">\\(m\\)</span>, définis par les hypothèses suivantes :\n<span class=\"math display\">\\[A : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m &gt; 45,\n                \\end{cases} \\quad B : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m &lt; 45,\n                \\end{cases} \\quad C : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m \\neq 45,\n                \\end{cases}\\]</span> Si on veut se prémunir en priorité\ndu risque :</p>\n<ol>\n<li><p>lié à la contamination bactérienne du vaccin,</p></li>\n<li><p>ou de la toxicité du thiomersal,</p></li>\n</ol>\n<p>quel test doit-on choisir dans chacun de ces deux cas ? Justifier\nrapidement.</p>\n"
+      }
+    },
+    {
+      "id": "70d9da76-eeec-4a12-91e6-fb84bc3b2b9f",
+      "type": "indication",
+      "value": {
+        "latex": "Identifier le risque que chaque hypothèse alternative $H_1$ cherche à prévenir.",
+        "html": "<p>Identifier le risque que chaque hypothèse alternative <span\nclass=\"math inline\">\\(H_1\\)</span> cherche à prévenir.</p>\n"
+      }
+    },
+    {
+      "id": "9408ca23-777f-4afc-b16b-f8bfcbf9d193",
+      "type": "reponse",
+      "value": {
+        "latex": "À compléter.",
+        "html": "<p>À compléter.</p>\n"
+      }
+    },
+    {
+      "id": "7e1e8de2-5680-43c6-a996-eac6a6434023",
+      "type": "question",
+      "value": {
+        "latex": "Donner une estimation de $m$ par un intervalle de confiance de niveau 99\\%.",
+        "html": "<p>Donner une estimation de <span class=\"math inline\">\\(m\\)</span> par\nun intervalle de confiance de niveau 99%.</p>\n"
+      }
+    },
+    {
+      "id": "d74fcdcc-5515-4f1d-a264-20a14c7201c7",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser les données de l’échantillon et la distribution de Student.",
+        "html": "<p>Utiliser les données de l’échantillon et la distribution de\nStudent.</p>\n"
+      }
+    },
+    {
+      "id": "a9ee8fd7-2337-4e05-89a5-ecc40ebe1744",
+      "type": "reponse",
+      "value": {
+        "latex": "À compléter.",
+        "html": "<p>À compléter.</p>\n"
+      }
+    },
+    {
+      "id": "d7455be2-6702-4715-9bae-e339b98de848",
+      "type": "question",
+      "value": {
+        "latex": "Réaliser le test $A$ avec un risque de première espèce de 5\\%. Quelle est la valeur critique de la moyenne de l’échantillon au-delà de laquelle on rejette l’hypothèse $H_0$ ? Exprimer la prise de décision à l’issue de ce test.",
+        "html": "<p>Réaliser le test <span class=\"math inline\">\\(A\\)</span> avec un\nrisque de première espèce de 5%. Quelle est la valeur critique de la\nmoyenne de l’échantillon au-delà de laquelle on rejette l’hypothèse\n<span class=\"math inline\">\\(H_0\\)</span> ? Exprimer la prise de décision\nà l’issue de ce test.</p>\n"
+      }
+    },
+    {
+      "id": "340182f9-c117-42fb-83b7-79d149f916ee",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la table de la loi normale centrée réduite pour déterminer la valeur critique.",
+        "html": "<p>Utiliser la table de la loi normale centrée réduite pour déterminer\nla valeur critique.</p>\n"
+      }
+    },
+    {
+      "id": "b69e5d28-3070-42f1-91d9-bd1113005429",
+      "type": "reponse",
+      "value": {
+        "latex": "À compléter.",
+        "html": "<p>À compléter.</p>\n"
+      }
+    },
+    {
+      "id": "b3192034-3282-409e-a6da-a663f37ed869",
+      "type": "question",
+      "value": {
+        "latex": "On considère le test défini par les hypothèses suivantes : \n    $$\\begin{cases}\n        H_0 : m = 45, \\\\\n        H_1 : m = m_1.\n    \\end{cases}$$\n    Calculer la puissance du test $A'$ pour $m_1 = 46$ et $m_1 = 47$.",
+        "html": "<p>On considère le test défini par les hypothèses suivantes : <span\nclass=\"math display\">\\[\\begin{cases}\n        H_0 : m = 45, \\\\\n        H_1 : m = m_1.\n    \\end{cases}\\]</span> Calculer la puissance du test <span\nclass=\"math inline\">\\(A&#39;\\)</span> pour <span\nclass=\"math inline\">\\(m_1 = 46\\)</span> et <span\nclass=\"math inline\">\\(m_1 = 47\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6e197f76-fa35-42ef-a6ff-8c548c6a4dff",
+      "type": "indication",
+      "value": {
+        "latex": "La puissance est $1 - \\beta$, où $\\beta$ est la probabilité d’erreur de seconde espèce.",
+        "html": "<p>La puissance est <span class=\"math inline\">\\(1 - \\beta\\)</span>, où\n<span class=\"math inline\">\\(\\beta\\)</span> est la probabilité d’erreur\nde seconde espèce.</p>\n"
+      }
+    },
+    {
+      "id": "4729e61a-ea56-4cb3-a0d7-7a373f183059",
+      "type": "reponse",
+      "value": {
+        "latex": "À compléter.",
+        "html": "<p>À compléter.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On s’intéresse à la campagne de vaccination contre la grippe A\npandémique de l’année 2009 en France. On mène une étude sur la teneur en\nthiomersal  ..."
+}

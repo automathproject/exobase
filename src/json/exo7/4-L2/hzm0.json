@@ -1,0 +1,53 @@
+{
+  "uuid": "hzm0",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1563",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Endomorphisme particulier",
+    "sousChapitre": "Endomorphisme orthogonal",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:28.036Z"
+  },
+  "contenu": [
+    {
+      "id": "2efcff0a-173c-47ff-8d19-d713f9d90698",
+      "type": "description",
+      "value": {
+        "latex": "Soit $  (E , \\langle   ,   \\rangle )  $ un espace euclidien \nde dimension $  3  $ et $  u\\in \\mathcal{O} ^-(E)  .$ On pose $  F=\\hbox{Ker}(u+id)  .$",
+        "html": "<p>Soit <span class=\"math inline\">\\((E , \\langle   ,   \\rangle\n)\\)</span> un espace euclidien de dimension <span\nclass=\"math inline\">\\(3\\)</span> et <span class=\"math inline\">\\(u\\in\n\\mathcal{O} ^-(E)  .\\)</span> On pose <span\nclass=\"math inline\">\\(F=\\hbox{Ker}(u+id)  .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "871e6c9d-ef9c-46a9-bf3c-b56fea50d582",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $  F\\not = \\{ 0\\}  .$ Montrer que $  F  $ et $  f^\\perp  $ sont stables par $  u  .$\nPour quelle raison $  \\hbox{dim} (F)\\not = 2  ?$",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(F\\not = \\{ 0\\}  .\\)</span>\nMontrer que <span class=\"math inline\">\\(F\\)</span> et <span\nclass=\"math inline\">\\(f^\\perp\\)</span> sont stables par <span\nclass=\"math inline\">\\(u  .\\)</span> Pour quelle raison <span\nclass=\"math inline\">\\(\\hbox{dim} (F)\\not = 2  ?\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "382ba065-e9cb-47ca-839d-e4c59a866a00",
+      "type": "question",
+      "value": {
+        "latex": "On suppose $  E\\not = F  .$ Montrer que la restriction de $  u  $ \\`a $F^\\perp$ est une rotation.",
+        "html": "<p>On suppose <span class=\"math inline\">\\(E\\not = F  .\\)</span> Montrer\nque la restriction de <span class=\"math inline\">\\(u\\)</span> à <span\nclass=\"math inline\">\\(F^\\perp\\)</span> est une rotation.</p>\n"
+      }
+    },
+    {
+      "id": "05773805-d75b-4196-a318-f662942d1366",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire qu'il existe $  \\theta \\in \\R   $ et une base $  \\epsilon$ de $  E  $ tels que~: \n$$ \\hbox{Mat} (u, \\epsilon )=\\begin{pmatrix}\n \\cos (\\theta ) & \\sin (\\theta ) & 0  \\cr  -\\sin (\\theta ) & \\cos (\\theta )  & 0 \\cr 0 & 0 & -1\n\\cr \\end{pmatrix}  .$$",
+        "html": "<p>En déduire qu’il existe <span class=\"math inline\">\\(\\theta \\in\n\\R\\)</span> et une base <span class=\"math inline\">\\(\\epsilon\\)</span> de\n<span class=\"math inline\">\\(E\\)</span> tels que : <span\nclass=\"math display\">\\[\\hbox{Mat} (u, \\epsilon )=\\begin{pmatrix}\n\\cos (\\theta ) &amp; \\sin (\\theta ) &amp; 0  \\cr  -\\sin (\\theta ) &amp;\n\\cos (\\theta )  &amp; 0 \\cr 0 &amp; 0 &amp; -1\n\\cr \\end{pmatrix}  .\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((E , \\langle   ,   \\rangle\n)\\)</span> un espace euclidien de dimension <span\nclass=\"math inline\">\\(3\\)</span> et < ..."
+}

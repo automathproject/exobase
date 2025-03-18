@@ -1,0 +1,53 @@
+{
+  "uuid": "3cJD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3375",
+    "auteur": "quercia",
+    "createdAt": "2010-03-09",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:45.111Z"
+  },
+  "contenu": [
+    {
+      "id": "319ad8f0-29e2-4b2c-bb14-9d797d131214",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "27625e16-ce87-41a5-8a15-a334f0f4fd18",
+      "type": "question",
+      "value": {
+        "latex": "Soit $A \\in \\mathcal{M}_{n,p}(K)$ non nulle. Montrer que l'application\n    ${f_A} : {\\mathcal{M}_{p,n}(K)} \\to { K}, X \\mapsto {\\mathrm{tr}(AX)}$ est une forme linéaire\n    non nulle sur $\\mathcal{M}_{p,n}(K)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A \\in \\mathcal{M}_{n,p}(K)\\)</span>\nnon nulle. Montrer que l’application <span class=\"math inline\">\\({f_A} :\n{\\mathcal{M}_{p,n}(K)} \\to { K}, X \\mapsto {\\mathrm{tr}(AX)}\\)</span>\nest une forme linéaire non nulle sur <span\nclass=\"math inline\">\\(\\mathcal{M}_{p,n}(K)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b4248bb4-0e7c-4375-9d25-3c64fca694e1",
+      "type": "question",
+      "value": {
+        "latex": "Réciproquement : Soit $\\phi  : {\\mathcal{M}_{p,n}(K)} \\to { K}$ une forme linéaire\n    quelconque. Montrer qu'il existe une unique matrice $A \\in \\mathcal{M}_{n,p}(K)$\n    telle que $\\phi = f_A$ (on pourra considérer l'application $A  \\mapsto f_A$).",
+        "html": "<p>Réciproquement : Soit <span class=\"math inline\">\\(\\phi  :\n{\\mathcal{M}_{p,n}(K)} \\to { K}\\)</span> une forme linéaire quelconque.\nMontrer qu’il existe une unique matrice <span class=\"math inline\">\\(A\n\\in \\mathcal{M}_{n,p}(K)\\)</span> telle que <span\nclass=\"math inline\">\\(\\phi = f_A\\)</span> (on pourra considérer\nl’application <span class=\"math inline\">\\(A  \\mapsto f_A\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "42b536ac-56d9-44d9-941f-763013929dd3",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\phi  : {\\mathcal{M}_n(K)} \\to  K$ une forme linéaire vérifiant :\n    $\\forall\\ X,Y \\in \\mathcal{M}_n(K),\\ \\phi(XY) = \\phi(YX)$.\n    \\par\n    Montrer qu'il existe $\\lambda \\in  K$ tel que $\\phi = \\lambda\\mathrm{tr}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\phi  : {\\mathcal{M}_n(K)}\n\\to  K\\)</span> une forme linéaire vérifiant : <span\nclass=\"math inline\">\\(\\forall\\ X,Y \\in \\mathcal{M}_n(K),\\ \\phi(XY) =\n\\phi(YX)\\)</span>.</p>\n<p>Montrer qu’il existe <span class=\"math inline\">\\(\\lambda\n\\in  K\\)</span> tel que <span class=\"math inline\">\\(\\phi =\n\\lambda\\mathrm{tr}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A \\in \\mathcal{M}_{n,p}(K)\\)</span>\nnon nulle. Montrer que l’application <span class=\"math inline\"> ..."
+}

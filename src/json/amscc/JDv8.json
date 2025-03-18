@@ -1,0 +1,55 @@
+{
+  "uuid": "JDv8",
+  "titre": "Résolution d'un système linéaire",
+  "theme": [
+    "systèmes linéaires"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2024-01-31",
+    "hasIndication": false,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:30.539Z"
+  },
+  "contenu": [
+    {
+      "id": "3dbcec0c-86d1-4511-8860-dc24c7823633",
+      "type": "description",
+      "value": {
+        "latex": "On considère le système de trois équations à trois inconnues $x,y,z$ suivant : \n        $$\n\\left\\{\\begin{aligned}\nm x+m y+m z & =a \\\\\nx+m y+z & =b \\\\\nx+y+m z & =c\n\\end{aligned}\\right.\n$$\navec $m,a,b,c \\in \\R$.",
+        "html": "<p>On considère le système de trois équations à trois inconnues <span\nclass=\"math inline\">\\(x,y,z\\)</span> suivant : <span\nclass=\"math display\">\\[\\left\\{\\begin{aligned}\nm x+m y+m z &amp; =a \\\\\nx+m y+z &amp; =b \\\\\nx+y+m z &amp; =c\n\\end{aligned}\\right.\\]</span> avec <span class=\"math inline\">\\(m,a,b,c\n\\in \\R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f47d60c0-eed5-428b-a5f7-421e8fd04b48",
+      "type": "question",
+      "value": {
+        "latex": "Supposons que $m=0$. Résoudre le système en fonction des valeurs possibles de $a,b,c$.",
+        "html": "<p>Supposons que <span class=\"math inline\">\\(m=0\\)</span>. Résoudre le\nsystème en fonction des valeurs possibles de <span\nclass=\"math inline\">\\(a,b,c\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b5d56797-9de2-4cc4-9885-ccf8f49d02c8",
+      "type": "question",
+      "value": {
+        "latex": "Supposons que $m = 1$. \\`A quelles conditions sur $a,b,c$ le système admet-il au moins une solution ? Dans ce cas, résoudre le système.",
+        "html": "<p>Supposons que <span class=\"math inline\">\\(m = 1\\)</span>. À quelles\nconditions sur <span class=\"math inline\">\\(a,b,c\\)</span> le système\nadmet-il au moins une solution ? Dans ce cas, résoudre le système.</p>\n"
+      }
+    },
+    {
+      "id": "74321950-0532-4cc7-b5ec-536939591e1b",
+      "type": "question",
+      "value": {
+        "latex": "Supposons que $m \\neq 0$ et $m \\neq 1$. Justifier que le système admet une unique solution quelles que soient les valeurs de $a,b,c$. Déterminer cette solution pour $a=1$, $b=2$, $c=3$ puis pour $a,b,c$ quelconques.",
+        "html": "<p>Supposons que <span class=\"math inline\">\\(m \\neq 0\\)</span> et <span\nclass=\"math inline\">\\(m \\neq 1\\)</span>. Justifier que le système admet\nune unique solution quelles que soient les valeurs de <span\nclass=\"math inline\">\\(a,b,c\\)</span>. Déterminer cette solution pour\n<span class=\"math inline\">\\(a=1\\)</span>, <span\nclass=\"math inline\">\\(b=2\\)</span>, <span\nclass=\"math inline\">\\(c=3\\)</span> puis pour <span\nclass=\"math inline\">\\(a,b,c\\)</span> quelconques.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère le système de trois équations à trois inconnues <span\nclass=\"math inline\">\\(x,y,z\\)</span> suivant : <span\nclass=\"math display\"> ..."
+}

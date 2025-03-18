@@ -1,0 +1,77 @@
+{
+  "uuid": "C5m6",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6882",
+    "auteur": "gammella",
+    "createdAt": "2012-05-29",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Analyse vectorielle",
+    "sousChapitre": "Forme différentielle, champ de vecteurs, circulation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:46.467Z"
+  },
+  "contenu": [
+    {
+      "id": "fbf7fbe5-b73b-404b-a681-d162b0fa6637",
+      "type": "description",
+      "value": {
+        "latex": "On considère la forme différentielle $$\\omega= \\frac{-y}{x^2+y^2}dx+\\frac{x}{x^2+y^2} dy.$$",
+        "html": "<p>On considère la forme différentielle <span\nclass=\"math display\">\\[\\omega= \\frac{-y}{x^2+y^2}dx+\\frac{x}{x^2+y^2}\ndy.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "49a80fa8-9a01-4f2b-abe5-a0455809e90c",
+      "type": "question",
+      "value": {
+        "latex": "Dans quel domaine cette forme différentielle est-elle définie ?",
+        "html": "<p>Dans quel domaine cette forme différentielle est-elle définie ?</p>\n"
+      }
+    },
+    {
+      "id": "129e7587-ced8-4695-b46c-bcdb76075fc4",
+      "type": "reponse",
+      "value": {
+        "latex": "La forme $\\omega= \\frac{-y}{x^2+y^2}dx+\\frac{x}{x^2+y^2} dy$ est définie\nsur $\\Rr^2 \\setminus \\{(0,0)\\}$.",
+        "html": "<p>La forme <span class=\"math inline\">\\(\\omega=\n\\frac{-y}{x^2+y^2}dx+\\frac{x}{x^2+y^2} dy\\)</span> est définie sur <span\nclass=\"math inline\">\\(\\Rr^2 \\setminus \\{(0,0)\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fe9a42ce-775e-4b58-87a0-9d9af196d02c",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'intégrale curviligne $ \\int_{C} \\omega$ o\\`u $C$ est le cercle de centre $O$ et\n de rayon $1$, parcouru dans le sens direct.",
+        "html": "<p>Calculer l’intégrale curviligne <span class=\"math inline\">\\(\\int_{C}\n\\omega\\)</span> où <span class=\"math inline\">\\(C\\)</span> est le cercle\nde centre <span class=\"math inline\">\\(O\\)</span> et de rayon <span\nclass=\"math inline\">\\(1\\)</span>, parcouru dans le sens direct.</p>\n"
+      }
+    },
+    {
+      "id": "4c52d3bf-ebb9-44da-ac0b-f7d1ab054483",
+      "type": "reponse",
+      "value": {
+        "latex": "Paramétrons le cercle $C$ par $x=\\cos t$, $y=\\sin t$ avec $t\\in [0;2\\pi]$.\nOn obtient :\n$$\\begin{align*}\n  \\int_{C} \\omega&=& \\int_{0}^{2\\pi}& (-\\sin t(-\\sin t)+\\cos t(\\cos t)) dt &\\\\\n &=&\\int_0^{2\\pi} &\\sin^2 t+\\cos^2 t dt&\\\\\n &=& \\int_0^{2\\pi}& 1 dt& \\\\\n &=& 2\\pi.&&\n \\end{align*}$$",
+        "html": "<p>Paramétrons le cercle <span class=\"math inline\">\\(C\\)</span> par\n<span class=\"math inline\">\\(x=\\cos t\\)</span>, <span\nclass=\"math inline\">\\(y=\\sin t\\)</span> avec <span\nclass=\"math inline\">\\(t\\in [0;2\\pi]\\)</span>. On obtient : <span\nclass=\"math display\">\\[\\begin{align*}\n  \\int_{C} \\omega&amp;=&amp; \\int_{0}^{2\\pi}&amp; (-\\sin t(-\\sin t)+\\cos\nt(\\cos t)) dt &amp;\\\\\n&amp;=&amp;\\int_0^{2\\pi} &amp;\\sin^2 t+\\cos^2 t dt&amp;\\\\\n&amp;=&amp; \\int_0^{2\\pi}&amp; 1 dt&amp; \\\\\n&amp;=&amp; 2\\pi.&amp;&amp;\n\\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9bf2c473-8349-4326-945c-4a4b9775f6b2",
+      "type": "question",
+      "value": {
+        "latex": "La forme $\\omega$ est-elle exacte ?",
+        "html": "<p>La forme <span class=\"math inline\">\\(\\omega\\)</span> est-elle exacte\n?</p>\n"
+      }
+    },
+    {
+      "id": "b700f9c0-e76e-46f1-9a85-b91402240d80",
+      "type": "reponse",
+      "value": {
+        "latex": "La forme $\\omega$ n'est pas exacte, sinon son intégrale curviligne sur la courbe\nfermée $C$ serait nulle et cela contredirait notre résultat de la\nquestion précédente. Remarquons cependant que\n$$\n \\frac{\\partial}{\\partial y}( \\frac{-y}{x^2+y^2})=\n \\frac{\\partial}{\\partial x} ( \\frac{x}{x^2+y^2})=  \\frac{y^2-x^2}{(x^2+y^2)^2}.$$\nEn fait, avec cet exemple, on voit que dans le théorème de Poincaré, l'hypothèse que l'ouvert doit \\^etre étoilé,\nest indispensable. Ici $\\Rr^2 \\setminus \\{(0,0)\\}$ n'est pas étoilé, c'est un domaine \"troué\". De plus,\n$\\int_{C} \\omega$ n'est pas nulle car le cercle entoure le \"trou\".",
+        "html": "<p>La forme <span class=\"math inline\">\\(\\omega\\)</span> n’est pas\nexacte, sinon son intégrale curviligne sur la courbe fermée <span\nclass=\"math inline\">\\(C\\)</span> serait nulle et cela contredirait notre\nrésultat de la question précédente. Remarquons cependant que <span\nclass=\"math display\">\\[\\frac{\\partial}{\\partial y}( \\frac{-y}{x^2+y^2})=\n\\frac{\\partial}{\\partial x} (\n\\frac{x}{x^2+y^2})=  \\frac{y^2-x^2}{(x^2+y^2)^2}.\\]</span> En fait, avec\ncet exemple, on voit que dans le théorème de Poincaré, l’hypothèse que\nl’ouvert doit être étoilé, est indispensable. Ici <span\nclass=\"math inline\">\\(\\Rr^2 \\setminus \\{(0,0)\\}\\)</span> n’est pas\nétoilé, c’est un domaine \"troué\". De plus, <span\nclass=\"math inline\">\\(\\int_{C} \\omega\\)</span> n’est pas nulle car le\ncercle entoure le \"trou\".</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la forme différentielle <span\nclass=\"math display\">\\[\\omega= \\frac{-y}{x^2+y^2}dx+\\frac{x}{x^2+y^2}\ndy.\\]</span></p>\n"
+}

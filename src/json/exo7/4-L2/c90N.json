@@ -1,0 +1,53 @@
+{
+  "uuid": "c90N",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3007",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Anneau",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:13.448Z"
+  },
+  "contenu": [
+    {
+      "id": "5087dd04-4d52-491a-9e6c-5a367f316818",
+      "type": "description",
+      "value": {
+        "latex": "Un id{\\'e}al $I$ d'un anneau $A$ est dit premier si~: $\\forall\\ x,y\\in A,\\ xy\\in I \\Rightarrow  x\\in I$ ou $y\\in I$.",
+        "html": "<p>Un id<span>é</span>al <span class=\"math inline\">\\(I\\)</span> d’un\nanneau <span class=\"math inline\">\\(A\\)</span> est dit premier si : <span\nclass=\"math inline\">\\(\\forall\\ x,y\\in A,\\ xy\\in I \\Rightarrow  x\\in\nI\\)</span> ou <span class=\"math inline\">\\(y\\in I\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "347c3bab-46cf-4ca6-84ab-426e006d6a2a",
+      "type": "question",
+      "value": {
+        "latex": "Quels sont les id{\\'e}aux premiers de~$\\Z$~?",
+        "html": "<p>Quels sont les id<span>é</span>aux premiers de <span\nclass=\"math inline\">\\(\\Z\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "9d9ba34f-1365-49c9-808e-a4b1c0566ec6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $A$ est commutatif non nul et si tous les id{\\'e}aux de~$A$ sont premiers alors $A$ est un corps.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(A\\)</span> est commutatif\nnon nul et si tous les id<span>é</span>aux de <span\nclass=\"math inline\">\\(A\\)</span> sont premiers alors <span\nclass=\"math inline\">\\(A\\)</span> est un corps.</p>\n"
+      }
+    },
+    {
+      "id": "6bc55e1b-8b9a-46f8-8076-70990507a704",
+      "type": "reponse",
+      "value": {
+        "latex": "$A$ est int{\\`e}gre car $\\{0\\}$ est premier et si $a\\in A\\setminus\\{0\\}$\nalors $a\\times a\\in(a^2)$ qui est premier donc $a^2$ divise $a$ d'o{\\`u} $a$ est inversible.",
+        "html": "<p><span class=\"math inline\">\\(A\\)</span> est int<span>è</span>gre car\n<span class=\"math inline\">\\(\\{0\\}\\)</span> est premier et si <span\nclass=\"math inline\">\\(a\\in A\\setminus\\{0\\}\\)</span> alors <span\nclass=\"math inline\">\\(a\\times a\\in(a^2)\\)</span> qui est premier donc\n<span class=\"math inline\">\\(a^2\\)</span> divise <span\nclass=\"math inline\">\\(a\\)</span> d’o<span>ù</span> <span\nclass=\"math inline\">\\(a\\)</span> est inversible.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Un id<span>é</span>al <span class=\"math inline\">\\(I\\)</span> d’un\nanneau <span class=\"math inline\">\\(A\\)</span> est dit premier si : <span\nclass=\"m ..."
+}

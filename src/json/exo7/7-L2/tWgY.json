@@ -1,0 +1,61 @@
+{
+  "uuid": "tWgY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6916",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Espérance, variance",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:39.480Z"
+  },
+  "contenu": [
+    {
+      "id": "747226b3-162e-4bf3-9e16-6a6ebcaaf896",
+      "type": "description",
+      "value": {
+        "latex": "On lance deux dés à 6 faces. Soit $X_1$ le résultat du premier dé,\n$X_2$ le résultat du deuxième dé, et $S=X_1+X_2$.",
+        "html": "<p>On lance deux dés à 6 faces. Soit <span\nclass=\"math inline\">\\(X_1\\)</span> le résultat du premier dé, <span\nclass=\"math inline\">\\(X_2\\)</span> le résultat du deuxième dé, et <span\nclass=\"math inline\">\\(S=X_1+X_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fe1ef63b-bb3b-482b-91c0-9afc8ff64b1a",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $E(X_1)$ et $Var(X_1)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(E(X_1)\\)</span> et <span\nclass=\"math inline\">\\(Var(X_1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "26f25391-3cd9-431c-8944-b1aa0feb244e",
+      "type": "reponse",
+      "value": {
+        "latex": "$E(X_1)=3.5$, $\\text{Var}(X_1)=\\frac{35}{12}\\simeq 2,92$.",
+        "html": "<p><span class=\"math inline\">\\(E(X_1)=3.5\\)</span>, <span\nclass=\"math inline\">\\(\\text{Var}(X_1)=\\frac{35}{12}\\simeq\n2,92\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f8fc6bab-b8ab-448a-bae1-7aecbf3b4ebc",
+      "type": "question",
+      "value": {
+        "latex": "En déduire $E(S)$ et $\\text{Var}(S)$.",
+        "html": "<p>En déduire <span class=\"math inline\">\\(E(S)\\)</span> et <span\nclass=\"math inline\">\\(\\text{Var}(S)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9a64f632-5fb4-4ae4-91a3-6ef8d1f1aab6",
+      "type": "reponse",
+      "value": {
+        "latex": "$X_1,X_2$ sont indépendantes de même loi.\nD'où $E(S)=2E(X_1)=7$ et $\\text{Var}(S)=2\\text{Var}(X_1)=\\frac{35}{6}$.",
+        "html": "<p><span class=\"math inline\">\\(X_1,X_2\\)</span> sont indépendantes de\nmême loi. D’où <span class=\"math inline\">\\(E(S)=2E(X_1)=7\\)</span> et\n<span\nclass=\"math inline\">\\(\\text{Var}(S)=2\\text{Var}(X_1)=\\frac{35}{6}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On lance deux dés à 6 faces. Soit <span\nclass=\"math inline\">\\(X_1\\)</span> le résultat du premier dé, <span\nclass=\"math inline\">\\(X_2\\)</span> le r ..."
+}

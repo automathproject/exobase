@@ -1,0 +1,37 @@
+{
+  "uuid": "96Sl",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4260",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:02.109Z"
+  },
+  "contenu": [
+    {
+      "id": "325dd082-a4c0-49ab-a534-92bcf5d29d09",
+      "type": "description",
+      "value": {
+        "latex": "Soit ${f} : {\\R} \\to {\\C}$ de classe $\\mathcal{C}^1$, $2\\pi$ périodique, ne s'annulant pas.\nMontrer que $I(f)=\\frac{1}{2\\pi i} \\int_0^{2\\pi} \\frac{f'}{f}$ est un entier.",
+        "html": "<p>Soit <span class=\"math inline\">\\({f} : {\\R} \\to {\\C}\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^1\\)</span>, <span\nclass=\"math inline\">\\(2\\pi\\)</span> périodique, ne s’annulant pas.\nMontrer que <span class=\"math inline\">\\(I(f)=\\frac{1}{2\\pi i}\n\\int_0^{2\\pi} \\frac{f&#39;}{f}\\)</span> est un entier.</p>\n"
+      }
+    },
+    {
+      "id": "15e12f2a-fe22-41e4-84b5-707b5f91ac0b",
+      "type": "reponse",
+      "value": {
+        "latex": "On a $f=e^g$ avec $g$ de classe $\\mathcal{C}^1$ par le théorème de relèvement d'où\n$I(f) = \\frac{g(2\\pi)-g(0)}{2i\\pi}\\in\\Z$.",
+        "html": "<p>On a <span class=\"math inline\">\\(f=e^g\\)</span> avec <span\nclass=\"math inline\">\\(g\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^1\\)</span> par le théorème de\nrelèvement d’où <span class=\"math inline\">\\(I(f) =\n\\frac{g(2\\pi)-g(0)}{2i\\pi}\\in\\Z\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\({f} : {\\R} \\to {\\C}\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^1\\)</span>, <span\nclass=\"math inlin ..."
+}

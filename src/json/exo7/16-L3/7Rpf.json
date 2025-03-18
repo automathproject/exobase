@@ -1,0 +1,61 @@
+{
+  "uuid": "7Rpf",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6712",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:17.215Z"
+  },
+  "contenu": [
+    {
+      "id": "ed3122e6-7cd0-47fc-b58c-013c69eceed6",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une fonction holomorphe sur $\\{z\\in\\C\\vert\\\n\\vert z\\vert <R\\}$. Si $f(z)=\\sum_{n=0}^\\infty a_nz^n$ pour $\\vert\nz\\vert<R$, on pose pour $0\\le r< R$ :\n\\begin{eqnarray*}\\lefteqn{M(r,f)=\\max_{\\vert z\\vert =r}\\vert f(z)\\vert\n,\\  M_1(r,f)=\\sum_{n=0}^\\infty \\vert a_n\\vert r^n,}\\\\ \nM_2(r,f)&=&\\left({1\\over 2\\pi}\\int_0^{2\\pi}\\vert f(re^{i\\theta })\\vert\n^2d\\theta \\right)^{1/2}.\\end{eqnarray*}",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\nsur <span class=\"math inline\">\\(\\{z\\in\\C\\vert\\\n\\vert z\\vert &lt;R\\}\\)</span>. Si <span\nclass=\"math inline\">\\(f(z)=\\sum_{n=0}^\\infty a_nz^n\\)</span> pour <span\nclass=\"math inline\">\\(\\vert\nz\\vert&lt;R\\)</span>, on pose pour <span class=\"math inline\">\\(0\\le\nr&lt; R\\)</span> : <span class=\"math display\">\\[\\begin{aligned}\n\\lefteqn{M(r,f)=\\max_{\\vert z\\vert =r}\\vert f(z)\\vert\n,\\  M_1(r,f)=\\sum_{n=0}^\\infty \\vert a_n\\vert r^n,}\\\\\nM_2(r,f)&amp;=&amp;\\left({1\\over 2\\pi}\\int_0^{2\\pi}\\vert f(re^{i\\theta\n})\\vert\n^2d\\theta \\right)^{1/2}.\n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "7945468e-d7c7-4acb-b70a-1194f0c9abf5",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "44f58ae7-7135-4453-8b8e-411ab96a70b0",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour $0\\le r<R$,\n$$M_2(r,f)=\\left( \\sum_{n=0}^\\infty\\vert\na_n\\vert^2r^{2n}\\right)^{1/2}.$$",
+        "html": "<p>Montrer que pour <span class=\"math inline\">\\(0\\le r&lt;R\\)</span>,\n<span class=\"math display\">\\[M_2(r,f)=\\left( \\sum_{n=0}^\\infty\\vert\na_n\\vert^2r^{2n}\\right)^{1/2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "8cb461a4-fd56-4c76-bb51-041b14f4e768",
+      "type": "question",
+      "value": {
+        "latex": "Déduire de (a) que $r\\mapsto M_2(r,f)$ est une fonction continue\ncroissante.",
+        "html": "<p>Déduire de (a) que <span class=\"math inline\">\\(r\\mapsto\nM_2(r,f)\\)</span> est une fonction continue croissante.</p>\n"
+      }
+    },
+    {
+      "id": "8fa625a4-f432-4bd1-bb2d-9856485cc28a",
+      "type": "question",
+      "value": {
+        "latex": "Déduire de (a) une autre démonstration des inégalités de Cauchy.",
+        "html": "<p>Déduire de (a) une autre démonstration des inégalités de Cauchy.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\nsur <span class=\"math inline\">\\(\\{z\\in\\C\\vert\\\n\\vert z\\vert &lt;R\\}\\)</span>. S ..."
+}

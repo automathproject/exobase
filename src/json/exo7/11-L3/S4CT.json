@@ -1,0 +1,77 @@
+{
+  "uuid": "S4CT",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7699",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:27.461Z"
+  },
+  "contenu": [
+    {
+      "id": "7dcefb90-3922-4ab3-a2e0-e2817303b728",
+      "type": "description",
+      "value": {
+        "latex": "On considère l'application\r\n$$\\begin{array}{ccc}\r\n F: \\Rr ^2&\\to&\\Rr ^3\\\\ \r\n\\left(\\begin{array}{c}t \\\\ s\\end{array}\\right)\r\n&\\mapsto& \r\n\\left(\\begin{array}{c}1-t^2\\\\t(1-t^2)\\\\s\\end{array}\\right).\r\n\\end{array}$$",
+        "html": "<p>On considère l’application <span\nclass=\"math display\">\\[\\begin{array}{ccc}\nF: \\Rr ^2&amp;\\to&amp;\\Rr ^3\\\\\n\\left(\\begin{array}{c}t \\\\ s\\end{array}\\right)\n&amp;\\mapsto&amp;\n\\left(\\begin{array}{c}1-t^2\\\\t(1-t^2)\\\\s\\end{array}\\right).\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f631100b-b991-4704-a954-4ff6a92e8b38",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer des déplacements de l'espace $\\Rr ^3$ qui conservent l'image de $F$.",
+        "html": "<p>Déterminer des déplacements de l’espace <span\nclass=\"math inline\">\\(\\Rr ^3\\)</span> qui conservent l’image de <span\nclass=\"math inline\">\\(F\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "697b6f33-bc2e-4a1f-9398-479a2137b7f3",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme pour tout $t\\in \\Rr $, et tout $a_in\\Rr $, $c(t+a)=t_{(0,0,a)}(c(t))$,\r\n l'image de $F$ est invariante par toutes les translations de vecteur parallèle à $\\vec{k}$,\r\n le troisième vecteur de la base canonique.\r\n \r\n On remarque aussi que $F(-t,-s)$ s'obtient à partir de $F(t,s)$ par le demi-tour d'axe des abscisses. \r\n Ce demi-tour conserve donc l'image de $F$.",
+        "html": "<p>Comme pour tout <span class=\"math inline\">\\(t\\in \\Rr\\)</span>, et\ntout <span class=\"math inline\">\\(a_in\\Rr\\)</span>, <span\nclass=\"math inline\">\\(c(t+a)=t_{(0,0,a)}(c(t))\\)</span>, l’image de\n<span class=\"math inline\">\\(F\\)</span> est invariante par toutes les\ntranslations de vecteur parallèle à <span\nclass=\"math inline\">\\(\\vec{k}\\)</span>, le troisième vecteur de la base\ncanonique.</p>\n<p>On remarque aussi que <span class=\"math inline\">\\(F(-t,-s)\\)</span>\ns’obtient à partir de <span class=\"math inline\">\\(F(t,s)\\)</span> par le\ndemi-tour d’axe des abscisses. Ce demi-tour conserve donc l’image de\n<span class=\"math inline\">\\(F\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cdd0366a-7b8f-4ee6-971c-171231d5b214",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'image de $F$ est l'ensemble d'équation $y^2=x^2(1-x)$.",
+        "html": "<p>Montrer que l’image de <span class=\"math inline\">\\(F\\)</span> est\nl’ensemble d’équation <span\nclass=\"math inline\">\\(y^2=x^2(1-x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "090db980-3f7a-432c-9600-898389c6e578",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $(u,v)\\in \\Rr ^2$,\r\n $$(1-t^2)^2(1-(1-t^2))=(1-t^2)^2t^2=[t(1-t^2)]^2.$$\r\n Donc, l'image de $F$ est incluse dans l'ensemble d'équation $y^2=x^2(1-x)$.\r\n \r\n Soit $(x,y,z)$ inclus dans l'ensemble d'équation $y^2=x^2(1-x)$.\r\n Si $x=0$, $y=0$ et $(x,y,z)=F(1,z)$. Si $x\\not=0$, soit $s=z$ et $t=y/x$.\r\n On vérifie que $F(t,s)=(x,y,z)$.\r\n \r\n Donc, l'image de $F$ est l'ensemble d'équation $y^2=x^2(1-x)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((u,v)\\in \\Rr ^2\\)</span>, <span\nclass=\"math display\">\\[(1-t^2)^2(1-(1-t^2))=(1-t^2)^2t^2=[t(1-t^2)]^2.\\]</span>\nDonc, l’image de <span class=\"math inline\">\\(F\\)</span> est incluse dans\nl’ensemble d’équation <span\nclass=\"math inline\">\\(y^2=x^2(1-x)\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\((x,y,z)\\)</span> inclus dans\nl’ensemble d’équation <span class=\"math inline\">\\(y^2=x^2(1-x)\\)</span>.\nSi <span class=\"math inline\">\\(x=0\\)</span>, <span\nclass=\"math inline\">\\(y=0\\)</span> et <span\nclass=\"math inline\">\\((x,y,z)=F(1,z)\\)</span>. Si <span\nclass=\"math inline\">\\(x\\not=0\\)</span>, soit <span\nclass=\"math inline\">\\(s=z\\)</span> et <span\nclass=\"math inline\">\\(t=y/x\\)</span>. On vérifie que <span\nclass=\"math inline\">\\(F(t,s)=(x,y,z)\\)</span>.</p>\n<p>Donc, l’image de <span class=\"math inline\">\\(F\\)</span> est\nl’ensemble d’équation <span\nclass=\"math inline\">\\(y^2=x^2(1-x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b7f8577b-51d4-489b-a2ed-04c892c2ba3c",
+      "type": "question",
+      "value": {
+        "latex": "L'image de $F$ est-elle une surface régulière de $\\Rr ^3$ ?",
+        "html": "<p>L’image de <span class=\"math inline\">\\(F\\)</span> est-elle une\nsurface régulière de <span class=\"math inline\">\\(\\Rr ^3\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "64edabe3-4376-40b3-83a0-56156e55f5b7",
+      "type": "reponse",
+      "value": {
+        "latex": "Au voisinage du point $(0,0,0)$ de l'image de $S$,\r\n la projection sur le plan $x=0$ donne a chaque point deux antécédents,\r\n la projection sur la plan $y=0$ aussi,\r\n et la projection sur la plan $z=0$ donne à chaque point soit une infinité, soit aucun antécédent.\r\n Par conséquent, au voisinage de $(0,0,0)$ l'image de $S$ n'est pas un graphe.\r\n L'image de $F$ n'est donc pas une surface régulière de $\\Rr ^3$.",
+        "html": "<p>Au voisinage du point <span class=\"math inline\">\\((0,0,0)\\)</span> de\nl’image de <span class=\"math inline\">\\(S\\)</span>, la projection sur le\nplan <span class=\"math inline\">\\(x=0\\)</span> donne a chaque point deux\nantécédents, la projection sur la plan <span\nclass=\"math inline\">\\(y=0\\)</span> aussi, et la projection sur la plan\n<span class=\"math inline\">\\(z=0\\)</span> donne à chaque point soit une\ninfinité, soit aucun antécédent. Par conséquent, au voisinage de <span\nclass=\"math inline\">\\((0,0,0)\\)</span> l’image de <span\nclass=\"math inline\">\\(S\\)</span> n’est pas un graphe. L’image de <span\nclass=\"math inline\">\\(F\\)</span> n’est donc pas une surface régulière de\n<span class=\"math inline\">\\(\\Rr ^3\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’application <span\nclass=\"math display\"> ..."
+}

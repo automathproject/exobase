@@ -1,0 +1,53 @@
+{
+  "uuid": "coIi",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3835",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Espaces vectoriels hermitiens",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:15.047Z"
+  },
+  "contenu": [
+    {
+      "id": "eeacb288-398d-45cc-a2f3-70d3df618a47",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ed8e5e49-fa42-4ed6-8e59-26679578d9f6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe des polynômes $P_0,\\dots,P_n \\in \\R_n[X]$ tels que :\n$\\forall\\ i,j\\le n,\\  \\int_{t=0}^{+\\infty} e^{-t}t^iP_j(t)\\,d t = \\delta_{ij}$.",
+        "html": "<p>Montrer qu’il existe des polynômes <span\nclass=\"math inline\">\\(P_0,\\dots,P_n \\in \\R_n[X]\\)</span> tels que :\n<span class=\"math inline\">\\(\\forall\\ i,j\\le n,\\  \\int_{t=0}^{+\\infty}\ne^{-t}t^iP_j(t)\\,d t = \\delta_{ij}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d29e4682-2288-41a0-9df3-4cf52fdd834c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il n'existe pas de suite de polynômes $(P_0,\\dots,P_n,\\dots)$ telle que :\n$\\forall\\ i,j\\in\\N,\\  \\int_{t=0}^{+\\infty} e^{-t}t^iP_j(t)\\,d t = \\delta_{ij}$.",
+        "html": "<p>Montrer qu’il n’existe pas de suite de polynômes <span\nclass=\"math inline\">\\((P_0,\\dots,P_n,\\dots)\\)</span> telle que : <span\nclass=\"math inline\">\\(\\forall\\ i,j\\in\\N,\\  \\int_{t=0}^{+\\infty}\ne^{-t}t^iP_j(t)\\,d t = \\delta_{ij}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9d473df2-7f2e-42f4-9ef9-fb0085125fc4",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $P_0 = Q_0'$. Par IPP on obtient $Q_0$ est orthogonal à la\nfamille $(jX^{j-1}-X^j)_{j\\ge 1}$ qui est une base de $\\R[X]$ donc $Q_0 = 0 = P_0$\net $ \\int_{t=0}^{+\\infty} e^{-t}t^0P_0(t)\\,d t \\ne \\delta_{0,0}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P_0 = Q_0&#39;\\)</span>. Par IPP on\nobtient <span class=\"math inline\">\\(Q_0\\)</span> est orthogonal à la\nfamille <span class=\"math inline\">\\((jX^{j-1}-X^j)_{j\\ge 1}\\)</span> qui\nest une base de <span class=\"math inline\">\\(\\R[X]\\)</span> donc <span\nclass=\"math inline\">\\(Q_0 = 0 = P_0\\)</span> et <span\nclass=\"math inline\">\\(\\int_{t=0}^{+\\infty} e^{-t}t^0P_0(t)\\,d t \\ne\n\\delta_{0,0}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer qu’il existe des polynômes <span\nclass=\"math inline\">\\(P_0,\\dots,P_n \\in \\R_n[X]\\)</span> tels que :\n<span class=\"math inline\"> ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "Iou6",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1613",
+    "auteur": "liousse",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Diagonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:18.204Z"
+  },
+  "contenu": [
+    {
+      "id": "1fadb86e-1b7e-499d-b333-55b8a78382a5",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel de \ndimension $3$ et de base $(e_1,e_2,e_3)$. On d\\'esigne\npar $I_E$ l'application identit\\'e de $E$. Soit $f$ une \napplication lin\\'eaire de $E$ dans $E$ telle que\n$f(e_1) = 2e_2+3e_3, f(e_2) = 2e_1 - 5e_2-8e_3, f(e_3) = -e_1+4e_2+6e_3$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel de\ndimension <span class=\"math inline\">\\(3\\)</span> et de base <span\nclass=\"math inline\">\\((e_1,e_2,e_3)\\)</span>. On désigne par <span\nclass=\"math inline\">\\(I_E\\)</span> l’application identité de <span\nclass=\"math inline\">\\(E\\)</span>. Soit <span\nclass=\"math inline\">\\(f\\)</span> une application linéaire de <span\nclass=\"math inline\">\\(E\\)</span> dans <span\nclass=\"math inline\">\\(E\\)</span> telle que <span\nclass=\"math inline\">\\(f(e_1) = 2e_2+3e_3, f(e_2) = 2e_1 - 5e_2-8e_3,\nf(e_3) = -e_1+4e_2+6e_3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f95382c6-e63d-498e-b812-d02bfdaec620",
+      "type": "question",
+      "value": {
+        "latex": "Donner la matrice de $f$ dans la base $(e_1, e_2,e_3)$.",
+        "html": "<p>Donner la matrice de <span class=\"math inline\">\\(f\\)</span> dans la\nbase <span class=\"math inline\">\\((e_1, e_2,e_3)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b08729d0-d26a-4ebc-b4c1-dfea427c5236",
+      "type": "question",
+      "value": {
+        "latex": "Donner la dimension et une base de $Ker (f-I_E)$.",
+        "html": "<p>Donner la dimension et une base de <span class=\"math inline\">\\(Ker\n(f-I_E)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "350d9178-436d-4d74-bb5a-f535e705d53e",
+      "type": "question",
+      "value": {
+        "latex": "Donner la dimension et une base de $Ker (f^2+I_E)$.",
+        "html": "<p>Donner la dimension et une base de <span class=\"math inline\">\\(Ker\n(f^2+I_E)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ce69b6a6-01f9-45ce-b591-8054d3277805",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la reunion des bases pr\\'ec\\'edentes constitue une base de E. \nQuelle est la matrice de $f$ dans cette nouvelle base ? Et celle de $f^2$ ?",
+        "html": "<p>Montrer que la reunion des bases précédentes constitue une base de E.\nQuelle est la matrice de <span class=\"math inline\">\\(f\\)</span> dans\ncette nouvelle base ? Et celle de <span\nclass=\"math inline\">\\(f^2\\)</span> ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel de\ndimension <span class=\"math inline\">\\(3\\)</span> et de base <span\nclass=\"math in ..."
+}

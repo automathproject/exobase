@@ -1,0 +1,37 @@
+{
+  "uuid": "YduG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2956",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Trigonométrie",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:01.723Z"
+  },
+  "contenu": [
+    {
+      "id": "5e604d13-63b0-4ff4-8015-8af71be3a18a",
+      "type": "description",
+      "value": {
+        "latex": "R{\\'e}soudre en $x$ :\n$x^n + C_n^1x^{n-1}\\cos\\alpha + \\dots + C_n^n\\cos(n\\alpha) = 0$.",
+        "html": "<p>R<span>é</span>soudre en <span class=\"math inline\">\\(x\\)</span> :\n<span class=\"math inline\">\\(x^n + C_n^1x^{n-1}\\cos\\alpha + \\dots +\nC_n^n\\cos(n\\alpha) = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "97f476e4-3ab6-4d2c-8af5-6d0f59150bcc",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac 12\\Bigl( (x+e^{i\\alpha})^n + (x+e^{-i\\alpha})^n \\Bigr) = 0\n \\Leftrightarrow x = \\mathrm{cotan}\\left(\\frac{(2k+1)\\pi}{2n}\\right)\\sin\\alpha - \\cos\\alpha$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac 12\\Bigl( (x+e^{i\\alpha})^n +\n(x+e^{-i\\alpha})^n \\Bigr) = 0\n\\Leftrightarrow x =\n\\mathrm{cotan}\\left(\\frac{(2k+1)\\pi}{2n}\\right)\\sin\\alpha -\n\\cos\\alpha\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>R<span>é</span>soudre en <span class=\"math inline\">\\(x\\)</span> :\n<span class=\"math inline\"> ..."
+}

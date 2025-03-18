@@ -1,0 +1,61 @@
+{
+  "uuid": "PkJ8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3530",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Polynôme caractéristique, théorème de Cayley-Hamilton",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:37.105Z"
+  },
+  "contenu": [
+    {
+      "id": "e483d18f-db6f-4305-8a98-66aeb76ff7c6",
+      "type": "description",
+      "value": {
+        "latex": "On considère la matrice de $M_n(\\C)$, $A=\\begin{pmatrix}0      & a      & \\dots  & a\\cr\n                                                    b      & \\ddots & \\ddots & \\vdots \\cr\n                                                    \\vdots & \\ddots & \\ddots & a\\cr\n                                                    b      & \\dots  & b      & 0\\cr\\end{pmatrix}$, $a\\ne b$.",
+        "html": "<p>On considère la matrice de <span\nclass=\"math inline\">\\(M_n(\\C)\\)</span>, <span\nclass=\"math inline\">\\(A=\\begin{pmatrix}0      &amp; a      &amp;\n\\dots  &amp; a\\cr\n                                                    b      &amp; \\ddots\n&amp; \\ddots &amp; \\vdots \\cr\n                                                    \\vdots &amp; \\ddots\n&amp; \\ddots &amp; a\\cr\n                                                    b      &amp;\n\\dots  &amp; b      &amp; 0\\cr\\end{pmatrix}\\)</span>, <span\nclass=\"math inline\">\\(a\\ne b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7d005fa6-c762-4bd3-b163-04eb25bce572",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le polynôme caractéristique de $A$ est $\\frac{(-1)^n}{a-b}(a(X+b)^n-b(X+a)^n)$.",
+        "html": "<p>Montrer que le polynôme caractéristique de <span\nclass=\"math inline\">\\(A\\)</span> est <span\nclass=\"math inline\">\\(\\frac{(-1)^n}{a-b}(a(X+b)^n-b(X+a)^n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5db663ab-b083-4ec0-a89f-34379c044955",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\det(M+(t))$ est une fonction affine de~$t$.",
+        "html": "<p><span class=\"math inline\">\\(\\det(M+(t))\\)</span> est une fonction\naffine de <span class=\"math inline\">\\(t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "91ee36a2-948b-4be9-8f60-a64dffe89926",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'en général les valeurs propres de $A$ sont sur un cercle.",
+        "html": "<p>Montrer qu’en général les valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span> sont sur un cercle.</p>\n"
+      }
+    },
+    {
+      "id": "d762de2e-b317-4001-95ee-a0a1b2cc9f89",
+      "type": "reponse",
+      "value": {
+        "latex": "$|\\lambda+a| = k|\\lambda+b|$ et $\\lambda=x+iy  \\Rightarrow \n    (1-k^2)(x^2+y^2)+\\dots = 0$, équation d'un cercle si $|a|\\ne |b|$.",
+        "html": "<p><span class=\"math inline\">\\(|\\lambda+a| = k|\\lambda+b|\\)</span> et\n<span class=\"math inline\">\\(\\lambda=x+iy  \\Rightarrow\n    (1-k^2)(x^2+y^2)+\\dots = 0\\)</span>, équation d’un cercle si <span\nclass=\"math inline\">\\(|a|\\ne |b|\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la matrice de <span\nclass=\"math inline\">\\(M_n(\\C)\\)</span>, <span\nclass=\"math inline\"> ..."
+}

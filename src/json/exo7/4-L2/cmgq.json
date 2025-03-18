@@ -1,0 +1,61 @@
+{
+  "uuid": "cmgq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3697",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Espace vectoriel euclidien de dimension 3",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:14.668Z"
+  },
+  "contenu": [
+    {
+      "id": "8a31c8b3-e72c-4ead-bea9-c9f237e21aa4",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel euclidien orienté de dimension 3\\ et $f \\in \\mathcal{L}(E)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien orienté de dimension 3 et <span class=\"math inline\">\\(f \\in\n\\mathcal{L}(E)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2179ed08-e16e-48ad-954e-0e966a25a100",
+      "type": "question",
+      "value": {
+        "latex": "Prouver que :\n     $[f(\\vec u),\\vec v,\\vec w]\n     + [\\vec u,f(\\vec v),\\vec w]\n     + [\\vec u,\\vec v,f(\\vec w)] = [\\vec u,\\vec v,\\vec w]\\mathrm{tr}(f)$.",
+        "html": "<p>Prouver que : <span class=\"math inline\">\\([f(\\vec u),\\vec v,\\vec w]\n     + [\\vec u,f(\\vec v),\\vec w]\n     + [\\vec u,\\vec v,f(\\vec w)] = [\\vec u,\\vec v,\\vec\nw]\\mathrm{tr}(f)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eee2a05e-ab7e-4f84-8131-f15d845e42c0",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe $g \\in \\mathcal{L}(E)$ telle que :\n     $\\forall\\ \\vec u,\\vec v$, on a\n     $f(\\vec u)\\wedge\\vec v + \\vec u\\wedge f(\\vec v) = g(\\vec u\\wedge\\vec v)$.",
+        "html": "<p>Montrer qu’il existe <span class=\"math inline\">\\(g \\in\n\\mathcal{L}(E)\\)</span> telle que : <span class=\"math inline\">\\(\\forall\\\n\\vec u,\\vec v\\)</span>, on a <span class=\"math inline\">\\(f(\\vec\nu)\\wedge\\vec v + \\vec u\\wedge f(\\vec v) = g(\\vec u\\wedge\\vec\nv)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e3562c23-1b6a-4f35-aa00-03545a5e2932",
+      "type": "question",
+      "value": {
+        "latex": "Dans une {\\it bond}, exprimer la matrice de $g$ en fonction de celle\n     de $f$.",
+        "html": "<p>Dans une <span><em>bond</em></span>, exprimer la matrice de <span\nclass=\"math inline\">\\(g\\)</span> en fonction de celle de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0d11e4e4-a3e8-44a5-9cc9-da95b27e109c",
+      "type": "reponse",
+      "value": {
+        "latex": "3. $G = \\mathrm{tr}(F)I - {}^tF$.",
+        "html": "<p>3. <span class=\"math inline\">\\(G = \\mathrm{tr}(F)I -\n{}^tF\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien orienté de dimension 3 et <span class=\"math inline\"> ..."
+}

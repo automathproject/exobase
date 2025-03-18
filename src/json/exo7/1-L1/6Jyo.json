@@ -1,0 +1,45 @@
+{
+  "uuid": "6Jyo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "174",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Récurrence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:55.652Z"
+  },
+  "contenu": [
+    {
+      "id": "bb36b1f6-c0c3-4948-a5de-763c1c8ecdf2",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "1b9a35ee-8bc8-4b51-8630-8f8c08cdd624",
+      "type": "question",
+      "value": {
+        "latex": "Soit $n\\in\\mathbb{N}$; montrer que pour tout entier $k\\geq 1$ on a\n$$n^k+kn^{k-1}\\leq (n+1)^k.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(n\\in\\mathbb{N}\\)</span>; montrer que\npour tout entier <span class=\"math inline\">\\(k\\geq 1\\)</span> on a <span\nclass=\"math display\">\\[n^k+kn^{k-1}\\leq (n+1)^k.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3300553f-1e4d-4308-80c3-a53c391a394e",
+      "type": "question",
+      "value": {
+        "latex": "Soit $b$ un réel positif ou nul. Montrer par récurrence, que\npour tout $n\\geq 1$ on a\n$$ (1+b)^n\\leq 1+\\frac{nb}{1!}+\\frac{(nb)^2}{2!}+...+\\frac{(nb)^n}{n!}.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(b\\)</span> un réel positif ou nul.\nMontrer par récurrence, que pour tout <span class=\"math inline\">\\(n\\geq\n1\\)</span> on a <span class=\"math display\">\\[(1+b)^n\\leq\n1+\\frac{nb}{1!}+\\frac{(nb)^2}{2!}+...+\\frac{(nb)^n}{n!}.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(n\\in\\mathbb{N}\\)</span>; montrer que\npour tout entier <span class=\"math inline\">\\(k\\geq 1\\)</span> on a <span\nclas ..."
+}

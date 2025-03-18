@@ -1,0 +1,45 @@
+{
+  "uuid": "8N5r",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3577",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Changement de base, matrice de passage",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:03.365Z"
+  },
+  "contenu": [
+    {
+      "id": "21f62c8a-b075-4b8e-b0e8-d66915229618",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A,B \\in \\mathcal{M}_n(\\R)$ semblables sur $\\C$ :\nIl existe $P,Q \\in \\mathcal{M}_n(\\R)$ telles que :\n$\\begin{cases} P+iQ \\in GL_n(\\C) \\cr (P+iQ)A = B(P+iQ). \\cr \\end{cases}$",
+        "html": "<p>Soient <span class=\"math inline\">\\(A,B \\in \\mathcal{M}_n(\\R)\\)</span>\nsemblables sur <span class=\"math inline\">\\(\\C\\)</span> : Il existe <span\nclass=\"math inline\">\\(P,Q \\in \\mathcal{M}_n(\\R)\\)</span> telles que :\n<span class=\"math inline\">\\(\\begin{cases} P+iQ \\in GL_n(\\C) \\cr (P+iQ)A\n= B(P+iQ). \\cr \\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "ea579c43-6ba1-4ab5-bde9-d99deee1aed2",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que : $\\forall\\ \\lambda \\in \\R,\\ (P+\\lambda Q)A = B(P+\\lambda Q)$.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ \\lambda \\in \\R,\\\n(P+\\lambda Q)A = B(P+\\lambda Q)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5fb3f92d-a989-40d9-a6e0-e3e47ca00ff4",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que $A$ et $B$ sont semblables sur $\\R$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> sont semblables sur <span\nclass=\"math inline\">\\(\\R\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A,B \\in \\mathcal{M}_n(\\R)\\)</span>\nsemblables sur <span class=\"math inline\">\\(\\C\\)</span> : Il existe <span\nclas ..."
+}

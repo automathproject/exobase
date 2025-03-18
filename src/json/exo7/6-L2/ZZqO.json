@@ -1,0 +1,45 @@
+{
+  "uuid": "ZZqO",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4897",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Géométrie affine dans le plan et dans l'espace",
+    "sousChapitre": "Propriétés des triangles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:33.760Z"
+  },
+  "contenu": [
+    {
+      "id": "04bc0abc-346d-496d-9afd-86f3365a5188",
+      "type": "description",
+      "value": {
+        "latex": "Soit $ABC$ un triangle.\nOn note : $a = BC$, $b = CA$, $c = AB$,\n$\\alpha \\equiv (\\overline{ \\vec{AB}, \\vec{AC}})$,\n$\\beta  \\equiv (\\overline{ \\vec{BC}, \\vec{BA}})$,\n$\\gamma \\equiv (\\overline{ \\vec{CA}, \\vec{CB}})$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(ABC\\)</span> un triangle. On note :\n<span class=\"math inline\">\\(a = BC\\)</span>, <span\nclass=\"math inline\">\\(b = CA\\)</span>, <span class=\"math inline\">\\(c =\nAB\\)</span>, <span class=\"math inline\">\\(\\alpha \\equiv (\\overline{\n\\vec{AB}, \\vec{AC}})\\)</span>, <span class=\"math inline\">\\(\\beta  \\equiv\n(\\overline{ \\vec{BC}, \\vec{BA}})\\)</span>, <span\nclass=\"math inline\">\\(\\gamma \\equiv (\\overline{ \\vec{CA},\n\\vec{CB}})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6f3fd297-ce25-4050-8cc2-cc8af0d96d13",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout point $M$ du cercle ($ABC$), on a :\n\n      $$a\\cos\\alpha MA^2 + b\\cos\\beta MB^2 + c\\cos\\gamma MC^2 = abc.$$",
+        "html": "<p>Montrer que pour tout point <span class=\"math inline\">\\(M\\)</span> du\ncercle (<span class=\"math inline\">\\(ABC\\)</span>), on a :</p>\n<p><span class=\"math display\">\\[a\\cos\\alpha MA^2 + b\\cos\\beta MB^2 +\nc\\cos\\gamma MC^2 = abc.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "14c5c77f-6921-4790-bf6a-86c1c80aa382",
+      "type": "question",
+      "value": {
+        "latex": "En déduire les coordonnées barycentriques du centre du cercle $(ABC)$.",
+        "html": "<p>En déduire les coordonnées barycentriques du centre du cercle <span\nclass=\"math inline\">\\((ABC)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(ABC\\)</span> un triangle. On note :\n<span class=\"math inline\">\\(a = BC\\)</span>, <span\nclass=\"math inline\"> ..."
+}

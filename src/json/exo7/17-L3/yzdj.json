@@ -1,0 +1,37 @@
+{
+  "uuid": "yzdj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2213",
+    "auteur": "matos",
+    "createdAt": "2008-04-23",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:32.542Z"
+  },
+  "contenu": [
+    {
+      "id": "4b7ee90c-d4a6-4f3e-8e18-7ead18c9ed3f",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que si $\\rho (A) <1$ alors\n\\begin{itemize}\n\\item $I-A$ est r\\'eguli\\`ere;\n\\item $(I-A)^{-1}=\\lim_{k \\rightarrow \\infty} C_k$ avec $C_k=I+A+\\cdots +A^k$.\n\\end{itemize}",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(\\rho (A) &lt;1\\)</span>\nalors</p>\n<ul>\n<li><p><span class=\"math inline\">\\(I-A\\)</span> est régulière;</p></li>\n<li><p><span class=\"math inline\">\\((I-A)^{-1}=\\lim_{k \\rightarrow\n\\infty} C_k\\)</span> avec <span class=\"math inline\">\\(C_k=I+A+\\cdots\n+A^k\\)</span>.</p></li>\n</ul>\n"
+      }
+    },
+    {
+      "id": "a218280e-8a88-4af5-a01f-697395a5f9e4",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\rho (A)<1 \\Rightarrow 1$ n'est pas valeur propre de $A \\Rightarrow 0$ n'est pas valeur propre de $I-A\\Rightarrow I-A$ inversible\n$$(I-A)C_k= (I-A)(I+A+\\cdots +A^k)=I-A^{k+1}$$\n$C_k=(I-A)^{-1} (I-A^{k+1}) \\Rightarrow (I-A)^{-1} -C_k =(I-A)^{-1} A^{k+1}$ et conc\n$$\\|(I-A)^{-1} -C_k\\|\\leq \\|(I-A)^{-1}\\|\\|A^{k+1}\\|\\leq \\|(I-A)^{-1}\\|\\|A\\|^{k+1}$$\nComme $\\|A\\|<1$ pour au moins une norme subordonn\\'ee on obtient finalement\n$$\\lim_{k\\rightarrow \\infty}\\|(I-A)^{-1}-C_k\\|=0$$",
+        "html": "<p><span class=\"math inline\">\\(\\rho (A)&lt;1 \\Rightarrow 1\\)</span>\nn’est pas valeur propre de <span class=\"math inline\">\\(A \\Rightarrow\n0\\)</span> n’est pas valeur propre de <span\nclass=\"math inline\">\\(I-A\\Rightarrow I-A\\)</span> inversible <span\nclass=\"math display\">\\[(I-A)C_k= (I-A)(I+A+\\cdots\n+A^k)=I-A^{k+1}\\]</span> <span class=\"math inline\">\\(C_k=(I-A)^{-1}\n(I-A^{k+1}) \\Rightarrow (I-A)^{-1} -C_k =(I-A)^{-1} A^{k+1}\\)</span> et\nconc <span class=\"math display\">\\[\\|(I-A)^{-1} -C_k\\|\\leq\n\\|(I-A)^{-1}\\|\\|A^{k+1}\\|\\leq \\|(I-A)^{-1}\\|\\|A\\|^{k+1}\\]</span> Comme\n<span class=\"math inline\">\\(\\|A\\|&lt;1\\)</span> pour au moins une norme\nsubordonnée on obtient finalement <span\nclass=\"math display\">\\[\\lim_{k\\rightarrow\n\\infty}\\|(I-A)^{-1}-C_k\\|=0\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que si <span class=\"math inline\">\\(\\rho (A) &lt;1\\)</span>\nalors</p>\n<ul>\n<li><p><span class=\"math inline\">\\(I-A\\)</span> est régulière;</p ..."
+}

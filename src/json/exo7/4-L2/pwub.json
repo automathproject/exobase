@@ -1,0 +1,77 @@
+{
+  "uuid": "pwub",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3589",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Applications",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:49.782Z"
+  },
+  "contenu": [
+    {
+      "id": "451fe635-660b-4482-95ca-d1732baeb77d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(M_n)$ une suite de points dans le plan, de coordonnées $(x_n,y_n)$\ndéfinies par la relation de récurrence~:\n$$\\left\\{\n\\begin{array}{lllll}\nx_{n+1} &= &-x_n + 2y_n\\cr y_{n+1} &= &-3x_n + 4y_n.\\cr\n\\end{array}\\right.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\((M_n)\\)</span> une suite de points\ndans le plan, de coordonnées <span\nclass=\"math inline\">\\((x_n,y_n)\\)</span> définies par la relation de\nrécurrence : <span class=\"math display\">\\[\\left\\{\n\\begin{array}{lllll}\nx_{n+1} &amp;= &amp;-x_n + 2y_n\\cr y_{n+1} &amp;= &amp;-3x_n + 4y_n.\\cr\n\\end{array}\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "492a5451-1fef-492f-952e-65a446fd738a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, quelque soit $M_0$, les points $M_n$ sont alignés.",
+        "html": "<p>Montrer que, quelque soit <span class=\"math inline\">\\(M_0\\)</span>,\nles points <span class=\"math inline\">\\(M_n\\)</span> sont alignés.</p>\n"
+      }
+    },
+    {
+      "id": "11dabd8b-407b-45b0-907b-ffed8148f732",
+      "type": "reponse",
+      "value": {
+        "latex": "Diagonaliser ${}^tM  \\Rightarrow  y_n -\\frac 32x_n = \\text{cste}$.",
+        "html": "<p>Diagonaliser <span class=\"math inline\">\\({}^tM  \\Rightarrow  y_n\n-\\frac 32x_n = \\text{cste}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "53d3bed8-7493-4826-ad89-e57a29bcec90",
+      "type": "question",
+      "value": {
+        "latex": "Étudier la suite $(M_n)$ quand $n$ tend vers l'infini.",
+        "html": "<p>Étudier la suite <span class=\"math inline\">\\((M_n)\\)</span> quand\n<span class=\"math inline\">\\(n\\)</span> tend vers l’infini.</p>\n"
+      }
+    },
+    {
+      "id": "08bc7651-40c7-447a-b008-44f1ec9da776",
+      "type": "reponse",
+      "value": {
+        "latex": "$y_n-x_n = 2^n(y_0-x_0)$ donc si $y_0\\ne x_0$ alors $M_n \\to\\infty$\nsinon la suite est constante.",
+        "html": "<p><span class=\"math inline\">\\(y_n-x_n = 2^n(y_0-x_0)\\)</span> donc si\n<span class=\"math inline\">\\(y_0\\ne x_0\\)</span> alors <span\nclass=\"math inline\">\\(M_n \\to\\infty\\)</span> sinon la suite est\nconstante.</p>\n"
+      }
+    },
+    {
+      "id": "6b64e3b3-17ad-4632-9063-c06a0e8b1e6c",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la limite de $y_n/x_n$ (utiliser une méthode géométrique)~?",
+        "html": "<p>Quelle est la limite de <span class=\"math inline\">\\(y_n/x_n\\)</span>\n(utiliser une méthode géométrique) ?</p>\n"
+      }
+    },
+    {
+      "id": "edc1e724-d179-47b4-84cc-0d865cd3a0f3",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac32$ si $y_0\\ne x_0$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac32\\)</span> si <span\nclass=\"math inline\">\\(y_0\\ne x_0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((M_n)\\)</span> une suite de points\ndans le plan, de coordonnées <span\nclass=\"math inline\">\\((x_n,y_n)\\)</span> déf ..."
+}

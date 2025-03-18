@@ -1,0 +1,29 @@
+{
+  "uuid": "RbXY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2516",
+    "auteur": "mayer",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Différentiabilité, calcul de différentielles",
+    "sousChapitre": "Différentiabilité, calcul de différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:44.847Z"
+  },
+  "contenu": [
+    {
+      "id": "0d90c353-bf48-4c66-87a1-2863a57ae785",
+      "type": "description",
+      "value": {
+        "latex": "Dans un espace norm\\'e $({\\cal\nF} , N)$, on consid\\'ere l'application\n $x \\mapsto  N(x)$.\nRappeler que, lorsque cette application $N$ est diff\\'erentiable\nen $x\\in {\\cal F}$, alors\n$$ DN(x) \\cdot (h) = \\lim _{t\\rightarrow 0} \\frac{1}{t}\\left( N (x +th) -N (x) \\right)\\; .$$\nEn d\\'eduire que $N$ n'est pas diff\\'erentiable en $0\\in {\\cal\nF}$. Supposons $N$ diff\\'erentiable en $x\\in {\\cal F}$, alors\njustifier que $N$ l'est aussi en $\\lambda x$, o\\`u $\\lambda >0$,\net que $DN(x) =DN(\\lambda x )$. En consid\\'erant la d\\'eriv\\'ee en\n$\\lambda =1$ de l'application $\\lambda \\mapsto N (\\lambda x)$,\nmontrer que $DN(x)  \\cdot (x)=N(x)$ et en d\\'eduire $\\|| DN(x) \\||\n=1$.",
+        "html": "<p>Dans un espace normé <span class=\"math inline\">\\(({\\cal\nF} , N)\\)</span>, on considére l’application <span\nclass=\"math inline\">\\(x \\mapsto  N(x)\\)</span>. Rappeler que, lorsque\ncette application <span class=\"math inline\">\\(N\\)</span> est\ndifférentiable en <span class=\"math inline\">\\(x\\in {\\cal F}\\)</span>,\nalors <span class=\"math display\">\\[DN(x) \\cdot (h) = \\lim _{t\\rightarrow\n0} \\frac{1}{t}\\left( N (x +th) -N (x) \\right)\\; .\\]</span> En déduire\nque <span class=\"math inline\">\\(N\\)</span> n’est pas différentiable en\n<span class=\"math inline\">\\(0\\in {\\cal\nF}\\)</span>. Supposons <span class=\"math inline\">\\(N\\)</span>\ndifférentiable en <span class=\"math inline\">\\(x\\in {\\cal F}\\)</span>,\nalors justifier que <span class=\"math inline\">\\(N\\)</span> l’est aussi\nen <span class=\"math inline\">\\(\\lambda x\\)</span>, où <span\nclass=\"math inline\">\\(\\lambda &gt;0\\)</span>, et que <span\nclass=\"math inline\">\\(DN(x) =DN(\\lambda x )\\)</span>. En considérant la\ndérivée en <span class=\"math inline\">\\(\\lambda =1\\)</span> de\nl’application <span class=\"math inline\">\\(\\lambda \\mapsto N (\\lambda\nx)\\)</span>, montrer que <span class=\"math inline\">\\(DN(x)  \\cdot\n(x)=N(x)\\)</span> et en déduire <span class=\"math inline\">\\(\\|| DN(x)\n\\||\n=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans un espace normé <span class=\"math inline\">\\(({\\cal\nF} , N)\\)</span>, on considére l’application <span\nclass=\"math inline\">\\(x \\mapsto  N(x)\\)< ..."
+}

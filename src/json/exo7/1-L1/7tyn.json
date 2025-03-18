@@ -1,0 +1,285 @@
+{
+  "uuid": "7tyn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "927",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Définition",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:01.763Z"
+  },
+  "contenu": [
+    {
+      "id": "ee8624ec-7877-4f0c-bdd6-3656dd8dbe3a",
+      "type": "description",
+      "value": {
+        "latex": "\\emph{Notations :\\\\\n$\\mathcal{C}$~: ensemble des fonctions numériques continues sur $[0,1]$.\\\\ \n$\\mathcal{C}_d$~: ensemble des fonctions numériques ayant\nune dérivée continue sur $[0,1]$.\\\\ \n$\\mathcal{C}(\\mathbb{R})$ et $\\mathcal{C}^1(\\mathbb{R})$~: définis de façon analogue\npour les fonctions définies sur $\\mathbb{R}$.\\\\ \n$\\mathcal{P}$~: ensemble des polynômes sur $\\mathbb{R}$.\\\\ \n$\\mathcal{P}_n$~: ensemble des polynômes sur $\\mathbb{R}$, de degré $\\leq n$.}\n\n\n\\medskip\n\nDire si les applications suivantes sont des applications linéaires~:",
+        "html": "<p><em>Notations :<br />\n<span class=\"math inline\">\\(\\mathcal{C}\\)</span> : ensemble des\nfonctions numériques continues sur <span\nclass=\"math inline\">\\([0,1]\\)</span>.<br />\n<span class=\"math inline\">\\(\\mathcal{C}_d\\)</span> : ensemble des\nfonctions numériques ayant une dérivée continue sur <span\nclass=\"math inline\">\\([0,1]\\)</span>.<br />\n<span class=\"math inline\">\\(\\mathcal{C}(\\mathbb{R})\\)</span> et <span\nclass=\"math inline\">\\(\\mathcal{C}^1(\\mathbb{R})\\)</span> : définis de\nfaçon analogue pour les fonctions définies sur <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span>.<br />\n<span class=\"math inline\">\\(\\mathcal{P}\\)</span> : ensemble des\npolynômes sur <span class=\"math inline\">\\(\\mathbb{R}\\)</span>.<br />\n<span class=\"math inline\">\\(\\mathcal{P}_n\\)</span> : ensemble des\npolynômes sur <span class=\"math inline\">\\(\\mathbb{R}\\)</span>, de degré\n<span class=\"math inline\">\\(\\leq n\\)</span>.</em></p>\n<p>Dire si les applications suivantes sont des applications\nlinéaires :</p>\n"
+      }
+    },
+    {
+      "id": "85fe8f34-ae2a-49db-971c-ea3c09262aa1",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathbb{R} : x\\mapsto 2x^2$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathbb{R} :\nx\\mapsto 2x^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "da474d2d-bf10-4cdd-bd60-74457065768e",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathbb{R} : x\\mapsto 4x-3$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathbb{R} :\nx\\mapsto 4x-3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d0bd7827-1fc5-4e37-89a1-d8cb1bf07e72",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathbb{R} : x\\mapsto \\sqrt{x^2}$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathbb{R} :\nx\\mapsto \\sqrt{x^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "79167307-4be2-4f2e-a0a0-b37a438414bb",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R} ^2  :(x,y)\\mapsto (y,x)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}\n^2  :(x,y)\\mapsto (y,x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2ffd531f-9435-44fd-a68a-861d3ec9601b",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C}\\rightarrow \\mathcal{C} : f \\mapsto \\{t\\mapsto {f(t)\\over1+t^2}\\}$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C}\\rightarrow \\mathcal{C} : f\n\\mapsto \\{t\\mapsto {f(t)\\over1+t^2}\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8a7ca74b-2503-4aaf-90a3-df398fbef66d",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C} \\rightarrow \\mathbb{R} : f\\mapsto  f(3/4)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C} \\rightarrow \\mathbb{R} :\nf\\mapsto  f(3/4)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4d9eee09-ed49-4435-b504-20c22a69dade",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C} \\rightarrow \\mathbb{R} : f\\mapsto  f(1/4)-\\int_{1/2}^1f(t)\\,dt$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C} \\rightarrow \\mathbb{R} :\nf\\mapsto  f(1/4)-\\int_{1/2}^1f(t)\\,dt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e4fb699e-f446-47d2-a219-e086be83c536",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R} :(x,y)\\mapsto 3x+5y$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}\n:(x,y)\\mapsto 3x+5y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4832d590-e797-4f72-9764-7e40c3e63137",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R} : (x,y)\\mapsto \\sqrt{3x^2+5y^2}$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R} :\n(x,y)\\mapsto \\sqrt{3x^2+5y^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "845aad8a-d646-4e40-b7cd-7607caa37b7b",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R} : (x,y)\\mapsto \\sin(3x+5y)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R} :\n(x,y)\\mapsto \\sin(3x+5y)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4f524cd0-cccd-4366-9476-838d809086b6",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 : (x,y)\\mapsto (-x,y)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 :\n(x,y)\\mapsto (-x,y)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "06a19de8-1de7-4fde-80b2-4e2c76c3be1e",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R} :(x,y)\\mapsto  xy$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}\n:(x,y)\\mapsto  xy\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2173fb58-2341-44e7-b960-4e83889c2337",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R} : (x,y)\\mapsto \n{x^2 y\\over x^2+y^2} \\mbox{ si } x^2+y^2 \\ne0 \\mbox{ et} 0 \\mbox{ sinon}.$",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R} :\n(x,y)\\mapsto\n{x^2 y\\over x^2+y^2} \\mbox{ si } x^2+y^2 \\ne0 \\mbox{ et} 0 \\mbox{\nsinon}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a26a818e-2b70-4667-b76e-8641a247b77c",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C} \\rightarrow \\mathcal{C}_d : f\\mapsto \\{x\\mapsto  e^{-x}\\int_0^1f(t)\\,dt\\}$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C} \\rightarrow \\mathcal{C}_d :\nf\\mapsto \\{x\\mapsto  e^{-x}\\int_0^1f(t)\\,dt\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dd112ae3-673d-4efc-8343-9e6f75171904",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{P} \\rightarrow \\mathcal{P}_n : A \\mapsto $ quotient de $A$ par $B$\nà l'ordre $n$ selon les puissances croissantes ($B$ et $n$ fixés,\navec $B(0)\\ne0$).",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{P} \\rightarrow \\mathcal{P}_n : A\n\\mapsto\\)</span> quotient de <span class=\"math inline\">\\(A\\)</span> par\n<span class=\"math inline\">\\(B\\)</span> à l’ordre <span\nclass=\"math inline\">\\(n\\)</span> selon les puissances croissantes (<span\nclass=\"math inline\">\\(B\\)</span> et <span\nclass=\"math inline\">\\(n\\)</span> fixés, avec <span\nclass=\"math inline\">\\(B(0)\\ne0\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "6624c72f-ec92-4b69-85de-0df817ecb9f4",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 : M \\mapsto  M'$ défini par: ${\\overrightarrow{OM'}=\n{\\overrightarrow{OM}\\over\\bigl\\Vert\\overrightarrow{OM}\\bigr\\Vert} \\mbox{ si } \n\\overrightarrow{OM}\\ne\\overrightarrow 0 \\mbox{ et  } 0 \\mbox{ sinon}.}$",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 : M\n\\mapsto  M&#39;\\)</span> défini par: <span\nclass=\"math inline\">\\({\\overrightarrow{OM&#39;}=\n{\\overrightarrow{OM}\\over\\bigl\\Vert\\overrightarrow{OM}\\bigr\\Vert} \\mbox{\nsi }\n\\overrightarrow{OM}\\ne\\overrightarrow 0 \\mbox{ et  } 0 \\mbox{\nsinon}.}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "ca4ded94-a020-4293-a11d-59c603afe0cb",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^3 \\rightarrow \\mathbb{R} : M\\mapsto \\overrightarrow{OM}\\cdot \\overrightarrow V$\noù $\\overrightarrow V=(4,-1,1/2)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^3 \\rightarrow \\mathbb{R} :\nM\\mapsto \\overrightarrow{OM}\\cdot \\overrightarrow V\\)</span> où <span\nclass=\"math inline\">\\(\\overrightarrow V=(4,-1,1/2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c8a71a0b-84bf-4cfb-ba8a-42dbef74e52f",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathbb{R}^3 : x\\mapsto (2x,x/\\pi,x\\sqrt2)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathbb{R}^3 :\nx\\mapsto (2x,x/\\pi,x\\sqrt2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "10ebe231-3408-46a4-a07d-ce3f32c28cdf",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C} \\rightarrow \\mathbb{R} : f\\mapsto \\max_{t\\in[0,1]}f(t)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C} \\rightarrow \\mathbb{R} :\nf\\mapsto \\max_{t\\in[0,1]}f(t)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2e39ab08-2857-48d3-835f-dd8dfebd2a41",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C} \\rightarrow \\mathbb{R} : f\\mapsto \\max_{t\\in[0,1]}f(t)-\\min_{t\\in[0,1]}f(t)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C} \\rightarrow \\mathbb{R} :\nf\\mapsto \\max_{t\\in[0,1]}f(t)-\\min_{t\\in[0,1]}f(t)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "65cb27fe-5bd1-4d79-865f-2301f696f5a0",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 : (x,y)\\mapsto $ la solution du système d'équations\nen $(u,v)$~:\n$$\\left\\{\n \\begin{array}{rcl}\n   3u-v  & = & x \\\\\n   6u+2v & = & y.\n \\end{array}\n\\right.$$",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 :\n(x,y)\\mapsto\\)</span> la solution du système d’équations en <span\nclass=\"math inline\">\\((u,v)\\)</span> : <span\nclass=\"math display\">\\[\\left\\{\n\\begin{array}{rcl}\n   3u-v  &amp; = &amp; x \\\\\n   6u+2v &amp; = &amp; y.\n\\end{array}\n\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3875ed53-314e-4e26-92d1-ba551594d3b4",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 : (x,y)\\mapsto $ le symétrique de $(x,y)$ par rapport à\nla droite d'équation $x+y-a=0$ (discuter selon les valeurs de $a$).",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 :\n(x,y)\\mapsto\\)</span> le symétrique de <span\nclass=\"math inline\">\\((x,y)\\)</span> par rapport à la droite d’équation\n<span class=\"math inline\">\\(x+y-a=0\\)</span> (discuter selon les valeurs\nde <span class=\"math inline\">\\(a\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "eb33f2c6-3003-4402-bdc2-a7b47b8cf75a",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^3 \\rightarrow \\mathbb{R}^3 : (x,y,z)\\mapsto $ la projection de $(x,y,z)$ sur le plan\n$x+y+z-a=0$ parallèlement à $Oz$ (discuter selon les valeurs de $a$).",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^3 \\rightarrow \\mathbb{R}^3 :\n(x,y,z)\\mapsto\\)</span> la projection de <span\nclass=\"math inline\">\\((x,y,z)\\)</span> sur le plan <span\nclass=\"math inline\">\\(x+y+z-a=0\\)</span> parallèlement à <span\nclass=\"math inline\">\\(Oz\\)</span> (discuter selon les valeurs de <span\nclass=\"math inline\">\\(a\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "7df0f0f0-2ffa-4330-8fe1-b1610e7bc882",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C}_d \\rightarrow \\mathcal{C} : f\\mapsto f'$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C}_d \\rightarrow \\mathcal{C} :\nf\\mapsto f&#39;\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7334f733-f536-40fd-ab91-90d89823cd31",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R}^3 \\rightarrow \\mathbb{R}^2 : (x,y,z)\\mapsto (2x-3y+z,x-y+z/3)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R}^3 \\rightarrow \\mathbb{R}^2 :\n(x,y,z)\\mapsto (2x-3y+z,x-y+z/3)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3a41c34a-146d-4e6b-84ec-50c07ddb4402",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathcal{C}d : \\lambda\\mapsto $ la solution de l'équation\ndifférentielle $y'-{y\\over x^2+1}=0$ valant $\\lambda$ en $x_0=1$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathcal{C}d :\n\\lambda\\mapsto\\)</span> la solution de l’équation différentielle <span\nclass=\"math inline\">\\(y&#39;-{y\\over x^2+1}=0\\)</span> valant <span\nclass=\"math inline\">\\(\\lambda\\)</span> en <span\nclass=\"math inline\">\\(x_0=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a191a9ac-f8c9-482d-9dba-8b9f912c4a22",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C}\\rightarrow \\mathbb{R} : f\\mapsto \\int_0^1\\ln(1+\\vert f(t)\\vert)\\,dt$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C}\\rightarrow \\mathbb{R} :\nf\\mapsto \\int_0^1\\ln(1+\\vert f(t)\\vert)\\,dt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "94742314-decd-4e5f-8771-a72c15f19f4c",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathbb{R} : x\\mapsto $ la $17$-ième décimale de $x$\n(en écriture décimale).",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathbb{R} :\nx\\mapsto\\)</span> la <span class=\"math inline\">\\(17\\)</span>-ième\ndécimale de <span class=\"math inline\">\\(x\\)</span> (en écriture\ndécimale).</p>\n"
+      }
+    },
+    {
+      "id": "f090b495-e656-4246-ab72-a3c294746dee",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C}_d \\rightarrow \\mathbb{R} : f \\mapsto  f'(1/2)+\\int_0^1{f(t)\\,dt}$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C}_d \\rightarrow \\mathbb{R} : f\n\\mapsto  f&#39;(1/2)+\\int_0^1{f(t)\\,dt}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "54d23d9c-4c71-49fe-921b-81e48e767157",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\rightarrow \\mathbb{R} : x\\mapsto \\ln(3^{x\\sqrt2})$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\rightarrow \\mathbb{R} :\nx\\mapsto \\ln(3^{x\\sqrt2})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "239633b1-a5eb-425b-9acd-93c86b2e19ae",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathbb{R} \\times \\mathcal{C}(\\mathbb{R}) \\rightarrow \\mathcal{C}(\\mathbb{R}) : (\\lambda,f)\\mapsto $\nla primitive de $f$ qui vaut $\\lambda$ en $x_0=\\pi$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathbb{R} \\times \\mathcal{C}(\\mathbb{R})\n\\rightarrow \\mathcal{C}(\\mathbb{R}) : (\\lambda,f)\\mapsto\\)</span> la\nprimitive de <span class=\"math inline\">\\(f\\)</span> qui vaut <span\nclass=\"math inline\">\\(\\lambda\\)</span> en <span\nclass=\"math inline\">\\(x_0=\\pi\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b1ae515-f260-4214-8ed9-d7341264fe74",
+      "type": "question",
+      "value": {
+        "latex": "$\\mathcal{C}^1(\\mathbb{R}) \\rightarrow \\mathcal{C}(\\mathbb{R}): f\\mapsto \\{x\\mapsto \nf'(x)+f(x) \\cdot\n\\sin x\\}$.",
+        "html": "<p><span class=\"math inline\">\\(\\mathcal{C}^1(\\mathbb{R}) \\rightarrow\n\\mathcal{C}(\\mathbb{R}): f\\mapsto \\{x\\mapsto\nf&#39;(x)+f(x) \\cdot\n\\sin x\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><em>Notations :<br />\n<span class=\"math inline\">\\(\\mathcal{C}\\)</span> : ensemble des\nfonctions numériques continues sur <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "k8Gz",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "611",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Limite de fonctions",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:36.446Z"
+  },
+  "contenu": [
+    {
+      "id": "f13888e0-1e89-4add-b1b6-04ab48a3c1fa",
+      "type": "description",
+      "value": {
+        "latex": "Soient $f$ et $g$ deux fonctions d\\'efinies sur $\\Rr_+$ telles que\n$$\n\\forall x\\in \\Rr_+ \\ g(x) > 0 \\text{ et } \\lim_{x\\rightarrow\\infty} \\frac{f(x)}{g(x)} = L \\not= 0.\n$$",
+        "html": "<p>Soient <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> deux fonctions définies sur <span\nclass=\"math inline\">\\(\\Rr_+\\)</span> telles que <span\nclass=\"math display\">\\[\\forall x\\in \\Rr_+ \\ g(x) &gt; 0 \\text{ et }\n\\lim_{x\\rightarrow\\infty} \\frac{f(x)}{g(x)} = L \\not= 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c503ee88-f01f-407f-992e-2c88be358f8f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$$ \\lim_{x \\rightarrow \\infty} f(x) = 0 \\Leftrightarrow  \\lim_{x \\rightarrow \\infty} g(x) = 0. $$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\lim_{x \\rightarrow \\infty}\nf(x) = 0 \\Leftrightarrow  \\lim_{x \\rightarrow \\infty} g(x) =\n0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "80d4507a-fb6c-4f54-8df4-f667e580056e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $L>0$,\n$$ \\lim_{x \\rightarrow \\infty} f(x) = \\infty \\Leftrightarrow  \\lim_{x \\rightarrow \\infty} g(x) = \\infty. $$",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(L&gt;0\\)</span>, <span\nclass=\"math display\">\\[\\lim_{x \\rightarrow \\infty} f(x) = \\infty\n\\Leftrightarrow  \\lim_{x \\rightarrow \\infty} g(x) = \\infty.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> deux fonctions définies sur <span\nclass=\"math inline\"> ..."
+}

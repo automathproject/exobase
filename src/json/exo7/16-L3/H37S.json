@@ -1,0 +1,61 @@
+{
+  "uuid": "H37S",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6735",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:29.353Z"
+  },
+  "contenu": [
+    {
+      "id": "1b5a3ac6-77f9-475b-9cb8-c2f05db098ca",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une fonction holomorphe sur un ouvert connexe\n$\\Omega $. Soit $c$ un point de $\\Omega $ et $r_0>0$ tel que\n$D(c,r_0)\\subset \\Omega $, où $D(c,r_0)$ est le disque ouvert de centre\n$c$ et de rayon\n$r_0$. On pose $\\mu (r)={1\\over 2\\pi}\\int_0^{2\\pi}f(c+re^{i\\theta\n})d\\theta $ pour $0<r<r_0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\nsur un ouvert connexe <span class=\"math inline\">\\(\\Omega\\)</span>. Soit\n<span class=\"math inline\">\\(c\\)</span> un point de <span\nclass=\"math inline\">\\(\\Omega\\)</span> et <span\nclass=\"math inline\">\\(r_0&gt;0\\)</span> tel que <span\nclass=\"math inline\">\\(D(c,r_0)\\subset \\Omega\\)</span>, où <span\nclass=\"math inline\">\\(D(c,r_0)\\)</span> est le disque ouvert de centre\n<span class=\"math inline\">\\(c\\)</span> et de rayon <span\nclass=\"math inline\">\\(r_0\\)</span>. On pose <span\nclass=\"math inline\">\\(\\mu (r)={1\\over 2\\pi}\\int_0^{2\\pi}f(c+re^{i\\theta\n})d\\theta\\)</span> pour <span\nclass=\"math inline\">\\(0&lt;r&lt;r_0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "164cf85e-0a48-41df-81f4-7e1e37bf2f44",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \n$$\\lim_{r\\to 0^+}\\mu (r)=f(c)$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\lim_{r\\to 0^+}\\mu\n(r)=f(c)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1d6436d2-05d6-494e-8880-c2daf4d83525",
+      "type": "question",
+      "value": {
+        "latex": "On suppose $f'(z)$ continue. Montrer que $\\mu $ est constante (on\nmontrera que $\\displaystyle{d\\mu \\over dr}=0$ en dérivant sous le signe\nd'intégration).\n\nSoit maintenant $M=\\sup_{z\\in \\Omega }\\vert f(z)\\vert$ et on suppose\nqu'il existe $c\\in \\Omega $ tel que $\\vert f(c)\\vert =M$.",
+        "html": "<p>On suppose <span class=\"math inline\">\\(f&#39;(z)\\)</span> continue.\nMontrer que <span class=\"math inline\">\\(\\mu\\)</span> est constante (on\nmontrera que <span class=\"math inline\">\\(\\displaystyle{d\\mu \\over\ndr}=0\\)</span> en dérivant sous le signe d’intégration).</p>\n<p>Soit maintenant <span class=\"math inline\">\\(M=\\sup_{z\\in \\Omega\n}\\vert f(z)\\vert\\)</span> et on suppose qu’il existe <span\nclass=\"math inline\">\\(c\\in \\Omega\\)</span> tel que <span\nclass=\"math inline\">\\(\\vert f(c)\\vert =M\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2de4f17b-f7f0-4481-ad89-e4fdc6a3817b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $M=\\vert f(c+re^{i\\theta })$ où $r>0$ est tel que\n$D(c,r)\\subset \\Omega $.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(M=\\vert f(c+re^{i\\theta\n})\\)</span> où <span class=\"math inline\">\\(r&gt;0\\)</span> est tel que\n<span class=\"math inline\">\\(D(c,r)\\subset \\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8c8edf30-2011-4846-ba04-d7b133431288",
+      "type": "question",
+      "value": {
+        "latex": "Soit $V=\\{ z\\in \\Omega \\vert \\ \\vert f(z)\\vert =M\\}$. Montrer que\n$V$ est à la fois un ouvert et un fermé de $\\Omega $. En déduire le\nprincipe du maximum : si $f$ atteint son maximum en un point d'un\nouvert connexe $\\Omega $, alors $f$ est constante.",
+        "html": "<p>Soit <span class=\"math inline\">\\(V=\\{ z\\in \\Omega \\vert \\ \\vert\nf(z)\\vert =M\\}\\)</span>. Montrer que <span\nclass=\"math inline\">\\(V\\)</span> est à la fois un ouvert et un fermé de\n<span class=\"math inline\">\\(\\Omega\\)</span>. En déduire le principe du\nmaximum : si <span class=\"math inline\">\\(f\\)</span> atteint son maximum\nen un point d’un ouvert connexe <span\nclass=\"math inline\">\\(\\Omega\\)</span>, alors <span\nclass=\"math inline\">\\(f\\)</span> est constante.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction holomorphe\nsur un ouvert connexe <span class=\"math inline\">\\(\\Omega\\)</span>. Soit\n<span c ..."
+}

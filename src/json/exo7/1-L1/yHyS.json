@@ -1,0 +1,53 @@
+{
+  "uuid": "yHyS",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1082",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Matrice et application linéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:31.586Z"
+  },
+  "contenu": [
+    {
+      "id": "796fa12d-10e8-4ec6-8aca-76e358784883",
+      "type": "description",
+      "value": {
+        "latex": "Soit $h$ une application linéaire de rang $r$, de $E$, espace vectoriel de\ndimension~$n$, dans~$F$, espace vectoriel de dimension~$m$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(h\\)</span> une application linéaire\nde rang <span class=\"math inline\">\\(r\\)</span>, de <span\nclass=\"math inline\">\\(E\\)</span>, espace vectoriel de dimension <span\nclass=\"math inline\">\\(n\\)</span>, dans <span\nclass=\"math inline\">\\(F\\)</span>, espace vectoriel de dimension <span\nclass=\"math inline\">\\(m\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "332afa1c-e243-4053-b7dc-743e498403e4",
+      "type": "question",
+      "value": {
+        "latex": "Préciser comment obtenir une base $(e_i)_{i=1}^n$ de  $E$, et une base\n$(f_j)_{j=1}^m$ de $F$, telles que $h(e_k)=f_k$ pour $k=1,\\ldots,r$ et\n$h(e_k)=0$ pour $k>r$. Quelle est la matrice de~$h$ dans un tel couple de bases~?",
+        "html": "<p>Préciser comment obtenir une base <span\nclass=\"math inline\">\\((e_i)_{i=1}^n\\)</span> de <span\nclass=\"math inline\">\\(E\\)</span>, et une base <span\nclass=\"math inline\">\\((f_j)_{j=1}^m\\)</span> de <span\nclass=\"math inline\">\\(F\\)</span>, telles que <span\nclass=\"math inline\">\\(h(e_k)=f_k\\)</span> pour <span\nclass=\"math inline\">\\(k=1,\\ldots,r\\)</span> et <span\nclass=\"math inline\">\\(h(e_k)=0\\)</span> pour <span\nclass=\"math inline\">\\(k&gt;r\\)</span>. Quelle est la matrice de <span\nclass=\"math inline\">\\(h\\)</span> dans un tel couple de bases ?</p>\n"
+      }
+    },
+    {
+      "id": "67d3cad8-5208-4f11-9039-0a71e6657d01",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer un tel couple de bases pour l'homomorphisme\nde $\\mathbb{R}^4$ dans $\\mathbb{R}^3$ défini dans les bases canoniques\npar~:\n$$h(x_1,x_2,x_3,x_4) = (y_1,y_2,y_3)\\quad\\mbox{avec}\\quad\n\\left\\{\\begin{array}{rcl}\n    y_1 & = & 2x_1-x_2+x_3-x_4 \\\\\n    y_2 & = & x_2+x_3-2x_4 \\\\\n    y_3 & = & x_1+2x_2+x_3+x_4\n    \\end{array}\\right.$$",
+        "html": "<p>Déterminer un tel couple de bases pour l’homomorphisme de <span\nclass=\"math inline\">\\(\\mathbb{R}^4\\)</span> dans <span\nclass=\"math inline\">\\(\\mathbb{R}^3\\)</span> défini dans les bases\ncanoniques par : <span class=\"math display\">\\[h(x_1,x_2,x_3,x_4) =\n(y_1,y_2,y_3)\\quad\\mbox{avec}\\quad\n\\left\\{\\begin{array}{rcl}\n    y_1 &amp; = &amp; 2x_1-x_2+x_3-x_4 \\\\\n    y_2 &amp; = &amp; x_2+x_3-2x_4 \\\\\n    y_3 &amp; = &amp; x_1+2x_2+x_3+x_4\n    \\end{array}\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e2f315d5-c044-494b-9c94-68db52111d32",
+      "type": "question",
+      "value": {
+        "latex": "Même question pour l'application $f$ de $\\mathbb{R}^3$ dans lui-même\ndéfinie par~:\n$$ f(x,y,z)=(2x+y+z,-y+z,x+y).$$",
+        "html": "<p>Même question pour l’application <span\nclass=\"math inline\">\\(f\\)</span> de <span\nclass=\"math inline\">\\(\\mathbb{R}^3\\)</span> dans lui-même définie par :\n<span class=\"math display\">\\[f(x,y,z)=(2x+y+z,-y+z,x+y).\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(h\\)</span> une application linéaire\nde rang <span class=\"math inline\">\\(r\\)</span>, de <span\nclass=\"math inline\">\\ ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "5UHv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6237",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème du point fixe",
+    "sousChapitre": "Théorème du point fixe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:24.032Z"
+  },
+  "contenu": [
+    {
+      "id": "99e1f122-7eef-4a99-9d6d-8ba5dc21b48f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a,b\\in E$ evn, $B_1=\\{x\\in E/ \\Vert x-a\\Vert=\\Vert x-b\\Vert={1\\over2}\\Vert\na-b\\Vert\\}$, et pour $n>1$,  $B_n=\\{x\\in B_{n-1}/ \\Vert x-y\\Vert\\leq\n{1\\over2}\\delta(B_{n-1}),\\\n\\forall y\\in B_{n-1}\\}$, où $\\delta(B)$ désigne le diamètre de l'ensemble $B$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a,b\\in E\\)</span> evn, <span\nclass=\"math inline\">\\(B_1=\\{x\\in E/ \\Vert x-a\\Vert=\\Vert\nx-b\\Vert={1\\over2}\\Vert\na-b\\Vert\\}\\)</span>, et pour <span\nclass=\"math inline\">\\(n&gt;1\\)</span>, <span\nclass=\"math inline\">\\(B_n=\\{x\\in B_{n-1}/ \\Vert x-y\\Vert\\leq\n{1\\over2}\\delta(B_{n-1}),\\\n\\forall y\\in B_{n-1}\\}\\)</span>, où <span\nclass=\"math inline\">\\(\\delta(B)\\)</span> désigne le diamètre de\nl’ensemble <span class=\"math inline\">\\(B\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1019083e-cc8d-4ad0-939b-889b0fb3cf85",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\delta(B_{n})\\leq {1\\over2}\\delta(B_{n-1})$, et que $\\bigcap_n\nB_n=\\{{{a+b}\\over2}\\}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\delta(B_{n})\\leq\n{1\\over2}\\delta(B_{n-1})\\)</span>, et que <span\nclass=\"math inline\">\\(\\bigcap_n\nB_n=\\{{{a+b}\\over2}\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "951b1b1c-f507-476f-954c-1cf8a7ee6126",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ une isométrie de $E$ {\\it sur} $F$ evn, telle que $f(0)=0$.\nMontrer en considérant la suite $(f(B_n))$ que pour tous $a,b\\in E$,\n$$f\\Big({{a+b}\\over2}\\Big)={{f(a)+f(b)}\\over2}.$$\nEn déduire que $f$ est une isométrie linéaire. Que peut-on dire plus\ngénéralement d'une isométrie $f$ de $E$ sur $F$ ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une isométrie de <span\nclass=\"math inline\">\\(E\\)</span> <span><em>sur</em></span> <span\nclass=\"math inline\">\\(F\\)</span> evn, telle que <span\nclass=\"math inline\">\\(f(0)=0\\)</span>. Montrer en considérant la suite\n<span class=\"math inline\">\\((f(B_n))\\)</span> que pour tous <span\nclass=\"math inline\">\\(a,b\\in E\\)</span>, <span\nclass=\"math display\">\\[f\\Big({{a+b}\\over2}\\Big)={{f(a)+f(b)}\\over2}.\\]</span>\nEn déduire que <span class=\"math inline\">\\(f\\)</span> est une isométrie\nlinéaire. Que peut-on dire plus généralement d’une isométrie <span\nclass=\"math inline\">\\(f\\)</span> de <span\nclass=\"math inline\">\\(E\\)</span> sur <span\nclass=\"math inline\">\\(F\\)</span> ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a,b\\in E\\)</span> evn, <span\nclass=\"math inline\"> ..."
+}

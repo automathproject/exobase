@@ -1,0 +1,53 @@
+{
+  "uuid": "Awhq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2351",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:26.916Z"
+  },
+  "contenu": [
+    {
+      "id": "cc7bd640-3e3f-4e2d-b9d8-2e1a656f10ce",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(x_n)$ une suite d'un espace topologique $X$ séparé; on note $A$\nl'ensemble $\\{x_1,x_2,\\ldots\\}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((x_n)\\)</span> une suite d’un espace\ntopologique <span class=\"math inline\">\\(X\\)</span> séparé; on note <span\nclass=\"math inline\">\\(A\\)</span> l’ensemble <span\nclass=\"math inline\">\\(\\{x_1,x_2,\\ldots\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2efba2b3-8fe3-4afc-bad1-dbc8a8802c80",
+      "type": "question",
+      "value": {
+        "latex": "Toute valeur d'adhérence $a$ de la suite est un point de $\\overline\nA$ : donner un exemple où $a$ est un point isolé de $A$; un exemple où $a$ est\nun point d'accumulation dans $A$; un exemple où $a$ est\nun point d'accumulation dans $\\overline A\\backslash A$.",
+        "html": "<p>Toute valeur d’adhérence <span class=\"math inline\">\\(a\\)</span> de la\nsuite est un point de <span class=\"math inline\">\\(\\overline\nA\\)</span> : donner un exemple où <span class=\"math inline\">\\(a\\)</span>\nest un point isolé de <span class=\"math inline\">\\(A\\)</span>; un exemple\noù <span class=\"math inline\">\\(a\\)</span> est un point d’accumulation\ndans <span class=\"math inline\">\\(A\\)</span>; un exemple où <span\nclass=\"math inline\">\\(a\\)</span> est un point d’accumulation dans <span\nclass=\"math inline\">\\(\\overline A\\backslash A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c25747f0-85f8-4047-815e-55bbf720f69d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que tout point d'accumulation de $A$ est valeur d'adhérence de la\nsuite.",
+        "html": "<p>Montrer que tout point d’accumulation de <span\nclass=\"math inline\">\\(A\\)</span> est valeur d’adhérence de la suite.</p>\n"
+      }
+    },
+    {
+      "id": "1a785999-57c5-4687-b65d-252c986ce9d0",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}\nPar exemple une suite constante $x_n=a$ pour tout $n$.\nPar exemple $x_n = \\frac1n$ et $a=0$.\nComme $\\Qq$ est dénombrable on peut trouver une suite $x_n$ telle\nque $A = \\{x_1,x_2,\\ldots\\}= \\Qq$. On prend $a = \\sqrt2$ alors $a\\in \\bar A \\setminus A = \\Rr \\setminus \\Qq$.",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((x_n)\\)</span> une suite d’un espace\ntopologique <span class=\"math inline\">\\(X\\)</span> séparé; on note <span\nclas ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "InCc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3720",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Forme quadratique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:18.061Z"
+  },
+  "contenu": [
+    {
+      "id": "325af864-0976-4414-9753-cb3da0a209fb",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une forme bilinéaire symétrique sur~$E$ et $q$ la forme quadratique\nassociée.\\par On pose pour~$x\\in\\ E$~: $\\varphi(x) = q(a)q(x)-f^2(a,x)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une forme bilinéaire\nsymétrique sur <span class=\"math inline\">\\(E\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> la forme quadratique associée.</p>\n<p>On pose pour <span class=\"math inline\">\\(x\\in\\ E\\)</span> : <span\nclass=\"math inline\">\\(\\varphi(x) = q(a)q(x)-f^2(a,x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6d245362-3e79-4615-9f62-9a8305985493",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\varphi$ est une forme quadratique sur~$E$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\varphi\\)</span> est une\nforme quadratique sur <span class=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b2879f8c-ca30-4076-bba3-b5c01d003f8c",
+      "type": "question",
+      "value": {
+        "latex": "Si $E$ est de dimension finie comparer les rangs de $\\varphi$ et~$q$.",
+        "html": "<p>Si <span class=\"math inline\">\\(E\\)</span> est de dimension finie\ncomparer les rangs de <span class=\"math inline\">\\(\\varphi\\)</span>\net <span class=\"math inline\">\\(q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "51548a35-deea-4904-904a-2894f9c54729",
+      "type": "question",
+      "value": {
+        "latex": "Dans le cas général, déterminer le noyau de la forme polaire de~$\\varphi$ en\n    fonction de celui de~$f$ et de~$a$.",
+        "html": "<p>Dans le cas général, déterminer le noyau de la forme polaire de <span\nclass=\"math inline\">\\(\\varphi\\)</span> en fonction de celui de <span\nclass=\"math inline\">\\(f\\)</span> et de <span\nclass=\"math inline\">\\(a\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9415c3ad-edf1-4b81-b8e8-9abeac863a24",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $a\\in\\mathrm{Ker} f$, $\\mathrm{Ker}\\tilde\\varphi = E$.\\par\nSi $a\\notin\\mathrm{Ker} f$ et $q(a) = 0$, $\\mathrm{Ker}\\tilde\\varphi = a^\\bot$.\\par\nSi $q(a)\\ne 0$, $\\mathrm{Ker}\\tilde\\varphi = \\mathrm{Ker}(f) \\oplus {<a>}$.",
+        "html": "<p>Si <span class=\"math inline\">\\(a\\in\\mathrm{Ker} f\\)</span>, <span\nclass=\"math inline\">\\(\\mathrm{Ker}\\tilde\\varphi = E\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(a\\notin\\mathrm{Ker} f\\)</span> et\n<span class=\"math inline\">\\(q(a) = 0\\)</span>, <span\nclass=\"math inline\">\\(\\mathrm{Ker}\\tilde\\varphi = a^\\bot\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(q(a)\\ne 0\\)</span>, <span\nclass=\"math inline\">\\(\\mathrm{Ker}\\tilde\\varphi = \\mathrm{Ker}(f) \\oplus\n{&lt;a&gt;}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une forme bilinéaire\nsymétrique sur <span class=\"math inline\">\\(E\\)</span> et <span\nclass=\"math inline\" ..."
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "pcB9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4538",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:04.984Z"
+  },
+  "contenu": [
+    {
+      "id": "34e016aa-bf25-4781-b0dc-9110c031f5c3",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "77bee0f7-5f17-4b03-a847-b433fb08ece8",
+      "type": "question",
+      "value": {
+        "latex": "\\'Etudier la convergence simple, uniforme, de $f(x) = \\sum_{n=0}^\\infty\n    \\bigl(\\Arctan(x+n) - \\Arctan(n)\\bigr)$.",
+        "html": "<p>Étudier la convergence simple, uniforme, de <span\nclass=\"math inline\">\\(f(x) = \\sum_{n=0}^\\infty\n    \\bigl(\\Arctan(x+n) - \\Arctan(n)\\bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e3970dc1-0f9f-4599-9c42-1ac63d366cea",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est de classe $\\mathcal{C}^1$ sur $\\R$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est de classe\n<span class=\"math inline\">\\(\\mathcal{C}^1\\)</span> sur <span\nclass=\"math inline\">\\(\\R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2c18aa1c-4b32-4551-a4de-57f51717855d",
+      "type": "question",
+      "value": {
+        "latex": "Chercher une relation simple entre $f(x)$ et $f(x+1)$.",
+        "html": "<p>Chercher une relation simple entre <span\nclass=\"math inline\">\\(f(x)\\)</span> et <span\nclass=\"math inline\">\\(f(x+1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac787a6b-7629-47e2-a664-66b3bbcaf673",
+      "type": "question",
+      "value": {
+        "latex": "Trouver $\\lim_{x\\to+\\infty} f(x)$.",
+        "html": "<p>Trouver <span class=\"math inline\">\\(\\lim_{x\\to+\\infty}\nf(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "55f9d447-5822-496a-9e66-11b0b709b6ab",
+      "type": "reponse",
+      "value": {
+        "latex": "CVU sur tout $[a,b]$.\n$f(x+1) = f(x) + \\frac\\pi2 - \\Arctan x$.\n$f(x+1) - f(x) \\sim \\frac 1x$ donc la suite $(f(n))$ diverge et\n    $f$ est croissante $ \\Rightarrow  \\lim = +\\infty$.",
+        "html": "<p>CVU sur tout <span class=\"math inline\">\\([a,b]\\)</span>. <span\nclass=\"math inline\">\\(f(x+1) = f(x) + \\frac\\pi2 - \\Arctan x\\)</span>.\n<span class=\"math inline\">\\(f(x+1) - f(x) \\sim \\frac 1x\\)</span> donc la\nsuite <span class=\"math inline\">\\((f(n))\\)</span> diverge et <span\nclass=\"math inline\">\\(f\\)</span> est croissante <span\nclass=\"math inline\">\\(\\Rightarrow  \\lim = +\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Étudier la convergence simple, uniforme, de <span\nclass=\"math inline\">\\(f(x) = \\sum_{n=0}^\\infty\n    \\bigl(\\Arctan(x+n) - \\Arctan(n)\\bigr)\\)</span> ..."
+}

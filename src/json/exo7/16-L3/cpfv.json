@@ -1,0 +1,69 @@
+{
+  "uuid": "cpfv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6813",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:54.208Z"
+  },
+  "contenu": [
+    {
+      "id": "cf7a4fe5-79fb-4955-b97b-9e262db50d01",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une application holomorphe (c'est-à-dire\n$\\Cc$-différentiable) d'un ouvert $\\Omega \\subset \\Cc$\ndans $\\Cc$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une application\nholomorphe (c’est-à-dire <span\nclass=\"math inline\">\\(\\Cc\\)</span>-différentiable) d’un ouvert <span\nclass=\"math inline\">\\(\\Omega \\subset \\Cc\\)</span> dans <span\nclass=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "73b1c44f-47cc-40b6-9290-d7867c293fae",
+      "type": "question",
+      "value": {
+        "latex": "Soit $z_0 \\in \\Omega$ tel que $f'(z_0) = 0$. Démontrer\nque $z \\mapsto \\vert f(z) \\vert$ est\n$\\Cc$-différentiable en $z_0$. (On pourra utiliser le\ndéveloppement en série entière de $f$ au voisinage\nde $z_0$.)",
+        "html": "<p>Soit <span class=\"math inline\">\\(z_0 \\in \\Omega\\)</span> tel que\n<span class=\"math inline\">\\(f&#39;(z_0) = 0\\)</span>. Démontrer que\n<span class=\"math inline\">\\(z \\mapsto \\vert f(z) \\vert\\)</span> est\n<span class=\"math inline\">\\(\\Cc\\)</span>-différentiable en <span\nclass=\"math inline\">\\(z_0\\)</span>. (On pourra utiliser le développement\nen série entière de <span class=\"math inline\">\\(f\\)</span> au voisinage\nde <span class=\"math inline\">\\(z_0\\)</span>.)</p>\n"
+      }
+    },
+    {
+      "id": "d0b8e3cc-2467-40cd-93ee-d3f2047be0c5",
+      "type": "question",
+      "value": {
+        "latex": "Soit $z_1 = x_1 + iy_1 \\in \\Omega$ tel que $f(z_1) \\neq\n0$. Démontrer que $(x,y) \\mapsto \\vert f(x+iy) \\vert$\nest $\\Rr$-différentiable en $(x_1,y_1)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(z_1 = x_1 + iy_1 \\in \\Omega\\)</span>\ntel que <span class=\"math inline\">\\(f(z_1) \\neq\n0\\)</span>. Démontrer que <span class=\"math inline\">\\((x,y) \\mapsto\n\\vert f(x+iy) \\vert\\)</span> est <span\nclass=\"math inline\">\\(\\Rr\\)</span>-différentiable en <span\nclass=\"math inline\">\\((x_1,y_1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b9b600c8-a3dc-4db6-a23f-16bad8e76e67",
+      "type": "question",
+      "value": {
+        "latex": "Soit $z_2 = x_2 + iy_2 \\in \\Omega$ tel que $f(z_2) \\neq\n0$ et tel que $z \\mapsto \\vert f(z) \\vert$ soit\n$\\Cc$-différentiable en $z_2$. Démontrer que $f'(z_2)\n= 0$. (On pourra utiliser les conditions de\nCauchy-Riemann.)",
+        "html": "<p>Soit <span class=\"math inline\">\\(z_2 = x_2 + iy_2 \\in \\Omega\\)</span>\ntel que <span class=\"math inline\">\\(f(z_2) \\neq\n0\\)</span> et tel que <span class=\"math inline\">\\(z \\mapsto \\vert f(z)\n\\vert\\)</span> soit <span\nclass=\"math inline\">\\(\\Cc\\)</span>-différentiable en <span\nclass=\"math inline\">\\(z_2\\)</span>. Démontrer que <span\nclass=\"math inline\">\\(f&#39;(z_2)\n= 0\\)</span>. (On pourra utiliser les conditions de Cauchy-Riemann.)</p>\n"
+      }
+    },
+    {
+      "id": "02555c27-6940-46a0-989f-e919d8d25d89",
+      "type": "question",
+      "value": {
+        "latex": "Soit $z_3 = x_3 + iy_3 \\in \\Omega$ tel que $f(z_3) = 0$\net $f'(z_3) \\neq 0$. \n\nL'application $(x,y) \\mapsto \\vert\nf(x+iy) \\vert$ est-elle $\\Rr$-différentiable en\n$(x_3,y_3)$~? \nL'application $z \\mapsto \\vert f(z) \\vert$ est-elle\n$\\Cc$-différentiable en $z_3$~?",
+        "html": "<p>Soit <span class=\"math inline\">\\(z_3 = x_3 + iy_3 \\in \\Omega\\)</span>\ntel que <span class=\"math inline\">\\(f(z_3) = 0\\)</span> et <span\nclass=\"math inline\">\\(f&#39;(z_3) \\neq 0\\)</span>.</p>\n<p>L’application <span class=\"math inline\">\\((x,y) \\mapsto \\vert\nf(x+iy) \\vert\\)</span> est-elle <span\nclass=\"math inline\">\\(\\Rr\\)</span>-différentiable en <span\nclass=\"math inline\">\\((x_3,y_3)\\)</span> ? L’application <span\nclass=\"math inline\">\\(z \\mapsto \\vert f(z) \\vert\\)</span> est-elle <span\nclass=\"math inline\">\\(\\Cc\\)</span>-différentiable en <span\nclass=\"math inline\">\\(z_3\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "1948e2bd-7b7d-48ec-be1c-30efe817c572",
+      "type": "question",
+      "value": {
+        "latex": "Donner le domaine où $z \\mapsto \\vert f(z) \\vert$ est\ncontinue, puis celui où $z \\mapsto \\vert f(z) \\vert$\nest $\\Cc$-différentiable, et enfin celui où\n$(x,y) \\mapsto \\vert f(x+iy) \\vert$ est\n$\\Rr$-différentiable.",
+        "html": "<p>Donner le domaine où <span class=\"math inline\">\\(z \\mapsto \\vert f(z)\n\\vert\\)</span> est continue, puis celui où <span class=\"math inline\">\\(z\n\\mapsto \\vert f(z) \\vert\\)</span> est <span\nclass=\"math inline\">\\(\\Cc\\)</span>-différentiable, et enfin celui où\n<span class=\"math inline\">\\((x,y) \\mapsto \\vert f(x+iy) \\vert\\)</span>\nest <span class=\"math inline\">\\(\\Rr\\)</span>-différentiable.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une application\nholomorphe (c’est-à-dire <span\nclass=\"math inline\">\\(\\Cc\\)</span>-différentiable) d’un  ..."
+}

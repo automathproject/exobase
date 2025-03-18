@@ -1,0 +1,53 @@
+{
+  "uuid": "n1xP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6820",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "sousChapitre": "Difféomorphisme, théorème d'inversion locale et des fonctions implicites",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:51.706Z"
+  },
+  "contenu": [
+    {
+      "id": "05fd0a0f-5ac7-42aa-afa9-83c58c0028be",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E=\\Rr^n$ muni de la norme euclidienne et $F =\nM(n,\\Rr)$ l'ensemble des matrices $n\\times n$ à\ncoefficients réels~; on identifie $F$ avec l'ensemble\nd'applications linéaires de $E$ dans $E$. Soit\n$\\|\\cdot\\|_{op}$ la norme d'opérateurs sur $F$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E=\\Rr^n\\)</span> muni de la norme\neuclidienne et <span class=\"math inline\">\\(F =\nM(n,\\Rr)\\)</span> l’ensemble des matrices <span\nclass=\"math inline\">\\(n\\times n\\)</span> à coefficients réels ; on\nidentifie <span class=\"math inline\">\\(F\\)</span> avec l’ensemble\nd’applications linéaires de <span class=\"math inline\">\\(E\\)</span> dans\n<span class=\"math inline\">\\(E\\)</span>. Soit <span\nclass=\"math inline\">\\(\\|\\cdot\\|_{op}\\)</span> la norme d’opérateurs sur\n<span class=\"math inline\">\\(F\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b1ad783a-c21a-4269-9c74-025a5a2fbb4d",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que $\\forall A,B \\in F : \\|AB\\|_{op} \\le\n\\|A\\|_{op} \\cdot \\|B\\|_{op}$.",
+        "html": "<p>Démontrer que <span class=\"math inline\">\\(\\forall A,B \\in F :\n\\|AB\\|_{op} \\le\n\\|A\\|_{op} \\cdot \\|B\\|_{op}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "86efaefa-e685-455d-a488-7c7acadd85e0",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que pour $A\\in F$, la série\n$\\sum_{n=0}^\\infty \\frac1{n!} A^n$ est une série\nnormalement convergente sur tout compact de $F$. (Nota\nBene~: $A^0 = Id \\in F$ désigne la matrice identité.)\nOn note $\\exp : F \\to F$ l'application $A \\mapsto\n\\sum_{n=0}^\\infty\\frac1{n!} A^n$.",
+        "html": "<p>Démontrer que pour <span class=\"math inline\">\\(A\\in F\\)</span>, la\nsérie <span class=\"math inline\">\\(\\sum_{n=0}^\\infty \\frac1{n!}\nA^n\\)</span> est une série normalement convergente sur tout compact de\n<span class=\"math inline\">\\(F\\)</span>. (Nota Bene : <span\nclass=\"math inline\">\\(A^0 = Id \\in F\\)</span> désigne la matrice\nidentité.) On note <span class=\"math inline\">\\(\\exp : F \\to F\\)</span>\nl’application <span class=\"math inline\">\\(A \\mapsto\n\\sum_{n=0}^\\infty\\frac1{n!} A^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dccb0fb3-eafc-4fce-818d-6aa48a77d79a",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $D_{\\mathbf{0}} \\exp$, où $\\mathbf{0}$ est\nl'application nulle de $E$ dans $E$. Quelle est la taille\nde la matrice $D_{\\mathbf{0}} \\exp$~?  Déduire qu'il existe\nun voisinage $U$ de $\\mathbf{0} \\in F$ et un voisinage $V$ de\n$Id = \\exp(\\mathbf{0})$ tels que $\\exp$ est un\n($C^1$-)difféomorphisme de $U$ sur $V$. Justifier votre\nréponse~!",
+        "html": "<p>Calculer <span class=\"math inline\">\\(D_{\\mathbf{0}} \\exp\\)</span>, où\n<span class=\"math inline\">\\(\\mathbf{0}\\)</span> est l’application nulle\nde <span class=\"math inline\">\\(E\\)</span> dans <span\nclass=\"math inline\">\\(E\\)</span>. Quelle est la taille de la matrice\n<span class=\"math inline\">\\(D_{\\mathbf{0}} \\exp\\)</span> ? Déduire qu’il\nexiste un voisinage <span class=\"math inline\">\\(U\\)</span> de <span\nclass=\"math inline\">\\(\\mathbf{0} \\in F\\)</span> et un voisinage <span\nclass=\"math inline\">\\(V\\)</span> de <span class=\"math inline\">\\(Id =\n\\exp(\\mathbf{0})\\)</span> tels que <span\nclass=\"math inline\">\\(\\exp\\)</span> est un (<span\nclass=\"math inline\">\\(C^1\\)</span>-)difféomorphisme de <span\nclass=\"math inline\">\\(U\\)</span> sur <span\nclass=\"math inline\">\\(V\\)</span>. Justifier votre réponse !</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E=\\Rr^n\\)</span> muni de la norme\neuclidienne et <span class=\"math inline\">\\(F =\nM(n,\\Rr)\\)</span> l’ensemble des  ..."
+}

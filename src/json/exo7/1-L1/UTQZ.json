@@ -1,0 +1,37 @@
+{
+  "uuid": "UTQZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5131",
+    "auteur": "rouget",
+    "createdAt": "2010-06-30",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Racine n-ieme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:42.924Z"
+  },
+  "contenu": [
+    {
+      "id": "aca5a709-cd44-4bba-a7f1-503191dd3544",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les racines quatrièmes de $i$ et les racines sixièmes de $\\frac{-4}{1+i\\sqrt{3}}$.",
+        "html": "<p>Déterminer les racines quatrièmes de <span\nclass=\"math inline\">\\(i\\)</span> et les racines sixièmes de <span\nclass=\"math inline\">\\(\\frac{-4}{1+i\\sqrt{3}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "000984ee-fce5-453c-a74c-836117297b1f",
+      "type": "reponse",
+      "value": {
+        "latex": "$i=e^{i\\pi/2}$ et les racines quatrièmes de $i$ sont donc les $e^{i(\\frac{\\pi}{8}+\\frac{k\\pi}{2})}$,\n$k\\in\\{0,1,2,3\\}$.\nEnsuite, $\\frac{-4}{1+i\\sqrt{3}}=\\frac{-2}{e^{i\\pi/3}}=-2e^{-i\\pi/3}=2e^{2i\\pi/3}$. Les racines\nsixièmes de $\\frac{-4}{1+i\\sqrt{3}}$ sont donc les $\\sqrt[6]{2}e^{i(\\frac{\\pi}{9}+\\frac{k\\pi}{3})}$,\n$k\\in\\{0,1,2,3,4,5\\}$.",
+        "html": "<p><span class=\"math inline\">\\(i=e^{i\\pi/2}\\)</span> et les racines\nquatrièmes de <span class=\"math inline\">\\(i\\)</span> sont donc les <span\nclass=\"math inline\">\\(e^{i(\\frac{\\pi}{8}+\\frac{k\\pi}{2})}\\)</span>,\n<span class=\"math inline\">\\(k\\in\\{0,1,2,3\\}\\)</span>. Ensuite, <span\nclass=\"math inline\">\\(\\frac{-4}{1+i\\sqrt{3}}=\\frac{-2}{e^{i\\pi/3}}=-2e^{-i\\pi/3}=2e^{2i\\pi/3}\\)</span>.\nLes racines sixièmes de <span\nclass=\"math inline\">\\(\\frac{-4}{1+i\\sqrt{3}}\\)</span> sont donc les\n<span\nclass=\"math inline\">\\(\\sqrt[6]{2}e^{i(\\frac{\\pi}{9}+\\frac{k\\pi}{3})}\\)</span>,\n<span class=\"math inline\">\\(k\\in\\{0,1,2,3,4,5\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les racines quatrièmes de <span\nclass=\"math inline\">\\(i\\)</span> et les racines sixièmes de <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,117 @@
+{
+  "uuid": "lY0z",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3029",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Algèbre, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:37.645Z"
+  },
+  "contenu": [
+    {
+      "id": "e7b0efc9-b174-46a4-a493-176b3c084451",
+      "type": "description",
+      "value": {
+        "latex": "On dit que $K$ est un corps gauche si $(K,+,\\times)$ est un anneau et si $(K\\setminus \\{0\\},\\times)$ \nest un groupe (non n{\\'e}cessairement commutatif). On v{\\'e}rifiera rapidement que la th{\\'e}orie des espaces vectoriels est inchang{\\'e}e si on \nremplace le corps de base par un corps gauche.\nL'objet de l'exercice est de d{\\'e}montrer le th{\\'e}or{\\`e}me de Wedderburn~:\n{\\it tout corps gauche fini est commutatif.}\n\nPour $n\\in \\N ^*$, soit ${\\cal P}_n$ l'ensemble des racines $n$-{\\`e}mes primitives de l'unit{\\'e} dans $\\C$.\nOn pose $\\Phi_1(X)=X-1$ et $\\Phi_n(X)=\\prod_{\\zeta \\in {\\cal P}_n}(X-\\zeta)$.\n$\\Phi_n$ est appel{\\'e} {\\it le $n$-{\\`e}me polyn{\\^o}me cyclotomique}\n(son degr{\\'e} est $\\phi (n)$ o{\\`u} $\\phi$ est l'indicateur d'Euler).",
+        "html": "<p>On dit que <span class=\"math inline\">\\(K\\)</span> est un corps gauche\nsi <span class=\"math inline\">\\((K,+,\\times)\\)</span> est un anneau et si\n<span class=\"math inline\">\\((K\\setminus \\{0\\},\\times)\\)</span> est un\ngroupe (non n<span>é</span>cessairement commutatif). On\nv<span>é</span>rifiera rapidement que la th<span>é</span>orie des\nespaces vectoriels est inchang<span>é</span>e si on remplace le corps de\nbase par un corps gauche. L’objet de l’exercice est de\nd<span>é</span>montrer le th<span>é</span>or<span>è</span>me de\nWedderburn : <span><em>tout corps gauche fini est\ncommutatif.</em></span></p>\n<p>Pour <span class=\"math inline\">\\(n\\in \\N ^*\\)</span>, soit <span\nclass=\"math inline\">\\({\\cal P}_n\\)</span> l’ensemble des racines <span\nclass=\"math inline\">\\(n\\)</span>-<span>è</span>mes primitives de\nl’unit<span>é</span> dans <span class=\"math inline\">\\(\\C\\)</span>. On\npose <span class=\"math inline\">\\(\\Phi_1(X)=X-1\\)</span> et <span\nclass=\"math inline\">\\(\\Phi_n(X)=\\prod_{\\zeta \\in {\\cal\nP}_n}(X-\\zeta)\\)</span>. <span class=\"math inline\">\\(\\Phi_n\\)</span> est\nappel<span>é</span> <span><em>le <span\nclass=\"math inline\">\\(n\\)</span>-<span>è</span>me polyn<span>ô</span>me\ncyclotomique</em></span> (son degr<span>é</span> est <span\nclass=\"math inline\">\\(\\phi (n)\\)</span> o<span>ù</span> <span\nclass=\"math inline\">\\(\\phi\\)</span> est l’indicateur d’Euler).</p>\n"
+      }
+    },
+    {
+      "id": "f1b1cf5e-d052-4ed4-92ba-3b6e259f9aed",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}montrer : $(\\forall\\ n\\in \\N ^*)\\ X^n-1 = \\prod_{d|n} \\Phi_d(X)$. \n    En d{\\'e}duire, par r{\\'e}currence, que $\\Phi_n(X)$ a tous ses coefficients dans $\\Z$.",
+        "html": "<p>D<span>é</span>montrer : <span class=\"math inline\">\\((\\forall\\ n\\in\n\\N ^*)\\ X^n-1 = \\prod_{d|n} \\Phi_d(X)\\)</span>. En d<span>é</span>duire,\npar r<span>é</span>currence, que <span\nclass=\"math inline\">\\(\\Phi_n(X)\\)</span> a tous ses coefficients dans\n<span class=\"math inline\">\\(\\Z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e2d16919-ad3b-4f88-a973-f9a658906451",
+      "type": "question",
+      "value": {
+        "latex": "Calculer explicitement $\\Phi_n(X)$ pour $n\\le 16$.",
+        "html": "<p>Calculer explicitement <span class=\"math inline\">\\(\\Phi_n(X)\\)</span>\npour <span class=\"math inline\">\\(n\\le 16\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6f667f76-b99f-4988-964e-d80c7592dc4a",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}montrer que, pour $p$ premier et $\\alpha \\in \\N ^*$, $\\Phi_{p^\\alpha}(X)=\n    \\sum_{k=0}^{p-1}X^{kp^{\\alpha -1}}$.",
+        "html": "<p>D<span>é</span>montrer que, pour <span\nclass=\"math inline\">\\(p\\)</span> premier et <span\nclass=\"math inline\">\\(\\alpha \\in \\N ^*\\)</span>, <span\nclass=\"math inline\">\\(\\Phi_{p^\\alpha}(X)=\n    \\sum_{k=0}^{p-1}X^{kp^{\\alpha -1}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "90a5488b-8ef1-4ec2-ae85-05dbcac03bc6",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le terme constant de chaque $\\Phi_n$.",
+        "html": "<p>Calculer le terme constant de chaque <span\nclass=\"math inline\">\\(\\Phi_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "75f41a1c-daa9-4579-a103-0bf05f6fe4bd",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, si $d<n$ et $d$ divise $n$, alors $X^d-1$ divise\n    $X^n-1$ dans $\\Z [X]$, puis que $\\Phi_n(X)$ divise $X^n-1$ et\n    $\\frac{X^n-1}{X^d-1}$ dans $\\Z [X]$.\n\\\\\nOn consid{\\`e}re $K$ un corps gauche fini et $Z(K)$ son centre, de cardinal $q$.",
+        "html": "<p>Montrer que, si <span class=\"math inline\">\\(d&lt;n\\)</span> et <span\nclass=\"math inline\">\\(d\\)</span> divise <span\nclass=\"math inline\">\\(n\\)</span>, alors <span\nclass=\"math inline\">\\(X^d-1\\)</span> divise <span\nclass=\"math inline\">\\(X^n-1\\)</span> dans <span class=\"math inline\">\\(\\Z\n[X]\\)</span>, puis que <span class=\"math inline\">\\(\\Phi_n(X)\\)</span>\ndivise <span class=\"math inline\">\\(X^n-1\\)</span> et <span\nclass=\"math inline\">\\(\\frac{X^n-1}{X^d-1}\\)</span> dans <span\nclass=\"math inline\">\\(\\Z [X]\\)</span>.<br />\nOn consid<span>è</span>re <span class=\"math inline\">\\(K\\)</span> un\ncorps gauche fini et <span class=\"math inline\">\\(Z(K)\\)</span> son\ncentre, de cardinal <span class=\"math inline\">\\(q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "86ddbd38-2c00-4b61-8276-f91f86bd6b56",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $Z(K)$ est un corps commutatif.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(Z(K)\\)</span> est un corps\ncommutatif.</p>\n"
+      }
+    },
+    {
+      "id": "ec1391e9-2314-4da0-bd81-76ebe6011eec",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $K$ est un $Z(K)$-espace vectoriel de dimension finie, not{\\'e}e $n$.\n    Donner alors le cardinal de $K$ en fonction de $q$ et~$n$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(K\\)</span> est un <span\nclass=\"math inline\">\\(Z(K)\\)</span>-espace vectoriel de dimension finie,\nnot<span>é</span>e <span class=\"math inline\">\\(n\\)</span>. Donner alors\nle cardinal de <span class=\"math inline\">\\(K\\)</span> en fonction de\n<span class=\"math inline\">\\(q\\)</span> et <span\nclass=\"math inline\">\\(n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8ade3fcd-9351-4c60-826d-58292cfac377",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a\\in K\\setminus \\{0\\}$. On note $C_a=\\{x\\in K\\,|\\,ax=xa\\}$. \n    \\\\\n    Montrer que $C_a$ est un corps gauche, puis que c'est un\n    $Z(K)$-espace vectoriel de dimension finie $d$ divisant $n$ (on\n    montrera pour cela que $K$ est un $C_a$-espace vectoriel et l'on\n    {\\'e}tudiera sa dimension).",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in K\\setminus \\{0\\}\\)</span>. On\nnote <span class=\"math inline\">\\(C_a=\\{x\\in\nK\\,|\\,ax=xa\\}\\)</span>.<br />\nMontrer que <span class=\"math inline\">\\(C_a\\)</span> est un corps\ngauche, puis que c’est un <span\nclass=\"math inline\">\\(Z(K)\\)</span>-espace vectoriel de dimension finie\n<span class=\"math inline\">\\(d\\)</span> divisant <span\nclass=\"math inline\">\\(n\\)</span> (on montrera pour cela que <span\nclass=\"math inline\">\\(K\\)</span> est un <span\nclass=\"math inline\">\\(C_a\\)</span>-espace vectoriel et l’on\n<span>é</span>tudiera sa dimension).</p>\n"
+      }
+    },
+    {
+      "id": "63abb90b-33e4-485d-b1aa-0cf42cc399b4",
+      "type": "question",
+      "value": {
+        "latex": "On fait op{\\'e}rer le groupe multiplicatif $K^*$ sur lui-m{\\^e}me par automorphismes int{\\'e}rieurs. \n    \\\\\n    En consid{\\'e}rant les orbites selon cette op{\\'e}ration montrer que l'on a :\n$$q^n-1=q-1+\\sum_{i=1}^k \\frac{q^n-1}{q^{d_i}-1} \\text{ avec, pour tout }i,\\ d_i|n.$$",
+        "html": "<p>On fait op<span>é</span>rer le groupe multiplicatif <span\nclass=\"math inline\">\\(K^*\\)</span> sur lui-m<span>ê</span>me par\nautomorphismes int<span>é</span>rieurs.<br />\nEn consid<span>é</span>rant les orbites selon cette\nop<span>é</span>ration montrer que l’on a : <span\nclass=\"math display\">\\[q^n-1=q-1+\\sum_{i=1}^k \\frac{q^n-1}{q^{d_i}-1}\n\\text{ avec, pour tout }i,\\ d_i|n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "13480af6-72dd-4495-9ce3-0f9d3d14958c",
+      "type": "question",
+      "value": {
+        "latex": "En d{\\'e}duire que $\\Phi_n(q)$ divise $q-1$.",
+        "html": "<p>En d<span>é</span>duire que <span\nclass=\"math inline\">\\(\\Phi_n(q)\\)</span> divise <span\nclass=\"math inline\">\\(q-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "24c310eb-7076-49a1-b092-e08efa955fe3",
+      "type": "question",
+      "value": {
+        "latex": "En {\\'e}tudiant $|\\Phi_n(q)|$ montrer que $n=1$.",
+        "html": "<p>En <span>é</span>tudiant <span\nclass=\"math inline\">\\(|\\Phi_n(q)|\\)</span> montrer que <span\nclass=\"math inline\">\\(n=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On dit que <span class=\"math inline\">\\(K\\)</span> est un corps gauche\nsi <span class=\"math inline\">\\((K,+,\\times)\\)</span> est un anneau et si\n<spa ..."
+}

@@ -1,0 +1,37 @@
+{
+  "uuid": "Fkjn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2673",
+    "auteur": "matexo1",
+    "createdAt": "2002-02-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:27.987Z"
+  },
+  "contenu": [
+    {
+      "id": "17ae8ce7-aa9b-4947-9c72-1a8297bc8dc7",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les int{\\'e}grales\n$$ I = \\int_{-\\infty }^{+\\infty } {dx\\over x^4+x^2+1}\n\\qquad J = \\int_{-\\infty }^{+\\infty } {\\sin^2 x\\over x^4+x^2+1}\\,dx.$$",
+        "html": "<p>Calculer les int<span>é</span>grales <span class=\"math display\">\\[I =\n\\int_{-\\infty }^{+\\infty } {dx\\over x^4+x^2+1}\n\\qquad J = \\int_{-\\infty }^{+\\infty } {\\sin^2 x\\over\nx^4+x^2+1}\\,dx.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "de097ac3-8f48-4bea-9d2c-aaf647b1cd35",
+      "type": "reponse",
+      "value": {
+        "latex": "Le polyn{\\^o}me  $P(z) = z^4+z^2+1$ a pour racines les racines carr{\\'e}es de $j$ et $j^2$,\nsoit $\\pm j^2$ et $\\pm j$. Seuls $j$ et $-j^2$ ont une partie imaginaire positive, donc\n$$ I = 2i\\pi  (\\mbox{\\rm Res}(1/P, j) + \\mbox{\\rm Res}(1/P, -j^2))\n = 2i\\pi  \\left({1\\over P'(j)} + {1\\over P'(-j^2)}\\right) = {\\pi \\over \\sqrt 3}.$$\n\nPuis on a\n$$ J = {1\\over 2} \\int_{-\\infty }^{+\\infty } {1-\\cos 2x\\over x^4+x^2+1}\\,dx\n = {1\\over 2} I -{1\\over 2} \\int_{-\\infty }^{+\\infty } {\\cos 2x\\over x^4+x^2+1}\\,dx\n = (I-K)/2 $$\nOn a par la m{\\^e}me m{\\'e}thode\n$$ K = 2i\\pi  \\left({e^{2i j}\\over P'(j)} + {e^{2i (-j^2)}\\over P'(-j^2)}\\right) $$\nOr\n$$ e^{2ij} = \\exp\\left(2i \\left(1 +i\\sqrt 3 \\over 2\\right)\\right) = e^{-\\sqrt3 -i}$$\net de m{\\^e}me $e^{2i(-j^2)}= e^{-\\sqrt 3+i}$. Finalement\n$$ J = {\\pi \\over 2\\sqrt 3} \\left[ 1 -e^{-\\sqrt3} \\left(\\sqrt 3\\sin 1 +\\cos1\\right)\\right].$$",
+        "html": "<p>Le polyn<span>ô</span>me <span class=\"math inline\">\\(P(z) =\nz^4+z^2+1\\)</span> a pour racines les racines carr<span>é</span>es de\n<span class=\"math inline\">\\(j\\)</span> et <span\nclass=\"math inline\">\\(j^2\\)</span>, soit <span class=\"math inline\">\\(\\pm\nj^2\\)</span> et <span class=\"math inline\">\\(\\pm j\\)</span>. Seuls <span\nclass=\"math inline\">\\(j\\)</span> et <span\nclass=\"math inline\">\\(-j^2\\)</span> ont une partie imaginaire positive,\ndonc <span class=\"math display\">\\[I = 2i\\pi  (\\mbox{\\rm Res}(1/P, j) +\n\\mbox{\\rm Res}(1/P, -j^2))\n= 2i\\pi  \\left({1\\over P&#39;(j)} + {1\\over P&#39;(-j^2)}\\right) = {\\pi\n\\over \\sqrt 3}.\\]</span></p>\n<p>Puis on a <span class=\"math display\">\\[J = {1\\over 2} \\int_{-\\infty\n}^{+\\infty } {1-\\cos 2x\\over x^4+x^2+1}\\,dx\n= {1\\over 2} I -{1\\over 2} \\int_{-\\infty }^{+\\infty } {\\cos 2x\\over\nx^4+x^2+1}\\,dx\n= (I-K)/2\\]</span> On a par la m<span>ê</span>me m<span>é</span>thode\n<span class=\"math display\">\\[K = 2i\\pi  \\left({e^{2i j}\\over P&#39;(j)}\n+ {e^{2i (-j^2)}\\over P&#39;(-j^2)}\\right)\\]</span> Or <span\nclass=\"math display\">\\[e^{2ij} = \\exp\\left(2i \\left(1 +i\\sqrt 3 \\over\n2\\right)\\right) = e^{-\\sqrt3 -i}\\]</span> et de m<span>ê</span>me <span\nclass=\"math inline\">\\(e^{2i(-j^2)}= e^{-\\sqrt 3+i}\\)</span>. Finalement\n<span class=\"math display\">\\[J = {\\pi \\over 2\\sqrt 3} \\left[ 1\n-e^{-\\sqrt3} \\left(\\sqrt 3\\sin 1 +\\cos1\\right)\\right].\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les int<span>é</span>grales <span class=\"math display\"> ..."
+}

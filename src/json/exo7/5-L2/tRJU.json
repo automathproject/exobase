@@ -1,0 +1,37 @@
+{
+  "uuid": "tRJU",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4575",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Développement en série entière",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:12.027Z"
+  },
+  "contenu": [
+    {
+      "id": "33ab4a17-6897-492f-800c-5b62aa5fadbe",
+      "type": "description",
+      "value": {
+        "latex": "Développer en série entière~: $\\ln(\\sqrt{1-2x\\ch a + x^2})$.",
+        "html": "<p>Développer en série entière : <span\nclass=\"math inline\">\\(\\ln(\\sqrt{1-2x\\ch a + x^2})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cc4d4516-8cb5-4fb4-ae3d-60bb61b0103d",
+      "type": "reponse",
+      "value": {
+        "latex": "$=\\frac12\\ln(e^a-x) + \\frac12\\ln(e^{-a}-x)\n=\\sum_{k=1}^\\infty \\frac{\\ch(ka)}kx^k$.",
+        "html": "<p><span class=\"math inline\">\\(=\\frac12\\ln(e^a-x) + \\frac12\\ln(e^{-a}-x)\n=\\sum_{k=1}^\\infty \\frac{\\ch(ka)}kx^k\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Développer en série entière : <span\nclass=\"math inline\">\\(\\ln(\\sqrt{1-2x\\ch a + x^2})\\)</span>.</p>\n"
+}

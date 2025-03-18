@@ -1,0 +1,61 @@
+{
+  "uuid": "IU5R",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6368",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:58.192Z"
+  },
+  "contenu": [
+    {
+      "id": "6523941f-eab9-42b0-af71-2352ad7195b3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a>0$ et soit $f: \\Rr \\times \\Rr^n \\to \\Rr^n$ une\napplication de classe $C^1$ vérifiant\n$$ |\\langle x  ,  f(t,x)\\rangle| \\leq a \\langle x  ,  x \\rangle \\quad \\text{pour tout} \\;\\;\n (t,x)\\in \\Rr\\times \\Rr^n \\; .$$ \nSoit $\\varphi$ une solution\nde l'équation différentielle $x'=f(t,x)$ que l'on suppose\ndéfinie sur l'intervalle $I$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a&gt;0\\)</span> et soit <span\nclass=\"math inline\">\\(f: \\Rr \\times \\Rr^n \\to \\Rr^n\\)</span> une\napplication de classe <span class=\"math inline\">\\(C^1\\)</span> vérifiant\n<span class=\"math display\">\\[|\\langle x  ,  f(t,x)\\rangle| \\leq a\n\\langle x  ,  x \\rangle \\quad \\text{pour tout} \\;\\;\n(t,x)\\in \\Rr\\times \\Rr^n \\; .\\]</span> Soit <span\nclass=\"math inline\">\\(\\varphi\\)</span> une solution de l’équation\ndifférentielle <span class=\"math inline\">\\(x&#39;=f(t,x)\\)</span> que\nl’on suppose définie sur l’intervalle <span\nclass=\"math inline\">\\(I\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bb1bedc1-cc2f-44c6-9c2e-7780ba0925b8",
+      "type": "question",
+      "value": {
+        "latex": "On pose $N(t) = \\langle \\varphi (t)  ,  \\varphi (t) \\rangle$. Montrer que\nl'application $N$ est dérivable sur $I$, calculer sa dérivée\net montrer qu'elle vérifie $|N'(t)|\\leq 2 a N(t)$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(N(t) = \\langle \\varphi\n(t)  ,  \\varphi (t) \\rangle\\)</span>. Montrer que l’application <span\nclass=\"math inline\">\\(N\\)</span> est dérivable sur <span\nclass=\"math inline\">\\(I\\)</span>, calculer sa dérivée et montrer qu’elle\nvérifie <span class=\"math inline\">\\(|N&#39;(t)|\\leq 2 a\nN(t)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "99864d56-5a14-42b5-badf-a5f7a6fc5dd7",
+      "type": "question",
+      "value": {
+        "latex": "Soient $t$ et $t_0$ deux points de $I$. Comparer $N(t) $ et\n$N(t_0)$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(t\\)</span> et <span\nclass=\"math inline\">\\(t_0\\)</span> deux points de <span\nclass=\"math inline\">\\(I\\)</span>. Comparer <span\nclass=\"math inline\">\\(N(t)\\)</span> et <span\nclass=\"math inline\">\\(N(t_0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f928f9d4-29a6-4867-b5f3-2a9c8fb4310a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les solutions maximales de l'équation\ndifférentielle en considération sont définies sur $\\Rr$.",
+        "html": "<p>Montrer que les solutions maximales de l’équation différentielle en\nconsidération sont définies sur <span\nclass=\"math inline\">\\(\\Rr\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "22f42d7c-434c-4eb0-abe4-884c8c320490",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les solutions maximales du système\n\\begin{equation*}\n(S) \\quad \\left\\{ \\begin{array}{ccc}\n  x_1'(t) & = & 2x_1(t) +t x_2(t) +x_2^2(t) \\\\\n  x'_2(t) & = & -tx_1(t) +x_2(t) -x_1(t) x_2(t)\n\\end{array}\\right.\n\\end{equation*}\nsont définies sur $\\Rr$.",
+        "html": "<p>Montrer que les solutions maximales du système <span\nclass=\"math display\">\\[(S) \\quad \\left\\{ \\begin{array}{ccc}\n  x_1&#39;(t) &amp; = &amp; 2x_1(t) +t x_2(t) +x_2^2(t) \\\\\n  x&#39;_2(t) &amp; = &amp; -tx_1(t) +x_2(t) -x_1(t) x_2(t)\n\\end{array}\\right.\\]</span> sont définies sur <span\nclass=\"math inline\">\\(\\Rr\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a&gt;0\\)</span> et soit <span\nclass=\"math inline\">\\(f: \\Rr \\times \\Rr^n \\to \\Rr^n\\)</span> une\napplication de clas ..."
+}

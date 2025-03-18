@@ -1,0 +1,37 @@
+{
+  "uuid": "92bp",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1248",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Applications",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:01.905Z"
+  },
+  "contenu": [
+    {
+      "id": "94ce6701-cbee-4b42-85b8-6bd158fde0d9",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les limites suivantes~: $\\displaystyle{\n\\lim _{x\\rightarrow 0} \\frac{e^x-(\\cos(x)+x)}{ x^2} ,\n \\lim _{x\\rightarrow 0} \\frac{x^3\\arctan(x)-x ^4}{\\cos(x^2)-1}.}$",
+        "html": "<p>Calculer les limites suivantes : <span\nclass=\"math inline\">\\(\\displaystyle{\n\\lim _{x\\rightarrow 0} \\frac{e^x-(\\cos(x)+x)}{ x^2} ,\n\\lim _{x\\rightarrow 0} \\frac{x^3\\arctan(x)-x\n^4}{\\cos(x^2)-1}.}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "aec6d9b9-ec3f-452f-b85b-b105fe5b1dcb",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\lim _{x\\rightarrow 0}{\\frac {{e^{x}}-\\cos(x)-x}{{x}^{2}}}=1 .$$\n\n$$\\lim _{x\\rightarrow 0}{\\frac {{x}^{3}\\arctan(x)-{x}^{4}}{\\cos({x}^{2})\n-1}}=0 .$$",
+        "html": "<p><span class=\"math display\">\\[\\lim _{x\\rightarrow 0}{\\frac\n{{e^{x}}-\\cos(x)-x}{{x}^{2}}}=1 .\\]</span></p>\n<p><span class=\"math display\">\\[\\lim _{x\\rightarrow 0}{\\frac\n{{x}^{3}\\arctan(x)-{x}^{4}}{\\cos({x}^{2})\n-1}}=0 .\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les limites suivantes : <span\nclass=\"math inline\"> ..."
+}

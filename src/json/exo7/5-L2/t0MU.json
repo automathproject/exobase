@@ -1,0 +1,61 @@
+{
+  "uuid": "t0MU",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4356",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:11.604Z"
+  },
+  "contenu": [
+    {
+      "id": "e29da2dd-fabb-47fc-8bcb-715e2d762a54",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "9249f0f8-5a07-4072-a8d2-08c04cd3e016",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $f(a) =  \\int_{t=0}^{+\\infty} e^{-t^2}\\cos(at)\\,d t$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(f(a) =  \\int_{t=0}^{+\\infty}\ne^{-t^2}\\cos(at)\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6721172c-d1f4-4514-a2e0-a7d4ab6b298c",
+      "type": "reponse",
+      "value": {
+        "latex": "$f'(a) = -\\frac a2f(a)  \\Rightarrow  f(a) = \\frac{\\sqrt\\pi}2\\exp(-a^2/4)$.",
+        "html": "<p><span class=\"math inline\">\\(f&#39;(a) = -\\frac\na2f(a)  \\Rightarrow  f(a) = \\frac{\\sqrt\\pi}2\\exp(-a^2/4)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "62a52543-2a4d-4f91-86cd-d30566b82d87",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g(a) =  \\int_{t=0}^{+\\infty} e^{-t^2}\\frac{\\sin(at)}t\\,d t$~;\n    calculer $\\lim_{a\\to+\\infty} g(a)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g(a) =  \\int_{t=0}^{+\\infty}\ne^{-t^2}\\frac{\\sin(at)}t\\,d t\\)</span> ; calculer <span\nclass=\"math inline\">\\(\\lim_{a\\to+\\infty} g(a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a7debbad-884d-4ff8-8740-710249af2e70",
+      "type": "reponse",
+      "value": {
+        "latex": "$g'(a) = f(a)  \\Rightarrow  g(a) \\to \\frac\\pi2$ lorsque $a\\to+\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(g&#39;(a) = f(a)  \\Rightarrow  g(a) \\to\n\\frac\\pi2\\)</span> lorsque <span\nclass=\"math inline\">\\(a\\to+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(f(a) =  \\int_{t=0}^{+\\infty}\ne^{-t^2}\\cos(at)\\,d t\\)</span>.</p>\n"
+}

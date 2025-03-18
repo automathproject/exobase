@@ -1,0 +1,69 @@
+{
+  "uuid": "LSBt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "913",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace vectoriel",
+    "sousChapitre": "Système de vecteurs",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:56.146Z"
+  },
+  "contenu": [
+    {
+      "id": "4a5a72d0-bb95-4b6c-849b-999ff78318af",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un ${ \\Cc}$-espace vectoriel et $S_{1}=(e_{1},e_{2},...,e_{n})$ un\nsyst\\`eme libre dans $E$, $n\\ge 2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\({ \\Cc}\\)</span>-espace vectoriel et <span\nclass=\"math inline\">\\(S_{1}=(e_{1},e_{2},...,e_{n})\\)</span> un système\nlibre dans <span class=\"math inline\">\\(E\\)</span>, <span\nclass=\"math inline\">\\(n\\ge 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dcc36b65-eba8-4b31-8ab2-593fdfb90ac6",
+      "type": "question",
+      "value": {
+        "latex": "On consid\\`ere le syst\\`eme $S_{2}=(e_{1}',e_{2}',...,e_{n}')$ d\\'efini par :\n$e_{j}'=\\sum_{k=1}^{j}e_{k},   1\\le j \\le n$. $S_{2}$ est-il libre ?",
+        "html": "<p>On considère le système <span\nclass=\"math inline\">\\(S_{2}=(e_{1}&#39;,e_{2}&#39;,...,e_{n}&#39;)\\)</span>\ndéfini par : <span\nclass=\"math inline\">\\(e_{j}&#39;=\\sum_{k=1}^{j}e_{k},   1\\le j \\le\nn\\)</span>. <span class=\"math inline\">\\(S_{2}\\)</span> est-il libre\n?</p>\n"
+      }
+    },
+    {
+      "id": "8eb74ccf-92c4-44e7-99a5-857d209577c2",
+      "type": "question",
+      "value": {
+        "latex": "On consid\\`ere le syst\\`eme $S_{3} = (\\epsilon_{1},\\epsilon_{2},...,\\epsilon_{n})$ d\\'efini par\n: $\\epsilon_{j}=e_{j}+e_{j+1},   1\\le j \\le n-1$ et $\\epsilon_{n}=e_{n}+e_{1}$. Montrer les\nr\\'esultats suivants :\n    \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "7bcaf9ae-adb5-4f93-b6cb-e3fc4c125926",
+      "type": "question",
+      "value": {
+        "latex": "$S_{3}$ libre $\\Rightarrow$ $S_{1}$ libre.",
+        "html": "<p><span class=\"math inline\">\\(S_{3}\\)</span> libre <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> <span\nclass=\"math inline\">\\(S_{1}\\)</span> libre.</p>\n"
+      }
+    },
+    {
+      "id": "8e343655-66e8-411a-9d49-363011df71c2",
+      "type": "question",
+      "value": {
+        "latex": "$n$ impair : $S_{3}$\nlibre $\\Leftrightarrow$ $S_{1}$ libre.",
+        "html": "<p><span class=\"math inline\">\\(n\\)</span> impair : <span\nclass=\"math inline\">\\(S_{3}\\)</span> libre <span\nclass=\"math inline\">\\(\\Leftrightarrow\\)</span> <span\nclass=\"math inline\">\\(S_{1}\\)</span> libre.</p>\n"
+      }
+    },
+    {
+      "id": "3cc401f1-036f-4529-97bb-dd028e4a7465",
+      "type": "question",
+      "value": {
+        "latex": "$n$ pair : $S_{3}$ li\\'e.",
+        "html": "<p><span class=\"math inline\">\\(n\\)</span> pair : <span\nclass=\"math inline\">\\(S_{3}\\)</span> lié.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\({ \\Cc}\\)</span>-espace vectoriel et <span\nclass=\"math inline\"> ..."
+}

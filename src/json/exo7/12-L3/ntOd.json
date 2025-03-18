@@ -1,0 +1,61 @@
+{
+  "uuid": "ntOd",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2521",
+    "auteur": "queffelec",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Différentiabilité, calcul de différentielles",
+    "sousChapitre": "Différentiabilité, calcul de différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:52.129Z"
+  },
+  "contenu": [
+    {
+      "id": "67beb535-2722-447b-844c-4a68de78d8e0",
+      "type": "description",
+      "value": {
+        "latex": "On consid\\`ere\nl'application $F:{\\Rr^2}\\to{\\Rr^2}$ d\\'efinie par $F(x,y)=(\\cos\nx-\\sin y,\\ \\sin x-\\cos y)$; on note $F^{(k)}$ l'application $F$\ncompos\\'ee $k$-fois",
+        "html": "<p>On considère l’application <span\nclass=\"math inline\">\\(F:{\\Rr^2}\\to{\\Rr^2}\\)</span> définie par <span\nclass=\"math inline\">\\(F(x,y)=(\\cos\nx-\\sin y,\\ \\sin x-\\cos y)\\)</span>; on note <span\nclass=\"math inline\">\\(F^{(k)}\\)</span> l’application <span\nclass=\"math inline\">\\(F\\)</span> composée <span\nclass=\"math inline\">\\(k\\)</span>-fois</p>\n"
+      }
+    },
+    {
+      "id": "50883a57-6875-4211-8428-5ed81c8c2363",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $||DF(x,y)||\\leq \\sqrt2$ pour tout $(x,y)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(||DF(x,y)||\\leq\n\\sqrt2\\)</span> pour tout <span\nclass=\"math inline\">\\((x,y)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "548a73c9-5af2-4942-b7d0-0e9129291760",
+      "type": "reponse",
+      "value": {
+        "latex": "On a\n$$Df(x,y)=\\left(\\begin{array}{cc}\n-\\sin x & - \\cos y \\\\ \\cos x & \\sin y\n\\end{array}\\right)$$\n\nOn a\n$$|||Df(x,y)|||=\\sup_{(a,b) \\in \\mathbb{R}^2\\backslash\n\\{(0,0)\\}}\\frac{ ||Df(x,y).(a,b)||}{||(a,b)||}=$$\n$$\\frac{\\sqrt{a^2 \\sin^2 x + b^2 \\cos^2 y +2ab \\sin x \\cos x + a^2 \\cos^2 x + b^2 \\sin^2 y + 2ab \\cos x \\sin y}}{\\sqrt{a^2+b^2}}=$$\n$$\\frac{\\sqrt{a^2+b^2+2ab \\sin(x+y)}}{\\sqrt{a^2+b^2}} \\leq \\sqrt{1+\\frac{2|a||b|}{a^2+b^2}} \\leq \\sqrt 2$$\ncar $$(|a|-|b|)^2 \\geq0\\Rightarrow a^2+b^2 \\geq 2 |a||b|.$$",
+        "html": "<p>On a <span class=\"math display\">\\[Df(x,y)=\\left(\\begin{array}{cc}\n-\\sin x &amp; - \\cos y \\\\ \\cos x &amp; \\sin y\n\\end{array}\\right)\\]</span></p>\n<p>On a <span class=\"math display\">\\[|||Df(x,y)|||=\\sup_{(a,b) \\in\n\\mathbb{R}^2\\backslash\n\\{(0,0)\\}}\\frac{ ||Df(x,y).(a,b)||}{||(a,b)||}=\\]</span> <span\nclass=\"math display\">\\[\\frac{\\sqrt{a^2 \\sin^2 x + b^2 \\cos^2 y +2ab \\sin\nx \\cos x + a^2 \\cos^2 x + b^2 \\sin^2 y + 2ab \\cos x \\sin\ny}}{\\sqrt{a^2+b^2}}=\\]</span> <span\nclass=\"math display\">\\[\\frac{\\sqrt{a^2+b^2+2ab\n\\sin(x+y)}}{\\sqrt{a^2+b^2}} \\leq \\sqrt{1+\\frac{2|a||b|}{a^2+b^2}} \\leq\n\\sqrt 2\\]</span> car <span class=\"math display\">\\[(|a|-|b|)^2\n\\geq0\\Rightarrow a^2+b^2 \\geq 2 |a||b|.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "01b50d2c-aac6-47f6-9b76-bfe98903ff46",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que la suite r\\'ecurrente d\\'efinie par\n$x_0,y_0$ et pour $n\\geq 1$\n$$x_{n+1}=\n{\\frac 1 2}(\\cos x_n-\\sin y_n),\\quad y_{n+1}= {\\frac 1 2}(\\sin\nx_n-\\cos y_n)$$ converge pour tout $(x_0,y_0)$. Donnez\nl'\\'equation que v\\'erifie sa limite ?",
+        "html": "<p>En déduire que la suite récurrente définie par <span\nclass=\"math inline\">\\(x_0,y_0\\)</span> et pour <span\nclass=\"math inline\">\\(n\\geq 1\\)</span> <span\nclass=\"math display\">\\[x_{n+1}=\n{\\frac 1 2}(\\cos x_n-\\sin y_n),\\quad y_{n+1}= {\\frac 1 2}(\\sin\nx_n-\\cos y_n)\\]</span> converge pour tout <span\nclass=\"math inline\">\\((x_0,y_0)\\)</span>. Donnez l’équation que vérifie\nsa limite ?</p>\n"
+      }
+    },
+    {
+      "id": "3fe15a3d-eb66-4312-96e9-e40ce70eac8f",
+      "type": "reponse",
+      "value": {
+        "latex": "Soient $U_n=(x_n,y_n)$ et $G(x,y)=1/2F(x,y)$, alors $|||G|||\n\\leq \\frac{\\sqrt 2}{2}$ et $U_{n+1}=G(U_n)$. D'apr\\`es les\naccroissements finis, $G$ est contractante et donc le th\\'eor\\`eme\ndu point fixe donne le r\\'esultat demand\\'e.",
+        "html": "<p>Soient <span class=\"math inline\">\\(U_n=(x_n,y_n)\\)</span> et <span\nclass=\"math inline\">\\(G(x,y)=1/2F(x,y)\\)</span>, alors <span\nclass=\"math inline\">\\(|||G|||\n\\leq \\frac{\\sqrt 2}{2}\\)</span> et <span\nclass=\"math inline\">\\(U_{n+1}=G(U_n)\\)</span>. D’après les\naccroissements finis, <span class=\"math inline\">\\(G\\)</span> est\ncontractante et donc le théorème du point fixe donne le résultat\ndemandé.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’application <span\nclass=\"math inline\">\\(F:{\\Rr^2}\\to{\\Rr^2}\\)</span> définie par <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,37 @@
+{
+  "uuid": "9QKd",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2157",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-groupe distingué",
+    "sousChapitre": "Sous-groupe distingué",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:45.744Z"
+  },
+  "contenu": [
+    {
+      "id": "674f2585-1250-49aa-8fbc-0d9ff868b6d4",
+      "type": "description",
+      "value": {
+        "latex": "Soit $G$ un sous-groupe d'indice fini du groupe multiplicatif $\\C ^\\times $. Montrer que $G=\n\\C ^\\times$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un sous-groupe d’indice\nfini du groupe multiplicatif <span class=\"math inline\">\\(\\C\n^\\times\\)</span>. Montrer que <span class=\"math inline\">\\(G=\n\\C ^\\times\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9a817091-a50e-405b-99b8-5dcecf109c94",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z\\in \\C$ quelconque et $\\zeta\\in \\C$ une racine $n$-i\\`eme de $z$. Le sous-groupe $G$\nest distingu\\'e dans $\\C$ (puisque $\\C$ est commutatif). Si $n$ est l'indice de $G$ dans\n$\\C$, on a donc $\\zeta^n = z\\in G$ (voir l'exercice \\ref{ex:le18}). D'o\\`u $\\C\\subset G$. L'inclusion\ninverse est triviale.",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\in \\C\\)</span> quelconque et <span\nclass=\"math inline\">\\(\\zeta\\in \\C\\)</span> une racine <span\nclass=\"math inline\">\\(n\\)</span>-ième de <span\nclass=\"math inline\">\\(z\\)</span>. Le sous-groupe <span\nclass=\"math inline\">\\(G\\)</span> est distingué dans <span\nclass=\"math inline\">\\(\\C\\)</span> (puisque <span\nclass=\"math inline\">\\(\\C\\)</span> est commutatif). Si <span\nclass=\"math inline\">\\(n\\)</span> est l’indice de <span\nclass=\"math inline\">\\(G\\)</span> dans <span\nclass=\"math inline\">\\(\\C\\)</span>, on a donc <span\nclass=\"math inline\">\\(\\zeta^n = z\\in G\\)</span> (voir l’exercice <a\nhref=\"#ex:le18\" data-reference-type=\"ref\"\ndata-reference=\"ex:le18\">[ex:le18]</a>). D’où <span\nclass=\"math inline\">\\(\\C\\subset G\\)</span>. L’inclusion inverse est\ntriviale.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un sous-groupe d’indice\nfini du groupe multiplicatif <span class=\"math inline\">\\(\\C\n^\\times\\)</span>. M ..."
+}

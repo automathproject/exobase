@@ -1,0 +1,109 @@
+{
+  "uuid": "4NhO",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2422",
+    "auteur": "bodin",
+    "createdAt": "2007-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:22.982Z"
+  },
+  "contenu": [
+    {
+      "id": "fafe7cfe-44ba-4997-988f-49b7272d1a26",
+      "type": "description",
+      "value": {
+        "latex": "\nSoit $(E,d)$ un espace métrique. On dit que $d$ est \\emph{ultramétrique} si elle vérifie:\n$$\\forall (x,y,z)\\in E^3 \\qquad d(x,z) \\le \\sup \\left( d(x,y), d(y,z)\\right).$$\nCette inégalité entraine évidemment l'inégalité triangulaire.",
+        "html": "<p>Soit <span class=\"math inline\">\\((E,d)\\)</span> un espace métrique.\nOn dit que <span class=\"math inline\">\\(d\\)</span> est\n<em>ultramétrique</em> si elle vérifie: <span\nclass=\"math display\">\\[\\forall (x,y,z)\\in E^3 \\qquad d(x,z) \\le \\sup\n\\left( d(x,y), d(y,z)\\right).\\]</span> Cette inégalité entraine\névidemment l’inégalité triangulaire.</p>\n"
+      }
+    },
+    {
+      "id": "4e0f14e0-d784-47b8-b0d9-e7da09cb6104",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $E$ muni de la distance $d$ définie par \n$$d(x,y) = 1 \\ \\text{ si }\\  x\\neq y, \\qquad d(x,x)=0$$\nest un espace ultramétrique.\n\n\\medskip\nOn suppose maintenant que $(E,d)$ est ultramétrique.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(E\\)</span> muni de la\ndistance <span class=\"math inline\">\\(d\\)</span> définie par <span\nclass=\"math display\">\\[d(x,y) = 1 \\ \\text{ si }\\  x\\neq y, \\qquad\nd(x,x)=0\\]</span> est un espace ultramétrique.</p>\n<p>On suppose maintenant que <span class=\"math inline\">\\((E,d)\\)</span>\nest ultramétrique.</p>\n"
+      }
+    },
+    {
+      "id": "57c316e0-e414-45af-bff1-1ba945b3b40c",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $d(x,y)  = 1$, si $x\\neq y$, on a donc que $d(x,y) =\n0 \\Leftrightarrow x = y$. \nDe plus, comme la relation $x\\neq y$ est sym\\'etrique, on $d(x,y) =\nd(y,x),\\-\\forall x,y \\in E$.\nSoient $x,y,z\\in E$, supposons $x = z$ ; ou bien $y = x$ ou bien $y$ est distinct de\n$x$.\nDans le premier cas, $d(x,z) = d(x,y) = d(y,z) = 0$ et $d(x,z) = \\sup(d(x,y),\nd(y,z))$.\nDans le second cas, $d(x,y) = 1$ , d'o\\`u \n$$0= d(x,x) = d(x,z) < \\sup(d(x,y),d(x,y)) = 1.$$\n\nSupposons $x\\neq z $ ; ou $y $ est distinct de $x$ et de $z$, ou alors on a\nl'une des\npossibilit\\'es: $y = x$ ou $y = z$.\nSi les trois éléments sont deux \\`a deux distincts, l'in\\'egalit\\'e est\ntrivialement\nv\\'erif\\'ee ($1 = 1$ !).\nSinon, $d(x,y) = 1$ ou $d(y,z) = 1$, d'o\\`u\n$$1= d(x,z)\\le \\sup(d(x,y), d(y,z)).$$",
+        "html": "<p>Comme <span class=\"math inline\">\\(d(x,y)  = 1\\)</span>, si <span\nclass=\"math inline\">\\(x\\neq y\\)</span>, on a donc que <span\nclass=\"math inline\">\\(d(x,y) =\n0 \\Leftrightarrow x = y\\)</span>. De plus, comme la relation <span\nclass=\"math inline\">\\(x\\neq y\\)</span> est symétrique, on <span\nclass=\"math inline\">\\(d(x,y) =\nd(y,x),\\-\\forall x,y \\in E\\)</span>. Soient <span\nclass=\"math inline\">\\(x,y,z\\in E\\)</span>, supposons <span\nclass=\"math inline\">\\(x = z\\)</span> ; ou bien <span\nclass=\"math inline\">\\(y = x\\)</span> ou bien <span\nclass=\"math inline\">\\(y\\)</span> est distinct de <span\nclass=\"math inline\">\\(x\\)</span>. Dans le premier cas, <span\nclass=\"math inline\">\\(d(x,z) = d(x,y) = d(y,z) = 0\\)</span> et <span\nclass=\"math inline\">\\(d(x,z) = \\sup(d(x,y),\nd(y,z))\\)</span>. Dans le second cas, <span class=\"math inline\">\\(d(x,y)\n= 1\\)</span> , d’où <span class=\"math display\">\\[0= d(x,x) = d(x,z) &lt;\n\\sup(d(x,y),d(x,y)) = 1.\\]</span></p>\n<p>Supposons <span class=\"math inline\">\\(x\\neq z\\)</span> ; ou <span\nclass=\"math inline\">\\(y\\)</span> est distinct de <span\nclass=\"math inline\">\\(x\\)</span> et de <span\nclass=\"math inline\">\\(z\\)</span>, ou alors on a l’une des possibilités:\n<span class=\"math inline\">\\(y = x\\)</span> ou <span\nclass=\"math inline\">\\(y = z\\)</span>. Si les trois éléments sont deux à\ndeux distincts, l’inégalité est trivialement vérifée (<span\nclass=\"math inline\">\\(1 = 1\\)</span> !). Sinon, <span\nclass=\"math inline\">\\(d(x,y) = 1\\)</span> ou <span\nclass=\"math inline\">\\(d(y,z) = 1\\)</span>, d’où <span\nclass=\"math display\">\\[1= d(x,z)\\le \\sup(d(x,y), d(y,z)).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9f2f717b-0001-4d47-884a-daba12db0e8f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $d(x,y)\\neq d(y,z)$, on a $ d(x,z) = \\sup \\left( d(x,y), d(y,z)\\right)$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(d(x,y)\\neq\nd(y,z)\\)</span>, on a <span class=\"math inline\">\\(d(x,z) = \\sup \\left(\nd(x,y), d(y,z)\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4d34d5cc-81d7-4069-ba3f-3b523b2a000b",
+      "type": "reponse",
+      "value": {
+        "latex": "On suppose que $d(x,y) \\neq d(y,z)$. Supposons alors que $d(x,z)\n<\\sup(d(x,y),d(y,z))$ et pour fixer les id\\'ees que\n$d(x,y) = \\sup(d(x,y),d(y,z))$. Alors $d(y,z)< d(x,y)$ et $d(x,z)<d(x,y)$,\nd'o\\`u on d\\'eduit que $\\sup(d(x,z),d(z,y))< d(x,y)$.\nPar ailleurs, $d(x,y)\\le \\sup(d(x,z), d(z,y))$. Les deux derni\\`eres\nin\\'egalit\\'es sont contradictoires.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(d(x,y) \\neq\nd(y,z)\\)</span>. Supposons alors que <span class=\"math inline\">\\(d(x,z)\n&lt;\\sup(d(x,y),d(y,z))\\)</span> et pour fixer les idées que <span\nclass=\"math inline\">\\(d(x,y) = \\sup(d(x,y),d(y,z))\\)</span>. Alors <span\nclass=\"math inline\">\\(d(y,z)&lt; d(x,y)\\)</span> et <span\nclass=\"math inline\">\\(d(x,z)&lt;d(x,y)\\)</span>, d’où on déduit que\n<span class=\"math inline\">\\(\\sup(d(x,z),d(z,y))&lt; d(x,y)\\)</span>. Par\nailleurs, <span class=\"math inline\">\\(d(x,y)\\le \\sup(d(x,z),\nd(z,y))\\)</span>. Les deux dernières inégalités sont\ncontradictoires.</p>\n"
+      }
+    },
+    {
+      "id": "dc7ae2e5-f352-4736-a3fb-7b3fab48f978",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'une boule ouverte (resp. fermée) est une partie à la fois ouverte et fermée.",
+        "html": "<p>Montrer qu’une boule ouverte (resp. fermée) est une partie à la fois\nouverte et fermée.</p>\n"
+      }
+    },
+    {
+      "id": "935ebad8-6063-49fa-921d-a1fa4a45867f",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $B_d(a,r)$ une boule ouverte; montrons qu'elle est ferm\\'ee.\nSoit $y\\in E\\setminus B_d(a,r)$; montrons qu'il existe une boule ouverte $B_d(y,\\eta)$,\ncontenue dans $E \\setminus B_d(a,r)$.\nSi on choisit $\\eta  = r/2 $ ou plus g\\'en\\'eralement $\\eta< r$,\non obtient que, pour tout $z\\in B_d(y,\\eta)$,\n$$d(a,z)\\le \\sup(d(a,y), d(y,z))\\le \\sup(d(a,y),\\eta)).$$\nComme $d(a,y)\\ge r$ et $d(y,z)<\\eta<r$, on a , (d'apr\\`es la deuxième question),\n$d(a,z) = d(a,y)\\ge r$. On en d\\'eduit que $B_d(y,\\eta)\\subset E \\setminus B_d(a,r)$ et par suite la\nboule ouverte $B_d(a,r)$ est aussi ferm\\'ee.\n\nLa preuve du fait que la boule ferm\\'ee $B'_d(a,r) $ est aussi ouverte est\nanalogue.",
+        "html": "<p>Soit <span class=\"math inline\">\\(B_d(a,r)\\)</span> une boule ouverte;\nmontrons qu’elle est fermée. Soit <span class=\"math inline\">\\(y\\in\nE\\setminus B_d(a,r)\\)</span>; montrons qu’il existe une boule ouverte\n<span class=\"math inline\">\\(B_d(y,\\eta)\\)</span>, contenue dans <span\nclass=\"math inline\">\\(E \\setminus B_d(a,r)\\)</span>. Si on choisit <span\nclass=\"math inline\">\\(\\eta  = r/2\\)</span> ou plus généralement <span\nclass=\"math inline\">\\(\\eta&lt; r\\)</span>, on obtient que, pour tout\n<span class=\"math inline\">\\(z\\in B_d(y,\\eta)\\)</span>, <span\nclass=\"math display\">\\[d(a,z)\\le \\sup(d(a,y), d(y,z))\\le\n\\sup(d(a,y),\\eta)).\\]</span> Comme <span class=\"math inline\">\\(d(a,y)\\ge\nr\\)</span> et <span class=\"math inline\">\\(d(y,z)&lt;\\eta&lt;r\\)</span>,\non a , (d’après la deuxième question), <span\nclass=\"math inline\">\\(d(a,z) = d(a,y)\\ge r\\)</span>. On en déduit que\n<span class=\"math inline\">\\(B_d(y,\\eta)\\subset E \\setminus\nB_d(a,r)\\)</span> et par suite la boule ouverte <span\nclass=\"math inline\">\\(B_d(a,r)\\)</span> est aussi fermée.</p>\n<p>La preuve du fait que la boule fermée <span\nclass=\"math inline\">\\(B&#39;_d(a,r)\\)</span> est aussi ouverte est\nanalogue.</p>\n"
+      }
+    },
+    {
+      "id": "1c31dc6b-fe42-42ad-9460-d4c833afb07b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si deux boules ont un point commun l'une est contenue dans l'autre. Montrer de plus que si ces boules ont même rayon et sont toutes les deux des boules ouvertes (resp. fermées) elles sont confondues.",
+        "html": "<p>Montrer que si deux boules ont un point commun l’une est contenue\ndans l’autre. Montrer de plus que si ces boules ont même rayon et sont\ntoutes les deux des boules ouvertes (resp. fermées) elles sont\nconfondues.</p>\n"
+      }
+    },
+    {
+      "id": "6efef671-920e-4c52-b901-bf5c46561a51",
+      "type": "reponse",
+      "value": {
+        "latex": "Soient $B_d(a,r)$ et $B_d(b,s)$ deux boules ouvertes ayant une\nintersection non vide et soit $z_0\\in B_d(a,r)\\cap B_d(b,s)$. supposons que $r\\le s$ et\nmontrons qu'alors $B_d(a,r)\\subset B_d(b,s)$.\nOn regarde la distance \\`a $b$ de tout $z\\in B_d(a,r)$:\n$$d(b,z)\\le \\sup(d(b,z_0), d(z_0,z)) < \\sup(s,d(z_0,z))$$ \npuisque $z_0$ est dans $B_d(b,s)$.\nPar ailleurs, on a:\n$d(z_0,z)\\le \\sup(d(z_0,a), d(a,z))<r$.\nOn obtient une majoration de $d(b,z)$:\n$d(b,z)< \\sup(r,s) = s$, d'o\\`u une inclusion de $B_d(a,r)$ dans $B_d(b,s)$.\n\n Cons\\'equence: deux boules ouvertes de m\\^eme rayon $r$ qui se rencontrent sont confondues.",
+        "html": "<p>Soient <span class=\"math inline\">\\(B_d(a,r)\\)</span> et <span\nclass=\"math inline\">\\(B_d(b,s)\\)</span> deux boules ouvertes ayant une\nintersection non vide et soit <span class=\"math inline\">\\(z_0\\in\nB_d(a,r)\\cap B_d(b,s)\\)</span>. supposons que <span\nclass=\"math inline\">\\(r\\le s\\)</span> et montrons qu’alors <span\nclass=\"math inline\">\\(B_d(a,r)\\subset B_d(b,s)\\)</span>. On regarde la\ndistance à <span class=\"math inline\">\\(b\\)</span> de tout <span\nclass=\"math inline\">\\(z\\in B_d(a,r)\\)</span>: <span\nclass=\"math display\">\\[d(b,z)\\le \\sup(d(b,z_0), d(z_0,z)) &lt;\n\\sup(s,d(z_0,z))\\]</span> puisque <span\nclass=\"math inline\">\\(z_0\\)</span> est dans <span\nclass=\"math inline\">\\(B_d(b,s)\\)</span>. Par ailleurs, on a: <span\nclass=\"math inline\">\\(d(z_0,z)\\le \\sup(d(z_0,a), d(a,z))&lt;r\\)</span>.\nOn obtient une majoration de <span\nclass=\"math inline\">\\(d(b,z)\\)</span>: <span\nclass=\"math inline\">\\(d(b,z)&lt; \\sup(r,s) = s\\)</span>, d’où une\ninclusion de <span class=\"math inline\">\\(B_d(a,r)\\)</span> dans <span\nclass=\"math inline\">\\(B_d(b,s)\\)</span>.</p>\n<p>Conséquence: deux boules ouvertes de même rayon <span\nclass=\"math inline\">\\(r\\)</span> qui se rencontrent sont confondues.</p>\n"
+      }
+    },
+    {
+      "id": "981b2e00-688d-4ad5-a58e-a3e26bc7b207",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si deux boules ouvertes distinctes $B_1, B_2$  de rayon $r$ sont contenues dans une boule fermée de même rayon, alors leur distance est égale à $r$: \n$$d(B_1,B_2) := \\inf_{(a,b)\\in B_1\\times B_2}d(a,b) = r.$$",
+        "html": "<p>Montrer que si deux boules ouvertes distinctes <span\nclass=\"math inline\">\\(B_1, B_2\\)</span> de rayon <span\nclass=\"math inline\">\\(r\\)</span> sont contenues dans une boule fermée de\nmême rayon, alors leur distance est égale à <span\nclass=\"math inline\">\\(r\\)</span>: <span\nclass=\"math display\">\\[d(B_1,B_2) := \\inf_{(a,b)\\in B_1\\times B_2}d(a,b)\n= r.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "590a7b59-da2d-4bac-97d7-c3ec32d6b1d7",
+      "type": "reponse",
+      "value": {
+        "latex": "Soient $ A = B_d(a,r)$ et $B = B_d(b,r)$ deux boules ouvertes de rayon\n$r$ contenues\ndans une boule ferm\\'ee  $C = B'_d(c,r)$ de m\\^eme rayon.\nMontrons que : \n$$\\forall  x\\in A,\\quad \\forall y \\in B, \\qquad r\\le d(a,b)\\le r.$$\nL'in\\'egali\\'e ultram\\'etrique montre que $d(x,y)\\le \\sup(d(x,c),d(c,y))$\net ce\nsup est inf\\'erieure \\`a $r$ puisque chacune des boules $A$ et $B$ est\nincluse dans $C$. Donc $d(x,y)\\le r$.\n\nPar ailleurs, introduisons dans l'estimation de $d(x,y)$ le centre des boules\nrespectives auxquelles ils appartiennent:\n$d(x,y)\\le \\sup(d(x,a),d(a,y))$.  Si $d(x,a) = d(a,y)$, on aurait\n$d(a,y)<r$ et\n$y$ serait dans $A$, ce qui est impossible, $A$ et $B$ \\'etant disjoints\nd'apr\\`es la quatrième question. Donc $d(a,y)\\neq d(x,a)$, et en fait $d(a,y)> d(x,a)$ et \n$$d(x,y) = d(a,y).$$\nOn voit donc que dans le calcul de la distance $d(x,y)$ on peut remplacer\n$x$ ou $y$ par le centre de la boule ouverte \\`a laquelle il appartient.\nPar suite \n$$d(x,y) = d(a,b)\\ge r,\\quad \\forall x\\in A,\\forall y\\in B$$\n\nEt finalement\n$$r\\le d(x,y)\\le r, \\quad \\forall x\\in A,\\forall y\\in B$$ \nd'o\\`u $d(A,B)= r$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A = B_d(a,r)\\)</span> et <span\nclass=\"math inline\">\\(B = B_d(b,r)\\)</span> deux boules ouvertes de\nrayon <span class=\"math inline\">\\(r\\)</span> contenues dans une boule\nfermée <span class=\"math inline\">\\(C = B&#39;_d(c,r)\\)</span> de même\nrayon. Montrons que : <span class=\"math display\">\\[\\forall  x\\in A,\\quad\n\\forall y \\in B, \\qquad r\\le d(a,b)\\le r.\\]</span> L’inégalié\nultramétrique montre que <span class=\"math inline\">\\(d(x,y)\\le\n\\sup(d(x,c),d(c,y))\\)</span> et ce sup est inférieure à <span\nclass=\"math inline\">\\(r\\)</span> puisque chacune des boules <span\nclass=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> est incluse dans <span\nclass=\"math inline\">\\(C\\)</span>. Donc <span\nclass=\"math inline\">\\(d(x,y)\\le r\\)</span>.</p>\n<p>Par ailleurs, introduisons dans l’estimation de <span\nclass=\"math inline\">\\(d(x,y)\\)</span> le centre des boules respectives\nauxquelles ils appartiennent: <span class=\"math inline\">\\(d(x,y)\\le\n\\sup(d(x,a),d(a,y))\\)</span>. Si <span class=\"math inline\">\\(d(x,a) =\nd(a,y)\\)</span>, on aurait <span\nclass=\"math inline\">\\(d(a,y)&lt;r\\)</span> et <span\nclass=\"math inline\">\\(y\\)</span> serait dans <span\nclass=\"math inline\">\\(A\\)</span>, ce qui est impossible, <span\nclass=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> étant disjoints d’après la quatrième\nquestion. Donc <span class=\"math inline\">\\(d(a,y)\\neq d(x,a)\\)</span>,\net en fait <span class=\"math inline\">\\(d(a,y)&gt; d(x,a)\\)</span> et\n<span class=\"math display\">\\[d(x,y) = d(a,y).\\]</span> On voit donc que\ndans le calcul de la distance <span\nclass=\"math inline\">\\(d(x,y)\\)</span> on peut remplacer <span\nclass=\"math inline\">\\(x\\)</span> ou <span\nclass=\"math inline\">\\(y\\)</span> par le centre de la boule ouverte à\nlaquelle il appartient. Par suite <span class=\"math display\">\\[d(x,y) =\nd(a,b)\\ge r,\\quad \\forall x\\in A,\\forall y\\in B\\]</span></p>\n<p>Et finalement <span class=\"math display\">\\[r\\le d(x,y)\\le r, \\quad\n\\forall x\\in A,\\forall y\\in B\\]</span> d’où <span\nclass=\"math inline\">\\(d(A,B)= r\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((E,d)\\)</span> un espace métrique.\nOn dit que <span class=\"math inline\">\\(d\\)</span> est\n<em>ultramétrique</em> si ..."
+}

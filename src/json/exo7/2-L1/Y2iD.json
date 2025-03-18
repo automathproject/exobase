@@ -1,0 +1,37 @@
+{
+  "uuid": "Y2iD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4226",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Théorie",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:04.434Z"
+  },
+  "contenu": [
+    {
+      "id": "9095bd69-2b85-4acc-b078-867ae11f7f50",
+      "type": "description",
+      "value": {
+        "latex": "Pour $0<a<b$, déterminez $\\lim_{x\\to 0^+} \\int_{t=ax}^{bx} \\frac{1-\\cos u}{u^3}\\,d u$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(0&lt;a&lt;b\\)</span>, déterminez\n<span class=\"math inline\">\\(\\lim_{x\\to 0^+} \\int_{t=ax}^{bx}\n\\frac{1-\\cos u}{u^3}\\,d u\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c2bd37fc-f169-42d3-84a2-ee0eb027088f",
+      "type": "reponse",
+      "value": {
+        "latex": "DL de $1-\\cos u \\Rightarrow \\lim = \\frac12\\ln(b/a)$.",
+        "html": "<p>DL de <span class=\"math inline\">\\(1-\\cos u \\Rightarrow \\lim =\n\\frac12\\ln(b/a)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(0&lt;a&lt;b\\)</span>, déterminez\n<span class=\"math inline\"> ..."
+}

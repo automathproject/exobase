@@ -1,0 +1,37 @@
+{
+  "uuid": "dY61",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3203",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Division euclidienne",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:19.641Z"
+  },
+  "contenu": [
+    {
+      "id": "70d3dc15-df58-403f-8242-1a38d736b0f5",
+      "type": "description",
+      "value": {
+        "latex": "Chercher le reste de la division euclidienne de\n$(X+1)^n - X^n - 1$ par $X^2 + X + 1$.",
+        "html": "<p>Chercher le reste de la division euclidienne de <span\nclass=\"math inline\">\\((X+1)^n - X^n - 1\\)</span> par <span\nclass=\"math inline\">\\(X^2 + X + 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6d53b314-0625-49db-93a6-4d0316312b37",
+      "type": "reponse",
+      "value": {
+        "latex": "Substituer $j$ {\\`a} $X$ $ \\Rightarrow $\n         $R = \\begin{cases}(-1)^n - 2           &\\text{ si }n \\equiv 0 (\\mathrm{mod}\\, 3) \\hfill\\cr\n                     ((-1)^{n+1}-1)(X+1)  &\\text{ si }n \\equiv 1 (\\mathrm{mod}\\, 3) \\hfill\\cr\n                     ((-1)^n+1)X          &\\text{ si }n \\equiv 2 (\\mathrm{mod}\\, 3).\\end{cases}$",
+        "html": "<p>Substituer <span class=\"math inline\">\\(j\\)</span> <span>à</span>\n<span class=\"math inline\">\\(X\\)</span> <span\nclass=\"math inline\">\\(\\Rightarrow\\)</span> <span class=\"math inline\">\\(R\n= \\begin{cases}(-1)^n - 2           &amp;\\text{ si }n \\equiv 0\n(\\mathrm{mod}\\, 3) \\hfill\\cr\n                     ((-1)^{n+1}-1)(X+1)  &amp;\\text{ si }n \\equiv 1\n(\\mathrm{mod}\\, 3) \\hfill\\cr\n                     ((-1)^n+1)X          &amp;\\text{ si }n \\equiv 2\n(\\mathrm{mod}\\, 3).\\end{cases}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Chercher le reste de la division euclidienne de <span\nclass=\"math inline\">\\((X+1)^n - X^n - 1\\)</span> par <span\nclass=\"math inline\"> ..."
+}

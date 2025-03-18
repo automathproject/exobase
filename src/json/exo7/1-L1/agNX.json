@@ -1,0 +1,93 @@
+{
+  "uuid": "agNX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3234",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:07.880Z"
+  },
+  "contenu": [
+    {
+      "id": "c0cb2633-00cb-4d81-9e40-7a545e9b40fb",
+      "type": "description",
+      "value": {
+        "latex": "Soient $z_0,z_1,\\dots,z_n \\in \\C$ tels que :\n$\\forall\\ P \\in \\C_{n-1}[X]$, on a $P(z_0) = \\frac {P(z_1) +\\dots+ P(z_n)}n$.\n\\\\\nOn note $\\Phi(X) = \\prod_{i=1}^n (X-z_i)$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(z_0,z_1,\\dots,z_n \\in \\C\\)</span>\ntels que : <span class=\"math inline\">\\(\\forall\\ P \\in\n\\C_{n-1}[X]\\)</span>, on a <span class=\"math inline\">\\(P(z_0) = \\frac\n{P(z_1) +\\dots+ P(z_n)}n\\)</span>.<br />\nOn note <span class=\"math inline\">\\(\\Phi(X) = \\prod_{i=1}^n\n(X-z_i)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5511b3fa-23ed-4c82-85a5-f876e719ce7a",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\frac {\\Phi(z_0)}{z_0-z_k}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\frac\n{\\Phi(z_0)}{z_0-z_k}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7f970abb-ffa7-4e8d-ab0c-0bcda659b82b",
+      "type": "reponse",
+      "value": {
+        "latex": "$P = \\frac \\Phi{X-z_k}  \\Rightarrow \n     \\frac {\\Phi(z_0)}{z_0-z_k}  = \\frac {\\Phi'(z_k)}n$.",
+        "html": "<p><span class=\"math inline\">\\(P = \\frac \\Phi{X-z_k}  \\Rightarrow\n     \\frac {\\Phi(z_0)}{z_0-z_k}  = \\frac {\\Phi&#39;(z_k)}n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d6648ef1-aa4e-4ade-ab7d-0051ea135614",
+      "type": "question",
+      "value": {
+        "latex": "En d{\\'e}duire que $\\Phi(X) = \\frac {(X-z_0)\\Phi'(X)}n + \\Phi(z_0)$.",
+        "html": "<p>En d<span>é</span>duire que <span class=\"math inline\">\\(\\Phi(X) =\n\\frac {(X-z_0)\\Phi&#39;(X)}n + \\Phi(z_0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5c95c3c3-0be0-4bb5-a95e-d4917066bcf4",
+      "type": "reponse",
+      "value": {
+        "latex": "Les deux membres sont {\\'e}gaux en $z_0,\\dots,z_n$.",
+        "html": "<p>Les deux membres sont <span>é</span>gaux en <span\nclass=\"math inline\">\\(z_0,\\dots,z_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0407e5a1-5b80-4014-8244-c589d584888e",
+      "type": "question",
+      "value": {
+        "latex": "D{\\'e}montrer que $z_1,\\dots,z_n$ sont les sommets d'un polygone r{\\'e}gulier de centre\n     $z_0$.",
+        "html": "<p>D<span>é</span>montrer que <span\nclass=\"math inline\">\\(z_1,\\dots,z_n\\)</span> sont les sommets d’un\npolygone r<span>é</span>gulier de centre <span\nclass=\"math inline\">\\(z_0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "01076226-70e6-4b10-8f2c-0f6f28e622d3",
+      "type": "reponse",
+      "value": {
+        "latex": "D{\\'e}composer $\\Phi$ sur la base $\\bigl((X-z_0)^k\\bigr)$.",
+        "html": "<p>D<span>é</span>composer <span class=\"math inline\">\\(\\Phi\\)</span> sur\nla base <span class=\"math inline\">\\(\\bigl((X-z_0)^k\\bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e0f15a3f-e323-4e55-87aa-3a970c8b13fb",
+      "type": "question",
+      "value": {
+        "latex": "R{\\'e}ciproque ?",
+        "html": "<p>R<span>é</span>ciproque ?</p>\n"
+      }
+    },
+    {
+      "id": "e365f95e-87fa-4dd4-8b44-342a289b84ba",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_k e^{2ikp/n} = 0$ pour $p < n  \\Rightarrow $ OK.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_k e^{2ikp/n} = 0\\)</span> pour <span\nclass=\"math inline\">\\(p &lt; n  \\Rightarrow\\)</span> OK.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(z_0,z_1,\\dots,z_n \\in \\C\\)</span>\ntels que : <span class=\"math inline\">\\(\\forall\\ P \\in\n\\C_{n-1}[X]\\)</span>, on ..."
+}

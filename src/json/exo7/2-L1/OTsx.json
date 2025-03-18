@@ -1,0 +1,45 @@
+{
+  "uuid": "OTsx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7173",
+    "auteur": "megy",
+    "createdAt": "2017-07-26",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Propriétés de R",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:40.066Z"
+  },
+  "contenu": [
+    {
+      "id": "80e908b3-24a4-4f33-94ef-afc28f007c16",
+      "type": "description",
+      "value": {
+        "latex": "\r\nSoient $a$, $b$ et $c$ des réels positifs. Montrer que \r\n\\[ \r\n\\frac{a^2}{bc}+\\frac{b^2}{ca}+\\frac{c^2}{ab} \\geq 3.\r\n\\]",
+        "html": "<p>Soient <span class=\"math inline\">\\(a\\)</span>, <span\nclass=\"math inline\">\\(b\\)</span> et <span\nclass=\"math inline\">\\(c\\)</span> des réels positifs. Montrer que <span\nclass=\"math display\">\\[\\frac{a^2}{bc}+\\frac{b^2}{ca}+\\frac{c^2}{ab} \\geq\n3.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "241b8f0a-4cac-4eca-a980-851ebdd9620b",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser l'inégalité arithmético-géométrique.",
+        "html": "<p>Utiliser l’inégalité arithmético-géométrique.</p>\n"
+      }
+    },
+    {
+      "id": "17cb41ac-ad67-4d18-8385-3784dbea57f8",
+      "type": "reponse",
+      "value": {
+        "latex": "On applique l'inégalité arithmético-géométrique à $\\frac{a^2}{bc}$, $\\frac{b^2}{ca}$ et $\\frac{c^2}{ab}$ ce qui donne\r\n\\[ \\frac{a^2}{bc}+\\frac{b^2}{ca}+\\frac{c^2}{ab}\r\n\\geq3\\sqrt[3]{\\frac{a^2}{bc}\\frac{b^2}{ca}\\frac{c^2}{ab}}\r\n=3\r\n\\]",
+        "html": "<p>On applique l’inégalité arithmético-géométrique à <span\nclass=\"math inline\">\\(\\frac{a^2}{bc}\\)</span>, <span\nclass=\"math inline\">\\(\\frac{b^2}{ca}\\)</span> et <span\nclass=\"math inline\">\\(\\frac{c^2}{ab}\\)</span> ce qui donne <span\nclass=\"math display\">\\[\\frac{a^2}{bc}+\\frac{b^2}{ca}+\\frac{c^2}{ab}\n\\geq3\\sqrt[3]{\\frac{a^2}{bc}\\frac{b^2}{ca}\\frac{c^2}{ab}}\n=3\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(a\\)</span>, <span\nclass=\"math inline\">\\(b\\)</span> et <span\nclass=\"math inline\">\\(c\\)</span> des réels positifs. ..."
+}

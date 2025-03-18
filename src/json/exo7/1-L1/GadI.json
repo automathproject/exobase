@@ -1,0 +1,77 @@
+{
+  "uuid": "GadI",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3281",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Fraction rationnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:36.569Z"
+  },
+  "contenu": [
+    {
+      "id": "d97e2a28-f43b-42f8-aece-deda09a47538",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les d{\\'e}riv{\\'e}es $p$-i{\\`e}mes des fractions suivantes :",
+        "html": "<p>Calculer les d<span>é</span>riv<span>é</span>es <span\nclass=\"math inline\">\\(p\\)</span>-i<span>è</span>mes des fractions\nsuivantes :</p>\n"
+      }
+    },
+    {
+      "id": "e39876b4-e29e-41b5-a4fe-c7deb82ebdfa",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac 1{X(X+1)\\dots(X+n)}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac 1{X(X+1)\\dots(X+n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "69ee4948-f6f9-4a96-9d99-377d42725581",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{k=0}^n \\frac {(-1)^{k+p}p!}{k!\\,(n-k)!\\,(X+k)^{p+1}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{k=0}^n \\frac\n{(-1)^{k+p}p!}{k!\\,(n-k)!\\,(X+k)^{p+1}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "691e2872-373c-444c-ad22-5d5c1ec224c5",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac 1{X^2-2X\\cos\\alpha+1}$ ($\\alpha\\not\\equiv0(\\mathrm{mod}\\,{\\pi})$).",
+        "html": "<p><span class=\"math inline\">\\(\\frac 1{X^2-2X\\cos\\alpha+1}\\)</span>\n(<span\nclass=\"math inline\">\\(\\alpha\\not\\equiv0(\\mathrm{mod}\\,{\\pi})\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "a183d448-263e-4046-bfa8-0da93a8f6813",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{(-1)^pp!}{2i\\sin\\alpha}\\Bigl(\\frac 1{(X-e^{i\\alpha})^{p+1}}\n             - \\frac 1{(X-e^{-i\\alpha})^{p+1}}\\Bigr)\n             = \\frac{\\sum_{k=0}^p C_{p+1}^kp!\\,{(-1)^k}\\frac{\\sin(p+1-k)\\alpha}{\\sin\\alpha} X^k}\n               {(X^2-2X\\cos\\alpha+1)^{p+1}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(-1)^pp!}{2i\\sin\\alpha}\\Bigl(\\frac\n1{(X-e^{i\\alpha})^{p+1}}\n             - \\frac 1{(X-e^{-i\\alpha})^{p+1}}\\Bigr)\n             = \\frac{\\sum_{k=0}^p\nC_{p+1}^kp!\\,{(-1)^k}\\frac{\\sin(p+1-k)\\alpha}{\\sin\\alpha} X^k}\n               {(X^2-2X\\cos\\alpha+1)^{p+1}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "65606deb-73ed-4a80-a07c-f4f9b05c26cb",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac 1{X^2-2X\\sh\\alpha-1}$ ($\\alpha\\in\\R$).",
+        "html": "<p><span class=\"math inline\">\\(\\frac 1{X^2-2X\\sh\\alpha-1}\\)</span>\n(<span class=\"math inline\">\\(\\alpha\\in\\R\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "c5bd8129-e913-43b1-af7e-fed9799b04d7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{\\sum_{k\\text{ pair}} C_{p+1}^kp!\\,(-1)^{p+1}\n             \\frac {\\sh k\\alpha}{\\ch\\alpha} X^{p+1-k}\n             +\\sum_{k\\text{ impair}} C_{p+1}^kp!\\,(-1)^p\n             \\frac {\\ch k\\alpha}{\\ch\\alpha} X^{p+1-k}}\n             {(X^2-2X\\sh\\alpha-1)^{p+1}}.$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{\\sum_{k\\text{ pair}}\nC_{p+1}^kp!\\,(-1)^{p+1}\n             \\frac {\\sh k\\alpha}{\\ch\\alpha} X^{p+1-k}\n             +\\sum_{k\\text{ impair}} C_{p+1}^kp!\\,(-1)^p\n             \\frac {\\ch k\\alpha}{\\ch\\alpha} X^{p+1-k}}\n             {(X^2-2X\\sh\\alpha-1)^{p+1}}.\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les d<span>é</span>riv<span>é</span>es <span\nclass=\"math inline\">\\(p\\)</span>-i<span>è</span>mes des fractions\nsuivantes :</p>\n"
+}

@@ -1,0 +1,349 @@
+{
+  "uuid": "6EEx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "623",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Limite de fonctions",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:55.232Z"
+  },
+  "contenu": [
+    {
+      "id": "15138928-b368-4743-b691-adfc6d7f69d2",
+      "type": "description",
+      "value": {
+        "latex": "\\noindent D\\'eterminer les limites suivantes, en justifiant vos calculs.",
+        "html": "<p>Déterminer les limites suivantes, en justifiant vos calculs.</p>\n"
+      }
+    },
+    {
+      "id": "c0f7e526-be35-4875-8140-b470a8f935dc",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}{x+2 \\over x^2 \\ln x}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow0^+}{x+2\n\\over x^2 \\ln x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d6d91e37-6346-4222-b190-189f0b283a5f",
+      "type": "reponse",
+      "value": {
+        "latex": "$- \\infty$",
+        "html": "<p><span class=\"math inline\">\\(- \\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "7cb484e7-85c6-45e2-83c4-1cd7419257e7",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}2x \\ln(x+\\sqrt x)$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow0^+}2x\n\\ln(x+\\sqrt x)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "41fe230c-58ce-4298-946f-ac764421576a",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8a8c4b46-1abc-4c57-9f5c-31e6f31ba16e",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{x^3-2x^2+3 \\over x \\ln x}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{x^3-2x^2+3 \\over x \\ln x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d3ba7393-48eb-4f46-b16d-b922ed41c329",
+      "type": "reponse",
+      "value": {
+        "latex": "$+ \\infty$",
+        "html": "<p><span class=\"math inline\">\\(+ \\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d1e05c8e-c8bc-45ed-8af0-30e8b4cef1e7",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{e^{\\sqrt x+1} \\over x+2}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{e^{\\sqrt x+1} \\over x+2}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8708ab22-c7d4-43e4-87b9-342308358702",
+      "type": "reponse",
+      "value": {
+        "latex": "$+ \\infty$",
+        "html": "<p><span class=\"math inline\">\\(+ \\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "877f6c5d-4be3-4700-9bed-1478d15ba167",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}{\\ln(3x+1) \\over2x}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow0^+}{\\ln(3x+1) \\over2x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e5113ef5-8df8-48ea-9e37-2c764e146b89",
+      "type": "reponse",
+      "value": {
+        "latex": "${3 \\over2}$",
+        "html": "<p><span class=\"math inline\">\\({3 \\over2}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "7ac04422-9310-47d2-bc56-998e3c8d8fe4",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}{x^x-1 \\over\\ln(x+1)}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow0^+}{x^x-1 \\over\\ln(x+1)}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "74a8946a-9672-4441-9f2a-2d2d7e7d5c44",
+      "type": "reponse",
+      "value": {
+        "latex": "$- \\infty$",
+        "html": "<p><span class=\"math inline\">\\(- \\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "cfcadba3-95e6-41be-8581-90953bae3d6d",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow- \\infty}{2 \\over x+1}\\ln\n\\Bigl({x^3+4 \\over1-x^2}\\Bigr)$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow-\n\\infty}{2 \\over x+1}\\ln\n\\Bigl({x^3+4 \\over1-x^2}\\Bigr)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e1771c44-4cfa-4868-bd96-da95f51a33ab",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5fb31332-d7d1-4901-a294-ca4ed5a513f0",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow{(-1)}^+}(x^2-1) \\ln(7x^3+4x^2+3)$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow{(-1)}^+}(x^2-1) \\ln(7x^3+4x^2+3)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4cef8372-48e6-42d2-a82a-a8dd53158197",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f9b45781-c121-40b8-b9b6-cf3eae7cfe06",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow2^+}{(x-2)}^2 \\ln(x^3-8)$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow2^+}{(x-2)}^2 \\ln(x^3-8)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "067da560-06a0-4547-97e9-cfc52baa77f5",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4e330605-4e11-434b-855d-d97ed46f56df",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}{x(x^x-1) \\over\\ln(x+1)}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow0^+}{x(x^x-1) \\over\\ln(x+1)}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "896d328b-89cb-4e0d-a197-8555b34df5bb",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "cd905905-6feb-4a7b-a2f4-5582b505dfc5",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}(x \\ln x -x \\ln(x+2))$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}(x \\ln x -x \\ln(x+2))\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0e002232-f469-46c6-a889-05505c65f903",
+      "type": "reponse",
+      "value": {
+        "latex": "$-2$",
+        "html": "<p><span class=\"math inline\">\\(-2\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "40b61080-3ac5-409b-b1c0-4111cb34cd37",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{e^x-e^{x^2} \\over x^2-x}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{e^x-e^{x^2} \\over x^2-x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c0f5d245-24dc-465a-938d-26cc0906f73c",
+      "type": "reponse",
+      "value": {
+        "latex": "$- \\infty$",
+        "html": "<p><span class=\"math inline\">\\(- \\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "fb8c312c-b0bf-4da9-a1bd-a744f380cd4d",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}{{(1+x)}^{\\ln x}}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow0^+}{{(1+x)}^{\\ln x}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "77cb58d7-2d8c-43b0-bd94-07f60156d6cb",
+      "type": "reponse",
+      "value": {
+        "latex": "$1$",
+        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "bf7826ef-b16d-492b-9e63-c77e8cdc9f9d",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{\\Bigl({x+1 \\over x-3}\\Bigr)^x}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{\\Bigl({x+1 \\over x-3}\\Bigr)^x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a44481b7-101e-4c3e-9dd7-a9e4f7d5756b",
+      "type": "reponse",
+      "value": {
+        "latex": "$e^4$",
+        "html": "<p><span class=\"math inline\">\\(e^4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "273b9dd4-2df6-41b9-a54c-5eddbcea63fe",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{\\Bigl({x^3+5 \\over\nx^2+2}\\Bigr)^{x+1 \\over x^2+1}}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{\\Bigl({x^3+5 \\over\nx^2+2}\\Bigr)^{x+1 \\over x^2+1}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d8cc01d3-17fc-44a4-a3e1-a7d2fe02e41d",
+      "type": "reponse",
+      "value": {
+        "latex": "$1$",
+        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "588f31f5-7af6-496d-a6a1-d761d32747e6",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{\\Bigl({e^x+1 \\over\nx+2}\\Bigr)^{1 \\over x+1}}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{\\Bigl({e^x+1 \\over\nx+2}\\Bigr)^{1 \\over x+1}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "6cd729de-2a0c-4ff9-9253-a5646e3e5f33",
+      "type": "reponse",
+      "value": {
+        "latex": "$e$",
+        "html": "<p><span class=\"math inline\">\\(e\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "6730eb5b-f444-44a9-877d-d605c34a284c",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow0^+}\\bigl(\\ln(1+x)\\bigr)^{1\\over\\ln x}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x\n\\rightarrow0^+}\\bigl(\\ln(1+x)\\bigr)^{1\\over\\ln x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "53111047-7dd3-476d-b9e5-fdff9a19cb11",
+      "type": "reponse",
+      "value": {
+        "latex": "$e$",
+        "html": "<p><span class=\"math inline\">\\(e\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b4ae6c53-a91b-42df-a460-5494c93eb02b",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{x^{(x^{x-1})} \\over\nx^{(x^{x})}}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{x^{(x^{x-1})} \\over\nx^{(x^{x})}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e29e6e8b-e66a-4784-8912-b1d0d657e13c",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "ed592bdf-3536-4038-90b8-f068d748d6ea",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{(x+1)^x \\over x^{x+1}}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{(x+1)^x \\over x^{x+1}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "69e2de73-69c1-48c2-86eb-96807ceda692",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8b26f188-04a3-4fbb-97f0-970988856065",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\lim_{x \\rightarrow+ \\infty}{x \\sqrt{\\ln(x^2+1)} \\over\n1+e^{x-3}}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\lim_{x \\rightarrow+\n\\infty}{x \\sqrt{\\ln(x^2+1)} \\over\n1+e^{x-3}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f455e7e6-fb1d-4254-bab8-1c7ab48ca3d6",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les limites suivantes, en justifiant vos calculs.</p>\n"
+}

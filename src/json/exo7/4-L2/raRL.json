@@ -1,0 +1,61 @@
+{
+  "uuid": "raRL",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3796",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Endomorphismes auto-adjoints",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:54.834Z"
+  },
+  "contenu": [
+    {
+      "id": "0b9710c8-9e48-498f-8cf5-5f015eaf85a2",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel hermitien et $u\\in\\mathcal{L}(E)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nhermitien et <span\nclass=\"math inline\">\\(u\\in\\mathcal{L}(E)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a9a28768-91c8-42d5-9016-c7a4b17a378f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u=u^*$ si et seulement si pour tout~$x\\in E$,\n    $(u(x)\\mid x)$ est réel.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u=u^*\\)</span> si et\nseulement si pour tout <span class=\"math inline\">\\(x\\in E\\)</span>,\n<span class=\"math inline\">\\((u(x)\\mid x)\\)</span> est réel.</p>\n"
+      }
+    },
+    {
+      "id": "ad82fc7a-07b9-4086-ac59-9075e52b5bee",
+      "type": "reponse",
+      "value": {
+        "latex": "$((u-u^*)(x)\\mid x) = 0$.",
+        "html": "<p><span class=\"math inline\">\\(((u-u^*)(x)\\mid x) = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c8efeb72-b4fb-414b-9c31-8a5a5fd6e904",
+      "type": "question",
+      "value": {
+        "latex": "On suppose $u$ autoadjoint positif. Montrer~:\n    $\\forall\\ x\\in E,\\ \\|u(x)\\|^4 \\le (x\\mid u(x))\\times(u(x)\\mid u^2(x))$.",
+        "html": "<p>On suppose <span class=\"math inline\">\\(u\\)</span> autoadjoint\npositif. Montrer : <span class=\"math inline\">\\(\\forall\\ x\\in E,\\\n\\|u(x)\\|^4 \\le (x\\mid u(x))\\times(u(x)\\mid u^2(x))\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f5c6f0b5-775a-411d-9788-a21fd86e11f3",
+      "type": "reponse",
+      "value": {
+        "latex": "Orthodiagonaliser et appliquer l'inégalité de Cauchy-Schwarz.",
+        "html": "<p>Orthodiagonaliser et appliquer l’inégalité de Cauchy-Schwarz.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\nhermitien et <span\nclass=\"math inline\">\\(u\\in\\mathcal{L}(E)\\)</span>.</p>\n"
+}

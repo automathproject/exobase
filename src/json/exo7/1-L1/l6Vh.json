@@ -1,0 +1,45 @@
+{
+  "uuid": "l6Vh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2892",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Injection, surjection, bijection",
+    "sousChapitre": "Application",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:48.212Z"
+  },
+  "contenu": [
+    {
+      "id": "0212bcd2-342a-4c92-b0f4-712fdf6ce060",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ee6740e9-33f8-4e0c-83a8-8be1aebf305a",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f : F \\to  E$ et $g : G  \\to E$ deux applications.\n    Montrer qu'il existe une\n    application $h : G \\to  F$ telle que $g = f\\circ h$ si et seulement si :\n    $g(G) \\subset f(F)$.\\\\\n    A quelle condition $h$ est-elle unique ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : F \\to  E\\)</span> et <span\nclass=\"math inline\">\\(g : G  \\to E\\)</span> deux applications. Montrer\nqu’il existe une application <span class=\"math inline\">\\(h : G\n\\to  F\\)</span> telle que <span class=\"math inline\">\\(g = f\\circ\nh\\)</span> si et seulement si : <span class=\"math inline\">\\(g(G) \\subset\nf(F)\\)</span>.<br />\nA quelle condition <span class=\"math inline\">\\(h\\)</span> est-elle\nunique ?</p>\n"
+      }
+    },
+    {
+      "id": "a6a759ec-1864-4bfd-90f1-e9b56940c12b",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f: E \\to F$ et $g : E \\to G$ deux applications.\n    Montrer qu'il existe une\n    application $h: F\\to G$ telle que $g = h\\circ f$ si et seulement si :\n    $\\forall\\ x,y \\in E,\\ \\bigl( f(x) = f(y)  \\Rightarrow  g(x) = g(y) \\bigr)$.\n    \\\\\n    A quelle condition $h$ est-elle unique ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(f: E \\to F\\)</span> et <span\nclass=\"math inline\">\\(g : E \\to G\\)</span> deux applications. Montrer\nqu’il existe une application <span class=\"math inline\">\\(h: F\\to\nG\\)</span> telle que <span class=\"math inline\">\\(g = h\\circ f\\)</span>\nsi et seulement si : <span class=\"math inline\">\\(\\forall\\ x,y \\in E,\\\n\\bigl( f(x) = f(y)  \\Rightarrow  g(x) = g(y) \\bigr)\\)</span>.<br />\nA quelle condition <span class=\"math inline\">\\(h\\)</span> est-elle\nunique ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : F \\to  E\\)</span> et <span\nclass=\"math inline\">\\(g : G  \\to E\\)</span> deux applications. Montrer\nqu’il existe ..."
+}

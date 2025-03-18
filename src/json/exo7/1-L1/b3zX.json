@@ -1,0 +1,77 @@
+{
+  "uuid": "b3zX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3214",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:09.256Z"
+  },
+  "contenu": [
+    {
+      "id": "372cbc36-e1dd-4cc6-becb-df989a52dc5f",
+      "type": "description",
+      "value": {
+        "latex": "Factoriser $X^n-1$ sur $\\C$.",
+        "html": "<p>Factoriser <span class=\"math inline\">\\(X^n-1\\)</span> sur <span\nclass=\"math inline\">\\(\\C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aa6c74dc-7a21-49fe-9084-de3c34348774",
+      "type": "question",
+      "value": {
+        "latex": "En d{\\'e}duire $\\prod_{k=1}^{n-1} \\sin\\left(\\frac {k\\pi}n\\right)$.",
+        "html": "<p>En d<span>é</span>duire <span class=\"math inline\">\\(\\prod_{k=1}^{n-1}\n\\sin\\left(\\frac {k\\pi}n\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e3ca0b4c-13dc-42fc-94bd-bb514f653a4c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac n{2^{n-1}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac n{2^{n-1}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f267f463-eff6-498a-b449-6f5ced8ad4b5",
+      "type": "question",
+      "value": {
+        "latex": "Calculer {\\'e}galement $\\prod_{k=0}^{n-1} \\sin\\left(\\frac {k\\pi}n + \\theta\\right)$.",
+        "html": "<p>Calculer <span>é</span>galement <span\nclass=\"math inline\">\\(\\prod_{k=0}^{n-1} \\sin\\left(\\frac {k\\pi}n +\n\\theta\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "23c9d7a2-ad6e-44a4-a04e-06259bc84e55",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac {\\sin(n\\theta)}{2^{n-1}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac\n{\\sin(n\\theta)}{2^{n-1}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "596db97e-26d0-4c26-90c2-c4fd93037f55",
+      "type": "question",
+      "value": {
+        "latex": "On note $\\omega = e^{2i\\pi/n}$. Calculer\n    $\\prod_{0 \\le k,\\ell < n, k \\ne \\ell} (\\omega^k - \\omega^\\ell)$.",
+        "html": "<p>On note <span class=\"math inline\">\\(\\omega = e^{2i\\pi/n}\\)</span>.\nCalculer <span class=\"math inline\">\\(\\prod_{0 \\le k,\\ell &lt; n, k \\ne\n\\ell} (\\omega^k - \\omega^\\ell)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e8019eff-d353-4900-9dc7-dbf93857a7d8",
+      "type": "reponse",
+      "value": {
+        "latex": "$-(-n)^n$.",
+        "html": "<p><span class=\"math inline\">\\(-(-n)^n\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Factoriser <span class=\"math inline\">\\(X^n-1\\)</span> sur <span\nclass=\"math inline\">\\(\\C\\)</span>.</p>\n"
+}

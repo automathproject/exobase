@@ -1,0 +1,77 @@
+{
+  "uuid": "oaKQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1923",
+    "auteur": "drutu",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale multiple",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:02.613Z"
+  },
+  "contenu": [
+    {
+      "id": "9364be78-a39f-4915-ab33-cdb67369e9ef",
+      "type": "description",
+      "value": {
+        "latex": "En utilisant un changement de variables, calculer l'int\\'egrale de\n$f$ sur $D$ avec",
+        "html": "<p>En utilisant un changement de variables, calculer l’intégrale de\n<span class=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(D\\)</span> avec</p>\n"
+      }
+    },
+    {
+      "id": "bfa2116b-a3d3-41b1-8c74-cc6f393ee478",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{ (x,y)\\in \\R^2 \\mid \\pi^2 < x^2+y^2 \\leq 4\\pi^2 \\}\\; ;\\; f(x,y)=\\sin \\sqrt{x^2+y^2}$ ;",
+        "html": "<p><span class=\"math inline\">\\(D=\\{ (x,y)\\in \\R^2 \\mid \\pi^2 &lt;\nx^2+y^2 \\leq 4\\pi^2 \\}\\; ;\\; f(x,y)=\\sin \\sqrt{x^2+y^2}\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "d08c0efd-2312-417d-8ade-ff29822327a5",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\left\\{ (x,y)\\in \\R^2 \\mid \\frac{x^2}{a^2}+\\frac{y^2}{b^2} \\leq 1 \\right\\}\\; \\mbox{avec }a\\, ,\\, b>0\\; ;\\; f(x,y)=x^2+y^2$ ;",
+        "html": "<p><span class=\"math inline\">\\(D=\\left\\{ (x,y)\\in \\R^2 \\mid\n\\frac{x^2}{a^2}+\\frac{y^2}{b^2} \\leq 1 \\right\\}\\; \\mbox{avec }a\\, ,\\,\nb&gt;0\\; ;\\; f(x,y)=x^2+y^2\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "dc0a3ed9-6521-49d2-84a9-e71f67c58599",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{ (x,y,z)\\in \\R^3 \\mid x^2+y^2 \\leq 1\\, ,\\, 0\\leq z\\leq h \\}\\; \\mbox{avec }h>0 \\; ;\\; f(x,y,z)=z$ ;",
+        "html": "<p><span class=\"math inline\">\\(D=\\{ (x,y,z)\\in \\R^3 \\mid x^2+y^2 \\leq\n1\\, ,\\, 0\\leq z\\leq h \\}\\; \\mbox{avec }h&gt;0 \\; ;\\; f(x,y,z)=z\\)</span>\n;</p>\n"
+      }
+    },
+    {
+      "id": "418830be-c57d-4aa5-992b-b444c1a509a1",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{ (x,y)\\in \\R^2 \\mid 0 < x^2\\leq y\\leq 2x^2\\, ,\\, 1/x\\leq y \\leq 2/x \\}\\; ;\\; f(x,y)=x+y$  (changement de variable $u=y/x^2\\, ,\\, v=xy$) ;",
+        "html": "<p><span class=\"math inline\">\\(D=\\{ (x,y)\\in \\R^2 \\mid 0 &lt; x^2\\leq\ny\\leq 2x^2\\, ,\\, 1/x\\leq y \\leq 2/x \\}\\; ;\\; f(x,y)=x+y\\)</span>\n(changement de variable <span class=\"math inline\">\\(u=y/x^2\\, ,\\,\nv=xy\\)</span>) ;</p>\n"
+      }
+    },
+    {
+      "id": "b4ae2aed-f070-4e0c-923f-9a0dc28de938",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{ (x,y,z)\\in \\R^3 \\mid x\\geq 0\\, ,\\, y\\geq 0\\, ,\\, z\\geq 0\\, ,\\, x^2+y^2+z^2 \\leq 1 \\}\\; ;\\; f(x,y,z)=xyz $ ;",
+        "html": "<p><span class=\"math inline\">\\(D=\\{ (x,y,z)\\in \\R^3 \\mid x\\geq 0\\, ,\\,\ny\\geq 0\\, ,\\, z\\geq 0\\, ,\\, x^2+y^2+z^2 \\leq 1 \\}\\; ;\\;\nf(x,y,z)=xyz\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "59c19a05-5166-408a-a02e-680953e23eea",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{ (x,y,z)\\in \\R^3 \\mid 1\\leq x^2+y^2+z^2 \\leq 4 \\}\\; ;\\; f(x,y,z)=(x^2+y^2+z^2)^\\alpha $.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{ (x,y,z)\\in \\R^3 \\mid 1\\leq\nx^2+y^2+z^2 \\leq 4 \\}\\; ;\\; f(x,y,z)=(x^2+y^2+z^2)^\\alpha\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>En utilisant un changement de variables, calculer l’intégrale de\n<span class=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(D\\)</span>  ..."
+}

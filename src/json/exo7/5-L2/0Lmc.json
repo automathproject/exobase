@@ -1,0 +1,45 @@
+{
+  "uuid": "0Lmc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4648",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Formule de Parseval",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:21.498Z"
+  },
+  "contenu": [
+    {
+      "id": "02e1e8fc-9c40-4c8a-ac6d-274c7611a762",
+      "type": "description",
+      "value": {
+        "latex": "On pose $f(x) = \\sum_{n=1}^\\infty \\frac{\\sin nx}{\\sqrt n}$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(x) = \\sum_{n=1}^\\infty\n\\frac{\\sin nx}{\\sqrt n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "49b7fbb6-2633-4af0-b06c-04e5fa503ce6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est bien définie sur~$\\R$, $2\\pi$-périodique et\ncontinue sur $\\R\\setminus2\\pi\\Z$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est bien définie\nsur <span class=\"math inline\">\\(\\R\\)</span>, <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique et continue sur <span\nclass=\"math inline\">\\(\\R\\setminus2\\pi\\Z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "335b4e63-537e-4dd6-9ab1-989be804540a",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\lim_{a\\to0^+} \\int_{t=a}^{\\pi-a}f(t)\\sin(pt)\\,d t$\n    et en déduire que $f$ n'a pas de développement en série de\n    Fourier (et donc n'est pas continue en~$0$).",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\lim_{a\\to0^+}\n\\int_{t=a}^{\\pi-a}f(t)\\sin(pt)\\,d t\\)</span> et en déduire que <span\nclass=\"math inline\">\\(f\\)</span> n’a pas de développement en série de\nFourier (et donc n’est pas continue en <span\nclass=\"math inline\">\\(0\\)</span>).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(f(x) = \\sum_{n=1}^\\infty\n\\frac{\\sin nx}{\\sqrt n}\\)</span>.</p>\n"
+}

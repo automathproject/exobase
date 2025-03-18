@@ -1,0 +1,53 @@
+{
+  "uuid": "Ocqm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6284",
+    "auteur": "mayer",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:26.642Z"
+  },
+  "contenu": [
+    {
+      "id": "8efd4331-1ebd-4b07-913c-110d1815eb5a",
+      "type": "description",
+      "value": {
+        "latex": "\\label{exn14}\nSoit $f: \\Rr^n \\to \\Rr$ un polyn\\^ome homogène de degré\n$\\alpha >0$ à $n$ variables.",
+        "html": "<p><span id=\"exn14\" label=\"exn14\"></span> Soit <span\nclass=\"math inline\">\\(f: \\Rr^n \\to \\Rr\\)</span> un polynôme homogène de\ndegré <span class=\"math inline\">\\(\\alpha &gt;0\\)</span> à <span\nclass=\"math inline\">\\(n\\)</span> variables.</p>\n"
+      }
+    },
+    {
+      "id": "f1b7b449-93a0-4861-a764-483df52880fc",
+      "type": "question",
+      "value": {
+        "latex": "En calculant la dérivée de $\\lambda \\mapsto f(\\lambda x)$ de\ndeux manières différentes, établir l'identité d'Euler:\n$$ \\sum_{i=1}^n x_i \\frac{\\partial f}{\\partial x_i} = \\alpha\\, f(x)\n\\quad  \\text{pour tout} \\;\\; x\\in \\Rr^n \\; .$$",
+        "html": "<p>En calculant la dérivée de <span class=\"math inline\">\\(\\lambda\n\\mapsto f(\\lambda x)\\)</span> de deux manières différentes, établir\nl’identité d’Euler: <span class=\"math display\">\\[\\sum_{i=1}^n x_i\n\\frac{\\partial f}{\\partial x_i} = \\alpha\\, f(x)\n\\quad  \\text{pour tout} \\;\\; x\\in \\Rr^n \\; .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3dd0b09d-c04a-4f23-a783-e101e3836474",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a$ un réel non nul. Montrer que $X_a =\nf^{-1}(\\{a\\})$ est une sous-variété de dimension $n-1$ de\n$\\Rr^n$. \\'Etablir ensuite que, pour $a_1>a_2>0$, $X_{a_1}$ et\n$X_{a_2}$ sont difféomorphes.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel non nul. Montrer\nque <span class=\"math inline\">\\(X_a =\nf^{-1}(\\{a\\})\\)</span> est une sous-variété de dimension <span\nclass=\"math inline\">\\(n-1\\)</span> de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span>. Établir ensuite que, pour <span\nclass=\"math inline\">\\(a_1&gt;a_2&gt;0\\)</span>, <span\nclass=\"math inline\">\\(X_{a_1}\\)</span> et <span\nclass=\"math inline\">\\(X_{a_2}\\)</span> sont difféomorphes.</p>\n"
+      }
+    },
+    {
+      "id": "ba8e8592-45b7-4d98-8c66-10d079c0d731",
+      "type": "question",
+      "value": {
+        "latex": "Supposons que $\\varphi$ est un difféomorphisme de $\\Rr^n$ avec $\\varphi ( X_{a_1} )\n=X_{a_2}$ et soit $p\\in X_{a_1}$. Exprimer l'espace tangent\n$T_{\\varphi (p)}X_{a_2}$ en fonction de $T_pX_{a_1}$.",
+        "html": "<p>Supposons que <span class=\"math inline\">\\(\\varphi\\)</span> est un\ndifféomorphisme de <span class=\"math inline\">\\(\\Rr^n\\)</span> avec <span\nclass=\"math inline\">\\(\\varphi ( X_{a_1} )\n=X_{a_2}\\)</span> et soit <span class=\"math inline\">\\(p\\in\nX_{a_1}\\)</span>. Exprimer l’espace tangent <span\nclass=\"math inline\">\\(T_{\\varphi (p)}X_{a_2}\\)</span> en fonction de\n<span class=\"math inline\">\\(T_pX_{a_1}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"exn14\" label=\"exn14\"></span> Soit <span\nclass=\"math inline\">\\(f: \\Rr^n \\to \\Rr\\)</span> un polynôme homogène de\ndegré <span class=\"math i ..."
+}

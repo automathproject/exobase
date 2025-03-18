@@ -1,0 +1,47 @@
+{
+  "uuid": "sPl1",
+  "titre": "Inversibilité de matrices",
+  "theme": [
+    "calcul matriciel"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-03",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:11.538Z"
+  },
+  "contenu": [
+    {
+      "id": "ffc527ff-7463-4b03-8c0f-9e198094af17",
+      "type": "description",
+      "value": {
+        "latex": "Soit la matrice $A=\\left(\\begin{array}{ccc}3 & 2 & -2 \\\\ -1 & 0 & 1 \\\\ 1 & 1 & 0\\end{array}\\right)$.",
+        "html": "<p>Soit la matrice <span\nclass=\"math inline\">\\(A=\\left(\\begin{array}{ccc}3 &amp; 2 &amp; -2 \\\\ -1\n&amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 0\\end{array}\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5416eaf1-7d9e-4607-b933-ae0b8227baac",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $A^3-3A^2+3A$. En déduire que $A$ est inversible et déterminer $A^{-1}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(A^3-3A^2+3A\\)</span>. En déduire\nque <span class=\"math inline\">\\(A\\)</span> est inversible et déterminer\n<span class=\"math inline\">\\(A^{-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e1b9341c-68e3-43b3-8ae8-02732e55fc60",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\n\t\\begin{aligned}\n\t\t& A=\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right) \\\\\n\t\t& A^2=A \\cdot A=\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right)=\\left(\\begin{array}{ccc}\n\t\t\t5 & 4 & -4 \\\\\n\t\t\t-2 & -1 & 2 \\\\\n\t\t\t2 & 2 & -1\n\t\t\\end{array}\\right) \\\\\n\t\t& A^3=A^2 \\cdot A=\\left(\\begin{array}{ccc}\n\t\t\t5 & 4 & -4 \\\\\n\t\t\t-2 & -1 & 2 \\\\\n\t\t\t2 & 2 & -1\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right)=\\left(\\begin{array}{ccc}\n\t\t\t7 & 6 & -6 \\\\\n\t\t\t-3 & -2 & 3 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{array}\\right) \\\\\n\t\t& A^3-3 \\cdot A^2+3 \\cdot A=\\left(\\begin{array}{ccc}\n\t\t\t7 & 6 & -6 \\\\\n\t\t\t-3 & -2 & 3 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{array}\\right)-3\\left(\\begin{array}{ccc}\n\t\t\t5 & 4 & -4 \\\\\n\t\t\t-2 & -1 & 2 \\\\\n\t\t\t2 & 2 & -1\n\t\t\\end{array}\\right)+3\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right)=\\left(\\begin{array}{lll}\n\t\t\t1 & 0 & 0 \\\\\n\t\t\t0 & 1 & 0 \\\\\n\t\t\t0 & 0 & 1\n\t\t\\end{array}\\right)=I_3\n\t\\end{aligned}\n\t$$\n\tOn en déduit :\n\t$$\n\t\\begin{gathered}\n\t\tA^3-3 \\cdot A^2+3 \\cdot A=I_3 \\Leftrightarrow A \\cdot \\underbrace{\\left(A^2-3 \\cdot A+3 \\cdot I_3\\right)}_{=A^{-1}}=I_3 \\\\\n\t\t\\Rightarrow A^{-1}=A^2-3 \\cdot A+3 \\cdot I_3\n\t\\end{gathered}\n\t$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{aligned}\n        &amp; A=\\left(\\begin{array}{ccc}\n            3 &amp; 2 &amp; -2 \\\\\n            -1 &amp; 0 &amp; 1 \\\\\n            1 &amp; 1 &amp; 0\n        \\end{array}\\right) \\\\\n        &amp; A^2=A \\cdot A=\\left(\\begin{array}{ccc}\n            3 &amp; 2 &amp; -2 \\\\\n            -1 &amp; 0 &amp; 1 \\\\\n            1 &amp; 1 &amp; 0\n        \\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n            3 &amp; 2 &amp; -2 \\\\\n            -1 &amp; 0 &amp; 1 \\\\\n            1 &amp; 1 &amp; 0\n        \\end{array}\\right)=\\left(\\begin{array}{ccc}\n            5 &amp; 4 &amp; -4 \\\\\n            -2 &amp; -1 &amp; 2 \\\\\n            2 &amp; 2 &amp; -1\n        \\end{array}\\right) \\\\\n        &amp; A^3=A^2 \\cdot A=\\left(\\begin{array}{ccc}\n            5 &amp; 4 &amp; -4 \\\\\n            -2 &amp; -1 &amp; 2 \\\\\n            2 &amp; 2 &amp; -1\n        \\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n            3 &amp; 2 &amp; -2 \\\\\n            -1 &amp; 0 &amp; 1 \\\\\n            1 &amp; 1 &amp; 0\n        \\end{array}\\right)=\\left(\\begin{array}{ccc}\n            7 &amp; 6 &amp; -6 \\\\\n            -3 &amp; -2 &amp; 3 \\\\\n            3 &amp; 3 &amp; -2\n        \\end{array}\\right) \\\\\n        &amp; A^3-3 \\cdot A^2+3 \\cdot A=\\left(\\begin{array}{ccc}\n            7 &amp; 6 &amp; -6 \\\\\n            -3 &amp; -2 &amp; 3 \\\\\n            3 &amp; 3 &amp; -2\n        \\end{array}\\right)-3\\left(\\begin{array}{ccc}\n            5 &amp; 4 &amp; -4 \\\\\n            -2 &amp; -1 &amp; 2 \\\\\n            2 &amp; 2 &amp; -1\n        \\end{array}\\right)+3\\left(\\begin{array}{ccc}\n            3 &amp; 2 &amp; -2 \\\\\n            -1 &amp; 0 &amp; 1 \\\\\n            1 &amp; 1 &amp; 0\n        \\end{array}\\right)=\\left(\\begin{array}{lll}\n            1 &amp; 0 &amp; 0 \\\\\n            0 &amp; 1 &amp; 0 \\\\\n            0 &amp; 0 &amp; 1\n        \\end{array}\\right)=I_3\n    \\end{aligned}\\]</span> On en déduit : <span\nclass=\"math display\">\\[\\begin{gathered}\n        A^3-3 \\cdot A^2+3 \\cdot A=I_3 \\Leftrightarrow A \\cdot\n\\underbrace{\\left(A^2-3 \\cdot A+3 \\cdot I_3\\right)}_{=A^{-1}}=I_3 \\\\\n        \\Rightarrow A^{-1}=A^2-3 \\cdot A+3 \\cdot I_3\n    \\end{gathered}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit la matrice <span\nclass=\"math inline\"> ..."
+}

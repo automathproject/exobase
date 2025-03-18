@@ -1,0 +1,45 @@
+{
+  "uuid": "RA4E",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1269",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Formule de Taylor",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:46.883Z"
+  },
+  "contenu": [
+    {
+      "id": "4b85284f-62b2-4f84-bea3-c81562612910",
+      "type": "description",
+      "value": {
+        "latex": "Soient $  a,b,c \\in { \\Zz}  $ tels que~: $  ae^2+be+c=0  .$",
+        "html": "<p>Soient <span class=\"math inline\">\\(a,b,c \\in { \\Zz}\\)</span> tels\nque : <span class=\"math inline\">\\(ae^2+be+c=0  .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "05cd7f2f-8317-4c55-a130-6f466592ea80",
+      "type": "question",
+      "value": {
+        "latex": "En appliquant la formule de\n Taylor sur $  [ 0,1]   $ \\`a l'application $  \\varphi : x \\mapsto ae^x+ce^{-x}  $ d\\'emontrer\nque, pour tout $  n \\in { \\Nn}  $ il existe $  \\theta _n \\in ]0,1[   $ tel que~:\n$$-b= \\frac{ae^{\\theta _n} +(-1)^n ce^{-\\theta _n}}{ (n+1)!}+\\sum _{k=0}^n \\frac{a +(-1)^k c}{ k!}\n   .$$",
+        "html": "<p>En appliquant la formule de Taylor sur <span class=\"math inline\">\\([\n0,1]\\)</span> à l’application <span class=\"math inline\">\\(\\varphi : x\n\\mapsto ae^x+ce^{-x}\\)</span> démontrer que, pour tout <span\nclass=\"math inline\">\\(n \\in { \\Nn}\\)</span> il existe <span\nclass=\"math inline\">\\(\\theta _n \\in ]0,1[\\)</span> tel que : <span\nclass=\"math display\">\\[-b= \\frac{ae^{\\theta _n} +(-1)^n ce^{-\\theta\n_n}}{ (n+1)!}+\\sum _{k=0}^n \\frac{a +(-1)^k c}{ k!}\n   .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "44400ed2-d3dd-4128-a8b4-43e4d233391f",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que pour $  n   $ assez grand $\nae^{\\theta _n} +(-1)^n ce^{-\\theta _n}=0  $ puis\nque $  a=b=c=0  .$\n(On rappelle que $  \\displaystyle{e=\\sum _{n=1}^{\\infty}\\frac{1}{ n!}  }.$)",
+        "html": "<p>En déduire que pour <span class=\"math inline\">\\(n\\)</span> assez\ngrand <span class=\"math inline\">\\(ae^{\\theta _n} +(-1)^n ce^{-\\theta\n_n}=0\\)</span> puis que <span class=\"math inline\">\\(a=b=c=0  .\\)</span>\n(On rappelle que <span class=\"math inline\">\\(\\displaystyle{e=\\sum\n_{n=1}^{\\infty}\\frac{1}{ n!}  }.\\)</span>)</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(a,b,c \\in { \\Zz}\\)</span> tels\nque : <span class=\"math inline\">\\(ae^2+be+c=0  .\\)</span></p>\n"
+}

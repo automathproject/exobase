@@ -1,0 +1,77 @@
+{
+  "uuid": "RfUx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7703",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:27.223Z"
+  },
+  "contenu": [
+    {
+      "id": "61395a8c-7df2-4c68-8421-2b7d6824eca1",
+      "type": "description",
+      "value": {
+        "latex": "On considère l'application \r\n$$\\begin{array}{ccc}\r\n F:]-\\pi,\\pi[\\times ]-\\pi,\\pi[ &\\to&\\Rr ^3\\\\ \r\n\\left(\\begin{array}{c}\\varphi\\\\ \\theta\\end{array}\\right)\r\n&\\mapsto& \r\n\\begin{pmatrix}(2+\\cos(\\varphi))\\cos(\\theta)\\\\ (2+\\cos(\\varphi))\\sin(\\theta)\\\\ r\\sin (\\varphi)\\end{pmatrix}.\r\n\\end{array}$$",
+        "html": "<p>On considère l’application <span\nclass=\"math display\">\\[\\begin{array}{ccc}\nF:]-\\pi,\\pi[\\times ]-\\pi,\\pi[ &amp;\\to&amp;\\Rr ^3\\\\\n\\left(\\begin{array}{c}\\varphi\\\\ \\theta\\end{array}\\right)\n&amp;\\mapsto&amp;\n\\begin{pmatrix}(2+\\cos(\\varphi))\\cos(\\theta)\\\\\n(2+\\cos(\\varphi))\\sin(\\theta)\\\\ r\\sin (\\varphi)\\end{pmatrix}.\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a7bbd993-f52f-4bd0-b223-563131b728e6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'on définit une métrique riemannienne sur $Im(F)=T$\r\nen posant $g(\\frac{\\partial F}{\\partial \\varphi})=g(\\frac{\\partial F}{\\partial \\theta})=1$\r\net $g(\\frac{\\partial F}{\\partial \\varphi},\\frac{\\partial F}{\\partial \\theta})=0$.",
+        "html": "<p>Montrer qu’on définit une métrique riemannienne sur <span\nclass=\"math inline\">\\(Im(F)=T\\)</span> en posant <span\nclass=\"math inline\">\\(g(\\frac{\\partial F}{\\partial\n\\varphi})=g(\\frac{\\partial F}{\\partial \\theta})=1\\)</span> et <span\nclass=\"math inline\">\\(g(\\frac{\\partial F}{\\partial\n\\varphi},\\frac{\\partial F}{\\partial \\theta})=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b40199c6-95d3-4b4e-ad74-4aacbdd6fa09",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $F $ est un paramétrage de la surface régulière $T$, les vecteurs \r\n $X_\\varphi=\\frac{\\partial F}{\\partial \\varphi}$ et $X_\\theta=\\frac{\\partial F}{\\partial \\theta}$\r\n sont indépendants et forment une base de l'espace tangent à $T$ en $F(\\varphi,\\theta)$.\r\n La matrice imposée est bien celle d'un produit scalaire. Comme elle est constante,\r\n elle dépend de fa\\c con $\\mathcal{C}^\\infty$ de $(\\varphi,\\theta)$.",
+        "html": "<p>Comme <span class=\"math inline\">\\(F\\)</span> est un paramétrage de la\nsurface régulière <span class=\"math inline\">\\(T\\)</span>, les vecteurs\n<span class=\"math inline\">\\(X_\\varphi=\\frac{\\partial F}{\\partial\n\\varphi}\\)</span> et <span class=\"math inline\">\\(X_\\theta=\\frac{\\partial\nF}{\\partial \\theta}\\)</span> sont indépendants et forment une base de\nl’espace tangent à <span class=\"math inline\">\\(T\\)</span> en <span\nclass=\"math inline\">\\(F(\\varphi,\\theta)\\)</span>. La matrice imposée est\nbien celle d’un produit scalaire. Comme elle est constante, elle dépend\nde façon <span class=\"math inline\">\\(\\mathcal{C}^\\infty\\)</span> de\n<span class=\"math inline\">\\((\\varphi,\\theta)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f691354a-5fcc-456d-bd2e-d9280ba08b94",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la courbure de Gauss $K$ de $T$ avec la métrique $g$.",
+        "html": "<p>Déterminer la courbure de Gauss <span\nclass=\"math inline\">\\(K\\)</span> de <span\nclass=\"math inline\">\\(T\\)</span> avec la métrique <span\nclass=\"math inline\">\\(g\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6bebf9cc-fe46-4bb4-b7ce-5d969fa91f8e",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme la matrice de la métrique riemannienne est constante, les symboles de Christoffel\r\n sont nuls en tous points et le tenseur de courbure est identiquement nul.\r\n On en déduit que la courbure de Gauss est identiquement nulle.",
+        "html": "<p>Comme la matrice de la métrique riemannienne est constante, les\nsymboles de Christoffel sont nuls en tous points et le tenseur de\ncourbure est identiquement nul. On en déduit que la courbure de Gauss\nest identiquement nulle.</p>\n"
+      }
+    },
+    {
+      "id": "f2deef7f-86bf-4648-a98c-7f1f5b2fded3",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\int_T K(m)d\\sigma(m)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\int_T\nK(m)d\\sigma(m)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b530f7a-23fc-481b-9fac-12a02f452ccd",
+      "type": "reponse",
+      "value": {
+        "latex": "D'après la question précédente $\\int_T K(m)d\\sigma(m)=0$",
+        "html": "<p>D’après la question précédente <span class=\"math inline\">\\(\\int_T\nK(m)d\\sigma(m)=0\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’application <span\nclass=\"math display\"> ..."
+}

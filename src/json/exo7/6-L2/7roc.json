@@ -1,0 +1,61 @@
+{
+  "uuid": "7roc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5838",
+    "auteur": "rouget",
+    "createdAt": "2010-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Conique",
+    "sousChapitre": "Quadrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:39.646Z"
+  },
+  "contenu": [
+    {
+      "id": "b698ba1f-3fe6-4242-9a03-80ea6eedc327",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "8e1d0518-14d9-4274-87e4-e148ed32cc20",
+      "type": "question",
+      "value": {
+        "latex": "Equation du cylindre de révolution $(\\mathcal{C})$ d'axe la droite d'équations $x=y+1=3z-6$ et de rayon $3$.",
+        "html": "<p>Equation du cylindre de révolution <span\nclass=\"math inline\">\\((\\mathcal{C})\\)</span> d’axe la droite d’équations\n<span class=\"math inline\">\\(x=y+1=3z-6\\)</span> et de rayon <span\nclass=\"math inline\">\\(3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "07214b33-681b-4697-9ad8-4350a41c6952",
+      "type": "reponse",
+      "value": {
+        "latex": "Un repère de $(\\mathcal{D})$ est $\\left(A,\\overrightarrow{u}\\right)$ où $A(0,-1,2)$ et $\\overrightarrow{u}(3,3,1)$.\n\n$$\\begin{align*}\\ensuremath\nM(x,y,z)\\in(\\mathcal{C})&\\Leftrightarrow d(M,(\\mathcal{D}))=3\\Leftrightarrow \\left\\|\\overrightarrow{AM}\\wedge\\overrightarrow{u}\\right\\|^2=9\\|\\overrightarrow{u}\\|^2\\\\\n &\\Leftrightarrow\\|(x,y+1,z-2)\\wedge(3,3,1)\\|^2=9\\times19\\Leftrightarrow(y-3z+7)^2+(x-3z+6)^2+9(x-y-1)^2=171.\n\\end{align*}$$",
+        "html": "<p>Un repère de <span class=\"math inline\">\\((\\mathcal{D})\\)</span> est\n<span class=\"math inline\">\\(\\left(A,\\overrightarrow{u}\\right)\\)</span>\noù <span class=\"math inline\">\\(A(0,-1,2)\\)</span> et <span\nclass=\"math inline\">\\(\\overrightarrow{u}(3,3,1)\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\nM(x,y,z)\\in(\\mathcal{C})&amp;\\Leftrightarrow\nd(M,(\\mathcal{D}))=3\\Leftrightarrow\n\\left\\|\\overrightarrow{AM}\\wedge\\overrightarrow{u}\\right\\|^2=9\\|\\overrightarrow{u}\\|^2\\\\\n&amp;\\Leftrightarrow\\|(x,y+1,z-2)\\wedge(3,3,1)\\|^2=9\\times19\\Leftrightarrow(y-3z+7)^2+(x-3z+6)^2+9(x-y-1)^2=171.\n\\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f520a5e9-5048-496a-85ca-78ee821c9ba6",
+      "type": "question",
+      "value": {
+        "latex": "Equation du cône de révolution $(\\mathcal{C})$ d'axe la droite d'équations $x=y+1=3z-6$, de sommet $S(0,-1,2)$ et de demi-angle au sommet $ \\frac{\\pi}{3}$.",
+        "html": "<p>Equation du cône de révolution <span\nclass=\"math inline\">\\((\\mathcal{C})\\)</span> d’axe la droite d’équations\n<span class=\"math inline\">\\(x=y+1=3z-6\\)</span>, de sommet <span\nclass=\"math inline\">\\(S(0,-1,2)\\)</span> et de demi-angle au sommet\n<span class=\"math inline\">\\(\\frac{\\pi}{3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9270c434-b996-4e90-870b-486b78ebc07d",
+      "type": "reponse",
+      "value": {
+        "latex": "Un repère de $(\\mathcal{D})$ est $\\left(A,\\overrightarrow{u}\\right)$ où $A(0,-1,2)$ et $\\overrightarrow{u}(3,3,1)$. De plus, $S=A$.\n\n$$\\begin{align*}\\ensuremath\nM(x,y,z)\\in(\\mathcal{C})&\\Leftrightarrow M=A\\;\\text{ou}\\;M\\neq A\\;\\text{et}\\; \\frac{\\left|\\overrightarrow{AM}.\\overrightarrow{u}\\right|}{AM\\times\\|\\overrightarrow{u}\\|}=\\cos\\left( \\frac{\\pi}{3}\\right)\\Leftrightarrow \\left(\\overrightarrow{AM}.\\overrightarrow{u}\\right)^2= \\frac{1}{4}AM^2\\|\\overrightarrow{u}\\|^2\\\\\n &\\Leftrightarrow4(3x+3(y+1)+(z-2))^2=19(x^2+(y+1)^2+(z-2)^2)\\\\\n &\\Leftrightarrow4(3x+3y+z+1)^2-19(x^2+(y+1)^2+(z-2)^2)=0\\\\\n &\\Leftrightarrow17x^2+17y^2-15z^2+72xy+24xz+24yz+24x-14y+84z-91=0.\n\\end{align*}$$",
+        "html": "<p>Un repère de <span class=\"math inline\">\\((\\mathcal{D})\\)</span> est\n<span class=\"math inline\">\\(\\left(A,\\overrightarrow{u}\\right)\\)</span>\noù <span class=\"math inline\">\\(A(0,-1,2)\\)</span> et <span\nclass=\"math inline\">\\(\\overrightarrow{u}(3,3,1)\\)</span>. De plus, <span\nclass=\"math inline\">\\(S=A\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\nM(x,y,z)\\in(\\mathcal{C})&amp;\\Leftrightarrow M=A\\;\\text{ou}\\;M\\neq\nA\\;\\text{et}\\;\n\\frac{\\left|\\overrightarrow{AM}.\\overrightarrow{u}\\right|}{AM\\times\\|\\overrightarrow{u}\\|}=\\cos\\left(\n\\frac{\\pi}{3}\\right)\\Leftrightarrow\n\\left(\\overrightarrow{AM}.\\overrightarrow{u}\\right)^2=\n\\frac{1}{4}AM^2\\|\\overrightarrow{u}\\|^2\\\\\n&amp;\\Leftrightarrow4(3x+3(y+1)+(z-2))^2=19(x^2+(y+1)^2+(z-2)^2)\\\\\n&amp;\\Leftrightarrow4(3x+3y+z+1)^2-19(x^2+(y+1)^2+(z-2)^2)=0\\\\\n&amp;\\Leftrightarrow17x^2+17y^2-15z^2+72xy+24xz+24yz+24x-14y+84z-91=0.\n\\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Equation du cylindre de révolution <span\nclass=\"math inline\">\\((\\mathcal{C})\\)</span> d’axe la droite d’équations\n<span class=\"math inline\"> ..."
+}

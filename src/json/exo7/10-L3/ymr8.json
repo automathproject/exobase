@@ -1,0 +1,61 @@
+{
+  "uuid": "ymr8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2301",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:18.693Z"
+  },
+  "contenu": [
+    {
+      "id": "9e4b4835-838c-49a4-a277-46d5f99c1730",
+      "type": "description",
+      "value": {
+        "latex": "Trouver toutes les solutions des syst\\`emes suivantes :",
+        "html": "<p>Trouver toutes les solutions des systèmes suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "b6a500cf-f34b-4e80-920a-17a992b768ad",
+      "type": "question",
+      "value": {
+        "latex": "$ \\quad \\begin{cases}\nx\\equiv 1 \\mod 3\\\\\nx \\equiv 3 \\mod 5\\\\\nx \\equiv 4 \\mod 7\\\\\nx\\equiv 2 \\mod 11\n\\end{cases}\n$",
+        "html": "<p><span class=\"math inline\">\\(\\quad \\begin{cases}\nx\\equiv 1 \\mod 3\\\\\nx \\equiv 3 \\mod 5\\\\\nx \\equiv 4 \\mod 7\\\\\nx\\equiv 2 \\mod 11\n\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c378da21-a27b-4249-a249-b88f52f2fbde",
+      "type": "reponse",
+      "value": {
+        "latex": "$3,5,7,11$ sont deux à deux premiers entre eux, donc la solution est\n    unique modulo $1155=3\\cdot5\\cdot 7\\cdot11$.\n    \n    $$\\begin{align*}\n      \\begin{cases}        \n        x\\equiv 1 \\mod 3\\\\\n        x \\equiv 3 \\mod 5\\\\\n        x \\equiv 4 \\mod 7\\\\\n        x\\equiv 2 \\mod 11\n      \\end{cases}\n      \\Leftrightarrow\n      \\begin{cases}        \n        x\\equiv 13 \\mod 15\\\\\n        x \\equiv 4 \\mod 7\\\\\n        x\\equiv 2 \\mod 11\n      \\end{cases}\n      \\Leftrightarrow&\n      \\begin{cases}        \n        x\\equiv 88 \\mod 105\\\\\n        x\\equiv 2 \\mod 11\n      \\end{cases}\\\\\n      \\Leftrightarrow&\n      \\begin{cases}        \n        x\\equiv 508 \\mod 1155\n      \\end{cases}\n    \\end{align*}$$",
+        "html": "<p><span class=\"math inline\">\\(3,5,7,11\\)</span> sont deux à deux\npremiers entre eux, donc la solution est unique modulo <span\nclass=\"math inline\">\\(1155=3\\cdot5\\cdot 7\\cdot11\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n      \\begin{cases}        \n        x\\equiv 1 \\mod 3\\\\\n        x \\equiv 3 \\mod 5\\\\\n        x \\equiv 4 \\mod 7\\\\\n        x\\equiv 2 \\mod 11\n      \\end{cases}\n      \\Leftrightarrow\n      \\begin{cases}        \n        x\\equiv 13 \\mod 15\\\\\n        x \\equiv 4 \\mod 7\\\\\n        x\\equiv 2 \\mod 11\n      \\end{cases}\n      \\Leftrightarrow&amp;\n      \\begin{cases}        \n        x\\equiv 88 \\mod 105\\\\\n        x\\equiv 2 \\mod 11\n      \\end{cases}\\\\\n      \\Leftrightarrow&amp;\n      \\begin{cases}        \n        x\\equiv 508 \\mod 1155\n      \\end{cases}\n    \\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3afa452c-bf3c-4d98-9812-0950b3c17de7",
+      "type": "question",
+      "value": {
+        "latex": "$ \\quad \\begin{cases}\nx\\equiv 997\\mod 2001\\\\\nx \\equiv 998 \\mod 2002\\\\\nx \\equiv 999 \\mod 2003\n\\end{cases}.\n$",
+        "html": "<p><span class=\"math inline\">\\(\\quad \\begin{cases}\nx\\equiv 997\\mod 2001\\\\\nx \\equiv 998 \\mod 2002\\\\\nx \\equiv 999 \\mod 2003\n\\end{cases}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8ae9fdc5-9645-4db1-b5c7-ec7fb94a4f21",
+      "type": "reponse",
+      "value": {
+        "latex": "Un diviseur commun de $2001$ et $2002$ divise leur différence, et\n      donc $\\pgcd(2001,2002)=1$. De même, $\\pgcd(2002,2003)=1$, et comme\n      $2\\!\\!\\!\\not| 2001$, $\\pgcd(2001,2003)=1$.\n\n      $2001,2002,2003$ sont donc deux à deux premiers entre eux, et la\n      solution est donc unique modulo $2001\\cdot2002\\cdot2003$.\n    $$\\begin{align*}\n      \\begin{cases}        \n        x \\equiv 997 \\mod 2001\\\\\n        x \\equiv 998 \\mod 2002\\\\\n        x \\equiv 999 \\mod 2003\n      \\end{cases}\n      \\Leftrightarrow&\n      \\begin{cases}        \n        x \\equiv -1004 \\mod 2001\\\\\n        x \\equiv -1004 \\mod 2002\\\\\n        x \\equiv -1004 \\mod 2003\n      \\end{cases}\\\\\n      \\Leftrightarrow&\n        x \\equiv -1004 \\mod (2001\\cdot2002\\cdot2003)\n    \\end{align*}$$",
+        "html": "<p>Un diviseur commun de <span class=\"math inline\">\\(2001\\)</span> et\n<span class=\"math inline\">\\(2002\\)</span> divise leur différence, et\ndonc <span class=\"math inline\">\\(\\pgcd(2001,2002)=1\\)</span>. De même,\n<span class=\"math inline\">\\(\\pgcd(2002,2003)=1\\)</span>, et comme <span\nclass=\"math inline\">\\(2\\!\\!\\!\\not| 2001\\)</span>, <span\nclass=\"math inline\">\\(\\pgcd(2001,2003)=1\\)</span>.</p>\n<p><span class=\"math inline\">\\(2001,2002,2003\\)</span> sont donc deux à\ndeux premiers entre eux, et la solution est donc unique modulo <span\nclass=\"math inline\">\\(2001\\cdot2002\\cdot2003\\)</span>. <span\nclass=\"math display\">\\[\\begin{align*}\n      \\begin{cases}        \n        x \\equiv 997 \\mod 2001\\\\\n        x \\equiv 998 \\mod 2002\\\\\n        x \\equiv 999 \\mod 2003\n      \\end{cases}\n      \\Leftrightarrow&amp;\n      \\begin{cases}        \n        x \\equiv -1004 \\mod 2001\\\\\n        x \\equiv -1004 \\mod 2002\\\\\n        x \\equiv -1004 \\mod 2003\n      \\end{cases}\\\\\n      \\Leftrightarrow&amp;\n        x \\equiv -1004 \\mod (2001\\cdot2002\\cdot2003)\n    \\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Trouver toutes les solutions des systèmes suivantes :</p>\n"
+}

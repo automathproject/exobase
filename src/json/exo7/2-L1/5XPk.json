@@ -1,0 +1,133 @@
+{
+  "uuid": "5XPk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "572",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "ZTrWGqYQ0R8",
+    "chapitre": "Suite",
+    "sousChapitre": "Suites équivalentes, suites négligeables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:52.433Z"
+  },
+  "contenu": [
+    {
+      "id": "b884e442-cacf-42d8-bb86-2882fd292640",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "1d58e706-236b-4b9e-93d2-711683ae6d8f",
+      "type": "question",
+      "value": {
+        "latex": "Soient $a,b > 0$. Montrer que $\\sqrt{ab} \\leqslant \\frac{a+b}{2}$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(a,b &gt; 0\\)</span>. Montrer que\n<span class=\"math inline\">\\(\\sqrt{ab} \\leqslant\n\\frac{a+b}{2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0a99da40-5eb5-4700-a29d-5b31439fb771",
+      "type": "reponse",
+      "value": {
+        "latex": "Soient $a,b >0$. On veut d\\'emontrer\n    que $\\sqrt{ab}\\leqslant \\frac{a+b}{2}$. Comme les deux membres de cette\nin\\'egalit\\'e sont positifs, cette in\\'egalit\\'e est \\'equivalente\n\\`a $ ab\\leqslant (\\frac{a+b}{2})^2$. De plus,\n$$ ab\\leqslant \\left( \\frac{a+b}{2}\\right)^2  \\Leftrightarrow 4ab\\leqslant a^2+2ab+b$$\n$$ \\Leftrightarrow 0\\leqslant a^2-2ab+b^2$$ ce qui\nest toujours vrai car $a^2-2ab+b^2=(a-b)^2$ est un carr\\'e parfait. On a\ndonc bien l'in\\'egalit\\'e voulue.",
+        "html": "<p>Soient <span class=\"math inline\">\\(a,b &gt;0\\)</span>. On veut\ndémontrer que <span class=\"math inline\">\\(\\sqrt{ab}\\leqslant\n\\frac{a+b}{2}\\)</span>. Comme les deux membres de cette inégalité sont\npositifs, cette inégalité est équivalente à <span\nclass=\"math inline\">\\(ab\\leqslant (\\frac{a+b}{2})^2\\)</span>. De plus,\n<span class=\"math display\">\\[ab\\leqslant \\left(\n\\frac{a+b}{2}\\right)^2  \\Leftrightarrow 4ab\\leqslant a^2+2ab+b\\]</span>\n<span class=\"math display\">\\[\\Leftrightarrow 0\\leqslant\na^2-2ab+b^2\\]</span> ce qui est toujours vrai car <span\nclass=\"math inline\">\\(a^2-2ab+b^2=(a-b)^2\\)</span> est un carré parfait.\nOn a donc bien l’inégalité voulue.</p>\n"
+      }
+    },
+    {
+      "id": "6024f543-4947-4601-b430-b81c735724dc",
+      "type": "question",
+      "value": {
+        "latex": "Montrer les in\\'egalit\\'es suivantes ($b \\geqslant a > 0$) :\n$$ a \\leqslant \\frac{a+b}{2} \\leqslant b \\qquad \\text{et} \\qquad a \\leqslant \\sqrt{ab} \\leqslant b.$$",
+        "html": "<p>Montrer les inégalités suivantes (<span class=\"math inline\">\\(b\n\\geqslant a &gt; 0\\)</span>) : <span class=\"math display\">\\[a \\leqslant\n\\frac{a+b}{2} \\leqslant b \\qquad \\text{et} \\qquad a \\leqslant \\sqrt{ab}\n\\leqslant b.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "02400a92-ca97-4f90-989e-299ef3f56a1c",
+      "type": "reponse",
+      "value": {
+        "latex": "Quitte \\`a \\'echanger\n$a$ et $b$ (ce qui ne change pas les moyennes arithm\\'etique et\ng\\'eom\\'etrique, et qui pr\\'eserve le fait d'\\^etre compris entre\n$a$ et $b$), on peut supposer que $a\\leqslant b$. Alors en ajoutant les\ndeux in\\'egalit\\'es $$a/2 \\leqslant a/2 \\leqslant b/2$$ $$a/2 \\leqslant b/2 \\leqslant\nb/2,$$ on obtient $$a\\leqslant \\frac{a+b}{2}\\leqslant b.$$\n\nDe m\\^eme, comme tout est positif, en multipliant les deux\nin\\'egalit\\'es\n$$\\sqrt{a} \\leqslant \\sqrt{a} \\leqslant \\sqrt{b}$$ $$\\sqrt{a} \\leqslant \\sqrt{b} \\leqslant\n\\sqrt{b}$$ on obtient $$a\\leqslant \\sqrt{ab} \\leqslant b.$$",
+        "html": "<p>Quitte à échanger <span class=\"math inline\">\\(a\\)</span> et <span\nclass=\"math inline\">\\(b\\)</span> (ce qui ne change pas les moyennes\narithmétique et géométrique, et qui préserve le fait d’être compris\nentre <span class=\"math inline\">\\(a\\)</span> et <span\nclass=\"math inline\">\\(b\\)</span>), on peut supposer que <span\nclass=\"math inline\">\\(a\\leqslant b\\)</span>. Alors en ajoutant les deux\ninégalités <span class=\"math display\">\\[a/2 \\leqslant a/2 \\leqslant\nb/2\\]</span> <span class=\"math display\">\\[a/2 \\leqslant b/2 \\leqslant\nb/2,\\]</span> on obtient <span class=\"math display\">\\[a\\leqslant\n\\frac{a+b}{2}\\leqslant b.\\]</span></p>\n<p>De même, comme tout est positif, en multipliant les deux inégalités\n<span class=\"math display\">\\[\\sqrt{a} \\leqslant \\sqrt{a} \\leqslant\n\\sqrt{b}\\]</span> <span class=\"math display\">\\[\\sqrt{a} \\leqslant\n\\sqrt{b} \\leqslant\n\\sqrt{b}\\]</span> on obtient <span class=\"math display\">\\[a\\leqslant\n\\sqrt{ab} \\leqslant b.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e31657db-a126-4dc0-8ebb-dc25b8cfc994",
+      "type": "question",
+      "value": {
+        "latex": "Soient $u_0$ et $v_0$ des r\\'eels strictement positifs avec\n$u_0 < v_0$. On d\\'efinit deux\nsuites $(u_n)$ et $(v_n)$ de la fa\\c{c}on suivante :\n$$ u_{n+1} = \\sqrt{u_nv_n} \\quad \\text{et}\\quad v_{n+1}=\\frac{u_n+v_n}{2}.$$\n    \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "fb0962f9-9e6e-46c6-a518-a2259efb0e8a",
+      "type": "reponse",
+      "value": {
+        "latex": "Il faut avant tout remarquer que pour tout $n$,\n    $u_n$ et $v_n$ sont strictement positifs, ce qui\npermet de dire que les deux suites sont bien d\\'efinies. On le\nd\\'emontre par r\\'ecurrence: c'est clair pour $u_0$ et $v_0$, et\nsi $u_n$ et $v_n$ sont strictement positifs alors leurs moyennes\ng\\'eom\\'etrique (qui est $u_{n+1}$) et arithm\\'etique (qui est $v_{n+1}$) sont\nstrictement positives.\n    \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "c84a5a7a-15db-4fd9-8244-bc5ccaa59c61",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u_n \\leqslant v_n$ quel que soit $n\\in\\Nn$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u_n \\leqslant v_n\\)</span>\nquel que soit <span class=\"math inline\">\\(n\\in\\Nn\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7d703358-405c-4ad0-8ae3-cf664245a439",
+      "type": "reponse",
+      "value": {
+        "latex": "On veut montrer que pour chaque $n$, $u_n\\leqslant v_n$. L'in\\'egalit\\'e est claire pour $n=0$\n     gr\\^ace aux hypoth\\`eses faites sur $u_0$ et $v_0$.\n     Si maintenant $n$ est plus grand que 1, $u_{n}$ est la\n     moyenne g\\'eom\\'etrique de $u_{n-1}$ et $v_{n-1}$ et $v_{n}$\n     est la moyenne arithm\\'etique de $u_{n-1}$ et $v_{n-1}$,\n     donc, par 1., $u_n\\leqslant v_n$.",
+        "html": "<p>On veut montrer que pour chaque <span\nclass=\"math inline\">\\(n\\)</span>, <span\nclass=\"math inline\">\\(u_n\\leqslant v_n\\)</span>. L’inégalité est claire\npour <span class=\"math inline\">\\(n=0\\)</span> grâce aux hypothèses\nfaites sur <span class=\"math inline\">\\(u_0\\)</span> et <span\nclass=\"math inline\">\\(v_0\\)</span>. Si maintenant <span\nclass=\"math inline\">\\(n\\)</span> est plus grand que 1, <span\nclass=\"math inline\">\\(u_{n}\\)</span> est la moyenne géométrique de <span\nclass=\"math inline\">\\(u_{n-1}\\)</span> et <span\nclass=\"math inline\">\\(v_{n-1}\\)</span> et <span\nclass=\"math inline\">\\(v_{n}\\)</span> est la moyenne arithmétique de\n<span class=\"math inline\">\\(u_{n-1}\\)</span> et <span\nclass=\"math inline\">\\(v_{n-1}\\)</span>, donc, par 1., <span\nclass=\"math inline\">\\(u_n\\leqslant v_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4ea2207d-0f8a-46e8-bf1c-341b757db87a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $(v_n)$ est une suite d\\'ecroissante.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\((v_n)\\)</span> est une suite\ndécroissante.</p>\n"
+      }
+    },
+    {
+      "id": "7d896a08-3fc0-4f2e-a39d-4933a97e8c1e",
+      "type": "reponse",
+      "value": {
+        "latex": "On sait d'apr\\`es 2. que $u_n\\leqslant u_{n+1}\\leqslant v_n$.\n En particulier, $u_n\\leqslant u_{n+1}$ i.e. $(u_n)$ est croissante.\n De m\\^eme, d'apr\\`es 2., $u_n\\leqslant v_{n+1}\\leqslant v_n$. En particulier,\n $v_{n+1}\\leqslant v_n$ i.e. $(v_n)$ est d\\'ecroissante.",
+        "html": "<p>On sait d’après 2. que <span class=\"math inline\">\\(u_n\\leqslant\nu_{n+1}\\leqslant v_n\\)</span>. En particulier, <span\nclass=\"math inline\">\\(u_n\\leqslant u_{n+1}\\)</span> i.e. <span\nclass=\"math inline\">\\((u_n)\\)</span> est croissante. De même, d’après\n2., <span class=\"math inline\">\\(u_n\\leqslant v_{n+1}\\leqslant\nv_n\\)</span>. En particulier, <span\nclass=\"math inline\">\\(v_{n+1}\\leqslant v_n\\)</span> i.e. <span\nclass=\"math inline\">\\((v_n)\\)</span> est décroissante.</p>\n"
+      }
+    },
+    {
+      "id": "cdba9b71-62de-41da-9269-2ab526992093",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $(u_n)$ est croissante En d\\'eduire que\nles suites $(u_n)$ et $(v_n)$ sont convergentes et quelles ont m\\^eme limite.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\((u_n)\\)</span> est croissante\nEn déduire que les suites <span class=\"math inline\">\\((u_n)\\)</span> et\n<span class=\"math inline\">\\((v_n)\\)</span> sont convergentes et quelles\nont même limite.</p>\n"
+      }
+    },
+    {
+      "id": "390833c8-a744-415a-935d-35f08b7977b1",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $n$, on a $u_0\\leqslant u_n\\leqslant v_n\\leqslant v_0$.\n        $(u_n)$ est donc croissante et major\\'ee, donc converge\n        vers une limite $\\ell$. Et $(v_n)$ est d\\'ecroissante et\n        minor\\'ee et donc converge vers une limite $\\ell'$. \nNous savons maintenant que \n$u_{n} \\rightarrow \\ell$, donc aussi $u_{n+1} \\rightarrow \\ell$, et $v_{n} \\rightarrow \\ell'$ ;\nla relation $u_{n+1}=\\sqrt{u_n v_n}$ s'écrit à la limite :\n$$\\ell=\\sqrt{\\ell\\ell'}.$$\nDe même la relation $v_{n+1}=\\frac{u_n+v_n}{2}$ donnerait à la limite :\n$$\\ell'=\\frac{\\ell+\\ell'}{2}.$$\nUn petit calcul avec l'une ou l'autre de ces égalités implique $\\ell=\\ell'$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(n\\)</span>, on a <span\nclass=\"math inline\">\\(u_0\\leqslant u_n\\leqslant v_n\\leqslant\nv_0\\)</span>. <span class=\"math inline\">\\((u_n)\\)</span> est donc\ncroissante et majorée, donc converge vers une limite <span\nclass=\"math inline\">\\(\\ell\\)</span>. Et <span\nclass=\"math inline\">\\((v_n)\\)</span> est décroissante et minorée et donc\nconverge vers une limite <span class=\"math inline\">\\(\\ell&#39;\\)</span>.\nNous savons maintenant que <span class=\"math inline\">\\(u_{n} \\rightarrow\n\\ell\\)</span>, donc aussi <span class=\"math inline\">\\(u_{n+1}\n\\rightarrow \\ell\\)</span>, et <span class=\"math inline\">\\(v_{n}\n\\rightarrow \\ell&#39;\\)</span> ; la relation <span\nclass=\"math inline\">\\(u_{n+1}=\\sqrt{u_n v_n}\\)</span> s’écrit à la\nlimite : <span\nclass=\"math display\">\\[\\ell=\\sqrt{\\ell\\ell&#39;}.\\]</span> De même la\nrelation <span class=\"math inline\">\\(v_{n+1}=\\frac{u_n+v_n}{2}\\)</span>\ndonnerait à la limite : <span\nclass=\"math display\">\\[\\ell&#39;=\\frac{\\ell+\\ell&#39;}{2}.\\]</span> Un\npetit calcul avec l’une ou l’autre de ces égalités implique <span\nclass=\"math inline\">\\(\\ell=\\ell&#39;\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "de20fd3a-9c24-4f5f-9db9-29548a58bc77",
+      "type": "indication",
+      "value": {
+        "latex": "\\begin{enumerate}\n  \\item Regarder ce que donne l'inégalité en élevant au carré de chaque coté.\n  \\item Petites manipulations des inégalités.\n  \\item \n  \\begin{enumerate}\n     \\item Utiliser 1.\n     \\item Utiliser 2.\n     \\item Une suite croissante et majorée converge ; une suite décroissante et minorée aussi.\n  \\end{enumerate}\n\\end{enumerate}",
+        "html": "<ol>\n<li><p>Regarder ce que donne l’inégalité en élevant au carré de chaque\ncoté.</p></li>\n<li><p>Petites manipulations des inégalités.</p></li>\n<li><ol>\n<li><p>Utiliser 1.</p></li>\n<li><p>Utiliser 2.</p></li>\n<li><p>Une suite croissante et majorée converge ; une suite décroissante\net minorée aussi.</p></li>\n</ol></li>\n</ol>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(a,b &gt; 0\\)</span>. Montrer que\n<span class=\"math inline\">\\(\\sqrt{ab} \\leqslant\n\\frac{a+b}{2}\\)</span>.</p>\n"
+}

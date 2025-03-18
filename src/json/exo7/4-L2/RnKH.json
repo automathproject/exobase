@@ -1,0 +1,45 @@
+{
+  "uuid": "RnKH",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1508",
+    "auteur": "barraud",
+    "createdAt": "2003-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Orthonormalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:42.489Z"
+  },
+  "contenu": [
+    {
+      "id": "1c9c73a3-ae92-4672-9b19-baaafb698fd5",
+      "type": "description",
+      "value": {
+        "latex": "A deux polynômes $P$ et $Q$ de $\\R_{n}[X]$, on associe le nombre\n  $$\n  \\phi(P,Q)=\\int_{0}^{1}P'(t)Q'(t)dt+P(0)Q(0)\n  $$",
+        "html": "<p>A deux polynômes <span class=\"math inline\">\\(P\\)</span> et <span\nclass=\"math inline\">\\(Q\\)</span> de <span\nclass=\"math inline\">\\(\\R_{n}[X]\\)</span>, on associe le nombre <span\nclass=\"math display\">\\[\\phi(P,Q)=\\int_{0}^{1}P&#39;(t)Q&#39;(t)dt+P(0)Q(0)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "cb0df217-ca69-4289-a376-09e3e5beb76e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\phi$ est un produit scalaire sur $\\R_{n}[X]$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\phi\\)</span> est un produit\nscalaire sur <span class=\"math inline\">\\(\\R_{n}[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c6fc778d-203f-4a0a-9047-fb28dfd81d5e",
+      "type": "question",
+      "value": {
+        "latex": "Lorsque $n=2$, donner une base orthonormée pour ce produit scalaire.",
+        "html": "<p>Lorsque <span class=\"math inline\">\\(n=2\\)</span>, donner une base\northonormée pour ce produit scalaire.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>A deux polynômes <span class=\"math inline\">\\(P\\)</span> et <span\nclass=\"math inline\">\\(Q\\)</span> de <span\nclass=\"math inline\">\\(\\R_{n}[X]\\)</span> ..."
+}

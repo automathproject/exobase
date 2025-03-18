@@ -1,0 +1,95 @@
+{
+  "uuid": "MWOk",
+  "titre": "Etude de séries entières",
+  "theme": [
+    "séries entières"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-06-14",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:40.801Z"
+  },
+  "contenu": [
+    {
+      "id": "02655cdc-f3f9-4272-b02c-cd6143575c87",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer le rayon de convergence des séries entières réelles suivantes :",
+        "html": "<p>Déterminer le rayon de convergence des séries entières réelles\nsuivantes :</p>\n"
+      }
+    },
+    {
+      "id": "58958597-73a7-4463-9fb0-845faf9e1e8b",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "268f684c-ecb1-4d18-98c6-8f363b6dcc31",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $u_n(x) = \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$ et on utilise le théorème de d'Alembert : \n\t\t\t$$\\begin{align*}\n\t\t\t\\frac{|u_{n+1}(x)|}{|u_n(x)|} &= \\frac{(3(n+1)^2-1) \\times 2^{2n+1}\\sqrt{n+1}}{\\left(2^{2(n+1)+1}\\sqrt{n+1+1}\\right)(3n^2-1)}\\frac{|x^{n+1}|}{|x^n|} \\\\\n\t\t\t&= \\frac{1}{2^2}\\sqrt{\\frac{n+1}{n+2}} \\frac{3n^2+6n+3-1}{3n^2-1} |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} \\frac{1}{4}|x|\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ \\frac{1}{4}|x| <1 \\iff |x| < 4$ donc le rayon de convergence est $R=4$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n(x) =\n\\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n\\)</span> et on utilise le théorème\nde d’Alembert : <span class=\"math display\">\\[\\begin{align*}\n            \\frac{|u_{n+1}(x)|}{|u_n(x)|} &amp;= \\frac{(3(n+1)^2-1)\n\\times\n2^{2n+1}\\sqrt{n+1}}{\\left(2^{2(n+1)+1}\\sqrt{n+1+1}\\right)(3n^2-1)}\\frac{|x^{n+1}|}{|x^n|}\n\\\\\n            &amp;= \\frac{1}{2^2}\\sqrt{\\frac{n+1}{n+2}}\n\\frac{3n^2+6n+3-1}{3n^2-1} |x| \\\\\n            &amp;\\xrightarrow[n\\to+\\infty]{} \\frac{1}{4}|x|\n            \\end{align*}\\]</span> Or <span\nclass=\"math inline\">\\(\\frac{1}{4}|x| &lt;1 \\iff |x| &lt; 4\\)</span> donc\nle rayon de convergence est <span\nclass=\"math inline\">\\(R=4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f3fa401d-498b-4e75-b339-a99845762b7d",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1} 9^n\n\\left(\\frac{n-1}{n}\\right)^nx^{2n}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "99afaeda-25f0-4bb5-aa68-322cfa74e608",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $u_n(x) = 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$ et on utilise le théorème de Cauchy : \n\t\t\t$$\\begin{align*}\n\t\t\t\\left(|u_n(x)|\\right)^{\\frac{1}{n}} &= \\left(9^n \\left(\\frac{n-1}{n}\\right)^n|x|^{2n}\\right)^{\\frac{1}{n}} \\\\\n\t\t\t&= 9 \\left(\\frac{n-1}{n}\\right) |x|^2 \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} 9|x|^2\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ 9|x|^2 <1 \\iff |x|^2 < \\frac{1}{9} \\iff |x| < \\frac{1}{3}$ donc le rayon de convergence est $R=\\frac{1}{3}$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n(x) = 9^n\n\\left(\\frac{n-1}{n}\\right)^nx^{2n}\\)</span> et on utilise le théorème de\nCauchy : <span class=\"math display\">\\[\\begin{align*}\n            \\left(|u_n(x)|\\right)^{\\frac{1}{n}} &amp;= \\left(9^n\n\\left(\\frac{n-1}{n}\\right)^n|x|^{2n}\\right)^{\\frac{1}{n}} \\\\\n            &amp;= 9 \\left(\\frac{n-1}{n}\\right) |x|^2 \\\\\n            &amp;\\xrightarrow[n\\to+\\infty]{} 9|x|^2\n            \\end{align*}\\]</span> Or <span class=\"math inline\">\\(9|x|^2\n&lt;1 \\iff |x|^2 &lt; \\frac{1}{9} \\iff |x| &lt; \\frac{1}{3}\\)</span>\ndonc le rayon de convergence est <span\nclass=\"math inline\">\\(R=\\frac{1}{3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2092f59f-6e12-4014-9b8a-8f1c6b4e6da3",
+      "type": "question",
+      "value": {
+        "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} \\left(-\\frac{9}{8}\\right)^n$ ? Justifier votre réponse.",
+        "html": "<p>Que peut-on dire de la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 0}\n\\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} \\left(-\\frac{9}{8}\\right)^n\\)</span> ?\nJustifier votre réponse.</p>\n"
+      }
+    },
+    {
+      "id": "ee7f606d-2437-4ff3-8267-f6c577b8f197",
+      "type": "reponse",
+      "value": {
+        "latex": "On reconnaît la série entière de la question 1.(a) évaluée en $x = -\\frac{9}{8}$. Or $-\\frac{9}{8} \\in ]-4;4[$ donc la série est absolument convergente.",
+        "html": "<p>On reconnaît la série entière de la question 1.(a) évaluée en <span\nclass=\"math inline\">\\(x = -\\frac{9}{8}\\)</span>. Or <span\nclass=\"math inline\">\\(-\\frac{9}{8} \\in ]-4;4[\\)</span> donc la série est\nabsolument convergente.</p>\n"
+      }
+    },
+    {
+      "id": "c2c823cd-3917-42f9-b418-0f3a71c3dc1d",
+      "type": "question",
+      "value": {
+        "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^n\\left(\\frac{2}{3}\\right)^{2n}$ ? Justifier votre réponse.",
+        "html": "<p>Que peut-on dire de la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1} 9^n\n\\left(\\frac{n-1}{n}\\right)^n\\left(\\frac{2}{3}\\right)^{2n}\\)</span> ?\nJustifier votre réponse.</p>\n"
+      }
+    },
+    {
+      "id": "31e2987d-a697-4865-b44f-23bca85faec1",
+      "type": "reponse",
+      "value": {
+        "latex": "On reconnaît la série entière de la question 1.(b) évaluée en $x = \\frac{2}{3}$. Or $\\frac{2}{3} \\notin ]-\\frac{1}{3};\\frac{1}{3}[$ donc la série est grossièrement divergente.",
+        "html": "<p>On reconnaît la série entière de la question 1.(b) évaluée en <span\nclass=\"math inline\">\\(x = \\frac{2}{3}\\)</span>. Or <span\nclass=\"math inline\">\\(\\frac{2}{3} \\notin\n]-\\frac{1}{3};\\frac{1}{3}[\\)</span> donc la série est grossièrement\ndivergente.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer le rayon de convergence des séries entières réelles\nsuivantes :</p>\n"
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "XMb9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2941",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Racine n-ieme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:55.715Z"
+  },
+  "contenu": [
+    {
+      "id": "b574c1ff-d935-47d9-a57b-c926b90ab6ca",
+      "type": "description",
+      "value": {
+        "latex": "Soient $n,p \\in \\N^*$ et $\\mathbb{U}_n$ le groupe des racines $n$-{\\`e}mes de 1.",
+        "html": "<p>Soient <span class=\"math inline\">\\(n,p \\in \\N^*\\)</span> et <span\nclass=\"math inline\">\\(\\mathbb{U}_n\\)</span> le groupe des racines <span\nclass=\"math inline\">\\(n\\)</span>-<span>è</span>mes de 1.</p>\n"
+      }
+    },
+    {
+      "id": "1e8f25d4-54b7-4451-af88-80c39331005d",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\sum_{x \\in \\mathbb{U}_n} x^p$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\sum_{x \\in \\mathbb{U}_n}\nx^p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8bf4e97e-1423-4118-9a44-42820fcb0645",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum=n$ si $p\\not\\equiv 0 (\\mathrm{mod}\\, n)$, 0 sinon.",
+        "html": "<p><span class=\"math inline\">\\(\\sum=n\\)</span> si <span\nclass=\"math inline\">\\(p\\not\\equiv 0 (\\mathrm{mod}\\, n)\\)</span>, 0\nsinon.</p>\n"
+      }
+    },
+    {
+      "id": "23ebcda2-e22e-47a8-bb8b-b3a2a29ecfa1",
+      "type": "question",
+      "value": {
+        "latex": "Soit $P$ un polyn{\\^o}me {\\`a} coefficients complexes de degr{\\'e} inf{\\'e}rieur ou {\\'e}gal\n    {\\`a} $n-1$ et $M = \\max\\{|P(x)|,\\ x \\in\\mathbb{U}_n\\}$.\n    Montrer que tous les coefficients de $P$ sont born{\\'e}s par $M$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P\\)</span> un polyn<span>ô</span>me\n<span>à</span> coefficients complexes de degr<span>é</span>\ninf<span>é</span>rieur ou <span>é</span>gal <span>à</span> <span\nclass=\"math inline\">\\(n-1\\)</span> et <span class=\"math inline\">\\(M =\n\\max\\{|P(x)|,\\ x \\in\\mathbb{U}_n\\}\\)</span>. Montrer que tous les\ncoefficients de <span class=\"math inline\">\\(P\\)</span> sont\nborn<span>é</span>s par <span class=\"math inline\">\\(M\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "410aa458-2c14-4bab-8696-9bc24883f9ec",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_k = \\sum_{x\\in\\mathbb{U}_n} \\frac {P(x)}{nx^k}$",
+        "html": "<p><span class=\"math inline\">\\(a_k = \\sum_{x\\in\\mathbb{U}_n} \\frac\n{P(x)}{nx^k}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(n,p \\in \\N^*\\)</span> et <span\nclass=\"math inline\">\\(\\mathbb{U}_n\\)</span> le groupe des racines <span\nclass=\"ma ..."
+}

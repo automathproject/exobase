@@ -1,0 +1,37 @@
+{
+  "uuid": "CXqm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4608",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Intégrales",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:44.801Z"
+  },
+  "contenu": [
+    {
+      "id": "9ca4d8df-ba0e-4de4-b380-c95910a83cee",
+      "type": "description",
+      "value": {
+        "latex": "On admet que $\\sum_{n=1}^\\infty \\frac 1{n^2} = \\frac{\\pi^2}6$.\nCalculer $ \\int_{t=0}^1 \\ln(t)\\ln(1-t)\\,d t$.",
+        "html": "<p>On admet que <span class=\"math inline\">\\(\\sum_{n=1}^\\infty \\frac\n1{n^2} = \\frac{\\pi^2}6\\)</span>. Calculer <span\nclass=\"math inline\">\\(\\int_{t=0}^1 \\ln(t)\\ln(1-t)\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "11ec700a-f94c-4534-b7c6-7aa7eb2f3493",
+      "type": "reponse",
+      "value": {
+        "latex": "$=\\sum_{n=1}^\\infty  \\int_{t=0}^1 -\\frac{t^n\\ln t}n\\,d t\n          = \\sum_{n=1}^\\infty \\frac1{n(n+1)^2} = 2-\\frac{\\pi^2}6$.",
+        "html": "<p><span class=\"math inline\">\\(=\\sum_{n=1}^\\infty  \\int_{t=0}^1\n-\\frac{t^n\\ln t}n\\,d t\n          = \\sum_{n=1}^\\infty \\frac1{n(n+1)^2} =\n2-\\frac{\\pi^2}6\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On admet que <span class=\"math inline\">\\(\\sum_{n=1}^\\infty \\frac\n1{n^2} = \\frac{\\pi^2}6\\)</span>. Calculer <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,79 @@
+{
+  "uuid": "tPpR",
+  "titre": "Séries divergentes",
+  "theme": [
+    "séries"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-05-17",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:18.540Z"
+  },
+  "contenu": [
+    {
+      "id": "62dd1e63-daed-4916-8593-d485223ead28",
+      "type": "description",
+      "value": {
+        "latex": "En examinant la limite du terme général, montrer que les séries suivantes divergent :",
+        "html": "<p>En examinant la limite du terme général, montrer que les séries\nsuivantes divergent :</p>\n"
+      }
+    },
+    {
+      "id": "8284b0c5-f199-40cc-a1cd-e347d8474e3b",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n\\geq 1} \\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 1}\n\\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "305c5674-5253-4c7a-a1a9-62fae0ea4a33",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $u_n = \\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)$ : alors $u_{2n} = 1+\\cos\\left(\\frac{1}{n^2}\\right) \\xrightarrow[n \\to +\\infty]{} 1$ donc $\\lim\\limits u_n \\neq 0$ donc la série est divergente.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n =\n\\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)\\)</span> : alors <span\nclass=\"math inline\">\\(u_{2n} = 1+\\cos\\left(\\frac{1}{n^2}\\right)\n\\xrightarrow[n \\to +\\infty]{} 1\\)</span> donc <span\nclass=\"math inline\">\\(\\lim\\limits u_n \\neq 0\\)</span> donc la série est\ndivergente.</p>\n"
+      }
+    },
+    {
+      "id": "b032e297-3fe0-4a9d-bc3d-b22040c785a5",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{(-1)^n}{1+n^{-1}}$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 1}\n\\frac{(-1)^n}{1+n^{-1}}\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "56a5095d-7dc2-411f-8ca7-7b9fce15f498",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $u_n = \\frac{(-1)^n}{1+n^{-1}}$ : alors $u_{2n} = \\frac{1}{1+\\frac1n} \\xrightarrow[n \\to +\\infty]{} 1$ donc $\\lim\\limits u_n \\neq 0$ donc la série est divergente.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n =\n\\frac{(-1)^n}{1+n^{-1}}\\)</span> : alors <span\nclass=\"math inline\">\\(u_{2n} = \\frac{1}{1+\\frac1n} \\xrightarrow[n \\to\n+\\infty]{} 1\\)</span> donc <span class=\"math inline\">\\(\\lim\\limits u_n\n\\neq 0\\)</span> donc la série est divergente.</p>\n"
+      }
+    },
+    {
+      "id": "e06c8fcb-76c9-4802-8fd1-bed9e13cfd3a",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\sum_{n\\geq 1} \\left(\\left(\\frac{n}{n+1}\\right)^n-1\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\sum_{n\\geq 1}\n\\left(\\left(\\frac{n}{n+1}\\right)^n-1\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b7be63d8-541c-4f8b-9dee-239351e29b6b",
+      "type": "reponse",
+      "value": {
+        "latex": "Contrairement aux apparences, le terme général ne tend pas vers vers $0$. En effet : \\\\ $\\frac{n}{n+1} = \\frac{n+1-1}{n+1} = 1-\\frac{1}{n+1}$ donc $\\left(\\frac{n}{n+1}\\right)^n = e^{n\\ln\\left(1-\\frac{1}{n+1}\\right)}$. \\\\\n\t\t\tOr $\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to +\\infty}{\\sim} -\\frac{1}{n+1}$ donc $n\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to +\\infty}{\\sim} -1$. \\\\\n\t\t\tPar composition de limites, on en déduit que $\\left(\\frac{n}{n+1}\\right)^n \\xrightarrow[n \\to +\\infty]{} e^{-1} = \\frac{1}{e} \\neq 0$. Donc la série est divergente.",
+        "html": "<p>Contrairement aux apparences, le terme général ne tend pas vers vers\n<span class=\"math inline\">\\(0\\)</span>. En effet :<br />\n<span class=\"math inline\">\\(\\frac{n}{n+1} = \\frac{n+1-1}{n+1} =\n1-\\frac{1}{n+1}\\)</span> donc <span\nclass=\"math inline\">\\(\\left(\\frac{n}{n+1}\\right)^n =\ne^{n\\ln\\left(1-\\frac{1}{n+1}\\right)}\\)</span>.<br />\nOr <span class=\"math inline\">\\(\\ln\\left(1-\\frac{1}{n+1}\\right)\n\\underset{n\\to +\\infty}{\\sim} -\\frac{1}{n+1}\\)</span> donc <span\nclass=\"math inline\">\\(n\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to\n+\\infty}{\\sim} -1\\)</span>.<br />\nPar composition de limites, on en déduit que <span\nclass=\"math inline\">\\(\\left(\\frac{n}{n+1}\\right)^n \\xrightarrow[n \\to\n+\\infty]{} e^{-1} = \\frac{1}{e} \\neq 0\\)</span>. Donc la série est\ndivergente.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>En examinant la limite du terme général, montrer que les séries\nsuivantes divergent :</p>\n"
+}

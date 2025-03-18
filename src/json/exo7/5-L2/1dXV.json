@@ -1,0 +1,69 @@
+{
+  "uuid": "1dXV",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4598",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Equations différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:23.865Z"
+  },
+  "contenu": [
+    {
+      "id": "7fbb333f-7f8f-4ce0-b59d-fd0dcfcb6317",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "0137659c-cdfc-4120-9d33-ac36bc82e967",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant la relation : $\\tan' = 1 + \\tan^2$, exprimer $\\tan^{(n)}$\n    en fonction de $\\tan,\\dots,\\tan{(n-1)}$.\n    En déduire que~: $\\forall\\ x \\in {[0,\\pi/2[}$, $\\tan^{(n)}(x) \\ge 0$.",
+        "html": "<p>En utilisant la relation : <span class=\"math inline\">\\(\\tan&#39; = 1\n+ \\tan^2\\)</span>, exprimer <span\nclass=\"math inline\">\\(\\tan^{(n)}\\)</span> en fonction de <span\nclass=\"math inline\">\\(\\tan,\\dots,\\tan{(n-1)}\\)</span>. En déduire que :\n<span class=\"math inline\">\\(\\forall\\ x \\in {[0,\\pi/2[}\\)</span>, <span\nclass=\"math inline\">\\(\\tan^{(n)}(x) \\ge 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f0479df9-cf78-473b-9e01-f5dca0919b30",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la série de Taylor de $\\tan$ en 0 converge sur $]-\\pi/2,\\pi/2[$.",
+        "html": "<p>Montrer que la série de Taylor de <span\nclass=\"math inline\">\\(\\tan\\)</span> en 0 converge sur <span\nclass=\"math inline\">\\(]-\\pi/2,\\pi/2[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ebd806e3-dbc1-46e3-86de-4f4a272d4eab",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ la somme de la série précédente. Montrer que $f' = 1+f^2$ et en\n    déduire que $f = \\tan$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la somme de la série\nprécédente. Montrer que <span class=\"math inline\">\\(f&#39; =\n1+f^2\\)</span> et en déduire que <span class=\"math inline\">\\(f =\n\\tan\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f4f0cec-7169-4b49-9772-7d72c5a238fd",
+      "type": "question",
+      "value": {
+        "latex": "Prouver que le rayon de convergence est exactement $\\pi/2$.",
+        "html": "<p>Prouver que le rayon de convergence est exactement <span\nclass=\"math inline\">\\(\\pi/2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "456fb44d-3e03-4319-92ae-aa1190cafe21",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\tan^{(n)} =\n             \\sum_{k=0}^{n-1} C_{n-1}^k \\tan^{(k)}\\tan^{(n-1-k)}$.\nPour $0 \\le x < \\pi/2$ la série est à termes positifs et les\n             sommes partielles sont majorées par $\\tan x$.\n             Pour $-\\pi/2 < x \\le 0$, il y a convergence absolue.\nSi $R > \\pi/2$, $f$ aurait une limite finie en $\\pi/2$.",
+        "html": "<p><span class=\"math inline\">\\(\\tan^{(n)} =\n             \\sum_{k=0}^{n-1} C_{n-1}^k\n\\tan^{(k)}\\tan^{(n-1-k)}\\)</span>. Pour <span class=\"math inline\">\\(0\n\\le x &lt; \\pi/2\\)</span> la série est à termes positifs et les sommes\npartielles sont majorées par <span class=\"math inline\">\\(\\tan\nx\\)</span>. Pour <span class=\"math inline\">\\(-\\pi/2 &lt; x \\le\n0\\)</span>, il y a convergence absolue. Si <span class=\"math inline\">\\(R\n&gt; \\pi/2\\)</span>, <span class=\"math inline\">\\(f\\)</span> aurait une\nlimite finie en <span class=\"math inline\">\\(\\pi/2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>En utilisant la relation : <span class=\"math inline\">\\(\\tan&#39; = 1\n+ \\tan^2\\)</span>, exprimer <span\nclass=\"math inline\">\\(\\tan^{(n)}\\)</span> en ..."
+}

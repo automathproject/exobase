@@ -1,0 +1,191 @@
+{
+  "uuid": "FH8I",
+  "titre": "Convergence de la descente de gradient",
+  "theme": [
+    "optimisation"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Erwan HILLION",
+    "createdAt": "2024-10-01",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:20.657Z"
+  },
+  "contenu": [
+    {
+      "id": "a8439d6e-ba5c-414a-a748-0f1b60cbbefb",
+      "type": "description",
+      "value": {
+        "latex": "On va prouver le théorème suivant : \n\n\\textbf{Théorème : } Soit $f : \\Rr \\rightarrow \\Rr$ une fonction de classe $\\mathcal{C}^2$ telle qu'il existe deux constantes $K,c >0$ vérifiant $c < f''(x) \\leq K$ pour tout $x \\in \\Rr$. On considère la suite $(x_n)_{n \\geq 0}$ d\\'efinie par $x_0 \\in \\Rr$ et par $x_{n+1} = x_n - \\gamma f'(x_n)$, où le pas $\\gamma$ vérifie $0 < \\gamma < 2/K$. Alors :\n\\begin{itemize}\n\\item La suite $(f(x_n))_{n \\ge 0}$ est décroissante.\n\\item La suite $(x_n)_{n \\ge 0}$ converge vers l'unique point critique de $f$.\n\\end{itemize}",
+        "html": "<p>On va prouver le théorème suivant :</p>\n<p><strong>Théorème :</strong> Soit <span class=\"math inline\">\\(f : \\Rr\n\\rightarrow \\Rr\\)</span> une fonction de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^2\\)</span> telle qu’il existe deux\nconstantes <span class=\"math inline\">\\(K,c &gt;0\\)</span> vérifiant\n<span class=\"math inline\">\\(c &lt; f&#39;&#39;(x) \\leq K\\)</span> pour\ntout <span class=\"math inline\">\\(x \\in \\Rr\\)</span>. On considère la\nsuite <span class=\"math inline\">\\((x_n)_{n \\geq 0}\\)</span> définie par\n<span class=\"math inline\">\\(x_0 \\in \\Rr\\)</span> et par <span\nclass=\"math inline\">\\(x_{n+1} = x_n - \\gamma f&#39;(x_n)\\)</span>, où le\npas <span class=\"math inline\">\\(\\gamma\\)</span> vérifie <span\nclass=\"math inline\">\\(0 &lt; \\gamma &lt; 2/K\\)</span>. Alors :</p>\n<ul>\n<li><p>La suite <span class=\"math inline\">\\((f(x_n))_{n \\ge 0}\\)</span>\nest décroissante.</p></li>\n<li><p>La suite <span class=\"math inline\">\\((x_n)_{n \\ge 0}\\)</span>\nconverge vers l’unique point critique de <span\nclass=\"math inline\">\\(f\\)</span>.</p></li>\n</ul>\n"
+      }
+    },
+    {
+      "id": "48884775-efb1-4d86-aa10-c8bf4f806c40",
+      "type": "description",
+      "value": {
+        "latex": "Pour $n \\geq 0$ fix\\'e, on pose $\\phi(t) = f(x_n- t f'(x_n))$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n \\geq 0\\)</span> fixé, on pose\n<span class=\"math inline\">\\(\\phi(t) = f(x_n- t\nf&#39;(x_n))\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "22c123f5-af98-4bf7-aa48-d4d0ef7bd597",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe $\\theta \\in ]0,t[$ tel que $\\phi(t) = \\phi(0)+t\\phi'(0)+\\frac{t^2}{2} \\phi''(\\theta)$.",
+        "html": "<p>Montrer qu’il existe <span class=\"math inline\">\\(\\theta \\in\n]0,t[\\)</span> tel que <span class=\"math inline\">\\(\\phi(t) =\n\\phi(0)+t\\phi&#39;(0)+\\frac{t^2}{2} \\phi&#39;&#39;(\\theta)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a247fc7f-17f5-4bb5-9ff4-047db4681935",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $\\phi$ est de classe $\\mathcal{C}^2$ sur $\\R$, le r\\'esultat souhait\\'e est simplement l'application de la formule de Taylor-Lagrange \\`a la fonction $\\phi$ sur l'intervalle $[0,t]$.",
+        "html": "<p>La fonction <span class=\"math inline\">\\(\\phi\\)</span> est de classe\n<span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> sur <span\nclass=\"math inline\">\\(\\R\\)</span>, le résultat souhaité est simplement\nl’application de la formule de Taylor-Lagrange à la fonction <span\nclass=\"math inline\">\\(\\phi\\)</span> sur l’intervalle <span\nclass=\"math inline\">\\([0,t]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1e6c08a7-b3e8-4026-b34f-5e317a94fc55",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\phi'(0) = -f'(x_n)^2$ et $\\phi''(\\theta) \\leq f'(x_n)^2 K$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\phi&#39;(0) =\n-f&#39;(x_n)^2\\)</span> et <span\nclass=\"math inline\">\\(\\phi&#39;&#39;(\\theta) \\leq f&#39;(x_n)^2\nK\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c7536b39-9d14-4fed-8fe3-ca870534087e",
+      "type": "reponse",
+      "value": {
+        "latex": "On calcule les deux premi\\`eres d\\'eriv\\'ees de $\\phi$ :\n\t$$\n\t\t\\phi'(t) = -f'(x_n) f'(x_n-tf'(x_n)) \\ , \\ \\phi''(t) = f'(x_n)^2 f''(x_n-tf'(x_n)).\n\t$$\n\tEn \\'evaluant respectivement en $t=0$ et en $t=\\theta$, on obtient $\\phi'(0) = -f'(x_n)^2$ et $\\phi''(0)$ et \n\t$$\n\t\t\\phi''(\\theta) = f'(x_n)^2 f''(x_n-\\theta f'(x_n)) \\leq K f'(x_n)^2.\n$$",
+        "html": "<p>On calcule les deux premières dérivées de <span\nclass=\"math inline\">\\(\\phi\\)</span> : <span\nclass=\"math display\">\\[\\phi&#39;(t) = -f&#39;(x_n)\nf&#39;(x_n-tf&#39;(x_n)) \\ , \\ \\phi&#39;&#39;(t) = f&#39;(x_n)^2\nf&#39;&#39;(x_n-tf&#39;(x_n)).\\]</span> En évaluant respectivement en\n<span class=\"math inline\">\\(t=0\\)</span> et en <span\nclass=\"math inline\">\\(t=\\theta\\)</span>, on obtient <span\nclass=\"math inline\">\\(\\phi&#39;(0) = -f&#39;(x_n)^2\\)</span> et <span\nclass=\"math inline\">\\(\\phi&#39;&#39;(0)\\)</span> et <span\nclass=\"math display\">\\[\\phi&#39;&#39;(\\theta) = f&#39;(x_n)^2\nf&#39;&#39;(x_n-\\theta f&#39;(x_n)) \\leq K f&#39;(x_n)^2.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d829e72d-7c6f-4bc6-8e81-96c36d36c1f9",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\phi(t) \\leq \\phi(0)$ pour tout $0 \\leq t < 2/K$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\phi(t) \\leq \\phi(0)\\)</span>\npour tout <span class=\"math inline\">\\(0 \\leq t &lt; 2/K\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "140205e8-8fbb-4b7a-81e0-7f3e1c639cdb",
+      "type": "reponse",
+      "value": {
+        "latex": "On d\\'eduit de la question pr\\'ec\\'edente que pour tout $0 \\leq t \\leq 2/K$, on a \n\t$$\n\t\t\\phi(t)-\\phi(0) \\leq - t f'(x_n)^2 + K \\frac{(2/K) t}{2} f'(x_n)^2 = 0.\n$$",
+        "html": "<p>On déduit de la question précédente que pour tout <span\nclass=\"math inline\">\\(0 \\leq t \\leq 2/K\\)</span>, on a <span\nclass=\"math display\">\\[\\phi(t)-\\phi(0) \\leq - t f&#39;(x_n)^2 + K\n\\frac{(2/K) t}{2} f&#39;(x_n)^2 = 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3b47549e-b491-416b-b065-f71a2bde2b39",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que $f(x_{n+1}) \\leq f(x_n)$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(f(x_{n+1}) \\leq\nf(x_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c808b7d8-4e9e-4695-8875-dc9c84efaf45",
+      "type": "reponse",
+      "value": {
+        "latex": "On a \n\t$$\n\t\tf(x_{n+1}) =  f(x_n-\\gamma f'(x_n)) = \\phi(\\gamma) \\leq \\phi(0) = f(x_n).\n\t$$\n\tOn a utilis\\'e la question pr\\'ec\\'edente et le fait que $0<\\gamma<2/K$.",
+        "html": "<p>On a <span class=\"math display\">\\[f(x_{n+1}) =  f(x_n-\\gamma\nf&#39;(x_n)) = \\phi(\\gamma) \\leq \\phi(0) = f(x_n).\\]</span> On a utilisé\nla question précédente et le fait que <span\nclass=\"math inline\">\\(0&lt;\\gamma&lt;2/K\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "64a756b4-5ab5-440c-aed4-6bfc2fbee008",
+      "type": "description",
+      "value": {
+        "latex": "On introduit la fonction $g(x) = x - \\gamma f'(x)$.",
+        "html": "<p>On introduit la fonction <span class=\"math inline\">\\(g(x) = x -\n\\gamma f&#39;(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a1ebd75f-818f-46f4-9989-1e8c0c5a6b1b",
+      "type": "question",
+      "value": {
+        "latex": "On pose $M = \\sup_{x \\in \\Rr} |g'(x)|$. Montrer que $M \\leq \\max\\left( |1-\\gamma c|, |1- \\gamma K|\\right)$, puis que $M < 1$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(M = \\sup_{x \\in \\Rr}\n|g&#39;(x)|\\)</span>. Montrer que <span class=\"math inline\">\\(M \\leq\n\\max\\left( |1-\\gamma c|, |1- \\gamma K|\\right)\\)</span>, puis que <span\nclass=\"math inline\">\\(M &lt; 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cae22e96-0716-4c4d-824c-01a720a841a6",
+      "type": "reponse",
+      "value": {
+        "latex": "On a $g'(x) = 1- \\gamma f''(x)$, et comme $c<f''(x)<K$, on a l'encadrement \n\t$$\n\t\t1-\\gamma K < g'(x) < 1- \\gamma c, \n\t$$\n\tet on en d\\'eduit que pour tout $x \\in \\Rr$, on a $|g'(x)| \\leq \\max(|1-\\gamma c|,|1-\\gamma K|)$. Pour montrer que $M < 1$, on remarque tout d'abord que $0 < c < K$ implique que $0 < \\gamma < \\frac{2}{K} < \\frac{2}{c}$, donc $\\gamma c$ et $\\gamma K$ sont dans l'intervalle $]0,2[$, et on a bien $|1-\\gamma c|<1$, $|1-\\gamma K|<1$.",
+        "html": "<p>On a <span class=\"math inline\">\\(g&#39;(x) = 1- \\gamma\nf&#39;&#39;(x)\\)</span>, et comme <span\nclass=\"math inline\">\\(c&lt;f&#39;&#39;(x)&lt;K\\)</span>, on a\nl’encadrement <span class=\"math display\">\\[1-\\gamma K &lt; g&#39;(x)\n&lt; 1- \\gamma c,\\]</span> et on en déduit que pour tout <span\nclass=\"math inline\">\\(x \\in \\Rr\\)</span>, on a <span\nclass=\"math inline\">\\(|g&#39;(x)| \\leq \\max(|1-\\gamma c|,|1-\\gamma\nK|)\\)</span>. Pour montrer que <span class=\"math inline\">\\(M &lt;\n1\\)</span>, on remarque tout d’abord que <span class=\"math inline\">\\(0\n&lt; c &lt; K\\)</span> implique que <span class=\"math inline\">\\(0 &lt;\n\\gamma &lt; \\frac{2}{K} &lt; \\frac{2}{c}\\)</span>, donc <span\nclass=\"math inline\">\\(\\gamma c\\)</span> et <span\nclass=\"math inline\">\\(\\gamma K\\)</span> sont dans l’intervalle <span\nclass=\"math inline\">\\(]0,2[\\)</span>, et on a bien <span\nclass=\"math inline\">\\(|1-\\gamma c|&lt;1\\)</span>, <span\nclass=\"math inline\">\\(|1-\\gamma K|&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "78033190-29f2-44e2-959a-442f5556b595",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $n \\geq 1$, on a $|x_{n+1}-x_n| = |g(x_n)-g(x_{n-1})| < M |x_n-x_{n-1}|$.",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(n \\geq 1\\)</span>,\non a <span class=\"math inline\">\\(|x_{n+1}-x_n| = |g(x_n)-g(x_{n-1})|\n&lt; M |x_n-x_{n-1}|\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1563d5e2-915e-4e22-95ba-72f594d4596f",
+      "type": "reponse",
+      "value": {
+        "latex": "On a $g(x_n)=x_{n+1}$ et $g(x_{n-1}) = x_n$, donc $|x_{n+1}-x_n| = |g(x_n)-g(x_{n-1})|$. L'in\\'egalit\\'e demand\\'ee est l'in\\'egalit\\'e des accroissements finis.",
+        "html": "<p>On a <span class=\"math inline\">\\(g(x_n)=x_{n+1}\\)</span> et <span\nclass=\"math inline\">\\(g(x_{n-1}) = x_n\\)</span>, donc <span\nclass=\"math inline\">\\(|x_{n+1}-x_n| = |g(x_n)-g(x_{n-1})|\\)</span>.\nL’inégalité demandée est l’inégalité des accroissements finis.</p>\n"
+      }
+    },
+    {
+      "id": "8598a4bb-ae3f-4b0e-a57d-5712a455dec6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la suite $(x_n)_{n \\geq 0}$ est convergente (on pourra considérer la série $\\sum x_{n+1}-x_n$).",
+        "html": "<p>Montrer que la suite <span class=\"math inline\">\\((x_n)_{n \\geq\n0}\\)</span> est convergente (on pourra considérer la série <span\nclass=\"math inline\">\\(\\sum x_{n+1}-x_n\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "9e3b919e-2ce1-45d2-8569-d581e0902ee6",
+      "type": "reponse",
+      "value": {
+        "latex": "La question pr\\'ec\\'edente permet de montrer par r\\'ecurrence sur $p \\geq 0$ que $|x_{p+1}-x_p| < M^p |x_1-x_0|$. De plus, l'in\\'egalit\\'e triangulaire permet d'\\'ecrire que pour tout $k < l$, on a \n\t$$\n\t\t|x_l-x_k| = \\left|\\sum_{p=k}^{l-1} x_{p+1}-x_p \\right| \\leq \\sum_{p=k}^{l-1} |x_{p+1}-x_p| < \\sum_{p=k}^{l-1} M^p |x_1-x_0|.\n\t$$\n\tOn constate enfin que \n\t$$\n\t\t\\sum_{p=k}^{l-1} M^p \\leq \\sum_{p=k}^{\\infty} M^p = M^k  \\sum_{p=0}^{\\infty} M^p = \\frac{M^k}{1-M}. \n\t$$\n\tComme $0<M<1$, on sait que la suite $\\frac{M^k}{1-M} |x_1-x_0|$ a pour limite $0$ lorsque $k \\rightarrow \\infty$. Ainsi, pour tout $\\varepsilon>0$, il existe un rang $K$ tel que pour tous $K \\leq k \\leq l$, on a $|x_l-x_k|<\\varepsilon$. La suite $(x_n)_{n \\geq 0}$ est donc une suite de Cauchy, et comme $\\Rr$ est complet, on sait qu'elle est convergente.",
+        "html": "<p>La question précédente permet de montrer par récurrence sur <span\nclass=\"math inline\">\\(p \\geq 0\\)</span> que <span\nclass=\"math inline\">\\(|x_{p+1}-x_p| &lt; M^p |x_1-x_0|\\)</span>. De\nplus, l’inégalité triangulaire permet d’écrire que pour tout <span\nclass=\"math inline\">\\(k &lt; l\\)</span>, on a <span\nclass=\"math display\">\\[|x_l-x_k| = \\left|\\sum_{p=k}^{l-1} x_{p+1}-x_p\n\\right| \\leq \\sum_{p=k}^{l-1} |x_{p+1}-x_p| &lt; \\sum_{p=k}^{l-1} M^p\n|x_1-x_0|.\\]</span> On constate enfin que <span\nclass=\"math display\">\\[\\sum_{p=k}^{l-1} M^p \\leq \\sum_{p=k}^{\\infty} M^p\n= M^k  \\sum_{p=0}^{\\infty} M^p = \\frac{M^k}{1-M}.\\]</span> Comme <span\nclass=\"math inline\">\\(0&lt;M&lt;1\\)</span>, on sait que la suite <span\nclass=\"math inline\">\\(\\frac{M^k}{1-M} |x_1-x_0|\\)</span> a pour limite\n<span class=\"math inline\">\\(0\\)</span> lorsque <span\nclass=\"math inline\">\\(k \\rightarrow \\infty\\)</span>. Ainsi, pour tout\n<span class=\"math inline\">\\(\\varepsilon&gt;0\\)</span>, il existe un rang\n<span class=\"math inline\">\\(K\\)</span> tel que pour tous <span\nclass=\"math inline\">\\(K \\leq k \\leq l\\)</span>, on a <span\nclass=\"math inline\">\\(|x_l-x_k|&lt;\\varepsilon\\)</span>. La suite <span\nclass=\"math inline\">\\((x_n)_{n \\geq 0}\\)</span> est donc une suite de\nCauchy, et comme <span class=\"math inline\">\\(\\Rr\\)</span> est complet,\non sait qu’elle est convergente.</p>\n"
+      }
+    },
+    {
+      "id": "496ae2ec-dd72-4db9-bad8-203289c699c4",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la limite $l$ de la suite $(x_n)_{n \\geq 0}$. Montrer que $f'(l)=0$.",
+        "html": "<p>Montrer que la limite <span class=\"math inline\">\\(l\\)</span> de la\nsuite <span class=\"math inline\">\\((x_n)_{n \\geq 0}\\)</span>. Montrer que\n<span class=\"math inline\">\\(f&#39;(l)=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "720fe6ea-2b5c-4091-ac99-9f8ac217d061",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $f'$ est continue, donc \n\t$$\n\t\tf'(l) = \\lim_{n \\rightarrow \\infty} f'(x_n) = \\lim_{n \\rightarrow \\infty} \\frac{x_n-x_{n+1}}{\\gamma} = \\frac{l-l}{\\gamma} = 0.\n$$",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f&#39;\\)</span> est continue,\ndonc <span class=\"math display\">\\[f&#39;(l) = \\lim_{n \\rightarrow\n\\infty} f&#39;(x_n) = \\lim_{n \\rightarrow \\infty}\n\\frac{x_n-x_{n+1}}{\\gamma} = \\frac{l-l}{\\gamma} = 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "25fb45df-10da-4a4d-b2c5-dfffc5545757",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ ne possède qu'un seul point critique.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> ne possède qu’un\nseul point critique.</p>\n"
+      }
+    },
+    {
+      "id": "6113e040-441e-41c0-a767-083e93f76591",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $f'$ est continue, donc \n\t\\begin{equation*}\n\t\tf'(l) = \\lim_{n \\rightarrow \\infty} f'(x_n) = \\lim_{n \\rightarrow \\infty} \\frac{x_n-x_{n+1}}{\\gamma} = \\frac{l-l}{\\gamma} = 0.\n\\end{equation*}",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f&#39;\\)</span> est continue,\ndonc <span class=\"math display\">\\[f&#39;(l) = \\lim_{n \\rightarrow\n\\infty} f&#39;(x_n) = \\lim_{n \\rightarrow \\infty}\n\\frac{x_n-x_{n+1}}{\\gamma} = \\frac{l-l}{\\gamma} = 0.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On va prouver le théorème suivant :</p>\n<p><strong>Théorème :</strong> Soit <span class=\"math inline\">\\(f : \\Rr\n\\rightarrow \\Rr\\)</span> une foncti ..."
+}

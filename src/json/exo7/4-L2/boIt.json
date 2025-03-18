@@ -1,0 +1,85 @@
+{
+  "uuid": "boIt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7369",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Anneau",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:12.597Z"
+  },
+  "contenu": [
+    {
+      "id": "5ddf36d4-bfaf-4abf-8997-3725d0cae4c4",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "d7caa975-ed48-4f95-a91d-ef6b64f6a59d",
+      "type": "question",
+      "value": {
+        "latex": "Soit $G$ un groupe, $e$ son élément neutre et $a$ un élément de $G$ et $m$ un entier naturel tel $a^m=e$. Que peut-on dire de l'ordre de l'élément $a$ ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe, <span\nclass=\"math inline\">\\(e\\)</span> son élément neutre et <span\nclass=\"math inline\">\\(a\\)</span> un élément de <span\nclass=\"math inline\">\\(G\\)</span> et <span\nclass=\"math inline\">\\(m\\)</span> un entier naturel tel <span\nclass=\"math inline\">\\(a^m=e\\)</span>. Que peut-on dire de l’ordre de\nl’élément <span class=\"math inline\">\\(a\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "cb6952c6-eba0-49c9-918a-78f9a8520de1",
+      "type": "question",
+      "value": {
+        "latex": "Donner la définition d'un idéal dans un anneau commutatif.",
+        "html": "<p>Donner la définition d’un idéal dans un anneau commutatif.</p>\n"
+      }
+    },
+    {
+      "id": "f218632f-7559-40ff-8c85-ddb87fab7195",
+      "type": "question",
+      "value": {
+        "latex": "Quels sont les idéaux de l'anneau $(\\Z,+,\\times)$ ?",
+        "html": "<p>Quels sont les idéaux de l’anneau <span\nclass=\"math inline\">\\((\\Z,+,\\times)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "2169e5b8-6098-4f4f-8ddf-ae71e12756d2",
+      "type": "question",
+      "value": {
+        "latex": "Le sous-ensemble $28\\Z\\cap 18\\Z$ de $\\Z$ est-il un idéal de $\\Z$ ? Si oui, le déterminer.",
+        "html": "<p>Le sous-ensemble <span class=\"math inline\">\\(28\\Z\\cap 18\\Z\\)</span>\nde <span class=\"math inline\">\\(\\Z\\)</span> est-il un idéal de <span\nclass=\"math inline\">\\(\\Z\\)</span> ? Si oui, le déterminer.</p>\n"
+      }
+    },
+    {
+      "id": "19b49fec-5f4b-4ef1-a5ff-2260ad78fd69",
+      "type": "question",
+      "value": {
+        "latex": "Donner l'exemple de deux groupes finis de même ordre non isomorphes.\r\nJustifier le fait que les deux groupes choisis ne sont pas isomorphes.",
+        "html": "<p>Donner l’exemple de deux groupes finis de même ordre non isomorphes.\nJustifier le fait que les deux groupes choisis ne sont pas\nisomorphes.</p>\n"
+      }
+    },
+    {
+      "id": "a48c7fc7-fda0-4884-a62a-6b2c2fe845b7",
+      "type": "question",
+      "value": {
+        "latex": "Le groupe $\\mathcal{S}_4$ des permutations de $\\{1,2,3,4\\}$ est-il cyclique ? (justifier)",
+        "html": "<p>Le groupe <span class=\"math inline\">\\(\\mathcal{S}_4\\)</span> des\npermutations de <span class=\"math inline\">\\(\\{1,2,3,4\\}\\)</span> est-il\ncyclique ? (justifier)</p>\n"
+      }
+    },
+    {
+      "id": "84690b24-9df8-4dac-b670-85a38011a881",
+      "type": "reponse",
+      "value": {
+        "latex": "On peut affirmer que l'ordre de $a$ est un diviseur de $m$.\nIl s'agit de l'idéal $pgcd(18,28)\\Z=252\\Z$.\n$\\Z/4\\Z$ et $\\Z/2\\Z\\times\\Z/2\\Z$ sont deux groupes d'ordre $4$, mais le second dont tous les éléments sont d'ordre 1 ou 2 n'est pas cyclique.\nComme $(1,2)(1,3)(1,2)=(2,3)$, $(1,2)$ et $(1,3)$ ne commutent pas. Par conséquent, le groupe $\\mathcal{S}_4$ n'est pas cyclique.",
+        "html": "<p>On peut affirmer que l’ordre de <span\nclass=\"math inline\">\\(a\\)</span> est un diviseur de <span\nclass=\"math inline\">\\(m\\)</span>. Il s’agit de l’idéal <span\nclass=\"math inline\">\\(pgcd(18,28)\\Z=252\\Z\\)</span>. <span\nclass=\"math inline\">\\(\\Z/4\\Z\\)</span> et <span\nclass=\"math inline\">\\(\\Z/2\\Z\\times\\Z/2\\Z\\)</span> sont deux groupes\nd’ordre <span class=\"math inline\">\\(4\\)</span>, mais le second dont tous\nles éléments sont d’ordre 1 ou 2 n’est pas cyclique. Comme <span\nclass=\"math inline\">\\((1,2)(1,3)(1,2)=(2,3)\\)</span>, <span\nclass=\"math inline\">\\((1,2)\\)</span> et <span\nclass=\"math inline\">\\((1,3)\\)</span> ne commutent pas. Par conséquent,\nle groupe <span class=\"math inline\">\\(\\mathcal{S}_4\\)</span> n’est pas\ncyclique.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe, <span\nclass=\"math inline\">\\(e\\)</span> son élément neutre et <span\nclass=\"math inline\">\\(a\\) ..."
+}

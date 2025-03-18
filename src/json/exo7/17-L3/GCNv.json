@@ -1,0 +1,61 @@
+{
+  "uuid": "GCNv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2232",
+    "auteur": "matos",
+    "createdAt": "2008-04-23",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:29.310Z"
+  },
+  "contenu": [
+    {
+      "id": "5ff4d60d-e924-4521-9424-ba7cada41198",
+      "type": "description",
+      "value": {
+        "latex": "Soit $Z=\\left(\\begin{array}{cc} c&s\\\\ -s&c\\end{array}\\right)$ avec $c^2 + s^2=1$.\nOn d\\'efinit $\\rho$ par\n$$\\rho = \\left\\{\\begin{array}{lrr}\n1 &\\mbox{si} & c=0\\\\\n1/2\\mbox{sign}(c) s  &\\mbox{si} & |s|< |c|\\\\\n2\\mbox{sign}(s)/c  &\\mbox{si} & |c| \\leq |s|\n\\end{array}\\right.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(Z=\\left(\\begin{array}{cc} c&amp;s\\\\\n-s&amp;c\\end{array}\\right)\\)</span> avec <span class=\"math inline\">\\(c^2\n+ s^2=1\\)</span>. On définit <span class=\"math inline\">\\(\\rho\\)</span>\npar <span class=\"math display\">\\[\\rho = \\left\\{\\begin{array}{lrr}\n1 &amp;\\mbox{si} &amp; c=0\\\\\n1/2\\mbox{sign}(c) s  &amp;\\mbox{si} &amp; |s|&lt; |c|\\\\\n2\\mbox{sign}(s)/c  &amp;\\mbox{si} &amp; |c| \\leq |s|\n\\end{array}\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d9fcce8a-8ade-4968-9389-76cbf925f350",
+      "type": "question",
+      "value": {
+        "latex": "Comment reconstruire $\\pm Z$ \\`a partir de $\\rho$?",
+        "html": "<p>Comment reconstruire <span class=\"math inline\">\\(\\pm Z\\)</span> à\npartir de <span class=\"math inline\">\\(\\rho\\)</span>?</p>\n"
+      }
+    },
+    {
+      "id": "e94ed625-88df-47f8-8641-3b633eb64266",
+      "type": "question",
+      "value": {
+        "latex": "Soit $Q$ une matrice orthogonale produit de $n$ rotations de Givens: $Q=J_1 \\cdots J_n$. Comment peut--on stocker de la fa\\c con la plus \\'economique $Q$ sous forme factoris\\'ee?",
+        "html": "<p>Soit <span class=\"math inline\">\\(Q\\)</span> une matrice orthogonale\nproduit de <span class=\"math inline\">\\(n\\)</span> rotations de Givens:\n<span class=\"math inline\">\\(Q=J_1 \\cdots J_n\\)</span>. Comment peut–on\nstocker de la façon la plus économique <span\nclass=\"math inline\">\\(Q\\)</span> sous forme factorisée?</p>\n"
+      }
+    },
+    {
+      "id": "e7427415-4e83-4d91-ae36-d51e1dd983b0",
+      "type": "question",
+      "value": {
+        "latex": "Modifier l'algorithme de Givens pour r\\'eduire $A$ \\`a la forme triangulaire sup\\'erieure ($QA=R$, $Q$ matrice produit de rotations de Givens) en stockant sur place ( donc dans $A$) toute l'information n\\'ecessaire \\`a reconstruire $Q$.",
+        "html": "<p>Modifier l’algorithme de Givens pour réduire <span\nclass=\"math inline\">\\(A\\)</span> à la forme triangulaire supérieure\n(<span class=\"math inline\">\\(QA=R\\)</span>, <span\nclass=\"math inline\">\\(Q\\)</span> matrice produit de rotations de Givens)\nen stockant sur place ( donc dans <span\nclass=\"math inline\">\\(A\\)</span>) toute l’information nécessaire à\nreconstruire <span class=\"math inline\">\\(Q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bfb8136b-75a6-44e5-b554-bff82a1fe0f6",
+      "type": "question",
+      "value": {
+        "latex": "Ecrire l'algorithme qui, \\`a partir des r\\'esultats de l'algorithme pr\\'ec\\'edent permet de reconstruire $Q$.",
+        "html": "<p>Ecrire l’algorithme qui, à partir des résultats de l’algorithme\nprécédent permet de reconstruire <span\nclass=\"math inline\">\\(Q\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(Z=\\left(\\begin{array}{cc} c&amp;s\\\\\n-s&amp;c\\end{array}\\right)\\)</span> avec <span class=\"math inline\"> ..."
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "dl60",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6603",
+    "auteur": "hueb",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Tranformée de Laplace et de Fourier",
+    "sousChapitre": "Tranformée de Laplace et de Fourier",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:55.040Z"
+  },
+  "contenu": [
+    {
+      "id": "60e54b53-68c7-4a1f-9fc3-b8d99a02bbd9",
+      "type": "description",
+      "value": {
+        "latex": "La transformée de\nLaplace de la \\lq\\lq fonction\\rq\\rq\\ impulsion de Dirac: Pour\n$\\varepsilon >0$, on pose\n$$\nF_\\varepsilon (t) = \\begin{cases}\n  \\frac 1 \\varepsilon,\\quad & 0 \\leq t \\leq \\varepsilon\\\\\n  0,\\quad & t > \\varepsilon \\phantom{ \\leq 0}\n                    \\end{cases}.\n                    $$",
+        "html": "<p>La transformée de Laplace de la ‘‘fonction’’ impulsion de Dirac: Pour\n<span class=\"math inline\">\\(\\varepsilon &gt;0\\)</span>, on pose <span\nclass=\"math display\">\\[F_\\varepsilon (t) = \\begin{cases}\n  \\frac 1 \\varepsilon,\\quad &amp; 0 \\leq t \\leq \\varepsilon\\\\\n  0,\\quad &amp; t &gt; \\varepsilon \\phantom{ \\leq 0}\n                    \\end{cases}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "7cda0fa9-1605-45a8-87e9-67994846d54b",
+      "type": "question",
+      "value": {
+        "latex": "Trouver $\\mathcal{L}(F_\\varepsilon)$.",
+        "html": "<p>Trouver <span\nclass=\"math inline\">\\(\\mathcal{L}(F_\\varepsilon)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c21709b9-bb83-4499-b422-5731e16e6f37",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\lim_{\\varepsilon \\to 0}\\mathcal{L}(F_\\varepsilon)\n  = 1$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\lim_{\\varepsilon \\to\n0}\\mathcal{L}(F_\\varepsilon)\n  = 1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>La transformée de Laplace de la ‘‘fonction’’ impulsion de Dirac: Pour\n<span class=\"math inline\">\\(\\varepsilon &gt;0\\)</span>, on pose <span\nclass=\" ..."
+}

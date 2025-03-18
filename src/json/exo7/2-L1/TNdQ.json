@@ -1,0 +1,37 @@
+{
+  "uuid": "TNdQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4239",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:53.866Z"
+  },
+  "contenu": [
+    {
+      "id": "055454b6-6baf-408e-9775-f7f510c6156e",
+      "type": "description",
+      "value": {
+        "latex": "Calculer pour tout $n \\in \\N^*$~:\n$I_n =  \\int_{x=0}^\\pi \\frac{dx}{1+\\cos^2(nx)}$.",
+        "html": "<p>Calculer pour tout <span class=\"math inline\">\\(n \\in \\N^*\\)</span> :\n<span class=\"math inline\">\\(I_n =  \\int_{x=0}^\\pi\n\\frac{dx}{1+\\cos^2(nx)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ffb17183-ba7a-4638-b149-8f20cb36b523",
+      "type": "reponse",
+      "value": {
+        "latex": "Couper en intervalles de $k\\pi/n$.\n         On obtient $I_n = \\frac\\pi{\\sqrt2}$ pour tout $n\\ge 1$.",
+        "html": "<p>Couper en intervalles de <span class=\"math inline\">\\(k\\pi/n\\)</span>.\nOn obtient <span class=\"math inline\">\\(I_n = \\frac\\pi{\\sqrt2}\\)</span>\npour tout <span class=\"math inline\">\\(n\\ge 1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer pour tout <span class=\"math inline\">\\(n \\in \\N^*\\)</span> :\n<span class=\"math inline\">\\(I_n =  \\int_{x=0}^\\pi\n\\frac{dx}{1+\\cos^2(nx)}\\)</s ..."
+}

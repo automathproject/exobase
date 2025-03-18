@@ -1,0 +1,37 @@
+{
+  "uuid": "7FiX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2281",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:41.922Z"
+  },
+  "contenu": [
+    {
+      "id": "9c0b4f18-c52f-43cc-b582-59453d3c3a94",
+      "type": "description",
+      "value": {
+        "latex": "D\\'emontrer que tout morphisme d'un corps dans\nun anneau non-trivial est injectif.",
+        "html": "<p>Démontrer que tout morphisme d’un corps dans un anneau non-trivial\nest injectif.</p>\n"
+      }
+    },
+    {
+      "id": "8ed1fcd0-d7a2-4f6f-8b34-61f51433170b",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $K$ un corps, $A$ un anneau non trivial, et $K\\xrightarrow{\\phi}A$\n  un morphisme d'anneaux. Soit $x\\in K\\setminus\\{0\\}$. On a\n  $1=\\phi(1)=\\phi(xx^{-1})=\\phi(x)\\phi(x^{-1})\\neq 0$ (car $A$ n'est pas\n  l'anneau trivial). Donc $\\phi(x)\\neq 0$. Ainsi $\\ker\\phi=\\{0\\}$, donc\n  $\\phi$ est injectif.",
+        "html": "<p>Soit <span class=\"math inline\">\\(K\\)</span> un corps, <span\nclass=\"math inline\">\\(A\\)</span> un anneau non trivial, et <span\nclass=\"math inline\">\\(K\\xrightarrow{\\phi}A\\)</span> un morphisme\nd’anneaux. Soit <span class=\"math inline\">\\(x\\in\nK\\setminus\\{0\\}\\)</span>. On a <span\nclass=\"math inline\">\\(1=\\phi(1)=\\phi(xx^{-1})=\\phi(x)\\phi(x^{-1})\\neq\n0\\)</span> (car <span class=\"math inline\">\\(A\\)</span> n’est pas\nl’anneau trivial). Donc <span class=\"math inline\">\\(\\phi(x)\\neq\n0\\)</span>. Ainsi <span class=\"math inline\">\\(\\ker\\phi=\\{0\\}\\)</span>,\ndonc <span class=\"math inline\">\\(\\phi\\)</span> est injectif.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Démontrer que tout morphisme d’un corps dans un anneau non-trivial\nest injectif.</p>\n"
+}

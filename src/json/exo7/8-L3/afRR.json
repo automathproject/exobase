@@ -1,0 +1,69 @@
+{
+  "uuid": "afRR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1449",
+    "auteur": "hilion",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe quotient, théorème de Lagrange",
+    "sousChapitre": "Groupe quotient, théorème de Lagrange",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:57.884Z"
+  },
+  "contenu": [
+    {
+      "id": "d23d5f99-1966-48db-8809-76fc1e5b8d63",
+      "type": "description",
+      "value": {
+        "latex": "Rappel: si $A$ est un anneau (en particulier, si $A$ est un corps), on note $GL_n(A)$ l'ensemble des matrices carrées de dimension $n$ à coefficient dans $A$, qui sont inversibles.\n$GL_n(A)$ forme un groupe pour la loi $\\times$ de multiplication des matrices, appelé groupe linéaire.\nUne matrice carrée de dimension $n$ est dans $GL_n(A)$ ssi son déterminant est un inversible de l'anneau $A$ (ce qui revient à dire, lorsque $A$ est un corps, que son déterminant est non nul).\n\nPour simplifier, on suppose dans l'exercice que $A$ est un corps, noté $\\mathbb{K}$.",
+        "html": "<p>Rappel: si <span class=\"math inline\">\\(A\\)</span> est un anneau (en\nparticulier, si <span class=\"math inline\">\\(A\\)</span> est un corps), on\nnote <span class=\"math inline\">\\(GL_n(A)\\)</span> l’ensemble des\nmatrices carrées de dimension <span class=\"math inline\">\\(n\\)</span> à\ncoefficient dans <span class=\"math inline\">\\(A\\)</span>, qui sont\ninversibles. <span class=\"math inline\">\\(GL_n(A)\\)</span> forme un\ngroupe pour la loi <span class=\"math inline\">\\(\\times\\)</span> de\nmultiplication des matrices, appelé groupe linéaire. Une matrice carrée\nde dimension <span class=\"math inline\">\\(n\\)</span> est dans <span\nclass=\"math inline\">\\(GL_n(A)\\)</span> ssi son déterminant est un\ninversible de l’anneau <span class=\"math inline\">\\(A\\)</span> (ce qui\nrevient à dire, lorsque <span class=\"math inline\">\\(A\\)</span> est un\ncorps, que son déterminant est non nul).</p>\n<p>Pour simplifier, on suppose dans l’exercice que <span\nclass=\"math inline\">\\(A\\)</span> est un corps, noté <span\nclass=\"math inline\">\\(\\mathbb{K}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d356ae55-6b10-41f6-ab9f-b0b002f2f280",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\det:GL_n(\\mathbb{K})\\rightarrow\\mathbb{K}^*$ est un morphisme de groupes.",
+        "html": "<p>Montrer que <span\nclass=\"math inline\">\\(\\det:GL_n(\\mathbb{K})\\rightarrow\\mathbb{K}^*\\)</span>\nest un morphisme de groupes.</p>\n"
+      }
+    },
+    {
+      "id": "e633fc29-59f2-4759-ae8b-3e1dd563b7e5",
+      "type": "question",
+      "value": {
+        "latex": "On note $SL_n(\\mathbb{K})=\\ker(\\det)$.\nDire pourquoi $SL_n(\\mathbb{K})$ est un sous-groupe distingué de $GL_n(\\mathbb{K})$ et montrer que $GL_n(\\mathbb{K})/SL_n(\\mathbb{K})\\cong \\mathbb{K}^*$.",
+        "html": "<p>On note <span\nclass=\"math inline\">\\(SL_n(\\mathbb{K})=\\ker(\\det)\\)</span>. Dire\npourquoi <span class=\"math inline\">\\(SL_n(\\mathbb{K})\\)</span> est un\nsous-groupe distingué de <span\nclass=\"math inline\">\\(GL_n(\\mathbb{K})\\)</span> et montrer que <span\nclass=\"math inline\">\\(GL_n(\\mathbb{K})/SL_n(\\mathbb{K})\\cong\n\\mathbb{K}^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "08150120-e3cd-4ead-80a1-497a57d349b3",
+      "type": "question",
+      "value": {
+        "latex": "Reconnaître $GL_1(\\mathbb{K})$ et $SL_1(\\mathbb{K})$.",
+        "html": "<p>Reconnaître <span class=\"math inline\">\\(GL_1(\\mathbb{K})\\)</span> et\n<span class=\"math inline\">\\(SL_1(\\mathbb{K})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fed88999-b0e0-4f26-ab53-09b452b84ea4",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les matrices diagonales (resp. triangulaires supérieures) de $GL_n(\\mathbb{K})$ forment un sous-groupe. Sont-ils distingués?",
+        "html": "<p>Montrer que les matrices diagonales (resp. triangulaires supérieures)\nde <span class=\"math inline\">\\(GL_n(\\mathbb{K})\\)</span> forment un\nsous-groupe. Sont-ils distingués?</p>\n"
+      }
+    },
+    {
+      "id": "3521d15a-e3e5-4c54-a263-1f43c97021cc",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $Z(GL_n(\\mathbb{K}))$ est le sous-groupe formé par les homothéties.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(Z(GL_n(\\mathbb{K}))\\)</span>\nest le sous-groupe formé par les homothéties.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Rappel: si <span class=\"math inline\">\\(A\\)</span> est un anneau (en\nparticulier, si <span class=\"math inline\">\\(A\\)</span> est un corps), on\nnote < ..."
+}

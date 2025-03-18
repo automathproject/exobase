@@ -1,0 +1,95 @@
+{
+  "uuid": "vt62",
+  "titre": "Inversiblité de matrice",
+  "theme": [
+    "calcul matriciel"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-03",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:24.596Z"
+  },
+  "contenu": [
+    {
+      "id": "200b191f-7de8-4b39-ab37-1fd3b237e490",
+      "type": "description",
+      "value": {
+        "latex": "VRAI-FAUX - Soit $A$ une matrice carrée. Parmi les affirmations suivantes, lesquelles sont vraies, lesquelles sont fausses, et pourquoi ?",
+        "html": "<p>VRAI-FAUX - Soit <span class=\"math inline\">\\(A\\)</span> une matrice\ncarrée. Parmi les affirmations suivantes, lesquelles sont vraies,\nlesquelles sont fausses, et pourquoi ?</p>\n"
+      }
+    },
+    {
+      "id": "0d3cabe5-0974-4cf1-8721-51b3bf1116a1",
+      "type": "question",
+      "value": {
+        "latex": "Si $A$ est inversible, alors $AA^\\top=A^\\top A$.",
+        "html": "<p>Si <span class=\"math inline\">\\(A\\)</span> est inversible, alors <span\nclass=\"math inline\">\\(AA^\\top=A^\\top A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "50e6b6db-f3db-4a01-bdef-bbccff99ec8e",
+      "type": "reponse",
+      "value": {
+        "latex": "FAUX : $A=\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right)$ est inversible. $A \\cdot\\left(A^\\top\\right)=\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right)=\\left(\\begin{array}{ll}1 & 1 \\\\ 1 & 2\\end{array}\\right) \\quad$ alors que $\\left(A^\\top\\right) \\cdot A=\\left(\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right)=\\left(\\begin{array}{ll}2 & 1 \\\\ 1 & 1\\end{array}\\right)$",
+        "html": "<p>FAUX : <span class=\"math inline\">\\(A=\\left(\\begin{array}{ll}1 &amp; 0\n\\\\ 1 &amp; 1\\end{array}\\right)\\)</span> est inversible. <span\nclass=\"math inline\">\\(A\n\\cdot\\left(A^\\top\\right)=\\left(\\begin{array}{ll}1 &amp; 0 \\\\ 1 &amp;\n1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 &amp; 1 \\\\ 0 &amp;\n1\\end{array}\\right)=\\left(\\begin{array}{ll}1 &amp; 1 \\\\ 1 &amp;\n2\\end{array}\\right) \\quad\\)</span> alors que <span\nclass=\"math inline\">\\(\\left(A^\\top\\right) \\cdot\nA=\\left(\\begin{array}{ll}1 &amp; 1 \\\\ 0 &amp; 1\\end{array}\\right)\n\\cdot\\left(\\begin{array}{ll}1 &amp; 0 \\\\ 1 &amp;\n1\\end{array}\\right)=\\left(\\begin{array}{ll}2 &amp; 1 \\\\ 1 &amp;\n1\\end{array}\\right)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4ba52777-081c-4510-93f6-873af7d014ed",
+      "type": "question",
+      "value": {
+        "latex": "Si $A$ est inversible, alors $AA^\\top$ est inversible ;",
+        "html": "<p>Si <span class=\"math inline\">\\(A\\)</span> est inversible, alors <span\nclass=\"math inline\">\\(AA^\\top\\)</span> est inversible ;</p>\n"
+      }
+    },
+    {
+      "id": "e1694884-caec-4ef3-a2b0-2ce47741617b",
+      "type": "reponse",
+      "value": {
+        "latex": "VRAI : Si $A$ est inversible, alors $\\left(A^\\top\\right)$ est aussi inversible avec $\\left(A^\\top\\right)^{-1}={ }^t(A)^{-1}$. Et le produit de deux matrices inversibles est inversible, donc $A .\\left(A^\\top\\right)$ est aussi inversible.",
+        "html": "<p>VRAI : Si <span class=\"math inline\">\\(A\\)</span> est inversible,\nalors <span class=\"math inline\">\\(\\left(A^\\top\\right)\\)</span> est aussi\ninversible avec <span class=\"math inline\">\\(\\left(A^\\top\\right)^{-1}={\n}^t(A)^{-1}\\)</span>. Et le produit de deux matrices inversibles est\ninversible, donc <span class=\"math inline\">\\(A\n.\\left(A^\\top\\right)\\)</span> est aussi inversible.</p>\n"
+      }
+    },
+    {
+      "id": "c8a63407-231b-4532-aa10-49aab351f068",
+      "type": "question",
+      "value": {
+        "latex": "Si $A$ est inversible, alors $A+A^\\top$ est inversible.",
+        "html": "<p>Si <span class=\"math inline\">\\(A\\)</span> est inversible, alors <span\nclass=\"math inline\">\\(A+A^\\top\\)</span> est inversible.</p>\n"
+      }
+    },
+    {
+      "id": "aa62b6a7-f2a9-4165-9d6e-84b3a01b3e3a",
+      "type": "reponse",
+      "value": {
+        "latex": "FAUX : $A=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)$ est inversible, alors que $A+\\left(A^\\top\\right)=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)+\\left(\\begin{array}{cc}0 & 1 \\\\ -1 & 0\\end{array}\\right)=\\left(\\begin{array}{ll}0 & 0 \\\\ 0 & 0\\end{array}\\right)$ ne l'est pas.",
+        "html": "<p>FAUX : <span class=\"math inline\">\\(A=\\left(\\begin{array}{cc}0 &amp;\n-1 \\\\ 1 &amp; 0\\end{array}\\right)\\)</span> est inversible, alors que\n<span\nclass=\"math inline\">\\(A+\\left(A^\\top\\right)=\\left(\\begin{array}{cc}0\n&amp; -1 \\\\ 1 &amp; 0\\end{array}\\right)+\\left(\\begin{array}{cc}0 &amp; 1\n\\\\ -1 &amp; 0\\end{array}\\right)=\\left(\\begin{array}{ll}0 &amp; 0 \\\\ 0\n&amp; 0\\end{array}\\right)\\)</span> ne l’est pas.</p>\n"
+      }
+    },
+    {
+      "id": "e3040f9e-6416-4b64-9a0b-9a008a473dfd",
+      "type": "question",
+      "value": {
+        "latex": "Si $A$ est inversible, alors $A$ est semblable à la matrice identité.",
+        "html": "<p>Si <span class=\"math inline\">\\(A\\)</span> est inversible, alors <span\nclass=\"math inline\">\\(A\\)</span> est semblable à la matrice\nidentité.</p>\n"
+      }
+    },
+    {
+      "id": "660d8cfe-2e1c-4321-bf5c-2681363b6cf9",
+      "type": "reponse",
+      "value": {
+        "latex": "FAUX : $A$ est semblable à la matrice identité signifie qu'il existe une matrice inversible $P$ telle que : $P^{-1} . A . P=I d \\Leftrightarrow A=P . Id . P^{-1}=I d$. Donc, si $A$ est inversible et $A \\neq Id, A$ n'est semblable à la matrice identité.\n\t\tLa seule matrice semblable à l'identité est elle-même !",
+        "html": "<p>FAUX : <span class=\"math inline\">\\(A\\)</span> est semblable à la\nmatrice identité signifie qu’il existe une matrice inversible <span\nclass=\"math inline\">\\(P\\)</span> telle que : <span\nclass=\"math inline\">\\(P^{-1} . A . P=I d \\Leftrightarrow A=P . Id .\nP^{-1}=I d\\)</span>. Donc, si <span class=\"math inline\">\\(A\\)</span> est\ninversible et <span class=\"math inline\">\\(A \\neq Id, A\\)</span> n’est\nsemblable à la matrice identité. La seule matrice semblable à l’identité\nest elle-même !</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>VRAI-FAUX - Soit <span class=\"math inline\">\\(A\\)</span> une matrice\ncarrée. Parmi les affirmations suivantes, lesquelles sont vraies,\nlesquelles so ..."
+}

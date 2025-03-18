@@ -1,0 +1,53 @@
+{
+  "uuid": "lVjP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5500",
+    "auteur": "rouget",
+    "createdAt": "2010-07-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Orthonormalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:37.368Z"
+  },
+  "contenu": [
+    {
+      "id": "45beeaf3-17ea-4c85-901e-13bd9e3f6a15",
+      "type": "description",
+      "value": {
+        "latex": "Sur $E=\\Rr_n[X]$, on pose $P|Q=\\int_{-1}^{1}P(t)Q(t)\\;dt$.",
+        "html": "<p>Sur <span class=\"math inline\">\\(E=\\Rr_n[X]\\)</span>, on pose <span\nclass=\"math inline\">\\(P|Q=\\int_{-1}^{1}P(t)Q(t)\\;dt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "36d942b6-9a28-40c4-b1a5-29e1ea649c92",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $(E,|)$ est un espace euclidien.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\((E,|)\\)</span> est un espace\neuclidien.</p>\n"
+      }
+    },
+    {
+      "id": "bcef8da5-22ea-486c-beb5-25e8934f273f",
+      "type": "question",
+      "value": {
+        "latex": "Pour $p$ entier naturel compris entre $0$ et $n$, on pose $L_p=((X^2-1)^p)^{(p)}$.\nMontrer que $\\left(\\frac{L_p}{||L_p||}\\right)_{0\\leq p\\leq n}$ est l'orthonormalisée de \\textsc{Schmidt} de la base canonique de $E$.\n\nDéterminer $||Lp||$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(p\\)</span> entier naturel compris\nentre <span class=\"math inline\">\\(0\\)</span> et <span\nclass=\"math inline\">\\(n\\)</span>, on pose <span\nclass=\"math inline\">\\(L_p=((X^2-1)^p)^{(p)}\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\left(\\frac{L_p}{||L_p||}\\right)_{0\\leq p\\leq\nn}\\)</span> est l’orthonormalisée de <span\nclass=\"smallcaps\">Schmidt</span> de la base canonique de <span\nclass=\"math inline\">\\(E\\)</span>.</p>\n<p>Déterminer <span class=\"math inline\">\\(||Lp||\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac634cb0-c02f-4cd9-9be2-d2da9142d224",
+      "type": "reponse",
+      "value": {
+        "latex": "La symétrie, la bilinéarité et la positivité sont claires. Soit alors $P\\in\\Rr_n[X]$. \n\n$$\\begin{align*}\\ensuremath\nP|P=0&\\Rightarrow\\int_{0}^{1}P^2(t)\\;dt=0\\\\\n &\\Rightarrow\\forall t\\in[0,1],\\;P^2(t)=0\\;(\\mbox{fonction continue, positive, d'intégrale nulle})\\\\\n &\\Rightarrow P=0\\;(\\mbox{polynôme ayant une infinité de racines}).\n\\end{align*}$$\nAinsi, l'application $(P,Q)\\mapsto\\int_{0}^{1}P(t)Q(t)\\;dt$ est un produit scalaire sur $\\Rr_n[X]$.\nPour vérifier que la famille $\\left(\\frac{L_p}{||L_p||}\\right)_{0\\leq p\\leq n}$ est l'orthonormalisée de \\textsc{Schmidt} de la base canonique de $E$, nous allons vérifier que\n  \\begin{enumerate}\n$\\forall p\\in\\llbracket0,n\\rrbracket,\\;\\mbox{Vect}(L_0,L_1,...,L_p)=\\mbox{Vect}(1,X,...,X^p)$,\\rule[-4mm]{0mm}{0mm}\nla famille $\\left(\\frac{L_p}{||L_p||}\\right)_{0\\leq p\\leq n}$ est orthonormale,\n$\\forall p\\in\\llbracket0,n\\rrbracket,\\;L_p|X^p>0$.\\rule{0mm}{5mm}",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Sur <span class=\"math inline\">\\(E=\\Rr_n[X]\\)</span>, on pose <span\nclass=\"math inline\">\\(P|Q=\\int_{-1}^{1}P(t)Q(t)\\;dt\\)</span>.</p>\n"
+}

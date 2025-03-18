@@ -1,0 +1,77 @@
+{
+  "uuid": "I8Kv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5783",
+    "auteur": "rouget",
+    "createdAt": "2010-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:54.342Z"
+  },
+  "contenu": [
+    {
+      "id": "2daf6657-e3f8-4aa9-9eb4-7ff5c77bbcba",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a\\in\\Cc\\setminus[-1,1]$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in\\Cc\\setminus[-1,1]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fef245eb-73e4-42ea-95af-c9b7b323e961",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "1e220c96-3c54-4305-a0b8-0bacc495631d",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "d47c5e0b-d5e7-4c32-bd52-f12c63049c34",
+      "type": "question",
+      "value": {
+        "latex": "Développer en série trigonométrique la fonction $f~:~t\\mapsto\\frac{1}{a-\\cos t}$ (utiliser la racine de plus petit module, notée $b$,  de l'équation $z^2-az+1=0$).",
+        "html": "<p>Développer en série trigonométrique la fonction <span\nclass=\"math inline\">\\(f~:~t\\mapsto\\frac{1}{a-\\cos t}\\)</span> (utiliser\nla racine de plus petit module, notée <span\nclass=\"math inline\">\\(b\\)</span>, de l’équation <span\nclass=\"math inline\">\\(z^2-az+1=0\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "7863c1e0-d707-4474-9369-5d50dd4d3c22",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $a\\in\\Cc\\setminus[-1,1]$. Pour tout réel $t$, $a-\\cos t\\neq0$ et\n\n\\begin{center}\n$\\frac{1}{a-\\cos t}=\\frac{2}{2a-e^{it}-e^{-it}}=\\frac{-2e^{it}}{(e^{it})^2-2ae^{it}+1}$.\n\\end{center}\n\nL'équation $z^2-2az+1=0$ admet deux solutions non  nulles inverses l'une de l'autre. On note $b$ la solution de plus petit module de sorte que $|b|\\leqslant1$.\n\nOn ne peut avoir $|b|=1$ car alors il existe $\\theta\\in\\Rr$ tel que $b=e^{i\\theta}$. On en déduit que $2a=b+\\frac{1}{b}=2\\cos\\theta\\in[-2,2]$ puis que $a\\in[-1,1]$ ce qui n'est pas. Donc $|b|\\neq1$. Plus précisément, puisque $|b|\\leqslant\\left|\\frac{1}{b}\\right|$, on a $|b|<1$ et $\\left|\\frac{1}{b}\\right|$. En particulier, $b\\neq\\frac{1}{b}$.\n\nEnsuite, pour $|t|<|b|$, on a\n\n$$\\begin{align*}\\ensuremath\n\\frac{1}{a-\\cos t}&=\\frac{-2e^{it}}{(e^{it}-b)\\left(e^{it}-\\frac{1}{b}\\right)}=\\frac{2}{\\frac{1}{b}-b}\\left(\\frac{b}{e^{it}-b}-\\frac{1/b}{e^{it}-\\frac{1}{b}}\\right)=\\frac{2b}{1-b^2}\\left(\\frac{be^{-it}}{1-be^{-it}}+\\frac{1}{1-be^{it}}\\right)\\\\\n &=\\frac{2b}{1-b^2}\\left(be^{-it}\\sum_{n=0}^{+\\infty}b^ne^{-int}+\\sum_{n=0}^{+\\infty}b^ne^{int}\\right)\\;(\\text{car}\\;|be^{it}|=|be^{-it}|=|b|<1)\\\\\n &=\\frac{2b}{1-b^2}\\left(\\sum_{n=0}^{+\\infty}b^{n+1}e^{-i(n+1)t}+\\sum_{n=0}^{+\\infty}b^ne^{int}\\right)=\\frac{2b}{1-b^2}\\left(1+\\sum_{n=1}^{+\\infty}b^ne^{int}+\\sum_{n=1}^{+\\infty}b^{n}e^{-int}\\right)\\\\\n &=\\frac{2b}{1-b^2}\\left(1+2\\sum_{n=1}^{+\\infty}b^n\\cos(nt)\\right).\n\\end{align*}$$\n\n\\begin{center}\n\\shadowbox{\n$\\forall t\\in\\Rr$, $\\frac{1}{a-\\cos t}=\\frac{2b}{1-b^2}\\left(1+2\\sum_{n=1}^{+\\infty}b^n\\cos(nt)\\right)$.\n}\n\\end{center}",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in\\Cc\\setminus[-1,1]\\)</span>.\nPour tout réel <span class=\"math inline\">\\(t\\)</span>, <span\nclass=\"math inline\">\\(a-\\cos t\\neq0\\)</span> et</p>\n<div class=\"center\">\n<p><span class=\"math inline\">\\(\\frac{1}{a-\\cos\nt}=\\frac{2}{2a-e^{it}-e^{-it}}=\\frac{-2e^{it}}{(e^{it})^2-2ae^{it}+1}\\)</span>.</p>\n</div>\n<p>L’équation <span class=\"math inline\">\\(z^2-2az+1=0\\)</span> admet\ndeux solutions non nulles inverses l’une de l’autre. On note <span\nclass=\"math inline\">\\(b\\)</span> la solution de plus petit module de\nsorte que <span class=\"math inline\">\\(|b|\\leqslant1\\)</span>.</p>\n<p>On ne peut avoir <span class=\"math inline\">\\(|b|=1\\)</span> car alors\nil existe <span class=\"math inline\">\\(\\theta\\in\\Rr\\)</span> tel que\n<span class=\"math inline\">\\(b=e^{i\\theta}\\)</span>. On en déduit que\n<span\nclass=\"math inline\">\\(2a=b+\\frac{1}{b}=2\\cos\\theta\\in[-2,2]\\)</span>\npuis que <span class=\"math inline\">\\(a\\in[-1,1]\\)</span> ce qui n’est\npas. Donc <span class=\"math inline\">\\(|b|\\neq1\\)</span>. Plus\nprécisément, puisque <span\nclass=\"math inline\">\\(|b|\\leqslant\\left|\\frac{1}{b}\\right|\\)</span>, on\na <span class=\"math inline\">\\(|b|&lt;1\\)</span> et <span\nclass=\"math inline\">\\(\\left|\\frac{1}{b}\\right|\\)</span>. En particulier,\n<span class=\"math inline\">\\(b\\neq\\frac{1}{b}\\)</span>.</p>\n<p>Ensuite, pour <span class=\"math inline\">\\(|t|&lt;|b|\\)</span>, on\na</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\n\\frac{1}{a-\\cos\nt}&amp;=\\frac{-2e^{it}}{(e^{it}-b)\\left(e^{it}-\\frac{1}{b}\\right)}=\\frac{2}{\\frac{1}{b}-b}\\left(\\frac{b}{e^{it}-b}-\\frac{1/b}{e^{it}-\\frac{1}{b}}\\right)=\\frac{2b}{1-b^2}\\left(\\frac{be^{-it}}{1-be^{-it}}+\\frac{1}{1-be^{it}}\\right)\\\\\n&amp;=\\frac{2b}{1-b^2}\\left(be^{-it}\\sum_{n=0}^{+\\infty}b^ne^{-int}+\\sum_{n=0}^{+\\infty}b^ne^{int}\\right)\\;(\\text{car}\\;|be^{it}|=|be^{-it}|=|b|&lt;1)\\\\\n&amp;=\\frac{2b}{1-b^2}\\left(\\sum_{n=0}^{+\\infty}b^{n+1}e^{-i(n+1)t}+\\sum_{n=0}^{+\\infty}b^ne^{int}\\right)=\\frac{2b}{1-b^2}\\left(1+\\sum_{n=1}^{+\\infty}b^ne^{int}+\\sum_{n=1}^{+\\infty}b^{n}e^{-int}\\right)\\\\\n&amp;=\\frac{2b}{1-b^2}\\left(1+2\\sum_{n=1}^{+\\infty}b^n\\cos(nt)\\right).\n\\end{align*}\\]</span></p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    },
+    {
+      "id": "bcbc02c5-a744-4f66-b306-9a9ec49399d5",
+      "type": "question",
+      "value": {
+        "latex": "La série obtenue est-elle la série de \\textsc{Fourier} de $f$ ?",
+        "html": "<p>La série obtenue est-elle la série de <span\nclass=\"smallcaps\">Fourier</span> de <span\nclass=\"math inline\">\\(f\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "78e84030-5bfa-4e09-9785-139002189f2e",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout réel $t\\in[-\\pi,\\pi]$ et tout entier naturel non nul $n$, on a $|b^n\\cos(nt)|\\leqslant|b|^n$. Comme la série numérique de terme général $|b|^n$ converge, on en déduit que la série de fonctions de terme général $t\\mapsto b^n\\cos(nt)$, $n\\in\\Nn$, converge normalement et donc uniformément sur le segment $[-\\pi,\\pi]$.\n\nOn sait alors que la série obtenue est la série de \\textsc{Fourier} de $f$.",
+        "html": "<p>Pour tout réel <span class=\"math inline\">\\(t\\in[-\\pi,\\pi]\\)</span> et\ntout entier naturel non nul <span class=\"math inline\">\\(n\\)</span>, on a\n<span class=\"math inline\">\\(|b^n\\cos(nt)|\\leqslant|b|^n\\)</span>. Comme\nla série numérique de terme général <span\nclass=\"math inline\">\\(|b|^n\\)</span> converge, on en déduit que la série\nde fonctions de terme général <span class=\"math inline\">\\(t\\mapsto\nb^n\\cos(nt)\\)</span>, <span class=\"math inline\">\\(n\\in\\Nn\\)</span>,\nconverge normalement et donc uniformément sur le segment <span\nclass=\"math inline\">\\([-\\pi,\\pi]\\)</span>.</p>\n<p>On sait alors que la série obtenue est la série de <span\nclass=\"smallcaps\">Fourier</span> de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a\\in\\Cc\\setminus[-1,1]\\)</span>.</p>\n"
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "rVvd",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "433",
+    "auteur": "gourio",
+    "createdAt": "2001-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:08.640Z"
+  },
+  "contenu": [
+    {
+      "id": "c70e9657-9883-49c8-9c00-f126e527fed1",
+      "type": "description",
+      "value": {
+        "latex": "Soient $W_{n}=(X^{2}-1)^{n}, \\ L_{n}=\\frac{1}{2^{n}n!}W_{n}^{(n)}.$",
+        "html": "<p>Soient <span class=\"math inline\">\\(W_{n}=(X^{2}-1)^{n}, \\\nL_{n}=\\frac{1}{2^{n}n!}W_{n}^{(n)}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "57546dd3-7e38-4b0b-aa32-b965751f3c83",
+      "type": "question",
+      "value": {
+        "latex": "Donner le degr\\'{e} de $L_{n}$, son coefficient dominant, sa parit\\'{e},\ncalculer $L_{n}(1).$\nDonner $L_{0},L_{1},L_{2}.$",
+        "html": "<p>Donner le degré de <span class=\"math inline\">\\(L_{n}\\)</span>, son\ncoefficient dominant, sa parité, calculer <span\nclass=\"math inline\">\\(L_{n}(1).\\)</span> Donner <span\nclass=\"math inline\">\\(L_{0},L_{1},L_{2}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2af6c010-276b-4eac-8bf4-3e0097642734",
+      "type": "question",
+      "value": {
+        "latex": "D\\'{e}montrer : $\\forall n\\geq 1,(X^{2}-1)W_{n}^{^{\\prime }}=2nXW_{n},$ en\nd\\'{e}duire :\n$$\\forall n\\in \\Nn,(X^{2}-1)L_{n}^{^{\\prime \\prime }}+\n2XL_{n}^{^{\\prime}}-n(n+1)L_{n}=0.$$",
+        "html": "<p>Démontrer : <span class=\"math inline\">\\(\\forall n\\geq\n1,(X^{2}-1)W_{n}^{^{\\prime }}=2nXW_{n},\\)</span> en déduire : <span\nclass=\"math display\">\\[\\forall n\\in \\Nn,(X^{2}-1)L_{n}^{^{\\prime \\prime\n}}+\n2XL_{n}^{^{\\prime}}-n(n+1)L_{n}=0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "531faea6-7e8f-4806-b1af-2194a44222b7",
+      "type": "question",
+      "value": {
+        "latex": "Montrer ensuite : $\\forall n\\geq 1,L_{n}^{\\prime }=XL_{n-1}^{^{\\prime\n}}+nL_{n-1},$ puis $nL_{n}=XL_{n}^{^{\\prime }}-L_{n-1}^{^{\\prime }}.$",
+        "html": "<p>Montrer ensuite : <span class=\"math inline\">\\(\\forall n\\geq\n1,L_{n}^{\\prime }=XL_{n-1}^{^{\\prime\n}}+nL_{n-1},\\)</span> puis <span\nclass=\"math inline\">\\(nL_{n}=XL_{n}^{^{\\prime }}-L_{n-1}^{^{\\prime\n}}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "83b43839-3c9f-4ccb-8de0-6162d1546122",
+      "type": "question",
+      "value": {
+        "latex": "Montrer enfin que les polyn\\^{o}mes $L_{n} $ peuvent \\^{e}tre d\\'{e}finis\npar la r\\'{e}currence :\n$$(n+1)L_{n+1}=(2n+1)XL_{n}-nL_{n-1}.$$",
+        "html": "<p>Montrer enfin que les polynômes <span\nclass=\"math inline\">\\(L_{n}\\)</span> peuvent être définis par la\nrécurrence : <span\nclass=\"math display\">\\[(n+1)L_{n+1}=(2n+1)XL_{n}-nL_{n-1}.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(W_{n}=(X^{2}-1)^{n}, \\\nL_{n}=\\frac{1}{2^{n}n!}W_{n}^{(n)}.\\)</span></p>\n"
+}

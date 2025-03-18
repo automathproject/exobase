@@ -1,0 +1,37 @@
+{
+  "uuid": "jbD2",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2198",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de Sylow",
+    "sousChapitre": "Théorème de Sylow",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:15:01.313Z"
+  },
+  "contenu": [
+    {
+      "id": "be4f7a09-b3db-4994-9159-987c9b92545e",
+      "type": "description",
+      "value": {
+        "latex": "Soient $G$ un groupe et $H$ un sous-groupe distingu\\'e\nde $G$. On se donne un nombre premier $p$ et un $p$-Sylow $P$ de\n$G$. Montrer que $H\\cap P$ est un $p$-Sylow de $H$ et que\n$HP/H$ est un $p$-Sylow de $G/H$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(G\\)</span> un groupe et <span\nclass=\"math inline\">\\(H\\)</span> un sous-groupe distingué de <span\nclass=\"math inline\">\\(G\\)</span>. On se donne un nombre premier <span\nclass=\"math inline\">\\(p\\)</span> et un <span\nclass=\"math inline\">\\(p\\)</span>-Sylow <span\nclass=\"math inline\">\\(P\\)</span> de <span\nclass=\"math inline\">\\(G\\)</span>. Montrer que <span\nclass=\"math inline\">\\(H\\cap P\\)</span> est un <span\nclass=\"math inline\">\\(p\\)</span>-Sylow de <span\nclass=\"math inline\">\\(H\\)</span> et que <span\nclass=\"math inline\">\\(HP/H\\)</span> est un <span\nclass=\"math inline\">\\(p\\)</span>-Sylow de <span\nclass=\"math inline\">\\(G/H\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c9ecdfdb-1993-4d91-b5bc-6d446148aa19",
+      "type": "reponse",
+      "value": {
+        "latex": "Le groupe $P$ est un $p$-sous groupe maximal de $G$ et donc\naussi de $HP$ puisque $P\\subset HP$ (noter que $HP$ est un sous-groupe car $H$ est\nsuppos\\'e distingu\\'e dans $G$); $P$ est donc un $p$-Sylow de $HP$. Si $|P|=p^n$,\nalors $|HP|=p^n s$ avec $p$ ne divisant pas $s$. On peut aussi \\'ecrire $|H|=p^{m}\nr$ avec $p$ ne divisant pas $r$; on a alors n\\'ecessairement $m\\leq n$ et $s$\nmultiple de $r$. On a aussi $HP/H\n\\simeq P/(H\\cap P)$ ce qui donne $|H\\cap P| = |P||H|/|HP| = p^m (r/s)$. On obtient donc\nque $s=r$ et que $H\\cap P$ est un $p$-Sylow du groupe $H$.\n\\smallskip\n\nOn a aussi $|G|=p^n t$ avec $p$ ne divisant pas $t$ et $t$ multiple de $s$. On en\nd\\'eduit $|G/H| = p^{n-m} (t/r)$. Comme $t/r$ est un entier non divisible par $p$\net que $HP/H$ est un sous-groupe de $G/H$ d'ordre $|HP/H| = p^{n-m}$, le groupe\n$HP/H$ est un $p$-Sylow de $G/H$.",
+        "html": "<p>Le groupe <span class=\"math inline\">\\(P\\)</span> est un <span\nclass=\"math inline\">\\(p\\)</span>-sous groupe maximal de <span\nclass=\"math inline\">\\(G\\)</span> et donc aussi de <span\nclass=\"math inline\">\\(HP\\)</span> puisque <span\nclass=\"math inline\">\\(P\\subset HP\\)</span> (noter que <span\nclass=\"math inline\">\\(HP\\)</span> est un sous-groupe car <span\nclass=\"math inline\">\\(H\\)</span> est supposé distingué dans <span\nclass=\"math inline\">\\(G\\)</span>); <span\nclass=\"math inline\">\\(P\\)</span> est donc un <span\nclass=\"math inline\">\\(p\\)</span>-Sylow de <span\nclass=\"math inline\">\\(HP\\)</span>. Si <span\nclass=\"math inline\">\\(|P|=p^n\\)</span>, alors <span\nclass=\"math inline\">\\(|HP|=p^n s\\)</span> avec <span\nclass=\"math inline\">\\(p\\)</span> ne divisant pas <span\nclass=\"math inline\">\\(s\\)</span>. On peut aussi écrire <span\nclass=\"math inline\">\\(|H|=p^{m}\nr\\)</span> avec <span class=\"math inline\">\\(p\\)</span> ne divisant pas\n<span class=\"math inline\">\\(r\\)</span>; on a alors nécessairement <span\nclass=\"math inline\">\\(m\\leq n\\)</span> et <span\nclass=\"math inline\">\\(s\\)</span> multiple de <span\nclass=\"math inline\">\\(r\\)</span>. On a aussi <span\nclass=\"math inline\">\\(HP/H\n\\simeq P/(H\\cap P)\\)</span> ce qui donne <span\nclass=\"math inline\">\\(|H\\cap P| = |P||H|/|HP| = p^m (r/s)\\)</span>. On\nobtient donc que <span class=\"math inline\">\\(s=r\\)</span> et que <span\nclass=\"math inline\">\\(H\\cap P\\)</span> est un <span\nclass=\"math inline\">\\(p\\)</span>-Sylow du groupe <span\nclass=\"math inline\">\\(H\\)</span>.</p>\n<p>On a aussi <span class=\"math inline\">\\(|G|=p^n t\\)</span> avec <span\nclass=\"math inline\">\\(p\\)</span> ne divisant pas <span\nclass=\"math inline\">\\(t\\)</span> et <span\nclass=\"math inline\">\\(t\\)</span> multiple de <span\nclass=\"math inline\">\\(s\\)</span>. On en déduit <span\nclass=\"math inline\">\\(|G/H| = p^{n-m} (t/r)\\)</span>. Comme <span\nclass=\"math inline\">\\(t/r\\)</span> est un entier non divisible par <span\nclass=\"math inline\">\\(p\\)</span> et que <span\nclass=\"math inline\">\\(HP/H\\)</span> est un sous-groupe de <span\nclass=\"math inline\">\\(G/H\\)</span> d’ordre <span\nclass=\"math inline\">\\(|HP/H| = p^{n-m}\\)</span>, le groupe <span\nclass=\"math inline\">\\(HP/H\\)</span> est un <span\nclass=\"math inline\">\\(p\\)</span>-Sylow de <span\nclass=\"math inline\">\\(G/H\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(G\\)</span> un groupe et <span\nclass=\"math inline\">\\(H\\)</span> un sous-groupe distingué de <span\nclass=\"math inl ..."
+}

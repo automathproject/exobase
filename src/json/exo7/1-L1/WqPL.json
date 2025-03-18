@@ -1,0 +1,61 @@
+{
+  "uuid": "WqPL",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "995",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace vectoriel",
+    "sousChapitre": "Base",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:54.400Z"
+  },
+  "contenu": [
+    {
+      "id": "dcf49121-02cd-456a-8944-4c67c34ccb9f",
+      "type": "description",
+      "value": {
+        "latex": "Problème de l'interpolation~: soit les cinq points\n$(x_1,y_1)=(-2,3)$, $(x_2,y_2)=(0,-2)$,\n$(x_3,y_3)=(1,5)$, $(x_4,y_4)=(5,1)$, $(x_5,y_5)=(6,7)$\nde $\\mathbb{R}^2$, et $\\mathcal{P}_4$ l'espace vectoriel des polynômes\nde degré $\\leq 4$. On veut trouver un polynôme~$F$\ndans $\\mathcal{P}_4$ tel que pour $i=1,\\ldots,5$ on ait\n$F(x_i)=y_i$.",
+        "html": "<p>Problème de l’interpolation : soit les cinq points <span\nclass=\"math inline\">\\((x_1,y_1)=(-2,3)\\)</span>, <span\nclass=\"math inline\">\\((x_2,y_2)=(0,-2)\\)</span>, <span\nclass=\"math inline\">\\((x_3,y_3)=(1,5)\\)</span>, <span\nclass=\"math inline\">\\((x_4,y_4)=(5,1)\\)</span>, <span\nclass=\"math inline\">\\((x_5,y_5)=(6,7)\\)</span> de <span\nclass=\"math inline\">\\(\\mathbb{R}^2\\)</span>, et <span\nclass=\"math inline\">\\(\\mathcal{P}_4\\)</span> l’espace vectoriel des\npolynômes de degré <span class=\"math inline\">\\(\\leq 4\\)</span>. On veut\ntrouver un polynôme <span class=\"math inline\">\\(F\\)</span> dans <span\nclass=\"math inline\">\\(\\mathcal{P}_4\\)</span> tel que pour <span\nclass=\"math inline\">\\(i=1,\\ldots,5\\)</span> on ait <span\nclass=\"math inline\">\\(F(x_i)=y_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "46dd390e-62f8-4083-bcd3-5810a4164ef0",
+      "type": "question",
+      "value": {
+        "latex": "Sans effectuer les calculs, indiquer\ncomment on pourrait calculer $a,b,c,d,e$ exprimant\n$F=a+bX+cX^2+dX^3+eX^4$ selon la base \n$\\{1,X,X^2,X^3,X^4\\}$ de $\\mathcal{P}_4$.",
+        "html": "<p>Sans effectuer les calculs, indiquer comment on pourrait calculer\n<span class=\"math inline\">\\(a,b,c,d,e\\)</span> exprimant <span\nclass=\"math inline\">\\(F=a+bX+cX^2+dX^3+eX^4\\)</span> selon la base <span\nclass=\"math inline\">\\(\\{1,X,X^2,X^3,X^4\\}\\)</span> de <span\nclass=\"math inline\">\\(\\mathcal{P}_4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "75032f14-e5a8-4f8e-8a5f-65f4abd9419b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\{1,X+2,(X+2)X,(X+2)X(X-1),\n(X+2)X(X-1)(X-5)\\}$ est une base de $\\mathcal{P}_4$. Calculer directement\n(indépendamment de la question précédente) les coordonnées de $F$\ndans cette base.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\{1,X+2,(X+2)X,(X+2)X(X-1),\n(X+2)X(X-1)(X-5)\\}\\)</span> est une base de <span\nclass=\"math inline\">\\(\\mathcal{P}_4\\)</span>. Calculer directement\n(indépendamment de la question précédente) les coordonnées de <span\nclass=\"math inline\">\\(F\\)</span> dans cette base.</p>\n"
+      }
+    },
+    {
+      "id": "7720771d-3e31-4d5f-b582-1f6a7986225d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'ensemble des polynômes \n$X(X-1)(X-5)(X-6),(X+2)(X-1)(X-5)(X-6),\n(X+2)X(X-5)(X-6),\n(X+2)X(X-1)(X-6),(X+2)X(X-1)(X-5)$\nforment une base de $\\mathcal{P}_4$. Calculer directement (indépendamment \ndes questions précédentes) les coordonnées de~$F$ dans cette base.",
+        "html": "<p>Montrer que l’ensemble des polynômes <span\nclass=\"math inline\">\\(X(X-1)(X-5)(X-6),(X+2)(X-1)(X-5)(X-6),\n(X+2)X(X-5)(X-6),\n(X+2)X(X-1)(X-6),(X+2)X(X-1)(X-5)\\)</span> forment une base de <span\nclass=\"math inline\">\\(\\mathcal{P}_4\\)</span>. Calculer directement\n(indépendamment des questions précédentes) les coordonnées de <span\nclass=\"math inline\">\\(F\\)</span> dans cette base.</p>\n"
+      }
+    },
+    {
+      "id": "2349d8a0-65af-4cec-aa6e-e1290618cac9",
+      "type": "question",
+      "value": {
+        "latex": "Dans laquelle des diverses bases ci-dessus le calcul de~$F$  vous\nparaît-il le plus simple~?",
+        "html": "<p>Dans laquelle des diverses bases ci-dessus le calcul de <span\nclass=\"math inline\">\\(F\\)</span> vous paraît-il le plus simple ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Problème de l’interpolation : soit les cinq points <span\nclass=\"math inline\">\\((x_1,y_1)=(-2,3)\\)</span>, <span\nclass=\"math inline\"> ..."
+}

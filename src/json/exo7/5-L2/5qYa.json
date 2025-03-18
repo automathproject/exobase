@@ -1,0 +1,37 @@
+{
+  "uuid": "5qYa",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5560",
+    "auteur": "rouget",
+    "createdAt": "2010-07-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:32.372Z"
+  },
+  "contenu": [
+    {
+      "id": "ee9bc582-ec10-42cd-8873-0de3090622d8",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a$ un réel strictement positif donné. Trouver le minimum de $f(x,y)=\\sqrt{x^2+(y-a)^2}+\\sqrt{y^2+(x-a)^2}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel strictement\npositif donné. Trouver le minimum de <span\nclass=\"math inline\">\\(f(x,y)=\\sqrt{x^2+(y-a)^2}+\\sqrt{y^2+(x-a)^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9003b4f1-aac0-4e04-83df-adb505676477",
+      "type": "reponse",
+      "value": {
+        "latex": "Soient $\\mathcal{R}$ un repère orthonormé de $\\Rr^2$ muni de sa structure euclidienne canonique puis $M$, $A$ et $B$ les points de coordonnées respectives $(x,y)$, $(0,a)$ et $(a,0)$ dans $\\mathcal{R}$.\nPour $(x,y)\\in\\Rr^2$, $f(x,y)=MA+MB\\geqslant AB=a\\sqrt{2}$ avec égalité si et seulement si $M\\in[AB]$. Donc\n\n\\begin{center}\n\\shadowbox{\nLe minimum de $f$ sur $\\Rr^2$ existe et vaut $a\\sqrt{2}$.\n}\n\\end{center}",
+        "html": "<p>Soient <span class=\"math inline\">\\(\\mathcal{R}\\)</span> un repère\northonormé de <span class=\"math inline\">\\(\\Rr^2\\)</span> muni de sa\nstructure euclidienne canonique puis <span\nclass=\"math inline\">\\(M\\)</span>, <span class=\"math inline\">\\(A\\)</span>\net <span class=\"math inline\">\\(B\\)</span> les points de coordonnées\nrespectives <span class=\"math inline\">\\((x,y)\\)</span>, <span\nclass=\"math inline\">\\((0,a)\\)</span> et <span\nclass=\"math inline\">\\((a,0)\\)</span> dans <span\nclass=\"math inline\">\\(\\mathcal{R}\\)</span>. Pour <span\nclass=\"math inline\">\\((x,y)\\in\\Rr^2\\)</span>, <span\nclass=\"math inline\">\\(f(x,y)=MA+MB\\geqslant AB=a\\sqrt{2}\\)</span> avec\négalité si et seulement si <span\nclass=\"math inline\">\\(M\\in[AB]\\)</span>. Donc</p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel strictement\npositif donné. Trouver le minimum de <span\nclass=\"math inline\"> ..."
+}

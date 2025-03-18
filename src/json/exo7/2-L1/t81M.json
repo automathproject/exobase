@@ -1,0 +1,61 @@
+{
+  "uuid": "t81M",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4451",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:58.234Z"
+  },
+  "contenu": [
+    {
+      "id": "6a458f9d-c7ae-4b52-beab-ca9d8a1783f1",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ff7c076d-81ef-45ed-aa23-934d480d6ead",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(u_n)$ une suite réelle\n    telle que $\\sum |u_n|$ et $\\sum n|u_n|$ convergent.\n    On note $v_n = \\sum_{k=n}^\\infty u_k$.\n \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "295032e9-8f72-404d-b146-babb458037c3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $nv_n \\to 0$ lorsque $n\\to\\infty$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(nv_n \\to 0\\)</span> lorsque\n<span class=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f3e30fed-a692-4a05-9ac8-8c17c1e875ff",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\sum_{n=1}^\\infty v_n = \\sum_{n=1}^\\infty nu_n$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\sum_{n=1}^\\infty v_n =\n\\sum_{n=1}^\\infty nu_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ae45327c-25a3-4629-a30b-f04e789f279a",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac r{(1-r)^2}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac r{(1-r)^2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que <span class=\"math inline\">\\(nv_n \\to 0\\)</span> lorsque\n<span class=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+}

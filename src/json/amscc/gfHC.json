@@ -1,0 +1,39 @@
+{
+  "uuid": "gfHC",
+  "titre": "Définition d'une probabilité",
+  "theme": [
+    "probabilités"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-24",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:53:24.217Z"
+  },
+  "contenu": [
+    {
+      "id": "19c7284f-e329-4896-9f00-60ebba76fd62",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer une probabilité sur $\\Omega  = \\left\\{ {1,2, \\ldots ,n} \\right\\}$ telle que la probabilité de l'événement $\\left\\{ {1,2, \\ldots ,k} \\right\\}$ soit proportionnelle à $k^2 $.",
+        "html": "<p>Déterminer une probabilité sur <span class=\"math inline\">\\(\\Omega  =\n\\left\\{ {1,2, \\ldots ,n} \\right\\}\\)</span> telle que la probabilité de\nl’événement <span class=\"math inline\">\\(\\left\\{ {1,2, \\ldots ,k}\n\\right\\}\\)</span> soit proportionnelle à <span\nclass=\"math inline\">\\(k^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1a78885b-06a0-4226-a2fb-4bfae8ae0430",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $k = n$, on a $\\PP(\\Omega) = \\alpha n^2 = 1$. Donc $\\alpha = \\frac{1}{n^2}$. Ainsi, $\\PP(\\left\\{ {1,2, \\ldots ,k} \\right\\}) = \\frac{k^2}{n^2}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(k = n\\)</span>, on a <span\nclass=\"math inline\">\\(\\PP(\\Omega) = \\alpha n^2 = 1\\)</span>. Donc <span\nclass=\"math inline\">\\(\\alpha = \\frac{1}{n^2}\\)</span>. Ainsi, <span\nclass=\"math inline\">\\(\\PP(\\left\\{ {1,2, \\ldots ,k} \\right\\}) =\n\\frac{k^2}{n^2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer une probabilité sur <span class=\"math inline\">\\(\\Omega  =\n\\left\\{ {1,2, \\ldots ,n} \\right\\}\\)</span> telle que la probabilité de\nl’événe ..."
+}

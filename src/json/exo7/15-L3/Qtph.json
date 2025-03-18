@@ -1,0 +1,45 @@
+{
+  "uuid": "Qtph",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6188",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Compacité",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:41.989Z"
+  },
+  "contenu": [
+    {
+      "id": "2ddd2714-3117-4af2-b592-286ee982ee36",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel normé sur $\\Cc$ de boule unité fermée\n$\\overline B$ et\n$F$ un sous-espace vectoriel fermé de $E$. On a montré dans le liste précédente\nque si\n$F\\not=E$,\\quad $\\sup_{x\\in\\overline B} d(x,F)=1.$\n\nOn va montrer qu'un evn dont la boule unité fermée est compacte est\nnécessaire\\-ment de dimension finie.\nOn suppose donc que $\\overline B$ est compacte.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel normé\nsur <span class=\"math inline\">\\(\\Cc\\)</span> de boule unité fermée <span\nclass=\"math inline\">\\(\\overline B\\)</span> et <span\nclass=\"math inline\">\\(F\\)</span> un sous-espace vectoriel fermé de <span\nclass=\"math inline\">\\(E\\)</span>. On a montré dans le liste précédente\nque si <span class=\"math inline\">\\(F\\not=E\\)</span>,<span\nclass=\"math inline\">\\(\\sup_{x\\in\\overline B} d(x,F)=1.\\)</span></p>\n<p>On va montrer qu’un evn dont la boule unité fermée est compacte est\nnécessairement de dimension finie. On suppose donc que <span\nclass=\"math inline\">\\(\\overline B\\)</span> est compacte.</p>\n"
+      }
+    },
+    {
+      "id": "4b40b955-1883-4bc5-90fe-a95f2c377564",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $\\varepsilon >0$ on peut trouver un nombre fini de\npoints $x_1,\\cdots,x_k\\in\\overline B$ tels que $\\overline B\\subset\\cup_{j=1}^k\nB(x_j,\\varepsilon)$.",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(\\varepsilon\n&gt;0\\)</span> on peut trouver un nombre fini de points <span\nclass=\"math inline\">\\(x_1,\\cdots,x_k\\in\\overline B\\)</span> tels que\n<span class=\"math inline\">\\(\\overline B\\subset\\cup_{j=1}^k\nB(x_j,\\varepsilon)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a83ab7ae-0b98-4b92-b1d7-534cdcce31a9",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $E$ est de dimension finie : pour cela, considérer le\nsous-espace vectoriel engendré par $x_1,\\cdots,x_k$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(E\\)</span> est de dimension\nfinie : pour cela, considérer le sous-espace vectoriel engendré par\n<span class=\"math inline\">\\(x_1,\\cdots,x_k\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel normé\nsur <span class=\"math inline\">\\(\\Cc\\)</span> de boule unité fermée <span\nclas ..."
+}

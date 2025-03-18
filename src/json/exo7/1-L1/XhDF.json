@@ -1,0 +1,53 @@
+{
+  "uuid": "XhDF",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2441",
+    "auteur": "matexo1",
+    "createdAt": "2002-02-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Matrice et application linéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:57.550Z"
+  },
+  "contenu": [
+    {
+      "id": "e2d6eb4d-c395-4967-b590-1a7ef7c3e452",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel de dimension\nfinie $n$, et $u, v$ deux endomorphismes de $E$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel de\ndimension finie <span class=\"math inline\">\\(n\\)</span>, et <span\nclass=\"math inline\">\\(u, v\\)</span> deux endomorphismes de <span\nclass=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bafbbb4e-4256-4b01-8638-3c03cdc5ec2d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u \\circ v =0$ si et seulement si l'image de\n$v$ est contenue dans le noyau de $u$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u \\circ v =0\\)</span> si et\nseulement si l’image de <span class=\"math inline\">\\(v\\)</span> est\ncontenue dans le noyau de <span class=\"math inline\">\\(u\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dbf85d86-29f1-43f1-88e8-347332b5dc6e",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(e_1, \\ldots, e_n)$ une base de $E$. On suppose\ndans cette question que $u$ et $v$ s'expriment dans cette base par\n$$u(e_1) = e_1, \\qquad u(e_i) = 0\\quad\\hbox{si}\\quad i \\neq 1,$$\n$$v(e_2) = e_2, \\qquad v(e_i) = 0\\quad\\hbox{si}\\quad i \\neq 2.$$\nTrouver les matrices de $u$, $v$ et $u\\circ v$ dans cette base.",
+        "html": "<p>Soit <span class=\"math inline\">\\((e_1, \\ldots, e_n)\\)</span> une base\nde <span class=\"math inline\">\\(E\\)</span>. On suppose dans cette\nquestion que <span class=\"math inline\">\\(u\\)</span> et <span\nclass=\"math inline\">\\(v\\)</span> s’expriment dans cette base par <span\nclass=\"math display\">\\[u(e_1) = e_1, \\qquad u(e_i) =\n0\\quad\\hbox{si}\\quad i \\neq 1,\\]</span> <span\nclass=\"math display\">\\[v(e_2) = e_2, \\qquad v(e_i) =\n0\\quad\\hbox{si}\\quad i \\neq 2.\\]</span> Trouver les matrices de <span\nclass=\"math inline\">\\(u\\)</span>, <span class=\"math inline\">\\(v\\)</span>\net <span class=\"math inline\">\\(u\\circ v\\)</span> dans cette base.</p>\n"
+      }
+    },
+    {
+      "id": "7e046db0-07c7-41f3-906a-631d2c77e789",
+      "type": "question",
+      "value": {
+        "latex": "Si $u$ est un endomorphisme quelconque non nul de $E$, quelle\ncondition doit v\\'erifier le noyau de $u$ pour qu'il existe un\nendomorphisme non nul $v$ tel que $u\\circ v =0$\\,? Dans ce cas, $u$\nest-il bijectif\\,?",
+        "html": "<p>Si <span class=\"math inline\">\\(u\\)</span> est un endomorphisme\nquelconque non nul de <span class=\"math inline\">\\(E\\)</span>, quelle\ncondition doit vérifier le noyau de <span\nclass=\"math inline\">\\(u\\)</span> pour qu’il existe un endomorphisme non\nnul <span class=\"math inline\">\\(v\\)</span> tel que <span\nclass=\"math inline\">\\(u\\circ v =0\\)</span> ? Dans ce cas, <span\nclass=\"math inline\">\\(u\\)</span> est-il bijectif ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel de\ndimension finie <span class=\"math inline\">\\(n\\)</span>, et <span\nclass=\"math inl ..."
+}

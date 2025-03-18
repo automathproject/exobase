@@ -1,0 +1,37 @@
+{
+  "uuid": "3HwN",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2145",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-groupe distingué",
+    "sousChapitre": "Sous-groupe distingué",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:42.889Z"
+  },
+  "contenu": [
+    {
+      "id": "cea82d58-a6ab-4b47-84f4-fdbe3e0aaef6",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que les groupes $\\mu_4$ et $\\mu_2 \\times \\mu_2 $ ne sont pas\nisomorphes. De fa\\c con g\\' en\\' erale montrer que si $m$ et $n$ sont des entiers qui ne\nsont pas premiers entre eux, les groupes $\\mu_{mn}$ et $\\mu_m \\times \\mu_n$ ne sont pas\nisomorphes.",
+        "html": "<p>Montrer que les groupes <span class=\"math inline\">\\(\\mu_4\\)</span> et\n<span class=\"math inline\">\\(\\mu_2 \\times \\mu_2\\)</span> ne sont pas\nisomorphes. De façon générale montrer que si <span\nclass=\"math inline\">\\(m\\)</span> et <span\nclass=\"math inline\">\\(n\\)</span> sont des entiers qui ne sont pas\npremiers entre eux, les groupes <span\nclass=\"math inline\">\\(\\mu_{mn}\\)</span> et <span\nclass=\"math inline\">\\(\\mu_m \\times \\mu_n\\)</span> ne sont pas\nisomorphes.</p>\n"
+      }
+    },
+    {
+      "id": "4af0f6c6-4f2b-4dc2-8c11-7e291377c6da",
+      "type": "reponse",
+      "value": {
+        "latex": "Le groupe $\\mu_{mn}$ a un \\'el\\'ement d'ordre $mn$. En revanche tout \\'el\\'ement $x\\in\n\\mu_m\\times \\mu_n$ v\\'erifie $x^\\mu=1$ avec $\\mu=\\mathrm{ppcm}(m,n)$ et est donc d'ordre un diviseur\nde $\\mu$, lequel est $< mn$ si $m$ et $n$ ne sont pas premiers entre eux. Les groupes\n$\\mu_{mn}$ et $\\mu_m\\times \\mu_n$ ne peuvent donc pas \\^etre isomorphes.",
+        "html": "<p>Le groupe <span class=\"math inline\">\\(\\mu_{mn}\\)</span> a un élément\nd’ordre <span class=\"math inline\">\\(mn\\)</span>. En revanche tout\nélément <span class=\"math inline\">\\(x\\in\n\\mu_m\\times \\mu_n\\)</span> vérifie <span\nclass=\"math inline\">\\(x^\\mu=1\\)</span> avec <span\nclass=\"math inline\">\\(\\mu=\\mathrm{ppcm}(m,n)\\)</span> et est donc\nd’ordre un diviseur de <span class=\"math inline\">\\(\\mu\\)</span>, lequel\nest <span class=\"math inline\">\\(&lt; mn\\)</span> si <span\nclass=\"math inline\">\\(m\\)</span> et <span\nclass=\"math inline\">\\(n\\)</span> ne sont pas premiers entre eux. Les\ngroupes <span class=\"math inline\">\\(\\mu_{mn}\\)</span> et <span\nclass=\"math inline\">\\(\\mu_m\\times \\mu_n\\)</span> ne peuvent donc pas\nêtre isomorphes.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que les groupes <span class=\"math inline\">\\(\\mu_4\\)</span> et\n<span class=\"math inline\">\\(\\mu_2 \\times \\mu_2\\)</span> ne sont pas\nisomorphe ..."
+}

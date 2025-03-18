@@ -1,0 +1,77 @@
+{
+  "uuid": "cpvo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3672",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Produit scalaire, norme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:15.237Z"
+  },
+  "contenu": [
+    {
+      "id": "65c176d1-9d17-44c8-a778-ebaee24c6ef3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel euclidien, et $\\vec e_1,\\dots,\\vec e_n$ des vecteurs unitaires tels que :\n$\\forall\\ \\vec x \\in E, \\quad \\|\\vec x\\,\\|^2 = \\sum_{i=1}^n (\\vec x\\mid \\vec e_i)^2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien, et <span class=\"math inline\">\\(\\vec e_1,\\dots,\\vec\ne_n\\)</span> des vecteurs unitaires tels que : <span\nclass=\"math inline\">\\(\\forall\\ \\vec x \\in E, \\quad \\|\\vec x\\,\\|^2 =\n\\sum_{i=1}^n (\\vec x\\mid \\vec e_i)^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d40dc39a-82cc-447f-b99c-314b29fb9f4b",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que $(\\vec e_1,\\dots,\\vec e_n)$ est une base orthonormale de $E$.",
+        "html": "<p>Démontrer que <span class=\"math inline\">\\((\\vec e_1,\\dots,\\vec\ne_n)\\)</span> est une base orthonormale de <span\nclass=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "681bb73a-4f12-4297-a676-457a11acea72",
+      "type": "question",
+      "value": {
+        "latex": "On remplace l'hypothèse : $\\vec e_i$ unitaire par : $\\dim E = n$.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "46412c74-2861-4d1a-80ff-8c3334e4d80a",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que $(\\vec e_1,\\dots,\\vec e_n)$ est une base de $E$.",
+        "html": "<p>Démontrer que <span class=\"math inline\">\\((\\vec e_1,\\dots,\\vec\ne_n)\\)</span> est une base de <span\nclass=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2769b250-4084-4901-86f4-eafe19482582",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que : $\\forall\\ \\vec x,\\vec y \\in E,\\ (\\vec x \\mid\\vec y) = \\sum_{i=1}^n (\\vec x\\mid \\vec e_i)(\\vec y\\mid \\vec e_i)$.",
+        "html": "<p>Démontrer que : <span class=\"math inline\">\\(\\forall\\ \\vec x,\\vec y\n\\in E,\\ (\\vec x \\mid\\vec y) = \\sum_{i=1}^n (\\vec x\\mid \\vec e_i)(\\vec\ny\\mid \\vec e_i)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "28b2c79d-07f2-413d-b600-1ded82db6b9d",
+      "type": "question",
+      "value": {
+        "latex": "On note $G$ la matrice de Gram de $\\vec e_1,\\dots,\\vec e_n$. Démontrer que $G^2 = G$ et conclure.",
+        "html": "<p>On note <span class=\"math inline\">\\(G\\)</span> la matrice de Gram de\n<span class=\"math inline\">\\(\\vec e_1,\\dots,\\vec e_n\\)</span>. Démontrer\nque <span class=\"math inline\">\\(G^2 = G\\)</span> et conclure.</p>\n"
+      }
+    },
+    {
+      "id": "b84f54d0-23b1-40c8-9de2-dda47c9593fa",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{i=1}^n (\\vec e_j\\mid \\vec e_i)^2 = 1  \\Rightarrow {}$\n        famille orthonormée et vect$(\\vec e_i)^\\perp$ = $\\{\\vec 0\\}$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{i=1}^n (\\vec e_j\\mid \\vec e_i)^2 =\n1  \\Rightarrow {}\\)</span> famille orthonormée et vect<span\nclass=\"math inline\">\\((\\vec e_i)^\\perp\\)</span> = <span\nclass=\"math inline\">\\(\\{\\vec 0\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel\neuclidien, et <span class=\"math inline\">\\(\\vec e_1,\\dots,\\vec\ne_n\\)</span> des vect ..."
+}

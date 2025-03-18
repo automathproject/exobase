@@ -1,0 +1,173 @@
+{
+  "uuid": "foD9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4054",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:43.393Z"
+  },
+  "contenu": [
+    {
+      "id": "737d437c-8ecd-442e-a19c-ca81b59a3d0b",
+      "type": "description",
+      "value": {
+        "latex": "Intégrer les équations suivantes :",
+        "html": "<p>Intégrer les équations suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "26c09ddf-af32-4c74-b2f1-78f6da04c6b5",
+      "type": "question",
+      "value": {
+        "latex": "$(2+x)y' = 2-y$.",
+        "html": "<p><span class=\"math inline\">\\((2+x)y&#39; = 2-y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4ccd8a7c-8bb6-461c-98ed-ac5f2e3d5ea0",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = 2 + \\frac\\lambda{x+2}$.",
+        "html": "<p><span class=\"math inline\">\\(y = 2 + \\frac\\lambda{x+2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "80b92cf3-c104-4891-88a3-bdb644c51532",
+      "type": "question",
+      "value": {
+        "latex": "$xy'+y = \\cos x$.",
+        "html": "<p><span class=\"math inline\">\\(xy&#39;+y = \\cos x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d028343e-b742-418d-b8b4-65195cee494e",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\frac{C+\\sin x}x$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\frac{C+\\sin x}x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "04e48213-664d-457d-ac90-da984fbdf32f",
+      "type": "question",
+      "value": {
+        "latex": "$(1+x)y' + y = (1+x)\\sin x$.",
+        "html": "<p><span class=\"math inline\">\\((1+x)y&#39; + y = (1+x)\\sin\nx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9fca5e2d-8683-4135-8880-dd0c5b7e2ba4",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = -\\cos x + \\frac{\\sin x + \\lambda}{1+x}$.",
+        "html": "<p><span class=\"math inline\">\\(y = -\\cos x + \\frac{\\sin x +\n\\lambda}{1+x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0ac4161c-6a7e-4140-8465-e967376bd39b",
+      "type": "question",
+      "value": {
+        "latex": "$x^3y' -x^2y = 1$.",
+        "html": "<p><span class=\"math inline\">\\(x^3y&#39; -x^2y = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3bb8fa51-900a-4aa1-850f-0fa9cd1c6f77",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\lambda x - \\frac 1{3x^2}$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\lambda x - \\frac\n1{3x^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "30b26036-b596-40d6-bf5b-bb8fa63eeece",
+      "type": "question",
+      "value": {
+        "latex": "$3xy' - 4y = x$.",
+        "html": "<p><span class=\"math inline\">\\(3xy&#39; - 4y = x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6036aadf-b5da-42cf-b743-0ec776964879",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\lambda x^{4/3} - x$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\lambda x^{4/3} - x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0eb663e1-dc1b-461d-a88f-7bcc44b2c496",
+      "type": "question",
+      "value": {
+        "latex": "$y'+y = \\sin x + 3\\sin 2x$.",
+        "html": "<p><span class=\"math inline\">\\(y&#39;+y = \\sin x + 3\\sin\n2x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4f5aec96-8b0f-43cb-abbe-8379e379891d",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\frac{\\sin x - \\cos x}2 + \\frac{3\\sin 2x - 6\\cos 2x}5 + \\lambda e^{-x}$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\frac{\\sin x - \\cos x}2 + \\frac{3\\sin\n2x - 6\\cos 2x}5 + \\lambda e^{-x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a15fd19b-3472-4336-ac7d-6c18c9e7f0c4",
+      "type": "question",
+      "value": {
+        "latex": "$2x(1-x)y' + (1-2x)y = 1$.",
+        "html": "<p><span class=\"math inline\">\\(2x(1-x)y&#39; + (1-2x)y = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8cbd6425-abbb-40cc-83b7-74d4ee1c3cdf",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\frac{\\Argch(1-2x)+\\lambda}{2\\sqrt{x^2-x}}$ pour $x < 0$\\par\n               $y = \\frac{\\arcsin(2x-1)+\\mu}{2\\sqrt{x-x^2}}$ pour $0 < x < 1$\\par\n               $y = \\frac{-\\Argch(2x-1)+\\nu}{2\\sqrt{x^2-x}}$ pour $1 < x$.",
+        "html": "<p><span class=\"math inline\">\\(y =\n\\frac{\\Argch(1-2x)+\\lambda}{2\\sqrt{x^2-x}}\\)</span> pour <span\nclass=\"math inline\">\\(x &lt; 0\\)</span></p>\n<p><span class=\"math inline\">\\(y =\n\\frac{\\arcsin(2x-1)+\\mu}{2\\sqrt{x-x^2}}\\)</span> pour <span\nclass=\"math inline\">\\(0 &lt; x &lt; 1\\)</span></p>\n<p><span class=\"math inline\">\\(y =\n\\frac{-\\Argch(2x-1)+\\nu}{2\\sqrt{x^2-x}}\\)</span> pour <span\nclass=\"math inline\">\\(1 &lt; x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "41025e1a-d32a-4877-84bc-a05b1e319b78",
+      "type": "question",
+      "value": {
+        "latex": "$x(x+1)y' + y = \\arctan x$. \\label{arctan}",
+        "html": "<p><span class=\"math inline\">\\(x(x+1)y&#39; + y = \\arctan x\\)</span>.\n<span id=\"arctan\" label=\"arctan\"></span></p>\n"
+      }
+    },
+    {
+      "id": "cd1c7258-6a8a-4a15-8ffc-460e9f3653c5",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\frac {x-1}{2x} \\arctan x +\n       \\frac {x+1}{2x} \\left(\\ln\\frac {|x+1|}{\\sqrt{x^2+1}} + \\lambda \\right)$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\frac {x-1}{2x} \\arctan x +\n       \\frac {x+1}{2x} \\left(\\ln\\frac {|x+1|}{\\sqrt{x^2+1}} + \\lambda\n\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a8dfcac2-db79-4f8c-952b-a65fa44b5168",
+      "type": "question",
+      "value": {
+        "latex": "$x(x^2-1)y' + 2y = x\\ln x - x^2$.\n      \n\npour \\ref{arctan} : \\'Etudier les problèmes de raccordement.",
+        "html": "<p><span class=\"math inline\">\\(x(x^2-1)y&#39; + 2y = x\\ln x -\nx^2\\)</span>.</p>\n<p>pour <a href=\"#arctan\" data-reference-type=\"ref\"\ndata-reference=\"arctan\">[arctan]</a> : Étudier les problèmes de\nraccordement.</p>\n"
+      }
+    },
+    {
+      "id": "2bd26d92-e563-4e15-96e0-471ec154c7ac",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\frac{x}{1-x^2}\\Bigl( (1+x)\\ln x + 1 + \\lambda x\\Bigr)$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\frac{x}{1-x^2}\\Bigl( (1+x)\\ln x + 1\n+ \\lambda x\\Bigr)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Intégrer les équations suivantes :</p>\n"
+}

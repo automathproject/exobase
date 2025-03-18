@@ -1,0 +1,69 @@
+{
+  "uuid": "ETmS",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7731",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:46.193Z"
+  },
+  "contenu": [
+    {
+      "id": "946d7bee-c7f6-430a-b543-33eb7bd8900b",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "331c6d48-f0dc-4c96-9032-30bf38815d3c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'anneau quotient $\\mathbb{F}_3[X]/X^2+1$ est un corps que l'on notera $\\mathbb{F}_{9}$. On notera $\\xi:=[X]$ la classe du polynôme $X$. \r\nMontrer que $(1,\\xi)$ est une base de $\\mathbb{F}_{9}$ comme $\\mathbb{F}_{3}$-espace vectoriel. On définit les applications $\\ell_i : \\mathbb{F}_{9} \\rightarrow \\mathbb{F}_{3}$ pour $i=1,2$ par la condition $$\\forall \\lambda \\in \\mathbb{F}_{9},\\ \\ \\ \\lambda=\\ell_1(\\lambda)+\\ell_2(\\lambda)\\xi.$$",
+        "html": "<p>Montrer que l’anneau quotient <span\nclass=\"math inline\">\\(\\mathbb{F}_3[X]/X^2+1\\)</span> est un corps que\nl’on notera <span class=\"math inline\">\\(\\mathbb{F}_{9}\\)</span>. On\nnotera <span class=\"math inline\">\\(\\xi:=[X]\\)</span> la classe du\npolynôme <span class=\"math inline\">\\(X\\)</span>. Montrer que <span\nclass=\"math inline\">\\((1,\\xi)\\)</span> est une base de <span\nclass=\"math inline\">\\(\\mathbb{F}_{9}\\)</span> comme <span\nclass=\"math inline\">\\(\\mathbb{F}_{3}\\)</span>-espace vectoriel. On\ndéfinit les applications <span class=\"math inline\">\\(\\ell_i :\n\\mathbb{F}_{9} \\rightarrow \\mathbb{F}_{3}\\)</span> pour <span\nclass=\"math inline\">\\(i=1,2\\)</span> par la condition <span\nclass=\"math display\">\\[\\forall \\lambda \\in \\mathbb{F}_{9},\\ \\ \\\n\\lambda=\\ell_1(\\lambda)+\\ell_2(\\lambda)\\xi.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "35ec8ae4-8543-45a5-bc65-435abf566a52",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\sigma : \\mathbb{F}_{9}\\mapsto\\mathbb{F}_{9}$ défini par $\\sigma(x)=x^3$.\r\nMontrer que $\\sigma$ est un automorphisme de corps de $\\mathbb{F}_{9}$ d'ordre $2$. Calculer $\\sigma(\\xi)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\sigma :\n\\mathbb{F}_{9}\\mapsto\\mathbb{F}_{9}\\)</span> défini par <span\nclass=\"math inline\">\\(\\sigma(x)=x^3\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\sigma\\)</span> est un automorphisme de corps de\n<span class=\"math inline\">\\(\\mathbb{F}_{9}\\)</span> d’ordre <span\nclass=\"math inline\">\\(2\\)</span>. Calculer <span\nclass=\"math inline\">\\(\\sigma(\\xi)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e9f99f9b-e971-4f1e-8acc-5e2b1b177bc0",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout $\\lambda \\in  \\mathbb{F}_{9} $, \r\n \\begin{eqnarray*}\r\n\\ell_2(\\lambda)&=&-\\ell_1(\\xi\\lambda)\\\\\r\n2\\ell_1(\\lambda)&=&\\lambda+\\sigma(\\lambda) \\\\\r\n2\\xi \\ell_2(\\lambda)&=&\\lambda-\\sigma(\\lambda).\r\n\\end{eqnarray*}",
+        "html": "<p>Montrer que, pour tout <span class=\"math inline\">\\(\\lambda\n\\in  \\mathbb{F}_{9}\\)</span>, <span\nclass=\"math display\">\\[\\begin{aligned}\n\\ell_2(\\lambda)&amp;=&amp;-\\ell_1(\\xi\\lambda)\\\\\n2\\ell_1(\\lambda)&amp;=&amp;\\lambda+\\sigma(\\lambda) \\\\\n2\\xi \\ell_2(\\lambda)&amp;=&amp;\\lambda-\\sigma(\\lambda).\n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "2e26752d-5efd-49cf-b886-ab2cd2c10c3c",
+      "type": "question",
+      "value": {
+        "latex": "{\\itshape (Polarisation)}\r\nSoit $E$ un $\\mathbb{F}_{9}$-espace vectoriel.\r\nSoit $h$ une forme $\\sigma$-hermitienne sur $E$. \r\nSoit $q$ la forme quadratique associée (i.e. pour $x\\in E$, $q(x)=h(x,x)$). Soit $(x,y)\\in E^2$.\r\nCalculer $\\ell_1(f(x,y))$ en fonction de $q$\r\net en déduire $f(x,y)$ en fonction de $q$.",
+        "html": "<p><span><em>(Polarisation)</em></span> Soit <span\nclass=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(\\mathbb{F}_{9}\\)</span>-espace vectoriel. Soit\n<span class=\"math inline\">\\(h\\)</span> une forme <span\nclass=\"math inline\">\\(\\sigma\\)</span>-hermitienne sur <span\nclass=\"math inline\">\\(E\\)</span>. Soit <span\nclass=\"math inline\">\\(q\\)</span> la forme quadratique associée (i.e.\npour <span class=\"math inline\">\\(x\\in E\\)</span>, <span\nclass=\"math inline\">\\(q(x)=h(x,x)\\)</span>). Soit <span\nclass=\"math inline\">\\((x,y)\\in E^2\\)</span>. Calculer <span\nclass=\"math inline\">\\(\\ell_1(f(x,y))\\)</span> en fonction de <span\nclass=\"math inline\">\\(q\\)</span> et en déduire <span\nclass=\"math inline\">\\(f(x,y)\\)</span> en fonction de <span\nclass=\"math inline\">\\(q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "001466bd-86f2-4206-8d35-1d095da4384d",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que les sous-espaces totalement isotropes pour $h$ sont exactement les sous-espaces vectoriels de $E$ contenus dans le cône isotrope de $h$.",
+        "html": "<p>En déduire que les sous-espaces totalement isotropes pour <span\nclass=\"math inline\">\\(h\\)</span> sont exactement les sous-espaces\nvectoriels de <span class=\"math inline\">\\(E\\)</span> contenus dans le\ncône isotrope de <span class=\"math inline\">\\(h\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que l’anneau quotient <span\nclass=\"math inline\">\\(\\mathbb{F}_3[X]/X^2+1\\)</span> est un corps que\nl’on notera <span class=\"math inline\"> ..."
+}

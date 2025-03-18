@@ -1,0 +1,61 @@
+{
+  "uuid": "iZ4V",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5951",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de convergence dominée",
+    "sousChapitre": "Théorème de convergence dominée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:15.403Z"
+  },
+  "contenu": [
+    {
+      "id": "ba475171-b70f-4ac4-a761-3e482ba4c696",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que",
+        "html": "<p>Montrer que</p>\n"
+      }
+    },
+    {
+      "id": "60a9a709-babf-46f4-af07-ba4c075ef7f4",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\lim_{n \\to \\infty} \\int_0^n \\left(1-\\frac{x}{n}\\right)^n\nx^{m}dx = m !$ \\ (pour tout $m\\in \\mathbf{N}$).",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\lim_{n \\to \\infty}\n\\int_0^n \\left(1-\\frac{x}{n}\\right)^n\nx^{m}dx = m !\\)</span>  (pour tout <span class=\"math inline\">\\(m\\in\n\\mathbf{N}\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "dee0f1a8-6dd0-4b31-842a-343e3f53ae7c",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $x\\in \\mathbb{R}_+$\net $n\\in \\mathbb{N}$ on a\n$$\\left(1-\\frac{x}{n}\\right)^n \\leq e^{-x}.$$ En effet, comme \\, $\\ln\ny\\leq y-1$ \\, pour $y>0$, on a \\, $\\ln y^{-\\frac{1}{n}}\\leq\ny^{-\\frac{1}{n}}-1$,\\, c'est-\\`a-dire $\\left(1 - \\frac{\\ln y}{n}\n\\right)^{n} \\leq y^{-1}$. Ainsi, en posant $x = \\ln y$, il vient\n$\\left(1-\\frac{x}{n}\\right)^n \\leq e^{-x}$. De plus,\n$$\n\\lim_{n\\rightarrow+\\infty} \\left(1-\\frac{x}{n} \\right)^{n} =\n\\lim_{n\\rightarrow+\\infty}e^{n\\ln\\left(1-\\frac{x}{n} \\right)} =\n\\lim_{n\\rightarrow+\\infty}e^{n\\left(-\\frac{x}{n} +\n\\frac{x}{n}\\varepsilon\\left(\\frac{x}{n} \\right) \\right)},\n$$\no\\`u $\\lim_{u\\rightarrow 0}\\varepsilon(u) = 0$. Ainsi\n$\\lim_{n\\rightarrow+\\infty} \\left(1-\\frac{x}{n} \\right)^{n} =\ne^{-x}$.\n\n\nPosons $f_n(x)=\\left(1-\\frac{x}{n}\\right)^n x^m\\mathbf{1}_{[0,n]}$. Alors\nen utilisant le th\\'{e}or\\`{e}me de convergence domin\\'{e}e et\nsachant que \\, $ \\Gamma(m+1)=\\int\\limits_0^\\infty e^{-x}x^m dx\n=m!$, on obtient le r\\'{e}sultat.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(x\\in \\mathbb{R}_+\\)</span> et\n<span class=\"math inline\">\\(n\\in \\mathbb{N}\\)</span> on a <span\nclass=\"math display\">\\[\\left(1-\\frac{x}{n}\\right)^n \\leq\ne^{-x}.\\]</span> En effet, comme   <span class=\"math inline\">\\(\\ln\ny\\leq y-1\\)</span>   pour <span class=\"math inline\">\\(y&gt;0\\)</span>,\non a   <span class=\"math inline\">\\(\\ln y^{-\\frac{1}{n}}\\leq\ny^{-\\frac{1}{n}}-1\\)</span>,  c’est-à-dire <span\nclass=\"math inline\">\\(\\left(1 - \\frac{\\ln y}{n}\n\\right)^{n} \\leq y^{-1}\\)</span>. Ainsi, en posant <span\nclass=\"math inline\">\\(x = \\ln y\\)</span>, il vient <span\nclass=\"math inline\">\\(\\left(1-\\frac{x}{n}\\right)^n \\leq e^{-x}\\)</span>.\nDe plus, <span class=\"math display\">\\[\\lim_{n\\rightarrow+\\infty}\n\\left(1-\\frac{x}{n} \\right)^{n} =\n\\lim_{n\\rightarrow+\\infty}e^{n\\ln\\left(1-\\frac{x}{n} \\right)} =\n\\lim_{n\\rightarrow+\\infty}e^{n\\left(-\\frac{x}{n} +\n\\frac{x}{n}\\varepsilon\\left(\\frac{x}{n} \\right) \\right)},\\]</span> où\n<span class=\"math inline\">\\(\\lim_{u\\rightarrow 0}\\varepsilon(u) =\n0\\)</span>. Ainsi <span class=\"math inline\">\\(\\lim_{n\\rightarrow+\\infty}\n\\left(1-\\frac{x}{n} \\right)^{n} =\ne^{-x}\\)</span>.</p>\n<p>Posons <span\nclass=\"math inline\">\\(f_n(x)=\\left(1-\\frac{x}{n}\\right)^n\nx^m\\mathbf{1}_{[0,n]}\\)</span>. Alors en utilisant le théorème de\nconvergence dominée et sachant que   <span\nclass=\"math inline\">\\(\\Gamma(m+1)=\\int\\limits_0^\\infty e^{-x}x^m dx\n=m!\\)</span>, on obtient le résultat.</p>\n"
+      }
+    },
+    {
+      "id": "2c1d4ebd-b83c-4135-9009-d3411eb631cc",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle \\lim_{n \\to \\infty} \\int_0^n \\left(1+\\frac{x}{n}\\right)^n\ne^{-2x}dx = 1$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle \\lim_{n \\to \\infty}\n\\int_0^n \\left(1+\\frac{x}{n}\\right)^n\ne^{-2x}dx = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "62459048-a971-49bf-ba8c-54e7b1faec99",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f_n(x)=\\left(1+\\frac{x}{n}\\right)^n e^{-2x}\\mathbf{1}_{[0,n]}$.\nComme la suite $\\{f_n(x)\\}$ est croissante et \\,\n$\\lim\\limits_{n\\rightarrow \\infty}f_n(x)=e^{-x}$, on obtient le\nr\\'{e}sultat en appliquant le th\\'{e}or\\`{e}me de convergence\nmonotone.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f_n(x)=\\left(1+\\frac{x}{n}\\right)^n\ne^{-2x}\\mathbf{1}_{[0,n]}\\)</span>. Comme la suite <span\nclass=\"math inline\">\\(\\{f_n(x)\\}\\)</span> est croissante et   <span\nclass=\"math inline\">\\(\\lim\\limits_{n\\rightarrow\n\\infty}f_n(x)=e^{-x}\\)</span>, on obtient le résultat en appliquant le\nthéorème de convergence monotone.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que</p>\n"
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "NYVg",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7610",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:40.572Z"
+  },
+  "contenu": [
+    {
+      "id": "e0e37b78-a5f4-4849-b692-0a9c3b874f9b",
+      "type": "description",
+      "value": {
+        "latex": "On rappelle la formule de Gutzmer : soit $f$ la somme de la série entière $\\sum_{n\\geq 0} a_n z^n$ de rayon de convergence $R$.\r\nAlors, pour tout $r<R$,\r\n$$\\sum_{n\\geq 0} |a_n|^2r^{2n}=\\frac{1}{2\\pi}\\int_0^{2\\pi}|f(re^{i\\theta})|^2d\\theta.$$",
+        "html": "<p>On rappelle la formule de Gutzmer : soit <span\nclass=\"math inline\">\\(f\\)</span> la somme de la série entière <span\nclass=\"math inline\">\\(\\sum_{n\\geq 0} a_n z^n\\)</span> de rayon de\nconvergence <span class=\"math inline\">\\(R\\)</span>. Alors, pour tout\n<span class=\"math inline\">\\(r&lt;R\\)</span>, <span\nclass=\"math display\">\\[\\sum_{n\\geq 0}\n|a_n|^2r^{2n}=\\frac{1}{2\\pi}\\int_0^{2\\pi}|f(re^{i\\theta})|^2d\\theta.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "7c8d39aa-68bb-4914-b279-fae1f74df73f",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer à l'aide de la formule de Gutzmer que toute application holomorphe $f:\\Cc\\to\\Cc$ bornée est constante..",
+        "html": "<p>Démontrer à l’aide de la formule de Gutzmer que toute application\nholomorphe <span class=\"math inline\">\\(f:\\Cc\\to\\Cc\\)</span> bornée est\nconstante..</p>\n"
+      }
+    },
+    {
+      "id": "ac23779e-5966-4cd8-942c-5c57a95d924f",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f:\\Cc\\to\\Cc$ une application holomorphe bornée en module par $M$.\r\nOn sait qu'elle est développable en séries entières sur $\\Cc$ avec une série $\\sum_{n\\geq 0} a_n z^n$ de rayon de convergence infini.\r\nOn peut donc appliquer la formule de Gutzmer : pour tout $r\\in\\Rr^+$,\r\n$$\\sum_{n\\geq 0} |a_n|^2r^{2n}=\\frac{1}{2\\pi}\\int_0^{2\\pi}|f(re^{i\\theta})|^2d\\theta\\leq M^2 \\frac{1}{2\\pi}\\int_0^{2\\pi}d\\theta=M^2$$\r\nDonc, pour tout $n$ in $\\Nn$ et tout $r\\in\\Rr^+$,\r\n$$|a_n|^2r^{2n}\\leq M^2.$$\r\nEn particulier, tous les $a_n$ avec $n\\not =0$ sont nuls et $f$ est constante",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\Cc\\to\\Cc\\)</span> une application\nholomorphe bornée en module par <span class=\"math inline\">\\(M\\)</span>.\nOn sait qu’elle est développable en séries entières sur <span\nclass=\"math inline\">\\(\\Cc\\)</span> avec une série <span\nclass=\"math inline\">\\(\\sum_{n\\geq 0} a_n z^n\\)</span> de rayon de\nconvergence infini. On peut donc appliquer la formule de Gutzmer : pour\ntout <span class=\"math inline\">\\(r\\in\\Rr^+\\)</span>, <span\nclass=\"math display\">\\[\\sum_{n\\geq 0}\n|a_n|^2r^{2n}=\\frac{1}{2\\pi}\\int_0^{2\\pi}|f(re^{i\\theta})|^2d\\theta\\leq\nM^2 \\frac{1}{2\\pi}\\int_0^{2\\pi}d\\theta=M^2\\]</span> Donc, pour tout\n<span class=\"math inline\">\\(n\\)</span> in <span\nclass=\"math inline\">\\(\\Nn\\)</span> et tout <span\nclass=\"math inline\">\\(r\\in\\Rr^+\\)</span>, <span\nclass=\"math display\">\\[|a_n|^2r^{2n}\\leq M^2.\\]</span> En particulier,\ntous les <span class=\"math inline\">\\(a_n\\)</span> avec <span\nclass=\"math inline\">\\(n\\not =0\\)</span> sont nuls et <span\nclass=\"math inline\">\\(f\\)</span> est constante</p>\n"
+      }
+    },
+    {
+      "id": "f07033a8-15a2-4137-85fd-09c9bfaf0af1",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f:\\Cc\\to\\Cc$ application holomorphe. On suppose que \r\n$$\\forall r\\in ]0,+\\infty[, M(r):=\\sup_{|z|<r} |f(z)|\\leq r.$$\r\nMontrer que $f$ est une application affine.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\Cc\\to\\Cc\\)</span> application\nholomorphe. On suppose que <span class=\"math display\">\\[\\forall r\\in\n]0,+\\infty[, M(r):=\\sup_{|z|&lt;r} |f(z)|\\leq r.\\]</span> Montrer que\n<span class=\"math inline\">\\(f\\)</span> est une application affine.</p>\n"
+      }
+    },
+    {
+      "id": "3f43d705-b65c-4478-9cb3-1b7e6abd48ae",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f:\\Cc\\to\\Cc$ une application holomorphe telle que $ M(r)\\leq r$.\r\n$$\\sum_{n\\geq 0} |a_n|^2r^{2n}=\\frac{1}{2\\pi}\\int_0^{2\\pi}|f(re^{i\\theta})|^2d\\theta\\leq M(r)^2 \\frac{1}{2\\pi}\\int_0^{2\\pi}d\\theta=M(r)^2\\leq r^2$$\r\nDonc, pour tout $n$ in $\\Nn$ et tout $r\\in\\Rr^+$, $|a_n|^2r^{2n}\\leq r^2$.\r\nEn particulier, tous les $a_n$ avec $n\\not =0,1$ sont nuls et $f$ est affine.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\Cc\\to\\Cc\\)</span> une application\nholomorphe telle que <span class=\"math inline\">\\(M(r)\\leq r\\)</span>.\n<span class=\"math display\">\\[\\sum_{n\\geq 0}\n|a_n|^2r^{2n}=\\frac{1}{2\\pi}\\int_0^{2\\pi}|f(re^{i\\theta})|^2d\\theta\\leq\nM(r)^2 \\frac{1}{2\\pi}\\int_0^{2\\pi}d\\theta=M(r)^2\\leq r^2\\]</span> Donc,\npour tout <span class=\"math inline\">\\(n\\)</span> in <span\nclass=\"math inline\">\\(\\Nn\\)</span> et tout <span\nclass=\"math inline\">\\(r\\in\\Rr^+\\)</span>, <span\nclass=\"math inline\">\\(|a_n|^2r^{2n}\\leq r^2\\)</span>. En particulier,\ntous les <span class=\"math inline\">\\(a_n\\)</span> avec <span\nclass=\"math inline\">\\(n\\not =0,1\\)</span> sont nuls et <span\nclass=\"math inline\">\\(f\\)</span> est affine.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On rappelle la formule de Gutzmer : soit <span\nclass=\"math inline\">\\(f\\)</span> la somme de la série entière <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "RPTM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4513",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Convergence simple, uniforme, normale",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:14.786Z"
+  },
+  "contenu": [
+    {
+      "id": "31520168-db27-4cda-bd3d-5e76f63b6b10",
+      "type": "description",
+      "value": {
+        "latex": "On pose $f_0(t) = 0$, $f_{n+1}(t) = \\sqrt{t+f_n(t)}$, pour $t \\ge 0$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f_0(t) = 0\\)</span>, <span\nclass=\"math inline\">\\(f_{n+1}(t) = \\sqrt{t+f_n(t)}\\)</span>, pour <span\nclass=\"math inline\">\\(t \\ge 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5618380f-90d6-49d3-a139-e57b53f292f2",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la limite simple, $\\ell$, des fonctions $f_n$.",
+        "html": "<p>Déterminer la limite simple, <span\nclass=\"math inline\">\\(\\ell\\)</span>, des fonctions <span\nclass=\"math inline\">\\(f_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "725f2705-cc7b-4537-adc3-c97f92483f52",
+      "type": "question",
+      "value": {
+        "latex": "Y a-t-il convergence uniforme sur $\\R^+$ ?",
+        "html": "<p>Y a-t-il convergence uniforme sur <span\nclass=\"math inline\">\\(\\R^+\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "12c6cab7-c2e8-449e-a5b1-e42e359986d2",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que : $\\forall\\ t > 0,\\\n    |f_{n+1}(t) - \\ell(t)| \\le \\frac {|f_n(t) - \\ell(t)|}{2f_{n+1}(t)}$.",
+        "html": "<p>Démontrer que : <span class=\"math inline\">\\(\\forall\\ t &gt; 0,\\\n    |f_{n+1}(t) - \\ell(t)| \\le \\frac {|f_n(t) -\n\\ell(t)|}{2f_{n+1}(t)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5c5bce5c-669a-476a-a18a-298cdb32ca4f",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que la suite $(f_n)$ converge uniformément sur tout intervalle\n    $[a,+\\infty[$, avec $a>0$.\n    (Remarquer que $f_n - \\ell$ est bornée pour $n \\ge 1$)",
+        "html": "<p>En déduire que la suite <span class=\"math inline\">\\((f_n)\\)</span>\nconverge uniformément sur tout intervalle <span\nclass=\"math inline\">\\([a,+\\infty[\\)</span>, avec <span\nclass=\"math inline\">\\(a&gt;0\\)</span>. (Remarquer que <span\nclass=\"math inline\">\\(f_n - \\ell\\)</span> est bornée pour <span\nclass=\"math inline\">\\(n \\ge 1\\)</span>)</p>\n"
+      }
+    },
+    {
+      "id": "e39828a6-f499-46f8-96ef-2790f9649fff",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\ell(t) = \\begin{cases} 0 \\text{ si } t=0 \\cr\n                       \\frac {1+\\sqrt{1+4t}}2 \\text{ si } t >0.\\cr\\end{cases}$\nAccroissements finis.",
+        "html": "<p><span class=\"math inline\">\\(\\ell(t) = \\begin{cases} 0 \\text{ si } t=0\n\\cr\n                       \\frac {1+\\sqrt{1+4t}}2 \\text{ si } t\n&gt;0.\\cr\\end{cases}\\)</span> Accroissements finis.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(f_0(t) = 0\\)</span>, <span\nclass=\"math inline\">\\(f_{n+1}(t) = \\sqrt{t+f_n(t)}\\)</span>, pour <span\nclass=\"math  ..."
+}

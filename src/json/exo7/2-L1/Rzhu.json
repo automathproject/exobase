@@ -1,0 +1,29 @@
+{
+  "uuid": "Rzhu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3952",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Dérivabilité des fonctions réelles",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:49.430Z"
+  },
+  "contenu": [
+    {
+      "id": "aa1717aa-6bc6-49e6-8ac0-9156cfeef839",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f:\\R \\to \\R$ de classe $\\mathcal{C}^n$, $a_1, \\dots, a_n$ $n$ points distincts dans $\\R$,\net $P$ le polynôme de Lagrange prenant les mêmes valeurs que $f$ aux points $a_i$.\nOn pose $Q(x) = \\frac 1{n!} \\prod_{i=1}^n (x-a_i)$.\n\n\nMontrer que : $\\forall\\ b \\in \\R,\\ \\exists\\ c \\in \\R \\text{ tq } f(b) = P(b) + Q(b)f^{(n)}(c)$\n\n(considérer $g(t) = f(t) - P(t) - \\lambda Q(t)$ où $\\lambda$ est\nchoisi de sorte que $g(b) = 0$).",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^n\\)</span>, <span\nclass=\"math inline\">\\(a_1, \\dots, a_n\\)</span> <span\nclass=\"math inline\">\\(n\\)</span> points distincts dans <span\nclass=\"math inline\">\\(\\R\\)</span>, et <span\nclass=\"math inline\">\\(P\\)</span> le polynôme de Lagrange prenant les\nmêmes valeurs que <span class=\"math inline\">\\(f\\)</span> aux points\n<span class=\"math inline\">\\(a_i\\)</span>. On pose <span\nclass=\"math inline\">\\(Q(x) = \\frac 1{n!} \\prod_{i=1}^n\n(x-a_i)\\)</span>.</p>\n<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ b \\in \\R,\\\n\\exists\\ c \\in \\R \\text{ tq } f(b) = P(b) + Q(b)f^{(n)}(c)\\)</span></p>\n<p>(considérer <span class=\"math inline\">\\(g(t) = f(t) - P(t) - \\lambda\nQ(t)\\)</span> où <span class=\"math inline\">\\(\\lambda\\)</span> est choisi\nde sorte que <span class=\"math inline\">\\(g(b) = 0\\)</span>).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^n\\)</span>, <span\nclass=\"math inline\"> ..."
+}

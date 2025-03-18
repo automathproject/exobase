@@ -1,0 +1,77 @@
+{
+  "uuid": "zlYK",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3397",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Propriétés élémentaires, généralités",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:35.814Z"
+  },
+  "contenu": [
+    {
+      "id": "8a775bca-c3af-4638-aa7d-402d3f79b210",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $A^k$ pour $k \\in \\N$ :",
+        "html": "<p>Calculer <span class=\"math inline\">\\(A^k\\)</span> pour <span\nclass=\"math inline\">\\(k \\in \\N\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "68c36b07-a518-479b-b23c-f702c662276b",
+      "type": "question",
+      "value": {
+        "latex": "$A = \\begin{pmatrix}1 &       &(2)\\cr\n                     &\\ddots     \\cr\n                  (2)&       &1  \\cr\\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(A = \\begin{pmatrix}1\n&amp;       &amp;(2)\\cr\n                     &amp;\\ddots     \\cr\n                  (2)&amp;       &amp;1  \\cr\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a33e5654-3edb-44d1-9b27-c6b0f3cbe5b7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{pmatrix} a & &b    \\cr\n                          &\\ddots \\cr\n                        b & &a    \\cr\\end{pmatrix}$ avec\n            $\\begin{cases} a = \\frac1n\\bigl( (2n-1)^k + (n-1)(-1)^k \\bigr) \\cr\n                     b = \\frac1n\\bigl( (2n-1)^k -      (-1)^k \\bigr).\\cr \\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{pmatrix} a &amp; &amp;b    \\cr\n                          &amp;\\ddots \\cr\n                        b &amp; &amp;a    \\cr\\end{pmatrix}\\)</span> avec\n<span class=\"math inline\">\\(\\begin{cases} a = \\frac1n\\bigl( (2n-1)^k +\n(n-1)(-1)^k \\bigr) \\cr\n                     b = \\frac1n\\bigl( (2n-1)^k -      (-1)^k \\bigr).\\cr\n\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2a073021-8d3e-497c-9e7e-2a5cd3ccedf4",
+      "type": "question",
+      "value": {
+        "latex": "$A = \\begin{pmatrix} 1 &2 &3 &4 \\cr\n                    0 &1 &2 &3 \\cr\n                    0 &0 &1 &2 \\cr\n                    0 &0 &0 &1 \\cr \\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(A = \\begin{pmatrix} 1 &amp;2 &amp;3\n&amp;4 \\cr\n                    0 &amp;1 &amp;2 &amp;3 \\cr\n                    0 &amp;0 &amp;1 &amp;2 \\cr\n                    0 &amp;0 &amp;0 &amp;1 \\cr\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1b60770c-b252-4b91-b740-dc70a44b0898",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{pmatrix} 1 &2k &2k^2+k &\\frac 13(4k^3 + 6k^2 + 2k) \\cr\n                       0 &1  &2k     &2k^2+k                     \\cr\n                       0 &0  &1      &2k                         \\cr\n                       0 &0  &0      &1                          \\cr \\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{pmatrix} 1 &amp;2k &amp;2k^2+k\n&amp;\\frac 13(4k^3 + 6k^2 + 2k) \\cr\n                       0\n&amp;1  &amp;2k     &amp;2k^2+k                     \\cr\n                       0\n&amp;0  &amp;1      &amp;2k                         \\cr\n                       0\n&amp;0  &amp;0      &amp;1                          \\cr\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8465dac9-614b-4f57-b273-a8879a70c530",
+      "type": "question",
+      "value": {
+        "latex": "$A = \\begin{pmatrix} x^2 &xy  &xz  \\cr\n                    xy  &y^2 &yz  \\cr\n                    xz  &yz  &z^2 \\cr \\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(A = \\begin{pmatrix} x^2\n&amp;xy  &amp;xz  \\cr\n                    xy  &amp;y^2 &amp;yz  \\cr\n                    xz  &amp;yz  &amp;z^2 \\cr\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1ecca8e3-dbda-4892-b52c-17a65fd60001",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\left[{ \\begin{pmatrix} x\\cr y\\cr z \\cr\\end{pmatrix} \\begin{pmatrix} x &y &z \\cr\\end{pmatrix} }\\right]^k            = (x^2+y^2+z^2)^{k-1}A$.",
+        "html": "<p><span class=\"math inline\">\\(\\left[{ \\begin{pmatrix} x\\cr y\\cr z\n\\cr\\end{pmatrix} \\begin{pmatrix} x &amp;y &amp;z \\cr\\end{pmatrix}\n}\\right]^k            = (x^2+y^2+z^2)^{k-1}A\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(A^k\\)</span> pour <span\nclass=\"math inline\">\\(k \\in \\N\\)</span> :</p>\n"
+}

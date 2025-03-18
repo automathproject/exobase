@@ -1,0 +1,45 @@
+{
+  "uuid": "VzD8",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4287",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:00.137Z"
+  },
+  "contenu": [
+    {
+      "id": "a77cc6ab-107f-4691-8366-27cdf386899d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {[a,b[} \\to {\\R^+}$ continue croissante.\nOn pose $S_n = \\frac{b-a}n \\sum_{k=0}^{n-1} f\\Bigl(a+k\\frac{b-a}n \\Bigr)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[a,b[} \\to {\\R^+}\\)</span>\ncontinue croissante. On pose <span class=\"math inline\">\\(S_n =\n\\frac{b-a}n \\sum_{k=0}^{n-1} f\\Bigl(a+k\\frac{b-a}n \\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f715fb42-0084-4bc1-a459-a8bcc2e22ad1",
+      "type": "question",
+      "value": {
+        "latex": "Si $ \\int_{t=a}^b f(t)\\,d t$ converge, montrer que $S_n \\to  \\int_{t=a}^b f(t)d t$ lorsque $n\\to\\infty$.",
+        "html": "<p>Si <span class=\"math inline\">\\(\\int_{t=a}^b f(t)\\,d t\\)</span>\nconverge, montrer que <span class=\"math inline\">\\(S_n \\to  \\int_{t=a}^b\nf(t)d t\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dda84dc4-2c28-4d68-bb41-00a1b76fc04d",
+      "type": "question",
+      "value": {
+        "latex": "Si $ \\int_{t=a}^b f(t)\\,d t$ diverge, montrer que  $S_n \\to +\\infty$ lorsque $n\\to\\infty$.",
+        "html": "<p>Si <span class=\"math inline\">\\(\\int_{t=a}^b f(t)\\,d t\\)</span>\ndiverge, montrer que <span class=\"math inline\">\\(S_n \\to\n+\\infty\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {[a,b[} \\to {\\R^+}\\)</span>\ncontinue croissante. On pose <span class=\"math inline\"> ..."
+}

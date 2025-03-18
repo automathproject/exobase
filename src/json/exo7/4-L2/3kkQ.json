@@ -1,0 +1,53 @@
+{
+  "uuid": "3kkQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7372",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Anneau",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:34.463Z"
+  },
+  "contenu": [
+    {
+      "id": "09693b5d-8c5a-46c9-9b94-2bb73e6e8e77",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "66e64b96-9552-4833-8a65-479318ddd3ea",
+      "type": "question",
+      "value": {
+        "latex": "Quels sont les éléments inversibles de l'anneau $(\\Z/12\\Z)$ ?",
+        "html": "<p>Quels sont les éléments inversibles de l’anneau <span\nclass=\"math inline\">\\((\\Z/12\\Z)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "74a1d6f9-da77-4fe6-88c1-30debc94c70f",
+      "type": "question",
+      "value": {
+        "latex": "\\`A quel groupe le groupe $(\\Z/12\\Z)^\\times$ des inversibles de l'anneau $(\\Z/12\\Z)$ est-il isomorphe ?",
+        "html": "<p>À quel groupe le groupe <span\nclass=\"math inline\">\\((\\Z/12\\Z)^\\times\\)</span> des inversibles de\nl’anneau <span class=\"math inline\">\\((\\Z/12\\Z)\\)</span> est-il isomorphe\n?</p>\n"
+      }
+    },
+    {
+      "id": "68c4b85d-3913-47ce-a310-c6565a837a49",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $\\phi(12)=\\phi(3)\\phi(2^2)=2\\times 2=4$ il y a quatre éléments inversibles dans l'anneau $(\\Z/12\\Z)$.\r\nIl s'agit de $1,-1=11,5,-5=7$.\r\nComme $5^5=25=1[12]$, tous les éléments sont d'ordre $1$ ou $2$.\r\nLe groupe $(\\Z/12\\Z)^\\times$ est donc isomorphe à $\\Z/2\\Z\\times\\Z/2\\Z$.\r\nOn peut aussi remarquer que par le théorème chinois,\r\n$(\\Z/12\\Z)^\\times = (\\Z/4\\Z)^\\times\\times(\\Z/3\\Z)^\\times= \\Z/2\\Z\\times\\Z/2\\Z$.",
+        "html": "<p>Comme <span class=\"math inline\">\\(\\phi(12)=\\phi(3)\\phi(2^2)=2\\times\n2=4\\)</span> il y a quatre éléments inversibles dans l’anneau <span\nclass=\"math inline\">\\((\\Z/12\\Z)\\)</span>. Il s’agit de <span\nclass=\"math inline\">\\(1,-1=11,5,-5=7\\)</span>. Comme <span\nclass=\"math inline\">\\(5^5=25=1[12]\\)</span>, tous les éléments sont\nd’ordre <span class=\"math inline\">\\(1\\)</span> ou <span\nclass=\"math inline\">\\(2\\)</span>. Le groupe <span\nclass=\"math inline\">\\((\\Z/12\\Z)^\\times\\)</span> est donc isomorphe à\n<span class=\"math inline\">\\(\\Z/2\\Z\\times\\Z/2\\Z\\)</span>. On peut aussi\nremarquer que par le théorème chinois, <span\nclass=\"math inline\">\\((\\Z/12\\Z)^\\times =\n(\\Z/4\\Z)^\\times\\times(\\Z/3\\Z)^\\times= \\Z/2\\Z\\times\\Z/2\\Z\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Quels sont les éléments inversibles de l’anneau <span\nclass=\"math inline\">\\((\\Z/12\\Z)\\)</span> ?</p>\n"
+}

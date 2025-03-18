@@ -1,0 +1,61 @@
+{
+  "uuid": "1ekc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "106",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "nfJizOU7DbA",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Logique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:38.177Z"
+  },
+  "contenu": [
+    {
+      "id": "b631c41d-1387-419c-b441-fd824e7024bc",
+      "type": "description",
+      "value": {
+        "latex": "Soient les quatre assertions suivantes :\n$$ (a) \\ \\exists x\\in \\Rr \\quad \\forall y\\in \\Rr \\quad x+y > 0 \\quad ; \\quad\n (b) \\ \\forall x\\in \\Rr \\quad \\exists y\\in \\Rr \\quad x+y > 0  \\ ;$$\n$$ (c) \\ \\forall x\\in \\Rr \\quad \\forall y\\in \\Rr \\quad x+y > 0  \\quad ; \\quad\n(d) \\ \\exists x\\in \\Rr \\quad \\forall y\\in \\Rr \\quad y^2 > x .$$",
+        "html": "<p>Soient les quatre assertions suivantes : <span\nclass=\"math display\">\\[(a) \\ \\exists x\\in \\Rr \\quad \\forall y\\in \\Rr\n\\quad x+y &gt; 0 \\quad ; \\quad\n(b) \\ \\forall x\\in \\Rr \\quad \\exists y\\in \\Rr \\quad x+y &gt; 0  \\\n;\\]</span> <span class=\"math display\">\\[(c) \\ \\forall x\\in \\Rr \\quad\n\\forall y\\in \\Rr \\quad x+y &gt; 0  \\quad ; \\quad\n(d) \\ \\exists x\\in \\Rr \\quad \\forall y\\in \\Rr \\quad y^2 &gt; x\n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "00fadf46-ef84-43c6-9f53-b51f16279567",
+      "type": "question",
+      "value": {
+        "latex": "Les assertions $a$, $b$, $c$, $d$ sont-elles vraies ou fausses ?",
+        "html": "<p>Les assertions <span class=\"math inline\">\\(a\\)</span>, <span\nclass=\"math inline\">\\(b\\)</span>, <span\nclass=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(d\\)</span>\nsont-elles vraies ou fausses ?</p>\n"
+      }
+    },
+    {
+      "id": "e2124117-cc07-4f26-9da9-9d3b27d8d43f",
+      "type": "question",
+      "value": {
+        "latex": "Donner leur n\\'egation.",
+        "html": "<p>Donner leur négation.</p>\n"
+      }
+    },
+    {
+      "id": "73e816f1-98e1-46ed-bcaf-9caafffc8b99",
+      "type": "reponse",
+      "value": {
+        "latex": "(a) est fausse. Car sa n\\'egation qui est \n $\\forall x\\in \\Rr \\ \\exists y\\in \\Rr \\quad x+y \\leq 0$\nest vraie. \\'Etant donn\\'e $x\\in \\Rr$ il existe toujours un $y\\in\\Rr$ tel que\n$x+y \\leq 0$, par exemple on peut prendre $y=-(x+1)$ et alors $x+y=x-x-1=-1 \\leq 0$.\n(b) est vraie, pour un $x$ donn\\'e, on peut prendre (par exemple) $y=-x+1$\net alors $x+y=1>0$.\nLa n\\'egation de (b) est \n $\\exists x\\in \\Rr \\ \\forall y\\in \\Rr \\quad x+y \\leq 0$.\n(c) : $\\forall x\\in \\Rr \\ \\forall y\\in \\Rr \\quad x+y > 0$\nest fausse, par exemple $x=-1$, $y=0$. La n\\'egation est \n$\\exists x\\in \\Rr\\ \\exists y\\in \\Rr\\ x+y \\leq 0$.\n(d) est vraie, on peut prendre $x=-1$. La n\\'egation est:\n$\\forall x\\in \\Rr \\ \\exists y\\in \\Rr \\quad y^2 \\leq x$.",
+        "html": "<p>(a) est fausse. Car sa négation qui est <span\nclass=\"math inline\">\\(\\forall x\\in \\Rr \\ \\exists y\\in \\Rr \\quad x+y \\leq\n0\\)</span> est vraie. Étant donné <span class=\"math inline\">\\(x\\in\n\\Rr\\)</span> il existe toujours un <span\nclass=\"math inline\">\\(y\\in\\Rr\\)</span> tel que <span\nclass=\"math inline\">\\(x+y \\leq 0\\)</span>, par exemple on peut prendre\n<span class=\"math inline\">\\(y=-(x+1)\\)</span> et alors <span\nclass=\"math inline\">\\(x+y=x-x-1=-1 \\leq 0\\)</span>. (b) est vraie, pour\nun <span class=\"math inline\">\\(x\\)</span> donné, on peut prendre (par\nexemple) <span class=\"math inline\">\\(y=-x+1\\)</span> et alors <span\nclass=\"math inline\">\\(x+y=1&gt;0\\)</span>. La négation de (b) est <span\nclass=\"math inline\">\\(\\exists x\\in \\Rr \\ \\forall y\\in \\Rr \\quad x+y \\leq\n0\\)</span>. (c) : <span class=\"math inline\">\\(\\forall x\\in \\Rr \\ \\forall\ny\\in \\Rr \\quad x+y &gt; 0\\)</span> est fausse, par exemple <span\nclass=\"math inline\">\\(x=-1\\)</span>, <span\nclass=\"math inline\">\\(y=0\\)</span>. La négation est <span\nclass=\"math inline\">\\(\\exists x\\in \\Rr\\ \\exists y\\in \\Rr\\ x+y \\leq\n0\\)</span>. (d) est vraie, on peut prendre <span\nclass=\"math inline\">\\(x=-1\\)</span>. La négation est: <span\nclass=\"math inline\">\\(\\forall x\\in \\Rr \\ \\exists y\\in \\Rr \\quad y^2 \\leq\nx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "415a5898-62c3-487b-beec-73e34a84478e",
+      "type": "indication",
+      "value": {
+        "latex": "Attention : la n\\'egation d'une in\\'egalit\\'e stricte est une in\\'egalit\\'e large\n(et r\\'eci\\-pro\\-quement).",
+        "html": "<p>Attention : la négation d’une inégalité stricte est une inégalité\nlarge (et réciproquement).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient les quatre assertions suivantes : <span\nclass=\"math display\"> ..."
+}

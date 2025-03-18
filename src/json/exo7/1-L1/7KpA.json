@@ -1,0 +1,77 @@
+{
+  "uuid": "7KpA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2918",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Cardinal",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:59.683Z"
+  },
+  "contenu": [
+    {
+      "id": "035b3b02-6d32-426f-851a-fb09d4d44a60",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "c4561575-ddfb-4b16-9bd6-09df634ac479",
+      "type": "question",
+      "value": {
+        "latex": "Quel est le nombre de parties {\\`a} $p$ {\\'e}l{\\'e}ments de $\\{1, \\dots, n\\}$\n  ne contenant pas d'{\\'e}l{\\'e}ments cons{\\'e}cutifs ?",
+        "html": "<p>Quel est le nombre de parties <span>à</span> <span\nclass=\"math inline\">\\(p\\)</span> <span>é</span>l<span>é</span>ments de\n<span class=\"math inline\">\\(\\{1, \\dots, n\\}\\)</span> ne contenant pas\nd’<span>é</span>l<span>é</span>ments cons<span>é</span>cutifs ?</p>\n"
+      }
+    },
+    {
+      "id": "d944f054-7ebe-4a56-ab8f-f59abad94a3c",
+      "type": "question",
+      "value": {
+        "latex": "Soit $t_n$ le nombre de parties de $\\{1, \\dots, n\\}$ de cardinal\n  quelconque sans {\\'e}l{\\'e}ments cons{\\'e}cutifs.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "d2ca3d30-a7c4-46c6-bb7c-ce7d918dc555",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $t_{n+2} = t_{n+1} + t_n$, $t_{2n+1} = t_n^2 +\n    t_{n-1}^2$, et $t_{2n} = t_n^2 - t_{n-2}^2$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(t_{n+2} = t_{n+1} +\nt_n\\)</span>, <span class=\"math inline\">\\(t_{2n+1} = t_n^2 +\n    t_{n-1}^2\\)</span>, et <span class=\"math inline\">\\(t_{2n} = t_n^2 -\nt_{n-2}^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4f8e660e-eb99-453f-b23a-dbdca1eea21e",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $t_{50}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(t_{50}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a48eac32-1fdc-46ec-ae28-c6931e09b31b",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $\\{ x_1-1, \\dots, x_p-p\\}$ est une partie quelconque de $\\{0,\n  \\dots, n-p\\}$, on a $N = C_{n-p+1}^p$.\n\\begin{enumerate}\n32951280099.",
+        "html": ""
+      }
+    },
+    {
+      "id": "d6567ae6-4fdf-4ec1-9c3b-44734408cd74",
+      "type": "indication",
+      "value": {
+        "latex": "Si $\\{x_1, \\dots, x_p\\}$ est une telle partie avec $x_1 <\nx_2 < \\dots < x_p$, consid{\\'e}rer l'ensemble $\\{ x_1-1, \\dots, x_p-p\\}$.",
+        "html": "<p>Si <span class=\"math inline\">\\(\\{x_1, \\dots, x_p\\}\\)</span> est une\ntelle partie avec <span class=\"math inline\">\\(x_1 &lt;\nx_2 &lt; \\dots &lt; x_p\\)</span>, consid<span>é</span>rer l’ensemble\n<span class=\"math inline\">\\(\\{ x_1-1, \\dots, x_p-p\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Quel est le nombre de parties <span>à</span> <span\nclass=\"math inline\">\\(p\\)</span> <span>é</span>l<span>é</span>ments de\n<span class=\"math inline\" ..."
+}

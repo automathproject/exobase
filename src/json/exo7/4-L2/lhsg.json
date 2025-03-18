@@ -1,0 +1,37 @@
+{
+  "uuid": "lhsg",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3463",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Système linéaire, rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:37.996Z"
+  },
+  "contenu": [
+    {
+      "id": "e33b3022-a220-44b6-bc37-4cc09643fc79",
+      "type": "description",
+      "value": {
+        "latex": "Chercher\n$\\mathrm{rg}\\begin{pmatrix} \\lambda &1 &\\phantom-5 \\cr  -1 &4 &\\lambda \\cr 3 & -1 &5 \\end{pmatrix}$ et le\ncas échéant, donner une relation de dépendance linéaire entre les lignes.",
+        "html": "<p>Chercher <span class=\"math inline\">\\(\\mathrm{rg}\\begin{pmatrix}\n\\lambda &amp;1 &amp;\\phantom-5 \\cr  -1 &amp;4 &amp;\\lambda \\cr 3 &amp;\n-1 &amp;5 \\end{pmatrix}\\)</span> et le cas échéant, donner une relation\nde dépendance linéaire entre les lignes.</p>\n"
+      }
+    },
+    {
+      "id": "0646b466-fdde-406e-aa96-edd7a5813533",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\mathrm{rg}=3$ si $\\lambda \\ne 2$ et $\\lambda \\ne -25$. \\par\n\\leavevmode\\vbox{\n\\halign{$\\lambda = #$\\hfil &$ \\Rightarrow  \\mathrm{rg} = #$\\hfil&\\ $: #$.\\hfil \\cr\n        2   &2 &11L_1 = 5L_2 + 9L_3    \\cr\n        -25 &2 &L_1 + 2L_2 + 9L_3 = 0  \\cr }}",
+        "html": "<p><span class=\"math inline\">\\(\\mathrm{rg}=3\\)</span> si <span\nclass=\"math inline\">\\(\\lambda \\ne 2\\)</span> et <span\nclass=\"math inline\">\\(\\lambda \\ne -25\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Chercher <span class=\"math inline\"> ..."
+}

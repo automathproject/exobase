@@ -1,0 +1,77 @@
+{
+  "uuid": "O59e",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7506",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:10.907Z"
+  },
+  "contenu": [
+    {
+      "id": "fde652dc-99d3-4283-92d3-2ed445ea0557",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "b60f9608-3d1e-43b3-be93-63cb653e3b30",
+      "type": "question",
+      "value": {
+        "latex": "On identifie le plan affine $\\R^2$ muni du produit scalaire standard à l'espace vectoriel $\\C$ muni du produit scalaire $(z,z')=re(z\\overline{z'})$ par l'application linéaire\r\n    $(1,0)\\mapsto 1$, $(0,1)\\mapsto i$.\r\n    Parmi les transformations suivantes, lesquelles sont des isométries du plan euclidien \r\n    \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "a39a1c92-0245-4abd-8589-61c1c1f26434",
+      "type": "question",
+      "value": {
+        "latex": "[a.] $\\ z\\mapsto 3z+4$",
+        "html": "<p>[a.] <span class=\"math inline\">\\(\\ z\\mapsto 3z+4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "975c173a-11f2-4c63-af8e-5788f14acc46",
+      "type": "question",
+      "value": {
+        "latex": "[b.] $\\ z\\mapsto 3\\overline{z}+4$",
+        "html": "<p>[b.] <span class=\"math inline\">\\(\\ z\\mapsto\n3\\overline{z}+4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "48b5fffc-6663-484a-9954-ce6adbda7d6a",
+      "type": "question",
+      "value": {
+        "latex": "[c.] $\\ z\\mapsto \\overline{z}+4$",
+        "html": "<p>[c.] <span class=\"math inline\">\\(\\ z\\mapsto\n\\overline{z}+4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e8629bf1-1369-4f1b-870a-490cb92c50de",
+      "type": "question",
+      "value": {
+        "latex": "[d.] $\\ z\\mapsto i\\overline{z}+4$",
+        "html": "<p>[d.] <span class=\"math inline\">\\(\\ z\\mapsto\ni\\overline{z}+4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b27bbd65-052e-4758-9433-25df06bfa11e",
+      "type": "reponse",
+      "value": {
+        "latex": "[a.] $\\ z\\mapsto 3z+4$ ne représente pas une isométrie à cause du facteur $3$.\n[b.] $\\ z\\mapsto 3\\overline{z}+4$ ne représente pas une isométrie à cause du facteur $3$.\n[c.] $\\ z\\mapsto \\overline{z}+4$ représente une isométrie, indirecte (présence de la conjugaison). Il s'agit de la réflexion par rapport à l'axe des abscisses $\\ z\\mapsto \\overline{z}$ composée par la translation de vecteur $4\\vec{\\imath}$ dans la direction de l'axe des abscisses. C'est donc une symétrie glissée.\n[d.] $\\ z\\mapsto i\\overline{z}+4$ représente une isométrie, indirecte (présence de la conjugaison). Il s'agit de la réflexion $s$ par rapport à l'axe des abscisses $\\ z\\mapsto \\overline{z}$ composée par $z\\mapsto iz$, la rotation $r$ de centre $O$ et d'angle $+\\frac{\\pi}{2}$\r\n    puis par la translation $t$ de vecteur $4\\vec{\\imath}$.\r\n    On peut écrire $r\\circ s=(s'\\circ s)\\circ s=s'$ où $s'$ est la réflexion par rapport à la droite $d'$ d'équation $y=x$. On décompose ensuite $4\\vec{\\imath}=2(\\vec{\\imath}+\\vec{\\jmath})+2(\\vec{\\imath}-\\vec{\\jmath})$\r\n    comme somme d'un vecteur $\\vec{v}_2:=2(\\vec{\\imath}+\\vec{\\jmath})$ directeur de $d'$ et d'un vecteur $\\vec{v}_1:=2(\\vec{\\imath}-\\vec{\\jmath})$ normal à $d'$.\r\n    On en déduit\r\n    $t\\circ s'=t_{\\vec{v}_2}\\circ t_{\\vec{v}_1}\\circ s'= t_{\\vec{v}_2}\\circ s''$\r\n    où $s''$ est la réflexion par rapport à la droite $d''=d'+\\frac{\\vec{v}_1}{2}$ parallèle à $d'$. Maintenant, $t\\circ r\\circ s=t\\circ s'=t_{\\vec{v}_2}\\circ s''$. Comme $\\vec{v}_2$ est parallèle à $d''$, il s'agit d'une symétrie glissée.",
+        "html": "<p>[a.] <span class=\"math inline\">\\(\\ z\\mapsto 3z+4\\)</span> ne\nreprésente pas une isométrie à cause du facteur <span\nclass=\"math inline\">\\(3\\)</span>. [b.] <span class=\"math inline\">\\(\\\nz\\mapsto 3\\overline{z}+4\\)</span> ne représente pas une isométrie à\ncause du facteur <span class=\"math inline\">\\(3\\)</span>. [c.] <span\nclass=\"math inline\">\\(\\ z\\mapsto \\overline{z}+4\\)</span> représente une\nisométrie, indirecte (présence de la conjugaison). Il s’agit de la\nréflexion par rapport à l’axe des abscisses <span\nclass=\"math inline\">\\(\\ z\\mapsto \\overline{z}\\)</span> composée par la\ntranslation de vecteur <span\nclass=\"math inline\">\\(4\\vec{\\imath}\\)</span> dans la direction de l’axe\ndes abscisses. C’est donc une symétrie glissée. [d.] <span\nclass=\"math inline\">\\(\\ z\\mapsto i\\overline{z}+4\\)</span> représente une\nisométrie, indirecte (présence de la conjugaison). Il s’agit de la\nréflexion <span class=\"math inline\">\\(s\\)</span> par rapport à l’axe des\nabscisses <span class=\"math inline\">\\(\\ z\\mapsto \\overline{z}\\)</span>\ncomposée par <span class=\"math inline\">\\(z\\mapsto iz\\)</span>, la\nrotation <span class=\"math inline\">\\(r\\)</span> de centre <span\nclass=\"math inline\">\\(O\\)</span> et d’angle <span\nclass=\"math inline\">\\(+\\frac{\\pi}{2}\\)</span> puis par la translation\n<span class=\"math inline\">\\(t\\)</span> de vecteur <span\nclass=\"math inline\">\\(4\\vec{\\imath}\\)</span>. On peut écrire <span\nclass=\"math inline\">\\(r\\circ s=(s&#39;\\circ s)\\circ s=s&#39;\\)</span> où\n<span class=\"math inline\">\\(s&#39;\\)</span> est la réflexion par rapport\nà la droite <span class=\"math inline\">\\(d&#39;\\)</span> d’équation <span\nclass=\"math inline\">\\(y=x\\)</span>. On décompose ensuite <span\nclass=\"math inline\">\\(4\\vec{\\imath}=2(\\vec{\\imath}+\\vec{\\jmath})+2(\\vec{\\imath}-\\vec{\\jmath})\\)</span>\ncomme somme d’un vecteur <span\nclass=\"math inline\">\\(\\vec{v}_2:=2(\\vec{\\imath}+\\vec{\\jmath})\\)</span>\ndirecteur de <span class=\"math inline\">\\(d&#39;\\)</span> et d’un vecteur\n<span\nclass=\"math inline\">\\(\\vec{v}_1:=2(\\vec{\\imath}-\\vec{\\jmath})\\)</span>\nnormal à <span class=\"math inline\">\\(d&#39;\\)</span>. On en déduit <span\nclass=\"math inline\">\\(t\\circ s&#39;=t_{\\vec{v}_2}\\circ\nt_{\\vec{v}_1}\\circ s&#39;= t_{\\vec{v}_2}\\circ s&#39;&#39;\\)</span> où\n<span class=\"math inline\">\\(s&#39;&#39;\\)</span> est la réflexion par\nrapport à la droite <span\nclass=\"math inline\">\\(d&#39;&#39;=d&#39;+\\frac{\\vec{v}_1}{2}\\)</span>\nparallèle à <span class=\"math inline\">\\(d&#39;\\)</span>. Maintenant,\n<span class=\"math inline\">\\(t\\circ r\\circ s=t\\circ\ns&#39;=t_{\\vec{v}_2}\\circ s&#39;&#39;\\)</span>. Comme <span\nclass=\"math inline\">\\(\\vec{v}_2\\)</span> est parallèle à <span\nclass=\"math inline\">\\(d&#39;&#39;\\)</span>, il s’agit d’une symétrie\nglissée.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>[a.] <span class=\"math inline\">\\(\\ z\\mapsto 3z+4\\)</span></p>\n"
+}

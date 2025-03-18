@@ -1,0 +1,61 @@
+{
+  "uuid": "pmQu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2365",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire bornée",
+    "sousChapitre": "Application linéaire bornée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:01.132Z"
+  },
+  "contenu": [
+    {
+      "id": "7ac12b73-437a-4f81-8e91-63d885a505dd",
+      "type": "description",
+      "value": {
+        "latex": "\\label{exopol}\nSoit $X = \\Rr[x]$ l'ensemble des polyn\\^omes. Pour $P(x) = \\sum _{k=0}^p a_k x^k$\non pose $\\|P\\|= \\sup_k |a_k|$, $U(P)(x) = \\sum _{k=1}^n \\frac{1}{k} a_k x^k$ et\n$V(P)(x) = \\sum _{k=1}^n k a_k x^k$.",
+        "html": "<p><span id=\"exopol\" label=\"exopol\"></span> Soit <span\nclass=\"math inline\">\\(X = \\Rr[x]\\)</span> l’ensemble des polynômes. Pour\n<span class=\"math inline\">\\(P(x) = \\sum _{k=0}^p a_k x^k\\)</span> on\npose <span class=\"math inline\">\\(\\|P\\|= \\sup_k |a_k|\\)</span>, <span\nclass=\"math inline\">\\(U(P)(x) = \\sum _{k=1}^n \\frac{1}{k} a_k\nx^k\\)</span> et <span class=\"math inline\">\\(V(P)(x) = \\sum _{k=1}^n k\na_k x^k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b9ac3b66-ac6c-4f34-8564-79e014bd1093",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\|.\\|$ d\\'efinit une norme et que $U$ et $V$ d\\'efinissent des applications\nlin\\'eaires de $X$ dans $X$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\|.\\|\\)</span> définit une\nnorme et que <span class=\"math inline\">\\(U\\)</span> et <span\nclass=\"math inline\">\\(V\\)</span> définissent des applications linéaires\nde <span class=\"math inline\">\\(X\\)</span> dans <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9ab497b0-cc2b-4754-9345-479cce6a2ecf",
+      "type": "question",
+      "value": {
+        "latex": "Examiner si $U$ et $V$ sont continues?",
+        "html": "<p>Examiner si <span class=\"math inline\">\\(U\\)</span> et <span\nclass=\"math inline\">\\(V\\)</span> sont continues?</p>\n"
+      }
+    },
+    {
+      "id": "0d807bee-a38d-410d-ac8f-b3da3d1f338c",
+      "type": "reponse",
+      "value": {
+        "latex": "Il suffit de l'écrire...\nCalculons la norme de $U$ : $\\| U(P) \\| = \\sup_k  |\\frac 1k a_k\\| \\le \\sup_k |a_k| \\le \\| P \\|$. Donc pour tout $P$, $\\frac{\\| U(P) \\|}{\\| P \\|} \\le 1$.\nEt pour $P(x) = x$ on a égalité donc $\\| U \\|=1$.\nPour $V$, prenons $P_k(x) = x^k$, alors $\\| P_k \\|=1$, mais $\\|V(P_k)\\| = k$. Donc $V$ n'est pas bornée sur la boule unité donc $V$ n'est pas continue.",
+        "html": "<p>Il suffit de l’écrire... Calculons la norme de <span\nclass=\"math inline\">\\(U\\)</span> : <span class=\"math inline\">\\(\\| U(P)\n\\| = \\sup_k  |\\frac 1k a_k\\| \\le \\sup_k |a_k| \\le \\| P \\|\\)</span>. Donc\npour tout <span class=\"math inline\">\\(P\\)</span>, <span\nclass=\"math inline\">\\(\\frac{\\| U(P) \\|}{\\| P \\|} \\le 1\\)</span>. Et pour\n<span class=\"math inline\">\\(P(x) = x\\)</span> on a égalité donc <span\nclass=\"math inline\">\\(\\| U \\|=1\\)</span>. Pour <span\nclass=\"math inline\">\\(V\\)</span>, prenons <span\nclass=\"math inline\">\\(P_k(x) = x^k\\)</span>, alors <span\nclass=\"math inline\">\\(\\| P_k \\|=1\\)</span>, mais <span\nclass=\"math inline\">\\(\\|V(P_k)\\| = k\\)</span>. Donc <span\nclass=\"math inline\">\\(V\\)</span> n’est pas bornée sur la boule unité\ndonc <span class=\"math inline\">\\(V\\)</span> n’est pas continue.</p>\n"
+      }
+    },
+    {
+      "id": "9f0582ef-a04f-4d18-8319-ee7eca4becd2",
+      "type": "indication",
+      "value": {
+        "latex": "$U$ est continue et $\\| U \\|=1$, $V$ n'est pas continue.",
+        "html": "<p><span class=\"math inline\">\\(U\\)</span> est continue et <span\nclass=\"math inline\">\\(\\| U \\|=1\\)</span>, <span\nclass=\"math inline\">\\(V\\)</span> n’est pas continue.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"exopol\" label=\"exopol\"></span> Soit <span\nclass=\"math inline\">\\(X = \\Rr[x]\\)</span> l’ensemble des polynômes. Pour\n<span class=\"math inli ..."
+}

@@ -1,0 +1,64 @@
+{
+  "uuid": "SxZb",
+  "titre": "Densité",
+  "theme": [
+    "variables aléatoires à densité",
+    "loi conjointe"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-09-06",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:56.921Z"
+  },
+  "contenu": [
+    {
+      "id": "fdc61fb7-c050-4d97-9e28-c174e8aba8b3",
+      "type": "description",
+      "value": {
+        "latex": "Soit la fonction $f$ définie sur $\\R^2$ par : $$f(x,y)=2e^{-x}e^{-2y}\\textbf{1}_{(\\R^+)^2}(x,y).$$",
+        "html": "<p>Soit la fonction <span class=\"math inline\">\\(f\\)</span> définie sur\n<span class=\"math inline\">\\(\\R^2\\)</span> par : <span\nclass=\"math display\">\\[f(x,y)=2e^{-x}e^{-2y}\\textbf{1}_{(\\R^+)^2}(x,y).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9adeb5ef-a98a-49d6-9ec0-454f499c16f5",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que $f$ définit une densité de probabilité.",
+        "html": "<p>Vérifier que <span class=\"math inline\">\\(f\\)</span> définit une\ndensité de probabilité.</p>\n"
+      }
+    },
+    {
+      "id": "836ee667-be35-4540-8030-e8edd10a7994",
+      "type": "reponse",
+      "value": {
+        "latex": "On vérifie que pour tout $(x,y) \\in \\R^2$, $f(x,y) \\geq 0$. De plus, par le théorème de Fubini,\n\t$$\\begin{align*}\n\t\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty} f(x,y) dxdy &= \\int_{0}^{+\\infty}\\int_{0}^{+\\infty} 2e^{-x}e^{-2y} dxdy \\\\\n\t&= \\int_{0}^{+\\infty} e^{-x} dx \\int_{0}^{+\\infty} 2e^{-2y} dy \\\\\n\t&= 1\n\t\\end{align*}$$",
+        "html": "<p>On vérifie que pour tout <span class=\"math inline\">\\((x,y) \\in\n\\R^2\\)</span>, <span class=\"math inline\">\\(f(x,y) \\geq 0\\)</span>. De\nplus, par le théorème de Fubini, <span\nclass=\"math display\">\\[\\begin{align*}\n    \\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty} f(x,y) dxdy &amp;=\n\\int_{0}^{+\\infty}\\int_{0}^{+\\infty} 2e^{-x}e^{-2y} dxdy \\\\\n    &amp;= \\int_{0}^{+\\infty} e^{-x} dx \\int_{0}^{+\\infty} 2e^{-2y} dy\n\\\\\n    &amp;= 1\n    \\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f58af0fe-5414-432d-a1de-49816d284183",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\prob(X>1,Y<1)$, $\\prob(X<Y)$ et $\\prob(X<a)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\prob(X&gt;1,Y&lt;1)\\)</span>,\n<span class=\"math inline\">\\(\\prob(X&lt;Y)\\)</span> et <span\nclass=\"math inline\">\\(\\prob(X&lt;a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8863da64-39b0-4b00-a61f-c97094a40101",
+      "type": "reponse",
+      "value": {
+        "latex": "On applique la définition et on trouve $\\prob(X>1,Y<1) = e^{-1}(1-e^{-2})$, $\\prob(X<Y)=\\frac{1}{3}$ et $\\prob(X<a)=1-e^{-a}$.",
+        "html": "<p>On applique la définition et on trouve <span\nclass=\"math inline\">\\(\\prob(X&gt;1,Y&lt;1) = e^{-1}(1-e^{-2})\\)</span>,\n<span class=\"math inline\">\\(\\prob(X&lt;Y)=\\frac{1}{3}\\)</span> et <span\nclass=\"math inline\">\\(\\prob(X&lt;a)=1-e^{-a}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit la fonction <span class=\"math inline\">\\(f\\)</span> définie sur\n<span class=\"math inline\">\\(\\R^2\\)</span> par : <span\nclass=\"math display\"> ..."
+}

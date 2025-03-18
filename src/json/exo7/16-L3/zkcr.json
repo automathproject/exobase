@@ -1,0 +1,53 @@
+{
+  "uuid": "zkcr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6604",
+    "auteur": "hueb",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Tranformée de Laplace et de Fourier",
+    "sousChapitre": "Tranformée de Laplace et de Fourier",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:26.052Z"
+  },
+  "contenu": [
+    {
+      "id": "9652c657-6bfb-4bc1-95c7-093448941670",
+      "type": "description",
+      "value": {
+        "latex": "Calculer la transformée\nde Laplace de la fonction $F$ où $a,b, \\omega, k \\in \\Rr$, $a,b >\n0$:",
+        "html": "<p>Calculer la transformée de Laplace de la fonction <span\nclass=\"math inline\">\\(F\\)</span> où <span class=\"math inline\">\\(a,b,\n\\omega, k \\in \\Rr\\)</span>, <span class=\"math inline\">\\(a,b &gt;\n0\\)</span>:</p>\n"
+      }
+    },
+    {
+      "id": "6e5bd10b-b861-4e39-81cb-b30579536d30",
+      "type": "question",
+      "value": {
+        "latex": "$\\quad F(t) = a \\sin \\omega t,$",
+        "html": "<p><span class=\"math inline\">\\(\\quad F(t) = a \\sin \\omega\nt,\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f1f2e8c8-5377-4a19-a44a-ad59a1e8c051",
+      "type": "question",
+      "value": {
+        "latex": "$\\quad F(t) = a (1-e^{- bt}),$",
+        "html": "<p><span class=\"math inline\">\\(\\quad F(t) = a (1-e^{- bt}),\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2be79da9-f364-403e-8b8c-402ff0b64d70",
+      "type": "question",
+      "value": {
+        "latex": "$\\quad F(t) = a \\cos (bt-k).$\n  N.B. Ici la formule qui exprime la transformée de Laplace de la fonction \\\\\n  $G(t) = \\begin{cases}\n    F(t-a),&t \\geq a,\\\\\n    0,\\quad &t < a,\n                \\end{cases}$\n                en fonction de celle de $F$ ne s'applique pas à (3).\n                Pourquoi pas?",
+        "html": "<p><span class=\"math inline\">\\(\\quad F(t) = a \\cos (bt-k).\\)</span> N.B.\nIci la formule qui exprime la transformée de Laplace de la\nfonction<br />\n<span class=\"math inline\">\\(G(t) = \\begin{cases}\n    F(t-a),&amp;t \\geq a,\\\\\n    0,\\quad &amp;t &lt; a,\n                \\end{cases}\\)</span> en fonction de celle de <span\nclass=\"math inline\">\\(F\\)</span> ne s’applique pas à (3). Pourquoi\npas?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer la transformée de Laplace de la fonction <span\nclass=\"math inline\">\\(F\\)</span> où <span class=\"math inline\">\\(a,b,\n\\omega, k \\in \\Rr\\)</s ..."
+}

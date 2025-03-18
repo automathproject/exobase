@@ -1,0 +1,93 @@
+{
+  "uuid": "D0xl",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7694",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:23.830Z"
+  },
+  "contenu": [
+    {
+      "id": "3ea63557-4667-4e2a-b09a-99adea2840ef",
+      "type": "description",
+      "value": {
+        "latex": "On considère dans $\\Rr^3$ euclidien le cylindre $\\mathcal{C}$ d'équation $x^2+y^2=1$\r\nmuni de la métrique riemannienne restriction du produit scalaire de $\\Rr^3$.",
+        "html": "<p>On considère dans <span class=\"math inline\">\\(\\Rr^3\\)</span>\neuclidien le cylindre <span class=\"math inline\">\\(\\mathcal{C}\\)</span>\nd’équation <span class=\"math inline\">\\(x^2+y^2=1\\)</span> muni de la\nmétrique riemannienne restriction du produit scalaire de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dc4c77fb-89f3-4054-9129-fa0b5c48e079",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\mathcal{C}$ est une surface régulière.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathcal{C}\\)</span> est une\nsurface régulière.</p>\n"
+      }
+    },
+    {
+      "id": "73f277c3-11fe-4876-b11a-3f59f976be64",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'application $F: ]-\\pi,\\pi[\\times\\Rr\\to \\Rr^3$, $(\\theta,h)\\mapsto (\\cos\\theta,\\sin\\theta,h)$\r\ndonne un paramétrage de $\\mathcal{C}$ au voisinage du point $p$ de coordonnées $(1,0,0)$.",
+        "html": "<p>Montrer que l’application <span class=\"math inline\">\\(F:\n]-\\pi,\\pi[\\times\\Rr\\to \\Rr^3\\)</span>, <span\nclass=\"math inline\">\\((\\theta,h)\\mapsto\n(\\cos\\theta,\\sin\\theta,h)\\)</span> donne un paramétrage de <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span> au voisinage du point <span\nclass=\"math inline\">\\(p\\)</span> de coordonnées <span\nclass=\"math inline\">\\((1,0,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c91cceee-305f-4b7f-8969-99775792b5e7",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la matrice $G(u)$ de la première forme fondamentale $I$\r\ndans la base $$(X_\\theta(\\theta,h):=\\frac{\\partial F}{\\partial \\theta}(\\theta,h),\r\nX_h:=\\frac{\\partial F}{\\partial h}(\\theta,h))$$ de $T_{F(\\theta,h)}\\mathcal{C}$\r\ncorrespondant à ce paramétrage $F$.",
+        "html": "<p>Calculer la matrice <span class=\"math inline\">\\(G(u)\\)</span> de la\npremière forme fondamentale <span class=\"math inline\">\\(I\\)</span> dans\nla base <span class=\"math display\">\\[(X_\\theta(\\theta,h):=\\frac{\\partial\nF}{\\partial \\theta}(\\theta,h),\nX_h:=\\frac{\\partial F}{\\partial h}(\\theta,h))\\]</span> de <span\nclass=\"math inline\">\\(T_{F(\\theta,h)}\\mathcal{C}\\)</span> correspondant\nà ce paramétrage <span class=\"math inline\">\\(F\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2627aca3-ad09-466f-ac80-e0140ccae627",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer un champs de vecteurs normaux unitaires $N(\\theta,h)$ au point $F(\\theta,h)$.",
+        "html": "<p>Déterminer un champs de vecteurs normaux unitaires <span\nclass=\"math inline\">\\(N(\\theta,h)\\)</span> au point <span\nclass=\"math inline\">\\(F(\\theta,h)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "854784ca-22d8-42ec-bf7a-ebd93466aeac",
+      "type": "question",
+      "value": {
+        "latex": "Calculer les symboles de Christoffel de la base \r\n$(X_\\theta(\\theta,h),X_h(\\theta,h))$ de $T_{F(\\theta,h)}\\mathcal{C}$.",
+        "html": "<p>Calculer les symboles de Christoffel de la base <span\nclass=\"math inline\">\\((X_\\theta(\\theta,h),X_h(\\theta,h))\\)</span> de\n<span class=\"math inline\">\\(T_{F(\\theta,h)}\\mathcal{C}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d86c6b1b-54fb-4945-8e5c-fca3442a03c2",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a$ un nombre réel fixé et $c :\\Rr\\to S$, $t\\mapsto (\\cos t,\\sin t,at)$\r\nla courbe paramétrée tracée sur le cylindre $\\mathcal{C}$.\r\nExprimer le vecteur vitesse au point de paramètre $t$ dans la base \r\n$(X_\\theta(u), X_h)$ de $T_{F(\\theta,h)}\\mathcal{C})$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un nombre réel fixé et\n<span class=\"math inline\">\\(c :\\Rr\\to S\\)</span>, <span\nclass=\"math inline\">\\(t\\mapsto (\\cos t,\\sin t,at)\\)</span> la courbe\nparamétrée tracée sur le cylindre <span\nclass=\"math inline\">\\(\\mathcal{C}\\)</span>. Exprimer le vecteur vitesse\nau point de paramètre <span class=\"math inline\">\\(t\\)</span> dans la\nbase <span class=\"math inline\">\\((X_\\theta(u), X_h)\\)</span> de <span\nclass=\"math inline\">\\(T_{F(\\theta,h)}\\mathcal{C})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3bad4f0d-c6b7-4c23-9977-3ffc857d10e5",
+      "type": "question",
+      "value": {
+        "latex": "Les courbes paramétrées précédentes sont-elles des géodésiques ?",
+        "html": "<p>Les courbes paramétrées précédentes sont-elles des géodésiques ?</p>\n"
+      }
+    },
+    {
+      "id": "1934fa03-b751-474c-bd1a-dc733f1319e9",
+      "type": "question",
+      "value": {
+        "latex": "Les sections planes du cylindre paramétrées par la longueur d'arc\r\nsont-elles des géodésiques ?",
+        "html": "<p>Les sections planes du cylindre paramétrées par la longueur d’arc\nsont-elles des géodésiques ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère dans <span class=\"math inline\">\\(\\Rr^3\\)</span>\neuclidien le cylindre <span class=\"math inline\">\\(\\mathcal{C}\\)</span>\nd’équation <spa ..."
+}

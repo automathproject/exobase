@@ -1,0 +1,45 @@
+{
+  "uuid": "Z8Y5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3345",
+    "auteur": "quercia",
+    "createdAt": "2010-03-09",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Morphismes particuliers",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:03.590Z"
+  },
+  "contenu": [
+    {
+      "id": "5c922b76-f1f1-4874-a039-2eeede1a02df",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un $ K$-espace vectoriel de dimension finie et $f\\in \\mathcal{L}(E)$ nilpotente\nd'indice~$n$.\n\nSoit $\\phi : {\\mathcal{L}(E)} \\to {\\mathcal{L}(E)}, g \\mapsto{f\\circ g - g\\circ f.}$",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(K\\)</span>-espace vectoriel de dimension finie et\n<span class=\"math inline\">\\(f\\in \\mathcal{L}(E)\\)</span> nilpotente\nd’indice <span class=\"math inline\">\\(n\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\(\\phi : {\\mathcal{L}(E)} \\to\n{\\mathcal{L}(E)}, g \\mapsto{f\\circ g - g\\circ f.}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9c3ab6da-610e-4b0d-a49b-809609d0e709",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\phi^p(g) = \\sum_{k=0}^p (-1)^kC_p^k f^{p-k}\\circ g \\circ f^k$.\n    En déduire que $\\phi$ est nilpotente.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\phi^p(g) = \\sum_{k=0}^p\n(-1)^kC_p^k f^{p-k}\\circ g \\circ f^k\\)</span>. En déduire que <span\nclass=\"math inline\">\\(\\phi\\)</span> est nilpotente.</p>\n"
+      }
+    },
+    {
+      "id": "17061a93-6c11-4a8e-860d-542c1112c92b",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a\\in \\mathcal{L}(E)$. Montrer qu'il existe $b\\in \\mathcal{L}(E)$ tel que\n    $a\\circ b \\circ a = a$. En déduire l'indice de nilpotence de~$\\phi$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in \\mathcal{L}(E)\\)</span>.\nMontrer qu’il existe <span class=\"math inline\">\\(b\\in\n\\mathcal{L}(E)\\)</span> tel que <span class=\"math inline\">\\(a\\circ b\n\\circ a = a\\)</span>. En déduire l’indice de nilpotence de <span\nclass=\"math inline\">\\(\\phi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(K\\)</span>-espace vectoriel de dimension finie et\n<span class=\"math inli ..."
+}

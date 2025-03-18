@@ -1,0 +1,133 @@
+{
+  "uuid": "xMLU",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4703",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Suite définie par une relation de récurrence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:13.081Z"
+  },
+  "contenu": [
+    {
+      "id": "8df93db6-2bce-404a-9a3a-f70a85fb81f1",
+      "type": "description",
+      "value": {
+        "latex": "Étudier la convergence de la suite $(u_n)$ définie par :",
+        "html": "<p>Étudier la convergence de la suite <span\nclass=\"math inline\">\\((u_n)\\)</span> définie par :</p>\n"
+      }
+    },
+    {
+      "id": "77258930-f835-41c0-ad8e-d6b6a323ae4e",
+      "type": "question",
+      "value": {
+        "latex": "$u_0 = a > 1$, $u_{n+1} = \\frac 12\\left(u_n + \\frac a{u_n}\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(u_0 = a &gt; 1\\)</span>, <span\nclass=\"math inline\">\\(u_{n+1} = \\frac 12\\left(u_n + \\frac\na{u_n}\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b437f92-be11-41e4-9a67-3f7e8780d8fd",
+      "type": "question",
+      "value": {
+        "latex": "$0 < u_0 < \\frac {\\sqrt5-1}2$, $u_{n+1} = 1 - u_n^2$.",
+        "html": "<p><span class=\"math inline\">\\(0 &lt; u_0 &lt; \\frac\n{\\sqrt5-1}2\\)</span>, <span class=\"math inline\">\\(u_{n+1} = 1 -\nu_n^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d46ba85e-173c-4311-8f2c-9cf88be1911c",
+      "type": "question",
+      "value": {
+        "latex": "$u_{n+1} = u_n-u_n^2$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1} = u_n-u_n^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6f1ae9e9-cce2-4f84-baab-b29c957c6176",
+      "type": "question",
+      "value": {
+        "latex": "$u_0 = 0$, $u_{n+1} = u_n^2+\\alpha$.",
+        "html": "<p><span class=\"math inline\">\\(u_0 = 0\\)</span>, <span\nclass=\"math inline\">\\(u_{n+1} = u_n^2+\\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "498fa091-b614-4cea-8e6c-ea0ef3d7a5b9",
+      "type": "question",
+      "value": {
+        "latex": "$u_{n+1} = u_n + \\frac{1+u_n}{1+2u_n}$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1} = u_n +\n\\frac{1+u_n}{1+2u_n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aa3e2340-2cdc-40ba-bf7e-40065b99dac3",
+      "type": "question",
+      "value": {
+        "latex": "$u_0 \\in\\, [0,1]$, $u_{n+1} = \\frac{\\sqrt{u_n}}{\\sqrt{u_n}+\\sqrt{1-u_n}}$.",
+        "html": "<p><span class=\"math inline\">\\(u_0 \\in\\, [0,1]\\)</span>, <span\nclass=\"math inline\">\\(u_{n+1} =\n\\frac{\\sqrt{u_n}}{\\sqrt{u_n}+\\sqrt{1-u_n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9a4a1fab-9e68-44be-9a5d-35f75edf5e02",
+      "type": "question",
+      "value": {
+        "latex": "$u_{n+1} = \\sqrt{2-u_n}$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1} = \\sqrt{2-u_n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7564c4d2-eca7-4031-bf7f-cf63d2a40aea",
+      "type": "question",
+      "value": {
+        "latex": "$u_{n+1} = \\sqrt{4-3u_n}$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1} = \\sqrt{4-3u_n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c6529207-c618-4bcb-bcc3-e4eba4aa2136",
+      "type": "question",
+      "value": {
+        "latex": "$u_{n+1} = \\frac{u_n-\\ln(1+u_n)}{u_n^2}$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1} =\n\\frac{u_n-\\ln(1+u_n)}{u_n^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cf1c81c0-5874-4c91-9b45-4b62aabc2226",
+      "type": "question",
+      "value": {
+        "latex": "$u_{n+1} = \\frac3{2u_n^2+1}$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1} = \\frac3{2u_n^2+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9f09548c-f6f7-4b44-a6a9-1314e76774e2",
+      "type": "question",
+      "value": {
+        "latex": "$u_0 > 0$, $u_{n+1} = u_n^\\alpha$.",
+        "html": "<p><span class=\"math inline\">\\(u_0 &gt; 0\\)</span>, <span\nclass=\"math inline\">\\(u_{n+1} = u_n^\\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cde74acd-7214-44ec-b9a5-0183f6c0c8ef",
+      "type": "question",
+      "value": {
+        "latex": "$u_0 > 0$, $u_{n+1} = \\alpha^{u_n}$.",
+        "html": "<p><span class=\"math inline\">\\(u_0 &gt; 0\\)</span>, <span\nclass=\"math inline\">\\(u_{n+1} = \\alpha^{u_n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "10d962cf-368e-49b0-b60e-65d0d5dfcb9d",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_n\\searrow\\sqrt a$, et $u_n-\\sqrt a < \\frac{a-\\sqrt a}{(2\\sqrt a)^{2^n-1}}$.\n$u_{2n}\\to0$, $u_{2n+1}\\to1$.\nSi $0\\le u_0 \\le 1$ : $u_n\\searrow0$, sinon $u_n\\searrow-\\infty$.\n\\begin{itemize}\n$\\frac{1}{4} < \\alpha$ : $u_n\\to\\infty$;\n$- \\frac{3}{4} < \\alpha \\le \\frac{1}{4}$: $u_n\\to\\frac{1-\\sqrt{1-4a}}2$,\n$-1 < \\alpha \\le - \\frac{3}{4}$: \n\t  $1$ point fixe et deux points réciproques. $(u_n)$ ne converge pas.\n\t  \\end{itemize}\nSi $u_0 > {\\scriptstyle-}\\frac12$, $u_n\\to\\infty$;\n             si $u_0 < {\\scriptstyle-}\\frac12$, $u_n\\to-1$.\n$u_n\\to\\frac12$.\nThm du point fixe sur $]-\\infty, \\frac74]  \\Rightarrow  u_n\\to 1$.\nSi $u_0\\ne 1$, $\\exists\\ n \\text{ tq } 4-3u_n < 0  \\Rightarrow $ suite finie.\n$u_n\\to\\alpha \\approx 0.39754$.\n1 est point fixe, il y a deux points réciproques. $(u_n)$ ne converge pas.\n\\begin{itemize}\n$1 < \\alpha$: $u_n\\to0$ si $u_0<1$, $u_n\\to\\infty$ si $u_0>1$\n$-1 < \\alpha <1$: $u_n\\to 1$\n$\\alpha \\le -1$: si $u_0 \\ne 1$, $(u_n)$ diverge.\n    \t\\end{itemize}\n\\begin{itemize}\n       $e^{1/e}  < \\alpha$: $u_n\\to\\infty$.\n       $1 < \\alpha < e^{1/e}$: 2 pts fixes, $\\beta<\\gamma$. $u_n\\to\\beta$ si $u_0<\\gamma$, \n       et $u_n\\to\\infty$ si $u_0>\\gamma$. \n       $e^{-e} \\le \\alpha <  1$: 1 pt fixe, $\\beta$, et $u_n\\to\\beta$.\n       $\\alpha <  e^{-e}$: 1 point fixe et deux points réciproques. $(u_n)$ ne converge pas.\n    \t\\end{itemize}",
+        "html": "<p><span class=\"math inline\">\\(u_n\\searrow\\sqrt a\\)</span>, et <span\nclass=\"math inline\">\\(u_n-\\sqrt a &lt; \\frac{a-\\sqrt a}{(2\\sqrt\na)^{2^n-1}}\\)</span>. <span class=\"math inline\">\\(u_{2n}\\to0\\)</span>,\n<span class=\"math inline\">\\(u_{2n+1}\\to1\\)</span>. Si <span\nclass=\"math inline\">\\(0\\le u_0 \\le 1\\)</span> : <span\nclass=\"math inline\">\\(u_n\\searrow0\\)</span>, sinon <span\nclass=\"math inline\">\\(u_n\\searrow-\\infty\\)</span>.</p>\n<div class=\"itemize\">\n<p><span class=\"math inline\">\\(\\frac{1}{4} &lt; \\alpha\\)</span> : <span\nclass=\"math inline\">\\(u_n\\to\\infty\\)</span>; <span\nclass=\"math inline\">\\(- \\frac{3}{4} &lt; \\alpha \\le\n\\frac{1}{4}\\)</span>: <span\nclass=\"math inline\">\\(u_n\\to\\frac{1-\\sqrt{1-4a}}2\\)</span>, <span\nclass=\"math inline\">\\(-1 &lt; \\alpha \\le - \\frac{3}{4}\\)</span>: <span\nclass=\"math inline\">\\(1\\)</span> point fixe et deux points réciproques.\n<span class=\"math inline\">\\((u_n)\\)</span> ne converge pas.</p>\n</div>\n<p>Si <span class=\"math inline\">\\(u_0 &gt;\n{\\scriptstyle-}\\frac12\\)</span>, <span\nclass=\"math inline\">\\(u_n\\to\\infty\\)</span>; si <span\nclass=\"math inline\">\\(u_0 &lt; {\\scriptstyle-}\\frac12\\)</span>, <span\nclass=\"math inline\">\\(u_n\\to-1\\)</span>. <span\nclass=\"math inline\">\\(u_n\\to\\frac12\\)</span>. Thm du point fixe sur\n<span class=\"math inline\">\\(]-\\infty, \\frac74]  \\Rightarrow  u_n\\to\n1\\)</span>. Si <span class=\"math inline\">\\(u_0\\ne 1\\)</span>, <span\nclass=\"math inline\">\\(\\exists\\ n \\text{ tq } 4-3u_n &lt;\n0  \\Rightarrow\\)</span> suite finie. <span\nclass=\"math inline\">\\(u_n\\to\\alpha \\approx 0.39754\\)</span>. 1 est point\nfixe, il y a deux points réciproques. <span\nclass=\"math inline\">\\((u_n)\\)</span> ne converge pas.</p>\n<div class=\"itemize\">\n<p><span class=\"math inline\">\\(1 &lt; \\alpha\\)</span>: <span\nclass=\"math inline\">\\(u_n\\to0\\)</span> si <span\nclass=\"math inline\">\\(u_0&lt;1\\)</span>, <span\nclass=\"math inline\">\\(u_n\\to\\infty\\)</span> si <span\nclass=\"math inline\">\\(u_0&gt;1\\)</span> <span class=\"math inline\">\\(-1\n&lt; \\alpha &lt;1\\)</span>: <span class=\"math inline\">\\(u_n\\to\n1\\)</span> <span class=\"math inline\">\\(\\alpha \\le -1\\)</span>: si <span\nclass=\"math inline\">\\(u_0 \\ne 1\\)</span>, <span\nclass=\"math inline\">\\((u_n)\\)</span> diverge.</p>\n</div>\n<div class=\"itemize\">\n<p><span class=\"math inline\">\\(e^{1/e}  &lt; \\alpha\\)</span>: <span\nclass=\"math inline\">\\(u_n\\to\\infty\\)</span>. <span\nclass=\"math inline\">\\(1 &lt; \\alpha &lt; e^{1/e}\\)</span>: 2 pts fixes,\n<span class=\"math inline\">\\(\\beta&lt;\\gamma\\)</span>. <span\nclass=\"math inline\">\\(u_n\\to\\beta\\)</span> si <span\nclass=\"math inline\">\\(u_0&lt;\\gamma\\)</span>, et <span\nclass=\"math inline\">\\(u_n\\to\\infty\\)</span> si <span\nclass=\"math inline\">\\(u_0&gt;\\gamma\\)</span>. <span\nclass=\"math inline\">\\(e^{-e} \\le \\alpha &lt;  1\\)</span>: 1 pt fixe,\n<span class=\"math inline\">\\(\\beta\\)</span>, et <span\nclass=\"math inline\">\\(u_n\\to\\beta\\)</span>. <span\nclass=\"math inline\">\\(\\alpha &lt;  e^{-e}\\)</span>: 1 point fixe et deux\npoints réciproques. <span class=\"math inline\">\\((u_n)\\)</span> ne\nconverge pas.</p>\n</div>\n"
+      }
+    }
+  ],
+  "preview": "<p>Étudier la convergence de la suite <span\nclass=\"math inline\">\\((u_n)\\)</span> définie par :</p>\n"
+}

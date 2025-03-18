@@ -1,0 +1,37 @@
+{
+  "uuid": "woxX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3070",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Suite récurrente linéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:11.612Z"
+  },
+  "contenu": [
+    {
+      "id": "76de4ec6-1e54-4dad-9b31-e213e4eaaa9c",
+      "type": "description",
+      "value": {
+        "latex": "On donne $u_0,v_0$. R{\\'e}soudre le syst{\\`e}me :\n$\\begin{cases} 5u_n = 2u_{n-1} + 3v_{n-1} \\cr 5v_n = 2v_{n-1} + 3u_{n-1}.\\end{cases}$",
+        "html": "<p>On donne <span class=\"math inline\">\\(u_0,v_0\\)</span>.\nR<span>é</span>soudre le syst<span>è</span>me : <span\nclass=\"math inline\">\\(\\begin{cases} 5u_n = 2u_{n-1} + 3v_{n-1} \\cr 5v_n\n= 2v_{n-1} + 3u_{n-1}.\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b78e5e49-4e89-4afe-b8df-91b2a05c166b",
+      "type": "reponse",
+      "value": {
+        "latex": "$2u_n = u_0 + v_0 + \\left(-\\frac 15\\right)^n (u_0 - v_0)$,\\quad\n$2v_n = u_0 + v_0 - \\left(-\\frac 15\\right)^n (u_0 - v_0)$.",
+        "html": "<p><span class=\"math inline\">\\(2u_n = u_0 + v_0 + \\left(-\\frac\n15\\right)^n (u_0 - v_0)\\)</span>, <span class=\"math inline\">\\(2v_n = u_0\n+ v_0 - \\left(-\\frac 15\\right)^n (u_0 - v_0)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On donne <span class=\"math inline\">\\(u_0,v_0\\)</span>.\nR<span>é</span>soudre le syst<span>è</span>me : <span\nclass=\"math inline\"> ..."
+}

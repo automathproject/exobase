@@ -1,0 +1,53 @@
+{
+  "uuid": "Vx3C",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6248",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Continuité, uniforme continuité",
+    "sousChapitre": "Continuité, uniforme continuité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:46.075Z"
+  },
+  "contenu": [
+    {
+      "id": "e442f5a1-6e88-433f-804c-aa821aacfa01",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ un espace métrique.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace métrique.</p>\n"
+      }
+    },
+    {
+      "id": "c1c55261-07d2-4b7c-8f8e-6c0acf735c41",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $X$ n'est pas complet, \nil existe une suite de Cauchy $(a_n)$,\nnon convergente, et telle que $a_p\\neq a_q$ pour $p\\neq q$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(X\\)</span> n’est pas\ncomplet, il existe une suite de Cauchy <span\nclass=\"math inline\">\\((a_n)\\)</span>, non convergente, et telle que\n<span class=\"math inline\">\\(a_p\\neq a_q\\)</span> pour <span\nclass=\"math inline\">\\(p\\neq q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fbaa8b71-3bb1-4598-b980-3e92f9b57bba",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(b_n)$ une suite de Cauchy non convergente; montrer que l'ensemble\n$B=\\{b_n,\\ n\\in\\Nn\\}$ est fermé dans $X$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((b_n)\\)</span> une suite de Cauchy\nnon convergente; montrer que l’ensemble <span\nclass=\"math inline\">\\(B=\\{b_n,\\ n\\in\\Nn\\}\\)</span> est fermé dans <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aef4a8e6-c7cc-4954-9929-eaf7d2e68903",
+      "type": "question",
+      "value": {
+        "latex": "Déduire des questions précédentes que si $X$ n'est pas complet, on peut\ntrouver une fonction continue $f:X\\to [0,1]$ qui n'est pas uniformément\ncontinue.\n\n\\emph{Indication :} Si $(a_n)$ est définie par 1., construire $f:X\\to [0,1]$ telle que\n$f(a_{2n})=0$ et $f(a_{2n+1})=1$.",
+        "html": "<p>Déduire des questions précédentes que si <span\nclass=\"math inline\">\\(X\\)</span> n’est pas complet, on peut trouver une\nfonction continue <span class=\"math inline\">\\(f:X\\to [0,1]\\)</span> qui\nn’est pas uniformément continue.</p>\n<p><em>Indication :</em> Si <span class=\"math inline\">\\((a_n)\\)</span>\nest définie par 1., construire <span class=\"math inline\">\\(f:X\\to\n[0,1]\\)</span> telle que <span\nclass=\"math inline\">\\(f(a_{2n})=0\\)</span> et <span\nclass=\"math inline\">\\(f(a_{2n+1})=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace métrique.</p>\n"
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "RCXo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4325",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:14.436Z"
+  },
+  "contenu": [
+    {
+      "id": "52e167b9-f005-47d7-9607-aecf71a9702a",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "6b23751e-6151-4b02-a3a8-c0317c1c4c9d",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f : {[0,1]} \\to \\R$ continue.\n    Montrer que $ \\int_{t=0}^1 f(t^n)\\,d t \\to f(0)$  lorsque $n\\to\\infty$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[0,1]} \\to \\R\\)</span>\ncontinue. Montrer que <span class=\"math inline\">\\(\\int_{t=0}^1 f(t^n)\\,d\nt \\to f(0)\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "942b93e5-614b-4c4d-8ee6-85fef654dd0c",
+      "type": "reponse",
+      "value": {
+        "latex": "Couper en $ \\int_{t=0}^{1-\\varepsilon} +  \\int_{t=1-\\varepsilon}^1$",
+        "html": "<p>Couper en <span class=\"math inline\">\\(\\int_{t=0}^{1-\\varepsilon}\n+  \\int_{t=1-\\varepsilon}^1\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "80ce2aae-90a0-4afe-846a-a577cdfef784",
+      "type": "question",
+      "value": {
+        "latex": "Chercher un équivalent pour $n\\to\\infty$ de $ \\int_{t=0}^1 \\frac{t^n\\,d t}{1+t^n}$.",
+        "html": "<p>Chercher un équivalent pour <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span> de <span\nclass=\"math inline\">\\(\\int_{t=0}^1 \\frac{t^n\\,d t}{1+t^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4e43c289-6dba-462c-b020-a0ca80738c38",
+      "type": "reponse",
+      "value": {
+        "latex": "$=\\left[\\frac{t\\ln(1+t^n)}n\\right]_{t=0}^1 - \\frac1n \\int_{t=0}^1 \\ln(1+t^n)\\,d t \\sim \\frac{\\ln 2}n$.",
+        "html": "<p><span class=\"math inline\">\\(=\\left[\\frac{t\\ln(1+t^n)}n\\right]_{t=0}^1\n- \\frac1n \\int_{t=0}^1 \\ln(1+t^n)\\,d t \\sim \\frac{\\ln 2}n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "352a50b6-ff29-471d-928a-2ee3c87c67a7",
+      "type": "question",
+      "value": {
+        "latex": "Chercher un équivalent pour $n\\to\\infty$ de $-1 +  \\int_{t=0}^1 \\sqrt{1+t^n}\\,d t$.",
+        "html": "<p>Chercher un équivalent pour <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span> de <span\nclass=\"math inline\">\\(-1 +  \\int_{t=0}^1 \\sqrt{1+t^n}\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b186ea57-3e43-4629-b84e-919dc77be919",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac1n \\int_{t=0}^1  \\frac{d t}{\\sqrt{1+t}+1} = \\frac{2\\sqrt2-2+2\\ln(2\\sqrt2-2)}n$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac1n \\int_{t=0}^1  \\frac{d\nt}{\\sqrt{1+t}+1} = \\frac{2\\sqrt2-2+2\\ln(2\\sqrt2-2)}n\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {[0,1]} \\to \\R\\)</span>\ncontinue. Montrer que <span class=\"math inline\">\\(\\int_{t=0}^1 f(t^n)\\,d\nt \\to f(0)\\)< ..."
+}

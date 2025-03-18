@@ -1,0 +1,85 @@
+{
+  "uuid": "YOSM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7829",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Forme bilinéaire",
+    "sousChapitre": "Forme bilinéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:59.452Z"
+  },
+  "contenu": [
+    {
+      "id": "3e23f20f-bc32-451b-92c3-f4384c96b3a7",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "bc9015e0-c649-4805-8403-9f9375ecbaad",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'application \r\n$$\\begin{array}{cccc}h : &\\Rr^3&\\to& H_0\\\\\r\n&(x_1,x_2, x_3)&\\mapsto&\\left(\r\n\\begin{array}{cc}\r\nx_3&x_1+ix_2\\\\x_1-ix_2&-x_3\r\n\\end{array}\\right)\\end{array}$$\r\nest un isomrphisme entre $\\Rr^3$ et le $\\Rr$-espace vectoriel\r\n$H_0$ des matrices hermitiennes de trace nulle.",
+        "html": "<p>Montrer que l’application <span\nclass=\"math display\">\\[\\begin{array}{cccc}h : &amp;\\Rr^3&amp;\\to&amp;\nH_0\\\\\n&amp;(x_1,x_2, x_3)&amp;\\mapsto&amp;\\left(\n\\begin{array}{cc}\nx_3&amp;x_1+ix_2\\\\x_1-ix_2&amp;-x_3\n\\end{array}\\right)\\end{array}\\]</span> est un isomrphisme entre <span\nclass=\"math inline\">\\(\\Rr^3\\)</span> et le <span\nclass=\"math inline\">\\(\\Rr\\)</span>-espace vectoriel <span\nclass=\"math inline\">\\(H_0\\)</span> des matrices hermitiennes de trace\nnulle.</p>\n"
+      }
+    },
+    {
+      "id": "8d724412-6325-4467-8d98-7f0c446c6b7e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le groupe $SU(2)$ agit sur $H_0$ par conjuguaison.",
+        "html": "<p>Montrer que le groupe <span class=\"math inline\">\\(SU(2)\\)</span> agit\nsur <span class=\"math inline\">\\(H_0\\)</span> par conjuguaison.</p>\n"
+      }
+    },
+    {
+      "id": "1af452f7-032c-435f-ada9-81358455fcfd",
+      "type": "question",
+      "value": {
+        "latex": "Par l'isomorphisme $h$, cette action permet de définir une action \r\nde $SU(2)$sur $\\Rr^3$. Montrer que cette action est par isométrie de\r\ndéterminant $1$. (On pourra utiliser la connexité de $SU(2)$\r\nhoméomorphe à $S^3$ sphère unité du corps des quaternions.).\r\nEn déduire un homomorphisme $\\phi$ de $SU(2)$ dans $SO(3)$.",
+        "html": "<p>Par l’isomorphisme <span class=\"math inline\">\\(h\\)</span>, cette\naction permet de définir une action de <span\nclass=\"math inline\">\\(SU(2)\\)</span>sur <span\nclass=\"math inline\">\\(\\Rr^3\\)</span>. Montrer que cette action est par\nisométrie de déterminant <span class=\"math inline\">\\(1\\)</span>. (On\npourra utiliser la connexité de <span\nclass=\"math inline\">\\(SU(2)\\)</span> homéomorphe à <span\nclass=\"math inline\">\\(S^3\\)</span> sphère unité du corps des\nquaternions.). En déduire un homomorphisme <span\nclass=\"math inline\">\\(\\phi\\)</span> de <span\nclass=\"math inline\">\\(SU(2)\\)</span> dans <span\nclass=\"math inline\">\\(SO(3)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4772aacf-dba5-42c7-9bee-247c48ab47d7",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les seules matrices de $SU(2)$ qui commutent à tous\r\n les éléments de $H_0$ sont $Id$ et $-Id$. En déduire le noyau de\r\n $\\phi$.",
+        "html": "<p>Montrer que les seules matrices de <span\nclass=\"math inline\">\\(SU(2)\\)</span> qui commutent à tous les éléments\nde <span class=\"math inline\">\\(H_0\\)</span> sont <span\nclass=\"math inline\">\\(Id\\)</span> et <span\nclass=\"math inline\">\\(-Id\\)</span>. En déduire le noyau de <span\nclass=\"math inline\">\\(\\phi\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ef127878-d072-4292-be5a-2436ac172e8e",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant les formes réduites des matrices de $SO(3)$,\r\n montrer que l'application exponentielle de l'espace $so(3)$\r\ndes matrices anti-symétriques réelles $3\\times 3$ (de trace nulle) \r\nsur $SO(3)$ est surjective.",
+        "html": "<p>En utilisant les formes réduites des matrices de <span\nclass=\"math inline\">\\(SO(3)\\)</span>, montrer que l’application\nexponentielle de l’espace <span class=\"math inline\">\\(so(3)\\)</span> des\nmatrices anti-symétriques réelles <span class=\"math inline\">\\(3\\times\n3\\)</span> (de trace nulle) sur <span\nclass=\"math inline\">\\(SO(3)\\)</span> est surjective.</p>\n"
+      }
+    },
+    {
+      "id": "839215f6-37e0-42ee-9568-8f78483d543b",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant la diagonalisation des matrices unitaires dans une\r\n base orthonormée pour le produit scalaire hermitien standard sur\r\n $\\Cc^2$, montrer que l'application exponentielle de l'espace $su(2)$\r\ndes matrices anti-hermitiennes de trace nulle sur $SU(2)$ est surjective.",
+        "html": "<p>En utilisant la diagonalisation des matrices unitaires dans une base\northonormée pour le produit scalaire hermitien standard sur <span\nclass=\"math inline\">\\(\\Cc^2\\)</span>, montrer que l’application\nexponentielle de l’espace <span class=\"math inline\">\\(su(2)\\)</span> des\nmatrices anti-hermitiennes de trace nulle sur <span\nclass=\"math inline\">\\(SU(2)\\)</span> est surjective.</p>\n"
+      }
+    },
+    {
+      "id": "23b3d759-1a96-4cdd-8301-79e126f0e8f0",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer l'image par $\\phi$ des matrices ( avec $a,b,c\\in\\Rr$)\r\n$$\\exp \\left(\r\n\\begin{array}{cc}\r\nia&0\\\\\r\n0&-ia\r\n\\end{array}\\right)\r\n\\ ;\\\r\n\\exp \\left(\r\n\\begin{array}{cc}\r\n0&b\\\\\r\n-b&0\r\n\\end{array}\\right)\r\n\\ ;\\\r\n\\exp \\left(\r\n\\begin{array}{cc}\r\n0&ic\\\\\r\nic&0\r\n\\end{array}\\right)$$\r\nEn déduire que $\\phi$ est surjective.",
+        "html": "<p>Déterminer l’image par <span class=\"math inline\">\\(\\phi\\)</span> des\nmatrices ( avec <span class=\"math inline\">\\(a,b,c\\in\\Rr\\)</span>) <span\nclass=\"math display\">\\[\\exp \\left(\n\\begin{array}{cc}\nia&amp;0\\\\\n0&amp;-ia\n\\end{array}\\right)\n\\ ;\\\n\\exp \\left(\n\\begin{array}{cc}\n0&amp;b\\\\\n-b&amp;0\n\\end{array}\\right)\n\\ ;\\\n\\exp \\left(\n\\begin{array}{cc}\n0&amp;ic\\\\\nic&amp;0\n\\end{array}\\right)\\]</span> En déduire que <span\nclass=\"math inline\">\\(\\phi\\)</span> est surjective.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que l’application <span\nclass=\"math display\"> ..."
+}

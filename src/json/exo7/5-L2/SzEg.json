@@ -1,0 +1,61 @@
+{
+  "uuid": "SzEg",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4573",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Rayon de convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:18.399Z"
+  },
+  "contenu": [
+    {
+      "id": "78dfe2d1-d56f-46ef-a166-559abcddfd52",
+      "type": "description",
+      "value": {
+        "latex": "Pour $n\\in\\N$ et $x\\in\\R$ on pose $u_n(x) = \\Bigl(\\frac{x(1-x)}2\\Bigr)^{4^n}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n\\in\\N\\)</span> et <span\nclass=\"math inline\">\\(x\\in\\R\\)</span> on pose <span\nclass=\"math inline\">\\(u_n(x) =\n\\Bigl(\\frac{x(1-x)}2\\Bigr)^{4^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "883f0769-7426-47f0-9d0e-7f644b4e28a0",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le domaine de convergence de la série $\\sum_{n=0}^\\infty u_n(x)$.",
+        "html": "<p>Déterminer le domaine de convergence de la série <span\nclass=\"math inline\">\\(\\sum_{n=0}^\\infty u_n(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "87d6df98-4491-4abd-b5bb-65e1051e6884",
+      "type": "reponse",
+      "value": {
+        "latex": "$]-1,2[$.",
+        "html": "<p><span class=\"math inline\">\\(]-1,2[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eaa39907-28f1-4e91-ad0c-d6342fc3d349",
+      "type": "question",
+      "value": {
+        "latex": "On développe $u_n(x)$ par la formule du binôme~:\n    $u_n(x) = \\sum_{4^n\\le k \\le 2.4^n}a_kx^k$. Montrer que le\n    rayon de convergence de la série entière $\\sum_{k\\ge 1} a_kx^k$\n    est égal à~$1$ (en convenant que les $a_k$ non définis valent zéro).",
+        "html": "<p>On développe <span class=\"math inline\">\\(u_n(x)\\)</span> par la\nformule du binôme : <span class=\"math inline\">\\(u_n(x) = \\sum_{4^n\\le k\n\\le 2.4^n}a_kx^k\\)</span>. Montrer que le rayon de convergence de la\nsérie entière <span class=\"math inline\">\\(\\sum_{k\\ge 1} a_kx^k\\)</span>\nest égal à <span class=\"math inline\">\\(1\\)</span> (en convenant que les\n<span class=\"math inline\">\\(a_k\\)</span> non définis valent zéro).</p>\n"
+      }
+    },
+    {
+      "id": "431cc4a8-b57b-4602-873d-cb297eb40757",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $0\\le k\\le 4^n$, on a $|a_k| \\le C_{4^n}^{4^n/2}\\Bigm/2^{4^n}$\n(atteint pour $k=4^n/2$).\n\nDonc $a_n\\to0$ lorsque $n\\to\\infty$ et si $x>1$ alors\n$a_{3*4^n/2}x^{3*4^n/2}$\n\\hbox to 0pt{\\hskip5mm $\\not{}$\\hss}\n$\\to 0$ lorsque $n\\to\\infty$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(0\\le k\\le 4^n\\)</span>, on a <span\nclass=\"math inline\">\\(|a_k| \\le C_{4^n}^{4^n/2}\\Bigm/2^{4^n}\\)</span>\n(atteint pour <span class=\"math inline\">\\(k=4^n/2\\)</span>).</p>\n<p>Donc <span class=\"math inline\">\\(a_n\\to0\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span> et si <span\nclass=\"math inline\">\\(x&gt;1\\)</span> alors <span\nclass=\"math inline\">\\(a_{3*4^n/2}x^{3*4^n/2}\\)</span> to 0pt<span> <span\nclass=\"math inline\">\\(\\not{}\\)</span></span> <span\nclass=\"math inline\">\\(\\to 0\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(n\\in\\N\\)</span> et <span\nclass=\"math inline\">\\(x\\in\\R\\)</span> on pose <span\nclass=\"math inline\"> ..."
+}

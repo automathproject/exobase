@@ -1,0 +1,109 @@
+{
+  "uuid": "XgU9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5257",
+    "auteur": "rouget",
+    "createdAt": "2010-07-04",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Noyau, image",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:57.223Z"
+  },
+  "contenu": [
+    {
+      "id": "adf75f1a-4e59-4c4e-96f2-0b23cf280222",
+      "type": "description",
+      "value": {
+        "latex": "Soit $u$ l'endomorphisme de $\\Rr^3$ dont la matrice dans la base canonique $(i,j,k)$ de $\\Rr^3$ est~:\n\n$$M=\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)\n.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(u\\)</span> l’endomorphisme de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span> dont la matrice dans la base\ncanonique <span class=\"math inline\">\\((i,j,k)\\)</span> de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span> est :</p>\n<p><span class=\"math display\">\\[M=\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)\n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9eb6871d-7c0c-4244-955b-fac8ee520ccc",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $u(2i-3j+5k)$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(u(2i-3j+5k)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fa5efdbc-3c55-4ef2-b310-05a0883cf1a3",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $X=\\left(\n\\begin{array}{c}\n2\\\\\n-3\\\\\n5\n\\end{array}\n\\right)$. $MX=\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)\\left(\n\\begin{array}{c}\n2\\\\\n-3\\\\\n5\n\\end{array}\n\\right)=\\left(\n\\begin{array}{c}\n1\\\\\n2\\\\\n-3\n\\end{array}\n\\right)$  et $u(2i-3j+5k)=i+2j-3k$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X=\\left(\n\\begin{array}{c}\n2\\\\\n-3\\\\\n5\n\\end{array}\n\\right)\\)</span>. <span class=\"math inline\">\\(MX=\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)\\left(\n\\begin{array}{c}\n2\\\\\n-3\\\\\n5\n\\end{array}\n\\right)=\\left(\n\\begin{array}{c}\n1\\\\\n2\\\\\n-3\n\\end{array}\n\\right)\\)</span> et <span\nclass=\"math inline\">\\(u(2i-3j+5k)=i+2j-3k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f84aebbb-0acb-40cc-9969-017a3e2845b7",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $\\mbox{Ker}u$ et $\\mbox{Im}u$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(\\mbox{Ker}u\\)</span> et <span\nclass=\"math inline\">\\(\\mbox{Im}u\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f1bd619c-402b-4269-a1d2-79dc8e0f92b9",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $X=\\left(\n\\begin{array}{c}\nx\\\\\ny\\\\\nz\n\\end{array}\n\\right)\\in\\mathcal{M}_{3,1}(\\Rr)$ . \n\n$$MX=0\\Leftrightarrow\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)\\left(\n\\begin{array}{c}\nx\\\\\ny\\\\\nz\n\\end{array}\n\\right)=\\left(\n\\begin{array}{c}\n0\\\\\n0\\\\\n0\n\\end{array}\n\\right)\\Leftrightarrow\n\\left\\{\n\\begin{array}{l}\n2x+y=0\\\\\n-3x-y+z=0\\\\\nx-z=0\n\\end{array}\n\\right.\\Leftrightarrow\\left\\{\n\\begin{array}{l}\ny=-2x\\\\\nz=x\n\\end{array}\n\\right..$$\n\nDonc, $\\mbox{Ker}u=\\mbox{Vect}(i-2j+k)$. En particulier, $\\mbox{dim}(\\mbox{Ker}u)=1$ et, d'après le théorème du rang, $\\mbox{rg}u=2$. Or, $u(j)=i-j$ et $u(k)=j+k$ sont deux vecteurs non colinéaires de $\\mbox{Im}u$ qui est un plan vectoriel et donc $\\mbox{Im}u=\\mbox{Vect}(i-j,j-k)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X=\\left(\n\\begin{array}{c}\nx\\\\\ny\\\\\nz\n\\end{array}\n\\right)\\in\\mathcal{M}_{3,1}(\\Rr)\\)</span> .</p>\n<p><span class=\"math display\">\\[MX=0\\Leftrightarrow\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)\\left(\n\\begin{array}{c}\nx\\\\\ny\\\\\nz\n\\end{array}\n\\right)=\\left(\n\\begin{array}{c}\n0\\\\\n0\\\\\n0\n\\end{array}\n\\right)\\Leftrightarrow\n\\left\\{\n\\begin{array}{l}\n2x+y=0\\\\\n-3x-y+z=0\\\\\nx-z=0\n\\end{array}\n\\right.\\Leftrightarrow\\left\\{\n\\begin{array}{l}\ny=-2x\\\\\nz=x\n\\end{array}\n\\right..\\]</span></p>\n<p>Donc, <span\nclass=\"math inline\">\\(\\mbox{Ker}u=\\mbox{Vect}(i-2j+k)\\)</span>. En\nparticulier, <span\nclass=\"math inline\">\\(\\mbox{dim}(\\mbox{Ker}u)=1\\)</span> et, d’après le\nthéorème du rang, <span class=\"math inline\">\\(\\mbox{rg}u=2\\)</span>. Or,\n<span class=\"math inline\">\\(u(j)=i-j\\)</span> et <span\nclass=\"math inline\">\\(u(k)=j+k\\)</span> sont deux vecteurs non\ncolinéaires de <span class=\"math inline\">\\(\\mbox{Im}u\\)</span> qui est\nun plan vectoriel et donc <span\nclass=\"math inline\">\\(\\mbox{Im}u=\\mbox{Vect}(i-j,j-k)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e52abcea-a685-42fb-a3cf-27c6392b456f",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $M^2$ et $M^3$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(M^2\\)</span> et <span\nclass=\"math inline\">\\(M^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f25d5d63-b50d-4e7f-8a42-dd8c28fff0ac",
+      "type": "reponse",
+      "value": {
+        "latex": "$$M^2=\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)=\\left(\n\\begin{array}{ccc}\n1&1&1\\\\\n-2&-2&-2\\\\\n1&1&1\n\\end{array}\n\\right)$$\n\net \n\n$$M^3=M^2.M=\\left(\n\\begin{array}{ccc}\n1&1&1\\\\\n-2&-2&-2\\\\\n1&1&1\n\\end{array}\n\\right)\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)=0.$$",
+        "html": "<p><span class=\"math display\">\\[M^2=\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)=\\left(\n\\begin{array}{ccc}\n1&amp;1&amp;1\\\\\n-2&amp;-2&amp;-2\\\\\n1&amp;1&amp;1\n\\end{array}\n\\right)\\]</span></p>\n<p>et</p>\n<p><span class=\"math display\">\\[M^3=M^2.M=\\left(\n\\begin{array}{ccc}\n1&amp;1&amp;1\\\\\n-2&amp;-2&amp;-2\\\\\n1&amp;1&amp;1\n\\end{array}\n\\right)\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)=0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "48ac8a8b-9648-42aa-a34b-f3ab219501d6",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $\\mbox{Ker}u^2$ et $\\mbox{Im}u^2$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(\\mbox{Ker}u^2\\)</span> et\n<span class=\"math inline\">\\(\\mbox{Im}u^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a91260ee-93fa-47ab-9e33-9f6892e54c13",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\mbox{Ker}u^2$ est à l'évidence le plan d'équation $x+y+z=0$. Une base de $\\mbox{Ker}u^2$ est $(i-j,j-k)$ et donc $\\mbox{Ker}u^2=\\mbox{Im}u=\\mbox{Vect}(i-j,j-k)$.\n\nD'après le théorème du rang, $\\mbox{Im}u^2$ est une droite vectorielle. Mais $u^3=0$ s'écrit encore $u\\circ u^2=0$, et donc $\\mbox{Im}u^2$ est contenue dans $\\mbox{Ker}u$ qui est une droite vectorielle. Donc, $\\mbox{Im}u^2=\\mbox{Ker}u=\\mbox{Vect}(i-2j+k)$.",
+        "html": "<p><span class=\"math inline\">\\(\\mbox{Ker}u^2\\)</span> est à l’évidence\nle plan d’équation <span class=\"math inline\">\\(x+y+z=0\\)</span>. Une\nbase de <span class=\"math inline\">\\(\\mbox{Ker}u^2\\)</span> est <span\nclass=\"math inline\">\\((i-j,j-k)\\)</span> et donc <span\nclass=\"math inline\">\\(\\mbox{Ker}u^2=\\mbox{Im}u=\\mbox{Vect}(i-j,j-k)\\)</span>.</p>\n<p>D’après le théorème du rang, <span\nclass=\"math inline\">\\(\\mbox{Im}u^2\\)</span> est une droite vectorielle.\nMais <span class=\"math inline\">\\(u^3=0\\)</span> s’écrit encore <span\nclass=\"math inline\">\\(u\\circ u^2=0\\)</span>, et donc <span\nclass=\"math inline\">\\(\\mbox{Im}u^2\\)</span> est contenue dans <span\nclass=\"math inline\">\\(\\mbox{Ker}u\\)</span> qui est une droite\nvectorielle. Donc, <span\nclass=\"math inline\">\\(\\mbox{Im}u^2=\\mbox{Ker}u=\\mbox{Vect}(i-2j+k)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9c2b90c4-0ac1-409e-b682-8d86c50b6c98",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $(I-M)(I+M+M^2)$ et en déduire que $I-M$ est inversible. Préciser $(I-M)^{-1}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\((I-M)(I+M+M^2)\\)</span> et en\ndéduire que <span class=\"math inline\">\\(I-M\\)</span> est inversible.\nPréciser <span class=\"math inline\">\\((I-M)^{-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "85508419-2464-41ca-bf02-ba24b70dd5b2",
+      "type": "reponse",
+      "value": {
+        "latex": "$(I-M)(I+M+M^2)=I-M^3=I$. Par suite, $I-M$ est inversible à droite et donc inversible et \n\n$$(I-M)^{-1}=I+M+M^2=\\left(\n\\begin{array}{ccc}\n1&0&0\\\\\n0&1&0\\\\\n0&0&1\n\\end{array}\n\\right)+\\left(\n\\begin{array}{ccc}\n2&1&0\\\\\n-3&-1&1\\\\\n1&0&-1\n\\end{array}\n\\right)+\\left(\n\\begin{array}{ccc}\n1&1&1\\\\\n-2&-2&-2\\\\\n1&1&1\n\\end{array}\n\\right)=\\left(\n\\begin{array}{ccc}\n4&2&1\\\\\n-5&-2&-1\\\\\n2&1&1\n\\end{array}\n\\right).$$",
+        "html": "<p><span class=\"math inline\">\\((I-M)(I+M+M^2)=I-M^3=I\\)</span>. Par\nsuite, <span class=\"math inline\">\\(I-M\\)</span> est inversible à droite\net donc inversible et</p>\n<p><span class=\"math display\">\\[(I-M)^{-1}=I+M+M^2=\\left(\n\\begin{array}{ccc}\n1&amp;0&amp;0\\\\\n0&amp;1&amp;0\\\\\n0&amp;0&amp;1\n\\end{array}\n\\right)+\\left(\n\\begin{array}{ccc}\n2&amp;1&amp;0\\\\\n-3&amp;-1&amp;1\\\\\n1&amp;0&amp;-1\n\\end{array}\n\\right)+\\left(\n\\begin{array}{ccc}\n1&amp;1&amp;1\\\\\n-2&amp;-2&amp;-2\\\\\n1&amp;1&amp;1\n\\end{array}\n\\right)=\\left(\n\\begin{array}{ccc}\n4&amp;2&amp;1\\\\\n-5&amp;-2&amp;-1\\\\\n2&amp;1&amp;1\n\\end{array}\n\\right).\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(u\\)</span> l’endomorphisme de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span> dont la matrice dans la base\ncanonique <s ..."
+}

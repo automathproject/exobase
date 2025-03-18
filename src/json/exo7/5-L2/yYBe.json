@@ -1,0 +1,77 @@
+{
+  "uuid": "yYBe",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4333",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:21.951Z"
+  },
+  "contenu": [
+    {
+      "id": "f14775f8-26e0-4f3a-aa28-c873f46958a8",
+      "type": "description",
+      "value": {
+        "latex": "On pose $I_n =  \\int_0^{\\pi/4} \\tan^nt\\,d t$.\\par",
+        "html": "<p>On pose <span class=\"math inline\">\\(I_n =  \\int_0^{\\pi/4} \\tan^nt\\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "13403581-8a03-4d80-a4e9-70c05a3d5619",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $I_n \\to 0$  lorsque $n\\to\\infty$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(I_n \\to 0\\)</span> lorsque\n<span class=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "beea4ab4-c170-4fde-99ee-3da9bf1f9279",
+      "type": "reponse",
+      "value": {
+        "latex": "$I_n+I_{n+2} = \\frac1{n+1}$.",
+        "html": "<p><span class=\"math inline\">\\(I_n+I_{n+2} = \\frac1{n+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d917f35b-1d25-4748-8082-7099a41402cd",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $I_n$ en fonction de~$n$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(I_n\\)</span> en fonction\nde <span class=\"math inline\">\\(n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "23288c2b-e6e8-420b-9f77-d1f93249c1e4",
+      "type": "reponse",
+      "value": {
+        "latex": "$I_{2k} = \\frac1{2k-1} - \\frac1{2k-3} + \\dots + \\frac{(-1)^{k-1}}1 + (-1)^k\\frac\\pi4$,\\par\n         $I_{2k+1} = \\frac1{2k} - \\frac1{2k-2} + \\dots + \\frac{(-1)^{k-1}}2 - (-1)^k\\ln\\sqrt2$.",
+        "html": "<p><span class=\"math inline\">\\(I_{2k} = \\frac1{2k-1} - \\frac1{2k-3} +\n\\dots + \\frac{(-1)^{k-1}}1 + (-1)^k\\frac\\pi4\\)</span>,</p>\n<p><span class=\"math inline\">\\(I_{2k+1} = \\frac1{2k} - \\frac1{2k-2} +\n\\dots + \\frac{(-1)^{k-1}}2 - (-1)^k\\ln\\sqrt2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8ef92d3f-7dfa-4e74-a356-1bb8e1cd64b8",
+      "type": "question",
+      "value": {
+        "latex": "Que peut-on en déduire~?",
+        "html": "<p>Que peut-on en déduire ?</p>\n"
+      }
+    },
+    {
+      "id": "47814565-cabf-40aa-bd7f-ea1b55357d29",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac11-\\frac13+\\frac15 - \\dots = \\frac\\pi4$ et $\\frac11-\\frac12+\\frac13-\\dots=\\ln 2$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac11-\\frac13+\\frac15 - \\dots =\n\\frac\\pi4\\)</span> et <span\nclass=\"math inline\">\\(\\frac11-\\frac12+\\frac13-\\dots=\\ln 2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(I_n =  \\int_0^{\\pi/4} \\tan^nt\\,d\nt\\)</span>.</p>\n"
+}

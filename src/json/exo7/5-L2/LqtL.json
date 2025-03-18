@@ -1,0 +1,173 @@
+{
+  "uuid": "LqtL",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4191",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:03.406Z"
+  },
+  "contenu": [
+    {
+      "id": "ae28a170-c8d0-438e-b8c3-ba1519aae01d",
+      "type": "description",
+      "value": {
+        "latex": "Chercher les extrémums des fonctions $f(x,y)$ suivantes :",
+        "html": "<p>Chercher les extrémums des fonctions <span\nclass=\"math inline\">\\(f(x,y)\\)</span> suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "accb01c2-a89d-44da-ba05-cd1ab31d542f",
+      "type": "question",
+      "value": {
+        "latex": "$3xy - x^3 - y^3$",
+        "html": "<p><span class=\"math inline\">\\(3xy - x^3 - y^3\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9f20c000-facf-4957-99ad-9eab6cd4e963",
+      "type": "reponse",
+      "value": {
+        "latex": "$(0,0)$ : non extrémal\\par\n             $(1,1)$ : maximum local",
+        "html": "<p><span class=\"math inline\">\\((0,0)\\)</span> : non extrémal</p>\n<p><span class=\"math inline\">\\((1,1)\\)</span> : maximum local</p>\n"
+      }
+    },
+    {
+      "id": "3a5b7636-c029-4469-8f32-44ac6dcea799",
+      "type": "question",
+      "value": {
+        "latex": "$-2(x-y)^2+x^4+y^4$",
+        "html": "<p><span class=\"math inline\">\\(-2(x-y)^2+x^4+y^4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9d782af9-037b-4b3b-8d9e-e2a34be8fd89",
+      "type": "reponse",
+      "value": {
+        "latex": "$(0,0)$ : non extrémal\\par\n             $\\pm(\\sqrt2, -\\sqrt2)$ : minimum absolu",
+        "html": "<p><span class=\"math inline\">\\((0,0)\\)</span> : non extrémal</p>\n<p><span class=\"math inline\">\\(\\pm(\\sqrt2, -\\sqrt2)\\)</span> : minimum\nabsolu</p>\n"
+      }
+    },
+    {
+      "id": "e5850cc3-6502-48b1-a66f-3eb6792b134f",
+      "type": "question",
+      "value": {
+        "latex": "$x^2y^2(1+3x+2y)$",
+        "html": "<p><span class=\"math inline\">\\(x^2y^2(1+3x+2y)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "52561295-25a9-447d-91a3-fb96c10569ab",
+      "type": "reponse",
+      "value": {
+        "latex": "$(-2/15,-1/5)$ : maximum local \\par\n             $(x,0)$ : max. local pour $x<-1/3$, min. local pour $x > -1/3$\\par\n             $(0,y)$ : max. local pour $y<-1/2$, min. local pour $y > -1/2$",
+        "html": "<p><span class=\"math inline\">\\((-2/15,-1/5)\\)</span> : maximum local</p>\n<p><span class=\"math inline\">\\((x,0)\\)</span> : max. local pour <span\nclass=\"math inline\">\\(x&lt;-1/3\\)</span>, min. local pour <span\nclass=\"math inline\">\\(x &gt; -1/3\\)</span></p>\n<p><span class=\"math inline\">\\((0,y)\\)</span> : max. local pour <span\nclass=\"math inline\">\\(y&lt;-1/2\\)</span>, min. local pour <span\nclass=\"math inline\">\\(y &gt; -1/2\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f9151266-6c95-4b79-be1f-42690b7bef45",
+      "type": "question",
+      "value": {
+        "latex": "$2x+y-x^4-y^4$",
+        "html": "<p><span class=\"math inline\">\\(2x+y-x^4-y^4\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "75b31c03-b001-4c54-a265-aa0be413182b",
+      "type": "reponse",
+      "value": {
+        "latex": "$(2^{-1/3},4^{-1/3})$ : maximum absolu",
+        "html": "<p><span class=\"math inline\">\\((2^{-1/3},4^{-1/3})\\)</span> : maximum\nabsolu</p>\n"
+      }
+    },
+    {
+      "id": "bdce42ef-bc13-4ec6-8238-54b5be003e68",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac {xy}{(x+y)(1+x)(1+y)},\\ x,y> 0$",
+        "html": "<p><span class=\"math inline\">\\(\\frac {xy}{(x+y)(1+x)(1+y)},\\ x,y&gt;\n0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2a77a8be-d020-4549-a403-22bcb7282a24",
+      "type": "reponse",
+      "value": {
+        "latex": "prendre le log. $(1,1)$ : maximum absolu",
+        "html": "<p>prendre le log. <span class=\"math inline\">\\((1,1)\\)</span> : maximum\nabsolu</p>\n"
+      }
+    },
+    {
+      "id": "f94e6226-d21f-49d4-a42e-c2040c8c0b23",
+      "type": "question",
+      "value": {
+        "latex": "$xe^y + ye^x$",
+        "html": "<p><span class=\"math inline\">\\(xe^y + ye^x\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "3f2e403f-479c-4b8b-9b30-c50acf14fcdf",
+      "type": "reponse",
+      "value": {
+        "latex": "$(-1,-1)$ : non extrémal",
+        "html": "<p><span class=\"math inline\">\\((-1,-1)\\)</span> : non extrémal</p>\n"
+      }
+    },
+    {
+      "id": "42f049e7-f6ae-4324-b5f1-3284f92d1a3b",
+      "type": "question",
+      "value": {
+        "latex": "$x(\\ln^2x + y^2)$, $x>0$",
+        "html": "<p><span class=\"math inline\">\\(x(\\ln^2x + y^2)\\)</span>, <span\nclass=\"math inline\">\\(x&gt;0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5e8dca29-32ea-477d-9159-2bac01e51b46",
+      "type": "reponse",
+      "value": {
+        "latex": "$(1,0)$ : minimum absolu\\par\n             $(e^{-2},0)$ : non extrémal",
+        "html": "<p><span class=\"math inline\">\\((1,0)\\)</span> : minimum absolu</p>\n<p><span class=\"math inline\">\\((e^{-2},0)\\)</span> : non extrémal</p>\n"
+      }
+    },
+    {
+      "id": "4a094377-7809-45a7-9531-da5cfa60f1c5",
+      "type": "question",
+      "value": {
+        "latex": "$\\sqrt{x^2+(1-y)^2} + \\sqrt{y^2+(1-x)^2}$",
+        "html": "<p><span class=\"math inline\">\\(\\sqrt{x^2+(1-y)^2} +\n\\sqrt{y^2+(1-x)^2}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "7d343257-f302-48bf-95ad-94ca5bb56346",
+      "type": "reponse",
+      "value": {
+        "latex": "$= MA + MB  \\Rightarrow $ minimum absolu sur $[A,B]$",
+        "html": "<p><span class=\"math inline\">\\(= MA + MB  \\Rightarrow\\)</span> minimum\nabsolu sur <span class=\"math inline\">\\([A,B]\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e10f9c1e-f304-4743-bd4b-f9979c7e1a1b",
+      "type": "question",
+      "value": {
+        "latex": "$MA+MB-MO$,\\quad $O = \\text{mil}(A,B)$",
+        "html": "<p><span class=\"math inline\">\\(MA+MB-MO\\)</span>,<span\nclass=\"math inline\">\\(O = \\text{mil}(A,B)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "529be44d-cca0-42e9-9fab-94ee8a02cb7d",
+      "type": "reponse",
+      "value": {
+        "latex": "$M \\in \\text{med}(A,B),\\ \\overline{(\\vec{MA}, \\vec{MB})} = \\pm \\frac {2\\pi}3$\\par\n             $M = A,B$ : minimum absolu\\par\n             $M = O$",
+        "html": "<p><span class=\"math inline\">\\(M \\in \\text{med}(A,B),\\\n\\overline{(\\vec{MA}, \\vec{MB})} = \\pm \\frac {2\\pi}3\\)</span></p>\n<p><span class=\"math inline\">\\(M = A,B\\)</span> : minimum absolu</p>\n<p><span class=\"math inline\">\\(M = O\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Chercher les extrémums des fonctions <span\nclass=\"math inline\">\\(f(x,y)\\)</span> suivantes :</p>\n"
+}

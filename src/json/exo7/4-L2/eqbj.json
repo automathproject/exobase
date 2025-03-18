@@ -1,0 +1,53 @@
+{
+  "uuid": "eqbj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3723",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Forme quadratique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:19.226Z"
+  },
+  "contenu": [
+    {
+      "id": "dfd082c7-9c32-463f-ae83-b1ecd260b64d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un $\\R$-espace vectoriel de dimension finie $n\\ge 1$ et $q$ une forme\nquadratique sur~$E$ de signature $(n-1,1)$.\nSoit~$H$ un sous-espace vectoriel de~$E$ de dimension~$d\\ge 1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(\\R\\)</span>-espace vectoriel de dimension finie\n<span class=\"math inline\">\\(n\\ge 1\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> une forme quadratique sur <span\nclass=\"math inline\">\\(E\\)</span> de signature <span\nclass=\"math inline\">\\((n-1,1)\\)</span>. Soit <span\nclass=\"math inline\">\\(H\\)</span> un sous-espace vectoriel de <span\nclass=\"math inline\">\\(E\\)</span> de dimension <span\nclass=\"math inline\">\\(d\\ge 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "73a97abc-816f-4ba5-bdad-9db977ca8194",
+      "type": "question",
+      "value": {
+        "latex": "On suppose qu'il\nexiste $x\\in\\ H$ tel que~$q(x) < 0$. Montrer que la signature\nde $q_{|H}$ est $(d-1,1)$.",
+        "html": "<p>On suppose qu’il existe <span class=\"math inline\">\\(x\\in\\ H\\)</span>\ntel que <span class=\"math inline\">\\(q(x) &lt; 0\\)</span>. Montrer que la\nsignature de <span class=\"math inline\">\\(q_{|H}\\)</span> est <span\nclass=\"math inline\">\\((d-1,1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a27e6c38-4d78-4654-a640-eae685b1c96c",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $q_{|H}$ est positive, quelle est sa signature~?",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(q_{|H}\\)</span> est\npositive, quelle est sa signature ?</p>\n"
+      }
+    },
+    {
+      "id": "71f1a667-df00-4c5e-9c11-71ae39645344",
+      "type": "reponse",
+      "value": {
+        "latex": "$(d-1,0)$ ou $(d,0)$.",
+        "html": "<p><span class=\"math inline\">\\((d-1,0)\\)</span> ou <span\nclass=\"math inline\">\\((d,0)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(\\R\\)</span>-espace vectoriel de dimension finie\n<span class=\"math inline ..."
+}

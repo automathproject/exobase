@@ -1,0 +1,53 @@
+{
+  "uuid": "u0CT",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2838",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:18.868Z"
+  },
+  "contenu": [
+    {
+      "id": "73539857-3fab-4f0c-bfd9-c1e3f02fc72d",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "37e04211-abd1-42db-8e74-15eae6b3883f",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\gamma:[0,1]\\to\\Cc\\setminus\\{0\\}$ un\nlacet et soit $N\\in \\Zz$ son indice par rapport à $0$.  En\nutilisant  la notion de variation de\nl'argument, montrer qu'il existe une fonction\ncontinue $g:[0,1]\\to\\Cc$ telle que $\\forall t\\quad \\gamma(t)\n= e^{g(t)}$ et  $g(1) - g(0) = 2\\pi i N$.  Montrer\n que toute autre fonction continue $G$ avec\n$\\forall t\\quad \\gamma(t) = e^{G(t)}$  est de la\nforme $g+2\\pi i k$ pour un certain $k\\in\\Zz$. On pose\n$h(t,u) = (1-u)\\;2\\pi i N\\,t + ug(t)$ puis $H(t,u) =\ne^{h(t,u)}$. Montrer que pour chaque $u\\in[0,1]$\nl'application $t\\mapsto H(t,u)$ est un lacet. En déduire que\nle lacet $c_N(t) = e^{2\\pi i\\; Nt}$ et $\\gamma$ sont\nhomotopes dans $\\Cc\\setminus\\{0\\}$.",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(\\gamma:[0,1]\\to\\Cc\\setminus\\{0\\}\\)</span> un lacet\net soit <span class=\"math inline\">\\(N\\in \\Zz\\)</span> son indice par\nrapport à <span class=\"math inline\">\\(0\\)</span>. En utilisant la notion\nde variation de l’argument, montrer qu’il existe une fonction continue\n<span class=\"math inline\">\\(g:[0,1]\\to\\Cc\\)</span> telle que <span\nclass=\"math inline\">\\(\\forall t\\quad \\gamma(t)\n= e^{g(t)}\\)</span> et <span class=\"math inline\">\\(g(1) - g(0) = 2\\pi i\nN\\)</span>. Montrer que toute autre fonction continue <span\nclass=\"math inline\">\\(G\\)</span> avec <span\nclass=\"math inline\">\\(\\forall t\\quad \\gamma(t) = e^{G(t)}\\)</span> est\nde la forme <span class=\"math inline\">\\(g+2\\pi i k\\)</span> pour un\ncertain <span class=\"math inline\">\\(k\\in\\Zz\\)</span>. On pose <span\nclass=\"math inline\">\\(h(t,u) = (1-u)\\;2\\pi i N\\,t + ug(t)\\)</span> puis\n<span class=\"math inline\">\\(H(t,u) =\ne^{h(t,u)}\\)</span>. Montrer que pour chaque <span\nclass=\"math inline\">\\(u\\in[0,1]\\)</span> l’application <span\nclass=\"math inline\">\\(t\\mapsto H(t,u)\\)</span> est un lacet. En déduire\nque le lacet <span class=\"math inline\">\\(c_N(t) = e^{2\\pi i\\;\nNt}\\)</span> et <span class=\"math inline\">\\(\\gamma\\)</span> sont\nhomotopes dans <span\nclass=\"math inline\">\\(\\Cc\\setminus\\{0\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "428d3688-f032-4870-8f79-2b920aa58576",
+      "type": "question",
+      "value": {
+        "latex": "On considère le lacet obtenu en suivant d'abord $c_N$ puis\n  $c_M$. Montrer que ce lacet est homotope dans\n  $\\Cc\\setminus\\{0\\}$ au lacet $c_{N+M}$ (il suffit de\n  calculer son indice!).",
+        "html": "<p>On considère le lacet obtenu en suivant d’abord <span\nclass=\"math inline\">\\(c_N\\)</span> puis <span\nclass=\"math inline\">\\(c_M\\)</span>. Montrer que ce lacet est homotope\ndans <span class=\"math inline\">\\(\\Cc\\setminus\\{0\\}\\)</span> au lacet\n<span class=\"math inline\">\\(c_{N+M}\\)</span> (il suffit de calculer son\nindice!).</p>\n"
+      }
+    },
+    {
+      "id": "0f4a3626-c41d-4321-a0bc-3d2072afd545",
+      "type": "reponse",
+      "value": {
+        "latex": "Le calcul de l'indice de $c_N$ est \\'evident. L'affirmation sur l'existence de $g$ continue telle que $\\gamma =e^g$ et $g(1)-g(0)=2\\pi i N$ est le contenu du polycopi\\'e de J.-F.~Burnol 2005/2006, chapitre 30. Le reste est laiss\\'e au lecteur.",
+        "html": "<p>Le calcul de l’indice de <span class=\"math inline\">\\(c_N\\)</span> est\névident. L’affirmation sur l’existence de <span\nclass=\"math inline\">\\(g\\)</span> continue telle que <span\nclass=\"math inline\">\\(\\gamma =e^g\\)</span> et <span\nclass=\"math inline\">\\(g(1)-g(0)=2\\pi i N\\)</span> est le contenu du\npolycopié de J.-F. Burnol 2005/2006, chapitre 30. Le reste est laissé au\nlecteur.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span\nclass=\"math inline\">\\(\\gamma:[0,1]\\to\\Cc\\setminus\\{0\\}\\)</span> un lacet\net soit <span class=\"math inline\">\\(N\\in \\Zz\\)</span> son indic ..."
+}

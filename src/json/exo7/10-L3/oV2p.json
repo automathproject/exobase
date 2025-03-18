@@ -1,0 +1,37 @@
+{
+  "uuid": "oV2p",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2273",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:10.675Z"
+  },
+  "contenu": [
+    {
+      "id": "4833fdbf-88c6-4d47-98eb-6e5ce00a7689",
+      "type": "description",
+      "value": {
+        "latex": "Trouver le $\\pgcd(f,g)$ dans $\\Zz_3[x]$ et \n$\\Zz_5[x]$\nde $f=x^4+1$,  $g=x^3+x+1$.",
+        "html": "<p>Trouver le <span class=\"math inline\">\\(\\pgcd(f,g)\\)</span> dans <span\nclass=\"math inline\">\\(\\Zz_3[x]\\)</span> et <span\nclass=\"math inline\">\\(\\Zz_5[x]\\)</span> de <span\nclass=\"math inline\">\\(f=x^4+1\\)</span>, <span\nclass=\"math inline\">\\(g=x^3+x+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d7fd28da-5aea-4fdd-9ae7-a870f42cd0e7",
+      "type": "reponse",
+      "value": {
+        "latex": "Dans $\\Zz/3\\Zz$~: $\\pgcd(x^{4}+1,x^{3}+x+1)=x^{2}+x-1$.\n\n  \\noindent \n  Dans $\\Zz/5\\Zz$~: $\\pgcd(x^{4}+1,x^{3}+x+1)=1$.",
+        "html": "<p>Dans <span class=\"math inline\">\\(\\Zz/3\\Zz\\)</span> : <span\nclass=\"math inline\">\\(\\pgcd(x^{4}+1,x^{3}+x+1)=x^{2}+x-1\\)</span>.</p>\n<p>Dans <span class=\"math inline\">\\(\\Zz/5\\Zz\\)</span> : <span\nclass=\"math inline\">\\(\\pgcd(x^{4}+1,x^{3}+x+1)=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Trouver le <span class=\"math inline\">\\(\\pgcd(f,g)\\)</span> dans <span\nclass=\"math inline\">\\(\\Zz_3[x]\\)</span> et <span\nclass=\"math inline\"> ..."
+}

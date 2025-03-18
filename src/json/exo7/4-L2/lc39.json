@@ -1,0 +1,61 @@
+{
+  "uuid": "lc39",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3709",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Espace vectoriel euclidien de dimension 3",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:37.912Z"
+  },
+  "contenu": [
+    {
+      "id": "7b3b6c41-c873-4cef-90d5-423dbefab224",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ab1fa975-afd8-4935-98ba-dfabca3f032a",
+      "type": "question",
+      "value": {
+        "latex": "Compléter la matrice $A = \\frac 17 \\begin{pmatrix} 6 &3 &. \\cr\n                                                 -2 &6 &. \\cr\n                                                  3 &. &. \\cr\\end{pmatrix}$\n    en une matrice orthogonale positive.",
+        "html": "<p>Compléter la matrice <span class=\"math inline\">\\(A = \\frac 17\n\\begin{pmatrix} 6 &amp;3 &amp;. \\cr\n                                                 -2 &amp;6 &amp;. \\cr\n                                                  3 &amp;. &amp;.\n\\cr\\end{pmatrix}\\)</span> en une matrice orthogonale positive.</p>\n"
+      }
+    },
+    {
+      "id": "29cc7713-e02c-4038-b9a0-53a939754ae7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac 17 \\begin{pmatrix} 6 &3 &-2 \\cr -2 &6 &3 \\cr 3 &-2 &6 \\cr\\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac 17 \\begin{pmatrix} 6 &amp;3 &amp;-2\n\\cr -2 &amp;6 &amp;3 \\cr 3 &amp;-2 &amp;6 \\cr\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d40f773f-b569-4550-b3d1-c048015c0a15",
+      "type": "question",
+      "value": {
+        "latex": "Reconnaître l'application de matrice $A$ dans la base canonique\n    de $\\R^3$.",
+        "html": "<p>Reconnaître l’application de matrice <span\nclass=\"math inline\">\\(A\\)</span> dans la base canonique de <span\nclass=\"math inline\">\\(\\R^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c8ab3d98-14e2-4f25-bc00-92cd1c6bd326",
+      "type": "reponse",
+      "value": {
+        "latex": "Rotation autour de $(1,1,1)$ d'angle $-\\Arccos(\\frac {11}{14})$.",
+        "html": "<p>Rotation autour de <span class=\"math inline\">\\((1,1,1)\\)</span>\nd’angle <span class=\"math inline\">\\(-\\Arccos(\\frac\n{11}{14})\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Compléter la matrice <span class=\"math inline\"> ..."
+}

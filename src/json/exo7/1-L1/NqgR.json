@@ -1,0 +1,61 @@
+{
+  "uuid": "NqgR",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1049",
+    "auteur": "liousse",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Propriétés élémentaires, généralités",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:07.162Z"
+  },
+  "contenu": [
+    {
+      "id": "ae7282a0-3a03-4faa-98ee-3e850779eac2",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ une matrice carr\\'{e}e d'ordre $n$ ; on suppose que $A^{2}$ est\nune combinaison lin\\'{e}aire de $A$ et $I_{n}$ : $A^{2}=\\alpha A+\\beta I_{n}.$",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> une matrice carrée\nd’ordre <span class=\"math inline\">\\(n\\)</span> ; on suppose que <span\nclass=\"math inline\">\\(A^{2}\\)</span> est une combinaison linéaire de\n<span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(I_{n}\\)</span> : <span\nclass=\"math inline\">\\(A^{2}=\\alpha A+\\beta I_{n}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d61ca302-3a89-4b88-98e5-091cab3fd21f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $A^{n}$ est \\'{e}galement une combinaison lin\\'{e}aire de \n$A$ et $I_{n}$ pour tout $n\\in \\Nn^{\\ast }.$\\\\",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(A^{n}\\)</span> est également\nune combinaison linéaire de <span class=\"math inline\">\\(A\\)</span> et\n<span class=\"math inline\">\\(I_{n}\\)</span> pour tout <span\nclass=\"math inline\">\\(n\\in \\Nn^{\\ast }.\\)</span><br />\n</p>\n"
+      }
+    },
+    {
+      "id": "1402c560-4bc7-46ce-a913-a21e1743d163",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $\\beta $ est non nul, alors $A$ est inversible et que $\nA^{-1}$ est encore combinaison lin\\'{e}aire de $A$ et $I_{n}.$\\\\",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(\\beta\\)</span> est non\nnul, alors <span class=\"math inline\">\\(A\\)</span> est inversible et que\n<span class=\"math inline\">\\(A^{-1}\\)</span> est encore combinaison\nlinéaire de <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(I_{n}.\\)</span><br />\n</p>\n"
+      }
+    },
+    {
+      "id": "c4fe41c8-b422-4ab5-81c9-8be7ba4541b2",
+      "type": "question",
+      "value": {
+        "latex": "Application 1 : soit $A=J_{n}-I_{n},$ o\\`{u} $J_{n}$ est la matrice\nAttila (envahie par les uns...), avec $n\\geq 1$. Montrer que $\nA^{2}=\\left( n-2\\right) A+\\left( n-1\\right) I_{n}$ ; en d\\'{e}duire que $A$\nest inversible, et d\\'{e}terminer son inverse.\\\\",
+        "html": "<p>Application 1 : soit <span\nclass=\"math inline\">\\(A=J_{n}-I_{n},\\)</span> où <span\nclass=\"math inline\">\\(J_{n}\\)</span> est la matrice Attila (envahie par\nles uns...), avec <span class=\"math inline\">\\(n\\geq 1\\)</span>. Montrer\nque <span class=\"math inline\">\\(A^{2}=\\left( n-2\\right) A+\\left(\nn-1\\right) I_{n}\\)</span> ; en déduire que <span\nclass=\"math inline\">\\(A\\)</span> est inversible, et déterminer son\ninverse.<br />\n</p>\n"
+      }
+    },
+    {
+      "id": "35a68622-f6a2-4f98-b0d5-8ca0f0396d4e",
+      "type": "question",
+      "value": {
+        "latex": "Application 2 : montrer que si $n=2$, $A^{2}$ est toujours une\ncombinaison lin\\'{e}aire de $A$ et $I_{2},$ et retrouver la formule donnant $\nA^{-1}$ en utilisant 2.",
+        "html": "<p>Application 2 : montrer que si <span\nclass=\"math inline\">\\(n=2\\)</span>, <span\nclass=\"math inline\">\\(A^{2}\\)</span> est toujours une combinaison\nlinéaire de <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(I_{2},\\)</span> et retrouver la formule donnant\n<span class=\"math inline\">\\(A^{-1}\\)</span> en utilisant 2.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> une matrice carrée\nd’ordre <span class=\"math inline\">\\(n\\)</span> ; on suppose que <span\nclass=\"math in ..."
+}

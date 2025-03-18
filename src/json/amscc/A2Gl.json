@@ -1,0 +1,82 @@
+{
+  "uuid": "A2Gl",
+  "titre": "Loi de Poisson et estimation par maximum de vraisemblance",
+  "theme": [
+    "statistiques",
+    "loi de Poisson",
+    "estimateurs",
+    "maximum de vraisemblance"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2022-09-24",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:49.672Z"
+  },
+  "contenu": [
+    {
+      "id": "e2c58b89-ec26-4fc0-8233-faaf89039e8f",
+      "type": "description",
+      "value": {
+        "latex": "On considère un échantillon $X_1,...,X_n$ suivant une loi de Poisson $\\mathcal{P}(\\lambda)$. On cherche un estimateur de $\\lambda$ par la méthode du maximum de vraisemblance. On note $(x_1,...,x_n)$ une réalisation de cet échantillon.",
+        "html": "<p>On considère un échantillon <span\nclass=\"math inline\">\\(X_1,...,X_n\\)</span> suivant une loi de Poisson\n<span class=\"math inline\">\\(\\mathcal{P}(\\lambda)\\)</span>. On cherche un\nestimateur de <span class=\"math inline\">\\(\\lambda\\)</span> par la\nméthode du maximum de vraisemblance. On note <span\nclass=\"math inline\">\\((x_1,...,x_n)\\)</span> une réalisation de cet\néchantillon.</p>\n"
+      }
+    },
+    {
+      "id": "d6dceb65-75b4-444b-a40c-905aaa44fe92",
+      "type": "question",
+      "value": {
+        "latex": "Exprimer la fonction de vraisemblance $L(x_1,...,x_n,\\lambda)$ en fonction de l'échantillon et du paramètre $\\lambda$ à estimer.",
+        "html": "<p>Exprimer la fonction de vraisemblance <span\nclass=\"math inline\">\\(L(x_1,...,x_n,\\lambda)\\)</span> en fonction de\nl’échantillon et du paramètre <span\nclass=\"math inline\">\\(\\lambda\\)</span> à estimer.</p>\n"
+      }
+    },
+    {
+      "id": "e1d75b71-718d-44ba-8961-973f9cebc749",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\displaystyle L(x_1,\\cdots,x_n,\\lambda)=\\prod_{i=1}^n \\mathbb{P}(X_i=x_i)$ or $X_i \\sim \\mathcal{P}(\\lambda)$ donc\n\t\t\\[ L(x_1,\\cdots,x_n,\\lambda)=\\prod_{i=1}^n \\frac{\\lambda^{x_i}}{x_i !}e^{-\\lambda}\\]",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\nL(x_1,\\cdots,x_n,\\lambda)=\\prod_{i=1}^n \\mathbb{P}(X_i=x_i)\\)</span> or\n<span class=\"math inline\">\\(X_i \\sim \\mathcal{P}(\\lambda)\\)</span> donc\n<span class=\"math display\">\\[L(x_1,\\cdots,x_n,\\lambda)=\\prod_{i=1}^n\n\\frac{\\lambda^{x_i}}{x_i !}e^{-\\lambda}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "29fb41ca-644b-4ccf-93b0-8a093af8bac9",
+      "type": "question",
+      "value": {
+        "latex": "Trouver pour quelle valeur de $\\lambda$ la fonction de vraisemblance atteint son maximum.",
+        "html": "<p>Trouver pour quelle valeur de <span\nclass=\"math inline\">\\(\\lambda\\)</span> la fonction de vraisemblance\natteint son maximum.</p>\n"
+      }
+    },
+    {
+      "id": "ca624944-d08d-4952-84fd-2bd866304f81",
+      "type": "reponse",
+      "value": {
+        "latex": "On a\n\t\t$$\\begin{align*}\n\t\t\t\\ln L(x_1,\\cdots,x_n,\\lambda) &= \\sum_{i=1}^n \\left(\\ln(\\lambda^{x_i})-\\lambda - \\ln(x_i !) \\right) \\\\\n\t\t\t&= (\\ln \\lambda) \\sum_{i=1}^n x_i -n\\lambda - \\sum_{i=1}^n \\ln(x_i !)\n\t\t\\end{align*}$$\n\t\tdonc en dérivant par rapport à $\\lambda$,\n\t\t\\[ \\frac{\\partial L(x_1,\\cdots,x_n,\\lambda)}{\\partial \\lambda}=\\frac{1}{\\lambda}\\sum_{i=1}^n x_i -n.\\]\n\t\tOr \n\t\t\\[ \\frac{\\partial L(x_1,\\cdots,x_n,\\lambda)}{\\partial \\lambda}=0 \\quad \\Leftrightarrow \\quad \\lambda=\\frac{1}{n}\\sum_{i=1}^n x_i.\\]",
+        "html": "<p>On a <span class=\"math display\">\\[\\begin{align*}\n            \\ln L(x_1,\\cdots,x_n,\\lambda) &amp;= \\sum_{i=1}^n\n\\left(\\ln(\\lambda^{x_i})-\\lambda - \\ln(x_i !) \\right) \\\\\n            &amp;= (\\ln \\lambda) \\sum_{i=1}^n x_i -n\\lambda -\n\\sum_{i=1}^n \\ln(x_i !)\n        \\end{align*}\\]</span> donc en dérivant par rapport à <span\nclass=\"math inline\">\\(\\lambda\\)</span>, <span\nclass=\"math display\">\\[\\frac{\\partial\nL(x_1,\\cdots,x_n,\\lambda)}{\\partial\n\\lambda}=\\frac{1}{\\lambda}\\sum_{i=1}^n x_i -n.\\]</span> Or <span\nclass=\"math display\">\\[\\frac{\\partial\nL(x_1,\\cdots,x_n,\\lambda)}{\\partial \\lambda}=0 \\quad \\Leftrightarrow\n\\quad \\lambda=\\frac{1}{n}\\sum_{i=1}^n x_i.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "15f1010e-7e0c-4612-9e05-246f05c37fad",
+      "type": "question",
+      "value": {
+        "latex": "Conclure.",
+        "html": "<p>Conclure.</p>\n"
+      }
+    },
+    {
+      "id": "d11343cf-5185-498b-b2ec-0876cce1c5a9",
+      "type": "reponse",
+      "value": {
+        "latex": "L'estimateur par maximum de vraisemblance de $\\lambda$ est $\\displaystyle\\frac{1}{n}\\sum_{i=1}^n X_i$ et une estimation de $\\lambda$ est $\\displaystyle \\frac{1}{n}\\sum_{i=1}^n x_i$.",
+        "html": "<p>L’estimateur par maximum de vraisemblance de <span\nclass=\"math inline\">\\(\\lambda\\)</span> est <span\nclass=\"math inline\">\\(\\displaystyle\\frac{1}{n}\\sum_{i=1}^n X_i\\)</span>\net une estimation de <span class=\"math inline\">\\(\\lambda\\)</span> est\n<span class=\"math inline\">\\(\\displaystyle \\frac{1}{n}\\sum_{i=1}^n\nx_i\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère un échantillon <span\nclass=\"math inline\">\\(X_1,...,X_n\\)</span> suivant une loi de Poisson\n<span class=\"math inline\"> ..."
+}

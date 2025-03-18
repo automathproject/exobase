@@ -1,0 +1,45 @@
+{
+  "uuid": "n2vY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6252",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème de Stone-Weirstrass, théorème d'Ascoli",
+    "sousChapitre": "Théorème de Stone-Weirstrass, théorème d'Ascoli",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:58.637Z"
+  },
+  "contenu": [
+    {
+      "id": "721c9cfb-50b0-4a0c-8bb2-82f895e1cfcc",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X=[0,1]$, $Y=[-1,1]$, $f_n(x)={1\\over n}\\sin(n^2x)$; on note $A$\nle sous-ensemble de $C(X,Y)$ constitué des $(f_n)$, $n\\geq1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X=[0,1]\\)</span>, <span\nclass=\"math inline\">\\(Y=[-1,1]\\)</span>, <span\nclass=\"math inline\">\\(f_n(x)={1\\over n}\\sin(n^2x)\\)</span>; on note\n<span class=\"math inline\">\\(A\\)</span> le sous-ensemble de <span\nclass=\"math inline\">\\(C(X,Y)\\)</span> constitué des <span\nclass=\"math inline\">\\((f_n)\\)</span>, <span\nclass=\"math inline\">\\(n\\geq1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f32a4fce-b860-4c68-8c0e-2311f6625f98",
+      "type": "question",
+      "value": {
+        "latex": "Montrer sans calculs que $A$ est équicontinu.",
+        "html": "<p>Montrer sans calculs que <span class=\"math inline\">\\(A\\)</span> est\néquicontinu.</p>\n"
+      }
+    },
+    {
+      "id": "84224cb8-baa9-449a-a35e-bc6f172add4b",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'on a plus précisément\n$|f_n(x)-f_n(y)|\\leq\\sqrt2|x-y|^{1\\over2}$ pour tous n, x, y. En déduire que le\nmodule d'équicontinuité de $A$ est $\\geq \\varepsilon^2/2$.",
+        "html": "<p>Montrer que l’on a plus précisément <span\nclass=\"math inline\">\\(|f_n(x)-f_n(y)|\\leq\\sqrt2|x-y|^{1\\over2}\\)</span>\npour tous n, x, y. En déduire que le module d’équicontinuité de <span\nclass=\"math inline\">\\(A\\)</span> est <span class=\"math inline\">\\(\\geq\n\\varepsilon^2/2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X=[0,1]\\)</span>, <span\nclass=\"math inline\">\\(Y=[-1,1]\\)</span>, <span\nclass=\"math inline\"> ..."
+}

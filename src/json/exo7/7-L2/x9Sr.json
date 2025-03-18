@@ -1,0 +1,61 @@
+{
+  "uuid": "x9Sr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6927",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi faible des grands nombres",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:40.411Z"
+  },
+  "contenu": [
+    {
+      "id": "e2d6ae26-3968-4ea9-9764-df2a90e5202e",
+      "type": "description",
+      "value": {
+        "latex": "On suppose que le nombre de pièces sortant d'une\nusine donnée en une journée est une variable aléatoire\nd'espérance $50$.",
+        "html": "<p>On suppose que le nombre de pièces sortant d’une usine donnée en une\njournée est une variable aléatoire d’espérance <span\nclass=\"math inline\">\\(50\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "62d591b5-6790-416d-9ba7-35dfe2a7cc64",
+      "type": "question",
+      "value": {
+        "latex": "Peut-on estimer la probabilité que la production de demain\ndépasse 75 pièces~?",
+        "html": "<p>Peut-on estimer la probabilité que la production de demain dépasse 75\npièces ?</p>\n"
+      }
+    },
+    {
+      "id": "dfc85dfd-ba0c-4255-8c9c-35f14d77474e",
+      "type": "reponse",
+      "value": {
+        "latex": "Inégalité de Markov : $P(X\\ge 75)\\le \\frac{E(X)}{75}=\\frac 23$.",
+        "html": "<p>Inégalité de Markov : <span class=\"math inline\">\\(P(X\\ge 75)\\le\n\\frac{E(X)}{75}=\\frac 23\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ecf82c09-bfa0-4cdb-a329-a7eb870c3ad2",
+      "type": "question",
+      "value": {
+        "latex": "Que peut-on dire de plus sur cette probabilité si on sait que l'écart-type de la production quotidienne est\nde $5$ pièces~?",
+        "html": "<p>Que peut-on dire de plus sur cette probabilité si on sait que\nl’écart-type de la production quotidienne est de <span\nclass=\"math inline\">\\(5\\)</span> pièces ?</p>\n"
+      }
+    },
+    {
+      "id": "5272d9f6-bd71-42e1-bc40-8f49cfbfde84",
+      "type": "reponse",
+      "value": {
+        "latex": "Inégalité de Bienaymé-Tchebychev : $P(|X-50|\\ge 25)\\le \\frac{\\text{Var}(X)}{25^2}=\n\\frac{5^2}{25^2}=0,04$. Donc $P(X\\ge 75)\\le 0,04$.",
+        "html": "<p>Inégalité de Bienaymé-Tchebychev : <span\nclass=\"math inline\">\\(P(|X-50|\\ge 25)\\le \\frac{\\text{Var}(X)}{25^2}=\n\\frac{5^2}{25^2}=0,04\\)</span>. Donc <span class=\"math inline\">\\(P(X\\ge\n75)\\le 0,04\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On suppose que le nombre de pièces sortant d’une usine donnée en une\njournée est une variable aléatoire d’espérance <span\nclass=\"math inline\"> ..."
+}

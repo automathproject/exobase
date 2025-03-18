@@ -1,0 +1,61 @@
+{
+  "uuid": "ZQjN",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5952",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de convergence dominée",
+    "sousChapitre": "Théorème de convergence dominée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:12.873Z"
+  },
+  "contenu": [
+    {
+      "id": "129e5772-f562-42a3-bd1e-8ed42968afb7",
+      "type": "description",
+      "value": {
+        "latex": "\\label{derivation}\nMontrer le th\\'eor\\`eme suivant, $\\Omega$ étant un espace mesurable.\n(On pourra utiliser le th\\'eor\\`eme des accroissements finis.) \\\\\n\\textbf{Th\\'eor\\`eme.}(D\\'erivation sous le signe $\\int$) \\\\\nSoit $f~:\\Omega \\times \\mathbb{R} \\rightarrow \\mathbb{C}$ une\nfonction telle que",
+        "html": "<p><span id=\"derivation\" label=\"derivation\"></span> Montrer le théorème\nsuivant, <span class=\"math inline\">\\(\\Omega\\)</span> étant un espace\nmesurable. (On pourra utiliser le théorème des accroissements\nfinis.)<br />\n<strong>Théorème.</strong>(Dérivation sous le signe <span\nclass=\"math inline\">\\(\\int\\)</span>)<br />\nSoit <span class=\"math inline\">\\(f~:\\Omega \\times \\mathbb{R} \\rightarrow\n\\mathbb{C}\\)</span> une fonction telle que</p>\n"
+      }
+    },
+    {
+      "id": "38e9716a-009a-458d-a41e-5f1c7955a6a3",
+      "type": "question",
+      "value": {
+        "latex": "[(i)] Pour tout $s\\in[s_{1}, s_{2}]$, la fonction $x\\mapsto\nf(x, s)$ est int\\'egrable~;",
+        "html": "<p>[(i)] Pour tout <span class=\"math inline\">\\(s\\in[s_{1},\ns_{2}]\\)</span>, la fonction <span class=\"math inline\">\\(x\\mapsto\nf(x, s)\\)</span> est intégrable ;</p>\n"
+      }
+    },
+    {
+      "id": "db94a0c9-71c7-4e0f-81d1-5d604e7d3476",
+      "type": "question",
+      "value": {
+        "latex": "[(ii)] pour presque tout $x$, la fonction $s\\mapsto f(x, s) $\nest d\\'erivable sur $(s_1, s_2)$~;",
+        "html": "<p>[(ii)] pour presque tout <span class=\"math inline\">\\(x\\)</span>, la\nfonction <span class=\"math inline\">\\(s\\mapsto f(x, s)\\)</span> est\ndérivable sur <span class=\"math inline\">\\((s_1, s_2)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "ff4ec881-9d2b-4747-a333-f781fd1d71ec",
+      "type": "question",
+      "value": {
+        "latex": "[(ii)] il existe $g\\in \\mathcal{L}^1(\\Omega, \\mathbb{R}^{+})$\ntel que pour tout $s \\in [s_1, s_2]$ et pour presque tout $x\\in\\Omega$ on ait $|\\frac{\\partial f(x,s)}{\\partial s}| \\leq g(x)$ .",
+        "html": "<p>[(ii)] il existe <span class=\"math inline\">\\(g\\in\n\\mathcal{L}^1(\\Omega, \\mathbb{R}^{+})\\)</span> tel que pour tout <span\nclass=\"math inline\">\\(s \\in [s_1, s_2]\\)</span> et pour presque tout\n<span class=\"math inline\">\\(x\\in\\Omega\\)</span> on ait <span\nclass=\"math inline\">\\(|\\frac{\\partial f(x,s)}{\\partial s}| \\leq\ng(x)\\)</span> .</p>\n"
+      }
+    },
+    {
+      "id": "f95b8928-cbb5-440b-bcfb-ad6d12d8a7cb",
+      "type": "reponse",
+      "value": {
+        "latex": "Cf le th\\'eor\\`eme 24.2 dans le polycopi\\'e de Marc Troyanov.",
+        "html": "<p>Cf le théorème 24.2 dans le polycopié de Marc Troyanov.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"derivation\" label=\"derivation\"></span> Montrer le théorème\nsuivant, <span class=\"math inline\">\\(\\Omega\\)</span> étant un espace\nmesurable ..."
+}

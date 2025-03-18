@@ -1,0 +1,93 @@
+{
+  "uuid": "ifJY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7225",
+    "auteur": "megy",
+    "createdAt": "2021-03-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:39.981Z"
+  },
+  "contenu": [
+    {
+      "id": "e596e461-ba3f-431b-9a29-5651940e6a84",
+      "type": "description",
+      "value": {
+        "latex": "Soit \\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}}a_nz^n\\) une série entière de rayon de convergence \\(R>0\\). Un point \\(z_0\\in \\partial B(0,R)\\) est un \\emph{point régulier} de \\(f\\) si il existe une  extension analytique de \\(f\\) dans un voisinage de \\(B(0,R)\\cup\\{z_0\\}\\). Si \\(z_0\\in \\partial B(0,R)\\) n'est pas régulier pour \\(f\\), on dit que c'est un \\emph{point singulier} de \\(f\\). On note \\({\\rm Sing}(f)\\subset \\partial B(0,R)\\) l'ensemble des points singuliers de \\(f\\).",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}}a_nz^n\\)</span>\nune série entière de rayon de convergence <span\nclass=\"math inline\">\\(R&gt;0\\)</span>. Un point <span\nclass=\"math inline\">\\(z_0\\in \\partial B(0,R)\\)</span> est un <em>point\nrégulier</em> de <span class=\"math inline\">\\(f\\)</span> si il existe une\nextension analytique de <span class=\"math inline\">\\(f\\)</span> dans un\nvoisinage de <span class=\"math inline\">\\(B(0,R)\\cup\\{z_0\\}\\)</span>. Si\n<span class=\"math inline\">\\(z_0\\in \\partial B(0,R)\\)</span> n’est pas\nrégulier pour <span class=\"math inline\">\\(f\\)</span>, on dit que c’est\nun <em>point singulier</em> de <span class=\"math inline\">\\(f\\)</span>.\nOn note <span class=\"math inline\">\\({\\rm Sing}(f)\\subset \\partial\nB(0,R)\\)</span> l’ensemble des points singuliers de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8dc796eb-009a-4f54-b7af-2b53c1beeca3",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les points réguliers et singuliers pour \\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}z^n}\\) et \\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}(-1)^n\\frac{z^n}{n}}\\).",
+        "html": "<p>Déterminer les points réguliers et singuliers pour <span\nclass=\"math inline\">\\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}z^n}\\)</span>\net <span\nclass=\"math inline\">\\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}(-1)^n\\frac{z^n}{n}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "15069038-ede5-4ba2-a3a8-b3c925813163",
+      "type": "question",
+      "value": {
+        "latex": "Quel est le lien entre la régularité d'un point \\(z_0\\in \\partial B(0,R)\\) et la convergence de \\(\\displaystyle{\\sum_{n=0}^{+\\infty}a_nz_0^n}\\) ?",
+        "html": "<p>Quel est le lien entre la régularité d’un point <span\nclass=\"math inline\">\\(z_0\\in \\partial B(0,R)\\)</span> et la convergence\nde <span\nclass=\"math inline\">\\(\\displaystyle{\\sum_{n=0}^{+\\infty}a_nz_0^n}\\)</span>\n?</p>\n"
+      }
+    },
+    {
+      "id": "888eb584-e9a6-4618-a4e8-c1422d1d5b83",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \\({\\rm Sing}(f)\\) est fermé.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\({\\rm Sing}(f)\\)</span> est\nfermé.</p>\n"
+      }
+    },
+    {
+      "id": "51d08733-174e-4d8a-b7bc-1801a4092e38",
+      "type": "question",
+      "value": {
+        "latex": "On considère \\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}z^{2^n}}\\).\r\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "73fd3895-c769-415b-acd8-2d748ab0fc56",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le rayon de convergence de \\(f\\) est \\(1\\).",
+        "html": "<p>Montrer que le rayon de convergence de <span\nclass=\"math inline\">\\(f\\)</span> est <span\nclass=\"math inline\">\\(1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "24588fc1-c85c-46f1-ba0d-7476872d9090",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \\(1\\) est un point singulier de \\(f\\). (Indication, montrer que \\(\\lim_{t\\to 1^-}\\sum_{n=0}^{+\\infty}t^{2^n}=+\\infty\\)).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(1\\)</span> est un point\nsingulier de <span class=\"math inline\">\\(f\\)</span>. (Indication,\nmontrer que <span class=\"math inline\">\\(\\lim_{t\\to\n1^-}\\sum_{n=0}^{+\\infty}t^{2^n}=+\\infty\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "d63a4d01-ebea-4425-bbc6-76f1f8b58f42",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout \\(m\\in \\N\\), toute racine \\(2^m\\)-ième de \\(1\\) est un point singulier de \\(f\\). (Indication, observer que pour tout \\(m\\in \\N\\) et pour tout \\(z\\in B(0,1)\\),  \\(f\\big(z^{2^{m+1}}\\big)=f\\big(z^{2^m}\\big)-z^{2^m}\\)).",
+        "html": "<p>Montrer que pour tout <span class=\"math inline\">\\(m\\in \\N\\)</span>,\ntoute racine <span class=\"math inline\">\\(2^m\\)</span>-ième de <span\nclass=\"math inline\">\\(1\\)</span> est un point singulier de <span\nclass=\"math inline\">\\(f\\)</span>. (Indication, observer que pour tout\n<span class=\"math inline\">\\(m\\in \\N\\)</span> et pour tout <span\nclass=\"math inline\">\\(z\\in B(0,1)\\)</span>, <span\nclass=\"math inline\">\\(f\\big(z^{2^{m+1}}\\big)=f\\big(z^{2^m}\\big)-z^{2^m}\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "de154432-11af-4da9-854b-af3cd9f72626",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que \\({\\rm Sing}(f)=\\partial B(0,1)\\).",
+        "html": "<p>En déduire que <span class=\"math inline\">\\({\\rm Sing}(f)=\\partial\nB(0,1)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span\nclass=\"math inline\">\\(\\displaystyle{f(z)=\\sum_{n=0}^{+\\infty}}a_nz^n\\)</span>\nune série entière de rayon de convergence <span\nclass=\"mat ..."
+}

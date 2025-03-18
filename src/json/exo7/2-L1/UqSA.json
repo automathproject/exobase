@@ -1,0 +1,53 @@
+{
+  "uuid": "UqSA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6978",
+    "auteur": "blanc-centi",
+    "createdAt": "2014-05-06",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "UkRPGUQfPP8",
+    "chapitre": "Fonctions circulaires et hyperboliques inverses",
+    "sousChapitre": "Fonctions hyperboliques et hyperboliques inverses",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:56.817Z"
+  },
+  "contenu": [
+    {
+      "id": "55a2d91e-2436-49ec-bdca-eb5688c0b12e",
+      "type": "description",
+      "value": {
+        "latex": "Simplifier les expressions suivantes:",
+        "html": "<p>Simplifier les expressions suivantes:</p>\n"
+      }
+    },
+    {
+      "id": "8ff66377-4e33-47e3-883c-5db63fbcf6d3",
+      "type": "question",
+      "value": {
+        "latex": "$\\ch(\\Argsh x),\\quad \\tanh(\\Argsh x),\\quad \\sh(2\\Argsh x)$.",
+        "html": "<p><span class=\"math inline\">\\(\\ch(\\Argsh x),\\quad \\tanh(\\Argsh x),\\quad\n\\sh(2\\Argsh x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "045f8beb-265a-4045-bd46-887a8d9d84c9",
+      "type": "question",
+      "value": {
+        "latex": "$ \\sh(\\Argch x),\\quad \\tanh(\\Argch x),\\quad \\ch(3\\Argch x)$.",
+        "html": "<p><span class=\"math inline\">\\(\\sh(\\Argch x),\\quad \\tanh(\\Argch x),\\quad\n\\ch(3\\Argch x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cec1bbb8-d891-4dfa-b59e-7b648db398ad",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}\nOn sait que $\\ch^2 u=1+\\sh^2u$. Comme de plus la fonction $\\ch$ est à valeurs positives, \n$\\ch u=\\sqrt{1+\\sh^2u}$ et donc $\\ch(\\Argsh x)=\\sqrt{1+\\sh^2(\\Argsh x)} = \\sqrt{1+x^2}$.\nAlors\n$$\\tanh(\\Argsh x)=\\frac{\\sh(\\Argsh x)}{\\ch(\\Argsh x)}=\\frac{x}{\\sqrt{1+x^2}}.$$\nEt $\\sh(2\\Argsh x)=2\\ch(\\Argsh x)\\sh(\\Argsh x)=2x\\sqrt{1+x^2}$.",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Simplifier les expressions suivantes:</p>\n"
+}

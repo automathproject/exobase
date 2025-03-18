@@ -1,0 +1,37 @@
+{
+  "uuid": "AvR9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2788",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:22.170Z"
+  },
+  "contenu": [
+    {
+      "id": "b9ed002e-0715-48fd-8105-d666a632574f",
+      "type": "description",
+      "value": {
+        "latex": "\\label{ex:burnol1.1.6}\n  On se donne deux séries entières $f(z) = \\sum_{n=0}^\\infty\n  a_n z^n$ et $g(z) = \\sum_{n=0}^\\infty\n  b_n z^n$ de rayons de convergences $R_1$ et $R_2$ non\n  nuls. En utilisant le théorème sur les séries doubles\n  prouver $f(z)g(z) = \\sum_{n=0}^\\infty c_n z^n$ pour $|z|<R\n  = \\min(R_1,R_2)$ avec (formules dites de Cauchy):\n\\[ \\forall n\\in\\Nn\\qquad c_n = \\sum_{j=0}^n a_j b_{n-j}\\]\nLe rayon de convergence de la série $\\sum_{n=0}^\\infty c_n\n     z^n$ est-il toujours égal à \n$\\min(R_1,R_2)$ ou peut-il être plus grand?",
+        "html": "<p><span id=\"ex:burnol1.1.6\" label=\"ex:burnol1.1.6\"></span> On se donne\ndeux séries entières <span class=\"math inline\">\\(f(z) =\n\\sum_{n=0}^\\infty\n  a_n z^n\\)</span> et <span class=\"math inline\">\\(g(z) =\n\\sum_{n=0}^\\infty\n  b_n z^n\\)</span> de rayons de convergences <span\nclass=\"math inline\">\\(R_1\\)</span> et <span\nclass=\"math inline\">\\(R_2\\)</span> non nuls. En utilisant le théorème\nsur les séries doubles prouver <span class=\"math inline\">\\(f(z)g(z) =\n\\sum_{n=0}^\\infty c_n z^n\\)</span> pour <span\nclass=\"math inline\">\\(|z|&lt;R\n  = \\min(R_1,R_2)\\)</span> avec (formules dites de Cauchy): <span\nclass=\"math display\">\\[\\forall n\\in\\Nn\\qquad c_n = \\sum_{j=0}^n a_j\nb_{n-j}\\]</span> Le rayon de convergence de la série <span\nclass=\"math inline\">\\(\\sum_{n=0}^\\infty c_n\n     z^n\\)</span> est-il toujours égal à <span\nclass=\"math inline\">\\(\\min(R_1,R_2)\\)</span> ou peut-il être plus\ngrand?</p>\n"
+      }
+    },
+    {
+      "id": "f89b3c55-916c-4dc1-8997-5900650fe53a",
+      "type": "reponse",
+      "value": {
+        "latex": "Prenons $r<\\min(R_1,R_2)$. Alors, il existe $C>0$ et $0<\\lambda <1$ tels que\n$|a_n|r^n \\leq C\\lambda^n $ et $|b_n|r^n \\leq C\\lambda ^n$ (v\\'erifiez-le !). D'o\\`u\n$$\\sum_{j=0}^n |a_j|r^j |b_{n-j}|r^{n-j} \\leq (n+1) C^2 \\lambda^n\\;, $$\nce qui permet d'affirmer, pour tout $z$ avec $|z|=r$:\n$$\\sum_{n=0}^\\infty \\big(\\sum_{j=0}^n |a_j z^j||b_{n-j} z^{n-j}|\\big) < \\infty\\;.$$\nPar le th\\'eor\\`eme du cours sur les séries doubles (voir le polycopi\\'e\n2005/2006 de J.-F.~Burnol, Annexe 8.2), ceci signifie que la série double\n$$\\sum_{j=0}^\\infty\\sum_{k=0}^\\infty (a_j z^j b_k z^k)$$\nest absolument convergente. On peut donc d'après ce théorème affirmer:\n$$f(z)g(z) = \\sum_{j=0}^\\infty a_jz^j \\sum_{k=0}^\\infty b_k z^k =\n\\sum_{n=0}^\\infty \\big(\\sum_{j=0}^n (a_j z^j)(b_{n-j} z^{n-j})\\big)\\;.$$\nOr, la série de droite est $\\sum_{n=0}^\\infty  c_n z^n$ avec $c_n = \\sum_{j=0}^n\na_j b_{n-j}$. Au passage on obtient que le rayon de convergence de cette série\nest au moins\négal à $r$. Comme $r<\\min(R_1,R_2)$ est arbitraire, le rayon de convergence\nest en fait au moins égal à $\\min(R_1,R_2)$\n(il peut \\^etre plus grand comme on le voit par exemple avec $f(z) =\n\\frac1{1-z}$ et $g(z) = 1-z$, ou encore avec $f(z) = \\frac{2-z}{(1-z)(3-z)}$\net $g(z) = \\frac{1-z}{(2-z)(3-z)}$).",
+        "html": "<p>Prenons <span class=\"math inline\">\\(r&lt;\\min(R_1,R_2)\\)</span>.\nAlors, il existe <span class=\"math inline\">\\(C&gt;0\\)</span> et <span\nclass=\"math inline\">\\(0&lt;\\lambda &lt;1\\)</span> tels que <span\nclass=\"math inline\">\\(|a_n|r^n \\leq C\\lambda^n\\)</span> et <span\nclass=\"math inline\">\\(|b_n|r^n \\leq C\\lambda ^n\\)</span> (vérifiez-le\n!). D’où <span class=\"math display\">\\[\\sum_{j=0}^n |a_j|r^j\n|b_{n-j}|r^{n-j} \\leq (n+1) C^2 \\lambda^n\\;,\\]</span> ce qui permet\nd’affirmer, pour tout <span class=\"math inline\">\\(z\\)</span> avec <span\nclass=\"math inline\">\\(|z|=r\\)</span>: <span\nclass=\"math display\">\\[\\sum_{n=0}^\\infty \\big(\\sum_{j=0}^n |a_j\nz^j||b_{n-j} z^{n-j}|\\big) &lt; \\infty\\;.\\]</span> Par le théorème du\ncours sur les séries doubles (voir le polycopié 2005/2006 de\nJ.-F. Burnol, Annexe 8.2), ceci signifie que la série double <span\nclass=\"math display\">\\[\\sum_{j=0}^\\infty\\sum_{k=0}^\\infty (a_j z^j b_k\nz^k)\\]</span> est absolument convergente. On peut donc d’après ce\nthéorème affirmer: <span class=\"math display\">\\[f(z)g(z) =\n\\sum_{j=0}^\\infty a_jz^j \\sum_{k=0}^\\infty b_k z^k =\n\\sum_{n=0}^\\infty \\big(\\sum_{j=0}^n (a_j z^j)(b_{n-j}\nz^{n-j})\\big)\\;.\\]</span> Or, la série de droite est <span\nclass=\"math inline\">\\(\\sum_{n=0}^\\infty  c_n z^n\\)</span> avec <span\nclass=\"math inline\">\\(c_n = \\sum_{j=0}^n\na_j b_{n-j}\\)</span>. Au passage on obtient que le rayon de convergence\nde cette série est au moins égal à <span\nclass=\"math inline\">\\(r\\)</span>. Comme <span\nclass=\"math inline\">\\(r&lt;\\min(R_1,R_2)\\)</span> est arbitraire, le\nrayon de convergence est en fait au moins égal à <span\nclass=\"math inline\">\\(\\min(R_1,R_2)\\)</span> (il peut être plus grand\ncomme on le voit par exemple avec <span class=\"math inline\">\\(f(z) =\n\\frac1{1-z}\\)</span> et <span class=\"math inline\">\\(g(z) = 1-z\\)</span>,\nou encore avec <span class=\"math inline\">\\(f(z) =\n\\frac{2-z}{(1-z)(3-z)}\\)</span> et <span class=\"math inline\">\\(g(z) =\n\\frac{1-z}{(2-z)(3-z)}\\)</span>).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"ex:burnol1.1.6\" label=\"ex:burnol1.1.6\"></span> On se donne\ndeux séries entières <span class=\"math inline\"> ..."
+}

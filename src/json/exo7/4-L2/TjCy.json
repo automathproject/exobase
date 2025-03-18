@@ -1,0 +1,53 @@
+{
+  "uuid": "TjCy",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1304",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Groupe, sous-groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:46.669Z"
+  },
+  "contenu": [
+    {
+      "id": "cd0d224c-cd52-4459-986c-e35278a68a21",
+      "type": "description",
+      "value": {
+        "latex": "Étant donné un entier naturel $n$, on appelle classe d'un entier relatif $p$ modulo\n$n$ l'ensemble $\\overline p = \\{p+kn\\mid k\\in\\mathbb{Z}\\}$.\nL'ensemble des classes modulo\n$n$ est noté $\\mathbb{Z}_n$.",
+        "html": "<p>Étant donné un entier naturel <span class=\"math inline\">\\(n\\)</span>,\non appelle classe d’un entier relatif <span\nclass=\"math inline\">\\(p\\)</span> modulo <span\nclass=\"math inline\">\\(n\\)</span> l’ensemble <span\nclass=\"math inline\">\\(\\overline p = \\{p+kn\\mid\nk\\in\\mathbb{Z}\\}\\)</span>. L’ensemble des classes modulo <span\nclass=\"math inline\">\\(n\\)</span> est noté <span\nclass=\"math inline\">\\(\\mathbb{Z}_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "39065811-a35d-456c-8a51-76faafe9a3a2",
+      "type": "question",
+      "value": {
+        "latex": "Écrire la liste des éléments distincts de $\\mathbb{Z}_2$, $\\mathbb{Z}_3$, $\\mathbb{Z}_4$\net~$\\mathbb{Z}_5$.",
+        "html": "<p>Écrire la liste des éléments distincts de <span\nclass=\"math inline\">\\(\\mathbb{Z}_2\\)</span>, <span\nclass=\"math inline\">\\(\\mathbb{Z}_3\\)</span>, <span\nclass=\"math inline\">\\(\\mathbb{Z}_4\\)</span> et <span\nclass=\"math inline\">\\(\\mathbb{Z}_5\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "753ea462-1409-494a-9094-72dd4d2b3d09",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $x\\in\\overline p$ et $y\\in\\overline q$, alors $x+y\\in\n\\overline{p+q}$ et $xy\\in\\overline{pq}$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(x\\in\\overline p\\)</span>\net <span class=\"math inline\">\\(y\\in\\overline q\\)</span>, alors <span\nclass=\"math inline\">\\(x+y\\in\n\\overline{p+q}\\)</span> et <span\nclass=\"math inline\">\\(xy\\in\\overline{pq}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f0053b9-a487-4f2d-bfd4-043bc9c15f0c",
+      "type": "question",
+      "value": {
+        "latex": "En posant $\\overline p+\\overline q=\\overline{p+q}$ et $\\overline\np\\cdot\\overline q=\\overline{pq}$, on définit deux lois de composition,\naddition et multiplication sur $\\mathbb{Z}_n$.\\\\\nÉcrire la table d'addition et de multiplication de $\\mathbb{Z}_4$.",
+        "html": "<p>En posant <span class=\"math inline\">\\(\\overline p+\\overline\nq=\\overline{p+q}\\)</span> et <span class=\"math inline\">\\(\\overline\np\\cdot\\overline q=\\overline{pq}\\)</span>, on définit deux lois de\ncomposition, addition et multiplication sur <span\nclass=\"math inline\">\\(\\mathbb{Z}_n\\)</span>.<br />\nÉcrire la table d’addition et de multiplication de <span\nclass=\"math inline\">\\(\\mathbb{Z}_4\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Étant donné un entier naturel <span class=\"math inline\">\\(n\\)</span>,\non appelle classe d’un entier relatif <span\nclass=\"math inline\">\\(p\\)</span>  ..."
+}

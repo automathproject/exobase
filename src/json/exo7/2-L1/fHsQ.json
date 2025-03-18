@@ -1,0 +1,69 @@
+{
+  "uuid": "fHsQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "524",
+    "auteur": "monthub",
+    "createdAt": "2001-11-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "WW2PHzsJGkw",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:23.976Z"
+  },
+  "contenu": [
+    {
+      "id": "768bddeb-f679-4610-859f-17f27e7faf93",
+      "type": "description",
+      "value": {
+        "latex": "Soit $q$ un entier au moins {\\'e}gal {\\`a} $2$. Pour tout $n\\in\n\\N$, on pose $u_n=\\cos{\\dfrac{2n\\pi}{q}}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(q\\)</span> un entier au moins\n<span>é</span>gal <span>à</span> <span class=\"math inline\">\\(2\\)</span>.\nPour tout <span class=\"math inline\">\\(n\\in\n\\N\\)</span>, on pose <span\nclass=\"math inline\">\\(u_n=\\cos{\\dfrac{2n\\pi}{q}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "af44d457-f225-4ae8-b2bc-2726b1218654",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u_{n+q}=u_n$ pour tout $n \\in \\N$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u_{n+q}=u_n\\)</span> pour\ntout <span class=\"math inline\">\\(n \\in \\N\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac1856f3-addc-4e62-ba04-ec349c59d49d",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_{n+q} = \\cos \\left( \\frac{2(n+q)\\pi}{q} \\right) = \\cos \\left(\\frac{2n\\pi}{q}+2\\pi\\right) = \\cos \\left(\\frac{2n\\pi}{q}\\right) = u_n$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+q} = \\cos \\left( \\frac{2(n+q)\\pi}{q}\n\\right) = \\cos \\left(\\frac{2n\\pi}{q}+2\\pi\\right) = \\cos\n\\left(\\frac{2n\\pi}{q}\\right) = u_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "de873087-193f-4b9d-9dee-f991fa35ba77",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $u_{nq}$ et $u_{nq+1}$. En d{\\'e}duire que la suite $(u_n)$\n  n'a pas de limite.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(u_{nq}\\)</span> et <span\nclass=\"math inline\">\\(u_{nq+1}\\)</span>. En d<span>é</span>duire que la\nsuite <span class=\"math inline\">\\((u_n)\\)</span> n’a pas de limite.</p>\n"
+      }
+    },
+    {
+      "id": "2ea66cfe-86c1-4b6e-bd4b-720d738a783a",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_{nq} = \\cos \\left(\\frac{2nq\\pi}{q}\\right) = \\cos \\left({2n\\pi}\\right)= 1 = u_0$ et $u_{nq+1} = \\cos \\left(\\frac{2(nq+1)\\pi}{q}\\right) = \\cos \\left(\\frac{2\\pi}{q}\\right) = u_1$.\nSupposons, par l'absurde que $(u_n)$ converge vers $\\ell$.\nAlors la sous-suite $(u_{nq})_n$ converge vers $\\ell$ comme \n$u_{nq}= u_0 = 1$ pour tout $n$ alors $\\ell = 1$. D'autre part\nla sous-suite $(u_{nq+1})_n$ converge aussi vers $\\ell$, mais \n$u_{nq+1}= u_1 = \\cos \\frac{2\\pi}{q}$, donc $\\ell = \\cos \\frac{2\\pi}{q}$. Nous obtenons une contradiction car pour $q\\geq 2$, nous avons $\\cos \\frac{2\\pi}{q} \\not= 1$. Donc la suite $(u_n)$ ne converge pas.",
+        "html": "<p><span class=\"math inline\">\\(u_{nq} = \\cos\n\\left(\\frac{2nq\\pi}{q}\\right) = \\cos \\left({2n\\pi}\\right)= 1 =\nu_0\\)</span> et <span class=\"math inline\">\\(u_{nq+1} = \\cos\n\\left(\\frac{2(nq+1)\\pi}{q}\\right) = \\cos \\left(\\frac{2\\pi}{q}\\right) =\nu_1\\)</span>. Supposons, par l’absurde que <span\nclass=\"math inline\">\\((u_n)\\)</span> converge vers <span\nclass=\"math inline\">\\(\\ell\\)</span>. Alors la sous-suite <span\nclass=\"math inline\">\\((u_{nq})_n\\)</span> converge vers <span\nclass=\"math inline\">\\(\\ell\\)</span> comme <span\nclass=\"math inline\">\\(u_{nq}= u_0 = 1\\)</span> pour tout <span\nclass=\"math inline\">\\(n\\)</span> alors <span class=\"math inline\">\\(\\ell\n= 1\\)</span>. D’autre part la sous-suite <span\nclass=\"math inline\">\\((u_{nq+1})_n\\)</span> converge aussi vers <span\nclass=\"math inline\">\\(\\ell\\)</span>, mais <span\nclass=\"math inline\">\\(u_{nq+1}= u_1 = \\cos \\frac{2\\pi}{q}\\)</span>, donc\n<span class=\"math inline\">\\(\\ell = \\cos \\frac{2\\pi}{q}\\)</span>. Nous\nobtenons une contradiction car pour <span class=\"math inline\">\\(q\\geq\n2\\)</span>, nous avons <span class=\"math inline\">\\(\\cos \\frac{2\\pi}{q}\n\\not= 1\\)</span>. Donc la suite <span\nclass=\"math inline\">\\((u_n)\\)</span> ne converge pas.</p>\n"
+      }
+    },
+    {
+      "id": "6d6ea0d2-898a-41e8-878a-562db88700f3",
+      "type": "indication",
+      "value": {
+        "latex": "Pour la deuxi\\`eme question, raisonner par l'absurde et trouver deux sous-suites ayant des limites distinctes.",
+        "html": "<p>Pour la deuxième question, raisonner par l’absurde et trouver deux\nsous-suites ayant des limites distinctes.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(q\\)</span> un entier au moins\n<span>é</span>gal <span>à</span> <span class=\"math inline\">\\(2\\)</span>.\nPour tout < ..."
+}

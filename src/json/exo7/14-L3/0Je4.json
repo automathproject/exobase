@@ -1,0 +1,61 @@
+{
+  "uuid": "0Je4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5939",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Lemme de Fatou, convergence monotone",
+    "sousChapitre": "Lemme de Fatou, convergence monotone",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:07.578Z"
+  },
+  "contenu": [
+    {
+      "id": "ca5db55a-7a06-40d0-8464-161944f3faeb",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "6882f3d6-24c8-416f-968b-f4b3a2f9e019",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\{g_{n}\\}_{n\\in\\mathbb{N}}$ une suite dans\n$\\mathcal{M}^{+}(\\Omega, \\Sigma)$. Montrer que\n$$\n\\int_{\\Omega} \\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu.\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\{g_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nune suite dans <span class=\"math inline\">\\(\\mathcal{M}^{+}(\\Omega,\n\\Sigma)\\)</span>. Montrer que <span class=\"math display\">\\[\\int_{\\Omega}\n\\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "dc35e888-6b9a-4c78-9ce2-89b55eb46068",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\{g_{n}\\}_{n\\in\\mathbb{N}}$ une suite dans\n$\\mathcal{M}^{+}(\\Omega, \\Sigma)$. Alors $f_{k} = \\sum_{n=1}^{k}\ng_{n}$ est une suite croissante de $\\mathcal{M}^{+}(\\Omega,\n\\Sigma)$. D'apr\\`es le th\\'eor\\`eme de convergence monotone\n$$\n\\int_{\\Omega} \\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu.\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\{g_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nune suite dans <span class=\"math inline\">\\(\\mathcal{M}^{+}(\\Omega,\n\\Sigma)\\)</span>. Alors <span class=\"math inline\">\\(f_{k} =\n\\sum_{n=1}^{k}\ng_{n}\\)</span> est une suite croissante de <span\nclass=\"math inline\">\\(\\mathcal{M}^{+}(\\Omega,\n\\Sigma)\\)</span>. D’après le théorème de convergence monotone <span\nclass=\"math display\">\\[\\int_{\\Omega} \\left(\\sum_{n=1}^{+\\infty}\ng_{n}\\right)\\,d\\mu =\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "0d7375b0-23bc-4d0c-ae4f-52d6afab3863",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$$\n\\int_{0}^{+\\infty} \\frac{x^{s-1}}{e^x -1}\\,dx = \\Gamma(s)\n\\zeta(s),\n$$\no\\`u $\\Gamma$ est la fonction d'Euler et o\\`u $\\zeta(s) =\n\\sum_{n=1}^{+\\infty} n^{-s}$. (On pourra consid\\'erer les\nfonctions $g_{n}(x) = x^{s-1} e^{-nx} \\mathbf{1}_{[0, +\\infty)}$.)",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\int_{0}^{+\\infty}\n\\frac{x^{s-1}}{e^x -1}\\,dx = \\Gamma(s)\n\\zeta(s),\\]</span> où <span class=\"math inline\">\\(\\Gamma\\)</span> est la\nfonction d’Euler et où <span class=\"math inline\">\\(\\zeta(s) =\n\\sum_{n=1}^{+\\infty} n^{-s}\\)</span>. (On pourra considérer les\nfonctions <span class=\"math inline\">\\(g_{n}(x) = x^{s-1} e^{-nx}\n\\mathbf{1}_{[0, +\\infty)}\\)</span>.)</p>\n"
+      }
+    },
+    {
+      "id": "279cedb3-ca04-4985-8036-585a01149cbe",
+      "type": "reponse",
+      "value": {
+        "latex": "Posons $g_{n}(x) = x^{s-1} e^{-nx} \\mathbf{1}_{[0, +\\infty)}$. Les\n$g_{n}$ appartiennent \\`a $\\mathcal{M}^{+}(\\Omega, \\Sigma)$ pour\ntout $n\\in\\mathbb{N}$. D'apr\\`es la question pr\\'ec\\'edente,\n$$\n\\int_{\\Omega} \\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu.\n$$\nOr d'une part,\n$$\n\\int_{\\Omega}g_{n} \\,d\\mu = \\int_{\\Omega} x^{s-1} e^{-nx}\n\\mathbf{1}_{[0,+\\infty)}\\, dx = \\frac{1}{n^s}\\int_{0}^{+\\infty} y^{s-1}\ne^{-y}\\,dy = \\frac{1}{n^s}\\Gamma(s),\n$$\ndonc\n$$\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu =\n\\sum_{n=1}^{\\infty}\\frac{1}{n^s}\\Gamma(s) = \\zeta(s) \\Gamma(s).\n$$\nD'autre part,\n$$\n\\int_{\\Omega} \\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\int_{0}^{+\\infty} x^{s-1} \\sum_{n=1}^{+\\infty} e^{-nx}\\,dx =\n\\int_{0}^{+\\infty} \\frac{x^{s-1}}{e^x -1}\\,dx,\n$$\nd'o\\`u l'\\'egalit\\'e cherch\\'ee.",
+        "html": "<p>Posons <span class=\"math inline\">\\(g_{n}(x) = x^{s-1} e^{-nx}\n\\mathbf{1}_{[0, +\\infty)}\\)</span>. Les <span\nclass=\"math inline\">\\(g_{n}\\)</span> appartiennent à <span\nclass=\"math inline\">\\(\\mathcal{M}^{+}(\\Omega, \\Sigma)\\)</span> pour tout\n<span class=\"math inline\">\\(n\\in\\mathbb{N}\\)</span>. D’après la question\nprécédente, <span class=\"math display\">\\[\\int_{\\Omega}\n\\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu.\\]</span> Or d’une part,\n<span class=\"math display\">\\[\\int_{\\Omega}g_{n} \\,d\\mu = \\int_{\\Omega}\nx^{s-1} e^{-nx}\n\\mathbf{1}_{[0,+\\infty)}\\, dx = \\frac{1}{n^s}\\int_{0}^{+\\infty} y^{s-1}\ne^{-y}\\,dy = \\frac{1}{n^s}\\Gamma(s),\\]</span> donc <span\nclass=\"math display\">\\[\\sum_{n=1}^{+\\infty}\\int_{\\Omega} g_{n} \\,d\\mu =\n\\sum_{n=1}^{\\infty}\\frac{1}{n^s}\\Gamma(s) = \\zeta(s) \\Gamma(s).\\]</span>\nD’autre part, <span class=\"math display\">\\[\\int_{\\Omega}\n\\left(\\sum_{n=1}^{+\\infty} g_{n}\\right)\\,d\\mu =\n\\int_{0}^{+\\infty} x^{s-1} \\sum_{n=1}^{+\\infty} e^{-nx}\\,dx =\n\\int_{0}^{+\\infty} \\frac{x^{s-1}}{e^x -1}\\,dx,\\]</span> d’où l’égalité\ncherchée.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\{g_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nune suite dans <span class=\"math inline\">\\(\\mathcal{M}^{+}(\\Omega,\n\\Sigma)\\)</ ..."
+}

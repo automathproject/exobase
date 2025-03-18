@@ -1,0 +1,69 @@
+{
+  "uuid": "oN0h",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6357",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:06.012Z"
+  },
+  "contenu": [
+    {
+      "id": "5eba2d78-72d7-4e23-bd6a-fe6d2f668930",
+      "type": "description",
+      "value": {
+        "latex": "On considère les équations $$\\quad (1)\\quad y''+p(x)y'+q(x)y=0,\\quad (2)\\quad\ny''+p(x)y'+q(x)y=r(x)$$ où $p$, $q$ et\n$r$ sont des fonctions continues d'un intervalle $I\\subset\\Rr$ dans $\\Rr$.\nEtablir ce qui suit :",
+        "html": "<p>On considère les équations <span class=\"math display\">\\[\\quad\n(1)\\quad y&#39;&#39;+p(x)y&#39;+q(x)y=0,\\quad (2)\\quad\ny&#39;&#39;+p(x)y&#39;+q(x)y=r(x)\\]</span> où <span\nclass=\"math inline\">\\(p\\)</span>, <span class=\"math inline\">\\(q\\)</span>\net <span class=\"math inline\">\\(r\\)</span> sont des fonctions continues\nd’un intervalle <span class=\"math inline\">\\(I\\subset\\Rr\\)</span> dans\n<span class=\"math inline\">\\(\\Rr\\)</span>. Etablir ce qui suit :</p>\n"
+      }
+    },
+    {
+      "id": "69858f39-fa6d-49d5-ba29-eefaa5995af5",
+      "type": "question",
+      "value": {
+        "latex": "Pour tout $x_0\\in I$, et tout $(a,b)\\in \\Rr^2$, $(1)$ admet une solution\nmaximale définie sur $I$ tout entier, telle que $y(x_0)=a, y'(x_0)=b$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(x_0\\in I\\)</span>, et tout\n<span class=\"math inline\">\\((a,b)\\in \\Rr^2\\)</span>, <span\nclass=\"math inline\">\\((1)\\)</span> admet une solution maximale définie\nsur <span class=\"math inline\">\\(I\\)</span> tout entier, telle que <span\nclass=\"math inline\">\\(y(x_0)=a, y&#39;(x_0)=b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dbfe0653-ccb3-48cf-a5aa-bc21e4d8b25b",
+      "type": "question",
+      "value": {
+        "latex": "Soit $x_0\\in I$; les solutions de $(1)$ forment un espace vectoriel $V$ de\ndimension 2 dont une base est $(y_1,y_2)$ avec $y_1(x_0)=1, y_1'(x_0)=0$,  \n$y_2(x_0)=0, y_2'(x_0)=1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(x_0\\in I\\)</span>; les solutions de\n<span class=\"math inline\">\\((1)\\)</span> forment un espace vectoriel\n<span class=\"math inline\">\\(V\\)</span> de dimension 2 dont une base est\n<span class=\"math inline\">\\((y_1,y_2)\\)</span> avec <span\nclass=\"math inline\">\\(y_1(x_0)=1, y_1&#39;(x_0)=0\\)</span>, <span\nclass=\"math inline\">\\(y_2(x_0)=0, y_2&#39;(x_0)=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0a6719e2-6240-43ac-8a81-b5638da81421",
+      "type": "question",
+      "value": {
+        "latex": "Soit $u$ et $v$ deux solutions de $(1)$ et $W=u'v-uv'$ leur wronskien;\ntrouver une équation différentielle satisfaite par $W$; en déduire que $W$ est\nsoit identiquement nul, soit jamais nul, et que $W\\not=0\\Longleftrightarrow\n(u,v)$ est une base de $V$. Quel est le rapport entre $W$ et la résolvante du\nsystème associé ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(u\\)</span> et <span\nclass=\"math inline\">\\(v\\)</span> deux solutions de <span\nclass=\"math inline\">\\((1)\\)</span> et <span\nclass=\"math inline\">\\(W=u&#39;v-uv&#39;\\)</span> leur wronskien; trouver\nune équation différentielle satisfaite par <span\nclass=\"math inline\">\\(W\\)</span>; en déduire que <span\nclass=\"math inline\">\\(W\\)</span> est soit identiquement nul, soit jamais\nnul, et que <span class=\"math inline\">\\(W\\not=0\\Longleftrightarrow\n(u,v)\\)</span> est une base de <span class=\"math inline\">\\(V\\)</span>.\nQuel est le rapport entre <span class=\"math inline\">\\(W\\)</span> et la\nrésolvante du système associé ?</p>\n"
+      }
+    },
+    {
+      "id": "87132a27-b1ac-4c4a-837a-1cd64c2d3023",
+      "type": "question",
+      "value": {
+        "latex": "La solution $y$ de $(2)$ vérifiant $y(x_0)=0,y'(x_0)=1$, où $x_0$ fixé dans\n$I$, est\n$$ y(x)=y(x_0)y_1(x)+y'(x_0)y_2(x)+\\int_{x_0}^x\n{r(t)\\Big(y_1(t)y_2(x)-y_1(x)y_2(t)\\Big)\\over W(t)}\\ dt.\n$$",
+        "html": "<p>La solution <span class=\"math inline\">\\(y\\)</span> de <span\nclass=\"math inline\">\\((2)\\)</span> vérifiant <span\nclass=\"math inline\">\\(y(x_0)=0,y&#39;(x_0)=1\\)</span>, où <span\nclass=\"math inline\">\\(x_0\\)</span> fixé dans <span\nclass=\"math inline\">\\(I\\)</span>, est <span\nclass=\"math display\">\\[y(x)=y(x_0)y_1(x)+y&#39;(x_0)y_2(x)+\\int_{x_0}^x\n{r(t)\\Big(y_1(t)y_2(x)-y_1(x)y_2(t)\\Big)\\over W(t)}\\ dt.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "64bd135b-0978-4b26-8972-3ebb53482dad",
+      "type": "question",
+      "value": {
+        "latex": "Exemple : Résoudre  $y''+4y=\\tan x$.",
+        "html": "<p>Exemple : Résoudre <span class=\"math inline\">\\(y&#39;&#39;+4y=\\tan\nx\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère les équations <span class=\"math display\"> ..."
+}

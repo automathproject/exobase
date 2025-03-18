@@ -1,0 +1,37 @@
+{
+  "uuid": "572U",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2169",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Action de groupe",
+    "sousChapitre": "Action de groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:43.101Z"
+  },
+  "contenu": [
+    {
+      "id": "f18ce1f1-01f9-4488-8bc6-9f314020b859",
+      "type": "description",
+      "value": {
+        "latex": "\\label{ex:deb69}\nMontrer que  les permutations circulaires engendrent $S_n$ si\n$n$ est pair, et $A_n$ si $n$ est impair.",
+        "html": "<p><span id=\"ex:deb69\" label=\"ex:deb69\"></span> Montrer que les\npermutations circulaires engendrent <span\nclass=\"math inline\">\\(S_n\\)</span> si <span\nclass=\"math inline\">\\(n\\)</span> est pair, et <span\nclass=\"math inline\">\\(A_n\\)</span> si <span\nclass=\"math inline\">\\(n\\)</span> est impair.</p>\n"
+      }
+    },
+    {
+      "id": "981b49f6-70ac-402f-993e-f9865f79538c",
+      "type": "reponse",
+      "value": {
+        "latex": "Les cas $n=1$ et $n=2$ sont imm\\'ediats. On peut supposer $n\\geq 3$. On v\\'erifie\nais\\'ement la formule $(a_1 \\hskip 2pt a_2\\hskip 2pt\\ldots\\hskip 2pt a_{n-1}\\hskip 2pt a_n)\\ \n(a_{n-1} \\hskip 2pt a_n\\hskip 2pt a_{n-2} \\ldots\\hskip 2pt a_2\\hskip 2pt a_1) = (a_1 \\hskip\n2pt a_n \\hskip 2pt  a_{n-1})$ o\\`u $a_1,\\ldots,a_n$ sont les \\'el\\'ements d'un ensemble de\ncardinal $n$. On en d\\'eduit que le groupe $PC_n$ engendr\\'e par les permutations circulaires\ncontient les $3$-cycles et donc le groupe altern\\'e $A_n$ (voir exercice \\ref{ex:deb67}). Les\npermutations circulaires sont de signature $(-1)^{n-1}$. Si $n$ est impair, elles sont donc\npaires d'o\\`u $PC_n\\subset A_n$ et donc finalement $PC_n = A_n$ dans ce cas. Si $n$ pair, les\npermutations circulaires sont impaires, donc $PC_n\\not=A_n$. L'indice de $PC_n$ dans $S_n$\ndevant diviser $2$ (puisque $PC_n\\supset A_n$), il vaut $1$, c'est-\\`a-dire $PC_n=S_n$.",
+        "html": "<p>Les cas <span class=\"math inline\">\\(n=1\\)</span> et <span\nclass=\"math inline\">\\(n=2\\)</span> sont immédiats. On peut supposer\n<span class=\"math inline\">\\(n\\geq 3\\)</span>. On vérifie aisément la\nformule <span class=\"math inline\">\\((a_1 \\hskip 2pt a_2\\hskip\n2pt\\ldots\\hskip 2pt a_{n-1}\\hskip 2pt a_n)\\\n(a_{n-1} \\hskip 2pt a_n\\hskip 2pt a_{n-2} \\ldots\\hskip 2pt a_2\\hskip 2pt\na_1) = (a_1 \\hskip\n2pt a_n \\hskip 2pt  a_{n-1})\\)</span> où <span\nclass=\"math inline\">\\(a_1,\\ldots,a_n\\)</span> sont les éléments d’un\nensemble de cardinal <span class=\"math inline\">\\(n\\)</span>. On en\ndéduit que le groupe <span class=\"math inline\">\\(PC_n\\)</span> engendré\npar les permutations circulaires contient les <span\nclass=\"math inline\">\\(3\\)</span>-cycles et donc le groupe alterné <span\nclass=\"math inline\">\\(A_n\\)</span> (voir exercice <a href=\"#ex:deb67\"\ndata-reference-type=\"ref\" data-reference=\"ex:deb67\">[ex:deb67]</a>). Les\npermutations circulaires sont de signature <span\nclass=\"math inline\">\\((-1)^{n-1}\\)</span>. Si <span\nclass=\"math inline\">\\(n\\)</span> est impair, elles sont donc paires d’où\n<span class=\"math inline\">\\(PC_n\\subset A_n\\)</span> et donc finalement\n<span class=\"math inline\">\\(PC_n = A_n\\)</span> dans ce cas. Si <span\nclass=\"math inline\">\\(n\\)</span> pair, les permutations circulaires sont\nimpaires, donc <span class=\"math inline\">\\(PC_n\\not=A_n\\)</span>.\nL’indice de <span class=\"math inline\">\\(PC_n\\)</span> dans <span\nclass=\"math inline\">\\(S_n\\)</span> devant diviser <span\nclass=\"math inline\">\\(2\\)</span> (puisque <span\nclass=\"math inline\">\\(PC_n\\supset A_n\\)</span>), il vaut <span\nclass=\"math inline\">\\(1\\)</span>, c’est-à-dire <span\nclass=\"math inline\">\\(PC_n=S_n\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"ex:deb69\" label=\"ex:deb69\"></span> Montrer que les\npermutations circulaires engendrent <span\nclass=\"math inline\">\\(S_n\\)</span> si <span\n ..."
+}

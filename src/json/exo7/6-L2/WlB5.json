@@ -1,0 +1,109 @@
+{
+  "uuid": "WlB5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4994",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Courbes planes",
+    "sousChapitre": "Courbes définies par une condition",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:29.939Z"
+  },
+  "contenu": [
+    {
+      "id": "84fa21bd-ad2e-4cd1-b422-85bf14d4efa3",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\mathcal{C}$ une courbe du plan. A un point $M$ un point de $\\mathcal{C}$, on associe les\npoints $H$, $T$ et $N$ selon le dessin :\n$$\n\\includegraphics[height=3cm]{../images/img004994-1}\n$$\n\nDéterminer les courbes d'équation $y = f(x)$ vérifiant la condition suivante :",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\mathcal{C}\\)</span> une courbe du\nplan. A un point <span class=\"math inline\">\\(M\\)</span> un point de\n<span class=\"math inline\">\\(\\mathcal{C}\\)</span>, on associe les points\n<span class=\"math inline\">\\(H\\)</span>, <span\nclass=\"math inline\">\\(T\\)</span> et <span\nclass=\"math inline\">\\(N\\)</span> selon le dessin : <span\nclass=\"math display\">\\[\\includegraphics[height=3cm]{../images/img004994-1}\\]</span></p>\n<p>Déterminer les courbes d’équation <span class=\"math inline\">\\(y =\nf(x)\\)</span> vérifiant la condition suivante :</p>\n"
+      }
+    },
+    {
+      "id": "280c6b06-3dc9-4504-81c3-2c59d8782890",
+      "type": "question",
+      "value": {
+        "latex": "$\\overline{HT} ={}$cste.",
+        "html": "<p><span class=\"math inline\">\\(\\overline{HT} ={}\\)</span>cste.</p>\n"
+      }
+    },
+    {
+      "id": "a7285bb5-ef08-4f14-b002-e0c0dd3b08d8",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = ae^{bx}$.",
+        "html": "<p><span class=\"math inline\">\\(y = ae^{bx}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1fdc0a2b-c7d9-4e9d-a24c-03ff34f4048e",
+      "type": "question",
+      "value": {
+        "latex": "$\\overline{HN} ={}$cste.",
+        "html": "<p><span class=\"math inline\">\\(\\overline{HN} ={}\\)</span>cste.</p>\n"
+      }
+    },
+    {
+      "id": "bb4d55c2-1a8b-4513-8f13-21e9c13214e5",
+      "type": "reponse",
+      "value": {
+        "latex": "$y = \\pm\\sqrt{ax+b}$.",
+        "html": "<p><span class=\"math inline\">\\(y = \\pm\\sqrt{ax+b}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c3561a32-254a-465e-b721-5bef37c33276",
+      "type": "question",
+      "value": {
+        "latex": "$MN = {}$cste.",
+        "html": "<p><span class=\"math inline\">\\(MN = {}\\)</span>cste.</p>\n"
+      }
+    },
+    {
+      "id": "9cc3acb9-8048-417b-91da-9a5354220a0b",
+      "type": "reponse",
+      "value": {
+        "latex": "$(a-x)^2 + y^2 = b^2$.",
+        "html": "<p><span class=\"math inline\">\\((a-x)^2 + y^2 = b^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "184e0ca4-ac73-41e4-931b-6d7580132ee0",
+      "type": "question",
+      "value": {
+        "latex": "$MT = {}$cste.",
+        "html": "<p><span class=\"math inline\">\\(MT = {}\\)</span>cste.</p>\n"
+      }
+    },
+    {
+      "id": "1a6ee2c0-117f-45ec-816c-9ed1dc69ec42",
+      "type": "reponse",
+      "value": {
+        "latex": "$x = a\\left(\\ln\\left|\\tan\\frac t2\\right| + \\cos t\\right) + b,\\quad\n              y = a\\sin t$.",
+        "html": "<p><span class=\"math inline\">\\(x = a\\left(\\ln\\left|\\tan\\frac t2\\right| +\n\\cos t\\right) + b,\\quad\n              y = a\\sin t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9d5686c2-b95e-4ffb-a5e4-fac602ffbd7a",
+      "type": "question",
+      "value": {
+        "latex": "$AN=MN$ où $A$ est le point de coordonnées $(0,a)$.",
+        "html": "<p><span class=\"math inline\">\\(AN=MN\\)</span> où <span\nclass=\"math inline\">\\(A\\)</span> est le point de coordonnées <span\nclass=\"math inline\">\\((0,a)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1ba2b622-3688-4333-a8a3-539d429ad282",
+      "type": "reponse",
+      "value": {
+        "latex": "$y^2 = \\frac{x^2}2 + a^2\\ln|x| + b$.",
+        "html": "<p><span class=\"math inline\">\\(y^2 = \\frac{x^2}2 + a^2\\ln|x| +\nb\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\mathcal{C}\\)</span> une courbe du\nplan. A un point <span class=\"math inline\">\\(M\\)</span> un point de\n<span class ..."
+}

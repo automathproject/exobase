@@ -1,0 +1,37 @@
+{
+  "uuid": "59DU",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4236",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Théorie",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:51.176Z"
+  },
+  "contenu": [
+    {
+      "id": "cf599460-5778-4e5f-9ebe-a8e34884988f",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $I =  \\int_{t=0}^\\pi \\ \\frac t{1+\\sin t}\\,d t$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(I =  \\int_{t=0}^\\pi \\ \\frac\nt{1+\\sin t}\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3366b9c2-a3b6-42ea-82ab-e99a041cb15a",
+      "type": "reponse",
+      "value": {
+        "latex": "$u = \\pi-t  \\Rightarrow  I = \\frac \\pi2 \\int_{t=0}^\\pi \\ \\frac 1{1+\\sin t}\\,d t\n= \\frac \\pi2  \\int_{t=-\\pi/2}{\\pi/2} \\ \\frac 1{1+\\cos t}\\,d t = \\pi$.",
+        "html": "<p><span class=\"math inline\">\\(u = \\pi-t  \\Rightarrow  I = \\frac \\pi2\n\\int_{t=0}^\\pi \\ \\frac 1{1+\\sin t}\\,d t\n= \\frac \\pi2  \\int_{t=-\\pi/2}{\\pi/2} \\ \\frac 1{1+\\cos t}\\,d t =\n\\pi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(I =  \\int_{t=0}^\\pi \\ \\frac\nt{1+\\sin t}\\,d t\\)</span>.</p>\n"
+}

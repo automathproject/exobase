@@ -1,0 +1,37 @@
+{
+  "uuid": "9wBY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2853",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:21.298Z"
+  },
+  "contenu": [
+    {
+      "id": "c0d73949-d51f-46c3-b9d2-9120045be91f",
+      "type": "description",
+      "value": {
+        "latex": "Prouver pour $a>1$:\n\\[ \\frac1{2\\pi}\\int_0^{2\\pi} \\frac{\\sin\\theta}{a+\\sin\\theta}d\\theta =\n\\frac{\\sqrt{a^2-1} - a}{\\sqrt{a^2 - 1}}\\]\nEn utilisant l'un des exercices précédents montrer que la\nformule a un sens et est valable pour $a\\in\\Cc\\setminus[-1,+1]$.",
+        "html": "<p>Prouver pour <span class=\"math inline\">\\(a&gt;1\\)</span>: <span\nclass=\"math display\">\\[\\frac1{2\\pi}\\int_0^{2\\pi}\n\\frac{\\sin\\theta}{a+\\sin\\theta}d\\theta =\n\\frac{\\sqrt{a^2-1} - a}{\\sqrt{a^2 - 1}}\\]</span> En utilisant l’un des\nexercices précédents montrer que la formule a un sens et est valable\npour <span class=\"math inline\">\\(a\\in\\Cc\\setminus[-1,+1]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2d842201-bcf5-420d-97f9-1bb41a4cf69b",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $z=e^{i\\theta}$, alors $\\sin \\theta =\\frac{z-\\overline{z}}{2i}$ et $dz = ie^{i\\theta} d\\theta$.\nD'o\\`u\n$$\\frac{1}{2\\pi} \\int_0^{2\\pi} \\frac{\\sin \\theta}{a+\\sin \\theta} d\\theta = \\frac{1}{2\\pi} \\int_{ |z|=1}\n\\frac{z-\\overline{z}}{2ia +z-\\overline{z}}\\frac{dz}{iz}=\n\\frac{1}{2i\\pi} \\int_{ |z|=1} \\frac{z^2-1}{z^2 +2iaz -1}\\frac{dz}{z}.$$\nIl suffit alors d'utiliser le th\\'eor\\`eme des r\\'esidus.",
+        "html": "<p>Si <span class=\"math inline\">\\(z=e^{i\\theta}\\)</span>, alors <span\nclass=\"math inline\">\\(\\sin \\theta =\\frac{z-\\overline{z}}{2i}\\)</span> et\n<span class=\"math inline\">\\(dz = ie^{i\\theta} d\\theta\\)</span>. D’où\n<span class=\"math display\">\\[\\frac{1}{2\\pi} \\int_0^{2\\pi} \\frac{\\sin\n\\theta}{a+\\sin \\theta} d\\theta = \\frac{1}{2\\pi} \\int_{ |z|=1}\n\\frac{z-\\overline{z}}{2ia +z-\\overline{z}}\\frac{dz}{iz}=\n\\frac{1}{2i\\pi} \\int_{ |z|=1} \\frac{z^2-1}{z^2 +2iaz\n-1}\\frac{dz}{z}.\\]</span> Il suffit alors d’utiliser le théorème des\nrésidus.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Prouver pour <span class=\"math inline\">\\(a&gt;1\\)</span>: <span\nclass=\"math display\"> ..."
+}

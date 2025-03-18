@@ -1,0 +1,61 @@
+{
+  "uuid": "m3WS",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2279",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:09.182Z"
+  },
+  "contenu": [
+    {
+      "id": "c153f97d-de1a-4477-b97e-46e14cabb049",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "92c65b84-78be-4083-9816-92fd2da6816e",
+      "type": "question",
+      "value": {
+        "latex": "Soient $P\\in \\Zz[x]$, $n\\in \\Nn$, \n$m=P(n)$. Montrer que $\\forall\\, k\\in \\Zz\\ $ $\\ m\\,|\\, P(n+km)$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(P\\in \\Zz[x]\\)</span>, <span\nclass=\"math inline\">\\(n\\in \\Nn\\)</span>, <span\nclass=\"math inline\">\\(m=P(n)\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\forall\\, k\\in \\Zz\\ \\)</span> <span\nclass=\"math inline\">\\(\\ m\\,|\\, P(n+km)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7457c968-bac2-44f5-b183-be815cb85b0f",
+      "type": "reponse",
+      "value": {
+        "latex": "Notons $P=\\sum_{i=0}^{d}a_{i}X^{i}$. Dans le calcul de $P(n+km)$, en\n    développant tous les termes $(n+km)^{i}$ à l'aide du binôme, on\n    obtient que $P(n+km)=\\sum_{0\\leq j\\leq i\\leq\n      d}a_{i}C_{i}^{j}n^{j}(km)^{i-j} =P(n)+mN$ où $N=\\sum_{0\\leq j<i\\leq\n      d}a_{i}C_{i}^{j}n^{j}(km)^{i-j}-1\\in\\Zz$. Donc $m|P(n+km)$.",
+        "html": "<p>Notons <span\nclass=\"math inline\">\\(P=\\sum_{i=0}^{d}a_{i}X^{i}\\)</span>. Dans le\ncalcul de <span class=\"math inline\">\\(P(n+km)\\)</span>, en développant\ntous les termes <span class=\"math inline\">\\((n+km)^{i}\\)</span> à l’aide\ndu binôme, on obtient que <span\nclass=\"math inline\">\\(P(n+km)=\\sum_{0\\leq j\\leq i\\leq\n      d}a_{i}C_{i}^{j}n^{j}(km)^{i-j} =P(n)+mN\\)</span> où <span\nclass=\"math inline\">\\(N=\\sum_{0\\leq j&lt;i\\leq\n      d}a_{i}C_{i}^{j}n^{j}(km)^{i-j}-1\\in\\Zz\\)</span>. Donc <span\nclass=\"math inline\">\\(m|P(n+km)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3866d6ab-b5e0-4b22-b105-856638297976",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire qu'il n'existe aucun polyn\\^ome $P\\in \\Zz[x]$,\nnon constant, tel que, pour tout $n\\in \\Zz$,\n$P(n)$ soit un nombre premier.",
+        "html": "<p>En déduire qu’il n’existe aucun polynôme <span\nclass=\"math inline\">\\(P\\in \\Zz[x]\\)</span>, non constant, tel que, pour\ntout <span class=\"math inline\">\\(n\\in \\Zz\\)</span>, <span\nclass=\"math inline\">\\(P(n)\\)</span> soit un nombre premier.</p>\n"
+      }
+    },
+    {
+      "id": "60f793ad-3b3a-470f-8189-84ca7416fd0b",
+      "type": "reponse",
+      "value": {
+        "latex": "Supposons qu'un tel polynôme existe~: soit $m=P(0)$. $\\forall\n    k\\in\\Zz, m|P(km)$. Comme $P(km)$ est premier, on en déduit que\n    $P(km)=\\pm m$. Ceci est en contradiction avec \n    $\\lim_{k\\to+\\infty}P(km)=\\pm\\infty$.",
+        "html": "<p>Supposons qu’un tel polynôme existe : soit <span\nclass=\"math inline\">\\(m=P(0)\\)</span>. <span\nclass=\"math inline\">\\(\\forall\n    k\\in\\Zz, m|P(km)\\)</span>. Comme <span\nclass=\"math inline\">\\(P(km)\\)</span> est premier, on en déduit que <span\nclass=\"math inline\">\\(P(km)=\\pm m\\)</span>. Ceci est en contradiction\navec <span\nclass=\"math inline\">\\(\\lim_{k\\to+\\infty}P(km)=\\pm\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(P\\in \\Zz[x]\\)</span>, <span\nclass=\"math inline\">\\(n\\in \\Nn\\)</span>, <span\nclass=\"math inline\">\\(m=P(n)\\)</span> ..."
+}

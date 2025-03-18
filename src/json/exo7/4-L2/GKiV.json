@@ -1,0 +1,93 @@
+{
+  "uuid": "GKiV",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2728",
+    "auteur": "tumpach",
+    "createdAt": "2009-10-25",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Groupe, sous-groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:11.126Z"
+  },
+  "contenu": [
+    {
+      "id": "a95cdf1e-1e93-4cd5-bdcc-7080f72a4496",
+      "type": "description",
+      "value": {
+        "latex": "On d\\'efinit une permutation $\\sigma$ de l'ensemble $\\{1, 2, \\dots, 15\\}$ par la suite finie des entiers $\\sigma(1)$, $\\sigma(2), \\dots, \\sigma(15)$. Par exemple\n$$\n\\sigma_1 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15\\\\\n2 & 7 & 1 & 14 & 3 & 12 & 8 & 9 & 6 & 15 & 13 & 4 & 10 & 5 & 11\n\\end{array}\n\\right)\n$$\nsignifie $\\sigma(1) = 2, \\sigma(2) = 7$, etc\\dots Soient\n $$\n\\sigma_2 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15\\\\\n7 & 6 & 5 & 8 & 9 & 3 & 2 & 15 & 4 & 11 & 13 & 10 & 12 & 14 & 1\n\\end{array}\n\\right)\n$$\n$$\n\\sigma_3 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15\\\\\n1 & 15 & 2 & 14 & 3 & 13 & 4 & 12 & 5 & 11 & 6 & 10 & 7 & 9 & 8\n\\end{array}\n\\right)\n$$\n$$\n\\sigma_4 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15\\\\\n2 & 4 & 6 & 8 & 10 & 12 & 14 & 15 & 13 & 11 & 9 & 7 & 5 & 3 & 1\n\\end{array}\n\\right)\n$$",
+        "html": "<p>On définit une permutation <span\nclass=\"math inline\">\\(\\sigma\\)</span> de l’ensemble <span\nclass=\"math inline\">\\(\\{1, 2, \\dots, 15\\}\\)</span> par la suite finie\ndes entiers <span class=\"math inline\">\\(\\sigma(1)\\)</span>, <span\nclass=\"math inline\">\\(\\sigma(2), \\dots, \\sigma(15)\\)</span>. Par exemple\n<span class=\"math display\">\\[\\sigma_1 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp;\n10 &amp; 11 &amp; 12 &amp; 13 &amp; 14 &amp; 15\\\\\n2 &amp; 7 &amp; 1 &amp; 14 &amp; 3 &amp; 12 &amp; 8 &amp; 9 &amp; 6\n&amp; 15 &amp; 13 &amp; 4 &amp; 10 &amp; 5 &amp; 11\n\\end{array}\n\\right)\\]</span> signifie <span class=\"math inline\">\\(\\sigma(1) = 2,\n\\sigma(2) = 7\\)</span>, etc…Soient <span class=\"math display\">\\[\\sigma_2\n= \\left(\n\\begin{array}{ccccccccccccccc}\n1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp;\n10 &amp; 11 &amp; 12 &amp; 13 &amp; 14 &amp; 15\\\\\n7 &amp; 6 &amp; 5 &amp; 8 &amp; 9 &amp; 3 &amp; 2 &amp; 15 &amp; 4 &amp;\n11 &amp; 13 &amp; 10 &amp; 12 &amp; 14 &amp; 1\n\\end{array}\n\\right)\\]</span> <span class=\"math display\">\\[\\sigma_3 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp;\n10 &amp; 11 &amp; 12 &amp; 13 &amp; 14 &amp; 15\\\\\n1 &amp; 15 &amp; 2 &amp; 14 &amp; 3 &amp; 13 &amp; 4 &amp; 12 &amp; 5\n&amp; 11 &amp; 6 &amp; 10 &amp; 7 &amp; 9 &amp; 8\n\\end{array}\n\\right)\\]</span> <span class=\"math display\">\\[\\sigma_4 = \\left(\n\\begin{array}{ccccccccccccccc}\n1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp;\n10 &amp; 11 &amp; 12 &amp; 13 &amp; 14 &amp; 15\\\\\n2 &amp; 4 &amp; 6 &amp; 8 &amp; 10 &amp; 12 &amp; 14 &amp; 15 &amp; 13\n&amp; 11 &amp; 9 &amp; 7 &amp; 5 &amp; 3 &amp; 1\n\\end{array}\n\\right)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "adebcc17-d71e-4002-b738-c748947add1e",
+      "type": "question",
+      "value": {
+        "latex": "Pour  $i=1, \\dots, 4$,\n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "da8bd4c0-e760-4357-b181-19608c90c895",
+      "type": "question",
+      "value": {
+        "latex": "d\\'ecomposer $\\sigma_i$ en cycles \\`a supports disjoints.",
+        "html": "<p>décomposer <span class=\"math inline\">\\(\\sigma_i\\)</span> en cycles à\nsupports disjoints.</p>\n"
+      }
+    },
+    {
+      "id": "156dcd0c-1709-44f1-bdfd-bd7c67dd2100",
+      "type": "question",
+      "value": {
+        "latex": "d\\'eterminer l'ordre de $\\sigma_i$.",
+        "html": "<p>déterminer l’ordre de <span\nclass=\"math inline\">\\(\\sigma_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8d273446-ad81-4b0e-b8d9-74d0b4b86b41",
+      "type": "question",
+      "value": {
+        "latex": "d\\'eterminer la signature de $\\sigma_i$.\n\\end{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "4cd294e1-cdc7-4994-975f-f24215d79db1",
+      "type": "question",
+      "value": {
+        "latex": "Calculer les puissances successives du cycle $\\sigma = (10\\,\\,\\,15\\,\\,\\,11\\,\\,\\,13)$. Quel est l'inverse de $\\sigma_1$~?",
+        "html": "<p>Calculer les puissances successives du cycle <span\nclass=\"math inline\">\\(\\sigma = (10\\,\\,\\,15\\,\\,\\,11\\,\\,\\,13)\\)</span>.\nQuel est l’inverse de <span\nclass=\"math inline\">\\(\\sigma_1\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "69f88b64-3a51-4f4b-baa4-8c893e0e7024",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\sigma_2^{2008}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\sigma_2^{2008}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e3799550-8466-4058-abc1-567a18c6bfed",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer, sans fatigue excessive, la signature de \n$$\n\\sigma_3\\circ \\sigma_4 \\circ \\sigma_{3}^{-4} \\circ \\sigma_{4}^{3}\\circ \\sigma_3\\circ \\sigma_4 \\circ \\sigma_3 \\circ \\sigma_4 \\circ \\sigma_3^{-1} \\circ \\sigma_4^{-6}.\n$$",
+        "html": "<p>Déterminer, sans fatigue excessive, la signature de <span\nclass=\"math display\">\\[\\sigma_3\\circ \\sigma_4 \\circ \\sigma_{3}^{-4}\n\\circ \\sigma_{4}^{3}\\circ \\sigma_3\\circ \\sigma_4 \\circ \\sigma_3 \\circ\n\\sigma_4 \\circ \\sigma_3^{-1} \\circ \\sigma_4^{-6}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f60e72d5-7153-4046-8b89-4a8b54af77b6",
+      "type": "question",
+      "value": {
+        "latex": "Combien y a-t-il de permutations $g$ de $\\{1, \\dots, 15\\}$ telles que $\\sigma_1\\circ g = g\\circ \\sigma_1$~?",
+        "html": "<p>Combien y a-t-il de permutations <span\nclass=\"math inline\">\\(g\\)</span> de <span class=\"math inline\">\\(\\{1,\n\\dots, 15\\}\\)</span> telles que <span\nclass=\"math inline\">\\(\\sigma_1\\circ g = g\\circ \\sigma_1\\)</span> ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On définit une permutation <span\nclass=\"math inline\">\\(\\sigma\\)</span> de l’ensemble <span\nclass=\"math inline\">\\(\\{1, 2, \\dots, 15\\}\\)</span> par l ..."
+}

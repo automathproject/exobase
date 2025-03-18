@@ -1,0 +1,61 @@
+{
+  "uuid": "exrn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1175",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Système linéaire, rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:19.827Z"
+  },
+  "contenu": [
+    {
+      "id": "41bb5bf0-9bbc-4518-92b9-d86a24941ce5",
+      "type": "description",
+      "value": {
+        "latex": "Pour tout $ a  $ r\\' eel, on consid\\`ere la matrice\n$ A  $ et le syst\\`eme lin\\' eaire\n $ (S) $ d\\' efinis par~:\n$$ A=\\begin{pmatrix}  a & 1 & 1  & 1  \\cr\n                                   1 & a & 1 &  1  \\cr\n                                    1 & 1 & a & 1 \\cr\n                                     1 & 1 & 1 &  a   \\cr \\end{pmatrix}  \\hskip10mm\n(S)\\hskip2mm\n\\left\\{ \\begin{matrix} ax &+ & y & + & z & + & t & = & 1 \\cr\nx &+ & ay & + & z & + & t & = & 1 \\cr\nx &+ & y & + & az & + & t & = & 1 \\cr\nx &+ & y & + & z & + & at & = & 1 \\cr\\end{matrix}\\right.$$\naux inconnues r\\' eelles $ x ,  y  , z ,  t .$",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(a\\)</span> réel, on considère\nla matrice <span class=\"math inline\">\\(A\\)</span> et le système linéaire\n<span class=\"math inline\">\\((S)\\)</span> définis par : <span\nclass=\"math display\">\\[A=\\begin{pmatrix}  a &amp; 1 &amp; 1  &amp;\n1  \\cr\n                                   1 &amp; a &amp; 1 &amp;  1  \\cr\n                                    1 &amp; 1 &amp; a &amp; 1 \\cr\n                                     1 &amp; 1 &amp; 1 &amp;  a   \\cr\n\\end{pmatrix}  \\hskip10mm\n(S)\\hskip2mm\n\\left\\{ \\begin{matrix} ax &amp;+ &amp; y &amp; + &amp; z &amp; + &amp; t\n&amp; = &amp; 1 \\cr\nx &amp;+ &amp; ay &amp; + &amp; z &amp; + &amp; t &amp; = &amp; 1 \\cr\nx &amp;+ &amp; y &amp; + &amp; az &amp; + &amp; t &amp; = &amp; 1 \\cr\nx &amp;+ &amp; y &amp; + &amp; z &amp; + &amp; at &amp; = &amp; 1\n\\cr\\end{matrix}\\right.\\]</span> aux inconnues réelles <span\nclass=\"math inline\">\\(x ,  y  , z ,  t .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2aee042b-a917-4771-8a2f-b2d64985ac5f",
+      "type": "question",
+      "value": {
+        "latex": "Discuter le rang de $ A  $ suivant les valeurs de $ a  .$",
+        "html": "<p>Discuter le rang de <span class=\"math inline\">\\(A\\)</span> suivant\nles valeurs de <span class=\"math inline\">\\(a  .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "1f610987-91ee-462d-a65e-3e7ca039bbcc",
+      "type": "question",
+      "value": {
+        "latex": "Pour quelles valeurs de\n $ a $ le syst\\`eme $ (S) $ est-il de Cramer~? Compatible~?\nIncompatible~?",
+        "html": "<p>Pour quelles valeurs de <span class=\"math inline\">\\(a\\)</span> le\nsystème <span class=\"math inline\">\\((S)\\)</span> est-il de Cramer ?\nCompatible ? Incompatible ?</p>\n"
+      }
+    },
+    {
+      "id": "6fd502f6-91b8-490a-a05c-bf8b51dc2086",
+      "type": "question",
+      "value": {
+        "latex": "Lorsqu'il est de Cramer, r\\' esoudre $ (S) $ avec un minimum d'op\\'\nerations (on pourra montrer\nd'abord que l'on a n\\' ecessairement $ x=y=z=t .).$",
+        "html": "<p>Lorsqu’il est de Cramer, résoudre <span\nclass=\"math inline\">\\((S)\\)</span> avec un minimum d’opérations (on\npourra montrer d’abord que l’on a nécessairement <span\nclass=\"math inline\">\\(x=y=z=t .).\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5d6a4f42-6d20-4ac4-87f2-1ac58a032f47",
+      "type": "question",
+      "value": {
+        "latex": "Retrouver 3. par application des formules de Cramer.",
+        "html": "<p>Retrouver 3. par application des formules de Cramer.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour tout <span class=\"math inline\">\\(a\\)</span> réel, on considère\nla matrice <span class=\"math inline\">\\(A\\)</span> et le système linéaire\n<span  ..."
+}

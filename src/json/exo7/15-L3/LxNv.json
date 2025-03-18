@@ -1,0 +1,37 @@
+{
+  "uuid": "LxNv",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2375",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Compacité",
+    "sousChapitre": "Compacité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:37.239Z"
+  },
+  "contenu": [
+    {
+      "id": "81c24ffb-7692-4a00-bee3-da14f48a0d5a",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ un espace topologique et $f:X\\times [0,1] \\to \\Rr$\ncontinue. Montrer que l'application $g: x\\in X \\to \\int_0^ 1\nf(x,y)\\, dy$ est continue.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace topologique et\n<span class=\"math inline\">\\(f:X\\times [0,1] \\to \\Rr\\)</span> continue.\nMontrer que l’application <span class=\"math inline\">\\(g: x\\in X \\to\n\\int_0^ 1\nf(x,y)\\, dy\\)</span> est continue.</p>\n"
+      }
+    },
+    {
+      "id": "86b80f4e-0dc1-4bf6-b58d-69bd4eccd253",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $y\\in [0,1]$ $f$ est continue en $(x,y)$ donc il existe\nun $U(y)$ voisinage de $x$ et $[a(y),b(y)]$ voisinage de $y$ tel que pour\n$(x',y') \\in U(y)\\times [a(y),b(y)]$ on ait $|f(x,y)-f(x',y')|\\le \\epsilon$.\nComme $[0,1] \\subset  \\bigcup_{y\\in[0,1]} [a(y),b(y)]$ et que $[0,1]$ est un compact de $\\Rr$ il existe un ensemble fini $\\mathcal{Y}$ tel que \n$[0,1] \\subset  \\bigcup_{y\\in \\mathcal{Y}} [a(y),b(y)]$. De plus quitte à\nréduire les intervalles ont peut supposer qu'il sont disjoints et quitte à les réordonner on peut supposer que ce recouvrement s'écrit :\n$$[0,1] = [0,t_1] \\cup [t_1,t_2] \\cup \\ldots [t_k,1].$$\nNotons $U = \\bigcap_{y\\in \\mathcal{Y}} U(y)$, c'est un voisinage de $x$\ncar l'intersection est finie. Pour $x'\\in U$ nous avons\n$$\\begin{align*}\n  |g(x)-g(x')| &= \\left| \\int_0^1 f(x,y)dy - \\int_0^1 f(x',y)dy\\right| \\\\\n               &\\le \\int_0^1 |f(x,y)-f(x',y)| dy \\\\\n               &\\le \\int_0^{t_1}  |f(x,y)-f(x',y)| dy + \\int_{t_1}^{t_2}  \\cdots + \\int_{t_k}^{1}  |f(x,y)-f(x',y)| dy \\\\\n               &\\le \\epsilon(t_1-0) + \\epsilon(t_2-t_1)+\\cdots +\\epsilon(1-t_k) \\\\\n                &\\le \\epsilon \\\\\n\\end{align*}$$\nDonc $g$ est continue.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(y\\in [0,1]\\)</span> <span\nclass=\"math inline\">\\(f\\)</span> est continue en <span\nclass=\"math inline\">\\((x,y)\\)</span> donc il existe un <span\nclass=\"math inline\">\\(U(y)\\)</span> voisinage de <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\([a(y),b(y)]\\)</span> voisinage de <span\nclass=\"math inline\">\\(y\\)</span> tel que pour <span\nclass=\"math inline\">\\((x&#39;,y&#39;) \\in U(y)\\times\n[a(y),b(y)]\\)</span> on ait <span\nclass=\"math inline\">\\(|f(x,y)-f(x&#39;,y&#39;)|\\le \\epsilon\\)</span>.\nComme <span class=\"math inline\">\\([0,1] \\subset  \\bigcup_{y\\in[0,1]}\n[a(y),b(y)]\\)</span> et que <span class=\"math inline\">\\([0,1]\\)</span>\nest un compact de <span class=\"math inline\">\\(\\Rr\\)</span> il existe un\nensemble fini <span class=\"math inline\">\\(\\mathcal{Y}\\)</span> tel que\n<span class=\"math inline\">\\([0,1] \\subset  \\bigcup_{y\\in \\mathcal{Y}}\n[a(y),b(y)]\\)</span>. De plus quitte à réduire les intervalles ont peut\nsupposer qu’il sont disjoints et quitte à les réordonner on peut\nsupposer que ce recouvrement s’écrit : <span\nclass=\"math display\">\\[[0,1] = [0,t_1] \\cup [t_1,t_2] \\cup \\ldots\n[t_k,1].\\]</span> Notons <span class=\"math inline\">\\(U = \\bigcap_{y\\in\n\\mathcal{Y}} U(y)\\)</span>, c’est un voisinage de <span\nclass=\"math inline\">\\(x\\)</span> car l’intersection est finie. Pour\n<span class=\"math inline\">\\(x&#39;\\in U\\)</span> nous avons <span\nclass=\"math display\">\\[\\begin{align*}\n  |g(x)-g(x&#39;)| &amp;= \\left| \\int_0^1 f(x,y)dy - \\int_0^1\nf(x&#39;,y)dy\\right| \\\\\n               &amp;\\le \\int_0^1 |f(x,y)-f(x&#39;,y)| dy \\\\\n               &amp;\\le \\int_0^{t_1}  |f(x,y)-f(x&#39;,y)| dy +\n\\int_{t_1}^{t_2}  \\cdots + \\int_{t_k}^{1}  |f(x,y)-f(x&#39;,y)| dy \\\\\n               &amp;\\le \\epsilon(t_1-0) + \\epsilon(t_2-t_1)+\\cdots\n+\\epsilon(1-t_k) \\\\\n                &amp;\\le \\epsilon \\\\\n\\end{align*}\\]</span> Donc <span class=\"math inline\">\\(g\\)</span> est\ncontinue.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> un espace topologique et\n<span class=\"math inline\">\\(f:X\\times [0,1] \\to \\Rr\\)</span> continue.\nMontrer ..."
+}

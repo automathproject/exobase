@@ -1,0 +1,141 @@
+{
+  "uuid": "bkxg",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7725",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe fini",
+    "sousChapitre": "Groupe fini",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:03.088Z"
+  },
+  "contenu": [
+    {
+      "id": "8155dcde-a706-456c-aec8-c1d64a868d07",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "839905ab-b35d-4908-aa64-d68e3fb20075",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le centre de $SL(4,\\mathbb{F}_2)$ et calculer l'ordre de $PSL(4,\\mathbb{F}_2)$.",
+        "html": "<p>Déterminer le centre de <span\nclass=\"math inline\">\\(SL(4,\\mathbb{F}_2)\\)</span> et calculer l’ordre de\n<span class=\"math inline\">\\(PSL(4,\\mathbb{F}_2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "076c4726-fbc5-4ee4-868a-0414b805922d",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme le seul élément non nul de $\\mathbb{F}^2$ est $1$, $SL(4,\\mathbb{F}^2)=GL(4,\\mathbb{F}_2)$. Le centre de $GL(4,\\mathbb{F}_2)$ composé des homothéties inversibles est donc réduit à l'identité ainsi que celui de $SL(4,\\mathbb{F}_2)$. Ainsi, $|PSL(4,\\mathbb{F}^2)|=|GL(4,\\mathbb{F}^2)|=(2^4-1)(2^4-2)(2^4-2^2)(2^4-2^3)=15\\times 14\\times 12\\times 8=7\\times 5\\times 3^2\\times 2^6$.",
+        "html": "<p>Comme le seul élément non nul de <span\nclass=\"math inline\">\\(\\mathbb{F}^2\\)</span> est <span\nclass=\"math inline\">\\(1\\)</span>, <span\nclass=\"math inline\">\\(SL(4,\\mathbb{F}^2)=GL(4,\\mathbb{F}_2)\\)</span>. Le\ncentre de <span class=\"math inline\">\\(GL(4,\\mathbb{F}_2)\\)</span>\ncomposé des homothéties inversibles est donc réduit à l’identité ainsi\nque celui de <span class=\"math inline\">\\(SL(4,\\mathbb{F}_2)\\)</span>.\nAinsi, <span\nclass=\"math inline\">\\(|PSL(4,\\mathbb{F}^2)|=|GL(4,\\mathbb{F}^2)|=(2^4-1)(2^4-2)(2^4-2^2)(2^4-2^3)=15\\times\n14\\times 12\\times 8=7\\times 5\\times 3^2\\times 2^6\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c5006b14-c56e-411d-a88c-7b2730bcd905",
+      "type": "question",
+      "value": {
+        "latex": "Dans $SL(4,\\mathbb{F}_2)$ déterminer l'ordre de \r\n$$A=\\left[\\begin{array}{cccc}1&0&0&0\\\\0&1&0&0\\\\0&0&1&1\\\\0&0&0&1\r\n    \\end{array}\\right] \r\n\\textrm{ et de }\r\nB=\\left[\\begin{array}{cccc}1&1&0&0\\\\0&1&0&0\\\\0&0&1&1\\\\0&0&0&1\r\n    \\end{array}\\right]$$\r\nCes deux matrices sont-elles conjuguées dans $SL(4,\\mathbb{F}_2)$ ?",
+        "html": "<p>Dans <span class=\"math inline\">\\(SL(4,\\mathbb{F}_2)\\)</span>\ndéterminer l’ordre de <span\nclass=\"math display\">\\[A=\\left[\\begin{array}{cccc}1&amp;0&amp;0&amp;0\\\\0&amp;1&amp;0&amp;0\\\\0&amp;0&amp;1&amp;1\\\\0&amp;0&amp;0&amp;1\n    \\end{array}\\right]\n\\textrm{ et de }\nB=\\left[\\begin{array}{cccc}1&amp;1&amp;0&amp;0\\\\0&amp;1&amp;0&amp;0\\\\0&amp;0&amp;1&amp;1\\\\0&amp;0&amp;0&amp;1\n    \\end{array}\\right]\\]</span> Ces deux matrices sont-elles conjuguées\ndans <span class=\"math inline\">\\(SL(4,\\mathbb{F}_2)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "821a68fb-d3f6-4a14-af75-e535bb3f262a",
+      "type": "reponse",
+      "value": {
+        "latex": "Ces deux matrices sont d'ordre $2$.\r\n Elles ne sont pas conjuguées car la dimension des espaces propres de valeurs propres $1$ n'est pas la même pour les deux.",
+        "html": "<p>Ces deux matrices sont d’ordre <span\nclass=\"math inline\">\\(2\\)</span>. Elles ne sont pas conjuguées car la\ndimension des espaces propres de valeurs propres <span\nclass=\"math inline\">\\(1\\)</span> n’est pas la même pour les deux.</p>\n"
+      }
+    },
+    {
+      "id": "7d8cdb70-8561-4b3d-8258-4aac1b212265",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le centre de $SL(3,\\mathbb{F}_4)$ et calculer l'ordre de $PSL(3,\\mathbb{F}_4)$.",
+        "html": "<p>Déterminer le centre de <span\nclass=\"math inline\">\\(SL(3,\\mathbb{F}_4)\\)</span> et calculer l’ordre de\n<span class=\"math inline\">\\(PSL(3,\\mathbb{F}_4)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "99b4dfa2-fbd4-42e8-affc-307330d96542",
+      "type": "reponse",
+      "value": {
+        "latex": "Tous les éléments de $\\mathbb{F}^\\times_4$ sont des racines $3$-ième d'unité par le théorème de Lagrange. Par conséquent toutes les homothéties inversibles sont dans le centre de $SL(3,\\mathbb{F}_4)$.\r\n Donc, \r\n $|PSL(3,\\mathbb{F}^4)=GL(3,\\mathbb{F}_4)/(3\\times 3)=(4^3-1)(4^3-4)(4^3-4^2)/9\r\n =63\\times 60\\times 48/9=7\\times 5\\times 3^2\\times 2^6$.",
+        "html": "<p>Tous les éléments de <span\nclass=\"math inline\">\\(\\mathbb{F}^\\times_4\\)</span> sont des racines\n<span class=\"math inline\">\\(3\\)</span>-ième d’unité par le théorème de\nLagrange. Par conséquent toutes les homothéties inversibles sont dans le\ncentre de <span class=\"math inline\">\\(SL(3,\\mathbb{F}_4)\\)</span>. Donc,\n<span\nclass=\"math inline\">\\(|PSL(3,\\mathbb{F}^4)=GL(3,\\mathbb{F}_4)/(3\\times\n3)=(4^3-1)(4^3-4)(4^3-4^2)/9\n=63\\times 60\\times 48/9=7\\times 5\\times 3^2\\times 2^6\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f80f40da-0bd6-4123-b2ca-25443579547f",
+      "type": "question",
+      "value": {
+        "latex": "Le but de cette question est de montrer que toutes les involutions de $PSL(3,\\mathbb{F}_4)$ sont des applications projectives associées à des transvections.\r\nSoit $F$ une homographie de $PSL(3,\\mathbb{F}_4)$ involutive (i.e. $F^2=Id\\in PSL(3,\\mathbb{F}_4)$) et $f\\in SL(3,\\mathbb{F}_4)$ telle que $P(f)=F$. \r\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "86c15900-33ef-475f-904a-675e56d5605a",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "5ff45adf-9ce3-4932-89d3-495dcaae1ea3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $P(f^3)=F$ et que $f^3$ est d'ordre $2$ dans $SL(3,\\mathbb{F}_4)$. On notera $g=f^3$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(P(f^3)=F\\)</span> et que\n<span class=\"math inline\">\\(f^3\\)</span> est d’ordre <span\nclass=\"math inline\">\\(2\\)</span> dans <span\nclass=\"math inline\">\\(SL(3,\\mathbb{F}_4)\\)</span>. On notera <span\nclass=\"math inline\">\\(g=f^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c5943315-60ff-4104-a2a2-1c46b87f782f",
+      "type": "reponse",
+      "value": {
+        "latex": "$P(f^3)=F^3=F$ car $F$ est une involution.\r\n $g=f^3$ n'est donc pas l'identité, mais $g^2=f^6=(f^2)^3=Id$ car $f^2$ est dans le centre de $SL(3,\\mathbb{F}_4)$ qui est d'ordre $3$.",
+        "html": "<p><span class=\"math inline\">\\(P(f^3)=F^3=F\\)</span> car <span\nclass=\"math inline\">\\(F\\)</span> est une involution. <span\nclass=\"math inline\">\\(g=f^3\\)</span> n’est donc pas l’identité, mais\n<span class=\"math inline\">\\(g^2=f^6=(f^2)^3=Id\\)</span> car <span\nclass=\"math inline\">\\(f^2\\)</span> est dans le centre de <span\nclass=\"math inline\">\\(SL(3,\\mathbb{F}_4)\\)</span> qui est d’ordre <span\nclass=\"math inline\">\\(3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3cfb53ed-7e8a-43fb-849a-387ffca6e029",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la caractéristique de $\\mathbb{F}_4$ ?\r\nMontrer que $(g-Id)^2=0$. Déterminer $\\dim Ker(g-Id)$ et $\\dim Im(g-Id)$.",
+        "html": "<p>Quelle est la caractéristique de <span\nclass=\"math inline\">\\(\\mathbb{F}_4\\)</span> ? Montrer que <span\nclass=\"math inline\">\\((g-Id)^2=0\\)</span>. Déterminer <span\nclass=\"math inline\">\\(\\dim Ker(g-Id)\\)</span> et <span\nclass=\"math inline\">\\(\\dim Im(g-Id)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0637aa84-27f7-4a9c-8cba-84b15875d7fa",
+      "type": "reponse",
+      "value": {
+        "latex": "Le corps $\\mathbb{F}_4$ est de caractéristique $2$. $(g-Id)^2=g^2-2g+Id=0$. Par conséquent, $\\dim Im(g-Id)\\leq\\dim Ker(g-Id)$ et $\\dim Im(g-Id)+\\dim Ker(g-Id)=3$. Comme $g\\not=Id$, $\\dim Ker(g-Id)=2$.",
+        "html": "<p>Le corps <span class=\"math inline\">\\(\\mathbb{F}_4\\)</span> est de\ncaractéristique <span class=\"math inline\">\\(2\\)</span>. <span\nclass=\"math inline\">\\((g-Id)^2=g^2-2g+Id=0\\)</span>. Par conséquent,\n<span class=\"math inline\">\\(\\dim Im(g-Id)\\leq\\dim Ker(g-Id)\\)</span> et\n<span class=\"math inline\">\\(\\dim Im(g-Id)+\\dim Ker(g-Id)=3\\)</span>.\nComme <span class=\"math inline\">\\(g\\not=Id\\)</span>, <span\nclass=\"math inline\">\\(\\dim Ker(g-Id)=2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c35db6dd-9254-4e66-9aee-289cdd1c17e4",
+      "type": "question",
+      "value": {
+        "latex": "Conclure.",
+        "html": "<p>Conclure.</p>\n"
+      }
+    },
+    {
+      "id": "92d2f0b0-1292-46c7-aa50-25e55ce786d7",
+      "type": "reponse",
+      "value": {
+        "latex": "Ainsi $g$ est un élément de $SL(3,\\mathbb{F}_4)$ qui admet un plan de points fixes. C'est donc une transvection.",
+        "html": "<p>Ainsi <span class=\"math inline\">\\(g\\)</span> est un élément de <span\nclass=\"math inline\">\\(SL(3,\\mathbb{F}_4)\\)</span> qui admet un plan de\npoints fixes. C’est donc une transvection.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer le centre de <span\nclass=\"math inline\">\\(SL(4,\\mathbb{F}_2)\\)</span> et calculer l’ordre de\n<span class=\"math inline\"> ..."
+}

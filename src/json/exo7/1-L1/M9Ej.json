@@ -1,0 +1,77 @@
+{
+  "uuid": "M9Ej",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "290",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "uMmuJ-TCa6U",
+    "chapitre": "Arithmétique dans Z",
+    "sousChapitre": "Pgcd, ppcm, algorithme d'Euclide",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:57.685Z"
+  },
+  "contenu": [
+    {
+      "id": "3bc4a08e-450b-4fa3-9e3b-34c37b0ef09d",
+      "type": "description",
+      "value": {
+        "latex": "Calculer le pgcd des nombres suivants :",
+        "html": "<p>Calculer le pgcd des nombres suivants :</p>\n"
+      }
+    },
+    {
+      "id": "5aedd6b8-1d5c-47df-a301-d9b78e2cd50c",
+      "type": "question",
+      "value": {
+        "latex": "126, 230.",
+        "html": "<p>126, 230.</p>\n"
+      }
+    },
+    {
+      "id": "c37fc4f3-682c-447c-a249-9e790ed80156",
+      "type": "reponse",
+      "value": {
+        "latex": "$126 = 2.3^2.7$ et $230 = 2.5.23$ donc le pgcd de $126$ et $230$ est $2$.",
+        "html": "<p><span class=\"math inline\">\\(126 = 2.3^2.7\\)</span> et <span\nclass=\"math inline\">\\(230 = 2.5.23\\)</span> donc le pgcd de <span\nclass=\"math inline\">\\(126\\)</span> et <span\nclass=\"math inline\">\\(230\\)</span> est <span\nclass=\"math inline\">\\(2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a01396f1-c23a-43b6-8068-0ec4ebb34090",
+      "type": "question",
+      "value": {
+        "latex": "390, 720, 450.",
+        "html": "<p>390, 720, 450.</p>\n"
+      }
+    },
+    {
+      "id": "0743b980-f75b-4cef-9158-1333eebb7e63",
+      "type": "reponse",
+      "value": {
+        "latex": "$390 = 2.3.5.13$, $720 = 2^4.3^2.5$, $450 = 2.3^2.5^2$ et donc le pgcd de ces trois nombres est\n$2.3.5=30$.",
+        "html": "<p><span class=\"math inline\">\\(390 = 2.3.5.13\\)</span>, <span\nclass=\"math inline\">\\(720 = 2^4.3^2.5\\)</span>, <span\nclass=\"math inline\">\\(450 = 2.3^2.5^2\\)</span> et donc le pgcd de ces\ntrois nombres est <span class=\"math inline\">\\(2.3.5=30\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f715f21-e0a1-443d-b1e8-2f469b8045f9",
+      "type": "question",
+      "value": {
+        "latex": "180, 606, 750.",
+        "html": "<p>180, 606, 750.</p>\n"
+      }
+    },
+    {
+      "id": "9161fec2-d9fe-44de-a913-a488c3bb67d3",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\pgcd(180,606,750) = 6$.",
+        "html": "<p><span class=\"math inline\">\\(\\pgcd(180,606,750) = 6\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer le pgcd des nombres suivants :</p>\n"
+}

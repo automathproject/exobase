@@ -1,0 +1,55 @@
+{
+  "uuid": "FIgO",
+  "titre": "Loi d'un couple",
+  "theme": [
+    "loi conjointe"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-02-07",
+    "hasIndication": true,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:20.866Z"
+  },
+  "contenu": [
+    {
+      "id": "757911ff-7302-4c7f-808d-24d5601fab77",
+      "type": "description",
+      "value": {
+        "latex": "On considère un fast food muni de $N$ comptoirs. Le nombre de personnes se présentant en une heure au fast food est $X$ suivant une loi de poisson $\\mathscr{P}(\\lambda)$ avec $\\lambda >0$. Pour commander son sandwich, chaque personne choisit un comptoir au hasard, de manière équiprobable. On note $Y$ le nombre de personnes se présentant au comptoir numéro 1. On note $Y_i$ le nombre de personnes se présentant au comptoir numéro $i$.",
+        "html": "<p>On considère un fast food muni de <span\nclass=\"math inline\">\\(N\\)</span> comptoirs. Le nombre de personnes se\nprésentant en une heure au fast food est <span\nclass=\"math inline\">\\(X\\)</span> suivant une loi de poisson <span\nclass=\"math inline\">\\(\\mathscr{P}(\\lambda)\\)</span> avec <span\nclass=\"math inline\">\\(\\lambda &gt;0\\)</span>. Pour commander son\nsandwich, chaque personne choisit un comptoir au hasard, de manière\néquiprobable. On note <span class=\"math inline\">\\(Y\\)</span> le nombre\nde personnes se présentant au comptoir numéro 1. On note <span\nclass=\"math inline\">\\(Y_i\\)</span> le nombre de personnes se présentant\nau comptoir numéro <span class=\"math inline\">\\(i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6510c0b6-bf73-4693-bda7-3dc846a5667f",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est  la loi de $Y_1$ ?",
+        "html": "<p>Quelle est la loi de <span class=\"math inline\">\\(Y_1\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "ae3715a1-9a98-4a04-90b1-aa4625d6ee50",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le coefficient de corrélation linéaire de $(Y_i,Y_j)$.",
+        "html": "<p>Calculer le coefficient de corrélation linéaire de <span\nclass=\"math inline\">\\((Y_i,Y_j)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "26e78cc4-1fa0-45d3-a6dc-2368f4034c0c",
+      "type": "indication",
+      "value": {
+        "latex": "On pourra tout d'abord calculer la loi $Y$ conditionnée par $X$, puis la loi mutuelle $(X,Y)$.",
+        "html": "<p>On pourra tout d’abord calculer la loi <span\nclass=\"math inline\">\\(Y\\)</span> conditionnée par <span\nclass=\"math inline\">\\(X\\)</span>, puis la loi mutuelle <span\nclass=\"math inline\">\\((X,Y)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère un fast food muni de <span\nclass=\"math inline\">\\(N\\)</span> comptoirs. Le nombre de personnes se\nprésentant en une heure au fast food  ..."
+}

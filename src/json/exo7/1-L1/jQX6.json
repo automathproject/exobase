@@ -1,0 +1,45 @@
+{
+  "uuid": "jQX6",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "996",
+    "auteur": "legall",
+    "createdAt": "1998-09-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "Pmhg9aR10aA",
+    "chapitre": "Espace vectoriel",
+    "sousChapitre": "Base",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:43.148Z"
+  },
+  "contenu": [
+    {
+      "id": "5a1d37ef-ee54-495d-8fc7-b045c5d93e07",
+      "type": "description",
+      "value": {
+        "latex": "D\\'eterminer pour quelles valeurs de $ t\\in {\\Rr} $ les\nvecteurs  \n$$\\big\\{(1, 0, t),  (1, 1, t), (t,0,1)\\big\\}$$\nforment une base de  $\\Rr^3$.",
+        "html": "<p>Déterminer pour quelles valeurs de <span class=\"math inline\">\\(t\\in\n{\\Rr}\\)</span> les vecteurs <span class=\"math display\">\\[\\big\\{(1, 0,\nt),  (1, 1, t), (t,0,1)\\big\\}\\]</span> forment une base de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "36059211-ceff-4848-b6e2-23ecb317ca1d",
+      "type": "indication",
+      "value": {
+        "latex": "C'est une base pour $t\\neq \\pm 1$.",
+        "html": "<p>C’est une base pour <span class=\"math inline\">\\(t\\neq \\pm\n1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cd839ee1-18cf-4807-8532-0e0d2d0cf00d",
+      "type": "reponse",
+      "value": {
+        "latex": "Quand le nombre de vecteurs égal la dimension de l'espace  nous avons les équivalences, entre \n\\emph{être une famille libre} et \\emph{être une famille génératrice} et donc aussi \\emph{être une base}.\n\nTrois vecteurs dans $\\Rr^3$ forment donc une base si et seulement s'ils forment une famille libre.\nVérifions quand c'est le cas.\n\n\n$$\\begin{align*}\n      & a (1, 0, t) + b (1, 1, t) + c (t,0,1) = (0,0,0) \\\\\n\\iff  & (a+b+tc,b,at+bt+c)=(0,0,0) \\\\\n\\iff  & \\begin{cases}\n         a+b+tc = 0 \\\\\n         b = 0 \\\\\n         at+bt+c = 0 \\\\\n        \\end{cases} \n\\iff \\begin{cases}\n         b = 0 \\\\\n         a+tc = 0 \\\\\n         at+c = 0 \\\\\n        \\end{cases} \\\\\n\\iff & \\begin{cases}\n         b = 0 \\\\\n         a=-tc \\\\\n         (-tc)t+c = 0 \\\\\n        \\end{cases} \n\\iff \\begin{cases}\n         b = 0 \\\\\n         a=-tc \\\\\n         (t^2-1)c = 0 \\\\\n        \\end{cases} \\\\\n\\end{align*}$$\n\nPremier cas : si $t\\neq \\pm 1$. Alors $t^2-1 \\neq 0$ et donc\nla seule solution du système est $(a=0,b=0,c=0)$.\nDans ce cas la famille est libre et est donc aussi une base.\n\n\nDeuxième cas : si $t=\\pm1$. Alors la dernière ligne du système disparaît\net il existe des solutions non triviales (par exemple si $t=1$, $(a=1,b=0,c=-1)$ est une solution).\nLa famille n'est pas libre et n'est donc pas une base.",
+        "html": "<p>Quand le nombre de vecteurs égal la dimension de l’espace nous avons\nles équivalences, entre <em>être une famille libre</em> et <em>être une\nfamille génératrice</em> et donc aussi <em>être une base</em>.</p>\n<p>Trois vecteurs dans <span class=\"math inline\">\\(\\Rr^3\\)</span>\nforment donc une base si et seulement s’ils forment une famille libre.\nVérifions quand c’est le cas.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n      &amp; a (1, 0, t) + b (1, 1, t) + c (t,0,1) = (0,0,0) \\\\\n\\iff  &amp; (a+b+tc,b,at+bt+c)=(0,0,0) \\\\\n\\iff  &amp; \\begin{cases}\n         a+b+tc = 0 \\\\\n         b = 0 \\\\\n         at+bt+c = 0 \\\\\n        \\end{cases}\n\\iff \\begin{cases}\n         b = 0 \\\\\n         a+tc = 0 \\\\\n         at+c = 0 \\\\\n        \\end{cases} \\\\\n\\iff &amp; \\begin{cases}\n         b = 0 \\\\\n         a=-tc \\\\\n         (-tc)t+c = 0 \\\\\n        \\end{cases}\n\\iff \\begin{cases}\n         b = 0 \\\\\n         a=-tc \\\\\n         (t^2-1)c = 0 \\\\\n        \\end{cases} \\\\\n\\end{align*}\\]</span></p>\n<p>Premier cas : si <span class=\"math inline\">\\(t\\neq \\pm 1\\)</span>.\nAlors <span class=\"math inline\">\\(t^2-1 \\neq 0\\)</span> et donc la seule\nsolution du système est <span\nclass=\"math inline\">\\((a=0,b=0,c=0)\\)</span>. Dans ce cas la famille est\nlibre et est donc aussi une base.</p>\n<p>Deuxième cas : si <span class=\"math inline\">\\(t=\\pm1\\)</span>. Alors\nla dernière ligne du système disparaît et il existe des solutions non\ntriviales (par exemple si <span class=\"math inline\">\\(t=1\\)</span>,\n<span class=\"math inline\">\\((a=1,b=0,c=-1)\\)</span> est une solution).\nLa famille n’est pas libre et n’est donc pas une base.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer pour quelles valeurs de <span class=\"math inline\">\\(t\\in\n{\\Rr}\\)</span> les vecteurs <span class=\"math display\"> ..."
+}

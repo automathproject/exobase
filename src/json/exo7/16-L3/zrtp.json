@@ -1,0 +1,29 @@
+{
+  "uuid": "zrtp",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2862",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:26.279Z"
+  },
+  "contenu": [
+    {
+      "id": "bc417398-fb47-4c80-a47a-e6b3ff442e2e",
+      "type": "description",
+      "value": {
+        "latex": "Que vaut $\\Gamma(\\frac12) = \\int_0^\\infty\n\\frac{e^{-t}}{\\sqrt t}dt$? (faire un changement de variable\n$t=\\pi u^2$ pour se ramener à la Gaussienne). En considérant\nun contour passant par l'axe réel, puis un quart\nde cercle, puis l'axe imaginaire, puis un petit quart de\ncercle évitant l'origine prouver:\n\\[ \\int_0^\\infty\n\\frac{e^{-t}}{\\sqrt t}dt =\n\\exp(i\\frac\\pi4)\\int_0^\\infty\\frac{e^{-ix}}{\\sqrt x}dx\\] et\nen déduire les valeurs des intégrales  $\\int_0^\\infty\n\\frac{\\cos x}{\\sqrt x}dx$ et $\\int_0^\\infty \\frac{\\sin\nx}{\\sqrt x}dx$ (qui ne sont que semi-convergentes).\nComparer aux intégrales de Fresnel.",
+        "html": "<p>Que vaut <span class=\"math inline\">\\(\\Gamma(\\frac12) = \\int_0^\\infty\n\\frac{e^{-t}}{\\sqrt t}dt\\)</span>? (faire un changement de variable\n<span class=\"math inline\">\\(t=\\pi u^2\\)</span> pour se ramener à la\nGaussienne). En considérant un contour passant par l’axe réel, puis un\nquart de cercle, puis l’axe imaginaire, puis un petit quart de cercle\névitant l’origine prouver: <span class=\"math display\">\\[\\int_0^\\infty\n\\frac{e^{-t}}{\\sqrt t}dt =\n\\exp(i\\frac\\pi4)\\int_0^\\infty\\frac{e^{-ix}}{\\sqrt x}dx\\]</span> et en\ndéduire les valeurs des intégrales <span\nclass=\"math inline\">\\(\\int_0^\\infty\n\\frac{\\cos x}{\\sqrt x}dx\\)</span> et <span\nclass=\"math inline\">\\(\\int_0^\\infty \\frac{\\sin\nx}{\\sqrt x}dx\\)</span> (qui ne sont que semi-convergentes). Comparer aux\nintégrales de Fresnel.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Que vaut <span class=\"math inline\">\\(\\Gamma(\\frac12) = \\int_0^\\infty\n\\frac{e^{-t}}{\\sqrt t}dt\\)</span>? (faire un changement de variable\n<span clas ..."
+}

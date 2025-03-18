@@ -1,0 +1,97 @@
+{
+  "uuid": "B3ac",
+  "titre": "Calcul par approximation",
+  "theme": [
+    "loi de Poisson",
+    "loi normale",
+    "approximation de loi"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Maxime Nguyen",
+    "createdAt": "2023-09-18",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:53.829Z"
+  },
+  "contenu": [
+    {
+      "id": "ceeaae52-f245-49a6-9006-b08d31296869",
+      "type": "description",
+      "value": {
+        "latex": "L'observation a permis d'affirmer que le nombre d'étudiants qui entrent à la bibliothèque entre 9h00 et 10h30 suit une loi de Poisson de paramètre $16$ dont voici un extrait de la table:\n\t\\begin{center}\n\t\t\\begin{tabular}{|c|c|c|c|c|c|}\n\t\t\t\\hline\n\t\t\t$k$ & 14 & 15 & 16 & 17 & 18 \\\\\n\t\t\t\\hline\n\t\t\t$\\prob(X\\leq k)$ & $0.3675$ & $0.4667$ & $0.5660$ & $0.6593$ & $0.7423$ \\\\\n\t\t\t\\hline\n\t\t\\end{tabular}\n\t\\end{center}",
+        "html": "<p>L’observation a permis d’affirmer que le nombre d’étudiants qui\nentrent à la bibliothèque entre 9h00 et 10h30 suit une loi de Poisson de\nparamètre <span class=\"math inline\">\\(16\\)</span> dont voici un extrait\nde la table:</p>\n<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(k\\)</span></th>\n<th style=\"text-align: center;\">14</th>\n<th style=\"text-align: center;\">15</th>\n<th style=\"text-align: center;\">16</th>\n<th style=\"text-align: center;\">17</th>\n<th style=\"text-align: center;\">18</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\prob(X\\leq\nk)\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0.3675\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0.4667\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0.5660\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0.6593\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0.7423\\)</span></td>\n</tr>\n</tbody>\n</table>\n</div>\n"
+      }
+    },
+    {
+      "id": "1ba8ef98-3267-4515-a024-3c34270f8f71",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant le tableau ci-dessus, déterminer $\\prob(X=15)$.",
+        "html": "<p>En utilisant le tableau ci-dessus, déterminer <span\nclass=\"math inline\">\\(\\prob(X=15)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "033aa850-fa5b-456b-9ef2-ef3129feefff",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(X=15)=\\prob(X\\leq 15)-\\prob(X\\leq 14)=0.4667-0.3675 \\simeq 0,0992$.",
+        "html": "<p><span class=\"math inline\">\\(\\prob(X=15)=\\prob(X\\leq 15)-\\prob(X\\leq\n14)=0.4667-0.3675 \\simeq 0,0992\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6bc7ee61-b22d-4ce3-a0b1-13738228212c",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les paramètres de la loi normale que suit la variable aléatoire $Y$ qui approche $X$.",
+        "html": "<p>Déterminer les paramètres de la loi normale que suit la variable\naléatoire <span class=\"math inline\">\\(Y\\)</span> qui approche <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "97ca5eef-d642-4c1d-baf5-b443dc7e2f8e",
+      "type": "reponse",
+      "value": {
+        "latex": "$X$ peut être approchée par $Y$ qui suit la loi $\\mathcal{N}(\\mu=16,\\sigma^2=16)$.",
+        "html": "<p><span class=\"math inline\">\\(X\\)</span> peut être approchée par <span\nclass=\"math inline\">\\(Y\\)</span> qui suit la loi <span\nclass=\"math inline\">\\(\\mathcal{N}(\\mu=16,\\sigma^2=16)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "77d07f48-2a2f-4060-aa28-dfda4f12c5fb",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\alpha=\\prob(14.5\\leq Y\\leq 15.5)$. Quel est le lien entre $\\alpha$ et $\\prob(X=15)$ ?",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\alpha=\\prob(14.5\\leq Y\\leq\n15.5)\\)</span>. Quel est le lien entre <span\nclass=\"math inline\">\\(\\alpha\\)</span> et <span\nclass=\"math inline\">\\(\\prob(X=15)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "7fc615a9-83f8-4257-b7fd-947c4a8a41a4",
+      "type": "reponse",
+      "value": {
+        "latex": "On a\n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\alpha=\\prob(14.5\\leq Y\\leq 15.5)\n\t\t\t\t&= \\p\\left(\\frac{-1.5}{\\sqrt{16}}\\leq \\frac{Y-16}{\\sqrt{16}} \\leq \\frac{-0.5}{\\sqrt{16}} \\right) \\\\\n\t\t\t\t&= \\prob(-0.375\\leq Z\\leq -0.125), \\quad \\text{ où } Z \\sim \\mathcal{N}(0,1) \\\\\n\t\t\t\t&= \\prob(0.125\\leq Z\\leq 0.375) \\\\\n\t\t\t\t&= \\prob(Z\\leq 0.375)-\\prob(Z\\leq 0.125) \\\\\n\t\t\t\t&= 0.64615-0.54975 \\\\\n\t\t\t\t&= 0.0964\n\t\t\t\t\\end{align*}$$\n\t\t\t\t$\\alpha$ est une approximation (avec correction de continuité) de $\\prob(X=15)$. En effet,\n\t\t\t\t\\[ \\prob(X=15)=\\prob(14.5\\leq X\\leq 15.5) \\simeq \\prob(14.5\\leq Y\\leq 15.5).\n\t\t\t\t\\]",
+        "html": "<p>On a <span class=\"math display\">\\[\\begin{align*}\n                \\alpha=\\prob(14.5\\leq Y\\leq 15.5)\n                &amp;= \\p\\left(\\frac{-1.5}{\\sqrt{16}}\\leq\n\\frac{Y-16}{\\sqrt{16}} \\leq \\frac{-0.5}{\\sqrt{16}} \\right) \\\\\n                &amp;= \\prob(-0.375\\leq Z\\leq -0.125), \\quad \\text{ où }\nZ \\sim \\mathcal{N}(0,1) \\\\\n                &amp;= \\prob(0.125\\leq Z\\leq 0.375) \\\\\n                &amp;= \\prob(Z\\leq 0.375)-\\prob(Z\\leq 0.125) \\\\\n                &amp;= 0.64615-0.54975 \\\\\n                &amp;= 0.0964\n                \\end{align*}\\]</span> <span\nclass=\"math inline\">\\(\\alpha\\)</span> est une approximation (avec\ncorrection de continuité) de <span\nclass=\"math inline\">\\(\\prob(X=15)\\)</span>. En effet, <span\nclass=\"math display\">\\[\\prob(X=15)=\\prob(14.5\\leq X\\leq 15.5) \\simeq\n\\prob(14.5\\leq Y\\leq 15.5).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1c37d9ac-1040-422a-a39d-5b5f764f6ce4",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer une approximation de $\\prob(15\\leq X\\leq 20)$.",
+        "html": "<p>Déterminer une approximation de <span\nclass=\"math inline\">\\(\\prob(15\\leq X\\leq 20)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e5e72f49-bf98-449f-b330-652169db5f51",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{align*}\n\t\t\t\\prob(15\\leq X\\leq 20)\n\t\t\t&=\\prob(14.5\\leq X\\leq 20.5) \\\\\n\t\t\t&\\simeq \\prob(14.5\\leq Y\\leq 20.5) \\\\\n\t\t\t& \\simeq \\p\\left(-0.375 \\leq \\frac{Y-16}{4}\\leq 1.125\\right) \\\\\n\t\t\t& \\simeq \\prob(Z\\leq 1.125) - \\prob(Z\\leq -0.375) \\\\\n\t\t\t& \\simeq \\prob(Z\\leq 1.125) -(1-\\prob(Z\\leq 0.375)) \\\\\n\t\t\t& \\simeq 0.8697 -1 + 0.64615\\\\\n\t\t\t&\\simeq 0.51585\n\t\t\t\\end{align*}$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{align*}\n            \\prob(15\\leq X\\leq 20)\n            &amp;=\\prob(14.5\\leq X\\leq 20.5) \\\\\n            &amp;\\simeq \\prob(14.5\\leq Y\\leq 20.5) \\\\\n            &amp; \\simeq \\p\\left(-0.375 \\leq \\frac{Y-16}{4}\\leq\n1.125\\right) \\\\\n            &amp; \\simeq \\prob(Z\\leq 1.125) - \\prob(Z\\leq -0.375) \\\\\n            &amp; \\simeq \\prob(Z\\leq 1.125) -(1-\\prob(Z\\leq 0.375)) \\\\\n            &amp; \\simeq 0.8697 -1 + 0.64615\\\\\n            &amp;\\simeq 0.51585\n            \\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>L’observation a permis d’affirmer que le nombre d’étudiants qui\nentrent à la bibliothèque entre 9h00 et 10h30 suit une loi de Poisson de\nparamètre  ..."
+}

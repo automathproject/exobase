@@ -1,0 +1,45 @@
+{
+  "uuid": "NNAA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3657",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace vectoriel",
+    "sousChapitre": "Somme directe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:05.228Z"
+  },
+  "contenu": [
+    {
+      "id": "482b0f2a-fca9-4fa6-992c-f6c6f71b6fb9",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un $ K$-ev, $E_1,\\dots,E_n$ des sev tels que\n$E_1 \\oplus \\dots \\oplus E_n = E$.\nSoient $u_1 \\in \\mathcal{L}({E_1}),\\dots,u_n \\in \\mathcal{L}({E_n})$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(K\\)</span>-ev, <span\nclass=\"math inline\">\\(E_1,\\dots,E_n\\)</span> des sev tels que <span\nclass=\"math inline\">\\(E_1 \\oplus \\dots \\oplus E_n = E\\)</span>. Soient\n<span class=\"math inline\">\\(u_1 \\in \\mathcal{L}({E_1}),\\dots,u_n \\in\n\\mathcal{L}({E_n})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "33673e97-81ba-44c6-86ff-eac5ffa8f6b5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe un unique endomorphisme $u \\in \\mathcal{L}(E)$ tel que pour tout\n    $i$ : $u_{|F_i} = u_i$.",
+        "html": "<p>Montrer qu’il existe un unique endomorphisme <span\nclass=\"math inline\">\\(u \\in \\mathcal{L}(E)\\)</span> tel que pour tout\n<span class=\"math inline\">\\(i\\)</span> : <span\nclass=\"math inline\">\\(u_{|F_i} = u_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a14a6c0d-8156-49fe-b50c-b62a51844a1e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\mathrm{Ker}(u) = \\mathrm{Ker}(u_1) \\oplus \\dots \\oplus \\mathrm{Ker}(u_n)$ et\n        $\\Im (u) = \\Im (u_1) \\oplus \\dots \\oplus \\Im (u_n)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathrm{Ker}(u) =\n\\mathrm{Ker}(u_1) \\oplus \\dots \\oplus \\mathrm{Ker}(u_n)\\)</span> et\n<span class=\"math inline\">\\(\\Im (u) = \\Im (u_1) \\oplus \\dots \\oplus \\Im\n(u_n)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(K\\)</span>-ev, <span\nclass=\"math inline\">\\(E_1,\\dots,E_n\\)</span> des se ..."
+}

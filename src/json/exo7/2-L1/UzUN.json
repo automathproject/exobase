@@ -1,0 +1,61 @@
+{
+  "uuid": "UzUN",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4425",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:57.230Z"
+  },
+  "contenu": [
+    {
+      "id": "7f4cc5fb-32ff-4721-8ee9-4cb43dd640b9",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(a_n)$ une suite réelle positive.\nOn pose $u_n = \\frac {a_n}{(1+a_1)(1+a_2)\\dots(1+a_n)}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite réelle\npositive. On pose <span class=\"math inline\">\\(u_n = \\frac\n{a_n}{(1+a_1)(1+a_2)\\dots(1+a_n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cc4cca8b-4284-49f3-9717-7b3d547f30f4",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la série $\\sum u_n$ converge.",
+        "html": "<p>Montrer que la série <span class=\"math inline\">\\(\\sum u_n\\)</span>\nconverge.</p>\n"
+      }
+    },
+    {
+      "id": "b0f1d112-5d03-42c6-ab39-dc5d8bc444a5",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_1 + \\dots + u_n = 1 - \\frac1{(1+a_1)\\dots(1+a_n)} \\le 1$.",
+        "html": "<p><span class=\"math inline\">\\(u_1 + \\dots + u_n = 1 -\n\\frac1{(1+a_1)\\dots(1+a_n)} \\le 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3d58fca9-05e8-47f9-aa83-a0109939af2e",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\sum_{n=1}^\\infty u_n$ lorsque $a_n = \\frac 1{\\sqrt n}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\sum_{n=1}^\\infty u_n\\)</span>\nlorsque <span class=\"math inline\">\\(a_n = \\frac 1{\\sqrt n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e9c38523-22c5-447b-acd3-dcdcef84a02c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\ln\\bigl((1+a_1)\\dots(1+a_n)\\bigr)\n              = \\sum_{k=1}^n \\ln\\left(1+\\frac1{\\sqrt k}\\right)\n              \\to +\\infty  \\Rightarrow  \\sum u_n = 1$ lorsque $n\\to\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(\\ln\\bigl((1+a_1)\\dots(1+a_n)\\bigr)\n              = \\sum_{k=1}^n \\ln\\left(1+\\frac1{\\sqrt k}\\right)\n              \\to +\\infty  \\Rightarrow  \\sum u_n = 1\\)</span> lorsque\n<span class=\"math inline\">\\(n\\to\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite réelle\npositive. On pose <span class=\"math inline\"> ..."
+}

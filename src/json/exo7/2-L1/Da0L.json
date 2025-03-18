@@ -1,0 +1,61 @@
+{
+  "uuid": "Da0L",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3953",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dérivabilité des fonctions réelles",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:13.908Z"
+  },
+  "contenu": [
+    {
+      "id": "6bd13024-6aaa-4342-aba8-45f83f2a221e",
+      "type": "description",
+      "value": {
+        "latex": "On pose $f(t) = (t^2-1)^n$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(t) = (t^2-1)^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "460034ab-2bcb-4d02-84e8-1530bd1df4af",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que : $\\forall\\ k \\in \\{0,\\dots,n-1\\},\\ f^{(k)}(1) = f^{(k)}(-1) = 0$.",
+        "html": "<p>Montrer que : <span class=\"math inline\">\\(\\forall\\ k \\in\n\\{0,\\dots,n-1\\},\\ f^{(k)}(1) = f^{(k)}(-1) = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0e81580b-72a7-416f-b548-b7c5dee2f261",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $f^{(n)}(1)$ et $f^{(n)}(-1)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(f^{(n)}(1)\\)</span> et <span\nclass=\"math inline\">\\(f^{(n)}(-1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "587abebd-d0a0-4dcf-93bb-c80fe47df659",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f^{(n)}$ s'annule au moins $n$ fois dans l'intervalle $]-1,1[$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f^{(n)}\\)</span> s’annule au\nmoins <span class=\"math inline\">\\(n\\)</span> fois dans l’intervalle\n<span class=\"math inline\">\\(]-1,1[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c3a05d62-3850-4761-8f5f-4d6e1e9477ea",
+      "type": "reponse",
+      "value": {
+        "latex": "$f^{(n)}(1) = 2^nn!$, $f^{(n)}(-1) = (-2)^nn!$.",
+        "html": "<p><span class=\"math inline\">\\(f^{(n)}(1) = 2^nn!\\)</span>, <span\nclass=\"math inline\">\\(f^{(n)}(-1) = (-2)^nn!\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(f(t) = (t^2-1)^n\\)</span>.</p>\n"
+}

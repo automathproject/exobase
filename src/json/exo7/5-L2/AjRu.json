@@ -1,0 +1,301 @@
+{
+  "uuid": "AjRu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4565",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Rayon de convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:42.537Z"
+  },
+  "contenu": [
+    {
+      "id": "8a2682d9-e765-4dda-bc8f-b0c2595b7594",
+      "type": "description",
+      "value": {
+        "latex": "Trouver le rayon de convergence de la série entière $\\sum a_nz^n$ :",
+        "html": "<p>Trouver le rayon de convergence de la série entière <span\nclass=\"math inline\">\\(\\sum a_nz^n\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "fefcc55a-6d7c-48d9-bdc2-e86600f1a953",
+      "type": "question",
+      "value": {
+        "latex": "$a_n \\to \\ell \\ne 0$ lorsque $n\\to\\infty$",
+        "html": "<p><span class=\"math inline\">\\(a_n \\to \\ell \\ne 0\\)</span> lorsque <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f7e931b9-74a9-42eb-8e99-4b57b4e46634",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9e02be4c-401f-4a7e-88ea-76e1f0d8920e",
+      "type": "question",
+      "value": {
+        "latex": "$(a_n)$ est périodique non nulle.\\par",
+        "html": "<p><span class=\"math inline\">\\((a_n)\\)</span> est périodique non\nnulle.</p>\n"
+      }
+    },
+    {
+      "id": "d4f2cec2-8a14-42de-8f66-5337a1049d89",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "72ff9574-f70a-4bc8-b5c1-5a94ece68077",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = \\sum_{d\\mid n} d^2$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = \\sum_{d\\mid n} d^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac255072-0a87-4c8a-ab6a-ec2e8ffc2fbb",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "655c9759-e9fd-4f6c-b387-342f15255183",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = \\frac{n^n}{n!}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = \\frac{n^n}{n!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8cb2dca3-7811-4e73-95d5-217fd47bb00f",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=\\frac1e$.",
+        "html": "<p><span class=\"math inline\">\\(R=\\frac1e\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8fba2141-23ae-494f-92d2-fa4d6fb38118",
+      "type": "question",
+      "value": {
+        "latex": "$a_{2n} = a^n$, $a_{2n+1} = b^n$,\\par $0<a<b$.",
+        "html": "<p><span class=\"math inline\">\\(a_{2n} = a^n\\)</span>, <span\nclass=\"math inline\">\\(a_{2n+1} = b^n\\)</span>,</p>\n<p><span class=\"math inline\">\\(0&lt;a&lt;b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "21dc34e5-a956-4cd6-a042-8fe887e2ec3b",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=\\frac1{\\sqrt b}$.",
+        "html": "<p><span class=\"math inline\">\\(R=\\frac1{\\sqrt b}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7ee43c38-ce62-4a1e-be7d-80061720e558",
+      "type": "question",
+      "value": {
+        "latex": "$a_{n^2} = n!$, $a_k = 0$ si $\\sqrt k \\notin\\N$.",
+        "html": "<p><span class=\"math inline\">\\(a_{n^2} = n!\\)</span>, <span\nclass=\"math inline\">\\(a_k = 0\\)</span> si <span\nclass=\"math inline\">\\(\\sqrt k \\notin\\N\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e503aa75-4e09-4c7b-97bd-42432ec09ea7",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3b07571f-e747-4fd3-8685-e159ad1192ad",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = (\\ln n)^{-\\ln n}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = (\\ln n)^{-\\ln n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bad7154d-c008-49d4-a2cb-15fc20674d67",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8c24e42c-401b-435b-b788-5e81dd8b9510",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = e^{\\sqrt n}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = e^{\\sqrt n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "80263fa0-5fe0-4e19-a0c3-51be0289d688",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "588b8d9f-0685-4733-82db-eaa8df1bed59",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = \\frac{1.4.7\\dots(3n-2)}{n!}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n =\n\\frac{1.4.7\\dots(3n-2)}{n!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "20a89a58-dc70-41c8-8488-31c788875c2e",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=\\frac13$.",
+        "html": "<p><span class=\"math inline\">\\(R=\\frac13\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "11641a03-0426-4ab8-9321-13358bf1a08c",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = \\frac1{\\sqrt n^{\\sqrt n}}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = \\frac1{\\sqrt n^{\\sqrt\nn}}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b90fb05-f2bd-48fc-b195-7bd5ea2ca3b6",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bde0602d-96e9-4370-88f3-881b25cb117a",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = \\left(1+\\frac12+\\dots+\\frac1n\\right)^{\\ln n}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n =\n\\left(1+\\frac12+\\dots+\\frac1n\\right)^{\\ln n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ba356e6c-2c5d-45e2-8d79-4950a588d4a8",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1ef9c4fb-5961-499b-8208-b8c60e5b7fd1",
+      "type": "question",
+      "value": {
+        "latex": "$a_{n+2} = 2a_{n+1} + a_n$,\\par\\nobreak $a_0=a_1=1$.",
+        "html": "<p><span class=\"math inline\">\\(a_{n+2} = 2a_{n+1} + a_n\\)</span>,</p>\n<p><span class=\"math inline\">\\(a_0=a_1=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6cf7f40e-3488-4d5f-803a-9e501714c837",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=\\sqrt2-1$.",
+        "html": "<p><span class=\"math inline\">\\(R=\\sqrt2-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "54bad455-9bcd-4018-b0b0-b47d0a478ef8",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = C_{kn}^n$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = C_{kn}^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "442a0e17-8f47-4ad8-9dd4-e23fd579bcd1",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=\\frac{(k-1)^{k-1}}{k^k}$.",
+        "html": "<p><span class=\"math inline\">\\(R=\\frac{(k-1)^{k-1}}{k^k}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9c1a7df4-ad69-4767-9e7f-3f44fafceb30",
+      "type": "question",
+      "value": {
+        "latex": "$a_n = e^{(n+1)^2} - e^{(n-1)^2}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n = e^{(n+1)^2} -\ne^{(n-1)^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e70186e0-4c12-4e7f-b390-9444d665a8c4",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=0$.",
+        "html": "<p><span class=\"math inline\">\\(R=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dd4bb4ac-1708-414e-8fdf-d17ab1f36743",
+      "type": "question",
+      "value": {
+        "latex": "$a_n =  \\int_{t=0}^1 (1+t^2)^n\\,d t$.",
+        "html": "<p><span class=\"math inline\">\\(a_n =  \\int_{t=0}^1 (1+t^2)^n\\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1fd16681-990c-413c-a90b-9d03ce36dc12",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=\\frac12$, $2t\\le 1+t^2\\le2$.",
+        "html": "<p><span class=\"math inline\">\\(R=\\frac12\\)</span>, <span\nclass=\"math inline\">\\(2t\\le 1+t^2\\le2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f84d4540-1ba6-474b-b7d5-702236e6af0e",
+      "type": "question",
+      "value": {
+        "latex": "$a_n=\\sqrt[n]n-\\sqrt[{n+1}]{n+1}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(a_n=\\sqrt[n]n-\\sqrt[{n+1}]{n+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "547ecd40-27a5-4310-9f33-09ce7965854b",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$, $a_n\\sim\\frac{\\ln n}{n^2}$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>, <span\nclass=\"math inline\">\\(a_n\\sim\\frac{\\ln n}{n^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ef2406b1-2795-4716-a340-995b80763afd",
+      "type": "question",
+      "value": {
+        "latex": "$a_n=\\frac{\\cos n\\theta}{\\sqrt n+(-1)^n}$.",
+        "html": "<p><span class=\"math inline\">\\(a_n=\\frac{\\cos n\\theta}{\\sqrt\nn+(-1)^n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e64816c6-0608-4e6b-afb4-9c397f96c586",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Trouver le rayon de convergence de la série entière <span\nclass=\"math inline\">\\(\\sum a_nz^n\\)</span> :</p>\n"
+}

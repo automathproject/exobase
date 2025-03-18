@@ -1,0 +1,45 @@
+{
+  "uuid": "Jyth",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "150",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "RDbMQTxMIuA",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Absurde et contraposée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:50.220Z"
+  },
+  "contenu": [
+    {
+      "id": "b9d951b3-ed5c-43fc-922e-ac5c4b5b8380",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(f_n)_{n\\in\\Nn}$ une suite d'applications de\nl'ensemble $\\Nn$ dans lui-m\\^eme. On d\\'efinit une application $f$\nde $\\Nn$ dans $\\Nn$ en posant $f(n)=f_n(n)+1$. D\\'emontrer qu'il\nn'existe aucun $p\\in \\Nn$ tel que $f=f_p$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((f_n)_{n\\in\\Nn}\\)</span> une suite\nd’applications de l’ensemble <span class=\"math inline\">\\(\\Nn\\)</span>\ndans lui-même. On définit une application <span\nclass=\"math inline\">\\(f\\)</span> de <span\nclass=\"math inline\">\\(\\Nn\\)</span> dans <span\nclass=\"math inline\">\\(\\Nn\\)</span> en posant <span\nclass=\"math inline\">\\(f(n)=f_n(n)+1\\)</span>. Démontrer qu’il n’existe\naucun <span class=\"math inline\">\\(p\\in \\Nn\\)</span> tel que <span\nclass=\"math inline\">\\(f=f_p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8fce4b09-bb33-4bee-b64a-d7c5c79d5c8f",
+      "type": "indication",
+      "value": {
+        "latex": "Par l'absurde, supposer qu'il existe $p\\in \\Nn$ tel que $f=f_p$.\nPuis pour un tel $p$, \\'evaluer $f$ et $f_p$ en une valeur bien choisie.",
+        "html": "<p>Par l’absurde, supposer qu’il existe <span class=\"math inline\">\\(p\\in\n\\Nn\\)</span> tel que <span class=\"math inline\">\\(f=f_p\\)</span>. Puis\npour un tel <span class=\"math inline\">\\(p\\)</span>, évaluer <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(f_p\\)</span> en une valeur bien choisie.</p>\n"
+      }
+    },
+    {
+      "id": "ec652601-3aa8-492e-a58d-d36d7e1e3513",
+      "type": "reponse",
+      "value": {
+        "latex": "Par l'absurde, supposons qu'il existe $p\\in \\Nn$ tel que $f=f_p$.\nDeux applications sont \\'egales si et seulement si elles prennent\nles m\\^emes valeurs.\n$$\\forall n\\in \\Nn\\ \\ f(n) = f_p(n).$$\nEn particulier pour $n=p$, $f(p)=f_p(p)$. D'autre part la\nd\\'efinition de $f$ nous donne $f(p) = f_p(p)+1$. Nous obtenons\nune contradiction car $f(p)$ ne peut prendre deux valeurs\ndistinctes. En conclusion, quelque soit $p\\in \\Nn$, $f\\not= f_p$.",
+        "html": "<p>Par l’absurde, supposons qu’il existe <span\nclass=\"math inline\">\\(p\\in \\Nn\\)</span> tel que <span\nclass=\"math inline\">\\(f=f_p\\)</span>. Deux applications sont égales si\net seulement si elles prennent les mêmes valeurs. <span\nclass=\"math display\">\\[\\forall n\\in \\Nn\\ \\ f(n) = f_p(n).\\]</span> En\nparticulier pour <span class=\"math inline\">\\(n=p\\)</span>, <span\nclass=\"math inline\">\\(f(p)=f_p(p)\\)</span>. D’autre part la définition\nde <span class=\"math inline\">\\(f\\)</span> nous donne <span\nclass=\"math inline\">\\(f(p) = f_p(p)+1\\)</span>. Nous obtenons une\ncontradiction car <span class=\"math inline\">\\(f(p)\\)</span> ne peut\nprendre deux valeurs distinctes. En conclusion, quelque soit <span\nclass=\"math inline\">\\(p\\in \\Nn\\)</span>, <span\nclass=\"math inline\">\\(f\\not= f_p\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((f_n)_{n\\in\\Nn}\\)</span> une suite\nd’applications de l’ensemble <span class=\"math inline\">\\(\\Nn\\)</span>\ndans lui- ..."
+}

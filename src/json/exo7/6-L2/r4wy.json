@@ -1,0 +1,37 @@
+{
+  "uuid": "r4wy",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5834",
+    "auteur": "rouget",
+    "createdAt": "2010-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Conique",
+    "sousChapitre": "Quadrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:14.935Z"
+  },
+  "contenu": [
+    {
+      "id": "a9d088ce-3b84-4bba-81f2-2f7c801d09d3",
+      "type": "description",
+      "value": {
+        "latex": "Equation du cylindre $(\\mathcal{C})$ de section droite la courbe $(C)$ d'équations $\\left\\{\n\\begin{array}{l}\nz=x\\\\\n2x^2+y^2=1\n\\end{array}\n\\right.$",
+        "html": "<p>Equation du cylindre <span\nclass=\"math inline\">\\((\\mathcal{C})\\)</span> de section droite la courbe\n<span class=\"math inline\">\\((C)\\)</span> d’équations <span\nclass=\"math inline\">\\(\\left\\{\n\\begin{array}{l}\nz=x\\\\\n2x^2+y^2=1\n\\end{array}\n\\right.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "90d8f589-37fd-4c74-9e8b-aac1c3953a2f",
+      "type": "reponse",
+      "value": {
+        "latex": "La direction du cylindre est orthogonale au plan d'équation $z=x$ et est donc engendrée par le vecteur $\\overrightarrow{u}(1,0,-1)$.\n\n$$\\begin{align*}\\ensuremath\nM(x,y,z)\\in(\\mathcal{C})&\\Leftrightarrow\\exists\\lambda\\in\\Rr,\\;\\exists m\\in(C)/\\;M =m+\\lambda\\overrightarrow{u}\\Leftrightarrow\\exists\\lambda\\in\\Rr,\\;\\exists(X,Y,Z)\\in\\Rr^3/\\;\\left\\{\n\\begin{array}{l}\nx=X-\\lambda\\\\\ny=Y\\\\\nz=Z+\\lambda\\\\\nZ=X\\\\\n2X^2+Y^2=1\n\\end{array}\n\\right. \\\\\n &\\Leftrightarrow \\exists\\lambda\\in\\Rr/\\;\\left\\{\n\\begin{array}{l}\nz-\\lambda=x+\\lambda\\\\\n2(x+\\lambda)^2+y^2=1\n\\end{array}\n\\right.  \\\\\n &\\Leftrightarrow 2\\left(x+ \\frac{1}{2}(z-x)\\right)^2+y^2 =1\\Leftrightarrow (x+z)^2+2y^2 = 2.\n\\end{align*}$$",
+        "html": "<p>La direction du cylindre est orthogonale au plan d’équation <span\nclass=\"math inline\">\\(z=x\\)</span> et est donc engendrée par le vecteur\n<span class=\"math inline\">\\(\\overrightarrow{u}(1,0,-1)\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\\ensuremath\nM(x,y,z)\\in(\\mathcal{C})&amp;\\Leftrightarrow\\exists\\lambda\\in\\Rr,\\;\\exists\nm\\in(C)/\\;M\n=m+\\lambda\\overrightarrow{u}\\Leftrightarrow\\exists\\lambda\\in\\Rr,\\;\\exists(X,Y,Z)\\in\\Rr^3/\\;\\left\\{\n\\begin{array}{l}\nx=X-\\lambda\\\\\ny=Y\\\\\nz=Z+\\lambda\\\\\nZ=X\\\\\n2X^2+Y^2=1\n\\end{array}\n\\right. \\\\\n&amp;\\Leftrightarrow \\exists\\lambda\\in\\Rr/\\;\\left\\{\n\\begin{array}{l}\nz-\\lambda=x+\\lambda\\\\\n2(x+\\lambda)^2+y^2=1\n\\end{array}\n\\right.  \\\\\n&amp;\\Leftrightarrow 2\\left(x+ \\frac{1}{2}(z-x)\\right)^2+y^2\n=1\\Leftrightarrow (x+z)^2+2y^2 = 2.\n\\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Equation du cylindre <span\nclass=\"math inline\">\\((\\mathcal{C})\\)</span> de section droite la courbe\n<span class=\"math inline\">\\((C)\\)</span> d’équa ..."
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "jlqU",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7611",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:04.103Z"
+  },
+  "contenu": [
+    {
+      "id": "6bcf4c1b-57b1-4e7f-b5cd-e74c72528cf8",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "ea48dbc8-764b-4002-aee4-ddf428de61eb",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\sum_{n\\geq 1}a_nz^n$ une série entière convergente (avec un rayon de convergence strictement positif).\r\nDéterminer le rayon de convergence de la série $\\sum_{n\\geq 1}\\frac{a_n}{n!}z^n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\sum_{n\\geq 1}a_nz^n\\)</span> une\nsérie entière convergente (avec un rayon de convergence strictement\npositif). Déterminer le rayon de convergence de la série <span\nclass=\"math inline\">\\(\\sum_{n\\geq 1}\\frac{a_n}{n!}z^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aa6306e6-616a-48c1-a673-838d1c3ea3b7",
+      "type": "reponse",
+      "value": {
+        "latex": "On note $R$ le rayon de convergence de la série entière $\\sum_{n\\geq 1}a_nz^n$ et $r\\in]0,R[$. \r\nOn sait alors que $(a_n r^n)_{n\\in\\Nn}$ est une suite bornée en module.\r\nSoit $z\\in\\Cc$\r\n$$\\left|\\frac{a_n}{n!}z^n\\right|\\leq \\left|a_n r^n\\right| \\frac{\\left|\\frac{z}{r}\\right|^n}{n!}$$\r\nest le terme général d'une suite bornée en module car $\\frac{\\left|\\frac{z}{r}\\right|^n}{n!}$ \r\nest borné.\r\nPar conséquent, $\\sum_{n\\geq 1}\\frac{a_n}{n!}z^n$ a un rayon de convergence infini.",
+        "html": "<p>On note <span class=\"math inline\">\\(R\\)</span> le rayon de\nconvergence de la série entière <span class=\"math inline\">\\(\\sum_{n\\geq\n1}a_nz^n\\)</span> et <span class=\"math inline\">\\(r\\in]0,R[\\)</span>. On\nsait alors que <span class=\"math inline\">\\((a_n r^n)_{n\\in\\Nn}\\)</span>\nest une suite bornée en module. Soit <span\nclass=\"math inline\">\\(z\\in\\Cc\\)</span> <span\nclass=\"math display\">\\[\\left|\\frac{a_n}{n!}z^n\\right|\\leq \\left|a_n\nr^n\\right| \\frac{\\left|\\frac{z}{r}\\right|^n}{n!}\\]</span> est le terme\ngénéral d’une suite bornée en module car <span\nclass=\"math inline\">\\(\\frac{\\left|\\frac{z}{r}\\right|^n}{n!}\\)</span> est\nborné. Par conséquent, <span class=\"math inline\">\\(\\sum_{n\\geq\n1}\\frac{a_n}{n!}z^n\\)</span> a un rayon de convergence infini.</p>\n"
+      }
+    },
+    {
+      "id": "5c0ea19d-6300-456e-9842-8ffe4d671cc3",
+      "type": "question",
+      "value": {
+        "latex": "Soit deux séries entières centrées en $0$ de rayon de convergence $R>0$ et de somme respective $f$ et $g$.\r\nOn suppose que pour tout $x\\in]-R,R[, f(x)=g(x).$ Montrer que pour tout $z\\in\\Delta_r, f(z)=g(z)$.",
+        "html": "<p>Soit deux séries entières centrées en <span\nclass=\"math inline\">\\(0\\)</span> de rayon de convergence <span\nclass=\"math inline\">\\(R&gt;0\\)</span> et de somme respective <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span>. On suppose que pour tout <span\nclass=\"math inline\">\\(x\\in]-R,R[, f(x)=g(x).\\)</span> Montrer que pour\ntout <span class=\"math inline\">\\(z\\in\\Delta_r, f(z)=g(z)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "613e5ed1-37f0-42a1-8c05-a03d7045b8ee",
+      "type": "reponse",
+      "value": {
+        "latex": "L'application $f-g$ est somme sur $\\Delta_r$ connexe d'une série entière centrée en $0$ et s'annule sur l'ensemble non discret $]-R,R[$.\r\nPar le principe des zéros isolés, $f=g$ sur $\\Delta_r$.",
+        "html": "<p>L’application <span class=\"math inline\">\\(f-g\\)</span> est somme sur\n<span class=\"math inline\">\\(\\Delta_r\\)</span> connexe d’une série\nentière centrée en <span class=\"math inline\">\\(0\\)</span> et s’annule\nsur l’ensemble non discret <span class=\"math inline\">\\(]-R,R[\\)</span>.\nPar le principe des zéros isolés, <span\nclass=\"math inline\">\\(f=g\\)</span> sur <span\nclass=\"math inline\">\\(\\Delta_r\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "58e5ce9a-b8e5-453f-aac3-37c959073da9",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que pour tout $a\\in \\Rr$, et pour tout $z\\in\\Cc$, $\\sin(a+z)=\\sin(a)\\cos (z)+\\cos(a)\\sin (z).$",
+        "html": "<p>En déduire que pour tout <span class=\"math inline\">\\(a\\in\n\\Rr\\)</span>, et pour tout <span class=\"math inline\">\\(z\\in\\Cc\\)</span>,\n<span class=\"math inline\">\\(\\sin(a+z)=\\sin(a)\\cos (z)+\\cos(a)\\sin\n(z).\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "12cbe5e8-8b64-4cae-816a-b365adde02d4",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $a\\in\\Rr$. Les deux applications $z\\mapsto \\sin(a+z)$ et $z\\mapsto \\sin(a)\\cos (z)+\\cos(a)\\sin (z)$ sont développables en séries entières\r\nsur $\\Cc$ et coïncident sur $\\Rr$ par la formule d'addition des sinus sur $\\Rr$.\r\nPar la question précédente, elles coïncident sur $\\Cc$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in\\Rr\\)</span>. Les deux\napplications <span class=\"math inline\">\\(z\\mapsto \\sin(a+z)\\)</span> et\n<span class=\"math inline\">\\(z\\mapsto \\sin(a)\\cos (z)+\\cos(a)\\sin\n(z)\\)</span> sont développables en séries entières sur <span\nclass=\"math inline\">\\(\\Cc\\)</span> et coïncident sur <span\nclass=\"math inline\">\\(\\Rr\\)</span> par la formule d’addition des sinus\nsur <span class=\"math inline\">\\(\\Rr\\)</span>. Par la question\nprécédente, elles coïncident sur <span\nclass=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\sum_{n\\geq 1}a_nz^n\\)</span> une\nsérie entière convergente (avec un rayon de convergence strictement\npositif). Dé ..."
+}

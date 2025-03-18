@@ -1,0 +1,61 @@
+{
+  "uuid": "6utI",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4222",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Théorie",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:57.663Z"
+  },
+  "contenu": [
+    {
+      "id": "9cd5adcb-3257-4d84-881f-f4fee5721ee6",
+      "type": "description",
+      "value": {
+        "latex": "Soient ${f,g} : {[a,b]} \\to \\R$ continues, $f$ positive.",
+        "html": "<p>Soient <span class=\"math inline\">\\({f,g} : {[a,b]} \\to \\R\\)</span>\ncontinues, <span class=\"math inline\">\\(f\\)</span> positive.</p>\n"
+      }
+    },
+    {
+      "id": "27ce6af9-c851-41e3-bf7e-87038f94d179",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer qu'il existe $c \\in {[a,b]}$ tel que\n    $ \\int_{t=a}^b f(t)g(t)\\,d t = g(c) \\int_{t=a}^b f(t)\\,d t$.",
+        "html": "<p>Démontrer qu’il existe <span class=\"math inline\">\\(c \\in\n{[a,b]}\\)</span> tel que <span class=\"math inline\">\\(\\int_{t=a}^b\nf(t)g(t)\\,d t = g(c) \\int_{t=a}^b f(t)\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ff2d8abc-e563-4c35-918b-9395b421a87d",
+      "type": "question",
+      "value": {
+        "latex": "Si $f$ ne s'annule pas, montrer que $c \\in {]a,b[}$.",
+        "html": "<p>Si <span class=\"math inline\">\\(f\\)</span> ne s’annule pas, montrer\nque <span class=\"math inline\">\\(c \\in {]a,b[}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7d359b1d-ef20-4c0b-987c-169dd61070a1",
+      "type": "question",
+      "value": {
+        "latex": "Application : Soit $f$ continue au voisinage de $0$. Déterminer\n    $\\lim_{x\\to 0}\\frac1{x^2} \\int_{t=0}^x tf(t)\\,d t$.",
+        "html": "<p>Application : Soit <span class=\"math inline\">\\(f\\)</span> continue au\nvoisinage de <span class=\"math inline\">\\(0\\)</span>. Déterminer <span\nclass=\"math inline\">\\(\\lim_{x\\to 0}\\frac1{x^2} \\int_{t=0}^x tf(t)\\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "821c4ee1-5cd9-450e-9847-a7d22f1d0dee",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac12f(0)$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac12f(0)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\({f,g} : {[a,b]} \\to \\R\\)</span>\ncontinues, <span class=\"math inline\">\\(f\\)</span> positive.</p>\n"
+}

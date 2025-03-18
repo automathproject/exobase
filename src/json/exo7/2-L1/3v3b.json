@@ -1,0 +1,125 @@
+{
+  "uuid": "3v3b",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "818",
+    "auteur": "ridde",
+    "createdAt": "1999-11-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégration par parties",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:46.357Z"
+  },
+  "contenu": [
+    {
+      "id": "d813840c-d80f-46e1-8245-b73f6b9dc5b9",
+      "type": "description",
+      "value": {
+        "latex": "Soit $I_{n} = \\int_0^{\\frac{\\pi}2} \\sin ^n tdt$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(I_{n} = \\int_0^{\\frac{\\pi}2} \\sin ^n\ntdt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c9cee835-858b-4816-bb28-38fcac5ac174",
+      "type": "question",
+      "value": {
+        "latex": "\\'Etablir une relation de r\\'ecurrence entre $I_{n}$ et $I_{n + 2}$.",
+        "html": "<p>Établir une relation de récurrence entre <span\nclass=\"math inline\">\\(I_{n}\\)</span> et <span class=\"math inline\">\\(I_{n\n+ 2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "884f5d4a-dcb7-4777-817c-13e34b1c1ef0",
+      "type": "reponse",
+      "value": {
+        "latex": "Par IPP, $I_{n+2} = \\frac{n+1}{n+2} I_n$.",
+        "html": "<p>Par IPP, <span class=\"math inline\">\\(I_{n+2} = \\frac{n+1}{n+2}\nI_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bf1ea5f3-e768-4993-86ad-1791a60310ca",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire $I_{2p}$ et $I_{2p + 1}$.",
+        "html": "<p>En déduire <span class=\"math inline\">\\(I_{2p}\\)</span> et <span\nclass=\"math inline\">\\(I_{2p + 1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5078e43d-e97c-4286-8a59-7745816119e9",
+      "type": "reponse",
+      "value": {
+        "latex": "$I_0 = \\pi/2$ et $I_1 = 1$ et\n\\[ \nI_{2p} = \\frac{ (2p-1) \\times (2p-3) \\times \\cdots \\times 1}{2p \\times (2p-2) \\times \\cdots \\times 2} I_0\n= \\frac{(2p)!}{2^{2p} (p!)^2} \\frac{\\pi}{2} ,\\quad\nI_{2p+1} = \\frac{2p \\times (2p-2) \\times \\cdots \\times 2}{ (2p+1) \\times (2p-1) \\times \\cdots \\times 1} I_1\n= \\frac{2^{2p} (p!)^2}{(2p+1)!}\n\\]",
+        "html": "<p><span class=\"math inline\">\\(I_0 = \\pi/2\\)</span> et <span\nclass=\"math inline\">\\(I_1 = 1\\)</span> et <span\nclass=\"math display\">\\[I_{2p} = \\frac{ (2p-1) \\times (2p-3) \\times\n\\cdots \\times 1}{2p \\times (2p-2) \\times \\cdots \\times 2} I_0\n= \\frac{(2p)!}{2^{2p} (p!)^2} \\frac{\\pi}{2} ,\\quad\nI_{2p+1} = \\frac{2p \\times (2p-2) \\times \\cdots \\times 2}{ (2p+1) \\times\n(2p-1) \\times \\cdots \\times 1} I_1\n= \\frac{2^{2p} (p!)^2}{(2p+1)!}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "6acf3dd2-6402-49e1-9bae-f6127ecfd312",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $ (I_{n})_{n \\in \\Nn}$ est d\\'ecroissante et strictement positive.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\((I_{n})_{n \\in \\Nn}\\)</span>\nest décroissante et strictement positive.</p>\n"
+      }
+    },
+    {
+      "id": "9ca126f1-a289-4a4a-b6a5-e88985a5a808",
+      "type": "reponse",
+      "value": {
+        "latex": "En regardant l'intégrand.",
+        "html": "<p>En regardant l’intégrand.</p>\n"
+      }
+    },
+    {
+      "id": "5b784d91-e38c-4e6d-8cdc-03d5c7dd4b63",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que $I_{n} \\sim I_{n + 1}$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(I_{n} \\sim I_{n +\n1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "24273978-6472-486e-9f5c-659225ef0f96",
+      "type": "reponse",
+      "value": {
+        "latex": "D'après la question précédente, $0 < I_{n+2} \\leq I_{n+1} \\leq I_n$ donc\n\\[\n\\frac{n+1}{n+2} = \\frac{I_{n+2}}{I_n} \\leq \\frac{I_{n+1}}{I_n} \\leq 1\n\\]\npar conséquent $\\frac{I_{n+1}}{I_n} \\xrightarrow[n\\to \\infty]{} 1$.",
+        "html": "<p>D’après la question précédente, <span class=\"math inline\">\\(0 &lt;\nI_{n+2} \\leq I_{n+1} \\leq I_n\\)</span> donc <span\nclass=\"math display\">\\[\\frac{n+1}{n+2} = \\frac{I_{n+2}}{I_n} \\leq\n\\frac{I_{n+1}}{I_n} \\leq 1\\]</span> par conséquent <span\nclass=\"math inline\">\\(\\frac{I_{n+1}}{I_n} \\xrightarrow[n\\to \\infty]{}\n1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "48d624a3-ce73-4867-a860-33698aeec74f",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $nI_{n}I_{n + 1}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(nI_{n}I_{n + 1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "60183350-ae43-4707-94b2-a216885ba4a0",
+      "type": "reponse",
+      "value": {
+        "latex": "\\[\n(2p-1) I_{2p-1} I_{2p} = \\frac{2p-1}{2 p} \\frac{\\pi}{2}\n, \\quad\n2p I_{2p} I_{2p+1} = \\frac{2p}{2p+1} \\frac{\\pi}{2}\n\\]\nsoit $n I_n I_{n+1} = \\frac{n}{n+1} \\frac{\\pi}{2}$, ce qui peut aussi se démontrer par récurrence.",
+        "html": "<p><span class=\"math display\">\\[(2p-1) I_{2p-1} I_{2p} = \\frac{2p-1}{2\np} \\frac{\\pi}{2}\n, \\quad\n2p I_{2p} I_{2p+1} = \\frac{2p}{2p+1} \\frac{\\pi}{2}\\]</span> soit <span\nclass=\"math inline\">\\(n I_n I_{n+1} = \\frac{n}{n+1}\n\\frac{\\pi}{2}\\)</span>, ce qui peut aussi se démontrer par\nrécurrence.</p>\n"
+      }
+    },
+    {
+      "id": "07574205-0123-4391-a73a-dd61e04b0425",
+      "type": "question",
+      "value": {
+        "latex": "Donner alors un \\'equivalent simple de $I_{n}$.",
+        "html": "<p>Donner alors un équivalent simple de <span\nclass=\"math inline\">\\(I_{n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b89096c8-8430-492b-af9f-57e48f50218f",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $\\frac{\\pi}{2(n+1)} I_n I_{n+1} \\sim I_n^2$ on en déduit que $I_n \\sim \\sqrt{\\frac{\\pi}{2n}}$.",
+        "html": "<p>Comme <span class=\"math inline\">\\(\\frac{\\pi}{2(n+1)} I_n I_{n+1} \\sim\nI_n^2\\)</span> on en déduit que <span class=\"math inline\">\\(I_n \\sim\n\\sqrt{\\frac{\\pi}{2n}}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(I_{n} = \\int_0^{\\frac{\\pi}2} \\sin ^n\ntdt\\)</span>.</p>\n"
+}

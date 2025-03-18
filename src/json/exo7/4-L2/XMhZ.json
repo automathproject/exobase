@@ -1,0 +1,37 @@
+{
+  "uuid": "XMhZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3012",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Anneau",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:59.515Z"
+  },
+  "contenu": [
+    {
+      "id": "43f5d894-ed53-4922-9941-2bbbe87d59e2",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ un anneau et $a,b\\in A$. Montrer que $1-ab\\in A^* \\Leftrightarrow 1-ba \\in A^*$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau et <span\nclass=\"math inline\">\\(a,b\\in A\\)</span>. Montrer que <span\nclass=\"math inline\">\\(1-ab\\in A^* \\Leftrightarrow 1-ba \\in\nA^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3758ec77-a45a-4135-91ec-d66e0fe6dc88",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $(1-ab)c = 1 = c(1-ab)$ alors $abc  = c-1 = cab$\ndonc $babca = bca-ba = bcaba$ soit $ba(1+bca) = bca = (1+bca)ba$ donc\n$1+bca$ est inverse de $1-ba$.",
+        "html": "<p>Si <span class=\"math inline\">\\((1-ab)c = 1 = c(1-ab)\\)</span> alors\n<span class=\"math inline\">\\(abc  = c-1 = cab\\)</span> donc <span\nclass=\"math inline\">\\(babca = bca-ba = bcaba\\)</span> soit <span\nclass=\"math inline\">\\(ba(1+bca) = bca = (1+bca)ba\\)</span> donc <span\nclass=\"math inline\">\\(1+bca\\)</span> est inverse de <span\nclass=\"math inline\">\\(1-ba\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau et <span\nclass=\"math inline\">\\(a,b\\in A\\)</span>. Montrer que <span\nclass=\"math inline\"> ..."
+}

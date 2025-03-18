@@ -1,0 +1,47 @@
+{
+  "uuid": "YuII",
+  "titre": "Test d'une variance",
+  "theme": [
+    "tests d'hypothèses"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-11-27",
+    "hasIndication": false,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:28.758Z"
+  },
+  "contenu": [
+    {
+      "id": "803f13c2-ea82-48ea-9f01-16b8ad890058",
+      "type": "description",
+      "value": {
+        "latex": "Un laboratoire vient d'acquérir une nouvelle balance et on souhaite comparer la régularité du travail de cette dernière pour de très petites pesées à la norme habituelle du descriptif pour laquelle la variance $\\sigma_0^2$ est égale à $4 g^2$. On prélève alors un échantillon de 30 masses dont les valeurs (en grammes) sont données ci-après :\n2.53 ; 1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ; 0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ; 2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88\n\nOn suppose que les masses sont distribuées selon une loi normale.",
+        "html": "<p>Un laboratoire vient d’acquérir une nouvelle balance et on souhaite\ncomparer la régularité du travail de cette dernière pour de très petites\npesées à la norme habituelle du descriptif pour laquelle la variance\n<span class=\"math inline\">\\(\\sigma_0^2\\)</span> est égale à <span\nclass=\"math inline\">\\(4 g^2\\)</span>. On prélève alors un échantillon de\n30 masses dont les valeurs (en grammes) sont données ci-après : 2.53 ;\n1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ;\n0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ;\n2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88</p>\n<p>On suppose que les masses sont distribuées selon une loi normale.</p>\n"
+      }
+    },
+    {
+      "id": "0e091eda-5cff-48f0-897f-d351e0a62034",
+      "type": "question",
+      "value": {
+        "latex": "Au risque de $5\\%$, peut-on affirmer que la variance de l'échantillon est conforme à la norme du descriptif ?",
+        "html": "<p>Au risque de <span class=\"math inline\">\\(5\\%\\)</span>, peut-on\naffirmer que la variance de l’échantillon est conforme à la norme du\ndescriptif ?</p>\n"
+      }
+    },
+    {
+      "id": "91b5138e-2b0a-49bf-bb27-ed83c055570f",
+      "type": "description",
+      "value": {
+        "latex": "Indication : ce test n'est pas détaillé dans le cours. Pour le mettre en place, on pourra définir une variable de décision en s'appuyant sur le fait que si $X_1,...,X_n$ est un $n$-échantillon dont la loi mère est une loi normale $\\mathcal{N}(\\mu,\\sigma^2)$ et $\\overline{X}$ la moyenne empirique de l'échantillon, alors la variable aléatoire \n$$S =  \\sum_{i=1}^{n} \\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2$$\nsuit une loi $\\chi^2(n-1)$.",
+        "html": "<p>Indication : ce test n’est pas détaillé dans le cours. Pour le mettre\nen place, on pourra définir une variable de décision en s’appuyant sur\nle fait que si <span class=\"math inline\">\\(X_1,...,X_n\\)</span> est un\n<span class=\"math inline\">\\(n\\)</span>-échantillon dont la loi mère est\nune loi normale <span\nclass=\"math inline\">\\(\\mathcal{N}(\\mu,\\sigma^2)\\)</span> et <span\nclass=\"math inline\">\\(\\overline{X}\\)</span> la moyenne empirique de\nl’échantillon, alors la variable aléatoire <span\nclass=\"math display\">\\[S =  \\sum_{i=1}^{n}\n\\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2\\]</span> suit une loi\n<span class=\"math inline\">\\(\\chi^2(n-1)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Un laboratoire vient d’acquérir une nouvelle balance et on souhaite\ncomparer la régularité du travail de cette dernière pour de très petites\npesées ..."
+}

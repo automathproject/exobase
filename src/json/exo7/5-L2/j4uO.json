@@ -1,0 +1,77 @@
+{
+  "uuid": "j4uO",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4544",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:49.682Z"
+  },
+  "contenu": [
+    {
+      "id": "5211f1b3-a5df-43ed-b9d7-aa8d475c75b1",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "3a42d221-8bf8-486f-945a-bcec9cbcd08e",
+      "type": "question",
+      "value": {
+        "latex": "Décomposer en éléments simples sur $\\C$ la fractions rationnelle~:\n    $F_n(X) = \\frac1{(1+X/n)^n-1}$.",
+        "html": "<p>Décomposer en éléments simples sur <span\nclass=\"math inline\">\\(\\C\\)</span> la fractions rationnelle : <span\nclass=\"math inline\">\\(F_n(X) = \\frac1{(1+X/n)^n-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c0a62bcf-0aef-46a9-9e6d-60986e249d0e",
+      "type": "reponse",
+      "value": {
+        "latex": "$F_n(X) = \\sum_{k=0}^{n-1}\\frac{e^{2ik\\pi/n}}{X+n(1-e^{2ik\\pi/n})}$.",
+        "html": "<p><span class=\"math inline\">\\(F_n(X) =\n\\sum_{k=0}^{n-1}\\frac{e^{2ik\\pi/n}}{X+n(1-e^{2ik\\pi/n})}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "458451b2-7b8f-48cd-a3fe-84ff3e9b421b",
+      "type": "question",
+      "value": {
+        "latex": "En déduire pour $x\\in\\R^*$~:\n    $\\coth x = \\frac1{e^{2x}-1} - \\frac1{e^{-2x}-1} = \\frac1x + \\sum_{k=1}^\\infty\\frac{2x}{x^2+k^2\\pi^2}$.",
+        "html": "<p>En déduire pour <span class=\"math inline\">\\(x\\in\\R^*\\)</span> : <span\nclass=\"math inline\">\\(\\coth x = \\frac1{e^{2x}-1} - \\frac1{e^{-2x}-1} =\n\\frac1x + \\sum_{k=1}^\\infty\\frac{2x}{x^2+k^2\\pi^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b7917fb3-6b5e-4839-b9bf-82bd7f10cada",
+      "type": "reponse",
+      "value": {
+        "latex": "$F_n(2x) - F_n(-2x) = \\sum_{k=0}^{n-1}\\frac{4xe^{2ik\\pi/n}}{4x^2-n^2(1-e^{2ik\\pi/n})^2}\n                        = \\sum_{k=0}^{n-1}\\frac{x}{x^2e^{-2ik\\pi/n}+n^2\\sin(k\\pi/n)^2}$.\n\n    Supposons $n$ impair, et regroupons les termes conjugués obtenus pour $k$ et $n-k$~:\n\n    $F_n(2x) - F_n(-2x) = \\frac1x + \\sum_{k=1}^{(n-1)/2}\\Bigl(\\underbrace{\n    \\frac{x}{x^2e^{-2ik\\pi/n}+n^2\\sin(k\\pi/n)^2} + \\frac{x}{x^2e^{2ik\\pi/n}+n^2\\sin(k\\pi/n)^2}\n    }_{=u(k,n,x)}\\Bigr)$.\n\n    On transforme la somme en série de $k=1$ à $k=\\infty$ en posant $u(k,n,x) = 0$\n    si $k>(n-1)/2$, puis on passe à la limite, sous réserve de justification,\n    dans cette série pour $n\\to\\infty$, ce qui donne la formule demandée.\n    \n    Justification de l'interversion limite-série~: en utilisant $\\sin(t)\\ge \\frac{2t}{\\pi}$\n    pour $0\\le t\\le \\frac{\\pi}2$ on a $|u(k,n,x)| \\le \\frac{2|x|}{4k^2-x^2}$ pour tout\n    $k\\ge |x/2|$, donc il y a convergence normale par rapport à $n$, à $x$ fixé.",
+        "html": "<p><span class=\"math inline\">\\(F_n(2x) - F_n(-2x) =\n\\sum_{k=0}^{n-1}\\frac{4xe^{2ik\\pi/n}}{4x^2-n^2(1-e^{2ik\\pi/n})^2}\n                        =\n\\sum_{k=0}^{n-1}\\frac{x}{x^2e^{-2ik\\pi/n}+n^2\\sin(k\\pi/n)^2}\\)</span>.</p>\n<p>Supposons <span class=\"math inline\">\\(n\\)</span> impair, et\nregroupons les termes conjugués obtenus pour <span\nclass=\"math inline\">\\(k\\)</span> et <span\nclass=\"math inline\">\\(n-k\\)</span> :</p>\n<p><span class=\"math inline\">\\(F_n(2x) - F_n(-2x) = \\frac1x +\n\\sum_{k=1}^{(n-1)/2}\\Bigl(\\underbrace{\n    \\frac{x}{x^2e^{-2ik\\pi/n}+n^2\\sin(k\\pi/n)^2} +\n\\frac{x}{x^2e^{2ik\\pi/n}+n^2\\sin(k\\pi/n)^2}\n    }_{=u(k,n,x)}\\Bigr)\\)</span>.</p>\n<p>On transforme la somme en série de <span\nclass=\"math inline\">\\(k=1\\)</span> à <span\nclass=\"math inline\">\\(k=\\infty\\)</span> en posant <span\nclass=\"math inline\">\\(u(k,n,x) = 0\\)</span> si <span\nclass=\"math inline\">\\(k&gt;(n-1)/2\\)</span>, puis on passe à la limite,\nsous réserve de justification, dans cette série pour <span\nclass=\"math inline\">\\(n\\to\\infty\\)</span>, ce qui donne la formule\ndemandée.</p>\n<p>Justification de l’interversion limite-série : en utilisant <span\nclass=\"math inline\">\\(\\sin(t)\\ge \\frac{2t}{\\pi}\\)</span> pour <span\nclass=\"math inline\">\\(0\\le t\\le \\frac{\\pi}2\\)</span> on a <span\nclass=\"math inline\">\\(|u(k,n,x)| \\le \\frac{2|x|}{4k^2-x^2}\\)</span> pour\ntout <span class=\"math inline\">\\(k\\ge |x/2|\\)</span>, donc il y a\nconvergence normale par rapport à <span\nclass=\"math inline\">\\(n\\)</span>, à <span\nclass=\"math inline\">\\(x\\)</span> fixé.</p>\n"
+      }
+    },
+    {
+      "id": "8a9710fe-a60c-40b3-aa3d-935c91951ab1",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la valeur de $\\zeta(2)$.",
+        "html": "<p>En déduire la valeur de <span\nclass=\"math inline\">\\(\\zeta(2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "afff2d10-79a4-46fa-8687-b12061e86687",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{k=1}^\\infty\\frac{2}{x^2+k^2\\pi^2} = \\frac{\\coth(x)}x-\\frac1{x^2}$\n    est normalement convergente sur $\\R$, on peut passer à la limite pour $x\\to 0$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{k=1}^\\infty\\frac{2}{x^2+k^2\\pi^2} =\n\\frac{\\coth(x)}x-\\frac1{x^2}\\)</span> est normalement convergente sur\n<span class=\"math inline\">\\(\\R\\)</span>, on peut passer à la limite pour\n<span class=\"math inline\">\\(x\\to 0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Décomposer en éléments simples sur <span\nclass=\"math inline\">\\(\\C\\)</span> la fractions rationnelle : <span\nclass=\"math inline\"> ..."
+}

@@ -1,0 +1,149 @@
+{
+  "uuid": "8Waq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7772",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Action de groupe",
+    "sousChapitre": "Action de groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:45.388Z"
+  },
+  "contenu": [
+    {
+      "id": "4ec118d1-61b8-488b-9977-1e8ac89cecce",
+      "type": "description",
+      "value": {
+        "latex": "Si $p$ et $q$ sont deux entiers naturels, on note $p\\wedge q$ le plus grand commun diviseur de $p$ et $q$, on note également $p|q$ si $p$ divise $q$. Si $m$ est un entier supérieur ou égal à 1, on note $\\Phi_m(X)$ le polynôme cyclotomique d’ordre $m$, $$\\Phi_m(X) =\\Pi_{\\{k\\in\\{1,..,m\\}/k\\wedge m=1\\}}(X-e^{2ik\\pi/m}).$$\r\nOn rappelle que $\\Phi_m(X)$ est un polynôme unitaire à coefficients entiers, irréductible dans $\\Qq[X]$. Le degré de $\\Phi_m(X)$ est $\\varphi(m)$ où $\\varphi$ est la fonction indicatrice d’Euler.\r\nOn rappelle enfin que $X^m-1 =\\Pi_{d|m}\\Phi_d(X$).",
+        "html": "<p>Si <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> sont deux entiers naturels, on note\n<span class=\"math inline\">\\(p\\wedge q\\)</span> le plus grand commun\ndiviseur de <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span>, on note également <span\nclass=\"math inline\">\\(p|q\\)</span> si <span\nclass=\"math inline\">\\(p\\)</span> divise <span\nclass=\"math inline\">\\(q\\)</span>. Si <span\nclass=\"math inline\">\\(m\\)</span> est un entier supérieur ou égal à 1, on\nnote <span class=\"math inline\">\\(\\Phi_m(X)\\)</span> le polynôme\ncyclotomique d’ordre <span class=\"math inline\">\\(m\\)</span>, <span\nclass=\"math display\">\\[\\Phi_m(X) =\\Pi_{\\{k\\in\\{1,..,m\\}/k\\wedge\nm=1\\}}(X-e^{2ik\\pi/m}).\\]</span> On rappelle que <span\nclass=\"math inline\">\\(\\Phi_m(X)\\)</span> est un polynôme unitaire à\ncoefficients entiers, irréductible dans <span\nclass=\"math inline\">\\(\\Qq[X]\\)</span>. Le degré de <span\nclass=\"math inline\">\\(\\Phi_m(X)\\)</span> est <span\nclass=\"math inline\">\\(\\varphi(m)\\)</span> où <span\nclass=\"math inline\">\\(\\varphi\\)</span> est la fonction indicatrice\nd’Euler. On rappelle enfin que <span class=\"math inline\">\\(X^m-1\n=\\Pi_{d|m}\\Phi_d(X\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "b9a6134d-f2a4-4193-b54d-06032b5dd0af",
+      "type": "question",
+      "value": {
+        "latex": "Soit $M\\in GL_2(\\Zz)$, d’ordre fini $m$.\r\n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "e56e683e-41df-4e9a-9bb8-47431f6937bc",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $z$ est une racine complexe du polynôme caractéristique $\\chi_M(X)$ alors $z$ est racine du polynôme \r\n$X^m-1$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(z\\)</span> est une racine\ncomplexe du polynôme caractéristique <span\nclass=\"math inline\">\\(\\chi_M(X)\\)</span> alors <span\nclass=\"math inline\">\\(z\\)</span> est racine du polynôme <span\nclass=\"math inline\">\\(X^m-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e4372bba-dabf-45d4-92fe-f04ec8f23a79",
+      "type": "question",
+      "value": {
+        "latex": "Montrer, en résolvant l’équation $\\phi(k)=1$, qu’il y a exactement deux polynômes cyclotomiques de degré un.",
+        "html": "<p>Montrer, en résolvant l’équation <span\nclass=\"math inline\">\\(\\phi(k)=1\\)</span>, qu’il y a exactement deux\npolynômes cyclotomiques de degré un.</p>\n"
+      }
+    },
+    {
+      "id": "62e7b417-e89a-4e75-9611-5ae556794655",
+      "type": "question",
+      "value": {
+        "latex": "Montrer de même qu’il y a exactement trois polynômes cyclotomiques de degré deux dont on donnera les expressions développées.",
+        "html": "<p>Montrer de même qu’il y a exactement trois polynômes cyclotomiques de\ndegré deux dont on donnera les expressions développées.</p>\n"
+      }
+    },
+    {
+      "id": "423390a9-9d3d-4c03-9d5b-2da46fdeb9ca",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que le polynôme $\\chi_M(X)$ appartient à l’ensemble\r\n$\\{X^2 + X + 1,X^2 + 1,X^2-X + 1,X^2-1, (X-1)^2, (X + 1)^2\\}$.",
+        "html": "<p>En déduire que le polynôme <span\nclass=\"math inline\">\\(\\chi_M(X)\\)</span> appartient à l’ensemble <span\nclass=\"math inline\">\\(\\{X^2 + X + 1,X^2 + 1,X^2-X + 1,X^2-1, (X-1)^2, (X\n+ 1)^2\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bc3db2dd-1775-424b-b020-8d7c09cdbe4b",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que $m\\in \\{1, 2, 3, 4, 6\\}$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(m\\in \\{1, 2, 3, 4,\n6\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0bd7e5c4-6f72-408a-8c7e-45ba7cc66de5",
+      "type": "question",
+      "value": {
+        "latex": "Donner une matrice compagnon de $GL_2(\\Zz)$ d’ordre $6$.\r\n\\end{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "abd5d641-2d2e-4aae-af48-538bbb6410e4",
+      "type": "question",
+      "value": {
+        "latex": "Soit $p$ un nombre premier, $p\\geq 3$. On note $\\mathbb{F}_p$ un corps de cardinal $p$. On rappelle que la surjection naturelle $\\Zz\\to \\mathbb{F}_p$ induit un morphisme de groupes\r\n$R_p~:~GL_n(Z)\\to GL_n(\\mathbb{F}_p)$.\r\n\r\n\r\nSoit $M\\in GL_n(\\Zz)$ d’ordre $m\\geq 2$ et dans le noyau de $R_p$. On suppose que $M$ n'est pas l'identité.\r\nLa matrice $M$ peut donc s'écrire $M = I_n +p^rN$\r\navec $r\\in\\Nn^\\star$ et $N\\in M_n(\\Zz)-pM_n(\\Zz)$.\r\n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "bc9422bf-0b63-4d20-b10d-6515db95ee4c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $mp^rN\\in p^{2r}M_n(\\Zz)$. En déduire que $p$ divise $m$.\r\nOn pose alors $m = pm'$ et $M'= M^p$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(mp^rN\\in\np^{2r}M_n(\\Zz)\\)</span>. En déduire que <span\nclass=\"math inline\">\\(p\\)</span> divise <span\nclass=\"math inline\">\\(m\\)</span>. On pose alors <span\nclass=\"math inline\">\\(m = pm&#39;\\)</span> et <span\nclass=\"math inline\">\\(M&#39;= M^p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1480b020-1846-47c0-9129-c1f39529d8d1",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $p$ divise $m'$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(p\\)</span> divise <span\nclass=\"math inline\">\\(m&#39;\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f485a139-de23-4b7a-9681-8080843b371c",
+      "type": "question",
+      "value": {
+        "latex": "En déduire une contradiction.\r\n\\end{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "ddb56e1e-617b-4c7b-98fb-41765d802240",
+      "type": "question",
+      "value": {
+        "latex": "Soit $G$ un sous-groupe fini de $GL_n(\\Zz)$.\r\nMontrer que $G$ est isomorphe à un sous-groupe de $GL_n(\\mathbb{F}_p)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un sous-groupe fini de\n<span class=\"math inline\">\\(GL_n(\\Zz)\\)</span>. Montrer que <span\nclass=\"math inline\">\\(G\\)</span> est isomorphe à un sous-groupe de <span\nclass=\"math inline\">\\(GL_n(\\mathbb{F}_p)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b38645f0-9735-499c-b00f-650f22427bf6",
+      "type": "question",
+      "value": {
+        "latex": "Soit $G$ un sous-groupe fini de $GL_2(\\Zz)$.\r\n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "1f915b0e-d3a1-47bf-81e1-e38d9f52dc68",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le cardinal de $G$ est un diviseur de $48$.",
+        "html": "<p>Montrer que le cardinal de <span class=\"math inline\">\\(G\\)</span> est\nun diviseur de <span class=\"math inline\">\\(48\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d563c2e0-bd18-4217-9668-41ee81ddd112",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que le cardinal de $G$ ne peut pas être égal à $48$.\r\n(On pourra, éventuellement, étudier $\\Phi_8(X)$ considéré comme un polynôme à coefficients dans $\\mathbb{F}_3$.)\r\n\\end{itemize}",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Si <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> sont deux entiers naturels, on note\n<span class=\"math inline\">\\ ..."
+}

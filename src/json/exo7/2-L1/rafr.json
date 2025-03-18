@@ -1,0 +1,69 @@
+{
+  "uuid": "rafr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4680",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:54.553Z"
+  },
+  "contenu": [
+    {
+      "id": "299d4ea7-ba5f-4602-892e-93a96949d49e",
+      "type": "description",
+      "value": {
+        "latex": "On pose $u_n = \\frac {1\\times 3\\times 5 \\times \\dots \\times (2n-1)}\n                      {2\\times 4\\times 6 \\times \\dots \\times (2n)}$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n = \\frac {1\\times 3\\times 5\n\\times \\dots \\times (2n-1)}\n                      {2\\times 4\\times 6 \\times \\dots \\times\n(2n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5d5dec42-4741-44c3-bd0a-5253f4a6e71b",
+      "type": "question",
+      "value": {
+        "latex": "Exprimer $u_n$ {\\`a} l'aide de factorielles.",
+        "html": "<p>Exprimer <span class=\"math inline\">\\(u_n\\)</span> <span>à</span>\nl’aide de factorielles.</p>\n"
+      }
+    },
+    {
+      "id": "3434b934-0b06-4626-bde1-d4ccb1b95cdb",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la suite $(u_n)$ est convergente.",
+        "html": "<p>Montrer que la suite <span class=\"math inline\">\\((u_n)\\)</span> est\nconvergente.</p>\n"
+      }
+    },
+    {
+      "id": "afd588ee-0a1f-47a3-b5d9-32fae72f1128",
+      "type": "question",
+      "value": {
+        "latex": "Soit $v_n = (n+1)u_n^2$. Montrer que la suite $(v_n)$ converge.\n    Que pouvez-vous en d{\\'e}duire pour $\\lim_{n\\to\\infty}u_n$ ?",
+        "html": "<p>Soit <span class=\"math inline\">\\(v_n = (n+1)u_n^2\\)</span>. Montrer\nque la suite <span class=\"math inline\">\\((v_n)\\)</span> converge. Que\npouvez-vous en d<span>é</span>duire pour <span\nclass=\"math inline\">\\(\\lim_{n\\to\\infty}u_n\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "876e11c1-bc80-48bd-846c-9a794586573e",
+      "type": "question",
+      "value": {
+        "latex": "On note $\\alpha = \\lim_{n\\to\\infty}v_n$. En {\\'e}tudiant la suite $(nu_n^2)$,\n    montrer que $\\alpha > 0$.",
+        "html": "<p>On note <span class=\"math inline\">\\(\\alpha =\n\\lim_{n\\to\\infty}v_n\\)</span>. En <span>é</span>tudiant la suite <span\nclass=\"math inline\">\\((nu_n^2)\\)</span>, montrer que <span\nclass=\"math inline\">\\(\\alpha &gt; 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2d3f9086-0141-4ebe-936a-bf4872acaf4d",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_n = \\frac {(2n)!}{4^n(n!)^2}$.",
+        "html": "<p><span class=\"math inline\">\\(u_n = \\frac\n{(2n)!}{4^n(n!)^2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\"> ..."
+}

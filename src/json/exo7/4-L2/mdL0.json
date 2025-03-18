@@ -1,0 +1,77 @@
+{
+  "uuid": "mdL0",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3526",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Polynôme caractéristique, théorème de Cayley-Hamilton",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:40.261Z"
+  },
+  "contenu": [
+    {
+      "id": "3b4ebc43-bcb0-4907-a180-dfce3f43e77c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $C = \\begin{pmatrix} a_1\\cr \\vdots\\cr a_n \\end{pmatrix} \\in \\mathcal{M}_{n,1}(\\R)$ et $M = C{}^tC$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(C = \\begin{pmatrix} a_1\\cr \\vdots\\cr\na_n \\end{pmatrix} \\in \\mathcal{M}_{n,1}(\\R)\\)</span> et <span\nclass=\"math inline\">\\(M = C{}^tC\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "56012da6-5398-419e-bbe5-92aa89d69b47",
+      "type": "question",
+      "value": {
+        "latex": "Chercher le rang de $M$.",
+        "html": "<p>Chercher le rang de <span class=\"math inline\">\\(M\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f62cdfd9-a323-4ff0-a513-49692ed2a7c3",
+      "type": "reponse",
+      "value": {
+        "latex": "1 si $C \\ne 0$, 0 si $C = 0$.",
+        "html": "<p>1 si <span class=\"math inline\">\\(C \\ne 0\\)</span>, 0 si <span\nclass=\"math inline\">\\(C = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b0f88f1c-88a3-4eab-873c-c242f6233fce",
+      "type": "question",
+      "value": {
+        "latex": "En déduire le polynôme caractéristique de $M$.",
+        "html": "<p>En déduire le polynôme caractéristique de <span\nclass=\"math inline\">\\(M\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5bc2826a-1919-42ff-ac68-0af647daf9c8",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\dim(E_0) \\ge n-1  \\Rightarrow  X^{n-1}$ divise $\\chi_M  \\Rightarrow \n             \\chi_M = (-1)^n(X^n - (a_1^2+\\dots+a_n^2)X^{n-1})$.",
+        "html": "<p><span class=\"math inline\">\\(\\dim(E_0) \\ge\nn-1  \\Rightarrow  X^{n-1}\\)</span> divise <span\nclass=\"math inline\">\\(\\chi_M  \\Rightarrow\n             \\chi_M = (-1)^n(X^n -\n(a_1^2+\\dots+a_n^2)X^{n-1})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e7b4456a-7e75-4209-b6c3-916fadda5551",
+      "type": "question",
+      "value": {
+        "latex": "$M$ est-elle diagonalisable ?",
+        "html": "<p><span class=\"math inline\">\\(M\\)</span> est-elle diagonalisable ?</p>\n"
+      }
+    },
+    {
+      "id": "7f920596-b2c7-4701-b983-216ccf6ceb72",
+      "type": "reponse",
+      "value": {
+        "latex": "Oui.",
+        "html": "<p>Oui.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(C = \\begin{pmatrix} a_1\\cr \\vdots\\cr\na_n \\end{pmatrix} \\in \\mathcal{M}_{n,1}(\\R)\\)</span> et <span\nclass=\"math inl ..."
+}

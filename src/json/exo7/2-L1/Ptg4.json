@@ -1,0 +1,117 @@
+{
+  "uuid": "Ptg4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "520",
+    "auteur": "ridde",
+    "createdAt": "1999-11-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "HZBJUfv7fSA",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:44.059Z"
+  },
+  "contenu": [
+    {
+      "id": "11dec5e9-b447-4b0e-ab84-ba31fb52de10",
+      "type": "description",
+      "value": {
+        "latex": "Soit $H_n = 1 + \\dfrac12 + \\cdots + \\dfrac1n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(H_n = 1 + \\dfrac12 + \\cdots +\n\\dfrac1n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bc4b628e-72bd-45bb-8ba8-a63bf420a323",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant une int\\'egrale, montrer que pour tout $n>0$ : $\\dfrac1{n + 1} \\leq\n\\ln (n + 1)-\\ln (n) \\leq \\dfrac1n$.",
+        "html": "<p>En utilisant une intégrale, montrer que pour tout <span\nclass=\"math inline\">\\(n&gt;0\\)</span> : <span\nclass=\"math inline\">\\(\\dfrac1{n + 1} \\leq\n\\ln (n + 1)-\\ln (n) \\leq \\dfrac1n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f5b7755f-7c36-4e8e-946a-044b822fe6a5",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $t \\mapsto \\frac 1 t$ est d\\'ecroissante\nsur $[n,n+1]$ donc\n$$\\frac{1}{n+1} \\leqslant \\int_n^{n+1} \\frac{dt}{t} \\leqslant \\frac 1n$$\n(C'est un encadrement de l'aire de l'ensemble des points $(x,y)$\ndu plan tels que $x\\in[n,n+1]$ et $0\\leqslant y\\leqslant 1/x$ par l'aire de\ndeux rectangles.) Par calcul de l'intégrale nous obtenons l'in\\'egalit\\'e :\n$$\\frac{1}{n+1} \\leqslant \\ln(n+1)-\\ln(n)  \\leqslant \\frac 1n.$$",
+        "html": "<p>La fonction <span class=\"math inline\">\\(t \\mapsto \\frac 1 t\\)</span>\nest décroissante sur <span class=\"math inline\">\\([n,n+1]\\)</span> donc\n<span class=\"math display\">\\[\\frac{1}{n+1} \\leqslant \\int_n^{n+1}\n\\frac{dt}{t} \\leqslant \\frac 1n\\]</span> (C’est un encadrement de l’aire\nde l’ensemble des points <span class=\"math inline\">\\((x,y)\\)</span> du\nplan tels que <span class=\"math inline\">\\(x\\in[n,n+1]\\)</span> et <span\nclass=\"math inline\">\\(0\\leqslant y\\leqslant 1/x\\)</span> par l’aire de\ndeux rectangles.) Par calcul de l’intégrale nous obtenons l’inégalité :\n<span class=\"math display\">\\[\\frac{1}{n+1} \\leqslant\n\\ln(n+1)-\\ln(n)  \\leqslant \\frac 1n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f95431c2-e679-4843-af93-7be1a315a449",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que $\\ln (n + 1) \\leq H_n \\leq \\ln (n) + 1$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(\\ln (n + 1) \\leq H_n \\leq\n\\ln (n) + 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b7a2e3b4-dc9f-430c-b3ce-0a2a999094b9",
+      "type": "reponse",
+      "value": {
+        "latex": "$H_n = \\frac1n+\\frac{1}{n-1}+\\cdots +\\frac12+1$, nous majorons chaque terme de cette somme en utilisant l'in\\'egalit\\'e $\\frac1k \\leqslant \\ln(k)-\\ln (k-1)$ obtenue pr\\'ec\\'edemment : nous obtenons\n$H_n \\leqslant \\ln(n)-\\ln (n-1) + \\ln(n-1)-\\ln (n-2)+\\cdots-\\ln(2) +\\ln (2) - \\ln\n(1) + 1$. Cette somme est t\\'elescopique (la plupart des termes\ns'\\'eliminent et en plus $\\ln (1) =0$) et donne $H_n \\leqslant \\ln (n) + 1$.\n\nL'autre in\\'egalit\\'e  s'obtient de la fa\\c{c}on similaire en\nutilisant l'in\\'egalit\\'e $ \\ln(k+1)-\\ln(k) \\leqslant \\frac{1}{k}$ .",
+        "html": "<p><span class=\"math inline\">\\(H_n = \\frac1n+\\frac{1}{n-1}+\\cdots\n+\\frac12+1\\)</span>, nous majorons chaque terme de cette somme en\nutilisant l’inégalité <span class=\"math inline\">\\(\\frac1k \\leqslant\n\\ln(k)-\\ln (k-1)\\)</span> obtenue précédemment : nous obtenons <span\nclass=\"math inline\">\\(H_n \\leqslant \\ln(n)-\\ln (n-1) + \\ln(n-1)-\\ln\n(n-2)+\\cdots-\\ln(2) +\\ln (2) - \\ln\n(1) + 1\\)</span>. Cette somme est télescopique (la plupart des termes\ns’éliminent et en plus <span class=\"math inline\">\\(\\ln (1) =0\\)</span>)\net donne <span class=\"math inline\">\\(H_n \\leqslant \\ln (n) +\n1\\)</span>.</p>\n<p>L’autre inégalité s’obtient de la façon similaire en utilisant\nl’inégalité <span class=\"math inline\">\\(\\ln(k+1)-\\ln(k) \\leqslant\n\\frac{1}{k}\\)</span> .</p>\n"
+      }
+    },
+    {
+      "id": "c5e69a0f-25f1-4fe9-b0b0-5f7b0931399e",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer la limite de $H_n$.",
+        "html": "<p>Déterminer la limite de <span class=\"math inline\">\\(H_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "19c100c3-eb71-422b-a1bc-6259e46d1b71",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $H_n \\geqslant \\ln (n+1)$ et que $\\ln(n+1) \\rightarrow +\\infty$ quand $n\\rightarrow +\\infty$ alors $H_n \\rightarrow +\\infty$ quand $n\\rightarrow +\\infty$.",
+        "html": "<p>Comme <span class=\"math inline\">\\(H_n \\geqslant \\ln (n+1)\\)</span> et\nque <span class=\"math inline\">\\(\\ln(n+1) \\rightarrow +\\infty\\)</span>\nquand <span class=\"math inline\">\\(n\\rightarrow +\\infty\\)</span> alors\n<span class=\"math inline\">\\(H_n \\rightarrow +\\infty\\)</span> quand <span\nclass=\"math inline\">\\(n\\rightarrow +\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d7b64c8f-4493-489a-970a-8a796c3c5919",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u_n = H_n-\\ln (n)$ est d\\'ecroissante et positive.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u_n = H_n-\\ln (n)\\)</span>\nest décroissante et positive.</p>\n"
+      }
+    },
+    {
+      "id": "fcbe7570-1d45-4709-a42e-2496df434a8c",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_{n+1}-u_n = H_{n+1}-H_n - \\ln(n+1)+\\ln(n) = \\frac{1}{n+1}-(\\ln (n+1)-\\ln (n))\\leqslant 0$ d'apr\\`es la premi\\`ere question. Donc $u_{n+1}-u_n  \\leqslant 0$. Ainsi $u_{n+1} \\leqslant u_n$ et la suite\n$(u_n)$ est d\\'ecroissante.\n\nEnfin comme $H_n \\geqslant \\ln(n+1)$ alors $H_n \\geqslant \\ln (n)$ et donc\n$u_n\\geqslant 0$.",
+        "html": "<p><span class=\"math inline\">\\(u_{n+1}-u_n = H_{n+1}-H_n -\n\\ln(n+1)+\\ln(n) = \\frac{1}{n+1}-(\\ln (n+1)-\\ln (n))\\leqslant 0\\)</span>\nd’après la première question. Donc <span\nclass=\"math inline\">\\(u_{n+1}-u_n  \\leqslant 0\\)</span>. Ainsi <span\nclass=\"math inline\">\\(u_{n+1} \\leqslant u_n\\)</span> et la suite <span\nclass=\"math inline\">\\((u_n)\\)</span> est décroissante.</p>\n<p>Enfin comme <span class=\"math inline\">\\(H_n \\geqslant\n\\ln(n+1)\\)</span> alors <span class=\"math inline\">\\(H_n \\geqslant \\ln\n(n)\\)</span> et donc <span class=\"math inline\">\\(u_n\\geqslant\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "51f28cf0-6127-450d-93e1-2812c19c178a",
+      "type": "question",
+      "value": {
+        "latex": "Conclusion ?",
+        "html": "<p>Conclusion ?</p>\n"
+      }
+    },
+    {
+      "id": "dca56476-cc92-4c3d-ada4-693473b5eb2a",
+      "type": "reponse",
+      "value": {
+        "latex": "La suite $(u_n)$ est d\\'ecroissante et minor\\'ee (par $0$) donc elle converge\nvers un r\\'eel $\\gamma$. Ce r\\'eel $\\gamma$ s'appelle \\emph{la constante d'Euler}\n(d'après Leonhard Euler, 1707-1783, math\\'ematicien d'origine suisse). Cette\nconstante vaut environ $0,5772156649\\ldots$ mais on ne sait pas si\n$\\gamma$ est rationnel ou irrationnel.",
+        "html": "<p>La suite <span class=\"math inline\">\\((u_n)\\)</span> est décroissante\net minorée (par <span class=\"math inline\">\\(0\\)</span>) donc elle\nconverge vers un réel <span class=\"math inline\">\\(\\gamma\\)</span>. Ce\nréel <span class=\"math inline\">\\(\\gamma\\)</span> s’appelle <em>la\nconstante d’Euler</em> (d’après Leonhard Euler, 1707-1783, mathématicien\nd’origine suisse). Cette constante vaut environ <span\nclass=\"math inline\">\\(0,5772156649\\ldots\\)</span> mais on ne sait pas si\n<span class=\"math inline\">\\(\\gamma\\)</span> est rationnel ou\nirrationnel.</p>\n"
+      }
+    },
+    {
+      "id": "aa59314c-69bf-4273-9732-4e4ce61caf05",
+      "type": "indication",
+      "value": {
+        "latex": "\\begin{enumerate}\n\\item En se rappelant que l'int\\'egrale calcule une aire montrer : \n$$\\frac{1}{n+1} \\leqslant \\int_n^{n+1} \\frac{dt}{t} \\leqslant \\frac 1n.$$\n\\item Pour chacune des majorations, il s'agit de faire la somme de l'in\\'egalit\\'e pr\\'ec\\'edente et de s'apercevoir que d'un cot\\'e on calcule $H_n$ et de l'autre les termes s'\\'eliminent presque tous deux \\`a deux.\n\\item La limite est $+\\infty$.\n\\item Calculer $u_{n+1}-u_n$.\n\\item Que fait une suite décroissante et minorée ?\n\\end{enumerate}",
+        "html": "<ol>\n<li><p>En se rappelant que l’intégrale calcule une aire montrer : <span\nclass=\"math display\">\\[\\frac{1}{n+1} \\leqslant \\int_n^{n+1} \\frac{dt}{t}\n\\leqslant \\frac 1n.\\]</span></p></li>\n<li><p>Pour chacune des majorations, il s’agit de faire la somme de\nl’inégalité précédente et de s’apercevoir que d’un coté on calcule <span\nclass=\"math inline\">\\(H_n\\)</span> et de l’autre les termes s’éliminent\npresque tous deux à deux.</p></li>\n<li><p>La limite est <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p></li>\n<li><p>Calculer <span\nclass=\"math inline\">\\(u_{n+1}-u_n\\)</span>.</p></li>\n<li><p>Que fait une suite décroissante et minorée ?</p></li>\n</ol>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(H_n = 1 + \\dfrac12 + \\cdots +\n\\dfrac1n\\)</span>.</p>\n"
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "jBiA",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6697",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:02.775Z"
+  },
+  "contenu": [
+    {
+      "id": "8671a85d-185b-4e8f-8b25-de76e0ceb5a7",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ une fonction entière ; on pose, pour $r\\in {\\Rr}_+^*$,\n$$M(r)=\\sup_{\\vert z\\vert =r}\\vert f(z)\\vert$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction entière ; on\npose, pour <span class=\"math inline\">\\(r\\in {\\Rr}_+^*\\)</span>, <span\nclass=\"math display\">\\[M(r)=\\sup_{\\vert z\\vert =r}\\vert\nf(z)\\vert\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a5c5d91f-15c3-468f-a955-af7eb6edcc22",
+      "type": "question",
+      "value": {
+        "latex": "On suppose qu'il existe $p\\in {\\Nn}$ tel que \n$$\\lim_{r\\to +\\infty}{M(r)\\over r^{p+1}}=0$$\nMontrer qu'alors $f$ est un polynôme de degré au plus $p$.",
+        "html": "<p>On suppose qu’il existe <span class=\"math inline\">\\(p\\in\n{\\Nn}\\)</span> tel que <span class=\"math display\">\\[\\lim_{r\\to\n+\\infty}{M(r)\\over r^{p+1}}=0\\]</span> Montrer qu’alors <span\nclass=\"math inline\">\\(f\\)</span> est un polynôme de degré au plus <span\nclass=\"math inline\">\\(p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "df114e69-4ae2-4892-b00a-7e2fb1caedc3",
+      "type": "question",
+      "value": {
+        "latex": "On suppose qu'il existe $R\\ge 0$, $K>0$ et $p\\in {\\Nn}$ tels que \n$$\\vert z\\vert  >R\\Longrightarrow \\vert f(z)\\vert \\le K\\vert z\\vert ^p$$\nMontrer qu'alors $f$ est un polynôme de degré au plus $p$. Montrer que si\nde plus $R=0$ alors $f$ est un monôme de degré $p$.",
+        "html": "<p>On suppose qu’il existe <span class=\"math inline\">\\(R\\ge 0\\)</span>,\n<span class=\"math inline\">\\(K&gt;0\\)</span> et <span\nclass=\"math inline\">\\(p\\in {\\Nn}\\)</span> tels que <span\nclass=\"math display\">\\[\\vert z\\vert  &gt;R\\Longrightarrow \\vert\nf(z)\\vert \\le K\\vert z\\vert ^p\\]</span> Montrer qu’alors <span\nclass=\"math inline\">\\(f\\)</span> est un polynôme de degré au plus <span\nclass=\"math inline\">\\(p\\)</span>. Montrer que si de plus <span\nclass=\"math inline\">\\(R=0\\)</span> alors <span\nclass=\"math inline\">\\(f\\)</span> est un monôme de degré <span\nclass=\"math inline\">\\(p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "50514e83-4335-47c5-befe-ad7d42218510",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que si $f$ vérifie \n$$\\forall z\\in \\C,\\ \\vert f'(z)\\vert \\le \\vert z\\vert$$\nalors $f$ est de la forme $f(z)=a+bz^2$ avec $\\vert b\\vert \\le 1/2$.",
+        "html": "<p>En déduire que si <span class=\"math inline\">\\(f\\)</span> vérifie\n<span class=\"math display\">\\[\\forall z\\in \\C,\\ \\vert f&#39;(z)\\vert \\le\n\\vert z\\vert\\]</span> alors <span class=\"math inline\">\\(f\\)</span> est\nde la forme <span class=\"math inline\">\\(f(z)=a+bz^2\\)</span> avec <span\nclass=\"math inline\">\\(\\vert b\\vert \\le 1/2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction entière ; on\npose, pour <span class=\"math inline\">\\(r\\in {\\Rr}_+^*\\)</span>, <span\nclass=\" ..."
+}

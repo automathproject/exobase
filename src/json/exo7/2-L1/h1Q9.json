@@ -1,0 +1,53 @@
+{
+  "uuid": "h1Q9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4672",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:28.792Z"
+  },
+  "contenu": [
+    {
+      "id": "d7b1f974-d988-4e7f-84f6-a658279358fc",
+      "type": "description",
+      "value": {
+        "latex": "On pose $u_n = \\frac {96\\times(-1)^n}{(2n-3)(2n-1)(2n+1)(2n+3)(2n+5)}$\net $v_n = \\sum_{k=0}^n\\,u_k$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(u_n = \\frac\n{96\\times(-1)^n}{(2n-3)(2n-1)(2n+1)(2n+3)(2n+5)}\\)</span> et <span\nclass=\"math inline\">\\(v_n = \\sum_{k=0}^n\\,u_k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1532d1ec-8b15-4a89-ac99-552d35a38cbc",
+      "type": "question",
+      "value": {
+        "latex": "{\\'E}tudier les suites $(v_{2n})$ et $(v_{2n+1})$ et\n    montrer que la suite $(v_n)$ est convergente.",
+        "html": "<p><span>É</span>tudier les suites <span\nclass=\"math inline\">\\((v_{2n})\\)</span> et <span\nclass=\"math inline\">\\((v_{2n+1})\\)</span> et montrer que la suite <span\nclass=\"math inline\">\\((v_n)\\)</span> est convergente.</p>\n"
+      }
+    },
+    {
+      "id": "4566a50f-d6a3-4fb5-966a-1dce8d87020e",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\ell = \\lim_{n\\to\\infty} v_n$ {\\`a} $10^{-5}$ pr{\\`e}s.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\ell = \\lim_{n\\to\\infty}\nv_n\\)</span> <span>à</span> <span class=\"math inline\">\\(10^{-5}\\)</span>\npr<span>è</span>s.</p>\n"
+      }
+    },
+    {
+      "id": "c0fd1dfc-c73f-4067-b57d-158ba679cf1a",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\ell = \\pi$.",
+        "html": "<p><span class=\"math inline\">\\(\\ell = \\pi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(u_n = \\frac\n{96\\times(-1)^n}{(2n-3)(2n-1)(2n+1)(2n+3)(2n+5)}\\)</span> et <span\nclass=\"math inline\"> ..."
+}

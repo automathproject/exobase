@@ -1,0 +1,77 @@
+{
+  "uuid": "WLtG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4543",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite et série de fonctions",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:25.786Z"
+  },
+  "contenu": [
+    {
+      "id": "5ced57fb-f90e-4b95-80e6-396d67dd8250",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f_n(x) = \\frac{(-1)^n\\cos^nx}{n+1}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f_n(x) =\n\\frac{(-1)^n\\cos^nx}{n+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d5cd1999-ef01-4036-9963-5e43d1e2895e",
+      "type": "question",
+      "value": {
+        "latex": "\\'Etudier la convergence de $f(x) = \\sum_{n=0}^\\infty f_n(x)$.",
+        "html": "<p>Étudier la convergence de <span class=\"math inline\">\\(f(x) =\n\\sum_{n=0}^\\infty f_n(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e363660a-db44-4177-be08-2c065f63a88f",
+      "type": "reponse",
+      "value": {
+        "latex": "cva si $|\\cos x| < 1$, scv si $\\cos x = 1$, dv si $\\cos x = -1$.",
+        "html": "<p>cva si <span class=\"math inline\">\\(|\\cos x| &lt; 1\\)</span>, scv si\n<span class=\"math inline\">\\(\\cos x = 1\\)</span>, dv si <span\nclass=\"math inline\">\\(\\cos x = -1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "343343a7-846e-4ec3-9b26-917861b42c41",
+      "type": "question",
+      "value": {
+        "latex": "Montrer la convergence de la série de terme général\n    $u_n =  \\int_{x=0}^{\\pi/2} f_n(x)\\,d x$.",
+        "html": "<p>Montrer la convergence de la série de terme général <span\nclass=\"math inline\">\\(u_n =  \\int_{x=0}^{\\pi/2} f_n(x)\\,d\nx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5c02e924-456d-4a1a-bf7f-da196754f36b",
+      "type": "reponse",
+      "value": {
+        "latex": "TCM en regroupant les termes deux par deux.",
+        "html": "<p>TCM en regroupant les termes deux par deux.</p>\n"
+      }
+    },
+    {
+      "id": "afd35564-a5f9-46c4-8508-4bbb9662b564",
+      "type": "question",
+      "value": {
+        "latex": "En déduire $\\sum_{n=0}^\\infty u_n$ sous forme d'une intégrale.",
+        "html": "<p>En déduire <span class=\"math inline\">\\(\\sum_{n=0}^\\infty u_n\\)</span>\nsous forme d’une intégrale.</p>\n"
+      }
+    },
+    {
+      "id": "4b5e3625-3b86-407b-8778-04b22cf93158",
+      "type": "reponse",
+      "value": {
+        "latex": "$ \\int_{x=0}^{\\pi/2} -\\ln(1-\\cos x)\\,d x$.",
+        "html": "<p><span class=\"math inline\">\\(\\int_{x=0}^{\\pi/2} -\\ln(1-\\cos x)\\,d\nx\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f_n(x) =\n\\frac{(-1)^n\\cos^nx}{n+1}\\)</span>.</p>\n"
+}

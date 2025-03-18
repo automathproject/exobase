@@ -1,0 +1,61 @@
+{
+  "uuid": "UkEs",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4631",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:22.826Z"
+  },
+  "contenu": [
+    {
+      "id": "f584c1c0-f7f2-4a98-978d-771d52691ceb",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f$ la fonction $2\\pi$-périodique telle que :\n$\\forall\\ x \\in {[-\\pi,\\pi[},\\ f(x) = e^x$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la fonction <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique telle que : <span\nclass=\"math inline\">\\(\\forall\\ x \\in {[-\\pi,\\pi[},\\ f(x) =\ne^x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c79d0be2-83b1-4c1a-a489-8e4d4cc2ee3a",
+      "type": "question",
+      "value": {
+        "latex": "Chercher le développement en série de Fourier de $f$.",
+        "html": "<p>Chercher le développement en série de Fourier de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a4744cde-9b80-4df5-96c4-6d39ce369844",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_0 = \\frac{2\\sh\\pi}\\pi$,\n             $a_n = \\frac{2(-1)^n\\sh\\pi}{\\pi(1+n^2)}$, $b_n = -na_n$.",
+        "html": "<p><span class=\"math inline\">\\(a_0 = \\frac{2\\sh\\pi}\\pi\\)</span>, <span\nclass=\"math inline\">\\(a_n = \\frac{2(-1)^n\\sh\\pi}{\\pi(1+n^2)}\\)</span>,\n<span class=\"math inline\">\\(b_n = -na_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d8cf4ebb-8def-41e0-a534-5c1419d1af55",
+      "type": "question",
+      "value": {
+        "latex": "En déduire les sommes des séries :\n    $S = \\sum_{n=1}^\\infty \\frac1{n^2+1}$ et\n    $S' = \\sum_{n=1}^\\infty \\frac{(-1)^n}{n^2+1}$.",
+        "html": "<p>En déduire les sommes des séries : <span class=\"math inline\">\\(S =\n\\sum_{n=1}^\\infty \\frac1{n^2+1}\\)</span> et <span\nclass=\"math inline\">\\(S&#39; = \\sum_{n=1}^\\infty\n\\frac{(-1)^n}{n^2+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ccb14193-4a71-46ec-9e59-23b4bb4880c4",
+      "type": "reponse",
+      "value": {
+        "latex": "$S = \\frac{\\pi-\\tanh\\pi}{2\\tanh\\pi}$,\n             $S' = \\frac{\\pi-\\sh\\pi}{2\\sh\\pi}$.",
+        "html": "<p><span class=\"math inline\">\\(S =\n\\frac{\\pi-\\tanh\\pi}{2\\tanh\\pi}\\)</span>, <span\nclass=\"math inline\">\\(S&#39; = \\frac{\\pi-\\sh\\pi}{2\\sh\\pi}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> la fonction <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique telle que : <span\nclass=\"math inline\"> ..."
+}

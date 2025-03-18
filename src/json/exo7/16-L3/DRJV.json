@@ -1,0 +1,61 @@
+{
+  "uuid": "DRJV",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6858",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:25.153Z"
+  },
+  "contenu": [
+    {
+      "id": "65669d3f-76e5-40e1-800c-ea66122f55c5",
+      "type": "description",
+      "value": {
+        "latex": "Si $\\rho $ est un réel strictement positif, on note $D_\\rho $ le disque\nouvert de centre 0 et de rayon $\\rho $ et $\\gamma _\\rho $ le chemin\n$t\\mapsto \\rho e^{it}$, $0\\le t\\le 2\\pi$.\n\nOn considère une fonction $f$ holomorphe sur $D_1$, telle que l'on ait\n$f(0)=0$ et $f'(0)\\ne 0$. Pour tout $\\rho \\in\\mathopen]0,1\\mathclose[$,\non pose $\\displaystyle m(\\rho )=\\inf_{\\vert z\\vert =\\rho }\\vert f(z)\\vert\n$.",
+        "html": "<p>Si <span class=\"math inline\">\\(\\rho\\)</span> est un réel strictement\npositif, on note <span class=\"math inline\">\\(D_\\rho\\)</span> le disque\nouvert de centre 0 et de rayon <span class=\"math inline\">\\(\\rho\\)</span>\net <span class=\"math inline\">\\(\\gamma _\\rho\\)</span> le chemin <span\nclass=\"math inline\">\\(t\\mapsto \\rho e^{it}\\)</span>, <span\nclass=\"math inline\">\\(0\\le t\\le 2\\pi\\)</span>.</p>\n<p>On considère une fonction <span class=\"math inline\">\\(f\\)</span>\nholomorphe sur <span class=\"math inline\">\\(D_1\\)</span>, telle que l’on\nait <span class=\"math inline\">\\(f(0)=0\\)</span> et <span\nclass=\"math inline\">\\(f&#39;(0)\\ne 0\\)</span>. Pour tout <span\nclass=\"math inline\">\\(\\rho \\in\\mathopen]0,1\\mathclose[\\)</span>, on pose\n<span class=\"math inline\">\\(\\displaystyle m(\\rho )=\\inf_{\\vert z\\vert\n=\\rho }\\vert f(z)\\vert\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9832f48a-9d1b-4ead-a6ad-7313958d38aa",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe un nombre réel\n$r\\in\\mathopen]0,1\\mathclose[$ tel que, pour tout $\\rho\n\\in\\mathopen]0,r\\mathclose[$, on ait $$m(\\rho )>0.$$\n\nDans toute la suite, on suppose que $r$ et $\\rho $ sont fixés et qu'ils\nvérifient les conclusions de 1.",
+        "html": "<p>Montrer qu’il existe un nombre réel <span\nclass=\"math inline\">\\(r\\in\\mathopen]0,1\\mathclose[\\)</span> tel que,\npour tout <span class=\"math inline\">\\(\\rho\n\\in\\mathopen]0,r\\mathclose[\\)</span>, on ait <span\nclass=\"math display\">\\[m(\\rho )&gt;0.\\]</span></p>\n<p>Dans toute la suite, on suppose que <span\nclass=\"math inline\">\\(r\\)</span> et <span\nclass=\"math inline\">\\(\\rho\\)</span> sont fixés et qu’ils vérifient les\nconclusions de 1.</p>\n"
+      }
+    },
+    {
+      "id": "4961e2ab-7815-43f2-ae96-87104f70f8eb",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout nombre complexe $w$ vérifiant $\\vert\nw\\vert <m(\\rho )$, la fonction\n$$z\\mapsto f(z)-w$$\na un seul zéro, noté $g(w)$, dans $D_\\rho $.",
+        "html": "<p>Montrer que, pour tout nombre complexe <span\nclass=\"math inline\">\\(w\\)</span> vérifiant <span\nclass=\"math inline\">\\(\\vert\nw\\vert &lt;m(\\rho )\\)</span>, la fonction <span\nclass=\"math display\">\\[z\\mapsto f(z)-w\\]</span> a un seul zéro, noté\n<span class=\"math inline\">\\(g(w)\\)</span>, dans <span\nclass=\"math inline\">\\(D_\\rho\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e5cdc37d-8a00-4cb2-b2bb-aed7ee988e5f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'on a\n$${1\\over 2i\\pi}\\int_{\\gamma _\\rho }{zf'(z)\\over f(z)-w}dz=g(w).$$",
+        "html": "<p>Montrer que l’on a <span class=\"math display\">\\[{1\\over\n2i\\pi}\\int_{\\gamma _\\rho }{zf&#39;(z)\\over f(z)-w}dz=g(w).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "af9659a5-26c8-4057-9365-35279e4b3631",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tout $w$ vérifiant $\\vert w\\vert <m(\\rho )$,\non a $$g(w)=\\sum_{n=0}^{+\\infty}c_nw^n$$\net l'on exprimera les coefficients $c_n$ au moyen d'intégrales faisant\nintervenir $f$ et $f'$.",
+        "html": "<p>Montrer que, pour tout <span class=\"math inline\">\\(w\\)</span>\nvérifiant <span class=\"math inline\">\\(\\vert w\\vert &lt;m(\\rho\n)\\)</span>, on a <span\nclass=\"math display\">\\[g(w)=\\sum_{n=0}^{+\\infty}c_nw^n\\]</span> et l’on\nexprimera les coefficients <span class=\"math inline\">\\(c_n\\)</span> au\nmoyen d’intégrales faisant intervenir <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(f&#39;\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Si <span class=\"math inline\">\\(\\rho\\)</span> est un réel strictement\npositif, on note <span class=\"math inline\">\\(D_\\rho\\)</span> le disque\nouvert  ..."
+}

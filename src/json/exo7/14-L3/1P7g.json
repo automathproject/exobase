@@ -1,0 +1,61 @@
+{
+  "uuid": "1P7g",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5953",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de convergence dominée",
+    "sousChapitre": "Théorème de convergence dominée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:07.914Z"
+  },
+  "contenu": [
+    {
+      "id": "bdc278a6-a616-460b-8fda-39e35c8728f8",
+      "type": "description",
+      "value": {
+        "latex": "Soit \\ $f\\in\n\\mathcal{L}^{1}(\\Rr )$. Sa \\emph{transform\\'{e}e de Fourier}\nest la fonction \\ $\\hat{f}:\\Rr \\rightarrow \\Cc$ \\ \\ d\\'{e}finie\npar\n\\[\n\\hat{f}(y):=\\int_{\\Rr }\\text{e}^{-ixy}f(x)dx,\n\\]\nmontrer que",
+        "html": "<p>Soit  <span class=\"math inline\">\\(f\\in\n\\mathcal{L}^{1}(\\Rr )\\)</span>. Sa <em>transformée de Fourier</em> est\nla fonction  <span class=\"math inline\">\\(\\hat{f}:\\Rr \\rightarrow\n\\Cc\\)</span>   définie par <span\nclass=\"math display\">\\[\\hat{f}(y):=\\int_{\\Rr\n}\\text{e}^{-ixy}f(x)dx,\\]</span> montrer que</p>\n"
+      }
+    },
+    {
+      "id": "e62e2b2f-7d61-4d81-90c6-f2a9eb8d4b06",
+      "type": "question",
+      "value": {
+        "latex": "$\\hat{f}$ \\ est continue,",
+        "html": "<p><span class=\"math inline\">\\(\\hat{f}\\)</span>  est continue,</p>\n"
+      }
+    },
+    {
+      "id": "510eb426-8830-4ef9-a6e8-03bbb9617637",
+      "type": "question",
+      "value": {
+        "latex": "$\\hat{f}$ \\ est born\\'{e}e et \\ $\\sup |\\hat{f}|\\leq\n\\left\\| f\\right\\| _{L^{1}}$ \\ (=$\\int_{\\Rr }\\left| f(x)\\right|\ndx$),",
+        "html": "<p><span class=\"math inline\">\\(\\hat{f}\\)</span>  est bornée et  <span\nclass=\"math inline\">\\(\\sup |\\hat{f}|\\leq\n\\left\\| f\\right\\| _{L^{1}}\\)</span>  (=<span\nclass=\"math inline\">\\(\\int_{\\Rr }\\left| f(x)\\right|\ndx\\)</span>),</p>\n"
+      }
+    },
+    {
+      "id": "affa9aba-d2fe-41ad-b4f9-449052d21243",
+      "type": "question",
+      "value": {
+        "latex": "Si $x \\to xf(x)$ est int\\'{e}grable, alors $\\hat{f}$ \\\nest d\\'{e}rivable et on a\n\\[\n\\frac{d}{dy}\\ \\hat{f}\\ =\\widehat{-ixf(x)}.\n\\]",
+        "html": "<p>Si <span class=\"math inline\">\\(x \\to xf(x)\\)</span> est intégrable,\nalors <span class=\"math inline\">\\(\\hat{f}\\)</span>  est dérivable et on\na <span class=\"math display\">\\[\\frac{d}{dy}\\ \\hat{f}\\\n=\\widehat{-ixf(x)}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d5a5f32d-4922-44b0-8bdd-136409687e18",
+      "type": "reponse",
+      "value": {
+        "latex": "Notons $g(x,y)=e^{-ixy} f(x)$.\nAlors,\n\\begin{enumerate}\n[{i.)}] pour tout $y\\in \\mathbb{R}$, la fonction $x\\mapsto\ng(x,y)$ est mesurable;\n[{ii.)}] pour presque tout $x\\in\n\\mathbb{R}$ (pour tout les $x\\in \\mathbb{R}$ tels que $f(x)$ est\nfinie) la fonction $y\\mapsto g(x,y)$ est continue pour tout $y\\in\n\\mathbb{R}$;\n[{iii.)}] $|g(x,y)|=|e^{-ixy} f(x)|\\leq |f(x)|$\net $|f|\\in \\mathcal{L}^1(\\mathbb{R},\\mathbb{R}_+).$",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Soit  <span class=\"math inline\">\\(f\\in\n\\mathcal{L}^{1}(\\Rr )\\)</span>. Sa <em>transformée de Fourier</em> est\nla fonction  <span class=\"math inline ..."
+}

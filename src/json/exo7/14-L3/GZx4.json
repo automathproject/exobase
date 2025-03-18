@@ -1,0 +1,61 @@
+{
+  "uuid": "GZx4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5967",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace L^p",
+    "sousChapitre": "Espace Lp",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:10.003Z"
+  },
+  "contenu": [
+    {
+      "id": "15242297-9770-4193-9040-2939b831b993",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\{f_{n}\\}_{n\\in\\mathbb{N}}$ la suite de fonctions d\\'efinies\npar~:\n$$\nf_{n}(x) = \\frac{1}{\\sqrt{n}} \\mathbf{1}_{[n, 2n]}(x).\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nla suite de fonctions définies par : <span\nclass=\"math display\">\\[f_{n}(x) = \\frac{1}{\\sqrt{n}} \\mathbf{1}_{[n,\n2n]}(x).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f71f9bad-4092-475f-bf76-933cfbccebad",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f_{n}$ converge faiblement vers $0$ dans\n$L^{2}([0, +\\infty[)$ mais ne converge pas fortement dans $L^2([0,\n+\\infty[)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f_{n}\\)</span> converge\nfaiblement vers <span class=\"math inline\">\\(0\\)</span> dans <span\nclass=\"math inline\">\\(L^{2}([0, +\\infty[)\\)</span> mais ne converge pas\nfortement dans <span class=\"math inline\">\\(L^2([0,\n+\\infty[)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1c19f5c5-9125-410d-90ee-72355ee66b4e",
+      "type": "reponse",
+      "value": {
+        "latex": "Quelque soit $g$ continue \\`a support compact,\n$$\n\\int_{[0, +\\infty[} f_{n}(x) g(x)\\,dx = \\frac{1}{\\sqrt{n}}\n\\int_{n}^{2n} g(x)\\,dx \\rightarrow 0\n$$\nquand $n\\rightarrow +\\infty$. Par densit\\'e des fonctions\ncontinues \\`a support compact, $f_{n}$ converge faiblement vers\n$0$. D'autre part, $f_n$ converge presque partout vers $0$.\nSupposons que $f_n$ converge fortement vers une fonction $f$ dans\n$L^2([0, +\\infty[)$. Alors il existe une sous-suite de $f_n$ qui\nconverge presque-partout vers $f$, ce qui implique que $f =0$ est\nla seule limite possible. Or~:\n$$\n\\|f_{n}\\|_{2} = 1\n$$\npour tout $n$, donc $\\|f_{n}\\|_2$ ne tend pas vers $\\|f\\|_2 = 0$\nce qui contredit le fait que $f_n$ converge vers $f$ dans $L^2([0,\n+\\infty[)$.",
+        "html": "<p>Quelque soit <span class=\"math inline\">\\(g\\)</span> continue à\nsupport compact, <span class=\"math display\">\\[\\int_{[0, +\\infty[}\nf_{n}(x) g(x)\\,dx = \\frac{1}{\\sqrt{n}}\n\\int_{n}^{2n} g(x)\\,dx \\rightarrow 0\\]</span> quand <span\nclass=\"math inline\">\\(n\\rightarrow +\\infty\\)</span>. Par densité des\nfonctions continues à support compact, <span\nclass=\"math inline\">\\(f_{n}\\)</span> converge faiblement vers <span\nclass=\"math inline\">\\(0\\)</span>. D’autre part, <span\nclass=\"math inline\">\\(f_n\\)</span> converge presque partout vers <span\nclass=\"math inline\">\\(0\\)</span>. Supposons que <span\nclass=\"math inline\">\\(f_n\\)</span> converge fortement vers une fonction\n<span class=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\(L^2([0, +\\infty[)\\)</span>. Alors il existe une\nsous-suite de <span class=\"math inline\">\\(f_n\\)</span> qui converge\npresque-partout vers <span class=\"math inline\">\\(f\\)</span>, ce qui\nimplique que <span class=\"math inline\">\\(f =0\\)</span> est la seule\nlimite possible. Or : <span class=\"math display\">\\[\\|f_{n}\\|_{2} =\n1\\]</span> pour tout <span class=\"math inline\">\\(n\\)</span>, donc <span\nclass=\"math inline\">\\(\\|f_{n}\\|_2\\)</span> ne tend pas vers <span\nclass=\"math inline\">\\(\\|f\\|_2 = 0\\)</span> ce qui contredit le fait que\n<span class=\"math inline\">\\(f_n\\)</span> converge vers <span\nclass=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\(L^2([0,\n+\\infty[)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "00813bb2-5437-4122-a569-695c2ec36f3d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f_{n}$ converge fortement vers $0$ dans\n$L^{p}([0, +\\infty[)$ pour $p>2$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f_{n}\\)</span> converge\nfortement vers <span class=\"math inline\">\\(0\\)</span> dans <span\nclass=\"math inline\">\\(L^{p}([0, +\\infty[)\\)</span> pour <span\nclass=\"math inline\">\\(p&gt;2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b56b3e0-efe5-491f-9ef5-cb09088002b5",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $p>2$, on a~:\n$$\n\\int_{[0, +\\infty[} |f_{n}(x)|^p\\,dx =  \\int_{n}^{2n}\nn^{-\\frac{p}{2}}\\,dx = n^{1 - \\frac{p}{2}} \\rightarrow 0,\n$$\nquand $n\\rightarrow+\\infty$ donc $f_{n}$ converge fortement vers\n$0$ dans $L^{p}([0, +\\infty[)$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(p&gt;2\\)</span>, on a : <span\nclass=\"math display\">\\[\\int_{[0, +\\infty[} |f_{n}(x)|^p\\,dx\n=  \\int_{n}^{2n}\nn^{-\\frac{p}{2}}\\,dx = n^{1 - \\frac{p}{2}} \\rightarrow 0,\\]</span> quand\n<span class=\"math inline\">\\(n\\rightarrow+\\infty\\)</span> donc <span\nclass=\"math inline\">\\(f_{n}\\)</span> converge fortement vers <span\nclass=\"math inline\">\\(0\\)</span> dans <span\nclass=\"math inline\">\\(L^{p}([0, +\\infty[)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\{f_{n}\\}_{n\\in\\mathbb{N}}\\)</span>\nla suite de fonctions définies par : <span\nclass=\"math display\"> ..."
+}

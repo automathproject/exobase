@@ -1,0 +1,53 @@
+{
+  "uuid": "RqkV",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "560",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Suite définie par une relation de récurrence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:48.857Z"
+  },
+  "contenu": [
+    {
+      "id": "408258d2-4b53-443a-9660-c92f960638b5",
+      "type": "description",
+      "value": {
+        "latex": "On considère la suite réelle définie par~:\n$$x_0=1 \\quad\\mbox{et} \\quad x_{n+1}= \\sqrt{2x_n+1}.$$",
+        "html": "<p>On considère la suite réelle définie par : <span\nclass=\"math display\">\\[x_0=1 \\quad\\mbox{et} \\quad x_{n+1}=\n\\sqrt{2x_n+1}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1a47b280-0f36-48a4-aba2-cb5156b65a40",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $x_n$ est supérieur ou égal à~$1$ pour tout~$n$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(x_n\\)</span> est supérieur ou\négal à <span class=\"math inline\">\\(1\\)</span> pour tout <span\nclass=\"math inline\">\\(n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1e44fc2f-211a-462a-98d7-b9a79cf756d1",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $(x_n)$ converge, sa limite $l$ vérifie\n$$l= \\sqrt{2l+1}.$$",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\((x_n)\\)</span> converge,\nsa limite <span class=\"math inline\">\\(l\\)</span> vérifie <span\nclass=\"math display\">\\[l= \\sqrt{2l+1}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "381efa27-d37e-4ef0-b2c3-354354a7954a",
+      "type": "question",
+      "value": {
+        "latex": "$l$ étant définie par l'égalité de 2), est-il\npossible de trouver $k\\in\\mathopen]0,1\\mathclose[$ tel que\n$$\\vert x_n-l\\vert \\leq k \\vert x_{n-1}-l\\vert.$$\nSi oui en déduire que $\\vert x_n-l\\vert \\leq k^n \\vert x_0-l\\vert$.\nConclure.",
+        "html": "<p><span class=\"math inline\">\\(l\\)</span> étant définie par l’égalité de\n2), est-il possible de trouver <span\nclass=\"math inline\">\\(k\\in\\mathopen]0,1\\mathclose[\\)</span> tel que\n<span class=\"math display\">\\[\\vert x_n-l\\vert \\leq k \\vert\nx_{n-1}-l\\vert.\\]</span> Si oui en déduire que <span\nclass=\"math inline\">\\(\\vert x_n-l\\vert \\leq k^n \\vert\nx_0-l\\vert\\)</span>. Conclure.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la suite réelle définie par : <span\nclass=\"math display\">\\[x_0=1 \\quad\\mbox{et} \\quad x_{n+1}=\n\\sqrt{2x_n+1}.\\]</span></p>\n"
+}

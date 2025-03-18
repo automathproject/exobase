@@ -1,0 +1,157 @@
+{
+  "uuid": "hs4M",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5095",
+    "auteur": "rouget",
+    "createdAt": "2010-06-30",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonctions circulaires et hyperboliques inverses",
+    "sousChapitre": "Fonctions hyperboliques et hyperboliques inverses",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:30.746Z"
+  },
+  "contenu": [
+    {
+      "id": "a24b17f2-279e-4e97-8397-bae758dea011",
+      "type": "description",
+      "value": {
+        "latex": "Simplifier les expressions suivantes",
+        "html": "<p>Simplifier les expressions suivantes</p>\n"
+      }
+    },
+    {
+      "id": "a485f9a3-08eb-4fa5-ad50-dd7b9cfaedcb",
+      "type": "question",
+      "value": {
+        "latex": "$\\sin(2\\Arcsin x)$,",
+        "html": "<p><span class=\"math inline\">\\(\\sin(2\\Arcsin x)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "52c98f6d-b497-47cb-9f93-74616201a2a5",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout réel $x$ de $[-1,1]$, $\\sin(2\\Arcsin x)=2\\sin(\\Arcsin x)\\cos(\\Arcsin x)=2x\\sqrt{1-x^2}$.",
+        "html": "<p>Pour tout réel <span class=\"math inline\">\\(x\\)</span> de <span\nclass=\"math inline\">\\([-1,1]\\)</span>, <span\nclass=\"math inline\">\\(\\sin(2\\Arcsin x)=2\\sin(\\Arcsin x)\\cos(\\Arcsin\nx)=2x\\sqrt{1-x^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c8a27428-b4ca-4ab2-8901-dc979427a51b",
+      "type": "question",
+      "value": {
+        "latex": "$\\cos(2\\Arccos x)$,",
+        "html": "<p><span class=\"math inline\">\\(\\cos(2\\Arccos x)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "c059f76c-be8b-4df3-ab5a-0a75c29c5128",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout réel $x$ de $[-1,1]$, $\\cos(2\\Arccos x)=2\\cos^2(\\Arccos x)-1=2x^2-1$.",
+        "html": "<p>Pour tout réel <span class=\"math inline\">\\(x\\)</span> de <span\nclass=\"math inline\">\\([-1,1]\\)</span>, <span\nclass=\"math inline\">\\(\\cos(2\\Arccos x)=2\\cos^2(\\Arccos\nx)-1=2x^2-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cf5173f6-1089-43c0-9342-613b703d43ed",
+      "type": "question",
+      "value": {
+        "latex": "$\\sin^2\\left(\\frac{\\Arccos x}{2}\\right)$,",
+        "html": "<p><span class=\"math inline\">\\(\\sin^2\\left(\\frac{\\Arccos\nx}{2}\\right)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "744e9ce2-f0e4-4c11-a246-aefa0dacf941",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout réel $x$ de $[-1,1]$,\n$\\sin^2(\\frac{1}{2}\\Arccos x)=\\frac{1}{2}(1-\\cos(\\Arccos x))=\\frac{1-x}{2}$.",
+        "html": "<p>Pour tout réel <span class=\"math inline\">\\(x\\)</span> de <span\nclass=\"math inline\">\\([-1,1]\\)</span>, <span\nclass=\"math inline\">\\(\\sin^2(\\frac{1}{2}\\Arccos\nx)=\\frac{1}{2}(1-\\cos(\\Arccos x))=\\frac{1-x}{2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "088a0221-cb1e-4246-9a26-f40eb750723b",
+      "type": "question",
+      "value": {
+        "latex": "$\\ln(\\sqrt{x^2+1}+x)+\\ln(\\sqrt{x^2+1}-x)$,",
+        "html": "<p><span\nclass=\"math inline\">\\(\\ln(\\sqrt{x^2+1}+x)+\\ln(\\sqrt{x^2+1}-x)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "320f0b4a-9456-4bb6-bfda-d9d995a8831d",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $x\\in\\Rr$.\n\n$$\\sqrt{x^2+1}>\\sqrt{x^2}=|x|=\\mbox{Max}\\{x,-x\\}.$$\nDonc, $\\sqrt{x^2+1}+x>0$ et $\\sqrt{x^2+1}-x>0$. L'expression proposée existe pour tout réel $x$. De plus,\n\n$$\\ln(\\sqrt{x^2+1}+x)+\\ln(\\sqrt{x^2+1}-x)=\\ln\\left((\\sqrt{x^2+1}+x)(\\sqrt{x^2+1}-x)\\right)=\\ln(x^2+1-x^2)=\\ln1=0.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(x\\in\\Rr\\)</span>.</p>\n<p><span\nclass=\"math display\">\\[\\sqrt{x^2+1}&gt;\\sqrt{x^2}=|x|=\\mbox{Max}\\{x,-x\\}.\\]</span>\nDonc, <span class=\"math inline\">\\(\\sqrt{x^2+1}+x&gt;0\\)</span> et <span\nclass=\"math inline\">\\(\\sqrt{x^2+1}-x&gt;0\\)</span>. L’expression\nproposée existe pour tout réel <span class=\"math inline\">\\(x\\)</span>.\nDe plus,</p>\n<p><span\nclass=\"math display\">\\[\\ln(\\sqrt{x^2+1}+x)+\\ln(\\sqrt{x^2+1}-x)=\\ln\\left((\\sqrt{x^2+1}+x)(\\sqrt{x^2+1}-x)\\right)=\\ln(x^2+1-x^2)=\\ln1=0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "0d184427-0ce1-489f-9e2b-95cda823139b",
+      "type": "question",
+      "value": {
+        "latex": "$\\Argsh\\left(\\frac{x^2-1}{2x}\\right)$,",
+        "html": "<p><span\nclass=\"math inline\">\\(\\Argsh\\left(\\frac{x^2-1}{2x}\\right)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "f724b9bc-3223-42a8-99bc-3f6687432db4",
+      "type": "reponse",
+      "value": {
+        "latex": "L'expression proposée est définie sur $\\Rr^*$ et impaire. Soit alors $x>0$.\n\n$$\\begin{align*}\n\\Argsh\\left(\\frac{x^2-1}{2x}\\right)&=\\ln\\left(\\frac{x^2-1}{2x}+\\sqrt{\\frac{(x^2-1)^2}{(2x)^2}+1}\\right)\n=\\ln\\left(\\frac{1}{2x}(x^2-1+\\sqrt{x^4-2x^2+1+4x^2})\\right)\\\\\n &=\\ln\\left(\\frac{1}{2x}(x^2-1+\\sqrt{(x^2+1)^2})\\right)=\\ln\\left(\\frac{1}{2x}(x^2-1+x^2+1)\\right)=\\ln x\n\\end{align*}$$\nPar imparité, si $x<0$, $\\Argsh\\left(\\frac{x^2-1}{2x}\\right)=-\\ln(-x)$. En résumé, en notant $\\varepsilon$ le signe de\n$x$,\n\n\\begin{center}\n\\shadowbox{\n$\\forall x\\in\\Rr^*,\\;\\Argsh\\left(\\frac{x^2-1}{2x}\\right)=\\varepsilon\\ln|x|.$\n}\n\\end{center}",
+        "html": "<p>L’expression proposée est définie sur <span\nclass=\"math inline\">\\(\\Rr^*\\)</span> et impaire. Soit alors <span\nclass=\"math inline\">\\(x&gt;0\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\Argsh\\left(\\frac{x^2-1}{2x}\\right)&amp;=\\ln\\left(\\frac{x^2-1}{2x}+\\sqrt{\\frac{(x^2-1)^2}{(2x)^2}+1}\\right)\n=\\ln\\left(\\frac{1}{2x}(x^2-1+\\sqrt{x^4-2x^2+1+4x^2})\\right)\\\\\n&amp;=\\ln\\left(\\frac{1}{2x}(x^2-1+\\sqrt{(x^2+1)^2})\\right)=\\ln\\left(\\frac{1}{2x}(x^2-1+x^2+1)\\right)=\\ln\nx\n\\end{align*}\\]</span> Par imparité, si <span\nclass=\"math inline\">\\(x&lt;0\\)</span>, <span\nclass=\"math inline\">\\(\\Argsh\\left(\\frac{x^2-1}{2x}\\right)=-\\ln(-x)\\)</span>.\nEn résumé, en notant <span class=\"math inline\">\\(\\varepsilon\\)</span> le\nsigne de <span class=\"math inline\">\\(x\\)</span>,</p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    },
+    {
+      "id": "cc800054-c943-4158-a0a5-e177024f32c5",
+      "type": "question",
+      "value": {
+        "latex": "$\\Argch(2x^2-1)$,",
+        "html": "<p><span class=\"math inline\">\\(\\Argch(2x^2-1)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "90656a86-35a9-4ded-9c0a-a71257c500c9",
+      "type": "reponse",
+      "value": {
+        "latex": "L'expression proposée existe si et seulement si $2x^2-1\\in[1,+\\infty[$ ou encore $x^2\\in[1,+\\infty[$ ou enfin\n$x\\in]-\\infty,-1]\\cup[1,+\\infty[$. Cette expression est paire. Soit donc $x\\in[1,+\\infty[$.\n\n$$\\begin{align*}\n\\Argch(2x^2-1)&=\\ln(2x^2-1+\\sqrt{(2x^2-1)^2-1})=\\ln(2x^2-1+2x\\sqrt{x^2-1})=\\ln\\left(\\left(x+\\sqrt{x^2-1}\\right)^2\\right)\\\\\n &=2\\ln\\left(x+\\sqrt{x^2-1}\\right)=2\\Argch x\n\\end{align*}$$\nPar parité, on en déduit que\n\n\\begin{center}\n\\shadowbox{\n$\\forall x\\in]-\\infty,-1]\\cup[1,+\\infty[,\\;\\Argch(2x^2-1)=2\\Argch|x|.$\n}\n\\end{center}",
+        "html": "<p>L’expression proposée existe si et seulement si <span\nclass=\"math inline\">\\(2x^2-1\\in[1,+\\infty[\\)</span> ou encore <span\nclass=\"math inline\">\\(x^2\\in[1,+\\infty[\\)</span> ou enfin <span\nclass=\"math inline\">\\(x\\in]-\\infty,-1]\\cup[1,+\\infty[\\)</span>. Cette\nexpression est paire. Soit donc <span\nclass=\"math inline\">\\(x\\in[1,+\\infty[\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\Argch(2x^2-1)&amp;=\\ln(2x^2-1+\\sqrt{(2x^2-1)^2-1})=\\ln(2x^2-1+2x\\sqrt{x^2-1})=\\ln\\left(\\left(x+\\sqrt{x^2-1}\\right)^2\\right)\\\\\n&amp;=2\\ln\\left(x+\\sqrt{x^2-1}\\right)=2\\Argch x\n\\end{align*}\\]</span> Par parité, on en déduit que</p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    },
+    {
+      "id": "9240c1a1-643f-4812-bf04-91bbeaedb8fe",
+      "type": "question",
+      "value": {
+        "latex": "$\\Argth\\left(\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}\\right)$,",
+        "html": "<p><span class=\"math inline\">\\(\\Argth\\left(\\sqrt{\\frac{\\ch x-1}{\\ch\nx+1}}\\right)\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "45567d8b-3621-46a5-bdcc-5433384f8e65",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $x\\in\\Rr$.\n\n$$\\begin{align*}\n\\Argth\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}\\;\\mbox{existe}&\\Leftrightarrow\\ch x+1\\neq0\\;\\mbox{et}\\;\\frac{\\ch x-1}{\\ch\nx+1}\\geq0\\;\\mbox{et}\\;\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}\\in]-1,1[\\\\\n &\\Leftrightarrow\\frac{\\ch x-1}{\\ch x+1}\\in[0,1[\n\\end{align*}$$\nMais, d'une part, $\\frac{\\ch x-1}{\\ch x+1}\\geq0$ et d'autre part, $\\frac{\\ch x-1}{\\ch x+1}=\\frac{\\ch x+1-2}\n{\\ch x+1}=1-\\frac{2}{\\ch x+1}<1$. L'expression proposée existe donc pour tout réel $x$ et est paire. Ensuite, pour $x$ réel positif, on a\n\n$$\\begin{align*}\n\\frac{1+\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}}{1-\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}}\n&=\\frac{\\sqrt{\\ch x+1}+\\sqrt{\\ch x-1}}{\\sqrt{\\ch x+1}-\\sqrt{\\ch x-1}}=\n\\frac{(\\sqrt{\\ch x+1}+\\sqrt{\\ch x-1})^2}{(\\ch x+1)-(\\ch x-1)}=\\frac{2\\ch x+2\\sqrt{\\ch^2x-1}}{2}\\\\\n &=\\ch x+\\sqrt{\\sh^2x}=\\ch x+|\\sh x|=\\ch x+\\sh x=e^x\n\\end{align*}$$\nPar suite, $x$ étant toujours positif,\n\n$$\\Argth\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}=\\frac{1}{2}\\ln(e^x)=\\frac{x}{2}.$$\nPar parité, on a alors\n\n\\begin{center}\n\\shadowbox{\n$\\forall x\\in\\Rr,\\;\\Argth\\left(\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}\\right)=\\frac{|x|}{2}.$\n}\n\\end{center}\n(Remarque. Pour 5), 6) et 7), on peut aussi dériver chaque expression)",
+        "html": "<p>Soit <span class=\"math inline\">\\(x\\in\\Rr\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\Argth\\sqrt{\\frac{\\ch x-1}{\\ch\nx+1}}\\;\\mbox{existe}&amp;\\Leftrightarrow\\ch\nx+1\\neq0\\;\\mbox{et}\\;\\frac{\\ch x-1}{\\ch\nx+1}\\geq0\\;\\mbox{et}\\;\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}\\in]-1,1[\\\\\n&amp;\\Leftrightarrow\\frac{\\ch x-1}{\\ch x+1}\\in[0,1[\n\\end{align*}\\]</span> Mais, d’une part, <span\nclass=\"math inline\">\\(\\frac{\\ch x-1}{\\ch x+1}\\geq0\\)</span> et d’autre\npart, <span class=\"math inline\">\\(\\frac{\\ch x-1}{\\ch x+1}=\\frac{\\ch\nx+1-2}\n{\\ch x+1}=1-\\frac{2}{\\ch x+1}&lt;1\\)</span>. L’expression proposée\nexiste donc pour tout réel <span class=\"math inline\">\\(x\\)</span> et est\npaire. Ensuite, pour <span class=\"math inline\">\\(x\\)</span> réel\npositif, on a</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\frac{1+\\sqrt{\\frac{\\ch x-1}{\\ch x+1}}}{1-\\sqrt{\\frac{\\ch x-1}{\\ch\nx+1}}}\n&amp;=\\frac{\\sqrt{\\ch x+1}+\\sqrt{\\ch x-1}}{\\sqrt{\\ch x+1}-\\sqrt{\\ch\nx-1}}=\n\\frac{(\\sqrt{\\ch x+1}+\\sqrt{\\ch x-1})^2}{(\\ch x+1)-(\\ch x-1)}=\\frac{2\\ch\nx+2\\sqrt{\\ch^2x-1}}{2}\\\\\n&amp;=\\ch x+\\sqrt{\\sh^2x}=\\ch x+|\\sh x|=\\ch x+\\sh x=e^x\n\\end{align*}\\]</span> Par suite, <span class=\"math inline\">\\(x\\)</span>\nétant toujours positif,</p>\n<p><span class=\"math display\">\\[\\Argth\\sqrt{\\frac{\\ch x-1}{\\ch\nx+1}}=\\frac{1}{2}\\ln(e^x)=\\frac{x}{2}.\\]</span> Par parité, on a\nalors</p>\n<div class=\"center\">\n\n</div>\n<p>(Remarque. Pour 5), 6) et 7), on peut aussi dériver chaque\nexpression)</p>\n"
+      }
+    },
+    {
+      "id": "ce0ef599-4690-45f9-a4f0-c971a01764ca",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{\\ch(\\ln x)+\\sh(\\ln x)}{x}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{\\ch(\\ln x)+\\sh(\\ln\nx)}{x}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5a884c07-50da-43a7-808e-e6b543fbda0b",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $x>0$,\n\n$$\\begin{align*}\n\\frac{\\ch(\\ln x)+\\sh(\\ln x)}{x}&=\\frac{1}{2x}\\left(x+\\frac{1}{x}+x-\\frac{1}{x}\\right)=1.\n\\end{align*}$$",
+        "html": "<p>Pour <span class=\"math inline\">\\(x&gt;0\\)</span>,</p>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\frac{\\ch(\\ln x)+\\sh(\\ln\nx)}{x}&amp;=\\frac{1}{2x}\\left(x+\\frac{1}{x}+x-\\frac{1}{x}\\right)=1.\n\\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Simplifier les expressions suivantes</p>\n"
+}

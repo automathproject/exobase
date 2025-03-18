@@ -1,0 +1,221 @@
+{
+  "uuid": "WSaZ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3451",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:56.114Z"
+  },
+  "contenu": [
+    {
+      "id": "e46a17d3-bf78-427e-bc0d-867ee063a048",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les déterminants suivants :",
+        "html": "<p>Calculer les déterminants suivants :</p>\n"
+      }
+    },
+    {
+      "id": "e32aa01e-7445-48e7-8559-008a4fcf7b5b",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}  x &a &b &x \\cr                                      \n                 b &x &x &a \\cr                                      \n                 x &b &a &x \\end{vmatrix}$.                                      ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}  x &amp;a &amp;b &amp;x\n\\cr                                      \n                 b &amp;x &amp;x &amp;a\n\\cr                                      \n                 x &amp;b &amp;a &amp;x \\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "20260970-64ba-4f09-b495-28ec0d2093e2",
+      "type": "reponse",
+      "value": {
+        "latex": "$(b-a)^2(a+b+2x)(a+b-2x)$.",
+        "html": "<p><span class=\"math inline\">\\((b-a)^2(a+b+2x)(a+b-2x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "87ff55a1-6883-4237-badf-fa25deb25e03",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} a-b-c &2a    &2a    \\cr                      \n                2b    &b-c-a &2b    \\cr                      \n                2c    &2c    &c-a-b \\cr \\end{vmatrix}$.                  ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix} a-b-c\n&amp;2a    &amp;2a    \\cr                      \n                2b    &amp;b-c-a &amp;2b    \\cr                      \n                2c    &amp;2c    &amp;c-a-b \\cr\n\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2da1eb85-6f3a-4c55-b000-7fae21529f99",
+      "type": "reponse",
+      "value": {
+        "latex": "$(a+b+c)^3$",
+        "html": "<p><span class=\"math inline\">\\((a+b+c)^3\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9c12a07a-8080-4f11-8046-cabb49fb5092",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} a+b     &b+c     &c+a     \\cr                  \n                a^2+b^2 &b^2+c^2 &c^2+a^2 \\cr                  \n                a^3+b^3 &b^3+c^3 &c^3+a^3 \\cr \\end{vmatrix}$.              ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}\na+b     &amp;b+c     &amp;c+a     \\cr                  \n                a^2+b^2 &amp;b^2+c^2 &amp;c^2+a^2 \\cr                  \n                a^3+b^3 &amp;b^3+c^3 &amp;c^3+a^3 \\cr\n\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "78568fb8-dd91-403f-8da5-baef6f4321e6",
+      "type": "reponse",
+      "value": {
+        "latex": "$2abc(a-b)(b-c)(c-a)$",
+        "html": "<p><span class=\"math inline\">\\(2abc(a-b)(b-c)(c-a)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "ab473283-bc6d-4e59-bf84-9ae1935d5cae",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} a+b &ab &a^2+b^2 \\cr                         \n                b+c &bc &b^2+c^2 \\cr                         \n                c+a &ca &c^2+a^2 \\cr \\end{vmatrix}\n                $.                     ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix} a+b &amp;ab &amp;a^2+b^2\n\\cr                         \n                b+c &amp;bc &amp;b^2+c^2 \\cr                         \n                c+a &amp;ca &amp;c^2+a^2 \\cr \\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "375ca0fa-27cd-4efb-9481-c8f4c22023e9",
+      "type": "reponse",
+      "value": {
+        "latex": "$(a-b)(b-c)(c-a)(ab+ac+bc)$.",
+        "html": "<p><span class=\"math inline\">\\((a-b)(b-c)(c-a)(ab+ac+bc)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "27dcd979-bb62-4809-91ee-ee9eee228997",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} a^2 &b^2 &ab  \\cr                                \n                b^2 &ab  &a^2 \\cr                                \n                ab  &a^2 &b^2 \\cr \\end{vmatrix}$.                            ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix} a^2 &amp;b^2\n&amp;ab  \\cr                                \n                b^2 &amp;ab  &amp;a^2\n\\cr                                \n                ab  &amp;a^2 &amp;b^2 \\cr \\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "80e4c8af-0190-41b8-ac6d-8b9a3bccb397",
+      "type": "reponse",
+      "value": {
+        "latex": "$-(a^3-b^3)^2$.",
+        "html": "<p><span class=\"math inline\">\\(-(a^3-b^3)^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f52d901-a052-4ab1-8c9f-3e634ee43777",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}   a & b      &        &(0)  \\cr     \n                   c & \\ddots & \\ddots       \\cr     \n                     & \\ddots & \\ddots & b   \\cr     \n                  (0)&        & c      & a   \\cr \\end{vmatrix}$.\n     \\label{tridiag}",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}   a &amp;\nb      &amp;        &amp;(0)  \\cr     \n                   c &amp; \\ddots &amp; \\ddots       \\cr     \n                     &amp; \\ddots &amp; \\ddots &amp; b   \\cr     \n                  (0)&amp;        &amp; c      &amp; a   \\cr\n\\end{vmatrix}\\)</span>. <span id=\"tridiag\" label=\"tridiag\"></span></p>\n"
+      }
+    },
+    {
+      "id": "c1f7c198-4527-4eb8-b7da-fd0754610d39",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac {\\alpha^{n+1} - \\beta^{n+1}}{\\alpha - \\beta}$\n              où $\\alpha \\ne \\beta$ sont les racines de $X^2 - aX + bc = 0$.\n              \\par\n              $(n+1)\\left(\\frac a2\\right)^n$ si $\\alpha = \\beta$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac {\\alpha^{n+1} - \\beta^{n+1}}{\\alpha\n- \\beta}\\)</span> où <span class=\"math inline\">\\(\\alpha \\ne\n\\beta\\)</span> sont les racines de <span class=\"math inline\">\\(X^2 - aX\n+ bc = 0\\)</span>.</p>\n<p><span class=\"math inline\">\\((n+1)\\left(\\frac a2\\right)^n\\)</span> si\n<span class=\"math inline\">\\(\\alpha = \\beta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "05c5eccf-f7f4-4d59-92b0-555b8ef44020",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}a      &b       &\\dots   &b       \\cr               \n               b      &\\ddots  &(0)     &\\vdots  \\cr               \n               \\vdots &(0)     &\\ddots  &b       \\cr               \n               b      &\\dots   &b       &a       \\cr\\end{vmatrix}$.\n     \n                                                   \n                                                   \n                                                   ",
+        "html": "<p><span\nclass=\"math inline\">\\(\\begin{vmatrix}a      &amp;b       &amp;\\dots   &amp;b       \\cr               \n               b      &amp;\\ddots  &amp;(0)     &amp;\\vdots  \\cr               \n               \\vdots\n&amp;(0)     &amp;\\ddots  &amp;b       \\cr               \n               b      &amp;\\dots   &amp;b       &amp;a       \\cr\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "deaaae49-38f4-4db5-89e6-c49c0ea2c8ad",
+      "type": "reponse",
+      "value": {
+        "latex": "$a^{n-3}(a-b)\\bigl(a^2 + ab -2(n-2)b^2\\bigr)$.",
+        "html": "<p><span class=\"math inline\">\\(a^{n-3}(a-b)\\bigl(a^2 + ab\n-2(n-2)b^2\\bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "16ceb01b-1902-4fce-947c-b9d71215c073",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} C_n^0\\hfill  & C_n^1\\hfill  & \\dots & C_n^p\\hfill  \\cr\n                C_{n+1}^0    & C_{n+1}^1    & \\dots & C_{n+1}^p    \\cr\n                \\vdots       & \\vdots       &       & \\vdots       \\cr\n                C_{n+p}^0    & C_{n+p}^1    & \\dots & C_{n+p}^p    \\cr \\end{vmatrix}$.\n \n \n                                                                \n                                                                \n                                                                ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix} C_n^0\\hfill  &amp;\nC_n^1\\hfill  &amp; \\dots &amp; C_n^p\\hfill  \\cr\n                C_{n+1}^0    &amp; C_{n+1}^1    &amp; \\dots &amp;\nC_{n+1}^p    \\cr\n                \\vdots       &amp; \\vdots       &amp;       &amp;\n\\vdots       \\cr\n                C_{n+p}^0    &amp; C_{n+p}^1    &amp; \\dots &amp;\nC_{n+p}^p    \\cr \\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b6268ea7-0888-49b5-93da-a7aaca3bf4bb",
+      "type": "reponse",
+      "value": {
+        "latex": "1.",
+        "html": "<p>1.</p>\n"
+      }
+    },
+    {
+      "id": "f00429be-116a-4b20-b531-d3901782e13c",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}\n               a_1 + b_1 & b_1       & \\dots  & \\dots  & b_1       \\cr\n               b_2       & a_2 + b_2 & b_2    & \\dots  & b_2       \\cr\n               \\vdots    &           & \\ddots &        & \\vdots    \\cr\n               \\vdots    &           &        & \\ddots & b_{n-1}   \\cr\n               b_n       & \\dots     & \\dots  & b_n    & a_n + b_n \\cr \\end{vmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}\n               a_1 + b_1 &amp; b_1       &amp; \\dots  &amp; \\dots  &amp;\nb_1       \\cr\n               b_2       &amp; a_2 + b_2 &amp; b_2    &amp; \\dots  &amp;\nb_2       \\cr\n               \\vdots    &amp;           &amp; \\ddots &amp;        &amp;\n\\vdots    \\cr\n               \\vdots    &amp;           &amp;        &amp; \\ddots &amp;\nb_{n-1}   \\cr\n               b_n       &amp; \\dots     &amp; \\dots  &amp; b_n    &amp;\na_n + b_n \\cr \\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "10e9ac06-932e-49f1-850e-790cf5a195c7",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_1 a_2 \\dots a_n\\left(1+\\frac{b_1}{a_1}+ \\dots\n              + \\frac{b_n}{a_n}\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(a_1 a_2 \\dots a_n\\left(1+\\frac{b_1}{a_1}+\n\\dots\n              + \\frac{b_n}{a_n}\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "41b71ce4-336d-42fa-a004-71d48ae8b858",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} a_1-b_1 &\\dots &a_1-b_n \\cr                        \n                \\vdots  &\\dots &\\vdots  \\cr                        \n                a_n-b_1 &\\dots &a_n-b_n \\cr \\end{vmatrix}$, $(n \\ge 3)$.       ",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix} a_1-b_1 &amp;\\dots\n&amp;a_1-b_n \\cr                        \n                \\vdots  &amp;\\dots\n&amp;\\vdots  \\cr                        \n                a_n-b_1 &amp;\\dots &amp;a_n-b_n \\cr\n\\end{vmatrix}\\)</span>, <span class=\"math inline\">\\((n \\ge\n3)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2c08899a-28fa-4b55-9322-d13125bc7657",
+      "type": "reponse",
+      "value": {
+        "latex": "0",
+        "html": "<p>0</p>\n"
+      }
+    },
+    {
+      "id": "900a9d13-1c95-4313-adf0-88209d4129e7",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} 1     & 2     & \\dots & n     \\cr   \n                2     & 3     & \\dots & 1     \\cr   \n                \\vdots& \\vdots&       & \\vdots\\cr   \n                n     & 1     & \\dots & n-1   \\cr\\end{vmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix} 1     &amp; 2     &amp;\n\\dots &amp; n     \\cr   \n                2     &amp; 3     &amp; \\dots &amp; 1     \\cr   \n                \\vdots&amp; \\vdots&amp;       &amp; \\vdots\\cr   \n                n     &amp; 1     &amp; \\dots &amp;\nn-1   \\cr\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c487b23b-d6fd-486c-801b-34584a6cb180",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\varepsilon_n \\frac {n^{n-1}(n+1)}2$.",
+        "html": "<p><span class=\"math inline\">\\(\\varepsilon_n \\frac\n{n^{n-1}(n+1)}2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a37e9feb-c868-4a94-954d-f87fe56db937",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix} 0      &1     &2      &\\dots  &n-1     \\cr         \n                1      &0     &1      &       &\\vdots  \\cr         \n                2      &1     &0      &\\ddots &2       \\cr         \n                \\vdots &      &\\ddots &\\ddots &1       \\cr\n                n-1    &\\dots &2      &1      &0       \\cr\\end{vmatrix}$.\n   \n \n \n Pour \\ref{tridiag} : Chercher une relation de récurrence linéaire d'ordre 2.\n On notera $\\alpha$ et $\\beta$ les racines dans $\\C$ de l'équation\n caractéristique, et on exprimera le déterminant en fonction de $\\alpha$ et\n $\\beta$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}\n0      &amp;1     &amp;2      &amp;\\dots  &amp;n-1     \\cr         \n                1      &amp;0     &amp;1      &amp;       &amp;\\vdots  \\cr         \n                2      &amp;1     &amp;0      &amp;\\ddots\n&amp;2       \\cr         \n                \\vdots &amp;      &amp;\\ddots &amp;\\ddots\n&amp;1       \\cr\n                n-1    &amp;\\dots\n&amp;2      &amp;1      &amp;0       \\cr\\end{vmatrix}\\)</span>.</p>\n<p>Pour <a href=\"#tridiag\" data-reference-type=\"ref\"\ndata-reference=\"tridiag\">[tridiag]</a> : Chercher une relation de\nrécurrence linéaire d’ordre 2. On notera <span\nclass=\"math inline\">\\(\\alpha\\)</span> et <span\nclass=\"math inline\">\\(\\beta\\)</span> les racines dans <span\nclass=\"math inline\">\\(\\C\\)</span> de l’équation caractéristique, et on\nexprimera le déterminant en fonction de <span\nclass=\"math inline\">\\(\\alpha\\)</span> et <span\nclass=\"math inline\">\\(\\beta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0c622c1a-0105-4d48-90d9-da27944f86cf",
+      "type": "reponse",
+      "value": {
+        "latex": "$(-1)^{n-1}(n-1)2^{n-2}$.",
+        "html": "<p><span class=\"math inline\">\\((-1)^{n-1}(n-1)2^{n-2}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les déterminants suivants :</p>\n"
+}

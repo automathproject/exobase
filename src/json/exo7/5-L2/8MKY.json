@@ -1,0 +1,37 @@
+{
+  "uuid": "8MKY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4336",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:37.718Z"
+  },
+  "contenu": [
+    {
+      "id": "5dd0b674-8142-44ba-b930-2b2644786899",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {[0,+\\infty[} \\to {\\R^+}$ continue telle que\n$f(x) \\int_{t=0}^x f^2(t)\\,d t \\to \\ell\\ne 0$ (lorsque $x\\to+\\infty$).\nTrouver un équivalent de $f$ en~$+\\infty$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[0,+\\infty[} \\to\n{\\R^+}\\)</span> continue telle que <span class=\"math inline\">\\(f(x)\n\\int_{t=0}^x f^2(t)\\,d t \\to \\ell\\ne 0\\)</span> (lorsque <span\nclass=\"math inline\">\\(x\\to+\\infty\\)</span>). Trouver un équivalent de\n<span class=\"math inline\">\\(f\\)</span> en <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aa8a4030-1b5e-4521-a18e-fea5dc918059",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\Phi(x) =  \\int_{t=0}^x f^2(t)\\,d t  \\Rightarrow  \\Phi'\\Phi^2 \\to \\ell^2\n          \\Rightarrow  \\Phi^3 \\sim 3\\ell^2 x  \\Rightarrow  f = \\sqrt{\\Phi'} \\sim \\sqrt[3]{\\frac \\ell{3x}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\Phi(x) =  \\int_{t=0}^x f^2(t)\\,d\nt  \\Rightarrow  \\Phi&#39;\\Phi^2 \\to \\ell^2\n          \\Rightarrow  \\Phi^3 \\sim 3\\ell^2 x  \\Rightarrow  f =\n\\sqrt{\\Phi&#39;} \\sim \\sqrt[3]{\\frac \\ell{3x}}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {[0,+\\infty[} \\to\n{\\R^+}\\)</span> continue telle que <span class=\"math inline\"> ..."
+}

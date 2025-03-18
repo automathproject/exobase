@@ -1,0 +1,37 @@
+{
+  "uuid": "QXqT",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2900",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Binôme de Newton et combinaison",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:21.146Z"
+  },
+  "contenu": [
+    {
+      "id": "704037bf-090c-419e-9288-d12870e4a7f5",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $\\sum_{k=0}^n\\, kC_n^k$ et $\\sum_{k=0}^n \\frac{C_n^k}{k+1}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\sum_{k=0}^n\\, kC_n^k\\)</span>\net <span class=\"math inline\">\\(\\sum_{k=0}^n\n\\frac{C_n^k}{k+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac81f184-0ec5-49b7-ae2d-c59a6a239eaa",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{k=0}^n kC_n^k = n2^{n-1}$, \\qquad $\\sum_{k=0}^n\n\\frac{C_n^k}{k+1} = \\frac {2^{n+1}-1}{n+1}$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{k=0}^n kC_n^k = n2^{n-1}\\)</span>,\n<span class=\"math inline\">\\(\\sum_{k=0}^n\n\\frac{C_n^k}{k+1} = \\frac {2^{n+1}-1}{n+1}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(\\sum_{k=0}^n\\, kC_n^k\\)</span>\net <span class=\"math inline\">\\(\\sum_{k=0}^n\n\\frac{C_n^k}{k+1}\\)</span>.</p>\n"
+}

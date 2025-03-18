@@ -1,0 +1,253 @@
+{
+  "uuid": "LUvs",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4381",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale multiple",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:02.377Z"
+  },
+  "contenu": [
+    {
+      "id": "b1d6f0b9-1076-4569-bae9-02164351e5f7",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $\\iint_D^{} f(x,y)\\,d xd y$ :",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\iint_D^{} f(x,y)\\,d xd\ny\\)</span> :</p>\n"
+      }
+    },
+    {
+      "id": "b2716884-68e3-48ea-8265-f8db51cbf650",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{y\\ge0, x+y\\le1, y-x\\le1\\}$,                     \\par\\nobreak $f(x,y)=x^2y$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{y\\ge0, x+y\\le1,\ny-x\\le1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=x^2y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ceb6f960-6762-43e1-b581-0c911be6c6e7",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac1{30}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac1{30}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2c69950f-90cf-4e22-a8de-da56c39cd60e",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x^2+y^2\\le R^2\\}$,                              \\par\\nobreak $f(x,y)=x^2y$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x^2+y^2\\le R^2\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=x^2y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4c41bc11-7b47-477c-a33b-f9f79c038c6c",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$.",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "24d87641-0ff2-4eba-a8a3-06a88aa7c232",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{\\frac{x^2}{a^2} + \\frac{y^2}{b^2} \\le 1\\}$,   \\par\\nobreak $f(x,y)=x^2 + y^2$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{\\frac{x^2}{a^2} + \\frac{y^2}{b^2} \\le\n1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=x^2 + y^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "77939d1c-ca8d-49e8-98ef-2f037e2877e8",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac\\pi4 ab(a^2+b^2)$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac\\pi4 ab(a^2+b^2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7bd590c6-8e8a-465e-b3fb-9c4d3cb66252",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{0 \\le x \\le 1-\\frac{y^2}4\\}$,                  \\par\\nobreak $f(x,y)=x^2 + y^2$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{0 \\le x \\le\n1-\\frac{y^2}4\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=x^2 + y^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9d0f0c79-3340-449b-8248-f61138b2a81c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{96}{35}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{96}{35}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "42c47896-2716-478e-8052-37ce76616f83",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x^2+y^2 \\le 1\\}$,                               \\par\\nobreak $f(x,y)=(x+y)^2$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x^2+y^2 \\le 1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=(x+y)^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8e382327-ffe9-41be-be58-2912abaa7297",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac\\pi2$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac\\pi2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a410e791-f609-4aba-922a-3d80cd70cf8b",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x^2+y^2 \\le 1\\}$,                               \\par\\nobreak $f(x,y)=\\frac{(x+y)^2}{x^2+y^2+1}$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x^2+y^2 \\le 1\\}\\)</span>,</p>\n<p><span\nclass=\"math inline\">\\(f(x,y)=\\frac{(x+y)^2}{x^2+y^2+1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "36bb565c-3a5b-47df-b94f-410e2aacebcb",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\pi(1-\\ln 2)$.",
+        "html": "<p><span class=\"math inline\">\\(\\pi(1-\\ln 2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6834e169-1a8d-4798-8bcd-44a6e91baa2a",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x\\ge0, y\\ge0, x+y\\le1\\}$,                       \\par\\nobreak $f(x,y)=x+y+1$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x\\ge0, y\\ge0, x+y\\le1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=x+y+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "21f81e18-8ca4-458a-8ad5-9c0f763de646",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac56$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac56\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9b44e83b-06ca-4b07-8a75-ea8d191c8eaf",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{|x+y|\\le1,|x-y|\\le1\\}$,                         \\par\\nobreak $f(x,y)=\\ln(x+y+1)$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{|x+y|\\le1,|x-y|\\le1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=\\ln(x+y+1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "78a61b3f-32d9-4190-a22d-0e110f95e4e3",
+      "type": "reponse",
+      "value": {
+        "latex": "$2(\\ln 2-1)$.",
+        "html": "<p><span class=\"math inline\">\\(2(\\ln 2-1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ff756e08-b4c9-4fd6-8081-eb566b9a61b6",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x\\ge0, y\\ge0, x+y\\le\\pi\\}$,                     \\par\\nobreak $f(x,y)=(x+y)\\sin x\\sin y$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x\\ge0, y\\ge0,\nx+y\\le\\pi\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=(x+y)\\sin x\\sin y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8f5f5bd8-e29f-4148-b851-f185dbbfbc16",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{3\\pi}2$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{3\\pi}2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3bb09b51-efb0-4f34-8a9e-ad0883b5221e",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{|x|\\le x^2+y^2\\le 1\\}$,                         \\par\\nobreak $f(x,y)=(1+x^2+y^2)^2$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{|x|\\le x^2+y^2\\le 1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=(1+x^2+y^2)^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4abf62a6-e2ba-4973-b27a-0514506b6b20",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{65\\pi}{48}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{65\\pi}{48}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "652e114e-74ae-483f-b9b6-e5675b135bbb",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x\\ge0, y\\ge0, x+y\\le a\\}$,                      \\par\\nobreak $f(x,y)=x+y+\\sqrt{a^2+(x+y)^2}$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x\\ge0, y\\ge0, x+y\\le\na\\}\\)</span>,</p>\n<p><span\nclass=\"math inline\">\\(f(x,y)=x+y+\\sqrt{a^2+(x+y)^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "70591698-e1b9-4bdf-b271-ab3cbe6ab4b6",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{2\\sqrt2}3 a^3$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{2\\sqrt2}3 a^3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "be5ab647-a086-42c2-b2c6-b1ba390390b9",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x\\ge0, y\\ge0, x^2+y^2\\le 1\\}$,                  \\par\\nobreak $f(x,y)=xy\\sqrt{x^2+4y^2}$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x\\ge0, y\\ge0, x^2+y^2\\le\n1\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=xy\\sqrt{x^2+4y^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4c733eb3-0930-4726-a930-8d0f0e112893",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac7{45}$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac7{45}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6858f2e9-fa36-46b4-8f76-bdb662af59df",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{x^2+y^2-2y \\le 0\\}$,                            \\par\\nobreak $f(x,y)=y\\exp(x^2+y^2-2y)$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{x^2+y^2-2y \\le 0\\}\\)</span>,</p>\n<p><span class=\"math inline\">\\(f(x,y)=y\\exp(x^2+y^2-2y)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "119a4dc2-4f0e-4ad6-8eb4-2db25ac2cc84",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\pi(1-\\frac1e )$.",
+        "html": "<p><span class=\"math inline\">\\(\\pi(1-\\frac1e )\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8f9a3d4d-b189-4fa9-8f15-c45a1264c22d",
+      "type": "question",
+      "value": {
+        "latex": "$D=\\{y^2 \\le 2px, x^2 \\le 2py\\}$,                    \\par\\nobreak $f(x,y)=\\exp\\left(\\frac{x^3+y^3}{xy}\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(D=\\{y^2 \\le 2px, x^2 \\le\n2py\\}\\)</span>,</p>\n<p><span\nclass=\"math inline\">\\(f(x,y)=\\exp\\left(\\frac{x^3+y^3}{xy}\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5f8a3c7c-d472-4284-a806-632551384707",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{(e^{2p}-1)^2}3 \\quad (x=u^2v,y=uv^2)$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(e^{2p}-1)^2}3 \\quad\n(x=u^2v,y=uv^2)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(\\iint_D^{} f(x,y)\\,d xd\ny\\)</span> :</p>\n"
+}

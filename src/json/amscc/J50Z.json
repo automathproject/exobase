@@ -1,0 +1,71 @@
+{
+  "uuid": "J50Z",
+  "titre": "Evolution d'une concentration chimique",
+  "theme": [
+    "analyse numérique"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-03-20",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:29.991Z"
+  },
+  "contenu": [
+    {
+      "id": "fa47cb50-1152-4d7e-8044-30c466723863",
+      "type": "description",
+      "value": {
+        "latex": "L'évolution de la concentration de certaines réactions chimiques au cours du temps peut être décrite par l'équation différentielle :\n\t$$y'(t) = - \\frac{1}{1+t^2}y(t)$$",
+        "html": "<p>L’évolution de la concentration de certaines réactions chimiques au\ncours du temps peut être décrite par l’équation différentielle : <span\nclass=\"math display\">\\[y&#39;(t) = - \\frac{1}{1+t^2}y(t)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "fa975ff6-6cdc-408c-b726-a26acfe2c3a1",
+      "type": "question",
+      "value": {
+        "latex": "Sachant qu'à l'instant $t=0$, la concentration vaut $y(0)=5$, déterminer la concentration en $t=2$ à l'aide de la méthode d'Euler implicite avec un pas $h=0.5$.",
+        "html": "<p>Sachant qu’à l’instant <span class=\"math inline\">\\(t=0\\)</span>, la\nconcentration vaut <span class=\"math inline\">\\(y(0)=5\\)</span>,\ndéterminer la concentration en <span class=\"math inline\">\\(t=2\\)</span>\nà l’aide de la méthode d’Euler implicite avec un pas <span\nclass=\"math inline\">\\(h=0.5\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "83912d2b-e752-434d-9406-1266921038bc",
+      "type": "reponse",
+      "value": {
+        "latex": "Le schéma implicite s'écrit \n\t\t$$y_{n+1} = y_n + hF(t_{n+1},y_{n+1})$$\n\t\toù $F(t,y) = - \\frac{1}{1+t^2}y$.\n\t\t\n\t\tAprès réécriture sous forme explicite, on obtient \n\t\t$$y_{n+1}=\\frac{y_n}{1+ \\frac{h}{1+t_{n+1}^2} }$$\n\t\tAvec $h=0.5$, on a $t_n = \\frac{n}{2}$.\n\t\t\n\t\tAprès calculs, on trouve $y_4 = \\frac{520}{231} \\approx 2.25$ soit $y(2) \\approx 2.25$.",
+        "html": "<p>Le schéma implicite s’écrit <span class=\"math display\">\\[y_{n+1} =\ny_n + hF(t_{n+1},y_{n+1})\\]</span> où <span class=\"math inline\">\\(F(t,y)\n= - \\frac{1}{1+t^2}y\\)</span>.</p>\n<p>Après réécriture sous forme explicite, on obtient <span\nclass=\"math display\">\\[y_{n+1}=\\frac{y_n}{1+ \\frac{h}{1+t_{n+1}^2}\n}\\]</span> Avec <span class=\"math inline\">\\(h=0.5\\)</span>, on a <span\nclass=\"math inline\">\\(t_n = \\frac{n}{2}\\)</span>.</p>\n<p>Après calculs, on trouve <span class=\"math inline\">\\(y_4 =\n\\frac{520}{231} \\approx 2.25\\)</span> soit <span\nclass=\"math inline\">\\(y(2) \\approx 2.25\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "de159932-3549-490a-ba4b-e5a287462bd0",
+      "type": "question",
+      "value": {
+        "latex": "Faire de même pour un pas de $h=10^{-3}$ et commenter la différence.",
+        "html": "<p>Faire de même pour un pas de <span\nclass=\"math inline\">\\(h=10^{-3}\\)</span> et commenter la différence.</p>\n"
+      }
+    },
+    {
+      "id": "11fbc79a-17f3-4bb9-9435-11be9340b73f",
+      "type": "question",
+      "value": {
+        "latex": "Résoudre analytiquement l'équation différentielle, puis proposer sur un même graphique la solution approchée de la méthode d'Euler implicite et la solution exacte pour différentes valeurs de $h$.",
+        "html": "<p>Résoudre analytiquement l’équation différentielle, puis proposer sur\nun même graphique la solution approchée de la méthode d’Euler implicite\net la solution exacte pour différentes valeurs de <span\nclass=\"math inline\">\\(h\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "91c35aef-6829-482d-ab64-3c17096e1039",
+      "type": "reponse",
+      "value": {
+        "latex": "\\insertnotebook{J50Z}",
+        "html": "\n"
+      }
+    }
+  ],
+  "preview": "<p>L’évolution de la concentration de certaines réactions chimiques au\ncours du temps peut être décrite par l’équation différentielle : <span\nclass=\"m ..."
+}

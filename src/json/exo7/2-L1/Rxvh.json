@@ -1,0 +1,93 @@
+{
+  "uuid": "Rxvh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4038",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Développements limités implicites",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:49.107Z"
+  },
+  "contenu": [
+    {
+      "id": "cd50a8ec-26f3-438d-a3f6-7988af414bf9",
+      "type": "description",
+      "value": {
+        "latex": "On note $f_n(x) = x\\cos^nx$. Soit $x_n \\in \\left[0,\\frac \\pi2 \\right]$ tel que\n$f_n(x_n)$ soit maximal.",
+        "html": "<p>On note <span class=\"math inline\">\\(f_n(x) = x\\cos^nx\\)</span>. Soit\n<span class=\"math inline\">\\(x_n \\in \\left[0,\\frac \\pi2 \\right]\\)</span>\ntel que <span class=\"math inline\">\\(f_n(x_n)\\)</span> soit maximal.</p>\n"
+      }
+    },
+    {
+      "id": "d0113609-5c91-4f20-8320-d6f8d373a623",
+      "type": "question",
+      "value": {
+        "latex": "Existence et unicité de $x_n$ ?",
+        "html": "<p>Existence et unicité de <span class=\"math inline\">\\(x_n\\)</span>\n?</p>\n"
+      }
+    },
+    {
+      "id": "64117908-8bd2-4fa5-b78a-8c104c774d5a",
+      "type": "reponse",
+      "value": {
+        "latex": "$f_n'(x) = 0 \\iff \\mathrm{cotan} x = nx$.",
+        "html": "<p><span class=\"math inline\">\\(f_n&#39;(x) = 0 \\iff \\mathrm{cotan} x =\nnx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dcd8f74e-fd57-42ec-a960-15c1a32fd419",
+      "type": "question",
+      "value": {
+        "latex": "Chercher $\\lim_{n \\to \\infty} x_n$.",
+        "html": "<p>Chercher <span class=\"math inline\">\\(\\lim_{n \\to \\infty}\nx_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0976c6cc-0bcc-43cc-a8a7-c8f7d9fd765d",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$.",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "36b99952-56a1-43a3-97b7-9c04f633b3b0",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $x_n^2 \\sim \\frac 1n$ ($n\\to\\infty$).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(x_n^2 \\sim \\frac 1n\\)</span>\n(<span class=\"math inline\">\\(n\\to\\infty\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "4d879def-5ccf-469c-a84c-c929cf977784",
+      "type": "reponse",
+      "value": {
+        "latex": "$x_n\\tan x_n = \\frac 1n$.",
+        "html": "<p><span class=\"math inline\">\\(x_n\\tan x_n = \\frac 1n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "86ac44c4-4a8e-4b4e-98b3-cec54caf6db3",
+      "type": "question",
+      "value": {
+        "latex": "Trouver un équivalent de $f_n(x_n)$.",
+        "html": "<p>Trouver un équivalent de <span\nclass=\"math inline\">\\(f_n(x_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8bca37f4-48b7-462f-ab92-9eb28b70a8d9",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\ln\\left(\\frac{y_n}{x_n}\\right) \\to -\\frac 1e\n                 \\Rightarrow  y_n \\sim \\frac 1{\\sqrt{ne}}$.",
+        "html": "<p><span class=\"math inline\">\\(\\ln\\left(\\frac{y_n}{x_n}\\right) \\to\n-\\frac 1e\n                 \\Rightarrow  y_n \\sim \\frac 1{\\sqrt{ne}}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On note <span class=\"math inline\">\\(f_n(x) = x\\cos^nx\\)</span>. Soit\n<span class=\"math inline\">\\(x_n \\in \\left[0,\\frac \\pi2 \\right]\\)</span>\ntel qu ..."
+}

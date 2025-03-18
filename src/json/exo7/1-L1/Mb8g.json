@@ -1,0 +1,61 @@
+{
+  "uuid": "Mb8g",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3336",
+    "auteur": "quercia",
+    "createdAt": "2010-03-09",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Image et noyau, théorème du rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:59.696Z"
+  },
+  "contenu": [
+    {
+      "id": "959107a7-bc70-414a-a7e8-24a75c2a1e7c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un $ K$-ev de dimension finie et $H,K$ deux sev fixés de $E$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(K\\)</span>-ev de dimension finie et <span\nclass=\"math inline\">\\(H,K\\)</span> deux sev fixés de <span\nclass=\"math inline\">\\(E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5065923e-2d1c-4d94-a1c8-88911a9ed0c8",
+      "type": "question",
+      "value": {
+        "latex": "A quelle condition existe-t-il un endomorphisme $f \\in \\mathcal{L}(E)$ tel que\n     $\\Im f = H \\text{ et } \\mathrm{Ker} f = K$ ?",
+        "html": "<p>A quelle condition existe-t-il un endomorphisme <span\nclass=\"math inline\">\\(f \\in \\mathcal{L}(E)\\)</span> tel que <span\nclass=\"math inline\">\\(\\Im f = H \\text{ et } \\mathrm{Ker} f = K\\)</span>\n?</p>\n"
+      }
+    },
+    {
+      "id": "15042577-5d38-4655-bad8-20e8401ea288",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\dim H + \\dim K = \\dim E$.",
+        "html": "<p><span class=\"math inline\">\\(\\dim H + \\dim K = \\dim E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fa04bc6a-5af8-4eb5-9c2a-2f114ff572a2",
+      "type": "question",
+      "value": {
+        "latex": "On note ${\\cal E} = \\{ f \\in \\mathcal{L}(E) \\text{ tq } \\Im f = H \\text{ et } \\mathrm{Ker} f = K \\}$.\n     Montrer que $\\cal E$ est un groupe pour $\\circ$ si et seulement si\n     $H \\oplus K = E$.",
+        "html": "<p>On note <span class=\"math inline\">\\({\\cal E} = \\{ f \\in\n\\mathcal{L}(E) \\text{ tq } \\Im f = H \\text{ et } \\mathrm{Ker} f = K\n\\}\\)</span>. Montrer que <span class=\"math inline\">\\(\\cal E\\)</span> est\nun groupe pour <span class=\"math inline\">\\(\\circ\\)</span> si et\nseulement si <span class=\"math inline\">\\(H \\oplus K = E\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0260738c-64bd-456d-a4bc-189f0eb2b187",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $H \\oplus K \\ne E$ alors $\\cal E$ n'est pas stable pour\n              $\\circ$.",
+        "html": "<p>Si <span class=\"math inline\">\\(H \\oplus K \\ne E\\)</span> alors <span\nclass=\"math inline\">\\(\\cal E\\)</span> n’est pas stable pour <span\nclass=\"math inline\">\\(\\circ\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un <span\nclass=\"math inline\">\\(K\\)</span>-ev de dimension finie et <span\nclass=\"math inline\">\\(H,K\\)</s ..."
+}

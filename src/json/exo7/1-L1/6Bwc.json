@@ -1,0 +1,77 @@
+{
+  "uuid": "6Bwc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3305",
+    "auteur": "quercia",
+    "createdAt": "2010-03-09",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace vectoriel",
+    "sousChapitre": "Somme directe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:55.213Z"
+  },
+  "contenu": [
+    {
+      "id": "e668011c-f207-4a2f-8b29-1d12c2634689",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "9f2403ea-e448-4e35-93ec-0cad72dba21a",
+      "type": "question",
+      "value": {
+        "latex": "Soit $A = \\{P\\in\\R[X]$ tq $P=(1-X)Q(X^2)$ avec $Q\\in\\R[X]\\}$.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "69867263-501d-4099-85d1-4d1cb1757af1",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "adbfa988-e35f-40ea-9520-50b1575d7c84",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $A$ est un $\\R$-ev et que l'on a\n    $R[X] = A \\oplus \\{$ polynômes pairs $\\}$.\n\n    A-t-on $R[X] = A \\oplus \\{$ polynômes impairs $\\}$~?",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(A\\)</span> est un <span\nclass=\"math inline\">\\(\\R\\)</span>-ev et que l’on a <span\nclass=\"math inline\">\\(R[X] = A \\oplus \\{\\)</span> polynômes pairs <span\nclass=\"math inline\">\\(\\}\\)</span>.</p>\n<p>A-t-on <span class=\"math inline\">\\(R[X] = A \\oplus \\{\\)</span>\npolynômes impairs <span class=\"math inline\">\\(\\}\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "a1574aff-ebe7-424f-bba4-87e1d6cd136d",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $P\\in\\R[X]$ que l'on décompose en $P=P_1(X^2) + XP_2(X^2)$ .\n    Alors $P = (P_1+P_2)(X^2) - (1-X)P_2(X^2) = (1-X)P_1(X^2) + X(P_1+P_2)(X^2)$,\n    ce qui prouve que les deux sommes sont égales à $\\R[X]$. Ces sommes\n    sont facilement directes.",
+        "html": "<p>Soit <span class=\"math inline\">\\(P\\in\\R[X]\\)</span> que l’on\ndécompose en <span class=\"math inline\">\\(P=P_1(X^2) + XP_2(X^2)\\)</span>\n. Alors <span class=\"math inline\">\\(P = (P_1+P_2)(X^2) - (1-X)P_2(X^2) =\n(1-X)P_1(X^2) + X(P_1+P_2)(X^2)\\)</span>, ce qui prouve que les deux\nsommes sont égales à <span class=\"math inline\">\\(\\R[X]\\)</span>. Ces\nsommes sont facilement directes.</p>\n"
+      }
+    },
+    {
+      "id": "ec84602e-c3fc-4371-b869-8fa9b575ef2d",
+      "type": "question",
+      "value": {
+        "latex": "Que peut-on dire si l'on remplace $Q(X^2)$ par une fonction $f$ paire~?",
+        "html": "<p>Que peut-on dire si l’on remplace <span\nclass=\"math inline\">\\(Q(X^2)\\)</span> par une fonction <span\nclass=\"math inline\">\\(f\\)</span> paire ?</p>\n"
+      }
+    },
+    {
+      "id": "ed5d0961-a85c-4b0f-b077-e5f85af2c98d",
+      "type": "reponse",
+      "value": {
+        "latex": "Cela ne change pas~$A$~: les éléments de~$A$ sont ceux dont les parties\n    paire et impaire sont opposées (au facteur $X$ près), in\\-dé\\-pen\\-da\\-ment du fait (vrai) que ces parties sont\n    des polynômes.",
+        "html": "<p>Cela ne change pas <span class=\"math inline\">\\(A\\)</span> : les\néléments de <span class=\"math inline\">\\(A\\)</span> sont ceux dont les\nparties paire et impaire sont opposées (au facteur <span\nclass=\"math inline\">\\(X\\)</span> près), indépendament du fait (vrai) que\nces parties sont des polynômes.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que <span class=\"math inline\">\\(A\\)</span> est un <span\nclass=\"math inline\">\\(\\R\\)</span>-ev et que l’on a <span\nclass=\"math inline\"> ..."
+}

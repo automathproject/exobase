@@ -1,0 +1,77 @@
+{
+  "uuid": "b7iX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7729",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Action de groupe",
+    "sousChapitre": "Action de groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:58.282Z"
+  },
+  "contenu": [
+    {
+      "id": "44620822-3fdc-4f46-9b54-c63c0e26b0c9",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "301a5071-e301-4ecc-a2fc-efd4928e5a6b",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler la formule de Burnside qui calcule le nombre d'orbites de l'action d'un groupe fini sur un ensemble fini.",
+        "html": "<p>Rappeler la formule de Burnside qui calcule le nombre d’orbites de\nl’action d’un groupe fini sur un ensemble fini.</p>\n"
+      }
+    },
+    {
+      "id": "c9317863-90be-43be-b48b-933d62a3de85",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $G$ un groupe fini agissant sur un ensemble fini $E$.\r\n Alors le nombre $N$ d'orbites se calcule par \r\n $$N=\\frac{1}{\\text{Card} G}\\sum_{g\\in G}\\text{Card} Fix(\\phi(g))=\r\n \\frac{1}{\\text{Card} G}\\sum_{x\\in E}\\text{Card} Stab(x).$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un groupe fini agissant\nsur un ensemble fini <span class=\"math inline\">\\(E\\)</span>. Alors le\nnombre <span class=\"math inline\">\\(N\\)</span> d’orbites se calcule par\n<span class=\"math display\">\\[N=\\frac{1}{\\text{Card} G}\\sum_{g\\in\nG}\\text{Card} Fix(\\phi(g))=\n\\frac{1}{\\text{Card} G}\\sum_{x\\in E}\\text{Card} Stab(x).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d0ec0644-7a7d-46a2-ab04-f606de41f2bf",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler la liste des éléments du groupe d'isométries directes (déplacements) d'un tétraédre régulier.\r\nOn fera une figure pour chaque type d'axe de rotation, en indiquant l'ordre des rotations.",
+        "html": "<p>Rappeler la liste des éléments du groupe d’isométries directes\n(déplacements) d’un tétraédre régulier. On fera une figure pour chaque\ntype d’axe de rotation, en indiquant l’ordre des rotations.</p>\n"
+      }
+    },
+    {
+      "id": "3182325b-16c1-43a2-8942-7df26c10586c",
+      "type": "reponse",
+      "value": {
+        "latex": "Le groupe des déplacements du tétraède est isomorphe à $\\mathcal{A}_4$.\r\n Il y a l'identité, les $8=4\\times 2$ rotations d'ordre $3$, dont l'axe passe par un sommet et le centre de la face opposée,\r\n les $3$ demi-tours (d'ordre 2) dont l'axe passe par les milieux de deux arêtes opposées.",
+        "html": "<p>Le groupe des déplacements du tétraède est isomorphe à <span\nclass=\"math inline\">\\(\\mathcal{A}_4\\)</span>. Il y a l’identité, les\n<span class=\"math inline\">\\(8=4\\times 2\\)</span> rotations d’ordre <span\nclass=\"math inline\">\\(3\\)</span>, dont l’axe passe par un sommet et le\ncentre de la face opposée, les <span class=\"math inline\">\\(3\\)</span>\ndemi-tours (d’ordre 2) dont l’axe passe par les milieux de deux arêtes\nopposées.</p>\n"
+      }
+    },
+    {
+      "id": "853a79f9-b003-40e3-8c06-81e084b3eee4",
+      "type": "question",
+      "value": {
+        "latex": "De combien de façons différentes peut-on peindre les faces d'un tétraèdre régulier avec $c$~couleurs ?\r\nChaque face n'est peinte que d'une couleur.\r\nOn ne distingue pas deux résultats qui se déduisent l'un de l'autre par un déplacement du tétraèdre.",
+        "html": "<p>De combien de façons différentes peut-on peindre les faces d’un\ntétraèdre régulier avec <span class=\"math inline\">\\(c\\)</span> couleurs\n? Chaque face n’est peinte que d’une couleur. On ne distingue pas deux\nrésultats qui se déduisent l’un de l’autre par un déplacement du\ntétraèdre.</p>\n"
+      }
+    },
+    {
+      "id": "c74adf34-3f98-479a-b0d3-21d264f7633a",
+      "type": "reponse",
+      "value": {
+        "latex": "On considère l'ensemble des coloriages. Il est de cardinal $c^4$, puisqu'il s'agit de choisir une couleur pour chacune des quatre faces. Le groupe des déplacements du tétraèdre agit sur cet ensemble et les façons différentes de colorier sont les orbites de cette action. Par la formule de Burnside, il suffit de déterminer le nombre de coloriages fixés par chacun des déplacements.\r\n Pour l'identité : $c^4$.\r\n Pour les rotations d'ordre $3$ : $c^2$ (si l'axe est vertical, toutes les trois faces obliques doivent avoir la même couleur et la face horizontale doit avoir une couleur.)\r\n Pour les demi-tours : $c^2$ (les faces se correspondent deux à deux.).\r\n En conclusion, le nombre de façons différentes de colorier est\r\n $$N=\\frac{1}{\\text{Card} G}\\sum_{g\\in G}\\text{Card} Fix(\\phi(g))=\\frac{1}{c^4}(c^4+11c^2)=\\frac{1}{c^2}(c^2+11).$$",
+        "html": "<p>On considère l’ensemble des coloriages. Il est de cardinal <span\nclass=\"math inline\">\\(c^4\\)</span>, puisqu’il s’agit de choisir une\ncouleur pour chacune des quatre faces. Le groupe des déplacements du\ntétraèdre agit sur cet ensemble et les façons différentes de colorier\nsont les orbites de cette action. Par la formule de Burnside, il suffit\nde déterminer le nombre de coloriages fixés par chacun des déplacements.\nPour l’identité : <span class=\"math inline\">\\(c^4\\)</span>. Pour les\nrotations d’ordre <span class=\"math inline\">\\(3\\)</span> : <span\nclass=\"math inline\">\\(c^2\\)</span> (si l’axe est vertical, toutes les\ntrois faces obliques doivent avoir la même couleur et la face\nhorizontale doit avoir une couleur.) Pour les demi-tours : <span\nclass=\"math inline\">\\(c^2\\)</span> (les faces se correspondent deux à\ndeux.). En conclusion, le nombre de façons différentes de colorier est\n<span class=\"math display\">\\[N=\\frac{1}{\\text{Card} G}\\sum_{g\\in\nG}\\text{Card}\nFix(\\phi(g))=\\frac{1}{c^4}(c^4+11c^2)=\\frac{1}{c^2}(c^2+11).\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Rappeler la formule de Burnside qui calcule le nombre d’orbites de\nl’action d’un groupe fini sur un ensemble fini.</p>\n"
+}

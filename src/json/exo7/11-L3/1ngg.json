@@ -1,0 +1,109 @@
+{
+  "uuid": "1ngg",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6802",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Champ de vecteurs",
+    "sousChapitre": "Champ de vecteurs",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:20.497Z"
+  },
+  "contenu": [
+    {
+      "id": "7211511b-5cf0-4013-aaa6-9c0f68d3b356",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "646c9104-b976-4d44-bbc3-d6d02beadff2",
+      "type": "question",
+      "value": {
+        "latex": "Donner la définition d'une sous-variété $M$ de\n$\\Rr^n$ de dimension $k$.",
+        "html": "<p>Donner la définition d’une sous-variété <span\nclass=\"math inline\">\\(M\\)</span> de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span> de dimension <span\nclass=\"math inline\">\\(k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f553d1cd-914f-47c2-b77d-3f4c4c4f2464",
+      "type": "question",
+      "value": {
+        "latex": "Enoncer le théorème des fonctions implicites.",
+        "html": "<p>Enoncer le théorème des fonctions implicites.</p>\n"
+      }
+    },
+    {
+      "id": "d07e21dc-553a-43dc-81f9-baf224201214",
+      "type": "question",
+      "value": {
+        "latex": "Soit $M = \\{\\,(x,y,z)\\in \\Rr^3  \\mid x^2 + y^2 -\nz^2 +1 = 0\\ ,\\ z>0\\,\\}$. Montrer que $M$ est une\nsous-variété de $\\Rr^3$ de dimension 2.\n\n\\medskip\nOn définit la projection stéréographique $s$ de\n$\\Rr^3 \\setminus\\{\\,(x,y,z)\\mid z=-1\\,\\}$ sur\n$\\Rr^2 \\cong \\{\\,(x,y,z) \\mid z=0\\,\\}$ par la\nprocédure suivante. Pour un point $P=(x,y,z)$ on trace\nla droite $d=\\overline{PS}$ où $S=(0,0,-1)$. L'image\n$s(P)$ est l'intersection de la droite $d$ avec le plan\n$z=0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(M = \\{\\,(x,y,z)\\in \\Rr^3  \\mid x^2 +\ny^2 -\nz^2 +1 = 0\\ ,\\ z&gt;0\\,\\}\\)</span>. Montrer que <span\nclass=\"math inline\">\\(M\\)</span> est une sous-variété de <span\nclass=\"math inline\">\\(\\Rr^3\\)</span> de dimension 2.</p>\n<p>On définit la projection stéréographique <span\nclass=\"math inline\">\\(s\\)</span> de <span class=\"math inline\">\\(\\Rr^3\n\\setminus\\{\\,(x,y,z)\\mid z=-1\\,\\}\\)</span> sur <span\nclass=\"math inline\">\\(\\Rr^2 \\cong \\{\\,(x,y,z) \\mid z=0\\,\\}\\)</span> par\nla procédure suivante. Pour un point <span\nclass=\"math inline\">\\(P=(x,y,z)\\)</span> on trace la droite <span\nclass=\"math inline\">\\(d=\\overline{PS}\\)</span> où <span\nclass=\"math inline\">\\(S=(0,0,-1)\\)</span>. L’image <span\nclass=\"math inline\">\\(s(P)\\)</span> est l’intersection de la droite\n<span class=\"math inline\">\\(d\\)</span> avec le plan <span\nclass=\"math inline\">\\(z=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9b61a603-cc3e-4e91-b251-a416dbda417e",
+      "type": "question",
+      "value": {
+        "latex": "Calculer explicitement l'application $s$.",
+        "html": "<p>Calculer explicitement l’application <span\nclass=\"math inline\">\\(s\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1fecca1f-e852-4476-9508-97ac2312a3b1",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'image $D= s(M)$.",
+        "html": "<p>Calculer l’image <span class=\"math inline\">\\(D= s(M)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "332fbbc1-fce7-4e12-8852-fea508e4256f",
+      "type": "question",
+      "value": {
+        "latex": "Calculer ``l'inverse'' de l'application $s:M \\to D$.\n\n\\medskip\nSoit $X$ le champ de vecteurs sur $\\Rr^3$ donné\npar $$X_{|(x,y,z)} = x\n\\frac{\\partial}{\\partial z}_{|(x,y,z)} + z\n\\frac{\\partial}{\\partial x}_{|(x,y,z)}\n\\ \\cong\\  (z,0,x)\\ .\n$$",
+        "html": "<p>Calculer “l’inverse” de l’application <span class=\"math inline\">\\(s:M\n\\to D\\)</span>.</p>\n<p>Soit <span class=\"math inline\">\\(X\\)</span> le champ de vecteurs sur\n<span class=\"math inline\">\\(\\Rr^3\\)</span> donné par <span\nclass=\"math display\">\\[X_{|(x,y,z)} = x\n\\frac{\\partial}{\\partial z}_{|(x,y,z)} + z\n\\frac{\\partial}{\\partial x}_{|(x,y,z)}\n\\ \\cong\\  (z,0,x)\\ .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c123dae5-b8f6-4af2-adb1-d0050a7a4caf",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le flot du champ $X$.",
+        "html": "<p>Calculer le flot du champ <span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e14ead7c-994b-4eee-b800-3444f88c52e7",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $X$ est tangent à $M$,\nc'est-à-dire que pour tout $(x,y,z)\\in M$ le vecteur\n$X_{|(x,y,z)}$ appartient à l'espace\ntangent $T_{(x,y,z)}M$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(X\\)</span> est tangent à\n<span class=\"math inline\">\\(M\\)</span>, c’est-à-dire que pour tout <span\nclass=\"math inline\">\\((x,y,z)\\in M\\)</span> le vecteur <span\nclass=\"math inline\">\\(X_{|(x,y,z)}\\)</span> appartient à l’espace\ntangent <span class=\"math inline\">\\(T_{(x,y,z)}M\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "03a25bbb-42ee-4898-aba4-84be118315e4",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'expression de $X$ dans la carte $D$ de\n$M$.",
+        "html": "<p>Calculer l’expression de <span class=\"math inline\">\\(X\\)</span> dans\nla carte <span class=\"math inline\">\\(D\\)</span> de <span\nclass=\"math inline\">\\(M\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b2544b52-8293-47d8-a7ea-14fc95451d76",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le flot du champ sur $D$ obtenu en i).",
+        "html": "<p>Calculer le flot du champ sur <span class=\"math inline\">\\(D\\)</span>\nobtenu en i).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Donner la définition d’une sous-variété <span\nclass=\"math inline\">\\(M\\)</span> de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span> de dimension <span\ncla ..."
+}

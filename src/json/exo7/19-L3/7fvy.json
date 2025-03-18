@@ -1,0 +1,61 @@
+{
+  "uuid": "7fvy",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6952",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Variance, covariance, fonction génératrice",
+    "sousChapitre": "Variance, covariance, fonction génératrice",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:33.923Z"
+  },
+  "contenu": [
+    {
+      "id": "9111665d-2653-4ec0-b129-ff57551d57bc",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "eb0c9030-600d-4442-ad9e-513c768b2433",
+      "type": "question",
+      "value": {
+        "latex": "Soit $X$ une variable aléatoire de loi exponentielle $\\mathcal{E}(\\lambda)$, \n$\\lambda>0$. Calculer l'espérance de $X$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire de\nloi exponentielle <span\nclass=\"math inline\">\\(\\mathcal{E}(\\lambda)\\)</span>, <span\nclass=\"math inline\">\\(\\lambda&gt;0\\)</span>. Calculer l’espérance de\n<span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "110d5c93-6c15-4a2c-bf39-d23a3ba6ad9b",
+      "type": "reponse",
+      "value": {
+        "latex": "$E(X)=\\displaystyle \\int_0^{+\\infty}x\\lambda e^{-\\lambda x}dx=\\frac{1}{\\lambda}$ par intégration par parties.",
+        "html": "<p><span class=\"math inline\">\\(E(X)=\\displaystyle\n\\int_0^{+\\infty}x\\lambda e^{-\\lambda x}dx=\\frac{1}{\\lambda}\\)</span> par\nintégration par parties.</p>\n"
+      }
+    },
+    {
+      "id": "6e3b6d98-1ab7-4307-9e10-60aceed1c398",
+      "type": "question",
+      "value": {
+        "latex": "Soit $X$ une variable aléatoire de loi de Poisson $\\mathcal{P}(\\lambda)$, $\\lambda>0$. Calculer\nla variance de $X$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire de\nloi de Poisson <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda)\\)</span>, <span\nclass=\"math inline\">\\(\\lambda&gt;0\\)</span>. Calculer la variance de\n<span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "74db15ac-470c-4f6e-a63f-f5d34b46d3a2",
+      "type": "reponse",
+      "value": {
+        "latex": "$E(X)=\\displaystyle\\sum_{k\\geq 0} e^{-\\lambda}\\frac{\\lambda^k}{k!}k\n=\\lambda e^{-\\lambda}\\sum_{k\\geq 1}\\frac{\\lambda^{k-1}}{(k-1)!}=\n\\lambda e^{-\\lambda}e^{\\lambda}=\\lambda$.\n\n$E(X^2)=\\displaystyle\\sum_{k\\geq 0} e^{-\\lambda}\\frac{\\lambda^k}{k!}k^2\n=\\lambda e^{-\\lambda}\\sum_{k\\geq 1}\\frac{\\lambda^{k-1}}{(k-1)!}k$.\nOn écrit $k=(k-1)+1$ :\\\\\n$\\displaystyle E(X^2)=\\lambda e^{-\\lambda}\\left(\\lambda\\sum_{k\\geq 2}\n\\frac{\\lambda^{k-2}}{(k-2)!}+\\sum_{k\\geq 2}\\frac{\\lambda^{k-1}}{(k-1)!}+1\n\\right)=\\lambda e^{-\\lambda}(\\lambda e^{\\lambda}+e^{\\lambda})=\\lambda^2\n+\\lambda.$\n\n$\\text{Var}(X)=E(X^2)-E(X)^2$, donc $\\text{Var}(X)=\\lambda$.",
+        "html": "<p><span class=\"math inline\">\\(E(X)=\\displaystyle\\sum_{k\\geq 0}\ne^{-\\lambda}\\frac{\\lambda^k}{k!}k\n=\\lambda e^{-\\lambda}\\sum_{k\\geq 1}\\frac{\\lambda^{k-1}}{(k-1)!}=\n\\lambda e^{-\\lambda}e^{\\lambda}=\\lambda\\)</span>.</p>\n<p><span class=\"math inline\">\\(E(X^2)=\\displaystyle\\sum_{k\\geq 0}\ne^{-\\lambda}\\frac{\\lambda^k}{k!}k^2\n=\\lambda e^{-\\lambda}\\sum_{k\\geq\n1}\\frac{\\lambda^{k-1}}{(k-1)!}k\\)</span>. On écrit <span\nclass=\"math inline\">\\(k=(k-1)+1\\)</span> :<br />\n<span class=\"math inline\">\\(\\displaystyle E(X^2)=\\lambda\ne^{-\\lambda}\\left(\\lambda\\sum_{k\\geq 2}\n\\frac{\\lambda^{k-2}}{(k-2)!}+\\sum_{k\\geq\n2}\\frac{\\lambda^{k-1}}{(k-1)!}+1\n\\right)=\\lambda e^{-\\lambda}(\\lambda e^{\\lambda}+e^{\\lambda})=\\lambda^2\n+\\lambda.\\)</span></p>\n<p><span class=\"math inline\">\\(\\text{Var}(X)=E(X^2)-E(X)^2\\)</span>,\ndonc <span class=\"math inline\">\\(\\text{Var}(X)=\\lambda\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire de\nloi exponentielle <span\nclass=\"math inline\">\\(\\mathcal{E}(\\lambda)\\)</span>,  ..."
+}

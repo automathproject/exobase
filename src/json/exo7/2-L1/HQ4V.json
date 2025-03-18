@@ -1,0 +1,61 @@
+{
+  "uuid": "HQ4V",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4693",
+    "auteur": "quercia",
+    "createdAt": "2010-03-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Convergence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:23.419Z"
+  },
+  "contenu": [
+    {
+      "id": "f4234aba-fecc-45e4-9f85-8fd8c7bb4fe9",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(x_n)$ une suite de r{\\'e}els strictement positifs convergeant vers 0.",
+        "html": "<p>Soit <span class=\"math inline\">\\((x_n)\\)</span> une suite de\nr<span>é</span>els strictement positifs convergeant vers 0.</p>\n"
+      }
+    },
+    {
+      "id": "01e5cc90-2d75-4e6a-b403-b7c33c75a5de",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe une infinit{\\'e} d'indices $n$ tels que\n    $x_n = \\max(x_n,x_{n+1},x_{n+2},\\dots)$.",
+        "html": "<p>Montrer qu’il existe une infinit<span>é</span> d’indices <span\nclass=\"math inline\">\\(n\\)</span> tels que <span\nclass=\"math inline\">\\(x_n =\n\\max(x_n,x_{n+1},x_{n+2},\\dots)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "550c46c6-216a-4971-a0b2-ff08dafe36b5",
+      "type": "reponse",
+      "value": {
+        "latex": "Sinon, on construit une sous-suite strictement croissante.",
+        "html": "<p>Sinon, on construit une sous-suite strictement croissante.</p>\n"
+      }
+    },
+    {
+      "id": "35f81bec-077d-4bd4-bec0-41fedb866d5a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe une infinit{\\'e} d'indices $n$ tels que\n    $x_n = \\min(x_0,x_1,\\dots,x_n)$.",
+        "html": "<p>Montrer qu’il existe une infinit<span>é</span> d’indices <span\nclass=\"math inline\">\\(n\\)</span> tels que <span\nclass=\"math inline\">\\(x_n = \\min(x_0,x_1,\\dots,x_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2dc6b6af-a17f-4c61-be5d-d8a9999a0b5c",
+      "type": "reponse",
+      "value": {
+        "latex": "La suite $(\\min(x_0,\\dots,x_n))$ converge vers $0$, et prend\n             une infinit{\\'e} de valeurs diff{\\'e}rentes.",
+        "html": "<p>La suite <span class=\"math inline\">\\((\\min(x_0,\\dots,x_n))\\)</span>\nconverge vers <span class=\"math inline\">\\(0\\)</span>, et prend une\ninfinit<span>é</span> de valeurs diff<span>é</span>rentes.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((x_n)\\)</span> une suite de\nr<span>é</span>els strictement positifs convergeant vers 0.</p>\n"
+}

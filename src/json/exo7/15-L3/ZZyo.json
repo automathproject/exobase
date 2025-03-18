@@ -1,0 +1,45 @@
+{
+  "uuid": "ZZyo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2411",
+    "auteur": "bodin",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de Stone-Weirstrass, théorème d'Ascoli",
+    "sousChapitre": "Théorème de Stone-Weirstrass, théorème d'Ascoli",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:48.118Z"
+  },
+  "contenu": [
+    {
+      "id": "b50d2860-1494-4332-9425-c44050125f4b",
+      "type": "description",
+      "value": {
+        "latex": "Soient $X$ et $Y$ deux espaces métriques compacts. Soit $\\mathcal{A}$ l'ensembles des combinaisons linéaires finies\n$f \\in \\mathcal{C}(X\\times Y,\\Rr)$ de la forme :\n$$f (x,y) = \\sum_{i\\in I} \\lambda_i u_i(x) \\cdot v_i(y), \\quad \\text {avec } u_i \\in \\mathcal{C}(X,\\Rr), v_i \\in \\mathcal{C}(Y,\\Rr), \\lambda_i \\in \\Rr,  I \\text{ fini}.$$\n\nMontrer que toute fonction de $\\mathcal{C}(X\\times Y,\\Rr)$ est limite uniforme de suites d'éléments de $\\mathcal{A}$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(Y\\)</span> deux espaces métriques compacts. Soit\n<span class=\"math inline\">\\(\\mathcal{A}\\)</span> l’ensembles des\ncombinaisons linéaires finies <span class=\"math inline\">\\(f \\in\n\\mathcal{C}(X\\times Y,\\Rr)\\)</span> de la forme : <span\nclass=\"math display\">\\[f (x,y) = \\sum_{i\\in I} \\lambda_i u_i(x) \\cdot\nv_i(y), \\quad \\text {avec } u_i \\in \\mathcal{C}(X,\\Rr), v_i \\in\n\\mathcal{C}(Y,\\Rr), \\lambda_i \\in \\Rr,  I \\text{ fini}.\\]</span></p>\n<p>Montrer que toute fonction de <span\nclass=\"math inline\">\\(\\mathcal{C}(X\\times Y,\\Rr)\\)</span> est limite\nuniforme de suites d’éléments de <span\nclass=\"math inline\">\\(\\mathcal{A}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0ab7882b-5425-4e9a-98c0-bc391729a562",
+      "type": "indication",
+      "value": {
+        "latex": "Appliquer le théorème de Stone-Weierstrass.",
+        "html": "<p>Appliquer le théorème de Stone-Weierstrass.</p>\n"
+      }
+    },
+    {
+      "id": "dafeb151-7fb7-4e53-ac1b-fc425d4136bc",
+      "type": "reponse",
+      "value": {
+        "latex": "On cherche à vérifier les hypothèses du théorème de Stone-Weierstrass.\n\\begin{itemize}\n\\item Tout d'abord $X\\times Y$ est compact, car c'est un produit d'espaces compacts.\n\\item Ensuite $\\mathcal{A}$ est une sous-algèbre de $\\mathcal{C}(X\\times Y,\\Rr)$ :\nen effet pour $f,g \\in \\mathcal{A}$ et $\\lambda \\in \\Rr$ on a :\n$$ f+g \\in \\mathcal{A}, \\quad \\lambda\\cdot f \\in \\mathcal{A}\\quad \\text{ et }  f\\times g \\in \\mathcal{A}.$$\n\\item  $\\mathcal{A}$ sépare les points : soient $(x_1,y_1)\\neq (x_2,y_2) \\in X\\times Y$.\nSupposons que $x_1\\neq x_2$, soit $u \\in \\mathcal{C}(X,\\Rr)$ tel que $u(x_1)\\neq u(x_2)$ (clairement une telle fonction existe !), soit $v$ la fonction sur $Y$ constante égale à $1$.\nAlors $f$ définie par $f(x,y) = u(x)\\cdot v(y)$ est dans $\\mathcal{A}$ et \n$f(x_1,y_1) = u(x_1)\\neq u(x_2)=f(x_2,y_2)$. Si $x_1=x_2$ alors nécessairement $y_1\\neq y_2$ et on fait un raisonnement similaire.\n\\item Pour tout $(x,y)\\in X\\times Y$\nil existe une fonction $f\\in \\mathcal{A}$ telle que $f(x)\\neq 0$ : prendre la fonction $f$ constante égale à $1$ qui est bien dans $\\mathcal{A}$.\n\\end{itemize}\n\nPar le théorème de Stone-Weierstrass $\\mathcal{A}$ est dense dans  $\\mathcal{C}(X\\times Y,\\Rr)$\npour la norme uniforme.",
+        "html": "<p>On cherche à vérifier les hypothèses du théorème de\nStone-Weierstrass.</p>\n<ul>\n<li><p>Tout d’abord <span class=\"math inline\">\\(X\\times Y\\)</span> est\ncompact, car c’est un produit d’espaces compacts.</p></li>\n<li><p>Ensuite <span class=\"math inline\">\\(\\mathcal{A}\\)</span> est une\nsous-algèbre de <span class=\"math inline\">\\(\\mathcal{C}(X\\times\nY,\\Rr)\\)</span> : en effet pour <span class=\"math inline\">\\(f,g \\in\n\\mathcal{A}\\)</span> et <span class=\"math inline\">\\(\\lambda \\in\n\\Rr\\)</span> on a : <span class=\"math display\">\\[f+g \\in \\mathcal{A},\n\\quad \\lambda\\cdot f \\in \\mathcal{A}\\quad \\text{ et }  f\\times g \\in\n\\mathcal{A}.\\]</span></p></li>\n<li><p><span class=\"math inline\">\\(\\mathcal{A}\\)</span> sépare les\npoints : soient <span class=\"math inline\">\\((x_1,y_1)\\neq (x_2,y_2) \\in\nX\\times Y\\)</span>. Supposons que <span class=\"math inline\">\\(x_1\\neq\nx_2\\)</span>, soit <span class=\"math inline\">\\(u \\in\n\\mathcal{C}(X,\\Rr)\\)</span> tel que <span\nclass=\"math inline\">\\(u(x_1)\\neq u(x_2)\\)</span> (clairement une telle\nfonction existe !), soit <span class=\"math inline\">\\(v\\)</span> la\nfonction sur <span class=\"math inline\">\\(Y\\)</span> constante égale à\n<span class=\"math inline\">\\(1\\)</span>. Alors <span\nclass=\"math inline\">\\(f\\)</span> définie par <span\nclass=\"math inline\">\\(f(x,y) = u(x)\\cdot v(y)\\)</span> est dans <span\nclass=\"math inline\">\\(\\mathcal{A}\\)</span> et <span\nclass=\"math inline\">\\(f(x_1,y_1) = u(x_1)\\neq\nu(x_2)=f(x_2,y_2)\\)</span>. Si <span\nclass=\"math inline\">\\(x_1=x_2\\)</span> alors nécessairement <span\nclass=\"math inline\">\\(y_1\\neq y_2\\)</span> et on fait un raisonnement\nsimilaire.</p></li>\n<li><p>Pour tout <span class=\"math inline\">\\((x,y)\\in X\\times Y\\)</span>\nil existe une fonction <span class=\"math inline\">\\(f\\in\n\\mathcal{A}\\)</span> telle que <span class=\"math inline\">\\(f(x)\\neq\n0\\)</span> : prendre la fonction <span class=\"math inline\">\\(f\\)</span>\nconstante égale à <span class=\"math inline\">\\(1\\)</span> qui est bien\ndans <span class=\"math inline\">\\(\\mathcal{A}\\)</span>.</p></li>\n</ul>\n<p>Par le théorème de Stone-Weierstrass <span\nclass=\"math inline\">\\(\\mathcal{A}\\)</span> est dense dans <span\nclass=\"math inline\">\\(\\mathcal{C}(X\\times Y,\\Rr)\\)</span> pour la norme\nuniforme.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(Y\\)</span> deux espaces métriques compacts. Soit\n<span class=\"math inl ..."
+}

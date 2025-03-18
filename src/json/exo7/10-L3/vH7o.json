@@ -1,0 +1,77 @@
+{
+  "uuid": "vH7o",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2251",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:16.423Z"
+  },
+  "contenu": [
+    {
+      "id": "50a00d38-7c13-4d9e-9647-45030b65d1cc",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ un anneau.  D\\'emontrer que :",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau. Démontrer que\n:</p>\n"
+      }
+    },
+    {
+      "id": "ba618e1e-023c-40af-8116-291e2d67a2c2",
+      "type": "question",
+      "value": {
+        "latex": "$\\forall a\\in A\\ \\ 0_A\n\\cdot a=0_A$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall a\\in A\\ \\ 0_A\n\\cdot a=0_A\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "214f9786-6b2b-4dad-b618-13aeecabb4e7",
+      "type": "reponse",
+      "value": {
+        "latex": "Ecrire $(0+a)a=a.a$ d'une part ($0$ est neutre pour $+$) et\n    $(0+a).a=0.a+a.a$ (distributivité).",
+        "html": "<p>Ecrire <span class=\"math inline\">\\((0+a)a=a.a\\)</span> d’une part\n(<span class=\"math inline\">\\(0\\)</span> est neutre pour <span\nclass=\"math inline\">\\(+\\)</span>) et <span\nclass=\"math inline\">\\((0+a).a=0.a+a.a\\)</span> (distributivité).</p>\n"
+      }
+    },
+    {
+      "id": "b482232f-684d-411a-90e6-1d9d420ff38e",
+      "type": "question",
+      "value": {
+        "latex": "$(-1_A)\\cdot a=-a$;",
+        "html": "<p><span class=\"math inline\">\\((-1_A)\\cdot a=-a\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "fa8742ee-569f-4eb5-90a8-bcba03fe53e4",
+      "type": "reponse",
+      "value": {
+        "latex": "$(-1).a+a=(-1+1).a=0.a=0$ (distributivité, puis question précédente)",
+        "html": "<p><span class=\"math inline\">\\((-1).a+a=(-1+1).a=0.a=0\\)</span>\n(distributivité, puis question précédente)</p>\n"
+      }
+    },
+    {
+      "id": "69413417-977a-4875-b1f7-b854989ef8a6",
+      "type": "question",
+      "value": {
+        "latex": "$|A|\\geq 2\\ \\Longleftrightarrow\\ 1_A\\neq 0_A$ dans $A$.",
+        "html": "<p><span class=\"math inline\">\\(|A|\\geq 2\\ \\Longleftrightarrow\\ 1_A\\neq\n0_A\\)</span> dans <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c0e3177d-10d9-43fa-bc00-b2dc869a311e",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $|A|=1$, $1=0$. Si $1=0$, $\\forall a\\in A, a=1.a=0.a=0$, donc\n    $A=\\{0\\}$.",
+        "html": "<p>Si <span class=\"math inline\">\\(|A|=1\\)</span>, <span\nclass=\"math inline\">\\(1=0\\)</span>. Si <span\nclass=\"math inline\">\\(1=0\\)</span>, <span class=\"math inline\">\\(\\forall\na\\in A, a=1.a=0.a=0\\)</span>, donc <span\nclass=\"math inline\">\\(A=\\{0\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau. Démontrer que\n:</p>\n"
+}

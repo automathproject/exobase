@@ -1,0 +1,77 @@
+{
+  "uuid": "MgA9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7701",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-variété",
+    "sousChapitre": "Sous-variété",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:26.214Z"
+  },
+  "contenu": [
+    {
+      "id": "95d9cf16-b5d5-447d-8a78-5383f3973b61",
+      "type": "description",
+      "value": {
+        "latex": "On considère la courbe paramétrée\r\n$$\\begin{array}{cccc}\r\n        c~:~&]0,1[&\\to&\\Rr ^3\\\\\r\n&t&\\mapsto&\\left(\\begin{array}{c}3\\cos t\\\\3\\sin t\\\\4t\\end{array}\\right)\r\n        \\end{array}\r\n$$",
+        "html": "<p>On considère la courbe paramétrée <span\nclass=\"math display\">\\[\\begin{array}{cccc}\n        c~:~&amp;]0,1[&amp;\\to&amp;\\Rr ^3\\\\\n&amp;t&amp;\\mapsto&amp;\\left(\\begin{array}{c}3\\cos t\\\\3\\sin\nt\\\\4t\\end{array}\\right)\n        \\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "055f1e39-9ca8-4976-a0d5-b6603b25cc05",
+      "type": "question",
+      "value": {
+        "latex": "La courbe $c$ est-elle régulière ?",
+        "html": "<p>La courbe <span class=\"math inline\">\\(c\\)</span> est-elle régulière\n?</p>\n"
+      }
+    },
+    {
+      "id": "7e2810b3-d789-489e-bdd1-7166f2c62167",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme les composantes de $c$ sont de classe $\\mathcal{C}^\\infty$, elle est de classe $\\mathcal{C}^\\infty$.\r\n  La dérivée de la dernière coordonnée ne s'annule jamais.\r\n La courbe $c$ est donc régulière.",
+        "html": "<p>Comme les composantes de <span class=\"math inline\">\\(c\\)</span> sont\nde classe <span class=\"math inline\">\\(\\mathcal{C}^\\infty\\)</span>, elle\nest de classe <span class=\"math inline\">\\(\\mathcal{C}^\\infty\\)</span>.\nLa dérivée de la dernière coordonnée ne s’annule jamais. La courbe <span\nclass=\"math inline\">\\(c\\)</span> est donc régulière.</p>\n"
+      }
+    },
+    {
+      "id": "f585af89-1c08-45de-948e-1efd2ea1f085",
+      "type": "question",
+      "value": {
+        "latex": "Paramétrer l'image de $c$ par la longueur d'arc.",
+        "html": "<p>Paramétrer l’image de <span class=\"math inline\">\\(c\\)</span> par la\nlongueur d’arc.</p>\n"
+      }
+    },
+    {
+      "id": "c3075082-03dc-4ce1-86c8-e60bae3d9103",
+      "type": "reponse",
+      "value": {
+        "latex": "Le vecteur vitesse\r\n  $$\\dot{c}(t)=\\begin{pmatrix}-3\\sin t\\\\3\\cos t\\\\4\\end{pmatrix}$$\r\n est de norme $5$. Comme la courbe $c$ est régulière, on peut trouver un paramétrage par longueur d'arc.\r\n Le paramétrage\r\n $$\\begin{array}{cccc}\r\n         e~:~&]0,5[&\\to&\\Rr ^3\\\\\r\n &s&\\mapsto&\\left(\\begin{array}{c}3\\cos (s/5)\\\\3\\sin (s/5)\\\\4s/5\\end{array}\\right)\r\n         \\end{array}\r\n $$\r\n de la forme $e(s)=c(\\phi(s))$ est un reparamétrage par longueur d'arc, car $de/ds$ est partout de norme $1$.",
+        "html": "<p>Le vecteur vitesse <span\nclass=\"math display\">\\[\\dot{c}(t)=\\begin{pmatrix}-3\\sin t\\\\3\\cos\nt\\\\4\\end{pmatrix}\\]</span> est de norme <span\nclass=\"math inline\">\\(5\\)</span>. Comme la courbe <span\nclass=\"math inline\">\\(c\\)</span> est régulière, on peut trouver un\nparamétrage par longueur d’arc. Le paramétrage <span\nclass=\"math display\">\\[\\begin{array}{cccc}\n         e~:~&amp;]0,5[&amp;\\to&amp;\\Rr ^3\\\\\n&amp;s&amp;\\mapsto&amp;\\left(\\begin{array}{c}3\\cos (s/5)\\\\3\\sin\n(s/5)\\\\4s/5\\end{array}\\right)\n         \\end{array}\\]</span> de la forme <span\nclass=\"math inline\">\\(e(s)=c(\\phi(s))\\)</span> est un reparamétrage par\nlongueur d’arc, car <span class=\"math inline\">\\(de/ds\\)</span> est\npartout de norme <span class=\"math inline\">\\(1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "68343302-fac6-4c99-ac43-d928bbf883c2",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer en tout point de $c$ le repère de Frenet.",
+        "html": "<p>Déterminer en tout point de <span class=\"math inline\">\\(c\\)</span> le\nrepère de Frenet.</p>\n"
+      }
+    },
+    {
+      "id": "e0891037-1cbd-4843-9281-8f586b8bc1da",
+      "type": "reponse",
+      "value": {
+        "latex": "On utilise le paramétrage par longueur d'arc.\r\n  Le premier vecteur est le vecteur vitesse $\\dot{e}(s)=v(s)=\\begin{pmatrix}-3/5\\sin (s/5)\\\\3/5\\cos (s/5)\\\\4/5\\end{pmatrix}$.\r\n Le deuxième est le vecteur normal. Le vecteur accélération est $\\ddot{e}(s)=\\begin{pmatrix}-3/25\\cos (s/5)\\\\-3/25\\sin (s/5)\\\\0\\end{pmatrix}$.\r\n On trouve que la courbure est $3/25$ et le vecteur normal \r\n $n(s)=\\begin{pmatrix}-\\cos (s/5)\\\\-\\sin (s/5)\\\\0\\end{pmatrix}$.\r\n Le troisième vecteur est le vecteur binormal\r\n $b(s)=v(s)\\wedge n(s)=\\begin{pmatrix}-3/5\\sin (s/5)\\\\3/5\\cos (s/5)\\\\4/5\\end{pmatrix}\r\n \\wedge\\begin{pmatrix}-\\cos (s/5)\\\\-\\sin (s/5)\\\\0\\end{pmatrix}\r\n =\\begin{pmatrix} 4/5\\sin (s/5)\\\\-4/5 \\cos (s/5)\\\\ 3/5\\end{pmatrix}$.",
+        "html": "<p>On utilise le paramétrage par longueur d’arc. Le premier vecteur est\nle vecteur vitesse <span\nclass=\"math inline\">\\(\\dot{e}(s)=v(s)=\\begin{pmatrix}-3/5\\sin\n(s/5)\\\\3/5\\cos (s/5)\\\\4/5\\end{pmatrix}\\)</span>. Le deuxième est le\nvecteur normal. Le vecteur accélération est <span\nclass=\"math inline\">\\(\\ddot{e}(s)=\\begin{pmatrix}-3/25\\cos\n(s/5)\\\\-3/25\\sin (s/5)\\\\0\\end{pmatrix}\\)</span>. On trouve que la\ncourbure est <span class=\"math inline\">\\(3/25\\)</span> et le vecteur\nnormal <span class=\"math inline\">\\(n(s)=\\begin{pmatrix}-\\cos\n(s/5)\\\\-\\sin (s/5)\\\\0\\end{pmatrix}\\)</span>. Le troisième vecteur est le\nvecteur binormal <span class=\"math inline\">\\(b(s)=v(s)\\wedge\nn(s)=\\begin{pmatrix}-3/5\\sin (s/5)\\\\3/5\\cos (s/5)\\\\4/5\\end{pmatrix}\n\\wedge\\begin{pmatrix}-\\cos (s/5)\\\\-\\sin (s/5)\\\\0\\end{pmatrix}\n=\\begin{pmatrix} 4/5\\sin (s/5)\\\\-4/5 \\cos (s/5)\\\\\n3/5\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la courbe paramétrée <span\nclass=\"math display\"> ..."
+}

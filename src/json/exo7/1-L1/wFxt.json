@@ -1,0 +1,61 @@
+{
+  "uuid": "wFxt",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3249",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:24.542Z"
+  },
+  "contenu": [
+    {
+      "id": "90b90f04-ccd9-4970-8c39-0855d9cfa3fd",
+      "type": "description",
+      "value": {
+        "latex": "Soit $P \\in {\\Z[X]}$. On appelle {\\it contenu de $P$\\/} le pgcd des coefficients\nde $P$ (notation : cont($P$)).",
+        "html": "<p>Soit <span class=\"math inline\">\\(P \\in {\\Z[X]}\\)</span>. On appelle\n<span><em>contenu de <span class=\"math inline\">\\(P\\)</span></em></span>\nle pgcd des coefficients de <span class=\"math inline\">\\(P\\)</span>\n(notation : cont(<span class=\"math inline\">\\(P\\)</span>)).</p>\n"
+      }
+    },
+    {
+      "id": "c2c4c28d-9896-4e92-b840-8d4170620208",
+      "type": "question",
+      "value": {
+        "latex": "Soient $P,Q \\in {\\Z[X]}$ avec cont$(P)=1$, et $R = PQ$. Soit $p$ un facteur\n    premier de cont($R$).\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "2208500f-a9f3-4104-b114-26495ba6e95a",
+      "type": "question",
+      "value": {
+        "latex": "Si $p$ est premier avec le coefficient constant de $P$, D{\\'e}montrer que\n          $p$ divise tous les coefficients de $Q$.",
+        "html": "<p>Si <span class=\"math inline\">\\(p\\)</span> est premier avec le\ncoefficient constant de <span class=\"math inline\">\\(P\\)</span>,\nD<span>é</span>montrer que <span class=\"math inline\">\\(p\\)</span> divise\ntous les coefficients de <span class=\"math inline\">\\(Q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5ba55571-b062-4088-9cb9-79b29119167c",
+      "type": "question",
+      "value": {
+        "latex": "Si $p$ divise le coefficient constant de $P$, se ramener au cas\n          pr{\\'e}c{\\'e}dent.",
+        "html": "<p>Si <span class=\"math inline\">\\(p\\)</span> divise le coefficient\nconstant de <span class=\"math inline\">\\(P\\)</span>, se ramener au cas\npr<span>é</span>c<span>é</span>dent.</p>\n"
+      }
+    },
+    {
+      "id": "c0325601-e116-401d-a245-b1311d0686b1",
+      "type": "question",
+      "value": {
+        "latex": "En d{\\'e}duire que cont($Q$) = cont($R$).",
+        "html": "<p>En d<span>é</span>duire que cont(<span\nclass=\"math inline\">\\(Q\\)</span>) = cont(<span\nclass=\"math inline\">\\(R\\)</span>).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(P \\in {\\Z[X]}\\)</span>. On appelle\n<span><em>contenu de <span class=\"math inline\">\\(P\\)</span></em></span>\nle pgcd ..."
+}

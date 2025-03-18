@@ -1,0 +1,85 @@
+{
+  "uuid": "a5G5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6860",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:51.948Z"
+  },
+  "contenu": [
+    {
+      "id": "0f6c677c-1b32-4d15-acc2-37aaec4d8bf6",
+      "type": "description",
+      "value": {
+        "latex": "On se propose de calculer, à l'aide du théorème\ndes résidus, la valeur de l'intégrale\n $$I=\\int_{-\\infty}^{+\\infty}\\exp{(-\\pi t^2)}\\ dt.$$",
+        "html": "<p>On se propose de calculer, à l’aide du théorème des résidus, la\nvaleur de l’intégrale <span\nclass=\"math display\">\\[I=\\int_{-\\infty}^{+\\infty}\\exp{(-\\pi t^2)}\\\ndt.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3c2f7f00-9ce5-419d-afa5-459e151a00a4",
+      "type": "question",
+      "value": {
+        "latex": "Soit $a\\in {\\Rr}^*$ ; en intégrant la fonction $g(z)=\\exp{(-\\pi z^2)}$\nsur le rectangle de sommets $-R$, $R$, $R+ia$, $-R+ia$ ($R>0$), montrer\nque\n$$I=\\int_{-\\infty}^{+\\infty}\\exp{\\left(-\\pi(t+ia)^2\\right)}\\ dt.$$\n\n\\medskip\n\nOn pose : $f(z)=\\exp{(i\\pi z^2)}\\tan{(\\pi z)}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\in {\\Rr}^*\\)</span> ; en intégrant\nla fonction <span class=\"math inline\">\\(g(z)=\\exp{(-\\pi z^2)}\\)</span>\nsur le rectangle de sommets <span class=\"math inline\">\\(-R\\)</span>,\n<span class=\"math inline\">\\(R\\)</span>, <span\nclass=\"math inline\">\\(R+ia\\)</span>, <span\nclass=\"math inline\">\\(-R+ia\\)</span> (<span\nclass=\"math inline\">\\(R&gt;0\\)</span>), montrer que <span\nclass=\"math display\">\\[I=\\int_{-\\infty}^{+\\infty}\\exp{\\left(-\\pi(t+ia)^2\\right)}\\\ndt.\\]</span></p>\n<p>On pose : <span class=\"math inline\">\\(f(z)=\\exp{(i\\pi z^2)}\\tan{(\\pi\nz)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "857fbcbe-bc1c-4471-a38d-e57acee8d53e",
+      "type": "question",
+      "value": {
+        "latex": "Quels sont les pôles de $f$ ? Préciser leur ordre.\n\n\\medskip\n\nSoit $R>0$ ; on considère le parallélogramme $\\Gamma _R$ de sommets\n$A=R+1+iR$, $B=R+iR$, $C=-R-iR$ et $D=-R+1-iR$, orienté dans le sens\ndirect.",
+        "html": "<p>Quels sont les pôles de <span class=\"math inline\">\\(f\\)</span> ?\nPréciser leur ordre.</p>\n<p>Soit <span class=\"math inline\">\\(R&gt;0\\)</span> ; on considère le\nparallélogramme <span class=\"math inline\">\\(\\Gamma _R\\)</span> de\nsommets <span class=\"math inline\">\\(A=R+1+iR\\)</span>, <span\nclass=\"math inline\">\\(B=R+iR\\)</span>, <span\nclass=\"math inline\">\\(C=-R-iR\\)</span> et <span\nclass=\"math inline\">\\(D=-R+1-iR\\)</span>, orienté dans le sens\ndirect.</p>\n"
+      }
+    },
+    {
+      "id": "0a0193e3-81c5-46a4-a745-febb07378f30",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que\n$$\\int_{\\Gamma _R}f(z)\\ dz=2e^{-i\\pi/4}.$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\int_{\\Gamma _R}f(z)\\\ndz=2e^{-i\\pi/4}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "b87b9a16-ef7d-45e1-9c48-08252841f490",
+      "type": "question",
+      "value": {
+        "latex": "\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "96be85ab-85e1-486e-9460-fce6aa4f1cd4",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \n$$\\forall t\\in [0,1],\\ \\vert \\tan{(\\pi (R+t+iR))\\vert \\le \\coth{(\\pi R)}}.$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\forall t\\in [0,1],\\ \\vert\n\\tan{(\\pi (R+t+iR))\\vert \\le \\coth{(\\pi R)}}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3f7ba9b7-a6d1-47ed-bb96-ace6f08941e5",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que l'intégrale de $f$ sur le segment orienté $[A,B]$\ntend vers 0 quand $R$ tend vers $+\\infty$.",
+        "html": "<p>En déduire que l’intégrale de <span class=\"math inline\">\\(f\\)</span>\nsur le segment orienté <span class=\"math inline\">\\([A,B]\\)</span> tend\nvers 0 quand <span class=\"math inline\">\\(R\\)</span> tend vers <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "34ff46b5-e096-482e-bb8d-8cd9a3026bdb",
+      "type": "question",
+      "value": {
+        "latex": "Montrer de même que l'intégrale de $f$ sur $[C,D]$ tend vers 0\nquand $R$ tend vers $+\\infty$.",
+        "html": "<p>Montrer de même que l’intégrale de <span\nclass=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\([C,D]\\)</span> tend vers 0 quand <span\nclass=\"math inline\">\\(R\\)</span> tend vers <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On se propose de calculer, à l’aide du théorème des résidus, la\nvaleur de l’intégrale <span\nclass=\"math display\"> ..."
+}

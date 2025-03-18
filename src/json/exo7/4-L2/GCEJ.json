@@ -1,0 +1,77 @@
+{
+  "uuid": "GCEJ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3639",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Endomorphisme particulier",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:10.660Z"
+  },
+  "contenu": [
+    {
+      "id": "d68ee55d-ee07-482b-a783-8a7b1959d20d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f : {\\R^2} \\to \\R$. On dit que $f$ est polynomiale si elle est de la\nforme : $f(x,y) = \\sum_{i,j} a_{ij}x^iy^j$, la somme portant sur un nombre\nfini de termes. Le degré de $f$ est alors $\\max(i+j \\text{ tq } a_{ij} \\ne 0)$.\n\nOn note $E_k$ l'ensemble des fonctions $\\R^2 \\to \\R$ polynomiales de degré\ninférieur ou égal à $k$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {\\R^2} \\to \\R\\)</span>. On dit\nque <span class=\"math inline\">\\(f\\)</span> est polynomiale si elle est\nde la forme : <span class=\"math inline\">\\(f(x,y) = \\sum_{i,j}\na_{ij}x^iy^j\\)</span>, la somme portant sur un nombre fini de termes. Le\ndegré de <span class=\"math inline\">\\(f\\)</span> est alors <span\nclass=\"math inline\">\\(\\max(i+j \\text{ tq } a_{ij} \\ne 0)\\)</span>.</p>\n<p>On note <span class=\"math inline\">\\(E_k\\)</span> l’ensemble des\nfonctions <span class=\"math inline\">\\(\\R^2 \\to \\R\\)</span> polynomiales\nde degré inférieur ou égal à <span class=\"math inline\">\\(k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d4d1b96e-9aa1-43e6-9b2b-d29f6a08ef7e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $E_k$ est un $\\R$-ev de dimension finie et donner sa dimension.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(E_k\\)</span> est un <span\nclass=\"math inline\">\\(\\R\\)</span>-ev de dimension finie et donner sa\ndimension.</p>\n"
+      }
+    },
+    {
+      "id": "f2e47448-822b-4184-bd79-0f480cef57bb",
+      "type": "question",
+      "value": {
+        "latex": "Soient $A=(0,0)$, $B=(1,0)$, $C=(0,1)$.\n    Montrer que les formes linéaires $f  \\mapsto f(A)$, $f  \\mapsto f(B)$, $f  \\mapsto f(C)$\n    constituent une base de $E_1^*$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A=(0,0)\\)</span>, <span\nclass=\"math inline\">\\(B=(1,0)\\)</span>, <span\nclass=\"math inline\">\\(C=(0,1)\\)</span>. Montrer que les formes linéaires\n<span class=\"math inline\">\\(f  \\mapsto f(A)\\)</span>, <span\nclass=\"math inline\">\\(f  \\mapsto f(B)\\)</span>, <span\nclass=\"math inline\">\\(f  \\mapsto f(C)\\)</span> constituent une base de\n<span class=\"math inline\">\\(E_1^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "00243653-6cc4-4586-a6fc-ee2c656c0975",
+      "type": "question",
+      "value": {
+        "latex": "Chercher de même une base de $E_2^*$.",
+        "html": "<p>Chercher de même une base de <span\nclass=\"math inline\">\\(E_2^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "27ed00a7-914a-4f67-9757-a6d03bbe264c",
+      "type": "question",
+      "value": {
+        "latex": "Soit $T$ le triangle plein $ABC$ et $f \\in E_1$.\n    Montrer que $ \\int_{}^{}\\!\\! \\int_T^{} f(x,y)\\,d xd y =\n    \\frac{f(A)+f(B)+f(C)}6$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(T\\)</span> le triangle plein <span\nclass=\"math inline\">\\(ABC\\)</span> et <span class=\"math inline\">\\(f \\in\nE_1\\)</span>. Montrer que <span class=\"math inline\">\\(\\int_{}^{}\\!\\!\n\\int_T^{} f(x,y)\\,d xd y =\n    \\frac{f(A)+f(B)+f(C)}6\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1c4c5762-717d-4c72-9565-f1d8289337ec",
+      "type": "question",
+      "value": {
+        "latex": "Chercher une formule analogue pour $f \\in E_2$.",
+        "html": "<p>Chercher une formule analogue pour <span class=\"math inline\">\\(f \\in\nE_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b1f4bed4-c824-4589-b08c-e39eb59f721b",
+      "type": "reponse",
+      "value": {
+        "latex": "1. $\\frac{(k+1)(k+2)}2$.\n\n3. $(\\delta_A,\\delta_B,\\delta_C,\\delta_{A'},\\delta_{B'},\\delta_{C'})$\n             où $A',B',C'$ sont les milieux du triangle $ABC$.\n             \n5. $ \\int_{}^{}\\!\\! \\int_T^{} f(x,y)\\,d xd y =\n              \\frac{f(A')+f(B')+f(C')}6$.",
+        "html": "<p>1. <span class=\"math inline\">\\(\\frac{(k+1)(k+2)}2\\)</span>.</p>\n<p>3. <span\nclass=\"math inline\">\\((\\delta_A,\\delta_B,\\delta_C,\\delta_{A&#39;},\\delta_{B&#39;},\\delta_{C&#39;})\\)</span>\noù <span class=\"math inline\">\\(A&#39;,B&#39;,C&#39;\\)</span> sont les\nmilieux du triangle <span class=\"math inline\">\\(ABC\\)</span>.</p>\n<p>5. <span class=\"math inline\">\\(\\int_{}^{}\\!\\! \\int_T^{} f(x,y)\\,d xd\ny =\n              \\frac{f(A&#39;)+f(B&#39;)+f(C&#39;)}6\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {\\R^2} \\to \\R\\)</span>. On dit\nque <span class=\"math inline\">\\(f\\)</span> est polynomiale si elle est\nde la fo ..."
+}

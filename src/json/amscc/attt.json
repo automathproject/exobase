@@ -1,0 +1,127 @@
+{
+  "uuid": "attt",
+  "titre": "Polynômes et décomposition en facteurs irréductibles",
+  "theme": [
+    "Algèbre"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Q. Liard",
+    "createdAt": "2025-03-18T17:52:37.265Z",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:37.265Z"
+  },
+  "contenu": [
+    {
+      "id": "ef944642-18dc-4662-a115-2e2e1b17383a",
+      "type": "description",
+      "value": {
+        "latex": "L'enjeu de cet exercice est la factorisation du polynôme $R(X)=X^9+X^6+X^3+1$.",
+        "html": "<p>L’enjeu de cet exercice est la factorisation du polynôme <span\nclass=\"math inline\">\\(R(X)=X^9+X^6+X^3+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "860e58ff-2462-48b8-b752-40d967171415",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les coefficients du polynôme $Q$ donné par $Q(X)=(X-1)P(X)$ où $P$ est le polynôme $P$ défini par $P(X)=X^3+X^2+X+1$",
+        "html": "<p>Déterminer les coefficients du polynôme <span\nclass=\"math inline\">\\(Q\\)</span> donné par <span\nclass=\"math inline\">\\(Q(X)=(X-1)P(X)\\)</span> où <span\nclass=\"math inline\">\\(P\\)</span> est le polynôme <span\nclass=\"math inline\">\\(P\\)</span> défini par <span\nclass=\"math inline\">\\(P(X)=X^3+X^2+X+1\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d429fc77-1382-421e-9def-8aa551f337f5",
+      "type": "reponse",
+      "value": {
+        "latex": "$Q(X)=X^4+X^3+X^2+X-X^3-X^2-X-1=X^4-1.$",
+        "html": "<p><span\nclass=\"math inline\">\\(Q(X)=X^4+X^3+X^2+X-X^3-X^2-X-1=X^4-1.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "afb8ed10-9aaa-410b-a325-dcb073f2ae71",
+      "type": "question",
+      "value": {
+        "latex": "Donner les racines complexes de $Q$.",
+        "html": "<p>Donner les racines complexes de <span\nclass=\"math inline\">\\(Q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5d12128c-0460-4a7e-809b-68ec00e21c6e",
+      "type": "reponse",
+      "value": {
+        "latex": "$1$ et $-1$ sont les racines réelles de $Q$ et $-i$ et $i$ sont les racines complexes de $Q$.",
+        "html": "<p><span class=\"math inline\">\\(1\\)</span> et <span\nclass=\"math inline\">\\(-1\\)</span> sont les racines réelles de <span\nclass=\"math inline\">\\(Q\\)</span> et <span\nclass=\"math inline\">\\(-i\\)</span> et <span\nclass=\"math inline\">\\(i\\)</span> sont les racines complexes de <span\nclass=\"math inline\">\\(Q\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ecdde345-a4b6-4280-ba39-5f59983a52c3",
+      "type": "question",
+      "value": {
+        "latex": "En déduire une factorisation du polynôme $P$ en produit de facteurs irréductibles dans $\\mathbb{C}[X]$.",
+        "html": "<p>En déduire une factorisation du polynôme <span\nclass=\"math inline\">\\(P\\)</span> en produit de facteurs irréductibles\ndans <span class=\"math inline\">\\(\\mathbb{C}[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b52c5a49-c5fd-4dee-b7e0-ac9562563501",
+      "type": "reponse",
+      "value": {
+        "latex": "On peut écrire $Q$ comme un produit de facteurs de degré $1$ dans $\\mathbb{C}[X]:$ $Q(X)=(X-1)(X+1)(X-i)(X+i).$",
+        "html": "<p>On peut écrire <span class=\"math inline\">\\(Q\\)</span> comme un\nproduit de facteurs de degré <span class=\"math inline\">\\(1\\)</span> dans\n<span class=\"math inline\">\\(\\mathbb{C}[X]:\\)</span> <span\nclass=\"math inline\">\\(Q(X)=(X-1)(X+1)(X-i)(X+i).\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8abd4d52-5fad-44c9-9ff4-b781a6ab3639",
+      "type": "question",
+      "value": {
+        "latex": "Établir une égalité entre le polynôme $P$ et $R$.",
+        "html": "<p>Établir une égalité entre le polynôme <span\nclass=\"math inline\">\\(P\\)</span> et <span\nclass=\"math inline\">\\(R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "796e1a3d-fc78-4628-a984-a2a003b1c041",
+      "type": "reponse",
+      "value": {
+        "latex": "$R(X)=P(X^3)$",
+        "html": "<p><span class=\"math inline\">\\(R(X)=P(X^3)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "786b9b23-34e1-4f85-955e-ee55b5e7dca7",
+      "type": "question",
+      "value": {
+        "latex": "Donner la décomposition en produit de facteurs irréductibles sur $\\mathbb{R}[X]$ de $X^3+1$.",
+        "html": "<p>Donner la décomposition en produit de facteurs irréductibles sur\n<span class=\"math inline\">\\(\\mathbb{R}[X]\\)</span> de <span\nclass=\"math inline\">\\(X^3+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c02e9e6d-9552-434c-9f4d-ce5185b7fb2e",
+      "type": "reponse",
+      "value": {
+        "latex": "$-1$ est une racine réelle de $X^3+1$ et $X^3+1=(X+1)(X^2-X+1)$. Ainsi $x_1=\\exp(-i\\pi/3)$ et $\\overline{x_1}$ sont les racines complexes de $X^2-X+1$ donc de $X^3+1$.",
+        "html": "<p><span class=\"math inline\">\\(-1\\)</span> est une racine réelle de\n<span class=\"math inline\">\\(X^3+1\\)</span> et <span\nclass=\"math inline\">\\(X^3+1=(X+1)(X^2-X+1)\\)</span>. Ainsi <span\nclass=\"math inline\">\\(x_1=\\exp(-i\\pi/3)\\)</span> et <span\nclass=\"math inline\">\\(\\overline{x_1}\\)</span> sont les racines complexes\nde <span class=\"math inline\">\\(X^2-X+1\\)</span> donc de <span\nclass=\"math inline\">\\(X^3+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "23fbfcb9-847e-498e-9de5-7f3b699a2c17",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la décomposition en produit de facteurs irréductibles de $R$ sur $\\mathbb{C}[X]$.\\\\\n\\emph{Pour cette question on pourra utiliser que les racines complexes de $X^6+1$ sont les $z_k=\\exp(i(\\pi+2k\\pi)/6)$ avec $k=0,\\cdots{},5$.}",
+        "html": "<p>En déduire la décomposition en produit de facteurs irréductibles de\n<span class=\"math inline\">\\(R\\)</span> sur <span\nclass=\"math inline\">\\(\\mathbb{C}[X]\\)</span>.<br />\n<em>Pour cette question on pourra utiliser que les racines complexes de\n<span class=\"math inline\">\\(X^6+1\\)</span> sont les <span\nclass=\"math inline\">\\(z_k=\\exp(i(\\pi+2k\\pi)/6)\\)</span> avec <span\nclass=\"math inline\">\\(k=0,\\cdots{},5\\)</span>.</em></p>\n"
+      }
+    },
+    {
+      "id": "d5b1a658-32e0-4c94-b46f-e1f58383cd70",
+      "type": "reponse",
+      "value": {
+        "latex": "On peut écrire: \n$$R(X)=P(X^3)=(X^3+1)(X^6+1).$$ Les racines complexes de $X^6+1$ sont les $z_k=\\exp(i(\\pi+2k\\pi)/6)$ avec $k=0,\\cdots{},5$. On obtient:\n$$R(X)=(X+1)(X-x_1)(X-\\overline{x_1})\\prod_{k=0}^{5}(X-z_k).$$",
+        "html": "<p>On peut écrire: <span\nclass=\"math display\">\\[R(X)=P(X^3)=(X^3+1)(X^6+1).\\]</span> Les racines\ncomplexes de <span class=\"math inline\">\\(X^6+1\\)</span> sont les <span\nclass=\"math inline\">\\(z_k=\\exp(i(\\pi+2k\\pi)/6)\\)</span> avec <span\nclass=\"math inline\">\\(k=0,\\cdots{},5\\)</span>. On obtient: <span\nclass=\"math display\">\\[R(X)=(X+1)(X-x_1)(X-\\overline{x_1})\\prod_{k=0}^{5}(X-z_k).\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>L’enjeu de cet exercice est la factorisation du polynôme <span\nclass=\"math inline\">\\(R(X)=X^9+X^6+X^3+1\\)</span>.</p>\n"
+}

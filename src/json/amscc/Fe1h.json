@@ -1,0 +1,39 @@
+{
+  "uuid": "Fe1h",
+  "titre": "Déterminant de Vandermonde",
+  "theme": [
+    "calcul déterminant"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-14",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:21.402Z"
+  },
+  "contenu": [
+    {
+      "id": "a4c8f082-59ae-4726-809c-fcd379a065c3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que :\n$$\n\\left|\\begin{array}{lll}\n\t1 & 1 & 1 \\\\\n\ta & b & c \\\\\n\ta^2 & b^2 & c^2\n\\end{array}\\right|=(c-a)(b-a)(c-b)\n$$",
+        "html": "<p>Montrer que : <span class=\"math display\">\\[\\left|\\begin{array}{lll}\n    1 &amp; 1 &amp; 1 \\\\\n    a &amp; b &amp; c \\\\\n    a^2 &amp; b^2 &amp; c^2\n\\end{array}\\right|=(c-a)(b-a)(c-b)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f5fcdee4-dc75-4e59-878b-32932810c2c2",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\n\\begin{aligned}\n\t& \\left|\\begin{array}{ccc}\n\t\t1 & 1 & 1 \\\\\n\t\ta & b & c \\\\\n\t\ta^2 & b^2 & c^2\n\t\\end{array}\\right|=\\left|\\begin{array}{ccc}\n\t\t\\mathcal{c}_1 & \\mathcal{c}_2-\\mathcal{c}_1 & \\mathcal{c}_3-\\mathcal{c}_1 \\\\\n\t\ta & 0 & 0 \\\\\n\t\ta^2 & b^2-a^2 & c^2-a^2\n\t\\end{array}\\right| \\\\\n\t& =(b-a)(c-a)\\left|\\begin{array}{ccc}\n\t\tc_1 & c_2 & \\mathcal{c}_3-c_2 \\\\\n\t\t1 & 0 & 0 \\\\\n\t\ta & 1 & 0 \\\\\n\t\ta^2 & b+a & c-b\n\t\\end{array}\\right| \\\\\n\t& =(b-a)(c-a)(c-b) \\\\\n\t&\n\\end{aligned}\n$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{aligned}\n    &amp; \\left|\\begin{array}{ccc}\n        1 &amp; 1 &amp; 1 \\\\\n        a &amp; b &amp; c \\\\\n        a^2 &amp; b^2 &amp; c^2\n    \\end{array}\\right|=\\left|\\begin{array}{ccc}\n        \\mathcal{c}_1 &amp; \\mathcal{c}_2-\\mathcal{c}_1 &amp;\n\\mathcal{c}_3-\\mathcal{c}_1 \\\\\n        a &amp; 0 &amp; 0 \\\\\n        a^2 &amp; b^2-a^2 &amp; c^2-a^2\n    \\end{array}\\right| \\\\\n    &amp; =(b-a)(c-a)\\left|\\begin{array}{ccc}\n        c_1 &amp; c_2 &amp; \\mathcal{c}_3-c_2 \\\\\n        1 &amp; 0 &amp; 0 \\\\\n        a &amp; 1 &amp; 0 \\\\\n        a^2 &amp; b+a &amp; c-b\n    \\end{array}\\right| \\\\\n    &amp; =(b-a)(c-a)(c-b) \\\\\n    &amp;\n\\end{aligned}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que : <span class=\"math display\"> ..."
+}

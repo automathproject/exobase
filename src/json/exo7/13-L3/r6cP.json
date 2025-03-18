@@ -1,0 +1,61 @@
+{
+  "uuid": "r6cP",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1852",
+    "auteur": "maillot",
+    "createdAt": "2001-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Equation aux dérivées partielles",
+    "sousChapitre": "Equation aux dérivées partielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:06.386Z"
+  },
+  "contenu": [
+    {
+      "id": "764a7545-a3c8-4f22-b4e0-91022d7d552a",
+      "type": "description",
+      "value": {
+        "latex": "On cherche les fonctions $f:\\R^2\\rightarrow \\R$ telles que:\n\\begin{equation}\\label{truc}\n\\frac{\\partial f}{\\partial u} (u,v) +2u \\frac{\\partial f}{\\partial v} (u,v)=0 \\qquad \\text{pour tout $(u,v)\\in\\R^2$}.\n\\end{equation}\nSoit $\\phi:\\R^2\\rightarrow\\R^2$ l'application d\\'efinie par $\\phi(x,y)=(x,y+x^2)$.",
+        "html": "<p>On cherche les fonctions <span\nclass=\"math inline\">\\(f:\\R^2\\rightarrow \\R\\)</span> telles que: <span\nclass=\"math display\">\\[\\label{truc}\n\\frac{\\partial f}{\\partial u} (u,v) +2u \\frac{\\partial f}{\\partial v}\n(u,v)=0 \\qquad \\text{pour tout $(u,v)\\in\\R^2$}.\\]</span> Soit <span\nclass=\"math inline\">\\(\\phi:\\R^2\\rightarrow\\R^2\\)</span> l’application\ndéfinie par <span\nclass=\"math inline\">\\(\\phi(x,y)=(x,y+x^2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1a43c7f2-e6fb-4950-be08-835cdfffedad",
+      "type": "question",
+      "value": {
+        "latex": "En calculant l'application r\\'eciproque, montrer que $\\phi$ est\nbijective. V\\'erifier que $\\phi$ et $\\phi^{-1}$ sont de classe $\\mathcal C^1$.",
+        "html": "<p>En calculant l’application réciproque, montrer que <span\nclass=\"math inline\">\\(\\phi\\)</span> est bijective. Vérifier que <span\nclass=\"math inline\">\\(\\phi\\)</span> et <span\nclass=\"math inline\">\\(\\phi^{-1}\\)</span> sont de classe <span\nclass=\"math inline\">\\(\\mathcal C^1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fd854d16-9bee-4539-96da-0d64d78e6259",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f:\\R^2\\rightarrow \\R$ une fonction de classe $\\mathcal C^1$. Posons\n$g=f\\circ \\phi$.\n  \\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "cf6861f4-4fef-429b-9ecd-5930f94a34c4",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $g$ est de classe $\\mathcal C^1$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(g\\)</span> est de classe\n<span class=\"math inline\">\\(\\mathcal C^1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "039393ca-b051-4fb3-a38b-c2ae69158fbc",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est solution de (\\ref{truc}) si et seulement si\n  $\\frac{\\partial g}{\\partial x}=0$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est solution de\n(<a href=\"#truc\" data-reference-type=\"ref\"\ndata-reference=\"truc\">[truc]</a>) si et seulement si <span\nclass=\"math inline\">\\(\\frac{\\partial g}{\\partial x}=0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On cherche les fonctions <span\nclass=\"math inline\">\\(f:\\R^2\\rightarrow \\R\\)</span> telles que: <span\nclass=\"math display\"> ..."
+}

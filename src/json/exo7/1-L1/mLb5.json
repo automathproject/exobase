@@ -1,0 +1,101 @@
+{
+  "uuid": "mLb5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "109",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "q07OjCbDg3o",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Logique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:52.205Z"
+  },
+  "contenu": [
+    {
+      "id": "dda76ad4-8f41-4ed5-8f4c-b7f1e40e7a66",
+      "type": "description",
+      "value": {
+        "latex": "Dans $\\R^2$, on d\\'efinit les ensembles $F_{1}=\\{(x,y)\\in\\R^2,\\ y\\leq0\\}$ et\n$F_{2}=\\{(x,y)\\in\\R^2,\\ xy\\geq1,\\ x\\geq0\\}$. On note $M_1M_2$ la distance usuelle entre deux points $M_1$ et $M_2$ de $\\R^2$.\n\\'Evaluer les propositions suivantes :",
+        "html": "<p>Dans <span class=\"math inline\">\\(\\R^2\\)</span>, on définit les\nensembles <span class=\"math inline\">\\(F_{1}=\\{(x,y)\\in\\R^2,\\\ny\\leq0\\}\\)</span> et <span class=\"math inline\">\\(F_{2}=\\{(x,y)\\in\\R^2,\\\nxy\\geq1,\\ x\\geq0\\}\\)</span>. On note <span\nclass=\"math inline\">\\(M_1M_2\\)</span> la distance usuelle entre deux\npoints <span class=\"math inline\">\\(M_1\\)</span> et <span\nclass=\"math inline\">\\(M_2\\)</span> de <span\nclass=\"math inline\">\\(\\R^2\\)</span>. Évaluer les propositions suivantes\n:</p>\n"
+      }
+    },
+    {
+      "id": "e0ca39bc-5198-4d60-861a-20ade0b97e9c",
+      "type": "question",
+      "value": {
+        "latex": "$\n \\forall\\epsilon\\in]0,+\\infty[\\quad\n \\exists M_{1}\\in F_{1}\\quad\n \\exists M_{2}\\in F_{2}\n \\qquad M_{1}M_{2}<\\epsilon$",
+        "html": "<p><span class=\"math inline\">\\(\\forall\\epsilon\\in]0,+\\infty[\\quad\n\\exists M_{1}\\in F_{1}\\quad\n\\exists M_{2}\\in F_{2}\n\\qquad M_{1}M_{2}&lt;\\epsilon\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "717c010e-f1d5-4d17-954a-be2ffd2ad0e3",
+      "type": "reponse",
+      "value": {
+        "latex": "Cette proposition est vraie. En effet soit $\\epsilon > 0$,  d\\'efinissons $M_1 = (\\frac{2}{\\epsilon},0)  \\in F_1$ et\n $M_2 = (\\frac{2}{\\epsilon},\\frac{\\epsilon}{2}) \\in F_2$, alors $M_1M_2=\\frac{\\epsilon}{2} < \\epsilon$. Ceci \\'etant vrai quelque soit\n$\\epsilon >0$ la proposition est donc d\\'emontr\\'ee.",
+        "html": "<p>Cette proposition est vraie. En effet soit <span\nclass=\"math inline\">\\(\\epsilon &gt; 0\\)</span>, définissons <span\nclass=\"math inline\">\\(M_1 = (\\frac{2}{\\epsilon},0)  \\in F_1\\)</span> et\n<span class=\"math inline\">\\(M_2 =\n(\\frac{2}{\\epsilon},\\frac{\\epsilon}{2}) \\in F_2\\)</span>, alors <span\nclass=\"math inline\">\\(M_1M_2=\\frac{\\epsilon}{2} &lt; \\epsilon\\)</span>.\nCeci étant vrai quelque soit <span class=\"math inline\">\\(\\epsilon\n&gt;0\\)</span> la proposition est donc démontrée.</p>\n"
+      }
+    },
+    {
+      "id": "d2e010ba-f500-4f1d-826a-6d82c0b5dca0",
+      "type": "question",
+      "value": {
+        "latex": "$\n \\exists M_{1}\\in F_{1}\\quad\n \\exists M_{2}\\in F_{2}\\quad\n \\forall\\epsilon\\in]0,+\\infty[\n \\qquad M_{1}M_{2}<\\epsilon$",
+        "html": "<p><span class=\"math inline\">\\(\\exists M_{1}\\in F_{1}\\quad\n\\exists M_{2}\\in F_{2}\\quad\n\\forall\\epsilon\\in]0,+\\infty[\n\\qquad M_{1}M_{2}&lt;\\epsilon\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "6000351f-336f-49db-b269-245e68250e1f",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit deux points fix\\'es $M_1$, $M_2$ v\\'erifiant cette\nproposition, la distance $d= M_1M_2$ est\n aussi petite que l'on veut donc elle est nulle, donc $M_1 = M_2$ ; or les ensembles $F_1$ et $F_2$\nsont disjoints. Donc la proposition est fausse. La n\\'egation de\ncette proposition est :\n$$ \\forall M_1 \\in F_1 \\ \\  \\forall M_2 \\in F_2 \\quad \\exists \\epsilon \\in ]0,+\\infty[ \\quad  \\quad M_1M_2 \\geqslant \\epsilon $$ et cela exprime le fait que les ensembles $F_1$ et $F_2$ sont disjoints.",
+        "html": "<p>Soit deux points fixés <span class=\"math inline\">\\(M_1\\)</span>,\n<span class=\"math inline\">\\(M_2\\)</span> vérifiant cette proposition, la\ndistance <span class=\"math inline\">\\(d= M_1M_2\\)</span> est aussi petite\nque l’on veut donc elle est nulle, donc <span class=\"math inline\">\\(M_1\n= M_2\\)</span> ; or les ensembles <span\nclass=\"math inline\">\\(F_1\\)</span> et <span\nclass=\"math inline\">\\(F_2\\)</span> sont disjoints. Donc la proposition\nest fausse. La négation de cette proposition est : <span\nclass=\"math display\">\\[\\forall M_1 \\in F_1 \\ \\  \\forall M_2 \\in F_2\n\\quad \\exists \\epsilon \\in ]0,+\\infty[ \\quad  \\quad M_1M_2 \\geqslant\n\\epsilon\\]</span> et cela exprime le fait que les ensembles <span\nclass=\"math inline\">\\(F_1\\)</span> et <span\nclass=\"math inline\">\\(F_2\\)</span> sont disjoints.</p>\n"
+      }
+    },
+    {
+      "id": "f555cb23-ce90-4993-9fbd-6c46e6edebc6",
+      "type": "question",
+      "value": {
+        "latex": "$\n \\exists\\epsilon\\in]0,+\\infty[\\quad \n \\forall M_{1}\\in F_{1}\\quad\n \\forall M_{2}\\in F_{2}\n \\qquad M_{1}M_{2}<\\epsilon$",
+        "html": "<p><span class=\"math inline\">\\(\\exists\\epsilon\\in]0,+\\infty[\\quad\n\\forall M_{1}\\in F_{1}\\quad\n\\forall M_{2}\\in F_{2}\n\\qquad M_{1}M_{2}&lt;\\epsilon\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "40ef9c47-c1eb-4b20-acd2-cbf26d70d039",
+      "type": "reponse",
+      "value": {
+        "latex": "Celle ci est \\'egalement fausse, en effet supposons qu'elle soit\nvraie, soit alors $\\epsilon$ correspondant \\`a cette proposition.\nSoit $M_1=(\\epsilon +2,0)$ et $M_2 = (1,1)$, on a $M_1M_2 >\n\\epsilon+1$ ce qui est absurde. La n\\'egation est :\n$$\\forall \\epsilon \\in ]0,+\\infty[ \\quad  \\exists M_1 \\in F_1 \\ \\  \\exists M_2 \\in F_2 \\quad   \\quad M_1M_2 \\geqslant \\epsilon $$\nC'est-\\`a-dire que l'on peut trouver deux points aussi\n\\'eloign\\'es l'un de l'autre  que l'on veut.",
+        "html": "<p>Celle ci est également fausse, en effet supposons qu’elle soit vraie,\nsoit alors <span class=\"math inline\">\\(\\epsilon\\)</span> correspondant à\ncette proposition. Soit <span class=\"math inline\">\\(M_1=(\\epsilon\n+2,0)\\)</span> et <span class=\"math inline\">\\(M_2 = (1,1)\\)</span>, on a\n<span class=\"math inline\">\\(M_1M_2 &gt;\n\\epsilon+1\\)</span> ce qui est absurde. La négation est : <span\nclass=\"math display\">\\[\\forall \\epsilon \\in ]0,+\\infty[ \\quad  \\exists\nM_1 \\in F_1 \\ \\  \\exists M_2 \\in F_2 \\quad   \\quad M_1M_2 \\geqslant\n\\epsilon\\]</span> C’est-à-dire que l’on peut trouver deux points aussi\néloignés l’un de l’autre que l’on veut.</p>\n"
+      }
+    },
+    {
+      "id": "72499021-9f1d-49e7-8a51-2380fb4d9e8c",
+      "type": "question",
+      "value": {
+        "latex": "$\n \\forall M_{1}\\in F_{1}\\quad\n \\forall M_{2}\\in F_{2}\\quad\n \\exists\\epsilon\\in]0,+\\infty[\n \\qquad M_{1}M_{2}<\\epsilon$",
+        "html": "<p><span class=\"math inline\">\\(\\forall M_{1}\\in F_{1}\\quad\n\\forall M_{2}\\in F_{2}\\quad\n\\exists\\epsilon\\in]0,+\\infty[\n\\qquad M_{1}M_{2}&lt;\\epsilon\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "3ff8e714-e360-40cb-9066-b308a8f7f4c0",
+      "type": "reponse",
+      "value": {
+        "latex": "Cette proposition est vraie, il suffit de choisir\n$\\epsilon=M_1M_2+1$. Elle signifie que la distance entre deux\npoints donn\\'es est un nombre fini !",
+        "html": "<p>Cette proposition est vraie, il suffit de choisir <span\nclass=\"math inline\">\\(\\epsilon=M_1M_2+1\\)</span>. Elle signifie que la\ndistance entre deux points donnés est un nombre fini !</p>\n"
+      }
+    },
+    {
+      "id": "308ebd57-9e6d-4475-acd5-aa7a3bad34f4",
+      "type": "indication",
+      "value": {
+        "latex": "Faire un dessin de $F_1$ et de $F_2$.\nEssayer de voir si la difficult\\'e pour r\\'ealiser les assertions vient de\n$\\epsilon$ ``petit'' (c'est-\\`a-dire proche de $0$) ou de $\\epsilon$ ``grand''\n(quand il tend vers $+\\infty$).",
+        "html": "<p>Faire un dessin de <span class=\"math inline\">\\(F_1\\)</span> et de\n<span class=\"math inline\">\\(F_2\\)</span>. Essayer de voir si la\ndifficulté pour réaliser les assertions vient de <span\nclass=\"math inline\">\\(\\epsilon\\)</span> “petit” (c’est-à-dire proche de\n<span class=\"math inline\">\\(0\\)</span>) ou de <span\nclass=\"math inline\">\\(\\epsilon\\)</span> “grand” (quand il tend vers\n<span class=\"math inline\">\\(+\\infty\\)</span>).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans <span class=\"math inline\">\\(\\R^2\\)</span>, on définit les\nensembles <span class=\"math inline\">\\(F_{1}=\\{(x,y)\\in\\R^2,\\\ny\\leq0\\}\\)</span> et <s ..."
+}

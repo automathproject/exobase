@@ -1,0 +1,61 @@
+{
+  "uuid": "nSg5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6022",
+    "auteur": "quinio",
+    "createdAt": "2011-05-20",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Lois de distributions",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:38.420Z"
+  },
+  "contenu": [
+    {
+      "id": "2479018b-b945-409a-8435-17d0e3923db7",
+      "type": "description",
+      "value": {
+        "latex": "On jette un dé 180 fois.\nOn note $X$ la variable aléatoire : <<nombre de sorties du 4>>.",
+        "html": "<p>On jette un dé 180 fois. On note <span\nclass=\"math inline\">\\(X\\)</span> la variable aléatoire : &lt;&lt;nombre\nde sorties du 4&gt;&gt;.</p>\n"
+      }
+    },
+    {
+      "id": "429f2ac4-2830-46eb-958d-ecae9705b886",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la loi de $X$ ?",
+        "html": "<p>Quelle est la loi de <span class=\"math inline\">\\(X\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "18651900-d3c4-4b12-9bca-2370b77efb79",
+      "type": "reponse",
+      "value": {
+        "latex": "La loi de $X$ est une loi binomiale $B(180;\\frac{1}{6})$\nEspérance: 30; écart-type: $\\sigma =\\sqrt{25}=5$.",
+        "html": "<p>La loi de <span class=\"math inline\">\\(X\\)</span> est une loi\nbinomiale <span class=\"math inline\">\\(B(180;\\frac{1}{6})\\)</span>\nEspérance: 30; écart-type: <span class=\"math inline\">\\(\\sigma\n=\\sqrt{25}=5\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "553ffe5c-eaca-417f-9eda-1510d179e036",
+      "type": "question",
+      "value": {
+        "latex": "Calculez la probabilité pour que $X$ soit compris entre 29 et 32.",
+        "html": "<p>Calculez la probabilité pour que <span\nclass=\"math inline\">\\(X\\)</span> soit compris entre 29 et 32.</p>\n"
+      }
+    },
+    {
+      "id": "fcacc850-1ed2-4471-8827-35a540e1080c",
+      "type": "reponse",
+      "value": {
+        "latex": "En approchant cette loi par une loi normale $N(30$; $\\sigma)$ la\nprobabilité pour que $X$ soit compris entre 29 et 32 :\n$P[(28.5-30)/\\sigma \\leq (X-30)/\\sigma \\leq (32.5-30)/\\sigma ]\\simeq 30.94\\%$.\nAvec la vraie loi, on trouve la probabilité pour que $X$ soit compris entre 29 et 32 est $30.86\\%$.",
+        "html": "<p>En approchant cette loi par une loi normale <span\nclass=\"math inline\">\\(N(30\\)</span>; <span\nclass=\"math inline\">\\(\\sigma)\\)</span> la probabilité pour que <span\nclass=\"math inline\">\\(X\\)</span> soit compris entre 29 et 32 : <span\nclass=\"math inline\">\\(P[(28.5-30)/\\sigma \\leq (X-30)/\\sigma \\leq\n(32.5-30)/\\sigma ]\\simeq 30.94\\%\\)</span>. Avec la vraie loi, on trouve\nla probabilité pour que <span class=\"math inline\">\\(X\\)</span> soit\ncompris entre 29 et 32 est <span\nclass=\"math inline\">\\(30.86\\%\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On jette un dé 180 fois. On note <span\nclass=\"math inline\">\\(X\\)</span> la variable aléatoire : &lt;&lt;nombre\nde sorties du 4&gt;&gt;.</p>\n"
+}

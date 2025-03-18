@@ -1,0 +1,61 @@
+{
+  "uuid": "YSJE",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4872",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine dans le plan et dans l'espace",
+    "sousChapitre": "Applications affines",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:31.984Z"
+  },
+  "contenu": [
+    {
+      "id": "7d43ecdb-2c6f-4744-bfec-89e91a206477",
+      "type": "description",
+      "value": {
+        "latex": "On fixe un repère ${\\cal R} = (O,\\vec e_1, \\vec e_2, \\vec e_3)$ d'un espace\naffine de dimension 3.\nDéterminer les expressions analytiques des applications suivantes :",
+        "html": "<p>On fixe un repère <span class=\"math inline\">\\({\\cal R} = (O,\\vec e_1,\n\\vec e_2, \\vec e_3)\\)</span> d’un espace affine de dimension 3.\nDéterminer les expressions analytiques des applications suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "b62175f2-4c25-412b-9a2a-e0fcb794f5b2",
+      "type": "question",
+      "value": {
+        "latex": "Symétrie de base le plan d'équation $x+2y+z = 1$ et de direction\n    vect$(\\vec e_1 + \\vec e_2 + \\vec e_3)$.",
+        "html": "<p>Symétrie de base le plan d’équation <span\nclass=\"math inline\">\\(x+2y+z = 1\\)</span> et de direction vect<span\nclass=\"math inline\">\\((\\vec e_1 + \\vec e_2 + \\vec e_3)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "08587a35-7693-40b7-8145-0edbba0a6cfb",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{cases}2x' = x - 2y - z + 1 \\cr\n                     2y' = -x -z + 1      \\cr\n                     2z' = -x -2y +z + 1  \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases}2x&#39; = x - 2y - z + 1 \\cr\n                     2y&#39; = -x -z + 1      \\cr\n                     2z&#39; = -x -2y +z +\n1  \\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f972d4cd-1197-4ebd-bb45-c1bd2546c430",
+      "type": "question",
+      "value": {
+        "latex": "Symétrie de base la droite d'équations\n    $\\begin{cases} x+y+1 = 0 \\cr 2y+z+2 = 0,\\end{cases}$ \\par\n    de direction le plan vectoriel\n    d'équation $3x + 3y - 2z = 0$.",
+        "html": "<p>Symétrie de base la droite d’équations <span\nclass=\"math inline\">\\(\\begin{cases} x+y+1 = 0 \\cr 2y+z+2 =\n0,\\end{cases}\\)</span></p>\n<p>de direction le plan vectoriel d’équation <span\nclass=\"math inline\">\\(3x + 3y - 2z = 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b9bdecf1-de66-49ee-91d0-062c466d64ac",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\begin{cases}2x' = -5x - 3y + 2z - 3 \\cr\n                     2y' = 3x + y - 2z - 1   \\cr\n                     z' = -3x -3y +z -3      \\cr\\end{cases}$",
+        "html": "<p><span class=\"math inline\">\\(\\begin{cases}2x&#39; = -5x - 3y + 2z - 3\n\\cr\n                     2y&#39; = 3x + y - 2z - 1   \\cr\n                     z&#39; = -3x -3y +z\n-3      \\cr\\end{cases}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On fixe un repère <span class=\"math inline\">\\({\\cal R} = (O,\\vec e_1,\n\\vec e_2, \\vec e_3)\\)</span> d’un espace affine de dimension 3.\nDéterminer le ..."
+}

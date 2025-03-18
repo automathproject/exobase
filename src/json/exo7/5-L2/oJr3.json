@@ -1,0 +1,77 @@
+{
+  "uuid": "oJr3",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4391",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale multiple",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:01.221Z"
+  },
+  "contenu": [
+    {
+      "id": "4f30f162-679a-4cf4-8ec9-0b3bf14cabbb",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "2340e7b8-c4c8-4d22-8466-772c74bed76c",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $A = \\iint_{0\\le y\\le x\\le 1}^{} \\frac{d xd y}{(1+x^2)(1+y^2)}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(A = \\iint_{0\\le y\\le x\\le 1}^{}\n\\frac{d xd y}{(1+x^2)(1+y^2)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cc0a3a21-1e29-42d0-8719-c729c108aaed",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer la convergence des intégrales :\\par\n    $B =  \\int_{\\theta=0}^{\\pi/4} \\frac{\\ln(2\\cos^2\\theta)}{2\\cos2\\theta}  d\\theta$,\n    $C =  \\int_{\\theta=0}^{\\pi/4} \\frac{\\ln(2\\sin^2\\theta)}{2\\cos2\\theta}  d\\theta$,\n    et $D =  \\int_{t=0}^1 \\frac{\\ln t}{1-t^2}\\,d t$.",
+        "html": "<p>Démontrer la convergence des intégrales :</p>\n<p><span class=\"math inline\">\\(B =  \\int_{\\theta=0}^{\\pi/4}\n\\frac{\\ln(2\\cos^2\\theta)}{2\\cos2\\theta}  d\\theta\\)</span>, <span\nclass=\"math inline\">\\(C =  \\int_{\\theta=0}^{\\pi/4}\n\\frac{\\ln(2\\sin^2\\theta)}{2\\cos2\\theta}  d\\theta\\)</span>, et <span\nclass=\"math inline\">\\(D =  \\int_{t=0}^1 \\frac{\\ln t}{1-t^2}\\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "db626774-5749-4fbc-a892-107524fb3da0",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer que $A = B$ (passer en coordonnées polaires dans $A$).",
+        "html": "<p>Démontrer que <span class=\"math inline\">\\(A = B\\)</span> (passer en\ncoordonnées polaires dans <span class=\"math inline\">\\(A\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "580c4ba7-93b7-40c7-ab3c-db1f5a01daf9",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $B+C$ et $B-C$ en fonction de $D$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(B+C\\)</span> et <span\nclass=\"math inline\">\\(B-C\\)</span> en fonction de <span\nclass=\"math inline\">\\(D\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7cc4f359-fdf0-4c9d-81cc-d04e1cdf05e5",
+      "type": "question",
+      "value": {
+        "latex": "En déduire les valeurs de $C$ et $D$.",
+        "html": "<p>En déduire les valeurs de <span class=\"math inline\">\\(C\\)</span> et\n<span class=\"math inline\">\\(D\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2d8601a0-d711-4116-9b8a-9b76ed8df0eb",
+      "type": "reponse",
+      "value": {
+        "latex": "$2A = \\left( \\int_{t=0}^1 \\frac{d t}{1+t^2}\\right)^2  \\Rightarrow  A = \\frac{\\pi^2}{32}$.\n$B+C = \\frac D2 $, $B-C = -D$.\n$C = -\\frac{3\\pi^2}{32}$, $D = -\\frac{\\pi^2}8$.",
+        "html": "<p><span class=\"math inline\">\\(2A = \\left( \\int_{t=0}^1 \\frac{d\nt}{1+t^2}\\right)^2  \\Rightarrow  A = \\frac{\\pi^2}{32}\\)</span>. <span\nclass=\"math inline\">\\(B+C = \\frac D2\\)</span>, <span\nclass=\"math inline\">\\(B-C = -D\\)</span>. <span class=\"math inline\">\\(C =\n-\\frac{3\\pi^2}{32}\\)</span>, <span class=\"math inline\">\\(D =\n-\\frac{\\pi^2}8\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(A = \\iint_{0\\le y\\le x\\le 1}^{}\n\\frac{d xd y}{(1+x^2)(1+y^2)}\\)</span>.</p>\n"
+}

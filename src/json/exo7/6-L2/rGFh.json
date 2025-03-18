@@ -1,0 +1,45 @@
+{
+  "uuid": "rGFh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7094",
+    "auteur": "megy",
+    "createdAt": "2017-01-21",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:15.239Z"
+  },
+  "contenu": [
+    {
+      "id": "e1522966-c326-4f62-a304-43d82188ae3e",
+      "type": "description",
+      "value": {
+        "latex": "\r\nSoient $D$ et $D'$ deux droites. Soient $A, B, C$ trois points sur $D$, et $A'$, $B'$ et $C'$ trois points sur $D'$. Si $(AB') // (BC')$ et $(BA') // (CB')$, alors $(AA') // (CC')$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(D\\)</span> et <span\nclass=\"math inline\">\\(D&#39;\\)</span> deux droites. Soient <span\nclass=\"math inline\">\\(A, B, C\\)</span> trois points sur <span\nclass=\"math inline\">\\(D\\)</span>, et <span\nclass=\"math inline\">\\(A&#39;\\)</span>, <span\nclass=\"math inline\">\\(B&#39;\\)</span> et <span\nclass=\"math inline\">\\(C&#39;\\)</span> trois points sur <span\nclass=\"math inline\">\\(D&#39;\\)</span>. Si <span\nclass=\"math inline\">\\((AB&#39;) // (BC&#39;)\\)</span> et <span\nclass=\"math inline\">\\((BA&#39;) // (CB&#39;)\\)</span>, alors <span\nclass=\"math inline\">\\((AA&#39;) // (CC&#39;)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6b5e1896-f6df-4e24-90b6-47210e57b9a8",
+      "type": "indication",
+      "value": {
+        "latex": "Des homothéties de même centre commutent, de même que des translations.",
+        "html": "<p>Des homothéties de même centre commutent, de même que des\ntranslations.</p>\n"
+      }
+    },
+    {
+      "id": "70bb4d2d-6a1e-49dc-ba09-c217c6eb383b",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $O$ le pt d'intersection. On note $\\phi$ l'homothétie qui envoie $A$ sur $B$, et $\\psi$ celle qui envoie $B$ sur $C$. Alors $\\phi\\psi = \\psi\\phi$. L'image de $A$ est $C$ et l'image de $A'$ est $C'$, d'où le  parallélisme demandé.\r\n\r\nSi les droites sont parallèles, on remplace les homothéties par des translations.",
+        "html": "<p>Soit <span class=\"math inline\">\\(O\\)</span> le pt d’intersection. On\nnote <span class=\"math inline\">\\(\\phi\\)</span> l’homothétie qui envoie\n<span class=\"math inline\">\\(A\\)</span> sur <span\nclass=\"math inline\">\\(B\\)</span>, et <span\nclass=\"math inline\">\\(\\psi\\)</span> celle qui envoie <span\nclass=\"math inline\">\\(B\\)</span> sur <span\nclass=\"math inline\">\\(C\\)</span>. Alors <span\nclass=\"math inline\">\\(\\phi\\psi = \\psi\\phi\\)</span>. L’image de <span\nclass=\"math inline\">\\(A\\)</span> est <span\nclass=\"math inline\">\\(C\\)</span> et l’image de <span\nclass=\"math inline\">\\(A&#39;\\)</span> est <span\nclass=\"math inline\">\\(C&#39;\\)</span>, d’où le parallélisme demandé.</p>\n<p>Si les droites sont parallèles, on remplace les homothéties par des\ntranslations.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(D\\)</span> et <span\nclass=\"math inline\">\\(D&#39;\\)</span> deux droites. Soient <span\nclass=\"math inline\"> ..."
+}

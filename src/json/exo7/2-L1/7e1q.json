@@ -1,0 +1,53 @@
+{
+  "uuid": "7e1q",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4008",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Formule de Taylor",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:59.902Z"
+  },
+  "contenu": [
+    {
+      "id": "6acc9db7-0f68-4266-ac33-4d5b10f27d13",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "62e70a48-ca4f-4b21-9f6f-f10f9fac9c08",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f:\\R \\to \\R$ de classe $\\mathcal{C}^5$, impaire, telle que $f'(0) = 0$\n    et : $\\forall\\ x\\in\\R,\\ |f^{(5)}(x)| \\le M$.\n\n    Montrer qu'il existe une constante $\\lambda$ telle que :\n    $\\forall\\ x \\in \\R,\\ \\left|f(x)-\\frac x3f'(x)\\right| \\le \\lambda M|x^5|$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^5\\)</span>, impaire, telle que <span\nclass=\"math inline\">\\(f&#39;(0) = 0\\)</span> et : <span\nclass=\"math inline\">\\(\\forall\\ x\\in\\R,\\ |f^{(5)}(x)| \\le M\\)</span>.</p>\n<p>Montrer qu’il existe une constante <span\nclass=\"math inline\">\\(\\lambda\\)</span> telle que : <span\nclass=\"math inline\">\\(\\forall\\ x \\in \\R,\\ \\left|f(x)-\\frac\nx3f&#39;(x)\\right| \\le \\lambda M|x^5|\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f990fa7d-462c-4649-8eff-9133781bbfcc",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f : {[a,b]} \\to \\R$ de classe $\\mathcal{C}^5$ telle que :\n    $$f'(a) = f'(b) = f'\\left(\\frac {a+b}2\\right) = 0,  \\qquad\n      \\text{et}\\quad \\forall\\ x\\in{[a,b]},\\ |f^{(5)}(x)| \\le M.$$\n    Montrer que $\\bigl|f(b)-f(a)\\bigr| \\le \\frac {M(b-a)^5}{2880}$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to \\R\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^5\\)</span> telle que :\n<span class=\"math display\">\\[f&#39;(a) = f&#39;(b) = f&#39;\\left(\\frac\n{a+b}2\\right) = 0,  \\qquad\n      \\text{et}\\quad \\forall\\ x\\in{[a,b]},\\ |f^{(5)}(x)| \\le M.\\]</span>\nMontrer que <span class=\"math inline\">\\(\\bigl|f(b)-f(a)\\bigr| \\le \\frac\n{M(b-a)^5}{2880}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f30a08ff-71af-4eeb-8e75-74a629025510",
+      "type": "reponse",
+      "value": {
+        "latex": "Formule de Taylor pour $f$ et $f'$ $ \\Rightarrow  \\lambda = 1/180$.",
+        "html": "<p>Formule de Taylor pour <span class=\"math inline\">\\(f\\)</span> et\n<span class=\"math inline\">\\(f&#39;\\)</span> <span\nclass=\"math inline\">\\(\\Rightarrow  \\lambda = 1/180\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^5\\)</span>, impaire, telle que <span\nclass= ..."
+}

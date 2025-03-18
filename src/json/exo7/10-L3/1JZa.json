@@ -1,0 +1,85 @@
+{
+  "uuid": "1JZa",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7900",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Forme bilinéaire",
+    "sousChapitre": "Forme bilinéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:37.674Z"
+  },
+  "contenu": [
+    {
+      "id": "1eb49cf9-f235-445d-ae47-481bc211bae2",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "25e617dd-9cb1-4e36-8207-fd9853f6eae6",
+      "type": "question",
+      "value": {
+        "latex": "Montrer le \\emph{théorème de Burnside} : soit $G$ un groupe fini agissant sur un ensemble fini $E$.\r\nAlors le nombre~$N$ d'orbites est la moyenne des cardinaux des points fixes des éléments de $G$\r\net aussi $$N=\\frac{1}{|G|}\\sum_{g\\in G}\\text{Card} Fix(\\phi(g))=\\frac{1}{|G|}\\sum_{x\\in E}\\text{Card} stabl(x).$$\r\nOn pourra considérer $\\{(x,g)\\in E\\times G / g\\cdot x=x\\}$.",
+        "html": "<p>Montrer le <em>théorème de Burnside</em> : soit <span\nclass=\"math inline\">\\(G\\)</span> un groupe fini agissant sur un ensemble\nfini <span class=\"math inline\">\\(E\\)</span>. Alors le nombre <span\nclass=\"math inline\">\\(N\\)</span> d’orbites est la moyenne des cardinaux\ndes points fixes des éléments de <span class=\"math inline\">\\(G\\)</span>\net aussi <span class=\"math display\">\\[N=\\frac{1}{|G|}\\sum_{g\\in\nG}\\text{Card} Fix(\\phi(g))=\\frac{1}{|G|}\\sum_{x\\in E}\\text{Card}\nstabl(x).\\]</span> On pourra considérer <span\nclass=\"math inline\">\\(\\{(x,g)\\in E\\times G / g\\cdot x=x\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fe48a795-44f2-4ca7-99b6-13ad504dd5c7",
+      "type": "question",
+      "value": {
+        "latex": "Soit $G$ un sous-groupe fini de $SO(3)$. On considère son action sur la sphère unité.\r\nSoit $X$ l'ensemble des points fixés par un des éléments de $G$ différents de l'identité.\r\nMontrer que $X$ est stable par l'action de $G$.\r\nMontrer que le stabilisateur d'un élément de $X$ est un groupe cyclique.\r\nOn notera $N$ le nombre d'orbites de l'action de $G$ sur $X$\r\net $n_j$ le cardinal du stabilisateur d'un élément de l'orbite $O_j$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G\\)</span> un sous-groupe fini de\n<span class=\"math inline\">\\(SO(3)\\)</span>. On considère son action sur\nla sphère unité. Soit <span class=\"math inline\">\\(X\\)</span> l’ensemble\ndes points fixés par un des éléments de <span\nclass=\"math inline\">\\(G\\)</span> différents de l’identité. Montrer que\n<span class=\"math inline\">\\(X\\)</span> est stable par l’action de <span\nclass=\"math inline\">\\(G\\)</span>. Montrer que le stabilisateur d’un\nélément de <span class=\"math inline\">\\(X\\)</span> est un groupe\ncyclique. On notera <span class=\"math inline\">\\(N\\)</span> le nombre\nd’orbites de l’action de <span class=\"math inline\">\\(G\\)</span> sur\n<span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(n_j\\)</span> le cardinal du stabilisateur d’un\nélément de l’orbite <span class=\"math inline\">\\(O_j\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "09a96a93-260f-4f4e-96cc-b25b87984a98",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \r\n$$N|G|=2(|G|-1)+\\text{Card} X.$$",
+        "html": "<p>Montrer que <span class=\"math display\">\\[N|G|=2(|G|-1)+\\text{Card}\nX.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "042f39bc-7b16-4a4e-a56f-1e18701dfbd5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que \r\n$$2-\\frac{2}{|G|}=\\sum_{j=1}^N(1-\\frac{1}{n_j}).$$",
+        "html": "<p>Montrer que <span\nclass=\"math display\">\\[2-\\frac{2}{|G|}=\\sum_{j=1}^N(1-\\frac{1}{n_j}).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a84275b3-8cc7-4d5d-863f-b903fa43edfe",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que $N=2$ ou $N=3$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(N=2\\)</span> ou <span\nclass=\"math inline\">\\(N=3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f1e9bd0f-9f8d-4a36-b5ec-aa819902584d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $N=2$, $G$ est un sous-groupe cyclique de rotations.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(N=2\\)</span>, <span\nclass=\"math inline\">\\(G\\)</span> est un sous-groupe cyclique de\nrotations.</p>\n"
+      }
+    },
+    {
+      "id": "5f5d4a8c-0fae-4021-b0c3-48316797caf9",
+      "type": "question",
+      "value": {
+        "latex": "Si $N=3$, déterminer les possibilités pour les $n_j$.",
+        "html": "<p>Si <span class=\"math inline\">\\(N=3\\)</span>, déterminer les\npossibilités pour les <span class=\"math inline\">\\(n_j\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer le <em>théorème de Burnside</em> : soit <span\nclass=\"math inline\">\\(G\\)</span> un groupe fini agissant sur un ensemble\nfini <span class=\"ma ..."
+}

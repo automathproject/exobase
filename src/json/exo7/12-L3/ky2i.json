@@ -1,0 +1,69 @@
+{
+  "uuid": "ky2i",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6263",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Différentiabilité, calcul de différentielles",
+    "sousChapitre": "Différentiabilité, calcul de différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:51.272Z"
+  },
+  "contenu": [
+    {
+      "id": "9bd2a8ab-29f8-4e98-9754-d816391ec694",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\Omega$ un ouvert convexe de $\\Rr^n$ et $f:\\Omega \\to \\Rr^n$ une\napplication de classe $C^1$ qui est injective sur $\\Omega$ et\ntelle que $Df(x)$ soit injective pour tout $x\\in \\Omega$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\Omega\\)</span> un ouvert convexe de\n<span class=\"math inline\">\\(\\Rr^n\\)</span> et <span\nclass=\"math inline\">\\(f:\\Omega \\to \\Rr^n\\)</span> une application de\nclasse <span class=\"math inline\">\\(C^1\\)</span> qui est injective sur\n<span class=\"math inline\">\\(\\Omega\\)</span> et telle que <span\nclass=\"math inline\">\\(Df(x)\\)</span> soit injective pour tout <span\nclass=\"math inline\">\\(x\\in \\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eb97d84a-25f0-487f-9bac-9d1001904cba",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que, pour tous $a,b \\in \\Omega$,\n$$ \\| f(b) -f(a)- Df(a) (b-a)\\| \\leq \\| b -a \\| \\sup _{c\\in [a,b]} \\| Df(c) -Df(a)\\| \\; .$$",
+        "html": "<p>Montrer que, pour tous <span class=\"math inline\">\\(a,b \\in\n\\Omega\\)</span>, <span class=\"math display\">\\[\\| f(b) -f(a)- Df(a)\n(b-a)\\| \\leq \\| b -a \\| \\sup _{c\\in [a,b]} \\| Df(c) -Df(a)\\| \\;\n.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a65067df-c138-446e-90d6-f2910fdcaa56",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(f_n)$ une suite de fonctions de classe $C^1$ telle que $f_n \\to f$ et $Df_n \\to Df$\nuniformément sur tout compact de $\\Omega$. On va montrer:\n{\\it pour tout compact $K$ de $\\Omega$ il existe $n_0$ tel que $f_n$ soit injective\nsur $K$ pour $n\\geq n_0$.} \n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "2332802b-4c79-4e1c-9db5-cfdc719a9dcb",
+      "type": "question",
+      "value": {
+        "latex": "En raisonnant par l'absurde, montrer qu'il existerait $K$ compact et, pour une infinité d'entiers\n$n$, des points $a_n, b_n \\in K$ tels que $f_n(a_n) = f_n (b_n)$.",
+        "html": "<p>En raisonnant par l’absurde, montrer qu’il existerait <span\nclass=\"math inline\">\\(K\\)</span> compact et, pour une infinité d’entiers\n<span class=\"math inline\">\\(n\\)</span>, des points <span\nclass=\"math inline\">\\(a_n, b_n \\in K\\)</span> tels que <span\nclass=\"math inline\">\\(f_n(a_n) = f_n (b_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "08efc89f-7d79-41f3-84ca-977dcd01ddb4",
+      "type": "question",
+      "value": {
+        "latex": "Quitte à extraire, montrer qu'alors $b_n - a_n \\to 0$.",
+        "html": "<p>Quitte à extraire, montrer qu’alors <span class=\"math inline\">\\(b_n -\na_n \\to 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0c372d12-96d8-4415-b092-5ae2a06b5068",
+      "type": "question",
+      "value": {
+        "latex": "Utiliser (1.) pour en déduire une contradiction.\n\\end{itemize}",
+        "html": ""
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\Omega\\)</span> un ouvert convexe de\n<span class=\"math inline\">\\(\\Rr^n\\)</span> et <span\nclass=\"math inline\"> ..."
+}

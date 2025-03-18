@@ -1,0 +1,37 @@
+{
+  "uuid": "36Yn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4457",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:44.086Z"
+  },
+  "contenu": [
+    {
+      "id": "8497c117-ed8b-4a51-91e0-b47d68463ec4",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\sum u_n$ une série à termes positifs.\nOn pose $v_n = \\frac{ u_n + u_{n+1} + \\dots + u_{2n-1} }n$.\nMontrer que $\\sum v_n$ a même nature que $\\sum u_n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\sum u_n\\)</span> une série à termes\npositifs. On pose <span class=\"math inline\">\\(v_n = \\frac{ u_n + u_{n+1}\n+ \\dots + u_{2n-1} }n\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\sum v_n\\)</span> a même nature que <span\nclass=\"math inline\">\\(\\sum u_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c42fd41b-a228-46f7-8d45-7fa6efa68c7d",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sum_{n=1}^N v_n = \\sum_{k=1}^{2N-1} u_k\\sum_{k/2<n\\le k}\\frac 1n\n           \\Rightarrow  \\frac12\\sum_{k=1}^{2N-1} u_k \\le \\sum_{n=1}^N v_n \\le\n              2\\sum_{k=1}^{2N-1} u_k$.",
+        "html": "<p><span class=\"math inline\">\\(\\sum_{n=1}^N v_n = \\sum_{k=1}^{2N-1}\nu_k\\sum_{k/2&lt;n\\le k}\\frac 1n\n           \\Rightarrow  \\frac12\\sum_{k=1}^{2N-1} u_k \\le \\sum_{n=1}^N\nv_n \\le\n              2\\sum_{k=1}^{2N-1} u_k\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\sum u_n\\)</span> une série à termes\npositifs. On pose <span class=\"math inline\"> ..."
+}

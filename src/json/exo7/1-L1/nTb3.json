@@ -1,0 +1,61 @@
+{
+  "uuid": "nTb3",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5574",
+    "auteur": "rouget",
+    "createdAt": "2010-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace vectoriel",
+    "sousChapitre": "Système de vecteurs",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:56.628Z"
+  },
+  "contenu": [
+    {
+      "id": "a944699d-ad51-47fb-ac37-7f64ba4ef8ff",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "f2ff203f-64b3-43ac-ae9f-08f83208ab2d",
+      "type": "question",
+      "value": {
+        "latex": "Calculer pour $p$ et $q$ entiers naturels donnés les intégrales suivantes :\n\n\\begin{center}\n$J(p,q)=\\int_{0}^{2\\pi}\\cos(px)\\cos(qx)\\;dx$, $K(p,q)=\\int_{0}^{2\\pi}\\cos(px)\\sin(qx)\\;dx$ et $L(p,q)=\\int_{0}^{2\\pi}\\sin(px)\\sin(qx)\\;dx$.\n\\end{center}",
+        "html": "<p>Calculer pour <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> entiers naturels donnés les intégrales\nsuivantes :</p>\n<div class=\"center\">\n<p><span\nclass=\"math inline\">\\(J(p,q)=\\int_{0}^{2\\pi}\\cos(px)\\cos(qx)\\;dx\\)</span>,\n<span\nclass=\"math inline\">\\(K(p,q)=\\int_{0}^{2\\pi}\\cos(px)\\sin(qx)\\;dx\\)</span>\net <span\nclass=\"math inline\">\\(L(p,q)=\\int_{0}^{2\\pi}\\sin(px)\\sin(qx)\\;dx\\)</span>.</p>\n</div>\n"
+      }
+    },
+    {
+      "id": "0ff5e3f0-c159-4aaa-9c96-50a20c360f21",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $p$ et $q$ entiers relatifs, posons $I(p,q)=\\int_{0}^{2\\pi}e^{i(p-q)x}\\;dx$.\n\nSi $p\\neq q$, $I(p,q)=\\frac{1}{i(p-q)}\\left[e^{i(p-q)x}\\right]_0^{2\\pi}=0$. Soient alors $p$ et $q$ deux entiers naturels.\n\nDonc si $p\\neq q$, $J(p,q)\\frac{1}{2}\\text{Re}(I(p,q) + I(p,-q))=0$ puis $K(p,q)=\\frac{1}{2}\\text{Im}(I(p,-q)-I(p,q))=0$ puis $L(p,q)=\\frac{1}{2}\\text{Re}(I(p,-q)-I(p,q))=0$.\n\nSi $p=q$, $J(p,p)=2\\pi$ si $p=0$ et $\\pi$ si $p\\neq 0$ puis $K(p,p)=0$ puis $L(p,p)=\\pi$ si $p\\neq0$ et $0$ si $p=0$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> entiers relatifs, posons <span\nclass=\"math inline\">\\(I(p,q)=\\int_{0}^{2\\pi}e^{i(p-q)x}\\;dx\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(p\\neq q\\)</span>, <span\nclass=\"math inline\">\\(I(p,q)=\\frac{1}{i(p-q)}\\left[e^{i(p-q)x}\\right]_0^{2\\pi}=0\\)</span>.\nSoient alors <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> deux entiers naturels.</p>\n<p>Donc si <span class=\"math inline\">\\(p\\neq q\\)</span>, <span\nclass=\"math inline\">\\(J(p,q)\\frac{1}{2}\\text{Re}(I(p,q) +\nI(p,-q))=0\\)</span> puis <span\nclass=\"math inline\">\\(K(p,q)=\\frac{1}{2}\\text{Im}(I(p,-q)-I(p,q))=0\\)</span>\npuis <span\nclass=\"math inline\">\\(L(p,q)=\\frac{1}{2}\\text{Re}(I(p,-q)-I(p,q))=0\\)</span>.</p>\n<p>Si <span class=\"math inline\">\\(p=q\\)</span>, <span\nclass=\"math inline\">\\(J(p,p)=2\\pi\\)</span> si <span\nclass=\"math inline\">\\(p=0\\)</span> et <span\nclass=\"math inline\">\\(\\pi\\)</span> si <span class=\"math inline\">\\(p\\neq\n0\\)</span> puis <span class=\"math inline\">\\(K(p,p)=0\\)</span> puis <span\nclass=\"math inline\">\\(L(p,p)=\\pi\\)</span> si <span\nclass=\"math inline\">\\(p\\neq0\\)</span> et <span\nclass=\"math inline\">\\(0\\)</span> si <span\nclass=\"math inline\">\\(p=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cd3affce-d5bc-4b20-bbeb-ca667fb09c9d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que la famille de fonctions $(\\cos(px))_{p\\in\\Nn}\\cup(\\sin(qx))_{q\\in\\Nn^*}$ est libre.",
+        "html": "<p>Montrer que la famille de fonctions <span\nclass=\"math inline\">\\((\\cos(px))_{p\\in\\Nn}\\cup(\\sin(qx))_{q\\in\\Nn^*}\\)</span>\nest libre.</p>\n"
+      }
+    },
+    {
+      "id": "4fde0f55-81d2-4e93-ab3e-3aacf2a1625f",
+      "type": "reponse",
+      "value": {
+        "latex": "Sur l'espace $E$ des fonctions continues sur $\\Rr$ à valeurs dans $\\Rr$ et $2\\pi$-périodiques, l'application qui à $(f,g)$ élément de $E^2$ associe $\\int_{0}^{2\\pi}f(t)g(t)\\;dt$ est classiquement un produit scalaire. La famille de fonctions proposée est une famille orthogonale pour ce produit scalaire et ne contient pas le vecteur nul de $E$. Cette famille est donc est libre.",
+        "html": "<p>Sur l’espace <span class=\"math inline\">\\(E\\)</span> des fonctions\ncontinues sur <span class=\"math inline\">\\(\\Rr\\)</span> à valeurs dans\n<span class=\"math inline\">\\(\\Rr\\)</span> et <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodiques, l’application qui à\n<span class=\"math inline\">\\((f,g)\\)</span> élément de <span\nclass=\"math inline\">\\(E^2\\)</span> associe <span\nclass=\"math inline\">\\(\\int_{0}^{2\\pi}f(t)g(t)\\;dt\\)</span> est\nclassiquement un produit scalaire. La famille de fonctions proposée est\nune famille orthogonale pour ce produit scalaire et ne contient pas le\nvecteur nul de <span class=\"math inline\">\\(E\\)</span>. Cette famille est\ndonc est libre.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer pour <span class=\"math inline\">\\(p\\)</span> et <span\nclass=\"math inline\">\\(q\\)</span> entiers naturels donnés les intégrales\nsuivantes :</ ..."
+}

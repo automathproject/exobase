@@ -1,0 +1,37 @@
+{
+  "uuid": "Sgvr",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2195",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "true",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème de Sylow",
+    "sousChapitre": "Théorème de Sylow",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:54.531Z"
+  },
+  "contenu": [
+    {
+      "id": "0a482f3a-abdf-4990-b552-475c728c113c",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que le groupe di\\'edral $D_6$ est isomorphe au\nproduit direct $\\mu _2 \\times S_3$.",
+        "html": "<p>Montrer que le groupe diédral <span\nclass=\"math inline\">\\(D_6\\)</span> est isomorphe au produit direct <span\nclass=\"math inline\">\\(\\mu _2 \\times S_3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a00dc847-93fe-413c-8e9e-65151d4f55a9",
+      "type": "indication",
+      "value": {
+        "latex": "On a \n$$D_6 = \\Z/6\\Z \\times \\hskip -6pt {\\raise 1.4pt\\hbox{${\\scriptscriptstyle |}$}}\n\\Z/2\\Z \\simeq (\\Z/2\\Z \\times \\Z/3\\Z) \\times \\hskip -6pt {\\raise\n1.4pt\\hbox{${\\scriptscriptstyle |}$}}\n\\Z/2\\Z \\simeq \\Z/2\\Z \\times (\\Z/3\\Z \\times \\hskip -6pt {\\raise\n1.4pt\\hbox{${\\scriptscriptstyle |}$}} \\Z/2\\Z) \\simeq \\mu_2 \\times S_3$$\n\nLe premier isomorphisme est une application standard du lemme chinois. Pour le\ndeuxi\\`eme, noter que le premier $\\Z/2\\Z$ est dans le centre du groupe et\ndonc que l'action sur lui par conjugaison du second $\\Z/2\\Z$ est triviale.\nL'isomorphisme $\\Z/3\\Z \\times \\hskip -6pt {\\raise\n1.4pt\\hbox{${\\scriptscriptstyle |}$}} \\Z/2\\Z \\simeq S_3$ est classique.",
+        "html": "<p>On a <span class=\"math display\">\\[D_6 = \\Z/6\\Z \\times \\hskip -6pt\n{\\raise 1.4pt\\hbox{${\\scriptscriptstyle |}$}}\n\\Z/2\\Z \\simeq (\\Z/2\\Z \\times \\Z/3\\Z) \\times \\hskip -6pt {\\raise\n1.4pt\\hbox{${\\scriptscriptstyle |}$}}\n\\Z/2\\Z \\simeq \\Z/2\\Z \\times (\\Z/3\\Z \\times \\hskip -6pt {\\raise\n1.4pt\\hbox{${\\scriptscriptstyle |}$}} \\Z/2\\Z) \\simeq \\mu_2 \\times\nS_3\\]</span></p>\n<p>Le premier isomorphisme est une application standard du lemme\nchinois. Pour le deuxième, noter que le premier <span\nclass=\"math inline\">\\(\\Z/2\\Z\\)</span> est dans le centre du groupe et\ndonc que l’action sur lui par conjugaison du second <span\nclass=\"math inline\">\\(\\Z/2\\Z\\)</span> est triviale. L’isomorphisme <span\nclass=\"math inline\">\\(\\Z/3\\Z \\times \\hskip -6pt {\\raise\n1.4pt\\hbox{${\\scriptscriptstyle |}$}} \\Z/2\\Z \\simeq S_3\\)</span> est\nclassique.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que le groupe diédral <span\nclass=\"math inline\">\\(D_6\\)</span> est isomorphe au produit direct <span\nclass=\"math inline\"> ..."
+}

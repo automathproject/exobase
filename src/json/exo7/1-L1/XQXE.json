@@ -1,0 +1,61 @@
+{
+  "uuid": "XQXE",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2901",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Binôme de Newton et combinaison",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:56.535Z"
+  },
+  "contenu": [
+    {
+      "id": "3a2273ef-91df-4dac-a8f2-fb98d318a283",
+      "type": "description",
+      "value": {
+        "latex": "Soient $n,p \\in \\N^*$ avec $n \\ge p$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(n,p \\in \\N^*\\)</span> avec <span\nclass=\"math inline\">\\(n \\ge p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8a4c2299-f408-467e-8c92-370d17f63675",
+      "type": "question",
+      "value": {
+        "latex": "V{\\'e}rifier que $C_n^kC_k^p = C_n^pC_{n-p}^{k-p}$ pour $p \\le k \\le n$.",
+        "html": "<p>V<span>é</span>rifier que <span class=\"math inline\">\\(C_n^kC_k^p =\nC_n^pC_{n-p}^{k-p}\\)</span> pour <span class=\"math inline\">\\(p \\le k \\le\nn\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "73066db0-ef22-4b5d-b965-fec8a4e8f7b4",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\sum_{k=0}^n \\,(-1)^kC_n^kC_k^p$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\sum_{k=0}^n\n\\,(-1)^kC_n^kC_k^p\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c4412b2f-41d7-4a0c-9eac-f0acbfae0e8b",
+      "type": "question",
+      "value": {
+        "latex": "En d{\\'e}duire $\\sum_{k=0}^n (-1)^kC_n^kk^p = 0$ si $p < n$.",
+        "html": "<p>En d<span>é</span>duire <span class=\"math inline\">\\(\\sum_{k=0}^n\n(-1)^kC_n^kk^p = 0\\)</span> si <span class=\"math inline\">\\(p &lt;\nn\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b9553c95-2ce3-413d-86b6-80bbb1275179",
+      "type": "reponse",
+      "value": {
+        "latex": "$0$ si $p < n$, $(-1)^n$ si $p = n$.",
+        "html": "<p><span class=\"math inline\">\\(0\\)</span> si <span\nclass=\"math inline\">\\(p &lt; n\\)</span>, <span\nclass=\"math inline\">\\((-1)^n\\)</span> si <span class=\"math inline\">\\(p =\nn\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(n,p \\in \\N^*\\)</span> avec <span\nclass=\"math inline\">\\(n \\ge p\\)</span>.</p>\n"
+}

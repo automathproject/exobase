@@ -1,0 +1,53 @@
+{
+  "uuid": "b1d0",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7262",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Géométrie affine euclidienne",
+    "sousChapitre": "Géométrie affine euclidienne du plan",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:35.570Z"
+  },
+  "contenu": [
+    {
+      "id": "a4c2ca81-269b-47b6-aeb9-11c85e3dd2bc",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un plan et $(0,\\vec{\\imath},\\vec{\\jmath})$ un repère.\r\nOn considère l'application \r\n$$\r\n\\phi : (\\vec{u}\\begin{pmatrix}x\\\\y\\end{pmatrix} , \\vec{u'}\\begin{pmatrix}x'\\\\y'\\end{pmatrix})\\mapsto xx'+3yy'.\r\n$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un plan et <span\nclass=\"math inline\">\\((0,\\vec{\\imath},\\vec{\\jmath})\\)</span> un repère.\nOn considère l’application <span class=\"math display\">\\[\\phi :\n(\\vec{u}\\begin{pmatrix}x\\\\y\\end{pmatrix} ,\n\\vec{u&#39;}\\begin{pmatrix}x&#39;\\\\y&#39;\\end{pmatrix})\\mapsto\nxx&#39;+3yy&#39;.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d13edcbc-df27-4c69-9e5a-ec4a0befccf3",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\phi$ est un produit scalaire.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\phi\\)</span> est un produit\nscalaire.</p>\n"
+      }
+    },
+    {
+      "id": "4ac7985a-ee8f-4bed-a5fe-ca2fe5bae8c8",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer un repère $(O,\\vec{I},\\vec{J})$ du plan orthonormé pour ce produit scalaire.",
+        "html": "<p>Déterminer un repère <span\nclass=\"math inline\">\\((O,\\vec{I},\\vec{J})\\)</span> du plan orthonormé\npour ce produit scalaire.</p>\n"
+      }
+    },
+    {
+      "id": "cf111007-2d09-46a7-83cb-a9fd77da7018",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\phi (X\\vec{I}+Y\\vec{J}, X'\\vec{I}+Y'\\vec{J})$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\phi (X\\vec{I}+Y\\vec{J},\nX&#39;\\vec{I}+Y&#39;\\vec{J})\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un plan et <span\nclass=\"math inline\">\\((0,\\vec{\\imath},\\vec{\\jmath})\\)</span> un repère.\nOn considère l ..."
+}

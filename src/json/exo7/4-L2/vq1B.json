@@ -1,0 +1,53 @@
+{
+  "uuid": "vq1B",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3510",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Diagonalisation",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:08.198Z"
+  },
+  "contenu": [
+    {
+      "id": "a2f58f46-8df5-42f7-afc2-532210d965f4",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E =  K_n[X]$ et $ u : E \\to E, P \\mapsto {(X^2-1)P''+(2X+1)P'.}$",
+        "html": "<p>Soit <span class=\"math inline\">\\(E =  K_n[X]\\)</span> et <span\nclass=\"math inline\">\\(u : E \\to E, P \\mapsto\n{(X^2-1)P&#39;&#39;+(2X+1)P&#39;.}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4aaef604-0e46-4613-9a9f-ae3cbac72e76",
+      "type": "question",
+      "value": {
+        "latex": "Chercher la matrice de $u$ dans la base canonique de $ K_n[X]$.",
+        "html": "<p>Chercher la matrice de <span class=\"math inline\">\\(u\\)</span> dans la\nbase canonique de <span class=\"math inline\">\\(K_n[X]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "926895c8-6edb-46e0-ae99-1b484c9196c8",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $u$ est diagonalisable.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(u\\)</span> est\ndiagonalisable.</p>\n"
+      }
+    },
+    {
+      "id": "00e33eed-dd4f-4b2e-9945-3786be163e9a",
+      "type": "reponse",
+      "value": {
+        "latex": "$M = \\begin{pmatrix} 0 &1 &-2 &       &(0)      \\cr\n                              &2 &2  &\\ddots           \\cr\n                              &  &6  &\\ddots &-n(n-1)  \\cr\n                              &  &   &\\ddots &n        \\cr\n                           (0)&  &   &       &n(n+1)   \\cr \\end{pmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(M = \\begin{pmatrix} 0 &amp;1 &amp;-2\n&amp;       &amp;(0)      \\cr\n                              &amp;2 &amp;2  &amp;\\ddots           \\cr\n                              &amp;  &amp;6  &amp;\\ddots\n&amp;-n(n-1)  \\cr\n                              &amp;  &amp;   &amp;\\ddots\n&amp;n        \\cr\n                           (0)&amp;  &amp;   &amp;       &amp;n(n+1)   \\cr\n\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E =  K_n[X]\\)</span> et <span\nclass=\"math inline\">\\(u : E \\to E, P \\mapsto\n{(X^2-1)P&#39;&#39;+(2X+1)P&#39;.}\\)</s ..."
+}

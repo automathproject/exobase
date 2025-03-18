@@ -1,0 +1,53 @@
+{
+  "uuid": "gtXg",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7226",
+    "auteur": "megy",
+    "createdAt": "2021-03-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:00.020Z"
+  },
+  "contenu": [
+    {
+      "id": "69ac5678-34c3-4907-b152-7d0cd94d792d",
+      "type": "description",
+      "value": {
+        "latex": "Soit \\(\\displaystyle{f(z)=\\sum_{n\\geqslant 0}a_nz^n}\\) une série entière de rayon de convergence \\(R>0\\) et telle que \\(a_0\\neq 0\\). L'objectif de cet exercice est de démontrer que la fonction \\(\\frac{1}{f}\\) est développable en série entière en \\(0\\).",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\displaystyle{f(z)=\\sum_{n\\geqslant\n0}a_nz^n}\\)</span> une série entière de rayon de convergence <span\nclass=\"math inline\">\\(R&gt;0\\)</span> et telle que <span\nclass=\"math inline\">\\(a_0\\neq 0\\)</span>. L’objectif de cet exercice est\nde démontrer que la fonction <span\nclass=\"math inline\">\\(\\frac{1}{f}\\)</span> est développable en série\nentière en <span class=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "46a35eea-28cd-4406-b956-a242d5130aa0",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que ceci est le cas et que \\(\\displaystyle{\\frac{1}{f(z)}=\\sum_{n=0}^{+\\infty}b_nz^n}\\). Quelle relation de récurrence vérifie la suite \\((b_n)_{n\\in \\N}\\)?",
+        "html": "<p>On suppose que ceci est le cas et que <span\nclass=\"math inline\">\\(\\displaystyle{\\frac{1}{f(z)}=\\sum_{n=0}^{+\\infty}b_nz^n}\\)</span>.\nQuelle relation de récurrence vérifie la suite <span\nclass=\"math inline\">\\((b_n)_{n\\in \\N}\\)</span>?</p>\n"
+      }
+    },
+    {
+      "id": "8b85d4e7-ca7b-4516-9bd8-7aa4a48132ac",
+      "type": "question",
+      "value": {
+        "latex": "Soit \\((b_n)_{n\\in \\N}\\) une suite vérifiant le relation de récurrence précédente. Montrer qu'il existe \\(C>0\\) tel que pour tout \\(n\\geqslant 0\\), on a \r\n\\[|b_n|\\leqslant \\frac{C^n}{|a_0|}.\\]",
+        "html": "<p>Soit <span class=\"math inline\">\\((b_n)_{n\\in \\N}\\)</span> une suite\nvérifiant le relation de récurrence précédente. Montrer qu’il existe\n<span class=\"math inline\">\\(C&gt;0\\)</span> tel que pour tout <span\nclass=\"math inline\">\\(n\\geqslant 0\\)</span>, on a <span\nclass=\"math display\">\\[|b_n|\\leqslant \\frac{C^n}{|a_0|}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "ec9c2209-32b8-4db3-837f-866bf9b7c2e9",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que \\(\\frac{1}{f}\\) est développable en série entière en \\(0\\).",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(\\frac{1}{f}\\)</span> est\ndéveloppable en série entière en <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\displaystyle{f(z)=\\sum_{n\\geqslant\n0}a_nz^n}\\)</span> une série entière de rayon de convergence <span\nclass=\"math ..."
+}

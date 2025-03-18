@@ -1,0 +1,85 @@
+{
+  "uuid": "Gpyu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "934",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "pNH1v_tXHvg",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Image et noyau, théorème du rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:38.179Z"
+  },
+  "contenu": [
+    {
+      "id": "6c1b34f8-d363-4c75-9f8a-694d0d64a09f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ un espace vectoriel et soient $E_1$ et $E_2$ deux sous-espaces vectoriels de dimension finie\nde $E$, on d\\'efinit l'application $f\\colon E_1\\times E_2 \\to E$ par $f(x_1,x_2)=x_1+x_2$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel et\nsoient <span class=\"math inline\">\\(E_1\\)</span> et <span\nclass=\"math inline\">\\(E_2\\)</span> deux sous-espaces vectoriels de\ndimension finie de <span class=\"math inline\">\\(E\\)</span>, on définit\nl’application <span class=\"math inline\">\\(f\\colon E_1\\times E_2 \\to\nE\\)</span> par <span\nclass=\"math inline\">\\(f(x_1,x_2)=x_1+x_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2b455919-7420-414d-ba92-d354823b9f29",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est lin\\'eaire.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est linéaire.</p>\n"
+      }
+    },
+    {
+      "id": "7eda8061-7d74-4109-8694-678facdd68d4",
+      "type": "reponse",
+      "value": {
+        "latex": "Aucun problème...",
+        "html": "<p>Aucun problème...</p>\n"
+      }
+    },
+    {
+      "id": "704054f5-f9f5-4940-bdc1-9061d828eca6",
+      "type": "question",
+      "value": {
+        "latex": "D\\'eterminer le noyau et l'image de $f$.",
+        "html": "<p>Déterminer le noyau et l’image de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "905c1459-d588-446f-9daf-5c89a3fc778d",
+      "type": "reponse",
+      "value": {
+        "latex": "Par d\\'efinition de $f$ et de ce qu'est la somme de deux sous-espaces vectoriels, l'image est\n$$\\Im f =  \\{ f(x_1,x_2) \\mid x_1 \\in E_1, x_2\\in E_2 \\} = \\{ x_1+x_2 \\mid x_1 \\in E_1, x_2\\in E_2 \\} = E_1 + E_2.$$\n\nPour le noyau :\n$$\\ker f = \\{ (x_1,x_2) \\mid f(x_1,x_2)=0 \\} = \\{ (x_1,x_2) \\mid x_1+x_2=0 \\}$$\n\nMais on peut aller un peu plus loin. En effet un \\'el\\'ement $(x_1,x_2) \\in \\ker f$,\nv\\'erifie $x_1\\in E_1$, $x_2\\in E_2$ et $x_1=-x_2$. Donc $x_1 \\in E_2$. Donc $x_1\\in E_1 \\cap E_2$.\nR\\'eciproquement si $x\\in E_1 \\cap E_2$, alors $(x,-x)\\in \\ker f$.\nDonc \n$$\\ker f = \\{ (x,-x) \\mid x \\in  E_1 \\cap E_2 \\}. $$\nDe plus l'application $x \\mapsto (x,-x)$ montre que $\\ker f$ est isomorphe \\`a $E_1 \\cap E_2$.",
+        "html": "<p>Par définition de <span class=\"math inline\">\\(f\\)</span> et de ce\nqu’est la somme de deux sous-espaces vectoriels, l’image est <span\nclass=\"math display\">\\[\\Im f =  \\{ f(x_1,x_2) \\mid x_1 \\in E_1, x_2\\in\nE_2 \\} = \\{ x_1+x_2 \\mid x_1 \\in E_1, x_2\\in E_2 \\} = E_1 +\nE_2.\\]</span></p>\n<p>Pour le noyau : <span class=\"math display\">\\[\\ker f = \\{ (x_1,x_2)\n\\mid f(x_1,x_2)=0 \\} = \\{ (x_1,x_2) \\mid x_1+x_2=0 \\}\\]</span></p>\n<p>Mais on peut aller un peu plus loin. En effet un élément <span\nclass=\"math inline\">\\((x_1,x_2) \\in \\ker f\\)</span>, vérifie <span\nclass=\"math inline\">\\(x_1\\in E_1\\)</span>, <span\nclass=\"math inline\">\\(x_2\\in E_2\\)</span> et <span\nclass=\"math inline\">\\(x_1=-x_2\\)</span>. Donc <span\nclass=\"math inline\">\\(x_1 \\in E_2\\)</span>. Donc <span\nclass=\"math inline\">\\(x_1\\in E_1 \\cap E_2\\)</span>. Réciproquement si\n<span class=\"math inline\">\\(x\\in E_1 \\cap E_2\\)</span>, alors <span\nclass=\"math inline\">\\((x,-x)\\in \\ker f\\)</span>. Donc <span\nclass=\"math display\">\\[\\ker f = \\{ (x,-x) \\mid x \\in  E_1 \\cap E_2\n\\}.\\]</span> De plus l’application <span class=\"math inline\">\\(x \\mapsto\n(x,-x)\\)</span> montre que <span class=\"math inline\">\\(\\ker f\\)</span>\nest isomorphe à <span class=\"math inline\">\\(E_1 \\cap E_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "368f15fa-f4c4-42cd-9ef6-5839c1f32348",
+      "type": "question",
+      "value": {
+        "latex": "Que donne le th\\'eor\\`eme du rang ?",
+        "html": "<p>Que donne le théorème du rang ?</p>\n"
+      }
+    },
+    {
+      "id": "ecfda282-9359-4724-af5f-cd5178cb7864",
+      "type": "reponse",
+      "value": {
+        "latex": "Le th\\'eor\\`eme du rang s'\\'ecrit :\n$$\\dim \\ker f+ \\dim \\Im f = \\dim (E_1\\times E_2).$$\nCompte tenu de  l'isomorphisme entre $\\ker f$ et $E_1 \\cap E_2$ on obtient :\n$$\\dim (E_1 \\cap E_2) + \\dim (E_1+E_2) = \\dim (E_1\\times E_2).$$\nMais $\\dim (E_1\\times E_2) = \\dim E_1 + \\dim E_2$, donc on retrouve ce que l'on appelle le th\\'eor\\`eme des quatre dimensions :\n$$\\dim (E_1+E_2) = \\dim E_1+\\dim E_2-\\dim (E_1 \\cap E_2).$$",
+        "html": "<p>Le théorème du rang s’écrit : <span class=\"math display\">\\[\\dim \\ker\nf+ \\dim \\Im f = \\dim (E_1\\times E_2).\\]</span> Compte tenu de\nl’isomorphisme entre <span class=\"math inline\">\\(\\ker f\\)</span> et\n<span class=\"math inline\">\\(E_1 \\cap E_2\\)</span> on obtient : <span\nclass=\"math display\">\\[\\dim (E_1 \\cap E_2) + \\dim (E_1+E_2) = \\dim\n(E_1\\times E_2).\\]</span> Mais <span class=\"math inline\">\\(\\dim\n(E_1\\times E_2) = \\dim E_1 + \\dim E_2\\)</span>, donc on retrouve ce que\nl’on appelle le théorème des quatre dimensions : <span\nclass=\"math display\">\\[\\dim (E_1+E_2) = \\dim E_1+\\dim E_2-\\dim (E_1 \\cap\nE_2).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "dc88c6b1-dff5-4cb3-952e-049b550ec2f5",
+      "type": "indication",
+      "value": {
+        "latex": "Faire un dessin de l'image et du noyau pour $f: \\Rr\\times \\Rr \\longrightarrow \\Rr$.\nMontrer que le noyau est isomorphe à $E_1 \\cap E_2$.",
+        "html": "<p>Faire un dessin de l’image et du noyau pour <span\nclass=\"math inline\">\\(f: \\Rr\\times \\Rr \\longrightarrow \\Rr\\)</span>.\nMontrer que le noyau est isomorphe à <span class=\"math inline\">\\(E_1\n\\cap E_2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> un espace vectoriel et\nsoient <span class=\"math inline\">\\(E_1\\)</span> et <span\nclass=\"math inline\"> ..."
+}

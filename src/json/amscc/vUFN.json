@@ -1,0 +1,88 @@
+{
+  "uuid": "vUFN",
+  "titre": "Loi d'un couple",
+  "theme": [
+    "variables aléatoires discrètes",
+    "loi conjointe"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2024-09-09",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:23.778Z"
+  },
+  "contenu": [
+    {
+      "id": "e86268f4-e9c3-4ffd-9389-2889b9267d2c",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la loi du couple de variables aléatoires $(X,Y)$ sous forme d'un tableau.",
+        "html": "<p>Déterminer la loi du couple de variables aléatoires <span\nclass=\"math inline\">\\((X,Y)\\)</span> sous forme d’un tableau.</p>\n"
+      }
+    },
+    {
+      "id": "2f8e4cc7-129e-4f80-8925-a4f363846a9f",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{center}\n\t\t\t\\begin{tabular}{|c|c|c|c|c|c|}\n\t\t\t\t\\hline\n\t\t\t\t$X/Y$ & 1 & 2 & 3 & 4 & $\\prob(X = x)$ \\\\\n\t\t\t\t\\hline\n\t\t\t\t1 & $\\frac{1}{6}$ & $\\frac{1}{6}$ & 0 & 0 & $\\frac{1}{3}$ \\\\\n\t\t\t\t\\hline\n\t\t\t\t2 & 0 & $\\frac{1}{6}$ & $\\frac{1}{6}$ & 0 & $\\frac{1}{3}$ \\\\\n\t\t\t\t\\hline\n\t\t\t\t3 & 0 & 0 & $\\frac{1}{6}$ & $\\frac{1}{6}$ & $\\frac{1}{3}$ \\\\\n\t\t\t\t\\hline\n\t\t\t\t$\\prob(Y = y)$ & $\\frac{1}{6}$ & $\\frac{1}{3}$ & $\\frac{1}{3}$ & $\\frac{1}{6}$ & 1 \\\\\n\t\t\t\t\\hline\n\t\t\t\\end{tabular}\n\t\t\\end{center}",
+        "html": "<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(X/Y\\)</span></th>\n<th style=\"text-align: center;\">1</th>\n<th style=\"text-align: center;\">2</th>\n<th style=\"text-align: center;\">3</th>\n<th style=\"text-align: center;\">4</th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\prob(X =\nx)\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">1</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">2</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\prob(Y =\ny)\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n</tbody>\n</table>\n</div>\n"
+      }
+    },
+    {
+      "id": "f55c8c6e-5612-4d84-a021-a98c44d5359b",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les lois marginales du couple $(X,Y)$ puis calculer $\\mathbb{E}(X)$ et $\\mathbb{E}(Y)$.",
+        "html": "<p>Déterminer les lois marginales du couple <span\nclass=\"math inline\">\\((X,Y)\\)</span> puis calculer <span\nclass=\"math inline\">\\(\\mathbb{E}(X)\\)</span> et <span\nclass=\"math inline\">\\(\\mathbb{E}(Y)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "deb11247-ef4d-4cde-94eb-10e2adeaffb3",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{itemize}\n\t\t\t\\item $\\prob(X = 1) = \\frac{1}{3}$, $\\prob(X = 2) = \\frac{1}{3}$, $\\prob(X = 3) = \\frac{1}{3}$.\n\t\t\t\\item $\\prob(Y = 1) = \\frac{1}{6}$, $\\prob(Y = 2) = \\frac{1}{3}$, $\\prob(Y = 3) = \\frac{1}{3}$, $\\prob(Y = 4) = \\frac{1}{6}$.\n\t\t\t\\item $\\mathbb{E}(X) = \\sum\\limits_{i=1}^{3} i \\times \\prob(X = i) = 1 \\times \\frac{1}{3} + 2 \\times \\frac{1}{3} + 3 \\times \\frac{1}{3} = 2$.\n\t\t\t\\item $\\mathbb{E}(Y) = \\sum\\limits_{i=1}^{4} i \\times \\prob(Y = i) = 1 \\times \\frac{1}{6} + 2 \\times \\frac{1}{3} + 3 \\times \\frac{1}{3} + 4 \\times \\frac{1}{6} = 2.5$.\n\t\t\\end{itemize}",
+        "html": "<ul>\n<li><p><span class=\"math inline\">\\(\\prob(X = 1) = \\frac{1}{3}\\)</span>,\n<span class=\"math inline\">\\(\\prob(X = 2) = \\frac{1}{3}\\)</span>, <span\nclass=\"math inline\">\\(\\prob(X = 3) = \\frac{1}{3}\\)</span>.</p></li>\n<li><p><span class=\"math inline\">\\(\\prob(Y = 1) = \\frac{1}{6}\\)</span>,\n<span class=\"math inline\">\\(\\prob(Y = 2) = \\frac{1}{3}\\)</span>, <span\nclass=\"math inline\">\\(\\prob(Y = 3) = \\frac{1}{3}\\)</span>, <span\nclass=\"math inline\">\\(\\prob(Y = 4) = \\frac{1}{6}\\)</span>.</p></li>\n<li><p><span class=\"math inline\">\\(\\mathbb{E}(X) = \\sum\\limits_{i=1}^{3}\ni \\times \\prob(X = i) = 1 \\times \\frac{1}{3} + 2 \\times \\frac{1}{3} + 3\n\\times \\frac{1}{3} = 2\\)</span>.</p></li>\n<li><p><span class=\"math inline\">\\(\\mathbb{E}(Y) = \\sum\\limits_{i=1}^{4}\ni \\times \\prob(Y = i) = 1 \\times \\frac{1}{6} + 2 \\times \\frac{1}{3} + 3\n\\times \\frac{1}{3} + 4 \\times \\frac{1}{6} = 2.5\\)</span>.</p></li>\n</ul>\n"
+      }
+    },
+    {
+      "id": "f4fea99e-fd3a-44c9-9aa9-ba92bf2a296c",
+      "type": "question",
+      "value": {
+        "latex": "Les variables aléatoires $X$ et $Y$ sont-elles indépendantes ?",
+        "html": "<p>Les variables aléatoires <span class=\"math inline\">\\(X\\)</span> et\n<span class=\"math inline\">\\(Y\\)</span> sont-elles indépendantes ?</p>\n"
+      }
+    },
+    {
+      "id": "1787bab2-1072-470d-a222-92467dc2f541",
+      "type": "reponse",
+      "value": {
+        "latex": "Non, car $\\prob(X = 1, Y = 1) = \\frac{1}{6} \\neq \\prob(X = 1) \\times \\prob(Y = 1) = \\frac{1}{3} \\times \\frac{1}{6} = \\frac{1}{18}$.",
+        "html": "<p>Non, car <span class=\"math inline\">\\(\\prob(X = 1, Y = 1) =\n\\frac{1}{6} \\neq \\prob(X = 1) \\times \\prob(Y = 1) = \\frac{1}{3} \\times\n\\frac{1}{6} = \\frac{1}{18}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e7de364e-239a-4eb1-a9b6-f9a76be65793",
+      "type": "question",
+      "value": {
+        "latex": "On pose $Z = X - Y$. Déterminer la loi du couple $(X,Z)$. Les variables aléatoires $X$ et $Z$ sont-elles indépendantes ?",
+        "html": "<p>On pose <span class=\"math inline\">\\(Z = X - Y\\)</span>. Déterminer la\nloi du couple <span class=\"math inline\">\\((X,Z)\\)</span>. Les variables\naléatoires <span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(Z\\)</span> sont-elles indépendantes ?</p>\n"
+      }
+    },
+    {
+      "id": "74c08691-190f-4de7-b17d-f6cd361c795f",
+      "type": "reponse",
+      "value": {
+        "latex": "L'ensemble des valeurs prises par $Z$ est $\\{-3, -2, -1, 0, 1, 2\\}$. On a $\\prob(X = 1, Z = -2) = \\prob(X = 1, Y = 3) = 0$. De même, on obtient le tableau de la loi du couple $(X,Z)$ : \n\n\\begin{center}\n\t\\begin{tabular}{|c|c|c|c|c|c|c|c|}\n\t\t\\hline\n\t\t$X/Z$ & -3 & -2 & -1 & 0 & 1 & 2 & $\\prob(X = x)$ \\\\\n\t\t\\hline\n\t\t1 & 0 & 0 & $\\frac{1}{6}$ & $\\frac{1}{6}$ & $0$ & $0$ & $\\frac{1}{3}$ \\\\\n\t\t\\hline\n\t\t2 & 0 & 0 & $\\frac{1}{6}$ & $\\frac{1}{6}$ & $0$ & $0$ & $\\frac{1}{3}$ \\\\\n\t\t\\hline\n\t\t13 & 0 & 0 & $\\frac{1}{6}$ & $\\frac{1}{6}$ & $0$ & $0$ & $\\frac{1}{3}$ \\\\\n\t\t\\hline\n\t\t$\\prob(Z = z)$ & $0$ & $0$ & $\\frac{1}{2}$ & $\\frac{1}{2}$ & $0$ & $0$ & 1 \\\\\n\t\t\\hline\n\t\\end{tabular}\n\\end{center}\nOn en déduit que les variables aléatoires $X$ et $Z$ sont indépendantes (toutes les colonnes sont proportionnelles entre elles).",
+        "html": "<p>L’ensemble des valeurs prises par <span\nclass=\"math inline\">\\(Z\\)</span> est <span class=\"math inline\">\\(\\{-3,\n-2, -1, 0, 1, 2\\}\\)</span>. On a <span class=\"math inline\">\\(\\prob(X =\n1, Z = -2) = \\prob(X = 1, Y = 3) = 0\\)</span>. De même, on obtient le\ntableau de la loi du couple <span class=\"math inline\">\\((X,Z)\\)</span>\n:</p>\n<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(X/Z\\)</span></th>\n<th style=\"text-align: center;\">-3</th>\n<th style=\"text-align: center;\">-2</th>\n<th style=\"text-align: center;\">-1</th>\n<th style=\"text-align: center;\">0</th>\n<th style=\"text-align: center;\">1</th>\n<th style=\"text-align: center;\">2</th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\prob(X =\nx)\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">1</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">2</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">13</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{6}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{3}\\)</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\prob(Z =\nz)\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{2}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{2}\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(0\\)</span></td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>On en déduit que les variables aléatoires <span\nclass=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(Z\\)</span> sont indépendantes (toutes les colonnes\nsont proportionnelles entre elles).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer la loi du couple de variables aléatoires <span\nclass=\"math inline\">\\((X,Y)\\)</span> sous forme d’un tableau.</p>\n"
+}

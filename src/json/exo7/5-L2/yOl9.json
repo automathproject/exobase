@@ -1,0 +1,61 @@
+{
+  "uuid": "yOl9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4626",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:21.297Z"
+  },
+  "contenu": [
+    {
+      "id": "15e6c150-3299-415e-87c5-0382d116748b",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "af457d8a-c1aa-4139-8d60-f0b4b3f70f62",
+      "type": "question",
+      "value": {
+        "latex": "Existe-t-il une fonction $f:\\R \\to \\R$ continue telle que les coefficients\n    de Fourier soient : $a_n = \\frac1{2^n}$ et $b_n = 0$~?",
+        "html": "<p>Existe-t-il une fonction <span class=\"math inline\">\\(f:\\R \\to\n\\R\\)</span> continue telle que les coefficients de Fourier soient :\n<span class=\"math inline\">\\(a_n = \\frac1{2^n}\\)</span> et <span\nclass=\"math inline\">\\(b_n = 0\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "971789d8-99a1-408d-bcd0-22ede9678c11",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(x) = \\frac 12 + \\sum_{n=1}^\\infty \\frac{\\cos nx}{2^n}\n              = \\frac3{2(5-4\\cos x)}$.",
+        "html": "<p><span class=\"math inline\">\\(f(x) = \\frac 12 + \\sum_{n=1}^\\infty\n\\frac{\\cos nx}{2^n}\n              = \\frac3{2(5-4\\cos x)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3faeb053-c8b5-4ccb-bbdc-04572bd974a2",
+      "type": "question",
+      "value": {
+        "latex": "Application : calculer $ \\int_{t=0}^\\pi \\frac{d t}{5-4\\cos t}$.",
+        "html": "<p>Application : calculer <span class=\"math inline\">\\(\\int_{t=0}^\\pi\n\\frac{d t}{5-4\\cos t}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "48ffe17e-de4a-41bb-a066-0a70c01476de",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac\\pi3$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac\\pi3\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Existe-t-il une fonction <span class=\"math inline\">\\(f:\\R \\to\n\\R\\)</span> continue telle que les coefficients de Fourier soient :\n<span class=\"math ..."
+}

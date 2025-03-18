@@ -1,0 +1,69 @@
+{
+  "uuid": "wjYQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6008",
+    "auteur": "quinio",
+    "createdAt": "2011-05-20",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:40.254Z"
+  },
+  "contenu": [
+    {
+      "id": "f77207b4-84bc-49cd-ab4e-1e045debe5c5",
+      "type": "description",
+      "value": {
+        "latex": "L'oral d'un concours comporte au total 100 sujets; les candidats\ntirent au sort trois sujets et choisissent alors le sujet traité parmi\nces trois sujets. Un candidat se présente en ayant révisé 60\nsujets sur les 100.",
+        "html": "<p>L’oral d’un concours comporte au total 100 sujets; les candidats\ntirent au sort trois sujets et choisissent alors le sujet traité parmi\nces trois sujets. Un candidat se présente en ayant révisé 60 sujets sur\nles 100.</p>\n"
+      }
+    },
+    {
+      "id": "739c4e9d-8e40-410c-bfa3-5893ebc36e21",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité pour que le candidat ait révisé:\n\\begin{enumerate}",
+        "html": ""
+      }
+    },
+    {
+      "id": "f7b21893-7ced-40ec-ace0-288fefff57e2",
+      "type": "question",
+      "value": {
+        "latex": "les trois sujets tirés;",
+        "html": "<p>les trois sujets tirés;</p>\n"
+      }
+    },
+    {
+      "id": "6e419228-9641-4d71-8ab2-e1871b31cc9c",
+      "type": "question",
+      "value": {
+        "latex": "exactement deux sujets sur les trois sujets;",
+        "html": "<p>exactement deux sujets sur les trois sujets;</p>\n"
+      }
+    },
+    {
+      "id": "3abca179-b397-4311-8e9d-386cd938deaa",
+      "type": "question",
+      "value": {
+        "latex": "aucun des trois sujets.",
+        "html": "<p>aucun des trois sujets.</p>\n"
+      }
+    },
+    {
+      "id": "b3235ce0-494f-464f-9d10-890921f2ab1e",
+      "type": "reponse",
+      "value": {
+        "latex": "Les trois sujets tirés ont été révisés : $P[X=3]=\\frac{\\binom{60}{3}}{\\binom{100}{3}}$.\nDeux des trois sujets tirés ont été révisés: $P[X=2]=\\frac{\\binom{60}{2}.\\binom{40}{1}}{\\binom{100}{3}}$.\nAucun des trois sujets: $P[X=0]=\\frac{\\binom{40}{3}}{\\binom{100}{3}}$.",
+        "html": "<p>Les trois sujets tirés ont été révisés : <span\nclass=\"math inline\">\\(P[X=3]=\\frac{\\binom{60}{3}}{\\binom{100}{3}}\\)</span>.\nDeux des trois sujets tirés ont été révisés: <span\nclass=\"math inline\">\\(P[X=2]=\\frac{\\binom{60}{2}.\\binom{40}{1}}{\\binom{100}{3}}\\)</span>.\nAucun des trois sujets: <span\nclass=\"math inline\">\\(P[X=0]=\\frac{\\binom{40}{3}}{\\binom{100}{3}}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>L’oral d’un concours comporte au total 100 sujets; les candidats\ntirent au sort trois sujets et choisissent alors le sujet traité parmi\nces trois s ..."
+}

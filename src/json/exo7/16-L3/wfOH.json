@@ -1,0 +1,85 @@
+{
+  "uuid": "wfOH",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7538",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:22.002Z"
+  },
+  "contenu": [
+    {
+      "id": "0a332e8f-fb49-4196-9a8f-53505babeafe",
+      "type": "description",
+      "value": {
+        "latex": "On considère l'application $f :\\Cc^\\times\\to\\Cc^\\times$, $z\\mapsto \\frac{1}{2}(z+\\frac{1}{z})$.",
+        "html": "<p>On considère l’application <span class=\"math inline\">\\(f\n:\\Cc^\\times\\to\\Cc^\\times\\)</span>, <span class=\"math inline\">\\(z\\mapsto\n\\frac{1}{2}(z+\\frac{1}{z})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f4d30e1c-b326-40f2-b90e-ef44b9f57f71",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le lieu où $f$ préserve les angles.",
+        "html": "<p>Déterminer le lieu où <span class=\"math inline\">\\(f\\)</span> préserve\nles angles.</p>\n"
+      }
+    },
+    {
+      "id": "83faf358-2b34-43af-8fdf-44c4023ea131",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si on note $r=|z|$, $u=re(f)$ et $v=im(f)$, alors \r\n$$u=\\frac{1}{2}(r+\\frac{1}{r})\\frac{x}{r}\\quad \\text{ et } \\quad  v=\\frac{1}{2}(r-\\frac{1}{r})\\frac{x}{r}.$$\r\npuis\r\n$$\\frac{u^2}{\\frac{1}{4}(r+\\frac{1}{r})^2}+\\frac{v^2}{\\frac{1}{4}(r-\\frac{1}{r})^2}=1\r\n\\quad \\text{ et } \\quad \\frac{u^2}{\\frac{x^2}{r^2}}-\\frac{v^2}{\\frac{y^2}{r^2}}=1.$$",
+        "html": "<p>Montrer que si on note <span class=\"math inline\">\\(r=|z|\\)</span>,\n<span class=\"math inline\">\\(u=re(f)\\)</span> et <span\nclass=\"math inline\">\\(v=im(f)\\)</span>, alors <span\nclass=\"math display\">\\[u=\\frac{1}{2}(r+\\frac{1}{r})\\frac{x}{r}\\quad\n\\text{ et } \\quad  v=\\frac{1}{2}(r-\\frac{1}{r})\\frac{x}{r}.\\]</span>\npuis <span\nclass=\"math display\">\\[\\frac{u^2}{\\frac{1}{4}(r+\\frac{1}{r})^2}+\\frac{v^2}{\\frac{1}{4}(r-\\frac{1}{r})^2}=1\n\\quad \\text{ et } \\quad\n\\frac{u^2}{\\frac{x^2}{r^2}}-\\frac{v^2}{\\frac{y^2}{r^2}}=1.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "635e0c23-ef46-4c0c-b343-551274af651d",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer l'image par $f$ des cercles de centre $o$ et de rayon $1$ et $2$.",
+        "html": "<p>Déterminer l’image par <span class=\"math inline\">\\(f\\)</span> des\ncercles de centre <span class=\"math inline\">\\(o\\)</span> et de rayon\n<span class=\"math inline\">\\(1\\)</span> et <span\nclass=\"math inline\">\\(2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8ef4d236-6a5d-4935-bd7a-5eed00889e7e",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer l'image par $f$ des segments radiaux $z=\\frac{1+i}{\\sqrt{2}}t$ et $z=\\frac{1-i}{\\sqrt{2}}t$, quand $t$ varie dans $]0,1[$.",
+        "html": "<p>Déterminer l’image par <span class=\"math inline\">\\(f\\)</span> des\nsegments radiaux <span\nclass=\"math inline\">\\(z=\\frac{1+i}{\\sqrt{2}}t\\)</span> et <span\nclass=\"math inline\">\\(z=\\frac{1-i}{\\sqrt{2}}t\\)</span>, quand <span\nclass=\"math inline\">\\(t\\)</span> varie dans <span\nclass=\"math inline\">\\(]0,1[\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "56120536-699b-481d-9113-9e44435f52b9",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est surjective.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est\nsurjective.</p>\n"
+      }
+    },
+    {
+      "id": "8834cf99-75a0-4db9-bdf5-726a2d30159e",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que l'image réciproque d'un point de $\\Cc-[-1,1]$ est composée de deux points,\r\nl'un dans $\\Delta^\\times$ l'autre dans $\\Cc-\\Delta$.",
+        "html": "<p>Montrer que l’image réciproque d’un point de <span\nclass=\"math inline\">\\(\\Cc-[-1,1]\\)</span> est composée de deux points,\nl’un dans <span class=\"math inline\">\\(\\Delta^\\times\\)</span> l’autre\ndans <span class=\"math inline\">\\(\\Cc-\\Delta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fcc3338d-2377-45bb-b707-1bfa49c3ca4d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f$ est une bijection holomorphe de $\\Delta^\\times$ sur $\\Cc-[-1,1]$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est une bijection\nholomorphe de <span class=\"math inline\">\\(\\Delta^\\times\\)</span> sur\n<span class=\"math inline\">\\(\\Cc-[-1,1]\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’application <span class=\"math inline\">\\(f\n:\\Cc^\\times\\to\\Cc^\\times\\)</span>, <span class=\"math inline\"> ..."
+}

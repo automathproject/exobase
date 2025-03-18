@@ -1,0 +1,109 @@
+{
+  "uuid": "8bsG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2218",
+    "auteur": "matos",
+    "createdAt": "2008-04-23",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:28.021Z"
+  },
+  "contenu": [
+    {
+      "id": "ca3dd746-7faf-4671-a722-0e07d452db68",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que, pour $A\\in\\Cc^{n\\times m}$",
+        "html": "<p>Montrer que, pour <span class=\"math inline\">\\(A\\in\\Cc^{n\\times\nm}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "feae14a9-2f35-487c-8c17-120867043932",
+      "type": "question",
+      "value": {
+        "latex": "$\\|A\\|_2=\\sigma_1$, la plus grande valeur singuli\\`ere de $A$",
+        "html": "<p><span class=\"math inline\">\\(\\|A\\|_2=\\sigma_1\\)</span>, la plus grande\nvaleur singulière de <span class=\"math inline\">\\(A\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "23eb3710-468c-4857-bee8-a3fedab87313",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\|A\\|_2=\\|U\\Sigma V^*\\|_2=\\|\\Sigma\\|_2=\\max |\\sigma_j|=\\sigma_1$",
+        "html": "<p><span class=\"math inline\">\\(\\|A\\|_2=\\|U\\Sigma\nV^*\\|_2=\\|\\Sigma\\|_2=\\max |\\sigma_j|=\\sigma_1\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "842fe7eb-0a84-436a-96ad-ed1508fa880d",
+      "type": "question",
+      "value": {
+        "latex": "$\\|A\\|_F=\\sqrt{\\sigma_1^2 +\\sigma_2^2 +\\cdots +\\sigma_r^2}$ o\\`u les $\\sigma_i$ sont les valeurs singuli\\`eres de $A$.",
+        "html": "<p><span class=\"math inline\">\\(\\|A\\|_F=\\sqrt{\\sigma_1^2 +\\sigma_2^2\n+\\cdots +\\sigma_r^2}\\)</span> où les <span\nclass=\"math inline\">\\(\\sigma_i\\)</span> sont les valeurs singulières de\n<span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "54784ff2-07b1-49be-99c2-066cafc9f9de",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\|A\\|^2_F =$tr$(A^*A)=$tr$(U^*A^*AU)=\\|AU\\|^2_F=$tr$(A^*U^*UA)=\\|UA\\|^2_F$ et donc\n$$\\|A\\|_F=\\|U\\Sigma V^*\\|_F =\\|\\Sigma\\|_F=\\sqrt{\\sigma_1^2 + \\cdots +\\sigma_r^2}$$",
+        "html": "<p><span class=\"math inline\">\\(\\|A\\|^2_F =\\)</span>tr<span\nclass=\"math inline\">\\((A^*A)=\\)</span>tr<span\nclass=\"math inline\">\\((U^*A^*AU)=\\|AU\\|^2_F=\\)</span>tr<span\nclass=\"math inline\">\\((A^*U^*UA)=\\|UA\\|^2_F\\)</span> et donc <span\nclass=\"math display\">\\[\\|A\\|_F=\\|U\\Sigma V^*\\|_F\n=\\|\\Sigma\\|_F=\\sqrt{\\sigma_1^2 + \\cdots +\\sigma_r^2}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "db392d1a-8efa-494c-ab12-2a7023a690b1",
+      "type": "question",
+      "value": {
+        "latex": "Les valeurs singuli\\`eres non nulles de $A$ sont les racines carr\\'es des valeurs propres non nulles de $A^*A$ et $AA^*$.",
+        "html": "<p>Les valeurs singulières non nulles de <span\nclass=\"math inline\">\\(A\\)</span> sont les racines carrés des valeurs\npropres non nulles de <span class=\"math inline\">\\(A^*A\\)</span> et <span\nclass=\"math inline\">\\(AA^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6c172cd4-ad3f-4539-b60e-97a76b9b4d88",
+      "type": "reponse",
+      "value": {
+        "latex": "$A^*A=(V\\Sigma^*U^*) (U\\Sigma V^*)=V(\\Sigma^*\\Sigma )V^*$ et donc $A^*A$ est semblable \\`a $\\Sigma^*\\Sigma$, les deux matrices ont donc les m\\^emes valeurs propres. Les valeurs propres de $\\Sigma^*\\Sigma$ sont $\\sigma_1^2, \\cdots , \\sigma_r^2$ plus $n-r$ valeurs propres nulles si $n>r$.",
+        "html": "<p><span class=\"math inline\">\\(A^*A=(V\\Sigma^*U^*) (U\\Sigma\nV^*)=V(\\Sigma^*\\Sigma )V^*\\)</span> et donc <span\nclass=\"math inline\">\\(A^*A\\)</span> est semblable à <span\nclass=\"math inline\">\\(\\Sigma^*\\Sigma\\)</span>, les deux matrices ont\ndonc les mêmes valeurs propres. Les valeurs propres de <span\nclass=\"math inline\">\\(\\Sigma^*\\Sigma\\)</span> sont <span\nclass=\"math inline\">\\(\\sigma_1^2, \\cdots , \\sigma_r^2\\)</span> plus\n<span class=\"math inline\">\\(n-r\\)</span> valeurs propres nulles si <span\nclass=\"math inline\">\\(n&gt;r\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4d50c00f-0969-40e8-bad7-f639a9f47dfa",
+      "type": "question",
+      "value": {
+        "latex": "pour $A\\in\\Cc^{m\\times m}$ , $|\\det (A)|=\\prod_{i=1}^m \\sigma_i$.",
+        "html": "<p>pour <span class=\"math inline\">\\(A\\in\\Cc^{m\\times m}\\)</span> , <span\nclass=\"math inline\">\\(|\\det (A)|=\\prod_{i=1}^m \\sigma_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ce723e48-1242-4087-9cdd-6a113555a51f",
+      "type": "reponse",
+      "value": {
+        "latex": "$|\\det A|=|\\det (U\\Sigma V^*)|= |\\det U|\\det|\\Sigma||\\det V^*|= |\\det \\Sigma|=\\prod_{i=1}^r \\sigma_i$",
+        "html": "<p><span class=\"math inline\">\\(|\\det A|=|\\det (U\\Sigma V^*)|= |\\det\nU|\\det|\\Sigma||\\det V^*|= |\\det \\Sigma|=\\prod_{i=1}^r\n\\sigma_i\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e3bdac75-0a41-4f63-996b-da2d18e76359",
+      "type": "question",
+      "value": {
+        "latex": "Si $A=A^*$ alors les valeurs singuli\\`eres de $A$ sont les valeurs absolues des valeurs propres de $A$",
+        "html": "<p>Si <span class=\"math inline\">\\(A=A^*\\)</span> alors les valeurs\nsingulières de <span class=\"math inline\">\\(A\\)</span> sont les valeurs\nabsolues des valeurs propres de <span\nclass=\"math inline\">\\(A\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "1a504b3e-d3f5-4721-a89f-e5fa83097ef5",
+      "type": "reponse",
+      "value": {
+        "latex": "Une matrice hermitienne \\'etant diagonalisable a une base orthonormale de vecteurs propres\n$$A=Q\\Lambda Q^* = Q |\\Lambda|\\mbox{sign} (\\Lambda)Q^*$$\nor $U=$sign$(\\Lambda )Q^*$ est une matrice unitaire: $U^*U=Q$sign$(\\Lambda) $sign$(\\Lambda) Q^*= QQ^*=I$. Donc $Q |\\Lambda|U$ est une d\\'ecomposition en valeurs singuli\\`eres de $A$, les valeurs singuli\\`eres \\'etant $|\\lambda_1|,\\cdots , |\\lambda_n|$.",
+        "html": "<p>Une matrice hermitienne étant diagonalisable a une base orthonormale\nde vecteurs propres <span class=\"math display\">\\[A=Q\\Lambda Q^* = Q\n|\\Lambda|\\mbox{sign} (\\Lambda)Q^*\\]</span> or <span\nclass=\"math inline\">\\(U=\\)</span>sign<span\nclass=\"math inline\">\\((\\Lambda )Q^*\\)</span> est une matrice unitaire:\n<span class=\"math inline\">\\(U^*U=Q\\)</span>sign<span\nclass=\"math inline\">\\((\\Lambda)\\)</span>sign<span\nclass=\"math inline\">\\((\\Lambda) Q^*= QQ^*=I\\)</span>. Donc <span\nclass=\"math inline\">\\(Q |\\Lambda|U\\)</span> est une décomposition en\nvaleurs singulières de <span class=\"math inline\">\\(A\\)</span>, les\nvaleurs singulières étant <span class=\"math inline\">\\(|\\lambda_1|,\\cdots\n, |\\lambda_n|\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que, pour <span class=\"math inline\">\\(A\\in\\Cc^{n\\times\nm}\\)</span></p>\n"
+}

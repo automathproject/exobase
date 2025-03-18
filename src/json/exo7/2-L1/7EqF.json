@@ -1,0 +1,61 @@
+{
+  "uuid": "7EqF",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "453",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Propriétés de R",
+    "sousChapitre": "Les rationnels",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:58.152Z"
+  },
+  "contenu": [
+    {
+      "id": "6fb64cc2-7273-45f7-970b-913a6aa0c9a4",
+      "type": "description",
+      "value": {
+        "latex": "Dans le plan $xOy$, on porte sur $Ox$ une suite de points\n$a_1, a_2,\\ldots,a_n,\\ldots$\net sur $Oy$ une suite de points $b_1, b_2,\\ldots,b_n,\\ldots\\,$, construites\nde la manière suivante :\n\\begin{description}\n\\item[(i)]  $a_1=2$  et $b_1=1$, \n\n\\item[(ii)]  $a_n= {a_{n-1}+b_{n-1} \\over2}$,\n\n\\item[(iii)]  $a_nb_n=2$ (le rectangle de côtés $a_n$ et $b_n$\n           a pour aire 2).\n\\end{description}",
+        "html": "<p>Dans le plan <span class=\"math inline\">\\(xOy\\)</span>, on porte sur\n<span class=\"math inline\">\\(Ox\\)</span> une suite de points <span\nclass=\"math inline\">\\(a_1, a_2,\\ldots,a_n,\\ldots\\)</span> et sur <span\nclass=\"math inline\">\\(Oy\\)</span> une suite de points <span\nclass=\"math inline\">\\(b_1, b_2,\\ldots,b_n,\\ldots\\,\\)</span>, construites\nde la manière suivante :</p>\n<dl>\n<dt>(i)</dt>\n<dd>\n<p><span class=\"math inline\">\\(a_1=2\\)</span> et <span\nclass=\"math inline\">\\(b_1=1\\)</span>,</p>\n</dd>\n<dt>(ii)</dt>\n<dd>\n<p><span class=\"math inline\">\\(a_n= {a_{n-1}+b_{n-1}\n\\over2}\\)</span>,</p>\n</dd>\n<dt>(iii)</dt>\n<dd>\n<p><span class=\"math inline\">\\(a_nb_n=2\\)</span> (le rectangle de côtés\n<span class=\"math inline\">\\(a_n\\)</span> et <span\nclass=\"math inline\">\\(b_n\\)</span> a pour aire 2).</p>\n</dd>\n</dl>\n"
+      }
+    },
+    {
+      "id": "da0716de-0c7b-47d5-a885-4645ff0dc979",
+      "type": "question",
+      "value": {
+        "latex": "Représentez cette suite de rectangles de côtés $a_n$ et $b_n$.",
+        "html": "<p>Représentez cette suite de rectangles de côtés <span\nclass=\"math inline\">\\(a_n\\)</span> et <span\nclass=\"math inline\">\\(b_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "96d30ee9-2e62-429b-b6b0-3f882322e265",
+      "type": "question",
+      "value": {
+        "latex": "Démontrez successivement que :\n$\\forall n,\\; b_n < a_n$ ; $(a_n)_{n \\in\\bf N}$ décroissante ;\n$(b_n)_{n\\in\\bf N}$ croissante.",
+        "html": "<p>Démontrez successivement que : <span class=\"math inline\">\\(\\forall\nn,\\; b_n &lt; a_n\\)</span> ; <span class=\"math inline\">\\((a_n)_{n \\in\\bf\nN}\\)</span> décroissante ; <span class=\"math inline\">\\((b_n)_{n\\in\\bf\nN}\\)</span> croissante.</p>\n"
+      }
+    },
+    {
+      "id": "14f98b05-214e-4c13-8cee-9ca4558dafff",
+      "type": "question",
+      "value": {
+        "latex": "Calculez $a_n-b_n$ en fonction de $a_{n-1}-b_{n-1}$ et $a_n$.\nMontrez que l'on a l'inégalité :\n$$ a_n-b_n < {{(a_{n-1}-b_{n-1})}^2 \\over4}.$$",
+        "html": "<p>Calculez <span class=\"math inline\">\\(a_n-b_n\\)</span> en fonction de\n<span class=\"math inline\">\\(a_{n-1}-b_{n-1}\\)</span> et <span\nclass=\"math inline\">\\(a_n\\)</span>. Montrez que l’on a l’inégalité :\n<span class=\"math display\">\\[a_n-b_n &lt; {{(a_{n-1}-b_{n-1})}^2\n\\over4}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "cd6b3689-3d56-44c2-b5c9-dd26004a4313",
+      "type": "question",
+      "value": {
+        "latex": "Calculez les premiers termes de la suite $a_1, a_2,\\ldots,a_6$.\nCombien de décimales exactes de $\\sqrt2$ obtenez-vous à chaque pas ?\nUtilisez l'inégalité précédente pour montrer que le nombre\nde décimales  exactes obtenues double \\emph{grosso modo} à chaque pas.",
+        "html": "<p>Calculez les premiers termes de la suite <span\nclass=\"math inline\">\\(a_1, a_2,\\ldots,a_6\\)</span>. Combien de décimales\nexactes de <span class=\"math inline\">\\(\\sqrt2\\)</span> obtenez-vous à\nchaque pas ? Utilisez l’inégalité précédente pour montrer que le nombre\nde décimales exactes obtenues double <em>grosso modo</em> à chaque\npas.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans le plan <span class=\"math inline\">\\(xOy\\)</span>, on porte sur\n<span class=\"math inline\">\\(Ox\\)</span> une suite de points <span\nclass=\"math i ..."
+}

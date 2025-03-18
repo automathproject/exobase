@@ -1,0 +1,45 @@
+{
+  "uuid": "qSlN",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2178",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Action de groupe",
+    "sousChapitre": "Action de groupe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:15:04.482Z"
+  },
+  "contenu": [
+    {
+      "id": "1cf7f811-0c2f-4b0d-b332-a6e71302b790",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que pour $m\\geq 3$, un groupe simple d'ordre $\\geq m!$ ne peut avoir de sous-groupe d'indice $m$.",
+        "html": "<p>Montrer que pour <span class=\"math inline\">\\(m\\geq 3\\)</span>, un\ngroupe simple d’ordre <span class=\"math inline\">\\(\\geq m!\\)</span> ne\npeut avoir de sous-groupe d’indice <span\nclass=\"math inline\">\\(m\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7c7583c3-938a-4633-8ab3-a476a8ed4e1e",
+      "type": "indication",
+      "value": {
+        "latex": "Etudier l'action du groupe par translation sur l'ensemble quotient des classes modulo le sous-groupe.",
+        "html": "<p>Etudier l’action du groupe par translation sur l’ensemble quotient\ndes classes modulo le sous-groupe.</p>\n"
+      }
+    },
+    {
+      "id": "452d8cbf-09ae-4b5a-aaf9-d1bee0cceb0b",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $H$ un sous-groupe d'indice $m$ d'un groupe $G$.  L'action de $G$ par translation \\`a gauche sur l'ensemble quotient $G/H$ des classes \\`a gauche modulo $H$ induit un morphisme $G\\rightarrow \\textrm{Per}(G/H)$ qui est non-trivial et donc est injectif puisque le noyau, distingu\\'e dans $G$, ne peut \\^etre trivial si $G$ est simple. L'ordre de $G$ doit donc diviser l'ordre du groupe $\\textrm{Per}(G/H)$ qui vaut $m!\\ $. Il faut n\\'ecessairement que $|G|=m!\\ $. Mais alors le morphisme pr\\'ec\\'edent est un isomorphisme et $G$ est isomorphe au groupe sym\\'etrique $S_m$, ce qui contredit la simplicit\\'e de $G$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(H\\)</span> un sous-groupe d’indice\n<span class=\"math inline\">\\(m\\)</span> d’un groupe <span\nclass=\"math inline\">\\(G\\)</span>. L’action de <span\nclass=\"math inline\">\\(G\\)</span> par translation à gauche sur l’ensemble\nquotient <span class=\"math inline\">\\(G/H\\)</span> des classes à gauche\nmodulo <span class=\"math inline\">\\(H\\)</span> induit un morphisme <span\nclass=\"math inline\">\\(G\\rightarrow \\textrm{Per}(G/H)\\)</span> qui est\nnon-trivial et donc est injectif puisque le noyau, distingué dans <span\nclass=\"math inline\">\\(G\\)</span>, ne peut être trivial si <span\nclass=\"math inline\">\\(G\\)</span> est simple. L’ordre de <span\nclass=\"math inline\">\\(G\\)</span> doit donc diviser l’ordre du groupe\n<span class=\"math inline\">\\(\\textrm{Per}(G/H)\\)</span> qui vaut <span\nclass=\"math inline\">\\(m!\\ \\)</span>. Il faut nécessairement que <span\nclass=\"math inline\">\\(|G|=m!\\ \\)</span>. Mais alors le morphisme\nprécédent est un isomorphisme et <span class=\"math inline\">\\(G\\)</span>\nest isomorphe au groupe symétrique <span\nclass=\"math inline\">\\(S_m\\)</span>, ce qui contredit la simplicité de\n<span class=\"math inline\">\\(G\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que pour <span class=\"math inline\">\\(m\\geq 3\\)</span>, un\ngroupe simple d’ordre <span class=\"math inline\">\\(\\geq m!\\)</span> ne\npeut avoir  ..."
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "OdSB",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5135",
+    "auteur": "rouget",
+    "createdAt": "2010-06-30",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Racine n-ieme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:10.733Z"
+  },
+  "contenu": [
+    {
+      "id": "a9401059-c800-4ea8-ad10-87e5ab9e741d",
+      "type": "description",
+      "value": {
+        "latex": "On considère l'équation $(E)~:~(z-1)^n-(z+1)^n=0$ où $n$ est un entier naturel supérieur ou\négal à $2$ donné.",
+        "html": "<p>On considère l’équation <span\nclass=\"math inline\">\\((E)~:~(z-1)^n-(z+1)^n=0\\)</span> où <span\nclass=\"math inline\">\\(n\\)</span> est un entier naturel supérieur ou égal\nà <span class=\"math inline\">\\(2\\)</span> donné.</p>\n"
+      }
+    },
+    {
+      "id": "dd57ff7f-9620-40b2-91a1-5eef6392fb1d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les solutions de $(E)$ sont imaginaires pures.",
+        "html": "<p>Montrer que les solutions de <span class=\"math inline\">\\((E)\\)</span>\nsont imaginaires pures.</p>\n"
+      }
+    },
+    {
+      "id": "f3bec046-f322-4d65-a259-efa06c6e3e73",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z\\in\\Cc$. Soient $M$, $A$ et $B$ les points d'affixes resectives $z$, $1$ et $-1$.\n\n$$\\begin{align*}\nz\\;\\mbox{solution\nde}\\;(E)&\\Rightarrow(z-1)^n=(z+1)^n\\Rightarrow|(z-1)^n|=|(z+1)^n|\\Rightarrow|z-1|^n=|z+1|^n\n\\Rightarrow|z-1|=|z+1|\\\\\n &\\Rightarrow AM=BM\\Rightarrow M\\in\\mbox{med}[AB]\\Rightarrow M\\in(Oy)\\Rightarrow z\\in i\\Rr.\n\\end{align*}$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\in\\Cc\\)</span>. Soient <span\nclass=\"math inline\">\\(M\\)</span>, <span class=\"math inline\">\\(A\\)</span>\net <span class=\"math inline\">\\(B\\)</span> les points d’affixes\nresectives <span class=\"math inline\">\\(z\\)</span>, <span\nclass=\"math inline\">\\(1\\)</span> et <span\nclass=\"math inline\">\\(-1\\)</span>.</p>\n<p><span class=\"math display\">\\[\\begin{align*}\nz\\;\\mbox{solution\nde}\\;(E)&amp;\\Rightarrow(z-1)^n=(z+1)^n\\Rightarrow|(z-1)^n|=|(z+1)^n|\\Rightarrow|z-1|^n=|z+1|^n\n\\Rightarrow|z-1|=|z+1|\\\\\n&amp;\\Rightarrow AM=BM\\Rightarrow M\\in\\mbox{med}[AB]\\Rightarrow\nM\\in(Oy)\\Rightarrow z\\in i\\Rr.\n\\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d75949a8-8d06-450a-ba18-b5bd1923988a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que les solutions de $(E)$ sont deux à deux opposées.",
+        "html": "<p>Montrer que les solutions de <span class=\"math inline\">\\((E)\\)</span>\nsont deux à deux opposées.</p>\n"
+      }
+    },
+    {
+      "id": "cdc623c1-0b5b-4204-927b-bd1ffa72de3a",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z\\in\\Cc$.\n\n$$(-z-1)^n-(-z+1)^n=(-1)^n((z+1)^n-(z-1)^n)=-(-1)^n((z-1)^n-(z+1)^n).$$\nPar suite,\n\n$$z\\;\\mbox{solution de}\\;(E)\\Leftrightarrow(z-1)^n-(z+1)^n=0\\Leftrightarrow(-z-1)^n-(-z+1)^n=0\\Leftrightarrow-z\\;\\mbox{solution de}\\;(E).$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\in\\Cc\\)</span>.</p>\n<p><span\nclass=\"math display\">\\[(-z-1)^n-(-z+1)^n=(-1)^n((z+1)^n-(z-1)^n)=-(-1)^n((z-1)^n-(z+1)^n).\\]</span>\nPar suite,</p>\n<p><span class=\"math display\">\\[z\\;\\mbox{solution\nde}\\;(E)\\Leftrightarrow(z-1)^n-(z+1)^n=0\\Leftrightarrow(-z-1)^n-(-z+1)^n=0\\Leftrightarrow-z\\;\\mbox{solution\nde}\\;(E).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e5f46c14-ccc6-42c7-a7bf-b42554ce7521",
+      "type": "question",
+      "value": {
+        "latex": "Résoudre $(E)$.",
+        "html": "<p>Résoudre <span class=\"math inline\">\\((E)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eecd4de4-d6b1-46ea-afbd-6950bb349cb2",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z\\in\\Cc$.\n$$\\begin{align*}\nz\\;\\mbox{solution de}\\;(E)&\\Leftrightarrow(z-1)^n=(z+1)^n\\Leftrightarrow\\exists k\\in\\llbracket0,n-1\\rrbracket/\\;z-1=e^{2ik\\pi/n}(z+1)\\\\\n&\\Leftrightarrow\\exists k\\in\\llbracket1,n-1\\rrbracket/\\;z=-\\frac{e^{2ik\\pi/n}+1}{e^{2ik\\pi/n}-1}\n\\Leftrightarrow\\exists k\\in\\llbracket1,n-1\\rrbracket/\\;z=-\\frac{e^{ik\\pi/n}+e^{-ik\\pi/n}}{e^{ik\\pi/n}-e^{-ik\\pi/n}}\\\\\n&\\Leftrightarrow\\exists k\\in\\llbracket1,n-1\\rrbracket/\\;z=-\\frac{2\\cos\\frac{k\\pi}{n}}{2i\\sin\\frac{k\\pi}{n}}\n\\Leftrightarrow\\exists k\\in\\llbracket1,n-1\\rrbracket/\\;z=i\\cotan\\frac{k\\pi}{n}\n\\end{align*}$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(z\\in\\Cc\\)</span>. <span\nclass=\"math display\">\\[\\begin{align*}\nz\\;\\mbox{solution\nde}\\;(E)&amp;\\Leftrightarrow(z-1)^n=(z+1)^n\\Leftrightarrow\\exists\nk\\in\\llbracket0,n-1\\rrbracket/\\;z-1=e^{2ik\\pi/n}(z+1)\\\\\n&amp;\\Leftrightarrow\\exists\nk\\in\\llbracket1,n-1\\rrbracket/\\;z=-\\frac{e^{2ik\\pi/n}+1}{e^{2ik\\pi/n}-1}\n\\Leftrightarrow\\exists\nk\\in\\llbracket1,n-1\\rrbracket/\\;z=-\\frac{e^{ik\\pi/n}+e^{-ik\\pi/n}}{e^{ik\\pi/n}-e^{-ik\\pi/n}}\\\\\n&amp;\\Leftrightarrow\\exists\nk\\in\\llbracket1,n-1\\rrbracket/\\;z=-\\frac{2\\cos\\frac{k\\pi}{n}}{2i\\sin\\frac{k\\pi}{n}}\n\\Leftrightarrow\\exists\nk\\in\\llbracket1,n-1\\rrbracket/\\;z=i\\cotan\\frac{k\\pi}{n}\n\\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’équation <span\nclass=\"math inline\">\\((E)~:~(z-1)^n-(z+1)^n=0\\)</span> où <span\nclass=\"math inline\">\\(n\\)</span> est un entier nature ..."
+}

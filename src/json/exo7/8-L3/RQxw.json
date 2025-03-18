@@ -1,0 +1,37 @@
+{
+  "uuid": "RQxw",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2138",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Sous-groupe distingué",
+    "sousChapitre": "Sous-groupe distingué",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:53.603Z"
+  },
+  "contenu": [
+    {
+      "id": "2cc6c905-c50f-43b3-8243-b09861411e1e",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que le groupe des automorphismes du groupe $\\Z /2\\Z \\times \\Z /2 \\Z$ est\nisomorphe au groupe sym\\'etrique $S_3$.",
+        "html": "<p>Montrer que le groupe des automorphismes du groupe <span\nclass=\"math inline\">\\(\\Z /2\\Z \\times \\Z /2 \\Z\\)</span> est isomorphe au\ngroupe symétrique <span class=\"math inline\">\\(S_3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "137306b6-a782-4c48-ad7a-4d1065c169d4",
+      "type": "reponse",
+      "value": {
+        "latex": "Tout automorphisme $\\varphi$ du groupe $G=\\Z/2\\Z \\times \\Z/2\\Z$ permute les trois \\'el\\'ements\nd'ordre $2$, c'est-\\`a-dire l'ensemble $G^\\ast$ des trois \\'el\\'ements non triviaux. La\ncorrespondance qui \\`a $\\varphi \\in \\hbox{\\rm Aut}(\\Z/2\\Z \\times \\Z/2\\Z)$ associe sa\nrestriction \\`a $G^\\ast$ induit un morphisme $\\chi: \\hbox{\\rm Aut}(\\Z/2\\Z \\times\n\\Z/2\\Z) \\rightarrow S_3$. Tout morphisme $\\varphi \\in \\hbox{\\rm Aut}(\\Z/2\\Z \\times \\Z/2\\Z)$\n\\'etant d\\'etermin\\'e par sa restriction \\`a $G^\\ast$, ce morphisme $\\chi$ est injectif.\nDe plus, tout automorphisme lin\\'eaire (pour la structure de $\\Z/2\\Z$-espace vectoriel de\n$\\Z/2\\Z \\times \\Z/2\\Z$) est un automorphisme de groupes. Il y a $6$ tels automorphismes\n(autant qu'il y a de bases). L'image de $\\chi$ contient donc au moins $6$ \\'el\\'ements.\nComme c'est un sous-groupe de $S_3$, c'est $S_3$ lui-m\\^eme et $\\chi$ est un isomorphisme.",
+        "html": "<p>Tout automorphisme <span class=\"math inline\">\\(\\varphi\\)</span> du\ngroupe <span class=\"math inline\">\\(G=\\Z/2\\Z \\times \\Z/2\\Z\\)</span>\npermute les trois éléments d’ordre <span\nclass=\"math inline\">\\(2\\)</span>, c’est-à-dire l’ensemble <span\nclass=\"math inline\">\\(G^\\ast\\)</span> des trois éléments non triviaux.\nLa correspondance qui à <span class=\"math inline\">\\(\\varphi \\in\n\\hbox{\\rm Aut}(\\Z/2\\Z \\times \\Z/2\\Z)\\)</span> associe sa restriction à\n<span class=\"math inline\">\\(G^\\ast\\)</span> induit un morphisme <span\nclass=\"math inline\">\\(\\chi: \\hbox{\\rm Aut}(\\Z/2\\Z \\times\n\\Z/2\\Z) \\rightarrow S_3\\)</span>. Tout morphisme <span\nclass=\"math inline\">\\(\\varphi \\in \\hbox{\\rm Aut}(\\Z/2\\Z \\times\n\\Z/2\\Z)\\)</span> étant déterminé par sa restriction à <span\nclass=\"math inline\">\\(G^\\ast\\)</span>, ce morphisme <span\nclass=\"math inline\">\\(\\chi\\)</span> est injectif. De plus, tout\nautomorphisme linéaire (pour la structure de <span\nclass=\"math inline\">\\(\\Z/2\\Z\\)</span>-espace vectoriel de <span\nclass=\"math inline\">\\(\\Z/2\\Z \\times \\Z/2\\Z\\)</span>) est un\nautomorphisme de groupes. Il y a <span class=\"math inline\">\\(6\\)</span>\ntels automorphismes (autant qu’il y a de bases). L’image de <span\nclass=\"math inline\">\\(\\chi\\)</span> contient donc au moins <span\nclass=\"math inline\">\\(6\\)</span> éléments. Comme c’est un sous-groupe de\n<span class=\"math inline\">\\(S_3\\)</span>, c’est <span\nclass=\"math inline\">\\(S_3\\)</span> lui-même et <span\nclass=\"math inline\">\\(\\chi\\)</span> est un isomorphisme.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que le groupe des automorphismes du groupe <span\nclass=\"math inline\">\\(\\Z /2\\Z \\times \\Z /2 \\Z\\)</span> est isomorphe au\ngroupe symétrique  ..."
+}

@@ -1,0 +1,93 @@
+{
+  "uuid": "Nmkx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3452",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:08:31.181Z"
+  },
+  "contenu": [
+    {
+      "id": "2f43b076-b6c9-4595-96e2-a3a35039503b",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer les cas d'annulation des déterminants suivants, puis les\n calculer :",
+        "html": "<p>Déterminer les cas d’annulation des déterminants suivants, puis les\ncalculer :</p>\n"
+      }
+    },
+    {
+      "id": "36ca1c9c-2569-4f6d-8d61-1643f5231d49",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}1      &        &        & (1)    \\cr\n                      & 1-x    &        &        \\cr\n                      &        & \\ddots &        \\cr\n               (1)    &        &        & n-x    \\cr \\end{vmatrix} $.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\begin{vmatrix}1      &amp;        &amp;        &amp;\n(1)    \\cr\n                      &amp; 1-x    &amp;        &amp;        \\cr\n                      &amp;        &amp; \\ddots &amp;        \\cr\n               (1)    &amp;        &amp;        &amp; n-x    \\cr\n\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "48767bde-ae4b-485e-8a88-7f8297abd443",
+      "type": "reponse",
+      "value": {
+        "latex": "$-x(1-x)(2-x)\\dots(n-1-x)$.",
+        "html": "<p><span class=\"math inline\">\\(-x(1-x)(2-x)\\dots(n-1-x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8073a23e-e317-44e6-bf36-1d972a70c865",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}x     & a_1  & a_2   & \\dots & a_n   \\cr\n               a_1   & x    & a_2   & \\dots & a_n   \\cr\n               \\vdots&      & \\ddots&       & \\vdots\\cr\n               \\vdots&      &       & \\ddots& a_n   \\cr\n               a_1   & a_2  & \\dots & a_n   & x     \\cr \\end{vmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}x     &amp; a_1  &amp;\na_2   &amp; \\dots &amp; a_n   \\cr\n               a_1   &amp; x    &amp; a_2   &amp; \\dots &amp; a_n   \\cr\n               \\vdots&amp;      &amp; \\ddots&amp;       &amp; \\vdots\\cr\n               \\vdots&amp;      &amp;       &amp; \\ddots&amp; a_n   \\cr\n               a_1   &amp; a_2  &amp; \\dots &amp; a_n   &amp; x     \\cr\n\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "721d56c5-c413-4247-a653-bfd70dde2841",
+      "type": "reponse",
+      "value": {
+        "latex": "$(x-a_1) \\dots (x-a_n)( x + a_1 + \\dots + a_n )$.",
+        "html": "<p><span class=\"math inline\">\\((x-a_1) \\dots (x-a_n)( x + a_1 + \\dots +\na_n )\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3cae2742-880c-4822-8d89-996cb9bf1a5a",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}a     &b  &c  &\\dots &z     \\cr\n               b     &b  &c  &      &z     \\cr\n               c     &c  &c  &      &z     \\cr\n               \\vdots&   &   &\\ddots&\\vdots\\cr\n               z     &z  &z  &\\dots &z     \\cr \\end{vmatrix}$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\begin{vmatrix}a     &amp;b  &amp;c  &amp;\\dots\n&amp;z     \\cr\n               b     &amp;b  &amp;c  &amp;      &amp;z     \\cr\n               c     &amp;c  &amp;c  &amp;      &amp;z     \\cr\n               \\vdots&amp;   &amp;   &amp;\\ddots&amp;\\vdots\\cr\n               z     &amp;z  &amp;z  &amp;\\dots &amp;z     \\cr\n\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c69018f7-9004-48d5-8697-d62754a25033",
+      "type": "reponse",
+      "value": {
+        "latex": "$z(y-z)(x-y) \\dots (a-b)$.",
+        "html": "<p><span class=\"math inline\">\\(z(y-z)(x-y) \\dots (a-b)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8f147af7-7d4c-4b45-8789-6a5557c6b50e",
+      "type": "question",
+      "value": {
+        "latex": "$\\begin{vmatrix}\\frac 1{a+x} & \\frac 1{a+y} & \\frac 1{a+z} \\cr\n                \\frac 1{b+x} & \\frac 1{b+y} & \\frac 1{b+z} \\cr\n                \\frac 1{c+x} & \\frac 1{c+y} & \\frac 1{c+z} \\cr\\end{vmatrix}$.",
+        "html": "<p><span class=\"math inline\">\\(\\begin{vmatrix}\\frac 1{a+x} &amp; \\frac\n1{a+y} &amp; \\frac 1{a+z} \\cr\n                \\frac 1{b+x} &amp; \\frac 1{b+y} &amp; \\frac 1{b+z} \\cr\n                \\frac 1{c+x} &amp; \\frac 1{c+y} &amp; \\frac 1{c+z}\n\\cr\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7c086501-a806-40bd-b86b-1dbb119d166a",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac { V(a,b,c)V(x,y,z) }{ (a+x) \\dots (c+z) }$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac { V(a,b,c)V(x,y,z) }{ (a+x) \\dots\n(c+z) }\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer les cas d’annulation des déterminants suivants, puis les\ncalculer :</p>\n"
+}

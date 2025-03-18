@@ -1,0 +1,69 @@
+{
+  "uuid": "ff8u",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7337",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe, anneau, corps",
+    "sousChapitre": "Anneau",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:22.332Z"
+  },
+  "contenu": [
+    {
+      "id": "9ad4431d-3741-4652-a9b3-810ee8fb7d0f",
+      "type": "description",
+      "value": {
+        "latex": "Les polynômes symétriques élémentaires en $n$ indéterminées sont par définition\r\n\\begin{eqnarray*}\r\n s_1(t_1,t_2,\\cdots,t_n)&:=&t_1+t_2+\\cdots+t_n\\\\\r\ns_2(t_1,t_2,\\cdots,t_n)&:=&t_1t_2+t_1t_3+\\cdots+t_2t_3+t_2t_4\r\n+\\cdots +\\cdots t_{n-1}t_n\\\\\r\n\\vdots\\\\\r\ns_n(t_1,t_2,\\cdots,t_n)&:=&t_1t_2\\cdots t_n.\r\n\\end{eqnarray*}",
+        "html": "<p>Les polynômes symétriques élémentaires en <span\nclass=\"math inline\">\\(n\\)</span> indéterminées sont par définition <span\nclass=\"math display\">\\[\\begin{aligned}\ns_1(t_1,t_2,\\cdots,t_n)&amp;:=&amp;t_1+t_2+\\cdots+t_n\\\\\ns_2(t_1,t_2,\\cdots,t_n)&amp;:=&amp;t_1t_2+t_1t_3+\\cdots+t_2t_3+t_2t_4\n+\\cdots +\\cdots t_{n-1}t_n\\\\\n\\vdots\\\\\ns_n(t_1,t_2,\\cdots,t_n)&amp;:=&amp;t_1t_2\\cdots t_n.\n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "8a6f116e-8d7a-4984-9f11-a2be2a4d97b0",
+      "type": "question",
+      "value": {
+        "latex": "Soit $F(X)=a(X-t_1)(X-t_2)\\cdots(X-t_n)$. Développer $F(X)$ en puissances de $X$.",
+        "html": "<p>Soit <span\nclass=\"math inline\">\\(F(X)=a(X-t_1)(X-t_2)\\cdots(X-t_n)\\)</span>.\nDévelopper <span class=\"math inline\">\\(F(X)\\)</span> en puissances de\n<span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bae30cb7-cfce-46ee-8a0b-f633fc146c63",
+      "type": "question",
+      "value": {
+        "latex": "Ecrire $t_1^3+t_2^3$ comme polynôme à coefficients entiers de $s_1$, $s_2$.",
+        "html": "<p>Ecrire <span class=\"math inline\">\\(t_1^3+t_2^3\\)</span> comme\npolynôme à coefficients entiers de <span\nclass=\"math inline\">\\(s_1\\)</span>, <span\nclass=\"math inline\">\\(s_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "84f9c310-09e0-48c3-ba09-cd276b346e24",
+      "type": "question",
+      "value": {
+        "latex": "Ecrire $t_1^4+t_2^4$ comme polynôme à coefficients entiers de $s_1$, $s_2$.",
+        "html": "<p>Ecrire <span class=\"math inline\">\\(t_1^4+t_2^4\\)</span> comme\npolynôme à coefficients entiers de <span\nclass=\"math inline\">\\(s_1\\)</span>, <span\nclass=\"math inline\">\\(s_2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "815cca17-b7e7-45c9-86fc-59a6a0a8f7da",
+      "type": "question",
+      "value": {
+        "latex": "Ecrire $t_1^3+t_2^3+t_3^3$ comme polynôme à coefficients entiers de $s_1$, $s_2$, $s_3$.",
+        "html": "<p>Ecrire <span class=\"math inline\">\\(t_1^3+t_2^3+t_3^3\\)</span> comme\npolynôme à coefficients entiers de <span\nclass=\"math inline\">\\(s_1\\)</span>, <span\nclass=\"math inline\">\\(s_2\\)</span>, <span\nclass=\"math inline\">\\(s_3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9242058b-b49f-4928-abad-fe6d3c502328",
+      "type": "question",
+      "value": {
+        "latex": "Ecrire $f$\r\n$$f(t_1,t_2,t_3)=t_1^2t_2+t_1^2t_3+t_2^2t_1+t_2^2t_3+t_3^2t_1+t_3^2t_2.$$\r\n comme polynôme à coefficients entiers en les polynômes symétriques élémentaires.",
+        "html": "<p>Ecrire <span class=\"math inline\">\\(f\\)</span> <span\nclass=\"math display\">\\[f(t_1,t_2,t_3)=t_1^2t_2+t_1^2t_3+t_2^2t_1+t_2^2t_3+t_3^2t_1+t_3^2t_2.\\]</span>\ncomme polynôme à coefficients entiers en les polynômes symétriques\nélémentaires.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Les polynômes symétriques élémentaires en <span\nclass=\"math inline\">\\(n\\)</span> indéterminées sont par définition <span\nclass=\"math display\"> ..."
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "4JwY",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5927",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Mesure",
+    "sousChapitre": "Mesure",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:08.620Z"
+  },
+  "contenu": [
+    {
+      "id": "6ac1ad78-341c-4dd0-abc4-fbf04e9b802d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(\\Omega, \\Sigma)$ un espace mesurable (i.e. un ensemble\n$\\Omega$ muni d'une tribu $\\Sigma \\subset \\mathcal{P}(\\Omega)$).\nSoit $\\mu$ une mesure finie sur $(\\Omega, \\Sigma)$. Montrer les\npropri\\'et\\'es suivantes~: ($A,B,A_i$ sont des élements de de $\\Sigma$)",
+        "html": "<p>Soit <span class=\"math inline\">\\((\\Omega, \\Sigma)\\)</span> un espace\nmesurable (i.e. un ensemble <span class=\"math inline\">\\(\\Omega\\)</span>\nmuni d’une tribu <span class=\"math inline\">\\(\\Sigma \\subset\n\\mathcal{P}(\\Omega)\\)</span>). Soit <span\nclass=\"math inline\">\\(\\mu\\)</span> une mesure finie sur <span\nclass=\"math inline\">\\((\\Omega, \\Sigma)\\)</span>. Montrer les propriétés\nsuivantes : (<span class=\"math inline\">\\(A,B,A_i\\)</span> sont des\nélements de de <span class=\"math inline\">\\(\\Sigma\\)</span>)</p>\n"
+      }
+    },
+    {
+      "id": "5369d9e8-e0f5-4a54-8c19-f53bfbaa62be",
+      "type": "question",
+      "value": {
+        "latex": "Si $A_{1}, A_{2}, \\dots, A_{k}$ sont deux \\`a deux\ndisjoints, alors\n$$\n\\mu\\left(\\cup_{i=1}^{k} A_{i}\\right) = \\sum_{i=1}^{k} \\mu(A_{i}).\n$$",
+        "html": "<p>Si <span class=\"math inline\">\\(A_{1}, A_{2}, \\dots, A_{k}\\)</span>\nsont deux à deux disjoints, alors <span\nclass=\"math display\">\\[\\mu\\left(\\cup_{i=1}^{k} A_{i}\\right) =\n\\sum_{i=1}^{k} \\mu(A_{i}).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5211ddff-1498-4539-9cc5-840f5fb62b42",
+      "type": "question",
+      "value": {
+        "latex": "Si $B \\subset A$ alors $\\mu(A\\setminus B) =\n\\mu(A) -\\mu(B)$.",
+        "html": "<p>Si <span class=\"math inline\">\\(B \\subset A\\)</span> alors <span\nclass=\"math inline\">\\(\\mu(A\\setminus B) =\n\\mu(A) -\\mu(B)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "93db0b86-f3fc-4e17-8105-3f12116a8945",
+      "type": "question",
+      "value": {
+        "latex": "\\emph{Monotonie~:} Si $B \\subset A$ alors $\\mu(B) \\leq \\mu(A)$.",
+        "html": "<p><em>Monotonie :</em> Si <span class=\"math inline\">\\(B \\subset\nA\\)</span> alors <span class=\"math inline\">\\(\\mu(B) \\leq\n\\mu(A)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "96b88d9b-8225-41e1-81dd-509575975385",
+      "type": "question",
+      "value": {
+        "latex": "\\emph{Principe inclusion-exclusion~:} $\\mu(A\\cup\nB) = \\mu(A) + \\mu(B) - \\mu(A\\cap B)$.",
+        "html": "<p><em>Principe inclusion-exclusion :</em> <span\nclass=\"math inline\">\\(\\mu(A\\cup\nB) = \\mu(A) + \\mu(B) - \\mu(A\\cap B)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "68085c15-1d9e-4178-88e1-76954870ad0a",
+      "type": "question",
+      "value": {
+        "latex": "$\\mu\\left(\\cup_{i=1}^{+\\infty} A_{i}\\right) \\leq\n\\sum_{i=1}^{+\\infty}\\mu(A_{i}).$ \\textit{(Rappelons que l'on a\n\\'egalit\\'e si l'union est disjointe.)}",
+        "html": "<p><span class=\"math inline\">\\(\\mu\\left(\\cup_{i=1}^{+\\infty}\nA_{i}\\right) \\leq\n\\sum_{i=1}^{+\\infty}\\mu(A_{i}).\\)</span> <em>(Rappelons que l’on a\négalité si l’union est disjointe.)</em></p>\n"
+      }
+    },
+    {
+      "id": "8641f7bb-c9b3-48bc-a1ac-31cec04e9772",
+      "type": "reponse",
+      "value": {
+        "latex": "D\\'ecoule directement des d\\'efinitions.",
+        "html": "<p>Découle directement des définitions.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((\\Omega, \\Sigma)\\)</span> un espace\nmesurable (i.e. un ensemble <span class=\"math inline\">\\(\\Omega\\)</span>\nmuni d ..."
+}

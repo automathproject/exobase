@@ -1,0 +1,61 @@
+{
+  "uuid": "4aRh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "619",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Limite de fonctions",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:49.843Z"
+  },
+  "contenu": [
+    {
+      "id": "6029a482-9d62-4978-916c-019f84f6e0b8",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "22df7526-91c0-4ab3-b3b3-055cc6bcc973",
+      "type": "question",
+      "value": {
+        "latex": "Pour tout $n$ entier naturel et tout couple de réels $(x,y)$, établir la formule :\n$$\nx^n-y^n = (x-y).\\sum_{k=0}^{n-1}x^ky^{n-1-k}.\n$$",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(n\\)</span> entier naturel et\ntout couple de réels <span class=\"math inline\">\\((x,y)\\)</span>, établir\nla formule : <span class=\"math display\">\\[x^n-y^n =\n(x-y).\\sum_{k=0}^{n-1}x^ky^{n-1-k}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a24becb0-9b32-40a6-84af-1e2c95420689",
+      "type": "question",
+      "value": {
+        "latex": "Déduire de la question précédente que pour tout entier $n$ tout réel strictement positif $a$ et tout couple de réels $(x,y)$ tel que $|x| \\leq a$ et $|y| \\leq a,$\n$$\n|x^n-y^n| \\leq na^{n-1}|x-y|.\n$$",
+        "html": "<p>Déduire de la question précédente que pour tout entier <span\nclass=\"math inline\">\\(n\\)</span> tout réel strictement positif <span\nclass=\"math inline\">\\(a\\)</span> et tout couple de réels <span\nclass=\"math inline\">\\((x,y)\\)</span> tel que <span\nclass=\"math inline\">\\(|x| \\leq a\\)</span> et <span\nclass=\"math inline\">\\(|y| \\leq a,\\)</span> <span\nclass=\"math display\">\\[|x^n-y^n| \\leq na^{n-1}|x-y|.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "009a4331-d99f-4910-a66f-2117d06870c6",
+      "type": "question",
+      "value": {
+        "latex": "Déduire de ce qui précède que pour tout $x_0 \\in \\mathbb{R},$ et pour tout $\\epsilon > 0,$ il existe $\\alpha > 0$ tel que:\n$$\n|x-x_0| < \\alpha \\;\\Rightarrow\\; |x^n-x_0^n| < \\epsilon.\n$$\nConclure.",
+        "html": "<p>Déduire de ce qui précède que pour tout <span\nclass=\"math inline\">\\(x_0 \\in \\mathbb{R},\\)</span> et pour tout <span\nclass=\"math inline\">\\(\\epsilon &gt; 0,\\)</span> il existe <span\nclass=\"math inline\">\\(\\alpha &gt; 0\\)</span> tel que: <span\nclass=\"math display\">\\[|x-x_0| &lt; \\alpha \\;\\Rightarrow\\; |x^n-x_0^n|\n&lt; \\epsilon.\\]</span> Conclure.</p>\n"
+      }
+    },
+    {
+      "id": "ae94d1e8-0b03-4eb2-af2d-f78bbdfb37eb",
+      "type": "question",
+      "value": {
+        "latex": "Sur quel sous ensemble $D$ de $\\mathbb{R},$ la fonction de la variable réelle $f$ donnée par \n$$\nf(x) := \\frac{1-x^n}{1-x}\n$$\nest-elle définie? Calculer les limites de $f$ aux bornes de $D.$",
+        "html": "<p>Sur quel sous ensemble <span class=\"math inline\">\\(D\\)</span> de\n<span class=\"math inline\">\\(\\mathbb{R},\\)</span> la fonction de la\nvariable réelle <span class=\"math inline\">\\(f\\)</span> donnée par <span\nclass=\"math display\">\\[f(x) := \\frac{1-x^n}{1-x}\\]</span> est-elle\ndéfinie? Calculer les limites de <span class=\"math inline\">\\(f\\)</span>\naux bornes de <span class=\"math inline\">\\(D.\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour tout <span class=\"math inline\">\\(n\\)</span> entier naturel et\ntout couple de réels <span class=\"math inline\">\\((x,y)\\)</span>, établir\nla form ..."
+}

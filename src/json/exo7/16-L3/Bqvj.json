@@ -1,0 +1,53 @@
+{
+  "uuid": "Bqvj",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2852",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction logarithme et fonction puissance",
+    "sousChapitre": "Fonction logarithme et fonction puissance",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:23.088Z"
+  },
+  "contenu": [
+    {
+      "id": "20914392-28ed-41d8-bc67-5b1b8bb4dc84",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "098bdc35-40bf-420a-a7fb-138636815932",
+      "type": "question",
+      "value": {
+        "latex": "On considère la fonction analytique $\\phi(a) = \\mathrm{Log}(a-1) -\n  \\mathrm{Log}(a+1)$ dans le demi-plan supérieur et la fonction\n  analytique $\\psi(a) =  \\mathrm{Log}(a-1) -\n  \\mathrm{Log}(a+1)$ dans le demi-plan inférieur. Montrer que $\\phi$\n  et $\\psi$ sont la restriction à leurs demi-plans\n  respectifs d'une fonction analytique sur\n  $\\Cc\\setminus[-1,+1]$. \n  \\emph{Indication :} il y a plusieurs\n  raisonnements possibles et plusieurs indications\n  possibles. Donc, débrouillez vous.",
+        "html": "<p>On considère la fonction analytique <span\nclass=\"math inline\">\\(\\phi(a) = \\mathrm{Log}(a-1) -\n  \\mathrm{Log}(a+1)\\)</span> dans le demi-plan supérieur et la fonction\nanalytique <span class=\"math inline\">\\(\\psi(a) =  \\mathrm{Log}(a-1) -\n  \\mathrm{Log}(a+1)\\)</span> dans le demi-plan inférieur. Montrer que\n<span class=\"math inline\">\\(\\phi\\)</span> et <span\nclass=\"math inline\">\\(\\psi\\)</span> sont la restriction à leurs\ndemi-plans respectifs d’une fonction analytique sur <span\nclass=\"math inline\">\\(\\Cc\\setminus[-1,+1]\\)</span>. <em>Indication\n:</em> il y a plusieurs raisonnements possibles et plusieurs indications\npossibles. Donc, débrouillez vous.</p>\n"
+      }
+    },
+    {
+      "id": "8fb31718-37b8-4237-bb06-62795734c03d",
+      "type": "question",
+      "value": {
+        "latex": "On considère la fonction $a\\mapsto\n\\frac{a-1}{a+1}$. Quelle est l'image par cette fonction de\nl'intervalle $]-1,1[$?  Quelle est l'image par cette\nfonction de $\\Cc\\setminus[-1,+1]$? En déduire que la\nfonction composée $\\Phi(a) = \\mathrm{Log}\\frac{a-1}{a+1}$ existe et\nest analytique sur $\\Cc\\setminus[-1,+1]$. Retrouver le\nrésultat de la question précédente (et montrer que $\\phi$,\n$\\psi$ et $\\Phi$ coïncident dans les intersections\ndeux-à-deux de leurs ouverts de définitions).",
+        "html": "<p>On considère la fonction <span class=\"math inline\">\\(a\\mapsto\n\\frac{a-1}{a+1}\\)</span>. Quelle est l’image par cette fonction de\nl’intervalle <span class=\"math inline\">\\(]-1,1[\\)</span>? Quelle est\nl’image par cette fonction de <span\nclass=\"math inline\">\\(\\Cc\\setminus[-1,+1]\\)</span>? En déduire que la\nfonction composée <span class=\"math inline\">\\(\\Phi(a) =\n\\mathrm{Log}\\frac{a-1}{a+1}\\)</span> existe et est analytique sur <span\nclass=\"math inline\">\\(\\Cc\\setminus[-1,+1]\\)</span>. Retrouver le\nrésultat de la question précédente (et montrer que <span\nclass=\"math inline\">\\(\\phi\\)</span>, <span\nclass=\"math inline\">\\(\\psi\\)</span> et <span\nclass=\"math inline\">\\(\\Phi\\)</span> coïncident dans les intersections\ndeux-à-deux de leurs ouverts de définitions).</p>\n"
+      }
+    },
+    {
+      "id": "b6c75a29-7e88-4647-86c1-c023b85613a0",
+      "type": "question",
+      "value": {
+        "latex": "Quel est le développement en série de Laurent de la\n  fonction analytique $\\Phi$ dans la couronne\n  $1<|a|<\\infty$? Que vaut par exemple $\\int_{|a|=2}\n  \\Phi(a)a^{18} da$?",
+        "html": "<p>Quel est le développement en série de Laurent de la fonction\nanalytique <span class=\"math inline\">\\(\\Phi\\)</span> dans la couronne\n<span class=\"math inline\">\\(1&lt;|a|&lt;\\infty\\)</span>? Que vaut par\nexemple <span class=\"math inline\">\\(\\int_{|a|=2}\n  \\Phi(a)a^{18} da\\)</span>?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la fonction analytique <span\nclass=\"math inline\">\\(\\phi(a) = \\mathrm{Log}(a-1) -\n  \\mathrm{Log}(a+1)\\)</span> dans le demi-plan supéri ..."
+}

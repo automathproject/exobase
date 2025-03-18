@@ -1,0 +1,37 @@
+{
+  "uuid": "TQBb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2127",
+    "auteur": "debes",
+    "createdAt": "2008-02-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Ordre d'un élément",
+    "sousChapitre": "Ordre d'un élément",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:54.618Z"
+  },
+  "contenu": [
+    {
+      "id": "6025a291-38bc-46fd-80e8-c47f99f8119c",
+      "type": "description",
+      "value": {
+        "latex": "Soient $G$ un groupe fini et commutatif et $\\{ G_i\\} _{i\\in I }$ la famille des sous-groupes\npropres maximaux de $G$. On pose $F=\\bigcap _{i\\in I} G_i$. Montrer que $F$ est\nl'ensemble des \\'el\\'ements $a$ de $G$ qui sont tels que, pour toute partie $S$ de\n$G$ contenant $a$ et engendrant $G$, $S-\\{ a \\}$ engendre encore $G$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(G\\)</span> un groupe fini et\ncommutatif et <span class=\"math inline\">\\(\\{ G_i\\} _{i\\in I }\\)</span>\nla famille des sous-groupes propres maximaux de <span\nclass=\"math inline\">\\(G\\)</span>. On pose <span\nclass=\"math inline\">\\(F=\\bigcap _{i\\in I} G_i\\)</span>. Montrer que\n<span class=\"math inline\">\\(F\\)</span> est l’ensemble des éléments <span\nclass=\"math inline\">\\(a\\)</span> de <span\nclass=\"math inline\">\\(G\\)</span> qui sont tels que, pour toute partie\n<span class=\"math inline\">\\(S\\)</span> de <span\nclass=\"math inline\">\\(G\\)</span> contenant <span\nclass=\"math inline\">\\(a\\)</span> et engendrant <span\nclass=\"math inline\">\\(G\\)</span>, <span class=\"math inline\">\\(S-\\{ a\n\\}\\)</span> engendre encore <span class=\"math inline\">\\(G\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cc87b8f0-d215-4175-8740-667136127e12",
+      "type": "reponse",
+      "value": {
+        "latex": "Etant donn\\'e $a\\in F$, soit $S$ une partie de $G$ contenant $a$\net engendrant $G$. Si $<S-\\{ a \\}> \\not= G$, alors il existe un sous-groupe propre\nmaximal $G_i$ tel que $<S-\\{ a \\}> \\subset G_i$. Mais alors $<S> \\hskip 3pt \\subset\n\\hskip 3pt <S-\\{ a \\}> <a> \\hskip 3pt \\subset \\hskip 3pt G_i$. Contradiction, donc\n$<S-\\{ a \\}> \\not= G$.\n\nInversement, supposons que $a\\notin F$, c'est-\\`a-dire, il existe $i\\in I$ tel que\n$a\\notin G_i$. Alors pour $S=G_i\\cup \\{a\\}$, on a $<S>=G$ (par maximalit\\'e de\n$G_i$) mais $<S-\\{ a \\}> = G_i \\not= G$.",
+        "html": "<p>Etant donné <span class=\"math inline\">\\(a\\in F\\)</span>, soit <span\nclass=\"math inline\">\\(S\\)</span> une partie de <span\nclass=\"math inline\">\\(G\\)</span> contenant <span\nclass=\"math inline\">\\(a\\)</span> et engendrant <span\nclass=\"math inline\">\\(G\\)</span>. Si <span\nclass=\"math inline\">\\(&lt;S-\\{ a \\}&gt; \\not= G\\)</span>, alors il\nexiste un sous-groupe propre maximal <span\nclass=\"math inline\">\\(G_i\\)</span> tel que <span\nclass=\"math inline\">\\(&lt;S-\\{ a \\}&gt; \\subset G_i\\)</span>. Mais alors\n<span class=\"math inline\">\\(&lt;S&gt; \\hskip 3pt \\subset\n\\hskip 3pt &lt;S-\\{ a \\}&gt; &lt;a&gt; \\hskip 3pt \\subset \\hskip 3pt\nG_i\\)</span>. Contradiction, donc <span class=\"math inline\">\\(&lt;S-\\{ a\n\\}&gt; \\not= G\\)</span>.</p>\n<p>Inversement, supposons que <span class=\"math inline\">\\(a\\notin\nF\\)</span>, c’est-à-dire, il existe <span class=\"math inline\">\\(i\\in\nI\\)</span> tel que <span class=\"math inline\">\\(a\\notin G_i\\)</span>.\nAlors pour <span class=\"math inline\">\\(S=G_i\\cup \\{a\\}\\)</span>, on a\n<span class=\"math inline\">\\(&lt;S&gt;=G\\)</span> (par maximalité de\n<span class=\"math inline\">\\(G_i\\)</span>) mais <span\nclass=\"math inline\">\\(&lt;S-\\{ a \\}&gt; = G_i \\not= G\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(G\\)</span> un groupe fini et\ncommutatif et <span class=\"math inline\">\\(\\{ G_i\\} _{i\\in I }\\)</span>\nla famille d ..."
+}

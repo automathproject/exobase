@@ -1,0 +1,61 @@
+{
+  "uuid": "GjkX",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2942",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Racine n-ieme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:57:37.427Z"
+  },
+  "contenu": [
+    {
+      "id": "f5ef7462-6e72-48a0-a6db-ed5766ebb677",
+      "type": "description",
+      "value": {
+        "latex": "Soient $n \\in \\N^*$, $\\omega = e^{2i\\pi/n}$ et\n$Z = \\sum_{k=0}^{n-1}\\,\\omega^{k^2}$. On demande de calculer $|Z|^2$.\nPour cela $\\ldots$",
+        "html": "<p>Soient <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, <span\nclass=\"math inline\">\\(\\omega = e^{2i\\pi/n}\\)</span> et <span\nclass=\"math inline\">\\(Z = \\sum_{k=0}^{n-1}\\,\\omega^{k^2}\\)</span>. On\ndemande de calculer <span class=\"math inline\">\\(|Z|^2\\)</span>. Pour\ncela <span class=\"math inline\">\\(\\ldots\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "7e657713-22c5-4af6-aade-548051c23996",
+      "type": "question",
+      "value": {
+        "latex": "{\\'E}crire $|Z|^2$ comme une somme double.",
+        "html": "<p><span>É</span>crire <span class=\"math inline\">\\(|Z|^2\\)</span> comme\nune somme double.</p>\n"
+      }
+    },
+    {
+      "id": "d6460db8-be5d-4405-8925-7c3e1b4c6651",
+      "type": "question",
+      "value": {
+        "latex": "Regrouper les termes diagonalement en tenant compte de la p{\\'e}riodicit{\\'e} de\n    la fonction $k \\mapsto \\omega^k$.",
+        "html": "<p>Regrouper les termes diagonalement en tenant compte de la\np<span>é</span>riodicit<span>é</span> de la fonction <span\nclass=\"math inline\">\\(k \\mapsto \\omega^k\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d5ecbc6f-b828-4cef-9909-1af30dfdaebf",
+      "type": "question",
+      "value": {
+        "latex": "Terminer le calcul.",
+        "html": "<p>Terminer le calcul.</p>\n"
+      }
+    },
+    {
+      "id": "8ba9b47e-24f1-486f-a67e-07b8e3ba0f5a",
+      "type": "reponse",
+      "value": {
+        "latex": "$n$ impair $ \\Rightarrow  |Z|^2 = n$,\\par\n         $n$ pair $ \\Rightarrow  |Z|^2 = n(1+(-1)^{n/2})$.",
+        "html": "<p><span class=\"math inline\">\\(n\\)</span> impair <span\nclass=\"math inline\">\\(\\Rightarrow  |Z|^2 = n\\)</span>,</p>\n<p><span class=\"math inline\">\\(n\\)</span> pair <span\nclass=\"math inline\">\\(\\Rightarrow  |Z|^2 = n(1+(-1)^{n/2})\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, <span\nclass=\"math inline\">\\(\\omega = e^{2i\\pi/n}\\)</span> et <span\nclass=\"math inline\"> ..."
+}

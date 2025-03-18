@@ -1,0 +1,237 @@
+{
+  "uuid": "eFcl",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "120",
+    "auteur": "bodin",
+    "createdAt": "1998-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "-Kid1jaNv5A",
+    "chapitre": "Logique, ensemble, raisonnement",
+    "sousChapitre": "Logique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:59:22.760Z"
+  },
+  "contenu": [
+    {
+      "id": "a8c6e56b-7802-4386-8f8e-2e3aabd27a3a",
+      "type": "description",
+      "value": {
+        "latex": "Soient $f,g$ deux fonctions de $\\Rr$ dans $\\Rr$. Traduire\nen termes de quantificateurs les expressions suivantes :",
+        "html": "<p>Soient <span class=\"math inline\">\\(f,g\\)</span> deux fonctions de\n<span class=\"math inline\">\\(\\Rr\\)</span> dans <span\nclass=\"math inline\">\\(\\Rr\\)</span>. Traduire en termes de\nquantificateurs les expressions suivantes :</p>\n"
+      }
+    },
+    {
+      "id": "edd755dc-1435-4a1a-9674-afee5f9fdc67",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est major\\'ee;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est majorée;</p>\n"
+      }
+    },
+    {
+      "id": "c72aa749-bbf8-4d45-94c2-0132f3d7c78e",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\exists M \\in \\Rr \\quad \\forall x \\in \\Rr \\qquad f(x) \\leq M$;",
+        "html": "<p><span class=\"math inline\">\\(\\exists M \\in \\Rr \\quad \\forall x \\in \\Rr\n\\qquad f(x) \\leq M\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "b35a334c-c4e2-450e-86a5-99d43fe75d14",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est born\\'ee;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est bornée;</p>\n"
+      }
+    },
+    {
+      "id": "8341030b-caef-485d-bf9a-7211c3d7fffc",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\exists M \\in \\Rr\\quad \\exists m \\in \\Rr \\quad \\forall x \\in \\Rr \\qquad m \\leq f(x) \\leq M$;",
+        "html": "<p><span class=\"math inline\">\\(\\exists M \\in \\Rr\\quad \\exists m \\in \\Rr\n\\quad \\forall x \\in \\Rr \\qquad m \\leq f(x) \\leq M\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "5aec5355-8fa4-44b0-9532-b30b0fc2f7c1",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est paire;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est paire;</p>\n"
+      }
+    },
+    {
+      "id": "d60b1fda-f681-46f8-9a30-e54ce654b37c",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall x \\in \\Rr \\qquad f(x) = f(-x)$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall x \\in \\Rr \\qquad f(x) =\nf(-x)\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "73bebae4-2622-4027-9279-2e5335d4507f",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est impaire;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est impaire;</p>\n"
+      }
+    },
+    {
+      "id": "e52788a9-f41a-4434-904d-6fbffcda2e35",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall x \\in \\Rr \\qquad f(-x) = -f(x)$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall x \\in \\Rr \\qquad f(-x) =\n-f(x)\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "483ab10c-1bf2-46f8-8949-20616381797b",
+      "type": "question",
+      "value": {
+        "latex": "$f$ ne s'annule jamais;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> ne s’annule jamais;</p>\n"
+      }
+    },
+    {
+      "id": "b53a4633-32aa-4a40-b68c-2c1a1421f044",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall x \\in \\Rr \\qquad f(x) \\not= 0$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall x \\in \\Rr \\qquad f(x) \\not=\n0\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "e3814c11-ae09-4fb5-88b6-b15113ac3b67",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est p\\'eriodique;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est périodique;</p>\n"
+      }
+    },
+    {
+      "id": "239d4385-8f20-4fde-83bb-fd7d7e210281",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\exists a \\in \\Rr^* \\quad \\forall x \\in \\Rr \\qquad f(x+a) = f(x)$;",
+        "html": "<p><span class=\"math inline\">\\(\\exists a \\in \\Rr^* \\quad \\forall x \\in\n\\Rr \\qquad f(x+a) = f(x)\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "d8d7d569-c63e-43da-94de-6479efb0189f",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est croissante;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est croissante;</p>\n"
+      }
+    },
+    {
+      "id": "eb023ac2-b640-4b22-bddb-07a41b1645fe",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall (x,y) \\in \\Rr^2 \\qquad (x\\leq y \\Rightarrow f(x) \\leq f(y))$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall (x,y) \\in \\Rr^2 \\qquad (x\\leq y\n\\Rightarrow f(x) \\leq f(y))\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "9ef08107-7c2d-4f65-b695-f025539a133d",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est strictement d\\'ecroissante;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est strictement\ndécroissante;</p>\n"
+      }
+    },
+    {
+      "id": "5f211ccb-e458-407b-a5d3-31a6c7fdc2b0",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall (x,y) \\in \\Rr^2 \\qquad (x < y \\Rightarrow f(x) > f(y))$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall (x,y) \\in \\Rr^2 \\qquad (x &lt; y\n\\Rightarrow f(x) &gt; f(y))\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "68603615-458a-47db-a9be-d3f6ba79339a",
+      "type": "question",
+      "value": {
+        "latex": "$f$ n'est pas la fonction nulle;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> n’est pas la fonction\nnulle;</p>\n"
+      }
+    },
+    {
+      "id": "0d181610-5511-4fc5-b81c-f9ebec705d09",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\exists x \\in \\Rr \\qquad  f(x) \\not= 0$;",
+        "html": "<p><span class=\"math inline\">\\(\\exists x \\in \\Rr \\qquad  f(x) \\not=\n0\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "d7132257-673c-4adc-ab34-94536684b3db",
+      "type": "question",
+      "value": {
+        "latex": "$f$ n'a jamais les m\\^{e}mes valeurs en deux points distincts;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> n’a jamais les mêmes valeurs\nen deux points distincts;</p>\n"
+      }
+    },
+    {
+      "id": "a0f93587-6df2-4b35-bda1-a482745a9e19",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall (x,y) \\in \\Rr^2 \\qquad (x\\not= y \\Rightarrow f(x) \\not= f(y))$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall (x,y) \\in \\Rr^2 \\qquad (x\\not= y\n\\Rightarrow f(x) \\not= f(y))\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "3957faaa-4dc1-418c-b8f1-2bae0fc741ed",
+      "type": "question",
+      "value": {
+        "latex": "$f$ atteint toutes les valeurs de $\\Nn$;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> atteint toutes les valeurs de\n<span class=\"math inline\">\\(\\Nn\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "f431cc35-4d36-4706-8948-af13eca62eea",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall n\\in \\Nn \\quad \\exists x \\in \\Rr \\qquad f(x)=n$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall n\\in \\Nn \\quad \\exists x \\in \\Rr\n\\qquad f(x)=n\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "096ce6f0-ad91-4a71-9a86-191e11c26de3",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est inf\\'erieure \\`a $g$;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est inférieure à <span\nclass=\"math inline\">\\(g\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "5230fddd-e064-424f-9525-8feea3c5cd2b",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\forall x \\in \\Rr \\qquad f(x) \\leq g(x)$;",
+        "html": "<p><span class=\"math inline\">\\(\\forall x \\in \\Rr \\qquad f(x) \\leq\ng(x)\\)</span>;</p>\n"
+      }
+    },
+    {
+      "id": "e7f9152f-09dd-4a00-8953-2b1d6ec48dfc",
+      "type": "question",
+      "value": {
+        "latex": "$f$ n'est pas inf\\'erieure \\`a $g$.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> n’est pas inférieure à <span\nclass=\"math inline\">\\(g\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5a25266f-e7b5-4871-9f9e-901be0ca5a47",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\exists x \\in \\Rr \\qquad f(x) > g(x)$.",
+        "html": "<p><span class=\"math inline\">\\(\\exists x \\in \\Rr \\qquad f(x) &gt;\ng(x)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(f,g\\)</span> deux fonctions de\n<span class=\"math inline\">\\(\\Rr\\)</span> dans <span\nclass=\"math inline\">\\(\\Rr\\)</ ..."
+}

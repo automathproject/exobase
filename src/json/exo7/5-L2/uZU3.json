@@ -1,0 +1,37 @@
+{
+  "uuid": "uZU3",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4103",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Equation différentielle",
+    "sousChapitre": "Equations différentielles linéaires",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:13.572Z"
+  },
+  "contenu": [
+    {
+      "id": "2bdde18d-0002-476b-bdd0-3109c511ce3b",
+      "type": "description",
+      "value": {
+        "latex": "On pose $f(x) =  \\int_{t=0}^{+\\infty} e^{-t}e^{itx} \\frac {d t}{\\sqrt t}$.\nFormer une équation différentielle satisfaite par $f$. En déduire $f$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(x) =  \\int_{t=0}^{+\\infty}\ne^{-t}e^{itx} \\frac {d t}{\\sqrt t}\\)</span>. Former une équation\ndifférentielle satisfaite par <span class=\"math inline\">\\(f\\)</span>. En\ndéduire <span class=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a6b4a19a-de84-4442-bd4e-4d82b3987b76",
+      "type": "reponse",
+      "value": {
+        "latex": "$f'(x) = \\frac {x+i}{2(x^2+1)} f(x)\n  \\Rightarrow  f(x) = \\sqrt\\pi (x^2+1)^{-1/4}\\exp\\left(\\frac i2\\arctan x\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(f&#39;(x) = \\frac {x+i}{2(x^2+1)} f(x)\n  \\Rightarrow  f(x) = \\sqrt\\pi (x^2+1)^{-1/4}\\exp\\left(\\frac i2\\arctan\nx\\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On pose <span class=\"math inline\">\\(f(x) =  \\int_{t=0}^{+\\infty}\ne^{-t}e^{itx} \\frac {d t}{\\sqrt t}\\)</span>. Former une équation\ndifférentielle sa ..."
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "gsAD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3537",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+    "sousChapitre": "Polynôme caractéristique, théorème de Cayley-Hamilton",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:25.076Z"
+  },
+  "contenu": [
+    {
+      "id": "2ea02ea3-0139-4a42-a282-f9e3d08c96cf",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A \\in \\mathcal{M}_n(\\C)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A \\in\n\\mathcal{M}_n(\\C)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e268e531-f609-435e-8266-e24c83d6a234",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\lambda \\in \\C$ une valeur propre non nulle de $A\\overline A$, et $X$ un\n    vecteur propre associé. Montrer que $A\\overline X$ est aussi vecteur propre de\n    $A\\overline A$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\lambda \\in \\C\\)</span> une valeur\npropre non nulle de <span class=\"math inline\">\\(A\\overline A\\)</span>,\net <span class=\"math inline\">\\(X\\)</span> un vecteur propre associé.\nMontrer que <span class=\"math inline\">\\(A\\overline X\\)</span> est aussi\nvecteur propre de <span class=\"math inline\">\\(A\\overline A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "97d58dae-4159-41ef-af61-9205eb8996c8",
+      "type": "question",
+      "value": {
+        "latex": "Lorsque $\\lambda \\notin \\R^+$, montrer que $X$ et $A\\overline X$ sont\n    linéairement indépendants.",
+        "html": "<p>Lorsque <span class=\"math inline\">\\(\\lambda \\notin \\R^+\\)</span>,\nmontrer que <span class=\"math inline\">\\(X\\)</span> et <span\nclass=\"math inline\">\\(A\\overline X\\)</span> sont linéairement\nindépendants.</p>\n"
+      }
+    },
+    {
+      "id": "1bdcdbdf-3023-4e3d-b047-ab11b6c75b1c",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que $\\det(I + A\\overline A ) \\in \\R^+$.",
+        "html": "<p>En déduire que <span class=\"math inline\">\\(\\det(I + A\\overline A )\n\\in \\R^+\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A \\in\n\\mathcal{M}_n(\\C)\\)</span>.</p>\n"
+}

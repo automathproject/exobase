@@ -1,0 +1,109 @@
+{
+  "uuid": "aRuq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6906",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:35.798Z"
+  },
+  "contenu": [
+    {
+      "id": "78d69e36-7e99-4992-9f6b-54efd76cdaf8",
+      "type": "description",
+      "value": {
+        "latex": "On lance $10$ fois une pièce supposée bien équilibrée. \n On désigne par $X$ la fréquence du nombre de fois où pile a \n été obtenu (c'est-à-dire le nombre de pile divisé\npar 10).",
+        "html": "<p>On lance <span class=\"math inline\">\\(10\\)</span> fois une pièce\nsupposée bien équilibrée. On désigne par <span\nclass=\"math inline\">\\(X\\)</span> la fréquence du nombre de fois où pile\na été obtenu (c’est-à-dire le nombre de pile divisé par 10).</p>\n"
+      }
+    },
+    {
+      "id": "49829cd9-f865-4bff-a57b-a9c39aaab0b8",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est  la loi de $X$ ?",
+        "html": "<p>Quelle est la loi de <span class=\"math inline\">\\(X\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "d20f7ce6-c580-4f09-84d6-69919a407f84",
+      "type": "reponse",
+      "value": {
+        "latex": "$Y\\sim B(10,1/2)$, $X=Y/10$.",
+        "html": "<p><span class=\"math inline\">\\(Y\\sim B(10,1/2)\\)</span>, <span\nclass=\"math inline\">\\(X=Y/10\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d3f9632c-a96d-4c5b-9d9a-4c55e0928c4f",
+      "type": "question",
+      "value": {
+        "latex": "Avec quelle probabilité $X$  est-elle strictement au dessus de 0,5 ?",
+        "html": "<p>Avec quelle probabilité <span class=\"math inline\">\\(X\\)</span>\nest-elle strictement au dessus de 0,5 ?</p>\n"
+      }
+    },
+    {
+      "id": "7de11f5d-c3a4-48ef-aebc-f4cb9b565061",
+      "type": "reponse",
+      "value": {
+        "latex": "$P(X>0,5)=P(Y>5)=P(Y=6,7,8,9,10)\\simeq 0,377$.",
+        "html": "<p><span\nclass=\"math inline\">\\(P(X&gt;0,5)=P(Y&gt;5)=P(Y=6,7,8,9,10)\\simeq\n0,377\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7770c3d8-c5b5-48d2-91de-23516e143a0c",
+      "type": "question",
+      "value": {
+        "latex": "Avec quelle probabilité $X$ est-elle comprise entre 0,4 et 0,6 (bornes\nincluses) ?",
+        "html": "<p>Avec quelle probabilité <span class=\"math inline\">\\(X\\)</span>\nest-elle comprise entre 0,4 et 0,6 (bornes incluses) ?</p>\n"
+      }
+    },
+    {
+      "id": "0771ce74-acfe-450c-b1f6-dbaee03a3e48",
+      "type": "reponse",
+      "value": {
+        "latex": "$P(0,4\\le X\\le 0,6)=P(4\\le Y\\le 6)=P(Y=4,5,6)\\simeq 0,656$",
+        "html": "<p><span class=\"math inline\">\\(P(0,4\\le X\\le 0,6)=P(4\\le Y\\le\n6)=P(Y=4,5,6)\\simeq 0,656\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0259c3a0-432a-49f8-9224-1e1ac24207c3",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le plus petit entier $a>0$ telle que la probabilité que $X$ \nsoit dans l'intervalle $[0,5-\\frac{a}{10},0,5+\\frac{a}{10}]$ soit supérieure à $95\\%$.",
+        "html": "<p>Déterminer le plus petit entier <span\nclass=\"math inline\">\\(a&gt;0\\)</span> telle que la probabilité que <span\nclass=\"math inline\">\\(X\\)</span> soit dans l’intervalle <span\nclass=\"math inline\">\\([0,5-\\frac{a}{10},0,5+\\frac{a}{10}]\\)</span> soit\nsupérieure à <span class=\"math inline\">\\(95\\%\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ce6cfa24-538d-442b-b333-b8281dda30d4",
+      "type": "reponse",
+      "value": {
+        "latex": "$P(3\\le Y\\le 7)\\simeq 0,891$. $P(2\\le Y\\le 8)\\simeq 0,978$. Donc $a=3$.",
+        "html": "<p><span class=\"math inline\">\\(P(3\\le Y\\le 7)\\simeq 0,891\\)</span>.\n<span class=\"math inline\">\\(P(2\\le Y\\le 8)\\simeq 0,978\\)</span>. Donc\n<span class=\"math inline\">\\(a=3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "16c9f0f9-abd4-4610-9f24-00e909b97492",
+      "type": "question",
+      "value": {
+        "latex": "On lance la pièce $10$ fois. Elle tombe $3$ fois sur pile et\n$7$ fois sur face. D'après vous la pièce est-elle bien\néquilibrée (on justifiera sa réponse  en utilisant la question\n3~? Même question si on obtient 1 fois pile et 9 fois face.",
+        "html": "<p>On lance la pièce <span class=\"math inline\">\\(10\\)</span> fois. Elle\ntombe <span class=\"math inline\">\\(3\\)</span> fois sur pile et <span\nclass=\"math inline\">\\(7\\)</span> fois sur face. D’après vous la pièce\nest-elle bien équilibrée (on justifiera sa réponse en utilisant la\nquestion 3 ? Même question si on obtient 1 fois pile et 9 fois face.</p>\n"
+      }
+    },
+    {
+      "id": "d83a2bf1-0adc-4ea1-8f04-3e56d10bf51a",
+      "type": "reponse",
+      "value": {
+        "latex": "Oui. Non.",
+        "html": "<p>Oui. Non.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On lance <span class=\"math inline\">\\(10\\)</span> fois une pièce\nsupposée bien équilibrée. On désigne par <span\nclass=\"math inline\">\\(X\\)</span> la  ..."
+}

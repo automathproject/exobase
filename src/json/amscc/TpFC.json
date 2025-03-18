@@ -1,0 +1,55 @@
+{
+  "uuid": "TpFC",
+  "titre": "Loi géométrique",
+  "theme": [
+    "probabilités"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-02-07",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:58.848Z"
+  },
+  "contenu": [
+    {
+      "id": "63e90b94-bdf1-4d2b-999b-365759392f25",
+      "type": "description",
+      "value": {
+        "latex": "On note $p \\in ]0;1[$ et $X$ une variable aléatoire suivant une loi géométrique $\\mathcal{G}(p)$.",
+        "html": "<p>On note <span class=\"math inline\">\\(p \\in ]0;1[\\)</span> et <span\nclass=\"math inline\">\\(X\\)</span> une variable aléatoire suivant une loi\ngéométrique <span class=\"math inline\">\\(\\mathcal{G}(p)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cd9e7c51-69db-45cb-93bc-b1e84341c8a0",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la fonction de répartition de $X$.",
+        "html": "<p>Déterminer la fonction de répartition de <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "08dacb28-d59d-414a-82ca-2985c0dd37df",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\PP(X \\leq n) = 1-q^n$, $\\PP(X > n)= q^{n}$",
+        "html": "<p><span class=\"math inline\">\\(\\PP(X \\leq n) = 1-q^n\\)</span>, <span\nclass=\"math inline\">\\(\\PP(X &gt; n)= q^{n}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "3a0aa9c0-7f5f-42d9-90a8-9aa892950660",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que la loi géométrique est une loi sans mémoire.",
+        "html": "<p>Vérifier que la loi géométrique est une loi sans mémoire.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On note <span class=\"math inline\">\\(p \\in ]0;1[\\)</span> et <span\nclass=\"math inline\">\\(X\\)</span> une variable aléatoire suivant une loi\ngéométriq ..."
+}

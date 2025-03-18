@@ -1,0 +1,61 @@
+{
+  "uuid": "ZvXQ",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3782",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Endomorphismes auto-adjoints",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:06.962Z"
+  },
+  "contenu": [
+    {
+      "id": "7e54434b-1da0-42c9-aa24-b11989f2ef6b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $u \\in \\mathcal{L}(E)$ auto-adjoint tel que $\\mathrm{tr}(u) = 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(u \\in \\mathcal{L}(E)\\)</span>\nauto-adjoint tel que <span class=\"math inline\">\\(\\mathrm{tr}(u) =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0665501a-e8ac-4789-b4af-2e037058aebe",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'il existe un vecteur $\\vec x$ non nul tel que\n    $u(\\vec x) \\perp \\vec x$.",
+        "html": "<p>Montrer qu’il existe un vecteur <span class=\"math inline\">\\(\\vec\nx\\)</span> non nul tel que <span class=\"math inline\">\\(u(\\vec x) \\perp\n\\vec x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2b0f0c55-4e02-4b92-b4d3-d556e1ab6e31",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $(\\vec u_1,\\dots,\\vec u_n)$ une base propre pour $u$.\n             On prend $\\vec x = \\vec u_1 + \\dots + \\vec u_n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((\\vec u_1,\\dots,\\vec u_n)\\)</span>\nune base propre pour <span class=\"math inline\">\\(u\\)</span>. On prend\n<span class=\"math inline\">\\(\\vec x = \\vec u_1 + \\dots + \\vec\nu_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f3692807-c768-4a10-9eb3-dfbb157eae4e",
+      "type": "question",
+      "value": {
+        "latex": "En déduire qu'il existe une base orthonormée $(\\vec e_i)$ telle que :\n    $\\forall\\ i,\\ (u(\\vec e_i) \\mid \\vec e_i) = 0$.",
+        "html": "<p>En déduire qu’il existe une base orthonormée <span\nclass=\"math inline\">\\((\\vec e_i)\\)</span> telle que : <span\nclass=\"math inline\">\\(\\forall\\ i,\\ (u(\\vec e_i) \\mid \\vec e_i) =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9fd26404-b0cc-4c65-9432-894f7695939c",
+      "type": "reponse",
+      "value": {
+        "latex": "On norme $\\vec x$ et on le complète en une base orthonormée.\n             La matrice de $u$ dans cette base est symétrique, de trace nulle,\n             et la diagonale commence par 0. On termine par récurrence.",
+        "html": "<p>On norme <span class=\"math inline\">\\(\\vec x\\)</span> et on le\ncomplète en une base orthonormée. La matrice de <span\nclass=\"math inline\">\\(u\\)</span> dans cette base est symétrique, de\ntrace nulle, et la diagonale commence par 0. On termine par\nrécurrence.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(u \\in \\mathcal{L}(E)\\)</span>\nauto-adjoint tel que <span class=\"math inline\">\\(\\mathrm{tr}(u) =\n0\\)</span>.</p>\n"
+}

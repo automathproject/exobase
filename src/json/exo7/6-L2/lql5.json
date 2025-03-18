@@ -1,0 +1,37 @@
+{
+  "uuid": "lql5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4879",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine dans le plan et dans l'espace",
+    "sousChapitre": "Applications affines",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:13:58.112Z"
+  },
+  "contenu": [
+    {
+      "id": "89fc4f1d-0443-4f9a-8bd1-af35cd1a7285",
+      "type": "description",
+      "value": {
+        "latex": "Dans un espace affine ${\\cal E}$ on donne quatre points $P,Q,P',Q'$ avec\n$P \\ne Q$.\nExiste-t-il une homothétie-translation $f$ telle que $f(P) = P'$ et\n$f(Q) = Q'$ ?",
+        "html": "<p>Dans un espace affine <span class=\"math inline\">\\({\\cal E}\\)</span>\non donne quatre points <span\nclass=\"math inline\">\\(P,Q,P&#39;,Q&#39;\\)</span> avec <span\nclass=\"math inline\">\\(P \\ne Q\\)</span>. Existe-t-il une\nhomothétie-translation <span class=\"math inline\">\\(f\\)</span> telle que\n<span class=\"math inline\">\\(f(P) = P&#39;\\)</span> et <span\nclass=\"math inline\">\\(f(Q) = Q&#39;\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "d8875079-b76c-40a3-944f-bc815c0effe3",
+      "type": "reponse",
+      "value": {
+        "latex": "oui ssi $\\vec{P'Q'}$ est colinéaire à $\\vec{PQ}$. Dans ce cas, $f$ est unique.",
+        "html": "<p>oui ssi <span class=\"math inline\">\\(\\vec{P&#39;Q&#39;}\\)</span> est\ncolinéaire à <span class=\"math inline\">\\(\\vec{PQ}\\)</span>. Dans ce cas,\n<span class=\"math inline\">\\(f\\)</span> est unique.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans un espace affine <span class=\"math inline\">\\({\\cal E}\\)</span>\non donne quatre points <span\nclass=\"math inline\">\\(P,Q,P&#39;,Q&#39;\\)</span> a ..."
+}

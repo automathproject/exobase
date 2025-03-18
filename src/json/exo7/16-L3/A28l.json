@@ -1,0 +1,93 @@
+{
+  "uuid": "A28l",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7607",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:21.777Z"
+  },
+  "contenu": [
+    {
+      "id": "e6c74804-2ba2-45d4-af44-80561921469a",
+      "type": "description",
+      "value": {
+        "latex": "On paramètre le cercle $C_r$ privé du point ${-r}$ de centre $0$ et de rayon $r>0$ orienté dans le sens trigonométrique \r\ndu plan complexe en définissant pour $t\\in\\Rr$, $\\xi(t)$ \r\ncomme le point d'intersection de la droite d'équation $y=t(x+r)$ avec le cercle $C_r$ différent de $-r$.",
+        "html": "<p>On paramètre le cercle <span class=\"math inline\">\\(C_r\\)</span> privé\ndu point <span class=\"math inline\">\\({-r}\\)</span> de centre <span\nclass=\"math inline\">\\(0\\)</span> et de rayon <span\nclass=\"math inline\">\\(r&gt;0\\)</span> orienté dans le sens\ntrigonométrique du plan complexe en définissant pour <span\nclass=\"math inline\">\\(t\\in\\Rr\\)</span>, <span\nclass=\"math inline\">\\(\\xi(t)\\)</span> comme le point d’intersection de\nla droite d’équation <span class=\"math inline\">\\(y=t(x+r)\\)</span> avec\nle cercle <span class=\"math inline\">\\(C_r\\)</span> différent de <span\nclass=\"math inline\">\\(-r\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "855b8352-a395-4047-a0d8-c7e2fdb8533d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\xi(t)=r\\frac{1+it}{1-it}$.",
+        "html": "<p>Montrer que <span\nclass=\"math inline\">\\(\\xi(t)=r\\frac{1+it}{1-it}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f52f010c-8b0a-4f94-8434-8763692c0c68",
+      "type": "reponse",
+      "value": {
+        "latex": "Le point d'affixe $r\\frac{1+it}{1-it}$ est de module $r$ et ses coordonnées $x=re(\\xi(t))=r\\frac{1-t^2}{1+t^2}$ et $y=Im(\\xi(t))=r\\frac{2t}{1+t^2}$ vérifient l'équation $y=t(x+r)$.\r\nIl est donc à l'intersection de la droite d'équation $y=t(x+r)$ avec le cercle $C_r$. Comme l'équation $r\\frac{1+it}{1-it}=-r$ est équivalente à $1=-1$, l'affixe $r\\frac{1+it}{1-it}$\r\nn'est pour aucune valeur de $t$ égale à $-r$.",
+        "html": "<p>Le point d’affixe <span\nclass=\"math inline\">\\(r\\frac{1+it}{1-it}\\)</span> est de module <span\nclass=\"math inline\">\\(r\\)</span> et ses coordonnées <span\nclass=\"math inline\">\\(x=re(\\xi(t))=r\\frac{1-t^2}{1+t^2}\\)</span> et\n<span class=\"math inline\">\\(y=Im(\\xi(t))=r\\frac{2t}{1+t^2}\\)</span>\nvérifient l’équation <span class=\"math inline\">\\(y=t(x+r)\\)</span>. Il\nest donc à l’intersection de la droite d’équation <span\nclass=\"math inline\">\\(y=t(x+r)\\)</span> avec le cercle <span\nclass=\"math inline\">\\(C_r\\)</span>. Comme l’équation <span\nclass=\"math inline\">\\(r\\frac{1+it}{1-it}=-r\\)</span> est équivalente à\n<span class=\"math inline\">\\(1=-1\\)</span>, l’affixe <span\nclass=\"math inline\">\\(r\\frac{1+it}{1-it}\\)</span> n’est pour aucune\nvaleur de <span class=\"math inline\">\\(t\\)</span> égale à <span\nclass=\"math inline\">\\(-r\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b29db335-9d1a-47e0-bbe1-1290afca078e",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que $\\xi$ est dérivable sur $\\Rr$ et calculer $\\frac{\\xi'(t)}{\\xi(t)}$.",
+        "html": "<p>Vérifier que <span class=\"math inline\">\\(\\xi\\)</span> est dérivable\nsur <span class=\"math inline\">\\(\\Rr\\)</span> et calculer <span\nclass=\"math inline\">\\(\\frac{\\xi&#39;(t)}{\\xi(t)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "db6905b2-a4e6-42e1-9f44-111d4a06e084",
+      "type": "reponse",
+      "value": {
+        "latex": "Comme $t$ est réel, $t\\mapsto r\\frac{1+it}{1-it}$ est quotient de deux polynômes dont le dénominateur ne s'annule jamais. Elle est donc dérivable et \r\n$$\\frac{\\xi'(t)}{\\xi(t)}=\\frac{i}{1+it}-\\frac{-i}{1-it}=\\frac{2i}{1+t^2}.$$",
+        "html": "<p>Comme <span class=\"math inline\">\\(t\\)</span> est réel, <span\nclass=\"math inline\">\\(t\\mapsto r\\frac{1+it}{1-it}\\)</span> est quotient\nde deux polynômes dont le dénominateur ne s’annule jamais. Elle est donc\ndérivable et <span\nclass=\"math display\">\\[\\frac{\\xi&#39;(t)}{\\xi(t)}=\\frac{i}{1+it}-\\frac{-i}{1-it}=\\frac{2i}{1+t^2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1711f1e5-a6e7-4582-aa36-782a05400233",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que \r\n$$\\int_{C_r} \\frac{dz}{z}=2i\\int_{-\\infty}^{+\\infty}\\frac{dt}{1+t^2}.$$",
+        "html": "<p>En déduire que <span class=\"math display\">\\[\\int_{C_r}\n\\frac{dz}{z}=2i\\int_{-\\infty}^{+\\infty}\\frac{dt}{1+t^2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "46cbcbd7-3a06-43a1-bc18-872a70bad470",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\int_{C_r} \\frac{dz}{z}=\\int_{C_r-\\{-r\\}} \\frac{dz}{z}=\\int_{-\\infty}^{+\\infty}\\frac{\\xi'(t)}{\\xi(t)}dt=\\int_{-\\infty}^{+\\infty}\\frac{2i}{1+t^2}.$$",
+        "html": "<p><span class=\"math display\">\\[\\int_{C_r}\n\\frac{dz}{z}=\\int_{C_r-\\{-r\\}}\n\\frac{dz}{z}=\\int_{-\\infty}^{+\\infty}\\frac{\\xi&#39;(t)}{\\xi(t)}dt=\\int_{-\\infty}^{+\\infty}\\frac{2i}{1+t^2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "052e45f0-fee1-40b2-a3d5-d0382817d216",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la valeur de $\\int_{-\\infty}^{+\\infty}\\frac{dt}{1+t^2}$.",
+        "html": "<p>En déduire la valeur de <span\nclass=\"math inline\">\\(\\int_{-\\infty}^{+\\infty}\\frac{dt}{1+t^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b71f3bb9-18a4-47a2-ad87-48b7afce40b1",
+      "type": "reponse",
+      "value": {
+        "latex": "Par ailleurs, $\\int_{C_r} \\frac{dz}{z}=2i\\pi Res_0(\\frac{1}{z})=2i\\pi.$\r\nDonc, $\\int_{-\\infty}^{+\\infty}\\frac{dt}{1+t^2}=\\pi$.",
+        "html": "<p>Par ailleurs, <span class=\"math inline\">\\(\\int_{C_r}\n\\frac{dz}{z}=2i\\pi Res_0(\\frac{1}{z})=2i\\pi.\\)</span> Donc, <span\nclass=\"math inline\">\\(\\int_{-\\infty}^{+\\infty}\\frac{dt}{1+t^2}=\\pi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On paramètre le cercle <span class=\"math inline\">\\(C_r\\)</span> privé\ndu point <span class=\"math inline\">\\({-r}\\)</span> de centre <span\nclass=\"mat ..."
+}

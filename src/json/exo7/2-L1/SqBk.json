@@ -1,0 +1,253 @@
+{
+  "uuid": "SqBk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "832",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Primitives diverses",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:52.522Z"
+  },
+  "contenu": [
+    {
+      "id": "da432f63-0302-4672-bff3-9509a6203e2b",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les primitives suivantes.",
+        "html": "<p>Calculer les primitives suivantes.</p>\n"
+      }
+    },
+    {
+      "id": "1d6ec65d-44f9-4399-ab37-baf798ed296b",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int e^{\\sin^2x} \\sin2x\\,dx$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int e^{\\sin^2x}\n\\sin2x\\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "18f442c5-e631-4b56-932b-e3e10ed1c510",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $u= \\sin^2x$ (ou d'abord $u=\\sin x$)~;\n$e^{\\sin^2x}+C$.",
+        "html": "<p>Changement de variable <span class=\"math inline\">\\(u=\n\\sin^2x\\)</span> (ou d’abord <span class=\"math inline\">\\(u=\\sin\nx\\)</span>) ; <span class=\"math inline\">\\(e^{\\sin^2x}+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e2d42d0f-137c-4749-a626-ac0f4fbe3747",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int\\cos^5t\\,dt$ ; $\\displaystyle\\int\\cosh^3t\\,dt$; \n$\\displaystyle\\int\\cos^4t\\,dt$ ; $\\displaystyle\\int\\sinh^4t\\,dt$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int\\cos^5t\\,dt\\)</span> ;\n<span class=\"math inline\">\\(\\displaystyle\\int\\cosh^3t\\,dt\\)</span>;\n<span class=\"math inline\">\\(\\displaystyle\\int\\cos^4t\\,dt\\)</span> ;\n<span class=\"math inline\">\\(\\displaystyle\\int\\sinh^4t\\,dt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d50f9bdc-1291-4f91-a3b4-a6c1f4667695",
+      "type": "reponse",
+      "value": {
+        "latex": "Deux méthodes~: changement de variable $u=\\sin t$ (ou $u=\\sinh t$),\nou linéarisation.\\newline\n$ {1\\over15}(15\\sin t -10\\sin^3 t+3\\sin^5 t)+C$ ou\n$ {1\\over80}\\sin5t+{5\\over48}\\sin3t+{5\\over8}\\sin t +C$~;\\newline\n$ \\sinh t + {1\\over3}\\sinh^3 t +C$ ou ${1\\over12}\\sinh3t +{3\\over4}\\sinh t+C$~;\\newline\n${1\\over32}(\\sin4t+8\\sin2t+12t) +C$~;\n${1 \\over32}(\\sinh4t-8\\sinh2t+12t)+C$.",
+        "html": "<p>Deux méthodes : changement de variable <span\nclass=\"math inline\">\\(u=\\sin t\\)</span> (ou <span\nclass=\"math inline\">\\(u=\\sinh t\\)</span>), ou linéarisation. <span\nclass=\"math inline\">\\({1\\over15}(15\\sin t -10\\sin^3 t+3\\sin^5\nt)+C\\)</span> ou <span\nclass=\"math inline\">\\({1\\over80}\\sin5t+{5\\over48}\\sin3t+{5\\over8}\\sin t\n+C\\)</span> ; <span class=\"math inline\">\\(\\sinh t + {1\\over3}\\sinh^3 t\n+C\\)</span> ou <span class=\"math inline\">\\({1\\over12}\\sinh3t\n+{3\\over4}\\sinh t+C\\)</span> ; <span\nclass=\"math inline\">\\({1\\over32}(\\sin4t+8\\sin2t+12t) +C\\)</span> ; <span\nclass=\"math inline\">\\({1 \\over32}(\\sinh4t-8\\sinh2t+12t)+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a89cc909-10f2-4894-a439-d77e9d3a3aa1",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int x^3 e^x\\,dx$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int x^3\ne^x\\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "69650f94-cb0c-4c3e-8319-0bbc24df1dd9",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrations par parties~: $(x^3-3x^2+6x-6)e^x+C$.",
+        "html": "<p>Intégrations par parties : <span\nclass=\"math inline\">\\((x^3-3x^2+6x-6)e^x+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f4e0ff14-8918-4382-a3fd-45d68d7e0898",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int\\ln x \\,dx$ ; $\\displaystyle\\int x\\ln x\\,dx$; \n$\\displaystyle\\int\\arcsin x \\,dx$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int\\ln x \\,dx\\)</span> ;\n<span class=\"math inline\">\\(\\displaystyle\\int x\\ln x\\,dx\\)</span>; <span\nclass=\"math inline\">\\(\\displaystyle\\int\\arcsin x \\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2b792c52-97b4-4f47-b1e9-40452b877217",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégration par parties~: $x\\ln x-x+C$~;\n${x^2\\over2}\\ln x -{x^2\\over4}+C$~; $x\\arcsin x+\\sqrt{1-x^2}+C$.",
+        "html": "<p>Intégration par parties : <span class=\"math inline\">\\(x\\ln\nx-x+C\\)</span> ; <span class=\"math inline\">\\({x^2\\over2}\\ln x\n-{x^2\\over4}+C\\)</span> ; <span class=\"math inline\">\\(x\\arcsin\nx+\\sqrt{1-x^2}+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b4ec7075-7c80-4666-8b56-3bb66ea52d42",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int\\cosh t \\sin t \\, dt$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int\\cosh t \\sin t \\,\ndt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a3b99943-785b-472b-b583-46eca680650f",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrations par parties~: ${1\\over2}(\\sinh t\\sin t -\\cosh t\\cos t)+C$.",
+        "html": "<p>Intégrations par parties : <span\nclass=\"math inline\">\\({1\\over2}(\\sinh t\\sin t -\\cosh t\\cos\nt)+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2836ebdd-962e-4c43-89ea-6d8573d43b1c",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int{dx \\over\\sin x}$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int{dx \\over\\sin\nx}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c8a2e7aa-4445-4143-93e6-1d5837ebda67",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $t=\\tan{x\\over2}$~;\n$\\ln\\bigl\\vert\\tan{x\\over2}\\bigr\\vert+C$ sur chaque intervalle\\dots",
+        "html": "<p>Changement de variable <span\nclass=\"math inline\">\\(t=\\tan{x\\over2}\\)</span> ; <span\nclass=\"math inline\">\\(\\ln\\bigl\\vert\\tan{x\\over2}\\bigr\\vert+C\\)</span>\nsur chaque intervalle…</p>\n"
+      }
+    },
+    {
+      "id": "37196607-804b-4291-ad33-ca639dce1f10",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int\\sqrt{a^2-x^2}\\,dx$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\displaystyle\\int\\sqrt{a^2-x^2}\\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2a0ff46a-f474-411c-83b6-9b8ec18e13ce",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $x=a\\sin u$~;\n${a^2\\over2}\\arcsin{x\\over a} + {x\\over2}\\sqrt{a^2-x^2} + C$.",
+        "html": "<p>Changement de variable <span class=\"math inline\">\\(x=a\\sin\nu\\)</span> ; <span class=\"math inline\">\\({a^2\\over2}\\arcsin{x\\over a} +\n{x\\over2}\\sqrt{a^2-x^2} + C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "64bb545e-0888-4777-b22e-d6cb8f0896a9",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int{e^{2x}\\over\\sqrt{e^x+1}}\\,dx$.",
+        "html": "<p><span\nclass=\"math inline\">\\(\\displaystyle\\int{e^{2x}\\over\\sqrt{e^x+1}}\\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "13d88e8e-fba5-42e8-9951-debefff73219",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $u=e^x$~; ${2\\over3}\\sqrt{e^x+1}(e^x-2)+C$.",
+        "html": "<p>Changement de variable <span class=\"math inline\">\\(u=e^x\\)</span> ;\n<span class=\"math inline\">\\({2\\over3}\\sqrt{e^x+1}(e^x-2)+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0d0aa278-903f-42a1-a32b-d40819a5e22d",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int e^{ax}\\cos bx \\,dx$~; \n$\\displaystyle\\int e^{ax}\\sin bx \\,dx$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int e^{ax}\\cos bx\n\\,dx\\)</span> ; <span class=\"math inline\">\\(\\displaystyle\\int e^{ax}\\sin\nbx \\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a8f0f468-12da-4f1d-aabb-3189966dae71",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrations par parties~:\n${1\\over a^2+b^2}e^{ax}(a\\cos bx + b\\sin bx)+C$~;\\newline\n${1\\over a^2+b^2}e^{ax}(-b\\cos bx + a\\sin bx)+C$.",
+        "html": "<p>Intégrations par parties : <span class=\"math inline\">\\({1\\over\na^2+b^2}e^{ax}(a\\cos bx + b\\sin bx)+C\\)</span> ; <span\nclass=\"math inline\">\\({1\\over a^2+b^2}e^{ax}(-b\\cos bx + a\\sin\nbx)+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "afe676bf-4b3e-4ef2-b491-925f6c2cfb9e",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int\\sqrt{x \\over(1-x)^3}\\,dx$\\quad pour\\quad$0<x<1$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int\\sqrt{x\n\\over(1-x)^3}\\,dx\\)</span>pour<span\nclass=\"math inline\">\\(0&lt;x&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0b0d3a05-d3b2-4739-86d4-0a1602ec4468",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $t=\\sqrt{x\\over1-x}$~;\n$2\\sqrt{x\\over1-x}-2\\arctan\\sqrt{x\\over1-x}+C$.",
+        "html": "<p>Changement de variable <span\nclass=\"math inline\">\\(t=\\sqrt{x\\over1-x}\\)</span> ; <span\nclass=\"math inline\">\\(2\\sqrt{x\\over1-x}-2\\arctan\\sqrt{x\\over1-x}+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "59041c2b-8434-4341-b091-58603ce87ba8",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int{x^2 \\over\\sqrt{1-x^2}}\\,dx$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int{x^2\n\\over\\sqrt{1-x^2}}\\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b4244f28-d112-4b51-aeca-ee814570818a",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $t=\\arcsin x$~;\n${1\\over2}(\\arcsin x - x\\sqrt{1-x^2}) + C$.",
+        "html": "<p>Changement de variable <span class=\"math inline\">\\(t=\\arcsin\nx\\)</span> ; <span class=\"math inline\">\\({1\\over2}(\\arcsin x -\nx\\sqrt{1-x^2}) + C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1784fff1-d7f3-42ef-9598-4fb47f25c9f6",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int{dx \\over\\cos x+2\\sin x +3}$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int{dx \\over\\cos x+2\\sin x\n+3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "94305fce-619e-43e4-8517-eabd46ed6b44",
+      "type": "reponse",
+      "value": {
+        "latex": "Changements de variable $u=\\tan{x\\over2}$, $t=1+u$~;\n$\\arctan(\\tan{x\\over2}+1)+C$ sur chaque intervalle\\dots{} Mais, au fait, ne\ncherchait-on pas une primitive {\\it sur} $\\bf R$~?",
+        "html": "<p>Changements de variable <span\nclass=\"math inline\">\\(u=\\tan{x\\over2}\\)</span>, <span\nclass=\"math inline\">\\(t=1+u\\)</span> ; <span\nclass=\"math inline\">\\(\\arctan(\\tan{x\\over2}+1)+C\\)</span> sur chaque\nintervalle… Mais, au fait, ne cherchait-on pas une primitive\n<span><em>sur</em></span> <span class=\"math inline\">\\(\\bf\nR\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "5667ede0-476c-4227-a6aa-a9ab72d2a2b5",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int{\\sqrt x\\,dx \\over\\sqrt{a^3-x^3}}$ \\quad avec \n\\quad $0<x<a$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int{\\sqrt x\\,dx\n\\over\\sqrt{a^3-x^3}}\\)</span> avec <span\nclass=\"math inline\">\\(0&lt;x&lt;a\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "104cdc85-0627-4191-86d2-313698b8523c",
+      "type": "reponse",
+      "value": {
+        "latex": "Changement de variable $x^3=u^2$~;\n${2\\over3}\\arcsin\\sqrt{x^3\\over a^3}+C$.",
+        "html": "<p>Changement de variable <span class=\"math inline\">\\(x^3=u^2\\)</span> ;\n<span class=\"math inline\">\\({2\\over3}\\arcsin\\sqrt{x^3\\over\na^3}+C\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c6adc73c-1c1a-4921-a7f4-57fe6278e081",
+      "type": "question",
+      "value": {
+        "latex": "$\\displaystyle\\int{\\cosh x\\over\\cosh x+\\sinh x}\\,dx$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle\\int{\\cosh x\\over\\cosh\nx+\\sinh x}\\,dx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "fcad6db6-855d-413c-ba95-2cfd7e467e91",
+      "type": "reponse",
+      "value": {
+        "latex": "Multiplier et diviser par $\\cosh x-\\sinh x$, ou passer en $e^x$~;\n${x\\over2} +{\\sinh2x\\over4}-{\\cosh2x\\over4}+C$ ou\n${x\\over2}-{e^{-2x}\\over4}+C$.",
+        "html": "<p>Multiplier et diviser par <span class=\"math inline\">\\(\\cosh x-\\sinh\nx\\)</span>, ou passer en <span class=\"math inline\">\\(e^x\\)</span> ;\n<span class=\"math inline\">\\({x\\over2}\n+{\\sinh2x\\over4}-{\\cosh2x\\over4}+C\\)</span> ou <span\nclass=\"math inline\">\\({x\\over2}-{e^{-2x}\\over4}+C\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les primitives suivantes.</p>\n"
+}

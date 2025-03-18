@@ -1,0 +1,37 @@
+{
+  "uuid": "1pRC",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2826",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:12.151Z"
+  },
+  "contenu": [
+    {
+      "id": "fc046588-c306-4ea8-aebd-d9c57839b7ad",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\phi(z) = \\frac{4z + 3}{4 +\n3z}$. Montrer: $\\forall\\theta\\in\\Rr\\quad  |\\phi(e^{i\\theta})|\n= 1$. En déduire $|z|<1 \\implies |\\phi(z)|<1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\phi(z) = \\frac{4z + 3}{4 +\n3z}\\)</span>. Montrer: <span\nclass=\"math inline\">\\(\\forall\\theta\\in\\Rr\\quad  |\\phi(e^{i\\theta})|\n= 1\\)</span>. En déduire <span class=\"math inline\">\\(|z|&lt;1 \\implies\n|\\phi(z)|&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "79bf48bb-761b-4ebe-a396-5f1b8d4640b6",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $z=e^{i\\theta}$. Alors $|4z+3|=|e^{i\\theta } (4+3e^{-i\\theta })| = |\\overline{4+3e^{i\\theta }}| =|4+3z|$.\nPar le principe du maximum\n$$|\\Phi (z) | < 1=\\sup_\\theta |\\Phi (e^{i\\theta })| \\quad \\text{ pour tout } \\;\\; z \\in D.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(z=e^{i\\theta}\\)</span>. Alors <span\nclass=\"math inline\">\\(|4z+3|=|e^{i\\theta } (4+3e^{-i\\theta })| =\n|\\overline{4+3e^{i\\theta }}| =|4+3z|\\)</span>. Par le principe du\nmaximum <span class=\"math display\">\\[|\\Phi (z) | &lt; 1=\\sup_\\theta\n|\\Phi (e^{i\\theta })| \\quad \\text{ pour tout } \\;\\; z \\in\nD.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\phi(z) = \\frac{4z + 3}{4 +\n3z}\\)</span>. Montrer: <span\nclass=\"math inline\"> ..."
+}

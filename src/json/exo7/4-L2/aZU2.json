@@ -1,0 +1,53 @@
+{
+  "uuid": "aZU2",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3688",
+    "auteur": "quercia",
+    "createdAt": "2010-03-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace euclidien, espace normé",
+    "sousChapitre": "Produit scalaire, norme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:09.141Z"
+  },
+  "contenu": [
+    {
+      "id": "d31550e6-dcdf-4ee2-a816-145801314c73",
+      "type": "description",
+      "value": {
+        "latex": "On munit $\\R_2[X]$ du produit scalaire : $(P\\mid Q) =  \\int_{t=0}^1 PQ(t)\\,d t$.",
+        "html": "<p>On munit <span class=\"math inline\">\\(\\R_2[X]\\)</span> du produit\nscalaire : <span class=\"math inline\">\\((P\\mid Q) =  \\int_{t=0}^1\nPQ(t)\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d7a6d212-e653-4c72-a703-2ef68b4f6078",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que c'est effectivement un produit scalaire.",
+        "html": "<p>Vérifier que c’est effectivement un produit scalaire.</p>\n"
+      }
+    },
+    {
+      "id": "5202757c-65b0-478a-921b-8ceb3f3b87e5",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\varphi : {\\R_2[X]} \\to {\\R}, P \\mapsto {P(0).}$\n    Trouver le polynôme $A$ tel que : $\\forall\\ P \\in \\R_2[X],\\\n    \\varphi(P) = (A\\mid P)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varphi : {\\R_2[X]} \\to {\\R}, P\n\\mapsto {P(0).}\\)</span> Trouver le polynôme <span\nclass=\"math inline\">\\(A\\)</span> tel que : <span\nclass=\"math inline\">\\(\\forall\\ P \\in \\R_2[X],\\\n    \\varphi(P) = (A\\mid P)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "98dfad6a-329f-40c9-a69e-c9f0b906a055",
+      "type": "reponse",
+      "value": {
+        "latex": "$30X^2-36X+9$.",
+        "html": "<p><span class=\"math inline\">\\(30X^2-36X+9\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On munit <span class=\"math inline\">\\(\\R_2[X]\\)</span> du produit\nscalaire : <span class=\"math inline\">\\((P\\mid Q) =  \\int_{t=0}^1\nPQ(t)\\,d t\\)</spa ..."
+}

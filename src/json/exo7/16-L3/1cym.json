@@ -1,0 +1,29 @@
+{
+  "uuid": "1cym",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2843",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:11.484Z"
+  },
+  "contenu": [
+    {
+      "id": "cf0d9192-1c3d-44e1-b383-d3917a2128ab",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\mathcal{R} = \\{x_0\\leq x\\leq x_1, y_0\\leq y\\leq y_1\\}$ un\n  rectangle. En utilisant le théorème des résidus justifier\n  la formule intégrale de Cauchy pour $z$ dans l'intérieur\n  du rectangle et $f$ holomorphe sur le rectangle fermé:\n\\[ f(z) = \\frac1{2\\pi i}\\int_{\\partial\\mathcal{R}}\n\\frac{f(w)}{w-z}dw\\]\nDémontrer ce résultat de manière plus\nsimple, directement à partir du théorème de Cauchy-Goursat pour les\nfonctions holomorphes sur les rectangles, en utilisant la\nfonction $w\\mapsto (f(w)-f(z))/(w-z)$ (et aussi la notion\nd'indice d'un lacet).  Dans le cas où $z$\nest à l'\\emph{extérieur} du rectangle $\\mathcal{R}$, que vaut $\\int_{\\partial\\mathcal{R}}\n\\frac{f(w)}{w-z}dw$?",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\mathcal{R} = \\{x_0\\leq x\\leq x_1,\ny_0\\leq y\\leq y_1\\}\\)</span> un rectangle. En utilisant le théorème des\nrésidus justifier la formule intégrale de Cauchy pour <span\nclass=\"math inline\">\\(z\\)</span> dans l’intérieur du rectangle et <span\nclass=\"math inline\">\\(f\\)</span> holomorphe sur le rectangle fermé:\n<span class=\"math display\">\\[f(z) = \\frac1{2\\pi\ni}\\int_{\\partial\\mathcal{R}}\n\\frac{f(w)}{w-z}dw\\]</span> Démontrer ce résultat de manière plus\nsimple, directement à partir du théorème de Cauchy-Goursat pour les\nfonctions holomorphes sur les rectangles, en utilisant la fonction <span\nclass=\"math inline\">\\(w\\mapsto (f(w)-f(z))/(w-z)\\)</span> (et aussi la\nnotion d’indice d’un lacet). Dans le cas où <span\nclass=\"math inline\">\\(z\\)</span> est à l’<em>extérieur</em> du rectangle\n<span class=\"math inline\">\\(\\mathcal{R}\\)</span>, que vaut <span\nclass=\"math inline\">\\(\\int_{\\partial\\mathcal{R}}\n\\frac{f(w)}{w-z}dw\\)</span>?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\mathcal{R} = \\{x_0\\leq x\\leq x_1,\ny_0\\leq y\\leq y_1\\}\\)</span> un rectangle. En utilisant le théorème des\nrésidus ..."
+}

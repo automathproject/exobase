@@ -1,0 +1,61 @@
+{
+  "uuid": "Q1Oq",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3068",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Suite récurrente linéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:44.802Z"
+  },
+  "contenu": [
+    {
+      "id": "281c3fad-cdf7-4d43-99fb-b1d706c5c7b3",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "b136de33-3be8-412f-b7f3-439b875d64b7",
+      "type": "question",
+      "value": {
+        "latex": "R{\\'e}soudre $\\begin{cases} u_{n+2} = \\frac 12(u_{n+1} + u_n)\\cr\n                      u_0 = a,\\ u_1 = b.\\cr\\end{cases}$",
+        "html": "<p>R<span>é</span>soudre <span class=\"math inline\">\\(\\begin{cases}\nu_{n+2} = \\frac 12(u_{n+1} + u_n)\\cr\n                      u_0 = a,\\ u_1 = b.\\cr\\end{cases}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b8268b73-d4ae-459b-ae6c-5fba2033b316",
+      "type": "question",
+      "value": {
+        "latex": "Si $a=0$, trouver $\\lim u_n$.",
+        "html": "<p>Si <span class=\"math inline\">\\(a=0\\)</span>, trouver <span\nclass=\"math inline\">\\(\\lim u_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "67939390-e197-4bef-a7e6-e46e93980b0c",
+      "type": "question",
+      "value": {
+        "latex": "R{\\'e}soudre : $v_{n+2} = \\sqrt{v_{n+1} v_n}$.",
+        "html": "<p>R<span>é</span>soudre : <span class=\"math inline\">\\(v_{n+2} =\n\\sqrt{v_{n+1} v_n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "be76d7f2-a201-45d7-8b07-23c58b323170",
+      "type": "reponse",
+      "value": {
+        "latex": "$u_n = \\frac 13((a+2b) + 2(a-b)(-\\frac12)^n)$.\n$v_n = \\lambda\\times\\mu^{(-\\frac12)^n}$.",
+        "html": "<p><span class=\"math inline\">\\(u_n = \\frac 13((a+2b) +\n2(a-b)(-\\frac12)^n)\\)</span>. <span class=\"math inline\">\\(v_n =\n\\lambda\\times\\mu^{(-\\frac12)^n}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>R<span>é</span>soudre <span class=\"math inline\"> ..."
+}

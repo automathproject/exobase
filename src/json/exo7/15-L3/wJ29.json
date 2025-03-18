@@ -1,0 +1,45 @@
+{
+  "uuid": "wJ29",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2341",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:06.660Z"
+  },
+  "contenu": [
+    {
+      "id": "2a474f07-086b-48ba-86cd-b5e96912587e",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que tout ouvert de $\\Rr$ est union d\\'enombrable d'intervalles ouverts\ndeux \\`a deux disjoints. \n(\\emph{Indication :} si $x\\in O$ ouvert, consid\\'erer $J_x$ qui est l'union des\nintervalles ouverts inclus dans $O$ et  contenant $x$). \\'Enoncer un résultat similaire pour\n les ouverts de $\\Rr^n$.",
+        "html": "<p>Montrer que tout ouvert de <span class=\"math inline\">\\(\\Rr\\)</span>\nest union dénombrable d’intervalles ouverts deux à deux disjoints.\n(<em>Indication :</em> si <span class=\"math inline\">\\(x\\in O\\)</span>\nouvert, considérer <span class=\"math inline\">\\(J_x\\)</span> qui est\nl’union des intervalles ouverts inclus dans <span\nclass=\"math inline\">\\(O\\)</span> et contenant <span\nclass=\"math inline\">\\(x\\)</span>). Énoncer un résultat similaire pour\nles ouverts de <span class=\"math inline\">\\(\\Rr^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e10bd6d1-85cb-4a75-ba16-fcb50bdf1f37",
+      "type": "indication",
+      "value": {
+        "latex": "Montrer que $J_x$ est un intervalle ouvert ; que $J_x=J_y$ ou $J_x\\cap J_y=\\varnothing$.\nEt penser que $\\Qq$ est dénombrable.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(J_x\\)</span> est un\nintervalle ouvert ; que <span class=\"math inline\">\\(J_x=J_y\\)</span> ou\n<span class=\"math inline\">\\(J_x\\cap J_y=\\varnothing\\)</span>. Et penser\nque <span class=\"math inline\">\\(\\Qq\\)</span> est dénombrable.</p>\n"
+      }
+    },
+    {
+      "id": "bca5adbf-6415-4638-91f8-e21ff09a567f",
+      "type": "reponse",
+      "value": {
+        "latex": "$J_x$ est un ouvert non vide car c'est une union d'ouverts contenant $x$. De plus $J_x$ est un intervalle car c'est une union d'intervalles contenant tous le point $x$. Donc $J_x$ est un intervalle ouvert. \nOn peut donc \\'ecrire $\\mathcal{O} = \\cup_{x\\in \\mathcal{O}} J_x$. Mais cette union n'est pas n\\'ecessairement d\\'enombrable.\n\nTout d'abord si $z\\in J_x$ alors $J_x=J_z$. En effet soit $I$ un intervalle inclus dans $\\mathcal{O}$ contenant $x$ et $z$. Si $x'\\in J_x$, soit $J$ un intervalle inclus dans $\\mathcal{O}$ contenant $x$ et $x'$. Alors $I\\cup J$ est un intervalle (car $x$ est dans les deux intervalles $I$ et $J$), $I\\cup J$ est inclus dans $\\mathcal{O}$ et contient $x'$ et $z$. Donc $x'\\in J_z$. Donc $J_x \\subset J_z$. Enfin comme $z\\in J_x$ on a aussi $x\\in J_z$, donc on montrerait de même $J_z\\subset J_x$. Donc $J_x=J_z$.\n\nPour $x,y \\in \\mathcal{O}$ alors $J_x=J_y$ ou $J_x \\cap J_y = \\varnothing$. En effet supposons que $J_x\\cap J_y \\neq \\varnothing$ et soit $z \\in J_x \\cap J_y$. Comme $z\\in J_x$ alors $J_x=J_z$, comme \n $z\\in J_y$ alors $J_y=J_z$. Donc $J_x=J_y$.\n\nPour chaque intervalle ouvert $J_x$ il existe $q \\in \\Qq \\cap J_x$, avec bien s\\^ur $J_x = J_q$.\n Comme $\\Qq$ est d\\'enombrable $\\mathcal{O}\\cap \\Qq$ l'est aussi. On a ainsi \\'ecrit\n$$\\mathcal{O} = \\bigcup_{q\\in \\mathcal{O}\\cap \\Qq} J_{q},$$\nce qui \\'etait demand\\'e.\nPour $\\Rr^n$ on peut montrer le r\\'esultat suivant : tout ouvert $\\mathcal{O}$ de $\\Rr^n$ s'\\'ecrit comme l'union d\\'enombrable de boules ouverte. On consid\\'ere $J_x$ l'union des boules  ouvertes de rayon \nrationnel centr\\'ees en $x$,  ensuite on regarde seulement les $x$ appartenant \\`a $\\mathcal{O} \\cap \\Qq^n$. Par contrer on autorise deux boules à s'intersecter.",
+        "html": "<p><span class=\"math inline\">\\(J_x\\)</span> est un ouvert non vide car\nc’est une union d’ouverts contenant <span\nclass=\"math inline\">\\(x\\)</span>. De plus <span\nclass=\"math inline\">\\(J_x\\)</span> est un intervalle car c’est une union\nd’intervalles contenant tous le point <span\nclass=\"math inline\">\\(x\\)</span>. Donc <span\nclass=\"math inline\">\\(J_x\\)</span> est un intervalle ouvert. On peut\ndonc écrire <span class=\"math inline\">\\(\\mathcal{O} = \\cup_{x\\in\n\\mathcal{O}} J_x\\)</span>. Mais cette union n’est pas nécessairement\ndénombrable.</p>\n<p>Tout d’abord si <span class=\"math inline\">\\(z\\in J_x\\)</span> alors\n<span class=\"math inline\">\\(J_x=J_z\\)</span>. En effet soit <span\nclass=\"math inline\">\\(I\\)</span> un intervalle inclus dans <span\nclass=\"math inline\">\\(\\mathcal{O}\\)</span> contenant <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(z\\)</span>. Si <span\nclass=\"math inline\">\\(x&#39;\\in J_x\\)</span>, soit <span\nclass=\"math inline\">\\(J\\)</span> un intervalle inclus dans <span\nclass=\"math inline\">\\(\\mathcal{O}\\)</span> contenant <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(x&#39;\\)</span>. Alors <span\nclass=\"math inline\">\\(I\\cup J\\)</span> est un intervalle (car <span\nclass=\"math inline\">\\(x\\)</span> est dans les deux intervalles <span\nclass=\"math inline\">\\(I\\)</span> et <span\nclass=\"math inline\">\\(J\\)</span>), <span class=\"math inline\">\\(I\\cup\nJ\\)</span> est inclus dans <span\nclass=\"math inline\">\\(\\mathcal{O}\\)</span> et contient <span\nclass=\"math inline\">\\(x&#39;\\)</span> et <span\nclass=\"math inline\">\\(z\\)</span>. Donc <span\nclass=\"math inline\">\\(x&#39;\\in J_z\\)</span>. Donc <span\nclass=\"math inline\">\\(J_x \\subset J_z\\)</span>. Enfin comme <span\nclass=\"math inline\">\\(z\\in J_x\\)</span> on a aussi <span\nclass=\"math inline\">\\(x\\in J_z\\)</span>, donc on montrerait de même\n<span class=\"math inline\">\\(J_z\\subset J_x\\)</span>. Donc <span\nclass=\"math inline\">\\(J_x=J_z\\)</span>.</p>\n<p>Pour <span class=\"math inline\">\\(x,y \\in \\mathcal{O}\\)</span> alors\n<span class=\"math inline\">\\(J_x=J_y\\)</span> ou <span\nclass=\"math inline\">\\(J_x \\cap J_y = \\varnothing\\)</span>. En effet\nsupposons que <span class=\"math inline\">\\(J_x\\cap J_y \\neq\n\\varnothing\\)</span> et soit <span class=\"math inline\">\\(z \\in J_x \\cap\nJ_y\\)</span>. Comme <span class=\"math inline\">\\(z\\in J_x\\)</span> alors\n<span class=\"math inline\">\\(J_x=J_z\\)</span>, comme <span\nclass=\"math inline\">\\(z\\in J_y\\)</span> alors <span\nclass=\"math inline\">\\(J_y=J_z\\)</span>. Donc <span\nclass=\"math inline\">\\(J_x=J_y\\)</span>.</p>\n<p>Pour chaque intervalle ouvert <span\nclass=\"math inline\">\\(J_x\\)</span> il existe <span\nclass=\"math inline\">\\(q \\in \\Qq \\cap J_x\\)</span>, avec bien sûr <span\nclass=\"math inline\">\\(J_x = J_q\\)</span>. Comme <span\nclass=\"math inline\">\\(\\Qq\\)</span> est dénombrable <span\nclass=\"math inline\">\\(\\mathcal{O}\\cap \\Qq\\)</span> l’est aussi. On a\nainsi écrit <span class=\"math display\">\\[\\mathcal{O} = \\bigcup_{q\\in\n\\mathcal{O}\\cap \\Qq} J_{q},\\]</span> ce qui était demandé. Pour <span\nclass=\"math inline\">\\(\\Rr^n\\)</span> on peut montrer le résultat suivant\n: tout ouvert <span class=\"math inline\">\\(\\mathcal{O}\\)</span> de <span\nclass=\"math inline\">\\(\\Rr^n\\)</span> s’écrit comme l’union dénombrable\nde boules ouverte. On considére <span class=\"math inline\">\\(J_x\\)</span>\nl’union des boules ouvertes de rayon rationnel centrées en <span\nclass=\"math inline\">\\(x\\)</span>, ensuite on regarde seulement les <span\nclass=\"math inline\">\\(x\\)</span> appartenant à <span\nclass=\"math inline\">\\(\\mathcal{O} \\cap \\Qq^n\\)</span>. Par contrer on\nautorise deux boules à s’intersecter.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que tout ouvert de <span class=\"math inline\">\\(\\Rr\\)</span>\nest union dénombrable d’intervalles ouverts deux à deux disjoints.\n(<em>Indicat ..."
+}

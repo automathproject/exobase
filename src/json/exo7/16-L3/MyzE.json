@@ -1,0 +1,37 @@
+{
+  "uuid": "MyzE",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2786",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:03:40.147Z"
+  },
+  "contenu": [
+    {
+      "id": "d10bc1e8-078e-480d-9c25-049f19f3e446",
+      "type": "description",
+      "value": {
+        "latex": "\\label{ex:burnol1.1.4}\nMontrer la formule pour la dérivée d'une composition $g\\circ f$.",
+        "html": "<p><span id=\"ex:burnol1.1.4\" label=\"ex:burnol1.1.4\"></span> Montrer la\nformule pour la dérivée d’une composition <span\nclass=\"math inline\">\\(g\\circ f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f26a8ded-7c32-4d3d-b926-7c11a0433173",
+      "type": "reponse",
+      "value": {
+        "latex": "On utilise de nouveau la d\\'efinition de la d\\'eriv\\'ee, d'abord pour $f$ en\n$z$ puis pour $g$ au point $f(z)$:\n$$f(z+h)=f(z)+ f'(z)h +h \\epsilon(h).$$\nNotons $w_h=f'(z)h +h\\epsilon(h)$. Alors (et comme dans les exercices\nprécédents on utilise \\og epsilon\\fg{} pour n'importe quelle fonction tendant\nvers zéro lorsque sa variable tend vers zéro):\n$$g(f(z+h))=g(f(z)+w_h) =g(f(z))+g'(f(z))w_h +w_h \\epsilon(w_h).$$\nAinsi:\n$$\\frac{1}{h} \\big(g(f(z+h))-g(f(z))\\big) = \\big(g'(f(z)) +\n\\epsilon(w_h)\\big)\\frac{w_h}h.$$\nLorsque $h\\to0$, on a $w_h\\to0$, donc $\\epsilon(w_h)\\to0$ et par ailleurs\n$\\frac{w_h}h\\to f'(z)$. Au final\n$$\n(g\\circ f)'(z) = \\lim_{h\\to 0} \\big(g'(f(z)) +\n\\epsilon(w_h)\\big)\\frac{w_h}h = g'(f(z)) f'(z).\n$$",
+        "html": "<p>On utilise de nouveau la définition de la dérivée, d’abord pour <span\nclass=\"math inline\">\\(f\\)</span> en <span\nclass=\"math inline\">\\(z\\)</span> puis pour <span\nclass=\"math inline\">\\(g\\)</span> au point <span\nclass=\"math inline\">\\(f(z)\\)</span>: <span\nclass=\"math display\">\\[f(z+h)=f(z)+ f&#39;(z)h +h \\epsilon(h).\\]</span>\nNotons <span class=\"math inline\">\\(w_h=f&#39;(z)h\n+h\\epsilon(h)\\)</span>. Alors (et comme dans les exercices précédents on\nutilise epsilon pour n’importe quelle fonction tendant vers zéro lorsque\nsa variable tend vers zéro): <span\nclass=\"math display\">\\[g(f(z+h))=g(f(z)+w_h) =g(f(z))+g&#39;(f(z))w_h\n+w_h \\epsilon(w_h).\\]</span> Ainsi: <span\nclass=\"math display\">\\[\\frac{1}{h} \\big(g(f(z+h))-g(f(z))\\big) =\n\\big(g&#39;(f(z)) +\n\\epsilon(w_h)\\big)\\frac{w_h}h.\\]</span> Lorsque <span\nclass=\"math inline\">\\(h\\to0\\)</span>, on a <span\nclass=\"math inline\">\\(w_h\\to0\\)</span>, donc <span\nclass=\"math inline\">\\(\\epsilon(w_h)\\to0\\)</span> et par ailleurs <span\nclass=\"math inline\">\\(\\frac{w_h}h\\to f&#39;(z)\\)</span>. Au final <span\nclass=\"math display\">\\[(g\\circ f)&#39;(z) = \\lim_{h\\to 0}\n\\big(g&#39;(f(z)) +\n\\epsilon(w_h)\\big)\\frac{w_h}h = g&#39;(f(z)) f&#39;(z).\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"ex:burnol1.1.4\" label=\"ex:burnol1.1.4\"></span> Montrer la\nformule pour la dérivée d’une composition <span\nclass=\"math inline\"> ..."
+}

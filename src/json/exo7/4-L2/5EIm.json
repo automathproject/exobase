@@ -1,0 +1,37 @@
+{
+  "uuid": "5EIm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3412",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Système linéaire, rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:38.691Z"
+  },
+  "contenu": [
+    {
+      "id": "a03bb6e7-439d-4be9-b4bb-8f1fc0cd54a1",
+      "type": "description",
+      "value": {
+        "latex": "\\'Etudier l'existence de solutions du système :\n$$\\left\\{\\begin{array}{ccccccc}      x &+&       y &+&       z &= &1        \\cr\n                      ax &+&      by &+&      cz &= &d        \\cr\n                 a(a-1)x &+& b(b-1)y &+& c(c-1)z &= &d(d-1).  \\cr\\end{array}\\right.$$",
+        "html": "<p>Étudier l’existence de solutions du système : <span\nclass=\"math display\">\\[\\left\\{\\begin{array}{ccccccc}      x\n&amp;+&amp;       y &amp;+&amp;       z &amp;= &amp;1        \\cr\n                      ax &amp;+&amp;      by &amp;+&amp;      cz &amp;=\n&amp;d        \\cr\n                 a(a-1)x &amp;+&amp; b(b-1)y &amp;+&amp; c(c-1)z &amp;=\n&amp;d(d-1).  \\cr\\end{array}\\right.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "79931287-9bfb-4ba5-8d0f-b5d232120719",
+      "type": "reponse",
+      "value": {
+        "latex": "Système de Cramer ssi $a,b,c$ sont distincts. Sinon, il y a des solutions ssi $d\\in\\{a,b,c\\}$.",
+        "html": "<p>Système de Cramer ssi <span class=\"math inline\">\\(a,b,c\\)</span> sont\ndistincts. Sinon, il y a des solutions ssi <span\nclass=\"math inline\">\\(d\\in\\{a,b,c\\}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Étudier l’existence de solutions du système : <span\nclass=\"math display\"> ..."
+}

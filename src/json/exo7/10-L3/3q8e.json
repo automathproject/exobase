@@ -1,0 +1,69 @@
+{
+  "uuid": "3q8e",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2287",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:40.020Z"
+  },
+  "contenu": [
+    {
+      "id": "cf3080ba-caa9-4121-b6d5-85d68e73f597",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ un anneau int\\`egre. On appelle\n{\\it \\'el\\'ement premier} de $A$ un \\'el\\'ement qui engendre un id\\'eal\nprincipal premier.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau intègre. On\nappelle <span><em>élément premier</em></span> de <span\nclass=\"math inline\">\\(A\\)</span> un élément qui engendre un idéal\nprincipal premier.</p>\n"
+      }
+    },
+    {
+      "id": "8ec8d4ac-40ba-44b2-ab4b-03f6a8bbfb08",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que  un \\'el\\'ement premier est irr\\'eductible.",
+        "html": "<p>Montrer que un élément premier est irréductible.</p>\n"
+      }
+    },
+    {
+      "id": "127f6115-bffd-4aaa-b0e8-4ef2e2b26579",
+      "type": "question",
+      "value": {
+        "latex": "D'apr\\`es le cours  tout  \\'el\\'ement irr\\'eductible dans un anneau  \nfactoriel  est  premier. \nMontrer que dans un anneau factoriel, tout id\\'eal premier\nnon nul contient un \\'el\\'ement irr\\'eductible.",
+        "html": "<p>D’après le cours tout élément irréductible dans un anneau factoriel\nest premier. Montrer que dans un anneau factoriel, tout idéal premier\nnon nul contient un élément irréductible.</p>\n"
+      }
+    },
+    {
+      "id": "72bcd39e-8e44-4b02-bf86-26841ed56aef",
+      "type": "question",
+      "value": {
+        "latex": "Nous avons vu que l'\\'el\\'ement $3\\in \\Zz[\\sqrt{-5}]$ \nest irr\\'eductible. Montrer que $3$ n'est pas premier \ndans $\\Zz[\\sqrt{-5}]$.",
+        "html": "<p>Nous avons vu que l’élément <span class=\"math inline\">\\(3\\in\n\\Zz[\\sqrt{-5}]\\)</span> est irréductible. Montrer que <span\nclass=\"math inline\">\\(3\\)</span> n’est pas premier dans <span\nclass=\"math inline\">\\(\\Zz[\\sqrt{-5}]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cce0e43e-d325-40a1-8455-f4af449ee322",
+      "type": "question",
+      "value": {
+        "latex": "L'\\'el\\'ement  $2$ est-il irr\\'eductible dans l'anneau \n$\\Zz[\\sqrt{-5}]$ ?",
+        "html": "<p>L’élément <span class=\"math inline\">\\(2\\)</span> est-il irréductible\ndans l’anneau <span class=\"math inline\">\\(\\Zz[\\sqrt{-5}]\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "14725664-d328-4f03-b2cc-d1f834c5aa23",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{itemize}\n  \\item \n    Si $x\\in A$ est premier~: soit $a,b\\in A$ tels que $ab=x$. Alors\n    $ab\\in(x)$ donc $a\\in(x)$ ou $b\\in(x)$. On en déduit que $a\\sim x$ ou\n    $b\\sim x$. Donc $x$ est irréductible.\n\n  \\item\n    $A$ est supposé factoriel. Soit $I$ un idéal premier. Soit $x\\in I$\n    et $x=p_{1}\\dots p_{k}$ ``la'' factorisation de $x$ en produit\n    d'irréductibles. Alors $(p_{1}\\cdots p_{n-1})p_{n}\\in I$ donc\n    $(p_{1}\\cdots p_{n-1})\\in I$ ou $p_{n}\\in I$. si $p_{n}$ in $I$, $I$\n    contient un irréductible. Sinon, $(p_{1}\\cdots p_{n-2})p_{n-1}\\in I$.\n    Par une récurrence finie, l'un au moins des $p_{i}\\in I$, donc $I$\n    contient un irréductible.\n\n  \\item\n    Dans $\\Zz[\\sqrt{-5}]$, $9\\in(3)$. Pourtant\n    $9=(2+\\sqrt{-5})(2-\\sqrt{-5})$ et $(2\\pm\\sqrt{-5})\\notin(3)$. Donc\n    $(3)$ n'est pas premier.\n\n  \\item\n    $2$ est irréductible~: $2=z_{1}z_{2}$ avec $z_{i}\\in\\Zz[\\sqrt{-5}]$,\n    alors $|z_{1}|^{2}|z_{2}|^{2}=4$, donc\n    $\\{|z_{1}|^{2},|z_{2}|^{2}\\}=\\{1,4\\}$ ou $\\{2,2\\}$. Dans le premier\n    cas, on a affaire à une factorisation triviale. Le second est\n    impossible, puisque l'équation $a^{2}+5b^{2}=2$ n'a pas de solution\n    entière $(a,b)$.\n\n    Par ailleurs, $(1+\\sqrt{-5})(1+\\sqrt{-5})=6\\in(2)$, mais\n    $(1\\pm\\sqrt{-5})\\notin(2)$ donc $2$ n'est pas premier dans\n    $\\Zz[\\sqrt{-5}]$.\n  \\end{itemize}",
+        "html": "<ul>\n<li><p>Si <span class=\"math inline\">\\(x\\in A\\)</span> est premier : soit\n<span class=\"math inline\">\\(a,b\\in A\\)</span> tels que <span\nclass=\"math inline\">\\(ab=x\\)</span>. Alors <span\nclass=\"math inline\">\\(ab\\in(x)\\)</span> donc <span\nclass=\"math inline\">\\(a\\in(x)\\)</span> ou <span\nclass=\"math inline\">\\(b\\in(x)\\)</span>. On en déduit que <span\nclass=\"math inline\">\\(a\\sim x\\)</span> ou <span\nclass=\"math inline\">\\(b\\sim x\\)</span>. Donc <span\nclass=\"math inline\">\\(x\\)</span> est irréductible.</p></li>\n<li><p><span class=\"math inline\">\\(A\\)</span> est supposé factoriel.\nSoit <span class=\"math inline\">\\(I\\)</span> un idéal premier. Soit <span\nclass=\"math inline\">\\(x\\in I\\)</span> et <span\nclass=\"math inline\">\\(x=p_{1}\\dots p_{k}\\)</span> “la” factorisation de\n<span class=\"math inline\">\\(x\\)</span> en produit d’irréductibles. Alors\n<span class=\"math inline\">\\((p_{1}\\cdots p_{n-1})p_{n}\\in I\\)</span>\ndonc <span class=\"math inline\">\\((p_{1}\\cdots p_{n-1})\\in I\\)</span> ou\n<span class=\"math inline\">\\(p_{n}\\in I\\)</span>. si <span\nclass=\"math inline\">\\(p_{n}\\)</span> in <span\nclass=\"math inline\">\\(I\\)</span>, <span class=\"math inline\">\\(I\\)</span>\ncontient un irréductible. Sinon, <span\nclass=\"math inline\">\\((p_{1}\\cdots p_{n-2})p_{n-1}\\in I\\)</span>. Par\nune récurrence finie, l’un au moins des <span\nclass=\"math inline\">\\(p_{i}\\in I\\)</span>, donc <span\nclass=\"math inline\">\\(I\\)</span> contient un irréductible.</p></li>\n<li><p>Dans <span class=\"math inline\">\\(\\Zz[\\sqrt{-5}]\\)</span>, <span\nclass=\"math inline\">\\(9\\in(3)\\)</span>. Pourtant <span\nclass=\"math inline\">\\(9=(2+\\sqrt{-5})(2-\\sqrt{-5})\\)</span> et <span\nclass=\"math inline\">\\((2\\pm\\sqrt{-5})\\notin(3)\\)</span>. Donc <span\nclass=\"math inline\">\\((3)\\)</span> n’est pas premier.</p></li>\n<li><p><span class=\"math inline\">\\(2\\)</span> est irréductible : <span\nclass=\"math inline\">\\(2=z_{1}z_{2}\\)</span> avec <span\nclass=\"math inline\">\\(z_{i}\\in\\Zz[\\sqrt{-5}]\\)</span>, alors <span\nclass=\"math inline\">\\(|z_{1}|^{2}|z_{2}|^{2}=4\\)</span>, donc <span\nclass=\"math inline\">\\(\\{|z_{1}|^{2},|z_{2}|^{2}\\}=\\{1,4\\}\\)</span> ou\n<span class=\"math inline\">\\(\\{2,2\\}\\)</span>. Dans le premier cas, on a\naffaire à une factorisation triviale. Le second est impossible, puisque\nl’équation <span class=\"math inline\">\\(a^{2}+5b^{2}=2\\)</span> n’a pas\nde solution entière <span class=\"math inline\">\\((a,b)\\)</span>.</p>\n<p>Par ailleurs, <span\nclass=\"math inline\">\\((1+\\sqrt{-5})(1+\\sqrt{-5})=6\\in(2)\\)</span>, mais\n<span class=\"math inline\">\\((1\\pm\\sqrt{-5})\\notin(2)\\)</span> donc <span\nclass=\"math inline\">\\(2\\)</span> n’est pas premier dans <span\nclass=\"math inline\">\\(\\Zz[\\sqrt{-5}]\\)</span>.</p></li>\n</ul>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> un anneau intègre. On\nappelle <span><em>élément premier</em></span> de <span\nclass=\"math inline\">\\(A\\)< ..."
+}

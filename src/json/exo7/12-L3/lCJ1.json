@@ -1,0 +1,77 @@
+{
+  "uuid": "lCJ1",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2553",
+    "auteur": "tahani",
+    "createdAt": "2009-04-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Différentielle d'ordre supérieur, formule de Taylor",
+    "sousChapitre": "Différentielle d'ordre supérieur, formule de Taylor",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:51.473Z"
+  },
+  "contenu": [
+    {
+      "id": "2a3da916-5c61-464c-b7ad-c7ef1a94e5cd",
+      "type": "description",
+      "value": {
+        "latex": "Calculez $D^2f(x)$ dans les\ncas suivants:",
+        "html": "<p>Calculez <span class=\"math inline\">\\(D^2f(x)\\)</span> dans les cas\nsuivants:</p>\n"
+      }
+    },
+    {
+      "id": "b67a1509-808e-4903-ad64-e0604795963e",
+      "type": "question",
+      "value": {
+        "latex": "$f\\in L(E,G)$ continue",
+        "html": "<p><span class=\"math inline\">\\(f\\in L(E,G)\\)</span> continue</p>\n"
+      }
+    },
+    {
+      "id": "d26a27e5-d15b-4064-aa13-d6d7c1f8826c",
+      "type": "reponse",
+      "value": {
+        "latex": "Calculons l'accroissement:\n$$f(x+h)-f(x)=f(x)+f(h)-f(x)=f(h)+0.$$\nOr, par d\\'efinition $f(h)$ est lin\\'eaire en $h$, continue et\n$0=o(||h||)$. Par cons\\'equent $f$ est diff\\'erentiable et\n$$Df(x)=f, \\mbox{ ou encore } Df(x).h=f(h).$$\nOn remarque que $Df$ est l'application constante que à $x\\in E$\nassocie l'application lin\\'eaire $f$. Par cons\\'equent, $Df$ est\ndiff\\'erentiable et sa diff\\'erentielle est nulle: $$D^2f=0.$$",
+        "html": "<p>Calculons l’accroissement: <span\nclass=\"math display\">\\[f(x+h)-f(x)=f(x)+f(h)-f(x)=f(h)+0.\\]</span> Or,\npar définition <span class=\"math inline\">\\(f(h)\\)</span> est linéaire en\n<span class=\"math inline\">\\(h\\)</span>, continue et <span\nclass=\"math inline\">\\(0=o(||h||)\\)</span>. Par conséquent <span\nclass=\"math inline\">\\(f\\)</span> est différentiable et <span\nclass=\"math display\">\\[Df(x)=f, \\mbox{ ou encore }\nDf(x).h=f(h).\\]</span> On remarque que <span\nclass=\"math inline\">\\(Df\\)</span> est l’application constante que à\n<span class=\"math inline\">\\(x\\in E\\)</span> associe l’application\nlinéaire <span class=\"math inline\">\\(f\\)</span>. Par conséquent, <span\nclass=\"math inline\">\\(Df\\)</span> est différentiable et sa\ndifférentielle est nulle: <span\nclass=\"math display\">\\[D^2f=0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "08a09cca-948e-487b-9950-67771af2a93a",
+      "type": "question",
+      "value": {
+        "latex": "$f: E \\times F \\rightarrow G$, bilinéaire continue.",
+        "html": "<p><span class=\"math inline\">\\(f: E \\times F \\rightarrow G\\)</span>,\nbilinéaire continue.</p>\n"
+      }
+    },
+    {
+      "id": "ce7e6894-e38d-4e13-9175-0d54f1ca58f7",
+      "type": "reponse",
+      "value": {
+        "latex": "Calculons $$f((x,y)+(h,k))-f(x,y)=f(x+h,y+k)-f(x,y)=\nf(x,y+k)+f(h,y+k)-f(x,y)=$$\n$$f(x,y)+f(x,k)+f(h,y)+f(h,k)-f(x,y)=f(x,k)+f(h,y)+f(h,k).$$\nL'application qui \\`a $(x,y)$ associe l'application lin\\'eaire\n$Df(x,y)(h,k)=f(x,k)+f(h,y)$ est donc candidate pour être la\ndiff\\'erentielle de $f$. V\\'erifions qu'elle est bien continue et\nque $f(h,k)=o(||(h,k)||)$. Nous rappelons qu'une application\nbilin\\'eaire $f(x,y)$ est continue s'il existe $M>0$ tel que\n$$\\forall (x,y) \\in E^2; ||f(x,y)||\\leq M||x||||y||.$$\nOn a $$||Df(x,y)(h,k)||=||f(x,k)+f(h,y)|| \\leq\n||f(x,k)||+||f(h,y)||\\leq$$ $$M||x||.||k||+M||h||.||y|| \\leq M\n(||x||+||y||)\\max(||k||,||h||)\\leq M(||x||+||y||)||(h,k)||.$$ Par\ncons\\'equent, $Df(x,y)$ est continue et a une norme inf\\'erieure\n\\`a $M(||x||+||y||)$. De plus\n$$||f(h,k)||\\leq M||h||.||k|| \\leq ||(h,k)||.\\epsilon(h,k)$$ o\\`u\n$\\epsilon$ tend vers zero quand $(h,k)$ tend vers zero car\n$$\\epsilon(h,k)=\\frac{||h||.||k||}{\\sup(||h||,||k||)}$$ ce qui\nfini de montrer que $f$ est diff\\'erentiable et que sa\ndiff\\'erentielle est d\\'efinie par\n$$Df(x,y).(h,k)=f(x,k)+f(h,y).$$\nEn remarquant que $Df$ est lin\\'eaire par rapport \\`a $(x,y)$,\nd'apr\\`es la premi\\`ere question, on d\\'eduit que sa\ndiff\\'erentielle est $$D^2f(x,y)[(h,k),(u,v)]=f(u,k)+f(h,v).$$",
+        "html": "<p>Calculons <span\nclass=\"math display\">\\[f((x,y)+(h,k))-f(x,y)=f(x+h,y+k)-f(x,y)=\nf(x,y+k)+f(h,y+k)-f(x,y)=\\]</span> <span\nclass=\"math display\">\\[f(x,y)+f(x,k)+f(h,y)+f(h,k)-f(x,y)=f(x,k)+f(h,y)+f(h,k).\\]</span>\nL’application qui à <span class=\"math inline\">\\((x,y)\\)</span> associe\nl’application linéaire <span\nclass=\"math inline\">\\(Df(x,y)(h,k)=f(x,k)+f(h,y)\\)</span> est donc\ncandidate pour être la différentielle de <span\nclass=\"math inline\">\\(f\\)</span>. Vérifions qu’elle est bien continue et\nque <span class=\"math inline\">\\(f(h,k)=o(||(h,k)||)\\)</span>. Nous\nrappelons qu’une application bilinéaire <span\nclass=\"math inline\">\\(f(x,y)\\)</span> est continue s’il existe <span\nclass=\"math inline\">\\(M&gt;0\\)</span> tel que <span\nclass=\"math display\">\\[\\forall (x,y) \\in E^2; ||f(x,y)||\\leq\nM||x||||y||.\\]</span> On a <span\nclass=\"math display\">\\[||Df(x,y)(h,k)||=||f(x,k)+f(h,y)|| \\leq\n||f(x,k)||+||f(h,y)||\\leq\\]</span> <span\nclass=\"math display\">\\[M||x||.||k||+M||h||.||y|| \\leq M\n(||x||+||y||)\\max(||k||,||h||)\\leq M(||x||+||y||)||(h,k)||.\\]</span> Par\nconséquent, <span class=\"math inline\">\\(Df(x,y)\\)</span> est continue et\na une norme inférieure à <span\nclass=\"math inline\">\\(M(||x||+||y||)\\)</span>. De plus <span\nclass=\"math display\">\\[||f(h,k)||\\leq M||h||.||k|| \\leq\n||(h,k)||.\\epsilon(h,k)\\]</span> où <span\nclass=\"math inline\">\\(\\epsilon\\)</span> tend vers zero quand <span\nclass=\"math inline\">\\((h,k)\\)</span> tend vers zero car <span\nclass=\"math display\">\\[\\epsilon(h,k)=\\frac{||h||.||k||}{\\sup(||h||,||k||)}\\]</span>\nce qui fini de montrer que <span class=\"math inline\">\\(f\\)</span> est\ndifférentiable et que sa différentielle est définie par <span\nclass=\"math display\">\\[Df(x,y).(h,k)=f(x,k)+f(h,y).\\]</span> En\nremarquant que <span class=\"math inline\">\\(Df\\)</span> est linéaire par\nrapport à <span class=\"math inline\">\\((x,y)\\)</span>, d’après la\npremière question, on déduit que sa différentielle est <span\nclass=\"math display\">\\[D^2f(x,y)[(h,k),(u,v)]=f(u,k)+f(h,v).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d60074dc-c672-4ee7-9d2e-5000cdc1a4e5",
+      "type": "question",
+      "value": {
+        "latex": "$f:M_n(\\mathbb{R}) \\rightarrow M_n(\\mathbb{R})$, $f(A)=A^2$",
+        "html": "<p><span class=\"math inline\">\\(f:M_n(\\mathbb{R}) \\rightarrow\nM_n(\\mathbb{R})\\)</span>, <span\nclass=\"math inline\">\\(f(A)=A^2\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "57035a9e-1a80-4711-b8f3-d313592cfceb",
+      "type": "reponse",
+      "value": {
+        "latex": "$$f(A+h)-f(A)=(A+h)^2-A^2=Ah+hA+h^2$$ avec $Ah+hA$\nlin\\'eaire en $h$ (et en $A$) et $||h^2|| \\leq ||h||^2=o(||h||)$.\nPar cons\\'equent $f$ est diff\\'erentiable et sa diff\\'erentielle\nest $Df(A).h=Ah+hA$. Comme $Df(A)$ est lin\\'aire par rapport \\`a\n$A$, sa diff\\'erentielle en $A$ est l'application bilin\\'eaire\n$$D^2f(A)[H,K]=KH+HK.$$",
+        "html": "<p><span\nclass=\"math display\">\\[f(A+h)-f(A)=(A+h)^2-A^2=Ah+hA+h^2\\]</span> avec\n<span class=\"math inline\">\\(Ah+hA\\)</span> linéaire en <span\nclass=\"math inline\">\\(h\\)</span> (et en <span\nclass=\"math inline\">\\(A\\)</span>) et <span class=\"math inline\">\\(||h^2||\n\\leq ||h||^2=o(||h||)\\)</span>. Par conséquent <span\nclass=\"math inline\">\\(f\\)</span> est différentiable et sa différentielle\nest <span class=\"math inline\">\\(Df(A).h=Ah+hA\\)</span>. Comme <span\nclass=\"math inline\">\\(Df(A)\\)</span> est lináire par rapport à <span\nclass=\"math inline\">\\(A\\)</span>, sa différentielle en <span\nclass=\"math inline\">\\(A\\)</span> est l’application bilinéaire <span\nclass=\"math display\">\\[D^2f(A)[H,K]=KH+HK.\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculez <span class=\"math inline\">\\(D^2f(x)\\)</span> dans les cas\nsuivants:</p>\n"
+}

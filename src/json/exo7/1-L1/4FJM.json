@@ -1,0 +1,61 @@
+{
+  "uuid": "4FJM",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3059",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Dénombrement",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:56:47.531Z"
+  },
+  "contenu": [
+    {
+      "id": "b50648d1-3f31-451a-b1b1-4ef51e379416",
+      "type": "description",
+      "value": {
+        "latex": "On veut montrer qu'il n'existe pas d'application $f: {\\N} \\to {\\N}$\nv{\\'e}rifiant : $\\forall\\ n \\in \\N,\\ f(f(n)) = n + 1987$.\\\\\n({\\it Olympiades 1987})\n\nSoit $f$ une telle application. On pose :\n$$E = \\{0,\\dots,1986\\},  \\qquad F = \\N\\setminus E,  \\qquad G = f(\\N) \\cap E,\n  \\qquad H = E\\setminus G.$$\n\nD{\\'e}montrer successivement :",
+        "html": "<p>On veut montrer qu’il n’existe pas d’application <span\nclass=\"math inline\">\\(f: {\\N} \\to {\\N}\\)</span> v<span>é</span>rifiant :\n<span class=\"math inline\">\\(\\forall\\ n \\in \\N,\\ f(f(n)) = n +\n1987\\)</span>.<br />\n(<span><em>Olympiades 1987</em></span>)</p>\n<p>Soit <span class=\"math inline\">\\(f\\)</span> une telle application. On\npose : <span class=\"math display\">\\[E = \\{0,\\dots,1986\\},  \\qquad F =\n\\N\\setminus E,  \\qquad G = f(\\N) \\cap E,\n  \\qquad H = E\\setminus G.\\]</span></p>\n<p>D<span>é</span>montrer successivement :</p>\n"
+      }
+    },
+    {
+      "id": "bc714582-8d78-4766-b681-3d3373b87dd4",
+      "type": "question",
+      "value": {
+        "latex": "$f$ est injective,",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est injective,</p>\n"
+      }
+    },
+    {
+      "id": "d28dd91f-75d7-41ed-8265-41c2b64a100d",
+      "type": "question",
+      "value": {
+        "latex": "$f(F) \\subset F$,",
+        "html": "<p><span class=\"math inline\">\\(f(F) \\subset F\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "778338c1-d171-467a-85bb-d87bfcb927db",
+      "type": "question",
+      "value": {
+        "latex": "$f^{-1}(F) = F \\cup G$,",
+        "html": "<p><span class=\"math inline\">\\(f^{-1}(F) = F \\cup G\\)</span>,</p>\n"
+      }
+    },
+    {
+      "id": "4c6a791d-5a3f-4575-890c-e205076ab856",
+      "type": "question",
+      "value": {
+        "latex": "$f^{-1}(G) = H$,",
+        "html": "<p><span class=\"math inline\">\\(f^{-1}(G) = H\\)</span>,</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On veut montrer qu’il n’existe pas d’application <span\nclass=\"math inline\">\\(f: {\\N} \\to {\\N}\\)</span> v<span>é</span>rifiant :\n<span class=\"math i ..."
+}

@@ -1,0 +1,160 @@
+{
+  "uuid": "0oHk",
+  "titre": "Calcul de probabilités",
+  "theme": [
+    "statistiques",
+    "tableur"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2022-09-30",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:11.734Z"
+  },
+  "contenu": [
+    {
+      "id": "33db94f6-11a0-432b-a886-88faef001aad",
+      "type": "description",
+      "value": {
+        "latex": "A l'aide des formules du tableur, calculer :",
+        "html": "<p>A l’aide des formules du tableur, calculer :</p>\n"
+      }
+    },
+    {
+      "id": "2d6de42a-ecb6-48e9-a16f-a157ef6ba143",
+      "type": "question",
+      "value": {
+        "latex": "$\\PP(X \\leq 1.2)$ pour $X$ suivant une $\\mathcal{N}(0,1)$",
+        "html": "<p><span class=\"math inline\">\\(\\PP(X \\leq 1.2)\\)</span> pour <span\nclass=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{N}(0,1)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "20a197f3-b21a-412e-941e-5c32520f0a89",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=LOI.NORMALE.STANDARD(1,2)}",
+        "html": "<p><code>=LOI.NORMALE.STANDARD(1,2)</code></p>\n"
+      }
+    },
+    {
+      "id": "246e1d4f-7ae8-4355-a0c2-e1a8b905d4b8",
+      "type": "question",
+      "value": {
+        "latex": "$\\PP(X \\leq 102)$ pour $X$ suivant une $\\mathcal{N}(120,4)$",
+        "html": "<p><span class=\"math inline\">\\(\\PP(X \\leq 102)\\)</span> pour <span\nclass=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{N}(120,4)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f522e00b-8aa0-400c-a3a0-ca53f9889216",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=LOI.NORMALE(102;120;4;1)}",
+        "html": "<p><code>=LOI.NORMALE(102;120;4;1)</code></p>\n"
+      }
+    },
+    {
+      "id": "cf08b762-426c-4c64-8a11-d44f66654317",
+      "type": "question",
+      "value": {
+        "latex": "la valeur $t$ telle que $\\PP(X \\leq t) = 90\\%$ pour $X$ suivant une $\\mathcal{N}(120,4)$",
+        "html": "<p>la valeur <span class=\"math inline\">\\(t\\)</span> telle que <span\nclass=\"math inline\">\\(\\PP(X \\leq t) = 90\\%\\)</span> pour <span\nclass=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{N}(120,4)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f2e46e8f-9fba-4c32-acc3-bc4b950ef48f",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=LOI.NORMALE.INVERSE.N(0,9;120;4)}",
+        "html": "<p><code>=LOI.NORMALE.INVERSE.N(0,9;120;4)</code></p>\n"
+      }
+    },
+    {
+      "id": "4393eb62-f7ec-4bd5-b5cf-8fbfe5b2fb72",
+      "type": "question",
+      "value": {
+        "latex": "$\\PP(X \\geq 40)$ pour $X$ suivant une $\\mathcal{N}(50,3)$",
+        "html": "<p><span class=\"math inline\">\\(\\PP(X \\geq 40)\\)</span> pour <span\nclass=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{N}(50,3)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "21dfdfa1-4d19-4af6-b796-e9791db76371",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=1-LOI.NORMALE(40;50;3;1)}",
+        "html": "<p><code>=1-LOI.NORMALE(40;50;3;1)</code></p>\n"
+      }
+    },
+    {
+      "id": "2f894535-5d4e-42e6-acbd-fe4e5746c69d",
+      "type": "question",
+      "value": {
+        "latex": "$\\PP( 90 \\leq X \\leq 120)$ pour $X$ suivant une $\\mathcal{N}(100,15)$",
+        "html": "<p><span class=\"math inline\">\\(\\PP( 90 \\leq X \\leq 120)\\)</span> pour\n<span class=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{N}(100,15)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "79652ed6-a898-4151-b43e-da991b9c32be",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=LOI.NORMALE(120;100;15;1)-LOI.NORMALE(90;100;15;1)}",
+        "html": "<p><code>=LOI.NORMALE(120;100;15;1)-LOI.NORMALE(90;100;15;1)</code></p>\n"
+      }
+    },
+    {
+      "id": "a1f6e5be-0f55-4798-97ca-c4585d0a501a",
+      "type": "question",
+      "value": {
+        "latex": "$\\PP(X \\geq 5)$ pour $X$ suivant une $\\mathcal{E}(1/2)$",
+        "html": "<p><span class=\"math inline\">\\(\\PP(X \\geq 5)\\)</span> pour <span\nclass=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{E}(1/2)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b0b2cc1e-5bc2-4e9e-a9a6-be8bc673266b",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=1-LOI.EXPONENTIELLE.N(5;0,5;1)}",
+        "html": "<p><code>=1-LOI.EXPONENTIELLE.N(5;0,5;1)</code></p>\n"
+      }
+    },
+    {
+      "id": "a19503bd-8cc2-44cd-ab76-53b42638fcc8",
+      "type": "question",
+      "value": {
+        "latex": "$\\PP(X = 3)$ et $\\PP(X \\geq 2)$ pour $X$ suivant une $\\mathcal{P}(1.5)$",
+        "html": "<p><span class=\"math inline\">\\(\\PP(X = 3)\\)</span> et <span\nclass=\"math inline\">\\(\\PP(X \\geq 2)\\)</span> pour <span\nclass=\"math inline\">\\(X\\)</span> suivant une <span\nclass=\"math inline\">\\(\\mathcal{P}(1.5)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "77936abb-6ce7-4e77-875a-2ec483744f11",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=LOI.POISSON.N(3;1,5;0)} et \\texttt{=1-LOI.POISSON.N(2;1,5;1)}",
+        "html": "<p><code>=LOI.POISSON.N(3;1,5;0)</code> et\n<code>=1-LOI.POISSON.N(2;1,5;1)</code></p>\n"
+      }
+    },
+    {
+      "id": "63e3b797-313f-4586-a40e-17b50a2507bf",
+      "type": "question",
+      "value": {
+        "latex": "la valeur $t$ telle que $\\PP(100-t \\leq X \\leq 100+t) = 95\\%$ où $X$ suit une $\\mathcal{N}(100,15)$",
+        "html": "<p>la valeur <span class=\"math inline\">\\(t\\)</span> telle que <span\nclass=\"math inline\">\\(\\PP(100-t \\leq X \\leq 100+t) = 95\\%\\)</span> où\n<span class=\"math inline\">\\(X\\)</span> suit une <span\nclass=\"math inline\">\\(\\mathcal{N}(100,15)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "710f5e6d-fd2f-407e-befe-2dc2d5dd8e83",
+      "type": "reponse",
+      "value": {
+        "latex": "\\texttt{=LOI.NORMALE.INVERSE.N(0,975;0;15)}",
+        "html": "<p><code>=LOI.NORMALE.INVERSE.N(0,975;0;15)</code></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>A l’aide des formules du tableur, calculer :</p>\n"
+}

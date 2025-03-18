@@ -1,0 +1,79 @@
+{
+  "uuid": "lZfc",
+  "titre": "Produit matriciel et inverse",
+  "theme": [
+    "calcul matriciel"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Maxime NGUYEN",
+    "createdAt": "2022-12-15",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:53:49.240Z"
+  },
+  "contenu": [
+    {
+      "id": "2d2c6b3e-84ea-40a7-b77e-f2ce35a19802",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A=\\begin{pmatrix}a & 0 & 0 \\\\ 0 & b & 0 \\\\ 0 & 0 & c\\end{pmatrix}$ et $B=\\begin{pmatrix}d & 0 & 0 \\\\ 0 & e & 0 \\\\ 0 & 0 & f\\end{pmatrix}$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A=\\begin{pmatrix}a &amp; 0 &amp; 0\n\\\\ 0 &amp; b &amp; 0 \\\\ 0 &amp; 0 &amp; c\\end{pmatrix}\\)</span> et <span\nclass=\"math inline\">\\(B=\\begin{pmatrix}d &amp; 0 &amp; 0 \\\\ 0 &amp; e\n&amp; 0 \\\\ 0 &amp; 0 &amp; f\\end{pmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bec83df1-8096-4141-b4fa-5aee2d52b1c5",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $A \\times B$ et $B \\times A$. Que remarque-t-on ?",
+        "html": "<p>Calculer <span class=\"math inline\">\\(A \\times B\\)</span> et <span\nclass=\"math inline\">\\(B \\times A\\)</span>. Que remarque-t-on ?</p>\n"
+      }
+    },
+    {
+      "id": "d57339c2-4c93-4ece-8d42-abf035636986",
+      "type": "reponse",
+      "value": {
+        "latex": "On remarque que $AB = BA = \\begin{pmatrix}ad & 0 & 0 \\\\ 0 & be & 0 \\\\ 0 & 0 & cf\\end{pmatrix}$",
+        "html": "<p>On remarque que <span class=\"math inline\">\\(AB = BA =\n\\begin{pmatrix}ad &amp; 0 &amp; 0 \\\\ 0 &amp; be &amp; 0 \\\\ 0 &amp; 0\n&amp; cf\\end{pmatrix}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0482ffbf-75e8-4d55-8ed1-ee89018941c6",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $A^k$ pour tout entier $k \\geq 1$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(A^k\\)</span> pour tout entier\n<span class=\"math inline\">\\(k \\geq 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cc90ad6d-74a2-4f20-a10b-c6a3cd27cf83",
+      "type": "reponse",
+      "value": {
+        "latex": "On déduit de la question précédente que $A^2 = \\begin{pmatrix}a^2 & 0 & 0 \\\\ 0 & b^2 & 0 \\\\ 0 & 0 & c^2\\end{pmatrix}$ puis par récurrence que :\n\t\t$$A^k = \\begin{pmatrix}a^k & 0 & 0 \\\\ 0 & b^k & 0 \\\\ 0 & 0 & c^k\\end{pmatrix}.$$",
+        "html": "<p>On déduit de la question précédente que <span\nclass=\"math inline\">\\(A^2 = \\begin{pmatrix}a^2 &amp; 0 &amp; 0 \\\\ 0\n&amp; b^2 &amp; 0 \\\\ 0 &amp; 0 &amp; c^2\\end{pmatrix}\\)</span> puis par\nrécurrence que : <span class=\"math display\">\\[A^k = \\begin{pmatrix}a^k\n&amp; 0 &amp; 0 \\\\ 0 &amp; b^k &amp; 0 \\\\ 0 &amp; 0 &amp;\nc^k\\end{pmatrix}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d0dd0bfd-7a82-47ed-a64c-c4f9171dabe9",
+      "type": "question",
+      "value": {
+        "latex": "\\`A quelles conditions sur $a,b,c \\in \\R$ la matrice $A$ est-elle inversible ? Déterminer dans ce cas $A^{-1}$ puis $A^{-k}$ pour tout entier $k \\geq 1$.",
+        "html": "<p>À quelles conditions sur <span class=\"math inline\">\\(a,b,c \\in\n\\R\\)</span> la matrice <span class=\"math inline\">\\(A\\)</span> est-elle\ninversible ? Déterminer dans ce cas <span\nclass=\"math inline\">\\(A^{-1}\\)</span> puis <span\nclass=\"math inline\">\\(A^{-k}\\)</span> pour tout entier <span\nclass=\"math inline\">\\(k \\geq 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8a15021f-9dc6-4067-bc45-2a573a6437bd",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $a \\neq 0$, $b \\neq 0$ et $c \\neq 0$ alors la matrice $A$ est inversible et \n$$A^{-1} = \\begin{pmatrix}a^{-1} & 0 & 0 \\\\ 0 & b^{-1} & 0 \\\\ 0 & 0 & c^{-1}\\end{pmatrix}$$",
+        "html": "<p>Si <span class=\"math inline\">\\(a \\neq 0\\)</span>, <span\nclass=\"math inline\">\\(b \\neq 0\\)</span> et <span class=\"math inline\">\\(c\n\\neq 0\\)</span> alors la matrice <span class=\"math inline\">\\(A\\)</span>\nest inversible et <span class=\"math display\">\\[A^{-1} =\n\\begin{pmatrix}a^{-1} &amp; 0 &amp; 0 \\\\ 0 &amp; b^{-1} &amp; 0 \\\\ 0\n&amp; 0 &amp; c^{-1}\\end{pmatrix}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A=\\begin{pmatrix}a &amp; 0 &amp; 0\n\\\\ 0 &amp; b &amp; 0 \\\\ 0 &amp; 0 &amp; c\\end{pmatrix}\\)</span> et <span\nclas ..."
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "shC7",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2866",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:16.970Z"
+  },
+  "contenu": [
+    {
+      "id": "12942746-9ae2-4ede-a44f-2e3b06ed8c5b",
+      "type": "description",
+      "value": {
+        "latex": "Prouver, pour tout $x\\in \\Rr$: \n\\[\\frac1{2\\pi}\\int_\\Rr e^{-i\\xi x}(\\pi e^{-|\\xi|})d\\xi =\n\\frac1{1+x^2}\\;.\\] Il suffit d'évaluer séparément\n$\\int_{-\\infty}^0$ et $\\int_0^\\infty$ en utilisant le fait\nque $\\exp$ est sa propre primitive (ce calcul n'utilise donc\npas la notion de fonction analytique et le théorème des\nrésidus). On remarquera que l'on retombe sur la fonction\n$1/(1+x^2)$, ce qui n'est pas un hasard (formule d'inversion\npour les transformations intégrales de Fourier).",
+        "html": "<p>Prouver, pour tout <span class=\"math inline\">\\(x\\in \\Rr\\)</span>:\n<span class=\"math display\">\\[\\frac1{2\\pi}\\int_\\Rr e^{-i\\xi x}(\\pi\ne^{-|\\xi|})d\\xi =\n\\frac1{1+x^2}\\;.\\]</span> Il suffit d’évaluer séparément <span\nclass=\"math inline\">\\(\\int_{-\\infty}^0\\)</span> et <span\nclass=\"math inline\">\\(\\int_0^\\infty\\)</span> en utilisant le fait que\n<span class=\"math inline\">\\(\\exp\\)</span> est sa propre primitive (ce\ncalcul n’utilise donc pas la notion de fonction analytique et le\nthéorème des résidus). On remarquera que l’on retombe sur la fonction\n<span class=\"math inline\">\\(1/(1+x^2)\\)</span>, ce qui n’est pas un\nhasard (formule d’inversion pour les transformations intégrales de\nFourier).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Prouver, pour tout <span class=\"math inline\">\\(x\\in \\Rr\\)</span>:\n<span class=\"math display\"> ..."
+}

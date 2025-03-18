@@ -1,0 +1,37 @@
+{
+  "uuid": "qO9J",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4874",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Géométrie affine dans le plan et dans l'espace",
+    "sousChapitre": "Applications affines",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:05.207Z"
+  },
+  "contenu": [
+    {
+      "id": "b3df85a7-e496-4aad-b478-2e0e242de0f8",
+      "type": "description",
+      "value": {
+        "latex": "Dans un espace affine ${\\cal E}$, on considère quatre points $A,B,C,D$.\n\\'Etudier l'existence d'une application affine $f$ telle que\n$f(A) = B$, $f(B) = C$, $f(C) = D$, $f(D) = A$.",
+        "html": "<p>Dans un espace affine <span class=\"math inline\">\\({\\cal E}\\)</span>,\non considère quatre points <span class=\"math inline\">\\(A,B,C,D\\)</span>.\nÉtudier l’existence d’une application affine <span\nclass=\"math inline\">\\(f\\)</span> telle que <span\nclass=\"math inline\">\\(f(A) = B\\)</span>, <span\nclass=\"math inline\">\\(f(B) = C\\)</span>, <span\nclass=\"math inline\">\\(f(C) = D\\)</span>, <span\nclass=\"math inline\">\\(f(D) = A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f2a6ecd6-f60f-49d5-bcb9-fcb5eae48814",
+      "type": "reponse",
+      "value": {
+        "latex": "si trois points sont non alignés, $ABCD$ doit être un parallélogramme.\n\nsi deux points sont distincts et $A,B,C,D$ sont alignés, on doit avoir\n$A=C$, $B=D$.",
+        "html": "<p>si trois points sont non alignés, <span\nclass=\"math inline\">\\(ABCD\\)</span> doit être un parallélogramme.</p>\n<p>si deux points sont distincts et <span\nclass=\"math inline\">\\(A,B,C,D\\)</span> sont alignés, on doit avoir <span\nclass=\"math inline\">\\(A=C\\)</span>, <span\nclass=\"math inline\">\\(B=D\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans un espace affine <span class=\"math inline\">\\({\\cal E}\\)</span>,\non considère quatre points <span class=\"math inline\">\\(A,B,C,D\\)</span>.\nÉtudi ..."
+}

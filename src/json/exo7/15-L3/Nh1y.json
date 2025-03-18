@@ -1,0 +1,45 @@
+{
+  "uuid": "Nh1y",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2369",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire bornée",
+    "sousChapitre": "Application linéaire bornée",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:39.090Z"
+  },
+  "contenu": [
+    {
+      "id": "ec9bbfd9-009d-4190-b059-428722aee51c",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X = \\{f\\in {\\cal C}(\\Rr ) \\; ; \\; (1+x^ 2 ) |f(x)| \\text{ soit born\\'ee}\\}$. On pose\n$N(f) = \\sup_{x\\in \\Rr}(1+x^ 2 ) |f(x)|$. V\\'erifier que $N$ est une norme, puis\nmontrer que la forme lin\\'eaire suivante $L$ est continue et calculer sa norme:\n$$ L:X\\to \\Rr \\quad \\mbox{d\\'efinie par} \\quad L(f) = \\int _\\Rr f(x) \\; dx \\; .$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(X = \\{f\\in {\\cal C}(\\Rr ) \\; ; \\;\n(1+x^ 2 ) |f(x)| \\text{ soit bornée}\\}\\)</span>. On pose <span\nclass=\"math inline\">\\(N(f) = \\sup_{x\\in \\Rr}(1+x^ 2 ) |f(x)|\\)</span>.\nVérifier que <span class=\"math inline\">\\(N\\)</span> est une norme, puis\nmontrer que la forme linéaire suivante <span\nclass=\"math inline\">\\(L\\)</span> est continue et calculer sa norme:\n<span class=\"math display\">\\[L:X\\to \\Rr \\quad \\mbox{définie par} \\quad\nL(f) = \\int _\\Rr f(x) \\; dx \\; .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "164bd7c1-6b62-4033-9a2b-33639ebb3956",
+      "type": "indication",
+      "value": {
+        "latex": "Montrer que $\\|L\\|=\\pi$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\|L\\|=\\pi\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8eaf41ba-1351-4e0b-aba3-71abd304eb42",
+      "type": "reponse",
+      "value": {
+        "latex": "$N$ est bien une norme. Et on a pour tout $x$, $(1+x^2)|f(x)| \\le N(f)$.\n$$|L(f)| = |\\int_\\Rr f | \\le \\int_\\Rr |f| \\le  \\int_\\Rr \\frac{N(f)}{1+x^2}dx \n\\le N(f) \\int_\\Rr \\frac{1}{1+x^2} = N(f)[\\Arctan x]_{-\\infty}^{+\\infty} = N(f)\\pi.$$\nDonc pour tout $f$ on a \n$$\\frac{\\int f}{N(f)} \\le \\pi.$$\nDe plus pour $f(x) = \\frac{1}{1+x^2}$ on obtient l'égalité. Donc la norme $\\|L\\|$ de l'application $L$ est $\\pi$.",
+        "html": "<p><span class=\"math inline\">\\(N\\)</span> est bien une norme. Et on a\npour tout <span class=\"math inline\">\\(x\\)</span>, <span\nclass=\"math inline\">\\((1+x^2)|f(x)| \\le N(f)\\)</span>. <span\nclass=\"math display\">\\[|L(f)| = |\\int_\\Rr f | \\le \\int_\\Rr |f|\n\\le  \\int_\\Rr \\frac{N(f)}{1+x^2}dx\n\\le N(f) \\int_\\Rr \\frac{1}{1+x^2} = N(f)[\\Arctan x]_{-\\infty}^{+\\infty}\n= N(f)\\pi.\\]</span> Donc pour tout <span\nclass=\"math inline\">\\(f\\)</span> on a <span\nclass=\"math display\">\\[\\frac{\\int f}{N(f)} \\le \\pi.\\]</span> De plus\npour <span class=\"math inline\">\\(f(x) = \\frac{1}{1+x^2}\\)</span> on\nobtient l’égalité. Donc la norme <span\nclass=\"math inline\">\\(\\|L\\|\\)</span> de l’application <span\nclass=\"math inline\">\\(L\\)</span> est <span\nclass=\"math inline\">\\(\\pi\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X = \\{f\\in {\\cal C}(\\Rr ) \\; ; \\;\n(1+x^ 2 ) |f(x)| \\text{ soit bornée}\\}\\)</span>. On pose <span\nclass=\"math inlin ..."
+}

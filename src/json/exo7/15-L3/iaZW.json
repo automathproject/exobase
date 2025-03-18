@@ -1,0 +1,45 @@
+{
+  "uuid": "iaZW",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2392",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème de Baire",
+    "sousChapitre": "Théorème de Baire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:55.260Z"
+  },
+  "contenu": [
+    {
+      "id": "e5ec1e20-8ade-4a51-82cf-7e7c0009c175",
+      "type": "description",
+      "value": {
+        "latex": "\\`A l'aide du th\\'eor\\`eme de Baire, montrer qu'un ferm\\'e d\\'enombrable non vide $X$ de\n$\\Rr$ a au moins un point isol\\'e.\n\\emph{Indication :} on pourra considérer $\\omega_x = X \\setminus \\{x\\}$.\n\nQue peut-on dire de l'ensemble de Cantor ?",
+        "html": "<p>À l’aide du théorème de Baire, montrer qu’un fermé dénombrable non\nvide <span class=\"math inline\">\\(X\\)</span> de <span\nclass=\"math inline\">\\(\\Rr\\)</span> a au moins un point isolé.\n<em>Indication :</em> on pourra considérer <span\nclass=\"math inline\">\\(\\omega_x = X \\setminus \\{x\\}\\)</span>.</p>\n<p>Que peut-on dire de l’ensemble de Cantor ?</p>\n"
+      }
+    },
+    {
+      "id": "596fe01b-cebb-4b19-b4f8-3010374799b3",
+      "type": "indication",
+      "value": {
+        "latex": "Raisonner par l'absurde et montrer que $\\omega_x$ est un ouvert dense.",
+        "html": "<p>Raisonner par l’absurde et montrer que <span\nclass=\"math inline\">\\(\\omega_x\\)</span> est un ouvert dense.</p>\n"
+      }
+    },
+    {
+      "id": "83a44064-066b-4ba7-abec-f0ecd6400870",
+      "type": "reponse",
+      "value": {
+        "latex": "Par l'absurde supposons que $X$ n'a aucun point isolé.\nComme $\\{x\\}$ est un fermé alors $\\omega_x = X \\setminus \\{x\\}$\nest un ouvert (de $X$). De plus comme le point $x$ n'est pas isolé\nalors $\\omega_x$ est dense dans $X$.\n\nMaintenant on peut appliquer le théorème de Baire à $X$ qui est un fermé de l'espace complet $\\Rr$. Donc une intersection dénombrable d'ouverts denses dans $X$ est encore dense.\nMais ici nous obtenons une contradiction car les $\\omega_x$ sont des ouverts denses, $X$ est dénombrable mais $$\\bigcap_{x\\in X} \\omega_x = \\varnothing.$$\nEt l'ensemble vide n'est pas dense dans $X$ !!\nPour l'ensemble de Cantor aucun point n'est isolé, donc par la question précédente\nl'ensemble de Cantor n'est pas dénombrable.",
+        "html": "<p>Par l’absurde supposons que <span class=\"math inline\">\\(X\\)</span>\nn’a aucun point isolé. Comme <span class=\"math inline\">\\(\\{x\\}\\)</span>\nest un fermé alors <span class=\"math inline\">\\(\\omega_x = X \\setminus\n\\{x\\}\\)</span> est un ouvert (de <span\nclass=\"math inline\">\\(X\\)</span>). De plus comme le point <span\nclass=\"math inline\">\\(x\\)</span> n’est pas isolé alors <span\nclass=\"math inline\">\\(\\omega_x\\)</span> est dense dans <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n<p>Maintenant on peut appliquer le théorème de Baire à <span\nclass=\"math inline\">\\(X\\)</span> qui est un fermé de l’espace complet\n<span class=\"math inline\">\\(\\Rr\\)</span>. Donc une intersection\ndénombrable d’ouverts denses dans <span class=\"math inline\">\\(X\\)</span>\nest encore dense. Mais ici nous obtenons une contradiction car les <span\nclass=\"math inline\">\\(\\omega_x\\)</span> sont des ouverts denses, <span\nclass=\"math inline\">\\(X\\)</span> est dénombrable mais <span\nclass=\"math display\">\\[\\bigcap_{x\\in X} \\omega_x = \\varnothing.\\]</span>\nEt l’ensemble vide n’est pas dense dans <span\nclass=\"math inline\">\\(X\\)</span> !! Pour l’ensemble de Cantor aucun\npoint n’est isolé, donc par la question précédente l’ensemble de Cantor\nn’est pas dénombrable.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>À l’aide du théorème de Baire, montrer qu’un fermé dénombrable non\nvide <span class=\"math inline\">\\(X\\)</span> de <span\nclass=\"math inline\">\\(\\Rr\\) ..."
+}

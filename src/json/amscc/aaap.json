@@ -1,0 +1,64 @@
+{
+  "uuid": "aaap",
+  "titre": "Fonction caractéristique et loi normale",
+  "theme": [
+    "loi normale",
+    "fonction caractéristique"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2024-11-02",
+    "hasIndication": false,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:52:34.818Z"
+  },
+  "contenu": [
+    {
+      "id": "2a534b84-a287-4a18-aab6-43ccd3fe66ae",
+      "type": "description",
+      "value": {
+        "latex": "Soit $Z$ une variable aléatoire suivant une loi normale centrée réduite. On rappelle que la fonction caractéristique de $Z$ est définie pour tout réel $t$ par :\n$$\\phi_Z(t)=\\E(e^{itZ})=e^{-\\frac{t^2}{2}}.$$",
+        "html": "<p>Soit <span class=\"math inline\">\\(Z\\)</span> une variable aléatoire\nsuivant une loi normale centrée réduite. On rappelle que la fonction\ncaractéristique de <span class=\"math inline\">\\(Z\\)</span> est définie\npour tout réel <span class=\"math inline\">\\(t\\)</span> par : <span\nclass=\"math display\">\\[\\phi_Z(t)=\\E(e^{itZ})=e^{-\\frac{t^2}{2}}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1b8046a0-d5cf-4fa9-9c36-7b2e91aa7f5b",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\mu$ un réel et $\\sigma$ un réel strictement positif. Sans justifier, donner la loi de $X=\\sigma Z+\\mu$, puis calculer la fonction caractéristique de $X$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\mu\\)</span> un réel et <span\nclass=\"math inline\">\\(\\sigma\\)</span> un réel strictement positif. Sans\njustifier, donner la loi de <span class=\"math inline\">\\(X=\\sigma\nZ+\\mu\\)</span>, puis calculer la fonction caractéristique de <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "616bede9-725a-4d79-b9d2-6edeeaa47926",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(X_1,\\dots{},X_5)$ une suite de 5 variables aléatoires indépendantes et équidistribuées selon une loi normale de moyenne $\\mu=70$ et d’écart type $\\sigma=15$. Soit $S=\\displaystyle\\sum_{i=1}^{5}X_i$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((X_1,\\dots{},X_5)\\)</span> une suite\nde 5 variables aléatoires indépendantes et équidistribuées selon une loi\nnormale de moyenne <span class=\"math inline\">\\(\\mu=70\\)</span> et\nd’écart type <span class=\"math inline\">\\(\\sigma=15\\)</span>. Soit <span\nclass=\"math inline\">\\(S=\\displaystyle\\sum_{i=1}^{5}X_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6329c186-bb49-401b-882a-8df9e79bab01",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la fonction caractéristique de $S$ et en déduire la loi de $S$.",
+        "html": "<p>Calculer la fonction caractéristique de <span\nclass=\"math inline\">\\(S\\)</span> et en déduire la loi de <span\nclass=\"math inline\">\\(S\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "261d1461-4be4-4a0f-9eea-f785b6e2e4ca",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la valeur de $\\prob(S>450)$ à $10^{-2}$ près.",
+        "html": "<p>Calculer la valeur de <span\nclass=\"math inline\">\\(\\prob(S&gt;450)\\)</span> à <span\nclass=\"math inline\">\\(10^{-2}\\)</span> près.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(Z\\)</span> une variable aléatoire\nsuivant une loi normale centrée réduite. On rappelle que la fonction\ncaractérist ..."
+}

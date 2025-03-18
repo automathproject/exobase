@@ -1,0 +1,61 @@
+{
+  "uuid": "7mHG",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4350",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:36.650Z"
+  },
+  "contenu": [
+    {
+      "id": "2624135e-b16c-452b-9abc-5d0cdf007bf8",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f:\\R \\to \\R$ continue. On définit pour $x \\in \\R^*$ et $y \\in \\R$ :\n$g(x,y) = \\frac 1x  \\int_{t=x}^{xy} f(t)\\,d t$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> continue. On\ndéfinit pour <span class=\"math inline\">\\(x \\in \\R^*\\)</span> et <span\nclass=\"math inline\">\\(y \\in \\R\\)</span> : <span\nclass=\"math inline\">\\(g(x,y) = \\frac 1x  \\int_{t=x}^{xy} f(t)\\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0a073ce4-26c3-4285-9970-df43d6c28ea5",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $g$ peut être prolongée en une fonction continue sur $\\R^2$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(g\\)</span> peut être\nprolongée en une fonction continue sur <span\nclass=\"math inline\">\\(\\R^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dbe6258e-ddd1-4dc2-a5ff-fb5e9fa16607",
+      "type": "reponse",
+      "value": {
+        "latex": "$g(x,y) =  \\int_{u=1}^y f(ux)\\,d u$.",
+        "html": "<p><span class=\"math inline\">\\(g(x,y) =  \\int_{u=1}^y f(ux)\\,d\nu\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ab74378b-6fc2-493f-b167-2b85ac74d0e2",
+      "type": "question",
+      "value": {
+        "latex": "On suppose de plus $f$ dérivable en 0. Montrer que $g$ est de classe $\\mathcal{C}^1$.",
+        "html": "<p>On suppose de plus <span class=\"math inline\">\\(f\\)</span> dérivable\nen 0. Montrer que <span class=\"math inline\">\\(g\\)</span> est de classe\n<span class=\"math inline\">\\(\\mathcal{C}^1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bab82beb-967b-4e63-bdf8-519d642739f9",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{\\partial g}{\\partial x} =\n             \\frac1x \\Bigl( yf(xy)-f(x) -  \\int_{u=1}^y f(ux)\\,d u\\Bigr)\n             \\to \\frac{y^2-1}2f'(0)$ lorsque $x\\to0$.",
+        "html": "<p><span class=\"math inline\">\\(\\frac{\\partial g}{\\partial x} =\n             \\frac1x \\Bigl( yf(xy)-f(x) -  \\int_{u=1}^y f(ux)\\,d u\\Bigr)\n             \\to \\frac{y^2-1}2f&#39;(0)\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\to0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f:\\R \\to \\R\\)</span> continue. On\ndéfinit pour <span class=\"math inline\">\\(x \\in \\R^*\\)</span> et <span\nclass=\"mat ..."
+}

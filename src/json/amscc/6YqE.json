@@ -1,0 +1,72 @@
+{
+  "uuid": "6YqE",
+  "titre": "Contrôle qualité",
+  "theme": [
+    "statistiques",
+    "tests d'hypothèses"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2022-10-17",
+    "hasIndication": false,
+    "hasCorrection": false,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:50:39.048Z"
+  },
+  "contenu": [
+    {
+      "id": "45d12470-a9f5-4992-bc2d-e2847159ab61",
+      "type": "description",
+      "value": {
+        "latex": "La proportion $p$ des pièces défectueuses fabriquées par une machine est $p=0.05$ quand la machine est bien réglée, et s'élève à $p_1=0.10$ quand est elle déréglée. \n\nOn dispose d'un lot de pièces fabriquées par la machine qui doit permettre de décider si la machine est bien réglée ou non. Un  échantillon aléatoire de 100 pièces, prélevé dans le lot, contient 8 mauvaises pièces.",
+        "html": "<p>La proportion <span class=\"math inline\">\\(p\\)</span> des pièces\ndéfectueuses fabriquées par une machine est <span\nclass=\"math inline\">\\(p=0.05\\)</span> quand la machine est bien réglée,\net s’élève à <span class=\"math inline\">\\(p_1=0.10\\)</span> quand est\nelle déréglée.</p>\n<p>On dispose d’un lot de pièces fabriquées par la machine qui doit\npermettre de décider si la machine est bien réglée ou non. Un\néchantillon aléatoire de 100 pièces, prélevé dans le lot, contient 8\nmauvaises pièces.</p>\n"
+      }
+    },
+    {
+      "id": "ff6bb34b-c30a-421d-bc5f-88a9237a07e0",
+      "type": "question",
+      "value": {
+        "latex": "On pose $\\pi$ la valeur critique. En utilisant la définition, exprimer le risque de 1ère espèce $\\alpha$ en fonction de cette valeur critique.",
+        "html": "<p>On pose <span class=\"math inline\">\\(\\pi\\)</span> la valeur critique.\nEn utilisant la définition, exprimer le risque de 1ère espèce <span\nclass=\"math inline\">\\(\\alpha\\)</span> en fonction de cette valeur\ncritique.</p>\n"
+      }
+    },
+    {
+      "id": "34339531-6fc9-4b04-9d40-391ffc1382f0",
+      "type": "question",
+      "value": {
+        "latex": "On pose $\\alpha = 0.05$. Quelle est la région d'acceptation de l'hypothèse $H_0$ ?",
+        "html": "<p>On pose <span class=\"math inline\">\\(\\alpha = 0.05\\)</span>. Quelle\nest la région d’acceptation de l’hypothèse <span\nclass=\"math inline\">\\(H_0\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "e2633646-f485-4daa-b369-4c7223dc96f9",
+      "type": "question",
+      "value": {
+        "latex": "La machine est-elle bien réglée ?",
+        "html": "<p>La machine est-elle bien réglée ?</p>\n"
+      }
+    },
+    {
+      "id": "5a2433a3-ef7d-4e69-b3ec-e7d04818b599",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est l'erreur de seconde espèce $\\beta$ ?",
+        "html": "<p>Quelle est l’erreur de seconde espèce <span\nclass=\"math inline\">\\(\\beta\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "2dab98f7-b478-4f96-bd22-d8216d9fa061",
+      "type": "question",
+      "value": {
+        "latex": "Quel doit être l'effectif de l'échantillon $n$ pour qu'une fréquence observée de pièce défectueuses de $0.08$ permette de conclure à un dérèglement de la machine ?",
+        "html": "<p>Quel doit être l’effectif de l’échantillon <span\nclass=\"math inline\">\\(n\\)</span> pour qu’une fréquence observée de pièce\ndéfectueuses de <span class=\"math inline\">\\(0.08\\)</span> permette de\nconclure à un dérèglement de la machine ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>La proportion <span class=\"math inline\">\\(p\\)</span> des pièces\ndéfectueuses fabriquées par une machine est <span\nclass=\"math inline\">\\(p=0.05\\)</s ..."
+}

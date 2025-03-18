@@ -1,0 +1,37 @@
+{
+  "uuid": "suEo",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2836",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Théorème des résidus",
+    "sousChapitre": "Théorème des résidus",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:17.595Z"
+  },
+  "contenu": [
+    {
+      "id": "7116510c-6fa3-4b2d-a346-ea4d869b4c75",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que tout lacet est homotopiquement trivial dans $\\Cc$.",
+        "html": "<p>Montrer que tout lacet est homotopiquement trivial dans <span\nclass=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "052a1964-c16b-48c1-b00e-0be0d3d9482f",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $\\gamma:I\\to \\C$ un lacet quelconque. Posons\n$$H(t,u)=u\\gamma (t) \\quad \\text{pour} \\quad t\\in I \\quad \\text{et} \\quad u\\in [0,1].$$\n C'est clairement une homotopie de lacets\n(voir la d\\'efinition du cours!) telle que $H(t,1)=\\gamma (t)$  et $H(t,0)=0$ pour tout $t\\in I$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\gamma:I\\to \\C\\)</span> un lacet\nquelconque. Posons <span class=\"math display\">\\[H(t,u)=u\\gamma (t) \\quad\n\\text{pour} \\quad t\\in I \\quad \\text{et} \\quad u\\in [0,1].\\]</span>\nC’est clairement une homotopie de lacets (voir la définition du cours!)\ntelle que <span class=\"math inline\">\\(H(t,1)=\\gamma (t)\\)</span> et\n<span class=\"math inline\">\\(H(t,0)=0\\)</span> pour tout <span\nclass=\"math inline\">\\(t\\in I\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que tout lacet est homotopiquement trivial dans <span\nclass=\"math inline\">\\(\\Cc\\)</span>.</p>\n"
+}

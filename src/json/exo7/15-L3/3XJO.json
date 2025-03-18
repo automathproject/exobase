@@ -1,0 +1,93 @@
+{
+  "uuid": "3XJO",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2352",
+    "auteur": "queffelec",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Espace topologique, espace métrique",
+    "sousChapitre": "Espace topologique, espace métrique",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:22.297Z"
+  },
+  "contenu": [
+    {
+      "id": "d4f1e448-d936-4117-9dc2-5590e6d5999a",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\R^n$ considéré comme groupe additif muni de sa topologie usuelle.\nSoit $G$ un sous-groupe de $\\R^n$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\R^n\\)</span> considéré comme groupe\nadditif muni de sa topologie usuelle. Soit <span\nclass=\"math inline\">\\(G\\)</span> un sous-groupe de <span\nclass=\"math inline\">\\(\\R^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f9b35bfa-2c7b-43c1-8f9e-a3a33949aef8",
+      "type": "question",
+      "value": {
+        "latex": "On suppose que $0$ est isolé dans $G$. Montrer que tout point est isolé,\nque $G$ est discret et fermé dans $\\R^n$.\n\n On se restreint maintenant au cas $n=1$.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\(0\\)</span> est isolé dans\n<span class=\"math inline\">\\(G\\)</span>. Montrer que tout point est\nisolé, que <span class=\"math inline\">\\(G\\)</span> est discret et fermé\ndans <span class=\"math inline\">\\(\\R^n\\)</span>.</p>\n<p>On se restreint maintenant au cas <span\nclass=\"math inline\">\\(n=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b43f6066-44e0-4ae0-a50d-ace68d28d754",
+      "type": "reponse",
+      "value": {
+        "latex": "(Correction pour $n=1$, pour $n>1$ remplacer les intervalles par des boules.) Comme $0$ est isolé soit $I =  ]-\\epsilon,+\\epsilon[$ un voisinage de \n$0$ tel que $I\\cap G = \\{0\\}$. Soit $g\\in G$ et considérons $I_g = g+I = ]g-\\epsilon,g+\\epsilon[$. Supposons, par l'absurde, que $I_g \\cap G$ ne soit pas réduit à $g$. Alors\nil existe $g' \\in I_g\\cap G$, $g'\\neq g$. Mais $g-\\epsilon < g' < g+\\epsilon$ et\ndonc $g-g'\\in I$ comme $G$ est un groupe on a $g-g'\\in G$ et on a $g-g'\\neq 0$. On a donc trouvé un élément $g-g' \\in G\\cap I$ qui n'est pas $0$. Ce qui est une contradiction.\n\nPour montrer que $G$ est discret (c'est-à-dire $G$ est dénombrable et ses points sont isolés) on remarque que la distance entre deux éléments de $G$ est au moins $\\epsilon$ donc pour $J_g = ]g-\\frac\\epsilon2, g+\\frac\\epsilon2[$ on a\n$g\\neq g'$ implique $J_g \\cap J_{g'} = \\varnothing$. Pour chaque $g\\in G$ on choisit $q(g) \\in \\Qq \\cap J_g$, ce qui donne une application :\n$\\Phi : G \\longrightarrow \\Qq$ définie par $\\Phi(g) = q(g)$, et $\\Phi$ est injective, donc $G$ est dénombrable.\n\nMontrons que $G$ est fermé : soit $(g_n)$ une suite de $G$ qui converge vers $g\\in\\Rr$. Pour $N$ assez grand et pour tout $n\\ge N$ on a\n$|g_n-g| \\le \\frac\\epsilon 4$. Pour $n\\ge N$ on a\n$|g_n-g_{N}| \\le |g_n-g|+|g-g_{N}| \\le \\frac \\epsilon4+\\frac\\epsilon4 \\le\\frac\\epsilon2$. Donc comme $g_N\\in J_{g_N}$ alors $g_n \\in J_{g_N}$ également, or $J_{g_N}$ ne contient qu'un seul élément de $G$ donc\n$g_n = g_N$ pour tout $n\\ge N$. La suite est donc stationnaire (i.e. constante à partir d'un certain rang) donc la limite $g$ vaut $g_N$ et en particulier\n$g \\in G$.",
+        "html": "<p>(Correction pour <span class=\"math inline\">\\(n=1\\)</span>, pour <span\nclass=\"math inline\">\\(n&gt;1\\)</span> remplacer les intervalles par des\nboules.) Comme <span class=\"math inline\">\\(0\\)</span> est isolé soit\n<span class=\"math inline\">\\(I =  ]-\\epsilon,+\\epsilon[\\)</span> un\nvoisinage de <span class=\"math inline\">\\(0\\)</span> tel que <span\nclass=\"math inline\">\\(I\\cap G = \\{0\\}\\)</span>. Soit <span\nclass=\"math inline\">\\(g\\in G\\)</span> et considérons <span\nclass=\"math inline\">\\(I_g = g+I = ]g-\\epsilon,g+\\epsilon[\\)</span>.\nSupposons, par l’absurde, que <span class=\"math inline\">\\(I_g \\cap\nG\\)</span> ne soit pas réduit à <span class=\"math inline\">\\(g\\)</span>.\nAlors il existe <span class=\"math inline\">\\(g&#39; \\in I_g\\cap\nG\\)</span>, <span class=\"math inline\">\\(g&#39;\\neq g\\)</span>. Mais\n<span class=\"math inline\">\\(g-\\epsilon &lt; g&#39; &lt;\ng+\\epsilon\\)</span> et donc <span class=\"math inline\">\\(g-g&#39;\\in\nI\\)</span> comme <span class=\"math inline\">\\(G\\)</span> est un groupe on\na <span class=\"math inline\">\\(g-g&#39;\\in G\\)</span> et on a <span\nclass=\"math inline\">\\(g-g&#39;\\neq 0\\)</span>. On a donc trouvé un\nélément <span class=\"math inline\">\\(g-g&#39; \\in G\\cap I\\)</span> qui\nn’est pas <span class=\"math inline\">\\(0\\)</span>. Ce qui est une\ncontradiction.</p>\n<p>Pour montrer que <span class=\"math inline\">\\(G\\)</span> est discret\n(c’est-à-dire <span class=\"math inline\">\\(G\\)</span> est dénombrable et\nses points sont isolés) on remarque que la distance entre deux éléments\nde <span class=\"math inline\">\\(G\\)</span> est au moins <span\nclass=\"math inline\">\\(\\epsilon\\)</span> donc pour <span\nclass=\"math inline\">\\(J_g = ]g-\\frac\\epsilon2,\ng+\\frac\\epsilon2[\\)</span> on a <span class=\"math inline\">\\(g\\neq\ng&#39;\\)</span> implique <span class=\"math inline\">\\(J_g \\cap J_{g&#39;}\n= \\varnothing\\)</span>. Pour chaque <span class=\"math inline\">\\(g\\in\nG\\)</span> on choisit <span class=\"math inline\">\\(q(g) \\in \\Qq \\cap\nJ_g\\)</span>, ce qui donne une application : <span\nclass=\"math inline\">\\(\\Phi : G \\longrightarrow \\Qq\\)</span> définie par\n<span class=\"math inline\">\\(\\Phi(g) = q(g)\\)</span>, et <span\nclass=\"math inline\">\\(\\Phi\\)</span> est injective, donc <span\nclass=\"math inline\">\\(G\\)</span> est dénombrable.</p>\n<p>Montrons que <span class=\"math inline\">\\(G\\)</span> est fermé : soit\n<span class=\"math inline\">\\((g_n)\\)</span> une suite de <span\nclass=\"math inline\">\\(G\\)</span> qui converge vers <span\nclass=\"math inline\">\\(g\\in\\Rr\\)</span>. Pour <span\nclass=\"math inline\">\\(N\\)</span> assez grand et pour tout <span\nclass=\"math inline\">\\(n\\ge N\\)</span> on a <span\nclass=\"math inline\">\\(|g_n-g| \\le \\frac\\epsilon 4\\)</span>. Pour <span\nclass=\"math inline\">\\(n\\ge N\\)</span> on a <span\nclass=\"math inline\">\\(|g_n-g_{N}| \\le |g_n-g|+|g-g_{N}| \\le \\frac\n\\epsilon4+\\frac\\epsilon4 \\le\\frac\\epsilon2\\)</span>. Donc comme <span\nclass=\"math inline\">\\(g_N\\in J_{g_N}\\)</span> alors <span\nclass=\"math inline\">\\(g_n \\in J_{g_N}\\)</span> également, or <span\nclass=\"math inline\">\\(J_{g_N}\\)</span> ne contient qu’un seul élément de\n<span class=\"math inline\">\\(G\\)</span> donc <span\nclass=\"math inline\">\\(g_n = g_N\\)</span> pour tout <span\nclass=\"math inline\">\\(n\\ge N\\)</span>. La suite est donc stationnaire\n(i.e. constante à partir d’un certain rang) donc la limite <span\nclass=\"math inline\">\\(g\\)</span> vaut <span\nclass=\"math inline\">\\(g_N\\)</span> et en particulier <span\nclass=\"math inline\">\\(g \\in G\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a0d4851d-88cb-4759-968a-653e5964282d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'alors, $G$ est soit $\\{0\\}$, soit de la forme\n$a\\Zz$, $a>0$.",
+        "html": "<p>Montrer qu’alors, <span class=\"math inline\">\\(G\\)</span> est soit\n<span class=\"math inline\">\\(\\{0\\}\\)</span>, soit de la forme <span\nclass=\"math inline\">\\(a\\Zz\\)</span>, <span\nclass=\"math inline\">\\(a&gt;0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eb46dee5-b98f-43e7-ad2c-a9f9b283aff6",
+      "type": "reponse",
+      "value": {
+        "latex": "Supposons $G\\neq \\{0\\}$. Soit $a = \\inf G\\cap \\Rr_+^*$. Comme $0$ est isolé alors $a>0$.\nComme $G$ est fermé alors $a\\in G$. Soit $g\\in G$. Soit $k = E(\\frac g a)$ alors $k \\le  \\ \\frac g a < k+1$. Donc $0 \\le g-ka < a$. Or $g-ka$ est dans $G$ et dans $\\Rr_+$, comme il est plus petit que $a = \\inf G\\cap \\Rr_+^*$ alors nécessairement $g-ka=0$, soit $g=ka \\in a\\Zz$.",
+        "html": "<p>Supposons <span class=\"math inline\">\\(G\\neq \\{0\\}\\)</span>. Soit\n<span class=\"math inline\">\\(a = \\inf G\\cap \\Rr_+^*\\)</span>. Comme <span\nclass=\"math inline\">\\(0\\)</span> est isolé alors <span\nclass=\"math inline\">\\(a&gt;0\\)</span>. Comme <span\nclass=\"math inline\">\\(G\\)</span> est fermé alors <span\nclass=\"math inline\">\\(a\\in G\\)</span>. Soit <span\nclass=\"math inline\">\\(g\\in G\\)</span>. Soit <span\nclass=\"math inline\">\\(k = E(\\frac g a)\\)</span> alors <span\nclass=\"math inline\">\\(k \\le  \\ \\frac g a &lt; k+1\\)</span>. Donc <span\nclass=\"math inline\">\\(0 \\le g-ka &lt; a\\)</span>. Or <span\nclass=\"math inline\">\\(g-ka\\)</span> est dans <span\nclass=\"math inline\">\\(G\\)</span> et dans <span\nclass=\"math inline\">\\(\\Rr_+\\)</span>, comme il est plus petit que <span\nclass=\"math inline\">\\(a = \\inf G\\cap \\Rr_+^*\\)</span> alors\nnécessairement <span class=\"math inline\">\\(g-ka=0\\)</span>, soit <span\nclass=\"math inline\">\\(g=ka \\in a\\Zz\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f9bc56a1-e2d7-43c1-8780-82a6d4889a14",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $0$ est point d'accumulation, $G$ est partout dense dans $\\R$. \nEn déduire ainsi les sous-groupes fermés de $\\R$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(0\\)</span> est point\nd’accumulation, <span class=\"math inline\">\\(G\\)</span> est partout dense\ndans <span class=\"math inline\">\\(\\R\\)</span>. En déduire ainsi les\nsous-groupes fermés de <span class=\"math inline\">\\(\\R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a26ccad5-74d3-4c43-b07a-8d62d4c34843",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $x\\in \\Rr$ et $\\epsilon >0$, on cherche $g\\in G \\cap ]x-\\epsilon,x+\\epsilon[$. Comme $0$ est un point d'accumulation de $G$ il existe $h\\in G$ tel que $0<h<\\epsilon$ pour $k = E(\\frac xh)$, on a $kh \\le x < kh+h$,\ndonc $g=kh \\in G \\cap ]x-\\epsilon,x+\\epsilon[$. Donc $G$ est dense dans $\\Rr$.\n\n\nPour un groupe $G$ quelconque soit $0$  est isolé, soit $0$ est un point d'accumulation. Si en plus $G$ est fermé alors soit $G=a\\Zz$ ou $G= \\{0\\}$,\nsoit $\\bar G= \\Rr$ donc $G = \\Rr$. Les sous-groupes fermés de $(\\Rr,+)$ sont\ndonc $0$, $\\Rr$ et les $a\\Zz$ avec $a>0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(x\\in \\Rr\\)</span> et <span\nclass=\"math inline\">\\(\\epsilon &gt;0\\)</span>, on cherche <span\nclass=\"math inline\">\\(g\\in G \\cap ]x-\\epsilon,x+\\epsilon[\\)</span>.\nComme <span class=\"math inline\">\\(0\\)</span> est un point d’accumulation\nde <span class=\"math inline\">\\(G\\)</span> il existe <span\nclass=\"math inline\">\\(h\\in G\\)</span> tel que <span\nclass=\"math inline\">\\(0&lt;h&lt;\\epsilon\\)</span> pour <span\nclass=\"math inline\">\\(k = E(\\frac xh)\\)</span>, on a <span\nclass=\"math inline\">\\(kh \\le x &lt; kh+h\\)</span>, donc <span\nclass=\"math inline\">\\(g=kh \\in G \\cap ]x-\\epsilon,x+\\epsilon[\\)</span>.\nDonc <span class=\"math inline\">\\(G\\)</span> est dense dans <span\nclass=\"math inline\">\\(\\Rr\\)</span>.</p>\n<p>Pour un groupe <span class=\"math inline\">\\(G\\)</span> quelconque soit\n<span class=\"math inline\">\\(0\\)</span> est isolé, soit <span\nclass=\"math inline\">\\(0\\)</span> est un point d’accumulation. Si en plus\n<span class=\"math inline\">\\(G\\)</span> est fermé alors soit <span\nclass=\"math inline\">\\(G=a\\Zz\\)</span> ou <span class=\"math inline\">\\(G=\n\\{0\\}\\)</span>, soit <span class=\"math inline\">\\(\\bar G= \\Rr\\)</span>\ndonc <span class=\"math inline\">\\(G = \\Rr\\)</span>. Les sous-groupes\nfermés de <span class=\"math inline\">\\((\\Rr,+)\\)</span> sont donc <span\nclass=\"math inline\">\\(0\\)</span>, <span\nclass=\"math inline\">\\(\\Rr\\)</span> et les <span\nclass=\"math inline\">\\(a\\Zz\\)</span> avec <span\nclass=\"math inline\">\\(a&gt;0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a8e450b9-3bf3-4ecb-8c4d-9bf7c972ec3d",
+      "type": "question",
+      "value": {
+        "latex": "On considère $\\alpha\\notin \\Qq$; montrer que ${\\Zz}+\\alpha{\\Zz}$ est un\nsous-groupe dense de $\\Rr$. En déduire les valeurs d'adhérence de la suite\n$(e^{2i\\pi n\\alpha})_{n\\in \\Zz}$.",
+        "html": "<p>On considère <span class=\"math inline\">\\(\\alpha\\notin \\Qq\\)</span>;\nmontrer que <span class=\"math inline\">\\({\\Zz}+\\alpha{\\Zz}\\)</span> est\nun sous-groupe dense de <span class=\"math inline\">\\(\\Rr\\)</span>. En\ndéduire les valeurs d’adhérence de la suite <span\nclass=\"math inline\">\\((e^{2i\\pi n\\alpha})_{n\\in \\Zz}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "036f2c6d-2d27-4517-ab84-0a68fd05cc7f",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $G = \\Zz+\\alpha\\Zz$, c'est un sous-groupe de $(\\Rr,+)$. Si $G$ n'est pas dense dans $\\Rr$ alors, par les questions précédentes, il existe $a>0$ tel que $G=a\\Zz$. En particulier $1\\in G$ donc il existe $k\\in \\Zz$ tel que\n$1 = ka$ de même $\\alpha \\in G$ donc il existe $k' \\in \\Zz$ tel que $\\alpha = k'a$. Par division $\\alpha  = \\frac {k'}k$. Ce qui contredit $\\alpha \\notin \\Qq$. Donc $G = \\Zz+\\alpha\\Zz$ est dense dans $\\Rr$.\n\nDéfinissons $\\Phi : \\Rr \\longrightarrow S^1$ par $t\\mapsto e^{2i\\pi t}$\n($S^1$ est le cercle de $\\Cc$ des nombre complexes de module $1$).\nAlors $\\Phi$ est continue et surjective. Comme $\\Phi$ est continue alors pour tout ensemble $A\\subset \\Rr$ on $\\Phi(\\bar A)\\subset \\overline{\\Phi(A)}$.\nAppliqu\\'e à l'ensemble $G = \\Zz+\\alpha\\Zz$, on a $\\bar G = \\Rr$  donc\n$\\Phi(\\bar G)= S^1$ car $\\Phi$ est surjective ; d'autre part \n$\\Phi(G) = \\{ e^{2i\\pi k \\alpha} \\mid k\\in \\Zz \\}$. Donc $S^1=\\Phi(\\bar G)   \\subset \\overline {\\Phi(G)} = \\overline {\\{ e^{2i\\pi k \\alpha} \\}}$.\nL'adhérence de $\\{ e^{2i\\pi k \\alpha} \\mid k \\in \\Zz\\}$ est donc le cercle \n$S^1$ tout entier.",
+        "html": "<p>Soit <span class=\"math inline\">\\(G = \\Zz+\\alpha\\Zz\\)</span>, c’est un\nsous-groupe de <span class=\"math inline\">\\((\\Rr,+)\\)</span>. Si <span\nclass=\"math inline\">\\(G\\)</span> n’est pas dense dans <span\nclass=\"math inline\">\\(\\Rr\\)</span> alors, par les questions précédentes,\nil existe <span class=\"math inline\">\\(a&gt;0\\)</span> tel que <span\nclass=\"math inline\">\\(G=a\\Zz\\)</span>. En particulier <span\nclass=\"math inline\">\\(1\\in G\\)</span> donc il existe <span\nclass=\"math inline\">\\(k\\in \\Zz\\)</span> tel que <span\nclass=\"math inline\">\\(1 = ka\\)</span> de même <span\nclass=\"math inline\">\\(\\alpha \\in G\\)</span> donc il existe <span\nclass=\"math inline\">\\(k&#39; \\in \\Zz\\)</span> tel que <span\nclass=\"math inline\">\\(\\alpha = k&#39;a\\)</span>. Par division <span\nclass=\"math inline\">\\(\\alpha  = \\frac {k&#39;}k\\)</span>. Ce qui\ncontredit <span class=\"math inline\">\\(\\alpha \\notin \\Qq\\)</span>. Donc\n<span class=\"math inline\">\\(G = \\Zz+\\alpha\\Zz\\)</span> est dense dans\n<span class=\"math inline\">\\(\\Rr\\)</span>.</p>\n<p>Définissons <span class=\"math inline\">\\(\\Phi : \\Rr \\longrightarrow\nS^1\\)</span> par <span class=\"math inline\">\\(t\\mapsto e^{2i\\pi\nt}\\)</span> (<span class=\"math inline\">\\(S^1\\)</span> est le cercle de\n<span class=\"math inline\">\\(\\Cc\\)</span> des nombre complexes de module\n<span class=\"math inline\">\\(1\\)</span>). Alors <span\nclass=\"math inline\">\\(\\Phi\\)</span> est continue et surjective. Comme\n<span class=\"math inline\">\\(\\Phi\\)</span> est continue alors pour tout\nensemble <span class=\"math inline\">\\(A\\subset \\Rr\\)</span> on <span\nclass=\"math inline\">\\(\\Phi(\\bar A)\\subset \\overline{\\Phi(A)}\\)</span>.\nAppliqué à l’ensemble <span class=\"math inline\">\\(G =\n\\Zz+\\alpha\\Zz\\)</span>, on a <span class=\"math inline\">\\(\\bar G =\n\\Rr\\)</span> donc <span class=\"math inline\">\\(\\Phi(\\bar G)= S^1\\)</span>\ncar <span class=\"math inline\">\\(\\Phi\\)</span> est surjective ; d’autre\npart <span class=\"math inline\">\\(\\Phi(G) = \\{ e^{2i\\pi k \\alpha} \\mid\nk\\in \\Zz \\}\\)</span>. Donc <span class=\"math inline\">\\(S^1=\\Phi(\\bar\nG)   \\subset \\overline {\\Phi(G)} = \\overline {\\{ e^{2i\\pi k \\alpha}\n\\}}\\)</span>. L’adhérence de <span class=\"math inline\">\\(\\{ e^{2i\\pi k\n\\alpha} \\mid k \\in \\Zz\\}\\)</span> est donc le cercle <span\nclass=\"math inline\">\\(S^1\\)</span> tout entier.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\R^n\\)</span> considéré comme groupe\nadditif muni de sa topologie usuelle. Soit <span\nclass=\"math inline\">\\(G\\)</s ..."
+}

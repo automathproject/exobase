@@ -1,0 +1,37 @@
+{
+  "uuid": "r2Kc",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2797",
+    "auteur": "burnol",
+    "createdAt": "2009-12-15",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Fonction holomorphe",
+    "sousChapitre": "Fonction holomorphe",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:15.457Z"
+  },
+  "contenu": [
+    {
+      "id": "d336c412-2d44-4c96-b4ff-4d8f7e571d7c",
+      "type": "description",
+      "value": {
+        "latex": "Déterminer en  tout $z_0\\neq 1,\\;2$ la série de Taylor et son rayon\nde convergence pour la fonction analytique\n$\\frac1{(z-1)(z-2)}$. On aura intérêt à réduire en éléments\nsimples. De plus on demande d'indiquer le rayon de\nconvergence \\emph{avant} de déterminer explicitement la série\nde Taylor.",
+        "html": "<p>Déterminer en tout <span class=\"math inline\">\\(z_0\\neq 1,\\;2\\)</span>\nla série de Taylor et son rayon de convergence pour la fonction\nanalytique <span class=\"math inline\">\\(\\frac1{(z-1)(z-2)}\\)</span>. On\naura intérêt à réduire en éléments simples. De plus on demande\nd’indiquer le rayon de convergence <em>avant</em> de déterminer\nexplicitement la série de Taylor.</p>\n"
+      }
+    },
+    {
+      "id": "98c604bc-49e9-4a27-86be-6bad6194e145",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $f(z)=\\frac{1}{(z-1)(z-2)}$ est holomorphe dans $U=\\C\\setminus\\{1,2\\}$.\nPar ce que l'on vient de dire \\`a l'exercice pr\\'ec\\'edent, \nle rayon de convergence demand\\'e est $R=\\min \\{|z_0-1|,|z_0-2| \\}$,\no\\`u $z_0\\in U$ est un point quelconque fix\\'e.\nOn a $\\frac{1}{(z-1)(z-2)}=\\frac{1}{z-2}-\\frac{1}{z-1}$ et:\n$$\\frac{1}{z-2}=\\frac{1}{z-z_0+z_0-2}=\\frac{1}{z_0-2}\\frac{1}{1-\\left( \\frac{z_0-z}{z_0-2}\\right)}\n=\\frac{1}{z_0-2}\\sum_{k\\geq0} \\left( \\frac{z_0-z}{z_0-2}\\right)^k$$\npour $|z-z_0|<|z_0-2|=R_2$. La s\\'erie demand\\'ee est alors la diff\\'erence entre celle-ci et celle de\nl'exercice pr\\'ec\\'edent. Notons aussi que le rayon de convergence est exactement le minimum des rayons\n$R_1$ et $R_2$.",
+        "html": "<p>La fonction <span\nclass=\"math inline\">\\(f(z)=\\frac{1}{(z-1)(z-2)}\\)</span> est holomorphe\ndans <span class=\"math inline\">\\(U=\\C\\setminus\\{1,2\\}\\)</span>. Par ce\nque l’on vient de dire à l’exercice précédent, le rayon de convergence\ndemandé est <span class=\"math inline\">\\(R=\\min \\{|z_0-1|,|z_0-2|\n\\}\\)</span>, où <span class=\"math inline\">\\(z_0\\in U\\)</span> est un\npoint quelconque fixé. On a <span\nclass=\"math inline\">\\(\\frac{1}{(z-1)(z-2)}=\\frac{1}{z-2}-\\frac{1}{z-1}\\)</span>\net: <span\nclass=\"math display\">\\[\\frac{1}{z-2}=\\frac{1}{z-z_0+z_0-2}=\\frac{1}{z_0-2}\\frac{1}{1-\\left(\n\\frac{z_0-z}{z_0-2}\\right)}\n=\\frac{1}{z_0-2}\\sum_{k\\geq0} \\left(\n\\frac{z_0-z}{z_0-2}\\right)^k\\]</span> pour <span\nclass=\"math inline\">\\(|z-z_0|&lt;|z_0-2|=R_2\\)</span>. La série demandée\nest alors la différence entre celle-ci et celle de l’exercice précédent.\nNotons aussi que le rayon de convergence est exactement le minimum des\nrayons <span class=\"math inline\">\\(R_1\\)</span> et <span\nclass=\"math inline\">\\(R_2\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Déterminer en tout <span class=\"math inline\">\\(z_0\\neq 1,\\;2\\)</span>\nla série de Taylor et son rayon de convergence pour la fonction\nanalytique <s ..."
+}

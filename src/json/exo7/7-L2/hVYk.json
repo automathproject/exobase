@@ -1,0 +1,93 @@
+{
+  "uuid": "hVYk",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6002",
+    "auteur": "quinio",
+    "createdAt": "2011-05-20",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité conditionnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:36.917Z"
+  },
+  "contenu": [
+    {
+      "id": "296859c4-ef9e-4626-bc68-ab3600f9d233",
+      "type": "description",
+      "value": {
+        "latex": "Six couples sont réunis dans une soirée de réveillon. Une\nfois les bises de bonne année échangées, on danse, de façon\nconventionnelle: un homme avec une femme, mais pas forcément la sienne.",
+        "html": "<p>Six couples sont réunis dans une soirée de réveillon. Une fois les\nbises de bonne année échangées, on danse, de façon conventionnelle: un\nhomme avec une femme, mais pas forcément la sienne.</p>\n"
+      }
+    },
+    {
+      "id": "0d47b794-df5f-471a-b217-eaa86d507a83",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité $P(A)$ pour que chacun des 6 hommes danse\navec son épouse légitime ?",
+        "html": "<p>Quelle est la probabilité <span class=\"math inline\">\\(P(A)\\)</span>\npour que chacun des 6 hommes danse avec son épouse légitime ?</p>\n"
+      }
+    },
+    {
+      "id": "29df4433-a253-4a65-8d8a-55443995fcd8",
+      "type": "reponse",
+      "value": {
+        "latex": "L'univers des possibles est l'ensemble des couples possibles:\nil y en a $6!=720$ (imaginez les dames assises et les hommes choisissant\nleur partenaire). La probabilité $P(A)$ pour que chacun des $6$ hommes\ndanse avec son épouse légitime est, si chacun choisit au hasard, $\\frac{1}{6!}$.",
+        "html": "<p>L’univers des possibles est l’ensemble des couples possibles: il y en\na <span class=\"math inline\">\\(6!=720\\)</span> (imaginez les dames\nassises et les hommes choisissant leur partenaire). La probabilité <span\nclass=\"math inline\">\\(P(A)\\)</span> pour que chacun des <span\nclass=\"math inline\">\\(6\\)</span> hommes danse avec son épouse légitime\nest, si chacun choisit au hasard, <span\nclass=\"math inline\">\\(\\frac{1}{6!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e9d770b2-ac33-4ab0-86ff-8d4c81f08c1c",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité $P(B)$ pour que André danse avec son \népouse ?",
+        "html": "<p>Quelle est la probabilité <span class=\"math inline\">\\(P(B)\\)</span>\npour que André danse avec son épouse ?</p>\n"
+      }
+    },
+    {
+      "id": "9468713c-84ff-4027-bce0-58d182ac7dc6",
+      "type": "reponse",
+      "value": {
+        "latex": "André danse avec son épouse, les autres choisissent au hasard: il y\na $5!$ permutations pour ces derniers:\n$P(B)=\\frac{5!}{6!}=\\frac{1}{6}$.",
+        "html": "<p>André danse avec son épouse, les autres choisissent au hasard: il y a\n<span class=\"math inline\">\\(5!\\)</span> permutations pour ces derniers:\n<span class=\"math inline\">\\(P(B)=\\frac{5!}{6!}=\\frac{1}{6}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "934e979b-387f-4b9b-a072-40cd362c87f4",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité $P(C)$ pour que André et René\ndansent avec leur épouse ?",
+        "html": "<p>Quelle est la probabilité <span class=\"math inline\">\\(P(C)\\)</span>\npour que André et René dansent avec leur épouse ?</p>\n"
+      }
+    },
+    {
+      "id": "22c45a76-f162-4c07-828b-d6061676dd4b",
+      "type": "reponse",
+      "value": {
+        "latex": "André et René dansent avec leur épouse, les $4$ autres\nchoisissent au hasard: il y a $4!$ permutations pour ces derniers:\n$P(C)=\\frac{4!}{6!}=\\frac{1}{30}$.",
+        "html": "<p>André et René dansent avec leur épouse, les <span\nclass=\"math inline\">\\(4\\)</span> autres choisissent au hasard: il y a\n<span class=\"math inline\">\\(4!\\)</span> permutations pour ces derniers:\n<span\nclass=\"math inline\">\\(P(C)=\\frac{4!}{6!}=\\frac{1}{30}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "48f0321a-47fe-4346-8a0b-a3cbcd2018b8",
+      "type": "question",
+      "value": {
+        "latex": "Quelle est la probabilité $P(D)$ pour que André ou René\ndanse(nt) avec leur épouse ?",
+        "html": "<p>Quelle est la probabilité <span class=\"math inline\">\\(P(D)\\)</span>\npour que André ou René danse(nt) avec leur épouse ?</p>\n"
+      }
+    },
+    {
+      "id": "7e81fc48-c170-4208-9d5e-cdbf96588536",
+      "type": "reponse",
+      "value": {
+        "latex": "André ou René dansent avec leur épouse, les $4$ autres font ce\nqu'ils veulent. Considérons les événements $D_{1}:$ <<André\ndanse avec son épouse>> ; $D_{2}$ : <<René danse avec son épouse>>. \nAlors $D=D_{1}\\cup D_{2}$ et\n $P(D_{1}\\cup D_{2})=P(D_{1})+P(D_{2})-P(D_{1}\\cap D_{2})=\\frac{3}{10}$.",
+        "html": "<p>André ou René dansent avec leur épouse, les <span\nclass=\"math inline\">\\(4\\)</span> autres font ce qu’ils veulent.\nConsidérons les événements <span class=\"math inline\">\\(D_{1}:\\)</span>\n&lt;&lt;André danse avec son épouse&gt;&gt; ; <span\nclass=\"math inline\">\\(D_{2}\\)</span> : &lt;&lt;René danse avec son\népouse&gt;&gt;. Alors <span class=\"math inline\">\\(D=D_{1}\\cup\nD_{2}\\)</span> et <span class=\"math inline\">\\(P(D_{1}\\cup\nD_{2})=P(D_{1})+P(D_{2})-P(D_{1}\\cap D_{2})=\\frac{3}{10}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Six couples sont réunis dans une soirée de réveillon. Une fois les\nbises de bonne année échangées, on danse, de façon conventionnelle: un\nhomme ave ..."
+}

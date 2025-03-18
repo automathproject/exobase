@@ -1,0 +1,159 @@
+{
+  "uuid": "Hhtu",
+  "titre": "Probabilité d'événements",
+  "theme": [
+    "probabilités"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-08-30",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:51:27.467Z"
+  },
+  "contenu": [
+    {
+      "id": "c0a62a7f-c5e5-4111-a206-3f9cd26ce0b9",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(\\Omega, \\mathcal{T}, \\prob)$ un espace probabilisé et trois événements $A$, $B$ et $C$ tels que : \n\t\t\n\t$$\\prob(A) = 0.3 \\quad , \\quad \\prob(B) = 0.4 \\quad , \\quad \\prob(A \\cap B) = 0.2 \\quad , \\quad \\prob(C \\mid A \\cap B) = 0.5$$\n\t\t\t\n\t\tCalculer, si possible, les probabilités suivantes : \n\\colonnes{\\solution}{2}{1}\n\t\t\\begin{enumerate}\n\t\t\t\\item \\question{ $\\prob(A \\cup B)$ ; }\n\t\t\t\\reponse{  $\\prob(A \\cup B) = 0.5 $ }\n\t\t\t\\item \\question{ $\\prob(A \\mid B)$ ; }\n\t\t\t\\reponse{  $\\prob(A \\mid B) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\mid B)$ ; }\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\mid B) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob({A} \\mid \\overline{B})$ ; }\n\t\t\t\\reponse{ $\\prob({A} \\mid \\overline{B} = \\frac{1}{6} $ }\n\t\t\t\\item \\question{ $\\prob(B \\mid A)$ ; }\n\t\t\t\\reponse{ $\\prob(B \\mid A) = \\frac{2}{3}$ }\n\t\t\t\\item \\question{ $\\prob(A \\cap B \\cap C)$ ; }\n\t\t\t\\reponse{ $\\prob(A \\cap B \\cap C) = 0.1$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\cap \\overline{B})$ ;}\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\cap \\overline{B}) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\cup \\overline{B})$.}\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\cup \\overline{B}) = 0.8$ }\n\t\t\\end{enumerate}\n\\fincolonnes{\\solution}{2}{1}",
+        "html": "<p>Soit <span class=\"math inline\">\\((\\Omega, \\mathcal{T},\n\\prob)\\)</span> un espace probabilisé et trois événements <span\nclass=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>\net <span class=\"math inline\">\\(C\\)</span> tels que :</p>\n<p><span class=\"math display\">\\[\\prob(A) = 0.3 \\quad , \\quad \\prob(B) =\n0.4 \\quad , \\quad \\prob(A \\cap B) = 0.2 \\quad , \\quad \\prob(C \\mid A\n\\cap B) = 0.5\\]</span></p>\n<p>Calculer, si possible, les probabilités suivantes :</p>\n<ol>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n</ol>\n"
+      }
+    },
+    {
+      "id": "773a2b39-2463-4a68-8394-79fb5a137cf6",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(A \\cup B)$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob(A \\cup B)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "822c1d6e-4225-4859-9925-7d881616f6de",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(A \\cup B) = 0.5 $",
+        "html": "<p><span class=\"math inline\">\\(\\prob(A \\cup B) = 0.5\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "1bbd6c75-f82c-4fff-9931-02697b5850a5",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(A \\mid B)$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob(A \\mid B)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "418f2090-3090-41f9-b1ba-d79ba3d0a5ee",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(A \\mid B) = 0.5$",
+        "html": "<p><span class=\"math inline\">\\(\\prob(A \\mid B) = 0.5\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2ee48d9a-6014-4996-9a68-891319d53bd6",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(\\overline{A} \\mid B)$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob(\\overline{A} \\mid B)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "a1009634-635f-44f2-b0e7-4865ad98de82",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(\\overline{A} \\mid B) = 0.5$",
+        "html": "<p><span class=\"math inline\">\\(\\prob(\\overline{A} \\mid B) =\n0.5\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5b53baf9-7e48-418d-8b52-4f1145705550",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob({A} \\mid \\overline{B})$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob({A} \\mid \\overline{B})\\)</span>\n;</p>\n"
+      }
+    },
+    {
+      "id": "604f703b-036b-4c44-b29f-eedbbfc85d9f",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob({A} \\mid \\overline{B} = \\frac{1}{6} $",
+        "html": "<p><span class=\"math inline\">\\(\\prob({A} \\mid \\overline{B} =\n\\frac{1}{6}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9aeef6eb-c625-4e8c-9fe4-0ab6ee8f9ccf",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(B \\mid A)$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob(B \\mid A)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "d28eb100-2ed0-40b0-9f64-a939541bb14e",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(B \\mid A) = \\frac{2}{3}$",
+        "html": "<p><span class=\"math inline\">\\(\\prob(B \\mid A) =\n\\frac{2}{3}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e7076994-e974-4a97-a6d9-b10655e20ed5",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(A \\cap B \\cap C)$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob(A \\cap B \\cap C)\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "1248311a-a9ab-4aab-9258-629bbebfc8fd",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(A \\cap B \\cap C) = 0.1$",
+        "html": "<p><span class=\"math inline\">\\(\\prob(A \\cap B \\cap C) = 0.1\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "8a09cd65-06b1-4879-8ae5-ab32baf97331",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(\\overline{A} \\cap \\overline{B})$ ;",
+        "html": "<p><span class=\"math inline\">\\(\\prob(\\overline{A} \\cap\n\\overline{B})\\)</span> ;</p>\n"
+      }
+    },
+    {
+      "id": "762e12de-a710-4f06-8e13-749162a655b1",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(\\overline{A} \\cap \\overline{B}) = 0.5$",
+        "html": "<p><span class=\"math inline\">\\(\\prob(\\overline{A} \\cap \\overline{B}) =\n0.5\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a10d3f3d-e366-4d9b-9270-49306817a105",
+      "type": "question",
+      "value": {
+        "latex": "$\\prob(\\overline{A} \\cup \\overline{B})$.",
+        "html": "<p><span class=\"math inline\">\\(\\prob(\\overline{A} \\cup\n\\overline{B})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "21c51436-055f-474a-b51c-7d9eb68eb5a8",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\prob(\\overline{A} \\cup \\overline{B}) = 0.8$",
+        "html": "<p><span class=\"math inline\">\\(\\prob(\\overline{A} \\cup \\overline{B}) =\n0.8\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((\\Omega, \\mathcal{T},\n\\prob)\\)</span> un espace probabilisé et trois événements <span\nclass=\"math inline\">\\(A\\)</s ..."
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "CtYn",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4594",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Etude au bord",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:45.881Z"
+  },
+  "contenu": [
+    {
+      "id": "959aa0ad-0782-40be-80e0-e5f7dd2a881b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(a_n)$ une suite de réels strictement positifs.\nOn suppose que le rayon de convergence de la série entière\n$A(x) = \\sum_{n=0}^\\infty a_nx^n$ est 1 et que la série diverge pour $x = 1$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite de réels\nstrictement positifs. On suppose que le rayon de convergence de la série\nentière <span class=\"math inline\">\\(A(x) = \\sum_{n=0}^\\infty\na_nx^n\\)</span> est 1 et que la série diverge pour <span\nclass=\"math inline\">\\(x = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dabd1e38-7fe7-4b42-83e8-e0443fcf892a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $A(x) \\to +\\infty$ lorsque $x\\to1^-$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(A(x) \\to +\\infty\\)</span>\nlorsque <span class=\"math inline\">\\(x\\to1^-\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4c31adc8-d207-4d80-84ac-2ec6d173f210",
+      "type": "reponse",
+      "value": {
+        "latex": "Fonction croissante. $\\lim_{x\\to1^-} A(x) \\ge \\sum_{n=0}^N a_n$.",
+        "html": "<p>Fonction croissante. <span class=\"math inline\">\\(\\lim_{x\\to1^-} A(x)\n\\ge \\sum_{n=0}^N a_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ce5ee890-0340-44a8-b630-d6813eb0d357",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(b_n)$ une suite telle que $b_n \\sim a_n$ et\n    $B(x) = \\sum_{n=0}^\\infty b_nx^n$.\n    Montrer que $B(x) \\sim A(x)$ pour $x\\to1^-$.",
+        "html": "<p>Soit <span class=\"math inline\">\\((b_n)\\)</span> une suite telle que\n<span class=\"math inline\">\\(b_n \\sim a_n\\)</span> et <span\nclass=\"math inline\">\\(B(x) = \\sum_{n=0}^\\infty b_nx^n\\)</span>. Montrer\nque <span class=\"math inline\">\\(B(x) \\sim A(x)\\)</span> pour <span\nclass=\"math inline\">\\(x\\to1^-\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1741de12-3272-4eb2-ac44-78538a890e1d",
+      "type": "reponse",
+      "value": {
+        "latex": "Dém de type Césaro.",
+        "html": "<p>Dém de type Césaro.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((a_n)\\)</span> une suite de réels\nstrictement positifs. On suppose que le rayon de convergence de la série\nentière ..."
+}

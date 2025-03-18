@@ -1,0 +1,53 @@
+{
+  "uuid": "6VBf",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6344",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Système linéaire à  coefficients constants",
+    "sousChapitre": "Système linéaire à  coefficients constants",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:56.289Z"
+  },
+  "contenu": [
+    {
+      "id": "b612ac90-a7df-4199-bd12-b22a618bc2d0",
+      "type": "description",
+      "value": {
+        "latex": "On considère le système linéaire $x'(t) = A(t) x(t)$, où\n$A\\in {\\cal C} ([0, \\infty ))$. Soit $\\varphi $ une solution\nnon-triviale de ce système et soit\n$$ \\gamma = \\limsup_{t\\to \\infty } \\frac{1}{t} \\log \\|\\varphi (t) \\|\n\\;\\; , -\\infty \\leq \\gamma \\leq \\infty \\; .$$",
+        "html": "<p>On considère le système linéaire <span\nclass=\"math inline\">\\(x&#39;(t) = A(t) x(t)\\)</span>, où <span\nclass=\"math inline\">\\(A\\in {\\cal C} ([0, \\infty ))\\)</span>. Soit <span\nclass=\"math inline\">\\(\\varphi\\)</span> une solution non-triviale de ce\nsystème et soit <span class=\"math display\">\\[\\gamma = \\limsup_{t\\to\n\\infty } \\frac{1}{t} \\log \\|\\varphi (t) \\|\n\\;\\; , -\\infty \\leq \\gamma \\leq \\infty \\; .\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "fbaabc54-bf06-4b2f-9672-9c51040a1204",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\gamma$ ne dépend pas du choix de la norme\n$\\| . \\|$ de $\\Rr^n$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\gamma\\)</span> ne dépend pas\ndu choix de la norme <span class=\"math inline\">\\(\\| . \\|\\)</span> de\n<span class=\"math inline\">\\(\\Rr^n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "51701ac7-c64e-4ba6-a3b7-07d16a721b20",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\gamma$ est une valeur finie si on suppose\n que les coefficients de la matrice $A(t)$ sont des fonctions bornées (on utilisera\n l'inégalité de Gronwall).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\gamma\\)</span> est une\nvaleur finie si on suppose que les coefficients de la matrice <span\nclass=\"math inline\">\\(A(t)\\)</span> sont des fonctions bornées (on\nutilisera l’inégalité de Gronwall).</p>\n"
+      }
+    },
+    {
+      "id": "642b844c-5933-4d3b-b995-e446bd1ffc54",
+      "type": "question",
+      "value": {
+        "latex": "Dans le cas où $A$ est une matrice constante diagonalisable, montrer que $\\gamma$\nest forcément la partie réelle d'une valeur propre de $A$.",
+        "html": "<p>Dans le cas où <span class=\"math inline\">\\(A\\)</span> est une matrice\nconstante diagonalisable, montrer que <span\nclass=\"math inline\">\\(\\gamma\\)</span> est forcément la partie réelle\nd’une valeur propre de <span class=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère le système linéaire <span\nclass=\"math inline\">\\(x&#39;(t) = A(t) x(t)\\)</span>, où <span\nclass=\"math inline\"> ..."
+}

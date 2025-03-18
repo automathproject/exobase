@@ -1,0 +1,61 @@
+{
+  "uuid": "n50p",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5021",
+    "auteur": "quercia",
+    "createdAt": "2010-03-17",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Courbes planes",
+    "sousChapitre": "Enveloppes",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:14:00.190Z"
+  },
+  "contenu": [
+    {
+      "id": "1cfdd4b9-e9ba-42b0-b1fc-fc0eda210026",
+      "type": "description",
+      "value": {
+        "latex": "Soit $\\cal E$ une ellipse de centre $O$, de paramètres $a$ et $b$.\nPour $M \\in \\cal E$, soit $D$ la perpendiculaire en $M$ à $(OM)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\cal E\\)</span> une ellipse de\ncentre <span class=\"math inline\">\\(O\\)</span>, de paramètres <span\nclass=\"math inline\">\\(a\\)</span> et <span\nclass=\"math inline\">\\(b\\)</span>. Pour <span class=\"math inline\">\\(M \\in\n\\cal E\\)</span>, soit <span class=\"math inline\">\\(D\\)</span> la\nperpendiculaire en <span class=\"math inline\">\\(M\\)</span> à <span\nclass=\"math inline\">\\((OM)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e09bb3f2-4c13-4d0c-914b-7a0cafb14c3f",
+      "type": "question",
+      "value": {
+        "latex": "Donner les équations paramétriques de l'enveloppe des droites $D$.",
+        "html": "<p>Donner les équations paramétriques de l’enveloppe des droites <span\nclass=\"math inline\">\\(D\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "14412aa9-431e-4c50-96f5-1c4ad50eb34b",
+      "type": "question",
+      "value": {
+        "latex": "Tracer les enveloppes sur ordinateur pour différentes valeurs de $a/b$.",
+        "html": "<p>Tracer les enveloppes sur ordinateur pour différentes valeurs de\n<span class=\"math inline\">\\(a/b\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c71b4d74-7aed-41ac-b191-8796020923f9",
+      "type": "question",
+      "value": {
+        "latex": "\\'Etudier les points stationnaires de l'enveloppe quand il y en a.",
+        "html": "<p>Étudier les points stationnaires de l’enveloppe quand il y en a.</p>\n"
+      }
+    },
+    {
+      "id": "38fe69b0-76e7-4739-859f-104cc494bd79",
+      "type": "reponse",
+      "value": {
+        "latex": "$x = \\frac{\\cos t}a(a^2 + (a^2-b^2)\\sin^2t)$,\n             $y = \\frac{\\sin t}b(b^2 - (a^2-b^2)\\cos^2t)$.\nPoint stationnaire ssi $a^2 > 2b^2$, obtenu pour\n             $\\sin^2t = \\frac{a^2-2b^2}{3(a^2-b^2)}$. Rebroussement de $1^{\\text{ère}}$ espèce.",
+        "html": "<p><span class=\"math inline\">\\(x = \\frac{\\cos t}a(a^2 +\n(a^2-b^2)\\sin^2t)\\)</span>, <span class=\"math inline\">\\(y = \\frac{\\sin\nt}b(b^2 - (a^2-b^2)\\cos^2t)\\)</span>. Point stationnaire ssi <span\nclass=\"math inline\">\\(a^2 &gt; 2b^2\\)</span>, obtenu pour <span\nclass=\"math inline\">\\(\\sin^2t = \\frac{a^2-2b^2}{3(a^2-b^2)}\\)</span>.\nRebroussement de <span class=\"math inline\">\\(1^{\\text{ère}}\\)</span>\nespèce.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\cal E\\)</span> une ellipse de\ncentre <span class=\"math inline\">\\(O\\)</span>, de paramètres <span\nclass=\"math inli ..."
+}

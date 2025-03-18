@@ -1,0 +1,61 @@
+{
+  "uuid": "yhqe",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3310",
+    "auteur": "quercia",
+    "createdAt": "2010-03-09",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Application linéaire",
+    "sousChapitre": "Image et noyau, théorème du rang",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:32.581Z"
+  },
+  "contenu": [
+    {
+      "id": "99accc75-a270-42ee-9068-c6d755278e12",
+      "type": "description",
+      "value": {
+        "latex": "Soient $f,g \\in \\mathcal{L}(E)$ tels que $f\\circ g \\circ f = f$ et $g \\circ f\\circ g = g$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(f,g \\in \\mathcal{L}(E)\\)</span>\ntels que <span class=\"math inline\">\\(f\\circ g \\circ f = f\\)</span> et\n<span class=\"math inline\">\\(g \\circ f\\circ g = g\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cff37a9d-3f93-49ec-a4d8-1cc6ec78f78c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $E = \\mathrm{Ker} f \\oplus \\Im g$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(E = \\mathrm{Ker} f \\oplus \\Im\ng\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "744bacc9-2e23-4770-b7ee-102461631c5e",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\vec u = (\\vec u - g\\circ f(\\vec u)) + g\\circ f(\\vec u)$.",
+        "html": "<p><span class=\"math inline\">\\(\\vec u = (\\vec u - g\\circ f(\\vec u)) +\ng\\circ f(\\vec u)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bcf5588a-c141-44d1-ab19-b19a1ef9986d",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $f(\\Im g) = \\Im f$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(f(\\Im g) = \\Im\nf\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1bd77591-0e1d-4415-951c-2141a3bee324",
+      "type": "reponse",
+      "value": {
+        "latex": "$f(\\Im g) \\subset \\Im f$.\\par\n             $f = (f\\circ g) \\circ f  \\Rightarrow  \\Im f \\subset \\Im(f\\circ g)= f(\\Im g)$.",
+        "html": "<p><span class=\"math inline\">\\(f(\\Im g) \\subset \\Im f\\)</span>.</p>\n<p><span class=\"math inline\">\\(f = (f\\circ g) \\circ f  \\Rightarrow  \\Im\nf \\subset \\Im(f\\circ g)= f(\\Im g)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(f,g \\in \\mathcal{L}(E)\\)</span>\ntels que <span class=\"math inline\">\\(f\\circ g \\circ f = f\\)</span> et\n<span clas ..."
+}

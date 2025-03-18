@@ -1,0 +1,45 @@
+{
+  "uuid": "lxXI",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6714",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Formule de Cauchy",
+    "sousChapitre": "Formule de Cauchy",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:08.063Z"
+  },
+  "contenu": [
+    {
+      "id": "7f490c3a-c36c-4a5d-93ad-e4dbce16a36f",
+      "type": "description",
+      "value": {
+        "latex": "\\label{gijsexophi}\nSoit $D$ le disque unité ouvert : \n$$D=\\{ z\\in \\C\\vert\\ \\vert z\\vert\n<1\\}$$\n et $C$ le cercle unité : \n$$C=\\{ z\\in \\C\\vert\\ \\vert\nz\\vert =1\\} .$$\nPour $a\\in D$, on considère l'application\nhomographique\n$\\Phi _a$ :\n$$\\Phi _a(z)={z-a\\over 1-\\overline{a}z}.$$",
+        "html": "<p><span id=\"gijsexophi\" label=\"gijsexophi\"></span> Soit <span\nclass=\"math inline\">\\(D\\)</span> le disque unité ouvert : <span\nclass=\"math display\">\\[D=\\{ z\\in \\C\\vert\\ \\vert z\\vert\n&lt;1\\}\\]</span> et <span class=\"math inline\">\\(C\\)</span> le cercle\nunité : <span class=\"math display\">\\[C=\\{ z\\in \\C\\vert\\ \\vert\nz\\vert =1\\} .\\]</span> Pour <span class=\"math inline\">\\(a\\in D\\)</span>,\non considère l’application homographique <span\nclass=\"math inline\">\\(\\Phi _a\\)</span> : <span\nclass=\"math display\">\\[\\Phi _a(z)={z-a\\over\n1-\\overline{a}z}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "8465b5cc-c865-4380-8e5f-03fe67be454c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $\\Phi _a(C)\\subset C$, puis que $\\Phi_a$ est une bijection\nde $D$ sur lui-même, de réciproque $\\Phi _{-a}$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\Phi _a(C)\\subset C\\)</span>,\npuis que <span class=\"math inline\">\\(\\Phi_a\\)</span> est une bijection\nde <span class=\"math inline\">\\(D\\)</span> sur lui-même, de réciproque\n<span class=\"math inline\">\\(\\Phi _{-a}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "9f6cbc03-8a9d-40fe-99a2-fdcf0c83d968",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f$ un biholomorphisme de $D$, c'est-à-dire une fonction\nholomorphe de\n$D$ sur lui-même, bijective, telle que $f^{-1}$ soit aussi holomorphe.\nSoit $a=f^{-1}(0)$. En considérant $f\\circ (\\Phi _a)^{-1}$ et sa\nréciproque, montrer qu'il existe $\\varphi\\in {\\Rr}$ tel que $$\\forall\nz\\in D,\\ f(z)=e^{i\\varphi}\\Phi _a(z),$$ c'est-à-dire qu'à rotation près, les\nseuls biholomorphismes du disque sont les $\\Phi _a$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> un biholomorphisme de\n<span class=\"math inline\">\\(D\\)</span>, c’est-à-dire une fonction\nholomorphe de <span class=\"math inline\">\\(D\\)</span> sur lui-même,\nbijective, telle que <span class=\"math inline\">\\(f^{-1}\\)</span> soit\naussi holomorphe. Soit <span class=\"math inline\">\\(a=f^{-1}(0)\\)</span>.\nEn considérant <span class=\"math inline\">\\(f\\circ (\\Phi\n_a)^{-1}\\)</span> et sa réciproque, montrer qu’il existe <span\nclass=\"math inline\">\\(\\varphi\\in {\\Rr}\\)</span> tel que <span\nclass=\"math display\">\\[\\forall\nz\\in D,\\ f(z)=e^{i\\varphi}\\Phi _a(z),\\]</span> c’est-à-dire qu’à\nrotation près, les seuls biholomorphismes du disque sont les <span\nclass=\"math inline\">\\(\\Phi _a\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span id=\"gijsexophi\" label=\"gijsexophi\"></span> Soit <span\nclass=\"math inline\">\\(D\\)</span> le disque unité ouvert : <span\nclass=\"math display\"> ..."
+}

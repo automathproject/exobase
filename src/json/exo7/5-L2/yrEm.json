@@ -1,0 +1,85 @@
+{
+  "uuid": "yrEm",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4606",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Equations différentielles",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:12:22.618Z"
+  },
+  "contenu": [
+    {
+      "id": "44cf4c81-3151-4914-8c6b-bbbf5a6cef07",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "19f3a323-8d05-4291-a5a0-41cb33597df7",
+      "type": "question",
+      "value": {
+        "latex": "Pour $a,b\\in\\R$ avec $b\\not\\equiv 0(\\mathrm{mod}\\,{\\pi})$, vérifier\n    l'identité suivante~:\n    $\\frac{(1+ia) - e^{ib}(1-ia)}{1-e^{ib}} = 1 - \\frac a{\\tan(b/2)}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(a,b\\in\\R\\)</span> avec <span\nclass=\"math inline\">\\(b\\not\\equiv 0(\\mathrm{mod}\\,{\\pi})\\)</span>,\nvérifier l’identité suivante : <span class=\"math inline\">\\(\\frac{(1+ia)\n- e^{ib}(1-ia)}{1-e^{ib}} = 1 - \\frac a{\\tan(b/2)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7ac7a561-1097-43f2-bcaf-7377ee4cd425",
+      "type": "question",
+      "value": {
+        "latex": "Pour $a,b\\in\\C$ et $n\\in\\N^*$, vérifier\n    l'identité suivante~:\n    $a^n + b^n = \\prod_{k=0}^{n-1}(a-be^{i(2k+1){\\frac \\pi n}})$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(a,b\\in\\C\\)</span> et <span\nclass=\"math inline\">\\(n\\in\\N^*\\)</span>, vérifier l’identité suivante :\n<span class=\"math inline\">\\(a^n + b^n =\n\\prod_{k=0}^{n-1}(a-be^{i(2k+1){\\frac \\pi n}})\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "56f8acfb-d12b-428e-8323-835e995b6c95",
+      "type": "question",
+      "value": {
+        "latex": "Pour $x\\in\\R$ et $p\\in\\N^*$, vérifier\n    l'identité suivante~:\n    $\\frac{\\Bigl(1+\\frac{ix}{2p}\\Bigr)^{2p} + \\Bigl(1-\\frac{ix}{2p}\\Bigr)^{2p}}{\\vrule height 10pt width 0pt 2} =\n     \\prod_{k=0}^{p-1}\\Bigl(1-\\frac{x^2}{4p^2\\tan^2\\frac{(2k+1)\\pi}{4p}}\\Bigr)$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(x\\in\\R\\)</span> et <span\nclass=\"math inline\">\\(p\\in\\N^*\\)</span>, vérifier l’identité suivante :\n<span class=\"math inline\">\\(\\frac{\\Bigl(1+\\frac{ix}{2p}\\Bigr)^{2p} +\n\\Bigl(1-\\frac{ix}{2p}\\Bigr)^{2p}}{\\vrule height 10pt width 0pt 2} =\n     \\prod_{k=0}^{p-1}\\Bigl(1-\\frac{x^2}{4p^2\\tan^2\\frac{(2k+1)\\pi}{4p}}\\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "516bfa96-e2e3-49c0-8f7b-b2c35949c9de",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer alors~:\n    $\\forall\\ x\\in{]-\\frac\\pi2,\\frac\\pi2[},\\ \\ln(\\cos x) = \\sum_{k=0}^\\infty\\ln\\Bigl(1-\\frac{4x^2}{(2k+1)^2\\pi^2}\\Bigr)$.",
+        "html": "<p>Démontrer alors : <span class=\"math inline\">\\(\\forall\\\nx\\in{]-\\frac\\pi2,\\frac\\pi2[},\\ \\ln(\\cos x) =\n\\sum_{k=0}^\\infty\\ln\\Bigl(1-\\frac{4x^2}{(2k+1)^2\\pi^2}\\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4cd833b5-35b9-4c42-93e0-ee4f72555967",
+      "type": "question",
+      "value": {
+        "latex": "En déduire~:\n    $\\forall\\ x\\in{]-\\frac\\pi2,\\frac\\pi2[},\\\n    \\tan x = \\sum_{k=0}^\\infty \\frac{8x}{(2k+1)^2\\pi^2 - 4x^2}$.",
+        "html": "<p>En déduire : <span class=\"math inline\">\\(\\forall\\\nx\\in{]-\\frac\\pi2,\\frac\\pi2[},\\\n    \\tan x = \\sum_{k=0}^\\infty \\frac{8x}{(2k+1)^2\\pi^2 -\n4x^2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "eb72e62e-fb28-4886-9ef2-2efeaac2d806",
+      "type": "question",
+      "value": {
+        "latex": "Pour $n\\in\\N$ avec $n\\ge 2$, vérifier l'identité suivante~:\n    $\\sum_{k=0}^\\infty \\frac1{(2k+1)^n} = \\frac{2^n-1}{\\vrule height 10pt width 0pt 2^n}\\zeta(n)$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n\\in\\N\\)</span> avec <span\nclass=\"math inline\">\\(n\\ge 2\\)</span>, vérifier l’identité suivante :\n<span class=\"math inline\">\\(\\sum_{k=0}^\\infty \\frac1{(2k+1)^n} =\n\\frac{2^n-1}{\\vrule height 10pt width 0pt 2^n}\\zeta(n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "62452443-6d5e-475b-923e-23c2acbd8d40",
+      "type": "question",
+      "value": {
+        "latex": "Démontrer enfin~:\n    $\\forall\\ x\\in{]-\\frac\\pi2,\\frac\\pi2[},\\\n    \\tan x = \\sum_{n=1}^\\infty \\frac{2(4^n-1)}{\\pi^{2n}}\\zeta(2n)x^{2n-1}$.",
+        "html": "<p>Démontrer enfin : <span class=\"math inline\">\\(\\forall\\\nx\\in{]-\\frac\\pi2,\\frac\\pi2[},\\\n    \\tan x = \\sum_{n=1}^\\infty\n\\frac{2(4^n-1)}{\\pi^{2n}}\\zeta(2n)x^{2n-1}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(a,b\\in\\R\\)</span> avec <span\nclass=\"math inline\">\\(b\\not\\equiv 0(\\mathrm{mod}\\,{\\pi})\\)</span>,\nvérifier l’identit ..."
+}

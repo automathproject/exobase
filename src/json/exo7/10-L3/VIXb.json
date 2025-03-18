@@ -1,0 +1,37 @@
+{
+  "uuid": "VIXb",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2300",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Anneau, corps",
+    "sousChapitre": "Anneau, corps",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:57.022Z"
+  },
+  "contenu": [
+    {
+      "id": "1db488c7-908a-43d7-9323-5e336edb480a",
+      "type": "description",
+      "value": {
+        "latex": "Soient $A$ un anneau et $I$ et $J$ les  idéaux de $A$ tels que $I+J=(1)$. Démontrer que $I^n+J^m=(1)$ quels que soient entiers positifs non-nuls $n$ et $m$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(A\\)</span> un anneau et <span\nclass=\"math inline\">\\(I\\)</span> et <span\nclass=\"math inline\">\\(J\\)</span> les idéaux de <span\nclass=\"math inline\">\\(A\\)</span> tels que <span\nclass=\"math inline\">\\(I+J=(1)\\)</span>. Démontrer que <span\nclass=\"math inline\">\\(I^n+J^m=(1)\\)</span> quels que soient entiers\npositifs non-nuls <span class=\"math inline\">\\(n\\)</span> et <span\nclass=\"math inline\">\\(m\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e72c73ed-aef1-4ffc-a832-c3bf48f5f8f8",
+      "type": "reponse",
+      "value": {
+        "latex": "$1\\in I+J$ donc $\\exists(x,y)\\in I\\times J, 1=x+y$. En multipliant\n  cette égalité par $x$, on obtient $x^{2}+xy=x$. On en déduit que $xy\\in\n  I$, donc $\\forall p\\in\\Nn~; x^{p}y\\in I^{p}$, et donc\n  $\\forall(p,q)\\in\\Nn^{2}, x^{p}y^{q}\\in I^{p}$. Par symétrie, on a aussi\n  $\\forall(p,q)\\in\\Nn^{2}, x^{p}y^{q}\\in J^{q}$.\n\n  Soit maintenant $(m,n)\\in\\Nn^{2}$. Notons $N=2\\sup(m,n)$. Alors\n  $1=1^{N}=(x+y)^{N}=\\sum_{p+q=N}C^{p}_{N}x^{p}y^{q}$. Comme~:\n  $(p+q=2N)\\Rightarrow (p\\geq n \\text{ ou }q\\geq m)$, tous les termes de\n  cette somme sont dans $I^{n}$ ou dans $J^{m}$, et donc $1\\in I^{n}+J^{m}$",
+        "html": "<p><span class=\"math inline\">\\(1\\in I+J\\)</span> donc <span\nclass=\"math inline\">\\(\\exists(x,y)\\in I\\times J, 1=x+y\\)</span>. En\nmultipliant cette égalité par <span class=\"math inline\">\\(x\\)</span>, on\nobtient <span class=\"math inline\">\\(x^{2}+xy=x\\)</span>. On en déduit\nque <span class=\"math inline\">\\(xy\\in\n  I\\)</span>, donc <span class=\"math inline\">\\(\\forall p\\in\\Nn~;\nx^{p}y\\in I^{p}\\)</span>, et donc <span\nclass=\"math inline\">\\(\\forall(p,q)\\in\\Nn^{2}, x^{p}y^{q}\\in\nI^{p}\\)</span>. Par symétrie, on a aussi <span\nclass=\"math inline\">\\(\\forall(p,q)\\in\\Nn^{2}, x^{p}y^{q}\\in\nJ^{q}\\)</span>.</p>\n<p>Soit maintenant <span class=\"math inline\">\\((m,n)\\in\\Nn^{2}\\)</span>.\nNotons <span class=\"math inline\">\\(N=2\\sup(m,n)\\)</span>. Alors <span\nclass=\"math inline\">\\(1=1^{N}=(x+y)^{N}=\\sum_{p+q=N}C^{p}_{N}x^{p}y^{q}\\)</span>.\nComme : <span class=\"math inline\">\\((p+q=2N)\\Rightarrow (p\\geq n \\text{\nou }q\\geq m)\\)</span>, tous les termes de cette somme sont dans <span\nclass=\"math inline\">\\(I^{n}\\)</span> ou dans <span\nclass=\"math inline\">\\(J^{m}\\)</span>, et donc <span\nclass=\"math inline\">\\(1\\in I^{n}+J^{m}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(A\\)</span> un anneau et <span\nclass=\"math inline\">\\(I\\)</span> et <span\nclass=\"math inline\">\\(J\\)</span> les idé ..."
+}

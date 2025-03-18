@@ -1,0 +1,37 @@
+{
+  "uuid": "MkF5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3107",
+    "auteur": "quercia",
+    "createdAt": "2010-03-08",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Arithmétique dans Z",
+    "sousChapitre": "Divisibilité, division euclidienne",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T17:58:01.374Z"
+  },
+  "contenu": [
+    {
+      "id": "f78fd0e5-c321-413c-9eb4-ad5570dc15e6",
+      "type": "description",
+      "value": {
+        "latex": "Montrer que pour tous entiers $m$ et $n$, le nombre\n$mn(m^{60} - n^{60})$ est divisible par 56786730.",
+        "html": "<p>Montrer que pour tous entiers <span class=\"math inline\">\\(m\\)</span>\net <span class=\"math inline\">\\(n\\)</span>, le nombre <span\nclass=\"math inline\">\\(mn(m^{60} - n^{60})\\)</span> est divisible par\n56786730.</p>\n"
+      }
+    },
+    {
+      "id": "9867d221-961d-45c6-99d9-bf56964905a6",
+      "type": "reponse",
+      "value": {
+        "latex": "$56786730 = 2 \\times 3 \\times 5 \\times 7 \\times 11 \\times 13 \\times 31 \\times 61$.\n         Pour tous ces facteurs premiers, on a $\\varphi(p) \\mid 60$.",
+        "html": "<p><span class=\"math inline\">\\(56786730 = 2 \\times 3 \\times 5 \\times 7\n\\times 11 \\times 13 \\times 31 \\times 61\\)</span>. Pour tous ces facteurs\npremiers, on a <span class=\"math inline\">\\(\\varphi(p) \\mid\n60\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Montrer que pour tous entiers <span class=\"math inline\">\\(m\\)</span>\net <span class=\"math inline\">\\(n\\)</span>, le nombre <span\nclass=\"math inline\" ..."
+}

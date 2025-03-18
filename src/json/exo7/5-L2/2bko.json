@@ -1,0 +1,77 @@
+{
+  "uuid": "2bko",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4593",
+    "auteur": "quercia",
+    "createdAt": "2010-03-14",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Etude au bord",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:26.231Z"
+  },
+  "contenu": [
+    {
+      "id": "ddb9d7a3-5980-42cd-9793-fc9c04d233b3",
+      "type": "description",
+      "value": {
+        "latex": "Pour $x \\in \\R$ on pose $f(x) = \\sum_{n=1}^\\infty x^n\\sin\\frac1{\\sqrt n}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(x \\in \\R\\)</span> on pose <span\nclass=\"math inline\">\\(f(x) = \\sum_{n=1}^\\infty x^n\\sin\\frac1{\\sqrt\nn}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "14dd1bfa-9025-4aec-a14c-4fbb024e989f",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le rayon de convergence, $R$, de cette série.",
+        "html": "<p>Déterminer le rayon de convergence, <span\nclass=\"math inline\">\\(R\\)</span>, de cette série.</p>\n"
+      }
+    },
+    {
+      "id": "bb4cfb4b-4c26-41b3-ad25-c1bb2e61a5a5",
+      "type": "reponse",
+      "value": {
+        "latex": "$R=1$.",
+        "html": "<p><span class=\"math inline\">\\(R=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4a2b72c2-b2fa-4dab-8f20-3d5a13c3689a",
+      "type": "question",
+      "value": {
+        "latex": "\\'Etudier la convergence de $f$ pour $x = \\pm R$.",
+        "html": "<p>Étudier la convergence de <span class=\"math inline\">\\(f\\)</span> pour\n<span class=\"math inline\">\\(x = \\pm R\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "154ee5fe-b7c7-4f96-a47f-44af1a657e5f",
+      "type": "reponse",
+      "value": {
+        "latex": "$x=-1  \\Rightarrow $ cv (série alternée), $x=1  \\Rightarrow $ dv.",
+        "html": "<p><span class=\"math inline\">\\(x=-1  \\Rightarrow\\)</span> cv (série\nalternée), <span class=\"math inline\">\\(x=1  \\Rightarrow\\)</span> dv.</p>\n"
+      }
+    },
+    {
+      "id": "fe53ef01-48a4-4a70-9ff0-0f0b0f900382",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $\\lim_{x\\to R^-} f(x)$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(\\lim_{x\\to R^-}\nf(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "160d7bea-aeaf-4059-9fb6-3544a4082bdb",
+      "type": "reponse",
+      "value": {
+        "latex": "$f$ est croissante sur $[0,1[$ donc $L$ existe dans $[0,+\\infty]$.\n\n             $L = \\sup\\limits_{[0,1[} f(x)\n              \\ge \\sup\\limits_{[0,1[} \\sum_{n=1}^N x^n\\sin\\frac1{\\sqrt n}\n              \\ge \\sum_{n=1}^N \\sin\\frac1{\\sqrt n}  \\Rightarrow  L = +\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est croissante sur <span\nclass=\"math inline\">\\([0,1[\\)</span> donc <span\nclass=\"math inline\">\\(L\\)</span> existe dans <span\nclass=\"math inline\">\\([0,+\\infty]\\)</span>.</p>\n<p><span class=\"math inline\">\\(L = \\sup\\limits_{[0,1[} f(x)\n              \\ge \\sup\\limits_{[0,1[} \\sum_{n=1}^N x^n\\sin\\frac1{\\sqrt\nn}\n              \\ge \\sum_{n=1}^N \\sin\\frac1{\\sqrt n}  \\Rightarrow  L =\n+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(x \\in \\R\\)</span> on pose <span\nclass=\"math inline\">\\(f(x) = \\sum_{n=1}^\\infty x^n\\sin\\frac1{\\sqrt\nn}\\)</span>.</p ..."
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "7Zjd",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "7727",
+    "auteur": "mourougane",
+    "createdAt": "2021-08-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Forme bilinéaire",
+    "sousChapitre": "Forme bilinéaire",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:00:42.258Z"
+  },
+  "contenu": [
+    {
+      "id": "129c729d-db94-4d73-903b-b46113a0c84a",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "f8e54f25-2756-4487-98f0-37b93203b18e",
+      "type": "question",
+      "value": {
+        "latex": "On considère l'application $\\sigma~:~\\mathbb{F}_{25}\\to \\mathbb{F}_{25}, \\lambda\\mapsto\\lambda^5$. Montrer que c'est un automorphisme involutif du corps $\\mathbb{F}_{25}$.",
+        "html": "<p>On considère l’application <span\nclass=\"math inline\">\\(\\sigma~:~\\mathbb{F}_{25}\\to \\mathbb{F}_{25},\n\\lambda\\mapsto\\lambda^5\\)</span>. Montrer que c’est un automorphisme\ninvolutif du corps <span\nclass=\"math inline\">\\(\\mathbb{F}_{25}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6df0cd57-5a63-45c7-a8c5-210160095e9f",
+      "type": "reponse",
+      "value": {
+        "latex": "Il faut montrer que $\\sigma$ est un morphisme de corps,\r\n puis que c'est une bijection. La bijection inverse est alors automatiquement un morphisme de corps.\r\n Pour le premier point, $\\sigma$ est facilement multiplicative et $\\sigma (1)=1$. Pour montrer que $\\sigma (a+b)=\\sigma (a)+\\sigma(b)$, on utilise la formule du binôme puis le fait que le corps $\\mathbb{F}_5$ est de caractéristique $5$.\r\n Pour le second point, il suffit de montrer que $\\sigma$ est injective puisque son ensemble de départ a le même cardinal fini que son ensemble d'arrivée. Pour cela, il suffit de dire que $\\sigma$ est un morphisme de corps.",
+        "html": "<p>Il faut montrer que <span class=\"math inline\">\\(\\sigma\\)</span> est\nun morphisme de corps, puis que c’est une bijection. La bijection\ninverse est alors automatiquement un morphisme de corps. Pour le premier\npoint, <span class=\"math inline\">\\(\\sigma\\)</span> est facilement\nmultiplicative et <span class=\"math inline\">\\(\\sigma (1)=1\\)</span>.\nPour montrer que <span class=\"math inline\">\\(\\sigma (a+b)=\\sigma\n(a)+\\sigma(b)\\)</span>, on utilise la formule du binôme puis le fait que\nle corps <span class=\"math inline\">\\(\\mathbb{F}_5\\)</span> est de\ncaractéristique <span class=\"math inline\">\\(5\\)</span>. Pour le second\npoint, il suffit de montrer que <span\nclass=\"math inline\">\\(\\sigma\\)</span> est injective puisque son ensemble\nde départ a le même cardinal fini que son ensemble d’arrivée. Pour cela,\nil suffit de dire que <span class=\"math inline\">\\(\\sigma\\)</span> est un\nmorphisme de corps.</p>\n"
+      }
+    },
+    {
+      "id": "20f747bb-84bd-4d57-a039-ffe45c9e85dc",
+      "type": "question",
+      "value": {
+        "latex": "Les formes suivantes sur $E:=\\mathbb{F}_{25}^3$ sont-elles $\\sigma$-sesquilinéaires ?\r\n\\begin{eqnarray*}\r\n f_1( \r\n\\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\r\n\\left(\\begin{array}{c}x'\\\\ y'\\\\ z'\\end{array}\\right)\r\n)\r\n&=&x(x')^5+3z(y')^5+3y(z')^5.\\\\\r\nf_2( \r\n\\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\r\n\\left(\\begin{array}{c}x'\\\\ y'\\\\ z'\\end{array}\\right)\r\n)\r\n&=&x^5(x')^5+x^5(y')^5+y^5(x')^5.\\\\\r\nf_3(\r\n\\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\r\n\\left(\\begin{array}{c}x'\\\\ y'\\\\ z'\\end{array}\\right)\r\n)\r\n&=&3x(x')^5+z(y')^5+y(z')^5.\r\n\\end{eqnarray*}",
+        "html": "<p>Les formes suivantes sur <span\nclass=\"math inline\">\\(E:=\\mathbb{F}_{25}^3\\)</span> sont-elles <span\nclass=\"math inline\">\\(\\sigma\\)</span>-sesquilinéaires ? <span\nclass=\"math display\">\\[\\begin{aligned}\nf_1(\n\\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\n\\left(\\begin{array}{c}x&#39;\\\\ y&#39;\\\\ z&#39;\\end{array}\\right)\n)\n&amp;=&amp;x(x&#39;)^5+3z(y&#39;)^5+3y(z&#39;)^5.\\\\\nf_2(\n\\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\n\\left(\\begin{array}{c}x&#39;\\\\ y&#39;\\\\ z&#39;\\end{array}\\right)\n)\n&amp;=&amp;x^5(x&#39;)^5+x^5(y&#39;)^5+y^5(x&#39;)^5.\\\\\nf_3(\n\\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\n\\left(\\begin{array}{c}x&#39;\\\\ y&#39;\\\\ z&#39;\\end{array}\\right)\n)\n&amp;=&amp;3x(x&#39;)^5+z(y&#39;)^5+y(z&#39;)^5.\n\\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e5511ff9-0f7a-43a8-aab9-f74ebb4cd7ee",
+      "type": "reponse",
+      "value": {
+        "latex": "Les formes $f_1$ et $f_3$ sont linéaires par rapport à la première variable, et en utilisant l'expression \r\n $$f_1 \\left(\\begin{array}{c}x\\\\ y\\\\ z\\end{array}\\right),\r\n \\left(\\begin{array}{c}x'\\\\ y'\\\\ z'\\end{array}\\right)\r\n )\r\n =x\\sigma(x')+3z\\sigma(y')+3y\\sigma(z')$$\r\n on montre aussi qu'elles sont $\\sigma$-semi linéaire par rapport à la seconde variable. Elles sont donc sesquilinéaires.\r\n Par contre, comme il n'y a au plus que cinq élément de $\\mathbb{F}_{25}$ qui vérifient $\\lambda^5=\\lambda$, il existe un $\\lambda\\in\\mathbb{F}_{25}$ tel que $f_2(\\lambda\\cdot(1,1,1),(1,1,1))=3\\lambda^5\r\n \\not=\\lambda\\cdot f_2((1,1,1),(1,1,1))$.\r\n La forme $f_2$ n'est donc pas sesquilinéaires.",
+        "html": "<p>Les formes <span class=\"math inline\">\\(f_1\\)</span> et <span\nclass=\"math inline\">\\(f_3\\)</span> sont linéaires par rapport à la\npremière variable, et en utilisant l’expression <span\nclass=\"math display\">\\[f_1 \\left(\\begin{array}{c}x\\\\ y\\\\\nz\\end{array}\\right),\n\\left(\\begin{array}{c}x&#39;\\\\ y&#39;\\\\ z&#39;\\end{array}\\right)\n)\n=x\\sigma(x&#39;)+3z\\sigma(y&#39;)+3y\\sigma(z&#39;)\\]</span> on montre\naussi qu’elles sont <span class=\"math inline\">\\(\\sigma\\)</span>-semi\nlinéaire par rapport à la seconde variable. Elles sont donc\nsesquilinéaires. Par contre, comme il n’y a au plus que cinq élément de\n<span class=\"math inline\">\\(\\mathbb{F}_{25}\\)</span> qui vérifient <span\nclass=\"math inline\">\\(\\lambda^5=\\lambda\\)</span>, il existe un <span\nclass=\"math inline\">\\(\\lambda\\in\\mathbb{F}_{25}\\)</span> tel que <span\nclass=\"math inline\">\\(f_2(\\lambda\\cdot(1,1,1),(1,1,1))=3\\lambda^5\n\\not=\\lambda\\cdot f_2((1,1,1),(1,1,1))\\)</span>. La forme <span\nclass=\"math inline\">\\(f_2\\)</span> n’est donc pas sesquilinéaires.</p>\n"
+      }
+    },
+    {
+      "id": "776adc79-aff7-4d7f-918e-4eb0a01f51b3",
+      "type": "question",
+      "value": {
+        "latex": "Parmi les formes $\\sigma$-sesquilinéaires précédentes, lesquelles sont équivalentes ?",
+        "html": "<p>Parmi les formes <span\nclass=\"math inline\">\\(\\sigma\\)</span>-sesquilinéaires précédentes,\nlesquelles sont équivalentes ?</p>\n"
+      }
+    },
+    {
+      "id": "f1e95757-2611-40fd-8622-edfc7b3bd45f",
+      "type": "reponse",
+      "value": {
+        "latex": "Par un théorème du cours, c'est le rang qui classifie les formes sesquilinéaires sur les corps finis. Comme $f_1$ et $f_3$ ont même rang $3$, elles sont équivalentes.",
+        "html": "<p>Par un théorème du cours, c’est le rang qui classifie les formes\nsesquilinéaires sur les corps finis. Comme <span\nclass=\"math inline\">\\(f_1\\)</span> et <span\nclass=\"math inline\">\\(f_3\\)</span> ont même rang <span\nclass=\"math inline\">\\(3\\)</span>, elles sont équivalentes.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère l’application <span\nclass=\"math inline\">\\(\\sigma~:~\\mathbb{F}_{25}\\to \\mathbb{F}_{25},\n\\lambda\\mapsto\\lambda^5\\)</span>. Montrer que c ..."
+}

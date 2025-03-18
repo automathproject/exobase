@@ -1,0 +1,93 @@
+{
+  "uuid": "6FkT",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1217",
+    "auteur": "ridde",
+    "createdAt": "1999-11-01",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:55.461Z"
+  },
+  "contenu": [
+    {
+      "id": "309f0129-f572-4905-bae1-de5ca6705df2",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les limites de",
+        "html": "<p>Calculer les limites de</p>\n"
+      }
+    },
+    {
+      "id": "c2e58f92-74e5-48db-8736-a52c8d4c97a2",
+      "type": "question",
+      "value": {
+        "latex": "$\\dfrac{\\sin x \\ln (1 + x^2)}{x \\tan x} \\text{ en } 0$.",
+        "html": "<p><span class=\"math inline\">\\(\\dfrac{\\sin x \\ln (1 + x^2)}{x \\tan x}\n\\text{ en } 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b0259d1c-cc8c-4a51-a435-aa535b68cde2",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\displaystyle{\\lim _{x\\rightarrow 0}{\\frac\n{\\sin(x)\\ln (1+{x}^{2})}{x\\tan(x)}}=0 }$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle{\\lim _{x\\rightarrow\n0}{\\frac\n{\\sin(x)\\ln (1+{x}^{2})}{x\\tan(x)}}=0 }\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a538019b-f073-4ccc-9864-eda657eebe41",
+      "type": "question",
+      "value": {
+        "latex": "$\\dfrac{\\ln (1 + \\sin x)}{\\tan (6x)} \\text{ en } 0$.",
+        "html": "<p><span class=\"math inline\">\\(\\dfrac{\\ln (1 + \\sin x)}{\\tan (6x)}\n\\text{ en } 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4ab50673-40ec-4127-b75d-7c7d4009cc77",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\displaystyle{\\lim _{x\\rightarrow 0}{\\frac {\\ln (1+\\sin(x))}{\\tan(6\\,x)}}=1/6 }$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle{\\lim _{x\\rightarrow\n0}{\\frac {\\ln (1+\\sin(x))}{\\tan(6\\,x)}}=1/6 }\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8b8b948c-67c7-4434-8e46-4db939a4dcf0",
+      "type": "question",
+      "value": {
+        "latex": "$ (\\ln (e + x))^{\\frac 1x} \\text{ en } 0$.",
+        "html": "<p><span class=\"math inline\">\\((\\ln (e + x))^{\\frac 1x} \\text{ en }\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8f9057d0-b631-4744-b1ad-e6865ef4aa76",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\displaystyle{\\lim _{x\\rightarrow 0}\\left (\\ln ({e}+x)\\right )^{{x}^{-1}}={e^{{e^{-1}}}} }$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle{\\lim _{x\\rightarrow 0}\\left\n(\\ln ({e}+x)\\right )^{{x}^{-1}}={e^{{e^{-1}}}} }\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1eb05f5b-c41e-4423-a6c4-d7a9a2df9b8e",
+      "type": "question",
+      "value": {
+        "latex": "$(\\ln (1 + e^{-x}))^{\\frac 1x} \\text{ en }  + \\infty$.",
+        "html": "<p><span class=\"math inline\">\\((\\ln (1 + e^{-x}))^{\\frac 1x} \\text{ en\n}  + \\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1ccfb0ab-28a1-4ae1-b358-779d288ea922",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\displaystyle{\\lim _{x\\rightarrow \\infty }\\left (\\ln (1+{e^{-x}})\\right )^{{x}^{-1}}={e^{-1}} }$.",
+        "html": "<p><span class=\"math inline\">\\(\\displaystyle{\\lim _{x\\rightarrow \\infty\n}\\left (\\ln (1+{e^{-x}})\\right )^{{x}^{-1}}={e^{-1}} }\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les limites de</p>\n"
+}

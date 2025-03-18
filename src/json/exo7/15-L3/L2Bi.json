@@ -1,0 +1,45 @@
+{
+  "uuid": "L2Bi",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2385",
+    "auteur": "mayer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Connexité",
+    "sousChapitre": "Connexité",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:36.677Z"
+  },
+  "contenu": [
+    {
+      "id": "0949bb54-4204-47fd-9d4c-f6f03f3b8d83",
+      "type": "description",
+      "value": {
+        "latex": "Soit $A$ et $B$ des parties de $X$. On suppose $B$ connexe et que\n$B\\cap A$ et $B \\cap \\complement A$ sont non vides. Montrer que $B$\ncoupe la fronti\\`ere de $A$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> des parties de <span\nclass=\"math inline\">\\(X\\)</span>. On suppose <span\nclass=\"math inline\">\\(B\\)</span> connexe et que <span\nclass=\"math inline\">\\(B\\cap A\\)</span> et <span class=\"math inline\">\\(B\n\\cap \\complement A\\)</span> sont non vides. Montrer que <span\nclass=\"math inline\">\\(B\\)</span> coupe la frontière de <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e038a95e-a8d1-4ff3-9a0c-5c63a1ef889e",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la partition $X = \\mathring A \\cup \\mathrm{Fr}\\, A  \\cup (X \\setminus \\bar A)$\no\\`u  $\\mathrm{Fr}\\, A = \\bar A \\setminus \\mathring A$ est la frontière de $A$.",
+        "html": "<p>Utiliser la partition <span class=\"math inline\">\\(X = \\mathring A\n\\cup \\mathrm{Fr}\\, A  \\cup (X \\setminus \\bar A)\\)</span> où <span\nclass=\"math inline\">\\(\\mathrm{Fr}\\, A = \\bar A \\setminus \\mathring\nA\\)</span> est la frontière de <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0f73d30d-d2d1-4b29-b65b-e06d83cbdd5a",
+      "type": "reponse",
+      "value": {
+        "latex": "Notons la frontière $\\mathrm{Fr}\\, A = \\bar A \\setminus \\mathring A$.\nNous avons la partition $X = \\mathring A \\cup \\mathrm{Fr}\\, A  \\cup (X \\setminus \\bar A)$.\nSi $B \\cap \\mathrm{Fr}\\, A  = \\varnothing$ alors $B\\subset \\mathring A \\cup (X \\setminus \\bar A)$. \n\nDe plus, par hypothèses, $B \\cap A \\neq \\varnothing$ et $B \\cap \\mathrm{Fr}\\, A = \\varnothing$ \nor $\\mathring A= A \\setminus \\mathrm{Fr}\\, A$ donc $B \\cap \\mathring A \\neq \\varnothing$.\nComme $\\mathrm{Fr}\\, A = \\mathrm{Fr}\\, (X\\setminus A)$ on a $B\\cap \\mathrm{Fr}\\, (X\\setminus A) = \\varnothing$.\nPar hypothèse $B\\cap (X\\setminus  A) \\neq \\varnothing$ donc $B\\cap  (X\\setminus \\bar A) = \n(B\\cap  (X\\setminus A)) \\setminus (B\\cap \\mathrm{Fr}\\, (X\\setminus A)) \\neq \\varnothing$.\n\n Nous avons montrer que $B$ est inclus dans l'union de deux ouverts disjoints \n$\\mathring A$ et $X\\setminus \\bar A$, d'intersection non vide avec $B$, donc $B$ n'est pas connexe.\nPar contraposition, si $B$ est connexe alors $B$ ne rencontre pas la frontière \nde $A$.",
+        "html": "<p>Notons la frontière <span class=\"math inline\">\\(\\mathrm{Fr}\\, A =\n\\bar A \\setminus \\mathring A\\)</span>. Nous avons la partition <span\nclass=\"math inline\">\\(X = \\mathring A \\cup \\mathrm{Fr}\\, A  \\cup (X\n\\setminus \\bar A)\\)</span>. Si <span class=\"math inline\">\\(B \\cap\n\\mathrm{Fr}\\, A  = \\varnothing\\)</span> alors <span\nclass=\"math inline\">\\(B\\subset \\mathring A \\cup (X \\setminus \\bar\nA)\\)</span>.</p>\n<p>De plus, par hypothèses, <span class=\"math inline\">\\(B \\cap A \\neq\n\\varnothing\\)</span> et <span class=\"math inline\">\\(B \\cap \\mathrm{Fr}\\,\nA = \\varnothing\\)</span> or <span class=\"math inline\">\\(\\mathring A= A\n\\setminus \\mathrm{Fr}\\, A\\)</span> donc <span class=\"math inline\">\\(B\n\\cap \\mathring A \\neq \\varnothing\\)</span>. Comme <span\nclass=\"math inline\">\\(\\mathrm{Fr}\\, A = \\mathrm{Fr}\\, (X\\setminus\nA)\\)</span> on a <span class=\"math inline\">\\(B\\cap \\mathrm{Fr}\\,\n(X\\setminus A) = \\varnothing\\)</span>. Par hypothèse <span\nclass=\"math inline\">\\(B\\cap (X\\setminus  A) \\neq \\varnothing\\)</span>\ndonc <span class=\"math inline\">\\(B\\cap  (X\\setminus \\bar A) =\n(B\\cap  (X\\setminus A)) \\setminus (B\\cap \\mathrm{Fr}\\, (X\\setminus A))\n\\neq \\varnothing\\)</span>.</p>\n<p>Nous avons montrer que <span class=\"math inline\">\\(B\\)</span> est\ninclus dans l’union de deux ouverts disjoints <span\nclass=\"math inline\">\\(\\mathring A\\)</span> et <span\nclass=\"math inline\">\\(X\\setminus \\bar A\\)</span>, d’intersection non\nvide avec <span class=\"math inline\">\\(B\\)</span>, donc <span\nclass=\"math inline\">\\(B\\)</span> n’est pas connexe. Par contraposition,\nsi <span class=\"math inline\">\\(B\\)</span> est connexe alors <span\nclass=\"math inline\">\\(B\\)</span> ne rencontre pas la frontière de <span\nclass=\"math inline\">\\(A\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(A\\)</span> et <span\nclass=\"math inline\">\\(B\\)</span> des parties de <span\nclass=\"math inline\">\\(X\\)</span>. On sup ..."
+}

@@ -1,0 +1,93 @@
+{
+  "uuid": "i9go",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5969",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:15.117Z"
+  },
+  "contenu": [
+    {
+      "id": "183fcd76-6669-4bc3-8e0b-bec919d52c09",
+      "type": "description",
+      "value": {
+        "latex": "\\textbf{D\\'efinition.}\n\nOn dit qu'un espace m\\'etrique $E$ est \\emph{s\\'eparable} s'il\nexiste un sous-ensemble $\\mathcal{F} \\subset E$ d\\'enombrable et\ndense. \n\n\n\\bigskip\n\n\\textbf{Th\\'eor\\`eme}\nL'espace $L^p(\\mathbb{R}^{n})$ est s\\'eparable pour $1\\leq p\n<+\\infty$.\n\n\\bigskip\n\nLe but de cet exercice  est de d\\'emontrer ce th\\'eor\\`eme.",
+        "html": "<p><strong>Définition.</strong></p>\n<p>On dit qu’un espace métrique <span class=\"math inline\">\\(E\\)</span>\nest <em>séparable</em> s’il existe un sous-ensemble <span\nclass=\"math inline\">\\(\\mathcal{F} \\subset E\\)</span> dénombrable et\ndense.</p>\n<p><strong>Théorème</strong> L’espace <span\nclass=\"math inline\">\\(L^p(\\mathbb{R}^{n})\\)</span> est séparable pour\n<span class=\"math inline\">\\(1\\leq p\n&lt;+\\infty\\)</span>.</p>\n<p>Le but de cet exercice est de démontrer ce théorème.</p>\n"
+      }
+    },
+    {
+      "id": "a1902dfa-7225-46d5-87df-f2459293a2fb",
+      "type": "question",
+      "value": {
+        "latex": "Pour $j = 1, 2, 3, \\dots$ et $m = (m_1,\\ldots,m_n) \\in\\mathbb{Z}^{n}$, on\nconsid\\`ere les cubes\n$$\n\\Gamma_{j, m}~:= \\{ x\\in\\mathbb{R}^n,~ 2^{-j}m_{i} < x_i \\leq\n2^{-j}(m_i + 1),~ i = 1, \\dots, n\\}.\n$$\nMontrer que pour tout $j \\in \\mathbb{N}^*$,\n$\\bigcup_{m\\in\\mathbb{Z}^n} \\Gamma_{j, m} = \\mathbb{R}^{n}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(j = 1, 2, 3, \\dots\\)</span> et <span\nclass=\"math inline\">\\(m = (m_1,\\ldots,m_n) \\in\\mathbb{Z}^{n}\\)</span>,\non considère les cubes <span class=\"math display\">\\[\\Gamma_{j, m}~:= \\{\nx\\in\\mathbb{R}^n,~ 2^{-j}m_{i} &lt; x_i \\leq\n2^{-j}(m_i + 1),~ i = 1, \\dots, n\\}.\\]</span> Montrer que pour tout\n<span class=\"math inline\">\\(j \\in \\mathbb{N}^*\\)</span>, <span\nclass=\"math inline\">\\(\\bigcup_{m\\in\\mathbb{Z}^n} \\Gamma_{j, m} =\n\\mathbb{R}^{n}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b34b9374-6533-4ca5-b99c-7581b6781e4a",
+      "type": "question",
+      "value": {
+        "latex": "Pour $j\\in\\mathbb{N}^*$, on consid\\`ere l'ensemble\n$\\mathcal{F}_{j}$ de fonctions $\\varphi$ de la forme~:\n$$\n\\varphi(x) = \\sum_{m\\in\\mathbb{Z}^n} c_{j, m}\\, \\mathbf{1}_{\\Gamma_{j,\nm}},\n$$\no\\`u les constantes $c_{j, m}\\in\\mathbb{Q}$ et sont nulles sauf un\nnombre fini. Montrer que l'ensemble\n$$\n\\mathcal{F} = \\bigcup_{j = 1}^{\\infty} \\mathcal{F}_{j}\n$$\nest d\\'enombrable.",
+        "html": "<p>Pour <span class=\"math inline\">\\(j\\in\\mathbb{N}^*\\)</span>, on\nconsidère l’ensemble <span\nclass=\"math inline\">\\(\\mathcal{F}_{j}\\)</span> de fonctions <span\nclass=\"math inline\">\\(\\varphi\\)</span> de la forme : <span\nclass=\"math display\">\\[\\varphi(x) = \\sum_{m\\in\\mathbb{Z}^n} c_{j, m}\\,\n\\mathbf{1}_{\\Gamma_{j,\nm}},\\]</span> où les constantes <span class=\"math inline\">\\(c_{j,\nm}\\in\\mathbb{Q}\\)</span> et sont nulles sauf un nombre fini. Montrer que\nl’ensemble <span class=\"math display\">\\[\\mathcal{F} = \\bigcup_{j =\n1}^{\\infty} \\mathcal{F}_{j}\\]</span> est dénombrable.</p>\n"
+      }
+    },
+    {
+      "id": "0a33aaa8-561d-4f09-8120-3fa0b0a0534a",
+      "type": "question",
+      "value": {
+        "latex": "Le but de cette question est de montrer que toute fonction\ncontinue \\`a support compact peut \\^etre approch\\'ee \\`a\n$\\varepsilon$ pr\\`es en norme $L^{p}$ par un \\'el\\'ement de la\nfamille $\\mathcal{F}$. Soit $\\tilde{f}$ une fonction continue \\`a\nsupport compact et soit $\\varepsilon>0$ fix\\'e.\n\n\\begin{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "91a9e4b1-37f1-4066-9a40-2f5e4887423a",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que pour tout $\\varepsilon'>0$, il existe $j\n\\in\\mathbb{N}^*$, tel que $\\forall m\\in\\mathbb{Z}^n$,\n$$\nx, y \\in \\Gamma_{j, m} \\Rightarrow |\\tilde{f}(x) - \\tilde{f}(y)|<\n\\varepsilon'.\n$$",
+        "html": "<p>Montrer que pour tout <span\nclass=\"math inline\">\\(\\varepsilon&#39;&gt;0\\)</span>, il existe <span\nclass=\"math inline\">\\(j\n\\in\\mathbb{N}^*\\)</span>, tel que <span class=\"math inline\">\\(\\forall\nm\\in\\mathbb{Z}^n\\)</span>, <span class=\"math display\">\\[x, y \\in\n\\Gamma_{j, m} \\Rightarrow |\\tilde{f}(x) - \\tilde{f}(y)|&lt;\n\\varepsilon&#39;.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c4a6c4eb-d317-45b1-ba4b-e7ef3aad0553",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\varepsilon'>0$ fix\\'e et $j$ comme dans la\nquestion pr\\'ec\\'edente. On consid\\`ere la fonction\n$\\tilde{f}_{j}$ d\\'efinie par~:\n$$\n\\tilde{f}_{j}(x) = 2^{nj} \\int_{\\Gamma_{j, m}}\\tilde{f}(y)\\,dy\n\\quad\\text{lorsque}\\quad x\\in\\Gamma_{j, m},\n$$\ni.e. la valeur de $\\tilde{f}_{j}$ en un point $x\\in\\mathbb{R}^{n}$\nest la valeur moyenne de la fonction $\\tilde{f}$ sur le cube\n$\\Gamma_{j, m}$ de cot\\'e $2^{-j}$ qui contient $x$. Montrer que\n$\\forall m\\in\\mathbb{Z}^n$,\n$$\nx \\in \\Gamma_{j, m} \\Rightarrow |\\tilde{f}(x) - \\tilde{f}_{j}(x)|<\n\\varepsilon',\n$$\net en d\\'eduire que\n$$\n\\|\\tilde{f} - \\tilde{f}_{j}\\|_p <\n\\text{Volume}(\\gamma)^{\\frac{1}{p}}\\cdot\\varepsilon'\n$$\no\\`u $\\gamma$ est un cube de la forme $\\{x\\in\\mathbb{R}^{n},\n-2^{J} \\leq x_i \\leq 2^J\\}$ en dehors duquel $\\tilde{f}$ est\nnulle.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\varepsilon&#39;&gt;0\\)</span> fixé\net <span class=\"math inline\">\\(j\\)</span> comme dans la question\nprécédente. On considère la fonction <span\nclass=\"math inline\">\\(\\tilde{f}_{j}\\)</span> définie par : <span\nclass=\"math display\">\\[\\tilde{f}_{j}(x) = 2^{nj} \\int_{\\Gamma_{j,\nm}}\\tilde{f}(y)\\,dy\n\\quad\\text{lorsque}\\quad x\\in\\Gamma_{j, m},\\]</span> i.e. la valeur de\n<span class=\"math inline\">\\(\\tilde{f}_{j}\\)</span> en un point <span\nclass=\"math inline\">\\(x\\in\\mathbb{R}^{n}\\)</span> est la valeur moyenne\nde la fonction <span class=\"math inline\">\\(\\tilde{f}\\)</span> sur le\ncube <span class=\"math inline\">\\(\\Gamma_{j, m}\\)</span> de coté <span\nclass=\"math inline\">\\(2^{-j}\\)</span> qui contient <span\nclass=\"math inline\">\\(x\\)</span>. Montrer que <span\nclass=\"math inline\">\\(\\forall m\\in\\mathbb{Z}^n\\)</span>, <span\nclass=\"math display\">\\[x \\in \\Gamma_{j, m} \\Rightarrow |\\tilde{f}(x) -\n\\tilde{f}_{j}(x)|&lt;\n\\varepsilon&#39;,\\]</span> et en déduire que <span\nclass=\"math display\">\\[\\|\\tilde{f} - \\tilde{f}_{j}\\|_p &lt;\n\\text{Volume}(\\gamma)^{\\frac{1}{p}}\\cdot\\varepsilon&#39;\\]</span> où\n<span class=\"math inline\">\\(\\gamma\\)</span> est un cube de la forme\n<span class=\"math inline\">\\(\\{x\\in\\mathbb{R}^{n},\n-2^{J} \\leq x_i \\leq 2^J\\}\\)</span> en dehors duquel <span\nclass=\"math inline\">\\(\\tilde{f}\\)</span> est nulle.</p>\n"
+      }
+    },
+    {
+      "id": "f23977bf-b409-4705-8c60-9f88500215c1",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire qu'il existe $f_{j}\\in\\mathcal{F}_{j}$\ntelle que $\\|\\tilde{f} -f_{j}\\|_{p} < \\varepsilon.$ (On rappelle\nque les \\'el\\'ements de $\\mathcal{F}_{j}$ ne prennent que des\nvaleurs rationnelles.)\n\\end{itemize}",
+        "html": ""
+      }
+    },
+    {
+      "id": "b853efe1-605f-4366-b93b-520e54fe2c2c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que toute fonction $f\\in L^{p}(\\mathbb{R}^{n})$,\n$1\\leq p <+\\infty$, peut \\^etre approch\\'ee \\`a $\\varepsilon$\npr\\`es en norme $L^{p}$ par un \\'el\\'ement de la famille\n$\\mathcal{F}$. Conclure.",
+        "html": "<p>Montrer que toute fonction <span class=\"math inline\">\\(f\\in\nL^{p}(\\mathbb{R}^{n})\\)</span>, <span class=\"math inline\">\\(1\\leq p\n&lt;+\\infty\\)</span>, peut être approchée à <span\nclass=\"math inline\">\\(\\varepsilon\\)</span> près en norme <span\nclass=\"math inline\">\\(L^{p}\\)</span> par un élément de la famille <span\nclass=\"math inline\">\\(\\mathcal{F}\\)</span>. Conclure.</p>\n"
+      }
+    },
+    {
+      "id": "364127ef-3bec-429e-a336-7e706a5ffd22",
+      "type": "reponse",
+      "value": {
+        "latex": "Voir le lemme 2.17 p.61 dans \\textit{Analysis} de E.~Lieb et M.~Loss, American Mathematical Society (2001).",
+        "html": "<p>Voir le lemme 2.17 p.61 dans <em>Analysis</em> de E. Lieb et M. Loss,\nAmerican Mathematical Society (2001).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><strong>Définition.</strong></p>\n<p>On dit qu’un espace métrique <span class=\"math inline\">\\(E\\)</span>\nest <em>séparable</em> s’il existe un sous- ..."
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "UnJu",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6218",
+    "auteur": "queffelec",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace métrique complet, espace de Banach",
+    "sousChapitre": "Espace métrique complet, espace de Banach",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:45.350Z"
+  },
+  "contenu": [
+    {
+      "id": "120bec03-9fc9-49fd-8372-89926b3eebaf",
+      "type": "description",
+      "value": {
+        "latex": "Soit $(X,d)$ un espace métrique, et $(x_n)$ une suite de Cauchy dans $X$.\nVérifier :",
+        "html": "<p>Soit <span class=\"math inline\">\\((X,d)\\)</span> un espace métrique,\net <span class=\"math inline\">\\((x_n)\\)</span> une suite de Cauchy dans\n<span class=\"math inline\">\\(X\\)</span>. Vérifier :</p>\n"
+      }
+    },
+    {
+      "id": "c15ef7a6-7db5-4454-885d-bdc568a9f1bd",
+      "type": "question",
+      "value": {
+        "latex": "La suite $(x_n)$ est bornée même si la métrique est non\nbornée, mais il existe des suites bornées dont aucune sous-suite n'est de Cauchy.",
+        "html": "<p>La suite <span class=\"math inline\">\\((x_n)\\)</span> est bornée même\nsi la métrique est non bornée, mais il existe des suites bornées dont\naucune sous-suite n’est de Cauchy.</p>\n"
+      }
+    },
+    {
+      "id": "5df2d093-4503-4cf6-bd5b-6bfc2acb164b",
+      "type": "question",
+      "value": {
+        "latex": "Si $(x_n)$ contient une sous-suite convergente, elle est convergente.",
+        "html": "<p>Si <span class=\"math inline\">\\((x_n)\\)</span> contient une sous-suite\nconvergente, elle est convergente.</p>\n"
+      }
+    },
+    {
+      "id": "553709f2-6c1e-4872-a280-1a00464e3e8c",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(\\epsilon_k)$ une suite quelconque de réels $>0$; il existe une\nsous-suite $(x_{n_k})$ de $(x_n)$ telle que $d(x_{n_k},x_{n_{k+1}})\\leq\n\\epsilon_k.$",
+        "html": "<p>Soit <span class=\"math inline\">\\((\\epsilon_k)\\)</span> une suite\nquelconque de réels <span class=\"math inline\">\\(&gt;0\\)</span>; il\nexiste une sous-suite <span class=\"math inline\">\\((x_{n_k})\\)</span> de\n<span class=\"math inline\">\\((x_n)\\)</span> telle que <span\nclass=\"math inline\">\\(d(x_{n_k},x_{n_{k+1}})\\leq\n\\epsilon_k.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "246846db-bb96-4111-966d-75821f49d667",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(y_n)$ une suite quelconque de $X$. Si $\\sum_1^\\infty\nd(y_n,y_{n+1})<\\infty$, la suite $(y_n)$ est de Cauchy. Réciproque ?",
+        "html": "<p>Soit <span class=\"math inline\">\\((y_n)\\)</span> une suite quelconque\nde <span class=\"math inline\">\\(X\\)</span>. Si <span\nclass=\"math inline\">\\(\\sum_1^\\infty\nd(y_n,y_{n+1})&lt;\\infty\\)</span>, la suite <span\nclass=\"math inline\">\\((y_n)\\)</span> est de Cauchy. Réciproque ?</p>\n"
+      }
+    },
+    {
+      "id": "1232f66b-8182-4970-9b45-8127101d1012",
+      "type": "question",
+      "value": {
+        "latex": "On suppose cette fois la distance $d$ ultramétrique. Dans ce cas $(y_n)$\nest de Cauchy si et seulement si $d(y_n,y_{n+1})$ tend vers $0$.",
+        "html": "<p>On suppose cette fois la distance <span\nclass=\"math inline\">\\(d\\)</span> ultramétrique. Dans ce cas <span\nclass=\"math inline\">\\((y_n)\\)</span> est de Cauchy si et seulement si\n<span class=\"math inline\">\\(d(y_n,y_{n+1})\\)</span> tend vers <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\((X,d)\\)</span> un espace métrique,\net <span class=\"math inline\">\\((x_n)\\)</span> une suite de Cauchy dans\n<span cl ..."
+}

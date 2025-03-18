@@ -1,0 +1,61 @@
+{
+  "uuid": "2aqN",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1552",
+    "auteur": "barraud",
+    "createdAt": "2003-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Endomorphisme particulier",
+    "sousChapitre": "Endomorphisme orthogonal",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:07:31.350Z"
+  },
+  "contenu": [
+    {
+      "id": "73c24aed-e174-4599-96ee-b3192cf29133",
+      "type": "description",
+      "value": {
+        "latex": "Dans un espace euclidien $(E,<\\cdot ,\\cdot>)$, on considère un vecteur\n  $v$ non nul, un scalaire $\\lambda$ et l'endomorphisme~:\n$$\nu:\n\\begin{array}{ccl}\nE &  \\rightarrow &E  \\\\\nx &\\mapsto  &x+\\lambda <x,v> v\n\\end{array}\n$$",
+        "html": "<p>Dans un espace euclidien <span class=\"math inline\">\\((E,&lt;\\cdot\n,\\cdot&gt;)\\)</span>, on considère un vecteur <span\nclass=\"math inline\">\\(v\\)</span> non nul, un scalaire <span\nclass=\"math inline\">\\(\\lambda\\)</span> et l’endomorphisme : <span\nclass=\"math display\">\\[u:\n\\begin{array}{ccl}\nE &amp;  \\rightarrow &amp;E  \\\\\nx &amp;\\mapsto  &amp;x+\\lambda &lt;x,v&gt; v\n\\end{array}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f2cbc862-8664-48df-ad99-d312e1d3a7e1",
+      "type": "question",
+      "value": {
+        "latex": "Pour $x\\in E$, calculer $\\Vert u(x)\\Vert^{2}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(x\\in E\\)</span>, calculer <span\nclass=\"math inline\">\\(\\Vert u(x)\\Vert^{2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1d703a4d-3deb-4a4d-9f16-f05ce854d382",
+      "type": "question",
+      "value": {
+        "latex": "Donner une condition nécessaire et suffisante sur $\\lambda$ et $v$\n  pour que $u$ soit une transformation orthogonale.",
+        "html": "<p>Donner une condition nécessaire et suffisante sur <span\nclass=\"math inline\">\\(\\lambda\\)</span> et <span\nclass=\"math inline\">\\(v\\)</span> pour que <span\nclass=\"math inline\">\\(u\\)</span> soit une transformation\northogonale.</p>\n"
+      }
+    },
+    {
+      "id": "1e1d1673-f6d4-4ba1-921b-80817baa43c8",
+      "type": "question",
+      "value": {
+        "latex": "Lorsque $u$ est orthogonale, dire a priori quelles sont les valeurs\n  propres possibles de $u$, puis dire si elles sont effectivement valeur\n  propre en étudiant les espaces propres associés.",
+        "html": "<p>Lorsque <span class=\"math inline\">\\(u\\)</span> est orthogonale, dire\na priori quelles sont les valeurs propres possibles de <span\nclass=\"math inline\">\\(u\\)</span>, puis dire si elles sont effectivement\nvaleur propre en étudiant les espaces propres associés.</p>\n"
+      }
+    },
+    {
+      "id": "12a94da9-b5e8-4f7e-9a99-632ba6bf7343",
+      "type": "question",
+      "value": {
+        "latex": "Lorsque $u$ est orthogonale, donner une interprétation géométrique de\n  $u$.",
+        "html": "<p>Lorsque <span class=\"math inline\">\\(u\\)</span> est orthogonale,\ndonner une interprétation géométrique de <span\nclass=\"math inline\">\\(u\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Dans un espace euclidien <span class=\"math inline\">\\((E,&lt;\\cdot\n,\\cdot&gt;)\\)</span>, on considère un vecteur <span\nclass=\"math inline\">\\(v\\)</sp ..."
+}

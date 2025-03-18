@@ -1,0 +1,37 @@
+{
+  "uuid": "ndG5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4280",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Intégrale impropre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:44.917Z"
+  },
+  "contenu": [
+    {
+      "id": "268cb09c-167d-4b64-9bd1-98cfec9200f1",
+      "type": "description",
+      "value": {
+        "latex": "Calculer $I_n =  \\int_{t=0}^{+\\infty}\\frac{d t}{(t+1)(t+2)\\dots(t+n)}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(I_n\n=  \\int_{t=0}^{+\\infty}\\frac{d t}{(t+1)(t+2)\\dots(t+n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac938804-fa34-441f-870f-bdd7803e24f3",
+      "type": "reponse",
+      "value": {
+        "latex": "Décomposer en éléments simples et intégrer.\nOn obtient $I_n = \\frac1{(n-1)!}\\sum_{k=1}^n(-1)^kC_{n-1}^{k-1}\\ln k$.",
+        "html": "<p>Décomposer en éléments simples et intégrer. On obtient <span\nclass=\"math inline\">\\(I_n =\n\\frac1{(n-1)!}\\sum_{k=1}^n(-1)^kC_{n-1}^{k-1}\\ln k\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(I_n\n=  \\int_{t=0}^{+\\infty}\\frac{d t}{(t+1)(t+2)\\dots(t+n)}\\)</span>.</p>\n"
+}

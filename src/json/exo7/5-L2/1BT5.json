@@ -1,0 +1,93 @@
+{
+  "uuid": "1BT5",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4379",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:23.240Z"
+  },
+  "contenu": [
+    {
+      "id": "4225e74a-977e-4b7c-8789-eddb05aed301",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "2fcfa094-47f7-436c-9eca-604800a9b51b",
+      "type": "question",
+      "value": {
+        "latex": "Soit $f : {[a,b]} \\to \\R$ de classe $\\mathcal{C}^2$ et $F(x) =  \\int_{t=a}^b\n    f(t)e^{-itx}\\,d t$ avec $a<0<b$. Montrer que $F(x)\\to0$ lorsque $x\\to+\\infty$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to \\R\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> et <span\nclass=\"math inline\">\\(F(x) =  \\int_{t=a}^b\n    f(t)e^{-itx}\\,d t\\)</span> avec <span\nclass=\"math inline\">\\(a&lt;0&lt;b\\)</span>. Montrer que <span\nclass=\"math inline\">\\(F(x)\\to0\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\to+\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "51464e49-cec4-4e2a-9607-23bedc592057",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrer par parties.",
+        "html": "<p>Intégrer par parties.</p>\n"
+      }
+    },
+    {
+      "id": "ffd3dc49-c855-4e9e-88ae-3af42cc9aa51",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $F(x) = \\frac{f(a)e^{-iax} - f(b)e^{-ibx}}{ix} +  o\\Bigl(\\frac1x\\Bigr)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(F(x) = \\frac{f(a)e^{-iax} -\nf(b)e^{-ibx}}{ix} +  o\\Bigl(\\frac1x\\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "098c43a1-459c-4242-bf93-d5afd441ac6e",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrer deux fois par parties.",
+        "html": "<p>Intégrer deux fois par parties.</p>\n"
+      }
+    },
+    {
+      "id": "70c63733-94dd-419e-ae85-8aaa12dcec43",
+      "type": "question",
+      "value": {
+        "latex": "Montrer la convergence de l'intégrale\n    $I= \\int_{t=-\\infty}^{+\\infty}e^{-it^2/2}\\,d t$.",
+        "html": "<p>Montrer la convergence de l’intégrale <span class=\"math inline\">\\(I=\n\\int_{t=-\\infty}^{+\\infty}e^{-it^2/2}\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "84a91f40-920a-4dc0-b59f-bc764b910993",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $0<u<v$~: $ \\int_{t=u}^{v}e^{-it^2/2}\\,d t =\n    \\Bigl[\\frac{e^{-it^2/2}}{-it}\\Bigr]_{t=u}^v -\n     \\int_{t=u}^v\\frac{e^{-it^2/2}}{it^2}\\,d t\n    \\to \\frac{e^{-iu^2/2}}{iu}- \\int_{t=u}^{+\\infty}\\frac{e^{-it^2/2}}{it^2}\\,d t$\n     lorsque $v\\to+\\infty$.\n\n    Ainsi $ \\int_{t=u}^{+\\infty}e^{-it^2/2}\\,d t$ converge et de même pour\n    $ \\int_{t=-\\infty}^{-u}e^{-it^2/2}\\,d t$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(0&lt;u&lt;v\\)</span> : <span\nclass=\"math inline\">\\(\\int_{t=u}^{v}e^{-it^2/2}\\,d t =\n    \\Bigl[\\frac{e^{-it^2/2}}{-it}\\Bigr]_{t=u}^v -\n     \\int_{t=u}^v\\frac{e^{-it^2/2}}{it^2}\\,d t\n    \\to \\frac{e^{-iu^2/2}}{iu}-\n\\int_{t=u}^{+\\infty}\\frac{e^{-it^2/2}}{it^2}\\,d t\\)</span> lorsque <span\nclass=\"math inline\">\\(v\\to+\\infty\\)</span>.</p>\n<p>Ainsi <span class=\"math inline\">\\(\\int_{t=u}^{+\\infty}e^{-it^2/2}\\,d\nt\\)</span> converge et de même pour <span\nclass=\"math inline\">\\(\\int_{t=-\\infty}^{-u}e^{-it^2/2}\\,d\nt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2e5395c4-a2a0-45b5-89a8-ec0315599daa",
+      "type": "question",
+      "value": {
+        "latex": "Soit $g(x) =  \\int_{t=a}^bf(t)e^{-ixt^2/2}\\,d t$.\n    Montrer que $g(x) = \\frac{I.f(0)}{\\sqrt x} +  o\\Bigl(\\frac1{\\sqrt x}\\Bigr)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(g(x)\n=  \\int_{t=a}^bf(t)e^{-ixt^2/2}\\,d t\\)</span>. Montrer que <span\nclass=\"math inline\">\\(g(x) = \\frac{I.f(0)}{\\sqrt x}\n+  o\\Bigl(\\frac1{\\sqrt x}\\Bigr)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "17aa03d2-0fbd-4265-9edc-3a3a0ce893d4",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $f(t) = f(0) + t\\varphi(t)$ avec $\\varphi$ de\n    classe $\\mathcal{C}^1$. Il vient~:\n    $$\\begin{align*}g(x)\\sqrt x &= f(0) \\int_{u=a\\sqrt x}^{b\\sqrt x}e^{-iu^2/2}\\,d u\n      -\\frac1{i\\sqrt x}\\Bigl[e^{-iu^2/2}\\varphi(u/\\sqrt x)\\Bigr]_{u=a\\sqrt\n    x}^{b\\sqrt x} + \\frac1{ix} \\int_{u=a\\sqrt x}^{b\\sqrt\n    x}e^{-iu^2/2}\\varphi'(u/\\sqrt x)\\,d u\\cr\n    &\\to f(0).I\\cr\\end{align*}$$\n    lorsque $x\\to+\\infty$.",
+        "html": "<p>On pose <span class=\"math inline\">\\(f(t) = f(0) +\nt\\varphi(t)\\)</span> avec <span class=\"math inline\">\\(\\varphi\\)</span>\nde classe <span class=\"math inline\">\\(\\mathcal{C}^1\\)</span>. Il vient :\n<span class=\"math display\">\\[\\begin{align*}g(x)\\sqrt x &amp;= f(0)\n\\int_{u=a\\sqrt x}^{b\\sqrt x}e^{-iu^2/2}\\,d u\n      -\\frac1{i\\sqrt x}\\Bigl[e^{-iu^2/2}\\varphi(u/\\sqrt\nx)\\Bigr]_{u=a\\sqrt\n    x}^{b\\sqrt x} + \\frac1{ix} \\int_{u=a\\sqrt x}^{b\\sqrt\n    x}e^{-iu^2/2}\\varphi&#39;(u/\\sqrt x)\\,d u\\cr\n    &amp;\\to f(0).I\\cr\\end{align*}\\]</span> lorsque <span\nclass=\"math inline\">\\(x\\to+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f : {[a,b]} \\to \\R\\)</span> de\nclasse <span class=\"math inline\">\\(\\mathcal{C}^2\\)</span> et <span\nclass=\"math inli ..."
+}

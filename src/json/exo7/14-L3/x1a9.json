@@ -1,0 +1,93 @@
+{
+  "uuid": "x1a9",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "5979",
+    "auteur": "tumpach",
+    "createdAt": "2010-11-11",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:17.302Z"
+  },
+  "contenu": [
+    {
+      "id": "7d9e50b3-3b83-4176-9cdd-d8905078ceb8",
+      "type": "description",
+      "value": {
+        "latex": "\\textbf{D\\'efinition.}\nSoit $h\\in \\mathbb{R}^{n}$. On d\\'efinit l'op\\'erateur de\ntranslation par $h$, not\\'e $\\tau_{h}$, agissant sur une fonction\n$f~:\\mathbb{R}^n \\rightarrow \\mathbb{R}$ par\n$\n\\tau_{h}f(x) := f(x-h), \\quad \\forall x\\in\\mathbb{R}^n.\n$\n\n\\bigskip\n\n\\textbf{Th\\'eor\\`eme.}\n\nSi $f\\in L^{p}(\\mathbb{R}^n)$ avec $1\\leq p < +\\infty$, alors\n$\n\\lim_{h\\rightarrow 0}\\|\\tau_{h}f - f\\|_{p} = 0,\n$\ni.e. $\\tau_{h}f$ tend vers $f$ dans $L^{p}(\\mathbb{R}^n)$ lorsque\n$h$ tend vers $0$.\n\n\\bigskip\n\nLe but de cet exercice est de d\\'emontrer ce th\\'eor\\`eme.\nSoit $1 \\leq p < +\\infty$.",
+        "html": "<p><strong>Définition.</strong> Soit <span class=\"math inline\">\\(h\\in\n\\mathbb{R}^{n}\\)</span>. On définit l’opérateur de translation par <span\nclass=\"math inline\">\\(h\\)</span>, noté <span\nclass=\"math inline\">\\(\\tau_{h}\\)</span>, agissant sur une fonction <span\nclass=\"math inline\">\\(f~:\\mathbb{R}^n \\rightarrow \\mathbb{R}\\)</span>\npar <span class=\"math inline\">\\(\\tau_{h}f(x) := f(x-h), \\quad \\forall\nx\\in\\mathbb{R}^n.\\)</span></p>\n<p><strong>Théorème.</strong></p>\n<p>Si <span class=\"math inline\">\\(f\\in L^{p}(\\mathbb{R}^n)\\)</span> avec\n<span class=\"math inline\">\\(1\\leq p &lt; +\\infty\\)</span>, alors <span\nclass=\"math inline\">\\(\\lim_{h\\rightarrow 0}\\|\\tau_{h}f - f\\|_{p} =\n0,\\)</span> i.e. <span class=\"math inline\">\\(\\tau_{h}f\\)</span> tend\nvers <span class=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\(L^{p}(\\mathbb{R}^n)\\)</span> lorsque <span\nclass=\"math inline\">\\(h\\)</span> tend vers <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n<p>Le but de cet exercice est de démontrer ce théorème. Soit <span\nclass=\"math inline\">\\(1 \\leq p &lt; +\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "70b1fb6d-bc69-42fe-84da-90600f224a18",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si $f$ est continue \\`a support compact dans la\nboule $\\mathcal{B}(0, M)$ centr\\'ee en $0$ et de rayon $M$, et si\n$|h|\\leq 1$, alors\n$$\n |f(x - h) - f(x)|^p \\leq \\mathbf{1}_{B(0, M+1)}\n2^p \\|f\\|_{\\infty}^p.\n$$\no\\`u $\\mathcal{B}(0, M+1)$ est la boule centr\\'ee en $0$ de rayon\n$M+1$.",
+        "html": "<p>Montrer que si <span class=\"math inline\">\\(f\\)</span> est continue à\nsupport compact dans la boule <span class=\"math inline\">\\(\\mathcal{B}(0,\nM)\\)</span> centrée en <span class=\"math inline\">\\(0\\)</span> et de\nrayon <span class=\"math inline\">\\(M\\)</span>, et si <span\nclass=\"math inline\">\\(|h|\\leq 1\\)</span>, alors <span\nclass=\"math display\">\\[|f(x - h) - f(x)|^p \\leq \\mathbf{1}_{B(0, M+1)}\n2^p \\|f\\|_{\\infty}^p.\\]</span> où <span\nclass=\"math inline\">\\(\\mathcal{B}(0, M+1)\\)</span> est la boule centrée\nen <span class=\"math inline\">\\(0\\)</span> de rayon <span\nclass=\"math inline\">\\(M+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6d6077b7-11d7-4a38-8e58-2089e3ae5263",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $f$ est continue \\`a support compact dans la boule\n$\\mathcal{B}(0, M)$ centr\\'ee en $0$ et de rayon $M$, et si\n$|h|\\leq 1$, alors\n$$\n\\begin{array}{lcl}\n |f(x - h) - f(x)|^p & \\leq & \\left(|f(x - h)| + |f(x)|\\right)^p\n   \\leq  \\left(2\\|f\\|_{\\infty}\\mathbf{1}_{\\mathcal{B}(0, M+1)}\\right)^p =  \\mathbf{1}_{B(0, M+1)}\n2^p \\|f\\|_{\\infty}^p.\n\\end{array}\n$$\no\\`u $\\mathcal{B}(0, M+1)$ est la boule centr\\'ee en $0$ de rayon\n$M+1$.",
+        "html": "<p>Si <span class=\"math inline\">\\(f\\)</span> est continue à support\ncompact dans la boule <span class=\"math inline\">\\(\\mathcal{B}(0,\nM)\\)</span> centrée en <span class=\"math inline\">\\(0\\)</span> et de\nrayon <span class=\"math inline\">\\(M\\)</span>, et si <span\nclass=\"math inline\">\\(|h|\\leq 1\\)</span>, alors <span\nclass=\"math display\">\\[\\begin{array}{lcl}\n|f(x - h) - f(x)|^p &amp; \\leq &amp; \\left(|f(x - h)| + |f(x)|\\right)^p\n   \\leq  \\left(2\\|f\\|_{\\infty}\\mathbf{1}_{\\mathcal{B}(0, M+1)}\\right)^p\n=  \\mathbf{1}_{B(0, M+1)}\n2^p \\|f\\|_{\\infty}^p.\n\\end{array}\\]</span> où <span class=\"math inline\">\\(\\mathcal{B}(0,\nM+1)\\)</span> est la boule centrée en <span\nclass=\"math inline\">\\(0\\)</span> de rayon <span\nclass=\"math inline\">\\(M+1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ca98dc1f-0909-438e-a978-626a8800f62f",
+      "type": "question",
+      "value": {
+        "latex": "En d\\'eduire que pour $f$ continue \\`a support compact, on a\n$$\n\\lim_{h\\rightarrow 0}\\|\\tau_{h}f - f\\|_{p} = 0.\n$$",
+        "html": "<p>En déduire que pour <span class=\"math inline\">\\(f\\)</span> continue à\nsupport compact, on a <span class=\"math display\">\\[\\lim_{h\\rightarrow\n0}\\|\\tau_{h}f - f\\|_{p} = 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e7d149b8-ddf5-4a36-906d-9c4529719419",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $f$ continue, on a $\\lim_{h \\rightarrow 0} |f(x- h) -\nf(x)| = 0.$ Puisque la fonction $g(x) = 2^p\n\\|f\\|_{\\infty}^p\\,\\mathbf{1}_{B(0, M+1)}(x) $ appartient \\`a\n$L^1(\\mathbb{R}^{n})$, le th\\'eor\\`eme de convergence domin\\'ee\npermet d'intervertir limite et int\\'egrale, et il vient~:\n$$\n\\lim_{h \\rightarrow 0}\\|\\tau_{h}f - f\\|_{p}^p = \\lim_{h\n\\rightarrow 0}\\int_{\\mathbb{R}^n} |f(x - h) - f(x)|^{p}\\,dx =\n\\int_{\\mathbb{R}^n} \\lim_{h \\rightarrow 0} |f(x - h) -\nf(x)|^{p}\\,dx = 0.\n$$",
+        "html": "<p>Pour <span class=\"math inline\">\\(f\\)</span> continue, on a <span\nclass=\"math inline\">\\(\\lim_{h \\rightarrow 0} |f(x- h) -\nf(x)| = 0.\\)</span> Puisque la fonction <span class=\"math inline\">\\(g(x)\n= 2^p\n\\|f\\|_{\\infty}^p\\,\\mathbf{1}_{B(0, M+1)}(x)\\)</span> appartient à <span\nclass=\"math inline\">\\(L^1(\\mathbb{R}^{n})\\)</span>, le théorème de\nconvergence dominée permet d’intervertir limite et intégrale, et il\nvient : <span class=\"math display\">\\[\\lim_{h \\rightarrow 0}\\|\\tau_{h}f -\nf\\|_{p}^p = \\lim_{h\n\\rightarrow 0}\\int_{\\mathbb{R}^n} |f(x - h) - f(x)|^{p}\\,dx =\n\\int_{\\mathbb{R}^n} \\lim_{h \\rightarrow 0} |f(x - h) -\nf(x)|^{p}\\,dx = 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "b39b05f4-9637-41e1-81e8-6ff0445be0f2",
+      "type": "question",
+      "value": {
+        "latex": "D\\'emontrer le th\\'eor\\`eme pour une fonction quelconque\ndans $L^p(\\mathbb{R}^n)$, $1\\leq p <+\\infty$.",
+        "html": "<p>Démontrer le théorème pour une fonction quelconque dans <span\nclass=\"math inline\">\\(L^p(\\mathbb{R}^n)\\)</span>, <span\nclass=\"math inline\">\\(1\\leq p &lt;+\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dcce1d88-846d-4f06-b3b3-b612eeecf9a3",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $f$ une fonction quelconque dans $L^p(\\mathbb{R}^n)$,\n$1\\leq p <+\\infty$. Par densit\\'e des fonctions continues \\`a\nsupport compact dans $L^{p}(\\mathbb{R}^n)$, pour tout $\\varepsilon\n> 0$, il existe $f_{\\varepsilon}$ continue \\`a support compact\ntelle que $\\|f - f_{\\varepsilon}\\|_{p} \\leq\n\\frac{\\varepsilon}{3}$. Ainsi~:\n$$\n\\begin{array}{lcl}\n\\|\\tau_{h}f - f\\|_{p} & = & \\|\\tau_{h}(f - f_{\\varepsilon}) - (f -\nf_{\\varepsilon}) + \\tau_{h}f_{\\varepsilon} - f_{\\varepsilon}\\|_p\\\\\n& \\leq & \\|\\tau_{h}(f - f_{\\varepsilon})\\|_p + \\|f -\nf_{\\varepsilon}\\|_p + \\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p\\\\\n& = & 2 \\|f - f_{\\varepsilon}\\|_p + \\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p\\\\\n& = & \\frac{2}{3}\\varepsilon + \\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p.\n\\end{array}\n$$\nPuisque $f_{\\varepsilon}$ est continue \\`a support compact,\nd'apr\\`es la question pr\\'ec\\'edente, il existe $\\delta>0$ tel que\npour $|h|<\\delta$,  $\\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p < \\frac{\\varepsilon}{3}$. Ainsi, pour $|h| <\n\\delta$, on a $\\|\\tau_{h}f - f\\|_{p}< \\varepsilon$. En d'autre\ntermes $\\lim_{h \\rightarrow 0}\\|\\tau_{h}f - f\\|_{p}  = 0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une fonction quelconque\ndans <span class=\"math inline\">\\(L^p(\\mathbb{R}^n)\\)</span>, <span\nclass=\"math inline\">\\(1\\leq p &lt;+\\infty\\)</span>. Par densité des\nfonctions continues à support compact dans <span\nclass=\"math inline\">\\(L^{p}(\\mathbb{R}^n)\\)</span>, pour tout <span\nclass=\"math inline\">\\(\\varepsilon\n&gt; 0\\)</span>, il existe <span\nclass=\"math inline\">\\(f_{\\varepsilon}\\)</span> continue à support\ncompact telle que <span class=\"math inline\">\\(\\|f -\nf_{\\varepsilon}\\|_{p} \\leq\n\\frac{\\varepsilon}{3}\\)</span>. Ainsi : <span\nclass=\"math display\">\\[\\begin{array}{lcl}\n\\|\\tau_{h}f - f\\|_{p} &amp; = &amp; \\|\\tau_{h}(f - f_{\\varepsilon}) - (f\n-\nf_{\\varepsilon}) + \\tau_{h}f_{\\varepsilon} - f_{\\varepsilon}\\|_p\\\\\n&amp; \\leq &amp; \\|\\tau_{h}(f - f_{\\varepsilon})\\|_p + \\|f -\nf_{\\varepsilon}\\|_p + \\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p\\\\\n&amp; = &amp; 2 \\|f - f_{\\varepsilon}\\|_p + \\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p\\\\\n&amp; = &amp; \\frac{2}{3}\\varepsilon + \\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p.\n\\end{array}\\]</span> Puisque <span\nclass=\"math inline\">\\(f_{\\varepsilon}\\)</span> est continue à support\ncompact, d’après la question précédente, il existe <span\nclass=\"math inline\">\\(\\delta&gt;0\\)</span> tel que pour <span\nclass=\"math inline\">\\(|h|&lt;\\delta\\)</span>, <span\nclass=\"math inline\">\\(\\|\\tau_{h}f_{\\varepsilon} -\nf_{\\varepsilon}\\|_p &lt; \\frac{\\varepsilon}{3}\\)</span>. Ainsi, pour\n<span class=\"math inline\">\\(|h| &lt;\n\\delta\\)</span>, on a <span class=\"math inline\">\\(\\|\\tau_{h}f -\nf\\|_{p}&lt; \\varepsilon\\)</span>. En d’autre termes <span\nclass=\"math inline\">\\(\\lim_{h \\rightarrow 0}\\|\\tau_{h}f - f\\|_{p}  =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3700b377-ba7f-4338-92d1-47cb1c2065e5",
+      "type": "question",
+      "value": {
+        "latex": "Que se passe-t-il pour $p = \\infty$ ?",
+        "html": "<p>Que se passe-t-il pour <span class=\"math inline\">\\(p =\n\\infty\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "e57768db-b932-4011-aa34-8c7b1a959cbb",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $p = \\infty$, les fonctions continues \\`a support\ncompact ne sont pas denses dans $L^{\\infty}(\\mathbb{R}^n)$ ce qui\nfait que la d\\'emonstration pr\\'ec\\'edente ne peut pas s'appliquer\ndans ce cas. De plus, on v\\'erifie que, pour $f = \\mathbf{1}_{B(0, 1)}$ et\n$h \\neq 0$, on a\n$$\n\\|\\tau_{h}f - f\\|_{\\infty} = 1.\n$$\nAlors que pour $h = 0$, on a $\\|\\tau_{h}f - f\\|_{\\infty} = 0. $ On\npeut \\'egalement v\\'erifier que $\\lim_{h\\rightarrow 0}\\|\\tau_{h}f\n- f \\|_{\\infty} = 0$ si et seulement si la fonction $f$ poss\\`ede\nun repr\\'esentant uniform\\'ement continu.",
+        "html": "<p>Pour <span class=\"math inline\">\\(p = \\infty\\)</span>, les fonctions\ncontinues à support compact ne sont pas denses dans <span\nclass=\"math inline\">\\(L^{\\infty}(\\mathbb{R}^n)\\)</span> ce qui fait que\nla démonstration précédente ne peut pas s’appliquer dans ce cas. De\nplus, on vérifie que, pour <span class=\"math inline\">\\(f =\n\\mathbf{1}_{B(0, 1)}\\)</span> et <span class=\"math inline\">\\(h \\neq\n0\\)</span>, on a <span class=\"math display\">\\[\\|\\tau_{h}f - f\\|_{\\infty}\n= 1.\\]</span> Alors que pour <span class=\"math inline\">\\(h = 0\\)</span>,\non a <span class=\"math inline\">\\(\\|\\tau_{h}f - f\\|_{\\infty} =\n0.\\)</span> On peut également vérifier que <span\nclass=\"math inline\">\\(\\lim_{h\\rightarrow 0}\\|\\tau_{h}f\n- f \\|_{\\infty} = 0\\)</span> si et seulement si la fonction <span\nclass=\"math inline\">\\(f\\)</span> possède un représentant uniformément\ncontinu.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p><strong>Définition.</strong> Soit <span class=\"math inline\">\\(h\\in\n\\mathbb{R}^{n}\\)</span>. On définit l’opérateur de translation par <span\nclass=\" ..."
+}

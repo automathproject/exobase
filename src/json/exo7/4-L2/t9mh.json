@@ -1,0 +1,61 @@
+{
+  "uuid": "t9mh",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "3453",
+    "auteur": "quercia",
+    "createdAt": "2010-03-10",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:09:58.774Z"
+  },
+  "contenu": [
+    {
+      "id": "459f3ea3-5c0a-4268-8620-de83d17ad70e",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "01a859b3-cbde-4880-8011-bc8aeb1be819",
+      "type": "question",
+      "value": {
+        "latex": "Soient ${a,b,c,d} : \\R \\to \\R$ des fonctions dérivables et\n    $f(x) = \\begin{vmatrix} a(x) &b(x) \\cr c(x) & d(x) \\end{vmatrix}$.\n\n    Montrer que $f$ est dérivable et que :\n    $f'(x) = \\begin{vmatrix} a'(x) &b(x)  \\cr c'(x) &d(x)  \\end{vmatrix}\n           + \\begin{vmatrix} a(x)  &b'(x) \\cr c(x)  &d'(x) \\end{vmatrix}$.",
+        "html": "<p>Soient <span class=\"math inline\">\\({a,b,c,d} : \\R \\to \\R\\)</span> des\nfonctions dérivables et <span class=\"math inline\">\\(f(x) =\n\\begin{vmatrix} a(x) &amp;b(x) \\cr c(x) &amp; d(x)\n\\end{vmatrix}\\)</span>.</p>\n<p>Montrer que <span class=\"math inline\">\\(f\\)</span> est dérivable et\nque : <span class=\"math inline\">\\(f&#39;(x) = \\begin{vmatrix} a&#39;(x)\n&amp;b(x)  \\cr c&#39;(x) &amp;d(x)  \\end{vmatrix}\n           + \\begin{vmatrix} a(x)  &amp;b&#39;(x) \\cr\nc(x)  &amp;d&#39;(x) \\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f0219688-2afd-46e5-a225-6be66073904b",
+      "type": "question",
+      "value": {
+        "latex": "Généraliser à un déterminant $n\\times n$.",
+        "html": "<p>Généraliser à un déterminant <span class=\"math inline\">\\(n\\times\nn\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4d925f86-8348-4b77-94e8-5e2047ea5adf",
+      "type": "question",
+      "value": {
+        "latex": "Application :\n    Calculer $\\begin{vmatrix} 1 & \\cos x          & \\sin x          \\cr\n                        1 & \\cos (x+\\alpha) & \\sin (x+\\alpha) \\cr\n                        1 & \\cos (x+\\beta)  & \\sin (x+\\beta)  \\cr\\end{vmatrix}$.",
+        "html": "<p>Application : Calculer <span class=\"math inline\">\\(\\begin{vmatrix} 1\n&amp; \\cos x          &amp; \\sin x          \\cr\n                        1 &amp; \\cos (x+\\alpha) &amp; \\sin (x+\\alpha)\n\\cr\n                        1 &amp; \\cos (x+\\beta)  &amp; \\sin\n(x+\\beta)  \\cr\\end{vmatrix}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8fba3723-d42c-43a3-9ebf-b546a7c5d941",
+      "type": "reponse",
+      "value": {
+        "latex": "3.$\\sin\\alpha - \\sin\\beta - \\sin(\\alpha-\\beta)$.",
+        "html": "<p>3.<span class=\"math inline\">\\(\\sin\\alpha - \\sin\\beta -\n\\sin(\\alpha-\\beta)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\({a,b,c,d} : \\R \\to \\R\\)</span> des\nfonctions dérivables et <span class=\"math inline\"> ..."
+}

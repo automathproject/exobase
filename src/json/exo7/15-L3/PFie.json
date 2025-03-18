@@ -1,0 +1,61 @@
+{
+  "uuid": "PFie",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "1877",
+    "auteur": "maillot",
+    "createdAt": "2001-09-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Espace vectoriel normé",
+    "sousChapitre": "Espace vectoriel normé",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:40.493Z"
+  },
+  "contenu": [
+    {
+      "id": "d3710b4e-f6a2-4e9b-86d5-d7462660da78",
+      "type": "description",
+      "value": {
+        "latex": "Soit $E$ l'espace vectoriel des fonctions continues de $[-1,1]$ à\nvaleurs dans $\\R$. On définit une norme sur $E$ en posant\n$$\\|f\\|_1=\\int_{-1}^1 |f(t)| \\,dt.$$ On va montrer que $E$ muni de\ncette norme n'est pas complet. Pour cela, on définit une suite\n$(f_n)_{n\\in\\N^*}$ par\n\\[f_n(t)=\\begin{cases} -1 &\\text{si\\ } -1\\le t \\le -\\frac1n\\\\\n               nt &\\text{si\\ } -\\frac1n\\le t \\le \\frac1n\\\\\n               1  &\\text{si\\ \\ \\ \\ \\ } \\frac1n \\le t\\le 1.\n          \\end{cases}\\]",
+        "html": "<p>Soit <span class=\"math inline\">\\(E\\)</span> l’espace vectoriel des\nfonctions continues de <span class=\"math inline\">\\([-1,1]\\)</span> à\nvaleurs dans <span class=\"math inline\">\\(\\R\\)</span>. On définit une\nnorme sur <span class=\"math inline\">\\(E\\)</span> en posant <span\nclass=\"math display\">\\[\\|f\\|_1=\\int_{-1}^1 |f(t)| \\,dt.\\]</span> On va\nmontrer que <span class=\"math inline\">\\(E\\)</span> muni de cette norme\nn’est pas complet. Pour cela, on définit une suite <span\nclass=\"math inline\">\\((f_n)_{n\\in\\N^*}\\)</span> par <span\nclass=\"math display\">\\[f_n(t)=\\begin{cases} -1 &amp;\\text{si\\ } -1\\le t\n\\le -\\frac1n\\\\\n               nt &amp;\\text{si\\ } -\\frac1n\\le t \\le \\frac1n\\\\\n               1  &amp;\\text{si\\ \\ \\ \\ \\ } \\frac1n \\le t\\le 1.\n          \\end{cases}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "c8167d01-4a57-4c72-ae48-a160b74665e0",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que $f_n\\in E$ pour tout $n\\ge 1$.",
+        "html": "<p>Vérifier que <span class=\"math inline\">\\(f_n\\in E\\)</span> pour tout\n<span class=\"math inline\">\\(n\\ge 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "464a6d7e-3ba9-4667-8065-2fbfc997b80c",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $$\\|f_n-f_p\\|\\le \\sup(\\frac2n,\\frac2p)$$ et en\ndéduire que $(f_n)$ est de Cauchy.",
+        "html": "<p>Montrer que <span class=\"math display\">\\[\\|f_n-f_p\\|\\le\n\\sup(\\frac2n,\\frac2p)\\]</span> et en déduire que <span\nclass=\"math inline\">\\((f_n)\\)</span> est de Cauchy.</p>\n"
+      }
+    },
+    {
+      "id": "b2642e0a-5bea-493f-99f2-b05f18f2aeb1",
+      "type": "question",
+      "value": {
+        "latex": "Supposons qu'il existe une fonction $f\\in E$ telle que $(f_n)$\nconverge vers $f$ dans $(E,\\|\\cdot\\|_1)$. Montrer qu'alors on a\n$$\\lim_{n\\rightarrow+\\infty}\\int_{-1}^{-\\alpha} |f_n(t)-f(t)|\\, dt=0\n\\qquad \\text{et} \\qquad \\lim_{n\\rightarrow+\\infty}\\int_{\\alpha}^1\n|f_n(t)-f(t)|\\, dt=0$$ pour tout $0<\\alpha<1$.",
+        "html": "<p>Supposons qu’il existe une fonction <span class=\"math inline\">\\(f\\in\nE\\)</span> telle que <span class=\"math inline\">\\((f_n)\\)</span> converge\nvers <span class=\"math inline\">\\(f\\)</span> dans <span\nclass=\"math inline\">\\((E,\\|\\cdot\\|_1)\\)</span>. Montrer qu’alors on a\n<span\nclass=\"math display\">\\[\\lim_{n\\rightarrow+\\infty}\\int_{-1}^{-\\alpha}\n|f_n(t)-f(t)|\\, dt=0\n\\qquad \\text{et} \\qquad \\lim_{n\\rightarrow+\\infty}\\int_{\\alpha}^1\n|f_n(t)-f(t)|\\, dt=0\\]</span> pour tout <span\nclass=\"math inline\">\\(0&lt;\\alpha&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d6a54b43-e8c5-4d14-9e51-f5708dc08391",
+      "type": "question",
+      "value": {
+        "latex": "Montrer qu'on a $$\\lim_{n\\rightarrow+\\infty}\\int_{-1}^{-\\alpha}\n|f_n(t)+1|\\, dt=0\n\\qquad \\text{et} \\qquad \\lim_{n\\rightarrow+\\infty}\\int_{\\alpha}^1\n|f_n(t)-1|\\, dt=0$$ pour tout $0<\\alpha<1$.\nEn déduire que\n$$\\begin{align*}\n&f(t)=-1\\qquad &\\forall t\\in[-1,0[\\\\\n&f(t)=1\\qquad &\\forall t\\in ]0,1].\n\\end{align*}$$\nConclure.",
+        "html": "<p>Montrer qu’on a <span\nclass=\"math display\">\\[\\lim_{n\\rightarrow+\\infty}\\int_{-1}^{-\\alpha}\n|f_n(t)+1|\\, dt=0\n\\qquad \\text{et} \\qquad \\lim_{n\\rightarrow+\\infty}\\int_{\\alpha}^1\n|f_n(t)-1|\\, dt=0\\]</span> pour tout <span\nclass=\"math inline\">\\(0&lt;\\alpha&lt;1\\)</span>. En déduire que <span\nclass=\"math display\">\\[\\begin{align*}\n&amp;f(t)=-1\\qquad &amp;\\forall t\\in[-1,0[\\\\\n&amp;f(t)=1\\qquad &amp;\\forall t\\in ]0,1].\n\\end{align*}\\]</span> Conclure.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(E\\)</span> l’espace vectoriel des\nfonctions continues de <span class=\"math inline\">\\([-1,1]\\)</span> à\nvaleurs dan ..."
+}

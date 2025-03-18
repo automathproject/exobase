@@ -1,0 +1,45 @@
+{
+  "uuid": "Lz2r",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2089",
+    "auteur": "bodin",
+    "createdAt": "2008-02-04",
+    "hasIndication": "true",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Fraction rationnelle en sin, cos ou en sh, ch",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:05:34.993Z"
+  },
+  "contenu": [
+    {
+      "id": "cf9bbb6e-2d34-439f-b938-462ee40f63b2",
+      "type": "description",
+      "value": {
+        "latex": "Calculer les primitives suivantes:\n$$\\int \\frac{\\sin x}{\\sin x+\\cos x}d x \\quad \\mbox{ et } \\quad \\int \\frac{\\cos x}{\\sin x+\\cos x}d x.$$",
+        "html": "<p>Calculer les primitives suivantes: <span class=\"math display\">\\[\\int\n\\frac{\\sin x}{\\sin x+\\cos x}d x \\quad \\mbox{ et } \\quad \\int \\frac{\\cos\nx}{\\sin x+\\cos x}d x.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "5037ece7-4e2b-415a-8601-6832795af277",
+      "type": "indication",
+      "value": {
+        "latex": "Calculer la somme et la diff\\'erence de ces deux int\\'egrales.",
+        "html": "<p>Calculer la somme et la différence de ces deux intégrales.</p>\n"
+      }
+    },
+    {
+      "id": "1adfe2dc-e556-4539-8b85-5875682fc54a",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\int \\frac{\\sin x}{\\sin x+\\cos x}dx=\\frac 12\\left( x-\\ln \\left| \\cos x+\\sin\nx\\right| \\right) +c$ sur $\\R$\n\n$\\int \\frac{\\cos x}{\\sin x+\\cos x}dx=\\frac 12\\left( x+\\ln \\left| \\cos x+\\sin\nx\\right| \\right) +c$ sur $\\R$ (en calculant la somme et la\ndiff\\'erence).",
+        "html": "<p><span class=\"math inline\">\\(\\int \\frac{\\sin x}{\\sin x+\\cos x}dx=\\frac\n12\\left( x-\\ln \\left| \\cos x+\\sin\nx\\right| \\right) +c\\)</span> sur <span\nclass=\"math inline\">\\(\\R\\)</span></p>\n<p><span class=\"math inline\">\\(\\int \\frac{\\cos x}{\\sin x+\\cos x}dx=\\frac\n12\\left( x+\\ln \\left| \\cos x+\\sin\nx\\right| \\right) +c\\)</span> sur <span class=\"math inline\">\\(\\R\\)</span>\n(en calculant la somme et la différence).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer les primitives suivantes: <span class=\"math display\"> ..."
+}

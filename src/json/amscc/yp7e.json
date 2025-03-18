@@ -1,0 +1,95 @@
+{
+  "uuid": "yp7e",
+  "titre": "Calcul de sommes",
+  "theme": [
+    "séries"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-05-17",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:30.622Z"
+  },
+  "contenu": [
+    {
+      "id": "aaa1092b-38a2-440d-b291-23ebbcb17f4b",
+      "type": "description",
+      "value": {
+        "latex": "On admet que $\\displaystyle e=\\sum_{n=0}^{+\\infty} \\frac{1}{n!}$.",
+        "html": "<p>On admet que <span class=\"math inline\">\\(\\displaystyle\ne=\\sum_{n=0}^{+\\infty} \\frac{1}{n!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c4e56417-a5fb-4bff-a9f2-efb0b37a1e84",
+      "type": "question",
+      "value": {
+        "latex": "En déduire la somme : $\\displaystyle \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!}$.",
+        "html": "<p>En déduire la somme : <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4cce6fa1-564f-49b4-b1dc-7c01b1cec324",
+      "type": "reponse",
+      "value": {
+        "latex": "$$\\begin{align*}\n\t\t\\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} &= \\sum_{n'=0}^{+\\infty} \\frac{1}{n'!} \\\\\n\t\t                                      &= e\n\t\t\\end{align*}$$",
+        "html": "<p><span class=\"math display\">\\[\\begin{align*}\n        \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} &amp;=\n\\sum_{n&#39;=0}^{+\\infty} \\frac{1}{n&#39;!} \\\\\n                                              &amp;= e\n        \\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "88ea6eaf-bafa-42a0-87bb-dd37632a1879",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n+1}{n!}$",
+        "html": "<p>Calculer la somme : <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n=0}^{+\\infty} \\frac{n+1}{n!}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "74977017-0620-4406-990c-7d2ffc0dbee8",
+      "type": "reponse",
+      "value": {
+        "latex": "On décompose la somme en deux sommes :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n=0}^{+\\infty} \\frac{n+1}{n!} &= \\sum_{n=0}^{+\\infty} \\frac{n}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n=0}^{+\\infty} \\frac{1}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= 2e\n\t\t\\end{align*}$$",
+        "html": "<p>On décompose la somme en deux sommes : <span\nclass=\"math display\">\\[\\begin{align*}\n            \\sum_{n=0}^{+\\infty} \\frac{n+1}{n!} &amp;=\n\\sum_{n=0}^{+\\infty} \\frac{n}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n            &amp;= \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} +\n\\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n            &amp;= \\sum_{n=0}^{+\\infty} \\frac{1}{n!} +\n\\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n            &amp;= 2e\n        \\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "8600b79a-74b7-4e6d-b316-13e67b36ae04",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n^2-2}{n!}$",
+        "html": "<p>Calculer la somme : <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n=0}^{+\\infty} \\frac{n^2-2}{n!}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "65cdf78e-e684-476b-96a2-bb4ccb455e6f",
+      "type": "reponse",
+      "value": {
+        "latex": "On décompose la somme en deux sommes :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n\\geq0} \\frac{n^2-2}{n!} &= \\sum_{n\\geq0} \\frac{n^2}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n-1+1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq 1} \\frac{1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq 0} \\frac{1}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= 0\n\t\t\\end{align*}$$",
+        "html": "<p>On décompose la somme en deux sommes : <span\nclass=\"math display\">\\[\\begin{align*}\n            \\sum_{n\\geq0} \\frac{n^2-2}{n!} &amp;= \\sum_{n\\geq0}\n\\frac{n^2}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n            &amp;= \\sum_{n\\geq1} \\frac{n}{(n-1)!} - 2\\sum_{n\\geq0}\n\\frac{1}{n!} \\\\\n            &amp;= \\sum_{n\\geq1} \\frac{n-1+1}{(n-1)!} - 2\\sum_{n\\geq0}\n\\frac{1}{n!} \\\\\n            &amp;= \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq 1}\n\\frac{1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n            &amp;= \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq 0}\n\\frac{1}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n            &amp;= 0\n        \\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "25173567-1c5a-4c15-8992-9cffef5b8a05",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n^3}{n!}$",
+        "html": "<p>Calculer la somme : <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n=0}^{+\\infty} \\frac{n^3}{n!}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "bbdecfb1-6118-4161-bd88-1a766b643b92",
+      "type": "reponse",
+      "value": {
+        "latex": "On simplifie :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n\\geq0} \\frac{n^3}{n!} &= \\sum_{n\\geq0} \\frac{n^2}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n(n-1)+n-1+1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n(n-1)}{(n-1)!} + \\sum_{n\\geq1} \\frac{n-1}{(n-1)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{n}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{n-2+2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq3} \\frac{1}{(n-3)!} + \\sum_{n\\geq2} \\frac{2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq0} \\frac{1}{n!} + 2\\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= 5e\n\t\t\\end{align*}$$",
+        "html": "<p>On simplifie : <span class=\"math display\">\\[\\begin{align*}\n            \\sum_{n\\geq0} \\frac{n^3}{n!} &amp;= \\sum_{n\\geq0}\n\\frac{n^2}{(n-1)!} \\\\\n            &amp;= \\sum_{n\\geq1} \\frac{n(n-1)+n-1+1}{(n-1)!} \\\\\n            &amp;= \\sum_{n\\geq1} \\frac{n(n-1)}{(n-1)!} + \\sum_{n\\geq1}\n\\frac{n-1}{(n-1)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n            &amp;= \\sum_{n\\geq2} \\frac{n}{(n-2)!} + \\sum_{n\\geq2}\n\\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n            &amp;= \\sum_{n\\geq2} \\frac{n-2+2}{(n-2)!} + \\sum_{n\\geq2}\n\\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n            &amp;= \\sum_{n\\geq3} \\frac{1}{(n-3)!} + \\sum_{n\\geq2}\n\\frac{2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1}\n\\frac{1}{(n-1)!} \\\\\n            &amp;= \\sum_{n\\geq0} \\frac{1}{n!} + 2\\sum_{n\\geq0}\n\\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!}\n\\\\\n            &amp;= 5e\n        \\end{align*}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On admet que <span class=\"math inline\">\\(\\displaystyle\ne=\\sum_{n=0}^{+\\infty} \\frac{1}{n!}\\)</span>.</p>\n"
+}

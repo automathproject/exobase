@@ -1,0 +1,53 @@
+{
+  "uuid": "6q6N",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4318",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale de Riemann dépendant d'un paramètre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:10:34.346Z"
+  },
+  "contenu": [
+    {
+      "id": "59396ed7-472d-4322-9747-be7334d5ceb1",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "59ce4b33-93eb-4ef7-a81b-94676e3b3a13",
+      "type": "question",
+      "value": {
+        "latex": "Prouver l'existence pour $x > 0$ de\n    $I(x) =  \\int_{t=0}^{+\\infty} \\frac{\\sin t}{t+x}\\,d t$.",
+        "html": "<p>Prouver l’existence pour <span class=\"math inline\">\\(x &gt;\n0\\)</span> de <span class=\"math inline\">\\(I(x) =  \\int_{t=0}^{+\\infty}\n\\frac{\\sin t}{t+x}\\,d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "93bc47b7-97d6-4ce8-9ecd-6617e4e18e0b",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $\\lim_{x\\to+\\infty} I(x)$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(\\lim_{x\\to+\\infty}\nI(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d6b73f65-d59f-4c14-813e-78a42cfa73b4",
+      "type": "reponse",
+      "value": {
+        "latex": "$I(x) =  \\int_{t=x}^{+\\infty} \\frac{\\sin(t-x)}t\\,d t\n                   = \\cos x  \\int_{t=x}^{+\\infty} \\frac{\\sin t}t\\,d t\n                   - \\sin x  \\int_{t=x}^{+\\infty} \\frac{\\cos t}t\\,d t\n                   \\to 0$ lorsque $x\\to+\\infty$.",
+        "html": "<p><span class=\"math inline\">\\(I(x) =  \\int_{t=x}^{+\\infty}\n\\frac{\\sin(t-x)}t\\,d t\n                   = \\cos x  \\int_{t=x}^{+\\infty} \\frac{\\sin t}t\\,d t\n                   - \\sin x  \\int_{t=x}^{+\\infty} \\frac{\\cos t}t\\,d t\n                   \\to 0\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\to+\\infty\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Prouver l’existence pour <span class=\"math inline\">\\(x &gt;\n0\\)</span> de <span class=\"math inline\"> ..."
+}

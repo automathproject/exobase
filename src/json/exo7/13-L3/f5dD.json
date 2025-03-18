@@ -1,0 +1,69 @@
+{
+  "uuid": "f5dD",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6810",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Autre",
+    "sousChapitre": "Autre",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:02:03.548Z"
+  },
+  "contenu": [
+    {
+      "id": "6901a6c5-d25a-4800-9135-a5054bce1323",
+      "type": "description",
+      "value": {
+        "latex": "Soit $W = \\{\\,(x,y) \\in \\Rr^2 \\mid x>0 \\,\\}$ et\n$\\Omega = \\{\\,(x,y) \\in \\Rr^2 \\mid x\\ne 0 \\,\\}$. On\nveut étudier le système d'équations\ndifférentielles\n\\begin{equation}\n\n\\left\\{ \\aligned x' &= 1 \\\\ y' &= \\frac{2y}{x} \\endaligned\n\n\\right.\n\n\\tag{*}\n\\end{equation}",
+        "html": "<p>Soit <span class=\"math inline\">\\(W = \\{\\,(x,y) \\in \\Rr^2 \\mid x&gt;0\n\\,\\}\\)</span> et <span class=\"math inline\">\\(\\Omega = \\{\\,(x,y) \\in\n\\Rr^2 \\mid x\\ne 0 \\,\\}\\)</span>. On veut étudier le système d’équations\ndifférentielles <span class=\"math display\">\\[\\left\\{ \\aligned x&#39;\n&amp;= 1 \\\\ y&#39; &amp;= \\frac{2y}{x} \\endaligned\n\n\\right.\n\n\\tag{*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "88fdeee4-a596-422b-babf-a1a8ebfda2c7",
+      "type": "question",
+      "value": {
+        "latex": "Pour chaque condition initiale $(x_0,y_0) \\in W$,\ntrouver la solution $(x(t),y(t))$ sur un intervalle\nmaximal $I$ du système $(*)$ (préciser $I$). \nTracer quelques courbes intégrales dans $W$ pour\ndes conditions initiales variées dans $W$.",
+        "html": "<p>Pour chaque condition initiale <span class=\"math inline\">\\((x_0,y_0)\n\\in W\\)</span>, trouver la solution <span\nclass=\"math inline\">\\((x(t),y(t))\\)</span> sur un intervalle maximal\n<span class=\"math inline\">\\(I\\)</span> du système <span\nclass=\"math inline\">\\((*)\\)</span> (préciser <span\nclass=\"math inline\">\\(I\\)</span>). Tracer quelques courbes intégrales\ndans <span class=\"math inline\">\\(W\\)</span> pour des conditions\ninitiales variées dans <span class=\"math inline\">\\(W\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "aee0d337-918e-4ec4-a4b9-3f20ab2f1396",
+      "type": "question",
+      "value": {
+        "latex": "Pour chaque condition initiale $(x_0,y_0) \\in \\Omega$,\ntrouver la solution $(x(t),y(t))$ sur un intervalle\nmaximal $I$ du système $(*)$ (préciser $I$). \nTracer quelques courbes intégrales dans $\\Omega$ pour\ndes conditions initiales variées dans $\\Omega$.",
+        "html": "<p>Pour chaque condition initiale <span class=\"math inline\">\\((x_0,y_0)\n\\in \\Omega\\)</span>, trouver la solution <span\nclass=\"math inline\">\\((x(t),y(t))\\)</span> sur un intervalle maximal\n<span class=\"math inline\">\\(I\\)</span> du système <span\nclass=\"math inline\">\\((*)\\)</span> (préciser <span\nclass=\"math inline\">\\(I\\)</span>). Tracer quelques courbes intégrales\ndans <span class=\"math inline\">\\(\\Omega\\)</span> pour des conditions\ninitiales variées dans <span class=\"math inline\">\\(\\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "758f07ce-808f-4ef6-8498-f608edccb470",
+      "type": "question",
+      "value": {
+        "latex": "Trouver toutes les courbes $\\gamma: \\Rr \\to \\Rr^2$ de\nclasse $C^1$ vérifiant $\\gamma(0) = (-1,1)$ et telles que\n$\\gamma$ est solution de $(*)$ partout où $\\gamma(t)$\nappartient à $\\Omega$.",
+        "html": "<p>Trouver toutes les courbes <span class=\"math inline\">\\(\\gamma: \\Rr\n\\to \\Rr^2\\)</span> de classe <span class=\"math inline\">\\(C^1\\)</span>\nvérifiant <span class=\"math inline\">\\(\\gamma(0) = (-1,1)\\)</span> et\ntelles que <span class=\"math inline\">\\(\\gamma\\)</span> est solution de\n<span class=\"math inline\">\\((*)\\)</span> partout où <span\nclass=\"math inline\">\\(\\gamma(t)\\)</span> appartient à <span\nclass=\"math inline\">\\(\\Omega\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "95c4187a-6155-4bb9-9349-17d0b1ff4e0c",
+      "type": "question",
+      "value": {
+        "latex": "Même question pour des courbes $\\gamma$ de classe $C^2$.",
+        "html": "<p>Même question pour des courbes <span\nclass=\"math inline\">\\(\\gamma\\)</span> de classe <span\nclass=\"math inline\">\\(C^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ccb5d02e-b553-4215-bdd3-38c0408b8877",
+      "type": "question",
+      "value": {
+        "latex": "Même question pour des courbes $\\gamma$ de classe $C^3$.",
+        "html": "<p>Même question pour des courbes <span\nclass=\"math inline\">\\(\\gamma\\)</span> de classe <span\nclass=\"math inline\">\\(C^3\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(W = \\{\\,(x,y) \\in \\Rr^2 \\mid x&gt;0\n\\,\\}\\)</span> et <span class=\"math inline\"> ..."
+}

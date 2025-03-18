@@ -1,0 +1,85 @@
+{
+  "uuid": "cie4",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "553",
+    "auteur": "cousquer",
+    "createdAt": "2003-10-01",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Suite",
+    "sousChapitre": "Suite définie par une relation de récurrence",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:06:16.554Z"
+  },
+  "contenu": [
+    {
+      "id": "8698399f-83c5-4aa5-b344-21543b31598f",
+      "type": "description",
+      "value": {
+        "latex": "Soit $f\\colon [0,1]\\rightarrow [0,1]$. On considère $a\\in [0,1]$ \net la suite $(u_n)_{n\\in \\mathbb{N}}$ vérifiant $u_0=a$ et $\\forall n\\in \n\\mathbb{N},\\; u_{n+1}=f(u_n)$. Les propriétés suivantes sont-elles \nvraies ou fausses~:",
+        "html": "<p>Soit <span class=\"math inline\">\\(f\\colon [0,1]\\rightarrow\n[0,1]\\)</span>. On considère <span class=\"math inline\">\\(a\\in\n[0,1]\\)</span> et la suite <span class=\"math inline\">\\((u_n)_{n\\in\n\\mathbb{N}}\\)</span> vérifiant <span\nclass=\"math inline\">\\(u_0=a\\)</span> et <span\nclass=\"math inline\">\\(\\forall n\\in\n\\mathbb{N},\\; u_{n+1}=f(u_n)\\)</span>. Les propriétés suivantes\nsont-elles vraies ou fausses :</p>\n"
+      }
+    },
+    {
+      "id": "0e55ff88-9af5-49a0-a990-905262402f3f",
+      "type": "question",
+      "value": {
+        "latex": "Si $f$ est croissante, alors $(u_n)$ est croissante.",
+        "html": "<p>Si <span class=\"math inline\">\\(f\\)</span> est croissante, alors <span\nclass=\"math inline\">\\((u_n)\\)</span> est croissante.</p>\n"
+      }
+    },
+    {
+      "id": "cb6a22e4-b5dd-49a9-9f70-eb5a80f00ccb",
+      "type": "question",
+      "value": {
+        "latex": "Si $(u_n)$ est croissante, alors $f$ est \ncroissante.",
+        "html": "<p>Si <span class=\"math inline\">\\((u_n)\\)</span> est croissante, alors\n<span class=\"math inline\">\\(f\\)</span> est croissante.</p>\n"
+      }
+    },
+    {
+      "id": "ac970743-5e31-4151-b21c-b306c1eba02c",
+      "type": "question",
+      "value": {
+        "latex": "Si $(u_n)$ est croissante et $f$ monotone, alors $f$ est \ncroissante.",
+        "html": "<p>Si <span class=\"math inline\">\\((u_n)\\)</span> est croissante et <span\nclass=\"math inline\">\\(f\\)</span> monotone, alors <span\nclass=\"math inline\">\\(f\\)</span> est croissante.</p>\n"
+      }
+    },
+    {
+      "id": "679e71c3-1ee5-4e88-9101-ca3376808f93",
+      "type": "question",
+      "value": {
+        "latex": "Si $(u_n)$ converge vers une limite~$l$, alors $l$ est point fixe \nde~$f$.",
+        "html": "<p>Si <span class=\"math inline\">\\((u_n)\\)</span> converge vers une\nlimite <span class=\"math inline\">\\(l\\)</span>, alors <span\nclass=\"math inline\">\\(l\\)</span> est point fixe de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b1fa0222-200d-47c9-9cf2-233049e2980b",
+      "type": "question",
+      "value": {
+        "latex": "Si $f$ est dérivable, alors $(u_n)$ est bornée.",
+        "html": "<p>Si <span class=\"math inline\">\\(f\\)</span> est dérivable, alors <span\nclass=\"math inline\">\\((u_n)\\)</span> est bornée.</p>\n"
+      }
+    },
+    {
+      "id": "e821f7c2-4fc8-4770-9f29-c1baa0d71dee",
+      "type": "question",
+      "value": {
+        "latex": "Si le graphe de~$f$ est au dessus de la droite d'équation $y=x$, \nalors $(u_n)$ est croissante.",
+        "html": "<p>Si le graphe de <span class=\"math inline\">\\(f\\)</span> est au dessus\nde la droite d’équation <span class=\"math inline\">\\(y=x\\)</span>, alors\n<span class=\"math inline\">\\((u_n)\\)</span> est croissante.</p>\n"
+      }
+    },
+    {
+      "id": "28146f61-87e3-46ed-9231-5f3e6c58f992",
+      "type": "question",
+      "value": {
+        "latex": "Si $(u_n)$ converge vers un point fixe~$l$ de~$f$, alors $f$ est \ncontinue en~$l$.",
+        "html": "<p>Si <span class=\"math inline\">\\((u_n)\\)</span> converge vers un point\nfixe <span class=\"math inline\">\\(l\\)</span> de <span\nclass=\"math inline\">\\(f\\)</span>, alors <span\nclass=\"math inline\">\\(f\\)</span> est continue en <span\nclass=\"math inline\">\\(l\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(f\\colon [0,1]\\rightarrow\n[0,1]\\)</span>. On considère <span class=\"math inline\">\\(a\\in\n[0,1]\\)</span> et la suite  ..."
+}

@@ -1,0 +1,63 @@
+{
+  "uuid": "yNs9",
+  "titre": "Division euclidienne et fractions rationnelles",
+  "theme": [
+    "fractions rationnelles"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-01-24",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:56:29.956Z"
+  },
+  "contenu": [
+    {
+      "id": "44e612af-30e1-4b22-a336-3b93c9ad1b01",
+      "type": "description",
+      "value": {
+        "latex": "Soit les polynômes à coefficients réels $A(X)=X^3+2 X-5$ et $B(X)=X-1$.",
+        "html": "<p>Soit les polynômes à coefficients réels <span\nclass=\"math inline\">\\(A(X)=X^3+2 X-5\\)</span> et <span\nclass=\"math inline\">\\(B(X)=X-1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c06afb25-dd0d-4685-a4fd-abda114eb1aa",
+      "type": "question",
+      "value": {
+        "latex": "Effectuer la division euclidienne du polynôme $A$ par le polynôme $B$.",
+        "html": "<p>Effectuer la division euclidienne du polynôme <span\nclass=\"math inline\">\\(A\\)</span> par le polynôme <span\nclass=\"math inline\">\\(B\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "54f1559e-9107-4a01-bb3b-d21e9431250c",
+      "type": "reponse",
+      "value": {
+        "latex": "On trouve : \n$$\nA(X)=X^3+2 X-5=\\underbrace{(X-1)}_{B(X)} \\left(X^2+X+3\\right)-2\n$$",
+        "html": "<p>On trouve : <span class=\"math display\">\\[A(X)=X^3+2\nX-5=\\underbrace{(X-1)}_{B(X)} \\left(X^2+X+3\\right)-2\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "4d56600a-5431-4339-98e7-27397aaceb78",
+      "type": "question",
+      "value": {
+        "latex": "En déduire les coefficients $a, b, c$ et $d$ de la décomposition en éléments simples de $$\\frac{A(X)}{B(X)}=\\frac{X^3+2 X-5}{X-1}=a X^2+b  X+c+\\frac{d}{X-1}$$",
+        "html": "<p>En déduire les coefficients <span class=\"math inline\">\\(a, b,\nc\\)</span> et <span class=\"math inline\">\\(d\\)</span> de la décomposition\nen éléments simples de <span\nclass=\"math display\">\\[\\frac{A(X)}{B(X)}=\\frac{X^3+2 X-5}{X-1}=a\nX^2+b  X+c+\\frac{d}{X-1}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a410c58a-6be5-445a-a681-57f40bd3fd27",
+      "type": "reponse",
+      "value": {
+        "latex": "On en déduit :\n\t$$\n\t\\begin{aligned}\n\tF(X) & =\\frac{A(X)}{B(X)}=\\frac{X^3+2 X-5}{X-1}=\\frac{(X-1) \\left(X^2+X+3\\right)-2}{X-1} \\\\\n\t& =\\frac{(X-1) \\cdot\\left(X^2+X+3\\right)}{X-1}-\\frac{2}{X-1}=X^2+X+3-\\frac{2}{X-1}\n\t\\end{aligned}\n\t$$",
+        "html": "<p>On en déduit : <span class=\"math display\">\\[\\begin{aligned}\n    F(X) &amp; =\\frac{A(X)}{B(X)}=\\frac{X^3+2 X-5}{X-1}=\\frac{(X-1)\n\\left(X^2+X+3\\right)-2}{X-1} \\\\\n    &amp; =\\frac{(X-1)\n\\cdot\\left(X^2+X+3\\right)}{X-1}-\\frac{2}{X-1}=X^2+X+3-\\frac{2}{X-1}\n    \\end{aligned}\\]</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit les polynômes à coefficients réels <span\nclass=\"math inline\">\\(A(X)=X^3+2 X-5\\)</span> et <span\nclass=\"math inline\">\\(B(X)=X-1\\)</span>.</p>\n"
+}

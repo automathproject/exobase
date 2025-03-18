@@ -1,0 +1,37 @@
+{
+  "uuid": "p2C6",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "2264",
+    "auteur": "barraud",
+    "createdAt": "2008-04-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Polynôme",
+    "sousChapitre": "Polynôme",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:01:11.359Z"
+  },
+  "contenu": [
+    {
+      "id": "29788c0a-3832-4689-836a-c4b460c67dc8",
+      "type": "description",
+      "value": {
+        "latex": "Pour $n,m\\ge 2$, d\\'eterminer le reste de la division\neuclidienne du polynôme \\mbox{$(x-2)^m+(x-1)^n-1$} par $(x-1)(x-2)$ \ndans $\\Zz[x]$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n,m\\ge 2\\)</span>, déterminer le\nreste de la division euclidienne du polynôme <span\nclass=\"math inline\">\\((x-2)^m+(x-1)^n-1\\)</span> par <span\nclass=\"math inline\">\\((x-1)(x-2)\\)</span> dans <span\nclass=\"math inline\">\\(\\Zz[x]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "51cb9e6c-36f1-47a8-a9fd-35f85b94e34b",
+      "type": "reponse",
+      "value": {
+        "latex": "Notons $(Q,R)$ le quotient et le reste de cette division euclidienne:\n  $(x-2)^{m}+(x-1)^{n}-1=Q(x-2)(x-1)+R$ avec $\\deg(R)\\leq 1$. Notons\n  $R=ax+b$. En évaluant en $1$, on obtient $(-1)^{m}-1=a+b$, et en\n  évaluant en $2$, $2a+b=0$. On en déduit $b=-2a$ et $a=1-(-1)^{m}$, soit\n  $R=(1-(-1)^{m})(x-2)$.",
+        "html": "<p>Notons <span class=\"math inline\">\\((Q,R)\\)</span> le quotient et le\nreste de cette division euclidienne: <span\nclass=\"math inline\">\\((x-2)^{m}+(x-1)^{n}-1=Q(x-2)(x-1)+R\\)</span> avec\n<span class=\"math inline\">\\(\\deg(R)\\leq 1\\)</span>. Notons <span\nclass=\"math inline\">\\(R=ax+b\\)</span>. En évaluant en <span\nclass=\"math inline\">\\(1\\)</span>, on obtient <span\nclass=\"math inline\">\\((-1)^{m}-1=a+b\\)</span>, et en évaluant en <span\nclass=\"math inline\">\\(2\\)</span>, <span\nclass=\"math inline\">\\(2a+b=0\\)</span>. On en déduit <span\nclass=\"math inline\">\\(b=-2a\\)</span> et <span\nclass=\"math inline\">\\(a=1-(-1)^{m}\\)</span>, soit <span\nclass=\"math inline\">\\(R=(1-(-1)^{m})(x-2)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour <span class=\"math inline\">\\(n,m\\ge 2\\)</span>, déterminer le\nreste de la division euclidienne du polynôme <span\nclass=\"math inline\"> ..."
+}

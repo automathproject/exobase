@@ -1,0 +1,53 @@
+{
+  "uuid": "volx",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6806",
+    "auteur": "gijs",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Fonction logarithme et fonction puissance",
+    "sousChapitre": "Fonction logarithme et fonction puissance",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:21.243Z"
+  },
+  "contenu": [
+    {
+      "id": "33727e5a-04a0-4d90-a884-b85f38296439",
+      "type": "description",
+      "value": {
+        "latex": "On note $\\mathrm{Log} : \\Cc\\setminus\\,]-\\infty,0] \\to \\Cc$\nla détermination principale du logarithme, qui est\nréelle pour $z$ réel positif.\nOn pose \n\n$$\\begin{align*}\nf(z) &= \\exp\\bigl(\\tfrac13\\mathrm{Log}(z) + \\tfrac13\\mathrm{Log}(z-1) +\n\\tfrac13\\mathrm{Log}(z+1)\\bigr)\n\\\\\ng(z) &= \\exp\\bigl(\\tfrac13\\mathrm{Log}(-z) +\n\\tfrac13\\mathrm{Log}(1-z^2)\\bigr)\n\\ .\n\\end{align*}$$",
+        "html": "<p>On note <span class=\"math inline\">\\(\\mathrm{Log} :\n\\Cc\\setminus\\,]-\\infty,0] \\to \\Cc\\)</span> la détermination principale\ndu logarithme, qui est réelle pour <span\nclass=\"math inline\">\\(z\\)</span> réel positif. On pose</p>\n<p><span class=\"math display\">\\[\\begin{align*}\nf(z) &amp;= \\exp\\bigl(\\tfrac13\\mathrm{Log}(z) +\n\\tfrac13\\mathrm{Log}(z-1) +\n\\tfrac13\\mathrm{Log}(z+1)\\bigr)\n\\\\\ng(z) &amp;= \\exp\\bigl(\\tfrac13\\mathrm{Log}(-z) +\n\\tfrac13\\mathrm{Log}(1-z^2)\\bigr)\n\\ .\n\\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "68951490-7ffd-4fc6-acb0-70916cc9cc70",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les domaines de définition $\\Omega_f\n\\subset \\Cc$ de $f$ et $\\Omega_g \\subset \\Cc$ de\n$g$ et montrer que $f$ et $g$ sont des branches continues\nde $\\root3\\of {z^3-z}$.",
+        "html": "<p>Déterminer les domaines de définition <span\nclass=\"math inline\">\\(\\Omega_f\n\\subset \\Cc\\)</span> de <span class=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(\\Omega_g \\subset \\Cc\\)</span> de <span\nclass=\"math inline\">\\(g\\)</span> et montrer que <span\nclass=\"math inline\">\\(f\\)</span> et <span\nclass=\"math inline\">\\(g\\)</span> sont des branches continues de <span\nclass=\"math inline\">\\(\\root3\\of {z^3-z}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "00035bb2-aee4-4b4a-882e-bc16a7afdc7e",
+      "type": "question",
+      "value": {
+        "latex": "Est-ce-qu'on peut élargir le domaine de définition de\n$f$, c'est à dire~: existe-t-il un ouvert\n$\\widehat\\Omega_f \\subset \\Cc$ et une fonction\ncontinue $\\widehat f : \\widehat\\Omega_f \\to \\Cc$\ntelle que $\\Omega_f \\subset \\widehat\\Omega_f$ et pour\ntout $z\\in \\Omega_f$ on a $\\widehat f(z) = f(z)$~?\nN'oubliez pas de justifier votre réponse~!",
+        "html": "<p>Est-ce-qu’on peut élargir le domaine de définition de <span\nclass=\"math inline\">\\(f\\)</span>, c’est à dire : existe-t-il un ouvert\n<span class=\"math inline\">\\(\\widehat\\Omega_f \\subset \\Cc\\)</span> et une\nfonction continue <span class=\"math inline\">\\(\\widehat f :\n\\widehat\\Omega_f \\to \\Cc\\)</span> telle que <span\nclass=\"math inline\">\\(\\Omega_f \\subset \\widehat\\Omega_f\\)</span> et pour\ntout <span class=\"math inline\">\\(z\\in \\Omega_f\\)</span> on a <span\nclass=\"math inline\">\\(\\widehat f(z) = f(z)\\)</span> ? N’oubliez pas de\njustifier votre réponse !</p>\n"
+      }
+    },
+    {
+      "id": "175656b9-658b-463f-b1e5-81bfc03e4418",
+      "type": "question",
+      "value": {
+        "latex": "Est-ce-qu'on peut élargir le domaine de définition de\n$g$~?",
+        "html": "<p>Est-ce-qu’on peut élargir le domaine de définition de <span\nclass=\"math inline\">\\(g\\)</span> ?</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On note <span class=\"math inline\">\\(\\mathrm{Log} :\n\\Cc\\setminus\\,]-\\infty,0] \\to \\Cc\\)</span> la détermination principale\ndu logarithme, qui est ré ..."
+}

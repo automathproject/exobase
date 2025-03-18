@@ -1,0 +1,61 @@
+{
+  "uuid": "ivk2",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "4385",
+    "auteur": "quercia",
+    "createdAt": "2010-03-12",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Intégration",
+    "sousChapitre": "Intégrale multiple",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:11:49.369Z"
+  },
+  "contenu": [
+    {
+      "id": "502d50b2-ce1e-4ef1-8fa1-a1c798c820b9",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "dd37a70c-c8d8-4ee8-aa9e-c00121a43dea",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\iiint_D \\frac{d x\\,d y\\,d z}{(1+x^2z^2)(1+y^2z^2)}$ avec\n    $D = \\{(x,y,z) \\text{ tel que } 0\\le x \\le 1,\\ 0\\le y\\le 1,\\ 0\\le z\\}$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\iiint_D \\frac{d x\\,d y\\,d\nz}{(1+x^2z^2)(1+y^2z^2)}\\)</span> avec <span class=\"math inline\">\\(D =\n\\{(x,y,z) \\text{ tel que } 0\\le x \\le 1,\\ 0\\le y\\le 1,\\ 0\\le\nz\\}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4cddf06d-20cd-4746-b1e6-cc542d3e76b1",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrer en $z$ d'abord :\n             $\\frac1{(1+x^2z^2)(1+y^2z^2)} =\n              \\frac 1{x^2-y^2}\\Bigl(\\frac{x^2}{1+x^2z^2} - \\frac{y^2}{1+y^2z^2}\\Bigr)$.\n             On obtient $I = \\pi\\ln 2$.",
+        "html": "<p>Intégrer en <span class=\"math inline\">\\(z\\)</span> d’abord : <span\nclass=\"math inline\">\\(\\frac1{(1+x^2z^2)(1+y^2z^2)} =\n              \\frac 1{x^2-y^2}\\Bigl(\\frac{x^2}{1+x^2z^2} -\n\\frac{y^2}{1+y^2z^2}\\Bigr)\\)</span>. On obtient <span\nclass=\"math inline\">\\(I = \\pi\\ln 2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e82bc9cb-9b47-42d9-b96d-fb9fa50566d7",
+      "type": "question",
+      "value": {
+        "latex": "En déduire $ \\int_{t=0}^{+\\infty} \\Bigl(\\frac{\\Arctan t}t\\Bigr)^2d t$.",
+        "html": "<p>En déduire <span class=\"math inline\">\\(\\int_{t=0}^{+\\infty}\n\\Bigl(\\frac{\\Arctan t}t\\Bigr)^2d t\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "13c8d3a3-adeb-4c4d-ad7a-292f62bc4dd1",
+      "type": "reponse",
+      "value": {
+        "latex": "Intégrer $I$ en $x$ et $y$ d'abord. On obtient\n    $I =  \\int_{z=0}^{+\\infty} \\Bigl(\\frac{\\Arctan z}z\\Bigr)^2 d z$.",
+        "html": "<p>Intégrer <span class=\"math inline\">\\(I\\)</span> en <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(y\\)</span> d’abord. On obtient <span\nclass=\"math inline\">\\(I =  \\int_{z=0}^{+\\infty} \\Bigl(\\frac{\\Arctan\nz}z\\Bigr)^2 d z\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Calculer <span class=\"math inline\">\\(\\iiint_D \\frac{d x\\,d y\\,d\nz}{(1+x^2z^2)(1+y^2z^2)}\\)</span> avec <span class=\"math inline\"> ..."
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "rOJw",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6409",
+    "auteur": "potyag",
+    "createdAt": "2011-10-16",
+    "hasIndication": "false",
+    "hasCorrection": "false",
+    "youtube": "",
+    "chapitre": "Groupe orthogonal et quaternions",
+    "sousChapitre": "Groupe orthogonal et quaternions",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:15:18.268Z"
+  },
+  "contenu": [
+    {
+      "id": "719278db-3ef1-49d0-9791-55245a41c540",
+      "type": "description",
+      "value": {
+        "latex": "Le but de cet exercice est d'introduire une topologie sur le\ngroupe linéaire $GL(E).$ Soit $A\\in GL(E),$ alors on introduit la norme:\n$$\\displaystyle \\vert\\vert A\\vert\\vert =\\sup_{\\vert\\vert\nx\\vert\\vert=1}\\vert\\vert Ax\\vert\\vert\\hfill\\eqno(1).$$ Montrer que les\ntopologies suivantes sur $GL(E)$ sont équivalentes:",
+        "html": "<p>Le but de cet exercice est d’introduire une topologie sur le groupe\nlinéaire <span class=\"math inline\">\\(GL(E).\\)</span> Soit <span\nclass=\"math inline\">\\(A\\in GL(E),\\)</span> alors on introduit la norme:\n<span class=\"math display\">\\[\\displaystyle \\vert\\vert A\\vert\\vert\n=\\sup_{\\vert\\vert\nx\\vert\\vert=1}\\vert\\vert Ax\\vert\\vert\\hfill\\eqno(1).\\]</span> Montrer\nque les topologies suivantes sur <span\nclass=\"math inline\">\\(GL(E)\\)</span> sont équivalentes:</p>\n"
+      }
+    },
+    {
+      "id": "87514c29-dc84-4d02-814e-e3e6603ff4f5",
+      "type": "question",
+      "value": {
+        "latex": "$A_n\\to A$ si la suite $a_{ij}^n$ des coefficients  de $A_n$\n  converge vers $a_{ij}.$",
+        "html": "<p><span class=\"math inline\">\\(A_n\\to A\\)</span> si la suite <span\nclass=\"math inline\">\\(a_{ij}^n\\)</span> des coefficients de <span\nclass=\"math inline\">\\(A_n\\)</span> converge vers <span\nclass=\"math inline\">\\(a_{ij}.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "f7ebd4f2-6503-48e2-ab47-ce02895f7925",
+      "type": "question",
+      "value": {
+        "latex": "$A_n\\to A$ si $\\vert\\vert A_n -A\\vert\\vert \\to 0.$",
+        "html": "<p><span class=\"math inline\">\\(A_n\\to A\\)</span> si <span\nclass=\"math inline\">\\(\\vert\\vert A_n -A\\vert\\vert \\to 0.\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "a1c6b7c4-766d-4625-a080-e78cbbfab4be",
+      "type": "question",
+      "value": {
+        "latex": "$A_n\\to A$ si l'application $A_n:x\\to A_n(x)$ converge vers l'application $A(x)$ uniformément sur chaque compact $K\\subset\n  E.$",
+        "html": "<p><span class=\"math inline\">\\(A_n\\to A\\)</span> si l’application <span\nclass=\"math inline\">\\(A_n:x\\to A_n(x)\\)</span> converge vers\nl’application <span class=\"math inline\">\\(A(x)\\)</span> uniformément sur\nchaque compact <span class=\"math inline\">\\(K\\subset\n  E.\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Le but de cet exercice est d’introduire une topologie sur le groupe\nlinéaire <span class=\"math inline\">\\(GL(E).\\)</span> Soit <span\nclass=\"math inl ..."
+}

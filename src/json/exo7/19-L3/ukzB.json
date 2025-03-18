@@ -1,0 +1,77 @@
+{
+  "uuid": "ukzB",
+  "titre": "",
+  "theme": "",
+  "niveau": "",
+  "metadata": {
+    "exo7id": "6947",
+    "auteur": "ruette",
+    "createdAt": "2013-01-24",
+    "hasIndication": "false",
+    "hasCorrection": "true",
+    "youtube": "",
+    "chapitre": "Loi, indépendance, loi conditionnelle",
+    "sousChapitre": "Loi, indépendance, loi conditionnelle",
+    "organisation": "exo7",
+    "updatedAt": "2025-03-18T18:04:35.404Z"
+  },
+  "contenu": [
+    {
+      "id": "e57ebe97-3de0-4cd0-9b2b-8d6f774d5ad4",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ une variable aléatoire de loi de Poisson $\\mathcal{P}(\\lambda)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire de\nloi de Poisson <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "089e897f-af72-449b-80dd-16838ec1684d",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la fonction génératrice de $X$.",
+        "html": "<p>Calculer la fonction génératrice de <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f15af2ea-b1f2-48bc-b0ef-92a3358ec166",
+      "type": "reponse",
+      "value": {
+        "latex": "$G_X(z)=e^{\\lambda(z-1)}$.",
+        "html": "<p><span class=\"math inline\">\\(G_X(z)=e^{\\lambda(z-1)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5d3b3059-6909-4aea-96e5-208cc77575b7",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $E(X)$ et $\\text{Var}(X)$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(E(X)\\)</span> et <span\nclass=\"math inline\">\\(\\text{Var}(X)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "bc6e11eb-c7f5-49bf-9727-08c6ead2bd15",
+      "type": "reponse",
+      "value": {
+        "latex": "$E(X)=\\text{Var}(X)=\\lambda$",
+        "html": "<p><span class=\"math inline\">\\(E(X)=\\text{Var}(X)=\\lambda\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0cd6e9a0-7020-438b-951f-fe0560f3abfe",
+      "type": "question",
+      "value": {
+        "latex": "Soit $Y$ une variable aléatoire de loi de Poisson $\\mathcal{P}(\\lambda')$, indépendante\nde $X$. Quelle est la loi de $X+Y$ ? En déduire que\n$\\mathcal{P}(\\lambda) *\\mathcal{P}(\\lambda')=\\mathcal{P}(\\lambda+\\lambda')$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(Y\\)</span> une variable aléatoire de\nloi de Poisson <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda&#39;)\\)</span>, indépendante\nde <span class=\"math inline\">\\(X\\)</span>. Quelle est la loi de <span\nclass=\"math inline\">\\(X+Y\\)</span> ? En déduire que <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda)\n*\\mathcal{P}(\\lambda&#39;)=\\mathcal{P}(\\lambda+\\lambda&#39;)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "14bc493b-908f-4d3c-aa36-970c9fa7c63e",
+      "type": "reponse",
+      "value": {
+        "latex": "$G_{X+Y}(z)=G_X(z)G_Y(z)=e^{(\\lambda+\\lambda')(z-1)}$.\nD'où $X+Y\\sim \\mathcal{P}(\\lambda+\\lambda')$, et donc\n$\\mathcal{P}(\\lambda) *\\mathcal{P}(\\lambda')=\\mathcal{P}(\\lambda+\\lambda')$.",
+        "html": "<p><span\nclass=\"math inline\">\\(G_{X+Y}(z)=G_X(z)G_Y(z)=e^{(\\lambda+\\lambda&#39;)(z-1)}\\)</span>.\nD’où <span class=\"math inline\">\\(X+Y\\sim\n\\mathcal{P}(\\lambda+\\lambda&#39;)\\)</span>, et donc <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda)\n*\\mathcal{P}(\\lambda&#39;)=\\mathcal{P}(\\lambda+\\lambda&#39;)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire de\nloi de Poisson <span\nclass=\"math inline\">\\(\\mathcal{P}(\\lambda)\\)</span>.</p> ..."
+}

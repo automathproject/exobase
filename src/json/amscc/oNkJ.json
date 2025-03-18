@@ -1,0 +1,95 @@
+{
+  "uuid": "oNkJ",
+  "titre": "Changement de variable",
+  "theme": [
+    "variables aléatoires à densité"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2023-11-29",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-18T17:55:17.273Z"
+  },
+  "contenu": [
+    {
+      "id": "f952a186-1e71-4ba8-89e5-4c806aeeb0d7",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ une variable aléatoire suivant la loi uniforme $\\mathcal{U}([0;2])$. On pose $Y=\\max(1,X)$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire\nsuivant la loi uniforme <span\nclass=\"math inline\">\\(\\mathcal{U}([0;2])\\)</span>. On pose <span\nclass=\"math inline\">\\(Y=\\max(1,X)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "76aa5d7e-e49b-4d49-ad3f-a7aebab30320",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la fonction de répartition de $X$.",
+        "html": "<p>Déterminer la fonction de répartition de <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "26103688-b464-40d8-aff1-c4b25ed195c9",
+      "type": "reponse",
+      "value": {
+        "latex": "C'est du cours : $F_X(t)= \\begin{cases} 0 & \\text{ si } t<0 \\\\ \n\t\t\t\\frac{t}{2} & \\text{ si } t\\in]0;2[ \\\\\n\t\t\t1 & \\text{ si } t\\geq 2\n\t\t\\end{cases} $ ; $\\EX = 1$ et $V(X) = 4/12 = 1/3$.",
+        "html": "<p>C’est du cours : <span class=\"math inline\">\\(F_X(t)= \\begin{cases} 0\n&amp; \\text{ si } t&lt;0 \\\\\n            \\frac{t}{2} &amp; \\text{ si } t\\in]0;2[ \\\\\n            1 &amp; \\text{ si } t\\geq 2\n        \\end{cases}\\)</span> ; <span class=\"math inline\">\\(\\EX =\n1\\)</span> et <span class=\"math inline\">\\(V(X) = 4/12 =\n1/3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4337bb59-b3da-4db2-88f2-5876246e947d",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la fonction de répartition de $Y$.",
+        "html": "<p>Déterminer la fonction de répartition de <span\nclass=\"math inline\">\\(Y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1d074de2-257b-4dff-ad37-c82cbaf3dcaa",
+      "type": "reponse",
+      "value": {
+        "latex": "Soit $t \\in \\R$ : $F_Y(t) = \\PP(Y \\leq t) = \\PP(\\{1 \\leq t\\} \\cap \\{X \\leq t\\})$. On distingue trois cas : \\\\\n\t\tSi $t \\geq 2$ : $\\PP(Y \\leq t) = 1$ ; \\\\\n\t\tSi $ 1 \\leq t < 2$ : $\\PP(Y \\leq t) = \\PP(X \\leq t) = \\frac{t}{2}$ ; \\\\\n\t\tSi $t<1$, $\\PP(Y \\leq t) = 0$.\n\t\t\n\t\tOn remarque que $F_Y$ n'est pas continue en $1$ (mais elle est bien continue à droite en $1$.).",
+        "html": "<p>Soit <span class=\"math inline\">\\(t \\in \\R\\)</span> : <span\nclass=\"math inline\">\\(F_Y(t) = \\PP(Y \\leq t) = \\PP(\\{1 \\leq t\\} \\cap \\{X\n\\leq t\\})\\)</span>. On distingue trois cas :<br />\nSi <span class=\"math inline\">\\(t \\geq 2\\)</span> : <span\nclass=\"math inline\">\\(\\PP(Y \\leq t) = 1\\)</span> ;<br />\nSi <span class=\"math inline\">\\(1 \\leq t &lt; 2\\)</span> : <span\nclass=\"math inline\">\\(\\PP(Y \\leq t) = \\PP(X \\leq t) =\n\\frac{t}{2}\\)</span> ;<br />\nSi <span class=\"math inline\">\\(t&lt;1\\)</span>, <span\nclass=\"math inline\">\\(\\PP(Y \\leq t) = 0\\)</span>.</p>\n<p>On remarque que <span class=\"math inline\">\\(F_Y\\)</span> n’est pas\ncontinue en <span class=\"math inline\">\\(1\\)</span> (mais elle est bien\ncontinue à droite en <span class=\"math inline\">\\(1\\)</span>.).</p>\n"
+      }
+    },
+    {
+      "id": "644e5246-6483-489e-a814-d0658752395c",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la probabilité $\\PP(Y=1)$.",
+        "html": "<p>Calculer la probabilité <span\nclass=\"math inline\">\\(\\PP(Y=1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7f29f8a5-b34f-4016-8acc-7f84986f742c",
+      "type": "reponse",
+      "value": {
+        "latex": "On remarque que $Y=1 \\iff X \\leq 1$ donc $\\PP(Y=1) = \\PP(X \\leq 1) = 1/2$. \n\t\t\n\t\tOn sait aussi d'après le cours que $\\PP(Y=1) = \\lim\\limits_{1^+}F_Y-\\lim\\limits_{1^-}F_Y = F_Y(1)-0 = 1/2$.",
+        "html": "<p>On remarque que <span class=\"math inline\">\\(Y=1 \\iff X \\leq\n1\\)</span> donc <span class=\"math inline\">\\(\\PP(Y=1) = \\PP(X \\leq 1) =\n1/2\\)</span>.</p>\n<p>On sait aussi d’après le cours que <span\nclass=\"math inline\">\\(\\PP(Y=1) =\n\\lim\\limits_{1^+}F_Y-\\lim\\limits_{1^-}F_Y = F_Y(1)-0 = 1/2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "32e4c919-37d6-4d45-b2fb-07542deee85f",
+      "type": "question",
+      "value": {
+        "latex": "La variable aléatoire $Y$ est-elle discrète ? absolument continue ? Justifier.",
+        "html": "<p>La variable aléatoire <span class=\"math inline\">\\(Y\\)</span> est-elle\ndiscrète ? absolument continue ? Justifier.</p>\n"
+      }
+    },
+    {
+      "id": "0fd3ffde-65b5-43da-824b-061c244aaccc",
+      "type": "reponse",
+      "value": {
+        "latex": "La variable aléatoire $Y$ n'est pas discrète car sa fonction de répartition n'est pas en escalier. Elle n'est pas non plus absolument continue car sa fonction de répartition n'est pas continue partout (discontinuité en $1$).",
+        "html": "<p>La variable aléatoire <span class=\"math inline\">\\(Y\\)</span> n’est\npas discrète car sa fonction de répartition n’est pas en escalier. Elle\nn’est pas non plus absolument continue car sa fonction de répartition\nn’est pas continue partout (discontinuité en <span\nclass=\"math inline\">\\(1\\)</span>).</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une variable aléatoire\nsuivant la loi uniforme <span\nclass=\"math inline\">\\(\\mathcal{U}([0;2])\\)</span>. ..."
+}
