@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:20.313Z"
+    "updatedAt": "2025-03-24T17:17:17.413Z"
   },
   "contenu": [
     {
-      "id": "1a92aead-18ee-4930-86a5-cec19f50adb3",
+      "id": "0342b174-12ee-4154-a5e1-d0bfba3febf7",
       "type": "description",
       "value": {
         "latex": "Soient 9 variables aléatoires normales centrées réduites notées $(U_i)_{1 \\leq i \\leq 9}$. on suppose que les variables $(U_i)_{1 \\leq i \\leq 9}$ sont indépendantes.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "b740778f-36dd-4668-93e3-877f60760c99",
+      "id": "0b631a81-a048-4d94-b8c7-d16510b3ebcf",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi suivie par $X=\\sum\\limits_{i=1}^{9}U_i^2$ ? Déterminer le réel $x$ tel que $\\PP(X > x) = 0.05$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "95f9bff2-1495-4adf-948b-0651de103821",
+      "id": "4b4990fe-d513-420e-8a78-c51398cc71a3",
       "type": "reponse",
       "value": {
         "latex": "Les variables $(U_i)_{1 \\leq i \\leq 9}$ sont indépendantes et suivent chacune une loi $\\mathcal{N}(0,1)$ donc $\\sum\\limits_{i=1}^{9}U_i^2$ suit une loi $\\chi^2(9)$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "f5c1f3b2-17ea-445c-a664-e98ceb70b14e",
+      "id": "c41a7d55-6aa0-4942-9049-323815b55c19",
       "type": "question",
       "value": {
         "latex": "Soit $Y$ une variable aléatoire suivant une loi normale de moyenne 10 et d'écart-type 3, indépendante de $X$. Quelle est la loi suivie par la variable aléatoire $Z=\\frac{Y-10}{\\sqrt{X}}$ ? Déterminer le réel $z$ tel que $\\PP(Z > z) = 0.05$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "e94f1f0c-4fa7-4b32-8d3f-b8ed97bf771d",
+      "id": "b707d4c4-7fae-409a-bd36-f269772fea6f",
       "type": "reponse",
       "value": {
         "latex": "On réécrit $Z=\\frac{Y-10}{\\sqrt{X}} = \\frac{ \\frac{Y-10}{3}}{ \\sqrt{\\frac{X}{9}}  }$ ; or $\\frac{Y-10}{3}$ suit une loi normale centrée réduite donc par définition, $Z$ suit une loi $St(9)$.",

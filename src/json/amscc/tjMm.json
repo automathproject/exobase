@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Calcul d'intégrales",
+    "sousChapitre": "Calcul approché d'intégrale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:20.025Z"
+    "updatedAt": "2025-03-24T17:17:17.280Z"
   },
   "contenu": [
     {
-      "id": "31ca4a54-50a6-4df2-9ae6-4d272e3973a2",
+      "id": "37d803f4-c2be-4f5b-9f92-e5cf04521527",
       "type": "question",
       "value": {
         "latex": "Proposer au moins deux méthodes de Monte Carlo permettant de fournir une valeur approchée de l'intégrale :\n\t$$I = \\int_0^1 \\cos(x^3)e^{-x}dx$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ce6319a6-aca3-44c4-914a-6c88b7d56d94",
+      "id": "c70ca0ca-c8c8-4c2f-b8c8-ce31926fab52",
       "type": "reponse",
       "value": {
         "latex": "On voit que $I=  \\int \\cos(x^3)e^{-x} \\chi_{[0;1]}(x)dx = \\mathbb{E}\\left( \\cos(U^3)e^{-U} \\right)$ où $U$ suit une loi $\\mathcal{U}([0;1])$. Donc si $U_1,U_2...$ est une suite de VA iid selon la loi  $\\mathcal{U}([0;1])$, alors la loi des grands nombres donne la convergence presque sûre :\n\t$$\\frac{\\cos(U_1^3)e^{-U_1}+...+\\cos(U_n^3)e^{-U_n}}{n} \\longrightarrow I$$\n\t\n\tIl suffit donc de programmer l'algorithme suivant :\n\t\n\t\\begin{itemize}\n\t\t\\item N=1000\n\t\t\\item S = 0\n\t\t\\item Pour i variant de 1 à N : \\\\ \n\t\tU = simulation d'une loi $\\mathcal{U}([0;1])$ \\\\\n\t\t$S = S+ \\cos(U^3) \\times \\exp(-U)$\n\t\t\\item Afficher $S/N$\n\t\\end{itemize}\n\t\n\tOn voit aussi que $I=  \\int \\cos(x^3) \\chi_{[0;1]}(x)  \\chi_{[0;+\\infty[}(x) e^{-x}dx = \\mathbb{E}\\left(\\cos(V^3) \\chi_{[0;1]}(V) \\right)  $ où $V$ suit une loi $\\mathcal{E}(1)$.",

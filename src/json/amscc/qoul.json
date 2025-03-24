@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:33.596Z"
+    "updatedAt": "2025-03-24T17:16:57.321Z"
   },
   "contenu": [
     {
-      "id": "51f6b828-695f-4747-9080-50815731a9ae",
+      "id": "fe214227-cd06-432f-9f97-30bf666564b8",
       "type": "question",
       "value": {
         "latex": "A l'aide des tables de valeurs, calculer $\\PP(-1.2 \\leq Z \\leq 1.1)$ où $Z$ suit une loi $\\mathcal{N}(0,1)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "0e7cb1df-5766-41ad-841c-3f11e1e4c092",
+      "id": "e38ac0e0-90d1-43bd-a648-efb68e8a7297",
       "type": "reponse",
       "value": {
         "latex": "On exprime la probabilité à l'aide de la fonction de répartition de la loi normale centrée réduite notée $\\Phi$ : \n\t$$\\begin{align*}\n\t\t\\PP(-1.2 \\leq Z \\leq 1.1) &= \\PP(Z \\leq 1.1) - \\PP(Z < -1.2) \\\\\n\t\t&= \\PP(Z \\leq 1.1) - \\PP(Z > 1.2) &\\text{par symétrie}\\\\\n\t\t&= \\PP(Z \\leq 1.1) - (1-\\PP(Z \\leq 1.2)) \\\\\n\t\t&= \\Phi(1.1)+\\Phi(1.2)-1 \\\\\n\t\t&\\approx 0{,}75\n\t\\end{align*}$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e673306a-5b94-4070-a90a-136c4e963c38",
+      "id": "01ba707a-e6b9-4619-ad65-4e3c25e82903",
       "type": "question",
       "value": {
         "latex": "A l'aide des tables de valeurs, calculer $\\PP(70 \\leq QI \\leq 130)$ où $QI$ suit une loi $\\mathcal{N}(100,\\sigma=15)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "2cac1b30-1dc0-466e-a8c3-01d6a54ed754",
+      "id": "b586daff-dc5e-4e71-8a59-6b417ea67548",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = \\frac{QI-100}{15}$ de telle sorte que $Z$ suit une loi normale centrée réduite. On exprime alors\n\t$$\\begin{align*}\n\t\t\\PP(70 \\leq QI \\leq 130) &= \\PP\\left(\\frac{70-100}{15} \\leq \\frac{QI-100}{15} \\leq \\frac{130-100}{15}\\right) \\\\\n\t\t&= \\PP(-2 \\leq Z \\leq 2) \\\\\n\t\t&= 2\\times \\Phi(2) -1 \\\\\n\t\t&\\approx 0{,}95\n\t\\end{align*}$$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "30e486ba-8c4f-4453-ba9a-3d334b59bcb6",
+      "id": "8f5a8b29-76de-431c-ada6-e5f059dde0b7",
       "type": "question",
       "value": {
         "latex": "A l'aide des tables de valeurs, déterminer un réel $t$ tel que $\\PP(|X-5|<t) = 95\\%$ où \n$X$ suit une loi $\\mathcal{N}(5,\\sigma=1)$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "3cf191dc-d31c-408a-aa09-10a0ae42a442",
+      "id": "90a3ae33-7880-4adb-b246-b194fe955693",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = {X-5}$ de telle sorte que $Z$ suit une loi normale centrée réduite. On exprime alors\n\t$$\\begin{align*}\n\t\t\\PP(|X-5| <t) &= \\PP\\left( -t<X-5<t\\right) \\\\\n\t\t&= \\PP\\left( -t \\leq Z \\leq t\\right) \\\\\n\t\t&= 2\\times \\Phi(t) -1 \\\\\n\t\\end{align*}$$ \n\tOn cherche $t \\in \\R$ tel que \n\t$$\\begin{align*}\n\t\t\\PP(|X-5| <t) = 0.95 &\\iff 2\\times \\Phi(t) -1 = 0.95 \\\\\n\t\t&\\iff \\Phi(t) = 0.975 \\\\\n\t\t&\\iff t \\approx 1{,}96 &\\text{par lecture inverse de la table}\n\t\\end{align*}$$",

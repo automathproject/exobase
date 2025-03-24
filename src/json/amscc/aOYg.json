@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-02",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Résolution de systèmes linéaires : méthode itérative",
+    "sousChapitre": "Résolution de systèmes linéaires : méthode itérative",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:32.391Z"
+    "updatedAt": "2025-03-24T17:15:03.538Z"
   },
   "contenu": [
     {
-      "id": "3c5d72de-3ce2-4bcc-9ffd-02b6a84e90f9",
+      "id": "cb5aa6b7-c0da-41bc-8fd1-1c1a79163ab6",
       "type": "description",
       "value": {
         "latex": "Soit $n \\geq 3$, $\\varepsilon >0$ et $A_\\varepsilon$ la matrice pentadiagonale définie par \n\n$$A_\\varepsilon = \\begin{pmatrix}\n\t1 & \\varepsilon & \\varepsilon^2  &  &  & \\\\\n\t\\varepsilon & 1 & \\varepsilon & \\varepsilon^2     & &  \\\\\n\t\\varepsilon^2 & \\ddots & \\ddots & \\ddots & & \\\\\n\t&   \\ddots &  &  & \\varepsilon  & \\varepsilon^2 \\\\\n\t&  &  & \\varepsilon &1  &\\varepsilon \\\\\n\t& & & \\varepsilon^2 & \\varepsilon & 1 \\\\\n\\end{pmatrix}\n$$\net on s'intéresse au système $A_\\varepsilon x = b$ où $x,b \\in \\mathbb{R}^n$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "37265df0-4031-4f15-b589-aba93433e285",
+      "id": "e621f1da-9a6a-4baa-8eb6-1280770a19d8",
       "type": "question",
       "value": {
         "latex": "Ecrire une fonction Python qui génère la matrice $A_\\varepsilon$ pour tout $n$ et $\\varepsilon$ :",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "3333a9c4-6ae6-4719-8ad2-0cba99ee4a5a",
+      "id": "eb7521b6-ff11-42af-adeb-8637d90a99f1",
       "type": "reponse",
       "value": {
         "latex": "\\insertnotebook{aOYg}",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "7a3cc650-bf30-42dc-a807-e5ee7934c31a",
+      "id": "8c55206f-9968-4f78-9d61-470a622dfa52",
       "type": "question",
       "value": {
         "latex": "Donner un intervalle de valeurs de $\\varepsilon$ pour lesquelles $A_\\varepsilon$ est à diagonale strictement dominante.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "e1b2ae17-c9e9-424a-be32-10dfbca5ffab",
+      "id": "8140d519-7d81-4c4c-b450-bd7a8e1dbe03",
       "type": "reponse",
       "value": {
         "latex": "La matrice $A_\\varepsilon$ est à diagonale strictement dominante si et seulement si $1 > 2\\varepsilon + 2\\varepsilon^2 \\iff \\varepsilon \\in \\left[0 ; \\frac{\\sqrt{3}-1}{2} \\right]$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "3886ed0b-5024-47f8-9b17-14e83dc90225",
+      "id": "87e41ca4-23c3-474f-a680-e7b952bcc847",
       "type": "question",
       "value": {
         "latex": "Que permet de calculer la fonction suivante où \\texttt{matrice} est une matrice carrée de taille $n$ quelconque ?",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "8d7e3068-9677-424e-8d1f-408ba6597241",
+      "id": "76f20107-5bb9-46bc-924a-43347c655a81",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît le calcul du rayon spectral de la matrice.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "6040329a-4896-4763-82df-a13a9e1697fc",
+      "id": "ec374e60-4842-4b02-bfd8-e7386315acde",
       "type": "question",
       "value": {
         "latex": "Ecrire une fonction Python qui génère la matrice $b_{\\varepsilon} = A_\\varepsilon\\overline{x}$ où $\\overline{x} = (1,...,1) \\in \\mathbb{R}^n$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "526b521c-d38f-4ac7-921e-39edf9318862",
+      "id": "ea289a2d-79e1-49aa-9a19-03ec163cd970",
       "type": "question",
       "value": {
         "latex": "La méthode de Jacobi est-elle convergente pour $n=10$ et $\\varepsilon = 0.2$ ? Si oui, résoudre le système $A_\\varepsilon x = b_{\\varepsilon}$ par cette méthode et donner le nombre d'itérations nécessaire pour une erreur de $10^{-8}$ et un vecteur initial $x_0 = 0$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "5471a2e5-a82f-4c3f-aba7-c15ff6ce45a1",
+      "id": "6a6cf875-a1f3-49f1-aa9a-f75d2b46c31b",
       "type": "reponse",
       "value": {
         "latex": "La matrice est à diagonale strictement dominante pour cette valeur de $\\varepsilon$. La résolution demande $26$ itérations.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "37969ff9-c003-4c23-8064-64a3f36694fe",
+      "id": "b393e1fc-25dc-44df-bc5a-9fc426219a3b",
       "type": "question",
       "value": {
         "latex": "Soit $B$ la matrice d'itération associée à la méthode de Jacobi pour la matrice $A_\\varepsilon$. Pour $n=20$ fixé, représenter graphiquement le rayon spectral de $B$ en fonction de $\\varepsilon \\in [0;1]$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "962773aa-4889-46ad-b7f4-5b90b5bf35dc",
+      "id": "9455675b-bc86-4fe9-a493-1d9aa638e8e0",
       "type": "question",
       "value": {
         "latex": "Faire de même pour la méthode de Gauss-Seidel.",

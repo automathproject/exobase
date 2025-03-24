@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:33.359Z"
+    "updatedAt": "2025-03-24T17:13:28.170Z"
   },
   "contenu": [
     {
-      "id": "c5dc21fd-31eb-4404-8c95-04df2f360e98",
+      "id": "c4344fa3-103d-43af-9ebf-38b26dc74139",
       "type": "description",
       "value": {
         "latex": "On se propose de calculer le déterminant de VAN DER MONDE :\n$$\n\\Delta=\\left|\\begin{array}{cccc}\n1 & 1 & 1 & 1 \\\\\na & b & c & x \\\\\na^2 & b^2 & c^2 & x^2 \\\\\na^3 & b^3 & c^3 & x^3\n\\end{array}\\right|\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "71bc3b67-8595-4ff0-8aab-7102ccaa7147",
+      "id": "045644cd-6a1c-4e24-a909-353f094d12a9",
       "type": "question",
       "value": {
         "latex": "Quel est le degré du polynôme $P(x)=\\Delta$ ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e6b512dd-79af-46d9-9482-ae9dac8ee356",
+      "id": "59a48c86-f3c7-446f-8eb0-57450b8ee533",
       "type": "indication",
       "value": {
         "latex": "Exprimer, sans le calculer, le déterminant en développant par rapport à la dernière colonne.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "5449d101-d9a6-41c5-805d-a727c2e275b4",
+      "id": "4728813a-79df-4196-92a0-88d728895129",
       "type": "reponse",
       "value": {
         "latex": "Si l'on développe le déterminant $\\Delta$ par rapport à sa 4 ème colonne, on voit que $P(x)$ est un polynôme de degré au plus 3.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "2207e490-50b7-40ba-9a50-1ac6680ea8c7",
+      "id": "69371a9a-ce10-475d-9c49-dbebf64f22b3",
       "type": "question",
       "value": {
         "latex": "Sans calculer $\\Delta$, donner trois racines évidentes du polynôme $P(x)$. En déduire $\\Delta$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "3b8cdf1e-8049-4374-89f7-2c6739425e08",
+      "id": "6b7a316d-e79f-4adc-84ed-8ccdeb607855",
       "type": "reponse",
       "value": {
         "latex": "Pour $x=a, \\Delta=0$ car deux colonnes sont identiques. De même, pour $x=b$ et pour $x=c$. Ainsi, $a, b$ et $c$ sont trois racines évidentes de $P(x)$.\nAinsi :\n$$\nP(x)=k(x-a)(x-b)(x-c)\n$$\noù $k$ est le coefficient de $x^3$. Ainsi :\n$$\n\\begin{aligned}\n& k=\\left|\\begin{array}{ccc}\n1 & 1 & 1 \\\\\na & b & c \\\\\na^2 & b^2 & c^2\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\n1 & 0 & 0 \\\\\na & b-a & c-a \\\\\na^2 & b^2-a^2 & c^2-a^2\n\\end{array}\\right| \\\\\n& =(b-a)(c-a)\\left|\\begin{array}{ccc}\n\\mathcal{c}_1 & c_2 & c_3-c_2 \\\\\n1 & 0 & 0 \\\\\na & 1 & 0 \\\\\na^2 & b+a & c-b\n\\end{array}\\right| \\\\\n& =(b-a)(c-a)(c-b) \\\\\n&\n\\end{aligned}\n$$\nConclusion :\n$$\nP(x)=(b-a)(c-a)(c-b)(x-a)(x-b)(x-c)\n$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "39454b29-9d97-4e42-80b2-0607d9e817dc",
+      "id": "cb01dc8b-5615-46a8-8657-cbab539f2e14",
       "type": "question",
       "value": {
         "latex": "Calculer $\\left|\\begin{array}{cccc}1 & 1 & 1 & 1 \\\\ 1 & i & -1 & -i \\\\ 1 & -1 & 1 & -1 \\\\ 1 & -i & -1 & i\\end{array}\\right|$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "7a5f66d7-b5d5-49e2-a55a-7e901fb66a84",
+      "id": "67ff93d1-b6bf-4058-9a41-b8ff5759270b",
       "type": "indication",
       "value": {
         "latex": "Utiliser les questions précédentes en remplaçant $a$, $b$ et $c$ par des valeurs judicieuses.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "ba0df398-39c2-494e-a679-fcbf29f1b354",
+      "id": "c61763f5-3a8d-4fd8-ab3b-b5c68e6bb20d",
       "type": "reponse",
       "value": {
         "latex": "$\\left|\\begin{array}{cccc}1 & 1 & 1 & 1 \\\\ 1 & i & -1 & -i \\\\ 1 & -1 & 1 & -1 \\\\ 1 & -i & -1 & i\\end{array}\\right|=P(-i)$ pour $a=1, b=i$ et $c=-1$.\nAussi :\n$$\n\\begin{aligned}\n\\left|\\begin{array}{cccc}\n1 & 1 & 1 & 1 \\\\\n1 & i & -1 & -i \\\\\n1 & -1 & 1 & -1 \\\\\n1 & -i & -1 & i\n\\end{array}\\right| & =(i-1) \\underbrace{(-1-1)}_{-2}(-1-i)(-i-1) \\underbrace{(-i-i)}_{-2 i}(-i+1) \\\\\n& =4 i \\underbrace{(i-1)(-1-i)}_2 \\underbrace{(-i-1)(-i+1)}_{-2} \\\\\n& =-16 i\n\\end{aligned}\n$$",

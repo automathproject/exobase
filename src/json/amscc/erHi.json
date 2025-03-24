@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:21.487Z"
+    "updatedAt": "2025-03-24T17:15:35.082Z"
   },
   "contenu": [
     {
-      "id": "f2060664-ae80-46b8-a9e1-3b8f13d558b6",
+      "id": "cd38afe7-f883-405c-a6a7-05f59fa578c6",
       "type": "question",
       "value": {
         "latex": "Montrer que le polynôme $P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3 !}+\\ldots+\\frac{X^n}{n !}$ n'a pas de racine multiple.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "51c4c224-6ccc-4cc8-988c-110ce6447472",
+      "id": "c71e3d9c-3525-4dd6-8023-0fa2c6752804",
       "type": "indication",
       "value": {
         "latex": "Supposer qu'il existe une racine multiple, c'est-à-dire qu'il existe $\\alpha$ tel que $P(\\alpha) = P'(\\alpha) = 0$ et raisonner par l'absurde.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e7167cfd-8d36-4a22-91de-1a7f634f5c11",
+      "id": "4ee27dbd-0477-48e1-ba49-ac11f4c261d0",
       "type": "reponse",
       "value": {
         "latex": "Raisonnement par l'absurde :\n$a$ est racine multiple ssi $P(a)=P^{\\prime}(a)=0$.\nOn a :\n$$\n\\begin{aligned}\n& P(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !}+\\frac{X^n}{n !} \\\\\n& P^{\\prime}(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !} \\\\\n& \\left.\\begin{array}{l}\nP(a)=0 \\quad \\Leftrightarrow 1+a+\\frac{a^2}{2 !}+\\ldots+\\frac{a^{n-1}}{(n-1) !}+\\frac{a^n}{n !}=0 \\\\\nP^{\\prime}(a)=0 \\Leftrightarrow 1+a+\\frac{a^2}{2 !}+\\ldots+\\frac{a^{n-1}}{(n-1) !}=0\n\\end{array}\\right\\} \\Rightarrow \\frac{a^n}{n !}=0 \\Leftrightarrow a=0 \\\\\n&\n\\end{aligned}\n$$\nor 0 n'est pas racine car $P(0)=1$, donc $a$ ne peut pas être racine simultanément de $P$ et $P^{\\prime}$. $a$ ne peut pas être racine multiple.",

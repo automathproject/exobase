@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-21",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:54.624Z"
+    "updatedAt": "2025-03-24T17:13:42.314Z"
   },
   "contenu": [
     {
-      "id": "0ee13a1a-716f-4067-a3b3-98cfa369b710",
+      "id": "619ff4d1-9dda-483d-bd72-33ee6843b4d2",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire absolument continue admettant pour densité $f$. Soit $(a,b) \\in \\mathbb{R}^2$ avec $a>0$ et $Y=aX+b$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "a01da001-354d-43ea-b3d4-e5b04cd0aa5f",
+      "id": "67165fe4-066b-41a5-a77e-e420fc730d72",
       "type": "question",
       "value": {
         "latex": "Démontrer que $Y$ est une variable aléatoire absolument continue en exprimant sa densité en fonction de $f$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2ecd2436-b2c3-4fdd-b02a-da796bf61742",
+      "id": "64c8d601-193f-4e55-bd67-0d910d8ddfb0",
       "type": "indication",
       "value": {
         "latex": "Exprimer la fonction de répartition de la variable $aX+b$ ou utiliser un théorème d'identification de densité pour cette variable aléatoire.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "1ed9f983-f889-41c0-bc41-9b74984ef2f5",
+      "id": "7980e778-0041-4789-8a21-14712423dbc9",
       "type": "reponse",
       "value": {
         "latex": "On utilise le théorème d'identification. La densité $f_Y$ de $Y$ est l'unique fonction telle que pour toute fonction $h$ continue bornée, on ait\n\t\\[ \\E(h(Y))=\\int_\\R h(y)f_Y(y)\\ dy.\\]\n\tOr, étant donné $h$, on a\n\t$$\\begin{align*}\n\t\t\\E(h(Y))&=\\E(h(aX+b)) \\\\\n\t\t&= \\int_\\R h(ax+b) f_X(x) \\ dx \\quad \\text{(par le théorème de transfert)} \\\\\n\t\t&= \\int_\\R h(y) f_X\\left(\\frac{y-b}{a}\\right) \\frac{1}{a} dy \\quad \\text{(par changement de variable } y=ax+b \\text{)}\n\t\\end{align*}$$\n\td'où son identification\n\t\\[ f_Y(y)=\\frac{1}{a}f_X\\left(\\frac{y-b}{a}\\right).\\]",

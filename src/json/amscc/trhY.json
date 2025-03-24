@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-28",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:20.932Z"
+    "updatedAt": "2025-03-24T17:17:17.682Z"
   },
   "contenu": [
     {
-      "id": "7348ff67-b2e8-45f9-af52-a3ad08e7a5aa",
+      "id": "de53d940-a557-4112-bbb4-d528eef384fb",
       "type": "description",
       "value": {
         "latex": "Dans une grande entreprise, le salaire moyen annuel des hommes ayant entre 3 et 5 ans d'ancienneté est de \\numprint{28000} euros. Pour préparer une négociation sur la parité des salaires hommes femmes, on fait un sondage sur 10 femmes qui donne les résultats suivants (en milliers d'euros):\n\t\n\t$$ 24 \\qquad 27 \\qquad 31 \\qquad 19 \\qquad 26 \\qquad 27 \\qquad 22 \\qquad 15 \\qquad 33 \\qquad 21 $$\n\t\n\tA l'ouverture de la réunion, Monsieur A, délégué du personnel annonce : \\og Le sondage montre qu'il n'y a pas lieu de penser que le salaire des femmes est différent de celui des hommes \\fg{}. Il est aussitôt interrompu par Madame B, Directrice des Ressources Humaines, qui dit \\og Pas du tout, le sondage prouve que le salaire des femmes est inférieur à celui des hommes \\fg{}. Qu'en pensez-vous ?\n\t\n\tPour argumenter les réponses, on pourra se poser les questions suivantes pour Monsieur A et Madame B.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ca8b62f1-9f65-4b62-80f6-ba1bf595e928",
+      "id": "937c1e00-94a2-4230-99c9-effa3bef13fc",
       "type": "question",
       "value": {
         "latex": "Que doit-on supposer sur la distribution des salaires des femmes pour pouvoir faire des tests statistiques ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "928e3d29-0b7c-45cf-b548-bf20cb505a36",
+      "id": "95088cae-e959-4044-9c21-c224018d85c3",
       "type": "reponse",
       "value": {
         "latex": "On doit supposer que la distribution dans la population suit une loi normale.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "8d20b24f-a93f-4796-ba30-efa4d7f77b53",
+      "id": "85bf326b-6312-4827-8bf9-7006210e79be",
       "type": "question",
       "value": {
         "latex": "Si on note $\\mu_0 = 28$ et $H_0 \\colon \\mu = \\mu_0$ l'hypothèse nulle de Monsieur A / Madame B, quelle est l'hypothèse alternative pour chacun ?",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "f7d70089-20f1-4297-ae8d-e299e54bb314",
+      "id": "7ea129ff-8117-43fe-ac5a-9b81d17d8c76",
       "type": "reponse",
       "value": {
         "latex": "Monsieur A fait son test sur le jeu d'hypothèses : $\\begin{cases}\n\t\t\t\t\\mu = 28 \\\\\n\t\t\t\t\\mu \\neq 28\n\t\t\t\\end{cases}$, partant du principe que la moyenne de salaire des femmes peut être aussi bien supérieur qu'inférieur à la moyenne. \n\t\n\tQuant à Mme B, elle fait son test sur les hypothèses : \t$\\begin{cases}\n\t\t\\mu = 28 \\\\\n\t\t\\mu < 28\n\t\\end{cases}$, partant du principe qu'il est improbable que les femmes aient une moyenne salariale supérieure.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "2998a470-497b-46c7-82f1-0b022e2a4e7d",
+      "id": "dd2fdca6-ddf9-4583-8612-91a806e85857",
       "type": "question",
       "value": {
         "latex": "Déterminer la variable de décision et sa loi sous $H_0$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "0b937ef7-73f2-4a02-959c-e991e21b48c3",
+      "id": "fa1b9d1c-7c42-418d-8984-dd37dd3bdd7e",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = \\frac{\\overline{X}-28}{\\frac{S}{\\sqrt{10}}} $, cette variable suit une loi $St(9)$ d'après le cours.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "cad81e5f-01b7-46d4-a320-95def19e4203",
+      "id": "e9352b00-9772-4504-a10d-22cfc6ee5497",
       "type": "question",
       "value": {
         "latex": "Déterminer la région critique pour un risque de première espèce $\\alpha = 5\\%$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "52ee399d-7c2c-4f3f-88bc-a586708d7ca3",
+      "id": "762b805e-56a6-416e-b0c1-76bcddde72a0",
       "type": "reponse",
       "value": {
         "latex": "Par lecture de table, on déterminer la région critique du test bilatéral de M. A : $W_A = ]-\\infty;-2.26[\\cup]2.26;+\\infty[$. \n\t\n\tPour Mme B, le test unilatéral à gauche donne la région critique $W_B = ]-\\infty;-1.83[$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "3832a4c8-0dbd-46ea-a4df-6e97d5a3b106",
+      "id": "126e3744-474a-4f37-a0ef-49edb029c3d0",
       "type": "question",
       "value": {
         "latex": "Calculer une réalisation de la variable de décision.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "da80b22a-550b-44c1-8d38-7f1e15bb1ad5",
+      "id": "ae9cd999-6c89-4609-85e9-cd54bb2aad7f",
       "type": "reponse",
       "value": {
         "latex": "Après calculs sur cet échantillon, on obtient $\\overline{x}_{obs} = 24.5$ et $s_{obs} \\approx 5.46$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "76e1c618-5115-4b1b-a671-b37fbca53b6c",
+      "id": "5942a385-8d1c-4d8d-a537-dc9e97b98fac",
       "type": "question",
       "value": {
         "latex": "Peut-on dire que Monsieur A ou Madame B se trompe ?",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "26332fc9-be0f-4eb0-9e9b-c3c0f57061a2",
+      "id": "5451ab05-d40d-45d2-a5b9-5d0e6e483214",
       "type": "reponse",
       "value": {
         "latex": "",

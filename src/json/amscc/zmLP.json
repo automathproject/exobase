@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-11",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:32.516Z"
+    "updatedAt": "2025-03-24T17:17:26.009Z"
   },
   "contenu": [
     {
-      "id": "3bc43c29-8eaf-463b-af43-2f3286039bcb",
+      "id": "f19469f4-fc81-49b6-9a60-382d836a618c",
       "type": "description",
       "value": {
         "latex": "Trouver un équivalent simple pour chaque fonction suivante :",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d804aaa8-f747-405c-94bb-ed97b906344c",
+      "id": "8a4d1cb0-316b-4d96-8626-83fa229e3f57",
       "type": "question",
       "value": {
         "latex": "$\\frac{x^2+2x+1}{x^3+x+2} \\ \\text{ en } 0$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "ab947bc5-4476-49ab-a77b-0a1e7d9fa714",
+      "id": "fdbf3710-be7e-46c2-95cf-7d12f2ac7a93",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{1}{2}$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "c271b47f-b9f4-4d46-bf3a-605e9ba3d00a",
+      "id": "7b8a3367-b9d1-4bad-8205-9624a6e00b83",
       "type": "question",
       "value": {
         "latex": "\\frac{(x+1)^3}{(2x^4-3x^2+5)^2} \\ \\text{ en } +\\infty$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "d6ff1cb8-2672-4b4b-9c8e-cb7522d014db",
+      "id": "7802d9c4-9427-4133-9d7b-f4be444e0bd9",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{1}{4x^8}$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "cada9283-e7f6-46ad-bf48-7ff1411862f9",
+      "id": "e89d77ce-59bf-41fc-9c71-1b3fae028943",
       "type": "question",
       "value": {
         "latex": "$\\sin x + \\cos x \\ \\text{ en } 0$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "96d44f9f-7d53-407c-bb61-90de90ddda4e",
+      "id": "c32f366c-d425-4bf2-804e-79bbaff432d6",
       "type": "reponse",
       "value": {
         "latex": "$1$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "db8a9e0d-b5da-4c4f-b9bf-ceb437001250",
+      "id": "6cd10543-a627-440d-900b-33955d48aeff",
       "type": "question",
       "value": {
         "latex": "$ \\sqrt{\\frac{1}{x^2}+1} \\ \\text{ en } +\\infty$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "59fd4b70-2815-4e1a-b22b-13ef089f80d2",
+      "id": "8a2c9919-75ce-4963-9d16-fd2f3155f069",
       "type": "reponse",
       "value": {
         "latex": "$1$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "13297d28-12db-4115-90cb-be5722689642",
+      "id": "6aa07192-6285-4289-948b-835ad5167ef8",
       "type": "question",
       "value": {
         "latex": "$1-e^{{x}} \\ \\text{ en } 0$",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "a630d319-c9a1-4ced-b780-2b2ad2197c8f",
+      "id": "c751328e-d01c-4b68-8b23-1104bacd300e",
       "type": "reponse",
       "value": {
         "latex": "$-x$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "13b56ef9-bf7e-4e9e-8151-580f9f7f4c4f",
+      "id": "78e33d1a-cfd2-4a09-bf52-fcedeada9c4f",
       "type": "question",
       "value": {
         "latex": "$1-e^{\\frac{1}{x^2}} \\ \\text{ en } +\\infty$",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "c9d449de-e2d3-459e-8c06-eb97218c5fcc",
+      "id": "b8649b99-9b48-4792-8ee2-617e9b4f00d3",
       "type": "reponse",
       "value": {
         "latex": "$-\\frac{1}{x^2}$",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "00a014f6-d884-45f9-857e-9c75743c776e",
+      "id": "4b3fe9d3-4505-47a4-bc17-fe809a05bc43",
       "type": "question",
       "value": {
         "latex": "$ x\\sin\\left(\\frac{1}{x}\\right) \\ \\text{ en } +\\infty$",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "a083bf48-51d1-4ba1-9f53-9bb2b0433e0a",
+      "id": "cd3be0a7-cb6b-4943-aa68-b111327750df",
       "type": "reponse",
       "value": {
         "latex": "$1$",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "55ce581d-e4dc-45fe-a394-bf6309b1bccf",
+      "id": "d3d228af-b4c6-487b-bad1-a504c3ac55bd",
       "type": "question",
       "value": {
         "latex": "$ \\frac{\\sqrt{x}+1}{2x^2+x} \\ \\text{ en } +\\infty$",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "4c0dc54e-c911-4b77-9964-49f9d0caa7fe",
+      "id": "7647a76f-b4bc-46cf-b795-d1149eceb3dd",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{1}{2x\\sqrt{x}}$",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "d4f5602f-18d3-41f6-9d9a-939439d97b01",
+      "id": "1debb945-72ce-410a-820b-f611a0289910",
       "type": "question",
       "value": {
         "latex": "$ \\sqrt{x} \\ln\\left(1+\\frac{1}{\\sqrt{x}}\\right) \\ \\text{ en } +\\infty$",
@@ -163,7 +163,7 @@
       }
     },
     {
-      "id": "d93e4d47-5ce3-458f-867b-cb7d773947c2",
+      "id": "662cab84-fada-46cd-882f-3a2f6687efdc",
       "type": "reponse",
       "value": {
         "latex": "$1$",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "id": "7246fdca-cd8b-4803-873f-23c24d852152",
+      "id": "446c3989-2d36-441e-8c11-8a9d3c2a81d9",
       "type": "question",
       "value": {
         "latex": "$ e^x+\\sin(x^3) \\ \\text{ en } 0$",
@@ -179,7 +179,7 @@
       }
     },
     {
-      "id": "31afffb4-5f05-48e7-88bc-5992c687d0b2",
+      "id": "0b9b5fc3-2f71-4c5d-ad89-f3d310ed7fde",
       "type": "reponse",
       "value": {
         "latex": "$1$",
@@ -187,7 +187,7 @@
       }
     },
     {
-      "id": "f15046c2-d6cf-46be-b8f7-2e38fc4393a2",
+      "id": "99f73f4b-1246-4711-bf13-5bdf9e2589c8",
       "type": "question",
       "value": {
         "latex": "$ \\ln(\\cos(x)) \\ \\text{ en } 0 $",
@@ -195,7 +195,7 @@
       }
     },
     {
-      "id": "e23006d6-2a24-43e1-9705-a0c066a6c357",
+      "id": "de587171-18b4-4211-a035-ed0a5624bb65",
       "type": "reponse",
       "value": {
         "latex": "$-\\frac{x^2}{2}$",

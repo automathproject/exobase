@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-10-16",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:37.985Z"
+    "updatedAt": "2025-03-24T17:15:06.903Z"
   },
   "contenu": [
     {
-      "id": "5779ae38-3ccf-4f82-a875-0aea223091b8",
+      "id": "c1c60e15-4638-4ac1-9101-8380240579c4",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune une loi exponentielle $\\mathcal{E}(3)$. On rappelle qu'une densité de probabilité de la loi exponentielle $\\mathcal{E}(\\lambda)$ est donnée par : $$f(x) = \\begin{cases} \n    \\lambda e^{-\\lambda x} & \\text{ si } x \\geq 0 \\\\\n    0 & \\text{ sinon }\n\\end{cases}.$$\n  \n  On note $Z = \\min(X,Y)$ la variable aléatoire donnant le minimum de $X$ et $Y$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "fa30dc68-c633-43fd-8813-8ecc6ed0c805",
+      "id": "133d370d-d67d-41dc-87a1-18e784664012",
       "type": "question",
       "value": {
         "latex": "Déterminer $\\prob(X \\geq t)$ pour tout $t \\in \\R$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "6bc97c44-06de-4892-be3d-e015abf870f6",
+      "id": "15d779f2-5f43-4e82-a49d-c2b4b48a022d",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$. Si $t \\geq 0$, on a : \n        $$\\begin{align*}\n            \\prob(X \\geq t) &= \\int_t^{+\\infty} f(x) \\d x \\\\\n            &= \\int_t^{+\\infty} 3 e^{-3x} \\d x \\\\\n            &= \\left[ -e^{-3x} \\right]_t^{+\\infty} \\\\\n            &= e^{-3t}.\n        \\end{align*}$$\n        Si $t < 0$, on a $\\prob(X \\geq t) = 1$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "145800cd-4511-471e-b2ec-31784f76651c",
+      "id": "957e0784-ca69-40ae-a88d-ddf9e18c4766",
       "type": "question",
       "value": {
         "latex": "Déterminer $\\prob(Z \\geq t)$ pour tout $t \\in \\R$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "cf5cd36e-adc5-44a0-9980-732e2f688861",
+      "id": "c22c71df-3957-4ceb-b8bd-bb4680693cff",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$. Si $t \\geq 0$, on a : \n        $$\\begin{align*}\n            \\prob(Z \\geq t) &= \\prob(X \\geq t \\text{ et } Y \\geq t) \\\\\n            &= \\prob(X \\geq t) \\prob(Y \\geq t) \\text{ par indépendance de $X$ et $Y$} \\\\\n            &= e^{-3t} \\times e^{-3t} \\\\\n            &= e^{-6t}.\n        \\end{align*}$$\n        Si $t < 0$, on a $\\prob(Z \\geq t) = 1$.\n\n        On voit ainsi que $Z = \\min(X,Y)$ suit une loi exponentielle $\\mathcal{E}(6)$.",

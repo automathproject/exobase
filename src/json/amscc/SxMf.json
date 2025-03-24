@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2024-11-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:56.628Z"
+    "updatedAt": "2025-03-24T17:14:31.166Z"
   },
   "contenu": [
     {
-      "id": "70724c7b-9a5e-4513-a848-c6ee26d13b8c",
+      "id": "cc2cdc68-daf2-49db-9a66-2de7ad2fa181",
       "type": "description",
       "value": {
         "latex": "Une ingénieure souhaite étudier le temps de trajet quotidien d'un employé entre son domicile et son lieu de travail. Elle dispose de 30 observations de ce temps de trajet en minutes. Elle souhaite réaliser une analyse statistique de ces données disponibles dans le fichier  \\href{https://github.com/smaxx73/Exercices/blob/main/data/commute-data.txt}{ commute-data.txt } .",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "d4a0de86-4e69-470f-981f-f0dc78f21e00",
+      "id": "f26f2c6e-9cac-44a1-ae4c-eb04d5c8d8c7",
       "type": "question",
       "value": {
         "latex": "Importer les données dans un tableur et calculer la moyenne empirique des temps de trajet du jeu de données. Que représente cette valeur compte tenu du contexte ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "b72b0fa7-cc3d-44cc-a06a-60e2eaa6c70b",
+      "id": "2086f012-5fb7-4626-a260-fa3c1ded9393",
       "type": "reponse",
       "value": {
         "latex": "En calculant la moyenne sur les 30 valeurs, on obtient une estimation sans biais de la moyenne des temps de trajet. Le calcul donne $43{,}35$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "9134541d-2247-427e-9303-7ef98ee83447",
+      "id": "14ea37f1-3ad1-4861-b64b-8360bbcad9cc",
       "type": "question",
       "value": {
         "latex": "Donner une estimation sans biais de la variance du temps de trajet de cet employé. On précisera l'estimateur utilisé.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "4fce625f-21a6-417d-a6c3-c3817922fb5d",
+      "id": "0869569f-42e0-4fd7-957a-d8f52490bfe7",
       "type": "reponse",
       "value": {
         "latex": "Avec l'estimateur de variance empirique corrigé $\\frac{1}{29}\\sum_{i=1}^{30}(X_i-\\overline{X})^2$on obtient une variance estimée à environ $23{,}70666$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "db4c53ad-6c0c-43c9-815e-7dca03bc06df",
+      "id": "66be8cbe-b2d3-4dfa-81ed-4223f51103a8",
       "type": "question",
       "value": {
         "latex": "Observe-t-on une différence de temps de trajet entre le vendredi et les autres jours ? Décrire une méthode pour répondre à cette question.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "cde93f20-42c1-400b-8293-1067334b2d7f",
+      "id": "3aa445b4-4c41-4193-99b2-c62d92f9c341",
       "type": "reponse",
       "value": {
         "latex": "On peut ne retenir que les valeurs du vendredi obtenues par exemple avec la formule \\texttt{=SI(B2=\"Vendredi\";C2;\"\")} et on trouve numériquement $50{,}4625$. On observe donc une différence dans le temps de trajet.",

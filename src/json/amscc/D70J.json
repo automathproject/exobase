@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-10",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Dérivée partielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:12.812Z"
+    "updatedAt": "2025-03-24T17:13:50.811Z"
   },
   "contenu": [
     {
-      "id": "e1ea1668-2158-44bd-9451-927318c12894",
+      "id": "bd084b87-e895-4b18-8029-5f5babf7ae01",
       "type": "description",
       "value": {
         "latex": "Soit $u \\colon t \\mapsto u(t)$ une fonction de classe $\\mathcal{C}^1$ sur $\\R$ et $h \\colon (x,y) \\mapsto h(x,y)$ une fonction de classe $\\mathcal{C}^1$ sur $\\R^2$. Pour tout $t \\in \\R$, on pose :\n$$F(t) = h(u(t),u(t)^2)$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "c84a4024-9d8d-4bd3-8b7f-3211defc2cfb",
+      "id": "01bb237b-2fc2-48ae-af3c-51c65e1ff0b5",
       "type": "question",
       "value": {
         "latex": "Vérifier que $F$ est dérivable sur $\\R$ et exprimer sa dérivée en fonction de $u(t)$ et $u'(t)$.",

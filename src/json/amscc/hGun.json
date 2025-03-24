@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Quentin LIARD",
     "createdAt": "2023-12-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:25.636Z"
+    "updatedAt": "2025-03-24T17:15:37.694Z"
   },
   "contenu": [
     {
-      "id": "96ca5cc4-2cc8-4c75-8de7-3d9dfde67fd4",
+      "id": "468c989b-bf7e-45a8-9ec2-b321d3a95b21",
       "type": "description",
       "value": {
         "latex": "Pour toute variable al\\'eatoire $T$, on définit la \\textbf{transformée de Laplace} $\\mathcal{L}_{\\cdot}(T) \\colon \\R_+ \\to \\R$ par :\n\n    $$\\forall t \\in \\R_+, \\quad \\mathcal{L}_t(T)=\\mathbb{E}(e^{-tT}).$$\n\n    {\\it{On admet le r\\'esultat suivant :}}\n\n    \\begin{tcolorbox}        Si $T_1,T_2$ sont des variables al\\'eatoires absolument continues telles que pour tout $t\\geq 0$, $\\mathcal{L}_t(T_1)=\\mathcal{L}_t(T_2)$, alors les variables $T_1$ et $T_2$ suivent la m\\^eme loi. \n    \\end{tcolorbox}\n\n    On admet également que pour tout $n \\in \\N^*$ : \n    $$\\int_0^{+\\infty} x^n e^{-x} dx = n!$$\n\n    Soit $n \\in \\N^*$ quelconque et soit $Z_1,Z_2,\\cdots{},Z_n$ une famille de $n$ variables aléatoires indépendantes identiquement distribuées selon  une loi exponentielle de param\\`etre $\\frac{1}{2}$. L'objectif de l'exercice est de déterminer la loi de $S_n=\\displaystyle\\sum_{i=1}^{n}Z_i$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "1374a570-112e-4f51-a1d4-4fcf40e61d17",
+      "id": "92da1d33-73ef-467b-b195-9f213e3eef00",
       "type": "question",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes. Démontrer que  pour tout $t\\geq 0$ : $$\\mathcal{L}_t(X+Y)=\\mathcal{L}_t(X)\\mathcal{L}_t(Y).$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "890cef65-4ac0-46b6-84e4-8b3e01931374",
+      "id": "48962be3-ea46-4db9-ad61-855ffab8575a",
       "type": "question",
       "value": {
         "latex": "D\\'eterminer $\\mathcal{L}_{t}(Z_1)$ et en déduire $\\mathcal{L}_t(S_n)$ pour tout $t\\geq 0$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "f1095d11-f038-4a74-a03a-3246c970d5b3",
+      "id": "da125ef2-50f1-445c-86ef-3f206f11df51",
       "type": "reponse",
       "value": {
         "latex": "On a $\\mathcal{L}_t(Z) = \\mathbb{E}(e^{-tZ}) = \\int_0^{+\\infty} e^{-tz} \\frac{1}{2} e^{-\\frac{z}{2}} dz = \\frac{1}{2} \\int_0^{+\\infty} e^{-\\frac{z}{2}(2t+1)} dz = \\frac{1}{2} \\left[ \\frac{e^{-\\frac{z}{2}(2t+1)}}{-\\frac{2t+1}{2}} \\right]_0^{+\\infty} = \\frac{1}{2t+1}$. \n    On a $\\mathcal{L}_t(S_n) = \\prod_{i=1}^n \\mathcal{L}_t(Z_i) = \\prod_{i=1}^n \\frac{1}{2t+1} = \\left( \\frac{1}{2t+1} \\right)^n$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "91ce14b8-64cc-4087-9851-45dc9cf2954c",
+      "id": "7ef76a33-7e6c-45ce-b409-9c3cc6025f09",
       "type": "question",
       "value": {
         "latex": "On pose pour tout $x \\in \\R$ :\n$$f_U(x)=\\mathrm{1}_{\\R^{+}}(x)\\frac{1}{2^n}\\frac{x^{n-1}}{(n-1)!}\\,e^{-\\frac{x}{2}}.$$\n\nV\\'erifier que $f_U$ est bien une fonction densité de probabilité.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "34ba09f2-f83d-4696-847c-eed31949584a",
+      "id": "15cef393-e8d4-4c28-a811-34d21d8eab87",
       "type": "reponse",
       "value": {
         "latex": "On a $\\int_{\\R} f_U(x) dx = \\frac{1}{2^n} \\int_0^{+\\infty} \\frac{x^{n-1}}{n-1!} e^{-\\frac{x}{2}} dx = \\int_0^{+\\infty} \\frac{y^{n-1}}{n-1!} e^{-y} dy = 1$. Donc $f_U$ est bien une densité de probabilité.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "456db7bc-9d1e-475e-9e5c-de883d1e017e",
+      "id": "b06aa0c4-6c59-44af-b8f5-3e698b684bfc",
       "type": "question",
       "value": {
         "latex": "Soit $U$ une variable aléatoire absolument continue de densit\\'e de probabilit\\'e $f_U$. Calculer, pour tout $t\\geq 0,$ $\\mathcal{L}_t(U)$. Conclure.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "008be44d-916f-45af-a51d-68d61e8951d6",
+      "id": "8e5a6735-f11c-40bd-8e2e-c0f956c291c4",
       "type": "reponse",
       "value": {
         "latex": "On a \n    $$\\begin{align*}\n        \\mathcal{L}_t(U) &= \\int_0^{+\\infty} e^{-tx} \\frac{1}{2^n} \\frac{x^{n-1}}{n-1!} e^{-\\frac{x}{2}} dx \\\\ \n        &= \\frac{1}{2^n} \\int_0^{+\\infty} \\frac{x^{n-1}}{n-1!} e^{-\\frac{x}{2}(2t+1)} dx \\\\\n        &= \\int_0^{+\\infty} \\frac{1}{2^n} \\left(\\frac{2}{2t+1}\\right)^{n-1}\\frac{y^{n-1}}{n-1!} e^{-y} \\frac{2}{2t+1} dy \\\\\n         &= \\frac{1}{(2t+1)^n}\n    \\end{align*}$$\n    Donc $U$ et $S_n$ suivent la même loi définie par la densité $f_U$.",

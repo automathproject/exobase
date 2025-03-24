@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:11.538Z"
+    "updatedAt": "2025-03-24T17:17:12.784Z"
   },
   "contenu": [
     {
-      "id": "ffc527ff-7463-4b03-8c0f-9e198094af17",
+      "id": "8874922d-96ad-41f3-bd36-c7d2ea0044bb",
       "type": "description",
       "value": {
         "latex": "Soit la matrice $A=\\left(\\begin{array}{ccc}3 & 2 & -2 \\\\ -1 & 0 & 1 \\\\ 1 & 1 & 0\\end{array}\\right)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "5416eaf1-7d9e-4607-b933-ae0b8227baac",
+      "id": "3b9a5361-0c8d-4725-8a31-f69490094421",
       "type": "question",
       "value": {
         "latex": "Calculer $A^3-3A^2+3A$. En déduire que $A$ est inversible et déterminer $A^{-1}$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e1b9341c-68e3-43b3-8ae8-02732e55fc60",
+      "id": "cfaf7a60-926e-4af0-bba5-e00e9aa2a62a",
       "type": "reponse",
       "value": {
         "latex": "$$\n\t\\begin{aligned}\n\t\t& A=\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right) \\\\\n\t\t& A^2=A \\cdot A=\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right)=\\left(\\begin{array}{ccc}\n\t\t\t5 & 4 & -4 \\\\\n\t\t\t-2 & -1 & 2 \\\\\n\t\t\t2 & 2 & -1\n\t\t\\end{array}\\right) \\\\\n\t\t& A^3=A^2 \\cdot A=\\left(\\begin{array}{ccc}\n\t\t\t5 & 4 & -4 \\\\\n\t\t\t-2 & -1 & 2 \\\\\n\t\t\t2 & 2 & -1\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right)=\\left(\\begin{array}{ccc}\n\t\t\t7 & 6 & -6 \\\\\n\t\t\t-3 & -2 & 3 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{array}\\right) \\\\\n\t\t& A^3-3 \\cdot A^2+3 \\cdot A=\\left(\\begin{array}{ccc}\n\t\t\t7 & 6 & -6 \\\\\n\t\t\t-3 & -2 & 3 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{array}\\right)-3\\left(\\begin{array}{ccc}\n\t\t\t5 & 4 & -4 \\\\\n\t\t\t-2 & -1 & 2 \\\\\n\t\t\t2 & 2 & -1\n\t\t\\end{array}\\right)+3\\left(\\begin{array}{ccc}\n\t\t\t3 & 2 & -2 \\\\\n\t\t\t-1 & 0 & 1 \\\\\n\t\t\t1 & 1 & 0\n\t\t\\end{array}\\right)=\\left(\\begin{array}{lll}\n\t\t\t1 & 0 & 0 \\\\\n\t\t\t0 & 1 & 0 \\\\\n\t\t\t0 & 0 & 1\n\t\t\\end{array}\\right)=I_3\n\t\\end{aligned}\n\t$$\n\tOn en déduit :\n\t$$\n\t\\begin{gathered}\n\t\tA^3-3 \\cdot A^2+3 \\cdot A=I_3 \\Leftrightarrow A \\cdot \\underbrace{\\left(A^2-3 \\cdot A+3 \\cdot I_3\\right)}_{=A^{-1}}=I_3 \\\\\n\t\t\\Rightarrow A^{-1}=A^2-3 \\cdot A+3 \\cdot I_3\n\t\\end{gathered}\n\t$$",

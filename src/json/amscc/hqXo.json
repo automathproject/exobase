@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Dérivabilité des fonctions réelles",
+    "sousChapitre": "Calculs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:26.943Z"
+    "updatedAt": "2025-03-24T17:15:38.716Z"
   },
   "contenu": [
     {
-      "id": "8f28c587-2273-425c-860a-1d1472f347b3",
+      "id": "7ef14f8d-63a9-4234-992c-a21cb0a9f413",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle continue sur $\\R^2$~?",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "db5a0831-2c44-42a7-bf2e-0a8de667f29a",
+      "id": "7a75ba70-a431-4217-8a58-747c3d427f62",
       "type": "reponse",
       "value": {
         "latex": "Tout d'abord, on remarque que $f$ est bien définie sur $\\R^2$. Elle est continue (et même $C^{\\infty}$ sur $\\R^2-\\{(0,0)\\}$ en tant que fraction rationnelle. Pour étudier la continuité en $(0,0)$, on passe en coordonnées polaires~:\n\t\t$$\\begin{align*}\n\t\tf(r\\cos\\theta, r\\sin\\theta) - f(0,0) &= \\frac{(r\\cos\\theta)^2(r\\sin\\theta)^3}{ (r\\cos\\theta)^2 + (r\\sin\\theta)^2 } \\\\\n\t\t&= r\\cos^2\\theta \\sin^3\\theta\n\t\t\\end{align*}$$\n\t\tIl suit\n\t\t$$\\begin{align*}\n\t\t|f(r\\cos\\theta, r\\sin\\theta) - f(0,0)| &\\leq r \\\\\n\t\t& \\tvq{0}{r}{0+} \\text{ indépendamment de $\\theta$} \n\t\t\\end{align*}$$\n\t\tAinsi $f$ est continue en $(0,0)$, et finalement \\fbox{$f$ est continue sur $\\R^2$}",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c63ac8cc-8931-4645-9530-98cd8e498b65",
+      "id": "1ad83ad8-e4c2-42d2-bc33-1544a5b65cd4",
       "type": "question",
       "value": {
         "latex": "Calculer $\\overrightarrow{\\textup{grad}}\\ f (x,y)$ pour $(x,y) \\neq (0,0)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "5911d689-cacb-47e9-90b2-9e2ee7d5bdc5",
+      "id": "1c679579-8c81-4586-af1e-406baad0ea65",
       "type": "reponse",
       "value": {
         "latex": "pour $(x,y) \\neq (0,0)$\n\t\t$$\\begin{align*}\n\t\t\\overrightarrow{\\textup{grad}}\\ f(x,y) &= \\left[ \\begin{array}{c}\n\t\t\\dpa{}{x}\\left[ \\dfrac{x^2 y^3}{x^2+y^2}\\right]  \\\\ \\dpa{}{y}\\left[ \\dfrac{x^2 y^3}{x^2+y^2}\\right] \n\t\t\\end{array} \\right] \\\\\n\t\t&= \\left[ \\begin{array}{c}\n\t\t\\dfrac{(2xy^3)(x^2+y^2) -(x^2 y^3)(2x)}{(x^2+y^2)^2}  \\\\ \\dfrac{(3x^2y^2)(x^2+y^2) -(x^2 y^3)(2y)}{(x^2+y^2)^2}\n\t\t\\end{array} \\right] \\\\\n\t\t&= \\frac{1}{(x^2+y^2)^2}\\left[ \\begin{array}{c} 2xy^5 \\\\ x^4y^2 + x^2y^4 \\end{array} \\right]\n\t\t\n\t\t\\end{align*}$$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "f1cfebf4-9ba4-4198-9bb1-86873ce66d66",
+      "id": "9a8e6f99-8be6-4484-982d-28d37b1f8fab",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle de  classe $C^1$ sur $\\R^2$~?",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "000e6961-09bb-4a21-a3ef-2ddd9ff60a5b",
+      "id": "2041f763-3063-4443-92f6-dc812b2d118a",
       "type": "reponse",
       "value": {
         "latex": "Nous avons\n\t\t\\begin{itemize}\n\t\t\t\\item existence des dérivées partielles\\\\\n\t\t\t\\[\\dfrac{f(h,0) - f(0,0)}{h} = 0 \\xrightarrow[h \\to 0]{} 0\\hspace*{5mm} \\text{ donc $\\dpa{f}{x}(0,0)$ existe et vaut $0$} \\]\n\t\t\t\\[\\dfrac{f(0,h) - f(0,0)}{h} = 0 \\xrightarrow[h \\to 0]{} 0 \\hspace*{5mm} \\text{ donc $\\dpa{f}{y}(0,0)$ existe et vaut $0$} \\]\n\t\t\t\\item continuité des dérivées partielles\n\t\t\t$$\\begin{align*}\n\t\t\t\\dpa{f}{x}(x,y) - \\dpa{f}{x}(0,0) &= \\frac{2xy^5}{(x^2+y^2)^2} \\\\\n\t\t\t& \\text{ (passage en polaires)} \\\\\n\t\t\t&= 2r^2 \\cos\\theta \\sin^5\\theta\n\t\t\t\\end{align*}$$\n\t\t\tDonc\n\t\t\t\\[\\left| \\dpa{f}{x}(x,y) - \\dpa{f}{x}(0,0) \\right| \\leq 2r^2 \\tvq{0}{r}{0+} \\text{ indépendamment de $\\theta$} \\]\n\t\t\tDe manière analogue,\n\t\t\t$$\\begin{align*}\n\t\t\t\\dpa{f}{y}(x,y) - \\dpa{f}{y}(0,0) &= \\frac{x^4y^2 + x^2y^4}{(x^2+y^2)^2} \\\\\n\t\t\t& \\text{ (passage en polaires)} \\\\\n\t\t\t&= r^2 \\cos^2\\theta \\sin^2\\theta\n\t\t\t\\end{align*}$$\n\t\t\tDonc\n\t\t\t\\[ \\left| \\dpa{f}{y}(x,y) - \\dpa{f}{y}(0,0) \\right| \\leq r^2  \\tvq{0}{r}{0+} \\text{ indépendamment de $\\theta$} \\]\n\t\t\\end{itemize}\n\t\tOn conclut que $f$ est $C^1$ en $(0,0)$. Par ailleurs, $f$ est $C^1$ sur $\\R^2-\\{(0,0)\\}$. Au final \\fbox{$f$ est $C^1$ sur $\\R^2$}",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "04e8033d-c988-403e-bdae-0b34b6abb06e",
+      "id": "3cf468a5-8c7a-4ff3-b2e6-b7e2c9255536",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle différentiable sur $\\R^2$~?",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "8bb0f677-240b-4c9a-aafc-06656010f701",
+      "id": "c7dbb686-e0a3-4021-8f8a-72b85a1b712e",
       "type": "reponse",
       "value": {
         "latex": "\\fbox{$f$ est différentiable sur $\\R^2$} car elle est $C^1$. C'est l'application du théorème 2.9 du poly.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:27.467Z"
+    "updatedAt": "2025-03-24T17:14:01.496Z"
   },
   "contenu": [
     {
-      "id": "c0a62a7f-c5e5-4111-a206-3f9cd26ce0b9",
+      "id": "f9d7d0a4-9102-4c21-b61f-cd5f400c59ee",
       "type": "description",
       "value": {
         "latex": "Soit $(\\Omega, \\mathcal{T}, \\prob)$ un espace probabilisé et trois événements $A$, $B$ et $C$ tels que : \n\t\t\n\t$$\\prob(A) = 0.3 \\quad , \\quad \\prob(B) = 0.4 \\quad , \\quad \\prob(A \\cap B) = 0.2 \\quad , \\quad \\prob(C \\mid A \\cap B) = 0.5$$\n\t\t\t\n\t\tCalculer, si possible, les probabilités suivantes : \n\\colonnes{\\solution}{2}{1}\n\t\t\\begin{enumerate}\n\t\t\t\\item \\question{ $\\prob(A \\cup B)$ ; }\n\t\t\t\\reponse{  $\\prob(A \\cup B) = 0.5 $ }\n\t\t\t\\item \\question{ $\\prob(A \\mid B)$ ; }\n\t\t\t\\reponse{  $\\prob(A \\mid B) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\mid B)$ ; }\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\mid B) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob({A} \\mid \\overline{B})$ ; }\n\t\t\t\\reponse{ $\\prob({A} \\mid \\overline{B} = \\frac{1}{6} $ }\n\t\t\t\\item \\question{ $\\prob(B \\mid A)$ ; }\n\t\t\t\\reponse{ $\\prob(B \\mid A) = \\frac{2}{3}$ }\n\t\t\t\\item \\question{ $\\prob(A \\cap B \\cap C)$ ; }\n\t\t\t\\reponse{ $\\prob(A \\cap B \\cap C) = 0.1$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\cap \\overline{B})$ ;}\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\cap \\overline{B}) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\cup \\overline{B})$.}\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\cup \\overline{B}) = 0.8$ }\n\t\t\\end{enumerate}\n\\fincolonnes{\\solution}{2}{1}",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "773a2b39-2463-4a68-8394-79fb5a137cf6",
+      "id": "6942fb78-58cc-4bca-ac0c-e03a0883a9e3",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\cup B)$ ;",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "822c1d6e-4225-4859-9925-7d881616f6de",
+      "id": "05f7deb8-a2e6-4a6c-a31b-a7bb9e65a693",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\cup B) = 0.5 $",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "1bbd6c75-f82c-4fff-9931-02697b5850a5",
+      "id": "80a04b25-da38-49ff-9745-f42735bca347",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\mid B)$ ;",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "418f2090-3090-41f9-b1ba-d79ba3d0a5ee",
+      "id": "c4e414c7-b179-4fcb-9d7b-cc611b4d0da0",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\mid B) = 0.5$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "2ee48d9a-6014-4996-9a68-891319d53bd6",
+      "id": "43773af0-46e9-41cd-b924-5384d30576c9",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\mid B)$ ;",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "a1009634-635f-44f2-b0e7-4865ad98de82",
+      "id": "1127fc65-bc6a-4a35-b378-eba24f3e3607",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\mid B) = 0.5$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "5b53baf9-7e48-418d-8b52-4f1145705550",
+      "id": "6dc3d0f9-6f35-4e79-a43e-de60b1bb6a75",
       "type": "question",
       "value": {
         "latex": "$\\prob({A} \\mid \\overline{B})$ ;",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "604f703b-036b-4c44-b29f-eedbbfc85d9f",
+      "id": "3911bf88-637a-44dd-b9a8-a818d919f7b6",
       "type": "reponse",
       "value": {
         "latex": "$\\prob({A} \\mid \\overline{B} = \\frac{1}{6} $",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "9aeef6eb-c625-4e8c-9fe4-0ab6ee8f9ccf",
+      "id": "057dfd1f-b64f-4d71-adba-90ece391527c",
       "type": "question",
       "value": {
         "latex": "$\\prob(B \\mid A)$ ;",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "d28eb100-2ed0-40b0-9f64-a939541bb14e",
+      "id": "192f85db-cca4-42ec-9025-672131f24822",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(B \\mid A) = \\frac{2}{3}$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "e7076994-e974-4a97-a6d9-b10655e20ed5",
+      "id": "008b377a-ca1a-47c0-8def-f49a68091aa5",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\cap B \\cap C)$ ;",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "1248311a-a9ab-4aab-9258-629bbebfc8fd",
+      "id": "4bc1010a-8965-4c57-8d58-0fad7e281735",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\cap B \\cap C) = 0.1$",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "8a09cd65-06b1-4879-8ae5-ab32baf97331",
+      "id": "f4641954-6787-4012-80c7-bca2e8f2afda",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cap \\overline{B})$ ;",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "762e12de-a710-4f06-8e13-749162a655b1",
+      "id": "1e5e7185-d5f0-4f71-a0b6-12ad32c0c476",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cap \\overline{B}) = 0.5$",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "a10d3f3d-e366-4d9b-9270-49306817a105",
+      "id": "940fff1f-fd00-40f1-b8f3-1bee09568506",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup \\overline{B})$.",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "21c51436-055f-474a-b51c-7d9eb68eb5a8",
+      "id": "489a52b9-1d0d-4583-b409-49412a9f00ea",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup \\overline{B}) = 0.8$",

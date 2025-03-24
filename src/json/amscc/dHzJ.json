@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-08-25",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:48.114Z"
+    "updatedAt": "2025-03-24T17:15:12.913Z"
   },
   "contenu": [
     {
-      "id": "856a5b0b-ed39-4830-bc04-b5ceba7189e4",
+      "id": "e118fd35-2a11-445e-bcf3-e685de3897b7",
       "type": "description",
       "value": {
         "latex": "On considère une production de feuilles cartonnées dont l'épaisseur est modélisée par une variable aléatoire qui a pour espérance $5$~mm et pour écart type $0{,}4$~mm.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "bb3409b7-7ecf-42f8-9c73-07fbbd9023e5",
+      "id": "bd1ea095-975f-403b-b7f6-2a40f3ed928c",
       "type": "question",
       "value": {
         "latex": "Considérant un paquet de 100 feuilles choisies au hasard de manière indépendante, comment calculer la probabilité que ce paquet ait une épaisseur comprise entre 49 et 51 cm ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "324a35a3-d86b-4872-a90a-3301c48a45be",
+      "id": "88573b03-210a-4105-9456-b46662e9dd59",
       "type": "reponse",
       "value": {
         "latex": "Soit $X_1,...,X_{100}$ un échantillon où $X_i$ représente l'épaisseur d'une feuille, $\\mathbb{E}(X_i) = 5$ et $V(X_i) = 0{,}16$.  Par indépendance, d'après le théorème central limite, la variable $S = \\sum_{i=1}^{100} X_i$ suit approximativement une loi normale de moyenne $\\mu = 100 \\times 5 = 500$ et  de variance $\\sigma^2 = 100 \\times 0{,}16 = 16$. Dit autrement, la variable $\\frac{S-500}{\\sqrt{16}}$ suit approximativement une loi normale centrée réduite.\n\t\n\tOn souhaite calculer $$\\PP(490 < S < 510) = \\PP\\left( \\frac{490-500}{\\sqrt{16}} <    \\frac{S-500}{\\sqrt{16}} <  \\frac{510-500}{\\sqrt{16}} \\right) = \\PP\\left( -2.5 <    \\frac{S-500}{4} <  2.5 \\right) = \\fbox{0{,}9876}$$.",

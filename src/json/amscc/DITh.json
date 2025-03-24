@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-04-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:13.593Z"
+    "updatedAt": "2025-03-24T17:13:51.382Z"
   },
   "contenu": [
     {
-      "id": "95f2d14f-622a-42c7-a3ca-173d66487d34",
+      "id": "88647e34-63df-4f6f-b579-f7317231c327",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\mathbb{R}^2 \\to \\mathbb{R}$ une fonction différentiable telle que pour tout $t \\in \\mathbb{R}$ et pour tout $(x,y) \\in \\mathbb{R}^2$, \n\t$$f(x+t,y+t) = f(x,y)$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "719877bc-b269-4be6-adec-b9c8a55d8081",
+      "id": "66910542-d964-4b5b-806d-4fe9fd764f2e",
       "type": "question",
       "value": {
         "latex": "On fixe $(x,y) \\in \\mathbb{R}^2$ et pour tout $t \\in \\mathbb{R}$ on pose $g(t) = f(x+t,y+t)$. Calculer $g'(t)$ pour tout $t \\in \\mathbb{R}$, en l'exprimant en fonction de $\\dfrac{\\partial f}{\\partial x}(x,y)$ et $\\dfrac{\\partial f}{\\partial y}(x,y)$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "8082c9e7-62e5-442c-adcc-e0795f8440a5",
+      "id": "1b16d06c-d541-4431-b89d-2d7f54624d11",
       "type": "reponse",
       "value": {
         "latex": "Par la règle des chaînes, $g$ est dérivable sur $\\mathbb{R}$ et $g'(t) = 1 \\times \\dfrac{\\partial f}{\\partial x}(x,y) + 1 \\times \\dfrac{\\partial f}{\\partial y}(x,y)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "bc791525-9322-4c30-a55d-4b892e1e141a",
+      "id": "a236626e-e029-4bfb-8806-40f0717e965e",
       "type": "question",
       "value": {
         "latex": "En déduire que $\\dfrac{\\partial f}{\\partial x}(x,y) + \\dfrac{\\partial f}{\\partial y}(x,y) = 0$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "4734345f-f125-473a-a533-69305d9a7c5d",
+      "id": "a02dee16-f7b3-4bb0-b178-bb20fd2c5151",
       "type": "reponse",
       "value": {
         "latex": "Par hypothèse sur la fonction $f$, $g(t) = f(x,y)$ donc $g$ est constante par rapport à $t$ donc $g'(t) = 0$. D'où l'égalité demandée.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "9951baa3-8163-4dc7-b004-41b95550a449",
+      "id": "22a67415-edf8-4746-828e-9307b2227152",
       "type": "question",
       "value": {
         "latex": "En utilisant la règle des chaînes, exprimer la dérivée partielle $\\frac{\\partial h}{\\partial u}(u,v)$, en fonction des dérivées partielles de $f$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "82bb5023-1098-4d19-aff7-2b567afe781b",
+      "id": "5d1a7a82-f8f0-4ae0-96ea-b5dcbf0bd004",
       "type": "reponse",
       "value": {
         "latex": "Par la règle des chaînes, $h$ admet des dérivées partielles en tout point $(u,v) \\in \\mathbb{R}^2$ et on a :\n\t\t\t$$\\begin{align*}\n\t\t\t\t\\frac{\\partial h}{\\partial u}(u,v) & = \\frac{\\partial f}{\\partial x}\\left(\\dfrac{u+v}{2}, \\dfrac{u-v}{2}\\right) \\times \\frac{1}{2} + \\frac{\\partial f}{\\partial y}\\left(\\dfrac{u+v}{2}, \\dfrac{u-v}{2}\\right) \\times \\frac{1}{2} \\\\\n\t\t\t\t& = \\frac{1}{2}\\left(\\frac{\\partial f}{\\partial x}\\left(\\dfrac{u+v}{2}, \\dfrac{u-v}{2}\\right) + \\frac{\\partial f}{\\partial y}\\left(\\dfrac{u+v}{2}, \\dfrac{u-v}{2}\\right)\\right).\n\t\t\t\\end{align*}$$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "499ad5c9-b746-458f-8689-ccfe618ceb81",
+      "id": "a3bed318-fd57-4029-8350-d207dff445bc",
       "type": "question",
       "value": {
         "latex": "En utilisant une question précédente, en déduire que $\\frac{\\partial h}{\\partial u}(u,v) = 0$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "099345e1-ff06-47d4-83cf-1e48b9cd9072",
+      "id": "3e288a79-9240-410a-bd61-4bb802109ae0",
       "type": "reponse",
       "value": {
         "latex": "D'après la question 2 de la partie A, on a $\\dfrac{\\partial f}{\\partial x}\\left(\\dfrac{u+v}{2}, \\dfrac{u-v}{2}\\right) + \\dfrac{\\partial f}{\\partial y}\\left(\\dfrac{u+v}{2}, \\dfrac{u-v}{2}\\right) = 0$. Donc, $\\frac{\\partial h}{\\partial u}(u,v) = 0$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "da0aa9be-4202-428d-bee9-db045917854b",
+      "id": "8563b78a-d3c1-433b-8a36-4b9c879c2b92",
       "type": "question",
       "value": {
         "latex": "En déduire qu'il existe une fonction $k \\colon  \\mathbb{R} \\to \\mathbb{R}$ telle que pour tout $(x,y) \\in \\R^2$, $$f(x,y) = k(x-y).$$",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "eb44082b-939a-41f0-a3ab-7f935855d416",
+      "id": "645c71c4-7427-4ee6-9e82-5d5b0127c481",
       "type": "reponse",
       "value": {
         "latex": "On a démontré à la question précédente que $\\frac{\\partial h}{\\partial u}(u,v) = 0$. Donc, $h$ est constante par rapport à $u = x+y$. Il existe donc une fonction $k \\colon \\mathbb{R} \\to \\mathbb{R}$ telle que pour tout $(x,y) \\in \\R^2$, $f(x,y) = k(x-y)$.",

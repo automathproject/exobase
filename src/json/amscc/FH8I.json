@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Erwan HILLION",
     "createdAt": "2024-10-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Résolution de systèmes linéaires : méthode itérative",
+    "sousChapitre": "Résolution de systèmes linéaires : méthode de gradient",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:20.657Z"
+    "updatedAt": "2025-03-24T17:13:56.703Z"
   },
   "contenu": [
     {
-      "id": "a8439d6e-ba5c-414a-a748-0f1b60cbbefb",
+      "id": "d8746357-d427-49af-9a33-b55a127faa84",
       "type": "description",
       "value": {
         "latex": "On va prouver le théorème suivant : \n\n\\textbf{Théorème : } Soit $f : \\Rr \\rightarrow \\Rr$ une fonction de classe $\\mathcal{C}^2$ telle qu'il existe deux constantes $K,c >0$ vérifiant $c < f''(x) \\leq K$ pour tout $x \\in \\Rr$. On considère la suite $(x_n)_{n \\geq 0}$ d\\'efinie par $x_0 \\in \\Rr$ et par $x_{n+1} = x_n - \\gamma f'(x_n)$, où le pas $\\gamma$ vérifie $0 < \\gamma < 2/K$. Alors :\n\\begin{itemize}\n\\item La suite $(f(x_n))_{n \\ge 0}$ est décroissante.\n\\item La suite $(x_n)_{n \\ge 0}$ converge vers l'unique point critique de $f$.\n\\end{itemize}",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "48884775-efb1-4d86-aa10-c8bf4f806c40",
+      "id": "b18151e9-cf46-4e54-9f19-e34566ca2a4e",
       "type": "description",
       "value": {
         "latex": "Pour $n \\geq 0$ fix\\'e, on pose $\\phi(t) = f(x_n- t f'(x_n))$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "22c123f5-af98-4bf7-aa48-d4d0ef7bd597",
+      "id": "9b5747a6-3f47-4f9b-9961-dd95c70b6562",
       "type": "question",
       "value": {
         "latex": "Montrer qu'il existe $\\theta \\in ]0,t[$ tel que $\\phi(t) = \\phi(0)+t\\phi'(0)+\\frac{t^2}{2} \\phi''(\\theta)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "a247fc7f-17f5-4bb5-9ff4-047db4681935",
+      "id": "3cf31927-f93c-4979-acee-e3f41bd969d9",
       "type": "reponse",
       "value": {
         "latex": "La fonction $\\phi$ est de classe $\\mathcal{C}^2$ sur $\\R$, le r\\'esultat souhait\\'e est simplement l'application de la formule de Taylor-Lagrange \\`a la fonction $\\phi$ sur l'intervalle $[0,t]$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "1e6c08a7-b3e8-4026-b34f-5e317a94fc55",
+      "id": "98f5b933-d1d3-4c1d-911f-019b217c0b9c",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\phi'(0) = -f'(x_n)^2$ et $\\phi''(\\theta) \\leq f'(x_n)^2 K$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "c7536b39-9d14-4fed-8fe3-ca870534087e",
+      "id": "5f1bbdd7-64d6-448a-aedd-6ada36c55b64",
       "type": "reponse",
       "value": {
         "latex": "On calcule les deux premi\\`eres d\\'eriv\\'ees de $\\phi$ :\n\t$$\n\t\t\\phi'(t) = -f'(x_n) f'(x_n-tf'(x_n)) \\ , \\ \\phi''(t) = f'(x_n)^2 f''(x_n-tf'(x_n)).\n\t$$\n\tEn \\'evaluant respectivement en $t=0$ et en $t=\\theta$, on obtient $\\phi'(0) = -f'(x_n)^2$ et $\\phi''(0)$ et \n\t$$\n\t\t\\phi''(\\theta) = f'(x_n)^2 f''(x_n-\\theta f'(x_n)) \\leq K f'(x_n)^2.\n$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "d829e72d-7c6f-4bc6-8e81-96c36d36c1f9",
+      "id": "8952f6aa-a430-4a50-a5a0-9f30fa8fb590",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\phi(t) \\leq \\phi(0)$ pour tout $0 \\leq t < 2/K$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "140205e8-8fbb-4b7a-81e0-7f3e1c639cdb",
+      "id": "7ca03004-930b-4f50-b304-c357b5814633",
       "type": "reponse",
       "value": {
         "latex": "On d\\'eduit de la question pr\\'ec\\'edente que pour tout $0 \\leq t \\leq 2/K$, on a \n\t$$\n\t\t\\phi(t)-\\phi(0) \\leq - t f'(x_n)^2 + K \\frac{(2/K) t}{2} f'(x_n)^2 = 0.\n$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "3b47549e-b491-416b-b065-f71a2bde2b39",
+      "id": "d9f931d8-0320-46ec-80ff-a0ebed589dfb",
       "type": "question",
       "value": {
         "latex": "En d\\'eduire que $f(x_{n+1}) \\leq f(x_n)$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "c808b7d8-4e9e-4695-8875-dc9c84efaf45",
+      "id": "16b2fe36-c48f-439a-9415-2175b8fe6f41",
       "type": "reponse",
       "value": {
         "latex": "On a \n\t$$\n\t\tf(x_{n+1}) =  f(x_n-\\gamma f'(x_n)) = \\phi(\\gamma) \\leq \\phi(0) = f(x_n).\n\t$$\n\tOn a utilis\\'e la question pr\\'ec\\'edente et le fait que $0<\\gamma<2/K$.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "64a756b4-5ab5-440c-aed4-6bfc2fbee008",
+      "id": "ec7ae851-7ea6-43ed-b03c-acd6c5779309",
       "type": "description",
       "value": {
         "latex": "On introduit la fonction $g(x) = x - \\gamma f'(x)$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "a1ebd75f-818f-46f4-9989-1e8c0c5a6b1b",
+      "id": "4b26f45f-9f5f-4029-a118-ec50d995aaa8",
       "type": "question",
       "value": {
         "latex": "On pose $M = \\sup_{x \\in \\Rr} |g'(x)|$. Montrer que $M \\leq \\max\\left( |1-\\gamma c|, |1- \\gamma K|\\right)$, puis que $M < 1$.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "cae22e96-0716-4c4d-824c-01a720a841a6",
+      "id": "9f139ce3-256f-4d48-880f-a41ba4461468",
       "type": "reponse",
       "value": {
         "latex": "On a $g'(x) = 1- \\gamma f''(x)$, et comme $c<f''(x)<K$, on a l'encadrement \n\t$$\n\t\t1-\\gamma K < g'(x) < 1- \\gamma c, \n\t$$\n\tet on en d\\'eduit que pour tout $x \\in \\Rr$, on a $|g'(x)| \\leq \\max(|1-\\gamma c|,|1-\\gamma K|)$. Pour montrer que $M < 1$, on remarque tout d'abord que $0 < c < K$ implique que $0 < \\gamma < \\frac{2}{K} < \\frac{2}{c}$, donc $\\gamma c$ et $\\gamma K$ sont dans l'intervalle $]0,2[$, et on a bien $|1-\\gamma c|<1$, $|1-\\gamma K|<1$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "78033190-29f2-44e2-959a-442f5556b595",
+      "id": "94687839-6a79-4c0c-8487-715de8c6eebd",
       "type": "question",
       "value": {
         "latex": "Montrer que pour tout $n \\geq 1$, on a $|x_{n+1}-x_n| = |g(x_n)-g(x_{n-1})| < M |x_n-x_{n-1}|$.",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "1563d5e2-915e-4e22-95ba-72f594d4596f",
+      "id": "a5f47d90-1949-4e50-a4fe-f6a3d621e0c1",
       "type": "reponse",
       "value": {
         "latex": "On a $g(x_n)=x_{n+1}$ et $g(x_{n-1}) = x_n$, donc $|x_{n+1}-x_n| = |g(x_n)-g(x_{n-1})|$. L'in\\'egalit\\'e demand\\'ee est l'in\\'egalit\\'e des accroissements finis.",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "8598a4bb-ae3f-4b0e-a57d-5712a455dec6",
+      "id": "3155a3e2-89e4-46bb-9a45-622909d1526d",
       "type": "question",
       "value": {
         "latex": "Montrer que la suite $(x_n)_{n \\geq 0}$ est convergente (on pourra considérer la série $\\sum x_{n+1}-x_n$).",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "9e3b919e-2ce1-45d2-8569-d581e0902ee6",
+      "id": "927c5f4f-849a-425d-80ec-fa4d90ceee6a",
       "type": "reponse",
       "value": {
         "latex": "La question pr\\'ec\\'edente permet de montrer par r\\'ecurrence sur $p \\geq 0$ que $|x_{p+1}-x_p| < M^p |x_1-x_0|$. De plus, l'in\\'egalit\\'e triangulaire permet d'\\'ecrire que pour tout $k < l$, on a \n\t$$\n\t\t|x_l-x_k| = \\left|\\sum_{p=k}^{l-1} x_{p+1}-x_p \\right| \\leq \\sum_{p=k}^{l-1} |x_{p+1}-x_p| < \\sum_{p=k}^{l-1} M^p |x_1-x_0|.\n\t$$\n\tOn constate enfin que \n\t$$\n\t\t\\sum_{p=k}^{l-1} M^p \\leq \\sum_{p=k}^{\\infty} M^p = M^k  \\sum_{p=0}^{\\infty} M^p = \\frac{M^k}{1-M}. \n\t$$\n\tComme $0<M<1$, on sait que la suite $\\frac{M^k}{1-M} |x_1-x_0|$ a pour limite $0$ lorsque $k \\rightarrow \\infty$. Ainsi, pour tout $\\varepsilon>0$, il existe un rang $K$ tel que pour tous $K \\leq k \\leq l$, on a $|x_l-x_k|<\\varepsilon$. La suite $(x_n)_{n \\geq 0}$ est donc une suite de Cauchy, et comme $\\Rr$ est complet, on sait qu'elle est convergente.",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "496ae2ec-dd72-4db9-bad8-203289c699c4",
+      "id": "fda98f4f-05f0-45bd-9848-507692004eb4",
       "type": "question",
       "value": {
         "latex": "Montrer que la limite $l$ de la suite $(x_n)_{n \\geq 0}$. Montrer que $f'(l)=0$.",
@@ -163,7 +163,7 @@
       }
     },
     {
-      "id": "720fe6ea-2b5c-4091-ac99-9f8ac217d061",
+      "id": "4fc01c3f-ffad-4879-a58d-d5f5e985e467",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f'$ est continue, donc \n\t$$\n\t\tf'(l) = \\lim_{n \\rightarrow \\infty} f'(x_n) = \\lim_{n \\rightarrow \\infty} \\frac{x_n-x_{n+1}}{\\gamma} = \\frac{l-l}{\\gamma} = 0.\n$$",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "id": "25fb45df-10da-4a4d-b2c5-dfffc5545757",
+      "id": "e5209340-78c9-49f9-b782-1aed0fe49c3b",
       "type": "question",
       "value": {
         "latex": "Montrer que $f$ ne possède qu'un seul point critique.",
@@ -179,7 +179,7 @@
       }
     },
     {
-      "id": "6113e040-441e-41c0-a767-083e93f76591",
+      "id": "95b77a8c-4828-40db-8981-4994f7f8022a",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f'$ est continue, donc \n\t\\begin{equation*}\n\t\tf'(l) = \\lim_{n \\rightarrow \\infty} f'(x_n) = \\lim_{n \\rightarrow \\infty} \\frac{x_n-x_{n+1}}{\\gamma} = \\frac{l-l}{\\gamma} = 0.\n\\end{equation*}",

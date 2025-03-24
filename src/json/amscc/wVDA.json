@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-21",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Analyse numérique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:25.451Z"
+    "updatedAt": "2025-03-24T17:17:20.675Z"
   },
   "contenu": [
     {
-      "id": "df3b1e14-aacb-4653-9785-f268855183d7",
+      "id": "1106edc0-5d23-4383-a6a6-00c80f2566d0",
       "type": "description",
       "value": {
         "latex": "Soient $b$ et $\\delta b$ deux vecteurs de $\\mathbb{R}^n$ avec $b\\neq 0$ et $A=(a_{ij})\\in\\mathbb{R}^{n\\times n}$ une matrice inversible. \n\tLa matrice $A$ étant inversible, soient $X$ l'unique solution de $AX=b$ et $X+\\delta X$ l'unique solution de $A(X+\\delta X)=b+\\delta b$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "c57f4c77-c67e-433d-94e9-ed1fe03988f8",
+      "id": "f0143144-2651-41a9-a688-2262876c7f76",
       "type": "question",
       "value": {
         "latex": "Démontrer que : $$\\frac{||\\delta X||}{||X||}\\leq \\text{cond}(A) \\frac{||\\delta b||}{||b||}$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "f858fe3b-244c-4f58-a773-b275266ed09a",
+      "id": "bf2fe095-cbfb-4eba-820c-1a83812ec12f",
       "type": "question",
       "value": {
         "latex": "En déduire l'encadrement \n\t\t$$\n\t\t\\frac{1}{\\text{cond}(A)} \\frac{||\\delta b||}{||b||}\n\t\t\\leq \n\t\t\\frac{||\\delta X||}{||X||}\n\t\t\\leq \n\t\t\\mathrm{cond}(A) \\frac{||\\delta b||}{||b||}$$",

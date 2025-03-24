@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-04-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:39.896Z"
+    "updatedAt": "2025-03-24T17:15:47.147Z"
   },
   "contenu": [
     {
-      "id": "78e93173-45e5-457f-9333-d2f546a42798",
+      "id": "38ddbc5b-0564-4553-bb15-c6820b4c5158",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $f$ définie sur $\\mathcal{D} \\subset \\R^2$ par \n\t$$f(x,y) = y^2-x^2y+x^2$$\n\toù $\\mathcal{D} = \\{ (x,y) \\in \\R^2 \\, , \\, x^2-1 \\leq y \\leq 1-x^2\\}$.",
@@ -27,15 +27,15 @@
       }
     },
     {
-      "id": "e3007ba3-00af-4de8-a649-ccd2655f728c",
+      "id": "5ab6a7a1-587f-4588-b8a8-ae2326db88bd",
       "type": "question",
       "value": {
-        "latex": "Parmi les trois domaines représentés graphiquement ci-dessus, lequel est susceptible de représenter $\\mathcal{D}$ ?\n\t\t\n\t\t__TIKZ_4fc47a9a-738e-413d-a68d-0b9b35237225__ \\hfill\n\t\t__TIKZ_761678d7-1bc9-4e41-a00f-f14f6887d23c__ \\hfill\n\t\t__TIKZ_d9b835b6-2fdf-4999-8027-68d314c0f6bc__",
+        "latex": "Parmi les trois domaines représentés graphiquement ci-dessus, lequel est susceptible de représenter $\\mathcal{D}$ ?\n\t\t\n\t\t__TIKZ_d54d6024-f6e3-4a99-bcb0-6aed8f4d99ae__ \\hfill\n\t\t__TIKZ_8d7d60a4-4136-4f7f-8597-9d01d6b8d617__ \\hfill\n\t\t__TIKZ_ccf47b02-bdf8-411a-9235-c05d1a49a659__",
         "html": "<p>Parmi les trois domaines représentés graphiquement ci-dessus, lequel\nest susceptible de représenter <span\nclass=\"math inline\">\\(\\mathcal{D}\\)</span> ?</p>\n<p><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='98.171pt' height='96.44pt' viewBox='0 0 98.171 96.44'><defs><font id='EJASTL-CMR7' horiz-adv-x='0'><font-face font-family='EJASTL-CMR7' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='1' horiz-adv-x='569' vert-adv-y='569' glyph-name='one' d='M335 636C335 663 333 664 305 664C241 601 150 600 109 600V564C133 564 199 564 254 592V82C254 49 254 36 154 36H116V0C134 1 257 4 294 4C325 4 451 1 473 0V36H435C335 36 335 49 335 82V636Z'/></font><font id='DQFAME-CMSY10' horiz-adv-x='0'><font-face font-family='DQFAME-CMSY10' units-per-em='1000' ascent='775' descent='960'/><glyph unicode='D' horiz-adv-x='771' vert-adv-y='771' glyph-name='D' d='M204 0C437 0 766 178 766 451C766 540 724 596 675 627C589 683 497 683 402 683C316 683 257 683 173 647C40 588 21 505 21 497C21 491 25 489 31 489C47 489 70 503 78 508C99 522 102 528 108 547C122 587 150 622 276 628C260 419 209 228 139 53C102 40 78 17 78 7C78 1 79 0 101 0H204ZM209 55C323 334 344 508 358 628C425 628 681 628 681 408C681 212 505 55 263 55H209Z'/></font><font id='FFANCX-CMMI10' horiz-adv-x='0'><font-face font-family='FFANCX-CMMI10' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='x' horiz-adv-x='571' vert-adv-y='571' glyph-name='x' d='M334 302C340 328 363 420 433 420C438 420 462 420 483 407C455 402 435 377 435 353C435 337 446 318 473 318C495 318 527 336 527 376C527 428 468 442 434 442C376 442 341 389 329 366C304 432 250 442 221 442C117 442 60 313 60 288C60 278 70 278 72 278C80 278 83 280 85 289C119 395 185 420 219 420C238 420 273 411 273 353C273 322 256 255 219 115C203 53 168 11 124 11C118 11 95 11 74 24C99 29 121 50 121 78C121 105 99 113 84 113C54 113 29 87 29 55C29 9 79-11 123-11C189-11 225 59 228 65C240 28 276-11 336-11C439-11 496 118 496 143C496 153 487 153 484 153C475 153 473 149 471 142C438 35 370 11 338 11C299 11 283 43 283 77C283 99 289 121 300 165L334 302Z'/><glyph unicode='y' horiz-adv-x='490' vert-adv-y='490' glyph-name='y' d='M486 381C490 395 490 397 490 404C490 422 476 431 461 431C451 431 435 425 426 410C424 405 416 374 412 356C405 330 398 303 392 276L347 96C343 81 300 11 234 11C183 11 172 55 172 92C172 138 189 200 223 288C239 329 243 340 243 360C243 405 211 442 161 442C66 442 29 297 29 288C29 278 39 278 41 278C51 278 52 280 57 296C84 390 124 420 158 420C166 420 183 420 183 388C183 363 173 337 166 318C126 212 108 155 108 108C108 19 171-11 230-11C269-11 303 6 331 34C318-18 306-67 266-120C240-154 202-183 156-183C142-183 97-180 80-141C96-141 109-141 123-129C133-120 143-107 143-88C143-57 116-53 106-53C83-53 50-69 50-118C50-168 94-205 156-205C259-205 362-114 390-1L486 381Z'/></font></defs><style type='text/css'><![CDATA[text.f0 {font-family:FFANCX-CMMI10;font-size:9.96px} text.f1 {font-family:DQFAME-CMSY10;font-size:9.96px} text.f2 {font-family:EJASTL-CMR7;font-size:6.97px} ]]></style><g id='page1'><path d='M.3978 47.282H84.64119' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M82.48923 44.17105C82.95519 46.03765 83.99355 46.91905 85.03969 47.282C83.99355 47.64495 82.95519 48.52635 82.48923 50.39295' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='89.133732' y='-47.000731' transform='matrix(.999739 0 0 .999739 0 96.44)'>x</text><path d='M42.918 81.29808V14.06293' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M39.80705 16.214893C41.67365 15.748933 42.55505 14.710573 42.918 13.664433C43.28095 14.710573 44.16235 15.748933 46.02895 16.214893' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='40.286483' y='-88.806817' transform='matrix(.999739 0 0 .999739 0 96.44)'>y</text><path d='M.3978 86.96988H85.4382M.3978 84.13504H85.4382M.3978 81.30019H85.4382M.3978 78.46533H85.4382M.3978 75.6305H85.4382M.3978 72.79564H85.4382M.3978 69.96079H85.4382M.3978 67.12593H85.4382M.3978 64.2911H85.4382M.3978 61.45624H85.4382M.3978 58.62139H85.4382M.3978 55.78655H85.4382M.3978 52.9517H85.4382M.3978 50.11684H85.4382M.3978 47.282H85.4382M.3978 44.44716H85.4382M.3978 41.6123H85.4382M.3978 38.77745H85.4382M.3978 35.94261H85.4382M.3978 33.10776H85.4382M.3978 30.2729H85.4382M.3978 27.43807H85.4382M.3978 24.60321H85.4382M.3978 21.76836H85.4382M.3978 18.9335H85.4382M.3978 16.09867H85.4382M.3978 13.26381H85.4382M.3978 10.42896H85.4382M.3978 7.59412H85.4382M.3978 4.76921H85.4382M3.23012 89.8022V4.7618M6.06496 89.8022V4.7618M8.89981 89.8022V4.7618M11.73467 89.8022V4.7618M14.5695 89.8022V4.7618M17.40436 89.8022V4.7618M20.23921 89.8022V4.7618M23.07407 89.8022V4.7618M25.9089 89.8022V4.7618M28.74376 89.8022V4.7618M31.57861 89.8022V4.7618M34.41345 89.8022V4.7618M37.2483 89.8022V4.7618M40.08316 89.8022V4.7618M42.918 89.8022V4.7618M45.75284 89.8022V4.7618M48.5877 89.8022V4.7618M51.42255 89.8022V4.7618M54.25739 89.8022V4.7618M57.09224 89.8022V4.7618M59.9271 89.8022V4.7618M62.76193 89.8022V4.7618M65.59679 89.8022V4.7618M68.43164 89.8022V4.7618M71.2665 89.8022V4.7618M74.10133 89.8022V4.7618M76.93619 89.8022V4.7618M79.77104 89.8022V4.7618M82.60588 89.8022V4.7618M85.43079 89.8022V4.7618' stroke='#e6e6e6' fill='none' stroke-width='.19925' stroke-miterlimit='10'/><path d='M.3978 75.6288H85.4382M.3978 47.282H85.4382M.3978 18.9352H85.4382M14.5712 89.8022V4.7618M42.918 89.8022V4.7618M71.2648 89.8022V4.7618' stroke='#b3b3b3' fill='none' stroke-width='.3985' stroke-miterlimit='10'/><path d='M14.5712 47.282L16.93329 42.75464L19.29538 38.62088L21.65747 34.88072L24.01956 31.53417L26.38165 28.58167L28.74374 26.02277L31.10584 23.85706L33.46793 22.08538L35.83 20.70731L38.19211 19.72286L40.55418 19.132L42.91629 18.9352L45.27834 19.13158L47.64044 19.72156L50.00252 20.70558L52.36461 22.08322L54.7267 23.85446L57.08879 26.01932L59.45088 28.57778L61.81297 31.52983L64.17506 34.87552L66.53716 38.61481L68.89923 42.74816L71.26134 47.27509L71.2648 47.282L68.90271 51.80936L66.54062 55.94312L64.17853 59.68328L61.81644 63.02983L59.45435 65.98233L57.09226 68.54123L54.73016 70.70694L52.36807 72.47862L50.006 73.85669L47.64389 74.84114L45.28182 75.432L42.91971 75.6288L40.55766 75.43242L38.19556 74.84244L35.83348 73.85842L33.47139 72.48078L31.1093 70.70954L28.74721 68.54468L26.38512 65.98622L24.02303 63.03417L21.66094 59.68848L19.29884 55.94919L16.93677 51.81584L14.57466 47.28891' fill='#fcc'/><path d='M14.5712 47.282L16.93329 42.75464L19.29538 38.62088L21.65747 34.88072L24.01956 31.53417L26.38165 28.58167L28.74374 26.02277L31.10584 23.85706L33.46793 22.08538L35.83 20.70731L38.19211 19.72286L40.55418 19.132L42.91629 18.9352L45.27834 19.13158L47.64044 19.72156L50.00252 20.70558L52.36461 22.08322L54.7267 23.85446L57.08879 26.01932L59.45088 28.57778L61.81297 31.52983L64.17506 34.87552L66.53716 38.61481L68.89923 42.74816L71.26134 47.27509L71.2648 47.282L68.90271 51.80936L66.54062 55.94312L64.17853 59.68328L61.81644 63.02983L59.45435 65.98233L57.09226 68.54123L54.73016 70.70694L52.36807 72.47862L50.006 73.85669L47.64389 74.84114L45.28182 75.432L42.91971 75.6288L40.55766 75.43242L38.19556 74.84244L35.83348 73.85842L33.47139 72.48078L31.1093 70.70954L28.74721 68.54468L26.38512 65.98622L24.02303 63.03417L21.66094 59.68848L19.29884 55.94919L16.93677 51.81584L14.57466 47.28891' stroke='#f00' fill='none' stroke-width='1.99255' stroke-miterlimit='10'/><path d='M.3978 47.282H84.64119' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M82.48923 44.17105C82.95519 46.03765 83.99355 46.91905 85.03969 47.282C83.99355 47.64495 82.95519 48.52635 82.48923 50.39295' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='89.133732' y='-47.000731' transform='matrix(.999739 0 0 .999739 0 96.44)'>x</text><path d='M42.918 81.29808V14.06293' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M39.80705 16.214893C41.67365 15.748933 42.55505 14.710573 42.918 13.664433C43.28095 14.710573 44.16235 15.748933 46.02895 16.214893' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='40.286483' y='-88.806817' transform='matrix(.999739 0 0 .999739 0 96.44)'>y</text><text class='f1' x='36.831385' y='-4.813743' transform='matrix(.999739 0 0 .999739 0 96.44)'>D</text><text class='f2' x='44.501738' y='-3.31919' transform='matrix(.999455 0 0 .999455 0 96.44)'>1</text></g></svg>\n<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='98.171pt' height='96.44pt' viewBox='0 0 98.171 96.44'><defs><font id='RKDUWA-CMR7' horiz-adv-x='0'><font-face font-family='RKDUWA-CMR7' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='2' horiz-adv-x='569' vert-adv-y='569' glyph-name='two' d='M505 182H471C468 160 458 101 445 91C437 85 360 85 346 85H162C267 178 302 206 362 253C436 312 505 374 505 469C505 590 399 664 271 664C147 664 63 577 63 485C63 434 106 429 116 429C140 429 169 446 169 482C169 500 162 535 110 535C141 606 209 628 256 628C356 628 408 550 408 469C408 382 346 313 314 277L73 39C63 30 63 28 63 0H475L505 182Z'/></font><font id='DQFAME-CMSY10' horiz-adv-x='0'><font-face font-family='DQFAME-CMSY10' units-per-em='1000' ascent='775' descent='960'/><glyph unicode='D' horiz-adv-x='771' vert-adv-y='771' glyph-name='D' d='M204 0C437 0 766 178 766 451C766 540 724 596 675 627C589 683 497 683 402 683C316 683 257 683 173 647C40 588 21 505 21 497C21 491 25 489 31 489C47 489 70 503 78 508C99 522 102 528 108 547C122 587 150 622 276 628C260 419 209 228 139 53C102 40 78 17 78 7C78 1 79 0 101 0H204ZM209 55C323 334 344 508 358 628C425 628 681 628 681 408C681 212 505 55 263 55H209Z'/></font><font id='FFANCX-CMMI10' horiz-adv-x='0'><font-face font-family='FFANCX-CMMI10' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='x' horiz-adv-x='571' vert-adv-y='571' glyph-name='x' d='M334 302C340 328 363 420 433 420C438 420 462 420 483 407C455 402 435 377 435 353C435 337 446 318 473 318C495 318 527 336 527 376C527 428 468 442 434 442C376 442 341 389 329 366C304 432 250 442 221 442C117 442 60 313 60 288C60 278 70 278 72 278C80 278 83 280 85 289C119 395 185 420 219 420C238 420 273 411 273 353C273 322 256 255 219 115C203 53 168 11 124 11C118 11 95 11 74 24C99 29 121 50 121 78C121 105 99 113 84 113C54 113 29 87 29 55C29 9 79-11 123-11C189-11 225 59 228 65C240 28 276-11 336-11C439-11 496 118 496 143C496 153 487 153 484 153C475 153 473 149 471 142C438 35 370 11 338 11C299 11 283 43 283 77C283 99 289 121 300 165L334 302Z'/><glyph unicode='y' horiz-adv-x='490' vert-adv-y='490' glyph-name='y' d='M486 381C490 395 490 397 490 404C490 422 476 431 461 431C451 431 435 425 426 410C424 405 416 374 412 356C405 330 398 303 392 276L347 96C343 81 300 11 234 11C183 11 172 55 172 92C172 138 189 200 223 288C239 329 243 340 243 360C243 405 211 442 161 442C66 442 29 297 29 288C29 278 39 278 41 278C51 278 52 280 57 296C84 390 124 420 158 420C166 420 183 420 183 388C183 363 173 337 166 318C126 212 108 155 108 108C108 19 171-11 230-11C269-11 303 6 331 34C318-18 306-67 266-120C240-154 202-183 156-183C142-183 97-180 80-141C96-141 109-141 123-129C133-120 143-107 143-88C143-57 116-53 106-53C83-53 50-69 50-118C50-168 94-205 156-205C259-205 362-114 390-1L486 381Z'/></font></defs><style type='text/css'><![CDATA[text.f0 {font-family:FFANCX-CMMI10;font-size:9.96px} text.f1 {font-family:DQFAME-CMSY10;font-size:9.96px} text.f2 {font-family:RKDUWA-CMR7;font-size:6.97px} ]]></style><g id='page1'><path d='M.3978 47.282H84.64119' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M82.48923 44.17105C82.95519 46.03765 83.99355 46.91905 85.03969 47.282C83.99355 47.64495 82.95519 48.52635 82.48923 50.39295' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='89.133732' y='-47.000731' transform='matrix(.999739 0 0 .999739 0 96.44)'>x</text><path d='M42.918 81.29808V14.06293' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M39.80705 16.214893C41.67365 15.748933 42.55505 14.710573 42.918 13.664433C43.28095 14.710573 44.16235 15.748933 46.02895 16.214893' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='40.286483' y='-88.806817' transform='matrix(.999739 0 0 .999739 0 96.44)'>y</text><path d='M.3978 86.96988H85.4382M.3978 84.13504H85.4382M.3978 81.30019H85.4382M.3978 78.46533H85.4382M.3978 75.6305H85.4382M.3978 72.79564H85.4382M.3978 69.96079H85.4382M.3978 67.12593H85.4382M.3978 64.2911H85.4382M.3978 61.45624H85.4382M.3978 58.62139H85.4382M.3978 55.78655H85.4382M.3978 52.9517H85.4382M.3978 50.11684H85.4382M.3978 47.282H85.4382M.3978 44.44716H85.4382M.3978 41.6123H85.4382M.3978 38.77745H85.4382M.3978 35.94261H85.4382M.3978 33.10776H85.4382M.3978 30.2729H85.4382M.3978 27.43807H85.4382M.3978 24.60321H85.4382M.3978 21.76836H85.4382M.3978 18.9335H85.4382M.3978 16.09867H85.4382M.3978 13.26381H85.4382M.3978 10.42896H85.4382M.3978 7.59412H85.4382M.3978 4.76921H85.4382M3.23012 89.8022V4.7618M6.06496 89.8022V4.7618M8.89981 89.8022V4.7618M11.73467 89.8022V4.7618M14.5695 89.8022V4.7618M17.40436 89.8022V4.7618M20.23921 89.8022V4.7618M23.07407 89.8022V4.7618M25.9089 89.8022V4.7618M28.74376 89.8022V4.7618M31.57861 89.8022V4.7618M34.41345 89.8022V4.7618M37.2483 89.8022V4.7618M40.08316 89.8022V4.7618M42.918 89.8022V4.7618M45.75284 89.8022V4.7618M48.5877 89.8022V4.7618M51.42255 89.8022V4.7618M54.25739 89.8022V4.7618M57.09224 89.8022V4.7618M59.9271 89.8022V4.7618M62.76193 89.8022V4.7618M65.59679 89.8022V4.7618M68.43164 89.8022V4.7618M71.2665 89.8022V4.7618M74.10133 89.8022V4.7618M76.93619 89.8022V4.7618M79.77104 89.8022V4.7618M82.60588 89.8022V4.7618M85.43079 89.8022V4.7618' stroke='#e6e6e6' fill='none' stroke-width='.19925' stroke-miterlimit='10'/><path d='M.3978 75.6288H85.4382M.3978 47.282H85.4382M.3978 18.9352H85.4382M14.5712 89.8022V4.7618M42.918 89.8022V4.7618M71.2648 89.8022V4.7618' stroke='#b3b3b3' fill='none' stroke-width='.3985' stroke-miterlimit='10'/><path d='M71.2648 18.9352V75.6288H14.5712V18.9352Z' fill='#fcc'/><path d='M71.2648 18.9352V75.6288H14.5712V18.9352Z' stroke='#f00' fill='none' stroke-width='1.99255' stroke-miterlimit='10'/><path d='M.3978 47.282H84.64119' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M82.48923 44.17105C82.95519 46.03765 83.99355 46.91905 85.03969 47.282C83.99355 47.64495 82.95519 48.52635 82.48923 50.39295' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='89.133732' y='-47.000731' transform='matrix(.999739 0 0 .999739 0 96.44)'>x</text><path d='M42.918 81.29808V14.06293' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M39.80705 16.214893C41.67365 15.748933 42.55505 14.710573 42.918 13.664433C43.28095 14.710573 44.16235 15.748933 46.02895 16.214893' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='40.286483' y='-88.806817' transform='matrix(.999739 0 0 .999739 0 96.44)'>y</text><text class='f1' x='36.831385' y='-4.813743' transform='matrix(.999739 0 0 .999739 0 96.44)'>D</text><text class='f2' x='44.501738' y='-3.31919' transform='matrix(.999455 0 0 .999455 0 96.44)'>2</text></g></svg>\n<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='98.171pt' height='96.44pt' viewBox='0 0 98.171 96.44'><defs><font id='BYQNWU-CMR7' horiz-adv-x='0'><font-face font-family='BYQNWU-CMR7' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='3' horiz-adv-x='569' vert-adv-y='569' glyph-name='three' d='M273 334C351 334 407 280 407 173C407 49 335 12 277 12C237 12 149 23 107 82C154 84 165 117 165 138C165 170 141 193 110 193C82 193 54 176 54 135C54 41 158-20 279-20C418-20 514 73 514 173C514 251 450 329 340 352C445 390 483 465 483 526C483 605 392 664 281 664S85 610 85 530C85 496 107 477 137 477C168 477 188 500 188 528C188 557 168 578 137 580C172 624 241 635 278 635C323 635 386 613 386 526C386 484 372 438 346 407C313 369 285 367 235 364C210 362 208 362 203 361C201 361 193 359 193 348C193 334 202 334 219 334H273Z'/></font><font id='DQFAME-CMSY10' horiz-adv-x='0'><font-face font-family='DQFAME-CMSY10' units-per-em='1000' ascent='775' descent='960'/><glyph unicode='D' horiz-adv-x='771' vert-adv-y='771' glyph-name='D' d='M204 0C437 0 766 178 766 451C766 540 724 596 675 627C589 683 497 683 402 683C316 683 257 683 173 647C40 588 21 505 21 497C21 491 25 489 31 489C47 489 70 503 78 508C99 522 102 528 108 547C122 587 150 622 276 628C260 419 209 228 139 53C102 40 78 17 78 7C78 1 79 0 101 0H204ZM209 55C323 334 344 508 358 628C425 628 681 628 681 408C681 212 505 55 263 55H209Z'/></font><font id='FFANCX-CMMI10' horiz-adv-x='0'><font-face font-family='FFANCX-CMMI10' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='x' horiz-adv-x='571' vert-adv-y='571' glyph-name='x' d='M334 302C340 328 363 420 433 420C438 420 462 420 483 407C455 402 435 377 435 353C435 337 446 318 473 318C495 318 527 336 527 376C527 428 468 442 434 442C376 442 341 389 329 366C304 432 250 442 221 442C117 442 60 313 60 288C60 278 70 278 72 278C80 278 83 280 85 289C119 395 185 420 219 420C238 420 273 411 273 353C273 322 256 255 219 115C203 53 168 11 124 11C118 11 95 11 74 24C99 29 121 50 121 78C121 105 99 113 84 113C54 113 29 87 29 55C29 9 79-11 123-11C189-11 225 59 228 65C240 28 276-11 336-11C439-11 496 118 496 143C496 153 487 153 484 153C475 153 473 149 471 142C438 35 370 11 338 11C299 11 283 43 283 77C283 99 289 121 300 165L334 302Z'/><glyph unicode='y' horiz-adv-x='490' vert-adv-y='490' glyph-name='y' d='M486 381C490 395 490 397 490 404C490 422 476 431 461 431C451 431 435 425 426 410C424 405 416 374 412 356C405 330 398 303 392 276L347 96C343 81 300 11 234 11C183 11 172 55 172 92C172 138 189 200 223 288C239 329 243 340 243 360C243 405 211 442 161 442C66 442 29 297 29 288C29 278 39 278 41 278C51 278 52 280 57 296C84 390 124 420 158 420C166 420 183 420 183 388C183 363 173 337 166 318C126 212 108 155 108 108C108 19 171-11 230-11C269-11 303 6 331 34C318-18 306-67 266-120C240-154 202-183 156-183C142-183 97-180 80-141C96-141 109-141 123-129C133-120 143-107 143-88C143-57 116-53 106-53C83-53 50-69 50-118C50-168 94-205 156-205C259-205 362-114 390-1L486 381Z'/></font></defs><style type='text/css'><![CDATA[text.f0 {font-family:FFANCX-CMMI10;font-size:9.96px} text.f1 {font-family:DQFAME-CMSY10;font-size:9.96px} text.f2 {font-family:BYQNWU-CMR7;font-size:6.97px} ]]></style><g id='page1'><path d='M.3978 47.282H84.64119' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M82.48923 44.17105C82.95519 46.03765 83.99355 46.91905 85.03969 47.282C83.99355 47.64495 82.95519 48.52635 82.48923 50.39295' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='89.133732' y='-47.000731' transform='matrix(.999739 0 0 .999739 0 96.44)'>x</text><path d='M42.918 81.29808V14.06293' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M39.80705 16.214893C41.67365 15.748933 42.55505 14.710573 42.918 13.664433C43.28095 14.710573 44.16235 15.748933 46.02895 16.214893' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='40.286483' y='-88.806817' transform='matrix(.999739 0 0 .999739 0 96.44)'>y</text><path d='M.3978 86.96988H85.4382M.3978 84.13504H85.4382M.3978 81.30019H85.4382M.3978 78.46533H85.4382M.3978 75.6305H85.4382M.3978 72.79564H85.4382M.3978 69.96079H85.4382M.3978 67.12593H85.4382M.3978 64.2911H85.4382M.3978 61.45624H85.4382M.3978 58.62139H85.4382M.3978 55.78655H85.4382M.3978 52.9517H85.4382M.3978 50.11684H85.4382M.3978 47.282H85.4382M.3978 44.44716H85.4382M.3978 41.6123H85.4382M.3978 38.77745H85.4382M.3978 35.94261H85.4382M.3978 33.10776H85.4382M.3978 30.2729H85.4382M.3978 27.43807H85.4382M.3978 24.60321H85.4382M.3978 21.76836H85.4382M.3978 18.9335H85.4382M.3978 16.09867H85.4382M.3978 13.26381H85.4382M.3978 10.42896H85.4382M.3978 7.59412H85.4382M.3978 4.76921H85.4382M3.23012 89.8022V4.7618M6.06496 89.8022V4.7618M8.89981 89.8022V4.7618M11.73467 89.8022V4.7618M14.5695 89.8022V4.7618M17.40436 89.8022V4.7618M20.23921 89.8022V4.7618M23.07407 89.8022V4.7618M25.9089 89.8022V4.7618M28.74376 89.8022V4.7618M31.57861 89.8022V4.7618M34.41345 89.8022V4.7618M37.2483 89.8022V4.7618M40.08316 89.8022V4.7618M42.918 89.8022V4.7618M45.75284 89.8022V4.7618M48.5877 89.8022V4.7618M51.42255 89.8022V4.7618M54.25739 89.8022V4.7618M57.09224 89.8022V4.7618M59.9271 89.8022V4.7618M62.76193 89.8022V4.7618M65.59679 89.8022V4.7618M68.43164 89.8022V4.7618M71.2665 89.8022V4.7618M74.10133 89.8022V4.7618M76.93619 89.8022V4.7618M79.77104 89.8022V4.7618M82.60588 89.8022V4.7618M85.43079 89.8022V4.7618' stroke='#e6e6e6' fill='none' stroke-width='.19925' stroke-miterlimit='10'/><path d='M.3978 75.6288H85.4382M.3978 47.282H85.4382M.3978 18.9352H85.4382M14.5712 89.8022V4.7618M42.918 89.8022V4.7618M71.2648 89.8022V4.7618' stroke='#b3b3b3' fill='none' stroke-width='.3985' stroke-miterlimit='10'/><path d='M71.2648 47.282C71.2648 31.6263 58.5737 18.9352 42.918 18.9352S14.5712 31.6263 14.5712 47.282S27.2623 75.6288 42.918 75.6288S71.2648 62.9377 71.2648 47.282Z' fill='#fcc'/><path d='M71.2648 47.282C71.2648 31.6263 58.5737 18.9352 42.918 18.9352S14.5712 31.6263 14.5712 47.282S27.2623 75.6288 42.918 75.6288S71.2648 62.9377 71.2648 47.282Z' stroke='#f00' fill='none' stroke-width='1.99255' stroke-miterlimit='10'/><path d='M.3978 47.282H84.64119' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M82.48923 44.17105C82.95519 46.03765 83.99355 46.91905 85.03969 47.282C83.99355 47.64495 82.95519 48.52635 82.48923 50.39295' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='89.133732' y='-47.000731' transform='matrix(.999739 0 0 .999739 0 96.44)'>x</text><path d='M42.918 81.29808V14.06293' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M39.80705 16.214893C41.67365 15.748933 42.55505 14.710573 42.918 13.664433C43.28095 14.710573 44.16235 15.748933 46.02895 16.214893' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f0' x='40.286483' y='-88.806817' transform='matrix(.999739 0 0 .999739 0 96.44)'>y</text><text class='f1' x='36.831385' y='-4.813743' transform='matrix(.999739 0 0 .999739 0 96.44)'>D</text><text class='f2' x='44.501738' y='-3.31919' transform='matrix(.999455 0 0 .999455 0 96.44)'>3</text></g></svg></p>\n"
       }
     },
     {
-      "id": "f5b52b3b-d9ee-4cc4-90b7-19b4228c2dfd",
+      "id": "f9740b15-9c95-4437-81f3-b934a2193f9f",
       "type": "reponse",
       "value": {
         "latex": "Le domaine $\\mathcal{D}$ est le domaine $\\mathcal{D}_1$, dont le bord est constitué de deux branche de paraboles d'équation $y = x^2-1$ et $y = 1-x^2$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "9d8d140d-2b21-4f5a-800b-818d08a2bc62",
+      "id": "60560be4-261a-483e-b2d8-7244795272e8",
       "type": "question",
       "value": {
         "latex": "L'ensemble $\\mathcal{D}$ est-il ouvert dans $\\R^2$ ? fermé dans $\\R^2$ ? Justifier très brièvement.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "5ba89311-ed63-4491-bac9-2bb160bfe242",
+      "id": "87114475-51ae-49c0-b9fc-67c4b1df597a",
       "type": "reponse",
       "value": {
         "latex": "Le domaine $\\mathcal{D}$ est fermé dans $\\R^2$ car le complémentaire de $\\mathcal{D}$ est ouvert dans $\\R^2$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "61911816-172c-4c27-a0dd-71bea2c3e609",
+      "id": "b0b4adb5-2736-4d92-8bbd-363ee6c1a8e8",
       "type": "question",
       "value": {
         "latex": "Justifier que $f$ admet un maximum global et un minimum global sur $\\mathcal{D}$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "dce3b2f5-89d8-411f-a612-5e7d32955370",
+      "id": "80f7da6a-53a9-43c8-ad36-19dab487a370",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est continue sur le domaine $\\mathcal{D}$ qui est fermé et borné. Donc, $f$ admet un maximum global et un minimum global sur $\\mathcal{D}$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "f9fe4a64-0235-4dc1-b6bd-f684f6e7159b",
+      "id": "f4c76b5a-ec41-4359-ac8d-0551e2e3d579",
       "type": "question",
       "value": {
         "latex": "Vérifier que $(0,0)$ est l'unique point critique de $f$ dans l'intérieur du domaine  $\\mathcal{D}$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "2e5351da-35e1-4d1c-9c7a-a3ba51e1f3e9",
+      "id": "ef111687-1be0-4b60-b761-b75a5bf0d457",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est de classe $\\mathcal{C}^1$ sur $\\mathcal{D}$ et on a $\\dfrac{\\partial f}{\\partial x}(x,y) = -2xy+2x$ et $\\dfrac{\\partial f}{\\partial y}(x,y) = 2y-x^2$. Pour déterminer les points critiques de $f$ dans l'intérieur de $\\mathcal{D}$, on résout le système d'équations suivant :\n\t\t\t$$\\left\\{\\begin{aligned}\n\t\t\t-2xy+2x & = 0 \\\\\n\t\t\t2y-x^2 & = 0\n\t\t\t\\end{aligned}\\right.$$\n\t\t\tPar substitution, on trouve : \n\t\t\t$$\\left\\{\\begin{aligned}\n\t\t\t\t-x^3+2x & = 0 \\\\\n\t\t\t\t2y &= x^2\n\t\t\t\\end{aligned}\\right.$$\n\t\t\tLa première équation donne $x(x^2-2) = 0$ donc $x = 0$ ou $x = \\pm \\sqrt{2}$. Si $x = 0$, la deuxième équation donne $y = 0$. Si $x = \\pm \\sqrt{2}$, la deuxième équation donne $y = 2$. Or le point $(\\sqrt{2},2)$ n'appartient pas à $\\mathcal{D}$. Donc, l'unique point critique de $f$ dans l'intérieur de $\\mathcal{D}$ est $(0,0)$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "0448829a-720c-4460-b82b-5a3a07a96a3b",
+      "id": "493a0982-5227-4e2b-9f19-019d6d475a87",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle un extremum local sur l'intérieur de $\\mathcal{D}$ ?",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "279a272c-2334-4a45-85be-3dbad88aa5f0",
+      "id": "b8cc9931-681e-4ab3-854f-b5a7e3e132bd",
       "type": "reponse",
       "value": {
         "latex": "On calcule les dérivées partielles secondes de $f$ :\n\t\t\t$$\\dfrac{\\partial^2 f}{\\partial x^2}(x,y) = -2y+2 \\quad \\text{et} \\quad \\dfrac{\\partial^2 f}{\\partial y^2}(x,y) = 2$$\n\t\t\tet\n\t\t\t$$\\dfrac{\\partial^2 f}{\\partial x \\partial y}(x,y) = -2x.$$\n\t\t\tLa matrice hessienne de $f$ évaluée en $(0,0)$ est\n\t\t\t$$H_f(0,0) = \\begin{pmatrix}\n\t\t\t2 & 0 \\\\\n\t\t\t0 & 2\n\t\t\t\\end{pmatrix}.$$\n\t\t\tdonc son déterminant est $4 > 0$. Or $\\dfrac{\\partial^2 f}{\\partial x^2}(0,0) = 2 > 0$. Donc d'après les conditions du second ordre, $(0,0)$ est un minimum local de $f$ sur l'intérieur de $\\mathcal{D}$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "0eb96667-3eb0-4690-9adc-6225a9761a3b",
+      "id": "1c0ac25f-6ebe-46d1-892b-c42af2b9be7f",
       "type": "description",
       "value": {
         "latex": "Pour tout $x \\in [-1;1]$, on pose $g(x) = f(x,1-x^2)$ et $h(x) = f(x,x^2-1)$.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "20f20b4b-11c1-4958-a3e0-ae2657cd45f6",
+      "id": "bfb5bdf9-e2e2-4412-b408-76d78c319380",
       "type": "question",
       "value": {
         "latex": "Simplifier les expressions de $g(x)$ et $h(x)$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "4c97cb49-bcd3-4e33-98fd-ec9feeb81f67",
+      "id": "33b76d32-6c25-4d5b-8c69-7a39b7f6f25e",
       "type": "reponse",
       "value": {
         "latex": "On a $g(x) = (1-x^2)^2-x^2(1-x^2)+x^2 = 2x^4-2x^2+1$ et $h(x) = (x^2-1)^2-x^2(x^2-1)+x^2 = 1$.",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "e99fce6e-3f21-4b9d-976a-eac709696991",
+      "id": "8f4beba8-3b12-4900-be44-70db4de5f891",
       "type": "question",
       "value": {
         "latex": "\\'Etudier les variations des fonctions $g$ et $h$ sur l'intervalle $[-1;1]$.",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "d3641c4a-1b06-4ca5-b152-d213e3ea8b82",
+      "id": "502e6eaf-835f-44f0-ba52-538ccd61f3be",
       "type": "reponse",
       "value": {
         "latex": "On a $g'(x) = 8x^3-4x$ et $h'(x) = 0$. Les points critiques de $g$ sont $-\\frac{1}{\\sqrt{2}}$, $0$ et $\\frac{1}{\\sqrt{2}}$. Donc $g$ est décroissante sur $[-1;-\\frac{1}{\\sqrt{2}}]$, croissante sur $[-\\frac{1}{\\sqrt{2}};0]$, décroissante sur $[0;\\frac{1}{\\sqrt{2}}]$ et croissante sur $[\\frac{1}{\\sqrt{2}};1]$. La fonction $h$ est constante égale à $1$ sur $[-1;1]$. On a $g\\left( -\\frac{1}{\\sqrt{2}} \\right) = g\\left( \\frac{1}{\\sqrt{2}} \\right) = \\frac{1}{2}$ et $g(-1)=g(0)=g(1) = 1$. Donc $g$ admet un minimum global égal à $\\frac{1}{2}$ sur $[-1;1]$ et un maximum global égal à $1$ sur $[-1;1]$.",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "f0b48733-b9a4-42bd-a535-fa593acdae78",
+      "id": "8268e79d-824b-4b51-9ce4-861c712e489f",
       "type": "question",
       "value": {
         "latex": "En déduire l'existence et le calcul d'un minimum et d'un maximum de la fonction $f$ sur le bord de $\\mathcal{D}$.",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "ad76b8e2-b993-4dc7-9090-a901b1256d68",
+      "id": "f43a0d6b-30c5-418d-b8d6-f047049e8bbe",
       "type": "reponse",
       "value": {
         "latex": "La restriction de $f$ au bord de $\\mathcal{D}$ est donnée par $g$ et $h$, selon qu'on se place sur la branche supérieure ou inférieure du bord de $\\mathcal{D}$. Donc, $f$ admet un minimum global égal à $\\frac{1}{2}$ et un maximum global égal à $1$ sur le bord de $\\mathcal{D}$.",
@@ -163,7 +163,7 @@
       }
     },
     {
-      "id": "480005e7-a003-46e4-9455-02bf645e3110",
+      "id": "e4db86c0-54ad-497d-9bbe-18b0a7e43af4",
       "type": "question",
       "value": {
         "latex": "En déduire la valeur du minimum global de $f$ sur  $\\mathcal{D}$ et la valeur du maximum global de $f$ sur   $\\mathcal{D}$.",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "id": "d7696ae0-59e8-4da1-96e8-6fb3d8d3d194",
+      "id": "c903872a-3f7d-42b2-b35d-ec44c4b2002f",
       "type": "reponse",
       "value": {
         "latex": "On a un minimum local de $f$ en $(0,0)$ égal à $0$, un minimum global de $f$ sur le bord de $\\mathcal{D}$ égal à $\\frac{1}{2}$ et un maximum global de $f$ sur le bord de $\\mathcal{D}$ égal à $1$. Donc, le minimum global de $f$ sur $\\mathcal{D}$ est $0$ et le maximum global de $f$ sur $\\mathcal{D}$ est $1$.",

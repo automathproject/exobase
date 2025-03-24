@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Ouvert, fermé, intérieur, adhérence",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:29.043Z"
+    "updatedAt": "2025-03-24T17:14:03.587Z"
   },
   "contenu": [
     {
-      "id": "8e615c08-58e0-4506-ba3e-b904459e208b",
+      "id": "6cd2d59e-ae53-4a59-ade7-eec3335c18b5",
       "type": "question",
       "value": {
         "latex": "Déterminer si les ensembles suivants sont ouverts ou fermés dans $\\R$.\n\t\n\t$$[0;1[ \\, , \\, [0;+\\infty[ \\, , \\, ]0;1[\\cup \\{2\\} \\, , \\, \\Z \\, , \\, \\left\\{\\frac{1}{n} \\in \\R \\, \\mid n \\in \\N^* \\right\\} $$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "13d53f4a-0ec0-461c-b24d-4c0641437e15",
+      "id": "b801a098-9b47-4747-aee5-f4c29f601c1b",
       "type": "reponse",
       "value": {
         "latex": "\\begin{itemize}\n\t\\item $[0;1[$ est ni ouvert, ni fermé ;\n\t\\item $[0;+\\infty[$ est fermé ;\n\t\\item $]0;1[\\cup \\{2\\}$ est ni ouvert, ni fermé ;\n\t\\item $\\Z$ est fermé ;\n\t\\item $\\left\\{\\frac{1}{n} \\in \\R \\, \\mid n \\in \\N^* \\right\\}$ est ni ouvert, ni fermé.\n\\end{itemize}",

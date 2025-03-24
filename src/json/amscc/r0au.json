@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:04.508Z"
+    "updatedAt": "2025-03-24T17:17:09.381Z"
   },
   "contenu": [
     {
-      "id": "7e270877-6266-4000-b72a-3b8342717068",
+      "id": "0d688f58-3b71-4b0e-9f99-5f1ea0726dfa",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = \\sin(xy)$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "735bba3c-efcd-498d-8758-f54b28811992",
+      "id": "9ab64dab-8bda-463a-aa76-3d9264f4fe1f",
       "type": "reponse",
       "value": {
         "latex": "1-B : la fonction est périodique en $x$ et en $y$ ; $f$ ne change pas quand on échange $x$ et $y$, i.e. le graphe est symétrique par rapport au plan d’équation $y = x$ ; $f (0, y) = f (x,0) = 0$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c31465b0-1ddb-4285-a9b8-650917da0898",
+      "id": "6a240a64-e910-4881-86f4-5dd956bd8054",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = \\sin(x-y)$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "bbbf6a67-7474-4883-b240-cd1edf571408",
+      "id": "e95c46d6-4592-4541-8078-85bfceb3d72b",
       "type": "reponse",
       "value": {
         "latex": "2-A : la fonction est périodique en $x$ et en $y$ ; $f$ est constante si $y = x +k$ (lignes de niveau parallèles à la droite d'équation $y=x$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "b60ad151-7335-465c-b006-9547a9e2e140",
+      "id": "ccef63f1-0b7e-4471-bb59-e9b696f985ad",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = (1-x^2)(1-y^2)$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "edf03f80-c0f3-42cb-8f50-8a3236af7515",
+      "id": "47ea9619-96e4-4d14-b0be-304c3c318350",
       "type": "reponse",
       "value": {
         "latex": "3-F : $f (\\pm1, y) = f (x,\\pm1) = 0$ ; la trace dans le plan $xz$ est $z = 1-x^2$ et dans le plan $yz$ est $z = 1-y^2$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "8352250f-871e-41dc-93c9-c78a85652a69",
+      "id": "94c9db8f-10e1-4be3-89af-beee64430f11",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = \\frac{x-y}{1+x^2+y^2}$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "90bd448f-4dcd-49b5-8fe8-efe1a65e9e1a",
+      "id": "e8e148d4-2581-4e04-b230-75896d23b385",
       "type": "reponse",
       "value": {
         "latex": "4-E : $f (x,x) = 0$ ; $f (x, y) > 0$ si $x > y$ ; $f (x, y) < 0$ si $x < y$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "f8c6bb7e-56bd-4b63-b1a5-ea43d95cb094",
+      "id": "03b0564d-cf54-404f-b00d-31451065bb08",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = e^x \\cos(y)$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "35285437-0149-40c4-8ccf-50c84d1d8695",
+      "id": "6fdeddad-d35d-40cf-8e5b-4e4037c374be",
       "type": "reponse",
       "value": {
         "latex": "5-D : la fonction est périodique en $y$ ;",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "ef5a303b-4eb2-47b4-93ee-959b5b27e07d",
+      "id": "80a8b11d-a323-4323-adf5-bbb186b3b7cb",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = \\sin(x)-\\sin(y)$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "3fd02ee2-11b5-47da-b292-cc9ada36e286",
+      "id": "390e022d-ecce-4f98-829c-257fdf935644",
       "type": "reponse",
       "value": {
         "latex": "6-C : la fonction est périodique en $x$ et en $y$.",

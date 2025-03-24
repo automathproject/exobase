@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-10",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:47.009Z"
+    "updatedAt": "2025-03-24T17:13:37.111Z"
   },
   "contenu": [
     {
-      "id": "e020e077-d937-4a37-83a8-d99fcf8542b1",
+      "id": "b4aafbe3-036f-4ca3-b1cf-79b7c8e02b5e",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $f$ définie sur $\\mathcal{D} \\subset \\R^2$ par \n$$f(x,y) = x^3 + y^3 - 3xy$$\noù $\\mathcal{D} = \\{ (x,y) \\in \\R^2 \\, , \\max(|x|,|y|) \\leq 2\\}$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "33bcb1fc-5f2b-4f12-ad2b-5cc542219bce",
+      "id": "aa4f9a2f-6e8e-4d34-9658-a396c8bedbdb",
       "type": "question",
       "value": {
         "latex": "Parmi les trois domaines représentés graphiquement ci-dessus, lequel est susceptible de représenter $\\mathcal{D}$ ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "bb4939e8-8786-45c1-9ced-e575b9c28c9b",
+      "id": "77dd3100-dfa8-40a6-b78c-5c03ae81be5f",
       "type": "question",
       "value": {
         "latex": "L'ensemble $\\mathcal{D}$ est-il ouvert dans $\\R^2$ ? fermé dans $\\R^2$ ? Justifier très brièvement.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "4449afcd-1566-421f-956a-f31d6f177cf4",
+      "id": "a7a2ea24-8297-461f-b48f-6a5b7c499f89",
       "type": "question",
       "value": {
         "latex": "Vérifier que $(0,0)$ et $(1,1)$ sont les deux seuls points critiques de $f$ dans l'intérieur du domaine  $\\mathcal{D}$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "592caff0-1ca3-4af0-9c4d-85db3aaef11c",
+      "id": "baa9352b-b52c-4939-87aa-d035411c061f",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle un extremum local sur l'intérieur de $\\mathcal{D}$ ?",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "fbee51e1-93e0-4be5-a26e-ca52e4f8cce0",
+      "id": "7769a0a8-5b30-429c-bd01-ed071dee4174",
       "type": "question",
       "value": {
         "latex": "Justifier que $f$ admet un maximum global sur $\\mathcal{D}$ et le calculer.",

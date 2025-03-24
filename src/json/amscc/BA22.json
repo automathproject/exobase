@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-12",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:54.078Z"
+    "updatedAt": "2025-03-24T17:13:42.094Z"
   },
   "contenu": [
     {
-      "id": "d0c4cff2-b330-4f8b-a3eb-063305ffc1a1",
+      "id": "3a40e2b8-6f96-474d-8a56-540c575fde0f",
       "type": "description",
       "value": {
         "latex": "Une entreprise utilise des camions pour transporter sa production. Elle dispose de 100 camions. Elle repère sur un échantillon de 25 jours choisis au hasard le nombre de camions en panne. Voici les résultats:\n\t\n\\begin{center}\n\t\t\\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\t\t\\hline\n5&5&6&4&6&6&8&3&5&5&5&4&3&6&5&6&4&7&6&6&5&4&3&6&5  \\\\\n\t\t\\hline\n\t\\end{tabular}\n\\end{center}",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "b49dedaa-1ff8-4b9e-a1d7-1e4b0c79e36a",
+      "id": "6c73b204-a2d5-4995-864f-f6bd8e9b5123",
       "type": "question",
       "value": {
         "latex": "Calculer la moyenne $\\bar{x}$ et l'écart-type $\\sigma$ du nombre de camions en panne chaque jour pour l'échantillon étudié.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "c79eaf86-6125-4869-8f24-2ce3552934e7",
+      "id": "136d8911-375f-4c3b-9f31-5acfeb40d0a9",
       "type": "reponse",
       "value": {
         "latex": "On trouve $\\bar{x} = 5.12$ et $\\sigma = 1.21$. (\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EeDHiet0b2JOpLX-9rFeI-kBsj_o9NtQ-Qz8hJvy6rlIpw?e=463Dks}{feuille de calcul}).",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "acf6166b-f71f-4018-8a1b-bab40e86ecc9",
+      "id": "b484d1fa-cc74-4ab4-8057-c2183bc6c080",
       "type": "question",
       "value": {
         "latex": "A partir des résultats obtenus pour cet échantillon, proposer une estimation ponctuelle sans biais de la moyenne $\\mu$ et de l'écart type $s$ du nombre de camions en panne chaque jour pour la population correspondant aux jours ouvrables de l'année.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "e8bb84e5-719b-49df-a6b5-d1e36c20fece",
+      "id": "fb486d5c-fd74-4314-adea-1fd5b0d8e7bb",
       "type": "reponse",
       "value": {
         "latex": "Pour cela, on utilise les estimateurs sans biais du cours : \n\\begin{itemize}\n  \\item Avec $\\overline{X} = \\frac{1}{n}\\sum_{i=1}^{n} X_i$, on obtient une estimation sans biais de la moyenne $\\bar{x} = 5.12$.\n  \\item Avec $S^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (X_i - \\overline{X})^2$, on obtient une estimation sans biais de la variance $s^2 = \\frac{n}{n-1} \\sigma^2 = \\frac{25}{24} \\times (1.21)^2 \\approx 1.53$ d'où une estimation sans biais de l'écart type $s = \\sqrt{\\frac{25}{24}}\\times 1.21 \\approx 1.24$. \n\\end{itemize}",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "fec8ce20-074f-4df3-a0b9-454ff4bf6889",
+      "id": "392ebab2-79c2-4a4e-9502-cf982ecdf367",
       "type": "question",
       "value": {
         "latex": "Déterminer un intervalle de confiance de la moyenne $\\mu$ de la population avec un niveau de confiance $95 \\%$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "d5753cb8-75a9-4120-9cd5-000d4fc6afc8",
+      "id": "1943342f-a6d7-432b-ad04-9bd51a52540f",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule du cours pour un petit échantillon. Pour cela, on doit suppose que la distribution du nombre de pannes est normale dans la population. \n\nPar lecture de la table de la loi de Student $St(24)$, on obtient $t_{\\alpha/2 } \\approx 2.063899$ d'où\n$$\\left[\\bar{x} - t_{\\alpha/2 }\\frac{s}{\\sqrt{n}};\n\\bar{x} + t_{\\alpha/2 }\\frac{s}{\\sqrt{n}}\\right] \\approx [4.609;5.630]$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "16c0a15a-69fc-447a-9da5-503ba9b6a9ea",
+      "id": "5edeb6d0-3cba-4750-94c7-c12abcfc02f4",
       "type": "question",
       "value": {
         "latex": "Au garage où sont stationnés les camions, le responsable affirme qu'il y a, en moyenne, 4 camions en panne par jour. Un des chauffeurs prétend qu'il y en a 6. \n\t\nConstruire un test avec les hypothèses $\\begin{cases}H_0 \\colon \\mu = 4 \\\\ H_1 \\colon \\mu > 4\n\t\\end{cases}$ et un risque de première espèce de $5 \\%$ puis proposer une interprétation du résultat.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "47dfe657-df09-4908-9c18-abbf58d95160",
+      "id": "ad7633bf-596f-45bf-8e21-0bd0fdb1ba77",
       "type": "reponse",
       "value": {
         "latex": "On réalise un test de conformité pour une moyenne. Pour cela, on prend la variable de décision $$Z=\\frac{\\overline{X}-\\mu_0}{\\frac{S}{\\sqrt{n}}}$$ avec $n=25$. Cette variable suit une loi $St(24)$ et par lecture de table pour ce test unilatéral à droite, on trouve une zone de rejet $W = [1.71;+\\infty[$. \n\nOr $Z_{obs} \\approx 4.53$ donc on peut rejeter l'hypothèse qu'il y a en moyenne 4 camions en panne par jour avec un risque de $5\\%$. Il y en a vraisemblablement plus. On pourrait refaire un test pour tester l'hypothèse du chauffeur $\\mu = 6$.",

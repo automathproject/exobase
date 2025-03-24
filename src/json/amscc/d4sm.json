@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-29",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:47.373Z"
+    "updatedAt": "2025-03-24T17:15:12.435Z"
   },
   "contenu": [
     {
-      "id": "9a5743b4-179e-45d6-a388-f19642e152d3",
+      "id": "14f99935-3826-487a-995f-9072bb8e3401",
       "type": "question",
       "value": {
         "latex": "Vérifier que la fonction $f$ définit bien une densité de probabilité.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "7b0b9d26-05ed-466d-a912-6d0ec59fae21",
+      "id": "3e5d9e9e-8b37-463f-bf0b-c01aa4ab4280",
       "type": "reponse",
       "value": {
         "latex": "Pour que $ f $ soit une densité, l'intégrale de $ f $ doit être égale à 1. On a : \n        $$\\begin{align*}\n            \\int_1^{+\\infty} \\alpha \\left( \\frac{1}{x} \\right)^{\\alpha+1} dx &= \\alpha \\int_1^{+\\infty} x^{-(\\alpha+1)} dx \\\\\n            &= \\alpha \\left[ \\frac{x^{-\\alpha}}{-\\alpha} \\right]_1^{+\\infty} \\\\\n            &= \\frac{\\alpha}{\\alpha} = 1\n        \\end{align*}$$\n        Donc $f$ est positive et $\\int f = 1$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c6994de8-4573-410c-9286-8576cf2ed42e",
+      "id": "d7e5c546-0579-4edf-8b1b-4d593e0dd977",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $ X $.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "7c0bf93c-ada8-4652-ab9f-72488a59c57c",
+      "id": "d1ccf6a8-8f1e-43bc-9c79-0073d5386eeb",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$. Si $t \\leq 1$, alors $F_X(t) = 0$. Si $t > 1$, alors :\n            $$\\begin{align*}\n                F_X(t) &= \\int_1^t \\alpha \\left( \\frac{1}{x} \\right)^{\\alpha+1} dx \\\\\n                &= \\alpha \\left[ \\frac{x^{-\\alpha}}{-\\alpha} \\right]_1^t \\\\\n                &= 1 - \\frac{1}{t^\\alpha}\n            \\end{align*}$$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "9e6f8cad-a49a-4ec7-b861-3f4b78650a97",
+      "id": "3c7e15cf-000d-4207-bbd8-8f5534740bb1",
       "type": "question",
       "value": {
         "latex": "Étudier l'existence de $ \\E(X)$ en fonction de la valeur du paramètre $\\alpha$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "1a167055-28af-4afe-902a-6d6ee9b70556",
+      "id": "2889c2f6-83e1-4a47-9c89-ddd09c06e322",
       "type": "reponse",
       "value": {
         "latex": "Si elle existe, l'espérance de $ X $ est $ \\int_1^{+\\infty} x \\alpha \\left( \\frac{1}{x} \\right)^{\\alpha+1} dx$. Or cette intégrale existe si et seulement si $ \\alpha > 1 $.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "28a83cf6-cf9d-4fd2-b8bd-1f4663df78fe",
+      "id": "675a24ef-c6c7-41e3-bb28-65625030b312",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de la variable aléatoire $Y$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "fae46a15-50b7-41f5-8125-f09df28d4c36",
+      "id": "1c80da1a-486e-41f8-8b96-b999bd16ed76",
       "type": "reponse",
       "value": {
         "latex": "Soit $ t \\in \\R $. Si $ t \\leq s+1 $, alors $ F_Y(t) = 0 $. Si $ t > s+1 $, alors :\n            $$\\begin{align*}\n                F_Y(t) &= \\prob(Y \\leq t) \\\\\n                &= \\prob(rX + s \\leq t) \\\\\n                &= \\prob(X \\leq \\frac{t-s}{r}) \\\\\n                &= F_X\\left( \\frac{t-s}{r} \\right) \\\\\n                &= 1 - \\frac{1}{\\left( \\frac{t-s}{r} \\right)^\\alpha} \\\\\n                &= 1 - \\left( \\frac{r}{t-s} \\right)^\\alpha\n            \\end{align*}$$\n            Par dérivation, on trouve que $Y$ est une variable aléatoire absolument continue et que la densité de $Y$ est $ f_Y(x) = \\mathbf{1}_{]s+1;+\\infty[}(x) \\frac{\\alpha}{r} \\left( \\frac{r}{x-s} \\right)^{\\alpha+1} $. On trouve une loi de Pareto de paramètre $(\\alpha, r, s+1)$.",

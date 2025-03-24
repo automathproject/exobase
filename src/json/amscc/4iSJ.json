@@ -11,17 +11,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-12-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:25.314Z"
+    "updatedAt": "2025-03-24T17:13:23.244Z"
   },
   "contenu": [
     {
-      "id": "f6d61227-9f33-4887-910f-f7ecbd13944d",
+      "id": "3ee5e6d9-20c2-44e9-8ed9-254151a5ac05",
       "type": "description",
       "value": {
         "latex": "On souhaite quantifier la qualité d'un algorithme de classification d'images. \n\n\n\n\n\n\n\n\n\nL'algorithme ne retourne pas une catégorie à partir d'une image $i$, mais seulement une grandeur $G_i$ qui permet de déterminer la classe la plus probable. On note $X_i$ l'erreur commise par l'algorithme pour la valeur $G_i$. \n\nOn suppose que $X_i$ suit une loi normale centrée de variance $\\sigma^2$.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "236845c5-dccd-4297-abd3-480b4fa2250a",
+      "id": "9c5b2cf4-8b8c-4d48-8370-e11d2f15c522",
       "type": "description",
       "value": {
         "latex": "Sur un premier échantillon de 25 images, on obtient une erreur moyenne de $0{,}01$ calculée avec l'estimateur de moyenne empirique et une variance de 0{,}25 calculée avec l'estimateur $\\tilde{S}^2=\\frac{1}{n}\\sum_{i=1}^n (X_i-\\overline{X})^2$.",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "972191f9-c6eb-4dbb-950a-942f0fbb174b",
+      "id": "af4bf6d1-0e4b-4f07-8d16-62d721d98a28",
       "type": "question",
       "value": {
         "latex": "Donner une estimation non biaisée de $\\sigma^2$.",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "b49e56a8-652a-4637-9096-7bf99559d95d",
+      "id": "bcb51991-2544-487c-8353-f5ac2f4a79a7",
       "type": "question",
       "value": {
         "latex": "Avec un risque d'erreur de $10\\%$, peut-on remettre en cause l'hypothèse que l'espérance de $X_i$ est nulle ?",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "d205097a-4206-40dd-9ba8-e82a437b6291",
+      "id": "46ab6c4f-8d27-4513-b172-04632a62aaab",
       "type": "description",
       "value": {
         "latex": "Pour étudier la stabilité de l'algorithme par rapport au bruitage des images, on étudie un second échantillon de $25$ images bruitées. On obtient avec les mêmes estimateurs que précédemment une erreur empirique de $0{,}012$ et une variance de $0{,}50$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "c2472e90-29cc-4d68-b704-0166b9f5923e",
+      "id": "37e86cff-69e9-405a-a06b-42209ca31ccc",
       "type": "question",
       "value": {
         "latex": "Donner une estimation non biaisée $\\sigma^2$ à partir de cet échantillon.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "793f9eb4-25fa-4ec4-aeb2-ef0eb0a1e62b",
+      "id": "e2bf3a5f-3d28-4faf-8b0b-f210ab612641",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de la variable $\\frac{n}{\\sigma^2}\\tilde{S}^2$ puis de $\\frac{n-1}{\\sigma^2}{S}^2$ où $S^2$ est l'estimateur de variance non biaisé pour un échantillon de taille $n$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "7d730536-de2f-4a47-8bcc-f55e1ff2da73",
+      "id": "40bd8a8c-483e-42a7-b672-b2d6c9f36a13",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de la variable $\\frac{S_2^2}{S_1^2}$ où $S_i^2$ est l'estimateur de variance non biaisé de l'échantillon $i \\in \\{1;2\\}$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "5a7f7f22-3820-4c49-baff-1be7c5e9a467",
+      "id": "7521669a-7a62-4a84-9052-fecdfd1c0194",
       "type": "question",
       "value": {
         "latex": "En considérant le quotient de la plus grande variance par la plus petite, construire et mettre en oeuvre un test d'hypothèse permettant de dire si la variance obtenue dans l'échantillon 2 et significativement plus élevée que celle de l'échantillon 1.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Topologie",
+    "sousChapitre": "Suite dans Rn",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:26.685Z"
+    "updatedAt": "2025-03-24T17:15:38.465Z"
   },
   "contenu": [
     {
-      "id": "9e971e91-16ba-40fc-912a-2e97a1e360c4",
+      "id": "ccbaf9dc-676e-4141-bfe7-08b743da4126",
       "type": "description",
       "value": {
         "latex": "Pour tout $k \\in \\N$, on pose \n$$X_k = \\left(\\frac{2}{1+k} , 1+e^{-k} \\right) \\in \\R^2$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d5f8c898-7abe-4b8e-837b-76d2b42bb990",
+      "id": "ab1f0672-c55a-4218-850f-534b1bed0924",
       "type": "question",
       "value": {
         "latex": "Soit $\\ell = (0,1)$. Calculer $||X_k-\\ell||_{2}$ où $||.||_{2}$ est la norme euclidienne.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9367c1ce-4c36-42b7-a23e-3baaf0a86a3c",
+      "id": "4ebc433a-7612-4f33-98c1-428741a7beb8",
       "type": "reponse",
       "value": {
         "latex": "$||X_k-\\ell||_{2} = \\sqrt{\\left(\\frac{2}{1+k}\\right)^2 + \\left(e^{-k}\\right)^2} = \\sqrt{\\frac{4}{(1+k)^2} + e^{-2k} }$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "4cd7c29b-0eb1-4447-97f1-cf5817c0a52a",
+      "id": "ba88b67c-3dc9-43c1-8775-97db0ec91f01",
       "type": "question",
       "value": {
         "latex": "En déduire la convergence de la suite $(X_k)$ dans $\\R^2$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "9dfa032a-8789-4df5-831a-4b02a29be163",
+      "id": "8a2620da-cd44-446b-8328-7feffc717d97",
       "type": "reponse",
       "value": {
         "latex": "$||X_k-\\ell||_{2} \\xrightarrow[k \\to +\\infty]{}0$ donc $X_k \\xrightarrow[k \\to +\\infty]{}\\ell$.",

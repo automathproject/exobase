@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:15.119Z"
+    "updatedAt": "2025-03-24T17:14:48.346Z"
   },
   "contenu": [
     {
-      "id": "8f694597-4b33-4492-82b0-bfa979ab7f4c",
+      "id": "81de4e91-9c97-4759-9348-ba75c8261ab4",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda>0$ et $X$ une variable aléatoire admettant pour densité $f(x)=\\lambda e^{-\\lambda x}1_{[0;+\\infty[}(x)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "595ca372-f805-40d9-add4-84c2eff0ca09",
+      "id": "c7b041f2-8374-4906-a74c-1084f5e15653",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ définit bien une fonction densité, puis déterminer la fonction de répartition $F_X$ de $X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9611834f-db22-4bc8-9a1a-b5c510464f06",
+      "id": "67264028-28fd-48a5-ab4f-ed4aa0daf60a",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de vérifier que $f(x) \\geq 0$ pour tout $x \\in \\R$ puis de calculer :\n \t$$\\begin{align*}\n \t\\int_{-\\infty}^{+\\infty} f(x)dx &= \\int_0^{+\\infty} \\lambda e^{-\\lambda x} dx \\\\\n \t                               &= \\left[-e^{-\\lambda x}\\right]_0^{+\\infty} \\\\\n \t                               &= 1\n \t\\end{align*}$$\nOn détermine maintenant la fonction de répartition : soit $t \\in \\R$ ;\n\\begin{itemize}\n\t\\item si $t<0$, alors $F_X(t) = \\int_{-\\infty}^t f(x)dx = \\int_{-\\infty}^t 0 dx = 0$ ;\n\t\\item si $t \\geq 0$, alors $F_X(t) = \\int_{-\\infty}^t f(x)dx = \\int_{-\\infty}^0 0 dx + \\int_0^t \\lambda e^{-\\lambda x} dx = 0 + \\left[-e^{-\\lambda x}\\right]_0^t = 1 - e^{-\\lambda t}$.\n\\end{itemize}",

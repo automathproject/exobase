@@ -11,17 +11,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-11",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:48.348Z"
+    "updatedAt": "2025-03-24T17:15:52.551Z"
   },
   "contenu": [
     {
-      "id": "a386fe75-0e09-41b6-b7e0-7ed6d73b1afa",
+      "id": "45956dc0-4f42-40c2-9208-e3d22c07a722",
       "type": "description",
       "value": {
         "latex": "Soit $(X_n)$ une suite de variables aléatoires i.i.d. selon une loi normale $\\mathcal{N}(0,1)$. On définit la suite de variables aléatoires $(Y_n)$ par $$Y_n = \\frac{1}{n} \\sum_{k=1}^n \\sqrt{k} X_k$$",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "a8e0baac-6d13-4d9c-995a-fa9bdec91a75",
+      "id": "0e3edca4-54f1-4fc9-913b-dbdd4f1cf258",
       "type": "question",
       "value": {
         "latex": "Etudier le comportement asymptotique en loi de la suite $(Y_n)$.",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "084358a3-c6ea-497c-9aaf-1b8deb0ef85e",
+      "id": "779a16cc-ed57-4542-acab-31d17c375f4d",
       "type": "reponse",
       "value": {
         "latex": "Les variables $\\sqrt{k}X_k$ ne sont pas identiquement distribuées ! on se lance donc dans un calcul de limite << à la main >>. \n\t\n\tPar indépendance, $Y_n$ suit une loi normale d'espérance $0$ et de variance $\\frac{1}{n^2}\\sum_{k=1}^n \\sqrt{k}^2 \\times 1 = \\frac{1}{n^2} \\times \\frac{n(n+1)}{2}$. On peut donc écrire $Y_n = \\sqrt\\frac{n(n+1)}{2n^2} Z_n$ où $Z_n$ suit une loi normale $\\mathcal{N}(0,1)$.\n\t\n\tSoit $\\varphi_{Y_n}(t)$ la fonction caractéristique de $Y_n$. On sait que $\\varphi_{Z_n}(t) = e^{\\frac{-t^2}{2}}$ donc $$\\varphi_{Y_n}(t) = \\varphi_{Z_n}\\left( \\sqrt\\frac{n(n+1)}{2n^2} t \\right) = e^{- \\frac{-n(n+1)}{2n^2}t^2}$$. \n\t\n\tEn passant à la limite, $\\varphi_{Y_n}(t) \\xrightarrow[n \\to +\\infty]{} e^{- \\frac{t^2}{4}}$. On reconnait la fonction caractéristique de $\\frac{1}{\\sqrt{2}}Z_n$ qui suit une loi normale $\\mathcal{N}(\\mu=0,\\sigma^2 = \\frac{1}{2})$.\n\t\n\tOn a ainsi démontré que la suite $(Y_n)$ converge en loi vers une loi normale  $\\mathcal{N}(\\mu=0,\\sigma^2 = \\frac{1}{2})$.",

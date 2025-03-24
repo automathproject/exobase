@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-12",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:31.252Z"
+    "updatedAt": "2025-03-24T17:15:41.120Z"
   },
   "contenu": [
     {
-      "id": "972c0f11-42ab-482a-8509-96d1071ca7a5",
+      "id": "ea3d2dc3-8784-4897-b9a9-c5bf7412ba57",
       "type": "description",
       "value": {
         "latex": "L'équipe médicale d'une entreprise fait ses\n statistiques sur le taux de cholestérol de ses employés; les\nobservations sur 100 employés tirés au sort sont les suivantes.\n\n\\begin{center}\n\t\\begin{tabular}{c|c}\n\ttaux de cholestérol en cg:(centre classe) & effectif d'employés: \\\\\n\t\\hline $120$ & $9$ \\\\ \n\t$160$ & $22$ \\\\ \n\t$200$ & $25$ \\\\ \n\t$240$ & $21$ \\\\ \n\t$280$ & $16$ \\\\ \n\t$320$ & $7$\n\\end{tabular}\n\\end{center}",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "83bc566c-01f2-487a-a216-aceabb5609dd",
+      "id": "3556dc00-59bd-44fa-9270-a187716c6fbb",
       "type": "question",
       "value": {
         "latex": "Calculer la moyenne $m_{e}$ et la variance $\\sigma_{e}^2$ sur l'échantillon.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "09ed7709-69d8-4212-8049-b9ad06badb7b",
+      "id": "48ecc723-50b6-4b4f-89f2-f67acac18be8",
       "type": "reponse",
       "value": {
         "latex": "On obtient, sur l'échantillon, la moyenne $m_{e}=213{,}6$, l'écart-type $\\sigma _{e}=55.7767$. (\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EWYi-azbRsdHtG21-VGJXbcBqFKfHOj8SPV3FMXeKLBM1g?e=fBHC4S}{feuille de calcul})",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "2ed25357-9b7d-48b8-b02b-1ba8b9550369",
+      "id": "ea40f68e-5ffe-4744-8f1e-0bd5d55f75bd",
       "type": "question",
       "value": {
         "latex": "Estimer sans biais la moyenne et l'écart-type pour le taux de cholestérol dans toute l'entreprise.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "000136aa-e177-47e5-aa4a-0eb39df03750",
+      "id": "01cb6b5a-14b7-4b18-be19-c138d1c7e22d",
       "type": "reponse",
       "value": {
         "latex": "La moyenne sur l'entreprise est estimée sans biais par l'estimateur $\\overline{X} = \\frac{1}{n}\\sum_{i=1}^{n} X_i$ qui se réalise en $m_{e}=213{,}6$.\n\t\tLa variance est estimée sans biais par l'estimateur $S^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (X_i - \\overline{X})^2$ donc l'écart-type est estimé par: $s_{e}=\\sqrt{\\frac{100}{99}}55.77\\simeq 56.06$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "2c211507-e1d6-4300-99ad-e5ddc72fc055",
+      "id": "2cdb7916-3ca5-4387-b8d3-6983c82254d1",
       "type": "question",
       "value": {
         "latex": "Déterminer un intervalle de confiance  permettant d'estimer la moyenne du taux de cholestérol de tous les employés de cette entreprise avec une confiance de $90\\%$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "fe386569-4487-471c-a71c-3a322e20e4da",
+      "id": "254011a9-f7f8-45d8-bba9-1323c1b2c558",
       "type": "reponse",
       "value": {
         "latex": "On en déduit, au seuil 90\\%, un intervalle de confiance pour la \tmoyenne par lecture de table de la loi normale centrée réduite avec $u_{\\alpha/2 } \\approx 1{,}644854$ : \n\t\t$$\\left[m_{e} - u_{\\alpha/2 }\\frac{s_{e}}{\\sqrt{n}};\n\t\tm_{e} + u_{\\alpha/2 }\\frac{s_{e}}{\\sqrt{n}}]=[204.379;222.821\\right]$$.\n\t\tAinsi le taux moyen de cholestérol est, à un seuil de confiance $90$\\%, \n\t\tsituée entre $204$ et $223$ cg.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:47.876Z"
+    "updatedAt": "2025-03-24T17:14:25.592Z"
   },
   "contenu": [
     {
-      "id": "62812ea5-740f-4335-b62b-c3fbe52b9c95",
+      "id": "5200fc57-2df3-47c7-9a59-58f3250a2f0a",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\R^2 \\to \\R$,\n$$ (x,y) \\mapsto \\left\\{ \\begin{array}{ll} \\dfrac{x^2 y}{x^4 - 2x^2y + 3y^2} & \\text{ si } (x,y) \\neq (0,0) \\\\\n0 & \\text{ si } (x,y) = (0,0) \\end{array} \\right.\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "19d0545b-abad-46df-9123-d5892d47bcc5",
+      "id": "adcc99e8-ab09-4f4f-a500-1de281f63ee4",
       "type": "question",
       "value": {
         "latex": "Montrer que la restriction de $f$ à toute droite passant par l'origine est continue en $(0,0)$. Autrement dit, montrer que les trois limites suivantes existent et sont égales à $0$ :\n\t\\begin{enumerate}\n\t\t\\item $\\lim\\limits_{x \\to 0} f(x,0)$,\n\t\t\\item $\\lim\\limits_{x \\to 0} f(x,ax)$, pour $a \\in \\R^*$,\n\t\t\\item $\\lim\\limits_{y \\to 0} f(0,y)$\n\t\\end{enumerate}",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "84a32c7c-7921-4825-89e5-1e2f2c1f28b4",
+      "id": "7b6207e9-2510-473d-a0a2-673bcf18d166",
       "type": "reponse",
       "value": {
         "latex": "On a effectivement $f(x,0) = 0  \\xrightarrow[x \\to 0]{} 0$, $f(x,ax) = \\frac{ax}{x^2-2ax+3a^2}  \\xrightarrow[x \\to 0]{} 0$ et $f(0,y) = 0 \\xrightarrow[y \\to 0]{} 0$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "0cf69961-8481-4b85-9789-c4ec099f5315",
+      "id": "a161be00-e074-4c3a-92fe-1c4125200ad8",
       "type": "question",
       "value": {
         "latex": "Calculer la limite en $(0,0)$ de la restriction de $f$ à la courbe d'équation $y=x^2$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "cff3fec4-844b-4711-a343-09505e69a068",
+      "id": "e6ab6905-e3c1-4de3-8e66-afc9ba974f9a",
       "type": "reponse",
       "value": {
         "latex": "On évalue $f$ sur la courbe d'équation $y=x^2$ : quelque soit $x$, $f(x,x^2) = \\frac{x^4}{x^4(1-2+3)} = \\frac{1}{2} \\xrightarrow[x \\to 0]{} \\frac{1}{2}$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "5dd47c70-0131-407d-b64a-caa3e3c345c3",
+      "id": "70365334-5b1b-4cb6-b307-3b1c5fcafc22",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle continue en $(0,0)$~? Justifier.",
@@ -67,15 +67,7 @@
       }
     },
     {
-      "id": "2209b7cd-76f8-4b46-9954-27473ca6a847",
-      "type": "indication",
-      "value": {
-        "latex": "Pour que la fonction $f$ soit continue en $(0,0)$, il faut que la limite de $f$ en $(0,0)$ soit égale à $f(0,0)$.",
-        "html": "<p>Pour que la fonction <span class=\"math inline\">\\(f\\)</span> soit\ncontinue en <span class=\"math inline\">\\((0,0)\\)</span>, il faut que la\nlimite de <span class=\"math inline\">\\(f\\)</span> en <span\nclass=\"math inline\">\\((0,0)\\)</span> soit égale à <span\nclass=\"math inline\">\\(f(0,0)\\)</span>.</p>\n"
-      }
-    },
-    {
-      "id": "1eced402-2b0e-4b2e-9907-609db01f7db6",
+      "id": "ef8fb4a9-425c-4e58-8915-d1f94aa40005",
       "type": "reponse",
       "value": {
         "latex": "D'après ce qui précède, $f$ n'est pas continue en $(0,0)$ puisqu'on observe des limites différentes en $(0,0)$ selon le chemin suivi.",

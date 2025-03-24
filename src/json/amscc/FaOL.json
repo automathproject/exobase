@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Propriétés élémentaires, généralités",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:21.302Z"
+    "updatedAt": "2025-03-24T17:13:57.104Z"
   },
   "contenu": [
     {
-      "id": "e7aba2a3-8fd7-4900-b1de-1c73db9375a2",
+      "id": "6ad6a4f9-4dfa-4643-9f22-f6360e818aea",
       "type": "description",
       "value": {
         "latex": "Soient les matrices $A=\\begin{pmatrix}0 & 0 \\\\ 0 & 1\\end{pmatrix}$ et $B=\\begin{pmatrix}0 & 0 \\\\ 1 & 0\\end{pmatrix}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "11aab1d6-b677-47a0-b793-d28c7d044d11",
+      "id": "5085e7aa-4111-47a9-9838-35ec5ff232a3",
       "type": "question",
       "value": {
         "latex": "A-t-on $A^2-B^2=(A+B)(A-B)$ ? Justifier.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "885c61bd-a9b4-415a-90c1-64cfa992a99f",
+      "id": "7b4e1e97-776f-49ca-a7b7-0dee5ac52712",
       "type": "question",
       "value": {
         "latex": "Déterminer une condition nécessaire et suffisante pour obtenir l'égalité.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "9c991ba6-a025-4f28-ba2f-196a86a441f1",
+      "id": "c02a8b0b-d355-4078-84be-0ff53851bebe",
       "type": "reponse",
       "value": {
         "latex": "$$\n\t\t\\begin{aligned}\n\t\t& A^2=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t0 & 1\n\t\t\\end{pmatrix} \\cdot \\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t0 & 1\n\t\t\\end{pmatrix}=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t0 & 1\n\t\t\\end{pmatrix} \\\\\n\t\t& B^2=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t1 & 0\n\t\t\\end{pmatrix} \\cdot \\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t1 & 0\n\t\t\\end{pmatrix}=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t0 & 0\n\t\t\\end{pmatrix} \\\\\n\t\t& A^2-B^2=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t0 & 1\n\t\t\\end{pmatrix} \\\\\n\t\t& A+B=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t1 & 1\n\t\t\\end{pmatrix} \\\\\n\t\t& A-B=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t-1 & 1\n\t\t\\end{pmatrix} \\\\\n\t\t& (A+B) \\cdot(A-B)=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t1 & 1\n\t\t\\end{pmatrix} \\cdot \\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t-1 & 1\n\t\t\\end{pmatrix}=\\begin{pmatrix}\n\t\t0 & 0 \\\\\n\t\t-1 & 1\n\t\t\\end{pmatrix}\n\t\t\\end{aligned}\n\t\t$$\n\t\tAinsi :\n\t\t$$\n\t\tA^2-B^2 \\neq(A+B)(A-B)\n\t\t$$\n\t\tJustification :\n\t\t$$\n\t\t(A+B)(A-B)=A^2 \\underbrace{-AB+BA}_{\\neq 0}-B^2\n\t\t$$\n\t\tcar $BA \\neq A B$.\n\t\tPour avoir l'égalité, il faut et il suffit que $A$ et $B$ commutent : $B A=A B$.",

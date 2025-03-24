@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:39.574Z"
+    "updatedAt": "2025-03-24T17:14:17.945Z"
   },
   "contenu": [
     {
-      "id": "a1f1c46b-b7dc-42fd-85e8-6f1af7e23f33",
+      "id": "5b66ba90-3ea4-4663-ba48-45ca317118be",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire suivant une loi uniforme sur $[0;1]$. On rappelle que $X$ admet pour densité : $$f(x)=\\textbf{1}_{[0;1]}(x)$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d08b5dbf-86cd-47a5-bbdf-5f377ebff22d",
+      "id": "2fb48538-bbe9-4128-8082-4e0d8eef9178",
       "type": "question",
       "value": {
         "latex": "A l'aide d'une fonction de répartition, déterminer la loi de la variable aléatoire $2X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "67965b8a-e267-4cf8-bc1e-0edd09ef7322",
+      "id": "f117324f-baf1-46aa-9ab9-03872b662b62",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$ et $F_{2X}$ la fonction de répartition de la variable aléatoire $2X$ : alors\n $$\\begin{align*}\n F_{2X}(t) &= \\PP(2X \\leq t) \\\\\n           &= \\PP\\left(X \\leq \\frac{t}{2}\\right)\\\\\n           &= \\int_{-\\infty}^{\\frac{t}{2}} 1_{[0;1]}(x) dx\\\\\n           &=\\begin{cases}\n           0& \\text{ si } t \\leq 0 \\\\\n           \\frac{t}{2} & \\text{ si } 0 < t \\leq 2 \\\\\n           1 & \\text{ si } t \\geq 2\n           \\end{cases}\n \\end{align*}$$\t\nLa fonction $F_{2X}$ est dérivable presque partout (sauf en ${0}$ et en $2$). Sa dérivée coïncide donc presque partout avec une fonction densité $g$ de la variable $2X$. On peut donc poser \n$$g(x)=\\frac{1}{2}\\textbf{1}_{[0;2]}(x)$$\net on conclut que $2X$ suit une loi uniforme sur $[0;2]$.",

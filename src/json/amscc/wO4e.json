@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:25.289Z"
+    "updatedAt": "2025-03-24T17:17:20.581Z"
   },
   "contenu": [
     {
-      "id": "9b6f94d3-06a4-4c54-94b1-3dace96e2114",
+      "id": "77dbcb18-e80a-43fc-a532-6d5533a046e5",
       "type": "question",
       "value": {
         "latex": "Résoudre le système d'équations suivant, où $x, y, z \\in \\mathbb{R}_{+}^*$ :\n$$(\\mathcal{S})\\left\\{\\begin{array}{l}y^3 \\times z^5=2 x^2 \\\\ x \\times y^4 \\times z^3=1 \\\\ x \\times z^2=3 y\\end{array}\\right.$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "75126070-7e5f-4d80-984e-b0d1dece6f76",
+      "id": "671f3e09-41d0-4f52-a518-0b5f3f6dc63b",
       "type": "reponse",
       "value": {
         "latex": "On pose $X = \\ln(x)$, $Y = \\ln(y)$, $Z = \\ln(z)$ et on utilise les formules suivantes :\n$$\n\\begin{aligned}\n& \\ln (a \\times b)=\\ln a+\\ln b \\\\\n& \\ln \\left(a^n\\right)=n \\ln a \\\\\n& (\\mathcal{S})\\Leftrightarrow \\quad \\begin{array}{c}\n\\ell_1 \\\\\n11 \\ell_3+5 \\ell_2\n\\end{array}\\left\\{\\begin{array}{l}\nX+4 Y+3 Z=0 \\\\\nY+Z=\\frac{\\ln 2}{11} \\\\\n44 Z=11 \\cdot \\ln 3+5 \\cdot \\ln 2\n\\end{array}\\right. \\\\\n& \\Leftrightarrow\\left\\{\\begin{array}{l}\nX=\\frac{11 . \\ln 3-11 . \\ln 2}{44} \\\\\nY=\\frac{-11 . \\ln 3-\\ln 2}{44} \\\\\nZ=\\frac{11 . \\ln 3+5 \\ln 2}{44}\n\\end{array}\\right. \\\\\n&\n\\end{aligned}\n$$\n$\\Rightarrow\\left\\{\\begin{array}{l}x=e^X=e^{\\frac{11}{44} \\ln 3-\\frac{11}{44} \\ln 2}=\\frac{3^{\\frac{1}{4}}}{2^{\\frac{1}{4}}} \\\\ y=e^Y=e^{-\\frac{11}{44} \\ln 3-\\frac{1}{44} \\ln 2}=3^{-\\frac{1}{4}} \\times 2^{-\\frac{1}{44}} \\\\ z=e^Z=e^{\\frac{11}{44} \\ln 3+\\frac{5}{44} \\ln 2}=3^{\\frac{1}{4}} \\times 2^{\\frac{5}{44}}\\end{array}\\right.$",

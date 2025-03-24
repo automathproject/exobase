@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:31.018Z"
+    "updatedAt": "2025-03-24T17:17:24.938Z"
   },
   "contenu": [
     {
-      "id": "36514dd7-c6d1-4a53-929a-339e7f51f4e2",
+      "id": "ea8ab5e2-1a39-41c6-9586-14dd664879c2",
       "type": "description",
       "value": {
         "latex": "Soit $f$ une fonction définie pour tout $x \\in \\R$ par $f(x)=\\frac{1}{\\pi}\\frac{1}{1+x^2}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "0f4d39bc-22a4-4617-a3ed-f8b32f94a09a",
+      "id": "6d2c46d3-c270-4799-8bec-c1a17bdb0da3",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ définit une densité de probabilité. On note $X$ une variable aléatoire admettant $f$ pour densité.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2b85d4a9-807f-48c2-82b2-0f4789d69df5",
+      "id": "0fafd524-118e-4aa0-907b-d8ffc59caf23",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de vérifier que $f(x) \\geq 0$ pour tout $x \\in \\R$ puis de calculer :\n\t\t$$\\begin{align*}\n\t\t\t\\int_{-\\infty}^{+\\infty} f(x)dx &= \\int_{-\\infty}^{+\\infty} \\frac{1}{\\pi}\\frac{1}{1+x^2} dx \\\\\n\t\t\t&= \\frac{1}{\\pi}\\left[\\arctan(x)\\right]_{-\\infty}^{+\\infty} \\\\\n\t\t\t&= \\frac{1}{\\pi} \\left( \\frac{\\pi}{2}- \\left( -\\frac{\\pi}{2}   \\right)  \\right) \\\\\n\t\t\t&= 1\n\t\\end{align*}$$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "dd7fa8b8-1ad3-4df9-bff4-49dc7d1bd1c7",
+      "id": "0b74a4e1-6675-4f59-92dd-8f289cc397a9",
       "type": "question",
       "value": {
         "latex": "Montrer que $X$ n'admet pas de moment d'ordre 1.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "ff367cf9-47c3-47e5-ac6f-c7f2f991fb29",
+      "id": "3993c2a1-77fb-4187-97b2-7b81a33e9abf",
       "type": "reponse",
       "value": {
         "latex": "On remarque que $x \\times \\frac{1}{1+x^2} \\underset{x\\to +\\infty}\\sim \\frac{1}{x}$ donc par comparaison, la fonction $x \\mapsto xf(x)$ n'est pas intégrable au voisinage de $+\\infty$. Donc $X$ n'est pas intégrable et $\\mathbb{E}(X)$ n'existe pas.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "c0d5fd45-ff06-48e6-a105-b2ab7e523f07",
+      "id": "20470673-26f7-4ba5-845e-7ec593410b77",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction de répartition de $X$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "c83ca570-95dd-4fbb-868d-479b47b5bfa5",
+      "id": "52726cf6-4ac4-422e-a60d-4da178ae7a70",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$ : \n\t\t$$\\begin{align*}\n\t\t\tF_X(t) &= \\PP(X \\leq t ) \\\\\n\t\t\t&= \\int_{-\\infty}^{t} f(x)dx \\\\\n\t\t\t&= \\frac{1}{\\pi}\\left[\\arctan(x)\\right]_{-\\infty}^{t} \\\\\n\t\t\t&= \\frac{1}{\\pi} \\left(\\arctan(t) + \\frac{\\pi}{2} \\right) \\\\\n\t\t\t&= \\frac{1}{2} + \\frac{1}{\\pi}\\arctan(t)\n\t\\end{align*}$$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "442043cc-0dd1-4c8a-a93f-42e493a95a75",
+      "id": "7222bfc8-8a7f-4553-82a0-14b0cd7d59f7",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $Y=\\arctan(X)$ et en déduire sa loi.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "0fed6999-369a-46c3-9738-1991e349f3af",
+      "id": "82d0761f-507c-4907-a30e-0f511e097745",
       "type": "reponse",
       "value": {
         "latex": "On sait que $-\\frac{\\pi}{2} \\leq Y < \\frac{\\pi}{2}$. Donc si $t < -\\frac{\\pi}{2}$ alors $F_Y(t) = 0$ et si $t > \\frac{\\pi}{2}$ alors $F_Y(t) = 1$.  Soit $t \\in \\left[-\\frac{\\pi}{2} ; \\frac{\\pi}{2}\\right]$ : \n\t\t$$\\begin{align*}\n\t\t\tF_Y(t) &= \\PP(X \\leq \\tan(t) ) \\\\\n\t\t\t&= \\frac{1}{\\pi}\\left[\\arctan(x)\\right]_{-\\infty}^{\\tan(t)} \\\\\n\t\t\t&= \\frac{t}{\\pi} + \\frac{1}{2}\n\t\t\\end{align*}$$\n\t\tOn reconnaît la fonction de répartition d'une loi uniforme $\\mathcal{U}\\left(\\left[-\\frac{\\pi}{2} ; \\frac{\\pi}{2}\\right]\\right)$.",

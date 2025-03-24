@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:44.104Z"
+    "updatedAt": "2025-03-24T17:15:10.532Z"
   },
   "contenu": [
     {
-      "id": "1945f246-b5da-4672-8f03-9c8226c0568a",
+      "id": "e505748f-9788-4d44-834e-98e9bf618d79",
       "type": "question",
       "value": {
         "latex": "Si l'on tire un réel au hasard dans $[0,1]$, est-il plus probable d'avoir sa racine carrée inférieure à $0.4$ ou d'avoir son carré plus grand que $0.7$ ?",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "837acb7d-e315-4014-81ca-2c63b9041e81",
+      "id": "cd750a88-cc74-4ede-b306-5ee4281b3d1b",
       "type": "reponse",
       "value": {
         "latex": "Soit $X\\sim\\mathcal{U}([0,1])$ modélisant le réel tiré au hasard dans $[0,1]$. Alors\n\t\\[\\forall t\\in\\R, \\quad f_X(t)=\\begin{cases} 1 & \\text{ si } t\\in[0,1] \\\\\n\t\t0 & \\text{ sinon.}\n\t\\end{cases}\\]\n\tOn souhaite comparer les deux probabilités suivantes:\n\t\\begin{itemize}\n\t\t\\item $\\p(\\sqrt{X}\\leq 0.4)=\\p(X\\leq 0.4^2)=\\int_0^{0.16} \\dx t=0.16$\n\t\t\\item $\\p(X^2\\geq 0.7)=\\p(X\\geq \\sqrt{0.7})=\\int_{\\sqrt{0.7}}^1  \\dx t=1-\\sqrt{0.7}\\simeq 0.163$\n\t\\end{itemize}\n\tOn en conclut qu'il est plus probable d'avoir son carré plus grand que $0.7$ (par rapport à avoir sa racine carrée inférieure à $0.4$).",

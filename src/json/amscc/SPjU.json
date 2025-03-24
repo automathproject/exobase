@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:54.611Z"
+    "updatedAt": "2025-03-24T17:14:30.016Z"
   },
   "contenu": [
     {
-      "id": "c94d59e4-465e-425e-94a0-a271c78a5333",
+      "id": "05fdffa3-31a6-49b6-afc5-f05f518094a4",
       "type": "question",
       "value": {
         "latex": "\\'Etudier l'existence et le cas échéant, calculer\n$$\\lim_{(x,y) \\to (0,0)} \\frac{x^2-y^2}{x^2+y^2}$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "b7bf754f-bfdb-48e1-8bd4-e36fc3a5b1d3",
+      "id": "94f6e072-9e95-4928-8525-3f0886b79714",
       "type": "indication",
       "value": {
         "latex": "On peut se ramener à la limite pour une seule variable en étudiant pour $(x,y)$ sur un chemin particulier et constater que la limite n'est pas toujours la même selon le chemin choisi.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "662370a3-8868-456a-9449-e01a30d949b0",
+      "id": "c73e2dc3-f102-4b55-9a33-ba7d9a2c8059",
       "type": "reponse",
       "value": {
         "latex": "On pose $f(x,y)=\\frac{x^2-y^2}{x^2+y^2}$ : cette fonction n'est pas continue en $(0,0)$ et on peut étudier sa limite ; or pour tout $x \\in \\R$, $y \\in \\R$, $f(x,0) = 1$ et $f(0,y) = -1$ donc les limites de $f$ le long de chaque axe en $(0,0)$ n'ont pas la même valeur : $f(x,0) \\xrightarrow[x \\to 0]{} 1$ et $f(0,y) \\xrightarrow[y \\to 0]{} -1 \\neq 1$. \n\nCela suffit pour affirmer que $f$ n'admet pas de limite en $(0,0)$.",

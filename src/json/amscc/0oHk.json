@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:11.734Z"
+    "updatedAt": "2025-03-24T17:13:14.833Z"
   },
   "contenu": [
     {
-      "id": "33db94f6-11a0-432b-a886-88faef001aad",
+      "id": "bcf084a1-949f-4717-9b30-732ea60ce74e",
       "type": "description",
       "value": {
         "latex": "A l'aide des formules du tableur, calculer :",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "2d6de42a-ecb6-48e9-a16f-a157ef6ba143",
+      "id": "d067702b-fc1c-4e76-8f89-c157e824fbfc",
       "type": "question",
       "value": {
         "latex": "$\\PP(X \\leq 1.2)$ pour $X$ suivant une $\\mathcal{N}(0,1)$",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "20a197f3-b21a-412e-941e-5c32520f0a89",
+      "id": "4d20e730-1da8-41d3-b60b-38fa69cb1ee7",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=LOI.NORMALE.STANDARD(1,2)}",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "246e1d4f-7ae8-4355-a0c2-e1a8b905d4b8",
+      "id": "1cdd0434-7b8a-4fc0-9c83-10fcf2cd3d25",
       "type": "question",
       "value": {
         "latex": "$\\PP(X \\leq 102)$ pour $X$ suivant une $\\mathcal{N}(120,4)$",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "f522e00b-8aa0-400c-a3a0-ca53f9889216",
+      "id": "cd634dbf-b6d1-4667-bb27-5102404a0459",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=LOI.NORMALE(102;120;4;1)}",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "cf08b762-426c-4c64-8a11-d44f66654317",
+      "id": "2a2636c1-9ead-46d5-98ff-b6bdb6ecd6f8",
       "type": "question",
       "value": {
         "latex": "la valeur $t$ telle que $\\PP(X \\leq t) = 90\\%$ pour $X$ suivant une $\\mathcal{N}(120,4)$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "f2e46e8f-9fba-4c32-acc3-bc4b950ef48f",
+      "id": "e2a1ca5a-c5ea-4c97-b9f3-812bb66f8c4f",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=LOI.NORMALE.INVERSE.N(0,9;120;4)}",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "4393eb62-f7ec-4bd5-b5cf-8fbfe5b2fb72",
+      "id": "755fc44a-7512-48e3-aa95-b2d7faceb8ce",
       "type": "question",
       "value": {
         "latex": "$\\PP(X \\geq 40)$ pour $X$ suivant une $\\mathcal{N}(50,3)$",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "21dfdfa1-4d19-4af6-b796-e9791db76371",
+      "id": "52493371-46a0-4e8f-be8a-b22955b35209",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=1-LOI.NORMALE(40;50;3;1)}",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "2f894535-5d4e-42e6-acbd-fe4e5746c69d",
+      "id": "b0be6087-3450-4710-8a81-805f0122f7fb",
       "type": "question",
       "value": {
         "latex": "$\\PP( 90 \\leq X \\leq 120)$ pour $X$ suivant une $\\mathcal{N}(100,15)$",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "79652ed6-a898-4151-b43e-da991b9c32be",
+      "id": "fb1240be-fd45-48b1-a09a-7a0168900422",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=LOI.NORMALE(120;100;15;1)-LOI.NORMALE(90;100;15;1)}",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "a1f6e5be-0f55-4798-97ca-c4585d0a501a",
+      "id": "e27af0fd-898e-4521-8379-a9ca79a10050",
       "type": "question",
       "value": {
         "latex": "$\\PP(X \\geq 5)$ pour $X$ suivant une $\\mathcal{E}(1/2)$",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "b0b2cc1e-5bc2-4e9e-a9a6-be8bc673266b",
+      "id": "d0a2bc36-0a87-4e28-b43b-cc11e5c8791c",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=1-LOI.EXPONENTIELLE.N(5;0,5;1)}",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "a19503bd-8cc2-44cd-ab76-53b42638fcc8",
+      "id": "63c76726-d833-41a8-ba66-b89393176b25",
       "type": "question",
       "value": {
         "latex": "$\\PP(X = 3)$ et $\\PP(X \\geq 2)$ pour $X$ suivant une $\\mathcal{P}(1.5)$",
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "77936abb-6ce7-4e77-875a-2ec483744f11",
+      "id": "1046dc68-a27b-4a94-be91-6774d006ac90",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=LOI.POISSON.N(3;1,5;0)} et \\texttt{=1-LOI.POISSON.N(2;1,5;1)}",
@@ -140,7 +140,7 @@
       }
     },
     {
-      "id": "63e3b797-313f-4586-a40e-17b50a2507bf",
+      "id": "5defa8a5-b4aa-43d4-bb53-e26eea1c3d5e",
       "type": "question",
       "value": {
         "latex": "la valeur $t$ telle que $\\PP(100-t \\leq X \\leq 100+t) = 95\\%$ où $X$ suit une $\\mathcal{N}(100,15)$",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "id": "710f5e6d-fd2f-407e-befe-2dc2d5dd8e83",
+      "id": "10bffeab-1975-4a57-bd6d-43df4e514c33",
       "type": "reponse",
       "value": {
         "latex": "\\texttt{=LOI.NORMALE.INVERSE.N(0,975;0;15)}",

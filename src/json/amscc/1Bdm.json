@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:12.024Z"
+    "updatedAt": "2025-03-24T17:13:15.007Z"
   },
   "contenu": [
     {
-      "id": "8486384e-b035-4032-b0c4-b952e4037d8e",
+      "id": "80cf9def-5611-4721-b77a-ec5da9097376",
       "type": "description",
       "value": {
         "latex": "Un pharmacien de banlieue désire être approvisionné par un grossiste chaque soir avant 18h00. Le grossiste doit donc estimer le temps de trajet moyen de son coursier entre le dépôt et la pharmacie. Pour cela, il relève le temps de parcours (en minutes) pendant 13 trajets sur un itinéraire fixé : \n$$20 \\qquad 30 \\qquad 45 \\qquad 39 \\qquad 16 \\qquad 25 \\qquad 23 \\qquad 19 \\qquad 40 \\qquad 21 \\qquad 30 \\qquad 19 \\qquad 40$$\n\nOn supposera que ce temps est distribué selon une loi normale.\n\nLe pharmacien affirme qu'il faut en moyenne 25 minutes pour faire le trajet, alors que le grossiste, quant à lui, pense qu'il faut en moyenne 30 minutes.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "ca48c531-a002-495e-af0c-7b499a586b08",
+      "id": "9b8e96c4-f93d-45dc-98fc-55eaee4b7d6f",
       "type": "question",
       "value": {
         "latex": "On cherche à tester $H_0 \\colon \\mu = 25$ contre $H_1 \\colon \\mu = 30$.  Avec un risque de première espèce $\\alpha=5\\%$, peut-on accepter $H_0$ à partir de ces données ? Quelle est le risque d'erreur dans cette prise de décision ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "ef11928b-7dd7-44e8-8cce-34ba9d68a652",
+      "id": "78b70550-1a5f-48f4-9eeb-374c86715648",
       "type": "question",
       "value": {
         "latex": "Pour un test $H_0 \\colon \\mu = 25$ contre $H_1 \\colon \\mu = p_0$ avec $p_0>25$, faire apparaitre graphiquement l'évolution de la puissance du test en fonction de $p_0$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "b97353aa-d1d7-4560-b31a-b503555b1710",
+      "id": "4ab8801a-4057-4527-8aa9-f74a8399b67a",
       "type": "reponse",
       "value": {
         "latex": "\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EYlCPJY62BdMpTYscg1T6zABc9_WCIR_pzt6XSOajALYhw?e=YjShes&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0}{lien vers un tableur}",

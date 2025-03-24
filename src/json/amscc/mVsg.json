@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:54:50.804Z"
+    "updatedAt": "2025-03-24T17:16:30.445Z"
   },
   "contenu": [
     {
-      "id": "22b7482a-75de-4cbb-bd1b-4c51ca25965e",
+      "id": "295a7e0a-f43f-4dc2-af64-1ba96a213a91",
       "type": "description",
       "value": {
         "latex": "On s'intéresse à un test pour mesurer la consommation maximale en oxygène d'un individu dans une population âgée. Pour un groupe de contrôle, il a été montré que les mesures suivent une loi normale dont l'espérance mathématique est de l'ordre de $\\mu=25{,}5 (\\mathrm{ml} / \\mathrm{kg} / \\mathrm{min})$ et l'écart-type $\\sigma=6 (\\mathrm{ml} / \\mathrm{kg} / \\mathrm{min})$. On pense qu'une population de malades (Parkinson) doit avoir des capacités cardio-respiratoires plus limitées. On souhaite ainsi tester si dans un tel groupe la moyenne $\\mu$ est plus faible. On prendra un risque de première espèce $\\alpha = 5 \\%$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d40dd11a-cc89-4c79-8bbf-bdd22900955d",
+      "id": "d9df1012-4b4d-43f9-a58a-303f13a1aaff",
       "type": "description",
       "value": {
         "latex": "L'objectif du test est  de décider entre les deux hypothèses suivantes : ${H}_0: \\mu=25{,}5$ (absence d'effet de la maladie) et ${H}_1: \\mu<25{,}5$ (existence de l'effet) à partir d'un échantillon de taille $15$. On note $\\overline{X} = \\sum\\limits_{k=1}^{15} X_i$ la moyenne empirique des mesures dans un tel échantillon.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "60eed90b-a506-4071-a328-4610e87a7483",
+      "id": "c1c89dbc-caf0-455b-8493-b7908814fa83",
       "type": "question",
       "value": {
         "latex": "Supposons que la moyenne observée dans l'échantillon est de $24{,}0$, quelle est la décision à prendre à la suite de ce test ?",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "eb0deef0-2f7f-4750-bb5c-cfc7df5aa242",
+      "id": "c9f0f724-39f5-4b93-a3de-4c5429b53ba4",
       "type": "reponse",
       "value": {
         "latex": "La variable de décision sous l'hypothèse $H_0$ est $$Z=\\frac{\\overline{X} - 25{,}5}{\\sqrt{ \\frac{S^2}{15} }}$$ et suit une loi de Student $St(14)$. \n   Il convient de prendre pour valeur observée $S^2_{obs} = \\frac{15}{14} \\times 6^2 = 38.57$ soit $S_{obs} = 6.21$. Avec ces valeurs, on obtient   $Z_{obs} = -0{,}93$. \n   \n   Or pour $\\alpha = 0.05$, on calcule que la zone de rejet est $]-\\infty ; -1.76]$. Il n'y a donc pas lieu de rejeter l'hypothèse $H_0$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "b8ebd5bd-ec90-4deb-a4f9-478590acc6a3",
+      "id": "7395a218-2c6a-4a5c-b461-876f926c6fc6",
       "type": "question",
       "value": {
         "latex": "Déterminer la moyenne critique $\\mu_c$, c'est-à-dire la valeur observée au deçà de laquelle le test conduit à un rejet de $H_0$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d3b3b19c-0206-4697-9657-7df3fcae0bdc",
+      "id": "96e5727d-150e-49c7-a851-1ef6a3529b5b",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de résoudre l'équation $\\frac{\\mu_c - 23{,}5}{\\sqrt{ \\frac{S^2}{15} }} = -1.76$ et on obtient $\\mu_c \\approx 22.7$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "e33ec513-ecfc-4fb1-a06c-1e9eae692fd4",
+      "id": "0dd4abc3-5982-4954-a910-47f03b50f330",
       "type": "description",
       "value": {
         "latex": "La professeur responsable du service pense qu'à partir de la valeur $\\mu=23{,}5$, la différence est scientifiquement significative et l'effet sur le malade important. Elle souhaite alors savoir quel risque elle prend lorsqu'elle ne rejette pas ${H}_0$ en étant sous l'hypothèse alternative $(H_1) \\colon \\mu=23{,}5$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "956f8ba8-8d3b-4cc6-8ae3-5640062ed33e",
+      "id": "11ccf178-179d-4d3f-8208-c1ff4e260796",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi suivie par la variable aléatoire $\\overline{X}$ lorsque $(H_1)$ est supposée vraie ?",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "7e321591-b9c7-4058-80a7-3121b44b0ebd",
+      "id": "4e118150-0bd6-4a3a-9345-e6115f167609",
       "type": "reponse",
       "value": {
         "latex": "Dans ce cas $\\overline{X}$ suit une loi normale de paramètre $\\mu = 23.5$ et d'écart type $\\sigma = 6$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "2015546e-83fd-4f9e-8363-9a5970acb07a",
+      "id": "0a67e357-74b4-40d9-868b-33c2aba21355",
       "type": "question",
       "value": {
         "latex": "En déduire l'erreur de deuxième espèce et la puissance de ce test. Commenter le résultat.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "6f8cb954-51a0-4a2e-b711-602764da2cb8",
+      "id": "c92edec3-b397-494a-aa32-05412a104923",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de calculer : \n$$\\begin{align*}\n  \\PP(\\overline{X} \\geq \\mu_c) &= \\PP\\left( \\frac{\\overline{X} - 23{,}5}{\\sqrt{ \\frac{S^2}{15} }} \\geq \\frac{22.7 - 23{,}5}{\\sqrt{ \\frac{S^2}{15} }}\\right) \\\\\n  &\\approx 0.7\n\\end{align*}$$\nen utilisant la loi de Student de paramètre $14$. \n\nOn en déduit que le test ainsi réalisé n'est pas très puissant, de l'ordre de $30\\%$ seulement.",

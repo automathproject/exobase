@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:17.274Z"
+    "updatedAt": "2025-03-24T17:13:18.456Z"
   },
   "contenu": [
     {
-      "id": "8b390142-ab69-439c-831c-5d6fb3135afd",
+      "id": "86aaeb9f-b341-483f-9eae-57a6f52defae",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire de loi de Poisson de paramètre $\\lambda>0$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "259ae69f-c45d-4ae6-b27b-ff4c351043a3",
+      "id": "155ee6a4-8ad7-4ea1-af01-cd23ebfdee8f",
       "type": "question",
       "value": {
         "latex": "En utilisant l'inégalité de Markov, montrer que: $\\prob(X\\geq 2\\lambda)\\leq\\frac{1}{2}$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "c4c341ab-324e-41da-8364-0dce9cbff133",
+      "id": "6842ae43-8115-49c8-ae82-33c4854c0c62",
       "type": "reponse",
       "value": {
         "latex": "Par l'inégalité de Markov, on a:\n\t\t\\[ \\prob(|X|\\geq 2\\lambda)\\leq \\frac{\\E(|X|)}{2\\lambda}\\]\n\t\tor $X\\sim\\mathcal{P}(\\lambda)$ donc $X(\\Omega)=\\N$ et on a\n\t\t\\[ \\prob(X\\leq 2\\lambda) \\geq \\frac{\\E(X)}{2\\lambda}=\\frac{\\lambda}{2\\lambda}=\\frac{1}{2}.\\]",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "f2e81708-4195-444e-8e49-3847f1d4ce8c",
+      "id": "f6e98090-348d-4aaf-9817-d9049f534c16",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\prob(|X-\\lambda| \\geq \\lambda) \\leq \\frac{1}{\\lambda}$ et en déduire que $\\prob(X\\geq 2\\lambda)\\leq \\frac{1}{\\lambda}$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "51ee7c64-fdab-46f7-9351-b7e0d09b667b",
+      "id": "6b796caf-1aa3-4c0f-a5d6-444e9a8fa931",
       "type": "reponse",
       "value": {
         "latex": "Par l'inégalité de Bienaymé-Tchebychev, on a\n\t\t\\[ \\prob(|X-\\E(X)|\\geq \\lambda)\\leq \\frac{\\sigma^2(X)}{\\lambda^2}=\\frac{\\lambda}{\\lambda^2}=\\frac{1}{\\lambda}\\]\n\t\tdonc\n\t\t\\[ \\prob(|X-\\lambda|)\\geq \\frac{1}{\\lambda}.\\]\n\t\tOr\n\t\t\\[ \\prob(X\\geq 2\\lambda)=\\prob(X-\\lambda \\geq \\lambda)\n\t\t\\leq \\prob(|X-\\lambda|\\geq \\lambda)\\leq \\frac{1}{\\lambda},\n\t\t\\]\n\t\td'où\n\t\t\\[ \\prob(X\\geq 2\\lambda) \\leq \\frac{1}{\\lambda}.\\]",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "5163de24-001d-4740-a738-6d783e2d4a94",
+      "id": "ee4887ff-aacd-47b5-b5a8-7aff5747cea8",
       "type": "question",
       "value": {
         "latex": "Pour $\\lambda$ assez grand, laquelle des deux inégalités est la meilleure ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "99caa27c-dcc9-43ac-b22a-f24c808b0453",
+      "id": "082dcf28-2971-47ce-b18e-0740172a1aff",
       "type": "reponse",
       "value": {
         "latex": "Pour $\\lambda \\geq 2$, $\\frac{1}{\\lambda}\\leq \\frac{1}{2}$ donc l'inégalité de Bienaymé-Tchebychev est meilleure que celle de Markov.",

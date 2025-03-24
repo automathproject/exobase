@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Calcul de la somme d'une série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:22.967Z"
+    "updatedAt": "2025-03-24T17:17:18.939Z"
   },
   "contenu": [
     {
-      "id": "6a5542ac-2556-4411-91d8-73a250f40b9a",
+      "id": "79f034fe-3f36-493d-b163-7a03d776366c",
       "type": "question",
       "value": {
         "latex": "En utilisant le résultat de la somme de la série entière $\\sum_{k=0}^{+\\infty} x^k = \\frac{1}{1-x}$, déterminer la somme de la série entière à valeurs réelles $\\displaystyle S_1(x)=\\sum_{k=0}^{+\\infty} k x^k$. On précisera son domaine de convergence.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "8c06f11b-5886-4253-8330-cc3410570acb",
+      "id": "b39b1758-f82d-45bf-8375-6c13d1ad02d1",
       "type": "reponse",
       "value": {
         "latex": "On dérive $\\frac{1}{1-x}$ : $\\displaystyle \\frac{1}{(1-x)^2}=\\sum_{k=0}^{+\\infty} k x^{k-1}$. En multipliant par $x$, on obtient :\n\t\t\\[\\forall x \\in ]-1;1[, \\quad S_1(x)=\\frac{x}{(1-x)^2}.\\]",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "251b1adf-5f7d-4ca4-84c2-34cd80c32d58",
+      "id": "3a6eff40-82fc-4d4b-80cb-0ad5cc442e10",
       "type": "question",
       "value": {
         "latex": "Déterminer la somme de la série entière à valeurs réelles $\\displaystyle S_2(x)= \\sum_{k=0}^{+\\infty} (k+1)^2x^k$. On précisera son domaine de convergence.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "88b0ed0a-73a8-467c-a64b-cd1af302948c",
+      "id": "030f44b4-d08c-409f-b9cd-1d088223acea",
       "type": "reponse",
       "value": {
         "latex": "On dérive deux fois $\\frac{1}{1-x}$ : $\\displaystyle \\frac{2}{(1-x)^3}=\\sum_{k=0}^{+\\infty} k(k-1)x^{k-2} = \\sum_{k=2}^{+\\infty} k(k-1)x^{k-2}$ car les deux premiers termes sont nuls. Par changement d'indice, on obtient : \n\t\t\\[\\forall x \\in ]-1;1[, \\quad \\frac{2}{(1-x)^3} = \\sum_{k=0}^{+\\infty} (k+1)k x^{k-1}.\\] d'où : \n\t\t\\[\\forall x \\in ]-1;1[, \\quad \\frac{2x}{(1-x)^3} = \\sum_{k=0}^{+\\infty} (k+1)k x^k.\\] \n\t\tOr $(k+1)^2 = k(k+1) + (k+1)$ donc :\n\t\t\\[\\forall x \\in ]-1;1[,\\quad S_2(x) = \\sum_{k=0}^{+\\infty} k(k+1)x^k + \\sum_{k=0}^{+\\infty} (k+1)x^k = \\frac{2x}{(1-x)^3} + \\frac{1}{(1-x)^2} = \\frac{x+1}{(1-x)^3}.\\]",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "09a8aed9-252e-499f-80df-16477c809e24",
+      "id": "a816e500-2a36-4776-ab77-0c5d101a4254",
       "type": "question",
       "value": {
         "latex": "Après avoir décomposé la fraction rationnelle $\\displaystyle \\frac{1}{n(n+2)}$ en éléments simples,  déterminer la somme de la série entière à valeurs réelles $\\displaystyle S_3(x)=\\sum_{n= 1}^{+\\infty} \\frac{x^n}{n(n+2)}$. On précisera son rayon de convergence.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "8a0a2b42-515c-4400-969a-8dc78c67eb2b",
+      "id": "14829e30-c349-4f9e-aef5-f27b44c9e7d7",
       "type": "reponse",
       "value": {
         "latex": "Ici, $R=1$ :\n\t\t\\[\\forall x \\in ]-1;1[, \\quad S_3(x)=\\frac{1}{2}\\left( -\\ln(1-x)+\\frac{1}{x^2}\\left[\\ln(1-x)+x+\\frac{x^2}{2}\\right]\\right).\\]",

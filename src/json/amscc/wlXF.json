@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:25.946Z"
+    "updatedAt": "2025-03-24T17:17:21.060Z"
   },
   "contenu": [
     {
-      "id": "19f9ae9f-a5c3-4a0c-8f59-be036af74462",
+      "id": "34eb9f32-dc2e-4e00-8441-0d0fd2dac9ed",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\R^2 \\to \\R$,\n$$ (x,y) \\mapsto \\dfrac{x^2 y^2}{x^2 y^2 + (x-y)^2} $$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "e680217c-394d-4fd9-a7da-df97923c26fc",
+      "id": "d37efa35-4c75-4029-969f-946fb24bb923",
       "type": "question",
       "value": {
         "latex": "Donner l'ensemble de définition de $f$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "7dd10d0c-41bc-4136-9910-1bf47cfc4552",
+      "id": "c124cbd2-272d-458f-b18a-9377749784d6",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est définie pour tout $(x,y)\\in \\R^2$ tels que $x^2 y^2 + (x-y)^2 \\neq 0 $. Or $x^2y^2 + (x-y)^2 = 0 \\iff xy = 0 \\text{ et } x=y \\iff x=y=0$ donc $f$ est définie sur $\\R^2 \\backslash \\{(0,0)\\}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "112d780a-de90-4366-9927-893c9222d54e",
+      "id": "dbf9f859-1331-4933-903b-2079db4b2a5e",
       "type": "question",
       "value": {
         "latex": "Pour $x$ fixé, calculer $g(x) = \\lim\\limits_{y \\to 0} f(x,y)$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "cac19326-a35b-4aba-a8bc-18bc314220c3",
+      "id": "faf41ecf-8f7c-4b53-9dd0-e7a9734ad1f7",
       "type": "reponse",
       "value": {
         "latex": "Soit $x \\in \\R$ : si $x=0$, $f(0,y) = 0$ et si $x \\neq 0$, $f(x,y) \\xrightarrow[y \\to 0]{} \\frac{0}{x^2} = 0$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "f467a743-a151-4741-96c9-80300167216c",
+      "id": "50d63d94-e4a6-4748-b422-05dfebb4c71b",
       "type": "question",
       "value": {
         "latex": "Pour $y$ fixé, calculer $h(y) = \\lim\\limits_{x \\to 0} f(x,y)$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "c4a2c6b7-e645-4d15-a88a-ef41b7b70753",
+      "id": "c7ae3a7c-0902-46c4-a8d2-150038978189",
       "type": "reponse",
       "value": {
         "latex": "De même, $h(y) = 0$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "869f797a-2372-46ce-b0bc-8d7931d929cb",
+      "id": "dae8749b-ab61-47c6-925f-eada3bf60a87",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{x \\to 0} g(x)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "fb573c83-53c5-416a-b77f-cacf57d6a595",
+      "id": "991eda8e-9a98-412c-bb03-a1b6add151d1",
       "type": "reponse",
       "value": {
         "latex": "On en déduit que $\\lim\\limits_{x \\to 0} g(x) = 0$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "368b69f7-6981-4381-a13c-d3a0fa7088fc",
+      "id": "b5022c5b-f264-486a-81d9-b8c87741bb80",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{y \\to 0} h(y)$.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "be66dada-240b-4103-9a29-a8b69357a5e6",
+      "id": "f113d53e-dd2f-421a-922a-d8d2d1ebc3d2",
       "type": "reponse",
       "value": {
         "latex": "De même $\\lim\\limits_{y \\to 0} h(y) = 0$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "5deaf3c7-84a0-42c0-97d3-437491537224",
+      "id": "8fbe803c-770f-42a2-bacf-f9fea7f1fe49",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle une limite quand $(x,y) \\to (0,0)$~?",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "c297fe84-d119-4db0-bd23-0b44595f18e7",
+      "id": "5b186799-a1d0-4163-bce8-7622506dc998",
       "type": "reponse",
       "value": {
         "latex": "Non car $f(x,x) = 1 \\xrightarrow[x \\to 0]{} 1$ et $f(x,0) = 0 \\xrightarrow[x \\to 0]{} 0 \\neq 1$ : on a deux chemins qui donnent deux limites différentes.",

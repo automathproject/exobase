@@ -12,17 +12,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-10-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:22.360Z"
+    "updatedAt": "2025-03-24T17:17:18.528Z"
   },
   "contenu": [
     {
-      "id": "30503ea5-3dad-4196-91b5-06a6f558c495",
+      "id": "4edb0866-03d5-46e7-9272-dc8271c52156",
       "type": "description",
       "value": {
         "latex": "Une commune a lancé une étude concernant les problèmes liés au transport. Sur une ligne de bus, une enquête a permis de révéler que le retard (ou l'avance) sur l'horaire officiel du bus à une station donnée est donné par une variable aléatoire $X$, en minutes, suivant une loi normale $\\mathcal{N}(5,\\sigma)$ où $\\sigma >0$ est pour l'instant indéterminé. Cependant, on sait que la probabilité que le retard soit inférieur à $7$ minutes est de $p=84{,}13\\%$.",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "id": "16646cd9-2f83-4246-970b-5b756c5044be",
+      "id": "82b18d22-326a-4e8d-8b9b-2b736f3090de",
       "type": "question",
       "value": {
         "latex": "Justifier que $\\sigma = 2$.",
@@ -38,7 +38,7 @@
       }
     },
     {
-      "id": "b09973de-82c7-4d7e-9f6f-8ac08f74558b",
+      "id": "17a29ff1-16a9-4ba9-b6a3-8c7f606c2620",
       "type": "reponse",
       "value": {
         "latex": "On sait que $\\prob\\left(X \\leq 7 \\right) = 0{,}8413$ d'où $\\prob\\left(\\frac{X-5}{\\sigma} \\leq \\frac{2}{\\sigma}\\right) = 0{,}8413$. Par lecture de table, $\\frac{2}{\\sigma} = 1$ d'où $\\sigma = 2$.",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "277bc993-8298-435f-9054-1ed73d04bd05",
+      "id": "52e93a41-2878-4824-90c6-3f184b8769ab",
       "type": "question",
       "value": {
         "latex": "Sachant que le retard est supérieur à $3$ minutes, quelle est la probablité que ce retard soit inférieur à $7$ minutes ?",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": "9675266c-2adb-4514-9a9e-a182c2b95deb",
+      "id": "860f4352-0f20-472a-933d-4918c70d1fd1",
       "type": "reponse",
       "value": {
         "latex": "On cherche $\\prob(X \\leq 7 \\mid X \\geq 3) = \\frac{\\prob(3 \\leq X \\leq 7)}{\\prob(X \\geq 3)}$. Or $\\prob(3 \\leq X \\leq 7) = \\prob\\left(-1 \\leq \\frac{X-5}{2} \\leq 1\\right) = 2 \\Phi(1) - 1 \\approx 2 \\times 0{,}8413 - 1 = 0{,}6826$ et $\\prob(X \\geq 3) = \\prob\\left( \\frac{X-5}{2} \\geq -1\\right) \\approx 0{,}8413$ d'où $\\prob(X \\leq 7 \\mid X \\geq 3) \\approx 0{,}8114$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "733afe85-ae79-40af-8205-ba752abbcca1",
+      "id": "440f52ce-7b19-419c-8b0e-48997dcc8250",
       "type": "description",
       "value": {
         "latex": "Une dame fréquente cette ligne de bus une fois par jour pendant 10 jours. On suppose que les retards journaliers sont indépendants. On note $Y$ le nombre de jours où la dame a attendu moins de $7$ minutes.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "0c0d352d-713f-4f6a-914d-3355c6514e46",
+      "id": "9bf76437-a0c2-4c94-b54a-af5aa565545b",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $Y$, son espérance et sa variance.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "a9130387-fb98-4ee0-b881-8a94e83c6198",
+      "id": "2a354c92-6ed1-466c-a5f0-b65a990ec4a1",
       "type": "reponse",
       "value": {
         "latex": "On a $Y \\sim \\mathcal{B}(10,p)$ d'où $\\E(Y) = 10p = 8{,}413$ et $\\var(Y) = 10p(1-p) = 1{,}3351431$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "540e535d-d228-4daf-a4d8-895654f9d5ff",
+      "id": "fabcd15b-ea75-4db8-b994-cede52e998ca",
       "type": "question",
       "value": {
         "latex": "Soit $T$ la variable aléatoire définie de la manière suivante : si la dame attend moins de $7$ minutes chaque jour pendant les 10 jours, $T$ prend la valeur $0$ ; sinon $T$ pend la valeur du $k$-ème jour ($k \\in \\{1,...,10\\}$) où pour la première fois, la dame attend plus de $7$ minutes. Déterminer, en fonction de $p$, la loi de probabilité de $T$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "a17758c1-dfef-4fd3-a2a7-6f62e8beb7ef",
+      "id": "dd8db6e7-3c29-492f-a2f5-3471a58605fe",
       "type": "reponse",
       "value": {
         "latex": "Pour $k \\in \\{1,...,10\\}$, $\\prob(X=k) = p^{k-1}(1-p)$ (on reconnait la loi géométrique de paramètre $1-p$ pour ces $10$ cas). Pour $k=0$, $\\prob(T=0) = \\sum_{k=11}^{+\\infty} p^{k-1}(1-p) = (1-p) \\sum_{k=11}^{+\\infty} p^{k-1} = (1-p) \\times \\frac{p^{10}}{1-p} = p^{10}$.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:22.765Z"
+    "updatedAt": "2025-03-24T17:17:18.814Z"
   },
   "contenu": [
     {
-      "id": "2594e4e2-11e0-4448-a32a-916b3d7f6d6d",
+      "id": "05e1508f-b445-4dfe-a237-646cf1be27e0",
       "type": "description",
       "value": {
         "latex": "Dans chacun des cas, dire si la série est absolument convergente, semi-convergente, divergente ou grossièrement divergente.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "65cd47ad-ae60-4738-a4a1-df1a42d43b80",
+      "id": "9b3cbee6-7bab-4a49-8120-050ddf0a00bc",
       "type": "question",
       "value": {
         "latex": "$\\sum (\\sqrt{n+1}-\\sqrt{n})$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "82ec40a7-590e-42d3-aac9-ce3418e6d8d4",
+      "id": "84d8e9f3-80b0-4344-9992-376a02c89df9",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n=\\sqrt{n+1}-\\sqrt{n}$ pour $n\\in\\N$. La série $\\sum u_n$ est à termes positifs. Il s'agit d'une série télescopique: pour $n\\geq 1$,\n\t\t$$\\begin{align*}\n\t\tS_n=&\\sum_{k=0}^n (\\sqrt{k+1}-\\sqrt{k}) =\\sum_{k=0}^n \\sqrt{k+1}- \\sum_{k=0}^n\\sqrt{k} \n\t\t=\\sum_{k=1}^{n+1} \\sqrt{k}- \\sum_{k=0}^n\\sqrt{k} \\\\\n\t\t=& (1+\\sqrt{2}+\\cdots + \\sqrt{n} +\\sqrt{n+1})-(0+1+\\sqrt{2}+\\cdots + \\sqrt{n}) \\\\\n\t\t=& \\sqrt{n+1}.\n\t\t\\end{align*}$$\n\t\tEn faisant tendre $n$ vers l'infini, on obtient que la suite des sommes partielles de la série $\\sum u_n$ tend vers l'infini. Par conséquent, la série $\\sum (\\sqrt{n+1}-\\sqrt{n})$ est une \\textbf{série divergente}.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "24d0c7f2-3781-41d6-9721-5af320d47765",
+      "id": "4122f07c-d89d-461b-b474-1ba7d2d20dad",
       "type": "question",
       "value": {
         "latex": "$\\sum \\left(1-\\cos \\left(\\frac{\\pi}{n}\\right)\\right)$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "fbfe2e3e-a0df-44e9-aa99-3dcb139c6a53",
+      "id": "7f06fb21-2cc2-494d-8f44-09dc9b3c0ec1",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n=1-\\cos(\\frac{\\pi}{n})$. La série $\\sum u_n$ est une série à termes positifs. Quand $n$ tend vers l'infini, on a l'équivalence suivante:\n\t\t\\[ 1- \\cos\\Big(\\frac{\\pi}{n}\\Big) \\sim \\frac{\\pi^2}{n^2}.\\]\n\t\tOr $\\sum \\frac{1}{n^2}$ est une série de Riemann convergente donc $\\sum \\frac{\\pi^2}{n^2}$ est également convergente. \\\\\n\t\tPar le théorème d'équivalence, on en déduit que la série $\\sum u_n$ est convergente. Comme cette série est à termes positifs, cela revient à dire que la série $\\sum u_n$ est une \\textbf{série absolument convergente}.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d64e3605-b0ef-4545-b519-50bf29c0c60f",
+      "id": "56fd43c8-d393-400b-adfd-1907b83cef14",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n=\\frac{2^n+100}{3^n+1}$ pour $n\\in\\N$. La série $\\sum u_n$ est à termes positifs. On a:\n\t\t\\[ \\frac{2^n+100}{3^n+1} \\sim \\frac{2^n}{3^n}=\\Big(\\frac{2}{3}\\Big)^n,\\]\n\t\tqui est le terme général d'une série géométrique de raison $\\frac{2}{3}<1$ donc convergente. Par équivalence, on en déduit que la série $\\sum u_n$ est convergente. Comme $u_n\\geq 0$ pour tout $n\\in\\N$, la série $\\sum u_n$ est \\textbf{absolument convergente}.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "cb98ba2b-b0e5-4fce-852d-8077ebb21a44",
+      "id": "deab0435-fb31-42e8-b092-d03bbf536ec0",
       "type": "question",
       "value": {
         "latex": "$\\sum \\Big(1-(1-\\frac{1}{\\sqrt{n}})^n\\Big)$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "e76770f5-1059-45f4-8d28-f70e92b684a6",
+      "id": "e438636c-1d61-4f32-b891-61790619d040",
       "type": "reponse",
       "value": {
         "latex": "Soit $ u_n=1-(1-\\frac{1}{\\sqrt{n}})^n$ pour $n\\geq 1$. La série $\\sum u_n$ est à termes positifs. On a:\n\t\t$$\\begin{align*}\n\t\t1-\\Big(1-\\frac{1}{\\sqrt{n}}\\Big)^n=1-e^{n\\ln\\Big(1-\\frac{1}{\\sqrt{n}}\\Big)}\n\t\t\\end{align*}$$\n\t\tOn utilise ensuite un développement limité (car l'utilisation d'équivalent n'est pas possible dans l'exponentielle):\n\t\t$$\\begin{align*}\n\t\t1-\\Big(1-\\frac{1}{\\sqrt{n}}\\Big)^n=&1-e^{n\\Big(\\frac{-1}{\\sqrt{n}}-\\frac{1}{2n} +o(\\frac{1}{n})\\Big)} \n\t\t=1-e^{\\frac{-n}{\\sqrt{n}}-\\frac{n}{2n} +o(\\frac{n}{n})} \n\t\t=1-e^{-\\sqrt{n}-\\frac{1}{2}+o(1)}, \n\t\t\\end{align*}$$\n\t\tqui a pour limite $1$ quand $n$ vers plus l'infini.\\\\\n\t\tLe terme général de la série $\\sum u_n$ ne tend donc pas vers $0$. Par conséquent, cette série \\textbf{diverge grossièrement}.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "cd57b2a3-a73b-4b4e-85dd-261e9bb2278a",
+      "id": "07cb89bc-b3f9-434c-bba0-313b7f6de544",
       "type": "question",
       "value": {
         "latex": "$\\sum \\Big(\\frac{1}{n}-\\ln\\Big(1+\\frac{1}{n}\\Big) \\Big)$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "5c2a9698-0c8a-4f27-9a7f-17245dfab967",
+      "id": "7e25715c-e1f6-4507-a317-cb6c8a31f599",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n=\\frac{1}{n}-\\ln(1+\\frac{1}{n})$ pour $n\\geq 1$. La série $\\sum u_n$ est à termes positifs. On utilise un développement limité (car on ne peut pas sommer des équivalents):\n\t\t$$\\begin{align*}\n\t\tu_n=\\frac{1}{n}-\\Big(\\frac{1}{n}-\\frac{1}{2n^2}+o(\\frac{1}{n^2})\\Big) \n\t\t= \\frac{1}{2n^2}+o(\\frac{1}{n^2})\n\t\t\\end{align*}$$\n\t\tce qui donne l'équivalence:\n\t\t\\[u_n \\sim_{+\\infty} \\frac{1}{2n^2},\\]\n\t\tqui est le terme d'une série de Riemann convergente. On en déduit que la série $\\sum u_n$ converge. De plus, cette série étant à termes positifs, elle \\textbf{converge absolument}.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "a0ae8fb6-3d1e-4624-b5b1-e10b8acdca06",
+      "id": "70e08177-89b8-49be-bd1a-3b61d2461bdc",
       "type": "question",
       "value": {
         "latex": "$\\sum \\frac{1}{\\sqrt{n}}(\\sqrt{n+1}-\\sqrt{n})^2$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "b44011fe-291e-4e63-8b01-ff197d0049d0",
+      "id": "a9a1c4fd-89cb-4256-b8e5-6d8adc3d9765",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n= \\frac{1}{\\sqrt{n}}(\\sqrt{n+1}-\\sqrt{n})^2$ pour $n\\geq 1$.  La série $\\sum u_n$ est à termes positifs. On a:\n\t\t$$\\begin{align*}\n\t\tu_n&=  \\frac{1}{\\sqrt{n}}(\\sqrt{n+1}-\\sqrt{n})^2 \\\\\n\t\t&= \\frac{1}{\\sqrt{n}}\\Big(\\frac{(\\sqrt{n+1}-\\sqrt{n})(\\sqrt{n+1}+\\sqrt{n})}{(\\sqrt{n+1}+\\sqrt{n})}\\Big)^2 \\\\\n\t\t&= \\frac{1}{\\sqrt{n}}\\Big(\\frac{\\sqrt{n+1}^2-\\sqrt{n}^2}{(\\sqrt{n+1}+\\sqrt{n}) }\\Big)^2\\\\\n\t\t&= \\frac{1}{\\sqrt{n}}\\Big(\\frac{1}{(\\sqrt{n+1}+\\sqrt{n}) }\\Big)^2\\\\\n\t\t\\end{align*}$$\n\t\tce qui nous donne l'équivalence suivante:\n\t\t\\[u_n \\sim_{+\\infty} \\frac{1}{\\sqrt{n}}\\Big(\\frac{1}{2\\sqrt{n}}\\Big)^2=\\frac{1}{4n\\sqrt{n}}=\\frac{1}{4n^{\\frac{3}{2}}}.\\]\n\t\tOr la série $\\sum \\frac{1}{4n^{\\frac{3}{2}}}$ est une série de Riemann convergente. Par le théorème d'équivalence, on en déduit que la série $\\sum u_n$ converge. \\\\\n\t\tComme cette série est à termes positifs, cette série \\textbf{converge absolument}.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "12998947-28a9-468f-93f0-bf2868693456",
+      "id": "b7ec4a9c-67cb-4917-82bb-2c00974ec719",
       "type": "question",
       "value": {
         "latex": "$\\sum \\cos(\\pi n) \\sin\\Big(\\frac{\\pi}{n}\\Big)$",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "82329513-51c8-4e45-ae96-acabd8f696b8",
+      "id": "a7eddcc0-34b9-4688-b4a9-305c278cfb6c",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n= \\cos(\\pi n) \\sin(\\frac{\\pi}{n})$ pour $n\\geq 1$. On a\n\t\t\\[u_n=(-1)^n \\sin \\Big(\\frac{\\pi}{n}\\Big).\\]\n\t\tIl s'agit d'une série alternée car pour tout $n\\in\\N^*$, $\\sin(\\frac{\\pi}{n})\\geq 0$. \\\\\n\t\tOn étudie d'abord la convergence absolue de la série $\\sum u_n$:\n\t\t\\[|u_n|=\\Big | (-1)^n \\sin \\Big(\\frac{\\pi}{n}\\Big)\\Big |=\\Big | \\sin \\Big(\\frac{\\pi}{n}\\Big)\\Big |\n\t\t\\sim_{+\\infty} \\frac{\\pi}{n}.\\]\n\t\tOr la série $\\sum \\frac{\\pi}{n}$ est une série de Riemann divergente donc la série $\\sum |u_n|$ diverge, ce qui revient à dire que la série $\\sum u_n$ ne converge pas absolument. \\\\\n\t\tIl nous reste donc à étudier la convergence de la série $\\sum u_n$. On utilise le critère des séries alternées: soit $v_n=\\sin(\\frac{\\pi}{n})$. La suite $(v_n)$ est décroissante pour $n\\geq 2$ et sa limite vaut $\\sin(0)=0$. Par le théorème des séries alternées, on en conclut que la série $\\sum u_n$ converge. \\\\\n\t\tFinalement, la série $\\sum u_n$ converge mais ne converge pas absolument; elle est donc \\textbf{semi-convergente}.",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "8816f9fa-f5af-468e-a60f-c7aa52bdd374",
+      "id": "dd09af05-a102-489c-ba19-0bf26001465a",
       "type": "question",
       "value": {
         "latex": "$\\sum \\frac{n!}{n^n}$",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "2f710e17-5d9d-4b05-907d-536a2df080a4",
+      "id": "867b209c-75f2-4998-b84b-f5ebb4f17376",
       "type": "reponse",
       "value": {
         "latex": "Soit $u_n= \\frac{n!}{n^n}$ pour $n\\geq 1$. La série $\\sum u_n$ est à termes positifs. Appliquons la règle de D'Alembert:\n\t\t$$\\begin{align*}\n\t\t\\frac{u_{n+1}}{u_n}&=\\frac{(n+1)!}{(n+1)^{n+1}}\\times \\frac{n^n}{n!}=\\frac{(n+1) \\times n^n}{(n+1)^{n+1}}\n\t\t=\\Big(\\frac{n}{n+1}\\Big)^n=\\Big(\\frac{n+1-1}{n+1}\\Big)^n \\\\\n\t\t&=\\Big(1-\\frac{1}{n+1}\\Big)^n\n\t\t= e^{n \\ln(1-\\frac{1}{n+1})}\n\t\t=e^{n(\\frac{-1}{n+1}+o(\\frac{1}{n}))}\n\t\t=e^{\\frac{-n}{n+1}+o(1))} \\\\\n\t\t&\\longrightarrow_{n\\rightarrow +\\infty}\\  e^{-1}.\n\t\t\\end{align*}$$\n\t\tOr $e^{-1}<1$ donc par la règle de D'Alembert, la série $\\sum u_n$ converge. Elle est également \\textbf{absolument convergente} (en tant que série à terme général positif).",

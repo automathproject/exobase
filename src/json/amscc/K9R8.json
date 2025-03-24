@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:31.781Z"
+    "updatedAt": "2025-03-24T17:14:07.588Z"
   },
   "contenu": [
     {
-      "id": "f832fafe-79ce-41c4-ac49-881542c241d4",
+      "id": "4547bbfd-9465-4016-ad25-7433f98cbc66",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune une loi $\\mathcal{N}(0,1)$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "90b6d07e-edd6-44ef-bf00-09ba9d78f1fe",
+      "id": "d3f27109-c193-420b-b614-ed28d9be4776",
       "type": "question",
       "value": {
         "latex": "Déterminer  la loi de $S=X+Y$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "392b8910-8d87-4563-a724-b07858858043",
+      "id": "c506fa56-a9e1-4286-9e69-eddfb7641fff",
       "type": "reponse",
       "value": {
         "latex": "Si $X$ et $Y$ suivent chacune une loi $\\mathcal{N}(0,1)$, alors $S=X+Y$ admet une densité $h$ définie par\n\t$$h(s) = \\frac{1}{2\\pi}\\int_{\\R}^{} e^{-\\frac{(s-x)^2}{2}} e^{-\\frac{x^2}{2}} dx$$\n\t\n\tOr $-(s-x)^2-x^2 = -\\frac{s^2}{2} - 2 (x-\\frac{s}{2})^2$ donc \n\t\n\t$$h(s) = \\frac{1}{2\\pi} e^{-\\frac{s^2}{4}} \\int_{\\R}^{} e^{-(x-\\frac{s}{2})^2 } dx =  \\frac{1}{2\\pi} e^{-\\frac{s^2}{4}} \\times \\sqrt{\\pi} = \\frac{1}{\\sqrt{2}\\sqrt{2\\pi}}e^{-\\frac{s^2}{2\\sqrt{2}^2}}$$\n\t\n\tDonc $S$ suit une loi normale de moyenne $\\mu=0$ et d'écart-type $\\sigma=\\sqrt{2}$.",

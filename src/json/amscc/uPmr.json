@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:21.460Z"
+    "updatedAt": "2025-03-24T17:17:17.933Z"
   },
   "contenu": [
     {
-      "id": "c65d948a-cabb-40c4-a0d7-a485cdba8c78",
+      "id": "1a63cd02-0d9a-44db-9684-93f1b591c0e4",
       "type": "description",
       "value": {
         "latex": "On suppose que la température (en degré Celsius) dans la ville de Rennes au mois de janvier est une variable aléatoire $T$ qui suit une loi normale $\\mathcal{N}(\\mu,\\sigma)$, d'écart-type $\\sigma=4$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ca4c303d-82fb-45e3-abd2-26f3d0a77937",
+      "id": "1c3b76d2-dcb0-4e9a-9428-593d7da8f30f",
       "type": "question",
       "value": {
         "latex": "Déterminer $\\mu$ lorsque $\\prob(T>2)=0.33$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "b09bc982-7c08-43cd-8d17-80cab78582f9",
+      "id": "b7806220-f472-47fe-a056-5e18930fac6e",
       "type": "reponse",
       "value": {
         "latex": "$T\\sim \\mathcal{N}(\\mu,\\sigma=4)$ \n\t\t$$\\begin{align*}\n\t\t\t\\prob(T>2)=0.33 \\quad & \\Leftrightarrow \\quad \\p\\left(\\frac{T-\\mu}{4}>\\frac{2-\\mu}{4}\\right)=0.33 \\\\\n\t\t\t& \\Leftrightarrow \\quad \\p\\left(Z>\\frac{2-\\mu}{4}\\right)=0.33 \\quad \\text{ où } Z\\sim\\mathcal{N}(0,1) \\\\\n\t\t\t& \\Leftrightarrow \\quad \\p\\left(Z\\leq \\frac{2-\\mu}{4}\\right)=0.67\n\t\t\\end{align*}$$\n\t\tdonc $\\frac{2-\\mu}{4}=0.44$ par lecture de la table de loi $\\mathcal{N}(0,1)$.\n\t\tD'où $\\mu=0.24$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "dc9578bf-a8fc-4af3-87bf-a4c6ecb07808",
+      "id": "9bb4fb72-8769-4a9b-b9f2-115e21290c31",
       "type": "question",
       "value": {
         "latex": "Pour la valeur de $\\mu$ ainsi obtenue, déterminer $\\prob(T\\leq 0)$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "8c35cfb1-0697-49ef-980c-694e35dc2f52",
+      "id": "29009918-9b80-4918-a55a-816955c5b506",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\\prob(T\\leq 0)\n\t\t\t&=\\p\\left(\\frac{T-\\mu}{4}\\leq \\frac{-\\mu}{4}\\right) \\\\\n\t\t\t&=\\p\\left(\\frac{T-0.24}{4}\\leq -0.06\\right) \\\\\n\t\t\t&=\\prob(Z\\leq -0.06) \\quad \\text{ en posant } Z=\\frac{T-0.24}{4}, \\quad \\text{ ainsi } Z \\sim \\mathcal{N}(0,1) \\\\\n\t\t\t&= \\prob(Z\\geq 0.06) \\\\\n\t\t\t&= 1-\\prob(Z\\leq 0.06) \\\\\n\t\t\t&= 1- 0.5239 \\\\\n\t\t\t&= 0.4761\n\t\t\\end{align*}$$",

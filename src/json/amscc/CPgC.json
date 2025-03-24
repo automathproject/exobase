@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Courbes planes",
+    "sousChapitre": "Courbes paramétrées",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:11.221Z"
+    "updatedAt": "2025-03-24T17:13:49.757Z"
   },
   "contenu": [
     {
-      "id": "56eaea3f-f392-4b96-809e-3b176604e6b9",
+      "id": "a4c200a3-2849-400f-9ca9-b9261dc6587b",
       "type": "question",
       "value": {
         "latex": "Démontrer les propriété suivante :",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "e5dec547-cbb2-4af8-a1a1-d2776d4a22a1",
+      "id": "d9282c2f-d5fa-46a8-ae80-42a366d1aa79",
       "type": "reponse",
       "value": {
         "latex": "$\\ch^2 x- \\sh^2 x = \\frac14 \\big[ (e^x+e^{-x})^2 - (e^x-e^{-x})^2 \\big] = \n\t\t\t\\frac14 \\big[ (e^{2x}+2+e^{-2x}) - (e^{2x}-2+e^{-2x})  \\big] = 1$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9abe74b3-9568-4f83-b062-11a53624392e",
+      "id": "3dd0e5e8-a507-4da0-93cc-16094c5bff5b",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{d}{dx}(\\ch x) = \\frac{d}{dx} \\frac{e^x+e^{-x}}{2} = \\frac{e^x-e^{-x}}{2}  = \\sh x$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "7ccb6d5e-eb6c-45ea-bb00-e7b7621aca09",
+      "id": "27ed064b-1856-4a14-a359-57d2e24d6a9e",
       "type": "question",
       "value": {
         "latex": "Tracer des représentations graphiques de chacune de ces courbes paramétrées et commenter les calculs de $x(t)^2+y(t)^2$ et $x(t)^2 - y(t)^2$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "214040fe-643b-48c4-8867-696e7b906e96",
+      "id": "6ef300f9-9d37-4c05-be85-cde11734f098",
       "type": "reponse",
       "value": {
         "latex": "Si on dessine une courbe paramétrée par $(x(t) = \\cos t,y(t) = \\sin t)$ alors\n   \t$x(t)^2+y(t)^2 = \\cos^2 t + \\sin^2 t =1$. Donc il s'agit d'un cercle\n   \t(d'où le terme <<circulaire>>). \n   \tPar contre si on dessine une courbe paramétrée par $(x(t) = \\ch t, y(t) = \\sh t)$.\n   \tAlors $x(t)^2 - y(t)^2 = \\ch^2 t - \\sh^2 t = 1$.\n   \tC'est l'équation d'une branche d'hyperbole !",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "39920687-2a34-4f20-b18a-587d276e42ae",
+      "id": "09b12d28-0b05-4a2b-9793-5db2600433a3",
       "type": "question",
       "value": {
         "latex": "En utilisant l'équation cartésienne, écrire sous forme de courbe paramétrée la chaînette décrite ci-dessus.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "82a04f91-209d-4a5e-88b8-e9c2031650ce",
+      "id": "d0cd0eef-c3e8-4f5f-b6a8-8d33a4358126",
       "type": "reponse",
       "value": {
         "latex": "On rappelle l'équation de la chaînette : $y(x) =a \\ch \\frac x a$. On en déduit une écriture paramétrique en posant $x(t)=t$ et $y(t) = a \\ch \\frac{x(t)}{a}$ pour tout $t \\in [-x_0 ; x_0]$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "43b49c17-0c94-4bf8-aab7-1310f972f7b9",
+      "id": "10b9dce4-d88d-4f2d-8d6f-b524862f3630",
       "type": "question",
       "value": {
         "latex": "Montrer que la demi longueur de la chaînette $\\ell$ vaut $\\ell=a\\sh\\left(\\frac{x_0}{a}\\right)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "c748a215-e70f-4ecb-a52e-a3f7b415b7ad",
+      "id": "06396671-0ea9-4389-a7af-1557b39dee91",
       "type": "reponse",
       "value": {
         "latex": "Par définition, la demi longueur vaut\n   \t\t\t$$\\ell = \\int_0^{x_0} \\sqrt{1+y'(x)^2} dx.$$\n   \t\t\tAinsi :\n   \t\t\t$$\\begin{array}{rcl}\n   \t\t\t\\ell \n   \t\t\t&=& \\int_0^{x_0} \\sqrt{1+\\sh^2 \\left( \\tfrac x a \\right)} dx \\quad \\text{ car } \\ch' \\tfrac x a = \\frac 1 a \\sh \\tfrac x a \\\\\n   \t\t\t&=& \\int_0^{x_0} \\sqrt{\\ch^2 \\left(\\tfrac x a\\right)} dx   \\quad \\text{ car } 1+\\sh^2 u = \\ch^2 u \\\\\n   \t\t\t&=& \\int_0^{x_0} \\ch \\tfrac x a dx =  \\left[ a \\sh\\left(\\tfrac x a\\right) \\right]_0^{x_0} \\\\\n   \t\t\t&=& a \\sh \\left(\\tfrac{x_0}{a}\\right). \\\\\n   \t\t\t\\end{array}$$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "8c008e8e-17f7-439f-93f0-727ff64d2bbd",
+      "id": "641e05a7-eff1-4ab1-aa54-f21d76de80be",
       "type": "reponse",
       "value": {
         "latex": "\\'Etudions la restriction de la fonction $\\ch : [0,+\\infty[ \\to [1,+\\infty[$.\n   \t\t\t\\begin{itemize}\n   \t\t\t\t\\item Comme $\\ch' x = \\sh x \\ge 0$, pour $x\\ge 0$, alors la restriction de la fonction $\\ch$ est croissante.\n   \t\t\t\tElle est même strictement croissante (la dérivée ne s'annule qu'en $0$).\n   \t\t\t\t\n   \t\t\t\t\\item Comme $\\ch 0 =1$, que $\\ch x \\to +\\infty$ lorsque $x \\to +\\infty$,\n   \t\t\t\talors par continuité et la stricte croissance, la restriction $\\ch : [0,+\\infty[ \\to [1,+\\infty[$\n   \t\t\t\test une bijection.\n   \t\t\t\\end{itemize}\n   \t\t\tPar définition, la bijection réciproque de cette restriction est $\\Argch x : [1,+\\infty[ \\to [0,+\\infty[$\n   \t\t\tet vérifie :\n   \t\t\t$$\\Argch\\big(\\ch x\\big) = x \\qquad \\text{ pour tout } x \\in [0,+\\infty[$$\n   \t\t\t$$\\ch\\big(\\Argch x\\big) = x \\qquad \\text{ pour tout } x \\in [1,+\\infty[.$$",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "acd36cdc-cb77-489d-8852-e92090f9ebaf",
+      "id": "e86e8873-8d26-48ed-8097-a1bd31496185",
       "type": "reponse",
       "value": {
         "latex": "Comme la fonction $x \\mapsto \\ch'x$  ne s'annule pas sur $]0,+\\infty[$\n   \t\t\talors la fonction $\\Argch$ est dérivable sur $]1,+\\infty[$.\n   \t\t\tOn calcule la dérivée par dérivation de l'égalité $\\ch(\\Argch x) = x$ :\n   \t\t\t$$\\Argch' x \\cdot \\sh(\\Argch x) = 1$$\n   \t\t\tpuis on utilise l'identité $\\ch^2 u - \\sh^2 u = 1$ avec $u = \\Argch x$ :\n   \t\t\t$$\\Argch' x = \\frac{1}{\\sh(\\Argch x)} = \\frac{1}{\\sqrt{\\ch^2(\\Argch x)-1}}\n   \t\t\t= \\frac{1}{\\sqrt{x^2-1}}.$$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "00933d83-853c-4905-8360-a3c43f5ad366",
+      "id": "7398d668-e469-445e-a1b9-1eb77a119c20",
       "type": "reponse",
       "value": {
         "latex": "Notons $f(x)=\\ln\\big(x+ \\sqrt{x^2-1}\\big)$. \n   \t\t\t$$f'(x) = \\frac{1+\\frac{x}{\\sqrt{x^2-1}}}{x+ \\sqrt{x^2-1}} = \\frac{1}{\\sqrt{x^2-1}} = \\Argch' x.$$ \n   \t\t\tComme de plus $f(1)=\\ln(1)=0$ et $\\Argch(1) = 0$ (car $\\ch(0) = 1$), on en déduit que pour tout\n   \t\t\t$x\\in \\Rr$, $f(x) = \\Argch(x)$.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "a58c3082-1f51-4fe5-963e-068fa5a332c7",
+      "id": "0bf46ceb-3a2b-4d89-8132-e72bd93c16bf",
       "type": "reponse",
       "value": {
         "latex": "Notons $f(x)=\\ln\\big(x+ \\sqrt{x^2+1}\\big)$. \n   \t\t\t$$f'(x) = \\frac{1+\\frac{x}{\\sqrt{x^2+1}}}{x+ \\sqrt{x^2+1}} = \\frac{1}{\\sqrt{x^2+1}} = \\Argsh' x.$$ \n   \t\t\tComme de plus $f(0)=\\ln(1)=0$ et $\\Argsh 0 = 0$ (car $\\sh 0 = 0$), on en déduit que pour tout\n   \t\t\t$x\\in \\Rr$, $f(x) = \\Argsh x$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "9d46f3c4-977f-45fa-a096-f1f56ad6885c",
+      "id": "7ed2075b-1d29-4e48-b022-bcf624e3368f",
       "type": "question",
       "value": {
         "latex": "En utilisant les propriétés des fonctions hyperboliques et l'équation cartésienne d'une chaînette, démontrer qu'une équation paramétrique de la chaînette est :\n   \t$$\\forall t>0 \\colon \\left\\{\n   \t\\begin{array}{rcl}\n   \tx(t) &=& a \\ln t \\\\\n   \ty(t) &=& \\frac a 2 \\left(t+\\frac 1 t\\right)\n   \t\\end{array}\n   \t\\right.\n   \t$$",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "3586e3d1-4feb-41f4-88e4-ecebc0046203",
+      "id": "4bf81063-4b2c-4b30-9c9c-1c5596c8904d",
       "type": "reponse",
       "value": {
         "latex": "Nous connaissons l'équation cartésienne $y=a\\ch \\left(\\frac x a\\right)$,\n   \tqui est équivalente à $\\Argch\\left(\\frac y a\\right) = \\frac x a$.\n   \tUtilisons la forme logarithmique de la fonction $\\Argch$: \n   \t$\\Argch u = \\ln \\left( u + \\sqrt{u^2-1} \\right)$ (pour $u \\ge 1$).\n   \t\n   \tNous obtenons :\n   \t$$\\ln \\left( \\frac y a + \\sqrt{\\left(\\frac y a\\right)^2-1} \\right) = \\frac x a.$$\n   \t\n   \tNous cherchons maintenant une paramétrisation $(x(t),y(t))$ de la chaînette, \n   \tposons $x(t) = a \\ln(t)$ (ce qui est toujours possible car $\\ln$ \n   \test une bijection de $]0,+\\infty[$ dans $\\Rr$).\n   \tAlors l'équation précédente conduit (après simplification des $\\ln$) à :\n   \t$$\\frac{y(t)}{a} + \\sqrt{\\left(\\frac{y(t)}{a}\\right)^2-1} = t,$$\n   \tou encore \n   \t$$\\sqrt{\\left(\\frac{y(t)}{a}\\right)^2-1} = t - \\frac{y(t)}{a}$$\n   \tce qui implique en élevant au carré :\n   \t$${\\left(\\frac{y(t)}{a}\\right)^2-1} = t^2 + \\left(\\frac{y(t)}{a}\\right)^2- 2t\\frac{y(t)}{a}$$\n   \td'où $\\frac{y(t)}{a} = \\frac{t^2+1}{2t}$,\n   \tet donc $y(t) = \\frac a2 \\left(t+\\frac 1 t\\right)$.",

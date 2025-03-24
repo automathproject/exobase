@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:47.182Z"
+    "updatedAt": "2025-03-24T17:14:25.159Z"
   },
   "contenu": [
     {
-      "id": "1cf7e5df-dfbe-4d0f-b0b9-db051f99a590",
+      "id": "2f154164-8444-4d39-b5eb-aeeee2020689",
       "type": "description",
       "value": {
         "latex": "Une urne contient sept boules : une rouge, deux jaunes et quatre vertes. Un joueur tire au hasard une boule.\n\tSi elle est rouge, il gagne 10\\euro{}, si elle est jaune, il perd 5\\euro{}, si elle est verte, il tire une deuxième boule de l'urne\n\tsans avoir replacé la première boule tirée.\n\tSi cette deuxième boule est rouge, il gagne 8\\euro{}, sinon il perd 4\\euro{}.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "51b84785-6f25-4f7e-b504-cab35f4f5d2f",
+      "id": "3f8f7fc9-efca-4ca9-887b-fb6fbc5a30b7",
       "type": "question",
       "value": {
         "latex": "Construire un arbre pondéré représentant l'ensemble des éventualités de ce jeu.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2bbbff38-2225-4004-bd42-f5ca9a838f39",
+      "id": "28d4367d-5955-49bc-8ae1-26c6053d6d8d",
       "type": "description",
       "value": {
         "latex": "Soit X la variable aléatoire associant à chaque tirage le gain algébrique du joueur (une perte est comptée négativement).",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "3cd95ae6-8c07-419b-8d57-83946d32e125",
+      "id": "00ee8507-1316-45e2-a1ac-87a8cc8d94c4",
       "type": "question",
       "value": {
         "latex": "Établir la loi de probabilité de la variable $X$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "ac172e1d-3de1-4699-a3a0-ddd5ad7a5a2e",
+      "id": "43fc937b-481e-4a83-8bc4-068c8f55930a",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d279417a-3131-4f6c-905d-42eadc213836",
+      "id": "a69f7fe5-fc21-407c-951d-aa6a61d6fa42",
       "type": "question",
       "value": {
         "latex": "Les conditions de jeu restent identiques. Indiquer le montant du gain algébrique qu'il faut attribuer à un joueur \tlorsque la boule tirée au deuxième tirage est rouge, pour que l'espérance de X soit nulle.",

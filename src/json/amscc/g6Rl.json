@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:23.457Z"
+    "updatedAt": "2025-03-24T17:15:36.383Z"
   },
   "contenu": [
     {
-      "id": "78462484-dfef-4031-8820-9ff69153b443",
+      "id": "c7502504-c6e2-465f-9c48-eb4c1967efbc",
       "type": "description",
       "value": {
         "latex": "Une machine fabrique des lames de carton empilées par paquets de 36. On suppose que chaque lame a une épaisseur $X_i$ sont i.i.d. avec $\\mathbb{E}(X_i)=0.6$~cm et $\\sigma(X_i)=0.1$~cm. On note $X$ l'épaisseur d'un paquet de 36 cartons.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "b68d42cd-7b32-490b-b231-167cd09f3abb",
+      "id": "81f39fbf-e68d-40dd-88f6-897d267c79dd",
       "type": "question",
       "value": {
         "latex": "Si les $X_i$ suivent une loi normale, quelle est la loi de probabilité de $X$ ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "b5cbfc93-f482-4173-b621-836daae3b134",
+      "id": "375fef55-13fd-4fc7-8f01-b6a1590aefc5",
       "type": "reponse",
       "value": {
         "latex": "Si les $X_i$ suivent des lois Normales, alors $X_i\\sim \\mathcal{N}(0.6,\\sigma=0.1)$ et la variable $\\displaystyle X=\\sum_{i=1}^{36}$ suit une loi Normale de paramètres $\\mu=36\\times 0.6=21.6$ et $\\sigma=\\sqrt{36\\times 0.1^2}=0.6$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "f6c619ce-0e70-4526-9123-09f6d482e68d",
+      "id": "46883f3e-e55b-40ba-b737-058c8f37b58d",
       "type": "question",
       "value": {
         "latex": "Si on ne connaît pas la loi des $X_i$, donner une approximation de la loi de $X$ en justifiant.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "5f5da93b-220c-4450-83b0-242e6688277a",
+      "id": "8097ec4d-63e7-4090-8ddf-79ca6eefb877",
       "type": "reponse",
       "value": {
         "latex": "Comme $n\\geq 30$, on peut appliquer le théorème central limite et ainsi $X$ suit approximativement la loi $\\mathcal{N}(21.6,\\sigma=0.6)$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "8d24e73e-3077-4fdf-b523-68a5c6459283",
+      "id": "0d61d5aa-6900-4c5e-9571-362ba5eebd3f",
       "type": "description",
       "value": {
         "latex": "On pose $$Y=\\frac{1}{36}\\sum_{i=1}^{36}X_i$$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "e91639b9-76a8-49cd-9a24-93bf2bf579a2",
+      "id": "6ad7996d-b1e5-45a1-b2a7-f22dadcf0239",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité que $Y$ soit compris entre 0.63 et 0.66 cm ? Comment peut-on interpréter ce résultat ?",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "0b8138c6-12b0-4c65-bfb7-c6d18f42c667",
+      "id": "0c93ba5b-16bb-4eda-8c86-4493777a9d16",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t$$\\begin{align*}\n\t\t\t\\mathbb{P}(0.63\\leq Y \\leq 0.66)\n\t\t\t&= \\mathbb{P}(36\\times 0.63 \\leq X \\leq 36 \\times 0.66) \\\\\n\t\t\t&= \\mathbb{P}\\left( \\frac{36\\times 0.63-21.6}{0.6}\\leq \\frac{X-21.6}{0.6} \\leq \\frac{36\\times 0.66-21.6}{0.6}\\right) \\\\\n\t\t\t&\\simeq \\mathbb{P}(1.8 \\leq Z \\leq 3.6) \\quad \\text{ par le théorème central-limite, avec } Z\\sim \\mathcal{N}(0,1) \\\\\n\t\t\t&\\simeq \\mathbb{P}(Z\\leq 3.6) -\\mathbb{P}(Z\\leq 1.8) \\\\\n\t\t\t&\\simeq 0.999-0.9641 \\quad \\text{par lecture du tableau de loi} \\\\\n\t\t\t&\\simeq 0.0358\n\t\t\\end{align*}$$\n\t\t$Y$ représente l'épaisseur moyenne d'un carton sur un paquet de $36$ cartons.",

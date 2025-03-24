@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Résolution de systèmes linéaires : méthode itérative",
+    "sousChapitre": "Résolution de systèmes linéaires : méthode itérative",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:27.525Z"
+    "updatedAt": "2025-03-24T17:14:59.518Z"
   },
   "contenu": [
     {
-      "id": "6c726aa7-d41d-46b3-9e28-9d1e28100085",
+      "id": "cb7777e2-56ca-4072-88ea-19aa69773d72",
       "type": "description",
       "value": {
         "latex": "Soit $a \\in \\mathbb{R}$ et soit la matrice $$A = \\begin{pmatrix} 1 & a & a \\\\ a & 1 & a \\\\ a & a & 1 \\end{pmatrix}$$ \n\nOn admet que le polynôme caractéristique de $A$ est $\\chi_A(X) = -(X-1+a)^2(X-1-2a)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "80067a18-9aa0-441e-999b-223d23910157",
+      "id": "ddad4af0-7e38-4cc7-a169-0a6dd519bf9a",
       "type": "question",
       "value": {
         "latex": "En déduire des conditions sur $a \\in \\mathbb{R}$ telles que la matrice $A$ soit symétrique définie positive. On se restreindra à ce cas par la suite.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "4c0d5b13-8f7e-4b9a-a69c-9e74c0e96de0",
+      "id": "16967938-d818-4919-bd3d-9ab74faaf83f",
       "type": "reponse",
       "value": {
         "latex": "La matrice $A$ est définie positive si ses valeurs propres $1-a>0$ et $1+2a>0$, autrement dit si $-\\frac{1}{2} < a < 1 $.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "3dc3c31e-1926-4438-a7d2-f78fb3034e36",
+      "id": "d7dd1a70-79cd-4e44-9f81-09561542a15b",
       "type": "question",
       "value": {
         "latex": "Déterminer le rayon spectral de la matrice $I_3 - A$ où $I_3$ est la matrice identité.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "110af39a-017e-4c70-aea9-521bb9f4d82c",
+      "id": "a3278857-f9ff-4a19-8994-5b8087a5ea26",
       "type": "reponse",
       "value": {
         "latex": "D'après ce qui précède, la matrice $I_3-A$ a deux valeurs propres : $-a$ et $2a$. Son rayon spectral est donc $2|a|$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d2c5d0b1-07b5-4203-901a-c5df92675fdb",
+      "id": "eba73fc4-6152-43f2-99ec-65ba46ccf9be",
       "type": "question",
       "value": {
         "latex": "En déduire des conditions nécessaires et suffisantes sur  $a \\in \\mathbb{R}$ pour que la méthode de Jacobi converge vers une solution du système $Ax=b$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "40b40fd8-430e-44eb-aff9-4f6fc82d3c41",
+      "id": "a09a0379-416a-49fb-84dd-9ceeb2422783",
       "type": "reponse",
       "value": {
         "latex": "Pour que la méthode de Jacobi converge, il faut et il suffit que $\\rho(D-A)<1$ où $D=I_3$ est la diagonale de $A$.\n\t\tLa méthode converge si et seulement si $\\rho(D-A) = 2|a| <1$ . On en déduit que la condition nécessaire et suffisante de convergence de la méthode est que $-\\frac{1}{2} < a < \\frac{1}{2}$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "1eac7c77-7d04-47f6-aef0-fd7d966d47c8",
+      "id": "b4a76ff8-4dc8-4c20-ae49-d0aaeaf96a0d",
       "type": "question",
       "value": {
         "latex": "Déterminer des conditions suffisantes sur  $a \\in \\mathbb{R}$ pour que la méthode de Gauss-Seidel converge vers une solution du système $Ax=b$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "20204ac6-934f-414d-871a-f92f501d65f3",
+      "id": "c907a3fb-284e-4b5a-97bf-c792ab9484c5",
       "type": "reponse",
       "value": {
         "latex": "Pour que la méthode de Gauss converge,  il suffit que la matrice soit symétrique définie positive.",

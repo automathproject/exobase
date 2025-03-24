@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:28.937Z"
+    "updatedAt": "2025-03-24T17:14:03.465Z"
   },
   "contenu": [
     {
-      "id": "0bcc0d1a-dbbb-4804-b964-3bf9c79c296e",
+      "id": "b7892017-b448-4499-91ca-9f96d094fc28",
       "type": "description",
       "value": {
         "latex": "Pour chacune des séries suivantes, déterminer si elle converge ou diverge.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "9e826115-8d2f-4841-9db1-47dcabc643b8",
+      "id": "dd72d647-f193-44f3-b656-a8d72d335418",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{1}{n^2+1}$ ;",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2be7b25f-5961-4df8-a85f-c88ffdac5b88",
+      "id": "5edc42d9-e7b5-4de4-8617-8643dbdf7baa",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\frac{1}{n^2+1}$. Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\underset{+\\infty}\\sim \\frac{1}{n^2}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 2>1$), la série $\\sum u_n$ converge.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "fa7c2019-c2c2-44ef-b466-b8e7e7d23eb2",
+      "id": "d17cb146-bea1-4d26-8abd-24003a25f1f2",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}$ ;",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "8030608f-b982-49cf-9aef-de1aa227b646",
+      "id": "0e203443-c5cd-4a2f-a659-2edcc3d33329",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}$. Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\leq \\frac{1}{n^2(\\sqrt{n}+1)} \\underset{+\\infty}\\sim \\frac{1}{n^{5/2}}$ pour tout $n \\in \\N$ donc par comparaison d'une série positive à une série de Riemann convergente, la série $\\sum u_n$ converge.",

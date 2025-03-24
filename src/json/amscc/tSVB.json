@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-28",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:19.222Z"
+    "updatedAt": "2025-03-24T17:17:16.830Z"
   },
   "contenu": [
     {
-      "id": "92acecd5-5ede-4abd-967e-e80506746e07",
+      "id": "b7aef48f-c004-4a38-aa30-6656238cf49c",
       "type": "description",
       "value": {
         "latex": "Le général Contant doit échanger des documents top secrets avec le général Janty. Pour cela, ils ont rendez-vous au bar Le Torkel. On suppose que l'heure d'arrivée de chaque individu au point de rendez-vous est uniformément distribué entre 20h et 21h. En revanche, chacun a promis de ne pas attendre l'autre plus de 10 minutes sur place.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "225bf1c8-7e79-426a-b93e-7852752ba174",
+      "id": "0db0d769-b841-4732-9fba-b96cb42893cf",
       "type": "question",
       "value": {
         "latex": "Décrire la probabilité que ces deux personnes puissent effectuer leur transaction sous forme d'une intégrale double.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "7180e9df-e0b4-4c8c-a482-27f4aa91c89c",
+      "id": "0832661b-2f99-4e7e-bf2d-51c2e8b3cec0",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité que ces deux personnes puissent effectuer leur transaction ?",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "e24adca9-ea9e-4cbc-a35a-ecf4bfa5c0e8",
+      "id": "bd8fdfd7-5256-4bda-a3f4-932eb035d00d",
       "type": "reponse",
       "value": {
         "latex": "Soit $X$ l'heure d'arrivée du général Contant et $Y$ l'heure d'arrivée du général Janty. L'énoncé suggère que $X$ et $Y$ sont des \\vas indépendantes et nous dit qu'elles suivent toutes les deux une loi uniforme sur $[20;21]$.\n\tLa probabilité cherchée est $\\p(|X-Y|\\leq \\frac{1}{6})$.\n\t\n\tComme $X$ et $Y$ sont indépendantes, on a\n\t\\[ f_{(X,Y)}(x,y)=f_X(x)f_Y(y) =\\mathbf{1}_{[20;21]^2} (x,y).\\]\n\tDonc\n\t\\[ p\n\t= \\int \\int_D dx\\dy,\n\t\\]\n\toù\n\t$D=\\{(x,y)\\in\\R^2|20\\leq x \\leq 21, \\ 20\\leq y \\leq 21, \\ \\frac{-1}{6}\\leq x-y \\leq \\frac{1}{6}\\}$. \n\t\\vspace{1em}\n\t\n\t\n\tOn peut évaluer géométriquement cette aire mais nous allons faire le calcul de l'intégrale double. On commence par remplacer l'intervalle $[20;21]$ par l'intervalle $[0;1]$ en effectuant une translation. Ainsi, l'écriture est simplifiée.\n\t$$\\begin{align*}\n\t\tp&= \\int_0^{\\frac{1}{6}} \\int_0^{\\frac{1}{6}+y} dx \\dy\n\t\t+ \\int_{\\frac{1}{6}}^{\\frac{5}{6}} \\int_{y-\\frac{1}{6}}^{y+\\frac{1}{6}} dx \\dy\n\t\t+ \\int_{\\frac{5}{6}}^1 \\int_{y-\\frac{1}{6}}^{1} dx \\dy \\\\\n\t\t&= \\int_0^{\\frac{1}{6}} (\\frac{1}{6}+y) \\dy\n\t\t+ \\int_{\\frac{1}{6}}^{\\frac{5}{6}} \\frac{1}{3} \\dy\n\t\t+ \\int_{\\frac{5}{6}}^1 (\\frac{7}{6}-y) \\dy \\\\\n\t\t&=\\left[\\frac{1}{6}y+\\frac{1}{2}y^2 \\right]_0^\\frac{1}{6}\n\t\t+\\left[\\frac{1}{3}y\\right]_\\frac{1}{6}^\\frac{5}{6}\n\t\t+\\left[\\frac{7}{6}y-\\frac{1}{2}y^2 \\right]_\\frac{5}{6}^1 \\\\\n\t\t&=\\frac{11}{36}.\n\t\\end{align*}$$\n\tLa probabilité que les deux généraux puissent effectuer leur transaction est donc de l'ordre de $0.31$.",

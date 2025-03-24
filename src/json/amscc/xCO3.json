@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:26.584Z"
+    "updatedAt": "2025-03-24T17:17:21.416Z"
   },
   "contenu": [
     {
-      "id": "465f9c1b-a755-479d-8b28-3fd9bc0c6299",
+      "id": "3bbbf693-981e-4d5d-8bfe-139188272a69",
       "type": "description",
       "value": {
         "latex": "Pour tout $(x,y) \\in \\R^2$, on pose : $$f(x,y)=k(1+xy(x^2-y^2)) \\textbf{1}_{[-1;1]^2}(x,y).$$",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "877a3be5-6766-479b-85e0-d5cb573acd05",
+      "id": "c8547076-da6b-43d0-996e-bd0b8ad71846",
       "type": "question",
       "value": {
         "latex": "Déterminer la valeur de $k$ pour que $f$ soit une densité de probabilité associée à un couple de variables aléatoires $(X,Y)$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "e6a46160-bec5-4876-9a21-273c145b4f47",
+      "id": "eb25d84e-132b-4ed7-ac43-af9d55be509e",
       "type": "reponse",
       "value": {
         "latex": "$f$ est positive sur $\\mathbb{R}$ si $k\\geq 0$. Par ailleurs,\n\t\t$$\\begin{align*}\n\t\t\t\\int_{\\mathbb{R}^2} f(x,y) dxdy\n\t\t\t&= \\int_{-1}^1\\int_{-1}^1 k(1+x^3y-xy^3) dxdy \\\\\n\t\t\t&=\\int_{-1}^1 k \\left[ x+\\frac{1}{4}x^4y-\\frac{1}{2}x^2y^3\\right]_{x=-1}^1 dy \\\\\n\t\t\t&=\\int_{-1}^1 2kdy \\\\\n\t\t\t&=4k.\n\t\t\\end{align*}$$\n\t\tPour $\\displaystyle k=\\frac{1}{4}$, $f$ est positive sur $\\mathbb{R}$ et $\\displaystyle \\int_\\mathbb{R} f(x)dx=1$ donc $f$ est une densité de probabilité.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "1b69a72d-f5b6-4a2d-bcbf-89693fe60239",
+      "id": "f1751d21-92ef-4e02-8b79-41f818cbca96",
       "type": "question",
       "value": {
         "latex": "Déterminer les densités marginales du couple $(X,Y)$, ainsi que leurs fonctions caractéristiques. Les variables $X$ et $Y$ sont-elles indépendantes ?",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "01cce9c3-9a7d-44cd-9ed3-435896d1b84c",
+      "id": "bdf6f072-f198-438b-ae9f-21e5a325da08",
       "type": "reponse",
       "value": {
         "latex": "Les lois marginales de $X$ et de $Y$ sont\n\t\t$$\\begin{align*}\n\t\t\tf_X(x)&=\\int_\\mathbb{R} f(x,y)dy \\\\\n\t\t\t&=\\frac{1}{4}\\textbf{1}_{[-1;1]}(x) \\ \\int_{-1}^1 (1+x^3y-xy^3) dy \\\\\n\t\t\t&= \\frac{1}{2}\\textbf{1}_{[-1;1]}(x).\n\t\t\\end{align*}$$\n\t\tPar symétrie, on obtient\n\t\t$f_Y(y)=\\frac{1}{2}\\chi_{[-1;1]}(y)$. Donc $X$ et $Y$ sont deux variables aléatoires de loi uniforme sur $[-1;1]$.\n\t\t\n\t\tSoit $t\\in\\mathbb{R}$.\n\t\t$$\\begin{align*}\n\t\t\t\\phi_X(t) &= \\mathbb{E}(e^{itX}) \\\\\n\t\t\t&= \\int_\\mathbb{R} e^{itx}f_X(x)dx \\quad \\text{(théorème de transfert)} \\\\\n\t\t\t&= \\frac{1}{2}\\int_{-1}^1 e^{itx} dx \\\\\n\t\t\t&=\\frac{1}{2}\\left[ \\frac{1}{it}e^{itx}\\right]_{x=-1}^{x=1} \\quad \\text{si } t\\neq 0\\\\\n\t\t\t&= \\frac{1}{2it}(e^{it}-e^{-it}) \\quad \\text{si } t\\neq 0 \\\\\n\t\t\t&= \\frac{\\sin t}{t} \\quad \\text{si } t\\neq 0.\n\t\t\\end{align*}$$\n\t\tPour $t=0$, $\\phi_X(t)=\\mathbb{E}(1)=1 = \\underset{t \\to 0}\\lim \\frac{\\sin t}{t}$ donc pour tout $t\\in\\mathbb{R}$, $\\phi_X(t)=\\frac{\\sin t}{t}.$\n\t\tComme $X$ et $Y$ sont de même loi, on a également pour tout $t\\in\\mathbb{R}$, $\\phi_Y(t)=\\frac{\\sin t}{t}$.\n\t\t\n\t\tLes variables aléatoires $X$ et $Y$ ne sont pas indépendantes car leur densité jointe n'est pas le produit de leurs densités marginales.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "1eddb417-efed-4065-a241-204db3d5df22",
+      "id": "6539b758-50c3-4a92-ade5-72b997053d55",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction caractéristique de $X+Y$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "19a5f837-c3d0-49e3-bc4b-1dd805efdd69",
+      "id": "a8028a52-e433-4e49-81e9-83ed9403c29e",
       "type": "reponse",
       "value": {
         "latex": "Soit $t\\in\\mathbb{R}^*$. On a\n\t\t$$\\begin{align*}\n\t\t\t\\phi_{X+Y}(t)&= \\mathbb{E}(e^{itX}e^{itY}) \\\\\n\t\t\t&= \\int_{\\mathbb{R}^2} e^{itx}e^{ity} f(x,y) dxdy\\quad \\text{(théorème de transfert)} \\\\\n\t\t\t&= \\frac{1}{4}\\int_{-1}^1\\int_{-1}^1 e^{itx}e^{ity}dxdy + \\frac{1}{4} \\left(\\int_{-1}^1\\int{-1}^1 x^3ye^{itx}e^{ity} dxdy -\\int_{-1}^1\\int{-1}^1 xy^3e^{itx}e^{ity} dxdy\\right) \\\\\n\t\t\t&=\\frac{1}{4}\\int_{-1}^1 e^{itx}dx \\int_{-1}^1 e^{ity}dy +0 \\\\\n\t\t\t&= \\left[ \\frac{1}{2it}(e^{it}-e^{-it})\\right]^2 \\\\\n\t\t\t&= \\left(\\frac{\\sin t}{t}\\right)^2\n\t\t\\end{align*}$$\n\t\tet par continuité de la fonction $t\\mapsto \\frac{\\sin t}{t}$ en $0$, on obtient:\n\t\t\\[ \\forall t \\in \\mathbb{R}, \\quad \\phi_{X+Y}(t)=\\left(\\frac{\\sin t}{t}\\right)^2.\\]\n\t\tIci, on peut remarquer que nous avons l'égalité $\\phi_{X+Y}=\\phi_X\\phi_Y$ malgré le fait que les variables aléatoires $X$ et $Y$ ne soient pas indépendantes.",

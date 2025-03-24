@@ -8,18 +8,18 @@
   "metadata": {
     "exo7id": "",
     "auteur": "Q. Liard",
-    "createdAt": "2025-03-18T17:52:45.120Z",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-03-24T17:15:11.106Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:45.120Z"
+    "updatedAt": "2025-03-24T17:15:11.106Z"
   },
   "contenu": [
     {
-      "id": "8e48d55f-0568-4798-bef7-f771d7a8ed76",
+      "id": "dabece3f-1f0f-4d64-9163-178dcebe7b60",
       "type": "question",
       "value": {
         "latex": "Vérifier que $1$ est racine de $Q$ et donner la décomposition en facteurs irréductibles de $Q$ dans $\\mathbb{R}[X]$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "f4e063a3-bb34-4a50-bde7-132cab97c9e8",
+      "id": "4305d3de-143f-4972-aff8-7593f15f5d36",
       "type": "reponse",
       "value": {
         "latex": "$Q$ a pour racine réelle $1$ et possède un discriminant $\\Delta$ égal à $\\Delta=1-4\\times 1 \\times 2=-7$. $Q$ admet donc deux racines complexes $x_1=\\frac{-1-i\\sqrt{7}}{2}$ et $x_2=\\frac{-1+i\\sqrt{7}}{2}$. La factorisation de $Q$ en polynômes irréductibles sur \\(\\mathbb{R}[X]\\) est donc $Q(X)=(X-1)(X^2+X+2)$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "233fcb31-3107-4a37-96fc-3a5c055e612d",
+      "id": "d54742a8-26db-4732-a681-abeb833ac26c",
       "type": "question",
       "value": {
         "latex": "Décomposer \\(P\\) en éléments simples dans $\\mathbb{R}(X)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "0a7455c8-3a1b-4518-a0a4-5ed3d4db19d2",
+      "id": "ac011fd1-63cc-4446-8cf2-67cf429f36ca",
       "type": "reponse",
       "value": {
         "latex": "$P$ peut s'écrire sous la forme\n       $$P(X)=E(X)+\\frac{a}{X-1}+\\frac{bX+c}{X^2+X+2}$$ avec $E$ la partie entière, $a,b$ et $c$ étant des constantes réelles. La division euclidienne de $X^4 + 2X^3 - X^2 + 5X - 4$ par $Q$ donne:  \n       $$X^4 + 2X^3 - X^2 + 5X - 4=Q(X)(X+2)+5X-2X^2.$$\n       Ainsi $E=X+2.$ \n       En calculant $(X-1)P(X)$ de deux manières différentes puis en posant $X=1$ on obtient $a=\\frac{3}{4}.$\\\\\n       En posant $X=0$ on obtient l'équation $P(0)=\\frac{-4}{(-1\\times 2)}=2=2+\\frac{3/4}{-1}+\\frac{c}{2},$\nd'où $c=\\frac{3}{2}.$ En évaluant en $X=2$ on trouve la dernière constante $b$ égale à $-\\frac{11}{4}$. La décomposition de $P$ est donc:\n$$P(X)=X+2+\\frac{3/4}{X-1}+\\frac{-11X+6}{4(X^2+X+2)}$$",

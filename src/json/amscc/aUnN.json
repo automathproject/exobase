@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Continuité : théorie",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:33.023Z"
+    "updatedAt": "2025-03-24T17:15:04.031Z"
   },
   "contenu": [
     {
-      "id": "ad7875dd-82c0-4c35-9e0f-7949a138ae0e",
+      "id": "4a2bab59-7e49-4466-88d7-7fe81160f117",
       "type": "description",
       "value": {
         "latex": "Soit $f: \\R^2 \\to \\R$ définie par :\n$$ (x,y) \\mapsto \\left\\{ \\begin{array}{ll} \\dfrac{xy(x^2-y^2)}{x^2+y^2} & \\text{ si } (x,y) \\neq (0,0) \\\\\n0 & \\text{ si } (x,y) = (0,0)\n\\end{array}\n\\right. $$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "71b37cc0-8a64-47af-9b03-42c7232c2657",
+      "id": "6b2588e1-00aa-48fe-91a9-3862696a7ae0",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle continue en $(0,0)$~?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "5b8cfece-ea8a-4e7b-8070-20cb3b062e3c",
+      "id": "fc1f15bf-3a8e-4169-a671-4a2228468eae",
       "type": "reponse",
       "value": {
         "latex": "On peut passer en coordonnées polaires en posant $x=r\\cos(\\theta)$ et $y=r\\sin(\\theta)$ : en utilisant l'inégalité triangulaire et le fait que $|\\cos(\\theta)| \\leq 1$ et $|\\sin(\\theta)| \\leq 1$, on obtient la majoration suivante :\n\t\t$|f(x,y)| \\leq \\frac{r \\times r(r^2 +r^2)}{r^2} \\leq 2r^2 \\xrightarrow[r \\to 0]{}0$. On peut ainsi conclure que $f$ est bien continue en $(0,0)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "7023da92-2b48-423a-a6f9-5c62f26a96e3",
+      "id": "3728b159-2252-4c17-846f-2ecd288e85e0",
       "type": "question",
       "value": {
         "latex": "Calculer $\\dpa{f}{x}(x,y)$ et $\\dpa{f}{y}(x,y)$ pour $(x,y) \\neq (0,0)$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "687f04be-f938-485e-bf36-223748c021da",
+      "id": "0b3f6436-9896-47bf-af86-a4f9a00a52a0",
       "type": "reponse",
       "value": {
         "latex": "Les formules de dérivation usuelles s'appliquent sur l'expression de $f$ en tout point $(x,y) \\neq (0,0)$ : \n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{x}(x,y) &= \\frac{y (x^{4}+4 x^{2} y^{2}-y^{4})}{\\left(y^{2}+x^{2}\\right)^{2}} \\\\\n\t\t\\dpa{f}{y}(x,y) &= \\frac{(-x) (y^{4}+4 y^{2} x^{2}-x^{4})}{\\left(x^{2}+y^{2}\\right)^{2}}\n\t\t\\end{align*}$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "30865eba-1cd3-4ba5-b8d7-8fe5f0bb0c0e",
+      "id": "ff441f17-5415-4968-9f48-847c7e5268e3",
       "type": "question",
       "value": {
         "latex": "Calculer $\\dpa{f}{x}(0,0)$ et $\\dpa{f}{y}(0,0)$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "61561ef1-3234-4b95-ad6b-a88c6ec3812b",
+      "id": "a844706e-0b4a-4d42-b987-99dc0ddf32f1",
       "type": "reponse",
       "value": {
         "latex": "Hors de question ici d'utiliser des formules de dérivation puisqu'il n'y a pas d'expression de la fonction au voisinage de ce point... On doit donc revenir à la définition et regarder la limite du taux d'accroissement pour chaque variable.\n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{x}(0,0) &= \\lim\\limits_{h \\to 0} \\frac{f(h,0)-f(0,0)}{h} = 0  \\\\\n\t\t\\dpa{f}{y}(0,0) &= \\lim\\limits_{h \\to 0} \\frac{f(0,h)-f(0,0)}{h} = 0  \n\t\t\\end{align*}$$",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": true,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Loi, indépendance, loi conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:20.866Z"
+    "updatedAt": "2025-03-24T17:13:56.818Z"
   },
   "contenu": [
     {
-      "id": "757911ff-7302-4c7f-808d-24d5601fab77",
+      "id": "50c36f43-0aeb-4e67-b28d-d2dbb93f46d3",
       "type": "description",
       "value": {
         "latex": "On considère un fast food muni de $N$ comptoirs. Le nombre de personnes se présentant en une heure au fast food est $X$ suivant une loi de poisson $\\mathscr{P}(\\lambda)$ avec $\\lambda >0$. Pour commander son sandwich, chaque personne choisit un comptoir au hasard, de manière équiprobable. On note $Y$ le nombre de personnes se présentant au comptoir numéro 1. On note $Y_i$ le nombre de personnes se présentant au comptoir numéro $i$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "6510c0b6-bf73-4693-bda7-3dc846a5667f",
+      "id": "78da54a4-10f2-4968-96f5-e8a7c714d9f7",
       "type": "question",
       "value": {
         "latex": "Quelle est  la loi de $Y_1$ ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "ae3715a1-9a98-4a04-90b1-aa4625d6ee50",
+      "id": "37a64e3e-2bb7-4584-b533-0745a0a82ef3",
       "type": "question",
       "value": {
         "latex": "Calculer le coefficient de corrélation linéaire de $(Y_i,Y_j)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "26e78cc4-1fa0-45d3-a6dc-2368f4034c0c",
+      "id": "81b5afef-0904-4456-b462-cc14ea65c9f5",
       "type": "indication",
       "value": {
         "latex": "On pourra tout d'abord calculer la loi $Y$ conditionnée par $X$, puis la loi mutuelle $(X,Y)$.",

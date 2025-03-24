@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "bibmath",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:33.058Z"
+    "updatedAt": "2025-03-24T17:16:57.032Z"
   },
   "contenu": [
     {
-      "id": "a54ee39a-eda5-4e5e-866e-ae48d5fea1d2",
+      "id": "af90e99f-ebc5-4d0c-87bc-79be3808b7b8",
       "type": "description",
       "value": {
         "latex": "On considère deux avions $A$ et $B$ ayant respectivement 4 et 2 moteurs. Les moteurs fonctionnent de manière indépendante et chacun a une probabilité $p \\in ]0;1[$ de tomber en panne. On admet qu'un vol se termine bien si moins de la moitié des moteurs tombe en panne.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "f15e3d31-a197-4fea-9d4c-6158281a82b3",
+      "id": "d06c2eb7-5891-4a3e-9780-512436cdc1d1",
       "type": "question",
       "value": {
         "latex": "Quel avion est-il préférable de choisir ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "1bb6fd73-b408-4dde-8596-1d85a3e99d89",
+      "id": "516e80f7-1cd7-42bf-bed5-761dc282e443",
       "type": "reponse",
       "value": {
         "latex": "Soit $X$ le nombre de moteurs tombant en panne sur l'avion $A$ et $Y$  le nombre de moteurs tombant en panne sur l'avion $B$. Alors $X$ suit une loi binomiale $\\mathcal{B}(4,p)$ et $Y$ suit une loi binomiale $\\mathcal{B}(2,p)$. \n\nOn en déduit que $\\prob(X=0)+\\prob(X=1) = (1-p)^4 + 4p(1-p)^3$ et $\\prob(Y=0) = (1-p)^2$.\n\nIl est préférable de prendre l'avion $A$ si et seulement si $\\prob(X=0)+\\prob(X=1) \\geq \\prob(Y=0)$, c'est-à-dire :\n$$p(1-p)^2(2-3p) \\geq 0 \\iff 2-3p \\geq 0$$\n\nEn conclusion, si $p < \\frac{2}{3}$, il est préférable de prendre l'avion $A$.",

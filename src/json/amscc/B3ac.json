@@ -11,17 +11,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:53.829Z"
+    "updatedAt": "2025-03-24T17:13:41.887Z"
   },
   "contenu": [
     {
-      "id": "ceeaae52-f245-49a6-9006-b08d31296869",
+      "id": "1ea9ef6d-e08b-4222-abeb-156efe99b095",
       "type": "description",
       "value": {
         "latex": "L'observation a permis d'affirmer que le nombre d'étudiants qui entrent à la bibliothèque entre 9h00 et 10h30 suit une loi de Poisson de paramètre $16$ dont voici un extrait de la table:\n\t\\begin{center}\n\t\t\\begin{tabular}{|c|c|c|c|c|c|}\n\t\t\t\\hline\n\t\t\t$k$ & 14 & 15 & 16 & 17 & 18 \\\\\n\t\t\t\\hline\n\t\t\t$\\prob(X\\leq k)$ & $0.3675$ & $0.4667$ & $0.5660$ & $0.6593$ & $0.7423$ \\\\\n\t\t\t\\hline\n\t\t\\end{tabular}\n\t\\end{center}",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "1ba8ef98-3267-4515-a024-3c34270f8f71",
+      "id": "20cef468-c9c7-4e59-adc8-b64340984eea",
       "type": "question",
       "value": {
         "latex": "En utilisant le tableau ci-dessus, déterminer $\\prob(X=15)$.",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "033aa850-fa5b-456b-9ef2-ef3129feefff",
+      "id": "fee43cfa-2eb3-4f4e-8e13-b94eb6f6fea0",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(X=15)=\\prob(X\\leq 15)-\\prob(X\\leq 14)=0.4667-0.3675 \\simeq 0,0992$.",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "6bc7ee61-b22d-4ce3-a0b1-13738228212c",
+      "id": "c8a6780e-fd8f-45f2-9d25-65768afeb521",
       "type": "question",
       "value": {
         "latex": "Déterminer les paramètres de la loi normale que suit la variable aléatoire $Y$ qui approche $X$.",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "97ca5eef-d642-4c1d-baf5-b443dc7e2f8e",
+      "id": "f295d9a5-8127-4993-bf55-73fd5efc5bcb",
       "type": "reponse",
       "value": {
         "latex": "$X$ peut être approchée par $Y$ qui suit la loi $\\mathcal{N}(\\mu=16,\\sigma^2=16)$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "77d07f48-2a2f-4060-aa28-dfda4f12c5fb",
+      "id": "d2036d44-3db3-4ee5-8b94-586c51df6e22",
       "type": "question",
       "value": {
         "latex": "Calculer $\\alpha=\\prob(14.5\\leq Y\\leq 15.5)$. Quel est le lien entre $\\alpha$ et $\\prob(X=15)$ ?",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "7fc615a9-83f8-4257-b7fd-947c4a8a41a4",
+      "id": "a0dbb011-0ff7-41f8-866e-b830f986ac2c",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\alpha=\\prob(14.5\\leq Y\\leq 15.5)\n\t\t\t\t&= \\p\\left(\\frac{-1.5}{\\sqrt{16}}\\leq \\frac{Y-16}{\\sqrt{16}} \\leq \\frac{-0.5}{\\sqrt{16}} \\right) \\\\\n\t\t\t\t&= \\prob(-0.375\\leq Z\\leq -0.125), \\quad \\text{ où } Z \\sim \\mathcal{N}(0,1) \\\\\n\t\t\t\t&= \\prob(0.125\\leq Z\\leq 0.375) \\\\\n\t\t\t\t&= \\prob(Z\\leq 0.375)-\\prob(Z\\leq 0.125) \\\\\n\t\t\t\t&= 0.64615-0.54975 \\\\\n\t\t\t\t&= 0.0964\n\t\t\t\t\\end{align*}$$\n\t\t\t\t$\\alpha$ est une approximation (avec correction de continuité) de $\\prob(X=15)$. En effet,\n\t\t\t\t\\[ \\prob(X=15)=\\prob(14.5\\leq X\\leq 15.5) \\simeq \\prob(14.5\\leq Y\\leq 15.5).\n\t\t\t\t\\]",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "1c37d9ac-1040-422a-a39d-5b5f764f6ce4",
+      "id": "5216c024-3703-4bf6-ae96-223caec1eab7",
       "type": "question",
       "value": {
         "latex": "Déterminer une approximation de $\\prob(15\\leq X\\leq 20)$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "e5e72f49-bf98-449f-b330-652169db5f51",
+      "id": "9719f4e9-f725-4e7d-8c9c-492ddfae540c",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\\prob(15\\leq X\\leq 20)\n\t\t\t&=\\prob(14.5\\leq X\\leq 20.5) \\\\\n\t\t\t&\\simeq \\prob(14.5\\leq Y\\leq 20.5) \\\\\n\t\t\t& \\simeq \\p\\left(-0.375 \\leq \\frac{Y-16}{4}\\leq 1.125\\right) \\\\\n\t\t\t& \\simeq \\prob(Z\\leq 1.125) - \\prob(Z\\leq -0.375) \\\\\n\t\t\t& \\simeq \\prob(Z\\leq 1.125) -(1-\\prob(Z\\leq 0.375)) \\\\\n\t\t\t& \\simeq 0.8697 -1 + 0.64615\\\\\n\t\t\t&\\simeq 0.51585\n\t\t\t\\end{align*}$$",

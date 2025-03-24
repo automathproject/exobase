@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "legall",
     "createdAt": "2024-12-02",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
     "organisation": "exo7",
-    "updatedAt": "2025-03-18T17:52:29.493Z"
+    "updatedAt": "2025-03-24T17:15:01.118Z"
   },
   "contenu": [
     {
-      "id": "1e04d964-9a16-4c7c-9268-d497d6c39cdc",
+      "id": "270bdf87-db3d-4561-835d-a257bb551d36",
       "type": "description",
       "value": {
         "latex": "Soit $f : \\Rr \n\t^2\\rightarrow \\Rr $ l'application $(x,y) \\mapsto 6xy+(y-x)^3.$ On note\n\t$\\Delta =\\{ (x,y)\\in \\Rr^2 , -1\\leq x\\leq y \\leq 1\\} .$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "b2539c63-bf03-4001-9e2d-19d5444cb0a2",
+      "id": "ef7f2b45-d3fe-40e1-b935-19119a93ea5c",
       "type": "question",
       "value": {
         "latex": "Dessiner $\\Delta $. Montrer que $f$ est bornée et atteint ses \tbornes sur $\\Delta .$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "1e964e79-1cf7-43ff-81d4-3d41fbedba71",
+      "id": "f33610bf-9fca-4e46-86d8-b94a27c7443b",
       "type": "indication",
       "value": {
         "latex": "",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "2c45a230-48b6-46c2-b069-904ba0bda762",
+      "id": "1080cf5b-3f5c-4cd4-8b12-3b74cd63c310",
       "type": "reponse",
       "value": {
         "latex": "\\textbf{Description de $\\Delta$ :}\n    \t\n    \tLa région $\\Delta$ est définie par les inégalités :\n    \t\\[\n    \t-1 \\leq x \\leq y \\leq 1.\n    \t\\]\n    \tDans le plan $(x, y)$, $\\Delta$ est la région délimitée par :\n    \t\\begin{itemize}\n    \t\t\\item Les droites verticales $x = -1$ et $x = 1$.\n    \t\t\\item La droite $y = x$.\n    \t\t\\item La droite horizontale $y = 1$.\n    \t\\end{itemize}\n    \tGraphiquement, $\\Delta$ est un triangle situé délimité par les points $(-1, -1)$, $(1, 1)$ et $(-1, 1)$.\n    \t\n    \t\\medskip\n    \t\n    \t\\textbf{Continuité et compacité :}\n    \t\n    \tLa fonction $f$ est une fonction polynomiale en $x$ et $y$, donc continue sur $\\mathbb{R}^2$. L'ensemble $\\Delta$ est fermé et borné dans $\\mathbb{R}^2$, donc compact.\n    \t\n    \t\\medskip\n    \t\n    \t\\textbf{Conclusion :}\n    \t\n    \tD'après le théorème des valeurs extrêmes, toute fonction continue sur un compact atteint ses bornes sur cet ensemble. Ainsi, $f$ est bornée sur $\\Delta$ et atteint ses bornes sur $\\Delta$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "4a5ed359-0a3d-45f8-80e3-bd14dcbc5941",
+      "id": "60d489c9-87a8-4e09-9d99-bd227b92e204",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle un minimum local ou maximum local dans l'intérieur de $\\Delta$ ? Si oui, les déterminer.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "a8e1e612-975a-415a-97bd-d73dd4cb7401",
+      "id": "6a0b5c3e-ef70-453e-a229-028bf65d4fa5",
       "type": "reponse",
       "value": {
         "latex": "Calculons les points stationnaires en résolvant $\\nabla f = 0$ :\n\t\t\\[\n\t\t\\begin{cases}\n\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 6y - 3(y - x)^2 = 0, \\\\\n\t\t\t\\frac{\\partial f}{\\partial y}(x,y) = 6x + 3(y - x)^2 = 0.\n\t\t\\end{cases}\n\t\t\\]\n\t\t$\\iff$\n\t\t\\[\n\t\t\\begin{cases}\n\t\t\t6y + 6x = 0, \\\\\n\t\t\t6x + 3(2x)^2 = 0.\n\t\t\\end{cases}\n\t\t\\]\n\t\t$\\iff$\n\t\t\\[\n\t\t\\begin{cases}\n\t\t\tx = -y, \\\\\n\t\t\t6x(1 + 2x) = 0.\n\t\t\\end{cases}\n\t\t\\]\n\t\t$\\iff$\n\t\t$(x,y) = (0,0)$ ou $(x,y) = \\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$. Le point $(0,0)$ n'est pas dans l'intérieur de $\\Delta$. \n\n\t\tOn détermine la nature en calculant la matrice hessienne de $f$ : \n\t\t\\[\n\t\tH_f(x,y) = \\begin{pmatrix}\n\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) & \\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) \\\\\n\t\t\t\\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) & \\frac{\\partial^2 f}{\\partial y^2}(x,y)\n\t\t\\end{pmatrix} = \\begin{pmatrix}\n\t\t\t6(y-x) & 6-6(y-x) \\\\\n\t\t\t6-6(y-x) & 6(y-x)\n\t\t\\end{pmatrix}.\n\t\t\\]\n\t\tEn $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$, $H_f\\left(-\\frac{1}{2}, \\frac{1}{2}\\right) = \\begin{pmatrix} 6 & 0 \\\\ 0 & 6 \\end{pmatrix}$, \n\t\tde déterminant $36 > 0$  et définie positive, donc $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$ est un minimum local de $f$ et ce minimum vaut $f\\left(-\\frac{1}{2}, \\frac{1}{2}\\right) = -\\frac{1}{2}$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "9d2b7a69-0378-4621-bd31-dc4d37ade7bf",
+      "id": "428e3d1a-98c1-421c-a888-d26588b1718c",
       "type": "question",
       "value": {
         "latex": "Calculer les extrema de $f$ sur le bord de $\\Delta $.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "9666ec12-b99e-48e6-b0ff-4198d648534b",
+      "id": "6d619db0-c0be-49bf-8a9e-4fc1ac7f8121",
       "type": "indication",
       "value": {
         "latex": "",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "1f37a48b-2792-42d5-acd7-b79264b23eec",
+      "id": "797ab6fd-0ddc-4709-8a7a-f3414997c645",
       "type": "reponse",
       "value": {
         "latex": "\\textbf{Sur le bord $\\mathbf{y = x}$, avec $\\mathbf{x \\in [-1, 1]}$ :}\n    \n    On a $f(x, x) = 6x^2 + (x - x)^3 = 6x^2$.\n    \n    \\begin{itemize}\n    \t\\item Le minimum est atteint en $x = 0$ : $f(0, 0) = 0$.\n    \t\\item Le maximum est atteint en $x = \\pm 1$ : $f(\\pm 1, \\pm 1) = 6$.\n    \\end{itemize}\n    \n    \\medskip\n    \n    \\textbf{Sur le bord $\\mathbf{y = 1}$, avec $\\mathbf{x \\in [-1, 1]}$ :}\n    \n    On a $f(x, 1) = 6x \\cdot 1 + (1 - x)^3 = 6x + (1 - x)^3$.\n    \n    Calcul de la dérivée :\n    \\[\n    f'(x) = 6 - 3(1 - x)^2.\n    \\]\n    En résolvant $f'(x) = 0$ :\n    \\[\n    6 - 3(1 - x)^2 = 0 \\implies (1 - x)^2 = 2 \\implies x = 1 \\pm \\sqrt{2}.\n    \\]\n    Seule la solution $x = 1 - \\sqrt{2} \\approx -0{,}4142$ appartient à $[-1, 1]$.\n    \n    \\begin{itemize}\n    \t\\item $f(1, 1) = 6 + 0 = 6$ (maximum).\n    \t\\item $f(-1, 1) = -6 + 8 = 2$.\n    \t\\item $f(1 - \\sqrt{2}, 1) = 6(1 - \\sqrt{2}) + (1 - (1 - \\sqrt{2}))^3 = 6 - 6\\sqrt{2} + (\\sqrt{2})^3 = 6 - 6\\sqrt{2} + 2\\sqrt{2} = 6 - 4\\sqrt{2} \\approx 0{,}3432$ (minimum).\n    \\end{itemize}\n    \n    \\medskip\n    \n    \\textbf{Sur le bord $\\mathbf{x = -1}$, avec $\\mathbf{y \\in [-1, 1]}$ :}\n    \n    On a $f(-1, y) = -6y + (y + 1)^3$.\n    \n    Calcul de la dérivée :\n    \\[\n    f'(y) = -6 + 3(y + 1)^2.\n    \\]\n    En résolvant $f'(y) = 0$ :\n    \\[\n    -6 + 3(y + 1)^2 = 0 \\implies (y + 1)^2 = 2 \\implies y = -1 \\pm \\sqrt{2}.\n    \\]\n    Seule la solution $y = -1 + \\sqrt{2} \\approx 0{,}4142$ appartient à $[-1, 1]$.\n    \n    \\begin{itemize}\n    \t\\item $f(-1, -1) = 6 + 0 = 6$ (maximum).\n    \t\\item $f(-1, 1) = -6 + 8 = 2$.\n    \t\\item $f(-1, -1 + \\sqrt{2}) = 6 - 4\\sqrt{2} \\approx 0{,}3432$ (minimum).\n    \\end{itemize}",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "9314091d-3c97-4d08-8542-944fe5108ccb",
+      "id": "69b98a10-9660-4379-8765-4ab643bc11f2",
       "type": "question",
       "value": {
         "latex": "En déduire les bornes de $f$ sur $\\Delta $.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "e7a6fef9-653a-46d2-8b41-f665c1f9f5af",
+      "id": "3babf226-3dec-4573-8946-c9634244deeb",
       "type": "reponse",
       "value": {
         "latex": "D'après les calculs précédents :\n\t\n\t\\begin{itemize}\n\t\t\\item Le maximum de $f$ sur $\\Delta$ est $f_{\\text{max}} = 6$, atteint en $(1, 1)$ et $(-1, -1)$.\n\t\t\\item Le minimum de $f$ sur $\\Delta$ est $f_{\\text{min}} = 0{,}3432$, atteint sur le bord en $(1 - \\sqrt{2}, 1)$ et $(-1, -1 + \\sqrt{2})$, et $f(0, 0) = 0$ à l'intérieur.\n\t\\end{itemize}\n\t\n\tCependant, en comparant $f\\left(-\\frac{1}{2}, \\frac{1}{2}\\right) = -\\frac{1}{2}$ avec $f_{\\text{min}}$, on conclut que le minimum global de $f$ sur $\\Delta$ est $-\\frac{1}{2}$, atteint en $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$.",

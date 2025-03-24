@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:48.213Z"
+    "updatedAt": "2025-03-24T17:13:37.946Z"
   },
   "contenu": [
     {
-      "id": "7612c0a2-ad42-4f2a-bc6b-62723b8be3d3",
+      "id": "dedbf220-6ca2-4833-ba99-52b2847f7afd",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda >0$ et $X$ suivant une loi de Poisson $\\mathcal{P}(\\lambda)$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "1fec7b8b-3124-4bc5-82a6-01858dfd4c92",
+      "id": "012fde65-ed6e-49c0-bf7b-2b6862c34ec9",
       "type": "question",
       "value": {
         "latex": "Démontrer que sa fonction de répartition est définie par \n\t$$\\forall n \\in \\N \\qquad \\PP(X \\leq n) = \\frac{1}{n!}\\int_{\\lambda}^{+\\infty} e^{-x} x^n \\dx$$",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "5638f4a2-4e8f-4656-99f1-1c0e1769539e",
+      "id": "9be41ad4-15ab-40d7-919e-55157d26e65b",
       "type": "reponse",
       "value": {
         "latex": "Par récurrence sur $n$ et intégration par parties.",

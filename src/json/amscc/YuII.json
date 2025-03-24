@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:28.758Z"
+    "updatedAt": "2025-03-24T17:15:00.232Z"
   },
   "contenu": [
     {
-      "id": "803f13c2-ea82-48ea-9f01-16b8ad890058",
+      "id": "29909dc4-6fd6-4715-9b7f-f5d58eb98c9b",
       "type": "description",
       "value": {
         "latex": "Un laboratoire vient d'acquérir une nouvelle balance et on souhaite comparer la régularité du travail de cette dernière pour de très petites pesées à la norme habituelle du descriptif pour laquelle la variance $\\sigma_0^2$ est égale à $4 g^2$. On prélève alors un échantillon de 30 masses dont les valeurs (en grammes) sont données ci-après :\n2.53 ; 1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ; 0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ; 2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88\n\nOn suppose que les masses sont distribuées selon une loi normale.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "0e091eda-5cff-48f0-897f-d351e0a62034",
+      "id": "68a043cc-7c5d-4b30-8436-179806512568",
       "type": "question",
       "value": {
         "latex": "Au risque de $5\\%$, peut-on affirmer que la variance de l'échantillon est conforme à la norme du descriptif ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "91b5138e-2b0a-49bf-bb27-ed83c055570f",
+      "id": "82c4471c-603f-4efd-903d-367f17be8778",
       "type": "description",
       "value": {
         "latex": "Indication : ce test n'est pas détaillé dans le cours. Pour le mettre en place, on pourra définir une variable de décision en s'appuyant sur le fait que si $X_1,...,X_n$ est un $n$-échantillon dont la loi mère est une loi normale $\\mathcal{N}(\\mu,\\sigma^2)$ et $\\overline{X}$ la moyenne empirique de l'échantillon, alors la variable aléatoire \n$$S =  \\sum_{i=1}^{n} \\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2$$\nsuit une loi $\\chi^2(n-1)$.",

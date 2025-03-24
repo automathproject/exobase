@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:49.817Z"
+    "updatedAt": "2025-03-24T17:14:27.021Z"
   },
   "contenu": [
     {
-      "id": "883dcf78-f68e-4fa3-ac0d-4d8c1dbf6a69",
+      "id": "94e944f8-1deb-49ba-a907-aa715de06a1b",
       "type": "description",
       "value": {
         "latex": "Pour des raisons de rentabilité, le vol Océanic $815$ reliant Sydney à Los Angeles a été sur-réservé. Il y a $98$ places dans l'avion et $100$ billets ont été vendus.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "f3596a87-4c47-446a-9b17-8db38a731027",
+      "id": "3ed73e60-6e4e-4524-ad73-b1de18e66faa",
       "type": "question",
       "value": {
         "latex": "Sachant que la probabilité qu'un passager se désiste est de $10\\%$, quelle est la probabilité qu'au moins un passager reste bloqué à Sydney ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "cd775903-c25c-48a7-8885-097565b8395c",
+      "id": "94249226-908d-48ca-b98d-d2cfabbe167e",
       "type": "reponse",
       "value": {
         "latex": "Soit $Y$ le nombre de passagers à se présenter à l'embarquement: $Y\\sim \\mathcal{B}(100,0.9)$ et on cherche la probabilité qu'il y ait au moins un passager bloqué à Sydney, c'est-à-dire qu'il y ait plus de $99$ personne à se présenter:\n\t$$\\begin{align*}\n\t\\p(Y\\geq 99)&=\\p(Y=99)+\\p(Y=100) \\\\\n\t&=\\binom{100}{99}\\times 0.9^{99} \\times 0.1^{1} + \\binom{100}{100}\\times 0.9^{100} \\times 0.1^{0} \\\\\n\t&\\simeq 0.00032,\n\t\\end{align*}$$\n\tsoit environ $0.03$\\% de chance qu'il y ait au moins un passager bloqué à Sydney.",

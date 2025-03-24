@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-19",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Optimisation",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:27.952Z"
+    "updatedAt": "2025-03-24T17:13:24.878Z"
   },
   "contenu": [
     {
-      "id": "aff910ed-90a6-4b74-975c-a5825c2e4a4b",
+      "id": "aa13387a-5d12-4ae7-a82a-a84e4cbb88b9",
       "type": "description",
       "value": {
         "latex": "La demande d'un produit au cours d'une saison suit une loi normale de moyenne \\nombre{5000} et d'écart-type \\nombre{1000}.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "fe13776c-6ad4-4c31-bb19-795efec88a85",
+      "id": "b983fce1-b639-4543-94e4-ab883a30a8ce",
       "type": "question",
       "value": {
         "latex": "Quel niveau de stock doit-on prévoir pour satisfaire la demande avec une probabilité de \\nombre{0,90} ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "315b963f-1629-4148-9190-c83f1fc88828",
+      "id": "0b398cdf-a955-4ef6-b670-6c08dba45612",
       "type": "reponse",
       "value": {
         "latex": "On modélise la demande par une variable aléatoire $X$ qui suit une loi normale $\\mathcal{N}(\\mu=5000,\\sigma=1000)$. On cherche $t$ tel que $\\prob(X \\leq t) = 0,90$. On a $\\prob(X \\leq t) = \\Phi\\left(\\frac{t-\\mu}{\\sigma}\\right) = 0,90$ où $\\Phi$ est la fonction de répartition de la loi normale centrée réduite. On a donc $\\frac{t-\\mu}{\\sigma} = \\Phi^{-1}(0,90) \\approx 1,28$ et donc $t = \\mu + \\sigma \\Phi^{-1}(0,90) \\approx 6280$. \n\n        Ainsi, pour satisfaire la demande avec une probabilité de \\nombre{0,90}, il faut prévoir un stock de \\nombre{6280} produits.",

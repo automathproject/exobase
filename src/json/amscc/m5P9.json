@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-31",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:50.622Z"
+    "updatedAt": "2025-03-24T17:15:53.716Z"
   },
   "contenu": [
     {
-      "id": "bac7bb5e-6012-477d-9ec2-2b6b6571508a",
+      "id": "78c6e72c-e3f7-46a2-9324-6fc42f38e424",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $f \\colon \\R^2 \\to \\R$ définie par : $$f(x,y) = \\begin{cases} \\frac{x-2y}{x^2+y^2} & \\text{ si } (x,y) \\neq (0,0) \\\\\n\t0\t&  \\text{ sinon. } \n\t\t\\end{cases}$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "bfb918a8-feb1-4e20-9bea-a34fa041a482",
+      "id": "40761c49-e5cd-427d-bcd5-82c9068dacf9",
       "type": "question",
       "value": {
         "latex": "Donner l'ensemble de définition de $f$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c5dbb280-2c2e-460f-8803-f2d6432a0477",
+      "id": "697fc8aa-a516-4887-bac2-fc0d8f9efab0",
       "type": "reponse",
       "value": {
         "latex": "La fonction $(x,y) \\mapsto \\frac{x-2y}{x^2+y^2}$ est définie pour tout $(x,y) \\in \\R^2$ tels que $x^2+y^2 \\neq 0$, c'est-à-dire $(x,y) \\neq (0,0)$. Mais $f(0,0)$ est défini à part. Donc l'ensemble de définition de $f$ est $\\R^2$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "2a56eb05-a353-45d4-94e7-87b46950de36",
+      "id": "d10574bc-7c76-4ef2-9386-d8029aa64d4c",
       "type": "question",
       "value": {
         "latex": "Déterminer la courbe de niveau $k=0$ de la fonction $f$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "91d6359e-41e7-4384-8d4a-ea87f7e38b2a",
+      "id": "35803eac-feec-479e-b07f-b9eb3538003b",
       "type": "reponse",
       "value": {
         "latex": "$f(x,y) = 0 \\iff x = 2y$, la courbe de niveau $0$ est donc la droite d'équation $y=\\frac{x}{2}$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "ca3c07ee-c753-4d11-8230-7cc72982019a",
+      "id": "e769b701-e173-426e-b241-24fc18cd8455",
       "type": "question",
       "value": {
         "latex": "Vérifier que la courbe de niveau $k=1$ est un cercle de centre $\\left(\\frac{1}{2} ; -1 \\right)$ dont on déterminera le rayon.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "f8837825-fe23-4c1c-ad88-f5e7e7569def",
+      "id": "866c79d0-1f59-401e-ac5e-0de5b0344ec4",
       "type": "reponse",
       "value": {
         "latex": "Soit $k = 1$ : $f(x,y) = 1 \\iff x-2y = (x^2+y^2) \\iff x^2 -x + y^2 +2y = 0 \\iff \\left(x - \\frac{1}{2}\\right)^2 + \\left(y + 1 \\right)^2 = \\frac{5}{4}$, la courbe de niveau $1$ est donc un cercle de centre $\\left(\\frac{1}{2} ; -1 \\right)$ et de rayon $\\frac{\\sqrt{5}}{2}$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "c5433d09-bdae-473c-bf64-c685b6bdbd31",
+      "id": "7dbf357e-2186-415c-b826-54f111006249",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{h \\to 0} f(h,0)$ et $\\lim\\limits_{h \\to 0} f(2h,h)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "f9b23320-806f-4bf0-86a4-edbff572e49e",
+      "id": "be30efdb-bca9-4fcf-b5db-30541203263f",
       "type": "reponse",
       "value": {
         "latex": "$\\lim\\limits_{h \\to 0} f(h,0) = \\lim\\limits_{h \\to 0}\\frac{1}{h} = \\begin{cases}\n\t\t\t+\\infty & \\text{ si } h > 0 \\\\\n\t\t\t-\\infty & \\text{ si } h < 0\n\t\t\t\\end{cases}$. \\\\\n\t\tDe même, $\\lim\\limits_{h \\to 0} f(2h,h) = \\lim\\limits_{h \\to 0} 0 =  0$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "a4fcdd3a-6b23-414b-9ea6-d7cf52c53598",
+      "id": "40c50ba0-2838-4009-8cef-cee2bc4800f7",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle continue en $(0,0)$ ? Justifier.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "297ff005-a990-4d4a-8b7a-22bda5029395",
+      "id": "a547aad9-032b-4c53-b50b-66a857e82cd5",
       "type": "reponse",
       "value": {
         "latex": "D'après la question précédente, ce n'est pas le cas, car $f$ n'admet pas de limite en $(0,0)$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "be6ba62d-dcfb-4c0c-9d21-6c3e310a1e33",
+      "id": "39df4f88-dd69-45d4-9a31-f9a91b41f147",
       "type": "question",
       "value": {
         "latex": "Calculer $\\frac{\\partial f}{\\partial x}(x,y)$ et $\\frac{\\partial f}{\\partial y}(x,y)$ pour tout $(x,y) \\neq (0,0)$.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "18a28982-93e5-4cca-b08c-908d00b715f3",
+      "id": "14eda8d7-7041-453b-a8e8-988be31fcc19",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{\\partial f}{\\partial x}(x,y) = \\frac{y^2 + 4xy - x^2}{(x^2+y^2)^2}$ et $\\frac{\\partial f}{\\partial y}(x,y) = \\frac{-2xy + 2y^2 - 2x^2}{(x^2+y^2)^2}$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "6307ce44-bb77-4b5a-820c-0d61f032d43f",
+      "id": "9add6389-a45a-4681-888f-e27962d214d2",
       "type": "question",
       "value": {
         "latex": "Calculer $\\frac{\\partial f}{\\partial x}(0,0)$ et $\\frac{\\partial f}{\\partial y}(0,0)$. Les dérivées partielles de $f$ sont-elles continues en $(0,0)$ ?",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "83d5e74e-4c78-4504-8cdd-edcbe4c00b3d",
+      "id": "4bdef374-8ad0-4afd-803b-a35d7d0b7a9d",
       "type": "reponse",
       "value": {
         "latex": "On calcule la limite du taux d'accroissement pour chaque variable : $\\frac{\\partial f}{\\partial x}(0,0) = \\lim\\limits_{h \\to 0} \\frac{f(h,0) - f(0,0)}{h} = \\lim\\limits_{h \\to 0} \\frac{1}{h^2} = +\\infty$ et $\\frac{\\partial f}{\\partial y}(0,0) = \\lim\\limits_{h \\to 0} \\frac{f(0,h) - f(0,0)}{h} = \\lim\\limits_{h \\to 0} \\frac{-2}{h^2} = -\\infty$. \n\n\t\tDonc les dérivées partielles de $f$ n'existent pas, et a fortiori ne sont pas continues en $(0,0)$.",

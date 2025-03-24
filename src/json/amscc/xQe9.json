@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:26.782Z"
+    "updatedAt": "2025-03-24T17:17:21.559Z"
   },
   "contenu": [
     {
-      "id": "1f2253c9-146a-44dc-aa55-1d17bb686692",
+      "id": "f9420c03-c269-40b4-8954-17071c396169",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire réelle suivant une loi uniforme sur $[0;1]$. Soit $\\lambda >0$ et soit la variable aléatoire  $Y=\\frac{-1}{\\lambda}\\ln(1-X)$. On note $F_X$, respectivement $F_Y$, la fonction de répartition de la variable $X$, respectivement $Y$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ed5511e2-ced2-4fc7-af72-3ba678c68ada",
+      "id": "a1f9fa8b-4054-4948-bc02-b1efe6ae1665",
       "type": "question",
       "value": {
         "latex": "Exprimer $F_Y(t)$ en fonction de $F_X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9ef673d7-2593-4396-bd28-d84b4b4a1e26",
+      "id": "5c0e8625-d1d8-4ad1-9c9c-780b90fb9494",
       "type": "reponse",
       "value": {
         "latex": "Soit $t\\in\\mathbb{R}$. On a\n\t\t\t$$\\begin{align*}\n\t\t\t\tF_Y(t) &= \\prob(Y\\leq t) \\\\\n\t\t\t\t&= \\prob(\\frac{-1}{\\lambda}\\ln(1-X)\\leq t) \\\\\n\t\t\t\t&= \\prob(\\ln(1-X)\\geq -\\lambda t) \\\\\n\t\t\t\t&= \\prob(1-X\\geq e^{-\\lambda t}) \\\\\n\t\t\t\t&=  \\prob(X\\leq 1-e^{-\\lambda t}) \\\\\n\t\t\t\t&= F_X(1-e^{-\\lambda t}).\n\t\t\\end{align*}$$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "bc75b7e9-88a7-4c15-95f6-e3f5406b9fb8",
+      "id": "c746db63-650b-4c5c-bc02-0df08f84501f",
       "type": "question",
       "value": {
         "latex": "En déduire la loi suivie par $Y=\\frac{-1}{\\lambda}\\ln(1-X)$ ?",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "5d412e6b-1877-4464-bd3f-9e4a53e8f076",
+      "id": "cc28f52e-9574-4576-903c-352ad75a76a3",
       "type": "reponse",
       "value": {
         "latex": "Or $X\\sim \\mathcal{U}([0;1])$ donc $F_X(x)=\\begin{cases} 0 & \\text{ si } x<0 \\\\ x & \\text{ si } x\\in[0;1[ \\\\ 1 & \\text{ si } x\\geq 1 \\end{cases}$.\n\t\t\t\n\t\t\tDe plus, si $t\\geq 0$, $1-e^{-\\lambda t} \\in [0;1[$ et si $t\\leq 0$, $1-e^{-\\lambda t}<0$.\n\t\t\t\n\t\t\tPar conséquent,\n\t\t\t\\[ F_Y(t)=\\begin{cases}\n\t\t\t\t0 & \\text{ si } t<0 \\\\\n\t\t\t\t1-e^{-\\lambda t} & \\text{ si } t\\geq 0\n\t\t\t\\end{cases}\n\t\t\t\\]\n\t\t\tce qui nous permet de reconnaître la fonction de répartition de la loi exponentielle de paramètre $\\lambda$ donc $Y\\sim \\mathcal{E}(\\lambda)$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "b3eb17cd-efa9-47c9-9360-51677e5ba1ee",
+      "id": "64e8cf3d-a13c-47ab-88ec-d9cdd9a02b94",
       "type": "question",
       "value": {
         "latex": "Dans un langage de programmation, on simule une loi uniforme sur $[0;1]$ avec la commande $\\texttt{rand()}$. Quelle commande peut-on écrire pour simuler une loi exponentielle de paramètre $\\lambda$ ?",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "33832bbf-17e7-4285-a302-3edcd739c7fa",
+      "id": "cad8a1f6-d3da-4f49-87d1-e96d6058bd47",
       "type": "reponse",
       "value": {
         "latex": "Il suffit d'écrire \\texttt{-1/lambda*log(1-rand())} et même \\texttt{-1/lambda*log(rand())} car $1-X$ suit une loi uniforme sur $[0;1]$.",

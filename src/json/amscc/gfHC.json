@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:24.217Z"
+    "updatedAt": "2025-03-24T17:15:36.745Z"
   },
   "contenu": [
     {
-      "id": "19c7284f-e329-4896-9f00-60ebba76fd62",
+      "id": "6b4fbb92-a296-4227-87dc-53e1ee460fa4",
       "type": "question",
       "value": {
         "latex": "Déterminer une probabilité sur $\\Omega  = \\left\\{ {1,2, \\ldots ,n} \\right\\}$ telle que la probabilité de l'événement $\\left\\{ {1,2, \\ldots ,k} \\right\\}$ soit proportionnelle à $k^2 $.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "1a78885b-06a0-4226-a2fb-4bfae8ae0430",
+      "id": "38f20062-1a2d-4344-8167-eaa24b7f6266",
       "type": "reponse",
       "value": {
         "latex": "Pour $k = n$, on a $\\PP(\\Omega) = \\alpha n^2 = 1$. Donc $\\alpha = \\frac{1}{n^2}$. Ainsi, $\\PP(\\left\\{ {1,2, \\ldots ,k} \\right\\}) = \\frac{k^2}{n^2}$.",

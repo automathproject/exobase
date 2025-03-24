@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-31",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:22.909Z"
+    "updatedAt": "2025-03-24T17:13:58.167Z"
   },
   "contenu": [
     {
-      "id": "13874520-1f64-466a-9c16-3fb9e8ac8f4d",
+      "id": "6c43362d-9b9f-465b-889b-355a7acd2767",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $f \\colon \\R^2 \\to \\R$ définie par : $$f(x,y) = \\frac{x+y}{x^2+y^2}$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "495056f6-344b-49ea-adab-629571e54698",
+      "id": "3fe22202-ba2d-4da8-b7ce-71bed33c2091",
       "type": "question",
       "value": {
         "latex": "Donner l'ensemble de définition de $f$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "6f47d47c-b8a7-4200-978c-4624411eebc3",
+      "id": "96828bcc-e581-4d60-b997-2ddc4ea49760",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est définie pour tout $(x,y) \\in \\R^2$ tels que $x^2+y^2 \\neq 0$, c'est-à-dire $(x,y) \\neq (0,0)$. L'ensemble de définition est donc $\\mathcal{D}_f = \\{(x,y) \\in \\R^2 \\, , \\, (x,y) \\neq (0,0) \\}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "8d5b8781-2349-4b5b-ab44-344fcf6ff4e7",
+      "id": "61faeec6-4a0c-448a-8862-43c35f5a8ebb",
       "type": "question",
       "value": {
         "latex": "Montrer que la courbe de niveau $k=0$ est une droite dont on précisera l'équation.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "75d480de-5267-4e2c-acdf-f714b6b6b4aa",
+      "id": "7327babf-d900-4764-813e-b752db7cb887",
       "type": "reponse",
       "value": {
         "latex": "$f(x,y) = 0 \\iff y = -x$, la courbe de niveau $0$ est donc la droite d'équation $y=-x$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "93e59ad2-ec98-4041-b448-a8c64ba08520",
+      "id": "b872534e-959d-4094-9b75-4985195917b4",
       "type": "question",
       "value": {
         "latex": "Quelle est la forme des courbes de niveau $k \\neq 0$ ?",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "45d8caa3-0aee-434e-be92-0c152895849b",
+      "id": "c7976bb5-bc27-4ebf-8456-568c3b7ac748",
       "type": "reponse",
       "value": {
         "latex": "Soit $k \\neq 0$ : $f(x,y) = k \\iff x+y = k(x^2+y^2) \\iff x^2 + y^2 - \\frac{1}{k}x - \\frac{1}{k}y = 0$, la courbe de niveau $k$ est donc un cercle.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "139d7db8-49f7-466f-89fb-60d95e3ff1b6",
+      "id": "a92a8db8-51f2-4919-92bf-f3efca9c5592",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{x \\to 0} f(x,0)$, $\\lim\\limits_{x \\to 0} f(x,x)$ et $\\lim\\limits_{x \\to 0} f(x,-x)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "8014909f-f8d5-42b4-8ca5-82b07debc19e",
+      "id": "cdef6440-8a0f-464e-818e-55be99428a89",
       "type": "reponse",
       "value": {
         "latex": "$\\lim\\limits_{x \\to 0} f(x,0) = \\lim\\limits_{x \\to 0}\\frac{1}{x} = \\begin{cases}\n\t\t\t+\\infty & \\text{ si } x > 0 \\\\\n\t\t\t-\\infty & \\text{ si } x < 0\n\t\t\t\\end{cases}$. \\\\\n\t\tDe même, $\\lim\\limits_{x \\to 0} f(x,x) = \\lim\\limits_{x \\to 0} \\frac{2x}{2x^2} =  \\begin{cases}\n\t\t\t+\\infty & \\text{ si } x > 0 \\\\\n\t\t\t-\\infty & \\text{ si } x < 0\n\t\t\\end{cases}$. \\\\\n\tEnfin, $\\lim\\limits_{x \\to 0} f(x,-x) = \\lim\\limits_{x \\to 0} 0 = 0$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "f4923e5a-1da1-4d7e-858c-e725f1d89adb",
+      "id": "7290ce4d-9cab-48c3-87ce-ba269f94adad",
       "type": "question",
       "value": {
         "latex": "Peut-on prolonger la fonction $f$ en $(0,0)$ afin qu'elle soit continue en $(0,0)$ ? Justifier.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "fc023941-3aa8-4dc0-a1f5-c89c83d6d46e",
+      "id": "024c1a9a-c2fd-4fd4-a29e-29c076b35166",
       "type": "reponse",
       "value": {
         "latex": "Pour pouvoir prolonger la fonction $f$ en $(0,0)$ afin qu'elle soit continue en $(0,0)$, il faudrait que $f$ admette une limite quand $(x,y) \\to (0,0)$. D'après la question précédente, ce n'est pas le cas.",

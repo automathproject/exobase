@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:25.067Z"
+    "updatedAt": "2025-03-24T17:15:37.190Z"
   },
   "contenu": [
     {
-      "id": "7c340544-ebe9-4d67-8e45-307d82e8136b",
+      "id": "80da5667-91b4-44c6-ad36-6e4a354464d5",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda>0$ et $X$ une variable aléatoire admettant pour densité $f(x)=\\lambda e^{-\\lambda x}1_{[0;+\\infty[}(x)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "4bda4056-932c-4b98-9316-15780cfdef18",
+      "id": "a8c91759-48b6-4811-8aec-afe1cb5bad27",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ définit bien une fonction densité, puis déterminer la fonction de répartition $F_X$ de $X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c7321914-02b4-427a-b720-95648be93723",
+      "id": "acccc8e2-c8b1-44e6-8e6b-4064ecffd7c9",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de vérifier que $f(x) \\geq 0$ pour tout $x \\in \\R$ puis de calculer :\n        $$\\begin{align*}\n        \\int_{-\\infty}^{+\\infty} f(x)dx &= \\int_0^{+\\infty} \\lambda e^{-\\lambda x} dx \\\\\n                                       &= \\left[-e^{-\\lambda x}\\right]_0^{+\\infty} \\\\\n                                       &= 1\n        \\end{align*}$$\n   On détermine maintenant la fonction de répartition : soit $t \\in \\R$ ;\n   \\begin{itemize}\n       \\item si $t<0$, alors $F_X(t) = \\int_{-\\infty}^t f(x)dx = \\int_{-\\infty}^t 0 dx = 0$ ;\n       \\item si $t \\geq 0$, alors $F_X(t) = \\int_{-\\infty}^t f(x)dx = \\int_{-\\infty}^0 0 dx + \\int_0^t \\lambda e^{-\\lambda x} dx = 0 + \\left[-e^{-\\lambda x}\\right]_0^t = 1 - e^{-\\lambda t}$.\n   \\end{itemize}",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "7def9b94-2d7f-4323-93cc-a77f9e256770",
+      "id": "52ebeaf6-2f76-4800-a92a-6614e08e968c",
       "type": "question",
       "value": {
         "latex": "Exprimer $\\prob(-1 \\leq X \\leq 1)$ en fonction de $F_X$ et en déduire une valeur numérique.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "1454e424-8670-44cf-b3df-884bcf3f62e0",
+      "id": "1ce18a5a-d08b-4025-96ca-ed6f4e2dc11c",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n            \\prob(-1 \\leq X \\leq 1) &= F_X(1) - F_X(-1) \\\\\n                                    &= (1-e^{-\\lambda}) - 0 \\\\\n                                    &= 1-e^{-\\lambda}\n        \\end{align*}$$",

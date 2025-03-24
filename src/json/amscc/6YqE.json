@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:39.048Z"
+    "updatedAt": "2025-03-24T17:13:31.779Z"
   },
   "contenu": [
     {
-      "id": "45d12470-a9f5-4992-bc2d-e2847159ab61",
+      "id": "5bfacdd2-64c5-4331-a8e7-647598b2dc4b",
       "type": "description",
       "value": {
         "latex": "La proportion $p$ des pièces défectueuses fabriquées par une machine est $p=0.05$ quand la machine est bien réglée, et s'élève à $p_1=0.10$ quand est elle déréglée. \n\nOn dispose d'un lot de pièces fabriquées par la machine qui doit permettre de décider si la machine est bien réglée ou non. Un  échantillon aléatoire de 100 pièces, prélevé dans le lot, contient 8 mauvaises pièces.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "ff6bb34b-c30a-421d-bc5f-88a9237a07e0",
+      "id": "78a8ca0a-92b5-437a-87bd-fd383746760f",
       "type": "question",
       "value": {
         "latex": "On pose $\\pi$ la valeur critique. En utilisant la définition, exprimer le risque de 1ère espèce $\\alpha$ en fonction de cette valeur critique.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "34339531-6fc9-4b04-9d40-391ffc1382f0",
+      "id": "a8736fb5-3f9f-4b5c-81a8-0b720c67f654",
       "type": "question",
       "value": {
         "latex": "On pose $\\alpha = 0.05$. Quelle est la région d'acceptation de l'hypothèse $H_0$ ?",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "e2633646-f485-4daa-b369-4c7223dc96f9",
+      "id": "04928925-2ad9-4750-9a36-550d22e586ba",
       "type": "question",
       "value": {
         "latex": "La machine est-elle bien réglée ?",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "5a2433a3-ef7d-4e69-b3ec-e7d04818b599",
+      "id": "b00d0a6b-f5d0-4102-af4f-84e5976d4ee7",
       "type": "question",
       "value": {
         "latex": "Quelle est l'erreur de seconde espèce $\\beta$ ?",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "2dab98f7-b478-4f96-bd22-d8216d9fa061",
+      "id": "1ac9392c-2bf7-4622-a88d-ca89785c9e77",
       "type": "question",
       "value": {
         "latex": "Quel doit être l'effectif de l'échantillon $n$ pour qu'une fréquence observée de pièce défectueuses de $0.08$ permette de conclure à un dérèglement de la machine ?",

@@ -8,18 +8,18 @@
   "metadata": {
     "exo7id": "",
     "auteur": "Q. Liard",
-    "createdAt": "2025-03-18T17:56:19.858Z",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-03-24T17:17:17.199Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Division euclidienne",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:19.858Z"
+    "updatedAt": "2025-03-24T17:17:17.199Z"
   },
   "contenu": [
     {
-      "id": "3073b71f-50af-4ff0-af99-1ecf36834217",
+      "id": "9e449c0c-e07f-45fe-b1f8-5f81909e6115",
       "type": "question",
       "value": {
         "latex": "Déterminer les racines complexes de $P(X)=X^4-4X^3+5X^2-2X$ ainsi que leur ordre de multiplicité.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "49fd3714-c3ee-427e-bf1f-c89060a0ad02",
+      "id": "83dc4dcd-e218-4748-b8d7-a157c0ac9622",
       "type": "reponse",
       "value": {
         "latex": "$P(0)=0,\\,P(1)=0$ et $P(2)=0$. Calculons $P'(X)$ et $P''(X)$. On obtient\n$$P'(X)=4X^3-12X^2+10X-2,\\quad P''(X)=12X^2-24X+10.$$\nAinsi $P'(0)\\neq 0$ et $P'(2)\\neq 0$ mais $P'(1)=0,\\,P''(1)\\neq 0$. $1$ est racine multiplicité double, $0$ et $2$ sont racines simples. On obtient la factorisation $P(X)=X(X-1)^2(X-2)$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "11420c86-89cc-4a44-9a5b-544e82bf68e9",
+      "id": "9aadc75f-29e1-49a0-b4ca-4e5efe6525bb",
       "type": "question",
       "value": {
         "latex": "Effectuer la division euclidienne de $P$ par $(X-2)^2$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "b5d1eb83-be8d-4081-8af3-60f6766d4fe4",
+      "id": "1091b50a-5730-467e-a5e0-075818a27ef8",
       "type": "reponse",
       "value": {
         "latex": "La division euclidienne de $P$ par $(X-2)^2$ donne l'égalité suivante:\n$$P(X)=(X-2)^2(X^2+1)+2X-4.$$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "8b50b2b4-a444-485b-823f-81783523ff4f",
+      "id": "7436a93a-610c-46d1-8cf7-d7a49fb2e678",
       "type": "question",
       "value": {
         "latex": "En déduire l'égalité suivante:\n$$\\frac{P(X)}{X^2-4X+4}=X^2+1+\\frac{2X-4}{(X-2)^2}.$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "a1cee58a-a968-4fba-9dba-1fe2dcfc11c4",
+      "id": "d43a0d35-5ef2-47cd-805d-8e2dd24e5027",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{P(X)}{X^2-4X+4}=\\frac{P(X)}{(X-2)^2}=X^2+1+\\frac{2X-4}{(X-2)^2},$\nd'après la question précédente.",

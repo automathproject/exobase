@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:21.402Z"
+    "updatedAt": "2025-03-24T17:13:57.194Z"
   },
   "contenu": [
     {
-      "id": "a4c8f082-59ae-4726-809c-fcd379a065c3",
+      "id": "2896c3e9-e38f-408f-b5e6-c9e5eb425781",
       "type": "question",
       "value": {
         "latex": "Montrer que :\n$$\n\\left|\\begin{array}{lll}\n\t1 & 1 & 1 \\\\\n\ta & b & c \\\\\n\ta^2 & b^2 & c^2\n\\end{array}\\right|=(c-a)(b-a)(c-b)\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "f5fcdee4-dc75-4e59-878b-32932810c2c2",
+      "id": "821c1543-3c9a-4c92-a79d-4efcd47c0dfc",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{aligned}\n\t& \\left|\\begin{array}{ccc}\n\t\t1 & 1 & 1 \\\\\n\t\ta & b & c \\\\\n\t\ta^2 & b^2 & c^2\n\t\\end{array}\\right|=\\left|\\begin{array}{ccc}\n\t\t\\mathcal{c}_1 & \\mathcal{c}_2-\\mathcal{c}_1 & \\mathcal{c}_3-\\mathcal{c}_1 \\\\\n\t\ta & 0 & 0 \\\\\n\t\ta^2 & b^2-a^2 & c^2-a^2\n\t\\end{array}\\right| \\\\\n\t& =(b-a)(c-a)\\left|\\begin{array}{ccc}\n\t\tc_1 & c_2 & \\mathcal{c}_3-c_2 \\\\\n\t\t1 & 0 & 0 \\\\\n\t\ta & 1 & 0 \\\\\n\t\ta^2 & b+a & c-b\n\t\\end{array}\\right| \\\\\n\t& =(b-a)(c-a)(c-b) \\\\\n\t&\n\\end{aligned}\n$$",

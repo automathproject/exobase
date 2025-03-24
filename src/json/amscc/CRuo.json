@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:11.446Z"
+    "updatedAt": "2025-03-24T17:13:49.884Z"
   },
   "contenu": [
     {
-      "id": "44e7431e-e6f1-4e58-846d-22e3bdeb9bf8",
+      "id": "ffd82433-07bc-4a75-903a-3186f619a652",
       "type": "description",
       "value": {
         "latex": "Soit $p \\in ]0,1[$ et $X$ une variable aléatoire suivant une loi géométrique de paramètre $p$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d0dd0c56-ee52-4c48-9a31-333c33efe6fd",
+      "id": "3094efb9-3311-4924-a112-90d4f1e5c823",
       "type": "question",
       "value": {
         "latex": "Montrer que la probabilité que $X$ prenne une valeur paire est $\\frac{1-p}{2-p}$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e8fe1ef4-b30d-4da8-93e6-d585cb51acc2",
+      "id": "44584b9b-d80d-4d09-9b11-8814845d9eb8",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\og X \\text{ est pair } \\fg{}) =  \\sum\\limits_{k=1}^{+\\infty}\\prob(X=2k) = \\sum\\limits_{k=1}^{+\\infty}p(1-p)^{2k-1} = \\frac{p(1-p)}{1-(1-p)^2} = \\frac{1-p}{2-p}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "f1d08060-6c42-41b2-a4c4-74c52390268b",
+      "id": "5b859224-42b3-44ad-b8a4-3ca3a95003af",
       "type": "question",
       "value": {
         "latex": "A-t-on plus de chances que $X$ donne un résultat pair ou impair ?",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "e55d9777-7e60-4e88-bce1-56d3604ae2c3",
+      "id": "3558e2aa-6a6a-4e8a-9728-6f243cd2633a",
       "type": "reponse",
       "value": {
         "latex": "De même, on calcule $\\prob(\\og X \\text{ est impair } \\fg{}) = \\displaystyle \\sum_{k=1}^{+\\infty}\\prob(X=2k+1) = \\sum_{k=1}^{+\\infty}p(1-p)^{2k} = \\frac{1}{2-p}$ . Or $0 < 1-p < 1$ donc on a ainsi montré que la probabilité d'avoir un nombre impair est plus grande que celle d'avoir un nombre pair.",

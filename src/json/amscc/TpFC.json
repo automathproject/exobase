@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:58.848Z"
+    "updatedAt": "2025-03-24T17:14:33.035Z"
   },
   "contenu": [
     {
-      "id": "63e90b94-bdf1-4d2b-999b-365759392f25",
+      "id": "8395be23-86b7-47c4-8ea9-fe2c47993233",
       "type": "description",
       "value": {
         "latex": "On note $p \\in ]0;1[$ et $X$ une variable aléatoire suivant une loi géométrique $\\mathcal{G}(p)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "cd9e7c51-69db-45cb-93bc-b1e84341c8a0",
+      "id": "01ee95d2-63d3-45ae-b3e5-0ef42e6af049",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "08dacb28-d59d-414a-82ca-2985c0dd37df",
+      "id": "a522aafb-14db-48c2-b700-feada61ba34f",
       "type": "reponse",
       "value": {
         "latex": "$\\PP(X \\leq n) = 1-q^n$, $\\PP(X > n)= q^{n}$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "3a0aa9c0-7f5f-42d9-90a8-9aa892950660",
+      "id": "45f55ff1-f960-4db6-a4d5-51596b908f84",
       "type": "question",
       "value": {
         "latex": "Vérifier que la loi géométrique est une loi sans mémoire.",

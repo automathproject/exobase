@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:31.730Z"
+    "updatedAt": "2025-03-24T17:17:25.325Z"
   },
   "contenu": [
     {
-      "id": "af01e241-1880-4204-a8bb-18a7ec2729c2",
+      "id": "7c0edbb9-eb8a-48d8-9398-705259e22295",
       "type": "description",
       "value": {
         "latex": "On appelle loi Gamma $\\Gamma(\\alpha,\\lambda)$ où $\\alpha>0$, $\\lambda>0$ la loi dont la densité est définie par \n\t$$f(t) = \\frac{\\lambda^\\alpha}{\\Gamma(\\alpha)}t^{\\alpha-1}e^{-\\lambda t}\\textbf{1}_{[0;+\\infty[}(t)$$\n\toù \n\t$$\\Gamma(\\alpha) = \\int_0^{+\\infty} x^{\\alpha-1}e^{-x}dx$$\n\tSoit $X$ une variable aléatoire suivant une loi normale centrée réduite. On pose $Y=X^2$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "ae975712-359d-41ee-9861-d495218f87b2",
+      "id": "9c55b90b-75ac-4ff4-8858-5f813c1356d8",
       "type": "question",
       "value": {
         "latex": "En étudiant sa fonction de répartition, montrer que $Y$ suit une loi $\\Gamma(\\frac12,\\frac12)$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "007f23e1-18b6-4e75-93aa-8e723cb2a06c",
+      "id": "9e681b05-237a-4278-968b-63351688ffb8",
       "type": "reponse",
       "value": {
         "latex": "Soit $F_Y$ la fonction de répartition de $Y$. Puisque $Y$ ne prend que des valeurs positives, $F_Y(t)=0$ pour tout $t<0$. Soit $t \\geq 0$ : alors\n\t\t$$\\begin{align*}\n\t\t\t\\PP(Y<t) &= \\PP(|X_1|< \\sqrt{t}) \\\\\n\t\t\t&= 2\\, \\PP(0<X_1 < \\sqrt{t}) \\text{ par symétrie de la variable $X_1$} \\\\\n\t\t\t&= 2 \\int_0^{\\sqrt{t}} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{u^2}{2}} \\,du \\\\\n\t\t\t&= 2 \\int_0^{t} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x}{2}} \\frac{1}{2\\sqrt{x}}\\,dx \\\\\n\t\t\t&=  \\int_0^{t} \\frac{1}{\\sqrt{2\\pi x}} e^{-\\frac{x}{2}}\\,dx\n\t\t\\end{align*}$$\n\t\tLa variable $Y$ admet donc pour densité $f_Y(x) =  \\frac{1}{\\sqrt{2\\pi x}} e^{-\\frac{x}{2}} $ pour tout $x>0$ : en remarquant que $f_Y(x) = \\frac{1}{\\Gamma(1/2) 2^{1/2}} x^{1/2-1} e^{-x/2}$, on voit qu'il s'agit d'une loi $\\Gamma\\left(\\frac{1}{2},\\frac{1}{2}\\right)$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "cc60c9c6-b468-4363-ac92-482c69da23b4",
+      "id": "c2af9758-f3d9-451f-966b-31521ad0f874",
       "type": "question",
       "value": {
         "latex": "Soit un entier $n \\geq 1$ et soit $U_n$ une variable aléatoire suivant une loi $\\Gamma(\\frac{n}{2},\\frac12)$. Déterminer la fonction génératrice de $U_1$ puis celle de $U_n$ pour  $n \\geq 1$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "f9a1e940-2130-4136-8b92-378113eb5887",
+      "id": "8e697fd8-32a2-452a-9549-2396e1ea601c",
       "type": "reponse",
       "value": {
         "latex": "On calcule directement :\n\t\t$$\\begin{align*}\n\t\t\tm_Y(t) &= \\mathbb{E}(e^{tY}) \\\\\n\t\t\t&= \\int_0^{+\\infty} e^{xt} \\frac{1}{\\Gamma(1/2) 2^{1/2}} x^{1/2-1} e^{-x/2} dx \\\\\n\t\t\t&= \\int_0^{+\\infty} \\frac{1}{\\Gamma(1/2) 2^{1/2}} x^{1/2-1} e^{-\\frac{x}{2}(1-2t)} dx  \\text{ (l'intégrale converge ssi $1-2t>0$)}\\\\\n\t\t\t&= \\int_0^{+\\infty} \\frac{1}{\\Gamma(1/2) 2^{1/2}} y^{1/2-1} e^{-\\frac{y}{2}} (1-2t)^{-1/2}dy \\\\\n\t\t\t&= (1-2t)^{-1/2}\n\t\\end{align*}$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "bc40def5-9ecf-44d1-a285-318b64064b96",
+      "id": "aed99087-53e3-4de6-905f-5705399f2ea0",
       "type": "question",
       "value": {
         "latex": "Soient $(Z_1,...,Z_n)$ des variables i.i.d selon une loi normale centrée réduite. Déterminer la loi de probabilité de la variable aléatoire \n\t\t$$\\sum_{i=1}^{n}Z_i^2$$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "c52bcddd-c06d-48b4-b925-bf87b5184aa5",
+      "id": "013dddbe-6852-4784-9fcf-ee234b5636d8",
       "type": "reponse",
       "value": {
         "latex": "Par somme de variables indépendantes, la fonction génératrice de $\\chi^2$ est $m_{\\chi^2}(t) = (1-2t)^{-n/2}$. En refaisant le même calcul que précédemment, on reconnaît la fonction génératrice d'une variable admettant pour densité $\\frac{1}{\\Gamma(n/2) 2^{n/2}} x^{n/2-1} e^{-x/2}$, donc une variable suivant une loi $\\Gamma\\left(\\frac{n}{2},\\frac{1}{2}\\right)$.",

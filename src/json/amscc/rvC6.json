@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Méthodes numériques",
+    "sousChapitre": "Méthode de Newton",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:10.633Z"
+    "updatedAt": "2025-03-24T17:17:12.236Z"
   },
   "contenu": [
     {
-      "id": "0e5284a7-506f-4418-b1fc-35bcb4c018ee",
+      "id": "448e4170-0c46-49f0-b34d-c31315033a99",
       "type": "description",
       "value": {
         "latex": "La méthode de la corde pour résoudre une équation du type $f(x)=0$ consiste à construire la suite $(x_k)$ définie par\n$$\\forall k \\in \\mathbb{N} : \\quad x_{k+1}=x_k-\\frac{f(x_k)}{f'(x_0)}$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ae6a6c85-e787-45fb-94b3-53d4ad2d9b0f",
+      "id": "d8581254-5aeb-4fd1-9b7c-265866e5d2b1",
       "type": "question",
       "value": {
         "latex": "Sur un graphique, construire les premières itérations de cette méthode en prenant $f(x)=x^2$ et $x_0=1$.",
@@ -35,15 +35,15 @@
       }
     },
     {
-      "id": "89d401ed-d27f-4118-b7af-a1ff9ecdab9c",
+      "id": "c72b792e-f3d4-4428-8475-a3e453c61540",
       "type": "reponse",
       "value": {
-        "latex": "Le principe de construction du point $x_{k+1}$ est le suivant: on prend l'intersection de l'axe des abscisses avec la droite passant par le point $(x_k,f(x_k))$ de pente $f'(x_0)=2x_0=2$. \n\t\t\t\\begin{center} \n\t\t\t\t\\newcommand\\newtfonc[1]{#1*#1) } \n\t\t\t\t__TIKZ_3f0f621e-d0bc-4843-a301-3136ea96cd28__\n\t\t\\end{center}",
+        "latex": "Le principe de construction du point $x_{k+1}$ est le suivant: on prend l'intersection de l'axe des abscisses avec la droite passant par le point $(x_k,f(x_k))$ de pente $f'(x_0)=2x_0=2$. \n\t\t\t\\begin{center} \n\t\t\t\t\\newcommand\\newtfonc[1]{#1*#1) } \n\t\t\t\t__TIKZ_63249c89-1615-4e69-9293-06b62ce9b79d__\n\t\t\\end{center}",
         "html": "<p>Le principe de construction du point <span\nclass=\"math inline\">\\(x_{k+1}\\)</span> est le suivant: on prend\nl’intersection de l’axe des abscisses avec la droite passant par le\npoint <span class=\"math inline\">\\((x_k,f(x_k))\\)</span> de pente <span\nclass=\"math inline\">\\(f&#39;(x_0)=2x_0=2\\)</span>.</p>\n<div class=\"center\">\n<p><!-- Conversion error: LaTeX Error:\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence. -->\n<!-- Problematic TikZ content:\n[scale=.5]\n\t\t\t\t\\begin{axis}[\n\t\t\t\twidth=14cm, height=10cm,\n\t\t\t\taxis x line=center, \n\t\t\t\taxis y line=middle,\n\t\t\t\txlabel =$x$,\n\t\t\t\tevery axis x label/.style={\n\t\t\t\t\tat={(ticklabel* cs:1.0)},\n\t\t\t\t\tanchor=west,\n\t\t\t\t},\n\t\t\t\tylabel = $y$,\n\t\t\t\tevery axis y label/.style={\n\t\t\t\t\tat={(ticklabel* cs:1)},\n\t\t\t\t\tanchor=south,},\n\t\t\t\tlegend style={draw=none,at={(-.1,1)},anchor=north west,font=\\large },\n\t\t\t\tsamples=100,\n\t\t\t\tymin=-0.6, ymax=1.5,\n\t\t\t\txmin=-1.8, xmax=2.1,\n\t\t\t\tytick={0 },\n\t\t\t\txtick={0 },\n\t\t\t\tlegend cell align=left,\n\t\t\t\t]\n\t\t\t\t\\addplot [mark=none,line width=.5mm,blue,domain= -1.7:2 ]{\\newtfonc{x} };\n\t\t\t\t\\node[label={-90:{\\large{$x_0$}}},circle,fill,red,inner sep=2pt] at (axis cs:1,0) {};\n\t\t\t\t\\node[label={-80:{\\large{$x_1$}}},circle,fill,red,inner sep=2pt] at (axis cs:0.5 ,0) {};\n\t\t\t\t\\node[label={-120:{\\large{$x_2$}}},circle,fill,red,inner sep=2pt] at (axis cs:0.375 ,0) {};\n\t\t\t\t\\addplot [dotted,thick,blue] coordinates { (1,0) (1,1)};\n\t\t\t\t\\addplot [line width=.3mm,red] {2*x-1};\n\t\t\t\t\\addplot [dotted,thick,blue] coordinates { (0.5,0) (0.5,0.25)};\n\t\t\t\t\\addplot [line width=.3mm,red] {2*x-0.75};\n\t\t\t\t\\end{axis}\n--></p>\n</div>\n"
       }
     },
     {
-      "id": "d3c5c579-5840-48dc-b918-fbb985b16330",
+      "id": "090af0d8-634e-4334-9606-f5b635a7c839",
       "type": "question",
       "value": {
         "latex": "De quelle méthode générale la méthode de la corde est-elle un cas particulier ? Justifier.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "32e7852a-dad1-4609-8fa3-56c67b90acb4",
+      "id": "95840783-5503-4e2a-8f1b-5e10d60425a9",
       "type": "reponse",
       "value": {
         "latex": "La méthode de la corde est un cas particulier de la méthode de point fixe : on a $x_{k+1}=g(x_k)$, où $g$ est la fonction définie par $g(x)=x-\\frac{f(x)}{f'(x_0)}$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "4846a3b8-4b4b-472c-8d84-ec8e901b0706",
+      "id": "d20d29c8-4359-42e9-be17-07833580cd64",
       "type": "question",
       "value": {
         "latex": "En déduire l'ordre minimal de convergence de la méthode de la corde, quand celle-ci converge.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "729d735e-06e7-40a6-8dad-0a6b0c9a69d6",
+      "id": "4cf30226-96ee-49be-9afe-3859ab391fc6",
       "type": "reponse",
       "value": {
         "latex": "Quand une méthode de point fixe converge, elle est au minimum d'ordre $1$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "6a2276c8-efa3-4369-846c-d2264e9e636a",
+      "id": "e0ee3ba3-3c4d-4041-9493-fbc36b2fdb36",
       "type": "description",
       "value": {
         "latex": "On souhaite trouver une méthode efficace pour trouver une approximation de la racine carrée d'un nombre positif $A$ donné. Considérons tout d'abord l'algorithme suivant: étant donné une valeur $x_0$, on calcule\n\\[x_{k+1}=x_k+\\frac{A-x^2_k}{2}, \\quad k=0,1,2,... \\]",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2024-11-24",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:28.120Z"
+    "updatedAt": "2025-03-24T17:14:02.115Z"
   },
   "contenu": [
     {
-      "id": "0a570a5c-d9ab-4452-8f25-41ee4c7334ba",
+      "id": "542be561-3e6a-4ad6-a68f-29759f8cd324",
       "type": "description",
       "value": {
         "latex": "On s’intéresse à la campagne de vaccination contre la grippe A pandémique de l’année 2009 en France. On mène une étude sur la teneur en thiomersal dans un vaccin. Le thiomersal est un composé contenant du mercure, utilisé de longue date comme conservateur dans les médicaments, et notamment dans les vaccins, pour prévenir la contamination bactérienne. Toutefois, sa toxicité oblige à limiter la quantité utilisée.\n\nUn vaccin produit par un laboratoire français contient, selon la notice, 45 $\\mu g$ de thiomersal par dose. On suppose que la teneur en thiomersal suit une loi normale d'espérance $m$ et de variance $\\sigma^2$, inconnues. On dispose d’un échantillon de 16 valeurs disponibles dans le fichier joint.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "b4e499f7-91d0-4280-875e-55625e4e676a",
+      "id": "7bfaeca4-3f30-435f-ba64-c9561a800f31",
       "type": "question",
       "value": {
         "latex": "On considère trois tests de conformité de la moyenne $m$, définis par les hypothèses suivantes : \n$$A : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m > 45,\n                \\end{cases} \\quad B : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m < 45,\n                \\end{cases} \\quad C : \\begin{cases}\n                    H_0 : m = 45,\\\\\n                    H_1 : m \\neq 45,\n                \\end{cases}$$\n    Si on veut se prémunir en priorité du risque :\n    \\begin{enumerate}\n        \\item[(a)] lié à la contamination bactérienne du vaccin,\n        \\item[(b)] ou de la toxicité du thiomersal,\n    \\end{enumerate}\n    quel test doit-on choisir dans chacun de ces deux cas ? Justifier rapidement.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "70d9da76-eeec-4a12-91e6-fb84bc3b2b9f",
+      "id": "3412ae52-0e3f-4c2b-98c1-5300ba55d801",
       "type": "indication",
       "value": {
         "latex": "Identifier le risque que chaque hypothèse alternative $H_1$ cherche à prévenir.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "9408ca23-777f-4afc-b16b-f8bfcbf9d193",
+      "id": "d618992d-2a32-4c79-a37a-4ece6ff0f1ef",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "7e1e8de2-5680-43c6-a996-eac6a6434023",
+      "id": "4d34101b-bb14-429b-b281-9c1ecdf7c151",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de $m$ par un intervalle de confiance de niveau 99\\%.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d74fcdcc-5515-4f1d-a264-20a14c7201c7",
+      "id": "c2d03ba8-f2a3-4bf8-837d-1971f0030f5b",
       "type": "indication",
       "value": {
         "latex": "Utiliser les données de l’échantillon et la distribution de Student.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "a9ee8fd7-2337-4e05-89a5-ecc40ebe1744",
+      "id": "b8310f97-a1c3-459c-9fd6-8e2783e2a8d9",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "d7455be2-6702-4715-9bae-e339b98de848",
+      "id": "2cf21aee-07a9-4300-9ca8-57b518871a07",
       "type": "question",
       "value": {
         "latex": "Réaliser le test $A$ avec un risque de première espèce de 5\\%. Quelle est la valeur critique de la moyenne de l’échantillon au-delà de laquelle on rejette l’hypothèse $H_0$ ? Exprimer la prise de décision à l’issue de ce test.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "340182f9-c117-42fb-83b7-79d149f916ee",
+      "id": "b8de4e4a-3247-4dc7-9ab6-39122bd6987c",
       "type": "indication",
       "value": {
         "latex": "Utiliser la table de la loi normale centrée réduite pour déterminer la valeur critique.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "b69e5d28-3070-42f1-91d9-bd1113005429",
+      "id": "e2c27e46-135d-4ac1-ac04-e510b8e3d1f4",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "b3192034-3282-409e-a6da-a663f37ed869",
+      "id": "9863e676-78d2-4309-a019-45a9ee3a2ee8",
       "type": "question",
       "value": {
         "latex": "On considère le test défini par les hypothèses suivantes : \n    $$\\begin{cases}\n        H_0 : m = 45, \\\\\n        H_1 : m = m_1.\n    \\end{cases}$$\n    Calculer la puissance du test $A'$ pour $m_1 = 46$ et $m_1 = 47$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "6e197f76-fa35-42ef-a6ff-8c548c6a4dff",
+      "id": "40007a0e-0455-4888-9253-b8a43319842e",
       "type": "indication",
       "value": {
         "latex": "La puissance est $1 - \\beta$, où $\\beta$ est la probabilité d’erreur de seconde espèce.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "4729e61a-ea56-4cb3-a0d7-7a373f183059",
+      "id": "36b048e1-83c5-452e-985b-d0f6923718c8",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",

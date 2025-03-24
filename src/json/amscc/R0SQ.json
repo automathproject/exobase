@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:50.096Z"
+    "updatedAt": "2025-03-24T17:14:27.169Z"
   },
   "contenu": [
     {
-      "id": "70485922-2178-4469-b867-974133ba7064",
+      "id": "f8091386-3f20-4046-a91c-ced38801e35b",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune une loi uniforme sur $[0;1]$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "02fbc4d0-3b6a-4436-8a81-cc6366b4f44f",
+      "id": "687e7bd2-3785-4fb6-80df-46c0e1dad46e",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $S=X+Y$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9ad90866-2852-4af1-9ce9-6a17510705cf",
+      "id": "b9077389-f432-42f8-afa1-d18dc7660b7f",
       "type": "reponse",
       "value": {
         "latex": "Si $X$ et $Y$ suivent chacune une loi uniforme sur $[0;1]$, alors $S=X+Y$ admet une densité $h$ définie par \n\t$$h(s) = \\int_0^1 \\textbf{1}_{[0;1]}(s-x) dx = \\int_{s-1}^s \\textbf{1}_{[0;1]}(u)du$$\n\t\\begin{itemize}\n\t\t\\item si $s < 0$ alors $s-x <0$ et $h(s) = 0$\n\t\t\\item si $0<s<1$ alors $h(s) = \\int_{0}^s \\textbf{1}_{[0;1]}(u)du = s$\n\t\t\\item si $1<s<2$ alors $h(s) = \\int_{s-1}^1 \\textbf{1}_{[0;1]}(u)du = 2-s$\n\t\t\\item si $2 < s$ alors $h(s) = 0$\n\t\\end{itemize}\n\tEn traçant cette densité, on voit apparaître une loi triangulaire.",

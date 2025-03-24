@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-31",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:30.539Z"
+    "updatedAt": "2025-03-24T17:14:05.148Z"
   },
   "contenu": [
     {
-      "id": "3dbcec0c-86d1-4511-8860-dc24c7823633",
+      "id": "664f6248-7208-4bb3-a387-ccaeec34f0c3",
       "type": "description",
       "value": {
         "latex": "On considère le système de trois équations à trois inconnues $x,y,z$ suivant : \n        $$\n\\left\\{\\begin{aligned}\nm x+m y+m z & =a \\\\\nx+m y+z & =b \\\\\nx+y+m z & =c\n\\end{aligned}\\right.\n$$\navec $m,a,b,c \\in \\R$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "f47d60c0-eed5-428b-a5f7-421e8fd04b48",
+      "id": "b95e25db-8bda-4b56-9419-46c20da43479",
       "type": "question",
       "value": {
         "latex": "Supposons que $m=0$. Résoudre le système en fonction des valeurs possibles de $a,b,c$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "b5d56797-9de2-4cc4-9885-ccf8f49d02c8",
+      "id": "b9665bc1-05b5-46ef-bc90-d3427ef922f9",
       "type": "question",
       "value": {
         "latex": "Supposons que $m = 1$. \\`A quelles conditions sur $a,b,c$ le système admet-il au moins une solution ? Dans ce cas, résoudre le système.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "74321950-0532-4cc7-b5ec-536939591e1b",
+      "id": "af9babb4-1db6-471f-b5f1-508c0f85b890",
       "type": "question",
       "value": {
         "latex": "Supposons que $m \\neq 0$ et $m \\neq 1$. Justifier que le système admet une unique solution quelles que soient les valeurs de $a,b,c$. Déterminer cette solution pour $a=1$, $b=2$, $c=3$ puis pour $a,b,c$ quelconques.",

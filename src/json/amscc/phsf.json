@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:19.157Z"
+    "updatedAt": "2025-03-24T17:16:49.528Z"
   },
   "contenu": [
     {
-      "id": "b9a383b3-9537-472a-98de-e8ba057f43df",
+      "id": "5c2a2b2c-6dc3-49ea-8df1-0fed1a2f38c7",
       "type": "description",
       "value": {
         "latex": "On  jette un dé à 6 faces et on observe le résultat.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "5beab582-5a42-40b9-9ef0-dc40004c28ed",
+      "id": "003e0a0e-94ce-4fc1-b05f-81ac65660e5d",
       "type": "question",
       "value": {
         "latex": "Quel univers peut-on définir pour modéliser cette expérience aléatoire ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9b15eb2e-7b0f-4e1f-951c-04edb3cf2bfd",
+      "id": "60237780-0d9b-4220-8377-c6b2b1337408",
       "type": "question",
       "value": {
         "latex": "On observe que $\\PP(1)=0.3$, $\\PP(2)=0.15$, $\\PP(3)=0.1$, $\\PP(4)=\\PP(2)$, $\\PP(5)=\\PP(6)$. Le dé est-il truqué ? Déterminer $\\PP(5)$ et $\\PP(6)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "3f5e95ad-d263-496a-b51c-f1a95ee9be29",
+      "id": "66672a9f-27cb-437f-82b6-e46669c14c32",
       "type": "description",
       "value": {
         "latex": "On considère les deux événements suivants :\n\t\t\\begin{enumerate}\n\t\t\t\\item $A$ : \\og le nombre obtenu est impair \\fg{}\n\t\t\t\\item $B$ : \\og le nombre obtenu est supérieur ou égal à 3 \\fg{}.\n\t\t\\end{enumerate}",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "8cd4240f-9f68-40aa-9769-f071258178ee",
+      "id": "552925b1-f969-4a1b-97a8-e7e265f2d048",
       "type": "question",
       "value": {
         "latex": "Calculer les probabilités $\\PP(A)$, $\\PP(B)$, $\\PP(A \\cap B)$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "45813001-aa47-4c48-952e-f16a234b334e",
+      "id": "7b089acc-4088-43f4-b865-fd046d0b96ec",
       "type": "question",
       "value": {
         "latex": "Calculer $\\PP(A \\cup B)$ de deux manières différentes.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "97d75091-32ea-45f8-822d-8e2db27d5414",
+      "id": "2801ec02-0c93-45d8-98c4-5cf357c666bf",
       "type": "question",
       "value": {
         "latex": "Décrire à l'aide d'une phrase les événements $\\bar A$ et $\\bar B$ puis calculer leur probabilité.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "c48c33e7-dace-46f3-8a6c-e959909c4988",
+      "id": "d2206b4d-239f-4587-99f0-5675159af9d1",
       "type": "question",
       "value": {
         "latex": "Donner un exemple de deux événements incompatibles $C$ et $D$ puis calculer $\\PP(C)$, $\\PP(D)$, $\\PP(C \\cap D)$, $\\PP(C \\cup D)$.",

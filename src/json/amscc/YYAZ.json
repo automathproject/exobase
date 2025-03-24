@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:28.585Z"
+    "updatedAt": "2025-03-24T17:15:00.149Z"
   },
   "contenu": [
     {
-      "id": "8f7ce087-68e9-4e76-be89-50b3bc3c3a7b",
+      "id": "60a3f695-9b95-4818-93d0-ff70c0697fe3",
       "type": "description",
       "value": {
         "latex": "Une chaîne de montage d'ordinateurs utilise un lot de composants électroniques contenant $2$\\% d'éléments défectueux. En début de chaîne, chaque composant est vérifié par un testeur dont la fiabilité n'est pas parfaite, de sorte que la probabilité que le testeur déclare un composant en bon état, sachant que le composant est réellement en bon état est de $0{,}95$, et que la probabilité que le testeur déclare un composant en mauvais état, sachant que le composant est réellement en mauvais état est de $0{,}94$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "64012cb6-9617-4dfa-b3df-12464f9ee1aa",
+      "id": "10e4209b-b956-4d3a-b123-09c0190e0b71",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité qu'un composant déclaré en mauvais état par le testeur soit réellement en mauvais état ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "1034eca2-143e-4f30-80df-bc9373f945a1",
+      "id": "e5207f56-def5-4d2f-8dc8-0be017ef1a35",
       "type": "reponse",
       "value": {
         "latex": "On note $D$ l'événement \\og le composant est défectueux \\fg{} et $T$ l'événement \\og le testeur déclare le composant en mauvais état \\fg{}. On cherche à calculer $\\prob(D|T)$. \n    \n    D'après l'énoncé, on a : $\\prob(D) = 0{,}02$, $\\prob(T|\\overline{D}) = 0{,}95$ et $\\prob(\\overline{T}|D) = 0{,}94$. On a donc :\n\n    $$\\begin{align*}\n        \\prob(D|T) &= \\frac{\\prob(D\\cap T)}{\\prob(T)} \\\\\n        &= \\frac{\\prob(T|D)\\prob(D)}{\\prob(T|D)\\prob(D) + \\prob(T|\\overline{D})\\prob(\\overline{D})} \\\\\n        &= \\frac{0{,}94\\times 0{,}02}{0{,}05 \\times 0{,}98 + 0{,}02 \\times 0{,}94} \\\\\n        &= \\frac{94}{339} \\\\\n        &\\approx 0{,}277\n    \\end{align*}$$\n\n    La probabilité qu'un composant déclaré en mauvais état par le testeur soit réellement en mauvais état est donc d'environ $27{,}7$\\%.",

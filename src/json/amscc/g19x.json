@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-04-29",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:23.237Z"
+    "updatedAt": "2025-03-24T17:15:36.226Z"
   },
   "contenu": [
     {
-      "id": "62cc1594-eaad-46e8-9306-dcfd2eacd599",
+      "id": "00928b14-10fc-468b-98da-a796836d2836",
       "type": "description",
       "value": {
         "latex": "Soient $n \\in \\mathbb{N}$ tel que $n \\geq 3$ et $b \\in \\mathbb{R}^n$, de composantes $(b_1, \\ldots, b_n)$. On cherche $x \\in \\mathbb{R}^n$, de composantes $(x_1, \\ldots, x_n)$, solution de :\n\n$$\n\\begin{cases}\t\n\t4x_1 + x_2 &= b_1, \\\\\n\tx_{i-1} + 4x_i + x_{i+1} &= b_i, \\quad \\forall i \\in [\\![ 2, n - 1 ]\\!] \\\\\t\n\tx_{n-1} + 4x_n &= b_n.\t\n\\end{cases}\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "6e549d34-aeaf-47ed-9c4c-148a93258d68",
+      "id": "6c3a3847-23c6-40a7-b351-4b0f05954a87",
       "type": "question",
       "value": {
         "latex": "Montrer que le syst\\`eme ci-dessus peut s'\\'ecrire sous la forme $Ax=b$ avec une matrice $A$ que l'on donnera pour $n=4$. ",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "be682d89-8918-4850-83b1-660f8ffa4561",
+      "id": "28e61e56-b08c-437c-b7e4-769a62830c12",
       "type": "reponse",
       "value": {
         "latex": "Soit $x$ le vecteur $\\begin{pmatrix}\nx_1 \\\\ x_2 \\\\ \\vdots{} \\\\ x_n \\end{pmatrix},$ b le vecteur  $\\begin{pmatrix}\nb_1 \\\\ b_2 \\\\ \\vdots{} \\\\ b_n \\end{pmatrix},$ le syst\\`eme proposé est donc équivalent \\`a l'égalité matricielle $Ax=b$ avec \n$A=$ $\\begin{pmatrix} 4 & 1 & 0 & 0 \\\\\n1 & 4 & 1 & 0 \\\\\n0 & 1 & 4 & 1 \\\\\n0 & 0 & 1 & 4 \n\\end{pmatrix}.\n$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "210c53a3-023f-4534-bb7b-e3701342cfd7",
+      "id": "7af0b119-aae5-4e39-9bbf-19d6c0f6566c",
       "type": "question",
       "value": {
         "latex": "Montrer que : $\\forall i \\in [\\![1, n]\\!]\\,, \\quad 4 |x_i| \\leq 2 \\|x\\|_\\infty$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "685ee2c7-2509-4e62-bbe3-2fe2cd1ec64f",
+      "id": "147ba338-3727-40e7-95c7-2d75a09a0d95",
       "type": "reponse",
       "value": {
         "latex": "Pour tout $i \\in [\\![1, n]\\!]\\,,$ on a:\\\\\n$4 |x_i|\\leq |x_{i-1}|+|x_{i+1}|\\leq 2 \\|x\\|_\\infty,$\navec $4 |x_1|\\leq |x_2|\\leq \\|x\\|_\\infty$ et $4 |x_{n}|\\leq |x_2|\\leq \\|x\\|_\\infty,$\nd'o\\`u le r\\'esultat.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "fe732871-6af3-4c7f-a053-2e8d0a6824c7",
+      "id": "0f8fc4ef-dfbb-4b7d-8ab1-d25d062a4182",
       "type": "question",
       "value": {
         "latex": "En déduire que $x = 0$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "9701fab1-8762-41b5-beb4-bb58fe1b2139",
+      "id": "439206d9-d192-42ca-a6ce-101e8a486220",
       "type": "reponse",
       "value": {
         "latex": "Ainsi on a pour tout $i \\in [\\![1, n]\\!]\\,,$ $|x_i|\\leq \\frac{1}{2}\\|x\\|_{\\infty}$. Or si $\\|x\\|_{\\infty}\\neq 0,$ il existe $i_0  \\in \\{1, \\ldots, n\\}$ tel que $\\|x\\|_{\\infty}=|x_{i_{0}}|\\neq 0$ ce qui contredit l'in\\'egalit\\'e pr\\'ec\\'edente.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "9cfadb4c-72ec-40b8-94eb-8cdb9552c1fa",
+      "id": "739bb96e-3fd3-42a4-b1a2-b7c99b703562",
       "type": "question",
       "value": {
         "latex": "Montrer que dans le cas d’un second membre quelconque $b$, il existe une unique $x \\in \\mathbb{R}^n$ solution du système linéaire.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "395be4a6-06b2-45d9-9e3b-0a75d8394485",
+      "id": "88ac2515-69b3-4ecf-8d29-f023ca5e0365",
       "type": "reponse",
       "value": {
         "latex": "On a montr\\'e \\`a la question précédente que $Ker(A)=0$ avec $A$ la matrice carr\\'ee d\\'efinie \\`a la question 2). Ainsi la matrice $A$ est inversible et la solution du syst\\`eme est $x=A^{-1}b$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "91de93d9-66ed-4d4e-ac96-76ac0bb0f674",
+      "id": "717ff464-3bd6-433a-8fdd-84210e775f25",
       "type": "description",
       "value": {
         "latex": "Afin de résoudre le système, on considère la méthode itérative suivante : $x^{(0)} = 0 \\in \\mathbb{R}^n$ et\n\t\n\t$$\t\n\t\\begin{cases}\t\n\t\tx^{(k+1)}_1 = \\alpha x^{(k)}_1 + \\frac{\\alpha - 1}{4} (x^{(k)}_2 - b_1), \\\\\t\n\t\tx^{(k+1)}_i = \\alpha x^{(k)}_i + \\frac{\\alpha - 1}{4} (x^{(k)}_{i-1} + x^{(k)}_{i+1} - b_i), & \\forall i \\in [\\![ 2, n - 1 ]\\!] \\\\\t\n\t\tx^{(k+1)}_n = \\alpha x^{(k)}_n + \\frac{\\alpha - 1}{4} (x^{(k)}_{n-1} - b_n).\t\n\t\\end{cases}\n\t$$\n\t\n\tavec pour paramètre $\\alpha \\in \\mathbb{R}$.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "c975d3e0-e364-4143-9650-2f5d647bcd96",
+      "id": "7e649166-0f6d-4278-864e-f82e1e552551",
       "type": "question",
       "value": {
         "latex": "Montrer que pour tout $\\alpha \\in \\mathbb{R}$, on a\n\t\t\n\t\t$$\\|x^{(k+1)} - x\\|_\\infty \\leq \\left(|\\alpha| + \\frac{|\\alpha - 1|}{2}\\right) \\|x^{(k)} - x\\|_\\infty.$$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "e90026ca-5b19-4ec9-9627-9fdaa4a58c7e",
+      "id": "4ae52807-79cc-4c26-9833-84bce5887741",
       "type": "reponse",
       "value": {
         "latex": "Pour tout $i \\in \\{2, \\ldots, n-1\\},$ on a:\n    $$|x^{(k+1)}_{i}-x_i|=|\\alpha x_i^{(k)}+\\frac{(\\alpha-1)}{4}(x_2^{(k)}-b_1)-x_1|\\leq |\\alpha(x_1^{(k)}-x_1)+\\alpha x_1-x_1+(\\frac{\\alpha-1}{4})(b_i-x_{i+1}-x_{i-1})|$$\n$$\\leq |\\alpha (x_1^{(k)}-x_1)+(\\frac{\\alpha-1}{4})(b_i-x_{i+1}-x_{i-1})+(\\frac{\\alpha-1}{4})(x_{i+1}^{(k)}-x_{i+1}+x_{i+1}^{(k)}-x_{i-1})| $$ \n$$\\leq |\\alpha|\\times\\|x^{(k)}-x\\|_{\\infty}+|\\frac{\\alpha-1}{4}|\\times 2 \\times \\|x^{(k)}-x\\|_{\\infty}\\leq \\big(\\,|\\alpha|+|\\frac{\\alpha-1}{2}|\\,\\big)\\|x^{(k)}-x\\|_{\\infty}.$$\nPour $j=2$ et $j=n$ on a la majoration suivante:\n  $$|x^{(k+1)}_{j}-x_j|\\leq (|\\alpha|+|\\frac{\\alpha-1}{4}|)\\,\\|x^{(k)}-x\\|_{\\infty}.$$\nLe passage \\`a la borne sup\\'erieure \\`a gauche de l'in\\'egalit\\'e ach\\`eve la preuve.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "32279d6c-2346-4dc3-8405-0a209040aa66",
+      "id": "77048ff0-facb-4629-a069-7d288cc4ad1a",
       "type": "question",
       "value": {
         "latex": "Trouver $\\alpha_{\\text{min}}, \\alpha_{\\text{max}} \\in \\mathbb{R}$, tels que $\\alpha \\in ]\\alpha_{\\text{min}}, \\alpha_{\\text{max}}[$ si et seulement si $|\\alpha| + \\frac{|\\alpha - 1|}{2} < 1$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "29f265e3-2b4a-49e1-b6b6-b1c8f57cb58f",
+      "id": "a0545760-2d3a-42bc-a5ec-1e1f525951f1",
       "type": "reponse",
       "value": {
         "latex": "La condition $|\\alpha|>1$ n'est pas compatible avec l'in\\'egalit\\'e $|\\alpha| + \\frac{|\\alpha - 1|}{2} < 1$ on cherche l'intervalle $]\\alpha_{min};\\alpha_{max}[$ dans l'intervalle $]-1;1[.$\nOr pour $\\alpha \\in [0;1]$ on a: $|\\alpha| + \\frac{|\\alpha - 1|}{2} < 1 \\Longleftrightarrow \\alpha<1$ et pour $\\alpha\\in ]-1;0[$ on a: $-\\alpha+\\frac{1-\\alpha}{2}<1 \\Longleftrightarrow -3\\alpha<1 \\Longleftrightarrow \\alpha>-\\frac{1}{3}$.\\\\\nAinsi l'intervalle cherch\\'e est $]-\\frac{1}{3};1[$.",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "51402063-f852-4737-bff9-ac2f2302d50e",
+      "id": "eb7bb083-c36b-4190-9fa5-3797793c9dae",
       "type": "question",
       "value": {
         "latex": "Montrer que la méthode itérative converge vers $x$ pour $\\alpha \\in ]\\alpha_{\\text{min}}, \\alpha_{\\text{max}}[$.",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "76379364-22ad-41fb-943e-00a1d7382d3d",
+      "id": "854d81f8-0038-48b9-9163-0cc7b061d092",
       "type": "reponse",
       "value": {
         "latex": "Pour $\\alpha \\in ]\\frac{1}{3},1[,$ on a par r\\'ecurrence pour tout $k\\geq 1$:\n        $$\\|x^{(k)}-x\\|_{\\infty}\\leq \\big(|\\alpha|+|\\frac{\\alpha-1}{4}|\\big)^{k}\\,\\|x^{(0)}-x\\|_{\\infty},$$\net la convergence vers $0$ est assur\\'ee par la condition sur $\\alpha$.",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "42d9863a-50c4-4e76-acaf-c46b43e3bed9",
+      "id": "226df8cd-7e5c-4277-9fd6-c679ea451748",
       "type": "question",
       "value": {
         "latex": "Trouver $\\alpha_0 \\in \\mathbb{R}$ qui minimise la quantité $|\\alpha| + \\frac{|\\alpha - 1|}{2}.$ Que peut-on d\\'eduire de la convergence du syst\\`eme pour ce $\\alpha_0$ ? Quelle méthode du cours reconnaissez-vous ?",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "c41b45b3-a125-4801-8541-12903904d02c",
+      "id": "4a9759f1-bc7f-46ac-b952-012ade5708a6",
       "type": "reponse",
       "value": {
         "latex": "Le minimum de la quantité $|\\alpha| + \\frac{|\\alpha - 1|}{2}$ est le minimum sous la contrainte $|\\alpha| + \\frac{|\\alpha - 1|}{2} < 1$. Ce minimum vaut $\\frac{1}{2}$ et est atteint en $\\alpha_{0}=0$. En effet il suffit de minimiser $\\frac{\\alpha+1}{2}$ sur $]0;1[$ et $\\frac{-3\\alpha+1}{2}$ sur $]-\\frac{1}{3};1[$. On reconnait pour $\\alpha_0=0$ la m\\'ethode de Jacobi.",

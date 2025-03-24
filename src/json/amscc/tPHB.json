@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Calcul de la somme d'une série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:13.393Z"
+    "updatedAt": "2025-03-24T17:17:13.772Z"
   },
   "contenu": [
     {
-      "id": "b35b0592-adc4-4979-88eb-733b9e2da622",
+      "id": "d085f534-0982-4c36-a505-f5eccbd52c12",
       "type": "description",
       "value": {
         "latex": "Soit la série entière $\\displaystyle \\sum_{n\\geq 2} \\frac{(-1)^n}{n(n-1)}x^n$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "6f625dce-bbba-4214-84fc-85180c4915f2",
+      "id": "ebfb638c-9472-4382-8416-4153127db4e5",
       "type": "question",
       "value": {
         "latex": "Déterminer le rayon de convergence $R$ de cette série. Préciser son intervalle de convergence et le comportement de la série aux extrémités de cet intervalle.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c6709375-0eb9-4b12-a197-99622bcfa050",
+      "id": "c24b0f10-349c-4ba8-a5c5-8addd1eb857f",
       "type": "reponse",
       "value": {
         "latex": "$R=1$ et $D=[-1;1]$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "9a20ade0-88a0-4849-af18-858951a165f8",
+      "id": "5c549197-65a5-4d92-8e98-97bd95d31ab2",
       "type": "question",
       "value": {
         "latex": "Déterminer le rayon de convergence de la série $\\displaystyle \\sum_{n\\geq 2} \\frac{(-1)^n}{(n-1)}x^{n-1}$ \n\tet de la série $\\displaystyle \\sum_{n\\geq 2}(-1)^n x^{n-2}$ ? \\\\\n\tÉtudier le comportement de chacune de ces séries au bord de son intervalle de convergence.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "cd94b2c7-1186-4590-a2ab-6e1a2fc82509",
+      "id": "b9543b26-e1a5-4641-92e9-b13b01bdb8e0",
       "type": "reponse",
       "value": {
         "latex": "Pour la première, $R=1$ et $D=]-1;1]$. \\\\\n\t\tPour la deuxième, $R=1$ et $D=]-1;1[$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "c8b46fd5-9a20-4d2a-957b-ef941fa9d630",
+      "id": "68e4f9f7-c2a8-408c-8432-ab0d3494cabc",
       "type": "question",
       "value": {
         "latex": "Calculer la somme de la série $\\displaystyle \\sum_{n\\geq 2}(-1)^n x^{n-2}$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "20fbff31-7314-459e-9800-378bf80cb6d0",
+      "id": "f5904310-098b-4f18-a2b8-d51155ca38d6",
       "type": "reponse",
       "value": {
         "latex": "\\[ \\forall x \\in ]-1;1[, \\qquad \\sum_{n=2}^{+\\infty}(-1)^n x^{n-2}\n\t\t=\\frac{1}{1+x}.\n\t\t\\]",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "a0a1784e-f442-4ec1-a1cd-3a6526e4bc07",
+      "id": "3eb24a9d-ce0f-4c7f-81d8-90ed380b0bf2",
       "type": "question",
       "value": {
         "latex": "En déduire la somme de la série $\\displaystyle \\sum_{n\\geq 2} \\frac{(-1)^n}{(n-1)}x^{n-1}$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "14089f29-82eb-4f5c-bad2-c4a3d3cecb4d",
+      "id": "ede3326b-9f79-4e21-a9b2-6097ba77b8ec",
       "type": "reponse",
       "value": {
         "latex": "\\[ \\forall x \\in ]-1;1[, \\qquad \\sum_{n=2}^{+\\infty} \\frac{(-1)^n}{(n-1)}x^{n-1}\n\t\t=\\ln(1+x).\n\t\t\\]",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Différentiabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:39.264Z"
+    "updatedAt": "2025-03-24T17:14:17.525Z"
   },
   "contenu": [
     {
-      "id": "84f17f87-e404-4688-a89b-92de8d81cf1c",
+      "id": "d1131da1-eaf9-4e38-996f-5b725dde1764",
       "type": "question",
       "value": {
         "latex": "Soit $g \\colon ]0;+\\infty[ \\to \\R$ une fonction de classe $\\mathcal{C}^2$. Soit un entier $n \\geq 2$ et $f \\colon \\R^n \\backslash \\{0\\} \\to \\R$ définie par $f(x_1,...,x_n) = g(\\sqrt{\\sum_{i=1}^n x_i^2})$. \n\nOn note $\\Delta f = \\sum\\limits_{i=1}^{n} \\frac{\\partial^2 f}{\\partial x_i^2}$ le laplacien de $f$. On pose $r=\\sqrt{\\sum\\limits_{i=1}^n x_i^2}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "9709c57b-07a5-40a8-a017-fa836778f49e",
+      "id": "3ee8f348-e3d7-45c2-bb71-27fee66a1165",
       "type": "question",
       "value": {
         "latex": "Démontrer que pour tout $x=(x_1,...,x_n) \\in \\R^n \\backslash \\{0\\}$, $\\Delta f(x) = g''(r)+ \\frac{n-1}{r}g'(r)$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2532d0ec-bb78-4a9e-bba1-c0f1e5e8a8c2",
+      "id": "051d9215-2c9d-4cb4-b703-e6cfb17eefe7",
       "type": "reponse",
       "value": {
         "latex": "On applique la règle des chaînes en voyant $r$ comme une fonction de $n$ variables : \n\t      \t$$\\frac{\\partial f}{\\partial x_i} = \\frac{x_i}{r}g'(r)$$\n\t      \tpuis \n\t      \t$$\\frac{\\partial^2 f}{\\partial x_i^2} = \\left(\\frac{1}{r}- \\frac{x_i}{r^2} \\frac{\\partial r}{\\partial x_i}\\right)g'(r) + \\frac{x_i^2}{r^2}g''(r) = \\frac{r^2-x_i^2}{r^3}g'(r) + \\frac{x_i^2}{r^2}g''(r)  $$\n\t      \tIl reste à sommer pour $i$ variant de $1$ à $n$ pour avoir le résultat.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "f5588247-c2da-430c-a235-c89621c72d93",
+      "id": "3506eb54-8d81-432a-9e6a-b127970afee6",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble des fonctions $g$ telles que $\\Delta f = 0$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "1bbc91f7-ee4c-494b-bb6d-ffe3669d2027",
+      "id": "eebd311d-9d4c-4cf3-ac35-49ca4fbcd167",
       "type": "reponse",
       "value": {
         "latex": "On en déduit que $\\Delta f =0$ si et seulement si $g'$ est solution de l'équation différentielle linéaire du premier ordre\n\t      \t$$y'+ \\frac{n-1}{r}y = 0$$\n\t      \td'où $g'(r) = \\frac{k_1}{r^{n-1}}$ (avec $k_1 \\in \\R$) d'où $g(r) = \\frac{k_1}{r^{n-2}}+k_2$ si $n \\geq 3$ et $g(r) = k_1\\ln(r) + k_2$ si $n=2$.",

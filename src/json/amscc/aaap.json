@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-11-02",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:34.818Z"
+    "updatedAt": "2025-03-24T17:15:04.942Z"
   },
   "contenu": [
     {
-      "id": "2a534b84-a287-4a18-aab6-43ccd3fe66ae",
+      "id": "c54262c9-0ee4-4bd3-8151-c38f7793baa0",
       "type": "description",
       "value": {
         "latex": "Soit $Z$ une variable aléatoire suivant une loi normale centrée réduite. On rappelle que la fonction caractéristique de $Z$ est définie pour tout réel $t$ par :\n$$\\phi_Z(t)=\\E(e^{itZ})=e^{-\\frac{t^2}{2}}.$$",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "1b8046a0-d5cf-4fa9-9c36-7b2e91aa7f5b",
+      "id": "125d5ecc-5064-4320-8b1d-817586a33755",
       "type": "question",
       "value": {
         "latex": "Soit $\\mu$ un réel et $\\sigma$ un réel strictement positif. Sans justifier, donner la loi de $X=\\sigma Z+\\mu$, puis calculer la fonction caractéristique de $X$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "616bede9-725a-4d79-b9d2-6edeeaa47926",
+      "id": "bf0f198d-b94e-49b7-aaf8-55fc325e696f",
       "type": "description",
       "value": {
         "latex": "Soit $(X_1,\\dots{},X_5)$ une suite de 5 variables aléatoires indépendantes et équidistribuées selon une loi normale de moyenne $\\mu=70$ et d’écart type $\\sigma=15$. Soit $S=\\displaystyle\\sum_{i=1}^{5}X_i$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "6329c186-bb49-401b-882a-8df9e79bab01",
+      "id": "84f39565-bb2e-4527-a2c7-4994af0c1033",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction caractéristique de $S$ et en déduire la loi de $S$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "261d1461-4be4-4a0f-9eea-f785b6e2e4ca",
+      "id": "36edf158-3db7-49d8-b45b-96466a0a57b1",
       "type": "question",
       "value": {
         "latex": "Calculer la valeur de $\\prob(S>450)$ à $10^{-2}$ près.",

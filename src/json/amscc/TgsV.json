@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:58.581Z"
+    "updatedAt": "2025-03-24T17:14:32.865Z"
   },
   "contenu": [
     {
-      "id": "2ec83229-c87d-4638-979d-a2ca65028f39",
+      "id": "3bd1496a-44f8-44a1-a1bf-42236e16a517",
       "type": "description",
       "value": {
         "latex": "Une entreprise fabrique des cartes graphiques. Deux ateliers de fabrication se répartissent la production d'une journée de la façon suivante : l'atelier A produit 900 cartes et l'atelier B produit 600 cartes. Les contrôles qualités ont montré qu'un jour donné, 2\\% des cartes produite par l'atelier $A$ et 1\\% des cartes produites par l'atelier $B$ sont défectueuses. \n\t\n\tOn prélève au hasard une carte produite dans la journée et on note les événements comme suit :\n\t\n\t\\begin{itemize}\n\t\t\\item $A$ : \\og la carte provient de l'atelier A \\fg{}\n\t\t\\item $B$ : \\og la carte provient de l'atelier B \\fg{}\n\t\t\\item $D$ : \\og la carte est défectueuse \\fg{}.\n\t\\end{itemize}",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d0ef69d0-c6f5-4082-af9f-5df7f78eb7c0",
+      "id": "a6f2fcac-511b-4f5c-9c6f-ae3fff5814e6",
       "type": "question",
       "value": {
         "latex": "Sachant qu'une carte prélevée est défectueuse, quelle est la probabilité qu'elle provienne de l'atelier A ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "c9490c2c-3bfc-4e17-b8de-45b91bfd348c",
+      "id": "059264b1-35f4-462a-8043-9234f59df0d8",
       "type": "question",
       "value": {
         "latex": "Les événements $A$ et $D$ sont-ils indépendants ?",

@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-10-16",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:17.784Z"
+    "updatedAt": "2025-03-24T17:14:50.480Z"
   },
   "contenu": [
     {
-      "id": "97374398-5dc0-4cba-82b2-53785880737f",
+      "id": "854ef73a-f02c-40da-826f-97af76942c51",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire réelle telle que $\\E(X) = 30$ et $\\var(X) = 25$ et $Y = 2X - 5$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "798ec422-03c6-41ca-b3ad-e80de0ae99c3",
+      "id": "93b6ae03-297a-4ad1-93f4-ef5b47901158",
       "type": "question",
       "value": {
         "latex": "Déterminer l'espérance et la variance de $Y$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "ea897b20-794a-4903-b16f-ce06cbabd751",
+      "id": "4f82ff35-1042-4715-a5de-354b70be56c3",
       "type": "reponse",
       "value": {
         "latex": "Par linéarité de l'espérance, $\\E(X) = 2 \\E(X) - 5 = 2 \\times 30 - 5 = 55$. Par propriétés de la variance, $\\var(Y) = 2^2 \\var(X) + 0 = 4 \\times 25 = 100$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "216061e6-0348-41b3-a9c2-a40352bbff90",
+      "id": "afb04308-16b0-4499-acdd-47ac215bca45",
       "type": "question",
       "value": {
         "latex": "\\`A l'aide de l'inégalité de Bienaymé-Tchebychev, déterminer une valeur $a > 0$ telle que $\\prob\\left( 20 < X < 40 \\right) \\geq a$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "20d3b3d0-dc82-4edd-8411-5dc7da6515de",
+      "id": "c9b5b5be-e9be-49bb-9952-b6a8ef713b16",
       "type": "reponse",
       "value": {
         "latex": "On a :\n            $$\\begin{align*}\n                \\prob\\left( 20 < X < 40 \\right) &= \\prob\\left( -10 < X - 30 < 10 \\right) \\\\\n                &= \\prob\\left( \\left| X - 30 \\right| < 10 \\right) \\\\\n                &= \\prob\\left( \\left| X - \\E(X) \\right| < 10 \\right) \\\\\n                &\\geq 1 - \\frac{\\var(X)}{10^2} \\text{ par l'inégalité de Bienaymé-Tchebychev} \\\\\n                &= 1 - \\frac{25}{100} \\\\\n                &= \\frac{3}{4}.\n            \\end{align*}$$\n            On a donc $a = \\frac{3}{4}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "99349738-8cfd-4816-a352-6aeb03df52f0",
+      "id": "66d4f977-debb-4fc2-bc84-46072021b8bc",
       "type": "description",
       "value": {
         "latex": "On suppose maintenant que $X$ suit une loi normale.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "01eca4a0-70a8-43e8-95b0-ff150b9d5c6f",
+      "id": "a338862d-c54c-4dc6-a208-ad0abf4633ed",
       "type": "question",
       "value": {
         "latex": "Donner la valeur de $\\prob\\left( 20 \\leq X \\leq 40 \\right)$ avec une précision de $10^{-4}$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "ba87b7d7-f6ec-4510-9f06-c382132bfe98",
+      "id": "94ed8d79-2382-4474-ad10-424fc0857573",
       "type": "reponse",
       "value": {
         "latex": "On centre et on réduit la variable $X$ pour utiliser la table de loi normale centrée réduite. On note $\\Phi$ la fonction de répartition de la loi normale centrée réduite. On a :\n                $$\\begin{align*}\n                    \\prob\\left( 20 \\leq X \\leq 40 \\right) &= \\prob\\left( \\frac{20 - 30}{5} \\leq \\frac{X - 30}{5} \\leq \\frac{40 - 30}{5} \\right) \\\\\n                    &= \\prob\\left( -2 \\leq \\frac{X - 30}{5} \\leq 2 \\right) \\\\\n                    &= \\Phi(2) - \\Phi(-2)  \\\\\n                    &= \\Phi(2) - (1 - \\Phi(2)) \\text{ par symétrie } \\\\\n                    &\\approx 2 \\times 0{,}9772 - 1 \\text{ par lecture de table de loi} \\\\\n                    &\\approx 0{,}9544.\n                \\end{align*}$$",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "9a6268ec-5ce3-46ae-af1f-40cdf9da5ded",
+      "id": "f5bb36c4-d45f-492c-a151-edbe92896a89",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $Y$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "1ac92637-c28e-48ba-bcae-8b28ec87d51a",
+      "id": "934e82c8-f67b-44ac-a44a-70a3f0315a08",
       "type": "reponse",
       "value": {
         "latex": "Par propriété de stabilité de la loi normale par combinaison linéaire, $Y$ suit une loi normale. On a déjà calculé que $\\E(Y) = 55$ et $\\var(Y) = 100$. On a donc $Y \\sim \\mathcal{N}(55,10)$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "7b7edd9c-963f-48f2-a792-4177aa63414c",
+      "id": "ff9319dd-253c-48ed-b3c6-4888eaa5d917",
       "type": "question",
       "value": {
         "latex": "Déterminer, avec une précision de $10^{-4}$, la probabilité que $Y$ prenne une valeur dans l'intervalle $[45\\,;\\,55]$.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "84b76bf7-9e62-4045-aac8-292117f0bc9a",
+      "id": "853ac62d-cdc2-4fa8-9dda-63b663f7dc51",
       "type": "reponse",
       "value": {
         "latex": "On a :\n                $$\\begin{align*}\n                    \\prob\\left( 45 \\leq Y \\leq 55 \\right) &= \\prob\\left( \\frac{45 - 55}{10} \\leq \\frac{Y - 55}{10} \\leq \\frac{55 - 55}{10} \\right) \\\\\n                    &= \\prob\\left( -1 \\leq \\frac{Y - 55}{10} \\leq 0 \\right) \\\\\n                    &= \\Phi(0) - \\Phi(-1) \\\\\n                    &= \\Phi(0) - (1 - \\Phi(1)) \\text{ par symétrie } \\\\\n                    &\\approx 0{,}5 - (1 - 0{,}8413) \\text{ par lecture de table de loi} \\\\\n                    &\\approx 0{,}3413.\n                \\end{align*}$$",

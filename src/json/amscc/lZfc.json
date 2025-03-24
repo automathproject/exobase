@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-12-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:49.240Z"
+    "updatedAt": "2025-03-24T17:15:53.124Z"
   },
   "contenu": [
     {
-      "id": "2d2c6b3e-84ea-40a7-b77e-f2ce35a19802",
+      "id": "eecb1c1d-0de9-492b-ab31-bb2b402ba959",
       "type": "description",
       "value": {
         "latex": "Soient $A=\\begin{pmatrix}a & 0 & 0 \\\\ 0 & b & 0 \\\\ 0 & 0 & c\\end{pmatrix}$ et $B=\\begin{pmatrix}d & 0 & 0 \\\\ 0 & e & 0 \\\\ 0 & 0 & f\\end{pmatrix}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "bec83df1-8096-4141-b4fa-5aee2d52b1c5",
+      "id": "99f97f8d-6fad-45d6-ab4d-2cd089475f99",
       "type": "question",
       "value": {
         "latex": "Calculer $A \\times B$ et $B \\times A$. Que remarque-t-on ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "d57339c2-4c93-4ece-8d42-abf035636986",
+      "id": "44dec050-f362-40c6-85ac-858bf1193490",
       "type": "reponse",
       "value": {
         "latex": "On remarque que $AB = BA = \\begin{pmatrix}ad & 0 & 0 \\\\ 0 & be & 0 \\\\ 0 & 0 & cf\\end{pmatrix}$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "0482ffbf-75e8-4d55-8ed1-ee89018941c6",
+      "id": "ba92d251-d5b2-40d1-85ff-dfc1d2f1ba6f",
       "type": "question",
       "value": {
         "latex": "Déterminer $A^k$ pour tout entier $k \\geq 1$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "cc90ad6d-74a2-4f20-a10b-c6a3cd27cf83",
+      "id": "690e3b4c-6d32-4fd5-a1f6-77aff32b6ab9",
       "type": "reponse",
       "value": {
         "latex": "On déduit de la question précédente que $A^2 = \\begin{pmatrix}a^2 & 0 & 0 \\\\ 0 & b^2 & 0 \\\\ 0 & 0 & c^2\\end{pmatrix}$ puis par récurrence que :\n\t\t$$A^k = \\begin{pmatrix}a^k & 0 & 0 \\\\ 0 & b^k & 0 \\\\ 0 & 0 & c^k\\end{pmatrix}.$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d0dd0bfd-7a82-47ed-a64c-c4f9171dabe9",
+      "id": "56790fc6-822c-4da8-a729-b2657cbcf18b",
       "type": "question",
       "value": {
         "latex": "\\`A quelles conditions sur $a,b,c \\in \\R$ la matrice $A$ est-elle inversible ? Déterminer dans ce cas $A^{-1}$ puis $A^{-k}$ pour tout entier $k \\geq 1$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "8a15021f-9dc6-4067-bc45-2a573a6437bd",
+      "id": "7004ea48-9101-4d5c-9fcc-ec0ae80f304c",
       "type": "reponse",
       "value": {
         "latex": "Si $a \\neq 0$, $b \\neq 0$ et $c \\neq 0$ alors la matrice $A$ est inversible et \n$$A^{-1} = \\begin{pmatrix}a^{-1} & 0 & 0 \\\\ 0 & b^{-1} & 0 \\\\ 0 & 0 & c^{-1}\\end{pmatrix}$$",

@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-23",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:31.489Z"
+    "updatedAt": "2025-03-24T17:15:41.230Z"
   },
   "contenu": [
     {
-      "id": "9a834e03-898c-446a-b890-21e9d56c0210",
+      "id": "09ec2a92-90ae-4f47-bcf9-f23fde7c8a5e",
       "type": "description",
       "value": {
         "latex": "Une machine est composée de trois alternateurs indépendants. La durée de vie de $T$ de chaque alternateur suit une loi exponentielle de paramètre $\\lambda$. La machine fonctionne si et seulement si au moins deux des alternateurs fonctionnent.  On appelle $X$ la variable aléatoire mesurant le temps de fonctionnement de la machine.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "af01da65-d7c9-4e14-bfca-71aa71eff7f2",
+      "id": "17d9c5d6-9093-494b-89cb-fef8c40113ac",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$ et calculer son espérance.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "ab8f911f-a6ca-4d60-9366-3175f9b9fa49",
+      "id": "415c47ab-9597-45eb-82c1-0802c39279e5",
       "type": "reponse",
       "value": {
         "latex": "Soient $T_1$, $T_2$ et $T_3$ les durées de vie des alternateurs. Soit $t >0$, on a~: \n    $$\\begin{align*}\n        \\prob(X \\geq t) & = \\prob(T_1 \\geq t, T_2 \\geq t, T_3 \\geq t) + \\prob(T_1 < t, T_2 \\geq t, T_3 \\geq t) \\\\ &+ \\prob(T_1 \\geq t, T_2 < t, T_3 \\geq t) + \\prob(T_1 \\geq t, T_2 \\geq t, T_3 < t) \\\\\n        & = \\prob(T_1 \\geq t) \\prob(T_2 \\geq t) \\prob(T_3 \\geq t) + \\prob(T_1 < t) \\prob(T_2 \\geq t) \\prob(T_3 \\geq t) \\\\ & + \\prob(T_1 \\geq t) \\prob(T_2 < t) \\prob(T_3 \\geq t) + \\prob(T_1 \\geq t) \\prob(T_2 \\geq t) \\prob(T_3 < t) \\\\\n        & = e^{-3\\lambda t} + 3 e^{-2\\lambda t} (1-e^{-\\lambda t}) \\\\\n        &= 3 e^{-2\\lambda t} - 2 e^{-3\\lambda t} \n    \\end{align*}$$\n    Donc la fonction de répartition de $X$ est~: \n    $$\\begin{align*}\n        F_X(t) & = \\prob(X \\leq t) \\\\\n        & = 1 - \\prob(X \\geq t) \\\\\n        & = 1 - 3 e^{-2\\lambda t} + 2 e^{-3\\lambda t} \n    \\end{align*}$$\n    Cete fonction est dérivable sur $\\R_+$ et sa dérivée est~:\n    $$\\begin{align*}\n        f_X(t) & = 6\\lambda e^{-2\\lambda t}  - 6 \\lambda e^{-3\\lambda t} \\\\\n    \\end{align*}$$\nOn conclut que $X$ admet pour densité de probabilité $f_X(x) = 6 ( e^{-2\\lambda x}  - e^{-3\\lambda x})1_{\\R_+}(x)$. \n\nOn peut alors calculer son espérance : \n$$\\begin{align*}\n    \\E(X) & = \\int_{-\\infty}^{+\\infty} x f_X(x) dx \\\\\n    & = \\int_{0}^{+\\infty} 6 x ( e^{-2\\lambda x}  - e^{-3\\lambda x}) dx \\\\\n    &= 3 \\times \\frac{1}{2\\lambda} - 2 \\times \\frac{1}{3\\lambda} \\\\\n    & = \\frac{5}{6\\lambda} \\\\\n\\end{align*}$$",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "0c248ecb-af63-47e8-b06c-8fb1db434930",
+      "id": "57a7f26e-b6e6-426c-8ba4-5cf1a59df39f",
       "type": "question",
       "value": {
         "latex": "Soient les réels $t>0$, $h>0$. Sachant que la machine a déjà fonctionné pendant un temps $t$, quelle est la probabilité qu'elle fonctionne encore pendant un temps $h$ ? Déterminer la limite de cette probabilité, à $h$ fixé, lorsque $t \\to +\\infty$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "97772dff-57a0-43e6-b18f-8f8efe4204f0",
+      "id": "1602dc3e-096e-49f7-8f6f-14a751aae2b5",
       "type": "reponse",
       "value": {
         "latex": "On exprime la probabilité conditionnelle : \n    $$\\begin{align*}\n        \\prob(X \\geq t+h | X \\geq t) & = \\frac{\\prob(X \\geq t+h, X \\geq t)}{\\prob(X \\geq t)} \\\\\n        & = \\frac{\\prob(X \\geq t+h)}{\\prob(X \\geq t)} \\\\\n        &= \\frac{3e^{-2\\lambda (t+h)} -2 e^{-3\\lambda (t+h)}}{3e^{-2\\lambda t} -2 e^{-3\\lambda t}} \\\\\n        & = \\frac{ 3 e^{-2\\lambda h} - 2 e^{-\\lambda t} e^{-3\\lambda h}}{3 - 2 e^{-\\lambda t}} \\\\\n        & \\xrightarrow[t \\to +\\infty]{} e^{-2\\lambda h}\n    \\end{align*}$$",

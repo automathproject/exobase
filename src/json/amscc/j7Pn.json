@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:29.909Z"
+    "updatedAt": "2025-03-24T17:15:40.333Z"
   },
   "contenu": [
     {
-      "id": "2c30edd2-8864-48ea-b0eb-c7511c994c37",
+      "id": "62ad4696-2563-4e02-afe5-b0cc86638137",
       "type": "question",
       "value": {
         "latex": "Soit $X$ une variable aléatoire suivant une loi uniforme sur $[a;b]$. Calculer $\\EX$ et $\\mathbb{V}(X)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "476d1798-3ebe-44c8-b91f-c9fee0425197",
+      "id": "18cad78f-bbd2-43d8-8127-73d23da25866",
       "type": "reponse",
       "value": {
         "latex": "Soit $f$ une fonction densité de $X$. Il suffit de calculer \n \t$$\\begin{align*}\n \t\t\\mathbb{E}(X) &= \\int_{-\\infty}^{+\\infty} xf(x)dx \\\\\n \t\t&= \\int_a^b x \\times \\frac{1}{b-a} dx \\\\\n \t\t&=  \\frac{1}{b-a} \\times \\left( \\frac{b^2}{2} - \\frac{a^2}{2} \\right) \\\\\n \t\t&=  \\frac{(b+a)(b-a)}{2(b-a)}\\\\\n \t\t&= \\frac{a+b}{2}\n \t\\end{align*}$$\n \t\n \tPour calculer la variance $\\mathbb{V}(X)$, il reste à calculer :\n \t$$\\begin{align*}\n \t\t\\mathbb{E}(X^2) &= \\int_{-\\infty}^{+\\infty} x^2f(x)dx \\\\\n \t\t&= \\int_a^b x^2 \\times \\frac{1}{b-a} dx \\\\\n \t\t&=  \\frac{1}{b-a} \\times \\left( \\frac{b^3}{3} - \\frac{a^3}{3} \\right) \\\\\n \t\t&= \\frac{a^2+2ab+b^2}{3}\n \t\\end{align*}$$\n \tpuis on applique la formule de Huygens :\n \t$$\\begin{align*}\n \t\t\\mathbb{V}(X)&= \\mathbb{E}(X^2) - \\mathbb{E}(X)^2 \\\\\n \t\t&= \\frac{a^2+2ab+b^2}{3} - \\left(\\frac{a+b}{2}\\right)^2 \\\\\n \t\t&= \\frac{(b-a)^2}{12}\n \\end{align*}$$",

@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-14",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:23.807Z"
+    "updatedAt": "2025-03-24T17:13:58.692Z"
   },
   "contenu": [
     {
-      "id": "3c776ef3-cc05-4acf-b6fc-9b442e22b4f9",
+      "id": "d1efb1d8-2031-4276-a8e0-680aa8ccc934",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda >0$. Pour tout $n \\geq \\lambda$, on définit une suite $\\left(X_k^n\\right)_{k \\in \\N}$une suite de variables aléatoires indépendantes suivant une loi de Bernoulli de paramètre $p_n = \\frac{\\lambda}{n}$. On considère alors la variable aléatoire :\n$$N_n = \\frac{1}{n} \\inf\\{ k \\in N \\, , \\, X_k^n = 1\\}$$",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "6f0897fa-cf52-43e5-9e7e-458271dd4863",
+      "id": "df632b26-fe23-41eb-9127-f2d7c698c26c",
       "type": "question",
       "value": {
         "latex": "Soit un entier $n \\geq \\lambda$. Justifier que la variable $nN_n$ suit une loi géométrique dont on précisera le paramètre.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "dacde801-c683-406c-8128-677a5544a4f2",
+      "id": "f2f49a4d-5d88-457c-adbd-0b70ecd73e62",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction caractéristique de la variable aléatoire $N_n$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "8e78d8ef-c904-4bf4-ad18-f3e7e1f14ca2",
+      "id": "98f3d60f-14bc-4056-915d-be8288217056",
       "type": "question",
       "value": {
         "latex": "En déduire que la suite de variables aléatoires $(N_n)$ converge en loi vers une loi usuelle que l'on précisera.",

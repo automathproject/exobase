@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Propriétés élémentaires, généralités",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:57.526Z"
+    "updatedAt": "2025-03-24T17:15:18.890Z"
   },
   "contenu": [
     {
-      "id": "cef6dde8-d7b6-40bd-866b-643e3dd1c49d",
+      "id": "b47f1217-a823-499a-bb4d-1264dee7386f",
       "type": "description",
       "value": {
         "latex": "Soient $A$ et $B$ deux matrices définies par $A = \\begin{pmatrix} 2 & -1 \\\\ -1 & 4 \\end{pmatrix}$ et $AB = \\begin{pmatrix} 12 & 5 & -6 \\\\ 1 & 1 & 10 \\end{pmatrix}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "e64a2587-66f6-4cad-891c-3aee3651c470",
+      "id": "d0f42ec3-ef9a-4668-b3a7-6cd12a660d93",
       "type": "question",
       "value": {
         "latex": "Déterminer $B$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "b3bc1da8-0f3d-46ae-a1bf-bd670a27b73b",
+      "id": "6830c5b2-febf-4a7d-872b-1ea9de5ac72e",
       "type": "indication",
       "value": {
         "latex": "Vérifier que $A$ est inversible et donner son inverse.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "283cda46-4214-4347-acf0-36b97dbafb41",
+      "id": "98eea90e-bfad-4ff9-b3d1-9c1149123c30",
       "type": "reponse",
       "value": {
         "latex": "On détermine d'abord $A^{-1}$ par pivot de Gauss ou une autre formule : $$A^{-1} = \\frac{1}{7}\\begin{pmatrix}\n\t4 & 1 \\\\ 1 & 2 \\end{pmatrix}$$\nPuis on déduit que $B = IB =  A^{-1}AB = \\begin{pmatrix} 7 & 3 & -2 \\\\ 2 & 1 & 2 \\end{pmatrix}$.",

@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:32.014Z"
+    "updatedAt": "2025-03-24T17:17:25.560Z"
   },
   "contenu": [
     {
-      "id": "c6bf137c-da31-4670-96ff-6479622f7da0",
+      "id": "7d352007-04a1-43d4-866b-a8729476a0f6",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble de définition de la fonction $f$ et vérifier que $f$ est de classe $\\mathcal{C}^2$ sur son ensemble de définition.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "5a552149-ad27-4987-91cb-c415aa436be3",
+      "id": "6324c6ee-0e42-4bd0-b436-140c236d9e5c",
       "type": "reponse",
       "value": {
         "latex": "L'ensemble de définition de $f$ est $D_f = \\{(x,y) \\in \\R^2\\, , \\, x>0, y>0 \\}$",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "f65036af-0557-4188-827a-34fb6e9ecfae",
+      "id": "7edb9fc3-f0c7-406a-a22c-3264ca05288b",
       "type": "question",
       "value": {
         "latex": "On pose $h(t) = t-\\ln(t)-\\frac{1}{t}$ : déterminer l'ensemble de définition de $h$ et étudier ses variations.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "889c7483-e79e-4ae3-ab06-787885dc8b69",
+      "id": "cbe03b84-20fa-4147-a5ce-40902f7d7a16",
       "type": "reponse",
       "value": {
         "latex": "L'ensemble de définition de $h$ est $D_h = \\{t \\in \\R\\, , \\, t>0\\}= \\R_+^*$. La fonction $h$ est dérivable sur son ensemble de définition et $\\forall t \\in \\R_+^*$ : \n\t\t\t$$h'(t) = 1-\\frac{1}{t}+\\frac{1}{t^2} = \\frac{t^2-t+1}{t^2} = \\frac{(t+1)^2+t}{t^2} > 0$$\n\t\t\tPar conséquent, $h$ est strictement croissante sur $]0;+\\infty[$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "6cd79a0b-226b-4efb-aa83-ffe83192a3e2",
+      "id": "dace54d7-51a8-43a8-8d0c-e69628173e36",
       "type": "question",
       "value": {
         "latex": "Démontrer que $\\mathrm{grad}_f(x,y)=(0,0) \\iff \t\\begin{cases}\n\t\t\th\\left(\\frac{x}{y}\\right) = 0\\\\\n\t\t\t\\frac{x}{y} - \\ln(x) =0\n\t\t\\end{cases}$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "9e4c4a8a-5b03-4636-b27b-ee3172520c37",
+      "id": "d17790f7-01d2-4b99-8b15-8d957ef698bd",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 0\\\\\n\t\t\t\t\t\\frac{\\partial f}{\\partial y}(x,y) =0\n\t\t\t\t\\end{cases}\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\ln(y) - \\frac{y}{x} = 0\\\\\n\t\t\t\t\t\\frac{x}{y} - \\ln(x)=0\n\t\t\t\t\\end{cases}\t\t\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\ln(y) - \\ln(x) +  \\frac{x}{y}  - \\frac{y}{x} = 0            \\\\\n\t\t\t\t\t\\frac{x}{y} - \\ln(x) = 0\n\t\t\t\t\\end{cases}\t\t\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\th\\left(\\frac{x}{y}\\right) = 0            \\\\\n\t\t\t\t\t\\frac{x}{y} - \\ln(x) = 0\n\t\t\t\t\\end{cases}\t\t\t\n\t\t\\end{align*}$$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ef2b8289-1a50-4ea2-99f4-7adbdacac571",
+      "id": "35e8a06b-930b-423d-8660-57e2cbcc871c",
       "type": "question",
       "value": {
         "latex": "En déduire l'ensemble des points stationnaires de $f$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "4aa99c2c-9536-4e54-ab3f-e37326b1830f",
+      "id": "2ea1c0fb-1323-4a7c-8d20-cbd1464a3e7e",
       "type": "reponse",
       "value": {
         "latex": "La fonction $h$ s'annule une et une seule fois sur son ensemble définition en $t=1$ donc $(x,y)$ est un point stationnaire si et seulement si $x=y=e$. Il existe un unique point stationnaire qui est le point $(e,e)$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "7fd0704e-716e-4230-8c0a-e1c3a8727cf4",
+      "id": "e95be623-0592-40b9-abf8-193abb889645",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble des points extrémaux (locaux et globaux) de $f$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "2d5b63f1-d237-42e2-8439-37c42a100ec1",
+      "id": "c318284b-f7b3-4132-9f3c-06c91845392c",
       "type": "reponse",
       "value": {
         "latex": "Il est clair que $f$ n'admet pas d'extremum global. En effet, on peut voir par exemple que $\\lim\\limits_{x \\to +\\infty}f(x,1) = -\\infty$ et $\\lim\\limits_{y \\to +\\infty}f(1,y) = +\\infty$.\n\t\t\t\n\t\t\tDe plus, au voisinage du point stationnaire $(e,e)$, on peut étudier les conditions du second ordre en formant la matrice hessienne : \n\t\t\t\n\t\t\t$$Hess_f(x,y)=\\begin{pmatrix} \n\t\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) = 1/x^2 & \\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) = 1/y-1/x \\\\\n\t\t\t\t\\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) = 1/y-1/x & \\frac{\\partial^2 f}{\\partial y^2}(x,y) = -1/y^2 \n\t\t\t\\end{pmatrix}$$\n\t\t\td'où \n\t\t\t$$Hess_f(e,e)=\\begin{pmatrix} \n\t\t\t\t1/e^2 &  0 \\\\\n\t\t\t\t0 & -1/e^2 \n\t\t\t\\end{pmatrix}$$\n\t\t\t\n\t\t\tOn a un déterminant négatif, donc le point $(e,e)$ est un point selle.",

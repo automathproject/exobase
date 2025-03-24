@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-28",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:05.658Z"
+    "updatedAt": "2025-03-24T17:17:09.779Z"
   },
   "contenu": [
     {
-      "id": "83c17794-1daa-4285-8122-1bd2ce769651",
+      "id": "3059c0ba-23a7-4d00-b501-e7e02e97d558",
       "type": "description",
       "value": {
         "latex": "Soit $X$ le nombre d'incidents de paiements pour un crédit à la consommation observés sur la durée du prêt. On suppose que $X$ suit une loi de Poisson de paramètre $\\lambda$ positif. On dispose d'un échantillon de $n$ clients appartenant à la banque A.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "edc0c801-fca3-4d7a-a000-44b1da942b80",
+      "id": "a8bcf859-4cba-4d1f-8540-d187958d80b3",
       "type": "question",
       "value": {
         "latex": "Donner un estimateur de $\\lambda$ centré et convergent.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "d3a0205c-9a9c-46be-a56a-751a956f2b5c",
+      "id": "4dcb4c2a-094a-4248-adb7-1fc2e8cb6631",
       "type": "description",
       "value": {
         "latex": "On désire tester l'hypothèse nulle selon laquelle les clients de la banque A sont faiblement risqués sous la forme suivante : $\\begin{cases}\n\t\t \\lambda = 1 \\\\\n\t\t \\lambda > 1\n\t\t\\end{cases}$. \n\nPour un échantillon de 100 clients de la banque A, nous observons les résultats suivants :\n\n\\begin{center}\n\t\\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\n\t\t\\hline Incidents : & 0 & 1 & 2 & 3 & 4 & 5 & 6 & Total \\\\ \n\t\t\\hline Effectifs : & 38 & 31 & 16 & 10 & 2 & 2 & 1 & 100 \\\\ \n\t\t\\hline \n\t\\end{tabular} \n\\end{center}",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "c0311541-2279-413c-84eb-7fa025b8e051",
+      "id": "c30863b4-f7ba-458e-b644-d2e945c48660",
       "type": "question",
       "value": {
         "latex": "Que peut-on conclure pour un risque de première espèce de $5\\%$ ? Sur un même graphique, superposer une représentation graphique de la loi de Poisson de paramètre $\\lambda = 1$ et l'histogramme des effectifs observés.",

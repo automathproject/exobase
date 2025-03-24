@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Alizée GEERAERT",
     "createdAt": "2024-04-29",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Méthodes numériques",
+    "sousChapitre": "Méthode de Newton",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:44.675Z"
+    "updatedAt": "2025-03-24T17:15:10.800Z"
   },
   "contenu": [
     {
-      "id": "201ee6fb-b935-4f5b-a04e-16e19648747a",
+      "id": "ec1ef327-db01-41b7-881d-1a111c2b2ebc",
       "type": "description",
       "value": {
         "latex": "Soit \n$$\nf:\\;\n\\begin{array}{rcl}\n\t[0,1]&\\to& \\mathbb{R}\\\\\n\tx&\\to& x(1+e^x)-e^x.\n\\end{array}\n$$\nOn recherche les z\\'eros $\\ell$ de $f$ dans $[0,1]$:\n$$\nf(\\ell)=0.\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "9eabcfef-5983-453b-bdc7-cfc804f1ea84",
+      "id": "45a437fe-b5d4-4a43-aea7-d19bd913a2ad",
       "type": "question",
       "value": {
         "latex": "Démontrer qu'il existe un unique z\\'ero $\\ell$ de la fonction $f$ sur $[0,1]$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "fceb7241-73b6-4212-9354-85e5422c96c0",
+      "id": "b449c2f4-35a6-4d45-bdde-6607337f00e4",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est $C^\\infty$. Sa dérivée\n\t\t$$\n\t\tf'(x)=1+xe^x,\n\t\t$$\n\t\tétant strictement positive, la fonction $f$ est strictement croissante. De plus\n\t\t$$\n\t\tf(0)=-1,\\quad f(1)=1.\n\t\t$$\n\t\tLa continuité et la stricte croissance de $f$ assure donc l'existence et l'unicité d'un zéro sur $[0,1]$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "6f67fa86-47be-4810-88f6-0b113f2ca273",
+      "id": "fd1c657b-25a8-482c-a6e4-171b7dd65d3b",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\ell$ est un point fixe de $\\varphi_1$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "84cf3ab3-da52-43bc-8620-210ddc656b31",
+      "id": "378c0ac9-11e2-499a-88d1-2a87e253e522",
       "type": "question",
       "value": {
         "latex": "Montrer que la suite $(x_n)$ converge localement vers $\\ell$ avec un ordre de convergence supérieur ou égal à $2$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "99e053ba-920d-43f3-8296-641b3c26cc2d",
+      "id": "6116b18b-0ebd-4243-91b0-ae64e11f5e7e",
       "type": "reponse",
       "value": {
         "latex": "On remarque d'abord que $\\phi(x)=x$ équivaut à $f(x)=0$. Donc $l$ est l'unique point fixe de $\\phi$.\n\t\t\t\n\t\t\tUne méthode itérative donnée par la relation de récurrence \n\t\t\t$$\n\t\t\tx_{n+1}=\\phi(x_n),\n\t\t\t$$\n\t\t\tconverge vers le point fixe $l$ de $\\phi$ pour $x_0$ pris dans un voisinage de $l$ si $|\\phi'(l)|<1$. Or\n\t\t\t$$\n\t\t\t\\phi'(l)=-\\frac{e^l(1+l)(l(1+e^l)-e^l)}{(1+le^l)^2}.\n\t\t\t$$\n\t\t\tOr par définition\n\t\t\t$$\n\t\t\tl(1+e^l)-e^l=0,\n\t\t\t$$\n\t\t\tce qui assure\n\t\t\t$$\n\t\t\t\\phi'(l)=0.\n\t\t\t$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "34521f7b-6f38-4b4b-854e-f39f0728e4ca",
+      "id": "31243d1f-1ff9-458b-9748-980555d00747",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\ell$ est l'unique point fixe de $\\varphi_2$ dans $[0,1]$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "3c141ec9-ddf7-47af-93b4-95cbba3be58d",
+      "id": "8fb1db45-1a30-4e14-8ba7-4e05880e31e8",
       "type": "reponse",
       "value": {
         "latex": "Par définition\n\t\t\t$$\n\t\t\tl(1+e^l)-e^l=0,\n\t\t\t$$\n\t\t\tce qui donne\n\t\t\t$$\n\t\t\tl(1+e^l)=e^l,\n\t\t\t$$\n\t\t\tet donc\n\t\t\t$$\n\t\t\tg(l)=\\frac{e^l}{1+e^l}=l.\n\t\t\t$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "71fb580d-e238-4a1d-bfda-72bc5dc2a4ff",
+      "id": "5353b8b0-9276-45e7-9b78-efce4f56d95b",
       "type": "question",
       "value": {
         "latex": "Montrer que l'intervalle $[0,1]$ est stable par $\\varphi_2$ : $\\varphi_2([0,1])\\subset [0,1]$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "a5fcc58c-c530-4336-a5f3-f9f2b88a287a",
+      "id": "d31d5a42-aab4-4e81-8929-38572d07544a",
       "type": "reponse",
       "value": {
         "latex": "La fonction $\\varphi_2$ est $C^\\infty$ et \n\t\t\t$$\n\t\t\t\\varphi_2'(x)=\\frac{e^x}{(1+e^x)^2}>0.\n\t\t\t$$\n\t\t\tLa fonction $\\varphi_2$ est donc continue croissante. Il suit\n\t\t\t$$\n\t\t\t\\varphi_2([0,1])= [\\varphi_2(0),\\varphi_2(1)].\n\t\t\t$$\n\t\t\tOr \n\t\t\t$$\n\t\t\t\\varphi_2(0)=\\frac{1}{2}>0,\\quad \\varphi_2(1)=\\frac{e}{1+e}<1.\n\t\t\t$$",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "73555308-bd89-4828-8004-f3b2110f276c",
+      "id": "39d07acb-0e78-4f2c-a715-335dff483a0e",
       "type": "question",
       "value": {
         "latex": "Déterminer $L$ tel que $0<L<1$ que $\\varphi_2$ est $L$-Lipschitzienne sur $[0,1]$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "90d56b45-42ba-48e1-b82f-9816683f0c53",
+      "id": "92e81d34-404d-48d2-b64a-d24dda763e79",
       "type": "reponse",
       "value": {
         "latex": "On remarque que\n\t\t\t$$\n\t\t\t\\varphi_2'(x)\\leq \\frac{1+e^x}{(1+e^x)^2}\\leq \\frac{1}{1+e^x},\n\t\t\t$$\n\t\t\tet donc\n\t\t\t$$\n\t\t\t0\\leq \\varphi_2'(x)\\leq \\frac{1}{1+e}<1.\n\t\t\t$$\n\t\t\tLa fonction $\\varphi_2$ est donc $L$-Lipschitz sur $[0,1]$ avec \n\t\t\t$$\n\t\t\tL=\\frac{1}{1+e}.\n\t\t\t$$",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "f2c31d89-5ee2-4d34-8d45-026cc5261a72",
+      "id": "623964d2-40b2-4cd4-b4c8-6662e708950f",
       "type": "question",
       "value": {
         "latex": "En d\\'eduire que la suite $(x_n)$ tend vers $\\ell$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "bdfcfa00-8baa-4df3-af5f-b91a88d1d24b",
+      "id": "1bd5df9a-a869-4760-b564-94deab4efb5e",
       "type": "reponse",
       "value": {
         "latex": "Les propriétés (b) et (c) assure que $\\varphi_2$ admet un unique point fixe et que la suite $(x_n)_n$ tend vers cet unique point fixe quelque soit $x_0$. La propriété (a) assure que cet unique point fixe est $l$.",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "f08738cb-0df8-410a-b588-cbbe46e703eb",
+      "id": "1fad4286-6c0d-4ceb-ad10-51ae655f762e",
       "type": "question",
       "value": {
         "latex": "Ecrire un algorithme qui donne une approximation de $\\ell$ à $2^{-20}$ près. Combien faut-il d'itérations pour atteindre cette précision ?",

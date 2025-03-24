@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:39.102Z"
+    "updatedAt": "2025-03-24T17:14:17.331Z"
   },
   "contenu": [
     {
-      "id": "1b837b22-869e-4784-9e8e-d8b2f216aaa7",
+      "id": "257093c8-134b-4e24-85f9-9ea387407d5f",
       "type": "question",
       "value": {
         "latex": "Pour tout $n \\in \\N^*$, $0 \\leq u_n \\leq \\frac{1}{n}$ donc $\\sum u_n$ est une série convergente.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "846f76e6-62e8-43a3-a819-d7d41632a7b7",
+      "id": "9979bc44-7195-4b73-aa81-75be112de0cb",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Faux.}} La majoration proposée ne permet pas de conclure quand à la nature de la série. La suite $u_n=\\frac{1}{n}$ fournit un bon contre-exemple.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2723bec9-80d1-4f90-82da-90523fe1e5f4",
+      "id": "a7ea22cd-cbda-45bd-9d9d-9914b78d1091",
       "type": "question",
       "value": {
         "latex": "$e^x - x - 1 \\underset{x\\to 0}{\\sim} \\frac{x^2}{2}$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "94009848-fce5-40a4-a888-1ef95d101780",
+      "id": "98482317-9e69-458b-bc36-6a20a389f787",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Vrai.}} Le développement limité de $x \\mapsto e^{x}$ à l'ordre $2$ est $e^{x}=1+x+\\frac{x^{2}}{2}+o(x^{2})$. Il s'ensuite que le premier terme non nul du développement limité de $e^{x}-x-1$ est $\\frac{x^2}{2}$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "62d3ffea-0b7d-4fc5-8852-f3222bcc3076",
+      "id": "b471a387-8406-4320-a90f-bbe83f83c274",
       "type": "question",
       "value": {
         "latex": "$\\ln(1+x) \\underset{x\\to +\\infty}{\\sim}  x$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "09ac76ba-941c-4206-a998-9d6b03a648dc",
+      "id": "f3a85c2b-6fef-4133-8004-a82dc6c60b56",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Faux.}} La limite en $+\\infty$ de la fonction $x \\mapsto \\frac{ln(1+x)}{x}$ est $0\\neq 1$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "7a78f007-9748-4725-9116-a98b9b02d6b7",
+      "id": "7bb262c2-eca5-47c3-b935-2b62965f75e4",
       "type": "question",
       "value": {
         "latex": "Si pour tout $n \\in \\N^*$, $0 \\leq u_n$ et $\\sum u_n$ converge alors $\\sum u_n^2$ converge.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "c326829e-d611-486d-ad5c-8d63ced9df15",
+      "id": "63b685b2-5830-4fbc-b786-eed6094886bc",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Vrai.}} En effet comme la limite de la suite $(u_n)$ quand $n$ tend vers $+\\infty$ est $0$, il existe un entier $n_0$ tel que:\n  $$\\forall n\\geq n_0,\\,0\\leq u_n\\leq 1.$$\n  De plus on a: $\\forall n\\geq n_0,\\,0\\leq u_n^{2}\\leq u_n.$\\\\\n  Par comparaison de suites positives, $\\sum u_n^2$ converge car la série $\\sum u_n$ converge.",

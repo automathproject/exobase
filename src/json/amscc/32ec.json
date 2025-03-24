@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:14.161Z"
+    "updatedAt": "2025-03-24T17:13:16.441Z"
   },
   "contenu": [
     {
-      "id": "d03d33c0-db4e-4bc4-a1b0-675176f5be8b",
+      "id": "777927cc-8c5e-451e-8ad0-963bf0d2f57c",
       "type": "description",
       "value": {
         "latex": "Deux joueurs $A$ et $B$ sont en concurrence au lancer de poids. Un observateur attentif a relevé qu'à l'entraînement, le joueur $A$ a effectué $97.7$\\% de ses lancers au delà de $19$ mètres, et $84$\\% en deça de $22$ mètres. Il a aussi noté que de son côté, le joueur $B$ a effectué $74.5$\\% de ses lancers au delà de $19$ mètres et $90.8$\\% en deça de $22$ mètres.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "2c968e08-60ed-4bfc-b1ba-70d28a33cbb9",
+      "id": "a1df844f-2101-4da1-8224-40bc63cc33cc",
       "type": "question",
       "value": {
         "latex": "Déterminer les paramètres des variables aléatoires normales $X$ et $Y$ respectivement égales au lancer du joueur $A$ et au lancer du joueur $B$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "0630b373-0777-4567-a3b0-0f69f7903a9f",
+      "id": "488431eb-7f64-4ea8-b512-3a41e847860c",
       "type": "reponse",
       "value": {
         "latex": "\\textbf{Joueur $A$:} \n\t\t\\[ X\\sim\\mathcal{N}(\\mu,\\sigma), \\quad \\prob(X\\geq 19)=0.977, \\quad \\prob(X\\leq 22)=0.84\\]\n\t\tEn posant $Z=\\frac{X-\\mu}{\\sigma}$, on a $Z\\sim \\mathcal{N}(0,1)$ et:\n\t\t\\[ \\begin{cases}\n\t\t\t\\prob\\left(Z\\geq \\frac{19-\\mu}{\\sigma} \\right)=0.977 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.84\n\t\t\\end{cases}\n\t\t\\quad \\Leftrightarrow \\quad\n\t\t\\begin{cases}\n\t\t\t\\prob\\left(Z\\leq -\\frac{19-\\mu}{\\sigma} \\right)=0.977 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.84\n\t\t\\end{cases}\n\t\t\\]\n\t\tet par lecture de la table de loi $\\mathcal{N}(0,1)$, on obtient:\n\t\t$$\\begin{align*}\n\t\t\t\\begin{cases} -\\frac{19-\\mu}{\\sigma}=2 \\\\\n\t\t\t\t\\frac{22-\\mu}{\\sigma}=1\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} -19+\\mu=2\\sigma \\\\\n\t\t\t\t22-\\mu=\\sigma\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} \\mu=21 \\\\\n\t\t\t\t\\sigma=1\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\tX\\sim \\mathcal{N}(21,\\sigma=1)\n\t\t\\end{align*}$$\n\t\t\\vspace{2em}\n\t\t\n\t\t\\textbf{Joueur $B$:} \n\t\t\\[ Y\\sim\\mathcal{N}(\\mu,\\sigma), \\quad \\prob(Y\\geq 19)=0.745, \\quad \\prob(Y\\leq 22)=0.908\\]\n\t\tEn posant $Z=\\frac{Y-\\mu}{\\sigma}$, on a $Z\\sim \\mathcal{N}(0,1)$ et:\n\t\t\\[ \\begin{cases}\n\t\t\t\\prob\\left(Z\\geq \\frac{19-\\mu}{\\sigma} \\right)=0.745 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.908\n\t\t\\end{cases}\n\t\t\\quad \\Leftrightarrow \\quad\n\t\t\\begin{cases}\n\t\t\t\\prob\\left(Z\\leq -\\frac{19-\\mu}{\\sigma} \\right)=0.745 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.908\n\t\t\\end{cases}\n\t\t\\]\n\t\tet par lecture de la table de loi $\\mathcal{N}(0,1)$, on obtient:\n\t\t$$\\begin{align*}\n\t\t\t\\begin{cases} -\\frac{19-\\mu}{\\sigma}=0.66 \\\\\n\t\t\t\t\\frac{22-\\mu}{\\sigma}=1.33\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} -19+\\mu=0.66\\sigma \\\\\n\t\t\t\t22-\\mu=1.33\\sigma\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} \\mu=20 \\\\\n\t\t\t\t\\sigma=1.5\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\tY\\sim \\mathcal{N}(20,\\sigma=1.5)\n\t\t\\end{align*}$$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "c80dd3b3-b972-4687-833f-6f0958955637",
+      "id": "92d85a50-da95-490c-8316-9630cbe5f31e",
       "type": "question",
       "value": {
         "latex": "Quels sont les paramètres de la variable aléatoire normale $Z=X-Y$ ?",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "973ba972-5661-42dc-9d27-b6c65e1fc369",
+      "id": "aa5073e2-d970-4e67-a1a6-35ced003791b",
       "type": "reponse",
       "value": {
         "latex": "Les variables aléatoires $X$ et $Y$ sont indépendantes et de loi Normale, donc leur différence est encore une loi Normale de paramètres:\n\t\t\\[ Z\\sim \\mathcal{N}(21-20,\\sigma^2=1^2+1.5^2) \\quad \\text{c'est-à-dire} \\quad \n\t\tZ\\sim \\mathcal{N}(21-20,\\sigma^2=3.25).\n\t\t\\]",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "634f2f39-223e-4c7e-a04f-31c8b79213d2",
+      "id": "e90b63d9-3515-4b4e-9f43-5546c23728f8",
       "type": "question",
       "value": {
         "latex": "Exprimer en utilisant la variable aléatoire $Z$ l'événement \"Le joueur $A$ gagne le concours.\" et en déterminer la probabilité.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "a8e976d0-ef52-4576-a5cb-cadf77fcf177",
+      "id": "2affa6bb-0887-4ad2-958d-c273513129e6",
       "type": "reponse",
       "value": {
         "latex": "Le joueur $A$ gagne le concours signifie que le lancer $X$ du joueur $A$ est supérieur au lancer $Y$ du joueur $B$, ce qui revient à avoir $Z\\geq 0$.\n\t\t\\[\\prob(Z\\geq 0)=\\prob\\left(\\frac{Z-1}{\\sqrt{3.25}}\\geq \\frac{-1}{\\sqrt{3.25}}\\simeq 0.55\\right)=0.7088\\]\n\t\tIl y a donc $70.88$\\% de chance que $A$ gagne le concours.",

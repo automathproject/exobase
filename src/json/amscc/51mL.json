@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:25.718Z"
+    "updatedAt": "2025-03-24T17:13:23.494Z"
   },
   "contenu": [
     {
-      "id": "9b76c90b-3b18-4322-8e01-cfac23453a7b",
+      "id": "6e6d518f-1c73-4115-9378-35f572525bdd",
       "type": "description",
       "value": {
         "latex": "Soit une fonction $f \\colon x \\mapsto \\begin{cases}\n        2x & \\text{ si } x \\in [0;1] \\\\\n        0 & \\text{ sinon }\n    \\end{cases}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "1b7f3447-f6b0-4cb5-967a-2b13361a020d",
+      "id": "4db288c8-058e-4e8c-bed7-b1a3c6dee930",
       "type": "question",
       "value": {
         "latex": "Montrer que $f$ est une densité de probabilité.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "60623581-ace6-4e76-8abc-8569aafa3661",
+      "id": "676fa475-77b2-4d40-9548-7eb496e184ff",
       "type": "reponse",
       "value": {
         "latex": "\\begin{enumerate}\n                \\item $f$ est positive sur $\\R$.\n                \\item $\\int_{-\\infty}^{+\\infty} f(x) \\mathrm{d}x = \\int_0^1 2x \\mathrm{d}x = \\left[ x^2 \\right]_0^1 = 1$.\n            \\end{enumerate}\n            Donc $f$ est une densité de probabilité.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "577a0987-b9cd-493b-a630-b23f5c79f7fe",
+      "id": "b22ca6e5-bc53-45b6-b49e-5cd65c0b2777",
       "type": "question",
       "value": {
         "latex": "\\'Ecrire $f$ à l'aide d'une fonction indicatrice $x \\mapsto \\textbf{1}_A(x)$ où $A$ est un ensemble à préciser.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "0b74c574-0092-48c4-887b-887e9604975b",
+      "id": "3a743177-0e63-42cc-acf7-39ca7a2ed3c8",
       "type": "reponse",
       "value": {
         "latex": "$f(x) = 2x \\textbf{1}_{[0;1]}(x)$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "8acb6b9f-22c3-4662-8dc9-53fae4557124",
+      "id": "903d64fa-4447-42ec-88ee-58471de31bbe",
       "type": "question",
       "value": {
         "latex": "Soit $X$ une variable aléatoire admettant $f$ pour densité de probabilité. Calculer $\\prob(X \\leq \\frac{1}{2})$ et $\\prob(-1 \\leq X \\leq 0.2)$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "b1a18e60-45c2-43cc-9129-992b37b92bae",
+      "id": "3cf56e96-ede9-4b68-a587-fde9fae2357d",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n                \\prob(X \\leq \\frac{1}{2}) &= \\int_{-\\infty}^{\\frac{1}{2}} f(x) \\mathrm{d}x \\\\\n                &= \\int_0^{\\frac{1}{2}} 2x \\mathrm{d}x \\\\\n                &= \\left[ x^2 \\right]_0^{\\frac{1}{2}} \\\\\n                &= \\frac{1}{4}\n            \\end{align*}$$\n            $$\\begin{align*}\n                \\prob(-1 \\leq X \\leq 0.2) &= \\int_{-1}^{0.2} f(x) \\mathrm{d}x \\\\\n                &= \\int_0^{0.2} 2x \\mathrm{d}x \\\\\n                &= \\left[ x^2 \\right]_0^{0.2} \\\\\n                &= 0.04\n            \\end{align*}$$",

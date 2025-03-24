@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Différentielle de fonctions composées",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:46.234Z"
+    "updatedAt": "2025-03-24T17:14:23.724Z"
   },
   "contenu": [
     {
-      "id": "bc4c7323-4ee5-42b4-9c67-afea61a3e9de",
+      "id": "e9a3d40c-5ad7-4ca0-8f28-ec776edcc3d1",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\mathbb{R}^2 \\to \\mathbb{R}$ une fonction différentiable.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "39054109-fa29-4c0b-8f12-e6cb31aaba27",
+      "id": "c5c7037f-17a3-4195-a0be-5bcc03239de4",
       "type": "question",
       "value": {
         "latex": "On fixe $(x,y) \\in \\mathbb{R}^2$ et pour tout $t \\in \\mathbb{R}$ on pose $g(t) = f(x+t,y+t)$. Calculer $g'(t)$ quelque soit $t \\in \\mathbb{R}$ en l'exprimant en fonction de $\\dfrac{\\partial f}{\\partial x}(x+t,y+t)$ et $\\dfrac{\\partial f}{\\partial y}(x+t,y+t)$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "a3891100-d817-4b1b-9251-6461bd1ad29f",
+      "id": "45c28f54-44fa-4bd9-8565-6097a20b1999",
       "type": "reponse",
       "value": {
         "latex": "Par la règle des chaînes, $g$ est dérivable sur $\\mathbb{R}$ et $g'(t) = 1 \\times \\dfrac{\\partial f}{\\partial x}(x,y) + 1 \\times \\dfrac{\\partial f}{\\partial y}(x,y)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "0c144a6d-d268-40f0-b42c-321f0a2c706d",
+      "id": "04f1ae0b-82a4-4944-a370-764a047182c5",
       "type": "question",
       "value": {
         "latex": "On suppose que pour tout $t \\in \\mathbb{R}$ et pour tout $(x,y) \\in \\mathbb{R}^2$, \n\t\t\t$$f(x+t,y+t) = f(x,y)$$En déduire que $\\dfrac{\\partial f}{\\partial x}(x,y) + \\dfrac{\\partial f}{\\partial y}(x,y) = 0$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "32dc7c34-eda4-4fee-b090-9e699c1a7739",
+      "id": "77e6969f-9d08-4024-a08d-46dc3433bb9d",
       "type": "reponse",
       "value": {
         "latex": "Par hypothèse sur la fonction $f$, $g(t) = f(x,y)$ donc $g$ est constante par rapport à $t$ donc $g'(t) = 0$. D'où l'égalité demandée.",

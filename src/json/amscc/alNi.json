@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:36.294Z"
+    "updatedAt": "2025-03-24T17:15:05.851Z"
   },
   "contenu": [
     {
-      "id": "8dcc6d3a-0b5a-4e4e-a469-d5713726bc20",
+      "id": "e01012d3-4db4-456d-8326-506a34152a86",
       "type": "question",
       "value": {
         "latex": "Quelle est la distribution de la variable aléatoire $S$ selon le théorème central limite ?",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "2e4a0268-0364-4bdd-aae0-0ebd7c758528",
+      "id": "8a1083ad-0c62-4535-8083-5df01d57774f",
       "type": "reponse",
       "value": {
         "latex": "Les variables aléatoires $X_1, X_2, \\ldots, X_{100}$ sont indépendantes et identiquement distribuées suivant une loi de moyenne $\\mu = 30$ et de variance $\\sigma^2 = 16$. La loi de chaque variable $X_i$ n'est pas connue mais on sait que la moyenne et la variance sont finies. D'après le théorème central limite, la variable aléatoire $Z=\\frac{S - n\\mu}{\\sqrt{n}\\sigma}$ suit approximativement une loi normale centrée réduite avec $n=100$ considéré comme grand. \n\nAutrement dit, la variable aléatoire $S$ suit approximativement une loi normale avec une moyenne donnée par $n\\mu = 100 \\times 30 = 3000$ et une variance donnée par $n\\sigma^2 = 100 \\times 16 = 1600$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "9f64b185-54ee-4e68-b8d0-efd6d04e01f0",
+      "id": "71fd37fb-dc71-46d8-b3c4-508bf7515aad",
       "type": "question",
       "value": {
         "latex": "Calculez la probabilité que la somme $S$ soit inférieure à 2900.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "4ab81400-1804-47af-bf2c-15399239dcf0",
+      "id": "1e37b53c-2bc5-483f-9b62-601b36f73ae6",
       "type": "reponse",
       "value": {
         "latex": "Pour trouver cette probabilité, on centre et on réduit la variable aléatoire : \n\\[\nZ = \\frac{S - \\mu_S}{\\sigma_S} = \\frac{S - 3000}{\\sqrt{1600}}.\n\\]\nDonc, nous cherchons \n\\[\n\\prob\\left( Z < \\frac{2900 - 3000}{\\sqrt{1600}} \\right) = \\prob\\left( Z < -2.5 \\right).\n\\]\nEn utilisant la table de loi (ou un calculateur approprié), nous trouvons que la probabilité recherchée est d'environ $0.0062$.",

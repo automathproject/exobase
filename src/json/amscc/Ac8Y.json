@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-11-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:52.624Z"
+    "updatedAt": "2025-03-24T17:13:40.972Z"
   },
   "contenu": [
     {
-      "id": "14f97c0a-267b-4fad-bbe5-ef23f6e3694c",
+      "id": "709826b6-9742-4e7d-8628-feacf57450a9",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire suivant une loi normale quelconque $\\mathcal{N}(\\mu,\\sigma)$ avec $\\mu \\in \\R$ et $\\sigma >0$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "ce5eb08e-dd9f-4a8f-98cf-0d256b1d6bf7",
+      "id": "eac0102a-e727-4450-8738-b2de38bdb43b",
       "type": "question",
       "value": {
         "latex": "On pose $Y = e^X$. Calculer l'espérance et la variance de $Y$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "f7ccfa89-f4fa-4c99-bcbb-b1ebdf678e31",
+      "id": "138b76f9-0698-4244-9cee-5d7f01567f38",
       "type": "reponse",
       "value": {
         "latex": "On a $Y = e^X = e^{\\mu + \\sigma Z} = e^\\mu e^{\\sigma Z}$. D'après le théorème de transfert, \n$$\\begin{align*}\n    \\E(e^{\\sigma Z}) & = \\int_{-\\infty}^{+\\infty} e^{\\sigma z} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{z^2}{2}} dz \\\\\n    & = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{z^2 - 2\\sigma z + \\sigma^2 - \\sigma^2}{2}} dz \\\\\n    & = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{(z-\\sigma)^2}{2}} e^{\\frac{\\sigma^2}{2}} dz \\\\\n    & = e^{\\frac{\\sigma^2}{2}} \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{(z-\\sigma)^2}{2}} dz \\\\\n    & = e^{\\frac{\\sigma^2}{2}} \\\\ \n\\end{align*}$$\nDonc par linéarité, $\\E(Y) = e^{\\mu + \\frac{\\sigma^2}{2}}$. \n\nDe même, on s'intéresse à $\\E(Y^2) = \\E(e^{2X}) = \\E(e^{2\\mu + 2\\sigma Z}) = e^{2\\mu} \\E(e^{2\\sigma Z})$. D'après le calcul précédent, $\\E(e^{2\\sigma Z}) = e^{2\\sigma^2}$. Donc $\\E(Y^2) = e^{2\\mu + 2\\sigma^2}$ et par théorème de Koenig-Huygens, \n$$\\begin{align*}\n  \\var(Y) & = \\E(Y^2) - \\E(Y)^2 \\\\\n  & = e^{2\\mu + 2\\sigma^2} - e^{2\\mu + \\sigma^2} \\\\\n  & = e^{2\\mu + \\sigma^2} (e^{\\sigma^2} - 1) \n\\end{align*}$$",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "d6e00484-3d28-479c-a0bc-863244cf1014",
+      "id": "f61b2fd1-33c8-480e-a3bc-2daaecfa5f71",
       "type": "question",
       "value": {
         "latex": "On suppose que $m=0$ et $\\sigma = 1$. Déterminer une fonction densité de la variable $Y$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "82f24af0-56b8-4172-8a05-c4cc912d30b5",
+      "id": "ac40a247-1f1e-4890-bf49-1448e552dcb0",
       "type": "reponse",
       "value": {
         "latex": "On a $Y = e^X = e^{\\sigma Z} = e^Z$. Donc $Y$ est une variable aléatoire positive. Si $t >0$, on a :\n      $$\\begin{align*}\n          \\prob(Y \\leq t) & = \\prob(e^Z \\leq t) \\\\\n          & = \\prob(Z \\leq \\ln(t)) \\\\\n          &= F_Z(\\ln(t))\n      \\end{align*}$$\n      Donc la fonction de répartition de $Y$ est $F_Y(t) = \\begin{cases}\n          0 & \\text{ si } t \\leq 0 \\\\\n          F_Z(\\ln(t)) & \\text{ si } t > 0 \\\\\n      \\end{cases}$. \n      Par dérivation, on obtient la densité de $Y$ : \n         $$ f_Y(x)  = \\begin{cases}\n              0 & \\text{ si } x \\leq 0 \\\\\n              \\frac{1}{x\\sqrt{2\\pi} } e^{-\\frac{(\\ln(x))^2}{2}} & \\text{ si } x > 0 \\\\\n          \\end{cases} $$",

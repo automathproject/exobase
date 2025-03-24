@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Fraction rationnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:31.181Z"
+    "updatedAt": "2025-03-24T17:17:25.060Z"
   },
   "contenu": [
     {
-      "id": "7934fce1-6af4-4c51-ba4d-e501b516a5d5",
+      "id": "90601ecf-feac-43e2-a6de-e0c6f1bc47f3",
       "type": "question",
       "value": {
         "latex": "Vérifier que le polynôme $B(X)=X^2-X+1$ est irréductible sur $\\mathbb{R}[X]$. Effectuer la division euclidienne du polynôme $A(X)=X^3+2 X-1$ par le polynôme $B(X)$, et en déduire les coefficients $a, b, c$ et $d$ de la décomposition en éléments simples de :\n$$\nF(X)=\\frac{A(X)}{(B(X))^2}=\\frac{X^3+2 X-1}{\\left(X^2-X+1\\right)^2}=\\frac{a X+b}{\\left(X^2-X+1\\right)^2}+\\frac{c X+d}{X^2-X+1}\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "81fbb4fb-0af1-4fef-a042-2dbccacd3dae",
+      "id": "d03fe9d7-c1b9-4c31-ad39-c120abdcc107",
       "type": "reponse",
       "value": {
         "latex": "$$\nA(X)=X^3+2 X-1=\\underbrace{\\left(X^2-X+1\\right)}_{B(X)} \\cdot(X+1)+2 X-2\n$$\nOn en déduit :\n$$\n\\begin{aligned}\n\tF(X) & =\\frac{A(X)}{(B(X))^2}=\\frac{X^3+2 X-1}{\\left(X^2-X+1\\right)^2} \\\\\n\t& =\\frac{\\left(X^2-X+1\\right) (X+1)+2 X-2}{\\left(X^2-X+1\\right)^2} \\\\\n\t& =\\frac{2 X-2}{\\left(X^2-X+1\\right)^2}+\\frac{X+1}{X^2-X+1}\n\\end{aligned}\n$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "219b6cf5-654b-4a96-9c17-4045bcc08282",
+      "id": "64c80c64-0eb7-4795-95ea-99fc9d3ac3f0",
       "type": "question",
       "value": {
         "latex": "En s'inspirant de la question précédent, décomposer en éléments simples sur $\\mathbb{R}(X)$ :\n$$\nF(X)=\\frac{-3 X^2+X-3}{\\left(X^2+1\\right)^8}\n$$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "e9954b33-265b-4e4c-bfe1-9458a24d7e19",
+      "id": "880c362b-3c13-47d5-a3ae-c89738adce43",
       "type": "reponse",
       "value": {
         "latex": "$F(X)$ n'a pas de partie entière.\nEffectuons une division euclidienne de $-3 X^2+X-3$ par $X^2+1$ :\n$$\n-3 X^2+X-3=(-3) \\cdot\\left(X^2+1\\right)+X\n$$\nen divisant par $\\left(X^2+1\\right)^8$ :\n$$\nF(X)=\\frac{-3 X^2+X-3}{\\left(X^2+1\\right)^8}=\\frac{-3}{\\left(X^2+1\\right)^7}+\\frac{X}{\\left(X^2+1\\right)^8}\n$$",

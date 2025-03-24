@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Nombres complexes",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:25.186Z"
+    "updatedAt": "2025-03-24T17:17:20.488Z"
   },
   "contenu": [
     {
-      "id": "11c5676c-ce53-4361-8fb3-551f048ad889",
+      "id": "0503a81b-f092-44e4-9a51-d93f49f67757",
       "type": "description",
       "value": {
         "latex": "Simplifier au maximum les expressions complexes suivantes.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "9b42660a-0cb2-4047-866e-7f2b14d66074",
+      "id": "aa66f0ed-46c3-4e4c-95dd-e83db02428b5",
       "type": "question",
       "value": {
         "latex": "$\\frac{(1+3 i)(3+i)}{1+i}$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "126e0dc1-91f6-4104-86aa-f1b2f5b91070",
+      "id": "789fa7b3-b839-4951-a7e1-1a13d07ca7b6",
       "type": "reponse",
       "value": {
         "latex": "En multipliant numérateur et dénominateur par le conjugué du dénominateur :\n\t\t$$\n\t\t\\frac{(1+3 i)(3+i)}{1+i}=\\frac{(1+3 i)(3+i)(1-i)}{(1+i)(1-i)}=\\frac{10+10 i}{2}=5+5 i\n\t\t$$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "915403e6-e0cc-450c-8158-de7644e8011c",
+      "id": "ad5efe90-36a0-45f2-8e51-5cd99c3b036d",
       "type": "question",
       "value": {
         "latex": "$(1-i)^8$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "84050690-a99e-418e-8953-10bd67c303a0",
+      "id": "b843518f-012e-4be5-a2d5-fc8d18ecc5f4",
       "type": "reponse",
       "value": {
         "latex": "On a $(1-i)^2=-2 i$. On en déduit :\n\t\t$$\n\t\t(1-i)^8=\\left((1-i)^2\\right)^4=(-2 i)^4=2^4 \\cdot i^4=16\n\t\t$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "adb71314-58e6-4577-beb8-3d1bd9af07a3",
+      "id": "cbbf331a-ab5c-4c31-92b4-4329bf8a546c",
       "type": "question",
       "value": {
         "latex": "$\\left(\\frac{1+i \\sqrt{3}}{1-i \\sqrt{3}}\\right)^5$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "6031af3a-e53c-47d9-a504-a0fae4709d00",
+      "id": "dcc0ce6d-01f9-4f61-9dd6-302643162317",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\\left(\\frac{1+i \\sqrt{3}}{1-i \\sqrt{3}}\\right)^5 & =\\left(\\frac{\\frac{1}{2}+\\frac{i \\sqrt{3}}{2}}{\\frac{1}{2}-\\frac{i \\sqrt{3}}{2}}\\right)^5 \\\\ &=\\left(\\frac{\\cos \\left(\\frac{\\pi}{3}\\right)+i \\sin \\left(\\frac{\\pi}{3}\\right)}{\\cos \\left(-\\frac{\\pi}{3}\\right)+i \\sin \\left(-\\frac{\\pi}{3}\\right)}\\right)^5 \\\\ &=\\left(\\frac{e^{i \\frac{\\pi}{3}}}{e^{-i \\frac{\\pi}{3}}}\\right)^5 \\\\ &=\\left(e^{i \\frac{2 \\pi}{3}}\\right)^5=e^{i \\frac{10 \\pi}{3}} \\\\\n\t\t\t& =e^{-i \\frac{2 \\pi}{3}} \\\\ &=\\cos \\left(-\\frac{2 \\pi}{3}\\right)+i \\sin \\left(-\\frac{2 \\pi}{3}\\right) \\\\\n\t\t\t& =-\\frac{1}{2}-\\frac{i \\sqrt{3}}{2}\n\t\t\\end{align*}$$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "550c7b64-02cd-46ea-a4b6-ec6ddf37bb39",
+      "id": "c1d3d718-2e77-441f-836c-6e019b44d206",
       "type": "question",
       "value": {
         "latex": "$\\frac{i}{(1+i \\sqrt{2})^2}$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "4536e563-81eb-45e8-836c-e906d08bbd22",
+      "id": "afb8000d-e3f8-4eed-875f-67eea4da0fbb",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\\frac{i}{(1+i \\sqrt{2})^2} & =\\frac{i}{1^2+2 \\sqrt{2} i+(i \\sqrt{2})^2}\\\\ &=\\frac{i}{1-2+2 \\sqrt{2} i}=\\frac{i}{-1+2 \\sqrt{2} i}\\\\ &=\\frac{i(-1-2 \\sqrt{2} i)}{(-1+2 \\sqrt{2} i)(-1-2 \\sqrt{2} i)} \\\\\n\t\t\t& =\\frac{2 \\sqrt{2}-i}{(1+8)} \\\\ &=\\frac{2 \\sqrt{2}}{9}-\\frac{i}{9}\n\t\t\\end{align*}$$",

@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2024-12-10",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:08.556Z"
+    "updatedAt": "2025-03-24T17:13:12.886Z"
   },
   "contenu": [
     {
-      "id": "94f0de82-7878-43f4-838d-8bbf25359625",
+      "id": "2a820c97-316e-4aba-a54a-dbf312562d25",
       "type": "description",
       "value": {
         "latex": "On s’intéresse aux troubles musculo-squelettiques (TMS) chez le combattant de quatre régiments de l’Armée de Terre (sources : \\url{https://hal.univ-lorraine.fr/hal-01734435}).",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "43e5a70c-761f-407e-b107-b6da05040fd8",
+      "id": "481e1cc4-5413-44e6-9266-bfcdac20f907",
       "type": "question",
       "value": {
         "latex": "Dans cette étude, 19 femmes sur 21 (soit 90,5\\%) et 191 hommes sur 227 (84,1\\%) déclarent avoir eu des TMS. En réalisant un test d’indépendance du $\\chi^2$ avec un risque de première espèce de 5\\%, dire si la différence de prévalence entre les femmes et les hommes est significative.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "1e6b7729-b25a-45d6-a08a-f3eca97101ec",
+      "id": "0ff99529-1e03-4397-9dcd-b2edaf7ebcb0",
       "type": "indication",
       "value": {
         "latex": "Utiliser la formule du $\\chi^2$ pour comparer les fréquences observées et attendues.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "33b38a93-0593-456f-af57-ca9c1c90cb57",
+      "id": "10c3f84e-8e33-4592-8d92-e76945e83ea6",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "6878d6cc-b4fb-4777-bda0-53823aa64659",
+      "id": "e77f487e-31ed-4b22-ac80-8d2c40187179",
       "type": "question",
       "value": {
         "latex": "Parmi les personnes ayant déclaré avoir eu des TMS, 1 n’a pas souhaité répondre et : \n    \\begin{itemize}\n        \\item 10 femmes sur 19 ont été gênées par les TMS durant les 12 derniers mois (52,6\\%),\n        \\item 142 hommes sur 190 (74,7\\%) ont été gênés par les TMS durant la même période.\n    \\end{itemize}\n    En réalisant un nouveau test d’indépendance du $\\chi^2$ avec un risque de première espèce de 5\\%, dire si les hommes sont significativement plus sensibles que les femmes aux TMS dans l’exercice de leurs fonctions.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "24a46834-0acd-4135-afca-a43dc48e57da",
+      "id": "d59c0b95-3793-4e33-845d-486d101d0c4d",
       "type": "indication",
       "value": {
         "latex": "Calculez le $\\chi^2$ en tenant compte des effectifs observés et attendus pour chaque groupe.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "474390ab-1925-483d-8063-fcb2a63b821c",
+      "id": "4f833474-8ccf-44dc-938e-0bdb1f310eb1",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "06eab4ff-300b-44b0-9cb6-aed45ad53371",
+      "id": "1fc10249-4e0b-43b4-8f92-ed661ed4336e",
       "type": "question",
       "value": {
         "latex": "Soit $f_1$ la proportion de femmes gênées par les TMS les 12 derniers mois et $f_2$ la proportion de femmes gênées par les TMS les 12 derniers mois. On souhaite tester l’hypothèse $H_0 : f_1 = f_2$ à partir de l’échantillon décrit à la question précédente et la variable de décision : \n    \\[\n    Z = \\frac{F_1 - F_2}{\\sqrt{P(1-P)\\left(\\frac{1}{n_1} + \\frac{1}{n_2}\\right)}}\n    \\]\n    où $n_1$ est l’effectif de l’échantillon de femmes, $n_2$ est l’effectif de l’échantillon d’hommes, $F_1$ est la fréquence de femmes gênées, $F_2$ est la fréquence d’hommes gênés, et $P = \\frac{n_1F_1 + n_2F_2}{n_1 + n_2}$. On admet que $Z$ suit une loi normale centrée réduite.\n\n    En faisant un test de comparaison de proportions avec un risque de première espèce de 5\\%, dire de nouveau si les hommes sont significativement plus sensibles que les femmes aux TMS dans l’exercice de leurs fonctions.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "525067a9-fcf3-4d41-b6a9-6aadca9f046f",
+      "id": "97627220-e643-4e2f-8d00-b34ea3bf00e0",
       "type": "indication",
       "value": {
         "latex": "Utiliser la statistique $Z$ pour calculer la valeur critique et la comparer à la valeur obtenue.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "a6a5cae0-2b99-4fa5-ace0-96719d04adb4",
+      "id": "1094f40c-4ddd-428c-a32b-b7c107c8ed0c",
       "type": "reponse",
       "value": {
         "latex": "À compléter.",

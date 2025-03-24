@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Dérivée partielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:13.833Z"
+    "updatedAt": "2025-03-24T17:13:51.760Z"
   },
   "contenu": [
     {
-      "id": "03013ffd-eed2-4764-9534-391a14c92d55",
+      "id": "0fed854a-2a21-41d8-bb10-f343ecd0fe3f",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $V \\colon \\R^2 \\to \\R$ définie par $$V(r,\\theta) = \\dfrac{\\cos \\theta}{r^2}$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "70d37d16-e35a-404f-a9c5-a65c4147c727",
+      "id": "178439d6-cbcd-4045-a1c4-0fc4ff69349a",
       "type": "question",
       "value": {
         "latex": "Donner l'ensemble de définition de $V$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "a042b855-0379-4394-8d44-53c6de59b7d2",
+      "id": "4e1ff1a6-3a89-44d0-8706-150f11ee84bb",
       "type": "reponse",
       "value": {
         "latex": "$\\mathcal{D}_V = \\R^* \\times \\R$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "1e6d64e5-6ce2-43c5-90c2-631a628f20c6",
+      "id": "5f4899e2-cad1-4be4-bb62-be620e400688",
       "type": "question",
       "value": {
         "latex": "Calculer les dérivées partielles $\\dpa{V}{r}$ et $\\dpa{V}{\\theta}$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "05689176-5f73-4abf-b8a5-976e14c8c9fe",
+      "id": "3fb33292-9101-46ae-aef3-60ea9fda1fb1",
       "type": "reponse",
       "value": {
         "latex": "pour $(r,\\theta) \\in \\mathcal{D}_V$, on a \n\t\t\t\\[ \\dpa{V}{r} = -\\frac{2}{r^3}\\cos\\theta, \\ \\ \\dpa{V}{\\theta} = -\\frac{1}{r^2}\\sin\\theta \\]",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d5418bce-dfb3-4277-9c9d-047187aba123",
+      "id": "df22389f-3ebc-4e60-aa9f-d905632b2db0",
       "type": "question",
       "value": {
         "latex": "Calculer les dérivées partielles secondes $\\dpsp{V}{r}$, $\\dpa{V}{\\theta}$ et $\\dpsm{V}{r}{\\theta}$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "c18fc64e-44e2-47c5-8db7-5e2fd6eb46be",
+      "id": "b850872d-be24-4e08-9cd6-38bf48449b5d",
       "type": "reponse",
       "value": {
         "latex": "pour $(r,\\theta) \\in \\mathcal{D}_V$, on a\n\t\t\t$$\\begin{align*} \n\t\t\t\\dpsp{V}{r} &= \\dpa{}{r}\\left[ -\\frac{2}{r^3}\\cos\\theta \\right] = \\frac{6}{r^4}\\cos\\theta \\\\\n\t\t\t\\dpsp{V}{\\theta} &= \\dpa{}{\\theta}\\left[ -\\frac{1}{r^2}\\sin\\theta \\right] = -\\frac{1}{r^2}\\cos\\theta \\\\\n\t\t\t\\dpsm{V}{r}{\\theta} &= \\dpa{}{r}\\left[ -\\frac{1}{r^2}\\sin\\theta \\right] = \\frac{2}{r^3}\\sin\\theta\n\t\t\t\\end{align*}$$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "18c31375-6f96-405c-abe5-326892bd3d21",
+      "id": "a0f844e8-7ebd-4e27-8641-a6f235b53efe",
       "type": "question",
       "value": {
         "latex": "En déduire que $$\\sin \\theta \\ \\dpa{}{r} \\left[ r^2 \\dpa{V}{r} \\right]  + \\dpa{}{\\theta} \\left[ \\sin \\theta \\dpa{V}{\\theta} \\right]  = 0.$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "7abfeb13-fef6-459c-8b51-15f74716e6a2",
+      "id": "fc1e8cb6-9d21-4ef0-9feb-abd0173e360d",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t\t\\begin{eqnarray*}\n\t\t\t\t\\sin \\theta \\ \\dpa{}{r} \\left[ r^2 \\dpa{V}{r} \\right]  + \\dpa{}{\\theta} \\left[ \\sin \\theta \\dpa{V}{\\theta} \\right]\n\t\t\t\t&= \\sin\\theta \\left[ 2r \\dpa{V}{r} + r^2 \\dpsp{V}{r} \\right] + \\left[ \\cos\\theta \\dpa{V}{\\theta} + \\sin\\theta \\dpsp{V}{\\theta} \\right] \\\\\n\t\t\t\t&= \\sin\\theta \\left[ 2r (-\\frac{2}{r^3}\\cos\\theta) + r^2 \\frac{6}{r^4}\\cos\\theta \\right] + \\left[ \\cos\\theta (-\\frac{1}{r^2}\\sin\\theta) + \\sin\\theta (-\\frac{1}{r^2}\\cos\\theta) \\right] \\\\\n\t\t\t\t&= \\frac{\\cos\\theta\\sin\\theta}{r^2}(-4+ 6-1-1) \\\\\n\t\t\t\t&= 0\n\t\t\\end{eqnarray*}",

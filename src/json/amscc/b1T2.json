@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-02",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Résolution de systèmes linéaires : méthode itérative",
+    "sousChapitre": "Résolution de systèmes linéaires : méthode itérative",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:37.829Z"
+    "updatedAt": "2025-03-24T17:15:06.793Z"
   },
   "contenu": [
     {
-      "id": "42fbf86c-20bb-4b89-9eb8-cf0c499354ea",
+      "id": "a6ed7463-c112-408c-a68f-897b73aa1a55",
       "type": "description",
       "value": {
         "latex": "Soit $A \\in \\mathcal{M}_{n}(\\mathbb{R})$ la matrice tridiagonale d'ordre $n > 2$ définie par \n$$A = \\begin{pmatrix}\n\t2 & -1 &  &  & & \\\\\n\t-1 & 2 & -1 &      & &\\\\\n\t&   \\ddots & \\ddots & \\ddots  && \\\\\n\t& & -1 &2 &-1 \\\\\n\t& & & -1 & 2 \\\\\n\\end{pmatrix}\n$$\n\nOn admet que l'ensemble des valeurs propres de $A$ est $$sp(A) = \\left\\{ \\lambda_k = 4 \\sin^2\\left(\\frac{k\\pi}{2(n+1)} \\right) \\, , \\, k \\in \\{1,...,n \\} \\right\\}$$\n\nOn souhaite résoudre un système linéaire $AX=b$ à l'aide d'une méthode itérative et on note $X$ sa solution.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "a2f04125-3c81-451f-9d89-3fb83fe302d5",
+      "id": "43b5b8ce-8119-443e-857f-766c0e6e9d61",
       "type": "question",
       "value": {
         "latex": "Exprimer la suite des itérés de la méthode de Jacobi sous la forme $X^{(k+1)}=BX^{(k)}+C$ en exprimant la matrice $B$ en fonction de la matrice identité $I_n$ et de la matrice $A$. La matrice $A$ est-elle à diagonale strictement dominante ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "55d73617-df23-43bc-9509-8cc74a607181",
+      "id": "d74b8bd6-e6bc-4b1c-bbfb-81ff5665398d",
       "type": "reponse",
       "value": {
         "latex": "Avec les notations du cours, $A=M-N$ avec $M=2I$ d'où la suite de Jacobi $x^{(k+1)}=M^{-1}Nx^{(k)}+M^{-1}b = (I-\\frac{1}{2}A) x^{(k)} + \\frac{1}{2}b$.\n\t\tLa matrice $A$ n'est pas à diagonale strictement dominante donc la convergence de la méthode de Jacobi n'est pas acquise.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "3b8e43b2-3c2d-4371-ab8e-4e15dbf65895",
+      "id": "087f09ce-7c49-4e5b-a5ac-289bcdb3854b",
       "type": "question",
       "value": {
         "latex": "On définit l'erreur $e^{(k)}=X^{(k)}-X$ à la $k$-ème itération. Exprimer $e^{(k)}$ en fonction de $e^{(k-1)}$ et en déduire que $\\Vert e^{(k)}\\Vert \\leq \\vvvert B\\vvvert^k\\Vert e^{(0)}\\Vert$ où $\\Vert.\\Vert$ est une norme quelconque sur $\\mathbb{R}^{n}$ et $\\vvvert.\\vvvert$ la norme induite sur $\\mathcal{M}_{n}(\\mathbb{R})$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "32d82ac6-12f5-40db-9e01-95cc80b12d11",
+      "id": "cc236c5b-73af-480f-a50e-6c1d6668a161",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\te^{(k)} &= X^{k}-X\\\\\n\t\t\t&=(BX^{k-1}+ C) - (BX+C) \\\\\n\t\t\t&= B(X^{(k-1)}-X) \\\\\n\t\t\t&=B e^{(k-1)} \n\t\t\\end{align*}$$\n\t\tdonc par récurrence $e^{(k)}=B^ke^{(0)}$.\tEn passant à la norme et par inégalité des normes induites, $|| e^{(k)}|| \\leq \\vvvert B\\vvvert^k || e^{(0)}||$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "5aaed8ea-096f-4412-bca7-853769a2a39b",
+      "id": "3af5b222-ea8d-4344-b0ee-4b940b7a82ab",
       "type": "question",
       "value": {
         "latex": "Calculer $\\vvvert B\\vvvert_{\\infty}$. Qu'en conclure ?",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "1c5b6630-6e2d-451c-b63f-d12429d7b839",
+      "id": "e82f8a8d-7e99-409c-a934-55abe9749875",
       "type": "reponse",
       "value": {
         "latex": "On calcule $B = \\begin{pmatrix}\n\t\t\t0 & \\frac{1}{2} &  &  & & \\\\\n\t\t\t\\frac{1}{2} & 0 & \\frac{1}{2} &      & &\\\\\n\t\t\t&   \\ddots & \\ddots & \\ddots  && \\\\\n\t\t\t& & \\frac{1}{2} &0 &\\frac{1}{2} \\\\\n\t\t\t& & & \\frac{1}{2} & 0 \\\\\n\t\t\\end{pmatrix}\n\t\t$ D'après le cours,   $\\displaystyle\\vvvert B\\vvvert_{\\infty} =  \\sup\\limits_{1 \\leq i \\leq N} \\sum_{j=1}^N|b_{i,j}| = \\frac{1}{2}+\\frac{1}{2} = 1$. Donc ce choix de norme ne permet pas de conclure que l'erreur tend vers $0$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "3069cfcf-6e3b-4b7f-9cfc-f178f060d7f8",
+      "id": "9ff3e5c8-6709-49f2-b4bd-0352e07c521a",
       "type": "question",
       "value": {
         "latex": "Vérifier que le rayon spectral de $B$ est  $\\rho(B)=\\cos\\left(\\frac{\\pi}{n+1}\\right)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "f995e369-c9bb-4a88-a57a-7f815eebfc86",
+      "id": "b8319ce0-a6fb-4d78-9c50-df552628c6e1",
       "type": "reponse",
       "value": {
         "latex": "Les valeurs propres de $B=I-\\frac{1}{2}A$ sont les valeurs $\\mu_k = 1-2 \\sin^2\\left(\\frac{k\\pi}{2(n+1)}\\right) = \\cos\\left(\\frac{k\\pi}{n+1}\\right)$ donc $\\rho(B) = \\max\\{|\\mu_k|\\} = \\cos\\left(\\frac{\\pi}{n+1}\\right)$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "bfc64c1e-4413-4331-9eb5-d91e648486e0",
+      "id": "a17ca5bb-7a5b-41f2-a893-f6d34c218784",
       "type": "question",
       "value": {
         "latex": "En déduire que la méthode de Jacobi converge pour la matrice $A$ quelque soit l'initialisation.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "87575422-3830-4ec6-ba0b-e221b078b8e7",
+      "id": "fc38afbc-4a9b-4eca-9491-03d1bbab24ad",
       "type": "reponse",
       "value": {
         "latex": "On remarque que $A$ est une matrice symétrique donc $B$ est une matrice symétrique. D'après la propriété 1 admise, $||B||_2 =\\rho(B) =  \\cos\\left(\\frac{\\pi}{n+1}\\right)$ donc $0<||B||_2<1$. Donc d'après la question 2, $|| e^{(k)}||_2 \\to 0$ quelque soit l'erreur $e^{(0)}$.\n\t\tcommise au départ, autrement dit la méthode converge.",

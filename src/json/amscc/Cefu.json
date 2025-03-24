@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:12.381Z"
+    "updatedAt": "2025-03-24T17:13:50.620Z"
   },
   "contenu": [
     {
-      "id": "51690b8b-a5e8-423f-8ff8-1e8693d4cfad",
+      "id": "eab8b140-182e-4e62-bf29-0416e75ee4a6",
       "type": "description",
       "value": {
         "latex": "Pour chacune des assertions suivantes, dire si elle est vraie ou fausse. Une justification, le cas échéant avec un contre exemple, est attendue.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "4acff5c1-0a1f-4cbe-9af5-c406751d9abb",
+      "id": "f78961cb-d1c4-40b8-9cb3-096b55f74073",
       "type": "question",
       "value": {
         "latex": "Soit $(u_n)$ une suite de réels positifs tels que $\\lim\\limits_{n \\to +\\infty} u_n = +\\infty$. \\\\ Alors $\\lim\\limits_{n \\to +\\infty} \\frac{1}{u_n^2} = 0$ et la série $\\sum\\limits_{n \\geq 0} \\frac{1}{u_n^2}$ converge.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9c7389af-5c83-4752-8a09-e73c373b4662",
+      "id": "80789b80-d491-4026-aaf9-3342908f71dd",
       "type": "reponse",
       "value": {
         "latex": "Faux. Par exemple, considérer $u_n = \\sqrt{n}$ pour tout $n \\in \\N$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "9842b83a-bce4-42a1-aec8-b571d508ed92",
+      "id": "e8fa40b9-35f5-45dd-b27a-ca27c90711b9",
       "type": "question",
       "value": {
         "latex": "Soit $(a_n)$ une suite de réels tels que la série entière $\\sum a_n x^n$ ait un rayon de convergence $R=2$. \\\\ Alors la série $\\sum a_n (-3)^n$ diverge.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "0f38411d-992d-4e8f-828f-07434a01526e",
+      "id": "c69d0ec9-40ec-41fb-96d9-b23b98ba66e8",
       "type": "reponse",
       "value": {
         "latex": "Vrai. Par définition du rayon de convergence, si $R=2$ alors la série $\\sum a_n x^n$ diverge  pour tout $x \\in ]-\\infty;-2[$, donc en particulier pour $x=-3$.",

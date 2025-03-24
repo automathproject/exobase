@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:55.147Z"
+    "updatedAt": "2025-03-24T17:14:30.259Z"
   },
   "contenu": [
     {
-      "id": "2e8ff5f9-6b32-4db4-aeb7-050d573535a7",
+      "id": "93d05043-80ee-44a0-9965-ae1d1ced1984",
       "type": "description",
       "value": {
         "latex": "Soient les matrices $A=\\begin{pmatrix}1 & 4 & -4 \\\\ -6 & -13 & 12 \\\\ -6 & -12 & 11\\end{pmatrix}$ et $P=\\begin{pmatrix}1 & -2 & 0 \\\\ -3 & 4 & 1 \\\\ -3 & 3 & 1\\end{pmatrix}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "55a37173-e547-4e07-a333-7b9c02eb3137",
+      "id": "73a23679-1c9b-4418-9ebf-bc2aeef68fb4",
       "type": "question",
       "value": {
         "latex": "Parmi les trois matrices suivantes, dire laquelle est l'inverse de $P$ en justifiant.\n\t\t$$\n\t\tP_1=\\begin{pmatrix}\n\t\t\t1 & 2 & -2 \\\\\n\t\t\t0 & 1 & -1 \\\\\n\t\t\t2 & 0 & -2\n\t\t\\end{pmatrix} \\quad P_2=\\begin{pmatrix}\n\t\t\t1 & 2 & -2 \\\\\n\t\t\t0 & 1 & -1 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{pmatrix} \\quad P_3=\\begin{pmatrix}\n\t\t\t1 & 2 & 0 \\\\\n\t\t\t0 & 1 & 1 \\\\\n\t\t\t2 & 1 & 2\n\t\t\\end{pmatrix}\n\t\t$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e500df9c-266b-4fc6-a2ee-522bc5531b09",
+      "id": "adfc083d-6310-476e-9785-3cf5a26aaba1",
       "type": "reponse",
       "value": {
         "latex": "On a :\n\t\t$$\n\t\tP \\cdot B=\\left(\\begin{array}{ccc}\n\t\t\t1 & -2 & 0 \\\\\n\t\t\t-3 & 4 & 1 \\\\\n\t\t\t-3 & 3 & 1\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t1 & 2 & -2 \\\\\n\t\t\t0 & 1 & -1 \\\\\n\t\t\t2 & 0 & -2\n\t\t\\end{array}\\right)=\\left(\\begin{array}{ccc}\n\t\t\t1 & 0 & 0 \\\\\n\t\t\t-1 & -2 & 0 \\\\\n\t\t\t-1 & -3 & 1\n\t\t\\end{array}\\right) \\neq I d\n\t\t$$\n\t\tdonc $P^{-1} \\neq B$\n\t\t$$\n\t\tP \\cdot C=\\left(\\begin{array}{ccc}\n\t\t\t1 & -2 & 0 \\\\\n\t\t\t-3 & 4 & 1 \\\\\n\t\t\t-3 & 3 & 1\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t1 & 2 & -2 \\\\\n\t\t\t0 & 1 & -1 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{array}\\right)=\\left(\\begin{array}{lll}\n\t\t\t1 & 0 & 0 \\\\\n\t\t\t0 & 1 & 0 \\\\\n\t\t\t0 & 0 & 1\n\t\t\\end{array}\\right)=I d\n\t\t$$\n\t\tet $P^{-1}=C$\n\t\tPar unicité de la matrice inverse, sans calcul, on peut affirmer $P^{-1} \\neq D$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "9814de56-e90b-4348-ae98-65c8510959f0",
+      "id": "ae05823a-8953-466b-bdf9-89256fc3e4c4",
       "type": "description",
       "value": {
         "latex": "Calculer $D = P^{-1}  A  P$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "abcc7637-3caa-4a96-87dd-0797f213ce98",
+      "id": "a370974f-3d4d-4295-b305-4b99cb4959de",
       "type": "reponse",
       "value": {
         "latex": "$$\n\t\tP^{-1} \\cdot A \\cdot P=\\left(\\begin{array}{ccc}\n\t\t\t1 & 2 & -2 \\\\\n\t\t\t0 & 1 & -1 \\\\\n\t\t\t3 & 3 & -2\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t1 & 4 & -4 \\\\\n\t\t\t-6 & -13 & 12 \\\\\n\t\t\t-6 & -12 & 11\n\t\t\\end{array}\\right) \\cdot\\left(\\begin{array}{ccc}\n\t\t\t1 & -2 & 0 \\\\\n\t\t\t-3 & 4 & 1 \\\\\n\t\t\t-3 & 3 & 1\n\t\t\\end{array}\\right)=\\left(\\begin{array}{ccc}\n\t\t\t1 & 0 & 0 \\\\\n\t\t\t0 & -1 & 0 \\\\\n\t\t\t0 & 0 & -1\n\t\t\\end{array}\\right)=D\n\t\t$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "b1c036af-9047-49ae-ab98-c78b5acb9840",
+      "id": "78759556-c727-47cd-8098-a0822e7ab192",
       "type": "question",
       "value": {
         "latex": "En déduire $A^{-1}, A^{2 n}$ et $A^{2 n+1}$, pour $n \\in \\mathbb{N}$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "d591a957-b51b-4db1-b073-b427a0500a88",
+      "id": "614d799e-885c-40a4-8e24-d7f25ec0f5dd",
       "type": "indication",
       "value": {
         "latex": "Calculer d'abord $D^{-1}, D^{2 n}$ et $D^{2 n+1}$, pour $n \\in \\mathbb{N}$ et exprimer $A$ en fonction de $D$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "fe294a0f-3aa0-4d45-aeb8-9ef58109001a",
+      "id": "e22c1de2-356d-4e07-9201-ec17a9a4792b",
       "type": "reponse",
       "value": {
         "latex": "On a :\n\t\t$$\n\t\t\\begin{gathered}\n\t\t\tD^2=D \\cdot D=I \\Rightarrow F^{-1}=F \\\\\n\t\t\t\\left(P^{-1} \\cdot A \\cdot P\\right)^{-1}=P^{-1} \\cdot A^{-1} \\cdot P=P^{-1} \\cdot A \\cdot P \\\\\n\t\t\t\\Rightarrow A^{-1} \\cdot P=P \\cdot P^{-1} \\cdot A \\cdot P=A \\cdot P \\\\\n\t\t\t\\Rightarrow A^{-1}=A \\cdot P \\cdot P^{-1}=A\n\t\t\\end{gathered}\n\t\t$$\n\t\tDonc $A^{-1}=A$ d'où $A^2 = I$ et pour tout $n \\in \\N$, on déduit par récurrence que $A^{2n} = I$ et $A^{2n+1} = A$.",

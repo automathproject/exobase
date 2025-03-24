@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Méthodes numériques",
+    "sousChapitre": "Méthode de Newton",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:32.114Z"
+    "updatedAt": "2025-03-24T17:16:56.612Z"
   },
   "contenu": [
     {
-      "id": "bb384d24-8a6c-4f77-ba29-ff5a82926b37",
+      "id": "63e36ce1-ba63-46bc-87e9-4b4af5babad4",
       "type": "description",
       "value": {
         "latex": "On s'intéresse au calcul de $\\ell\\in[0;\\pi]$ tel que $\\ell=\\ell-\\frac{1}{4}\\cos(\\ell)$. \n\nOn considère la méthode de point fixe suivante: $x_0\\in[0;\\pi]$ et $x_{k+1}=\\phi(x_k)$ pour tout $k\\geq 0$, où $\\phi$ est la fonction définie sur l'intervalle $[0;\\pi]$ par $\\phi(x)=1-\\frac{1}{4}\\cos(x)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "4115d99c-1dae-455c-99c0-a49878aee5b5",
+      "id": "352dc183-7aa3-4c13-baeb-e6ff0994dd81",
       "type": "question",
       "value": {
         "latex": "Montrer que la méthode converge pour tout $x_0\\in[0;\\pi]$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "b5b44e51-1c9f-4e06-b815-28ab0657dbff",
+      "id": "4dde02b5-e339-4610-8069-7e54ab7e9c78",
       "type": "reponse",
       "value": {
         "latex": "La dérivée de la fonction $g$ vérifie $\\forall x\\in[0;\\pi]$, $|\\phi'(x)|\\leq \\frac{1}{4}<1$. De plus, $\\phi([0;\\pi])=[\\frac{3}{4};\\frac{5}{4}]\\subset[0;\\pi]$. Par conséquent, la méthode de point fixe converge vers le point fixe $l$ pour tout $x_0\\in[0;\\pi]$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "4f641a69-1c7e-4c84-a137-e6f142c3a370",
+      "id": "66478e0b-b91f-44a5-9e61-5cb58a4b2358",
       "type": "question",
       "value": {
         "latex": "Montrer qu'il existe une constante $C \\in ]0;1[$ telle que pour tout $k \\in \\N$,  $|x_k-\\ell|\\leq C^k|x_0-\\ell|$ et donner une valeur de $C$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "b70682a7-a2c5-41ae-bfaa-f10f5ecb8aa7",
+      "id": "b99299b8-4d0f-4a65-ab88-6587359d4243",
       "type": "question",
       "value": {
         "latex": "En déduire le nombre d'itérations nécessaires pour approcher $\\ell$ à $10^{-3}$ près.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "c512321d-c5ed-4fbc-89a8-905ccceb1d16",
+      "id": "8919cc39-8037-435d-b81c-c73673c4f518",
       "type": "reponse",
       "value": {
         "latex": "Par le théorème des accroissements finis, on a l'existence de $\\zeta_k$ compris entre $\\ell$ et $x_{k}$ tel que\n\t\t\\[ |x_k-\\ell|=|\\phi(x_{k-1})-g(\\ell)|=|\\phi'(\\zeta_k)| |x_{k-1}-\\ell| \\leq \\frac{1}{4}|x_{k-1}-\\ell|.\\]\n\t\tPar récurrence, on montre ainsi \n\t\t\\[ |x_k-\\ell|\\leq \\frac{1}{4^k}|x_0-\\ell|.\\]\n\t\tOn a donc $|x_k-\\ell|\\leq \\frac{\\pi}{4^k}$. Pour approcher $\\ell$ à $10^{-3}$ près, il faut\n\t\t\\[ \\frac{\\pi}{4^k}\\leq 10^{-3} \\quad \\Leftrightarrow \\quad k\\geq \\frac{\\ln(\\pi 10^3)}{\\ln(2)}\\simeq 5.9,\\]\n\t\tsoit $6$ itérations.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "aeff768b-0bfa-411a-a9ba-b9021d40e235",
+      "id": "95b1c7ce-aaa7-4677-908c-74eff8fe6834",
       "type": "question",
       "value": {
         "latex": "Montrer que pour tout $k \\in \\N$, $|x_k - \\ell| \\leq \\frac{4}{3} |x_{k+1}-x_{k}|$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "0095c608-7130-4b20-9636-73431f9976da",
+      "id": "d5042263-41b6-425e-836e-2836437f309b",
       "type": "question",
       "value": {
         "latex": "En déduire la valeur $\\varepsilon$ du contrôle de l'incrément (en tant que critère d'arrêt) pour approcher $\\ell$ à $10^{-3}$ près.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "e1251c53-50f2-4a23-ad0d-0f4bd5d53e57",
+      "id": "ece3065a-6e31-4568-96a5-ff3d88cc8b62",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t$$\\begin{align*}\n\t\t|x_k-l|-|x_{k+1}-x_k| & \\leq |x_k-l+x_{k+1}-x_k|=|x_{k+1}-l| \\\\\n\t\t& \\leq C |x_k-l|\n\t\t\\end{align*}$$\n\t\td'où $|x_k-l|-C|x_k-l|\\leq |x_{k+1}-x_k|$ qui implique\n\t\t$$\\begin{align*}\n\t\t|x_k-l| \\leq \\frac{1}{1-C}|x_{k+1}-x_k| \\leq \\frac{\\varepsilon}{1-C}.\n\t\t\\end{align*}$$\n\t\tIl faut choisir $\\varepsilon$ tel que $\\frac{\\varepsilon}{1-C}<10^{-3}$ pour approcher $l$ à $10^{-3}$ près.",

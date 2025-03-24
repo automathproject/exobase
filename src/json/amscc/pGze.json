@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Fraction rationnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:18.085Z"
+    "updatedAt": "2025-03-24T17:16:48.822Z"
   },
   "contenu": [
     {
-      "id": "253995c5-5198-4eb8-b17c-c5f5044226f8",
+      "id": "148c1283-1dc1-4f5d-9aa5-ea9edcc7994e",
       "type": "question",
       "value": {
         "latex": "Calculer la division euclidienne de $X^5+1$ par $X^4-2 X^3+X^2$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "f1ed905c-a1fe-4479-8f4e-ad3d3d823adc",
+      "id": "4d82d2fb-413c-4700-87c5-1281ca45c201",
       "type": "reponse",
       "value": {
         "latex": "$$\nX^5+1=(X+2) \\cdot\\left(X^4-2 X^3+X^2\\right)+3 X^3-2 X^2+1\n$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "1c095149-098e-45a4-8f7c-88e2597b9b81",
+      "id": "f841242c-4655-4837-87c5-93d4d3274124",
       "type": "question",
       "value": {
         "latex": "Factoriser dans $\\mathbb{R}[X]$ le polynôme $X^4-2 X^3+X^2$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "80f78e95-76d2-48ca-80c6-d3f8f024254a",
+      "id": "c4300b78-93ab-47d8-aad8-04434b85bae3",
       "type": "reponse",
       "value": {
         "latex": "$$\nX^4-2 X^3+X^2=X^2 \\cdot\\left(X^2-2 X+1\\right)=X^2 \\cdot(X-1)^2\n$$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "afb27548-ec59-47e5-82d7-0c3995edb0d9",
+      "id": "0d7c5e56-69fb-4ef5-8795-c437ae8fa436",
       "type": "question",
       "value": {
         "latex": "On note $F(X)=\\frac{X^5+1}{X^4-2 X^3+X^2}$. Donner la forme de la décomposition en éléments simples de $F(X)$ dans $\\mathbb{R}(X)$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "97ec9873-0c2a-402b-8ad5-14fac0784921",
+      "id": "31e9e242-3ef6-49f8-9cbf-e63824c13637",
       "type": "reponse",
       "value": {
         "latex": "$$\nF(X)=\\frac{X^5+1}{X^4-2 X^3+X^2}=\\frac{X^5+1}{X^2 \\cdot(X-1)^2}=X+2+\\frac{A}{X}+\\frac{B}{X^2}+\\frac{C}{(X-1)}+\\frac{D}{(X-1)^2}\n$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "df49bcd2-791a-41a4-b981-38c46c8ea82f",
+      "id": "3f8ec1c2-e5b7-46b0-ae11-8af4538dcceb",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{X \\rightarrow 0}\\left(X^2 \\cdot F(X)\\right)$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "b47fea53-1505-4482-988e-de139b50c9dc",
+      "id": "d68a578b-a8d3-4eb4-a585-4c86e59af23c",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{aligned}\n\t\\lim _{X \\rightarrow 0}\\left(X^2 \\cdot F(X)\\right) & =\\lim _{X \\rightarrow 0} \\frac{X^2 \\cdot\\left(X^5+1\\right)}{X^2 \\cdot(X-1)^2}=1 \\\\\n\t& =\\lim _{X \\rightarrow 0} X^2 \\cdot\\left[X+2+\\frac{A}{X}+\\frac{B}{X^2}+\\frac{C}{(X-1)}+\\frac{D}{(X-1)^2}\\right]=B\n\\end{aligned}\n$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "59687438-59d3-4aa8-b8c8-983738356b38",
+      "id": "d1e86619-6931-47ac-9df1-bcb82e79416e",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{X \\rightarrow 1}\\left((X-1)^2 \\cdot F(X)\\right)$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "f8f5c630-f9cf-4425-94da-91a73041d4e6",
+      "id": "50ee8161-1b0b-4082-a870-41fc70d209c6",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{aligned}\n\t\\lim _{X \\rightarrow 1}\\left((X-1)^2 \\cdot F(X)\\right) & =\\lim _{X \\rightarrow 1} \\frac{(X A)^2 \\cdot\\left(X^5+1\\right)}{X^2 \\cdot(X-1)^2}=2 \\\\\n\t& =\\lim _{X \\rightarrow 1}(X-1)^2 \\cdot\\left[X+2+\\frac{A}{X}+\\frac{B}{X^2}+\\frac{C}{(X-1)}+\\frac{D}{(X-1)^2}\\right]=D\n\\end{aligned}\n$$",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "a9cf9352-2016-4983-8027-277fe64a01bc",
+      "id": "e6f89b70-7e04-482b-8518-c80fa0f1044f",
       "type": "question",
       "value": {
         "latex": "Calculer $F(-1)$ et $F(2)$ de deux façons différentes.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "fbf231ed-395b-4a12-a279-115b602541fa",
+      "id": "c8b6d426-7756-4ef0-ae17-6ee5cf9a6f5b",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{aligned}\n\t& F(-1)=\\frac{(-1)^5+1}{(-1)^2 \\cdot(-1-1)^2}=0 \\\\\n\t&=-1+2+\\frac{A}{-1}+\\frac{1}{(-1)^2}+\\frac{C}{(-1-1)}+\\frac{2}{(-1-1)^2}=2-A-\\frac{C}{2}+\\frac{1}{2} \\\\\n\t& \\Rightarrow 2 A+C=5 \\\\\n\t& F(2)=\\frac{(2)^5+1}{(2)^2 \\cdot(2-1)^2}=\\frac{33}{4} \\\\\n\t&=2+2+\\frac{A}{2}+\\frac{1}{(2)^2}+\\frac{C}{(2-1)}+\\frac{2}{(2-1)^2}=4+\\frac{A}{2}+\\frac{1}{4}+C+2 \\\\\n\t& \\Rightarrow A+2 C=4 \\\\\n\t&\\left\\{\\begin{array} { l } \n\t\t{ 2 A + C = 5 } \\\\\n\t\t{ A + 2 C = 4 }\n\t\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\n\t\tA=2 \\\\\n\t\tC=1\n\t\\end{array}\\right.\\right.\n\\end{aligned}\n$$",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "812a6760-2d78-4585-80a3-e7b87e9d71b6",
+      "id": "70e6bfce-baab-4180-bee3-6fb1d0d2c82a",
       "type": "question",
       "value": {
         "latex": "En déduire la décomposition en éléments simples de $F(X)$ dans $\\mathbb{R}(X)$.",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "b9e4f08e-cced-4da3-8434-441562dde2c2",
+      "id": "ca013bf2-b89f-4898-a5c4-5feb9dd2174c",
       "type": "reponse",
       "value": {
         "latex": "$$\nF(X)=\\frac{X^5+1}{X^4-2 X^3+X^2}=\\frac{X^5+1}{X^2 \\cdot(X-1)^2}=X+2+\\frac{2}{X}+\\frac{1}{X^2}+\\frac{1}{(X-1)}+\\frac{2}{(X-1)^2} .\n$$",

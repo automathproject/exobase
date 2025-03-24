@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const directories = ['src/amscc', 'src/exo7'];
+const directories = ['src/latex/amscc', 'src/latex/exo7'];
 const outputFile = 'index.json';
 let index = {};
 

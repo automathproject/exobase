@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Probabilité conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:47.976Z"
+    "updatedAt": "2025-03-24T17:15:12.835Z"
   },
   "contenu": [
     {
-      "id": "42062c15-fc3d-4ae0-9225-90a9e7cd5aaa",
+      "id": "67122bf1-07f4-4756-b881-5e0d976b0c21",
       "type": "description",
       "value": {
         "latex": "Une usine a besoin de deux machines $m_1$ et $m_2$. La probabilité que $m_1$ tombe en panne est $0{,}005$ et la probabilité que $m_2$ tombe en panne est $0{,}007$. La probabilité que $m_2$ tombe en panne sachant que $m_1$ est en panne est $0{,}5$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "b1c0eef1-f463-4bfc-a185-832b079b30d3",
+      "id": "ff32731a-3921-4607-b2ad-c7e85194f56c",
       "type": "reponse",
       "value": {
         "latex": "Soit $M_1$ (respectivement $M_2$) l'événement ``la machine $m_1$ (respectivement $m_2$) fonctionne''. On a ainsi:\n\t$\\prob(\\overline{M}_1)=0{,}005$, $\\prob(\\overline{M}_2)=0{,}007$, $\\prob(\\overline{M_2}|\\overline{M}_1)=0{,}5$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "9b0a109c-aa3e-4790-b1ce-57fe62984c1d",
+      "id": "70b4281c-ab56-4a0f-aa93-b2a1a8303f38",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité que $m_1$ et $m_2$ soient simultanément en panne ?",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "71456fa5-af01-42a1-8fbf-7bcd84203ae8",
+      "id": "164cda03-cad0-4cec-8d2f-42766d4d48fe",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{M}_1\\cap \\overline{M}_2)=\\prob(\\overline{M}_1)\\prob(\\overline{M}_2|\\overline{M}_1)=0{,}5\\times 0{,}005=0{,}0025$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "673196b9-0862-48b8-bff1-fa964555aa7b",
+      "id": "cd28c42a-15d7-4031-a21f-d0324c4cd795",
       "type": "question",
       "value": {
         "latex": "En déduire la probabilité qu'une machine au moins fonctionne.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "83ed2740-27c5-4549-9d88-7755c182cce7",
+      "id": "45489e6a-c4da-49e1-b672-e4bb100ec51f",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(M_1\\cup M_2)=\\prob(\\overline{\\overline{M}_1\\cap \\overline{M}_2})=1-\\prob(\\overline{M}_1\\cap \\overline{M}_2)=1-0{,}0025=0{,}9975$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "6620cd08-efce-4789-b210-bf0f3d91f873",
+      "id": "e12daa6a-e076-434a-857a-45398b8980bd",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité que $m_1$ (respectivement $m_2$) soit seule en panne ?",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "4a876910-65a5-4832-8d96-623cde4db3fc",
+      "id": "9f34f858-f2b7-48fa-8d6b-331a45b5e0a6",
       "type": "reponse",
       "value": {
         "latex": "Probabilité que $m_1$ soit seule en panne :\n\t\t\t$$ \\prob(\\overline{M}_1\\cap M_2)=\\prob(M_2| \\overline{M}_1)\\,  \\prob(\\overline{M}_1)=0{,}005\\times 0{,}5=0{,}0025.$$\n\t\t\tOn peut aussi voir que $\\overline{M}_1\\cap M_2 = \\overline{M}_1 \\setminus \\overline{M}_1\\cap \\overline{M}_2$, ce qui donne $\\prob(\\overline{M}_1\\cap M_2) = 0{,}005-0{,}0025 = 0{,}0025$. \n\n\t\t\tProbabilité que $m_2$ soit seule en panne :\n\t\t\t\\begin{eqnarray*}\n\t\t\t\t\\prob(\\overline{M}_2\\cap M_1) = 1-\\prob(\\overline{M_1}\\cup M_2) &=& 1-(\\prob(\\overline{M}_1)+\\prob(M_2)-\\prob(\\overline{M}_1\\cap M_2))\\\\\n\t\t\t\t&=& 1- (0{,}005+0{,}993-0{,}0025) = 0{,}0045\n\t\t\t\\end{eqnarray*}\n\t\t\tOn peut aussi voir comme ci-dessus que $\\overline{M}_2\\cap M_1 = \\overline{M}_2 \\setminus \\overline{M}_2\\cap \\overline{M}_1$, ce qui donne également que $\\prob(\\overline{M}_2\\cap M_1) = 0{,}007-0{,}0025 = 0{,}0045$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "8ec3a525-797f-4709-bfb0-8d3e0f451659",
+      "id": "a530e53b-2ccb-4524-8662-5eb360093c3d",
       "type": "question",
       "value": {
         "latex": "En déduire la probabilité d'avoir une seule machine en panne.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "46c6467d-6ff3-4a6d-866d-9a3549a89633",
+      "id": "58d98a7c-b76e-45d7-8fd9-8e964788b445",
       "type": "reponse",
       "value": {
         "latex": "Soit $A$ l'événement : ``une seule machine est en panne''. Alors \n\t\t\t\\[ \\prob(A)=\\prob(M_1\\cap \\overline{M}_2)+\\prob(M_2\\cap \\overline{M}_1)=0{,}025+0{,}0045=0{,}007\\]",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "c17a30dd-d67b-4a7e-bb0b-3c8b9e185d6e",
+      "id": "a20e3a17-dd1c-4b29-ad20-12042fb659ad",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité de n'avoir aucune machine en panne ?",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "eae669ec-baab-4a8a-a48b-d35ab4453072",
+      "id": "dd4fa98f-da76-45ee-bd8f-019a102b249b",
       "type": "reponse",
       "value": {
         "latex": "L'événement qui nous intéresse est $M_1\\cap M_2$. Or on a\n\t\t\t\\begin{eqnarray*}\n\t\t\t\t\\prob(M_1\\cap M_2) = 1- \\prob(\\overline{M}_1\\cup \\overline{M}_2)\n\t\t\t\t&=& 1- (\\prob(\\overline{M}_1)+\\prob(\\overline{M}_2)-\\prob(\\overline{M}_1\\cap \\overline{M}_2))\\\\\n\t\t\t\t&=& 1-(0{,}005+0{,}007-0{,}0025) = 0{,}9905.\n\t\t\t\\end{eqnarray*}\n\t\t\tIl y a donc $99{,}05$\\% de chances que les deux machines fonctionnent.\n\t\t\t\n\t\t\tOn peut aussi voir que $A$, $\\overline{M}_1\\cap \\overline{M}_2$ et $M_1\\cap M_2$ forme un système complet d'événements : soit 0 machine fonctionne, soit une seule fonctionne, soit les deux fonctionnent. Ainsi, on retrouve \n\t\t\t$$\\prob(M_1 \\cap M_2)=1-\\prob(A)-\\prob(\\overline{M}_1\\cap\\overline{M}_2)=1-0{,}007-0{,}0025=0{,}9905.$$",

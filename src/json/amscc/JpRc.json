@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:31.579Z"
+    "updatedAt": "2025-03-24T17:14:07.275Z"
   },
   "contenu": [
     {
-      "id": "a19900bd-4d31-48f6-b58d-06831be427b5",
+      "id": "0b873636-34cd-45ed-bbed-da5784b465dd",
       "type": "question",
       "value": {
         "latex": "Soit $X$ une variable aléatoire discrète telle que $X(\\Omega)=\\{3,4,5,6\\}$ telle que : \n$$\\prob(X<5)=\\frac{1}{6}, \\quad \\prob(X>5)=\\frac{1}{2}, \\quad \\prob(X\\leq 3)=\\prob(X=4).$$\nDéterminer la loi de $X$ et calculer son espérance.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "6cc0026c-f0cb-4fc5-91f6-12254b082e95",
+      "id": "4c8c938d-fd15-4063-b540-f9ccda455990",
       "type": "reponse",
       "value": {
         "latex": "\\begin{itemize}\n    \\item $\\prob(X>5)=\\prob(X=6)=\\frac{1}{2}$ \n \\item $1=\\prob(X<5)+\\prob(X=5)+\\prob(X>5)$ donc $\\prob(X=5)=1-\\frac{1}{6}-\\frac{1}{2}=\\frac{1}{3}$\n \\item $\\prob(X\\leq 3)=\\prob(X=3)=\\prob(X=4)$ et $\\frac{1}{6}=\\prob(X<5)=\\prob(X=3)+\\prob(X=4)$ donc $\\prob(X=3)=\\prob(X=4)=\\frac{1}{12}$\n\\end{itemize}\nOn a ainsi déterminé la loi de $X$ : \\quad \n\\begin{tabular}{|c|c|c|c|c|}\n\\hline\n $\\omega$ & 3 & 4 & 5 & 6 \\\\\n\\hline\n $\\prob(\\omega)$ & $\\frac{1}{12}$ & $\\frac{1}{12}$ & $\\frac{1}{3}$ & $\\frac{1}{2}$ \\\\\n\\hline\n\\end{tabular}\nL'espérance de $X$ est:\n\\[ \\E(X)=3\\times \\prob(X=3)+4\\times\\prob(X=4)+5\\times\\prob(X=5)+6\\times\\prob(X=6) = \\frac{21}{4}=5.25\\]",

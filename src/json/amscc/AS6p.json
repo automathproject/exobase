@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:52.039Z"
+    "updatedAt": "2025-03-24T17:13:40.714Z"
   },
   "contenu": [
     {
-      "id": "7e45ce2e-e5c0-4ef2-ba42-c7679a8f5537",
+      "id": "1e1350a2-cbc6-468e-b3ce-1fce356adca9",
       "type": "description",
       "value": {
         "latex": "Pour tout $n \\in \\N$, on pose $u_n = \\frac{5}{4^n}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "821219f1-afe5-4f9f-a912-d22928894b29",
+      "id": "f76f6a44-a120-4c87-9399-f76044662553",
       "type": "question",
       "value": {
         "latex": "Montrer que la série $\\displaystyle \\sum_{n\\geq 0} u_n$ converge et calculer sa somme.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "83cab42e-8b81-42ab-a509-55fc8eeec3d9",
+      "id": "4c21dc7a-d717-4915-96f1-ca4ebc042043",
       "type": "reponse",
       "value": {
         "latex": "On a $u_n = 5\\left(\\frac{1}{4}\\right)^n$ donc il s'agit d'une série géométrique de raison $q =  \\frac{1}{4}$. \\\\\n    Comme $|q| < 1$, la série converge et sa somme est $\\frac{u_0}{1-q} = \\frac{5}{1-\\frac{1}{4}} = \\frac{20}{3}$.",

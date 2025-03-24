@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Dérivée partielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:14.969Z"
+    "updatedAt": "2025-03-24T17:14:48.196Z"
   },
   "contenu": [
     {
-      "id": "a3f53fe5-0afd-4ab2-9c2d-f4db9f05f451",
+      "id": "2abbeebc-800b-47b6-bf85-af243cdf5b9d",
       "type": "question",
       "value": {
         "latex": "$f(x,y) = x^2 -6xy -6y^2 + 2x +24y$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ab018454-d09e-450f-b665-776442db8757",
+      "id": "5f568852-cc4f-4805-a2df-cbc5f4c06728",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est polynomiale en $x$ et $y$, elle définie sur $\\R^2$. Les dérivées partielles existent également pour tout $(x,y) \\in \\R^2$ :\n\t$$\\begin{align*}\n\\frac{\\partial f}{\\partial x}(x,y) &= 2x-6y+2 \\\\\n\\frac{\\partial f}{\\partial y}(x,y) &= -6x-12y+24 \\\\\n\\frac{\\partial^2 f}{\\partial x^2}(x,y) &= 2 \\\\\n\\frac{\\partial^2 f}{\\partial y^2}(x,y) &= -12 \\\\\n\\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) &= \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y)= -6 \n\\end{align*}$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2c08b70c-41a5-4801-bc89-91d3d3205fac",
+      "id": "b79aba73-4de1-4977-b620-74c4a228c457",
       "type": "question",
       "value": {
         "latex": "$f(x, y) = x^2 + 2y^2 - \\frac{x^3}{y}$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "247607f6-5e06-429e-94e7-42c17decc2e8",
+      "id": "e4aafbf7-12e1-44e5-9188-8d11dbf7e2db",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est  définie sur $\\{ (x,y) \\in \\R^2 \\mid y\\neq 0 \\}$. Les dérivées partielles existent également pour tout $(x,y) \\in \\R^2$ telles que $y \\neq 0$ :\n\t$$\\begin{align*}\n\t\t\\frac{\\partial f}{\\partial x}(x,y) &= 2x-\\frac{3x^2}{y} \\\\\n\t\t\\frac{\\partial f}{\\partial y}(x,y) &= 4y+\\frac{x^3}{y^2} \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) &= 2-\\frac{6x}{y} \\\\\n\t\t\\frac{\\partial^2 f}{\\partial y^2}(x,y) &= 4-2\\frac{x^3}{y^3} \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) &= \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y)= \\frac{3x^2}{y^2}\n\\end{align*}$$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "e5c65b10-900a-44bb-b36e-5d5765956fe8",
+      "id": "e6fceac8-85c4-4e31-8dce-cd785c5d6c19",
       "type": "question",
       "value": {
         "latex": "$f(x, y) = \\exp (2x^2+xy+7x+y^2)$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "4e21eae9-6d85-4b51-be1d-f22df4823306",
+      "id": "40f9f498-84cd-4259-be29-676505022b1d",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est une composée d'une exponentielle avec une fonction polynomiale en $x$ et $y$, elle définie sur $\\R^2$. Les dérivées partielles existent également pour tout $(x,y) \\in \\R^2$ :\n\t$$\\begin{align*}\n\t\t\\frac{\\partial f}{\\partial x}(x,y) &= (4x+y+7)\\exp (2x^2+xy+7x+y^2) \\\\\n\t\t\\frac{\\partial f}{\\partial y}(x,y) &= (x+2y)\\exp (2x^2+xy+7x+y^2) \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) &= (4+(4x+y+7)^2)\\exp (2x^2+xy+7x+y^2) \\\\\n\t\t\\frac{\\partial^2 f}{\\partial y^2}(x,y) &= (2+(x+2y)^2)\\exp (2x^2+xy+7x+y^2) \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) &= \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y)= (1+(x+2y)(4x+y+7))\\exp (2x^2+xy+7x+y^2)\n\\end{align*}$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "619f92c7-7933-4341-91f9-e40033480ab2",
+      "id": "bea361b7-f61d-4a8c-9fb8-78340f646995",
       "type": "question",
       "value": {
         "latex": "$f(x, y) = \\sin(xy)$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "4bb9639a-dce6-4faf-89d9-4fda1f86cc92",
+      "id": "cd189f30-ec2d-4e81-8512-600a863e899f",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est une composée d'un cosinus avec une fonction polynomiale en $x$ et $y$, elle définie sur $\\R^2$. Les dérivées partielles existent également pour tout $(x,y) \\in \\R^2$ et on observe que les rôles sont symétriques en $x$ et $y$ :\n\t$$\\begin{align*}\n\t\t\\frac{\\partial f}{\\partial x}(x,y) &= y\\cos(xy) \\\\\n\t\t\\frac{\\partial f}{\\partial y}(x,y) &= x\\cos(xy) \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) &= -y^2\\sin(xy) \\\\\n\t\t\\frac{\\partial^2 f}{\\partial y^2}(x,y) &= -x^2\\sin(xy) \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) &= \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y)= \\cos(xy)-xy\\sin(xy) \n\\end{align*}$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "031ff6c3-cf8c-49c0-9eaf-938f916b950a",
+      "id": "8d246479-882e-4a6e-9035-7c199844b5f2",
       "type": "question",
       "value": {
         "latex": "$f(x, y) = \\ln(x + y)$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "423bff5b-2fb6-4895-96dc-b6242e4fa632",
+      "id": "2e07f7b2-f3ae-4602-9c56-8303addbb3af",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est une composée d'un $\\ln$ avec une fonction polynomiale en $x$ et $y$, elle est  définie sur le demi plan $\\{ (x,y) \\in \\R^2 \\mid x+y>0 \\}$. Les dérivées partielles existent également pour tout $(x,y) \\in \\R^2$ telles que $x+y > 0$ et on observe que les rôles sont symétriques en $x$ et $y$ :\n\t$$\\begin{align*}\n\t\t\\frac{\\partial f}{\\partial x}(x,y) &= \\frac{1}{x+y} \\\\\n\t\t\\frac{\\partial f}{\\partial y}(x,y) &= \\frac{1}{x+y} \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) &= -\\frac{1}{(x+y)^2} \\\\\n\t\t\\frac{\\partial^2 f}{\\partial y^2}(x,y) &= -\\frac{1}{(x+y)^2} \\\\\n\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) &= \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y)= -\\frac{1}{(x+y)^2 }\n\\end{align*}$$",

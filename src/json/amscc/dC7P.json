@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Calcul de la somme d'une série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:47.616Z"
+    "updatedAt": "2025-03-24T17:15:12.570Z"
   },
   "contenu": [
     {
-      "id": "3b7e3d67-d29d-4358-999f-b3f912455d39",
+      "id": "5b25dd2f-fb5c-40b2-8fb9-06edcf6cc5ff",
       "type": "question",
       "value": {
         "latex": "Déterminer le domaine de convergence de la série entière $\\displaystyle \\sum_{n\\geq 0} \\frac{(n+2)2^n}{(n+1)!} z^n$ à variable complexe.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "0e81954b-33f8-4d62-bd0a-fed1d06904fc",
+      "id": "4fece26e-2827-4123-8c21-ca3675f7bdb5",
       "type": "reponse",
       "value": {
         "latex": "$R=+\\infty$ et $D=\\mathbb{C}$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "37ff7ed9-63d3-4771-8c72-59613d90b7b8",
+      "id": "7fea0037-621a-4ac3-aa83-a563781c0fe9",
       "type": "question",
       "value": {
         "latex": "Rappeler ce que vaut $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}$. En déduire $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}$, puis $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "77c6c6ad-e3d2-411a-bed9-21157c76b189",
+      "id": "9772d652-df85-4d0f-99de-165cec8ef4e8",
       "type": "reponse",
       "value": {
         "latex": "$$\\forall z \\in \\R, \\quad \\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}=e^z.$$\n\t\tPour la première somme:\n\t\t$$ \\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}\n\t\t= \\begin{cases} \\frac{e^z-1}{z} & \\text{ si } z \\neq 0 \\\\\n\t\t0 & \\text{ sinon }\n\t\t\\end{cases}\n\t\t$$\n\t\tPour la deuxième somme:\n\t\t$$ \\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n\n\t\t= \\begin{cases} \\frac{e^{2z}-1}{2z}+e^{2z} & \\text{ si } z \\neq 0 \\\\\n\t\t0 & \\text{ sinon }\n\t\t\\end{cases}\n\t\t$$",

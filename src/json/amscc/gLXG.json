@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:24.072Z"
+    "updatedAt": "2025-03-24T17:15:36.683Z"
   },
   "contenu": [
     {
-      "id": "394e87cd-8dfa-4f2d-a35c-c9c292cf2669",
+      "id": "590d0aef-f499-4c69-8279-375a4b3de179",
       "type": "question",
       "value": {
         "latex": "Soit $n \\in \\mathbb{N} \\backslash\\{0,1\\}$. Montrer que $P_n(X)=(X+1)^{2 n}-X^{2 n}-2 X-1$ est divisible par $Q(X)=X(X+1)(2 X+1)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d9eb59f0-2779-46b0-82bf-cee51a2649a7",
+      "id": "5d177b5e-73ad-4ee0-b3cb-e7c4ab591dec",
       "type": "indication",
       "value": {
         "latex": "Traduire cette information de divisibilité de polynômes en termes de racines : si $P_n$ est divisible par $Q$ alors les racines de $Q$ sont également des racines de $P_n$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "75c72e11-4b73-43ab-9c90-9b63637267c1",
+      "id": "96ceec35-25f5-4ef2-a4b7-dc3c775f2c8d",
       "type": "reponse",
       "value": {
         "latex": "On a :\n$$\\begin{align*}\nP_n(0) & =(1)^{2 n}-0-0-1=0 \\\\\nP_n(-1) & =(-1+1)^{2 n}-(-1)^{2 n}-2 \\cdot(-1)-1=0-1+2-1=0 \\\\\nP_n\\left(-\\frac{1}{2}\\right) & =\\left(-\\frac{1}{2}+1\\right)^{2 n}-\\left(-\\frac{1}{2}\\right)^{2 n}-2 \\cdot\\left(-\\frac{1}{2}\\right)-1=\\left(\\frac{1}{2}\\right)^{2 n}-\\left(\\frac{1}{2}\\right)^{2 n}+1-1=0\n\\end{align*}$$\n\n$0$ racine signifie que $X$ divise $P_n(X): P_n(X)=X Q_1(X)$;\n$-1$ racine signifie que $(X+1)$ divise $P_n(X): P_n(X)=(X+1) \\underbrace{Q_2(X)}_{X \\cdot Q_3(X)}=X \\cdot(X+1)  Q_3(X)$;\n$-\\frac{1}{2}$ racine signifie que $(2 X+1)$ divise $P_n(X)$ :\n$$\nP_n(X)=(2 X+1) \\cdot Q_4(X)=\\underbrace{X (X+1) (2 X+1)}_{Q(X)} \\cdot Q_5(X)\n$$\ndonc $Q(X)=X(X+1)(2 X+1)$ divise $P_n(X)=(X+1)^{2 n}-X^{2 n}-2 X-1$.",

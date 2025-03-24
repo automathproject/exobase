@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-11",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:56.781Z"
+    "updatedAt": "2025-03-24T17:15:18.493Z"
   },
   "contenu": [
     {
-      "id": "69f24f17-d0f2-4fa4-9f5e-3245accbb650",
+      "id": "b78d190f-5d92-41ac-b84f-2d7a6dbbb941",
       "type": "description",
       "value": {
         "latex": "Quels sont les équivalents corrects parmi les propositions suivantes ? Justifier (en revenant à la définition si nécessaire).",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "0d92ea4a-1241-43d8-907b-9fb9cfd36caa",
+      "id": "91f0803c-a173-43b5-9edf-1b08941cbc4c",
       "type": "question",
       "value": {
         "latex": "$x+1 \\underset{x\\to+\\infty}\\sim x$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "b45ae360-0b3f-4540-9147-c344936adb77",
+      "id": "c3f742d2-f01a-46e9-9e36-49becdaa1ecb",
       "type": "question",
       "value": {
         "latex": "$x^2-x \\underset{x\\to+\\infty}\\sim x$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "c7dd12e6-364b-4125-b0fa-5016e7fcab5d",
+      "id": "ad7e3061-f9b6-4dda-803f-f0b8bd654f41",
       "type": "question",
       "value": {
         "latex": "$ \\ln(x) \\underset{x\\to+\\infty}\\sim \\ln(10^6x)$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "f743cf39-33a7-440f-9489-3c63d8e06a48",
+      "id": "c3b12d4d-2028-4d13-a152-818e69481f3c",
       "type": "question",
       "value": {
         "latex": "$x^2+2x+1 \\underset{x\\to+\\infty}\\sim x^2+2x$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "cac8acce-cf8d-4cf6-b413-a11b9c5365b0",
+      "id": "c13aceab-224f-4cfd-9668-6106cbf2558d",
       "type": "question",
       "value": {
         "latex": "$\\sqrt{x+1} \\underset{x\\to 0}\\sim 1$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "817e16e0-e2ac-40ea-955f-fc02adfbfadc",
+      "id": "ccb8358a-b253-46a7-91ce-e5eec6763dea",
       "type": "question",
       "value": {
         "latex": "$ x \\underset{x\\to 0}\\sim 2x$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "03ed8844-cba3-4ab7-a13d-6a7fe5d8ffcf",
+      "id": "19c6b709-5bd3-47d8-bbe5-f48b1931fa42",
       "type": "question",
       "value": {
         "latex": "$e^x \\underset{x\\to+\\infty}\\sim e^{x+10^6}$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "682a1dbb-d3ce-4bbf-93e2-7e23378c2d74",
+      "id": "f9709403-26de-42ce-aa42-40909cb3422a",
       "type": "question",
       "value": {
         "latex": "$e^x \\underset{x\\to 0}\\sim e^{2x}$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "19034305-bd33-4005-ba9e-0ed9cddcfb00",
+      "id": "b7395c62-0689-4a39-bb79-6fb585ce498b",
       "type": "question",
       "value": {
         "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\to+\\infty}\\sim 3x^2$",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "a3f2a33f-3c81-4c64-b024-07be4812d38b",
+      "id": "cbba9de2-3041-4b00-8c57-5e6092a141a3",
       "type": "question",
       "value": {
         "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\to 0}\\sim 2x$",

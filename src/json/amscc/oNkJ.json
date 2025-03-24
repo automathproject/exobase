@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-29",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:17.273Z"
+    "updatedAt": "2025-03-24T17:16:48.301Z"
   },
   "contenu": [
     {
-      "id": "f952a186-1e71-4ba8-89e5-4c806aeeb0d7",
+      "id": "bea704a2-0155-4e9a-ac9f-d4edb1e483a1",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire suivant la loi uniforme $\\mathcal{U}([0;2])$. On pose $Y=\\max(1,X)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "76aa5d7e-e49b-4d49-ad3f-a7aebab30320",
+      "id": "72276cee-a84d-4199-a90b-73fc8d24e5d4",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "26103688-b464-40d8-aff1-c4b25ed195c9",
+      "id": "f146d385-d9a3-4cdc-8fd4-25c9bdac9dc5",
       "type": "reponse",
       "value": {
         "latex": "C'est du cours : $F_X(t)= \\begin{cases} 0 & \\text{ si } t<0 \\\\ \n\t\t\t\\frac{t}{2} & \\text{ si } t\\in]0;2[ \\\\\n\t\t\t1 & \\text{ si } t\\geq 2\n\t\t\\end{cases} $ ; $\\EX = 1$ et $V(X) = 4/12 = 1/3$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "4337bb59-b3da-4db2-88f2-5876246e947d",
+      "id": "5ff51b2d-c0de-4d8f-b20b-7289083c961f",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $Y$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "1d074de2-257b-4dff-ad37-c82cbaf3dcaa",
+      "id": "616f8eec-7fa4-4c75-bbb8-0590a5ddd6e7",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$ : $F_Y(t) = \\PP(Y \\leq t) = \\PP(\\{1 \\leq t\\} \\cap \\{X \\leq t\\})$. On distingue trois cas : \\\\\n\t\tSi $t \\geq 2$ : $\\PP(Y \\leq t) = 1$ ; \\\\\n\t\tSi $ 1 \\leq t < 2$ : $\\PP(Y \\leq t) = \\PP(X \\leq t) = \\frac{t}{2}$ ; \\\\\n\t\tSi $t<1$, $\\PP(Y \\leq t) = 0$.\n\t\t\n\t\tOn remarque que $F_Y$ n'est pas continue en $1$ (mais elle est bien continue à droite en $1$.).",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "644e5246-6483-489e-a814-d0658752395c",
+      "id": "1f8d56fb-7c3c-4102-99b5-939f30de3891",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité $\\PP(Y=1)$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "7f29f8a5-b34f-4016-8acc-7f84986f742c",
+      "id": "9b738fef-dd8a-48be-8eba-5942f43e2191",
       "type": "reponse",
       "value": {
         "latex": "On remarque que $Y=1 \\iff X \\leq 1$ donc $\\PP(Y=1) = \\PP(X \\leq 1) = 1/2$. \n\t\t\n\t\tOn sait aussi d'après le cours que $\\PP(Y=1) = \\lim\\limits_{1^+}F_Y-\\lim\\limits_{1^-}F_Y = F_Y(1)-0 = 1/2$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "32e4c919-37d6-4d45-b2fb-07542deee85f",
+      "id": "4c542273-b35e-4239-a1d2-2dad7703420e",
       "type": "question",
       "value": {
         "latex": "La variable aléatoire $Y$ est-elle discrète ? absolument continue ? Justifier.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "0fd3ffde-65b5-43da-824b-061c244aaccc",
+      "id": "a034fad1-080a-4fb3-88b2-a36754ea92f0",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $Y$ n'est pas discrète car sa fonction de répartition n'est pas en escalier. Elle n'est pas non plus absolument continue car sa fonction de répartition n'est pas continue partout (discontinuité en $1$).",

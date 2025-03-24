@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-04-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:11.103Z"
+    "updatedAt": "2025-03-24T17:17:12.544Z"
   },
   "contenu": [
     {
-      "id": "66c44ec4-54df-49dc-980e-053c751905e1",
+      "id": "4f08a3b1-c86c-4aeb-9653-7b2df456211f",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $g \\colon \\R^2 \\to \\R$ définie par : \n$$g(x,y) = \\frac{x^2+ 3y^3}{|x| + |y|}\\,.$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "c8e173a4-e522-4988-8567-d1331a4991d3",
+      "id": "e8ed4b54-2388-4810-ac0c-c4476ca7e04a",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble de définition de $g$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "1c33bf9d-5b0b-474c-96bb-0b8167e15207",
+      "id": "57bdd460-96bc-46fb-933e-e4890347b92b",
       "type": "reponse",
       "value": {
         "latex": "Soit $(x,y) \\in \\R^2$. On a $|x| + |y| \\neq 0$ si et seulement si $x \\neq 0$ ou $y \\neq 0$. Ainsi, l'ensemble de définition de $g$ est $\\R^2 \\setminus \\{(0,0)\\}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "97bbca12-1bfe-40e6-a8b9-458c140f104c",
+      "id": "a9421edf-d054-4a1a-ba80-8af03750daf2",
       "type": "question",
       "value": {
         "latex": "Démontrer que  $\\lim\\limits_{h \\to 0} g(h, 0) = \\lim\\limits_{h \\to 0} g(0, h) =\\lim\\limits_{h \\to 0} g(h, h)$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "b9920043-36f7-464c-9752-d745e24fdca5",
+      "id": "c87bb312-2b13-46b0-bbeb-8e532ffff2e5",
       "type": "reponse",
       "value": {
         "latex": "Soit $h \\in \\R$. On a :\n\t\t$$\\begin{align*}\n\t\t\tg(h,0) &= \\frac{h^2}{|h|} = |h|, \\\\\n\t\t\tg(0,h) &= \\frac{3h^3}{|h|} = 3|h|^2, \\\\\n\t\t\tg(h,h) &= \\frac{h^2 + 3h^3}{2|h|} = \\frac{h^2(1 + 3h)}{2|h|} = \\frac{h(1 + 3h)}{2}.\n\t\t\\end{align*}$$\n\t\tDonc, $\\lim\\limits_{h \\to 0} g(h,0) = \\lim\\limits_{h \\to 0} g(0,h) = \\lim\\limits_{h \\to 0} g(h,h) = 0$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "6b3bf49e-1672-42bb-aace-bd709fbd7974",
+      "id": "2aac882f-bab9-4ac9-b352-28c6ceccc944",
       "type": "question",
       "value": {
         "latex": "On admet que pour tout $ \\theta \\in \\R$,  $|\\cos(\\theta)| + |\\sin(\\theta)| \\geq 1$. \\\\ Déterminer une fonction $m$ ne dépendant pas de $\\theta$ telle que pour tout $r > 0$ et $\\theta \\in \\R$, on ait :\n\t$$\\frac{1}{r|\\cos(\\theta)| + r|\\sin(\\theta)|} \\leq m(r)$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "40494b8a-798c-437c-b157-7c755af410a3",
+      "id": "b4fef0b3-d44a-4921-9465-395afdf590a8",
       "type": "reponse",
       "value": {
         "latex": "Soit $r > 0$ et $\\theta \\in \\R$. On a :\n\t\t$$\\begin{align*}\n\t\t\t\\frac{1}{r|\\cos(\\theta)| + r|\\sin(\\theta)|} & = \\frac{1}{r(|\\cos(\\theta)| + |\\sin(\\theta)|)} \\\\\n\t\t\t& \\leq \\frac{1}{r} \n\t\t\\end{align*}$$\n\t\tDonc, on peut prendre $m(r) = \\frac{1}{r}$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "ac4168dc-a0b7-41c0-9cba-7f0dcb8db74f",
+      "id": "e3fc41b1-65ea-42bf-ac2b-27a5bd627279",
       "type": "question",
       "value": {
         "latex": "Déterminer : $$\\lim\\limits_{(x,y) \\to (0,0)} g(x,y).$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "a9738509-029c-4fdb-9986-c52180670874",
+      "id": "888304cd-8527-49b8-be26-302e44f895b6",
       "type": "reponse",
       "value": {
         "latex": "Soit $(x,y) \\in \\R^2 \\setminus \\{(0,0)\\}$. On passe en coordonnées polaires : $x = r\\cos(\\theta)$ et $y = r\\sin(\\theta)$ avec $r > 0$ et $\\theta \\in \\R$. On a :\n\n\t\t$$\\begin{align*}\n\t\t\t|g(x,y)| & = \\left|\\frac{r^2\\cos^2(\\theta) + 3r^3\\sin^3(\\theta)}{r|\\cos(\\theta)| + r|\\sin(\\theta)|}\\right| \\\\\n\t\t\t& \\leq \\frac{r^2|\\cos(\\theta)| + 3r^3|\\sin(\\theta)|}{r|\\cos(\\theta)| + r|\\sin(\\theta)|} \\\\\n\t\t\t& = r|\\cos(\\theta)| + 3r^2|\\sin(\\theta)| \\text{ d'après la question précédente } \\\\\n\t\t\t& \\leq r + 3r^2 \\text{ car } |\\cos(\\theta)| \\leq 1 \\text{ et } |\\sin(\\theta)| \\leq 1 \\\\\n\t\t\t& = r(1 + 3r) \\xrightarrow[r \\to 0]{} 0.\n\t\t\\end{align*}$$",

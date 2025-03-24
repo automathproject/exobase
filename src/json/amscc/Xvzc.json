@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-11-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:18.400Z"
+    "updatedAt": "2025-03-24T17:14:50.991Z"
   },
   "contenu": [
     {
-      "id": "7f2253dc-429c-465f-984c-316218c1d267",
+      "id": "ea71f1fa-f3a7-4ea9-83a2-128949b5c7e7",
       "type": "description",
       "value": {
         "latex": "On s'intéresse au taux de glucose dans une population de 768 patients atteints de diabète. On note $m$ le taux moyen de glucose dans cette population et à $\\sigma$ son écart type.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "c8131d77-e1ef-4bfc-90e6-02b329af07ac",
+      "id": "44fcb195-7627-4f4e-a265-a6d699d1d497",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de $m$ à l'aide de l'échantillon fourni \\href{https://moodle.st-cyr.terre.defense.gouv.fr/moodle/mod/resource/view.php?id=44475}{en suivant ce lien}, en précisant la taille de l'échantillon donné et l'estimateur choisi.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "316fd356-af3d-42eb-aac3-f3372dfc5eff",
+      "id": "05d6f3e8-deb5-45b9-b96a-57bce2fa81ce",
       "type": "question",
       "value": {
         "latex": "Avec l'échantillon de taille 40 dont la réalisation est fournie, on obtient avec l'estimateur de moyenne empirique (non biaisé) l'estimation $\\overline{x} = 124{,}35$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "6e775bba-c078-424c-9885-920ff9357771",
+      "id": "323c22c7-d64c-4600-812f-31647cb73070",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de $m$ par intervalle de confiance au niveau $95\\%$ et $99\\%$, en donnant les valeurs numériques des calculs intermédiaires.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "ea73f803-077a-423e-946a-d90daf7cf76f",
+      "id": "4a58dbb9-cc92-4d6e-9810-35e88db1104f",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule du cours : $$I_{conf}(\\overline{X})=\\left[\\overline{X}-u_{\\alpha/2} \\frac{S}{\\sqrt{n}}~;~\\overline{X} + u_{\\alpha/2} \\frac{S}{\\sqrt{n}} \\right]$$\n\tavec $\\overline{x} = 124{,}35$, $s = 30{,}0994505$ et $n=40$. \n\t\n\tPour $\\alpha=0.05$, on obtient : $I_{conf} = [115{,}022255 ; 133{,}677745]$\n\t\n\tPour $\\alpha=0.01$, on obtient : $I_{conf} = [112{,}0912651 ; 136{,}6087349]$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "f971df29-df9c-4543-96f8-bc13c24a60db",
+      "id": "8412baec-43a4-4a75-a0ed-6d6003b3f30e",
       "type": "question",
       "value": {
         "latex": "Le fichier \\href{https://github.com/smaxx73/Exercices/blob/main/data/diabetes-1.csv}{\"diabetes.csv\"} contient les données des 768 patients. Convertir les données pour pouvoir les afficher avec le tableur et donner la valeur réelle de $m$. Quel niveau de confiance avait-on besoin de prendre, a posteriori, pour que l'intervalle de confiance de la question précédente contienne bien la valeur recherchée ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "a1ebb24e-0410-4227-a491-6c97493ebfee",
+      "id": "46d3595c-e04a-4b13-b4a0-6baef367b225",
       "type": "reponse",
       "value": {
         "latex": "Dans la population totale, on trouve $m = 120{,}8945313$. Pour que $I_conf$ ne contienne pas cette valeur, il faudrait que $\\overline{X}-u_{\\alpha/2} \\frac{S}{\\sqrt{n}} > m$ soit $(\\overline{X}-m)\\frac{\\sqrt{n}}{S} > u_{\\alpha/2}$ soit $u_{\\alpha/2} < 0.726$ soit $\\alpha \\geq 0,467795957$.",

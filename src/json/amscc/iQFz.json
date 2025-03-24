@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:27.180Z"
+    "updatedAt": "2025-03-24T17:15:38.938Z"
   },
   "contenu": [
     {
-      "id": "3bcdb82d-3e59-4940-8a8f-e65eff3d59a1",
+      "id": "30b44312-f826-4e80-84ae-3f7605ae9198",
       "type": "description",
       "value": {
         "latex": "Déterminer le rayon de convergence des séries entières réelles suivantes :",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "7b730744-f7ee-4de7-9a04-e7985c2ab9ef",
+      "id": "562637fd-2d59-45ef-b9b7-f50fc65078e1",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "49e5e687-3afb-4bb7-97c1-809b51fcad47",
+      "id": "0544fd40-d488-4eb7-8d08-567df1d2a27b",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$ et on utilise le théorème de d'Alembert : \n\t\t\t$$\\begin{align*}\n\t\t\t\\frac{|u_{n+1}(x)|}{|u_n(x)|} &= \\frac{(3(n+1)^2-1) \\times 2^{2n+1}\\sqrt{n+1}}{\\left(2^{2(n+1)+1}\\sqrt{n+1+1}\\right)(3n^2-1)}\\frac{|x^{n+1}|}{|x^n|} \\\\\n\t\t\t&= \\frac{1}{2^2}\\sqrt{\\frac{n+1}{n+2}} \\frac{3n^2+6n+3-1}{3n^2-1} |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} \\frac{1}{4}|x|\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ \\frac{1}{4}|x| <1 \\iff |x| < 4$ donc le rayon de convergence est $R=4$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "300d55e1-eb57-4d73-9772-81c045fb3f35",
+      "id": "87613d26-94fd-4077-bd99-1e592e4284d3",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^nx^{n}$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "5b4d3a3d-a9b5-4ca9-a5c3-0a818a29a8e0",
+      "id": "f6a29b23-d1ea-4b51-b2ac-2321f1bda278",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$ et on utilise le théorème de Cauchy : \n\t\t\t$$\\begin{align*}\n\t\t\t\\left(|u_n(x)|\\right)^{\\frac{1}{n}} &= \\left(9^n \\left(\\frac{n-1}{n}\\right)^n|x|^{2n}\\right)^{\\frac{1}{n}} \\\\\n\t\t\t&= 9 \\left(\\frac{n-1}{n}\\right) |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} 9|x|\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ 9|x| <1 \\iff |x| < \\frac{1}{9}$ donc le rayon de convergence est $R=\\frac{1}{9}$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "9851c47b-96aa-4a1c-b194-aafda11ed7f8",
+      "id": "34c8b0d7-5a4a-46c3-b92b-cb29f09471e7",
       "type": "question",
       "value": {
         "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} \\left(-\\frac{9}{8}\\right)^n$ ? Justifier.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "783dad67-d143-4ac9-8fc9-2f09ca5737e8",
+      "id": "f834c076-1650-4d30-a88c-114e185f79bb",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît la série entière de la question 1.(a) évaluée en $x = -\\frac{9}{8}$. Or $-\\frac{9}{8} \\in ]-4;4[$ donc la série est absolument convergente.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "13321954-5f44-437e-b565-819c0697f69d",
+      "id": "f0f3621a-df4a-40be-8f6f-5ffc11ac1924",
       "type": "question",
       "value": {
         "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{2n-2}{3n}\\right)^n$ ? Justifier.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "24cc4bc2-244d-4f7f-804b-9e6d46363e79",
+      "id": "08a2349a-6dc6-40ea-888e-a02cab7d30bd",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît la série entière de la question 1.(b) évaluée en $x = \\frac{2}{3}$. Or $\\frac{2}{3} \\notin ]-\\frac{1}{9};\\frac{1}{9}[$ donc la série est grossièrement divergente.",

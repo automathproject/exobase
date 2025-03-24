@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:14.388Z"
+    "updatedAt": "2025-03-24T17:13:16.583Z"
   },
   "contenu": [
     {
-      "id": "2fe78d20-791f-4b8f-9c83-475af148fa81",
+      "id": "40b234c2-496a-4a51-af8b-736cf220089d",
       "type": "description",
       "value": {
         "latex": "Une entreprise fabrique  des pièces en sous-traitance. Au sein d'une démarche qualité,  toutes  les  machines  ont  été  systématiquement révisées  et  on  a  défini  une  nouvelle  organisation  dans  l'atelier  :  les  tâches  de  contrôle  sont  réparties  à  chaque  étape  du  processus  de  fabrication et le taux de pièces défectueuses est tombé à 1\\%. \n\nQuelques  mois  plus  tard,  une  opération  de  contrôle  est  effectuée  pour  vérifier  si  la  norme  de  1\\%  (hypothèse  $H_0$)  de  pièces  défectueuses reste valable. Sur les 5 000 pièces contrôlées 100 s'avèrent défectueuses, soit 2\\% (hypothèse $H_1$). \n\nMme de Mainard, chef d'entreprise, décide que si l'hypothèse nulle est vérifiée, elle ne modifiera plus son processus de production (décision $D0$) et au contraire, si c'est l'hypothèse alternative, elle entreprendra une action de sensibilisation des salariés de cet atelier au problème de la qualité (décision $D1$). \n\nPour choisir entre ces deux hypothèses, elle tire un échantillon de 1 500 pièces.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "007f06d2-9655-4b44-8761-4193b8f4c05e",
+      "id": "223bf8b2-5de5-499e-8f89-2fc4c0a9ae1c",
       "type": "question",
       "value": {
         "latex": "Si la chef d'entreprise se fixe un risque de 1\\% d'entreprendre une action de sensibilisation des salariés à tort, quel sera le taux critique de pièces défectueuses qui fera prendre une décision ?",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "5ae6119d-4ff0-4fa2-907f-781d81c2b2c4",
+      "id": "f5e9f270-39a1-4bde-864a-3d54667c74b1",
       "type": "reponse",
       "value": {
         "latex": "On réalise les premières étapes d'un test de conformité d'une proportion : \n\\begin{enumerate}\n\t\\item Hypothèses : $\\begin{cases}\n\t\tH_0 \\colon p = 0.01 \\\\\n\t\tH_1 \\colon p > 0.01\n\t\t\\end{cases}$\n\t\\item Variable de décision : $Z = \\dfrac{F-0.01}{\\sqrt{\\frac{0.01\\times 0.99}{1500}}} \\sim \\mathcal{N}(0,1)$\n\t\\item Zone de rejet : $W = [2.326 ; +\\infty][$ pour une erreur de première espèce $\\alpha = 1\\%$\n\t\\item proporition critique : on cherche $p_C$ tel que $ \\dfrac{F-0.01}{\\sqrt{\\frac{0.01\\times 0.99}{1500}}} = 2.326$ et on trouve $p_C = 0.016 = 1{,}6\\%$. \t\n\\end{enumerate}\t\nAu delà de $1{,}6\\%$ de pièces défectueses observées, on rejette l'hypothèse $H_0$ avec un risque de première espèce $\\alpha = 1\\%$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "7aab2908-13f3-4251-9f3b-629e2a79051d",
+      "id": "d2a1cf16-2959-49cd-9393-8e92ea937bd0",
       "type": "question",
       "value": {
         "latex": "Si dans l'échantillon prélevé, le nombre de pièces défectueuses est 18, quelle sera la décision de la chef d'entreprise ?",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "02d8d438-1da7-4b4c-89f7-ea9b7ebb02b1",
+      "id": "2714bed9-27f9-490c-b640-57d9ecf9de07",
       "type": "reponse",
       "value": {
         "latex": "On a $F_{obs} = \\frac{18}{1500} = 0.012$ : la décision prise est donc $D0$ (on ne rejette pas $H_0$).",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "787845cf-cea3-4baf-8945-00d7765e7596",
+      "id": "c7dd8c8b-86e6-4d87-939f-7c01289a4136",
       "type": "question",
       "value": {
         "latex": "Calculer alors le risque de l'acheteur, c'est-à-dire ne pas modifier le processus de production alors qu'on le devrait. Comment s'appelle ce risque ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "5e08eb4c-767d-4a67-9278-891bd4304cd3",
+      "id": "688f3ed5-5a5e-4ee4-928c-081c077398c0",
       "type": "reponse",
       "value": {
         "latex": "On cherche la probabilité de prendre la décision $D0$ par erreur, c'est-à-dire si $H_1$ est vraie. Sous l'hypothèse $p=0.02$, on a la variable $Z_2 = \\dfrac{F-0.02}{\\sqrt{\\frac{0.02\\times 0.98}{1500}}}$ qui suit une loi $ \\mathcal{N}(0,1)$.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-12",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Développement limité",
+    "sousChapitre": "Applications",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:31.000Z"
+    "updatedAt": "2025-03-24T17:15:02.321Z"
   },
   "contenu": [
     {
-      "id": "3ba7c2cf-c5f0-4409-868a-d442ef5a9b92",
+      "id": "7cf7d035-c62a-400b-97ea-04bec4aa65fd",
       "type": "question",
       "value": {
         "latex": "Donner le développement limité de $\\ln(1+x)$ au voisinage de $0$ à l'ordre $3$. En déduire le  développement limité de $\\left(\\ln(1+x)\\right)^2$ à l'ordre $3$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "3b7336a6-7d8e-407e-859c-9c828c38293e",
+      "id": "77d28b71-471e-404f-baef-bdac93e5a4a8",
       "type": "reponse",
       "value": {
         "latex": "$$\n\t\\begin{aligned}\n\t\t\\ln (1+x) &=\\underbrace{x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}}_{P_{1}(x)}+x^{3} \\cdot \\varepsilon(x) \\\\\n\t\t\\left(P_{3}(x)\\right)^{2} &=\\left(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\right)^{2} \\\\\n\t\t&=\\left(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\right) \\times\\left(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\right) \\\\\n\t\t&=x \\times\\left(x-\\frac{x^{2}}{2}\\right)-\\frac{x^{2}}{2} \\times x+ o(x^3) \\\\\n\t\t&=x^{2}-x^{3}+o(x^3)\n\t\\end{aligned}\n\t$$\n\tAinsi, $(\\ln (1+x))^{2}=x^{2}-x^{3}+x^{3} \\cdot \\varepsilon(x)= x^2-x^3 + o(x^3)$",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:05.339Z"
+    "updatedAt": "2025-03-24T17:17:09.685Z"
   },
   "contenu": [
     {
-      "id": "9065c24e-9692-4b99-85d8-112f6987d6a9",
+      "id": "cee3ffb0-2bf4-49dc-ac14-7e490b5dbab5",
       "type": "description",
       "value": {
         "latex": "Pour chacune des situations suivantes, déterminer la loi de la variable aléatoire $X$ et donner son espérance.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "36a2089b-be94-4d76-8199-65478ef5a77b",
+      "id": "8373e423-e7a3-46d4-a45d-a3109347e04d",
       "type": "question",
       "value": {
         "latex": "On lance un dé équilibré 100 fois de suite et on note $X$ le nombre d'apparitions du chiffre \\og 2 \\fg{}.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "8dab0853-5fba-4440-be7e-67cca0159b4c",
+      "id": "b206dcf5-5dd9-4414-b706-ddeecd67a9e9",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=100$ et $p=\\frac{1}{6}$. Son espérance est $\\E(X)=n\\times p = \\frac{50}{3}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "b1d905fb-5460-4872-b87d-a1c777a64699",
+      "id": "5d6ace87-b4cc-454a-be54-3960b9bf9e68",
       "type": "description",
       "value": {
         "latex": "Deux personnes lancent chacune une pièce équilibrée. On dit que l'expérience est un succès si elles obtiennent toutes les deux \\og face \\fg{}.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "b481ffad-cdd6-4001-9b79-6919d25ea694",
+      "id": "37a9668d-0424-4dbe-869f-8c93d2ec4293",
       "type": "question",
       "value": {
         "latex": "Ces personnes répètent l'expérience 8 fois. On note $X$ le nombre de succès.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "739dda38-7109-415e-bb6e-210e098dcd4e",
+      "id": "6470e277-22f4-4b6e-9274-c2c161ff0d8e",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=8$ et $p=\\frac{1}{4}$. Son espérance est $\\E(X)=n\\times p = 2$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "7bbab667-7753-47ae-9de4-5b012437efbf",
+      "id": "49a2754d-331d-4324-af7a-ae74baccde6c",
       "type": "question",
       "value": {
         "latex": "Ces personnes répètent l'expérience jusqu'à ce qu'elles obtiennent un succès. On note $X$ le nombre de lancers.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "e7004efd-9efe-466b-a421-35b5764e95a2",
+      "id": "551ccefc-3ec8-4878-8c1f-2bc097180094",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi géométrique de paramètre $p=\\frac{1}{4}$. Son espérance est $\\E(X) = \\frac{1}{p} = \\frac{1}{4}$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "1c6db036-e01a-431b-9573-42da93712bb1",
+      "id": "02c6b9d9-225f-4a8e-a7dc-3f9d18256401",
       "type": "description",
       "value": {
         "latex": "Une agence de location de voitures propose à ses clients 3 catégories de voitures : $A$, $B$ et $C$. Elle a constaté que dans une journée, $40\\%$ des demandes sont pour $A$, $50\\%$ des demandes sont pour $B$, $10\\%$ des demandes sont pour $C$. Les demandes de location sont supposées indépendantes.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "03f686a1-9de7-4d5b-a27f-a3e1db02e056",
+      "id": "43ca453d-f4d8-4013-86c4-23660873151a",
       "type": "question",
       "value": {
         "latex": "Un jour donné, l'agence a reçu 12 demandes de location. On note $X$ le nombre de catégories $A$ demandées.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "ab0c20a3-adae-4e4d-9b8e-39ba5279367c",
+      "id": "71719a1d-3299-40b6-bfbd-aac9a0c16a1e",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=12$ et $p=0.4$. Son espérance est $\\E(X) = 4{,}8$.",

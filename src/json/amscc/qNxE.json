@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:32.534Z"
+    "updatedAt": "2025-03-24T17:16:56.767Z"
   },
   "contenu": [
     {
-      "id": "5997defe-93ba-4d3e-9f39-e4e9f23fef4b",
+      "id": "0d5bce8d-4280-4c4c-8cc3-af29ffa45df8",
       "type": "description",
       "value": {
         "latex": "On donne ou on rappelle la définition de quelques lois usuelles :\n\t\n\t\\underline{Définition} : \n\tSoit $p \\in ]0;1[$ : une variable $X$ suit une loi de Rademacher $\\mathcal{R}(p)$ si :\n\t\\begin{itemize}\n\t\t\\item $\\PP(X=1)=p$\n\t\t\\item $\\PP(X=-1)=1-p$\n\t\\end{itemize}\n\t\n\t\n\t\\underline{Définition} : \n\tSoit $\\lambda >0$ : une variable $X$ suit une loi de Laplace $\\mathcal{L}(\\lambda)$ si elle admet pour densité :\n\t$$f_X(x) = \\frac{\\lambda}{2} e^{-\\lambda |x|}$$\n\t\n\tSoient $X$ et $Y$ deux variables aléatoires indépendantes telles que $X$ suit une loi Rademacher $\\mathcal{R}(1/2)$ et $Y$ suit une loi uniforme sur $[0;1]$. Soit $\\lambda >0$. On pose $U = \\frac{1}{\\lambda} X \\ln(Y)$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "74d24fed-c0aa-4fea-a7bd-80a5157cc8fb",
+      "id": "860017fb-6268-4850-9e91-2b2286b12e32",
       "type": "reponse",
       "value": {
         "latex": "Soit $\\lambda>0$ et $U = \\frac{1}{\\lambda} X \\ln(Y)$",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "0587baf1-39cf-4297-a807-ce00f5e19f81",
+      "id": "a378b94c-3541-4fb1-a88c-82d591f7a1ae",
       "type": "question",
       "value": {
         "latex": "Soit $a \\in \\mathbb{R}$. Calculer $\\PP(\\ln(Y) \\leq a, X=1)$ et $\\PP(\\ln(Y) \\geq a, X=-1)$",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "543a7186-433b-4395-b475-7f6af20c0f7b",
+      "id": "9133d35e-f63f-4c33-a838-0540bc83b43c",
       "type": "reponse",
       "value": {
         "latex": "Soit $a \\in \\mathbb{R}$. Par indépendance de $X$ et $Y$, on a $\\PP(\\ln(Y) \\leq a, X=1) = \\PP(\\ln(Y) \\leq a) \\times \\PP(X=1) = \\PP(Y \\leq e^a) \\times \\frac{1}{2}$. Or \n\t\t\t$\\PP(Y \\leq t) = 1$ si $t >1$ et $\\PP(Y \\leq t) = t$ si $0<t<1$ étant donnée la loi suivie par $Y$. Par conséquent, on a  $\\PP(\\ln(Y) \\leq a, X=1) = \\begin{cases} \\frac{1}{2} \\text{ si } a>0 \\\\ \\frac{1}{2} e^a \\text{ sinon}\\end{cases} $.\n\t\t\t\n\t\t\tDe même, $\\PP(\\ln(Y) \\geq a, X=-1) = \\begin{cases} 0 \\text{ si } a>0 \\\\ \\frac{1}{2} (1-e^a) \\text{ sinon}\\end{cases} $",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "e4c2de78-6a12-4eff-b0bd-8ba6d9fc9009",
+      "id": "c0301723-9037-438a-a1f0-1baf9dd03350",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de la variable $U$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "fb886ec5-5624-4473-9af0-6dbf79304744",
+      "id": "7913e6e4-d4c9-4584-aa5b-d4fafa7a8b54",
       "type": "reponse",
       "value": {
         "latex": "Soit $F_U$ la fonction de répartition de la variable $U$. Par définition, pour tout réel $t$, \n\t\t\t$$F_U(t) = \\PP(\\frac{1}{\\lambda} X\\, \\ln(Y) \\leq t) = \\PP(X \\, \\ln(Y) \\leq \\lambda t)$$\n\t\t\t\n\t\t\tPar application du théorème des probabilités totales au système d'événements $\\{(X=1), (X=-1)\\}$, \n\t\t\t$$F_U(t) = \\PP(X=1,Y \\leq e^{\\lambda t}) + \\PP(X=-1,Y \\geq e^{-\\lambda t})$$\n\t\t\tD'après le calcul précédent, on obtient \n\t\t\t$$F_U(t) =   \\begin{cases} 1-\\frac{1}{2} e^{-\\lambda t} \\text{ si } t>0 \\\\ \\frac{1}{2} e^{\\lambda t} \\text{ sinon}\\end{cases} $$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "b6d4772c-1644-4df9-b005-61e271ccc35f",
+      "id": "b333c8ab-f522-4625-99b5-8ad5c3c46444",
       "type": "question",
       "value": {
         "latex": "En déduire que $U$ suit une loi de Laplace $\\mathcal{L}(\\lambda)$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "a9fb532e-9876-4ece-bb97-b02abe1523c5",
+      "id": "e34e9317-0d53-48ec-b228-fae8f2769ce4",
       "type": "reponse",
       "value": {
         "latex": "On dérive la fonction de répartition pour obtenir la densité : $F_U'(t) = \\begin{cases} \\frac{1}{2} \\lambda e^{-\\lambda t} \\text{ si } t>0 \\\\ \\frac{1}{2} \\lambda e^{\\lambda t} \\text{ sinon}\\end{cases} = \\frac{1}{2} \\lambda e^{-\\lambda |t|}$. On reconnaît la fonction densité d'une loi de Laplace de paramètre $\\lambda$.",

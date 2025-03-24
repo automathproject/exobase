@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:31.997Z"
+    "updatedAt": "2025-03-24T17:15:41.567Z"
   },
   "contenu": [
     {
-      "id": "ae9db3ba-9c20-4dd8-b776-e5ddb74589d8",
+      "id": "c19f05d9-b441-49b6-9d5f-774346eaac77",
       "type": "description",
       "value": {
         "latex": "Supposons que $(X,Y)$ suive la loi uniforme sur le disque unité $D$ centré en $(0,0)$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "da4a40f5-d0f8-4f43-95b4-0dbbe5fc3329",
+      "id": "ab438731-4aa5-4521-b801-4aaabc5d4e48",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "56c324d4-5229-482d-81e1-adf8a4d61425",
+      "id": "f0b721aa-d6c5-4400-86b9-a5ad433295a2",
       "type": "indication",
       "value": {
         "latex": "On pourra commencer par déterminer la densité de $(X,Y)$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "7d37947c-baaa-40cd-ac31-b9b0c886541a",
+      "id": "82faa667-f475-4578-96a1-948847aedb29",
       "type": "reponse",
       "value": {
         "latex": "Alors $(X,Y)$ admet pour densité $f(x,y)=\\frac{1}{\\pi} \\textbf{1}_D(x,y)$. Alors $X$ admet pour densité $f_X$ définie par  $f_X(x) = \\int_{\\R}^{} f(x,y)dy = \\frac{1}{\\pi} \\int_{\\{y^2<1-x^2\\}}^{} dy$.\n\t\n\tOr $ y^2<1-x^2 \\iff \\begin{cases}\n\t\t-\\sqrt{1-x^2} < y < \\sqrt{1-x^2} \\\\\n\t\t-1<x<1\n\t\\end{cases}$ donc $$f_X(x) = \\frac{1}{\\pi} \\textbf{1}_{]-1;1[}(x)\\int_{-\\sqrt{1-x^2}}^{+\\sqrt{1-x^2}} dy =  \\frac{2}{\\pi} \\sqrt{1-x^2} \\textbf{1}_{]-1;1[}(x)$$",

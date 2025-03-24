@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Loi, indépendance, loi conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:23.951Z"
+    "updatedAt": "2025-03-24T17:17:19.654Z"
   },
   "contenu": [
     {
-      "id": "438ba420-e0f4-4704-bac4-2c85da360104",
+      "id": "b114f65c-f780-42f3-9916-2d7713809a07",
       "type": "question",
       "value": {
         "latex": "Une urne contient 12 boules numérotées de 1 à 12 . On en tire une hasard, et on considère les événements\n$$\n\\begin{aligned}\n\t& A=\\text { \"tirage d'un nombre pair\", } \\\\\n\t& B=\\text { \"tirage d'un multiple de } 3 \" .\n\\end{aligned}\n$$\nLes événements $A$ et $B$ sont-ils indépendants?",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "26e081b3-7efe-4439-99d6-227d9732c482",
+      "id": "f8f8172e-a5df-400a-a8dc-031a78daebff",
       "type": "reponse",
       "value": {
         "latex": "On a :\n\t$$\n\t\\begin{gathered}\n\t\tA=\\{2,4,6,8,10,12\\} \\\\\n\t\tB=\\{3,6,9,12\\} \\\\\n\t\tA \\cap B=\\{6,12\\}\n\t\\end{gathered}\n\t$$\n\tOn a donc $\\prob(A)=1 / 2, \\prob(B)=1 / 3$ et $\\prob(A \\cap B)=1 / 6=\\prob(A) \\prob(B)$. Les événements $A$ et $B$ sont indépendants.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "f0c0b3ea-2eca-4471-84fa-e7028ac4a42d",
+      "id": "712e61bd-3c9c-4282-b4a6-dcf6725d4131",
       "type": "question",
       "value": {
         "latex": "Reprendre la question avec une urne contenant 13 boules.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "c364cc49-f1b2-4d42-9df6-66df32081a5f",
+      "id": "157cb929-ce6e-48bb-96fa-f0bb3a868237",
       "type": "reponse",
       "value": {
         "latex": "Les événements $A, B$ et $A \\cap B$ s'écrivent encore exactement de la même façon. Mais cette fois, on a : $P\\prob(A)=6 / 13, \\prob(B)=4 / 13$ et $\\prob(A \\cap B)=2 / 13 \\neq 24 / 169$. Les événements $A$ et $B$ ne sont pas indépendants. C'est conforme à l'intuition. Il n'y a plus la même répartition de boules paires et de boules impaires, et dans les multiples de 3 compris entre 1 et 13, la répartition des nombres pairs et impairs est restée inchangée.",

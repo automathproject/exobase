@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-10",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Convergence absolue",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:40.074Z"
+    "updatedAt": "2025-03-24T17:14:18.457Z"
   },
   "contenu": [
     {
-      "id": "933fd4e7-8d54-44a0-830c-3075bcf78398",
+      "id": "87a15040-46a0-4e9b-b108-a3f3780062e9",
       "type": "question",
       "value": {
         "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{3}{4^n}$ est-elle convergente ? si oui, calculer la somme de cette série.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "a8f019bc-51d2-4dc3-8a69-00182972f8c0",
+      "id": "da4983b4-238b-46ac-adfd-681e59202018",
       "type": "reponse",
       "value": {
         "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{3}{4^n}$ est une série géométrique de raison $\\frac{1}{4}$ donc elle converge et sa somme est donnée par la formule de la somme d'une série géométrique:\n\t\t\t$$\\sum_{n \\geq 0} \\frac{3}{4^n} = \\frac{3}{1-\\frac{1}{4}} = 4$$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "286ec10b-ddec-4602-8bf9-1ad2ca0a78aa",
+      "id": "938b2b4e-6336-44fd-8db9-13b1b135da29",
       "type": "question",
       "value": {
         "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)$ est-elle convergente ? absolument convergente ?",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "f1f05d44-6f05-4c0c-aec3-15614b9bd2d9",
+      "id": "62a59ec1-2c92-4986-b37f-2164af0501a9",
       "type": "reponse",
       "value": {
         "latex": "La série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)$ est une série à termes positifs. On a:\n\t\t\t$$\\lim_{n \\to +\\infty} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right) = 0$$\n\t\t\tet\n\t\t\t$$\\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right) \\leq \\frac{1}{n}\\left(\\frac{1}{\\sqrt{n}}\\right) = \\frac{1}{n^{3/2}}$$\n\t\t\tLa série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n^{3/2}}$ est une série de Riemann convergente donc la série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}\\ln\\left(1+\\frac{1}{\\sqrt{n}}\\right)$ est convergente. Elle n'est pas absolument convergente car la série $\\displaystyle \\sum_{n \\geq 0} \\frac{1}{n}$ est divergente.",

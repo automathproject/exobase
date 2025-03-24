@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-28",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:18.634Z"
+    "updatedAt": "2025-03-24T17:14:51.244Z"
   },
   "contenu": [
     {
-      "id": "9157b8eb-38aa-4cff-a57e-a369b552e18e",
+      "id": "7f824b40-7d3f-4168-ae7d-7ccf46144eae",
       "type": "description",
       "value": {
         "latex": "Pour simuler le tirage aléatoire uniforme avec un tableur, on peut utiliser la commande \\begin{center}\n\\texttt{=ALEA.ENTRE.BORNES(1;8)}\n\t\\end{center} qui génère un nombre entier aléatoire entre 1 et 8.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "338439c9-2ae1-4b4b-969c-1a0802ca1379",
+      "id": "e8586ec3-64b2-41d2-9b01-3adb84bf87c4",
       "type": "description",
       "value": {
         "latex": "\\`A l'aide d'un test du $\\chi^2$ et une simulation de 500 tirages de dé, peut-on affirmer que cette commande simule correctement un tirage uniforme ? On pourra illustrer le résultat à l'aide d'un histogramme.",

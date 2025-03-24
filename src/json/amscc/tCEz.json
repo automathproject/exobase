@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Développement en série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:12.397Z"
+    "updatedAt": "2025-03-24T17:17:13.262Z"
   },
   "contenu": [
     {
-      "id": "81d6a143-d1c3-4a40-983e-f9201fe70dd1",
+      "id": "c1445916-92c0-4125-b82f-9eed19683873",
       "type": "question",
       "value": {
         "latex": "Donner un développement en série entière de la fonction $u \\mapsto \\ln(1-u)$, en précisant le rayon de convergence ;",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "ace99950-c85f-4dd5-8dad-f9d13bd1796b",
+      "id": "684124e8-40ea-48ee-8148-f8c5e3788f12",
       "type": "reponse",
       "value": {
         "latex": "Quelque soit $u \\in ]-1;1[$, $\\ln(1-u) = \\sum\\limits_{n=1}^{+\\infty} \\frac{-1}{n}\\ u^n=-u-\\frac{u^2}{2}-\\frac{u^3}{3}+\\cdots$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "1cfb4e08-24ca-4cc8-99d4-808eb48ed10c",
+      "id": "9e96ac47-464b-443c-a0b5-ecc04f99087c",
       "type": "question",
       "value": {
         "latex": "En déduire un développement en série entière de la fonction $x \\mapsto \\ln(1+x+x^2)$ (on précisera son rayon de convergence et on pourra utiliser que $(1-x^3) = (1-x)(1+x+x^2)$).",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "698fcc3f-d9c6-43f0-9562-8afa9319d8e1",
+      "id": "a5826b2a-cd24-4d2f-aa01-76bbcd4e5242",
       "type": "reponse",
       "value": {
         "latex": "On a donc $\\ln(1-x^3) = \\ln(1-x) + \\ln(1+x+x^2)$. \\\\ Or $\\ln(1-x) = \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^n$ et $\\ln(1-x^3) = \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^{3n}$ donc \n\t\t$$\\begin{align*}\n\t\t\\ln(1+x+x^2) &= \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^{3n} - \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^n \\\\\n\t\t&= -\\sum\\limits_{n=1}^{+\\infty} \\frac{1}{n}\\ x^{3n} + \\sum\\limits_{n=1}^{+\\infty} \\frac{1}{n}\\ x^n =\\sum\\limits_{n=1}^{+\\infty}a_n x^{n}\n\t\t\\end{align*}$$\n\t\tavec $a_n = -\\frac{3}{n}+\\frac{1}{n} = \\frac{-2}{n}$ s'il existe $p$ tel que $n=3p$, $a_n = \\frac{1}{n}$ sinon.",

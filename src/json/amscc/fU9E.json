@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:22.684Z"
+    "updatedAt": "2025-03-24T17:15:35.838Z"
   },
   "contenu": [
     {
-      "id": "c746ab38-a189-4540-b7f6-bccf7462d004",
+      "id": "6c2d19de-5502-4680-8f06-673f5aadbc49",
       "type": "description",
       "value": {
         "latex": "Soit $f(x,y)=2e^{-x}e^{-2y}\\textbf{1}_{(\\R^+)^2}(x,y)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "83a8992e-7b1b-48ff-abf9-01707bcff1d0",
+      "id": "f0dc0313-f280-4730-96a9-2f3e41e7202f",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ définit une densité de probabilité.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "2b836295-2cfe-4f69-92ed-4f53cb1ac5eb",
+      "id": "eb8730f3-d78a-4861-81ea-30d77db43d43",
       "type": "reponse",
       "value": {
         "latex": "On vérifie que $f$ est positive sur $\\R^2$ et par application du théorème de Fubini que $\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty} f(x,y) dxdy=1$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "2e6f70b9-34dc-49ed-9b8f-984315335672",
+      "id": "c3bbbcd7-6e74-459e-9a0e-01145c343355",
       "type": "question",
       "value": {
         "latex": "Calculer $\\PP(X>1,Y<1)$, $\\PP(X<Y)$ et $\\PP(X<a)$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "180531f3-a5d8-432a-b7b6-57e3df44f14c",
+      "id": "80a6a4ca-c1ad-457b-8251-f9212c2e3282",
       "type": "reponse",
       "value": {
         "latex": "On applique la définition et on trouve $\\PP(X>1,Y<1) = e^{-1}(1-e^{-2})$, $\\PP(X<Y)=\\frac{1}{3}$ et $\\PP(X<a)=1-e^{-a}$.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Domaine de convergence",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:15.918Z"
+    "updatedAt": "2025-03-24T17:14:48.924Z"
   },
   "contenu": [
     {
-      "id": "6909c4fc-0ef1-4d23-b265-bf879aad9234",
+      "id": "8f344868-dccc-44c8-8aaf-7c6efe3c7de4",
       "type": "question",
       "value": {
         "latex": "Vérifier que : $\\forall n \\in \\N$, $ \\frac{n}{n+2} = 1 - \\frac{2}{n+2}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "a086e199-2a32-4af5-8699-a431ea79ce64",
+      "id": "f8e0f08b-d245-4e9d-939f-dc20a2810d0f",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de voir que $\\frac{n}{n+2} = \\frac{n+2-2}{n+2} = 1 - \\frac{2}{n+2} $.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "e0e2f2e8-f9d4-459e-b9a7-9eac2ef43b9a",
+      "id": "63e0a45c-ba4b-4e6d-843c-82fcdf14d3c1",
       "type": "question",
       "value": {
         "latex": "Déterminer le domaine de convergence $I$ de cette série entière.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "edf36d9a-971a-4197-ad57-0db92685e866",
+      "id": "dd2a03ff-7435-46f9-938d-45d952ff36e5",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) =  \\frac{n}{n+2}x^n$. On utilise le théorème de d'Alembert :\n\t\t$$\\begin{align*}\n\t\t\t\\frac{|u_{n+1}(x)|}{|u_n(x)|} &= \\frac{ (n+2)(n+1) }{n(n+3)}\\frac{|x^{n+1}|}{|x^{n}|} \\\\\n\t\t\t& \\sim  \\frac{n^2}{n^2} |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{}  |x|\n\t\t\\end{align*}$$\t\n\t\tDonc le rayon de convergence est $R=1$.\n\t\t\n\t\tDe plus, il $\\lim\\limits_{n\\to+\\infty} u_n(1) = 1$ et $(u_n(-1))$ n'a pas de limite donc la série est grossièrement divergente pour $x=1$ et $x=-1$.\n\t\t\n\t\tPar conséquent, le domaine de convergence est $I = ]-1;1[$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "8ab7cb4c-c656-4de1-b052-e922dfa4facd",
+      "id": "6ee31e42-5041-4614-ba0d-ffe7f620127f",
       "type": "question",
       "value": {
         "latex": "Calculer la valeur de $\\displaystyle x^2 \\sum_{n=0}^{+\\infty} \\frac{x^n}{n+2}$ pour tout $x \\in I$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "5ee72edf-42e1-4db0-84fb-4d89cecd712e",
+      "id": "a9835af2-7650-4bf2-9cfe-7b9c88ae19d6",
       "type": "reponse",
       "value": {
         "latex": "Pour tout $x \\in I$ :\n\t\t$$\\begin{align*}\n\t\t\tx^2 \\sum_{n=0}^{+\\infty} \\frac{x^n}{n+2} &= \\sum_{n=0}^{+\\infty}\\frac{x^{n+2}}{n+2} \\\\\n\t\t\t&= \\sum_{k=2}^{+\\infty}\\frac{x^{k}}{k} \\\\\n\t\t\t&= \\sum_{k=1}^{+\\infty}\\frac{x^{k}}{k} - x \\\\\n\t\t\t&= -\\ln(1-x) -x\n\t\t\\end{align*}$$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "a65a72e8-05f4-49fd-8441-fff41ba1b393",
+      "id": "52d6f213-1ed7-41ec-940a-a1ce37b7d7f0",
       "type": "question",
       "value": {
         "latex": "En déduire le calcul de la somme $S(x)$ pour tout $x \\in I$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "3da202e8-1c59-4299-8f42-56aacb81a63c",
+      "id": "9845aaee-1d05-43ef-b37b-ea0afef5739e",
       "type": "reponse",
       "value": {
         "latex": "D'après la question précédente, si  $x \\in ]-1;1[$ et $x \\neq 0$ :\n\t\t$$\t\\sum_{n=0}^{+\\infty} \\frac{x^n}{n+2} = \\frac{-\\ln(1-x)-x}{x^2}$$\n\t\t\n\t\tD'après la 1ère question, pour tout $x \\in ]-1;1[$ et $x \\neq 0$ :\n\t\t$$\\begin{align*}\n\t\t\tS(x) &=  \\sum_{n=0}^{+\\infty} x^n - 2\\sum_{n=0}^{+\\infty}\\frac{x^{n}}{n+2} \\\\\n\t\t\t&= \\frac{1}{1-x} -2\\frac{-\\ln(1-x)-x}{x^2}\\\\\n\t\t\t&= \\frac{1}{1-x} + \\frac{2\\ln(1-x)}{x^2} + \\frac{2}{x} \n\t\t\\end{align*}$$\t\n\t\tet trivialement $S(0) = 0$.",

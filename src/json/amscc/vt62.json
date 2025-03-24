@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Matrice",
+    "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:24.596Z"
+    "updatedAt": "2025-03-24T17:17:20.097Z"
   },
   "contenu": [
     {
-      "id": "200b191f-7de8-4b39-ab37-1fd3b237e490",
+      "id": "833d4ffe-8320-4b8d-a7f4-537bc55df5b8",
       "type": "description",
       "value": {
         "latex": "VRAI-FAUX - Soit $A$ une matrice carrée. Parmi les affirmations suivantes, lesquelles sont vraies, lesquelles sont fausses, et pourquoi ?",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "0d3cabe5-0974-4cf1-8721-51b3bf1116a1",
+      "id": "a7bff386-ebc3-44eb-8f46-50af98928573",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $AA^\\top=A^\\top A$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "50e6b6db-f3db-4a01-bdef-bbccff99ec8e",
+      "id": "565f7490-1921-40f6-981f-008b99afcc2f",
       "type": "reponse",
       "value": {
         "latex": "FAUX : $A=\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right)$ est inversible. $A \\cdot\\left(A^\\top\\right)=\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right)=\\left(\\begin{array}{ll}1 & 1 \\\\ 1 & 2\\end{array}\\right) \\quad$ alors que $\\left(A^\\top\\right) \\cdot A=\\left(\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right)=\\left(\\begin{array}{ll}2 & 1 \\\\ 1 & 1\\end{array}\\right)$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "4ba52777-081c-4510-93f6-873af7d014ed",
+      "id": "fca6cbcb-870e-49a6-9bbc-aa7224ed0179",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $AA^\\top$ est inversible ;",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "e1694884-caec-4ef3-a2b0-2ce47741617b",
+      "id": "805bbef9-a28a-4bde-8036-be47a7869857",
       "type": "reponse",
       "value": {
         "latex": "VRAI : Si $A$ est inversible, alors $\\left(A^\\top\\right)$ est aussi inversible avec $\\left(A^\\top\\right)^{-1}={ }^t(A)^{-1}$. Et le produit de deux matrices inversibles est inversible, donc $A .\\left(A^\\top\\right)$ est aussi inversible.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "c8a63407-231b-4532-aa10-49aab351f068",
+      "id": "90632848-ef22-457b-93e6-5c6edf5760c9",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $A+A^\\top$ est inversible.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "aa62b6a7-f2a9-4165-9d6e-84b3a01b3e3a",
+      "id": "29023f7a-377c-49a5-a29c-8fc7b6dab078",
       "type": "reponse",
       "value": {
         "latex": "FAUX : $A=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)$ est inversible, alors que $A+\\left(A^\\top\\right)=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)+\\left(\\begin{array}{cc}0 & 1 \\\\ -1 & 0\\end{array}\\right)=\\left(\\begin{array}{ll}0 & 0 \\\\ 0 & 0\\end{array}\\right)$ ne l'est pas.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "e3040f9e-6416-4b64-9a0b-9a008a473dfd",
+      "id": "6e47d60a-a9e1-4de2-9c12-e3969f7e9c8f",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $A$ est semblable à la matrice identité.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "660d8cfe-2e1c-4321-bf5c-2681363b6cf9",
+      "id": "40e84cb1-bb87-4b5c-8e11-b028b59ff8d7",
       "type": "reponse",
       "value": {
         "latex": "FAUX : $A$ est semblable à la matrice identité signifie qu'il existe une matrice inversible $P$ telle que : $P^{-1} . A . P=I d \\Leftrightarrow A=P . Id . P^{-1}=I d$. Donc, si $A$ est inversible et $A \\neq Id, A$ n'est semblable à la matrice identité.\n\t\tLa seule matrice semblable à l'identité est elle-même !",

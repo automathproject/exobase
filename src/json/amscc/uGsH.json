@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-09-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:21.271Z"
+    "updatedAt": "2025-03-24T17:17:17.823Z"
   },
   "contenu": [
     {
-      "id": "24e481bf-bcc6-48e3-8560-81aa377e3084",
+      "id": "0e0f719a-93f8-4499-b7b4-5babdb4f597d",
       "type": "description",
       "value": {
         "latex": "Soit la fonction densité de probabilité $f$ définie sur l'intervalle $[0, 2]$ par :\n\n$$\nf(x) =\n\\begin{cases}\n    \\frac{3}{16}(4 - x^2), & \\text{si } 0 \\leq x \\leq 2, \\\\\n    0, & \\text{sinon}.\n\\end{cases}\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "3194882d-3d76-4812-9b4b-24711d7ce307",
+      "id": "db9591e1-3a75-4453-8606-9bc2d579c93c",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ est bien une densité de probabilité. On note $X$ une variable aléatoire admettant $f$ pour densité de probabilité.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "5410a7f8-febd-4188-bed2-fcf54b9b120e",
+      "id": "c96e97d1-c8c5-4731-8b5e-b98b84a27f4f",
       "type": "reponse",
       "value": {
         "latex": "Pour qu'une fonction soit une densité de probabilité, elle doit satisfaire les deux conditions suivantes :\n    \\begin{enumerate}\n        \\item $f(x) \\geq 0$ pour tout $x$ dans l'intervalle de définition.\n        \\item L'intégrale de $f(x)$ sur tout l'intervalle $[0, 2]$ doit être égale à 1.\n    \\end{enumerate}\n    \n    Vérifions la première condition : \\\\\n    $f(x) = \\frac{3}{16}(4 - x^2) \\geq 0$ sur $[0, 2]$, car $x^2 \\leq 4$ pour \n    $0\\leq x \\leq 2$.\n    \n    Vérifions maintenant la seconde condition :\n    \n    \\[\n    \\int_0^2 \\frac{3}{16}(4 - x^2) \\, dx = \\frac{3}{16} \\int_0^2 (4 - x^2) \\, dx = \\frac{3}{16} \\left[ 4x - \\frac{x^3}{3} \\right]_0^2.\n    \\]\n    \n    En évaluant les bornes :\n    \n    \\[\n    \\left[ 4x - \\frac{x^3}{3} \\right]_0^2 = \\left( 8 - \\frac{8}{3} \\right) - (0) = \\frac{24}{3} - \\frac{8}{3} = \\frac{16}{3}.\n    \\]\n    \n    Ainsi, \n    \\[\n    \\int_0^2 f(x) \\, dx = \\frac{3}{16} \\times \\frac{16}{3} = 1.\n    \\]\n    \n    Donc, $f$ est bien une densité de probabilité.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "454af117-6467-4c9c-8c1c-48231d2a2841",
+      "id": "df9ed734-5857-47d7-b7e6-b030aa4eebd3",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité que $X$ prenne une valeur dans l'intervalle $[1, 3]$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "ee672ca7-7f0d-4a44-815d-20bfc6c44c7d",
+      "id": "e019d368-0edc-4291-ab54-2dd36ce129ce",
       "type": "reponse",
       "value": {
         "latex": "On cherche $\\prob(1 \\leq X \\leq 3)$, ce qui revient à calculer l'intégrale de $f(x)$ sur l'intervalle $[1, 3]$ :\n    \n    \\[\n    \\prob(1 \\leq X \\leq 3) = \\int_1^3 f(x) \\, dx = \\int_1^2 \\frac{3}{16}(4 - x^2) \\, dx = \\frac{5}{16}\n    \\]",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "522bd1d3-333d-48b9-bf4b-fca2804df5b5",
+      "id": "e243da7d-4eca-43a8-90b8-64847f6ee9f4",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance et la variance de $X$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "3ca6b03b-ac96-47c7-b3e7-5b2df108d0bb",
+      "id": "e734e1ee-0d61-4b04-b236-3b88bb30ed13",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\\mathbb{E}[X] &= \\int_{0}^{2} x f(x) \\, dx \\\\\n\t\t&= \\int_{0}^{2} x \\left( \\frac{3}{16}(4 - x^2) \\right) dx \\\\\n\t\t&= \\frac{3}{16} \\int_{0}^{2} x (4 - x^2) \\, dx \\\\\n\t\t&= \\frac{3}{16} \\int_{0}^{2} (4x - x^3) \\, dx \\\\\n\t\t&= \\frac{3}{16} \\left( \\int_{0}^{2} 4x \\, dx - \\int_{0}^{2} x^3 \\, dx \\right) \\\\\n\t\t&= \\frac{3}{16} \\left( \\left[2x^2\\right]_{0}^{2} - \\left[\\frac{x^4}{4}\\right]_{0}^{2} \\right) \\\\\n\t\t&= \\frac{3}{16} \\left( \\left(2 \\times 2^2\\right) - \\left(\\frac{2^4}{4}\\right) - \\left(0 - 0\\right) \\right) \\\\\n\t\t&= \\frac{3}{16} \\left( 8 - 4 \\right) \\\\\n\t\t&= \\frac{3}{4}.\n\t\\end{align*}$$\n\n$$\\begin{align*}\n\t\\operatorname{Var}(X) &= \\mathbb{E}[X^2] - (\\mathbb{E}[X])^2 \\\\\n\t\\\\\n\t\\text{Calcul de } \\mathbb{E}[X^2]: \\\\\n\t\\mathbb{E}[X^2] &= \\int_{0}^{2} x^2 f(x) \\, dx \\\\\n\t&= \\int_{0}^{2} x^2 \\left( \\frac{3}{16}(4 - x^2) \\right) dx \\\\\n\t&= \\frac{3}{16} \\int_{0}^{2} x^2 (4 - x^2) \\, dx \\\\\n\t&= \\frac{3}{16} \\int_{0}^{2} (4x^2 - x^4) \\, dx \\\\\n\t&= \\frac{3}{16} \\left( \\int_{0}^{2} 4x^2 \\, dx - \\int_{0}^{2} x^4 \\, dx \\right) \\\\\n\t&= \\frac{3}{16} \\left( \\left[\\frac{4x^3}{3}\\right]_{0}^{2} - \\left[\\frac{x^5}{5}\\right]_{0}^{2} \\right) \\\\\n\t&= \\frac{3}{16} \\left( \\left( \\frac{4 \\times 8}{3} \\right) - \\left( \\frac{32}{5} \\right) - \\left( 0 - 0 \\right) \\right) \\\\\n\t&= \\frac{3}{16} \\left( \\frac{32}{3} - \\frac{32}{5} \\right) \\\\\n\t&= \\frac{4}{5}.\n\\end{align*}$$\n\n$$\\begin{align*}\n\t\\text{Calcul de } \\operatorname{Var}(X): \\\\\n\t\\operatorname{Var}(X) &= \\mathbb{E}[X^2] - (\\mathbb{E}[X])^2 \\\\\n\t&= \\frac{4}{5} - \\left( \\frac{3}{4} \\right)^2 \\\\\n\t&= \\frac{4}{5} - \\frac{9}{16} \\\\\n\t&= \\frac{64}{80} - \\frac{45}{80} \\\\\n\t&= \\frac{19}{80}.\n\\end{align*}$$",

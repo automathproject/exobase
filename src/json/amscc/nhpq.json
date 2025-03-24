@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-11-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:00.147Z"
+    "updatedAt": "2025-03-24T17:16:37.685Z"
   },
   "contenu": [
     {
-      "id": "c1d3d706-61ee-489c-b08f-221e8b24563a",
+      "id": "cfc793c5-9a9f-4946-b7d4-809bdfc8cd6f",
       "type": "description",
       "value": {
         "latex": "Dans une base militaire, un nouveau type de radio est en cours de test pour évaluer sa fiabilité en conditions opérationnelles. Un échantillon de 150 radios a été testé durant un exercice, et il a été constaté que 135 de ces radios ont fonctionné sans défaillance tout au long de l'exercice.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "1bdf1d7a-0de7-4933-a51f-af7ceac036c1",
+      "id": "66fa4595-d828-4a00-aa62-c25ad9379cba",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de la proportion de ces nouvelles radios fonctionnant sans défaillance, en précisant l'estimateur utilisé et son biais.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "c1605cc6-2faa-41d2-9140-385e8c3c4160",
+      "id": "a947a79b-bf11-4e5b-81b3-e9803a935a2a",
       "type": "reponse",
       "value": {
         "latex": "On utilise l'estimateur de fréquence empirique $F = \\frac{1}{150}\\sum_{i=1}^{150} X_i$ avec $X_i \\sim \\mathcal{B}(p)$, sans biais pour estimer la proportion $p$ de radios sans défaillance : sa réalisation ici est $p_{obs} = \\frac{130}{150} = 0{,}90$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "6369c319-639b-404b-a71a-afa8ca5994cc",
+      "id": "bf68c9bf-f759-486d-ac58-09fabeeb905a",
       "type": "question",
       "value": {
         "latex": "Donner cette estimation à l'aide d'un intervalle de confiance à 90\\%, 95\\% et 99\\%.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "33d89168-aa1e-40c2-9c09-6c150d2f62c6",
+      "id": "420a5977-cef1-4d57-9801-212ad5e3fe3a",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule du cours : \n\t\t$$I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$$\n\tavec $\\alpha = 0.1$ : $I_{conf} = [0,859709479 ; 0,940290521]$\n\t\n\t\tavec $\\alpha = 0.05$ : $I_{conf} = [0,851990883 ; 0,948009117]$\n\t\t\n\t\tavec $\\alpha = 0.01$ : $I_{conf} = [0,836905325 ; 0,963094675]$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "c7556fa2-5c69-423c-b8d3-379a47c80dea",
+      "id": "312d2484-c839-4091-b866-9deb41b13587",
       "type": "question",
       "value": {
         "latex": "Quelle taille d'échantillon devrait-on choisir pour que l'amplitude de l'intervalle de confiance ne dépasse pas $0.01$ avec une erreur de première espèce de $5\\%$ ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "a2d1ad32-6f9f-4e2a-bd62-2a6a66497998",
+      "id": "d0d56b22-0662-4d84-892f-b54c66a63fb1",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule simplifiée du cours : \n\t\t$$I_{conf}(F(\\omega))=\\left[ f_{obs}-u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} ~;~ f_{obs} + u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} \\right]$$\n\tet on cherche $n$ tel que $u_{\\alpha/2} \\frac{1}{\\sqrt{n}} \\leq 0.01 \\iff \\sqrt{n} \\geq \\frac{1.96}{0.01}$ soit $n \\geq 38415$.",

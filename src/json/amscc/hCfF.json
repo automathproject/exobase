@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Différentiabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:25.266Z"
+    "updatedAt": "2025-03-24T17:15:37.320Z"
   },
   "contenu": [
     {
-      "id": "91c29971-8085-42da-b4ed-6bc76d24e743",
+      "id": "8648286e-338b-4991-9bbe-b1b874c21379",
       "type": "description",
       "value": {
         "latex": "Soit $f\\ : \\R^{2} \\to \\R$ définie par $f(x,y) = x^{2}-4x +y^{2}+6y$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "130f4b1c-a9bc-4ae2-8833-50ebca6771aa",
+      "id": "2286134b-85c3-4ee2-b23d-2fab8f0aad11",
       "type": "question",
       "value": {
         "latex": "Trouver une écriture de la forme\n\t\n\t$$ f(x,y) = (x+a)^{2} + (y+b)^{2} + c $$ \n\t\n\toù $a,b,c$ sont trois réels que l'on explicitera.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "b8b67cb8-d5fe-465b-859c-521abb98caaa",
+      "id": "1665d2ce-01eb-4473-bdb7-9c89c60955d7",
       "type": "reponse",
       "value": {
         "latex": "Obtenir cette écriture est un des classiques de manipulation du trinôme du second degré~: on écrit $x^2-4x = x^2 - 2 \\cdot 2x + 2^2 - 2^2 = (x-2)^2 - 4$. De même $y^{2}+6y = (y+3)^2-9$. Ainsi $f(x,y) = (x-2)^2 + (y+3)^2 - 13$ ce qui donne la forme voulue avec $a = 2, b=-3, c=-13$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "dc6a60cf-bfb2-4953-a13e-9450b529b33c",
+      "id": "d8eaf739-64c1-4aaa-a532-df227f7603d7",
       "type": "question",
       "value": {
         "latex": "En déduire une équation et la nature de la ligne de niveau $k$ de $f$, pour $k\\in \\R$ (on peut distinguer selon la valeur de $k$).",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "d74d85ce-8e3f-4cdd-bbd3-2cf6c425e256",
+      "id": "a428afc0-dd33-488a-953f-3931578f4ab8",
       "type": "reponse",
       "value": {
         "latex": "La ligne de niveau $k$ de $g$ a pour équation $f(x,y) = k$, donc d'après la question 1 \n\t\t$$ (x-2)^2 + (y+3)^2 = k+13 $$. \n\t\t\n\t\tIl s'agit de l'équation d'un cercle de centre $(2, -3)$ à condition que $k+13 \\geq 0$. Sinon c'est l'ensemble vide. Si $k+13 =0$, le cercle est de rayon $0$ et est donc réduit à un point (son centre), et si $k+13 >0$ c'est un cercle de rayon $\\sqrt{k+13}$ de centre $(2,-3)$.",

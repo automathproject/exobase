@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Critères de Cauchy et d'Alembert",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:01.861Z"
+    "updatedAt": "2025-03-24T17:14:35.834Z"
   },
   "contenu": [
     {
-      "id": "b89f8e47-42be-48ef-8602-a68a29e32ce4",
+      "id": "d14547e8-9898-423d-acbb-a420875ff7f8",
       "type": "question",
       "value": {
         "latex": "En utilisant le critère de Cauchy, déterminer la nature de la série dont le terme général est défini par:\n\t$\\displaystyle u_n=\\left(\\frac{n-1}{2n+1}\\right)^n $.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "9453c895-5aae-4779-ac93-bd203e3a1de0",
+      "id": "bcb2498c-a6fe-487e-aa5f-662f1cd5b239",
       "type": "reponse",
       "value": {
         "latex": "On a $u_n \\geq 0$ pour tout $n \\in \\N^*$ et \n\t$$\\begin{align*} \n\t\t\\left(u_n\\right)^{\\frac{1}{n}} &= \\left(\\frac{n-1}{2n+1}\\right)^{n\\times \\frac{1}{n}} \\\\\n\t\t&= \\frac{1-\\frac{1}{n}}{2+\\frac{1}{n}} \\\\\n\t\t&\\underset{+\\infty}\\sim \\frac{1}{2} < 1\n\t\\end{align*}$$\n\tdonc par le critère de Cauchy, la série $\\sum u_n$ converge.",

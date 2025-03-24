@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:40.801Z"
+    "updatedAt": "2025-03-24T17:14:19.150Z"
   },
   "contenu": [
     {
-      "id": "02655cdc-f3f9-4272-b02c-cd6143575c87",
+      "id": "affbb7f8-b80f-438d-ab8d-de3d03674791",
       "type": "description",
       "value": {
         "latex": "Déterminer le rayon de convergence des séries entières réelles suivantes :",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "58958597-73a7-4463-9fb0-845faf9e1e8b",
+      "id": "3748f6dd-90a7-4bdd-9699-e211b1d95f6b",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "268f684c-ecb1-4d18-98c6-8f363b6dcc31",
+      "id": "d96ebaa6-eac2-406c-836a-ac20188b36e0",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$ et on utilise le théorème de d'Alembert : \n\t\t\t$$\\begin{align*}\n\t\t\t\\frac{|u_{n+1}(x)|}{|u_n(x)|} &= \\frac{(3(n+1)^2-1) \\times 2^{2n+1}\\sqrt{n+1}}{\\left(2^{2(n+1)+1}\\sqrt{n+1+1}\\right)(3n^2-1)}\\frac{|x^{n+1}|}{|x^n|} \\\\\n\t\t\t&= \\frac{1}{2^2}\\sqrt{\\frac{n+1}{n+2}} \\frac{3n^2+6n+3-1}{3n^2-1} |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} \\frac{1}{4}|x|\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ \\frac{1}{4}|x| <1 \\iff |x| < 4$ donc le rayon de convergence est $R=4$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "f3fa401d-498b-4e75-b339-a99845762b7d",
+      "id": "38c671e2-063a-4de4-9b51-6813423d9a10",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "99afaeda-25f0-4bb5-aa68-322cfa74e608",
+      "id": "58dd1b7d-cdb1-49c8-ac3c-5ef537750e1b",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$ et on utilise le théorème de Cauchy : \n\t\t\t$$\\begin{align*}\n\t\t\t\\left(|u_n(x)|\\right)^{\\frac{1}{n}} &= \\left(9^n \\left(\\frac{n-1}{n}\\right)^n|x|^{2n}\\right)^{\\frac{1}{n}} \\\\\n\t\t\t&= 9 \\left(\\frac{n-1}{n}\\right) |x|^2 \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} 9|x|^2\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ 9|x|^2 <1 \\iff |x|^2 < \\frac{1}{9} \\iff |x| < \\frac{1}{3}$ donc le rayon de convergence est $R=\\frac{1}{3}$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "2092f59f-6e12-4014-9b8a-8f1c6b4e6da3",
+      "id": "457d7b31-7169-4d5d-8f92-aea5f4cd2e84",
       "type": "question",
       "value": {
         "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} \\left(-\\frac{9}{8}\\right)^n$ ? Justifier votre réponse.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "ee7f606d-2437-4ff3-8267-f6c577b8f197",
+      "id": "1ffbd379-2872-49b2-af75-92047ce70382",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît la série entière de la question 1.(a) évaluée en $x = -\\frac{9}{8}$. Or $-\\frac{9}{8} \\in ]-4;4[$ donc la série est absolument convergente.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "c2c823cd-3917-42f9-b418-0f3a71c3dc1d",
+      "id": "c7ef1634-2a59-4403-8d4d-e483fce8a6da",
       "type": "question",
       "value": {
         "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^n\\left(\\frac{2}{3}\\right)^{2n}$ ? Justifier votre réponse.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "31e2987d-a697-4865-b44f-23bca85faec1",
+      "id": "cfdddf3b-da80-46a3-8227-9d0d420082dc",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît la série entière de la question 1.(b) évaluée en $x = \\frac{2}{3}$. Or $\\frac{2}{3} \\notin ]-\\frac{1}{3};\\frac{1}{3}[$ donc la série est grossièrement divergente.",

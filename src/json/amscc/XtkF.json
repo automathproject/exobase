@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Fonction de plusieurs variables",
+    "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:52:18.061Z"
+    "updatedAt": "2025-03-24T17:14:50.691Z"
   },
   "contenu": [
     {
-      "id": "01f4ddb0-7ac8-45fe-9518-5531c3dd6954",
+      "id": "f347d82a-8124-46f1-b71f-b84bc95e86a5",
       "type": "description",
       "value": {
         "latex": "Soit $K = \\{(x,y)\\in \\R^2 \\mid x^2+y^2 \\leq 16\\}$. Pour tout $(x,y) \\in K$, on pose \n\t$$f(x,y) = \\sqrt{x^2+y^2}+x^2-3$$",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "f8936c32-e058-4463-98a6-6e1ce5bb532e",
+      "id": "58bb6150-68f8-4e63-b86a-fd30ead6807a",
       "type": "reponse",
       "value": {
         "latex": "\\href{https://www.geogebra.org/3d/e8thkac8}{graphe de la fonction f}",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "19520d24-7be8-4634-ab62-36fa17b4da6a",
+      "id": "b927a13f-0c00-43cb-9ebf-1a315fb5ce1b",
       "type": "question",
       "value": {
         "latex": "Justifier l'existence d'un minimum et d'un maximum de $f$ sur $K$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "32245d9d-1157-452c-8363-9e1025bd025e",
+      "id": "a0130a2a-f6e9-466d-a82c-1b211870a88d",
       "type": "reponse",
       "value": {
         "latex": "$K$ est fermé borné, la fonction $f$ est continue sur $K$ donc d'après le théorème des valeurs extrêmes, $f$ atteint son maximum et son minimum sur $K$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "028a4e2d-f876-41f6-81f3-6216da29efa7",
+      "id": "08869a1d-8a42-44f0-9d9f-6faf979b238b",
       "type": "question",
       "value": {
         "latex": "En quels points sont-ils atteints ?",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "71ee664d-2ac5-4b16-8b71-49066be396be",
+      "id": "3140c3b8-dcc6-4049-8a1f-fac14bdd55e9",
       "type": "reponse",
       "value": {
         "latex": "On cherche d'abord les points stationnaires dans l'intérieur de $K$ : la fonction $f$ n'est pas dérivable en $(0,0)$, on calcule les dérivées partielles en $(x,y) \\in \\overset{\\circ}{K} \\backslash \\{(0,0)\\} = \\{(x,y)\\in \\R^2 \\mid 0< x^2+y^2 < 16\\} $ :\n\t\t\t$$\\begin{align*}\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 0\\\\\n\t\t\t\t\t\\frac{\\partial f}{\\partial y}(x,y) =0\n\t\t\t\t\\end{cases}\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\frac{x}{\\sqrt{x^2+y^2}}+2x = 0\\\\\n\t\t\t\t\t\\frac{y}{\\sqrt{x^2+y^2}} =0\n\t\t\t\t\\end{cases}\t\t\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\frac{x}{|x|} + 2x = 0\\\\\n\t\t\t\t\ty =0\n\t\t\t\t\\end{cases}\t\t\t\n\t\t\t\\end{align*}$$\nIl n'y a aucune solution à ce système d'équations (si $x>0$ alors $1+2x>0$ et si $x<0$ alors $-1+2x=0$). Donc $f$ n'admet pas de  points stationnaires sur $\\overset{\\circ}{K} \\backslash \\{(0,0)\\} $.\n\t\t\t\nLa fonction $f$ n'a donc d'autre choix que d'atteindre ses bornes en $(0,0)$ ou bien sur la frontière du domaine $K$. \n\t\t\t\nOr $f(0,0) = -3$ et pour tout $(x,y) \\in K$, $\\sqrt{x^2+y^2}+x^2 \\geq 0$ donc $f(x,y) \\geq -3 = f(0,0)$. On en déduit que \\fbox{$f$ atteint son minimum en $(0,0)$ et ce minimum vaut $-3$}.\n\t\t\t\nD'autre part, la frontière de $K$ est le cercle d'équation $x^2+y^2=16$, sur lequel $f(x,y) = 1+x^2$. On en déduit que le maximum est atteint si $x \\in \\{-4,4\\}$, ce qui impose $y=0$. Le \\fbox{maximum est donc atteint aux points $(-4,0)$ et $(4,0)$}, la valeur de ce maximum est $17$.",

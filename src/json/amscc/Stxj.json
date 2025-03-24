@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Développement en série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:55.814Z"
+    "updatedAt": "2025-03-24T17:14:30.545Z"
   },
   "contenu": [
     {
-      "id": "2724a6ba-7b69-4320-927c-8a75633728ab",
+      "id": "c7d4cfc9-7b3e-4aba-9ce2-9265583b0eb3",
       "type": "question",
       "value": {
         "latex": "Développer en série entière la fonction de la variable réelle suivante : $$f \\colon x \\mapsto \\ln(x^2-5x+6)$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "673d9053-91c5-4ebb-b759-69c894202079",
+      "id": "ef86259e-c379-4f8b-99e9-82849e1602e1",
       "type": "reponse",
       "value": {
         "latex": "Pour tout réel $x$, $x^2 -5x+6=(x-2)(x-3)$ et donc si $x < 2$, $x^2-5x+6>0$. Pour $x\\in ]-2,2[$,\n\t\n\t\\begin{center}\n\t\t$\\ln(x^2-5x+6)=\\ln(2-x)+\\ln(3-x)=\\ln(6)+\\ln\\left(1-\\frac{x}{2}\\right)+\\ln\\left(1-\\frac{x}{3}\\right)$,\n\t\\end{center}\n\t\n\tet puisque pour $x$ dans $]-2,2[$, $\\frac{x}{2}$ et $\\frac{x}{3}$ sont dans $]-1,1[$, \n\t\n\t\\begin{center}\n\t\t$\\ln(x^2-5x+6)=\\ln(6)-\\sum_{n=1}^{+\\infty}\\left(\\frac{1}{2^n}+\\frac {1}{3^n}\\right)\\frac{x^n}{n}$,\n\t\\end{center}\n\t\n\tEn résumé, la fonction $f$ est développable en série entière et on vérifie avec la règle de d'Alembert que son rayon de convergence est $R = 2$.",

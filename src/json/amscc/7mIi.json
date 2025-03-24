@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-31",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:40.935Z"
+    "updatedAt": "2025-03-24T17:13:33.073Z"
   },
   "contenu": [
     {
-      "id": "80d6d248-6988-4205-9613-60e115a3180c",
+      "id": "fba715a5-a99a-4b3a-9657-5df1f183c793",
       "type": "description",
       "value": {
         "latex": "Soit la matrice $M = \\begin{pmatrix}\n            0&1&2\\\\\n            1&1&2\\\\\n            0&2&3\n            \\end{pmatrix}$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "43bb4823-6194-4158-95c6-4d7fe62c208f",
+      "id": "cd753eca-c27a-40e0-ab9c-d648d9b547aa",
       "type": "question",
       "value": {
         "latex": "Montrer que $M$ est inversible et calculer $M^{-1}$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "397e4734-5d0f-44d8-b812-c65eaf3ccd0d",
+      "id": "feca108a-a84a-4405-aad2-60a607f75bef",
       "type": "indication",
       "value": {
         "latex": "On pourra calculer le déterminant de $M$.",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "c7d5ea1e-385e-490a-bda8-4a4be6233211",
+      "id": "1df8617f-c503-481b-8545-345e16dadcf7",
       "type": "reponse",
       "value": {
         "latex": "On calcule le déterminant de $M$ :\n        $$\\begin{align*}\n            \\det(M) &= 0 \\times \\begin{vmatrix} 1&2\\\\2&3 \\end{vmatrix} - 1 \\times \\begin{vmatrix} 1&2\\\\0&3 \\end{vmatrix} + 2 \\times \\begin{vmatrix} 1&1\\\\0&2 \\end{vmatrix} \\\\\n            &= -1 \\times (3-0) + 2 \\times (2-0) = -3+4 = 1.\n        \\end{align*}$$\n        Donc $M$ est inversible. On calcule $M^{-1}$ :\n        $$\\begin{align*}\n            M^{-1} &= \\frac{1}{\\det(M)} \\begin{pmatrix} 3&-2&1\\\\-2&1&0\\\\1&0&-1 \\end{pmatrix} = \\begin{pmatrix} 3&-2&1\\\\-2&1&0\\\\1&0&-1 \\end{pmatrix}.\n        \\end{align*}$$",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "97cb46f5-be51-4914-a46f-371089f773ec",
+      "id": "5682ad6c-0678-490c-b44e-2a62437f8aaf",
       "type": "question",
       "value": {
         "latex": "Résoudre le système linéaire suivant : \n        $$\n        \\left\\{\\begin{aligned}\n        y+2z & =1 \\\\\n        x+y+2z & =2 \\\\\n        2y+3z & =3\n        \\end{aligned}\\right.\n        $$",

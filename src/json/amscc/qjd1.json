@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-11",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:55:33.252Z"
+    "updatedAt": "2025-03-24T17:16:57.137Z"
   },
   "contenu": [
     {
-      "id": "dfda8f40-ac69-4f38-b6a5-4a631fcc8099",
+      "id": "bc106dab-5038-47f4-9983-ec57e5cf56ba",
       "type": "question",
       "value": {
         "latex": "Soit $P=\\left(\\begin{array}{ccc}a^2 & a b & a c \\\\ a b & b^2 & b c \\\\ a c & b c & c^2\\end{array}\\right)$. Justifier que $\\operatorname{det} P=0$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "f9fc5981-014a-43ff-a636-05e3e65bed24",
+      "id": "6f9997b0-67d2-4fa8-96e7-c48a7b0f7ffa",
       "type": "reponse",
       "value": {
         "latex": "On remarque que l'on peut mettre :\n- $a$ en facteur de la première ligne ;\n- $b$ en facteur de la deuxième ligne ;\n- $c$ en facteur de la troisième ligne ;\nAinsi :\n$$\n\\operatorname{det} P=\\left|\\begin{array}{lll}\n\ta^2 & a b & a c \\\\\n\ta b & b^2 & b c \\\\\n\ta c & b c & c^2\n\\end{array}\\right|=a\\left|\\begin{array}{ccc}\n\ta & b & c \\\\\n\ta b & b^2 & b c \\\\\n\ta c & b c & c^2\n\\end{array}\\right|=a b\\left|\\begin{array}{ccc}\n\ta & b & c \\\\\n\ta & b & c \\\\\n\ta c & b c & c^2\n\\end{array}\\right|=a b c\\left|\\begin{array}{lll}\n\ta & b & c \\\\\n\ta & b & c \\\\\n\ta & b & c\n\\end{array}\\right|=0\n$$\n$\\left|\\begin{array}{lll}a & b & c \\\\ a & b & c \\\\ a & b & c\\end{array}\\right|=0$",

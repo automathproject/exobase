@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-09-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Statistique",
+    "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:08.928Z"
+    "updatedAt": "2025-03-24T17:13:13.121Z"
   },
   "contenu": [
     {
-      "id": "f20a2e3a-1448-46e7-9f1c-0a544d6f2aa6",
+      "id": "28e307f9-e232-48e7-a38b-565897bbe033",
       "type": "description",
       "value": {
         "latex": "Un centre médical mène des études statistiques sur le taux de cholestérol de son personnel, mesuré en centigramme par litre de sang. Les observations sur 20 individus supposés sains, tirés au sort, sont les suivantes :\n \n \\begin{center}\n \\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline\n{\\bf Taux de cholestérol en cg} & 120 & 160 & 200 & 240 & 280 & 320 \\\\ \\hline\n{\\bf Nombre de sujets observés} & 2   & 4   & 5   & 4   & 3   & 2   \\\\ \\hline\n\\end{tabular}\n\\end{center}\n\nLe taux de cholestérol chez un individu sain (noté $X$) est supposé suivre une loi normale.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "5af533b6-f536-403b-97ac-0ef2f7e5bd4b",
+      "id": "789d92c8-29f3-4552-a4bc-89992b74d10b",
       "type": "question",
       "value": {
         "latex": "Donner une estimation $\\overline{x}$ de l'espérance mathématique de $X$ et une estimation $s^2$ de la variance de $X$. On précisera les estimateurs choisis et on en donnera les propriétés.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "a6e5413a-729b-43fc-8a23-27e82738d8e8",
+      "id": "7bec6f02-6c40-40ba-9618-3768611114c1",
       "type": "reponse",
       "value": {
         "latex": "Avec l'estimateur usuel $\\overline{X}$, on obtient à partir de la réalisation de cet échantillon de taille $20$ une estimation $\\overline{x} = 216$. Avec l'estimateur de variance corrigée $S^2$, on obtient une estimation de la variance $s^2 \\approx 3604{,}21$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "e5e9cc15-4564-407b-b6e3-be70a2238eed",
+      "id": "f1947b4a-a1ac-430d-aa75-8366a0ac503f",
       "type": "question",
       "value": {
         "latex": "Donner l'intervalle de confiance de l'espérance de $X$, centré sur $\\overline{x}$, au risque $\\alpha=0.01$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "44f42e41-bee4-4b32-8d68-c65917131a1f",
+      "id": "29adcfa7-5d21-4e9e-ac6c-36c8bc7247c3",
       "type": "reponse",
       "value": {
         "latex": "Au vu de la taille de l'échantillon, la variable mère est supposée suivre une loi normale donc on utilise une loi de Student $St(19)$ pour calculer la réalisation de l'intervalle de confiance avec la formule du cours : on trouve $[177{,}5;254{,}5]$. \n \n\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EdFYJYRKwvBGoIULbkJQ6NkBRZn1HoiI2RaoiEOYqpaQFg?e=cQhUaa}{Feuille de calcul}",

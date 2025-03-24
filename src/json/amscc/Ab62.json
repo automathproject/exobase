@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série de Fourier",
+    "sousChapitre": "Calcul de coefficients",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:52.320Z"
+    "updatedAt": "2025-03-24T17:13:40.834Z"
   },
   "contenu": [
     {
-      "id": "49dfbe2d-aa99-4286-981b-e69e61bef4e7",
+      "id": "5d203253-552b-4f63-b99f-76a57b95f2b8",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\R \\to \\R$ la fonction $2\\pi$-périodique définie par :\n$$f(x) =\\left\\{\n\\begin{array}{cl}\n\t1&\\textrm{si $x \\in ]-\\pi;0[$}\\\\\n\t0& \\textrm{si $x =0$}\\\\\n\t-1&\\textrm{si $x \\in ]0;\\pi[$}\\end{array}\\right.$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "c0c92958-ed95-4214-bf74-b0145f4acf12",
+      "id": "ba328607-6014-43e0-bac8-7b08ce297bf2",
       "type": "question",
       "value": {
         "latex": "Représenter graphiquement l'allure de la fonction $f$ et vérifier que $f$ est une fonction impaire.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "aaf223ec-557a-44b8-9efe-201626d7ff36",
+      "id": "789a461b-0111-40f7-bfe4-08ff2332b482",
       "type": "question",
       "value": {
         "latex": "Déterminer les coefficients de Fourier trigonométriques de la fonction $f$ et en déduire sa série de Fourier. La série de Fourier est-elle égale à $f$ en tout $x \\in \\R$ ?",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "ec49de89-6c84-4802-acc2-41139a07d4f8",
+      "id": "d0ce6616-adfe-4b68-9b75-dab3db9a4ab8",
       "type": "reponse",
       "value": {
         "latex": "C'est une fonction impaire donc $a_n = 0$ pour tout $n$. Il reste à calculer :\n\t\t$$b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{0}\\,(1)\\sin(nx)dx+\\frac{1}{\\pi}\\int_{0}^{\\pi}\\,(-1)\\sin(nx)dx=\\frac{2}{n\\pi}(\\cos(n\\pi)-1).$$ soit $$b_n=\\left\\{\n\t\t\\begin{array}{cl}\n\t\t\t0&\\textrm{pour $n$ pair}\\\\\n\t\t\t\\frac{4}{n\\pi}&\\textrm{pour $n$ impair}\\end{array}\\right.$$",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:30.622Z"
+    "updatedAt": "2025-03-24T17:17:24.515Z"
   },
   "contenu": [
     {
-      "id": "aaa1092b-38a2-440d-b291-23ebbcb17f4b",
+      "id": "fd174266-00f1-4d45-b625-d671aba54a99",
       "type": "description",
       "value": {
         "latex": "On admet que $\\displaystyle e=\\sum_{n=0}^{+\\infty} \\frac{1}{n!}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "c4e56417-a5fb-4bff-a9f2-efb0b37a1e84",
+      "id": "b58162e7-ad74-4c6d-8101-14641c1ec286",
       "type": "question",
       "value": {
         "latex": "En déduire la somme : $\\displaystyle \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!}$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "4cce6fa1-564f-49b4-b1dc-7c01b1cec324",
+      "id": "875a609b-6e7b-4ef5-89da-e2ed17f371cf",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} &= \\sum_{n'=0}^{+\\infty} \\frac{1}{n'!} \\\\\n\t\t                                      &= e\n\t\t\\end{align*}$$",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "88ea6eaf-bafa-42a0-87bb-dd37632a1879",
+      "id": "872f3cbf-e709-4e68-82b1-d7e072016603",
       "type": "question",
       "value": {
         "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n+1}{n!}$",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "74977017-0620-4406-990c-7d2ffc0dbee8",
+      "id": "64b149d2-2751-4fc8-b3ac-022622a6fd79",
       "type": "reponse",
       "value": {
         "latex": "On décompose la somme en deux sommes :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n=0}^{+\\infty} \\frac{n+1}{n!} &= \\sum_{n=0}^{+\\infty} \\frac{n}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n=0}^{+\\infty} \\frac{1}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= 2e\n\t\t\\end{align*}$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "8600b79a-74b7-4e6d-b316-13e67b36ae04",
+      "id": "82d30b5b-4ec6-4d65-9c9d-36ee2c49bf0d",
       "type": "question",
       "value": {
         "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n^2-2}{n!}$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "65cdf78e-e684-476b-96a2-bb4ccb455e6f",
+      "id": "25062bf5-386b-4bf2-b695-9465b877daa2",
       "type": "reponse",
       "value": {
         "latex": "On décompose la somme en deux sommes :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n\\geq0} \\frac{n^2-2}{n!} &= \\sum_{n\\geq0} \\frac{n^2}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n-1+1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq 1} \\frac{1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq 0} \\frac{1}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= 0\n\t\t\\end{align*}$$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "25173567-1c5a-4c15-8992-9cffef5b8a05",
+      "id": "a852af43-ee7c-45c1-a41d-6930033cb500",
       "type": "question",
       "value": {
         "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n^3}{n!}$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "bbdecfb1-6118-4161-bd88-1a766b643b92",
+      "id": "535da659-ef6a-4dee-9362-5592ca1880fb",
       "type": "reponse",
       "value": {
         "latex": "On simplifie :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n\\geq0} \\frac{n^3}{n!} &= \\sum_{n\\geq0} \\frac{n^2}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n(n-1)+n-1+1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n(n-1)}{(n-1)!} + \\sum_{n\\geq1} \\frac{n-1}{(n-1)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{n}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{n-2+2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq3} \\frac{1}{(n-3)!} + \\sum_{n\\geq2} \\frac{2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq0} \\frac{1}{n!} + 2\\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= 5e\n\t\t\\end{align*}$$",

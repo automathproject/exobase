@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-11",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Déterminant, système linéaire",
+    "sousChapitre": "Calcul de déterminants",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:18.731Z"
+    "updatedAt": "2025-03-24T17:17:16.611Z"
   },
   "contenu": [
     {
-      "id": "0508f062-4c59-4668-8a3d-d5f3cded0324",
+      "id": "08e30685-b985-48f9-9b67-89d4e855399f",
       "type": "question",
       "value": {
         "latex": "Sans calculs (ou presque), justifier que les déterminants suivants sont nuls. \n$$\n\\Delta_1=\\begin{vmatrix}\n\t2 & 3 & 0 & 7 \\\\\n\t16 & 25 & 31 & 12 \\\\\n\t0 & 0 & 0 & 0 \\\\\n\t1 & -11 & 1 & 0\n\\end{vmatrix}, \\quad \\Delta_2=\\begin{vmatrix}\n\t1 & 6 & 7 & 14 \\\\\n\t-1 & 1 & 0 & 0 \\\\\n\t2 & 4 & 6 & 4 \\\\\n\t0 & 1 & 1 & 2\n\\end{vmatrix}\n$$",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "d087fcb0-2c3d-4934-bebf-24de314e0892",
+      "id": "c9e02d38-be66-485f-83be-dd845d00a36e",
       "type": "indication",
       "value": {
         "latex": "Voir si on peut former une combinaison linéaire de lignes ou de colonnes qui donne $0$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "f0c86fa4-c882-4c70-af03-e398f2a606a9",
+      "id": "0c11fef4-4dea-468e-b688-d86bf4de7868",
       "type": "reponse",
       "value": {
         "latex": "La matrice comporte une ligne de zéro donc par propriété du déterminant : $$\n\t\\Delta_1=\\left|\\begin{array}{cccc}\n\t\t2 & 3 & 0 & 7 \\\\\n\t\t16 & 25 & 31 & 12 \\\\\n\t\t0 & 0 & 0 & 0 \\\\\n\t\t1 & -11 & 1 & 0\n\t\\end{array}\\right|=0\n\t$$\n\tPour le calcul de $\\Delta_2$, on remarque que $\\mathcal{C}_3=\\mathcal{C}_1+\\mathcal{C}_2$, donc :\n\t$$\n\t\\Delta_2=\\left|\\begin{array}{cccc}\n\t\tc_1 & c_2 & c_3 & c_4 \\\\\n\t\t1 & 6 & 7 & 14 \\\\\n\t\t-1 & 1 & 0 & 0 \\\\\n\t\t2 & 4 & 6 & 4 \\\\\n\t\t0 & 1 & 1 & 2\n\t\\end{array}\\right|=0\n\t$$",

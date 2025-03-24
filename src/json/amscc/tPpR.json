@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série numérique",
+    "sousChapitre": "Séries divergentes",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:56:18.540Z"
+    "updatedAt": "2025-03-24T17:17:16.536Z"
   },
   "contenu": [
     {
-      "id": "62dd1e63-daed-4916-8593-d485223ead28",
+      "id": "8c1feec3-9747-4943-8950-2f96179049de",
       "type": "description",
       "value": {
         "latex": "En examinant la limite du terme général, montrer que les séries suivantes divergent :",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "8284b0c5-f199-40cc-a1cd-e347d8474e3b",
+      "id": "8371807e-54cf-4349-80e9-ee7d52e2b61c",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)$ ;",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "305c5674-5253-4c7a-a1a9-62fae0ea4a33",
+      "id": "d80b76d9-a46f-4530-ab7e-8a862e580e5f",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)$ : alors $u_{2n} = 1+\\cos\\left(\\frac{1}{n^2}\\right) \\xrightarrow[n \\to +\\infty]{} 1$ donc $\\lim\\limits u_n \\neq 0$ donc la série est divergente.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "b032e297-3fe0-4a9d-bc3d-b22040c785a5",
+      "id": "00182d48-6fa3-43d4-82aa-c5f951ded42e",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{(-1)^n}{1+n^{-1}}$ ;",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "56a5095d-7dc2-411f-8ca7-7b9fce15f498",
+      "id": "0b592e61-703c-4418-b4ee-32b6843e4fed",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\frac{(-1)^n}{1+n^{-1}}$ : alors $u_{2n} = \\frac{1}{1+\\frac1n} \\xrightarrow[n \\to +\\infty]{} 1$ donc $\\lim\\limits u_n \\neq 0$ donc la série est divergente.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "e06c8fcb-76c9-4802-8fd1-bed9e13cfd3a",
+      "id": "e93435cf-05d9-4de9-b4ac-3df2fca64efa",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\left(\\left(\\frac{n}{n+1}\\right)^n-1\\right)$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "b7be63d8-541c-4f8b-9dee-239351e29b6b",
+      "id": "83bd3224-0c3c-43cd-8228-6d0f57398a15",
       "type": "reponse",
       "value": {
         "latex": "Contrairement aux apparences, le terme général ne tend pas vers vers $0$. En effet : \\\\ $\\frac{n}{n+1} = \\frac{n+1-1}{n+1} = 1-\\frac{1}{n+1}$ donc $\\left(\\frac{n}{n+1}\\right)^n = e^{n\\ln\\left(1-\\frac{1}{n+1}\\right)}$. \\\\\n\t\t\tOr $\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to +\\infty}{\\sim} -\\frac{1}{n+1}$ donc $n\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to +\\infty}{\\sim} -1$. \\\\\n\t\t\tPar composition de limites, on en déduit que $\\left(\\frac{n}{n+1}\\right)^n \\xrightarrow[n \\to +\\infty]{} e^{-1} = \\frac{1}{e} \\neq 0$. Donc la série est divergente.",

@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Polynôme, fraction rationnelle",
+    "sousChapitre": "Division euclidienne",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:12.610Z"
+    "updatedAt": "2025-03-24T17:13:50.740Z"
   },
   "contenu": [
     {
-      "id": "efdfa2a0-b648-445a-8ae6-45ef2e0ef80a",
+      "id": "5e661d75-d58b-49fc-ac64-4bb12bd69f59",
       "type": "description",
       "value": {
         "latex": "Soit $P \\in \\mathbb{R}[X]$ un polynôme dont le reste de la division euclidienne par $\\left(X^2-1\\right)$ est $(X+1)$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "31c8ee09-ca04-47a5-a62c-a19cd946c553",
+      "id": "920e7c01-552b-40b2-823e-ef6d646eead2",
       "type": "question",
       "value": {
         "latex": "Quels sont les restes de la division de $P$ par $(X+1)$ ? par $(X-1)$ ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "0de9ab67-b894-4b82-914a-5969924a8f26",
+      "id": "e914bbf7-1ae1-47e6-a05c-d24f0e7b456d",
       "type": "indication",
       "value": {
         "latex": "Revenir à la définition en écrivant qu'il existe un polynôme $Q$ tel que $P(X)=Q(X) \\left(X^2-1\\right)+(X+1)$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "2356ce3c-2c34-49f5-8268-ef70628c3af4",
+      "id": "dd140a07-7b2c-43e8-acdb-f34b85fb058c",
       "type": "reponse",
       "value": {
         "latex": "On a :\n$$\nP(X)=Q(X) \\left(X^2-1\\right)+(X+1)\n$$\nQue l'on peut encore écrire :\n$$\nP(X)=Q(X) \\cdot(X-1)(X+1)+(X+1)=(X+1)[Q(X) \\cdot(X-1)+1]+0\n$$\nLe reste de la division par $(X+1)$ est 0.\n\nOn peut aussi écrire :\n$$\nP(X)=Q(X) \\cdot(X-1)(X+1)+\\underbrace{(X-1)+2}_{X+1}=(X-1)[Q(X) \\cdot(X+1)+1]+2\n$$\nLe reste de la division par $(X-1)$ est 2.",

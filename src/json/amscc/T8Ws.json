@@ -10,17 +10,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-06",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:57.881Z"
+    "updatedAt": "2025-03-24T17:14:32.476Z"
   },
   "contenu": [
     {
-      "id": "aefc7fa9-c9ad-4622-864a-cf6bcc1a3488",
+      "id": "611f2118-c90f-4700-9480-f57b4e867397",
       "type": "description",
       "value": {
         "latex": "Soit $(X,Y)$ un couple de variables aléatoires suivant une loi uniforme sur le disque unité $D$ centré en $(0,0)$.",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "7f400cd3-866b-4226-a3c0-57cbea9598e6",
+      "id": "c27a257f-503b-4196-b0cb-26236eca904f",
       "type": "question",
       "value": {
         "latex": "Déterminer le réel $\\alpha$ tel que $f \\colon (x,y) \\mapsto \\alpha \\textbf{1}_D(x,y)$ soit une densité caractérisant la loi du couple $(X,Y)$.",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "7f48e31b-df6e-44be-a417-e42bed31ce6b",
+      "id": "a44a732a-79e2-44c7-8d2d-993be931eda2",
       "type": "reponse",
       "value": {
         "latex": "Le disque $D$ a pour aire $\\pi$ donc $(X,Y)$ admet pour densité $f(x,y)=\\frac{1}{\\pi} \\textbf{1}_D(x,y)$",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "52ea2f32-10e4-49ff-83c5-ab2b6a660fcf",
+      "id": "b4cd21ee-0848-4342-add6-3d3e7da89125",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$.",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "373f52ba-83a7-471e-9306-49e05cfba67b",
+      "id": "5aa78cf8-2223-4e9e-9335-41781888aab0",
       "type": "reponse",
       "value": {
         "latex": "D'après le cours, $X$ admet pour densité $f_X$ définie par  $f_X(x) = \\int_{\\R}^{} f(x,y)dy = \\frac{1}{\\pi} \\int_{\\{y^2<1-x^2\\}}^{} dy$.\n\t\t\n\t\tOr $ y^2<1-x^2 \\iff \\begin{cases}\n\t\t-\\sqrt{1-x^2} < y < \\sqrt{1-x^2} \\\\\n\t\t-1<x<1\n\t\t\\end{cases}$ donc $$f_X(x) = \\frac{1}{\\pi} \\textbf{1}_{]-1;1[}(x)\\int_{-\\sqrt{1-x^2}}^{+\\sqrt{1-x^2}} dy =  \\frac{2}{\\pi} \\sqrt{1-x^2} \\textbf{1}_{]-1;1[}(x)$$",

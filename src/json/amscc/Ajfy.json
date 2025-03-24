@@ -11,17 +11,17 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité continue",
+    "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:50:53.223Z"
+    "updatedAt": "2025-03-24T17:13:41.276Z"
   },
   "contenu": [
     {
-      "id": "1deebb1c-a3ab-440a-9784-a12001935475",
+      "id": "77053b2e-f942-41fd-bbb9-f325ee17e15e",
       "type": "description",
       "value": {
         "latex": "Une machine produit des rondelles métalliques en grande série. Une rondelle est acceptée si son diamètre extérieur est compris entre $21.9$ et $22.1$ mm. On suppose que sur l'ensemble de la production, le diamètre extérieur des rondelles est une variable aléatoire $X$ qui suit une loi normale de moyenne $22$ mm et d'écart-type $0.05$ mm.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "f88fa2c2-e107-4132-9fa1-8a844103716b",
+      "id": "87a9b075-82e1-41ae-9a22-79f796e99536",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité $p$ qu'une pièce soit refusée ?",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "ac8139c5-9e07-41fd-bc89-e0d22c65e02e",
+      "id": "f96c04f9-5249-4187-8851-58e7900e1d4e",
       "type": "reponse",
       "value": {
         "latex": "On calcule la probabilité qu'une pièce soit acceptée\n\t\t$$\\begin{align*}\n\t\t\\prob(21.9\\leq X\\leq 22.1)\n\t\t&= \\prob(-2\\leq \\frac{X-22}{0.05}\\leq 2)\n\t\t=2\\prob(\\frac{X-22}{0.05}\\leq 2)-1\n\t\t=2\\times 0.9772-1\n\t\t=0.9544.\n\t\t\\end{align*}$$\n\t\tAinsi, la probabilité qu'une pièce soit refusée est $p=1-0.9544=0.0456$.",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "b0bb45f3-b4d0-4421-a5d2-7fe7d3847911",
+      "id": "d460c98f-b1e0-4003-b3b2-063db37bd784",
       "type": "question",
       "value": {
         "latex": "On prélève $100$ pièces. En utilisant une approximation par la loi de Poisson, donner une approximation de la probabilité qu'il y ait $k$ rondelles refusées, pour $k\\in\\{0,1,2,3,4\\}$.",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "ee6afb49-33e5-4f78-b42e-cb6d2a09df3d",
+      "id": "0ef048c9-29ab-43b0-bfc4-37a0ebc9ff5f",
       "type": "reponse",
       "value": {
         "latex": "Soit $Y$ le nombre de rondelles refusées sur les $100$ pièces. On a $Y\\sim \\mathcal{B}(100,p)$ et $\\E(Y)=100\\times p = 4.56$ donc $Y$ peut être approchée par la variable aléatoire $Z$ de loi $\\mathcal{P}(4.56)$. Ainsi,\n\t\t\\[ \\forall k \\in\\{0,\\cdots , 4\\},\\quad \\prob(Y=k)\\simeq \\prob(Z=k)=\\frac{4.56^k}{k!}e^{-4.56}.\\]\n\t\tLes résultats demandés sont dans le tableau suivant:\n\t\t\\begin{center}\n\t\t\t\\begin{tabular}{|c|c|c|c|c|c|}\n\t\t\t\t\\hline\n\t\t\t\t$k$ & 0 & 1 & 2 & 3 & 4 \\\\\n\t\t\t\t\\hline\n\t\t\t\t$\\prob(Y=k)$ & $0.0105$ & $0.0477$ & $0.1088$ & $0.1653$ & $0.1885$ \\\\\n\t\t\t\t\\hline\n\t\t\t\\end{tabular}\n\t\t\\end{center}",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "0abb7d28-1e1e-4af2-ac46-2a78589f6f79",
+      "id": "395d4c79-78ef-4c38-bcc5-1b5fb51744ef",
       "type": "question",
       "value": {
         "latex": "On prélève $\\nombre{1000}$ pièces. Proposer une approximation de la probabilité qu'il y ait au moins $50$ pièces refusées.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "12779a65-6052-4dc6-9f1c-086457fa5084",
+      "id": "402aadba-7117-4fd0-8a75-4f87676f07d2",
       "type": "reponse",
       "value": {
         "latex": "Soit $R$ le nombre de pièces refusées parmi les $\\nombre{1000}$ pièces. Alors $Z\\sim \\mathcal{B}(\\nombre{1000},p)$ qui peut être approchée par une loi Normale:\n\t\t$$\\begin{align*}\n\t\t\\prob(Y\\geq 50) \n\t\t&\\simeq \\prob(Z\\geq 49.5) \\quad \\text{ où } Z \\sim \\mathcal{N}(45.6,\\sigma^2=43.52) \\\\\n\t\t&\\simeq \\p\\left(\\frac{Z-45.6}{\\sqrt{43.52}}\\geq 0.59\\right) \\\\\n\t\t& \\simeq 1- \\p\\left(\\frac{Z-45.6}{\\sqrt{43.52}}\\leq 0.59\\right) \\\\\n\t\t&\\simeq 1-0.7224 \\\\\n\t\t&\\simeq 0.2776\n\t\t\\end{align*}$$\n\t\tIl y a donc environ $27.76$\\% de chances d'avoir au moins $50$ pièces refusées dans le lot de $\\nombre{1000}$ pièces.",

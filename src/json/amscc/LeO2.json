@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Probabilité discrète",
+    "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:51:38.864Z"
+    "updatedAt": "2025-03-24T17:14:16.986Z"
   },
   "contenu": [
     {
-      "id": "bae12e97-1282-4ed7-ab4f-29f37ef67872",
+      "id": "78295041-92a9-4382-8b51-6697c974c9ff",
       "type": "description",
       "value": {
         "latex": "On considère un dé truqué cubique dont les faces sont numérotées de $1$ à $6$. On suppose que le dé est truqué de sorte que la probabilité d'obtenir une face est proportionnelle au numéro inscrit sur cette face.\n\nSoit $X$ la variable aléatoire donnant le numéro obtenu à l'issue d'un lancer.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "dd2834d3-e415-439e-b9a0-6c577ed58369",
+      "id": "35cfa0fc-4019-4fd1-8a4f-ace54aad8bd9",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "ef711994-53c8-4153-a5f7-b824bb315ef9",
+      "id": "29f39d5e-073c-4e3a-b3a0-c5cb620dfabf",
       "type": "reponse",
       "value": {
         "latex": "D'après les informations, pour tout $k \\in \\{1,2,3,4,5,6\\}$, on a $\\prob(X=k)=k\\prob(X=1)$. Or, par définition d'une loi de probabilité, on a $\\sum_{k=1}^6 \\prob(X=k)=1$. Ainsi, on a :\n$$\\begin{align*}\n    1 &= \\sum_{k=1}^6 \\prob(X=k) \\\\\n    &= \\sum_{k=1}^6 k\\prob(X=1) \\\\\n    &= \\prob(X=1) \\sum_{k=1}^6 k \\\\\n    &= \\prob(X=1) \\times \\frac{6\\times 7}{2} \\\\\n    &= 21 \\prob(X=1).\n\\end{align*}$$\nOn en déduit que $\\prob(X=1)=\\frac{1}{21}$ et donc que pour tout $k \\in \\{1,2,3,4,5,6\\}$, on a $\\prob(X=k)=\\frac{k}{21}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "13c7f592-83b8-469d-a5df-8f2af3eaf8f6",
+      "id": "22892acb-5aa2-43d5-9a5c-2d5415b9775a",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "41635449-2fe2-4108-bf84-9f3a8de7810c",
+      "id": "b47466aa-41cf-495c-9ba6-cc5efa29ed79",
       "type": "reponse",
       "value": {
         "latex": "Par définition de l'espérance, on a : \n    $$\\begin{align*}\n        \\E(X) &= \\sum_{k=1}^6 k\\prob(X=k) \\\\\n        &= \\sum_{k=1}^6 k \\times \\frac{k}{21} \\\\\n        &= \\frac{1}{21} \\sum_{k=1}^6 k^2 \\\\\n        &= \\frac{7 \\times 13}{21} \\\\\n        &= \\frac{13}{3}.\n    \\end{align*}$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "f1d2bc24-ff7f-4c3b-9859-06a658f32b21",
+      "id": "199bc2d9-204e-49d0-8f06-3e03f439ed16",
       "type": "question",
       "value": {
         "latex": "On pose $Y=\\frac{1}{X}$. Déterminer la loi de $Y$ et calculer son espérance.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "040b601b-2964-481d-97c1-5e418bab9917",
+      "id": "695d56ab-70c8-4d78-b4f9-81aeb04b4759",
       "type": "reponse",
       "value": {
         "latex": "Les valeurs prises par $Y$ sont les inverses des valeurs prises par $X$. Ainsi, on a pour tout $k \\in \\{1,2,3,4,5,6\\}$, $\\prob\\left( Y=\\frac{1}{k} \\right) = \\prob(X=k)$.\n\n    Pour calculer l'espérance, on utilise la définition :\n\n    $$\\begin{align*}\n        \\E(Y) &= \\sum_{k=1}^6 \\frac{1}{k} \\prob\\left(Y=\\frac{1}{k}\\right) \\\\\n        &= \\sum_{k=1}^6 \\frac{1}{k} \\times \\frac{k}{21} \\\\\n        &= \\frac{1}{21} \\sum_{k=1}^6 1 \\\\\n        &= \\frac{6}{21} \\\\\n        &= \\frac{2}{7}.\n    \\end{align*}$$",

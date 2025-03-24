@@ -9,17 +9,17 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "",
-    "sousChapitre": "",
+    "chapitre": "Série entière",
+    "sousChapitre": "Calcul de la somme d'une série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-18T17:53:33.041Z"
+    "updatedAt": "2025-03-24T17:15:42.011Z"
   },
   "contenu": [
     {
-      "id": "97360b04-53b5-4e06-b29f-5ca975f3df28",
+      "id": "06ac6e23-45ae-45b1-ac01-e005c6e85e9f",
       "type": "description",
       "value": {
         "latex": "On considère la série entière $\\displaystyle S(x)= \\sum \\frac{(3x)^n}{n^2+3n+2}$.",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "49d679af-52f8-4c90-894d-a83385660dfc",
+      "id": "320c6220-a892-49b3-aca7-b2dbbb5b4037",
       "type": "question",
       "value": {
         "latex": "Calculer son rayon de convergence $R$. Si $|x|=R$, cette série converge-t-elle ?",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "4b656538-1dcf-4929-8fda-2822ca494c2c",
+      "id": "d50bb434-cd53-46cd-97df-1aa936da0a89",
       "type": "reponse",
       "value": {
         "latex": "$R=\\frac{1}{3}$ \\\\\n\t\tPour $|x|=\\frac{1}{3}$, la série converge absolument car $\\frac{1}{n^2+3n+2} \\underset{n\\to +\\infty}\\sim \\frac{1}{n^2}$.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "1ac5c218-52c0-4e0f-8411-b5991e2b5610",
+      "id": "f0c596cf-d251-469d-924c-ddfa364c58e6",
       "type": "question",
       "value": {
         "latex": "Décomposer la fraction rationnelle $\\displaystyle \\frac{1}{n^2+3n+2}$ en éléments simples, c'est-à-dire trouver les réels $\\alpha$ et $\\beta$ tels que $\\frac{1}{n^2+3n+2}=\\frac{\\alpha}{n+1}+\\frac{\\beta}{n+2}$.",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "74836e81-7c7d-4209-8927-fac810c4b25f",
+      "id": "84b60c56-9b65-4205-8981-ab693a353f5a",
       "type": "reponse",
       "value": {
         "latex": "$\\alpha=1$ et $\\beta=-1$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "04609a0d-8bf8-4924-bbda-341edec4b8da",
+      "id": "65a69c59-5185-47d0-abf3-81d3fcfe4390",
       "type": "question",
       "value": {
         "latex": "Calculer la somme de la série pour $|x|<R$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "019fff13-9b0a-4527-ba79-666c3a9e868d",
+      "id": "bdbae19d-3d1d-492e-812d-c40c3fb96ade",
       "type": "reponse",
       "value": {
         "latex": "Soit $|x|<R$. On a\n\t\t\\[S(x)=\\frac{1}{3x}\\ln(1-3x)\\left(\\frac{1}{3x}-1\\right) +\\frac{1}{3x}. \\]",
