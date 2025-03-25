@@ -1,0 +1,79 @@
+{
+  "uuid": "hSGF",
+  "titre": "Continuité de Fonctions",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Grégoire Menet",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-25T21:01:14.626Z"
+  },
+  "contenu": [
+    {
+      "id": "0a478f04-9d2d-4ca4-9d25-05d85980ca71",
+      "type": "description",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "9724dff2-464f-442c-8136-5042bc5c114f",
+      "type": "question",
+      "value": {
+        "latex": "La fonction $f$ définie sur $\\R^2$ par $f(x,y)=\\frac{xy}{\\sqrt{x^2+y^2}}$ si $(x,y)\\neq(0,0)$ et $f(0,0)=0$ est-elle continue en $(0,0)$ ?",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> définie sur <span\nclass=\"math inline\">\\(\\R^2\\)</span> par <span\nclass=\"math inline\">\\(f(x,y)=\\frac{xy}{\\sqrt{x^2+y^2}}\\)</span> si <span\nclass=\"math inline\">\\((x,y)\\neq(0,0)\\)</span> et <span\nclass=\"math inline\">\\(f(0,0)=0\\)</span> est-elle continue en <span\nclass=\"math inline\">\\((0,0)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "261e8a6d-0174-46ac-81bb-3ec574c7583d",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "de686cf9-c709-4e76-b140-8a7a300e44fd",
+      "type": "reponse",
+      "value": {
+        "latex": "On passe en coordonnées polaires :\n\t\t\t$$f(r\\cos(\\theta),r\\sin(\\theta))=\\frac{r\\cos(\\theta)r\\sin(\\theta)}{\\sqrt{r^2\\cos^2(\\theta)+r^2\\sin^2(\\theta)}}=r\\cos(\\theta)\\sin(\\theta).$$\n\t\t\tDonc :\n\t\t\t$$\\left|f(r\\cos(\\theta),r\\sin(\\theta))\\right|=\\left|r\\cos(\\theta)\\sin(\\theta)\\right|\\leq r,$$\n\t\t\tavec $r$ qui tend vers 0 quand $r$ tend vers 0. Donc : $$\\lim_{(x,y)\\rightarrow (0,0)}f(x,y)=0=f(0,0).$$\n\t\t\tPar conséquent $f$ est bien continue en $(0,0)$.",
+        "html": "<p>On passe en coordonnées polaires : <span\nclass=\"math display\">\\[f(r\\cos(\\theta),r\\sin(\\theta))=\\frac{r\\cos(\\theta)r\\sin(\\theta)}{\\sqrt{r^2\\cos^2(\\theta)+r^2\\sin^2(\\theta)}}=r\\cos(\\theta)\\sin(\\theta).\\]</span>\nDonc : <span\nclass=\"math display\">\\[\\left|f(r\\cos(\\theta),r\\sin(\\theta))\\right|=\\left|r\\cos(\\theta)\\sin(\\theta)\\right|\\leq\nr,\\]</span> avec <span class=\"math inline\">\\(r\\)</span> qui tend vers 0\nquand <span class=\"math inline\">\\(r\\)</span> tend vers 0. Donc : <span\nclass=\"math display\">\\[\\lim_{(x,y)\\rightarrow\n(0,0)}f(x,y)=0=f(0,0).\\]</span> Par conséquent <span\nclass=\"math inline\">\\(f\\)</span> est bien continue en <span\nclass=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ae33fc7b-62c8-40b5-9baa-a71febc79f55",
+      "type": "question",
+      "value": {
+        "latex": "La fonction $f$ définie sur $\\R^2$ par $f(x,y)=\\frac{x+y}{\\sqrt{x^2+y^2}}$ si $(x,y)\\neq(0,0)$ et $f(0,0)=0$ est-elle continue en $(0,0)$ ?",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> définie sur <span\nclass=\"math inline\">\\(\\R^2\\)</span> par <span\nclass=\"math inline\">\\(f(x,y)=\\frac{x+y}{\\sqrt{x^2+y^2}}\\)</span> si\n<span class=\"math inline\">\\((x,y)\\neq(0,0)\\)</span> et <span\nclass=\"math inline\">\\(f(0,0)=0\\)</span> est-elle continue en <span\nclass=\"math inline\">\\((0,0)\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "756bd0b1-3ff5-4bbf-b3dd-06a7d6eb31d1",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "d6356eb4-59e2-474e-b120-27ad0474352f",
+      "type": "reponse",
+      "value": {
+        "latex": "On considère les deux suites $(u_n)$ et $(v_n)$ de termes générales $u_n=(\\frac{1}{n},\\frac{1}{n})$ et $v_n=(0,\\frac{1}{n})$ respectivement.\n\t\t\tOn a bien $\\lim u_n=\\lim v_n=(0,0)$. Cependant $\\lim f(u_n)=\\frac{2}{\\sqrt{2}}$ et $\\lim f(v_n)=1$, comme $\\frac{2}{\\sqrt{2}}\\neq 1$ la fonction $f$ n'a pas de limite en $(0,0)$ et a fortiori n'est pas continue en $(0,0)$.",
+        "html": "<p>On considère les deux suites <span\nclass=\"math inline\">\\((u_n)\\)</span> et <span\nclass=\"math inline\">\\((v_n)\\)</span> de termes générales <span\nclass=\"math inline\">\\(u_n=(\\frac{1}{n},\\frac{1}{n})\\)</span> et <span\nclass=\"math inline\">\\(v_n=(0,\\frac{1}{n})\\)</span> respectivement. On a\nbien <span class=\"math inline\">\\(\\lim u_n=\\lim v_n=(0,0)\\)</span>.\nCependant <span class=\"math inline\">\\(\\lim\nf(u_n)=\\frac{2}{\\sqrt{2}}\\)</span> et <span class=\"math inline\">\\(\\lim\nf(v_n)=1\\)</span>, comme <span\nclass=\"math inline\">\\(\\frac{2}{\\sqrt{2}}\\neq 1\\)</span> la fonction\n<span class=\"math inline\">\\(f\\)</span> n’a pas de limite en <span\nclass=\"math inline\">\\((0,0)\\)</span> et a fortiori n’est pas continue en\n<span class=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> définie sur <span\nclass=\"math inline\">\\(\\R^2\\)</span> par <span\nclass=\"math inline\"> ..."
+}

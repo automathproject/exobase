@@ -1,0 +1,119 @@
+{
+  "uuid": "ofSt",
+  "titre": "Fonction Logarithmique",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Grégoire Menet",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-25T21:01:15.068Z"
+  },
+  "contenu": [
+    {
+      "id": "1651b4aa-3096-4a7e-b859-99c38b3c24a1",
+      "type": "description",
+      "value": {
+        "latex": "On considère la fonction définie par $f(x,y)=\\ln(4-x^2-y^2)$.",
+        "html": "<p>On considère la fonction définie par <span\nclass=\"math inline\">\\(f(x,y)=\\ln(4-x^2-y^2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "404eefac-c20a-4599-a559-16e442a123f3",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer le domaine de définition de $f$ et le représenter graphiquement.",
+        "html": "<p>Déterminer le domaine de définition de <span\nclass=\"math inline\">\\(f\\)</span> et le représenter graphiquement.</p>\n"
+      }
+    },
+    {
+      "id": "09c07ca0-1793-48fb-90d7-b8003fa1bac0",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "af1d1ad7-ca84-4107-a7d8-146a2a0e9b33",
+      "type": "reponse",
+      "value": {
+        "latex": "L'expression $f(x,y)$ existe si et seulement si $4-x^2-y^2>0$. Ainsi le domaine de définition de $f$ est :\n\t\t\t$\\mathcal{D}_f=\\left\\{\\left.(x,y)\\in \\R^2\\right|\\ x^2+y^2<4\\right\\}$. Il s'agit du disque ouvert de rayon 2 et de centre $(0,0)$.",
+        "html": "<p>L’expression <span class=\"math inline\">\\(f(x,y)\\)</span> existe si et\nseulement si <span class=\"math inline\">\\(4-x^2-y^2&gt;0\\)</span>. Ainsi\nle domaine de définition de <span class=\"math inline\">\\(f\\)</span> est :\n<span class=\"math inline\">\\(\\mathcal{D}_f=\\left\\{\\left.(x,y)\\in\n\\R^2\\right|\\ x^2+y^2&lt;4\\right\\}\\)</span>. Il s’agit du disque ouvert\nde rayon 2 et de centre <span class=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5bfdf962-47be-4fe5-aaf4-94dd3db321bc",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la courbe de niveau $k=0$ de $f$ (donner son équation et sa nature géométrique).",
+        "html": "<p>Déterminer la courbe de niveau <span\nclass=\"math inline\">\\(k=0\\)</span> de <span\nclass=\"math inline\">\\(f\\)</span> (donner son équation et sa nature\ngéométrique).</p>\n"
+      }
+    },
+    {
+      "id": "88aee6fa-a4ab-4bb6-8479-44a261679858",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "cf553dc9-c5ed-4a8a-aef2-55a8a0138b71",
+      "type": "reponse",
+      "value": {
+        "latex": "On regarde $f(x,y)=0$. Ce qui donne $4-x^2-y^2=1$, c'est à dire $x^2+y^2=3$. Il s'agit du cercle de centre $(0,0)$ et de rayon $\\sqrt{3}$.",
+        "html": "<p>On regarde <span class=\"math inline\">\\(f(x,y)=0\\)</span>. Ce qui\ndonne <span class=\"math inline\">\\(4-x^2-y^2=1\\)</span>, c’est à dire\n<span class=\"math inline\">\\(x^2+y^2=3\\)</span>. Il s’agit du cercle de\ncentre <span class=\"math inline\">\\((0,0)\\)</span> et de rayon <span\nclass=\"math inline\">\\(\\sqrt{3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5f72a062-ab15-482b-a4ca-120848feaeb7",
+      "type": "question",
+      "value": {
+        "latex": "Calculer les dérivées partielles de $f$ en un point $(x,y)$ dans le domaine de définition de $f$.",
+        "html": "<p>Calculer les dérivées partielles de <span\nclass=\"math inline\">\\(f\\)</span> en un point <span\nclass=\"math inline\">\\((x,y)\\)</span> dans le domaine de définition de\n<span class=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "857be783-2026-4015-8de9-b949bbaa123f",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "1df89bfe-a23c-4ee3-b57d-d39f75af8f92",
+      "type": "reponse",
+      "value": {
+        "latex": "On a :\n\t\t\t$$\\frac{\\partial f}{\\partial x}(x,y)=\\frac{-2x}{4-x^2-y^2}\\ \\ \\text{et}\\ \\ \\frac{\\partial f}{\\partial x}(x,y)=\\frac{-2y}{4-x^2-y^2}.$$",
+        "html": "<p>On a : <span class=\"math display\">\\[\\frac{\\partial f}{\\partial\nx}(x,y)=\\frac{-2x}{4-x^2-y^2}\\ \\ \\text{et}\\ \\ \\frac{\\partial f}{\\partial\nx}(x,y)=\\frac{-2y}{4-x^2-y^2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "94f14947-6660-43dd-af35-b81a818a797d",
+      "type": "question",
+      "value": {
+        "latex": "Parmi les figures suivantes laquelle correspond au graphe de $f$ ? Justifier votre réponse. \n\t\t$$\\begin{align*}\n\t\t\t\\includegraphics[width=200pt]{Courbe exam2}&  &\\includegraphics[width=200pt]{Courbe exam3}\\\\\n\t\t\t\\text{Figure 1} & &\\text{Figure 2}\\\\\n\t\t\t\\includegraphics[width=200pt]{Courbe exam1}& &\\includegraphics[width=200pt]{Courbe exam4}\\\\\n\t\t\t\\text{Figure 3} & &\\text{Figure 4}\\\\\n\t\t\\end{align*}$$",
+        "html": "<p>Parmi les figures suivantes laquelle correspond au graphe de <span\nclass=\"math inline\">\\(f\\)</span> ? Justifier votre réponse. <span\nclass=\"math display\">\\[\\begin{align*}\n            \\includegraphics[width=200pt]{Courbe\nexam2}&amp;  &amp;\\includegraphics[width=200pt]{Courbe exam3}\\\\\n            \\text{Figure 1} &amp; &amp;\\text{Figure 2}\\\\\n            \\includegraphics[width=200pt]{Courbe exam1}&amp;\n&amp;\\includegraphics[width=200pt]{Courbe exam4}\\\\\n            \\text{Figure 3} &amp; &amp;\\text{Figure 4}\\\\\n        \\end{align*}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3c02ecb4-7fc9-4a79-b798-402c1b896c6c",
+      "type": "reponse",
+      "value": {
+        "latex": "La figure 3 est correcte : on peut regarde $f(0,0) = \\ln(4)$ et constater que la fonction prend des valeurs positives et négatives sur son ensemble de définition.",
+        "html": "<p>La figure 3 est correcte : on peut regarde <span\nclass=\"math inline\">\\(f(0,0) = \\ln(4)\\)</span> et constater que la\nfonction prend des valeurs positives et négatives sur son ensemble de\ndéfinition.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la fonction définie par <span\nclass=\"math inline\">\\(f(x,y)=\\ln(4-x^2-y^2)\\)</span>.</p>\n"
+}

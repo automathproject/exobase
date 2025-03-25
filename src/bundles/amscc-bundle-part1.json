@@ -18148,11 +18148,11 @@
       "chapitre": "Probabilité continue",
       "sousChapitre": "Densité de probabilité",
       "organisation": "AMSCC",
-      "updatedAt": "2025-03-24T17:14:59.837Z"
+      "updatedAt": "2025-03-25T21:01:14.466Z"
     },
     "contenu": [
       {
-        "id": "a5efff07-f6d3-4d4a-8aa7-f71e0cf918ff",
+        "id": "ea4a7a87-a7d3-4331-ac87-1260386bb176",
         "type": "description",
         "value": {
           "latex": "Soit $(X,Y)$ un couple de variables aléatoires admettant pour densité la fonction $f$ définie par $$ f(x,y)=   \\frac{3}{8}(x^2+y^2) \\textbf{1}_{[-1;1]^2}(x,y)$$",
@@ -18160,7 +18160,7 @@
         }
       },
       {
-        "id": "11eadcb8-0a67-407b-abce-9ac0c3c3e2a9",
+        "id": "d38d0fd6-1844-4b25-905b-49f33fb89c22",
         "type": "question",
         "value": {
           "latex": "On cherche à déterminer la loi de $(X+Y,X-Y)$.",
@@ -18168,11 +18168,19 @@
         }
       },
       {
-        "id": "f046f423-640d-49b5-9f11-20a4d3c1c533",
+        "id": "34f91007-8dbd-4fd0-9745-3e37ada2804c",
+        "type": "indication",
+        "value": {
+          "latex": "On peut utiliser le théorème d'identification et réaliser un changement de variables $(u,v)=(x+y,x-y)$ dans l'intégrale.",
+          "html": "<p>On peut utiliser le théorème d’identification et réaliser un\nchangement de variables <span\nclass=\"math inline\">\\((u,v)=(x+y,x-y)\\)</span> dans l’intégrale.</p>\n"
+        }
+      },
+      {
+        "id": "801208a1-6f9e-43b2-b81e-09d258557e00",
         "type": "reponse",
         "value": {
-          "latex": "Pour cela, on pose $U=X+Y$, $V=X-Y$ et on étudie la loi du couple $(U,V)$. D'après le théorème de transfert, pour toute fonction $h$  continue bornée, \n\t\n\t$$\\mathbb{E}(h(U,V))= \\frac{3}{8} \\int_{[-1;1]^2}^{} h(x+y,x-y) (x^2+y^2)dxdy$$\n\t\n\tPour faire apparaître la densité de $(U,V)$, on effectue le changement de variable $$(u,v)=(x+y,x-y)$$ (c'est une bijection de classe $\\mathcal{C}^1$). La réciproque s'écrit $(x,y)=(\\frac{u+v}{2},\\frac{u-v}{2})$. La matrice jacobienne est $\\begin{pmatrix}\n\t\\frac{1}{2} & \\frac{1}{2} \\\\\n\t\\frac{1}{2} & -\\frac{1}{2} \\\\\n\t\\end{pmatrix} $ et la valeur absolue de son déterminant est $\\frac{1}{2}$. On peut donc écrire $dxdy=\\frac{1}{2}dudv$ et on a finalement :\n\t\n\t$$\\mathbb{E}(h(U,V))= \\frac{3}{8} \\int_{C}^{} h(u,v) (\\frac{u^2+v^2}{2})\\frac{1}{2}dudv$$  où $C= \\{(u,v) \\in \\R^2 \\slash -2 \\leq u+v \\leq 2 \\text{ et } -2 \\leq u-v \\leq 2 \\}$ est le carré image de $[-1;1]^2$ par le changement de variables.\n\t\n\tOn en déduit que $(U,V)$ a pour densité la fonction $g$ définie par $$g(u,v)=\\frac{3}{16}(u^2+v^2) \\textbf{1}_C(u,v)$$\n\tPour avoir indépendamment la loi de $(X+Y)$ et $(X-Y)$, il resterait à calculer les lois marginales.",
-          "html": "<p>Pour cela, on pose <span class=\"math inline\">\\(U=X+Y\\)</span>, <span\nclass=\"math inline\">\\(V=X-Y\\)</span> et on étudie la loi du couple <span\nclass=\"math inline\">\\((U,V)\\)</span>. D’après le théorème de transfert,\npour toute fonction <span class=\"math inline\">\\(h\\)</span> continue\nbornée,</p>\n<p><span class=\"math display\">\\[\\mathbb{E}(h(U,V))= \\frac{3}{8}\n\\int_{[-1;1]^2}^{} h(x+y,x-y) (x^2+y^2)dxdy\\]</span></p>\n<p>Pour faire apparaître la densité de <span\nclass=\"math inline\">\\((U,V)\\)</span>, on effectue le changement de\nvariable <span class=\"math display\">\\[(u,v)=(x+y,x-y)\\]</span> (c’est\nune bijection de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^1\\)</span>). La réciproque s’écrit\n<span\nclass=\"math inline\">\\((x,y)=(\\frac{u+v}{2},\\frac{u-v}{2})\\)</span>. La\nmatrice jacobienne est <span class=\"math inline\">\\(\\begin{pmatrix}\n    \\frac{1}{2} &amp; \\frac{1}{2} \\\\\n    \\frac{1}{2} &amp; -\\frac{1}{2} \\\\\n    \\end{pmatrix}\\)</span> et la valeur absolue de son déterminant est\n<span class=\"math inline\">\\(\\frac{1}{2}\\)</span>. On peut donc écrire\n<span class=\"math inline\">\\(dxdy=\\frac{1}{2}dudv\\)</span> et on a\nfinalement :</p>\n<p><span class=\"math display\">\\[\\mathbb{E}(h(U,V))= \\frac{3}{8}\n\\int_{C}^{} h(u,v) (\\frac{u^2+v^2}{2})\\frac{1}{2}dudv\\]</span> où <span\nclass=\"math inline\">\\(C= \\{(u,v) \\in \\R^2 \\slash -2 \\leq u+v \\leq 2\n\\text{ et } -2 \\leq u-v \\leq 2 \\}\\)</span> est le carré image de <span\nclass=\"math inline\">\\([-1;1]^2\\)</span> par le changement de\nvariables.</p>\n<p>On en déduit que <span class=\"math inline\">\\((U,V)\\)</span> a pour\ndensité la fonction <span class=\"math inline\">\\(g\\)</span> définie par\n<span class=\"math display\">\\[g(u,v)=\\frac{3}{16}(u^2+v^2)\n\\textbf{1}_C(u,v)\\]</span> Pour avoir indépendamment la loi de <span\nclass=\"math inline\">\\((X+Y)\\)</span> et <span\nclass=\"math inline\">\\((X-Y)\\)</span>, il resterait à calculer les lois\nmarginales.</p>\n"
+          "latex": "Pour cela, on pose $U=X+Y$, $V=X-Y$ et on étudie la loi du couple $(U,V)$. D'après le théorème de transfert, pour toute fonction $h$  continue bornée, \n\t\n\t$$\\mathbb{E}(h(U,V))= \\frac{3}{8} \\int_{[-1;1]^2}^{} h(x+y,x-y) (x^2+y^2)dxdy$$\n\t\n\tPour faire apparaître la densité de $(U,V)$, on effectue le changement de variable $$(u,v)=(x+y,x-y)$$ (c'est une bijection de classe $\\mathcal{C}^1$). La réciproque s'écrit $(x,y)=\\left(\\frac{u+v}{2},\\frac{u-v}{2}\\right)$. La matrice jacobienne est $\\begin{pmatrix}\n\t\\frac{1}{2} & \\frac{1}{2} \\\\\n\t\\frac{1}{2} & -\\frac{1}{2} \\\\\n\t\\end{pmatrix} $ et la valeur absolue de son déterminant est $\\frac{1}{2}$. On peut donc écrire $dxdy=\\frac{1}{2}dudv$ et on a finalement :\n\t\n\t$$\\mathbb{E}(h(U,V))= \\frac{3}{8} \\int_{C}^{} h(u,v) \\left(\\frac{u^2+v^2}{2}\\right)\\frac{1}{2}dudv$$  où $C= \\{(u,v) \\in \\R^2 \\,|\\, -2 \\leq u+v \\leq 2 \\text{ et } -2 \\leq u-v \\leq 2 \\}$ est le carré image de $[-1;1]^2$ par le changement de variables.\n\t\n\tOn en déduit que $(U,V)$ a pour densité la fonction $g$ définie par $$g(u,v)=\\frac{3}{32}(u^2+v^2) \\textbf{1}_C(u,v)$$\n\tPour avoir indépendamment la loi de $(X+Y)$ et $(X-Y)$, il resterait à calculer les lois marginales.",
+          "html": "<p>Pour cela, on pose <span class=\"math inline\">\\(U=X+Y\\)</span>, <span\nclass=\"math inline\">\\(V=X-Y\\)</span> et on étudie la loi du couple <span\nclass=\"math inline\">\\((U,V)\\)</span>. D’après le théorème de transfert,\npour toute fonction <span class=\"math inline\">\\(h\\)</span> continue\nbornée,</p>\n<p><span class=\"math display\">\\[\\mathbb{E}(h(U,V))= \\frac{3}{8}\n\\int_{[-1;1]^2}^{} h(x+y,x-y) (x^2+y^2)dxdy\\]</span></p>\n<p>Pour faire apparaître la densité de <span\nclass=\"math inline\">\\((U,V)\\)</span>, on effectue le changement de\nvariable <span class=\"math display\">\\[(u,v)=(x+y,x-y)\\]</span> (c’est\nune bijection de classe <span\nclass=\"math inline\">\\(\\mathcal{C}^1\\)</span>). La réciproque s’écrit\n<span\nclass=\"math inline\">\\((x,y)=\\left(\\frac{u+v}{2},\\frac{u-v}{2}\\right)\\)</span>.\nLa matrice jacobienne est <span class=\"math inline\">\\(\\begin{pmatrix}\n    \\frac{1}{2} &amp; \\frac{1}{2} \\\\\n    \\frac{1}{2} &amp; -\\frac{1}{2} \\\\\n    \\end{pmatrix}\\)</span> et la valeur absolue de son déterminant est\n<span class=\"math inline\">\\(\\frac{1}{2}\\)</span>. On peut donc écrire\n<span class=\"math inline\">\\(dxdy=\\frac{1}{2}dudv\\)</span> et on a\nfinalement :</p>\n<p><span class=\"math display\">\\[\\mathbb{E}(h(U,V))= \\frac{3}{8}\n\\int_{C}^{} h(u,v)\n\\left(\\frac{u^2+v^2}{2}\\right)\\frac{1}{2}dudv\\]</span> où <span\nclass=\"math inline\">\\(C= \\{(u,v) \\in \\R^2 \\,|\\, -2 \\leq u+v \\leq 2\n\\text{ et } -2 \\leq u-v \\leq 2 \\}\\)</span> est le carré image de <span\nclass=\"math inline\">\\([-1;1]^2\\)</span> par le changement de\nvariables.</p>\n<p>On en déduit que <span class=\"math inline\">\\((U,V)\\)</span> a pour\ndensité la fonction <span class=\"math inline\">\\(g\\)</span> définie par\n<span class=\"math display\">\\[g(u,v)=\\frac{3}{32}(u^2+v^2)\n\\textbf{1}_C(u,v)\\]</span> Pour avoir indépendamment la loi de <span\nclass=\"math inline\">\\((X+Y)\\)</span> et <span\nclass=\"math inline\">\\((X-Y)\\)</span>, il resterait à calculer les lois\nmarginales.</p>\n"
         }
       }
     ],

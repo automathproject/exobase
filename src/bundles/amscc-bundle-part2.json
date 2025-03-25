@@ -1450,6 +1450,85 @@
     ],
     "preview": "<p>Soit <span class=\"math inline\">\\(f\\)</span> une application de classe\n<span class=\"math inline\"> ..."
   },
+  "hSGF": {
+    "uuid": "hSGF",
+    "titre": "Continuité de Fonctions",
+    "theme": [
+      ""
+    ],
+    "niveau": "",
+    "metadata": {
+      "exo7id": "",
+      "auteur": "Grégoire Menet",
+      "createdAt": "2025-03-20",
+      "hasIndication": "",
+      "hasCorrection": "",
+      "youtube": "",
+      "chapitre": "",
+      "sousChapitre": "",
+      "organisation": "AMSCC",
+      "updatedAt": "2025-03-25T21:01:14.626Z"
+    },
+    "contenu": [
+      {
+        "id": "0a478f04-9d2d-4ca4-9d25-05d85980ca71",
+        "type": "description",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "9724dff2-464f-442c-8136-5042bc5c114f",
+        "type": "question",
+        "value": {
+          "latex": "La fonction $f$ définie sur $\\R^2$ par $f(x,y)=\\frac{xy}{\\sqrt{x^2+y^2}}$ si $(x,y)\\neq(0,0)$ et $f(0,0)=0$ est-elle continue en $(0,0)$ ?",
+          "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> définie sur <span\nclass=\"math inline\">\\(\\R^2\\)</span> par <span\nclass=\"math inline\">\\(f(x,y)=\\frac{xy}{\\sqrt{x^2+y^2}}\\)</span> si <span\nclass=\"math inline\">\\((x,y)\\neq(0,0)\\)</span> et <span\nclass=\"math inline\">\\(f(0,0)=0\\)</span> est-elle continue en <span\nclass=\"math inline\">\\((0,0)\\)</span> ?</p>\n"
+        }
+      },
+      {
+        "id": "261e8a6d-0174-46ac-81bb-3ec574c7583d",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "de686cf9-c709-4e76-b140-8a7a300e44fd",
+        "type": "reponse",
+        "value": {
+          "latex": "On passe en coordonnées polaires :\n\t\t\t$$f(r\\cos(\\theta),r\\sin(\\theta))=\\frac{r\\cos(\\theta)r\\sin(\\theta)}{\\sqrt{r^2\\cos^2(\\theta)+r^2\\sin^2(\\theta)}}=r\\cos(\\theta)\\sin(\\theta).$$\n\t\t\tDonc :\n\t\t\t$$\\left|f(r\\cos(\\theta),r\\sin(\\theta))\\right|=\\left|r\\cos(\\theta)\\sin(\\theta)\\right|\\leq r,$$\n\t\t\tavec $r$ qui tend vers 0 quand $r$ tend vers 0. Donc : $$\\lim_{(x,y)\\rightarrow (0,0)}f(x,y)=0=f(0,0).$$\n\t\t\tPar conséquent $f$ est bien continue en $(0,0)$.",
+          "html": "<p>On passe en coordonnées polaires : <span\nclass=\"math display\">\\[f(r\\cos(\\theta),r\\sin(\\theta))=\\frac{r\\cos(\\theta)r\\sin(\\theta)}{\\sqrt{r^2\\cos^2(\\theta)+r^2\\sin^2(\\theta)}}=r\\cos(\\theta)\\sin(\\theta).\\]</span>\nDonc : <span\nclass=\"math display\">\\[\\left|f(r\\cos(\\theta),r\\sin(\\theta))\\right|=\\left|r\\cos(\\theta)\\sin(\\theta)\\right|\\leq\nr,\\]</span> avec <span class=\"math inline\">\\(r\\)</span> qui tend vers 0\nquand <span class=\"math inline\">\\(r\\)</span> tend vers 0. Donc : <span\nclass=\"math display\">\\[\\lim_{(x,y)\\rightarrow\n(0,0)}f(x,y)=0=f(0,0).\\]</span> Par conséquent <span\nclass=\"math inline\">\\(f\\)</span> est bien continue en <span\nclass=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "ae33fc7b-62c8-40b5-9baa-a71febc79f55",
+        "type": "question",
+        "value": {
+          "latex": "La fonction $f$ définie sur $\\R^2$ par $f(x,y)=\\frac{x+y}{\\sqrt{x^2+y^2}}$ si $(x,y)\\neq(0,0)$ et $f(0,0)=0$ est-elle continue en $(0,0)$ ?",
+          "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> définie sur <span\nclass=\"math inline\">\\(\\R^2\\)</span> par <span\nclass=\"math inline\">\\(f(x,y)=\\frac{x+y}{\\sqrt{x^2+y^2}}\\)</span> si\n<span class=\"math inline\">\\((x,y)\\neq(0,0)\\)</span> et <span\nclass=\"math inline\">\\(f(0,0)=0\\)</span> est-elle continue en <span\nclass=\"math inline\">\\((0,0)\\)</span> ?</p>\n"
+        }
+      },
+      {
+        "id": "756bd0b1-3ff5-4bbf-b3dd-06a7d6eb31d1",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "d6356eb4-59e2-474e-b120-27ad0474352f",
+        "type": "reponse",
+        "value": {
+          "latex": "On considère les deux suites $(u_n)$ et $(v_n)$ de termes générales $u_n=(\\frac{1}{n},\\frac{1}{n})$ et $v_n=(0,\\frac{1}{n})$ respectivement.\n\t\t\tOn a bien $\\lim u_n=\\lim v_n=(0,0)$. Cependant $\\lim f(u_n)=\\frac{2}{\\sqrt{2}}$ et $\\lim f(v_n)=1$, comme $\\frac{2}{\\sqrt{2}}\\neq 1$ la fonction $f$ n'a pas de limite en $(0,0)$ et a fortiori n'est pas continue en $(0,0)$.",
+          "html": "<p>On considère les deux suites <span\nclass=\"math inline\">\\((u_n)\\)</span> et <span\nclass=\"math inline\">\\((v_n)\\)</span> de termes générales <span\nclass=\"math inline\">\\(u_n=(\\frac{1}{n},\\frac{1}{n})\\)</span> et <span\nclass=\"math inline\">\\(v_n=(0,\\frac{1}{n})\\)</span> respectivement. On a\nbien <span class=\"math inline\">\\(\\lim u_n=\\lim v_n=(0,0)\\)</span>.\nCependant <span class=\"math inline\">\\(\\lim\nf(u_n)=\\frac{2}{\\sqrt{2}}\\)</span> et <span class=\"math inline\">\\(\\lim\nf(v_n)=1\\)</span>, comme <span\nclass=\"math inline\">\\(\\frac{2}{\\sqrt{2}}\\neq 1\\)</span> la fonction\n<span class=\"math inline\">\\(f\\)</span> n’a pas de limite en <span\nclass=\"math inline\">\\((0,0)\\)</span> et a fortiori n’est pas continue en\n<span class=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+        }
+      }
+    ],
+    "preview": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> définie sur <span\nclass=\"math inline\">\\(\\R^2\\)</span> par <span\nclass=\"math inline\"> ..."
+  },
   "hWFx": {
     "uuid": "hWFx",
     "titre": "Loi conjointe",
@@ -3878,6 +3957,85 @@
     ],
     "preview": "<p>Soit une fonction <span class=\"math inline\">\\(f\\)</span> définie sur\n<span class=\"math inline\">\\(\\mathbb{R}^2\\)</span> par : <span\nclass=\"math disp ..."
   },
+  "lJaW": {
+    "uuid": "lJaW",
+    "titre": "Limite d'une Fonction",
+    "theme": [
+      ""
+    ],
+    "niveau": "",
+    "metadata": {
+      "exo7id": "",
+      "auteur": "Grégoire Menet",
+      "createdAt": "2025-03-20",
+      "hasIndication": "",
+      "hasCorrection": "",
+      "youtube": "",
+      "chapitre": "",
+      "sousChapitre": "",
+      "organisation": "AMSCC",
+      "updatedAt": "2025-03-25T21:01:14.776Z"
+    },
+    "contenu": [
+      {
+        "id": "05b4bf56-4fdb-45fa-b24c-e59115703d4d",
+        "type": "description",
+        "value": {
+          "latex": "On considère la fonction définie par $f(x,y)=\\frac{x^2y}{x^4+y^2}$. De plus on considère la suite de termes générales $u_n=\\left(\\frac{1}{n},\\frac{1}{n^2}\\right)$ pour $n\\in\\N^*$.",
+          "html": "<p>On considère la fonction définie par <span\nclass=\"math inline\">\\(f(x,y)=\\frac{x^2y}{x^4+y^2}\\)</span>. De plus on\nconsidère la suite de termes générales <span\nclass=\"math inline\">\\(u_n=\\left(\\frac{1}{n},\\frac{1}{n^2}\\right)\\)</span>\npour <span class=\"math inline\">\\(n\\in\\N^*\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "1c66e6ae-7358-4e4a-841f-26153ffc9e29",
+        "type": "question",
+        "value": {
+          "latex": "Calculer $f(u_n)$ et déterminer sa limite quand $n$ tend vers $+\\infty$.",
+          "html": "<p>Calculer <span class=\"math inline\">\\(f(u_n)\\)</span> et déterminer sa\nlimite quand <span class=\"math inline\">\\(n\\)</span> tend vers <span\nclass=\"math inline\">\\(+\\infty\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "35ab8d80-f70b-45a2-987a-97117adb5851",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "b77c94fa-725b-41d6-a206-51b59f83d43f",
+        "type": "reponse",
+        "value": {
+          "latex": "On a $f(u_n)=\\frac{\\frac{1}{n^2}\\frac{1}{n^2}}{\\frac{1}{n^4}+\\frac{1}{n^4}}=\\frac{1}{2}$. Donc $\\lim f(u_n)=\\frac{1}{2}$.",
+          "html": "<p>On a <span\nclass=\"math inline\">\\(f(u_n)=\\frac{\\frac{1}{n^2}\\frac{1}{n^2}}{\\frac{1}{n^4}+\\frac{1}{n^4}}=\\frac{1}{2}\\)</span>.\nDonc <span class=\"math inline\">\\(\\lim f(u_n)=\\frac{1}{2}\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "4008f91a-af62-449a-be18-a84a092db7b4",
+        "type": "question",
+        "value": {
+          "latex": "La fonction $f$ admet-elle une limite en $(0,0)$ ? Justifier précisément votre réponse.",
+          "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> admet-elle une\nlimite en <span class=\"math inline\">\\((0,0)\\)</span> ? Justifier\nprécisément votre réponse.</p>\n"
+        }
+      },
+      {
+        "id": "f02b426b-3cc7-4277-952d-6bcfa96d073d",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "6f4aa25d-d6aa-4ec0-a89f-d8c6b02d7be0",
+        "type": "reponse",
+        "value": {
+          "latex": "On considère $v_n=\\left(\\frac{1}{n},\\frac{1}{n}\\right)$.\n\t\t\tOn a $f(v_n)=\\frac{\\frac{1}{n^2}\\frac{1}{n}}{\\frac{1}{n^4}+\\frac{1}{n^2}}=\\frac{\\frac{1}{n}}{\\frac{1}{n^2}+1}$. Donc $\\lim f(v_n)=0$.\n\t\t\tOn a $\\lim u_n=(0,0)$ et $\\lim v_n=(0,0)$, cependant $\\lim f(u_n)\\neq \\lim f(v_n)$, donc $f$ n'admet pas de limite en $(0,0)$.",
+          "html": "<p>On considère <span\nclass=\"math inline\">\\(v_n=\\left(\\frac{1}{n},\\frac{1}{n}\\right)\\)</span>.\nOn a <span\nclass=\"math inline\">\\(f(v_n)=\\frac{\\frac{1}{n^2}\\frac{1}{n}}{\\frac{1}{n^4}+\\frac{1}{n^2}}=\\frac{\\frac{1}{n}}{\\frac{1}{n^2}+1}\\)</span>.\nDonc <span class=\"math inline\">\\(\\lim f(v_n)=0\\)</span>. On a <span\nclass=\"math inline\">\\(\\lim u_n=(0,0)\\)</span> et <span\nclass=\"math inline\">\\(\\lim v_n=(0,0)\\)</span>, cependant <span\nclass=\"math inline\">\\(\\lim f(u_n)\\neq \\lim f(v_n)\\)</span>, donc <span\nclass=\"math inline\">\\(f\\)</span> n’admet pas de limite en <span\nclass=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+        }
+      }
+    ],
+    "preview": "<p>On considère la fonction définie par <span\nclass=\"math inline\">\\(f(x,y)=\\frac{x^2y}{x^4+y^2}\\)</span>. De plus on\nconsidère la suite de termes géné ..."
+  },
   "lX53": {
     "uuid": "lX53",
     "titre": "Loi géométrique et estimation par maximum de vraisemblance",
@@ -5352,6 +5510,125 @@
       }
     ],
     "preview": "<p>Soit <span class=\"math inline\">\\(X_1,..,X_n\\)</span> des variables\naléatoires indépendantes suivant chacune une même loi exponentielle\n<span class= ..."
+  },
+  "ofSt": {
+    "uuid": "ofSt",
+    "titre": "Fonction Logarithmique",
+    "theme": [
+      ""
+    ],
+    "niveau": "",
+    "metadata": {
+      "exo7id": "",
+      "auteur": "Grégoire Menet",
+      "createdAt": "2025-03-20",
+      "hasIndication": "",
+      "hasCorrection": "",
+      "youtube": "",
+      "chapitre": "",
+      "sousChapitre": "",
+      "organisation": "AMSCC",
+      "updatedAt": "2025-03-25T21:01:15.068Z"
+    },
+    "contenu": [
+      {
+        "id": "1651b4aa-3096-4a7e-b859-99c38b3c24a1",
+        "type": "description",
+        "value": {
+          "latex": "On considère la fonction définie par $f(x,y)=\\ln(4-x^2-y^2)$.",
+          "html": "<p>On considère la fonction définie par <span\nclass=\"math inline\">\\(f(x,y)=\\ln(4-x^2-y^2)\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "404eefac-c20a-4599-a559-16e442a123f3",
+        "type": "question",
+        "value": {
+          "latex": "Déterminer le domaine de définition de $f$ et le représenter graphiquement.",
+          "html": "<p>Déterminer le domaine de définition de <span\nclass=\"math inline\">\\(f\\)</span> et le représenter graphiquement.</p>\n"
+        }
+      },
+      {
+        "id": "09c07ca0-1793-48fb-90d7-b8003fa1bac0",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "af1d1ad7-ca84-4107-a7d8-146a2a0e9b33",
+        "type": "reponse",
+        "value": {
+          "latex": "L'expression $f(x,y)$ existe si et seulement si $4-x^2-y^2>0$. Ainsi le domaine de définition de $f$ est :\n\t\t\t$\\mathcal{D}_f=\\left\\{\\left.(x,y)\\in \\R^2\\right|\\ x^2+y^2<4\\right\\}$. Il s'agit du disque ouvert de rayon 2 et de centre $(0,0)$.",
+          "html": "<p>L’expression <span class=\"math inline\">\\(f(x,y)\\)</span> existe si et\nseulement si <span class=\"math inline\">\\(4-x^2-y^2&gt;0\\)</span>. Ainsi\nle domaine de définition de <span class=\"math inline\">\\(f\\)</span> est :\n<span class=\"math inline\">\\(\\mathcal{D}_f=\\left\\{\\left.(x,y)\\in\n\\R^2\\right|\\ x^2+y^2&lt;4\\right\\}\\)</span>. Il s’agit du disque ouvert\nde rayon 2 et de centre <span class=\"math inline\">\\((0,0)\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "5bfdf962-47be-4fe5-aaf4-94dd3db321bc",
+        "type": "question",
+        "value": {
+          "latex": "Déterminer la courbe de niveau $k=0$ de $f$ (donner son équation et sa nature géométrique).",
+          "html": "<p>Déterminer la courbe de niveau <span\nclass=\"math inline\">\\(k=0\\)</span> de <span\nclass=\"math inline\">\\(f\\)</span> (donner son équation et sa nature\ngéométrique).</p>\n"
+        }
+      },
+      {
+        "id": "88aee6fa-a4ab-4bb6-8479-44a261679858",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "cf553dc9-c5ed-4a8a-aef2-55a8a0138b71",
+        "type": "reponse",
+        "value": {
+          "latex": "On regarde $f(x,y)=0$. Ce qui donne $4-x^2-y^2=1$, c'est à dire $x^2+y^2=3$. Il s'agit du cercle de centre $(0,0)$ et de rayon $\\sqrt{3}$.",
+          "html": "<p>On regarde <span class=\"math inline\">\\(f(x,y)=0\\)</span>. Ce qui\ndonne <span class=\"math inline\">\\(4-x^2-y^2=1\\)</span>, c’est à dire\n<span class=\"math inline\">\\(x^2+y^2=3\\)</span>. Il s’agit du cercle de\ncentre <span class=\"math inline\">\\((0,0)\\)</span> et de rayon <span\nclass=\"math inline\">\\(\\sqrt{3}\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "5f72a062-ab15-482b-a4ca-120848feaeb7",
+        "type": "question",
+        "value": {
+          "latex": "Calculer les dérivées partielles de $f$ en un point $(x,y)$ dans le domaine de définition de $f$.",
+          "html": "<p>Calculer les dérivées partielles de <span\nclass=\"math inline\">\\(f\\)</span> en un point <span\nclass=\"math inline\">\\((x,y)\\)</span> dans le domaine de définition de\n<span class=\"math inline\">\\(f\\)</span>.</p>\n"
+        }
+      },
+      {
+        "id": "857be783-2026-4015-8de9-b949bbaa123f",
+        "type": "indication",
+        "value": {
+          "latex": "",
+          "html": "\n"
+        }
+      },
+      {
+        "id": "1df89bfe-a23c-4ee3-b57d-d39f75af8f92",
+        "type": "reponse",
+        "value": {
+          "latex": "On a :\n\t\t\t$$\\frac{\\partial f}{\\partial x}(x,y)=\\frac{-2x}{4-x^2-y^2}\\ \\ \\text{et}\\ \\ \\frac{\\partial f}{\\partial x}(x,y)=\\frac{-2y}{4-x^2-y^2}.$$",
+          "html": "<p>On a : <span class=\"math display\">\\[\\frac{\\partial f}{\\partial\nx}(x,y)=\\frac{-2x}{4-x^2-y^2}\\ \\ \\text{et}\\ \\ \\frac{\\partial f}{\\partial\nx}(x,y)=\\frac{-2y}{4-x^2-y^2}.\\]</span></p>\n"
+        }
+      },
+      {
+        "id": "94f14947-6660-43dd-af35-b81a818a797d",
+        "type": "question",
+        "value": {
+          "latex": "Parmi les figures suivantes laquelle correspond au graphe de $f$ ? Justifier votre réponse. \n\t\t$$\\begin{align*}\n\t\t\t\\includegraphics[width=200pt]{Courbe exam2}&  &\\includegraphics[width=200pt]{Courbe exam3}\\\\\n\t\t\t\\text{Figure 1} & &\\text{Figure 2}\\\\\n\t\t\t\\includegraphics[width=200pt]{Courbe exam1}& &\\includegraphics[width=200pt]{Courbe exam4}\\\\\n\t\t\t\\text{Figure 3} & &\\text{Figure 4}\\\\\n\t\t\\end{align*}$$",
+          "html": "<p>Parmi les figures suivantes laquelle correspond au graphe de <span\nclass=\"math inline\">\\(f\\)</span> ? Justifier votre réponse. <span\nclass=\"math display\">\\[\\begin{align*}\n            \\includegraphics[width=200pt]{Courbe\nexam2}&amp;  &amp;\\includegraphics[width=200pt]{Courbe exam3}\\\\\n            \\text{Figure 1} &amp; &amp;\\text{Figure 2}\\\\\n            \\includegraphics[width=200pt]{Courbe exam1}&amp;\n&amp;\\includegraphics[width=200pt]{Courbe exam4}\\\\\n            \\text{Figure 3} &amp; &amp;\\text{Figure 4}\\\\\n        \\end{align*}\\]</span></p>\n"
+        }
+      },
+      {
+        "id": "3c02ecb4-7fc9-4a79-b798-402c1b896c6c",
+        "type": "reponse",
+        "value": {
+          "latex": "La figure 3 est correcte : on peut regarde $f(0,0) = \\ln(4)$ et constater que la fonction prend des valeurs positives et négatives sur son ensemble de définition.",
+          "html": "<p>La figure 3 est correcte : on peut regarde <span\nclass=\"math inline\">\\(f(0,0) = \\ln(4)\\)</span> et constater que la\nfonction prend des valeurs positives et négatives sur son ensemble de\ndéfinition.</p>\n"
+        }
+      }
+    ],
+    "preview": "<p>On considère la fonction définie par <span\nclass=\"math inline\">\\(f(x,y)=\\ln(4-x^2-y^2)\\)</span>.</p>\n"
   },
   "ouYw": {
     "uuid": "ouYw",
