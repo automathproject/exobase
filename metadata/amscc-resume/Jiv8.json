@@ -1,0 +1,5 @@
+{
+  "Jiv8": {
+    "resume": "L'exercice porte sur l'identification de lois de probabilité à partir de variables aléatoires indépendantes. Il évalue la capacité à : \n\n*   Reconnaître une loi du $\\chi^2$ à partir d'une somme de carrés de variables normales centrées réduites ($X = \\sum_{i=1}^{9}U_i^2 \\sim \\chi^2(9)$).\n*   Calculer un quantile d'une loi du $\\chi^2$ pour une probabilité donnée ($\\PP(X > x) = 0.05$).\n*   Identifier une loi de Student à partir d'une variable normale et d'une loi du $\\chi^2$ ($Z = \\frac{\\frac{Y-10}{3}}{\\sqrt{\\frac{X}{9}}} \\sim St(9)$).\n*   Calculer un quantile d'une loi de Student ($\\PP(Z > z) = 0.05$).\n*   Reconnaître une loi de Fisher à partir de lois du $\\chi^2$ ($W_1 = \\frac{\\frac{X}{9}}{\\frac{V}{3}} \\sim F(9,3)$ et $W_2 = \\frac{3V}{\\frac{X}{9}} \\sim F(3,9)$).\n*   Calculer un quantile d'une loi de Fisher ($\\PP(W_2 > w_2) = 0.05$)."
+  }
+}

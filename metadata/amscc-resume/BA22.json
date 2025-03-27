@@ -1,0 +1,5 @@
+{
+  "BA22": {
+    "resume": "L'exercice porte sur l'application de méthodes statistiques pour analyser le nombre de camions en panne dans une entreprise. Il évalue les compétences suivantes:\n\n*   Calcul de la moyenne ($\\bar{x}$) et de l'écart-type ($\\sigma$) d'un échantillon.\n*   Estimation ponctuelle sans biais de la moyenne ($\\mu$) et de l'écart-type ($s$) d'une population à partir d'un échantillon, en utilisant les formules $S^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (X_i - \\overline{X})^2$ et $\\overline{X} = \\frac{1}{n}\\sum_{i=1}^{n} X_i$.\n*   Détermination d'un intervalle de confiance pour la moyenne d'une population en utilisant la loi de Student, en calculant  $\\left[\\bar{x} - t_{\\alpha/2 }\\frac{s}{\\sqrt{n}};\\bar{x} + t_{\\alpha/2 }\\frac{s}{\\sqrt{n}}\\right]$.\n*   Construction et interprétation d'un test d'hypothèse unilatéral pour la moyenne, en utilisant la statistique de test $Z=\\frac{\\overline{X}-\\mu_0}{\\frac{S}{\\sqrt{n}}}$ et en comparant la valeur observée à la zone de rejet basée sur la loi de Student."
+  }
+}

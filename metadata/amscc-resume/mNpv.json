@@ -1,0 +1,5 @@
+{
+  "mNpv": {
+    "resume": "L'exercice porte sur la différentiabilité de fonctions à plusieurs variables et le calcul différentiel. Il évalue les compétences suivantes:\n\n*   **Question 1:** Démontrer la continuité et la différentiabilité d'une application bilinéaire (produit scalaire) $\\Phi(x, y) = \\langle x, y \\rangle$ et calculer sa différentielle $d\\Phi_{(x, y)}(h, k) = \\langle x, k \\rangle + \\langle y, h \\rangle$.\n*   **Question 2:** Démontrer la différentiabilité d'une application $J(X) = ||AX||^2$ et calculer sa différentielle $d_X J(h) = 2 \\langle A^TAX, h \\rangle$. Appliquer le théorème de composition pour calculer la différentielle de $G(X) = f(J(X))$: $d_X G(h) = f'(J(X)) \\cdot d_X J(h) = 2 f'(J(X)) \\langle A^TAX, h \\rangle$."
+  }
+}

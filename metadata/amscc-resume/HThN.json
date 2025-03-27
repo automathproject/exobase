@@ -1,0 +1,5 @@
+{
+  "HThN": {
+    "resume": "Cet exercice porte sur le calcul de probabilités dans le contexte de la divisibilité. Il évalue la capacité à: \n\n1.  Calculer la probabilité qu'un nombre tiré aléatoirement entre 1 et $n$ soit divisible par un nombre premier $p_i$ diviseur de $n$ : $\\prob(A_{p_i}) = \\frac{1}{p_i}$.\n\n2.  Calculer la probabilité de l'intersection d'événements de divisibilité par des nombres premiers, puis à prouver l'indépendance mutuelle de ces événements. La formule démontrée est : $\\prob(A_{p_{i_1}}\\cap A_{p_{i_2}}\\cap \\ldots\\cap A_{p_{i_k}}) = \\prod_{j=1}^k \\prob(A_{p_{i_j}})$.\n\n3. Calculer la probabilité qu'un nombre tiré aléatoirement ne soit divisible par aucun des diviseurs premiers de $n$, et d'en déduire l'expression de l'indicatrice d'Euler : $\\Phi(n)=n\\prod_{i=1}^r\\left(1-\\frac{1}{p_i}\\right)$. Cela implique de comprendre la relation entre indépendance d'événements et probabilité de leur intersection, ainsi que d'appliquer la formule des probabilités complémentaires."
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "eTDu": {
+    "resume": "L'exercice porte sur l'estimation de $\\frac{\\pi}{4}$ par deux méthodes de Monte Carlo, et compare leur efficacité via le calcul de la variance des estimateurs. La première méthode (Hit or Miss) consiste à simuler des points uniformément dans un carré et à compter ceux tombant dans un quart de disque. On demande de déterminer la loi de Bernoulli associée, de justifier l'absence de biais de l'estimateur $T_n^{(1)} = \\frac{1}{n} \\sum_{i=1}^{n} Z_i$, où $Z_i$ est une indicatrice d'appartenance au disque, de montrer sa convergence presque sûre vers $\\frac{\\pi}{4}$ via la loi forte des grands nombres, et de calculer $C^{(1)}$ tel que $V(T_n^{(1)}) = \\frac{C^{(1)}}{n}$. La deuxième méthode utilise une fonction $g(x) = \\sqrt{1-x^2}$ et des variables uniformes sur $[0,1]$. On demande de justifier que $E[g(U_1)] = \\frac{\\pi}{4}$, d'en déduire un estimateur convergent $T_n^{(2)} = \\frac{1}{n} \\sum_{i=1}^{n} g(U_i)$, de calculer $C^{(2)}$ tel que $V(T_n^{(2)}) = \\frac{C^{(2)}}{n}$, et de comparer les deux méthodes en fonction de la variance de leurs estimateurs."
+  }
+}
