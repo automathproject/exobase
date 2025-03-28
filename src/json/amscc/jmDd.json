@@ -16,7 +16,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:41.230Z"
+    "updatedAt": "2025-03-24T17:15:41.230Z",
+    "resume": "L'exercice porte sur l'étude d'une variable aléatoire continue $X$ représentant la durée de vie d'une machine composée de trois alternateurs dont la durée de vie suit une loi exponentielle de paramètre $\\lambda$. Il s'agit de : \n\n1. Déterminer la loi de probabilité de $X$ en calculant $\\mathbb{P}(X \\geq t)$ puis sa fonction de répartition $F_X(t)$ et sa densité $f_X(t)$. Calculer ensuite l'espérance de $X$, $\\mathbb{E}(X) = \\int_{-\\infty}^{+\\infty} x f_X(x) dx$.\n\n2. Calculer une probabilité conditionnelle $\\mathbb{P}(X \\geq t+h | X \\geq t)$ et déterminer sa limite quand $t$ tend vers l'infini.",
+    "competences": [
+      "calculer une probabilité conditionnelle",
+      "calculer une espérance d'une variable aléatoire continue",
+      "déterminer une fonction de densité de probabilité",
+      "appliquer la loi exponentielle",
+      "calculer une fonction de répartition"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "loi exponentielle",
+      "densité de probabilité",
+      "espérance",
+      "probabilité conditionnelle",
+      "durée de vie",
+      "fonction de répartition",
+      "variables aléatoires"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire continue",
+      "fonction de densité",
+      "fonction de répartition",
+      "loi exponentielle",
+      "espérance mathématique"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "théorie des probabilités de base",
+      "indépendance de variables aléatoires",
+      "définition et propriétés de la loi exponentielle"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

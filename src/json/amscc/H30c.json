@@ -16,7 +16,41 @@
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:00.552Z"
+    "updatedAt": "2025-03-24T17:14:00.552Z",
+    "resume": "L'exercice propose un test d'hypothèse du $\\chi^2$ pour déterminer si un dé est truqué. Il implique la création d'un tableau d'effectifs théoriques sous l'hypothèse d'une distribution uniforme, le calcul de la statistique de test $Q = \\sum_{i=1}^6 \\frac{(O_i-e_i)^2}{e_i}$, la détermination de la loi de $Q$ qui suit une loi $\\chi^2(5)$ et la comparaison de la valeur observée $Q_{obs}$ à la région critique définie par un seuil de significativité $\\alpha = 5\\%$. La conclusion consiste à accepter ou rejeter l'hypothèse nulle (le dé n'est pas truqué) en fonction de la position de $Q_{obs}$ par rapport à l'intervalle de rejet.",
+    "competences": [
+      "appliquer un test du Chi-deux",
+      "interpréter un résultat de test d'hypothèse",
+      "calculer une statistique de test",
+      "comparer une statistique observée à une valeur critique",
+      "déterminer des effectifs théoriques"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "test d'hypothèse",
+      "Chi-deux",
+      "tableur",
+      "statistique",
+      "dé",
+      "adéquation",
+      "niveau de signification",
+      "effectifs observés"
+    ],
+    "concepts_fondamentaux": [
+      "test d'adéquation",
+      "distribution du Chi-deux",
+      "hypothèse nulle",
+      "niveau de signification",
+      "degré de liberté"
+    ],
+    "prerequis": [
+      "connaissance des tests d'hypothèses",
+      "compréhension de la distribution du Chi-deux",
+      "notions de probabilités",
+      "manipulation d'un tableur (facultatif)"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20-30 minutes"
   },
   "contenu": [
     {

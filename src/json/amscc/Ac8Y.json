@@ -16,7 +16,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:40.972Z"
+    "updatedAt": "2025-03-24T17:13:40.972Z",
+    "resume": "L'exercice porte sur la loi log-normale, où $Y = e^X$ et $X$ suit une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$. Il s'agit de :\n\n1.  Calculer l'espérance $\\E(Y)$ et la variance $\\var(Y)$ de $Y$ en utilisant le théorème de transfert et les propriétés de l'espérance et de la variance. Les résultats sont $\\E(Y) = e^{\\mu + \\frac{\\sigma^2}{2}}$ et $\\var(Y) = e^{2\\mu + \\sigma^2} (e^{\\sigma^2} - 1)$.\n\n2. Déterminer la fonction de densité de $Y$ lorsque $\\mu = 0$ et $\\sigma = 1$. Cela implique de calculer la fonction de répartition $F_Y(t)$ à partir de la fonction de répartition de la loi normale standard $F_Z(t)$, puis de dériver pour obtenir la densité $f_Y(x) = \\frac{1}{x\\sqrt{2\\pi}} e^{-\\frac{(\\ln(x))^2}{2}}$ pour $x > 0$ et $0$ sinon.",
+    "competences": [
+      "appliquer le théorème de transfert pour calculer l'espérance",
+      "calculer une variance à partir de l'espérance et de l'espérance du carré",
+      "déterminer une fonction de répartition par transformation de variable",
+      "calculer une densité de probabilité par dérivation de la fonction de répartition",
+      "calculer une intégrale gaussienne"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "loi log-normale",
+      "espérance",
+      "variance",
+      "densité de probabilité",
+      "théorème de transfert",
+      "fonction de répartition",
+      "loi normale",
+      "transformation de variable"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire",
+      "espérance mathématique",
+      "variance",
+      "fonction de densité",
+      "fonction de répartition"
+    ],
+    "prerequis": [
+      "connaissance de la loi normale",
+      "calcul intégral",
+      "théorème de transfert",
+      "définition et propriétés de l'espérance et de la variance"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

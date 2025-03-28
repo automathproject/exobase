@@ -15,7 +15,39 @@
     "chapitre": "Déterminant, système linéaire",
     "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:09.839Z"
+    "updatedAt": "2025-03-24T17:17:09.839Z",
+    "resume": "L'exercice consiste à résoudre un système de quatre équations linéaires à quatre inconnues ($x, y, z, t$). La méthode utilisée est celle du pivot de Gauss, qui implique des opérations élémentaires sur les lignes de la matrice augmentée associée au système, dans le but de transformer le système initial en un système triangulaire supérieur. Une fois le système triangulaire obtenu, la résolution est achevée par substitution, permettant de déterminer les valeurs de chaque inconnue. La solution du système est l'ensemble $\\{(2,-1,1,-2)\\}$. Les compétences mises en œuvre sont la manipulation de systèmes d'équations linéaires, l'application de l'algorithme du pivot de Gauss et la résolution par substitution.",
+    "competences": [
+      "résoudre un système d'équations linéaires",
+      "appliquer la méthode du pivot de Gauss",
+      "effectuer des opérations élémentaires sur les lignes",
+      "substituer des variables dans un système d'équations",
+      "vérifier la solution d'un système linéaire"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "système linéaire",
+      "pivot de Gauss",
+      "résolution",
+      "équation",
+      "inconnue",
+      "substitution",
+      "rang",
+      "opérations élémentaires"
+    ],
+    "concepts_fondamentaux": [
+      "systèmes d'équations linéaires",
+      "méthode du pivot de Gauss",
+      "opérations sur les lignes",
+      "matrices (implicite)"
+    ],
+    "prerequis": [
+      "manipulation algébrique",
+      "arithmétique de base",
+      "notion d'équation linéaire"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

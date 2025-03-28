@@ -15,7 +15,40 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:24.918Z"
+    "updatedAt": "2025-03-24T17:14:24.918Z",
+    "resume": "L'exercice porte sur l'étude d'une variable aléatoire continue $X$ définie par sa densité. Les compétences évaluées sont :\n\n*   Détermination du paramètre $k$ pour que $f_X$ soit une densité de probabilité en utilisant la condition $\\int_{-\\infty}^{+\\infty} f_X(x) dx = 1$.\n*   Calcul de la fonction de répartition $F_X(t) = \\int_{-\\infty}^{t} f_X(x) dx$.\n*   Calcul de probabilités conditionnelles en utilisant la formule $\\mathbb{P}(A|B) = \\frac{\\mathbb{P}(A \\cap B)}{\\mathbb{P}(B)}$.\n*   Calcul de l'espérance $\\mathbb{E}(X) = \\int_{-\\infty}^{+\\infty} xf_X(x) dx$ et de la variance $\\text{Var}(X) = \\mathbb{E}(X^2) - (\\mathbb{E}(X))^2$ en utilisant le théorème de transfert $\\mathbb{E}(X^2) = \\int_{-\\infty}^{+\\infty} x^2f_X(x) dx$.\n*   Détermination de la fonction de répartition $F_Y$ d'une variable aléatoire $Y = X^2$ et déduction de sa densité par dérivation.",
+    "competences": [
+      "calculer une intégrale définie",
+      "déterminer une fonction de répartition",
+      "appliquer la formule des probabilités conditionnelles",
+      "calculer l'espérance et la variance d'une variable aléatoire",
+      "dériver une fonction de répartition pour trouver la densité"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "variable aléatoire continue",
+      "densité de probabilité",
+      "fonction de répartition",
+      "espérance",
+      "variance",
+      "probabilité conditionnelle",
+      "théorème de transfert",
+      "variable transformée"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "fonction de répartition",
+      "espérance et variance d'une variable aléatoire continue",
+      "probabilités conditionnelles"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "notion de variable aléatoire",
+      "définition d'une fonction de répartition",
+      "formule des probabilités conditionnelles"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

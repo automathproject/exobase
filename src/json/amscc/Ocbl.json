@@ -17,7 +17,43 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:23.188Z"
+    "updatedAt": "2025-03-24T17:14:23.188Z",
+    "resume": "L'exercice porte sur la convergence de suites de variables aléatoires. \n\n1.  On démontre la convergence en probabilité de $M_n = \\max(U_1,...,U_n)$ vers 1, où les $U_i$ suivent une loi uniforme sur $[0,1]$, en calculant $P(|M_n - 1| < \\epsilon)$ et en utilisant la fonction de répartition de $M_n$, $F_n(t) = t^n$ pour $t \\in [0,1]$.\n\n2. On déduit de la convergence en probabilité que $M_n$ converge presque sûrement vers 1, en utilisant le fait que la suite $(M_n(\\omega))$ est croissante et majorée. La convergence presque sûre implique alors la convergence en loi vers 1.\n\n3. On montre que $Y_n = n(1 - M_n)$ converge en loi vers une loi exponentielle de paramètre 1. Pour cela, on étudie la fonction de répartition $F_{Y_n}(t)$ et on montre qu'elle converge vers la fonction de répartition d'une loi exponentielle de paramètre 1 en utilisant la limite $\\lim_{n \\to +\\infty} (1 - t/n)^n = e^{-t}$.",
+    "competences": [
+      "calculer la fonction de répartition d'une variable aléatoire",
+      "appliquer la définition de la convergence en probabilité",
+      "appliquer la définition de la convergence en loi",
+      "démontrer la convergence en probabilité d'une suite de variables aléatoires",
+      "déduire des convergences à partir d'autres convergences"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "convergence en loi",
+      "convergence en probabilité",
+      "convergence presque sûre",
+      "loi uniforme",
+      "loi exponentielle",
+      "fonction de répartition",
+      "maximum de variables aléatoires",
+      "variables indépendantes"
+    ],
+    "concepts_fondamentaux": [
+      "convergence de variables aléatoires",
+      "fonction de répartition",
+      "indépendance de variables aléatoires",
+      "loi uniforme",
+      "loi exponentielle"
+    ],
+    "prerequis": [
+      "définition et propriétés de la loi uniforme",
+      "définition et propriétés de la loi exponentielle",
+      "notions de convergence de suites numériques",
+      "définitions des différents modes de convergence de variables aléatoires",
+      "calcul de probabilités",
+      "fonction de répartition"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

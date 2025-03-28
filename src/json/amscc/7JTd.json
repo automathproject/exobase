@@ -16,7 +16,42 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:32.881Z"
+    "updatedAt": "2025-03-24T17:13:32.881Z",
+    "resume": "L'exercice demande de démontrer que si $X$ est une variable aléatoire de fonction de répartition $F$ continue et strictement croissante sur $\\mathbb{R}$, alors $Y = F(X)$ suit une loi uniforme sur $[0, 1]$. La résolution passe par le calcul de la fonction de répartition $F_Y(t)$ de $Y$ et sa comparaison avec la fonction de répartition de la loi uniforme sur $[0,1]$. Les compétences mises en œuvre sont : manipulation de fonctions de répartition, propriétés des fonctions croissantes et continues, calcul de probabilités et reconnaissance de la loi uniforme.",
+    "competences": [
+      "démontrer qu'une variable aléatoire suit une loi uniforme",
+      "appliquer la définition de la fonction de répartition",
+      "interpréter les propriétés d'une fonction continue et strictement croissante",
+      "calculer la probabilité d'un événement impliquant une fonction de répartition",
+      "manipuler les inégalités avec des fonctions croissantes"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "fonction de répartition",
+      "loi uniforme",
+      "variable aléatoire",
+      "simulation",
+      "densité de probabilité",
+      "fonction croissante",
+      "démonstration"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire",
+      "fonction de répartition",
+      "loi uniforme",
+      "continuité",
+      "monotonie"
+    ],
+    "prerequis": [
+      "définition d'une variable aléatoire",
+      "définition d'une fonction de répartition",
+      "propriétés de la fonction de répartition",
+      "notion de loi uniforme",
+      "propriétés des fonctions continues et croissantes"
+    ],
+    "type_exercice": "Démonstration",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

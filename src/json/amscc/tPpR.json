@@ -15,7 +15,41 @@
     "chapitre": "Série numérique",
     "sousChapitre": "Séries divergentes",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:16.536Z"
+    "updatedAt": "2025-03-24T17:17:16.536Z",
+    "resume": "L'exercice porte sur la démonstration de la divergence de séries numériques en utilisant le critère de divergence basé sur la limite du terme général. Les compétences mises en œuvre sont:\n\n*   Calcul de la limite du terme général $u_n$ d'une série.\n*   Identification de sous-suites dont la limite est non nulle.\n*   Utilisation de développements limités et d'équivalents (comme $\\ln(1+x) \\sim x$ quand $x \\to 0$) pour déterminer la limite du terme général.\n*   Application du critère de divergence: si $\\lim_{n \\to \\infty} u_n \\neq 0$, alors la série $\\sum u_n$ diverge.",
+    "competences": [
+      "déterminer la limite d'une suite numérique",
+      "appliquer le critère de divergence d'une série",
+      "utiliser les équivalents de suites pour simplifier le calcul de limites",
+      "manipuler les fonctions exponentielle et logarithme",
+      "calculer des expressions avec des fonctions trigonométriques"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "série numérique",
+      "divergence",
+      "limite",
+      "terme général",
+      "équivalent",
+      "cosinus",
+      "exponentielle",
+      "logarithme"
+    ],
+    "concepts_fondamentaux": [
+      "critère de divergence",
+      "limite d'une suite",
+      "équivalent de suites",
+      "développement limité (implicite)",
+      "fonction exponentielle"
+    ],
+    "prerequis": [
+      "notion de suite numérique",
+      "limite de suites",
+      "développement limité (premiers ordres)",
+      "fonctions exponentielle et logarithme"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

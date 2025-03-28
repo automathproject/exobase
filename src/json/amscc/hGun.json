@@ -15,7 +15,42 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:37.694Z"
+    "updatedAt": "2025-03-24T17:15:37.694Z",
+    "resume": "L'exercice porte sur la manipulation de la transformée de Laplace pour déterminer la loi de la somme de variables aléatoires exponentielles indépendantes. Les compétences mises en œuvre incluent : \n\n*   Calcul de la transformée de Laplace d'une somme de variables aléatoires indépendantes: $\\mathcal{L}_t(X+Y)=\\mathcal{L}_t(X)\\mathcal{L}_t(Y)$.\n*   Calcul de la transformée de Laplace d'une variable aléatoire exponentielle.\n*   Vérification qu'une fonction est une densité de probabilité : $\\int_{\\R} f(x) dx = 1$.\n*   Calcul de la transformée de Laplace d'une variable aléatoire à densité.\n*   Utilisation de la transformée de Laplace pour identifier une loi de probabilité (unicité de la transformée de Laplace).",
+    "competences": [
+      "calculer une transformée de Laplace",
+      "appliquer les propriétés de l'indépendance pour les transformées de Laplace",
+      "calculer une intégrale impropre",
+      "vérifier qu'une fonction est une densité de probabilité",
+      "manipuler des sommes de variables aléatoires"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "transformée de Laplace",
+      "densité de probabilité",
+      "variables aléatoires indépendantes",
+      "loi exponentielle",
+      "somme de variables aléatoires",
+      "fonction indicatrice",
+      "intégration",
+      "variables aléatoires à densité"
+    ],
+    "concepts_fondamentaux": [
+      "transformée de Laplace",
+      "densité de probabilité",
+      "indépendance de variables aléatoires",
+      "loi exponentielle",
+      "variables aléatoires absolument continues"
+    ],
+    "prerequis": [
+      "calcul intégral (intégrales impropres)",
+      "probabilités (variables aléatoires à densité)",
+      "indépendance de variables aléatoires",
+      "espérance d'une variable aléatoire",
+      "fonctions indicatrices"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

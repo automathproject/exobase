@@ -16,7 +16,40 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:23.699Z"
+    "updatedAt": "2025-03-24T17:17:23.699Z",
+    "resume": "L'exercice porte sur la manipulation de couples de variables aléatoires discrètes. Il évalue la capacité à: \n1. Déterminer une probabilité inconnue $p$ à partir de la loi conjointe du couple $(X, Y)$ en utilisant le fait que la somme des probabilités doit être égale à 1.\n2. Calculer les lois marginales de $X$ et $Y$ à partir de leur loi conjointe.\n3. Vérifier l'indépendance de deux variables aléatoires discrètes $X$ et $Y$ en comparant $\\mathbb{P}(X=x, Y=y)$ et $\\mathbb{P}(X=x) \\times \\mathbb{P}(Y=y)$.\n4. Déterminer la loi d'une nouvelle variable aléatoire $D$ définie comme une fonction des variables $X$ et $Y$, soit $D=|X-Y|$. Il faut identifier les valeurs possibles de $D$ et calculer les probabilités correspondantes.",
+    "competences": [
+      "calculer des probabilités conditionnelles",
+      "déterminer les lois marginales d'un couple de variables aléatoires",
+      "vérifier l'indépendance de variables aléatoires",
+      "calculer la loi d'une variable aléatoire définie à partir d'autres",
+      "calculer la valeur d'un paramètre inconnu dans une loi de probabilité"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "variable aléatoire discrète",
+      "loi conjointe",
+      "loi marginale",
+      "indépendance",
+      "couple de variables aléatoires",
+      "tableau de probabilités"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire discrète",
+      "loi de probabilité",
+      "indépendance de variables aléatoires",
+      "loi marginale",
+      "probabilité conditionnelle"
+    ],
+    "prerequis": [
+      "définition d'une variable aléatoire discrète",
+      "notion de probabilité",
+      "calcul élémentaire de probabilités",
+      "somme des probabilités égale à 1"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

@@ -16,7 +16,40 @@
     "chapitre": "Matrice",
     "sousChapitre": "Propriétés élémentaires, généralités",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:12.273Z"
+    "updatedAt": "2025-03-24T17:15:12.273Z",
+    "resume": "Cet exercice explore la relation entre les nombres complexes et les matrices de la forme $M(a, b)=\\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$. Il évalue les compétences suivantes :\n\n1.  Calcul matriciel : Calculer le carré d'une matrice particulière $J$ et montrer que $J^2 = -I_2$.\n2.  Produit matriciel et nombres complexes : Démontrer que le produit de deux matrices $M(a, b)$ et $M(a', b')$ correspond à la matrice associée au produit des nombres complexes $(a+ib)$ et $(a'+ib')$.\n3.  Calcul de l'inverse d'une matrice : Déterminer l'inverse $A^{-1}$ d'une matrice $A = \\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ et identifier le nombre complexe associé à cette inverse.",
+    "competences": [
+      "multiplier des matrices 2x2",
+      "calculer l'inverse d'une matrice 2x2",
+      "établir un isomorphisme entre nombres complexes et matrices",
+      "appliquer les propriétés des nombres complexes",
+      "calculer le carré d'une matrice"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "matrices",
+      "nombres complexes",
+      "isomorphisme",
+      "matrice identité",
+      "inverse d'une matrice",
+      "produit matriciel",
+      "calcul matriciel",
+      "représentation matricielle"
+    ],
+    "concepts_fondamentaux": [
+      "opérations sur les nombres complexes",
+      "produit matriciel",
+      "matrice inverse",
+      "matrice identité"
+    ],
+    "prerequis": [
+      "définition et opérations sur les nombres complexes",
+      "définition et opérations sur les matrices (addition, multiplication)",
+      "notion de matrice identité",
+      "calcul matriciel de base"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

@@ -15,7 +15,39 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:04.768Z"
+    "updatedAt": "2025-03-24T17:14:04.768Z",
+    "resume": "L'exercice porte sur l'étude d'une variable aléatoire absolument continue $X$ définie par une densité $f(x) = kx(1-x)$ sur $[0,1]$ et $0$ ailleurs. \\nIl s'agit de : \\n\\n1. Déterminer la constante $k$ pour que $f$ soit une densité de probabilité, en utilisant l'intégrale $\\int_{-\\infty}^{+\\infty} f(x) dx = 1$.\\n2. Calculer la fonction de répartition $F(t) = P(X \\leq t)$ de $X$ en distinguant les cas $t \\leq 0$, $t \\in ]0,1[$ et $t \\geq 1$.\\n3. Calculer la probabilité $P(0.5 \\leq X \\leq 1)$ en utilisant la fonction de répartition $F$.\\n4. Calculer l'espérance $E(X) = \\int_{-\\infty}^{+\\infty} x f(x) dx$ et la variance $V(X) = E(X^2) - E(X)^2$, où $E(X^2) = \\int_{-\\infty}^{+\\infty} x^2 f(x) dx$.\\n5. Déterminer des fonctions $a(t)$ et $b(t)$ telles que l'événement $\\{Y \\leq t\\}$ soit équivalent à l'événement $\\{a(t) \\leq X \\leq b(t)\\}$, où $Y = X^2$.\\n6. Déterminer la fonction de répartition $F_Y(t) = P(Y \\leq t)$ et la densité de probabilité $f_Y(t)$ de $Y$ en utilisant la fonction de répartition de $X$ et la relation entre $X$ et $Y$.",
+    "competences": [
+      "calculer une intégrale définie",
+      "déterminer une fonction de répartition",
+      "appliquer le théorème de transfert",
+      "calculer une espérance mathématique",
+      "calculer une variance"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "densité de probabilité",
+      "fonction de répartition",
+      "espérance",
+      "variance",
+      "variable aléatoire",
+      "théorème de transfert",
+      "intégrale"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "fonction de répartition",
+      "espérance et variance d'une variable aléatoire continue",
+      "théorème de transfert"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "théorie des ensembles",
+      "notion de variable aléatoire"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

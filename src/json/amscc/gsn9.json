@@ -15,7 +15,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:37.190Z"
+    "updatedAt": "2025-03-24T17:15:37.190Z",
+    "resume": "L'exercice porte sur les variables aléatoires continues et leur densité. Il évalue la capacité à: \n\n1. Vérifier qu'une fonction donnée est une densité de probabilité en montrant que $f(x) \\geq 0$ et $\\int_{-\\infty}^{+\\infty} f(x)dx = 1$. Déterminer la fonction de répartition $F_X(t) = \\int_{-\\infty}^{t} f(x) dx$ associée à une densité donnée.\n2. Calculer la probabilité d'un intervalle $\\prob(a \\leq X \\leq b)$ en utilisant la fonction de répartition $F_X$, soit $\\prob(a \\leq X \\leq b) = F_X(b) - F_X(a)$. ",
+    "competences": [
+      "calculer une intégrale impropre",
+      "déterminer une fonction de répartition à partir d'une densité",
+      "appliquer la définition d'une fonction de densité de probabilité",
+      "calculer une probabilité à partir de la fonction de répartition",
+      "interpréter la fonction de répartition"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "densité de probabilité",
+      "fonction de répartition",
+      "variable aléatoire",
+      "intégrale",
+      "exponentielle",
+      "lambda",
+      "probabilité"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire continue",
+      "fonction de densité",
+      "fonction de répartition",
+      "intégrale impropre",
+      "calcul de probabilités"
+    ],
+    "prerequis": [
+      "calcul intégral (intégrales définies et impropres)",
+      "définition de variable aléatoire",
+      "définition de fonction de densité",
+      "définition de fonction de répartition"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

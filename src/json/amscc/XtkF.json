@@ -16,7 +16,41 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:50.691Z"
+    "updatedAt": "2025-03-24T17:14:50.691Z",
+    "resume": "L'exercice porte sur la recherche d'extrema d'une fonction $f(x,y) = \\sqrt{x^2+y^2}+x^2-3$ sur un domaine $K = \\{(x,y)\\in \\R^2 \\mid x^2+y^2 \\leq 16\\}$. Il s'agit de:\n\n1.  Justifier l'existence d'un minimum et d'un maximum en utilisant le théorème des valeurs extrêmes.\n2.  Déterminer les points où ces extrema sont atteints en recherchant les points stationnaires à l'intérieur de $K$ (en calculant les dérivées partielles et en résolvant le système $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$), puis en étudiant la frontière de $K$ (le cercle $x^2 + y^2 = 16$).",
+    "competences": [
+      "déterminer les extremums d'une fonction de deux variables",
+      "appliquer le théorème des valeurs extrêmes",
+      "calculer les dérivées partielles d'une fonction",
+      "résoudre un système d'équations",
+      "interpréter géométriquement le domaine de définition"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "extremums",
+      "minimum",
+      "maximum",
+      "fonction de deux variables",
+      "dérivées partielles",
+      "théorème des valeurs extrêmes",
+      "domaine fermé borné",
+      "points stationnaires"
+    ],
+    "concepts_fondamentaux": [
+      "théorème des valeurs extrêmes",
+      "dérivées partielles",
+      "points critiques",
+      "optimisation",
+      "compacité"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées, dérivées partielles)",
+      "topologie de base (ensemble fermé, borné)",
+      "continuité des fonctions",
+      "résolution de systèmes d'équations"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

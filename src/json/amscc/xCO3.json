@@ -16,7 +16,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:21.416Z"
+    "updatedAt": "2025-03-24T17:17:21.416Z",
+    "resume": "L'exercice porte sur la manipulation de densités de probabilité continues et de fonctions caractéristiques. Il évalue les compétences suivantes:\n\n*   **Détermination de la constante de normalisation** d'une densité de probabilité jointe $f(x,y)$ en utilisant l'intégrale double $\\int_{\\mathbb{R}^2} f(x,y) dxdy = 1$.\n*   **Calcul des densités marginales** $f_X(x)$ et $f_Y(y)$ à partir de la densité jointe.\n*   **Calcul des fonctions caractéristiques** $\\phi_X(t)$ et $\\phi_Y(t)$ des variables aléatoires $X$ et $Y$ en utilisant la formule $\\phi_X(t) = \\mathbb{E}(e^{itX}) = \\int_{\\mathbb{R}} e^{itx} f_X(x) dx$.\n*   **Vérification de l'indépendance** de deux variables aléatoires en comparant la densité jointe au produit des densités marginales.\n*   **Calcul de la fonction caractéristique** d'une somme de variables aléatoires $\\phi_{X+Y}(t)$ en utilisant la formule $\\phi_{X+Y}(t) = \\mathbb{E}(e^{it(X+Y)})$.\n*   **Interprétation des résultats** en lien avec l'indépendance et la fonction caractéristique du couple.",
+    "competences": [
+      "calculer une intégrale double",
+      "déterminer une densité marginale",
+      "calculer une fonction caractéristique",
+      "vérifier qu'une fonction est une densité de probabilité",
+      "appliquer le théorème de transfert"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "densité de probabilité",
+      "densité marginale",
+      "fonction caractéristique",
+      "indépendance",
+      "variables aléatoires continues",
+      "théorème de transfert",
+      "loi uniforme",
+      "intégrale"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité conjointe",
+      "densité marginale",
+      "fonction caractéristique",
+      "indépendance de variables aléatoires",
+      "théorème de transfert"
+    ],
+    "prerequis": [
+      "calcul intégral (intégrales simples et doubles)",
+      "notion de variable aléatoire continue",
+      "définition de la densité de probabilité",
+      "connaissance de la loi uniforme"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

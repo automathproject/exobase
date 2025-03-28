@@ -15,7 +15,40 @@
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:45.479Z"
+    "updatedAt": "2025-03-24T17:13:45.479Z",
+    "resume": "Cet exercice porte sur la détermination de la multiplicité d'une racine $x_0$ d'un polynôme $P(X)$ et la factorisation de $P(X)$ en produit de facteurs irréductibles. Les compétences mises en œuvre sont : \n\n*   Calcul des dérivées successives d'un polynôme.\n*   Évaluation des dérivées en un point donné pour déterminer l'ordre de multiplicité de la racine $x_0$, en utilisant le fait que si $P(x_0)=P'(x_0)=...=P^{(k-1)}(x_0)=0$ et $P^{(k)}(x_0) \neq 0$, alors $x_0$ est une racine d'ordre $k$.\n*   Factorisation du polynôme sous la forme $P(X) = (X-x_0)^k Q(X)$, où $k$ est l'ordre de multiplicité de la racine $x_0$ et $Q(X)$ est un polynôme de degré approprié.\n*   Détermination du polynôme quotient $Q(X)$ en utilisant les informations disponibles, comme la valeur de $P(0)$.",
+    "competences": [
+      "déterminer la multiplicité d'une racine d'un polynôme",
+      "factoriser un polynôme en utilisant ses racines",
+      "calculer les dérivées successives d'un polynôme",
+      "évaluer un polynôme et ses dérivées en un point donné",
+      "identifier le degré d'un polynôme"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "polynôme",
+      "racine",
+      "multiplicité",
+      "factorisation",
+      "dérivée",
+      "complexe"
+    ],
+    "concepts_fondamentaux": [
+      "polynôme",
+      "racine d'un polynôme",
+      "dérivée d'un polynôme",
+      "multiplicité d'une racine",
+      "factorisation de polynômes"
+    ],
+    "prerequis": [
+      "définition d'un polynôme",
+      "calcul des dérivées de polynômes",
+      "notion de racine d'un polynôme",
+      "arithmétique de base (addition, soustraction, multiplication)",
+      "nombres complexes (pour la deuxième question)"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20-30 minutes"
   },
   "contenu": [
     {

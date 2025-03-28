@@ -15,7 +15,42 @@
     "chapitre": "Fonction convexe",
     "sousChapitre": "Multiplicateurs de Lagrange",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:23.858Z"
+    "updatedAt": "2025-03-24T17:14:23.858Z",
+    "resume": "L'exercice porte sur l'optimisation d'une fonction $f(x,y) = xy$ sous la contrainte $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, où $a$ et $b$ sont des réels strictement positifs. Il s'agit d'appliquer la méthode des multiplicateurs de Lagrange pour trouver le maximum de $f$ sur l'ellipse définie par la contrainte. Les compétences mises en œuvre incluent :\n\n*   Calcul des gradients de $f$ et de la fonction définissant la contrainte.\n*   Application de la condition de colinéarité des gradients pour établir un système d'équations.\n*   Résolution du système d'équations pour trouver les points candidats à l'optimum.\n*   Évaluation de $f$ en ces points pour identifier le maximum.",
+    "competences": [
+      "appliquer la méthode des multiplicateurs de Lagrange",
+      "calculer des dérivées partielles",
+      "résoudre un système d'équations",
+      "interpréter géométriquement une contrainte",
+      "identifier un compact dans R^2"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "optimisation",
+      "multiplicateurs de Lagrange",
+      "contrainte",
+      "maximum",
+      "fonction à deux variables",
+      "ellipse",
+      "compact",
+      "gradient"
+    ],
+    "concepts_fondamentaux": [
+      "multiplicateurs de Lagrange",
+      "gradient",
+      "optimisation sous contrainte",
+      "compacité",
+      "extremum"
+    ],
+    "prerequis": [
+      "dérivées partielles",
+      "gradient",
+      "systèmes d'équations",
+      "notion de compact",
+      "colinéarité de vecteurs"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

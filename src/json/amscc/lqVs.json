@@ -15,7 +15,41 @@
     "chapitre": "Résolution de systèmes linéaires : méthode directe",
     "sousChapitre": "Résolution de systèmes linéaires : méthode directe",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:53.299Z"
+    "updatedAt": "2025-03-24T17:15:53.299Z",
+    "resume": "L'exercice porte sur la résolution d'un système linéaire $Ax=b$ par des méthodes itératives directes.\n\n1.  Il s'agit de démontrer la convergence de la méthode de Jacobi en vérifiant la dominance diagonale stricte de la matrice $A$. \n\n2.  Il s'agit d'appliquer la méthode de Jacobi, c'est-à-dire calculer les premières itérations $X_{n+1}=M^{-1}NX_n+M^{-1}b$, où $A=M-N$ est la décomposition de $A$ utilisée dans la méthode de Jacobi.\n\n3.  Il s'agit de montrer que $A$ est symétrique définie positive en calculant son polynôme caractéristique $P_A(X)$ et en vérifiant que ses valeurs propres sont strictement positives. On en déduit la convergence de la méthode de Gauss-Seidel.\n\n4.  Il s'agit d'appliquer la méthode de Gauss-Seidel, c'est-à-dire calculer les premières itérations.",
+    "competences": [
+      "appliquer la méthode itérative de Jacobi",
+      "démontrer la convergence de la méthode de Jacobi",
+      "calculer les valeurs propres d'une matrice",
+      "appliquer la méthode itérative de Gauss-Seidel",
+      "vérifier si une matrice est symétrique définie positive"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "système linéaire",
+      "méthode de Jacobi",
+      "méthode de Gauss-Seidel",
+      "convergence",
+      "matrice",
+      "valeur propre",
+      "analyse numérique",
+      "itération"
+    ],
+    "concepts_fondamentaux": [
+      "systèmes d'équations linéaires",
+      "méthodes itératives",
+      "matrices et valeurs propres",
+      "convergence de suites",
+      "diagonal dominance"
+    ],
+    "prerequis": [
+      "algèbre linéaire (matrices, vecteurs)",
+      "résolution de systèmes linéaires simples",
+      "notions de convergence",
+      "bases en programmation (pour la question avec Python)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

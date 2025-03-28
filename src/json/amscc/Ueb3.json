@@ -16,7 +16,39 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:36.326Z"
+    "updatedAt": "2025-03-24T17:14:36.326Z",
+    "resume": "L'exercice consiste à majorer une probabilité impliquant une variable aléatoire discrète connaissant son espérance et son écart-type. Il met en œuvre l'inégalité de Bienaymé-Tchebychev pour obtenir une borne supérieure de la probabilité que la variable aléatoire $X$ prenne une valeur inférieure ou égale à 60, sachant que $\\E(X) = 100$ et $\\sigma(X) = 8$. L'inégalité utilisée est $\\prob(|X-\\E(X)| \\geq a) \\leq \\frac{\\sigma^2(X)}{a^2}$.",
+    "competences": [
+      "appliquer l'inégalité de Bienaymé-Tchebychev",
+      "calculer une probabilité majorée",
+      "interpréter l'espérance et l'écart-type",
+      "transformer une inégalité probabiliste",
+      "calculer le carré d'un nombre"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "variable aléatoire discrète",
+      "espérance",
+      "écart-type",
+      "inégalité de Bienaymé-Tchebychev",
+      "majoration",
+      "sodas",
+      "machine"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire",
+      "espérance mathématique",
+      "écart-type",
+      "inégalité de Bienaymé-Tchebychev"
+    ],
+    "prerequis": [
+      "connaissance des variables aléatoires discrètes",
+      "définition et propriétés de l'espérance et de l'écart-type",
+      "compréhension des inégalités probabilistes"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "15 minutes"
   },
   "contenu": [
     {

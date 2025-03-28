@@ -15,7 +15,40 @@
     "chapitre": "Optimisation",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:24.878Z"
+    "updatedAt": "2025-03-24T17:13:24.878Z",
+    "resume": "L'exercice porte sur l'optimisation d'un niveau de stock en utilisant la loi normale. Il s'agit de déterminer le niveau de stock $t$ nécessaire pour satisfaire la demande avec une probabilité de 0.90, sachant que la demande suit une loi normale $\\\\mathcal{N}(\\\\mu=5000, \\\\sigma=1000)$. La résolution implique de trouver le quantile correspondant à une probabilité de 0.90 dans la loi normale centrée réduite, puis d'appliquer la transformation inverse pour obtenir la valeur de $t$.",
+    "competences": [
+      "interpréter une probabilité comme un niveau de service",
+      "appliquer la fonction de répartition de la loi normale centrée réduite",
+      "calculer un quantile d'une loi normale",
+      "modéliser une situation concrète avec une loi normale",
+      "utiliser une table ou une calculatrice pour trouver l'inverse de la fonction de répartition de la loi normale"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "optimisation",
+      "stock",
+      "loi normale",
+      "probabilité",
+      "fonction de répartition",
+      "quantile",
+      "niveau de service",
+      "demande"
+    ],
+    "concepts_fondamentaux": [
+      "loi normale",
+      "fonction de répartition",
+      "quantile",
+      "probabilité"
+    ],
+    "prerequis": [
+      "connaissance de la loi normale",
+      "compréhension de la fonction de répartition",
+      "savoir utiliser une table de la loi normale ou une calculatrice",
+      "notions de probabilités"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "15 minutes"
   },
   "contenu": [
     {

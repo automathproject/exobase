@@ -16,7 +16,41 @@
     "chapitre": "Equation différentielle",
     "sousChapitre": "Résolution d'équation différentielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:26.696Z"
+    "updatedAt": "2025-03-24T17:13:26.696Z",
+    "resume": "L'exercice porte sur l'analyse de la consistance du schéma numérique de Leapfrog pour la résolution d'une équation différentielle ordinaire $y'(t) = f(t, y(t))$, $y(0) = y_0$. Il s'agit de:\n\n1.  Justifier l'existence d'un $\\xi_n \\in [t_n, t_{n+1}]$ en utilisant le développement de Taylor pour exprimer $y(t_{n+1})$ en fonction de $y(t_n)$, $y'(t_n)$ et $y''(\\xi_n)$.\n2.  Calculer le développement de Taylor-Lagrange à l'ordre 1 de $f(t_n + \\frac{h}{2}, y(t_n) + \\frac{h}{2} f(t_n, y(t_n)))$ au voisinage de $(t_n, y(t_n))$.\n3.  Démontrer que le schéma de Leapfrog est consistant d'ordre au moins 1 en utilisant les résultats précédents.",
+    "competences": [
+      "appliquer le théorème de Taylor-Lagrange",
+      "déterminer l'ordre de consistance d'un schéma numérique",
+      "calculer un développement limité à l'ordre 1",
+      "justifier l'existence d'un point par le théorème de Taylor",
+      "interpréter la consistance d'un schéma numérique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "équation différentielle",
+      "schéma numérique",
+      "Leapfrog",
+      "consistance",
+      "ordre",
+      "Taylor-Lagrange",
+      "méthodes numériques",
+      "discrétisation"
+    ],
+    "concepts_fondamentaux": [
+      "équations différentielles ordinaires",
+      "schémas numériques",
+      "théorème de Taylor-Lagrange",
+      "ordre de consistance",
+      "développement limité"
+    ],
+    "prerequis": [
+      "connaissance des équations différentielles ordinaires",
+      "maîtrise du théorème de Taylor-Lagrange",
+      "bases du calcul différentiel (dérivées partielles)",
+      "notion de discrétisation"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

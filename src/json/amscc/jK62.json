@@ -16,7 +16,39 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:40.654Z"
+    "updatedAt": "2025-03-24T17:15:40.654Z",
+    "resume": "L'exercice porte sur l'étude de variables aléatoires discrètes dans le contexte d'un tirage avec remise de boules numérotées. Il évalue les compétences suivantes : \n\n*   **Question 1:** Définition d'une variable aléatoire de Bernoulli $X_i$ et calcul de sa probabilité $\\mathbb{P}(X_i = 0)$. Détermination de la loi de $X_i$ et calcul de son espérance $\\mathbb{E}(X_i)$ et de sa variance $\\mathbb{V}(X_i)$.\n*   **Question 2:** Calcul de la probabilité conjointe $\\mathbb{P}((X_1 = 0) \\cap (X_2 = 0))$ et vérification de l'indépendance des variables aléatoires $X_1$ et $X_2$.\n*   **Question 3:** Détermination de la loi jointe du couple $(X_1, X_2)$ et présentation sous forme de tableau.\n*   **Question 4:** Expression d'une variable aléatoire $X$ comme somme de variables de Bernoulli ($X = X_1 + X_2 + X_3 + X_4 + X_5$) et calcul de l'espérance de $X$ en utilisant la linéarité de l'espérance.",
+    "competences": [
+      "calculer des probabilités d'événements",
+      "identifier et appliquer la loi de Bernoulli",
+      "calculer l'espérance mathématique d'une variable aléatoire",
+      "calculer la variance d'une variable aléatoire",
+      "déterminer si des variables aléatoires sont indépendantes"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "variable aléatoire",
+      "loi de Bernoulli",
+      "espérance",
+      "variance",
+      "indépendance",
+      "loi jointe",
+      "tirage avec remise"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire de Bernoulli",
+      "espérance mathématique",
+      "variance",
+      "indépendance de variables aléatoires"
+    ],
+    "prerequis": [
+      "probabilités élémentaires",
+      "notion de variable aléatoire",
+      "formule de probabilité conditionnelle (implicite)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

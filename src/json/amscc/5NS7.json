@@ -15,7 +15,38 @@
     "chapitre": "Autre",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:26.315Z"
+    "updatedAt": "2025-03-24T17:13:26.315Z",
+    "resume": "L'exercice porte sur l'analyse d'un réseau de neurones simple avec deux fonctions d'activation ReLu. Il évalue la fonction d'erreur (fonction de perte) $E(a,b,c)$ pour un ensemble de données d'entraînement donné et des paramètres spécifiques. L'exercice évalue les compétences suivantes:\n\n1.  Calcul de la sortie du réseau de neurones $F(x, a, b, c)$ en utilisant la fonction ReLu implémentée.\n2.  Calcul de l'erreur $E(a, b, c)$ du réseau pour des données d'entraînement spécifiques.\n3.  Calcul des dérivées partielles $\\frac{\\partial F}{\\partial c}$, $\\frac{\\partial F}{\\partial a}$ et $\\frac{\\partial F}{\\partial b}$ de la fonction de sortie par rapport aux paramètres $a$, $b$ et $c$ pour $x=3$, ce qui met en oeuvre des techniques de rétropropagation.",
+    "competences": [
+      "calculer la valeur d'une fonction composée",
+      "calculer une dérivée partielle",
+      "appliquer la fonction ReLU",
+      "interpréter un schéma de réseau de neurones",
+      "évaluer une fonction d'erreur"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "réseau de neurones",
+      "fonction ReLU",
+      "fonction d'erreur",
+      "descente de gradient",
+      "dérivée partielle",
+      "apprentissage automatique"
+    ],
+    "concepts_fondamentaux": [
+      "fonction composée",
+      "dérivée partielle",
+      "fonction d'activation",
+      "descente de gradient",
+      "erreur quadratique"
+    ],
+    "prerequis": [
+      "dérivation de fonctions simples",
+      "calcul de fonctions",
+      "notions de base sur les réseaux de neurones (facultatif)"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

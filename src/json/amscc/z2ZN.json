@@ -15,7 +15,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:24.938Z"
+    "updatedAt": "2025-03-24T17:17:24.938Z",
+    "resume": "L'exercice porte sur la loi de Cauchy. Il s'agit de:\n\n1. Vérifier qu'une fonction $f(x) = \\frac{1}{\\pi}\\frac{1}{1+x^2}$ est une densité de probabilité en montrant que $f(x) \\geq 0$ et $\\int_{-\\infty}^{+\\infty} f(x) dx = 1$.\n2. Démontrer qu'une variable aléatoire $X$ suivant cette loi n'admet pas d'espérance, c'est-à-dire que $\\mathbb{E}(X)$ n'existe pas, en montrant que l'intégrale $\\int_{-\\infty}^{+\\infty} xf(x)dx$ diverge.\n3. Calculer la fonction de répartition $F_X(t) = P(X \\leq t) = \\int_{-\\infty}^{t} f(x) dx$.\n4. Déterminer la fonction de répartition de $Y = arctan(X)$ et identifier sa loi, qui est une loi uniforme sur l'intervalle $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. ",
+    "competences": [
+      "calculer une intégrale impropre",
+      "vérifier qu'une fonction est une densité de probabilité",
+      "calculer une fonction de répartition",
+      "déterminer la loi d'une variable aléatoire transformée",
+      "interpréter l'existence ou non d'un moment d'ordre 1"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "densité de probabilité",
+      "loi de Cauchy",
+      "fonction de répartition",
+      "variable aléatoire continue",
+      "intégrale impropre",
+      "moment d'ordre 1",
+      "loi uniforme",
+      "arctan"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "fonction de répartition",
+      "intégrale impropre",
+      "variable aléatoire continue",
+      "loi uniforme"
+    ],
+    "prerequis": [
+      "calcul intégral (intégrales impropres)",
+      "fonctions trigonométriques inverses (arctan)",
+      "définition d'une variable aléatoire à densité",
+      "définition de la fonction de répartition"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

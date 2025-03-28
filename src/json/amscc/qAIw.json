@@ -15,7 +15,39 @@
     "chapitre": "Autre",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:51.068Z"
+    "updatedAt": "2025-03-24T17:16:51.068Z",
+    "resume": "L'exercice consiste à concevoir un réseau de neurones capable d'approximer une fonction réelle $F(x)$ définie par morceaux. La fonction est définie comme suit: $F(x) = 0$ pour $x \\in (-\\infty, 2]$, $F(x) = 3$ pour $x \\in [2, 4]$, et $F(x) = 0$ pour $x \\in [4, +\\infty)$. La compétence mise en œuvre est la capacité à transposer une fonction mathématique en une architecture de réseau de neurones appropriée.",
+    "competences": [
+      "concevoir une architecture de réseau de neurones",
+      "décomposer une fonction en opérations élémentaires",
+      "appliquer des fonctions d'activation appropriées",
+      "interpréter graphiquement une fonction",
+      "représenter une fonction mathématique à l'aide d'un réseau de neurones"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "réseau de neurones",
+      "fonction réelle",
+      "représentation de fonctions",
+      "architecture de réseau",
+      "fonction d'activation",
+      "apprentissage automatique"
+    ],
+    "concepts_fondamentaux": [
+      "réseau de neurones",
+      "fonction d'activation",
+      "perceptron",
+      "architecture de réseau",
+      "approximation de fonctions"
+    ],
+    "prerequis": [
+      "algèbre linéaire de base",
+      "calcul différentiel de base",
+      "compréhension des fonctions réelles",
+      "notions de base sur les réseaux de neurones (facultatif)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

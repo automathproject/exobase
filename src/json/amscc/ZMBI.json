@@ -16,7 +16,41 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Approximation de loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:01.493Z"
+    "updatedAt": "2025-03-24T17:15:01.493Z",
+    "resume": "L'exercice porte sur l'estimation d'une probabilité $p$ (probabilité d'avoir une fille à la naissance) à partir d'observations. \n\n1.  Calcul de l'espérance $\\E(Y_n)$ et de la variance $\\sigma^2(Y_n)$ de la variable aléatoire $Y_n$ représentant la proportion de filles dans un échantillon de $n$ naissances. $Y_n$ est exprimée en fonction de $S_n \\sim \\mathcal{B}(n, p)$, avec  $\\E(Y_n) = p$ et $\\sigma^2(Y_n) = \\frac{p(1-p)}{n}$.\n\n2. Application de l'inégalité de Bienaymé-Tchebychev pour borner la probabilité que $Y_n$ s'éloigne de $p$ d'une quantité donnée $a$ : $\\prob(|Y_n - p| \\geq a) \\leq \\frac{1}{4na^2}$.\n\n3. Détermination de la taille d'échantillon $n$ nécessaire pour garantir, avec une probabilité d'au moins 99%, que $p$ se situe dans un intervalle de confiance autour de $Y_n$: $Y_n - 0.01 \\leq p \\leq Y_n + 0.01$. Cela implique de trouver $n$ tel que $\\prob(|Y_n - p| \\geq 0.01) \\leq 0.01$.\n\n4. Calcul du nombre minimal de naissances de filles à observer dans un échantillon de taille $n$ (déterminé à la question précédente) pour conclure, avec une confiance de 99%, que la probabilité d'avoir une fille est supérieure à 0.5.",
+    "competences": [
+      "appliquer l'inégalité de Bienaymé-Tchebychev",
+      "calculer l'espérance et la variance d'une variable aléatoire binomiale",
+      "interpréter une probabilité en termes d'estimation et d'intervalle de confiance",
+      "résoudre une inéquation pour déterminer une taille d'échantillon",
+      "calculer une proportion à partir d'un nombre d'observations"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "variable aléatoire",
+      "loi binomiale",
+      "estimation",
+      "inégalité de Bienaymé-Tchebychev",
+      "intervalle de confiance",
+      "proportion",
+      "approximation de loi"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire discrète",
+      "loi binomiale",
+      "espérance et variance",
+      "inégalité de Bienaymé-Tchebychev",
+      "estimation statistique"
+    ],
+    "prerequis": [
+      "notion de variable aléatoire",
+      "loi binomiale (définition, espérance, variance)",
+      "inégalité de Bienaymé-Tchebychev (énoncé et application)",
+      "calcul de probabilités"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

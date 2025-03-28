@@ -15,7 +15,40 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:56.430Z"
+    "updatedAt": "2025-03-24T17:16:56.430Z",
+    "resume": "L'exercice porte sur l'identification et la nature des extremums locaux d'une fonction $f(x,y)=x^3-3x^2y+y^3$. Il évalue la capacité à:\n\n1.  Calculer les dérivées partielles premières $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$.\n2.  Déterminer les points critiques en résolvant le système d'équations $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$.\n3.  Calculer la matrice Hessienne $H$ dont les coefficients sont les dérivées partielles secondes.  Le déterminant de la hessienne ne permet pas de conclure sur la nature des points critiques.\n4.  Déterminer la nature du point critique en étudiant le comportement de la fonction sur une courbe particulière, ici $f(x,x)$ afin de montrer qu'il s'agit d'un point selle.",
+    "competences": [
+      "résoudre un système d'équations non linéaires",
+      "calculer les dérivées partielles premières et secondes d'une fonction de deux variables",
+      "appliquer le critère de la matrice Hessienne pour déterminer la nature des points critiques",
+      "interpréter le résultat de la matrice Hessienne pour identifier les extrema locaux",
+      "évaluer le comportement d'une fonction le long d'une courbe pour étudier l'existence d'extrema"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de deux variables",
+      "dérivées partielles",
+      "points critiques",
+      "matrice Hessienne",
+      "extremums locaux",
+      "point selle",
+      "optimisation",
+      "système d'équations"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles",
+      "matrice Hessienne",
+      "points critiques",
+      "extremums locaux",
+      "systèmes d'équations"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées)",
+      "algèbre linéaire (systèmes d'équations)",
+      "fonctions à plusieurs variables"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

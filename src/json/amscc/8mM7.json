@@ -17,7 +17,41 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:37.482Z"
+    "updatedAt": "2025-03-24T17:13:37.482Z",
+    "resume": "L'exercice porte sur l'application de l'inégalité de Bienaymé-Tchebytchev et du théorème central limite pour estimer des probabilités liées à une variable aléatoire $X$ suivant une loi binomiale $\\mathcal{B}(720, \\frac{1}{6})$, représentant le nombre d'apparitions du chiffre 6 lors de 720 lancers d'un dé équilibré. Il s'agit d'abord d'encadrer la probabilité que $X$ soit dans un certain intervalle, puis de déterminer le plus petit entier $n$ tel que $\\mathbb{P}(|X-120| \\leq n) \\geq 0.9$, en utilisant les deux méthodes et enfin de comparer les résultats obtenus.",
+    "competences": [
+      "appliquer l'inégalité de Bienaymé-Tchebytchev",
+      "approximer une loi binomiale par une loi normale",
+      "calculer l'espérance et la variance d'une loi binomiale",
+      "interpréter une table de la loi normale centrée réduite",
+      "calculer des probabilités à partir d'une loi binomiale approchée par une loi normale"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "loi binomiale",
+      "loi normale",
+      "Bienaymé-Tchebytchev",
+      "théorème central limite",
+      "approximation normale",
+      "probabilité",
+      "variable aléatoire",
+      "espérance"
+    ],
+    "concepts_fondamentaux": [
+      "inégalité de Bienaymé-Tchebytchev",
+      "théorème central limite",
+      "loi binomiale",
+      "loi normale",
+      "espérance et variance d'une variable aléatoire"
+    ],
+    "prerequis": [
+      "connaissance des lois binomiale et normale",
+      "calcul d'espérance et de variance",
+      "compréhension de l'inégalité de Bienaymé-Tchebytchev et du théorème central limite",
+      "lecture de tables statistiques de la loi normale"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

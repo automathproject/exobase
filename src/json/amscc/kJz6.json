@@ -15,7 +15,41 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:41.440Z"
+    "updatedAt": "2025-03-24T17:15:41.440Z",
+    "resume": "L'exercice porte sur le calcul de probabilités d'événements dans un espace probabilisé $(\\\\Omega, \\\\mathcal{T}, \\\\prob)$. À partir des probabilités données $\\\\prob(A) = \\\\frac{1}{2}$, $\\\\prob(A \\\\cup B) = \\\\frac{7}{8}$, et $\\\\prob(\\\\overline{B}) = \\\\frac{3}{8}$, il faut déterminer : $\\\\prob(A \\\\cap B)$, $\\\\prob(\\\\overline{A} \\\\cap \\\\overline{B})$, $\\\\prob(\\\\overline{A} \\\\cup \\\\overline{B})$, et $\\\\prob(\\\\overline{A} \\\\cup B)$. Les compétences mises en œuvre sont l'utilisation des propriétés des probabilités, notamment la formule d'inclusion-exclusion, les lois de Morgan et la relation entre un événement et son complémentaire.",
+    "competences": [
+      "appliquer la formule d'inclusion-exclusion",
+      "calculer la probabilité d'un événement complémentaire",
+      "interpréter des événements ensemblistes (union, intersection)",
+      "calculer des probabilités à partir d'informations données",
+      "utiliser les lois de De Morgan"
+    ],
+    "niveau_difficulte": "facile",
+    "mots_cles": [
+      "probabilité",
+      "événements",
+      "union",
+      "intersection",
+      "complémentaire",
+      "calcul de probabilités",
+      "inclusion-exclusion",
+      "lois de De Morgan"
+    ],
+    "concepts_fondamentaux": [
+      "probabilité d'un événement",
+      "événements complémentaires",
+      "union et intersection d'événements",
+      "formule d'inclusion-exclusion",
+      "lois de De Morgan"
+    ],
+    "prerequis": [
+      "définition d'un espace probabilisé",
+      "notion d'événement",
+      "probabilité d'un événement",
+      "opérations sur les ensembles (union, intersection, complémentaire)"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "15 minutes"
   },
   "contenu": [
     {

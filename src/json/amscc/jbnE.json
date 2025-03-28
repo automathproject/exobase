@@ -15,7 +15,42 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:40.758Z"
+    "updatedAt": "2025-03-24T17:15:40.758Z",
+    "resume": "L'exercice consiste à déterminer la loi de la somme $S = X + Y$ de deux variables aléatoires $X$ et $Y$ indépendantes, chacune suivant une loi uniforme sur $[0, 1]$. La résolution implique le calcul de la densité de probabilité de $S$, notée $h(s)$, par convolution. L'intégration de la fonction indicatrice permet d'obtenir l'expression de $h(s)$ par morceaux en fonction des différentes valeurs de $s$, démontrant que la loi de $S$ est une loi triangulaire.",
+    "competences": [
+      "calculer la densité d'une somme de variables aléatoires indépendantes",
+      "appliquer la formule de convolution pour les variables aléatoires continues",
+      "interpréter une fonction indicatrice",
+      "calculer une intégrale simple",
+      "déterminer les bornes d'intégration appropriées"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "variables aléatoires",
+      "densité de probabilité",
+      "loi uniforme",
+      "convolution",
+      "somme de variables aléatoires",
+      "loi triangulaire",
+      "indépendance",
+      "fonction indicatrice"
+    ],
+    "concepts_fondamentaux": [
+      "variables aléatoires continues",
+      "densité de probabilité",
+      "indépendance de variables aléatoires",
+      "convolution",
+      "fonction indicatrice"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "notion de variable aléatoire",
+      "loi uniforme",
+      "indépendance de variables aléatoires",
+      "fonction indicatrice"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

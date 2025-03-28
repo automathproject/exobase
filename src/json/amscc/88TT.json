@@ -16,7 +16,41 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:37.111Z"
+    "updatedAt": "2025-03-24T17:13:37.111Z",
+    "resume": "L'exercice porte sur l'étude des extremums d'une fonction $f(x,y) = x^3 + y^3 - 3xy$ définie sur un domaine $\\mathcal{D} = \\{(x,y) \\in \\mathbb{R}^2 \\, , \\max(|x|,|y|) \\leq 2\\}$.\\n\\nIl s'agit de:\\n\\n1.  Identifier graphiquement le domaine $\\mathcal{D}$.\\n2.  Déterminer si $\\mathcal{D}$ est ouvert ou fermé.\\n3.  Calculer et vérifier les points critiques de $f$ dans l'intérieur de $\\mathcal{D}$ en résolvant le système $\\nabla f(x,y) = (0,0)$.\\n4.  Déterminer si $f$ admet un extremum local dans l'intérieur de $\\mathcal{D}$ en utilisant la matrice Hessienne.\\n5.  Justifier l'existence d'un maximum global et le calculer en étudiant le comportement de la fonction sur la frontière de $\\mathcal{D}$ et en comparant avec les valeurs aux points critiques.",
+    "competences": [
+      "calculer les dérivées partielles premières et secondes",
+      "déterminer les points critiques d'une fonction de deux variables",
+      "appliquer le test de la matrice Hessienne pour classifier les points critiques",
+      "interpréter la définition d'un domaine borné et fermé",
+      "appliquer le théorème des extrema liés pour trouver les extrema globaux"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de plusieurs variables",
+      "extremum local",
+      "point critique",
+      "matrice Hessienne",
+      "domaine borné",
+      "domaine fermé",
+      "optimisation",
+      "maximum global"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles",
+      "points critiques",
+      "matrice Hessienne",
+      "compacité",
+      "théorème des bornes atteintes"
+    ],
+    "prerequis": [
+      "calcul différentiel à une variable",
+      "dérivation des fonctions usuelles",
+      "notions de topologie de base dans R^2 (ouvert, fermé, borné)",
+      "calcul matriciel de base"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "90 minutes"
   },
   "contenu": [
     {

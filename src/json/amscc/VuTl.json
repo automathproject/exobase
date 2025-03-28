@@ -15,7 +15,41 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:47.543Z"
+    "updatedAt": "2025-03-24T17:14:47.543Z",
+    "resume": "L'exercice porte sur l'optimisation d'une fonction de deux variables $f(x,y) = x^4 + y^4 - 2(x-y)^2$. Il évalue les compétences suivantes:\n\n1. **Minoration de la fonction:** Détermination de constantes $\\alpha$ et $\\beta$ telles que $f(x, y) \\geq \\alpha ||(x, y)||^2 + \\beta$, où $||(x, y)||$ est la norme euclidienne. Cela implique la manipulation d'inégalités.\n\n2. **Existence d'un minimum global:** Utilisation de la minoration pour prouver que $f$ est coercive et admet donc un minimum global.\n\n3. **Calcul de la Hessienne et convexité:** Calcul de la matrice Hessienne de $f$, évaluation en $(0,0)$, et vérification si $f$ est convexe en étudiant le caractère semi-défini positif de la Hessienne.\n\n4. **Détermination et nature des points critiques:** Calcul des points critiques en résolvant $\\nabla f(x, y) = (0, 0)$, puis détermination de leur nature (minimum local, maximum local, point selle) en utilisant la matrice Hessienne et une étude locale additionnelle si nécessaire.\n\n5. **Déduction du minimum global:** Déduction de la valeur minimale de $f$ sur $\\mathbb{R}^2$ à partir de l'étude des points critiques et de leur nature.",
+    "competences": [
+      "déterminer les points critiques d'une fonction à plusieurs variables",
+      "calculer la matrice Hessienne d'une fonction à plusieurs variables",
+      "interpréter la matrice Hessienne pour déterminer la nature des points critiques",
+      "appliquer des inégalités pour minorer une fonction",
+      "démontrer l'existence d'un minimum global en utilisant la coercivité"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "optimisation",
+      "fonction de plusieurs variables",
+      "minimum global",
+      "points critiques",
+      "matrice Hessienne",
+      "coercivité",
+      "point selle",
+      "extremum local"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles",
+      "matrice Hessienne et convexité",
+      "points critiques et extrema",
+      "coercivité d'une fonction",
+      "norme euclidienne"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées partielles)",
+      "algèbre linéaire (matrices, valeurs propres)",
+      "notion de norme",
+      "définition de la convexité"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

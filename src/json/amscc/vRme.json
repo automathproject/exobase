@@ -15,7 +15,42 @@
     "chapitre": "Série numérique",
     "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:19.348Z"
+    "updatedAt": "2025-03-24T17:17:19.348Z",
+    "resume": "Cet exercice étudie la convergence des séries de Bertrand $\\sum_{n \\geq 2} u_n$ où $u_n = \\frac{1}{n^\\alpha (\\ln(n))^\\beta}$ en fonction des paramètres réels $\\alpha$ et $\\beta$. Les compétences mises en œuvre sont :\n\n*   **Cas $\\alpha > 1$ :** Utilisation de la définition de la convergence par domination, avec une série de Riemann $\\sum \\frac{1}{n^\\gamma}$, et comparaison de suites.\n*   **Cas $\\alpha < 1$ :** Utilisation de la divergence par minoration, en comparant avec $\\frac{1}{n}$.\n*   **Cas $\\alpha = 1, \\beta \\leq 0$ :** Minoration du terme général par $\\frac{1}{n}$ pour conclure à la divergence.\n*   **Cas $\\alpha = 1, \\beta > 0$ :** Application du théorème de comparaison série-intégrale après avoir vérifié que la fonction $f(x) = \\frac{1}{x(\\ln x)^\\beta}$ est positive et décroissante. Le calcul de l'intégrale $\\int_2^{+ \\infty} f(t) dt$ est effectué par changement de variable $u = \\ln(t)$, ramenant à l'étude de la convergence d'une intégrale de Riemann du type $\\int \\frac{1}{u^\\beta}du$.",
+    "competences": [
+      "étudier la convergence d'une série numérique",
+      "appliquer le théorème de comparaison série-intégrale",
+      "calculer des limites de suites et fonctions",
+      "effectuer un changement de variable dans une intégrale",
+      "déterminer la monotonie d'une fonction"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "série de Bertrand",
+      "convergence",
+      "divergence",
+      "série numérique",
+      "intégrale",
+      "comparaison série intégrale",
+      "croissances comparées",
+      "série de Riemann"
+    ],
+    "concepts_fondamentaux": [
+      "convergence de séries",
+      "théorème de comparaison",
+      "théorème de comparaison série-intégrale",
+      "intégrales impropres",
+      "limites"
+    ],
+    "prerequis": [
+      "connaissance des séries de Riemann",
+      "maîtrise des techniques de calcul de limites",
+      "théorèmes de comparaison pour les séries à termes positifs",
+      "calcul intégral (changement de variable)",
+      "dérivation de fonctions"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

@@ -15,7 +15,42 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:37.374Z"
+    "updatedAt": "2025-03-24T17:14:37.374Z",
+    "resume": "L'exercice porte sur une variable aléatoire discrète $X$ suivant une loi binomiale $\\mathcal{B}(n, 0.5)$, représentant le nombre de succès (résultat pair d'un dé) après $n$ lancers. Il s'agit de :\n\n1.  Déterminer la loi, l'espérance $\\E(X) = \\frac{n}{2}$, et la variance $\\V(X) = \\frac{n}{4}$ de $X$.\n2.  Exprimer le gain $G$ en fonction de $X$: $G = 2X - n$.\n3.  Exprimer l'événement \"le gain ou la perte n'excède pas 20 euros\" en fonction de $X$: $\\{ |X - \\frac{n}{2}| \\leq 10 \\}$.\n4.  Utiliser le théorème central limite pour approcher la loi de $X$ par une loi normale, afin de déterminer la valeur maximale de $n$ telle que $\\prob(|X - \\frac{n}{2}| \\leq 10) \\geq 0.9544$. On utilise l'approximation $Z = \\frac{X - \\frac{n}{2}}{\\frac{\\sqrt{n}}{2}} \\sim \\mathcal{N}(0, 1)$ et la fonction de répartition $\\Phi$ de la loi normale centrée réduite pour obtenir la condition $\\Phi(\\frac{20}{\\sqrt{n}}) \\geq 0.9772$, conduisant à $n \\leq 100$.",
+    "competences": [
+      "appliquer le théorème central limite",
+      "calculer l'espérance et la variance d'une loi binomiale",
+      "interpréter un événement en termes de variable aléatoire",
+      "déterminer la loi d'une variable aléatoire binomiale",
+      "exprimer une variable aléatoire en fonction d'une autre"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "variable aléatoire discrète",
+      "loi binomiale",
+      "espérance",
+      "variance",
+      "théorème central limite",
+      "gain",
+      "loi normale"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire",
+      "loi de probabilité",
+      "espérance mathématique",
+      "variance",
+      "théorème central limite"
+    ],
+    "prerequis": [
+      "probabilités élémentaires",
+      "variables aléatoires discrètes",
+      "loi binomiale",
+      "notion d'espérance et de variance",
+      "connaissance de la loi normale centrée réduite"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

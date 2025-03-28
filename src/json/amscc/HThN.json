@@ -15,7 +15,40 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:00.930Z"
+    "updatedAt": "2025-03-24T17:14:00.930Z",
+    "resume": "Cet exercice porte sur le calcul de probabilités dans le contexte de la divisibilité. Il évalue la capacité à: \n\n1.  Calculer la probabilité qu'un nombre tiré aléatoirement entre 1 et $n$ soit divisible par un nombre premier $p_i$ diviseur de $n$ : $\\prob(A_{p_i}) = \\frac{1}{p_i}$.\n\n2.  Calculer la probabilité de l'intersection d'événements de divisibilité par des nombres premiers, puis à prouver l'indépendance mutuelle de ces événements. La formule démontrée est : $\\prob(A_{p_{i_1}}\\cap A_{p_{i_2}}\\cap \\ldots\\cap A_{p_{i_k}}) = \\prod_{j=1}^k \\prob(A_{p_{i_j}})$.\n\n3. Calculer la probabilité qu'un nombre tiré aléatoirement ne soit divisible par aucun des diviseurs premiers de $n$, et d'en déduire l'expression de l'indicatrice d'Euler : $\\Phi(n)=n\\prod_{i=1}^r\\left(1-\\frac{1}{p_i}\\right)$. Cela implique de comprendre la relation entre indépendance d'événements et probabilité de leur intersection, ainsi que d'appliquer la formule des probabilités complémentaires.",
+    "competences": [
+      "calculer une probabilité conditionnelle",
+      "appliquer la définition d'indépendance d'événements",
+      "interpréter un événement comme une intersection d'événements",
+      "dénombrer des multiples d'un entier dans un intervalle",
+      "appliquer les propriétés des nombres premiers"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "indépendance",
+      "divisibilité",
+      "nombre premier",
+      "dénombrement",
+      "indicatrice d'Euler",
+      "urne"
+    ],
+    "concepts_fondamentaux": [
+      "probabilité d'événements",
+      "indépendance d'événements",
+      "divisibilité",
+      "nombres premiers",
+      "dénombrement"
+    ],
+    "prerequis": [
+      "théorie des ensembles",
+      "notion de probabilité",
+      "divisibilité des entiers",
+      "nombres premiers"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

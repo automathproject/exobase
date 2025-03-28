@@ -15,7 +15,38 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:40.272Z"
+    "updatedAt": "2025-03-24T17:15:40.272Z",
+    "resume": "L'exercice porte sur l'étude d'une variable aléatoire absolument continue $X$ définie par une densité $f(x) = \\lambda x$ sur $[0,1]$ et $0$ ailleurs. Il s'agit de:\\n1. Déterminer la valeur de $\\lambda$ pour que $f$ soit une densité de probabilité en utilisant la condition $\\int_{-\\infty}^{+\\infty} f(x) dx = 1$.\\n2. Calculer des probabilités, notamment $P(X \\le \\frac{1}{3})$ et la probabilité conditionnelle $P(X \\le \\frac{2}{3} | X > \\frac{1}{3})$ en utilisant les intégrales de $f(x)$.\\n3. Calculer l'espérance mathématique $E(X) = \\int_{-\\infty}^{+\\infty} x f(x) dx$ et la variance $Var(X) = E(X^2) - E(X)^2$.",
+    "competences": [
+      "calculer une intégrale définie",
+      "appliquer la définition d'une densité de probabilité",
+      "calculer l'espérance d'une variable aléatoire continue",
+      "calculer la variance d'une variable aléatoire continue",
+      "calculer une probabilité conditionnelle"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "densité de probabilité",
+      "variable aléatoire continue",
+      "espérance",
+      "variance",
+      "probabilité conditionnelle",
+      "intégrale",
+      "loi de probabilité"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "espérance mathématique",
+      "variance",
+      "probabilité conditionnelle"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "définition d'une variable aléatoire continue",
+      "formule de l'espérance et de la variance d'une variable aléatoire continue"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

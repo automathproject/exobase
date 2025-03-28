@@ -15,7 +15,40 @@
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:27.646Z"
+    "updatedAt": "2025-03-24T17:14:27.646Z",
+    "resume": "L'exercice demande de déterminer les polynômes $P(X) = 3X^5 - 10X^3 + aX + b$ ayant une racine de multiplicité 3, puis de factoriser ces polynômes dans $\\mathbb{R}[X]$. Il s'agit donc d'appliquer la définition de la multiplicité d'une racine ($P(x_0) = P'(x_0) = P''(x_0) = 0$ et $P'''(x_0) \\neq 0$) pour trouver les valeurs possibles de $x_0$, $a$ et $b$, puis d'effectuer une division polynomiale pour obtenir la factorisation demandée.",
+    "competences": [
+      "résoudre un système d'équations polynomiales",
+      "déterminer les dérivées successives d'un polynôme",
+      "appliquer la définition de racine multiple d'un polynôme",
+      "factoriser un polynôme dans $\\mathbb{R}[X]$",
+      "calculer les racines d'un polynôme de degré 2"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "polynôme",
+      "racine multiple",
+      "multiplicité",
+      "dérivée",
+      "factorisation",
+      "racine réelle",
+      "polynôme réel",
+      "algèbre"
+    ],
+    "concepts_fondamentaux": [
+      "définition de la multiplicité d'une racine d'un polynôme",
+      "lien entre multiplicité et dérivées successives",
+      "factorisation de polynômes réels",
+      "dérivation de polynômes"
+    ],
+    "prerequis": [
+      "calcul différentiel de base",
+      "manipulation des polynômes",
+      "factorisation de base",
+      "résolution d'équations polynomiales simples"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

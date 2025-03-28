@@ -15,7 +15,40 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:21.559Z"
+    "updatedAt": "2025-03-24T17:17:21.559Z",
+    "resume": "L'exercice porte sur la détermination de la loi de probabilité d'une variable aléatoire $Y$ définie à partir d'une variable aléatoire $X$ suivant une loi uniforme. Il met en œuvre les compétences suivantes:\n\n*   Calcul de la fonction de répartition $F_Y(t)$ d'une variable aléatoire $Y$ en fonction de la fonction de répartition $F_X(t)$ d'une variable aléatoire $X$, où $Y = \\frac{-1}{\\lambda}\\ln(1-X)$.\n*   Identification de la loi de probabilité de $Y$ à partir de sa fonction de répartition, en reconnaissant la fonction de répartition d'une loi exponentielle de paramètre $\\lambda$.\n*   Déduction d'une commande de simulation d'une loi exponentielle de paramètre $\\lambda$ à partir d'une commande simulant une loi uniforme sur $[0;1]$ en utilisant la relation entre $X$ et $Y$.",
+    "competences": [
+      "interpréter une fonction de répartition",
+      "calculer la fonction de répartition d'une variable transformée",
+      "identifier une loi de probabilité à partir de sa fonction de répartition",
+      "appliquer les propriétés des fonctions logarithme et exponentielle",
+      "utiliser une simulation de loi uniforme pour générer une autre loi"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "variable aléatoire",
+      "fonction de répartition",
+      "loi uniforme",
+      "loi exponentielle",
+      "simulation",
+      "lambda",
+      "transformation de variable"
+    ],
+    "concepts_fondamentaux": [
+      "fonction de répartition",
+      "loi uniforme",
+      "loi exponentielle",
+      "transformation de variables aléatoires"
+    ],
+    "prerequis": [
+      "connaissance des lois uniformes et exponentielles",
+      "maîtrise du calcul des probabilités",
+      "connaissance de la fonction de répartition",
+      "propriétés des fonctions logarithme et exponentielle"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

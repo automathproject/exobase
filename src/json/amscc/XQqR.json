@@ -15,7 +15,40 @@
     "chapitre": "Résolution d'équation différentielle",
     "sousChapitre": "Résolution d'équation différentielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:49.375Z"
+    "updatedAt": "2025-03-24T17:14:49.375Z",
+    "resume": "L'exercice porte sur la méthode du point milieu (Euler améliorée) pour la résolution numérique d'équations différentielles. Il s'agit de déterminer une fonction $G$ afin d'obtenir un schéma numérique consistant d'ordre 2. La réponse consiste à exprimer le schéma sous la forme $y_{n+1} = y_n + H(t_n,y_n,h)$, puis à dériver $H$ par rapport à $h$ et enfin à déterminer la condition sur $G$ pour obtenir la consistance d'ordre 2. La solution est $G(t,y,h)=f(t,y)$.",
+    "competences": [
+      "calculer une dérivée partielle",
+      "appliquer un développement de Taylor",
+      "interpréter l'ordre de consistance d'une méthode numérique",
+      "résoudre une équation pour une fonction",
+      "déterminer une approximation numérique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "équation différentielle",
+      "méthode d'Euler améliorée",
+      "méthode du point milieu",
+      "analyse numérique",
+      "ordre de consistance",
+      "dérivée partielle",
+      "approximation",
+      "schéma numérique"
+    ],
+    "concepts_fondamentaux": [
+      "ordre de consistance",
+      "méthodes numériques pour EDO",
+      "développement de Taylor",
+      "dérivation partielle"
+    ],
+    "prerequis": [
+      "équations différentielles ordinaires (EDO)",
+      "calcul différentiel",
+      "développement limité (Taylor)",
+      "méthode d'Euler explicite"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

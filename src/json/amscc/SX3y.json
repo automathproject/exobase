@@ -16,7 +16,38 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:30.093Z"
+    "updatedAt": "2025-03-24T17:14:30.093Z",
+    "resume": "L'exercice porte sur le calcul de probabilités dans un contexte de dénombrement. Il s'agit de déterminer la probabilité que le polynôme du second degré $Q(x) = ax^2 + bx + c$ ait deux racines réelles distinctes, une racine réelle double ou pas de racines réelles, où $a$, $b$, et $c$ sont les résultats de trois lancers successifs d'un dé à six faces. La résolution implique de dénombrer les triplets $(a, b, c)$ qui satisfont respectivement les conditions $b^2 - 4ac > 0$, $b^2 - 4ac = 0$, et $b^2 - 4ac < 0$, puis de diviser ces cardinaux par le nombre total de triplets possibles, soit $6^3 = 216$.",
+    "competences": [
+      "calculer une probabilité dans un espace équiprobable",
+      "dénombrer les éléments d'un ensemble fini",
+      "appliquer la formule du discriminant d'un polynôme du second degré",
+      "interpréter le signe du discriminant en termes de racines réelles",
+      "appliquer le principe fondamental du dénombrement"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "dénombrement",
+      "discriminant",
+      "racines réelles",
+      "dé",
+      "événements",
+      "espace probabilisable"
+    ],
+    "concepts_fondamentaux": [
+      "probabilité d'un événement",
+      "équiprobabilité",
+      "dénombrement",
+      "discriminant d'un polynôme du second degré"
+    ],
+    "prerequis": [
+      "calcul littéral",
+      "polynôme du second degré",
+      "notions de base de probabilité"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

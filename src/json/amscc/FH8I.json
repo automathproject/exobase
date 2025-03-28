@@ -15,7 +15,42 @@
     "chapitre": "Résolution de systèmes linéaires : méthode itérative",
     "sousChapitre": "Résolution de systèmes linéaires : méthode de gradient",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:56.703Z"
+    "updatedAt": "2025-03-24T17:13:56.703Z",
+    "resume": "L'exercice étudie la convergence de la méthode de descente de gradient pour une fonction $f$ de classe $C^2$ sur $\\\\mathbb{R}$ avec une courbure bornée ($c < f''(x) \\\\leq K$). \\n\\n1.  **Décroissance de $f(x_n)$:** Il s'agit de montrer que la suite des valeurs de la fonction $f$ aux itérés de la descente de gradient est décroissante en utilisant un développement de Taylor-Lagrange d'une fonction auxiliaire $\\\\phi(t) = f(x_n - tf'(x_n))$ et en exploitant les bornes sur $f''(x)$.\\n\\n2.  **Convergence de $(x_n)$:** Cette partie démontre la convergence de la suite $(x_n)$ vers un point critique de $f$. Les étapes sont les suivantes:\\n    *   Borner la dérivée de la fonction $g(x) = x - \\\\gamma f'(x)$.\\n    *   Utiliser l'inégalité des accroissements finis pour montrer que $|x_{n+1}-x_n| < M |x_n-x_{n-1}|$.\\n    *   Démontrer que $(x_n)$ est une suite de Cauchy, donc convergente, en étudiant la série $\\\\sum (x_{n+1}-x_n)$.\\n    *   Prouver que la limite $l$ de $(x_n)$ est un point critique de $f$ en utilisant la continuité de $f'$.\\n    *   Montrer que $f$ possède un unique point critique.",
+    "competences": [
+      "démontrer la convergence d'une suite par la définition de Cauchy",
+      "appliquer le théorème de Taylor-Lagrange",
+      "calculer des dérivées premières et secondes",
+      "interpréter des inégalités pour prouver la décroissance",
+      "manipuler des suites et des séries"
+    ],
+    "niveau_difficulte": "avancé",
+    "mots_cles": [
+      "méthode de gradient",
+      "descente de gradient",
+      "convergence",
+      "optimisation",
+      "point critique",
+      "suite de Cauchy",
+      "théorème de Taylor-Lagrange",
+      "systèmes linéaires"
+    ],
+    "concepts_fondamentaux": [
+      "convergence de suites",
+      "dérivabilité et différentiabilité",
+      "optimisation et points critiques",
+      "théorème des accroissements finis",
+      "formule de Taylor-Lagrange"
+    ],
+    "prerequis": [
+      "définition et propriétés des suites convergentes",
+      "calcul différentiel (dérivées premières et secondes)",
+      "théorème de Taylor-Lagrange",
+      "notion de point critique",
+      "suites de Cauchy"
+    ],
+    "type_exercice": "Démonstration",
+    "temps_estime": "120 minutes"
   },
   "contenu": [
     {

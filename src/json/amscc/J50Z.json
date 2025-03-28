@@ -15,7 +15,40 @@
     "chapitre": "Analyse numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:04.336Z"
+    "updatedAt": "2025-03-24T17:14:04.336Z",
+    "resume": "L'exercice porte sur l'approximation de la solution d'une équation différentielle $y'(t) = - \frac{1}{1+t^2}y(t)$ avec condition initiale $y(0) = 5$ par la méthode d'Euler implicite. Il s'agit de: \n1. Calculer $y(2)$ avec un pas $h=0.5$ en utilisant le schéma $y_{n+1}=\\frac{y_n}{1+ \\frac{h}{1+t_{n+1}^2} }$.\n2. Répéter le calcul avec un pas $h=10^{-3}$ et comparer les résultats.\n3. Déterminer la solution analytique de l'équation et comparer graphiquement la solution exacte avec les approximations d'Euler pour différents pas $h$.",
+    "competences": [
+      "résoudre une équation différentielle du premier ordre",
+      "appliquer la méthode d'Euler implicite",
+      "calculer des valeurs numériques avec un pas donné",
+      "interpréter l'impact du pas sur la précision d'une méthode numérique",
+      "comparer une solution numérique à une solution analytique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "équation différentielle",
+      "méthode d'Euler implicite",
+      "analyse numérique",
+      "concentration chimique",
+      "solution analytique",
+      "pas de discrétisation",
+      "approximation numérique",
+      "python"
+    ],
+    "concepts_fondamentaux": [
+      "équations différentielles",
+      "méthodes numériques",
+      "méthode d'Euler",
+      "convergence numérique"
+    ],
+    "prerequis": [
+      "calcul différentiel et intégral",
+      "notions de base sur les équations différentielles",
+      "méthodes numériques de résolution d'équations",
+      "bases de programmation (pour la question 3)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

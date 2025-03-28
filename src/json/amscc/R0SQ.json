@@ -15,7 +15,42 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:27.169Z"
+    "updatedAt": "2025-03-24T17:14:27.169Z",
+    "resume": "L'exercice porte sur la détermination de la densité de probabilité de la somme de deux variables aléatoires indépendantes, $X$ et $Y$, suivant des lois uniformes sur $[0, 1]$. Il nécessite de calculer la convolution des densités de $X$ et $Y$, c'est-à-dire l'intégrale $h(s) = \\int_0^1 \\textbf{1}_{[0;1]}(s-x) dx$, et d'exprimer le résultat en fonction de l'intervalle auquel appartient $s$ : $s < 0$, $0 < s < 1$, $1 < s < 2$, et $s > 2$. On aboutit à une densité triangulaire.",
+    "competences": [
+      "calculer une convolution de densités",
+      "appliquer la définition de l'indépendance de variables aléatoires",
+      "interpréter une fonction indicatrice",
+      "calculer une intégrale simple",
+      "déterminer le support d'une variable aléatoire"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "densité",
+      "loi uniforme",
+      "somme de variables aléatoires",
+      "convolution",
+      "indépendance",
+      "fonction indicatrice",
+      "loi triangulaire"
+    ],
+    "concepts_fondamentaux": [
+      "variables aléatoires à densité",
+      "indépendance de variables aléatoires",
+      "convolution de densités",
+      "loi uniforme",
+      "fonction indicatrice"
+    ],
+    "prerequis": [
+      "définition d'une variable aléatoire à densité",
+      "loi uniforme",
+      "calcul intégral",
+      "indépendance de variables aléatoires",
+      "fonction indicatrice"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

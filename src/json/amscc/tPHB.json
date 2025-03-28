@@ -15,7 +15,40 @@
     "chapitre": "Série entière",
     "sousChapitre": "Calcul de la somme d'une série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:13.772Z"
+    "updatedAt": "2025-03-24T17:17:13.772Z",
+    "resume": "L'exercice porte sur le calcul de la somme d'une série entière. Il évalue les compétences suivantes:\n\n*   Détermination du rayon de convergence $R$ et de l'intervalle de convergence d'une série entière de la forme $\\sum_{n\\geq 2} a_n x^n$, avec $a_n = \\frac{(-1)^n}{n(n-1)}$, et étude du comportement aux bornes.\n*   Détermination du rayon de convergence et de l'intervalle de convergence de séries entières dérivées, notamment $\\sum_{n\\geq 2} \\frac{(-1)^n}{(n-1)}x^{n-1}$ et $\\sum_{n\\geq 2}(-1)^n x^{n-2}$, ainsi que l'étude du comportement aux bornes.\n*   Calcul de la somme de la série entière $\\sum_{n\\geq 2}(-1)^n x^{n-2}$ pour $x \\in ]-1;1[$, en utilisant la série géométrique.\n*   Déduction de la somme de la série $\\sum_{n\\geq 2} \\frac{(-1)^n}{(n-1)}x^{n-1}$ par intégration terme à terme de la série précédente.",
+    "competences": [
+      "calculer le rayon de convergence d'une série entière",
+      "étudier la convergence d'une série entière aux bornes de son intervalle de convergence",
+      "calculer la somme d'une série géométrique",
+      "intégrer une série entière terme à terme",
+      "dériver une série entière terme à terme"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "série entière",
+      "rayon de convergence",
+      "intervalle de convergence",
+      "somme",
+      "intégration",
+      "dérivation"
+    ],
+    "concepts_fondamentaux": [
+      "série entière",
+      "rayon de convergence",
+      "théorème d'intégration terme à terme",
+      "théorème de dérivation terme à terme",
+      "série géométrique"
+    ],
+    "prerequis": [
+      "définition d'une série entière",
+      "critères de convergence (d'Alembert)",
+      "convergence d'une série géométrique",
+      "calcul intégral",
+      "calcul différentiel"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

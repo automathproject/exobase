@@ -17,7 +17,41 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:02.560Z"
+    "updatedAt": "2025-03-24T17:15:02.560Z",
+    "resume": "L'exercice porte sur l'approximation de la probabilité d'une variable aléatoire $X$ suivant une loi de Poisson de paramètre $\\\\lambda = 16$. Il vise à : \\n\\n1.  Appliquer l'inégalité de Bienaymé-Tchebychev pour minorer la probabilité $P(10 < X < 22)$ en utilisant l'espérance et la variance de la loi de Poisson ($E(X)=\\\\lambda$ et $V(X)=\\\\lambda$).\\n\\n2.  Calculer une valeur approchée de $P(10 < X < 22)$ en utilisant une table de la fonction de répartition de la loi de Poisson $\\\\mathcal{P}(16)$.\\n\\n3.  Approximer la probabilité $P(10 < X < 22)$ en utilisant le théorème central limite et une loi normale centrée réduite. On utilise l'approximation $Z = \\\\frac{X-16}{4}$ et on calcule la probabilité $P(-1.5 < Z < 1.5)$.",
+    "competences": [
+      "appliquer l'inégalité de Bienaymé-Tchebychev",
+      "calculer une probabilité à partir d'une table de distribution",
+      "appliquer le théorème central limite",
+      "interpréter une loi de Poisson",
+      "calculer l'espérance et la variance d'une loi de Poisson"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "loi de Poisson",
+      "inégalité de Bienaymé-Tchebychev",
+      "théorème central limite",
+      "approximation normale",
+      "variable aléatoire discrète",
+      "fonction de répartition"
+    ],
+    "concepts_fondamentaux": [
+      "inégalité de Bienaymé-Tchebychev",
+      "loi de Poisson",
+      "théorème central limite",
+      "espérance mathématique",
+      "variance"
+    ],
+    "prerequis": [
+      "connaissance de la loi de Poisson",
+      "calcul de l'espérance et de la variance",
+      "connaissance de l'inégalité de Bienaymé-Tchebychev",
+      "connaissance du théorème central limite",
+      "lecture de tables statistiques (Poisson et Normale)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

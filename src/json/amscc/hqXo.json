@@ -15,7 +15,42 @@
     "chapitre": "Dérivabilité des fonctions réelles",
     "sousChapitre": "Calculs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:38.716Z"
+    "updatedAt": "2025-03-24T17:15:38.716Z",
+    "resume": "L'exercice porte sur l'étude de la différentiabilité d'une fonction $f(x,y)$ définie par morceaux. Il évalue les compétences suivantes:\n\n*   **Continuité:** Démontrer la continuité d'une fonction en utilisant le passage en coordonnées polaires pour lever l'indétermination en (0,0). Utilisation de la majoration $|f(r cos θ, r sin θ) - f(0,0)| ≤ r$.\n\n*   **Calcul de dérivées partielles:** Calculer les dérivées partielles $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$ pour $(x, y) \\neq (0, 0)$.\n\n*   **Classe $C^1$:** Déterminer si $f$ est de classe $C^1$ en vérifiant l'existence et la continuité des dérivées partielles, en particulier en $(0, 0)$, en utilisant à nouveau le passage en coordonnées polaires.\n\n*   **Différentiabilité:** Conclure sur la différentiabilité de $f$ en utilisant le théorème qui relie classe $C^1$ et différentiabilité.",
+    "competences": [
+      "étudier la continuité d'une fonction à deux variables",
+      "calculer les dérivées partielles d'une fonction à deux variables",
+      "déterminer si une fonction est de classe C1",
+      "utiliser les coordonnées polaires pour étudier la continuité et la différentiabilité",
+      "appliquer le théorème de différentiabilité C1"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "continuité",
+      "dérivées partielles",
+      "différentiabilité",
+      "coordonnées polaires",
+      "classe C1",
+      "gradient",
+      "fonction à deux variables"
+    ],
+    "concepts_fondamentaux": [
+      "continuité d'une fonction à plusieurs variables",
+      "dérivées partielles",
+      "différentiabilité",
+      "coordonnées polaires",
+      "théorème de différentiabilité (C1 implique différentiable)"
+    ],
+    "prerequis": [
+      "définition de la continuité",
+      "définition des dérivées partielles",
+      "définition de la différentiabilité",
+      "coordonnées polaires",
+      "règles de dérivation",
+      "limites"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

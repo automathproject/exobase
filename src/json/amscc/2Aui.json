@@ -16,7 +16,41 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.795Z"
+    "updatedAt": "2025-03-24T17:13:15.795Z",
+    "resume": "L'exercice porte sur les variables aléatoires discrètes et la loi conjointe. Il s'agit de déterminer:\\n\\n*   Les ensembles des valeurs possibles pour deux variables aléatoires $X$ et $Y$ ($X(\\Omega)$ et $Y(\\Omega)$), représentant respectivement le nombre de boules blanches et noires obtenues lors de tirages sans remise dans une urne.\\n*   Les lois de probabilité marginales de $X$ et $Y$, en identifiant qu'elles suivent une loi hypergéométrique $\\mathcal{H}(n, p, N)$ et en calculant leurs espérances $\\E(X)$ et $\\E(Y)$.\\n*   La loi conjointe du couple $(X, Y)$ sous forme d'un tableau.\\n*   Si les variables $X$ et $Y$ sont indépendantes, en utilisant la définition de l'indépendance: $P(X=x, Y=y) = P(X=x)P(Y=y)$.\\n*   La loi de la variable aléatoire $H = X.Y$.\\n*   Les espérances $\\E(XY)$ en utilisant la loi de H et $\\E(X+Y)$ en utilisant la linéarité de l'espérance.",
+    "competences": [
+      "calculer une probabilité dans un modèle hypergéométrique",
+      "déterminer l'espérance d'une variable aléatoire discrète",
+      "déterminer la loi conjointe de deux variables aléatoires discrètes",
+      "vérifier l'indépendance de deux variables aléatoires",
+      "déterminer la loi d'une fonction de deux variables aléatoires"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "variable aléatoire discrète",
+      "loi hypergéométrique",
+      "loi conjointe",
+      "indépendance",
+      "espérance",
+      "urne",
+      "tirage sans remise"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire discrète",
+      "loi de probabilité",
+      "espérance mathématique",
+      "indépendance de variables aléatoires",
+      "loi hypergéométrique"
+    ],
+    "prerequis": [
+      "probabilités de base",
+      "combinatoire",
+      "variable aléatoire discrète",
+      "définition de l'espérance"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

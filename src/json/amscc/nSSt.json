@@ -15,7 +15,39 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:37.319Z"
+    "updatedAt": "2025-03-24T17:16:37.319Z",
+    "resume": "L'exercice porte sur l'optimisation d'une fonction de plusieurs variables dans un contexte concret : la fabrication d'une boite parallélépipédique sans couvercle. Il s'agit de minimiser l'aire totale des faces de la boite, sous la contrainte que le volume soit constant ($xyz = 0.5$). La résolution implique : \n\n1.  L'expression de l'aire en fonction des dimensions $x$, $y$ et $z$: $f(x,y,z) = xy + 2xz + 2yz$.\n2.  La réduction du problème à une fonction de deux variables, $g(x,y) = xy + \\frac{1}{x} + \\frac{1}{y}$, en utilisant la contrainte de volume pour exprimer $z$ en fonction de $x$ et $y$.\n3.  La recherche des points critiques en calculant les dérivées partielles de $g$ par rapport à $x$ et $y$, et en résolvant le système d'équations $\\frac{\\partial g}{\\partial x}(x,y) = 0$ et $\\frac{\\partial g}{\\partial y}(x,y) = 0$.\n4.  La vérification de la nature du point critique (minimum) en utilisant la matrice Hessienne $H_g(x, y)$ et en s'assurant que le déterminant est positif et que la dérivée seconde par rapport à $x$ est positive.",
+    "competences": [
+      "résoudre un problème d'optimisation sous contrainte",
+      "calculer les dérivées partielles d'une fonction de plusieurs variables",
+      "identifier les points critiques d'une fonction",
+      "appliquer le critère de la Hessienne pour déterminer la nature d'un point critique",
+      "interpréter les résultats dans le contexte du problème"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "optimisation",
+      "extremum",
+      "dérivées partielles",
+      "Hessienne",
+      "contrainte",
+      "volume",
+      "aire",
+      "parallélépipède"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles",
+      "optimisation sous contrainte",
+      "points critiques",
+      "matrice Hessienne"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées, optimisation)",
+      "fonctions de plusieurs variables",
+      "algèbre linéaire (matrices)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

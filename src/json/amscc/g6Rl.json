@@ -16,7 +16,39 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:36.383Z"
+    "updatedAt": "2025-03-24T17:15:36.383Z",
+    "resume": "L'exercice porte sur l'application de la loi normale et du théorème central limite. Il évalue la capacité à : \\n\\n* Déterminer la loi de probabilité de la somme de variables aléatoires normales indépendantes et identiquement distribuées (i.i.d.).\\n* Approximer la loi d'une somme de variables aléatoires i.i.d. en utilisant le théorème central limite : Si $X_i$ sont i.i.d. avec moyenne $\\mu$ et écart-type $\\sigma$, alors $\\sum_{i=1}^{n} X_i$ est approximativement $\\mathcal{N}(n\\mu, \\sqrt{n}\\sigma)$.\\n* Calculer des probabilités associées à une variable aléatoire suivant approximativement une loi normale standard après standardisation: $Z = \\\\frac{X - n\\mu}{\\\\sqrt{n}\\sigma}$.\\n* Interpréter le résultat en termes de moyenne d'une variable aléatoire.",
+    "competences": [
+      "appliquer le théorème central limite",
+      "calculer des probabilités avec la loi normale",
+      "identifier la loi d'une somme de variables aléatoires indépendantes",
+      "interpréter un résultat de probabilité dans un contexte concret",
+      "calculer l'espérance et l'écart-type d'une somme de variables aléatoires"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "loi normale",
+      "théorème central limite",
+      "probabilité continue",
+      "variable aléatoire",
+      "espérance",
+      "écart-type",
+      "approximation",
+      "somme de variables aléatoires"
+    ],
+    "concepts_fondamentaux": [
+      "loi normale",
+      "théorème central limite",
+      "variable aléatoire i.i.d.",
+      "espérance et variance"
+    ],
+    "prerequis": [
+      "connaissance de la loi normale",
+      "calcul d'espérance et variance",
+      "notion de variable aléatoire"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

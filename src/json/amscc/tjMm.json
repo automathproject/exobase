@@ -15,7 +15,41 @@
     "chapitre": "Calcul d'intégrales",
     "sousChapitre": "Calcul approché d'intégrale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:17.280Z"
+    "updatedAt": "2025-03-24T17:17:17.280Z",
+    "resume": "L'exercice porte sur le calcul approché d'une intégrale $I = \\int_0^1 \\cos(x^3)e^{-x}dx$ en utilisant des méthodes de Monte Carlo. Il s'agit de reconnaître l'intégrale comme une espérance mathématique et d'appliquer la loi des grands nombres pour obtenir une approximation. Deux approches sont proposées:\n\n*   **Première approche:** Exprimer $I$ comme $\\mathbb{E}(\\cos(U^3)e^{-U})$ où $U$ suit une loi uniforme $\\mathcal{U}([0;1])$. On utilise alors la moyenne empirique de $\\cos(U_i^3)e^{-U_i}$ comme estimateur.\n*   **Deuxième approche:** Exprimer $I$ comme $\\mathbb{E}(\\cos(V^3) \\chi_{[0;1]}(V))$ où $V$ suit une loi exponentielle $\\mathcal{E}(1)$. On utilise alors la moyenne empirique de $\\cos(V_i^3) \\chi_{[0;1]}(V_i)$ comme estimateur.",
+    "competences": [
+      "appliquer la méthode de Monte Carlo pour approcher une intégrale",
+      "interpréter une intégrale comme une espérance mathématique",
+      "simuler des variables aléatoires selon des lois uniformes et exponentielles",
+      "appliquer la loi des grands nombres pour justifier la convergence",
+      "concevoir un algorithme pour estimer une intégrale"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "intégrale",
+      "Monte Carlo",
+      "simulation",
+      "espérance mathématique",
+      "loi uniforme",
+      "loi exponentielle",
+      "algorithme",
+      "approximation"
+    ],
+    "concepts_fondamentaux": [
+      "intégration",
+      "probabilités",
+      "variables aléatoires",
+      "espérance",
+      "loi des grands nombres"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "probabilités de base",
+      "variables aléatoires",
+      "notions d'algorithmique"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

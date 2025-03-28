@@ -16,7 +16,42 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:48.642Z"
+    "updatedAt": "2025-03-24T17:14:48.642Z",
+    "resume": "L'exercice porte sur l'estimation du paramètre $a$ d'une loi de Pareto de paramètres $(a, 1)$. Il évalue les compétences suivantes :\\n\\n*   Calcul d'espérance d'une variable aléatoire continue ($X_1$).\\n*   Détermination d'un estimateur du maximum de vraisemblance ($T_n$) pour le paramètre $a$.\\n*   Identification de la loi suivie par $a \\ln(X_1)$ (loi exponentielle).\\n*   Calcul de l'espérance et de la variance de $\\frac{1}{T_n}$ en utilisant les propriétés de l'espérance et de la variance.\\n*   Démonstration de la convergence presque sûre de la suite de variables aléatoires $\\\\left(\\\\frac{1}{T_n}\\\\right)_{n \\\\in \\\\N^*}$ en utilisant la loi forte des grands nombres.\\n*   Démonstration de la convergence en loi de la suite de variables aléatoires $\\\\left(Z_n\\\\right)_{n \\\\in \\\\N^*}$ vers une loi normale centrée réduite (non traitée dans le résumé car incomplète).\\n*   Déduction d'un intervalle de confiance pour $a$ à partir de la convergence en loi (non traitée car incomplète).",
+    "competences": [
+      "appliquer la méthode du maximum de vraisemblance",
+      "calculer l'espérance et la variance d'une variable aléatoire",
+      "déterminer la fonction de répartition d'une variable aléatoire",
+      "interpréter la convergence presque sûre",
+      "appliquer le théorème central limite"
+    ],
+    "niveau_difficulte": "avancé",
+    "mots_cles": [
+      "Pareto",
+      "densité de probabilité",
+      "estimateur",
+      "maximum de vraisemblance",
+      "loi exponentielle",
+      "loi normale",
+      "convergence presque sûre",
+      "intervalle de confiance"
+    ],
+    "concepts_fondamentaux": [
+      "variables aléatoires continues",
+      "densité de probabilité",
+      "estimateurs et propriétés",
+      "convergence de variables aléatoires",
+      "loi des grands nombres"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "théorie des probabilités de base",
+      "variables aléatoires continues",
+      "fonctions de répartition",
+      "espérance et variance"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "90-120 minutes"
   },
   "contenu": [
     {

@@ -15,7 +15,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:18.337Z"
+    "updatedAt": "2025-03-24T17:17:18.337Z",
+    "resume": "L'exercice porte sur la comparaison de deux stratégies probabilistes basées sur le tirage de trois nombres aléatoires uniformément distribués sur $[0,1]$. Il s'agit de :\\n\\n1.  Identifier la loi de probabilité des variables aléatoires $X_i$ (loi uniforme).\\n2.  Exprimer $Y_A$ (le maximum des $X_i$) et $Y_B$ (la somme des deux plus petits $X_i$) en fonction des $X_i$. $Y_A = \\\\max(X_1, X_2, X_3)$ et $Y_B = X_1 + X_2 + X_3 - Y_A$.\\n3.  Déterminer la fonction de répartition $F_{Y_A}(t)$ de $Y_A$, qui est $t^3$ sur $[0,1]$, et en déduire sa densité $f_{Y_A}(t) = 3t^2$ sur $[0,1]$.\\n4.  Calculer et comparer les espérances $\\\\mathbb{E}[Y_A]$ et $\\\\mathbb{E}[Y_B]$ pour montrer qu'elles sont égales à $\\\\frac{3}{4}$.\\n5.  Calculer $\\\\mathbb{P}(Y_B \\\\geq Y_A)$ pour montrer que les stratégies sont équivalentes au sens où chaque joueur à une chance sur deux de gagner.",
+    "competences": [
+      "calculer une espérance de variable aléatoire continue",
+      "déterminer une fonction de densité à partir d'une fonction de répartition",
+      "calculer une fonction de répartition d'un maximum de variables aléatoires",
+      "appliquer la définition d'une loi uniforme",
+      "interpréter le concept d'indépendance de variables aléatoires"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "loi uniforme",
+      "densité de probabilité",
+      "fonction de répartition",
+      "espérance",
+      "maximum",
+      "minimum",
+      "stratégie"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire continue",
+      "fonction de densité",
+      "fonction de répartition",
+      "espérance mathématique",
+      "indépendance de variables aléatoires"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "théorie des ensembles",
+      "notion de variable aléatoire",
+      "bases de probabilité"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

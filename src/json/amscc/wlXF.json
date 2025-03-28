@@ -15,7 +15,39 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:21.060Z"
+    "updatedAt": "2025-03-24T17:17:21.060Z",
+    "resume": "L'exercice porte sur l'étude de la limite d'une fonction $f(x,y) = \\frac{x^2 y^2}{x^2 y^2 + (x-y)^2}$ définie sur $\\R^2$. Il s'agit de:\n\n1.  Déterminer le domaine de définition de $f$.\n2.  Calculer les limites itérées $\\lim_{x \\to 0} \\lim_{y \\to 0} f(x,y)$ et $\\lim_{y \\to 0} \\lim_{x \\to 0} f(x,y)$.\n3.  Vérifier si la fonction admet une limite en $(0,0)$ en étudiant différentes trajectoires et en montrant que les limites selon ces trajectoires peuvent différer.",
+    "competences": [
+      "déterminer un ensemble de définition d'une fonction de deux variables",
+      "calculer des limites itérées de fonctions de deux variables",
+      "interpréter l'existence ou l'inexistence d'une limite en deux variables",
+      "calculer des limites simples de fonctions d'une variable",
+      "appliquer la définition de la limite pour prouver sa non-existence"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de deux variables",
+      "limite",
+      "ensemble de définition",
+      "limites itérées",
+      "chemin",
+      "continuité",
+      "R^2"
+    ],
+    "concepts_fondamentaux": [
+      "limite d'une fonction de deux variables",
+      "ensemble de définition",
+      "limites itérées",
+      "continuité"
+    ],
+    "prerequis": [
+      "limite d'une fonction d'une variable",
+      "ensemble de définition",
+      "manipulation algébrique",
+      "notion de fonction"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

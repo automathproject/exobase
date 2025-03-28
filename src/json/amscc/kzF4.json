@@ -15,7 +15,40 @@
     "chapitre": "Fonction convexe",
     "sousChapitre": "Multiplicateurs de Lagrange",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:52.433Z"
+    "updatedAt": "2025-03-24T17:15:52.433Z",
+    "resume": "L'exercice porte sur l'optimisation d'une fonction $f(x,y) = (x^2+y^2)e^{-x}$. Il évalue les compétences suivantes:\n\n*   **Justification de la régularité:** Prouver que la fonction est de classe $\\mathcal{C}^2$ sur $\\mathbb{R}^2$ en utilisant les propriétés des fonctions de classe $\\mathcal{C}^{\\infty}$.\n*   **Recherche de points critiques:** Calculer les dérivées partielles premières $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$, résoudre le système d'équations $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$ pour trouver les points critiques.\n*   **Identification des extrema locaux:** Calculer les dérivées partielles secondes $\\frac{\\partial^2 f}{\\partial x^2}$, $\\frac{\\partial^2 f}{\\partial x \\partial y}$ et $\\frac{\\partial^2 f}{\\partial y^2}$, construire la matrice hessienne $H_f(x,y)$, évaluer la hessienne aux points critiques et déterminer la nature des points critiques (minimum, maximum, point selle) en fonction du signe des valeurs propres de la hessienne ou des déterminants des sous-matrices principales.",
+    "competences": [
+      "calculer des dérivées partielles premières et secondes",
+      "résoudre un système d'équations pour trouver les points critiques",
+      "appliquer le critère de la hessienne pour déterminer la nature des points critiques",
+      "justifier la classe d'une fonction",
+      "interpréter géométriquement les extrema locaux"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de deux variables",
+      "dérivées partielles",
+      "points critiques",
+      "extrema locaux",
+      "hessienne",
+      "optimisation",
+      "minimum",
+      "point selle"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles d'ordre supérieur",
+      "matrice hessienne",
+      "points critiques et extrema",
+      "théorème de Schwarz"
+    ],
+    "prerequis": [
+      "calcul différentiel à une variable",
+      "fonctions de plusieurs variables",
+      "dérivation des fonctions composées",
+      "bases d'algèbre linéaire (matrices)"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "45-60 minutes"
   },
   "contenu": [
     {

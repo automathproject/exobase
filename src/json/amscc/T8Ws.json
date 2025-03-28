@@ -16,7 +16,40 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:32.476Z"
+    "updatedAt": "2025-03-24T17:14:32.476Z",
+    "resume": "L'exercice porte sur la détermination de la densité de probabilité d'un couple de variables aléatoires $(X, Y)$ suivant une loi uniforme sur le disque unité. Il évalue la capacité à : \n\n1.  Calculer la constante de normalisation $\\alpha$ pour qu'une fonction donnée soit une densité de probabilité, en utilisant la géométrie (aire du disque). La densité est de la forme $f(x,y) = \\alpha \\mathbb{1}_D(x,y)$.\n2.  Déterminer la loi marginale de $X$ en intégrant la densité conjointe $f(x, y)$ par rapport à $y$. L'intégration nécessite de déterminer les bornes d'intégration en fonction de $x$ et de calculer l'intégrale obtenue.",
+    "competences": [
+      "calculer une intégrale simple",
+      "déterminer une densité marginale",
+      "appliquer la définition d'une densité de probabilité",
+      "interpréter une loi uniforme",
+      "calculer l'aire d'un disque"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "densité de probabilité",
+      "loi uniforme",
+      "variable aléatoire",
+      "loi marginale",
+      "intégrale",
+      "disque unité",
+      "fonction indicatrice"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité conjointe",
+      "densité marginale",
+      "loi uniforme continue",
+      "intégrale simple"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "notion de variable aléatoire",
+      "définition d'une densité de probabilité",
+      "notion d'intégrale sur un domaine"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

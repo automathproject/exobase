@@ -16,7 +16,40 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:39.688Z"
+    "updatedAt": "2025-03-24T17:15:39.688Z",
+    "resume": "L'exercice porte sur l'étude de variables aléatoires continues, notamment la loi exponentielle et des lois issues de manipulations sur ces variables. Les compétences mises en œuvre sont les suivantes:\\n\\n*   Calcul de la fonction de répartition d'une variable aléatoire à densité à l'aide d'une intégrale et d'une intégration par partie.\\n*   Modélisation d'une durée de vie minimale par le minimum de variables aléatoires indépendantes et de même loi, et détermination de la fonction de répartition de ce minimum, en utilisant l'indépendance.\\n*   Calcul de probabilité à partir de la fonction de répartition.\\n*   Modélisation d'une durée de vie avec remplacement par la somme de deux variables aléatoires, $U=X_1+X_2$, et détermination de la densité de $U$ par convolution: $f_U(s) = (f * f)(s)$.\\n*   Modélisation d'une durée de vie maximale par le maximum de variables aléatoires indépendantes et de même loi, et détermination de la fonction de répartition de ce maximum, en utilisant l'indépendance.",
+    "competences": [
+      "calculer une fonction de répartition",
+      "appliquer le concept d'indépendance pour simplifier des probabilités",
+      "calculer une probabilité à partir d'une fonction de répartition",
+      "appliquer la formule du produit de convolution",
+      "interpréter des variables aléatoires comme des modèles de situations concrètes"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "densité de probabilité",
+      "fonction de répartition",
+      "loi exponentielle",
+      "indépendance",
+      "produit de convolution",
+      "durée de vie",
+      "minimum de variables aléatoires",
+      "maximum de variables aléatoires"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire continue",
+      "fonction de répartition",
+      "densité de probabilité",
+      "indépendance de variables aléatoires"
+    ],
+    "prerequis": [
+      "calcul intégral (intégration par parties)",
+      "probabilités élémentaires",
+      "notion de variable aléatoire",
+      "indépendance de variables aléatoires"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

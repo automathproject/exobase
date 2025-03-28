@@ -15,7 +15,41 @@
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:06.399Z"
+    "updatedAt": "2025-03-24T17:15:06.399Z",
+    "resume": "L'exercice porte sur la factorisation du polynôme $R(X)=X^9+X^6+X^3+1$. Il requiert les compétences suivantes: \n\n*   Calcul polynomial: développement et simplification de $(X-1)P(X)$ où $P(X)=X^3+X^2+X+1$.\n*   Recherche de racines complexes d'un polynôme (ici, $X^4-1$).\n*   Factorisation d'un polynôme en produit de facteurs irréductibles dans $\\mathbb{C}[X]$.\n*   Manipulation d'expressions polynomiales pour identifier une relation entre $R(X)$ et $P(X)$ sous la forme $R(X) = P(X^3)$.\n*   Factorisation de $X^3+1$ sur $\\mathbb{R}[X]$ et identification de ses racines complexes ($x_1 = \\exp(-i\\pi/3)$ et $\\overline{x_1}$).\n*   Déduction de la décomposition en produit de facteurs irréductibles de $R(X)$ sur $\\mathbb{C}[X]$ en utilisant les racines de $X^6+1$ données par $z_k=\\exp(i(\\pi+2k\\pi)/6)$.",
+    "competences": [
+      "factoriser un polynôme dans $\\mathbb{C}[X]$ et $\\mathbb{R}[X]$",
+      "calculer les racines complexes d'un polynôme",
+      "appliquer la relation entre racines et facteurs d'un polynôme",
+      "déterminer les coefficients d'un polynôme après multiplication",
+      "interpréter la relation entre P(X) et R(X)"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "polynôme",
+      "racine",
+      "factorisation",
+      "facteurs irréductibles",
+      "corps des complexes",
+      "corps des réels",
+      "décomposition",
+      "algèbre"
+    ],
+    "concepts_fondamentaux": [
+      "racines d'un polynôme",
+      "factorisation d'un polynôme",
+      "polynômes irréductibles",
+      "arithmétique des polynômes",
+      "nombres complexes"
+    ],
+    "prerequis": [
+      "connaissance des nombres complexes",
+      "manipulation des polynômes",
+      "factorisation simple de polynômes",
+      "recherche de racines évidentes"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

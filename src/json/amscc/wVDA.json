@@ -15,7 +15,39 @@
     "chapitre": "Analyse numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:20.675Z"
+    "updatedAt": "2025-03-24T17:17:20.675Z",
+    "resume": "L'exercice porte sur l'analyse de l'erreur relative dans la résolution d'un système linéaire $AX = b$ perturbé. Il vise à démontrer une borne supérieure pour l'erreur relative sur la solution $\\\\frac{||\\delta X||}{||X||}$ en fonction du conditionnement de la matrice $A$, noté $\\\\text{cond}(A)$, et de l'erreur relative sur le second membre $\\\\frac{||\\delta b||}{||b||}$. Enfin, il faut encadrer l'erreur relative sur X.",
+    "competences": [
+      "démontrer une inégalité matricielle",
+      "appliquer les propriétés des normes vectorielles et matricielles",
+      "interpréter l'influence du conditionnement d'une matrice sur la sensibilité de la solution d'un système linéaire",
+      "utiliser la définition du conditionnement d'une matrice",
+      "résoudre un système linéaire sous forme matricielle"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "analyse numérique",
+      "conditionnement",
+      "matrice inversible",
+      "erreur relative",
+      "norme vectorielle",
+      "système linéaire",
+      "perturbation",
+      "stabilité"
+    ],
+    "concepts_fondamentaux": [
+      "normes vectorielles et matricielles",
+      "conditionnement d'une matrice",
+      "systèmes linéaires",
+      "inversibilité d'une matrice"
+    ],
+    "prerequis": [
+      "algèbre linéaire (espaces vectoriels, matrices, inversibilité)",
+      "normes vectorielles et matricielles",
+      "systèmes d'équations linéaires"
+    ],
+    "type_exercice": "Démonstration",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

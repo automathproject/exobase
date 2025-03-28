@@ -15,7 +15,41 @@
     "chapitre": "Analyse numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:38.111Z"
+    "updatedAt": "2025-03-24T17:15:38.111Z",
+    "resume": "Cet exercice porte sur l'analyse et l'implémentation d'un schéma numérique pour résoudre une équation différentielle ordinaire (EDO). Il évalue la régularité de la solution, calcule un développement de Taylor à l'ordre 2. Il s'agit ensuite de montrer la consistance du schéma numérique proposé et de déterminer son ordre, puis d'étudier sa stabilité et sa convergence dans un cas particulier. Une généralisation pour obtenir un schéma d'ordre $N$ est demandée. Enfin, l'exercice demande l'implémentation du schéma, la résolution analytique de l'EDO dans un cas spécifique ($y' = -ty$), et la comparaison des résultats numériques obtenus avec ce schéma avec ceux obtenus par les méthodes d'Euler et d'Euler améliorée par rapport à la solution exacte $y(t) = e^{-t^2/2}$.",
+    "competences": [
+      "appliquer un développement de Taylor pour approcher une fonction",
+      "analyser la consistance, la stabilité et la convergence d'un schéma numérique",
+      "calculer les dérivées partielles d'une fonction à deux variables",
+      "résoudre une équation différentielle ordinaire",
+      "implémenter un algorithme numérique pour résoudre une équation différentielle"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "analyse numérique",
+      "équation différentielle",
+      "schéma numérique",
+      "méthode d'Euler",
+      "consistance",
+      "stabilité",
+      "convergence",
+      "développement de Taylor"
+    ],
+    "concepts_fondamentaux": [
+      "équation différentielle ordinaire (EDO)",
+      "développement de Taylor",
+      "schéma numérique d'approximation",
+      "consistance, stabilité et convergence",
+      "méthodes numériques"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées, dérivées partielles)",
+      "équations différentielles",
+      "développement de Taylor",
+      "notions de base en analyse numérique"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "120 minutes"
   },
   "contenu": [
     {

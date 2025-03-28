@@ -15,7 +15,39 @@
     "chapitre": "Autre",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:40.603Z"
+    "updatedAt": "2025-03-24T17:13:40.603Z",
+    "resume": "L'exercice porte sur la conception d'un perceptron pour une tâche de classification linéaire. Il s'agit de déterminer les poids synaptiques et le biais d'un neurone artificiel de manière à ce qu'il puisse séparer deux classes de points (bleus et rouges) dans un espace 2D. La compétence mise en oeuvre est la détermination d'une fonction linéaire $F(x, y) = w_1x + w_2y + b$ telle que $F(x, y) > 0$ pour une classe et $F(x, y) < 0$ pour l'autre, où $w_1$ et $w_2$ sont les poids synaptiques et $b$ est le biais.",
+    "competences": [
+      "interpréter une représentation graphique de données",
+      "modéliser une fonction de classification linéaire",
+      "appliquer le concept de perceptron à une classification",
+      "déterminer les paramètres d'une droite de séparation",
+      "traduire une droite en équation linéaire"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "perceptron",
+      "classification linéaire",
+      "réseau de neurones",
+      "machine learning",
+      "apprentissage automatique",
+      "fonction de décision",
+      "biais",
+      "hyperplan"
+    ],
+    "concepts_fondamentaux": [
+      "perceptron",
+      "fonction d'activation",
+      "frontière de décision linéaire",
+      "classification supervisée"
+    ],
+    "prerequis": [
+      "algèbre linéaire de base",
+      "interprétation de graphiques",
+      "équation de droite"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

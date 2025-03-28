@@ -17,7 +17,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.276Z"
+    "updatedAt": "2025-03-24T17:13:15.276Z",
+    "resume": "Cet exercice porte sur les probabilités continues, et plus particulièrement sur la loi normale et le théorème central limite. Il évalue la capacité à : \n\n1.  Appliquer le théorème central limite pour approcher une somme de variables aléatoires indépendantes par une loi normale. Calculer la probabilité qu'une variable aléatoire, approximée par une loi normale, dépasse une certaine valeur. Formule utilisée : $\\PP(X > a) = \\PP(\\frac{X-\\mu}{\\sigma} > \\frac{a-\\mu}{\\sigma}) \\approx \\PP(Z > \\frac{a-\\mu}{\\sigma})$ où $Z$ suit une loi normale centrée réduite.\n\n2.  Estimer une proportion à partir d'un échantillon en utilisant un intervalle de confiance. Appliquer la formule de l'intervalle de confiance : $I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$",
+    "competences": [
+      "appliquer le théorème central limite",
+      "calculer une probabilité à partir d'une loi normale",
+      "calculer un intervalle de confiance pour une proportion",
+      "calculer l'espérance et la variance d'une somme de variables aléatoires indépendantes",
+      "interpréter un intervalle de confiance"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "loi normale",
+      "théorème central limite",
+      "intervalle de confiance",
+      "estimation",
+      "variable aléatoire",
+      "espérance",
+      "variance"
+    ],
+    "concepts_fondamentaux": [
+      "théorème central limite",
+      "loi normale",
+      "intervalle de confiance",
+      "variable aléatoire",
+      "espérance mathématique"
+    ],
+    "prerequis": [
+      "connaissance de la loi normale",
+      "calcul de l'espérance et de la variance",
+      "maîtrise des intervalles de confiance",
+      "théorème central limite"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

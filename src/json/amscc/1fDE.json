@@ -18,7 +18,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.419Z"
+    "updatedAt": "2025-03-24T17:13:15.419Z",
+    "resume": "Cet exercice de probabilités aborde les points suivants:\\n\\n*   Calcul de probabilités totales en utilisant un arbre pondéré et la formule $\\\\prob(F)=\\\\prob(F\\\\cap A)+\\\\prob(F\\\\cap B)=\\\\prob(A)\\\\prob(F|A)+\\\\prob(B)\\\\prob(F|B)$.\\n*   Calcul de probabilités conditionnelles avec la formule $\\\\prob(A|F)=\\\\frac{\\\\prob(A\\\\cap F)}{\\\\prob(F)}=\\\\frac{\\\\prob(A)\\\\prob(F|A)}{\\\\prob(F)}$.\\n*   Identification d'une variable aléatoire suivant une loi binomiale $X \\\\sim \\\\mathcal{B}(n,p)$ et calcul de son espérance $E(X) = n*p$ et de sa variance $\\\\sigma^2(X)=n*p*(1-p)$.\\n*   Approximation d'une loi binomiale par une loi normale $\\\\mathcal{N}(\\\\mu, \\\\sigma^2)$ avec correction de continuité et calcul de probabilités en utilisant la loi normale centrée réduite.",
+    "competences": [
+      "appliquer une loi binomiale pour modéliser une situation aléatoire",
+      "calculer des probabilités conditionnelles",
+      "approximer une loi binomiale par une loi normale",
+      "calculer l'espérance et l'écart-type d'une variable aléatoire binomiale",
+      "interpréter un arbre de probabilités"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité conditionnelle",
+      "loi binomiale",
+      "loi normale",
+      "approximation normale",
+      "variable aléatoire",
+      "espérance",
+      "écart-type",
+      "correction de continuité"
+    ],
+    "concepts_fondamentaux": [
+      "probabilité conditionnelle",
+      "variable aléatoire discrète",
+      "loi binomiale",
+      "loi normale",
+      "théorème de la limite centrale"
+    ],
+    "prerequis": [
+      "calcul de probabilités simples",
+      "connaissance des lois binomiale et normale",
+      "formule de Bayes",
+      "notion d'espérance et d'écart-type"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

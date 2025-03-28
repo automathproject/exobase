@@ -15,7 +15,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:20.771Z"
+    "updatedAt": "2025-03-24T17:17:20.771Z",
+    "resume": "L'exercice porte sur les probabilités continues et la fonction de répartition d'une variable aléatoire. Il s'agit de démontrer que la discontinuité de la fonction de répartition $F_X$ en un point $x_0$, quantifiée par le saut $p_0 = F_X(x_0) - F_X(x_0^-)$, est égale à la probabilité que la variable aléatoire $X$ prenne la valeur $x_0$, c'est-à-dire $\\mathbb{P}(X=x_0)$. La résolution utilise la limite à gauche de la fonction de répartition et le théorème de continuité décroissante des probabilités.",
+    "competences": [
+      "démontrer une propriété de probabilité",
+      "appliquer le théorème de continuité décroissante",
+      "interpréter une limite de probabilité",
+      "calculer une différence de fonctions de répartition",
+      "manipuler des intervalles et des événements"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de répartition",
+      "probabilité continue",
+      "discontinuité",
+      "saut",
+      "théorème de continuité décroissante",
+      "variable aléatoire",
+      "événement",
+      "probabilité ponctuelle"
+    ],
+    "concepts_fondamentaux": [
+      "fonction de répartition",
+      "limite de suites d'événements",
+      "théorème de continuité monotone",
+      "probabilité d'un singleton"
+    ],
+    "prerequis": [
+      "définition de la fonction de répartition",
+      "propriétés des fonctions de répartition",
+      "théorème de continuité monotone ou décroissante",
+      "notion de limite",
+      "formalisation ensembliste d'événements"
+    ],
+    "type_exercice": "Démonstration",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

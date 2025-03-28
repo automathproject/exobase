@@ -15,7 +15,39 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:25.592Z"
+    "updatedAt": "2025-03-24T17:14:25.592Z",
+    "resume": "L'exercice porte sur l'étude de la limite et de la continuité d'une fonction $f(x,y)$ de deux variables en $(0,0)$. Il s'agit de : \\n1. Calculer des limites de $f$ restreinte à des droites d'équation $y=ax$ ($a \\in \\R$), ce qui revient à calculer $\\lim_{x \\to 0} f(x,0)$, $\\lim_{x \\to 0} f(x,ax)$ (pour $a \\neq 0$), et $\\lim_{y \\to 0} f(0,y)$.\\n2. Calculer la limite de $f$ restreinte à la parabole d'équation $y=x^2$, soit $\\lim_{x \\to 0} f(x, x^2)$.\\n3. Conclure sur la continuité de $f$ en $(0,0)$ en utilisant les résultats précédents.",
+    "competences": [
+      "calculer une limite d'une fonction de deux variables le long d'une courbe",
+      "interpréter la continuité d'une fonction de deux variables à partir de l'existence et de l'unicité des limites directionnelles",
+      "calculer une limite d'une fonction d'une variable",
+      "évaluer une fonction de deux variables en un point",
+      "simplifier une expression algébrique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de deux variables",
+      "limite",
+      "continuité",
+      "restriction",
+      "courbe",
+      "origine",
+      "R^2"
+    ],
+    "concepts_fondamentaux": [
+      "limite d'une fonction de plusieurs variables",
+      "continuité d'une fonction de plusieurs variables",
+      "restriction d'une fonction",
+      "limite directionnelle"
+    ],
+    "prerequis": [
+      "calcul de limites de fonctions d'une variable",
+      "notion de continuité pour les fonctions d'une variable",
+      "manipulation d'expressions algébriques",
+      "notion de fonction de plusieurs variables"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

@@ -15,7 +15,41 @@
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "exo7",
-    "updatedAt": "2025-03-24T17:15:01.118Z"
+    "updatedAt": "2025-03-24T17:15:01.118Z",
+    "resume": "Cet exercice porte sur l'optimisation d'une fonction $f(x, y) = 6xy + (y-x)^3$ sur un domaine $\\Delta$ défini par $-1 \\leq x \\leq y \\leq 1$. Il évalue les compétences suivantes:\n\n1.  **Représentation et propriétés de l'ensemble $\\Delta$**: Savoir représenter graphiquement un domaine défini par des inégalités et démontrer sa compacité. Application du théorème des bornes atteintes.\n\n2.  **Recherche d'extrema locaux**: Calcul des dérivées partielles premières de $f$, résolution du système d'équations $\\nabla f = 0$ pour trouver les points critiques, calcul de la matrice Hessienne $H_f$ et utilisation du déterminant et des valeurs propres de $H_f$ pour déterminer la nature des points critiques (minimum local, maximum local, ou point selle).\n\n3.  **Optimisation sur le bord**: Paramétrisation des frontières de $\\Delta$, calcul des extrema de la fonction restreinte à chaque segment de la frontière en utilisant la dérivation simple, et identification des points critiques sur le bord.\n\n4.  **Conclusion et identification des bornes**: Comparaison des valeurs de $f$ aux points critiques à l'intérieur et sur le bord de $\\Delta$ afin de déterminer le maximum et le minimum global de $f$ sur $\\Delta$.",
+    "competences": [
+      "calculer les dérivées partielles d'une fonction de deux variables",
+      "déterminer et étudier les points critiques d'une fonction de deux variables",
+      "appliquer le théorème des valeurs extrêmes",
+      "calculer les extrema d'une fonction sur un domaine borné et fermé",
+      "interpréter géométriquement un domaine défini par des inégalités"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "fonction de deux variables",
+      "extremum local",
+      "extremum global",
+      "bornes",
+      "compact",
+      "dérivées partielles",
+      "matrice Hessienne",
+      "optimisation"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles d'ordre 1 et 2",
+      "matrice Hessienne et nature des points critiques",
+      "théorème des valeurs extrêmes",
+      "compacité",
+      "optimisation sur un ensemble borné"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées)",
+      "notion de fonction continue",
+      "notion d'ensemble compact",
+      "bases d'algèbre linéaire (matrices)"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

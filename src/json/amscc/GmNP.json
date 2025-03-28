@@ -16,7 +16,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:58.692Z"
+    "updatedAt": "2025-03-24T17:13:58.692Z",
+    "resume": "L'exercice porte sur la convergence en loi d'une suite de variables aléatoires. Il évalue les compétences suivantes :\\n\\n*   Identification de la loi géométrique de $nN_n$ à partir de la définition de $N_n$ et des $X_k^n$, variables de Bernoulli de paramètre $p_n = \\\\frac{\\\\lambda}{n}$.\\n*   Calcul de la fonction caractéristique de $N_n$ en utilisant la loi géométrique de $nN_n$ et les propriétés des fonctions caractéristiques. La fonction caractéristique de la loi géométrique est utilisée: $\\\\phi_X(t) = \\\\frac{p e^{it}}{1-(1-p)e^{it}}$.\\n*   Déduction de la convergence en loi de la suite $(N_n)$ vers une loi exponentielle de paramètre $\\\\lambda$ en étudiant la limite de la fonction caractéristique de $N_n$ et en la comparant à la fonction caractéristique de la loi exponentielle, qui est $\\\\phi(t) = \\\\frac{\\\\lambda}{\\\\lambda - it}$.",
+    "competences": [
+      "calculer une fonction caractéristique",
+      "appliquer la définition de convergence en loi",
+      "identifier une loi géométrique",
+      "interpréter une fonction caractéristique",
+      "calculer une probabilité"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité continue",
+      "convergence en loi",
+      "fonction caractéristique",
+      "loi de Bernoulli",
+      "loi géométrique",
+      "variable aléatoire",
+      "indépendance",
+      "suite de variables aléatoires"
+    ],
+    "concepts_fondamentaux": [
+      "convergence en loi",
+      "fonction caractéristique",
+      "loi de probabilité (Bernoulli, Géométrique)",
+      "variable aléatoire",
+      "indépendance de variables aléatoires"
+    ],
+    "prerequis": [
+      "connaissance des lois de Bernoulli et Géométrique",
+      "définition de la fonction caractéristique",
+      "définition de la convergence en loi",
+      "calcul de probabilités"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

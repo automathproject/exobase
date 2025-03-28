@@ -16,7 +16,42 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi forte des grands nombres",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:25.453Z"
+    "updatedAt": "2025-03-24T17:15:25.453Z",
+    "resume": "L'exercice porte sur l'estimation de $\\frac{\\pi}{4}$ par deux méthodes de Monte Carlo, et compare leur efficacité via le calcul de la variance des estimateurs. La première méthode (Hit or Miss) consiste à simuler des points uniformément dans un carré et à compter ceux tombant dans un quart de disque. On demande de déterminer la loi de Bernoulli associée, de justifier l'absence de biais de l'estimateur $T_n^{(1)} = \\frac{1}{n} \\sum_{i=1}^{n} Z_i$, où $Z_i$ est une indicatrice d'appartenance au disque, de montrer sa convergence presque sûre vers $\\frac{\\pi}{4}$ via la loi forte des grands nombres, et de calculer $C^{(1)}$ tel que $V(T_n^{(1)}) = \\frac{C^{(1)}}{n}$. La deuxième méthode utilise une fonction $g(x) = \\sqrt{1-x^2}$ et des variables uniformes sur $[0,1]$. On demande de justifier que $E[g(U_1)] = \\frac{\\pi}{4}$, d'en déduire un estimateur convergent $T_n^{(2)} = \\frac{1}{n} \\sum_{i=1}^{n} g(U_i)$, de calculer $C^{(2)}$ tel que $V(T_n^{(2)}) = \\frac{C^{(2)}}{n}$, et de comparer les deux méthodes en fonction de la variance de leurs estimateurs.",
+    "competences": [
+      "appliquer la loi forte des grands nombres",
+      "calculer une espérance à l'aide du théorème de transfert",
+      "calculer la variance d'une variable aléatoire",
+      "identifier une loi de Bernoulli",
+      "calculer une intégrale simple"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "méthode de Monte Carlo",
+      "loi forte des grands nombres",
+      "estimation",
+      "variance",
+      "variable aléatoire",
+      "espérance",
+      "intégration",
+      "Bernoulli"
+    ],
+    "concepts_fondamentaux": [
+      "loi forte des grands nombres",
+      "théorème de transfert",
+      "variable aléatoire i.i.d.",
+      "espérance et variance",
+      "estimateur sans biais"
+    ],
+    "prerequis": [
+      "théorie des probabilités de base",
+      "variables aléatoires",
+      "espérance et variance",
+      "loi uniforme",
+      "intégration simple"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

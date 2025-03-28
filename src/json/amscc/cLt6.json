@@ -16,7 +16,41 @@
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:11.749Z"
+    "updatedAt": "2025-03-24T17:15:11.749Z",
+    "resume": "L'exercice porte sur un test d'hypothèse statistique. Il vise à évaluer si la proportion de montants commençant par le chiffre 6 dans un échantillon comptable suggère une falsification, en comparaison avec la proportion théorique donnée par la loi de Benford. Les compétences mises en œuvre incluent : \n\n*   Formulation d'hypothèses $H_0$ et $H_1$ appropriées pour tester si la proportion observée est significativement supérieure à la proportion théorique.\n*   Calcul de la statistique de test $Z = \\frac{F - 0.067}{\\sqrt{\\frac{0.067(1-0.067)}{120}}}$, où $F$ est la fréquence empirique des montants commençant par 6.\n*   Détermination de la zone de rejet du test, basée sur un niveau de signification $\\alpha = 0.05$ et la distribution normale standard.\n*   Calcul de la valeur observée de la statistique de test $z_{obs}$ à partir des données de l'échantillon.\n*   Prise de décision sur le rejet ou non de l'hypothèse nulle, en comparant $z_{obs}$ à la zone de rejet.",
+    "competences": [
+      "appliquer un test d'hypothèse unilatéral",
+      "calculer une statistique de test",
+      "interpréter le résultat d'un test d'hypothèse",
+      "définir les hypothèses nulles et alternatives appropriées",
+      "calculer une fréquence empirique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "test d'hypothèse",
+      "loi de Benford",
+      "statistique",
+      "contrôle comptable",
+      "falsification",
+      "proportion",
+      "niveau de signification",
+      "intervalle de confiance"
+    ],
+    "concepts_fondamentaux": [
+      "test d'hypothèse",
+      "loi normale",
+      "niveau de signification",
+      "variable aléatoire",
+      "hypothèse nulle et alternative"
+    ],
+    "prerequis": [
+      "connaissance des tests d'hypothèses",
+      "notions de statistique descriptive",
+      "manipulation de la loi normale",
+      "calcul de probabilités"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

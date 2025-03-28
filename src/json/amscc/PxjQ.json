@@ -15,7 +15,38 @@
     "chapitre": "Déterminant, système linéaire",
     "sousChapitre": "Calcul de déterminants",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:26.180Z"
+    "updatedAt": "2025-03-24T17:14:26.180Z",
+    "resume": "L'exercice porte sur la détermination de l'inversibilité d'une matrice $M_a$ dépendant d'un paramètre $a$. Il s'agit de :\n\n1.  Calculer le déterminant de $M_a$, noté $\\det(M_a)$, en fonction de $a$.\n2.  Résoudre l'équation $\\det(M_a) = 0$ pour trouver les valeurs de $a$ pour lesquelles la matrice n'est pas inversible. Déterminer la condition sur $a$ pour que $M_a$ soit inversible.\n3.  Calculer les cofacteurs de $M_a$ pour $a \\neq 0$.\n4.  Calculer la comatrice $\\tilde{M}$ et sa transposée ${}^t \\tilde{M}$.\n5.  Déterminer l'inverse de $M_a$, noté $M_a^{-1}$, en utilisant la formule $M_a^{-1} = \\frac{1}{\\det(M_a)} {}^t \\tilde{M}$.",
+    "competences": [
+      "calculer un déterminant d'une matrice 3x3",
+      "déterminer l'inversibilité d'une matrice en fonction d'un paramètre",
+      "calculer la matrice des cofacteurs",
+      "calculer l'inverse d'une matrice",
+      "résoudre une équation pour trouver les valeurs d'un paramètre"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "déterminant",
+      "matrice inversible",
+      "inverse de matrice",
+      "cofacteurs",
+      "paramètre",
+      "système linéaire"
+    ],
+    "concepts_fondamentaux": [
+      "déterminant",
+      "matrice inverse",
+      "matrice adjointe/cofacteurs",
+      "inversibilité d'une matrice"
+    ],
+    "prerequis": [
+      "calcul matriciel",
+      "définition du déterminant",
+      "propriétés du déterminant",
+      "définition d'une matrice inversible"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

@@ -15,7 +15,40 @@
     "chapitre": "Courbes planes",
     "sousChapitre": "Courbes paramétrées",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:49.757Z"
+    "updatedAt": "2025-03-24T17:13:49.757Z",
+    "resume": "Cet exercice explore les propriétés des fonctions hyperboliques et leur application à l'étude de la chaînette. Les compétences mises en œuvre sont:\n\n*   Démonstration d'identités hyperboliques telles que $\\ch^2(x) - \\sh^2(x) = 1$ et le calcul des dérivées $\\ch'(x) = \\sh(x)$ et $\\sh'(x) = \\ch(x)$.\n*   Interprétation géométrique des fonctions hyperboliques en les comparant aux fonctions trigonométriques et identification des courbes paramétrées associées (cercle et hyperbole).\n*   Calcul de la longueur d'une courbe paramétrée, spécifiquement la chaînette, en utilisant l'intégrale $L = \\int_a^b \\sqrt{x'(t)^2 + y'(t)^2} dt$ et les propriétés des fonctions hyperboliques.\n*   Démonstration des propriétés de bijection et de dérivabilité des fonctions hyperboliques réciproques $\\Argch(x)$ et $\\Argsh(x)$, et calcul de leurs dérivées $\\Argch'(x) = \\frac{1}{\\sqrt{x^2-1}}$ et $\\Argsh'(x) = \\frac{1}{\\sqrt{x^2+1}}$.\n*   Utilisation des expressions logarithmiques de $\\Argch(x)$ et $\\Argsh(x)$ pour trouver une représentation paramétrique alternative de la chaînette.",
+    "competences": [
+      "démontrer des identités trigonométriques hyperboliques",
+      "calculer des intégrales définies impliquant des fonctions hyperboliques",
+      "établir une équation paramétrique à partir d'une équation cartésienne",
+      "interpréter géométriquement des courbes paramétrées",
+      "dériver des fonctions hyperboliques et leurs réciproques"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "chaînette",
+      "courbe paramétrée",
+      "cosinus hyperbolique",
+      "sinus hyperbolique",
+      "longueur d'arc",
+      "bijection réciproque",
+      "argument cosinus hyperbolique",
+      "argument sinus hyperbolique"
+    ],
+    "concepts_fondamentaux": [
+      "fonctions hyperboliques",
+      "courbes paramétrées",
+      "intégrale curviligne",
+      "bijection et bijection réciproque"
+    ],
+    "prerequis": [
+      "maîtrise du calcul différentiel et intégral",
+      "connaissance des fonctions trigonométriques",
+      "connaissance des fonctions exponentielles et logarithmes",
+      "notions de base sur les courbes paramétrées"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

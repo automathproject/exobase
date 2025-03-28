@@ -16,7 +16,40 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:16.740Z"
+    "updatedAt": "2025-03-24T17:13:16.740Z",
+    "resume": "L'exercice porte sur les variables aléatoires discrètes, en particulier la loi binomiale et le dénombrement. Il comprend deux parties:\n\n1.  Étude d'une variable aléatoire $X$ représentant le nombre de points obtenus en tirant avec remise 5 boules d'une urne contenant des boules noires et blanches. Compétences:\n    *   Détermination de la loi de probabilité de $X$ à partir d'un raisonnement combinatoire et du calcul de probabilités d'événements indépendants. Utilisation de la formule $\\binom{n}{k} p^k (1-p)^{n-k}$.\n    *   Calcul de l'espérance mathématique $E(X)$ et de la variance $Var(X)$ d'une variable aléatoire discrète à partir de sa loi de probabilité.\n\n2.  Étude d'une variable aléatoire $Y$ représentant le plus grand numéro obtenu en tirant simultanément 5 boules d'une urne contenant 10 boules numérotées. Compétences:\n    *   Détermination de la loi de probabilité de $Y$ en utilisant le dénombrement et les combinaisons. Calcul de $\\binom{n}{k}$.\n    *   Calcul de la fonction de répartition de $Y$ et déduction de la loi de probabilité de $Y$.\n    *   Calcul de l'espérance mathématique $E(Y)$.",
+    "competences": [
+      "calculer une probabilité binomiale",
+      "calculer l'espérance mathématique d'une variable aléatoire discrète",
+      "calculer la variance d'une variable aléatoire discrète",
+      "déterminer la loi de probabilité d'une variable aléatoire discrète",
+      "appliquer des principes de dénombrement"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité discrète",
+      "variable aléatoire",
+      "loi binomiale",
+      "espérance",
+      "variance",
+      "dénombrement",
+      "tirage avec remise",
+      "tirage sans remise"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire discrète",
+      "loi de probabilité",
+      "espérance mathématique",
+      "variance",
+      "combinatoire"
+    ],
+    "prerequis": [
+      "probabilités de base",
+      "dénombrement (combinaisons)",
+      "notion de variable aléatoire"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

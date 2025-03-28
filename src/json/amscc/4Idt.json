@@ -16,7 +16,42 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:18.456Z"
+    "updatedAt": "2025-03-24T17:13:18.456Z",
+    "resume": "L'exercice porte sur l'application des inégalités de Markov et de Bienaymé-Tchebychev à une variable aléatoire suivant une loi de Poisson de paramètre $\\lambda$. Il s'agit de: \n\n1.  Calculer une borne supérieure de $\\prob(X \\geq 2\\lambda)$ en utilisant l'inégalité de Markov.  L'inégalité utilisée est  $\\prob(|X|\\geq a)\\leq \\frac{\\E(|X|)}{a}$.\n\n2. Calculer une borne supérieure de $\\prob(|X-\\lambda| \\geq \\lambda)$ en utilisant l'inégalité de Bienaymé-Tchebychev, soit $\\prob(|X-\\E(X)|\\geq a)\\leq \\frac{\\sigma^2(X)}{a^2}$, et en déduire une borne supérieure de $\\prob(X\\geq 2\\lambda)$.\n\n3. Comparer les deux bornes obtenues en fonction de la valeur de $\\lambda$ pour déterminer quelle inégalité donne la meilleure estimation.",
+    "competences": [
+      "appliquer l'inégalité de Bienaymé-Tchebychev",
+      "appliquer l'inégalité de Markov",
+      "calculer l'espérance d'une variable aléatoire de Poisson",
+      "calculer la variance d'une variable aléatoire de Poisson",
+      "interpréter des inégalités probabilistes"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité",
+      "loi de Poisson",
+      "inégalité de Markov",
+      "inégalité de Bienaymé-Tchebychev",
+      "variable aléatoire",
+      "espérance",
+      "variance",
+      "majorations probabilistes"
+    ],
+    "concepts_fondamentaux": [
+      "variable aléatoire de Poisson",
+      "inégalité de Markov",
+      "inégalité de Bienaymé-Tchebychev",
+      "espérance mathématique",
+      "variance"
+    ],
+    "prerequis": [
+      "définition d'une variable aléatoire de Poisson",
+      "formule de l'espérance d'une variable aléatoire discrète",
+      "formule de la variance d'une variable aléatoire discrète",
+      "connaissance de l'inégalité de Markov",
+      "connaissance de l'inégalité de Bienaymé-Tchebychev"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30-45 minutes"
   },
   "contenu": [
     {

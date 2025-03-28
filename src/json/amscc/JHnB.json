@@ -15,7 +15,39 @@
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:05.362Z"
+    "updatedAt": "2025-03-24T17:14:05.362Z",
+    "resume": "Cet exercice évalue la capacité à appliquer le théorème de Bayes pour déterminer la probabilité a posteriori d'événements. Il s'agit de calculer et de comparer les probabilités conditionnelles $P(p_i | s)$ où $p_i$ représente l'ingestion du poison $i$ et $s$ l'observation du signe clinique.  La résolution implique l'utilisation de la formule de Bayes: $P(p_i | s) = \\frac{P(s | p_i) * P(p_i)}{P(s)}$ et le calcul de $P(s)$ via la formule des probabilités totales: $P(s) = \\sum_i P(s | p_i) * P(p_i)$. L'exercice met également en évidence que la comparaison des probabilités $P(p_i \\cap s)$ suffit pour déterminer le poison le plus probable.",
+    "competences": [
+      "appliquer le théorème de Bayes",
+      "calculer des probabilités conditionnelles",
+      "appliquer la formule des probabilités totales",
+      "interpréter des événements probabilistes",
+      "calculer des probabilités d'intersection d'événements"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "probabilité conditionnelle",
+      "théorème de Bayes",
+      "probabilités totales",
+      "signe clinique",
+      "poison",
+      "diagnostic",
+      "probabilité a posteriori",
+      "probabilité a priori"
+    ],
+    "concepts_fondamentaux": [
+      "probabilité conditionnelle",
+      "théorème de Bayes",
+      "probabilités totales",
+      "événements indépendants"
+    ],
+    "prerequis": [
+      "probabilité d'un événement",
+      "événements indépendants",
+      "calcul de fractions"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

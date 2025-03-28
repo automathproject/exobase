@@ -16,7 +16,41 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:05.851Z"
+    "updatedAt": "2025-03-24T17:15:05.851Z",
+    "resume": "Cet exercice porte sur l'application du théorème central limite. Il s'agit de :\\n\\n1.  Déterminer la distribution approximative de la somme $S$ de $n=100$ variables aléatoires indépendantes et identiquement distribuées (i.i.d.) $X_i$ de moyenne $\\\\mu = 30$ et de variance $\\\\sigma^2 = 16$, en utilisant le théorème central limite.  C'est-à-dire, identifier les paramètres (moyenne et variance) de la loi normale approximative de $S$.\\n2.  Calculer la probabilité que $S$ soit inférieure à 2900, en utilisant l'approximation normale de $S$ et en effectuant un calcul de probabilité avec une loi normale centrée réduite via la transformation $Z = \\\\frac{S - n\\\\mu}{\\\\sqrt{n}\\\\sigma}$.",
+    "competences": [
+      "appliquer le théorème central limite",
+      "calculer une probabilité à partir d'une loi normale",
+      "centrer et réduire une variable aléatoire",
+      "calculer la moyenne et la variance d'une somme de variables aléatoires indépendantes",
+      "interpréter les paramètres d'une loi normale"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "théorème central limite",
+      "loi normale",
+      "approximation",
+      "probabilité",
+      "variable aléatoire",
+      "somme de variables aléatoires",
+      "centrage et réduction",
+      "distribution"
+    ],
+    "concepts_fondamentaux": [
+      "théorème central limite",
+      "loi normale",
+      "espérance mathématique",
+      "variance",
+      "indépendance"
+    ],
+    "prerequis": [
+      "connaissance de la loi normale",
+      "espérance et variance",
+      "variables aléatoires indépendantes",
+      "notions de probabilité"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes"
   },
   "contenu": [
     {

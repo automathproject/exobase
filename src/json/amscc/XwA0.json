@@ -15,7 +15,40 @@
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:51.244Z"
+    "updatedAt": "2025-03-24T17:14:51.244Z",
+    "resume": "L'exercice porte sur la validation d'un générateur de nombres aléatoires uniformes (fonction `ALEA.ENTRE.BORNES(1;8)` d'un tableur) via un test du $\\chi^2$. Il implique de simuler 500 tirages, de calculer les fréquences observées, de comparer à la distribution uniforme théorique attendue, de calculer la statistique du $\\chi^2$, de déterminer le degré de liberté et la p-value, et de conclure si l'on rejette ou non l'hypothèse nulle selon laquelle le générateur simule correctement un tirage uniforme. La visualisation des résultats par un histogramme est également demandée.",
+    "competences": [
+      "appliquer un test du Chi-deux",
+      "interpréter les résultats d'un test statistique",
+      "simuler des tirages aléatoires avec un tableur",
+      "calculer les fréquences observées et théoriques",
+      "construire un histogramme"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "test du Chi-deux",
+      "simulation",
+      "tirage aléatoire",
+      "tableur",
+      "uniforme",
+      "histogramme",
+      "test d'hypothèse",
+      "contrôle qualité"
+    ],
+    "concepts_fondamentaux": [
+      "test d'hypothèse",
+      "distribution du Chi-deux",
+      "simulation de Monte-Carlo",
+      "fréquence statistique"
+    ],
+    "prerequis": [
+      "connaissance des tests d'hypothèses",
+      "maîtrise d'un tableur",
+      "notions de probabilités",
+      "compréhension de la distribution uniforme"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes"
   },
   "contenu": [
     {

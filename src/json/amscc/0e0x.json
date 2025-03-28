@@ -15,7 +15,40 @@
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:13.121Z"
+    "updatedAt": "2025-03-24T17:13:13.121Z",
+    "resume": "L'exercice porte sur l'estimation ponctuelle et par intervalle de confiance des paramètres d'une loi normale. Il s'agit de :\n\n1.  Calculer les estimateurs de l'espérance ($\\overline{x}$) et de la variance ($s^2$) à partir d'un échantillon donné. L'exercice implique de connaître et d'appliquer les estimateurs usuels.\n2.  Déterminer un intervalle de confiance pour l'espérance mathématique, en utilisant la loi de Student appropriée, compte tenu de la taille de l'échantillon et du risque $\\alpha$.",
+    "competences": [
+      "calculer une moyenne empirique",
+      "calculer une variance empirique corrigée",
+      "déterminer un intervalle de confiance pour une moyenne avec une loi de Student",
+      "interpréter un intervalle de confiance",
+      "appliquer les propriétés des estimateurs (sans biais, convergence)"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "estimation",
+      "intervalle de confiance",
+      "loi normale",
+      "loi de Student",
+      "moyenne empirique",
+      "variance empirique",
+      "estimateur sans biais",
+      "statistiques"
+    ],
+    "concepts_fondamentaux": [
+      "estimateur ponctuel",
+      "intervalle de confiance",
+      "loi de Student",
+      "théorème central limite (implicitement)"
+    ],
+    "prerequis": [
+      "connaissance des lois normales et de Student",
+      "définition de la moyenne et variance empiriques",
+      "notion d'estimateur sans biais",
+      "calculs de base en statistiques"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

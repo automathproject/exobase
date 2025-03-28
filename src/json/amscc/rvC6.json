@@ -15,7 +15,41 @@
     "chapitre": "Méthodes numériques",
     "sousChapitre": "Méthode de Newton",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:12.236Z"
+    "updatedAt": "2025-03-24T17:17:12.236Z",
+    "resume": "L'exercice porte sur l'étude de la méthode de la corde et son application au calcul de la racine carrée d'un nombre $A$. Il aborde les compétences suivantes:\n\n*   Construction graphique des itérations de la méthode de la corde.\n*   Identification de la méthode de la corde comme un cas particulier de la méthode de point fixe: $x_{k+1} = g(x_k)$ avec $g(x) = x - \\frac{f(x)}{f'(x_0)}$.\n*   Détermination de l'ordre minimal de convergence d'une méthode de point fixe (ordre 1).\n*   Analyse de la convergence d'un algorithme itératif pour le calcul de $\\sqrt{A}$, en lien avec la méthode de la corde. L'algorithme est défini par $x_{k+1} = x_k + \\frac{A - x_k^2}{2}$.\n*   Démonstration de la convergence de la suite $(x_n)$ vers $\\sqrt{A}$ sous certaines conditions initiales (A ∈ ]0;4[ et $x_0$ proche de $\\sqrt{A}$).\n*   Vérification graphique de la divergence de la suite $(x_n)$ vers $-\\sqrt{A}$ quand $x_0$ est proche de $-\\sqrt{A}$.\n*   Détermination de l'ordre de convergence de la méthode de la corde (linéaire).\n*   Proposition d'un algorithme plus efficace (méthode de Newton) pour calculer la racine carrée, en définissant l'itération: $x_{k+1} = x_k - \\frac{x_k^2 - A}{2x_k}$ et en justifiant sa convergence quadratique.",
+    "competences": [
+      "appliquer la méthode de point fixe",
+      "interpréter graphiquement les itérations d'une méthode numérique",
+      "déterminer l'ordre de convergence d'une méthode itérative",
+      "calculer des dérivées simples",
+      "analyser la convergence d'une suite"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "méthode de la corde",
+      "méthode de Newton",
+      "méthode de point fixe",
+      "racine carrée",
+      "convergence",
+      "ordre de convergence",
+      "algorithmes numériques",
+      "itération"
+    ],
+    "concepts_fondamentaux": [
+      "méthode de point fixe",
+      "convergence de suites",
+      "dérivation",
+      "analyse graphique",
+      "méthodes numériques"
+    ],
+    "prerequis": [
+      "dérivation de fonctions simples",
+      "notion de suite et de convergence",
+      "représentation graphique de fonctions",
+      "manipulation algébrique"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {
