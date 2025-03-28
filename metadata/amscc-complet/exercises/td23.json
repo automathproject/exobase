@@ -1,39 +1,37 @@
 {
-  "td23": {
-    "competences": [
-      "construire un intervalle de confiance",
-      "appliquer le théorème central limite",
-      "calculer un estimateur",
-      "déterminer la loi d'une statistique",
-      "réaliser un test d'hypothèse"
-    ],
-    "niveau_difficulte": "avancé",
-    "mots_cles": [
-      "loi normale",
-      "estimateur",
-      "intervalle de confiance",
-      "loi du chi-deux",
-      "théorème central limite",
-      "test d'hypothèse",
-      "niveau de test",
-      "p-valeur"
-    ],
-    "concepts_fondamentaux": [
-      "estimation ponctuelle",
-      "estimation par intervalle",
-      "test d'hypothèses",
-      "loi du Chi-deux",
-      "convergence en loi"
-    ],
-    "prerequis": [
-      "connaissances de base en probabilités",
-      "variables aléatoires",
-      "lois usuelles (normale, chi-deux)",
-      "estimation statistique",
-      "tests d'hypothèses"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "120 minutes",
-    "resume": "L'exercice porte sur l'estimation et les tests d'hypothèses pour le paramètre $\\theta$ d'une loi normale $\\mathcal{N}(0, \\theta)$.\n\n1.  **Estimation ponctuelle et loi de l'estimateur**: Il s'agit de proposer un estimateur de $\\theta$, $\\hat{\\theta}_n = \\frac{1}{n} \\sum_{i=1}^{n} X_i^2$, et de déterminer sa loi, qui est un $\\chi^2$ à n degrés de liberté, soit $\\frac{n\\hat{\\theta}_n}{\\theta} \\sim \\chi^2_n$.\n\n2.  **Construction d'intervalles de confiance**: Il faut construire trois intervalles de confiance de niveau $(1-\\alpha)$ pour $\\theta$. Le premier, $I_{1-\\alpha}^{(1)}$, est bilatéral, avec des probabilités $\\alpha/2$ dans chaque queue. Les deux autres, $I_{1-\\alpha}^{(2)}$ et $I_{1-\\alpha}^{(3)}$, sont unilatéraux, avec une probabilité $\\alpha$ dans une seule queue.  Une comparaison de ces intervalles est demandée, notamment en termes de longueur.\n\n3.  **Loi asymptotique et intervalle de confiance asymptotique**: Déterminer la loi asymptotique de $\\hat{\\theta}_n$ en utilisant le TCL et construire un intervalle de confiance asymptotique $J_{1-\\alpha}$. La loi asymptotique est une loi normale $\\mathcal{N}(\\theta, \\frac{2\\theta^2}{n})$.\n\n4.  **Comparaison numérique**: Comparer les intervalles de confiance non asymptotique $I_{1-\\alpha}^{(1)}$ et asymptotique $J_{1-\\alpha}$ pour des valeurs numériques spécifiques ($n=10$, $\\hat{\\theta}_n = 2$, $\\alpha = 5\\%$).\n\n5.  **Test d'hypothèses**: Construire un test d'hypothèse $T_\\alpha(X)$ de niveau $\\alpha$ pour $H_0 : \\theta \\leq 3$ contre $H_1 : \\theta > 3$. Il s'agit de déterminer la taille et la fonction puissance du test, de relier le test aux intervalles de confiance, et de calculer la p-valeur du test pour un seuil $\\alpha = 5\\%$ et $\\hat{\\theta}_n = 4$."
-  }
+  "competences": [
+    "construire un intervalle de confiance",
+    "appliquer le théorème central limite",
+    "calculer un estimateur",
+    "déterminer la loi d'une statistique",
+    "réaliser un test d'hypothèse"
+  ],
+  "niveau_difficulte": "avancé",
+  "mots_cles": [
+    "loi normale",
+    "estimateur",
+    "intervalle de confiance",
+    "loi du chi-deux",
+    "théorème central limite",
+    "test d'hypothèse",
+    "niveau de test",
+    "p-valeur"
+  ],
+  "concepts_fondamentaux": [
+    "estimation ponctuelle",
+    "estimation par intervalle",
+    "test d'hypothèses",
+    "loi du Chi-deux",
+    "convergence en loi"
+  ],
+  "prerequis": [
+    "connaissances de base en probabilités",
+    "variables aléatoires",
+    "lois usuelles (normale, chi-deux)",
+    "estimation statistique",
+    "tests d'hypothèses"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "120 minutes",
+  "resume": "L'exercice porte sur l'estimation et les tests d'hypothèses pour le paramètre $\\theta$ d'une loi normale $\\mathcal{N}(0, \\theta)$.\n\n1.  **Estimation ponctuelle et loi de l'estimateur**: Il s'agit de proposer un estimateur de $\\theta$, $\\hat{\\theta}_n = \\frac{1}{n} \\sum_{i=1}^{n} X_i^2$, et de déterminer sa loi, qui est un $\\chi^2$ à n degrés de liberté, soit $\\frac{n\\hat{\\theta}_n}{\\theta} \\sim \\chi^2_n$.\n\n2.  **Construction d'intervalles de confiance**: Il faut construire trois intervalles de confiance de niveau $(1-\\alpha)$ pour $\\theta$. Le premier, $I_{1-\\alpha}^{(1)}$, est bilatéral, avec des probabilités $\\alpha/2$ dans chaque queue. Les deux autres, $I_{1-\\alpha}^{(2)}$ et $I_{1-\\alpha}^{(3)}$, sont unilatéraux, avec une probabilité $\\alpha$ dans une seule queue.  Une comparaison de ces intervalles est demandée, notamment en termes de longueur.\n\n3.  **Loi asymptotique et intervalle de confiance asymptotique**: Déterminer la loi asymptotique de $\\hat{\\theta}_n$ en utilisant le TCL et construire un intervalle de confiance asymptotique $J_{1-\\alpha}$. La loi asymptotique est une loi normale $\\mathcal{N}(\\theta, \\frac{2\\theta^2}{n})$.\n\n4.  **Comparaison numérique**: Comparer les intervalles de confiance non asymptotique $I_{1-\\alpha}^{(1)}$ et asymptotique $J_{1-\\alpha}$ pour des valeurs numériques spécifiques ($n=10$, $\\hat{\\theta}_n = 2$, $\\alpha = 5\\%$).\n\n5.  **Test d'hypothèses**: Construire un test d'hypothèse $T_\\alpha(X)$ de niveau $\\alpha$ pour $H_0 : \\theta \\leq 3$ contre $H_1 : \\theta > 3$. Il s'agit de déterminer la taille et la fonction puissance du test, de relier le test aux intervalles de confiance, et de calculer la p-valeur du test pour un seuil $\\alpha = 5\\%$ et $\\hat{\\theta}_n = 4$."
 }

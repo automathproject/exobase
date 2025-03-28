@@ -16,7 +16,40 @@
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:47.482Z"
+    "updatedAt": "2025-03-28T11:57:47.482Z",
+    "resume": "L'exercice porte sur la détermination de la loi d'un couple de variables aléatoires $(U,V)$ où $U=X+Y$ et $V=X-Y$, connaissant la densité conjointe du couple $(X,Y)$. Les compétences mises en oeuvre sont: l'application du théorème de transfert pour calculer l'espérance $\\mathbb{E}(h(U,V))$, la réalisation d'un changement de variables (calcul du Jacobien et de son déterminant) pour exprimer l'intégrale en fonction de $u$ et $v$, et la détermination du nouveau domaine d'intégration $C$. La densité de $(U,V)$ est alors donnée par $g(u,v)=\\frac{3}{16}(u^2+v^2) \\textbf{1}_C(u,v)$. L'exercice mentionne également le calcul potentiel des lois marginales pour déterminer l'indépendance de $(X+Y)$ et $(X-Y)$. ",
+    "competences": [
+      "appliquer un changement de variable dans une intégrale double",
+      "calculer l'espérance d'une fonction de variables aléatoires",
+      "déterminer la densité d'un couple de variables aléatoires transformées",
+      "interpréter la fonction indicatrice",
+      "calculer un déterminant 2x2"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "variables aléatoires",
+      "densité conjointe",
+      "théorème de transfert",
+      "changement de variable",
+      "loi d'un couple",
+      "intégrale double",
+      "matrice jacobienne"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "théorème de transfert",
+      "changement de variable dans une intégrale",
+      "matrice jacobienne",
+      "espérance mathématique"
+    ],
+    "prerequis": [
+      "calcul intégral",
+      "variables aléatoires",
+      "théorème de transfert (cas discret et continu)",
+      "algèbre linéaire (déterminant)"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "45 minutes"
   },
   "contenu": [
     {

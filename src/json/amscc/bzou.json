@@ -1,5 +1,5 @@
 {
-  "uuid": "36ac5850-b6f5-45d1-a792-609cec856837",
+  "uuid": "bzou",
   "titre": "Anova",
   "theme": [
     "statistiques"
@@ -15,7 +15,40 @@
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:47.942Z"
+    "updatedAt": "2025-03-28T11:57:47.942Z",
+    "resume": "Cet exercice porte sur l'analyse de la variance (ANOVA) à un facteur. Il évalue la capacité à:\n\n*   Formuler les hypothèses nulles ($H_0: \\mu_1 = \\mu_2 = \\mu_3 = \\mu_4 = \\mu_5$) et alternatives ($H_1$: au moins un $\\mu_i \\neq \\mu_j$).\n*   Calculer des statistiques descriptives (moyenne, variance) pour chaque groupe.\n*   Réaliser un test ANOVA (calcul de SCA, SCE, SCT, degrés de liberté, CM, statistique F).\n*   Prendre une décision statistique basée sur la comparaison de la statistique F calculée avec la valeur critique et interprétation des résultats.\n*   Calculer et interpréter la taille d'effet ($\\eta^2 = SCA/SCT$) pour évaluer l'importance pratique des résultats.",
+    "competences": [
+      "réaliser un test ANOVA à un facteur",
+      "calculer des statistiques descriptives (moyenne, variance)",
+      "formuler des hypothèses nulles et alternatives",
+      "interpréter la taille d'effet (êta carré)",
+      "calculer la somme des carrés inter et intra-groupes"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "ANOVA",
+      "statistiques",
+      "test d'hypothèse",
+      "taille d'effet",
+      "variance",
+      "moyenne",
+      "psychologie cognitive",
+      "méthode d'apprentissage"
+    ],
+    "concepts_fondamentaux": [
+      "analyse de la variance (ANOVA)",
+      "hypothèses statistiques",
+      "degrés de liberté",
+      "statistique F",
+      "taille d'effet"
+    ],
+    "prerequis": [
+      "connaissance des statistiques descriptives (moyenne, variance)",
+      "compréhension des hypothèses statistiques",
+      "notions de base sur les tests d'hypothèses"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes"
   },
   "contenu": [
     {

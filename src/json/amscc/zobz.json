@@ -1,5 +1,5 @@
 {
-  "uuid": "25df7266-b91d-43e4-b2d8-0bee834f8dcc",
+  "uuid": "zobz",
   "titre": "Maximum de vraisemblance et tests",
   "theme": [
     "Statistique"
@@ -15,7 +15,42 @@
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:50.413Z"
+    "updatedAt": "2025-03-28T11:57:50.413Z",
+    "resume": "Cet exercice porte sur l'estimation et les tests d'hypothèses dans le cadre d'une loi dont la densité est $f_\\theta(x) = exp(-(x - \\theta)) \\mathrm{1}_{[\\theta, +\\infty[}(x)$. Il évalue la capacité à:\n\n1.  Proposer des estimateurs de $\\theta$ par différentes méthodes.\n2.  Déterminer la loi de $n(\\hat{\\theta}_n - \\theta)$, où $\\hat{\\theta}_n$ est l'estimateur du maximum de vraisemblance, et construire un intervalle de confiance pour $\\theta$.\n3.  Construire et analyser des tests d'hypothèses pour $H_0: \\theta \\geq 0$ contre $H_1: \\theta < 0$, incluant le calcul de la puissance, la détermination de la taille et l'étude de la variation de la puissance en fonction de $\\alpha$ et $n$.\n4.  Proposer un test d'adéquation pour vérifier si la loi de $X_1$ est exponentielle et calculer sa puissance.",
+    "competences": [
+      "calculer l'estimateur du maximum de vraisemblance",
+      "déterminer la loi d'une statistique",
+      "construire un intervalle de confiance",
+      "construire un test d'hypothèse",
+      "calculer la puissance d'un test"
+    ],
+    "niveau_difficulte": "avancé",
+    "mots_cles": [
+      "maximum de vraisemblance",
+      "estimateur",
+      "intervalle de confiance",
+      "test d'hypothèse",
+      "puissance d'un test",
+      "loi exponentielle",
+      "statistique",
+      "test statistique"
+    ],
+    "concepts_fondamentaux": [
+      "estimation ponctuelle",
+      "estimation par intervalle",
+      "tests d'hypothèses",
+      "maximum de vraisemblance",
+      "loi exponentielle"
+    ],
+    "prerequis": [
+      "notions de probabilités",
+      "statistique descriptive",
+      "variables aléatoires",
+      "lois de probabilité usuelles",
+      "estimation statistique"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "120 minutes"
   },
   "contenu": [
     {

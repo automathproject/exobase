@@ -1,38 +1,36 @@
 {
-  "ovua": {
-    "competences": [
-      "appliquer le test du Chi-deux d'adéquation",
-      "calculer les fréquences observées et théoriques",
-      "déterminer les degrés de liberté",
-      "interpréter la p-value et la comparer au seuil de signification",
-      "formuler une conclusion basée sur le test d'hypothèse"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "test du Chi-deux",
-      "adéquation",
-      "loi Normale",
-      "statistique non paramétrique",
-      "hypothèse",
-      "seuil de signification",
-      "degrés de liberté",
-      "p-value"
-    ],
-    "concepts_fondamentaux": [
-      "test d'hypothèse",
-      "loi du Chi-deux",
-      "distribution normale",
-      "degrés de liberté",
-      "seuil de signification"
-    ],
-    "prerequis": [
-      "connaissance de la loi Normale",
-      "compréhension des tests d'hypothèses",
-      "calcul de probabilités",
-      "notion de degrés de liberté"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "45 minutes",
-    "resume": "L'exercice consiste à réaliser un test d'adéquation non paramétrique (test du $\\chi^2$) pour vérifier si les données observées (dépenses mensuelles de produits surgelés) suivent une loi normale de paramètres $\\mu = 100$ et $\\sigma = 50$ au niveau de signification de 5%. Il faut donc calculer les effectifs théoriques sous l'hypothèse de normalité, puis la statistique du $\\chi^2$ et la comparer à la valeur critique correspondante pour conclure."
-  }
+  "competences": [
+    "appliquer le test du Chi-deux d'adéquation",
+    "calculer les fréquences observées et théoriques",
+    "déterminer les degrés de liberté",
+    "interpréter la p-value et la comparer au seuil de signification",
+    "formuler une conclusion basée sur le test d'hypothèse"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "test du Chi-deux",
+    "adéquation",
+    "loi Normale",
+    "statistique non paramétrique",
+    "hypothèse",
+    "seuil de signification",
+    "degrés de liberté",
+    "p-value"
+  ],
+  "concepts_fondamentaux": [
+    "test d'hypothèse",
+    "loi du Chi-deux",
+    "distribution normale",
+    "degrés de liberté",
+    "seuil de signification"
+  ],
+  "prerequis": [
+    "connaissance de la loi Normale",
+    "compréhension des tests d'hypothèses",
+    "calcul de probabilités",
+    "notion de degrés de liberté"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "45 minutes",
+  "resume": "L'exercice consiste à réaliser un test d'adéquation non paramétrique (test du $\\chi^2$) pour vérifier si les données observées (dépenses mensuelles de produits surgelés) suivent une loi normale de paramètres $\\mu = 100$ et $\\sigma = 50$ au niveau de signification de 5%. Il faut donc calculer les effectifs théoriques sous l'hypothèse de normalité, puis la statistique du $\\chi^2$ et la comparer à la valeur critique correspondante pour conclure."
 }

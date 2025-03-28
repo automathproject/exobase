@@ -1,37 +1,35 @@
 {
-  "nSDY": {
-    "competences": [
-      "calculer une probabilité d'événements",
-      "définir un espace probabilisable discret",
-      "appliquer les règles de calcul des probabilités (union, intersection, complémentaire)",
-      "interpréter des événements en termes de probabilités",
-      "résoudre une équation linéaire simple"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "probabilité",
-      "événement",
-      "univers",
-      "dé à six faces",
-      "probabilité discrète",
-      "événements incompatibles",
-      "union d'événements",
-      "intersection d'événements"
-    ],
-    "concepts_fondamentaux": [
-      "probabilité d'un événement",
-      "espace probabilisable discret",
-      "événements incompatibles",
-      "union et intersection d'événements",
-      "complémentaire d'un événement"
-    ],
-    "prerequis": [
-      "notion d'ensemble",
-      "vocabulaire de base des probabilités (événement, univers)",
-      "opérations arithmétiques de base (addition, soustraction)"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "30-45 minutes",
-    "resume": "L'exercice porte sur le calcul de probabilités dans le cadre d'une expérience aléatoire simple : le lancer d'un dé à six faces. Il vise à évaluer la capacité à:\n\n1.  Définir l'univers associé à une expérience aléatoire.\n2.  Déterminer si un dé est truqué à partir des probabilités de chaque face.\n3.  Calculer les probabilités d'événements simples ($A$, $B$), de leur intersection ($A \\cap B$) et de leur union ($A \\cup B$) en utilisant les formules de probabilité: $\\PP(A \\cup B) = \\PP(A) + \\PP(B) - \\PP(A \\cap B)$.\n4.  Calculer la probabilité du complémentaire d'un événement ($\\bar{A}$, $\\bar{B}$) en utilisant : $\\PP(\\bar{A}) = 1 - \\PP(A)$.\n5.  Identifier et manipuler des événements incompatibles ($C$, $D$) et utiliser $\\PP(C \\cap D) = 0$ et $\\PP(C \\cup D) = \\PP(C) + \\PP(D)$."
-  }
+  "competences": [
+    "calculer une probabilité d'événements",
+    "définir un espace probabilisable discret",
+    "appliquer les règles de calcul des probabilités (union, intersection, complémentaire)",
+    "interpréter des événements en termes de probabilités",
+    "résoudre une équation linéaire simple"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité",
+    "événement",
+    "univers",
+    "dé à six faces",
+    "probabilité discrète",
+    "événements incompatibles",
+    "union d'événements",
+    "intersection d'événements"
+  ],
+  "concepts_fondamentaux": [
+    "probabilité d'un événement",
+    "espace probabilisable discret",
+    "événements incompatibles",
+    "union et intersection d'événements",
+    "complémentaire d'un événement"
+  ],
+  "prerequis": [
+    "notion d'ensemble",
+    "vocabulaire de base des probabilités (événement, univers)",
+    "opérations arithmétiques de base (addition, soustraction)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30-45 minutes",
+  "resume": "L'exercice porte sur le calcul de probabilités dans le cadre d'une expérience aléatoire simple : le lancer d'un dé à six faces. Il vise à évaluer la capacité à:\n\n1.  Définir l'univers associé à une expérience aléatoire.\n2.  Déterminer si un dé est truqué à partir des probabilités de chaque face.\n3.  Calculer les probabilités d'événements simples ($A$, $B$), de leur intersection ($A \\cap B$) et de leur union ($A \\cup B$) en utilisant les formules de probabilité: $\\PP(A \\cup B) = \\PP(A) + \\PP(B) - \\PP(A \\cap B)$.\n4.  Calculer la probabilité du complémentaire d'un événement ($\\bar{A}$, $\\bar{B}$) en utilisant : $\\PP(\\bar{A}) = 1 - \\PP(A)$.\n5.  Identifier et manipuler des événements incompatibles ($C$, $D$) et utiliser $\\PP(C \\cap D) = 0$ et $\\PP(C \\cup D) = \\PP(C) + \\PP(D)$."
 }

@@ -1,37 +1,35 @@
 {
-  "tbue": {
-    "competences": [
-      "maximiser une fonction de vraisemblance",
-      "calculer la fonction de vraisemblance pour un échantillon i.i.d.",
-      "identifier et appliquer les propriétés des lois normales, de Laplace et uniforme",
-      "appliquer la méthode du maximum de vraisemblance dans différents contextes",
-      "interpréter les résultats de l'estimation du maximum de vraisemblance"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "vraisemblance",
-      "maximum de vraisemblance",
-      "estimateur",
-      "loi normale",
-      "loi de Laplace",
-      "densité de probabilité",
-      "i.i.d.",
-      "estimation"
-    ],
-    "concepts_fondamentaux": [
-      "fonction de vraisemblance",
-      "estimateur du maximum de vraisemblance (EMV)",
-      "densité de probabilité",
-      "indépendance et identité de distribution (i.i.d.)"
-    ],
-    "prerequis": [
-      "connaissance des lois de probabilité usuelles (normale, Laplace)",
-      "maîtrise du calcul différentiel (dérivation)",
-      "notions de statistique descriptive",
-      "compréhension de la notion de densité de probabilité"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "60 minutes",
-    "resume": "L'exercice porte sur l'estimation du maximum de vraisemblance (EMV) pour un paramètre de translation $\\theta$. Il s'agit de calculer l'EMV de $\\theta$ étant donné un échantillon i.i.d. $X_1, ..., X_n$ dont la densité est $f_\\theta(x) = f(x - \\theta)$, où $f$ est une densité connue. L'exercice explore trois cas différents pour la densité $f$ : une loi normale $\\mathcal{N}(0, \\sigma)$ avec $\\sigma$ connu, une loi de Laplace, et une densité polynomiale uniforme sur l'intervalle [-1, 1]. L'exercice vise à appliquer la méthode du maximum de vraisemblance pour estimer un paramètre de position."
-  }
+  "competences": [
+    "maximiser une fonction de vraisemblance",
+    "calculer la fonction de vraisemblance pour un échantillon i.i.d.",
+    "identifier et appliquer les propriétés des lois normales, de Laplace et uniforme",
+    "appliquer la méthode du maximum de vraisemblance dans différents contextes",
+    "interpréter les résultats de l'estimation du maximum de vraisemblance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "vraisemblance",
+    "maximum de vraisemblance",
+    "estimateur",
+    "loi normale",
+    "loi de Laplace",
+    "densité de probabilité",
+    "i.i.d.",
+    "estimation"
+  ],
+  "concepts_fondamentaux": [
+    "fonction de vraisemblance",
+    "estimateur du maximum de vraisemblance (EMV)",
+    "densité de probabilité",
+    "indépendance et identité de distribution (i.i.d.)"
+  ],
+  "prerequis": [
+    "connaissance des lois de probabilité usuelles (normale, Laplace)",
+    "maîtrise du calcul différentiel (dérivation)",
+    "notions de statistique descriptive",
+    "compréhension de la notion de densité de probabilité"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "60 minutes",
+  "resume": "L'exercice porte sur l'estimation du maximum de vraisemblance (EMV) pour un paramètre de translation $\\theta$. Il s'agit de calculer l'EMV de $\\theta$ étant donné un échantillon i.i.d. $X_1, ..., X_n$ dont la densité est $f_\\theta(x) = f(x - \\theta)$, où $f$ est une densité connue. L'exercice explore trois cas différents pour la densité $f$ : une loi normale $\\mathcal{N}(0, \\sigma)$ avec $\\sigma$ connu, une loi de Laplace, et une densité polynomiale uniforme sur l'intervalle [-1, 1]. L'exercice vise à appliquer la méthode du maximum de vraisemblance pour estimer un paramètre de position."
 }

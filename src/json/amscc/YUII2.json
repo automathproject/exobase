@@ -1,5 +1,5 @@
 {
-  "uuid": "12552ad1-d9ed-4fa7-b21e-4ae9d03e3259",
+  "uuid": "YUII2",
   "titre": "Test d'une variance",
   "theme": [
     "statistiques"
@@ -15,7 +15,39 @@
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:47.534Z"
+    "updatedAt": "2025-03-28T11:57:47.534Z",
+    "resume": "L'exercice propose un test d'hypothèse sur la variance d'une population normale. Il s'agit de déterminer si la variance d'un échantillon de $n=30$ pesées est conforme à une variance de référence $\\sigma_0^2 = 4 g^2$, avec un risque $\\alpha = 5\\%$. La compétence mise en oeuvre est la capacité à réaliser un test du $\\chi^2$ sur la variance d'une population normale en utilisant la statistique de test $S = \\sum_{i=1}^{n} \\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2$ qui suit une loi du $\\chi^2(n-1)$.  Il faut donc calculer la statistique de test à partir des données de l'échantillon, déterminer la région critique du test et conclure.",
+    "competences": [
+      "réaliser un test d'hypothèse sur une variance",
+      "calculer la variance empirique d'un échantillon",
+      "appliquer la loi du Chi-deux pour un test de variance",
+      "interpréter un résultat de test d'hypothèse",
+      "calculer la moyenne d'un échantillon"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "test d'hypothèse",
+      "variance",
+      "loi normale",
+      "loi du Chi-deux",
+      "échantillon",
+      "risque",
+      "statistiques",
+      "test de variance"
+    ],
+    "concepts_fondamentaux": [
+      "test d'hypothèse",
+      "variance d'une population",
+      "distribution du Chi-deux",
+      "niveau de signification"
+    ],
+    "prerequis": [
+      "connaissance des tests d'hypothèses",
+      "maîtrise du calcul de la variance",
+      "connaissance de la loi normale et du Chi-deux"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30 minutes"
   },
   "contenu": [
     {

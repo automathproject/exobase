@@ -1,39 +1,37 @@
 {
-  "td26": {
-    "competences": [
-      "calculer une fonction de répartition",
-      "étudier la convergence en moyenne quadratique",
-      "construire un intervalle de confiance",
-      "appliquer une transformation de variable aléatoire",
-      "calculer le minimum d'un ensemble de variables aléatoires"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "variable aléatoire",
-      "densité",
-      "fonction de répartition",
-      "minimum",
-      "convergence moyenne quadratique",
-      "intervalle de confiance",
-      "loi exponentielle",
-      "échantillon i.i.d."
-    ],
-    "concepts_fondamentaux": [
-      "variable aléatoire",
-      "fonction de répartition",
-      "convergence de variables aléatoires",
-      "estimation",
-      "intervalle de confiance"
-    ],
-    "prerequis": [
-      "probabilités",
-      "variables aléatoires",
-      "fonctions de répartition",
-      "lois usuelles (exponentielle)",
-      "statistique inférentielle"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "60 minutes",
-    "resume": "L'exercice porte sur une variable aléatoire réelle $X$ dont la densité dépend d'un paramètre $\\theta > 0$. Il s'agit de : \n\n1. Montrer que la variable aléatoire $X/\\theta - 1$ suit une loi exponentielle de paramètre 1.\n2. Déterminer la fonction de répartition du minimum $X^{(1)} = \\min_{1 \\leq i \\leq n} X_i$ d'un échantillon i.i.d. de loi identique à $X$.\n3. Étudier la convergence en moyenne quadratique de $X^{(1)}$ vers $\\theta$.\n4. Construire un intervalle de confiance pour $\\theta$ de niveau $(1-\\alpha)$. Cela implique d'identifier une quantité pivotale."
-  }
+  "competences": [
+    "calculer une fonction de répartition",
+    "étudier la convergence en moyenne quadratique",
+    "construire un intervalle de confiance",
+    "appliquer une transformation de variable aléatoire",
+    "calculer le minimum d'un ensemble de variables aléatoires"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "variable aléatoire",
+    "densité",
+    "fonction de répartition",
+    "minimum",
+    "convergence moyenne quadratique",
+    "intervalle de confiance",
+    "loi exponentielle",
+    "échantillon i.i.d."
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire",
+    "fonction de répartition",
+    "convergence de variables aléatoires",
+    "estimation",
+    "intervalle de confiance"
+  ],
+  "prerequis": [
+    "probabilités",
+    "variables aléatoires",
+    "fonctions de répartition",
+    "lois usuelles (exponentielle)",
+    "statistique inférentielle"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes",
+  "resume": "L'exercice porte sur une variable aléatoire réelle $X$ dont la densité dépend d'un paramètre $\\theta > 0$. Il s'agit de : \n\n1. Montrer que la variable aléatoire $X/\\theta - 1$ suit une loi exponentielle de paramètre 1.\n2. Déterminer la fonction de répartition du minimum $X^{(1)} = \\min_{1 \\leq i \\leq n} X_i$ d'un échantillon i.i.d. de loi identique à $X$.\n3. Étudier la convergence en moyenne quadratique de $X^{(1)}$ vers $\\theta$.\n4. Construire un intervalle de confiance pour $\\theta$ de niveau $(1-\\alpha)$. Cela implique d'identifier une quantité pivotale."
 }
