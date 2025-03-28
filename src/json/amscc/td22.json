@@ -1,0 +1,103 @@
+{
+  "uuid": "td22",
+  "titre": "Stabilisation de la variance versus “plug-in”",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "",
+    "updatedAt": "2025-03-28T11:57:48.404Z"
+  },
+  "contenu": [
+    {
+      "id": "5d630da2-fa84-42c8-862d-1b096206502b",
+      "type": "description",
+      "value": {
+        "latex": "Soient $X_1, \\ldots, X_n$ des variables aléatoires indépendantes de même loi de Poisson de paramètre $\\theta > 0$. On note $\\theta_n = \\frac{1}{n} \\sum_{i=1}^n X_i$.",
+        "html": "<p>Soient <span class=\"math inline\">\\(X_1, \\ldots, X_n\\)</span> des variables aléatoires indépendantes de même loi de Poisson de paramètre <span class=\"math inline\">\\(\\theta &gt; 0\\)</span>. On note <span class=\"math inline\">\\(\\theta_n = \\frac{1}{n} \\sum_{i=1}^n X_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d070c885-6a55-4893-b17f-4ff8283eab34",
+      "type": "question",
+      "value": {
+        "latex": "Rappeler le TCL vérifié par $\\theta_n$. En déduire un intervalle de confiance asymptotique à 95 \\% pour $\\theta$.",
+        "html": "<p>Rappeler le TCL vérifié par <span class=\"math inline\">\\(\\theta_n\\)</span>. En déduire un intervalle de confiance asymptotique à 95 % pour <span class=\"math inline\">\\(\\theta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c5b9caee-69ed-41ab-b8aa-f3df7f700af3",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "800141d4-e6d3-4a58-8094-427e078b8230",
+      "type": "reponse",
+      "value": {
+        "latex": "D'après le théorème de la limite centrale appliqué aux variables $X_i$ i.i.d. :\n$$\n    \\sqrt{n} (\\hat{\\theta}_n - \\theta) \\xrightarrow{\\text{en loi}} \\mathcal{N}(0, \\theta),\n$$\nce qui implique que :\n$$\n    \\sqrt{n} \\frac{\\hat{\\theta}_n - \\theta}{\\sqrt{\\hat{\\theta}_n}} \\xrightarrow{\\text{en loi}} \\mathcal{N}(0,1).\n$$\nUn intervalle de confiance asymptotique à 95\\% pour $\\theta$ est donc donné par :\n$$\n    \\left[ \\hat{\\theta}_n - q \\frac{\\sqrt{\\hat{\\theta}_n}}{\\sqrt{n}}, \\hat{\\theta}_n + q \\frac{\\sqrt{\\hat{\\theta}_n}}{\\sqrt{n}} \\right]\n$$\navec $q = \\Phi^{-1}(0.975) \\approx 1.96$.",
+        "html": "<p>D’après le théorème de la limite centrale appliqué aux variables <span class=\"math inline\">\\(X_i\\)</span> i.i.d. : <span class=\"math display\">\\[\\sqrt{n} (\\hat{\\theta}_n - \\theta) \\xrightarrow{\\text{en loi}} \\mathcal{N}(0, \\theta),\\]</span> ce qui implique que : <span class=\"math display\">\\[\\sqrt{n} \\frac{\\hat{\\theta}_n - \\theta}{\\sqrt{\\hat{\\theta}_n}} \\xrightarrow{\\text{en loi}} \\mathcal{N}(0,1).\\]</span> Un intervalle de confiance asymptotique à 95% pour <span class=\"math inline\">\\(\\theta\\)</span> est donc donné par : <span class=\"math display\">\\[\\left[ \\hat{\\theta}_n - q \\frac{\\sqrt{\\hat{\\theta}_n}}{\\sqrt{n}}, \\hat{\\theta}_n + q \\frac{\\sqrt{\\hat{\\theta}_n}}{\\sqrt{n}} \\right]\\]</span> avec <span class=\"math inline\">\\(q = \\Phi^{-1}(0.975) \\approx 1.96\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8f8f008f-34c4-4ae1-8023-3f060d885ba4",
+      "type": "question",
+      "value": {
+        "latex": "Trouver une fonction $g : \\mathbb{R}^+ \\rightarrow \\mathbb{R}$ telle que $\\sqrt{n}(g(\\theta_n) - g(\\theta))$ tende en loi vers une gaussienne centrée réduite. En déduire un intervalle de confiance asymptotique à 95\\% pour $\\theta$.",
+        "html": "<p>Trouver une fonction <span class=\"math inline\">\\(g : \\mathbb{R}^+ \\rightarrow \\mathbb{R}\\)</span> telle que <span class=\"math inline\">\\(\\sqrt{n}(g(\\theta_n) - g(\\theta))\\)</span> tende en loi vers une gaussienne centrée réduite. En déduire un intervalle de confiance asymptotique à 95% pour <span class=\"math inline\">\\(\\theta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "74b13d0b-7994-45b6-a91b-4cd904cef936",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "82af52bc-0a4c-4819-b062-5553f0f0ae1d",
+      "type": "reponse",
+      "value": {
+        "latex": "En utilisant la méthode Delta, nous avons :\n\\begin{equation}\n    \\sqrt{n} (g(\\hat{\\lambda}_n) - g(\\lambda)) \\xrightarrow{d} \\mathcal{N}(0, \\lambda (g'(\\lambda))^2).\n\\end{equation}\nSi nous choisissons $g(\\lambda) = 2\\sqrt{\\lambda}$, nous obtenons :\n\\begin{equation}\n    \\sqrt{n} \\left( 2\\sqrt{\\hat{\\lambda}_n} - 2\\sqrt{\\lambda} \\right) \\xrightarrow{d} \\mathcal{N}(0,1).\n\\end{equation}\nD'où un nouvel intervalle de confiance asymptotique à 95\\% :\n\\begin{equation}\n    \\left[ 2\\sqrt{\\hat{\\lambda}_n} - \\frac{q}{\\sqrt{n}}, 2\\sqrt{\\hat{\\lambda}_n} + \\frac{q}{\\sqrt{n}} \\right]^2.\n\\end{equation}",
+        "html": "<p>En utilisant la méthode Delta, nous avons : <span class=\"math display\">\\[\\sqrt{n} (g(\\hat{\\lambda}_n) - g(\\lambda)) \\xrightarrow{d} \\mathcal{N}(0, \\lambda (g&#39;(\\lambda))^2).\\]</span> Si nous choisissons <span class=\"math inline\">\\(g(\\lambda) = 2\\sqrt{\\lambda}\\)</span>, nous obtenons : <span class=\"math display\">\\[\\sqrt{n} \\left( 2\\sqrt{\\hat{\\lambda}_n} - 2\\sqrt{\\lambda} \\right) \\xrightarrow{d} \\mathcal{N}(0,1).\\]</span> D’où un nouvel intervalle de confiance asymptotique à 95% : <span class=\"math display\">\\[\\left[ 2\\sqrt{\\hat{\\lambda}_n} - \\frac{q}{\\sqrt{n}}, 2\\sqrt{\\hat{\\lambda}_n} + \\frac{q}{\\sqrt{n}} \\right]^2.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "e558c04b-0f92-4354-a3f8-e5b4ad11f93a",
+      "type": "question",
+      "value": {
+        "latex": "Vérifier que les deux résultats sont équivalents.",
+        "html": "<p>Vérifier que les deux résultats sont équivalents.</p>\n"
+      }
+    },
+    {
+      "id": "e610022a-605a-4f46-b81d-0620393c6176",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "6db7c2e3-1719-4bb1-9747-3963e81887a2",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    }
+  ],
+  "preview": "<p>Soient <span class=\"math inline\">\\(X_1, \\ldots, X_n\\)</span> des variables aléatoires indépendantes de même loi de Poisson de paramètre <span class ..."
+}

@@ -1,0 +1,199 @@
+{
+  "uuid": "4",
+  "titre": "Estimation et Tests pour une Loi Uniforme",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "",
+    "updatedAt": "2025-03-28T11:57:50.098Z"
+  },
+  "contenu": [
+    {
+      "id": "cf0345ed-a4b6-40ac-a649-be146df1b0c8",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X_1, \\ldots, X_n$ un échantillon de loi uniforme sur $[0, q]$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X_1, \\ldots, X_n\\)</span> un échantillon de loi uniforme sur <span class=\"math inline\">\\([0, q]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "704ae7f3-c3f3-45e7-a3d2-2ada34062cf2",
+      "type": "question",
+      "value": {
+        "latex": "Par la méthode des moments, proposer un estimateur de $q$. Montrer sa consistance et sa normalité asymptotique. En déduire un intervalle de confiance asymptotique de niveau $1 - \\alpha$.",
+        "html": "<p>Par la méthode des moments, proposer un estimateur de <span class=\"math inline\">\\(q\\)</span>. Montrer sa consistance et sa normalité asymptotique. En déduire un intervalle de confiance asymptotique de niveau <span class=\"math inline\">\\(1 - \\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2698c553-1a83-46e4-bf25-a8504aa07ac9",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "13ebd3d8-e0f2-40ea-a157-b26521dcf174",
+      "type": "reponse",
+      "value": {
+        "latex": "On a $E[X] = \\frac{q}{2}$ et $V[X] = \\frac{q^2}{12}$, et on a donc l’estimateur $\\hat{q}_n = 2\\bar{X}_n$. On a la consistance via la LFGN et le théorème de continuité, et comme\n    \\[\n    \\sqrt{n} (\\bar{X}_n - \\frac{q}{2}) \\xrightarrow{L} \\mathcal{N}(0, \\frac{q^2}{12}).\n    \\]\n    En multipliant par 2, on obtient\n    \\[\n    \\sqrt{n} (\\hat{q}_n - q) \\xrightarrow{L} \\mathcal{N}(0, \\frac{q^2}{3}).\n    \\]\n    Intervalle de confiance, version 1 : De plus, par Slutsky, on a\n    \\[\n    \\sqrt{3n} \\frac{\\hat{q}_n - q}{\\hat{q}_n} \\xrightarrow{L} \\mathcal{N}(0, 1)\n    \\]\n    et on obtient donc l’intervalle de confiance\n    \\[\n    \\left[ \\hat{q}_n - q_{1-\\alpha} \\frac{\\hat{q}_n}{\\sqrt{3n}}, \\hat{q}_n + q_{1-\\alpha} \\frac{\\hat{q}_n}{\\sqrt{3n}} \\right]\n    \\]\n    où $q_{1-\\alpha}$ est le quantile d’ordre $1 - \\alpha$ de la loi normale centrée réduite.\n\n    Intervalle de confiance version 2 : En divisant par $\\frac{q}{\\sqrt{3}}$ le TLC, on obtient\n    \\[\n    \\sqrt{3n} \\left( \\frac{\\hat{q}_n}{q} - 1 \\right) \\xrightarrow{L} \\mathcal{N}(0, 1)\n    \\]\n    et donc\n    \\[\n    P \\left( \\frac{\\hat{q}_n}{q} - 1 \\leq q_{1-\\alpha} \\frac{1}{\\sqrt{3n}} \\right) \\approx 1 - \\alpha.\n    \\]\n    On obtient donc l’intervalle (pour $n > q^2_{1-\\alpha}$)\n    \\[\n    \\left[ \\hat{q}_n \\left( 1 - q_{1-\\alpha} \\frac{1}{\\sqrt{3n}} \\right), \\hat{q}_n \\left( 1 + q_{1-\\alpha} \\frac{1}{\\sqrt{3n}} \\right) \\right].\n    \\]",
+        "html": "<p>On a <span class=\"math inline\">\\(E[X] = \\frac{q}{2}\\)</span> et <span class=\"math inline\">\\(V[X] = \\frac{q^2}{12}\\)</span>, et on a donc l’estimateur <span class=\"math inline\">\\(\\hat{q}_n = 2\\bar{X}_n\\)</span>. On a la consistance via la LFGN et le théorème de continuité, et comme <span class=\"math display\">\\[\\sqrt{n} (\\bar{X}_n - \\frac{q}{2}) \\xrightarrow{L} \\mathcal{N}(0, \\frac{q^2}{12}).\\]</span> En multipliant par 2, on obtient <span class=\"math display\">\\[\\sqrt{n} (\\hat{q}_n - q) \\xrightarrow{L} \\mathcal{N}(0, \\frac{q^2}{3}).\\]</span> Intervalle de confiance, version 1 : De plus, par Slutsky, on a <span class=\"math display\">\\[\\sqrt{3n} \\frac{\\hat{q}_n - q}{\\hat{q}_n} \\xrightarrow{L} \\mathcal{N}(0, 1)\\]</span> et on obtient donc l’intervalle de confiance <span class=\"math display\">\\[\\left[ \\hat{q}_n - q_{1-\\alpha} \\frac{\\hat{q}_n}{\\sqrt{3n}}, \\hat{q}_n + q_{1-\\alpha} \\frac{\\hat{q}_n}{\\sqrt{3n}} \\right]\\]</span> où <span class=\"math inline\">\\(q_{1-\\alpha}\\)</span> est le quantile d’ordre <span class=\"math inline\">\\(1 - \\alpha\\)</span> de la loi normale centrée réduite.</p>\n<p>Intervalle de confiance version 2 : En divisant par <span class=\"math inline\">\\(\\frac{q}{\\sqrt{3}}\\)</span> le TLC, on obtient <span class=\"math display\">\\[\\sqrt{3n} \\left( \\frac{\\hat{q}_n}{q} - 1 \\right) \\xrightarrow{L} \\mathcal{N}(0, 1)\\]</span> et donc <span class=\"math display\">\\[P \\left( \\frac{\\hat{q}_n}{q} - 1 \\leq q_{1-\\alpha} \\frac{1}{\\sqrt{3n}} \\right) \\approx 1 - \\alpha.\\]</span> On obtient donc l’intervalle (pour <span class=\"math inline\">\\(n &gt; q^2_{1-\\alpha}\\)</span>) <span class=\"math display\">\\[\\left[ \\hat{q}_n \\left( 1 - q_{1-\\alpha} \\frac{1}{\\sqrt{3n}} \\right), \\hat{q}_n \\left( 1 + q_{1-\\alpha} \\frac{1}{\\sqrt{3n}} \\right) \\right].\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "8cc421c4-1f65-43fd-95c8-d58385d289d2",
+      "type": "question",
+      "value": {
+        "latex": "Soit $q_0 > 0$, proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : q = q_0$ contre $H_1 : q \\neq q_0$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(q_0 &gt; 0\\)</span>, proposer un test de niveau asymptotique <span class=\"math inline\">\\(\\alpha\\)</span> pour tester <span class=\"math inline\">\\(H_0 : q = q_0\\)</span> contre <span class=\"math inline\">\\(H_1 : q \\neq q_0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "dcee64b4-0a55-421c-a3e5-b8294c7b01bc",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "9c42f557-fc6f-49e5-82ad-854f9bf7948a",
+      "type": "reponse",
+      "value": {
+        "latex": "On a la zone de rejet\n    \\[\n    ZR = \\left( \\sqrt{3n} \\frac{\\hat{q}_n - q_0}{\\hat{q}_n} > q_{1-\\alpha} \\right) = \\left( \\hat{q}_n > q_0 + q_{1-\\alpha} \\frac{\\hat{q}_n}{\\sqrt{3n}} \\right).\n    \\]",
+        "html": "<p>On a la zone de rejet <span class=\"math display\">\\[ZR = \\left( \\sqrt{3n} \\frac{\\hat{q}_n - q_0}{\\hat{q}_n} &gt; q_{1-\\alpha} \\right) = \\left( \\hat{q}_n &gt; q_0 + q_{1-\\alpha} \\frac{\\hat{q}_n}{\\sqrt{3n}} \\right).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3ff4bfcc-09a4-41de-ac8d-055215e6eea7",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l’estimateur du maximum de vraisemblance et calculer son risque quadratique.",
+        "html": "<p>Calculer l’estimateur du maximum de vraisemblance et calculer son risque quadratique.</p>\n"
+      }
+    },
+    {
+      "id": "75dc4e2d-59f7-4406-8a81-684bb8ab2c51",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "98b847fd-b12c-4bc2-8ab9-757b2fda0cec",
+      "type": "reponse",
+      "value": {
+        "latex": "On a pour tout $q > 0$,\n    \\[\n    L_X(q) = \\prod_{i=1}^n \\frac{1}{q} 1_{[0,q]}(X_i) = \\frac{1}{q^n} 1_{[X_{(n)},+\\infty[}(q).\n    \\]\n    et le maximum est donc atteint en $X_{(n)}$.",
+        "html": "<p>On a pour tout <span class=\"math inline\">\\(q &gt; 0\\)</span>, <span class=\"math display\">\\[L_X(q) = \\prod_{i=1}^n \\frac{1}{q} 1_{[0,q]}(X_i) = \\frac{1}{q^n} 1_{[X_{(n)},+\\infty[}(q).\\]</span> et le maximum est donc atteint en <span class=\"math inline\">\\(X_{(n)}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7fa50092-abff-4b5a-881e-904328de6fb3",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la loi limite de $n(q_{MV} - q)$.",
+        "html": "<p>Calculer la loi limite de <span class=\"math inline\">\\(n(q_{MV} - q)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8fbc695f-4e70-40ac-8efc-782596bc2b78",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "43d358fc-712c-4186-b9d1-c27e2628540e",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $x \\in [0, nq]$, on a par indépendance des $X_i$\n    \\[\n    P(n(q - X_{(n)}) \\geq x) = P(X_{(n)} \\leq q - \\frac{x}{n}) = \\left( P(X_1 \\leq q - \\frac{x}{n}) \\right)^n = \\left( 1 - \\frac{x}{qn} \\right)^n \\xrightarrow{n \\to \\infty} \\exp \\left( -\\frac{x}{q} \\right).\n    \\]\n    et donc $n(q - X_{(n)})$ converge en loi vers une loi exponentielle de paramètre $q^{-1}$.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(x \\in [0, nq]\\)</span>, on a par indépendance des <span class=\"math inline\">\\(X_i\\)</span> <span class=\"math display\">\\[P(n(q - X_{(n)}) \\geq x) = P(X_{(n)} \\leq q - \\frac{x}{n}) = \\left( P(X_1 \\leq q - \\frac{x}{n}) \\right)^n = \\left( 1 - \\frac{x}{qn} \\right)^n \\xrightarrow{n \\to \\infty} \\exp \\left( -\\frac{x}{q} \\right).\\]</span> et donc <span class=\"math inline\">\\(n(q - X_{(n)})\\)</span> converge en loi vers une loi exponentielle de paramètre <span class=\"math inline\">\\(q^{-1}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5ef62c23-41a6-4465-a8c1-fd34cd466c98",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer $c_{\\alpha,n}$ tel que $[X_{(n)}, c_{\\alpha,n}X_{(n)}]$ soit un intervalle de confiance de niveau $1 - \\alpha$.",
+        "html": "<p>Déterminer <span class=\"math inline\">\\(c_{\\alpha,n}\\)</span> tel que <span class=\"math inline\">\\([X_{(n)}, c_{\\alpha,n}X_{(n)}]\\)</span> soit un intervalle de confiance de niveau <span class=\"math inline\">\\(1 - \\alpha\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c4350fb2-f943-4ea6-bafb-56464063aa7a",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "75df5ad6-1ee2-4a4e-96ea-403b21059cf7",
+      "type": "reponse",
+      "value": {
+        "latex": "On a\n    \\[\n    P(q \\leq c_{\\alpha,n}X_{(n)}) = 1 - P(X_{(n)} \\leq \\frac{q}{c_{\\alpha,n}}) = 1 - \\left( P(X_1 \\leq \\frac{q}{c_{\\alpha,n}}) \\right)^n = 1 - \\frac{1}{c_{\\alpha,n}^n}.\n    \\]\n    De plus,\n    \\[\n    \\frac{1}{c_{\\alpha,n}^n} = \\alpha \\implies c_{\\alpha,n} = \\exp \\left( -\\frac{1}{n} \\ln(\\alpha) \\right).\n    \\]",
+        "html": "<p>On a <span class=\"math display\">\\[P(q \\leq c_{\\alpha,n}X_{(n)}) = 1 - P(X_{(n)} \\leq \\frac{q}{c_{\\alpha,n}}) = 1 - \\left( P(X_1 \\leq \\frac{q}{c_{\\alpha,n}}) \\right)^n = 1 - \\frac{1}{c_{\\alpha,n}^n}.\\]</span> De plus, <span class=\"math display\">\\[\\frac{1}{c_{\\alpha,n}^n} = \\alpha \\implies c_{\\alpha,n} = \\exp \\left( -\\frac{1}{n} \\ln(\\alpha) \\right).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "4f340d65-e23d-4ffa-8a24-cc54086180db",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la médiane de $X_1$ et en déduire un nouvel estimateur de $q$. Donner sa normalité asymptotique ainsi qu’un nouvel intervalle de confiance asymptotique.",
+        "html": "<p>Calculer la médiane de <span class=\"math inline\">\\(X_1\\)</span> et en déduire un nouvel estimateur de <span class=\"math inline\">\\(q\\)</span>. Donner sa normalité asymptotique ainsi qu’un nouvel intervalle de confiance asymptotique.</p>\n"
+      }
+    },
+    {
+      "id": "2b04e472-c3bd-4665-8bce-fdfde0821cb2",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "502798be-ff46-41ae-a28a-b3f4563e9309",
+      "type": "reponse",
+      "value": {
+        "latex": "On a $X_{([n/2])} = \\frac{q}{2}$ et on propose donc l’estimateur $2X_{([n/2])}$. On a la convergence de $X_{([n/2])}$ via le théorème du cours et donc la consistance de $2X_{([n/2])}$. On a de plus\n    \\[\n    \\sqrt{n} \\left( X_{([n/2])} - \\frac{q}{2} \\right) \\xrightarrow{L} \\mathcal{N}(0, \\frac{q^2}{4})\n    \\]\n    et on obtient en multipliant par 2 la normalité asymptotique. On obtient les intervalles de confiances comme pour l’estimateur des moments.",
+        "html": "<p>On a <span class=\"math inline\">\\(X_{([n/2])} = \\frac{q}{2}\\)</span> et on propose donc l’estimateur <span class=\"math inline\">\\(2X_{([n/2])}\\)</span>. On a la convergence de <span class=\"math inline\">\\(X_{([n/2])}\\)</span> via le théorème du cours et donc la consistance de <span class=\"math inline\">\\(2X_{([n/2])}\\)</span>. On a de plus <span class=\"math display\">\\[\\sqrt{n} \\left( X_{([n/2])} - \\frac{q}{2} \\right) \\xrightarrow{L} \\mathcal{N}(0, \\frac{q^2}{4})\\]</span> et on obtient en multipliant par 2 la normalité asymptotique. On obtient les intervalles de confiances comme pour l’estimateur des moments.</p>\n"
+      }
+    },
+    {
+      "id": "940f8a01-e914-40c0-9512-adc8bec94369",
+      "type": "question",
+      "value": {
+        "latex": "Quel intervalle choisiriez-vous ?",
+        "html": "<p>Quel intervalle choisiriez-vous ?</p>\n"
+      }
+    },
+    {
+      "id": "4f51a861-8ebe-43da-8f85-1ada812e4996",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "80b68e39-4484-4c97-9982-b5c50496f61c",
+      "type": "reponse",
+      "value": {
+        "latex": "Non seulement celui obtenu avec le maximum de vraisemblance est plus précis quand $n$ est grand (faire un DL pour le vérifier), mais en plus il est non asymptotique.",
+        "html": "<p>Non seulement celui obtenu avec le maximum de vraisemblance est plus précis quand <span class=\"math inline\">\\(n\\)</span> est grand (faire un DL pour le vérifier), mais en plus il est non asymptotique.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X_1, \\ldots, X_n\\)</span> un échantillon de loi uniforme sur <span class=\"math inline\">\\([0, q]\\)</span>.</p>\n"
+}

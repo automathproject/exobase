@@ -1,0 +1,151 @@
+{
+  "uuid": "td24",
+  "titre": "Loi exponentielle",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "",
+    "updatedAt": "2025-03-28T11:57:49.077Z"
+  },
+  "contenu": [
+    {
+      "id": "be3d2589-f7ab-4525-a14a-a1e9600ce438",
+      "type": "description",
+      "value": {
+        "latex": "On considère un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ avec $n \\geq 3$ et $X_1$ de densité $f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)$, où $\\theta > 0$ est le paramètre inconnu.",
+        "html": "<p>On considère un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span class=\"math inline\">\\(n \\geq 3\\)</span> et <span class=\"math inline\">\\(X_1\\)</span> de densité <span class=\"math inline\">\\(f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)\\)</span>, où <span class=\"math inline\">\\(\\theta &gt; 0\\)</span> est le paramètre inconnu.</p>\n"
+      }
+    },
+    {
+      "id": "a250bca3-fe95-46ba-8f4a-dd67df12608a",
+      "type": "question",
+      "value": {
+        "latex": "On propose d’estimer $\\theta$ par $Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i$. \\\\\n(a) Montrer que la v.a. $Y_n$ est bien définie.\\\\\n(b) Expliquer pourquoi il est logique de choisir $Y_n$ comme estimateur de $\\theta$. \\\\\n(c) Déterminer la loi limite de $\\sqrt{n}(Y_n - \\theta)$. \\\\\n(d) Donner la loi de $\\sum_{i=1}^n X_i$. En déduire la valeur de $E[(Y_n - \\theta)^2]$.",
+        "html": "<p>On propose d’estimer <span class=\"math inline\">\\(\\theta\\)</span> par <span class=\"math inline\">\\(Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i\\)</span>.<br />\n(a) Montrer que la v.a. <span class=\"math inline\">\\(Y_n\\)</span> est bien définie.<br />\n(b) Expliquer pourquoi il est logique de choisir <span class=\"math inline\">\\(Y_n\\)</span> comme estimateur de <span class=\"math inline\">\\(\\theta\\)</span>.<br />\n(c) Déterminer la loi limite de <span class=\"math inline\">\\(\\sqrt{n}(Y_n - \\theta)\\)</span>.<br />\n(d) Donner la loi de <span class=\"math inline\">\\(\\sum_{i=1}^n X_i\\)</span>. En déduire la valeur de <span class=\"math inline\">\\(E[(Y_n - \\theta)^2]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5ab4743c-a545-44bb-8132-c4217efdc87b",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "2e55a1d4-b7bb-4f55-ae13-94bdabd0042c",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "e875f6c6-209b-4be7-9f51-ab5050f78525",
+      "type": "question",
+      "value": {
+        "latex": "Pour estimer $\\theta$, on propose d’utiliser $Z_n = \\frac{n-1}{n} Y_n$.\\\\\n     (a) $Z_n$ vérifie-t-il des propriétés de convergence similaires à celles de $Y_n$ ?\\\\\n     (b) Qui de $Y_n$ ou $Z_n$ choisiriez-vous pour estimer $\\theta$ ?",
+        "html": "<p>Pour estimer <span class=\"math inline\">\\(\\theta\\)</span>, on propose d’utiliser <span class=\"math inline\">\\(Z_n = \\frac{n-1}{n} Y_n\\)</span>.<br />\n(a) <span class=\"math inline\">\\(Z_n\\)</span> vérifie-t-il des propriétés de convergence similaires à celles de <span class=\"math inline\">\\(Y_n\\)</span> ?<br />\n(b) Qui de <span class=\"math inline\">\\(Y_n\\)</span> ou <span class=\"math inline\">\\(Z_n\\)</span> choisiriez-vous pour estimer <span class=\"math inline\">\\(\\theta\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "02f38020-3857-46f1-ba8b-2881be6050ff",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "423c749f-d733-46d0-9995-9d3dd0f15d4f",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "93fe241c-98a2-4326-b192-35033d242b07",
+      "type": "question",
+      "value": {
+        "latex": "Soit $\\alpha \\in ]0, 1[$. Donner un intervalle de confiance bilatère de niveau asymptotique $(1-\\alpha)$ pour $\\theta$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha \\in ]0, 1[\\)</span>. Donner un intervalle de confiance bilatère de niveau asymptotique <span class=\"math inline\">\\((1-\\alpha)\\)</span> pour <span class=\"math inline\">\\(\\theta\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "76c8c9da-ea25-48d3-93ec-dedb6dfd6aea",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "e57b1006-ce7f-453e-b7eb-caba30661ad2",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "4775d5c6-fdd3-4ca8-bc1f-d0dc5249c4cb",
+      "type": "question",
+      "value": {
+        "latex": "Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta \\geq 1$ contre $H_1 : \\theta < 1$.",
+        "html": "<p>Proposer un test de niveau asymptotique <span class=\"math inline\">\\(\\alpha\\)</span> pour tester <span class=\"math inline\">\\(H_0 : \\theta \\geq 1\\)</span> contre <span class=\"math inline\">\\(H_1 : \\theta &lt; 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "182335c4-0940-4994-955d-3944ba80fa1c",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "8a181e77-ca5e-42b7-8bc3-b924978e3bb0",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "09591901-95a6-45b8-bdba-81796c08df32",
+      "type": "question",
+      "value": {
+        "latex": "Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta = 1$ contre $H_1 : \\theta \\neq 1$.",
+        "html": "<p>Proposer un test de niveau asymptotique <span class=\"math inline\">\\(\\alpha\\)</span> pour tester <span class=\"math inline\">\\(H_0 : \\theta = 1\\)</span> contre <span class=\"math inline\">\\(H_1 : \\theta \\neq 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e27308f9-9908-4afd-985e-3f4cf6a670b5",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "9fd9604e-a0d8-4907-bcb5-f4141d4bc5bb",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span class=\"math inline\">\\(n \\geq 3\\)</span>  ..."
+}

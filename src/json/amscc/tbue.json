@@ -1,0 +1,55 @@
+{
+  "uuid": "69d8d60e-3500-4d63-9379-8acbc0b23ba7",
+  "titre": "Vraisemblance sur un modèle de translation",
+  "theme": [
+    "Statistique"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-28T11:57:48.099Z",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-28T11:57:48.099Z"
+  },
+  "contenu": [
+    {
+      "id": "f7378e48-fc1a-4ce3-a576-d4fce11767b9",
+      "type": "description",
+      "value": {
+        "latex": "Soit \\( X_1, \\dots, X_n \\) i.i.d. de densité commune \\( f_\\theta(x) = f(x - \\theta) \\), \\( \\theta \\in \\mathbb{R} \\). Déterminer l’estimateur du maximum de vraisemblance dans les cas suivants :\n\\begin{enumerate}\n  \\item \\question{\\( f \\) est la densité de la loi \\( \\mathcal{N}(0, \\sigma) \\) (\\( \\sigma \\) connue) ;}\n  \\item \\question{\\( f(x) = \\frac{1}{2} e^{-|x|} \\) (loi de Laplace) ;}\n  \\item \\question{\\( f(x) = \\frac{3}{4} (1 - x^2) \\) sur \\( [-1, 1] \\).}\n\\end{enumerate}",
+        "html": "<p>Soit <span class=\"math inline\">\\(X_1, \\dots, X_n\\)</span> i.i.d. de densité commune <span class=\"math inline\">\\(f_\\theta(x) = f(x - \\theta)\\)</span>, <span class=\"math inline\">\\(\\theta \\in \\mathbb{R}\\)</span>. Déterminer l’estimateur du maximum de vraisemblance dans les cas suivants :</p>\n<ol>\n<li></li>\n<li></li>\n<li></li>\n</ol>\n"
+      }
+    },
+    {
+      "id": "7c601dea-5d94-41da-8318-3fb0a63d08c8",
+      "type": "question",
+      "value": {
+        "latex": "\\( f \\) est la densité de la loi \\( \\mathcal{N}(0, \\sigma) \\) (\\( \\sigma \\) connue) ;",
+        "html": "<p><span class=\"math inline\">\\(f\\)</span> est la densité de la loi <span class=\"math inline\">\\(\\mathcal{N}(0, \\sigma)\\)</span> (<span class=\"math inline\">\\(\\sigma\\)</span> connue) ;</p>\n"
+      }
+    },
+    {
+      "id": "06196f14-58d3-4076-96f5-863b3c9dd1ba",
+      "type": "question",
+      "value": {
+        "latex": "\\( f(x) = \\frac{1}{2} e^{-|x|} \\) (loi de Laplace) ;",
+        "html": "<p><span class=\"math inline\">\\(f(x) = \\frac{1}{2} e^{-|x|}\\)</span> (loi de Laplace) ;</p>\n"
+      }
+    },
+    {
+      "id": "d61d75f2-c0de-489f-b34b-f03a4f5dac2f",
+      "type": "question",
+      "value": {
+        "latex": "\\( f(x) = \\frac{3}{4} (1 - x^2) \\) sur \\( [-1, 1] \\).",
+        "html": "<p><span class=\"math inline\">\\(f(x) = \\frac{3}{4} (1 - x^2)\\)</span> sur <span class=\"math inline\">\\([-1, 1]\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X_1, \\dots, X_n\\)</span> i.i.d. de densité commune <span class=\"math inline\">\\(f_\\theta(x) = f(x - \\theta)\\)</span ..."
+}

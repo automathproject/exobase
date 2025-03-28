@@ -1,0 +1,127 @@
+{
+  "uuid": "td26",
+  "titre": "Exponentielle translatée",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "",
+    "updatedAt": "2025-03-28T11:57:49.542Z"
+  },
+  "contenu": [
+    {
+      "id": "d036ec1c-49cf-4660-b1d7-3c0b9f18682d",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ une v.a.r. admettant pour densité $f_\\theta(x) = \\frac{1}{\\theta} \\exp\\left(-\\frac{x - \\theta}{\\theta}\\right) \\mathbf{1}_{[\\theta,+\\infty[}(x)$, où $\\theta > 0$ est inconnu, et $(X_1, \\ldots, X_n)$ un échantillon i.i.d. de même loi que $X$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une v.a.r. admettant pour densité <span class=\"math inline\">\\(f_\\theta(x) = \\frac{1}{\\theta} \\exp\\left(-\\frac{x - \\theta}{\\theta}\\right) \\mathbf{1}_{[\\theta,+\\infty[}(x)\\)</span>, où <span class=\"math inline\">\\(\\theta &gt; 0\\)</span> est inconnu, et <span class=\"math inline\">\\((X_1, \\ldots, X_n)\\)</span> un échantillon i.i.d. de même loi que <span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "048887c3-f74f-4204-a2bb-20d996d04e3f",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que $X/\\theta - 1$ suit une loi exponentielle $E(1)$.",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(X/\\theta - 1\\)</span> suit une loi exponentielle <span class=\"math inline\">\\(E(1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b363f7f1-749a-4e03-95f4-9828be0340a9",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "26926ab1-187b-4d78-8281-3c6a865c5c57",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "588b7b6b-582f-473d-afe7-4e3f6e26e541",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la fonction de répartition de $X^{(1)} = \\min_{1 \\leq i \\leq n} X_i$.",
+        "html": "<p>Déterminer la fonction de répartition de <span class=\"math inline\">\\(X^{(1)} = \\min_{1 \\leq i \\leq n} X_i\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "815bc9d7-7745-4e08-9e54-a73a24738571",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "51bd49dc-00b9-48dc-97ba-cffe8daf1ec2",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "640d0ac5-65a0-4dd5-9ed9-7625a58fb847",
+      "type": "question",
+      "value": {
+        "latex": "Étudier la convergence de $X^{(1)}$ vers $\\theta$ en moyenne quadratique.",
+        "html": "<p>Étudier la convergence de <span class=\"math inline\">\\(X^{(1)}\\)</span> vers <span class=\"math inline\">\\(\\theta\\)</span> en moyenne quadratique.</p>\n"
+      }
+    },
+    {
+      "id": "fef5291f-1cd1-46b1-9f0e-09152657c9e5",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "6d1f7ec4-938c-4b0e-967a-07197f6d22e5",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "9f67615b-481f-4476-a5e7-337c5751c0a5",
+      "type": "question",
+      "value": {
+        "latex": "Construire un intervalle de confiance pour $\\theta$ de niveau $(1-\\alpha)$.",
+        "html": "<p>Construire un intervalle de confiance pour <span class=\"math inline\">\\(\\theta\\)</span> de niveau <span class=\"math inline\">\\((1-\\alpha)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "642517e7-1feb-465a-a996-2745d13621e1",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "f46086d0-246e-44f3-944a-203b2b5409b1",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> une v.a.r. admettant pour densité <span class=\"math inline\"> ..."
+}

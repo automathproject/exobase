@@ -1,0 +1,79 @@
+{
+  "uuid": "td27",
+  "titre": "Défaillances et loi de Poisson",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-20",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "",
+    "updatedAt": "2025-03-28T11:57:49.687Z"
+  },
+  "contenu": [
+    {
+      "id": "f2274963-06a5-493c-8ed2-408fe52a99c6",
+      "type": "description",
+      "value": {
+        "latex": "Un statisticien observe chaque jour, pendant $n$ jours, le nombre d’ampoules défaillantes à la sortie d’une chaîne de fabrication. Il veut estimer la probabilité de n’avoir aucune ampoule défaillante. Il note $X_i$ le nombre d’ampoules défaillantes à la sortie de la chaîne le $i$-ème jour.",
+        "html": "<p>Un statisticien observe chaque jour, pendant <span class=\"math inline\">\\(n\\)</span> jours, le nombre d’ampoules défaillantes à la sortie d’une chaîne de fabrication. Il veut estimer la probabilité de n’avoir aucune ampoule défaillante. Il note <span class=\"math inline\">\\(X_i\\)</span> le nombre d’ampoules défaillantes à la sortie de la chaîne le <span class=\"math inline\">\\(i\\)</span>-ème jour.</p>\n"
+      }
+    },
+    {
+      "id": "10cb44fc-348e-42b2-9d78-f5584b8ba438",
+      "type": "question",
+      "value": {
+        "latex": "Dans un premier temps, il compte le nombre $N_n$ de jours où aucune défaillance n’a été observée. Il propose d’estimer $P(X_1 = 0)$ par $p_{b1} = \\frac{N_n}{n}$. \\\\\n    (a) Montrer, en supposant juste les $X_i$ i.i.d., que $p_{b1}$ est un estimateur sans biais de $P(X_1 = 0)$. Calculer son risque quadratique et donner sa loi limite. \\\\\n    (b) Donner des intervalles de confiance pour $P(X_1 = 0)$ de niveau $(1-\\alpha)$.",
+        "html": "<p>Dans un premier temps, il compte le nombre <span class=\"math inline\">\\(N_n\\)</span> de jours où aucune défaillance n’a été observée. Il propose d’estimer <span class=\"math inline\">\\(P(X_1 = 0)\\)</span> par <span class=\"math inline\">\\(p_{b1} = \\frac{N_n}{n}\\)</span>.<br />\n(a) Montrer, en supposant juste les <span class=\"math inline\">\\(X_i\\)</span> i.i.d., que <span class=\"math inline\">\\(p_{b1}\\)</span> est un estimateur sans biais de <span class=\"math inline\">\\(P(X_1 = 0)\\)</span>. Calculer son risque quadratique et donner sa loi limite.<br />\n(b) Donner des intervalles de confiance pour <span class=\"math inline\">\\(P(X_1 = 0)\\)</span> de niveau <span class=\"math inline\">\\((1-\\alpha)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "df43d5c2-1dcd-4d7a-a339-cb35ab654213",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "064ea889-1565-4485-b4d8-79c08e7d52bc",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "d918eae2-110a-4d8d-846b-5c8f51bcfcec",
+      "type": "question",
+      "value": {
+        "latex": "Le statisticien suppose de plus que $X_1 \\sim P(\\lambda)$. Il propose d’estimer $P(X_1 = 0) = \\exp(-\\lambda)$ par $p_{b2} = e^{-\\bar{X}_n}$.\\\\\n     (a) Préliminaire : soient $Y_1 \\sim P(\\lambda_1)$ et $Y_2 \\sim P(\\lambda_2)$, deux v.a. indépendantes. Rappeler la loi de $Y_1 + Y_2$. \\\\\n     (b) Expliquer sa démarche. Montrer que $p_{b2}$ est biaisé. Calculer sa variance et son biais. Déterminer des équivalents asymptotiques des quantités précédentes. \\\\\n      (c) Lequel de $p_{b1}$ ou $p_{b2}$ choisiriez-vous pour estimer $e^{-\\lambda}$ ?",
+        "html": "<p>Le statisticien suppose de plus que <span class=\"math inline\">\\(X_1 \\sim P(\\lambda)\\)</span>. Il propose d’estimer <span class=\"math inline\">\\(P(X_1 = 0) = \\exp(-\\lambda)\\)</span> par <span class=\"math inline\">\\(p_{b2} = e^{-\\bar{X}_n}\\)</span>.<br />\n(a) Préliminaire : soient <span class=\"math inline\">\\(Y_1 \\sim P(\\lambda_1)\\)</span> et <span class=\"math inline\">\\(Y_2 \\sim P(\\lambda_2)\\)</span>, deux v.a. indépendantes. Rappeler la loi de <span class=\"math inline\">\\(Y_1 + Y_2\\)</span>.<br />\n(b) Expliquer sa démarche. Montrer que <span class=\"math inline\">\\(p_{b2}\\)</span> est biaisé. Calculer sa variance et son biais. Déterminer des équivalents asymptotiques des quantités précédentes.<br />\n(c) Lequel de <span class=\"math inline\">\\(p_{b1}\\)</span> ou <span class=\"math inline\">\\(p_{b2}\\)</span> choisiriez-vous pour estimer <span class=\"math inline\">\\(e^{-\\lambda}\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "ebc3d81b-df42-4ed3-b720-6264bbab71e7",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "efaf00b7-9fda-467c-8348-76942b95605c",
+      "type": "reponse",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    }
+  ],
+  "preview": "<p>Un statisticien observe chaque jour, pendant <span class=\"math inline\">\\(n\\)</span> jours, le nombre d’ampoules défaillantes à la sortie d’une chaî ..."
+}

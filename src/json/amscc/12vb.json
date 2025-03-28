@@ -1,0 +1,55 @@
+{
+  "uuid": "c14053d4-bbc0-4ec6-b1c6-dd34a07d4347",
+  "titre": "Vraisemblance et Méthode des moments",
+  "theme": [
+    "Statistique"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-03-28T11:57:47.324Z",
+    "hasIndication": "",
+    "hasCorrection": "",
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-03-28T11:57:47.324Z"
+  },
+  "contenu": [
+    {
+      "id": "18becd14-1115-4c53-a0d4-28ca381fbd4e",
+      "type": "description",
+      "value": {
+        "latex": "Soit \\( \\theta \\in ]0, 1[ \\) un paramètre inconnu, on note \\( X \\) une variable aléatoire de loi définie par\n$$\nP_\\theta(X = k) = (k + 1)(1 - \\theta)^2 \\theta^k, \\quad \\text{pour tout } k \\in \\mathbb{N}.\n$$\nOn donne\n$$\nE_\\theta[X] = \\frac{2\\theta}{1 - \\theta}\n\\quad \\text{et} \\quad\n\\text{Var}_\\theta[X] = \\frac{2\\theta}{(1 - \\theta)^2}.\n$$\nOn souhaite estimer \\( \\theta \\) à partir d’un échantillon \\( (X_1, \\dots, X_n) \\) de même loi que \\( X \\).\n\\begin{enumerate}\n  \\item \\question{Donner un estimateur \\( \\hat{\\theta}_n \\) de \\( \\theta \\) par la méthode des moments.}\n  \\item \\question{L’estimateur du maximum de vraisemblance \\( \\hat{\\theta}_n \\) de \\( \\theta \\) est-il bien défini ?}\n  \\item \\question{Étudier la consistance de \\( \\hat{\\theta}_n \\) et déterminer sa loi limite.}\n\\end{enumerate}",
+        "html": "<p>Soit <span class=\"math inline\">\\(\\theta \\in ]0, 1[\\)</span> un paramètre inconnu, on note <span class=\"math inline\">\\(X\\)</span> une variable aléatoire de loi définie par <span class=\"math display\">\\[P_\\theta(X = k) = (k + 1)(1 - \\theta)^2 \\theta^k, \\quad \\text{pour tout } k \\in \\mathbb{N}.\\]</span> On donne <span class=\"math display\">\\[E_\\theta[X] = \\frac{2\\theta}{1 - \\theta}\n\\quad \\text{et} \\quad\n\\text{Var}_\\theta[X] = \\frac{2\\theta}{(1 - \\theta)^2}.\\]</span> On souhaite estimer <span class=\"math inline\">\\(\\theta\\)</span> à partir d’un échantillon <span class=\"math inline\">\\((X_1, \\dots, X_n)\\)</span> de même loi que <span class=\"math inline\">\\(X\\)</span>.</p>\n<ol>\n<li></li>\n<li></li>\n<li></li>\n</ol>\n"
+      }
+    },
+    {
+      "id": "284a6360-a762-4973-8c19-295726904c66",
+      "type": "question",
+      "value": {
+        "latex": "Donner un estimateur \\( \\hat{\\theta}_n \\) de \\( \\theta \\) par la méthode des moments.",
+        "html": "<p>Donner un estimateur <span class=\"math inline\">\\(\\hat{\\theta}_n\\)</span> de <span class=\"math inline\">\\(\\theta\\)</span> par la méthode des moments.</p>\n"
+      }
+    },
+    {
+      "id": "54a60df5-becd-4d49-8906-66d1354d4ee5",
+      "type": "question",
+      "value": {
+        "latex": "L’estimateur du maximum de vraisemblance \\( \\hat{\\theta}_n \\) de \\( \\theta \\) est-il bien défini ?",
+        "html": "<p>L’estimateur du maximum de vraisemblance <span class=\"math inline\">\\(\\hat{\\theta}_n\\)</span> de <span class=\"math inline\">\\(\\theta\\)</span> est-il bien défini ?</p>\n"
+      }
+    },
+    {
+      "id": "02c91d6e-e4d5-42b7-8f11-07c68c1a142b",
+      "type": "question",
+      "value": {
+        "latex": "Étudier la consistance de \\( \\hat{\\theta}_n \\) et déterminer sa loi limite.",
+        "html": "<p>Étudier la consistance de <span class=\"math inline\">\\(\\hat{\\theta}_n\\)</span> et déterminer sa loi limite.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(\\theta \\in ]0, 1[\\)</span> un paramètre inconnu, on note <span class=\"math inline\">\\(X\\)</span> une variable aléat ..."
+}
