@@ -1,5 +1,0 @@
-{
-  "uSXE": {
-    "resume": "Cet exercice porte sur l'estimation de paramètres et la construction d'un intervalle de confiance pour la moyenne d'une population normale, à partir d'un échantillon. Il s'agit de:\n\n1.  Calculer les estimations ponctuelles de la moyenne $m$ et de la variance $\\sigma^2$ d'une population normale à partir d'un échantillon, en utilisant respectivement la moyenne empirique $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$ et la variance empirique $S^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2$. Il est également demandé de justifier le choix de ces estimateurs par leurs propriétés (sans biais et convergence).\n2.  Calculer un intervalle de confiance de niveau $90\\%$ pour la moyenne $m$, en utilisant la loi de Student, puisque la variance est inconnue. L'intervalle de confiance est donné par $IC(\\bar{X}) = [\\bar{x} - t \\times \\frac{s}{\\sqrt{n}} ; \\bar{x} + t \\times \\frac{s}{\\sqrt{n}}]$, où $t$ est un quantile de la loi de Student."
-  }
-}

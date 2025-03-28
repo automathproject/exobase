@@ -1,5 +1,0 @@
-{
-  "6NIK": {
-    "resume": "Cet exercice évalue la compréhension et l'application de concepts de probabilités discrètes, en particulier l'utilisation de la loi binomiale et de son approximation par la loi normale. Il s'agit de:\n\n*   Identifier une loi binomiale $\\mathcal{B}(n, p)$, calculer son espérance $\\E(X) = np$ et sa variance $\\sigma^2 = np(1-p)$.\n*   Justifier l'approximation d'une loi binomiale par une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$ en utilisant le théorème central limite (avec centrage et réduction $Y = \\frac{X - \\mu}{\\sigma}$). L'exercice n'évoque pas la justification par la continuité mais on peut supposer qu'elle est attendue.\n*   Calculer une probabilité en utilisant l'approximation normale et une table de valeurs de la loi normale centrée réduite, en résolvant une inéquation du type $\\prob(X \\geq n) \\leq 0.025$ en utilisant la variable centrée réduite."
-  }
-}

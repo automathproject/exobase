@@ -1,5 +1,0 @@
-{
-  "A2Gl": {
-    "resume": "L'exercice porte sur l'estimation du paramètre $\\\\lambda$ d'une loi de Poisson $\\\\mathcal{P}(\\\\lambda)$ à partir d'un échantillon $X_1, ..., X_n$. Il s'agit de : \\n\\n1.  Calculer la fonction de vraisemblance $L(x_1, ..., x_n, \\\\lambda)$ en utilisant la fonction de masse de la loi de Poisson : $L(x_1, ..., x_n, \\\\lambda) = \\\\prod_{i=1}^n \\\\frac{\\\\lambda^{x_i}}{x_i !}e^{-\\\\lambda}$.\\n2.  Maximiser la fonction de vraisemblance (ou son logarithme) par rapport à $\\\\lambda$. Cela implique de calculer la dérivée partielle de $\\\\ln L$ par rapport à $\\\\lambda$ et de résoudre l'équation $\\\\frac{\\\\partial \\\\ln L}{\\\\partial \\\\lambda} = 0$. La solution est $\\\\lambda = \\\\frac{1}{n}\\\\sum_{i=1}^n x_i$.\\n3.  Conclure en donnant l'estimateur du maximum de vraisemblance, qui est la moyenne empirique : $\\\\hat{\\\\lambda} = \\\\frac{1}{n}\\\\sum_{i=1}^n X_i$."
-  }
-}

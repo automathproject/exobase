@@ -1,5 +1,0 @@
-{
-  "Ac8Y": {
-    "resume": "L'exercice porte sur la loi log-normale, où $Y = e^X$ et $X$ suit une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$. Il s'agit de :\n\n1.  Calculer l'espérance $\\E(Y)$ et la variance $\\var(Y)$ de $Y$ en utilisant le théorème de transfert et les propriétés de l'espérance et de la variance. Les résultats sont $\\E(Y) = e^{\\mu + \\frac{\\sigma^2}{2}}$ et $\\var(Y) = e^{2\\mu + \\sigma^2} (e^{\\sigma^2} - 1)$.\n\n2. Déterminer la fonction de densité de $Y$ lorsque $\\mu = 0$ et $\\sigma = 1$. Cela implique de calculer la fonction de répartition $F_Y(t)$ à partir de la fonction de répartition de la loi normale standard $F_Z(t)$, puis de dériver pour obtenir la densité $f_Y(x) = \\frac{1}{x\\sqrt{2\\pi}} e^{-\\frac{(\\ln(x))^2}{2}}$ pour $x > 0$ et $0$ sinon."
-  }
-}

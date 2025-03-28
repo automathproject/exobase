@@ -1,5 +1,0 @@
-{
-  "tn85": {
-    "resume": "L'exercice porte sur l'identification et l'application des lois du $\\chi^2$ et de Student. Il évalue la capacité à:\n\n*   Reconnaître une loi du $\\chi^2$ à partir de la somme de carrés de variables normales centrées réduites indépendantes : Si $U_i \\sim \\mathcal{N}(0,1)$ et sont indépendantes, alors $\\sum_{i=1}^{n} U_i^2 \\sim \\chi^2(n)$.\n*   Déterminer un quantile d'une loi du $\\chi^2$ à l'aide de $\\PP(X > x) = 0.05$.\n*   Identifier une loi de Student à partir d'une variable normale centrée réduite divisée par la racine carrée d'une variable du $\\chi^2$ divisée par ses degrés de liberté : $\\frac{\\frac{Y-\\mu}{\\sigma}}{\\sqrt{\\frac{X}{n}}} \\sim St(n)$ où $Y \\sim \\mathcal{N}(\\mu, \\sigma^2)$ et $X \\sim \\chi^2(n)$.\n*   Déterminer un quantile d'une loi de Student à l'aide de $\\PP(Z > z) = 0.05$."
-  }
-}

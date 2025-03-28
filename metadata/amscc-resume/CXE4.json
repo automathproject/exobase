@@ -1,5 +1,0 @@
-{
-  "CXE4": {
-    "resume": "Cet exercice porte sur la rétropropagation dans un réseau de neurones à une couche cachée. Il évalue les compétences suivantes :\n\n1.  Calcul de l'activation des neurones en utilisant une fonction sigmoïde $\\sigma(z) = \\frac{1}{1 + e^{-z}}$, en connaissant les poids, biais et entrées.\n2.  Calcul de la sortie du réseau, qui est l'activation du neurone de sortie.\n3.  Calcul de l'erreur du réseau en utilisant l'erreur quadratique moyenne $E = \\frac{1}{2}(y - \\hat{y})^2$.\n4.  Calcul des gradients de l'erreur par rapport aux poids des couches de sortie et cachée en utilisant la règle de la chaîne. Ceci implique le calcul des dérivées partielles $\\frac{\\partial E}{\\partial w_i}$ et l'utilisation de l'erreur locale $\\delta$.\n5.  Mise à jour des poids du réseau en utilisant la descente de gradient avec un taux d'apprentissage donné $\\eta$, suivant la formule $w_i^{\\text{nouveau}} = w_i^{\\text{ancien}} - \\eta \\frac{\\partial E}{\\partial w_i}$."
-  }
-}

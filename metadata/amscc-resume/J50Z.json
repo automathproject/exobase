@@ -1,5 +1,0 @@
-{
-  "J50Z": {
-    "resume": "L'exercice porte sur l'approximation de la solution d'une équation différentielle $y'(t) = - \frac{1}{1+t^2}y(t)$ avec condition initiale $y(0) = 5$ par la méthode d'Euler implicite. Il s'agit de: \n1. Calculer $y(2)$ avec un pas $h=0.5$ en utilisant le schéma $y_{n+1}=\\frac{y_n}{1+ \\frac{h}{1+t_{n+1}^2} }$.\n2. Répéter le calcul avec un pas $h=10^{-3}$ et comparer les résultats.\n3. Déterminer la solution analytique de l'équation et comparer graphiquement la solution exacte avec les approximations d'Euler pour différents pas $h$."
-  }
-}
