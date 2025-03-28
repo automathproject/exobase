@@ -1,0 +1,37 @@
+{
+  "td22": {
+    "competences": [
+      "appliquer le théorème de la limite centrale",
+      "construire un intervalle de confiance asymptotique",
+      "appliquer la méthode Delta",
+      "interpréter une convergence en loi",
+      "calculer la dérivée d'une fonction simple"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "TCL",
+      "Théorème de la Limite Centrale",
+      "intervalle de confiance",
+      "méthode Delta",
+      "stabilisation de la variance",
+      "asymptotique",
+      "Poisson",
+      "estimateur"
+    ],
+    "concepts_fondamentaux": [
+      "Théorème de la Limite Centrale",
+      "Méthode Delta",
+      "Intervalle de confiance asymptotique",
+      "Loi de Poisson"
+    ],
+    "prerequis": [
+      "Connaissance des lois de probabilité usuelles (Poisson)",
+      "Théorème de la Limite Centrale (TCL)",
+      "Convergence en loi",
+      "Calcul différentiel de base"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes",
+    "resume": "Cet exercice porte sur l'estimation d'un paramètre $\\theta$ d'une loi de Poisson à partir d'un échantillon i.i.d. $X_1, \\ldots, X_n$. Il aborde la construction d'intervalles de confiance asymptotiques pour $\\theta$ en utilisant deux approches :\n\n1.  **Application directe du TCL :** Utilisation du TCL pour $\\theta_n = \\frac{1}{n} \\sum_{i=1}^n X_i$ et construction d'un intervalle de confiance asymptotique basé sur une estimation de la variance.\n\n2.  **Stabilisation de la variance et méthode Delta :**  Trouver une fonction $g$ telle que $\\sqrt{n}(g(\\theta_n) - g(\\theta))$ converge en loi vers une loi normale centrée réduite. Cela implique l'application de la méthode Delta pour trouver une transformation qui stabilise la variance, en l'occurrence $g(\\lambda) = 2\\sqrt{\\lambda}$. Ensuite, construction d'un intervalle de confiance basé sur la transformation $g(\\theta_n)$.\n\nEnfin, l'exercice demande de vérifier l'équivalence des deux intervalles de confiance obtenus par ces deux méthodes."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "a1ba": {
+    "competences": [
+      "réaliser un test du Chi-deux d'adéquation",
+      "calculer une statistique de test",
+      "interpréter une p-valeur",
+      "déterminer le nombre de degrés de liberté",
+      "comparer une statistique de test à une valeur critique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "test du Chi-deux",
+      "test d'adéquation",
+      "statistique",
+      "loi uniforme",
+      "seuil de confiance",
+      "p-valeur",
+      "degrés de liberté",
+      "test non paramétrique"
+    ],
+    "concepts_fondamentaux": [
+      "test d'hypothèse",
+      "distribution du Chi-deux",
+      "degrés de liberté",
+      "p-valeur"
+    ],
+    "prerequis": [
+      "notion de loi uniforme",
+      "principe d'un test d'hypothèse",
+      "table de la loi du Chi-deux (ou utilisation d'un logiciel statistique)",
+      "calcul de fréquences observées et attendues"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "30-45 minutes",
+    "resume": "L'exercice porte sur la réalisation d'un test d'adéquation du $\\chi^2$ pour vérifier si une distribution observée (nombre d'apparitions de chaque élève tiré au sort) suit une loi uniforme. Il s'agit de comparer les fréquences observées aux fréquences théoriques attendues sous l'hypothèse d'uniformité, de calculer la statistique du $\\chi^2$ ($\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$) et de la comparer à la valeur critique du $\\chi^2$ avec le nombre de degrés de liberté approprié et le seuil de signification donné (5%) pour prendre une décision sur l'hypothèse nulle (uniformité) contre l'hypothèse alternative (non uniformité)."
+  }
+}

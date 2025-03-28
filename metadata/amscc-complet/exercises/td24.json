@@ -1,0 +1,39 @@
+{
+  "td24": {
+    "competences": [
+      "appliquer le théorème central limite",
+      "calculer l'espérance et la variance d'une loi exponentielle",
+      "construire un intervalle de confiance asymptotique",
+      "concevoir un test d'hypothèse statistique",
+      "déterminer la loi d'une somme de variables aléatoires exponentielles"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "loi exponentielle",
+      "estimateur",
+      "convergence",
+      "intervalle de confiance",
+      "test d'hypothèse",
+      "théorème central limite",
+      "biais",
+      "asymptotique"
+    ],
+    "concepts_fondamentaux": [
+      "estimateur sans biais",
+      "théorème central limite",
+      "intervalle de confiance",
+      "test d'hypothèse",
+      "loi gamma"
+    ],
+    "prerequis": [
+      "connaissance de la loi exponentielle",
+      "variables aléatoires i.i.d.",
+      "théorie de l'estimation",
+      "tests d'hypothèses",
+      "convergence en loi"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60-90 minutes",
+    "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi exponentielle à partir d'un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ de densité $f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)$. Il s'agit de:\n\n1.  **Étudier les propriétés d'un estimateur $Y_n$ :**\n    *   Vérifier que $Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i$ est bien défini.\n    *   Justifier le choix de $Y_n$ comme estimateur.\n    *   Déterminer la loi limite de $\\sqrt{n}(Y_n - \\theta)$.\n    *   Calculer la loi de $\\sum_{i=1}^n X_i$ et en déduire $E[(Y_n - \\theta)^2]$.\n\n2.  **Comparer deux estimateurs:**\n    *   Étudier les propriétés de convergence de $Z_n = \\frac{n-1}{n} Y_n$.\n    *   Comparer $Y_n$ et $Z_n$ comme estimateurs de $\\theta$.\n\n3.  **Construire un intervalle de confiance:**\n    *   Déterminer un intervalle de confiance bilatéral asymptotique de niveau $(1-\\alpha)$ pour $\\theta$.\n\n4.  **Effectuer des tests d'hypothèses:**\n    *   Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta \\geq 1$ contre $H_1 : \\theta < 1$.\n    *   Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta = 1$ contre $H_1 : \\theta \\neq 1$."
+  }
+}

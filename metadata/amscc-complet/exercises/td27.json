@@ -1,0 +1,39 @@
+{
+  "td27": {
+    "competences": [
+      "estimer une probabilité à partir d'observations",
+      "calculer le biais et la variance d'un estimateur",
+      "déterminer la loi limite d'un estimateur",
+      "construire un intervalle de confiance",
+      "appliquer les propriétés de la loi de Poisson"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "estimateur",
+      "biais",
+      "variance",
+      "risque quadratique",
+      "intervalle de confiance",
+      "loi de Poisson",
+      "loi limite",
+      "sans biais"
+    ],
+    "concepts_fondamentaux": [
+      "estimateur sans biais",
+      "risque quadratique",
+      "intervalles de confiance",
+      "loi de Poisson",
+      "convergence en loi"
+    ],
+    "prerequis": [
+      "probabilités",
+      "variables aléatoires",
+      "estimateurs",
+      "statistiques descriptives",
+      "théorème central limite"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes",
+    "resume": "Cet exercice porte sur l'estimation de la probabilité d'absence de défaillance ($P(X_1 = 0)$) dans une chaîne de fabrication d'ampoules. L'exercice explore deux estimateurs différents :\n\n*   **Estimateur 1 ($p_{b1}$):** Basé sur la fréquence empirique des jours sans défaillance ($N_n/n$). Il s'agit de démontrer qu'il est sans biais, de calculer son risque quadratique, de déterminer sa loi limite et de construire des intervalles de confiance.\n*   **Estimateur 2 ($p_{b2}$):** Basé sur l'hypothèse que le nombre de défaillances suit une loi de Poisson de paramètre $\\lambda$ ($X_1 \\sim P(\\lambda)$), et estimant $P(X_1 = 0) = e^{-\\lambda}$ par $e^{-\\bar{X}_n}$. Il faut rappeler la loi de la somme de deux variables aléatoires de Poisson indépendantes, justifier la démarche de l'estimateur, montrer qu'il est biaisé, calculer sa variance et son biais, et déterminer des équivalents asymptotiques. Enfin, il faut comparer les deux estimateurs pour déterminer lequel est le plus approprié pour estimer $e^{-\\lambda}$."
+  }
+}

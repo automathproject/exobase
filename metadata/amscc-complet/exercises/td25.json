@@ -1,0 +1,38 @@
+{
+  "td25": {
+    "competences": [
+      "calculer la fonction de densité d'une statistique d'ordre",
+      "calculer des moments d'une variable aléatoire",
+      "démontrer la convergence en probabilité d'une suite de variables aléatoires",
+      "construire un intervalle de confiance pour un paramètre",
+      "réaliser un test d'hypothèse statistique"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "statistique d'ordre",
+      "estimateur",
+      "convergence en probabilité",
+      "consistance",
+      "intervalle de confiance",
+      "test d'hypothèse",
+      "p-valeur",
+      "Loi Bêta"
+    ],
+    "concepts_fondamentaux": [
+      "statistiques d'ordre",
+      "convergence stochastique",
+      "estimation ponctuelle",
+      "estimation par intervalle",
+      "tests d'hypothèses"
+    ],
+    "prerequis": [
+      "probabilités de base",
+      "variables aléatoires continues",
+      "statistiques descriptives",
+      "théorie de l'estimation"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "90 minutes",
+    "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi de densité $f_\\theta(x) = \\frac{2}{\\theta^2} x \\mathbf{1}_{[0,\\theta]}(x)$ à partir d'un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$. Il s'agit de déterminer les propriétés de l'estimateur du maximum $X^{(n)} = \\max_{1 \\leq i \\leq n} X_i$, notamment sa densité, ses moments, sa convergence en probabilité et sa consistance forte. Ensuite, il faut étudier la convergence de $X_n$, en déduire un estimateur consistant de $\\theta$ et comparer les performances des deux estimateurs. L'exercice demande aussi de construire un intervalle de confiance pour $\\theta$ et de réaliser un test d'hypothèse sur $\\theta$ en calculant la p-valeur et en prenant une décision statistique."
+  }
+}

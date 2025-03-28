@@ -1,0 +1,38 @@
+{
+  "H30c2": {
+    "competences": [
+      "appliquer un test du Chi-deux",
+      "calculer une statistique de test",
+      "interpréter un résultat de test d'hypothèse",
+      "déterminer des effectifs théoriques",
+      "comparer des valeurs à une distribution de probabilité"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "test d'adéquation",
+      "chi-deux",
+      "statistiques",
+      "hypothèse nulle",
+      "niveau de signification",
+      "degré de liberté",
+      "effectifs observés",
+      "effectifs théoriques"
+    ],
+    "concepts_fondamentaux": [
+      "test d'hypothèse",
+      "distribution du Chi-deux",
+      "niveau de signification",
+      "degrés de liberté",
+      "variable aléatoire"
+    ],
+    "prerequis": [
+      "notion de variable aléatoire",
+      "connaissance des tests d'hypothèses",
+      "compréhension du niveau de signification",
+      "calculs statistiques de base"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "20 minutes",
+    "resume": "L'exercice porte sur la réalisation d'un test d'adéquation du $\\chi^2$ pour déterminer si un dé est truqué. Il s'agit de comparer les effectifs observés $O_i$ lors de 60 lancers avec les effectifs théoriques $e_i$ attendus sous l'hypothèse d'un dé non truqué. Le calcul de la statistique de test $Q = \\sum_{i=1}^6 \\frac{(O_i - e_i)^2}{e_i}$ est effectué. La valeur observée $Q_{obs}$ est ensuite comparée à la valeur critique issue d'une loi du $\\chi^2$ à 5 degrés de liberté avec un seuil de significativité de 5% pour déterminer si l'hypothèse nulle (le dé n'est pas truqué) doit être rejetée."
+  }
+}

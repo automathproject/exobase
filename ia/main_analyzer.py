@@ -122,34 +122,23 @@ def process_latex_file(
         # Define output file path
         output_file = os.path.join(output_uuid_dir, f"{uuid}.json")
         
-        # Check if file exists and load existing data
+        # Check if file exists and skip processing if it does (unless force_reprocess is True)
+        if os.path.exists(output_file) and not force_reprocess:
+            print(f"Fichier {uuid} déjà traité, ignoré.")
+            return {"uuid": uuid, "status": "skipped"}
+            
+        # Create or load existing data
         existing_data = {}
         if os.path.exists(output_file):
             with open(output_file, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
                 
-        # Determine what needs to be processed
-        need_metadata = force_reprocess or process_type in ['metadata', 'both'] and (
-            uuid not in existing_data or 
-            not any(k in existing_data[uuid] for k in ["competences", "niveau_difficulte"])
-        )
-        
-        need_resume = force_reprocess or process_type in ['resume', 'both'] and (
-            uuid not in existing_data or
-            "resume" not in existing_data[uuid]
-        )
-        
-        # Skip if nothing needs processing
-        if not need_metadata and not need_resume:
-            print(f"Fichier {uuid} déjà traité, ignoré.")
-            return {"uuid": uuid, "status": "skipped"}
-        
         # Create result structure if it doesn't exist
         if uuid not in existing_data:
             existing_data[uuid] = {}
         
         # Process metadata if needed
-        if need_metadata:
+        if process_type in ['metadata', 'both']:
             print(f"Extraction des métadonnées pour {uuid}...")
             prompt = create_metadata_prompt(content)
             
@@ -171,7 +160,7 @@ def process_latex_file(
                     print(f"Réponse brute: {response.text}")
         
         # Process resume if needed
-        if need_resume:
+        if process_type in ['resume', 'both']:
             print(f"Extraction du résumé pour {uuid}...")
             prompt = create_resume_prompt(content)
             
@@ -182,7 +171,7 @@ def process_latex_file(
             
             try:
                 # Add a small delay if we just did a metadata extraction
-                if need_metadata:
+                if process_type == 'both':
                     time.sleep(1.0)
                     
                 model = genai.GenerativeModel(model_name)
@@ -215,7 +204,8 @@ def process_latex_files(
     max_files: Optional[int] = None, 
     api_delay: float = 1.0, 
     force_reprocess: bool = False, 
-    debug: bool = False
+    debug: bool = False,
+    analysis_only: bool = False
 ) -> Dict[str, Any]:
     """
     Process multiple LaTeX files in a directory.
@@ -229,6 +219,7 @@ def process_latex_files(
         api_delay: Delay between API calls in seconds
         force_reprocess: Whether to reprocess existing files
         debug: Whether to print debug information
+        analysis_only: If True, skips API calls and just analyzes what would be done
         
     Returns:
         Dictionary with combined results
@@ -258,6 +249,28 @@ def process_latex_files(
     
     for i, file in enumerate(files):
         print(f"\n[{i+1}/{len(files)}] Analyse de {os.path.basename(file)}...")
+        
+        # Analysis only mode
+        if analysis_only:
+            # Extract UUID from file to check if it would be processed
+            with open(file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            uuid = extract_uuid(content)
+            if not uuid:
+                print(f"UUID non trouvé dans le fichier {file}")
+                failed_count += 1
+                continue
+                
+            output_file = os.path.join(exercises_dir, f"{uuid}.json")
+            if os.path.exists(output_file) and not force_reprocess:
+                print(f"Fichier {uuid} déjà traité, serait ignoré.")
+                skipped_count += 1
+            else:
+                print(f"Fichier {uuid} serait traité.")
+                success_count += 1
+            continue
+        
+        # Actual processing
         result = process_latex_file(
             file_path=file, 
             output_dir=output_dir, 
@@ -280,11 +293,16 @@ def process_latex_files(
             print(f"Pause de {api_delay} secondes...")
             time.sleep(api_delay)
     
-    # Write all results to a single file
-    with open(os.path.join(output_dir, 'all_results.json'), 'w', encoding='utf-8') as f:
-        json.dump(combined_results, f, ensure_ascii=False, indent=2)
+    # Write all results to a single file (if not in analysis only mode)
+    if not analysis_only and combined_results:
+        with open(os.path.join(output_dir, 'all_results.json'), 'w', encoding='utf-8') as f:
+            json.dump(combined_results, f, ensure_ascii=False, indent=2)
     
-    print(f"Traitement terminé. {success_count} fichiers analysés avec succès, {skipped_count} ignorés, {failed_count} échoués.")
+    if analysis_only:
+        print(f"Analyse terminée. {success_count} fichiers seraient traités, {skipped_count} seraient ignorés, {failed_count} échoueraient.")
+    else:
+        print(f"Traitement terminé. {success_count} fichiers analysés avec succès, {skipped_count} ignorés, {failed_count} échoués.")
+    
     return combined_results
 
 # Convenience functions
@@ -295,7 +313,8 @@ def extract_metadata(
     max_files: Optional[int] = None, 
     api_delay: float = 1.0, 
     force_reprocess: bool = False, 
-    debug: bool = False
+    debug: bool = False,
+    analysis_only: bool = False
 ) -> Dict[str, Any]:
     """Extract metadata from LaTeX files."""
     return process_latex_files(
@@ -306,7 +325,8 @@ def extract_metadata(
         max_files=max_files,
         api_delay=api_delay,
         force_reprocess=force_reprocess,
-        debug=debug
+        debug=debug,
+        analysis_only=analysis_only
     )
 
 def extract_resume(
@@ -316,7 +336,8 @@ def extract_resume(
     max_files: Optional[int] = None, 
     api_delay: float = 1.0, 
     force_reprocess: bool = False, 
-    debug: bool = False
+    debug: bool = False,
+    analysis_only: bool = False
 ) -> Dict[str, Any]:
     """Extract resumés from LaTeX files."""
     return process_latex_files(
@@ -327,7 +348,8 @@ def extract_resume(
         max_files=max_files,
         api_delay=api_delay,
         force_reprocess=force_reprocess,
-        debug=debug
+        debug=debug,
+        analysis_only=analysis_only
     )
 
 def extract_all(
@@ -337,7 +359,8 @@ def extract_all(
     max_files: Optional[int] = None,
     api_delay: float = 5.0,
     force_reprocess: bool = False,
-    debug: bool = False
+    debug: bool = False,
+    analysis_only: bool = False
 ) -> Dict[str, Any]:
     """
     Process LaTeX files to extract both metadata and resumés.
@@ -350,6 +373,7 @@ def extract_all(
         api_delay: Delay between API calls in seconds
         force_reprocess: Whether to reprocess existing files
         debug: Whether to print debug information
+        analysis_only: If True, skips API calls and just analyzes what would be done
         
     Returns:
         Dictionary with combined results
@@ -363,5 +387,6 @@ def extract_all(
         max_files=max_files,
         api_delay=api_delay,
         force_reprocess=force_reprocess,
-        debug=debug
+        debug=debug,
+        analysis_only=analysis_only
     )
