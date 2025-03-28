@@ -1,0 +1,35 @@
+{
+  "resume": "Cet exercice porte sur la résolution itérative d'un système linéaire $AX=b$ où $A$ est une matrice tridiagonale. L'objectif est d'étudier la convergence de la méthode de Jacobi pour cette matrice.\\n\\n1.  On demande d'exprimer la méthode de Jacobi sous la forme $X^{(k+1)}=BX^{(k)}+C$ et de déterminer si $A$ est à diagonale strictement dominante.\\n2.  On étudie la propagation de l'erreur $e^{(k)}$ et on établit une majoration de la norme de l'erreur en fonction de la norme matricielle de $B$.\\n3.  On calcule la norme infinie de $B$ et on évalue si cette norme permet de conclure sur la convergence.\\n4.  On donne la valeur du rayon spectral $\\\\rho(B)$ et il est demandé de le vérifier. Ce calcul fait appel à la connaissance des valeurs propres de $A$ et de $B$.\\n5.  On en déduit la convergence de la méthode de Jacobi en utilisant le rayon spectral et la nature symétrique de la matrice.",
+  "competences": [
+    "calculer le rayon spectral d'une matrice",
+    "appliquer la méthode itérative de Jacobi à un système linéaire",
+    "exprimer l'erreur d'une méthode itérative en fonction des itérations",
+    "interpréter la convergence d'une méthode itérative à partir du rayon spectral",
+    "calculer la norme infinie d'une matrice"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "systèmes linéaires",
+    "méthodes itératives",
+    "méthode de Jacobi",
+    "matrice tridiagonale",
+    "rayon spectral",
+    "norme matricielle",
+    "convergence",
+    "analyse numérique"
+  ],
+  "concepts_fondamentaux": [
+    "méthode de Jacobi",
+    "rayon spectral et convergence",
+    "normes matricielles",
+    "valeurs propres"
+  ],
+  "prerequis": [
+    "algèbre linéaire (matrices, vecteurs, valeurs propres)",
+    "normes vectorielles et matricielles",
+    "méthodes itératives pour la résolution de systèmes linéaires",
+    "notion de convergence"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

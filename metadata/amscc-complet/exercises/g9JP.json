@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'analyse d'un schéma numérique à un pas pour l'approximation de la solution d'une équation différentielle $(E)$ définie par $y'(t) = f(t,y(t))$ avec $f(t,y)=\\\\cos(t^2+y)$.\\n\\n1.  Il s'agit de démontrer que $f$ est globalement lipschitzienne par rapport à $y$ en utilisant le théorème des accroissements finis.\\n2.  Il s'agit de prouver la zéro-stabilité du schéma numérique $(S)$ en montrant que la fonction $F$ associée au schéma est globalement lipschitzienne.\\n3.  Il faut démontrer que le schéma numérique est consistant d'ordre au moins 2 en appliquant les critères de consistance usuels et en calculant $\\\\frac{1}{2}f^{[1]}(t,y)$.\\n4.  Enfin, il s'agit de conclure sur la convergence du schéma en utilisant les résultats de stabilité et de consistance.",
+  "competences": [
+    "démontrer qu'une fonction est lipschitzienne",
+    "appliquer les théorèmes de stabilité et consistance",
+    "interpréter la convergence d'un schéma numérique",
+    "calculer le terme d'un schéma numérique",
+    "appliquer le théorème des accroissements finis"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "analyse numérique",
+    "équation différentielle",
+    "schéma numérique",
+    "consistance",
+    "stabilité",
+    "convergence",
+    "Lipschitz",
+    "méthode à un pas"
+  ],
+  "concepts_fondamentaux": [
+    "équation différentielle",
+    "schéma numérique à un pas",
+    "stabilité d'un schéma numérique",
+    "consistance d'un schéma numérique",
+    "convergence d'un schéma numérique"
+  ],
+  "prerequis": [
+    "théorème des accroissements finis",
+    "définition de fonction lipschitzienne",
+    "schémas numériques pour équations différentielles",
+    "définitions de stabilité, consistance et convergence pour schémas numériques"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

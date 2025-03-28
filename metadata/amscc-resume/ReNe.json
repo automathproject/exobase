@@ -1,0 +1,5 @@
+{
+  "ReNe": {
+    "resume": "L'exercice porte sur un réseau de neurones multicouches. Il évalue la capacité à: \n\n1. Déterminer les équations de propagation avant dans un réseau de neurones donné, en exprimant les sorties intermédiaires ($f_{11}, f_{12}, h_{11}, h_{12}, f_{21}$) et la sortie finale ($\\hat{y}$) en fonction des poids ($w_i$) et de l'entrée $x$. La fonction d'activation sigmoïde est utilisée, définie par $\\sigma(x) = \\frac{1}{1 + e^{-x}}$.\n\n2. Appliquer l'algorithme de rétropropagation du gradient pour calculer les dérivées partielles de la fonction d'erreur $E(w) = (y - \\hat{y})^2$ par rapport aux poids $w_j$, c'est-à-dire $\\frac{\\partial E(w)}{\\partial w_j}$ et  $\\frac{\\partial \\hat{y}}{\\partial w_j}$. Il faut ensuite déduire les mises à jour des poids $\\Delta w_j$ en utilisant la formule $\\Delta w_j = \\alpha (y - \\hat{y}) \\frac{\\partial \\hat{y}}{\\partial w_j}$, où $\\alpha$ est le taux d'apprentissage."
+  }
+}

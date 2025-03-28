@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice porte sur l'approximation d'une intégrale $I = \\int_{0}^{+\\infty} x^2 e^{-\\frac{x^2}{2}} dx$ par des méthodes probabilistes, notamment la méthode de Monte Carlo. Les compétences mises en œuvre sont :\n\n1.  **Calcul d'espérance et lien avec l'intégrale** : Exprimer $\\mathbb{E}(X_i^2)$, où $X_i$ suit une loi normale centrée réduite, en fonction de l'intégrale $I$ via le théorème de transfert.  \n2.  **Loi Forte des Grands Nombres (LFGN)** : Appliquer la LFGN pour montrer la convergence presque sûre d'une moyenne empirique de $X_i^2$ vers une expression contenant $I$, soit $\\frac{1}{n}\\sum_{i=1}^n X_i^2 \\xrightarrow[n \\to \\infty]{{\\rm{p.s.}}} \\sqrt{\\frac{2}{\\pi}}I$.\n3.  **Identification de densité et fonction de répartition** : Vérifier qu'une fonction donnée $\\tilde{f}(x) = xe^{-\\frac{x^2}{2}} \\textbf{1}_{[0;+\\infty[}(x)$ est une densité de probabilité et calculer sa fonction de répartition associée $\\tilde{F}(t) = 1 - e^{-\\frac{t^2}{2}}$ pour $t>0$.\n4.  **Simulation de variable aléatoire par inversion** : Démontrer que $\\sqrt{-2\\ln(1-U)}$, où $U \\sim \\mathcal{U}([0;1])$, suit la loi de densité $\\tilde{f}$ en utilisant le théorème d'inversion de la fonction de répartition.\n5.  **Approximation de l'intégrale par simulation et LFGN** : Exprimer $I$ comme l'espérance d'une variable aléatoire $Y$ de densité $\\tilde{f}$, soit $I = \\mathbb{E}(Y_1)$ et appliquer la LFGN à une suite de variables aléatoires i.i.d. suivant cette loi, pour construire une suite convergente presque sûrement vers $I$ et ainsi approcher $I$. Déduire un algorithme pour approcher $I$ en utilisant la simulation de variables aléatoires de densité $\\tilde{f}$.",
+  "competences": [
+    "appliquer la loi forte des grands nombres",
+    "calculer une intégrale impropre",
+    "déterminer une fonction de répartition",
+    "utiliser le théorème de transfert",
+    "simuler une variable aléatoire à partir de sa fonction de répartition"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité continue",
+    "intégrale",
+    "simulation",
+    "loi forte des grands nombres",
+    "méthode de Monte Carlo",
+    "densité de probabilité",
+    "fonction de répartition",
+    "théorème de transfert"
+  ],
+  "concepts_fondamentaux": [
+    "variables aléatoires i.i.d.",
+    "espérance mathématique",
+    "convergence presque sûre",
+    "densité de probabilité",
+    "fonction de répartition"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "variables aléatoires",
+    "espérance et variance",
+    "théorème de transfert",
+    "connaissance de la loi uniforme et de la loi normale"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

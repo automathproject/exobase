@@ -1,0 +1,5 @@
+{
+  "ouYw": {
+    "resume": "Cet exercice vise à calculer l'intégrale $I = \\int_0^1 \\ln(t)\\ln(1-t)\\mathrm{d}t$ en utilisant un développement en série entière et le fait que $\\sum_{n=1}^{+\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}$.\n\nIl est divisé en trois questions :\n\n1.  Démontrer que $\\int_0^1 \\frac{-t^n \\ln(t)}{n} \\mathrm{d}t = \\frac{1}{n(n+1)^2}$ pour tout entier $n \\geq 1$, ce qui est résolu par intégration par parties.\n2.  Déterminer $a, b, c \\in \\mathbb{R}$ tels que $\\frac{1}{n(n+1)^2} = \\frac{a}{n} + \\frac{b}{n+1} + \\frac{c}{(n+1)^2}$, ce qui revient à une décomposition en éléments simples.\n3.  Utiliser le développement en série entière de $\\ln(1-t)$ et les résultats précédents pour calculer $I$. L'intégrale est transformée en une somme, qui est ensuite simplifiée pour aboutir à la solution $I = 2 - \\frac{\\pi^2}{6}$."
+  }
+}

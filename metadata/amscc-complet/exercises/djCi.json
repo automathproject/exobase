@@ -1,0 +1,35 @@
+{
+  "resume": "Cet exercice explore l'utilisation de réseaux de neurones pour la classification de points dans le plan. Il s'agit de :\\n\\n1.  Démontrer qu'un perceptron donné effectue l'opération logique ET sur trois entrées binaires. La démonstration repose sur le calcul du seuil d'activation.\\n2.  Concevoir un réseau de neurones à deux couches capable de classer un point $(x, y)$ comme étant à l'intérieur ou à l'extérieur d'un triangle $T$. Cela implique de déterminer les inéquations définissant le triangle et de construire un réseau qui les implémente. Ce réseau utilise la fonction de Heaviside comme fonction d'activation.\\n3.  Généraliser l'approche pour classer les points à l'intérieur d'un polygone convexe à 10 côtés. La solution repose sur l'identification du polygone comme l'intersection de 10 demi-plans, et la conception d'un réseau neuronal à deux couches, où la première couche représente les demi-plans et la seconde réalise une fonction logique \\textit{ET} à 10 entrées pour déterminer si un point appartient à tous les demi-plans, et donc au polygone.",
+  "competences": [
+    "construire un réseau de neurones pour la classification",
+    "appliquer des opérations logiques avec des perceptrons",
+    "interpréter géométriquement des inéquations linéaires",
+    "démontrer le fonctionnement d'un perceptron",
+    "traduire un problème géométrique en un problème de logique booléenne"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "réseau de neurones",
+    "perceptron",
+    "classification",
+    "géométrie",
+    "polygone convexe",
+    "opération logique",
+    "fonction d'activation",
+    "demi-plan"
+  ],
+  "concepts_fondamentaux": [
+    "perceptron et neurone formel",
+    "opérations logiques booléennes",
+    "représentation de droites et demi-plans par des inéquations linéaires",
+    "architecture des réseaux de neurones"
+  ],
+  "prerequis": [
+    "bases de l'algèbre linéaire (vecteurs, équations de droites)",
+    "compréhension des opérations logiques (ET, OU)",
+    "notions de base sur les réseaux de neurones (perceptron, couches)",
+    "fonction Heaviside"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice porte sur l'estimation d'une proportion à partir d'un échantillon. Il évalue la capacité à:\n\n*   Identifier et appliquer l'estimateur de fréquence empirique $F = \\frac{1}{n}\\sum_{i=1}^{n} X_i$ où $X_i \\sim \\mathcal{B}(p)$, et à déterminer son absence de biais.\n*   Calculer un intervalle de confiance pour une proportion donnée, en utilisant la formule $I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$ et interpréter les résultats pour différents niveaux de confiance.\n*   Déterminer la taille d'échantillon nécessaire pour atteindre une précision souhaitée de l'estimation, en utilisant une approximation simplifiée de l'intervalle de confiance et en manipulant l'inégalité $u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} \\leq 0.01$ pour résoudre en $n$.",
+  "competences": [
+    "calculer un intervalle de confiance pour une proportion",
+    "estimer une proportion à partir d'un échantillon",
+    "déterminer la taille d'échantillon nécessaire pour une précision donnée",
+    "appliquer la formule de l'intervalle de confiance",
+    "interpréter les résultats d'un test d'hypothèse"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistique",
+    "tests d'hypothèses",
+    "intervalle de confiance",
+    "proportion",
+    "estimateur",
+    "taille d'échantillon",
+    "fiabilité",
+    "radio"
+  ],
+  "concepts_fondamentaux": [
+    "estimateur de fréquence empirique",
+    "intervalle de confiance",
+    "taille d'échantillon",
+    "biais d'un estimateur"
+  ],
+  "prerequis": [
+    "statistiques descriptives",
+    "théorie des probabilités",
+    "notion d'estimateur",
+    "loi binomiale",
+    "distribution normale"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30-45 minutes"
+}

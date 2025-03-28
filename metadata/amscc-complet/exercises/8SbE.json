@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice porte sur le calcul de la série de Fourier trigonométrique d'une fonction $f$ périodique définie par $f(x) = \\pi - |x|$. Il s'agit de : \n\n1.  Calculer les coefficients de Fourier $a_n$ et $b_n$ en exploitant la parité de la fonction. Calculer $a_0$. Exprimer la série de Fourier $S_n(f)$ en fonction des coefficients calculés:  $S_n(f) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} a_n \\cos(nx) + b_n \\sin(nx)$.\n2.  Utiliser le théorème de Dirichlet pour relier la série de Fourier à la fonction $f$.  En choisissant une valeur de $x$ appropriée (ici $x=0$), déduire la valeur de la somme infinie $\\sum_{n=0}^{+\\infty} \\frac{1}{(2n+1)^2}$.",
+  "competences": [
+    "calculer les coefficients de Fourier d'une fonction périodique",
+    "appliquer le théorème de Dirichlet pour la convergence des séries de Fourier",
+    "interpréter la parité d'une fonction pour simplifier le calcul des coefficients de Fourier",
+    "calculer une intégrale par intégration par parties",
+    "déterminer la valeur d'une série numérique à partir de la série de Fourier"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série de Fourier",
+    "coefficients de Fourier",
+    "fonction périodique",
+    "théorème de Dirichlet",
+    "convergence",
+    "parité",
+    "intégration par parties",
+    "somme de série"
+  ],
+  "concepts_fondamentaux": [
+    "développement en série de Fourier",
+    "convergence ponctuelle et uniforme",
+    "intégrale d'une fonction périodique",
+    "théorème de Dirichlet",
+    "parité d'une fonction"
+  ],
+  "prerequis": [
+    "calcul intégral (intégration par parties)",
+    "fonctions trigonométriques",
+    "notion de périodicité",
+    "parité et imparité d'une fonction",
+    "définition d'une série de Fourier"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30-45 minutes"
+}

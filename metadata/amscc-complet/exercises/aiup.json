@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'étude d'une fonction $f(x,y) = x^3+y^3-3xy-1$ de deux variables réelles. Il évalue les compétences suivantes :\n\n*   **Calcul de points critiques:** Détermination des points stationnaires en résolvant le système d'équations $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$.\n*   **Nature des points critiques:** Utilisation de la matrice hessienne $Hess_f(x,y) = \\begin{pmatrix} 6x & -3 \\\\ -3 & 6y \\end{pmatrix}$ et de son déterminant $\\Delta(x,y) = 36xy-9$ pour déterminer si les points critiques sont des minimums locaux, des maximums locaux ou des points selles.\n*   **Interprétation des lignes de niveau:** Identification du graphique représentant les lignes de niveau de la fonction, en utilisant les propriétés de symétrie de la fonction et la position des points stationnaires.\n*   **Calcul de limites:** Calcul de limites de $f(x,0)$ lorsque $x$ tend vers $+\\infty$ et $-\\infty$.\n*   **Extrema globaux:** Détermination de l'existence de maximums et minimums globaux sur $\\mathbb{R}^2$ en utilisant les limites calculées précédemment.\n*   **Restriction à un domaine borné:** Analyse de la fonction restreinte à un domaine $D$ défini par $x^3 + y^3 - 3xy \\leq 8$, $x \\geq 0$, $y \\geq 0$. Cela comprend la vérification de l'appartenance de points à $D$, la justification de l'existence d'extrema globaux sur $D$ (en utilisant le théorème des bornes atteintes) et la détermination de ces extrema en analysant le comportement de la fonction sur le bord de $D$.",
+  "competences": [
+    "calculer des dérivées partielles",
+    "identifier les points critiques d'une fonction de deux variables",
+    "utiliser le Hessien pour déterminer la nature des points critiques",
+    "interpréter géométriquement les lignes de niveau d'une fonction",
+    "calculer des limites de fonctions"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "fonction de deux variables",
+    "points critiques",
+    "Hessien",
+    "maximum local",
+    "minimum local",
+    "point selle",
+    "lignes de niveau",
+    "extrema globaux"
+  ],
+  "concepts_fondamentaux": [
+    "dérivées partielles",
+    "matrice Hessienne",
+    "points stationnaires",
+    "extrema locaux et globaux",
+    "lignes de niveau"
+  ],
+  "prerequis": [
+    "calcul différentiel",
+    "dérivation de fonctions d'une variable",
+    "algèbre linéaire (matrices)",
+    "notion de limite"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

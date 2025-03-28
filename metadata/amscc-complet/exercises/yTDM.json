@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur la détermination de la loi d'une variable aléatoire $Y$ obtenue par transformation d'une variable aléatoire $X$ de densité connue. Il s'agit de déterminer la densité de probabilité de $Y = X^2$ lorsque $X$ suit une loi uniforme sur $[-1, 1]$. Les compétences mises en œuvre sont : \n\n*   Calcul de la fonction de répartition $F_Y(t) = P(Y \\le t)$ à partir de la fonction de répartition de $X$.\n*   Calcul d'intégrales pour déterminer $F_Y(t)$ en fonction de $t$.\n*   Dérivation de $F_Y(t)$ pour trouver la densité $g(t)$ de $Y$.\n*   Utilisation de fonctions indicatrices pour définir les supports des densités.",
+  "competences": [
+    "calculer une fonction de répartition à partir d'une densité",
+    "appliquer un changement de variable pour déterminer une loi de probabilité",
+    "interpréter une fonction indicatrice",
+    "calculer une intégrale définie",
+    "dériver une fonction"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité continue",
+    "densité de probabilité",
+    "variable aléatoire",
+    "fonction de répartition",
+    "changement de variable",
+    "loi de probabilité",
+    "intégrale",
+    "fonction indicatrice"
+  ],
+  "concepts_fondamentaux": [
+    "densité de probabilité",
+    "fonction de répartition",
+    "variable aléatoire continue",
+    "changement de variable en probabilité"
+  ],
+  "prerequis": [
+    "connaissance des variables aléatoires continues",
+    "maîtrise du calcul intégral",
+    "connaissance de la fonction de répartition",
+    "notion de densité de probabilité"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30 minutes"
+}

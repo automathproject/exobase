@@ -1,0 +1,5 @@
+{
+  "bOga": {
+    "resume": "L'exercice porte sur un couple de variables aléatoires $(X, Y)$ dont la densité conjointe est uniforme sur un domaine $\\mathcal{C}$ défini par $|x| + |y| \\leq 1$. Il évalue la capacité à:\\n\\n*   Identifier le domaine $\\mathcal{C}$ parmi des représentations graphiques.\\n*   Déterminer la constante de normalisation $k$ pour que $f$ soit une densité de probabilité, en utilisant l'intégrale double de $f$ sur $\\mathcal{C}$ qui doit être égale à 1, i.e. $\\\\iint_{\\mathcal{C}} f(x,y) dxdy = 1$.\\n*   Calculer les densités marginales $f_X(x)$ et $f_Y(y)$ en intégrant la densité conjointe sur $y$ et $x$ respectivement. On a $f_X(x) = \\\\int_{-\\\\infty}^{+\\\\infty} f(x,y) dy$ et $f_Y(y) = \\\\int_{-\\\\infty}^{+\\\\infty} f(x,y) dx$.\\n*   Calculer la covariance $cov(X, Y)$ en utilisant la formule de Huygens: $cov(X,Y) = E(XY) - E(X)E(Y)$.\\n*   Déterminer si $X$ et $Y$ sont indépendantes en comparant $f(x, y)$ avec le produit $f_X(x)f_Y(y)$. $X$ et $Y$ sont indépendantes si et seulement si $f(x,y) = f_X(x)f_Y(y)$ pour tout $(x,y)$. Le fait que la covariance soit nulle n'implique pas l'indépendance."
+  }
+}

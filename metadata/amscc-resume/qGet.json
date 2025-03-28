@@ -1,0 +1,5 @@
+{
+  "qGet": {
+    "resume": "L'exercice porte sur l'étude de la convergence et de la précision de la méthode du point fixe appliquée à l'équation $\\ell=\\ell-\\frac{1}{4}\\cos(\\ell)$. Les compétences mises en œuvre sont les suivantes:\\n\\n*   **Convergence:** Démontrer la convergence de la suite $(x_k)$ définie par $x_{k+1} = \\phi(x_k)$, où $\\phi(x) = x - \\frac{1}{4}\\cos(x)$, en utilisant le théorème du point fixe (contraction).\\n*   **Vitesse de convergence:** Déterminer une majoration de l'erreur $|x_k - \\ell|$ en fonction de $k$ et en déduire le nombre d'itérations nécessaires pour atteindre une précision donnée ($10^{-3}$). Déterminer une constante $C$ telle que $|x_k - \\ell| \\leq C^k |x_0 - \\ell|$.\\n*   **Critère d'arrêt:** Etablir une relation entre $|x_k - \\ell|$ et $|x_{k+1} - x_k|$ et en déduire un critère d'arrêt basé sur l'incrément $|x_{k+1} - x_k|$ pour garantir une précision de $10^{-3}$."
+  }
+}

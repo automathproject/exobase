@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'application de méthodes statistiques pour analyser le nombre de camions en panne dans une entreprise. Il évalue les compétences suivantes:\n\n*   Calcul de la moyenne ($\\bar{x}$) et de l'écart-type ($\\sigma$) d'un échantillon.\n*   Estimation ponctuelle sans biais de la moyenne ($\\mu$) et de l'écart-type ($s$) d'une population à partir d'un échantillon, en utilisant les formules $S^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (X_i - \\overline{X})^2$ et $\\overline{X} = \\frac{1}{n}\\sum_{i=1}^{n} X_i$.\n*   Détermination d'un intervalle de confiance pour la moyenne d'une population en utilisant la loi de Student, en calculant  $\\left[\\bar{x} - t_{\\alpha/2 }\\frac{s}{\\sqrt{n}};\\bar{x} + t_{\\alpha/2 }\\frac{s}{\\sqrt{n}}\\right]$.\n*   Construction et interprétation d'un test d'hypothèse unilatéral pour la moyenne, en utilisant la statistique de test $Z=\\frac{\\overline{X}-\\mu_0}{\\frac{S}{\\sqrt{n}}}$ et en comparant la valeur observée à la zone de rejet basée sur la loi de Student.",
+  "competences": [
+    "réaliser un test d'hypothèse unilatéral",
+    "calculer un intervalle de confiance pour une moyenne",
+    "estimer une moyenne et un écart-type à partir d'un échantillon",
+    "calculer la moyenne et l'écart-type d'un échantillon",
+    "interpréter les résultats d'un test statistique"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistiques",
+    "test d'hypothèse",
+    "intervalle de confiance",
+    "moyenne",
+    "écart-type",
+    "échantillon",
+    "loi de Student",
+    "estimation ponctuelle"
+  ],
+  "concepts_fondamentaux": [
+    "test d'hypothèse",
+    "intervalle de confiance",
+    "estimation statistique",
+    "loi de Student",
+    "risque de première espèce"
+  ],
+  "prerequis": [
+    "statistiques descriptives (moyenne, écart-type)",
+    "notions de base sur les tests d'hypothèses",
+    "connaissance de la loi de Student",
+    "calcul d'intervalles de confiance"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

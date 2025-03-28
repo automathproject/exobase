@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice porte sur le calcul de l'espérance mathématique du gain à un jeu de loto. Il nécessite la modélisation du nombre de numéros gagnants avec une loi hypergéométrique de paramètres $(N, n, k)$ dont la probabilité est donnée par $\\prob(X=k)=\\frac{\\binom{n}{k}\\binom{N-n}{n-k}}{\\binom{N}{n}}$. Le calcul final de l'espérance fait intervenir la formule $\\E(Y)=\\sum_i y_i \\prob(Y=y_i)$. ",
+  "competences": [
+    "calculer une espérance mathématique à partir d'une loi de probabilité",
+    "calculer des probabilités avec une loi hypergéométrique",
+    "appliquer la formule de la loi hypergéométrique",
+    "interpréter les paramètres d'une loi hypergéométrique dans un contexte de tirage",
+    "calculer des coefficients binomiaux"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité",
+    "variable aléatoire discrète",
+    "loi hypergéométrique",
+    "espérance",
+    "loto",
+    "gain",
+    "tirage sans remise"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire",
+    "loi de probabilité",
+    "loi hypergéométrique",
+    "espérance mathématique"
+  ],
+  "prerequis": [
+    "probabilités de base",
+    "combinatoire",
+    "coefficients binomiaux",
+    "notion de variable aléatoire"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

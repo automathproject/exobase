@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice porte sur les variables aléatoires continues. Il s'agit de calculer des espérances et des variances de variables aléatoires uniformes et de leur maximum. Plus précisément:\\n\\n1.  Calcul de l'espérance $\\\\E(X_i)$ et de la variance $\\\\var(X_i)$ d'une variable aléatoire uniforme $X_i$ sur $[0, 2a]$, puis calcul de l'espérance $\\\\E(Y)$ et de la variance $\\\\var(Y)$ de la moyenne $Y = \\\\frac{1}{3}(X_1 + X_2 + X_3)$ de trois variables aléatoires indépendantes de même loi.\\n\\n2.  Détermination de la fonction de répartition $F_Z(t)$ de $Z = \\\\max(X_1, X_2, X_3)$ en fonction de la fonction de répartition de $X_i$, puis calcul de la densité $f_Z(t)$ de $Z$.\\n\\n3.  Calcul de l'espérance $\\\\E(Z)$ et de la variance $\\\\var(Z)$ de $Z$, puis détermination d'un coefficient $\\\\alpha$ tel que $\\\\E(T) = \\\\E(Y)$, où $T = \\\\alpha Z$.\\n\\n4.  Comparaison de $\\\\var(T)$ et $\\\\var(Y)$.",
+  "competences": [
+    "calculer une espérance et une variance à partir d'une densité",
+    "appliquer les propriétés de l'espérance et de la variance",
+    "dériver une fonction de répartition pour obtenir une densité",
+    "calculer une fonction de répartition à partir d'indépendance",
+    "interpréter le maximum de variables aléatoires indépendantes"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité continue",
+    "variable aléatoire",
+    "densité de probabilité",
+    "fonction de répartition",
+    "espérance",
+    "variance",
+    "maximum",
+    "indépendance"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire continue",
+    "densité de probabilité",
+    "fonction de répartition",
+    "espérance et variance",
+    "indépendance de variables aléatoires"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "définition de variable aléatoire",
+    "définition de densité de probabilité",
+    "définition de fonction de répartition",
+    "notions d'espérance et variance"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

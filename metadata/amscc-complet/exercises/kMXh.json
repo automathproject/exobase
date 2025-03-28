@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur la détermination de la loi marginale d'une variable aléatoire $X$, sachant que le couple $(X, Y)$ suit une loi uniforme sur le disque unité. Il s'agit de calculer la densité marginale $f_X(x)$ en intégrant la densité conjointe $f(x, y)$ sur toutes les valeurs possibles de $y$. La densité conjointe est $f(x,y)=\\frac{1}{\\pi} \\textbf{1}_D(x,y)$, où $D$ est le disque unité. La solution implique le calcul de l'intégrale $f_X(x) = \\int_{\\R}^{} f(x,y)dy = \\frac{1}{\\pi} \\int_{\\{y^2<1-x^2\\}}^{} dy$ et aboutit à $f_X(x) = \\frac{2}{\\pi} \\sqrt{1-x^2} \\textbf{1}_{]-1;1[}(x)$.",
+  "competences": [
+    "calculer une intégrale simple",
+    "déterminer une densité marginale à partir d'une densité conjointe",
+    "appliquer la définition de la loi uniforme",
+    "interpréter géométriquement un domaine d'intégration",
+    "définir une fonction indicatrice"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité continue",
+    "densité de probabilité",
+    "loi uniforme",
+    "densité marginale",
+    "variable aléatoire",
+    "couple de variables aléatoires",
+    "intégration",
+    "fonction indicatrice"
+  ],
+  "concepts_fondamentaux": [
+    "densité de probabilité conjointe",
+    "densité marginale",
+    "loi uniforme sur un domaine",
+    "intégrale d'une fonction de deux variables"
+  ],
+  "prerequis": [
+    "calcul intégral (intégrales simples)",
+    "notion de loi uniforme",
+    "manipulation des inégalités",
+    "fonction indicatrice",
+    "variable aléatoire à densité"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "20 minutes"
+}

@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice porte sur les variables aléatoires discrètes et leur indépendance. Il met en oeuvre les compétences suivantes : \n\n*   Détermination de la loi de probabilité d'une variable aléatoire discrète $X$, représentant le nombre de boules rouges tirées sans remise.\n*   Calcul de l'espérance $E[X]$ et de la variance $Var[Y]$ de variables aléatoires discrètes.\n*   Vérification de l'indépendance de deux variables aléatoires $X$ et $Y$. L'indépendance est infirmée si $P(X=x, Y=y) \\neq P(X=x)P(Y=y)$ pour au moins une paire de valeurs $(x, y)$. Le fait que $X+Y$ soit constant implique la dépendance.",
+  "competences": [
+    "calculer des probabilités dans un modèle hypergéométrique",
+    "calculer l'espérance mathématique d'une variable aléatoire discrète",
+    "calculer la variance d'une variable aléatoire discrète",
+    "déterminer si deux variables aléatoires discrètes sont indépendantes",
+    "expliciter la loi de probabilité d'une variable aléatoire"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "variable aléatoire discrète",
+    "loi hypergéométrique",
+    "indépendance",
+    "espérance",
+    "variance",
+    "tirage sans remise",
+    "probabilité",
+    "dénombrement"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire discrète",
+    "loi de probabilité",
+    "espérance mathématique",
+    "variance",
+    "indépendance de variables aléatoires"
+  ],
+  "prerequis": [
+    "probabilités",
+    "dénombrement (combinaisons)",
+    "variable aléatoire",
+    "loi de probabilité"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'étude d'une fonction $f(x,y) = 4 - \\sqrt{1+x^2+y^2}$ de deux variables réelles. Il s'agit de:\\n\\n*   Déterminer le domaine de définition de la fonction.\\n*   Exprimer les lignes de niveau $k$ en résolvant l'équation $f(x, y) = k$.\\n*   Calculer les dérivées partielles premières $\\\\frac{\\\\partial f}{\\\\partial x}$ et $\\\\frac{\\\\partial f}{\\\\partial y}$.\\n*   Déterminer la matrice hessienne de $f$ en calculant les dérivées partielles secondes et $\\\\frac{\\\\partial^2 f}{\\\\partial x \\\\partial y}$.\\n*   Trouver les points critiques en résolvant le système d'équations $\\\\frac{\\\\partial f}{\\\\partial x} = 0$ et $\\\\frac{\\\\partial f}{\\\\partial y} = 0$.\\n*   Déterminer la nature du point critique (maximum local, minimum local ou point selle) en étudiant la matrice hessienne en ce point et en calculant son déterminant. Déterminer si le maximum local est global.",
+  "competences": [
+    "calculer des dérivées partielles",
+    "déterminer les points critiques d'une fonction",
+    "interpréter la matrice hessienne pour identifier la nature des points critiques",
+    "calculer des dérivées partielles secondes",
+    "déterminer le domaine de définition d'une fonction"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "dérivabilité",
+    "fonctions réelles",
+    "dérivées partielles",
+    "matrice hessienne",
+    "points critiques",
+    "maximum local",
+    "optimisation",
+    "lignes de niveau"
+  ],
+  "concepts_fondamentaux": [
+    "dérivées partielles d'ordre 1 et 2",
+    "matrice hessienne",
+    "points critiques",
+    "nature des extrema (maximum, minimum, point selle)",
+    "ensemble de définition d'une fonction"
+  ],
+  "prerequis": [
+    "calcul différentiel de fonctions à une variable",
+    "définition et propriétés des fonctions à plusieurs variables",
+    "notion de dérivée partielle",
+    "algèbre linéaire (calcul matriciel, déterminant)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

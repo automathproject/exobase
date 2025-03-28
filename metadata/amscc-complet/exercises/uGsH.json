@@ -1,0 +1,35 @@
+{
+  "resume": "Cet exercice porte sur les variables aléatoires continues et leur densité de probabilité. Il évalue les compétences suivantes :\n\n*   Vérification qu'une fonction donnée est une densité de probabilité en montrant qu'elle est positive et que son intégrale sur son domaine vaut 1. ($\\int f(x) dx = 1$)\n*   Calcul de la probabilité qu'une variable aléatoire $X$ appartienne à un intervalle donné, en calculant l'intégrale de la densité de probabilité sur cet intervalle. ($P(a \\le X \\le b) = \\int_a^b f(x) dx$)\n*   Calcul de l'espérance mathématique $E[X] = \\int xf(x)dx$ et de la variance $Var(X) = E[X^2] - (E[X])^2$ d'une variable aléatoire continue à partir de sa densité de probabilité.",
+  "competences": [
+    "calculer une intégrale définie",
+    "vérifier qu'une fonction est une densité de probabilité",
+    "calculer l'espérance d'une variable aléatoire continue",
+    "calculer la variance d'une variable aléatoire continue",
+    "appliquer la définition de la probabilité d'un intervalle pour une variable continue"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "densité de probabilité",
+    "variable aléatoire continue",
+    "intégrale",
+    "espérance",
+    "variance",
+    "probabilité",
+    "fonction densité",
+    "calcul intégral"
+  ],
+  "concepts_fondamentaux": [
+    "densité de probabilité",
+    "espérance mathématique",
+    "variance",
+    "intégrale définie"
+  ],
+  "prerequis": [
+    "calcul intégral (intégrales définies)",
+    "notion de fonction",
+    "manipulation d'inégalités",
+    "définition d'une densité de probabilité"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

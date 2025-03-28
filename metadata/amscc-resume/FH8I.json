@@ -1,0 +1,5 @@
+{
+  "FH8I": {
+    "resume": "L'exercice étudie la convergence de la méthode de descente de gradient pour une fonction $f$ de classe $C^2$ sur $\\\\mathbb{R}$ avec une courbure bornée ($c < f''(x) \\\\leq K$). \\n\\n1.  **Décroissance de $f(x_n)$:** Il s'agit de montrer que la suite des valeurs de la fonction $f$ aux itérés de la descente de gradient est décroissante en utilisant un développement de Taylor-Lagrange d'une fonction auxiliaire $\\\\phi(t) = f(x_n - tf'(x_n))$ et en exploitant les bornes sur $f''(x)$.\\n\\n2.  **Convergence de $(x_n)$:** Cette partie démontre la convergence de la suite $(x_n)$ vers un point critique de $f$. Les étapes sont les suivantes:\\n    *   Borner la dérivée de la fonction $g(x) = x - \\\\gamma f'(x)$.\\n    *   Utiliser l'inégalité des accroissements finis pour montrer que $|x_{n+1}-x_n| < M |x_n-x_{n-1}|$.\\n    *   Démontrer que $(x_n)$ est une suite de Cauchy, donc convergente, en étudiant la série $\\\\sum (x_{n+1}-x_n)$.\\n    *   Prouver que la limite $l$ de $(x_n)$ est un point critique de $f$ en utilisant la continuité de $f'$.\\n    *   Montrer que $f$ possède un unique point critique."
+  }
+}

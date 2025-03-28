@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'estimation et les tests d'hypothèses en statistique, appliqués à l'évaluation d'un algorithme de classification d'images. Il s'agit d'estimer la variance d'une loi normale à partir d'estimateurs biaisés et non biaisés, puis de réaliser des tests d'hypothèses. Les compétences mises en œuvre sont:\n\n*   Calcul d'estimateur non biaisé de la variance à partir de l'estimateur biaisé $\\tilde{S}^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i - \\overline{X})^2$.\n*   Réalisation d'un test d'hypothèse sur la moyenne d'une loi normale (test de Student) pour vérifier si l'espérance de $X_i$ est nulle.\n*   Identification de la loi de $\\frac{n}{\\sigma^2} \\tilde{S}^2$ et $\\frac{n-1}{\\sigma^2}S^2$ (Chi-deux).\n*   Détermination de la loi de $\\frac{S_2^2}{S_1^2}$ (loi de Fisher).\n*   Construction et mise en œuvre d'un test de Fisher pour comparer les variances de deux échantillons.",
+  "competences": [
+    "réaliser un test d'hypothèse sur la moyenne et la variance",
+    "calculer un estimateur non biaisé de la variance",
+    "identifier la loi de probabilité d'une statistique",
+    "appliquer les propriétés de la loi du Chi-deux et de Fisher",
+    "interpréter les résultats d'un test statistique"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "test d'hypothèse",
+    "intervalle de confiance",
+    "estimateur",
+    "variance",
+    "biais",
+    "loi normale",
+    "loi du Chi-deux",
+    "loi de Fisher"
+  ],
+  "concepts_fondamentaux": [
+    "estimateur biaisé/non biaisé",
+    "test d'hypothèse unilatéral/bilatéral",
+    "loi de probabilité d'une statistique d'échantillon",
+    "variance et écart type",
+    "théorème central limite"
+  ],
+  "prerequis": [
+    "connaissance des lois normales, Chi-deux et Fisher",
+    "définition d'un estimateur et de ses propriétés",
+    "principes des tests d'hypothèses (formulation, risque)",
+    "calcul de moyenne et variance empiriques"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

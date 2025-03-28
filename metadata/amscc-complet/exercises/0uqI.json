@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice évalue la capacité à :\n\n*   Modéliser une situation concrète à l'aide d'une variable aléatoire de Bernoulli $X \\sim \\mathcal{B}(n, p)$.\n*   Calculer l'espérance et la variance d'une variable aléatoire binomiale : $E(X) = np$ et $V(X) = np(1-p)$.\n*   Appliquer le théorème central limite pour approximer la loi binomiale par une loi normale centrée réduite $Z = \\frac{X - E(X)}{\\sqrt{V(X)}}$.\n*   Utiliser la fonction de répartition $\\Phi$ de la loi normale centrée réduite et sa table pour résoudre une inéquation impliquant une probabilité.\n*   Déterminer une valeur seuil $\\alpha$ à partir d'une condition de probabilité.",
+  "competences": [
+    "appliquer le théorème central limite",
+    "interpréter une probabilité en termes de gain financier",
+    "calculer l'espérance et la variance d'une loi binomiale",
+    "traduire un problème concret en termes probabilistes",
+    "utiliser la table de la loi normale centrée réduite"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "théorème central limite",
+    "loi binomiale",
+    "approximation normale",
+    "probabilité",
+    "espérance",
+    "variance",
+    "optimisation",
+    "fraude"
+  ],
+  "concepts_fondamentaux": [
+    "loi binomiale",
+    "théorème central limite",
+    "loi normale",
+    "espérance mathématique",
+    "variance"
+  ],
+  "prerequis": [
+    "connaissance de la loi binomiale",
+    "connaissance de la loi normale",
+    "maîtrise des concepts d'espérance et de variance",
+    "manipulation des inégalités"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30 minutes"
+}

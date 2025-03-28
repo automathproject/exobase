@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice évalue la capacité à identifier et appliquer des lois de probabilité discrètes dans un contexte de contrôle qualité de circuits imprimés. Il s'agit de : \n\n*   Identifier et appliquer la loi binomiale $\\mathcal{B}(n, p)$ pour calculer des probabilités d'avoir un nombre spécifique de circuits défectueux dans un échantillon.\n*   Identifier et appliquer la loi géométrique $\\mathcal{G}(p)$ pour calculer la probabilité que le premier circuit défectueux apparaisse à un rang donné.\n*   Identifier et appliquer la loi hypergéométrique $\\mathcal{H}(n, d/N, N)$ pour calculer la probabilité d'avoir un nombre spécifique de circuits défectueux dans un échantillon prélevé sans remise, et d'approximer cette loi par une loi binomiale lorsque la taille de la population est grande par rapport à la taille de l'échantillon.",
+  "competences": [
+    "calculer une probabilité à partir d'une loi binomiale",
+    "identifier la loi de probabilité appropriée (binomiale, géométrique, hypergéométrique)",
+    "appliquer la formule de probabilité d'une loi géométrique",
+    "appliquer la formule de probabilité d'une loi hypergéométrique",
+    "approximer une loi hypergéométrique par une loi binomiale"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité",
+    "loi binomiale",
+    "loi géométrique",
+    "loi hypergéométrique",
+    "circuit imprimé",
+    "fiabilité",
+    "tirage",
+    "défectueux"
+  ],
+  "concepts_fondamentaux": [
+    "variables aléatoires discrètes",
+    "loi de Bernoulli",
+    "schéma de Bernoulli",
+    "probabilité conditionnelle"
+  ],
+  "prerequis": [
+    "maîtrise du calcul combinatoire (combinaisons)",
+    "connaissance des lois de probabilité discrètes usuelles (binomiale, géométrique, hypergéométrique)",
+    "notion de variable aléatoire"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

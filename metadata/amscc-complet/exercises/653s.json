@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice évalue la capacité à analyser un réseau de neurones multicouches simple, à comprendre le rôle des poids et des biais dans les neurones, et à déterminer la fonction que ce réseau implémente. Plus précisément, il s'agit de : \n\n*   Comprendre le fonctionnement des neurones individuels comme des séparateurs d'hyperplans dans le plan $(x, y)$.\n*   Déterminer comment les poids et les biais affectent l'équation de chaque hyperplan, qui sont $-x + 2y = 0$, $x + y -2 = 0$, et $-y + 3 = 0$.\n*   Interpréter la couche de sortie comme une porte AND qui effectue une intersection logique des régions définies par les hyperplans.\n*   Visualiser géométriquement la région du plan $(x, y)$ où la sortie du réseau est 1, qui correspond à l'intersection des trois demi-plans délimités par les hyperplans. Cette région est un triangle délimité par les droites $-x + 2y = 0$, $x + y -2 = 0$, et $-y + 3 = 0$.",
+  "competences": [
+    "interpréter un réseau de neurones multicouches",
+    "calculer la sortie d'un neurone en fonction des entrées et des poids",
+    "déterminer les équations des séparations linéaires réalisées par les neurones de la première couche",
+    "identifier l'opération logique effectuée par la deuxième couche",
+    "représenter graphiquement la région de l'espace d'entrée correspondant à une sortie donnée"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "réseau de neurones",
+    "multicouches",
+    "séparation linéaire",
+    "neurone",
+    "fonction d'activation",
+    "perceptron",
+    "algèbre linéaire",
+    "géométrie"
+  ],
+  "concepts_fondamentaux": [
+    "perceptron multicouches",
+    "combinaison linéaire",
+    "fonction d'activation",
+    "algèbre booléenne",
+    "représentation géométrique des séparations linéaires"
+  ],
+  "prerequis": [
+    "connaissance de base des réseaux de neurones",
+    "notions d'algèbre linéaire (combinaison linéaire)",
+    "bases en géométrie analytique (équation de droite)",
+    "algèbre booléenne (opérations AND, OR)",
+    "interprétation de graphes"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

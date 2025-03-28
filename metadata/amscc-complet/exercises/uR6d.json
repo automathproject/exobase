@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'étude de la convergence d'une série numérique. Il nécessite :\n\n1.  La détermination d'un équivalent de la fonction $e^{x^2} - \\cos(x)$ au voisinage de 0, en utilisant des développements limités pour obtenir $e^{x^2} - \\cos(x) \\sim \\frac{3x^2}{2}$.\n2.  L'application de cet équivalent pour étudier la convergence de la série $\\sum_{n \\geq 1} u_n$ où $u_n = e^{\\frac{1}{n^2}} - \\cos(\\frac{1}{n})$. La convergence est établie par comparaison avec une série de Riemann convergente, en utilisant l'équivalence $u_n \\underset{+\\infty}{\\sim} \\frac{3}{2n^2}$.",
+  "competences": [
+    "appliquer des développements limités",
+    "déterminer un équivalent de fonction",
+    "utiliser le critère de comparaison pour les séries",
+    "identifier la nature d'une série de Riemann",
+    "calculer la différence de deux développements limités"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série numérique",
+    "convergence",
+    "développement limité",
+    "équivalent",
+    "série de Riemann",
+    "cosinus",
+    "exponentielle",
+    "critère de comparaison"
+  ],
+  "concepts_fondamentaux": [
+    "développement limité",
+    "équivalent de fonctions",
+    "série de Riemann",
+    "critère de comparaison pour les séries à termes positifs"
+  ],
+  "prerequis": [
+    "définition de la convergence d'une série numérique",
+    "développements limités usuels",
+    "critères de comparaison pour les séries à termes positifs",
+    "notion d'équivalent de fonctions"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "20-30 minutes"
+}

@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'estimation des paramètres $\\mu$ et $\\sigma$ d'une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$ à partir d'un échantillon $X_1, ..., X_n$ en utilisant la méthode du maximum de vraisemblance. Il requiert de : \n1.  Déterminer l'expression de la fonction de vraisemblance $L(x_1,...,x_n,\\mu,\\sigma)$ et de son logarithme.\n2.  Calculer la dérivée partielle du logarithme de la vraisemblance par rapport à $\\mu$.\n3.  En déduire l'estimateur du maximum de vraisemblance de $\\mu$ en annulant la dérivée partielle calculée précédemment.\n4.  Calculer la dérivée partielle du logarithme de la vraisemblance par rapport à $\\sigma$ et en déduire l'estimateur du maximum de vraisemblance de $\\sigma$ en annulant cette dérivée.",
+  "competences": [
+    "Calculer le maximum de vraisemblance d'une loi normale",
+    "Dériver une fonction de plusieurs variables",
+    "Exprimer la fonction de vraisemblance",
+    "Appliquer la méthode du maximum de vraisemblance",
+    "Identifier la densité d'une loi normale"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "Loi Normale",
+    "Maximum de Vraisemblance",
+    "Estimateur",
+    "Densité",
+    "Espérance",
+    "Variance",
+    "Estimation Paramétrique",
+    "Statistique"
+  ],
+  "concepts_fondamentaux": [
+    "Loi Normale",
+    "Fonction de Vraisemblance",
+    "Estimateur du Maximum de Vraisemblance",
+    "Dérivées partielles"
+  ],
+  "prerequis": [
+    "Connaissance de la loi normale et de sa densité",
+    "Calcul différentiel (dérivées partielles)",
+    "Notions de statistique descriptive (moyenne, variance)",
+    "Notion d'estimateur statistique"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

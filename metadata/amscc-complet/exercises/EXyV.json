@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice porte sur le calcul des coefficients de Fourier de deux fonctions ($f$ et $g$) impaires et $2\\pi$-périodiques définies sur $[0, \\pi]$. Il s'agit de :\\n\\n1.  Déterminer l'expression analytique de $f(x)$ et $g(x)$ sur l'intervalle $[0, \\pi]$.\\n2.  Calculer les coefficients de Fourier ($b_n$) de la fonction $f$ en utilisant l'intégrale $b_n(f) = \\\\frac{2}{\\\\pi} \\\\int_0^{\\\\pi} f(t)\\\\sin(nt)dt$ et en déduire sa série de Fourier : $S_n(f) = \\\\sum_{n\\\\geq 1} b_n(f) \\\\sin(nx)$.",
+  "competences": [
+    "calculer des coefficients de Fourier",
+    "appliquer les propriétés de parité des fonctions",
+    "interpréter graphiquement une fonction périodique",
+    "déterminer l'expression d'une fonction par morceaux",
+    "calculer une intégrale définie"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série de Fourier",
+    "coefficients de Fourier",
+    "fonction périodique",
+    "fonction impaire",
+    "intégration",
+    "représentation graphique"
+  ],
+  "concepts_fondamentaux": [
+    "séries de Fourier",
+    "coefficients de Fourier (an et bn)",
+    "parité d'une fonction",
+    "périodicité",
+    "intégrale d'une fonction"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "trigonométrie",
+    "fonctions périodiques",
+    "parité d'une fonction"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

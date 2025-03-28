@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice porte sur la transformation affine d'une variable aléatoire absolument continue. Il s'agit de déterminer la densité de probabilité de la variable $Y = aX + b$ où $X$ est une variable aléatoire de densité $f_X$ et $a > 0$. La résolution implique l'application du théorème de transfert et un changement de variable pour exprimer $\\mathbb{E}[h(Y)]$ en fonction de $f_X$ et identifier la densité $f_Y$ comme $f_Y(y) = \\frac{1}{a}f_X(\\frac{y-b}{a})$. Les compétences mises en oeuvre sont : application du théorème de transfert, changement de variable dans une intégrale, et identification de densité.",
+  "competences": [
+    "démontrer qu'une variable aléatoire est absolument continue",
+    "appliquer le théorème de transfert pour calculer une espérance",
+    "effectuer un changement de variable dans une intégrale",
+    "interpréter la densité d'une variable aléatoire",
+    "calculer l'espérance d'une fonction d'une variable aléatoire"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "densité de probabilité",
+    "variable aléatoire continue",
+    "théorème de transfert",
+    "changement de variable",
+    "espérance",
+    "fonction de répartition",
+    "transformation affine"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire absolument continue",
+    "densité de probabilité",
+    "théorème de transfert",
+    "espérance mathématique"
+  ],
+  "prerequis": [
+    "définition de variable aléatoire à densité",
+    "théorème de transfert",
+    "techniques d'intégration (changement de variable)",
+    "notion d'espérance mathématique"
+  ],
+  "type_exercice": "Démonstration",
+  "temps_estime": "30 minutes"
+}

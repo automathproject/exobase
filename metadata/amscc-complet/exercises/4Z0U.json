@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'étude probabiliste d'un jeu de roulette simplifié. Il s'agit d'abord de déterminer la loi d'une variable aléatoire $X$ représentant le gain algébrique d'un joueur misant sur un seul numéro, puis de calculer son espérance $E(X)$ et son écart-type $\\\\sigma(X)$.\\n\\nEnsuite, on approxime la loi de la moyenne empirique $\\\\bar{X}_{5000}$ de 5000 variables aléatoires indépendantes et identiquement distribuées, représentant les gains algébriques de 5000 joueurs. On utilise cette approximation pour calculer la probabilité que le salon de jeux perde de l'argent sur ces 5000 mises. Enfin, on détermine le nombre de mises nécessaires pour que la probabilité de perte pour le salon de jeux soit inférieure à 5%.",
+  "competences": [
+    "appliquer le théorème central limite",
+    "calculer l'espérance d'une variable aléatoire discrète",
+    "calculer l'écart-type d'une variable aléatoire discrète",
+    "déterminer la loi de probabilité d'une variable aléatoire discrète",
+    "interpréter des résultats probabilistes dans un contexte réel"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "variable aléatoire discrète",
+    "loi de probabilité",
+    "espérance",
+    "écart-type",
+    "théorème central limite",
+    "approximation normale",
+    "gain algébrique",
+    "probabilité"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire",
+    "loi de probabilité discrète",
+    "espérance mathématique",
+    "écart-type",
+    "théorème central limite"
+  ],
+  "prerequis": [
+    "probabilités de base",
+    "variables aléatoires discrètes",
+    "espérance et variance",
+    "loi normale"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

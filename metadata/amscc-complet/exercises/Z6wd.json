@@ -1,0 +1,35 @@
+{
+  "resume": "Cet exercice porte sur l'application de la dérivabilité pour l'optimisation, en particulier la méthode des moindres carrés. \n\nQuestion 1: Il s'agit de minimiser une fonction $f(x, y) = \\sum_{i=1}^{N} (x-x_i)^2 + (y-y_i)^2$. La résolution implique le calcul des dérivées partielles, la recherche des points stationnaires et la vérification qu'il s'agit d'un minimum global. Le minimum est atteint au point moyen du nuage de points.\n\nQuestion 2: Il s'agit de minimiser la somme des écarts quadratiques entre des points et une droite d'équation $y=mx+q$, c'est-à-dire minimiser la fonction $\\mathscr{E}(m, q)=\\sum_{i=0}^{n} (y_i - mx_i - q)^2$. La résolution implique le calcul des dérivées partielles par rapport à $m$ et $q$, la résolution d'un système d'équations linéaires pour trouver les points stationnaires, puis l'utilisation de la matrice Hessienne pour vérifier la nature du point stationnaire (minimum).",
+  "competences": [
+    "minimiser une fonction de plusieurs variables",
+    "calculer des dérivées partielles",
+    "résoudre un système d'équations linéaires",
+    "interpréter géométriquement une somme de carrés",
+    "appliquer la méthode des moindres carrés"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "moindres carrés",
+    "minimisation",
+    "dérivées partielles",
+    "optimisation",
+    "régression linéaire",
+    "points stationnaires",
+    "matrice Hessienne",
+    "nuage de points"
+  ],
+  "concepts_fondamentaux": [
+    "dérivées partielles",
+    "points critiques",
+    "optimisation de fonctions à plusieurs variables",
+    "matrice Hessienne",
+    "méthode des moindres carrés"
+  ],
+  "prerequis": [
+    "calcul différentiel (dérivées partielles)",
+    "algèbre linéaire (systèmes d'équations)",
+    "notions de base d'optimisation"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

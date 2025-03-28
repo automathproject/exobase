@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice porte sur la recherche numérique de zéros d'une fonction non linéaire $f(x) = x(1+e^x) - e^x$ sur l'intervalle $[0,1]$.\n\n1.  **Existence et unicité du zéro :** Démontrer l'existence et l'unicité du zéro $\\ell$ de $f$ sur $[0,1]$ en utilisant le théorème des valeurs intermédiaires et la stricte monotonie de $f$.\n\n2.  **Méthode de Newton :**\n    *   Montrer que $\\ell$ est un point fixe de la fonction $\\varphi_1(x) = x - \\frac{f(x)}{f'(x)}$.\n    *   Démontrer la convergence locale de la suite $(x_n)$ définie par $x_{n+1} = \\varphi_1(x_n)$ vers $\\ell$ avec un ordre de convergence d'au moins 2 en montrant que $\\varphi_1'(\\ell) = 0$.\n\n3.  **Méthode du point fixe :**\n    *   Montrer que $\\ell$ est l'unique point fixe de la fonction $\\varphi_2(x) = \\frac{e^x}{1+e^x}$ dans $[0,1]$.\n    *   Prouver que l'intervalle $[0,1]$ est stable par $\\varphi_2$.\n    *   Déterminer une constante de Lipschitz $L$ telle que $0 < L < 1$ pour $\\varphi_2$ sur $[0,1]$.\n    *   En déduire la convergence de la suite $(x_n)$ définie par $x_{n+1} = \\varphi_2(x_n)$ vers $\\ell$ en utilisant le théorème du point fixe de Banach.\n    *   Écrire un algorithme pour approximer $\\ell$ à $2^{-20}$ près et estimer le nombre d'itérations nécessaires.",
+  "competences": [
+    "appliquer le théorème des valeurs intermédiaires",
+    "démontrer la convergence d'une suite par point fixe",
+    "calculer une dérivée",
+    "interpréter la notion de point fixe",
+    "appliquer la définition d'une fonction Lipschitzienne"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "méthode de Newton",
+    "point fixe",
+    "convergence",
+    "zéros de fonction",
+    "Lipschitz",
+    "algorithme",
+    "méthodes numériques",
+    "suites"
+  ],
+  "concepts_fondamentaux": [
+    "théorème des valeurs intermédiaires",
+    "théorème du point fixe",
+    "dérivabilité",
+    "convergence de suites",
+    "fonction Lipschitzienne"
+  ],
+  "prerequis": [
+    "dérivabilité des fonctions",
+    "continuité des fonctions",
+    "théorème des valeurs intermédiaires",
+    "suites numériques",
+    "théorème du point fixe"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "90 minutes"
+}

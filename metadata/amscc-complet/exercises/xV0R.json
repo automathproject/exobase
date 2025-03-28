@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice consiste à résoudre une équation différentielle linéaire du premier ordre en recherchant une solution développable en série entière. Il requiert de :\n\n1.  Déterminer les coefficients $a_n$ de la série entière solution en utilisant l'équation différentielle et les conditions initiales. On obtient une relation de récurrence: $a_n = \\frac{n}{n-1} a_{n-1}$.\n2.  Calculer le rayon de convergence $R$ de la série entière obtenue, ici $R=1$.\n3.  Calculer la somme de la série entière sur l'intervalle de convergence $]-R, R[$ en utilisant la dérivée de la série géométrique.",
+  "competences": [
+    "résoudre une équation différentielle linéaire du premier ordre",
+    "développer une fonction en série entière",
+    "calculer le rayon de convergence d'une série entière",
+    "dériver une série entière terme à terme",
+    "identifier les coefficients d'une série entière"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série entière",
+    "équation différentielle",
+    "rayon de convergence",
+    "développement en série",
+    "conditions initiales",
+    "solution série",
+    "somme de série",
+    "dérivation de série"
+  ],
+  "concepts_fondamentaux": [
+    "séries entières",
+    "équations différentielles linéaires",
+    "rayon de convergence",
+    "développement de Taylor",
+    "théorèmes de dérivation des séries entières"
+  ],
+  "prerequis": [
+    "connaissance des séries numériques",
+    "connaissance des dérivées et intégrales",
+    "maîtrise des équations différentielles du premier ordre",
+    "développement limité"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

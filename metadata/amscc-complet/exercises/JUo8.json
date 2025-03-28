@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice consiste à résoudre deux systèmes d'équations linéaires ($S_1$ et $S_2$) dépendant de paramètres réels ($\\lambda$ et $m$ respectivement). Pour $S_1$, il s'agit de déterminer les solutions en fonction de $\\lambda$ en utilisant les formules de Cramer lorsque le déterminant de la matrice du système est non nul ( $\\lambda \\neq -1$ et $\\lambda \\neq 1$). Lorsque $\\lambda = 1$, le système est simplifié et les solutions sont exprimées en fonction d'un paramètre réel. Lorsque $\\lambda = -1$, le système est incompatible. Pour $S_2$, la résolution se fait de manière similaire avec le paramètre $m$. On utilise les formules de Cramer pour $m \\neq 0$ et on simplifie le système pour $m=0$ pour exprimer les solutions en fonction d'un paramètre réel. L'exercice met en œuvre la capacité à calculer des déterminants, à appliquer les formules de Cramer et à analyser la compatibilité d'un système linéaire en fonction des valeurs d'un paramètre. On utilise aussi des opérations élémentaires sur les lignes pour simplifier les systèmes.",
+  "competences": [
+    "résoudre un système d'équations linéaires paramétré",
+    "calculer le déterminant d'une matrice 3x3",
+    "appliquer les formules de Cramer",
+    "interpréter les solutions d'un système linéaire en fonction des paramètres",
+    "effectuer des opérations élémentaires sur les lignes d'une matrice"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "système linéaire",
+    "paramètre",
+    "déterminant",
+    "formules de Cramer",
+    "rang",
+    "résolution",
+    "équations linéaires",
+    "algèbre linéaire"
+  ],
+  "concepts_fondamentaux": [
+    "systèmes d'équations linéaires",
+    "déterminant d'une matrice",
+    "formules de Cramer",
+    "rang d'une matrice",
+    "compatibilité d'un système linéaire"
+  ],
+  "prerequis": [
+    "algèbre linéaire de base",
+    "calcul matriciel",
+    "déterminants",
+    "résolution de systèmes d'équations linéaires non paramétrés"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

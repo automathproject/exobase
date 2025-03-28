@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice porte sur la résolution d'un système linéaire dépendant d'un paramètre $m$. Il évalue la capacité à: \n1. Écrire un système linéaire sous forme matricielle $A\\mathbf{X} = \\mathbf{B}$.\n2. Calculer le déterminant d'une matrice 3x3 et montrer que $\\det(A) = m^2(m-4)$.\n3. Déterminer les valeurs du paramètre $m$ pour lesquelles le système n'admet pas de solution unique (c'est-à-dire quand $\\det(A) = 0$).\n4. Déterminer si le système admet une solution pour une valeur spécifique de $m$ et, si oui, la calculer.\n5. Résoudre le système pour les valeurs de $m$ pour lesquelles il existe une solution unique (c'est-à-dire, $m \\neq 0$ et $m \\neq 4$).",
+  "competences": [
+    "résoudre un système d'équations linéaires paramétrique",
+    "calculer un déterminant de matrice 3x3",
+    "appliquer le théorème de Rouché-Fontené (existence et unicité des solutions)",
+    "écrire un système linéaire sous forme matricielle",
+    "interpréter le déterminant d'une matrice en termes d'inversibilité et de solutions d'un système"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "système linéaire",
+    "paramètre",
+    "déterminant",
+    "matrice",
+    "solution",
+    "équation",
+    "algèbre linéaire",
+    "rang"
+  ],
+  "concepts_fondamentaux": [
+    "système d'équations linéaires",
+    "déterminant",
+    "matrice",
+    "inversibilité d'une matrice",
+    "théorème de Rouché-Fontené"
+  ],
+  "prerequis": [
+    "calcul matriciel de base",
+    "calcul de déterminants 2x2 et 3x3",
+    "résolution de systèmes linéaires simples",
+    "notion d'inversibilité d'une matrice"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

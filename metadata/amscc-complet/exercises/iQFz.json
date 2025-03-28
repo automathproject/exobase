@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'étude de séries entières. Il évalue la capacité à :\n\n1.  Déterminer le rayon de convergence $R$ de séries entières du type $\\sum a_n x^n$ en utilisant :\n    *   Le critère de d'Alembert : $\\lim_{n \\to \\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = l$, alors $R = \\frac{1}{l}$.\n    *   Le critère de Cauchy : $\\lim_{n \\to \\infty} |a_n|^{\\frac{1}{n}} = l$, alors $R = \\frac{1}{l}$.\n2.  Déterminer la nature (convergente ou divergente) d'une série numérique en utilisant le rayon de convergence de la série entière associée. Si $x_0$ est dans l'intervalle de convergence, la série converge. Sinon, elle diverge.",
+  "competences": [
+    "calculer le rayon de convergence d'une série entière",
+    "appliquer le critère de d'Alembert pour les séries numériques",
+    "appliquer le critère de Cauchy pour les séries numériques",
+    "interpréter le rayon de convergence pour déterminer la convergence d'une série numérique",
+    "calculer des limites de suites"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "séries entières",
+    "rayon de convergence",
+    "critère de d'Alembert",
+    "critère de Cauchy",
+    "convergence",
+    "divergence",
+    "séries numériques"
+  ],
+  "concepts_fondamentaux": [
+    "séries entières",
+    "rayon de convergence",
+    "critères de convergence (d'Alembert, Cauchy)",
+    "convergence absolue",
+    "divergence grossière"
+  ],
+  "prerequis": [
+    "connaissance des séries numériques",
+    "maîtrise des critères de convergence (d'Alembert, Cauchy)",
+    "notion de rayon de convergence",
+    "calcul de limites"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

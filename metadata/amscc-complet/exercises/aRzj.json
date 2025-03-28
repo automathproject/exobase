@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'estimation d'un paramètre $\\theta$ d'une loi de probabilité dont la densité est donnée. Il s'agit de déterminer un estimateur de $\\theta$ par la méthode du maximum de vraisemblance. Cette méthode nécessite de calculer la log-vraisemblance, de la dériver par rapport à $\\theta$, et de trouver le point critique qui maximise cette fonction. La compétence mise en oeuvre est la détermination d'estimateurs par maximum de vraisemblance. La seconde question demande de calculer le biais de l'estimateur trouvé précédemment. Cela implique de calculer l'espérance de la variable aléatoire $X_1$, puis l'espérance de l'estimateur $\\hat{\\theta}$, et enfin d'évaluer $B(\\hat{\\theta}) = E(\\hat{\\theta}) - \\theta$. Les compétences mises en oeuvre sont le calcul d'espérance et la détermination du biais d'un estimateur.",
+  "competences": [
+    "calculer le maximum de vraisemblance d'une densité",
+    "calculer une espérance mathématique à partir d'une densité",
+    "dériver une fonction de log-vraisemblance",
+    "interpréter le biais d'un estimateur",
+    "appliquer la définition d'un estimateur"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistique",
+    "estimateur",
+    "maximum de vraisemblance",
+    "biais",
+    "log-vraisemblance",
+    "densité de probabilité",
+    "espérance",
+    "échantillon"
+  ],
+  "concepts_fondamentaux": [
+    "maximum de vraisemblance",
+    "estimateur",
+    "biais d'un estimateur",
+    "espérance mathématique",
+    "fonction de densité"
+  ],
+  "prerequis": [
+    "calcul différentiel (dérivées)",
+    "calcul intégral (intégrales)",
+    "probabilités (densité de probabilité, espérance)",
+    "statistique descriptive (échantillon)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

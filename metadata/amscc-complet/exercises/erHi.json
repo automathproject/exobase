@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice demande de démontrer qu'un polynôme $P(X)$ de degré $n$ défini par $P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3 !}+\\ldots+\\frac{X^n}{n !}$ n'a pas de racine multiple. La résolution utilise un raisonnement par l'absurde, en supposant l'existence d'une racine multiple $a$ telle que $P(a) = P'(a) = 0$. En calculant $P'(X)$ et en utilisant l'hypothèse que $P(a) = P'(a) = 0$, on montre que $a=0$. Or, $P(0) = 1$, ce qui contredit l'hypothèse que $a$ est une racine de $P(X)$.  La compétence principale est la manipulation de polynômes, la dérivation, et le raisonnement par l'absurde pour prouver l'absence de racines multiples.",
+  "competences": [
+    "démontrer l'absence de racines multiples",
+    "calculer la dérivée d'un polynôme",
+    "appliquer un raisonnement par l'absurde",
+    "résoudre une équation polynomiale simple",
+    "interpréter la notion de racine multiple"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "polynôme",
+    "racine multiple",
+    "dérivée",
+    "factorisation",
+    "raisonnement par l'absurde",
+    "équation polynomiale",
+    "analyse",
+    "algèbre"
+  ],
+  "concepts_fondamentaux": [
+    "polynômes",
+    "dérivée de polynôme",
+    "racines d'un polynôme",
+    "racine multiple",
+    "raisonnement par l'absurde"
+  ],
+  "prerequis": [
+    "dérivation de polynômes",
+    "notion de racine d'un polynôme",
+    "factorielle",
+    "raisonnement logique"
+  ],
+  "type_exercice": "Démonstration",
+  "temps_estime": "20 minutes"
+}

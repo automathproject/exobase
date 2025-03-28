@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice compare les probabilités de gagner à deux jeux de pile ou face. Le premier jeu consiste en $2n-1$ lancers et le joueur gagne s'il obtient au moins $n$ piles. Le second jeu consiste en $2n$ lancers avec une règle de gain plus complexe. Les compétences mises en œuvre sont:\\n\\n*   Modélisation d'une variable aléatoire $Y$ en fonction d'une autre variable aléatoire $X$ et d'une variable de Bernoulli $U$ ($Y = X + U$).\\n*   Calcul de probabilités conditionnelles et utilisation du théorème des probabilités totales.\\n*   Démonstration d'une égalité reliant les probabilités de gain des deux jeux ($p_1 - p_2$).\\n*   Calcul de $p_1-p_2$ en utilisant les lois binomiales des variables aléatoires $X \\sim \\\\mathcal{B}(2n-1,p)$ et $Y \\sim \\\\mathcal{B}(2n,p)$, et conclusion sur l'équivalence des deux jeux.",
+  "competences": [
+    "calculer des probabilités avec la loi binomiale",
+    "appliquer le théorème des probabilités totales",
+    "interpréter l'indépendance de variables aléatoires",
+    "manipuler des combinaisons et factorielles",
+    "démontrer des égalités entre probabilités"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilités",
+    "variable aléatoire discrète",
+    "loi binomiale",
+    "indépendance",
+    "pile ou face",
+    "jeu",
+    "probabilités totales",
+    "combinaisons"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire",
+    "loi de Bernoulli",
+    "loi binomiale",
+    "indépendance de variables aléatoires",
+    "théorème des probabilités totales"
+  ],
+  "prerequis": [
+    "probabilités de base",
+    "variable aléatoire discrète",
+    "loi de Bernoulli",
+    "loi binomiale",
+    "indépendance de variables aléatoires"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

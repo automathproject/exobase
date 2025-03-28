@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur un test d'hypothèses unilatéral gauche concernant la moyenne $\\mu$ d'une population normale. Il évalue la capacité à :\n\n1.  Calculer la statistique de test appropriée (ici, loi de Student) et prendre une décision sur le rejet ou non de l'hypothèse nulle $H_0$ en fonction d'une valeur observée et d'un seuil de signification $\\alpha$. La statistique de test utilisée est $Z=\\frac{\\overline{X} - 25{,}5}{\\sqrt{ \\frac{S^2}{15} }}$\n2.  Déterminer la moyenne critique $\\mu_c$ à partir de laquelle $H_0$ est rejetée. On résout l'équation $\\frac{\\mu_c - 23{,}5}{\\sqrt{ \\frac{S^2}{15} }} = -1.76$\n3.  Identifier la loi de probabilité de la moyenne empirique $\\overline{X}$ sous l'hypothèse alternative $H_1$.\n4.  Calculer l'erreur de deuxième espèce ($\\beta$) et la puissance ($\\1-\\beta$) du test, nécessitant le calcul d'une probabilité impliquant la loi de Student.",
+  "competences": [
+    "réaliser un test d'hypothèse unilatéral",
+    "calculer une statistique de test",
+    "interpréter un résultat de test statistique",
+    "calculer la puissance d'un test statistique",
+    "identifier les hypothèses nulle et alternative"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "test d'hypothèse",
+    "intervalle de confiance",
+    "loi normale",
+    "loi de Student",
+    "risque alpha",
+    "risque beta",
+    "puissance de test",
+    "moyenne critique"
+  ],
+  "concepts_fondamentaux": [
+    "test d'hypothèse",
+    "loi de Student",
+    "risque de première espèce",
+    "risque de deuxième espèce",
+    "puissance d'un test"
+  ],
+  "prerequis": [
+    "connaissance des tests d'hypothèses",
+    "connaissance des lois de probabilités usuelles (normale, Student)",
+    "calcul de probabilités",
+    "maîtrise des concepts de moyenne et écart-type"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

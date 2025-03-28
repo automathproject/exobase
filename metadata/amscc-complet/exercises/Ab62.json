@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur le calcul des coefficients de Fourier d'une fonction $2\\pi$-périodique définie par morceaux. Il s'agit de:\\n\\n1.  Représenter graphiquement la fonction et démontrer qu'elle est impaire. Cela implique de vérifier que $f(-x) = -f(x)$.\\n2.  Calculer les coefficients de Fourier trigonométriques $a_n$ et $b_n$ de la fonction $f$. La parité de la fonction permet de simplifier le calcul : $a_n = 0$ pour tout $n$. Le calcul de $b_n$ nécessite l'évaluation d'intégrales $\\int_{-\\pi}^{0} \\sin(nx) dx$ et $\\int_{0}^{\\pi} \\sin(nx) dx$. Déterminer la série de Fourier de $f$ et justifier si cette série converge vers $f$ en tout point.",
+  "competences": [
+    "calculer une intégrale définie",
+    "appliquer la définition des coefficients de Fourier",
+    "interpréter la parité d'une fonction pour simplifier les calculs",
+    "représenter graphiquement une fonction définie par morceaux",
+    "déterminer la périodicité d'une fonction"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série de Fourier",
+    "coefficients de Fourier",
+    "fonction périodique",
+    "fonction impaire",
+    "intégrale",
+    "représentation graphique",
+    "parité",
+    "développement en série"
+  ],
+  "concepts_fondamentaux": [
+    "série de Fourier",
+    "coefficients de Fourier (an, bn)",
+    "périodicité d'une fonction",
+    "parité d'une fonction (paire/impaire)",
+    "intégrale définie"
+  ],
+  "prerequis": [
+    "calcul intégral (intégrale définie)",
+    "trigonométrie (fonction sinus)",
+    "notion de fonction périodique",
+    "notion de fonction paire et impaire"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

@@ -1,0 +1,32 @@
+{
+  "resume": "L'exercice porte sur la détermination de l'inversibilité de matrices et, le cas échéant, le calcul de leur inverse. Les compétences mises en œuvre sont : le calcul de déterminants de matrices (diagonales, 2x2, et 4x4), l'identification de matrices non inversibles (déterminant nul, matrices non carrées, lignes liées), et l'application de la formule de l'inverse d'une matrice 2x2 : si $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, alors $A^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.",
+  "competences": [
+    "calculer le déterminant d'une matrice",
+    "appliquer les propriétés du déterminant pour simplifier le calcul",
+    "déterminer si une matrice est inversible à partir de son déterminant",
+    "calculer l'inverse d'une matrice",
+    "identifier les matrices carrées"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "matrice",
+    "inversible",
+    "déterminant",
+    "inverse",
+    "matrice diagonale",
+    "paramètre"
+  ],
+  "concepts_fondamentaux": [
+    "déterminant d'une matrice",
+    "matrice inversible",
+    "inverse d'une matrice",
+    "matrice carrée"
+  ],
+  "prerequis": [
+    "calcul matriciel de base",
+    "définition d'une matrice carrée",
+    "connaissance des nombres complexes"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

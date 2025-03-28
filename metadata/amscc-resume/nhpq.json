@@ -1,0 +1,5 @@
+{
+  "nhpq": {
+    "resume": "Cet exercice porte sur l'estimation d'une proportion à partir d'un échantillon. Il évalue la capacité à:\n\n*   Identifier et appliquer l'estimateur de fréquence empirique $F = \\frac{1}{n}\\sum_{i=1}^{n} X_i$ où $X_i \\sim \\mathcal{B}(p)$, et à déterminer son absence de biais.\n*   Calculer un intervalle de confiance pour une proportion donnée, en utilisant la formule $I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$ et interpréter les résultats pour différents niveaux de confiance.\n*   Déterminer la taille d'échantillon nécessaire pour atteindre une précision souhaitée de l'estimation, en utilisant une approximation simplifiée de l'intervalle de confiance et en manipulant l'inégalité $u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} \\leq 0.01$ pour résoudre en $n$."
+  }
+}

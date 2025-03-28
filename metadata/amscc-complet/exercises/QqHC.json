@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur les variables aléatoires discrètes. Il s'agit de déterminer des lois de probabilité et d'étudier l'indépendance d'événements et de variables aléatoires. \\n\\n1.  Détermination de la loi de la variable aléatoire $X$ (rang d'apparition de la première boule blanche) : calcul de $\\mathbb{P}(X=k)$ pour $k \\in \\{1, 2, 3\\}$.\\n2.  Démonstration de l'indépendance des événements $\\{X=1\\}$ et $\\{Y=1\\}$ (où $Y$ est le rang d'apparition du premier numéro $1$) si et seulement si $n=2$, en comparant $\\mathbb{P}(X=1, Y=1)$ et $\\mathbb{P}(X=1)\\mathbb{P}(Y=1)$.\\n3.  Démonstration que $X$ et $Y$ ne sont pas indépendantes, en montrant que $\\mathbb{P}(X=1, Y=1) \\\\neq \\\\mathbb{P}(X=1)\\\\mathbb{P}(Y=1)$ pour $n \\\\neq 2$ et en utilisant un contre-exemple pour $n=2$.\\n4.  Dans le cas où $n=2$ :\\n    a.  Démonstration que $X$ et $Y$ ont la même loi en calculant la loi de $Y$ et en la comparant à celle de $X$.\\n    b.  Détermination de la loi du couple $(X, Y)$ sous forme d'un tableau à double entrée.",
+  "competences": [
+    "calculer une probabilité conditionnelle",
+    "déterminer la loi d'une variable aléatoire discrète",
+    "vérifier l'indépendance de deux événements",
+    "calculer la loi conjointe de deux variables aléatoires",
+    "interpréter le concept d'indépendance de variables aléatoires"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité discrète",
+    "variable aléatoire",
+    "loi de probabilité",
+    "indépendance",
+    "loi conjointe",
+    "urne",
+    "tirage sans remise"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire discrète",
+    "loi de probabilité",
+    "indépendance d'événements",
+    "loi conjointe",
+    "probabilité conditionnelle"
+  ],
+  "prerequis": [
+    "calcul des probabilités",
+    "combinatoire de base",
+    "notion de variable aléatoire",
+    "notion d'événement"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

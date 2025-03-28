@@ -1,0 +1,33 @@
+{
+  "resume": "L'exercice porte sur l'application de la notion d'indépendance mutuelle d'événements pour calculer la probabilité de l'union de $n$ événements. Il nécessite de démontrer que si des événements $A_1, ..., A_n$ sont mutuellement indépendants, alors leurs complémentaires $\\overline{A_1}, ..., \\overline{A_n}$ le sont aussi. Le calcul de la probabilité de l'union est alors ramené à $P(A_1 \\cup ... \\cup A_n) = 1 - \\prod_{i=1}^n (1 - p_i)$.",
+  "competences": [
+    "appliquer la définition de l'indépendance mutuelle d'événements",
+    "calculer la probabilité d'un événement complémentaire",
+    "utiliser la relation entre union et intersection d'événements",
+    "calculer le produit de probabilités",
+    "simplifier une expression probabiliste"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité",
+    "événements indépendants",
+    "union",
+    "intersection",
+    "probabilité complémentaire",
+    "indépendance mutuelle"
+  ],
+  "concepts_fondamentaux": [
+    "indépendance d'événements",
+    "probabilité d'une union d'événements",
+    "événements complémentaires",
+    "axiomes des probabilités"
+  ],
+  "prerequis": [
+    "définition de la probabilité",
+    "définition d'événements indépendants",
+    "opérations sur les événements (union, intersection, complément)",
+    "formule de De Morgan (implicite)"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "15 minutes"
+}

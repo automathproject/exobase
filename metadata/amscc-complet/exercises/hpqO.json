@@ -1,0 +1,33 @@
+{
+  "resume": "Cet exercice évalue la capacité à : \n\n1. Calculer la norme euclidienne ($||.||_2$) d'un vecteur dans $\\R^2$, plus précisément $||X_k - \\ell||_2$ où $X_k$ est une suite de vecteurs et $\\ell$ un vecteur fixe.\n2. Déterminer la limite d'une suite de vecteurs dans $\\R^2$ en utilisant la convergence de la norme vers 0, c'est-à-dire montrer que $\\lim_{k \\to \\infty} ||X_k - \\ell||_2 = 0$ implique $\\lim_{k \\to \\infty} X_k = \\ell$.",
+  "competences": [
+    "calculer une norme euclidienne",
+    "déterminer la limite d'une suite à partir de sa norme",
+    "interpréter la convergence d'une suite en termes de distance",
+    "appliquer la définition de la norme euclidienne dans R^2",
+    "simplifier des expressions algébriques"
+  ],
+  "niveau_difficulte": "facile",
+  "mots_cles": [
+    "suite",
+    "convergence",
+    "limite",
+    "norme euclidienne",
+    "R^2",
+    "topologie"
+  ],
+  "concepts_fondamentaux": [
+    "suite dans R^n",
+    "norme euclidienne",
+    "convergence d'une suite",
+    "limite d'une suite",
+    "distance dans R^n"
+  ],
+  "prerequis": [
+    "connaissance de la norme euclidienne",
+    "notion de limite d'une suite réelle",
+    "définition de la convergence"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "15-20 minutes"
+}

@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice porte sur la réalisation d'un test d'indépendance du Chi-deux pour évaluer la liaison entre deux variables catégorielles : le tabagisme et le cancer de la gorge. Il s'agit de : \n1. Formuler les hypothèses nulle ($H_0$) d'indépendance et alternative.\n2. Calculer les effectifs théoriques sous $H_0$ en utilisant la formule $E_{ij} = (n_{i.} * n_{.j}) / n$ où $n_{i.}$ et $n_{.j}$ sont les sommes marginales et n est la taille totale de l'échantillon.\n3. Calculer la statistique de test du Chi-deux : $\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$ où $O_{ij}$ sont les effectifs observés et $E_{ij}$ sont les effectifs théoriques.\n4. Comparer la statistique de test à la valeur critique du Chi-deux avec (r-1)(c-1) degrés de liberté, où r est le nombre de lignes et c le nombre de colonnes de la table de contingence.\n5. Conclure en rejetant ou non l'hypothèse nulle en fonction du niveau de signification choisi (ici 5% et 0.1%).",
+  "competences": [
+    "réaliser un test d'indépendance du Chi-deux",
+    "calculer des probabilités conditionnelles à partir de données",
+    "interpréter les résultats d'un test statistique",
+    "formuler des hypothèses statistiques nulles et alternatives",
+    "calculer des effectifs théoriques sous l'hypothèse d'indépendance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "test d'indépendance",
+    "Chi-deux",
+    "statistique",
+    "hypothèse nulle",
+    "risque",
+    "tableau de contingence",
+    "probabilité",
+    "indépendance"
+  ],
+  "concepts_fondamentaux": [
+    "test d'hypothèses",
+    "loi du Chi-deux",
+    "indépendance statistique",
+    "niveau de signification"
+  ],
+  "prerequis": [
+    "notions de probabilités",
+    "tableaux de contingence",
+    "calcul de fréquences"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

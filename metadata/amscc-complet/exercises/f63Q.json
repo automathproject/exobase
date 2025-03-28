@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice porte sur les probabilités conditionnelles dans le contexte d'un jeu à plusieurs parties. Les compétences évaluées sont : \n\n*   Calcul de probabilités conditionnelles et utilisation du théorème des probabilités totales pour calculer $u_1$, $v_1$, $u_2$ et $v_2$, où $u_n = P(G_n)$ est la probabilité de gagner à la $n$-ième partie et $v_n = P(\\overline{G_n})$.\n*   Établissement d'une relation de récurrence: montrer que $u_{n+1} = 0.6 u_n + 0.3 v_n$ et déduction d'une relation matricielle entre les vecteurs $\\begin{pmatrix} u_{n+1} \\\\ v_{n+1} \\end{pmatrix}$ et $\\begin{pmatrix} u_n \\\\ v_n \\end{pmatrix}$.\n*   Identification et utilisation d'une suite géométrique : montrer que la suite de terme général $u_n - \\frac{3}{7}$ est géométrique de raison 0.3 et en déduire une expression de $u_n$ et $v_n$ en fonction de $n$.\n*   Calcul de limites de suites : Calculer $\\lim_{n \\to +\\infty} u_n$ et $\\lim_{n \\to +\\infty} v_n$ et interprétation du résultat.",
+  "competences": [
+    "appliquer le théorème des probabilités totales",
+    "calculer des probabilités conditionnelles",
+    "identifier et manipuler des suites géométriques",
+    "calculer des limites de suites",
+    "effectuer des opérations matricielles"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilités conditionnelles",
+    "probabilités totales",
+    "suite géométrique",
+    "limite de suite",
+    "matrice de transition",
+    "jeu",
+    "probabilité",
+    "algèbre linéaire"
+  ],
+  "concepts_fondamentaux": [
+    "probabilité conditionnelle",
+    "théorème des probabilités totales",
+    "suites géométriques",
+    "limites de suites",
+    "représentation matricielle"
+  ],
+  "prerequis": [
+    "calcul de probabilités simples",
+    "notion de probabilité conditionnelle",
+    "connaissance des suites géométriques",
+    "manipulation d'équations",
+    "calcul matriciel de base"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

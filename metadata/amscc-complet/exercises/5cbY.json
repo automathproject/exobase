@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'estimation de la teneur en polluant d'une rivière à partir de mesures. \n1.  On calcule une estimation non biaisée de la moyenne et de l'écart-type de la teneur en polluant à partir d'un échantillon de 17 mesures. On calcule ensuite un intervalle de confiance à 95% pour la teneur moyenne en polluant, en utilisant la loi de Student car la taille de l'échantillon est petite. On utilise cet intervalle pour déterminer si l'usine respecte la législation (teneur moyenne < 7mg/L). L'intervalle trouvé est $[4.58;5.82]$.\n2.  On détermine la taille de l'échantillon nécessaire pour estimer la teneur moyenne en polluant avec une précision de 0.1 mg/L au niveau de confiance 95%. On utilise la formule de la longueur de l'intervalle de confiance, en approximant le quantile de la loi de Student par celui de la loi normale centrée réduite. La taille d'échantillon trouvée est $n \\geq 2363$.",
+  "competences": [
+    "construire un intervalle de confiance pour une moyenne",
+    "estimer la moyenne et la variance d'une population",
+    "interpréter un intervalle de confiance dans un contexte donné",
+    "appliquer la loi de Student pour de petits échantillons",
+    "calculer la taille d'échantillon nécessaire pour une précision donnée"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistiques",
+    "intervalle de confiance",
+    "test d'hypothèse",
+    "loi de Student",
+    "estimation sans biais",
+    "taille d'échantillon",
+    "pollution",
+    "moyenne"
+  ],
+  "concepts_fondamentaux": [
+    "intervalle de confiance",
+    "estimation ponctuelle et par intervalle",
+    "loi de Student",
+    "théorème central limite (implicite)",
+    "biais d'un estimateur"
+  ],
+  "prerequis": [
+    "notions de base en statistique descriptive (moyenne, écart-type)",
+    "connaissance de la loi normale et de la loi de Student",
+    "compréhension du concept d'intervalle de confiance",
+    "maîtrise du calcul des quantiles"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

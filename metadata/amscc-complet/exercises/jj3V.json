@@ -1,0 +1,37 @@
+{
+  "resume": "L'exercice porte sur l'estimation statistique de la moyenne du taux de cholestérol dans une entreprise à partir d'un échantillon. Il évalue les compétences suivantes:\\n\\n1.  Calcul de la moyenne $m_e$ et de l'écart-type $\\sigma_e$ d'un échantillon à partir de données groupées.\\n2.  Estimation sans biais de la moyenne et de l'écart-type de la population totale à partir des statistiques de l'échantillon, en utilisant les estimateurs $\\\\overline{X} = \\\\frac{1}{n}\\\\sum_{i=1}^{n} X_i$ et $S^2 = \\\\frac{1}{n-1} \\\\sum_{i=1}^{n} (X_i - \\\\overline{X})^2$.\\n3.  Détermination d'un intervalle de confiance pour la moyenne de la population, en utilisant la loi normale centrée réduite et la formule $\\\\left[m_{e} - u_{\\\\alpha/2 }\\\\frac{s_{e}}{\\\\sqrt{n}}; m_{e} + u_{\\\\alpha/2 }\\\\frac{s_{e}}{\\\\sqrt{n}}\\\\right]$. ",
+  "competences": [
+    "calculer une moyenne et une variance d'un échantillon",
+    "estimer une moyenne et un écart-type sans biais",
+    "déterminer un intervalle de confiance pour une moyenne",
+    "appliquer la loi normale centrée réduite",
+    "interpréter un intervalle de confiance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistique",
+    "estimation",
+    "moyenne",
+    "variance",
+    "écart-type",
+    "intervalle de confiance",
+    "estimateur sans biais",
+    "loi normale"
+  ],
+  "concepts_fondamentaux": [
+    "estimateur sans biais",
+    "intervalle de confiance",
+    "loi normale centrée réduite",
+    "moyenne et variance d'échantillon",
+    "théorème central limite (implicite)"
+  ],
+  "prerequis": [
+    "statistiques descriptives",
+    "notion de variable aléatoire",
+    "loi normale",
+    "calcul de moyenne et variance",
+    "échantillonnage"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

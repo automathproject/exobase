@@ -1,0 +1,33 @@
+{
+  "resume": "L'exercice porte sur l'estimation du paramètre $a$ d'une loi de probabilité discrète définie sur $\\mathbb{N}$ par $\\PP(X=k)=\\frac{a^k}{(1+a)^{k+1}}$. Il s'agit d'appliquer la méthode du maximum de vraisemblance pour déterminer un estimateur de $a$, puis de calculer le biais de cet estimateur. La fonction de vraisemblance est $L(x_1,...,x_n,a) = \\prod_{k=1}^n \\frac{a^{x_k}}{(1+a)^{x_k+1}} = \\frac{a^{\\sum x_k}}{(1+a)^{n+\\sum x_k}}$. La résolution de $\\frac{\\partial L}{\\partial a} = 0$ conduit à l'estimateur $T = \\frac{1}{n} \\sum_{k=0}^n X_k$. Le calcul de l'espérance montre que $\\mathbb{E}(X_i) = a$, et donc $B(T) = \\mathbb{E}(T-a) = 0$, ce qui signifie que l'estimateur est sans biais.",
+  "competences": [
+    "calculer une espérance mathématique",
+    "appliquer la méthode du maximum de vraisemblance",
+    "dériver une fonction de vraisemblance",
+    "calculer le biais d'un estimateur",
+    "manipuler des sommes et des produits"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "estimation",
+    "maximum de vraisemblance",
+    "estimateur",
+    "biais",
+    "variable aléatoire",
+    "loi de probabilité",
+    "statistique"
+  ],
+  "concepts_fondamentaux": [
+    "méthode du maximum de vraisemblance",
+    "biais d'un estimateur",
+    "espérance mathématique",
+    "fonction de vraisemblance"
+  ],
+  "prerequis": [
+    "calcul différentiel (dérivation)",
+    "probabilités de base (variables aléatoires, lois de probabilité)",
+    "notions d'estimateurs et de biais"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "45 minutes"
+}

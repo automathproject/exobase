@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur un test d'hypothèse concernant la conformité d'un générateur pseudo-aléatoire simulant une loi géométrique. Il évalue la capacité à : \n\n1.  Comprendre le calcul des probabilités dans un tableur appliqué à une loi géométrique, c'est à dire $P(X=k)=p(1-p)^{k-1}$.\n2.  Estimer le paramètre $p$ d'une loi géométrique à partir d'un échantillon, en utilisant l'estimateur $\\hat{p} = \\frac{1}{\\bar{X}}$.\n3.  Réaliser un test d'hypothèse du $\\chi^2$ d'adéquation pour vérifier si l'échantillon observé suit une loi géométrique avec le paramètre estimé, en utilisant différents niveaux de signification ($\\alpha = 1\\%, 5\\%, 10\\%$).",
+  "competences": [
+    "réaliser un test d'hypothèse statistique",
+    "estimer un paramètre d'une loi géométrique",
+    "calculer des probabilités à partir d'une loi géométrique",
+    "interpréter les résultats d'un test statistique",
+    "utiliser un tableur pour analyser des données"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "test d'hypothèse",
+    "loi géométrique",
+    "estimateur",
+    "risque alpha",
+    "simulateur",
+    "statistique",
+    "conformité",
+    "générateur aléatoire"
+  ],
+  "concepts_fondamentaux": [
+    "loi géométrique",
+    "test d'hypothèse",
+    "estimateur ponctuel",
+    "risque de première espèce"
+  ],
+  "prerequis": [
+    "connaissance de la loi géométrique",
+    "notion de test d'hypothèse",
+    "connaissance des estimateurs",
+    "vocabulaire statistique de base (risque alpha, hypothèse nulle...)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

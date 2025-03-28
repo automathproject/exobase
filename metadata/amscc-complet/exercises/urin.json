@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur le calcul de sommes de séries entières. Il évalue la capacité à : \n\n1. Déterminer la somme d'une série entière $S_1(x) = \\sum_{k=0}^{+\\infty} k x^k$ en dérivant la série géométrique connue $\\sum_{k=0}^{+\\infty} x^k = \\frac{1}{1-x}$ et en ajustant les indices.\n\n2. Calculer la somme de la série entière $S_2(x) = \\sum_{k=0}^{+\\infty} (k+1)^2x^k$ en dérivant deux fois la série géométrique, en effectuant un changement d'indice, et en utilisant la relation $(k+1)^2 = k(k+1) + (k+1)$.\n\n3. Déterminer le rayon de convergence et la somme de la série entière $S_3(x) = \\sum_{n= 1}^{+\\infty} \\frac{x^n}{n(n+2)}$ après avoir décomposé la fraction rationnelle $\\frac{1}{n(n+2)}$ en éléments simples et en utilisant des développements en série connus (logarithme).",
+  "competences": [
+    "calculer la somme d'une série entière",
+    "dériver une fonction pour transformer une série",
+    "appliquer la décomposition en éléments simples à une fraction rationnelle",
+    "effectuer un changement d'indice dans une sommation",
+    "déterminer le rayon de convergence d'une série entière"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série entière",
+    "somme",
+    "rayon de convergence",
+    "dérivation",
+    "décomposition en éléments simples",
+    "fonction",
+    "calcul"
+  ],
+  "concepts_fondamentaux": [
+    "séries entières",
+    "rayon de convergence",
+    "dérivation de séries",
+    "décomposition en éléments simples",
+    "séries géométriques"
+  ],
+  "prerequis": [
+    "dérivation de fonctions",
+    "calcul de sommes de séries géométriques",
+    "décomposition en éléments simples",
+    "manipulation d'indices de sommation",
+    "connaissance des séries de référence (logarithme, géométrique)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice porte sur la vérification qu'une fonction donnée $f(x) = \\\\lambda e^{-\\\\lambda x}1_{[0;+\\\\infty[}(x)$ est bien une densité de probabilité, ce qui implique de montrer que $f(x) \\\\geq 0$ pour tout $x$ et que $\\\\int_{-\\\\infty}^{+\\\\infty} f(x)dx = 1$. Il demande ensuite de déterminer la fonction de répartition $F_X(t)$ de la variable aléatoire $X$, en calculant $F_X(t) = \\\\int_{-\\\\infty}^t f(x)dx$ pour tout $t \\\\in \\\\mathbb{R}$.",
+  "competences": [
+    "calculer une intégrale impropre",
+    "déterminer une fonction de répartition à partir d'une densité",
+    "vérifier qu'une fonction est une densité de probabilité",
+    "appliquer la définition d'une fonction de répartition",
+    "interpréter le support d'une variable aléatoire"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "probabilité continue",
+    "densité de probabilité",
+    "fonction de répartition",
+    "intégrale",
+    "variable aléatoire",
+    "exponentielle",
+    "lambda",
+    "support"
+  ],
+  "concepts_fondamentaux": [
+    "densité de probabilité",
+    "fonction de répartition",
+    "intégrale impropre",
+    "variable aléatoire continue"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "notion de variable aléatoire",
+    "connaissance de la fonction exponentielle"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "15-20 minutes"
+}

@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice porte sur l'estimation d'un paramètre $\\theta$ d'une loi de probabilité dont la densité est donnée. Il aborde les compétences suivantes :\n\n*   Vérification qu'une fonction est bien une densité de probabilité, en calculant son intégrale sur $\\mathbb{R}$.\n*   Calcul de l'espérance $\\mathbb{E}(X_1)$ et de la variance $\\mathbb{V}(X_1)$ d'une variable aléatoire à densité. Calcul de l'espérance et de la variance de la moyenne empirique $\\overline{X}$.\n*   Démonstration qu'un estimateur $T_n$ est sans biais en vérifiant que $\\mathbb{E}(T_n) = \\theta$.\n*   Démonstration de la convergence d'un estimateur $T_n$ en montrant que son erreur quadratique moyenne $EQM(T_n)$ tend vers 0 quand $n$ tend vers l'infini.\n*   Application du Théorème Central Limite pour approcher la loi de $T_n$ par une loi normale.\n*   Utilisation de l'inégalité de Bienaymé-Tchebichev pour borner la probabilité $\\PP(|T_n-\\theta| < \\lambda)$.\n*   Construction d'un intervalle de confiance pour $\\theta$ avec un niveau de confiance d'au moins 95% en utilisant l'inégalité de Bienaymé-Tchebichev.",
+  "competences": [
+    "calculer une espérance et une variance",
+    "appliquer le théorème central limite",
+    "vérifier qu'une fonction est une densité de probabilité",
+    "appliquer l'inégalité de Bienaymé-Tchebichev",
+    "interpréter un intervalle de confiance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistique",
+    "estimateur",
+    "intervalle de confiance",
+    "biais",
+    "convergence",
+    "densité de probabilité",
+    "théorème central limite",
+    "Bienaymé-Tchebichev"
+  ],
+  "concepts_fondamentaux": [
+    "densité de probabilité",
+    "espérance et variance",
+    "estimateur sans biais et convergent",
+    "théorème central limite",
+    "intervalle de confiance"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "probabilités de base",
+    "variables aléatoires",
+    "notion d'estimateur"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "90-120 minutes"
+}

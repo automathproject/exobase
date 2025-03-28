@@ -1,0 +1,40 @@
+{
+  "resume": "L'exercice porte sur l'estimation d'une intégrale $I = \\int_0^4 \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{y^2}{2}} dy$ par des méthodes de Monte Carlo.\n\n1.  **Première méthode (variables normales) :**\n    *   Identifier une fonction $\\varphi$ telle que $I = \\mathbb{E}(\\varphi(Z_1))$ où $Z_1 \\sim \\mathcal{N}(0,1)$.\n    *   Déterminer une fonction $g$ telle que la moyenne empirique $\\frac{1}{n}\\sum_{i=1}^n g(Z_i)$ converge presque sûrement vers $I$.\n    *   Construire un intervalle de confiance asymptotique pour $I$ en utilisant le Théorème Central Limite et estimer la variance $\\sigma^2$.\n\n2.  **Deuxième méthode (variables uniformes) :**\n    *   Définir une suite de variables aléatoires $(Y_n)$ basée sur une suite uniforme $(U_n)$ telle que $(Y_n)$ converge presque sûrement vers $I$.\n    *   Implémenter l'estimation de Monte Carlo dans un algorithme.\n    *   Construire un intervalle de confiance asymptotique pour $I$ en utilisant le Théorème Central Limite et estimer la variance $\\sigma'^2$.\n\n3.  **Comparaison :**\n    *   Comparer les deux méthodes de Monte Carlo en fonction de la largeur de leurs intervalles de confiance respectifs, ce qui nécessite une comparaison de $\\sigma$ et $\\sigma'$.",
+  "competences": [
+    "appliquer le théorème central limite",
+    "appliquer la loi forte des grands nombres",
+    "interpréter une espérance comme une intégrale",
+    "construire un intervalle de confiance asymptotique",
+    "calculer une espérance et une variance"
+  ],
+  "niveau_difficulte": "avancé",
+  "mots_cles": [
+    "loi normale",
+    "méthode de Monte Carlo",
+    "théorème central limite",
+    "loi forte des grands nombres",
+    "intervalle de confiance",
+    "espérance",
+    "variance",
+    "simulation"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire normale",
+    "théorème de transfert",
+    "convergence presque sûre",
+    "intervalle de confiance asymptotique",
+    "loi uniforme"
+  ],
+  "prerequis": [
+    "théorie des probabilités",
+    "variables aléatoires",
+    "espérance et variance",
+    "loi normale",
+    "loi uniforme",
+    "théorème central limite",
+    "loi forte des grands nombres",
+    "intégration"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "90 minutes"
+}

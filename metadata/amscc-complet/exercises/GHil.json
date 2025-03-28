@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice porte sur les variables aléatoires à densité. Il évalue les compétences suivantes :\n\n*   **Vérification de densité :** Déterminer les conditions sur un paramètre $\\theta$ pour qu'une fonction $f_{\\theta}(x)$ soit une densité de probabilité, en utilisant les propriétés d'intégrabilité, de positivité et d'intégrale égale à 1.\n*   **Calcul d'espérance :** Calculer l'espérance d'une variable aléatoire à partir de sa densité, en utilisant la formule $\\mathbb{E}[X] = \\int_{\\mathbb{R}} x f_{\\theta}(x) dx$.\n*   **Identification de loi de Bernoulli :** Identifier qu'une variable aléatoire indicatrice suit une loi de Bernoulli et déterminer son paramètre $p = \\mathbb{P}(X \\in A)$ où A est un intervalle.\n*   **Identification de loi binomiale :** Déterminer que la somme de variables aléatoires de Bernoulli indépendantes et identiquement distribuées suit une loi binomiale.\n*   **Manipulation d'espérances et variances :** Utiliser les propriétés de l'espérance et de la variance pour calculer $\\mathbb{E}(U_n V_n)$ et $\\textrm{cov}(U_n, V_n)$ en utilisant des lois connues.\n*   **Calcul de limite de variance :** Montrer qu'une variance tend vers 0 lorsque $n$ tend vers l'infini, ce qui est lié à la convergence en probabilité.",
+  "competences": [
+    "calculer l'espérance d'une variable aléatoire à densité",
+    "déterminer la loi d'une somme de variables de Bernoulli indépendantes",
+    "appliquer la définition d'une densité de probabilité",
+    "calculer la covariance de deux variables aléatoires",
+    "calculer la variance d'une variable aléatoire"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "densité de probabilité",
+    "variable aléatoire",
+    "espérance",
+    "variance",
+    "covariance",
+    "loi de Bernoulli",
+    "loi binomiale",
+    "convergence"
+  ],
+  "concepts_fondamentaux": [
+    "densité de probabilité",
+    "espérance mathématique",
+    "variance",
+    "covariance",
+    "loi de Bernoulli et Binomiale"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "probabilités de base",
+    "variables aléatoires discrètes",
+    "formules d'espérance et de variance"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

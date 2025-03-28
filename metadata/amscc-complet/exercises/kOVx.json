@@ -1,0 +1,36 @@
+{
+  "resume": "Cet exercice évalue la capacité à :\n\n1.  Vérifier l'existence d'une matrice solution d'une équation matricielle de la forme $M = N \\times A$ en utilisant les propriétés du déterminant. Calculer l'inverse d'une matrice $3 \\times 3$ (par la méthode du pivot de Gauss). Déterminer la matrice $A$ en multipliant par l'inverse de $N$. \n\n2.  Démontrer l'impossibilité de trouver une matrice solution d'une équation matricielle de la forme $M = B \\times N$, en utilisant le déterminant et la propriété $\\operatorname{det}(M \\times N)=\\operatorname{det}(M) \\times \\operatorname{det}(N)$.",
+  "competences": [
+    "calculer le déterminant d'une matrice 3x3",
+    "inverser une matrice 3x3 par la méthode du pivot de Gauss",
+    "appliquer les propriétés du déterminant d'un produit de matrices",
+    "utiliser l'inverse d'une matrice pour résoudre une équation matricielle",
+    "effectuer un produit matriciel"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "déterminant",
+    "matrice",
+    "inverse",
+    "produit matriciel",
+    "système linéaire",
+    "pivot de Gauss",
+    "inversible",
+    "équation matricielle"
+  ],
+  "concepts_fondamentaux": [
+    "déterminant d'une matrice",
+    "inversibilité d'une matrice",
+    "produit matriciel",
+    "matrice identité",
+    "méthode du pivot de Gauss"
+  ],
+  "prerequis": [
+    "connaître la définition d'une matrice",
+    "savoir calculer un déterminant 2x2",
+    "connaître les opérations élémentaires sur les lignes d'une matrice",
+    "connaître la définition de l'inverse d'une matrice"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30-45 minutes"
+}

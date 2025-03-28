@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur la résolution d'un système linéaire $Ax=b$ par des méthodes itératives. Les compétences mises en œuvre sont:\n\n1.  Détermination des conditions sur le paramètre $a$ pour que la matrice $A$ soit symétrique définie positive, en utilisant son polynôme caractéristique donné. Cela revient à imposer que toutes ses valeurs propres soient strictement positives.\n\n2.  Calcul du rayon spectral $\\rho(I_3 - A)$ de la matrice $I_3 - A$, où $I_3$ est la matrice identité d'ordre 3. Le rayon spectral est le maximum des valeurs absolues des valeurs propres.\n\n3.  Détermination des conditions nécessaires et suffisantes sur $a$ pour la convergence de la méthode de Jacobi. On utilise le fait que la méthode de Jacobi converge si et seulement si le rayon spectral de la matrice d'itération est strictement inférieur à 1.\n\n4.  Détermination des conditions suffisantes sur $a$ pour la convergence de la méthode de Gauss-Seidel. La condition de matrice symétrique définie positive est suffisante pour assurer la convergence.",
+  "competences": [
+    "déterminer des conditions de convergence d'une méthode itérative",
+    "calculer le rayon spectral d'une matrice",
+    "déterminer si une matrice est définie positive",
+    "interpréter les valeurs propres d'une matrice",
+    "appliquer les méthodes de Jacobi et Gauss-Seidel"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "systèmes linéaires",
+    "méthodes itératives",
+    "Jacobi",
+    "Gauss-Seidel",
+    "rayon spectral",
+    "matrice définie positive",
+    "convergence",
+    "analyse numérique"
+  ],
+  "concepts_fondamentaux": [
+    "valeurs propres",
+    "rayon spectral",
+    "matrice symétrique définie positive",
+    "convergence des méthodes itératives"
+  ],
+  "prerequis": [
+    "algèbre linéaire",
+    "calcul matriciel",
+    "définition des valeurs propres et vecteurs propres",
+    "notion de convergence"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

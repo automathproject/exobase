@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'estimation du paramètre $p$ d'une loi géométrique par la méthode du maximum de vraisemblance. Il évalue les compétences suivantes:\n\n*   **Question 1a**: Calcul de la fonction de vraisemblance $L(p)$ pour un échantillon de taille 5, à partir de la formule $\\PP(X=k)=p(1-p)^{k-1}$.\n*   **Question 1b**: Détermination de l'estimateur du maximum de vraisemblance pour $p$ en maximisant $L(p)$ par le calcul de sa dérivée $L'(p)$ et la résolution de $L'(p) = 0$.\n*   **Question 2a**: Généralisation du calcul de la fonction de vraisemblance $L(x_1,...,x_n,p)$ pour un n-échantillon.\n*   **Question 2b**: Détermination de l'estimateur du maximum de vraisemblance pour $p$ dans le cas général en maximisant $L(x_1,...,x_n,p)$ par le calcul de sa dérivée partielle par rapport à $p$ et la résolution de $\\frac{\\partial L}{\\partial p} = 0$. Obtention de l'estimateur $\\widehat{p}=\\frac{n}{\\sum\\limits_{i=1}^n X_i}$.",
+  "competences": [
+    "calculer une dérivée",
+    "appliquer la méthode du maximum de vraisemblance",
+    "interpréter une loi géométrique",
+    "calculer une probabilité discrète",
+    "manipuler des sommes"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "estimateur",
+    "maximum de vraisemblance",
+    "loi géométrique",
+    "vraisemblance",
+    "échantillon",
+    "estimation",
+    "probabilité discrète",
+    "dérivation"
+  ],
+  "concepts_fondamentaux": [
+    "fonction de vraisemblance",
+    "estimateur du maximum de vraisemblance",
+    "loi de probabilité géométrique",
+    "dérivation de fonctions"
+  ],
+  "prerequis": [
+    "définition d'une loi géométrique",
+    "calcul de dérivées simples",
+    "notion de fonction de vraisemblance",
+    "bases de probabilités"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

@@ -1,0 +1,35 @@
+{
+  "resume": "Cet exercice applique la méthode des multiplicateurs de Lagrange pour optimiser une fonction $f(x,y) = x^2 + y^2$ sous la contrainte $g(x,y) = x^4 + y^4 - 1 = 0$.  L'exercice commence par justifier que l'ensemble des contraintes est un compact, garantissant l'existence d'un maximum.  Ensuite, il exploite l'intuition géométrique que, au point de maximum, le gradient de $f$ est orthogonal à toute direction tangente à la contrainte, ce qui implique la colinéarité des gradients de $f$ et $g$. Finalement, le calcul des gradients, la résolution du système d'équations résultant de la condition de colinéarité et de la contrainte, et l'évaluation de $f$ aux points critiques permettent de déterminer le maximum de $f$ sous la contrainte donnée.",
+  "competences": [
+    "appliquer le théorème des extrema liés (multiplicateurs de Lagrange)",
+    "calculer des dérivées partielles de fonctions à deux variables",
+    "interpréter géométriquement le gradient d'une fonction",
+    "résoudre un système d'équations non linéaires",
+    "justifier la compacité d'un ensemble"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "optimisation sous contrainte",
+    "multiplicateurs de Lagrange",
+    "compact",
+    "gradient",
+    "dérivée directionnelle",
+    "fonction à deux variables",
+    "extremum",
+    "colinéarité"
+  ],
+  "concepts_fondamentaux": [
+    "théorème des extrema liés",
+    "gradient et dérivée directionnelle",
+    "compacité",
+    "optimisation de fonction à plusieurs variables"
+  ],
+  "prerequis": [
+    "dérivation de fonctions à plusieurs variables",
+    "calcul de gradients",
+    "notion de compacité",
+    "résolution de systèmes d'équations"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

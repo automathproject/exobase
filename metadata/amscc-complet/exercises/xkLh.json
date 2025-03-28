@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice demande d'interpréter graphiquement l'action d'un réseau de neurones simple (perceptron) avec deux entrées ($x$ et $y$) et une sortie $F(x, y)$. Il s'agit d'identifier comment le réseau réalise une classification linéaire en fonction des poids et des seuils d'activation des neurones. En particulier, il faut comprendre que chaque neurone effectue une séparation linéaire et que la combinaison des neurones permet de réaliser une classification plus complexe. La sortie du réseau est définie par $F(x, y) = H(H(-x + y) + H(x) - 2)$, où $H$ est la fonction de Heaviside.",
+  "competences": [
+    "interpréter un réseau de neurones simple",
+    "tracer une droite de séparation linéaire",
+    "appliquer la fonction de Heaviside",
+    "calculer la sortie d'un perceptron",
+    "représenter graphiquement une fonction"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "perceptron",
+    "réseau de neurones",
+    "classification linéaire",
+    "fonction de Heaviside",
+    "frontière de décision",
+    "graphique",
+    "application linéaire",
+    "neurone"
+  ],
+  "concepts_fondamentaux": [
+    "fonction d'activation",
+    "combinaison linéaire",
+    "perceptron monocouche",
+    "frontière de décision linéaire"
+  ],
+  "prerequis": [
+    "connaissance de la fonction de Heaviside",
+    "compréhension des réseaux de neurones basiques",
+    "notions d'algèbre linéaire (combinaison linéaire)",
+    "représentation graphique de fonctions dans le plan"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30-45 minutes"
+}

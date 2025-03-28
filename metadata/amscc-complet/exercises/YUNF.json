@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'approximation d'une fonction $f(x) = x^3$ par un polynôme de degré inférieur ou égal à 1, $P(x) = ax + b$, en utilisant la méthode des moindres carrés. Il s'agit de minimiser $\\|f - P\\|^2 = \\int_{-1}^{1} (x^3 - (ax + b))^2 dx$. Les compétences mises en œuvre sont :\\n\\n1.  Formuler le problème comme un problème de moindres carrés en dimension finie, identifiant les paramètres à optimiser (a et b) et la dimension de l'espace correspondant.\\n2.  Justifier l'existence et l'unicité de la solution en utilisant les propriétés des fonctions quadratiques.\\n3.  Calculer l'intégrale $J(a, b)$ et résoudre le problème d'optimisation pour trouver les valeurs optimales de $a$ et $b$, aboutissant au polynôme optimal $P(x) = \\frac{3}{5}x$.",
+  "competences": [
+    "calculer une intégrale définie",
+    "résoudre un problème d'optimisation quadratique",
+    "interpréter géométriquement un problème de moindres carrés",
+    "déterminer l'existence et l'unicité d'une solution d'un problème d'optimisation",
+    "appliquer le produit scalaire dans un espace de fonctions"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "optimisation quadratique",
+    "moindres carrés",
+    "projection orthogonale",
+    "produit scalaire",
+    "espace de fonctions",
+    "approximation polynomiale",
+    "intégrale",
+    "polynôme"
+  ],
+  "concepts_fondamentaux": [
+    "produit scalaire",
+    "norme",
+    "optimisation sans contraintes",
+    "moindres carrés",
+    "projection orthogonale"
+  ],
+  "prerequis": [
+    "calcul intégral",
+    "algèbre linéaire (produit scalaire, norme)",
+    "optimisation de base (dérivées)",
+    "espaces vectoriels"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

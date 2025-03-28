@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'analyse de Fourier d'une fonction $f$ impaire, $2\\pi$-périodique et définie par $f(x) = 1$ sur l'intervalle $]0, \\pi[$. Il évalue les compétences suivantes:\n\n1.  **Représentation graphique et analyse de régularité:** Tracer le graphe de la fonction et déterminer sa régularité (continue par morceaux, points de discontinuité).\n\n2.  **Calcul des coefficients de Fourier:** Déterminer les coefficients de Fourier trigonométriques $b_n$ de la fonction $f$, en exploitant sa parité. La série de Fourier obtenue est $\\displaystyle S_n(f) = \\sum_{k \\geq 0} \\frac{4}{(2k+1)\\pi}\\sin((2k+1)x)$.\n\n3.  **Calcul de sommes de séries numériques:** Utiliser le théorème de Dirichlet et la formule de Parseval pour calculer les sommes $\\sum_{n=0}^{+\\infty} \\frac{(-1)^n }{2n+1 } = \\frac{\\pi}{4}$ et $\\sum_{n=0}^{+\\infty} \\frac{1 }{(2n+1)^2 } = \\frac{\\pi^2}{8}$.\n\n4.  **Déduction de la valeur d'une série:** Déduire la valeur de la somme $\\sum_{n=1}^{+\\infty} \\frac{1 }{n^2 } = \\frac{\\pi^2}{6}$ à partir du résultat précédent.",
+  "competences": [
+    "calculer les coefficients de Fourier trigonométriques",
+    "appliquer le théorème de Dirichlet pour calculer une somme de série",
+    "appliquer la formule de Parseval pour calculer une somme de série",
+    "déterminer la parité et la périodicité d'une fonction",
+    "représenter graphiquement une fonction périodique"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série de Fourier",
+    "coefficients de Fourier",
+    "théorème de Dirichlet",
+    "formule de Parseval",
+    "parité",
+    "périodicité",
+    "somme de série",
+    "fonction impaire"
+  ],
+  "concepts_fondamentaux": [
+    "développement en série de Fourier",
+    "convergence ponctuelle et uniforme",
+    "théorème de Dirichlet",
+    "formule de Parseval"
+  ],
+  "prerequis": [
+    "intégrale d'une fonction",
+    "trigonométrie",
+    "convergence de séries numériques",
+    "parité et périodicité des fonctions"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

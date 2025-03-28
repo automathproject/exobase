@@ -1,0 +1,5 @@
+{
+  "JHnB": {
+    "resume": "Cet exercice évalue la capacité à appliquer le théorème de Bayes pour déterminer la probabilité a posteriori d'événements. Il s'agit de calculer et de comparer les probabilités conditionnelles $P(p_i | s)$ où $p_i$ représente l'ingestion du poison $i$ et $s$ l'observation du signe clinique.  La résolution implique l'utilisation de la formule de Bayes: $P(p_i | s) = \\frac{P(s | p_i) * P(p_i)}{P(s)}$ et le calcul de $P(s)$ via la formule des probabilités totales: $P(s) = \\sum_i P(s | p_i) * P(p_i)$. L'exercice met également en évidence que la comparaison des probabilités $P(p_i \\cap s)$ suffit pour déterminer le poison le plus probable."
+  }
+}

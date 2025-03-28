@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur la recherche d'extremums globaux d'une fonction $f(x,y) = y^2 - x^2y + x^2$ définie sur un domaine $\\mathcal{D}$ de $\\mathbb{R}^2$ délimité par deux paraboles. Les compétences mises en œuvre incluent:\\n\\n1.  **Identification graphique du domaine de définition** à partir d'une définition ensembliste.\\n2.  **Détermination de la nature topologique** (ouvert/fermé) d'un ensemble.\\n3.  **Justification de l'existence d'extremums globaux** en utilisant le théorème des bornes atteintes (fonction continue sur un compact).\\n4.  **Calcul et identification des points critiques** d'une fonction de deux variables en résolvant un système d'équations $\\\\frac{\\\\partial f}{\\\\partial x} = 0$ et $\\\\frac{\\\\partial f}{\\\\partial y} = 0$.\\n5.  **Détermination de la nature des points critiques** (minimum, maximum, point selle) à l'aide de la matrice Hessienne et des conditions du second ordre.\\n6.  **Calcul et étude des variations de fonctions d'une variable** obtenues par restriction de la fonction $f$ au bord du domaine $\\\\mathcal{D}$.\\n7.  **Détermination des extremums globaux sur le bord** en utilisant l'étude des fonctions d'une variable.\\n8.  **Déduction des extremums globaux de $f$ sur $\\\\mathcal{D}$** en comparant les valeurs aux points critiques et sur le bord.",
+  "competences": [
+    "déterminer les points critiques d'une fonction de deux variables",
+    "appliquer les conditions du second ordre pour identifier les extrema locaux",
+    "résoudre un système d'équations non linéaires",
+    "interpréter géométriquement un domaine de définition",
+    "calculer des dérivées partielles premières et secondes"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "optimisation",
+    "extremums locaux",
+    "points critiques",
+    "dérivées partielles",
+    "hessienne",
+    "domaine de définition",
+    "fonctions de plusieurs variables",
+    "maximum global"
+  ],
+  "concepts_fondamentaux": [
+    "dérivées partielles",
+    "matrice hessienne",
+    "points critiques",
+    "conditions d'optimalité du second ordre",
+    "compacité"
+  ],
+  "prerequis": [
+    "calcul différentiel (dérivées, extrema)",
+    "fonctions de plusieurs variables",
+    "algèbre linéaire (matrice hessienne)",
+    "topologie de base (ouvert, fermé, borné)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

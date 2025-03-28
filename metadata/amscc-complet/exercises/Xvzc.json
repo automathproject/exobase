@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'estimation d'un paramètre (taux moyen de glucose $m$) d'une population diabétique, à partir d'un échantillon. Il évalue la capacité à :\n\n*   Identifier et utiliser un estimateur (moyenne empirique).\n*   Calculer un intervalle de confiance pour la moyenne, en utilisant la formule $I_{conf}(\\overline{X})=\\left[\\overline{X}-u_{\\alpha/2} \\frac{S}{\\sqrt{n}}~;~\\overline{X} + u_{\\alpha/2} \\frac{S}{\\sqrt{n}} \\right]$.\n*   Interpréter les intervalles de confiance obtenus.\n*   Déterminer le niveau de confiance nécessaire pour qu'un intervalle contienne la valeur réelle du paramètre.",
+  "competences": [
+    "calculer un intervalle de confiance",
+    "estimer une moyenne à partir d'un échantillon",
+    "appliquer la formule d'un intervalle de confiance",
+    "interpréter un intervalle de confiance",
+    "calculer des statistiques descriptives (moyenne, écart-type)"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistique",
+    "tests d'hypothèses",
+    "intervalle de confiance",
+    "estimation",
+    "moyenne",
+    "écart-type",
+    "niveau de confiance",
+    "glucose"
+  ],
+  "concepts_fondamentaux": [
+    "estimateur",
+    "intervalle de confiance",
+    "niveau de confiance",
+    "théorème central limite"
+  ],
+  "prerequis": [
+    "notion d'échantillon",
+    "formule de l'intervalle de confiance pour la moyenne",
+    "calcul de moyenne et d'écart-type",
+    "utilisation de tables statistiques (ou fonctions statistiques)"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60 minutes"
+}

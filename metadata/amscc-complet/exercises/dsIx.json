@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'estimation du paramètre $\\lambda$ d'une loi puissance de densité $f_\\lambda(x) = \\lambda x^{\\lambda - 1} \\mathbb{1}_{[0,1]}(x)$. Il s'agit de:\n\n1.  Construire l'estimateur du maximum de vraisemblance $\\widehat{\\lambda_n}$ de $\\lambda$, qui est trouvé comme $\\widehat{\\lambda_n} = \\frac{n}{-\\sum \\ln(x_i)}$.\n2.  Déterminer un intervalle de confiance de niveau $1-\\alpha$ pour $\\lambda$, en utilisant le fait que $2n \\frac{\\lambda}{\\widehat{\\lambda_n}}$ suit une loi du $\\chi^2(2n)$. L'intervalle de confiance trouvé est $]-\\infty~;~q_{\\alpha,2n}\\,\\frac{\\widehat{\\lambda_n}}{2n}]$.$",
+  "competences": [
+    "calculer un estimateur du maximum de vraisemblance",
+    "déterminer la fonction de vraisemblance",
+    "construire un intervalle de confiance",
+    "appliquer la loi du Chi-deux",
+    "interpréter un intervalle de confiance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "estimation",
+    "maximum de vraisemblance",
+    "intervalle de confiance",
+    "loi puissance",
+    "loi du Chi-deux",
+    "statistique",
+    "estimateur",
+    "vraisemblance"
+  ],
+  "concepts_fondamentaux": [
+    "estimateur du maximum de vraisemblance",
+    "intervalle de confiance",
+    "loi puissance",
+    "distribution d'échantillonnage",
+    "fonction de vraisemblance"
+  ],
+  "prerequis": [
+    "calcul différentiel",
+    "probabilités de base",
+    "lois de probabilité usuelles",
+    "statistique descriptive"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

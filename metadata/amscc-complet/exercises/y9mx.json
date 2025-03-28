@@ -1,0 +1,33 @@
+{
+  "resume": "L'exercice porte sur l'étude d'estimateurs pour le paramètre $p$ d'une loi de Bernoulli. Il s'agit de:\\n\\n*   Calculer l'espérance de $Y$ et $Y^2$ où $Y = n\\\\overline{X}$ et $\\\\overline{X}$ est la moyenne empirique d'un $n$-échantillon de $X \\\\sim \\\\mathcal{B}(p)$.\\n*   Déterminer si $Z = \\\\overline{X}^2$ est un estimateur sans biais de $p^2$, en calculant le biais $B(Z) = E(Z) - p^2$.\\n*   Vérifier si $T = \\\\frac{Y(Y-1)}{n(n-1)}$ est un estimateur sans biais de $p^2$, en montrant que $E(T) = p^2$.",
+  "competences": [
+    "calculer l'espérance mathématique d'une variable aléatoire",
+    "calculer la variance d'une variable aléatoire",
+    "identifier une loi binomiale",
+    "déterminer si un estimateur est biaisé ou non",
+    "appliquer les propriétés de l'espérance mathématique"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "estimateur",
+    "biais",
+    "variance",
+    "espérance",
+    "Bernoulli",
+    "binomiale",
+    "moyenne empirique"
+  ],
+  "concepts_fondamentaux": [
+    "variable aléatoire",
+    "espérance mathématique",
+    "variance",
+    "estimateur sans biais"
+  ],
+  "prerequis": [
+    "lois de probabilité usuelles",
+    "calcul d'espérance et de variance",
+    "notion d'estimateur"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "30-45 minutes"
+}

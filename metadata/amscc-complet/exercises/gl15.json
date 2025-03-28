@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'estimation d'une proportion $p$ inconnue à partir d'un échantillon. Les compétences mises en oeuvre sont : \\n\\n*   Identifier la loi de probabilité d'une somme de variables de Bernoulli indépendantes ($S_n$ suit une loi binomiale $\\\\mathcal{B}(n,p)$).\\n*   Calculer l'espérance et la variance de $\\\\frac{S_n}{n}$ en utilisant les propriétés de l'espérance et de la variance.\\n*   Appliquer l'inégalité de Bienaymé-Tchebychev pour majorer la probabilité que $\\\\frac{S_n}{n}$ s'éloigne de $p$ de plus de $\\\\varepsilon$.\\n*   Déterminer la taille de l'échantillon $n$ pour garantir une précision $\\\\varepsilon$ donnée avec une probabilité spécifiée.",
+  "competences": [
+    "appliquer l'inégalité de Bienaymé-Tchebychev",
+    "calculer l'espérance et la variance d'une variable aléatoire",
+    "identifier une loi binomiale",
+    "interpréter le résultat d'un sondage",
+    "utiliser les propriétés de l'espérance et de la variance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "loi binomiale",
+    "inégalité de Bienaymé-Tchebychev",
+    "espérance",
+    "variance",
+    "sondage",
+    "estimation",
+    "probabilité",
+    "échantillon"
+  ],
+  "concepts_fondamentaux": [
+    "loi binomiale",
+    "espérance mathématique",
+    "variance",
+    "inégalité de Bienaymé-Tchebychev",
+    "variable aléatoire"
+  ],
+  "prerequis": [
+    "définition d'une variable aléatoire",
+    "loi de Bernoulli",
+    "notions de probabilité",
+    "formules de l'espérance et de la variance"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "30-45 minutes"
+}

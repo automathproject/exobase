@@ -1,0 +1,35 @@
+{
+  "resume": "Cet exercice évalue la compréhension de la continuité, de la dérivabilité partielle, de la classe $C^1$ et de la différentiabilité d'une fonction de deux variables définie par morceaux. Les compétences mises en œuvre sont:\n\n*   **Continuité:** Étudier la limite de $f(x,y)$ lorsque $(x,y) \\to (0,0)$ en utilisant les coordonnées polaires et la majoration.\n*   **Dérivées partielles:** Calculer les dérivées partielles $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$ pour $(x,y) \\neq (0,0)$ en utilisant les règles de dérivation usuelles.\n*   **Dérivées partielles en (0,0):** Calculer $\\frac{\\partial f}{\\partial x}(0,0)$ et $\\frac{\\partial f}{\\partial y}(0,0)$ en revenant à la définition avec les taux d'accroissement.\n*   **Classe C^1:** Déterminer si $f$ est de classe $C^1$ en $(0,0)$ en étudiant la continuité des dérivées partielles en ce point en utilisant des limites selon différents chemins.\n*   **Différentiabilité:** Étudier la différentiabilité de $f$ en $(0,0)$ en utilisant la définition et en passant en coordonnées polaires pour analyser l'existence d'une limite.",
+  "competences": [
+    "étudier la continuité d'une fonction à deux variables",
+    "calculer les dérivées partielles d'une fonction à deux variables",
+    "appliquer la définition de la différentiabilité en un point",
+    "utiliser les coordonnées polaires pour simplifier les calculs de limites",
+    "déterminer si une fonction est de classe C1"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "dérivabilité",
+    "différentiabilité",
+    "continuité",
+    "dérivées partielles",
+    "classe C1",
+    "coordonnées polaires",
+    "limite",
+    "fonction à deux variables"
+  ],
+  "concepts_fondamentaux": [
+    "définition de la continuité en un point",
+    "définition des dérivées partielles",
+    "définition de la différentiabilité",
+    "théorème de prolongement des fonctions de classe C1"
+  ],
+  "prerequis": [
+    "calcul différentiel à une variable",
+    "notion de limite",
+    "fonctions continues",
+    "calcul des dérivées"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

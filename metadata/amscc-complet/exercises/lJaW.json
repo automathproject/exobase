@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur l'étude de la limite d'une fonction à deux variables $f(x,y)=\\frac{x^2y}{x^4+y^2}$ au point $(0,0)$. Il évalue la compétence à calculer la limite d'une fonction composée avec une suite, $f(u_n)$, où $u_n=(\\frac{1}{n},\\frac{1}{n^2})$, puis à démontrer l'inexistence d'une limite en utilisant la méthode des suites, en trouvant deux suites $u_n$ et $v_n$ convergeant vers $(0,0)$ mais telles que $\\lim f(u_n) \\neq \\lim f(v_n)$.",
+  "competences": [
+    "déterminer la limite d'une suite de nombres réels",
+    "calculer la valeur d'une fonction à deux variables",
+    "interpréter la notion de limite d'une fonction à deux variables",
+    "justifier l'absence de limite d'une fonction à deux variables",
+    "appliquer la définition de limite d'une fonction avec des suites"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "limite",
+    "fonction à deux variables",
+    "suite",
+    "point critique",
+    "contre-exemple",
+    "analyse",
+    "epsilon-delta",
+    "convergence"
+  ],
+  "concepts_fondamentaux": [
+    "limite d'une fonction à plusieurs variables",
+    "limite d'une suite",
+    "continuité (implicite)",
+    "contre-exemple"
+  ],
+  "prerequis": [
+    "notion de limite d'une fonction d'une variable réelle",
+    "notion de limite d'une suite numérique",
+    "calcul algébrique",
+    "manipulation de fractions"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "20-30 minutes"
+}

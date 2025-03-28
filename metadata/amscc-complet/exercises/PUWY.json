@@ -1,0 +1,35 @@
+{
+  "resume": "L'exercice porte sur les séries numériques, et plus précisément sur les séries télescopiques. Il évalue la capacité à : \n\n1.  Calculer la somme partielle $S_k = \\sum_{n=1}^k \\Big( \\frac{1}{n}-\\frac{3}{n+1}+\\frac{1}{n+2}+\\frac{1}{n+3}\\Big)$ en effectuant des changements d'indices et des simplifications.\n2.  Déterminer la nature (convergence) de la série $\\sum_{n\\geq 1} \\frac{-2n^2-2n+6}{n(n+1)(n+2)(n+3)}$ en utilisant le résultat de la question précédente et en calculant la limite de $S_k$ lorsque $k$ tend vers l'infini. La convergence de la série est établie et sa somme est déterminée.",
+  "competences": [
+    "calculer une somme télescopique",
+    "transformer une somme par changement d'indice",
+    "interpréter la convergence d'une série à partir de la limite de ses sommes partielles",
+    "simplifier une expression algébrique",
+    "calculer une limite de suite"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série",
+    "série télescopique",
+    "convergence",
+    "somme partielle",
+    "calcul de somme",
+    "limite",
+    "série numérique"
+  ],
+  "concepts_fondamentaux": [
+    "série numérique",
+    "somme partielle",
+    "convergence de série",
+    "série télescopique"
+  ],
+  "prerequis": [
+    "définition d'une série",
+    "définition d'une somme partielle",
+    "notion de convergence",
+    "manipulation d'indices de sommation",
+    "calcul de limites de suites"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "20-30 minutes"
+}

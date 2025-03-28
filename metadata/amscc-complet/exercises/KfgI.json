@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice compare différentes méthodes de point fixe pour approcher la racine d'une fonction. Il évalue la compétence à: \n\n*   Démontrer l'existence et l'unicité d'une racine en utilisant le théorème des valeurs intermédiaires.\n*   Vérifier la consistance des méthodes de point fixe, i.e. montrer que $\\phi_i(x) = x \\Leftrightarrow f(x) = 0$.\n*   Étudier la convergence locale des méthodes de point fixe en calculant la dérivée $\\phi_i'(x)$ et en déterminant si $|\\phi_i'(\\ell)| < 1$. Déterminer l'ordre de convergence si la méthode converge.\n*   Établir analytiquement les conditions de convergence globale pour une méthode de point fixe spécifique, en utilisant le théorème de convergence globale de la méthode de point fixe et en étudiant l'intervalle où $|\\phi_1'(x)| < 1$ et $\\phi_1(x)$ reste dans cet intervalle.",
+  "competences": [
+    "étudier la convergence locale d'une suite récurrente",
+    "démontrer l'existence et l'unicité d'une solution par le théorème des valeurs intermédiaires",
+    "calculer la dérivée d'une fonction",
+    "interpréter graphiquement la convergence d'une suite",
+    "appliquer le théorème du point fixe pour étudier la convergence globale"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "suite",
+    "point fixe",
+    "convergence",
+    "ordre de convergence",
+    "théorème des valeurs intermédiaires",
+    "méthodes numériques",
+    "relation de récurrence",
+    "fonction"
+  ],
+  "concepts_fondamentaux": [
+    "théorème des valeurs intermédiaires",
+    "méthode du point fixe",
+    "convergence d'une suite numérique",
+    "dérivabilité",
+    "continuité"
+  ],
+  "prerequis": [
+    "dérivées de fonctions usuelles",
+    "théorème des valeurs intermédiaires",
+    "définition de la convergence d'une suite",
+    "notion de point fixe"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "90 minutes"
+}

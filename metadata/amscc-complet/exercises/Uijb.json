@@ -1,0 +1,37 @@
+{
+  "resume": "Cet exercice porte sur la résolution numérique de l'équation $x = -\\ln(x)$. Il évalue la capacité à:\n\n1.  Démontrer l'existence et l'unicité d'une solution en utilisant le théorème des valeurs intermédiaires.\n2.  Analyser la convergence d'une méthode itérative basée sur $x_{k+1} = -\\ln(x_k)$ en étudiant les propriétés du point fixe et de sa dérivée.\n3.  Vérifier qu'une fonction $\\varphi(x) = e^{-x}$ admet $\\ell$ comme point fixe et que l'intervalle $[1/10, 1]$ est stable par $\\varphi$.\n4.  Démontrer la convergence d'une méthode itérative basée sur $x_{k+1} = e^{-x_k}$ et déterminer son ordre de convergence en utilisant le théorème de convergence globale du point fixe et l'étude de la dérivée de $\\varphi$.\n5.  Majorer le nombre d'itérations nécessaires pour atteindre une précision donnée en utilisant l'inégalité des accroissements finis.\n6.  Implémenter la méthode de Newton pour résoudre l'équation $h(x) = x - e^{-x} = 0$ en utilisant la formule itérative $x_{n+1} = x_n - \\frac{h(x_n)}{h'(x_n)}$.",
+  "competences": [
+    "démontrer l'existence et l'unicité d'une solution par le TVI",
+    "analyser la convergence d'une suite définie par récurrence",
+    "appliquer le théorème du point fixe",
+    "implémenter la méthode de Newton",
+    "majorer le nombre d'itérations en utilisant l'inégalité des accroissements finis"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "interpolation polynomiale",
+    "analyse numérique",
+    "équation non linéaire",
+    "théorème des valeurs intermédiaires",
+    "point fixe",
+    "convergence",
+    "méthode de Newton",
+    "suites numériques"
+  ],
+  "concepts_fondamentaux": [
+    "théorème des valeurs intermédiaires",
+    "théorème du point fixe",
+    "méthode de Newton",
+    "suites définies par récurrence",
+    "convergence d'une suite"
+  ],
+  "prerequis": [
+    "théorème des valeurs intermédiaires",
+    "dérivation",
+    "continuité",
+    "notion de point fixe",
+    "suites numériques"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'application de la loi binomiale et son approximation par la loi normale (théorème central limite/Moivre-Laplace). Il s'agit de : \\n\\n1. Identifier et caractériser une variable aléatoire $X$ suivant une loi binomiale $\\\\mathcal{B}(n, p)$.\\n2. Justifier l'approximation de cette loi binomiale par une loi normale $\\\\mathcal{N}(\\\\mu, \\\\sigma)$ en vérifiant les conditions d'application du théorème de Moivre-Laplace et déterminer les paramètres $\\\\mu = np$ et $\\\\sigma = \\\\sqrt{np(1-p)}$.\\n3. Utiliser l'approximation normale pour estimer une valeur seuil $\\\\ell$ telle que $P(X \\\\geq \\\\ell) \\\\leq 0.025$, en utilisant la table de la loi normale centrée réduite ou une fonction quantile.",
+  "competences": [
+    "appliquer le théorème central limite pour approcher une loi binomiale par une loi normale",
+    "calculer des probabilités à partir d'une loi binomiale",
+    "interpréter les paramètres d'une loi normale",
+    "calculer des probabilités à partir d'une loi normale",
+    "utiliser une table de la loi normale centrée réduite de manière inverse"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "loi binomiale",
+    "loi normale",
+    "théorème central limite",
+    "approximation",
+    "probabilité",
+    "saturation",
+    "standard téléphonique",
+    "table loi normale"
+  ],
+  "concepts_fondamentaux": [
+    "loi binomiale",
+    "loi normale",
+    "théorème central limite (Moivre-Laplace)",
+    "approximation d'une loi binomiale par une loi normale"
+  ],
+  "prerequis": [
+    "connaissance de la loi binomiale",
+    "connaissance de la loi normale",
+    "compréhension du théorème central limite",
+    "maîtrise des calculs de probabilités",
+    "lecture de tables statistiques"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45 minutes"
+}

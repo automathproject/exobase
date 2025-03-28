@@ -1,0 +1,34 @@
+{
+  "resume": "L'exercice porte sur le calcul différentiel, et plus particulièrement sur les dérivées partielles et la règle de la chaîne. Il s'agit d'appliquer ces concepts à un problème concret, celui d'une boîte dont les dimensions ($\\ell$, $w$, $h$) varient en fonction du temps $t$. Les compétences mises en oeuvre sont: \n\n1.  Exprimer le volume $V$, la surface $S$, et la diagonale $D$ d'une boîte en fonction de ses dimensions $\\ell$, $w$, et $h$ : $V(\\ell,w,h) = \\ellwh$, $S(\\ell,w,h) = 2(wh + w\\ell + h\\ell)$ et $D(\\ell,w,h)=\\sqrt{\\ell^2+w^2+h^2}$.\n2. Calculer une dérivée partielle, en l'occurence $\\frac{\\partial D}{\\partial h}$.\n3.  Identifier et extraire les taux de variation des dimensions $\\ell'(t_0)$, $w'(t_0)$, et $h'(t_0)$ à partir des informations données.\n4.  Appliquer la règle de la chaîne pour calculer les taux de variation du volume $\\frac{\\partial V}{\\partial t}$, de la surface $\\frac{\\partial S}{\\partial t}$ et de la diagonale $\\frac{\\partial D}{\\partial t}$ en fonction du temps, en utilisant les dérivées partielles calculées précédemment et les taux de variation des dimensions.",
+  "competences": [
+    "appliquer la règle de dérivation en chaîne à plusieurs variables",
+    "calculer des dérivées partielles de fonctions de plusieurs variables",
+    "évaluer des fonctions de plusieurs variables en un point donné",
+    "interpréter le sens des dérivées partielles comme taux de variation",
+    "exprimer des relations géométriques (volume, surface, diagonale) en fonction de variables"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "dérivées partielles",
+    "règle de la chaîne",
+    "fonctions de plusieurs variables",
+    "taux de variation",
+    "volume",
+    "surface",
+    "diagonale",
+    "calcul différentiel"
+  ],
+  "concepts_fondamentaux": [
+    "dérivée partielle",
+    "règle de la chaîne",
+    "gradient",
+    "fonctions composées"
+  ],
+  "prerequis": [
+    "dérivée d'une fonction à une variable",
+    "notion de fonction à plusieurs variables",
+    "formules de volume, surface et diagonale d'un parallélépipède rectangle"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "45-60 minutes"
+}

@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'estimation d'une proportion $p$ dans une population à travers un sondage utilisant un protocole garantissant la confidentialité. Il évalue les compétences suivantes:\n\n*   **Calcul de probabilités :** Détermination de $q$ en fonction de $p$ et $a$ en utilisant le théorème des probabilités totales.\n*   **Statistiques descriptives :** Vérification qu'un estimateur $\\overline{X}$ est sans biais et convergent.\n*   **Calcul d'espérance et de variance :** Calcul de l'espérance et de la variance d'un estimateur $T_n = \\frac{\\overline{X}-1+a}{2a-1}$.\n*   **Propriétés des estimateurs :** Démonstration qu'un estimateur est sans biais et convergent.\n*   **Théorème central limite :** Justification de la convergence en loi de $\\frac{T_n-p}{\\sigma(T_n)}$ vers une loi normale centrée réduite en utilisant le théorème central limite.\n*   **Intervalle de confiance :** Construction d'un intervalle de confiance pour $p$ à un niveau de confiance $1-\\alpha$, basé sur l'approximation normale.\n*   **Application numérique :** Calcul d'une réalisation de l'intervalle de confiance avec des valeurs numériques données pour $a$, $n$, $\\overline{X}$ et $\\alpha$.",
+  "competences": [
+    "appliquer le théorème central limite",
+    "calculer l'espérance et la variance d'une variable aléatoire",
+    "interpréter un estimateur sans biais et convergent",
+    "calculer une probabilité conditionnelle avec le théorème des probabilités totales",
+    "construire un intervalle de confiance"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "statistique",
+    "estimation",
+    "sondage",
+    "confidentialité",
+    "estimateur",
+    "biais",
+    "variance",
+    "intervalle de confiance"
+  ],
+  "concepts_fondamentaux": [
+    "variables aléatoires de Bernoulli",
+    "théorème des probabilités totales",
+    "théorème central limite",
+    "estimateur sans biais",
+    "intervalle de confiance"
+  ],
+  "prerequis": [
+    "maîtrise des variables aléatoires de Bernoulli",
+    "connaissance des estimateurs et de leurs propriétés (biais, variance, convergence)",
+    "connaissance du théorème central limite",
+    "maîtrise du calcul des probabilités"
+  ],
+  "type_exercice": "Problème à étapes",
+  "temps_estime": "60-90 minutes"
+}

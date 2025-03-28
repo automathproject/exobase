@@ -1,0 +1,36 @@
+{
+  "resume": "L'exercice porte sur l'étude de la nature de séries numériques. Il évalue la capacité à déterminer si une série est absolument convergente, semi-convergente, grossièrement divergente ou divergente sans l'être grossièrement. Les compétences mises en œuvre incluent : la reconnaissance de séries de Riemann et l'application de critères de comparaison pour déterminer la convergence/divergence. Plus précisément, pour la première série $\\sum\\limits_{n \\geq 2} \\dfrac{1}{\\sqrt{n}-1} $, il faut utiliser un équivalent $\\frac{1}{\\sqrt{n}}$ pour conclure à une divergence (Riemann). Pour la seconde $\\sum\\limits_{n \\geq 0} \\dfrac{2+\\cos\\left(n^2+n+1\\right)}{n^2+n+1}$, il s'agit d'utiliser une majoration $|u_n| \\leq \\frac{3}{n^2}$ et le critère de comparaison avec une série de Riemann convergente pour conclure à l'absolue convergence.",
+  "competences": [
+    "appliquer les critères de convergence pour les séries numériques",
+    "comparer des séries numériques pour déterminer leur nature",
+    "identifier le comportement asymptotique du terme général d'une série",
+    "reconnaître les séries de Riemann convergentes et divergentes",
+    "calculer des inégalités pour majorer le terme général d'une série"
+  ],
+  "niveau_difficulte": "intermédiaire",
+  "mots_cles": [
+    "série numérique",
+    "convergence",
+    "divergence",
+    "série de Riemann",
+    "comparaison",
+    "terme général",
+    "absolue convergence",
+    "série à termes positifs"
+  ],
+  "concepts_fondamentaux": [
+    "convergence des séries",
+    "divergence des séries",
+    "critère de comparaison",
+    "séries de Riemann",
+    "terme général d'une série"
+  ],
+  "prerequis": [
+    "connaissance des suites numériques",
+    "notion de limite",
+    "définition de la convergence d'une série",
+    "propriétés des fonctions trigonométriques (cosinus)"
+  ],
+  "type_exercice": "Exercice d'application directe",
+  "temps_estime": "20-30 minutes"
+}
