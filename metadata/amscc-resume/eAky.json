@@ -1,5 +1,0 @@
-{
-  "eAky": {
-    "resume": "Cet exercice met en oeuvre la méthode des multiplicateurs de Lagrange pour trouver les extrema d'une fonction $f(x,y) = x^3 + y^3$ sous la contrainte $g(x,y) = x^2 + y^2 - 4 = 0$. Il s'agit donc d'un problème d'optimisation sous contrainte. La résolution passe par : \n1. La construction du Lagrangien $L(x, y, \\lambda) = f(x,y) - \\lambda g(x,y)$.\n2. La résolution du système d'équations $\\nabla L = 0$ afin de trouver les points stationnaires. \n3. La détermination de la nature de ces points stationnaires en étudiant le signe de la forme quadratique hessienne $Q(u, v)$ sur l'espace tangent $T$ défini par $x_0u + y_0v = 0$. L'analyse du signe de $Q(u,v)$ permet de conclure si le point stationnaire est un maximum, un minimum ou un point selle."
-  }
-}

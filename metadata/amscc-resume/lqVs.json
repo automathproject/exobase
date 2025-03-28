@@ -1,5 +1,0 @@
-{
-  "lqVs": {
-    "resume": "L'exercice porte sur la résolution d'un système linéaire $Ax=b$ par des méthodes itératives directes.\n\n1.  Il s'agit de démontrer la convergence de la méthode de Jacobi en vérifiant la dominance diagonale stricte de la matrice $A$. \n\n2.  Il s'agit d'appliquer la méthode de Jacobi, c'est-à-dire calculer les premières itérations $X_{n+1}=M^{-1}NX_n+M^{-1}b$, où $A=M-N$ est la décomposition de $A$ utilisée dans la méthode de Jacobi.\n\n3.  Il s'agit de montrer que $A$ est symétrique définie positive en calculant son polynôme caractéristique $P_A(X)$ et en vérifiant que ses valeurs propres sont strictement positives. On en déduit la convergence de la méthode de Gauss-Seidel.\n\n4.  Il s'agit d'appliquer la méthode de Gauss-Seidel, c'est-à-dire calculer les premières itérations."
-  }
-}

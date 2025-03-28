@@ -1,5 +1,0 @@
-{
-  "z2ZN": {
-    "resume": "L'exercice porte sur la loi de Cauchy. Il s'agit de:\n\n1. Vérifier qu'une fonction $f(x) = \\frac{1}{\\pi}\\frac{1}{1+x^2}$ est une densité de probabilité en montrant que $f(x) \\geq 0$ et $\\int_{-\\infty}^{+\\infty} f(x) dx = 1$.\n2. Démontrer qu'une variable aléatoire $X$ suivant cette loi n'admet pas d'espérance, c'est-à-dire que $\\mathbb{E}(X)$ n'existe pas, en montrant que l'intégrale $\\int_{-\\infty}^{+\\infty} xf(x)dx$ diverge.\n3. Calculer la fonction de répartition $F_X(t) = P(X \\leq t) = \\int_{-\\infty}^{t} f(x) dx$.\n4. Déterminer la fonction de répartition de $Y = arctan(X)$ et identifier sa loi, qui est une loi uniforme sur l'intervalle $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. "
-  }
-}

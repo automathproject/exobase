@@ -1,5 +1,0 @@
-{
-  "rsjs": {
-    "resume": "L'exercice porte sur l'optimisation quadratique et la méthode des moindres carrés. Il s'agit de déterminer les coefficients d'une parabole qui minimise la somme des carrés des distances à un nuage de points donné. Les compétences mises en œuvre sont les suivantes: \n\n*   Formuler un problème de régression parabolique comme un problème de minimisation quadratique de la forme $\\inf_{X \\in \\mathbb{R}^n} J(X)$ avec $J(X) = \\frac{1}{2} \\langle AX, X \\rangle - \\langle b, X \\rangle$, en explicitant la matrice $A$ et le vecteur $b$. La matrice $A$ est définie par $A = M^T M = \\begin{pmatrix} S_4 & S_3 & S_2 \\\\ S_3 & S_2 & S_1 \\\\ S_2 & S_1 & N \\end{pmatrix}$ et le vecteur $b$ par $b = M^T k$, où $S_k = \\sum_{i=1}^{N} t_i^k$.\n*   Discuter de l'existence de solutions en reliant le problème à celui de la projection orthogonale.\n*   Démontrer l'unicité de la solution lorsque la matrice $A$ est définie positive, en utilisant la stricte convexité de la fonction objective $J(X)$."
-  }
-}

@@ -1,5 +1,0 @@
-{
-  "tjMm": {
-    "resume": "L'exercice porte sur le calcul approché d'une intégrale $I = \\int_0^1 \\cos(x^3)e^{-x}dx$ en utilisant des méthodes de Monte Carlo. Il s'agit de reconnaître l'intégrale comme une espérance mathématique et d'appliquer la loi des grands nombres pour obtenir une approximation. Deux approches sont proposées:\n\n*   **Première approche:** Exprimer $I$ comme $\\mathbb{E}(\\cos(U^3)e^{-U})$ où $U$ suit une loi uniforme $\\mathcal{U}([0;1])$. On utilise alors la moyenne empirique de $\\cos(U_i^3)e^{-U_i}$ comme estimateur.\n*   **Deuxième approche:** Exprimer $I$ comme $\\mathbb{E}(\\cos(V^3) \\chi_{[0;1]}(V))$ où $V$ suit une loi exponentielle $\\mathcal{E}(1)$. On utilise alors la moyenne empirique de $\\cos(V_i^3) \\chi_{[0;1]}(V_i)$ comme estimateur."
-  }
-}

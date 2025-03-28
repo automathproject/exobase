@@ -1,5 +1,0 @@
-{
-  "kzan": {
-    "resume": "L'exercice porte sur l'étude de la convergence en loi d'une suite de variables aléatoires $(Y_n)$ définie à partir d'une suite de variables aléatoires i.i.d. $(X_n)$ suivant une loi normale $\\mathcal{N}(0,1)$. Il s'agit de déterminer la loi limite de $Y_n = \\frac{1}{n} \\sum_{k=1}^n \\sqrt{k} X_k$. La résolution implique le calcul de l'espérance et de la variance de $Y_n$, l'expression de $Y_n$ en fonction d'une variable $Z_n$ suivant une loi normale standard, le calcul de la fonction caractéristique $\\varphi_{Y_n}(t)$, et la détermination de sa limite lorsque $n$ tend vers l'infini. La limite obtenue, $e^{-\\frac{t^2}{4}}$, identifie la loi normale limite comme $\\mathcal{N}(0, \\frac{1}{2})$. Les compétences mises en œuvre incluent la manipulation de sommes de variables aléatoires normales indépendantes, le calcul d'espérance et de variance, l'utilisation de la fonction caractéristique et la reconnaissance de lois limites."
-  }
-}
