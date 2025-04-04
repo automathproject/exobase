@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Fraction rationnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:23.958Z",
+    "updatedAt": "2025-04-04T19:05:15.036Z",
     "resume": "L'exercice porte sur la division euclidienne de polynômes et la décomposition en éléments simples d'une fraction rationnelle. Il s'agit d'effectuer la division euclidienne de $A(X)$ par $B(X)$ pour obtenir un quotient et un reste. Ensuite, à partir de cette division, on déduit la décomposition en éléments simples de $\\frac{A(X)}{B(X)}$ en identifiant les coefficients $a, b, c,$ et $d$.",
     "competences": [
       "effectuer une division euclidienne de polynômes",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "9d11f1e6-b6d1-444c-8c34-f4b8fa9d5fe7",
+      "id": "91059697-eb38-4023-ad69-993624c6c1e6",
       "type": "description",
       "value": {
         "latex": "Soit les polynômes à coefficients réels $A(X)=X^3+2 X-5$ et $B(X)=X-1$.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "cc62d224-048c-4b21-9d1c-313f7443d3ab",
+      "id": "74da22cc-721d-489c-90b2-2cb8b3ae6801",
       "type": "question",
       "value": {
         "latex": "Effectuer la division euclidienne du polynôme $A$ par le polynôme $B$.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "74d21937-11ac-4d6c-8f68-5bb53e371c27",
+      "id": "fd915fd6-d2b6-4cea-91fe-c3ab8ecfb065",
       "type": "reponse",
       "value": {
         "latex": "On trouve : \n$$\nA(X)=X^3+2 X-5=\\underbrace{(X-1)}_{B(X)} \\left(X^2+X+3\\right)-2\n$$",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "3550459a-051b-45a0-9393-89acaa7ebd80",
+      "id": "55121a95-7e66-4e01-9282-0d0545a0a62a",
       "type": "question",
       "value": {
         "latex": "En déduire les coefficients $a, b, c$ et $d$ de la décomposition en éléments simples de $$\\frac{A(X)}{B(X)}=\\frac{X^3+2 X-5}{X-1}=a X^2+b  X+c+\\frac{d}{X-1}$$",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "c9d35676-2b23-44d7-8865-9ff33ab06f3d",
+      "id": "83633636-bf65-4da8-a58b-9fecd358f87d",
       "type": "reponse",
       "value": {
         "latex": "On en déduit :\n\t$$\n\t\\begin{aligned}\n\tF(X) & =\\frac{A(X)}{B(X)}=\\frac{X^3+2 X-5}{X-1}=\\frac{(X-1) \\left(X^2+X+3\\right)-2}{X-1} \\\\\n\t& =\\frac{(X-1) \\cdot\\left(X^2+X+3\\right)}{X-1}-\\frac{2}{X-1}=X^2+X+3-\\frac{2}{X-1}\n\t\\end{aligned}\n\t$$",

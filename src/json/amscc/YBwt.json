@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:59.750Z",
+    "updatedAt": "2025-04-04T19:02:43.840Z",
     "resume": "L'exercice porte sur les lois de probabilité discrètes et la loi conjointe d'un couple de variables aléatoires $(X, Y)$. Il évalue la capacité à:\n\n*   Déterminer une probabilité à partir de la loi conjointe.\n*   Calculer les lois marginales $P(X=x)$ et $P(Y=y)$ à partir de la loi conjointe.\n*   Vérifier l'indépendance de deux variables aléatoires en comparant $P(X=x, Y=y)$ avec $P(X=x)P(Y=y)$.\n*   Déterminer la loi de la somme de deux variables aléatoires $X+Y$, puis calculer son espérance $E[X+Y]$ et sa variance $Var[X+Y]$.",
     "competences": [
       "calculer une probabilité à partir d'une loi conjointe",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "71d4ce3c-525e-43f4-9c1c-bed7dbc205c9",
+      "id": "492e5111-d8fc-4422-aac6-bf5c2059a5e6",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires réelles discrètes dont la loi de probabilité conjointe est\n\tdonnée par le tableau ci-contre:\n\t\n\t\\begin{center}\n\t\t\\begin{tabular}{|c|c|c|c|}\n\t\t\t\\hline\n\t\t\t$X \\backslash  Y$ & 0 & 1 & 2 \\\\ \n\t\t\t\\hline\n\t\t\t0 & 1/12 &  & 5/24 \\\\\n\t\t\t\\hline \n\t\t\t1 & 1/24 & 1/48 & 5/48 \\\\ \n\t\t\t\\hline\n\t\t\t2 & 1/8 & 1/16 & 5/16\\\\\n\t\t\t\\hline\n\t\t\\end{tabular} \n\t\\end{center}",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "88a7d2a2-a8a4-4f7b-8fd2-ba774ad7939e",
+      "id": "e60fafdf-14c1-46a3-96dd-4fc73b586569",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité de l'événement $(X, Y) = (0, 1)$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "07a5872b-feb5-4718-84df-e8db51b78ea5",
+      "id": "897daabe-80c6-40d6-99a0-5cf92199e848",
       "type": "question",
       "value": {
         "latex": "Calculer les lois marginales de $X$ et de $Y$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "172fab0a-de60-4934-ad5f-2c8577fc725e",
+      "id": "67bb5d99-4004-4afb-8490-788fa14b4c71",
       "type": "question",
       "value": {
         "latex": "Les variables aléatoires $X$ et $Y$ sont-elles indépendantes ?",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "a7aa514b-dff5-49d5-96d8-166bf3bbca43",
+      "id": "52f77473-748c-40be-adc7-bf099b39d9a5",
       "type": "question",
       "value": {
         "latex": "Calculer la loi de probabilité, l'espérance et la variance de $X + Y$.",

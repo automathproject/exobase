@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Matrice",
     "sousChapitre": "Propriétés élémentaires, généralités",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:18.890Z",
+    "updatedAt": "2025-04-04T19:03:00.113Z",
     "resume": "L'exercice porte sur la résolution d'une équation matricielle du type $AB = C$, où $A$ et $C$ sont connues, et $B$ est la matrice à déterminer. Il nécessite de: \n\n*   Vérifier l'inversibilité d'une matrice $A$ (2x2).\n*   Calculer l'inverse $A^{-1}$ d'une matrice 2x2.\n*   Effectuer le produit matriciel $A^{-1}C$ pour déterminer la matrice inconnue $B$.",
     "competences": [
       "inverser une matrice 2x2",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "b47f1217-a823-499a-bb4d-1264dee7386f",
+      "id": "9b1de25d-0b0a-4ed4-984b-9ca539a30b30",
       "type": "description",
       "value": {
         "latex": "Soient $A$ et $B$ deux matrices définies par $A = \\begin{pmatrix} 2 & -1 \\\\ -1 & 4 \\end{pmatrix}$ et $AB = \\begin{pmatrix} 12 & 5 & -6 \\\\ 1 & 1 & 10 \\end{pmatrix}$.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "d0f42ec3-ef9a-4668-b3a7-6cd12a660d93",
+      "id": "fab7bf3f-fdef-4d32-ae5b-b9bc14667a23",
       "type": "question",
       "value": {
         "latex": "Déterminer $B$.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "6830c5b2-febf-4a7d-872b-1ea9de5ac72e",
+      "id": "98d75b75-a611-4b6c-b80b-d0de9a083960",
       "type": "indication",
       "value": {
         "latex": "Vérifier que $A$ est inversible et donner son inverse.",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "98eea90e-bfad-4ff9-b3d1-9c1149123c30",
+      "id": "906e12f5-941b-480c-abbf-895f1e91de3b",
       "type": "reponse",
       "value": {
         "latex": "On détermine d'abord $A^{-1}$ par pivot de Gauss ou une autre formule : $$A^{-1} = \\frac{1}{7}\\begin{pmatrix}\n\t4 & 1 \\\\ 1 & 2 \\end{pmatrix}$$\nPuis on déduit que $B = IB =  A^{-1}AB = \\begin{pmatrix} 7 & 3 & -2 \\\\ 2 & 1 & 2 \\end{pmatrix}$.",

@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-11-28",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:41.658Z",
+    "updatedAt": "2025-04-04T19:01:53.610Z",
     "resume": "L'exercice porte sur la manipulation de fonctions caractéristiques et l'identification de lois de probabilité. Il est divisé en deux parties :\\n\\n1.  **Loi de Laplace :**\\n    *   Vérification qu'une variable aléatoire $|X|$, où $X$ suit une loi de Laplace $\\\\mathcal{L}(\\\\lambda)$, suit une loi exponentielle de paramètre $\\\\lambda$.\\n    *   Calcul de la fonction caractéristique $\\\\Phi_X(t)$ d'une variable aléatoire $X$ suivant une loi de Laplace et montrer que $\\\\Phi_X(t) = \\\\frac{\\\\lambda^2}{\\\\lambda^2+t^2}$.\\n\\n2.  **Produit de variables normales :**\\n    *   Calcul de la fonction caractéristique $\\\\Phi_{Z_1Z_2}(t)$ du produit de deux variables aléatoires indépendantes $Z_1$ et $Z_2$ suivant une loi normale centrée réduite $\\\\mathcal{N}(0,1)$ sous la forme d'une intégrale : $\\\\Phi_{Z_1Z_2}(t) = \\\\int_\\\\mathbb{R} \\\\Phi_Z(tu) \\\\mathrm{e}^{-u^2 / 2} \\\\frac{1}{\\\\sqrt{2 \\\\pi}}\\\\mathrm{d}u$.\\n    *   Simplification de l'expression intégrale pour obtenir $\\\\Phi_{Z_1Z_2}(t) = \\\\frac{1}{\\\\sqrt{1+t^2}}$.\\n    *   Détermination de la loi de $Z_1Z_2 + Z_3Z_4$, où $Z_3$ et $Z_4$ sont des variables aléatoires indépendantes suivant une loi normale centrée réduite $\\\\mathcal{N}(0,1)$, et en déduire la loi de $|Z_1Z_2 + Z_3Z_4|$.",
     "competences": [
       "calculer une fonction caractéristique",
@@ -56,7 +56,7 @@
   },
   "contenu": [
     {
-      "id": "b8aa2309-013e-47bd-bd05-43c14a901069",
+      "id": "36aeb076-2a66-4a73-9d93-6d83aadbaa24",
       "type": "description",
       "value": {
         "latex": "\\underline{Définition} : la fonction caractéristique d'une variable aléatoire $U$ est la fonction définie pour tout $t \\in \\R$ par :\n$$\\Phi_U \\colon t \\longmapsto \\mathbb{E}\\left(e^{\\textbf{i}tU}\\right)$$\n\nSoit $\\lambda >0$ et soit une variable aléatoire $X$ dont la loi est définie par la densité :\n\n$$f_X \\colon x \\mapsto \\frac{\\lambda}{2} e^{-\\lambda |x|}$$\n\nOn dit alors que $X$ suit une loi de Laplace $\\mathcal{L}(\\lambda)$.",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "d40f1975-4c2a-49f6-8ec8-5ada359625d2",
+      "id": "1237197c-6187-452c-ace7-59d0a3413dc0",
       "type": "question",
       "value": {
         "latex": "Montrer que $|X|$ suit une loi exponentielle dont on précisera le paramètre.",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "80788f36-6fad-4860-9dd1-ccba69e6637a",
+      "id": "48aadec5-559f-4289-b719-7578cedd9d0c",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$, on exprime la fonction de répartition de la variable aléatoire $|X|$ :\n$$\\begin{align*}\nF_{|X|}(t) &= \\PP(|X| \\leq t) \\\\\n           &= \\begin{cases} \n           \t    \\PP(-t \\leq X \\leq t) & \\text{ si } t>0 \\\\\n           \t    0 & \\text{ sinon }\n           \t  \\end{cases}\n\\end{align*}$$\t\nSoit $t>0$ : \n$$\\begin{align*}\n \\PP(-t \\leq X \\leq t) &= \\int_{-t}^{t} \\frac{\\lambda}{2} e^{-\\lambda |x|} dx \\\\\n                       &= 2\\int_{0}^{t} \\frac{\\lambda}{2} e^{-\\lambda x} dx \\\\\n                       &= \\int_{-\\infty}^{t} \\lambda e^{-\\lambda x} \\textbf{1}_{[0;+\\infty[}(x)dx\n\\end{align*}$$\nOn en déduit que $|X|$ suit une loi exponentielle de paramètre $\\lambda$.",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "94eea1de-cbc4-4545-8fc6-7f48a55a31f7",
+      "id": "aa08e9c7-5aa5-4e66-9ed5-681fd750cda5",
       "type": "question",
       "value": {
         "latex": "Montrer que la fonction caractéristique de $X$ est $\\Phi_X \\colon t \\mapsto \\frac{\\lambda^2}{\\lambda^2+t^2}$.",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "72e073fd-7254-4bc3-aa78-d5266d52d73f",
+      "id": "eeb40e99-ac95-4b3a-b512-e8d1e5f51254",
       "type": "reponse",
       "value": {
         "latex": "Soit $t\\in \\R$. Alors \n$$\\begin{align*}\t\n\\Phi_X(t) &= \\int_{-\\infty}^{+\\infty} \\frac{\\lambda}{2} e^{\\textbf{i}tx}e^{-\\lambda |x|} dx \\\\\n          &=  \\int_{-\\infty}^{0} \\frac{\\lambda}{2} e^{x(\\lambda+\\textbf{i}t)} dx + \\int_{0}^{+\\infty} \\frac{\\lambda}{2} e^{x(-\\lambda+\\textbf{i}t)} dx \\\\\n          &= \\frac{\\lambda}{2}\\frac{1}{\\lambda+\\textbf{i}t} - \\frac{\\lambda}{2}\\frac{1}{-\\lambda+\\textbf{i}t} \\\\\n          &= \\frac{\\lambda^2}{\\lambda^2+t^2}\n\\end{align*}$$",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "1a6a45d9-e23a-469f-9c03-64e7cf2164b1",
+      "id": "a28c60b3-a9f6-45c9-9c8b-8db3182c17df",
       "type": "description",
       "value": {
         "latex": "Soient $Z_1, Z_2, Z_3, Z_4$ quatre variables aléatoires indépendantes suivant une même loi normale $\\mathcal{N}(0,1)$ .  On rappelle que si $Z$ suit une loi $\\mathcal{N}(0,1)$ alors sa fonction caractéristique est $\\Phi_Z \\colon t \\mapsto e^{-\\frac{t^2}{2}}$.",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "378d9dcf-5aed-40ea-a0c4-776533285312",
+      "id": "053c1ce6-05a4-44b8-b9df-36451ba8e5d9",
       "type": "question",
       "value": {
         "latex": "Montrer que la fonction caractéristique de la variable aléatoire $Z_1 \\times Z_2$ peut s'écrire sous cette forme : $$\\Phi_{Z_1Z_2} \\colon t \\longmapsto \\int_\\mathbb{R} \\Phi_Z(tu) \\mathrm{e}^{-u^2 / 2} \\frac{1}{\\sqrt{2 \\pi}}\\mathrm{d}u.$$",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "50b64426-5015-4b6b-8c8a-19a30b62d6b3",
+      "id": "e1926add-efeb-4257-8931-e2c025051fef",
       "type": "reponse",
       "value": {
         "latex": "Par indépendance, le couple de variables aléatoires $(Z_1,Z_2)$ a pour densité : \n$$(x,y) \\mapsto \\frac{1}{2\\pi}e^{-\\frac{x^2+y^2}{2}}$$\nDonc d'après le théorème de transfert puis le théorème de Fubini, on a pour tout $t \\in \\R$ : \n$$\\begin{align*}\t\n\t\\Phi_{Z_1Z_2}(t) &= \\iint_{\\R^2} e^{\\textbf{i}txy } \\frac{1}{2\\pi}e^{-\\frac{x^2+y^2}{2}} dxdy \\\\\n\t                 &= \\int_\\R \\left( \\int_\\R e^{\\textbf{i}txy} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x^2}{2}}dx \\right)\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{y^2}{2}}dy \\\\\n\t                 &= \\int_\\mathbb{R} \\Phi_Z(ty) \\mathrm{e}^{-y^2 / 2} \\frac{1}{\\sqrt{2 \\pi}}\\mathrm{d}y\n\\end{align*}$$",
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "f6828909-1a32-4633-ae2e-f77d1a4b1ecb",
+      "id": "53c11120-28fb-4120-a172-e9eb00a04e0f",
       "type": "question",
       "value": {
         "latex": "En déduire que : $$\\Phi_{Z_1Z_2} \\colon t \\longmapsto \\frac{1}{\\sqrt{1+t^2}}.$$",
@@ -128,7 +128,7 @@
       }
     },
     {
-      "id": "284bd06f-ff38-46b1-8900-b1aaf733240b",
+      "id": "78e3fa97-6870-4139-9b46-47f1589585e1",
       "type": "reponse",
       "value": {
         "latex": "On a pour tout $t \\in \\R$ :\n\t\t $$\\begin{align*}\n\t\t\t\\Phi_{Z_1 Z_2}(t) &=\\int_{\\mathbb{R}} \\mathrm{e}^{-y^2 \\theta^2 / 2} \\times \\mathrm{e}^{-y^2 / 2} \\frac{\\mathrm{d} y}{\\sqrt{2 \\pi}} \\\\\n\t\t\t&=\\int_{\\mathbb{R}} \\mathrm{e}^{-\\left(1+t^2\\right) y^2 / 2} \\frac{\\mathrm{d} y}{\\sqrt{2 \\pi}} \\\\\n\t\t\t&=\\frac{1}{\\sqrt{1+t^2}} \\int_{\\mathbb{R}} \\mathrm{e}^{-u^2 / 2} \\frac{\\mathrm{d} u}{\\sqrt{2 \\pi}} \\\\\n\t\t\t&=\\frac{1}{\\sqrt{1+t^2}}\n\t\\end{align*}$$",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "231e7e55-b85c-4adb-9cdf-e25ea09b5349",
+      "id": "5dcb7d94-677c-42c6-bfe3-b9c538fc3ca3",
       "type": "question",
       "value": {
         "latex": "En déduire la loi de la variable aléatoire $Z_1Z_2 + Z_3Z_4$ puis la loi de $|Z_1Z_2 + Z_3Z_4|$.",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "276a6738-98ba-4c7c-a45d-1e0d967a08cd",
+      "id": "4a4ff2af-4bb3-43c5-85df-7387ce800b2d",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $Z_3Z_4$ est indépendante de $Z_1Z_2$ et suit la même loi que $Z_1Z_2$ donc par propriété de la fonction caractéristique, pour tout $t \\in \\R$,\n$$\\begin{align*}\n  \\Phi_{Z_1Z_2 + Z_3Z_4}(t) &= \\left(\\Phi_{Z_1Z_2}(t)\\right)^2 \\\\\n  &= \\frac{1}{1+t^2}\n\\end{align*}$$\t\nOn reconnait la fonction caractéristique d'une loi de Laplace de paramètre $\\lambda = 1$. \n\nOn en déduit d'après la question 2 que la variable aléatoire $|Z_1Z_2 + Z_3Z_4|$ suit une loi exponentielle de paramètre $1$.",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Matrice",
     "sousChapitre": "Propriétés élémentaires, généralités",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:32.739Z",
+    "updatedAt": "2025-04-04T19:02:27.597Z",
     "resume": "L'exercice porte sur le calcul matriciel. Il s'agit de calculer le produit matriciel de $A^\\top \\times A$ et $A \\times A^\\top$, où $A^\\top$ est la transposée de la matrice $A$ donnée.",
     "competences": [
       "calculer un produit matriciel",
@@ -46,7 +46,7 @@
   },
   "contenu": [
     {
-      "id": "d3426b26-81d9-4f1d-b6bc-7868356f4be3",
+      "id": "9d434852-c210-433b-af95-4ba76670b9bb",
       "type": "description",
       "value": {
         "latex": "On considère la matrice $A=\\begin{pmatrix}1 & 2 & 1 & 3 \\\\ 1 & 0 & 2 & 1\\end{pmatrix}$.",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": "539803a6-62e4-4f60-a88e-c5e0ecb5a495",
+      "id": "80b67d4f-cfdc-49ad-a155-2d4d454ff509",
       "type": "question",
       "value": {
         "latex": "Calculer $A^\\top\\times A$ et $A \\times A^\\top$ où $A^\\top$ désigne la matrice transposée de $A$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "07544aa3-fc22-49d6-bc68-b1a3abf630fc",
+      "id": "ce893352-1d8a-4c81-bec4-13ccd1f3edcd",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{aligned}\n\t& A=\\left(\\begin{array}{llll}\n\t\t1 & 2 & 1 & 3 \\\\\n\t\t1 & 0 & 2 & 1\n\t\\end{array}\\right) \\Rightarrow{ }^t A=\\left(\\begin{array}{ll}\n\t\t1 & 1 \\\\\n\t\t2 & 0 \\\\\n\t\t1 & 2 \\\\\n\t\t3 & 1\n\t\\end{array}\\right) \\\\\n\t& \\left({ }^t A\\right) \\cdot A=\\left(\\begin{array}{ll}\n\t\t1 & 1 \\\\\n\t\t2 & 0 \\\\\n\t\t1 & 2 \\\\\n\t\t3 & 1\n\t\\end{array}\\right)\\left(\\begin{array}{llll}\n\t\t1 & 2 & 1 & 3 \\\\\n\t\t1 & 0 & 2 & 1\n\t\\end{array}\\right)=\\left(\\begin{array}{cccc}\n\t\t2 & 2 & 3 & 4 \\\\\n\t\t2 & 4 & 2 & 6 \\\\\n\t\t3 & 2 & 5 & 5 \\\\\n\t\t4 & 6 & 5 & 10\n\t\\end{array}\\right) \\\\\n\t& \\text { A. }\\left({ }^t A\\right)=\\left(\\begin{array}{llll}\n\t\t1 & 2 & 1 & 3 \\\\\n\t\t1 & 0 & 2 & 1\n\t\\end{array}\\right)\\left(\\begin{array}{ll}\n\t\t1 & 1 \\\\\n\t\t2 & 0 \\\\\n\t\t1 & 2 \\\\\n\t\t3 & 1\n\t\\end{array}\\right)=\\left(\\begin{array}{cc}\n\t\t15 & 6 \\\\\n\t\t6 & 6\n\t\\end{array}\\right) \\\\\n\t&\n\\end{aligned}\n$$",

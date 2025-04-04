@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Division euclidienne",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:49.043Z",
+    "updatedAt": "2025-04-04T19:04:32.581Z",
     "resume": "L'exercice porte sur la division euclidienne de polynômes. Il évalue la capacité à effectuer la division polynomiale, en identifiant le quotient et le reste. Plus précisément, il s'agit de calculer $A(X) = B(X)Q(X) + R(X)$ où $A(X)$ et $B(X)$ sont donnés, et de déterminer $Q(X)$ et $R(X)$ de sorte que $deg(R(X)) < deg(B(X))$. Les exemples proposés incluent la division de $X^4-3 X^3+4 X^2-6 X+8$ par $X-1$ et de $3 X^5+2 X^4-2 X^2+1$ par $X^3+X+2$.",
     "competences": [
       "effectuer une division euclidienne de polynômes",
@@ -48,7 +48,7 @@
   },
   "contenu": [
     {
-      "id": "cc5a2c21-2427-4236-9c62-db9234395a93",
+      "id": "3d5fa81e-bf75-4a69-b9fb-94ed32b3e84a",
       "type": "description",
       "value": {
         "latex": "Effectuer les divisions euclidiennes des polynômes définis ci-dessous.",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "f967baa4-4989-4eea-9db6-25971bb9de45",
+      "id": "5a5e54a4-61ca-4adf-8dcc-c0a07c5f086f",
       "type": "question",
       "value": {
         "latex": "$A(X)=X^4-3 X^3+4 X^2-6 X+8$, par $B(X)=X-1$;",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "a1f58494-122e-4322-af00-0f285c9e5acf",
+      "id": "0d22ec9d-173d-41cb-a57a-390e32ea2860",
       "type": "reponse",
       "value": {
         "latex": "\\begin{tabular}{r|l}\n$X^4-3 X^3+4 X^2-6 X+8$ & $X-1$ \\\\\n\\cline { 2 - 2 }$-\\left(X^4-X^3\\right)$ & $X^3-2 X^2+2 X-4$ \\\\\n\\hline$-2 X^3+4 X^2-6 X+8$ & \\\\\n$-\\left(-2 X^3+2 X^2\\right)$ & \\\\\n\\hline $2 X^2-6 X+8$ & \\\\\n$-\\left(2 X^2-2 X\\right)$ & \\\\\n\\hline$-4 X+8$ & \\\\\n$-(-4 X+4)$ & 4\n\\end{tabular}\n$$\nA(X)=X^4-3 X^3+4 X^2-6 X+8=\\underbrace{(X-1)}_{B(X)} \\cdot\\left(X^3-2 X^2+2 X-4\\right)+4\n$$",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "1583221d-5bff-45ac-bac4-35cef30bf877",
+      "id": "7cdece1a-cc72-4aed-ba07-0a422d97736f",
       "type": "question",
       "value": {
         "latex": "$C(X)=3 X^5+2 X^4-2 X^2+1$, par $D(X)=X^3+X+2$.",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "52016f76-0330-4ee2-a7ad-91acdc919387",
+      "id": "111889e0-cd38-46be-b0c5-33b0e9716a28",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{array}{r|r}\n3 X^5+2 X^4-2 X^2+1 & X^3+X+2 \\\\\n-\\left(3 X^5+3 X^3+6 X^2\\right) & 3 X^2+2 X-3 \\\\\n\\hline 2 X^4-3 X^3-8 X^2+1 & \\\\\n-\\left(2 X^4+2 X^2+4 X\\right) & \\\\\n\\hline-3 X^3-10 X^2-4 X+1 & \\\\\n-\\left(-3 X^3-3 X-6\\right) & \\\\\n\\hline-10 X^2-X+7 &\n\\end{array}\n$$\n\n$$\nC(X)=3 X^5+2 X^4-2 X^2+1=\\underbrace{\\left(X^3+X+2\\right)}_{D(X)} \\cdot\\left(3 X^2+2 X-3\\right)+\\left(-10 X^2-X+7\\right)\n$$",

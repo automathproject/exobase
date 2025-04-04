@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Equations différentielles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:38.036Z",
+    "updatedAt": "2025-04-04T19:01:50.740Z",
     "resume": "L'exercice consiste à déterminer les solutions développables en série entière d'une équation différentielle linéaire du second ordre à coefficients non constants. Il s'agit de : \n\n1.  Substituer les développements en série entière de $y$, $y'$ et $y''$ dans l'équation différentielle.\n2.  Identifier les coefficients de la série résultante à zéro pour obtenir une relation de récurrence sur les coefficients $a_n$.\n3.  Résoudre cette relation de récurrence pour exprimer les coefficients $a_n$ en fonction des premiers termes de la série.\n4.  Exprimer la solution $y(x)$ sous forme d'une série entière, puis calculer la somme de la série pour obtenir une expression explicite de la solution sur l'intervalle de convergence. La solution est de la forme $y(x)=\\frac{\\alpha x}{1-x}$.",
     "competences": [
       "résoudre une équation différentielle linéaire du second ordre",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "7a54f1bb-57f2-4f8a-a2cd-52ee7d1359be",
+      "id": "ed2a8160-b8dc-4927-a427-031d970e16c3",
       "type": "question",
       "value": {
         "latex": "Déterminer les fonctions développables en série entière au voisinage de $0$ solutions de l'équation différentielle $(E)$ suivante:\n$$ x^2(1-x)y''(x)-x(1+x)y'(x)+y(x)=0.$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "2a4a9956-afd3-438b-93be-a5250d3fab71",
+      "id": "386d55d3-2fb4-4c8f-a64d-f7d33fad55f7",
       "type": "reponse",
       "value": {
         "latex": "Soit $y$ une solution développable en série entière, de rayon de convergence $R$: on note $\\displaystyle y(x)=\\sum_{n=0}^{+\\infty} a_n x^n$ et on a\n \\[ \\forall x \\in ]-R;R[, \\qquad y'(x)=\\sum_{n=1}^{+\\infty} na_n x^{n-1} \\quad \\text{ et } \\quad y''(x)=\\sum_{n=2}^{+\\infty} n(n-1)a_n x^{n-2}.\\]\n On a les équivalences suivantes:\n $$\\begin{align*}\n  y \\text{ solution de }(E) \\ & \\Leftrightarrow \\ \n   \\forall x \\in ]-R;R[, \\ a_0+(a_2-a_1)x^2 + \\sum_{n=3}^{+\\infty} [(n^2-2n+1)a_n - (n^2-2n+1)a_{n-1}] x^n =0  \\\\\n  \\ & \\Leftrightarrow \\\n   a_0=0 \\quad \\text{ et } \\quad a_2=a_1 \\quad \\text{ et } \\quad  \\forall n \\geq 3, \\ a_n=a_{n-1}\n \\end{align*}$$\nOn en conclut que $a_0=0$ et pour tout $n\\geq 1$, $a_n=a_1$ et donc les solutions développables en série entière au voisinage de $0$ de cette équation différentielle sont les fonctions $y_\\alpha$, avec $\\alpha\\in\\R$, définies par:\n \\[ y(x)=\\alpha \\sum_{n=1}^{+\\infty} x^n\\]\n sur l'intervalle $]-1;1[$. On peut également déterminer la fonction somme, ce qui donne\n\\[\\forall x \\in ]-1;1[, \\qquad  y(x)=\\alpha x\\sum_{n=0}^{+\\infty} x^n=\\frac{\\alpha x}{1-x}.\\]",

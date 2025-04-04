@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:20.771Z",
+    "updatedAt": "2025-04-04T19:05:12.257Z",
     "resume": "L'exercice porte sur les probabilités continues et la fonction de répartition d'une variable aléatoire. Il s'agit de démontrer que la discontinuité de la fonction de répartition $F_X$ en un point $x_0$, quantifiée par le saut $p_0 = F_X(x_0) - F_X(x_0^-)$, est égale à la probabilité que la variable aléatoire $X$ prenne la valeur $x_0$, c'est-à-dire $\\mathbb{P}(X=x_0)$. La résolution utilise la limite à gauche de la fonction de répartition et le théorème de continuité décroissante des probabilités.",
     "competences": [
       "démontrer une propriété de probabilité",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "d348010b-627d-4369-b845-7a6895a450d6",
+      "id": "2bc913a9-1133-48f9-a84f-5eccb9fb0be0",
       "type": "description",
       "value": {
         "latex": "Soit $F_X$ une fonction de répartition admettant un point de discontinuité en $x_0 \\in \\R$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "f32c8a1f-1ca8-46c9-b258-c45d254dd1ae",
+      "id": "4d19708f-e0fc-4754-82f7-c4b1a3be24af",
       "type": "question",
       "value": {
         "latex": "Démontrer que le saut $p_0 = F_X(x_0)-F_X(x_0^-)$ est égal à $\\PP(X=x_0)$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "24f19cef-59b3-4197-8548-0b49f022a144",
+      "id": "6d4bc811-cc4f-4fd3-a022-37bfc112c0f7",
       "type": "reponse",
       "value": {
         "latex": "La limite à gauche se traduit par $F_X(x_0^-) = \\lim\\limits_{h_n \\to 0, h_n >0} F_X(x_0-h_n) = \\lim\\limits_{h_n \\to 0, h_n >0}\\PP(X \\leq x_0-h_n)$ donc $p_0 = \\lim_{h_n \\to 0, h_n >0} \\PP(X \\in ]x_0-h_n ; x_0])$. \n \t\n \tOr la suite d'événements $(B_n)$ définie par $B_n = \\{X \\in ]x_0-h_n ; x_0]\\}$ est décroissante donc d'après le théorème de continuité décroissante, $\\PP(B_n) \\xrightarrow[n \\to +\\infty]{} \\PP(\\bigcap B_n) = \\PP(\\{x_0\\})$.",

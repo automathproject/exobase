@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:06.104Z",
+    "updatedAt": "2025-04-04T19:02:12.699Z",
     "resume": "L'exercice porte sur une variable aléatoire continue $Y$ définie par sa densité $f(x)$. Il s'agit de :\n\n1.  Vérifier qu'une fonction donnée est bien une densité de probabilité en montrant sa positivité et que son intégrale sur $\\mathbb{R}$ vaut 1. C'est à dire: $\\int_{\\mathbb{R}} f(x) dx = 1$.\n2.  Déterminer la fonction de répartition $F_Y(y)$ associée à cette densité, définie comme $F_Y(y) = \\int_{-\\infty}^y f(t) dt$.\n3.  Calculer l'espérance $\\mathbb{E}(Y)$ de la variable aléatoire $Y$ en utilisant la formule $\\mathbb{E}(Y) = \\int_{\\mathbb{R}} y f(y) dy$.\n4.  Calculer la probabilité d'un événement impliquant $Y$ en utilisant soit l'intégrale de la densité sur l'intervalle donné, soit la fonction de répartition: $P(a < Y \\leq b) = F_Y(b) - F_Y(a)$.",
     "competences": [
       "calculer une intégrale définie",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "17116657-cfe3-4c7e-89d6-917bd716fae3",
+      "id": "8e0ce2bb-0f7e-4e45-9a8a-7c9fa3800ccb",
       "type": "description",
       "value": {
         "latex": "On considère la fonction $f$ définie par  :\n\t$$\\begin{align*}\n\t\tf(x)=\n\t\t\\begin{cases}\n\t\t\t\\frac{4}{3}(1-x)^{\\frac{1}{3}} & \\text{ si } 0\\leq x \\leq 1 \\\\\n\t\t\t0 & \\text{ sinon.}\n\t\t\\end{cases}\n\t\\end{align*}$$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "df5bac7a-f1fe-44cf-8f1c-3f24b15b232e",
+      "id": "45d90b4d-c301-474e-8cbc-14afe8421c4e",
       "type": "question",
       "value": {
         "latex": "Montrer que $f$ est une densité d'une variable aléatoire $Y$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "2d81a8b8-20ff-4aef-91a6-d5b3ea0b2337",
+      "id": "fdf9d045-fed9-4107-a9bc-138cb4f99d3b",
       "type": "reponse",
       "value": {
         "latex": "Il faut et il suffit de vérifier que $f$ est positive intégrable et $\\int_\\mathbb{R} f=1$. Le premier point est immédiat. La fonction $f$ est intégrable sur $\\mathbb{R}$ car elle est continue par morceaux à support compact.\n\t\tEnfin, on a\n\t\t$$\\begin{align*}\n\t\t\t\\int_\\mathbb{R} f(x)dx \n\t\t\t= \\int_0^1 \\frac{4}{3} (1-x)^{1/3} dx\n\t\t\t= \\left[ -(1-x)^{4/3}\\right]_0^1\n\t\t\t=1.\n\t\\end{align*}$$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "308a56c7-1d63-4123-868a-8ebac023b6c8",
+      "id": "7a20b24d-6d8e-4fb5-a278-f431438f087e",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition $F$ de la variable $Y$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "db577ad5-0815-4205-9a4c-100303964a27",
+      "id": "a6725858-9b92-4428-9138-89f84b0e7036",
       "type": "reponse",
       "value": {
         "latex": "Par définition, pour tout $y\\in\\mathbb{R}$, on a $F_Y(y)=\\int_{-\\infty}^y f(t)dt$. Alors\n\t\t\\begin{itemize}\n\t\t\t\\item si $y<0$, $F_Y(y)=0$,\n\t\t\t\\item si $0\\leq y \\leq 1$, \n\t\t\t$F_Y(y)=\\int_0^y \\frac{4}{3} (1-x)^{1/3} dx\n\t\t\t= \\left[ -(1-x)^{4/3}\\right]_0^y\n\t\t\t=1-(1-y)^{4/3}$\n\t\t\t\\item si $y>1$, $F_Y(y)=1$.\n\t\\end{itemize}",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "993a9a4c-4fb4-4988-a276-03f43136d79a",
+      "id": "0e293224-62b3-48fc-b176-bb3a977b76a9",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de la variable $Y$.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "4c5d2b10-f218-4687-baca-54016cf35838",
+      "id": "8d99270b-8730-4b41-91e6-bd39b144bd8a",
       "type": "reponse",
       "value": {
         "latex": "L'espérance de $Y$ se calcule de la manière suivante:\n\t\t\\[ \\mathbb{E}(Y)=\n\t\t\\int_\\mathbb{R} yf(y)dy\n\t\t= \\int_0^1 \\frac{4}{3}y (1-y)^{1/3} dy,\\]\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\tet par intégration par parties,\n\t\t\\[ \\E(Y)=\\left[-y(1-y)^{4/3}\\right]_0^1 + \\int_0^1 (1-y)^{4/3}dy\n\t\t=\\left[\\frac{-3}{7}(1-y)^{7/3}\\right]_0^1=\\frac{3}{7}.\n\t\t\\]",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "c7cb9df1-de62-4ed1-a19b-08da3416f78d",
+      "id": "36c283a3-134e-43fe-8141-e0895a9ed8c5",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité de l'événement $[0.488< Y \\leq 1.2]$.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "dc4d121e-3da6-4e3a-8c13-8efa1f822ed6",
+      "id": "b81364eb-b560-4fb8-8d17-28de60259dd5",
       "type": "reponse",
       "value": {
         "latex": "Méthode 1:\n\t\t$$\\begin{align*}\n\t\t\t\\p(0.488< Y < 1.2)&= \\int_{0.488}^{1.2} f(y) dy\n\t\t\t= \\int_{0.488}^{1.2} \\frac{4}{3} (1-y)^{1/3} dy\n\t\t\t=\\left[ -(1-y)^{4/3}\\right]_{0.488}^1 \\\\\n\t\t\t&=(1-0.488)^{1/3}\n\t\t\t=0.8\n\t\t\\end{align*}$$\n\t\tMéthode 2:\n\t\t$$\\begin{align*}\n\t\t\t\\p(0.488< Y < 1.2)&= F_Y(1.2)-F_Y(0.488) \\\\\n\t\t\t&=1-[1-(1-0.488)^{1/3}] \\\\\n\t\t\t&=(1-0.488)^{1/3} \\\\\n\t\t\t&=0.8\n\t\\end{align*}$$",

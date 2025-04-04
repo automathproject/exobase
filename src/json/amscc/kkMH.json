@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:42.087Z",
+    "updatedAt": "2025-04-04T19:03:18.692Z",
     "resume": "L'exercice porte sur la détermination de la loi de la somme de deux variables aléatoires indépendantes suivant une loi normale centrée réduite. Il met en œuvre les compétences suivantes: calcul de la densité de probabilité d'une somme de variables aléatoires indépendantes par convolution, simplification d'expressions exponentielles avec des carrés, reconnaissance de la forme d'une densité normale, et identification des paramètres (moyenne $\\mu$ et écart-type $\\sigma$) de la loi normale résultante $\\mathcal{N}(0, \\sqrt{2})$. La convolution est calculée par l'intégrale : $h(s) = \\frac{1}{2\\pi}\\int_{\\R}^{} e^{-\\frac{(s-x)^2}{2}} e^{-\\frac{x^2}{2}} dx$",
     "competences": [
       "calculer une intégrale impropre",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "307ef6f0-f3ba-4f8e-9794-81013f6d949e",
+      "id": "3f997a77-8173-4acf-8033-322fd53b47d7",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune une loi $\\mathcal{N}(0,1)$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "a0d78f3a-4dbb-47ef-83b4-8b611f7188b2",
+      "id": "3f9ae91f-94a1-4a2f-a45b-030872525d2d",
       "type": "question",
       "value": {
         "latex": "Déterminer  la loi de $S=X+Y$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "0dcf4d15-f60d-4765-a78d-3bf034168ad5",
+      "id": "6af08cee-8911-40de-bcb3-08665b9a5d1a",
       "type": "reponse",
       "value": {
         "latex": "Si $X$ et $Y$ suivent chacune une loi $\\mathcal{N}(0,1)$, alors $S=X+Y$ admet une densité $h$ définie par\n\t$$h(s) = \\frac{1}{2\\pi}\\int_{\\R}^{} e^{-\\frac{(s-x)^2}{2}} e^{-\\frac{x^2}{2}} dx$$\n\t\n\tOr $-(s-x)^2-x^2 = -\\frac{s^2}{2} - 2 (x-\\frac{s}{2})^2$ donc \n\t\n\t$$h(s) = \\frac{1}{2\\pi} e^{-\\frac{s^2}{4}} \\int_{\\R}^{} e^{-(x-\\frac{s}{2})^2 } dx =  \\frac{1}{2\\pi} e^{-\\frac{s^2}{4}} \\times \\sqrt{\\pi} = \\frac{1}{\\sqrt{2}\\sqrt{2\\pi}}e^{-\\frac{s^2}{2\\sqrt{2}^2}}$$\n\t\n\tDonc $S$ suit une loi normale de moyenne $\\mu=0$ et d'écart-type $\\sigma=\\sqrt{2}$.",

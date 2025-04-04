@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Division euclidienne",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:22.063Z",
+    "updatedAt": "2025-04-04T19:02:20.577Z",
     "resume": "L'exercice porte sur la division euclidienne de $X^n$ par $X^3 + X^2 + X + 1$. Les compétences évaluées sont:\n\n1.  **Factorisation de polynômes:** Identifier une racine évidente et factoriser un polynôme de degré 3. Déterminer les racines complexes.\n2.  **Division euclidienne :** Justifier l'existence du quotient $Q_n(X)$ et du reste $R_n(X) = a_nX^2 + b_nX + c_n$ de la division euclidienne.\n3.  **Calcul des coefficients du reste:** Utiliser les racines du diviseur pour exprimer $a_n$, $b_n$ et $c_n$ en résolvant un système d'équations linéaires. Distinguer les cas $n$ pair et $n$ impair. Exprimer le reste en fonction de $n$.",
     "competences": [
       "résoudre un système d'équations linéaires",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "743071dc-44d1-4846-a540-62475e770b89",
+      "id": "1cd9f8a6-b30b-4ac3-ba43-0050ce5fb96d",
       "type": "description",
       "value": {
         "latex": "On cherche, pour tout $n \\in \\mathbb{N}$, le reste de la division euclidienne du polynôme $P(X)=X^n$ par $X^3+X^2+X+1$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "8d5efd2e-1414-4bfd-9cfb-2f401d03e8b5",
+      "id": "eb7447cf-b3b9-4a41-825e-40dd1b4389d3",
       "type": "question",
       "value": {
         "latex": "Déterminer une racine évidente de $X^3+X^2+X+1$, et factoriser le polynôme. Quelles sont ses racines dans $\\mathbb{C}$ ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "8fb0392f-3826-475a-bd0c-62a4bbd1142a",
+      "id": "6bf17a35-6fcb-457b-99b0-de00ff884857",
       "type": "reponse",
       "value": {
         "latex": "Soit $T(X)=X^3+X^2+X+1$\nOn remarque que $T(-1)=(-1)^3+(-1)^2+(-1)+1=-1+1-1+1=0$. Ainsi : $-1$ est racine de $T$ ou encore $(X+1)$ divise $T(X)$ :\n$$\n\\begin{aligned}\nT(X) & =X^2+X+X^2+1=X\\left(X^2+1\\right)+X^2+1=(X+1)\\left(X^2+1\\right) \\\\\n& =(X+1)(X+i)(X-i)\n\\end{aligned}\n$$\nLes racines de $T(X)$ dans $\\mathbb{C}$ sont : $-1, i$ et $-i$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "bc2bccef-55e6-43fb-ae7f-7005e0e1fffc",
+      "id": "8bee3f6c-bf24-4ae5-8faa-de360e437ac4",
       "type": "question",
       "value": {
         "latex": "Justifier l'existence d'un polynôme $Q_n(X)$ et de trois réels $a_n, b_n$ et $c_n$ tels que :\n$$\nX^n=\\left(X^3+X^2+X+1\\right)  Q_n(X)+a_n X^2+b_n X+c_n\n$$\nOn ne demande pas de déterminer $Q_n(X)$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "12409700-8dc8-4e11-a471-c691646b9b5c",
+      "id": "6ac4e716-df94-47da-88b1-a995be830fe2",
       "type": "reponse",
       "value": {
         "latex": "Par la division euclidienne de $P(X)$ par $T(X)$, il existe deux polynômes $Q_n(X)$ et $R_n(X)$ tels que :\n$$\nP(X)=T(X)  Q_n(X)+R_n(X)\n$$\nAvec $d^{\\circ}\\left(R_n\\right)<d^{\\circ}(T)=3$. Ainsi il existe trois réels $a_n, b_n$ et $c_n$ tels que :\n$$\nR_n(X)=a_n X^2+b_n X+c_n \\text {. }\n$$",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "07aa2775-1bf7-4c27-a6fa-2b94f9c49da6",
+      "id": "3e7ec627-23b3-4a54-8129-77475c38bad2",
       "type": "question",
       "value": {
         "latex": "Exprimer $P(-1), P(i)$ et $P(-i)$ en fonction de $a_n, b_n$ et $c_n$, et en déduire l'expression du reste de la division euclidienne de $P(X)$ par $X^3+X^2+X+1$. On distinguera deux cas : $n=2 p$ (cas $n$ pair) et $n=2 p+1$ (cas $n$ impair).",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "d30b121c-9e18-4aab-86ab-2829076f5ed3",
+      "id": "9e40365b-3c8b-401d-9e0d-805e5c758b2f",
       "type": "reponse",
       "value": {
         "latex": "$$\nP(X)=X^n=\\underbrace{\\left(X^3+X^2+X+1\\right)}_{=T(X)} \\cdot Q_n(X)+a_n X^2+b_n X+c_n\n$$\nOn a :\n- $P(-1)=(-1)^n=\\underbrace{T(-1)}_{=0} \\cdot Q_n(-1)+a_n(-1)^2+b_n(-1)+c_n$, donne :\n$$\n\\begin{array}{ll}\nn=2 p: & (-1)^{2 p}=1=a_n-b_n+c_n \\\\\nn=2 p+1: & (-1)^{2 p+1}=-1=a_n-b_n+c_n\n\\end{array}\n$$\n- $P(i)=(i)^n=T(i) \\cdot Q_n(i)+a_n(i)^2+b_n(i)+c_n$, donne :\n$$\n=0\n$$\n$$\n\\begin{array}{ll}\nn=2 p: & (i)^{2 p}=(-1)^p=-a_n+i b_n+c_n \\\\\nn=2 p+1: & (i)^{2 p+1}=(-1)^p \\cdot i=-a_n+i b_n+c_n\n\\end{array}\n$$\n- $P(-i)=(-i)^n=T(-i) \\cdot Q_n(-i)+a_n(-i)^2+b_n(-i)+c_n$, donne :\n$$\n\\begin{array}{ll}\n=0 & (-i)^{2 p}=(-1)^p=-a_n-i b_n+c_n \\\\\nn=2 p: & (-i)^{2 p+1}=-(-1)^p i=-a_n-i b_n+c_n\n\\end{array}\n$$\nAinsi :\n- Pour $n=2 p$ :\n$$\n\\begin{aligned}\n& \\left\\{\\begin{array} { c c c } \n{ a _ { n } - b _ { n } + c _ { n } = 1 } & { \\ell _ { 1 } } \\\\\n{ - a _ { n } + i b _ { n } + c _ { n } = ( - 1 ) ^ { p } } \\\\\n{ - a _ { n } - i b _ { n } + c _ { n } = ( - 1 ) ^ { p } }\n\\end{array} \\Leftrightarrow \\begin{array} { c } \n{ \\ell _ { 2 } + \\ell _ { 1 } } \\\\\n{ \\ell _ { 3 } + \\ell _ { 1 } }\n\\end{array} \\left\\{\\begin{array}{c}\na_n-b_n+c_n=1 \\\\\n(-1+i) b_n+2 c_n=1+(-1)^p \\\\\n(-1-i) b_n+2 c_n=1+(-1)^p\n\\end{array}\\right.\\right. \\\\\n& \\Leftrightarrow \\quad \\begin{array}{c}\n\\ell_1 \\\\\n\\ell_2 \\\\\n\\ell_3-\\ell_2\n\\end{array}\\left\\{\\begin{array} { c } \n{ a _ { n } - b _ { n } + c _ { n } = 1 } \\\\\n{ ( - 1 + i ) b _ { n } + 2 c _ { n } = 1 + ( - 1 ) ^ { p } } \\\\\n{ 2 i b _ { n } = 0 }\n\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\na_n=\\frac{1}{2}\\left(1-(-1)^p\\right) \\\\\nc_n=\\frac{1}{2}\\left(1+(-1)^p\\right) \\\\\nb_n=0\n\\end{array}\\right.\\right. \\\\\n& X^n=\\left(X^3+X^2+X+1\\right) \\cdot Q_n(X)+\\frac{1}{2}\\left(1-(-1)^p\\right) X^2+\\frac{1}{2}\\left(1-(-1)^p\\right) \\\\\n&\n\\end{aligned}\n$$\n- Pour $n=2 p+1$ :\n$$\n\\begin{aligned}\n& \\left\\{\\begin{array}{ccc}\na_n-b_n+c_n=-1 & \\ell_1 \\\\\n-a_n+i b_n+c_n=(-1)^p . i \\\\\n-a_n-i b_n+c_n=-(-1)^p i\n\\end{array} \\Leftrightarrow \\begin{array}{c}\n\\ell_2+\\ell_1 \\\\\n\\ell_3+\\ell_1\n\\end{array}\\right\\} \\begin{array}{c}\na_n-b_n+c_n=-1 \\\\\n(-1+i) b_n+2 c_n=-1+(-1)^p . i \\int \\\\\n(-1-i) b_n+2 c_n=-1-(-1)^p i\n\\end{array} \\\\\n& \\Leftrightarrow \\quad \\begin{array}{c}\n\\ell_2 \\\\\n\\ell_3-\\ell_2\n\\end{array}\\left\\{\\begin{array} { c } \n{ a _ { n } - b _ { n } + c _ { n } = - 1 } \\\\\n{ ( - 1 + i ) b _ { n } + 2 c _ { n } = - 1 + ( - 1 ) ^ { p } . i } \\\\\n{ 2 i b _ { n } = 2 ( - 1 ) ^ { p } i }\n\\end{array} \\Leftrightarrow \\quad \\begin{array} { c } \n{ \\ell _ { 1 } } \\\\\n{ \\ell _ { 2 } } \\\\\n{ \\ell _ { 3 } - \\ell _ { 2 } }\n\\end{array} \\left\\{\\begin{array}{c}\na_n=\\frac{1}{2}\\left(-1+(-1)^p\\right) \\\\\nc_n=\\frac{1}{2}\\left(-1+(-1)^p\\right) \\\\\nb_n=(-1)^p\n\\end{array}\\right.\\right. \\\\\n& X^n=\\left(X^3+X^2+X+1\\right) \\cdot Q_n(X)+\\frac{1}{2}\\left(-1+(-1)^p\\right) X^2+(-1)^p X+\\frac{1}{2}\\left(-1+(-1)^p\\right) \\\\\n&\n\\end{aligned}\n$$",

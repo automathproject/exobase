@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:24.918Z",
+    "updatedAt": "2025-04-04T19:02:21.931Z",
     "resume": "L'exercice porte sur l'étude d'une variable aléatoire continue $X$ définie par sa densité. Les compétences évaluées sont :\n\n*   Détermination du paramètre $k$ pour que $f_X$ soit une densité de probabilité en utilisant la condition $\\int_{-\\infty}^{+\\infty} f_X(x) dx = 1$.\n*   Calcul de la fonction de répartition $F_X(t) = \\int_{-\\infty}^{t} f_X(x) dx$.\n*   Calcul de probabilités conditionnelles en utilisant la formule $\\mathbb{P}(A|B) = \\frac{\\mathbb{P}(A \\cap B)}{\\mathbb{P}(B)}$.\n*   Calcul de l'espérance $\\mathbb{E}(X) = \\int_{-\\infty}^{+\\infty} xf_X(x) dx$ et de la variance $\\text{Var}(X) = \\mathbb{E}(X^2) - (\\mathbb{E}(X))^2$ en utilisant le théorème de transfert $\\mathbb{E}(X^2) = \\int_{-\\infty}^{+\\infty} x^2f_X(x) dx$.\n*   Détermination de la fonction de répartition $F_Y$ d'une variable aléatoire $Y = X^2$ et déduction de sa densité par dérivation.",
     "competences": [
       "calculer une intégrale définie",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "938ed156-efa1-4d93-a4bb-66e6bdbcfc83",
+      "id": "2e89aed0-24bb-46ed-b0ca-32e37634c5a8",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire absolument continue de densité $f$ définie sur $\\R$ par :\n$$f_X \\colon x \\mapsto \\begin{cases}\n    kx^2 & \\text{si } x \\in [-1;1] \\\\\n    0 & \\text{sinon}\n\\end{cases}$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "2e763ca7-a87f-462b-af20-fcd27e6c619a",
+      "id": "a3650a1b-e968-4f82-9266-215e9916385b",
       "type": "question",
       "value": {
         "latex": "Déterminer la valeur de $k$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "859fb125-7889-472e-9621-4a7d5350abf3",
+      "id": "9a73694b-6008-4235-b896-91b76bb7d68e",
       "type": "reponse",
       "value": {
         "latex": "Pour que $f_X$ soit une densité, il faut que $\\int_{\\R} f_X(x) dx = 1$. On a donc :\n    $$\\begin{align*}\n        \\int_{\\R} f_X(x) dx &= \\int_{-1}^1 kx^2 dx \\\\\n        &= \\left[ \\frac{k}{3}x^3 \\right]_{-1}^1 \\\\\n        &= \\frac{2k}{3} = 1\n    \\end{align*}$$\n    Donc $k = \\frac{3}{2}$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "663f2219-9ec0-47dc-b16d-3e90bb65fd5a",
+      "id": "4a7687f8-ccca-4361-bcb2-11840ac8d984",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition $F_X$ de $X$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "46a1ba99-fea5-42ae-b63a-d0edf2583ea2",
+      "id": "ed44622e-e402-40f1-8a16-994a8486910e",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n        F_X \\colon t \\mapsto \\begin{cases}\n            0 & \\text{si } t < -1 \\\\\n            \\frac{3}{2} \\int_{-1}^t x^2 dx & \\text{si } t \\in [-1;1] \\\\\n            1 & \\text{si } t > 1\n        \\end{cases}\n    \\end{align*}$$\n    donc :\n    $$\\begin{align*}\n        F_X \\colon x \\mapsto \\begin{cases}\n            0 & \\text{si } t < -1 \\\\\n            \\frac{1}{2}t^3 + \\frac{1}{2} & \\text{si } t \\in [-1;1] \\\\\n            1 & \\text{si } t > 1\n        \\end{cases}\n    \\end{align*}$$",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "1f9e05b1-517b-4ed9-93f0-370172a5e6b6",
+      "id": "e988c6e0-998f-4fc7-a895-ea5b82afdbb7",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité conditionnelle $\\prob(X \\leq \\frac{1}{2} \\mid X > 0)$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "c3e6eb43-41f8-4df8-9f30-26dfc856fc68",
+      "id": "0e4d320c-fe1a-4fc1-ab9d-5f04c49f4820",
       "type": "reponse",
       "value": {
         "latex": "D'après la formule des probabilités conditionnelles, on a :\n$$\\begin{align*}\n    \\prob(X \\leq \\frac{1}{2} \\mid X > 0) &= \\frac{\\prob(X \\leq \\frac{1}{2} \\cap X > 0)}{\\prob(X > 0)} \\\\\n    &= \\frac{\\prob(0 < X \\leq \\frac{1}{2})}{\\prob(X > 0)}\n\\end{align*}$$\nOr $\\prob(X>0) = 1 - \\prob(X \\leq 0) = 1 - F_X(0) = 1 - \\frac{1}{2} = \\frac{1}{2}$ et : \n$$\\begin{align*}\n    \\prob(0 < X \\leq \\frac{1}{2}) &= F_X(\\frac{1}{2}) - F_X(0) \\\\\n    &= \\frac{1}{2}(\\frac{1}{2})^3 + \\frac{1}{2} - \\frac{1}{2} \\\\\n    &= \\frac{1}{16} \n\\end{align*}$$\nDonc $\\prob(X \\leq \\frac{1}{2} \\mid X > 0) = \\frac{\\frac{1}{16}}{\\frac{1}{2}} = \\frac{1}{8}$.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "357e0e8f-e76f-419b-8b9c-ff1d1b4d6a49",
+      "id": "3a7506c4-148e-4785-8662-65f440ca0e77",
       "type": "question",
       "value": {
         "latex": "Calculer $\\E(X)$ et $\\var(X)$.",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "d7defb6e-771f-40af-bb23-207b8d6045dd",
+      "id": "7657357e-482d-4890-877d-75984075d683",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n        \\E(X) &= \\int_{\\R} xf_X(x) dx \\\\\n        &= \\int_{-1}^1 x \\frac{3}{2}x^2 dx \\\\\n        &= \\left[ \\frac{3}{8}x^4 \\right]_{-1}^1 \\\\\n        &= 0\n    \\end{align*}$$\n    D'après le théorème de transfert, on a : \n    $$\\begin{align*}\n        \\E(X^2) &= \\int_{\\R} x^2 f_X(x) dx \\\\\n        &= \\int_{-1}^1 x^2 \\frac{3}{2}x^2 dx \\\\\n        &= \\left[ \\frac{3}{10}x^5 \\right]_{-1}^1 \\\\\n        &= \\frac{3}{5}\n    \\end{align*}$$\n    Donc $\\var(X) = \\E(X^2) - \\E(X)^2 = \\frac{3}{5}$.",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "37eac71a-b5d4-4f0d-9f41-e9885e106dd3",
+      "id": "6f728259-257d-4bda-a4f9-9e7f93149820",
       "type": "question",
       "value": {
         "latex": "Soit $Y = X^2$. Déterminer la fonction de répartition $F_Y$ de $Y$ et en déduire sa densité.",
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "82d87a44-199e-4487-9760-7914cfa65af6",
+      "id": "a521f7ad-3b1d-4f82-bb8b-1d5261191cc1",
       "type": "reponse",
       "value": {
         "latex": "Par définition, si $t \\in \\R$ alors $F_Y(t) = \\prob(Y \\leq t) = \\prob(X^2 \\leq t)$. Donc : \n    $$F_Y(t) = \\begin{cases}\n        0 & \\text{si } t < 0 \\\\\n        \\prob(-\\sqrt{t} \\leq X \\leq \\sqrt{t}) & \\text{si } t \\geq 0\n    \\end{cases}$$\n    Or si $t \\geq 0$, $\\prob(-\\sqrt{t} \\leq X \\leq \\sqrt{t}) = F_X(\\sqrt{t}) - F_X(-\\sqrt{t}) = \\begin{cases}\n        1 & \\text{si } t \\geq 1 \\\\\n        \\left[ \\frac{1}{2} x^3 \\right]_{-\\sqrt{t}}^{\\sqrt{t}} = t\\sqrt{t} & \\text{si } t \\in [0;1]\n    \\end{cases}$.\n\n    En définitive, $$F_Y(t) = \\begin{cases}\n        0 & \\text{si } t < 0 \\\\\n        t\\sqrt{t} & \\text{si } t \\in [0;1] \\\\\n        1 & \\text{si } t \\geq 1\n    \\end{cases}$$\nPar dérivation de la fonction de répartition, on obtient la densité de $Y$ : \n$$f_Y(t) = \\begin{cases}\n    \\frac{3}{2}\\sqrt{t} & \\text{si } t \\in [0;1] \\\\\n    0 & \\text{sinon}\n\\end{cases}$$",

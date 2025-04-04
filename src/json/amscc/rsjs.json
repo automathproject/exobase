@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-10-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Optimisation",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:10.161Z",
+    "updatedAt": "2025-04-04T19:05:00.048Z",
     "resume": "L'exercice porte sur l'optimisation quadratique et la méthode des moindres carrés. Il s'agit de déterminer les coefficients d'une parabole qui minimise la somme des carrés des distances à un nuage de points donné. Les compétences mises en œuvre sont les suivantes: \n\n*   Formuler un problème de régression parabolique comme un problème de minimisation quadratique de la forme $\\inf_{X \\in \\mathbb{R}^n} J(X)$ avec $J(X) = \\frac{1}{2} \\langle AX, X \\rangle - \\langle b, X \\rangle$, en explicitant la matrice $A$ et le vecteur $b$. La matrice $A$ est définie par $A = M^T M = \\begin{pmatrix} S_4 & S_3 & S_2 \\\\ S_3 & S_2 & S_1 \\\\ S_2 & S_1 & N \\end{pmatrix}$ et le vecteur $b$ par $b = M^T k$, où $S_k = \\sum_{i=1}^{N} t_i^k$.\n*   Discuter de l'existence de solutions en reliant le problème à celui de la projection orthogonale.\n*   Démontrer l'unicité de la solution lorsque la matrice $A$ est définie positive, en utilisant la stricte convexité de la fonction objective $J(X)$.",
     "competences": [
       "appliquer la méthode des moindres carrés",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "4afb53c7-e3ab-41c5-81d8-7b0d73c0b10e",
+      "id": "08e210d6-d13f-49ce-91ec-4d51dc35e55e",
       "type": "description",
       "value": {
         "latex": "Soit $N \\in \\mathbb{N}^*$, et $\\{(t_i, x_i)\\}_{1 \\leq i \\leq N}$ un nuage de points. On cherche à déterminer les coefficients $a$, $b$ et $c$ de la parabole $P$ d'équation $y = at^2 + bt + c$ qui minimise la somme des carrés des distances des points $(t_i, x_i)$ à cette parabole.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "55412076-3223-488e-a99e-1fdaa8a167f2",
+      "id": "4c8ad564-c0ca-4245-9770-8a1b92c06c9e",
       "type": "question",
       "value": {
         "latex": "Écrire ce problème comme un problème de minimisation quadratique, c’est-à-dire un problème de la forme\n  \\[\n  \\inf_{X \\in \\mathbb{R}^n} J(X) \\quad \\text{avec} \\quad J(X) = \\frac{1}{2} \\langle AX, X \\rangle - \\langle b, X \\rangle,\n  \\]\n  avec $A \\in \\mathcal{S}_n(\\mathbb{R})$, $b \\in \\mathbb{R}^n$. On devra donc expliciter $n$, $A$, et $b$. On utilisera la notation $S_k = \\sum_{i=1}^{N} t_i^k$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "fdcb9d54-ddd8-4de3-aeb5-cb586184f3c9",
+      "id": "0d4462ec-e92a-43a5-9ee2-3c539d25a2d2",
       "type": "reponse",
       "value": {
         "latex": "Le problème est celui de la régression parabolique pour un nuage de points $\\{(t_i, x_i)\\}_{1 \\leq i \\leq N}$, où l'on cherche la parabole $P$ d'équation $y = at^2 + bt + c$ qui minimise la somme des carrés des distances des points $(t_i, x_i)$ à cette parabole. Le problème peut s'écrire :\n  \\[\n  \\inf_{X \\in \\mathbb{R}^3} J(X) \\quad \\text{avec} \\quad X = \\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix} \\quad \\text{et} \\quad J(X) = \\sum_{i=1}^{N} (x_i - at_i^2 - bt_i - c)^2.\n  \\]\n  En écrivant $J(X) = \\|MX - k\\|^2$ avec $M = \\begin{pmatrix} t_1^2 & t_1 & 1 \\\\ \\vdots & \\vdots & \\vdots \\\\ t_N^2 & t_N & 1 \\end{pmatrix}$ et $k = \\begin{pmatrix} x_1 \\\\ \\vdots \\\\ x_N \\end{pmatrix}$, on obtient\n  \\[\n  J(X) = \\frac{1}{2} \\langle AX, X \\rangle - \\langle b, X \\rangle\n  \\]\n  avec $A = M^T M$ et $b = M^T k$. La matrice $A$ est donc donnée par :\n  \\[\n  A = \\begin{pmatrix} S_4 & S_3 & S_2 \\\\ S_3 & S_2 & S_1 \\\\ S_2 & S_1 & N \\end{pmatrix}.\n  \\]",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "d3d25392-dfa7-4a16-b231-85bd6ec725be",
+      "id": "b5bd796e-dfda-4b28-b390-0e0258bdf9e3",
       "type": "question",
       "value": {
         "latex": "Discuter de l’existence des solutions d’un tel problème.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "681213b8-6082-42b1-b4dd-82c5c7b9580f",
+      "id": "aa13fb66-ac9a-45cd-acfd-b596a47f5e42",
       "type": "reponse",
       "value": {
         "latex": "Ce problème est équivalent à celui de minimiser la distance euclidienne de $k$ au sous-espace vectoriel $\\text{Im}(M)$, qui est de dimension finie. Il s’agit donc d’un problème de projection orthogonale, qui admet toujours une solution.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "e4916348-fe2c-4e28-ae6a-4475a4c3a99c",
+      "id": "eeab3b42-904a-476b-b42d-130140b48136",
       "type": "question",
       "value": {
         "latex": "On suppose que la matrice $A$ est définie positive. Démontrer que ce problème possède une unique solution.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "13306289-7311-4f20-b7de-3a37cf25b562",
+      "id": "d2855064-383f-49f9-a8b2-847a8ec9bac2",
       "type": "reponse",
       "value": {
         "latex": "Si $A$ est définie positive, alors la fonction $J(X)$ est strictement convexe. Par conséquent, $J(X)$ possède un unique minimum sur $\\mathbb{R}^n$, donc le problème admet une unique solution.",

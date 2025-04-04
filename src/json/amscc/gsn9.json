@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:37.190Z",
+    "updatedAt": "2025-04-04T19:03:14.079Z",
     "resume": "L'exercice porte sur les variables aléatoires continues et leur densité. Il évalue la capacité à: \n\n1. Vérifier qu'une fonction donnée est une densité de probabilité en montrant que $f(x) \\geq 0$ et $\\int_{-\\infty}^{+\\infty} f(x)dx = 1$. Déterminer la fonction de répartition $F_X(t) = \\int_{-\\infty}^{t} f(x) dx$ associée à une densité donnée.\n2. Calculer la probabilité d'un intervalle $\\prob(a \\leq X \\leq b)$ en utilisant la fonction de répartition $F_X$, soit $\\prob(a \\leq X \\leq b) = F_X(b) - F_X(a)$. ",
     "competences": [
       "calculer une intégrale impropre",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "80da5667-91b4-44c6-ad36-6e4a354464d5",
+      "id": "5fd305e5-f771-43bb-8b3f-8fe0cb809c51",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda>0$ et $X$ une variable aléatoire admettant pour densité $f(x)=\\lambda e^{-\\lambda x}1_{[0;+\\infty[}(x)$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "a8c91759-48b6-4811-8aec-afe1cb5bad27",
+      "id": "2d3df9a8-f42e-4979-84e0-ca1bd061190a",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ définit bien une fonction densité, puis déterminer la fonction de répartition $F_X$ de $X$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "acccc8e2-c8b1-44e6-8e6b-4064ecffd7c9",
+      "id": "662d3843-8b3f-4191-8e8d-8759d719b11e",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de vérifier que $f(x) \\geq 0$ pour tout $x \\in \\R$ puis de calculer :\n        $$\\begin{align*}\n        \\int_{-\\infty}^{+\\infty} f(x)dx &= \\int_0^{+\\infty} \\lambda e^{-\\lambda x} dx \\\\\n                                       &= \\left[-e^{-\\lambda x}\\right]_0^{+\\infty} \\\\\n                                       &= 1\n        \\end{align*}$$\n   On détermine maintenant la fonction de répartition : soit $t \\in \\R$ ;\n   \\begin{itemize}\n       \\item si $t<0$, alors $F_X(t) = \\int_{-\\infty}^t f(x)dx = \\int_{-\\infty}^t 0 dx = 0$ ;\n       \\item si $t \\geq 0$, alors $F_X(t) = \\int_{-\\infty}^t f(x)dx = \\int_{-\\infty}^0 0 dx + \\int_0^t \\lambda e^{-\\lambda x} dx = 0 + \\left[-e^{-\\lambda x}\\right]_0^t = 1 - e^{-\\lambda t}$.\n   \\end{itemize}",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "52ebeaf6-2f76-4800-a92a-6614e08e968c",
+      "id": "abfc7bf2-5028-484f-8fc1-dd832343061e",
       "type": "question",
       "value": {
         "latex": "Exprimer $\\prob(-1 \\leq X \\leq 1)$ en fonction de $F_X$ et en déduire une valeur numérique.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "1ce18a5a-d08b-4025-96ca-ed6f4e2dc11c",
+      "id": "bad9107f-2721-4651-a108-e21206d27cd9",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n            \\prob(-1 \\leq X \\leq 1) &= F_X(1) - F_X(-1) \\\\\n                                    &= (1-e^{-\\lambda}) - 0 \\\\\n                                    &= 1-e^{-\\lambda}\n        \\end{align*}$$",

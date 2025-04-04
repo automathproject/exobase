@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:40.714Z",
+    "updatedAt": "2025-04-04T19:01:52.944Z",
     "resume": "L'exercice porte sur l'étude de la convergence d'une série numérique. Il s'agit de montrer la convergence d'une série géométrique de terme général $u_n = \frac{5}{4^n}$ et de calculer sa somme en utilisant la formule de la somme d'une série géométrique convergente : $\\sum_{n=0}^{\\infty} aq^n = \\frac{a}{1-q}$ où $|q| < 1$.",
     "competences": [
       "calculer la somme d'une série géométrique",
@@ -49,7 +49,7 @@
   },
   "contenu": [
     {
-      "id": "1e1350a2-cbc6-468e-b3ce-1fce356adca9",
+      "id": "1ce53d4f-e7e4-4ce2-97ca-049175ff09ff",
       "type": "description",
       "value": {
         "latex": "Pour tout $n \\in \\N$, on pose $u_n = \\frac{5}{4^n}$.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": "f76f6a44-a120-4c87-9399-f76044662553",
+      "id": "f29b2554-8110-4b16-a9de-2f9cd10447af",
       "type": "question",
       "value": {
         "latex": "Montrer que la série $\\displaystyle \\sum_{n\\geq 0} u_n$ converge et calculer sa somme.",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "4c21dc7a-d717-4915-96f1-ca4ebc042043",
+      "id": "f7530388-9cf6-4528-ad0d-822eb19be984",
       "type": "reponse",
       "value": {
         "latex": "On a $u_n = 5\\left(\\frac{1}{4}\\right)^n$ donc il s'agit d'une série géométrique de raison $q =  \\frac{1}{4}$. \\\\\n    Comme $|q| < 1$, la série converge et sa somme est $\\frac{u_0}{1-q} = \\frac{5}{1-\\frac{1}{4}} = \\frac{20}{3}$.",

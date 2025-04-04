@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Topologie",
     "sousChapitre": "Suite dans Rn",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:38.465Z",
+    "updatedAt": "2025-04-04T19:03:15.025Z",
     "resume": "Cet exercice évalue la capacité à : \n\n1. Calculer la norme euclidienne ($||.||_2$) d'un vecteur dans $\\R^2$, plus précisément $||X_k - \\ell||_2$ où $X_k$ est une suite de vecteurs et $\\ell$ un vecteur fixe.\n2. Déterminer la limite d'une suite de vecteurs dans $\\R^2$ en utilisant la convergence de la norme vers 0, c'est-à-dire montrer que $\\lim_{k \\to \\infty} ||X_k - \\ell||_2 = 0$ implique $\\lim_{k \\to \\infty} X_k = \\ell$.",
     "competences": [
       "calculer une norme euclidienne",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "ccbaf9dc-676e-4141-bfe7-08b743da4126",
+      "id": "5618c995-6562-412b-bcec-6818dd5c4b95",
       "type": "description",
       "value": {
         "latex": "Pour tout $k \\in \\N$, on pose \n$$X_k = \\left(\\frac{2}{1+k} , 1+e^{-k} \\right) \\in \\R^2$$",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "ab1f0672-c55a-4218-850f-534b1bed0924",
+      "id": "a76bfa9a-c162-44c0-9301-7cf714763ed7",
       "type": "question",
       "value": {
         "latex": "Soit $\\ell = (0,1)$. Calculer $||X_k-\\ell||_{2}$ où $||.||_{2}$ est la norme euclidienne.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "4ebc433a-7612-4f33-98c1-428741a7beb8",
+      "id": "5b1444fa-4d96-443b-88db-ebf98bec1d0c",
       "type": "reponse",
       "value": {
         "latex": "$||X_k-\\ell||_{2} = \\sqrt{\\left(\\frac{2}{1+k}\\right)^2 + \\left(e^{-k}\\right)^2} = \\sqrt{\\frac{4}{(1+k)^2} + e^{-2k} }$",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "ba88b67c-3dc9-43c1-8775-97db0ec91f01",
+      "id": "525a25b3-f456-4bcc-81c0-899728f5109a",
       "type": "question",
       "value": {
         "latex": "En déduire la convergence de la suite $(X_k)$ dans $\\R^2$.",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "8a2620da-cd44-446b-8328-7feffc717d97",
+      "id": "df2747dd-ebc0-41bb-94ad-8b988344a3c2",
       "type": "reponse",
       "value": {
         "latex": "$||X_k-\\ell||_{2} \\xrightarrow[k \\to +\\infty]{}0$ donc $X_k \\xrightarrow[k \\to +\\infty]{}\\ell$.",

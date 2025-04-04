@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-23",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:01.654Z",
+    "updatedAt": "2025-04-04T19:02:10.093Z",
     "resume": "Cet exercice évalue la capacité à déterminer le domaine de définition de fonctions de plusieurs variables. Il implique la manipulation d'inégalités et la prise en compte des contraintes liées aux racines carrées (argument positif ou nul, dénominateur non nul), aux logarithmes (argument strictement positif) et aux quotients (dénominateur non nul). L'exercice requiert également, si possible, la représentation graphique du domaine de définition obtenu.",
     "competences": [
       "déterminer le domaine de définition d'une fonction de plusieurs variables",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "ce0dc722-ba8e-49a3-a2cb-c1043b228fee",
+      "id": "11c8308e-08ad-4fa9-9049-3e2d7069d3ed",
       "type": "description",
       "value": {
         "latex": "Déterminer le domaine de définition des fonctions suivantes et si possible donner une représentation graphique.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "0362d02c-d96d-48bf-8353-452257acec10",
+      "id": "2c3132de-dd17-4e01-9312-f7f31e9235bb",
       "type": "question",
       "value": {
         "latex": "$f_1(x,y) = \\frac{\\sqrt{-y+x^2}}{\\sqrt{x}}$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "645af109-1a54-4b7e-8216-701d2d1bc4a0",
+      "id": "38e51663-97f8-4c6e-a29e-fa5cfd007c12",
       "type": "question",
       "value": {
         "latex": "$f_2(x,y) = \\frac{\\ln(y)}{\\sqrt{x-y}}$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "fa1a9477-7fc7-44aa-b198-46a3906de5bb",
+      "id": "ac80ef69-3c41-4f17-899e-30f8f2fd13d7",
       "type": "question",
       "value": {
         "latex": "$f_3(x,y) = \\ln(x+2y)$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "2768524d-a169-4500-817e-906002e9c024",
+      "id": "5a1c9b6c-f31e-486c-858c-b46c785fc48a",
       "type": "question",
       "value": {
         "latex": "$f_4(x,y,z) = \\frac{\\ln(x^2+1)}{yz}$",

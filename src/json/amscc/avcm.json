@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:06.591Z",
+    "updatedAt": "2025-04-04T19:02:48.622Z",
     "resume": "L'exercice évalue la compréhension des concepts de dérivées partielles, différentiabilité, continuité, classe $C^1$, et extrema locaux pour des fonctions de deux variables. Il teste la connaissance des relations entre ces concepts et des contre-exemples classiques.",
     "competences": [
       "interpréter la différentiabilité d'une fonction de deux variables",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "635eaa2a-e827-47bc-91b6-7720db5f59f2",
+      "id": "ef54645d-bd9a-4f42-b175-6cf09adef243",
       "type": "description",
       "value": {
         "latex": "Soit $f$ une fonction définie sur un ensemble $\\mathcal{D}$ de $\\mathbb{R}^2$, à valeurs dans $\\mathcal{R}$. Soit $a\\in \\mathcal{D}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "f486901d-1db5-429b-9159-c6c03dafeb7a",
+      "id": "473c38bc-05cb-4d39-b6dc-a2d62bdac926",
       "type": "question",
       "value": {
         "latex": "Dire si les affirmations suivantes sont vraies ou fausses.  On ne demande pas de justifier mais une mauvaise réponse entraîne une pénalité de points.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "521f9a80-56cf-4ad0-a3a9-11fff2251d2b",
+      "id": "917dc551-1911-4bd0-afe8-9479d43c84b5",
       "type": "question",
       "value": {
         "latex": "Si $f$ admet des dérivées partielles en $a$, alors $f$ est différentiable en a.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "8b037670-de56-47f8-a4b6-18fea7849deb",
+      "id": "574d3f2e-ea47-4d5a-835c-472f229884ab",
       "type": "reponse",
       "value": {
         "latex": "FAUX",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "19fb903f-b084-45f2-bb2e-bf0ae5a2d292",
+      "id": "463ae5b5-62fc-413f-8bd9-61dc401e94c9",
       "type": "question",
       "value": {
         "latex": "Si $f$ admet des dérivée partielles en $a$, alors $f$ est continue en $a$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "500c4d5a-723f-4886-85ef-12e89c8140b0",
+      "id": "08fd79cc-a011-4aa2-8df3-6f618f917d1c",
       "type": "reponse",
       "value": {
         "latex": "VRAI",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "2a1a86f3-105d-49a5-be3b-834fd16e2013",
+      "id": "7f005d50-8ed6-4224-997b-4a95ce712dd9",
       "type": "question",
       "value": {
         "latex": "Si $f$ est différentiable en tout point de $\\mathcal{D}$, alors $f$ est de classe $C^1$ sur $\\mathcal{D}$.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "8d9d2cf7-ad33-4452-8867-d0f2ce05abf6",
+      "id": "737159c6-e01e-4232-8e80-d3a742d1ebd7",
       "type": "reponse",
       "value": {
         "latex": "FAUX",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "c1ed145f-7102-4c28-a3fc-8d68dc2ade98",
+      "id": "671da095-d2b1-44e2-b39b-23739b96d9c0",
       "type": "question",
       "value": {
         "latex": "Si $Df(a)=0$, alors $f$ admet un extremum local en $a$.",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "336f128e-cf86-43ea-b64b-2ba55c81c832",
+      "id": "c7e7c327-77a5-46ab-bff6-66e07b03ac9f",
       "type": "reponse",
       "value": {
         "latex": "FAUX",

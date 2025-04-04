@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-04-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:12.544Z",
+    "updatedAt": "2025-04-04T19:05:02.397Z",
     "resume": "L'exercice porte sur l'étude de la limite d'une fonction $g(x,y) = \\frac{x^2+ 3y^3}{|x| + |y|}$ de deux variables au point $(0,0)$. Il évalue les compétences suivantes:\n\n1.  Détermination du domaine de définition d'une fonction de deux variables.\n2.  Calcul de limites directionnelles de la fonction en $(0,0)$ et vérification de leur égalité.\n3.  Majoration d'une expression impliquant des fonctions trigonométriques afin de simplifier l'étude de la limite.\n4.  Calcul de la limite de la fonction en $(0,0)$ en utilisant le passage en coordonnées polaires et en exploitant les majorations obtenues précédemment. On utilise ici $|x| = r|cos(\\theta)|$ et $|y| = r|sin(\\theta)|$.",
     "competences": [
       "calculer une limite de fonction à deux variables",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "4f08a3b1-c86c-4aeb-9653-7b2df456211f",
+      "id": "6963aa15-0d7c-442b-8e9c-36003cb812d7",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $g \\colon \\R^2 \\to \\R$ définie par : \n$$g(x,y) = \\frac{x^2+ 3y^3}{|x| + |y|}\\,.$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "e8ed4b54-2388-4810-ac0c-c4476ca7e04a",
+      "id": "3d7f620c-9dc7-4042-b01c-4ba41b904497",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble de définition de $g$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "57bdd460-96bc-46fb-933e-e4890347b92b",
+      "id": "d1628d1d-6ebc-4b96-bbb8-de555d0a065a",
       "type": "reponse",
       "value": {
         "latex": "Soit $(x,y) \\in \\R^2$. On a $|x| + |y| \\neq 0$ si et seulement si $x \\neq 0$ ou $y \\neq 0$. Ainsi, l'ensemble de définition de $g$ est $\\R^2 \\setminus \\{(0,0)\\}$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "a9421edf-d054-4a1a-ba80-8af03750daf2",
+      "id": "ab37f4b8-f4d3-44e5-b1f7-dd5cc2253be4",
       "type": "question",
       "value": {
         "latex": "Démontrer que  $\\lim\\limits_{h \\to 0} g(h, 0) = \\lim\\limits_{h \\to 0} g(0, h) =\\lim\\limits_{h \\to 0} g(h, h)$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "c87bb312-2b13-46b0-bbeb-8e532ffff2e5",
+      "id": "a1794c77-7c5e-46c7-b735-588a45c3680a",
       "type": "reponse",
       "value": {
         "latex": "Soit $h \\in \\R$. On a :\n\t\t$$\\begin{align*}\n\t\t\tg(h,0) &= \\frac{h^2}{|h|} = |h|, \\\\\n\t\t\tg(0,h) &= \\frac{3h^3}{|h|} = 3|h|^2, \\\\\n\t\t\tg(h,h) &= \\frac{h^2 + 3h^3}{2|h|} = \\frac{h^2(1 + 3h)}{2|h|} = \\frac{h(1 + 3h)}{2}.\n\t\t\\end{align*}$$\n\t\tDonc, $\\lim\\limits_{h \\to 0} g(h,0) = \\lim\\limits_{h \\to 0} g(0,h) = \\lim\\limits_{h \\to 0} g(h,h) = 0$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "2aac882f-bab9-4ac9-b352-28c6ceccc944",
+      "id": "3990b804-03c4-4417-896c-30d180c7b603",
       "type": "question",
       "value": {
         "latex": "On admet que pour tout $ \\theta \\in \\R$,  $|\\cos(\\theta)| + |\\sin(\\theta)| \\geq 1$. \\\\ Déterminer une fonction $m$ ne dépendant pas de $\\theta$ telle que pour tout $r > 0$ et $\\theta \\in \\R$, on ait :\n\t$$\\frac{1}{r|\\cos(\\theta)| + r|\\sin(\\theta)|} \\leq m(r)$$",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "b4fef0b3-d44a-4921-9465-395afdf590a8",
+      "id": "94de4151-4fa2-48ad-9e89-ec223cb96a33",
       "type": "reponse",
       "value": {
         "latex": "Soit $r > 0$ et $\\theta \\in \\R$. On a :\n\t\t$$\\begin{align*}\n\t\t\t\\frac{1}{r|\\cos(\\theta)| + r|\\sin(\\theta)|} & = \\frac{1}{r(|\\cos(\\theta)| + |\\sin(\\theta)|)} \\\\\n\t\t\t& \\leq \\frac{1}{r} \n\t\t\\end{align*}$$\n\t\tDonc, on peut prendre $m(r) = \\frac{1}{r}$.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "e3fc41b1-65ea-42bf-ac2b-27a5bd627279",
+      "id": "0f6eed56-e7ce-4fa2-a296-06320b257653",
       "type": "question",
       "value": {
         "latex": "Déterminer : $$\\lim\\limits_{(x,y) \\to (0,0)} g(x,y).$$",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "888304cd-8527-49b8-be26-302e44f895b6",
+      "id": "9fe27580-b7ef-4509-a0b6-fdc09fc0829a",
       "type": "reponse",
       "value": {
         "latex": "Soit $(x,y) \\in \\R^2 \\setminus \\{(0,0)\\}$. On passe en coordonnées polaires : $x = r\\cos(\\theta)$ et $y = r\\sin(\\theta)$ avec $r > 0$ et $\\theta \\in \\R$. On a :\n\n\t\t$$\\begin{align*}\n\t\t\t|g(x,y)| & = \\left|\\frac{r^2\\cos^2(\\theta) + 3r^3\\sin^3(\\theta)}{r|\\cos(\\theta)| + r|\\sin(\\theta)|}\\right| \\\\\n\t\t\t& \\leq \\frac{r^2|\\cos(\\theta)| + 3r^3|\\sin(\\theta)|}{r|\\cos(\\theta)| + r|\\sin(\\theta)|} \\\\\n\t\t\t& = r|\\cos(\\theta)| + 3r^2|\\sin(\\theta)| \\text{ d'après la question précédente } \\\\\n\t\t\t& \\leq r + 3r^2 \\text{ car } |\\cos(\\theta)| \\leq 1 \\text{ et } |\\sin(\\theta)| \\leq 1 \\\\\n\t\t\t& = r(1 + 3r) \\xrightarrow[r \\to 0]{} 0.\n\t\t\\end{align*}$$",

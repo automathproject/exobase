@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:12.115Z",
+    "updatedAt": "2025-04-04T19:02:54.225Z",
     "resume": "L'exercice porte sur les variables aléatoires et les fonctions de répartition, avec un accent sur le mélange de lois. Il évalue la capacité à: \n\n1.  Vérifier qu'une fonction donnée est une fonction de répartition. Cela implique de vérifier la continuité à droite, la croissance, et les limites en $\\pm \\infty$.\n2.  Calculer la probabilité ponctuelle $\\mathbb{P}(Z=a)$ à partir de la fonction de répartition, et déterminer si une variable aléatoire est absolument continue.\n3.  Déterminer un paramètre de loi discrète à partir des probabilités ponctuelles et calculer la fonction de répartition d'une variable aléatoire discrète.\n4.  Calculer et tracer une combinaison linéaire de fonctions de répartition. Déterminer si une fonction est une fonction de répartition en vérifiant qu'elle est croissante et comprise entre 0 et 1.\n5.  Calculer la densité de probabilité d'une variable aléatoire absolument continue en dérivant sa fonction de répartition.",
     "competences": [
       "Interpréter une fonction de répartition",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "38b4da7f-f8f8-44e8-9922-5db17d18a304",
+      "id": "ee440472-5293-48c9-bfb4-9f4a8b817317",
       "type": "description",
       "value": {
         "latex": "Soit $Z$ une variable aléatoire admettant une fonction de répartition $F_Z$ définie par :\n\t$$F_Z(x)=\\begin{cases}\n\t\t\\frac{1}{(2-x)^2} & \\text{si } x<0 \\\\\n\t\t\\frac{1}{2}  & \\text{si } 0 \\leq x<1 \\\\\n\t\t1-\\frac{1}{3x} &   \\text{si } x \\geq 1 \\\\\n\t\\end{cases}$$\n\t\n\tGraphique : \\url{https://www.geogebra.org/m/vat8nub8}",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "ae05d05e-6a06-4e8c-a7d7-3174c0d0acc8",
+      "id": "f193bedf-c7d2-43ee-8c94-c4f34742de17",
       "type": "question",
       "value": {
         "latex": "Vérifier que $F_Z$ définit bien une fonction de répartition.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "366b246b-9573-4b23-9418-1041bb29f264",
+      "id": "67fa8b74-887c-4f8d-b5b8-6bc817781350",
       "type": "reponse",
       "value": {
         "latex": "$F_Z$ est définie continue à droite et croissante sur $\\R$. De plus, on a $\\lim\\limits_{x \\to -\\infty}F_Z(x)=0$ et $\\lim\\limits_{x\\to+\\infty} F_Z(x)=1$. Il s'agit donc bien d'une fonction de répartition.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "db6c4f17-cf05-43ac-b4e1-19beddb37c37",
+      "id": "b4d6e7cb-4fe4-42a8-b07d-bd5a956e8d70",
       "type": "question",
       "value": {
         "latex": "Calculer $\\PP(Z=0)$ et $\\PP(Z=1)$. Peut-on dire que $Z$ est une variable aléatoire absolument continue ?",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "137cf110-86ca-480d-bfc2-0ca7b40f2012",
+      "id": "6980cbe9-c059-40ab-9bb3-58327139ee17",
       "type": "reponse",
       "value": {
         "latex": "$\\p(Z=0)=F_Z(0^+)-F_Z(0^-)=\\frac{1}{2}-\\frac{1}{4}=\\frac{1}{4}$.\n\t\tet $\\p(Z=1)=F_Z(1^+)-F_Z(1^-)=\\frac{2}{3}-\\frac{1}{2}=\\frac{1}{6}$. Comme $\\p(Z=0)\\neq 0$, la variable $Z$ n'est pas absolument continue.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "668551ca-e85a-49ad-9852-df6891950812",
+      "id": "47042a64-9a28-4d05-b81e-7e70373b433a",
       "type": "description",
       "value": {
         "latex": "On considère $Y \\colon \\Omega \\rightarrow \\{0;1\\}$ une variable aléatoire discrète dont la loi est définie par $\\PP(Y = k) = \\alpha \\PP(Z=k)$ pour tout $k \\in \\{0;1\\}$ où $\\alpha$ est un paramètre réel à déterminer.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "2de14186-2b72-42df-a016-749ac766d9fb",
+      "id": "d2d5cc4f-e981-444e-a687-2556fe4be5a4",
       "type": "question",
       "value": {
         "latex": "Montrer que nécessairement, $\\alpha = \\frac{12}{5}$.",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "bac78bf6-7c21-41e9-a63e-b5fac13d6822",
+      "id": "d262d64f-4742-42aa-8dbd-eaca4e88352e",
       "type": "reponse",
       "value": {
         "latex": "On a $\\p(Y=0)=\\alpha \\p(Z=0)=\\frac{1}{4}\\alpha$ et $\\p(Y=1)=\\alpha \\p(Z=1)=\\frac{1}{6}\\alpha$. Comme $\\p(Y=0)+\\p(Y=1)=1$, on en déduit que $\\alpha=\\frac{12}{5}$.",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "36b8eb51-17ee-4d53-8523-cf7e6b93d9fc",
+      "id": "e34807ca-a7bc-4e2c-b77a-9c647ef923d8",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition $F_Y$ de la variable aléatoire $Y$.",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "8d507ac6-c8d5-4db3-9bf5-7517c7419da2",
+      "id": "f69f3720-5149-409a-ae44-26117e29a5d6",
       "type": "reponse",
       "value": {
         "latex": "La fonction de répartition de $Y$ vaut\n\t\t\t$ F_Y(t)=\n\t\t\t\\begin{cases}\n\t\t\t\t0 \\text{ pour } t<0 \\\\\n\t\t\t\t\\p(Y=0) \\text{ pour } 0\\leq t <1 \\\\\n\t\t\t\t\\p(Y=0)+\\p(Y=1) \\text{ pour } t \\geq 1.\n\t\t\t\\end{cases}\n\t\t\t$ donc\n\t\t\t$ F_Y(t)=\n\t\t\t\\begin{cases}\n\t\t\t\t0 \\text{ pour } t<0 \\\\\n\t\t\t\t\\frac{3}{5} \\text{ pour } 0\\leq t <1 \\\\\n\t\t\t\t1 \\text{ pour } t \\geq 1.\n\t\t\t\\end{cases}\n\t\t\t$",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "id": "7178c7cb-bd23-44f7-8821-20b45c86016a",
+      "id": "631b2ca0-1622-42a6-9270-b38ce9f63c80",
       "type": "question",
       "value": {
         "latex": "On pose $F(x)=F_Z(x)-\\frac{5}{12}F_Y(x)$ pour tout $x \\in \\R$. Tracer le graphe de la fonction $F$.",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "id": "a80fa2a6-2520-488c-9d1b-5431087938bd",
+      "id": "e69ec40a-8af6-4c6e-8cf5-ee4ed0f25886",
       "type": "reponse",
       "value": {
         "latex": "$ F(x)=F_Z(x)-\\frac{5}{12}F_Y(x)=\n\t\t\\begin{cases}\n\t\t\t\\frac{1}{(2-x)^2} \\text{ pour } x<0 \\\\\n\t\t\t\\frac{1}{4} \\text{ pour } 0 \\leq x <1 \\\\\n\t\t\t\\frac{7}{12}-\\frac{1}{3x} \\text{ pour } x\\geq 1.\n\t\t\\end{cases}\n\t\t$",
@@ -151,7 +151,7 @@
       }
     },
     {
-      "id": "98ce8ff6-eba1-4b89-845e-4a1227b00c0d",
+      "id": "672f86b8-9614-46f8-824b-5bb93da5a74b",
       "type": "question",
       "value": {
         "latex": "Démontrer qu'en multipliant $F$ par une constante, on obtient la fonction de répartition d'une variable aléatoire que l'on notera $X$.",
@@ -159,7 +159,7 @@
       }
     },
     {
-      "id": "da0ef856-0a9f-44ef-be31-bdb25164674a",
+      "id": "7c1c6f6c-288a-4bab-98e8-d88775c4e492",
       "type": "reponse",
       "value": {
         "latex": "La fonction $\\frac{12}{7}F_Z$ est définie continue et croissante sur $\\R$. De plus, on a $\\lim\\limits_{x \\to -\\infty}\\frac{12}{7}F_Z(x)=0$ et $\\lim\\limits_{x\\to+\\infty}\\frac{12}{7} F_Z(x)=1$. Il est donc clair que $\\frac{12}{7} F$ est la fonction de répartition d'une \\va $X$, qui est absolument continue.",
@@ -167,7 +167,7 @@
       }
     },
     {
-      "id": "811e03a7-adaf-4f63-8f40-15da3fc93fe8",
+      "id": "1a393df1-76c3-42bc-a6f8-1353e546b948",
       "type": "question",
       "value": {
         "latex": "Déterminer une densité de probabilité de la variable $X$.",
@@ -175,7 +175,7 @@
       }
     },
     {
-      "id": "fbe2474c-834c-44bc-af1c-00f1d3e09204",
+      "id": "c921b527-057f-49ba-bc05-7639f61ba681",
       "type": "reponse",
       "value": {
         "latex": "Par dérivation,  \n\t\t\\[ f_X(x)= \\frac{12}{7}F'_X(x)\n\t\t\\begin{cases}\n\t\t\t\\frac{24}{7(2-x)^3} \\text{ pour } x<0 \\\\\n\t\t\t0 \\text{ pour } 0 \\leq x <1 \\\\\n\t\t\t\\frac{4}{7x^2} \\text{ pour } x\\geq 1\n\t\t\\end{cases}\n\t\t.\\]",

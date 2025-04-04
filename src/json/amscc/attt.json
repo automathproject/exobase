@@ -8,14 +8,14 @@
   "metadata": {
     "exo7id": "",
     "auteur": "Q. Liard",
-    "createdAt": "2025-03-24T17:15:06.399Z",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-04-04T19:02:48.380Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:06.399Z",
+    "updatedAt": "2025-04-04T19:02:48.380Z",
     "resume": "L'exercice porte sur la factorisation du polynôme $R(X)=X^9+X^6+X^3+1$. Il requiert les compétences suivantes: \n\n*   Calcul polynomial: développement et simplification de $(X-1)P(X)$ où $P(X)=X^3+X^2+X+1$.\n*   Recherche de racines complexes d'un polynôme (ici, $X^4-1$).\n*   Factorisation d'un polynôme en produit de facteurs irréductibles dans $\\mathbb{C}[X]$.\n*   Manipulation d'expressions polynomiales pour identifier une relation entre $R(X)$ et $P(X)$ sous la forme $R(X) = P(X^3)$.\n*   Factorisation de $X^3+1$ sur $\\mathbb{R}[X]$ et identification de ses racines complexes ($x_1 = \\exp(-i\\pi/3)$ et $\\overline{x_1}$).\n*   Déduction de la décomposition en produit de facteurs irréductibles de $R(X)$ sur $\\mathbb{C}[X]$ en utilisant les racines de $X^6+1$ données par $z_k=\\exp(i(\\pi+2k\\pi)/6)$.",
     "competences": [
       "factoriser un polynôme dans $\\mathbb{C}[X]$ et $\\mathbb{R}[X]$",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "7408c561-5eff-4a7d-aace-f517f87d6a45",
+      "id": "cdcc7600-37d5-479f-aafa-4457d1aef2fb",
       "type": "description",
       "value": {
         "latex": "L'enjeu de cet exercice est la factorisation du polynôme $R(X)=X^9+X^6+X^3+1$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "f643086c-2668-4d65-aa25-fad7fc24247b",
+      "id": "c0fb1000-d30e-4620-adfa-5a91385e0448",
       "type": "question",
       "value": {
         "latex": "Déterminer les coefficients du polynôme $Q$ donné par $Q(X)=(X-1)P(X)$ où $P$ est le polynôme $P$ défini par $P(X)=X^3+X^2+X+1$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "d47e3fc1-b5e9-4c5f-bdcd-c5e741f5c671",
+      "id": "49ad5954-5b08-40d7-bf8a-e31d55ea5dfb",
       "type": "reponse",
       "value": {
         "latex": "$Q(X)=X^4+X^3+X^2+X-X^3-X^2-X-1=X^4-1.$",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "21a76d81-e914-4998-982b-a2039b1c404a",
+      "id": "0e5ae5f1-3cab-44aa-8d47-9edaf359de08",
       "type": "question",
       "value": {
         "latex": "Donner les racines complexes de $Q$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "59bb2ffd-8ecc-49c9-97f8-c4a5918c75d9",
+      "id": "5e3d3bc1-813d-4876-aa1d-40422f9a2f1a",
       "type": "reponse",
       "value": {
         "latex": "$1$ et $-1$ sont les racines réelles de $Q$ et $-i$ et $i$ sont les racines complexes de $Q$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "84561e55-0368-4698-af03-50034a25db6b",
+      "id": "144e720a-b1aa-44c8-becc-45c47ea7956b",
       "type": "question",
       "value": {
         "latex": "En déduire une factorisation du polynôme $P$ en produit de facteurs irréductibles dans $\\mathbb{C}[X]$.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "31b4badc-d4d8-469a-a444-d78906f6a582",
+      "id": "0f5cded5-5d54-455c-be03-59784bdb58a8",
       "type": "reponse",
       "value": {
         "latex": "On peut écrire $Q$ comme un produit de facteurs de degré $1$ dans $\\mathbb{C}[X]:$ $Q(X)=(X-1)(X+1)(X-i)(X+i).$",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "1d5ce677-b852-4cfb-af67-f72588b017b8",
+      "id": "2fd7305f-b19e-4670-ae78-57d61dc0adc3",
       "type": "question",
       "value": {
         "latex": "Établir une égalité entre le polynôme $P$ et $R$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "9ef67d14-2984-4881-871e-6578081450b6",
+      "id": "bcb44a13-b79f-44b6-9b1c-5437839ed92a",
       "type": "reponse",
       "value": {
         "latex": "$R(X)=P(X^3)$",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "82678310-cfb2-4670-8630-2b7fe75e1b43",
+      "id": "d482fff9-b227-418e-ac0b-38648ba583f2",
       "type": "question",
       "value": {
         "latex": "Donner la décomposition en produit de facteurs irréductibles sur $\\mathbb{R}[X]$ de $X^3+1$.",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "id": "2b7121c2-f6e8-4d87-90c6-a38a17e338d7",
+      "id": "3277c927-9e9f-4bf9-a3ae-4d8e99a2bce0",
       "type": "reponse",
       "value": {
         "latex": "$-1$ est une racine réelle de $X^3+1$ et $X^3+1=(X+1)(X^2-X+1)$. Ainsi $x_1=\\exp(-i\\pi/3)$ et $\\overline{x_1}$ sont les racines complexes de $X^2-X+1$ donc de $X^3+1$.",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": "c07222b5-ffe5-437f-9f85-ad6406088c03",
+      "id": "6cdf3927-d6f5-468d-869e-c95d37dae347",
       "type": "question",
       "value": {
         "latex": "En déduire la décomposition en produit de facteurs irréductibles de $R$ sur $\\mathbb{C}[X]$.\\\\\n\\emph{Pour cette question on pourra utiliser que les racines complexes de $X^6+1$ sont les $z_k=\\exp(i(\\pi+2k\\pi)/6)$ avec $k=0,\\cdots{},5$.}",
@@ -149,7 +149,7 @@
       }
     },
     {
-      "id": "a2f84d9e-2d80-44a1-97fa-e1c42982bcf9",
+      "id": "aa4755e3-963c-4971-a9cf-1d48e2161202",
       "type": "reponse",
       "value": {
         "latex": "On peut écrire: \n$$R(X)=P(X^3)=(X^3+1)(X^6+1).$$ Les racines complexes de $X^6+1$ sont les $z_k=\\exp(i(\\pi+2k\\pi)/6)$ avec $k=0,\\cdots{},5$. On obtient:\n$$R(X)=(X+1)(X-x_1)(X-\\overline{x_1})\\prod_{k=0}^{5}(X-z_k).$$",

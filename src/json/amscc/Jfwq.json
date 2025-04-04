@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:06.805Z",
+    "updatedAt": "2025-04-04T19:02:12.922Z",
     "resume": "Cet exercice porte sur les séries numériques et plus précisément sur les séries télescopiques. Il évalue la capacité à : \n\n1. Décomposer une fraction rationnelle en éléments simples, c'est-à-dire trouver $a$ et $b$ tels que $\\frac{1}{n^2-1}=\\frac{a}{n-1}+\\frac{b}{n+1}$.\n2. Déterminer la convergence d'une série de terme général $\\frac{1}{n^2-1}$ et calculer sa somme en utilisant la décomposition en éléments simples et en reconnaissant une série télescopique.",
     "competences": [
       "calculer une somme de série télescopique",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "55be73b4-2ba9-4f72-b502-d0318014afdb",
+      "id": "cbe7ba30-6a9d-4fd2-99b3-745ec68f4b51",
       "type": "description",
       "value": {
         "latex": "Soit $n$ un entier naturel tel que $n\\geq 2$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "e2a69c4b-19d5-4105-86eb-3b028e933021",
+      "id": "3ecc6b2c-1d6a-4c3d-9233-2ec91359b457",
       "type": "question",
       "value": {
         "latex": "Décomposer $\\displaystyle\\frac{1}{n^2-1}$ en éléments simples, c'est-à-dire chercher des réels $a$ et $b$ tels que :\n\t\t$$\\frac{1}{n^2-1}=\\frac{a}{n-1}+\\frac{b}{n+1}.$$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "c1fd3b7d-b056-46f5-9bce-dd85141d2280",
+      "id": "8d7d457a-58e9-494d-a0b9-c00763cde6fa",
       "type": "reponse",
       "value": {
         "latex": "On remarque que $$\\frac1{n^2-1}=\\frac1{2(n-1)}-\\frac{1}{2(n+1)}$$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "284af4ff-0a83-45a6-89a4-1321ff16b841",
+      "id": "22961704-e01c-4891-bf35-8c013dfdf81f",
       "type": "question",
       "value": {
         "latex": "En déduire que la série $\\displaystyle\\sum_{n\\geq 2} \\frac{1}{n^2-1}$ converge et calculer sa somme.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "0bea7bfa-1ff0-415b-82f6-f9532f76df92",
+      "id": "647f3ca4-5fa9-4dd1-b50e-dfcd436c5c4f",
       "type": "reponse",
       "value": {
         "latex": "On écrit la somme partielle : \n\t\t\t$$\\begin{align*}\n\t\t\t\\sum_{n=2}^N \\frac1{n^2-1} &= \t\\sum_{n=2}^N \\frac1{2(n-1)}-\\frac{1}{2(n+1)} \\\\\n\t\t\t&= \\frac12 \\sum_{n=2}^N \\frac{1}{n-1} - \\frac12 \\sum_{n=2}^N \\frac{1}{n+1} \\\\\n\t\t\t&= \\frac12 \\sum_{n=1}^{N-1} \\frac{1}{n} - \\frac12 \\sum_{n=3}^{N+1} \\frac{1}{n} \\\\\n\t\t\t&= \\frac12 \\left(1 + \\frac{1}{2} + \\sum_{n=3}^{N-1} \\frac{1}{n} - \\left(\\sum_{n=3}^{N-1} \\frac{1}{n} + \\frac{1}{N} + \\frac{1}{N+1}\\right)   \\right) \\\\\n\t\t\t&= \\frac12 \\left(1 + \\frac{1}{2} - \\frac{1}{N} - \\frac{1}{N+1} \\right)\\\\\n\t\t\t&\\xrightarrow[N \\to +\\infty]{} \\frac12 \\left(1 + \\frac{1}{2}\\right) = \\frac{3}{4}\n\t\t\t\\end{align*}$$\n\t\t\tDonc la série converge et sa somme vaut $\\frac34$.",

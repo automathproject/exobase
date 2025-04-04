@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:18.136Z",
+    "updatedAt": "2025-04-04T19:05:08.912Z",
     "resume": "Cet exercice porte sur l'estimation de paramètres et la construction d'un intervalle de confiance pour la moyenne d'une population normale, à partir d'un échantillon. Il s'agit de:\n\n1.  Calculer les estimations ponctuelles de la moyenne $m$ et de la variance $\\sigma^2$ d'une population normale à partir d'un échantillon, en utilisant respectivement la moyenne empirique $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$ et la variance empirique $S^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2$. Il est également demandé de justifier le choix de ces estimateurs par leurs propriétés (sans biais et convergence).\n2.  Calculer un intervalle de confiance de niveau $90\\%$ pour la moyenne $m$, en utilisant la loi de Student, puisque la variance est inconnue. L'intervalle de confiance est donné par $IC(\\bar{X}) = [\\bar{x} - t \\times \\frac{s}{\\sqrt{n}} ; \\bar{x} + t \\times \\frac{s}{\\sqrt{n}}]$, où $t$ est un quantile de la loi de Student.",
     "competences": [
       "calculer des estimateurs ponctuels (moyenne et variance empiriques)",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "08dc68f7-07b5-4e77-906f-7835e46d4acc",
+      "id": "433997c0-53bf-4ae1-b533-11fbbb860a77",
       "type": "description",
       "value": {
         "latex": "On s'intéresse à la méthode de contrôle fiscal d'une entreprise qui consiste à vérifier la comptabilité de l'entreprise.\n\nOn considère que le temps de contrôle d'une entreprise est une variable aléatoire de loi $\\mathcal{N}\\left(m, \\sigma^2\\right)$. On réalise 7 contrôles et on obtient les temps suivants (en jours) :\n$$\n\\begin{array}{lllllll}\n\t57 & 61 & 42 & 53 & 45 & 65 & 58 .\n\\end{array}\n$$",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "6f9d0902-9a0a-456c-ba90-8ee98f7d0e1e",
+      "id": "ef7b6687-6fd9-4000-9bcf-c3dec414e4e5",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de $m$ et de $\\sigma^2$. On précisera les estimateurs utilisés en indiquant leurs propriétés.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "f69c66ef-4fbc-416e-8de9-5432fef2ace5",
+      "id": "a13dd6f6-efe5-411c-84af-8cd9639e859b",
       "type": "reponse",
       "value": {
         "latex": "On estime la moyenne $m$ à l'aide de la moyenne empirique $\\left(\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i\\right)$, qui est sans biais et convergente :\n$$\n\\bar{x}=\\frac{57+61+42+53+45+65+58}{7}=\\frac{381}{7} \\simeq 54.43\n$$\n On estime la variance $\\sigma^2$ à l'aide de la variance empirique $\\left(S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)$, qui est sans biais et convergent :\n$$\ns^2=\\frac{1}{6}\\left((57-54.43)^2+(61-54.43)^2+\\ldots+(58-54.43)^2\\right) \\simeq 69.95\n$$",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "719af7f8-0cba-46b3-8ddb-c46ea4a38baf",
+      "id": "811d45e7-f79c-4a77-ad25-b4595bf0e205",
       "type": "question",
       "value": {
         "latex": "Donner un intervalle de confiance de niveau $90 \\%$ permettant d'estimer $m$.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "fb8634c7-aa0a-4284-8ac0-296e267485a8",
+      "id": "37ba91fa-d845-4372-892c-452fe129c281",
       "type": "reponse",
       "value": {
         "latex": "Il s'agit d'un intervalle de confiance d'une moyenne dans le cas où la variance est inconnue et la loi mère de l'échantillon est une loi Normale. On a donc:\n$$\nI C(\\bar{X})=\\left[\\bar{x}-t \\times \\frac{s}{\\sqrt{n}} ; \\bar{x}+t \\times \\frac{s}{\\sqrt{n}}\\right]\n$$\navec $\\bar{x}=54.43, s=\\sqrt{69.95} \\simeq 8.36, n=7$ et $t$ est le réel tel que $\\mathbb{P}(U \\leq t)=1-\\frac{0.10}{2}=0.95$, où $U \\sim S t(6)$, c'est-à-dire $t=1.9432$. On obtient alors\n$$\nI C(\\bar{X})=[48.29 ; 60.57]\n$$",

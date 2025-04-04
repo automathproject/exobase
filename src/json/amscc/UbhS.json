@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:36.035Z",
+    "updatedAt": "2025-04-04T19:02:29.932Z",
     "resume": "Cet exercice porte sur les variables aléatoires discrètes et leur indépendance. Il met en oeuvre les compétences suivantes : \n\n*   Détermination de la loi de probabilité d'une variable aléatoire discrète $X$, représentant le nombre de boules rouges tirées sans remise.\n*   Calcul de l'espérance $E[X]$ et de la variance $Var[Y]$ de variables aléatoires discrètes.\n*   Vérification de l'indépendance de deux variables aléatoires $X$ et $Y$. L'indépendance est infirmée si $P(X=x, Y=y) \\neq P(X=x)P(Y=y)$ pour au moins une paire de valeurs $(x, y)$. Le fait que $X+Y$ soit constant implique la dépendance.",
     "competences": [
       "calculer des probabilités dans un modèle hypergéométrique",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "c23c0766-6c85-4f83-87aa-18ff6cf4a6ad",
+      "id": "22e5f4d9-bf4c-4afa-84c3-5ea234e14166",
       "type": "description",
       "value": {
         "latex": "Dans une boîte, il y a 6 boules rouges et 8 boules jaunes. On tire au hasard 3 boules de la boîte, sans remise. \n\tParmi les 3 boules tirées, on note $X$ le nombre de boules rouges et $Y$ le nombre de boules jaunes.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "2bda9564-2f40-4c9c-a0c6-146bab6d7f9c",
+      "id": "ddaa41c5-ebdc-4310-9b89-ed9d6d7bbb4c",
       "type": "question",
       "value": {
         "latex": "Expliciter la loi de $X$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "5788372d-0712-45a5-a598-a2d9f02d6af3",
+      "id": "a4141359-c65b-4049-a2f0-ecc5b41b3169",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X$, de $Y$ et la variance de $Y$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "c041f46c-bddb-4127-b2ba-e3694e292558",
+      "id": "c579e549-7e0e-4eea-906b-c0617763ab76",
       "type": "question",
       "value": {
         "latex": "Les variables $X$ et $Y$ sont-elles indépendantes ? Justifier.",

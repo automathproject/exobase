@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:41.567Z",
+    "updatedAt": "2025-04-04T19:03:18.184Z",
     "resume": "L'exercice porte sur la détermination de la loi marginale d'une variable aléatoire $X$, sachant que le couple $(X, Y)$ suit une loi uniforme sur le disque unité. Il s'agit de calculer la densité marginale $f_X(x)$ en intégrant la densité conjointe $f(x, y)$ sur toutes les valeurs possibles de $y$. La densité conjointe est $f(x,y)=\\frac{1}{\\pi} \\textbf{1}_D(x,y)$, où $D$ est le disque unité. La solution implique le calcul de l'intégrale $f_X(x) = \\int_{\\R}^{} f(x,y)dy = \\frac{1}{\\pi} \\int_{\\{y^2<1-x^2\\}}^{} dy$ et aboutit à $f_X(x) = \\frac{2}{\\pi} \\sqrt{1-x^2} \\textbf{1}_{]-1;1[}(x)$.",
     "competences": [
       "calculer une intégrale simple",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "c19f05d9-b441-49b6-9d5f-774346eaac77",
+      "id": "85eee8e3-046d-4a27-a2f3-8b5a6c7e17ec",
       "type": "description",
       "value": {
         "latex": "Supposons que $(X,Y)$ suive la loi uniforme sur le disque unité $D$ centré en $(0,0)$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "ab438731-4aa5-4521-b801-4aaabc5d4e48",
+      "id": "957677b6-5a81-4110-a5c3-c83edcb30451",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "f0b721aa-d6c5-4400-86b9-a5ad433295a2",
+      "id": "40e36160-8670-49db-8d06-5fbd978744c6",
       "type": "indication",
       "value": {
         "latex": "On pourra commencer par déterminer la densité de $(X,Y)$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "82faa667-f475-4578-96a1-948847aedb29",
+      "id": "19e926bb-ffef-492d-879c-791b2316cac3",
       "type": "reponse",
       "value": {
         "latex": "Alors $(X,Y)$ admet pour densité $f(x,y)=\\frac{1}{\\pi} \\textbf{1}_D(x,y)$. Alors $X$ admet pour densité $f_X$ définie par  $f_X(x) = \\int_{\\R}^{} f(x,y)dy = \\frac{1}{\\pi} \\int_{\\{y^2<1-x^2\\}}^{} dy$.\n\t\n\tOr $ y^2<1-x^2 \\iff \\begin{cases}\n\t\t-\\sqrt{1-x^2} < y < \\sqrt{1-x^2} \\\\\n\t\t-1<x<1\n\t\\end{cases}$ donc $$f_X(x) = \\frac{1}{\\pi} \\textbf{1}_{]-1;1[}(x)\\int_{-\\sqrt{1-x^2}}^{+\\sqrt{1-x^2}} dy =  \\frac{2}{\\pi} \\sqrt{1-x^2} \\textbf{1}_{]-1;1[}(x)$$",

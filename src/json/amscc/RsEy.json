@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-10-24",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:29.780Z",
+    "updatedAt": "2025-04-04T19:02:25.287Z",
     "resume": "Cet exercice porte sur la loi normale et sa fonction caractéristique. Il évalue les compétences suivantes :\\n\\n*   Déterminer la loi d'une variable aléatoire affine à partir d'une loi normale centrée réduite, et calculer sa fonction caractéristique en utilisant la relation $X = \\\\sigma Z + \\\\mu$.\\n*   Calculer la fonction caractéristique d'une somme de variables aléatoires indépendantes et identiquement distribuées (i.i.d.) suivant une loi normale, en utilisant la propriété que la fonction caractéristique d'une somme de variables indépendantes est le produit des fonctions caractéristiques.\\n*   Identifier la loi d'une variable aléatoire à partir de sa fonction caractéristique (en déduire que $S$ suit une loi normale).\\n*   Calculer la probabilité d'un événement impliquant une variable aléatoire suivant une loi normale, en utilisant la fonction de répartition de la loi normale et potentiellement une table ou un logiciel de calcul.",
     "competences": [
       "calculer une fonction caractéristique",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "56206065-64e8-41c5-9bce-d789a5090982",
+      "id": "41e1fa01-ba1a-4e08-9c37-3f3e833ee14d",
       "type": "description",
       "value": {
         "latex": "Soit $Z$ une variable aléatoire suivant une loi normale centrée réduite. On rappelle que la fonction caractéristique de $ Z $ est définie pour tout réel $t$ par :\n$$\\phi_Z(t)=E(e^{itZ})=e^{-\\frac{t^2}{2}}.$$",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "2f771447-160f-4430-b7e7-5111c5c3c97d",
+      "id": "c26cb1b3-359e-49b3-8183-615f8cef83cf",
       "type": "question",
       "value": {
         "latex": "Soit $\\mu$ un réel et $\\sigma$ un réel strictement positif. Sans justifier, donner la loi de $X=\\sigma Z+\\mu$, puis calculer la fonction caractéristique de $ X$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "69809d0a-428c-41e2-9bc9-d2323177f91e",
+      "id": "a6560f95-0459-45a8-a1d5-7aae28b1fd52",
       "type": "question",
       "value": {
         "latex": "Soit $(X_1,\\dots{},X_5)$ une suite de 5 variables aléatoires indépendantes et équidistribuées selon une loi normale de moyenne $\\mu=70$ et d’écart type $\\sigma=15$. Soit $S=\\displaystyle\\sum_{i=1}^{5}X_i$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "cc33c78c-e6c6-4641-b54c-1efceba5704a",
+      "id": "63a208a7-1961-4b86-bf13-18277589f2aa",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction caractéristique de $S$ et en déduire la loi de $S$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "ad945bf2-ae73-48d3-80e1-65db997baa60",
+      "id": "ecc80a34-a068-47fc-99ac-3e00cd5dcbd4",
       "type": "question",
       "value": {
         "latex": "Calculer la valeur de $P(S>450)$ à $10^{-2}$ près.",

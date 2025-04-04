@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Dérivée partielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.527Z",
+    "updatedAt": "2025-04-04T19:01:27.137Z",
     "resume": "L'exercice évalue la capacité à calculer des dérivées partielles premières et secondes d'une fonction $T(x,t)$ donnée. Il teste également la capacité à manipuler ces dérivées pour vérifier une équation aux dérivées partielles (équation de la chaleur) et à déterminer la constante $k$ dans cette équation. Les compétences mises en oeuvre incluent la dérivation de fonctions composées (exponentielle, sinus, cosinus) et la manipulation algébrique d'expressions mathématiques.",
     "competences": [
       "calculer des dérivées partielles",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "0e498b4b-d251-470f-b700-89b6650bf2cb",
+      "id": "6404a531-e132-4af0-b167-2d12691c1e80",
       "type": "description",
       "value": {
         "latex": "Une étude des glaciers a montré que la température T à l'instant t (mesuré en jours) à la profondeur $x$ (mesurée en pied) peut être modélisée par la fonction \n$$T(x,t) = T_0 + T_1e^{-\\lambda x}\\sin(\\omega t-\\lambda x)$$\noù $T_0$, $T_1$, $\\omega = \\frac{2\\pi}{365}$ et $\\lambda$ sont des constantes réelles.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "85c82b1b-50b2-447f-a1d6-44718c0ed6c3",
+      "id": "21d70574-6d1c-4421-bbfd-68eee41a58bf",
       "type": "question",
       "value": {
         "latex": "Exprimer les deux dérivées partielles de $T$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "97a040f2-1f89-43cc-a8dd-62a1ca4ab690",
+      "id": "d66fe63c-7a69-4945-b7d6-1b103c9374d7",
       "type": "reponse",
       "value": {
         "latex": "Les dérivées partielles sont définies pour tout $(x,t) \\in \\R^2$ :\n\t\t$$\\begin{align*}\n\t\t\\frac{\\partial T}{\\partial x}(x,t) &= -\\lambda T_1 e^{-\\lambda x}\\left( \\sin(\\omega t-\\lambda x)+ \\cos(\\omega t-\\lambda x)  \\right)\\\\\n\t\t\\frac{\\partial T}{\\partial t}(x,t) &= \\omega T_1 e^{-\\lambda x} \\cos(\\omega t-\\lambda x)\n\t\t\\end{align*}$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "3bb5c347-aff5-47c5-a228-0cacc458066c",
+      "id": "54c08cba-b8b9-47b3-aab5-2d011e6f570b",
       "type": "question",
       "value": {
         "latex": "Montrer que $T$ vérifie l'équation de la chaleur :\n\t$$\\frac{\\partial T}{\\partial t}(x,t) = k\\frac{\\partial^2 T}{\\partial x^2}(x,t)$$\n\tpour une certaine constante $k$ à déterminer.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "095224d0-822b-421e-bf2c-ceebd876ae11",
+      "id": "984be300-a149-424b-9b7f-25460910da7a",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de dériver une seconde fois par rapport à $x$ l'expression de $\\frac{\\partial T}{\\partial x}(x,t)$ : on trouve\n\t\t$$\\begin{align*}\n\t\t\\frac{\\partial^2 T}{\\partial x^2}(x,t) &= \\frac{\\partial}{\\partial x}\\frac{\\partial T}{\\partial x}(x,t) \\\\\n\t\t&= (-\\lambda)^2 T_1 e^{-\\lambda x} \\left( \\sin(\\omega t-\\lambda x)+ \\cos(\\omega t-\\lambda x)  \\right) + (-\\lambda)^2 T_1 e^{-\\lambda x} \\left(\\cos(\\omega t-\\lambda x)- \\sin(\\omega t-\\lambda x)\\right) \\\\\n\t\t&= 2\\lambda^2 T_1 e^{-\\lambda x} \\cos(\\omega t - \\lambda x)\t\n\t\t\\end{align*}$$\n\t\tLa constante attendue est donc $k = \\frac{\\omega}{2\\lambda^2}$.",

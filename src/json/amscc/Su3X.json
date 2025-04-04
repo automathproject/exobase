@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:30.825Z",
+    "updatedAt": "2025-04-04T19:02:26.571Z",
     "resume": "L'exercice porte sur l'approximation d'une intégrale $I = \\int_{0}^{+\\infty} x^2 e^{-\\frac{x^2}{2}} dx$ par des méthodes probabilistes, notamment la méthode de Monte Carlo. Les compétences mises en œuvre sont :\n\n1.  **Calcul d'espérance et lien avec l'intégrale** : Exprimer $\\mathbb{E}(X_i^2)$, où $X_i$ suit une loi normale centrée réduite, en fonction de l'intégrale $I$ via le théorème de transfert.  \n2.  **Loi Forte des Grands Nombres (LFGN)** : Appliquer la LFGN pour montrer la convergence presque sûre d'une moyenne empirique de $X_i^2$ vers une expression contenant $I$, soit $\\frac{1}{n}\\sum_{i=1}^n X_i^2 \\xrightarrow[n \\to \\infty]{{\\rm{p.s.}}} \\sqrt{\\frac{2}{\\pi}}I$.\n3.  **Identification de densité et fonction de répartition** : Vérifier qu'une fonction donnée $\\tilde{f}(x) = xe^{-\\frac{x^2}{2}} \\textbf{1}_{[0;+\\infty[}(x)$ est une densité de probabilité et calculer sa fonction de répartition associée $\\tilde{F}(t) = 1 - e^{-\\frac{t^2}{2}}$ pour $t>0$.\n4.  **Simulation de variable aléatoire par inversion** : Démontrer que $\\sqrt{-2\\ln(1-U)}$, où $U \\sim \\mathcal{U}([0;1])$, suit la loi de densité $\\tilde{f}$ en utilisant le théorème d'inversion de la fonction de répartition.\n5.  **Approximation de l'intégrale par simulation et LFGN** : Exprimer $I$ comme l'espérance d'une variable aléatoire $Y$ de densité $\\tilde{f}$, soit $I = \\mathbb{E}(Y_1)$ et appliquer la LFGN à une suite de variables aléatoires i.i.d. suivant cette loi, pour construire une suite convergente presque sûrement vers $I$ et ainsi approcher $I$. Déduire un algorithme pour approcher $I$ en utilisant la simulation de variables aléatoires de densité $\\tilde{f}$.",
     "competences": [
       "appliquer la loi forte des grands nombres",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "9d89423c-8076-442e-a3c4-978fee7b0ba7",
+      "id": "4c054249-092c-46b3-af4a-a723c04d9441",
       "type": "description",
       "value": {
         "latex": "On suppose dans cet exercice que l'on dispose d'une fonction \\texttt{normale()} pour simuler la variable $\\mathcal{N}(0,1)$ et de \\texttt{rand()} pour simuler la loi  $\\mathcal{U}([0;1])$. \n\t\n\tSoient $(X_i)_{i \\geq 1}$ une suite de variables aléatoires indépendantes et identiquement distribuées (iid) selon la loi $\\mathcal{N}(0,1)$. \n\t\n\tOn cherche une valeur approchée de l'intégrale suivante : \n\t$$I = \\int_{0}^{+\\infty} x^2 e^{-\\frac{x^2}{2}} dx$$",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "b4fb4ed5-4ee2-4f54-864f-12988539853d",
+      "id": "4dd80630-26e4-4025-b06e-129007a09f50",
       "type": "question",
       "value": {
         "latex": "Pour tout $i \\geq 1$, exprimer $\\mathbb{E}(X_i^2)$ sous forme d'intégrale.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "0e21d87b-2a03-46ef-98ce-cdc1331fd8af",
+      "id": "2f693b7c-66a7-4774-957b-a7b9cb33c1d5",
       "type": "reponse",
       "value": {
         "latex": "On applique le théorème de transfert : \n\t\t\t$$\\begin{align*}\n\t\t\t\t\\mathbb{E}(X_i^2) &= \\int_{-\\infty}^{+\\infty} x^2 e^{-\\frac{x^2}{2}} \\frac{1}{\\sqrt{2\\pi}} dx \\\\\n\t\t\t\t&= 2 \\int_{0}^{+\\infty} x^2 e^{-\\frac{x^2}{2}} \\frac{1}{\\sqrt{2\\pi}} dx \\\\\n\t\t\t\t&= \\sqrt{\\frac{2}{\\pi}}I\n\t\t\t\\end{align*}$$",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "62e27063-4b1d-4c88-b95c-059b9ded6fc5",
+      "id": "47bf4cd4-b689-4d55-9052-a9cc8cae23e5",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\displaystyle \\frac{1}{n}\\sum_{i=1}^n X_i^2 \\xrightarrow[n \\to \\infty]{{\\rm{p.s.}}} \\sqrt{\\frac{2}{\\pi}}I$.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "996f8425-f169-4049-a728-08b25e7d89f2",
+      "id": "90bf6100-e36b-472e-8365-3502cab48e4f",
       "type": "reponse",
       "value": {
         "latex": "On applique la loi forte des grands nombres à la suite de variables aléatoires iid $(X_i^2)_{i \\geq 1}$ : $\\displaystyle \\frac{1}{n}\\sum_{i=1}^n X_i^2 \\xrightarrow[n \\to \\infty]{{\\rm{p.s.}}} \\mathbb{E}(X_1^2) =  \\sqrt{\\frac{2}{\\pi}}I$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "75023b7c-31b1-4f09-b632-134c45ba9f3e",
+      "id": "d57a4538-6490-4a0b-aecd-f14e170b99df",
       "type": "question",
       "value": {
         "latex": "Soit $\\tilde{f} \\colon x \\mapsto xe^{-\\frac{x^2}{2}} \\textbf{1}_{[0;+\\infty[}(x)$. \n\t\tVérifier que $\\tilde{f}$ définit une densité de probabilité et exprimer la fonction de répartition associée à cette loi.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "d197ba19-31db-4e41-bbe5-de53f6e54477",
+      "id": "f38ccbea-ff0e-4315-aca6-7d63f72a870e",
       "type": "reponse",
       "value": {
         "latex": "On constate que $\\tilde{f}(x) \\geq 0$ pour tout $x \\geq 0$. Par ailleurs, \n\t\t\t$$\\begin{align*}\n\t\t\t\t\\int \\tilde{f}(x) dx &= \\int_{0}^{+\\infty}  xe^{-\\frac{x^2}{2}} dx \\\\\n\t\t\t\t&=  \\left[ -e^{-\\frac{x^2}{2}}\\right]_0^{+\\infty} \\\\\n\t\t\t\t&= 1\n\t\t\t\\end{align*}$$\t\n\t\t\tDonc $\\tilde{f}$ est bien une fonction densité de probabilité. \n\t\t\t\n\t\t\tSoit $\\tilde{F}$ la fonction de répartition associée : si $t \\leq 0$, il est clair que $\\tilde{F}(t) = 0$. Soit $t>0$ : \n\t\t\t$$\\begin{align*}\n\t\t\t\t\\tilde{F}(t) &= \\int_{0}^{t}  xe^{-\\frac{x^2}{2}} dx \\\\\n\t\t\t\t&= 1 - e^{-\\frac{t^2}{2}}\n\t\t\t\\end{align*}$$",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "73b9e6a5-32ac-462a-ac04-55eafd2234e0",
+      "id": "a0dc4d8f-0be5-4a13-a7c9-e75f5fbc0f4e",
       "type": "question",
       "value": {
         "latex": "Soit $U$ une variable aléatoire suivant une loi $\\mathcal{U}([0;1])$. Démontrer que la variable aléatoire $\\sqrt{-2\\ln(1-U)}$ admet $\\tilde{f}$ comme densité. En déduire une commande permettant de simuler la loi d'une variable aléatoire admettant $\\tilde{f}$ pour densité.",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "d31b354b-f2cf-4613-aeb7-3555b0164283",
+      "id": "f899e60d-5356-42a8-818e-402959fef374",
       "type": "reponse",
       "value": {
         "latex": "Plusieurs méthodes sont possibles. On peut utiliser le théorème d'identification pour identifier la loi de la variable aléatoire $\\sqrt{-2\\ln(1-U)}$. On peut aussi remarquer que si $u \\in [0;1]$ alors $u=\\tilde{F}(x)$ pour $x = \\sqrt{-2\\ln(1-x)}$. D'après le théorème de simulation par inversion de la fonction de répartition, cela prouve que la fonction de répartition de la variable $\\sqrt{-2\\ln(1-U)}$ est $\\tilde{F}$, ce qui revient à dire que sa loi admet $\\tilde{f}$ pour densité.",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "85f992c1-cfa2-49af-98a5-51ea97057a15",
+      "id": "1dacb197-fca1-4d80-9422-0577be3abf49",
       "type": "question",
       "value": {
         "latex": "En remarquant que $\\displaystyle I = \\int_{0}^{+\\infty} x \\tilde{f}(x) dx$, \tdéterminer une nouvelle suite convergeant presque sûrement vers $I$. En déduire une méthode (que l'on détaillera) permettant d'approcher  $I$.",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "id": "c2ccd551-a2fd-42d2-b120-7acfbfec0b25",
+      "id": "1334b86c-8052-445e-8ee7-3c7888ecb928",
       "type": "reponse",
       "value": {
         "latex": "Soit $J_n = \\frac{1}{n} \\sum_{i=1}^n Y_i$ où $(Y_i)$ est une suite de variables aléatoires i.i.d. selon une loi admettant $\\tilde{f}$ pour densité. Alors on remarque que $I = \\mathbb{E}(Y_1)$ et d'après la loi forte des grands nombres, \n\t\t\t$$ \\displaystyle \\frac{1}{n}\\sum_{i=1}^n Y_i \\xrightarrow[n \\to \\infty]{{\\rm{p.s.}}} I$$\n\t\t\t\n\t\t\tSachant simuler la loi de $Y_1$, on déduit l'algorithme suivant permettant de déterminer une valeur approchée de $I$ :\n\t\t\t\n\t\t\t{\\centering \\fbox{\\BUseVerbatim{Su3Xpython}}\\par}",

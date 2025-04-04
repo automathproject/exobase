@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-10-16",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:06.903Z",
+    "updatedAt": "2025-04-04T19:02:48.934Z",
     "resume": "L'exercice porte sur les variables aléatoires continues et la loi exponentielle. Il s'agit de calculer des probabilités liées à une variable aléatoire $X$ suivant une loi exponentielle de paramètre 3, puis de déterminer la fonction de répartition de la variable $Z = \\min(X, Y)$, où $Y$ est une autre variable aléatoire indépendante suivant la même loi que $X$. Cela implique de savoir calculer une intégrale impropre, d'utiliser l'indépendance de variables aléatoires pour calculer des probabilités conjointes et de reconnaître la loi exponentielle de $Z$.",
     "competences": [
       "calculer la probabilité d'un événement impliquant une variable aléatoire continue",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "c1c60e15-4638-4ac1-9101-8380240579c4",
+      "id": "22603daa-d790-4dea-976a-df85790dffb5",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune une loi exponentielle $\\mathcal{E}(3)$. On rappelle qu'une densité de probabilité de la loi exponentielle $\\mathcal{E}(\\lambda)$ est donnée par : $$f(x) = \\begin{cases} \n    \\lambda e^{-\\lambda x} & \\text{ si } x \\geq 0 \\\\\n    0 & \\text{ sinon }\n\\end{cases}.$$\n  \n  On note $Z = \\min(X,Y)$ la variable aléatoire donnant le minimum de $X$ et $Y$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "133d370d-d67d-41dc-87a1-18e784664012",
+      "id": "638fb605-6648-4142-aba0-5135fdb6612b",
       "type": "question",
       "value": {
         "latex": "Déterminer $\\prob(X \\geq t)$ pour tout $t \\in \\R$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "15d779f2-5f43-4e82-a49d-c2b4b48a022d",
+      "id": "020839e4-65a4-4f2d-a42b-705d87649285",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$. Si $t \\geq 0$, on a : \n        $$\\begin{align*}\n            \\prob(X \\geq t) &= \\int_t^{+\\infty} f(x) \\d x \\\\\n            &= \\int_t^{+\\infty} 3 e^{-3x} \\d x \\\\\n            &= \\left[ -e^{-3x} \\right]_t^{+\\infty} \\\\\n            &= e^{-3t}.\n        \\end{align*}$$\n        Si $t < 0$, on a $\\prob(X \\geq t) = 1$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "957e0784-ca69-40ae-a88d-ddf9e18c4766",
+      "id": "49c6d52e-d170-4be1-94de-829db17d93eb",
       "type": "question",
       "value": {
         "latex": "Déterminer $\\prob(Z \\geq t)$ pour tout $t \\in \\R$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "c22c71df-3957-4ceb-b8bd-bb4680693cff",
+      "id": "2922c916-62eb-4e3a-a13f-eb7b8921a7d8",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$. Si $t \\geq 0$, on a : \n        $$\\begin{align*}\n            \\prob(Z \\geq t) &= \\prob(X \\geq t \\text{ et } Y \\geq t) \\\\\n            &= \\prob(X \\geq t) \\prob(Y \\geq t) \\text{ par indépendance de $X$ et $Y$} \\\\\n            &= e^{-3t} \\times e^{-3t} \\\\\n            &= e^{-6t}.\n        \\end{align*}$$\n        Si $t < 0$, on a $\\prob(Z \\geq t) = 1$.\n\n        On voit ainsi que $Z = \\min(X,Y)$ suit une loi exponentielle $\\mathcal{E}(6)$.",

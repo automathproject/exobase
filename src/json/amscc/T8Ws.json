@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-06",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:32.476Z",
+    "updatedAt": "2025-04-04T19:02:27.394Z",
     "resume": "L'exercice porte sur la détermination de la densité de probabilité d'un couple de variables aléatoires $(X, Y)$ suivant une loi uniforme sur le disque unité. Il évalue la capacité à : \n\n1.  Calculer la constante de normalisation $\\alpha$ pour qu'une fonction donnée soit une densité de probabilité, en utilisant la géométrie (aire du disque). La densité est de la forme $f(x,y) = \\alpha \\mathbb{1}_D(x,y)$.\n2.  Déterminer la loi marginale de $X$ en intégrant la densité conjointe $f(x, y)$ par rapport à $y$. L'intégration nécessite de déterminer les bornes d'intégration en fonction de $x$ et de calculer l'intégrale obtenue.",
     "competences": [
       "calculer une intégrale simple",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "611f2118-c90f-4700-9480-f57b4e867397",
+      "id": "08468bf0-626e-4ee4-9176-890a2fec0c62",
       "type": "description",
       "value": {
         "latex": "Soit $(X,Y)$ un couple de variables aléatoires suivant une loi uniforme sur le disque unité $D$ centré en $(0,0)$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "c27a257f-503b-4196-b0cb-26236eca904f",
+      "id": "a7176a82-af30-41c2-a1eb-b0fbca417308",
       "type": "question",
       "value": {
         "latex": "Déterminer le réel $\\alpha$ tel que $f \\colon (x,y) \\mapsto \\alpha \\textbf{1}_D(x,y)$ soit une densité caractérisant la loi du couple $(X,Y)$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "a44a732a-79e2-44c7-8d2d-993be931eda2",
+      "id": "0bbf2b9c-100e-407a-a4f7-5fcdcec88eaa",
       "type": "reponse",
       "value": {
         "latex": "Le disque $D$ a pour aire $\\pi$ donc $(X,Y)$ admet pour densité $f(x,y)=\\frac{1}{\\pi} \\textbf{1}_D(x,y)$",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "b4cd21ee-0848-4342-add6-3d3e7da89125",
+      "id": "bf49eeb2-a801-49d6-9af8-ef569facb616",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "5aa78cf8-2223-4e9e-9335-41781888aab0",
+      "id": "9dea4c15-feb8-4252-ba75-5657df815583",
       "type": "reponse",
       "value": {
         "latex": "D'après le cours, $X$ admet pour densité $f_X$ définie par  $f_X(x) = \\int_{\\R}^{} f(x,y)dy = \\frac{1}{\\pi} \\int_{\\{y^2<1-x^2\\}}^{} dy$.\n\t\t\n\t\tOr $ y^2<1-x^2 \\iff \\begin{cases}\n\t\t-\\sqrt{1-x^2} < y < \\sqrt{1-x^2} \\\\\n\t\t-1<x<1\n\t\t\\end{cases}$ donc $$f_X(x) = \\frac{1}{\\pi} \\textbf{1}_{]-1;1[}(x)\\int_{-\\sqrt{1-x^2}}^{+\\sqrt{1-x^2}} dy =  \\frac{2}{\\pi} \\sqrt{1-x^2} \\textbf{1}_{]-1;1[}(x)$$",

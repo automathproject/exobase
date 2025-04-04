@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-09-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Dénombrement",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:31.467Z",
+    "updatedAt": "2025-04-04T19:01:43.981Z",
     "resume": "L'exercice porte sur le dénombrement et les probabilités, appliqué à un problème de choix de méthode pour ouvrir une porte avec un trousseau de clés. Il évalue les compétences suivantes : \n\n*   Détermination de la loi de probabilité d'une variable aléatoire discrète (nombre de clés essayées).\n*   Identification d'une loi géométrique.\n*   Calcul de probabilités d'événements, notamment $P(X > k)$.\n*   Application de la formule de Bayes pour calculer une probabilité conditionnelle, c'est-à-dire $P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$, et du théorème des probabilités totales.",
     "competences": [
       "appliquer la loi géométrique pour calculer des probabilités",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "d00e273a-be23-4df7-a861-2c142db7b018",
+      "id": "4cf79cee-ad00-4922-ae05-9dcab38f54e4",
       "type": "question",
       "value": {
         "latex": "Montrer que pour tout $k \\in \\{1, \\dots, 10\\}$, $\\prob(X_A = k) = p$ où $p$ est une valeur constante à déterminer.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "279fa323-8ae4-4126-b0bb-b922a9e6b0c7",
+      "id": "41de8553-5346-4cd6-b2d4-8981febb0355",
       "type": "reponse",
       "value": {
         "latex": "Soit $E$ l'ensemble des permutations possibles des 10 clés. On a $|E| = 10!$ et toutes ces configurations sont équiprobables. Pour tout $k \\in \\{1, \\dots, 10\\}$, on a $X_A = k$ si et seulement si la clé correcte est à la position $k$. Il y a $9!$ permutations qui vérifient cette condition.\n\t\t  On a donc $\\prob(X_A = k) = \\frac{1}{|E|} \\times 9! = \\frac{9!}{10!} = \\frac{1}{10}$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "7a2e2d3e-1354-406a-90db-76b559ed99c0",
+      "id": "09be29b3-923d-4d16-97f9-d04adaf373ed",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi suivie par $X_B$ ?",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "9675ea1c-c19e-4da7-8718-820505d82dee",
+      "id": "e2ff89c8-e1cd-4697-86ca-336ffeb9a376",
       "type": "reponse",
       "value": {
         "latex": "La méthode est vue comme un tirage avec remise d'une clé jusqu'à tomber sur la bonne. La variable aléatoire $X_B$ modélise donc un temps d'attente du premier succès pour une expérience de Bernoulli de paramètre $\\frac{1}{10}$. Donc $X_B$ suit une loi géométrique de paramètre $\\frac{1}{10}$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "e8970931-0d43-4d33-840d-c676d0e13ccf",
+      "id": "c723b41e-810f-4e82-90fe-aea616ec6753",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité d'essayer strictement plus de 8 clés : par la méthode A ? Par la méthode B ? On notera $H$ l'événement : « essayer plus de 8 clés ».",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "9457460d-9aed-4ded-9325-13b80cc414d8",
+      "id": "96415528-b884-4ec2-acf5-de54c6c9f909",
       "type": "reponse",
       "value": {
         "latex": "\\begin{itemize}\n\t\t\t\\item Pour la méthode A, on a $\\prob(X_A > 8) = \\prob(X_A = 9) + \\prob(X_A = 10) = \\frac{1}{10} + \\frac{1}{10} = \\frac{1}{5}$.\n\t\t\t\\item Pour la méthode B, on a $\\prob(X_B > 8) = \\sum\\limits_{k=9}^{+\\infty} \\left(1 - \\frac{1}{10}\\right)^{k-1} \\times \\frac{1}{10} = \\frac{1}{10}\\sum\\limits_{k=8}^{+\\infty} \\left(\\frac{9}{10}\\right)^k = \\frac{1}{10} \\times \\left(\\frac{9}{10}\\right)^8 \\times \\frac{1}{1 - \\frac{9}{10}} = \\frac{1}{10} \\times \\left(\\frac{9}{10}\\right)^8 \\times 10 = \\left(\\frac{9}{10}\\right)^8$.\n\t\t\\end{itemize}",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "f211f85a-18d9-4223-817d-ef039317882c",
+      "id": "7384c648-d9b4-42a6-a7d6-f7ab0fa1cf19",
       "type": "question",
       "value": {
         "latex": "On admet que le gardien utilise la méthode A deux fois sur trois. Quelle est la probabilité conditionnelle que le gardien utilise la méthode B sachant que les 8 premiers essais ont échoué ? On donnera le résultat arrondi à $10^{-2}$.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "2a4e6394-4488-4190-92f5-3a4c5e9e9eb9",
+      "id": "89fb1157-8af5-45a1-921e-67b5fa6092af",
       "type": "reponse",
       "value": {
         "latex": "Soit $B$ l'événement : « utiliser la méthode B ». On a $\\prob(B) = \\frac{1}{3}$. D'après la formule de Bayes, on a $\\prob(B | {H}) = \\frac{\\prob({H} | B) \\times \\prob(B)}{\\prob({H})}$. Or d'après le théorème des probabilités totales, $\\prob(H) = \\prob(H | B) \\times \\prob(B) + \\prob(H | \\overline{B}) \\times \\prob(\\overline{B}) = \\left(\\frac{9}{10}\\right)^8 \\times \\frac{1}{3} + \\frac{1}{5} \\times \\frac{2}{3}$. \n\n\t\tDonc $\\prob(B | {H}) = \\frac{\\left(\\frac{9}{10}\\right)^8 \\times \\frac{1}{3}}{\\left(\\frac{9}{10}\\right)^8 \\times \\frac{1}{3} + \\frac{1}{5} \\times \\frac{2}{3}} \\approx 0.52$.",

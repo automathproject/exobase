@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Topologie",
     "sousChapitre": "Ouvert, fermé, intérieur, adhérence",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:03.587Z",
+    "updatedAt": "2025-04-04T19:02:11.371Z",
     "resume": "Cet exercice porte sur la topologie dans $\\\\R$. Il vise à évaluer la capacité à identifier si des ensembles donnés ( $[0;1[ \\, , \\, [0;+\\\\infty[ \\, , \\, ]0;1[\\\\cup \\\\{2\\\\} \\, , \\, \\\\Z \\, , \\, \\\\left\\\\{\\\\frac{1}{n} \\\\in \\\\R \\, \\\\mid n \\\\in \\\\N^* \\\\right\\\\} $ ) sont ouverts, fermés ou ni l'un ni l'autre. Les compétences mises en œuvre incluent la compréhension des définitions d'ensembles ouverts et fermés dans $\\\\R$ et l'application de ces définitions à des exemples spécifiques.",
     "competences": [
       "identifier des ensembles ouverts dans R",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "6cd2d59e-ae53-4a59-ade7-eec3335c18b5",
+      "id": "75a54ded-d987-4855-b599-d2ef7647510a",
       "type": "question",
       "value": {
         "latex": "Déterminer si les ensembles suivants sont ouverts ou fermés dans $\\R$.\n\t\n\t$$[0;1[ \\, , \\, [0;+\\infty[ \\, , \\, ]0;1[\\cup \\{2\\} \\, , \\, \\Z \\, , \\, \\left\\{\\frac{1}{n} \\in \\R \\, \\mid n \\in \\N^* \\right\\} $$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "b801a098-9b47-4747-aee5-f4c29f601c1b",
+      "id": "e1444fa7-078d-4b7a-bf83-5f7fc0ff00b5",
       "type": "reponse",
       "value": {
         "latex": "\\begin{itemize}\n\t\\item $[0;1[$ est ni ouvert, ni fermé ;\n\t\\item $[0;+\\infty[$ est fermé ;\n\t\\item $]0;1[\\cup \\{2\\}$ est ni ouvert, ni fermé ;\n\t\\item $\\Z$ est fermé ;\n\t\\item $\\left\\{\\frac{1}{n} \\in \\R \\, \\mid n \\in \\N^* \\right\\}$ est ni ouvert, ni fermé.\n\\end{itemize}",

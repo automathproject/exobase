@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-04-29",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Equation différentielle",
     "sousChapitre": "Résolution d'équation différentielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:26.696Z",
+    "updatedAt": "2025-04-04T19:01:38.033Z",
     "resume": "L'exercice porte sur l'analyse de la consistance du schéma numérique de Leapfrog pour la résolution d'une équation différentielle ordinaire $y'(t) = f(t, y(t))$, $y(0) = y_0$. Il s'agit de:\n\n1.  Justifier l'existence d'un $\\xi_n \\in [t_n, t_{n+1}]$ en utilisant le développement de Taylor pour exprimer $y(t_{n+1})$ en fonction de $y(t_n)$, $y'(t_n)$ et $y''(\\xi_n)$.\n2.  Calculer le développement de Taylor-Lagrange à l'ordre 1 de $f(t_n + \\frac{h}{2}, y(t_n) + \\frac{h}{2} f(t_n, y(t_n)))$ au voisinage de $(t_n, y(t_n))$.\n3.  Démontrer que le schéma de Leapfrog est consistant d'ordre au moins 1 en utilisant les résultats précédents.",
     "competences": [
       "appliquer le théorème de Taylor-Lagrange",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "6f69d763-982a-4330-8891-37982d3d8d29",
+      "id": "089c6e52-7865-4738-a381-970cbb5b5b57",
       "type": "description",
       "value": {
         "latex": "On considère l'équation différentielle ordinaire suivante :\n\n$$\\begin{cases} y'(t) = f(t, y(t)), \\quad t \\in [0, T] \\\\ y(0) = y_0 \\end{cases}$$\n\noù $f : [0, T] \\times \\mathbb{R} \\to \\mathbb{R}$ est une fonction suffisamment régulière (par exemple de classe $C^2$).\n\nOn se propose d'étudier la consistance du schéma numérique de Leapfrog défini par :\n\n$$\\begin{cases} t_n = n \\cdot h, \\quad n = 0, \\ldots, N \\\\ y_{n+1} = y_n + h \\cdot f(t_n + \\frac{h}{2}, y_n + \\frac{h}{2} f(t_n, y_n)) \\end{cases}$$\n\noù $h = \\frac{T}{N}$ est le pas de discrétisation en temps et $N$ est un entier strictement positif. \n\nOn donne le développement de Taylor-Lagrange à l'ordre 1 pour une fonction $g$ de classe $\\mathcal{C}^2$ de deux variables $x$ et $y$ au voisinage du point $(x_0, y_0)$ est donné par :\n\n$$g(x, y) = g(x_0, y_0) + \\frac{\\partial g}{\\partial x}(x_0, y_0) (x - x_0) + \\frac{\\partial g}{\\partial y}(x_0, y_0) (y - y_0) + R_1(x, y)$$\n\noù $R_1(x, y)$ est le reste du développement limité, qui vérifie :\n\n$$R_1(x, y) = \\frac{1}{2} \\left( \\frac{\\partial^2 g}{\\partial x^2}(\\xi, \\eta) (x - x_0)^2 + 2 \\frac{\\partial^2 g}{\\partial x \\partial y}(\\xi, \\eta) (x - x_0)(y - y_0) + \\frac{\\partial^2 g}{\\partial y^2}(\\xi, \\eta) (y - y_0)^2 \\right)$$\n\navec $(\\xi, \\eta)$ un point situé sur le segment reliant les points $(x_0, y_0)$ et $(x, y)$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "ec3f8c80-4e61-4228-a743-c4a11582e325",
+      "id": "7367edf6-419e-4c71-8f75-8ba9354c6987",
       "type": "question",
       "value": {
         "latex": "Justifier l'existence de $\\xi_n \\in [t_n, t_{n+1}]$ tel que : \n\t$$y(t_{n+1}) = y(t_n + h) = y(t_n) + h \\cdot f(t_n, y(t_n)) + \\frac{h^2}{2} y''(\\xi_n)$$",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "e9ee385b-6c3e-4766-a1dc-18627d277731",
+      "id": "55120fc3-b3b9-44ba-9abe-e39d7bd93ebd",
       "type": "reponse",
       "value": {
         "latex": "$$y(t_{n+1}) = y(t_n + h) = y(t_n) + h \\cdot y'(t_n) + \\frac{h^2}{2} y''(\\xi_n)$$\n\t\t\n\t\toù $\\xi_n \\in [t_n, t_{n+1}]$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "be11b291-1b59-4776-8ac1-b29c6875f7ae",
+      "id": "70492bc2-6058-48f2-8b9d-1890f871bbb2",
       "type": "question",
       "value": {
         "latex": "Donne le développement de Taylor-Lagrange à l'ordre $1$ de $f(t_n + \\frac{h}{2}, y(t_n) + \\frac{h}{2} f(t_n, y(t_n)))$ au voisinage de $(t_n,y(t_n))$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "342c2323-57e8-461c-a557-1557e5c1e432",
+      "id": "ee5e1061-4ed1-4178-8646-621dc2fb34f3",
       "type": "reponse",
       "value": {
         "latex": "$$f(t_n + \\frac{h}{2}, y(t_n) + \\frac{h}{2} f(t_n, y(t_n))) = f(t_n, y(t_n)) + \\frac{h}{2} \\left( \\frac{\\partial f}{\\partial t}(t_n, y(t_n)) + f(t_n, y(t_n)) \\frac{\\partial f}{\\partial y}(t_n, y(t_n)) \\right) + \\mathcal{O}(h^2)$$",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "b1fb37bb-3dca-40d9-9af4-ae014e200b7e",
+      "id": "d7cb18bc-d5ef-4bd3-9738-45ac45be7f99",
       "type": "question",
       "value": {
         "latex": "En déduire que le schéma de Leapfrogest consistant d'ordre au moins $1$.",

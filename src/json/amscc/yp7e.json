@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:24.515Z",
+    "updatedAt": "2025-04-04T19:05:15.480Z",
     "resume": "L'exercice consiste à calculer différentes sommes de séries numériques en utilisant le développement en série de l'exponentielle, $e = \\sum_{n=0}^{+\\infty} \\frac{1}{n!}$. Les compétences mises en œuvre incluent : \n\n*   Manipulation d'indices de sommation (changement d'indice).\n*   Décomposition de sommes.\n*   Simplification d'expressions algébriques impliquant des factorielles.\n*   Reconnaissance de la série exponentielle.",
     "competences": [
       "calculer une somme de série numérique",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "fd174266-00f1-4d45-b625-d671aba54a99",
+      "id": "38ca56f9-aca4-4e86-99d6-2a77b09c6a45",
       "type": "description",
       "value": {
         "latex": "On admet que $\\displaystyle e=\\sum_{n=0}^{+\\infty} \\frac{1}{n!}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "b58162e7-ad74-4c6d-8101-14641c1ec286",
+      "id": "612ba018-7d7e-47e0-ba73-82f7f4654694",
       "type": "question",
       "value": {
         "latex": "En déduire la somme : $\\displaystyle \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!}$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "875a609b-6e7b-4ef5-89da-e2ed17f371cf",
+      "id": "b39cf2c1-eb51-4cc1-8be6-fb800acb3850",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} &= \\sum_{n'=0}^{+\\infty} \\frac{1}{n'!} \\\\\n\t\t                                      &= e\n\t\t\\end{align*}$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "872f3cbf-e709-4e68-82b1-d7e072016603",
+      "id": "74127d65-0588-41b1-8d24-45700d951415",
       "type": "question",
       "value": {
         "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n+1}{n!}$",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "64b149d2-2751-4fc8-b3ac-022622a6fd79",
+      "id": "bdb17342-ed8b-4643-9b2d-dbe0b4ef89a4",
       "type": "reponse",
       "value": {
         "latex": "On décompose la somme en deux sommes :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n=0}^{+\\infty} \\frac{n+1}{n!} &= \\sum_{n=0}^{+\\infty} \\frac{n}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n=1}^{+\\infty} \\frac{1}{(n-1)!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n=0}^{+\\infty} \\frac{1}{n!} + \\sum_{n=0}^{+\\infty} \\frac{1}{n!} \\\\\n\t\t\t&= 2e\n\t\t\\end{align*}$$",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "82d30b5b-4ec6-4d65-9c9d-36ee2c49bf0d",
+      "id": "64fb4f92-b55b-44f6-8435-681e987338ed",
       "type": "question",
       "value": {
         "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n^2-2}{n!}$",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "25062bf5-386b-4bf2-b695-9465b877daa2",
+      "id": "a3b0348b-013a-4534-9889-2224468e9e14",
       "type": "reponse",
       "value": {
         "latex": "On décompose la somme en deux sommes :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n\\geq0} \\frac{n^2-2}{n!} &= \\sum_{n\\geq0} \\frac{n^2}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n-1+1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq 1} \\frac{1}{(n-1)!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq 0} \\frac{1}{n!} - 2\\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= 0\n\t\t\\end{align*}$$",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "a852af43-ee7c-45c1-a41d-6930033cb500",
+      "id": "a2e0c211-bef1-4388-b890-1fdc695f4c93",
       "type": "question",
       "value": {
         "latex": "Calculer la somme : $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{n^3}{n!}$",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "535da659-ef6a-4dee-9362-5592ca1880fb",
+      "id": "40bbd530-6721-4a5f-baa0-912991a88e30",
       "type": "reponse",
       "value": {
         "latex": "On simplifie :\n\t\t$$\\begin{align*}\n\t\t\t\\sum_{n\\geq0} \\frac{n^3}{n!} &= \\sum_{n\\geq0} \\frac{n^2}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n(n-1)+n-1+1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq1} \\frac{n(n-1)}{(n-1)!} + \\sum_{n\\geq1} \\frac{n-1}{(n-1)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{n}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq2} \\frac{n-2+2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq3} \\frac{1}{(n-3)!} + \\sum_{n\\geq2} \\frac{2}{(n-2)!} + \\sum_{n\\geq2} \\frac{1}{(n-2)!} + \\sum_{n\\geq1} \\frac{1}{(n-1)!} \\\\\n\t\t\t&= \\sum_{n\\geq0} \\frac{1}{n!} + 2\\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} + \\sum_{n\\geq0} \\frac{1}{n!} \\\\\n\t\t\t&= 5e\n\t\t\\end{align*}$$",

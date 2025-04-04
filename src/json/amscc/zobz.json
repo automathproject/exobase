@@ -8,14 +8,14 @@
   "metadata": {
     "exo7id": "",
     "auteur": "",
-    "createdAt": "2025-03-28T11:57:50.413Z",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "createdAt": "2025-04-04T19:05:16.832Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:50.413Z",
+    "updatedAt": "2025-04-04T19:05:16.832Z",
     "resume": "Cet exercice porte sur l'estimation et les tests d'hypothèses dans le cadre d'une loi dont la densité est $f_\\theta(x) = exp(-(x - \\theta)) \\mathrm{1}_{[\\theta, +\\infty[}(x)$. Il évalue la capacité à:\n\n1.  Proposer des estimateurs de $\\theta$ par différentes méthodes.\n2.  Déterminer la loi de $n(\\hat{\\theta}_n - \\theta)$, où $\\hat{\\theta}_n$ est l'estimateur du maximum de vraisemblance, et construire un intervalle de confiance pour $\\theta$.\n3.  Construire et analyser des tests d'hypothèses pour $H_0: \\theta \\geq 0$ contre $H_1: \\theta < 0$, incluant le calcul de la puissance, la détermination de la taille et l'étude de la variation de la puissance en fonction de $\\alpha$ et $n$.\n4.  Proposer un test d'adéquation pour vérifier si la loi de $X_1$ est exponentielle et calculer sa puissance.",
     "competences": [
       "calculer l'estimateur du maximum de vraisemblance",
@@ -54,77 +54,77 @@
   },
   "contenu": [
     {
-      "id": "d8e09730-81fa-4ee3-9763-e2ea295102f4",
+      "id": "a1f53378-90bd-416d-b27b-080695e13bb9",
       "type": "description",
       "value": {
         "latex": "On observe un échantillon \\( X_1, \\dots, X_n \\) dont la loi admet\nla densité\n$$\nf_\\theta(x) = \\exp(- (x - \\theta)) \\mathrm{1}_{[\\theta, +\\infty[}(x),\n$$\noù \\( \\theta \\) est un paramètre réel inconnu.",
-        "html": "<p>On observe un échantillon <span class=\"math inline\">\\(X_1, \\dots, X_n\\)</span> dont la loi admet la densité <span class=\"math display\">\\[f_\\theta(x) = \\exp(- (x - \\theta)) \\mathrm{1}_{[\\theta, +\\infty[}(x),\\]</span> où <span class=\"math inline\">\\(\\theta\\)</span> est un paramètre réel inconnu.</p>\n"
+        "html": "<p>On observe un échantillon <span class=\"math inline\">\\(X_1, \\dots,\nX_n\\)</span> dont la loi admet la densité <span\nclass=\"math display\">\\[f_\\theta(x) = \\exp(- (x - \\theta))\n\\mathrm{1}_{[\\theta, +\\infty[}(x),\\]</span> où <span\nclass=\"math inline\">\\(\\theta\\)</span> est un paramètre réel inconnu.</p>\n"
       }
     },
     {
-      "id": "76c3963d-ba08-433f-86dd-5d00bd6814b9",
+      "id": "5d71c1d0-5c82-4807-87d0-7751ab96dacc",
       "type": "question",
       "value": {
         "latex": "Quels estimateurs de \\( \\theta \\) pouvez-vous proposer en utilisant les méthodes usuelles ?",
-        "html": "<p>Quels estimateurs de <span class=\"math inline\">\\(\\theta\\)</span> pouvez-vous proposer en utilisant les méthodes usuelles ?</p>\n"
+        "html": "<p>Quels estimateurs de <span class=\"math inline\">\\(\\theta\\)</span>\npouvez-vous proposer en utilisant les méthodes usuelles ?</p>\n"
       }
     },
     {
-      "id": "9b2cd53c-bd52-4de0-888c-ed85f784e198",
+      "id": "3c35c5e0-1d23-4882-905b-820b8acc329b",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de \\( n(\\hat{\\theta}_n - \\theta) \\), où \\( \\hat{\\theta}_n \\) est l’estimateur du maximum de vraisemblance. En déduire un intervalle de confiance pour \\( \\theta \\) de niveau \\( 1 - \\alpha \\).",
-        "html": "<p>Déterminer la loi de <span class=\"math inline\">\\(n(\\hat{\\theta}_n - \\theta)\\)</span>, où <span class=\"math inline\">\\(\\hat{\\theta}_n\\)</span> est l’estimateur du maximum de vraisemblance. En déduire un intervalle de confiance pour <span class=\"math inline\">\\(\\theta\\)</span> de niveau <span class=\"math inline\">\\(1 - \\alpha\\)</span>.</p>\n"
+        "html": "<p>Déterminer la loi de <span class=\"math inline\">\\(n(\\hat{\\theta}_n -\n\\theta)\\)</span>, où <span class=\"math inline\">\\(\\hat{\\theta}_n\\)</span>\nest l’estimateur du maximum de vraisemblance. En déduire un intervalle\nde confiance pour <span class=\"math inline\">\\(\\theta\\)</span> de niveau\n<span class=\"math inline\">\\(1 - \\alpha\\)</span>.</p>\n"
       }
     },
     {
-      "id": "0e7e4ee7-0e56-43bf-8b8a-9c83d1b970c8",
+      "id": "5532cfca-4b07-4c3f-aeef-13ee10bc8cb2",
       "type": "question",
       "value": {
         "latex": "Soit \\( \\alpha \\in ]0, 1[ \\). On souhaite tester au niveau \\( \\alpha \\):\n    $$ H_0:\\,\\, \\theta \\geq 0\\,\\,\\, \\text{contre} \\,\\,\\, H_1:\\,\\, \\theta < 0 .$$\n    \n    \\begin{enumerate}\n      \\item \\question{Construire un test à partir de l’intervalle de confiance de la question 2, calculer sa puissance et donner son allure (pour \\( n \\) et \\( \\alpha \\) fixés). Quelle est sa taille \\( \\alpha^* \\) ?}\n      \\item \\question{Proposer un autre test qui soit, lui, de taille \\( \\alpha \\).}\n      \\item \\question{Calculer la fonction puissance du test. La représenter en fonction de \\( \\theta \\) pour \\( n \\) et \\( \\alpha \\) fixés.}\n      \\item \\question{Comment varie la puissance en fonction de \\( \\alpha \\) ? en fonction de \\( n \\) ?}\n    \\end{enumerate}",
-        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha \\in ]0, 1[\\)</span>. On souhaite tester au niveau <span class=\"math inline\">\\(\\alpha\\)</span>: <span class=\"math display\">\\[H_0:\\,\\, \\theta \\geq 0\\,\\,\\, \\text{contre} \\,\\,\\, H_1:\\,\\, \\theta &lt; 0 .\\]</span></p>\n<ol>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n</ol>\n"
+        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha \\in ]0, 1[\\)</span>. On\nsouhaite tester au niveau <span class=\"math inline\">\\(\\alpha\\)</span>:\n<span class=\"math display\">\\[H_0:\\,\\, \\theta \\geq 0\\,\\,\\, \\text{contre}\n\\,\\,\\, H_1:\\,\\, \\theta &lt; 0 .\\]</span></p>\n<ol>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n</ol>\n"
       }
     },
     {
-      "id": "ccbad939-efb2-485c-b510-1eaaad055f20",
+      "id": "088254f6-2cb5-4e70-bfcc-76623220f990",
       "type": "question",
       "value": {
         "latex": "Construire un test à partir de l’intervalle de confiance de la question 2, calculer sa puissance et donner son allure (pour \\( n \\) et \\( \\alpha \\) fixés). Quelle est sa taille \\( \\alpha^* \\) ?",
-        "html": "<p>Construire un test à partir de l’intervalle de confiance de la question 2, calculer sa puissance et donner son allure (pour <span class=\"math inline\">\\(n\\)</span> et <span class=\"math inline\">\\(\\alpha\\)</span> fixés). Quelle est sa taille <span class=\"math inline\">\\(\\alpha^*\\)</span> ?</p>\n"
+        "html": "<p>Construire un test à partir de l’intervalle de confiance de la\nquestion 2, calculer sa puissance et donner son allure (pour <span\nclass=\"math inline\">\\(n\\)</span> et <span\nclass=\"math inline\">\\(\\alpha\\)</span> fixés). Quelle est sa taille <span\nclass=\"math inline\">\\(\\alpha^*\\)</span> ?</p>\n"
       }
     },
     {
-      "id": "0678d35a-6887-4e57-8ded-57ed29f57ef4",
+      "id": "9e8d8a73-f234-4414-a935-1813e19dc13a",
       "type": "question",
       "value": {
         "latex": "Proposer un autre test qui soit, lui, de taille \\( \\alpha \\).",
-        "html": "<p>Proposer un autre test qui soit, lui, de taille <span class=\"math inline\">\\(\\alpha\\)</span>.</p>\n"
+        "html": "<p>Proposer un autre test qui soit, lui, de taille <span\nclass=\"math inline\">\\(\\alpha\\)</span>.</p>\n"
       }
     },
     {
-      "id": "19b3e1ab-d245-46db-b801-69c5ce266788",
+      "id": "0a56af4c-9868-496d-8c8b-35e4a0d8d5c2",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction puissance du test. La représenter en fonction de \\( \\theta \\) pour \\( n \\) et \\( \\alpha \\) fixés.",
-        "html": "<p>Calculer la fonction puissance du test. La représenter en fonction de <span class=\"math inline\">\\(\\theta\\)</span> pour <span class=\"math inline\">\\(n\\)</span> et <span class=\"math inline\">\\(\\alpha\\)</span> fixés.</p>\n"
+        "html": "<p>Calculer la fonction puissance du test. La représenter en fonction de\n<span class=\"math inline\">\\(\\theta\\)</span> pour <span\nclass=\"math inline\">\\(n\\)</span> et <span\nclass=\"math inline\">\\(\\alpha\\)</span> fixés.</p>\n"
       }
     },
     {
-      "id": "ffe0cb95-04b2-4623-8eaf-4737fb79760f",
+      "id": "e656dd6f-2eb2-4e15-ac9e-779db61a38e0",
       "type": "question",
       "value": {
         "latex": "Comment varie la puissance en fonction de \\( \\alpha \\) ? en fonction de \\( n \\) ?",
-        "html": "<p>Comment varie la puissance en fonction de <span class=\"math inline\">\\(\\alpha\\)</span> ? en fonction de <span class=\"math inline\">\\(n\\)</span> ?</p>\n"
+        "html": "<p>Comment varie la puissance en fonction de <span\nclass=\"math inline\">\\(\\alpha\\)</span> ? en fonction de <span\nclass=\"math inline\">\\(n\\)</span> ?</p>\n"
       }
     },
     {
-      "id": "0d5811a1-6be0-4dfe-990a-a386e61cde09",
+      "id": "7dce91ec-c05d-41cd-8d3e-33fefc9fbad0",
       "type": "question",
       "value": {
         "latex": "Proposer un test de niveau \\( \\alpha \\) de \\( H_0 : \\) « La loi de \\( X_1 \\) est une loi exponentielle » contre \\( H_1 : \\) « La loi de \\( X_1 \\) n’est pas une loi exponentielle ». Calculer la puissance de ce test.",
-        "html": "<p>Proposer un test de niveau <span class=\"math inline\">\\(\\alpha\\)</span> de <span class=\"math inline\">\\(H_0 :\\)</span> « La loi de <span class=\"math inline\">\\(X_1\\)</span> est une loi exponentielle » contre <span class=\"math inline\">\\(H_1 :\\)</span> « La loi de <span class=\"math inline\">\\(X_1\\)</span> n’est pas une loi exponentielle ». Calculer la puissance de ce test.</p>\n"
+        "html": "<p>Proposer un test de niveau <span\nclass=\"math inline\">\\(\\alpha\\)</span> de <span class=\"math inline\">\\(H_0\n:\\)</span> « La loi de <span class=\"math inline\">\\(X_1\\)</span> est une\nloi exponentielle » contre <span class=\"math inline\">\\(H_1 :\\)</span> «\nLa loi de <span class=\"math inline\">\\(X_1\\)</span> n’est pas une loi\nexponentielle ». Calculer la puissance de ce test.</p>\n"
       }
     }
   ],
-  "preview": "<p>On observe un échantillon <span class=\"math inline\">\\(X_1, \\dots, X_n\\)</span> dont la loi admet la densité <span class=\"math display\"> ..."
+  "preview": "<p>On observe un échantillon <span class=\"math inline\">\\(X_1, \\dots,\nX_n\\)</span> dont la loi admet la densité <span\nclass=\"math display\"> ..."
 }

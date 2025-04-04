@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:37.946Z",
+    "updatedAt": "2025-04-04T19:01:50.668Z",
     "resume": "L'exercice porte sur la loi de Poisson $\\mathcal{P}(\\lambda)$. Il s'agit de démontrer une expression intégrale de sa fonction de répartition $\\PP(X \\leq n) = \\frac{1}{n!}\\int_{\\lambda}^{+\\infty} e^{-x} x^n dx$ pour tout $n \\in \\mathbb{N}$. La compétence mise en oeuvre est la manipulation de la loi de Poisson et la capacité à effectuer une démonstration par récurrence, ainsi qu'une intégration par parties.",
     "competences": [
       "démontrer une égalité par récurrence",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "dedbf220-6ca2-4833-ba99-52b2847f7afd",
+      "id": "896379c9-a647-492d-9615-e8018fcb8f83",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda >0$ et $X$ suivant une loi de Poisson $\\mathcal{P}(\\lambda)$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "012fde65-ed6e-49c0-bf7b-2b6862c34ec9",
+      "id": "9607b425-c058-418f-aee4-ca2556bd2b02",
       "type": "question",
       "value": {
         "latex": "Démontrer que sa fonction de répartition est définie par \n\t$$\\forall n \\in \\N \\qquad \\PP(X \\leq n) = \\frac{1}{n!}\\int_{\\lambda}^{+\\infty} e^{-x} x^n \\dx$$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "9be41ad4-15ab-40d7-919e-55157d26e65b",
+      "id": "295cc9fc-1f50-42bc-8bfb-d3c26d7dd612",
       "type": "reponse",
       "value": {
         "latex": "Par récurrence sur $n$ et intégration par parties.",

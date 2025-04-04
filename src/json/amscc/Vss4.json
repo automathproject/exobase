@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-09-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:37.857Z",
+    "updatedAt": "2025-04-04T19:02:30.604Z",
     "resume": "L'exercice porte sur l'étude du nombre de pièces fausses dans un lot de 1000 pièces d'un euro, où la probabilité qu'une pièce soit fausse est de 0.05. Il évalue les compétences suivantes:\\n\\n1.  Identification de la loi de probabilité suivie par la variable aléatoire $X$ (nombre de pièces fausses), calcul de son espérance et de son écart-type: $X \\\\sim \\\\mathcal{B}(n, p)$, $\\\\mathbb{E}(X) = np$, $\\\\sigma(X) = \\\\sqrt{np(1-p)}$.\\n2.  Application de l'inégalité de Bienaymé-Tchebychev pour majorer la probabilité que le nombre de pièces fausses dépasse un seuil donné: $\\\\prob(|X - \\\\mathbb{E}(X)| > k) \\\\leq \\\\frac{\\\\sigma(X)^2}{k^2}$.\\n3.  Justification de l'approximation de la loi binomiale par une loi normale en utilisant le théorème central limite.\\n4.  Estimation de la probabilité que le nombre de pièces fausses se situe dans un intervalle donné en utilisant l'approximation normale et la fonction de répartition de la loi normale centrée réduite ($\\\\Phi$).",
     "competences": [
       "appliquer le théorème central limite pour approximer une loi binomiale",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "24a37d66-2ff3-4692-8b41-fada17e0e05a",
+      "id": "603b5696-2917-4e52-9758-3fe61aa4ed95",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi de la variable aléatoire $X$ ? Quelle est son espérance, son écart-type ?",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "c2fb4923-f371-4434-9e39-a2cccfcd8daa",
+      "id": "84f0484f-d818-4c8a-9bf5-04584de63e1f",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n = 1000$ et $p = 0{,}05$, ce qui se note $X \\hookrightarrow \\mathcal{B}(1000, 0{,}05)$. On a $\\mathbb{E}(X) = n \\times p = 1000 \\times 0{,}05 = 50$ et $\\sigma(X) = \\sqrt{n \\times p \\times (1-p)} = \\sqrt{1000 \\times 0{,}05 \\times 0{,}95} = \\sqrt{47{,}5}$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "f3fab1a1-2f7e-4c1a-83c5-9f1ac11b57af",
+      "id": "b5c36b7c-f081-4d2f-91bb-9c082b5c39f0",
       "type": "question",
       "value": {
         "latex": "En utilisant l'inégalité de Bienaymé-Tchebychev, majorer la probabilité que le nombre de pièces fausses soit supérieur à 100.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "a8c63685-5543-4b1b-ba33-9725802dcebe",
+      "id": "50a6adf8-9e4e-478c-a2d4-df751b8d3af8",
       "type": "reponse",
       "value": {
         "latex": "D'après l'inégalité de Bienaymé-Tchebychev appliquée à la variable aléatoire $X$ admettant une espérance $50$, on a pour tout $k > 0$ :\n        \\[\n        \\prob(|X - \\mathbb{E}(X)| > k) \\leq \\frac{\\sigma(X)^2}{k^2}.\n        \\]\n        Donc, pour $k = 50$, on a :\n        \\[\n        \\prob(|X - 50| > 50) \\leq \\frac{47{,}5}{50^2} = 0{,}019.\n        \\]\n        Donc, $\\prob(X > 100) = \\prob(X - 50 > 50) \\leq \\prob(|X - 50| > 50) \\leq 0{,}019$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "cbd5458a-8a8d-45bf-8435-a2b82b6c3c58",
+      "id": "d92f650e-fb9f-46f6-a7d7-1215ab3f9590",
       "type": "question",
       "value": {
         "latex": "Justifier que $X$ peut être approchée par une variable suivant une loi normale de moyenne $\\mu = 50$ et d’écart-type $\\sigma = \\sqrt{47{,}5}$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "26237c38-928a-4bce-9c05-acf65455d8f2",
+      "id": "70ccb6a7-7852-4821-987d-10cf237355ed",
       "type": "reponse",
       "value": {
         "latex": "Soit $S_n = X_1+\\cdots X_n$ une somme de variables aléatoires indépendantes et identiquement distribuées suivant une loi de Bernoulli de paramètre $p = 0{,}05$. D'après le théorème central limite, la variable aléatoire $\\frac{S_n - 0.05n}{\\sqrt{n\\times 0.05 \\times 0.95}}$ suit approximativement une loi normale centrée réduite pour $n$ grand (supérieur à $30$ en pratique), donc $S_n$ suit approximativement une loi normale de moyenne $0.05n$ et d'écart-type $\\sqrt{n\\times 0.05 \\times 0.95}$.\n\n        Or $X$ suit la même loi que $S_{1000}$ donc $X$ peut être approchée par une variable suivant une loi normale de moyenne $\\mu = 50$ et d’écart-type $\\sigma = \\sqrt{47{,}5}$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "6cba879e-8285-4301-bf90-12149d4208ea",
+      "id": "5d8e55ff-1443-4599-a56a-f11af05a54e1",
       "type": "question",
       "value": {
         "latex": "À l’aide de cette approximation, estimer la probabilité que le nombre de pièces fausses soit compris entre 48 et 52.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "545035b8-b9d0-4cbb-ae07-cacc01ca8f09",
+      "id": "09995561-75f1-41bb-b2c9-cb5fc241fc83",
       "type": "reponse",
       "value": {
         "latex": "On calcule : \n        $$\\begin{align*}\n            \\prob\\left( 48 \\leq X \\leq 52 \\right) & = \\prob\\left( \\frac{48 - 50}{\\sqrt{47{,}5}} \\leq \\frac{X - 50}{\\sqrt{47{,}5}} \\leq \\frac{52 - 50}{\\sqrt{47{,}5}} \\right) \\\\\n            & = \\prob\\left( -\\frac{2}{\\sqrt{47{,}5}} \\leq \\frac{X - 50}{\\sqrt{47{,}5}} \\leq \\frac{2}{\\sqrt{47{,}5}} \\right) \\\\\n            & = \\prob\\left( -\\frac{2}{\\sqrt{47{,}5}} \\leq Z \\leq \\frac{2}{\\sqrt{47{,}5}} \\right) \\\\\n            &= 2 \\times \\prob\\left( Z \\leq \\frac{2}{\\sqrt{47{,}5}} \\right) - 1 \\\\\n            & = 2 \\times \\Phi\\left( \\frac{2}{\\sqrt{47{,}5}} \\right) - 1 \\\\\n            & \\approx 2 \\times 0{,}6142 - 1 \\\\\n            & \\approx 0{,}2283.\n        \\end{align*}$$",

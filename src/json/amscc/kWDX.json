@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-19",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:41.870Z",
+    "updatedAt": "2025-04-04T19:03:18.467Z",
     "resume": "L'exercice porte sur la fiabilité d'un système électronique composé de $n$ composants en série, dont la durée de vie suit une loi exponentielle de paramètre $\\lambda = 1$. Il évalue les compétences suivantes:\n\n*   Calcul de la fonction de fiabilité $R_k(t) = P(T_k > t)$ pour un composant $k$, en utilisant l'intégrale de la densité exponentielle.\n*   Calcul de l'espérance $E(T_k)$ d'une variable aléatoire exponentielle et calcul de $R_k(E(T_k))$.\n*   Calcul de la fiabilité du système $R(t) = P(S > t)$ en fonction des fiabilités des composants $R_k(t)$ en utilisant l'indépendance des variables $T_k$ et identification de la loi de $S$ comme une loi exponentielle de paramètre $n$.\n*   Calcul de l'espérance $E(S)$ de la variable aléatoire $S$.",
     "competences": [
       "calculer une probabilité à partir d'une loi exponentielle",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "7383ebb1-9a14-4a2c-a4fa-a327bc54b37a",
+      "id": "9106e872-9eed-4873-ba06-349b1106b97a",
       "type": "description",
       "value": {
         "latex": "Un système électronique est constitué de $n$ composants disposés en série. Cela implique que la panne d'un composant entraîne la panne de tout le système. Chacun des composants a une durée de vie $T_k$ qui suit une loi exponentielle de paramètre $\\lambda = 1$, pour tout $k \\in \\{1, \\ldots, n\\}$. On admet que les variables aléatoires $T_1, \\ldots, T_n$ sont indépendantes. On note $S$ la durée de vie du système et on note $t \\geq 0$ la variable de temps.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "7d8e5842-e298-4ebb-aa33-ce850541359d",
+      "id": "eb6046b7-55a5-4b64-a2df-2cd61751db55",
       "type": "question",
       "value": {
         "latex": "Soit $t \\geq 0$. Pour tout $k \\in \\{1, \\ldots, n \\}$, on note $R_k(t) = \\prob(T_k > t)$ la fiabilité du composant $k$ à l'instant $t$. C'est la probabilité que le composant $k$ fonctionne encore après un temps d'utilisation $t$. Déterminer $R_k(t)$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "bbfb654d-1c66-4adb-9335-c59dcae50616",
+      "id": "15e353e4-e8a7-4843-85b8-b7ceae20f6bc",
       "type": "reponse",
       "value": {
         "latex": "$R_k(t) = \\int_{t}^{+\\infty} e^{-x} dx = e^{-t}$ pour tout $t \\geq 0$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "7b3a2e10-fc92-48ed-b18b-fbd58321ebf8",
+      "id": "09223d80-c1ac-4d13-8b02-359992abc109",
       "type": "question",
       "value": {
         "latex": "Calculer $\\E(T_k)$ et déterminer la probabilité que le composant $k$ fonctionne après un temps d'utilisation égal à $\\E(T_k)$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "013e1066-11cf-41ed-ad73-4a76c423a456",
+      "id": "b8da3995-5d9d-464d-a68f-bde8bd3953cb",
       "type": "reponse",
       "value": {
         "latex": "$\\E(T_k) = \\frac{1}{\\lambda} = 1$ et $R_k(\\E(T_k)) = e^{-\\E(T_k)} = e^{-1} \\approx 0,37$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "d6b8443c-6a5e-4353-a47a-8f3f6a07255a",
+      "id": "fa399c25-3b97-426b-979e-5f526e4f6643",
       "type": "question",
       "value": {
         "latex": "On note $R(t) = \\prob(S > t)$ la fiabilité du système à l'instant $t$. C'est la probabilité que le système fonctionne encore après un temps d'utilisation $t$. Exprimer $R(t)$ en fonction de $R_1(t), \\ldots, R_n(t)$ et en déduire que $S$ suit une loi exponentielle dont on précisera le paramètre.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "ae4c5173-8540-43f3-8092-01548d4b6902",
+      "id": "06171b38-8bf2-4293-ae79-a888fdb90b6b",
       "type": "reponse",
       "value": {
         "latex": "$R(t) = \\prob(S > t) = \\prob(T_1 > t, \\ldots, T_n > t) = \\prod_{k=1}^{n} \\prob(T_k > t) = \\prod_{k=1}^{n} R_k(t) = e^{-nt}$ pour tout $t \\geq 0$. Donc $S$ suit une loi exponentielle de paramètre $n$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "19f09703-241a-409c-9927-10ce3b280ff3",
+      "id": "1d811188-9595-401c-acb4-a55f303b9a1e",
       "type": "question",
       "value": {
         "latex": "Déterminer le temps moyen de bon fonctionnement du système.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "cbe297d0-a8ac-4839-a141-cd21072201c5",
+      "id": "46c2ec86-3ac3-4e53-b921-549798e69dae",
       "type": "reponse",
       "value": {
         "latex": "$\\E(S) = \\frac{1}{\\lambda} = \\frac{1}{n}$.",

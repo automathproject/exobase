@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Matrice",
     "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:20.097Z",
+    "updatedAt": "2025-04-04T19:05:11.639Z",
     "resume": "Cet exercice de type vrai ou faux évalue la compréhension des propriétés des matrices inversibles et de la transposée d'une matrice. Il teste la capacité à :\n\n*   Vérifier si l'inversibilité de $A$ implique $AA^T = A^T A$.\n*   Déterminer si l'inversibilité de $A$ implique celle de $AA^T$.\n*   Déterminer si l'inversibilité de $A$ implique celle de $A + A^T$.\n*   Déterminer si l'inversibilité de $A$ implique que $A$ est semblable à la matrice identité, c'est à dire s'il existe une matrice inversible $P$ telle que $P^{-1}AP = I$.",
     "competences": [
       "déterminer l'inversibilité d'une matrice",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "833d4ffe-8320-4b8d-a7f4-537bc55df5b8",
+      "id": "ac3897c0-a9e0-4775-ac69-8916027c584c",
       "type": "description",
       "value": {
         "latex": "VRAI-FAUX - Soit $A$ une matrice carrée. Parmi les affirmations suivantes, lesquelles sont vraies, lesquelles sont fausses, et pourquoi ?",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "a7bff386-ebc3-44eb-8f46-50af98928573",
+      "id": "9ac166c5-952a-4248-aa26-7e32070b3908",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $AA^\\top=A^\\top A$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "565f7490-1921-40f6-981f-008b99afcc2f",
+      "id": "f97c26f5-bb76-4437-b58e-60679486eacf",
       "type": "reponse",
       "value": {
         "latex": "FAUX : $A=\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right)$ est inversible. $A \\cdot\\left(A^\\top\\right)=\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right)=\\left(\\begin{array}{ll}1 & 1 \\\\ 1 & 2\\end{array}\\right) \\quad$ alors que $\\left(A^\\top\\right) \\cdot A=\\left(\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{ll}1 & 0 \\\\ 1 & 1\\end{array}\\right)=\\left(\\begin{array}{ll}2 & 1 \\\\ 1 & 1\\end{array}\\right)$",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "fca6cbcb-870e-49a6-9bbc-aa7224ed0179",
+      "id": "b8e9e1c6-3cb2-4929-82bc-1e559591b465",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $AA^\\top$ est inversible ;",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "805bbef9-a28a-4bde-8036-be47a7869857",
+      "id": "d38eb35d-8aaa-446f-babb-626fcaf60379",
       "type": "reponse",
       "value": {
         "latex": "VRAI : Si $A$ est inversible, alors $\\left(A^\\top\\right)$ est aussi inversible avec $\\left(A^\\top\\right)^{-1}={ }^t(A)^{-1}$. Et le produit de deux matrices inversibles est inversible, donc $A .\\left(A^\\top\\right)$ est aussi inversible.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "90632848-ef22-457b-93e6-5c6edf5760c9",
+      "id": "ab4d5c45-df29-454e-a83e-bd979b1dace1",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $A+A^\\top$ est inversible.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "29023f7a-377c-49a5-a29c-8fc7b6dab078",
+      "id": "beb88baa-6443-440a-a331-2305bb6c10fd",
       "type": "reponse",
       "value": {
         "latex": "FAUX : $A=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)$ est inversible, alors que $A+\\left(A^\\top\\right)=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)+\\left(\\begin{array}{cc}0 & 1 \\\\ -1 & 0\\end{array}\\right)=\\left(\\begin{array}{ll}0 & 0 \\\\ 0 & 0\\end{array}\\right)$ ne l'est pas.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "6e47d60a-a9e1-4de2-9c12-e3969f7e9c8f",
+      "id": "12f5052f-52d2-4d1a-bb4e-6846d0d51fed",
       "type": "question",
       "value": {
         "latex": "Si $A$ est inversible, alors $A$ est semblable à la matrice identité.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "40e84cb1-bb87-4b5c-8e11-b028b59ff8d7",
+      "id": "4332c261-b2d8-434e-8494-43d58e101bcf",
       "type": "reponse",
       "value": {
         "latex": "FAUX : $A$ est semblable à la matrice identité signifie qu'il existe une matrice inversible $P$ telle que : $P^{-1} . A . P=I d \\Leftrightarrow A=P . Id . P^{-1}=I d$. Donc, si $A$ est inversible et $A \\neq Id, A$ n'est semblable à la matrice identité.\n\t\tLa seule matrice semblable à l'identité est elle-même !",

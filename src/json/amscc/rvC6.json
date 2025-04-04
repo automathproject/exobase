@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Méthodes numériques",
     "sousChapitre": "Méthode de Newton",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:12.236Z",
+    "updatedAt": "2025-04-04T19:05:02.146Z",
     "resume": "L'exercice porte sur l'étude de la méthode de la corde et son application au calcul de la racine carrée d'un nombre $A$. Il aborde les compétences suivantes:\n\n*   Construction graphique des itérations de la méthode de la corde.\n*   Identification de la méthode de la corde comme un cas particulier de la méthode de point fixe: $x_{k+1} = g(x_k)$ avec $g(x) = x - \\frac{f(x)}{f'(x_0)}$.\n*   Détermination de l'ordre minimal de convergence d'une méthode de point fixe (ordre 1).\n*   Analyse de la convergence d'un algorithme itératif pour le calcul de $\\sqrt{A}$, en lien avec la méthode de la corde. L'algorithme est défini par $x_{k+1} = x_k + \\frac{A - x_k^2}{2}$.\n*   Démonstration de la convergence de la suite $(x_n)$ vers $\\sqrt{A}$ sous certaines conditions initiales (A ∈ ]0;4[ et $x_0$ proche de $\\sqrt{A}$).\n*   Vérification graphique de la divergence de la suite $(x_n)$ vers $-\\sqrt{A}$ quand $x_0$ est proche de $-\\sqrt{A}$.\n*   Détermination de l'ordre de convergence de la méthode de la corde (linéaire).\n*   Proposition d'un algorithme plus efficace (méthode de Newton) pour calculer la racine carrée, en définissant l'itération: $x_{k+1} = x_k - \\frac{x_k^2 - A}{2x_k}$ et en justifiant sa convergence quadratique.",
     "competences": [
       "appliquer la méthode de point fixe",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "448e4170-0c46-49f0-b34d-c31315033a99",
+      "id": "fedab1d1-0de0-4f84-a521-cd945f23689e",
       "type": "description",
       "value": {
         "latex": "La méthode de la corde pour résoudre une équation du type $f(x)=0$ consiste à construire la suite $(x_k)$ définie par\n$$\\forall k \\in \\mathbb{N} : \\quad x_{k+1}=x_k-\\frac{f(x_k)}{f'(x_0)}$$",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "d8581254-5aeb-4fd1-9b7c-265866e5d2b1",
+      "id": "446758d7-a8d8-4364-b74a-3a0ae796dac3",
       "type": "question",
       "value": {
         "latex": "Sur un graphique, construire les premières itérations de cette méthode en prenant $f(x)=x^2$ et $x_0=1$.",
@@ -69,15 +69,15 @@
       }
     },
     {
-      "id": "c72b792e-f3d4-4428-8475-a3e453c61540",
+      "id": "e1d151f5-6d1c-43eb-8a68-7f272ab889f7",
       "type": "reponse",
       "value": {
-        "latex": "Le principe de construction du point $x_{k+1}$ est le suivant: on prend l'intersection de l'axe des abscisses avec la droite passant par le point $(x_k,f(x_k))$ de pente $f'(x_0)=2x_0=2$. \n\t\t\t\\begin{center} \n\t\t\t\t\\newcommand\\newtfonc[1]{#1*#1) } \n\t\t\t\t__TIKZ_63249c89-1615-4e69-9293-06b62ce9b79d__\n\t\t\\end{center}",
+        "latex": "Le principe de construction du point $x_{k+1}$ est le suivant: on prend l'intersection de l'axe des abscisses avec la droite passant par le point $(x_k,f(x_k))$ de pente $f'(x_0)=2x_0=2$. \n\t\t\t\\begin{center} \n\t\t\t\t\\newcommand\\newtfonc[1]{#1*#1) } \n\t\t\t\t__TIKZ_a21e044a-9bf4-4aa7-82e7-12984ff1eb98__\n\t\t\\end{center}",
         "html": "<p>Le principe de construction du point <span\nclass=\"math inline\">\\(x_{k+1}\\)</span> est le suivant: on prend\nl’intersection de l’axe des abscisses avec la droite passant par le\npoint <span class=\"math inline\">\\((x_k,f(x_k))\\)</span> de pente <span\nclass=\"math inline\">\\(f&#39;(x_0)=2x_0=2\\)</span>.</p>\n<div class=\"center\">\n<p><!-- Conversion error: LaTeX Error:\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence.\nUndefined control sequence. -->\n<!-- Problematic TikZ content:\n[scale=.5]\n\t\t\t\t\\begin{axis}[\n\t\t\t\twidth=14cm, height=10cm,\n\t\t\t\taxis x line=center, \n\t\t\t\taxis y line=middle,\n\t\t\t\txlabel =$x$,\n\t\t\t\tevery axis x label/.style={\n\t\t\t\t\tat={(ticklabel* cs:1.0)},\n\t\t\t\t\tanchor=west,\n\t\t\t\t},\n\t\t\t\tylabel = $y$,\n\t\t\t\tevery axis y label/.style={\n\t\t\t\t\tat={(ticklabel* cs:1)},\n\t\t\t\t\tanchor=south,},\n\t\t\t\tlegend style={draw=none,at={(-.1,1)},anchor=north west,font=\\large },\n\t\t\t\tsamples=100,\n\t\t\t\tymin=-0.6, ymax=1.5,\n\t\t\t\txmin=-1.8, xmax=2.1,\n\t\t\t\tytick={0 },\n\t\t\t\txtick={0 },\n\t\t\t\tlegend cell align=left,\n\t\t\t\t]\n\t\t\t\t\\addplot [mark=none,line width=.5mm,blue,domain= -1.7:2 ]{\\newtfonc{x} };\n\t\t\t\t\\node[label={-90:{\\large{$x_0$}}},circle,fill,red,inner sep=2pt] at (axis cs:1,0) {};\n\t\t\t\t\\node[label={-80:{\\large{$x_1$}}},circle,fill,red,inner sep=2pt] at (axis cs:0.5 ,0) {};\n\t\t\t\t\\node[label={-120:{\\large{$x_2$}}},circle,fill,red,inner sep=2pt] at (axis cs:0.375 ,0) {};\n\t\t\t\t\\addplot [dotted,thick,blue] coordinates { (1,0) (1,1)};\n\t\t\t\t\\addplot [line width=.3mm,red] {2*x-1};\n\t\t\t\t\\addplot [dotted,thick,blue] coordinates { (0.5,0) (0.5,0.25)};\n\t\t\t\t\\addplot [line width=.3mm,red] {2*x-0.75};\n\t\t\t\t\\end{axis}\n--></p>\n</div>\n"
       }
     },
     {
-      "id": "090af0d8-634e-4334-9606-f5b635a7c839",
+      "id": "c17f76b5-356d-413d-b5e5-a1ab648c18ed",
       "type": "question",
       "value": {
         "latex": "De quelle méthode générale la méthode de la corde est-elle un cas particulier ? Justifier.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "95840783-5503-4e2a-8f1b-5e10d60425a9",
+      "id": "f2f2803c-4efa-4931-b7c0-ccfb3eae03ba",
       "type": "reponse",
       "value": {
         "latex": "La méthode de la corde est un cas particulier de la méthode de point fixe : on a $x_{k+1}=g(x_k)$, où $g$ est la fonction définie par $g(x)=x-\\frac{f(x)}{f'(x_0)}$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "d20d29c8-4359-42e9-be17-07833580cd64",
+      "id": "e6a1abda-0839-45cc-9ef5-983420092409",
       "type": "question",
       "value": {
         "latex": "En déduire l'ordre minimal de convergence de la méthode de la corde, quand celle-ci converge.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "4cf30226-96ee-49be-9afe-3859ab391fc6",
+      "id": "69303f96-3bd3-4032-a22c-e9e4ca332443",
       "type": "reponse",
       "value": {
         "latex": "Quand une méthode de point fixe converge, elle est au minimum d'ordre $1$.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "e0ee3ba3-3c4d-4041-9493-fbc36b2fdb36",
+      "id": "06681fe5-2976-4c75-ab11-ccc372fb4916",
       "type": "description",
       "value": {
         "latex": "On souhaite trouver une méthode efficace pour trouver une approximation de la racine carrée d'un nombre positif $A$ donné. Considérons tout d'abord l'algorithme suivant: étant donné une valeur $x_0$, on calcule\n\\[x_{k+1}=x_k+\\frac{A-x^2_k}{2}, \\quad k=0,1,2,... \\]",

@@ -8,14 +8,14 @@
   "metadata": {
     "exo7id": "",
     "auteur": "Q. Liard",
-    "createdAt": "2025-03-24T17:17:17.199Z",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-04-04T19:05:06.561Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Division euclidienne",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:17.199Z",
+    "updatedAt": "2025-04-04T19:05:06.561Z",
     "resume": "Cet exercice porte sur les polynômes et la division euclidienne. Il évalue les compétences suivantes:\n\n*   Détermination des racines complexes d'un polynôme et de leur ordre de multiplicité, en utilisant les dérivées successives pour déterminer les multiplicités. La factorisation du polynôme est $P(X)=X(X-1)^2(X-2)$.\n*   Effectuer la division euclidienne d'un polynôme $P(X)$ par $(X-2)^2$, avec pour résultat $P(X)=(X-2)^2(X^2+1)+2X-4$.\n*   Déduction d'une égalité reliant la division euclidienne à une expression fractionnaire, démontrant que $\\frac{P(X)}{X^2-4X+4}=X^2+1+\\frac{2X-4}{(X-2)^2}$.",
     "competences": [
       "factoriser un polynôme en identifiant ses racines et leur multiplicité",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "9e449c0c-e07f-45fe-b1f8-5f81909e6115",
+      "id": "6fac0713-1468-444e-b577-2a9d984cef39",
       "type": "question",
       "value": {
         "latex": "Déterminer les racines complexes de $P(X)=X^4-4X^3+5X^2-2X$ ainsi que leur ordre de multiplicité.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "83dc4dcd-e218-4748-b8d7-a157c0ac9622",
+      "id": "afb0d5cc-e83d-4700-a1ca-0de15feed92f",
       "type": "reponse",
       "value": {
         "latex": "$P(0)=0,\\,P(1)=0$ et $P(2)=0$. Calculons $P'(X)$ et $P''(X)$. On obtient\n$$P'(X)=4X^3-12X^2+10X-2,\\quad P''(X)=12X^2-24X+10.$$\nAinsi $P'(0)\\neq 0$ et $P'(2)\\neq 0$ mais $P'(1)=0,\\,P''(1)\\neq 0$. $1$ est racine multiplicité double, $0$ et $2$ sont racines simples. On obtient la factorisation $P(X)=X(X-1)^2(X-2)$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "9aadc75f-29e1-49a0-b4ca-4e5efe6525bb",
+      "id": "a4b9d8bb-972e-4094-8349-0d39db947452",
       "type": "question",
       "value": {
         "latex": "Effectuer la division euclidienne de $P$ par $(X-2)^2$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "1091b50a-5730-467e-a5e0-075818a27ef8",
+      "id": "c0a26f58-7068-4ae2-ba7b-77bdd923417c",
       "type": "reponse",
       "value": {
         "latex": "La division euclidienne de $P$ par $(X-2)^2$ donne l'égalité suivante:\n$$P(X)=(X-2)^2(X^2+1)+2X-4.$$",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "7436a93a-610c-46d1-8cf7-d7a49fb2e678",
+      "id": "73d70cf8-8411-4cdb-b472-85e1ff7367f8",
       "type": "question",
       "value": {
         "latex": "En déduire l'égalité suivante:\n$$\\frac{P(X)}{X^2-4X+4}=X^2+1+\\frac{2X-4}{(X-2)^2}.$$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "d43a0d35-5ef2-47cd-805d-8e2dd24e5027",
+      "id": "a3657365-1016-4248-b53f-75f1ba11e5a8",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{P(X)}{X^2-4X+4}=\\frac{P(X)}{(X-2)^2}=X^2+1+\\frac{2X-4}{(X-2)^2},$\nd'après la question précédente.",

@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:40.654Z",
+    "updatedAt": "2025-04-04T19:03:17.261Z",
     "resume": "L'exercice porte sur l'étude de variables aléatoires discrètes dans le contexte d'un tirage avec remise de boules numérotées. Il évalue les compétences suivantes : \n\n*   **Question 1:** Définition d'une variable aléatoire de Bernoulli $X_i$ et calcul de sa probabilité $\\mathbb{P}(X_i = 0)$. Détermination de la loi de $X_i$ et calcul de son espérance $\\mathbb{E}(X_i)$ et de sa variance $\\mathbb{V}(X_i)$.\n*   **Question 2:** Calcul de la probabilité conjointe $\\mathbb{P}((X_1 = 0) \\cap (X_2 = 0))$ et vérification de l'indépendance des variables aléatoires $X_1$ et $X_2$.\n*   **Question 3:** Détermination de la loi jointe du couple $(X_1, X_2)$ et présentation sous forme de tableau.\n*   **Question 4:** Expression d'une variable aléatoire $X$ comme somme de variables de Bernoulli ($X = X_1 + X_2 + X_3 + X_4 + X_5$) et calcul de l'espérance de $X$ en utilisant la linéarité de l'espérance.",
     "competences": [
       "calculer des probabilités d'événements",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "07213a4c-b915-4857-a55c-9100f36611ba",
+      "id": "47d341c6-bbcd-4aba-8ec0-9443b54ea149",
       "type": "description",
       "value": {
         "latex": "On tire $4$ boules avec remise dans une urne contenant des boules numérotées de $1$ à $5$. On dit que $i\\in{1,2,3,4,5}$ est une valeur gagnante si la boule numéro $i$ est tirée au moins une fois.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "890ffc13-5be6-4849-bdb8-51146e199c16",
+      "id": "b4cb26f9-c9ac-41a1-97f1-f91a8e508588",
       "type": "question",
       "value": {
         "latex": "Pour $i=1,...,5$, soit $X_i$ la variable aléatoire qui est égale à $1$ si le numéro $i$ est une valeur gagnante, et $0$ sinon. Trouver $\\prob(X_i=0)$. Déterminer la loi, l'espérance et la variance de $X_i$ pour $i=1,...,5$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "aa636900-f231-45ba-985f-3e881590e3b3",
+      "id": "a62fca3d-f2c1-4ce7-b3a1-6fa517e9061f",
       "type": "reponse",
       "value": {
         "latex": "On a \\qquad $X_i=\\begin{cases} 1 & \\text{ si } i \\text{ valeur gagnante} \\\\\n\t\t0 & \\text{ sinon}\n\t\t\\end{cases}$ \\qquad \n\t\tdonc \n\t\t\\[ \\prob(X_i=0)=\\prob(\\text{''La boule numérotée $i$ n'a jamais été tirée``})=\\left(\\frac{4}{5}\\right)^4.\\]\n\t\tComme $X_i$ ne peut prendre que deux valeurs: $0$ ou $1$, on en déduit:\n\t\t\\[ \\prob(X_i=1)=1-\\prob(X_i=0)=1-\\left(\\frac{4}{5}\\right)^4=\\frac{369}{625},\\]\n\t\tce qui revient à dire que $X_i\\sim \\mathcal{B}\\left(1-\\left(\\frac{4}{5}\\right)^4\\right)$. Ainsi, on a\n\t\t$$\\begin{align*}\n\t\t\\E(X_i)&=1-\\left(\\frac{4}{5}\\right)^4=\\frac{369}{625}, \\\\\n\t\t\\V(X_i)&=\\left(1-\\left(\\frac{4}{5}\\right)^4\\right)\\times \\left(\\frac{4}{5}\\right)^4=\\frac{94\\ 464}{390\\ 625}.\n\t\t\\end{align*}$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "3b6a01b7-f24b-45ef-8916-38e7a7b588a5",
+      "id": "cebe3c04-20fe-48f5-b95f-da6e2d8d07ff",
       "type": "question",
       "value": {
         "latex": "Calculer $\\prob((X_1=0)\\cap(X_2=0))$. Les variables aléatoires $X_1$ et $X_2$ sont-elles indépendantes ?",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "c305655d-bc5a-4b21-b4f9-b4ddf53fdf51",
+      "id": "f33e8208-3ee1-4ed0-8e62-4b97abe067be",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\\prob((X_1=0)\\cap(X_2=0))&=\\prob(\\text{''Les boules numérotées $1$ et $2$ n'ont jamais été tirées``}) \\\\\n\t\t&= \\left(\\frac{3}{5}\\right)^4=\\frac{81}{625}\n\t\t\\end{align*}$$\n\t\tor $\\prob(X_1=0)\\prob(X_2=0)=\\left(\\frac{4}{5}\\right)^4 \\times \\left(\\frac{4}{5}\\right)^4$ donc $\\prob((X_1=0)\\cap(X_2=0)) \\neq \\prob(X_1=0)\\prob(X_2=0)$. On en conclut que les variables $X_1$ et $X_2$ ne sont pas indépendantes.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "1194c64a-b7bb-40c7-88e2-62432bbb2f33",
+      "id": "a965ecc3-27d0-47e3-b24c-13c500232eda",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi jointe de $(X_1,X_2)$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "6c36113e-12f0-4ef8-9525-3555cc14c08e",
+      "id": "73624d5f-f4e9-4108-901e-a6e9d4979fa1",
       "type": "reponse",
       "value": {
         "latex": "\\begin{center}\n\t\t\t\\begin{tabular}{|c|c|c||c|}\n\t\t\t\t\\hline\n\t\t\t\t$X \\backslash Y$ & $0$ & $1$ & $\\prob_{X_2}$ (loi de $X_2$)  \\\\\n\t\t\t\t\\hline\n\t\t\t\t$0$ & $\\frac{81}{625}$ & $\\frac{175}{625}$ & $\\frac{256}{625}$  \\\\\n\t\t\t\t\\hline\n\t\t\t\t$1$ & $\\frac{175}{625}$ & $\\frac{194}{625}$ & $\\frac{369}{625}$  \\\\\n\t\t\t\t\\hline\n\t\t\t\t\\hline\n\t\t\t\t$\\prob_{X_1}$ (loi de $X_1$) & $\\frac{256}{625}$ & $\\frac{369}{625}$ & $1$  \\\\\n\t\t\t\t\\hline\n\t\t\t\\end{tabular}\n\t\t\\end{center}",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "e9a928ae-2e49-444b-ae90-4b1d90c8da63",
+      "id": "ec5eb823-f1cd-47cf-abe0-f58c5023fa56",
       "type": "question",
       "value": {
         "latex": "Soit $X$ la variable aléatoire égale au nombre de valeurs gagnantes. Exprimer $X$ en fonction de $X_1$,...,$X_5$. Déterminer l'espérance de $X$.",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "3f1b6bae-27d5-48fd-b995-438263510eb7",
+      "id": "0f57dbf6-e0a5-438f-b75a-0e9cf31653af",
       "type": "reponse",
       "value": {
         "latex": "On a $X=X_1+X_2+X_3+X_4+X_5$. Comme les variables aléatoires $X_i$ sont de même loi, on obtient\n\t\t\\[ \\E(X)=\\sum_{i=1}^5 \\E(X_i)=5\\E(X_1)=5\\times \\frac{369}{625}=\\frac{369}{125}\\simeq 2.95.\\]\n\t\tEn moyenne, on aura quasiment $3$ valeurs gagnantes par jeu.",

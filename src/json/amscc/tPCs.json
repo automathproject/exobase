@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-02",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Résolution de systèmes linéaires : méthode itérative",
     "sousChapitre": "Résolution de systèmes linéaires : méthode itérative",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:13.597Z",
+    "updatedAt": "2025-04-04T19:05:03.406Z",
     "resume": "L'exercice porte sur l'analyse de la convergence d'une méthode itérative pour résoudre un système linéaire $Ax = b$, où $A$ est une matrice symétrique définie positive. Il s'agit de:\n\n1.  Déterminer la condition sur le paramètre $\\sigma$ pour assurer la convergence de la méthode itérative $x_{n+1} = x_n - \\sigma(Ax_n-b)$, en reliant cette condition au rayon spectral $\\rho(A)$ de la matrice $A$.\n2.  Optimiser le choix de $\\sigma$ pour maximiser la vitesse de convergence, en exprimant $\\sigma$ en fonction de $\\rho(A)$ et $\\rho(A^{-1})$. ",
     "competences": [
       "appliquer le théorème du rayon spectral pour déterminer la convergence d'une méthode itérative",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "536474d8-325b-4810-8446-71f1db846084",
+      "id": "da718f6b-35a9-4c40-b5ed-c0535acc574d",
       "type": "description",
       "value": {
         "latex": "Soit $A \\in \\mathcal{M}_N(\\R)$ une matrice réelle symétrique définie positive et $b\\in \\R^N$. On note $\\rho(A)$ le rayon spectral de la matrice $A$.  Pour résoudre le système \n$$Ax=b$$\non considère la suite définie par $x_0 \\in \\R^N$ et $\\sigma \\in \\R$ :\n$$x_{n+1} = x_n - \\sigma(Ax_n-b)$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "76467198-63b3-4414-b4ea-ee9ec21e631d",
+      "id": "16206170-b526-4943-8070-1cb545903588",
       "type": "question",
       "value": {
         "latex": "Montrer que la méthode converge vers la solution $x$ du système si et seulement si :\n\t$$0 < \\sigma < \\frac{2}{\\rho(A)}$$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "8ae6a15f-3962-4539-acc0-1368d1b1eee4",
+      "id": "4c8264ad-a923-49d2-bd90-649f5d05b75c",
       "type": "reponse",
       "value": {
         "latex": "On vérifie dans un premier temps que si la méthode converge vers un vecteur $y \\in \\R^n$, alors $y$ vérifie $y=y-\\sigma(Ay-b) \\iff Ay=b$ à condition que $\\sigma \\neq 0$.\n\t\t\n\t\tPour que la méthode converge, le cours dit qu'il est nécessaire et suffisant que la matrice d'itération $B$ vérifie $\\rho(B)<1$. Ici, $B = I-\\sigma A$, le spectre de $B$ est $sp(B) = \\{1- \\sigma\\lambda \\mid \\lambda \\in sp(A)\\}$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "28c88630-0168-47b7-9ab6-4594a891fef5",
+      "id": "d7368b20-0b78-4db6-bd9d-0f104b376c6f",
       "type": "question",
       "value": {
         "latex": "Comment choisir $\\sigma$ pour que optimiser la vitesse de convergence de cette méthode ? Exprimer le résultat en fonction de $\\rho(A)$ et $\\rho(A^{-1})$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "748863dd-5db7-4303-abbc-711acbd55f5b",
+      "id": "4b26f258-d9c5-4dec-9f7f-23420cfc22e0",
       "type": "reponse",
       "value": {
         "latex": "On cherche $\\sigma$ tel que $\\rho(B)$ soit minimal. Or $\\rho(B) = \\max_i|1-\\sigma\\lambda_i|$. On sait que les valeurs propres de $A$ sont strictement positives, on peut les ranger dans l'ordre croissant $0 < \\lambda _1 \\leq ... \\leq \\lambda _n$, ce qui permet d'affirmer que $\\rho(B) = \\max\\{1-\\sigma \\lambda_1 ; \\sigma \\lambda_n -1 \\}$. \\'Etant donné que cette  fonction est décroissante jusqu'au point $\\sigma$ tel que $1-\\sigma \\lambda_1 = \\sigma \\lambda_n-1$, puis croissante au delà, la solution est $\\sigma = \\frac{2}{\\lambda_1+\\lambda_n}$. Or $\\lambda_1 = \\frac{1}{\\rho(A^{-1})}$ et $\\lambda_n = \\rho(A)$ d'où  \n\t\t$$\\sigma = \\frac{2}{\\frac{1}{\\rho(A^{-1})} + \\rho(A)}$$",

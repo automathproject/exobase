@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-11",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:23.071Z",
+    "updatedAt": "2025-04-04T19:01:34.356Z",
     "resume": "L'exercice porte sur l'étude probabiliste d'un jeu de roulette simplifié. Il s'agit d'abord de déterminer la loi d'une variable aléatoire $X$ représentant le gain algébrique d'un joueur misant sur un seul numéro, puis de calculer son espérance $E(X)$ et son écart-type $\\\\sigma(X)$.\\n\\nEnsuite, on approxime la loi de la moyenne empirique $\\\\bar{X}_{5000}$ de 5000 variables aléatoires indépendantes et identiquement distribuées, représentant les gains algébriques de 5000 joueurs. On utilise cette approximation pour calculer la probabilité que le salon de jeux perde de l'argent sur ces 5000 mises. Enfin, on détermine le nombre de mises nécessaires pour que la probabilité de perte pour le salon de jeux soit inférieure à 5%.",
     "competences": [
       "appliquer le théorème central limite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "625b3a7e-dbe7-4a12-9031-035df227f6c3",
+      "id": "15659401-edc5-4892-a26e-aef149d1bbc4",
       "type": "description",
       "value": {
         "latex": "Timothée vient d'ouvrir un salon de jeux. Pour l'instant, il n'a installé qu'une roulette et a simplifié le jeu de la manière suivante : on ne peut miser que 1 euro sur 1 seul des numéros (de 0 à 36 ) à la fois. Si le numéro misé sort, le joueur récupère sa mise plus 34 fois celle-ci ; sinon il perd sa mise.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "9a5f00b6-477d-4add-9fdd-cb97390f4bd0",
+      "id": "cfb129ed-86f7-4b0a-af47-defac67cc798",
       "type": "description",
       "value": {
         "latex": "Camille vient au salon de jeux de Timothée et mise un euro sur le 21 . On note $X$ la variable aléatoire donnant le gain algébrique de Camille.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "045a24d8-2cb0-4098-b9cb-c46b7bd2c28b",
+      "id": "343e1bfb-3e74-4e37-916e-c75f3f7df1e0",
       "type": "question",
       "value": {
         "latex": "Donner la loi de $X$ .",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "39bb919e-0534-4ca0-b38b-6a4266214b4d",
+      "id": "08ef5b9d-6160-4806-9f9a-d89aa0849225",
       "type": "reponse",
       "value": {
         "latex": "$X(\\Omega)=\\{-1 ; 34\\}, \\mathbb{P}(X=-1)=\\frac{36}{37}$ et $\\mathbb{P}(X=34)=\\frac{1}{37}$",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "31463069-881f-47cd-96a3-5d50f03faff8",
+      "id": "1f31ea44-d8c8-48a2-ae7d-2b802e8536e4",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "6c7ce56b-6123-4e46-a473-1c2eca761fa2",
+      "id": "f1111222-a84d-4ce6-b7d2-88a6bbcf52f6",
       "type": "reponse",
       "value": {
         "latex": "Commenter. $-\\frac{2}{37}$",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "5dddef72-53b7-4c1f-9833-623e1bee8feb",
+      "id": "7cf8e06f-2882-4bd6-90c6-44dccd2ced94",
       "type": "question",
       "value": {
         "latex": "Calculer l'écart type de $X$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "ed09e690-9b0d-42e9-9780-76f86e46891b",
+      "id": "20ffd8c5-6681-4d20-8aac-43d8940be401",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{210}{37}$",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "3c485d80-aca0-473b-8e6a-3f749653b35b",
+      "id": "e522da07-dbe3-4633-866b-ccf2273ec57d",
       "type": "description",
       "value": {
         "latex": "Timothée s'attend à avoir 5000 mises de un euro effectuées par mois dans son salon de jeux. On note $X_1, X_2, \\ldots, X_{5000}$ les 5000 variables aléatoires représentant les gains algébriques des clients correspondant à 5000 mises de un euro. On suppose les mises et donc les variables $X_1, X_2, \\ldots, X_{5000}$ indépendantes.",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "a52c5d25-2393-4948-9509-fc02fab75514",
+      "id": "877d9870-42c7-4739-a22a-5deab9e6a7fa",
       "type": "question",
       "value": {
         "latex": "Donner une approximation de la loi de la variable aléatoire $\\bar{X}_{5000}$.",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "ae2a5882-170d-40e5-b678-038d2ed5f42d",
+      "id": "b37411b2-962b-4d41-b691-88404978a3b7",
       "type": "reponse",
       "value": {
         "latex": "$\\bar{X}_{5000} \\underset{a p p r o x}{\\sim} \\mathcal{N}\\left(-\\frac{2}{37} ; \\frac{21 \\sqrt{2}}{370}\\right)$",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "cd626ff4-9c69-48b7-9367-6afd8fe1b5bc",
+      "id": "1e57fcd2-f25f-45de-894f-4c59b30360bb",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité que Timothée et son salon de jeux perdent de l'argent sur 5000 mises ?",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "id": "47948358-185c-433e-9328-82c82a2bef16",
+      "id": "c523b73f-b0ca-4ce2-b5cb-e00cabe028c4",
       "type": "reponse",
       "value": {
         "latex": "$\\simeq 0.25$",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "e9682247-1958-4ea9-af02-88bb9f6d837f",
+      "id": "12166e54-5a69-451a-ae57-7327c7cafed6",
       "type": "question",
       "value": {
         "latex": "À partir de combien de mises la probabilité que Timothée et son salon de jeux perdent de l'argent sur ces mises soit inférieure à $5 \\%$ ?",
@@ -166,7 +166,7 @@
       }
     },
     {
-      "id": "4f13a1b3-cf43-4340-97a5-e93e2ab20605",
+      "id": "dfc1d759-cd19-4469-af98-86db2a134f55",
       "type": "reponse",
       "value": {
         "latex": "$29834$",

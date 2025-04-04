@@ -1,21 +1,21 @@
 {
   "uuid": "T4fh",
-  "titre": "Etude d'un estimateur",
+  "titre": "Estimateurs et loi de Bernoulli",
   "theme": [
-    "estimateurs"
+    "probabilité"
   ],
   "niveau": "",
   "metadata": {
     "exo7id": "",
     "auteur": "",
-    "createdAt": "2023-01-11",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-04-04T19:02:27.236Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "Statistique",
-    "sousChapitre": "Estimation",
+    "chapitre": "",
+    "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:32.178Z",
+    "updatedAt": "2025-04-04T19:02:27.236Z",
     "resume": "L'exercice porte sur l'étude d'estimateurs pour le paramètre $p$ d'une loi de Bernoulli. Il évalue la capacité à calculer l'espérance de variables aléatoires liées à un $n$-échantillon, notamment $\\mathbb{E}(Y)$ et $\\mathbb{E}(Y^2)$ où $Y=n\\overline{X}$ et $\\overline{X}$ est la moyenne empirique. L'exercice demande également de déterminer si un estimateur donné est biaisé ou non en calculant son biais $B(Z) = \\mathbb{E}(Z) - p^2$ et de vérifier qu'un estimateur est sans biais en montrant que son espérance est égale à $p^2$.",
     "competences": [
       "calculer une espérance mathématique",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "ecf102ad-03b3-44f8-8bbc-97fc87f95725",
+      "id": "d07c365c-cd16-4f6b-917b-466a4a525dd3",
       "type": "question",
       "value": {
         "latex": "Exprimer $\\mathbb{E}(Y)$ et $\\mathbb{E}(Y^2)$ en fonction de $n$ et $p$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "39e32411-c354-4d1c-a358-5efeb7c0e189",
+      "id": "afea6435-0856-4550-b8ba-b0087a430779",
       "type": "reponse",
       "value": {
         "latex": "On considère $Y = n\\overline{X} = \\sum_{i=1}^n X_i$ : par définition, $Y$ suit une loi binomiale $\\mathcal{B}(n,p)$, ce qui permet d'affirmer que $\\mathbb{E}(Y) = np$ et $V(Y) = np(1-p)$. Or on sait que $V(Y) = \\mathbb{E}(Y^2)-(\\mathbb{E}(Y))^2$, donc $\\mathbb{E}(Y^2) = np(1-p)+(np)^2 = np(1+p(n-1))$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "08a9199c-6306-423a-b8c8-2f6ab192c0e9",
+      "id": "ba31d817-08a8-4a83-a404-9248439ba01c",
       "type": "question",
       "value": {
         "latex": "On pose $Z = \\overline{X}^2$. Peut-on dire que $Z$ est un estimateur sais biais de $p^2$ ?",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "8b7d439f-8ec9-4ba8-a0bf-d55b1443261c",
+      "id": "4b1d92ed-3b0f-4e57-8f53-c71c1698ced6",
       "type": "reponse",
       "value": {
         "latex": "En voyant la variable $Z$ comme un estimateur de $p^2$, on va calculer son biais $B(Z)=\\mathbb{E}(Z-p^2) = \\mathbb{E}(Z)-p^2$. Or $\\mathbb{E}(Z) = \\mathbb{E}\\left(\\left(\\frac{1}{n}Y\\right)^2\\right) = \\frac{1}{n^2}\\mathbb{E}(Y^2) = \\frac{p}{n} + p^2 \\frac{n-1}{n} \\neq p^2$ donc $B(Z) \\neq 0$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "8815b4fb-e139-4ab0-8788-b29ee0b6be34",
+      "id": "6eed3bf5-9adb-4cdb-9934-6058d3d58648",
       "type": "question",
       "value": {
         "latex": "On pose $T = \\frac{Y(Y-1)}{n(n-1)}$. Vérifier que $T$ est un estimateur sans biais de $p^2$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "1e9ad696-cfa1-49ea-812e-1d4a04b1c603",
+      "id": "8a9d6c17-6e46-4a8b-ba4f-fe43323faa29",
       "type": "reponse",
       "value": {
         "latex": "En revanche, $\\mathbb{E}(T) = \\frac{1}{n(n-1)}\\mathbb{E}(Y(Y-1)) = \\frac{1}{n(n-1)}(np(1+(n-1)p)-np) = p^2$ donc $T$ est un estimateur non biaisé de la valeur $p^2$.",

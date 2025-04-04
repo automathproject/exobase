@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:00.930Z",
+    "updatedAt": "2025-04-04T19:02:09.440Z",
     "resume": "Cet exercice porte sur le calcul de probabilités dans le contexte de la divisibilité. Il évalue la capacité à: \n\n1.  Calculer la probabilité qu'un nombre tiré aléatoirement entre 1 et $n$ soit divisible par un nombre premier $p_i$ diviseur de $n$ : $\\prob(A_{p_i}) = \\frac{1}{p_i}$.\n\n2.  Calculer la probabilité de l'intersection d'événements de divisibilité par des nombres premiers, puis à prouver l'indépendance mutuelle de ces événements. La formule démontrée est : $\\prob(A_{p_{i_1}}\\cap A_{p_{i_2}}\\cap \\ldots\\cap A_{p_{i_k}}) = \\prod_{j=1}^k \\prob(A_{p_{i_j}})$.\n\n3. Calculer la probabilité qu'un nombre tiré aléatoirement ne soit divisible par aucun des diviseurs premiers de $n$, et d'en déduire l'expression de l'indicatrice d'Euler : $\\Phi(n)=n\\prod_{i=1}^r\\left(1-\\frac{1}{p_i}\\right)$. Cela implique de comprendre la relation entre indépendance d'événements et probabilité de leur intersection, ainsi que d'appliquer la formule des probabilités complémentaires.",
     "competences": [
       "calculer une probabilité conditionnelle",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "67672763-46b3-4ae2-a6ab-25a512a3f832",
+      "id": "fda6664b-cb9d-4904-9bf4-6fde71f86c00",
       "type": "description",
       "value": {
         "latex": "Une urne contient $n$ boules numérotées de $1$ à $n$, $n$ étant un entier non nul et non premier. On tire une boule au hasard de l'urne et on définit les événements $A_{p_i}$ comme étant ``Le nombre est divisible par $p_i$.'', où les entiers $p_1, p_2, \\ldots , p_r$ sont les diviseurs premiers de $n$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "db438696-6fc9-4c1d-b8fd-423cc8f020dd",
+      "id": "1897c290-3603-4cf7-86b2-507c372663ea",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité $\\prob(A_{p_i})$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "91bc13f6-8d15-43e6-a9c2-e89718d01ec3",
+      "id": "4c27e350-2a5e-499b-81c8-27fbf224a10d",
       "type": "reponse",
       "value": {
         "latex": "Il y a $\\frac n {p_i}$ multiples de $p_i$ inférieurs à $n$, donc $\\prob(A_{p_i})=\\frac{\\frac{n}{p_i}}{n} = \\frac{1}{p_i}$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "fdf88df5-7133-4df3-ab29-916d63a21449",
+      "id": "c4413ccf-6f2d-495b-a350-65c3470b81f1",
       "type": "question",
       "value": {
         "latex": "Calculer $\\prob(A_{p_{i_1}}\\cap A_{p_{i_2}}\\cap \\ldots\\cap A_{p_{i_k}})$ pour $k$ quelconques de ces $r$ événements. \n\tEn déduire que $A_{p_{1}}, A_{p_{2}}, \\ldots, A_{p_{r}}$ sont $r$ événements indépendants dans leur ensemble.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "836d1059-e6e3-4b32-8097-6ccbe03f93ae",
+      "id": "899fd488-e2d9-4181-aa9f-054b84f950d4",
       "type": "reponse",
       "value": {
         "latex": "L'événement $A_{p_{i_1}}\\cap A_{p_{i_2}}\\cap \\ldots\\cap A_{p_{i_k}}$ est réalisé ssi le nombre est divisible à la fois par $p_{i_1}$, $p_{i_2}$, \\ldots, $p_{i_k}$. Comme il s'agit de nombres premiers, ceci équivaut à dire que le nombre est divisible par $p_{i_1}\\times p_{i_2} \\times \\ldots \\times p_{i_k}$. Ainsi,\n\t\t$$\\begin{align*}\n\t\t\t\\prob(A_{p_{i_1}}\\cap A_{p_{i_2}}\\cap \\ldots\\cap A_{p_{i_k}})&=\\prob(\\text{``Le nombre est divisible par }p_{i_1}\\times p_{i_2} \\times \\ldots \\times p_{i_k}\\text{''})\\\\\n\t\t\t&=\\frac{1}{p_{i_1}\\times p_{i_2} \\times \\ldots \\times p_{i_k}}\\\\\n\t\t\t&=\n\t\t\t\\frac{1}{p_{i_1}}\\times \\frac{1}{p_{i_2}} \\times \\ldots \\frac{1}{\\times p_{i_k}}\n\t\t\t\\\\\n\t\t\t&=\\prob(A_{p_{i_1}})\\times \\prob(A_{p_{i_2}}) \\times \\ldots \\times \\prob(A_{p_{i_k}}).\n\t\t\\end{align*}$$\n\t\tOn vient donc de montrer que $A_{p_{1}}, A_{p_{2}}, \\ldots, A_{p_{r}}$ sont indépendants dans leur ensemble.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "1fc3aa68-e963-45e3-a3d9-72ad545eb34c",
+      "id": "fff02bb4-b1e6-4014-a293-37a3f9f71a21",
       "type": "question",
       "value": {
         "latex": "On appelle $A$ l'événement ``le nombre choisi n'est divisible par aucun $p_i$''. Calculer $\\prob(A)$.\n\tEn déduire que le nombre d'entiers de $\\{1,2,\\ldots,n\\}$ qui sont premiers avec $n$, c'est-à-dire qui n'ont aucun facteur premier commun avec $n$, est $\\displaystyle \\Phi(n)=n\\prod_{i=1}^r\\left(1-\\frac{1}{p_i}\\right)$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "4b055f67-a0fe-49cd-b2fb-3de589c79f4d",
+      "id": "c57372b0-d3be-44e7-b667-a35f23bb2ca3",
       "type": "reponse",
       "value": {
         "latex": "L'événement $A$ se réécrit $\\overline{A}_{p_1}\\cap \\overline{A}_{p_2}\\cap \\ldots \\cap \\overline{A}_{p_r}$. Comme les événements $A_{p_{1}}, A_{p_{2}}, \\ldots, A_{p_{r}}$ sont indépendants dans leur ensemble, c'est aussi le cas des événements $\\overline{A}_{p_{1}}, \\ldots, \\overline{A}_{p_{r}}$. Par conséquent,\n\t\t$$\\begin{align*}\n\t\t\t\\prob(A)&=\\prob(\\overline{A}_{p_1}\\cap \\overline{A}_{p_2}\\cap \\ldots \\cap \\overline{A}_{p_r}) \\\\\n\t\t\t&= \\prod_{i=1}^r \\prob(\\overline {A_{p_i}}) \n\t\t\t= \\prod_{i=1}^r \\left( 1-\\frac{1}{p_i}\\right)\n\t\t\\end{align*}$$\n\t\td'où $\\displaystyle\\frac{\\Phi(n)}{n}= \\prod_{i=1}^r \\left( 1-\\frac{1}{p_i}\\right)$ et $\\displaystyle\\Phi(n)=n\\prod_{i=1}^r \\left( 1-\\frac{1}{p_i}\\right)$. \\\\\n\t\tLa fonction $\\Phi$ est appellée l'indicatrice d'Euler. Elle associe à tout entier naturel n non nul, le nombre d'entiers compris entre 1 et n  et premiers avec n.",

@@ -8,14 +8,14 @@
   "metadata": {
     "exo7id": "",
     "auteur": "",
-    "createdAt": "2025-03-28T11:57:47.534Z",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "createdAt": "2025-04-04T19:02:43.997Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:47.534Z",
+    "updatedAt": "2025-04-04T19:02:43.997Z",
     "resume": "L'exercice propose un test d'hypothèse sur la variance d'une population normale. Il s'agit de déterminer si la variance d'un échantillon de $n=30$ pesées est conforme à une variance de référence $\\sigma_0^2 = 4 g^2$, avec un risque $\\alpha = 5\\%$. La compétence mise en oeuvre est la capacité à réaliser un test du $\\chi^2$ sur la variance d'une population normale en utilisant la statistique de test $S = \\sum_{i=1}^{n} \\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2$ qui suit une loi du $\\chi^2(n-1)$.  Il faut donc calculer la statistique de test à partir des données de l'échantillon, déterminer la région critique du test et conclure.",
     "competences": [
       "réaliser un test d'hypothèse sur une variance",
@@ -51,21 +51,21 @@
   },
   "contenu": [
     {
-      "id": "4124bbdf-c70c-4b55-bd4d-efb782614f18",
+      "id": "6e33b9d8-4816-4b58-aa19-0976fab39d9d",
       "type": "description",
       "value": {
         "latex": "Un laboratoire vient d'acquérir une nouvelle balance et on souhaite comparer la régularité du travail de cette dernière pour de très petites pesées à la norme habituelle du descriptif pour laquelle la variance $\\sigma_0^2$ est égale à $4 g^2$. On prélève alors un échantillon de 30 masses dont les valeurs (en grammes) sont données ci-après :\n2.53 ; 1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ; 0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ; 2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88\n\nOn suppose que les masses sont distribuées selon une loi normale.",
-        "html": "<p>Un laboratoire vient d’acquérir une nouvelle balance et on souhaite comparer la régularité du travail de cette dernière pour de très petites pesées à la norme habituelle du descriptif pour laquelle la variance <span class=\"math inline\">\\(\\sigma_0^2\\)</span> est égale à <span class=\"math inline\">\\(4 g^2\\)</span>. On prélève alors un échantillon de 30 masses dont les valeurs (en grammes) sont données ci-après : 2.53 ; 1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ; 0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ; 2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88</p>\n<p>On suppose que les masses sont distribuées selon une loi normale.</p>\n"
+        "html": "<p>Un laboratoire vient d’acquérir une nouvelle balance et on souhaite\ncomparer la régularité du travail de cette dernière pour de très petites\npesées à la norme habituelle du descriptif pour laquelle la variance\n<span class=\"math inline\">\\(\\sigma_0^2\\)</span> est égale à <span\nclass=\"math inline\">\\(4 g^2\\)</span>. On prélève alors un échantillon de\n30 masses dont les valeurs (en grammes) sont données ci-après : 2.53 ;\n1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ;\n0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ;\n2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88</p>\n<p>On suppose que les masses sont distribuées selon une loi normale.</p>\n"
       }
     },
     {
-      "id": "96da753d-6b6c-4ad8-bf8f-3785874ba462",
+      "id": "feb13e5d-26ee-42c7-b78d-e0043317e678",
       "type": "question",
       "value": {
         "latex": "Au risque de $5\\%$, peut-on affirmer que la variance de l'échantillon est conforme à la norme du descriptif ?",
-        "html": "<p>Au risque de <span class=\"math inline\">\\(5\\%\\)</span>, peut-on affirmer que la variance de l’échantillon est conforme à la norme du descriptif ?</p>\n"
+        "html": "<p>Au risque de <span class=\"math inline\">\\(5\\%\\)</span>, peut-on\naffirmer que la variance de l’échantillon est conforme à la norme du\ndescriptif ?</p>\n"
       }
     }
   ],
-  "preview": "<p>Un laboratoire vient d’acquérir une nouvelle balance et on souhaite comparer la régularité du travail de cette dernière pour de très petites pesées ..."
+  "preview": "<p>Un laboratoire vient d’acquérir une nouvelle balance et on souhaite\ncomparer la régularité du travail de cette dernière pour de très petites\npesées ..."
 }

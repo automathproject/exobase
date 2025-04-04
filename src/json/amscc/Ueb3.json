@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:36.326Z",
+    "updatedAt": "2025-04-04T19:02:30.034Z",
     "resume": "L'exercice consiste à majorer une probabilité impliquant une variable aléatoire discrète connaissant son espérance et son écart-type. Il met en œuvre l'inégalité de Bienaymé-Tchebychev pour obtenir une borne supérieure de la probabilité que la variable aléatoire $X$ prenne une valeur inférieure ou égale à 60, sachant que $\\E(X) = 100$ et $\\sigma(X) = 8$. L'inégalité utilisée est $\\prob(|X-\\E(X)| \\geq a) \\leq \\frac{\\sigma^2(X)}{a^2}$.",
     "competences": [
       "appliquer l'inégalité de Bienaymé-Tchebychev",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "1e156cf4-0c82-48c5-a3c2-68e6dd47559b",
+      "id": "0c932ef5-1dfa-4ccb-9f32-d315c8a29ac4",
       "type": "description",
       "value": {
         "latex": "Le nombre de sodas vendus journellement par une machine sur un quai de métro suit une loi d'espérance $100$ et d'écart-type $8$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "815255de-2438-4075-8e28-788ca84afcaf",
+      "id": "c60df956-935c-46fe-8e57-97e7c8ec14bd",
       "type": "question",
       "value": {
         "latex": "Donner un majorant de la probabilité qu'un jour il s'en vende au maximum $60$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "d19f102c-cbe3-4678-aafa-e6e6b0eabc34",
+      "id": "38caec1a-2543-452f-9853-83d44d1dddf1",
       "type": "reponse",
       "value": {
         "latex": "Soit $X$ le nombre de sodas vendus par la machine par jour. On sait que $X$ est telle que $\\E(X)=100$ et $\\sigma(X)=8$. \\\\\n\tPar l'inégalité de Bienaymé-Tchebychev, on a:\n\t$$\\begin{align*}\n\t\\prob(X\\leq 60)\n\t&= \\prob(X-100\\leq -40) \\\\\n\t&\\leq \\prob(|X-100|\\geq 40) \\\\\n\t& \\leq \\prob(|X-\\E(X)|\\geq 40) \\\\\n\t& \\leq \\frac{\\sigma^2(X)}{40^2}=\\frac{8^2}{40^2}=\\frac{1}{25}=0.04,\n\t\\end{align*}$$\n\tsoit au plus $4$\\% de chance pour qu'il y ait moins de $60$ sodas vendus dans une journée.",

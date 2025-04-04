@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Djessy Vianne",
     "createdAt": "2023-12-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:19.920Z",
+    "updatedAt": "2025-04-04T19:05:11.438Z",
     "resume": "L'exercice porte sur la loi log-normale. Il évalue la capacité à : \\n\\n1.  Calculer une probabilité impliquant la variable aléatoire $X$ en utilisant la variable centrée réduite associée $Z = \\\\frac{\\\\ln(X) - \\\\mu}{\\\\sigma}$ et la fonction de répartition $\\\\Phi$ de la loi normale centrée réduite.\\n2.  Exprimer la fonction de répartition $F_X(t)$ de $X$ en fonction de la fonction de répartition $\\\\Phi$ de la loi normale centrée réduite. \\n3. Déterminer la densité de probabilité $f(x)$ de $X$ par dérivation de $F_X(t)$ et en utilisant la dérivée de $\\\\Phi$.",
     "competences": [
       "appliquer la transformation logarithmique à une variable aléatoire",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "38ef5a9c-c112-4fa9-93f3-12fbf92b6127",
+      "id": "5fd5bf33-6989-4e63-9fda-87d9bfd1eb83",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire réelle définie sur un espace probabilisé $(\\Omega, \\mathcal{T}, \\prob)$. On suppose que $X(\\Omega) = ]0,+\\infty[$ et que $\\ln(X)$ suit une loi normale d'espérance $\\mu = 1$ et d'écart-type $\\sigma = 2$. On note $\\Phi$ la fonction de répartition de la loi normale centrée réduite $\\mathcal{N}(0,1)$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "cbd5c2e6-be6f-41fd-b5e9-d741269930a3",
+      "id": "5ce429ab-e406-4eac-a2b9-3207434dc0bd",
       "type": "question",
       "value": {
         "latex": "Donner une valeur approchée, à $10^{-2}$ près, de $\\prob(-0{,}5 \\leq \\ln(X) \\leq 2{,}5)$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "461d7b42-adda-4cf8-bfd0-0b898d3543e3",
+      "id": "bc77c720-ecc0-494c-98c9-bbcb9399035e",
       "type": "reponse",
       "value": {
         "latex": "On a $\\prob(-0{,}5 \\leq \\ln(X) \\leq 2{,}5) = \\prob\\left(\\frac{-0{,}5 - 1}{2} \\leq \\frac{\\ln(X) - 1}{2} \\leq \\frac{2{,}5 - 1}{2}\\right) = \\prob(-0{,}75 \\leq Z \\leq 0{,}75)$. \n\n            On a $\\Phi(0{,}75) \\approx 0{,}7734$ et $\\prob(-0{,}75 \\leq Z \\leq 0{,}75) = 2 \\Phi(0{,}75) - 1 \\approx 0{,}55$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "7671d8c4-a566-4073-b59c-ac5797cd83b2",
+      "id": "829cd936-1fcf-4eb4-ae26-443e34b6b76b",
       "type": "question",
       "value": {
         "latex": "On note $F_X$ la fonction de répartition de $X$. Exprimer $F_X$ en fonction de $\\Phi$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "0904dc80-a704-4438-9d32-e75872dcd4bc",
+      "id": "3cdad0c5-4650-4d4b-9c8c-c03a771b2585",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\in \\R$. Si $t \\leq 0$, alors $F_X(t) = \\prob(X \\leq t) = 0$ car $X(\\Omega) = ]0,+\\infty[$. Si $t > 0$, alors : \n            $$\\begin{align*}\n                F_X(t) &= \\prob(X \\leq t) \\\\\n                &= \\prob(\\ln(X) \\leq \\ln(t)) \\\\\n                &= \\prob\\left(\\frac{\\ln(X) - 1}{2} \\leq \\frac{\\ln(t) - 1}{2}\\right) \\\\\n                &= \\Phi\\left(\\frac{\\ln(t) - 1}{2}\\right)\n            \\end{align*}$$",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "b89cb89e-4798-4036-a146-8e2e951ed51a",
+      "id": "c7351c9a-5cf4-4cce-a803-1f6753dc81a3",
       "type": "question",
       "value": {
         "latex": "En déduire la loi de $X$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "ccaae93b-0488-4728-b2c7-2c358f6569aa",
+      "id": "42f3bade-5b45-4468-9470-65be66912784",
       "type": "reponse",
       "value": {
         "latex": "La fonction $F_X$ est dérivable presque partout, sa dérivée est une densité de probabilité que l'on note $f$. On note au passage que pour tout $x \\in \\R$, $\\Phi'(x) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x^2}{2}}$. \n\n               Si $x \\leq 0$, alors $f(x) = 0$. Si $x > 0$, alors par dérivation d'une fonction composée : $$f(x) = \\frac{1}{2x} \\times \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{(\\ln(x) - 1)^2}{2}}.$$",

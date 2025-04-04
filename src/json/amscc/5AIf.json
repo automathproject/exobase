@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-19",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Optimisation",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:24.878Z",
+    "updatedAt": "2025-04-04T19:01:36.208Z",
     "resume": "L'exercice porte sur l'optimisation d'un niveau de stock en utilisant la loi normale. Il s'agit de déterminer le niveau de stock $t$ nécessaire pour satisfaire la demande avec une probabilité de 0.90, sachant que la demande suit une loi normale $\\\\mathcal{N}(\\\\mu=5000, \\\\sigma=1000)$. La résolution implique de trouver le quantile correspondant à une probabilité de 0.90 dans la loi normale centrée réduite, puis d'appliquer la transformation inverse pour obtenir la valeur de $t$.",
     "competences": [
       "interpréter une probabilité comme un niveau de service",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "aa13387a-5d12-4ae7-a82a-a84e4cbb88b9",
+      "id": "5a392ddd-38eb-45f7-9092-5e81bb09e4f9",
       "type": "description",
       "value": {
         "latex": "La demande d'un produit au cours d'une saison suit une loi normale de moyenne \\nombre{5000} et d'écart-type \\nombre{1000}.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "b983fce1-b639-4543-94e4-ab883a30a8ce",
+      "id": "edd05c9c-1a22-447d-9b78-de54bb084535",
       "type": "question",
       "value": {
         "latex": "Quel niveau de stock doit-on prévoir pour satisfaire la demande avec une probabilité de \\nombre{0,90} ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "0b398cdf-a955-4ef6-b670-6c08dba45612",
+      "id": "299c54f9-0452-414d-95af-bfddb669a189",
       "type": "reponse",
       "value": {
         "latex": "On modélise la demande par une variable aléatoire $X$ qui suit une loi normale $\\mathcal{N}(\\mu=5000,\\sigma=1000)$. On cherche $t$ tel que $\\prob(X \\leq t) = 0,90$. On a $\\prob(X \\leq t) = \\Phi\\left(\\frac{t-\\mu}{\\sigma}\\right) = 0,90$ où $\\Phi$ est la fonction de répartition de la loi normale centrée réduite. On a donc $\\frac{t-\\mu}{\\sigma} = \\Phi^{-1}(0,90) \\approx 1,28$ et donc $t = \\mu + \\sigma \\Phi^{-1}(0,90) \\approx 6280$. \n\n        Ainsi, pour satisfaire la demande avec une probabilité de \\nombre{0,90}, il faut prévoir un stock de \\nombre{6280} produits.",

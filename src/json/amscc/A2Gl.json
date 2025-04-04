@@ -12,13 +12,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:38.824Z",
+    "updatedAt": "2025-04-04T19:01:51.429Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $\\\\lambda$ d'une loi de Poisson $\\\\mathcal{P}(\\\\lambda)$ à partir d'un échantillon $X_1, ..., X_n$. Il s'agit de : \\n\\n1.  Calculer la fonction de vraisemblance $L(x_1, ..., x_n, \\\\lambda)$ en utilisant la fonction de masse de la loi de Poisson : $L(x_1, ..., x_n, \\\\lambda) = \\\\prod_{i=1}^n \\\\frac{\\\\lambda^{x_i}}{x_i !}e^{-\\\\lambda}$.\\n2.  Maximiser la fonction de vraisemblance (ou son logarithme) par rapport à $\\\\lambda$. Cela implique de calculer la dérivée partielle de $\\\\ln L$ par rapport à $\\\\lambda$ et de résoudre l'équation $\\\\frac{\\\\partial \\\\ln L}{\\\\partial \\\\lambda} = 0$. La solution est $\\\\lambda = \\\\frac{1}{n}\\\\sum_{i=1}^n x_i$.\\n3.  Conclure en donnant l'estimateur du maximum de vraisemblance, qui est la moyenne empirique : $\\\\hat{\\\\lambda} = \\\\frac{1}{n}\\\\sum_{i=1}^n X_i$.",
     "competences": [
       "calculer la fonction de vraisemblance",
@@ -56,7 +56,7 @@
   },
   "contenu": [
     {
-      "id": "ce619666-b10c-4abd-89f1-df5357614f93",
+      "id": "3d7cf13b-285f-4664-a3cf-44c72ffd3927",
       "type": "description",
       "value": {
         "latex": "On considère un échantillon $X_1,...,X_n$ suivant une loi de Poisson $\\mathcal{P}(\\lambda)$. On cherche un estimateur de $\\lambda$ par la méthode du maximum de vraisemblance. On note $(x_1,...,x_n)$ une réalisation de cet échantillon.",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "f65eabd2-a67f-4c14-b2b6-41b64a0e5383",
+      "id": "35671b31-ccc2-4c91-b27a-93bc1e290c67",
       "type": "question",
       "value": {
         "latex": "Exprimer la fonction de vraisemblance $L(x_1,...,x_n,\\lambda)$ en fonction de l'échantillon et du paramètre $\\lambda$ à estimer.",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "a055907a-3ff0-4a11-91d5-edd3c7d0bf81",
+      "id": "ca3c90b2-b75c-4228-988d-8b47843c0183",
       "type": "reponse",
       "value": {
         "latex": "$\\displaystyle L(x_1,\\cdots,x_n,\\lambda)=\\prod_{i=1}^n \\mathbb{P}(X_i=x_i)$ or $X_i \\sim \\mathcal{P}(\\lambda)$ donc\n\t\t\\[ L(x_1,\\cdots,x_n,\\lambda)=\\prod_{i=1}^n \\frac{\\lambda^{x_i}}{x_i !}e^{-\\lambda}\\]",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "962dc9ff-1c86-4b98-b740-15a25ed1c6a7",
+      "id": "6191e424-b344-42f1-8623-29ed2c672d1d",
       "type": "question",
       "value": {
         "latex": "Trouver pour quelle valeur de $\\lambda$ la fonction de vraisemblance atteint son maximum.",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "2251e2a9-5267-43c7-903a-c23394a7e127",
+      "id": "52aebc44-4045-4f47-80f3-7659d02eed23",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t$$\\begin{align*}\n\t\t\t\\ln L(x_1,\\cdots,x_n,\\lambda) &= \\sum_{i=1}^n \\left(\\ln(\\lambda^{x_i})-\\lambda - \\ln(x_i !) \\right) \\\\\n\t\t\t&= (\\ln \\lambda) \\sum_{i=1}^n x_i -n\\lambda - \\sum_{i=1}^n \\ln(x_i !)\n\t\t\\end{align*}$$\n\t\tdonc en dérivant par rapport à $\\lambda$,\n\t\t\\[ \\frac{\\partial L(x_1,\\cdots,x_n,\\lambda)}{\\partial \\lambda}=\\frac{1}{\\lambda}\\sum_{i=1}^n x_i -n.\\]\n\t\tOr \n\t\t\\[ \\frac{\\partial L(x_1,\\cdots,x_n,\\lambda)}{\\partial \\lambda}=0 \\quad \\Leftrightarrow \\quad \\lambda=\\frac{1}{n}\\sum_{i=1}^n x_i.\\]",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "f9b4c998-007f-4963-85f9-9386575734b3",
+      "id": "2a4f50ec-b342-4fdf-a3f4-10a8a1b42d16",
       "type": "question",
       "value": {
         "latex": "Conclure.",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "49fdfb46-d206-41a5-b8e3-41fc5bee8d72",
+      "id": "44a96476-3f19-4dfd-9e79-2db1867e4352",
       "type": "reponse",
       "value": {
         "latex": "L'estimateur par maximum de vraisemblance de $\\lambda$ est $\\displaystyle\\frac{1}{n}\\sum_{i=1}^n X_i$ et une estimation de $\\lambda$ est $\\displaystyle \\frac{1}{n}\\sum_{i=1}^n x_i$.",

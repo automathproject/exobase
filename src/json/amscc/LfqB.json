@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:17.331Z",
+    "updatedAt": "2025-04-04T19:02:17.978Z",
     "resume": "L'exercice évalue la compréhension des propriétés des séries numériques et des équivalents de fonctions. Il teste la capacité à déterminer la convergence d'une série en utilisant des critères de comparaison et des contre-exemples. Il évalue également la connaissance des développements limités et de leur utilisation pour déterminer des équivalents, notamment en $0$ et $+\\infty$. Par exemple, la convergence d'une série $\\sum u_n$ avec $0 \\leq u_n \\leq \\frac{1}{n}$ est évaluée, ainsi que la convergence de $\\sum u_n^2$ lorsque $\\sum u_n$ converge et $u_n$ est positive. L'exercice porte aussi sur la reconnaissance d'équivalents comme $e^x - x - 1 \\underset{x\\to 0}{\\sim} \\frac{x^2}{2}$ et $\\ln(1+x) \\underset{x\\to +\\infty}{\\sim} x$.",
     "competences": [
       "appliquer des critères de convergence pour déterminer la nature d'une série numérique",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "257093c8-134b-4e24-85f9-9ea387407d5f",
+      "id": "b78f595c-0cdf-438e-8a26-8c48508ddf0b",
       "type": "question",
       "value": {
         "latex": "Pour tout $n \\in \\N^*$, $0 \\leq u_n \\leq \\frac{1}{n}$ donc $\\sum u_n$ est une série convergente.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "9979bc44-7195-4b73-aa81-75be112de0cb",
+      "id": "dfccc10f-bf75-4670-bf89-d4f0cf1538f7",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Faux.}} La majoration proposée ne permet pas de conclure quand à la nature de la série. La suite $u_n=\\frac{1}{n}$ fournit un bon contre-exemple.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "a7ea22cd-cbda-45bd-9d9d-9914b78d1091",
+      "id": "2c225510-09fb-4d34-8642-51ad167de015",
       "type": "question",
       "value": {
         "latex": "$e^x - x - 1 \\underset{x\\to 0}{\\sim} \\frac{x^2}{2}$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "98482317-9e69-458b-bc36-6a20a389f787",
+      "id": "52fad6e9-0c64-4f38-a4c3-c57992736fc3",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Vrai.}} Le développement limité de $x \\mapsto e^{x}$ à l'ordre $2$ est $e^{x}=1+x+\\frac{x^{2}}{2}+o(x^{2})$. Il s'ensuite que le premier terme non nul du développement limité de $e^{x}-x-1$ est $\\frac{x^2}{2}$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "b471a387-8406-4320-a90f-bbe83f83c274",
+      "id": "910ca6e5-d183-47a6-9c58-058ce29c9432",
       "type": "question",
       "value": {
         "latex": "$\\ln(1+x) \\underset{x\\to +\\infty}{\\sim}  x$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "f3a85c2b-6fef-4133-8004-a82dc6c60b56",
+      "id": "6839d8c9-00fc-4e8b-bb80-64a141930240",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Faux.}} La limite en $+\\infty$ de la fonction $x \\mapsto \\frac{ln(1+x)}{x}$ est $0\\neq 1$.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "7bb262c2-eca5-47c3-b935-2b62965f75e4",
+      "id": "78385c5d-759d-4a01-86bd-0953eb1e5807",
       "type": "question",
       "value": {
         "latex": "Si pour tout $n \\in \\N^*$, $0 \\leq u_n$ et $\\sum u_n$ converge alors $\\sum u_n^2$ converge.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "63b685b2-5830-4fbc-b786-eed6094886bc",
+      "id": "79092e89-5ac9-4855-90c2-6e0cdd146b84",
       "type": "reponse",
       "value": {
         "latex": "{\\bf{Vrai.}} En effet comme la limite de la suite $(u_n)$ quand $n$ tend vers $+\\infty$ est $0$, il existe un entier $n_0$ tel que:\n  $$\\forall n\\geq n_0,\\,0\\leq u_n\\leq 1.$$\n  De plus on a: $\\forall n\\geq n_0,\\,0\\leq u_n^{2}\\leq u_n.$\\\\\n  Par comparaison de suites positives, $\\sum u_n^2$ converge car la série $\\sum u_n$ converge.",

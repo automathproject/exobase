@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:57.321Z",
+    "updatedAt": "2025-04-04T19:04:41.818Z",
     "resume": "L'exercice porte sur la loi normale. Il évalue la capacité à:\n\n*   Calculer des probabilités d'intervalles pour une variable aléatoire suivant une loi normale centrée réduite $\\mathcal{N}(0,1)$ en utilisant la fonction de répartition $\\Phi$ et les tables de valeurs.\n*   Standardiser une variable aléatoire suivant une loi normale $\\mathcal{N}(\\mu,\\sigma)$ en utilisant la transformation $Z = \\frac{X-\\mu}{\\sigma}$ et calculer des probabilités d'intervalles.\n*   Déterminer un quantile d'une loi normale à partir d'une probabilité donnée en utilisant la fonction de répartition et les tables de valeurs (lecture inverse de la table).",
     "competences": [
       "appliquer la transformation d'une variable aléatoire normale",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "fe214227-cd06-432f-9f97-30bf666564b8",
+      "id": "4fcb7d2e-999d-49b0-afa5-4d85060671ee",
       "type": "question",
       "value": {
         "latex": "A l'aide des tables de valeurs, calculer $\\PP(-1.2 \\leq Z \\leq 1.1)$ où $Z$ suit une loi $\\mathcal{N}(0,1)$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "e38ac0e0-90d1-43bd-a648-efb68e8a7297",
+      "id": "e47bb3b0-d01f-41b6-89b4-5d67a02f4d3b",
       "type": "reponse",
       "value": {
         "latex": "On exprime la probabilité à l'aide de la fonction de répartition de la loi normale centrée réduite notée $\\Phi$ : \n\t$$\\begin{align*}\n\t\t\\PP(-1.2 \\leq Z \\leq 1.1) &= \\PP(Z \\leq 1.1) - \\PP(Z < -1.2) \\\\\n\t\t&= \\PP(Z \\leq 1.1) - \\PP(Z > 1.2) &\\text{par symétrie}\\\\\n\t\t&= \\PP(Z \\leq 1.1) - (1-\\PP(Z \\leq 1.2)) \\\\\n\t\t&= \\Phi(1.1)+\\Phi(1.2)-1 \\\\\n\t\t&\\approx 0{,}75\n\t\\end{align*}$$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "01ba707a-e6b9-4619-ad65-4e3c25e82903",
+      "id": "e2c91917-c0ff-4a3b-92d1-54a269f6536a",
       "type": "question",
       "value": {
         "latex": "A l'aide des tables de valeurs, calculer $\\PP(70 \\leq QI \\leq 130)$ où $QI$ suit une loi $\\mathcal{N}(100,\\sigma=15)$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "b586daff-dc5e-4e71-8a59-6b417ea67548",
+      "id": "6fb67680-aa51-48d9-87f7-feb70eb2a125",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = \\frac{QI-100}{15}$ de telle sorte que $Z$ suit une loi normale centrée réduite. On exprime alors\n\t$$\\begin{align*}\n\t\t\\PP(70 \\leq QI \\leq 130) &= \\PP\\left(\\frac{70-100}{15} \\leq \\frac{QI-100}{15} \\leq \\frac{130-100}{15}\\right) \\\\\n\t\t&= \\PP(-2 \\leq Z \\leq 2) \\\\\n\t\t&= 2\\times \\Phi(2) -1 \\\\\n\t\t&\\approx 0{,}95\n\t\\end{align*}$$",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "8f5a8b29-76de-431c-ada6-e5f059dde0b7",
+      "id": "fbf4a31c-58a7-4ad4-8bff-1484b65c578e",
       "type": "question",
       "value": {
         "latex": "A l'aide des tables de valeurs, déterminer un réel $t$ tel que $\\PP(|X-5|<t) = 95\\%$ où \n$X$ suit une loi $\\mathcal{N}(5,\\sigma=1)$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "90a3ae33-7880-4adb-b246-b194fe955693",
+      "id": "36ab5a5e-9214-4346-a19b-d2d984456fcf",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = {X-5}$ de telle sorte que $Z$ suit une loi normale centrée réduite. On exprime alors\n\t$$\\begin{align*}\n\t\t\\PP(|X-5| <t) &= \\PP\\left( -t<X-5<t\\right) \\\\\n\t\t&= \\PP\\left( -t \\leq Z \\leq t\\right) \\\\\n\t\t&= 2\\times \\Phi(t) -1 \\\\\n\t\\end{align*}$$ \n\tOn cherche $t \\in \\R$ tel que \n\t$$\\begin{align*}\n\t\t\\PP(|X-5| <t) = 0.95 &\\iff 2\\times \\Phi(t) -1 = 0.95 \\\\\n\t\t&\\iff \\Phi(t) = 0.975 \\\\\n\t\t&\\iff t \\approx 1{,}96 &\\text{par lecture inverse de la table}\n\t\\end{align*}$$",

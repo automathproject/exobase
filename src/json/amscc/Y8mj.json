@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Résolution de systèmes linéaires : méthode itérative",
     "sousChapitre": "Résolution de systèmes linéaires : méthode itérative",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:59.518Z",
+    "updatedAt": "2025-04-04T19:02:43.668Z",
     "resume": "L'exercice porte sur la résolution d'un système linéaire $Ax=b$ par des méthodes itératives. Les compétences mises en œuvre sont:\n\n1.  Détermination des conditions sur le paramètre $a$ pour que la matrice $A$ soit symétrique définie positive, en utilisant son polynôme caractéristique donné. Cela revient à imposer que toutes ses valeurs propres soient strictement positives.\n\n2.  Calcul du rayon spectral $\\rho(I_3 - A)$ de la matrice $I_3 - A$, où $I_3$ est la matrice identité d'ordre 3. Le rayon spectral est le maximum des valeurs absolues des valeurs propres.\n\n3.  Détermination des conditions nécessaires et suffisantes sur $a$ pour la convergence de la méthode de Jacobi. On utilise le fait que la méthode de Jacobi converge si et seulement si le rayon spectral de la matrice d'itération est strictement inférieur à 1.\n\n4.  Détermination des conditions suffisantes sur $a$ pour la convergence de la méthode de Gauss-Seidel. La condition de matrice symétrique définie positive est suffisante pour assurer la convergence.",
     "competences": [
       "déterminer des conditions de convergence d'une méthode itérative",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "cb7777e2-56ca-4072-88ea-19aa69773d72",
+      "id": "39e0a685-7e88-4d16-b9af-78afc2942f32",
       "type": "description",
       "value": {
         "latex": "Soit $a \\in \\mathbb{R}$ et soit la matrice $$A = \\begin{pmatrix} 1 & a & a \\\\ a & 1 & a \\\\ a & a & 1 \\end{pmatrix}$$ \n\nOn admet que le polynôme caractéristique de $A$ est $\\chi_A(X) = -(X-1+a)^2(X-1-2a)$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "ddad4af0-7e38-4cc7-a169-0a6dd519bf9a",
+      "id": "074f8954-d55e-45d6-87f8-5fce420a2196",
       "type": "question",
       "value": {
         "latex": "En déduire des conditions sur $a \\in \\mathbb{R}$ telles que la matrice $A$ soit symétrique définie positive. On se restreindra à ce cas par la suite.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "16967938-d818-4919-bd3d-9ab74faaf83f",
+      "id": "e7977c14-3850-41ca-a5ef-b2f0948b9ade",
       "type": "reponse",
       "value": {
         "latex": "La matrice $A$ est définie positive si ses valeurs propres $1-a>0$ et $1+2a>0$, autrement dit si $-\\frac{1}{2} < a < 1 $.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "d7dd1a70-79cd-4e44-9f81-09561542a15b",
+      "id": "176bc66a-910f-4eb8-9583-e2f9ab42c914",
       "type": "question",
       "value": {
         "latex": "Déterminer le rayon spectral de la matrice $I_3 - A$ où $I_3$ est la matrice identité.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "a3278857-f9ff-4a19-8994-5b8087a5ea26",
+      "id": "6112414d-37f2-45ae-bbd0-70d3bdde4d30",
       "type": "reponse",
       "value": {
         "latex": "D'après ce qui précède, la matrice $I_3-A$ a deux valeurs propres : $-a$ et $2a$. Son rayon spectral est donc $2|a|$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "eba73fc4-6152-43f2-99ec-65ba46ccf9be",
+      "id": "9fd07788-c81f-4563-bcab-e8adc6ac907e",
       "type": "question",
       "value": {
         "latex": "En déduire des conditions nécessaires et suffisantes sur  $a \\in \\mathbb{R}$ pour que la méthode de Jacobi converge vers une solution du système $Ax=b$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "a09a0379-416a-49fb-84dd-9ceeb2422783",
+      "id": "25f8bef1-5f68-41ad-8c26-f12bcb09937b",
       "type": "reponse",
       "value": {
         "latex": "Pour que la méthode de Jacobi converge, il faut et il suffit que $\\rho(D-A)<1$ où $D=I_3$ est la diagonale de $A$.\n\t\tLa méthode converge si et seulement si $\\rho(D-A) = 2|a| <1$ . On en déduit que la condition nécessaire et suffisante de convergence de la méthode est que $-\\frac{1}{2} < a < \\frac{1}{2}$.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "b4a76ff8-4dc8-4c20-ae49-d0aaeaf96a0d",
+      "id": "43ca898e-0aec-4391-98c0-17b1c83d6f49",
       "type": "question",
       "value": {
         "latex": "Déterminer des conditions suffisantes sur  $a \\in \\mathbb{R}$ pour que la méthode de Gauss-Seidel converge vers une solution du système $Ax=b$.",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "c907a3fb-284e-4b5a-97bf-c792ab9484c5",
+      "id": "e62e7ab4-c548-4494-8fb6-71e908b9fdd6",
       "type": "reponse",
       "value": {
         "latex": "Pour que la méthode de Gauss converge,  il suffit que la matrice soit symétrique définie positive.",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:32.800Z",
+    "updatedAt": "2025-04-04T19:01:45.792Z",
     "resume": "L'exercice porte sur l'étude de la nature de séries numériques. Les compétences mises en œuvre sont:\n\n*   Déterminer la nature d'une série (convergente, absolument convergente, semi-convergente, divergente, grossièrement divergente).\n*   Utiliser des critères de convergence (comparaison, équivalence, séries de Riemann, séries alternées, d'Alembert, Cauchy).\n*   Calculer des sommes de séries télescopiques, notamment en utilisant la décomposition en éléments simples.\n*   Utiliser des développements limités pour déterminer le comportement asymptotique des termes généraux.\n*   Reconnaitre et utiliser des équivalents de suites pour déterminer la nature de la série, par exemple $ln(1+x) \\sim x$ quand $x\\rightarrow 0$ et $1-cos(x) \\sim \\frac{x^2}{2}$ quand $x\\rightarrow 0$",
     "competences": [
       "déterminer la nature d'une série numérique (convergence, divergence, absolue convergence, semi-convergence)",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "f66854d4-d12a-4e79-a816-a2288461ca31",
+      "id": "7a34455c-f322-4170-a92d-0bbd53088709",
       "type": "description",
       "value": {
         "latex": "Dans chacun des cas, dire si la série de terme général $u_n$ est absolument convergente, semi-convergente, divergente, grossièrement divergente. \\\\\nAttention, pour pouvoir répondre, certaines séries demandent deux démonstrations: par exemple, pour montrer que $\\sum u_n$ est semi-convergente, il faut démontrer que $\\sum u_n$ est convergente et que $\\sum |u_n|$ est divergente.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "00fdb174-7164-47ce-bf0e-bb74f06eb5e2",
+      "id": "79c50e32-44ec-4064-b6ea-c4a077c1de89",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{\\sin(n^2)}{n^2}$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "5932ff7b-6d49-4f8d-8d1d-19d3c37d47a6",
+      "id": "0d415910-a066-4d09-84b2-0d4ef3ee6944",
       "type": "reponse",
       "value": {
         "latex": "La série converge car elle est absolument convergente (le terme général est dominé par $1/n^2$).",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "1a63fefc-58e6-44d6-8c7c-febe20c047c4",
+      "id": "edbb0eed-275f-401a-ad85-c4ef1d799b98",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{(-1)^n\\ln(n)}{n}$",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "292d93d2-1deb-4ce1-b25a-63d9c4427933",
+      "id": "d1455170-839b-4049-8a48-4f33b4d16fa0",
       "type": "reponse",
       "value": {
         "latex": "On a $|u_n|\\geq \\frac{1}{n}$, qui est le terme général d'une série de Riemann divergente. Par comparaison, la série $\\sum u_n$ ne converge pas absolument. \\\\\n\t\tPar le critère des séries alternées, comme la suite $\\left(\\frac{\\ln(n)}{n}\\right)_n$ est décroissante et tend vers $0$, la série $\\sum u_n$ converge. \\\\\n\t\tDonc la série $\\sum u_n$ est \\textbf{semi-convergente}.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "fee6262f-a33d-49ea-b3ca-0fa62ef14c1e",
+      "id": "0ee11e88-1b59-4d44-8cb4-d3eb57ad6ea6",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{\\cos(n^2\\pi)}{n\\ln(n)}$",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "60c40c41-5c82-4634-8cfa-4570a0484da8",
+      "id": "25f71b40-d559-4219-8546-e88aa685d9d8",
       "type": "reponse",
       "value": {
         "latex": "La série converge absolument, par comparaisno à une série de Bertrand.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "4dd093be-7a5b-483d-9156-feeb618b3742",
+      "id": "e0af6f30-42de-433b-a4ad-eb25c52311b4",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{(2n+1)^4}{(7n^2+1)^3}$",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "9b64989d-aa7d-4177-bfbc-98de9bd64fce",
+      "id": "98a9062c-a43e-4780-9bdc-047af14764da",
       "type": "reponse",
       "value": {
         "latex": "C'est une série à termes positifs, elle converge car le terme général est équivalent à $\\frac{16}{7^3n^2}$ qui est une série de Riemann convergente de paramètre 2.",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "4d41e608-c0ad-47d5-aeda-c57434a7f291",
+      "id": "14cf2938-f94e-4945-b22f-1e1445f8fcb3",
       "type": "question",
       "value": {
         "latex": "$u_n=\\Big(1-\\frac{1}{n}\\Big)^n$",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "id": "72403227-7315-43f8-a4d9-79422f7ee1ba",
+      "id": "6213c368-ce2e-45b8-b6a3-20d37ce9171a",
       "type": "reponse",
       "value": {
         "latex": "La série diverge grossièrement car le terme général tend vers $1/e$ et ne tend donc pas vers 0.",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": "5078d736-1301-43a5-826a-dd8a5c24500b",
+      "id": "d7dfb13f-1efb-4764-a3c0-908a9b4a6db5",
       "type": "question",
       "value": {
         "latex": "$u_n=\\ln(1+e^{-n})$",
@@ -149,7 +149,7 @@
       }
     },
     {
-      "id": "ecb9fe21-2062-4944-b50c-6c80a1e6e56e",
+      "id": "331bb541-405e-4e13-a342-5d9174819453",
       "type": "reponse",
       "value": {
         "latex": "C'est une série à termes positifs, elle converge  car le terme général est équivalent à $1/e^n$, c'est le terme général d'une série géométrique convergente.",
@@ -157,7 +157,7 @@
       }
     },
     {
-      "id": "01b19389-a687-455f-8c9b-03b27c67a1d1",
+      "id": "876d5d25-5810-4437-bfc1-10d245da8b4d",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{1}{n\\cos^2(n)}$",
@@ -165,7 +165,7 @@
       }
     },
     {
-      "id": "e447b592-fa0b-463f-a6c2-72407ff4996b",
+      "id": "d30015c0-d3e7-43af-85e4-7aa3d7db2edc",
       "type": "reponse",
       "value": {
         "latex": "Pour tout $n$, on a $u_n \\geq \\frac{1}{n} \\geq 0$ donc par comparaison de séries à termes positifs, la série diverge.",
@@ -173,7 +173,7 @@
       }
     },
     {
-      "id": "ab29288d-cdc2-4b4b-9a06-6f994cb0209c",
+      "id": "23b100cb-9634-4905-84f9-7fc01f3c6006",
       "type": "question",
       "value": {
         "latex": "$u_n=\\sin\\Big(\\frac{n^2+1}{n}\\pi \\Big)$",
@@ -181,7 +181,7 @@
       }
     },
     {
-      "id": "8fc559cd-27e4-4b7b-ab85-0134915f4549",
+      "id": "2d568c87-b7ca-482d-9017-885cdacf0b55",
       "type": "reponse",
       "value": {
         "latex": "On a: \n\t\t$u_n=\\sin((n+\\frac{1}{n})\\pi)=\\sin(n\\pi+\\frac{\\pi}{n})=\n\t\t=(-1)^n\\sin(\\frac{\\pi}{n})$.\n\t\t$u_n$ n'est pas de signe constant: on commence par étudier la convergence absolue. $|u_n|\\sim \\frac{\\pi}{n}$, qui est le terme d'une série de Riemann divergente donc la série $\\sum u_n$ ne converge pas absolument. \\\\\n\t\tPar le critère des séries alternées, comme la suite $(\\sin(\\frac{\\pi}{n}))_n$ est décroissante et tend vers $\\sin(0)=0$, la série $\\sum u_n$ converge. \\\\\n\t\tFinalement, la série $\\sum u_n$ est \\textbf{semi-convergente}.",
@@ -189,7 +189,7 @@
       }
     },
     {
-      "id": "7b963f67-432e-4b48-a162-b2ce48cc7f67",
+      "id": "95431dae-8125-4322-a20f-2666f0de3f96",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{n}{2^n}$",
@@ -197,7 +197,7 @@
       }
     },
     {
-      "id": "4f9a8d62-9895-465d-871d-b92b68f57301",
+      "id": "c655d073-165e-4f99-ac1b-fe532c0bc307",
       "type": "reponse",
       "value": {
         "latex": "On utilise le critère de d'Alembert: $\\frac{u_{n+1}}{u_n}=\\frac{n+1}{2n}$, qui tend vers $\\frac{1}{2}<1$. On en conclut que la série $\\sum u_n$ converge. Comme il s'agit d'une série à termes positifs, cette série \\textbf{converge absolument}.",
@@ -205,7 +205,7 @@
       }
     },
     {
-      "id": "67a72bc1-eae8-4a59-b21a-336ba60ff956",
+      "id": "a32f0942-2f9b-4304-9589-ccf94bdb38a8",
       "type": "question",
       "value": {
         "latex": "$u_n=\\Big(1+\\frac{1}{n}\\Big)^{n^2}$",
@@ -213,7 +213,7 @@
       }
     },
     {
-      "id": "72187ee8-9301-4815-a3a5-a4aa2d81aa63",
+      "id": "ff4995d4-3a5a-456e-a393-5e8e75d01ba1",
       "type": "reponse",
       "value": {
         "latex": "$u_n=(1+\\frac{1}{n})^{n^2}>1$ donc la suite $(u_n)$ ne peut pas tendre vers $0$: la série $\\sum u_n$ \\textbf{diverge grossièrement}",
@@ -221,7 +221,7 @@
       }
     },
     {
-      "id": "b5239f2c-fad6-4e94-b4cd-5535dd65d776",
+      "id": "4bc6fbda-51f9-4f50-84b5-a6efd8e0d206",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{n^{10000}}{n!}$",
@@ -229,7 +229,7 @@
       }
     },
     {
-      "id": "9adcd87e-7709-41e8-a32c-7ecb773a94a0",
+      "id": "fbc2e734-309a-45c0-8dc4-953ce28c1203",
       "type": "reponse",
       "value": {
         "latex": "$\\frac{u_{n+1}}{u_n}=(\\frac{n+1}{n})^{10000}\\frac{1}{n+1}$ tend vers $0$ en l'infini. Par le critère de D'Alembert, la série $\\sum u_n$ converge. Comme elle est à termes positifs, cette série \\textbf{converge absolument}.",
@@ -237,7 +237,7 @@
       }
     },
     {
-      "id": "6bdc6f6b-3f74-4073-bc83-092547f54541",
+      "id": "ab1d002b-7f26-4f39-ae13-0010a47252ec",
       "type": "question",
       "value": {
         "latex": "$u_n= \\frac{(-1)^n}{\\sqrt{n+1}}$",
@@ -245,7 +245,7 @@
       }
     },
     {
-      "id": "776a62c0-1427-4732-87ed-802d6cb08c9f",
+      "id": "fd662259-6a81-4756-b540-cfe2b9a52ad6",
       "type": "reponse",
       "value": {
         "latex": "$u_n$ est de signe non constant; on commence par étudier la convergence absolue. $|u_n|\\sim \\frac{1}{n^{\\frac{1}{2}}}$ donc la série $\\sum u_n$ ne converge pas absolument. \\\\\n\tPar le critère des séries alternées, comme $(\\frac{1}{\\sqrt{n+1}})_n$ est une suite décroissante et de limite $0$, la série $\\sum u_n$ converge. \\\\\n\tConclusion: la série $\\sum u_n$ est \\textbf{semi-convergente}.",
@@ -253,7 +253,7 @@
       }
     },
     {
-      "id": "019c6724-ddfc-42aa-861b-563c26cbe37b",
+      "id": "66432600-fdb7-4c58-83a4-9645816e05a9",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{1}{n(n+1)(n+2)}$",
@@ -261,7 +261,7 @@
       }
     },
     {
-      "id": "f1a065e8-26a0-4297-8e4f-48ad2843861f",
+      "id": "ed2769d9-171c-4a32-8c89-76511405f6c4",
       "type": "reponse",
       "value": {
         "latex": "On a $u_n \\sim \\frac{1}{n^3}$ qui est le terme général d'une série de Riemann convergente. La série $\\sum u_n$ est absolument convergente. Comme il s'agit d'une série télescopique, on peut calculer sa somme: on décompose la fraction en éléments simples:\n\t\t\\[ \\frac{1}{n(n+1)(n+2)} =\\frac{\\frac{1}{2}}{n}-\\frac{1}{n+1}+\\frac{\\frac{1}{2}}{n+2}\\]\n\t\tOn calcule les sommes partielles:\n\t\t\\[ \\sum_{k=1}^{n} u_k=\\frac{1}{4}+\\frac{1}{2(n+1)} +\\frac{1}{2(n+2)} \\  \\underset{n\\rightarrow+\\infty}\\longrightarrow \\frac{1}{4}.\\]\n\t\tDonc la somme de la série $\\sum u_n$ vaut $\\frac{1}{4}$.",
@@ -269,7 +269,7 @@
       }
     },
     {
-      "id": "692c3f4a-5fc6-46ac-bcbe-10f820081a24",
+      "id": "7904a087-097e-49e1-a05e-f05ab103226d",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{1}{(\\ln(n))^n}$",
@@ -277,7 +277,7 @@
       }
     },
     {
-      "id": "1944a4b6-34fc-4664-9f41-3be00474478c",
+      "id": "d9ab1411-df87-4596-9c43-6255ed7338ea",
       "type": "reponse",
       "value": {
         "latex": "$(|u_n|)^{\\frac{1}{n}}=\\frac{1}{\\ln(n)}$ qui tend vers $0$ en l'infini. Par le critère de Cauchy, la série est convergente. Comme elle est à termes positifs, elle est également \\textbf{absolument convergente}.\n\t\t\\item $u_n\\sim \\frac{1}{2n^2}$, qui est une série de Riemann convergente donc la série $\\sum u_n$ converge. Étant à termes positifs, elle \\textbf{converge absolument}.",
@@ -285,7 +285,7 @@
       }
     },
     {
-      "id": "6e5dd4f5-ad7e-4983-84a3-1c3a02964131",
+      "id": "baaece4d-4b8b-4d93-a6ed-caa11e223a94",
       "type": "question",
       "value": {
         "latex": "$u_n=1-\\cos\\big(\\frac{1}{n}\\Big)$",
@@ -293,7 +293,7 @@
       }
     },
     {
-      "id": "7fdd8b01-7941-4678-bc32-9546d7918f65",
+      "id": "c6ff3c83-bfe9-41fb-8399-155b7f081c8b",
       "type": "reponse",
       "value": {
         "latex": "Par développement limité du cosinus, on obtient l'équivalent : $u_n\\sim \\frac{1}{2n^2}$, qui est le terme général d'une série de Riemann convergente. Donc la série $\\sum u_n$ converge. Étant à termes positifs, elle \\textbf{converge absolument}.",
@@ -301,7 +301,7 @@
       }
     },
     {
-      "id": "f7222bcc-889f-4513-a601-d0cac79ed568",
+      "id": "b317f958-4aea-4403-b197-6c6cb8dfd529",
       "type": "question",
       "value": {
         "latex": "$u_n=\\Big(\\frac{4n+1}{3n+2}\\Big)^n$",
@@ -309,7 +309,7 @@
       }
     },
     {
-      "id": "74c84ee7-f4a8-4825-ad9a-27cb9c5e08af",
+      "id": "1ac671c1-178e-4904-bc39-cfbdcf3eb141",
       "type": "reponse",
       "value": {
         "latex": "La série diverge grossièrement car le terme général ne tend pas vers $0$.",
@@ -317,7 +317,7 @@
       }
     },
     {
-      "id": "2a30d2df-260f-4ae4-82a8-d34c11aff9c3",
+      "id": "23c8d8b9-19c2-454f-aae0-5c9b4f4da46f",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{\\ln(n)}{n}$",
@@ -325,7 +325,7 @@
       }
     },
     {
-      "id": "7e9bc408-9fe3-4d97-a56b-76c5c74cb123",
+      "id": "5221e72d-6f5e-4221-ba38-651a17ed3d9b",
       "type": "reponse",
       "value": {
         "latex": "C'est une série à termes positifs et $u_n \\geq \\frac{1}{n}$ donc par comparaison à une série de Riemann divergente, la série diverge.",

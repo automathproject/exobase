@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Equation différentielle",
     "sousChapitre": "Résolution d'équation différentielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:29.655Z",
+    "updatedAt": "2025-04-04T19:02:25.153Z",
     "resume": "L'exercice porte sur l'analyse de la méthode d'Euler implicite pour la résolution d'équations différentielles ordinaires (EDO). Il se divise en deux parties principales :\\n\\n1.  **Analyse de la méthode d'Euler implicite et d'une méthode de Newton modifiée (schéma (S)):**\\n    *   Vérification que l'opérateur $H_n$ est contractant, assurant l'existence et l'unicité de la solution $y_{n+1}$ à chaque étape.\\n    *   Explication de la méthode de Newton utilisée dans le schéma (S) pour approcher la solution implicite de l'EDO.\\n    *   Démonstration de la consistance et, par conséquent, de la convergence du schéma (S), en montrant que $F(t, y, 0) = f(t, y)$.\\n\\n2.  **Analyse de stabilité et convergence pour une EDO autonome avec le schéma (S) simplifié (S'):**\\n    *   Simplification du schéma (S) pour une EDO autonome.\\n    *   Démonstration d'inégalités intermédiaires impliquant $f$, $f'$ et $f''$, notamment $|f(y)(f'(z)-f(z)f'(y)| \\leq 2M^2|y-z|$ et  $|\\frac{1}{1-hf'(y)} | \\leq 2$.\\n    *   Borne de $|g_R(y, h) - g_R(z, h)|$ afin d'en déduire la stabilité de la méthode $(S')$.\\n    *   Conclusion sur la convergence de la méthode $(S')$ en utilisant les résultats précédents sur la consistance et la stabilité.",
     "competences": [
       "appliquer la méthode de Newton pour résoudre une équation",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "6cd9f67e-f8b5-46a7-a1b1-a3e16ffe57cb",
+      "id": "5d452bcd-7f29-463a-8bd8-65cc769caa44",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon [0;T] \\times \\mathbb{R} \\to \\mathbb{R}$, $a \\in \\mathbb{R}$ et l'équation différentielle :\n$$(E)\t\\begin{cases} \ny'(t) = f(t,y(t)) \\\\\ny(0) = a\n\\end{cases} $$\n\npour laquelle on admet l'existence et l'unicité d'une solution $y$ de classe $\\mathcal{C}^2$. On suppose de plus qu'il existe $M>0$ tel que $\\forall t \\in [0;T]$, $\\forall y \\in \\mathbb{R}$ : \n$$ \\frac{\\partial^2 f}{\\partial y^2}(t,y)>0 \\qquad ; \\qquad \\left| \\frac{\\partial f}{\\partial y}(t,y)   \\right| \\leq M$$\n\nOn rappelle que la méthode d'Euler implicite est donnée par le schéma \n$$y_{n+1} = y_n + hf(t_{n+1},y_{n+1})$$\net on suppose que le pas vérifie $h \\leq \\frac{1}{2M}$.\n\nPour tout $n \\geq 0$, on pose $\\varphi_n(x) = y_n+hf(t_{n+1},x)-x$ et $H_n(x) = y_n+hf(t_{n+1},x)$.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "e943f5ac-6336-4ebd-82b5-f74fb1b2e812",
+      "id": "8e17c28a-2ee0-40fa-ab04-5be9465de753",
       "type": "question",
       "value": {
         "latex": "Vérifier que $H_n$ est une application contractante et en déduire que le schéma est bien défini, c'est-à-dire qu'il permet bien de définir explicitement $y_{n+1}$ en fonction de $y_n$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "f3ef64f0-6a59-45c6-9bdc-59c5a426ef78",
+      "id": "4e990329-69e0-4c5d-b67e-77bf23d2361c",
       "type": "reponse",
       "value": {
         "latex": "$|H_n'(x)| = h \\left| \\frac{\\partial f}{\\partial y}(t_{n+1},x)  \\right| \\leq hM \\leq \\frac{1}{2} < 1$. Si $n$ est fixé et $y_n$ est défini, alors $H_n$ admet donc un unique point fixe que l'on note $y_{n+1}$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "027d8cc6-e67e-4e2e-98e9-1764fc41445d",
+      "id": "a54a0a64-a1ad-4626-9c0b-656b4b1bce73",
       "type": "question",
       "value": {
         "latex": "On propose la méthode suivante :\n\t$$(S) : \\begin{cases}\n\t\\widehat{y}_{n+1}=y_n - \\frac{\\varphi_n(y_n)}{\\varphi_n'(y_n)} \\\\\n\ty_{n+1} = y_n + hf(t_{n+1},\\widehat{y}_{n+1})\n\t\\end{cases}$$\n\tOn admet que cette méthode est stable. Expliquer pourquoi cette méthode ainsi décrite permet de définir explicitement $y_{n+1}$ en fonction de $y_n$. Décrire en particulier la méthode utilisée pour définir $\\widehat{y}_{n+1}$. Puis montrer que cette méthode $(S)$ est consistante, donc convergente.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "ddac9341-fc47-4377-8901-fe300c696742",
+      "id": "09a755d1-7953-4e55-ad94-2b345ffc1c71",
       "type": "reponse",
       "value": {
         "latex": "Ce schéma permet de résoudre l'écriture implicite en utilisant la méthode de Newton. On écrit le schéma sous la forme standard \n\t\t$$y_{n+1}=y_n+hF(t_n,y_n,h)$$ avec \n\t\t$$F(t,y,h)= f\\left(t+h,y+h\\frac{f(t+h,y)}{1-h\\frac{\\partial f}{\\partial y}(t+h,y)}  \\right)$$\n\t\tet on vérifie que $F(t,y,0)=f(t,y)$ : la méthode est consistante au moins d'ordre 1. On pourrait vérifier que la méthode n'est pas d'ordre 2 en calculant $\\frac{\\partial F}{\\partial h}$ et en constatant que $\\frac{\\partial F}{\\partial h}(t,y,0) = f^{[1]}(t,y) \\neq \\frac{1}{2}f^{[1]}(t,y)$. La méthode étant supposée stable, elle est donc convergente.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "c65ef882-116a-4c34-be2a-cdb487fdca93",
+      "id": "172d3799-e1b9-4221-b38d-b3a76572e0fe",
       "type": "description",
       "value": {
         "latex": "On suppose maintenant que l'équation différentielle est autonome : $f(t,y) = f(y)$ et que $\\forall y \\in \\mathbb{R}$, $|f(y)| \\leq M$, $|f'(y)| \\leq M$ et $|f''(y)| \\leq M$.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "4b601ec7-944f-4002-af13-b3215e0808ee",
+      "id": "8ce17c8e-c64b-470d-b189-936d500b9e82",
       "type": "question",
       "value": {
         "latex": "Simplifier le schéma $(S)$ en l'écrivant en fonction de $f$ et $f'$.",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "2133f59b-b27b-4df9-b3ab-1ad576ead2a1",
+      "id": "9b4210e5-6a76-49f2-8396-d0b1e26ae031",
       "type": "reponse",
       "value": {
         "latex": "Le schéma devient \n\t\t\t$$(S') : \\begin{cases}\n\t\t\t\\widehat{y}_{n+1}=y_n - \\frac{f(y_n)}{1-hf'(y_n)} \\\\\n\t\t\ty_{n+1} = y_n + hf(t_{n+1},\\widehat{y}_{n+1})\n\t\t\t\\end{cases}$$",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "59da6ebe-5671-49ea-aa0e-1a1cf9b0277a",
+      "id": "cb4e5f69-6ad9-406d-974b-ad4a0d1b6b7b",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\forall y,z \\in \\mathbb{R}$, \n\t\t$$|f(y)(f'(z)-f(z)f'(y)| \\leq 2M^2|y-z|$$",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "bca72d76-abd5-4048-ac0c-3b4846c58805",
+      "id": "7f1c3ce1-3f5a-4fc4-8112-c8632835df43",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t|f(y)(f'(z)-f(z)f'(y)| &= |f(y)(f'(z)-f'(y))+f'(y)(f(y)-f(z)| \\\\\n\t\t\t\t&\\leq |f(y)||f'(z)-f'(y)|+|f'(y)||f'(y)-f(z)|\\\\\n\t\t\t\t&\\leq M\\left(|f'(z)-f'(y)|+|f'(y)-f(z)|\\right)\\\\\n\t\t\t\\end{align*}$$\n\t\t\tOr $|f'(y)| \\leq M$ et $|f''(y)| \\leq M$ donc $f$ et $f'$ sont $M$-lipschitziennes, d'où le résultat.",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "id": "04b37727-51e1-4343-8886-5083b86f3b13",
+      "id": "c840b5fe-211e-4258-863e-bb682b51de02",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\forall y \\in \\mathbb{R}$ :\n\t\t$$\\left|\\frac{1}{1-hf'(y)} \\right| \\leq 2$$",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "id": "1b2824b7-7c11-4059-9c89-050a962169b2",
+      "id": "08f79f99-8007-40cb-81ba-06233b0492bf",
       "type": "reponse",
       "value": {
         "latex": "On a $hf'(y) \\leq Mh \\leq \\frac{1}{2}$ d'où $1-hf'(y) \\geq \\frac{1}{2}$ d'où le résultat demandé.",
@@ -151,7 +151,7 @@
       }
     },
     {
-      "id": "11c634b6-94af-4c05-8fe5-d2abfde420a7",
+      "id": "6846bdea-1378-428c-96d6-52c85a440fff",
       "type": "question",
       "value": {
         "latex": "On pose $g_R(y,h)=\\frac{f(y)}{1-hf'(y)}$. Montrer que $\\forall y,z \\in \\mathbb{R}$ :\n\t\t$$|g_R(y,h)-g_R(z,h)| \\leq 4 |f(y)f'(z)-f(y)-f(z)f'(y)+f(z)|$$\n\t\tpuis \n\t\t$$|g_R(y,h)-g_R(z,h)| \\leq 4M(1+2Mh)|y-z|$$",
@@ -159,7 +159,7 @@
       }
     },
     {
-      "id": "ded02ab3-887b-473c-a68d-f5aa40694e45",
+      "id": "debd10bc-9e91-4a3e-9484-0ab81cffe9e1",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t|g_R(y,h)-g_R(z,h)| &= \\left| \\frac{f(y)}{1-hf'(y)}-\\frac{f(z)}{1-hf'(z)}  \\right| \\\\\n\t\t\t\t&= \\frac{|f(y)-f(z)+h(f(z)f'(y)-f(y)f'(z) |}{|1-hf'(y)||1-hf'(z)|}\\\\\n\t\t\t\t&\\leq 4|f(y)-f(z)|+4h|f(z)f'(y)-f(y)f'(z)| \\\\\n\t\t\t\t&\\leq 4M|y-z| + 8M^2h|y-z|\\\\\n\t\t\t\t&\\leq 4M(1+2Mh)|y-z|\n\t\t\\end{align*}$$",
@@ -167,7 +167,7 @@
       }
     },
     {
-      "id": "89dedb28-24eb-4a00-9fc9-e54f7da8814f",
+      "id": "4280d308-1595-45e9-a646-d2d50d9c3824",
       "type": "question",
       "value": {
         "latex": "En déduire que la méthode est stable",
@@ -175,7 +175,7 @@
       }
     },
     {
-      "id": "d0a40180-64f0-49bf-9d74-3c84e8b04213",
+      "id": "ae8eba2a-41f6-47f9-951c-daf3568cd34b",
       "type": "reponse",
       "value": {
         "latex": "On étudie la stabilité du nouveau schéma $(S')$ : il s'écrit $y_{n+1}=y_n+hF(y_n,h)$ avec $F(y,h)=f(y+hg_R(y,h))$. Or $f$ est $M$-lipschitzienne donc \n\t\t\t$$\\begin{align*} F(y,h)-F(z,h) &\\leq M(|y-z|+h|g_R(y,h)-g_R(z,h)|)\\\\\n\t\t\t\t&\\leq M(1+2Mh(1+2Mh))|y-z|\\\\\n\t\t\t\t&\\leq 5M|y-z|\n\t\t\t\\end{align*}$$\n\t\t\tDonc $F$ est lipschitzienne uniformément en $h$ : cela prouve la stabilité du schéma.",
@@ -183,7 +183,7 @@
       }
     },
     {
-      "id": "4834b2d3-62ae-461f-bb03-5ef26a227b1d",
+      "id": "cc59e062-e087-432c-95b9-0fd5273edc29",
       "type": "question",
       "value": {
         "latex": "En déduire que la méthode est convergente.",
@@ -191,7 +191,7 @@
       }
     },
     {
-      "id": "f6e5870f-45da-4cd6-ba55-71f2318292c7",
+      "id": "8c6dc931-bcb9-4b06-ad54-9017de5bc26b",
       "type": "reponse",
       "value": {
         "latex": "La consistance ayant déjà établie dans le cas général, cela prouve que la méthode est convergente.",

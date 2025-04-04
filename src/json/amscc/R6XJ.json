@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:27.646Z",
+    "updatedAt": "2025-04-04T19:02:23.482Z",
     "resume": "L'exercice demande de déterminer les polynômes $P(X) = 3X^5 - 10X^3 + aX + b$ ayant une racine de multiplicité 3, puis de factoriser ces polynômes dans $\\mathbb{R}[X]$. Il s'agit donc d'appliquer la définition de la multiplicité d'une racine ($P(x_0) = P'(x_0) = P''(x_0) = 0$ et $P'''(x_0) \\neq 0$) pour trouver les valeurs possibles de $x_0$, $a$ et $b$, puis d'effectuer une division polynomiale pour obtenir la factorisation demandée.",
     "competences": [
       "résoudre un système d'équations polynomiales",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "4a0cad94-42d1-4de8-8aac-b2e4e6829d1a",
+      "id": "c3e6e9b8-a47a-474d-a110-d39eb02e4155",
       "type": "question",
       "value": {
         "latex": "Soient $a$ et $b$ des nombres réels. Déterminer tous les polynômes de $\\mathbb{R}[X]$ de la forme $$P(X)=3 X^5-10 X^3+a X+b$$ ayant une racine d'ordre de multiplicité égal à 3 .\nFactoriser dans $\\mathbb{R}[X]$ les polynômes obtenus.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "5e6349d1-7ad4-49af-a753-ac2407b099f6",
+      "id": "3f02f883-d5c5-4cba-9f48-94040326cbb0",
       "type": "reponse",
       "value": {
         "latex": "$x_0$ est racine d'ordre de multiplicité 3 ssi $P\\left(x_0\\right)=P^{\\prime}\\left(x_0\\right)=P^{\\prime \\prime}\\left(x_0\\right)=0$ et $P^{(3)}\\left(x_0\\right) \\neq 0$.\n$$\n\\begin{aligned}\n& P\\left(x_0\\right)=3 \\cdot x_0^5-10 \\cdot x_0^3+a \\cdot x_0+b \\\\\n& P^{\\prime}\\left(x_0\\right)=15 \\cdot x_0^4-30 \\cdot x_0^2+a=0 \\\\\n& P^{\\prime \\prime}\\left(x_0\\right)=60 \\cdot x_0^3-60 x_0=60 \\cdot x_0\\left(x_0^2-1\\right)=0 \\\\\n& P^{(3)}\\left(x_0\\right)=180 \\cdot x_0^2-60=60\\left(3 \\cdot x_0^2-1\\right)\n\\end{aligned}\n$$\n(3) $\\Leftrightarrow x_0 \\cdot\\left(x_0^2-1\\right)=0 \\Leftrightarrow x_0=0$ ou $x_0=1$ ou $x_0=-1$. \n\n$1^{\\text {er }}$ cas: $x_0=0$\n$$\n\\begin{gathered}\nP^{(3)}\\left(x_0\\right) \\neq 0 \\\\\n(2) \\Rightarrow a=0 \\\\\n(1) \\Rightarrow b=0 \\\\\nP(X)=3 \\cdot X^5-10 \\cdot X^3=X^3 \\cdot\\left(3 X^2-10\\right)=3 \\cdot X^3 \\cdot\\left(X-\\sqrt{\\frac{10}{3}}\\right)\\left(X+\\sqrt{\\frac{10}{3}}\\right)\n\\end{gathered}\n$$\n$2^{\\text {ème }}$ cas: $x_0=1$\n$$\n\\begin{gathered}\nP^{(3)}\\left(x_0\\right) \\neq 0 \\\\\n(2) \\Rightarrow 15-30+a=0 \\Rightarrow a=15 \\\\\n(1) \\Rightarrow 3-10+15+b=0 \\Rightarrow b=-8 \\\\\nP(X)=3 \\cdot X^5-10 \\cdot X^3+15 \\cdot X-8=(X-1)^3 \\cdot\\left(3 X^2+9 X+8\\right)\n\\end{gathered}\n$$\n${3}^{\\text {ème }}$ cas: $x_0=-1$\n$$\n\\begin{gathered}\nP^{(3)}\\left(x_0\\right) \\neq 0 \\\\\n(2) \\Rightarrow 15-30+a=0 \\Rightarrow a=15 \\\\\n(1) \\Rightarrow-3+10-15+b=0 \\Rightarrow b=8 \\\\\nP(X)=3 \\cdot X^5-10 \\cdot X^3+15 \\cdot X+8=(X+1)^3 \\cdot\\left(3 X^2-9 X+8\\right)\n\\end{gathered}\n$$",

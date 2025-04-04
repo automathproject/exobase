@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Estimateur",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:40.973Z",
+    "updatedAt": "2025-04-04T19:03:17.655Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $p$ d'une loi géométrique par la méthode du maximum de vraisemblance. Il évalue les compétences suivantes:\n\n*   **Question 1a**: Calcul de la fonction de vraisemblance $L(p)$ pour un échantillon de taille 5, à partir de la formule $\\PP(X=k)=p(1-p)^{k-1}$.\n*   **Question 1b**: Détermination de l'estimateur du maximum de vraisemblance pour $p$ en maximisant $L(p)$ par le calcul de sa dérivée $L'(p)$ et la résolution de $L'(p) = 0$.\n*   **Question 2a**: Généralisation du calcul de la fonction de vraisemblance $L(x_1,...,x_n,p)$ pour un n-échantillon.\n*   **Question 2b**: Détermination de l'estimateur du maximum de vraisemblance pour $p$ dans le cas général en maximisant $L(x_1,...,x_n,p)$ par le calcul de sa dérivée partielle par rapport à $p$ et la résolution de $\\frac{\\partial L}{\\partial p} = 0$. Obtention de l'estimateur $\\widehat{p}=\\frac{n}{\\sum\\limits_{i=1}^n X_i}$.",
     "competences": [
       "calculer une dérivée",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "017f1244-3e52-4313-9957-cd810d04db37",
+      "id": "d29180fa-22af-4cf1-80c9-4a2ce8bc5c72",
       "type": "description",
       "value": {
         "latex": "On rappelle qu'une variable $X$ suit une loi géométrique de paramètre $p \\in ]0;1[$ si $X$ est à valeurs dans $\\N^*=\\{1;2;3;...\\}$ et si pour tout $k \\in \\N^*$, \n$$\\PP(X=k)=p(1-p)^{k-1}$$\n\nOn cherche à estimer ce paramètre $p$ à partir d'un échantillon.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "e05fb526-dfae-45d6-93a1-63b0b78d49c7",
+      "id": "2b192978-d337-4276-828a-058fbbe650d7",
       "type": "description",
       "value": {
         "latex": "On considère un échantillon $(X_1,X_2,X_3,X_4,X_5)$  ayant pour loi mère une loi géométrique de paramètre $p$ et on suppose que la suite  $(3;4;4;2;3)$ constitue une réalisation de cet échantillon.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "d7fa02ae-c9d9-42f2-89f1-24b47583d6a2",
+      "id": "726d29fe-5147-4da3-a981-659381131c5b",
       "type": "question",
       "value": {
         "latex": "Exprimer la fonction de vraisemblance associée à cet échantillon.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "148418b0-21de-4f7b-b2f4-b0a1bf8975b9",
+      "id": "acc890f5-13e8-458a-96b3-c7b60c9948ee",
       "type": "reponse",
       "value": {
         "latex": "D'après le cours, la fonction de vraisemblance associée à cet échantillon est donnée par :\n\t\t$$\\begin{align*}\n\t\t\tL(p) &= \\PP(X_1=3) \\times \\PP(X_2=4) \\times \\PP(X_3=4) \\times \\PP(X_4=2) \\times \\PP(X_5=3) \\\\\n\t\t\t&= p(1-p)^2 \\times p(1-p)^3 \\times p(1-p)^3 \\times p(1-p) \\times p(1-p)^2 \\\\\n\t\t\t&= p^5(1-p)^{11}\n\t\t\\end{align*}$$",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "8b2404bb-04a6-4f73-8680-bc8327451443",
+      "id": "732145e0-25d1-4987-a879-cd98de08620b",
       "type": "question",
       "value": {
         "latex": "En déduire une estimation de $p$ par la méthode du maximum de vraisemblance.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "519243c9-fb47-433d-aeea-09237973b6a1",
+      "id": "ffedfaba-da34-4b69-89a2-366c000f893b",
       "type": "reponse",
       "value": {
         "latex": "On cherche à maximiser la fonction $L$ sur $]0;1[$. Pour cela, on calcule la dérivée de $L$ :\n\t\t$$\\begin{align*}\n\t\t\tL'(p) &= 5p^4(1-p)^{11} - 11p^5(1-p)^{10} \\\\\n\t\t\t&= p^4(1-p)^{10}(5-11p)\n\t\t\\end{align*}$$\n\t\tLa fonction $L$ est dérivable sur $]0;1[$ et $L'(p)=0$ si et seulement si $p=0$, $p=1$ ou $p=\\frac{5}{11}$. \\\\\n\t\tOr, $L(0)=0$, $L(1)=0$ et $L(\\frac{5}{11})>0$. \\\\\n\t\tDonc, $L$ admet un maximum en $p=\\frac{5}{11}$.  \n\n\t\tEn conclusion, la valeur la plus vraisemblable pour $p$ est $\\frac{5}{11}$. Il s'agit donc d'une estimation du paramètre $p$ par la méthode du maximum de vraisemblance.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "beefe66a-6d10-4b9f-af61-063c86dcfe0e",
+      "id": "3059dc30-7ded-4047-8934-e36f75d46adc",
       "type": "description",
       "value": {
         "latex": "Afin de déterminer un estimateur de $p$, on considère maintenant un $n$-échantillon $(X_1,...,X_n)$ ayant pour loi mère une loi géométrique de paramètre $p$ et $n$ entiers non nuls $(x_1,...,x_n)$ constituant une réalisation de cet échantillon.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "e89f6643-c2ee-4f92-89d3-6244c234446c",
+      "id": "39bccc28-c186-4b32-921e-05c358a8e840",
       "type": "question",
       "value": {
         "latex": "Exprimer la fonction de vraisemblance associée à cet échantillon.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "2c1b9f11-0187-4057-9fd6-45315eae6bd2",
+      "id": "97219fe0-117b-4648-9b94-1b8f474a67e7",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\tL(x_1,...,x_n,p) &= \\PP(X_1=x_1) \\times ... \\times \\PP(X_n=x_n) \\\\\n\t\t\t&= p(1-p)^{x_1-1} \\times ... \\times p(1-p)^{x_n-1} \\\\\n\t\t\t&= p^n(1-p)^{x_1+...+x_n-n}\n\t\t\\end{align*}$$",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "f9ae566e-face-4796-844c-5cb65dd4fbf3",
+      "id": "6888c33b-ec21-4489-82e4-5f35baffa2b7",
       "type": "question",
       "value": {
         "latex": "En utilisant la méthode du maximum de vraisemblance, déterminer un estimateur du paramètre $p$.",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "96ea3129-1fe4-464c-9cda-5d9856cf3efe",
+      "id": "8f32351e-0186-49ff-aadf-8fb0f5940f39",
       "type": "reponse",
       "value": {
         "latex": "On cherche à maximiser la fonction $L$ sur $]0;1[$. Pour cela, on calcule la dérivée partielle de $L$ par rapport à $p$ : \n\t\t$$\\begin{align*}\n\t\t\t\\frac{\\partial L}{\\partial p}(x_1,...,x_n,p) &= np^{n-1}(1-p)^{x_1+...+x_n-n} - p^n(x_1+...+x_n-n)(1-p)^{x_1+...+x_n-n-1} \\\\\n\t\t\t&= p^{n-1}(1-p)^{x_1+...+x_n-n-1}(n-(x_1+...+x_n-n)p)\n\t\t\\end{align*}$$\n\t\tLa fonction $L$ est dérivable sur $]0;1[$ et $\\frac{\\partial L}{\\partial p}(p)=0$ si et seulement si $p=0$, $p=1$ ou $p=\\frac{n}{\\sum\\limits_{i=1}^n x_i}$. \\\\\n\t\tOr, $L(0)=0$, $L(1)=0$ et $L\\left(\\frac{n}{\\sum\\limits_{i=1}^n x_i}\\right)>0$. \\\\\n\t\tDonc, $L$ admet un maximum en $p=\\frac{n}{\\sum\\limits_{i=1}^n x_i}$. \n\n\t\tCeci étant vrai pour toute réalisation $(x_1,...,x_n)$ de l'échantillon, on en déduit que $\\widehat{p}=\\frac{n}{\\sum\\limits_{i=1}^n X_i}$ est un estimateur du paramètre $p$ par la méthode du maximum de vraisemblance.",

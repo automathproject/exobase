@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:04.833Z",
+    "updatedAt": "2025-04-04T19:02:46.983Z",
     "resume": "L'exercice porte sur l'approximation d'une intégrale $I=\\\\int_0^1 \\\\sin(\\\\sqrt{x})dx$ par la méthode de Monte Carlo. Il évalue la compréhension et l'application de la loi forte des grands nombres et du théorème central limite.\\n\\n1.  **Convergence presque sûre:** Démontrer que la moyenne empirique $I_n = \\\\frac{1}{n}\\\\sum_{k=1}^n \\\\sin(\\\\sqrt{X_k})$ converge presque sûrement vers l'intégrale $I$, en utilisant la loi forte des grands nombres.\\n\\n2.  **Implémentation Python:** Compléter un code Python pour calculer une approximation de $I$.\\n\\n3.  **Espérance et Variance de $I_n$:** Calculer l'espérance $\\\\mathbb{E}(I_n)$ et la variance $V(I_n)$ en fonction de l'espérance $\\\\mu$ et de l'écart-type $\\\\sigma$ de $Y_k = \\\\sin(\\\\sqrt{X_k})$, ainsi que de $n$.\\n\\n4.  **Théorème Central Limite:** Déterminer la loi limite de $\\\\frac{\\\\sqrt{n}}{\\\\sigma}(I_n-I)$ en utilisant le théorème central limite.\\n\\n5.  **Nombre d'itérations:** Déterminer le nombre d'itérations $N_0$ nécessaire pour obtenir une approximation de $I$ à $10^{-3}$ près avec une confiance de 95%, en utilisant l'approximation normale.\\n\\n6.  **Estimation de la Variance:** Vérifier que la suite $V_n = \\\\frac{1}{2n} \\\\sum_{k=1}^n (Y_{2k}-Y_{2k-1})^2$ permet d'approcher la variance $\\\\sigma^2$.",
     "competences": [
       "appliquer la loi forte des grands nombres",
@@ -56,7 +56,7 @@
   },
   "contenu": [
     {
-      "id": "446b46db-8a64-431c-97a2-c551f1b6427e",
+      "id": "76c1819c-f2eb-4170-b2df-02e711af145d",
       "type": "description",
       "value": {
         "latex": "On souhaite calculer à l'aide d'une méthode de Monte Carlo une approximation de l'intégrale $$I=\\int_0^1 \\sin(\\sqrt{x})dx$$ \n\tSoit $(X_i)_{i \\in \\mathbb{N}^*}$ une suite de variables aléatoires indépendantes identiquement distribuées selon une loi uniforme $\\mathcal{U}([0;1])$.",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "f9be57df-f05f-4bfb-8518-ed9d87acec7c",
+      "id": "b82ca37a-72b8-48df-ada1-00a046322acc",
       "type": "question",
       "value": {
         "latex": "Démontrer que si on définit la suite de variables aléatoires $(I_n)$ par \n\t\t$$I_n = \\frac{1}{n}\\sum_{k=1}^n \\sin\\left( \\sqrt{X_k} \\right)$$\n\t\talors la suite $(I_n)$ converge presque sûrement vers la constante $I$.",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "cf6af672-f60a-4f01-b7e8-a92973ebcde4",
+      "id": "a8c0f330-9a45-43c8-b9c9-544480005771",
       "type": "reponse",
       "value": {
         "latex": "Les variables $\\left(\\sin\\left( \\sqrt{X_k} \\right) \\right)_i$ sont indépendantes et identiquement distribuées, elles admettent en outre une espérance qui se calcule à l'aide du théorème de transfert. Soit $f$ la densité d'une loi uniforme sur $[0;1]$. Alors $\\mathbb{E}(X_1) = \\int \\sin\\left( \\sqrt{x} \\right) f(x)dx = \\int_0^1 \\sin\\left( \\sqrt{x} \\right)dx = I$.\n\t\t\n\t\tD'après la loi forte de grands nombres, la suite de variables aléatoires $(I_n)$ converge donc presque sûrement vers $\\mathbb{E}(X_1) = I$.",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "5cdd38f9-ac46-4be7-bd95-2a98042d4251",
+      "id": "6c5f41f9-8579-4f70-a416-5c396c00f8e5",
       "type": "question",
       "value": {
         "latex": "Compléter le code Python ci-dessous, comportant deux champs manquants, afin qu'il affiche une approximation de $I$.\n\t\t\n\t{\\centering \\fbox{\\BUseVerbatim{aYzLpython}}\\par}",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "e9adc54e-2082-43e9-a566-6a227e892f6d",
+      "id": "6e113681-81e7-445e-8b07-6d36e26b01ac",
       "type": "reponse",
       "value": {
         "latex": "{\\centering \\fbox{\\BUseVerbatim{aYzLpythonsolution}}\\par}",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "c482b4fe-7900-40b0-a1de-890bcc9c6a65",
+      "id": "becbf4d6-fdc6-4117-91fe-b82a3241c376",
       "type": "description",
       "value": {
         "latex": "Pour tout $k \\in \\mathbb{N}^*$, on pose $Y_k= \\sin\\left( \\sqrt{X_k} \\right)$. Les variables aléatoires $(X_k)$ étant i.i.d., les variables aléatoires $(Y_k)$ le sont aussi et on note $\\mu$ leur espérance et $\\sigma^2$ leur variance.",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "c7d0630f-e050-4600-b926-798215330fac",
+      "id": "a614b0d8-a973-426d-9e8f-a758fc37fe96",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance et la variance de la variable aléatoire $I_n$ en fonction de $\\mu$, $\\sigma$ et $n$.",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "1d55dc5d-bb45-471c-a847-aaf69f27a133",
+      "id": "f09b39c9-5bef-44b6-8b36-fc81495febd3",
       "type": "reponse",
       "value": {
         "latex": "Par linéarité de l'espérance, $\\mathbb{E}(I_n) = \\frac{1}{n} \\times n \\times I =I $.\n\t\t\tPar propriétés de la variance et indépendance des variables dans la somme, $V(I_n) = \\frac{1}{n^2} \\times n \\times V(Y_1) = \\frac{V(Y_1)}{n} = \\frac{\\sigma^2}{n}$.",
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "d7b3b790-47ff-400b-90ee-ec8283bb21a4",
+      "id": "e9998a61-7db4-4b42-8e5a-9c0fc66a267f",
       "type": "question",
       "value": {
         "latex": "Déterminer, en justifiant, une approximation de la loi de la variable aléatoire $$\\frac{\\sqrt{n}}{\\sigma}(I_n-I)$$\n\t\t\tlorsque $n$ est suffisamment grand.",
@@ -128,7 +128,7 @@
       }
     },
     {
-      "id": "9d266f75-be61-45d9-9e22-813970d0c703",
+      "id": "da7845ff-b5d3-4444-a86d-a5024420308a",
       "type": "reponse",
       "value": {
         "latex": "Les variables $Y_k$ sont indépendantes, identiquement distribuées, admettent une espérance et une variance finies, donc d'après le Théorème Central Limite, la variable \n\t\t\t$$\\frac{\\frac{1}{n}\\sum_{k=1}^n Y_k - I  }{\\frac{\\sigma}{\\sqrt{n}}} = \n\t\t\t\\frac{ \\sum_{k=1}^n \\frac{Y_k}{n} - \\mathbb{E}\\left(\\sum_{k=1}^n \\frac{Y_k}{n}  \\right) }{\\sigma\\left(\\sum_{k=1}^n \\frac{Y_k}{n}  \\right)}$$\n\t\t\tsuit approximativement une loi normale centrée réduite.",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "7cf6e071-7cc2-4aca-b70f-52bbde333e07",
+      "id": "346e6890-6368-454e-a931-30cf9862aa00",
       "type": "question",
       "value": {
         "latex": "En déduire le nombre d'itérations $N_0$ (dépendant de $\\sigma$) à partir duquel la suite $(I_n)$ réalise une approximation de $I$ à $10^{-3}$ près avec une confiance de $95\\%$.",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "dd4a3ea0-bbb4-4c6c-baa2-0eba4f32a388",
+      "id": "2e2ccdf3-0421-4455-9492-e760f29615e1",
       "type": "reponse",
       "value": {
         "latex": "On cherche le rang à partir duquel $\\PP(|I_n-I|<\\varepsilon) \\geq 0.95$ où $\\varepsilon = 10^{-3}$. Or \n\t\t\t$$\\begin{align*}\n\t\t\t\t\\PP(|I_n-I|<\\varepsilon) &= \\PP(-\\varepsilon < I_n-I < \\varepsilon) \\\\\n\t\t\t\t&= \\PP\\left(-\\frac{\\sqrt{n}}{\\sigma}\\varepsilon < \\frac{\\sqrt{n}}{\\sigma} (I_n-I) < \\frac{\\sqrt{n}}{\\sigma}\\varepsilon \\right) \\\\\n\t\t\t\t&\\approx \\PP\\left(-\\frac{\\sqrt{n}}{\\sigma}\\varepsilon < Z < \\frac{\\sqrt{n}}{\\sigma}\\varepsilon \\right) \\text{ où } Z \\sim \\mathcal{N}(0,1)\n\t\t\t\\end{align*}$$\n\t\t\tOr par lecture de tables, $\\PP(-1.96 < Z < 1.96) \\approx 0.95$ donc il suffit de prendre $n$ tel que $\\frac{\\sqrt{n}}{\\sigma}\\varepsilon \\geq 1.96$ i.e.\n\t\t\t$$n \\geq 10^6 \\left(1.96 \\sigma\\right)^2$$",
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "0026cd4d-470c-4fb8-87f5-2eb02de22c04",
+      "id": "fe362363-0536-4ee5-8d15-37f1b9c40df4",
       "type": "question",
       "value": {
         "latex": "Soit la variable \n\t\t\t$$V_n = \\frac{1}{2n} \\sum_{k=1}^n (Y_{2k}-Y_{2k-1})^2$$\n\t\t\tVérifier que la suite $(V_n)$ permet d'approcher la valeur de $\\sigma^2$.",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "6f5b9d83-f885-4d3b-853e-6e52422607ae",
+      "id": "715c29c4-4a5d-43e5-a00d-c9b931178107",
       "type": "reponse",
       "value": {
         "latex": "On calcule \n\t\t\t$$\\begin{align*}\n\t\t\t\t\\mathbb{E}((Y_{2k}-Y_{2k-1})^2) &= \\mathbb{E}(Y_{2k}^2-2Y_{2k}Y_{2k-1} + Y_{2k-1}^2) \\\\\n\t\t\t\t&= \\mathbb{E}(Y_{2k}^2) - 2 \\mathbb{E}(Y_{2k}Y_{2k-1}) +\\mathbb{E}(Y_{2k-1}^2) \\text{ par linéarité } \\\\\n\t\t\t\t&= 2\\mathbb{E}(Y_{2k}^2)- 2 \\mathbb{E}(Y_{2k}Y_{2k-1}) \\text{ par identique distribution } \\\\\n\t\t\t\t&= 2\\mathbb{E}(Y_{2k}^2)- 2 \\mathbb{E}(Y_{2k})  \\mathbb{E}(Y_{2k-1}) \\text{ par indépendance} \\\\\n\t\t\t\t&= 2\\mathbb{E}(Y_{2k}^2)- 2 \\mathbb{E}(Y_{2k})^2 \\\\\n\t\t\t\t&= 2\\mathbb{E}(Y_{1}^2)- 2 \\mathbb{E}(Y_{1})^2 \\\\\n\t\t\t\t&= 2V(Y_1) \n\t\t\t\\end{align*}$$\n\t\t\tdonc d'après la loi forte des grands nombres, $\\frac{1}{n} \\sum_{k=1}^n (Y_{2k}-Y_{2k-1})^2$ converge simplement vers $2V(Y_1)$, ce qui répond à la question posée.",

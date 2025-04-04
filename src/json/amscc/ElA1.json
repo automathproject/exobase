@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Topologie",
     "sousChapitre": "Ouvert, fermé, intérieur, adhérence",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:56.233Z",
+    "updatedAt": "2025-04-04T19:02:06.918Z",
     "resume": "L'exercice porte sur la topologie dans $\\mathbb{R}^2$. Il évalue la capacité à déterminer si des ensembles définis par des inégalités sont ouverts, fermés ou ni l'un ni l'autre. Les ensembles considérés sont définis par des conditions sur les coordonnées $x$ et $y$, impliquant des valeurs absolues et des inégalités.",
     "competences": [
       "appliquer la définition d'un ensemble ouvert dans R^2",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "89781a68-9011-4151-a628-1105c79080a9",
+      "id": "f3c216b6-7e83-4322-a921-2fceebf91fcf",
       "type": "question",
       "value": {
         "latex": "Déterminer si les ensembles suivants sont ouverts ou fermés dans $\\R^2$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "68015cfb-221d-435b-86fc-1031e4593abc",
+      "id": "8f47c7ef-f9ad-413b-9306-0aa35faa5c7c",
       "type": "question",
       "value": {
         "latex": "$A=\\{(x,y)\\in \\R^2 \\mid 0<\\vert x-1\\vert <1 \\}$ ;",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "13187f09-bf51-44a3-a57e-655a73f70820",
+      "id": "fac43bab-e8c6-423b-b022-6b826b058754",
       "type": "reponse",
       "value": {
         "latex": "ouvert",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "67acab48-52b4-4db0-b0cd-df1d07f21967",
+      "id": "c7f17d20-377b-445d-870b-013f6b00f4e8",
       "type": "question",
       "value": {
         "latex": "$B=\\{(x,y)\\in \\R^2 \\mid 0\\leq x\\leq y\\}$ ;",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "dde36479-de48-49a7-aab4-1f40b82c886b",
+      "id": "aec961aa-6fa1-402d-b993-b8f81aa3788c",
       "type": "reponse",
       "value": {
         "latex": "fermé",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "c7e7d627-4986-457d-807f-1bf7ac21a814",
+      "id": "04fcdbed-bab4-4e2b-9b20-b41503103c2c",
       "type": "question",
       "value": {
         "latex": "$C=\\{(x,y)\\in \\R^2 \\mid \\vert x\\vert <1,\\; \\vert y\\vert \\leq\n\t1 \\}$",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "beea80ce-dd8b-40bd-b1d7-574c9af11f90",
+      "id": "0113a36a-a8d3-478f-b1d1-0feb46eb539d",
       "type": "reponse",
       "value": {
         "latex": "ni ouvert, ni fermé",

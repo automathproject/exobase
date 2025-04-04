@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-31",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:03.015Z",
+    "updatedAt": "2025-04-04T19:02:45.737Z",
     "resume": "Cet exercice porte sur la factorisation de polynômes réels et complexes. Il évalue les compétences suivantes : \n\n*   Détermination du degré d'un polynôme.\n*   Vérification qu'un nombre est racine d'un polynôme et détermination de sa multiplicité (ici, $3$ est racine double de $P$).\n*   Recherche des racines réelles et complexes d'un polynôme du second degré ($Q$) et factorisation dans $\\mathbb{C}[X]$.\n*   Effectuation d'une division euclidienne de polynômes ($P$ par $Q$).\n*   Déduction d'une factorisation complète d'un polynôme dans $\\mathbb{C}[X]$ à partir d'informations sur ses racines et d'une division euclidienne.",
     "competences": [
       "factoriser un polynôme dans $\\mathbb{C}[X]$",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "347108da-6ef9-4cc3-9db2-f89068f1f70e",
+      "id": "3ee9d6e9-b527-4a4b-b643-9a81e2f6a454",
       "type": "description",
       "value": {
         "latex": "Soient les polynômes $P,Q \\in \\R[X]$ définis par $P(X) = -6X^3 + 4X^2 + X^4 + X^3 + 3X + 9$ et $Q(X) = X^2 + X + 1$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "11de8b48-6ddc-4dd4-913e-554711d26724",
+      "id": "9f0e95ba-da02-4f73-b8ac-b9800f98c6b2",
       "type": "question",
       "value": {
         "latex": "Donner le degré des polynômes $P$ et $Q$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "f2d7d183-e9a2-4450-a96a-c7dba97bc04e",
+      "id": "b148daa9-4235-4127-8fff-b0361fdeca52",
       "type": "question",
       "value": {
         "latex": "Montrer que $3$ est une racine double de $P$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "e59fc0af-a3df-4247-8113-ba5c003697b1",
+      "id": "9ba25571-5718-47eb-8a27-25ff8ad56cdd",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble des racines réelles de $Q$ puis l'ensemble des racines complexes de $Q$. En déduire une factorisation de $Q$ en polynômes irréductibles dans $\\mathbb{C}[X]$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "6adee026-cff0-445b-bbea-ca10a8710999",
+      "id": "fd71bddb-3056-4c0a-b2cc-841cc346868e",
       "type": "question",
       "value": {
         "latex": "Effectuer la division euclidienne de $P$ par $Q$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "93bd3fe0-c9ef-486e-8f5b-659065da6d7d",
+      "id": "9f5f8d34-2d78-4926-b70c-d2274f3bb472",
       "type": "question",
       "value": {
         "latex": "En déduire une factorisation de $P$ en polynômes irréductibles dans $\\mathbb{C}[X]$.",

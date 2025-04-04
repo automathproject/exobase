@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-17",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Equations différentielles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:35.263Z",
+    "updatedAt": "2025-04-04T19:03:12.244Z",
     "resume": "L'exercice porte sur la résolution d'une équation différentielle du premier ordre. Il s'agit de: \n\n1. Déterminer les coefficients $a_n$ d'une solution exprimée sous forme de série entière $f(x)=\\sum_{n=0}^{\\infty}a_n x^{n}$, et de calculer son rayon de convergence, en utilisant l'équation différentielle $\\alpha y'-(1+x)y=0$ et la condition initiale $f(0)=1$.\n\n2. Résoudre directement l'équation différentielle $\\alpha y'-(1+x)y=0$ avec la condition initiale $f(0)=1$, afin d'obtenir une expression alternative de la solution $f$.",
     "competences": [
       "résoudre une équation différentielle linéaire du premier ordre",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "0ddf40eb-69bb-4d5e-a690-c45b4de95eed",
+      "id": "de02252a-3669-45ac-aa7f-add91693302b",
       "type": "question",
       "value": {
         "latex": "On suppose que $f$ s'écrit sous la forme d'une série entière $f(x)=\\displaystyle\\sum_{n=0}^{\\infty}a_n\\,x^{n}$. Déterminer les coefficients $(a_n)$ pour $n$ entier et déterminer le rayon de convergence de $f$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "03c4a241-eba0-4ed7-8047-f5734ccb16a5",
+      "id": "d8295818-89fa-433f-a1f4-4c9ce435a466",
       "type": "question",
       "value": {
         "latex": "Donner une expression alternative de $f,$ solution de $(E)$, en résolvant directement l'équation différentielle avec la condition initiale $f(0)=1$.",

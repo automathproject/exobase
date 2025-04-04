@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-12-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:23.244Z",
+    "updatedAt": "2025-04-04T19:01:34.523Z",
     "resume": "L'exercice porte sur l'estimation et les tests d'hypothèses en statistique, appliqués à l'évaluation d'un algorithme de classification d'images. Il s'agit d'estimer la variance d'une loi normale à partir d'estimateurs biaisés et non biaisés, puis de réaliser des tests d'hypothèses. Les compétences mises en œuvre sont:\n\n*   Calcul d'estimateur non biaisé de la variance à partir de l'estimateur biaisé $\\tilde{S}^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i - \\overline{X})^2$.\n*   Réalisation d'un test d'hypothèse sur la moyenne d'une loi normale (test de Student) pour vérifier si l'espérance de $X_i$ est nulle.\n*   Identification de la loi de $\\frac{n}{\\sigma^2} \\tilde{S}^2$ et $\\frac{n-1}{\\sigma^2}S^2$ (Chi-deux).\n*   Détermination de la loi de $\\frac{S_2^2}{S_1^2}$ (loi de Fisher).\n*   Construction et mise en œuvre d'un test de Fisher pour comparer les variances de deux échantillons.",
     "competences": [
       "réaliser un test d'hypothèse sur la moyenne et la variance",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "3ee5e6d9-20c2-44e9-8ed9-254151a5ac05",
+      "id": "6cf405c4-b50d-4602-bf66-8a217d48a914",
       "type": "description",
       "value": {
         "latex": "On souhaite quantifier la qualité d'un algorithme de classification d'images. \n\n\n\n\n\n\n\n\n\nL'algorithme ne retourne pas une catégorie à partir d'une image $i$, mais seulement une grandeur $G_i$ qui permet de déterminer la classe la plus probable. On note $X_i$ l'erreur commise par l'algorithme pour la valeur $G_i$. \n\nOn suppose que $X_i$ suit une loi normale centrée de variance $\\sigma^2$.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "9c5b2cf4-8b8c-4d48-8370-e11d2f15c522",
+      "id": "e2f110f6-eee5-4d8f-ad35-86d7e838ba8b",
       "type": "description",
       "value": {
         "latex": "Sur un premier échantillon de 25 images, on obtient une erreur moyenne de $0{,}01$ calculée avec l'estimateur de moyenne empirique et une variance de 0{,}25 calculée avec l'estimateur $\\tilde{S}^2=\\frac{1}{n}\\sum_{i=1}^n (X_i-\\overline{X})^2$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "af4bf6d1-0e4b-4f07-8d16-62d721d98a28",
+      "id": "5309e934-d4a1-4f4e-ac55-2ada89ca9b95",
       "type": "question",
       "value": {
         "latex": "Donner une estimation non biaisée de $\\sigma^2$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "bcb51991-2544-487c-8353-f5ac2f4a79a7",
+      "id": "a8199d97-b5f9-4654-b0ac-fe4b9bd80ddc",
       "type": "question",
       "value": {
         "latex": "Avec un risque d'erreur de $10\\%$, peut-on remettre en cause l'hypothèse que l'espérance de $X_i$ est nulle ?",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "46ab6c4f-8d27-4513-b172-04632a62aaab",
+      "id": "a1b726df-c258-4b70-802a-244336abcd04",
       "type": "description",
       "value": {
         "latex": "Pour étudier la stabilité de l'algorithme par rapport au bruitage des images, on étudie un second échantillon de $25$ images bruitées. On obtient avec les mêmes estimateurs que précédemment une erreur empirique de $0{,}012$ et une variance de $0{,}50$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "37e86cff-69e9-405a-a06b-42209ca31ccc",
+      "id": "03ded2b7-ac00-4832-a4cc-e1ca2982b6bb",
       "type": "question",
       "value": {
         "latex": "Donner une estimation non biaisée $\\sigma^2$ à partir de cet échantillon.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "e2bf3a5f-3d28-4faf-8b0b-f210ab612641",
+      "id": "a95de8ba-3602-45c5-9125-834c5c4409f6",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de la variable $\\frac{n}{\\sigma^2}\\tilde{S}^2$ puis de $\\frac{n-1}{\\sigma^2}{S}^2$ où $S^2$ est l'estimateur de variance non biaisé pour un échantillon de taille $n$.",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "40bd8a8c-483e-42a7-b672-b2d6c9f36a13",
+      "id": "3594b907-64dc-49fc-9622-f63133776794",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de la variable $\\frac{S_2^2}{S_1^2}$ où $S_i^2$ est l'estimateur de variance non biaisé de l'échantillon $i \\in \\{1;2\\}$.",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "7521669a-7a62-4a84-9052-fecdfd1c0194",
+      "id": "b8a4ef53-9b10-4591-a3bc-9705d39bdedc",
       "type": "question",
       "value": {
         "latex": "En considérant le quotient de la plus grande variance par la plus petite, construire et mettre en oeuvre un test d'hypothèse permettant de dire si la variance obtenue dans l'échantillon 2 et significativement plus élevée que celle de l'échantillon 1.",

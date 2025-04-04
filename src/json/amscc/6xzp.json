@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Jean-François Culus",
     "createdAt": "2024-10-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction convexe",
     "sousChapitre": "Multiplicateurs de Lagrange",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:32.215Z",
+    "updatedAt": "2025-04-04T19:01:45.026Z",
     "resume": "Cet exercice applique la méthode des multiplicateurs de Lagrange pour optimiser une fonction $f(x,y) = x^2 + y^2$ sous la contrainte $g(x,y) = x^4 + y^4 - 1 = 0$.  L'exercice commence par justifier que l'ensemble des contraintes est un compact, garantissant l'existence d'un maximum.  Ensuite, il exploite l'intuition géométrique que, au point de maximum, le gradient de $f$ est orthogonal à toute direction tangente à la contrainte, ce qui implique la colinéarité des gradients de $f$ et $g$. Finalement, le calcul des gradients, la résolution du système d'équations résultant de la condition de colinéarité et de la contrainte, et l'évaluation de $f$ aux points critiques permettent de déterminer le maximum de $f$ sous la contrainte donnée.",
     "competences": [
       "appliquer le théorème des extrema liés (multiplicateurs de Lagrange)",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "1893a468-2977-48f6-856e-f4cf90479ce8",
+      "id": "2ae6579c-d3ac-4dd6-bbf1-6e27faf16dc3",
       "type": "description",
       "value": {
         "latex": "Nous allons ici étudier, pas à pas, la résolution d'une question d'optimisation sous-contraintes. Nous souhaitons déterminer le maximum de la fonction $f: (x,y)\\mapsto x^2+y^2$ sous la contrainte $x^4+y^4=1$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "3b587202-3271-4390-b9ca-68a9cbf6eea6",
+      "id": "35332e1b-97a0-4240-a7f8-020d7c798579",
       "type": "question",
       "value": {
         "latex": "Justifier que la courbe $\\Gamma$: $x^4+y^4=1$ est un compact de $\\R^2$. \n\\\\ Que pouvez-vous en déduire pour la fonction $f$ ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "3970b0af-00f9-4c40-b7fb-0141d9bd11d9",
+      "id": "8318cbff-cc1d-4e14-99f6-daca74a4c370",
       "type": "reponse",
       "value": {
         "latex": "Nous allons prouver que $\\Gamma $ est un fermé et borné de $\\mathbb{R}^2$. \n\nLa courbe $\\Gamma$ est donc l'image réciproque de $\\{1\\}$ par l'application continue $(x,y)\\mapsto x^4+y^4$: aussi, est-ce un fermé (comme image réciproque d'un fermé par une application continue).\n\\\\ De plus, si $(x,y)\\in \\Gamma$, alors nécessairement $|x|\\leq 1$ et $|y|\\leq 1$: aussi, la courbe $\\Gamma$ est bornée dans $\\mathbb{R}^2$. Aussi est-ce un compact de $\\mathbb{R}^2$. \n\n\nLa fonction $f$ étant continue sur le compact $\\Gamma$, elle y est bornée et atteint ses bornes.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "b4eca705-c17c-43bf-a087-ea306c75ccc5",
+      "id": "d70e0860-22c4-4109-acb8-91c31455ba72",
       "type": "question",
       "value": {
         "latex": "Posons la fonction $g: (x,y)\\mapsto x^4+y^4-1$, représentant la contrainte. Ainsi, $\\Gamma$ est l'ensemble des $(x,y)\\in \\mathbb{R}^2$ tels que $g(x,y)=0$. \n\nSoit $(x_0;y_0)\\in \\Gamma$ un point tel que $f \\vert_{\\Gamma}$ admet un maximum en $(x_0;y_0)$. Que pouvez-vous dire (intuitivement) de la dérivée directionnelle de $f$ en $(x_0;y_0)$ dans n'importe quelle direction tangentielle à $\\Gamma$ en $(x_0;y_0)$ ?",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "0bb25559-26f6-4b34-b4be-34e2d174430d",
+      "id": "3b95a0f3-9309-474d-9fd0-654791dfd54f",
       "type": "reponse",
       "value": {
         "latex": "Puisque  $f \\vert_{\\Gamma}$ admet un maximum en $(x_0;y_0)$, la dérivée directionnelle de $f \\vert_{\\Gamma}$ dans n'importe quelle direction tangentielle à $\\Gamma$ doit être nulle.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "ffea97d7-c384-4bbe-b664-ed1f838b4ca2",
+      "id": "2afb8378-e14a-4b91-8426-c929aa7fcbca",
       "type": "question",
       "value": {
         "latex": "Pour $u \\in \\mathbb{R}^2$, on désigne par $D_u f(x_0;y_0)$ la dérivée directionnelle de $f$ dans la direction du vecteur $u$ et par $\\nabla f$ son gradient. \nOn rappelle que $$D_u f(x_0;y_0) = \\nabla f(x_0;y_0)\\cdot u $$\n\nQue pouvez-vous alors dire du gradient de $f$ en $(x_0;y_0)$ par rapport au vecteur $u$ si celui-ci est tangent à $\\Gamma$ en $(x_0;y_0)$ ?",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "c32c3db3-d70d-4156-8e7b-01b44783ef64",
+      "id": "aa651702-054b-4e5c-badf-fd4d4d722bed",
       "type": "reponse",
       "value": {
         "latex": "D'après la question précédente, la dérivée directionnelle $D_uf(x_0,y_0)$ doit être nulle,  donc $\\nabla f(x_0;y_0)$ doit être orthogonal à $u$ (un vecteur tangent à $\\Gamma$ en $(x_0;y_0)$).",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "d408edf3-63cb-49ae-9f78-3d8f8625ffed",
+      "id": "b9b89990-e787-4867-984e-2d20134aa1a0",
       "type": "question",
       "value": {
         "latex": "En déduire alors la colinéarité de $\\nabla f (x_0;y_0)$ et $\\nabla g (x_0:y_0)$, et exploiter cette condition pour obtenir les couples solutions possibles du système.",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "5a9a7ff4-51df-45d3-8882-bf5a15dc1b97",
+      "id": "fdb84529-f425-424f-bd81-ba861bad4176",
       "type": "reponse",
       "value": {
         "latex": "Si le gradient de $f$ est orthogonal à $u$ et que $u$ est un vecteur tangent à $\\Gamma$ (la courbe des contraintes), alors $\\nabla f$ et $\\nabla g$ sont colinéaires car tous deux orthogonaux au même vecteur $u$. \n\\\\ {\\it De manière informelle,  les vecteurs tangents à la courbe de contrainte sont dans un plan: ils n'ont pas d'élévation. \nLes vecteurs tangents à la courbe $f \\vert_{\\Gamma}$, eux,  ont possiblement une élévation (coordonnée en $z$) mais sinon, leur deux premières coordonnées doivent être liées au vecteur tangent à la courbe des contraintes: c'est ce que nous exprimons ici.  }\n\nCalculons alors les gradients des deux fonctions:\n\\\\  $\\nabla f( x_0;y_0) = \\left( \\frac{\\partial f}{\\partial x}(x_0;y_0); \n\\frac{\\partial f}{\\partial y}(x_0;y_0) \\right) = (2x_0;2y_0)$.\n\\\\ $\\nabla g( x_0;y_0) = \\left( \\frac{\\partial g}{\\partial x}(x_0;y_0); \n\\frac{\\partial f}{\\partial y}(x_0;y_0) \\right) = (4x_0^3;4y_0^3)$.\n\nCes deux vecteurs étant colinéaires,  nous obtenons :\n\n$$ \\det \\begin{vmatrix}\n2x_0 & 4x_0^3 \\\\ 2y_0 & 4y_0^3\\end{vmatrix} = 0$$ \n\nEn ajoutant la contrainte ($\\Gamma$), nous obtenons : \n\n$$\\left\\lbrace \n\\begin{array}{ll} \nx_0y_0 (x_0^2 -y_0^2) &= 0 \\\\\nx_0^4+y_0^4 & = 1 \\end{array}\\right. $$\n\nDe la première équation, nous déduisons que soit $x_0 y_0 =0$, soit $x_0^2-y_0^2=0$.\n\\\\ Dans le premier cas, nous obtenons les couples $(0;\\pm 1)$ et $(\\pm 1;0)$.\n\\\\ Dans le second cas, nous avons $x=\\pm y$ soit les solutions \n$\\left( \\pm \\frac{1}{\\sqrt[4]{2}};\\pm  \\frac{1}{\\sqrt[4]{2}}\\right)$. \n\nAinsi, nous avons $8$ points critiques possibles à étudier. \nEvaluons $f$ en chacun d'eux: nous obtenons pour valeur maximale $\\sqrt{2}$ atteints aux points $\\left( \\pm \\frac{1}{\\sqrt[4]{2}};\\pm  \\frac{1}{\\sqrt[4]{2}}\\right)$.",

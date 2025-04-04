@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:00.232Z",
+    "updatedAt": "2025-04-04T19:02:44.291Z",
     "resume": "L'exercice porte sur la réalisation d'un test d'hypothèse concernant la variance d'une population normale. Il s'agit de déterminer si la variance d'un échantillon est conforme à une valeur de référence $\\sigma_0^2$ en utilisant un test du $\\chi^2$. Les compétences mises en œuvre incluent le calcul de la statistique de test basée sur la somme des carrés des écarts à la moyenne empirique, divisés par la variance de référence, et la comparaison de cette statistique à la distribution $\\chi^2$ avec $n-1$ degrés de liberté pour conclure sur l'hypothèse nulle au niveau de risque $\\alpha$ donné.",
     "competences": [
       "réaliser un test d'hypothèse sur une variance",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "29909dc4-6fd6-4715-9b7f-f5d58eb98c9b",
+      "id": "93135547-8124-412e-8f65-7d14bff0acae",
       "type": "description",
       "value": {
         "latex": "Un laboratoire vient d'acquérir une nouvelle balance et on souhaite comparer la régularité du travail de cette dernière pour de très petites pesées à la norme habituelle du descriptif pour laquelle la variance $\\sigma_0^2$ est égale à $4 g^2$. On prélève alors un échantillon de 30 masses dont les valeurs (en grammes) sont données ci-après :\n2.53 ; 1.51 ; 1.52 ; 1.44 ; 4.32 ; 2.36 ; 2.41 ; 2.06 ; 1.57 ; 1.68 ; 3.09 ; 0.54 ; 2.32 ; 0.19 ; 2.66 ; 2.20 ; 1.04 ; 1.02 ; 0.74 ; 1.01 ; 0.35 ; 2.42 ; 2.66 ; 1.11 ; 0.56 ; 1.75 ; 1.51 ; 3.80 ; 2.22 ; 2.88\n\nOn suppose que les masses sont distribuées selon une loi normale.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "68a043cc-7c5d-4b30-8436-179806512568",
+      "id": "157e9bfd-7ad8-4f41-89cf-26ec8604fb1b",
       "type": "question",
       "value": {
         "latex": "Au risque de $5\\%$, peut-on affirmer que la variance de l'échantillon est conforme à la norme du descriptif ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "82c4471c-603f-4efd-903d-367f17be8778",
+      "id": "c335fdb7-0765-4235-b39b-ca5fe222d43e",
       "type": "description",
       "value": {
         "latex": "Indication : ce test n'est pas détaillé dans le cours. Pour le mettre en place, on pourra définir une variable de décision en s'appuyant sur le fait que si $X_1,...,X_n$ est un $n$-échantillon dont la loi mère est une loi normale $\\mathcal{N}(\\mu,\\sigma^2)$ et $\\overline{X}$ la moyenne empirique de l'échantillon, alors la variable aléatoire \n$$S =  \\sum_{i=1}^{n} \\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2$$\nsuit une loi $\\chi^2(n-1)$.",

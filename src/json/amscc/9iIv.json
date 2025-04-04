@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-12",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:38.461Z",
+    "updatedAt": "2025-04-04T19:01:51.080Z",
     "resume": "L'exercice porte sur les estimateurs et les lois statistiques associées à un échantillon i.i.d. suivant une loi normale. Il évalue la capacité à :\n\n*   Calculer et comparer les biais et variances d'estimateurs (ici, $T_1$ et $T_2$ pour $\\mu$).\n*   Identifier les lois de distributions d'estimateurs ($\\chi^2$, Student) : $U$ suit une loi du $\\chi^2(4)$, $V$ une loi du $\\chi^2(3)$, et $\\frac{4(T_1-\\mu)}{\\sigma \\sqrt{U}}$ une loi de Student St(4).\n*   Utiliser les tables statistiques (ou un tableur) pour calculer des probabilités associées à ces lois.",
     "competences": [
       "identifier des lois statistiques usuelles",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "8f4971a1-99e1-4737-b67f-88cdb3b3767b",
+      "id": "6f1f8925-0c6e-4b9c-9625-86c686bd4bb3",
       "type": "description",
       "value": {
         "latex": "On considère un échantillon $(X_i)$ de taille $n=4$ dans une population suivant une loi normale de paramètres $\\mu$ et $\\sigma^2$. \n\t\n\t\n\t\n\tOn pose \n\t$$T_1 = \\frac{1}{4}\\sum_{i=1}^{4} X_i  \\qquad T_2 = \\frac{1}{5}(2X_1+X_2)+\\frac{1}{10}(3X_3+X_4)$$\n\t$$U = \\frac{1}{\\sigma^2}\\sum_{i=1}^{4}  {(X_i-\\mu)^2} \\qquad V = \\frac{1}{\\sigma^2}\\sum_{i=1}^{4}  {(X_i-T_1)^2}$$",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "ef08882c-694c-483e-b614-5432e4a0fdaf",
+      "id": "6b6ecca5-2db9-4679-a352-fb4d748bacea",
       "type": "question",
       "value": {
         "latex": "On cherche à estimer $\\mu$ à l'aide des estimateurs $T_1$ et $T_2$. \\'Etudier leur biais et comparer leurs efficacités.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "8c4a1212-88c2-4353-ba07-97097e29df3e",
+      "id": "dcb023f1-6d99-4db3-8f5f-d8ac9d7cd171",
       "type": "reponse",
       "value": {
         "latex": "Par linéarité de l'espérance, on calcule $\\mathbb{E}(T_1) = \\frac{4\\mu}{4} = \\mu$, $\\mathbb{E}(T_2) = \\frac{3\\mu}{5}+\\frac{4\\mu}{10} = \\mu$. Par conséquent, $B(T_1)=B(T_2)=0$.\n\t\t\n\t\tPour comparer l'efficacité des deux estimateurs sais biais, on calcule leur EQM (ce qui revient à calculer leur variance.) Par indépendance des variables, on a :\n\t\t\n\t\t$V(T_1) = \\frac{\\sigma^2}{4} < V(T_3) = \\frac{(4^2+2^2+3^2+1^2)\\sigma^2}{100}$. Le plus efficace est donc l'estimateur $T_1$ qui est la moyenne empirique.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "8b12bce4-fe46-4f70-9ac8-648512156342",
+      "id": "7deee4a6-3a1d-4d80-aeae-bc15951cef2a",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi suivie par la variable $T_1$ ? la variable $T_2$ ? la variable $U$ ? la variable $V$ ? justifier.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "010bee0a-c9f4-4178-9fbc-63b5a340628f",
+      "id": "98f1e484-71f9-435f-a4e0-779310e42087",
       "type": "reponse",
       "value": {
         "latex": "$U = \\sum_{i=1}^{4}  \\left(\\frac{X_i-\\mu}{\\sigma}\\right)^2$ ; or les $X_i$ sont des variables aléatoires indépendantes et $\\frac{X_i-\\mu}{\\sigma}$ suit une loi $\\mathcal{N}(0,1)$ donc par définition, $U$ suit une loi de $\\chi^2(4)$. \n\t\t\n\t\tDe plus, $T_1 = \\overline{X}$ est l'estimateur de moyenne empirique donc d'après le théorème de Fisher, $V$ suit une loi de $\\chi^2(4-1) = \\chi^2(3)$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "872dc003-95d1-40e0-af6f-cea13b6f4557",
+      "id": "fa89413e-126e-4e65-8c42-53e74f586b46",
       "type": "question",
       "value": {
         "latex": "Déterminer $x \\in \\R$ tel que $\\PP(U>x) = 0{,}05$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "04e1a212-f044-4b0d-a641-d3a6b1fc797e",
+      "id": "632e496b-e24a-4d13-90cd-e0890a54a88c",
       "type": "reponse",
       "value": {
         "latex": "On lit dans la table de loi  $\\PP(U<x) = 0{,}95$ pour $x = 11{,}07$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "c9014994-599a-4b50-8608-561bb016f49b",
+      "id": "e1d261c2-97d9-4aa8-9b9b-ca28d70cc1cf",
       "type": "question",
       "value": {
         "latex": "A l'aide du tableur, calculer $\\PP(V > 5)$ avec une précision de $10^{-8}$.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "50007393-9ba9-49df-9dea-b032883f6df3",
+      "id": "9924f54d-6215-484f-ade5-27b60ab6cfd3",
       "type": "reponse",
       "value": {
         "latex": "On a constaté que $V$ suit une loi de $\\chi^2(3)$ d'après le théorème de Fisher.\n\nEnsuite, \ten tapant la formule \\texttt{1-LOI.KHIDEUX.N(5;3;1)} dans le tableur, on trouve que $\\PP(V > 5) \\approx 0{,}17179714$.",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "22aaa6fb-5e58-4493-8319-b71f0f4f20de",
+      "id": "3d0371cf-2857-42e2-9ed2-8c695f9c43bd",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi de la variable aléatoire $\\frac{4(T_1-\\mu)}{{\\sigma \\sqrt{U}}}$ ?",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "e6525eb6-75a8-4cd6-9b9a-029d59d19d2f",
+      "id": "eed1b7d0-02a2-49cb-9b4a-d0926b6ac00c",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = \\frac{T_1-\\mu}{\\frac{\\sigma}{\\sqrt{4} }} = \\frac{2(T_1-\\mu)}{\\sigma}$ variable distribuée selon une loi $\\mathcal{N}(0,1)$. Soit alors $Y = \\frac{Z}{\\sqrt{\\frac{U}{4} }}$ : par définition, $Y$ suit une loi $St(4)$. Après simplifications, on peut réécrire $Y = \\frac{4(T_1-\\mu)}{{\\sigma \\sqrt{U}}}$.",

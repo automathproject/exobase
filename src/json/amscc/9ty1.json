@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-08-25",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:38.686Z",
+    "updatedAt": "2025-04-04T19:01:51.291Z",
     "resume": "L'exercice porte sur l'application de la loi normale, et plus particulièrement l'utilisation de la table de valeurs de la loi normale centrée réduite. Les compétences mises en œuvre sont :\n\n*   Calcul de probabilités pour une variable aléatoire suivant une loi normale centrée réduite $\\mathcal{N}(0,1)$ en utilisant la fonction de répartition $\\Phi$ et les propriétés de symétrie. \n*   Calcul de probabilités pour une variable aléatoire suivant une loi normale $\\mathcal{N}(\\mu,\\sigma)$ en effectuant un changement de variable pour se ramener à une loi normale centrée réduite $Z = \\frac{X-\\mu}{\\sigma}$.\n*   Détermination d'un quantile d'une loi normale par lecture inverse de la table de la loi normale centrée réduite, après standardisation.",
     "competences": [
       "appliquer la transformation d'une variable aléatoire normale en variable centrée réduite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "e62fb265-7095-4b7e-b598-e667065a08bb",
+      "id": "01f517cd-8bf6-44a6-8917-d7761104a5eb",
       "type": "description",
       "value": {
         "latex": "\\`A l'aide des tables de valeurs, effectuer les calculs suivants à $10^{-2}$ près.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "dc180bf1-100b-47a9-8028-d9c58051fcf3",
+      "id": "3dbd8591-7d8c-4e8f-aaaf-9548aeb3aba5",
       "type": "question",
       "value": {
         "latex": "Calculer $\\PP(-1.2 \\leq Z \\leq 1.1)$ où $Z$ suit une loi $\\mathcal{N}(0,1)$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "feb93e05-6a64-4bd5-a61c-31c6d35aea8e",
+      "id": "58f7da1f-c376-4231-bef8-4e9c0afa9b81",
       "type": "reponse",
       "value": {
         "latex": "On exprime la probabilité à l'aide de la fonction de répartition de la loi normale centrée réduite notée $\\Phi$ : \n$$\\begin{align*}\n\\PP(-1.2 \\leq Z \\leq 1.1) &= \\PP(Z \\leq 1.1) - \\PP(Z < -1.2) \\\\\n                          &= \\PP(Z \\leq 1.1) - \\PP(Z > 1.2) &\\text{par symétrie}\\\\\n                          &= \\PP(Z \\leq 1.1) - (1-\\PP(Z \\leq 1.2)) \\\\\n                          &= \\Phi(1.1)+\\Phi(1.2)-1 \\\\\n                          &\\approx 0{,}75\n\\end{align*}$$",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "a05050e4-4181-4495-a5c7-d4eb6ca217ac",
+      "id": "25c4069c-a95e-4506-bef1-bf0ee91bf1eb",
       "type": "question",
       "value": {
         "latex": "Calculer $\\PP(70 \\leq QI \\leq 130)$ où $QI$ suit une loi $\\mathcal{N}(100,\\sigma=15)$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "69b81e3f-b494-4c3c-bf62-1c580c959167",
+      "id": "f078df17-c7df-4122-81cd-ad40a2cc27da",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = \\frac{QI-100}{15}$ de telle sorte que $Z$ suit une loi normale centrée réduite. On exprime alors\n  $$\\begin{align*}\n  \\PP(70 \\leq QI \\leq 130) &= \\PP\\left(\\frac{70-100}{15} \\leq \\frac{QI-100}{15} \\leq \\frac{130-100}{15}\\right) \\\\\n                           &= \\PP(-2 \\leq Z \\leq 2) \\\\\n                           &= 2\\times \\Phi(2) -1 \\\\\n                           &\\approx 0{,}95\n  \\end{align*}$$",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "84e20290-cd68-40c6-ab12-0f09185aa913",
+      "id": "cd2132fa-3d07-4486-8cd9-dade78ca440a",
       "type": "question",
       "value": {
         "latex": "Déterminer un réel $t$ tel que $\\PP(|X-5|<t) = 95\\%$ où \n  $X$ suit une loi $\\mathcal{N}(5,\\sigma=1)$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "80be806e-3354-47ff-92c0-e2f1e1feb162",
+      "id": "a8f8383c-da06-4796-8add-5677bddf524c",
       "type": "reponse",
       "value": {
         "latex": "On pose $Z = {X-5}$ de telle sorte que $Z$ suit une loi normale centrée réduite. On exprime alors\n $$\\begin{align*}\n\\PP(|X-5| <t) &= \\PP\\left( -t<X-5<t\\right) \\\\\n&= \\PP\\left( -t \\leq Z \\leq t\\right) \\\\\n&= 2\\times \\Phi(t) -1 \\\\\n\\end{align*}$$ \nOn cherche $t \\in \\R$ tel que \n$$\\begin{align*}\n\\PP(|X-5| <t) = 0.95 &\\iff 2\\times \\Phi(t) -1 = 0.95 \\\\\n                     &\\iff \\Phi(t) = 0.975 \\\\\n                     &\\iff t \\approx 1{,}96 &\\text{par lecture inverse de la table}\n\\end{align*}$$",

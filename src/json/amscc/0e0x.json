@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-09-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:13.121Z",
+    "updatedAt": "2025-04-04T19:01:24.751Z",
     "resume": "L'exercice porte sur l'estimation ponctuelle et par intervalle de confiance des paramètres d'une loi normale. Il s'agit de :\n\n1.  Calculer les estimateurs de l'espérance ($\\overline{x}$) et de la variance ($s^2$) à partir d'un échantillon donné. L'exercice implique de connaître et d'appliquer les estimateurs usuels.\n2.  Déterminer un intervalle de confiance pour l'espérance mathématique, en utilisant la loi de Student appropriée, compte tenu de la taille de l'échantillon et du risque $\\alpha$.",
     "competences": [
       "calculer une moyenne empirique",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "28e307f9-e232-48e7-a38b-565897bbe033",
+      "id": "0b88e55b-a23e-4f94-a8bc-a52e6bb9b1aa",
       "type": "description",
       "value": {
         "latex": "Un centre médical mène des études statistiques sur le taux de cholestérol de son personnel, mesuré en centigramme par litre de sang. Les observations sur 20 individus supposés sains, tirés au sort, sont les suivantes :\n \n \\begin{center}\n \\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline\n{\\bf Taux de cholestérol en cg} & 120 & 160 & 200 & 240 & 280 & 320 \\\\ \\hline\n{\\bf Nombre de sujets observés} & 2   & 4   & 5   & 4   & 3   & 2   \\\\ \\hline\n\\end{tabular}\n\\end{center}\n\nLe taux de cholestérol chez un individu sain (noté $X$) est supposé suivre une loi normale.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "789d92c8-29f3-4552-a4bc-89992b74d10b",
+      "id": "14681023-4ae5-4a84-b974-8d4f7f756176",
       "type": "question",
       "value": {
         "latex": "Donner une estimation $\\overline{x}$ de l'espérance mathématique de $X$ et une estimation $s^2$ de la variance de $X$. On précisera les estimateurs choisis et on en donnera les propriétés.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "7bec6f02-6c40-40ba-9618-3768611114c1",
+      "id": "d141baa3-59ac-40fd-8c2c-d96550e1769b",
       "type": "reponse",
       "value": {
         "latex": "Avec l'estimateur usuel $\\overline{X}$, on obtient à partir de la réalisation de cet échantillon de taille $20$ une estimation $\\overline{x} = 216$. Avec l'estimateur de variance corrigée $S^2$, on obtient une estimation de la variance $s^2 \\approx 3604{,}21$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "f1947b4a-a1ac-430d-aa75-8366a0ac503f",
+      "id": "b87e5af6-b8a0-4051-891d-998c16629bb7",
       "type": "question",
       "value": {
         "latex": "Donner l'intervalle de confiance de l'espérance de $X$, centré sur $\\overline{x}$, au risque $\\alpha=0.01$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "29adcfa7-5d21-4e9e-ac6c-36c8bc7247c3",
+      "id": "b44392cc-166b-4377-8096-3ac34d1454f5",
       "type": "reponse",
       "value": {
         "latex": "Au vu de la taille de l'échantillon, la variable mère est supposée suivre une loi normale donc on utilise une loi de Student $St(19)$ pour calculer la réalisation de l'intervalle de confiance avec la formule du cours : on trouve $[177{,}5;254{,}5]$. \n \n\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EdFYJYRKwvBGoIULbkJQ6NkBRZn1HoiI2RaoiEOYqpaQFg?e=cQhUaa}{Feuille de calcul}",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:16.544Z",
+    "updatedAt": "2025-04-04T19:02:17.665Z",
     "resume": "Cet exercice porte sur les tests d'hypothèses, et évalue la capacité à : \n\n1. Déterminer le seuil critique d'un test d'hypothèse unilatéral droit pour une proportion, avec un niveau de signification $\\alpha = 5\\%$. \n2. Calculer la puissance d'un test d'hypothèse, c'est-à-dire la probabilité de rejeter $H_0$ lorsque $H_1$ est vraie, dans le cas d'une hypothèse alternative ponctuelle $p = 0.10$.\n3. Evaluer l'impact du changement de l'hypothèse alternative (de $p=0.10$ à $p=0.12$) sur la puissance du test, et donc son efficacité.",
     "competences": [
       "calculer la puissance d'un test statistique",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "fa60d51c-7a39-4da6-8b37-c36a9b608693",
+      "id": "3f5859df-0989-4c41-866d-71805ac7c00a",
       "type": "description",
       "value": {
         "latex": "On veut contrôler la durée d'utilisation d'un lot d'ampoules électriques. Soit $p$ la proportion d'ampoules défectueuses. \n\nAfin de choisir entre les deux hypothèses : $\\begin{cases} \n\tH_0 \\colon p = 0.05 \\\\\n\tH_1 \\colon p > 0.05\n\\end{cases}$, \non prélève un échantillon aléatoire de taille $n = 144$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "0a2b81d0-7c1d-4b9a-8de2-74bf002dd334",
+      "id": "cc8d3ac8-baf5-4509-a182-ab9a696cd4d3",
       "type": "question",
       "value": {
         "latex": "Déterminer le seuil critique pour une erreur de première espèce $\\alpha = 5\\%$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ddc1ebed-e0a4-47a8-85fa-f960b9e39063",
+      "id": "2c56fabd-3c89-4737-9472-7b499a56f580",
       "type": "question",
       "value": {
         "latex": "On considère que la proportion d'ampoules défectueuses est inacceptable si $p=0.10$. Pour cela, on construit le test selon les hypothèses :\n\t$$\\begin{cases} \n\t\tH_0 \\colon p = 0.05 \\\\\n\t\tH_1 \\colon p = 0.10\n\t\\end{cases}$$\n\tQuelle est la puissance de ce test ?",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "52579973-ebe2-4be5-9e84-0d6862dceaa0",
+      "id": "58f3e026-5b15-47be-88b9-3cdd28613b7c",
       "type": "question",
       "value": {
         "latex": "Le test est-il plus efficace si on l'effectue avec une hypothèse alternative $H_1 \\colon p = 0.12$ ?",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "6d8647a9-43db-429a-b7a9-79ff3604bfe2",
+      "id": "4dc4e7dd-4d94-4d2f-aca2-0b6e6889c57f",
       "type": "reponse",
       "value": {
         "latex": "\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EYlCPJY62BdMpTYscg1T6zABc9_WCIR_pzt6XSOajALYhw?e=W1oBgi&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wODAwLTAwMDAwMDAwMDAwMH0}{lien vers tableur}",

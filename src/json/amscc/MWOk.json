@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:19.150Z",
+    "updatedAt": "2025-04-04T19:02:18.976Z",
     "resume": "L'exercice porte sur l'étude de séries entières. Il évalue la capacité à :\n\n1.  Déterminer le rayon de convergence $R$ d'une série entière $\\sum a_n x^n$ en utilisant le critère de d'Alembert (calcul de $\\lim_{n \\to \\infty} |\\frac{a_{n+1}}{a_n}|$) et le critère de Cauchy (calcul de $\\lim_{n \\to \\infty} |a_n|^{\\frac{1}{n}}$).\n2.  Déterminer la nature d'une série numérique en reconnaissant qu'elle est une série entière évaluée en un point donné et en utilisant la connaissance du rayon de convergence pour conclure sur la convergence absolue ou la divergence grossière de la série.",
     "competences": [
       "calculer le rayon de convergence d'une série entière",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "affbb7f8-b80f-438d-ab8d-de3d03674791",
+      "id": "5e7502f5-aa6b-4fc0-aa77-d3885d601b80",
       "type": "description",
       "value": {
         "latex": "Déterminer le rayon de convergence des séries entières réelles suivantes :",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "3748f6dd-90a7-4bdd-9699-e211b1d95f6b",
+      "id": "4479a104-2d44-4a28-8b0b-0f646f089f96",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "d96ebaa6-eac2-406c-836a-ac20188b36e0",
+      "id": "be427d1a-3255-4273-8fd2-add15c6bf844",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} x^n$ et on utilise le théorème de d'Alembert : \n\t\t\t$$\\begin{align*}\n\t\t\t\\frac{|u_{n+1}(x)|}{|u_n(x)|} &= \\frac{(3(n+1)^2-1) \\times 2^{2n+1}\\sqrt{n+1}}{\\left(2^{2(n+1)+1}\\sqrt{n+1+1}\\right)(3n^2-1)}\\frac{|x^{n+1}|}{|x^n|} \\\\\n\t\t\t&= \\frac{1}{2^2}\\sqrt{\\frac{n+1}{n+2}} \\frac{3n^2+6n+3-1}{3n^2-1} |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} \\frac{1}{4}|x|\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ \\frac{1}{4}|x| <1 \\iff |x| < 4$ donc le rayon de convergence est $R=4$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "38c671e2-063a-4de4-9b51-6813423d9a10",
+      "id": "9371f983-dac2-4b15-af4e-dbc7eb85c912",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "58dd1b7d-cdb1-49c8-ac3c-5ef537750e1b",
+      "id": "fc951451-63a4-42c1-97c5-d6a25fe6931d",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = 9^n \\left(\\frac{n-1}{n}\\right)^nx^{2n}$ et on utilise le théorème de Cauchy : \n\t\t\t$$\\begin{align*}\n\t\t\t\\left(|u_n(x)|\\right)^{\\frac{1}{n}} &= \\left(9^n \\left(\\frac{n-1}{n}\\right)^n|x|^{2n}\\right)^{\\frac{1}{n}} \\\\\n\t\t\t&= 9 \\left(\\frac{n-1}{n}\\right) |x|^2 \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{} 9|x|^2\n\t\t\t\\end{align*}$$\t\n\t\t\tOr $ 9|x|^2 <1 \\iff |x|^2 < \\frac{1}{9} \\iff |x| < \\frac{1}{3}$ donc le rayon de convergence est $R=\\frac{1}{3}$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "457d7b31-7169-4d5d-8f92-aea5f4cd2e84",
+      "id": "b4662f20-b439-442a-b0ce-fff137f4df4f",
       "type": "question",
       "value": {
         "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 0} \\frac{3n^2-1}{2^{2n+1}\\sqrt{n+1}} \\left(-\\frac{9}{8}\\right)^n$ ? Justifier votre réponse.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "1ffbd379-2872-49b2-af75-92047ce70382",
+      "id": "82370359-5ab0-43c4-8104-146ad174c816",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît la série entière de la question 1.(a) évaluée en $x = -\\frac{9}{8}$. Or $-\\frac{9}{8} \\in ]-4;4[$ donc la série est absolument convergente.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "c7ef1634-2a59-4403-8d4d-e483fce8a6da",
+      "id": "2b5cdee4-6153-43c5-9ae2-c4dc998a6754",
       "type": "question",
       "value": {
         "latex": "Que peut-on dire de la série $\\displaystyle \\sum_{n \\geq 1} 9^n \\left(\\frac{n-1}{n}\\right)^n\\left(\\frac{2}{3}\\right)^{2n}$ ? Justifier votre réponse.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "cfdddf3b-da80-46a3-8227-9d0d420082dc",
+      "id": "a7e027d4-cc51-4404-a307-aa5b6318428c",
       "type": "reponse",
       "value": {
         "latex": "On reconnaît la série entière de la question 1.(b) évaluée en $x = \\frac{2}{3}$. Or $\\frac{2}{3} \\notin ]-\\frac{1}{3};\\frac{1}{3}[$ donc la série est grossièrement divergente.",

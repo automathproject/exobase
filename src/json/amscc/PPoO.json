@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:25.159Z",
+    "updatedAt": "2025-04-04T19:02:22.067Z",
     "resume": "L'exercice porte sur les probabilités conditionnelles et la manipulation de variables aléatoires discrètes. Il requiert de : \n\n1.  Construire un arbre pondéré pour modéliser l'expérience aléatoire.\n2.  Déterminer la loi de probabilité d'une variable aléatoire $X$ représentant le gain algébrique du joueur.\n3.  Calculer l'espérance mathématique $E(X)$ de cette variable aléatoire.\n4.  Déterminer la valeur d'un gain conditionnel qui annule l'espérance de la variable aléatoire $X$.",
     "competences": [
       "calculer une probabilité conditionnelle",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "2f154164-8444-4d39-b5eb-aeeee2020689",
+      "id": "4da37723-0f0c-436f-939b-34e5cf7d2fa3",
       "type": "description",
       "value": {
         "latex": "Une urne contient sept boules : une rouge, deux jaunes et quatre vertes. Un joueur tire au hasard une boule.\n\tSi elle est rouge, il gagne 10\\euro{}, si elle est jaune, il perd 5\\euro{}, si elle est verte, il tire une deuxième boule de l'urne\n\tsans avoir replacé la première boule tirée.\n\tSi cette deuxième boule est rouge, il gagne 8\\euro{}, sinon il perd 4\\euro{}.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "3f8f7fc9-efca-4ca9-887b-fb6fbc5a30b7",
+      "id": "47137b4f-9cd8-4655-95c4-aad1dc2faeae",
       "type": "question",
       "value": {
         "latex": "Construire un arbre pondéré représentant l'ensemble des éventualités de ce jeu.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "28d4367d-5955-49bc-8ae1-26c6053d6d8d",
+      "id": "5b2764e2-e9ad-4d40-9db8-ab215b072864",
       "type": "description",
       "value": {
         "latex": "Soit X la variable aléatoire associant à chaque tirage le gain algébrique du joueur (une perte est comptée négativement).",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "00ee8507-1316-45e2-a1ac-87a8cc8d94c4",
+      "id": "c8b7e11c-146d-4592-821c-654da8074683",
       "type": "question",
       "value": {
         "latex": "Établir la loi de probabilité de la variable $X$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "43fc937b-481e-4a83-8bc4-068c8f55930a",
+      "id": "a934cfcc-2f1e-44bb-9d5c-c7569e7ecfba",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X$.",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "a69f7fe5-fc21-407c-951d-aa6a61d6fa42",
+      "id": "fbe6f8f4-bfd5-4e5d-a17b-22266509ed4d",
       "type": "question",
       "value": {
         "latex": "Les conditions de jeu restent identiques. Indiquer le montant du gain algébrique qu'il faut attribuer à un joueur \tlorsque la boule tirée au deuxième tirage est rouge, pour que l'espérance de X soit nulle.",

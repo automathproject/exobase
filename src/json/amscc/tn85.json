@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:17.413Z",
+    "updatedAt": "2025-04-04T19:05:08.197Z",
     "resume": "L'exercice porte sur l'identification et l'application des lois du $\\chi^2$ et de Student. Il évalue la capacité à:\n\n*   Reconnaître une loi du $\\chi^2$ à partir de la somme de carrés de variables normales centrées réduites indépendantes : Si $U_i \\sim \\mathcal{N}(0,1)$ et sont indépendantes, alors $\\sum_{i=1}^{n} U_i^2 \\sim \\chi^2(n)$.\n*   Déterminer un quantile d'une loi du $\\chi^2$ à l'aide de $\\PP(X > x) = 0.05$.\n*   Identifier une loi de Student à partir d'une variable normale centrée réduite divisée par la racine carrée d'une variable du $\\chi^2$ divisée par ses degrés de liberté : $\\frac{\\frac{Y-\\mu}{\\sigma}}{\\sqrt{\\frac{X}{n}}} \\sim St(n)$ où $Y \\sim \\mathcal{N}(\\mu, \\sigma^2)$ et $X \\sim \\chi^2(n)$.\n*   Déterminer un quantile d'une loi de Student à l'aide de $\\PP(Z > z) = 0.05$.",
     "competences": [
       "identifier une loi du Chi-deux à partir de variables normales centrées réduites",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "0342b174-12ee-4154-a5e1-d0bfba3febf7",
+      "id": "83164a74-aeea-493e-8d1b-200239e989fc",
       "type": "description",
       "value": {
         "latex": "Soient 9 variables aléatoires normales centrées réduites notées $(U_i)_{1 \\leq i \\leq 9}$. on suppose que les variables $(U_i)_{1 \\leq i \\leq 9}$ sont indépendantes.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "0b631a81-a048-4d94-b8c7-d16510b3ebcf",
+      "id": "b9da9005-e0f0-45e3-b512-5b364515a301",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi suivie par $X=\\sum\\limits_{i=1}^{9}U_i^2$ ? Déterminer le réel $x$ tel que $\\PP(X > x) = 0.05$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "4b4990fe-d513-420e-8a78-c51398cc71a3",
+      "id": "c04f3c9a-27c2-485d-8256-922a1578f7c4",
       "type": "reponse",
       "value": {
         "latex": "Les variables $(U_i)_{1 \\leq i \\leq 9}$ sont indépendantes et suivent chacune une loi $\\mathcal{N}(0,1)$ donc $\\sum\\limits_{i=1}^{9}U_i^2$ suit une loi $\\chi^2(9)$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "c41a7d55-6aa0-4942-9049-323815b55c19",
+      "id": "0d287712-c376-4712-b034-6bf556cd6cc7",
       "type": "question",
       "value": {
         "latex": "Soit $Y$ une variable aléatoire suivant une loi normale de moyenne 10 et d'écart-type 3, indépendante de $X$. Quelle est la loi suivie par la variable aléatoire $Z=\\frac{Y-10}{\\sqrt{X}}$ ? Déterminer le réel $z$ tel que $\\PP(Z > z) = 0.05$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "b707d4c4-7fae-409a-bd36-f269772fea6f",
+      "id": "44409230-7489-4410-b226-3d8b57282668",
       "type": "reponse",
       "value": {
         "latex": "On réécrit $Z=\\frac{Y-10}{\\sqrt{X}} = \\frac{ \\frac{Y-10}{3}}{ \\sqrt{\\frac{X}{9}}  }$ ; or $\\frac{Y-10}{3}$ suit une loi normale centrée réduite donc par définition, $Z$ suit une loi $St(9)$.",

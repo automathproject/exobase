@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Dérivée partielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:42.218Z",
+    "updatedAt": "2025-04-04T19:01:54.333Z",
     "resume": "L'exercice porte sur le calcul de dérivées partielles d'une fonction $f(x,y) = \\frac{x^2+xy}{y^2}$. Il s'agit de :\n\n1.  Déterminer le domaine de dérivabilité de $f$ et calculer les dérivées partielles $\\frac{\\partial f}{\\partial x}(x,y)$ et $\\frac{\\partial f}{\\partial y}(x,y)$ en utilisant les règles de dérivation classiques.\n2.  Exprimer $f(x,y)$ sous la forme $F(\\frac{x}{y})$ où $F(t) = t^2 + t$, puis recalculer les dérivées partielles en utilisant la règle de dérivation des fonctions composées (règle de la chaîne).",
     "competences": [
       "calculer des dérivées partielles",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "93d00828-afe2-4dea-96a7-742b939b94c4",
+      "id": "419c26ea-0f77-422e-8ba7-b991ceeb49dd",
       "type": "description",
       "value": {
         "latex": "On pose $f: \\R^2 \\to \\R,\\ (x,y) \\mapsto \\dfrac{x^2+xy}{y^2}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "52a234a2-aa1e-46ed-93ba-571d1693a46f",
+      "id": "85a5ebda-974c-4885-b75e-7670b87100bd",
       "type": "question",
       "value": {
         "latex": "\\label{Q1} Préciser l'ensemble de dérivabilité de $f$ et calculer $\\dpa{f}{x}(x,y)$ et $\\dpa{f}{y}(x,y)$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ed928940-af88-480b-95d3-c227b4736c9b",
+      "id": "b4dcc353-256b-419a-b373-8cc8766caa59",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ admet des dérivées partielles en tout point $(x,y)\\in \\R^2$ tel que $y \\neq 0$ :\n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{x}(x,y) &= \\frac{2x+y}{y^2} \\\\\n\t\t\\dpa{f}{y}(x,y) &= -\\frac{2x^2}{y^3}-\\frac{x}{y^2} \\\\\n\t\t&= \\frac{-2x^2-xy}{y^3}\n\t\t\\end{align*}$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "ad29ff60-1f15-49ee-80eb-0b1b59934c84",
+      "id": "7d1d9590-92e6-4bd5-9457-78beb5642f02",
       "type": "question",
       "value": {
         "latex": "On note $F: \\R \\to \\R,\\ t \\mapsto t^2+t$. En remarquant que $f(x,y) = F\\left(\\dfrac{x}{y}\\right)$, et en utilisant les règles de dérivation composée, retrouver les expressions obtenues à la question~\\ref{Q1}.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "9edb5f74-4a4a-4c5b-a837-6f6cb3ddaf99",
+      "id": "01a3fa8c-a78e-415a-9e53-c2a14d645101",
       "type": "reponse",
       "value": {
         "latex": "Dans un premier temps, on remarque que $F$ est dérivable en tout point $t \\in \\R$ et $F'(t) = 2t+1$. \n\t\t\n\t\tD'autre part, par application de la règle des chaînes, on peut calculer \n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{x}(x,y) &= \\dpa{}{x}\\left( F\\left(\\dfrac{x}{y}\\right)\\right) \\\\\n\t\t&= \\left( F'\\left(\\dfrac{x}{y}\\right)\\right) \\times \\dpa{}{x}\\left( \\frac{x}{y} \\right)  \\\\\n\t\t&= \\left(2\\left(\\dfrac{x}{y}\\right)+1\\right) \\times \\frac{1}{y} \\\\\n\t\t&= \\frac{2x+y}{y^2}\n\t\t\\end{align*}$$\n\t\tDe même, \n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{y}(x,y) &= \\dpa{}{y}\\left( F\\left(\\dfrac{x}{y}\\right)\\right) \\\\\n\t\t&= \\left( F'\\left(\\dfrac{x}{y}\\right)\\right) \\times \\dpa{}{y}\\left( \\frac{x}{y} \\right)  \\\\\n\t\t&= \\left(2\\left(\\dfrac{x}{y}\\right)+1\\right) \\times \\frac{-x}{y^2} \\\\\n\t\t&= \\frac{-2x^2-xy}{y^3}\n\t\t\\end{align*}$$",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-09-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:17.823Z",
+    "updatedAt": "2025-04-04T19:05:08.590Z",
     "resume": "Cet exercice porte sur les variables aléatoires continues et leur densité de probabilité. Il évalue les compétences suivantes :\n\n*   Vérification qu'une fonction donnée est une densité de probabilité en montrant qu'elle est positive et que son intégrale sur son domaine vaut 1. ($\\int f(x) dx = 1$)\n*   Calcul de la probabilité qu'une variable aléatoire $X$ appartienne à un intervalle donné, en calculant l'intégrale de la densité de probabilité sur cet intervalle. ($P(a \\le X \\le b) = \\int_a^b f(x) dx$)\n*   Calcul de l'espérance mathématique $E[X] = \\int xf(x)dx$ et de la variance $Var(X) = E[X^2] - (E[X])^2$ d'une variable aléatoire continue à partir de sa densité de probabilité.",
     "competences": [
       "calculer une intégrale définie",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "0e0f719a-93f8-4499-b7b4-5babdb4f597d",
+      "id": "63a40fa6-5bf0-4afc-98bb-dd501afd8b74",
       "type": "description",
       "value": {
         "latex": "Soit la fonction densité de probabilité $f$ définie sur l'intervalle $[0, 2]$ par :\n\n$$\nf(x) =\n\\begin{cases}\n    \\frac{3}{16}(4 - x^2), & \\text{si } 0 \\leq x \\leq 2, \\\\\n    0, & \\text{sinon}.\n\\end{cases}\n$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "db9591e1-3a75-4453-8606-9bc2d579c93c",
+      "id": "4270564b-1047-4aba-bf36-f00f9a185708",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ est bien une densité de probabilité. On note $X$ une variable aléatoire admettant $f$ pour densité de probabilité.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "c96e97d1-c8c5-4731-8b5e-b98b84a27f4f",
+      "id": "c8dc8fd0-0002-4c4e-9934-0065b0ceeefe",
       "type": "reponse",
       "value": {
         "latex": "Pour qu'une fonction soit une densité de probabilité, elle doit satisfaire les deux conditions suivantes :\n    \\begin{enumerate}\n        \\item $f(x) \\geq 0$ pour tout $x$ dans l'intervalle de définition.\n        \\item L'intégrale de $f(x)$ sur tout l'intervalle $[0, 2]$ doit être égale à 1.\n    \\end{enumerate}\n    \n    Vérifions la première condition : \\\\\n    $f(x) = \\frac{3}{16}(4 - x^2) \\geq 0$ sur $[0, 2]$, car $x^2 \\leq 4$ pour \n    $0\\leq x \\leq 2$.\n    \n    Vérifions maintenant la seconde condition :\n    \n    \\[\n    \\int_0^2 \\frac{3}{16}(4 - x^2) \\, dx = \\frac{3}{16} \\int_0^2 (4 - x^2) \\, dx = \\frac{3}{16} \\left[ 4x - \\frac{x^3}{3} \\right]_0^2.\n    \\]\n    \n    En évaluant les bornes :\n    \n    \\[\n    \\left[ 4x - \\frac{x^3}{3} \\right]_0^2 = \\left( 8 - \\frac{8}{3} \\right) - (0) = \\frac{24}{3} - \\frac{8}{3} = \\frac{16}{3}.\n    \\]\n    \n    Ainsi, \n    \\[\n    \\int_0^2 f(x) \\, dx = \\frac{3}{16} \\times \\frac{16}{3} = 1.\n    \\]\n    \n    Donc, $f$ est bien une densité de probabilité.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "df9ed734-5857-47d7-b7e6-b030aa4eebd3",
+      "id": "989668a8-10dd-4c6b-a625-d2a3f627381a",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité que $X$ prenne une valeur dans l'intervalle $[1, 3]$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "e019d368-0edc-4291-ab54-2dd36ce129ce",
+      "id": "133a83e3-2346-479e-982e-de912f54f84a",
       "type": "reponse",
       "value": {
         "latex": "On cherche $\\prob(1 \\leq X \\leq 3)$, ce qui revient à calculer l'intégrale de $f(x)$ sur l'intervalle $[1, 3]$ :\n    \n    \\[\n    \\prob(1 \\leq X \\leq 3) = \\int_1^3 f(x) \\, dx = \\int_1^2 \\frac{3}{16}(4 - x^2) \\, dx = \\frac{5}{16}\n    \\]",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "e243da7d-4eca-43a8-90b8-64847f6ee9f4",
+      "id": "40509cc0-8963-4028-9568-bb329e8eff3c",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance et la variance de $X$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "e734e1ee-0d61-4b04-b236-3b88bb30ed13",
+      "id": "da418ccd-c023-4aef-9098-06610303b766",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\\mathbb{E}[X] &= \\int_{0}^{2} x f(x) \\, dx \\\\\n\t\t&= \\int_{0}^{2} x \\left( \\frac{3}{16}(4 - x^2) \\right) dx \\\\\n\t\t&= \\frac{3}{16} \\int_{0}^{2} x (4 - x^2) \\, dx \\\\\n\t\t&= \\frac{3}{16} \\int_{0}^{2} (4x - x^3) \\, dx \\\\\n\t\t&= \\frac{3}{16} \\left( \\int_{0}^{2} 4x \\, dx - \\int_{0}^{2} x^3 \\, dx \\right) \\\\\n\t\t&= \\frac{3}{16} \\left( \\left[2x^2\\right]_{0}^{2} - \\left[\\frac{x^4}{4}\\right]_{0}^{2} \\right) \\\\\n\t\t&= \\frac{3}{16} \\left( \\left(2 \\times 2^2\\right) - \\left(\\frac{2^4}{4}\\right) - \\left(0 - 0\\right) \\right) \\\\\n\t\t&= \\frac{3}{16} \\left( 8 - 4 \\right) \\\\\n\t\t&= \\frac{3}{4}.\n\t\\end{align*}$$\n\n$$\\begin{align*}\n\t\\operatorname{Var}(X) &= \\mathbb{E}[X^2] - (\\mathbb{E}[X])^2 \\\\\n\t\\\\\n\t\\text{Calcul de } \\mathbb{E}[X^2]: \\\\\n\t\\mathbb{E}[X^2] &= \\int_{0}^{2} x^2 f(x) \\, dx \\\\\n\t&= \\int_{0}^{2} x^2 \\left( \\frac{3}{16}(4 - x^2) \\right) dx \\\\\n\t&= \\frac{3}{16} \\int_{0}^{2} x^2 (4 - x^2) \\, dx \\\\\n\t&= \\frac{3}{16} \\int_{0}^{2} (4x^2 - x^4) \\, dx \\\\\n\t&= \\frac{3}{16} \\left( \\int_{0}^{2} 4x^2 \\, dx - \\int_{0}^{2} x^4 \\, dx \\right) \\\\\n\t&= \\frac{3}{16} \\left( \\left[\\frac{4x^3}{3}\\right]_{0}^{2} - \\left[\\frac{x^5}{5}\\right]_{0}^{2} \\right) \\\\\n\t&= \\frac{3}{16} \\left( \\left( \\frac{4 \\times 8}{3} \\right) - \\left( \\frac{32}{5} \\right) - \\left( 0 - 0 \\right) \\right) \\\\\n\t&= \\frac{3}{16} \\left( \\frac{32}{3} - \\frac{32}{5} \\right) \\\\\n\t&= \\frac{4}{5}.\n\\end{align*}$$\n\n$$\\begin{align*}\n\t\\text{Calcul de } \\operatorname{Var}(X): \\\\\n\t\\operatorname{Var}(X) &= \\mathbb{E}[X^2] - (\\mathbb{E}[X])^2 \\\\\n\t&= \\frac{4}{5} - \\left( \\frac{3}{4} \\right)^2 \\\\\n\t&= \\frac{4}{5} - \\frac{9}{16} \\\\\n\t&= \\frac{64}{80} - \\frac{45}{80} \\\\\n\t&= \\frac{19}{80}.\n\\end{align*}$$",

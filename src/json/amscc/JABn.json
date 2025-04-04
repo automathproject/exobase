@@ -1,21 +1,21 @@
 {
   "uuid": "JABn",
-  "titre": "Test d'indépendance de deux variables qualitatives",
+  "titre": "Indépendance de caractères",
   "theme": [
-    "tests d'hypothèses"
+    "statistiques"
   ],
   "niveau": "",
   "metadata": {
     "exo7id": "",
     "auteur": "Maxime Nguyen",
-    "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-04-04T19:02:12.336Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "Statistique",
-    "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
+    "chapitre": "",
+    "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:04.914Z",
+    "updatedAt": "2025-04-04T19:02:12.336Z",
     "resume": "L'exercice porte sur la réalisation d'un test d'indépendance du Chi-deux ($\\chi^2$) pour déterminer si deux variables qualitatives, le groupe sanguin et le facteur Rhésus, sont indépendantes. Il s'agit de vérifier si la distribution observée dans un tableau de contingence s'écarte significativement de la distribution théorique attendue en cas d'indépendance.",
     "competences": [
       "réaliser un test du Chi-deux d'indépendance",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "48993f18-c546-4f92-9d1e-93f7a85bc2c0",
+      "id": "fc22adfe-4311-434f-a883-6d3a7aed3272",
       "type": "description",
       "value": {
         "latex": "Le tableau suivant donne la répartition de 10 000 personnes en fonction de leur groupe sanguin et de leur facteur Rhésus. \n\n\\begin{center}\n\t\\begin{tabular}{|c|c|c|c|c|}\n\t\t\\hline  & O & A & B & AB  \\\\ \n\t\t\\hline Rh+ & 3500 & 3800 & 900 & 170  \\\\ \n\t\t\\hline Rh- & 700 & 700 & 200 & 30   \\\\ \n\t\t\\hline \n\t\\end{tabular} \n\\end{center}",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "fa6f6d62-fcb8-4fa2-af7a-09bcbb4b63cd",
+      "id": "ab34a2b5-e71d-4a46-8b45-a2f8e516bf2c",
       "type": "question",
       "value": {
         "latex": "Les deux caractères \\og groupe sanguin \\fg{} et \\og facteur Rhésus \\fg{} sont-ils indépendants ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "c6a37909-1cb3-42d2-a78d-52cfd82de191",
+      "id": "50b8aae4-30e9-4fcc-a811-c24d5a59f190",
       "type": "reponse",
       "value": {
         "latex": "\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EYlCPJY62BdMpTYscg1T6zABc9_WCIR_pzt6XSOajALYhw?e=kf80uR&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMzAwLTAwMDAwMDAwMDAwMH0}{Lien vers tableur}",

@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "bibmath",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:57.032Z",
+    "updatedAt": "2025-04-04T19:04:41.629Z",
     "resume": "L'exercice porte sur la comparaison de deux avions (A et B) en fonction de leur nombre de moteurs et de la probabilité de panne de chaque moteur. Il s'agit de déterminer quel avion est le plus sûr, en modélisant le nombre de moteurs en panne par des lois binomiales ($\\mathcal{B}(4, p)$ pour A et $\\mathcal{B}(2, p)$ pour B). La résolution implique le calcul des probabilités que moins de la moitié des moteurs tombent en panne pour chaque avion et la comparaison de ces probabilités. La conclusion est que l'avion A est préférable si la probabilité de panne $p$ est inférieure à $\\frac{2}{3}$.",
     "competences": [
       "calculer des probabilités binomiales",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "af90e99f-ebc5-4d0c-87bc-79be3808b7b8",
+      "id": "17a13844-c866-4053-b15d-9bcc7c6d1df6",
       "type": "description",
       "value": {
         "latex": "On considère deux avions $A$ et $B$ ayant respectivement 4 et 2 moteurs. Les moteurs fonctionnent de manière indépendante et chacun a une probabilité $p \\in ]0;1[$ de tomber en panne. On admet qu'un vol se termine bien si moins de la moitié des moteurs tombe en panne.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "d06c2eb7-5891-4a3e-9780-512436cdc1d1",
+      "id": "060053fd-3d94-4e28-8279-7af4a2be687f",
       "type": "question",
       "value": {
         "latex": "Quel avion est-il préférable de choisir ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "516e80f7-1cd7-42bf-bed5-761dc282e443",
+      "id": "682943ff-742a-40ca-a53c-6ca1c387d5f0",
       "type": "reponse",
       "value": {
         "latex": "Soit $X$ le nombre de moteurs tombant en panne sur l'avion $A$ et $Y$  le nombre de moteurs tombant en panne sur l'avion $B$. Alors $X$ suit une loi binomiale $\\mathcal{B}(4,p)$ et $Y$ suit une loi binomiale $\\mathcal{B}(2,p)$. \n\nOn en déduit que $\\prob(X=0)+\\prob(X=1) = (1-p)^4 + 4p(1-p)^3$ et $\\prob(Y=0) = (1-p)^2$.\n\nIl est préférable de prendre l'avion $A$ si et seulement si $\\prob(X=0)+\\prob(X=1) \\geq \\prob(Y=0)$, c'est-à-dire :\n$$p(1-p)^2(2-3p) \\geq 0 \\iff 2-3p \\geq 0$$\n\nEn conclusion, si $p < \\frac{2}{3}$, il est préférable de prendre l'avion $A$.",

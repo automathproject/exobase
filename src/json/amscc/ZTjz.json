@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-12",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Développement limité",
     "sousChapitre": "Applications",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:02.321Z",
+    "updatedAt": "2025-04-04T19:02:45.333Z",
     "resume": "L'exercice consiste à déterminer le développement limité de $\\\\ln(1+x)$ à l'ordre 3 au voisinage de 0, puis à en déduire le développement limité de $(\\\\ln(1+x))^2$ à l'ordre 3 en utilisant le développement limité précédemment calculé et en effectuant les opérations algébriques nécessaires pour obtenir le résultat à l'ordre demandé.",
     "competences": [
       "calculer un développement limité à un ordre donné",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "7cf7d035-c62a-400b-97ea-04bec4aa65fd",
+      "id": "fe10486e-4d21-477e-883e-b716becc0564",
       "type": "question",
       "value": {
         "latex": "Donner le développement limité de $\\ln(1+x)$ au voisinage de $0$ à l'ordre $3$. En déduire le  développement limité de $\\left(\\ln(1+x)\\right)^2$ à l'ordre $3$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "77d28b71-471e-404f-baef-bdac93e5a4a8",
+      "id": "7e72647d-e9c0-44d3-8290-0071f62a4844",
       "type": "reponse",
       "value": {
         "latex": "$$\n\t\\begin{aligned}\n\t\t\\ln (1+x) &=\\underbrace{x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}}_{P_{1}(x)}+x^{3} \\cdot \\varepsilon(x) \\\\\n\t\t\\left(P_{3}(x)\\right)^{2} &=\\left(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\right)^{2} \\\\\n\t\t&=\\left(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\right) \\times\\left(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\right) \\\\\n\t\t&=x \\times\\left(x-\\frac{x^{2}}{2}\\right)-\\frac{x^{2}}{2} \\times x+ o(x^3) \\\\\n\t\t&=x^{2}-x^{3}+o(x^3)\n\t\\end{aligned}\n\t$$\n\tAinsi, $(\\ln (1+x))^{2}=x^{2}-x^{3}+x^{3} \\cdot \\varepsilon(x)= x^2-x^3 + o(x^3)$",

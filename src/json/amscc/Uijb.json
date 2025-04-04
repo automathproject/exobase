@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Interpolation polynomiale",
     "sousChapitre": "Interpolation polynomiale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:36.908Z",
+    "updatedAt": "2025-04-04T19:02:30.242Z",
     "resume": "Cet exercice porte sur la résolution numérique de l'équation $x = -\\ln(x)$. Il évalue la capacité à:\n\n1.  Démontrer l'existence et l'unicité d'une solution en utilisant le théorème des valeurs intermédiaires.\n2.  Analyser la convergence d'une méthode itérative basée sur $x_{k+1} = -\\ln(x_k)$ en étudiant les propriétés du point fixe et de sa dérivée.\n3.  Vérifier qu'une fonction $\\varphi(x) = e^{-x}$ admet $\\ell$ comme point fixe et que l'intervalle $[1/10, 1]$ est stable par $\\varphi$.\n4.  Démontrer la convergence d'une méthode itérative basée sur $x_{k+1} = e^{-x_k}$ et déterminer son ordre de convergence en utilisant le théorème de convergence globale du point fixe et l'étude de la dérivée de $\\varphi$.\n5.  Majorer le nombre d'itérations nécessaires pour atteindre une précision donnée en utilisant l'inégalité des accroissements finis.\n6.  Implémenter la méthode de Newton pour résoudre l'équation $h(x) = x - e^{-x} = 0$ en utilisant la formule itérative $x_{n+1} = x_n - \\frac{h(x_n)}{h'(x_n)}$.",
     "competences": [
       "démontrer l'existence et l'unicité d'une solution par le TVI",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "507a27cb-3bcf-495d-b310-1876b5ad9abe",
+      "id": "9e7465ec-eaee-4ca7-8074-9a6a84d1c06a",
       "type": "description",
       "value": {
         "latex": "On s'intéresse à l'équation :\n\\begin{equation}\n\tx = -\\ln(x)\n\\end{equation}\n\nd'inconnue $x \\in ]0;+\\infty[$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "c8e40405-d452-41fa-bde1-c91426e69baf",
+      "id": "1d66ac67-53b3-4c0a-9e5e-ae8d7fc12349",
       "type": "question",
       "value": {
         "latex": "Montrer que cette équation admet une unique solution $\\ell \\in \\left[\\frac{1}{10} ; 1\\right]$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "4473fb27-ee1e-439d-a6ba-718e5f5f0d43",
+      "id": "f431fff9-639a-48bc-8c22-7a5a9518f106",
       "type": "reponse",
       "value": {
         "latex": "On pose $h(x) = x+\\ln(x)$ : $h$ est continue et strictement croissante sur $]0;+\\infty[$, de plus $h(1/10) = 0.1-\\ln(10) <0$ et $h(1) = 1 >0$ donc d'après le théorème des valeurs intermédiaires, il existe un unique $\\ell \\in \\left[\\frac{1}{10} ; 1\\right]$ tel que $h(\\ell) = 0$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "f756c9da-1167-4ea8-9334-1baf1722dc01",
+      "id": "5b52fbeb-40bf-4208-bacd-b7c80567328d",
       "type": "reponse",
       "value": {
         "latex": "Cette méthode est définie par la suite définie par récurrence : $\\forall k \\in \\N$, $$x_{k+1} = \\varphi_1(x_k)$$ où $\\varphi_1 \\colon x \\mapsto -\\ln(x)$ et $x_0 = 0.5$. Si cette méthode converge, alors elle converge vers l'unique point fixe $\\ell$ de $\\varphi_1$. Or $\\ell \\in \\left[\\frac{1}{10} ; 1\\right]$ donc $-\\frac{1}{\\ell} \\in [-10;-1]$. Il est même clair que $\\ell \\neq 1$ donc $$\\phi_1'(\\ell) = -\\frac{1}{\\ell} \\in [-10;-1[$$ ce qui implique en particulier que $|\\varphi_1(\\ell)| >1$. On en conclut que $\\ell$ est un point fixe répulsif de $\\varphi_1$, par conséquent la méthode ne converge pas localement, elle ne converge donc pas.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "76507733-a079-4e92-b121-c91e5df0f5b0",
+      "id": "fdcd4457-c60f-4bcb-a44a-6a1923ca8dd8",
       "type": "question",
       "value": {
         "latex": "Soit la fonction $\\varphi \\colon x \\mapsto e^{-x}$ définie sur $\\R_+^*$. Vérifier que $\\ell$ est un point fixe de la fonction $\\varphi$ puis que $\\varphi\\left(\\left[\\frac{1}{10} ; 1\\right]\\right) \\subset \\left[\\frac{1}{10} ; 1\\right]$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "fcc27640-c0b1-4a2c-a167-b4551e91e14a",
+      "id": "c7b68c18-1add-47df-a7ab-1aea70dce7f7",
       "type": "reponse",
       "value": {
         "latex": "Il est clair que $\\varphi(\\ell)  = e^{-\\ell} = \\ell$. De plus, La fonction $\\varphi$ est continue et strictement décroissante sur $]0;+\\infty[$, de plus $\\varphi(1/10) = e^{-1/10} <1$ et $\\varphi(1) = e^{-1} > 1/10$ donc par théorème des valeurs intermédiaires, $\\varphi\\left(\\left[\\frac{1}{10} ; 1\\right]\\right) \\subset \\left[\\frac{1}{10} ; 1\\right]$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "cd02943e-1383-4d91-882b-70a7c4cece7f",
+      "id": "72ae1222-ebd6-47c6-8483-47521f44a13a",
       "type": "reponse",
       "value": {
         "latex": "On a $|\\varphi'| = \\varphi$ donc d'après ce qui précède, pour tout $x \\in \\left[\\frac{1}{10} ; 1\\right]$, $|\\varphi'(x)| \\leq |\\varphi'(1)| < 1$ donc d'après le théorème de convergence globale du point fixe, la méthode converge au moins d'ordre 1 avec $x_0 = 0.5 \\in \\left[\\frac{1}{10} ; 1\\right]$.\n\nLa convergence n'est pas d'ordre $2$ car $\\varphi'(\\ell) \\neq 0$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "da3824c6-71a9-4c54-b3ce-ab94a70aaab7",
+      "id": "7bec9632-8ddd-4ece-8643-d49cfe2304c2",
       "type": "question",
       "value": {
         "latex": "On souhaite approcher la solution $\\ell$ par la suite $(x_k)$ avec une précision donnée $\\varepsilon >0$, et donc arrêter les itérations lorsque cette précision est atteinte. \n\t\n\t\n\tEn se basant sur l'inégalité des accroissements finis, majorer le nombre d'itérations à réaliser.\n\t\n\t",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "f03a4315-cd5d-4ca5-b978-34e5dc2f0fc8",
+      "id": "41b8c38f-072f-44be-804c-5d81232f0f3c",
       "type": "reponse",
       "value": {
         "latex": "Pour appliquer la méthode de Newton à l'équation, on pose $h(x)=x-e^{-x}$ et ainsi $\\ell$ est l'unique solution à l'équation $h(x) = 0$. Comme $h^{\\prime}(x)=1+e^{-x} \\neq 0$ sur $] 0,+\\infty[$, la méthode de Newton pour l'équation $h(x)=0$ s'écrit\n\t$$\n\t\\left\\{\\begin{array}{l}\n\t\tx_0 \\in\\left[\\frac{1}{10}, 1\\right] \\text { donné } \\\\\n\t\tx_{n+1}=x_n-\\frac{h\\left(x_n\\right)}{h^{\\prime}\\left(x_n\\right)}, \\quad \\forall n \\geq 0,\n\t\\end{array}\\right.\n\t$$\n\tou encore\n\t$$\n\t\\left\\{\\begin{array}{l}\n\t\tx_0 \\in\\left[\\frac{1}{10}, 1\\right] \\text { donné, } \\\\\n\t\tx_{n+1}=x_n-\\frac{x_n-e^{-x_n}}{1+e^{-x_n}}, \\quad \\forall n \\geq 0 .\n\t\\end{array}\\right.\n\t$$\nIl faut donc écrire dans le programme \\texttt{x = x - (x - exp(-x)) / (1 + exp( -x))}",

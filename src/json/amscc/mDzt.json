@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:53.778Z",
+    "updatedAt": "2025-04-04T19:03:29.151Z",
     "resume": "L'exercice porte sur l'application du théorème central limite pour modéliser la différence de fréquences observées dans deux échantillons. Il s'agit de : \n\n*   Modéliser les proportions d'un échantillon par une variable aléatoire suivant une loi normale d'espérance $p$ et de variance $\\frac{p(1-p)}{n}$ en utilisant le théorème central limite.\n*   Déterminer la loi de la différence de deux variables aléatoires normales indépendantes.\n*   Calculer une probabilité à partir de la loi normale centrée réduite en utilisant une table ou un logiciel pour déterminer $\\PP\\left(\\frac{D}{\\sqrt{\\frac{2p(1-p)}{n}}} > 2.1\\right)$.",
     "competences": [
       "appliquer le théorème central limite à une situation concrète",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "f40ad22a-0eae-4c28-9858-cdb5f779278d",
+      "id": "0a1d300a-2112-4e5c-937e-b02ab56c6d7a",
       "type": "description",
       "value": {
         "latex": "Lors d'une  élection, un  candidat a obtenu 65\\% des voix. On considère deux échantillons de \n\tvotants.  Déterminer  la  probabilité  pour  que  deux  échantillons  de  200  votants  chacun \tindiquent  plus  de  10 points  de  différence  entre  les  fréquences  de  gens  qui  ont  voté  pour  ce \tcandidat.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "48c8807f-ba0d-47ed-aeea-0f3c1e6d2fcc",
+      "id": "a256c6d4-b32b-4feb-b8e3-eef768eb6ff5",
       "type": "reponse",
       "value": {
         "latex": "On note respectivement $F_1$ et $F_2$ la proportion de votants pour ce candidat dans chaque échantillon de taille 200. En notant $(X_1,...,X_n)$ le premier échantillon, on sait que $n=200$ et que chaque $X_i$ suit une loi de Bernoulli $\\mathcal{B}(p)$ où $p = 0{,}65$. Ainsi, d'après le Théorème Central Limite, $F_1 = \\frac{1}{n} \\sum_{i=1}^n X_i$ suit approximativement une loi normale de moyenne $p$ et de variance $\\frac{p(1-p)}{n}$. Il est clair que $F_2$ suit la même loi de probabilité que $F_1$. \n\t\n\tAinsi, on peut s'intéresser à la différence des résultats pour chaque échantillon $D=F_1-F_2$. Par somme de lois normales, cette variable $D$ suit une loi normale centrée (moyenne $p-p=0$) de variance $\\frac{p(1-p)}{n}+\\frac{p(1-p)}{n} = \\frac{2p(1-p)}{n}$.\n\t\n\tIl reste donc à calculer $\\prob(|D|>0.10) = 2 \\times \\prob(D>0.10) = \\PP\\left(\\frac{D}{\\sqrt{\\frac{2p(1-p)}{n}}} > 2.1\\right) = 2 \\times 0.00179 = 0.036$",

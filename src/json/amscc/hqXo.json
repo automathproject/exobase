@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Dérivabilité des fonctions réelles",
     "sousChapitre": "Calculs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:38.716Z",
+    "updatedAt": "2025-04-04T19:03:15.181Z",
     "resume": "L'exercice porte sur l'étude de la différentiabilité d'une fonction $f(x,y)$ définie par morceaux. Il évalue les compétences suivantes:\n\n*   **Continuité:** Démontrer la continuité d'une fonction en utilisant le passage en coordonnées polaires pour lever l'indétermination en (0,0). Utilisation de la majoration $|f(r cos θ, r sin θ) - f(0,0)| ≤ r$.\n\n*   **Calcul de dérivées partielles:** Calculer les dérivées partielles $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$ pour $(x, y) \\neq (0, 0)$.\n\n*   **Classe $C^1$:** Déterminer si $f$ est de classe $C^1$ en vérifiant l'existence et la continuité des dérivées partielles, en particulier en $(0, 0)$, en utilisant à nouveau le passage en coordonnées polaires.\n\n*   **Différentiabilité:** Conclure sur la différentiabilité de $f$ en utilisant le théorème qui relie classe $C^1$ et différentiabilité.",
     "competences": [
       "étudier la continuité d'une fonction à deux variables",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "7ef14f8d-63a9-4234-992c-a21cb0a9f413",
+      "id": "59c515b8-ba75-4915-b31d-170d0a88f2bd",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle continue sur $\\R^2$~?",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "7a75ba70-a431-4217-8a58-747c3d427f62",
+      "id": "26cd1721-54f1-47b2-9033-a8e546825559",
       "type": "reponse",
       "value": {
         "latex": "Tout d'abord, on remarque que $f$ est bien définie sur $\\R^2$. Elle est continue (et même $C^{\\infty}$ sur $\\R^2-\\{(0,0)\\}$ en tant que fraction rationnelle. Pour étudier la continuité en $(0,0)$, on passe en coordonnées polaires~:\n\t\t$$\\begin{align*}\n\t\tf(r\\cos\\theta, r\\sin\\theta) - f(0,0) &= \\frac{(r\\cos\\theta)^2(r\\sin\\theta)^3}{ (r\\cos\\theta)^2 + (r\\sin\\theta)^2 } \\\\\n\t\t&= r\\cos^2\\theta \\sin^3\\theta\n\t\t\\end{align*}$$\n\t\tIl suit\n\t\t$$\\begin{align*}\n\t\t|f(r\\cos\\theta, r\\sin\\theta) - f(0,0)| &\\leq r \\\\\n\t\t& \\tvq{0}{r}{0+} \\text{ indépendamment de $\\theta$} \n\t\t\\end{align*}$$\n\t\tAinsi $f$ est continue en $(0,0)$, et finalement \\fbox{$f$ est continue sur $\\R^2$}",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "1ad83ad8-e4c2-42d2-bc33-1544a5b65cd4",
+      "id": "ec8f3b81-dd27-436c-b369-11de985fd2bf",
       "type": "question",
       "value": {
         "latex": "Calculer $\\overrightarrow{\\textup{grad}}\\ f (x,y)$ pour $(x,y) \\neq (0,0)$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "1c679579-8c81-4586-af1e-406baad0ea65",
+      "id": "dac0601b-af18-4d16-a890-f0176a3abb9d",
       "type": "reponse",
       "value": {
         "latex": "pour $(x,y) \\neq (0,0)$\n\t\t$$\\begin{align*}\n\t\t\\overrightarrow{\\textup{grad}}\\ f(x,y) &= \\left[ \\begin{array}{c}\n\t\t\\dpa{}{x}\\left[ \\dfrac{x^2 y^3}{x^2+y^2}\\right]  \\\\ \\dpa{}{y}\\left[ \\dfrac{x^2 y^3}{x^2+y^2}\\right] \n\t\t\\end{array} \\right] \\\\\n\t\t&= \\left[ \\begin{array}{c}\n\t\t\\dfrac{(2xy^3)(x^2+y^2) -(x^2 y^3)(2x)}{(x^2+y^2)^2}  \\\\ \\dfrac{(3x^2y^2)(x^2+y^2) -(x^2 y^3)(2y)}{(x^2+y^2)^2}\n\t\t\\end{array} \\right] \\\\\n\t\t&= \\frac{1}{(x^2+y^2)^2}\\left[ \\begin{array}{c} 2xy^5 \\\\ x^4y^2 + x^2y^4 \\end{array} \\right]\n\t\t\n\t\t\\end{align*}$$",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "9a8e6f99-8be6-4484-982d-28d37b1f8fab",
+      "id": "b836c5f6-4799-4157-bdde-64a7483e106e",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle de  classe $C^1$ sur $\\R^2$~?",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "2041f763-3063-4443-92f6-dc812b2d118a",
+      "id": "a4f5873b-0611-4c3d-a1f4-9da1439ee655",
       "type": "reponse",
       "value": {
         "latex": "Nous avons\n\t\t\\begin{itemize}\n\t\t\t\\item existence des dérivées partielles\\\\\n\t\t\t\\[\\dfrac{f(h,0) - f(0,0)}{h} = 0 \\xrightarrow[h \\to 0]{} 0\\hspace*{5mm} \\text{ donc $\\dpa{f}{x}(0,0)$ existe et vaut $0$} \\]\n\t\t\t\\[\\dfrac{f(0,h) - f(0,0)}{h} = 0 \\xrightarrow[h \\to 0]{} 0 \\hspace*{5mm} \\text{ donc $\\dpa{f}{y}(0,0)$ existe et vaut $0$} \\]\n\t\t\t\\item continuité des dérivées partielles\n\t\t\t$$\\begin{align*}\n\t\t\t\\dpa{f}{x}(x,y) - \\dpa{f}{x}(0,0) &= \\frac{2xy^5}{(x^2+y^2)^2} \\\\\n\t\t\t& \\text{ (passage en polaires)} \\\\\n\t\t\t&= 2r^2 \\cos\\theta \\sin^5\\theta\n\t\t\t\\end{align*}$$\n\t\t\tDonc\n\t\t\t\\[\\left| \\dpa{f}{x}(x,y) - \\dpa{f}{x}(0,0) \\right| \\leq 2r^2 \\tvq{0}{r}{0+} \\text{ indépendamment de $\\theta$} \\]\n\t\t\tDe manière analogue,\n\t\t\t$$\\begin{align*}\n\t\t\t\\dpa{f}{y}(x,y) - \\dpa{f}{y}(0,0) &= \\frac{x^4y^2 + x^2y^4}{(x^2+y^2)^2} \\\\\n\t\t\t& \\text{ (passage en polaires)} \\\\\n\t\t\t&= r^2 \\cos^2\\theta \\sin^2\\theta\n\t\t\t\\end{align*}$$\n\t\t\tDonc\n\t\t\t\\[ \\left| \\dpa{f}{y}(x,y) - \\dpa{f}{y}(0,0) \\right| \\leq r^2  \\tvq{0}{r}{0+} \\text{ indépendamment de $\\theta$} \\]\n\t\t\\end{itemize}\n\t\tOn conclut que $f$ est $C^1$ en $(0,0)$. Par ailleurs, $f$ est $C^1$ sur $\\R^2-\\{(0,0)\\}$. Au final \\fbox{$f$ est $C^1$ sur $\\R^2$}",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "3cf468a5-8c7a-4ff3-b2e6-b7e2c9255536",
+      "id": "4c364b3c-2d11-4c9a-842a-49c8ed9be0d2",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle différentiable sur $\\R^2$~?",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "c7dbb686-e0a3-4021-8f8a-72b85a1b712e",
+      "id": "730bebca-72e3-48be-9fa8-756e4c476e1a",
       "type": "reponse",
       "value": {
         "latex": "\\fbox{$f$ est différentiable sur $\\R^2$} car elle est $C^1$. C'est l'application du théorème 2.9 du poly.",

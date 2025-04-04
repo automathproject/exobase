@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-11-02",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:04.942Z",
+    "updatedAt": "2025-04-04T19:02:47.093Z",
     "resume": "Cet exercice porte sur la loi normale et sa fonction caractéristique. Il évalue les compétences suivantes : \n\n*   Détermination de la loi de $X = \\sigma Z + \\mu$ où $Z$ suit une loi normale centrée réduite, et calcul de sa fonction caractéristique. \n*   Calcul de la fonction caractéristique d'une somme de variables aléatoires indépendantes et identiquement distribuées suivant une loi normale, et identification de la loi de cette somme. \n*   Calcul d'une probabilité impliquant une variable aléatoire suivant une loi normale (calcul de $\\prob(S>450)$).",
     "competences": [
       "déterminer la loi d'une transformation affine d'une variable aléatoire normale",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "c54262c9-0ee4-4bd3-8151-c38f7793baa0",
+      "id": "2cd51abe-4d39-43db-8cd4-af79777f4dd9",
       "type": "description",
       "value": {
         "latex": "Soit $Z$ une variable aléatoire suivant une loi normale centrée réduite. On rappelle que la fonction caractéristique de $Z$ est définie pour tout réel $t$ par :\n$$\\phi_Z(t)=\\E(e^{itZ})=e^{-\\frac{t^2}{2}}.$$",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "125d5ecc-5064-4320-8b1d-817586a33755",
+      "id": "6b1666d8-fe53-4ea6-9a3b-2f1272f8bf6b",
       "type": "question",
       "value": {
         "latex": "Soit $\\mu$ un réel et $\\sigma$ un réel strictement positif. Sans justifier, donner la loi de $X=\\sigma Z+\\mu$, puis calculer la fonction caractéristique de $X$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "bf0f198d-b94e-49b7-aaf8-55fc325e696f",
+      "id": "8083bb5b-7f3a-4770-bb9c-3e1e5640c95e",
       "type": "description",
       "value": {
         "latex": "Soit $(X_1,\\dots{},X_5)$ une suite de 5 variables aléatoires indépendantes et équidistribuées selon une loi normale de moyenne $\\mu=70$ et d’écart type $\\sigma=15$. Soit $S=\\displaystyle\\sum_{i=1}^{5}X_i$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "84f39565-bb2e-4527-a2c7-4994af0c1033",
+      "id": "31044c34-c059-4592-b58a-8b418d4dedc4",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction caractéristique de $S$ et en déduire la loi de $S$.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "36edf158-3db7-49d8-b45b-96466a0a57b1",
+      "id": "f29127ef-518b-43b5-812b-c5d7b1c27bfc",
       "type": "question",
       "value": {
         "latex": "Calculer la valeur de $\\prob(S>450)$ à $10^{-2}$ près.",

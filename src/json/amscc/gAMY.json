@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-31",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Matrice",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:36.607Z",
+    "updatedAt": "2025-04-04T19:03:13.536Z",
     "resume": "Cet exercice porte sur le calcul matriciel et vise à évaluer les compétences suivantes:\\n\\n*   Calcul du déterminant d'une matrice 3x3 paramétrée et identification d'un polynôme $P(\\alpha)$ tel que $\\det(M_{\\alpha,\\beta})=P(\\alpha)$.\\n*   Vérification qu'une valeur donnée est une racine d'un polynôme.\\n*   Détermination de l'ensemble des paramètres $\\\\alpha$ et $\\\\beta$ pour lesquels une matrice est non inversible (i.e. déterminant nul).\\n*   Décomposition d'une matrice en fonction d'une autre matrice et de la matrice identité.\\n*   Calcul de puissances d'une matrice et démonstration d'une relation polynomiale $(M_{1,\\\\beta})^{3}=3(M_{1,\\\\beta})^{2}$.",
     "competences": [
       "calculer un déterminant de matrice 3x3",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "4adafb59-f939-4fed-9ba4-c5c669069bdb",
+      "id": "a72bfcf0-5fa2-41a8-9b70-99c02bc98e53",
       "type": "description",
       "value": {
         "latex": "Soit la matrice de  $M_{\\alpha,\\beta} = \\begin{pmatrix} \\alpha & 0 & -1  \\\\\n    2 & \\alpha & \\beta\\\\\n    -3-\\beta & -1 & \\alpha \\\\\n    \\end{pmatrix} \\in \\mathcal{M}_{3}(\\R)$.",

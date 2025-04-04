@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Calcul de la somme d'une série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:12.570Z",
+    "updatedAt": "2025-04-04T19:02:54.640Z",
     "resume": "Cet exercice porte sur les séries entières. Il évalue la capacité à:\n1. Déterminer le domaine de convergence d'une série entière complexe de la forme $\\sum_{n\\geq 0} a_n z^n$ où $a_n = \\frac{(n+2)2^n}{(n+1)!}$.\n2. Utiliser le développement en série de l'exponentielle, $\\sum_{n=0}^{+\\infty} \\frac{z^n}{n!} = e^z$, pour calculer d'autres sommes de séries, notamment $\\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}$ et $\\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n$.",
     "competences": [
       "calculer la somme d'une série entière",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "5b25dd2f-fb5c-40b2-8fb9-06edcf6cc5ff",
+      "id": "54e28f35-d385-4153-8611-7019ad5b5b30",
       "type": "question",
       "value": {
         "latex": "Déterminer le domaine de convergence de la série entière $\\displaystyle \\sum_{n\\geq 0} \\frac{(n+2)2^n}{(n+1)!} z^n$ à variable complexe.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "4fece26e-2827-4123-8c21-ca3675f7bdb5",
+      "id": "91c2f4aa-9059-47d8-88f9-ea81665dcc5a",
       "type": "reponse",
       "value": {
         "latex": "$R=+\\infty$ et $D=\\mathbb{C}$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "7fea0037-621a-4ac3-aa83-a563781c0fe9",
+      "id": "f2e10e63-f28e-4a45-99d6-5f77c706e9ea",
       "type": "question",
       "value": {
         "latex": "Rappeler ce que vaut $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}$. En déduire $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}$, puis $\\displaystyle \\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "9772d652-df85-4d0f-99de-165cec8ef4e8",
+      "id": "f7b25f92-470b-47bf-a3ea-29163bc27766",
       "type": "reponse",
       "value": {
         "latex": "$$\\forall z \\in \\R, \\quad \\sum_{n=0}^{+\\infty} \\frac{z^n}{n!}=e^z.$$\n\t\tPour la première somme:\n\t\t$$ \\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty} \\frac{z^n}{(n+1)!}\n\t\t= \\begin{cases} \\frac{e^z-1}{z} & \\text{ si } z \\neq 0 \\\\\n\t\t0 & \\text{ sinon }\n\t\t\\end{cases}\n\t\t$$\n\t\tPour la deuxième somme:\n\t\t$$ \\forall z \\in \\R, \\qquad \\sum_{n=0}^{+\\infty} \\frac{(n+2)2^n}{(n+1)!}z^n\n\t\t= \\begin{cases} \\frac{e^{2z}-1}{2z}+e^{2z} & \\text{ si } z \\neq 0 \\\\\n\t\t0 & \\text{ sinon }\n\t\t\\end{cases}\n\t\t$$",

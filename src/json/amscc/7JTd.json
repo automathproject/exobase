@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:32.881Z",
+    "updatedAt": "2025-04-04T19:01:45.882Z",
     "resume": "L'exercice demande de démontrer que si $X$ est une variable aléatoire de fonction de répartition $F$ continue et strictement croissante sur $\\mathbb{R}$, alors $Y = F(X)$ suit une loi uniforme sur $[0, 1]$. La résolution passe par le calcul de la fonction de répartition $F_Y(t)$ de $Y$ et sa comparaison avec la fonction de répartition de la loi uniforme sur $[0,1]$. Les compétences mises en œuvre sont : manipulation de fonctions de répartition, propriétés des fonctions croissantes et continues, calcul de probabilités et reconnaissance de la loi uniforme.",
     "competences": [
       "démontrer qu'une variable aléatoire suit une loi uniforme",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "1e5c75c4-65a1-4bfd-89be-aea42916d03e",
+      "id": "453dbb3a-fadf-4cc9-abe9-1764148bafcf",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire et soit $F$ sa fonction de répartition. On suppose que $F$ est continue et strictement croissante sur $\\mathbb{R}$. Soit la variable aléatoire $Y=F(X)$.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "e88e62c7-2b7b-41bc-b9ee-a4cf1b94037e",
+      "id": "5d23b040-3945-4aff-919c-9a4c2edd1812",
       "type": "question",
       "value": {
         "latex": "Démontrer que $Y$ suit une loi uniforme sur $[0;1]$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "c6473e22-1652-4a07-9f36-724514505bb6",
+      "id": "d6302a07-d952-49b8-bb70-98fc454885ab",
       "type": "reponse",
       "value": {
         "latex": "On cherche la fonction de répartition de la variable aléatoire $Y$. Soit $t\\in\\mathbb{R}$. Par définition :\n\t\\[ F_Y(t)=\\mathbb{P}(Y\\leq t)\n\t=\\mathbb{P}(F(X)\\leq t).\n\t\\]\n\tOr la fonction de répartition $F$ prend ses valeurs dans $[0;1]$. On en déduit\n\t$$\\begin{align*}\n\t\tF_Y(t)=\\begin{cases}\n\t\t\t0 & \\text{ si } t< 0 \\\\\n\t\t\t1 & \\text{ si } t\\geq 1\n\t\t\\end{cases}\n\t\\end{align*}$$\n\tSoit $t\\in[0;1[$. Comme la fonction de répartition $F$ est croissante et supposée continue sur $\\mathbb{R}$, il existe au moins un réel $t_0$ tel que $F(t_0)=t$. Alors on a\n\t$$\\begin{align*}\n\t\tF_Y(t)&=\\mathbb{P}(F(X)\\leq t) \\\\\n\t\t&=\\mathbb{P}(F(X)\\leq F(t_0)) \\\\\n\t\t&=\\mathbb{P}(X\\leq t_0) \\quad \\text{ car $F$ est croissante sur $\\mathbb{R}$} \\\\\n\t\t&=F(t_0) \\\\\n\t\t&=t.\n\t\\end{align*}$$\n\tOn a ainsi obtenu \n\t$$\\begin{align*}\n\t\tF_Y(t)=\\begin{cases}\n\t\t\t0 & \\text{ si } t< 0 \\\\\n\t\t\tt & \\text{ si } t\\in[0;1[ \\\\\n\t\t\t1 & \\text{ si } t\\geq 1\n\t\t\\end{cases}\n\t\\end{align*}$$\n\tqui correspond à la fonction de répartition de la loi uniforme sur $[0;1]$. Donc $Y\\sim \\mathcal{U}([0;1])$.",

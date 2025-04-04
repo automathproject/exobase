@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-07-10",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:37.111Z",
+    "updatedAt": "2025-04-04T19:01:49.948Z",
     "resume": "L'exercice porte sur l'étude des extremums d'une fonction $f(x,y) = x^3 + y^3 - 3xy$ définie sur un domaine $\\mathcal{D} = \\{(x,y) \\in \\mathbb{R}^2 \\, , \\max(|x|,|y|) \\leq 2\\}$.\\n\\nIl s'agit de:\\n\\n1.  Identifier graphiquement le domaine $\\mathcal{D}$.\\n2.  Déterminer si $\\mathcal{D}$ est ouvert ou fermé.\\n3.  Calculer et vérifier les points critiques de $f$ dans l'intérieur de $\\mathcal{D}$ en résolvant le système $\\nabla f(x,y) = (0,0)$.\\n4.  Déterminer si $f$ admet un extremum local dans l'intérieur de $\\mathcal{D}$ en utilisant la matrice Hessienne.\\n5.  Justifier l'existence d'un maximum global et le calculer en étudiant le comportement de la fonction sur la frontière de $\\mathcal{D}$ et en comparant avec les valeurs aux points critiques.",
     "competences": [
       "calculer les dérivées partielles premières et secondes",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "b4aafbe3-036f-4ca3-b1cf-79b7c8e02b5e",
+      "id": "49802971-1aba-42db-a2f6-dc2f07c2f8cc",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $f$ définie sur $\\mathcal{D} \\subset \\R^2$ par \n$$f(x,y) = x^3 + y^3 - 3xy$$\noù $\\mathcal{D} = \\{ (x,y) \\in \\R^2 \\, , \\max(|x|,|y|) \\leq 2\\}$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "aa4f9a2f-6e8e-4d34-9658-a396c8bedbdb",
+      "id": "077b03f9-5d8e-4168-badd-b36cf0b55803",
       "type": "question",
       "value": {
         "latex": "Parmi les trois domaines représentés graphiquement ci-dessus, lequel est susceptible de représenter $\\mathcal{D}$ ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "77dd3100-dfa8-40a6-b78c-5c03ae81be5f",
+      "id": "c0fc389f-a38a-48d3-a0c8-9e9443577f2b",
       "type": "question",
       "value": {
         "latex": "L'ensemble $\\mathcal{D}$ est-il ouvert dans $\\R^2$ ? fermé dans $\\R^2$ ? Justifier très brièvement.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "a7a2ea24-8297-461f-b48f-6a5b7c499f89",
+      "id": "7f9aa5d0-3070-4867-bfc5-4f0d2ec868e6",
       "type": "question",
       "value": {
         "latex": "Vérifier que $(0,0)$ et $(1,1)$ sont les deux seuls points critiques de $f$ dans l'intérieur du domaine  $\\mathcal{D}$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "baa9352b-b52c-4939-87aa-d035411c061f",
+      "id": "75b20439-a125-4518-ad9f-75eaa87205b4",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle un extremum local sur l'intérieur de $\\mathcal{D}$ ?",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "7769a0a8-5b30-429c-bd01-ed071dee4174",
+      "id": "057e6b89-50cf-4b42-ae9c-35c99fd4f713",
       "type": "question",
       "value": {
         "latex": "Justifier que $f$ admet un maximum global sur $\\mathcal{D}$ et le calculer.",

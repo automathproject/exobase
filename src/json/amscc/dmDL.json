@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-11",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Continuité, limite et étude de fonctions réelles",
     "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:18.493Z",
+    "updatedAt": "2025-04-04T19:02:59.737Z",
     "resume": "Cet exercice évalue la compréhension et l'application de la notion d'équivalence de fonctions au voisinage d'un point (fini ou infini). Il requiert de vérifier si des affirmations du type $f(x) \\underset{x\\to a}{\\sim} g(x)$ sont vraies, en justifiant par la définition de l'équivalence, c'est-à-dire en vérifiant si $\\lim_{x \\to a} \\frac{f(x)}{g(x)} = 1$. L'exercice couvre des fonctions polynomiales, logarithmiques, exponentielles et rationnelles.",
     "competences": [
       "appliquer la définition d'équivalence de fonctions",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "b78d190f-5d92-41ac-b84f-2d7a6dbbb941",
+      "id": "ecabd325-41c6-423c-9fd4-c87d0b6ef0aa",
       "type": "description",
       "value": {
         "latex": "Quels sont les équivalents corrects parmi les propositions suivantes ? Justifier (en revenant à la définition si nécessaire).",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "91f0803c-a173-43b5-9edf-1b08941cbc4c",
+      "id": "bd9d3a0a-5497-4b4b-a144-5b523b3f3335",
       "type": "question",
       "value": {
         "latex": "$x+1 \\underset{x\\to+\\infty}\\sim x$",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "c3f742d2-f01a-46e9-9e36-49becdaa1ecb",
+      "id": "8ef3dcdd-922a-4c28-b9a0-0722c82c2c59",
       "type": "question",
       "value": {
         "latex": "$x^2-x \\underset{x\\to+\\infty}\\sim x$",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "ad7e3061-f9b6-4dda-803f-f0b8bd654f41",
+      "id": "dc738f36-49b0-4b0b-8b8f-7a9cacf341c1",
       "type": "question",
       "value": {
         "latex": "$ \\ln(x) \\underset{x\\to+\\infty}\\sim \\ln(10^6x)$",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "c3b12d4d-2028-4d13-a152-818e69481f3c",
+      "id": "e8b1cb25-e796-4c8a-a0db-2f35686fae17",
       "type": "question",
       "value": {
         "latex": "$x^2+2x+1 \\underset{x\\to+\\infty}\\sim x^2+2x$",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "c13aceab-224f-4cfd-9668-6106cbf2558d",
+      "id": "89192f29-0abc-46ad-b447-4c152ade5365",
       "type": "question",
       "value": {
         "latex": "$\\sqrt{x+1} \\underset{x\\to 0}\\sim 1$",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "ccb8358a-b253-46a7-91ce-e5eec6763dea",
+      "id": "4e4e2fa7-9559-441d-9cfd-39630a71b62a",
       "type": "question",
       "value": {
         "latex": "$ x \\underset{x\\to 0}\\sim 2x$",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "19c6b709-5bd3-47d8-bbe5-f48b1931fa42",
+      "id": "2711435b-2b99-43b7-b68f-e4a7f0f1c8ff",
       "type": "question",
       "value": {
         "latex": "$e^x \\underset{x\\to+\\infty}\\sim e^{x+10^6}$",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "f9709403-26de-42ce-aa42-40909cb3422a",
+      "id": "c6144c81-f4cc-44b4-b476-784d2a296f0f",
       "type": "question",
       "value": {
         "latex": "$e^x \\underset{x\\to 0}\\sim e^{2x}$",
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "b7395c62-0689-4a39-bb79-6fb585ce498b",
+      "id": "9097b35d-8cda-493f-8293-58904959bf2b",
       "type": "question",
       "value": {
         "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\to+\\infty}\\sim 3x^2$",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "cbba9de2-3041-4b00-8c57-5e6092a141a3",
+      "id": "dd63fcb6-165d-4ad6-9344-72a46c4020e3",
       "type": "question",
       "value": {
         "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\to 0}\\sim 2x$",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Jean-François Culus",
     "createdAt": "2024-10-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction convexe",
     "sousChapitre": "Multiplicateurs de Lagrange",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:23.858Z",
+    "updatedAt": "2025-04-04T19:02:21.492Z",
     "resume": "L'exercice porte sur l'optimisation d'une fonction $f(x,y) = xy$ sous la contrainte $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, où $a$ et $b$ sont des réels strictement positifs. Il s'agit d'appliquer la méthode des multiplicateurs de Lagrange pour trouver le maximum de $f$ sur l'ellipse définie par la contrainte. Les compétences mises en œuvre incluent :\n\n*   Calcul des gradients de $f$ et de la fonction définissant la contrainte.\n*   Application de la condition de colinéarité des gradients pour établir un système d'équations.\n*   Résolution du système d'équations pour trouver les points candidats à l'optimum.\n*   Évaluation de $f$ en ces points pour identifier le maximum.",
     "competences": [
       "appliquer la méthode des multiplicateurs de Lagrange",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "22bc1868-3a47-4412-a612-1c7dc472cf24",
+      "id": "ca69ce87-7584-42bb-a107-58d3ca19ce0d",
       "type": "question",
       "value": {
         "latex": "Soient $a$ et $b$ deux réels strictement positifs. \nEn réutilisant la méthode précédente, déterminer le maximum de la fonction \n$f: (x,y)\\mapsto xy$ sous la contrainte $\\Gamma$: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "90ff3081-e0db-4546-ae77-cb9568970dc1",
+      "id": "37b33431-cda4-4238-8af5-6aba5a77ee5e",
       "type": "reponse",
       "value": {
         "latex": "Nous reconnaissons dans la contrainte $\\Gamma$ une ellipse: ainsi est-ce un compact de $\\mathbb{R}^2$. Aussi, puisque la fonction $f$ est continue sur $\\mathbb{R}^2$, elle y est bornée et atteint ses bornes. \n\nEn reprenant l’idée de l’exercice précédent, les vecteurs gradients de $f$ et $g$ en un extremum $(x_0;y_0)$ doivent être colinéaires. \nAussi, nous avons:\n\n$$ \\nabla f(x_0;y_0)= (y_0;x_0)~~\\text{ et } ~~\n\\nabla g(x_0;y_0) = \\left( \\frac{2x_0}{a^2}; \\frac{2y_0}{b^2}\\right) $$ \n\nLa condition de colinéarité implique alors : \n$$ \\begin{vmatrix} y_0 & 2x_0/a^2 \\\\ x_0 & 2y_0/b^2\\end{vmatrix} =0$$ \nce qui conduit au système suivant: \n\n$$\n\\begin{cases}\ny_0^2/b^2 - x_0^2/a^2 &=0 \\\\ \nx_0^2/a^2 + y_0^2/b^2 &=1 \\end{cases}$$ \n\nAprès résolutions, nous obtenons les solutions suivantes:\n$\\left( \\pm \\frac{a}{\\sqrt{2}}; \\pm \\frac{b}{\\sqrt{2}} \\right)$.\n\nEn calculant la valeur de $f$ en chacun de ces points, on obtient la valeur maximale recherchée: $\\frac{ab}{2}$.",

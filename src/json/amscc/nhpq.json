@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-11-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:37.685Z",
+    "updatedAt": "2025-04-04T19:04:20.348Z",
     "resume": "Cet exercice porte sur l'estimation d'une proportion à partir d'un échantillon. Il évalue la capacité à:\n\n*   Identifier et appliquer l'estimateur de fréquence empirique $F = \\frac{1}{n}\\sum_{i=1}^{n} X_i$ où $X_i \\sim \\mathcal{B}(p)$, et à déterminer son absence de biais.\n*   Calculer un intervalle de confiance pour une proportion donnée, en utilisant la formule $I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$ et interpréter les résultats pour différents niveaux de confiance.\n*   Déterminer la taille d'échantillon nécessaire pour atteindre une précision souhaitée de l'estimation, en utilisant une approximation simplifiée de l'intervalle de confiance et en manipulant l'inégalité $u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} \\leq 0.01$ pour résoudre en $n$.",
     "competences": [
       "calculer un intervalle de confiance pour une proportion",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "cfc793c5-9a9f-4946-b7d4-809bdfc8cd6f",
+      "id": "0299f361-1303-419a-a429-75ce08585ae2",
       "type": "description",
       "value": {
         "latex": "Dans une base militaire, un nouveau type de radio est en cours de test pour évaluer sa fiabilité en conditions opérationnelles. Un échantillon de 150 radios a été testé durant un exercice, et il a été constaté que 135 de ces radios ont fonctionné sans défaillance tout au long de l'exercice.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "66fa4595-d828-4a00-aa62-c25ad9379cba",
+      "id": "b76c6d7c-0f06-4a53-b36d-a81831ae600d",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de la proportion de ces nouvelles radios fonctionnant sans défaillance, en précisant l'estimateur utilisé et son biais.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "a947a79b-bf11-4e5b-81b3-e9803a935a2a",
+      "id": "0ca4d5aa-5513-4e08-869c-4e0c43ab0414",
       "type": "reponse",
       "value": {
         "latex": "On utilise l'estimateur de fréquence empirique $F = \\frac{1}{150}\\sum_{i=1}^{150} X_i$ avec $X_i \\sim \\mathcal{B}(p)$, sans biais pour estimer la proportion $p$ de radios sans défaillance : sa réalisation ici est $p_{obs} = \\frac{130}{150} = 0{,}90$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "bf68c9bf-f759-486d-ac58-09fabeeb905a",
+      "id": "8ce4306e-9c54-4535-aedd-42eed899520d",
       "type": "question",
       "value": {
         "latex": "Donner cette estimation à l'aide d'un intervalle de confiance à 90\\%, 95\\% et 99\\%.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "420a5977-cef1-4d57-9801-212ad5e3fe3a",
+      "id": "f2d2c055-1cc4-492a-9acd-d856b05c0a55",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule du cours : \n\t\t$$I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$$\n\tavec $\\alpha = 0.1$ : $I_{conf} = [0,859709479 ; 0,940290521]$\n\t\n\t\tavec $\\alpha = 0.05$ : $I_{conf} = [0,851990883 ; 0,948009117]$\n\t\t\n\t\tavec $\\alpha = 0.01$ : $I_{conf} = [0,836905325 ; 0,963094675]$",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "312d2484-c839-4091-b866-9deb41b13587",
+      "id": "fd733b10-af73-4e71-9d4a-58f8754ce401",
       "type": "question",
       "value": {
         "latex": "Quelle taille d'échantillon devrait-on choisir pour que l'amplitude de l'intervalle de confiance ne dépasse pas $0.01$ avec une erreur de première espèce de $5\\%$ ?",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "d0d56b22-0662-4d84-892f-b54c66a63fb1",
+      "id": "f727db2a-5706-456f-8ed8-ed2e4d1d4b91",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule simplifiée du cours : \n\t\t$$I_{conf}(F(\\omega))=\\left[ f_{obs}-u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} ~;~ f_{obs} + u_{\\alpha/2} \\frac{1}{2 \\sqrt{n}} \\right]$$\n\tet on cherche $n$ tel que $u_{\\alpha/2} \\frac{1}{\\sqrt{n}} \\leq 0.01 \\iff \\sqrt{n} \\geq \\frac{1.96}{0.01}$ soit $n \\geq 38415$.",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:09.685Z",
+    "updatedAt": "2025-04-04T19:04:59.325Z",
     "resume": "L'exercice porte sur l'identification de lois de probabilités discrètes usuelles et le calcul de leur espérance. Il s'agit de reconnaître des situations modélisables par une loi binomiale de paramètres $(n, p)$ ou une loi géométrique de paramètre $p$. Pour la loi binomiale, on utilise la formule de l'espérance $\\E(X) = n \\times p$. Pour la loi géométrique, on utilise la formule $\\E(X) = \\frac{1}{p}$.",
     "competences": [
       "identifier une loi de probabilité discrète",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "cee3ffb0-2bf4-49dc-ac14-7e490b5dbab5",
+      "id": "2b2a064f-d232-4f88-bd8e-11ae86a2046c",
       "type": "description",
       "value": {
         "latex": "Pour chacune des situations suivantes, déterminer la loi de la variable aléatoire $X$ et donner son espérance.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "8373e423-e7a3-46d4-a45d-a3109347e04d",
+      "id": "dbfd51f9-561c-4fc5-b73a-7603024e91ae",
       "type": "question",
       "value": {
         "latex": "On lance un dé équilibré 100 fois de suite et on note $X$ le nombre d'apparitions du chiffre \\og 2 \\fg{}.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "b206dcf5-5dd9-4414-b706-ddeecd67a9e9",
+      "id": "4b40dabb-f44f-4d9a-ac87-f3b39e73dab7",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=100$ et $p=\\frac{1}{6}$. Son espérance est $\\E(X)=n\\times p = \\frac{50}{3}$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "5d6ace87-b4cc-454a-be54-3960b9bf9e68",
+      "id": "69d00c06-648d-4b17-bf0e-abc00b47bd0d",
       "type": "description",
       "value": {
         "latex": "Deux personnes lancent chacune une pièce équilibrée. On dit que l'expérience est un succès si elles obtiennent toutes les deux \\og face \\fg{}.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "37a9668d-0424-4dbe-869f-8c93d2ec4293",
+      "id": "6ca1dabf-e5e4-40f8-be69-84b128e2b838",
       "type": "question",
       "value": {
         "latex": "Ces personnes répètent l'expérience 8 fois. On note $X$ le nombre de succès.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "6470e277-22f4-4b6e-9274-c2c161ff0d8e",
+      "id": "9a5cc3e1-b1cf-4d62-9561-52d54d7f7b96",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=8$ et $p=\\frac{1}{4}$. Son espérance est $\\E(X)=n\\times p = 2$.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "49a2754d-331d-4324-af7a-ae74baccde6c",
+      "id": "cecf89af-5610-45b4-87ff-efce799c9c11",
       "type": "question",
       "value": {
         "latex": "Ces personnes répètent l'expérience jusqu'à ce qu'elles obtiennent un succès. On note $X$ le nombre de lancers.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "551ccefc-3ec8-4878-8c1f-2bc097180094",
+      "id": "f71decc8-0a12-43e7-924b-eae435fe92bd",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi géométrique de paramètre $p=\\frac{1}{4}$. Son espérance est $\\E(X) = \\frac{1}{p} = \\frac{1}{4}$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "02c6b9d9-225f-4a8e-a7dc-3f9d18256401",
+      "id": "ea8a56bc-49ff-4b8e-861a-1643a48d4711",
       "type": "description",
       "value": {
         "latex": "Une agence de location de voitures propose à ses clients 3 catégories de voitures : $A$, $B$ et $C$. Elle a constaté que dans une journée, $40\\%$ des demandes sont pour $A$, $50\\%$ des demandes sont pour $B$, $10\\%$ des demandes sont pour $C$. Les demandes de location sont supposées indépendantes.",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "43ca453d-f4d8-4013-86c4-23660873151a",
+      "id": "77540816-d07c-4cc9-9a72-337ada304e13",
       "type": "question",
       "value": {
         "latex": "Un jour donné, l'agence a reçu 12 demandes de location. On note $X$ le nombre de catégories $A$ demandées.",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "id": "71719a1d-3299-40b6-bfbd-aac9a0c16a1e",
+      "id": "5b4d00e1-400c-444b-a2b2-067ec264892d",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ suit une loi binomiale de paramètres $n=12$ et $p=0.4$. Son espérance est $\\E(X) = 4{,}8$.",

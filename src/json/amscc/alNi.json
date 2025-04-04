@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:05.851Z",
+    "updatedAt": "2025-04-04T19:02:47.826Z",
     "resume": "Cet exercice porte sur l'application du théorème central limite. Il s'agit de :\\n\\n1.  Déterminer la distribution approximative de la somme $S$ de $n=100$ variables aléatoires indépendantes et identiquement distribuées (i.i.d.) $X_i$ de moyenne $\\\\mu = 30$ et de variance $\\\\sigma^2 = 16$, en utilisant le théorème central limite.  C'est-à-dire, identifier les paramètres (moyenne et variance) de la loi normale approximative de $S$.\\n2.  Calculer la probabilité que $S$ soit inférieure à 2900, en utilisant l'approximation normale de $S$ et en effectuant un calcul de probabilité avec une loi normale centrée réduite via la transformation $Z = \\\\frac{S - n\\\\mu}{\\\\sqrt{n}\\\\sigma}$.",
     "competences": [
       "appliquer le théorème central limite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "e01012d3-4db4-456d-8326-506a34152a86",
+      "id": "80408630-c808-4fe6-9293-28395f4c913e",
       "type": "question",
       "value": {
         "latex": "Quelle est la distribution de la variable aléatoire $S$ selon le théorème central limite ?",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "8a1083ad-0c62-4535-8083-5df01d57774f",
+      "id": "1a8b4dae-16c6-4a20-88a7-e3369ba2e792",
       "type": "reponse",
       "value": {
         "latex": "Les variables aléatoires $X_1, X_2, \\ldots, X_{100}$ sont indépendantes et identiquement distribuées suivant une loi de moyenne $\\mu = 30$ et de variance $\\sigma^2 = 16$. La loi de chaque variable $X_i$ n'est pas connue mais on sait que la moyenne et la variance sont finies. D'après le théorème central limite, la variable aléatoire $Z=\\frac{S - n\\mu}{\\sqrt{n}\\sigma}$ suit approximativement une loi normale centrée réduite avec $n=100$ considéré comme grand. \n\nAutrement dit, la variable aléatoire $S$ suit approximativement une loi normale avec une moyenne donnée par $n\\mu = 100 \\times 30 = 3000$ et une variance donnée par $n\\sigma^2 = 100 \\times 16 = 1600$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "71fd37fb-dc71-46d8-b3c4-508bf7515aad",
+      "id": "ef37e87c-f324-47a8-912e-7b52ebcbf255",
       "type": "question",
       "value": {
         "latex": "Calculez la probabilité que la somme $S$ soit inférieure à 2900.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "1e37b53c-2bc5-483f-9b62-601b36f73ae6",
+      "id": "5a921e17-c7c8-4905-b588-6fc3f0e3db29",
       "type": "reponse",
       "value": {
         "latex": "Pour trouver cette probabilité, on centre et on réduit la variable aléatoire : \n\\[\nZ = \\frac{S - \\mu_S}{\\sigma_S} = \\frac{S - 3000}{\\sqrt{1600}}.\n\\]\nDonc, nous cherchons \n\\[\n\\prob\\left( Z < \\frac{2900 - 3000}{\\sqrt{1600}} \\right) = \\prob\\left( Z < -2.5 \\right).\n\\]\nEn utilisant la table de loi (ou un calculateur approprié), nous trouvons que la probabilité recherchée est d'environ $0.0062$.",

@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-14",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:58.692Z",
+    "updatedAt": "2025-04-04T19:02:08.877Z",
     "resume": "L'exercice porte sur la convergence en loi d'une suite de variables aléatoires. Il évalue les compétences suivantes :\\n\\n*   Identification de la loi géométrique de $nN_n$ à partir de la définition de $N_n$ et des $X_k^n$, variables de Bernoulli de paramètre $p_n = \\\\frac{\\\\lambda}{n}$.\\n*   Calcul de la fonction caractéristique de $N_n$ en utilisant la loi géométrique de $nN_n$ et les propriétés des fonctions caractéristiques. La fonction caractéristique de la loi géométrique est utilisée: $\\\\phi_X(t) = \\\\frac{p e^{it}}{1-(1-p)e^{it}}$.\\n*   Déduction de la convergence en loi de la suite $(N_n)$ vers une loi exponentielle de paramètre $\\\\lambda$ en étudiant la limite de la fonction caractéristique de $N_n$ et en la comparant à la fonction caractéristique de la loi exponentielle, qui est $\\\\phi(t) = \\\\frac{\\\\lambda}{\\\\lambda - it}$.",
     "competences": [
       "calculer une fonction caractéristique",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "d1efb1d8-2031-4276-a8e0-680aa8ccc934",
+      "id": "91b38a22-d9b4-4a4f-937b-5c5033cdc362",
       "type": "description",
       "value": {
         "latex": "Soit $\\lambda >0$. Pour tout $n \\geq \\lambda$, on définit une suite $\\left(X_k^n\\right)_{k \\in \\N}$une suite de variables aléatoires indépendantes suivant une loi de Bernoulli de paramètre $p_n = \\frac{\\lambda}{n}$. On considère alors la variable aléatoire :\n$$N_n = \\frac{1}{n} \\inf\\{ k \\in N \\, , \\, X_k^n = 1\\}$$",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "df632b26-fe23-41eb-9127-f2d7c698c26c",
+      "id": "71fe659e-859e-4596-b55e-3a9a86c409ea",
       "type": "question",
       "value": {
         "latex": "Soit un entier $n \\geq \\lambda$. Justifier que la variable $nN_n$ suit une loi géométrique dont on précisera le paramètre.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "f2f49a4d-5d88-457c-adbd-0b70ecd73e62",
+      "id": "3242fa06-43df-481e-8725-304e5c620179",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction caractéristique de la variable aléatoire $N_n$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "98f3d60f-14bc-4056-915d-be8288217056",
+      "id": "fb1c2213-5bfa-4641-8cf0-2cd93c1c3062",
       "type": "question",
       "value": {
         "latex": "En déduire que la suite de variables aléatoires $(N_n)$ converge en loi vers une loi usuelle que l'on précisera.",

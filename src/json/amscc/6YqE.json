@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:31.779Z",
+    "updatedAt": "2025-04-04T19:01:44.306Z",
     "resume": "Cet exercice de statistique porte sur les tests d'hypothèses dans un contexte de contrôle qualité. Il évalue la capacité à : \n\n*   Exprimer le risque de première espèce $\\alpha$ en fonction de la valeur critique $\\pi$ d'un test unilatéral.\n*   Déterminer la région d'acceptation de l'hypothèse nulle $H_0$ pour un seuil de signification $\\alpha$ donné.\n*   Prendre une décision statistique (accepter ou rejeter $H_0$) en fonction d'un échantillon observé.\n*   Calculer l'erreur de seconde espèce $\\beta$.\n*   Déterminer la taille d'échantillon $n$ nécessaire pour détecter un écart significatif par rapport à l'hypothèse nulle.",
     "competences": [
       "réaliser un test d'hypothèse unilatéral",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "5bfacdd2-64c5-4331-a8e7-647598b2dc4b",
+      "id": "2776c729-103f-49cd-8b47-b92aef66690e",
       "type": "description",
       "value": {
         "latex": "La proportion $p$ des pièces défectueuses fabriquées par une machine est $p=0.05$ quand la machine est bien réglée, et s'élève à $p_1=0.10$ quand est elle déréglée. \n\nOn dispose d'un lot de pièces fabriquées par la machine qui doit permettre de décider si la machine est bien réglée ou non. Un  échantillon aléatoire de 100 pièces, prélevé dans le lot, contient 8 mauvaises pièces.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "78a8ca0a-92b5-437a-87bd-fd383746760f",
+      "id": "9d160b1b-8e4c-48ab-9f9d-39d2d1d09684",
       "type": "question",
       "value": {
         "latex": "On pose $\\pi$ la valeur critique. En utilisant la définition, exprimer le risque de 1ère espèce $\\alpha$ en fonction de cette valeur critique.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "a8736fb5-3f9f-4b5c-81a8-0b720c67f654",
+      "id": "36a53c88-7388-4c37-94f1-5915c9e13bdc",
       "type": "question",
       "value": {
         "latex": "On pose $\\alpha = 0.05$. Quelle est la région d'acceptation de l'hypothèse $H_0$ ?",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "04928925-2ad9-4750-9a36-550d22e586ba",
+      "id": "2e261947-030a-4afe-919e-a94047627295",
       "type": "question",
       "value": {
         "latex": "La machine est-elle bien réglée ?",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "b00d0a6b-f5d0-4102-af4f-84e5976d4ee7",
+      "id": "f736da42-01f0-4154-9bc4-4760fec69d02",
       "type": "question",
       "value": {
         "latex": "Quelle est l'erreur de seconde espèce $\\beta$ ?",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "1ac9392c-2bf7-4622-a88d-ca89785c9e77",
+      "id": "9faea01c-5743-4558-b443-ac0ed6416b36",
       "type": "question",
       "value": {
         "latex": "Quel doit être l'effectif de l'échantillon $n$ pour qu'une fréquence observée de pièce défectueuses de $0.08$ permette de conclure à un dérèglement de la machine ?",

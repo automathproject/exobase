@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:04.160Z",
+    "updatedAt": "2025-04-04T19:02:11.811Z",
     "resume": "Cet exercice porte sur la loi de Poisson et sa fonction caractéristique. Il vise à évaluer les compétences suivantes:\n\n1.  Calcul de la fonction caractéristique $\\phi_X(t) = \\mathbb{E}(e^{itX})$ d'une variable aléatoire $X$ suivant une loi de Poisson de paramètre $\\lambda$, en utilisant la définition de l'espérance et la série exponentielle. Le résultat attendu est $\\phi_X(t) = e^{\\lambda(e^{it}-1)}$.\n\n2.  Utilisation de la fonction caractéristique pour démontrer que la somme de deux variables aléatoires indépendantes suivant des lois de Poisson de paramètres $\\lambda$ et $\\mu$ suit une loi de Poisson de paramètre $\\lambda + \\mu$. Cela implique d'utiliser la propriété que la fonction caractéristique d'une somme de variables aléatoires indépendantes est le produit de leurs fonctions caractéristiques, soit $\\phi_{X+Y}(t) = \\phi_X(t)\\phi_Y(t)$, et d'identifier la fonction caractéristique résultante comme celle d'une loi de Poisson de paramètre $\\lambda + \\mu$.",
     "competences": [
       "calculer une fonction caractéristique d'une variable aléatoire discrète",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "e7dac162-6ba5-433a-8791-6b5724ca5145",
+      "id": "f8e3d677-ede9-48b3-9052-4700897ae2d2",
       "type": "question",
       "value": {
         "latex": "Soit $X$ une variable aléatoire de loi de Poisson de paramètre $\\lambda$. Calculer sa fonction caractéristique.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "cf3e1077-544a-4bf9-8c2b-4df5eec688d6",
+      "id": "e7720db7-7cd2-49a5-b730-b4f537403ddf",
       "type": "reponse",
       "value": {
         "latex": "Soit $t\\in\\mathbb{R}$.\n\t\t      \t$$\\begin{align*}\n\t\t      \t\\phi_X(t)=\\mathbb{E}(e^{itX})\n\t\t      \t=\\sum_{k\\geq 0} e^{itk}\\p(X=k)\n\t\t      \t=\\sum_{k\\geq 0} e^{itk}\\frac{\\lambda^k}{k!}e^{-\\lambda}\n\t\t      \t=e^{-\\lambda}\\sum_{k\\geq 0} \\frac{(\\lambda e^{it})^k}{k!}\n\t\t      \t=e^{\\lambda(e^{it}-1)}\n\t\t      \t\\end{align*}$$",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "a0cbae20-f62a-443b-bb01-8ce279ecda5b",
+      "id": "7a70bd3f-b683-4e2a-8627-aa0c4b4ef423",
       "type": "question",
       "value": {
         "latex": "Soit $X$ et $Y$ deux variables aléatoires indépendantes de loi de Poisson de paramètres respectifs $\\lambda$ et $\\mu$. En utilisant la fonction caractéristique, montrer que la variable $X+Y$ suit une loi de Poisson de paramètre à déterminer.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "88067a0a-e19d-49f5-9bc9-7783e7942dc4",
+      "id": "14a2b6a6-f0b6-4c5d-b9b1-0dcc4738c2ca",
       "type": "reponse",
       "value": {
         "latex": "Comme les variables aléatoires $X$ et $Y$ sont indépendantes, on a pour tout $t\\in\\mathbb{R}$,\n\t\t      \t\\[ \\phi_{X+Y}(t)=\\phi_X(t) \\phi_Y(t)=e^{(\\lambda + \\mu)(e^{it}-1)},\\]\n\t\t      \tce qui correspond à la fonction caractéristique d'une loi de Poisson de paramètre $\\lambda+\\mu$. Donc $X+Y \\sim \\mathcal{P}(\\lambda+\\mu)$.",

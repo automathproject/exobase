@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.166Z",
+    "updatedAt": "2025-04-04T19:01:26.780Z",
     "resume": "L'exercice porte sur les variables aléatoires continues. Il s'agit de calculer des espérances et des variances de variables aléatoires uniformes et de leur maximum. Plus précisément:\\n\\n1.  Calcul de l'espérance $\\\\E(X_i)$ et de la variance $\\\\var(X_i)$ d'une variable aléatoire uniforme $X_i$ sur $[0, 2a]$, puis calcul de l'espérance $\\\\E(Y)$ et de la variance $\\\\var(Y)$ de la moyenne $Y = \\\\frac{1}{3}(X_1 + X_2 + X_3)$ de trois variables aléatoires indépendantes de même loi.\\n\\n2.  Détermination de la fonction de répartition $F_Z(t)$ de $Z = \\\\max(X_1, X_2, X_3)$ en fonction de la fonction de répartition de $X_i$, puis calcul de la densité $f_Z(t)$ de $Z$.\\n\\n3.  Calcul de l'espérance $\\\\E(Z)$ et de la variance $\\\\var(Z)$ de $Z$, puis détermination d'un coefficient $\\\\alpha$ tel que $\\\\E(T) = \\\\E(Y)$, où $T = \\\\alpha Z$.\\n\\n4.  Comparaison de $\\\\var(T)$ et $\\\\var(Y)$.",
     "competences": [
       "calculer une espérance et une variance à partir d'une densité",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "90e2618c-74a2-40f4-a1ed-4cdd465d7074",
+      "id": "627b0a73-dda5-405e-bb42-8574990b183d",
       "type": "question",
       "value": {
         "latex": "Calculer $\\E(X_i)$ et $\\var(X_i)$, pour $i\\in\\{1,2,3\\}$. On considère la variable aléatoire $Y=\\frac{1}{3}(X_1+X_2+X_3)$. Exprimer $\\E(Y)$ et $\\var(Y)$ sans déterminer la loi de $Y$.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "e97227c4-a661-4821-a50a-43eb257e93ba",
+      "id": "4925f180-b6ea-4a60-b296-f623122a6551",
       "type": "reponse",
       "value": {
         "latex": "Espérance de $X_i$:\n\t\t\\[ \\E(X_i)=\\int_0^{2a}\\frac{t}{2a}  \\dx t = \\left[ \\frac{1}{4a}t^2 \\right]_0^{2a} =\\frac{4a}{(2a)^2}=a\\]\n\t\tVariance de $X_i$:\n\t\t$$\\begin{align*}\n\t\t\t&\\E(X_i^2)=\\int_0^{2a}\\frac{t^2}{2a}  \\dx t = \\left[ \\frac{t^3}{6a} \\right]_0^{2a} =\\frac{6a}{(2a)^3}=\\frac{4}{3} a^2 \\\\\n\t\t\t&\\var(X_i)=\\E(X_i^2)-\\E(X_i)^2=\\frac{4}{3}a^2-a^2=\\frac{1}{3}a^2\n\t\t\\end{align*}$$\n\t\tEspérance de $Y$:\n\t\t\\[\\E(Y)=\\frac{1}{3}(\\E(X_1)+\\E(X_2)+\\E(X_3))=a\\]\n\t\tVariance de $Y$: \n\t\t$$\\begin{align*}\n\t\t\t\\var(Y)&=\\frac{1}{9}\\var(X_1+X_2+X_3) \\\\\n\t\t\t&= \\frac{1}{9}(\\var(X_1)+\\var(X_2)+\\var(X_3)) \\quad \\text{ car les va }X_i\\text{ sont indépendantes} \\\\\n\t\t\t&=\\frac{a^2}{9}\n\t\t\\end{align*}$$",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "e5eeaaa0-987a-421d-a490-c778d4ab562c",
+      "id": "8cc0e92c-11fb-490d-a664-af5cb78e3e1c",
       "type": "question",
       "value": {
         "latex": "On pose $Z=\\max(X_1,X_2,X_3)$. Justifier que la fonction de répartition $F_Z$ de $Z$ vérifie: $\\displaystyle F_Z(t)=\\prod_{i=1}^3 F_{X_i}(t)$. En déduire qu'une densité de $Z$ est :\n\t$$\n\tf_{Z}(t)=\n\t\\left\\{\\begin{array}{cl}\n\t\t\\frac{3}{(2a)^3}t^2 &\\text{si } 0\\leq t \\leq 2a, \\\\[1mm]\n\t\t0& \\text{sinon.}\n\t\\end{array}\\right.\n\t$$",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "f3aac5cc-b31a-4887-aa31-7a506389ed4c",
+      "id": "16e1d158-cb53-4e4f-8e20-852d54a083ce",
       "type": "reponse",
       "value": {
         "latex": "Fonction de répartition de $Z$:\n\t\t$$\\begin{align*}\n\t\t\t\\forall t \\in\\R, \\quad  F_Z(t)&=\\p(Z\\leq t)\\\\\n\t\t\t& =\\p(\\max(X_1,X_2,X_3) \\leq t) \\\\\n\t\t\t&=\\p(\\{X_1\\leq t\\}\\cap \\{X_2\\leq t\\}\\cap \\{X_3\\leq t\\}) \\\\\n\t\t\t&=\\p(X_1\\leq t)\\p(X_2\\leq t)\\p(X_3\\leq t) \\quad \\text{ car les va }X_i\\text{ sont indépendantes}\\\\\n\t\t\t&=\\prod_{i=1}^3 F_{X_i}(t) \n\t\t\\end{align*}$$\n\t\tDensité de $Z$:\n\t\t\\[ \\forall t \\in \\R, \\quad f_Z(t)=F_Z'(t)=3F_{X_1}(t)\\times f_{X_1}(t) \\]\n\t\tor\n\t\t\\[ F_{X_1}(t)=\\begin{cases} 0 & \\text{ si } t<0 \\\\\n\t\t\t\\frac{t}{2a} & \\text{ si } t\\in[0;2a] \\\\\n\t\t\t1 & \\text{ si } t> 2a\n\t\t\\end{cases}\n\t\t\\]\n\t\tdonc\n\t\t$$\\begin{align*}\n\t\t\tf_Z(t)&= \\begin{cases}\n\t\t\t\t0 & \\text{ si } t< 0 \\text{ ou } t>2a \\\\\n\t\t\t\t3\\left(\\frac{t}{2a}\\right)^2\\times \\frac{1}{2a} &  \\text{ si } t\\in[0;2a]\n\t\t\t\\end{cases} \\\\\n\t\t\t&= \\begin{cases}\n\t\t\t\t0 & \\text{ si } t< 0 \\text{ ou } t>2a \\\\\n\t\t\t\t\\frac{3}{(2a)^3}t^2 & \\text{ si } t\\in[0;2a]\n\t\t\t\\end{cases}\n\t\t\\end{align*}$$",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "94ff01d9-b0ea-4784-8324-49926c4c1ac2",
+      "id": "55488ff6-fe45-4264-b0cc-60c14858a10a",
       "type": "question",
       "value": {
         "latex": "Calculer $\\E(Z)$ et $\\var(Z)$. Soit la \\va $T=\\alpha Z$. Déterminer $\\alpha$ de sorte que $\\E(T)=\\E(Y)$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "1d851f33-37af-438e-a204-e6d0f1bada8a",
+      "id": "517e4276-b05f-42fa-bd40-8360cb7affde",
       "type": "reponse",
       "value": {
         "latex": "Espérance de $Z$:\n\t\t\\[ \\E(Z)=\\int_0^{2a} \\frac{3}{(2a)^3}t^3  \\dx t\n\t\t=\\left[ \\frac{3}{4}\\frac{1}{(2a)^3}t^4 \\right]_0^{2a}\n\t\t=\\frac{3a}{2}\n\t\t\\]\n\t\tVariance de $Z$:\n\t\t$$\\begin{align*}\n\t\t\t&\\E(Z^2)=\\int_0^{2a} \\frac{3}{(2a)^3}t^4  \\dx t\n\t\t\t=\\left[ \\frac{3}{5}\\frac{1}{(2a)^3}t^5 \\right]_0^{2a}\n\t\t\t=\\frac{12}{5}a^2 \\\\\n\t\t\t&\\var(Z)=\\E(Z^2)-\\E(Z)^2\n\t\t\t=\\frac{12}{5}a^2-\\frac{9}{4}a^2=\\frac{3}{20}a^2\n\t\t\\end{align*}$$\n\t\tDétermination de $\\alpha$:\n\t\t$$\\begin{align*}\n\t\t\t\\E(T)=\\E(Y) \\quad \\Leftrightarrow \\quad \\alpha\\E(Z)=a\n\t\t\t\\quad \\Leftrightarrow \\quad \\alpha \\frac{3a}{2}=a\n\t\t\t\\quad \\Leftrightarrow \\quad \\alpha=\\frac{2}{3}\n\t\t\\end{align*}$$",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "29568e03-bf42-4978-a64c-a900f94e0857",
+      "id": "e521bc9d-4e9f-43c8-840d-f3a13d578b97",
       "type": "question",
       "value": {
         "latex": "Comparer $\\var(T)$ et $\\var(Y)$.",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "1b99e44c-6946-426a-a863-a6cc3c39a5eb",
+      "id": "b867df63-baf1-44aa-b03e-cece6522ee2f",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t$$\\var(T)=\\sigma^2\\left(\\frac{2}{3}Z\\right)\n\t\t= \\frac{4}{9}\\var(Z)\n\t\t=\\frac{4}{9}\\times \\frac{3}{20}a^2 \n\t\t=\\frac{a^2}{15}.$$\n\t\tComme $\\displaystyle \\var(Y)=\\frac{a^2}{9}$, on a $\\var(T) <  \\var(Y)$.",

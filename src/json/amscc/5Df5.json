@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:24.957Z",
+    "updatedAt": "2025-04-04T19:01:36.292Z",
     "resume": "L'exercice porte sur la manipulation de la loi normale. Il s'agit de déterminer les paramètres $\\mu$ et $\\sigma$ d'une loi normale $X \\sim \\mathcal{N}(\\mu, \\sigma^2)$ à partir de deux probabilités données, puis de calculer le quantile d'ordre 0.99 de cette loi.",
     "competences": [
       "calculer la probabilité d'une variable aléatoire suivant une loi normale",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "e4ae9659-5a80-47c7-ac5d-8cbdd57e8805",
+      "id": "433270ba-eb7a-486b-885f-57fd12ff57ef",
       "type": "description",
       "value": {
         "latex": "Le nombre de déjeuners servis chaque jour ouvrable par un restaurant d'entreprise est une variable aléatoire $X$ suivant une loi normale de moyenne $\\mu$ et d'écart-type $\\sigma$ telle que :\n\t$$\\PP(X \\geq 1522) = 0{,}33 \\quad \\text{ et } \\quad \\PP(X \\leq 1598) = 0{,}975$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "a06d9e8e-2c06-4806-a824-5074a1635f0d",
+      "id": "e6cdf022-a120-4670-9e5c-b48a6cc80e6e",
       "type": "question",
       "value": {
         "latex": "Quel est le nombre minimal de repas qui doivent être préparés chaque midi si l'on veut avoir 99 chances sur 100 de satisfaire la demande ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "6afeadbe-21d1-4732-ba8f-4b2c2ea33d84",
+      "id": "ef9a8314-0365-4a04-a92c-a1fa9cf9e8ef",
       "type": "reponse",
       "value": {
         "latex": "Commençons par déterminer $m$ et $\\sigma$ grâce aux données de l'énoncé:\n\t$$\\begin{align*}\n\t\t&\\p(X\\geq 1522)=0.33 \\ \\Leftrightarrow \\ \\p\\left(\\frac{X-m}{\\sigma}\\leq \\frac{1522-m}{\\sigma}\\right)=0.67\n\t\t\\ \\Leftrightarrow \\ \\frac{1522-m}{\\sigma}=0.44 \\\\\n\t\t&\\p(X\\leq 1598)=0.975 \\ \\Leftrightarrow \\ \\p\\left(\\frac{X-m}{\\sigma}\\leq \\frac{1598-m}{\\sigma}\\right)=0.975\n\t\t\\ \\Leftrightarrow \\ \\frac{1598-m}{\\sigma}=1.96\n\t\\end{align*}$$\n\tIl vient ainsi\n\t$$\\begin{align*}\n\t\t\\begin{cases}\n\t\t\t1522-m=0.44\\sigma \\\\\n\t\t\t1598-m=1.96\\sigma\n\t\t\\end{cases}\n\t\\end{align*}$$\n\tsoit $\\sigma=50$ et $m=1500$. Donc $X\\sim \\mathcal{N}(1500,\\sigma=50)$.\n\t\\vspace{1em}\n\t\n\tOn note $n$ le nombre de repas à prévoir pour satisfaire $99$\\% des demandes. Par définition: $\\p(X\\leq n)=0.99$, ce qui donne\n\t\\[ \\p\\left(\\frac{X-1500}{50}\\leq \\frac{n-1500}{50}\\right)= 0.99\\]\n\tsoit $\\frac{n-1500}{50}=2.33$ et finalement $n=1617$.\n\tIl faut donc prévoir $1617$ repas au minimum pour satisfaire la demande dans $99$\\% des cas.",

@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-25",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:08.539Z",
+    "updatedAt": "2025-04-04T19:02:13.922Z",
     "resume": "Cet exercice porte sur l'étude de la convergence d'une suite de variables aléatoires $(X_n)$ de densité $f_n(x) = \\frac{n}{\\pi(1+n^2x^2)}$. Il s'agit de:\n\n1.  Déterminer la constante de normalisation de la densité $f_n$, en utilisant le changement de variable $u = nx$ et l'intégrale $\\int_{-\\infty}^{+\\infty} \\frac{1}{1+u^2}du = \\pi$.\n2.  Étudier l'existence des moments de $X_n$, en montrant la divergence de $\\int_{-\\infty}^{+\\infty} |x|f_n(x)dx$.\n3.  Déterminer la fonction de répartition $F_n(x)$ de $X_n$ et étudier la convergence en loi de $(X_n)$ vers une variable aléatoire $X$ identiquement nulle en calculant la limite de $F_n(x)$ quand $n$ tend vers l'infini et en la comparant à la fonction de répartition $F_X(x)$ de $X$. La convergence en loi est vérifiée si $F_n(x)$ converge vers $F_X(x)$ en tout point de continuité de $F_X$.\n4.  Étudier la convergence en probabilité de $(X_n)$ vers 0 en calculant $P(|X_n| < \\epsilon)$ et en montrant que cette probabilité tend vers 1 quand $n$ tend vers l'infini, en utilisant le changement de variable $u = nx$ et la fonction arctangente.",
     "competences": [
       "calculer une intégrale impropre",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "de521ba3-9fb9-4e1a-9ecb-e4c30529a6c2",
+      "id": "4eb40c92-b84c-4ec9-a750-3c3dbed305eb",
       "type": "description",
       "value": {
         "latex": "Soit $n$ un entier naturel non-nul et soit $a$ un réel. On considère la fonction $f_n$ définie sur $\\mathbb R$ par $$f_n(x)=\\frac{an}{\\pi(1+n^2x^2)}.$$",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "5cd782a8-da23-42f8-9362-092a8ecbc1fc",
+      "id": "aed88136-6d84-40a4-b9db-ed8d38a9d87f",
       "type": "question",
       "value": {
         "latex": "Déterminer $a$ pour que $f_n$ soit une densité de variable aléatoire.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "25beda8f-94f5-4157-9e63-0333a6a53656",
+      "id": "65c547a8-eba5-4aa7-a981-10407edaa901",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f_n$ étant continue et positive, elle est une densité de variable aléatoire si et seulement si\n\t\t\t$$\n\t\t\t\\int_{-\\infty}^{+\\infty} f_n(x) d x=1\n\t\t\t$$\n\t\t\tOr, effectuant le changement de variables $u=n x$, on a\n\t\t\t$$\n\t\t\t\\int_{-\\infty}^{+\\infty} \\frac{a n}{\\pi\\left(1+n^2 x^2\\right)} d x=\\int_{-\\infty}^{+\\infty} \\frac{a}{\\pi\\left(1+u^2\\right)} d u=\\frac{a}{\\pi}[\\arctan (u)]_{-\\infty}^{+\\infty}=\\frac{a}{\\pi} \\times \\pi=a\n\t\t\t$$\n\t\t\t$f_n$ est donc une densité de variable aléatoire si et seulement si $a=1$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "7325a6b7-94ac-4b7a-a5ad-e11516ccb70d",
+      "id": "93a5bd90-9519-47ad-ad04-5ab8f67840e9",
       "type": "question",
       "value": {
         "latex": "Soit $(X_n)$ une suite de variables aléatoires telle que chaque $X_n$\n\t\tadmet pour densité $f_n$. \\'Etudier l'existence de moments pour $X_n$.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "1a9df32b-99a6-4132-bb65-a7ef91e56643",
+      "id": "d9563b12-c115-4357-b294-d1108b994b61",
       "type": "reponse",
       "value": {
         "latex": "On a $x f_n(x) \\sim_{+\\infty} \\frac{1}{\\pi n x}$ dont l'intégrale est divergente au voisinage de $+\\infty$, et qui est une fonction positive. Ainsi, la variable aléatoire $X_n$ n'admet pas d'espérance, ni aucun autre moment.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "8c2b7a9b-698d-43ba-8786-223e030e9ba3",
+      "id": "be24e1be-99ef-4104-909a-cbeb632423d3",
       "type": "question",
       "value": {
         "latex": "\\'Etudier la convergence en loi de la suite $(X_n)$.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "8d8d7472-941f-44f7-be6d-dd3d7efb0bcd",
+      "id": "f720b44f-0e7f-4b83-8a5f-97c4930237c0",
       "type": "reponse",
       "value": {
         "latex": "Soit $F_n$ la fonction de répartition de $X_n$, définie pour tout $x$ réel par\n\t\t\t$$\n\t\t\tF_n(x)=\\int_{-\\infty}^x f_n(t) d t=\\frac{1}{\\pi}\\left(\\arctan (n x)+\\frac{\\pi}{2}\\right) .\n\t\t\t$$\n\t\t\tSi $x<0, \\arctan (n x) \\rightarrow-\\pi / 2$, et donc $F_n(x) \\longrightarrow 0$. Si $x>0, \\arctan (n x) \\longrightarrow \\pi / 2$ et donc $F_n(x) \\longrightarrow 1$. \n\t\t\t\n\t\t\tSoit maintenant $X$ une variable aléatoire identiquement nulle. Sa fonction de répartition $F_X$ vérifie $F_X(x)=0$ si $x<0$ et $F_X(x)=1$ si $x \\geq 0$. Autrement dit, en tout point de continuité de $F_X$, la suite $\\left(F_n(x)\\right)$ converge vers $F_X(x)$. \n\t\t\t\n\t\t\tOn en déduit la convergence en loi de la suite $\\left(X_n\\right)$ vers $X$.",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "f59511c5-019e-48d7-bde5-1c6afc158a79",
+      "id": "b3da7137-7a75-463f-be76-c392100665ad",
       "type": "question",
       "value": {
         "latex": "\\'Etudier la convergence en probabilité de la suite $(X_n)$.",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "f79d256a-afc4-44ee-acd7-bcd1b6488089",
+      "id": "a108e38d-904b-49ff-9391-031b2f56bf5d",
       "type": "reponse",
       "value": {
         "latex": "Soit $\\varepsilon>0$. On cherche  la limite de $P\\left(\\left|X_n-x\\right|<\\varepsilon\\right)$ où $X$ est la  variable nulle.\n\t\t\t$$\n\t\t\t\\text { on } \\begin{aligned}\n\t\t\t\tP\\left(\\left|X_n\\right|<\\varepsilon\\right) &=\\int_{-\\varepsilon}^{\\varepsilon} \\frac{n}{\\pi\\left(1+n^2 x^2\\right)} d x \\\\\n\t\t\t\t&=\\int_{-n \\varepsilon}^{n \\varepsilon} \\frac{d u}{\\pi\\left(1+u^2\\right)} \\\\\n\t\t\t\t&=\\frac{1}{\\pi}(\\operatorname{Arctan}(n \\varepsilon)-\\operatorname{Arctan}(-n \\varepsilon)) \\\\\n\t\t\t\t&=\\frac{2}{\\pi} \\operatorname{Arctan}(n \\varepsilon) \\underset{n \\to\\infty}{\\longrightarrow} \\frac{2}{\\pi} \\times \\frac{\\pi}{2}=1\n\t\t\t\\end{aligned}\n\t\t\t$$\n\t\t\tDonc on a bien $X_n \\underset{\\text { proba }}{\\longrightarrow} 0$",

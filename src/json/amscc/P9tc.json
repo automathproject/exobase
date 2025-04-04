@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Erwan L'HARIDON",
     "createdAt": "2022-09-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Lois des grands nombres, théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:23.404Z",
+    "updatedAt": "2025-04-04T19:02:21.294Z",
     "resume": "L'exercice porte sur l'application du théorème central limite (TCL) pour estimer la probabilité d'une erreur finale dans un calcul informatique. Il s'agit de modéliser l'erreur finale comme la somme de $10^6$ erreurs d'arrondi indépendantes, chacune suivant une loi uniforme. On calcule l'espérance et l'écart type de chaque erreur d'arrondi, puis on utilise le TCL pour approximer la distribution de l'erreur finale par une loi normale. Enfin, on calcule $\\\\mathbb{P}(|Y|<\\\\frac{1}{2}10^{-6})$ où $Y$ représente l'erreur finale, en utilisant la table de la loi normale centrée réduite.",
     "competences": [
       "appliquer le théorème central limite",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "0c2fe29e-507c-456c-80bd-8c837a9af893",
+      "id": "c1971a01-6bca-4a87-966b-f8dced16c7dd",
       "type": "description",
       "value": {
         "latex": "On suppose qu'un ordinateur effectue $10^6$ opérations élémentaires pour un calcul donné. On suppose également que les erreurs d'arrondi à chaque opération sont indépendantes et suivent chacune une loi uniforme sur l'intervalle $\\left[-5 \\cdot 10^{-10};5 \\cdot 10^{-10} \\right]$. Enfin, on suppose que l'erreur finale est la somme des erreurs commises à chaque opération.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "c686ce0b-ef9a-49e6-a782-a28663676e3a",
+      "id": "1a47dadf-02b1-4864-8756-d4d0cda6886c",
       "type": "question",
       "value": {
         "latex": "\\'Evaluer la probabilité que l'erreur finale soit en valeur absolue inférieure à $\\frac{1}{2} 10^{-6}$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "aafc472c-0558-474c-a0a5-3cec073d8a0e",
+      "id": "c84282a0-ae7c-4def-acea-54d608690741",
       "type": "reponse",
       "value": {
         "latex": "Soit $X_i$ la variable aléatoire représentant l'erreur d'arrondi sur la $i$-ème opération. D'après l'énoncé, les variables $X_i$ sont indépendantes et de même loi $\\mathcal{U}([-5.10^{-10};5.10^{-10}])$, donc en particulier\n\t\\[ \\mathbb{E}(X_i)=0 \\quad \\text{ et } \\quad \\sigma(S)=\\frac{10^{-9}}{\\sqrt{12}}.\\]\n\tSoit $\\displaystyle Y=\\sum_{i=1}^{10^6} X_i$ l'erreur finale commise. On cherche à déterminer la probabilité suivante:\n\t$$\\begin{align*}\n\t\t\\mathbb{P}(|Y|<\\frac{1}{2}10^{-6})\n\t\t&= \\mathbb{P}\\left(\\left| \\frac{Y-\\mathbb{E}(Y)}{\\sigma(Y)\\sqrt{10^6}}\\right|< \\frac{1}{2}\\frac{10^{-6}}{\\frac{10^{-9}}{\\sqrt{12}} \\sqrt{10^6}} \\right) \\\\\n\t\t&\\simeq \\mathbb{P}(|Z|<\\sqrt{3}) \\quad \\text{ par le théorème central-limite, avec } Z\\sim \\mathcal{N}(0,1) \\\\\n\t\t& \\simeq 2\\mathbb{P}(Z<1.73)-1 \\\\\n\t\t& \\simeq 2\\times 0.9582-1 \\quad \\text{ par lecture de la table de loi } \\mathcal{N}(0,1) \\\\\n\t\t& \\simeq 0.9164\n\t\\end{align*}$$",

@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-16",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:35.704Z",
+    "updatedAt": "2025-04-04T19:03:12.638Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $b$ d'une loi de Pareto de paramètre $a=3$ et $b$. Il s'agit de déterminer des estimateurs sans biais de $b$ à partir de deux statistiques : la moyenne empirique $Y_n$ et le minimum $Z_n$ d'un échantillon de variables aléatoires de Pareto. Les compétences mises en œuvre sont : \n\n*   Calcul d'espérance et de variance pour $Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i$. \n*   Détermination d'un estimateur sans biais de $b$ de la forme $\\alpha_n Y_n$ en utilisant l'espérance de $Y_n$. \n*   Calcul de la fonction de répartition de $Z_n = \\min(X_1,X_2,\\cdots{},X_n)$. \n*   Identification de la loi de $Z_n$ comme une loi de Pareto de paramètres $(3n, b)$.\n*   Détermination d'un estimateur sans biais de $b$ de la forme $\\beta_n Z_n$ en utilisant l'espérance de $Z_n$.\n*   Comparaison de la qualité des estimateurs $\\alpha_n Y_n$ et $\\beta_n Z_n$ en comparant leurs variances.  L'estimateur $\\beta_n Z_n$ est démontré plus performant car sa variance est inférieure.",
     "competences": [
       "calculer l'espérance et la variance d'une variable aléatoire",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "6c8b27d7-df1a-483c-bd18-3bee21de87c5",
+      "id": "023f2fa9-225d-4073-9e65-fbec0ddb761d",
       "type": "description",
       "value": {
         "latex": "Soient $a = 3$ et $b$ deux réels strictement positifs. Soit $X$ une variable aléatoire suivant une loi de Pareto de paramètres $(3,b)$. Alors $X$ admet pour densité  la fonction $f$ définie pour tout $x \\in \\R$ par : \n$$f(x)=\\frac{3 b^3}{x^{4}} \\mathbf{1}_{[b;+\\infty[}(x).$$\nSoit $n \\in \\N^*$ et soit $X_1,X_2,\\cdots{},X_n$ un échantillon de $n$ variables aléatoires indépendantes suivant chacune la loi de Pareto de paramètres $(3,b)$. On définit alors les deux variables aléatoires : $$Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i \\quad \\text{et} \\quad Z_n = \\min(X_1,X_2,\\cdots{},X_n).$$\n\nLe but de l'exercice est de construire un bon estimateur du paramètre $b$ de la loi de Pareto.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "36e4ad9f-dc0f-49cd-a5bb-ec052da72830",
+      "id": "6c4090fd-a310-4a10-ae86-d3b972f95316",
       "type": "question",
       "value": {
         "latex": "Déterminer l'espérance et la variance de $Y_n$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "289e7071-3d63-47c6-840d-26e8fce47aae",
+      "id": "4278748f-c395-4426-b8e6-0d26f5621082",
       "type": "reponse",
       "value": {
         "latex": "On a $\\E(Y_n) = \\frac{1}{n} \\sum_{i=1}^n \\E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\frac{3b}{2} = \\frac{3b}{2}$.\n        On calcule d'abord $\\E(X_i^2)$ pour tout $i \\in \\{1,...,n\\}$ : \n        $$\\begin{align*}\n            \\E(X_i^2) &= \\int_b^{+\\infty} \\frac{3 b^3}{x^{4}} x^2 dx \\\\\n            &= \\left[ -\\frac{3 b^3}{x} \\right]_b^{+\\infty} \\\\\n            &= 3b^2\n        \\end{align*}$$\n        Donc $\\var(X_i) = \\E(X_i^2) - \\E(X_i)^2 = 3b^2 - \\left(\\frac{3b}{2}\\right)^2 = \\frac{3b^2}{4}$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "a16cf1d9-0ed7-462f-b4fb-6f9b4af3177b",
+      "id": "5e634da9-4057-43d4-879e-37414eff7f89",
       "type": "question",
       "value": {
         "latex": "En déduire un estimateur sans biais de $b$ sous la forme $\\alpha_n Y_n$ où $\\alpha_n$ est un réel à déterminer.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "174840ca-acc3-4f32-aa93-dce77cddf372",
+      "id": "93111306-1c6d-4450-ba63-0cf5d0457a8f",
       "type": "reponse",
       "value": {
         "latex": "Il suffit de prendre $\\alpha_n = \\frac{2}{3}$ pour que $\\alpha_n Y_n$ soit un estimateur sans biais de $b$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "e57fb8df-922d-48ed-89ed-68bb59352d44",
+      "id": "a0cd0991-cbc3-41e6-97a2-7fc5292e5e4b",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $Z_n$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "e076d564-80c6-4184-881d-7fe452aeb278",
+      "id": "316f2473-9bdc-49e4-ba74-aa0063597a9e",
       "type": "reponse",
       "value": {
         "latex": "Soit $t \\geq b$. On a : \n        $$\\begin{align*}\n            \\prob(Z_n \\leq t) &= \\prob(\\min(X_1,X_2,\\cdots{},X_n) \\leq t) \\\\\n            &= 1 - \\prob(\\min(X_1,X_2,\\cdots{},X_n) > t) \\\\\n            &= 1 - \\prob(X_1 > t, X_2 > t, \\cdots{}, X_n > t) \\\\\n            &= 1 - \\prod_{i=1}^n \\prob(X_i > t) \\\\\n            &= 1 - \\left(1 - \\prob(X_1 \\leq t)\\right)^n \\\\\n            &= 1 - \\left(1 - F_{X_1}(t)\\right)^n \\\\\n            &= 1 - \\left(1 - \\left(1 - \\frac{b^3}{t^3}\\right)\\right)^n \\\\\n            &= 1 - \\left(\\frac{b^3}{t^3}\\right)^n \\\\\n            &= 1 - \\frac{b^{3n}}{t^{3n}}\n        \\end{align*}$$\n        et si $t < b$, $\\prob(Z_n \\leq t) = 0$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "82def955-5026-4556-90b1-ac4a3cf27359",
+      "id": "596675f9-3dba-4e82-90ed-1c1209ce6a75",
       "type": "question",
       "value": {
         "latex": "En déduire que $Z_n$ suit une loi de Pareto de paramètres $(3n, b)$.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "ad2c0815-6604-4f3a-83a6-acd333eac6a7",
+      "id": "b2ed15cb-547c-4e30-ad56-2bddbe8c229e",
       "type": "reponse",
       "value": {
         "latex": "D'après la partie 1, question 2, on reconnait la fonction de répartition d'une loi de Pareto de paramètres $(3n, b)$.",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "4db77ed3-3c60-43eb-8c78-440e1b77cea4",
+      "id": "d29d4fa7-98ca-425c-b0ef-f681586b6f55",
       "type": "question",
       "value": {
         "latex": "En déduire un estimateur sans biais de $b$ sous la forme $\\beta_n Z_n$ où $\\beta_n$ est un réel à déterminer.",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "7f771735-e533-4138-afc0-7e2246f44fe0",
+      "id": "939aa0f8-d045-4be4-992c-68cb3640626a",
       "type": "reponse",
       "value": {
         "latex": "L'espérance de $Z_n$ est donnée par $\\E(Z_n) = \\frac{3nb}{3n-1}$. Donc on pose $\\beta_n = \\frac{3n-1}{3n}$ pour que $\\beta_n Z_n$ soit un estimateur sans biais de $b$.",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "2479fc84-2daa-4375-89ae-2028b03b81aa",
+      "id": "1327101c-954d-49ae-b650-0103f1217f73",
       "type": "question",
       "value": {
         "latex": "Lequel des deux estimateurs de $b$ est le meilleur ? Justifier.",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "id": "2b0af60e-96ba-4b17-a304-6c9517f193c4",
+      "id": "e447cd3c-cff6-4541-ad8a-77f16c2c88ab",
       "type": "reponse",
       "value": {
         "latex": "On a $\\var(\\alpha_n Y_n) = \\alpha_n^2 \\var(Y_n) = \\frac{4}{9} \\frac{3b^2}{4n} = \\frac{b^2}{3n}$. \n\n        Pour calculer la variance de $\\beta_n Z_n$, on doit d'abord connaître la variance d'une loi de Pareto de paramètres $(3n, b)$. Après calculs, on a $\\var(Z_n) = \\frac{3nb^2}{(3n-1)^2(3n-2)}$. \n        \n        D'autre part,  $\\var(\\beta_n Z_n) = \\beta_n^2 \\var(Z_n) = \\frac{b^2}{3n(3n-2)}$ < $\\frac{b^2}{3n}$. \n\n        Donc $\\beta_n Z_n$ est un meilleur estimateur de $b$ que $\\alpha_n Y_n$.",

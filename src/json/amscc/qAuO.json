@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-19",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:51.144Z",
+    "updatedAt": "2025-04-04T19:04:34.834Z",
     "resume": "L'exercice porte sur la réalisation d'un test d'hypothèse concernant l'égalité des variances (ou des écarts types) de deux populations normales. Il s'agit de déterminer si la différence observée entre les écarts types d'échantillons provenant de deux IUT est statistiquement significative, suggérant ainsi des manières de noter différentes, ou si elle est due au hasard. Le test à effectuer est un test de Fisher (test F) dont la statistique de test est $F = \\frac{s_1^2}{s_2^2}$ où $s_1$ et $s_2$ sont les écarts types des échantillons.",
     "competences": [
       "réaliser un test d'hypothèse sur l'égalité de deux variances",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "152fb7d8-3226-4f43-8936-fa4ff34d1245",
+      "id": "9cb02cd9-4517-4fd7-8162-4f5de56a5633",
       "type": "description",
       "value": {
         "latex": "Dans deux IUT Mesures Physiques, les notes de statistiques suivent des loi normales dont les écart types sont respectivement $\\sigma_1$ et $\\sigma_2$. Un échantillon de 10 notes d'étudiants de l'IUT 1 a donné un écart type de 5 et un échantillon de 25 notes d'étudiants de l'IUT 2 a donné un écart type de 3.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "aa11952c-47ac-4947-8633-860dd0e6a057",
+      "id": "19e36942-6472-461c-85b0-b0ec676af6d9",
       "type": "question",
       "value": {
         "latex": "Au vu de ces informations, peut-on considérer que les enseignants des deux IUT ont la même manière de noter les étudiants ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "97431d8f-8c69-4dd7-b70c-fd46b4709f05",
+      "id": "c1a0cbef-5a57-438b-aed3-5aeab8e49491",
       "type": "reponse",
       "value": {
         "latex": "",

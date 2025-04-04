@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Différentielle de fonctions composées",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:23.724Z",
+    "updatedAt": "2025-04-04T19:02:21.428Z",
     "resume": "L'exercice porte sur l'application de la règle de la chaîne pour une fonction de deux variables. Il s'agit de calculer la dérivée d'une fonction composée $g(t) = f(x+t, y+t)$ en utilisant les dérivées partielles de $f$. La deuxième question demande de déduire une relation entre les dérivées partielles de $f$ en utilisant l'hypothèse $f(x+t, y+t) = f(x, y)$, menant à l'équation $\\frac{\\partial f}{\\partial x}(x,y) + \\frac{\\partial f}{\\partial y}(x,y) = 0$.",
     "competences": [
       "appliquer la règle de la chaîne pour dériver une fonction composée",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "e9a3d40c-5ad7-4ca0-8f28-ec776edcc3d1",
+      "id": "fb28fd26-d594-4ffc-a90c-35043fff2240",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\mathbb{R}^2 \\to \\mathbb{R}$ une fonction différentiable.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "c5c7037f-17a3-4195-a0be-5bcc03239de4",
+      "id": "dbbbacbb-2420-4315-8f01-5724b38dd47c",
       "type": "question",
       "value": {
         "latex": "On fixe $(x,y) \\in \\mathbb{R}^2$ et pour tout $t \\in \\mathbb{R}$ on pose $g(t) = f(x+t,y+t)$. Calculer $g'(t)$ quelque soit $t \\in \\mathbb{R}$ en l'exprimant en fonction de $\\dfrac{\\partial f}{\\partial x}(x+t,y+t)$ et $\\dfrac{\\partial f}{\\partial y}(x+t,y+t)$.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "45c28f54-44fa-4bd9-8565-6097a20b1999",
+      "id": "78dab5ab-4344-48aa-a81e-926ba11eb048",
       "type": "reponse",
       "value": {
         "latex": "Par la règle des chaînes, $g$ est dérivable sur $\\mathbb{R}$ et $g'(t) = 1 \\times \\dfrac{\\partial f}{\\partial x}(x,y) + 1 \\times \\dfrac{\\partial f}{\\partial y}(x,y)$.",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "04f1ae0b-82a4-4944-a370-764a047182c5",
+      "id": "91f11ae1-b8e1-419f-aa1d-e4b2db371e00",
       "type": "question",
       "value": {
         "latex": "On suppose que pour tout $t \\in \\mathbb{R}$ et pour tout $(x,y) \\in \\mathbb{R}^2$, \n\t\t\t$$f(x+t,y+t) = f(x,y)$$En déduire que $\\dfrac{\\partial f}{\\partial x}(x,y) + \\dfrac{\\partial f}{\\partial y}(x,y) = 0$.",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "77e6969f-9d08-4024-a08d-46dc3433bb9d",
+      "id": "f976f30c-4005-48b4-bb67-f7cdcb79116b",
       "type": "reponse",
       "value": {
         "latex": "Par hypothèse sur la fonction $f$, $g(t) = f(x,y)$ donc $g$ est constante par rapport à $t$ donc $g'(t) = 0$. D'où l'égalité demandée.",

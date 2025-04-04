@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:36.745Z",
+    "updatedAt": "2025-04-04T19:03:13.682Z",
     "resume": "L'exercice porte sur la définition d'une probabilité discrète. Il s'agit de déterminer une fonction de probabilité $P$ sur un ensemble fini $\\Omega = \\{1, 2, ..., n\\}$ sachant que la probabilité de l'événement $\\{1, 2, ..., k\\}$ est proportionnelle à $k^2$. La résolution implique de déterminer le facteur de proportionnalité $\\alpha$ en utilisant la condition $P(\\Omega) = 1$ et d'exprimer la probabilité de l'événement $\\{1, 2, ..., k\\}$ en fonction de $k$ et $n$.",
     "competences": [
       "calculer la constante de proportionnalité",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "6b4fbb92-a296-4227-87dc-53e1ee460fa4",
+      "id": "1df42246-a9a4-475a-8421-ca20461c966e",
       "type": "question",
       "value": {
         "latex": "Déterminer une probabilité sur $\\Omega  = \\left\\{ {1,2, \\ldots ,n} \\right\\}$ telle que la probabilité de l'événement $\\left\\{ {1,2, \\ldots ,k} \\right\\}$ soit proportionnelle à $k^2 $.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "38f20062-1a2d-4344-8167-eaa24b7f6266",
+      "id": "82015e55-355a-4972-a156-e35df736e62a",
       "type": "reponse",
       "value": {
         "latex": "Pour $k = n$, on a $\\PP(\\Omega) = \\alpha n^2 = 1$. Donc $\\alpha = \\frac{1}{n^2}$. Ainsi, $\\PP(\\left\\{ {1,2, \\ldots ,k} \\right\\}) = \\frac{k^2}{n^2}$.",

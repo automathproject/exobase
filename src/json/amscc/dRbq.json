@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:13.069Z",
+    "updatedAt": "2025-04-04T19:02:55.035Z",
     "resume": "L'exercice porte sur la loi géométrique. Il s'agit de déterminer la loi de probabilité d'une variable aléatoire $X$ représentant le nombre de tentatives nécessaires pour un succès, connaissant la probabilité de succès $p=0.4$ lors d'une tentative. Ensuite, il faut calculer l'espérance mathématique de $X$, c'est-à-dire $E(X) = \\frac{1}{p}$, et la probabilité que $X < 3$, soit $P(X<3) = P(X=1) + P(X=2)$. Cette dernière probabilité correspond à la fonction de répartition de la loi géométrique évaluée en 2. On utilise le fait que $P(X=k) = (1-p)^{k-1}p$.",
     "competences": [
       "appliquer la loi géométrique",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "e4624293-0dc3-431f-85ef-71073ebb4dd6",
+      "id": "c0658838-97be-4dcd-9989-de27a766fc79",
       "type": "description",
       "value": {
         "latex": "Un standard téléphonique est, en moyenne, occupé 6 fois sur 10. Soit $X$ le nombre de tentatives nécessaires pour obtenir le standard.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "9dc9aa93-878e-4226-8aa6-55ee423327ca",
+      "id": "955902e2-f3d7-4291-8864-1cd24d519fd1",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $X$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "417d9983-26ab-4db6-af04-5cdab5de5a8e",
+      "id": "82a40271-5040-4557-99cf-52c98fde8d4f",
       "type": "question",
       "value": {
         "latex": "Combien d'essais sont nécessaires en moyenne pour obtenir le standard ?",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "9f07cd2f-8024-4bfc-b9a3-93fa40ec9e5a",
+      "id": "d605323c-061e-40f0-989e-33a5e309d013",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité d'obtenir le standard en moins de 3 essais ?",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Dérivée partielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:57.422Z",
+    "updatedAt": "2025-04-04T19:02:07.847Z",
     "resume": "Cet exercice porte sur l'étude des dérivées partielles d'une fonction de deux variables $f(x,y) = \\\\sqrt{x+5y}$. Il évalue la capacité à:\\n\\n1.  Déterminer le domaine de définition d'une fonction à deux variables impliquant une racine carrée.\\n2.  Calculer les dérivées partielles $\\\\frac{\\\\partial f}{\\\\partial x}$ et $\\\\frac{\\\\partial f}{\\\\partial y}$ sur le domaine où la fonction est différentiable.\\n3.  Étudier l'existence des dérivées partielles en des points situés au bord du domaine de définition, en utilisant la définition du taux d'accroissement. En particulier, on étudie le comportement des taux d'accroissement lorsque $x \\\\to 0$ et $y \\\\to 0$ ou $x \\\\to 5$ et $y \\\\to -1$.",
     "competences": [
       "calculer des dérivées partielles",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "57f993ca-1c9c-49e7-948a-008118f02f37",
+      "id": "9dafba23-92aa-4032-874f-b2b1401fea1a",
       "type": "description",
       "value": {
         "latex": "On considère la fonction $f: \\R^2 \\to \\R,\\ (x,y) \\mapsto \\sqrt{x+5y}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "7090685c-c06c-4290-bbbc-fafa39587e2b",
+      "id": "6482ba72-40c9-42fc-9d5a-4cfff86788e8",
       "type": "question",
       "value": {
         "latex": "Donner le domaine de définition de $f$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "9c8a44db-7eec-469f-b78f-bf29e0797365",
+      "id": "1d8eefb5-b3c8-48da-8329-2b993343c4dd",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est définie sur le demi plan $\\{(x,y)\\in\\R^2 \\mid x+5y \\geq 0  \\}  $",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "a311ed8f-5525-4a12-9025-77017af61eee",
+      "id": "912305e3-0508-4cbd-b2b3-9e079b537457",
       "type": "question",
       "value": {
         "latex": "Calculer $\\dpa{f}{x}$ et $\\dpa{f}{y}$ pour les points $(x,y)$ où c'est possible.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "6b89f383-92fd-4c9d-a4e5-55626cfb39f9",
+      "id": "e9c4926e-0227-4663-90f7-bbfd3e1287e0",
       "type": "reponse",
       "value": {
         "latex": "La fonction racine étant dérivable sur $]0;+\\infty[$, on peut calculer avec les règles usuelles les dérivées partielles de $f$ sur le demi plan ouvert $\\{(x,y)\\in\\R^2 \\mid x+5y > 0  \\}  $ : \n$$\\frac{\\partial f}{\\partial x}(x,y) = \\frac{1}{2\\sqrt{x+5y}} \\qquad \\frac{\\partial f}{\\partial y}(x,y) = \\frac{5}{2\\sqrt{x+5y}}$$",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "899f10c7-e18c-4b2b-84ec-71252d283026",
+      "id": "e1656065-899a-4756-9806-397da0314c5c",
       "type": "question",
       "value": {
         "latex": "Étudier l'existence des dérivées partielles en $(x,y) = (0,0)$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "7324f5d7-f9b9-4c25-a2f6-786db0ed963a",
+      "id": "f0399f8e-8e3f-4b0f-88a5-997191b588c5",
       "type": "indication",
       "value": {
         "latex": "On sait que la fonction $x \\mapsto \\sqrt{x}$ est définie en $0$ mais pas dérivable en $0$. La question se pose donc pour $f$ en $(x,y)=(0,0)$ car dans ce cas $\\sqrt{x+5y} = \\sqrt{0}$. Pour répondre à la question, il faut revenir à la définition de la dérivée partielle en cherchant la limite du taux d'accroissement.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "45136280-af51-4cd9-acc2-f2d5dd02599d",
+      "id": "48fe4966-e14a-4e6d-ac7d-bb3aa880c501",
       "type": "reponse",
       "value": {
         "latex": "Il faut ici revenir à la définition en étudiant le taux d'accroissement des fonctions partielles en $0$.\n\t\n\tPour étudier l'existence de $\\frac{\\partial f}{\\partial x}(0,0)$, on pose pour tout $x>0$ :\n$\\frac{f(x,0)-f(0,0)}{x-0} = \\frac{\\sqrt{x}}{x} = \\frac{1}{\\sqrt{x}} \\xrightarrow[x \\to 0]{} +\\infty$. On conclut que \n$\\frac{\\partial f}{\\partial x}(0,0)$n'existe pas.\n\nDe même, on pose pour tout $y>0$ :\n$\\frac{f(0,y)-f(0,0)}{y-0} = \\frac{\\sqrt{5y}}{y} = \\frac{\\sqrt{5}}{\\sqrt{y}} \\xrightarrow[y \\to 0]{} +\\infty$. On conclut que \n$\\frac{\\partial f}{\\partial y}(0,0)$ n'existe pas.",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "df16580b-f83a-4f0b-a2e3-252765da35e9",
+      "id": "b7f64455-4b26-4f81-8f76-661821fc6c06",
       "type": "question",
       "value": {
         "latex": "Même question en $(x,y) = (5, -1)$.",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "6b087db0-4673-4251-a242-2e0737d10e1a",
+      "id": "635e4a3f-7491-4a0d-b3f6-f9bd381e7757",
       "type": "reponse",
       "value": {
         "latex": "C'est exactement le même problème qu'en $(0,0)$ translaté en $(5,-1)$ : \n\t\n\ton pose $x=5+h$ et on étudie le taux d'accroissement quand $x$ tend vers $5$, soit $h \\to 0$ :  $\\frac{f(5+h,-1)-f(5,-1)}{h} = \\frac{\\sqrt{h}}{h} = \\frac{1}{\\sqrt{h}}  \\xrightarrow[h \\to 0]{} +\\infty$\n\t\n\ton pose $y=-1+h$ et on étudie le taux d'accroissement quand $y$ tend vers $-1$, soit $h \\to 0$ :  $\\frac{f(5,-1+h)-f(5,-1)}{h} = \\frac{\\sqrt{h}}{h} = \\frac{1}{\\sqrt{h}}  \\xrightarrow[h \\to 0]{} +\\infty$\n\nOn conclut que les dérivées partielles n'existent pas en $(0,0)$.",

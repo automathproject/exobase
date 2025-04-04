@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-07",
-    "hasIndication": true,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Loi, indépendance, loi conditionnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:56.818Z",
+    "updatedAt": "2025-04-04T19:02:07.381Z",
     "resume": "Cet exercice évalue la compréhension des concepts de probabilité discrète, notamment la loi de Poisson, la loi binomiale et l'indépendance. Il teste la capacité à : \n\n*   Déterminer la loi marginale d'une variable aléatoire ($Y_1$) à partir de la loi d'une autre variable ($X$) et d'hypothèses d'équiprobabilité. La loi de $Y_1$ est une loi de Poisson de paramètre $\\lambda/N$. \n*   Calculer le coefficient de corrélation linéaire entre deux variables aléatoires ($Y_i$ et $Y_j$) en utilisant le conditionnement par une troisième variable ($X$). Cela implique le calcul de $E[Y_iY_j]$ et $Cov(Y_i,Y_j)$.",
     "competences": [
       "calculer une probabilité conditionnelle",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "50c36f43-0aeb-4e67-b28d-d2dbb93f46d3",
+      "id": "52a21a9d-7c7d-440f-ab5c-d3bac50d7ebd",
       "type": "description",
       "value": {
         "latex": "On considère un fast food muni de $N$ comptoirs. Le nombre de personnes se présentant en une heure au fast food est $X$ suivant une loi de poisson $\\mathscr{P}(\\lambda)$ avec $\\lambda >0$. Pour commander son sandwich, chaque personne choisit un comptoir au hasard, de manière équiprobable. On note $Y$ le nombre de personnes se présentant au comptoir numéro 1. On note $Y_i$ le nombre de personnes se présentant au comptoir numéro $i$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "78da54a4-10f2-4968-96f5-e8a7c714d9f7",
+      "id": "398ca173-a80a-4ba4-a7e6-f9011f5dedd6",
       "type": "question",
       "value": {
         "latex": "Quelle est  la loi de $Y_1$ ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "37a64e3e-2bb7-4584-b533-0745a0a82ef3",
+      "id": "3641067f-c7a8-4ec5-a9d3-851734f8ef88",
       "type": "question",
       "value": {
         "latex": "Calculer le coefficient de corrélation linéaire de $(Y_i,Y_j)$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "81b5afef-0904-4456-b462-cc14ea65c9f5",
+      "id": "abf101fb-bd96-431e-9a21-443a6f424c9d",
       "type": "indication",
       "value": {
         "latex": "On pourra tout d'abord calculer la loi $Y$ conditionnée par $X$, puis la loi mutuelle $(X,Y)$.",

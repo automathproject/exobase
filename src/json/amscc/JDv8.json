@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-31",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Déterminant, système linéaire",
     "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:05.148Z",
+    "updatedAt": "2025-04-04T19:02:12.436Z",
     "resume": "Cet exercice évalue la capacité à résoudre un système linéaire de trois équations à trois inconnues en fonction d'un paramètre $m$. Les compétences mises en œuvre comprennent :\n\n*   La résolution d'un système linéaire pour des valeurs spécifiques du paramètre ($m=0$ et $m=1$).\n*   La détermination de conditions sur les constantes ($a, b, c$) pour l'existence de solutions.\n*   La résolution du système sous ces conditions.\n*   La justification de l'existence d'une solution unique pour d'autres valeurs du paramètre ($m \\neq 0$ et $m \\neq 1$).\n*   Le calcul de cette solution unique pour des valeurs spécifiques et générales des constantes ($a, b, c$).",
     "competences": [
       "résoudre un système d'équations linéaires",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "664f6248-7208-4bb3-a387-ccaeec34f0c3",
+      "id": "bd7562c8-db79-4e80-9414-08c62efd0a1e",
       "type": "description",
       "value": {
         "latex": "On considère le système de trois équations à trois inconnues $x,y,z$ suivant : \n        $$\n\\left\\{\\begin{aligned}\nm x+m y+m z & =a \\\\\nx+m y+z & =b \\\\\nx+y+m z & =c\n\\end{aligned}\\right.\n$$\navec $m,a,b,c \\in \\R$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "b95e25db-8bda-4b56-9419-46c20da43479",
+      "id": "ff3922df-d409-4fc7-903c-13259edb0d8e",
       "type": "question",
       "value": {
         "latex": "Supposons que $m=0$. Résoudre le système en fonction des valeurs possibles de $a,b,c$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "b9665bc1-05b5-46ef-bc90-d3427ef922f9",
+      "id": "8adc1782-a5fb-4684-afe8-ec7373c28d43",
       "type": "question",
       "value": {
         "latex": "Supposons que $m = 1$. \\`A quelles conditions sur $a,b,c$ le système admet-il au moins une solution ? Dans ce cas, résoudre le système.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "af9babb4-1db6-471f-b5f1-508c0f85b890",
+      "id": "3c7633c6-99a4-441d-b6eb-ea6455d5d9d0",
       "type": "question",
       "value": {
         "latex": "Supposons que $m \\neq 0$ et $m \\neq 1$. Justifier que le système admet une unique solution quelles que soient les valeurs de $a,b,c$. Déterminer cette solution pour $a=1$, $b=2$, $c=3$ puis pour $a,b,c$ quelconques.",

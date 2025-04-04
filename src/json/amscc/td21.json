@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Sorbonne Université, Master 1 MU4MA015, Statistique, 2024-2025\\\\ Cours : A. Guyader\\\\ TD : C. Dion-Blanc, A. Godichon, A. Guyader",
     "createdAt": "2025-03-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "",
-    "updatedAt": "2025-03-28T11:57:48.232Z",
+    "updatedAt": "2025-04-04T19:05:07.146Z",
     "resume": "L'exercice compare deux estimateurs de l'espérance $m$ d'une variable aléatoire $X_1$ i.i.d. d'un échantillon $(X_i)_{1 \\leq i \\leq n}$, où la variance $\\sigma^2$ est connue. Il s'agit de démontrer que les estimateurs $\\\\overline{X}_n = \\\\frac{1}{n}\\\\sum_{i=1}^{n}X_i$ et $Z_n = \\\\frac{1}{2}(X_n + X_{n-1})$ sont sans biais. Ensuite, il faut comparer les estimateurs en calculant et comparant leurs erreurs quadratiques moyennes (EQM) pour déterminer lequel est préférable au sens du risque quadratique.",
     "competences": [
       "calculer l'espérance d'une variable aléatoire",
@@ -53,23 +53,23 @@
   },
   "contenu": [
     {
-      "id": "ba0f2319-47db-4ae2-a560-9e592af21ce1",
+      "id": "83edf1d5-f505-438e-849a-9a05d2bf03b4",
       "type": "description",
       "value": {
         "latex": "Soit un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ tel que $E(X_1) = m$ et $Var(X_1) = \\sigma^2$. On suppose $\\sigma^2$ connue, $m \\in \\mathbb{R}$ étant ici le paramètre inconnu. On propose deux estimateurs de $m$ : \n$$\\overline{X}_n=\\frac{1}{n}\\sum_{i=1}^{n}X_i,\\,\\,\\text{et}\\,\\,Z_n = \\frac{1}{2}(X_n + X_{n-1}).$$",
-        "html": "<p>Soit un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> tel que <span class=\"math inline\">\\(E(X_1) = m\\)</span> et <span class=\"math inline\">\\(Var(X_1) = \\sigma^2\\)</span>. On suppose <span class=\"math inline\">\\(\\sigma^2\\)</span> connue, <span class=\"math inline\">\\(m \\in \\mathbb{R}\\)</span> étant ici le paramètre inconnu. On propose deux estimateurs de <span class=\"math inline\">\\(m\\)</span> : <span class=\"math display\">\\[\\overline{X}_n=\\frac{1}{n}\\sum_{i=1}^{n}X_i,\\,\\,\\text{et}\\,\\,Z_n = \\frac{1}{2}(X_n + X_{n-1}).\\]</span></p>\n"
+        "html": "<p>Soit un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq\ni \\leq n}\\)</span> tel que <span class=\"math inline\">\\(E(X_1) =\nm\\)</span> et <span class=\"math inline\">\\(Var(X_1) = \\sigma^2\\)</span>.\nOn suppose <span class=\"math inline\">\\(\\sigma^2\\)</span> connue, <span\nclass=\"math inline\">\\(m \\in \\mathbb{R}\\)</span> étant ici le paramètre\ninconnu. On propose deux estimateurs de <span\nclass=\"math inline\">\\(m\\)</span> : <span\nclass=\"math display\">\\[\\overline{X}_n=\\frac{1}{n}\\sum_{i=1}^{n}X_i,\\,\\,\\text{et}\\,\\,Z_n\n= \\frac{1}{2}(X_n + X_{n-1}).\\]</span></p>\n"
       }
     },
     {
-      "id": "f3ea2039-7d12-4db6-a8f7-6e3df24ff1fb",
+      "id": "647b970a-b0d0-4299-b9e1-b02aa13e7f1f",
       "type": "question",
       "value": {
         "latex": "Montrer que $\\overline{X}_n$ et $Z_n$ sont sans biais.",
-        "html": "<p>Montrer que <span class=\"math inline\">\\(\\overline{X}_n\\)</span> et <span class=\"math inline\">\\(Z_n\\)</span> sont sans biais.</p>\n"
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\overline{X}_n\\)</span> et\n<span class=\"math inline\">\\(Z_n\\)</span> sont sans biais.</p>\n"
       }
     },
     {
-      "id": "49e1b315-892a-4cb8-b3b7-ba7887db588f",
+      "id": "655c3f91-6829-4811-af34-75bcf497eabb",
       "type": "indication",
       "value": {
         "latex": "",
@@ -77,23 +77,23 @@
       }
     },
     {
-      "id": "c55ce7ac-3ff8-4ec1-9808-91bdcb3d531e",
+      "id": "8adbff75-63f7-4090-af9f-3f67b2fc57a8",
       "type": "reponse",
       "value": {
         "latex": "On a :\n\\begin{equation}\n    \\mathbb{E}[\\overline{X}_n] = \\frac{1}{n} \\sum_{i=1}^{n} \\mathbb{E}[X_i] = m\n\\end{equation}\n\\begin{equation}\n    \\mathbb{E}[Z_n] = \\frac{1}{2} \\left( \\mathbb{E}[X_n] + \\mathbb{E}[X_{n-1}] \\right) = m\n\\end{equation}\nAinsi, les deux estimateurs sont sans biais pour l'estimation de $m$.",
-        "html": "<p>On a : <span class=\"math display\">\\[\\mathbb{E}[\\overline{X}_n] = \\frac{1}{n} \\sum_{i=1}^{n} \\mathbb{E}[X_i] = m\\]</span> <span class=\"math display\">\\[\\mathbb{E}[Z_n] = \\frac{1}{2} \\left( \\mathbb{E}[X_n] + \\mathbb{E}[X_{n-1}] \\right) = m\\]</span> Ainsi, les deux estimateurs sont sans biais pour l’estimation de <span class=\"math inline\">\\(m\\)</span>.</p>\n"
+        "html": "<p>On a : <span class=\"math display\">\\[\\mathbb{E}[\\overline{X}_n] =\n\\frac{1}{n} \\sum_{i=1}^{n} \\mathbb{E}[X_i] = m\\]</span> <span\nclass=\"math display\">\\[\\mathbb{E}[Z_n] = \\frac{1}{2} \\left(\n\\mathbb{E}[X_n] + \\mathbb{E}[X_{n-1}] \\right) = m\\]</span> Ainsi, les\ndeux estimateurs sont sans biais pour l’estimation de <span\nclass=\"math inline\">\\(m\\)</span>.</p>\n"
       }
     },
     {
-      "id": "6463f50c-9f57-4cef-81fa-0a33e509c749",
+      "id": "3361a685-a32b-4c4b-8035-82105426223f",
       "type": "question",
       "value": {
         "latex": "Qui de $\\overline{X}_n$ ou $Z_n$ choisiriez-vous pour approcher $m$ ?",
-        "html": "<p>Qui de <span class=\"math inline\">\\(\\overline{X}_n\\)</span> ou <span class=\"math inline\">\\(Z_n\\)</span> choisiriez-vous pour approcher <span class=\"math inline\">\\(m\\)</span> ?</p>\n"
+        "html": "<p>Qui de <span class=\"math inline\">\\(\\overline{X}_n\\)</span> ou <span\nclass=\"math inline\">\\(Z_n\\)</span> choisiriez-vous pour approcher <span\nclass=\"math inline\">\\(m\\)</span> ?</p>\n"
       }
     },
     {
-      "id": "450b1c11-3dd8-430c-a7f8-78f3013012ee",
+      "id": "3ab6d08e-04e2-43b4-87f6-d43fca387ba1",
       "type": "indication",
       "value": {
         "latex": "",
@@ -101,13 +101,13 @@
       }
     },
     {
-      "id": "b49a5496-e0da-4d75-a9a1-da508e6412cf",
+      "id": "68d43218-ca64-4514-87e6-a03a942326dc",
       "type": "reponse",
       "value": {
         "latex": "L'écart quadratique moyen d'un estimateur $\\hat{m}$ de $m$ est donné par :\n\\begin{equation}\n    EQM(\\hat{m}) = (\\mathbb{E}[\\hat{m}] - m)^2 + \\text{Var}(\\hat{m}).\n\\end{equation}\nOn compare les EQM des deux estimateurs. On a :\n\\begin{equation}\n    EQM(\\overline{X}_n) = 0 + \\text{Var}(\\overline{X}_n) = \\frac{\\sigma^2}{n}\n\\end{equation}\n\\begin{equation}\n    EQM(Z_n) = 0 + \\frac{1}{4} \\text{Var}(X_n + X_{n-1}) = \\frac{\\sigma^2}{2}.\n\\end{equation}\nPour tout $n \\geq 3$, on a $EQM(\\overline{X}_n) < EQM(Z_n)$, donc $\\overline{X}_n$ est préférable à $Z_n$ au sens du risque quadratique.",
-        "html": "<p>L’écart quadratique moyen d’un estimateur <span class=\"math inline\">\\(\\hat{m}\\)</span> de <span class=\"math inline\">\\(m\\)</span> est donné par : <span class=\"math display\">\\[EQM(\\hat{m}) = (\\mathbb{E}[\\hat{m}] - m)^2 + \\text{Var}(\\hat{m}).\\]</span> On compare les EQM des deux estimateurs. On a : <span class=\"math display\">\\[EQM(\\overline{X}_n) = 0 + \\text{Var}(\\overline{X}_n) = \\frac{\\sigma^2}{n}\\]</span> <span class=\"math display\">\\[EQM(Z_n) = 0 + \\frac{1}{4} \\text{Var}(X_n + X_{n-1}) = \\frac{\\sigma^2}{2}.\\]</span> Pour tout <span class=\"math inline\">\\(n \\geq 3\\)</span>, on a <span class=\"math inline\">\\(EQM(\\overline{X}_n) &lt; EQM(Z_n)\\)</span>, donc <span class=\"math inline\">\\(\\overline{X}_n\\)</span> est préférable à <span class=\"math inline\">\\(Z_n\\)</span> au sens du risque quadratique.</p>\n"
+        "html": "<p>L’écart quadratique moyen d’un estimateur <span\nclass=\"math inline\">\\(\\hat{m}\\)</span> de <span\nclass=\"math inline\">\\(m\\)</span> est donné par : <span\nclass=\"math display\">\\[EQM(\\hat{m}) = (\\mathbb{E}[\\hat{m}] - m)^2 +\n\\text{Var}(\\hat{m}).\\]</span> On compare les EQM des deux estimateurs.\nOn a : <span class=\"math display\">\\[EQM(\\overline{X}_n) = 0 +\n\\text{Var}(\\overline{X}_n) = \\frac{\\sigma^2}{n}\\]</span> <span\nclass=\"math display\">\\[EQM(Z_n) = 0 + \\frac{1}{4} \\text{Var}(X_n +\nX_{n-1}) = \\frac{\\sigma^2}{2}.\\]</span> Pour tout <span\nclass=\"math inline\">\\(n \\geq 3\\)</span>, on a <span\nclass=\"math inline\">\\(EQM(\\overline{X}_n) &lt; EQM(Z_n)\\)</span>, donc\n<span class=\"math inline\">\\(\\overline{X}_n\\)</span> est préférable à\n<span class=\"math inline\">\\(Z_n\\)</span> au sens du risque\nquadratique.</p>\n"
       }
     }
   ],
-  "preview": "<p>Soit un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> tel que <span class=\"math inline\">\\(E(X_1) = m\\)</span> et  ..."
+  "preview": "<p>Soit un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq\ni \\leq n}\\)</span> tel que <span class=\"math inline\">\\(E(X_1) =\nm\\)</span> et  ..."
 }

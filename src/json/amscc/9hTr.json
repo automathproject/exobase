@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:38.240Z",
+    "updatedAt": "2025-04-04T19:01:50.879Z",
     "resume": "L'exercice porte sur l'étude de deux variables aléatoires $X$ et $Y$ indépendantes suivant une loi exponentielle de paramètre $\\lambda = 2$, représentant des temps d'attente. Il évalue les compétences suivantes :\n\n*   Calcul de l'espérance d'une variable exponentielle : $\\mathbb{E}(X) = \\frac{1}{\\lambda}$.\n*   Détermination de la densité d'une transformée de variable aléatoire par la méthode d'identification (pour $X^2$ et $-Y$).\n*   Calcul de probabilité impliquant une intégrale double sur un domaine défini par une inégalité, en exploitant l'indépendance des variables et la densité du couple $(X, Y)$.",
     "competences": [
       "calculer une intégrale double sur un domaine défini",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "6d3559fb-b4b0-41b0-ae82-fa9531463998",
+      "id": "20e04d37-bff2-4f2e-859e-661c854bf9b1",
       "type": "description",
       "value": {
         "latex": "On considère deux files d'attente indépendantes. Deux personnes arrivent simultanément et se présentent respectivement aux deux files d'attente. On note $X$ le temps d'attente de la première personne, $Y$ le temps d'attente de la seconde personne, en minutes. On supposera que $X$ et $Y$ suivent chacune une loi exponentielle de paramètre $\\lambda =2$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "3a3eca3d-f5cb-4d63-be37-e72f6fba1666",
+      "id": "3a23f01b-c94f-4d4d-8237-9a835a995d1e",
       "type": "question",
       "value": {
         "latex": "Quel est le temps d'attente moyen pour chaque personne ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "53223d1f-6c81-44b1-a82e-a5049ad782cd",
+      "id": "88152d53-5eb9-464e-986c-f5f3d37696dc",
       "type": "reponse",
       "value": {
         "latex": "Puisque $X$ et $Y$ suivent chacune une loi exponentielle de paramètre $\\lambda =2$, on a $\\mathbb{E}(X)=\\mathbb{E}(Y) = 0.5$ minutes, ce qui donne le temps d'attente moyen pour chaque personne.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "0ac5c21c-8994-4b1b-9c08-04edebe3d3c1",
+      "id": "0aa529ee-98b4-4fc3-bc33-9a5e6bc120df",
       "type": "question",
       "value": {
         "latex": "Quelle est la densité de la variable $X^2$ ? la variable $-Y$ ?",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "eea3791e-08de-42c1-aa97-f7fc3714c7ed",
+      "id": "11d07374-64c9-4105-9336-d6951d5c9cf1",
       "type": "reponse",
       "value": {
         "latex": "Pour obtenir la loi de $X^2$, on cherche sa densité par identification. Soit $h$ une fonction continue bornée quelconque : \n\t\t$$\\begin{align*}\n\t\t\t\\mathbb{E}(h(X^2)) &= \\int_0^{+\\infty}  h(x^2)2e^{-2x}dx \\\\\n\t\t\t&= \\int_0^{+\\infty} 2h(u)e^{-2\\sqrt{u}} \\frac{1}{2\\sqrt{u}} du\n\t\t\\end{align*}$$\t\n\t\tPar identification, on en déduit une densité de $X^2$ définie par $f_{X^2}(x) = \\frac{e^{-2\\sqrt{u}}}{\\sqrt{u}}1_{\\R_+}(x)$.\n\t\t\n\t\tOn procède de même pour obtenir la loi de $-Y$ : \n\t\t$$\\begin{align*}\n\t\t\t\\mathbb{E}(h(-Y)) &= \\int_0^{+\\infty}  h(-x)2e^{-2x}dx \\\\\n\t\t\t&= \\int_0^{-\\infty} 2h(u)e^{2{u}} \\times (-du) \\\\\n\t\t\t&= \\int_{-\\infty}^0 2h(u)e^{2{u}} du \\\\\n\t\t\\end{align*}$$\n\t\tPar identification, on en déduit une densité de $-Y$ définie par $f_{-Y}(y) = {2e^{2{y}}}1_{\\R_-}(y) = f_Y(-y)$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "c3105e59-f7b7-4308-8dc5-cf87b7aab3ac",
+      "id": "000d4e31-f970-4b63-bd17-17647b905f5e",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité que la différence d'attente entre les deux personnes soit inférieure à 1 minute.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "22353346-97b5-47bf-bb4b-ddeed1b76cdf",
+      "id": "f49cd66f-6444-491f-9c4a-cbfe4004fe9b",
       "type": "reponse",
       "value": {
         "latex": "On calcule $\\PP(|X-Y|<1) = \\PP(-1<X-Y<1)$ en utilisant la loi du couple $(X,Y)$. Par indépendance de $X$ et $Y$, le couple $(X,Y)$ admet pour densité $g(x,y)=2e^{-2x}\\times 2e^{-2y}1_{\\R_+^2}(x,y)$. La probabilité cherchée est \n\t\t$$\\PP(|X-Y|<1) = \\iint_D g(x,y)dxdy$$\n\t\toù $D=\\{(x,y) \\in \\mathbb{R}^2 \\, , \\, x>0, y>0, -1<x-y<1 \\} = \\{ y\\in[0;1], x \\in [0;1+y]  \\} \\cup  \\{ y\\in]1;+\\infty, x \\in [-1+y;1+y]  \\} $.\n\t\t\n\t\tOn utilise cette décomposition du domaine $D$ pour écrire l'intégrale sous forme d'une somme :\n\t\t$$\\begin{align*}\n\t\t\t\\iint_D g(x,y)dxdy &= \\int_0^1 \\int_0^{1+y}2e^{-2x}dx 2e^{-2y}dy &+&  \\int_1^{+\\infty} \\int_{y-1}^{y+1}2e^{-2x}dx 2e^{-2y}dy\t\\\\\n\t\t\t&= \\int_0^1 2e^{-2y}(1-e^{-2(1+y)})dy &+&  \\int_1^{+\\infty} (e^{-2(y-1)}-e^{-2(y+1)})  (1-e^{-2(1+y)}) \\\\\n\t\t\t&= 1-\\frac{3}{2}e^{-2}+\\frac{1}{2}e^{-6} &+& \\frac{1}{2}e^{-2}-\\frac{1}{2}e^{-6} \\\\\n\t\t\t&= 1-e^{-2} &&\n\t\\end{align*}$$",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:19.348Z",
+    "updatedAt": "2025-04-04T19:05:10.709Z",
     "resume": "Cet exercice étudie la convergence des séries de Bertrand $\\sum_{n \\geq 2} u_n$ où $u_n = \\frac{1}{n^\\alpha (\\ln(n))^\\beta}$ en fonction des paramètres réels $\\alpha$ et $\\beta$. Les compétences mises en œuvre sont :\n\n*   **Cas $\\alpha > 1$ :** Utilisation de la définition de la convergence par domination, avec une série de Riemann $\\sum \\frac{1}{n^\\gamma}$, et comparaison de suites.\n*   **Cas $\\alpha < 1$ :** Utilisation de la divergence par minoration, en comparant avec $\\frac{1}{n}$.\n*   **Cas $\\alpha = 1, \\beta \\leq 0$ :** Minoration du terme général par $\\frac{1}{n}$ pour conclure à la divergence.\n*   **Cas $\\alpha = 1, \\beta > 0$ :** Application du théorème de comparaison série-intégrale après avoir vérifié que la fonction $f(x) = \\frac{1}{x(\\ln x)^\\beta}$ est positive et décroissante. Le calcul de l'intégrale $\\int_2^{+ \\infty} f(t) dt$ est effectué par changement de variable $u = \\ln(t)$, ramenant à l'étude de la convergence d'une intégrale de Riemann du type $\\int \\frac{1}{u^\\beta}du$.",
     "competences": [
       "étudier la convergence d'une série numérique",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "f8871f3b-ba1e-409f-b8c7-e895b5a96fdd",
+      "id": "5ff96b01-36cd-426f-a18e-8a9f61661d90",
       "type": "description",
       "value": {
         "latex": "Soient $\\alpha \\in \\R$ et $\\beta \\in \\R$ deux paramètres réels. On s'intéresse à la série $\\displaystyle \\sum_{n \\geq 2} u_n$ avec \n$$u_n = \\frac{1}{n^\\alpha \\left(\\ln(n)\\right)^\\beta}$$\nqui s'appelle une série de Bertrand. Sa convergence dépend des valeurs prises par $\\alpha$ et $\\beta$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "6021e0dd-cabc-4d00-aabd-97a15fb7557a",
+      "id": "5d4cff93-3546-4ca1-9bb6-8ac74abc44a9",
       "type": "description",
       "value": {
         "latex": "Supposons que $\\alpha >1$ ($\\beta$ est quelconque).  On pose $\\gamma = \\frac{1+\\alpha}{2}$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "fa61f391-bd2a-4f93-91fa-2ce32f805b0e",
+      "id": "5f220f70-ca4b-4f39-97fb-f0166a584c71",
       "type": "question",
       "value": {
         "latex": "Vérifier que $\\gamma < \\alpha$. Que peut-on dire de la série $\\sum \\frac{1}{n^\\gamma}$ ?",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "c8c117aa-a01f-451d-956a-85fe475c6ade",
+      "id": "c11eb68d-f6e3-4924-a7e5-ee950242c064",
       "type": "reponse",
       "value": {
         "latex": "On observe que $\\alpha >1$ d'où $2\\alpha = \\alpha + \\alpha > 1+\\alpha = 2\\gamma$ d'où $\\alpha > \\gamma$. De plus, $\\alpha > 1$ d'où $1+\\alpha > 2$ d'où $\\frac{1+\\alpha}{2} = \\gamma > 1$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "63ee6626-804b-4959-985a-2870e0e6870f",
+      "id": "1f7c079b-49da-4728-8983-046df7d16ec6",
       "type": "question",
       "value": {
         "latex": "Vérifier que $\\lim\\limits_{n \\to +\\infty} n^{\\gamma} u_n = 0$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "9eba6440-c587-43ed-84be-065781dbd9b0",
+      "id": "251d71f1-1604-42a1-a8e3-78fd10240f27",
       "type": "reponse",
       "value": {
         "latex": "Si $\\beta \\geq 0$ alors on peut majorer $n^{\\gamma} u_n = \\frac{1}{n^{\\alpha-\\gamma} \\left(\\ln(n)\\right)^\\beta} \\leq  \\frac{1}{n^{\\alpha-\\gamma}} \\xrightarrow[n \\to +\\infty]{} 0$ d'où le résultat. Enfin, si $\\beta <0$ alors par croissances comparées, $\\frac{ \\left(\\ln(n)\\right)^{-\\beta}}{n^{\\alpha-\\gamma}}  \\xrightarrow[n \\to +\\infty]{} 0$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "e83ac57a-c5a7-4b2f-a27c-fa09e137dd44",
+      "id": "588d18bc-1174-460c-af0a-12f3d0601024",
       "type": "question",
       "value": {
         "latex": "Conclure sur la convergence de   $\\displaystyle \\sum_{n \\geq 1} u_n$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "92e20e8f-96dd-40c2-aa5d-56295b4aef8c",
+      "id": "96cc41cb-5523-4181-b514-502af7ec5305",
       "type": "reponse",
       "value": {
         "latex": "Donc par définition, $u_n = o\\left(\\frac{1}{n^{\\gamma}}\\right)$ or $\\sum \\frac{1}{n^\\gamma}$ est une série convergente donc par comparaison de séries à termes positifs, $\\sum u_n$ est également une série convergente.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "42b81aaa-f426-4766-a59c-ef075503f703",
+      "id": "42b65cc8-c0a2-4dde-b595-c4bf7520da7f",
       "type": "question",
       "value": {
         "latex": "Supposons que $\\alpha <1$ : calculer $\\lim\\limits_{n \\to +\\infty} nu_n$ et  conclure sur la convergence de   $\\displaystyle \\sum_{n \\geq 1} u_n$.",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "a24b4603-02d7-4b59-b6d5-ce49515b2633",
+      "id": "ccd803b2-3460-454a-95b3-513903b7441a",
       "type": "reponse",
       "value": {
         "latex": "Si $\\alpha <1$ alors $\\lim\\limits_{n \\to +\\infty} nu_n = \\lim\\limits_{n \\to +\\infty} \\frac{n}{n^\\alpha \\left(\\ln(n)\\right)^\\beta} = \\lim\\limits_{n \\to +\\infty} \\frac{n^{1-\\alpha}}{\\left(\\ln(n)\\right)^\\beta} = +\\infty$ donc à partir d'un certain rang, $nu_n \\geq 1$ donc $u_n \\geq \\frac{1}{n}$ donc par comparaison à une série de Riemann divergente ($\\alpha = 1>0$), la série $\\sum u_n$ diverge.",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "651e20bc-c112-486f-af33-47dd10dfc735",
+      "id": "deaa3ac7-e1d3-48a7-8fb1-e967ceab2af3",
       "type": "description",
       "value": {
         "latex": "Supposons que $\\alpha = 1$ et $\\beta \\leq 0$.",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "1540d116-adef-4f2b-9937-e1b47a8929b7",
+      "id": "b0629b2b-fade-454b-867a-afba0442257e",
       "type": "question",
       "value": {
         "latex": "Montrer qu'il existe un rang $N$ à partir duquel pour tout $n \\geq N$ alors $\\frac{1}{ \\left(\\ln(n)\\right)^\\beta} \\geq 1$.",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "id": "3be62ef2-b6e0-4cc9-8538-7f12d1ff8fdf",
+      "id": "0e4e7ddf-eee5-4344-b8ce-3de67184269a",
       "type": "reponse",
       "value": {
         "latex": "Si $\\beta \\leq 0$ alors $\\left(\\ln(n)\\right)^{-\\beta} \\geq 1$ pour tout $n \\geq 3$ donc à partir du rang $N = 3$, $\\frac{1}{ \\left(\\ln(n)\\right)^\\beta} \\geq 1$.",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "74927c07-1fcc-4b77-9603-a037365bd3ae",
+      "id": "7692302d-37fc-4c29-b0b7-c2db88dbb3bd",
       "type": "question",
       "value": {
         "latex": "Conclure sur la convergence de   $\\displaystyle \\sum_{n \\geq 1} u_n$.",
@@ -166,7 +166,7 @@
       }
     },
     {
-      "id": "32766289-7d1c-4e1d-af29-9031b59df58d",
+      "id": "f390af65-b765-4bf9-90b3-05cc3f37327c",
       "type": "reponse",
       "value": {
         "latex": "On en déduit que $u_n = \\frac{1}{n \\left(\\ln(n)\\right)^\\beta} \\geq \\frac{1}{n}$ pour tout $n \\geq N=3$ donc par comparaison à une série de Riemann divergente ($\\alpha = 1>0$), la série $\\sum u_n$ diverge.",
@@ -174,7 +174,7 @@
       }
     },
     {
-      "id": "a48710d4-9152-471a-b817-d338a902e52a",
+      "id": "f59ccb3c-1587-4028-8204-7619affc9ae7",
       "type": "description",
       "value": {
         "latex": "Supposons que $\\alpha = 1$ et $\\beta > 0$. Pour tout $x >1$, On pose $f(x) = \\frac{1}{x \\ln(x)^\\beta}$ de sorte que $u_n = f(n)$ pour tout $n \\geq 2$.",
@@ -182,7 +182,7 @@
       }
     },
     {
-      "id": "c1093f37-dc9e-4819-88a4-e0f898e434f3",
+      "id": "b5baeec1-326c-453f-8924-a7f7ad367572",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ est positive et décroissante sur $]1+\\infty[$.",
@@ -190,7 +190,7 @@
       }
     },
     {
-      "id": "9368ce59-d501-4746-beeb-d5905b0d272c",
+      "id": "73fc4bc6-3983-489c-80b6-0c2e24ae4315",
       "type": "reponse",
       "value": {
         "latex": "On a $f(x) = \\frac{1}{x \\ln(x)^\\beta}$ et $\\ln(x) > 0$ pour tout $x >1$ donc $\\left(\\ln(x)\\right)^{\\beta-1} > 0$ pour tout $x >1$ donc $f$ est positive sur $]1,+\\infty[$. \\\\\n\tDe plus, $f'(x) = \\frac{-\\ln(x)^\\beta - \\beta x \\ln(x)^{\\beta-1}}{x^2 \\ln(x)^{2\\beta}} = \\frac{-\\ln(x)^{\\beta-1} \\left(\\ln(x) + \\beta x\\right)}{x^2 \\ln(x)^{2\\beta}}$ et $\\ln(x) + \\beta x > 0$ pour tout $x >1$ donc $f'(x) < 0$ pour tout $x >1$ donc $f$ est décroissante sur $]1,+\\infty[$.",
@@ -198,7 +198,7 @@
       }
     },
     {
-      "id": "66cc5bda-0e04-4c5f-b9ff-675fef36d409",
+      "id": "e5afeb7b-6caf-4bb4-8203-887c22d22f0c",
       "type": "question",
       "value": {
         "latex": "On considère l'intégrale $$I = \\int_2^{+\\infty} f(t)dt$$\n\tEn effectuant le changement de variable $u = \\ln(t)$, montrer que $I$ est une intégrale convergente si et seulement si $\\beta >1$.",
@@ -206,7 +206,7 @@
       }
     },
     {
-      "id": "23aa57fd-5c25-4be0-a7e6-2aa2821b76a5",
+      "id": "986a95a2-9c10-4b8a-8dfc-bdeb877dddfb",
       "type": "reponse",
       "value": {
         "latex": "On pose $u = \\ln(t)$ de sorte que $du = \\frac{dt}{t}$ et $t = e^u$ donc \n\t$$I = \\int_2^{+\\infty} f(t)dt = \\int_{\\ln(2)}^{+\\infty} \\frac{1}{e^u \\ln(e^u)^\\beta}e^udu = \\int_{\\ln(2)}^{+\\infty} \\frac{1}{e^u u^\\beta}e^udu = \\int_{\\ln(2)}^{+\\infty} \\frac{1}{u^\\beta}du$$\n\tOr $\\beta >1$ donc $\\beta -1 >0$ donc par théorème de comparaison à une intégrale de Riemann convergente ($\\alpha = \\beta -1 >0$), l'intégrale $I$ est convergente. \\\\\n\tRéciproquement, si $\\beta \\leq 1$ alors $\\beta -1 \\leq 0$ donc par théorème de comparaison à une intégrale de Riemann divergente ($\\alpha = \\beta -1 \\leq 0$), l'intégrale $I$ est divergente.",
@@ -214,7 +214,7 @@
       }
     },
     {
-      "id": "ed73c91b-3a8e-4702-9abb-25b63f3e3f4e",
+      "id": "e75b70bd-6f2c-4bc0-a605-009da6984246",
       "type": "question",
       "value": {
         "latex": "Conclure sur la convergence de   $\\displaystyle \\sum_{n \\geq 1} u_n$.",
@@ -222,7 +222,7 @@
       }
     },
     {
-      "id": "e67e39d1-8206-40c0-9e4f-4a53f7916b7c",
+      "id": "5cf848b0-cf54-4d21-ae9e-a20d090f3889",
       "type": "reponse",
       "value": {
         "latex": "Par théorème de comparaison série intégrale, la série $\\sum u_n$ converge si et seulement si l'intégrale $I$ converge donc par la question précédente, la série $\\sum u_n$ converge si et seulement si $\\beta >1$.",

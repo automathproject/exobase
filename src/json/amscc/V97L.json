@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Variable aléatoire discrète",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:37.374Z",
+    "updatedAt": "2025-04-04T19:02:30.443Z",
     "resume": "L'exercice porte sur une variable aléatoire discrète $X$ suivant une loi binomiale $\\mathcal{B}(n, 0.5)$, représentant le nombre de succès (résultat pair d'un dé) après $n$ lancers. Il s'agit de :\n\n1.  Déterminer la loi, l'espérance $\\E(X) = \\frac{n}{2}$, et la variance $\\V(X) = \\frac{n}{4}$ de $X$.\n2.  Exprimer le gain $G$ en fonction de $X$: $G = 2X - n$.\n3.  Exprimer l'événement \"le gain ou la perte n'excède pas 20 euros\" en fonction de $X$: $\\{ |X - \\frac{n}{2}| \\leq 10 \\}$.\n4.  Utiliser le théorème central limite pour approcher la loi de $X$ par une loi normale, afin de déterminer la valeur maximale de $n$ telle que $\\prob(|X - \\frac{n}{2}| \\leq 10) \\geq 0.9544$. On utilise l'approximation $Z = \\frac{X - \\frac{n}{2}}{\\frac{\\sqrt{n}}{2}} \\sim \\mathcal{N}(0, 1)$ et la fonction de répartition $\\Phi$ de la loi normale centrée réduite pour obtenir la condition $\\Phi(\\frac{20}{\\sqrt{n}}) \\geq 0.9772$, conduisant à $n \\leq 100$.",
     "competences": [
       "appliquer le théorème central limite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "e160c339-1d82-421a-b6e6-cd651b272e73",
+      "id": "7da95124-dbd0-42b2-98a4-c026c71d42f2",
       "type": "description",
       "value": {
         "latex": "On lance un dé équilibré. On gagne 1 euro si le résultat est pair, on pert 1 euro si le résultat est impair. Ŝoit $n \\geq 1$ le nombre de parties. On note $X$ le nombre le nombre de lancers pairs obtenus au bout de $n$ parties et $G$ le gain obtenu au bout de $n$ parties.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "e12f33db-0f8c-4ea8-b81b-7d39fbbc4f5d",
+      "id": "b0c314cb-fb2d-4ceb-8616-6d3e9cc37a87",
       "type": "question",
       "value": {
         "latex": "Donner la loi de $X$, son espérance et sa variance.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "a1db79d6-896a-4ee4-8a4b-a789da347f13",
+      "id": "214c6e8f-da5f-48af-bc76-620acf119035",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire $X$ donne le nombre de succès à l'issue de $n$ expériences indépendantes de Bernoulli où le succès est l'obtention d'un résultat pair, de probabilité $p=0.5$. On a donc $X\\sim\\mathcal{B}(n,0.5)$, $\\E(X) = n\\times0.5 = \\frac{n}{2}$ et $\\V(X) = n\\times0.5\\times0.5 = \\frac{n}{4}$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "3613d2e2-efda-42f0-afaf-32cbd450c6e9",
+      "id": "049acc27-8e9a-417e-b180-452417460ee1",
       "type": "question",
       "value": {
         "latex": "Exprimer $G$ en fonction de $X$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "ca1fed90-d371-4c30-9479-ea2f3d68a604",
+      "id": "ab6a6a40-de98-4f24-a74b-6dfa8d5d1c70",
       "type": "reponse",
       "value": {
         "latex": "On a $G = X - (n-X) = 2X-n$.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "6c303390-8cee-4042-a79f-fb16bfd81626",
+      "id": "d66741ac-a35d-49ef-973f-6b842a65c43f",
       "type": "question",
       "value": {
         "latex": "Exprimer l'événement \\og le gain ou la perte n'excède pas 20 euros \\fg{} en fonction de $X$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "b32957f1-3090-4efb-b450-3735bda62de3",
+      "id": "0a1a8664-410f-4e23-a7cc-ea40d88038ee",
       "type": "reponse",
       "value": {
         "latex": "On a $-20 \\leq G \\leq 20 \\iff -20 \\leq 2X-n \\leq 20 \\iff -10 \\leq X-\\frac{n}{2} \\leq 10$. Donc l'événement considéré est $\\{|X - \\frac{n}{2}| \\leq 10\\}$ ou encore $\\{-10 \\leq X - \\frac{n}{2} \\leq 10\\}$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "a67f4dbd-c46b-4a87-bcf8-c09fefbed9d8",
+      "id": "a031a2ca-2979-4f5b-935c-31695baa0af9",
       "type": "question",
       "value": {
         "latex": "En utilisant le théorème central limite sans correction de continuité, déterminer le nombre maximal de lancers $n$ à effectuer pour que la probabilité de l'événement \\og le gain ou la perte n'excède pas 20 euros \\fg{} soit supérieure à $0.9544$.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "941e119e-2afd-435b-98f5-8475cdcfc33e",
+      "id": "affcf0bd-649a-4dad-8793-a2731532a687",
       "type": "reponse",
       "value": {
         "latex": "On cherche $n$ tel que $\\prob(|X - \\frac{n}{2}| \\leq 10) \\geq 0.9544$. On sait que $\\E(X) = \\frac{n}{2}$ et $\\V(X) = \\frac{n}{4}$. D'après le théorème central limite, la variable aléatoire $Z = \\frac{X-\\frac{n}{2}}{\\frac{\\sqrt{n}}{2}}$ suit approximativement une loi normale centrée réduite. On a donc : \n            $$\\prob(|X - \\frac{n}{2}| \\leq 10) = \\prob\\left(\\frac{|X - \\frac{n}{2}|}{\\frac{\\sqrt{n}}{2}} \\leq \\frac{10}{\\frac{\\sqrt{n}}{2}}\\right) = \\prob\\left(|Z| \\leq \\frac{10}{\\frac{\\sqrt{n}}{2}}\\right)$$\n            On cherche donc $n$ tel que $\\prob(|Z| \\leq \\frac{10}{\\frac{\\sqrt{n}}{2}}) = 2 \\times \\Phi(\\frac{10}{\\frac{\\sqrt{n}}{2}}) - 1 = 2 \\times \\Phi(\\frac{20}{\\sqrt{n}}) - 1 \\geq 0.9544$ soit encore $\\Phi(\\frac{20}{\\sqrt{n}}) \\geq 0.9772$.\n\n            Par lecture de table, on trouve $\\frac{20}{\\sqrt{n}} \\geq 2$ soit $n \\leq 100$.",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:02.204Z",
+    "updatedAt": "2025-04-04T19:02:45.269Z",
     "resume": "L'exercice porte sur une variable aléatoire réelle $X$ dont la densité $f_\\theta(x)$ dépend d'un paramètre $\\theta$. Il évalue les compétences suivantes:\n\n1.  Détermination de la condition sur $\\theta$ pour que $f_\\theta$ soit une densité de probabilité (positivité et intégrale égale à 1).\n2.  Calcul de l'espérance $\\mathbb{E}[X]$ d'une variable aléatoire continue à partir de sa densité.\n3.  Identification de la loi de Bernoulli d'une variable indicatrice $1_{]0;+\\infty[}(X_i)$ et détermination de son paramètre à partir de la densité de $X$.\n4.  Déduction de la loi binomiale de $V_n = \\sum_{i=1}^{n} 1_{]0;+\\infty[}(X_i)$ et identification de ses paramètres.\n5.  Vérification qu'une variable aléatoire $U_n + V_n$ est constante et égale à $n$.\n6.  Calcul de l'espérance $\\mathbb{E}\\left(\\frac{V_n-U_n}{n}\\right)$ en utilisant les propriétés de l'espérance et la loi de $V_n$.\n7.  Calcul de $\\mathbb{E}(U_nV_n)$ et déduction de la covariance $\\textrm{cov}(U_n, V_n)$ à l'aide de la loi de $V_n$.\n8.  Démonstration que la variance de $\\frac{V_n-U_n}{n}$ tend vers 0 lorsque $n$ tend vers l'infini, en utilisant les propriétés de la variance et de la covariance.",
     "competences": [
       "calculer l'espérance d'une variable aléatoire continue",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "305fb343-f87d-4cd9-a090-848d580fb07b",
+      "id": "b668b2fe-f6dc-4ea4-8656-89b7050ff2a0",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire réelle de densité $f_{\\theta}$ définie par\n\t$$\tf_{\\theta}(x) = (1 - \\theta )1_{[-\\frac{1}{2} ; 0]}(x) + (1 + \\theta )1_{]0 ; \\frac{1}{2}]}(x)$$\n\toù $\\theta$ est un paramètre réel tel que $|\\theta| \\neq 1$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "789ac6f0-5792-40b2-b74f-94f6f3184420",
+      "id": "ccf029ca-9ab6-4bbd-bd5e-55ebb2f49047",
       "type": "question",
       "value": {
         "latex": "A quelles conditions sur $\\theta$ la fonction $f_\\theta$ est bien une densité de probabilité ?",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "228a3e21-f1bb-4e07-83cb-739cdb6c479a",
+      "id": "0bfb6be5-5ff7-40d1-bc0f-cde48530e007",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f_{\\theta}$ est une densité de probabilité si elle est intégrable, positive sur $\\R$ et d'intégrale égale à $1$.\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item La positivité impose $-1\\leq \\theta \\leq 1$. \n\t\t\t\t\\item $\\int_{\\R} f_{\\theta}(x)\\ dx = \\int_{-1/2}^{0} (1-\\theta)\\ dx + \\int_{0}^{1/2} (1+\\theta) \\ dx = \\dfrac{1}{2}(1-\\theta) + \\dfrac{1}{2}(1+\\theta) = 1$ donc ne fournit pas de condition spécifique sur $\\theta$.\n\t\t\t\\end{itemize}\n\t\t\tEn synthèse, $f_{\\theta}$ est une densité si et seulement si $|\\theta| \\leq 1$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "c2bb4367-7d30-48fd-b822-241cbf24d342",
+      "id": "0484d34f-1bd7-441a-be1f-57f6cadd03a4",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "0c68312f-9154-4381-9478-75cdf3b53703",
+      "id": "24ea1ebf-a5cb-4459-b20c-ab3b5b054327",
       "type": "reponse",
       "value": {
         "latex": "C'est une simple application de la définition\n\t\t\t$$\\begin{align*}\n\t\t\t\\mathbb{E}[X] &= \\int_{\\R} x\\ f_{\\theta}(x)\\ dx \\\\\n\t\t\t&= \\int_{-1/2}^{0} x(1-\\theta) \\ dx + \\int_{0}^{1/2} x(1+\\theta)\\ dx \\\\\n\t\t\t&= \\left[ (1-\\theta)\\dfrac{x^2}{2}\\right]_{-1/2}^{0} + \\left[ (1+\\theta)\\dfrac{x^2}{2}\\right]_{0}^{1/2} \\\\\n\t\t\t&= \\dfrac{\\theta}{4}\n\t\t\t\\end{align*}$$",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "65aad2af-10bf-429b-9e48-c635245d0fb3",
+      "id": "e285f8a7-3410-42c1-b2da-b69217732be9",
       "type": "description",
       "value": {
         "latex": "Soient $n$ variables aléatoires $X_1,...,X_n$ indépendantes et identiquement distribuées selon la loi de $X$. On définit les variables aléatoires :\n\t\t$$U_n = \\sum_{i=1}^{n} 1_{]-\\infty;0]}(X_i) \\qquad V_n = \\sum_{i=1}^{n} 1_{]0;+\\infty[}(X_i)$$",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "4b9e7c51-a1f8-4d53-887d-b253eb5c81a9",
+      "id": "fe5fece6-146e-4178-ae94-068f83596155",
       "type": "question",
       "value": {
         "latex": "Vérifier que si $ 1 \\leq i \\ \\leq n$ alors la variable aléatoire $ 1_{]0;+\\infty[}(X_i)$ suit une loi de Bernoulli dont on précisera le paramètre.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "9c90aa79-5070-4bd3-9a0a-de1f2837441a",
+      "id": "b1084ff1-a749-4279-a763-4d9c7ee723ed",
       "type": "reponse",
       "value": {
         "latex": "La variable aléatoire \n\t\t\t$$p=\\PP(1_{]0;+\\infty[}(X_i)=1)=\\PP(X_i\\in ]0;+\\infty[)=\\int_0^{+\\infty} f_\\theta (x)dx= \\int_{0}^{1/2} (1+\\theta)\\ dx =\\frac{1+\\theta}{2}$$\n\t\t\t\td'où $ 1_{]0;+\\infty[}(X_i) \\sim \\mathcal{B}\\left(\\frac{1+\\theta}{2} \\right)$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "c5d1b56e-5759-4b1b-84b8-fda4cc86d3ef",
+      "id": "05f446e6-3bbf-497c-ad74-98d1f12db453",
       "type": "question",
       "value": {
         "latex": "En déduire que $V_n$ suit une loi binomiale dont on précisera les paramètres.",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "753af40b-266c-4724-b770-23076487b6f3",
+      "id": "bcff1d0c-f8da-4cc9-9766-de80eacacf15",
       "type": "reponse",
       "value": {
         "latex": "Les variables aléatoires $(X_i)_{i\\in\\{1,\\cdots,n\\}}$ étant indépendantes, il en est de même des variables aléatoires $(1_{]0;+\\infty[}(X_i))_{i\\in\\{1,\\cdots,n\\}}$, qui sont telles que $ 1_{]0;+\\infty[}(X_i) \\sim \\mathcal{B}\\left(\\frac{1+\\theta}{2} \\right)$ pour $i\\in\\{1,\\cdots,n\\}$. \\\\\n\t\t\t\tDonc $V_n$ est une somme de variables aléatoires indépendantes de loi de Bernoulli de paramètre $\\frac{1+\\theta}{2}$. On en conclut que $V_n \\sim \\mathcal{B}\\left( n,\\frac{1+\\theta}{2}\\right)$.",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "id": "b7c961cf-bb7c-4b4a-a26c-08e433a02953",
+      "id": "30a7109d-1bec-4d93-8caf-daa0a1a68171",
       "type": "question",
       "value": {
         "latex": "Vérifier que la variable aléatoire $U_n+V_n$ est constante.",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": "df8dd956-0179-4877-b65c-8fa26097412b",
+      "id": "c5936937-da9b-4002-9ca5-7222cf2bafc6",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\tU_n+V_n&=\\sum_{i=1}^{n} \\left(\\mathbf{1}_{]-\\infty;0]}(X_i)+ \\mathbf{1}_{]0;+\\infty[}(X_i) \\right) \n\t\t\t\t= \\sum_{i=1}^{n} \\mathbf{1}_\\R(X_i) = \\sum_{i=1}^{n} 1=n\n\t\t\t\t\\end{align*}$$",
@@ -149,7 +149,7 @@
       }
     },
     {
-      "id": "f39633fc-87e7-4a14-b928-e018466f9abc",
+      "id": "9cf69017-03cf-440b-b918-293327adbae5",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de la variable aléatoire $\\dfrac{V_n-U_n}{n}$.",
@@ -157,7 +157,7 @@
       }
     },
     {
-      "id": "3741679d-0c7e-4f64-aa74-996da45352e7",
+      "id": "15a02f2d-12d1-4991-b9c6-7a58820973c4",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t\\E \\left( \\frac{V_n-U_n}{n}\\right)\n\t\t\t\t&=  \\E \\left( \\frac{V_n-(n-V_n)}{n}\\right)\n\t\t\t\t= \\frac{2}{n}\\E (V_n)-1\n\t\t\t\t=\\frac{2}{n}\\times n \\times \\frac{1+\\theta}{2}-1\n\t\t\t\t=\\theta\n\t\t\t\t\\end{align*}$$",
@@ -165,7 +165,7 @@
       }
     },
     {
-      "id": "52e59af6-c372-4dbe-89bd-8aba7815dbee",
+      "id": "96f85a99-320b-465a-b330-60e5e14ecb5e",
       "type": "question",
       "value": {
         "latex": "Vérifier que $\\mathbb{E}(U_nV_n) = (n^2-n)\\frac{1-\\theta^2}{4}$ et en déduire $\\textrm{cov}(U_n, V_n)$.",
@@ -173,7 +173,7 @@
       }
     },
     {
-      "id": "36cc636d-6f3e-4cfb-b74c-e2ec746751fa",
+      "id": "c0e483e2-50bb-4818-a876-3bdf1e559b25",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t\\mathbb{E}(U_nV_n) =\\mathbb{E}((n-V_n)V_n)=n\\mathbb{E}(V_n)-\\mathbb{E}(V_n^2)\n\t\t\t\t\\end{align*}$$\n\t\t\t\tor $V_n \\sim \\mathcal{B}\\left( n,\\frac{1+\\theta}{2}\\right)$ donc \n\t\t\t\t\\begin{itemize}\n\t\t\t\t\t\\item $\\mathbb{E}(V_n)=n\\times \\frac{1+\\theta}{2}$\n\t\t\t\t\t\\item ${\\mathrm{V}}(V_n)=n\\times \\frac{1+\\theta}{2}\\times \\left(1-\\frac{1+\\theta}{2}\\right)=\\frac{n}{4}(1-\\theta^2)$, or ${\\mathrm{V}}(V_n)=\\mathbb{E}(V_n^2)-\\mathbb{E}(V_n)^2$ donc\n\t\t\t\t\t\\[\\mathbb{E}(V_n^2)=\\frac{n}{4}(1-\\theta^2) + \\frac{n^2}{4} (1+\\theta)^2\\]\n\t\t\t\t\\end{itemize}\n\t\t\t\td'où\n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\mathbb{E}(U_nV_n)& =\\frac{n^2}{2}(1+\\theta) -\\left( \\frac{n}{4}(1-\\theta^2) + \\frac{n^2}{4} (1+\\theta)^2\\right) \\\\\n\t\t\t\t&=\\frac{n^2}{4}(1+\\theta)(2-(1+\\theta)) - \\frac{n}{4}(1-\\theta^2) \\\\\n\t\t\t\t&=\\frac{n^2}{4}(1-\\theta^2) - \\frac{n}{4}(1-\\theta^2) \\\\\n\t\t\t\t&=(n^2-n)\\frac{1-\\theta^2}{4}\n\t\t\t\t\\end{align*}$$\n\t\t\t\tOn en déduit la covariance:\n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\textrm{cov}(U_n, V_n)\n\t\t\t\t&= \\mathbb{E}(U_nV_n)-\\mathbb{E}(U_n)\\mathbb{E}(V_n) \\\\\n\t\t\t\t&= \\frac{n^2-n}{4}(1-\\theta^2)-\\mathbb{E}(n-V_n)\\mathbb{E}(V_n) \\\\\n\t\t\t\t&= \\frac{n^2-n}{4}(1-\\theta^2)-\\left(n-\\frac{n}{2}(1+\\theta)\\right)\\frac{n}{2}(1+\\theta) \\\\\n\t\t\t\t&= \\frac{n^2-n}{4}(1-\\theta^2) - \\frac{n^2}{4}(1-\\theta^2) \\\\\n\t\t\t\t&= \\frac{-n}{4}(1-\\theta^2)\n\t\t\t\t\\end{align*}$$",
@@ -181,7 +181,7 @@
       }
     },
     {
-      "id": "b217cb51-14a0-4e70-b584-7c7500890465",
+      "id": "d5de1dac-1336-49ec-ad45-b8f09a11b0a0",
       "type": "question",
       "value": {
         "latex": "Montrer que la variance de $\\dfrac{V_n-U_n}{n}$ tend vers $0$ lorsque $n$ tend vers l'infini.",
@@ -189,7 +189,7 @@
       }
     },
     {
-      "id": "901fb5f2-7bab-44e1-96da-d5b7275fdb7d",
+      "id": "2331d7c6-9f18-485a-b9c2-566ef15c79f0",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t{\\mathrm{V}}\\left(\\dfrac{V_n-U_n}{n}\\right)\n\t\t\t\t&= \\frac{1}{n^2}\\left( {\\mathrm{V}}(U_n)+{\\mathrm{V}}(V_n)-2\\textrm{cov}(U_n, V_n) \\right) \\\\\n\t\t\t\t&= \\frac{1}{n^2}\\left(2{\\mathrm{V}}(V_n)-2\\textrm{cov}(U_n, V_n) \\right) \\qquad \\text{ car } \\quad {\\mathrm{V}}(U_n)={\\mathrm{V}}(n-V_n)={\\mathrm{V}}(V_n) \\\\\n\t\t\t\t&= \\frac{1}{n^2} \\left(\\frac{n}{2}(1-\\theta^2)+\\frac{n}{2}(1-\\theta^2) \\right) \\\\\n\t\t\t\t&=\\frac{1-\\theta^2}{n} \\underset{n\\to +\\infty}\\longrightarrow 0.\n\t\t\t\t\\end{align*}$$",

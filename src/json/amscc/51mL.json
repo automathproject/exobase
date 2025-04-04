@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-13",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:23.494Z",
+    "updatedAt": "2025-04-04T19:01:34.774Z",
     "resume": "L'exercice porte sur les variables aléatoires continues. Il vise à vérifier qu'une fonction donnée est une densité de probabilité en prouvant sa positivité et en montrant que son intégrale sur $\\mathbb{R}$ vaut 1. Il demande ensuite d'exprimer cette densité à l'aide d'une fonction indicatrice. Enfin, il calcule des probabilités du type $P(X \\leq a)$ et $P(a \\leq X \\leq b)$ en utilisant l'intégrale de la densité de probabilité sur les intervalles correspondants.",
     "competences": [
       "calculer une intégrale définie",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "6e6d518f-1c73-4115-9378-35f572525bdd",
+      "id": "7cd0c73e-1d64-4f30-b5ae-68e1d62e6446",
       "type": "description",
       "value": {
         "latex": "Soit une fonction $f \\colon x \\mapsto \\begin{cases}\n        2x & \\text{ si } x \\in [0;1] \\\\\n        0 & \\text{ sinon }\n    \\end{cases}$.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "4db288c8-058e-4e8c-bed7-b1a3c6dee930",
+      "id": "d826c55a-cafc-43f8-b4b1-90f5cdbb8de5",
       "type": "question",
       "value": {
         "latex": "Montrer que $f$ est une densité de probabilité.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "676fa475-77b2-4d40-9548-7eb496e184ff",
+      "id": "4df50432-9eae-40e1-992a-306c12e0d54b",
       "type": "reponse",
       "value": {
         "latex": "\\begin{enumerate}\n                \\item $f$ est positive sur $\\R$.\n                \\item $\\int_{-\\infty}^{+\\infty} f(x) \\mathrm{d}x = \\int_0^1 2x \\mathrm{d}x = \\left[ x^2 \\right]_0^1 = 1$.\n            \\end{enumerate}\n            Donc $f$ est une densité de probabilité.",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "b22ca6e5-bc53-45b6-b49e-5cd65c0b2777",
+      "id": "2a813d36-090e-4f35-89bd-3503c1d2ddd0",
       "type": "question",
       "value": {
         "latex": "\\'Ecrire $f$ à l'aide d'une fonction indicatrice $x \\mapsto \\textbf{1}_A(x)$ où $A$ est un ensemble à préciser.",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "3a743177-0e63-42cc-acf7-39ca7a2ed3c8",
+      "id": "e2df0a20-7246-4a3a-8bb4-dd4f68ab6193",
       "type": "reponse",
       "value": {
         "latex": "$f(x) = 2x \\textbf{1}_{[0;1]}(x)$.",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "903d64fa-4447-42ec-88ee-58471de31bbe",
+      "id": "db3f54d7-ea71-4343-a56d-528b29e57687",
       "type": "question",
       "value": {
         "latex": "Soit $X$ une variable aléatoire admettant $f$ pour densité de probabilité. Calculer $\\prob(X \\leq \\frac{1}{2})$ et $\\prob(-1 \\leq X \\leq 0.2)$.",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "3cf56e96-ede9-4b68-a587-fde9fae2357d",
+      "id": "babfa687-8558-46cc-9fcd-784bb85d2df7",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n                \\prob(X \\leq \\frac{1}{2}) &= \\int_{-\\infty}^{\\frac{1}{2}} f(x) \\mathrm{d}x \\\\\n                &= \\int_0^{\\frac{1}{2}} 2x \\mathrm{d}x \\\\\n                &= \\left[ x^2 \\right]_0^{\\frac{1}{2}} \\\\\n                &= \\frac{1}{4}\n            \\end{align*}$$\n            $$\\begin{align*}\n                \\prob(-1 \\leq X \\leq 0.2) &= \\int_{-1}^{0.2} f(x) \\mathrm{d}x \\\\\n                &= \\int_0^{0.2} 2x \\mathrm{d}x \\\\\n                &= \\left[ x^2 \\right]_0^{0.2} \\\\\n                &= 0.04\n            \\end{align*}$$",

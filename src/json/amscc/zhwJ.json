@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:25.560Z",
+    "updatedAt": "2025-04-04T19:05:16.239Z",
     "resume": "L'exercice porte sur l'étude des extrema d'une fonction $f(x,y) = x\\ln(y) - y\\ln(x)$.\n\n1.  **Domaine de définition et régularité:** Détermination du domaine de définition $D_f$ de la fonction $f$ et justification de sa classe $\\mathcal{C}^2$ sur $D_f$.\n\n2.  **Étude d'une fonction auxiliaire:** Analyse des variations d'une fonction d'une variable $h(t) = t - \\ln(t) - \\frac{1}{t}$ sur son domaine de définition.\n\n3.  **Lien gradient et fonction auxiliaire:** Établissement d'une équivalence entre l'annulation du gradient de $f$, $\\mathrm{grad}_f(x,y) = (0,0)$, et un système d'équations impliquant la fonction $h$.\n\n4.  **Points stationnaires:** Déduction de l'ensemble des points stationnaires de $f$ à partir des résultats précédents.\n\n5.  **Nature des extrema:** Identification des extrema locaux et globaux de $f$, en utilisant la matrice hessienne $Hess_f(x,y)$ pour déterminer la nature du point stationnaire trouvé. Le calcul de la matrice Hessienne est le suivant: $$Hess_f(x,y)=\\begin{pmatrix} \\frac{\\partial^2 f}{\\partial x^2}(x,y) & \\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) \\\\ \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) & \\frac{\\partial^2 f}{\\partial y^2}(x,y) \\end{pmatrix}$$",
     "competences": [
       "calculer les dérivées partielles premières et secondes",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "7d352007-04a1-43d4-866b-a8729476a0f6",
+      "id": "d7ba6551-e89b-46c5-b5cd-726a35acbb41",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble de définition de la fonction $f$ et vérifier que $f$ est de classe $\\mathcal{C}^2$ sur son ensemble de définition.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "6324c6ee-0e42-4bd0-b436-140c236d9e5c",
+      "id": "571ea01e-ab8c-4402-aba4-52573ecdac39",
       "type": "reponse",
       "value": {
         "latex": "L'ensemble de définition de $f$ est $D_f = \\{(x,y) \\in \\R^2\\, , \\, x>0, y>0 \\}$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "7edb9fc3-f0c7-406a-a22c-3264ca05288b",
+      "id": "9f1556b7-2f51-4928-a239-0a930f13e02c",
       "type": "question",
       "value": {
         "latex": "On pose $h(t) = t-\\ln(t)-\\frac{1}{t}$ : déterminer l'ensemble de définition de $h$ et étudier ses variations.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "cbe03b84-20fa-4147-a5ce-40902f7d7a16",
+      "id": "b8670eea-fb53-44c8-8a5e-4929f058502c",
       "type": "reponse",
       "value": {
         "latex": "L'ensemble de définition de $h$ est $D_h = \\{t \\in \\R\\, , \\, t>0\\}= \\R_+^*$. La fonction $h$ est dérivable sur son ensemble de définition et $\\forall t \\in \\R_+^*$ : \n\t\t\t$$h'(t) = 1-\\frac{1}{t}+\\frac{1}{t^2} = \\frac{t^2-t+1}{t^2} = \\frac{(t+1)^2+t}{t^2} > 0$$\n\t\t\tPar conséquent, $h$ est strictement croissante sur $]0;+\\infty[$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "dace54d7-51a8-43a8-8d0c-e69628173e36",
+      "id": "b1e229fe-c1ba-44c8-9ebf-ae4fe6de1954",
       "type": "question",
       "value": {
         "latex": "Démontrer que $\\mathrm{grad}_f(x,y)=(0,0) \\iff \t\\begin{cases}\n\t\t\th\\left(\\frac{x}{y}\\right) = 0\\\\\n\t\t\t\\frac{x}{y} - \\ln(x) =0\n\t\t\\end{cases}$",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "d17790f7-01d2-4b99-8b15-8d957ef698bd",
+      "id": "f97ef1e0-fd20-4d44-8816-7d973d016b74",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 0\\\\\n\t\t\t\t\t\\frac{\\partial f}{\\partial y}(x,y) =0\n\t\t\t\t\\end{cases}\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\ln(y) - \\frac{y}{x} = 0\\\\\n\t\t\t\t\t\\frac{x}{y} - \\ln(x)=0\n\t\t\t\t\\end{cases}\t\t\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\t\\ln(y) - \\ln(x) +  \\frac{x}{y}  - \\frac{y}{x} = 0            \\\\\n\t\t\t\t\t\\frac{x}{y} - \\ln(x) = 0\n\t\t\t\t\\end{cases}\t\t\n\t\t\t\t\\Leftrightarrow\n\t\t\t\t\\begin{cases}\n\t\t\t\t\th\\left(\\frac{x}{y}\\right) = 0            \\\\\n\t\t\t\t\t\\frac{x}{y} - \\ln(x) = 0\n\t\t\t\t\\end{cases}\t\t\t\n\t\t\\end{align*}$$",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "35e8a06b-930b-423d-8660-57e2cbcc871c",
+      "id": "18a57128-2676-4600-a373-b8652818b287",
       "type": "question",
       "value": {
         "latex": "En déduire l'ensemble des points stationnaires de $f$.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "2ea1c0fb-1323-4a7c-8d20-cbd1464a3e7e",
+      "id": "5d988525-c28c-43c5-87ab-1f6558e556b0",
       "type": "reponse",
       "value": {
         "latex": "La fonction $h$ s'annule une et une seule fois sur son ensemble définition en $t=1$ donc $(x,y)$ est un point stationnaire si et seulement si $x=y=e$. Il existe un unique point stationnaire qui est le point $(e,e)$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "e95be623-0592-40b9-abf8-193abb889645",
+      "id": "9164c446-b5dd-4fa9-a591-3bb73899979c",
       "type": "question",
       "value": {
         "latex": "Déterminer l'ensemble des points extrémaux (locaux et globaux) de $f$.",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "c318284b-f7b3-4132-9f3c-06c91845392c",
+      "id": "b85d6672-5dc9-4a96-a745-1bb99f238fd7",
       "type": "reponse",
       "value": {
         "latex": "Il est clair que $f$ n'admet pas d'extremum global. En effet, on peut voir par exemple que $\\lim\\limits_{x \\to +\\infty}f(x,1) = -\\infty$ et $\\lim\\limits_{y \\to +\\infty}f(1,y) = +\\infty$.\n\t\t\t\n\t\t\tDe plus, au voisinage du point stationnaire $(e,e)$, on peut étudier les conditions du second ordre en formant la matrice hessienne : \n\t\t\t\n\t\t\t$$Hess_f(x,y)=\\begin{pmatrix} \n\t\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) = 1/x^2 & \\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) = 1/y-1/x \\\\\n\t\t\t\t\\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) = 1/y-1/x & \\frac{\\partial^2 f}{\\partial y^2}(x,y) = -1/y^2 \n\t\t\t\\end{pmatrix}$$\n\t\t\td'où \n\t\t\t$$Hess_f(e,e)=\\begin{pmatrix} \n\t\t\t\t1/e^2 &  0 \\\\\n\t\t\t\t0 & -1/e^2 \n\t\t\t\\end{pmatrix}$$\n\t\t\t\n\t\t\tOn a un déterminant négatif, donc le point $(e,e)$ est un point selle.",

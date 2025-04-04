@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:07.845Z",
+    "updatedAt": "2025-04-04T19:02:13.440Z",
     "resume": "L'exercice porte sur la détermination de la loi d'une variable aléatoire $Y$ obtenue par transformation d'une variable aléatoire absolument continue $X$. Les compétences mises en œuvre sont : \n\n*   Calcul de la fonction de répartition $F_Y(t)$ de $Y$ en fonction de la fonction de répartition de $X$ et de la transformation $Y=X^2$.\n*   Utilisation des propriétés des probabilités, notamment $\\PP(X^2 \\leq t) = \\PP(X \\in [-\\sqrt{t};\\sqrt{t}] )$.\n*   Calcul d'intégrales pour déterminer $F_Y(t)$ à partir de la densité de $X$.\n*   Dérivation de $F_Y(t)$ pour obtenir la densité $g(x)$ de $Y$ et identification de la loi de $Y$.",
     "competences": [
       "calculer une fonction de répartition",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "4c555529-4025-4092-8099-d7631f58dd37",
+      "id": "d2487939-ae6c-4047-b859-67cea0f7da7b",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire absolument continue dont la densité est donnée par $$f(x)=\\frac{1}{2}\\textbf{1}_{[-1;1]}(x)$$",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "5d2843b5-1f83-4cda-a113-46ef750df37e",
+      "id": "dcda0bf7-9d73-4f61-a44b-eea8014131dd",
       "type": "question",
       "value": {
         "latex": "On cherche à identifier la loi de $Y=X^2$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "51412608-ea3a-45a7-83e3-e23c9a44ebb2",
+      "id": "0397690a-6d1f-46c5-a928-e87bf332ec67",
       "type": "reponse",
       "value": {
         "latex": "\\begin{enumerate}\n\t\t\\item pour tout $t$, $F_Y(t)= \\PP(X^2 \\leq t)$\n\t\t\\item si $t \\geq 0$, $\\{X^2 \\leq t\\} = \\{X \\in [-\\sqrt{t};\\sqrt{t}] \\}$ ; \\\\ si $t<0$ $\\{X^2 \\leq t\\} = \\emptyset$\n\t\t\\item donc pour tout $t \\geq 0$, $$F_Y(t) = \\PP(X \\in [-\\sqrt{t};\\sqrt{t}]) = \\int_{-\\sqrt{t}}^{+\\sqrt{t}} \\frac{1}{2}\\textbf{1}_{[-1;1]}(x) dx$$\n\t\tsi $0 \\leq t \\leq 1$ alors $F_Y(t)=\\int_{-\\sqrt{t}}^{+\\sqrt{t}} \\frac{1}{2} dx = \\sqrt{t}$ \\\\\n\t\tsi $t>1$ alors $F_Y(t)=\\int_{-1}^1 \\frac{1}{2} dx = 1$\n\t\t\\item pour tout $t \\in ]0;1[$, $F_Y$ est dérivable en $t$ et $F_Y'(t) = \\frac{1}{2} \\frac{1}{\\sqrt{t}}$ donc en intégrant, $F_Y(t) = \\int_{0}^{t}  \\frac{1}{2} \\frac{1}{\\sqrt{x}} dx$ de sorte que $F_Y(0)=0$ et $F_Y(1)=1$. \\\\\n\t\tPour résumer ces conditions, on peut écrire que pour tout $t \\in \\R $, \n\t\t$$F_Y(t) = \\int_{-\\infty}^t \\frac{1}{2} \\frac{1}{\\sqrt{x}} \\textbf{1}_{[0;1]}(x)dx$$\n\t\t\n\t\tOn en déduit que $Y$ admet pour densité la fonction $g \\colon x \\mapsto   \\frac{1}{2\\sqrt{x}} \\textbf{1}_{[0;1]}(x)$\n\\end{enumerate}",

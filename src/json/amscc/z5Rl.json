@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Fraction rationnelle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:25.060Z",
+    "updatedAt": "2025-04-04T19:05:15.845Z",
     "resume": "L'exercice porte sur la décomposition en éléments simples de fractions rationnelles sur $\\mathbb{R}(X)$. Il évalue la capacité à :\n\n1.  Vérifier l'irréductibilité d'un polynôme de degré 2 sur $\\mathbb{R}[X]$.\n2.  Effectuer une division euclidienne de polynômes.\n3.  Déterminer les coefficients de la décomposition en éléments simples d'une fraction rationnelle en utilisant la division euclidienne, notamment lorsque le dénominateur est une puissance d'un polynôme irréductible. Le premier exemple demande la décomposition de $F(X)=\\frac{A(X)}{(B(X))^2}$ et le second la décomposition de $F(X)=\\frac{-3 X^2+X-3}{\\left(X^2+1\\right)^8}$.",
     "competences": [
       "décomposer une fraction rationnelle en éléments simples",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "90601ecf-feac-43e2-a6de-e0c6f1bc47f3",
+      "id": "71dda441-8c1d-4e23-8305-2ae08078d1dd",
       "type": "question",
       "value": {
         "latex": "Vérifier que le polynôme $B(X)=X^2-X+1$ est irréductible sur $\\mathbb{R}[X]$. Effectuer la division euclidienne du polynôme $A(X)=X^3+2 X-1$ par le polynôme $B(X)$, et en déduire les coefficients $a, b, c$ et $d$ de la décomposition en éléments simples de :\n$$\nF(X)=\\frac{A(X)}{(B(X))^2}=\\frac{X^3+2 X-1}{\\left(X^2-X+1\\right)^2}=\\frac{a X+b}{\\left(X^2-X+1\\right)^2}+\\frac{c X+d}{X^2-X+1}\n$$",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "d03fe9d7-c1b9-4c31-ad39-c120abdcc107",
+      "id": "ee5fc659-1f1b-4bf7-8e93-6a5a2d413ebd",
       "type": "reponse",
       "value": {
         "latex": "$$\nA(X)=X^3+2 X-1=\\underbrace{\\left(X^2-X+1\\right)}_{B(X)} \\cdot(X+1)+2 X-2\n$$\nOn en déduit :\n$$\n\\begin{aligned}\n\tF(X) & =\\frac{A(X)}{(B(X))^2}=\\frac{X^3+2 X-1}{\\left(X^2-X+1\\right)^2} \\\\\n\t& =\\frac{\\left(X^2-X+1\\right) (X+1)+2 X-2}{\\left(X^2-X+1\\right)^2} \\\\\n\t& =\\frac{2 X-2}{\\left(X^2-X+1\\right)^2}+\\frac{X+1}{X^2-X+1}\n\\end{aligned}\n$$",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "64c80c64-0eb7-4795-95ea-99fc9d3ac3f0",
+      "id": "9d600236-342b-451b-9049-ae9b28129d60",
       "type": "question",
       "value": {
         "latex": "En s'inspirant de la question précédent, décomposer en éléments simples sur $\\mathbb{R}(X)$ :\n$$\nF(X)=\\frac{-3 X^2+X-3}{\\left(X^2+1\\right)^8}\n$$",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "880c362b-3c13-47d5-a3ae-c89738adce43",
+      "id": "fd388b37-6d6c-45ce-a110-26a0568761f5",
       "type": "reponse",
       "value": {
         "latex": "$F(X)$ n'a pas de partie entière.\nEffectuons une division euclidienne de $-3 X^2+X-3$ par $X^2+1$ :\n$$\n-3 X^2+X-3=(-3) \\cdot\\left(X^2+1\\right)+X\n$$\nen divisant par $\\left(X^2+1\\right)^8$ :\n$$\nF(X)=\\frac{-3 X^2+X-3}{\\left(X^2+1\\right)^8}=\\frac{-3}{\\left(X^2+1\\right)^7}+\\frac{X}{\\left(X^2+1\\right)^8}\n$$",

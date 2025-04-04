@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Déterminant, système linéaire",
     "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:48.903Z",
+    "updatedAt": "2025-04-04T19:04:32.471Z",
     "resume": "L'exercice consiste à résoudre un système de trois équations linéaires à trois inconnues ($x$, $y$, $z$) où les coefficients sont des nombres complexes. La résolution est effectuée par la méthode de Gauss (pivot de Gauss) afin de triangulariser le système. Les compétences mises en œuvre sont la manipulation des nombres complexes, la résolution de systèmes linéaires et l'application de la méthode du pivot de Gauss.",
     "competences": [
       "résoudre un système d'équations linéaires à coefficients complexes",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "1158481a-ee7a-4e08-af45-bdee4bcd21d2",
+      "id": "3171fbd0-fddd-4fdf-9a37-df9c59b73857",
       "type": "question",
       "value": {
         "latex": "Résoudre le système linéaire à coefficients complexes suivant :\n$$\n\\left\\{\\begin{aligned}\n(1+i) x+(1-2 i) y+(-1+3 i) z & =2+i \\\\\nx-2 y+z & =0 \\\\\ni x+(2-i) y-2 z & =0\n\\end{aligned}\\right.\n$$",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "b917ecf2-09f5-4e92-b8dd-0d139d2c778e",
+      "id": "ae6f09b2-6a5d-4d51-8c93-56b422aa5c14",
       "type": "reponse",
       "value": {
         "latex": "$$\n\\begin{aligned}\n& \\left\\{\\begin{aligned}\n(1+i) x+(1-2 i) y+(-1+3 i) z & =2+i \\\\\nx-2 y+z & =0 \\\\\ni x+(2-i) y-2 z & =0\n\\end{aligned}\\right. \\\\\n& \\begin{array}{l}\n\\ell_1 \\leftarrow \\ell_2 \\\\\n\\ell_2 \\leftarrow \\ell_1-(1+i) \\ell_2 \\\\\n\\ell_3 \\leftarrow \\ell_3-i \\ell_2\n\\end{array}\\left\\{\\begin{aligned}\nx-2 y+z & =0 \\\\\n((1-2 i)+(2+2 i)) y+((-1+3 i)-(1+i)) z & =2+i \\\\\n((2-i)+2 i) y+(-2-i) z & =0\n\\end{aligned}\\right. \\\\\n& \\Leftrightarrow\\left\\{\\begin{aligned}\nx-2 y+z & =0 \\\\\n3 y+(-2+2 i) z & =2+i \\\\\n(2+i) y+(-2-i) z & =0\n\\end{aligned}\\right. \\\\\n& \\Leftrightarrow\\left\\{\\begin{array}{c}\nx-2 y+z=0 \\\\\n3 y+(-2+i) z=2+i \\\\\n(-5 i) z=-3-4 i\n\\end{array}\\right. \\\\\n& \\Rightarrow\\left\\{\\begin{array}{l}\nx=\\frac{4}{5}-\\frac{3}{5} i \\\\\ny=\\frac{4}{5}-\\frac{3}{5} i \\\\\nz=\\frac{4}{5}-\\frac{3}{5} i\n\\end{array}\\right. \\\\\n&\n\\end{aligned}\n$$\n$$\\mathcal{S}  = \\left\\{\\left(\\frac{4}{5}-\\frac{3}{5} i,\\frac{4}{5}-\\frac{3}{5} i,\\frac{4}{5}-\\frac{3}{5} i\\right)\\right\\}$$",

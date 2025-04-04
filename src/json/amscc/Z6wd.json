@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Dérivabilité des fonctions réelles",
     "sousChapitre": "Applications",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:00.379Z",
+    "updatedAt": "2025-04-04T19:02:44.402Z",
     "resume": "Cet exercice porte sur l'application de la dérivabilité pour l'optimisation, en particulier la méthode des moindres carrés. \n\nQuestion 1: Il s'agit de minimiser une fonction $f(x, y) = \\sum_{i=1}^{N} (x-x_i)^2 + (y-y_i)^2$. La résolution implique le calcul des dérivées partielles, la recherche des points stationnaires et la vérification qu'il s'agit d'un minimum global. Le minimum est atteint au point moyen du nuage de points.\n\nQuestion 2: Il s'agit de minimiser la somme des écarts quadratiques entre des points et une droite d'équation $y=mx+q$, c'est-à-dire minimiser la fonction $\\mathscr{E}(m, q)=\\sum_{i=0}^{n} (y_i - mx_i - q)^2$. La résolution implique le calcul des dérivées partielles par rapport à $m$ et $q$, la résolution d'un système d'équations linéaires pour trouver les points stationnaires, puis l'utilisation de la matrice Hessienne pour vérifier la nature du point stationnaire (minimum).",
     "competences": [
       "minimiser une fonction de plusieurs variables",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "300814ad-57d1-43a6-870d-b99cff0fa953",
+      "id": "f911269c-c35e-40b8-916c-a66e74708cea",
       "type": "description",
       "value": {
         "latex": "On considère des points $M_{1}, \\ldots, M_{n}$ de $\\mathbb{R}^{2}$, et on note $\\left(x_{i}, y_{i}\\right)$ les coordonnées de chaque point $M_{i}$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "aa5f20e8-7758-4a67-948d-c02c78f06c0a",
+      "id": "89a96578-f2b7-4b79-b155-4aebe27be47d",
       "type": "question",
       "value": {
         "latex": "On cherche les points $(x, y)$ de $\\mathbb{R}^{2}$ approchant au mieux le nuage de points formé par les points $M_{i}$ au sens des moindres carrés, c'est-à-dire qu'on cherche à minimiser la fonction\n\t\t$$\n\t\tf:(x, y) \\mapsto \\sum_{i=1}^{N}\\left(x-x_{i}\\right)^{2}+\\left(y-y_{i}\\right)^{2}\n\t\t$$\n\t\tOn admet que $f$ admet au moins un minimum global sur $\\mathbb{R}^{2}$. Déterminer en quels points $f$ admet ce minimum.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "179ba507-09f9-4bbd-9575-4637c627dbab",
+      "id": "17944424-92b6-4262-8538-007ada6e428b",
       "type": "reponse",
       "value": {
         "latex": "On cherche les points stationnaires : on trouve un point stationnaire $(x,y) = \\left(\\frac{1}{N}\\sum_{i=1}^N x_i,\\frac{1}{N}\\sum_{i=1}^N y_i \\right)$ et on reconnait le point moyen du nuage de points. On vérifie aisément qu'il s'agit d'un minimum local et qu'il est unique, c'est donc le minimum global.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "450fe04d-425c-4407-ad64-f7d5b9b544c0",
+      "id": "99b695f8-fa3c-45ed-9c1f-10e45c18de42",
       "type": "question",
       "value": {
         "latex": "On cherche maintenant une relation affine entre les abscisses et les ordonnées de ces points. On cherche des constantes $m$ et $q$ pour que la droite d'équation $y=mx+q$ s'ajuste le mieux possible aux points observés. \n\t\t\n\t\tPour cela, on introduit $d_i = y_i - (mx_i + q)$ l'écart vertical du point $M_i$ par rapport à la droite. \n\t\t\n\t\tLa méthode des moindres carrés consiste à choisir $m$ et $q$ de telle sorte que la somme des écarts au carré soit minimale. \n\t\t\n\t\tExprimer $m$ et $q$ en fonction des coordonnées des points.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "4115ce28-f5ec-4207-81c7-c597352a5e87",
+      "id": "f19e896c-ed66-4e20-bfcb-538453e27884",
       "type": "reponse",
       "value": {
         "latex": "Pour cela, on doit minimiser la fonction $\\mathscr{E}: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}_{+}$définie par\n\t\t\t$$\n\t\t\t\\mathscr{E}(m, q)=\\sum_{i=0}^{n} d_{i}^{2}=\\sum_{i=0}^{n}\\left(y_{i}-m x_{i}-q\\right)^{2}\n\t\t\t$$\n\t\t\tPour minimiser $\\mathscr{E}$ on cherche d'abord les points stationnaires, i.e. les points $(m, q)$ qui vérifient $\\frac{\\partial \\mathscr{E}}{\\partial m}=\\frac{\\partial \\mathscr{E}}{\\partial q}=0$. Puisque\n\t\t\t$$\n\t\t\t\\frac{\\partial \\mathscr{E}}{\\partial m}(m, q)=-2\\left(\\sum_{i=0}^{n}\\left(y_{i}-\\left(m x_{i}+q\\right)\\right) x_{i}\\right), \\quad \\frac{\\partial \\mathscr{E}}{\\partial q}(m, q)=-2\\left(\\sum_{i=0}^{n}\\left(y_{i}-\\left(m x_{i}+q\\right)\\right)\\right),\n\t\t\t$$\n\t\t\t$$\n\t\t\t\\left\\{\\begin{array} { l } \n\t\t\t\t{ \\frac { \\partial \\mathscr { E } } { \\partial m } ( m , q ) = 0 } \\\\\n\t\t\t\t{ \\frac { \\partial \\mathscr { E } } { \\partial q } ( m , q ) = 0 }\n\t\t\t\\end{array} \\Longleftrightarrow \\left\\{\\begin{array}{l}\n\t\t\t\t\\sum_{i=0}^{n}\\left(y_{i}-m x_{i}-q\\right) x_{i}=0 \\\\\n\t\t\t\t\\sum_{i=0}^{n}\\left(y_{i}-m x_{i}-q\\right)=0\n\t\t\t\\end{array}\\right.\\right.\n\t\t\t$$\n\t\t\t$$\n\t\t\t\\Longleftrightarrow\\left\\{\\begin{array} { l } \n\t\t\t\t{ ( \\sum _ { i = 1 } ^ { n } x _ { i } ^ { 2 } ) m + ( \\sum _ { i = 0 } ^ { n } x _ { i } ) q = \\sum _ { i = 0 } ^ { n } y _ { i } x _ { i } } \\\\\n\t\t\t\t{ ( \\sum _ { i = 1 } ^ { n } x _ { i } ) m + ( n + 1 ) q = \\sum _ { i = 0 } ^ { n } y _ { i } }\n\t\t\t\\end{array} \\Longleftrightarrow \\left\\{\\begin{array}{l}\n\t\t\t\tm=\\frac{\\left(\\sum_{i=0}^{n} x_{i}\\right)\\left(\\sum_{i=0}^{n} y_{i}\\right)-(n+1)\\left(\\sum_{i=0}^{n} x_{i} y_{i}\\right)}{\\left(\\sum_{i=0}^{n} x_{i}\\right)^{2}-(n+1)\\left(\\sum_{i=0}^{n} x_{i}^{2}\\right)}, \\\\\n\t\t\t\tq=\\frac{\\left(\\sum_{i=0}^{n} x_{i}\\right)\\left(\\sum_{i=0}^{n} x_{i} y_{i}\\right)-\\left(\\sum_{i=0}^{n} y_{i}\\right)\\left(\\sum_{i=0}^{n} x_{i}^{2}\\right)}{\\left(\\sum_{i=0}^{n} x_{i}\\right)^{2}-(n+1)\\left(\\sum_{i=0}^{n} x_{i}^{2}\\right)} .\n\t\t\t\\end{array}\\right.\\right.\n\t\t\t$$\n\t\t\tOn a trouvé un seul point stationnaire. On établi sa nature en étudiant la matrice Hessienne :\n\t\t\t$$\n\t\t\tH_{\\mathscr{E}}(m, q)=2\\left(\\begin{array}{cc}\n\t\t\t\t\\sum_{i=1}^{n} x_{i}^{2} & \\sum_{i=0}^{n} x_{i} \\\\\n\t\t\t\t\\sum_{i=0}^{n} x_{i} & (n+1)\n\t\t\t\\end{array}\\right)\n\t\t\t$$\n\t\t\tet $\\operatorname{det}\\left(H_{\\mathscr{E}}(m, q)\\right)=4\\left((n+1) \\sum_{i=1}^{n} x_{i}^{2}-\\left(\\sum_{i=0}^{n} x_{i}\\right)^{2}\\right)>0$ avec $\\partial_{m m} \\mathscr{E}(m, q)=\\sum_{i=1}^{n} x_{i}^{2}>0$ donc il s'agit bien d'un minimum. La droite d'équation $y=m x+q$ ainsi calculée s'appelle droite de régression de y par rapport à $x$.",

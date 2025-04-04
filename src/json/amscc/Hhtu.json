@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:01.496Z",
+    "updatedAt": "2025-04-04T19:02:09.917Z",
     "resume": "L'exercice évalue la capacité à calculer des probabilités d'événements en utilisant les définitions et propriétés de base des probabilités. Il nécessite l'application des formules suivantes : probabilité de l'union de deux événements $\\prob(A \\cup B) = \\prob(A) + \\prob(B) - \\prob(A \\cap B)$, probabilité conditionnelle $\\prob(A \\mid B) = \\frac{\\prob(A \\cap B)}{\\prob(B)}$, probabilité du complémentaire $\\prob(\\overline{A}) = 1 - \\prob(A)$, et les lois de De Morgan.",
     "competences": [
       "calculer des probabilités conditionnelles",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "f9d7d0a4-9102-4c21-b61f-cd5f400c59ee",
+      "id": "13a3affa-12f8-4c17-b989-cd7262791e12",
       "type": "description",
       "value": {
         "latex": "Soit $(\\Omega, \\mathcal{T}, \\prob)$ un espace probabilisé et trois événements $A$, $B$ et $C$ tels que : \n\t\t\n\t$$\\prob(A) = 0.3 \\quad , \\quad \\prob(B) = 0.4 \\quad , \\quad \\prob(A \\cap B) = 0.2 \\quad , \\quad \\prob(C \\mid A \\cap B) = 0.5$$\n\t\t\t\n\t\tCalculer, si possible, les probabilités suivantes : \n\\colonnes{\\solution}{2}{1}\n\t\t\\begin{enumerate}\n\t\t\t\\item \\question{ $\\prob(A \\cup B)$ ; }\n\t\t\t\\reponse{  $\\prob(A \\cup B) = 0.5 $ }\n\t\t\t\\item \\question{ $\\prob(A \\mid B)$ ; }\n\t\t\t\\reponse{  $\\prob(A \\mid B) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\mid B)$ ; }\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\mid B) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob({A} \\mid \\overline{B})$ ; }\n\t\t\t\\reponse{ $\\prob({A} \\mid \\overline{B} = \\frac{1}{6} $ }\n\t\t\t\\item \\question{ $\\prob(B \\mid A)$ ; }\n\t\t\t\\reponse{ $\\prob(B \\mid A) = \\frac{2}{3}$ }\n\t\t\t\\item \\question{ $\\prob(A \\cap B \\cap C)$ ; }\n\t\t\t\\reponse{ $\\prob(A \\cap B \\cap C) = 0.1$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\cap \\overline{B})$ ;}\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\cap \\overline{B}) = 0.5$ }\n\t\t\t\\item \\question{ $\\prob(\\overline{A} \\cup \\overline{B})$.}\n\t\t\t\\reponse{ $\\prob(\\overline{A} \\cup \\overline{B}) = 0.8$ }\n\t\t\\end{enumerate}\n\\fincolonnes{\\solution}{2}{1}",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "6942fb78-58cc-4bca-ac0c-e03a0883a9e3",
+      "id": "9f42ac52-a10a-49fa-8ac0-a502b9b5d807",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\cup B)$ ;",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "05f7deb8-a2e6-4a6c-a31b-a7bb9e65a693",
+      "id": "68b6c7b1-e951-43e0-986c-702c9e3b20bc",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\cup B) = 0.5 $",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "80a04b25-da38-49ff-9745-f42735bca347",
+      "id": "9d44c13e-fb96-47a1-a837-ad07c0b2310d",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\mid B)$ ;",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "c4e414c7-b179-4fcb-9d7b-cc611b4d0da0",
+      "id": "3ba83bf9-797b-48d1-a2ed-38fb6db08514",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\mid B) = 0.5$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "43773af0-46e9-41cd-b924-5384d30576c9",
+      "id": "f73e77af-221a-4820-b5f2-f373c1ed7ed8",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\mid B)$ ;",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "1127fc65-bc6a-4a35-b378-eba24f3e3607",
+      "id": "b96fec33-fd6e-4066-991e-c02df3eca833",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\mid B) = 0.5$",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "6dc3d0f9-6f35-4e79-a43e-de60b1bb6a75",
+      "id": "b9cb6496-7fc2-4c1e-8e6a-df6bb2d58776",
       "type": "question",
       "value": {
         "latex": "$\\prob({A} \\mid \\overline{B})$ ;",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "3911bf88-637a-44dd-b9a8-a818d919f7b6",
+      "id": "60441bed-105d-436c-b717-0e1ef8185457",
       "type": "reponse",
       "value": {
         "latex": "$\\prob({A} \\mid \\overline{B} = \\frac{1}{6} $",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "057dfd1f-b64f-4d71-adba-90ece391527c",
+      "id": "faaf8f2a-af8a-4c12-ae2b-907d781f2db4",
       "type": "question",
       "value": {
         "latex": "$\\prob(B \\mid A)$ ;",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "192f85db-cca4-42ec-9025-672131f24822",
+      "id": "64058b9b-197a-487a-b33b-465453a8c314",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(B \\mid A) = \\frac{2}{3}$",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "008b377a-ca1a-47c0-8def-f49a68091aa5",
+      "id": "dd4a78fc-9339-45b1-8161-04f5f6f5da26",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\cap B \\cap C)$ ;",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "4bc1010a-8965-4c57-8d58-0fad7e281735",
+      "id": "46872d2a-0b2c-43e8-a1ec-b396ab28ee1a",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\cap B \\cap C) = 0.1$",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "f4641954-6787-4012-80c7-bca2e8f2afda",
+      "id": "89124d5c-50b8-4a6c-9796-afb7bd07f3fb",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cap \\overline{B})$ ;",
@@ -163,7 +163,7 @@
       }
     },
     {
-      "id": "1e5e7185-d5f0-4f71-a0b6-12ad32c0c476",
+      "id": "9b19833b-62b8-4c97-9452-e393c9aa27f6",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cap \\overline{B}) = 0.5$",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "id": "940fff1f-fd00-40f1-b8f3-1bee09568506",
+      "id": "52f6f8ad-f878-4b9e-8567-47bb0def6a48",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup \\overline{B})$.",
@@ -179,7 +179,7 @@
       }
     },
     {
-      "id": "489a52b9-1d0d-4583-b409-49412a9f00ea",
+      "id": "93e282cc-4f5a-4ff0-9ead-22bfd10b4b26",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup \\overline{B}) = 0.8$",

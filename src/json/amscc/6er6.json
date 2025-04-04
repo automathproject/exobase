@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:31.857Z",
+    "updatedAt": "2025-04-04T19:01:44.453Z",
     "resume": "L'exercice porte sur l'application de la loi normale. Il s'agit de déterminer un quantile d'une variable aléatoire $X$ suivant une loi normale $\\mathcal{N}(\\mu, \\sigma)$ en utilisant la fonction de répartition de la loi normale centrée réduite. La compétence principale est la standardisation d'une variable aléatoire normale ($Z = \\\\frac{X - \\\\mu}{\\\\sigma}$) et l'utilisation de la table de la loi normale centrée réduite pour trouver la valeur correspondante au quantile donné.",
     "competences": [
       "calculer une probabilité à partir d'une loi normale",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "a87b9a35-e2f9-45d8-8d0f-769da4476cf0",
+      "id": "4bfb5954-2c7d-424c-9139-45c62807b8b1",
       "type": "description",
       "value": {
         "latex": "La demande d'un produit au cours d'une saison suit sensiblement la loi normale de moyenne $\\nombre{5000}$ et d'écart-type $\\nombre{1000}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "c4f423c3-337c-4898-a04d-4b7d0704e4a5",
+      "id": "f42fe705-6146-4fd4-97b2-135611aa7692",
       "type": "question",
       "value": {
         "latex": "Quel niveau de stock doit-on maintenir en début de saison pour que la demande soit satisfaite dans $90$\\% des cas ?",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ceb8f457-9ed9-4d1d-93f6-8e3a688dbd72",
+      "id": "7a461081-06ec-41d0-8b80-b39b76894d05",
       "type": "reponse",
       "value": {
         "latex": "Soit $X$ le nombre de produits demandés au cours d'une saison. Par l'énoncé, on sait que $X\\sim\\mathcal{N}(\\nombre{5000},\\sigma=\\nombre{1000})$. \\\\\n\tSoit $\\alpha$ le niveau de stock en début de saison. On cherche $\\alpha$ tel que $\\prob(X\\leq \\alpha)=\\nombre{0.9}$, ce qui donne:\n\t$$\\begin{align*}\n\t\t\\prob\\left(\\frac{X-\\nombre{5000}}{\\nombre{1000}}\\leq \\frac{\\alpha-\\nombre{5000}}{\\nombre{1000}}\\right)=0.9 \\quad\n\t\t& \\Leftrightarrow \\quad \\prob\\left(Z\\leq \\frac{\\alpha-\\nombre{5000}}{\\nombre{1000}}\\right)=\\nombre{0.9}, \\quad \\text{ avec } Z=\\frac{X-\\nombre{5000}}{\\nombre{1000}}\\sim \\mathcal{N}(0,1)\n\t\\end{align*}$$\n\tPar lecture de la table de loi $\\mathcal{N}(0,1)$, on obtient $\\frac{\\alpha-\\nombre{5000}}{\\nombre{1000}}\\simeq 1.29$, c'est-à-dire $\\alpha \\simeq 6290$. \\\\\n\tLe niveau de stock en début de saison doit être de $6290$ unités pour satisfaire la demande dans $90$\\% des cas.",

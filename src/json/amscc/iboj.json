@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-04",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:39.200Z",
+    "updatedAt": "2025-04-04T19:03:15.584Z",
     "resume": "Cet exercice porte sur l'estimation d'une proportion $p$ dans une population à partir d'un échantillon. Il requiert :\\n\\n*   La capacité à calculer un intervalle de confiance pour une proportion, étant donné une taille d'échantillon et une proportion observée, avec un niveau de confiance spécifié (ici, $\\\\alpha = 0.05$).\\n*   La capacité à déterminer la taille d'échantillon nécessaire pour obtenir un intervalle de confiance d'une amplitude donnée, avec un niveau de confiance spécifié.",
     "competences": [
       "calculer un intervalle de confiance pour une proportion",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "e96f9d10-0617-4f03-a494-f02740769619",
+      "id": "34a1a690-1247-43da-99f2-5717eff2d618",
       "type": "description",
       "value": {
         "latex": "On effectue un contrôle de fabrication sur des pièces dont la proportion $p$ est défectueuse.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "f6032656-5257-422a-bf99-3613a2ce662c",
+      "id": "d04423ed-dc3c-4d45-9c5f-a190c1764deb",
       "type": "question",
       "value": {
         "latex": "On contrôle un lot de 200 pièces et on trouve $n=24$ pièces défectueuses. Donner les intervalles de confiance pour l'estimation de $p$, au risque $\\alpha=0.05$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "a583df36-e63d-4c39-ad64-29ffb55e6930",
+      "id": "3ff5257a-bd14-4ad3-80c2-0866ef4427fd",
       "type": "question",
       "value": {
         "latex": "Combien faudrait-il contrôler de pièces pour que, au risque  $\\alpha=0.05$, l'intervalle de confiance centré soit d'amplitude $0.04$ ?",

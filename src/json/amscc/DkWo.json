@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:52.002Z",
+    "updatedAt": "2025-04-04T19:02:03.979Z",
     "resume": "L'exercice porte sur la réalisation d'un test d'hypothèse pour comparer les moyennes de deux échantillons indépendants. Il s'agit de déterminer si un traitement a un effet significatif sur la réduction de la taille des tumeurs. Compétences mises en œuvre: formulation des hypothèses nulles et alternatives, choix du test statistique approprié (test de Student), calcul de la statistique de test et de la p-value, conclusion du test en comparant la p-value à un seuil de signification $\\alpha$.",
     "competences": [
       "réaliser un test d'hypothèse bilatéral",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "dee34069-785b-4a83-b310-8e78028c8bac",
+      "id": "6234f7f3-2932-4a44-89aa-7ddfde720dbc",
       "type": "description",
       "value": {
         "latex": "On a mesuré les dimensions (en cm$^2$) d'une tumeur chez des souris. Certaines sont traitées avec une substance, d'autres non. On a obtenu les résultats suivants :\n\n\\begin{center}\n\t\n\t\\begin{tabular}{|c|c|c|c|}\n\t\t\\hline  & taille échantillon & moyenne & écart type \\\\ \n\t\t\\hline souris témoins & 20 & 7.075 cm$^2$ & 0.576 cm$^2$ \\\\ \n\t\t\\hline souris traitées & 18 & 5.850  cm$^2$ & 0.614 cm$^2$ \\\\ \n\t\t\\hline \n\t\\end{tabular} \n\t\n\\end{center}",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "17c861c5-9821-4719-adb7-bd9d724b3ae3",
+      "id": "69a5db2b-ef3a-4a8e-bc9b-0fd378ba3c2b",
       "type": "question",
       "value": {
         "latex": "A partir de ces résultats, peut-on affirmer que le traitement a permis de réduire significativement la taille des tumeurs ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "ca334fd5-e98e-400e-b2b7-f841ea8c709a",
+      "id": "5347abc5-a012-41c7-81be-d82ae35f9bfd",
       "type": "reponse",
       "value": {
         "latex": "\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EYlCPJY62BdMpTYscg1T6zABc9_WCIR_pzt6XSOajALYhw?e=u1SXuH&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wNjAwLTAwMDAwMDAwMDAwMH0}{lien vers tableur}",

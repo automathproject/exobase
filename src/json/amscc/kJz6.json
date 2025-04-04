@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Probabilité et dénombrement",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:41.440Z",
+    "updatedAt": "2025-04-04T19:03:18.086Z",
     "resume": "L'exercice porte sur le calcul de probabilités d'événements dans un espace probabilisé $(\\\\Omega, \\\\mathcal{T}, \\\\prob)$. À partir des probabilités données $\\\\prob(A) = \\\\frac{1}{2}$, $\\\\prob(A \\\\cup B) = \\\\frac{7}{8}$, et $\\\\prob(\\\\overline{B}) = \\\\frac{3}{8}$, il faut déterminer : $\\\\prob(A \\\\cap B)$, $\\\\prob(\\\\overline{A} \\\\cap \\\\overline{B})$, $\\\\prob(\\\\overline{A} \\\\cup \\\\overline{B})$, et $\\\\prob(\\\\overline{A} \\\\cup B)$. Les compétences mises en œuvre sont l'utilisation des propriétés des probabilités, notamment la formule d'inclusion-exclusion, les lois de Morgan et la relation entre un événement et son complémentaire.",
     "competences": [
       "appliquer la formule d'inclusion-exclusion",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "90fe5f70-32c9-4c9b-aade-c68df7ed0302",
+      "id": "121e89bf-9f82-48ab-8f24-2467b48ddd93",
       "type": "description",
       "value": {
         "latex": "Soit $(\\Omega, \\mathcal{T}, \\prob)$ un espace probabilisé et deux événements $A$ et $B$. On note $\\overline{A}$ et $\\overline{B}$ les événements complémentaires de $A$ et $B$. \n\t\n\tOn sait que : $$\\prob(A) = \\frac{1}{2} \\quad , \\quad \\prob(A \\cup B) = \\frac{7}{8} \\quad , \\quad \\prob(\\overline{B}) = \\frac{3}{8}$$\n\t\n\n\nCalculer les probabilités suivantes : \n\\begin{enumerate}\n\t\\item \\question{ $\\prob(A \\cap B)$ ; }\n\t\\reponse{  $\\prob(A \\cap B) = \\frac{2}{8}$ }\n\t\\item \\question{ $\\prob(\\overline{A} \\cap \\overline{B})$ ; }\n\t\\reponse{  $\\prob(\\overline{A} \\cap \\overline{B}) = \\frac{1}{8}$ }\n\t\\item \\question{ $\\prob(\\overline{A} \\cup \\overline{B})$ ; }\n\t\\reponse{ $\\prob(\\overline{A} \\cup \\overline{B}) = \\frac{6}{8}$ }\n\t\\item \\question{ $\\prob(\\overline{A} \\cup B)$. }\n\t\\reponse{ $\\prob(\\overline{A} \\cup B) = \\frac{3}{8}$ }\n\\end{enumerate}",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "fe566c5f-d316-4316-a69f-021b9efb39f8",
+      "id": "2a07e045-ab9e-4136-a644-08ae08c052f6",
       "type": "question",
       "value": {
         "latex": "$\\prob(A \\cap B)$ ;",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "95742913-3430-49e7-ab9a-b1419b16034c",
+      "id": "a52a3861-cb4b-4214-91aa-4ae09c140b0f",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(A \\cap B) = \\frac{2}{8}$",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "1381f560-b4d8-452f-8ce7-f266eadc3bea",
+      "id": "6ace87ff-bed1-4ae7-8e39-2722d28c324f",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cap \\overline{B})$ ;",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "995288e2-f310-4e7c-8856-0e391319cbd5",
+      "id": "4ee6157d-311d-429e-bb09-bd6bb3add042",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cap \\overline{B}) = \\frac{1}{8}$",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "8c17156e-743d-499f-b073-91a66d2035d5",
+      "id": "ed52d0ea-107b-470d-932f-0c7f94f53783",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup \\overline{B})$ ;",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "fd1452c9-01c1-4071-af25-21d90010cc69",
+      "id": "0e06ed3f-c444-4f50-9c77-7b202991bffe",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup \\overline{B}) = \\frac{6}{8}$",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "8c204ccb-a653-4894-b8d3-0e1ad04a414b",
+      "id": "76f918f9-60d0-43f6-bbca-0c519f3b66d0",
       "type": "question",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup B)$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "7dc9b2b0-484a-4d6b-acef-f7fd0e8213c3",
+      "id": "94bf7940-5a8c-498b-8155-d2986f0631c9",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(\\overline{A} \\cup B) = \\frac{3}{8}$",

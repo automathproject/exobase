@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:31.264Z",
+    "updatedAt": "2025-04-04T19:01:43.785Z",
     "resume": "Cet exercice évalue la compréhension et l'application de concepts de probabilités discrètes, en particulier l'utilisation de la loi binomiale et de son approximation par la loi normale. Il s'agit de:\n\n*   Identifier une loi binomiale $\\mathcal{B}(n, p)$, calculer son espérance $\\E(X) = np$ et sa variance $\\sigma^2 = np(1-p)$.\n*   Justifier l'approximation d'une loi binomiale par une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$ en utilisant le théorème central limite (avec centrage et réduction $Y = \\frac{X - \\mu}{\\sigma}$). L'exercice n'évoque pas la justification par la continuité mais on peut supposer qu'elle est attendue.\n*   Calculer une probabilité en utilisant l'approximation normale et une table de valeurs de la loi normale centrée réduite, en résolvant une inéquation du type $\\prob(X \\geq n) \\leq 0.025$ en utilisant la variable centrée réduite.",
     "competences": [
       "appliquer le théorème central limite pour approximer une loi binomiale par une loi normale",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "6ed6a2fa-ac42-4e11-8f9f-0ddcfade41c0",
+      "id": "ca628c13-698f-4d8b-9b4a-8b3e4ad5760d",
       "type": "description",
       "value": {
         "latex": "Un fournisseur d'accès internet met en place un point local d'accès qui dessert $\\nombre{5000}$ abonnés. À un instant donné, chaque abonné a une probabilité égale à $0.20$ d'être connecté. Les comportements des abonnés sont supposés indépendants les uns des autres.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "f761666b-6a42-40b2-bfb1-69e8a8f1e273",
+      "id": "4a4ea703-8d57-49cb-8bb6-80ba959ad143",
       "type": "question",
       "value": {
         "latex": "On note $X$ la variable aléatoire égale au nombre d'abonnés connectés à un instant $t$. Quelle est la loi de $X$ ? Quelle est son espérance ? Son écart-type ?",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "a545aac7-7be3-467e-be48-99b8fe6a5b8e",
+      "id": "21dbce2b-38b1-4252-83cc-2ccf812d920e",
       "type": "reponse",
       "value": {
         "latex": "$X\\sim \\mathcal{B}(\\nombre{5000},0.2)$, $\\E(X)=\\nombre{1000}$ et $\\sigma^2(X)=800$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "16bafe5a-8235-40f2-bdb1-f748b8e22ee7",
+      "id": "63a532b6-7bf5-4e0a-9957-b9ead13c5649",
       "type": "question",
       "value": {
         "latex": "On pose $Y=\\frac{X-\\nombre{1000}}{\\sqrt{800}}$. Justifier précisément que l'on peut approcher la loi de $Y$ par la loi normale centrée réduite.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "111675a8-9ba9-4f3d-81e2-25cf11fe7526",
+      "id": "2d2ca058-d94f-4f7f-8059-9fb615845e80",
       "type": "reponse",
       "value": {
         "latex": "$X$ peut être approchée par une loi $\\mathcal{N}(\\nombre{1000},\\sigma=\\sqrt{800})$ donc en centrant et en réduisant, on obtient que $Y\\sim \\mathcal{N}(0,1)$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "ee72fc98-b326-468c-8e7f-781b74aa87cd",
+      "id": "6deb552f-03fa-4f85-ab9f-6800d9f3af6d",
       "type": "question",
       "value": {
         "latex": "Le fournisseur d'accès souhaite savoir combien de connexions simultanées le point d'accès doit pouvoir gérer pour que sa probabilité d'être saturé à un instant donné soit inférieure à $2.5$\\%. En utilisant l'approximation précédente, proposer une valeur approchée de ce nombre de connexions.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "1c2495a2-230d-4ea6-9f04-b6afed2986aa",
+      "id": "7d04248f-8c0a-44ec-97e5-12673bdd1f38",
       "type": "reponse",
       "value": {
         "latex": "Soit $n$ le nombre de connexions simultanées au point d'accès. On cherche $n$ tel que $\\prob(X\\geq n)\\leq 0.025$, c'est-à-dire\n\t\t\\[ \\prob\\left(Y\\geq \\frac{n-\\nombre{1000}}{\\sqrt{800}}\\right) \\leq 0.025 ,\\]\n\t\tautrement dit\n\t\t\\[  \\prob\\left(Y\\leq \\frac{n-\\nombre{1000}}{\\sqrt{800}}\\right) \\geq 0.975.\\]\n\t\tPar lecture de table de loi, on obtient $\\displaystyle\\frac{n-\\nombre{1000}}{\\sqrt{800}}\\simeq 1.96$, soit $n\\simeq 1055.44$.\n\t\tOn en conclut qu'il faut qu'au minimum le point d'accès puisse gérer $1056$ connexions simultanées pour que la probabilité d'être saturé soit inférieure à $2.5$\\%.",

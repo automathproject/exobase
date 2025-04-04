@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-03",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Matrice",
     "sousChapitre": "Inverse, méthode de Gauss",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:09.479Z",
+    "updatedAt": "2025-04-04T19:04:59.052Z",
     "resume": "L'exercice porte sur le calcul d'inverses de matrices en utilisant la méthode du pivot de Gauss. Il s'agit de déterminer $A^{-1}$ et $B^{-1}$ où $A$ est une matrice 3x3 et $B$ est une matrice 4x4. La méthode consiste à transformer les matrices $A$ et $B$ en matrices identités ($I_3$ et $I_4$ respectivement) en appliquant des opérations élémentaires sur les lignes, et à appliquer simultanément les mêmes opérations à $I_3$ et $I_4$ pour obtenir $A^{-1}$ et $B^{-1}$.",
     "competences": [
       "appliquer la méthode du pivot de Gauss",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "2bc19cd0-e160-4ab5-9750-9af480af1578",
+      "id": "85adb3e6-464d-4847-ba95-697278d80070",
       "type": "description",
       "value": {
         "latex": "Soient les matrices $A=\\begin{pmatrix}1 & 4 & -3 \\\\ 2 & 1 & 2 \\\\ 1 & 3 & -2\\end{pmatrix}$ et $B=\\begin{pmatrix}1 & -a & 0 & 0 \\\\ 0 & 1 & -a & 0 \\\\ 0 & 0 & 1 & -a \\\\ 0 & 0 & 0 & 1\\end{pmatrix}$.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "4a73be69-80a5-4aa1-af96-b4cd01f47b50",
+      "id": "54511dd3-0998-4bb5-b62e-22b0b3e43fbd",
       "type": "question",
       "value": {
         "latex": "Calculer $A^{-1}$ et $B^{-1}$.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "2c49babd-a799-41a2-a81a-e9ebf2018193",
+      "id": "c25f9af2-348a-41f1-8219-96d5a197dd29",
       "type": "indication",
       "value": {
         "latex": "Utiliser le pivot de Gauss.",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "e2e7e469-fac7-4e64-b918-8beb598f5094",
+      "id": "52e20f5d-5122-471c-b2a4-79e7d943f0d2",
       "type": "reponse",
       "value": {
         "latex": "Soient :\n\t$$\n\tA=\\left(\\begin{array}{ccc}\n\t\t1 & 4 & -3 \\\\\n\t\t2 & 1 & 2 \\\\\n\t\t1 & 3 & -2\n\t\\end{array}\\right) \\quad I_3=\\left(\\begin{array}{ccc}\n\t\t1 & 0 & 0 \\\\\n\t\t0 & 1 & 0 \\\\\n\t\t0 & 0 & 1\n\t\\end{array}\\right)\n\t$$\n\t\n\t\n\tRetranchons à la deuxième ligne 2 fois la première et à la troisième ligne 1 fois la première :\n\t$$\n\t\\left(\\begin{array}{ccc}\n\t\t1 & 4 & -3 \\\\\n\t\t0 & -7 & 8 \\\\\n\t\t0 & -1 & 1\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{ccc}\n\t\t1 & 0 & 0 \\\\\n\t\t-2 & 1 & 0 \\\\\n\t\t-1 & 0 & 1\n\t\\end{array}\\right)\n\t$$\n\tChangeons le signe de la deuxième et de la troisième ligne et permutons les lignes 2 et 3 :\n\t$$\n\t\\left(\\begin{array}{ccc}\n\t\t1 & 4 & -3 \\\\\n\t\t0 & 1 & -1 \\\\\n\t\t0 & 7 & -8\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{ccc}\n\t\t1 & 0 & 0 \\\\\n\t\t1 & 0 & -1 \\\\\n\t\t2 & -1 & 0\n\t\\end{array}\\right)\n\t$$\n\tRetranchons à la troisième ligne 7 fois la première :\n\t$$\n\t\\left(\\begin{array}{ccc}\n\t\t1 & 4 & -3 \\\\\n\t\t0 & 1 & -1 \\\\\n\t\t0 & 0 & -1\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{ccc}\n\t\t1 & 0 & 0 \\\\\n\t\t1 & 0 & -1 \\\\\n\t\t-5 & -1 & 7\n\t\\end{array}\\right)\n\t$$\n\tChangeons le signe de la troisième ligne :\n\t$$\n\t\\left(\\begin{array}{ccc}\n\t\t1 & 4 & -3 \\\\\n\t\t0 & 1 & -1 \\\\\n\t\t0 & 0 & 1\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{ccc}\n\t\t1 & 0 & 0 \\\\\n\t\t1 & 0 & -1 \\\\\n\t\t5 & 1 & -7\n\t\\end{array}\\right)\n\t$$\n\tAjoutons à la première ligne 3 fois la troisième ligne et ajoutons à la deuxième ligne la troisième :\n\t$$\n\t\\left(\\begin{array}{lll}\n\t\t1 & 4 & 0 \\\\\n\t\t0 & 1 & 0 \\\\\n\t\t0 & 0 & 1\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{ccc}\n\t\t16 & 3 & -21 \\\\\n\t\t6 & 1 & -8 \\\\\n\t\t5 & 1 & -7\n\t\\end{array}\\right)\n\t$$\n\tRetranchons à la première ligne 4 fois la deuxième ligne :\n\t$$\n\tI_3=\\left(\\begin{array}{lll}\n\t\t1 & 0 & 0 \\\\\n\t\t0 & 1 & 0 \\\\\n\t\t0 & 0 & 1\n\t\\end{array}\\right)\n\t$$\n\t$$\n\tA^{-1}=\\left(\\begin{array}{ccc}\n\t\t-8 & -1 & 11 \\\\\n\t\t6 & 1 & -8 \\\\\n\t\t5 & 1 & -7\n\t\\end{array}\\right)\n\t$$\n\t\n\tSoient :\n\t$$\n\tB=\\left(\\begin{array}{cccc}\n\t\t1 & -a & 0 & 0 \\\\\n\t\t0 & 1 & -a & 0 \\\\\n\t\t0 & 0 & 1 & -a \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right) \\quad I_4=\\left(\\begin{array}{cccc}\n\t\t1 & 0 & 0 & 0 \\\\\n\t\t0 & 1 & 0 & 0 \\\\\n\t\t0 & 0 & 1 & 0 \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right)\n\t$$\n\tAjoutons à la troisième ligne $a$ fois la quatrième :\n\t$$\n\t\\left(\\begin{array}{cccc}\n\t\t1 & -a & 0 & 0 \\\\\n\t\t0 & 1 & -a & 0 \\\\\n\t\t0 & 0 & 1 & 0 \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{llll}\n\t\t1 & 0 & 0 & 0 \\\\\n\t\t0 & 1 & 0 & 0 \\\\\n\t\t0 & 0 & 1 & a \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right)\n\t$$\n\tAjoutons à la deuxième ligne $a$ fois la troisième :\n\t$$\n\t\\left(\\begin{array}{cccc}\n\t\t1 & -a & 0 & 0 \\\\\n\t\t0 & 1 & 0 & 0 \\\\\n\t\t0 & 0 & 1 & 0 \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right) \\quad\\left(\\begin{array}{cccc}\n\t\t1 & 0 & 0 & 0 \\\\\n\t\t0 & 1 & a & a^2 \\\\\n\t\t0 & 0 & 1 & a \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right)\n\t$$\n\tAjoutons à la première ligne $a$ fois la deuxième :\n\t$$\n\tI_4=\\left(\\begin{array}{cccc}\n\t\t1 & 0 & 0 & 0 \\\\\n\t\t0 & 1 & 0 & 0 \\\\\n\t\t0 & 0 & 1 & 0 \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right) \\quad B^{-1}=\\left(\\begin{array}{cccc}\n\t\t1 & a & a^2 & a^3 \\\\\n\t\t0 & 1 & a & a^2 \\\\\n\t\t0 & 0 & 1 & a \\\\\n\t\t0 & 0 & 0 & 1\n\t\\end{array}\\right)\n\t$$",

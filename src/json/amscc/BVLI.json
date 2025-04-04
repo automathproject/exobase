@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-10-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Extremums locaux",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:42.460Z",
+    "updatedAt": "2025-04-04T19:01:54.672Z",
     "resume": "Cet exercice porte sur l'optimisation d'une fonction de deux variables $f(x, y) = x^4 + y^4 - 2(x - y)^2$. Il évalue la capacité à:\n\n1.  **Démontrer l'existence d'une solution au problème d'optimisation** en utilisant la coercivité de la fonction $f$ et le théorème de Weierstrass, ce qui implique la manipulation d'inégalités et la compréhension de la norme euclidienne.\n\n2.  **Déterminer si une fonction est convexe** en calculant et analysant sa matrice hessienne. Il faut vérifier si la matrice hessienne est semi-définie positive en tout point.\n\n3.  **Trouver les points critiques** en résolvant le système d'équations $\\nabla f(x, y) = (0, 0)$, et à **déterminer leur nature** (minimum local, maximum local, point-selle) en utilisant la matrice hessienne. Enfin, il faut **résoudre le problème d'optimisation** en évaluant $f$ aux points critiques pertinents.",
     "competences": [
       "résoudre un système d'équations non-linéaires",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "d27cc97d-191a-4c33-9980-91fc7f0598f6",
+      "id": "5fb0e1ed-82a4-4705-80a1-4aac688779aa",
       "type": "description",
       "value": {
         "latex": "On considère la fonction $f$ définie sur $\\mathbb{R}^2$ par :\n$$f(x,y) = x^4 + y^4 - 2(x - y)^2$$",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "1cbdeec1-c501-410d-aac8-d60df1c960d7",
+      "id": "af501d4a-52af-455a-b55f-d79ddc01ec06",
       "type": "question",
       "value": {
         "latex": "Montrer qu’il existe $(\\alpha, \\beta) \\in \\mathbb{R}_+^2$ (et les déterminer) tels que\n  $$\n  f(x, y) \\geq \\alpha \\|(x, y)\\|^2 + \\beta\n  $$\n  pour tous $(x, y) \\in \\mathbb{R}^2$, où $\\|(x, y)\\|$ désigne la norme euclidienne de $\\mathbb{R}^2$. En déduire que le problème\n$$\n  \\inf_{(x,y) \\in \\mathbb{R}^2} f(x, y)\n$$\n  possède au moins une solution.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "46d6a18e-1b98-4d29-bfcb-4bf84028dd0f",
+      "id": "61ac460f-bd11-48c9-adc1-56bf19d9a042",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est donnée par $f(x, y) = x^4 + y^4 - 2(x - y)^2$. Puisque $f$ est une fonction polynomiale, elle est de classe $C^\\infty$ sur $\\mathbb{R}^2$. En utilisant l'inégalité $xy \\geq -\\frac{1}{2}(x^2 + y^2)$, on peut écrire :\n  \\[\n  f(x, y) \\geq x^4 + y^4 - 2x^2 - 2y^2 + 4xy \\geq x^4 + y^4 - 4x^2 - 4y^2.\n  \\]\n  Choisissant $\\alpha = 2$ et $\\beta = -16$, on obtient que $f(x, y) \\geq \\alpha \\|(x, y)\\|^2 + \\beta$. Cela montre que $f$ est coercive sur $\\mathbb{R}^2$, et d'après le théorème de Weierstrass, le problème $\\inf_{(x,y)\\in \\mathbb{R}^2} f(x, y)$ possède au moins une solution.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "414df9c9-ff80-4f58-b8d7-c230c2215a96",
+      "id": "75e5c5d4-e8c2-47d8-8217-c8c16dc53045",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle convexe sur $\\mathbb{R}^2$ ?",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "195986ef-99b1-4fd0-9331-b621323237f1",
+      "id": "68c46440-de78-4bd0-8ae1-08795d561949",
       "type": "reponse",
       "value": {
         "latex": "Pour étudier la convexité de $f$, calculons sa matrice hessienne en tout point $(x, y) \\in \\mathbb{R}^2$. On a :\n  \\[\n  \\text{Hess } f(x, y) = 4 \\begin{pmatrix} 3x^2 - 1 & 1 \\\\ 1 & 3y^2 - 1 \\end{pmatrix}.\n  \\]\n  La fonction $f$ est convexe sur $\\mathbb{R}^2$ si, et seulement si, sa matrice hessienne est semi-définie positive en tout point. Or, les valeurs propres de la hessienne en $(0, 0)$ sont 0 et -2. Par conséquent, $f$ n'est pas convexe.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "ad26916a-85a8-4b0b-a10c-3d29e25fe59c",
+      "id": "16d06448-efab-493c-bb68-bb704686eb60",
       "type": "question",
       "value": {
         "latex": "Déterminer les points critiques de $f$, et préciser leur nature (minimum local, maximum local, point-selle, etc.). Résoudre alors le problème d'optimisation.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "0483f5e0-a5fc-4c4b-b762-d89d4341ec91",
+      "id": "1ca97158-35a2-4425-a7b2-8f2ba489dec8",
       "type": "reponse",
       "value": {
         "latex": "Les points critiques de $f$ sont donnés par les solutions de $\\nabla f(x, y) = (0, 0)$, c'est-à-dire :\n  \\[\n  \\begin{cases} \n  x^3 - (x - y) = 0, \\\\\n  y^3 + (x - y) = 0.\n  \\end{cases}\n  \\]\n  En résolvant ce système, on obtient trois points critiques : $O(0, 0)$, $A(\\sqrt{2}, -\\sqrt{2})$ et $B(-\\sqrt{2}, \\sqrt{2})$.\n\n  Pour déterminer la nature de ces points critiques, on utilise la matrice hessienne. Les points $A$ et $B$ sont des points de minimum local car la hessienne y est définie positive. Le point $O$ est un point-selle car la hessienne y a des valeurs propres de signes opposés.\n\n  Ainsi, la solution du problème d'optimisation est donnée par $\\inf_{(x,y) \\in \\mathbb{R}^2} f(x, y) = f(A) = f(B) = -8$.",

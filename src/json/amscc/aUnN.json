@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-09",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Continuité, limite et étude de fonctions réelles",
     "sousChapitre": "Continuité : théorie",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:04.031Z",
+    "updatedAt": "2025-04-04T19:02:46.520Z",
     "resume": "Cet exercice évalue la compréhension de la continuité et des dérivées partielles d'une fonction de deux variables définie par morceaux. Il requiert :\n\n1.  D'étudier la continuité d'une fonction en $(0,0)$ en utilisant un passage en coordonnées polaires et une majoration de la fonction.\n2.  De calculer les dérivées partielles $\\frac{\\partial f}{\\partial x}(x,y)$ et $\\frac{\\partial f}{\\partial y}(x,y)$ pour $(x,y) \\neq (0,0)$ en utilisant les règles de dérivation usuelles.\n3.  De calculer les dérivées partielles $\\frac{\\partial f}{\\partial x}(0,0)$ et $\\frac{\\partial f}{\\partial y}(0,0)$ en revenant à la définition de la dérivée partielle comme limite du taux d'accroissement.",
     "competences": [
       "étudier la continuité d'une fonction à deux variables",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "4a2bab59-7e49-4466-88d7-7fe81160f117",
+      "id": "fb1cd4cb-2e92-4008-bc49-0040423beb36",
       "type": "description",
       "value": {
         "latex": "Soit $f: \\R^2 \\to \\R$ définie par :\n$$ (x,y) \\mapsto \\left\\{ \\begin{array}{ll} \\dfrac{xy(x^2-y^2)}{x^2+y^2} & \\text{ si } (x,y) \\neq (0,0) \\\\\n0 & \\text{ si } (x,y) = (0,0)\n\\end{array}\n\\right. $$",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "6b2588e1-00aa-48fe-91a9-3862696a7ae0",
+      "id": "5e676380-ad6f-4015-a68e-fbd9ebfd68f0",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ est-elle continue en $(0,0)$~?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "fc1f15bf-3a8e-4169-a671-4a2228468eae",
+      "id": "1336947e-db0d-4097-bd1b-639d0a9f1a8d",
       "type": "reponse",
       "value": {
         "latex": "On peut passer en coordonnées polaires en posant $x=r\\cos(\\theta)$ et $y=r\\sin(\\theta)$ : en utilisant l'inégalité triangulaire et le fait que $|\\cos(\\theta)| \\leq 1$ et $|\\sin(\\theta)| \\leq 1$, on obtient la majoration suivante :\n\t\t$|f(x,y)| \\leq \\frac{r \\times r(r^2 +r^2)}{r^2} \\leq 2r^2 \\xrightarrow[r \\to 0]{}0$. On peut ainsi conclure que $f$ est bien continue en $(0,0)$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "3728b159-2252-4c17-846f-2ecd288e85e0",
+      "id": "a1b62cb9-ad02-4742-b667-e5f2e077c437",
       "type": "question",
       "value": {
         "latex": "Calculer $\\dpa{f}{x}(x,y)$ et $\\dpa{f}{y}(x,y)$ pour $(x,y) \\neq (0,0)$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "0b3f6436-9896-47bf-af86-a4f9a00a52a0",
+      "id": "e68665a8-9c02-4d22-b8ad-f3f6f445a0f9",
       "type": "reponse",
       "value": {
         "latex": "Les formules de dérivation usuelles s'appliquent sur l'expression de $f$ en tout point $(x,y) \\neq (0,0)$ : \n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{x}(x,y) &= \\frac{y (x^{4}+4 x^{2} y^{2}-y^{4})}{\\left(y^{2}+x^{2}\\right)^{2}} \\\\\n\t\t\\dpa{f}{y}(x,y) &= \\frac{(-x) (y^{4}+4 y^{2} x^{2}-x^{4})}{\\left(x^{2}+y^{2}\\right)^{2}}\n\t\t\\end{align*}$$",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "ff441f17-5415-4968-9f48-847c7e5268e3",
+      "id": "80cafcf9-eec6-4699-9abb-960d895b6a5a",
       "type": "question",
       "value": {
         "latex": "Calculer $\\dpa{f}{x}(0,0)$ et $\\dpa{f}{y}(0,0)$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "a844706e-0b4a-4d42-b987-99dc0ddf32f1",
+      "id": "903fe42b-cb47-4702-bfea-5cdead7da89a",
       "type": "reponse",
       "value": {
         "latex": "Hors de question ici d'utiliser des formules de dérivation puisqu'il n'y a pas d'expression de la fonction au voisinage de ce point... On doit donc revenir à la définition et regarder la limite du taux d'accroissement pour chaque variable.\n\t\t$$\\begin{align*}\n\t\t\\dpa{f}{x}(0,0) &= \\lim\\limits_{h \\to 0} \\frac{f(h,0)-f(0,0)}{h} = 0  \\\\\n\t\t\\dpa{f}{y}(0,0) &= \\lim\\limits_{h \\to 0} \\frac{f(0,h)-f(0,0)}{h} = 0  \n\t\t\\end{align*}$$",

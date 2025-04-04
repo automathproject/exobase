@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-25",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:23.188Z",
+    "updatedAt": "2025-04-04T19:02:21.194Z",
     "resume": "L'exercice porte sur la convergence de suites de variables aléatoires. \n\n1.  On démontre la convergence en probabilité de $M_n = \\max(U_1,...,U_n)$ vers 1, où les $U_i$ suivent une loi uniforme sur $[0,1]$, en calculant $P(|M_n - 1| < \\epsilon)$ et en utilisant la fonction de répartition de $M_n$, $F_n(t) = t^n$ pour $t \\in [0,1]$.\n\n2. On déduit de la convergence en probabilité que $M_n$ converge presque sûrement vers 1, en utilisant le fait que la suite $(M_n(\\omega))$ est croissante et majorée. La convergence presque sûre implique alors la convergence en loi vers 1.\n\n3. On montre que $Y_n = n(1 - M_n)$ converge en loi vers une loi exponentielle de paramètre 1. Pour cela, on étudie la fonction de répartition $F_{Y_n}(t)$ et on montre qu'elle converge vers la fonction de répartition d'une loi exponentielle de paramètre 1 en utilisant la limite $\\lim_{n \\to +\\infty} (1 - t/n)^n = e^{-t}$.",
     "competences": [
       "calculer la fonction de répartition d'une variable aléatoire",
@@ -57,7 +57,7 @@
   },
   "contenu": [
     {
-      "id": "32269c8b-5be3-4325-a46c-5c687108b623",
+      "id": "14e6f4a8-ea3c-488b-bdee-ff469e41417d",
       "type": "description",
       "value": {
         "latex": "Soit une suite de variables indépendantes $(U_i)_{i \\in \\N^*}$ suivant chacune une loi uniforme $\\mathcal{U}([0;1])$. Pour tout $n \\in \\N^*$, on pose $M_n = \\max(U_1,...,U_n)$.",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "dc0d796e-3e41-4109-9844-b4e97729a594",
+      "id": "920c64ee-7dfd-4e1e-819c-bca43dbfdbdc",
       "type": "question",
       "value": {
         "latex": "Démontrer que $M_n \\xrightarrow[]{\\mathcal{P}} 1$.",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "id": "035ebdd8-ebb5-4cd9-af37-8d2720d18c22",
+      "id": "8f2e0780-75f0-4e5b-b503-a13f734bd5f1",
       "type": "reponse",
       "value": {
         "latex": "Soit $M_n=\\max \\left(U_1, \\ldots, U_n\\right)$. Pour tout $i$, $U_i \\leqslant 1$ donc  $M_n \\leqslant 1$. \n\t      \tSoit $\\varepsilon>0$. On cherche la limite de\n\t      \t$$\n\t      \tP\\left(\\left|M_n-1\\right|<\\varepsilon\\right)=P\\left(1-M_n<\\varepsilon\\right) = P\\left(M_n > 1-\\varepsilon\\right)\n\t      \t$$\n\t      \tOr la fonction de répartition de $M_n$ est définie pour tout réel $t$ par \n\t      \t$$\\begin{align*}\n\t      \tF_n(t) &=\\PP\\left(\\Pi_n \\leq t\\right)=P\\left(\\bigcap_{i=1}^n\\left(U_i \\leqslant t\\right)\\right)\\\\\n\t      \t       & = \\prod_{i=1}^n \\PP\\left(U_i \\leq t\\right) \\text { par indépendance }\\\\\n\t      \t       &=\\PP\\left(U_1 \\leqslant t\\right)^n \\text { car les variables sont identiquement distribuées }\\\\\n\t      \t       &= \\begin{cases}\n\t      \t       \t      \t0   & \\text{si } t<0\\\\\n\t      \t                t^n & \\text{si } t \\in [0;1]\\\\\n\t      \t                1   & \\text{si } t>1\n\t      \t          \\end{cases} \\\\\n\t      \t\\end{align*}$$\n\t      \tDonc \n\t      \t$$\\begin{align*}\n\t      \t  \\PP(M_n > 1- \\varepsilon) &= 1 - \\PP(M_n \\leq 1- \\varepsilon)  \\\\\n\t      \t                            &= 1 - \\left(1-\\varepsilon\\right)^n  \\\\\n\t      \t                            &\\xrightarrow[n \\to +\\infty]{} 1\n\t      \t\\end{align*}$$\n\t      \tce qui achève la démonstration de la convergence en probabilité de la suite $(M_n)$ vers $1$.",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "id": "42a80c6f-7cf4-4299-8cf6-2001db4b72e5",
+      "id": "a1b86c2f-201b-45d1-9428-d45d125c2d52",
       "type": "question",
       "value": {
         "latex": "En déduire que $M_n \\xrightarrow[]{\\text{p.s.}} 1$ et $M_n \\xrightarrow[]{\\text{en loi}} 1$.",
@@ -89,7 +89,7 @@
       }
     },
     {
-      "id": "240dca2c-84ac-42ab-8471-97532412dc74",
+      "id": "37d320a3-8dc3-4ae3-9806-541c0f2c1ebb",
       "type": "reponse",
       "value": {
         "latex": "On remarque que pour tout $\\omega \\in \\Omega$, la suite $(M_n(\\omega))$ est une suite réelle croissante. Cette suite est également majorée par $1$ puisque chaque variable $U_i$ est majorée par $1$. La suite $(M_n(\\omega))$ est donc une suite convergente, notons $L(\\omega)$ sa suite. Il existe donc une variable aléatoire $L$ telle que la suite $(M_n)$ converge vers $L$ presque sûrement. \n\t      \t\n\t      Or on sait que la convergence presque sûre implique la convergence en probabilité. Et d'après la question précédente, la suite $(M_n)$ converge en probabilité vers la variable aléatoire constante $1$. \n\t      \n\t      Par unicité de la limite, on déduit que pour tout $\\omega \\in \\Omega$, $L(\\omega) = 1$. \n\t      \t\n\t      \tOn a donc montré que $M_n \\xrightarrow[]{\\text{p.s.}} 1$, ce qui implique directement par théorème du cours que $M_n \\xrightarrow[]{\\text{en loi}} 1$.",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "id": "95422a82-3a60-4160-b4c8-1a4c988cfbee",
+      "id": "81d2da0d-ad23-46b4-90ef-a137925bb10c",
       "type": "question",
       "value": {
         "latex": "Pour tout $n \\in \\N^*$, on pose $Y_n = n(1-M_n)$. Démontrer que la suite $(Y_n)$ converge en loi vers une loi exponentielle dont on précisera le paramètre.",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "id": "06724910-6763-4062-97dc-843fc44e40e6",
+      "id": "dbde7a82-6c19-49c8-a3fc-d5ad0bff5508",
       "type": "reponse",
       "value": {
         "latex": "On cherche à étudier la convergence de la fonction de répartition $F_{Y_n}$ de $Y_n$. Soit $t \\in \\R$. On constate que $$Y_n\\leq t\\iff M_n\\geq 1-\\frac {t}{n}$$\n\t      Si $t \\leq 0$ alors $\\PP(Y_n \\leq t) = \\PP(M_n\\geq 1-\\frac {t}{n}) = 0$ car $M_n \\leq 1$. \n\t      \n\t      Si $t \\in [0;n]$ alors $\\PP(Y_n \\leq t) = 1 - \\left(1-\\frac {t}{n}\\right)^n$ d'après la question précédente.\n\t      \n\t      Si $t >n$  alors $\\PP(Y_n \\leq t) = 1 $ car $M_n \\geq 0$.\n\t      \n\t      Or $\\lim\\limits_{n\\to+\\infty}\\left(1-\\frac tn\\right)^n=e^{-t}.$\n\t      \n\t      Donc : \n\t      \\begin{itemize}\n\t      \t\\item si $t<0$, $F_{Y_n}(t) \\xrightarrow[n \\to +\\infty]{} 0$ ;\n\t      \t\\item si $t \\geq 0$, $F_{Y_n}(t) \\xrightarrow[n \\to +\\infty]{} 1-e^{-t}$.\n\t      \\end{itemize}\n\t      \n\t      On en déduit que la suite de fonctions $\\left(F_{Y_n}\\right)$ converge simplement vers la fonction de répartition d'une loi exponentielle de paramètre $1$.\n\t      \n\t      Cela prouve la convergence en loi de la suite $(Y_n)$ vers une loi exponentielle de paramètre $1$.",

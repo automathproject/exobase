@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-10-16",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:12.360Z",
+    "updatedAt": "2025-04-04T19:02:15.451Z",
     "resume": "L'exercice porte sur l'application de la loi binomiale et son approximation par la loi normale (théorème central limite/Moivre-Laplace). Il s'agit de : \\n\\n1. Identifier et caractériser une variable aléatoire $X$ suivant une loi binomiale $\\\\mathcal{B}(n, p)$.\\n2. Justifier l'approximation de cette loi binomiale par une loi normale $\\\\mathcal{N}(\\\\mu, \\\\sigma)$ en vérifiant les conditions d'application du théorème de Moivre-Laplace et déterminer les paramètres $\\\\mu = np$ et $\\\\sigma = \\\\sqrt{np(1-p)}$.\\n3. Utiliser l'approximation normale pour estimer une valeur seuil $\\\\ell$ telle que $P(X \\\\geq \\\\ell) \\\\leq 0.025$, en utilisant la table de la loi normale centrée réduite ou une fonction quantile.",
     "competences": [
       "appliquer le théorème central limite pour approcher une loi binomiale par une loi normale",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "24ee7ca2-79f6-4214-a716-fdd421049b5d",
+      "id": "b676c728-27ca-4bbe-a93e-84246958c4e2",
       "type": "description",
       "value": {
         "latex": "Une entreprise compte $300$ employés. Chaque employé utilise son téléphone de manière aléatoire, en moyenne $6$ minutes par heure. Cela implique qu'à un instant donné, la probabilité qu'il soit au téléphone est de $\\frac{6}{60} =  0{,}1$. On suppose que l'utilisation du téléphone par un employé est indépendante de celle des autres employés.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "dbeba05b-112d-4380-8ab3-ea094c220118",
+      "id": "743e2185-b397-4cbd-9c0b-f9c10fa9b303",
       "type": "question",
       "value": {
         "latex": "Il est 10h00. Soit $X$ le nombre d'employés qui téléphonent à cet instant. Déterminer la loi de $X$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "147f33ec-01ef-4859-a8c6-23a4b4ff15dd",
+      "id": "708338e4-7f1f-4c7a-9c37-e90683240bd1",
       "type": "reponse",
       "value": {
         "latex": "On a $X \\sim \\mathcal{B}(300,0{,}1)$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "2b6c91ef-9225-4f72-a2b5-82a9cd6a874f",
+      "id": "af9980e4-64eb-4ebf-bea2-4fbdae4c550e",
       "type": "question",
       "value": {
         "latex": "Justifier que la loi de $X$ peut être approchée par une loi normale $\\mathcal{N}(30;\\sqrt{27})$.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "2c4f0c37-5668-4aa1-929b-8deb2d69a2ec",
+      "id": "8ad3c8ff-4fa0-4b1c-a1f8-15c6992add65",
       "type": "reponse",
       "value": {
         "latex": "On a $np = 300 \\times 0{,}1 = 30$ et $np(1-p) = 300 \\times 0{,}1 \\times 0{,}9 = 27$. Le paramètre $n$ est considéré comme grand ($>30$) donc les conditions d'application du théorème de Moivre-Laplace sont vérifiées. On peut donc approcher la loi de $\\frac{X-30}{\\sqrt{27}}$ par une loi normale centrée réduite, ce qui revient à approcher $X$ par une loi normale $\\mathcal{N}(30;\\sqrt{27})$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "36665715-e617-4da1-85c5-2e9a1d978696",
+      "id": "d7228c40-0883-4087-a7db-3be57e4d5fcb",
       "type": "question",
       "value": {
         "latex": "Estimer le nombre $\\ell$ de lignes que l'entreprise doit installer pour que la probabilité que toutes les lignes soient occupées soit au plus égale à $2{,}5\\%$.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "b866835d-1c56-498e-b08a-be034845279f",
+      "id": "6195d697-0669-464a-8660-63ffe8f73b8c",
       "type": "reponse",
       "value": {
         "latex": "On cherche $\\ell$ tel que $\\prob(X \\geq \\ell) \\leq 0{,}025$. On a : \n            $$\\begin{align*}\n                \\prob\\left( X \\geq \\ell \\right) &= \\prob\\left( \\frac{X - 30}{\\sqrt{27}} \\geq \\frac{\\ell - 30}{\\sqrt{27}} \\right) \\\\\n                &= 1- \\prob\\left( \\frac{X - 30}{\\sqrt{27}} \\leq \\frac{\\ell - 30}{\\sqrt{27}} \\right) \\\\\n            \\end{align*}$$\n            On cherche donc $\\ell$ tel que $\\prob \\left( \\frac{X - 30}{\\sqrt{27}} \\leq \\frac{\\ell - 30}{\\sqrt{27}} \\right) \\geq 0{,}975$. Par lecture inverse de table, on en déduit que $\\frac{\\ell - 30}{\\sqrt{27}} \\geq 1{,}96$ donc $\\ell \\geq 30 + 1{,}96 \\times \\sqrt{27} \\approx 38{,}8$. On en déduit que $\\ell = 39$.",

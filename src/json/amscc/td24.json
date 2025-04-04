@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2025-03-20",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "",
-    "updatedAt": "2025-03-28T11:57:49.077Z",
+    "updatedAt": "2025-04-04T19:05:07.439Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi exponentielle à partir d'un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ de densité $f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)$. Il s'agit de:\n\n1.  **Étudier les propriétés d'un estimateur $Y_n$ :**\n    *   Vérifier que $Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i$ est bien défini.\n    *   Justifier le choix de $Y_n$ comme estimateur.\n    *   Déterminer la loi limite de $\\sqrt{n}(Y_n - \\theta)$.\n    *   Calculer la loi de $\\sum_{i=1}^n X_i$ et en déduire $E[(Y_n - \\theta)^2]$.\n\n2.  **Comparer deux estimateurs:**\n    *   Étudier les propriétés de convergence de $Z_n = \\frac{n-1}{n} Y_n$.\n    *   Comparer $Y_n$ et $Z_n$ comme estimateurs de $\\theta$.\n\n3.  **Construire un intervalle de confiance:**\n    *   Déterminer un intervalle de confiance bilatéral asymptotique de niveau $(1-\\alpha)$ pour $\\theta$.\n\n4.  **Effectuer des tests d'hypothèses:**\n    *   Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta \\geq 1$ contre $H_1 : \\theta < 1$.\n    *   Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta = 1$ contre $H_1 : \\theta \\neq 1$.",
     "competences": [
       "appliquer le théorème central limite",
@@ -54,23 +54,23 @@
   },
   "contenu": [
     {
-      "id": "be3d2589-f7ab-4525-a14a-a1e9600ce438",
+      "id": "98224ae7-dde4-4554-8331-a986bec21306",
       "type": "description",
       "value": {
-        "latex": "On considère un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ avec $n \\geq 3$ et $X_1$ de densité $f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)$, où $\\theta > 0$ est le paramètre inconnu.",
-        "html": "<p>On considère un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span class=\"math inline\">\\(n \\geq 3\\)</span> et <span class=\"math inline\">\\(X_1\\)</span> de densité <span class=\"math inline\">\\(f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)\\)</span>, où <span class=\"math inline\">\\(\\theta &gt; 0\\)</span> est le paramètre inconnu.</p>\n"
+        "latex": "On considère un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ avec $n \\geq 3$ et $X_1$ de densité $f_\\theta(x) = \\theta \\exp(-\\theta x) \\mathbf{1}_{[0,+\\infty[}(x)$, où $\\theta > 0$ est le paramètre inconnu.\\\\\nDans cet exercice on pourra utiliser le résultat suivant:\\\\\n\\emph{\nSoit $(X_n)$ une suite de variables aléatoires. Supposons qu'il existe un réel $a$ et une variable $X$ tels que:\n$$\\sqrt{n}(X_n-a) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} X.$$\nSi $g$ est une fonction dérivable en $a$, alors \n$$\\sqrt{n}(g(X_n)-g(a)) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} g'(a)X.$$\n}",
+        "html": "<p>On considère un échantillon i.i.d. <span\nclass=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span\nclass=\"math inline\">\\(n \\geq 3\\)</span> et <span\nclass=\"math inline\">\\(X_1\\)</span> de densité <span\nclass=\"math inline\">\\(f_\\theta(x) = \\theta \\exp(-\\theta x)\n\\mathbf{1}_{[0,+\\infty[}(x)\\)</span>, où <span\nclass=\"math inline\">\\(\\theta &gt; 0\\)</span> est le paramètre\ninconnu.<br />\nDans cet exercice on pourra utiliser le résultat suivant:<br />\n<em>Soit <span class=\"math inline\">\\((X_n)\\)</span> une suite de\nvariables aléatoires. Supposons qu’il existe un réel <span\nclass=\"math inline\">\\(a\\)</span> et une variable <span\nclass=\"math inline\">\\(X\\)</span> tels que: <span\nclass=\"math display\">\\[\\sqrt{n}(X_n-a)\n\\xrightarrow[n\\to\\infty]{\\mathcal{L}} X.\\]</span> Si <span\nclass=\"math inline\">\\(g\\)</span> est une fonction dérivable en <span\nclass=\"math inline\">\\(a\\)</span>, alors <span\nclass=\"math display\">\\[\\sqrt{n}(g(X_n)-g(a))\n\\xrightarrow[n\\to\\infty]{\\mathcal{L}} g&#39;(a)X.\\]</span></em></p>\n"
       }
     },
     {
-      "id": "a250bca3-fe95-46ba-8f4a-dd67df12608a",
+      "id": "a45c2802-f8a3-4b61-92cf-9fae7000e23b",
       "type": "question",
       "value": {
-        "latex": "On propose d’estimer $\\theta$ par $Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i$. \\\\\n(a) Montrer que la v.a. $Y_n$ est bien définie.\\\\\n(b) Expliquer pourquoi il est logique de choisir $Y_n$ comme estimateur de $\\theta$. \\\\\n(c) Déterminer la loi limite de $\\sqrt{n}(Y_n - \\theta)$. \\\\\n(d) Donner la loi de $\\sum_{i=1}^n X_i$. En déduire la valeur de $E[(Y_n - \\theta)^2]$.",
-        "html": "<p>On propose d’estimer <span class=\"math inline\">\\(\\theta\\)</span> par <span class=\"math inline\">\\(Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i\\)</span>.<br />\n(a) Montrer que la v.a. <span class=\"math inline\">\\(Y_n\\)</span> est bien définie.<br />\n(b) Expliquer pourquoi il est logique de choisir <span class=\"math inline\">\\(Y_n\\)</span> comme estimateur de <span class=\"math inline\">\\(\\theta\\)</span>.<br />\n(c) Déterminer la loi limite de <span class=\"math inline\">\\(\\sqrt{n}(Y_n - \\theta)\\)</span>.<br />\n(d) Donner la loi de <span class=\"math inline\">\\(\\sum_{i=1}^n X_i\\)</span>. En déduire la valeur de <span class=\"math inline\">\\(E[(Y_n - \\theta)^2]\\)</span>.</p>\n"
+        "latex": "On propose d’estimer $\\theta$ par $Y_n = \\frac{n}{ \\sum_{i=1}^n X_i}$. \\\\\n(a) Montrer que la v.a. $Y_n$ est bien définie.\\\\\n(b) Expliquer pourquoi il est logique de choisir $Y_n$ comme estimateur de $\\theta$. \\\\\n(c) Déterminer la loi limite de $\\sqrt{n}(Y_n - \\theta)$. \\\\\n(d) Donner la loi de $\\sum_{i=1}^n X_i$. En déduire la valeur de $E[(Y_n - \\theta)^2]$.",
+        "html": "<p>On propose d’estimer <span class=\"math inline\">\\(\\theta\\)</span> par\n<span class=\"math inline\">\\(Y_n = \\frac{n}{ \\sum_{i=1}^n\nX_i}\\)</span>.<br />\n(a) Montrer que la v.a. <span class=\"math inline\">\\(Y_n\\)</span> est\nbien définie.<br />\n(b) Expliquer pourquoi il est logique de choisir <span\nclass=\"math inline\">\\(Y_n\\)</span> comme estimateur de <span\nclass=\"math inline\">\\(\\theta\\)</span>.<br />\n(c) Déterminer la loi limite de <span class=\"math inline\">\\(\\sqrt{n}(Y_n\n- \\theta)\\)</span>.<br />\n(d) Donner la loi de <span class=\"math inline\">\\(\\sum_{i=1}^n\nX_i\\)</span>. En déduire la valeur de <span class=\"math inline\">\\(E[(Y_n\n- \\theta)^2]\\)</span>.</p>\n"
       }
     },
     {
-      "id": "5ab4743c-a545-44bb-8132-c4217efdc87b",
+      "id": "3fe8f1f0-3c7b-42fe-b4d3-fba38792260d",
       "type": "indication",
       "value": {
         "latex": "",
@@ -78,23 +78,23 @@
       }
     },
     {
-      "id": "2e55a1d4-b7bb-4f55-ae13-94bdabd0042c",
+      "id": "56c7a6b2-dcd0-42ef-977a-9038e8f199d8",
       "type": "reponse",
       "value": {
-        "latex": "",
-        "html": "\n"
+        "latex": "(a) La v.a. $Y_n$ est bien définie sur l'événement $\\{\\sum_{i=1}^n X_i > 0\\}$ qui est de probabilité 1 car les $X_i$ sont strictement positifs p.s. (la loi de $X_i$ ne charge pas 0 car elle est absolument continue par rapport à la mesure de Lebesgue). Ainsi, $Y_n$ est bien définie p.s.\n\n(b) Les v.a. $X_i$ suivent une loi exponentielle $\\mathcal{E}(\\theta)$. On a ainsi $E(X_1) = 1/\\theta$. La loi des grands nombres appliquée aux $X_i$ (i.i.d. et intégrables) montre que $\\overline{X}_n$ converge p.s. vers $1/\\theta > 0$. Par le théorème de continuité, $Y_n = 1/\\overline{X}_n$ converge p.s. vers $\\theta$. Cela indique que $Y_n = 1/\\overline{X}_n$ est un estimateur consistant et donc raisonnable de $\\theta$. Ce dernier correspond à l'estimateur par la méthode des moments.\n\n(c) Comme $\\text{Var}(X_1) = 1/\\theta^2 < \\infty$, le TCL donne que \n$$\\sqrt{n}(\\overline{X}_n - E(X_1)) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, \\sigma(X_1))$$\nc'est-à-dire \n$$\\sqrt{n}(\\overline{X}_n - 1/\\theta) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, 1/\\theta).$$\nÀ présent, on utilise le résultat admis avec la fonction $g:\\,x \\mapsto 1/x$, qui est bien dérivable sur $\\mathbb{R}^*_+$ de dérivée en $1/\\theta$ égale à $-1/(1/\\theta)^2 = -\\theta^2$ : \n$$\\sqrt{n}(Y_n - \\theta) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, \\theta).$$\n\n(d) Les $X_i$ sont indépendantes et puisque chaque $X_i$ est de loi $\\mathcal{E}(\\theta) = \\gamma(1, \\theta)$,où $\\gamma(n,\\theta)$ est la densité de probabilité donnée par:\n$$\n\\gamma(n,\\theta)(x) = \\frac{\\theta^n}{\\Gamma(n)} x^{n-1} \\exp(-\\theta x)\\mathbf{1}_{[0,+\\infty[}(x),\n$$\nOn peut montrer que $\\sum_{i=1}^n X_i \\sim \\gamma(n, \\theta)$.\\\\\nEn effet la fonction caractéristique associée à la loi $X:=\\gamma(n,\\theta)$ est $\\varphi_{X}(t)=\\frac{1}{(1-it/\\theta)^{n}}$. Donc par exemple pour $X \\sim \\gamma(n_1,\\theta)$ et  $Y \\sim \\gamma(n_2,\\theta)$ indépendante on a:\n$$\\varphi_{X+Y}(t)=\\frac{1}{(1-it/\\theta)^{n_1}}\\times \\frac{1}{(1-it/\\theta)^{n_2}}=\\frac{1}{(1-it/\\theta)^{n_1+n_2}}, $$\net ainsi $X+Y \\sim \\gamma(n_1+n_2,\\theta)$ et le résultat pour une somme de $n$ v.a. indépendantes suit.\\\\\nOn en déduit $E(Y_n)$, $\\text{Var}(Y_n)$ et $E[(Y_n - \\theta)^2]$ :\n$$\\begin{align*}\nE(Y_n) &= E\\left(\\frac{n}{\\sum_{i=1}^n X_i}\\right) = nE\\left(\\frac{1}{\\sum_{i=1}^n X_i}\\right) \\\\\n&= n\\int_{\\mathbb{R}_+} \\frac{1}{x} \\frac{\\theta^n}{\\Gamma(n)} x^{n-1}\\exp(-\\theta x)dx \\\\\n&= \\frac{n\\theta}{\\Gamma(n)}\\int_{\\mathbb{R}_+} u^{n-2}\\exp(-u)du \\\\\n&= \\frac{n\\theta}{\\Gamma(n)}\\Gamma(n-1) = \\frac{n\\theta}{n-1},\n\\end{align*}$$\nen posant $u = \\theta x$ et en reconnaissant sous la dernière intégrale la densité de la $\\gamma(n-1, 1)$, au facteur $\\Gamma(n-1)$ près.\n\nOn obtient de la même manière :\n$$\\begin{align*}\nE(Y_n^2) &= \\frac{n^2\\theta^2}{\\Gamma(n)}\\Gamma(n-2) = \\frac{n^2\\theta^2}{(n-1)(n-2)},\n\\end{align*}$$\ndonc, sans même passer par la décomposition biais-variance,\n$$\\begin{align*}\nEQM(Y_n) = E[(Y_n - \\theta)^2] = E[Y_n^2] - 2\\theta E[Y_n] + \\theta^2 = \\frac{n+2}{(n-1)(n-2)}\\theta^2.\n\\end{align*}$$",
+        "html": "<p>(a) La v.a. <span class=\"math inline\">\\(Y_n\\)</span> est bien définie\nsur l’événement <span class=\"math inline\">\\(\\{\\sum_{i=1}^n X_i &gt;\n0\\}\\)</span> qui est de probabilité 1 car les <span\nclass=\"math inline\">\\(X_i\\)</span> sont strictement positifs p.s. (la\nloi de <span class=\"math inline\">\\(X_i\\)</span> ne charge pas 0 car elle\nest absolument continue par rapport à la mesure de Lebesgue). Ainsi,\n<span class=\"math inline\">\\(Y_n\\)</span> est bien définie p.s.</p>\n<p>(b) Les v.a. <span class=\"math inline\">\\(X_i\\)</span> suivent une loi\nexponentielle <span class=\"math inline\">\\(\\mathcal{E}(\\theta)\\)</span>.\nOn a ainsi <span class=\"math inline\">\\(E(X_1) = 1/\\theta\\)</span>. La\nloi des grands nombres appliquée aux <span\nclass=\"math inline\">\\(X_i\\)</span> (i.i.d. et intégrables) montre que\n<span class=\"math inline\">\\(\\overline{X}_n\\)</span> converge p.s. vers\n<span class=\"math inline\">\\(1/\\theta &gt; 0\\)</span>. Par le théorème de\ncontinuité, <span class=\"math inline\">\\(Y_n = 1/\\overline{X}_n\\)</span>\nconverge p.s. vers <span class=\"math inline\">\\(\\theta\\)</span>. Cela\nindique que <span class=\"math inline\">\\(Y_n = 1/\\overline{X}_n\\)</span>\nest un estimateur consistant et donc raisonnable de <span\nclass=\"math inline\">\\(\\theta\\)</span>. Ce dernier correspond à\nl’estimateur par la méthode des moments.</p>\n<p>(c) Comme <span class=\"math inline\">\\(\\text{Var}(X_1) = 1/\\theta^2\n&lt; \\infty\\)</span>, le TCL donne que <span\nclass=\"math display\">\\[\\sqrt{n}(\\overline{X}_n - E(X_1))\n\\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0,\n\\sigma(X_1))\\]</span> c’est-à-dire <span\nclass=\"math display\">\\[\\sqrt{n}(\\overline{X}_n - 1/\\theta)\n\\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, 1/\\theta).\\]</span>\nÀ présent, on utilise le résultat admis avec la fonction <span\nclass=\"math inline\">\\(g:\\,x \\mapsto 1/x\\)</span>, qui est bien dérivable\nsur <span class=\"math inline\">\\(\\mathbb{R}^*_+\\)</span> de dérivée en\n<span class=\"math inline\">\\(1/\\theta\\)</span> égale à <span\nclass=\"math inline\">\\(-1/(1/\\theta)^2 = -\\theta^2\\)</span> : <span\nclass=\"math display\">\\[\\sqrt{n}(Y_n - \\theta)\n\\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0,\n\\theta).\\]</span></p>\n<p>(d) Les <span class=\"math inline\">\\(X_i\\)</span> sont indépendantes\net puisque chaque <span class=\"math inline\">\\(X_i\\)</span> est de loi\n<span class=\"math inline\">\\(\\mathcal{E}(\\theta) = \\gamma(1,\n\\theta)\\)</span>,où <span\nclass=\"math inline\">\\(\\gamma(n,\\theta)\\)</span> est la densité de\nprobabilité donnée par: <span class=\"math display\">\\[\\gamma(n,\\theta)(x)\n= \\frac{\\theta^n}{\\Gamma(n)} x^{n-1} \\exp(-\\theta\nx)\\mathbf{1}_{[0,+\\infty[}(x),\\]</span> On peut montrer que <span\nclass=\"math inline\">\\(\\sum_{i=1}^n X_i \\sim \\gamma(n,\n\\theta)\\)</span>.<br />\nEn effet la fonction caractéristique associée à la loi <span\nclass=\"math inline\">\\(X:=\\gamma(n,\\theta)\\)</span> est <span\nclass=\"math inline\">\\(\\varphi_{X}(t)=\\frac{1}{(1-it/\\theta)^{n}}\\)</span>.\nDonc par exemple pour <span class=\"math inline\">\\(X \\sim\n\\gamma(n_1,\\theta)\\)</span> et <span class=\"math inline\">\\(Y \\sim\n\\gamma(n_2,\\theta)\\)</span> indépendante on a: <span\nclass=\"math display\">\\[\\varphi_{X+Y}(t)=\\frac{1}{(1-it/\\theta)^{n_1}}\\times\n\\frac{1}{(1-it/\\theta)^{n_2}}=\\frac{1}{(1-it/\\theta)^{n_1+n_2}},\\]</span>\net ainsi <span class=\"math inline\">\\(X+Y \\sim\n\\gamma(n_1+n_2,\\theta)\\)</span> et le résultat pour une somme de <span\nclass=\"math inline\">\\(n\\)</span> v.a. indépendantes suit.<br />\nOn en déduit <span class=\"math inline\">\\(E(Y_n)\\)</span>, <span\nclass=\"math inline\">\\(\\text{Var}(Y_n)\\)</span> et <span\nclass=\"math inline\">\\(E[(Y_n - \\theta)^2]\\)</span> : <span\nclass=\"math display\">\\[\\begin{align*}\nE(Y_n) &amp;= E\\left(\\frac{n}{\\sum_{i=1}^n X_i}\\right) =\nnE\\left(\\frac{1}{\\sum_{i=1}^n X_i}\\right) \\\\\n&amp;= n\\int_{\\mathbb{R}_+} \\frac{1}{x} \\frac{\\theta^n}{\\Gamma(n)}\nx^{n-1}\\exp(-\\theta x)dx \\\\\n&amp;= \\frac{n\\theta}{\\Gamma(n)}\\int_{\\mathbb{R}_+} u^{n-2}\\exp(-u)du \\\\\n&amp;= \\frac{n\\theta}{\\Gamma(n)}\\Gamma(n-1) = \\frac{n\\theta}{n-1},\n\\end{align*}\\]</span> en posant <span class=\"math inline\">\\(u = \\theta\nx\\)</span> et en reconnaissant sous la dernière intégrale la densité de\nla <span class=\"math inline\">\\(\\gamma(n-1, 1)\\)</span>, au facteur <span\nclass=\"math inline\">\\(\\Gamma(n-1)\\)</span> près.</p>\n<p>On obtient de la même manière : <span\nclass=\"math display\">\\[\\begin{align*}\nE(Y_n^2) &amp;= \\frac{n^2\\theta^2}{\\Gamma(n)}\\Gamma(n-2) =\n\\frac{n^2\\theta^2}{(n-1)(n-2)},\n\\end{align*}\\]</span> donc, sans même passer par la décomposition\nbiais-variance, <span class=\"math display\">\\[\\begin{align*}\nEQM(Y_n) = E[(Y_n - \\theta)^2] = E[Y_n^2] - 2\\theta E[Y_n] + \\theta^2 =\n\\frac{n+2}{(n-1)(n-2)}\\theta^2.\n\\end{align*}\\]</span></p>\n"
       }
     },
     {
-      "id": "e875f6c6-209b-4be7-9f51-ab5050f78525",
+      "id": "4e1415ef-171e-4e9f-b6c6-36f1ba20868c",
       "type": "question",
       "value": {
         "latex": "Pour estimer $\\theta$, on propose d’utiliser $Z_n = \\frac{n-1}{n} Y_n$.\\\\\n     (a) $Z_n$ vérifie-t-il des propriétés de convergence similaires à celles de $Y_n$ ?\\\\\n     (b) Qui de $Y_n$ ou $Z_n$ choisiriez-vous pour estimer $\\theta$ ?",
-        "html": "<p>Pour estimer <span class=\"math inline\">\\(\\theta\\)</span>, on propose d’utiliser <span class=\"math inline\">\\(Z_n = \\frac{n-1}{n} Y_n\\)</span>.<br />\n(a) <span class=\"math inline\">\\(Z_n\\)</span> vérifie-t-il des propriétés de convergence similaires à celles de <span class=\"math inline\">\\(Y_n\\)</span> ?<br />\n(b) Qui de <span class=\"math inline\">\\(Y_n\\)</span> ou <span class=\"math inline\">\\(Z_n\\)</span> choisiriez-vous pour estimer <span class=\"math inline\">\\(\\theta\\)</span> ?</p>\n"
+        "html": "<p>Pour estimer <span class=\"math inline\">\\(\\theta\\)</span>, on propose\nd’utiliser <span class=\"math inline\">\\(Z_n = \\frac{n-1}{n}\nY_n\\)</span>.<br />\n(a) <span class=\"math inline\">\\(Z_n\\)</span> vérifie-t-il des propriétés\nde convergence similaires à celles de <span\nclass=\"math inline\">\\(Y_n\\)</span> ?<br />\n(b) Qui de <span class=\"math inline\">\\(Y_n\\)</span> ou <span\nclass=\"math inline\">\\(Z_n\\)</span> choisiriez-vous pour estimer <span\nclass=\"math inline\">\\(\\theta\\)</span> ?</p>\n"
       }
     },
     {
-      "id": "02f38020-3857-46f1-ba8b-2881be6050ff",
+      "id": "40dc57c8-cf5e-43bc-a962-0453c960bbd6",
       "type": "indication",
       "value": {
         "latex": "",
@@ -102,23 +102,23 @@
       }
     },
     {
-      "id": "423c749f-d733-46d0-9995-9d3dd0f15d4f",
+      "id": "7f6871dc-5798-435b-a7d2-1f670fa6246b",
       "type": "reponse",
       "value": {
-        "latex": "",
-        "html": "\n"
+        "latex": "Les propriétés asymptotiques de $Z_n$ sont similaires à celles de $Y_n$ : comme $\\frac{n-1}{n} \\xrightarrow[n\\to\\infty]{} 1$ et $Y_n \\xrightarrow[n\\to\\infty]{p.s.} \\theta$, on a bien sûr $Z_n \\xrightarrow[n\\to\\infty]{p.s.} \\theta$. De plus, comme $\\sqrt{n}(Y_n - \\theta) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, \\theta)$, nous avons \n\\begin{align}\n\\sqrt{n}(Z_n - \\theta) &= \\sqrt{n}(Y_n - \\theta) - \\sqrt{n}(Y_n - Z_n)\\\\\n&= \\sqrt{n}(Y_n - \\theta) - \\frac{Y_n}{\\sqrt{n}}\\\\\n&\\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, \\theta),\n\\end{align}\noù nous avons utilisé le lemme de Slutsky car $\\frac{Y_n}{\\sqrt{n}}$ converge en probabilité vers $0$ (constante).\n\n(b) On calcule le risque de $Z_n$ :\n\\begin{align}\nE(Z_n) &= \\frac{n-1}{n}E(Y_n) = \\theta \\quad \\text{(estimateur sans biais)}\\\\\nE(Z_n^2) &= \\left(\\frac{n-1}{n}\\right)^2 E(Y_n^2) = \\frac{n-1}{n-2}\\theta^2\n\\end{align}\n\\begin{align}\nEQM(Z_n) &= E[(Z_n - \\theta)^2] = E[Z_n^2] - 2\\theta E[Z_n] + \\theta^2 =\\frac{\\theta^2}{n-2}.\n\\end{align}\n\nOn voit que l'écart quadratique moyen de $Z_n$ est inférieur à celui de $Y_n$ (pour toute valeur de $\\theta$, puisque $\\frac{n+2}{n-1} > 1$), l'estimateur $Z_n$ est donc un peu meilleur au sens du risque quadratique. La différence devient cependant négligeable lorsque $n$ grandit.",
+        "html": "<p>Les propriétés asymptotiques de <span\nclass=\"math inline\">\\(Z_n\\)</span> sont similaires à celles de <span\nclass=\"math inline\">\\(Y_n\\)</span> : comme <span\nclass=\"math inline\">\\(\\frac{n-1}{n} \\xrightarrow[n\\to\\infty]{}\n1\\)</span> et <span class=\"math inline\">\\(Y_n\n\\xrightarrow[n\\to\\infty]{p.s.} \\theta\\)</span>, on a bien sûr <span\nclass=\"math inline\">\\(Z_n \\xrightarrow[n\\to\\infty]{p.s.}\n\\theta\\)</span>. De plus, comme <span class=\"math inline\">\\(\\sqrt{n}(Y_n\n- \\theta) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0,\n\\theta)\\)</span>, nous avons <span\nclass=\"math display\">\\[\\begin{aligned}\n\\sqrt{n}(Z_n - \\theta) &amp;= \\sqrt{n}(Y_n - \\theta) - \\sqrt{n}(Y_n -\nZ_n)\\\\\n&amp;= \\sqrt{n}(Y_n - \\theta) - \\frac{Y_n}{\\sqrt{n}}\\\\\n&amp;\\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0, \\theta),\n\\end{aligned}\\]</span> où nous avons utilisé le lemme de Slutsky car\n<span class=\"math inline\">\\(\\frac{Y_n}{\\sqrt{n}}\\)</span> converge en\nprobabilité vers <span class=\"math inline\">\\(0\\)</span> (constante).</p>\n<p>(b) On calcule le risque de <span class=\"math inline\">\\(Z_n\\)</span>\n: <span class=\"math display\">\\[\\begin{aligned}\nE(Z_n) &amp;= \\frac{n-1}{n}E(Y_n) = \\theta \\quad \\text{(estimateur sans\nbiais)}\\\\\nE(Z_n^2) &amp;= \\left(\\frac{n-1}{n}\\right)^2 E(Y_n^2) =\n\\frac{n-1}{n-2}\\theta^2\n\\end{aligned}\\]</span> <span class=\"math display\">\\[\\begin{aligned}\nEQM(Z_n) &amp;= E[(Z_n - \\theta)^2] = E[Z_n^2] - 2\\theta E[Z_n] +\n\\theta^2 =\\frac{\\theta^2}{n-2}.\n\\end{aligned}\\]</span></p>\n<p>On voit que l’écart quadratique moyen de <span\nclass=\"math inline\">\\(Z_n\\)</span> est inférieur à celui de <span\nclass=\"math inline\">\\(Y_n\\)</span> (pour toute valeur de <span\nclass=\"math inline\">\\(\\theta\\)</span>, puisque <span\nclass=\"math inline\">\\(\\frac{n+2}{n-1} &gt; 1\\)</span>), l’estimateur\n<span class=\"math inline\">\\(Z_n\\)</span> est donc un peu meilleur au\nsens du risque quadratique. La différence devient cependant négligeable\nlorsque <span class=\"math inline\">\\(n\\)</span> grandit.</p>\n"
       }
     },
     {
-      "id": "93fe241c-98a2-4326-b192-35033d242b07",
+      "id": "34796b19-2975-4892-bb4f-2e3c0d42567c",
       "type": "question",
       "value": {
         "latex": "Soit $\\alpha \\in ]0, 1[$. Donner un intervalle de confiance bilatère de niveau asymptotique $(1-\\alpha)$ pour $\\theta$.",
-        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha \\in ]0, 1[\\)</span>. Donner un intervalle de confiance bilatère de niveau asymptotique <span class=\"math inline\">\\((1-\\alpha)\\)</span> pour <span class=\"math inline\">\\(\\theta\\)</span>.</p>\n"
+        "html": "<p>Soit <span class=\"math inline\">\\(\\alpha \\in ]0, 1[\\)</span>. Donner\nun intervalle de confiance bilatère de niveau asymptotique <span\nclass=\"math inline\">\\((1-\\alpha)\\)</span> pour <span\nclass=\"math inline\">\\(\\theta\\)</span>.</p>\n"
       }
     },
     {
-      "id": "76c8c9da-ea25-48d3-93ec-dedb6dfd6aea",
+      "id": "4d163eec-f5e2-48f6-8eef-0068587dfb89",
       "type": "indication",
       "value": {
         "latex": "",
@@ -126,23 +126,23 @@
       }
     },
     {
-      "id": "e57b1006-ce7f-453e-b7eb-caba30661ad2",
+      "id": "aa2c9279-cca8-47b3-8229-2afe7d1aff5f",
       "type": "reponse",
       "value": {
-        "latex": "",
-        "html": "\n"
+        "latex": "Puisque $\\frac{\\sqrt{n}}{\\theta}(Z_n - \\theta) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0,1)$ nous avons:\n    \n   $$\nP \\left(- \\Phi^{-1}(1 - \\alpha/2) < \\sqrt{n}(Z_n/\\theta-1) < \\Phi^{-1}(1 - \\alpha/2) \\right) \\xrightarrow[n\\to\\infty]{}  1 - \\alpha.\n$$    \n  On obtient un intervalle de confiance asymptotique  en réorganisant les termes de l'inégalité:  \n    $$\\big[\\frac{Z_n}{1 + \\Phi^{-1}(1-\\alpha/2)/\\sqrt{n}}, \\frac{Z_n}{1 - \\Phi^{-1}(1-\\alpha/2)/\\sqrt{n}}\n    \\big]\n     $$",
+        "html": "<p>Puisque <span class=\"math inline\">\\(\\frac{\\sqrt{n}}{\\theta}(Z_n -\n\\theta) \\xrightarrow[n\\to\\infty]{\\mathcal{L}} \\mathcal{N}(0,1)\\)</span>\nnous avons:</p>\n<p><span class=\"math display\">\\[P \\left(- \\Phi^{-1}(1 - \\alpha/2) &lt;\n\\sqrt{n}(Z_n/\\theta-1) &lt; \\Phi^{-1}(1 - \\alpha/2) \\right)\n\\xrightarrow[n\\to\\infty]{}  1 - \\alpha.\\]</span> On obtient un\nintervalle de confiance asymptotique en réorganisant les termes de\nl’inégalité: <span class=\"math display\">\\[\\big[\\frac{Z_n}{1 +\n\\Phi^{-1}(1-\\alpha/2)/\\sqrt{n}}, \\frac{Z_n}{1 -\n\\Phi^{-1}(1-\\alpha/2)/\\sqrt{n}}\n    \\big]\\]</span></p>\n"
       }
     },
     {
-      "id": "4775d5c6-fdd3-4ca8-bc1f-d0dc5249c4cb",
+      "id": "5d38d226-3b9d-460c-bcf5-80232f510b3a",
       "type": "question",
       "value": {
         "latex": "Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta \\geq 1$ contre $H_1 : \\theta < 1$.",
-        "html": "<p>Proposer un test de niveau asymptotique <span class=\"math inline\">\\(\\alpha\\)</span> pour tester <span class=\"math inline\">\\(H_0 : \\theta \\geq 1\\)</span> contre <span class=\"math inline\">\\(H_1 : \\theta &lt; 1\\)</span>.</p>\n"
+        "html": "<p>Proposer un test de niveau asymptotique <span\nclass=\"math inline\">\\(\\alpha\\)</span> pour tester <span\nclass=\"math inline\">\\(H_0 : \\theta \\geq 1\\)</span> contre <span\nclass=\"math inline\">\\(H_1 : \\theta &lt; 1\\)</span>.</p>\n"
       }
     },
     {
-      "id": "182335c4-0940-4994-955d-3944ba80fa1c",
+      "id": "35096a88-dd1e-4a74-99dd-3e276518cb21",
       "type": "indication",
       "value": {
         "latex": "",
@@ -150,23 +150,23 @@
       }
     },
     {
-      "id": "8a181e77-ca5e-42b7-8bc3-b924978e3bb0",
+      "id": "e1112423-a1c6-4912-beb8-7fa272c74185",
       "type": "reponse",
       "value": {
-        "latex": "",
-        "html": "\n"
+        "latex": "Pour tout $\\theta > 0$, par le même raisonnement que ci-dessus, un intervalle de confiance unilatéral de\nniveau asymptotique $1 - \\alpha$ pour $\\theta$ est (en prenant comme convention $]a, b] = \\emptyset$ pour $b \\leq a$) :\n\n$$\n\\left] 0, \\frac{Z_n}{1 + \\Phi^{-1}(\\alpha) / \\sqrt{n}} \\right].\n$$\n\nLe lien entre intervalles de confiance (asymptotiques) et tests (asymptotiques) assure donc que le\ntest consistant à rejeter $H_0$ ssi\n\n$$\n[1, +\\infty[ \\cap \\left] 0, \\frac{Z_n}{1 + \\Phi^{-1}(\\alpha) / \\sqrt{n}} \\right] = \\emptyset\n$$\n\nest de niveau asymptotique $\\alpha$. Dit autrement, on rejette $H_0$ ssi\n\n$$\nZ_n < 1 + \\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}}.\n$$\n\\textbf{Remarque 1} : en mettant le test sous cette dernière forme, on a supposé que\n$1 + \\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}} > 0$, or à $n$ fixé petit ceci n’est pas toujours vrai puisque pour les valeurs de $\\alpha$ courantes (i.e. inférieures à $1/2$, par exemple $\\alpha = 5\\%$), on a $\\Phi^{-1}(\\alpha) < 0$ (par exemple $\\Phi^{-1}(0.05) \\approx -1.64$), donc pour $n < \\Phi^{-1}(\\alpha)^2$\n(par exemple $n < \\Phi^{-1}(0.05)^2 \\approx 2.7$), il est clair que $1 + \\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}} < 0$ et le passage à la dernière forme n’est pas licite. \n\nNéanmoins, il faut bien garder à l’esprit que tout ce qu’on dit n’est valable que pour $n \\to \\infty$, or quel que soit $\\alpha \\in ]0,1[$ on a bien asymptotiquement $1 + \\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}} > 0$, donc le passage à la dernière expression est correct. Quoi qu’il en soit, si on veut éviter toute discussion, il suffit de garder le test sous la forme : rejet de $H_0$ ssi\n\n$$\n\\frac{Z_n}{1 + \\Phi^{-1}(\\alpha) / \\sqrt{n}} < 1.\n$$\n\n\\textbf{Remarque 2} : pour construire un test, il suffit que l’intervalle de confiance soit vrai sous $H_0$, c’est-à-dire pour tout $\\theta \\in \\Theta_0 = [1, \\infty)$, et pas nécessairement sur tout $\\mathbb{R}$. On aurait donc très bien pu écrire que pour tout $\\theta \\geq 1$, \n\n$$\n\\left] 0, \\frac{Z_n}{1+ \\Phi^{-1}(\\alpha) / \\sqrt{n}} \\right]\n$$\n\nest un intervalle de confiance de niveau asymptotique $1-\\alpha$ pour $\\theta$ sous $H_0$, et construire le test par intersection avec $[1, +\\infty[$, ce qui sur cet exemple serait revenu au même. La situation typique où il est plus judicieux de construire l’intervalle de confiance en tenant compte du fait que $\\theta \\in \\Theta_0$ est celle où $\\Theta_0 = \\{\\theta_0\\}$, c’est-à-dire que $H_0$ est une hypothèse simple (cf. question suivante).",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(\\theta &gt; 0\\)</span>, par le\nmême raisonnement que ci-dessus, un intervalle de confiance unilatéral\nde niveau asymptotique <span class=\"math inline\">\\(1 - \\alpha\\)</span>\npour <span class=\"math inline\">\\(\\theta\\)</span> est (en prenant comme\nconvention <span class=\"math inline\">\\(]a, b] = \\emptyset\\)</span> pour\n<span class=\"math inline\">\\(b \\leq a\\)</span>) :</p>\n<p><span class=\"math display\">\\[\\left] 0, \\frac{Z_n}{1 +\n\\Phi^{-1}(\\alpha) / \\sqrt{n}} \\right].\\]</span></p>\n<p>Le lien entre intervalles de confiance (asymptotiques) et tests\n(asymptotiques) assure donc que le test consistant à rejeter <span\nclass=\"math inline\">\\(H_0\\)</span> ssi</p>\n<p><span class=\"math display\">\\[[1, +\\infty[ \\cap \\left] 0, \\frac{Z_n}{1\n+ \\Phi^{-1}(\\alpha) / \\sqrt{n}} \\right] = \\emptyset\\]</span></p>\n<p>est de niveau asymptotique <span\nclass=\"math inline\">\\(\\alpha\\)</span>. Dit autrement, on rejette <span\nclass=\"math inline\">\\(H_0\\)</span> ssi</p>\n<p><span class=\"math display\">\\[Z_n &lt; 1 +\n\\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}}.\\]</span> <strong>Remarque 1</strong>\n: en mettant le test sous cette dernière forme, on a supposé que <span\nclass=\"math inline\">\\(1 + \\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}} &gt;\n0\\)</span>, or à <span class=\"math inline\">\\(n\\)</span> fixé petit ceci\nn’est pas toujours vrai puisque pour les valeurs de <span\nclass=\"math inline\">\\(\\alpha\\)</span> courantes (i.e. inférieures à\n<span class=\"math inline\">\\(1/2\\)</span>, par exemple <span\nclass=\"math inline\">\\(\\alpha = 5\\%\\)</span>), on a <span\nclass=\"math inline\">\\(\\Phi^{-1}(\\alpha) &lt; 0\\)</span> (par exemple\n<span class=\"math inline\">\\(\\Phi^{-1}(0.05) \\approx -1.64\\)</span>),\ndonc pour <span class=\"math inline\">\\(n &lt;\n\\Phi^{-1}(\\alpha)^2\\)</span> (par exemple <span class=\"math inline\">\\(n\n&lt; \\Phi^{-1}(0.05)^2 \\approx 2.7\\)</span>), il est clair que <span\nclass=\"math inline\">\\(1 + \\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}} &lt;\n0\\)</span> et le passage à la dernière forme n’est pas licite.</p>\n<p>Néanmoins, il faut bien garder à l’esprit que tout ce qu’on dit n’est\nvalable que pour <span class=\"math inline\">\\(n \\to \\infty\\)</span>, or\nquel que soit <span class=\"math inline\">\\(\\alpha \\in ]0,1[\\)</span> on a\nbien asymptotiquement <span class=\"math inline\">\\(1 +\n\\frac{\\Phi^{-1}(\\alpha)}{\\sqrt{n}} &gt; 0\\)</span>, donc le passage à la\ndernière expression est correct. Quoi qu’il en soit, si on veut éviter\ntoute discussion, il suffit de garder le test sous la forme : rejet de\n<span class=\"math inline\">\\(H_0\\)</span> ssi</p>\n<p><span class=\"math display\">\\[\\frac{Z_n}{1 + \\Phi^{-1}(\\alpha) /\n\\sqrt{n}} &lt; 1.\\]</span></p>\n<p><strong>Remarque 2</strong> : pour construire un test, il suffit que\nl’intervalle de confiance soit vrai sous <span\nclass=\"math inline\">\\(H_0\\)</span>, c’est-à-dire pour tout <span\nclass=\"math inline\">\\(\\theta \\in \\Theta_0 = [1, \\infty)\\)</span>, et pas\nnécessairement sur tout <span class=\"math inline\">\\(\\mathbb{R}\\)</span>.\nOn aurait donc très bien pu écrire que pour tout <span\nclass=\"math inline\">\\(\\theta \\geq 1\\)</span>,</p>\n<p><span class=\"math display\">\\[\\left] 0, \\frac{Z_n}{1+\n\\Phi^{-1}(\\alpha) / \\sqrt{n}} \\right]\\]</span></p>\n<p>est un intervalle de confiance de niveau asymptotique <span\nclass=\"math inline\">\\(1-\\alpha\\)</span> pour <span\nclass=\"math inline\">\\(\\theta\\)</span> sous <span\nclass=\"math inline\">\\(H_0\\)</span>, et construire le test par\nintersection avec <span class=\"math inline\">\\([1, +\\infty[\\)</span>, ce\nqui sur cet exemple serait revenu au même. La situation typique où il\nest plus judicieux de construire l’intervalle de confiance en tenant\ncompte du fait que <span class=\"math inline\">\\(\\theta \\in\n\\Theta_0\\)</span> est celle où <span class=\"math inline\">\\(\\Theta_0 =\n\\{\\theta_0\\}\\)</span>, c’est-à-dire que <span\nclass=\"math inline\">\\(H_0\\)</span> est une hypothèse simple (cf.\nquestion suivante).</p>\n"
       }
     },
     {
-      "id": "09591901-95a6-45b8-bdba-81796c08df32",
+      "id": "6ddea671-962e-4229-8697-8cc5be67cfa2",
       "type": "question",
       "value": {
         "latex": "Proposer un test de niveau asymptotique $\\alpha$ pour tester $H_0 : \\theta = 1$ contre $H_1 : \\theta \\neq 1$.",
-        "html": "<p>Proposer un test de niveau asymptotique <span class=\"math inline\">\\(\\alpha\\)</span> pour tester <span class=\"math inline\">\\(H_0 : \\theta = 1\\)</span> contre <span class=\"math inline\">\\(H_1 : \\theta \\neq 1\\)</span>.</p>\n"
+        "html": "<p>Proposer un test de niveau asymptotique <span\nclass=\"math inline\">\\(\\alpha\\)</span> pour tester <span\nclass=\"math inline\">\\(H_0 : \\theta = 1\\)</span> contre <span\nclass=\"math inline\">\\(H_1 : \\theta \\neq 1\\)</span>.</p>\n"
       }
     },
     {
-      "id": "e27308f9-9908-4afd-985e-3f4cf6a670b5",
+      "id": "c59ce43d-e0a2-4037-a1ad-973cea23418e",
       "type": "indication",
       "value": {
         "latex": "",
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "9fd9604e-a0d8-4907-bcb5-f4141d4bc5bb",
+      "id": "4f4242eb-d2e7-43ad-8ad0-76364fde8cdd",
       "type": "reponse",
       "value": {
-        "latex": "",
-        "html": "\n"
+        "latex": "\\textbf{Sous $H_0$ : $\\theta = 1$}, on sait d’après ci-dessus que\n\n$$\n\\sqrt{n} (Z_n - 1) \\xrightarrow{\\mathcal{L}\t} \\mathcal{N}(0,1) \\quad \\text{lorsque } n \\to \\infty,\n$$\n\ndonc un intervalle de confiance bilatéral de niveau asymptotique $1 - \\alpha$ pour la valeur $1$ est\n\n$$\n\\left( Z_n - \\frac{\\Phi^{-1}(1 - \\alpha/2)}{\\sqrt{n}}, Z_n + \\frac{\\Phi^{-1}(1 - \\alpha/2)}{\\sqrt{n}} \\right).\n$$\n\nLe test consistant à rejeter $H_0$ ssi $1$ n’est pas dans cet intervalle est de niveau asymptotique $\\alpha$, ce qui revient à dire que l’on rejette $H_0$ ssi\n\n$$\n|Z_n - 1| > \\frac{\\Phi^{-1}(1 - \\alpha/2)}{\\sqrt{n}}.\n$$",
+        "html": "<p><strong>Sous <span class=\"math inline\">\\(H_0\\)</span> : <span\nclass=\"math inline\">\\(\\theta = 1\\)</span></strong>, on sait d’après\nci-dessus que</p>\n<p><span class=\"math display\">\\[\\sqrt{n} (Z_n - 1)\n\\xrightarrow{\\mathcal{L} } \\mathcal{N}(0,1) \\quad \\text{lorsque } n \\to\n\\infty,\\]</span></p>\n<p>donc un intervalle de confiance bilatéral de niveau asymptotique\n<span class=\"math inline\">\\(1 - \\alpha\\)</span> pour la valeur <span\nclass=\"math inline\">\\(1\\)</span> est</p>\n<p><span class=\"math display\">\\[\\left( Z_n - \\frac{\\Phi^{-1}(1 -\n\\alpha/2)}{\\sqrt{n}}, Z_n + \\frac{\\Phi^{-1}(1 - \\alpha/2)}{\\sqrt{n}}\n\\right).\\]</span></p>\n<p>Le test consistant à rejeter <span class=\"math inline\">\\(H_0\\)</span>\nssi <span class=\"math inline\">\\(1\\)</span> n’est pas dans cet intervalle\nest de niveau asymptotique <span class=\"math inline\">\\(\\alpha\\)</span>,\nce qui revient à dire que l’on rejette <span\nclass=\"math inline\">\\(H_0\\)</span> ssi</p>\n<p><span class=\"math display\">\\[|Z_n - 1| &gt; \\frac{\\Phi^{-1}(1 -\n\\alpha/2)}{\\sqrt{n}}.\\]</span></p>\n"
       }
     }
   ],
-  "preview": "<p>On considère un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span class=\"math inline\">\\(n \\geq 3\\)</span>  ..."
+  "preview": "<p>On considère un échantillon i.i.d. <span\nclass=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span\nclass=\"math inline\">\\(n \\geq 3\\)</span>  ..."
 }

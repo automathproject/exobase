@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-02-22",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Méthodes numériques",
     "sousChapitre": "Méthode de Newton",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:16:56.612Z",
+    "updatedAt": "2025-04-04T19:04:41.297Z",
     "resume": "L'exercice porte sur l'étude de la convergence et de la précision de la méthode du point fixe appliquée à l'équation $\\ell=\\ell-\\frac{1}{4}\\cos(\\ell)$. Les compétences mises en œuvre sont les suivantes:\\n\\n*   **Convergence:** Démontrer la convergence de la suite $(x_k)$ définie par $x_{k+1} = \\phi(x_k)$, où $\\phi(x) = x - \\frac{1}{4}\\cos(x)$, en utilisant le théorème du point fixe (contraction).\\n*   **Vitesse de convergence:** Déterminer une majoration de l'erreur $|x_k - \\ell|$ en fonction de $k$ et en déduire le nombre d'itérations nécessaires pour atteindre une précision donnée ($10^{-3}$). Déterminer une constante $C$ telle que $|x_k - \\ell| \\leq C^k |x_0 - \\ell|$.\\n*   **Critère d'arrêt:** Etablir une relation entre $|x_k - \\ell|$ et $|x_{k+1} - x_k|$ et en déduire un critère d'arrêt basé sur l'incrément $|x_{k+1} - x_k|$ pour garantir une précision de $10^{-3}$.",
     "competences": [
       "démontrer la convergence d'une méthode de point fixe",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "63e36ce1-ba63-46bc-87e9-4b4af5babad4",
+      "id": "6e73a664-f9ff-4ec5-8ee4-cce6ffeceba2",
       "type": "description",
       "value": {
         "latex": "On s'intéresse au calcul de $\\ell\\in[0;\\pi]$ tel que $\\ell=\\ell-\\frac{1}{4}\\cos(\\ell)$. \n\nOn considère la méthode de point fixe suivante: $x_0\\in[0;\\pi]$ et $x_{k+1}=\\phi(x_k)$ pour tout $k\\geq 0$, où $\\phi$ est la fonction définie sur l'intervalle $[0;\\pi]$ par $\\phi(x)=1-\\frac{1}{4}\\cos(x)$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "352dc183-7aa3-4c13-baeb-e6ff0994dd81",
+      "id": "a1d0a71a-7feb-4532-a639-f8f72ef369cb",
       "type": "question",
       "value": {
         "latex": "Montrer que la méthode converge pour tout $x_0\\in[0;\\pi]$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "4dde02b5-e339-4610-8069-7e54ab7e9c78",
+      "id": "63f4d1ad-7fb1-4964-8eb8-6e2732ba7fbb",
       "type": "reponse",
       "value": {
         "latex": "La dérivée de la fonction $g$ vérifie $\\forall x\\in[0;\\pi]$, $|\\phi'(x)|\\leq \\frac{1}{4}<1$. De plus, $\\phi([0;\\pi])=[\\frac{3}{4};\\frac{5}{4}]\\subset[0;\\pi]$. Par conséquent, la méthode de point fixe converge vers le point fixe $l$ pour tout $x_0\\in[0;\\pi]$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "66478e0b-b91f-44a5-9e61-5cb58a4b2358",
+      "id": "52e62a60-2be8-40a6-8b6e-4cd23fa55391",
       "type": "question",
       "value": {
         "latex": "Montrer qu'il existe une constante $C \\in ]0;1[$ telle que pour tout $k \\in \\N$,  $|x_k-\\ell|\\leq C^k|x_0-\\ell|$ et donner une valeur de $C$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "b99299b8-4d0f-4a65-ab88-6587359d4243",
+      "id": "201bb143-e03d-441a-ab32-904d1cb831f8",
       "type": "question",
       "value": {
         "latex": "En déduire le nombre d'itérations nécessaires pour approcher $\\ell$ à $10^{-3}$ près.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "8919cc39-8037-435d-b81c-c73673c4f518",
+      "id": "19175461-987b-45c2-8be6-a707e9d22c66",
       "type": "reponse",
       "value": {
         "latex": "Par le théorème des accroissements finis, on a l'existence de $\\zeta_k$ compris entre $\\ell$ et $x_{k}$ tel que\n\t\t\\[ |x_k-\\ell|=|\\phi(x_{k-1})-g(\\ell)|=|\\phi'(\\zeta_k)| |x_{k-1}-\\ell| \\leq \\frac{1}{4}|x_{k-1}-\\ell|.\\]\n\t\tPar récurrence, on montre ainsi \n\t\t\\[ |x_k-\\ell|\\leq \\frac{1}{4^k}|x_0-\\ell|.\\]\n\t\tOn a donc $|x_k-\\ell|\\leq \\frac{\\pi}{4^k}$. Pour approcher $\\ell$ à $10^{-3}$ près, il faut\n\t\t\\[ \\frac{\\pi}{4^k}\\leq 10^{-3} \\quad \\Leftrightarrow \\quad k\\geq \\frac{\\ln(\\pi 10^3)}{\\ln(2)}\\simeq 5.9,\\]\n\t\tsoit $6$ itérations.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "95b1c7ce-aaa7-4677-908c-74eff8fe6834",
+      "id": "524d11f9-3b39-43d1-84ff-8b1a17f67636",
       "type": "question",
       "value": {
         "latex": "Montrer que pour tout $k \\in \\N$, $|x_k - \\ell| \\leq \\frac{4}{3} |x_{k+1}-x_{k}|$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "d5042263-41b6-425e-836e-2836437f309b",
+      "id": "98f50b7d-53ca-42dd-980c-d368a7c99416",
       "type": "question",
       "value": {
         "latex": "En déduire la valeur $\\varepsilon$ du contrôle de l'incrément (en tant que critère d'arrêt) pour approcher $\\ell$ à $10^{-3}$ près.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "ece3065a-6e31-4568-96a5-ff3d88cc8b62",
+      "id": "6beea476-a8f0-40b5-bc06-23521b99e765",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t$$\\begin{align*}\n\t\t|x_k-l|-|x_{k+1}-x_k| & \\leq |x_k-l+x_{k+1}-x_k|=|x_{k+1}-l| \\\\\n\t\t& \\leq C |x_k-l|\n\t\t\\end{align*}$$\n\t\td'où $|x_k-l|-C|x_k-l|\\leq |x_{k+1}-x_k|$ qui implique\n\t\t$$\\begin{align*}\n\t\t|x_k-l| \\leq \\frac{1}{1-C}|x_{k+1}-x_k| \\leq \\frac{\\varepsilon}{1-C}.\n\t\t\\end{align*}$$\n\t\tIl faut choisir $\\varepsilon$ tel que $\\frac{\\varepsilon}{1-C}<10^{-3}$ pour approcher $l$ à $10^{-3}$ près.",

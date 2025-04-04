@@ -1,5 +1,5 @@
 {
-  "uuid": "YIXX",
+  "uuid": "ovua",
   "titre": "Test non paramétrique",
   "theme": [
     "Statistique"
@@ -8,14 +8,14 @@
   "metadata": {
     "exo7id": "",
     "auteur": "Erwan L'Haridon",
-    "createdAt": "2025-03-28T11:57:47.981Z",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "createdAt": "2025-04-04T19:04:32.085Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-28T11:57:47.981Z",
+    "updatedAt": "2025-04-04T19:04:32.085Z",
     "resume": "L'exercice consiste à réaliser un test d'adéquation non paramétrique (test du $\\chi^2$) pour vérifier si les données observées (dépenses mensuelles de produits surgelés) suivent une loi normale de paramètres $\\mu = 100$ et $\\sigma = 50$ au niveau de signification de 5%. Il faut donc calculer les effectifs théoriques sous l'hypothèse de normalité, puis la statistique du $\\chi^2$ et la comparer à la valeur critique correspondante pour conclure.",
     "competences": [
       "appliquer le test du Chi-deux d'adéquation",
@@ -53,13 +53,13 @@
   },
   "contenu": [
     {
-      "id": "797ff630-3e7c-4f46-b50f-1405446a6cba",
+      "id": "cfacebce-55f9-48f9-a821-302b029e54b7",
       "type": "description",
       "value": {
         "latex": "Une enquête portant sur les dépenses mensuelles de produits surgelés chez les ménages dotés d’un réfrigérateur avec conservateur a été faite. Les résultats de cette enquête réalisée auprès de 500 ménages sont :\n\\begin{center}\n\\begin{tabular}{|c|c|}\n    \\hline\n    Dépenses mensuelles (euros) & Nombre de ménages \\\\\n    \\hline\n    $X<20$ & 25 \\\\\n    $20\\leq X<40$ & 25 \\\\\n    $40\\leq X<60$ & 45 \\\\\n    $60\\leq X<80$ & 60 \\\\\n    $80\\leq X<100$ & 75 \\\\\n    $100\\leq X<120$ & 85 \\\\\n    $120\\leq X<140$ & 75 \\\\\n    $140\\leq X<160$ & 50 \\\\\n    $160\\leq X<200$ & 45 \\\\\n    $X\\geq 200$ & 15 \\\\\n    \\hline\n\\end{tabular}\n\\end{center}\nTester, au risque de 5\\%, l’adéquation des observations à une loi Normale de moyenne 100 euros, et d’écart-type 50 euros.",
-        "html": "<p>Une enquête portant sur les dépenses mensuelles de produits surgelés chez les ménages dotés d’un réfrigérateur avec conservateur a été faite. Les résultats de cette enquête réalisée auprès de 500 ménages sont :</p>\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Dépenses mensuelles (euros)</th>\n<th style=\"text-align: center;\">Nombre de ménages</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(X&lt;20\\)</span></td>\n<td style=\"text-align: center;\">25</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(20\\leq X&lt;40\\)</span></td>\n<td style=\"text-align: center;\">25</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(40\\leq X&lt;60\\)</span></td>\n<td style=\"text-align: center;\">45</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(60\\leq X&lt;80\\)</span></td>\n<td style=\"text-align: center;\">60</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(80\\leq X&lt;100\\)</span></td>\n<td style=\"text-align: center;\">75</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(100\\leq X&lt;120\\)</span></td>\n<td style=\"text-align: center;\">85</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(120\\leq X&lt;140\\)</span></td>\n<td style=\"text-align: center;\">75</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(140\\leq X&lt;160\\)</span></td>\n<td style=\"text-align: center;\">50</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(160\\leq X&lt;200\\)</span></td>\n<td style=\"text-align: center;\">45</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(X\\geq 200\\)</span></td>\n<td style=\"text-align: center;\">15</td>\n</tr>\n</tbody>\n</table>\n<p>Tester, au risque de 5%, l’adéquation des observations à une loi Normale de moyenne 100 euros, et d’écart-type 50 euros.</p>\n"
+        "html": "<p>Une enquête portant sur les dépenses mensuelles de produits surgelés\nchez les ménages dotés d’un réfrigérateur avec conservateur a été faite.\nLes résultats de cette enquête réalisée auprès de 500 ménages sont :</p>\n<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Dépenses mensuelles (euros)</th>\n<th style=\"text-align: center;\">Nombre de ménages</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(X&lt;20\\)</span></td>\n<td style=\"text-align: center;\">25</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(20\\leq\nX&lt;40\\)</span></td>\n<td style=\"text-align: center;\">25</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(40\\leq\nX&lt;60\\)</span></td>\n<td style=\"text-align: center;\">45</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(60\\leq\nX&lt;80\\)</span></td>\n<td style=\"text-align: center;\">60</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(80\\leq\nX&lt;100\\)</span></td>\n<td style=\"text-align: center;\">75</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(100\\leq\nX&lt;120\\)</span></td>\n<td style=\"text-align: center;\">85</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(120\\leq\nX&lt;140\\)</span></td>\n<td style=\"text-align: center;\">75</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(140\\leq\nX&lt;160\\)</span></td>\n<td style=\"text-align: center;\">50</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(160\\leq\nX&lt;200\\)</span></td>\n<td style=\"text-align: center;\">45</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(X\\geq\n200\\)</span></td>\n<td style=\"text-align: center;\">15</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>Tester, au risque de 5%, l’adéquation des observations à une loi\nNormale de moyenne 100 euros, et d’écart-type 50 euros.</p>\n"
       }
     }
   ],
-  "preview": "<p>Une enquête portant sur les dépenses mensuelles de produits surgelés chez les ménages dotés d’un réfrigérateur avec conservateur a été faite. Les r ..."
+  "preview": "<p>Une enquête portant sur les dépenses mensuelles de produits surgelés\nchez les ménages dotés d’un réfrigérateur avec conservateur a été faite.\nLes r ..."
 }

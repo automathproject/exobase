@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:03.964Z",
+    "updatedAt": "2025-04-04T19:02:11.693Z",
     "resume": "L'exercice porte sur les propriétés de la loi normale centrée réduite. Il s'agit de justifier que $\\PP(Z>0) = \\frac{1}{2}$ et que pour tout réel $a$, $\\PP(Z<-a) = \\PP(Z>a)$. La résolution implique l'utilisation de l'intégrale de la densité de probabilité normale, de la parité de la fonction intégrée, et d'un changement de variable pour démontrer la symétrie de la loi normale centrée réduite.",
     "competences": [
       "calculer une probabilité à partir d'une densité",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "56d70cde-8e8d-4b24-a5a4-046541198eac",
+      "id": "99d24697-7984-419d-b2b1-b6ed41277d8b",
       "type": "description",
       "value": {
         "latex": "Soit  $Z$ une variable aléatoire suivant une loi normale centrée réduite $\\mathcal{N}(0,1)$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "5c85da9b-9f95-4d77-8f68-019af041a9c1",
+      "id": "45772dbd-90ef-4533-855d-7ae67d15e955",
       "type": "question",
       "value": {
         "latex": "Justifier que $\\PP(Z>0) = \\frac{1}{2}$ et que pour tout réel $a \\in \\R$, $\\PP(Z<-a) = \\PP(Z>a)$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "aa7da04f-1c85-46bc-9c05-8b19ccb74b12",
+      "id": "dff82c6e-b5c5-4b40-92ff-e51bf33eb48b",
       "type": "reponse",
       "value": {
         "latex": "On sait que $\\PP(Z>0) = \\int_0^{+\\infty} \\frac{1}{\\sqrt{2\\pi}}\\;\\; \\mathrm{e}^{-\\frac{x^2}{2}} dx = \\frac{1}{2} \\int_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2\\pi}}\\;\\; \\mathrm{e}^{-\\frac{x^2}{2}} dx$ par parité de la fonction intégrée. Or $\\int_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2\\pi}}\\;\\; \\mathrm{e}^{-\\frac{x^2}{2}} dx$ d'où le premier résultat.\n\nDe même, on a par changement de variable $u=-x$ et parité : $$\\PP(Z<-a) = \\int_{-\\infty}^{-a} \\frac{1}{\\sqrt{2\\pi}}\\;\\; \\mathrm{e}^{-\\frac{x^2}{2}} dx = -\\int_{+\\infty}^{a} \\frac{1}{\\sqrt{2\\pi}}\\;\\; \\mathrm{e}^{-\\frac{u^2}{2}} du = \\int^{+\\infty}_{a} \\frac{1}{\\sqrt{2\\pi}}\\;\\; \\mathrm{e}^{-\\frac{u^2}{2}} du = \\PP(Z>a)$$",

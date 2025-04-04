@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-28",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:25.070Z",
+    "updatedAt": "2025-04-04T19:01:36.389Z",
     "resume": "L'exercice porte sur la réalisation d'un test d'indépendance du Chi-deux pour évaluer la liaison entre deux variables catégorielles : le tabagisme et le cancer de la gorge. Il s'agit de : \n1. Formuler les hypothèses nulle ($H_0$) d'indépendance et alternative.\n2. Calculer les effectifs théoriques sous $H_0$ en utilisant la formule $E_{ij} = (n_{i.} * n_{.j}) / n$ où $n_{i.}$ et $n_{.j}$ sont les sommes marginales et n est la taille totale de l'échantillon.\n3. Calculer la statistique de test du Chi-deux : $\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$ où $O_{ij}$ sont les effectifs observés et $E_{ij}$ sont les effectifs théoriques.\n4. Comparer la statistique de test à la valeur critique du Chi-deux avec (r-1)(c-1) degrés de liberté, où r est le nombre de lignes et c le nombre de colonnes de la table de contingence.\n5. Conclure en rejetant ou non l'hypothèse nulle en fonction du niveau de signification choisi (ici 5% et 0.1%).",
     "competences": [
       "réaliser un test d'indépendance du Chi-deux",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "4f97793d-d1ad-4eaf-b05c-ad207da2be70",
+      "id": "ac72e046-cd3f-46ad-ba31-5bd6eb8303f7",
       "type": "description",
       "value": {
         "latex": "On veut étudier la liaison entre les caractères : \n\t<<être fumeur>> (plus de 20 cigarettes par\n\tjour, pendant 10 ans) et <<avoir un cancer de la gorge>>, \n\tsur une population de 1000 personnes, dont 500 sont\n\tatteintes d'un cancer de la gorge. Voici les résultats observés:\n\t\n\t\n\t\\begin{center}\n\t\t\\begin{tabular}{c|cc|c}\n\t\t\t\\emph{Observé} & cancer & non cancer & TOTAL \\\\ \n\t\t\t\\hline\n\t\t\t\\text{fumeur} & 342 & 258 & 600 \\\\ \n\t\t\t\\text{non fumeur} & 158 & 242 & 400 \\\\ \n\t\t\t\\hline\n\t\t\t\\text{TOTAL} & 500 & 500 & 1000\n\t\t\\end{tabular}\n\t\\end{center}",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "20aeac35-8d7b-4fbe-93fa-f8b8ccba6200",
+      "id": "e1b7ca5b-fd3f-4b43-8816-0878f4b9941c",
       "type": "question",
       "value": {
         "latex": "Faire un test d'indépendance pour établir la liaison entre ces caractères.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "9b1043d6-71d9-4f2a-8c84-115c39135bbd",
+      "id": "6f225dc5-cac8-4902-97d4-eb4a82c0e913",
       "type": "reponse",
       "value": {
         "latex": "Mise en oeuvre du test:\n\t\\begin{enumerate}\n\t\t\\item On définit un risque: 5\\%.\n\t\tPour étudier la dépendance de ces caractères\n\t\tfaisons l'hypothèse $H_{0}$ : <<les deux caractères sont indépendants \n\t\t>> et voyons ce qui se passerait sous cette hypothèse.\n\t\tNotons les événements:\n\t\t\\begin{itemize}\n\t\t\t\\item $C$ : <<avoir un cancer dans la population observée>>\n\t\t\t\\item $F$: <<être fumeur dans la population observée>>\n\t\t\\end{itemize}\n\t\tSi les événements $F$ et $C$ sont indépendants, alors: $P(F\\cap\n\t\tC)=P(F)\\cdot P(C)$ et de même pour les trois autres possibilités: \n\t\t$P(\\overline{C}\\cap F),$ $P(\\overline{C}\\cap \\overline{F}),P(C\\cap \\overline{F})$, \n\t\tquantités que l'on peut donc calculer sous $H_{0}$:\n\t\t\n\t\t$P(F)=\\frac{600}{1000}$, $P(C)=\\frac{500}{1000}$, $P(F) \\cdot P(C)=\\frac{3}{10}$,\n\t\talors l'effectif théorique correspondant à la catégorie \n\t\t<<fumeur et cancéreux>> est de $300$.\n\t\t\\item On en déduit le tableau théorique sous $H_{0}$ :\n\t\t\n\t\t\\begin{center}\n\t\t\t\\begin{tabular}{cccc}\n\t\t\t\t\\emph{Théorique} & cancer & non cancer & marge \\\\ \n\t\t\t\t\\text{fumeur} & 300 & 300 & 600 \\\\ \n\t\t\t\t\\text{non fumeur} & 200 & 200 & 400 \\\\ \n\t\t\t\t\\text{marge} & 500 & 500 & 1000\n\t\t\t\\end{tabular}\n\t\t\\end{center}\n\t\t\n\t\t\\item On calcule alors la valeur de \n\t\t$s=\\sum_{i=1}^{i=4} \\frac{(O_i-T_i)^{2}}{T_i}$ : on obtient : $s=34.73$.\n\t\tOn a précisé le risque de \\%, mais pour $\\alpha =0,001$, on lit\n\t\tdans la table du khi-deux à un degré de liberté :\n\t\t$P[\\chi ^{2}\\geq 10.83]=0.001$ et le $\\chi^{2}$ calculé est $34.73$!\n\t\t\\item On décide de rejeter $H_{0}$.\n\t\tAinsi, en rejetant l'hypothèse de l'indépendance des caractères\n\t\t<<être fumeur>> et <<avoir un cancer de la gorge>>, on a moins de\n\t\tune chance sur $1000$ de se tromper, puisque moins de un tableau possible\n\t\tsur mille conduit à un calcul de $\\chi ^{2}$ plus grand que $10.83$ ;\n\t\tbeaucoup moins sans doute, conduiraient à un calcul de $\\chi ^{2}$ plus\n\t\tgrand que $34.73$.\n\t\\end{enumerate}",

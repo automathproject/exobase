@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2025-03-20",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "",
     "sousChapitre": "",
     "organisation": "",
-    "updatedAt": "2025-03-28T11:57:49.336Z",
+    "updatedAt": "2025-04-04T19:05:07.812Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi de densité $f_\\theta(x) = \\frac{2}{\\theta^2} x \\mathbf{1}_{[0,\\theta]}(x)$ à partir d'un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$. Il s'agit de déterminer les propriétés de l'estimateur du maximum $X^{(n)} = \\max_{1 \\leq i \\leq n} X_i$, notamment sa densité, ses moments, sa convergence en probabilité et sa consistance forte. Ensuite, il faut étudier la convergence de $X_n$, en déduire un estimateur consistant de $\\theta$ et comparer les performances des deux estimateurs. L'exercice demande aussi de construire un intervalle de confiance pour $\\theta$ et de réaliser un test d'hypothèse sur $\\theta$ en calculant la p-valeur et en prenant une décision statistique.",
     "competences": [
       "calculer la fonction de densité d'une statistique d'ordre",
@@ -53,23 +53,23 @@
   },
   "contenu": [
     {
-      "id": "105cb969-d916-4fc1-ab1b-2ff3bc4ad5a7",
+      "id": "25fde256-70f9-44ef-9e56-48808539da11",
       "type": "description",
       "value": {
         "latex": "On considère un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$ avec $X_1$ de densité $f_\\theta(x) = \\frac{2}{\\theta^2} x \\mathbf{1}_{[0,\\theta]}(x)$, où $\\theta > 0$ est un paramètre inconnu.",
-        "html": "<p>On considère un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span class=\"math inline\">\\(X_1\\)</span> de densité <span class=\"math inline\">\\(f_\\theta(x) = \\frac{2}{\\theta^2} x \\mathbf{1}_{[0,\\theta]}(x)\\)</span>, où <span class=\"math inline\">\\(\\theta &gt; 0\\)</span> est un paramètre inconnu.</p>\n"
+        "html": "<p>On considère un échantillon i.i.d. <span\nclass=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span\nclass=\"math inline\">\\(X_1\\)</span> de densité <span\nclass=\"math inline\">\\(f_\\theta(x) = \\frac{2}{\\theta^2} x\n\\mathbf{1}_{[0,\\theta]}(x)\\)</span>, où <span\nclass=\"math inline\">\\(\\theta &gt; 0\\)</span> est un paramètre\ninconnu.</p>\n"
       }
     },
     {
-      "id": "ccd4b5b5-a70b-444f-b696-5104b099e36b",
+      "id": "a3c83c62-be90-4904-a3c0-821a1bf7a6bc",
       "type": "question",
       "value": {
         "latex": "On pose $X^{(n)} = \\max_{1 \\leq i \\leq n} X_i$. \\\\ (a) Donner la densité de $X^{(n)}$. \\\\(b) Donner les deux premiers moments de $X^{(n)}$. En déduire sa variance.\\\\ (c) Montrer que $X^{(n)}$ converge en probabilité vers $\\theta$. \\\\(d) $X^{(n)}$ est-il un estimateur fortement consistant de $\\theta$ ?",
-        "html": "<p>On pose <span class=\"math inline\">\\(X^{(n)} = \\max_{1 \\leq i \\leq n} X_i\\)</span>.<br />\n(a) Donner la densité de <span class=\"math inline\">\\(X^{(n)}\\)</span>.<br />\n(b) Donner les deux premiers moments de <span class=\"math inline\">\\(X^{(n)}\\)</span>. En déduire sa variance.<br />\n(c) Montrer que <span class=\"math inline\">\\(X^{(n)}\\)</span> converge en probabilité vers <span class=\"math inline\">\\(\\theta\\)</span>.<br />\n(d) <span class=\"math inline\">\\(X^{(n)}\\)</span> est-il un estimateur fortement consistant de <span class=\"math inline\">\\(\\theta\\)</span> ?</p>\n"
+        "html": "<p>On pose <span class=\"math inline\">\\(X^{(n)} = \\max_{1 \\leq i \\leq n}\nX_i\\)</span>.<br />\n(a) Donner la densité de <span\nclass=\"math inline\">\\(X^{(n)}\\)</span>.<br />\n(b) Donner les deux premiers moments de <span\nclass=\"math inline\">\\(X^{(n)}\\)</span>. En déduire sa variance.<br />\n(c) Montrer que <span class=\"math inline\">\\(X^{(n)}\\)</span> converge en\nprobabilité vers <span class=\"math inline\">\\(\\theta\\)</span>.<br />\n(d) <span class=\"math inline\">\\(X^{(n)}\\)</span> est-il un estimateur\nfortement consistant de <span class=\"math inline\">\\(\\theta\\)</span>\n?</p>\n"
       }
     },
     {
-      "id": "c095a64b-a0a9-4b11-b8be-877995b366e1",
+      "id": "17eef807-dece-4b7f-82b3-3b7baa8b5033",
       "type": "indication",
       "value": {
         "latex": "",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "0288ad0a-3d34-4d08-b52e-1243fc916f8c",
+      "id": "76f7caa5-5cd2-4b2b-ad8b-dccb1035dc79",
       "type": "reponse",
       "value": {
         "latex": "",
@@ -85,15 +85,15 @@
       }
     },
     {
-      "id": "7d6669f6-4b11-41b1-8fdc-7401c9033d80",
+      "id": "16f04866-c27d-4dee-98dc-008abaf9ced0",
       "type": "question",
       "value": {
         "latex": "Étudier la convergence de $X_n$. En déduire un estimateur consistant de $\\theta$.",
-        "html": "<p>Étudier la convergence de <span class=\"math inline\">\\(X_n\\)</span>. En déduire un estimateur consistant de <span class=\"math inline\">\\(\\theta\\)</span>.</p>\n"
+        "html": "<p>Étudier la convergence de <span class=\"math inline\">\\(X_n\\)</span>.\nEn déduire un estimateur consistant de <span\nclass=\"math inline\">\\(\\theta\\)</span>.</p>\n"
       }
     },
     {
-      "id": "277edb8f-63ae-4ef8-aec0-576da44f7132",
+      "id": "215e27fa-298a-4f39-9ef4-782ee6e3259c",
       "type": "indication",
       "value": {
         "latex": "",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "e9f746a8-8da1-4c1a-8913-d0169347d4bc",
+      "id": "19f614c4-3e79-4cb9-9218-2578a0312d23",
       "type": "reponse",
       "value": {
         "latex": "",
@@ -109,15 +109,15 @@
       }
     },
     {
-      "id": "e4fe9306-2db4-4fa4-8395-e22de2eec9fd",
+      "id": "0bf5763e-84c1-4e01-94b8-1028724c0765",
       "type": "question",
       "value": {
         "latex": "Qui de $X^{(n)}$ ou $\\frac{3}{2}X_n$ choisiriez-vous pour estimer $\\theta$ ?",
-        "html": "<p>Qui de <span class=\"math inline\">\\(X^{(n)}\\)</span> ou <span class=\"math inline\">\\(\\frac{3}{2}X_n\\)</span> choisiriez-vous pour estimer <span class=\"math inline\">\\(\\theta\\)</span> ?</p>\n"
+        "html": "<p>Qui de <span class=\"math inline\">\\(X^{(n)}\\)</span> ou <span\nclass=\"math inline\">\\(\\frac{3}{2}X_n\\)</span> choisiriez-vous pour\nestimer <span class=\"math inline\">\\(\\theta\\)</span> ?</p>\n"
       }
     },
     {
-      "id": "8f1b8e7d-e7ce-4645-9ea0-2ed2b63b3a8a",
+      "id": "96427ca0-307a-4060-9533-7b665b45034e",
       "type": "indication",
       "value": {
         "latex": "",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "2fa49237-ed8a-488b-ace4-51067dd6d065",
+      "id": "1cd5f133-4810-428b-afd7-59aacd2a1a8f",
       "type": "reponse",
       "value": {
         "latex": "",
@@ -133,15 +133,15 @@
       }
     },
     {
-      "id": "5d0d8121-3e08-46ee-aaa2-a708a91557fb",
+      "id": "58a14c7a-c00f-4a76-ba1c-8d0a5ddcb692",
       "type": "question",
       "value": {
         "latex": "Construire un intervalle de confiance pour $\\theta$ de niveau $(1-\\alpha)$.",
-        "html": "<p>Construire un intervalle de confiance pour <span class=\"math inline\">\\(\\theta\\)</span> de niveau <span class=\"math inline\">\\((1-\\alpha)\\)</span>.</p>\n"
+        "html": "<p>Construire un intervalle de confiance pour <span\nclass=\"math inline\">\\(\\theta\\)</span> de niveau <span\nclass=\"math inline\">\\((1-\\alpha)\\)</span>.</p>\n"
       }
     },
     {
-      "id": "4f49a327-d667-4426-823e-b52428059a2a",
+      "id": "135f916f-b538-4ed7-a6dd-bb38ac20b98f",
       "type": "indication",
       "value": {
         "latex": "",
@@ -149,7 +149,7 @@
       }
     },
     {
-      "id": "e7f3aba7-c1b8-43a1-8cf3-5da24a3ebccb",
+      "id": "1b886972-8212-4f52-9771-fa46cb2481e3",
       "type": "reponse",
       "value": {
         "latex": "",
@@ -157,15 +157,15 @@
       }
     },
     {
-      "id": "68457302-ce65-4e33-8b74-d3b7b4576576",
+      "id": "8b5f6d51-7a8a-469c-8d1d-ed684ca071fe",
       "type": "question",
       "value": {
         "latex": "Construire un test de niveau $\\alpha$ de l’hypothèse nulle $\\theta = 1$ contre l’alternative $\\theta \\neq 1$. On observe $x^{(20)} = 0.85$, quelle est la p-valeur ? Rejette-t-on $H_0$ au niveau 5\\% ?",
-        "html": "<p>Construire un test de niveau <span class=\"math inline\">\\(\\alpha\\)</span> de l’hypothèse nulle <span class=\"math inline\">\\(\\theta = 1\\)</span> contre l’alternative <span class=\"math inline\">\\(\\theta \\neq 1\\)</span>. On observe <span class=\"math inline\">\\(x^{(20)} = 0.85\\)</span>, quelle est la p-valeur ? Rejette-t-on <span class=\"math inline\">\\(H_0\\)</span> au niveau 5% ?</p>\n"
+        "html": "<p>Construire un test de niveau <span\nclass=\"math inline\">\\(\\alpha\\)</span> de l’hypothèse nulle <span\nclass=\"math inline\">\\(\\theta = 1\\)</span> contre l’alternative <span\nclass=\"math inline\">\\(\\theta \\neq 1\\)</span>. On observe <span\nclass=\"math inline\">\\(x^{(20)} = 0.85\\)</span>, quelle est la p-valeur ?\nRejette-t-on <span class=\"math inline\">\\(H_0\\)</span> au niveau 5% ?</p>\n"
       }
     },
     {
-      "id": "f9ee80f1-49c9-4861-8c20-08f62767fe08",
+      "id": "31ff3785-2f41-46eb-90e7-543f71e706ac",
       "type": "indication",
       "value": {
         "latex": "",
@@ -173,7 +173,7 @@
       }
     },
     {
-      "id": "c16eeb4d-46bd-446b-b5d8-088daf50c48c",
+      "id": "6c5816ab-3f7c-4b1f-a70c-b2838fda072f",
       "type": "reponse",
       "value": {
         "latex": "",
@@ -181,5 +181,5 @@
       }
     }
   ],
-  "preview": "<p>On considère un échantillon i.i.d. <span class=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span class=\"math inline\">\\(X_1\\)</span> de de ..."
+  "preview": "<p>On considère un échantillon i.i.d. <span\nclass=\"math inline\">\\((X_i)_{1 \\leq i \\leq n}\\)</span> avec <span\nclass=\"math inline\">\\(X_1\\)</span> de de ..."
 }

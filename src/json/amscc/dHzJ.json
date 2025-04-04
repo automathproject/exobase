@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-08-25",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Théorème central limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:12.913Z",
+    "updatedAt": "2025-04-04T19:02:54.940Z",
     "resume": "L'exercice porte sur l'application du théorème central limite. Il s'agit de calculer la probabilité qu'une somme de variables aléatoires indépendantes, représentant l'épaisseur de feuilles cartonnées, appartienne à un intervalle donné. Les compétences mises en œuvre sont : l'identification des paramètres d'une variable aléatoire, l'application du théorème central limite pour approximer la distribution de la somme par une loi normale, le calcul de l'espérance et de la variance de la somme, et la standardisation de la variable pour calculer la probabilité à l'aide de la loi normale centrée réduite. La formule $\\PP(490 < S < 510)$ est calculée via la standardisation et l'utilisation de la loi normale centrée réduite.",
     "competences": [
       "appliquer le théorème central limite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "e118fd35-2a11-445e-bcf3-e685de3897b7",
+      "id": "f65fb201-eb3f-4678-b61b-91d13fe66869",
       "type": "description",
       "value": {
         "latex": "On considère une production de feuilles cartonnées dont l'épaisseur est modélisée par une variable aléatoire qui a pour espérance $5$~mm et pour écart type $0{,}4$~mm.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "bd1ea095-975f-403b-b7f6-2a40f3ed928c",
+      "id": "577c61d1-29ea-4eba-9850-487ba6990d2b",
       "type": "question",
       "value": {
         "latex": "Considérant un paquet de 100 feuilles choisies au hasard de manière indépendante, comment calculer la probabilité que ce paquet ait une épaisseur comprise entre 49 et 51 cm ?",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "88573b03-210a-4105-9456-b46662e9dd59",
+      "id": "6909199f-1f4f-4bb6-aa56-0bc93e55b4b4",
       "type": "reponse",
       "value": {
         "latex": "Soit $X_1,...,X_{100}$ un échantillon où $X_i$ représente l'épaisseur d'une feuille, $\\mathbb{E}(X_i) = 5$ et $V(X_i) = 0{,}16$.  Par indépendance, d'après le théorème central limite, la variable $S = \\sum_{i=1}^{100} X_i$ suit approximativement une loi normale de moyenne $\\mu = 100 \\times 5 = 500$ et  de variance $\\sigma^2 = 100 \\times 0{,}16 = 16$. Dit autrement, la variable $\\frac{S-500}{\\sqrt{16}}$ suit approximativement une loi normale centrée réduite.\n\t\n\tOn souhaite calculer $$\\PP(490 < S < 510) = \\PP\\left( \\frac{490-500}{\\sqrt{16}} <    \\frac{S-500}{\\sqrt{16}} <  \\frac{510-500}{\\sqrt{16}} \\right) = \\PP\\left( -2.5 <    \\frac{S-500}{4} <  2.5 \\right) = \\fbox{0{,}9876}$$.",

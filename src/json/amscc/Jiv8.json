@@ -12,13 +12,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-08-25",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:07.075Z",
+    "updatedAt": "2025-04-04T19:02:13.116Z",
     "resume": "L'exercice porte sur l'identification de lois de probabilité à partir de variables aléatoires indépendantes. Il évalue la capacité à : \n\n*   Reconnaître une loi du $\\chi^2$ à partir d'une somme de carrés de variables normales centrées réduites ($X = \\sum_{i=1}^{9}U_i^2 \\sim \\chi^2(9)$).\n*   Calculer un quantile d'une loi du $\\chi^2$ pour une probabilité donnée ($\\PP(X > x) = 0.05$).\n*   Identifier une loi de Student à partir d'une variable normale et d'une loi du $\\chi^2$ ($Z = \\frac{\\frac{Y-10}{3}}{\\sqrt{\\frac{X}{9}}} \\sim St(9)$).\n*   Calculer un quantile d'une loi de Student ($\\PP(Z > z) = 0.05$).\n*   Reconnaître une loi de Fisher à partir de lois du $\\chi^2$ ($W_1 = \\frac{\\frac{X}{9}}{\\frac{V}{3}} \\sim F(9,3)$ et $W_2 = \\frac{3V}{\\frac{X}{9}} \\sim F(3,9)$).\n*   Calculer un quantile d'une loi de Fisher ($\\PP(W_2 > w_2) = 0.05$).",
     "competences": [
       "identifier la loi d'une somme de carrés de variables normales centrées réduites",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "6265dc69-ad01-4f4b-95e7-7da89d6a613f",
+      "id": "891017ea-8e2d-4f94-82a8-97e78a3593ee",
       "type": "description",
       "value": {
         "latex": "Soient 9 variables aléatoires indépendantes, normales centrées réduites notées $(U_i)_{1 \\leq i \\leq 9}$.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "57079db4-3b8d-4ae6-9701-ca5375b93087",
+      "id": "68201bfe-d6d5-4864-9731-c1417ed7fcf8",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi suivie par la variable aléatoire $X=\\sum\\limits_{i=1}^{9}U_i^2$ ? Déterminer le réel $x$ tel que $\\PP(X > x) = 0.05$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "f3ba2984-c556-4a2d-b772-96525c758e18",
+      "id": "755fa70e-063f-4b02-8a12-37ae813013b7",
       "type": "reponse",
       "value": {
         "latex": "On a $X \\sim \\chi^2(9)$ et $x = 16.92$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "64bc7a45-b06c-4a09-b609-a40f57d7f82a",
+      "id": "172d3007-61a1-48c0-af99-3fb089fd282b",
       "type": "question",
       "value": {
         "latex": "Soit $Y$ une variable aléatoire suivant une loi normale de moyenne 10 et d'écart-type 3, indépendante de $X$. Quelle est la loi suivie par la variable aléatoire $Z=\\frac{Y-10}{\\sqrt{X}}$ ? Déterminer le réel $z$ tel que $\\PP(Z > z) = 0.05$.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "14d46b31-a870-47de-a253-6231ecb8566f",
+      "id": "957eb098-93ef-4644-8e22-189b2d51120a",
       "type": "reponse",
       "value": {
         "latex": "On a $Z = \\frac{\\frac{Y-10}{3}}{\\sqrt{\\frac{X}{9}}}$ donc par définition, $Z$ suit une loi de Student $St(9)$ et $z = 1.833$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "a5c125bd-263e-421f-94fc-ab38cca3c344",
+      "id": "3a7dbf24-ffc9-45d9-ae4f-0892509d6b95",
       "type": "question",
       "value": {
         "latex": "Soit $V$ une variable aléatoire distribuée selon une loi du $\\chi^2$ à 3 degrés de liberté, indépendante de $X$. Quelle est la loi suivie par $W_1=\\frac{X}{3V}$ ? Quelle est la loi suivie par $W_2=\\frac{3V}{X}$ ? Déterminer le réel $w_2$ tel que $\\PP(W_2 > w_2) = 0.05$.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "63947ebc-ab94-42b2-92b4-7065450422bd",
+      "id": "3fc4abb8-798e-49a8-b18e-93924823541d",
       "type": "reponse",
       "value": {
         "latex": "On a $W_1 = \\frac{\\frac{X}{9}}{\\frac{V}{3}}$ donc $W_1$ suit une loi de Fisher $F(9,3)$. De même, $W_2 = \\frac{3V}{\\frac{X}{9}}$ donc $W_2$ suit une loi de Fisher $F(3,9)$. On a $w_2 = 0.325$.",

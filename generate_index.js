@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const directories = ['src/latex/amscc', 'src/latex/exo7'];
-const outputFile = 'index.json';
+const outputFile = 'src/bundles/index-tex.json';
 let index = {};
 
 // Fonction récursive pour explorer les répertoires et sous-répertoires

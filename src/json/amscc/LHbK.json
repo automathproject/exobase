@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-03",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:16.166Z",
+    "updatedAt": "2025-04-04T19:02:17.546Z",
     "resume": "L'exercice porte sur l'étude de la convergence d'une série numérique $\\sum_{n\\geq 1} u_n$, où $u_n$ est défini en fonction d'un paramètre réel $\\alpha$. Les compétences mises en œuvre sont :\n\n1.  Déterminer un équivalent simple de $v_n = \\frac{n(n+1)}{2n^{\\alpha}}$ quand $n \\to +\\infty$. Cela implique la simplification d'expressions algébriques et la notion d'équivalence de suites.\n2.  Déterminer l'ensemble des valeurs de $\\alpha$ pour lesquelles la série $\\sum_{n\\geq 1}v_n$ diverge. Cela nécessite la connaissance des séries de Riemann et leur convergence/divergence en fonction de l'exposant.\n3.  Calculer un développement limité à l'ordre 1 de $\\ln(1+\\frac{1}{n^{\\alpha-1}})$ et en déduire un équivalent de $w_n = (1+\\frac{n}{n^{\\alpha}})^n - 1$. Cela fait appel aux développements limités usuels (notamment $\\ln(1+x)$ et $e^x$), à la manipulation d'exponentielles et de logarithmes et à la notion de négligeabilité.\n4.  Démontrer l'inégalité $0 \\le u_n \\le (1+\\frac{n}{n^{\\alpha}})^n - 1$ et en déduire la convergence de $\\sum_{n\\geq 1} u_n$ pour $\\alpha > 3$. Cela implique l'utilisation d'inégalités et des critères de comparaison pour les séries à termes positifs.\n5.  Montrer que $u_n \\geq \\frac{n(n+1)}{2n^{\\alpha}}$. Cette étape demande de développer un produit et d'identifier les termes pertinents pour établir une inégalité.\n6.  Déduire des questions précédentes l'ensemble des valeurs de $\\alpha$ pour lesquelles la série $\\sum_{n\\geq 1}u_n$ converge. Cela synthétise les résultats précédents en utilisant les critères de comparaison et les équivalents obtenus.",
     "competences": [
       "étudier la convergence d'une série numérique",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "042609b0-a0be-456c-88ab-d5377377e523",
+      "id": "a86bc54a-8a67-418a-a723-e34756e35835",
       "type": "question",
       "value": {
         "latex": "Déterminer un équivalent simple de $v_n$ quand $n$ tend vers l'infini.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "98ab9f18-c1b5-4287-9476-3ab8a368bfb8",
+      "id": "c7267c93-ad23-4b38-bfdd-af013607c091",
       "type": "reponse",
       "value": {
         "latex": "$$v_n = \\frac{n(n+1)}{2n^{\\alpha}} = \\underset{n\\to +\\infty}{\\sim} \\frac{n^2}{2n^{\\alpha}} = \\frac{1}{2}n^{2-\\alpha} \\, .$$",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "6729955e-cd24-47fa-ab78-eed6e5d360f1",
+      "id": "14055e9b-da7f-45ca-9ad1-cefd4aaba078",
       "type": "question",
       "value": {
         "latex": "En déduire que l'ensemble des valeurs de $\\alpha$ pour lesquelles la série $\\displaystyle\\sum_{n\\geq 1}v_n$ diverge.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "15827634-d860-42af-90de-42566329c644",
+      "id": "74677acb-063d-4fae-afce-fb6fe6edc2c1",
       "type": "reponse",
       "value": {
         "latex": "Il s'agit du terme général d'une série de Riemann. La série $\\displaystyle\\sum_{n\\geq 1}v_n$ diverge si et seulement si $\\alpha - 2 \\leq 1$ c'est-à-dire $\\alpha \\leq 3$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "60dee4dc-d744-4d79-be26-d2c4629415c1",
+      "id": "6ed2b03a-8f02-403e-b8bd-d3b6f5b46327",
       "type": "question",
       "value": {
         "latex": "Donner un développement limité de $\\ln\\left(1+\\frac{1}{n^{\\alpha-1}}\\right)$ à l'ordre $1$ quand $n \\to +\\infty$. En déduire que : $$w_n = \\frac{1}{n^{\\alpha-2}} + \\underset{n\\to +\\infty}o\\left(\\frac{1}{n^{\\alpha-2}}\\right) \\, .$$",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "09b7b64f-f1e6-4c97-a344-c524161f689b",
+      "id": "ce221706-a96a-4d1d-9059-81e2ccbd81fa",
       "type": "reponse",
       "value": {
         "latex": "D'après le cours, on a :\n\t\t$$\\ln\\left(1+\\frac{1}{n^{\\alpha-1}}\\right) = \\frac{1}{n^{\\alpha-1}} + o\\left(\\frac{1}{n^{\\alpha-1}}\\right) \\, .$$\n\t\tOr $\\left(1+\\frac{n}{n^{\\alpha}}\\right)^{n} = \\exp\\left(n\\ln\\left(1+\\frac{1}{n^{\\alpha-1}}\\right)\\right)$. En utilisant le développement limité de $\\ln\\left(1+\\frac{1}{n^{\\alpha-1}}\\right)$ à l'ordre $1$, on obtient :\n\t\t$$w_n = \\exp\\left(\\frac{n}{n^{\\alpha-1}} + o\\left(\\frac{n}{n^{\\alpha-1}}\\right)\\right) = \\exp\\left(\\frac{1}{n^{\\alpha-2}} + o\\left(\\frac{1}{n^{\\alpha-2}}\\right)\\right)$$\n\t\tOr $\\exp(x) = 1 + x + o(x)$, donc $\\exp(x)-1 = x + o(x)$. On a donc :\n\t\t$$w_n = \\frac{1}{n^{\\alpha-2}} + o\\left(\\frac{1}{n^{\\alpha-2}}\\right) \\, .$$",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "4f8a0dc0-d029-4ae2-959a-9875b440b0c7",
+      "id": "19dce3d0-ec30-46d9-bf73-ed0b37b7a9e2",
       "type": "question",
       "value": {
         "latex": "Montrer l'inégalité suivante, pour tout $n \\geq 1:$\n$$0\\le u_n \\leq \\left(1+\\frac{n}{n^{\\alpha}}\\right)^{n}-1.$$\nEn déduire que la série $\\displaystyle\\sum_{n\\geq 1}u_n$ converge si $\\alpha>3$.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "ee7a4bf9-a2dd-4004-ab0f-058e3385574e",
+      "id": "70b41b5d-5ae0-41e8-86a0-a53916632638",
       "type": "reponse",
       "value": {
         "latex": "Pour tout $k \\in \\{1, \\ldots, n\\}$, on a $1+\\frac{k}{n^{\\alpha}} \\leq 1+\\frac{n}{n^{\\alpha}}$. Par produit, on obtient : \n\t$$\\left(1+\\frac{1}{n^{\\alpha}}\\right)\\times\\left(1+\\frac{2}{n^{\\alpha}}\\right)\\times \\cdots \\times \\left(1+\\frac{n}{n^{\\alpha}}\\right) \\leq \\left(1+\\frac{n}{n^{\\alpha}}\\right)^n \\, .$$\n\tDe plus, pour tout $k \\in \\{1, \\ldots, n\\}$, on a $1+\\frac{k}{n^{\\alpha}} \\geq 1$ donc par produit, on obtient :\n\t$$\\left(1+\\frac{1}{n^{\\alpha}}\\right)\\times\\left(1+\\frac{2}{n^{\\alpha}}\\right)\\times \\cdots \\times \\left(1+\\frac{n}{n^{\\alpha}}\\right) \\geq 1 \\, .$$\n\tEn combinant les deux inégalités précédentes, on obtient :\n\t$$0\\le u_n \\leq \\left(1+\\frac{n}{n^{\\alpha}}\\right)^{n}-1 \\, .$$\n\tOr $\\left(1+\\frac{n}{n^{\\alpha}}\\right)^{n}-1 = w_n$. D'après la question précédente, on a $w_n = \\frac{1}{n^{\\alpha-2}} + o\\left(\\frac{1}{n^{\\alpha-2}}\\right)$. Donc $w_n \\underset{n\\to +\\infty}{\\sim} \\frac{1}{n^{\\alpha-2}}$. Or si $\\alpha > 3$, alors $\\alpha - 2 > 1$ et la série $\\displaystyle\\sum_{n\\geq 1}\\frac{1}{n^{\\alpha-2}}$ converge. Donc par comparaison de séries à termes positifs, la série $\\displaystyle\\sum_{n\\geq 1}u_n$ converge.",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "5f39ecd8-cbd8-4d91-a41f-65921092f3eb",
+      "id": "a7343578-ca6c-4e16-ad4e-fff7cd63a9e9",
       "type": "question",
       "value": {
         "latex": "Montrer que pour tout entier naturel $n \\geq 1,$ la suite $(u_n)$ v\\'erifie l'inégalité suivante:\n\t$$u_n \\geq \\frac{n(n+1)}{2n^{\\alpha}} \\,.$$",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "3e3d8a49-ae81-4b04-809b-2d517777b228",
+      "id": "5c7ffede-81ec-41ed-86e6-e0db703e69bc",
       "type": "reponse",
       "value": {
         "latex": "En développant le produit, on observe que :\n\t$$\\left(1+\\frac{1}{n^{\\alpha}}\\right)\\times\\left(1+\\frac{2}{n^{\\alpha}}\\right)\\times \\cdots \\times \\left(1+\\frac{n}{n^{\\alpha}}\\right) = 1 \\times \\cdots \\times 1 + 1 \\times \\cdots \\times 1 \\times  \\frac{1}{n^{\\alpha}} + \\cdots + \\frac{n}{n^{\\alpha}} + \\cdots$$\n\tDonc :\n\t$$u_n \\geq  1 + \\frac{1}{n^{\\alpha}} + \\cdots + \\frac{n}{n^{\\alpha}} - 1 = \\frac{n(n+1)}{2n^{\\alpha}} \\, .$$",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "95133222-d5aa-46d5-86f8-51aa0d04b152",
+      "id": "446a6f42-962b-490d-98e6-ab0c0d23a154",
       "type": "question",
       "value": {
         "latex": "Déduire des questions précédentes l'ensemble des valeurs de $\\alpha$ pour lesquelles  la série $\\displaystyle\\sum_{n\\geq 1}u_n$ converge.",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "8aea32f6-0f8f-498c-8c17-71e78d562bc5",
+      "id": "08562bd9-67be-47bc-a314-f90eb81a4285",
       "type": "reponse",
       "value": {
         "latex": "Le terme général $u_n$ est minoré par $v_n$ qui est le terme général d'une série divergente si $\\alpha \\leq 3$, donc $\\displaystyle\\sum_{n\\geq 1}u_n$ diverge si $\\alpha \\leq 3$. De plus, le terme général $u_n$ est majoré par $w_n$ qui est le terme général d'une série convergente si $\\alpha > 3$, donc $\\displaystyle\\sum_{n\\geq 1}u_n$ converge si $\\alpha > 3$. \n\n\tFinalement, la série $\\displaystyle\\sum_{n\\geq 1}u_n$ converge si et seulement si $\\alpha > 3$.",

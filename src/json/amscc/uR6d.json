@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:18.027Z",
+    "updatedAt": "2025-04-04T19:05:08.799Z",
     "resume": "L'exercice porte sur l'étude de la convergence d'une série numérique. Il nécessite :\n\n1.  La détermination d'un équivalent de la fonction $e^{x^2} - \\cos(x)$ au voisinage de 0, en utilisant des développements limités pour obtenir $e^{x^2} - \\cos(x) \\sim \\frac{3x^2}{2}$.\n2.  L'application de cet équivalent pour étudier la convergence de la série $\\sum_{n \\geq 1} u_n$ où $u_n = e^{\\frac{1}{n^2}} - \\cos(\\frac{1}{n})$. La convergence est établie par comparaison avec une série de Riemann convergente, en utilisant l'équivalence $u_n \\underset{+\\infty}{\\sim} \\frac{3}{2n^2}$.",
     "competences": [
       "appliquer des développements limités",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "7d8846ba-17a8-4f32-beec-2c685cadad22",
+      "id": "75880f12-ac58-4d30-8d53-68247a1f4176",
       "type": "question",
       "value": {
         "latex": "Prouver qu'un équivalent de $e^{x^2}-\\cos(x)$ au voisinage de $0$ est $\\frac{3x^2}{2}$. On pourra utiliser un développement limité.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "42c84dec-b339-4553-872a-d9af63ad6162",
+      "id": "8c99a6d0-4179-449d-a05a-98df85f16ae8",
       "type": "reponse",
       "value": {
         "latex": "Pour démontrer ceci, nous devons d'abord obtenir les développements limités de $e^{x^2}$ et $\\cos(x)$ autour de $0$ jusqu'à l'ordre $2$ :\n\t\n\t$$\\begin{align*}\n\t\te^{x^2} & = 1 + x^2 + o(x^2)\\\\\n\t\t\\cos(x) & = 1 - \\frac{x^2}{2} + o(x^2)\n\t\\end{align*}$$\n\n\t\n\tEnsuite, nous soustrayons ces deux séries terme à terme pour obtenir le développement limité de $e^{x^2}-\\cos(x)$ :\n\t\n\t$$\\begin{align*}\n\t\te^{x^2} - \\cos(x) & = (1 + x^2 + o(x^2)) - (1 - \\frac{x^2}{2}  + o(x^2))\\\\\n\t\t& =  \\frac{3x^2}{2}  + o(x^2)\n\t\\end{align*}$$\n\t\n\tOn en déduit que l'équivalent de $e^{x^2}-\\cos(x)$ au voisinage de $0$ est bien $\\frac{3x^2}{2}$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ed1baf5c-4a56-480f-a5cd-4eddad12e5aa",
+      "id": "37a9fe22-4468-44d9-ae04-25a2a77b3050",
       "type": "question",
       "value": {
         "latex": "Étudier la convergence de la série $\\displaystyle   \\sum_{n \\geq 1} u_n$ où pour tout $n \\geq 1$, $$u_n = e^{\\frac{1}{n^2}}-\\cos\\left(\\frac1n\\right).$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "aa50b4f9-1377-4477-83c7-25bdb1d790d6",
+      "id": "5a59795a-48a6-4fd9-a6f4-01ecb40dc653",
       "type": "reponse",
       "value": {
         "latex": "On déduit de la question précédente que $$u_n \\underset{+\\infty}\\sim \\frac{3}{2n^2}$$\nCela prouve que $u_n \\geq 0$ à partir d'un certain rang et que la série $\\displaystyle   \\sum_{n \\geq 1} u_n$ converge par comparaison à une série de Riemann convergente.",

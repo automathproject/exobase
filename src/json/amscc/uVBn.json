@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-21",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:18.337Z",
+    "updatedAt": "2025-04-04T19:05:09.276Z",
     "resume": "L'exercice porte sur la comparaison de deux stratégies probabilistes basées sur le tirage de trois nombres aléatoires uniformément distribués sur $[0,1]$. Il s'agit de :\\n\\n1.  Identifier la loi de probabilité des variables aléatoires $X_i$ (loi uniforme).\\n2.  Exprimer $Y_A$ (le maximum des $X_i$) et $Y_B$ (la somme des deux plus petits $X_i$) en fonction des $X_i$. $Y_A = \\\\max(X_1, X_2, X_3)$ et $Y_B = X_1 + X_2 + X_3 - Y_A$.\\n3.  Déterminer la fonction de répartition $F_{Y_A}(t)$ de $Y_A$, qui est $t^3$ sur $[0,1]$, et en déduire sa densité $f_{Y_A}(t) = 3t^2$ sur $[0,1]$.\\n4.  Calculer et comparer les espérances $\\\\mathbb{E}[Y_A]$ et $\\\\mathbb{E}[Y_B]$ pour montrer qu'elles sont égales à $\\\\frac{3}{4}$.\\n5.  Calculer $\\\\mathbb{P}(Y_B \\\\geq Y_A)$ pour montrer que les stratégies sont équivalentes au sens où chaque joueur à une chance sur deux de gagner.",
     "competences": [
       "calculer une espérance de variable aléatoire continue",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "4092e432-00db-42ea-8194-7e45b480a438",
+      "id": "181322a3-18eb-4291-9929-c61ea68b7467",
       "type": "description",
       "value": {
         "latex": "Etant donnés trois nombres réels dans l'intervalle $[0;1]$, on définit deux stratégies :\n\t\n\t\\begin{description}\n\t\t\\item[Stratégie A : ] choisir le plus grand des trois nombres ;\n\t\t\\item[Stratégie B : ] choisir la somme des deux nombres les plus petits.\n\t\\end{description}\n\t\n\tDeux hobbits jouent au jeu comportant les étapes suivantes :\n\t\n\t\\begin{itemize}\n\t\t\\item choisir entre la stratégie A et la stratégie B ;\n\t\t\\item à l'aide d'un générateur pseudo aléatoire, tirer au hasard et de manière indépendante trois nombres réels entre 0 et 1 ;\n\t\t\\item le gagnant est celui qui obtient la plus grande valeur, compte tenu de la stratégie choisie.\n\t\\end{itemize}\n\t\n\tOn note $X_1$, $X_2$, $X_3$ les nombres obtenus lors des tirages au sort. On note $Y_A$ la variable égale à la valeur obtenue par la stratégie $A$ et $Y_B$ la variable égale à la valeur obtenue par la stratégie $B$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "ec0dfe63-a451-4bc2-af65-4c0bd2b59c8b",
+      "id": "45c61370-ff90-478a-8344-a868399e1b23",
       "type": "question",
       "value": {
         "latex": "Quelle est la loi de probabilité suivie par chaque variable aléatoire $X_i$, $i \\in \\{1,2,3\\}$ ?",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "3e307069-fb94-42da-a932-06d9c11d868b",
+      "id": "dc5b410b-89b0-4dc2-b2db-6b02d86fc945",
       "type": "reponse",
       "value": {
         "latex": "$X_1$, $X_2$ et $X_3$ suivent une loi uniforme sur $[0;1]$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "bed164a9-967e-4b2e-92f9-b9ce18e8a6fe",
+      "id": "baed3dc4-d161-4dc9-bf7f-e5acb58127ba",
       "type": "question",
       "value": {
         "latex": "Exprimer $Y_A$ en fonction des $X_i$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "c1d46f2c-446d-4fd7-97d1-987cf49338f5",
+      "id": "2d4f388b-91f5-4f76-bbfb-04a8692a4746",
       "type": "reponse",
       "value": {
         "latex": "$Y_A=\\max(X_1,X_2,X_3)$",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "c1c92295-bf33-4070-9cb7-8760cbadd2a8",
+      "id": "69bfbd22-a7cd-4233-a9c0-fab87d732a5a",
       "type": "question",
       "value": {
         "latex": "Exprimer $Y_B$ en fonction de $Y_A$ et des $X_i$.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "d52240ee-1bcd-452b-bf28-079442c140b8",
+      "id": "fa155b77-2d47-4abe-80cb-5452c24d3a3b",
       "type": "reponse",
       "value": {
         "latex": "$Y_B=X_1+X_2+X_3-Y_A$",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "6f814dfd-a961-4661-8df8-808ab2dc801f",
+      "id": "9868f826-7792-480b-bb07-043011172446",
       "type": "question",
       "value": {
         "latex": "Déterminer la fonction de répartition de $Y_A$. En déduire que $Y_A$ est une variable aléatoire absolument continue dont on déterminera une fonction densité.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "fd04a753-15a5-422a-b398-4687430a4a7e",
+      "id": "5a967919-ca63-41f5-b464-0f292e822140",
       "type": "reponse",
       "value": {
         "latex": "Pour tout $x\\in\\R$,\n\t\t\\[ F_{Y_A}(t)=\\p(Y_A\\leq t)=\\p(\\max(X_1,X_2,X_3\\leq t)=\\p(\\{X_1\\leq t\\}\\cap\\{X_2\\leq t\\} \\cap \\{X_3\\leq t\\}).\\]\n\t\tComme les \\vas $X_i$ sont i.i.d., on obtient:\n\t\t\\[ F_{Y_A}(t)=\\p(X_1\\leq t)\\p(X_2\\leq t)\\p(X_3\\leq t) =(F_{X_1}(t))^3.\\]\n\t\tDonc\n\t\t$ F_{Y_1}(t)=\n\t\t\\begin{cases}\n\t\t\t0 \\text{ si } t<0 \\\\\n\t\t\tt^3 \\text{ si } 0 \\leq t \\leq 1 \\\\\n\t\t\t1 \\text{ si } t> 1\n\t\t\\end{cases}\n\t\t$.\n\t\tLa \\va $Y_A$ est donc absolument continue et sa densité vaut $f_{Y_A}(t)=F'_{Y_A}(t)=3t^2\\textbf{1}_{[0;1]}(t)$.",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "45d29303-c341-4e05-854a-23822333d873",
+      "id": "597feb7a-8c12-4b05-a7a1-06073f620cc9",
       "type": "question",
       "value": {
         "latex": "En comparant l'espérance des variables aléatoires $Y_A$ et $Y_B$ , peut-on dire qu'il existe une meilleure stratégie ?",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "id": "d76a7f29-9e42-495f-a1b8-bafeb142caa9",
+      "id": "8df301c6-1d35-4a2a-9a00-c59aa10fc441",
       "type": "reponse",
       "value": {
         "latex": "Comparons l'espérance des \\vas $Y_A$ et $Y_B$:\n\t\t$$\\begin{align*}\n\t\t\t&\\E(Y_A)=\\int_0^1 x \\times 3x^2 \\ dx\n\t\t\t=\\left[ \\frac{3}{4} x^4\\right]_0^1=\\frac{3}{4}, \\\\\n\t\t\t&\\E(Y_B)==\\E(X_1)+\\E(X_2)+\\E(X_3)-\\E(Y_A)=\\frac{1}{2}\\times 3-\\frac{3}{4}=\\frac{3}{4}.\n\t\t\\end{align*}$$\n\t\tLes deux stratégies sont donc équivalentes.\n\t\t\\vspace{1em}\n\t\t\n\t\tPour comparer les deux stratégies plus finement, il faut calculer $\\p(Y_B\\geq Y_A)$. \\\\\n\t\tComme $\\{Y_B\\geq Y_A\\}=\\{X_1+X_2+X_3-2Y_A\\geq 0\\}$, on a \n\t\t$$\\begin{align*}\n\t\t\t\\p(Y_B\\geq Y_A)&=\\int_{[0;1]^3} \\mathbb{1}_{\\{x_1+x_2+x_3-2\\max(x_1,x_2,x_3)\\geq 0\\}}\\dx_1 \\  dx_2 \\ dx_3 \\\\ \n\t\t\t&=\\int_{D_1} \\dx_1 \\  dx_2 \\ dx_3 +\\int_{D_2} \\dx_1 \\  dx_2 \\ dx_3 + \\int_{D_3} \\dx_1 \\  dx_2 \\ dx_3\n\t\t\\end{align*}$$\n\t\tavec\n\t\t$$\\begin{align*}\n\t\t\t&D_1=\\{ (x_1,x_2,x_3)\\in[0;1]^3 | x_2\\leq x_1, x_3\\leq x_1, x_2+x_3\\geq x_1\\} \\\\\n\t\t\t&D_2=\\{ (x_1,x_2,x_3)\\in[0;1]^3 | x_1\\leq x_2, x_3\\leq x_2, x_1+x_3\\geq x_2\\} \\\\\n\t\t\t&D_3=\\{ (x_1,x_2,x_3)\\in[0;1]^3 | x_1\\leq x_3, x_2\\leq x_3, x_1+x_2\\geq x_3\\} \n\t\t\\end{align*}$$\n\t\tPar permutations des indices, il est immédiat que les trois intégrales sont égales or\n\t\t$$\\begin{align*}\n\t\t\t\\int_{D_1} dx_1\\ dx_2 \\ dx_3 \n\t\t\t= \\int_0^1 \\int_0^{x_1} \\int_{x_1-x_2}^{x_1} dx_3 \\ dx_2\\ dx_1\n\t\t\t= \\int_0^1 \\int_0^{x_1} x_2 \\ dx_2\\ dx_1\n\t\t\t=\\int_0^1 \\frac{x_1^2}{2} \\dx_1\n\t\t\t=\\frac{1}{6}.\n\t\t\\end{align*}$$\n\t\tAinsi $\\mathbb{P}(Y_B\\geq Y_A)=3\\int_{D_1} dx=\\frac{1}{2}$.\n\t\tOn retrouve que les deux stratégies sont équivalentes, au sens où si le joueur $A$ adopte la stratégie $1$ et le joueur $B$ adopte la stratégie $2$, alors $A$ et $B$ ont la même probabilité $\\frac{1}{2}$ de gagner.",

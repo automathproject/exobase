@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-11-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:12.682Z",
+    "updatedAt": "2025-04-04T19:05:02.496Z",
     "resume": "Cet exercice porte sur les tests d'hypothèses. Il s'agit de vérifier si un échantillon de 150 tirages indépendants suit une loi de Poisson. Les compétences mises en œuvre sont : \n1. Estimer le paramètre $\\lambda$ de la loi de Poisson à partir des données.\n2. Réaliser un test d'adéquation du $\\chi^2$ pour vérifier l'hypothèse que la variable aléatoire suit une loi de Poisson (sans paramètre spécifié).\n3. Réaliser un test d'adéquation du $\\chi^2$ pour vérifier l'hypothèse que la variable aléatoire suit une loi de Poisson de paramètre $\\lambda=2$.",
     "competences": [
       "réaliser un test d'adéquation du Khi-deux",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "f3b5d4f0-9fe4-4f12-a2dd-d6a798ebd3cf",
+      "id": "ea80e8fc-4c2b-45fa-bdb0-2226f859f641",
       "type": "description",
       "value": {
         "latex": "On trouve dans le fichier \\texttt{TP\\_poisson.xls} 150 tirages indépendants d'une variable aléatoire.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "7451caa6-8354-4302-b71d-ae8473c0428d",
+      "id": "4a9065d4-39e4-4d0b-bb35-80dbeae10b85",
       "type": "question",
       "value": {
         "latex": "Doit-on accepter l'hypothèse $H_0$ : \\og $X$ suit une loi de Poisson \\fg{} ?",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "8daa00ab-2f9f-4c29-bc2a-b28f81c65861",
+      "id": "60c78984-65d2-48c5-a9da-60e4b6955726",
       "type": "question",
       "value": {
         "latex": "Doit-on accepter l'hypothèse $H_0$ : \\og $X$ suit une loi de Poisson de paramètre 2 \\fg{} ?",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "b9f0b150-7661-47e9-82a1-4eff5f3fa04b",
+      "id": "b77121d8-228b-4bc5-a282-cec02a5466e2",
       "type": "reponse",
       "value": {
         "latex": "\\href{https://stcyrterrenetdefensegouvf-my.sharepoint.com/:x:/g/personal/maxime_nguyen_st-cyr_terre-net_defense_gouv_fr/EYlCPJY62BdMpTYscg1T6zABc9_WCIR_pzt6XSOajALYhw?e=jX5PbK&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wNzAwLTAwMDAwMDAwMDAwMH0}{lien vers tableur}",

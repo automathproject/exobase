@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:22.258Z",
+    "updatedAt": "2025-04-04T19:02:20.686Z",
     "resume": "L'exercice porte sur le calcul de la loi du maximum et du minimum de variables aléatoires indépendantes suivant une loi exponentielle $\\mathcal{E}(\\lambda)$. Il s'agit de déterminer les fonctions de répartition de $V=\\max(X_1,...,X_n)$ et $U=\\min(X_1,...,X_n)$, puis d'en déduire leurs densités en dérivant les fonctions de répartition obtenues. L'exercice met en oeuvre les compétences suivantes: calcul de fonctions de répartition, utilisation de l'indépendance de variables aléatoires, dérivation pour obtenir une densité, et manipulation de la loi exponentielle.",
     "competences": [
       "calculer une fonction de répartition",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "d26e8998-231e-4ea8-956b-4aea9d35f891",
+      "id": "ed31ab1f-b3fa-4738-817a-8fe04b560b2f",
       "type": "description",
       "value": {
         "latex": "Soit $X_1,..,X_n$ des variables aléatoires indépendantes suivant chacune une même loi exponentielle $\\mathcal{E}(\\lambda)$ de paramètre $\\lambda>0$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "9f98ec84-ddae-490b-863d-f520f8d935d0",
+      "id": "2f32068e-ce71-4617-bc3d-860738a9bbf7",
       "type": "question",
       "value": {
         "latex": "Calculer la fonction de répartition de la variable $\\max(X_1,...,X_n)$ et en déduire la loi de cette variable aléatoire.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "a2155351-cb6e-4b5d-993f-c61260efcb12",
+      "id": "edb7f16e-8b90-4856-996c-97e26197e472",
       "type": "reponse",
       "value": {
         "latex": "On note $V=\\max(X_1,...,X_n)$. On sait que $\\PP(V \\leq t) = \\PP((X_1 \\leq t) \\cap ... \\cap (X_n \\leq t))$ et par indépendance des variables qui suivent chacune une même loi, on en déduit que \n\t\t$$\\PP(V \\leq t) = \\PP(X_1 \\leq t)^n = \\begin{cases}\n\t\t\t(1-e^{-\\lambda t})^n & \\text{ si } t \\geq 0 \\\\\n\t\t\t0 & \\text{ sinon}\n\t\t\\end{cases} $$\n\t\tOn obtient ainsi la fonction de répartition de $V$. La densité de $V$ s'obtient en dérivant cette fonction.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "addcb478-62ce-4767-9d1f-02c5841b84f2",
+      "id": "61fee1f5-fb5c-49d2-a50d-d32fdbfa9aef",
       "type": "question",
       "value": {
         "latex": "Calculer la loi de la variable $\\min(X_1,...,X_n)$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "748b36ed-11a3-42e3-b4fe-1d885756de77",
+      "id": "3128b5d3-d5b3-4fec-adbe-939556523a21",
       "type": "reponse",
       "value": {
         "latex": "On note $U= \\min(X_1,...,X_n)$. On sait que $\\PP(U \\geq t) = \\PP((X_1 \\geq t) \\cap ... \\cap (X_n \\geq t))$ et par indépendance des variables qui suivent chacune une même loi, on en déduit que \n\t\t$$\\PP(U \\geq t) = \\PP(X_1 \\geq t)^n = \\begin{cases}\n\t\t\te^{-\\lambda nt} & \\text{ si } t \\geq 0 \\\\\n\t\t\t1 & \\text{ sinon}\n\t\t\\end{cases} $$\n\t\tOn en déduit que la fonction de répartition de $U$ est la fonction \n\t\t$$ t \\mapsto \\begin{cases}\n\t\t\t1 - e^{-\\lambda nt} & \\text{ si } t \\geq 0 \\\\\n\t\t\t0 & \\text{ sinon}\n\t\t\\end{cases} $$\n\t\tUne fonction densité de $U$ s'obtient en dérivant cette fonction de répartition.",

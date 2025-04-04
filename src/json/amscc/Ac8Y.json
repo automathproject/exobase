@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-11-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:40.972Z",
+    "updatedAt": "2025-04-04T19:01:53.156Z",
     "resume": "L'exercice porte sur la loi log-normale, où $Y = e^X$ et $X$ suit une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$. Il s'agit de :\n\n1.  Calculer l'espérance $\\E(Y)$ et la variance $\\var(Y)$ de $Y$ en utilisant le théorème de transfert et les propriétés de l'espérance et de la variance. Les résultats sont $\\E(Y) = e^{\\mu + \\frac{\\sigma^2}{2}}$ et $\\var(Y) = e^{2\\mu + \\sigma^2} (e^{\\sigma^2} - 1)$.\n\n2. Déterminer la fonction de densité de $Y$ lorsque $\\mu = 0$ et $\\sigma = 1$. Cela implique de calculer la fonction de répartition $F_Y(t)$ à partir de la fonction de répartition de la loi normale standard $F_Z(t)$, puis de dériver pour obtenir la densité $f_Y(x) = \\frac{1}{x\\sqrt{2\\pi}} e^{-\\frac{(\\ln(x))^2}{2}}$ pour $x > 0$ et $0$ sinon.",
     "competences": [
       "appliquer le théorème de transfert pour calculer l'espérance",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "709826b6-9742-4e7d-8628-feacf57450a9",
+      "id": "bd291795-0a6b-4cc3-8733-350f0be2c9ea",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire suivant une loi normale quelconque $\\mathcal{N}(\\mu,\\sigma)$ avec $\\mu \\in \\R$ et $\\sigma >0$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "eac0102a-e727-4450-8738-b2de38bdb43b",
+      "id": "bc0cc614-8bad-4bc7-895c-eead758540e9",
       "type": "question",
       "value": {
         "latex": "On pose $Y = e^X$. Calculer l'espérance et la variance de $Y$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "138b76f9-0698-4244-9cee-5d7f01567f38",
+      "id": "9ea8ffe3-1325-4102-832c-286ae33a9670",
       "type": "reponse",
       "value": {
         "latex": "On a $Y = e^X = e^{\\mu + \\sigma Z} = e^\\mu e^{\\sigma Z}$. D'après le théorème de transfert, \n$$\\begin{align*}\n    \\E(e^{\\sigma Z}) & = \\int_{-\\infty}^{+\\infty} e^{\\sigma z} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{z^2}{2}} dz \\\\\n    & = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{z^2 - 2\\sigma z + \\sigma^2 - \\sigma^2}{2}} dz \\\\\n    & = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{(z-\\sigma)^2}{2}} e^{\\frac{\\sigma^2}{2}} dz \\\\\n    & = e^{\\frac{\\sigma^2}{2}} \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{(z-\\sigma)^2}{2}} dz \\\\\n    & = e^{\\frac{\\sigma^2}{2}} \\\\ \n\\end{align*}$$\nDonc par linéarité, $\\E(Y) = e^{\\mu + \\frac{\\sigma^2}{2}}$. \n\nDe même, on s'intéresse à $\\E(Y^2) = \\E(e^{2X}) = \\E(e^{2\\mu + 2\\sigma Z}) = e^{2\\mu} \\E(e^{2\\sigma Z})$. D'après le calcul précédent, $\\E(e^{2\\sigma Z}) = e^{2\\sigma^2}$. Donc $\\E(Y^2) = e^{2\\mu + 2\\sigma^2}$ et par théorème de Koenig-Huygens, \n$$\\begin{align*}\n  \\var(Y) & = \\E(Y^2) - \\E(Y)^2 \\\\\n  & = e^{2\\mu + 2\\sigma^2} - e^{2\\mu + \\sigma^2} \\\\\n  & = e^{2\\mu + \\sigma^2} (e^{\\sigma^2} - 1) \n\\end{align*}$$",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "f61b2fd1-33c8-480e-a3bc-2daaecfa5f71",
+      "id": "463d1d84-12f5-4bc9-90ee-6eb7227c2871",
       "type": "question",
       "value": {
         "latex": "On suppose que $m=0$ et $\\sigma = 1$. Déterminer une fonction densité de la variable $Y$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "ac40a247-1f1e-4890-bf49-1448e552dcb0",
+      "id": "3027c8d0-9e4d-4cc3-aba2-00f10719edef",
       "type": "reponse",
       "value": {
         "latex": "On a $Y = e^X = e^{\\sigma Z} = e^Z$. Donc $Y$ est une variable aléatoire positive. Si $t >0$, on a :\n      $$\\begin{align*}\n          \\prob(Y \\leq t) & = \\prob(e^Z \\leq t) \\\\\n          & = \\prob(Z \\leq \\ln(t)) \\\\\n          &= F_Z(\\ln(t))\n      \\end{align*}$$\n      Donc la fonction de répartition de $Y$ est $F_Y(t) = \\begin{cases}\n          0 & \\text{ si } t \\leq 0 \\\\\n          F_Z(\\ln(t)) & \\text{ si } t > 0 \\\\\n      \\end{cases}$. \n      Par dérivation, on obtient la densité de $Y$ : \n         $$ f_Y(x)  = \\begin{cases}\n              0 & \\text{ si } x \\leq 0 \\\\\n              \\frac{1}{x\\sqrt{2\\pi} } e^{-\\frac{(\\ln(x))^2}{2}} & \\text{ si } x > 0 \\\\\n          \\end{cases} $$",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:17.933Z",
+    "updatedAt": "2025-04-04T19:05:08.701Z",
     "resume": "L'exercice porte sur l'application de la loi normale $\\mathcal{N}(\\mu, \\sigma^2)$. Il évalue la capacité à :\n\n1.  Déterminer le paramètre $\\mu$ d'une loi normale connaissant la probabilité $P(T>a)$ pour une valeur donnée $a$, en utilisant la table de la loi normale centrée réduite et la transformation $Z = \\frac{T - \\mu}{\\sigma}$.\n2.  Calculer la probabilité $P(T \\leq b)$ pour une valeur donnée $b$, connaissant $\\mu$ et $\\sigma$, en utilisant la transformation vers la loi normale centrée réduite et les propriétés de symétrie de cette loi.",
     "competences": [
       "appliquer la transformation d'une variable normale à une variable normale centrée réduite",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "1a63cd02-0d9a-44db-9684-93f1b591c0e4",
+      "id": "b753c7b6-fdd5-4eaa-9bda-f32d20fef53d",
       "type": "description",
       "value": {
         "latex": "On suppose que la température (en degré Celsius) dans la ville de Rennes au mois de janvier est une variable aléatoire $T$ qui suit une loi normale $\\mathcal{N}(\\mu,\\sigma)$, d'écart-type $\\sigma=4$.",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "1c3b76d2-dcb0-4e9a-9428-593d7da8f30f",
+      "id": "690ce159-5db5-4cbf-9184-553967f5ccfd",
       "type": "question",
       "value": {
         "latex": "Déterminer $\\mu$ lorsque $\\prob(T>2)=0.33$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "b7806220-f472-47fe-a056-5e18930fac6e",
+      "id": "5eff8879-c0d4-4979-b5e6-ab85aba2ce9f",
       "type": "reponse",
       "value": {
         "latex": "$T\\sim \\mathcal{N}(\\mu,\\sigma=4)$ \n\t\t$$\\begin{align*}\n\t\t\t\\prob(T>2)=0.33 \\quad & \\Leftrightarrow \\quad \\p\\left(\\frac{T-\\mu}{4}>\\frac{2-\\mu}{4}\\right)=0.33 \\\\\n\t\t\t& \\Leftrightarrow \\quad \\p\\left(Z>\\frac{2-\\mu}{4}\\right)=0.33 \\quad \\text{ où } Z\\sim\\mathcal{N}(0,1) \\\\\n\t\t\t& \\Leftrightarrow \\quad \\p\\left(Z\\leq \\frac{2-\\mu}{4}\\right)=0.67\n\t\t\\end{align*}$$\n\t\tdonc $\\frac{2-\\mu}{4}=0.44$ par lecture de la table de loi $\\mathcal{N}(0,1)$.\n\t\tD'où $\\mu=0.24$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "9bb4fb72-8769-4a9b-b9f2-115e21290c31",
+      "id": "a88870b8-514d-4223-9b37-ff31efb292f1",
       "type": "question",
       "value": {
         "latex": "Pour la valeur de $\\mu$ ainsi obtenue, déterminer $\\prob(T\\leq 0)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "29009918-9b80-4918-a55a-816955c5b506",
+      "id": "4469f569-c1b7-4a99-8ed8-a131bc4be8a7",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\\prob(T\\leq 0)\n\t\t\t&=\\p\\left(\\frac{T-\\mu}{4}\\leq \\frac{-\\mu}{4}\\right) \\\\\n\t\t\t&=\\p\\left(\\frac{T-0.24}{4}\\leq -0.06\\right) \\\\\n\t\t\t&=\\prob(Z\\leq -0.06) \\quad \\text{ en posant } Z=\\frac{T-0.24}{4}, \\quad \\text{ ainsi } Z \\sim \\mathcal{N}(0,1) \\\\\n\t\t\t&= \\prob(Z\\geq 0.06) \\\\\n\t\t\t&= 1-\\prob(Z\\leq 0.06) \\\\\n\t\t\t&= 1- 0.5239 \\\\\n\t\t\t&= 0.4761\n\t\t\\end{align*}$$",

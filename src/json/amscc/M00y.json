@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-10-07",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:18.107Z",
+    "updatedAt": "2025-04-04T19:02:18.470Z",
     "resume": "L'exercice porte sur l'étude d'une fonction $F(x)$ définie par morceaux et la détermination des conditions sur les paramètres $a$ et $b$ pour qu'elle puisse être considérée comme une fonction de répartition d'une variable aléatoire $X$. Il s'agit de vérifier que $F$ satisfait les propriétés d'une fonction de répartition, notamment: $\\lim_{x \\to +\\infty} F(x) = 1$, la croissance, la continuité à droite et la continuité sur $\\mathbb{R}$ afin de déterminer si $X$ est une variable aléatoire à densité. La condition $a = 1/2$ assure que $F$ soit continue sur $\\mathbb{R}$.",
     "competences": [
       "appliquer les propriétés des fonctions de répartition",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "1fda525c-5868-42bc-a564-ad92ec77d414",
+      "id": "3f5bb252-c1a5-413f-8d5e-911f17e9a32a",
       "type": "description",
       "value": {
         "latex": "Soit la fonction $F$ définie pour tout $x$ réel par \n$$F(x) = \\begin{cases}\nae^x & \\text{ si } x <0 \\\\\n-\\frac{1}{2}e^{-x} + b & \\text{ si } x \\geq 0\n\\end{cases}$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "10f7f186-6261-47f7-9b47-57a57f91bf07",
+      "id": "74557ea7-e4cc-4623-a154-bebe816b418b",
       "type": "question",
       "value": {
         "latex": "Déterminer des conditions sur les réels $a$ et $b$ de sorte qu'il existe une variable aléatoire réelle $X$ telle que $F$ soit la fonction de répartition de $X$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "63180e97-a99c-4c9d-888e-50d41065a869",
+      "id": "fa9a68c8-67c9-44b7-90aa-4ad9943ad319",
       "type": "question",
       "value": {
         "latex": "\\`A quelles conditions cette fonction $F$ définit-elle la fonction de répartition d'une variable aléatoire à densité ?",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "6e3f0d24-acc9-441e-b58c-de3820cc9ed2",
+      "id": "ecf54b7e-8802-46ff-92fe-99ae6133b26d",
       "type": "reponse",
       "value": {
         "latex": "Il est nécessaire que $b=1$ pour que $\\lim\\limits_{+\\infty} F = 1$.\n \t\n \tPour que $F$ soit croissante, il est nécessaire que $a \\geq 0$ et $F(0^-) \\leq F(0)$ soit $a \\leq b-\\frac{1}{2} = \\frac{1}{2}$. \n \t\n \tDans tous les cas, $F$ est bien continue à droite.\n \t\n \tRéciproquement, $F$  vérifie toutes les conditions suffisantes pour que $F$ soit une fonction de répartition.\n \t\n \tSi on ajoute la condition que $a=\\frac{1}{2}$ alors $F$ est continue sur $\\R$ et c'est la fonction de répartition d'une variable absolument continue.",

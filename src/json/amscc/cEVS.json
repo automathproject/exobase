@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Série à  termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:11.565Z",
+    "updatedAt": "2025-04-04T19:02:53.735Z",
     "resume": "L'exercice porte sur l'étude de la convergence de séries numériques à termes positifs. Les compétences mises en œuvre sont :\n\n*   Déterminer le signe des termes de la série.\n*   Calculer un équivalent simple du terme général $u_n$ lorsque $n$ tend vers l'infini.\n*   Utiliser des comparaisons avec des séries de Riemann $\\sum \\frac{1}{n^\\alpha}$ pour déterminer la convergence, en particulier en utilisant les critères $\\alpha > 1$ pour la convergence et $\\alpha \\leq 1$ pour la divergence.\n*   Utiliser des comparaisons avec des séries géométriques $\\sum q^n$.\n*   Utiliser l'équivalent $\\ln(1+x) \\sim x$ quand $x$ tend vers $0$.\n*   Utiliser la technique de la quantité conjuguée pour simplifier l'expression du terme général.",
     "competences": [
       "déterminer la nature d'une série numérique à termes positifs",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "472ec291-4ac6-486e-aa1b-e0dfa7ef2081",
+      "id": "c21e8c18-ad2c-45bb-ab20-18025d296338",
       "type": "description",
       "value": {
         "latex": "Étudier la convergence des séries $\\sum u_n$ suivantes:",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "562ab21c-378f-45e4-9201-1379e1805a99",
+      "id": "77051c27-85e6-4b6d-92f8-be1151ac4bed",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{n}{n^3+1}$",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "9124752d-1eca-4f9e-b860-ce82c272fd2e",
+      "id": "335ca5e1-3a4a-4821-910c-3c74ee85b8a4",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\underset{+\\infty}\\sim \\frac{n}{n^3} = \\frac{1}{n^2}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 2>1$), la série $\\sum u_n$ converge.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "84d191f6-6c25-456e-a37c-f7cdd2322b66",
+      "id": "0132d087-0c22-4da0-ba2f-f97d42c90166",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{\\sqrt{n}}{n^2+\\sqrt{n}}$",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "0f2c087b-c79b-45a0-a7ab-5fc3a438d59e",
+      "id": "e5b8709a-0580-4821-bb84-f8e5e0185923",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\underset{+\\infty}\\sim \\frac{\\sqrt{n}}{n^2} = \\frac{1}{n^{3/2}}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 3/2>1$), la série $\\sum u_n$ converge.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "1ae5018f-cb7b-4d48-b59e-d654ca2f1f5f",
+      "id": "8e4bd77d-3675-4113-aad1-772586e21a5b",
       "type": "question",
       "value": {
         "latex": "$u_n=n\\sin\\Big(\\frac{1}{n}\\Big)$",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "38f2c54b-ce86-4636-9de8-138503027796",
+      "id": "1e9136b5-2bad-40d7-9111-f731f7adba5d",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N^*$ et $u_n \\underset{+\\infty}\\sim n \\times \\frac{1}{n} = 1$ donc la série $\\sum u_n$ diverge grossièrement.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "7b5b9f28-d429-48c7-a054-8e59aef3bdeb",
+      "id": "0118e27f-fd62-498f-b683-84cbb43013ad",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{1}{\\sqrt{n}}\\ln\\Big(1+\\frac{1}{\\sqrt{n}}\\Big)$",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "996dee74-3df1-459a-9bee-eb3847a7213a",
+      "id": "ce7b5cc5-b012-4618-b3db-88af3b46717c",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N^*$ et $u_n \\underset{+\\infty}\\sim \\frac{1}{\\sqrt{n}} \\times \\frac{1}{\\sqrt{ n}} = \\frac{1}{n}$ donc par comparaison à une série de Riemann divergente ($\\alpha = 1<1$), la série $\\sum u_n$ diverge.",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "29bf6c68-9fba-4ef9-9fd0-959f0cf8f63b",
+      "id": "e6f73242-0d2c-455c-8eb8-041a8e0c25ea",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{\\sqrt{n+1}-\\sqrt{n}}{n}$",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "fa46d130-4ddf-4ebe-9502-153a4dc502be",
+      "id": "3c564fd8-8f94-4f1b-bac8-4d0589fb5f3b",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N^*$ et $u_n = \\frac{\\sqrt{n+1}-\\sqrt{n}}{n} = \\frac{(\\sqrt{n+1}+ \\sqrt{n})(\\sqrt{n+1}-\\sqrt{n})}{n(\\sqrt{n+1}+ \\sqrt{n})} = \\frac{1}{n(\\sqrt{n+1}+ \\sqrt{n})} = \\frac{1}{n\\sqrt{n}\\left(\\sqrt{1+\\frac{1}{n}}+1\\right)} \\underset{+\\infty}\\sim \\frac{1}{n \\times 2\\sqrt{n}} = \\frac{1}{2n^{3/2}}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 3/2>1$), la série $\\sum u_n$ converge.",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "3b1a2053-0809-43de-9ea5-130b7422678f",
+      "id": "dbb77e18-d758-4bae-932a-da4374f568d5",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{(-1)^n+n}{n^2+1}$",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "id": "a47c09f0-4531-422f-aca1-268453157c61",
+      "id": "368b6b64-2fc4-4cae-8e39-c040fb9f2fad",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{1}{n!}$",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "56e153e6-23c9-4740-875a-e696445b5ec9",
+      "id": "9fee5916-dbe7-4255-bcc8-2edc1266fffe",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N^*$ et $u_n \\leq \\frac{1}{2^{n-1}}$ pour tout $n \\in \\N^*$ donc par comparaison à une série géométrique convergente ($q = \\frac{1}{2}<1$), la série $\\sum u_n$ converge.",
@@ -166,7 +166,7 @@
       }
     },
     {
-      "id": "02f1745f-e218-42ac-9fe2-43e2850234fd",
+      "id": "5a25939f-3aa2-4104-acd4-47fb3e09e672",
       "type": "question",
       "value": {
         "latex": "$u_n=\\ln\\left(\\frac{n^2+n+1}{n^2+n-1}\\right)$",
@@ -174,7 +174,7 @@
       }
     },
     {
-      "id": "95e47681-291b-435c-b6ec-0a2a7ec04f6e",
+      "id": "bc223f10-96a5-452a-bf3d-732475c32288",
       "type": "reponse",
       "value": {
         "latex": "Alors $u_n \\geq 0$ pour tout $n \\in \\N^*$ et $u_n = \\ln\\left(\\frac{n^2+n+2-1}{n^2+n-1}\\right) = \\ln\\left(1+\\frac{2}{n^2+n-1}\\right) \\underset{+\\infty}\\sim \\frac{2}{n^2+n-1}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 2>1$), la série $\\sum u_n$ converge.",
@@ -182,7 +182,7 @@
       }
     },
     {
-      "id": "44a6b360-f98a-43a4-b8e1-51d26cc2a777",
+      "id": "253d1b1d-6329-4e44-a857-bf3e33501fa6",
       "type": "description",
       "value": {
         "latex": "\\textit{Indications: Pour la question $5.$, utiliser la quantité conjuguée, i.e. multiplier le numérateur et le dénominateur par $\\sqrt{n+1}+\\sqrt{n}$. Pour la question $7.$, utiliser l'inégalité $n!\\geq 2^{n-1}$. Pour la question $8.$, utiliser un équivalent de $\\ln(1+x)$ en $0$.}",

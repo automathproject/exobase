@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-09-28",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:51.244Z",
+    "updatedAt": "2025-04-04T19:02:38.537Z",
     "resume": "L'exercice porte sur la validation d'un générateur de nombres aléatoires uniformes (fonction `ALEA.ENTRE.BORNES(1;8)` d'un tableur) via un test du $\\chi^2$. Il implique de simuler 500 tirages, de calculer les fréquences observées, de comparer à la distribution uniforme théorique attendue, de calculer la statistique du $\\chi^2$, de déterminer le degré de liberté et la p-value, et de conclure si l'on rejette ou non l'hypothèse nulle selon laquelle le générateur simule correctement un tirage uniforme. La visualisation des résultats par un histogramme est également demandée.",
     "competences": [
       "appliquer un test du Chi-deux",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "7f824b40-7d3f-4168-ae7d-7ccf46144eae",
+      "id": "9245b99b-2a64-4d93-b0b5-8a73638c52c8",
       "type": "description",
       "value": {
         "latex": "Pour simuler le tirage aléatoire uniforme avec un tableur, on peut utiliser la commande \\begin{center}\n\\texttt{=ALEA.ENTRE.BORNES(1;8)}\n\t\\end{center} qui génère un nombre entier aléatoire entre 1 et 8.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "e8586ec3-64b2-41d2-9b01-3adb84bf87c4",
+      "id": "fc444b9a-ba6a-47b3-a362-bbeafe449b18",
       "type": "description",
       "value": {
         "latex": "\\`A l'aide d'un test du $\\chi^2$ et une simulation de 500 tirages de dé, peut-on affirmer que cette commande simule correctement un tirage uniforme ? On pourra illustrer le résultat à l'aide d'un histogramme.",

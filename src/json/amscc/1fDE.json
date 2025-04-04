@@ -12,13 +12,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.419Z",
+    "updatedAt": "2025-04-04T19:01:27.028Z",
     "resume": "Cet exercice de probabilités aborde les points suivants:\\n\\n*   Calcul de probabilités totales en utilisant un arbre pondéré et la formule $\\\\prob(F)=\\\\prob(F\\\\cap A)+\\\\prob(F\\\\cap B)=\\\\prob(A)\\\\prob(F|A)+\\\\prob(B)\\\\prob(F|B)$.\\n*   Calcul de probabilités conditionnelles avec la formule $\\\\prob(A|F)=\\\\frac{\\\\prob(A\\\\cap F)}{\\\\prob(F)}=\\\\frac{\\\\prob(A)\\\\prob(F|A)}{\\\\prob(F)}$.\\n*   Identification d'une variable aléatoire suivant une loi binomiale $X \\\\sim \\\\mathcal{B}(n,p)$ et calcul de son espérance $E(X) = n*p$ et de sa variance $\\\\sigma^2(X)=n*p*(1-p)$.\\n*   Approximation d'une loi binomiale par une loi normale $\\\\mathcal{N}(\\\\mu, \\\\sigma^2)$ avec correction de continuité et calcul de probabilités en utilisant la loi normale centrée réduite.",
     "competences": [
       "appliquer une loi binomiale pour modéliser une situation aléatoire",
@@ -56,7 +56,7 @@
   },
   "contenu": [
     {
-      "id": "4ccd3e25-38de-44cf-b6f3-e49f49f3d535",
+      "id": "04b48476-8783-44d3-9962-1d9338500221",
       "type": "description",
       "value": {
         "latex": "On effectue un contrôle sur des pièces de un euro dont une proportion $p=0.05$ est fausse et sur des pièces de deux euros dont une proportion $p'=0.02$ est fausse. On considère un lot de $500$ pièces dont $150$ pièces de un euro et $350$ pièces de deux euros.",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "03253379-5f11-4fd4-8827-bb71f87688a8",
+      "id": "6017028a-404e-457d-9fc2-2e18af59306c",
       "type": "question",
       "value": {
         "latex": "On prend une pièce au hasard dans ce lot: quelle est la probabilité qu'elle soit fausse ?",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "8a52c109-541e-4693-bf07-968d4aaaba46",
+      "id": "5cd553f7-d833-4045-9227-b9112a266071",
       "type": "reponse",
       "value": {
         "latex": "On peut utiliser un arbre de probabilité pour modéliser la situation. En notant $F$ l'événement ``obtenir une pièce fausse'' et $A$ (resp. $B$) l'événement ``obtenir une pièce de un euro (resp. deux euros)'', on a\n\t\t\\[\\prob(F)=\\prob(F\\cap A)+\\prob(F\\cap B)=\\prob(A)\\prob(F|A)+\\prob(B)\\prob(F|B)=\\frac{150}{500}\\times 0.05+\\frac{350}{500}\\times 0.02=0.029.\\]\n\t\tOn a environ $2.9$\\% d'avoir une pièce fausse.",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "94110499-76f5-4765-b416-59f51c34cf87",
+      "id": "12852d62-6ff6-48e2-acea-53519e2c3036",
       "type": "question",
       "value": {
         "latex": "Sachant que cette pièce est fausse, quelle est la probabilité qu'elle soit de un euro ?",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "3694a86a-e97a-4f68-b077-be4d7e5916ed",
+      "id": "561b695a-143c-43b3-9fa7-414b5d917a95",
       "type": "reponse",
       "value": {
         "latex": "On calcule :\n\t\t\\[ \\prob(A|F)=\\frac{\\prob(A\\cap F)}{\\prob(F)}=\\frac{\\prob(A)\\prob(F|A)}{\\prob(F)}=\\frac{\\frac{150}{500}\\times 0.05}{0.029}=0.5172.\\]",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "f4fc814d-8659-48d0-8bb5-b3ed1a9c9276",
+      "id": "6cfacf98-2a2f-402e-b0d2-ab96f25f7198",
       "type": "question",
       "value": {
         "latex": "On contrôle à présent un lot de $\\nombre{1000}$ pièces de un euro. Soit $X$ la variable aléatoire égale au nombre de pièces fausses parmi les $\\nombre{1000}$. \\\\\n\tQuelle est la loi de $X$ ? Quelle est son espérance ? Son écart-type ? \\\\\n\tEn approchant cette loi par celle d'une loi normale adaptée, donner une approximation de la probabilité pour que $X$ soit compris entre $48$ et $52$.",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "c008489a-831a-4849-9395-ea0908f05dc0",
+      "id": "d61b6f5e-0b2d-43dd-973f-ef42fc0115ca",
       "type": "reponse",
       "value": {
         "latex": "On a: $X\\sim \\mathcal{B}(\\nombre{1000},0.05)$, $\\E(X)=\\nombre{1000}\\times 0.05=50$ et $\\sigma^2(X)=\\nombre{1000}\\times 0.05\\times 0.95=47.5$. \\\\\n\t\tLa \\va $X$ peut être approchée (avec correction de continuité) par la \\va $Y$ de loi $\\mathcal{N}(50,\\sigma^2=47.5)$. Ainsi, on a\n\t\t$$\\begin{align*}\n\t\t\\prob(48\\leq X\\leq 52)\n\t\t&= \\prob(47.5\\leq X\\leq 52.5) \\\\\n\t\t&\\simeq \\prob(47.5\\leq Y\\leq 52.5) \\\\\n\t\t& \\simeq \\prob(-0.36 \\leq Z \\leq 0.36) \\quad \\text{ avec } Z=\\frac{Y-50}{\\sqrt{47.5}} \\sim \\mathcal{N}(0,1) \\\\\n\t\t&\\simeq 2\\prob(Z\\leq 0.36)-1 \\\\\n\t\t& \\simeq 2\\times 0.6406 - 1\\\\\n\t\t1\\simeq 0.2812\n\t\t\\end{align*}$$",

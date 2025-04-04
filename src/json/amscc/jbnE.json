@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:40.758Z",
+    "updatedAt": "2025-04-04T19:03:17.397Z",
     "resume": "L'exercice consiste à déterminer la loi de la somme $S = X + Y$ de deux variables aléatoires $X$ et $Y$ indépendantes, chacune suivant une loi uniforme sur $[0, 1]$. La résolution implique le calcul de la densité de probabilité de $S$, notée $h(s)$, par convolution. L'intégration de la fonction indicatrice permet d'obtenir l'expression de $h(s)$ par morceaux en fonction des différentes valeurs de $s$, démontrant que la loi de $S$ est une loi triangulaire.",
     "competences": [
       "calculer la densité d'une somme de variables aléatoires indépendantes",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "bad03ecc-afc5-4620-bab2-cf45dbb1e543",
+      "id": "36288bbd-7782-4a02-b2e0-7199fae025ba",
       "type": "description",
       "value": {
         "latex": "Soient $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune une loi uniforme sur $[0;1]$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "683daf5c-c577-422a-b8de-7435254f45c9",
+      "id": "6368ee62-7f22-44ba-8a12-bc49e78ddc6f",
       "type": "question",
       "value": {
         "latex": "Déterminer la loi de $S=X+Y$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "2e7d700a-b997-49c0-a6c0-3165eea99afd",
+      "id": "0b741a83-1a63-4737-910e-1aae37570502",
       "type": "reponse",
       "value": {
         "latex": "Si $X$ et $Y$ suivent chacune une loi uniforme sur $[0;1]$, alors $S=X+Y$ admet une densité $h$ définie par \n\t$$h(s) = \\int_0^1 \\textbf{1}_{[0;1]}(s-x) dx = \\int_{s-1}^s \\textbf{1}_{[0;1]}(u)du$$\n\t\\begin{itemize}\n\t\t\\item si $s < 0$ alors $s-x <0$ et $h(s) = 0$\n\t\t\\item si $0<s<1$ alors $h(s) = \\int_{0}^s \\textbf{1}_{[0;1]}(u)du = s$\n\t\t\\item si $1<s<2$ alors $h(s) = \\int_{s-1}^1 \\textbf{1}_{[0;1]}(u)du = 2-s$\n\t\t\\item si $2 < s$ alors $h(s) = 0$\n\t\\end{itemize}\n\tEn traçant cette densité, on voit apparaître une loi triangulaire.",

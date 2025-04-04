@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:53.442Z",
+    "updatedAt": "2025-04-04T19:03:28.810Z",
     "resume": "L'exercice porte sur la loi normale de densité $f_X(x)=\\frac{1}{\\sigma \\sqrt{2 \\pi}} \\exp \\left[-\\frac{1}{2}(\\frac{x-\\mu}{\\sigma})^2\\right]$. Il vise à :\n\n1.  Calculer l'espérance $\\mathbb{E}(X)$ en utilisant un changement de variable ($u = \\frac{x-\\mu}{\\sigma}$) et les propriétés de l'intégrale.\n2.  Calculer la variance $\\mathbb{E}((X-\\mu)^2)$ en utilisant le même changement de variable et une intégration par parties.\n3.  Déterminer la loi de la variable centrée réduite $Z = \\frac{X-\\mu}{\\sigma}$ en calculant $\\PP(Z \\leqslant t)$ à l'aide du même changement de variable et en identifiant la densité obtenue comme celle de la loi normale centrée réduite $\\mathscr{N}(0,1)$.",
     "competences": [
       "calculer une intégrale impropre",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "370d1f65-ec2d-4d95-967a-5c52b6e560e8",
+      "id": "089058e6-b7e2-4af5-b855-5e7cc5e47547",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire dont la loi est déterminée par la fonction densité définie pour tout $x \\in \\R$ par : $$\n\tf_X(x)=\\frac{1}{\\sigma \\sqrt{2 \\pi}} \\exp \\left[-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2\\right]\n\t$$",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "055d7870-00dc-4c33-9da3-27575dc49977",
+      "id": "12de9034-54c6-4cde-a896-7f51ab5377bb",
       "type": "question",
       "value": {
         "latex": "A l'aide d'un changement de variable, calculer $\\mathbb{E}(X)$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "4d37b0dc-263b-4c92-bd8a-637f7f3fe9de",
+      "id": "1529fa37-33cb-46fb-9ac4-48b0cfe59978",
       "type": "reponse",
       "value": {
         "latex": "On exprime l'intégrale en posant le changement de variable affine $u=\\frac{x-\\mu}{\\sigma} \\iff x = \\sigma u + \\mu$ :\n\t$$\\begin{align*}\n\t\t\\mathbb{E}(X) &= \\int_{-\\infty}^{+\\infty}xf(x)dx \\\\\n\t\t&= \\int_{-\\infty}^{+\\infty} (\\sigma u + \\mu) \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{u^2}{2}} \\sigma du\\\\\n\t\t&= \\frac{\\sigma}{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty} u e^{-\\frac{u^2}{2}} du + \\mu \\times \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty} e^{-\\frac{u^2}{2}}du\\\\\n\t\t&= 0 + \\mu \\times \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty} e^{-\\frac{u^2}{2}}du \\\\\n\t\t&= 0 + \\mu \\times 1 \\\\\n\t\t&= \\mu\n\\end{align*}$$",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "45b3e0fd-d373-4f1b-9e1b-c887c466d69a",
+      "id": "437c6353-537a-4465-87e6-027d2e830147",
       "type": "question",
       "value": {
         "latex": "Calculer la variance de $X$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "4af97e0d-ee73-4353-822e-31625af8306c",
+      "id": "7dbac72c-5683-4f0d-b76e-b9dc3293f773",
       "type": "reponse",
       "value": {
         "latex": "On utilise le même changement de variable : \n\t$$\n\t\\mathbb{E}\\left((X-\\mu)^2\\right)=\\frac{1}{\\sigma \\sqrt{2 \\pi}} \\int_{-\\infty}^{+\\infty}(x-\\mu)^2 \\exp \\left[-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2\\right] \\mathrm{d} x\n\t$$\n\tdevient, après changement de variables ci-dessus :\n\t$$\n\tE\\left((X-\\mu)^2\\right)=\\frac{\\sigma^2}{\\sqrt{2 \\pi}} \\int_{-\\infty}^{+\\infty} u^2 \\exp \\left[-\\frac{u^2}{2}\\right] \\mathrm{d} u .\n\t$$\n\tEn intégrant par parties, on trouve directement que\n\t$$\n\tE\\left((X-\\mu)^2\\right)=\\sigma^2 .\n\t$$",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "66da682f-eaa0-475c-bd1f-c50eb2f25b72",
+      "id": "bc89f68e-fadc-477a-8d75-5864ec8098c5",
       "type": "question",
       "value": {
         "latex": "Soit $Z = \\frac{X-\\mu}{\\sigma}$. Déterminer la loi de $Z$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "0662e3d3-14a9-43a0-93fe-3b223f2c92ec",
+      "id": "40225a09-3ef2-442a-8081-47bbfaeb6233",
       "type": "reponse",
       "value": {
         "latex": "En effectuant toujours le même changement de variables $u=\\frac{x-\\mu}{\\sigma}$, on a pour tout réel $t$ :\n\t$$\n\t\\PP(Z \\leqslant t)=\\PP(X \\leq \\sigma t + \\mu )\\int_{-\\infty}^{\\sigma t + \\mu} \\frac{1}{\\sigma \\sqrt{2 \\pi}} \\exp \\left[-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2\\right] \\mathrm{d} x=\\int_{-\\infty}^t \\frac{1}{\\sqrt{2 \\pi}} \\exp \\left[-\\frac{u^2}{2}\\right] \\mathrm{d} u .\n\t$$\n\tLa densité de la variable aléatoire $Y$ est donc la fonction\n\t$$\n\tf_Y(u)=\\frac{1}{\\sqrt{2 \\pi}} \\exp \\left[-\\frac{u^2}{2}\\right],\n\t$$\n\tqui correspond à celle de la loi normale centrée réduite $\\mathscr{N}(0,1)$.",

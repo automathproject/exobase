@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-16",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Densité de probabilité",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:48.642Z",
+    "updatedAt": "2025-04-04T19:02:37.245Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $a$ d'une loi de Pareto de paramètres $(a, 1)$. Il évalue les compétences suivantes :\\n\\n*   Calcul d'espérance d'une variable aléatoire continue ($X_1$).\\n*   Détermination d'un estimateur du maximum de vraisemblance ($T_n$) pour le paramètre $a$.\\n*   Identification de la loi suivie par $a \\ln(X_1)$ (loi exponentielle).\\n*   Calcul de l'espérance et de la variance de $\\frac{1}{T_n}$ en utilisant les propriétés de l'espérance et de la variance.\\n*   Démonstration de la convergence presque sûre de la suite de variables aléatoires $\\\\left(\\\\frac{1}{T_n}\\\\right)_{n \\\\in \\\\N^*}$ en utilisant la loi forte des grands nombres.\\n*   Démonstration de la convergence en loi de la suite de variables aléatoires $\\\\left(Z_n\\\\right)_{n \\\\in \\\\N^*}$ vers une loi normale centrée réduite (non traitée dans le résumé car incomplète).\\n*   Déduction d'un intervalle de confiance pour $a$ à partir de la convergence en loi (non traitée car incomplète).",
     "competences": [
       "appliquer la méthode du maximum de vraisemblance",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "81b78288-8624-4548-a7ee-3f47d50ed60d",
+      "id": "72a07310-b63e-4b5b-9368-4e979629b597",
       "type": "description",
       "value": {
         "latex": "Soient $a > 1$ et $b=1$ deux réels. Soit $X$ une variable aléatoire suivant une loi de Pareto de paramètres $(a,1)$. Alors $X$ admet pour densité  la fonction $f$ définie pour tout $x \\in \\R$ par : \n$$f(x)=\\frac{a}{x^{a+1}} \\mathbf{1}_{[1;+\\infty[}(x).$$\nSoit $\\left(X_n\\right)_{n \\in \\N^*}$ une suite de variables aléatoires indépendantes suivant chacune la loi de Pareto de paramètres $(a,1)$. \n\n",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "027f1e5e-e3e4-47ea-908f-d51a7282901c",
+      "id": "da9fa8db-8049-47b3-9a54-cf02e92ed60b",
       "type": "question",
       "value": {
         "latex": "Calculer l'espérance de $X_1$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "43f49404-af7b-491c-9bf3-33e2c272aba3",
+      "id": "6eb73d3b-cc45-42ef-9e3a-4efc052da140",
       "type": "reponse",
       "value": {
         "latex": "Avec $a>1$, on a $\\EX_1 = \\int_1^{+\\infty} \\frac{a}{x^{a+1}} dx = \\left[ -\\frac{a}{x^a} \\right]_1^{+\\infty} = \\frac{a}{a-1}$.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "e245061f-60b6-4bca-8621-3ce8b5eafb01",
+      "id": "dd49f559-79d5-4da2-b06a-8f27706aacb3",
       "type": "question",
       "value": {
         "latex": "On pose $\\displaystyle T_n = \\frac{n}{\\sum\\limits_{i=1}^n \\ln(X_i)}$. Montrer que $T_n$ est un estimateur de $a$ issu de la méthode du maximum de vraisemblance.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "5d7e9d2d-5190-4cc8-b611-4fc63b163651",
+      "id": "c2a39eb4-5e18-4deb-931e-46509661d41e",
       "type": "reponse",
       "value": {
         "latex": "La fonction de vraisemblance de l'échantillon $\\left(X_1,X_2,\\cdots{},X_n\\right)$ est donnée par : \n            $$\\begin{align*}\n                L(a) &= \\prod_{i=1}^n f_{X_i}(x_i) \\\\\n                &= \\prod_{i=1}^n \\frac{a}{x_i^{a+1}} \\mathbf{1}_{[1;+\\infty[}(x_i) \\\\\n                &= a^n \\prod_{i=1}^n \\frac{1}{x_i^{a+1}} \\mathbf{1}_{[1;+\\infty[}(x_i) \\\\\n                &= a^n \\frac{1}{\\prod_{i=1}^n x_i^{a+1}} \\mathbf{1}_{[1;+\\infty[}(x_i) \\\\\n                &= \\begin{cases}\n                    a^n \\left(\\prod_{i=1}^n x_i \\right)^{-a-1}  & \\text{si } \\forall i \\in  \\{1,...,n\\}, x_i \\geq 1 \\\\\n                    0 & \\text{sinon}\n                \\end{cases}\n            \\end{align*}$$\n            La log vraisemblance est donc donnée par :\n            $$\\begin{align*}\n                \\ln(L(a)) &= \\ln(a^n) - (a+1) \\sum_{i=1}^n \\ln(x_i) \\\\\n                &= n \\ln(a) - (a+1) \\sum_{i=1}^n \\ln(x_i)\n            \\end{align*}$$\n            Donc $\\ln(L(a))$ est maximal pour $a = \\frac{n}{\\sum_{i=1}^n \\ln(x_i)}$.",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": "65d27978-9515-442c-9530-e001fb22082e",
+      "id": "c68de1b1-9b5c-41c7-b0cc-29dc9dde47bd",
       "type": "question",
       "value": {
         "latex": "Montrer que $a \\ln(X_1)$ suit une loi exponentielle de paramètre $1$.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "id": "9077e132-8b31-45e4-9b0f-2bcf05b63950",
+      "id": "59e4a3b5-75e2-4689-b5f7-b32758629193",
       "type": "reponse",
       "value": {
         "latex": "On détermine la fonction de répartition de $a \\ln(X_1)$. \n            Soit $t \\geq 0$. On a : \n            $$\\begin{align*}\n                \\prob(a \\ln(X_1) \\leq t) &= \\prob(\\ln(X_1) \\leq \\frac{t}{a}) \\\\\n                &= \\prob(X_1 \\leq e^{\\frac{t}{a}}) \\\\\n                &= F_{X_1}(e^{\\frac{t}{a}}) \\\\\n                &= 1 - \\left( e^{\\frac{t}{a}} \\right)^{a} \\text{ car } e^{\\frac{t}{a}} \\geq 1 \\\\\n                &= 1 - e^t\n            \\end{align*}$$\n            Si $t < 0$, $e^{\\frac{t}{a}} < 1$ donc $\\prob(a \\ln(X_1) \\leq t) = 0$. Donc $a \\ln(X_1)$ suit une loi exponentielle de paramètre $1$.",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "3a1e8ce1-cd2c-44b0-9793-5d39960bb203",
+      "id": "d8a761a5-7550-4ec9-a395-b6092b459860",
       "type": "question",
       "value": {
         "latex": "En déduire l'espérance et la variance de $\\frac{1}{T_n}$.",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "de26505f-d8bf-4157-ad7c-e9d76e9df167",
+      "id": "082a78c3-2916-411b-a135-a7fbfa19cece",
       "type": "reponse",
       "value": {
         "latex": "Par linéarité de l'espérance, on a $\\E\\left(\\frac{1}{T_n}\\right)  = \\frac{1}{an}\\sum_{i=1}^n \\E\\left(a \\ln(X_i)\\right) = \\frac{1}{an} \\sum_{i=1}^n \\frac{1}{1} = \\frac{1}{a}$. \n\n            Par propriétés de la variance, on a $\\var\\left(\\frac{1}{T_n} \\right) = \\frac{1}{a^2 n^2} \\sum_{i=1}^n \\var(a \\ln(X_i)) = \\frac{1}{a^2 n^2} \\sum_{i=1}^n 1 = \\frac{1}{a^2 n}$.",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "596a82f0-dd21-4d57-8016-14f76b09b251",
+      "id": "74bb604d-2d1d-465c-8626-77591bb51d7e",
       "type": "question",
       "value": {
         "latex": "Montrer que la suite de variables aléatoires $\\left(\\frac{1}{T_n}\\right)_{n \\in \\N^*}$ converge presque sûrement vers une constante que l'on déterminera.",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "id": "44ecb2be-19b1-4523-ae4c-0ae6eb0daabb",
+      "id": "f93be933-fa20-4b5d-af98-57f3281a76b3",
       "type": "reponse",
       "value": {
         "latex": "D'après la loi forte des grands nombres, on a $\\frac{1}{T_n} = \\frac{1}{n} \\sum_{i=1}^n \\ln(X_i) \\xrightarrow[n \\to +\\infty]{\\text{p.s.}} \\E(\\ln(X_1))$. Or $\\E(a\\ln(X_1)) = \\frac{1}{1} = 1$. Donc $\\frac{1}{T_n} \\xrightarrow[n \\to +\\infty]{\\text{p.s.}} \\frac{1}{a}$.",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "id": "82ae7465-3d42-4404-8d90-2544d33b7c10",
+      "id": "89b6ea93-6a4c-414e-a089-d40dcf060ee0",
       "type": "question",
       "value": {
         "latex": "Pour tout $n \\in \\N^*$, on pose $Z_n = \\sqrt{n}\\left(\\frac{a}{T_n} - 1 \\right)$. Montrer que la suite de variables aléatoires $\\left(Z_n\\right)_{n \\in \\N^*}$ converge en loi vers une loi normale centrée réduite.",
@@ -151,7 +151,7 @@
       }
     },
     {
-      "id": "6808014c-5419-418f-8cc0-7bc8a0af595f",
+      "id": "a3975d43-88db-40e3-af1d-3a3edf874098",
       "type": "question",
       "value": {
         "latex": "En déduire un intervalle de confiance au niveau de confiance $95\\%$ pour $a$ sous la forme : $$\\left[ \\frac{\\sqrt{n}-c}{\\sqrt{n}}T_n~;~\\frac{\\sqrt{n}+c}{\\sqrt{n}}T_n \\right]$$ où $c$ est un réel à déterminer.",

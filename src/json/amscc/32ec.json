@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:16.441Z",
+    "updatedAt": "2025-04-04T19:01:28.015Z",
     "resume": "L'exercice porte sur la manipulation et la comparaison de lois normales. Il évalue les compétences suivantes:\n\n1.  Détermination des paramètres (espérance et écart-type) de deux variables aléatoires normales $X$ et $Y$ à partir de probabilités données, en utilisant la table de la loi normale centrée réduite. Les paramètres sont obtenus en résolvant un système d'équations linéaires.\n2.  Calcul des paramètres de la variable aléatoire $Z=X-Y$, sachant que $X$ et $Y$ sont indépendantes et de loi Normale. Utilisation des propriétés de la somme/différence de variables aléatoires normales indépendantes.\n3.  Calcul d'une probabilité impliquant $Z$, en utilisant la variable centrée réduite associée et la table de la loi normale centrée réduite.",
     "competences": [
       "appliquer la transformation d'une variable aléatoire normale vers une loi normale centrée réduite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "777927cc-8c5e-451e-8ad0-963bf0d2f57c",
+      "id": "4537d004-98b3-49fb-bd86-edaa57204a02",
       "type": "description",
       "value": {
         "latex": "Deux joueurs $A$ et $B$ sont en concurrence au lancer de poids. Un observateur attentif a relevé qu'à l'entraînement, le joueur $A$ a effectué $97.7$\\% de ses lancers au delà de $19$ mètres, et $84$\\% en deça de $22$ mètres. Il a aussi noté que de son côté, le joueur $B$ a effectué $74.5$\\% de ses lancers au delà de $19$ mètres et $90.8$\\% en deça de $22$ mètres.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "a1df844f-2101-4da1-8224-40bc63cc33cc",
+      "id": "6e2183c3-2c79-48a4-9160-bea8a44b528f",
       "type": "question",
       "value": {
         "latex": "Déterminer les paramètres des variables aléatoires normales $X$ et $Y$ respectivement égales au lancer du joueur $A$ et au lancer du joueur $B$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "488431eb-7f64-4ea8-b512-3a41e847860c",
+      "id": "ef50fc73-7938-43e1-8b01-812d2c5f03d4",
       "type": "reponse",
       "value": {
         "latex": "\\textbf{Joueur $A$:} \n\t\t\\[ X\\sim\\mathcal{N}(\\mu,\\sigma), \\quad \\prob(X\\geq 19)=0.977, \\quad \\prob(X\\leq 22)=0.84\\]\n\t\tEn posant $Z=\\frac{X-\\mu}{\\sigma}$, on a $Z\\sim \\mathcal{N}(0,1)$ et:\n\t\t\\[ \\begin{cases}\n\t\t\t\\prob\\left(Z\\geq \\frac{19-\\mu}{\\sigma} \\right)=0.977 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.84\n\t\t\\end{cases}\n\t\t\\quad \\Leftrightarrow \\quad\n\t\t\\begin{cases}\n\t\t\t\\prob\\left(Z\\leq -\\frac{19-\\mu}{\\sigma} \\right)=0.977 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.84\n\t\t\\end{cases}\n\t\t\\]\n\t\tet par lecture de la table de loi $\\mathcal{N}(0,1)$, on obtient:\n\t\t$$\\begin{align*}\n\t\t\t\\begin{cases} -\\frac{19-\\mu}{\\sigma}=2 \\\\\n\t\t\t\t\\frac{22-\\mu}{\\sigma}=1\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} -19+\\mu=2\\sigma \\\\\n\t\t\t\t22-\\mu=\\sigma\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} \\mu=21 \\\\\n\t\t\t\t\\sigma=1\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\tX\\sim \\mathcal{N}(21,\\sigma=1)\n\t\t\\end{align*}$$\n\t\t\\vspace{2em}\n\t\t\n\t\t\\textbf{Joueur $B$:} \n\t\t\\[ Y\\sim\\mathcal{N}(\\mu,\\sigma), \\quad \\prob(Y\\geq 19)=0.745, \\quad \\prob(Y\\leq 22)=0.908\\]\n\t\tEn posant $Z=\\frac{Y-\\mu}{\\sigma}$, on a $Z\\sim \\mathcal{N}(0,1)$ et:\n\t\t\\[ \\begin{cases}\n\t\t\t\\prob\\left(Z\\geq \\frac{19-\\mu}{\\sigma} \\right)=0.745 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.908\n\t\t\\end{cases}\n\t\t\\quad \\Leftrightarrow \\quad\n\t\t\\begin{cases}\n\t\t\t\\prob\\left(Z\\leq -\\frac{19-\\mu}{\\sigma} \\right)=0.745 \\\\\n\t\t\t\\prob\\left( Z \\leq \\frac{22-\\mu}{\\sigma}\\right)=0.908\n\t\t\\end{cases}\n\t\t\\]\n\t\tet par lecture de la table de loi $\\mathcal{N}(0,1)$, on obtient:\n\t\t$$\\begin{align*}\n\t\t\t\\begin{cases} -\\frac{19-\\mu}{\\sigma}=0.66 \\\\\n\t\t\t\t\\frac{22-\\mu}{\\sigma}=1.33\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} -19+\\mu=0.66\\sigma \\\\\n\t\t\t\t22-\\mu=1.33\\sigma\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\t\\begin{cases} \\mu=20 \\\\\n\t\t\t\t\\sigma=1.5\n\t\t\t\\end{cases}\n\t\t\t\\quad \\Leftrightarrow \\quad \n\t\t\tY\\sim \\mathcal{N}(20,\\sigma=1.5)\n\t\t\\end{align*}$$",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "92d85a50-da95-490c-8316-9630cbe5f31e",
+      "id": "a98b768a-2457-4316-ba39-d7276289bc56",
       "type": "question",
       "value": {
         "latex": "Quels sont les paramètres de la variable aléatoire normale $Z=X-Y$ ?",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "aa5073e2-d970-4e67-a1a6-35ced003791b",
+      "id": "9c888b2a-6423-4177-ab07-0416e10cbd47",
       "type": "reponse",
       "value": {
         "latex": "Les variables aléatoires $X$ et $Y$ sont indépendantes et de loi Normale, donc leur différence est encore une loi Normale de paramètres:\n\t\t\\[ Z\\sim \\mathcal{N}(21-20,\\sigma^2=1^2+1.5^2) \\quad \\text{c'est-à-dire} \\quad \n\t\tZ\\sim \\mathcal{N}(21-20,\\sigma^2=3.25).\n\t\t\\]",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "e90b63d9-3515-4b4e-9f43-5546c23728f8",
+      "id": "cd691713-52d4-4b70-88db-25f8e75e4ec1",
       "type": "question",
       "value": {
         "latex": "Exprimer en utilisant la variable aléatoire $Z$ l'événement \"Le joueur $A$ gagne le concours.\" et en déterminer la probabilité.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "2affa6bb-0887-4ad2-958d-c273513129e6",
+      "id": "c1550826-43db-438f-9c23-e09688980f66",
       "type": "reponse",
       "value": {
         "latex": "Le joueur $A$ gagne le concours signifie que le lancer $X$ du joueur $A$ est supérieur au lancer $Y$ du joueur $B$, ce qui revient à avoir $Z\\geq 0$.\n\t\t\\[\\prob(Z\\geq 0)=\\prob\\left(\\frac{Z-1}{\\sqrt{3.25}}\\geq \\frac{-1}{\\sqrt{3.25}}\\simeq 0.55\\right)=0.7088\\]\n\t\tIl y a donc $70.88$\\% de chance que $A$ gagne le concours.",

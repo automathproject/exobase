@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-11-15",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:52.117Z",
+    "updatedAt": "2025-04-04T19:02:04.072Z",
     "resume": "L'exercice porte sur l'estimation ponctuelle et par intervalle de confiance de la moyenne et de la variance du prix du carburant E10 à partir d'un échantillon de données. Il s'agit d'appliquer les estimateurs sans biais de la moyenne empirique et de la variance empirique, puis de construire les intervalles de confiance pour la moyenne, en utilisant la loi normale du fait de la taille de l'échantillon. Les compétences mises en œuvre incluent : \n\n*   Calcul d'estimateurs ponctuels : $\\hat{\\mu} = \\bar{X}_n$ et $\\hat{\\sigma}^2 = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X}_n)^2$.\n*   Calcul d'intervalles de confiance de la forme : $\\bar{X}_n \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}$, où $z_{\\alpha/2}$ est le quantile de la loi normale standard.",
     "competences": [
       "calculer un intervalle de confiance",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "aad2628c-cd8a-499c-9db8-7bb6142e7961",
+      "id": "d40d6b91-76d9-43a1-a84b-5a4faf5c9cb2",
       "type": "question",
       "value": {
         "latex": "A partir des données de l'échantillon, donner une estimation ponctuelle sans biais du prix moyen et de la variance du prix du carburant E10 en France. On précisera les estimateurs utilisés.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "f1d91e85-ef03-435d-9531-7ef5fc05c5a8",
+      "id": "2ec51c88-ddc2-49e4-8210-81eda72d6b94",
       "type": "reponse",
       "value": {
         "latex": "Avec l'estimateur de moyenne empirique (sans biais et convergent), on trouve une estimation de la moyenne de prix de $1{,}661759$ et une variance de $0{,}0139$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "9b938ded-9a13-4f12-814a-929e5b6284b7",
+      "id": "83ae7cc3-714b-4ac4-8daf-b759d3d3fd3b",
       "type": "question",
       "value": {
         "latex": "Proposer une estimation par intervalle de confiance du prix moyen et de la variance du carburant E10 en France, respectivement pour une confiance de $95\\%$ puis $99\\%$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "02014eef-b391-4642-8df3-327c739fef1b",
+      "id": "23254bd5-31dc-425e-8cbe-6483fe3afe20",
       "type": "reponse",
       "value": {
         "latex": "On travaille sur un échantillon de taille $108$ donc les calculs se font avec la loi normale.\n\t\n\tPour $\\alpha = 5\\%$, on trouve $[1{,}6395 ; 1{,6840}]$. \n\t\n\tPour $\\alpha = 5\\%$, on trouve $[1{,}6325 ; 1{,6910}]$.",

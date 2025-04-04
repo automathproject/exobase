@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-08-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:18.657Z",
+    "updatedAt": "2025-04-04T19:02:18.718Z",
     "resume": "Cet exercice porte sur l'application de la loi de Poisson. Il évalue la capacité à:\n\n*   Identifier le paramètre $\\lambda$ de la loi de Poisson en fonction de la taille de la population.\n*   Calculer la probabilité d'un événement en utilisant la loi de Poisson, notamment $P(X \\geq 1)$ en calculant $1 - P(X=0)$.",
     "competences": [
       "calculer une probabilité à partir de la loi de Poisson",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "396af4b2-2251-4818-b634-9efe75fbabde",
+      "id": "f3342835-ffa0-47f2-b6b5-614e70a75415",
       "type": "description",
       "value": {
         "latex": "Une population de 80 personnes comporte en moyenne une personne mesurant plus de 1{,}90m. Soit une population $E_n$ de $n$ personnes et $X_n$ le nombre de personnes mesurant plus de 1{,}90m dans la population $E_n$. On admet que $X_n$ suit une loi de Poisson de paramètre $\\lambda = \\frac{n}{80}$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "5b77aa0e-6e1c-4429-a66b-08b0e006e9ca",
+      "id": "26297609-4cbf-45bf-ab34-d5f51a805409",
       "type": "question",
       "value": {
         "latex": "Quelle est la probabilité d'avoir au moins une personne  mesurant plus de 1{,}90m dans une population de 100 personnes ? 300 personnes ?",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "19002d84-89da-4d8f-91b4-3c5117e78f3c",
+      "id": "20a60cf4-ad72-4d4a-bb70-d108c8b2e11f",
       "type": "reponse",
       "value": {
         "latex": "Dans une population de 100 personnes, il suffit de calculer $1-\\prob(X=0) = 1- e^{-\\frac{100}{80}} = 1-e^{-\\frac{5}{4}} \\approx 0.71$. \n\t\t\n\t\tDans une population de 300 personnes, il suffit de calculer $1-\\prob(X=0) = 1- e^{-\\frac{300}{80}}  \\approx 0.98$.",

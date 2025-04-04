@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Développement en série entière",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:13.262Z",
+    "updatedAt": "2025-04-04T19:05:03.062Z",
     "resume": "L'exercice porte sur le développement en série entière de fonctions. Il évalue la capacité à : \n\n1.  Déterminer le développement en série entière de la fonction $u \\mapsto \\ln(1-u)$ et son rayon de convergence. On utilise le développement connu de $\\ln(1-u)$.\n2.  Déterminer le développement en série entière de la fonction $x \\mapsto \\ln(1+x+x^2)$ et son rayon de convergence, en utilisant la factorisation $(1-x^3) = (1-x)(1+x+x^2)$ et le développement de $\\ln(1-u)$. Il faut ensuite identifier les coefficients $a_n$ de la série résultante.",
     "competences": [
       "Déterminer le développement en série entière d'une fonction",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "c1445916-92c0-4125-b82f-9eed19683873",
+      "id": "af863421-affa-41fb-96cb-075dea7c0319",
       "type": "question",
       "value": {
         "latex": "Donner un développement en série entière de la fonction $u \\mapsto \\ln(1-u)$, en précisant le rayon de convergence ;",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "684124e8-40ea-48ee-8148-f8c5e3788f12",
+      "id": "a4db8b52-c5e9-4531-a2b2-52d59f0417ed",
       "type": "reponse",
       "value": {
         "latex": "Quelque soit $u \\in ]-1;1[$, $\\ln(1-u) = \\sum\\limits_{n=1}^{+\\infty} \\frac{-1}{n}\\ u^n=-u-\\frac{u^2}{2}-\\frac{u^3}{3}+\\cdots$",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "9e96ac47-464b-443c-a0b5-ecc04f99087c",
+      "id": "6ee19a74-3aee-4376-a8a0-6550dd41e794",
       "type": "question",
       "value": {
         "latex": "En déduire un développement en série entière de la fonction $x \\mapsto \\ln(1+x+x^2)$ (on précisera son rayon de convergence et on pourra utiliser que $(1-x^3) = (1-x)(1+x+x^2)$).",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "a5826b2a-cd24-4d2f-aa01-76bbcd4e5242",
+      "id": "0fa0d865-c46e-48dd-9698-932ea22edd3f",
       "type": "reponse",
       "value": {
         "latex": "On a donc $\\ln(1-x^3) = \\ln(1-x) + \\ln(1+x+x^2)$. \\\\ Or $\\ln(1-x) = \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^n$ et $\\ln(1-x^3) = \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^{3n}$ donc \n\t\t$$\\begin{align*}\n\t\t\\ln(1+x+x^2) &= \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^{3n} - \\sum\\limits_{n=1}^{+\\infty} -\\frac{1}{n}\\ x^n \\\\\n\t\t&= -\\sum\\limits_{n=1}^{+\\infty} \\frac{1}{n}\\ x^{3n} + \\sum\\limits_{n=1}^{+\\infty} \\frac{1}{n}\\ x^n =\\sum\\limits_{n=1}^{+\\infty}a_n x^{n}\n\t\t\\end{align*}$$\n\t\tavec $a_n = -\\frac{3}{n}+\\frac{1}{n} = \\frac{-2}{n}$ s'il existe $p$ tel que $n=3p$, $a_n = \\frac{1}{n}$ sinon.",

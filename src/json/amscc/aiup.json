@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-04-24",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:05.756Z",
+    "updatedAt": "2025-04-04T19:02:47.731Z",
     "resume": "L'exercice porte sur l'étude d'une fonction $f(x,y) = x^3+y^3-3xy-1$ de deux variables réelles. Il évalue les compétences suivantes :\n\n*   **Calcul de points critiques:** Détermination des points stationnaires en résolvant le système d'équations $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$.\n*   **Nature des points critiques:** Utilisation de la matrice hessienne $Hess_f(x,y) = \\begin{pmatrix} 6x & -3 \\\\ -3 & 6y \\end{pmatrix}$ et de son déterminant $\\Delta(x,y) = 36xy-9$ pour déterminer si les points critiques sont des minimums locaux, des maximums locaux ou des points selles.\n*   **Interprétation des lignes de niveau:** Identification du graphique représentant les lignes de niveau de la fonction, en utilisant les propriétés de symétrie de la fonction et la position des points stationnaires.\n*   **Calcul de limites:** Calcul de limites de $f(x,0)$ lorsque $x$ tend vers $+\\infty$ et $-\\infty$.\n*   **Extrema globaux:** Détermination de l'existence de maximums et minimums globaux sur $\\mathbb{R}^2$ en utilisant les limites calculées précédemment.\n*   **Restriction à un domaine borné:** Analyse de la fonction restreinte à un domaine $D$ défini par $x^3 + y^3 - 3xy \\leq 8$, $x \\geq 0$, $y \\geq 0$. Cela comprend la vérification de l'appartenance de points à $D$, la justification de l'existence d'extrema globaux sur $D$ (en utilisant le théorème des bornes atteintes) et la détermination de ces extrema en analysant le comportement de la fonction sur le bord de $D$.",
     "competences": [
       "calculer des dérivées partielles",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "3ca69b70-8394-4367-a3cf-44ed3594036b",
+      "id": "fbf3310b-c664-459b-b618-8a7ba6cf696c",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\mathbb{R}^2 \\to \\mathbb{R}$ une fonction définie par \n$$f(x,y) = x^3+y^3-3xy-1$$",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "99dc1ffe-24ca-47e9-a946-14c9a0034293",
+      "id": "1c848103-a8d7-40a7-856f-467080ac35e8",
       "type": "question",
       "value": {
         "latex": "Vérifier que $f$ admet deux points critiques (stationnaires) : $(0,0)$ et $(1,1)$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "69f6c50f-aa2b-46d3-a0e4-aae12ad95222",
+      "id": "4c8081e0-212d-42ba-954b-c44fe8d33a5e",
       "type": "reponse",
       "value": {
         "latex": "Il s'agit de résoudre le système :\n\t\t$$\\begin{align*}\n\t\t\t\\begin{cases}\n\t\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 0\\\\\n\t\t\t\t\\frac{\\partial f}{\\partial y}(x,y) =0\n\t\t\t\\end{cases}\n\t\t\t\\Leftrightarrow\n\t\t\t\\begin{cases}\n\t\t\t\t3x^2-3y = 0\\\\\n\t\t\t\t3y^2-3x =0\n\t\t\t\\end{cases}\t\t\n\t\t\t\\Leftrightarrow\n\t\t\t\\begin{cases}\n\t\t\t\tx^2 = x^3\\\\\n\t\t\t\ty^2 = x\n\t\t\t\\end{cases}\n\t\t\t\\iff (x,y)=(1,1) \\text{ ou } (x,y)=(0,0)\t\n\t\t\\end{align*}$$",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "44efffe7-cb95-4682-b477-66dd6ae73acc",
+      "id": "daaa8b00-bf3a-44ae-ba66-436210753a7a",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle un maximum ou un minimum local sur $\\mathbb{R}^2$ ?",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "24e9afc3-803d-49df-ab0c-b6c8eceb370f",
+      "id": "4ba0cd62-b976-45ba-a6af-d8178d1057eb",
       "type": "reponse",
       "value": {
         "latex": "Pour distinguer les types de points stationnaires, on peut étudier leur nature à l'aide des conditions d'ordre 2. Pour cela, on calcule la matrice hessienne :\n\t\t$$Hess_f(x,y) =  \\begin{pmatrix} 6x & -3 \\\\ -3 & 6y \\end{pmatrix}$$\n\t\tet son déterminant vaut $\\Delta(x,y) = 36xy-9$.\n\t\t\n\t\tOn évalue en les deux points stationnaires ; $\\Delta(0,0) = -9<0$ et $\\Delta(1,1) = 27>0$. Le cours nous permet de conclure que $(0,0)$ est un point selle. De plus, pour $(x,y)=(1,1)$, $6x=6>0$ donc le point $(1,1)$ réalise un minimum local de $f$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "5304e7b8-034c-458f-b395-a02c091b9727",
+      "id": "541f4cf7-fc9b-49a9-ba78-b07935b759de",
       "type": "question",
       "value": {
         "latex": "Parmi les trois graphiques ci-dessous, lequel représente des lignes de niveaux de $f$ ? Justifier brièvement.\n\\begin{figure}[h!]\n\t\\begin{minipage}{0.32\\textwidth}\n\t\t\n\t\t\\includegraphics[width=1\\linewidth]{niveau1}\n\t\t\\caption{N1}\n\t\t\\label{fig:niveau1}\n\t\t\n\t\\end{minipage}\n\t\\begin{minipage}{0.32\\textwidth}\n\t\t\n\t\t\\includegraphics[width=1\\linewidth]{niveau2}\n\t\t\\caption{N2}\n\t\t\\label{fig:niveau2}\n\t\t\n\t\\end{minipage}\n\t\\begin{minipage}{0.32\\textwidth}\n\t\t\n\t\t\\includegraphics[width=1\\linewidth]{niveau3}\n\t\t\\caption{N3}\n\t\t\\label{fig:niveau3}\n\t\t\n\t\\end{minipage}\n\\end{figure}",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "160a044c-33d8-45c1-b7ef-2f190b44023a",
+      "id": "ea533573-47d2-41ba-bd79-777213b9ccdb",
       "type": "reponse",
       "value": {
         "latex": "La figure N3 ne respecte pas les symétries en $x$ et $y$ de la fonction. La figure N2 ne présente clairement pas un point stationnaire en $(1,1)$ puisqu'on y voit passer \\\\\n\tdes lignes de niveau qui laissent penser que la pente y est non nulle, notamment dans la direction $y=x$. La figure N1 laisse assez clairement deviner la présence des deux points stationnaires trouvés plus haut.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "fd644537-42eb-4b6a-a2c2-759f008675a2",
+      "id": "0cb949a7-8361-4bbd-8a98-4cbaf3724bf5",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{x \\to +\\infty} f(x,0)$ et $\\lim\\limits_{x \\to -\\infty} f(x,0)$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "b47a604a-4ac1-4271-a702-e2fc9ab19ae8",
+      "id": "040fa59b-e795-4166-8f01-bee6ba908da9",
       "type": "reponse",
       "value": {
         "latex": "$\\lim\\limits_{x \\to +\\infty} f(x,0) =  \\lim\\limits_{x \\to +\\infty} x^3-1 = +\\infty$ ; $\\lim\\limits_{x \\to -\\infty} f(x,0) =  \\lim\\limits_{x \\to -\\infty} x^3-1 = -\\infty$",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "b9de599f-1358-4cc2-a101-55e6d3b2d5fa",
+      "id": "47067f77-5d43-4990-98a5-cc87a4e038f9",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle un maximum ou un minimum global sur $\\mathbb{R}^2$ ?",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "id": "fd3095d5-3ae2-46c8-896d-5ad2b842250b",
+      "id": "bb9ac09e-e88c-40d6-826d-d20866d8e128",
       "type": "reponse",
       "value": {
         "latex": "Les limites trouvées précédemment prouvent qu'il n'existe pas de maximum global, ni de minimum global puisque $f(x,y)$ peut atteindre des valeurs aussi grandes (respectivement petites) que l'on veut avec $(x,y)$ variant dans l'ensemble de définition qui est ici $\\R^2$.",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": "768de564-df6d-453a-8c75-01fdcf8de676",
+      "id": "ea031a84-9855-4753-b03b-1d073c6b6ab6",
       "type": "description",
       "value": {
         "latex": "Soit l'ensemble $D = \\{(x,y) \\in \\mathbb{R}^2 \\, \\mid \\, x^3 + y^3 - 3xy \\leq 8\\, , \\, x \\geq 0 \\, , \\, y \\geq 0 \\}$ dont voici une représentation graphique ci-dessous. \n\t\\begin{figure}[h!]\n\t\t\\centering\n\t\t\\includegraphics[width=0.4\\linewidth]{graphique.png}\n\t\t\\caption{Représentation graphique de $D$.}\n\t\t\\label{fig:graphique}\n\t\\end{figure}",
@@ -149,7 +149,7 @@
       }
     },
     {
-      "id": "660ee436-360c-455a-b673-e7b6f7ca11ae",
+      "id": "b22e72ab-c191-4647-b05d-2edb7f1a1861",
       "type": "question",
       "value": {
         "latex": "Vérifier par le calcul que les deux points de coordonnées respectives $(1,1)$ et $(0,2)$  appartiennent à $D$. Ces deux points appartiennent-ils à l'intérieur de $D$ ou au bord (frontière) de $D$ ?",
@@ -157,7 +157,7 @@
       }
     },
     {
-      "id": "e90911c8-5233-4c11-bc15-1d0d8acf51d1",
+      "id": "5c7b4579-c633-4e29-b2e0-d9bffca20240",
       "type": "reponse",
       "value": {
         "latex": "On a des coordonnées positives, de plus $1^3+1^3-3 \\leq 8$ et $0^3 + 2^3 - 0 \\leq 8$ donc ces deux points appartiennent bien à $D$. Le premier point appartient à l'intérieur de $D$ (car $1>0$ et $1^3+1^3-3 < 8$) et le point $(0,2)$ appartient au bord de $D$.",
@@ -165,7 +165,7 @@
       }
     },
     {
-      "id": "7e71a178-1683-4a8c-af69-58dd01c09f07",
+      "id": "3b0af638-2e15-461b-a35a-b8d5131df7f7",
       "type": "question",
       "value": {
         "latex": "Justifier que la fonction $f$ admet un maximum et un minimum global sur $D$.",
@@ -173,7 +173,7 @@
       }
     },
     {
-      "id": "137fd016-03c6-4ae5-80a7-95e3a74bdd74",
+      "id": "e62665e9-3d49-495e-872a-f2376dee1504",
       "type": "reponse",
       "value": {
         "latex": "On remarque $D$ est fermé et borné, de plus $f$ est continue sur $D$ donc par théorème elle admet un maximum et un minimum global qui sont atteints sur $D$.",
@@ -181,7 +181,7 @@
       }
     },
     {
-      "id": "1cdcc198-8986-4b35-b6a0-427f59aa7319",
+      "id": "72c04ce3-dcbf-4e3b-a2e1-37bf1a0eeca4",
       "type": "question",
       "value": {
         "latex": "Déterminer les extrema de $f$ sur $D$ en précisant en quel(s) point(s) ils sont atteints.",
@@ -189,7 +189,7 @@
       }
     },
     {
-      "id": "af2f6a90-2f48-4ddb-925f-de76aacf274c",
+      "id": "87b61292-64db-4c62-8b54-03868af60896",
       "type": "reponse",
       "value": {
         "latex": "On a vu précédemment que $f$ admet un minimum local en $(1,1) \\in D$. On a $f(1,1) = -2$. On étudie maintenant $f$ sur le bord du domaine : soient les points $O(0,0)$, $A(2,0)$ et $B(0,2)$.\n    \t\t\\begin{itemize}\n    \t\t\t\\item Sur le segment $[OA]$, $f(x,y) = f(x,0) = x^3 - 1$ avec $x \\in [0,2]$. Puisque la fonction $x \\mapsto x^3-1$ est croissante sur $[0,2]$, La valeur minimale est $f(0,0) = -1$ et la valeur maximale est $f(2,0) = 7$. \n    \t\t\t\\item Sur le segment $[OB]$, $f(x,y) = f(0,y) = y^3 - 1$ avec $y \\in [0,2]$. Comme le cas précédent, la valeur minimale est $f(0,0) = -1$ et la valeur maximale est $f(0,2) = 7$.\n    \t\t\t\\item Sur la portion de courbe $(AB)$, on a $x^3 + y^3 - 3xy = 8$  (c'est l'équation de la courbe) donc $f(x,y) = 8-1 = 7$ : la fonction $f$ est constante sur cette courbe. \n    \t\t\\end{itemize}\t\n    \tLa fonction $f$ admet donc un maximum global sur le bord, c'est la valeuur $7$ et ce maximum est atteint en tout point de la courbe d'équation $x^3 + y^3 - 3xy = 8$. \n    \t\n    \tLa fonction $f$ admet un minimum global à l'intérieur de $D$, au point $(1,1)$, ce minimum vaut $-2$.",

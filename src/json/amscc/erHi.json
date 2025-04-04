@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-23",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Polynôme, fraction rationnelle",
     "sousChapitre": "Racine, décomposition en facteurs irréductibles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:35.082Z",
+    "updatedAt": "2025-04-04T19:03:12.103Z",
     "resume": "L'exercice demande de démontrer qu'un polynôme $P(X)$ de degré $n$ défini par $P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3 !}+\\ldots+\\frac{X^n}{n !}$ n'a pas de racine multiple. La résolution utilise un raisonnement par l'absurde, en supposant l'existence d'une racine multiple $a$ telle que $P(a) = P'(a) = 0$. En calculant $P'(X)$ et en utilisant l'hypothèse que $P(a) = P'(a) = 0$, on montre que $a=0$. Or, $P(0) = 1$, ce qui contredit l'hypothèse que $a$ est une racine de $P(X)$.  La compétence principale est la manipulation de polynômes, la dérivation, et le raisonnement par l'absurde pour prouver l'absence de racines multiples.",
     "competences": [
       "démontrer l'absence de racines multiples",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "cd38afe7-f883-405c-a6a7-05f59fa578c6",
+      "id": "bb3e4097-08d5-4c04-8b05-37f491e17eb4",
       "type": "question",
       "value": {
         "latex": "Montrer que le polynôme $P(X)=1+X+\\frac{X^2}{2 !}+\\frac{X^3}{3 !}+\\ldots+\\frac{X^n}{n !}$ n'a pas de racine multiple.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "c71e3d9c-3525-4dd6-8023-0fa2c6752804",
+      "id": "06da7e89-b9e4-447f-bea2-add81466fd67",
       "type": "indication",
       "value": {
         "latex": "Supposer qu'il existe une racine multiple, c'est-à-dire qu'il existe $\\alpha$ tel que $P(\\alpha) = P'(\\alpha) = 0$ et raisonner par l'absurde.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "4ee27dbd-0477-48e1-ba49-ac11f4c261d0",
+      "id": "deef7e1e-437d-455b-b83d-6a1cb3ce838b",
       "type": "reponse",
       "value": {
         "latex": "Raisonnement par l'absurde :\n$a$ est racine multiple ssi $P(a)=P^{\\prime}(a)=0$.\nOn a :\n$$\n\\begin{aligned}\n& P(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !}+\\frac{X^n}{n !} \\\\\n& P^{\\prime}(X)=1+X+\\frac{X^2}{2 !}+\\ldots+\\frac{X^{n-1}}{(n-1) !} \\\\\n& \\left.\\begin{array}{l}\nP(a)=0 \\quad \\Leftrightarrow 1+a+\\frac{a^2}{2 !}+\\ldots+\\frac{a^{n-1}}{(n-1) !}+\\frac{a^n}{n !}=0 \\\\\nP^{\\prime}(a)=0 \\Leftrightarrow 1+a+\\frac{a^2}{2 !}+\\ldots+\\frac{a^{n-1}}{(n-1) !}=0\n\\end{array}\\right\\} \\Rightarrow \\frac{a^n}{n !}=0 \\Leftrightarrow a=0 \\\\\n&\n\\end{aligned}\n$$\nor 0 n'est pas racine car $P(0)=1$, donc $a$ ne peut pas être racine simultanément de $P$ et $P^{\\prime}$. $a$ ne peut pas être racine multiple.",

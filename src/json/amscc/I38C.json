@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-30",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:03.465Z",
+    "updatedAt": "2025-04-04T19:02:11.268Z",
     "resume": "L'exercice porte sur la convergence ou la divergence de séries numériques à termes positifs. Il s'agit d'appliquer des critères de comparaison (équivalence et majoration) avec des séries de Riemann convergentes (de type $\\\\sum \\\\frac{1}{n^\\\\alpha}$ avec $\\\\alpha > 1$) pour conclure sur la nature des séries proposées.",
     "competences": [
       "appliquer le critère de comparaison pour les séries à termes positifs",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "b7892017-b448-4499-91ca-9f96d094fc28",
+      "id": "a0d18b1d-9d64-49b4-9122-496f21eaf3b3",
       "type": "description",
       "value": {
         "latex": "Pour chacune des séries suivantes, déterminer si elle converge ou diverge.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "dd72d647-f193-44f3-b656-a8d72d335418",
+      "id": "6ea54c15-43d1-41e0-9e35-8d9a136f8ba8",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{1}{n^2+1}$ ;",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "5edc42d9-e7b5-4de4-8617-8643dbdf7baa",
+      "id": "036a7602-ba55-40bb-9895-b572e88124ae",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\frac{1}{n^2+1}$. Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\underset{+\\infty}\\sim \\frac{1}{n^2}$ donc par comparaison à une série de Riemann convergente ($\\alpha = 2>1$), la série $\\sum u_n$ converge.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "d17cb146-bea1-4d26-8abd-24003a25f1f2",
+      "id": "2b5a554f-8f70-494e-8088-89a75c2c6f1a",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}$ ;",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "0e203443-c5cd-4a2f-a659-2edcc3d33329",
+      "id": "d0d66f53-e4ad-40ed-9845-86e8482540c9",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\frac{|\\cos(n)|}{n^2(\\sqrt{n}+1)}$. Alors $u_n \\geq 0$ pour tout $n \\in \\N$ et $u_n \\leq \\frac{1}{n^2(\\sqrt{n}+1)} \\underset{+\\infty}\\sim \\frac{1}{n^{5/2}}$ pour tout $n \\in \\N$ donc par comparaison d'une série positive à une série de Riemann convergente, la série $\\sum u_n$ converge.",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-24",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Dénombrement",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:16.298Z",
+    "updatedAt": "2025-04-04T19:01:27.877Z",
     "resume": "Cet exercice de dénombrement évalue la capacité à : \n\n*   Simplifier des expressions impliquant des factorielles, notamment $\\frac{(n+1)!}{(n-1)!}$.\n*   Démontrer des identités faisant intervenir des factorielles, par exemple $(k+1)! - k! = k \\times k!$.\n*   Exprimer un produit d'entiers consécutifs à l'aide de factorielles. \n*   Calculer le nombre de permutations possibles (répartition de personnes sur des chaises). Le résultat attendu est $7!$. \n*   Calculer le nombre de mots différents formés à partir d'un ensemble de lettres distinctes, ce qui revient à une permutation de 5 lettres parmi 26. Le résultat attendu est $A_{26}^{5} = \\frac{26!}{(26-5)!} $.",
     "competences": [
       "calculer une expression factorielle",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "3d6656f6-fc1b-4538-ac58-003f4652aee5",
+      "id": "33d1c5f2-c633-4436-b4eb-84dcfe3ff974",
       "type": "description",
       "value": {
         "latex": "Les questions suivantes sont indépendantes :",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d7080bd3-2ad5-40b5-bd09-55582af8282b",
+      "id": "9925ecc9-f395-4f0b-9386-9b5a7f4c9983",
       "type": "question",
       "value": {
         "latex": "Soit $n$ un entier naturel, $n \\geq 2$. Simplifier la fraction $\\dfrac{(n+1)!}{(n-1)!}$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "f9673d58-2992-432c-b816-a2a9aef75bca",
+      "id": "ac0244cf-3789-4e70-9bf0-f6bb13697804",
       "type": "question",
       "value": {
         "latex": "Démontrer que pour tout entier naturel $k \\in \\mathbb{N}$, $(k+1)! - k! = k \\times k!$",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "f3da26d4-cba5-4774-a305-38964a57e95a",
+      "id": "1a4d8eee-61f9-42a6-9e6f-b98450f8eb9c",
       "type": "question",
       "value": {
         "latex": "Ecrire ce produit à l'aide de factorielles : $100 \\times 99 \\times \\cdots \\times 80$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "b7412237-9d8a-4e2f-a4d0-23a4bc93440f",
+      "id": "9aeb0e32-8575-4a8a-9cd4-9e33dd059c6c",
       "type": "question",
       "value": {
         "latex": "De combien de façons peut-on répartir 7 personnes sur 7 chaises ?",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "5dae8fea-9754-42a6-a3f0-f0031f96a5bb",
+      "id": "35a922a1-ac69-427b-9d30-0294ac61b06b",
       "type": "question",
       "value": {
         "latex": "L'alphabet est un ensemble de 26 lettres. On appelle  << mot >> un ensemble de lettres. On choisit 5 lettres distinctes de l'alphabet. Combien de mots différents peut-on former avec ces 5 lettres ?",

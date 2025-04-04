@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-12",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:15.276Z",
+    "updatedAt": "2025-04-04T19:01:26.890Z",
     "resume": "Cet exercice porte sur les probabilités continues, et plus particulièrement sur la loi normale et le théorème central limite. Il évalue la capacité à : \n\n1.  Appliquer le théorème central limite pour approcher une somme de variables aléatoires indépendantes par une loi normale. Calculer la probabilité qu'une variable aléatoire, approximée par une loi normale, dépasse une certaine valeur. Formule utilisée : $\\PP(X > a) = \\PP(\\frac{X-\\mu}{\\sigma} > \\frac{a-\\mu}{\\sigma}) \\approx \\PP(Z > \\frac{a-\\mu}{\\sigma})$ où $Z$ suit une loi normale centrée réduite.\n\n2.  Estimer une proportion à partir d'un échantillon en utilisant un intervalle de confiance. Appliquer la formule de l'intervalle de confiance : $I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$",
     "competences": [
       "appliquer le théorème central limite",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "be998e1b-7d83-45fd-b9a5-771fca0a6ebb",
+      "id": "98929f7c-d587-42c2-a6ba-caab375c5e12",
       "type": "description",
       "value": {
         "latex": "On considère un avion contenant 100 passagers. On suppose que le poids d'un passager pris au hasard suit une loi de probabilité dont l'espérance est 71 kg et l'écart type est 7~kg.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "cf1523a9-ebf3-4611-9e79-2b6b1ef04a54",
+      "id": "8cd123e6-d9d8-4a90-ae74-7c039711de3f",
       "type": "question",
       "value": {
         "latex": "Calculer la probabilité que le poids de l'ensemble des passagers soit supérieur à $7{,}3$ tonnes.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "9167ea4a-ee69-4a25-b3e5-ec106b0bf39f",
+      "id": "733d91fb-f532-46a2-b26e-a50783ffbd6d",
       "type": "reponse",
       "value": {
         "latex": "Soit la variable aléatoire $X$ donnant la somme des poids des 100 passagers. Si on note $Y_i$ le poids du $i$-ème passager, on a $X = \\sum_{i=1}^{100} Y_i$. Par conséquent, $\\mathbb{E}(X) = 7100$ et $\\var(X) = 100 \\times 7^2 = 4900$. \nD'après le théorème central limite, la loi de $X$ peut être approchée par une loi normale de moyenne $7100$ et de variance $4900$, soit un écart type de $70$. \n\nEn notant $Z$ une variable aléatoire normale centrée réduite, on en déduit que :\n$$\\begin{align*}\n  \\PP\\left(X > 7300\\right) &= \\PP\\left(\\frac{X-7100}{70} > \\frac{7300-7100}{70}\\right) \\\\\n  &\\approx  \\PP\\left(Z > \\frac{200}{70} \\approx 2{,}857\\right) \\\\\n  &\\approx 0{,}0021 = 0{,}21\\%\n\\end{align*}$$\nIl n'y a quasiment aucune chance que le poids total des passagers dépasse $7{,}3$ tonnes.",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "aa96b76a-c931-475b-aba5-b18b7bb15832",
+      "id": "d34b8c68-c112-4195-85fc-9c925cd937dd",
       "type": "question",
       "value": {
         "latex": "Sur 40 passagers interrogés au hasard, 23 voyagent avec un bagage en soute. Déterminer à l'aide d'un intervalle de confiance au niveau $95\\%$ une estimation de la proportion de passagers qui voyagent avec un bagage en soute sur ce vol.",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "9a06250c-5a35-4fc8-83e4-d2854816d190",
+      "id": "2b425061-8242-4a96-8383-293e05157655",
       "type": "reponse",
       "value": {
         "latex": "On cherche à estimer une fréquence à partir d'un échantillon de taille $40$. La fréquence observée dans l'échantillon est $f_{obs} = \\frac{23}{40}$. On peut donc utiliser la formule du cours : \n\t\t$$I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$$\n\t\ten remplaçant $u_{\\alpha/2}$ par $1{,}96$ pour une confiance de $95\\%$, on obtient numériquement $I_{conf} \\approx [0.42 ; 0.73]$.\n\t\nOn peut estimer que la proportion de passagers voyageant avec un bagage en soute est compris entre $42\\%$ et $73\\%$.",

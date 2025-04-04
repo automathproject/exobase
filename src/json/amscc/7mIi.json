@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-01-31",
-    "hasIndication": true,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Déterminant, système linéaire",
     "sousChapitre": "Système linéaire, rang",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:33.073Z",
+    "updatedAt": "2025-04-04T19:01:46.067Z",
     "resume": "Cet exercice évalue la capacité à: \n- Calculer le déterminant d'une matrice 3x3. \n- Déterminer si une matrice est inversible en utilisant son déterminant. \n- Calculer l'inverse d'une matrice 3x3: $M^{-1}$. \n- Résoudre un système d'équations linéaires en utilisant l'inverse d'une matrice.",
     "competences": [
       "inverser une matrice 3x3",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "fba715a5-a99a-4b3a-9657-5df1f183c793",
+      "id": "b854b8d2-a5dc-4a81-94d1-7cae7f6c6cfd",
       "type": "description",
       "value": {
         "latex": "Soit la matrice $M = \\begin{pmatrix}\n            0&1&2\\\\\n            1&1&2\\\\\n            0&2&3\n            \\end{pmatrix}$.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "cd753eca-c27a-40e0-ab9c-d648d9b547aa",
+      "id": "9097a673-515a-43d3-8737-f2673c1a3fda",
       "type": "question",
       "value": {
         "latex": "Montrer que $M$ est inversible et calculer $M^{-1}$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "feca108a-a84a-4405-aad2-60a607f75bef",
+      "id": "98e8b242-1bfd-4ad7-8a05-7fabf1da11ff",
       "type": "indication",
       "value": {
         "latex": "On pourra calculer le déterminant de $M$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "1df8617f-c503-481b-8545-345e16dadcf7",
+      "id": "890217d4-456b-477c-b0a2-541f6c9cf02a",
       "type": "reponse",
       "value": {
         "latex": "On calcule le déterminant de $M$ :\n        $$\\begin{align*}\n            \\det(M) &= 0 \\times \\begin{vmatrix} 1&2\\\\2&3 \\end{vmatrix} - 1 \\times \\begin{vmatrix} 1&2\\\\0&3 \\end{vmatrix} + 2 \\times \\begin{vmatrix} 1&1\\\\0&2 \\end{vmatrix} \\\\\n            &= -1 \\times (3-0) + 2 \\times (2-0) = -3+4 = 1.\n        \\end{align*}$$\n        Donc $M$ est inversible. On calcule $M^{-1}$ :\n        $$\\begin{align*}\n            M^{-1} &= \\frac{1}{\\det(M)} \\begin{pmatrix} 3&-2&1\\\\-2&1&0\\\\1&0&-1 \\end{pmatrix} = \\begin{pmatrix} 3&-2&1\\\\-2&1&0\\\\1&0&-1 \\end{pmatrix}.\n        \\end{align*}$$",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "5682ad6c-0678-490c-b44e-2a62437f8aaf",
+      "id": "e2a24acf-421f-473d-8e0d-e3d30d8ccbf7",
       "type": "question",
       "value": {
         "latex": "Résoudre le système linéaire suivant : \n        $$\n        \\left\\{\\begin{aligned}\n        y+2z & =1 \\\\\n        x+y+2z & =2 \\\\\n        2y+3z & =3\n        \\end{aligned}\\right.\n        $$",

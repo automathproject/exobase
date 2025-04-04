@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-11-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:50.991Z",
+    "updatedAt": "2025-04-04T19:02:38.474Z",
     "resume": "L'exercice porte sur l'estimation d'un paramètre (taux moyen de glucose $m$) d'une population diabétique, à partir d'un échantillon. Il évalue la capacité à :\n\n*   Identifier et utiliser un estimateur (moyenne empirique).\n*   Calculer un intervalle de confiance pour la moyenne, en utilisant la formule $I_{conf}(\\overline{X})=\\left[\\overline{X}-u_{\\alpha/2} \\frac{S}{\\sqrt{n}}~;~\\overline{X} + u_{\\alpha/2} \\frac{S}{\\sqrt{n}} \\right]$.\n*   Interpréter les intervalles de confiance obtenus.\n*   Déterminer le niveau de confiance nécessaire pour qu'un intervalle contienne la valeur réelle du paramètre.",
     "competences": [
       "calculer un intervalle de confiance",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "ea71f1fa-f3a7-4ea9-83a2-128949b5c7e7",
+      "id": "da9db54f-aa82-4f6d-b1c7-60b4a6b6354f",
       "type": "description",
       "value": {
         "latex": "On s'intéresse au taux de glucose dans une population de 768 patients atteints de diabète. On note $m$ le taux moyen de glucose dans cette population et à $\\sigma$ son écart type.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "44fcb195-7627-4f4e-a265-a6d699d1d497",
+      "id": "c4000552-ad5f-4a6b-bfa2-5ca7dadaabd5",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de $m$ à l'aide de l'échantillon fourni \\href{https://moodle.st-cyr.terre.defense.gouv.fr/moodle/mod/resource/view.php?id=44475}{en suivant ce lien}, en précisant la taille de l'échantillon donné et l'estimateur choisi.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "05d6f3e8-deb5-45b9-b96a-57bce2fa81ce",
+      "id": "1d8d56cd-60ba-4917-99f6-8a88b4068dd8",
       "type": "question",
       "value": {
         "latex": "Avec l'échantillon de taille 40 dont la réalisation est fournie, on obtient avec l'estimateur de moyenne empirique (non biaisé) l'estimation $\\overline{x} = 124{,}35$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "323c22c7-d64c-4600-812f-31647cb73070",
+      "id": "57931afa-dff0-4352-a119-fff9a7644b63",
       "type": "question",
       "value": {
         "latex": "Donner une estimation de $m$ par intervalle de confiance au niveau $95\\%$ et $99\\%$, en donnant les valeurs numériques des calculs intermédiaires.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "4a58dbb9-cc92-4d6e-9810-35e88db1104f",
+      "id": "9bc8263d-8477-4d52-80bd-0bcebb39d2ee",
       "type": "reponse",
       "value": {
         "latex": "On utilise la formule du cours : $$I_{conf}(\\overline{X})=\\left[\\overline{X}-u_{\\alpha/2} \\frac{S}{\\sqrt{n}}~;~\\overline{X} + u_{\\alpha/2} \\frac{S}{\\sqrt{n}} \\right]$$\n\tavec $\\overline{x} = 124{,}35$, $s = 30{,}0994505$ et $n=40$. \n\t\n\tPour $\\alpha=0.05$, on obtient : $I_{conf} = [115{,}022255 ; 133{,}677745]$\n\t\n\tPour $\\alpha=0.01$, on obtient : $I_{conf} = [112{,}0912651 ; 136{,}6087349]$",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "8412baec-43a4-4a75-a0ed-6d6003b3f30e",
+      "id": "af1ad768-82e6-4984-8240-952211dd0fd7",
       "type": "question",
       "value": {
         "latex": "Le fichier \\href{https://github.com/smaxx73/Exercices/blob/main/data/diabetes-1.csv}{\"diabetes.csv\"} contient les données des 768 patients. Convertir les données pour pouvoir les afficher avec le tableur et donner la valeur réelle de $m$. Quel niveau de confiance avait-on besoin de prendre, a posteriori, pour que l'intervalle de confiance de la question précédente contienne bien la valeur recherchée ?",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "46d3595c-e04a-4b13-b4a0-6baef367b225",
+      "id": "d4f85be4-d6f8-4e87-9b76-d17a6ec9d977",
       "type": "reponse",
       "value": {
         "latex": "Dans la population totale, on trouve $m = 120{,}8945313$. Pour que $I_conf$ ne contienne pas cette valeur, il faudrait que $\\overline{X}-u_{\\alpha/2} \\frac{S}{\\sqrt{n}} > m$ soit $(\\overline{X}-m)\\frac{\\sqrt{n}}{S} > u_{\\alpha/2}$ soit $u_{\\alpha/2} < 0.726$ soit $\\alpha \\geq 0,467795957$.",

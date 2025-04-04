@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-01-11",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Convergence en loi",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:52.551Z",
+    "updatedAt": "2025-04-04T19:03:28.046Z",
     "resume": "L'exercice porte sur l'étude de la convergence en loi d'une suite de variables aléatoires $(Y_n)$ définie à partir d'une suite de variables aléatoires i.i.d. $(X_n)$ suivant une loi normale $\\mathcal{N}(0,1)$. Il s'agit de déterminer la loi limite de $Y_n = \\frac{1}{n} \\sum_{k=1}^n \\sqrt{k} X_k$. La résolution implique le calcul de l'espérance et de la variance de $Y_n$, l'expression de $Y_n$ en fonction d'une variable $Z_n$ suivant une loi normale standard, le calcul de la fonction caractéristique $\\varphi_{Y_n}(t)$, et la détermination de sa limite lorsque $n$ tend vers l'infini. La limite obtenue, $e^{-\\frac{t^2}{4}}$, identifie la loi normale limite comme $\\mathcal{N}(0, \\frac{1}{2})$. Les compétences mises en œuvre incluent la manipulation de sommes de variables aléatoires normales indépendantes, le calcul d'espérance et de variance, l'utilisation de la fonction caractéristique et la reconnaissance de lois limites.",
     "competences": [
       "calculer la variance d'une somme de variables aléatoires indépendantes",
@@ -56,7 +56,7 @@
   },
   "contenu": [
     {
-      "id": "45956dc0-4f42-40c2-9208-e3d22c07a722",
+      "id": "cc8b50b2-f4ad-47f1-a344-5922fc1a35b9",
       "type": "description",
       "value": {
         "latex": "Soit $(X_n)$ une suite de variables aléatoires i.i.d. selon une loi normale $\\mathcal{N}(0,1)$. On définit la suite de variables aléatoires $(Y_n)$ par $$Y_n = \\frac{1}{n} \\sum_{k=1}^n \\sqrt{k} X_k$$",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "0e3edca4-54f1-4fc9-913b-dbdd4f1cf258",
+      "id": "978876a4-446d-4d4d-87d8-68afec2bfe0e",
       "type": "question",
       "value": {
         "latex": "Etudier le comportement asymptotique en loi de la suite $(Y_n)$.",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "779a16cc-ed57-4542-acab-31d17c375f4d",
+      "id": "0f815b16-c9c0-4cb8-9e3e-5bd38f2f8d26",
       "type": "reponse",
       "value": {
         "latex": "Les variables $\\sqrt{k}X_k$ ne sont pas identiquement distribuées ! on se lance donc dans un calcul de limite << à la main >>. \n\t\n\tPar indépendance, $Y_n$ suit une loi normale d'espérance $0$ et de variance $\\frac{1}{n^2}\\sum_{k=1}^n \\sqrt{k}^2 \\times 1 = \\frac{1}{n^2} \\times \\frac{n(n+1)}{2}$. On peut donc écrire $Y_n = \\sqrt\\frac{n(n+1)}{2n^2} Z_n$ où $Z_n$ suit une loi normale $\\mathcal{N}(0,1)$.\n\t\n\tSoit $\\varphi_{Y_n}(t)$ la fonction caractéristique de $Y_n$. On sait que $\\varphi_{Z_n}(t) = e^{\\frac{-t^2}{2}}$ donc $$\\varphi_{Y_n}(t) = \\varphi_{Z_n}\\left( \\sqrt\\frac{n(n+1)}{2n^2} t \\right) = e^{- \\frac{-n(n+1)}{2n^2}t^2}$$. \n\t\n\tEn passant à la limite, $\\varphi_{Y_n}(t) \\xrightarrow[n \\to +\\infty]{} e^{- \\frac{t^2}{4}}$. On reconnait la fonction caractéristique de $\\frac{1}{\\sqrt{2}}Z_n$ qui suit une loi normale $\\mathcal{N}(\\mu=0,\\sigma^2 = \\frac{1}{2})$.\n\t\n\tOn a ainsi démontré que la suite $(Y_n)$ converge en loi vers une loi normale  $\\mathcal{N}(\\mu=0,\\sigma^2 = \\frac{1}{2})$.",

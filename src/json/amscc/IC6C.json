@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-05",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Séries semi-convergentes",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:03.820Z",
+    "updatedAt": "2025-04-04T19:02:11.589Z",
     "resume": "L'exercice porte sur l'étude de la nature de séries numériques, en particulier les séries semi-convergentes. Les compétences mises en œuvre sont :\n\n*   Déterminer la nature d'une série à termes de signe non constant en étudiant sa convergence absolue et en appliquant le critère spécial des séries alternées.\n*   Reconnaître et identifier la nature d'une série de Riemann (convergence ou divergence).\n*   Utiliser les propriétés des séries convergentes pour déterminer la nature de la somme de deux séries convergentes.\n*   Étudier la convergence absolue d'une série en utilisant l'inégalité triangulaire et la comparaison avec des séries de Riemann. Par exemple, montrer que $\\sum |u_n|$ diverge en minorant $|u_n|$ par le terme général d'une série divergente.",
     "competences": [
       "appliquer le critère spécial des séries alternées",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "7271e53d-902e-40a9-91f1-ce908fb6fe5a",
+      "id": "64f46555-3f0e-4b67-8d74-7e26d3dfd7cf",
       "type": "question",
       "value": {
         "latex": "Quelle est la nature de la série $\\displaystyle\\sum_{n\\geq 1} \\frac{(-1)^n}{n}$ ?",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "50f3605e-27be-44e1-af8a-6f74a0c38497",
+      "id": "107387d7-1af7-499a-b083-2e6493e41d69",
       "type": "reponse",
       "value": {
         "latex": "Il s'agit d'une série à termes de signe non constant. On commence donc par étudier la convergence absolue. Soit $u_n=\\frac{(-1)^n}{n}$. On a $|u_n|=\\frac{1}{n}$ qui est le terme général d'une série de Riemann divergente. On en conclut que la série $\\sum u_n$ ne converge pas absolument. \\\\\n\t\t\tÉtudions maintenant la convergence de la série : il s'agit d'une série alternée. On applique donc le critère spécial des séries alternées: la suite $(\\frac{1}{n})_{n\\geq 1}$ étant positive, décroissante et ayant pour limite $0$ en l'infini, on en conclut que la série $\\sum u_n$ converge. \\\\\n\t\t\tFinalement, la série $\\sum u_n$ est convergente mais non absolument convergente (elle est dite semi-convergente).",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "0dd1fa87-4bcc-4e91-9e20-d62c2a6afe9d",
+      "id": "e4956107-99ca-41ff-8c64-c1d8d286cb64",
       "type": "question",
       "value": {
         "latex": "Déterminer la nature de la série $\\displaystyle \\sum_{n\\geq 1} \\frac{1}{n^2}$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "eac68cfe-81e1-460d-a8e8-370c8e4696cb",
+      "id": "cf39319e-f923-4059-b395-60f1a8770353",
       "type": "reponse",
       "value": {
         "latex": "Il s'agit d'une série de Riemann convergente. Comme cette série est à termes positifs, elle est absolument convergente.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "ffb5421b-048a-470e-a035-332f43dc0044",
+      "id": "2b211ef9-454f-47a4-8e37-376c0560df86",
       "type": "question",
       "value": {
         "latex": "Que peut-on en déduire sur la convergence de la série $\\displaystyle \\sum_{n\\geq 1} \\Big(\\frac{(-1)^n}{n} +\\frac{1}{n^2} \\Big)$ ?",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "17808bb9-8f02-449f-be99-fa4384579ef7",
+      "id": "5cad161d-8907-45e7-aaf7-61243d25ab0c",
       "type": "reponse",
       "value": {
         "latex": "Les séries $\\sum \\frac{(-1)^n}{n}$ et $\\sum \\frac{1}{n^2}$ étant convergentes, la somme de ces deux séries est une série convergente. Par conséquent, la série $ \\sum (\\frac{(-1)^n}{n} +\\frac{1}{n^2} )$ est convergente.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "7c1810ac-e9a6-4aa2-9a22-afb1a7a489ad",
+      "id": "c9723c63-135e-49ad-9f50-f2e7ab26cb8f",
       "type": "question",
       "value": {
         "latex": "Converge-t-elle absolument ?",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "32041b5b-06c4-4d8d-a179-8d3b50afb34e",
+      "id": "ee990400-3061-4c7e-8b39-b543fd3694ad",
       "type": "reponse",
       "value": {
         "latex": "On s'intéresse à la convergence de la série $ \\sum |\\frac{(-1)^n}{n} +\\frac{1}{n^2} |$. On a par inégalité triangulaire:\n\t\t\t\\[ \\Big|\\frac{(-1)^n}{n} +\\frac{1}{n^2}\\Big| \\geq \\frac{1}{n} - \\frac{1}{n^2} .\\]\n\t\t\tOr $\\sum \\frac{1}{n}-\\frac{1}{n^2}$ est une série de Riemann divergente. Donc la série $ \\sum |\\frac{(-1)^n}{n} +\\frac{1}{n^2} |$ n'est pas convergente. On en déduit que la série $ \\sum \\frac{(-1)^n}{n} +\\frac{1}{n^2}$ n'est pas absolument convergente.",

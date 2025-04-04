@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-09-08",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:02.812Z",
+    "updatedAt": "2025-04-04T19:02:45.614Z",
     "resume": "L'exercice porte sur la manipulation de variables aléatoires indépendantes suivant des lois normales. Il évalue la capacité à :\n\n*   Calculer des probabilités simples pour une variable aléatoire normale en utilisant la standardisation ($Z = \\frac{X - \\mu}{\\sigma}$) et la table de la loi normale centrée réduite.\n*   Déterminer la loi de la somme de variables aléatoires normales indépendantes et en déduire l'espérance et la variance. Utiliser ces paramètres pour calculer des probabilités associées.\n*   Appliquer les propriétés de linéarité de l'espérance et de la variance (pour des variables indépendantes) à des combinaisons linéaires de variables aléatoires normales.",
     "competences": [
       "calculer une probabilité à partir de la loi normale centrée réduite",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "8b7cbea3-050e-4ec2-ac30-db783b69ff06",
+      "id": "8914443f-cd47-4b72-a989-84dfba312129",
       "type": "description",
       "value": {
         "latex": "Soient $\\left(X_i\\right)_{1 \\leq i \\leq 9}$ des variables aléatoires indépendantes, identiquement distribuées, suivant chacune une loi normale de moyenne $\\mu = 2$ et de variance $\\sigma^2 = 9$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "c63b3ec1-6927-42f4-b2e3-360cbacb4d28",
+      "id": "26ef5d74-e52a-4d60-b472-4751a8625425",
       "type": "question",
       "value": {
         "latex": "Déterminer la probabilité de l'événement $\\{X_1 \\geq 1\\}$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "8f343dcc-d591-455c-83c6-222ea330dd57",
+      "id": "9e007ca8-5368-4792-834b-d1da1a9a0d27",
       "type": "reponse",
       "value": {
         "latex": "$X_1$ suit une loi $\\mathcal{N}(2,3^2)$ donc $\\PP(X_1 \\geq 1)=\\PP(\\frac{X_1-2}{3} \\geq \\frac{1-2}{3}) = \\PP(U \\geq -0.3333)$ où $U$ suit une loi $\\mathcal{N}(0,1)$. Or par symétrie,  $\\PP(U \\geq -0.3333) = \\PP(U \\leq 0.3333)$ et d'après la table, $\\PP(U \\leq 0.3333)=0.6293$\n\t\t\n\t\tDonc  \\fbox{$\\PP(X_1 \\geq 1)=0.6293$}",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "49d68cd5-33ea-49af-a94c-e5673c451bfa",
+      "id": "60e8ca55-02f3-4726-ba43-eeffa8d3a149",
       "type": "question",
       "value": {
         "latex": "Soit $Y$ la variable aléatoire définie par $$Y = \\frac{1}{9}\\sum_{i=1}^9 X_i$$ Déterminer la loi de $Y$ et calculer $\\PP(Y \\geq 1)$.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "8128d008-a9b4-4f51-8f3a-29a038a33980",
+      "id": "5eb28c28-0a17-4db8-a85d-e58ee866826e",
       "type": "reponse",
       "value": {
         "latex": "On sait que $\\mathbb{E}(Y)=\\frac{1}{9} \\sum_{i=1}^9 \\mathbb{E}(X_i) = \\frac{1}{9} \\times 9 \\times 2 = 2$.\n\t\t\n\t\tOn sait que par indépendance des variables,  $\\sigma^2(Y)=\\frac{1}{9^2} \\sum_{i=1}^9 \\sigma^2(X_i) = \\frac{1}{9^2} \\times 9 \\times 3^2 = 1$.\n\t\t\n\t\tDonc \\fbox{$Y$ suit une loi $\\mathcal{N}(2,1)$}.",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "fd38278b-3117-4fde-9346-5a9d531e35d6",
+      "id": "ef6e0a17-0681-4467-89ed-68e7abdfe2e9",
       "type": "question",
       "value": {
         "latex": "Soit $Z$ la variable aléatoire définie par $$Z = X_1 + X_2 + X_3 + X_4 + X_5 - X_6 - X_7 - X_8 - X_9$$\n\t\tDéterminer la loi de $Z$ et calculer $\\PP(Z \\geq 1)$.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "0fee840f-0f16-4b3a-87c7-bff7367e5220",
+      "id": "e84f4227-90a4-40e6-a98f-794fc543568c",
       "type": "reponse",
       "value": {
         "latex": "De même, $\\mathbb{E}(Z)=2+2+2+2+2-2-2-2-2=2$ et, puisque toutes ces variables sont indépendantes, \\\\ $\\sigma^2(Z)= 3^2+3^2+3^2+3^2+3^2+(-3)^2+(-3)^2+(-3)^2+(-3)^2 =5 \\times 3^2+4 \\times 3^2 = 81 = 9^2$\n\t\t\n\t\tDonc $Z$ suit une loi $\\mathcal{N}(2,9^2)$.\n\t\t\n\t\tPuis on calcule $\\PP(Z \\geq 1) = \\PP(U \\geq \\frac{1-2}{9}) = \\PP(U \\geq -\\frac19 )=\\PP(U \\leq \\frac19)$. D'après la table, \\fbox{$\\PP(Z \\geq 1) = 0.5438$}.",

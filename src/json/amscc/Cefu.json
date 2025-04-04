@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:50.620Z",
+    "updatedAt": "2025-04-04T19:02:03.037Z",
     "resume": "Cet exercice évalue la compréhension des propriétés des suites et des séries numériques. Il teste la capacité à : \n\n*   Déterminer le comportement de la série $\\sum \\frac{1}{u_n^2}$ lorsque $\\lim_{n \\to +\\infty} u_n = +\\infty$ et à identifier des contre-exemples.\n*   Utiliser la définition du rayon de convergence d'une série entière pour déterminer la convergence ou la divergence de la série en un point donné.",
     "competences": [
       "justifier la convergence ou la divergence d'une série numérique",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "eab8b140-182e-4e62-bf29-0416e75ee4a6",
+      "id": "a34ea8d3-7c7d-41a6-b184-48c7e70d6891",
       "type": "description",
       "value": {
         "latex": "Pour chacune des assertions suivantes, dire si elle est vraie ou fausse. Une justification, le cas échéant avec un contre exemple, est attendue.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "f78961cb-d1c4-40b8-9cb3-096b55f74073",
+      "id": "cfd7c103-0713-4d5d-8494-13c8af1d8a44",
       "type": "question",
       "value": {
         "latex": "Soit $(u_n)$ une suite de réels positifs tels que $\\lim\\limits_{n \\to +\\infty} u_n = +\\infty$. \\\\ Alors $\\lim\\limits_{n \\to +\\infty} \\frac{1}{u_n^2} = 0$ et la série $\\sum\\limits_{n \\geq 0} \\frac{1}{u_n^2}$ converge.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "80789b80-d491-4026-aaf9-3342908f71dd",
+      "id": "45a9827a-fcb3-4a6d-831a-46258a3a16d8",
       "type": "reponse",
       "value": {
         "latex": "Faux. Par exemple, considérer $u_n = \\sqrt{n}$ pour tout $n \\in \\N$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "e8fa40b9-35f5-45dd-b27a-ca27c90711b9",
+      "id": "9a237ede-65dd-42ba-8c4f-3ad14eda0a1b",
       "type": "question",
       "value": {
         "latex": "Soit $(a_n)$ une suite de réels tels que la série entière $\\sum a_n x^n$ ait un rayon de convergence $R=2$. \\\\ Alors la série $\\sum a_n (-3)^n$ diverge.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "c69d0ec9-40ec-41fb-96d9-b23b98ba66e8",
+      "id": "f76ddd70-1ea5-437f-8678-eba0146c67c0",
       "type": "reponse",
       "value": {
         "latex": "Vrai. Par définition du rayon de convergence, si $R=2$ alors la série $\\sum a_n x^n$ diverge  pour tout $x \\in ]-\\infty;-2[$, donc en particulier pour $x=-3$.",

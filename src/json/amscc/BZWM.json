@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-03",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Série à termes positifs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:42.527Z",
+    "updatedAt": "2025-04-04T19:01:54.767Z",
     "resume": "L'exercice porte sur la convergence d'une série à termes positifs. Il s'agit de démontrer la convergence de la série $\\sum_{n\\geq 1} u_n$, où $u_n = \\frac{n^2}{(n-1)!}$. La méthode utilisée est l'application de la règle de d'Alembert, qui consiste à calculer la limite du rapport $\\frac{u_{n+1}}{u_n}$ et de conclure selon que cette limite est inférieure à 1.",
     "competences": [
       "appliquer la règle de d'Alembert pour la convergence d'une série",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "9e039e0f-acc6-4d98-a93d-068b8cb04d92",
+      "id": "0f3a55d9-0e85-4520-b75a-eef9b3b3f666",
       "type": "question",
       "value": {
         "latex": "Montrer que la s\\'erie $\\displaystyle\\sum_{n\\geq 1} u_n$ converge.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "5a5d888d-9983-40c4-902e-13e4c05b4d5e",
+      "id": "de42160b-f082-45b4-a435-3c3d71feff9d",
       "type": "reponse",
       "value": {
         "latex": "La suite $(u_n)$ est positive. Calculons le quotient $\\frac{u_{n+1}}{u_n}:$\n$$\\forall n \\in \\N^{*},\\quad \\frac{u_{n+1}}{u_n}=\\frac{(n+1)^{2}}{n!}\\times \\frac{n-1!}{n^{2}}=\\left(\\frac{n+1}{n}\\right)^{2}\\times \\frac{1}{n} \\xrightarrow[n \\to +\\infty]{} 0<1.$$\nPar la régle de d'Alembert la série $\\displaystyle\\sum_{n\\geq 1} u_n$ converge.",

@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2022-12-14",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:23.843Z",
+    "updatedAt": "2025-04-04T19:05:14.922Z",
     "resume": "L'exercice porte sur l'étude d'estimateurs pour le paramètre $p$ d'une loi de Bernoulli. Il s'agit de:\\n\\n*   Calculer l'espérance de $Y$ et $Y^2$ où $Y = n\\\\overline{X}$ et $\\\\overline{X}$ est la moyenne empirique d'un $n$-échantillon de $X \\\\sim \\\\mathcal{B}(p)$.\\n*   Déterminer si $Z = \\\\overline{X}^2$ est un estimateur sans biais de $p^2$, en calculant le biais $B(Z) = E(Z) - p^2$.\\n*   Vérifier si $T = \\\\frac{Y(Y-1)}{n(n-1)}$ est un estimateur sans biais de $p^2$, en montrant que $E(T) = p^2$.",
     "competences": [
       "calculer l'espérance mathématique d'une variable aléatoire",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "11527832-c81c-49df-948b-6045d6864adc",
+      "id": "6f6b5df1-5572-43d1-982e-39b0108ba711",
       "type": "description",
       "value": {
         "latex": "Soit $X$ une variable aléatoire suivant une loi de Bernoulli $\\mathcal{B}(p)$ où $p \\in ]0;1[$. On considère un $n$-échantillon de $X$ et on note $\\overline{X}$ sa moyenne empirique. On pose $Y = n\\overline{X}$.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "4f5da8e6-e55b-4cf7-9b0a-d8f9b5f46e0b",
+      "id": "4f27c9c4-236f-4d6d-8903-4e1e04da1ea7",
       "type": "question",
       "value": {
         "latex": "Exprimer $\\mathbb{E}(Y)$ et $\\mathbb{E}(Y^2)$ en fonction de $n$ et $p$.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "16ae7559-2d2e-48ad-b19a-1eb48cb7e588",
+      "id": "8c393964-c463-4fa6-9cd4-35f9a3a64c27",
       "type": "reponse",
       "value": {
         "latex": "On considère $Y = n\\overline{X} = \\sum_{i=1}^n X_i$ : par définition, $Y$ suit une loi binomiale $\\mathcal{B}(n,p)$, ce qui permet d'affirmer que $\\mathbb{E}(Y) = np$ et $V(Y) = np(1-p)$. Or on sait que $V(Y) = \\mathbb{E}(Y^2)-(\\mathbb{E}(Y))^2$, donc $\\mathbb{E}(Y^2) = np(1-p)+(np)^2 = np(1+p(n-1))$",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "8ffc781b-938e-43bf-85a4-b3549a354def",
+      "id": "b8e64c9d-7454-4437-8174-30f494af773f",
       "type": "question",
       "value": {
         "latex": "On pose $Z = \\overline{X}^2$. Peut-on dire que $Z$ est un estimateur sais biais de $p^2$ ?",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "bbe72b40-9cff-44b8-a9fd-83c7245f249d",
+      "id": "557a236a-7cd0-482c-a899-0009581e695b",
       "type": "reponse",
       "value": {
         "latex": "En voyant la variable $Z$ comme un estimateur de $p^2$, on va calculer son biais $B(Z)=\\mathbb{E}(Z-p^2) = \\mathbb{E}(Z)-p^2$. Or $\\mathbb{E}(Z) = \\mathbb{E}\\left(\\left(\\frac{1}{n}Y\\right)^2\\right) = \\frac{1}{n^2}\\mathbb{E}(Y^2) = \\frac{p}{n} + p^2 \\frac{n-1}{n} \\neq p^2$ donc $B(Z) \\neq 0$.",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "9da0dfd0-d50d-4416-9b86-20314c8983be",
+      "id": "f3f1792f-f82b-4e09-bf92-09f707d3f551",
       "type": "question",
       "value": {
         "latex": "On pose $T = \\frac{Y(Y-1)}{n(n-1)}$. Vérifier que $T$ est un estimateur sans biais de $p^2$.",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "c889ab2e-169a-4562-8f73-94c7a5d93b50",
+      "id": "9e35a404-bc84-4e58-867a-56bc3a1a3d72",
       "type": "reponse",
       "value": {
         "latex": "En revanche, $\\mathbb{E}(T) = \\frac{1}{n(n-1)}\\mathbb{E}(Y(Y-1)) = \\frac{1}{n(n-1)}(np(1+(n-1)p)-np) = p^2$ donc $T$ est un estimateur non biaisé de la valeur $p^2$.",

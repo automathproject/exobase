@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-09-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité discrète",
     "sousChapitre": "Lois de distributions",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:27.021Z",
+    "updatedAt": "2025-04-04T19:02:23.135Z",
     "resume": "L'exercice porte sur l'application de la loi binomiale pour modéliser un problème de sur-réservation. Il s'agit de calculer la probabilité qu'un certain nombre de passagers (Y) se présentent à l'embarquement, en suivant une loi binomiale $\\mathcal{B}(n, p)$. Plus précisément, il faut calculer $P(Y \\geq 99)$ avec $n=100$ et $p=0.9$, ce qui correspond à la somme des probabilités $P(Y=99) + P(Y=100)$.",
     "competences": [
       "calculer une probabilité avec la loi binomiale",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "94e944f8-1deb-49ba-a907-aa715de06a1b",
+      "id": "69bd37f2-7705-4e9a-9b18-c48f2e2167e3",
       "type": "description",
       "value": {
         "latex": "Pour des raisons de rentabilité, le vol Océanic $815$ reliant Sydney à Los Angeles a été sur-réservé. Il y a $98$ places dans l'avion et $100$ billets ont été vendus.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "3ed73e60-6e4e-4524-ad73-b1de18e66faa",
+      "id": "95b3e8fb-0292-412e-ae7f-e2898ecf128a",
       "type": "question",
       "value": {
         "latex": "Sachant que la probabilité qu'un passager se désiste est de $10\\%$, quelle est la probabilité qu'au moins un passager reste bloqué à Sydney ?",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "94249226-908d-48ca-b98d-d2cfabbe167e",
+      "id": "57abaa2c-c6c2-42ef-8171-78b9230e32f8",
       "type": "reponse",
       "value": {
         "latex": "Soit $Y$ le nombre de passagers à se présenter à l'embarquement: $Y\\sim \\mathcal{B}(100,0.9)$ et on cherche la probabilité qu'il y ait au moins un passager bloqué à Sydney, c'est-à-dire qu'il y ait plus de $99$ personne à se présenter:\n\t$$\\begin{align*}\n\t\\p(Y\\geq 99)&=\\p(Y=99)+\\p(Y=100) \\\\\n\t&=\\binom{100}{99}\\times 0.9^{99} \\times 0.1^{1} + \\binom{100}{100}\\times 0.9^{100} \\times 0.1^{0} \\\\\n\t&\\simeq 0.00032,\n\t\\end{align*}$$\n\tsoit environ $0.03$\\% de chance qu'il y ait au moins un passager bloqué à Sydney.",

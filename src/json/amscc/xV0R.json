@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-06-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Equations différentielles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:21.816Z",
+    "updatedAt": "2025-04-04T19:05:13.263Z",
     "resume": "L'exercice consiste à résoudre une équation différentielle linéaire du premier ordre en recherchant une solution développable en série entière. Il requiert de :\n\n1.  Déterminer les coefficients $a_n$ de la série entière solution en utilisant l'équation différentielle et les conditions initiales. On obtient une relation de récurrence: $a_n = \\frac{n}{n-1} a_{n-1}$.\n2.  Calculer le rayon de convergence $R$ de la série entière obtenue, ici $R=1$.\n3.  Calculer la somme de la série entière sur l'intervalle de convergence $]-R, R[$ en utilisant la dérivée de la série géométrique.",
     "competences": [
       "résoudre une équation différentielle linéaire du premier ordre",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "3ec7d908-55a5-445d-afc4-621379a659b8",
+      "id": "4e6af63c-01b7-47a2-b52a-b93024fdb923",
       "type": "question",
       "value": {
         "latex": "Trouver sous forme d'une série entière la solution de l'équation différentielle $(E)$:\n\t$$ (1-t)ty'(t)=(1+t)y(t)$$\n\tvérifiant les conditions initiales $y(0)=0$ et $y'(0)=1$.",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "7d797302-0d79-4844-8d73-7bd5ef54962f",
+      "id": "cc13537e-f79e-4218-baad-a2f8a2ccc25a",
       "type": "reponse",
       "value": {
         "latex": "Soit $y$ une solution développable en série entière, de rayon de convergence $R$: on note $\\displaystyle y(t)=\\sum_{n=0}^{+\\infty} a_n t^n$ et on a\n\t\t\\[ \\forall t \\in ]-R;R[, \\qquad y'(t)=\\sum_{n=1}^{+\\infty} na_n t^{n-1}.\\]\n\t\tOn a les équivalences suivantes:\n\t\t$$\\begin{align*}\n\t\t\ty \\text{ solution de }(E) \\ & \\Leftrightarrow \\  \\forall t \\in ]-R;R[, \\\n\t\t\t(1-t)ty'(t)-(1+t)y(t)=0 \\\\\n\t\t\t\\ & \\Leftrightarrow \\  \\forall t \\in ]-R;R[, \\ \\sum_{n=1}^{+\\infty} n a_n\\times t^n - \\sum_{n=2}^{+\\infty}  a_{n-1} (n-1)t^n - \\sum_{n=1}^{+\\infty} a_{n-1}t^n- \\sum_{n=0}^{+\\infty} a_n t^n =0 \\\\\n\t\t\t\\ & \\Leftrightarrow \\  \\forall t \\in ]-R;R[, \\ -a_0-a_0t+\\sum_{n=2}^{+\\infty} [a_n(n-1)-na_{n-1}]t^n =0 \\\\\n\t\t\t\\ & \\Leftrightarrow \\\n\t\t\ta_0=0 \\quad \\text{ et } \\quad  \\forall n \\geq 2, \\ a_n=\\frac{n}{n-1}a_{n-1}\n\t\t\\end{align*}$$\n\t\tLes conditions initales donnent:\n\t\t\\[ y(0)=a_0=0 \\quad \\text{ et } \\quad y'(0)=a_1=1.\\]\n\t\tOn en conclut que pour tout $n\\geq 0$, $a_n=n$ et donc \n\t\t\\[ y(t)=\\sum_{n=0}^{+\\infty} nt^n.\\]",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "665009b4-bd25-4769-bdb0-93de90e0b051",
+      "id": "428477a5-f248-45c6-a834-a18815ead0d6",
       "type": "question",
       "value": {
         "latex": "Calculer la somme de cette série en précisant son intervalle de convergence.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "62af7a55-990b-4f8e-be89-54e62159b7e8",
+      "id": "3bf57c06-2723-407c-9593-69479199b94e",
       "type": "reponse",
       "value": {
         "latex": "La série $\\sum_{n\\geq 0} nt^n$ a pour rayon de convergence $R=1$. \\\\\n\t\tOn a\n\t\t\\[ \\forall t \\in ]-1;1[, \\qquad \\sum_{n=0}^{+\\infty} t^n=\\frac{1}{1-t}\\]\n\t\tdonc en dérivant\n\t\t\\[ \\forall t \\in ]-1;1[, \\qquad \\sum_{n=1}^{+\\infty} nt^{n-1}=\\frac{1}{(1-t)^2}.\\]\n\t\tPar conséquent,\n\t\t\\[\\forall t \\in ]-1;1[, \\qquad y(t)=\\sum_{n=0}^{+\\infty} nt^n\n\t\t=t\\sum_{n=0}^{+\\infty} nt^{n-1}\n\t\t= t\\sum_{n=1}^{+\\infty} nt^{n-1}\n\t\t=\\frac{t}{(1-t)^2}.\\]",

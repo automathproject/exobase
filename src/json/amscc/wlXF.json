@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-01",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Fonction de plusieurs variables",
     "sousChapitre": "Limite",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:17:21.060Z",
+    "updatedAt": "2025-04-04T19:05:12.500Z",
     "resume": "L'exercice porte sur l'étude de la limite d'une fonction $f(x,y) = \\frac{x^2 y^2}{x^2 y^2 + (x-y)^2}$ définie sur $\\R^2$. Il s'agit de:\n\n1.  Déterminer le domaine de définition de $f$.\n2.  Calculer les limites itérées $\\lim_{x \\to 0} \\lim_{y \\to 0} f(x,y)$ et $\\lim_{y \\to 0} \\lim_{x \\to 0} f(x,y)$.\n3.  Vérifier si la fonction admet une limite en $(0,0)$ en étudiant différentes trajectoires et en montrant que les limites selon ces trajectoires peuvent différer.",
     "competences": [
       "déterminer un ensemble de définition d'une fonction de deux variables",
@@ -51,7 +51,7 @@
   },
   "contenu": [
     {
-      "id": "34eb9f32-dc2e-4e00-8441-0d0fd2dac9ed",
+      "id": "00ac4461-494c-483a-a046-58d7ff678f38",
       "type": "description",
       "value": {
         "latex": "Soit $f \\colon \\R^2 \\to \\R$,\n$$ (x,y) \\mapsto \\dfrac{x^2 y^2}{x^2 y^2 + (x-y)^2} $$",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "d37efa35-4c75-4029-969f-946fb24bb923",
+      "id": "78d9846a-4347-4274-bc9a-4d77ad24590a",
       "type": "question",
       "value": {
         "latex": "Donner l'ensemble de définition de $f$.",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "c124cbd2-272d-458f-b18a-9377749784d6",
+      "id": "a1b707e4-1984-4baa-8d4f-58d93c96960a",
       "type": "reponse",
       "value": {
         "latex": "La fonction $f$ est définie pour tout $(x,y)\\in \\R^2$ tels que $x^2 y^2 + (x-y)^2 \\neq 0 $. Or $x^2y^2 + (x-y)^2 = 0 \\iff xy = 0 \\text{ et } x=y \\iff x=y=0$ donc $f$ est définie sur $\\R^2 \\backslash \\{(0,0)\\}$.",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "dbf9f859-1331-4933-903b-2079db4b2a5e",
+      "id": "0c6266da-3d1c-42f3-836a-af35a45a5b53",
       "type": "question",
       "value": {
         "latex": "Pour $x$ fixé, calculer $g(x) = \\lim\\limits_{y \\to 0} f(x,y)$.",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "faf41ecf-8f7c-4b53-9dd0-e7a9734ad1f7",
+      "id": "9dfebf95-964f-4d9f-a575-cf377f00fe2c",
       "type": "reponse",
       "value": {
         "latex": "Soit $x \\in \\R$ : si $x=0$, $f(0,y) = 0$ et si $x \\neq 0$, $f(x,y) \\xrightarrow[y \\to 0]{} \\frac{0}{x^2} = 0$",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "50d63d94-e4a6-4748-b422-05dfebb4c71b",
+      "id": "4171726c-6add-4677-9bdb-04aec6f9a3ca",
       "type": "question",
       "value": {
         "latex": "Pour $y$ fixé, calculer $h(y) = \\lim\\limits_{x \\to 0} f(x,y)$.",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "c7ae3a7c-0902-46c4-a8d2-150038978189",
+      "id": "2c9bd1fd-0745-48ee-852b-0e60101a8543",
       "type": "reponse",
       "value": {
         "latex": "De même, $h(y) = 0$.",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "dae8749b-ab61-47c6-925f-eada3bf60a87",
+      "id": "36890604-1cc4-42e4-8afa-e8a06fdc20ca",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{x \\to 0} g(x)$.",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "991eda8e-9a98-412c-bb03-a1b6add151d1",
+      "id": "773d9ff4-6084-4ab5-ac53-981fc169011f",
       "type": "reponse",
       "value": {
         "latex": "On en déduit que $\\lim\\limits_{x \\to 0} g(x) = 0$",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "b5022c5b-f264-486a-81d9-b8c87741bb80",
+      "id": "54a30182-d1e5-467e-9af6-d1e8129686fc",
       "type": "question",
       "value": {
         "latex": "Calculer $\\lim\\limits_{y \\to 0} h(y)$.",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "f113d53e-dd2f-421a-922a-d8d2d1ebc3d2",
+      "id": "e85ff632-0475-45b9-a82c-3b0ddace0c4d",
       "type": "reponse",
       "value": {
         "latex": "De même $\\lim\\limits_{y \\to 0} h(y) = 0$",
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "8fbe803c-770f-42a2-bacf-f9fea7f1fe49",
+      "id": "d63135d0-21bc-476b-ac0c-ab0d60d46b52",
       "type": "question",
       "value": {
         "latex": "La fonction $f$ admet-elle une limite quand $(x,y) \\to (0,0)$~?",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "5b186799-a1d0-4163-bce8-7622506dc998",
+      "id": "60124bb0-30cb-47f9-a4df-8aa810c16350",
       "type": "reponse",
       "value": {
         "latex": "Non car $f(x,x) = 1 \\xrightarrow[x \\to 0]{} 1$ et $f(x,0) = 0 \\xrightarrow[x \\to 0]{} 0 \\neq 1$ : on a deux chemins qui donnent deux limites différentes.",

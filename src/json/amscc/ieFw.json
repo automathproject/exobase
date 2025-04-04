@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-06-17",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Rayon de convergence",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:39.309Z",
+    "updatedAt": "2025-04-04T19:03:15.719Z",
     "resume": "Cet exercice porte sur la détermination du domaine de convergence d'une série entière de la forme $\\sum_{n \\geq 1} a_n x^n$. Il évalue les compétences suivantes: \n\n*   Calcul du rayon de convergence $R$ d'une série entière en utilisant le critère de d'Alembert, c'est-à-dire, en calculant $\\lim_{n \\to \\infty} |\\frac{a_{n+1}}{a_n}|$.\n*   Détermination du domaine de convergence en étudiant la convergence aux bornes de l'intervalle $]-R, R[$. Cela implique:\n    *   L'utilisation de critères de convergence pour les séries à termes positifs (équivalence avec une série de Riemann).\n    *   L'application du théorème spécial des séries alternées.",
     "competences": [
       "appliquer le critère de d'Alembert pour déterminer le rayon de convergence",
@@ -54,7 +54,7 @@
   },
   "contenu": [
     {
-      "id": "3e3ccb18-a0d7-4cd0-914f-2a21d9b3d926",
+      "id": "bfa736c7-9870-47de-8d85-5aef6c478e2a",
       "type": "description",
       "value": {
         "latex": "On considère la série entière de la variable réelle $x$ : \n$$\\sum_{n \\geq 1} \\frac{(-1)^n}{\\sqrt{n}+1}x^n$$",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "be8d892a-8b39-4c43-ba97-a1749588ffb6",
+      "id": "d241c7fa-16fd-425f-a86c-5b9c8dd89487",
       "type": "question",
       "value": {
         "latex": "Vérifier que le rayon de convergence est égal à $1$.",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "09ba9aa7-12fb-4fd0-bad8-7ff46c119bb8",
+      "id": "3506c909-afe5-4e69-a7a6-55c7123b7245",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n(x) = \\frac{(-1)^n}{\\sqrt{n}+1}x^n$ et on utilise le théorème de d'Alembert : \n\t\t$$\\begin{align*}\n\t\t\t\\frac{|u_{n+1}(x)|}{|u_n(x)|} &= \\frac{ \\sqrt{n}+1 }{\\sqrt{n+1}+1}\\frac{|x^{n+1}|}{|x^{n}|} \\\\\n\t\t\t& \\sim  \\frac{\\sqrt{n}}{\\sqrt{n}} |x| \\\\\n\t\t\t&\\xrightarrow[n\\to+\\infty]{}  |x|\n\t\t\\end{align*}$$\n\t\tDonc la série converge si et seulemlent si $|x|<1$. Donc le rayon de convergence est bien $R=1$.",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "b2781f23-6074-44de-88ca-699ecc72a392",
+      "id": "5f0d12cf-ecc0-4263-a56b-a2d178bf115f",
       "type": "question",
       "value": {
         "latex": "Déterminer le domaine de convergence de cette série entière.",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "d57095b1-8c14-4cc9-93f8-69e8b925e363",
+      "id": "47276a03-0797-4591-b895-2ac172b39c05",
       "type": "reponse",
       "value": {
         "latex": "On sait que la série converge sur l'intervalle $]-R;R[ = ]-1;1[$. Il reste à étudier le cas où $x=-1$ et $x=1$. \n\t\t\n\t\tOr $u_n(-1) = \\frac{1}{\\sqrt{n}+1} \\sum \\frac{1}{n^{\\frac{1}{2}}}$ : la série $\\sum u_n(-1)$ est donc une série à termes positifs et le terme général est équvalent au terme général d'une série de Riemann divergente ($\\alpha = 1/2<1$) donc la série $\\sum u_n(-1)$ diverge. \n\t\t\n\t\tDe plus, \t$u_n(1) = \\frac{(-1)^n}{\\sqrt{n}+1} = (-1)^n a_n$ avec $a_n = \\frac{1}{\\sqrt{n}+1} >0$ pour tout $n \\geq 1$. Donc $u_n(1)$ est le terme général d'une série alternée. Or il est clair que $(a_n)$ est une suite décroissante et $\\lim\\limits_{n\\to+\\infty} a_n = 0$ donc d'après le théorème des séries alternées, la série $\\sum u_n(1)$ converge.\n\t\t\n\t\tEn définitive, le domaine de convergence est \n\t\t$$D = ]-1;1]$$",

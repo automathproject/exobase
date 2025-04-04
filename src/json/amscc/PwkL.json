@@ -2,20 +2,20 @@
   "uuid": "PwkL",
   "titre": "Estimation des paramètres d'une loi normale",
   "theme": [
-    "maximum de vraisemblance"
+    "statistiques"
   ],
   "niveau": "",
   "metadata": {
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
-    "createdAt": "2022-10-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "createdAt": "2025-04-04T19:02:22.618Z",
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
-    "chapitre": "Probabilité continue",
-    "sousChapitre": "Loi normale",
+    "chapitre": "",
+    "sousChapitre": "",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:26.060Z",
+    "updatedAt": "2025-04-04T19:02:22.618Z",
     "resume": "L'exercice porte sur l'estimation des paramètres $\\mu$ et $\\sigma$ d'une loi normale $\\mathcal{N}(\\mu, \\sigma^2)$ à partir d'un échantillon $X_1, ..., X_n$ en utilisant la méthode du maximum de vraisemblance. Il requiert de : \n1.  Déterminer l'expression de la fonction de vraisemblance $L(x_1,...,x_n,\\mu,\\sigma)$ et de son logarithme.\n2.  Calculer la dérivée partielle du logarithme de la vraisemblance par rapport à $\\mu$.\n3.  En déduire l'estimateur du maximum de vraisemblance de $\\mu$ en annulant la dérivée partielle calculée précédemment.\n4.  Calculer la dérivée partielle du logarithme de la vraisemblance par rapport à $\\sigma$ et en déduire l'estimateur du maximum de vraisemblance de $\\sigma$ en annulant cette dérivée.",
     "competences": [
       "Calculer le maximum de vraisemblance d'une loi normale",
@@ -52,15 +52,15 @@
   },
   "contenu": [
     {
-      "id": "36632a4f-8eae-48f4-a10d-017c23343e57",
+      "id": "98fbf2db-f2a8-4ab8-a8bd-f9fafa0bbea5",
       "type": "description",
       "value": {
-        "latex": "On considère un échantillon $X_1,...,X_n$ suivant une loi normale $\\mathcal{N}(\\mu,\\sigma^2)$. On cherche un estimateur de $\\mu$ et de $\\sigma$ par la méthode du maximum de vraisemblance. On note $(x_1,...,x_n)$ une réalisation de cet échantillon. On rappelle que la densité d'une loi normale est $$f(x)=\\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$$",
-        "html": "<p>On considère un échantillon <span\nclass=\"math inline\">\\(X_1,...,X_n\\)</span> suivant une loi normale <span\nclass=\"math inline\">\\(\\mathcal{N}(\\mu,\\sigma^2)\\)</span>. On cherche un\nestimateur de <span class=\"math inline\">\\(\\mu\\)</span> et de <span\nclass=\"math inline\">\\(\\sigma\\)</span> par la méthode du maximum de\nvraisemblance. On note <span\nclass=\"math inline\">\\((x_1,...,x_n)\\)</span> une réalisation de cet\néchantillon. On rappelle que la densité d’une loi normale est <span\nclass=\"math display\">\\[f(x)=\\frac{1}{\\sigma \\sqrt{2\\pi}}\ne^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}\\]</span></p>\n"
+        "latex": "On considère un échantillon $X_1,...,X_n$ suivant une loi normale $\\mathcal{N}(\\mu,\\sigma)$. On cherche un estimateur de $\\mu$ et de $\\sigma$ par la méthode du maximum de vraisemblance. On note $(x_1,...,x_n)$ une réalisation de cet échantillon. On rappelle que la densité d'une loi normale est $$f(x)=\\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$$",
+        "html": "<p>On considère un échantillon <span\nclass=\"math inline\">\\(X_1,...,X_n\\)</span> suivant une loi normale <span\nclass=\"math inline\">\\(\\mathcal{N}(\\mu,\\sigma)\\)</span>. On cherche un\nestimateur de <span class=\"math inline\">\\(\\mu\\)</span> et de <span\nclass=\"math inline\">\\(\\sigma\\)</span> par la méthode du maximum de\nvraisemblance. On note <span\nclass=\"math inline\">\\((x_1,...,x_n)\\)</span> une réalisation de cet\néchantillon. On rappelle que la densité d’une loi normale est <span\nclass=\"math display\">\\[f(x)=\\frac{1}{\\sigma \\sqrt{2\\pi}}\ne^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}\\]</span></p>\n"
       }
     },
     {
-      "id": "c08390f9-72ab-4d4f-aa00-2bb10a84bca5",
+      "id": "46bfbe6e-c073-4853-9262-c45866608f07",
       "type": "question",
       "value": {
         "latex": "Exprimer la fonction de vraisemblance $L(x_1,...,x_n,\\mu,\\sigma)$, puis son logarithme.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "fdb54a21-758a-45df-bbdb-26e7002eb827",
+      "id": "77b990bd-2aec-41d7-a9e4-d766097d9665",
       "type": "reponse",
       "value": {
         "latex": "$$L(x_1,...,x_n,\\mu,\\sigma) = \\prod_{i=1}^n f(x_i) = \\prod_{i=1}^n \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x_i-\\mu)^2}{2\\sigma^2}}$$\n\t\t$$\\ln L(x_1,...,x_n,\\mu,\\sigma) = \\sum_{i=1}^n \\ln \\left(\\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x_i-\\mu)^2}{2\\sigma^2}}\\right) = -n\\ln(\\sigma \\sqrt{2\\pi}) - \\sum_{i=1}^n \\frac{(x_i-\\mu)^2}{2\\sigma^2}$$",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "63c28fc5-b6a9-4376-9cbf-5c74fd291868",
+      "id": "75d0dcf6-37a5-4ea0-bd9d-6059dfc7b105",
       "type": "question",
       "value": {
         "latex": "Dériver $\\ln L(x_1,...,x_n,\\mu,\\sigma)$ par rapport à $\\mu$.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "57cbe707-397c-45e4-908b-93420fb46ccf",
+      "id": "4bb2554a-e4dd-4169-bb2e-f1dd9a17bc83",
       "type": "reponse",
       "value": {
         "latex": "$$\\frac{\\partial \\ln L(x_1,...,x_n,\\mu,\\sigma)}{\\partial \\mu} = \\sum_{i=1}^n \\frac{x_i-\\mu}{\\sigma^2}$$",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "2012c4c5-5925-42e9-8067-167a91c686ad",
+      "id": "cd372f7b-ac44-4289-aff2-b437b2b2b53b",
       "type": "question",
       "value": {
         "latex": "En déduire un estimateur de $\\mu$.",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "81af56cd-f161-4140-ace5-7f0650c5e785",
+      "id": "94c3de9d-5f5d-4314-9d70-da5d43a8c424",
       "type": "reponse",
       "value": {
         "latex": "$$\\frac{\\partial \\ln L(x_1,...,x_n,\\mu,\\sigma)}{\\partial \\mu} = 0 \\Leftrightarrow \\sum_{i=1}^n \\frac{x_i-\\mu}{\\sigma^2} = 0 \\Leftrightarrow \\sum_{i=1}^n x_i - n\\mu = 0 \\Leftrightarrow \\mu = \\frac{1}{n}\\sum_{i=1}^n x_i$$\n\t\tdonc $\\hat{\\mu} = \\frac{1}{n}\\sum_{i=1}^n x_i$ est un estimateur de $\\mu$.",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "d82706f6-7290-4fbd-b999-e57eab1392b5",
+      "id": "a12cfb6e-7b21-410a-bb5c-e97123e87c40",
       "type": "question",
       "value": {
         "latex": "Déterminer un estimateur de $\\sigma$ avec une démarche analogue.",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "9c5b63f3-8e4d-4dd9-bdda-5bb3207c46e6",
+      "id": "fd09c44f-ca1c-4913-8c68-7b5dbbd061f5",
       "type": "reponse",
       "value": {
         "latex": "$$\\frac{\\partial \\ln L(x_1,...,x_n,\\mu,\\sigma)}{\\partial \\sigma} = \\sum_{i=1}^n \\frac{(x_i-\\mu)^2}{\\sigma^3} - \\frac{n}{\\sigma}$$\n\t\t$$\\frac{\\partial \\ln L(x_1,...,x_n,\\mu,\\sigma)}{\\partial \\sigma} = 0 \\Leftrightarrow \\sum_{i=1}^n \\frac{(x_i-\\mu)^2}{\\sigma^3} - \\frac{n}{\\sigma} = 0 \\Leftrightarrow \\sum_{i=1}^n (x_i-\\mu)^2 = n\\sigma^2$$\n\t\t$$\\Leftrightarrow \\sigma^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i-\\mu)^2$$\n\t\tdonc $\\hat{\\sigma} = \\sqrt{\\frac{1}{n}\\sum_{i=1}^n (x_i-\\mu)^2}$ est un estimateur de $\\sigma$.",

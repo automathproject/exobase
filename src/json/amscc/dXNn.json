@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "Maxime NGUYEN",
     "createdAt": "2022-10-04",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Estimation",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:13.262Z",
+    "updatedAt": "2025-04-04T19:02:55.113Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $a$ d'une loi de probabilité discrète définie sur $\\mathbb{N}$ par $\\PP(X=k)=\\frac{a^k}{(1+a)^{k+1}}$. Il s'agit d'appliquer la méthode du maximum de vraisemblance pour déterminer un estimateur de $a$, puis de calculer le biais de cet estimateur. La fonction de vraisemblance est $L(x_1,...,x_n,a) = \\prod_{k=1}^n \\frac{a^{x_k}}{(1+a)^{x_k+1}} = \\frac{a^{\\sum x_k}}{(1+a)^{n+\\sum x_k}}$. La résolution de $\\frac{\\partial L}{\\partial a} = 0$ conduit à l'estimateur $T = \\frac{1}{n} \\sum_{k=0}^n X_k$. Le calcul de l'espérance montre que $\\mathbb{E}(X_i) = a$, et donc $B(T) = \\mathbb{E}(T-a) = 0$, ce qui signifie que l'estimateur est sans biais.",
     "competences": [
       "calculer une espérance mathématique",
@@ -50,7 +50,7 @@
   },
   "contenu": [
     {
-      "id": "f38ea5b4-d063-493e-ae7b-90ee11186827",
+      "id": "d57ce1c9-61c8-4e2b-8082-071b3083f108",
       "type": "description",
       "value": {
         "latex": "On fixe un réel $a>0$ et on définit une variable aléatoire $X$ sur $\\mathbb{N}$ dont la loi de probabilité est définie par \n$$\\PP(X=k)=\\frac{a^k}{(1+a)^{k+1}}$$\npour tout $k \\in \\mathbb{N}$.",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "75bfeecf-26fb-4744-9cb0-bc690cacb0b2",
+      "id": "2232609f-8ba3-45e2-a4af-1abfccc6da66",
       "type": "question",
       "value": {
         "latex": "A l'aide de la méthode du maximum de vraisemblance, définir un estimateur de $a$ et déterminer son biais.",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "9d6c6573-4f73-4185-a7d3-c2080ba2d963",
+      "id": "552e657c-f54f-4645-ba5b-80cc5eb13e21",
       "type": "reponse",
       "value": {
         "latex": "On définit un échantillon $X_1,...,X_n$ et on considère la probabilité que cet échantillon réalise un ensemble de valeurs $V=\\{x_1,...,x_n\\}$. La fonction de vraisemblance s'écrit alors \n$$L(x_1,...,x_n,a) = \\PP(X_1=x_1,...,X_n=x_n) = \\prod_{k=1}^{n} \\PP(X=x_k) = \\prod_{k=1}^n \\frac{a^{x_k}}{(1+a)^{x_k+1}} = \\frac{a^{\\sum x_k}}{(1+a)^{\\sum x_k+1}}$$\n\nOn dérive ce quotient par rapport à $a$, on factorise par $a^{\\sum x_k-1}(1+a)^{n+\\sum x_k -1}$ et on trouve que \n$$\\frac{\\partial L}{\\partial a}(x_1,...,x_n,a) = 0 \\iff \\sum_{k=0}^n x_k(1+a) - a(n+\\sum_{k=0}^n x_k) = 0 \\iff a = \\frac{1}{n} \\sum_{k=0}^n x_k$$\n\nOn a donc trouvé un meilleur estimateur du paramètre $a$ selon la méthode du maximum de vraisemblance : il s'agit de l'estimateur $T = \\frac{1}{n} \\sum_{k=0}^n X_k$.\n\nReste à calculer le biais de cet estimateur, autrement dit à calculer $B(T) = \\mathbb{E}(T-a)$. Or pour tout entier $i$, $X_i$ suit la loi définie ci-dessus et on espérance se calcule de la manière suivante :\n$$\\mathbb{E}(X_i) = \\sum_{k=0}^n k\\PP(X_i=k) = \\sum_{k=0}^n k \\left( \\frac{a}{1+a}  \\right)^{k-1} \\frac{a}{(1+a)^2} = \\frac{1}{\\left(1-\\frac{a}{1+a}\\right)^2} \\times \\frac{a}{(1+a)^2} = a$$\nDonc $B(T) = \\frac{1}{n} \\times n \\times a - a = 0$ : la variable $T$ est donc un estimateur sans biais du paramètre $a$.",

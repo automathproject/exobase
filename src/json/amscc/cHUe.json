@@ -10,13 +10,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-12-06",
-    "hasIndication": false,
-    "hasCorrection": false,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Statistique",
     "sousChapitre": "Tests d'hypothèses, intervalle de confiance",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:15:11.642Z",
+    "updatedAt": "2025-04-04T19:02:53.813Z",
     "resume": "L'exercice porte sur la réalisation d'un test d'indépendance du $\\chi^2$ pour évaluer l'influence de la catégorie socio-professionnelle des parents sur le type d'études suivies par leurs enfants. Il s'agit de : \n1. Calculer la statistique du $\\chi^2$, déterminer les degrés de liberté, et comparer la statistique du test à la valeur critique pour un seuil de signification $\\alpha = 0.05$. En fonction du résultat, conclure sur l'indépendance ou la dépendance des variables. \n2. Déterminer la p-valeur du test, c'est-à-dire le seuil de signification maximal pour lequel l'hypothèse nulle d'indépendance peut encore être rejetée.",
     "competences": [
       "appliquer un test du Chi-deux d'indépendance",
@@ -55,7 +55,7 @@
   },
   "contenu": [
     {
-      "id": "2f706ada-cfbf-4d54-bc81-8ee7d210e313",
+      "id": "5781a7ab-6eb9-43c0-a19a-93c84e8e8b83",
       "type": "description",
       "value": {
         "latex": "On  interroge 1873 ́étudiants  de  Master  sur  la  catégorie  socio-professionnelle  de  leurs parents.  Les  ́étudiants  suivent  différents  cursus :   ́écoles  d'ingénieurs,  ́école de  commerce,  universités scientifiques,  médecine.  Les résultats sont les suivants :\n\t\n\\begin{center}\n\t\t\\begin{tabular}{|c|c|c|c|c|}\n\t\t\\hline \n\t\t& Ouvriers & Employés & Cadres & Professions libérales \\\\ \n\t\t\\hline \n\t\tEcoles d'ingénieurs & 50 & 280 & 120 & 20 \\\\ \n\t\t\\hline \n\t\tEcoles de commerce & 8 & 29 & 210 & 350 \\\\ \n\t\t\\hline \n\t\tUniversités scientifiques & 150 & 230 & 100 & 40 \\\\ \n\t\t\\hline \n\t\tMédecine & 26 & 80 & 80 & 100 \\\\ \n\t\t\\hline \n\t\\end{tabular} \n\\end{center}\n\nOn s'intéresse à l'influence du milieu socio-professionnel des parents sur le type d'étude des enfants. Pour répondre à cette question :",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "42469fc5-a9e9-4875-b58b-341a16312c30",
+      "id": "16fb01ce-eec8-4d0a-a836-e7445064b7f3",
       "type": "question",
       "value": {
         "latex": "Réaliser un test d'indépendance du $\\chi^2$ en expliquant le résultat obtenu pour un risque de première espèce de $5\\%$.",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "fc2d800a-692a-4416-b06a-807475ec1aab",
+      "id": "dbb8dc74-5f77-4186-bc96-4e7bfa4bc9fe",
       "type": "question",
       "value": {
         "latex": "Jusqu'à quel risque de première espèce peut-on maintenir cette décision ? Le résultat obtenu s'appelle la $p$-valeur du test.",

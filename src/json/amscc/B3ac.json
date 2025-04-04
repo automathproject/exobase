@@ -11,13 +11,13 @@
     "exo7id": "",
     "auteur": "Maxime Nguyen",
     "createdAt": "2023-09-18",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:13:41.887Z",
+    "updatedAt": "2025-04-04T19:01:53.833Z",
     "resume": "L'exercice porte sur l'approximation d'une loi de Poisson de paramètre $\\lambda = 16$ par une loi normale. Il évalue les compétences suivantes:\n\n*   Calcul de probabilités ponctuelles pour une loi de Poisson à partir de valeurs cumulatives données.\n*   Détermination des paramètres (espérance et variance) d'une loi normale approximant une loi de Poisson donnée.\n*   Calcul de probabilités pour une loi normale en utilisant la correction de continuité pour approximer des probabilités discrètes, impliquant la standardisation de la variable normale $Z = \\frac{Y-\\mu}{\\sigma}$ et l'utilisation de la table de la loi normale centrée réduite.\n*   Comparaison des valeurs obtenues par la loi de Poisson et son approximation normale, en mettant en évidence l'amélioration apportée par la correction de continuité dans l'approximation de probabilités discrètes par une loi continue.\n*   Calcul d'une probabilité cumulative pour une loi de Poisson en utilisant son approximation par une loi normale et la correction de continuité.",
     "competences": [
       "appliquer une approximation de la loi de Poisson par une loi Normale",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "1ea9ef6d-e08b-4222-abeb-156efe99b095",
+      "id": "ac5afb59-2b06-4ce1-990b-600937e653b3",
       "type": "description",
       "value": {
         "latex": "L'observation a permis d'affirmer que le nombre d'étudiants qui entrent à la bibliothèque entre 9h00 et 10h30 suit une loi de Poisson de paramètre $16$ dont voici un extrait de la table:\n\t\\begin{center}\n\t\t\\begin{tabular}{|c|c|c|c|c|c|}\n\t\t\t\\hline\n\t\t\t$k$ & 14 & 15 & 16 & 17 & 18 \\\\\n\t\t\t\\hline\n\t\t\t$\\prob(X\\leq k)$ & $0.3675$ & $0.4667$ & $0.5660$ & $0.6593$ & $0.7423$ \\\\\n\t\t\t\\hline\n\t\t\\end{tabular}\n\t\\end{center}",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "20cef468-c9c7-4e59-adc8-b64340984eea",
+      "id": "0310f5be-2777-40ab-81e2-26a22b412082",
       "type": "question",
       "value": {
         "latex": "En utilisant le tableau ci-dessus, déterminer $\\prob(X=15)$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "fee43cfa-2eb3-4f4e-8e13-b94eb6f6fea0",
+      "id": "378566d7-f315-434f-bd8d-c78ea7d62ce9",
       "type": "reponse",
       "value": {
         "latex": "$\\prob(X=15)=\\prob(X\\leq 15)-\\prob(X\\leq 14)=0.4667-0.3675 \\simeq 0,0992$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "c8a6780e-fd8f-45f2-9d25-65768afeb521",
+      "id": "a4b8febe-9827-4369-9177-944af1629c3f",
       "type": "question",
       "value": {
         "latex": "Déterminer les paramètres de la loi normale que suit la variable aléatoire $Y$ qui approche $X$.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "f295d9a5-8127-4993-bf55-73fd5efc5bcb",
+      "id": "5a9b1488-3e8f-4697-b9e9-7f8d03d5f200",
       "type": "reponse",
       "value": {
         "latex": "$X$ peut être approchée par $Y$ qui suit la loi $\\mathcal{N}(\\mu=16,\\sigma^2=16)$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "d2036d44-3db3-4ee5-8b94-586c51df6e22",
+      "id": "84a23db4-b80b-4f01-9063-5c80270f4491",
       "type": "question",
       "value": {
         "latex": "Calculer $\\alpha=\\prob(14.5\\leq Y\\leq 15.5)$. Quel est le lien entre $\\alpha$ et $\\prob(X=15)$ ?",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "a0dbb011-0ff7-41f8-866e-b830f986ac2c",
+      "id": "62e571fd-a23b-475f-b954-e90a452eea93",
       "type": "reponse",
       "value": {
         "latex": "On a\n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\alpha=\\prob(14.5\\leq Y\\leq 15.5)\n\t\t\t\t&= \\p\\left(\\frac{-1.5}{\\sqrt{16}}\\leq \\frac{Y-16}{\\sqrt{16}} \\leq \\frac{-0.5}{\\sqrt{16}} \\right) \\\\\n\t\t\t\t&= \\prob(-0.375\\leq Z\\leq -0.125), \\quad \\text{ où } Z \\sim \\mathcal{N}(0,1) \\\\\n\t\t\t\t&= \\prob(0.125\\leq Z\\leq 0.375) \\\\\n\t\t\t\t&= \\prob(Z\\leq 0.375)-\\prob(Z\\leq 0.125) \\\\\n\t\t\t\t&= 0.64615-0.54975 \\\\\n\t\t\t\t&= 0.0964\n\t\t\t\t\\end{align*}$$\n\t\t\t\t$\\alpha$ est une approximation (avec correction de continuité) de $\\prob(X=15)$. En effet,\n\t\t\t\t\\[ \\prob(X=15)=\\prob(14.5\\leq X\\leq 15.5) \\simeq \\prob(14.5\\leq Y\\leq 15.5).\n\t\t\t\t\\]",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "5216c024-3703-4bf6-ae96-223caec1eab7",
+      "id": "50685c68-5089-4e46-b19c-007c7b9a1120",
       "type": "question",
       "value": {
         "latex": "Déterminer une approximation de $\\prob(15\\leq X\\leq 20)$.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "9719f4e9-f725-4e7d-8c9c-492ddfae540c",
+      "id": "24061005-5cee-491e-b457-bf5c89280c86",
       "type": "reponse",
       "value": {
         "latex": "$$\\begin{align*}\n\t\t\t\\prob(15\\leq X\\leq 20)\n\t\t\t&=\\prob(14.5\\leq X\\leq 20.5) \\\\\n\t\t\t&\\simeq \\prob(14.5\\leq Y\\leq 20.5) \\\\\n\t\t\t& \\simeq \\p\\left(-0.375 \\leq \\frac{Y-16}{4}\\leq 1.125\\right) \\\\\n\t\t\t& \\simeq \\prob(Z\\leq 1.125) - \\prob(Z\\leq -0.375) \\\\\n\t\t\t& \\simeq \\prob(Z\\leq 1.125) -(1-\\prob(Z\\leq 0.375)) \\\\\n\t\t\t& \\simeq 0.8697 -1 + 0.64615\\\\\n\t\t\t&\\simeq 0.51585\n\t\t\t\\end{align*}$$",

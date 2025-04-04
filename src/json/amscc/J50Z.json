@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Analyse numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:04.336Z",
+    "updatedAt": "2025-04-04T19:02:11.961Z",
     "resume": "L'exercice porte sur l'approximation de la solution d'une équation différentielle $y'(t) = - \frac{1}{1+t^2}y(t)$ avec condition initiale $y(0) = 5$ par la méthode d'Euler implicite. Il s'agit de: \n1. Calculer $y(2)$ avec un pas $h=0.5$ en utilisant le schéma $y_{n+1}=\\frac{y_n}{1+ \\frac{h}{1+t_{n+1}^2} }$.\n2. Répéter le calcul avec un pas $h=10^{-3}$ et comparer les résultats.\n3. Déterminer la solution analytique de l'équation et comparer graphiquement la solution exacte avec les approximations d'Euler pour différents pas $h$.",
     "competences": [
       "résoudre une équation différentielle du premier ordre",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "0d8273f0-f145-42f2-b764-87d8107bf599",
+      "id": "d62aa215-d013-4e5d-83bd-32590c1d90b7",
       "type": "description",
       "value": {
         "latex": "L'évolution de la concentration de certaines réactions chimiques au cours du temps peut être décrite par l'équation différentielle :\n\t$$y'(t) = - \\frac{1}{1+t^2}y(t)$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "a36db3ca-bdb4-4320-b171-c08e2aeb125a",
+      "id": "1ca3fdaa-ebba-467d-940f-0d006b9de3f0",
       "type": "question",
       "value": {
         "latex": "Sachant qu'à l'instant $t=0$, la concentration vaut $y(0)=5$, déterminer la concentration en $t=2$ à l'aide de la méthode d'Euler implicite avec un pas $h=0.5$.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "70bd5f33-5faf-4d50-8a18-cb95532eda23",
+      "id": "4ff9fa30-700b-43fa-b6d4-5eff02e98383",
       "type": "reponse",
       "value": {
         "latex": "Le schéma implicite s'écrit \n\t\t$$y_{n+1} = y_n + hF(t_{n+1},y_{n+1})$$\n\t\toù $F(t,y) = - \\frac{1}{1+t^2}y$.\n\t\t\n\t\tAprès réécriture sous forme explicite, on obtient \n\t\t$$y_{n+1}=\\frac{y_n}{1+ \\frac{h}{1+t_{n+1}^2} }$$\n\t\tAvec $h=0.5$, on a $t_n = \\frac{n}{2}$.\n\t\t\n\t\tAprès calculs, on trouve $y_4 = \\frac{520}{231} \\approx 2.25$ soit $y(2) \\approx 2.25$.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "91480f73-2f34-4235-9be7-17f6bcba1ab7",
+      "id": "e6204554-9088-49ad-92f3-429d3d4f3c93",
       "type": "question",
       "value": {
         "latex": "Faire de même pour un pas de $h=10^{-3}$ et commenter la différence.",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "8fdb68a3-08b0-414b-9fd9-1bcfd317a267",
+      "id": "79befb84-caf8-41c1-beac-e0acda568dfd",
       "type": "question",
       "value": {
         "latex": "Résoudre analytiquement l'équation différentielle, puis proposer sur un même graphique la solution approchée de la méthode d'Euler implicite et la solution exacte pour différentes valeurs de $h$.",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "4a3dc667-3dca-4acb-b568-fdc1145e5996",
+      "id": "f214b393-1ea0-4557-a4bf-ff542f54b905",
       "type": "reponse",
       "value": {
         "latex": "\\insertnotebook{J50Z}",

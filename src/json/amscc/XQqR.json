@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-03-20",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Résolution d'équation différentielle",
     "sousChapitre": "Résolution d'équation différentielle",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:49.375Z",
+    "updatedAt": "2025-04-04T19:02:37.570Z",
     "resume": "L'exercice porte sur la méthode du point milieu (Euler améliorée) pour la résolution numérique d'équations différentielles. Il s'agit de déterminer une fonction $G$ afin d'obtenir un schéma numérique consistant d'ordre 2. La réponse consiste à exprimer le schéma sous la forme $y_{n+1} = y_n + H(t_n,y_n,h)$, puis à dériver $H$ par rapport à $h$ et enfin à déterminer la condition sur $G$ pour obtenir la consistance d'ordre 2. La solution est $G(t,y,h)=f(t,y)$.",
     "competences": [
       "calculer une dérivée partielle",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "27b5da84-3c7a-4e7e-b908-25fee9f1e039",
+      "id": "72d3e4ca-cde9-42b9-9e6a-b0a2ab4e2629",
       "type": "description",
       "value": {
         "latex": "La méthode d'Euler explicite est convergente et consistante d'ordre 1. On considère l'approximation suivante :\n\t $$\\int_{t_n}^{t_{n+1}}f(s,y(s))ds \\approx h\\cdot f\\left( t_n+\\frac{h}{2},y\\left( t_n+\\frac{h}{2} \\right)  \\right).$$\n\nLa méthode qui en découle s'écrit donc sous la forme \n$$y_{n+1} = y_n + h\\cdot f\\left( t_n + \\frac{h}{2},y_{n+1/2} \\right)$$\noù $y_{n+1/2}$ reste à définir sous la forme \n$$y_{n+1/2} = y_n + \\frac{h}{2}G(t_n,y_n,h)$$",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "695baa22-930d-4c17-a6f4-01e79189fcab",
+      "id": "51116aa8-b73b-4c7c-a17a-e407c1ba09cb",
       "type": "question",
       "value": {
         "latex": "Déterminer une fonction $G$ permettant à ce schéma d'être consistant d'ordre 2.",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "6f9a8238-fae6-4bc8-bcbf-dd9d60ee4c4a",
+      "id": "760e043e-2563-400d-a5a5-c6823b35e7c2",
       "type": "reponse",
       "value": {
         "latex": "La méthode s'écrit donc sous la forme $y_{n+1} = y_n + H(t_n,y_n,h)$ avec $H(t,y,h) = f\\left(t+\\frac{h}{2},y+\\frac{h}{2}G(t,y,h)  \\right)$\n\nQuel que soit le choix de $G$, on obtient $H(t,y,0) = f(t,y)$ de sorte que par théorème, la méthode est consistante au moins d'ordre 1.\n\nOn dérive $H$ par rapport à $h$ :\n...\n\net on trouve que $\\frac{\\partial H}{\\partial h}(t,y,0) = \\frac{1}{2} f^{[1]}(t,y)$ si et seulement si $G(t,y,0)=f(t,y)$. On prend donc $G(t,y,h)=f(t,y)$.",

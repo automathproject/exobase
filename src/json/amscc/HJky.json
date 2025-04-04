@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2024-09-27",
-    "hasIndication": false,
-    "hasCorrection": true,
+    "hasIndication": "",
+    "hasCorrection": "",
     "youtube": "",
     "chapitre": "Probabilité continue",
     "sousChapitre": "Loi normale",
     "organisation": "AMSCC",
-    "updatedAt": "2025-03-24T17:14:00.765Z",
+    "updatedAt": "2025-04-04T19:02:09.280Z",
     "resume": "L'exercice porte sur l'application de la loi normale pour modéliser le poids d'adultes et calculer la probabilité de surcharge d'un ascenseur. Il évalue la capacité à : \n\n1. Justifier que la somme de variables aléatoires normales indépendantes suit une loi normale et calculer son espérance $\\mu_S = 70n$ et son écart-type $\\sigma_S = 15\\sqrt{n}$.\n2. Utiliser une table de la loi normale centrée réduite pour évaluer une probabilité.\n3. Calculer la probabilité de surcharge de l'ascenseur pour différents nombres d'adultes en utilisant la loi normale et le score $z = \\frac{x - \\mu}{\\sigma}$.\n4. Déterminer le nombre maximal de personnes autorisées dans l'ascenseur en fonction d'une contrainte de probabilité de surcharge maximale.",
     "competences": [
       "calculer une probabilité à partir de la loi normale",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "8708bd00-5f3d-4615-8ab8-472bc6348ca0",
+      "id": "c8063197-4460-4d89-943b-8267d1b52914",
       "type": "description",
       "value": {
         "latex": "On suppose que le poids d'un adulte peut être modélisé par une variable aléatoire $X$ qui suit une loi normale d'espérance $\\mu = 70$ kg et d'écart-type $\\sigma = 15$ kg.\n\n    Un ascenseur peut supporter 500 kg avant la surcharge. Les normes de sécurité spécifient que la probabilité de surcharge ne doit pas dépasser 0,0001. On admet que le poids total de $n$ usagers adultes d’ascenseurs, dont les poids sont indépendants, est une variable aléatoire $S = X_1+\\cdots X_n$ où $X_1, \\ldots, X_n$ sont des variables aléatoires indépendantes et identiquement distribuées selon la loi de $X$.",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "89e3a7dd-3fb9-4e2b-8616-7d8c937df13a",
+      "id": "9975e1e8-a290-41f9-96f6-8d8bc17b4669",
       "type": "question",
       "value": {
         "latex": "Justifier que la variable aléatoire $S$ suit une loi normale d’espérance $\\mu_S = 70n$ et d’écart-type $\\sigma_S = 15\\sqrt{n}$.",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "abdaf73f-905b-490a-bdc2-9164b184eb89",
+      "id": "3c71783b-7ee8-4485-92ad-f1d04fbdaaec",
       "type": "reponse",
       "value": {
         "latex": "On a $S = X_1 + \\cdots + X_n$ où $X_1, \\ldots, X_n$ sont des variables aléatoires indépendantes et identiquement distribuées selon la loi de $X$. Donc, $S$ est une somme de variables aléatoires indépendantes et identiquement distribuées. D’après le théorème central limite, $\\frac{S - \\mu_S}{\\sigma_S}$ suit une loi normale centrée réduite. Or par linéarité de l'espérance, on a $\\mu_S = \\mu + \\cdots + \\mu = 70n$. Par propriétés de la variance d'une somme de variables indépendantes, on a $\\sigma_S^2 = \\sigma^2 + \\cdots + \\sigma^2 = 15^2n$. Donc, $\\sigma_S = 15\\sqrt{n}$. Ainsi, $S$ suit une loi normale d’espérance $\\mu_S = 70n$ et d’écart-type $\\sigma_S = 15\\sqrt{n}$.",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "d600a010-11a8-4704-b82d-840953b594f8",
+      "id": "e0f136ec-60a4-415c-ba25-a8b63c8462c9",
       "type": "question",
       "value": {
         "latex": "Justifier que $\\prob(Z > 4{,}475) < 0{,}0001$ où $Z$ est une variable aléatoire suivant une loi normale centrée réduite.",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "ac2fe7bd-9393-40ac-b9a9-58b1a2cfe304",
+      "id": "a573028d-9afc-4cc6-93fb-07ba2a4772f0",
       "type": "reponse",
       "value": {
         "latex": "D'après la table de valeurs de la loi normale centrée réduite, on a $\\prob(Z < 3{,}99) > 0{,}9999$ donc par croissance de la fonction de répartition, on a $\\prob(Z < 4{,}475) > 0{,}9999$. Donc, $\\prob(Z > 4{,}475) < 0{,}0001$.",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "3c8e6c47-045b-49f1-9628-9282680a8e6a",
+      "id": "e5f57efa-07d5-4d41-b896-b629824e798b",
       "type": "question",
       "value": {
         "latex": "Calculer les probabilités de surcharge $p_5$ lorsqu’il y a 5 adultes dans l’ascenseur et $p_6$ lorsqu’il y a 6 adultes dans l’ascenseur.",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "5c678447-7855-4255-beb3-834f21c71037",
+      "id": "f94aa721-6778-4daa-a210-53fcf86e3258",
       "type": "reponse",
       "value": {
         "latex": "Pour $n = 5$ adultes :\n\n        Calcul de l'espérance et de l'écart-type du poids total $S$ :\n        \\[\n        \\mu_S = n \\times \\mu = 5 \\times 70 = 350 \\ \\text{kg}\n        \\]\n        \\[\n        \\sigma_S = \\sqrt{n} \\times \\sigma = \\sqrt{5} \\times 15 \\approx 33{,}54 \\ \\text{kg}\n        \\]\n        \n        Calcul du score $z$ correspondant à la limite de surcharge (500 kg) :\n        \\[\n        z_5 = \\frac{500 - \\mu_S}{\\sigma_S} = \\frac{500 - 350}{33{,}54} \\approx 4{,}475\n        \\]\n        \n        Calcul de la probabilité de surcharge $p_5$ :\n        \\[\n        p_5 = \\prob(S > 500) = \\prob(Z > z_5)\n        \\]\n        En utilisant lune calculatrice statistique :\n        \\[\n        \\prob(Z > 4{,}475) \\approx 0{,}000004\n        \\]\n        \n        D'après la question précédente, on a $\\prob(Z > 4{,}475) < 0{,}0001$ donc $p_5 < 0{,}0001$.\n        \n        \n        Pour $n = 6$ adultes :\n        \n        Calcul de l'espérance et de l'écart-type du poids total $S$ :\n        \\[\n        \\mu_S = n \\times \\mu = 6 \\times 70 = 420 \\ \\text{kg}\n        \\]\n        \\[\n        \\sigma_S = \\sqrt{n} \\times \\sigma = \\sqrt{6} \\times 15 \\approx 36{,}74 \\ \\text{kg}\n        \\]\n        \n        Calcul du score $z$ correspondant à la limite de surcharge (500 kg) :\n        \\[\n        z_6 = \\frac{500 - \\mu_S}{\\sigma_S} = \\frac{500 - 420}{36{,}74} \\approx 2{,}177\n        \\]\n        \n        Calcul de la probabilité de surcharge $p_6$ :\n        \\[\n        p_6 = \\prob(S > 500) = \\prob(Z > z_6)\n        \\]\n        En utilisant la table de la loi normale centrée réduite :\n        \\[\n        \\prob(Z > 2{,}177) \\approx 0{,}0148\n        \\]\n        On a donc $p_6 \\approx 0{,}0148$.",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "ca51ce82-1e44-465f-91ea-f1adde34b677",
+      "id": "401e4f37-f2f8-44a3-adda-08bb5579bddc",
       "type": "question",
       "value": {
         "latex": "En déduire le nombre maximal de personnes autorisées à emprunter l’ascenseur.",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "986e3557-9efd-466a-a3f2-001d1b850033",
+      "id": "66e1f7f0-585f-4883-a009-5996af5b3548",
       "type": "reponse",
       "value": {
         "latex": "On cherche le plus grand entier $n$ tel que $p_n \\leq 0{,}0001$. On a $p_5 \\approx 0{,}000004$ et $p_6 \\approx 0{,}0148$. Donc, le nombre maximal de personnes autorisées à emprunter l’ascenseur est 5.",
