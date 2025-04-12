@@ -1,3 +1,4 @@
+// script/add-meta-json.js
 const fs = require('fs').promises;
 const path = require('path');
 
