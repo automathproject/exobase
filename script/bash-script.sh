@@ -12,6 +12,7 @@ NC='\033[0m' # No Color
 SCRIPTS=(
   "rsync -av ../Exercices/src/ src/latex/amscc/"
   "node script/convertTex2JsonV4.js src/latex/ src/json/ --update"
+  "node script/add-bool-solution-indication.js"
   "node script/add-meta-json.js metadata/amscc-complet/exercises/ src/json/amscc/"
   "node script/create-json-bundles.js"
   "node generate_index.js"
@@ -20,6 +21,7 @@ SCRIPTS=(
 SCRIPT_NAMES=(
   "Synchronisation des fichiers"
   "Conversion TEX vers JSON"
+  "Ajout des indications de solution"
   "Ajout des métadonnées"
   "Création des bundles JSON"
   "Génération de l'index"
