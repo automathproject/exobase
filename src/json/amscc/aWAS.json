@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-12",
-    "hasIndication": false,
+    "hasIndication": true,
     "hasCorrection": true,
     "youtube": "",
     "chapitre": "Développement limité",
     "sousChapitre": "Calculs",
     "organisation": "AMSCC",
-    "updatedAt": "2025-04-04T19:02:46.726Z",
+    "updatedAt": "2025-04-12T16:11:27.316Z",
     "resume": "L'exercice demande de calculer le développement limité à l'ordre 3 au voisinage de 0 de $e^x \\cdot \\sin(x)$. Pour cela, il faut calculer le développement limité de $e^x$ et $\\sin(x)$ à l'ordre 3, puis effectuer le produit des deux développements en ne retenant que les termes de degré inférieur ou égal à 3.",
     "competences": [
       "calculer un développement limité d'un produit de fonctions",
@@ -52,19 +52,43 @@
   },
   "contenu": [
     {
-      "id": "593e4038-b303-4f47-8aa5-e65a20177bc1",
+      "id": "3e0a4515-c7c6-49e3-bdc1-0863c721232f",
       "type": "question",
       "value": {
-        "latex": "Donner le développement limité de $e^x$ et de $\\sin(x)$ au voisinage de $0$ à l'ordre $3$. En déduire le  développement limité de $e^x \\cdot \\sin(x)$ à l'ordre $3$.",
-        "html": "<p>Donner le développement limité de <span\nclass=\"math inline\">\\(e^x\\)</span> et de <span\nclass=\"math inline\">\\(\\sin(x)\\)</span> au voisinage de <span\nclass=\"math inline\">\\(0\\)</span> à l’ordre <span\nclass=\"math inline\">\\(3\\)</span>. En déduire le développement limité de\n<span class=\"math inline\">\\(e^x \\cdot \\sin(x)\\)</span> à l’ordre <span\nclass=\"math inline\">\\(3\\)</span>.</p>\n"
+        "latex": "Donner le développement limité de $e^x$ et de $\\sin(x)$ au voisinage de $0$ à l'ordre $3$.",
+        "html": "<p>Donner le développement limité de <span\nclass=\"math inline\">\\(e^x\\)</span> et de <span\nclass=\"math inline\">\\(\\sin(x)\\)</span> au voisinage de <span\nclass=\"math inline\">\\(0\\)</span> à l’ordre <span\nclass=\"math inline\">\\(3\\)</span>.</p>\n"
       }
     },
     {
-      "id": "c0f68354-3999-42ab-8caf-405637664036",
+      "id": "fed2b895-7506-4059-a2af-c2f414b55def",
       "type": "reponse",
       "value": {
-        "latex": "On prend d'abord les développements usuels :\n\t$$\n\t\\begin{aligned}\n\t\te^{x} &=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+x^{3} \\cdot \\varepsilon(x)=1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}+o\\left(x^{3}\\right) \\\\\n\t\t\\sin x &=x-\\frac{x^{3}}{3 !}+x^{3} \\cdot \\varepsilon(x)=x-\\frac{x^{3}}{6}+o\\left(x^{3}\\right)\n\t\\end{aligned}\n\t$$\n\tEffectuons le produit $\\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right) \\times\\left(x-\\frac{x^{3}}{6}\\right)$ en ne conservant que les termes de degré $\\leq 3$ :\n\t$$\n\t\\begin{aligned}\n\t\t\\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right) \\times\\left(x-\\frac{x^{3}}{6}\\right) &=1 \\times\\left(x-\\frac{x^{3}}{6}\\right)+x \\times(x)+\\frac{x^{2}}{2} \\times(x)+\\ldots \\\\\n\t\t&=x+x^{2}+\\left(-\\frac{1}{6}+\\frac{1}{2}\\right) x^{3}+\\ldots \\\\\n\t\t&=x+x^{2}+\\frac{x^{3}}{3}+\\ldots\n\t\\end{aligned}\n\t$$\n\tAinsi : $e^{x} \\cdot \\sin (x)=x+x^{2}+\\frac{x^{3}}{3}+o\\left(x^{3}\\right)=x+x^{2}+\\frac{x^{3}}{3}+x^{3} \\cdot \\varepsilon(x)$",
-        "html": "<p>On prend d’abord les développements usuels : <span\nclass=\"math display\">\\[\\begin{aligned}\n        e^{x} &amp;=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+x^{3} \\cdot\n\\varepsilon(x)=1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}+o\\left(x^{3}\\right)\n\\\\\n        \\sin x &amp;=x-\\frac{x^{3}}{3 !}+x^{3} \\cdot\n\\varepsilon(x)=x-\\frac{x^{3}}{6}+o\\left(x^{3}\\right)\n    \\end{aligned}\\]</span> Effectuons le produit <span\nclass=\"math inline\">\\(\\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right)\n\\times\\left(x-\\frac{x^{3}}{6}\\right)\\)</span> en ne conservant que les\ntermes de degré <span class=\"math inline\">\\(\\leq 3\\)</span> : <span\nclass=\"math display\">\\[\\begin{aligned}\n        \\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right)\n\\times\\left(x-\\frac{x^{3}}{6}\\right) &amp;=1\n\\times\\left(x-\\frac{x^{3}}{6}\\right)+x \\times(x)+\\frac{x^{2}}{2}\n\\times(x)+\\ldots \\\\\n        &amp;=x+x^{2}+\\left(-\\frac{1}{6}+\\frac{1}{2}\\right) x^{3}+\\ldots\n\\\\\n        &amp;=x+x^{2}+\\frac{x^{3}}{3}+\\ldots\n    \\end{aligned}\\]</span> Ainsi : <span class=\"math inline\">\\(e^{x}\n\\cdot \\sin\n(x)=x+x^{2}+\\frac{x^{3}}{3}+o\\left(x^{3}\\right)=x+x^{2}+\\frac{x^{3}}{3}+x^{3}\n\\cdot \\varepsilon(x)\\)</span></p>\n"
+        "latex": "On prend d'abord les développements usuels :\n\t\t$$\n\t\t\\begin{aligned}\n\t\t\te^{x} &=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+x^{3} \\cdot \\varepsilon(x)=1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}+o\\left(x^{3}\\right) \\\\\n\t\t\t\\sin x &=x-\\frac{x^{3}}{3 !}+x^{3} \\cdot \\varepsilon(x)=x-\\frac{x^{3}}{6}+o\\left(x^{3}\\right)\n\t\t\\end{aligned}\n\t\t$$",
+        "html": "<p>On prend d’abord les développements usuels : <span\nclass=\"math display\">\\[\\begin{aligned}\n            e^{x} &amp;=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+x^{3}\n\\cdot\n\\varepsilon(x)=1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}+o\\left(x^{3}\\right)\n\\\\\n            \\sin x &amp;=x-\\frac{x^{3}}{3 !}+x^{3} \\cdot\n\\varepsilon(x)=x-\\frac{x^{3}}{6}+o\\left(x^{3}\\right)\n        \\end{aligned}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "de72c679-3371-42bc-9071-d2d78d1b91c7",
+      "type": "question",
+      "value": {
+        "latex": "En déduire le  développement limité de $e^x  \\sin(x)$ à l'ordre $3$.",
+        "html": "<p>En déduire le développement limité de <span\nclass=\"math inline\">\\(e^x  \\sin(x)\\)</span> à l’ordre <span\nclass=\"math inline\">\\(3\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "960e1b65-8cf8-4134-bb59-9dac2e2770d4",
+      "type": "indication",
+      "value": {
+        "latex": "En développant le produit, certains termes disparaissent du développement limité à l'ordre $3$ car ce sont des $o(x^3)$. Précisément, c'est le cas de tous les termes de degré supérieur ou égal à $4$.",
+        "html": "<p>En développant le produit, certains termes disparaissent du\ndéveloppement limité à l’ordre <span class=\"math inline\">\\(3\\)</span>\ncar ce sont des <span class=\"math inline\">\\(o(x^3)\\)</span>.\nPrécisément, c’est le cas de tous les termes de degré supérieur ou égal\nà <span class=\"math inline\">\\(4\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "48136e50-31e6-44e8-9813-bba51fb8502b",
+      "type": "reponse",
+      "value": {
+        "latex": "On effectue le produit $\\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right) \\times\\left(x-\\frac{x^{3}}{6}\\right)$ en ne conservant que les termes de degré $\\leq 3$ :\n\t\t$$\n\t\t\\begin{aligned}\n\t\t\t\\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right) \\times\\left(x-\\frac{x^{3}}{6}\\right) &=1 \\times\\left(x-\\frac{x^{3}}{6}\\right)+x \\times(x)+\\frac{x^{2}}{2} \\times(x)+\\ldots \\\\\n\t\t\t&=x+x^{2}+\\left(-\\frac{1}{6}+\\frac{1}{2}\\right) x^{3}+\\ldots \\\\\n\t\t\t&=x+x^{2}+\\frac{x^{3}}{3}+\\ldots\n\t\t\\end{aligned}\n\t\t$$\n\t\tAinsi : $e^{x} \\cdot \\sin (x)=x+x^{2}+\\frac{x^{3}}{3}+o\\left(x^{3}\\right)=x+x^{2}+\\frac{x^{3}}{3}+x^{3} \\cdot \\varepsilon(x)$",
+        "html": "<p>On effectue le produit <span\nclass=\"math inline\">\\(\\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right)\n\\times\\left(x-\\frac{x^{3}}{6}\\right)\\)</span> en ne conservant que les\ntermes de degré <span class=\"math inline\">\\(\\leq 3\\)</span> : <span\nclass=\"math display\">\\[\\begin{aligned}\n            \\left(1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{6}\\right)\n\\times\\left(x-\\frac{x^{3}}{6}\\right) &amp;=1\n\\times\\left(x-\\frac{x^{3}}{6}\\right)+x \\times(x)+\\frac{x^{2}}{2}\n\\times(x)+\\ldots \\\\\n            &amp;=x+x^{2}+\\left(-\\frac{1}{6}+\\frac{1}{2}\\right)\nx^{3}+\\ldots \\\\\n            &amp;=x+x^{2}+\\frac{x^{3}}{3}+\\ldots\n        \\end{aligned}\\]</span> Ainsi : <span class=\"math inline\">\\(e^{x}\n\\cdot \\sin\n(x)=x+x^{2}+\\frac{x^{3}}{3}+o\\left(x^{3}\\right)=x+x^{2}+\\frac{x^{3}}{3}+x^{3}\n\\cdot \\varepsilon(x)\\)</span></p>\n"
       }
     }
   ],

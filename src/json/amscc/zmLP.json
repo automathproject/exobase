@@ -15,7 +15,7 @@
     "chapitre": "Continuité, limite et étude de fonctions réelles",
     "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
     "organisation": "AMSCC",
-    "updatedAt": "2025-04-04T19:05:16.652Z",
+    "updatedAt": "2025-04-12T16:11:28.270Z",
     "resume": "L'exercice consiste à déterminer un équivalent simple de diverses fonctions en des points spécifiés. Les compétences mises en œuvre incluent : \n\n*   Détermination de l'équivalent d'un quotient de polynômes en $0$ et en $+\\infty$.\n*   Détermination de l'équivalent d'expressions trigonométriques en $0$ et en $+\\infty$, notamment en utilisant des développements limités.\n*   Détermination de l'équivalent d'expressions exponentielles et logarithmiques en $0$ et en $+\\infty$, notamment en utilisant des développements limités.\n*   Utilisation des équivalents usuels (par exemple, $\\sin(x) \\sim x$ quand $x \\rightarrow 0$, $e^x - 1 \\sim x$ quand $x \\rightarrow 0$, $\\ln(1+x) \\sim x$ quand $x \\rightarrow 0$).",
     "competences": [
       "déterminer un équivalent simple d'une fonction en un point donné",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "3e0dd8bb-92c3-4857-a8b1-1fa6dfbb7d12",
+      "id": "2db9a00d-242f-49fa-ae77-93dea7b42cc0",
       "type": "description",
       "value": {
         "latex": "Trouver un équivalent simple pour chaque fonction suivante :",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "e1824c27-fdf4-49ac-9d00-e3ae7a8215d0",
+      "id": "64bed99e-b585-4c63-b276-a1fad8a72106",
       "type": "question",
       "value": {
         "latex": "$\\frac{x^2+2x+1}{x^3+x+2} \\ \\text{ en } 0$",
@@ -69,31 +69,31 @@
       }
     },
     {
-      "id": "0dfbaf8c-15dc-4698-9f13-bcb4bafec70b",
+      "id": "1d08dd8a-a442-4386-8f11-768022aaa4ff",
       "type": "reponse",
       "value": {
-        "latex": "$\\frac{1}{2}$",
-        "html": "<p><span class=\"math inline\">\\(\\frac{1}{2}\\)</span></p>\n"
+        "latex": "Réponse : $\\frac{1}{2}$ \\\\ \n\t\tLorsque $x \\to 0$, le numérateur tend vers $(0)^2+2(0)+1 = 1$ et le dénominateur vers $(0)^3+(0)+2 = 2$. Donc la fonction est équivalente à $\\frac{1}{2}$ en $0$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{1}{2}\\)</span><br />\nLorsque <span class=\"math inline\">\\(x \\to 0\\)</span>, le numérateur tend\nvers <span class=\"math inline\">\\((0)^2+2(0)+1 = 1\\)</span> et le\ndénominateur vers <span class=\"math inline\">\\((0)^3+(0)+2 = 2\\)</span>.\nDonc la fonction est équivalente à <span\nclass=\"math inline\">\\(\\frac{1}{2}\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
       }
     },
     {
-      "id": "b755cedb-e003-4b1f-b344-5a54c98b6902",
+      "id": "085c15b5-17c6-44cc-9b27-9f68db9a9818",
       "type": "question",
       "value": {
-        "latex": "\\frac{(x+1)^3}{(2x^4-3x^2+5)^2} \\ \\text{ en } +\\infty$",
-        "html": ""
+        "latex": "$\\frac{(x+1)^3}{(2x^4-3x^2+5)^2} \\ \\text{ en } +\\infty$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{(x+1)^3}{(2x^4-3x^2+5)^2} \\ \\text{\nen } +\\infty\\)</span></p>\n"
       }
     },
     {
-      "id": "ea21b130-38b0-451b-b7c5-a2a4ca697d97",
+      "id": "ea9ebb06-72e3-4999-bbd8-4e52a0e80eff",
       "type": "reponse",
       "value": {
-        "latex": "$\\frac{1}{4x^8}$",
-        "html": "<p><span class=\"math inline\">\\(\\frac{1}{4x^8}\\)</span></p>\n"
+        "latex": "Réponse : $\\frac{1}{4x^5}$ \\\\\n\t\tQuand $x \\to +\\infty$, on a $(x+1)^3 \\sim x^3$ et $(2x^4-3x^2+5)^2 \\sim (2x^4)^2 = 4x^8$. Donc la fonction est équivalente à $\\frac{x^3}{4x^8} = \\frac{1}{4x^5}$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{1}{4x^5}\\)</span><br />\nQuand <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, on a <span\nclass=\"math inline\">\\((x+1)^3 \\sim x^3\\)</span> et <span\nclass=\"math inline\">\\((2x^4-3x^2+5)^2 \\sim (2x^4)^2 = 4x^8\\)</span>.\nDonc la fonction est équivalente à <span\nclass=\"math inline\">\\(\\frac{x^3}{4x^8} = \\frac{1}{4x^5}\\)</span>.</p>\n"
       }
     },
     {
-      "id": "8edd6912-2a80-4865-b540-98c05cde7402",
+      "id": "18f4589c-78f5-4829-8bbb-64a1c1c4cb15",
       "type": "question",
       "value": {
         "latex": "$\\sin x + \\cos x \\ \\text{ en } 0$",
@@ -101,15 +101,15 @@
       }
     },
     {
-      "id": "4ad92d07-db8e-4db9-ad5b-1dbbb3ec3b59",
+      "id": "b20bdd49-87df-4028-9aae-f8edf13b91e6",
       "type": "reponse",
       "value": {
-        "latex": "$1$",
-        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+        "latex": "Réponse : $1$ \\\\\n\t\tEn $0$, $\\sin(0) = 0$ et $\\cos(0) = 1$. Plus précisément, $\\sin x \\sim x$ et $\\cos x \\sim 1-\\frac{x^2}{2}$ en $0$, donc $\\sin x + \\cos x \\sim 1$ car le terme constant est dominant.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(1\\)</span><br />\nEn <span class=\"math inline\">\\(0\\)</span>, <span\nclass=\"math inline\">\\(\\sin(0) = 0\\)</span> et <span\nclass=\"math inline\">\\(\\cos(0) = 1\\)</span>. Plus précisément, <span\nclass=\"math inline\">\\(\\sin x \\sim x\\)</span> et <span\nclass=\"math inline\">\\(\\cos x \\sim 1-\\frac{x^2}{2}\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span>, donc <span class=\"math inline\">\\(\\sin\nx + \\cos x \\sim 1\\)</span> car le terme constant est dominant.</p>\n"
       }
     },
     {
-      "id": "08b5d705-7738-4545-8360-23d809b6664a",
+      "id": "11ffbc64-bba9-4c5e-b129-e34145f3cadb",
       "type": "question",
       "value": {
         "latex": "$ \\sqrt{\\frac{1}{x^2}+1} \\ \\text{ en } +\\infty$",
@@ -117,15 +117,15 @@
       }
     },
     {
-      "id": "4a51e135-5c27-48bc-b08d-8147905403cc",
+      "id": "80284177-da19-4529-8cbb-ae5a1b1249f3",
       "type": "reponse",
       "value": {
-        "latex": "$1$",
-        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+        "latex": "Réponse : $1$ \\\\\n\t\tQuand $x \\to +\\infty$, $\\frac{1}{x^2} \\to 0$, donc $\\frac{1}{x^2}+1 \\sim 1$. Par continuité de la racine carrée, $\\sqrt{\\frac{1}{x^2}+1} \\sim \\sqrt{1} = 1$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(1\\)</span><br />\nQuand <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{1}{x^2} \\to 0\\)</span>, donc <span\nclass=\"math inline\">\\(\\frac{1}{x^2}+1 \\sim 1\\)</span>. Par continuité de\nla racine carrée, <span class=\"math inline\">\\(\\sqrt{\\frac{1}{x^2}+1}\n\\sim \\sqrt{1} = 1\\)</span>.</p>\n"
       }
     },
     {
-      "id": "a248018c-eabf-4442-8fde-b514c76d2a3e",
+      "id": "3f77ea24-a8a2-4936-8e93-6b744f6a9be5",
       "type": "question",
       "value": {
         "latex": "$1-e^{{x}} \\ \\text{ en } 0$",
@@ -133,15 +133,15 @@
       }
     },
     {
-      "id": "2b8d77b8-3f98-4ca9-a3c0-09fb74906646",
+      "id": "9695fa08-1b12-4c8e-9435-2fd7973b3cf6",
       "type": "reponse",
       "value": {
-        "latex": "$-x$",
-        "html": "<p><span class=\"math inline\">\\(-x\\)</span></p>\n"
+        "latex": "Réponse : $-x$ \\\\\n\t\tEn développant $e^x$ en $0$ : $e^x = 1 + x + o(x)$. Donc $1-e^x = 1-(1+x+o(x)) = -x + o(x)$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(-x\\)</span><br />\nEn développant <span class=\"math inline\">\\(e^x\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span> : <span class=\"math inline\">\\(e^x = 1 +\nx + o(x)\\)</span>. Donc <span class=\"math inline\">\\(1-e^x = 1-(1+x+o(x))\n= -x + o(x)\\)</span>.</p>\n"
       }
     },
     {
-      "id": "5b8e8821-0f87-45c5-bcf3-54ba8d051e4b",
+      "id": "fa61af82-9e21-42b8-8057-86029c81d381",
       "type": "question",
       "value": {
         "latex": "$1-e^{\\frac{1}{x^2}} \\ \\text{ en } +\\infty$",
@@ -149,15 +149,15 @@
       }
     },
     {
-      "id": "5c43c456-a8b4-4389-b85f-1cb28b63d9d6",
+      "id": "fe307a69-9044-42b7-9c35-44118490c0d3",
       "type": "reponse",
       "value": {
-        "latex": "$-\\frac{1}{x^2}$",
-        "html": "<p><span class=\"math inline\">\\(-\\frac{1}{x^2}\\)</span></p>\n"
+        "latex": "Réponse : $-\\frac{1}{x^2}$ \\\\\n\t\tQuand $x \\to +\\infty$, $\\frac{1}{x^2} \\to 0$. En posant $t = \\frac{1}{x^2}$, on a $e^t = 1 + t + o(t)$. Donc $1-e^{\\frac{1}{x^2}} = -\\frac{1}{x^2} + o(\\frac{1}{x^2})$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(-\\frac{1}{x^2}\\)</span><br />\nQuand <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{1}{x^2} \\to 0\\)</span>. En posant <span\nclass=\"math inline\">\\(t = \\frac{1}{x^2}\\)</span>, on a <span\nclass=\"math inline\">\\(e^t = 1 + t + o(t)\\)</span>. Donc <span\nclass=\"math inline\">\\(1-e^{\\frac{1}{x^2}} = -\\frac{1}{x^2} +\no(\\frac{1}{x^2})\\)</span>.</p>\n"
       }
     },
     {
-      "id": "7f412f0f-4a2a-49b1-ac42-3d3592887b3a",
+      "id": "7795cc24-67fa-4aab-b9fa-9bd4170786cc",
       "type": "question",
       "value": {
         "latex": "$ x\\sin\\left(\\frac{1}{x}\\right) \\ \\text{ en } +\\infty$",
@@ -165,15 +165,15 @@
       }
     },
     {
-      "id": "6b9ba9fe-4997-41f1-83e2-64e44e2bb880",
+      "id": "04b18087-3bd1-47bc-aaa6-d1aa59db21a3",
       "type": "reponse",
       "value": {
-        "latex": "$1$",
-        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+        "latex": "Réponse : $1$ \\\\\n\t\tQuand $x \\to +\\infty$, $\\frac{1}{x} \\to 0$. En posant $t = \\frac{1}{x}$, on a $\\sin(t) \\sim t$. Donc $x\\sin\\left(\\frac{1}{x}\\right) \\sim x \\cdot \\frac{1}{x} = 1$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(1\\)</span><br />\nQuand <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{1}{x} \\to 0\\)</span>. En posant <span\nclass=\"math inline\">\\(t = \\frac{1}{x}\\)</span>, on a <span\nclass=\"math inline\">\\(\\sin(t) \\sim t\\)</span>. Donc <span\nclass=\"math inline\">\\(x\\sin\\left(\\frac{1}{x}\\right) \\sim x \\cdot\n\\frac{1}{x} = 1\\)</span>.</p>\n"
       }
     },
     {
-      "id": "7b3f8d88-fc9e-4a3d-a1d9-cfc24464fef9",
+      "id": "4d5fba24-a3d5-4f50-aef1-dfb8dad65413",
       "type": "question",
       "value": {
         "latex": "$ \\frac{\\sqrt{x}+1}{2x^2+x} \\ \\text{ en } +\\infty$",
@@ -181,15 +181,15 @@
       }
     },
     {
-      "id": "70ed843a-1a42-4f24-9d23-d175f340291b",
+      "id": "2878a225-cd22-4e76-867b-9c9719bdff4f",
       "type": "reponse",
       "value": {
-        "latex": "$\\frac{1}{2x\\sqrt{x}}$",
-        "html": "<p><span class=\"math inline\">\\(\\frac{1}{2x\\sqrt{x}}\\)</span></p>\n"
+        "latex": "Réponse : $\\frac{1}{2x^{3/2}}$ \\\\\n\t\tPour $x \\to +\\infty$, les termes dominants sont $\\sqrt{x}$ au numérateur et $2x^2$ au dénominateur. Donc $\\frac{\\sqrt{x}+1}{2x^2+x} \\sim \\frac{\\sqrt{x}}{2x^2} = \\frac{1}{2x^{3/2}}$.",
+        "html": "<p>Réponse : <span\nclass=\"math inline\">\\(\\frac{1}{2x^{3/2}}\\)</span><br />\nPour <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, les termes\ndominants sont <span class=\"math inline\">\\(\\sqrt{x}\\)</span> au\nnumérateur et <span class=\"math inline\">\\(2x^2\\)</span> au dénominateur.\nDonc <span class=\"math inline\">\\(\\frac{\\sqrt{x}+1}{2x^2+x} \\sim\n\\frac{\\sqrt{x}}{2x^2} = \\frac{1}{2x^{3/2}}\\)</span>.</p>\n"
       }
     },
     {
-      "id": "3a75d7ea-efb1-4a3c-8cdf-94004a4ed6b2",
+      "id": "2290b259-edbb-4ee8-95c3-f1bb0291aebc",
       "type": "question",
       "value": {
         "latex": "$ \\sqrt{x} \\ln\\left(1+\\frac{1}{\\sqrt{x}}\\right) \\ \\text{ en } +\\infty$",
@@ -197,15 +197,15 @@
       }
     },
     {
-      "id": "e298f319-39d1-4982-b77d-460a93614b5d",
+      "id": "eb971154-753d-450c-aa19-b39f89d9a8e6",
       "type": "reponse",
       "value": {
-        "latex": "$1$",
-        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+        "latex": "Réponse : $1$ \\\\\n\t\tPour $x \\to +\\infty$, $\\frac{1}{\\sqrt{x}} \\to 0$. Avec $t = \\frac{1}{\\sqrt{x}}$, on a $\\ln(1+t) \\sim t$. Donc $\\sqrt{x} \\ln\\left(1+\\frac{1}{\\sqrt{x}}\\right) \\sim \\sqrt{x} \\cdot \\frac{1}{\\sqrt{x}} = 1$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(1\\)</span><br />\nPour <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{1}{\\sqrt{x}} \\to 0\\)</span>. Avec <span\nclass=\"math inline\">\\(t = \\frac{1}{\\sqrt{x}}\\)</span>, on a <span\nclass=\"math inline\">\\(\\ln(1+t) \\sim t\\)</span>. Donc <span\nclass=\"math inline\">\\(\\sqrt{x} \\ln\\left(1+\\frac{1}{\\sqrt{x}}\\right) \\sim\n\\sqrt{x} \\cdot \\frac{1}{\\sqrt{x}} = 1\\)</span>.</p>\n"
       }
     },
     {
-      "id": "715d971c-262f-438d-adfb-45e31172f1d5",
+      "id": "ea2c0eba-ae0f-4fc0-bf6c-2677e81b05d8",
       "type": "question",
       "value": {
         "latex": "$ e^x+\\sin(x^3) \\ \\text{ en } 0$",
@@ -213,15 +213,15 @@
       }
     },
     {
-      "id": "70844823-84b3-4c78-a2b0-4ebae35ad8aa",
+      "id": "ec9c9994-78cb-4821-83fc-fc494d654ea8",
       "type": "reponse",
       "value": {
-        "latex": "$1$",
-        "html": "<p><span class=\"math inline\">\\(1\\)</span></p>\n"
+        "latex": "Réponse : $1$ \\\\\n\t\tEn $0$, $e^0 = 1$ et $\\sin(0) = 0$. Plus précisément, $e^x \\sim 1 + x$ et $\\sin(x^3) \\sim x^3$ au voisinage de $0$. Donc $e^x+\\sin(x^3) \\sim 1$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(1\\)</span><br />\nEn <span class=\"math inline\">\\(0\\)</span>, <span\nclass=\"math inline\">\\(e^0 = 1\\)</span> et <span\nclass=\"math inline\">\\(\\sin(0) = 0\\)</span>. Plus précisément, <span\nclass=\"math inline\">\\(e^x \\sim 1 + x\\)</span> et <span\nclass=\"math inline\">\\(\\sin(x^3) \\sim x^3\\)</span> au voisinage de <span\nclass=\"math inline\">\\(0\\)</span>. Donc <span\nclass=\"math inline\">\\(e^x+\\sin(x^3) \\sim 1\\)</span>.</p>\n"
       }
     },
     {
-      "id": "3cf60bf8-f328-4864-9ee8-ef714bd0ab4c",
+      "id": "51f32591-83b1-42c0-8d9a-944f58c9cd06",
       "type": "question",
       "value": {
         "latex": "$ \\ln(\\cos(x)) \\ \\text{ en } 0 $",
@@ -229,11 +229,11 @@
       }
     },
     {
-      "id": "a3e352e8-35c0-4f82-b119-7767d3af8a68",
+      "id": "2fdb2e43-fc86-4734-9d09-9209df989940",
       "type": "reponse",
       "value": {
-        "latex": "$-\\frac{x^2}{2}$",
-        "html": "<p><span class=\"math inline\">\\(-\\frac{x^2}{2}\\)</span></p>\n"
+        "latex": "Réponse : $-\\frac{x^2}{2}$ \\\\\n\t\tDéveloppons $\\cos(x) \\sim 1 - \\frac{x^2}{2}$ en $0$. En utilisant $\\ln(1+t) \\sim t$ pour $t$ proche de $0$ et en posant $t = \\cos(x) - 1 \\sim -\\frac{x^2}{2}$, on obtient $\\ln(\\cos(x)) \\sim -\\frac{x^2}{2}$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(-\\frac{x^2}{2}\\)</span><br />\nDéveloppons <span class=\"math inline\">\\(\\cos(x) \\sim 1 -\n\\frac{x^2}{2}\\)</span> en <span class=\"math inline\">\\(0\\)</span>. En\nutilisant <span class=\"math inline\">\\(\\ln(1+t) \\sim t\\)</span> pour\n<span class=\"math inline\">\\(t\\)</span> proche de <span\nclass=\"math inline\">\\(0\\)</span> et en posant <span\nclass=\"math inline\">\\(t = \\cos(x) - 1 \\sim -\\frac{x^2}{2}\\)</span>, on\nobtient <span class=\"math inline\">\\(\\ln(\\cos(x)) \\sim\n-\\frac{x^2}{2}\\)</span>.</p>\n"
       }
     }
   ],

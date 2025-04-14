@@ -13,7 +13,7 @@ SCRIPTS=(
   "rsync -av ../Exercices/src/ src/latex/amscc/"
   "node script/convertTex2JsonV4.js src/latex/ src/json/ --update"
   "node script/add-bool-solution-indication.js"
-  "node script/add-meta-json.js metadata/amscc-complet/exercises/ src/json/amscc/"
+  "node script/add-meta-json.js metadata/amscc/exercises/ src/json/amscc/"
   "node script/create-json-bundles.js"
   "node generate_index.js"
 )

@@ -10,12 +10,12 @@
     "auteur": "",
     "createdAt": "2023-05-11",
     "hasIndication": false,
-    "hasCorrection": false,
+    "hasCorrection": true,
     "youtube": "",
     "chapitre": "Continuité, limite et étude de fonctions réelles",
     "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
     "organisation": "AMSCC",
-    "updatedAt": "2025-04-04T19:02:59.737Z",
+    "updatedAt": "2025-04-12T16:11:27.675Z",
     "resume": "Cet exercice évalue la compréhension et l'application de la notion d'équivalence de fonctions au voisinage d'un point (fini ou infini). Il requiert de vérifier si des affirmations du type $f(x) \\underset{x\\to a}{\\sim} g(x)$ sont vraies, en justifiant par la définition de l'équivalence, c'est-à-dire en vérifiant si $\\lim_{x \\to a} \\frac{f(x)}{g(x)} = 1$. L'exercice couvre des fonctions polynomiales, logarithmiques, exponentielles et rationnelles.",
     "competences": [
       "appliquer la définition d'équivalence de fonctions",
@@ -50,93 +50,165 @@
   },
   "contenu": [
     {
-      "id": "ecabd325-41c6-423c-9fd4-c87d0b6ef0aa",
-      "type": "description",
+      "id": "c1725b55-0d52-4ec0-85fc-3f671f72d0a1",
+      "type": "question",
       "value": {
-        "latex": "Quels sont les équivalents corrects parmi les propositions suivantes ? Justifier (en revenant à la définition si nécessaire).",
-        "html": "<p>Quels sont les équivalents corrects parmi les propositions suivantes\n? Justifier (en revenant à la définition si nécessaire).</p>\n"
+        "latex": "$x+1 \\underset{x\\longrightarrow+\\infty}{\\sim} x$",
+        "html": "<p><span class=\"math inline\">\\(x+1\n\\underset{x\\longrightarrow+\\infty}{\\sim} x\\)</span></p>\n"
       }
     },
     {
-      "id": "bd9d3a0a-5497-4b4b-a144-5b523b3f3335",
-      "type": "question",
+      "id": "1835f144-3016-40e3-8fad-067e0c16ac81",
+      "type": "reponse",
       "value": {
-        "latex": "$x+1 \\underset{x\\to+\\infty}\\sim x$",
-        "html": "<p><span class=\"math inline\">\\(x+1 \\underset{x\\to+\\infty}\\sim\nx\\)</span></p>\n"
+        "latex": "Vrai. En effet, par définition, $f(x)\\sim g(x)$ lorsque\n\t\t\t\\[\n\t\t\t\\frac{f(x)}{g(x)}\\longrightarrow 1.\n\t\t\t\\]\n\t\t\tIci,\n\t\t\t\\[\n\t\t\t\\frac{x+1}{x} = 1+\\frac{1}{x}\\longrightarrow 1 \\quad \\text{lorsque } x\\longrightarrow+\\infty.\n\t\t\t\\]",
+        "html": "<p>Vrai. En effet, par définition, <span class=\"math inline\">\\(f(x)\\sim\ng(x)\\)</span> lorsque <span\nclass=\"math display\">\\[\\frac{f(x)}{g(x)}\\longrightarrow 1.\\]</span> Ici,\n<span class=\"math display\">\\[\\frac{x+1}{x} =\n1+\\frac{1}{x}\\longrightarrow 1 \\quad \\text{lorsque }\nx\\longrightarrow+\\infty.\\]</span></p>\n"
       }
     },
     {
-      "id": "8ef3dcdd-922a-4c28-b9a0-0722c82c2c59",
+      "id": "1ce5b5d0-07ff-4de2-94a6-86546cb1367a",
       "type": "question",
       "value": {
-        "latex": "$x^2-x \\underset{x\\to+\\infty}\\sim x$",
-        "html": "<p><span class=\"math inline\">\\(x^2-x \\underset{x\\to+\\infty}\\sim\nx\\)</span></p>\n"
+        "latex": "$x^2-x \\underset{x\\longrightarrow+\\infty}{\\sim} x$",
+        "html": "<p><span class=\"math inline\">\\(x^2-x\n\\underset{x\\longrightarrow+\\infty}{\\sim} x\\)</span></p>\n"
       }
     },
     {
-      "id": "dc738f36-49b0-4b0b-8b8f-7a9cacf341c1",
-      "type": "question",
+      "id": "ffda5f0c-7f67-4a5c-b399-ceafae9b5b37",
+      "type": "reponse",
       "value": {
-        "latex": "$ \\ln(x) \\underset{x\\to+\\infty}\\sim \\ln(10^6x)$",
-        "html": "<p><span class=\"math inline\">\\(\\ln(x) \\underset{x\\to+\\infty}\\sim\n\\ln(10^6x)\\)</span></p>\n"
+        "latex": "Faux. On a :\n\t\t\t\\[\n\t\t\t\\frac{x^2-x}{x} = x-1,\n\t\t\t\\]\n\t\t\tet puisque $x-1\\longrightarrow+\\infty$ lorsque $x\\longrightarrow+\\infty$, le rapport ne tend pas vers 1.",
+        "html": "<p>Faux. On a : <span class=\"math display\">\\[\\frac{x^2-x}{x} =\nx-1,\\]</span> et puisque <span\nclass=\"math inline\">\\(x-1\\longrightarrow+\\infty\\)</span> lorsque <span\nclass=\"math inline\">\\(x\\longrightarrow+\\infty\\)</span>, le rapport ne\ntend pas vers 1.</p>\n"
       }
     },
     {
-      "id": "e8b1cb25-e796-4c8a-a0db-2f35686fae17",
+      "id": "42e790fe-52b4-48aa-9225-f4720f2de13e",
       "type": "question",
       "value": {
-        "latex": "$x^2+2x+1 \\underset{x\\to+\\infty}\\sim x^2+2x$",
-        "html": "<p><span class=\"math inline\">\\(x^2+2x+1 \\underset{x\\to+\\infty}\\sim\nx^2+2x\\)</span></p>\n"
+        "latex": "$\\ln(x) \\underset{x\\longrightarrow+\\infty}{\\sim}\\ln(10^6x)$",
+        "html": "<p><span class=\"math inline\">\\(\\ln(x)\n\\underset{x\\longrightarrow+\\infty}{\\sim}\\ln(10^6x)\\)</span></p>\n"
       }
     },
     {
-      "id": "89192f29-0abc-46ad-b447-4c152ade5365",
-      "type": "question",
+      "id": "709ee4f4-fd59-4a4c-aa54-ce6722dfec4c",
+      "type": "reponse",
       "value": {
-        "latex": "$\\sqrt{x+1} \\underset{x\\to 0}\\sim 1$",
-        "html": "<p><span class=\"math inline\">\\(\\sqrt{x+1} \\underset{x\\to 0}\\sim\n1\\)</span></p>\n"
+        "latex": "Vrai. En utilisant la propriété logarithmique,\n\t\t\t\\[\n\t\t\t\\ln(10^6x)=\\ln(10^6)+\\ln(x),\n\t\t\t\\]\n\t\t\ton obtient :\n\t\t\t\\[\n\t\t\t\\frac{\\ln(10^6x)}{\\ln(x)} = 1+\\frac{\\ln(10^6)}{\\ln(x)}\\longrightarrow 1 \\quad \\text{lorsque } x\\longrightarrow+\\infty.\n\t\t\t\\]",
+        "html": "<p>Vrai. En utilisant la propriété logarithmique, <span\nclass=\"math display\">\\[\\ln(10^6x)=\\ln(10^6)+\\ln(x),\\]</span> on obtient\n: <span class=\"math display\">\\[\\frac{\\ln(10^6x)}{\\ln(x)} =\n1+\\frac{\\ln(10^6)}{\\ln(x)}\\longrightarrow 1 \\quad \\text{lorsque }\nx\\longrightarrow+\\infty.\\]</span></p>\n"
       }
     },
     {
-      "id": "4e4e2fa7-9559-441d-9cfd-39630a71b62a",
+      "id": "cc09e7f2-4a8f-4699-9429-2e412ed72fee",
       "type": "question",
       "value": {
-        "latex": "$ x \\underset{x\\to 0}\\sim 2x$",
-        "html": "<p><span class=\"math inline\">\\(x \\underset{x\\to 0}\\sim 2x\\)</span></p>\n"
+        "latex": "$x^2+2x+1 \\underset{x\\longrightarrow+\\infty}{\\sim} x^2+2x$",
+        "html": "<p><span class=\"math inline\">\\(x^2+2x+1\n\\underset{x\\longrightarrow+\\infty}{\\sim} x^2+2x\\)</span></p>\n"
       }
     },
     {
-      "id": "2711435b-2b99-43b7-b68f-e4a7f0f1c8ff",
-      "type": "question",
+      "id": "336ff5ff-cf6d-4143-9f30-caaa42c377ca",
+      "type": "reponse",
       "value": {
-        "latex": "$e^x \\underset{x\\to+\\infty}\\sim e^{x+10^6}$",
-        "html": "<p><span class=\"math inline\">\\(e^x \\underset{x\\to+\\infty}\\sim\ne^{x+10^6}\\)</span></p>\n"
+        "latex": "Vrai. En divisant numérateur et dénominateur par $x^2$, on trouve :\n\t\t\t\\[\n\t\t\t\\frac{x^2+2x+1}{x^2+2x}=\\frac{1+\\frac{2}{x}+\\frac{1}{x^2}}{1+\\frac{2}{x}}\\longrightarrow 1 \\quad \\text{lorsque } x\\longrightarrow+\\infty.\n\t\t\t\\]",
+        "html": "<p>Vrai. En divisant numérateur et dénominateur par <span\nclass=\"math inline\">\\(x^2\\)</span>, on trouve : <span\nclass=\"math display\">\\[\\frac{x^2+2x+1}{x^2+2x}=\\frac{1+\\frac{2}{x}+\\frac{1}{x^2}}{1+\\frac{2}{x}}\\longrightarrow\n1 \\quad \\text{lorsque } x\\longrightarrow+\\infty.\\]</span></p>\n"
       }
     },
     {
-      "id": "c6144c81-f4cc-44b4-b476-784d2a296f0f",
+      "id": "c46ac3bc-b07d-4ffa-a3e9-c4e3388da1d0",
       "type": "question",
       "value": {
-        "latex": "$e^x \\underset{x\\to 0}\\sim e^{2x}$",
-        "html": "<p><span class=\"math inline\">\\(e^x \\underset{x\\to 0}\\sim\ne^{2x}\\)</span></p>\n"
+        "latex": "$\\sqrt{x+1} \\underset{x\\longrightarrow 0}{\\sim} 1$",
+        "html": "<p><span class=\"math inline\">\\(\\sqrt{x+1} \\underset{x\\longrightarrow\n0}{\\sim} 1\\)</span></p>\n"
       }
     },
     {
-      "id": "9097b35d-8cda-493f-8293-58904959bf2b",
-      "type": "question",
+      "id": "e54c32a3-f785-4f4b-ac8a-6aa72f802993",
+      "type": "reponse",
       "value": {
-        "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\to+\\infty}\\sim 3x^2$",
-        "html": "<p><span class=\"math inline\">\\(\\frac{6x^3+2x}{2x+1}\n\\underset{x\\to+\\infty}\\sim 3x^2\\)</span></p>\n"
+        "latex": "Vrai. Par développement limité de $\\sqrt{1+x}$ au voisinage de $0$, on a :\n\t\t\t\\[\n\t\t\t\\sqrt{1+x}=1+\\frac{x}{2}-\\frac{x^2}{8}+\\cdots,\n\t\t\t\\]\n\t\t\tce qui implique que\n\t\t\t\\[\n\t\t\t\\frac{\\sqrt{x+1}}{1}\\longrightarrow 1 \\quad \\text{lorsque } x\\longrightarrow 0.\n\t\t\t\\]",
+        "html": "<p>Vrai. Par développement limité de <span\nclass=\"math inline\">\\(\\sqrt{1+x}\\)</span> au voisinage de <span\nclass=\"math inline\">\\(0\\)</span>, on a : <span\nclass=\"math display\">\\[\\sqrt{1+x}=1+\\frac{x}{2}-\\frac{x^2}{8}+\\cdots,\\]</span>\nce qui implique que <span\nclass=\"math display\">\\[\\frac{\\sqrt{x+1}}{1}\\longrightarrow 1 \\quad\n\\text{lorsque } x\\longrightarrow 0.\\]</span></p>\n"
       }
     },
     {
-      "id": "dd63fcb6-165d-4ad6-9344-72a46c4020e3",
+      "id": "38dc0d60-a6b9-47ee-bb39-ba3f306e2fc8",
       "type": "question",
       "value": {
-        "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\to 0}\\sim 2x$",
-        "html": "<p><span class=\"math inline\">\\(\\frac{6x^3+2x}{2x+1} \\underset{x\\to\n0}\\sim 2x\\)</span></p>\n"
+        "latex": "$ x \\underset{x\\longrightarrow 0}{\\sim} 2x$",
+        "html": "<p><span class=\"math inline\">\\(x \\underset{x\\longrightarrow 0}{\\sim}\n2x\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "9ec4778a-0fd2-4448-b600-42c8434275f2",
+      "type": "reponse",
+      "value": {
+        "latex": "Faux. En effet,\n\t\t\t\\[\n\t\t\t\\frac{x}{2x}=\\frac{1}{2}\\neq 1.\n\t\t\t\\]",
+        "html": "<p>Faux. En effet, <span\nclass=\"math display\">\\[\\frac{x}{2x}=\\frac{1}{2}\\neq 1.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "bde4f2fb-2c5f-4141-bead-5ad45a0e36fe",
+      "type": "question",
+      "value": {
+        "latex": "$e^x \\underset{x\\longrightarrow+\\infty}{\\sim} e^{x+10^6}$",
+        "html": "<p><span class=\"math inline\">\\(e^x\n\\underset{x\\longrightarrow+\\infty}{\\sim} e^{x+10^6}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b894c705-c68b-4bc5-90af-5bf342b68bfb",
+      "type": "reponse",
+      "value": {
+        "latex": "Faux. On a :\n\t\t\t\\[\n\t\t\t\\frac{e^x}{e^{x+10^6}} = e^{-10^6}\\neq 1,\n\t\t\t\\]\n\t\t\tcar $e^{-10^6}$ est une constante strictement inférieure à 1.",
+        "html": "<p>Faux. On a : <span class=\"math display\">\\[\\frac{e^x}{e^{x+10^6}} =\ne^{-10^6}\\neq 1,\\]</span> car <span\nclass=\"math inline\">\\(e^{-10^6}\\)</span> est une constante strictement\ninférieure à 1.</p>\n"
+      }
+    },
+    {
+      "id": "c86239e6-eb8b-449c-aff5-ac4164b90abf",
+      "type": "question",
+      "value": {
+        "latex": "$e^x \\underset{x\\longrightarrow 0}{\\sim} e^{2x}$",
+        "html": "<p><span class=\"math inline\">\\(e^x \\underset{x\\longrightarrow 0}{\\sim}\ne^{2x}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "b0f90746-1f0f-41ac-b114-5bbbd2a45e4b",
+      "type": "reponse",
+      "value": {
+        "latex": "Vrai. En effet,\n\t\t\t\\[\n\t\t\t\\frac{e^x}{e^{2x}}=e^{-x}\\longrightarrow 1 \\quad \\text{lorsque } x\\longrightarrow 0.\n\t\t\t\\]",
+        "html": "<p>Vrai. En effet, <span\nclass=\"math display\">\\[\\frac{e^x}{e^{2x}}=e^{-x}\\longrightarrow 1 \\quad\n\\text{lorsque } x\\longrightarrow 0.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "968baffc-260e-44be-9a9f-50f4ed83dea5",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\longrightarrow+\\infty}{\\sim} 3x^2$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{6x^3+2x}{2x+1}\n\\underset{x\\longrightarrow+\\infty}{\\sim} 3x^2\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "2d5e59bb-ead5-4a12-9dc5-f7218320a378",
+      "type": "reponse",
+      "value": {
+        "latex": "Vrai. Pour $x\\longrightarrow+\\infty$, les termes dominants sont $6x^3$ au numérateur et $2x$ au dénominateur. Ainsi,\n\t\t\t\\[\n\t\t\t\\frac{6x^3+2x}{2x+1}\\sim\\frac{6x^3}{2x}=3x^2.\n\t\t\t\\]",
+        "html": "<p>Vrai. Pour <span\nclass=\"math inline\">\\(x\\longrightarrow+\\infty\\)</span>, les termes\ndominants sont <span class=\"math inline\">\\(6x^3\\)</span> au numérateur\net <span class=\"math inline\">\\(2x\\)</span> au dénominateur. Ainsi, <span\nclass=\"math display\">\\[\\frac{6x^3+2x}{2x+1}\\sim\\frac{6x^3}{2x}=3x^2.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "3d87085c-601f-4dc8-8c54-0f133d84c966",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{6x^3+2x}{2x+1} \\underset{x\\longrightarrow 0}{\\sim} 2x$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{6x^3+2x}{2x+1}\n\\underset{x\\longrightarrow 0}{\\sim} 2x\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4753c696-b562-4906-911b-6173ff244ff6",
+      "type": "reponse",
+      "value": {
+        "latex": "Vrai. Lorsque $x\\longrightarrow 0$, on a :\n\t\t\t\\[\n\t\t\t6x^3+2x\\sim 2x \\quad \\text{et} \\quad 2x+1\\sim 1,\n\t\t\t\\]\n\t\t\tdonc :\n\t\t\t\\[\n\t\t\t\\frac{6x^3+2x}{2x+1}\\sim 2x.\n\t\t\t\\]",
+        "html": "<p>Vrai. Lorsque <span class=\"math inline\">\\(x\\longrightarrow\n0\\)</span>, on a : <span class=\"math display\">\\[6x^3+2x\\sim 2x \\quad\n\\text{et} \\quad 2x+1\\sim 1,\\]</span> donc : <span\nclass=\"math display\">\\[\\frac{6x^3+2x}{2x+1}\\sim 2x.\\]</span></p>\n"
       }
     }
   ],
-  "preview": "<p>Quels sont les équivalents corrects parmi les propositions suivantes\n? Justifier (en revenant à la définition si nécessaire).</p>\n"
+  "preview": "<p><span class=\"math inline\">\\(x+1\n\\underset{x\\longrightarrow+\\infty}{\\sim} x\\)</span></p>\n"
 }
