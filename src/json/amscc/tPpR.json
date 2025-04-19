@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
+    "hasIndication": true,
     "hasCorrection": true,
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Séries divergentes",
     "organisation": "AMSCC",
-    "updatedAt": "2025-04-04T19:05:05.926Z",
+    "updatedAt": "2025-04-19T09:29:43.970Z",
     "resume": "L'exercice porte sur la démonstration de la divergence de séries numériques en utilisant le critère de divergence basé sur la limite du terme général. Les compétences mises en œuvre sont:\n\n*   Calcul de la limite du terme général $u_n$ d'une série.\n*   Identification de sous-suites dont la limite est non nulle.\n*   Utilisation de développements limités et d'équivalents (comme $\\ln(1+x) \\sim x$ quand $x \\to 0$) pour déterminer la limite du terme général.\n*   Application du critère de divergence: si $\\lim_{n \\to \\infty} u_n \\neq 0$, alors la série $\\sum u_n$ diverge.",
     "competences": [
       "déterminer la limite d'une suite numérique",
@@ -53,7 +53,7 @@
   },
   "contenu": [
     {
-      "id": "fd3feea1-95b9-499a-92fd-9ad7f2c95875",
+      "id": "8c88eca8-915a-4e3e-bcad-3a6556bd609c",
       "type": "description",
       "value": {
         "latex": "En examinant la limite du terme général, montrer que les séries suivantes divergent :",
@@ -61,7 +61,15 @@
       }
     },
     {
-      "id": "e8c25275-c0be-4c1c-aed2-71767b740169",
+      "id": "adbedb36-da0c-42c9-8f4d-4d57eb990a4d",
+      "type": "indication",
+      "value": {
+        "latex": "Si le terme général $u_n$ ne converge pas vers $0$ alors par théorème du cours, $\\sum u_n$ est une série divergente.",
+        "html": "<p>Si le terme général <span class=\"math inline\">\\(u_n\\)</span> ne\nconverge pas vers <span class=\"math inline\">\\(0\\)</span> alors par\nthéorème du cours, <span class=\"math inline\">\\(\\sum u_n\\)</span> est une\nsérie divergente.</p>\n"
+      }
+    },
+    {
+      "id": "8bf9f7af-0b93-421c-826a-71d14684c255",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)$ ;",
@@ -69,7 +77,7 @@
       }
     },
     {
-      "id": "043487c6-1054-4d58-8644-b13d4d5842ae",
+      "id": "d44d05e7-cd24-471a-a19d-007c03b8648f",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\left(1+(-1)^n\\cos\\left(\\frac{1}{n}\\right)\\right)$ : alors $u_{2n} = 1+\\cos\\left(\\frac{1}{n^2}\\right) \\xrightarrow[n \\to +\\infty]{} 1$ donc $\\lim\\limits u_n \\neq 0$ donc la série est divergente.",
@@ -77,7 +85,7 @@
       }
     },
     {
-      "id": "e01c00c9-6d3f-4f34-bcde-3de1331dd290",
+      "id": "d44f24cf-f098-450f-8b2b-fb6feb23050a",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\frac{(-1)^n}{1+n^{-1}}$ ;",
@@ -85,7 +93,7 @@
       }
     },
     {
-      "id": "c26116dc-df68-4e6b-9aa7-d9daa7fd1101",
+      "id": "de7b65e6-bc45-4126-a3f3-3be896619f1e",
       "type": "reponse",
       "value": {
         "latex": "On pose $u_n = \\frac{(-1)^n}{1+n^{-1}}$ : alors $u_{2n} = \\frac{1}{1+\\frac1n} \\xrightarrow[n \\to +\\infty]{} 1$ donc $\\lim\\limits u_n \\neq 0$ donc la série est divergente.",
@@ -93,7 +101,7 @@
       }
     },
     {
-      "id": "ce0feca1-a037-4ba1-8987-5615c3a47fbf",
+      "id": "5949ec15-3498-4b07-b91b-b7a827e0b2ff",
       "type": "question",
       "value": {
         "latex": "$\\displaystyle \\sum_{n\\geq 1} \\left(\\left(\\frac{n}{n+1}\\right)^n-1\\right)$.",
@@ -101,7 +109,7 @@
       }
     },
     {
-      "id": "63c8ad9e-5e14-408a-8cdc-d7d1f015310a",
+      "id": "ff704eff-a98d-4a7d-bc3d-7f6512e994b3",
       "type": "reponse",
       "value": {
         "latex": "Contrairement aux apparences, le terme général ne tend pas vers vers $0$. En effet : \\\\ $\\frac{n}{n+1} = \\frac{n+1-1}{n+1} = 1-\\frac{1}{n+1}$ donc $\\left(\\frac{n}{n+1}\\right)^n = e^{n\\ln\\left(1-\\frac{1}{n+1}\\right)}$. \\\\\n\t\t\tOr $\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to +\\infty}{\\sim} -\\frac{1}{n+1}$ donc $n\\ln\\left(1-\\frac{1}{n+1}\\right) \\underset{n\\to +\\infty}{\\sim} -1$. \\\\\n\t\t\tPar composition de limites, on en déduit que $\\left(\\frac{n}{n+1}\\right)^n \\xrightarrow[n \\to +\\infty]{} e^{-1} = \\frac{1}{e} \\neq 0$. Donc la série est divergente.",

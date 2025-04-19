@@ -9,13 +9,13 @@
     "exo7id": "",
     "auteur": "",
     "createdAt": "2023-05-17",
-    "hasIndication": false,
+    "hasIndication": true,
     "hasCorrection": true,
     "youtube": "",
     "chapitre": "Série numérique",
     "sousChapitre": "Autre",
     "organisation": "AMSCC",
-    "updatedAt": "2025-04-04T19:04:20.210Z",
+    "updatedAt": "2025-04-19T09:29:43.810Z",
     "resume": "L'exercice porte sur l'étude de la nature (convergence ou divergence) de séries numériques, et le calcul de leur somme lorsqu'elles convergent. Les compétences mises en œuvre incluent :\n\n*   Reconnaître et appliquer les propriétés des séries géométriques. Une série géométrique de raison $q$ converge si $|q| < 1$ et sa somme est donnée par $\\frac{1}{1-q}$.\n*   Utiliser la décomposition en éléments simples pour simplifier l'expression du terme général de la série, notamment dans le cas de fractions rationnelles.\n*   Calculer les sommes partielles des séries et étudier leur limite pour déterminer la convergence et la somme de la série. Le calcul de la somme partielle implique des manipulations algébriques pour faire apparaître une expression simplifiable, souvent par télescopage.",
     "competences": [
       "déterminer la nature d'une série numérique",
@@ -52,7 +52,7 @@
   },
   "contenu": [
     {
-      "id": "b27761f5-5db1-4ad6-a77d-779ec31a8a3b",
+      "id": "fb3293d9-4f6f-494c-ad17-60ad58a05407",
       "type": "description",
       "value": {
         "latex": "Étudier la convergence des séries $\\sum\\limits_{n \\geq n_0} u_n$ suivantes et préciser la somme de la série quand celle-ci est convergente.",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "9cf6488b-38b4-48fc-9eb1-2be524ac89bc",
+      "id": "7ad2f029-af06-4b45-8fc0-c4a65b7802cb",
       "type": "question",
       "value": {
         "latex": "$u_n=\\Big(\\frac{3}{2}\\Big)^n$ , $n_0=0$",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "cd785df7-fb98-4e53-bec0-e3e801ebcd3c",
+      "id": "a07bc6ea-d786-41be-b4a5-aad4e382280b",
       "type": "reponse",
       "value": {
         "latex": "C'est une série géométrique de raison $q = \\frac32 >0$ donc une série divergente.",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "6e181dc4-b787-413a-93b6-83d1e53baa51",
+      "id": "d10295e9-4819-4808-b570-6fad5f715afa",
       "type": "question",
       "value": {
         "latex": "$u_n=\\ln\\Big(1-\\frac{1}{n^2}\\Big)$ , $n_0=2$",
@@ -84,7 +84,15 @@
       }
     },
     {
-      "id": "63a431ce-d303-4d3a-958f-db2253c43eff",
+      "id": "a5395626-d2e4-454c-9fe4-e58584f701d5",
+      "type": "indication",
+      "value": {
+        "latex": "On peut remarquer que $\\ln(1-\\frac{1}{n^2})=\\ln(n-1)+\\ln(n+1)-2\\ln(n)$.",
+        "html": "<p>On peut remarquer que <span\nclass=\"math inline\">\\(\\ln(1-\\frac{1}{n^2})=\\ln(n-1)+\\ln(n+1)-2\\ln(n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c6b3f1d6-78ea-4f32-a882-12185e9efebf",
       "type": "reponse",
       "value": {
         "latex": "On écrit la somme partielle : \n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\sum_{k=2}^{n} \\ln \\left(1-\\frac{1}{k^{2}}\\right) &=\\sum_{k=2}^{n} \\ln (k+1)+\\ln (k-1)-2 \\ln (k) \\\\\n\t\t\t\t&=\\sum_{k=2}^{n} \\ln (k+1)-\\ln (k)-(\\ln (k)-\\ln (k-1)) \\\\\n\t\t\t\t&=\\ln (n+1)-\\ln (n)-\\ln 2 \\underset{n \\rightarrow+\\infty}{\\longrightarrow}-\\ln 2\n\t\t\t\t\\end{align*}$$\n\t\t\tLa série $\\sum u_n$ est convergente et sa somme vaut $-\\ln(2)$.",
@@ -92,7 +100,7 @@
       }
     },
     {
-      "id": "b6815d59-189e-49b5-b78c-6be81414706e",
+      "id": "114cc4e4-c919-4f03-ae81-b3e24e638b60",
       "type": "question",
       "value": {
         "latex": "$u_n=\\Big(\\frac{1+i}{2}\\Big)^n$ , $n_0=0$",
@@ -100,7 +108,7 @@
       }
     },
     {
-      "id": "ef309bd3-985a-4714-975f-0458ae521e37",
+      "id": "81c182c0-08b2-4560-b1f2-16d1939a5c42",
       "type": "reponse",
       "value": {
         "latex": "C'est une série géométrique de raison $q = \\frac{1+i}{2}$ et $|q| = \\frac{1}{\\sqrt{2}}<1$ donc une série convergente. Sa somme vaut $\\sum_{n=0}^{+\\infty} u_n = \\frac{1}{1-q} = \\frac{2}{1-\\mathrm{i}}$.",
@@ -108,7 +116,7 @@
       }
     },
     {
-      "id": "da39768b-b7b6-4af0-921b-dc3190ead5c3",
+      "id": "e4b40689-0752-4a6e-ab3f-16d224e4b340",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{1}{3^n}$ , $n_0=0$",
@@ -116,7 +124,7 @@
       }
     },
     {
-      "id": "1813acf8-4eb4-4c6a-a894-be5f6c97dbb3",
+      "id": "bafa7af6-1b21-4ce7-b9e7-b115561c31cd",
       "type": "reponse",
       "value": {
         "latex": "C'est une série géométrique de raison $q = \\frac{1}{3} <1$ donc c'est une série convergente.  Sa somme vaut $\\sum_{n=0}^{+\\infty} u_n = \\frac{1}{1-q} = \\frac{3}{2}$.",
@@ -124,7 +132,7 @@
       }
     },
     {
-      "id": "9af65d3c-ba0a-4320-a06f-b66bd0970135",
+      "id": "01f38120-0e35-41c1-b3f9-1876ce56b800",
       "type": "question",
       "value": {
         "latex": "$u_n=\\frac{2n-1}{n(n^2-4)}$ , $n_0=3$",
@@ -132,19 +140,19 @@
       }
     },
     {
-      "id": "ee6e20cd-847a-4455-a49f-a79233cea276",
+      "id": "d3b8cac8-dc9b-411a-b13a-7f0ee7bdacff",
+      "type": "indication",
+      "value": {
+        "latex": "On peut décomposer la fraction en éléments simples, i.e. chercher $a$, $b$ et $c$ des réels tels que $\\frac{2n-1}{n(n^2-4)}=\\frac{a}{n}+\\frac{b}{n-2}+\\frac{c}{n+2}$.",
+        "html": "<p>On peut décomposer la fraction en éléments simples, i.e. chercher\n<span class=\"math inline\">\\(a\\)</span>, <span\nclass=\"math inline\">\\(b\\)</span> et <span\nclass=\"math inline\">\\(c\\)</span> des réels tels que <span\nclass=\"math inline\">\\(\\frac{2n-1}{n(n^2-4)}=\\frac{a}{n}+\\frac{b}{n-2}+\\frac{c}{n+2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "878f8a3d-d8c5-43b8-b000-ab450c89f3f8",
       "type": "reponse",
       "value": {
         "latex": "On trouve dans un premier temps que $u_n = \\frac{1}{4n}-\\frac{5}{8(n+2)}+\\frac{3}{8(n-2)} $. \n\t\t\t\tOn écrit la somme partielle pour $n \\geq 3$ (les termes de la série ne sont pas bien définis pour $n \\leq 2$) : \n\t\t\t\t$$\\begin{align*}\n\t\t\t\t\\sum_{k=3}^{n} u_n &=\\sum_{k=3}^{n} \\frac{1}{4k}-\\frac{5}{8(k+2)}+\\frac{3}{8(k-2)} \\\\\n\t\t\t\t&=\\sum_{k=3}^{n} \\frac{1}{4k} - \\sum_{k=5}^{n+2} \\frac{5}{8k} + \\sum_{k=1}^{n-2} \\frac{3}{8k}     \\\\\n\t\t\t\t&= \\frac{1}{12} + \\frac{1}{16} + \\frac{1}{4(n-1)} +  \\frac{1}{4n} - \\sum_{k=n-1}^{n+2} \\frac{5}{8k} + \\frac{3}{8} + \\frac{3}{16} + \\frac{3}{24} + \\frac{3}{32} \\\\\n\t\t\t\t& \\underset{n \\rightarrow+\\infty}{\\longrightarrow} \\frac{89}{96}\n\t\t\t\t\\end{align*}$$",
         "html": "<p>On trouve dans un premier temps que <span class=\"math inline\">\\(u_n =\n\\frac{1}{4n}-\\frac{5}{8(n+2)}+\\frac{3}{8(n-2)}\\)</span>. On écrit la\nsomme partielle pour <span class=\"math inline\">\\(n \\geq 3\\)</span> (les\ntermes de la série ne sont pas bien définis pour <span\nclass=\"math inline\">\\(n \\leq 2\\)</span>) : <span\nclass=\"math display\">\\[\\begin{align*}\n                \\sum_{k=3}^{n} u_n &amp;=\\sum_{k=3}^{n}\n\\frac{1}{4k}-\\frac{5}{8(k+2)}+\\frac{3}{8(k-2)} \\\\\n                &amp;=\\sum_{k=3}^{n} \\frac{1}{4k} - \\sum_{k=5}^{n+2}\n\\frac{5}{8k} + \\sum_{k=1}^{n-2} \\frac{3}{8k}     \\\\\n                &amp;= \\frac{1}{12} + \\frac{1}{16} + \\frac{1}{4(n-1)}\n+  \\frac{1}{4n} - \\sum_{k=n-1}^{n+2} \\frac{5}{8k} + \\frac{3}{8} +\n\\frac{3}{16} + \\frac{3}{24} + \\frac{3}{32} \\\\\n                &amp; \\underset{n \\rightarrow+\\infty}{\\longrightarrow}\n\\frac{89}{96}\n                \\end{align*}\\]</span></p>\n"
-      }
-    },
-    {
-      "id": "12a60815-ffec-4ffd-8659-abbf9edca080",
-      "type": "description",
-      "value": {
-        "latex": "\\textit{Indications: Pour $2.$, on pourra remarquer que $\\ln(1-\\frac{1}{n^2})=\\ln(n-1)+\\ln(n+1)-2\\ln(n)$. Pour $5.$, on pourra décomposer la fraction en éléments simples, i.e. chercher $a$, $b$ et $c$ des réels tels que $\\frac{2n-1}{n(n^2-4)}=\\frac{a}{n}+\\frac{b}{n-2}+\\frac{c}{n+2}$.}",
-        "html": "<p><em>Indications: Pour <span class=\"math inline\">\\(2.\\)</span>, on\npourra remarquer que <span\nclass=\"math inline\">\\(\\ln(1-\\frac{1}{n^2})=\\ln(n-1)+\\ln(n+1)-2\\ln(n)\\)</span>.\nPour <span class=\"math inline\">\\(5.\\)</span>, on pourra décomposer la\nfraction en éléments simples, i.e. chercher <span\nclass=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>\net <span class=\"math inline\">\\(c\\)</span> des réels tels que <span\nclass=\"math inline\">\\(\\frac{2n-1}{n(n^2-4)}=\\frac{a}{n}+\\frac{b}{n-2}+\\frac{c}{n+2}\\)</span>.</em></p>\n"
       }
     }
   ],
