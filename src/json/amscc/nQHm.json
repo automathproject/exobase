@@ -1,0 +1,247 @@
+{
+  "uuid": "nQHm",
+  "titre": "Étude des extremums d'une fonction de deux variables",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Grégoire MENET",
+    "createdAt": "2025-04-16",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-04-19T09:29:43.579Z"
+  },
+  "contenu": [
+    {
+      "id": "788ddede-23af-48a6-a915-7117546dead7",
+      "type": "description",
+      "value": {
+        "latex": "On considère la fonction \\( f \\) définie par \\( f(x,y)=x^2+y \\) sur l'ensemble :\n$$\n\t\t\\mathcal{K}=\\left\\{\\left.(x,y)\\in\\R^2\\right|\\ x^2+y^2\\leq1\\ \\text{et}\\ x+y\\geq0\\right\\}.\n$$\n\nOn définit également les ensembles : $$B_1=\\left\\{ (x,-x) \\in \\mathbb{R}^2 \\,,\\,\\ x\\in\\left[-\\frac{\\sqrt{2}}{2};\\frac{\\sqrt{2}}{2}\\right]\\right\\} \\text{ et } B_2=\\left\\{(\\cos\\theta,\\sin\\theta)\\in \\mathbb{R}^2 \\,,\\, \\theta\\in\\left[-\\frac{\\pi}{4};\\frac{3\\pi}{4}\\right]\\right\\}.$$",
+        "html": "<p>On considère la fonction <span class=\"math inline\">\\(f\\)</span>\ndéfinie par <span class=\"math inline\">\\(f(x,y)=x^2+y\\)</span> sur\nl’ensemble : <span\nclass=\"math display\">\\[\\mathcal{K}=\\left\\{\\left.(x,y)\\in\\R^2\\right|\\\nx^2+y^2\\leq1\\ \\text{et}\\ x+y\\geq0\\right\\}.\\]</span></p>\n<p>On définit également les ensembles : <span\nclass=\"math display\">\\[B_1=\\left\\{ (x,-x) \\in \\mathbb{R}^2 \\,,\\,\\\nx\\in\\left[-\\frac{\\sqrt{2}}{2};\\frac{\\sqrt{2}}{2}\\right]\\right\\} \\text{\net } B_2=\\left\\{(\\cos\\theta,\\sin\\theta)\\in \\mathbb{R}^2 \\,,\\,\n\\theta\\in\\left[-\\frac{\\pi}{4};\\frac{3\\pi}{4}\\right]\\right\\}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "f0b4899d-5cff-455c-a7a7-8c04144c486a",
+      "type": "question",
+      "value": {
+        "latex": "Représenter graphiquement  \\(\\mathcal{K}\\). Le domaine \\(\\mathcal{K}\\) est-il ouvert ? Est-il fermé ?",
+        "html": "<p>Représenter graphiquement <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span>. Le domaine <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span> est-il ouvert ? Est-il fermé\n?</p>\n"
+      }
+    },
+    {
+      "id": "bf54d0d0-8be0-4b89-b0b3-c6de44a8e576",
+      "type": "indication",
+      "value": {
+        "latex": "Tracer le disque unité défini par \\(x^2+y^2\\leq 1\\) et la demi-plan défini par \\(x+y\\geq0\\), puis représenter l'intersection de ces deux ensembles. Analyser les conditions sur le cercle (bord du disque) et la droite \\(x+y=0\\) pour déterminer la nature topologique de \\(\\mathcal{K}\\).",
+        "html": "<p>Tracer le disque unité défini par <span\nclass=\"math inline\">\\(x^2+y^2\\leq 1\\)</span> et la demi-plan défini par\n<span class=\"math inline\">\\(x+y\\geq0\\)</span>, puis représenter\nl’intersection de ces deux ensembles. Analyser les conditions sur le\ncercle (bord du disque) et la droite <span\nclass=\"math inline\">\\(x+y=0\\)</span> pour déterminer la nature\ntopologique de <span class=\"math inline\">\\(\\mathcal{K}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "791175ce-06d4-4d2d-9785-dfffe6aee52c",
+      "type": "reponse",
+      "value": {
+        "latex": "__TIKZ_669f05d3-9f09-481b-b5d9-c62592fa5754__\n\t\t\tLe domaine $\\mathcal{K}$ est le disque unité tronqué par la droite $x + y = 0$. Il contient tout son bord, il est fermé et n'est pas ouvert.",
+        "html": "<p><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='113.711pt' height='98.494pt' viewBox='0 0 113.711 98.494'><defs><clipPath id='cp0'><path d='M62.7608 49.917005C62.7608 34.261305 50.0697 21.570205 34.414 21.570205S6.0672 34.261305 6.0672 49.917005S18.7583 78.263805 34.414 78.263805S62.7608 65.572705 62.7608 49.917005Z'/></clipPath><font id='FFANCX-CMMI10' horiz-adv-x='0'><font-face font-family='FFANCX-CMMI10' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='x' horiz-adv-x='571' vert-adv-y='571' glyph-name='x' d='M334 302C340 328 363 420 433 420C438 420 462 420 483 407C455 402 435 377 435 353C435 337 446 318 473 318C495 318 527 336 527 376C527 428 468 442 434 442C376 442 341 389 329 366C304 432 250 442 221 442C117 442 60 313 60 288C60 278 70 278 72 278C80 278 83 280 85 289C119 395 185 420 219 420C238 420 273 411 273 353C273 322 256 255 219 115C203 53 168 11 124 11C118 11 95 11 74 24C99 29 121 50 121 78C121 105 99 113 84 113C54 113 29 87 29 55C29 9 79-11 123-11C189-11 225 59 228 65C240 28 276-11 336-11C439-11 496 118 496 143C496 153 487 153 484 153C475 153 473 149 471 142C438 35 370 11 338 11C299 11 283 43 283 77C283 99 289 121 300 165L334 302Z'/><glyph unicode='y' horiz-adv-x='490' vert-adv-y='490' glyph-name='y' d='M486 381C490 395 490 397 490 404C490 422 476 431 461 431C451 431 435 425 426 410C424 405 416 374 412 356C405 330 398 303 392 276L347 96C343 81 300 11 234 11C183 11 172 55 172 92C172 138 189 200 223 288C239 329 243 340 243 360C243 405 211 442 161 442C66 442 29 297 29 288C29 278 39 278 41 278C51 278 52 280 57 296C84 390 124 420 158 420C166 420 183 420 183 388C183 363 173 337 166 318C126 212 108 155 108 108C108 19 171-11 230-11C269-11 303 6 331 34C318-18 306-67 266-120C240-154 202-183 156-183C142-183 97-180 80-141C96-141 109-141 123-129C133-120 143-107 143-88C143-57 116-53 106-53C83-53 50-69 50-118C50-168 94-205 156-205C259-205 362-114 390-1L486 381Z'/></font><font id='KTXVCP-CMR9' horiz-adv-x='0'><font-face font-family='KTXVCP-CMR9' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='+' horiz-adv-x='799' vert-adv-y='799' glyph-name='plus' d='M706 229C720 229 741 229 741 250C741 272 722 272 706 272H421V558C421 574 421 593 399 593C378 593 378 572 378 558V272H92C78 272 57 272 57 251C57 229 76 229 92 229H378V-57C378-73 378-92 400-92C421-92 421-71 421-57V229H706Z'/><glyph unicode='0' horiz-adv-x='513' vert-adv-y='513' glyph-name='zero' d='M473 320C473 387 470 473 435 548C391 642 315 666 257 666C197 666 121 642 77 546C45 477 40 396 40 320C40 255 42 158 85 79C132-6 210-22 256-22C321-22 395 6 437 98C467 165 473 240 473 320ZM257 3C227 3 155 17 136 130C126 189 126 275 126 332C126 400 126 479 138 534C158 623 222 641 256 641C294 641 357 621 376 528C387 473 387 395 387 332C387 270 387 186 377 127C356 13 282 3 257 3Z'/><glyph unicode='=' horiz-adv-x='799' vert-adv-y='799' glyph-name='equal' d='M708 331C722 331 741 331 741 352C741 374 719 374 704 374H94C79 374 57 374 57 352C57 331 77 331 90 331H708ZM704 127C719 127 741 127 741 149C741 170 722 170 708 170H90C77 170 57 170 57 149C57 127 79 127 94 127H704Z'/></font><font id='SSCAIO-CMSY10' horiz-adv-x='0'><font-face font-family='SSCAIO-CMSY10' units-per-em='1000' ascent='775' descent='960'/><glyph unicode='K' horiz-adv-x='761' vert-adv-y='761' glyph-name='K' d='M196 638C185 420 94 156 35 0C30-12 30-14 30-15C30-22 38-22 40-22C58-22 94-3 110 16C115 23 245 350 275 604C280 644 282 685 282 689C282 701 282 705 271 705S230 690 210 680C164 657 126 638 126 620C126 614 133 614 137 614C146 614 148 614 196 638ZM727 127C727 128 727 136 715 136C710 136 699 135 685 124C673 116 671 113 666 97C639 21 541 21 539 21C442 21 301 335 301 425C301 441 304 451 339 487C413 560 590 662 637 662C658 662 673 646 673 620C673 613 671 608 671 604C671 598 674 593 683 593C685 593 733 596 733 645C733 679 712 705 675 705C607 705 469 625 390 569C348 538 241 462 241 400C241 314 342 98 414 25C449-9 470-22 500-22C578-22 659 19 697 67C723 99 727 124 727 127Z'/></font><font id='IKWQBF-CMMI9' horiz-adv-x='0'><font-face font-family='IKWQBF-CMMI9' units-per-em='1000' ascent='750' descent='250'/><glyph unicode='x' horiz-adv-x='582' vert-adv-y='582' glyph-name='x' d='M492 404C455 397 444 365 444 350C444 331 458 314 483 314C511 314 538 338 538 373C538 419 488 442 441 442C381 442 346 389 334 368C315 417 271 442 223 442C116 442 58 314 58 288C58 279 65 276 72 276C81 276 84 281 86 287C117 386 183 417 221 417C250 417 276 398 276 351C276 315 233 155 220 107C212 76 182 14 127 14C107 14 86 21 76 27C103 32 123 55 123 81C123 106 104 117 85 117C56 117 30 92 30 58C30 9 84-11 126-11C184-11 218 37 233 64C258-2 317-11 344-11C452-11 509 119 509 143C509 148 506 155 496 155C485 155 484 151 479 136C457 64 399 14 347 14C318 14 291 32 291 80C291 102 305 157 314 195C318 213 345 321 347 328C359 364 389 417 440 417C458 417 477 414 492 404Z'/><glyph unicode='y' horiz-adv-x='506' vert-adv-y='506' glyph-name='y' d='M502 385C503 390 505 396 505 402C505 415 496 431 474 431C461 431 443 423 435 404C434 400 424 359 418 337L368 137C360 108 360 106 358 97C357 93 315 14 243 14C181 14 181 77 181 96C181 141 194 190 237 302C245 325 251 339 251 358C251 407 214 442 165 442C69 442 29 300 29 288C29 279 36 276 43 276C54 276 55 282 59 295C80 369 120 417 162 417C186 417 186 398 186 384C186 367 182 349 173 325C126 201 113 159 113 111C113 0 203-11 240-11C289-11 324 15 342 33C329-18 318-63 279-113C249-153 209-180 165-180C137-180 104-170 90-142C143-142 150-98 150-88C150-66 134-52 112-52C88-52 56-71 56-117C56-169 102-205 165-205C267-205 376-118 405-1L502 385Z'/></font></defs><style type='text/css'><![CDATA[text.f0 {font-family:IKWQBF-CMMI9;font-size:8.97px} text.f1 {font-family:KTXVCP-CMR9;font-size:8.97px} text.f2 {font-family:FFANCX-CMMI10;font-size:9.96px} text.f3 {font-family:SSCAIO-CMSY10;font-size:9.96px} ]]></style><g id='page1'><path d='M62.7608 49.917005C62.7608 34.261305 50.0697 21.570205 34.414 21.570205S6.0672 34.261305 6.0672 49.917005S18.7583 78.263805 34.414 78.263805S62.7608 65.572705 62.7608 49.917005Z' fill='#fff'/><g clip-path='url(#cp0)'><path d='M.39792 15.900925L68.43008 83.933085V15.900925Z' fill='#bfbfbf'/></g><path d='M62.7608 49.917005C62.7608 34.261305 50.0697 21.570205 34.414 21.570205S6.0672 34.261305 6.0672 49.917005S18.7583 78.263805 34.414 78.263805S62.7608 65.572705 62.7608 49.917005Z' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><path d='M.39792 15.900925L68.43008 83.933085' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/><text class='f0' x='72.177968' y='-5.066033' transform='matrix(1.000401 0 0 1.000401 0 98.49401)'>x</text><text class='f1' x='79.451887' y='-5.066033' transform='matrix(1.000401 0 0 1.000401 0 98.49401)'>+</text><text class='f0' x='88.670585' y='-5.066033' transform='matrix(1.000401 0 0 1.000401 0 98.49401)'>y</text><text class='f1' x='96.094556' y='-5.066033' transform='matrix(1.000401 0 0 1.000401 0 98.49401)'>=<tspan x='105.818039'>0</tspan></text><path d='M.39792 49.917005H70.86642' stroke='#000' fill='none' stroke-width='.3985' stroke-miterlimit='10'/><path d='M68.993437 47.525965C69.372027 48.960615 70.215687 49.638055 71.065677 49.917005C70.215687 50.195955 69.372027 50.873395 68.993437 52.308045' stroke='#000' fill='none' stroke-width='.3985' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f2' x='74.764483' y='-46.419882' transform='matrix(.999739 0 0 .999739 0 98.494)'>x</text><path d='M34.414 83.933085V13.464585' stroke='#000' fill='none' stroke-width='.3985' stroke-miterlimit='10'/><path d='M32.02296 15.337575C33.45761 14.958985 34.13505 14.115325 34.414 13.265335C34.69295 14.115325 35.37039 14.958985 36.80504 15.337575' stroke='#000' fill='none' stroke-width='.3985' stroke-miterlimit='10' stroke-linejoin='round' stroke-linecap='round'/><text class='f2' x='31.784703' y='-90.860281' transform='matrix(.999739 0 0 .999739 .000002 98.494)'>y</text><text class='f3' x='41.874069' y='-56.497252' transform='matrix(.999739 0 0 .999739 .000004 98.494)'>K</text></g></svg> Le domaine <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span> est le disque unité tronqué\npar la droite <span class=\"math inline\">\\(x + y = 0\\)</span>. Il\ncontient tout son bord, il est fermé et n’est pas ouvert.</p>\n"
+      }
+    },
+    {
+      "id": "1964b3c5-093a-4660-a819-4710f2d458aa",
+      "type": "question",
+      "value": {
+        "latex": "Justifier que $B_1$ et $B_2$ sont des sous-ensembles de $\\mathcal{K}$ et les représenter sur le graphique.",
+        "html": "<p>Justifier que <span class=\"math inline\">\\(B_1\\)</span> et <span\nclass=\"math inline\">\\(B_2\\)</span> sont des sous-ensembles de <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span> et les représenter sur le\ngraphique.</p>\n"
+      }
+    },
+    {
+      "id": "dbdf6e5d-524d-4eb5-9627-36865c316f1b",
+      "type": "indication",
+      "value": {
+        "latex": "Montrer que \\(B_2\\) est une portion du cercle unité correspondant aux angles \\(\\theta\\in\\left[-\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right]\\) et préciser comment cette portion s'intersecte avec la condition \\(x+y\\geq0\\).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(B_2\\)</span> est une portion\ndu cercle unité correspondant aux angles <span\nclass=\"math inline\">\\(\\theta\\in\\left[-\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right]\\)</span>\net préciser comment cette portion s’intersecte avec la condition <span\nclass=\"math inline\">\\(x+y\\geq0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ad374a8e-d2d8-4fa1-8a92-d415f448d65c",
+      "type": "reponse",
+      "value": {
+        "latex": "$B_1$ est la partie du bord de $\\mathcal{K}$ en forme d'arc de cercle ; $B_2$ est la partie droite. Les extrémités coïncident bien, ce sont les points de coordonnées respectives $\\left(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right)$ et $\\left(\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$.",
+        "html": "<p><span class=\"math inline\">\\(B_1\\)</span> est la partie du bord de\n<span class=\"math inline\">\\(\\mathcal{K}\\)</span> en forme d’arc de\ncercle ; <span class=\"math inline\">\\(B_2\\)</span> est la partie droite.\nLes extrémités coïncident bien, ce sont les points de coordonnées\nrespectives <span\nclass=\"math inline\">\\(\\left(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right)\\)</span>\net <span class=\"math inline\">\\(\\left(\\frac{\\sqrt{2}}{2},\n-\\frac{\\sqrt{2}}{2}\\right)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "671b170e-5765-461b-9ac7-1bee1e2ab2d3",
+      "type": "question",
+      "value": {
+        "latex": "Justifier que la fonction \\(f\\) admet un maximum et un minimum global sur \\(\\mathcal{K}\\).",
+        "html": "<p>Justifier que la fonction <span class=\"math inline\">\\(f\\)</span>\nadmet un maximum et un minimum global sur <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c6ee36cf-6471-431f-bf72-87f52481e0df",
+      "type": "indication",
+      "value": {
+        "latex": "Montrer que \\(\\mathcal{K}\\) est un ensemble compact (fermé et borné) et appliquer le théorème des extrema sur les compacts pour conclure à l'existence d'un maximum et d'un minimum global de \\(f\\).",
+        "html": "<p>Montrer que <span class=\"math inline\">\\(\\mathcal{K}\\)</span> est un\nensemble compact (fermé et borné) et appliquer le théorème des extrema\nsur les compacts pour conclure à l’existence d’un maximum et d’un\nminimum global de <span class=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d4ba90eb-c841-475a-bf9d-cceab9e805fb",
+      "type": "reponse",
+      "value": {
+        "latex": "On a que $\\mathcal{K}$ est fermé borné et $f$ est continue (car polynomiale) sur ce domaine donc d'après le théorème des valeurs extrêmes, $f$ admet un maximum et un minimumm atteint sur $\\mathcal{K}$.",
+        "html": "<p>On a que <span class=\"math inline\">\\(\\mathcal{K}\\)</span> est fermé\nborné et <span class=\"math inline\">\\(f\\)</span> est continue (car\npolynomiale) sur ce domaine donc d’après le théorème des valeurs\nextrêmes, <span class=\"math inline\">\\(f\\)</span> admet un maximum et un\nminimumm atteint sur <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ccd65f9d-ecf8-4896-ba41-24c60e3e4a5d",
+      "type": "question",
+      "value": {
+        "latex": "La fonction \\(f\\) admet-elle des points critiques ?",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> admet-elle des\npoints critiques ?</p>\n"
+      }
+    },
+    {
+      "id": "bbae5cc2-f773-47a5-adff-ff06dcb82e2f",
+      "type": "indication",
+      "value": {
+        "latex": "Rechercher, dans le domaine intérieur de \\(\\mathcal{K}\\), les points où \\(\\nabla f=(0,0)\\) et examiner l'existence de points critiques sur le bord si nécessaire.",
+        "html": "<p>Rechercher, dans le domaine intérieur de <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span>, les points où <span\nclass=\"math inline\">\\(\\nabla f=(0,0)\\)</span> et examiner l’existence de\npoints critiques sur le bord si nécessaire.</p>\n"
+      }
+    },
+    {
+      "id": "d0c21c66-2dc8-492b-849b-747f3e9b9aa5",
+      "type": "reponse",
+      "value": {
+        "latex": "On calcule les dérivées partielles :\n\t\t\t\\[\n\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 2x,\\quad \\frac{\\partial f}{\\partial y}(x,y) = 1.\n\t\t\t\\]\n\t\t\tPour qu'un point soit critique, il faut que le gradient soit nul. Or ici :\n\t\t\t\\[\n\t\t\t\\frac{\\partial f}{\\partial y}(x,y) = 1 \\neq 0,\n\t\t\t\\]\n\t\t\tdonc \\( f \\) n'a \\textbf{aucun point critique à l'intérieur} de \\( D_f \\).",
+        "html": "<p>On calcule les dérivées partielles : <span\nclass=\"math display\">\\[\\frac{\\partial f}{\\partial x}(x,y) = 2x,\\quad\n\\frac{\\partial f}{\\partial y}(x,y) = 1.\\]</span> Pour qu’un point soit\ncritique, il faut que le gradient soit nul. Or ici : <span\nclass=\"math display\">\\[\\frac{\\partial f}{\\partial y}(x,y) = 1 \\neq\n0,\\]</span> donc <span class=\"math inline\">\\(f\\)</span> n’a\n<strong>aucun point critique à l’intérieur</strong> de <span\nclass=\"math inline\">\\(D_f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a8345eb8-4546-487b-91b6-76c0f200ca62",
+      "type": "question",
+      "value": {
+        "latex": "Exprimer \\(f(x,y)\\) lorsque \\((x,y) \\in B_1\\) en fonction d'une seule variable \\(x\\).",
+        "html": "<p>Exprimer <span class=\"math inline\">\\(f(x,y)\\)</span> lorsque <span\nclass=\"math inline\">\\((x,y) \\in B_1\\)</span> en fonction d’une seule\nvariable <span class=\"math inline\">\\(x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d7193d38-224a-414f-b446-27d770eeb268",
+      "type": "indication",
+      "value": {
+        "latex": "En substituant \\(y=-x\\) dans \\(f\\), on obtient \\(f(x,-x)=x^2-x\\). Préciser que \\(B_1\\) correspond à la droite d'équation \\(y=-x\\) limitée par l'intersection avec \\(\\mathcal{K}\\).",
+        "html": "<p>En substituant <span class=\"math inline\">\\(y=-x\\)</span> dans <span\nclass=\"math inline\">\\(f\\)</span>, on obtient <span\nclass=\"math inline\">\\(f(x,-x)=x^2-x\\)</span>. Préciser que <span\nclass=\"math inline\">\\(B_1\\)</span> correspond à la droite d’équation\n<span class=\"math inline\">\\(y=-x\\)</span> limitée par l’intersection\navec <span class=\"math inline\">\\(\\mathcal{K}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "736c6525-e13a-4fea-af2f-59a08b475ee7",
+      "type": "reponse",
+      "value": {
+        "latex": "Si \\( y = -x \\), alors :\n\t\t\t\t\\[\n\t\t\t\tf(x, -x) = x^2 - x.\n\t\t\t\t\\]",
+        "html": "<p>Si <span class=\"math inline\">\\(y = -x\\)</span>, alors : <span\nclass=\"math display\">\\[f(x, -x) = x^2 - x.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "bb8f8b73-c2a2-4360-8a9a-caec123850fb",
+      "type": "question",
+      "value": {
+        "latex": "Dresser le tableau de variation de la fonction \\(g: x\\mapsto f(x,-x)\\) sur \\(\\left[-\\frac{\\sqrt{2}}{2};\\frac{\\sqrt{2}}{2}\\right]\\).",
+        "html": "<p>Dresser le tableau de variation de la fonction <span\nclass=\"math inline\">\\(g: x\\mapsto f(x,-x)\\)</span> sur <span\nclass=\"math inline\">\\(\\left[-\\frac{\\sqrt{2}}{2};\\frac{\\sqrt{2}}{2}\\right]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d0c2528b-d3da-4487-ad06-20b8a9b0db22",
+      "type": "indication",
+      "value": {
+        "latex": "Étudier la fonction \\(g(x)=x^2-x\\) sur l'intervalle donné en calculant sa dérivée, en déterminant les extrema locaux, et en présentant les variations sous forme de tableau.",
+        "html": "<p>Étudier la fonction <span class=\"math inline\">\\(g(x)=x^2-x\\)</span>\nsur l’intervalle donné en calculant sa dérivée, en déterminant les\nextrema locaux, et en présentant les variations sous forme de\ntableau.</p>\n"
+      }
+    },
+    {
+      "id": "121c9562-974a-4601-9f20-3a2b7e16c921",
+      "type": "reponse",
+      "value": {
+        "latex": "On dérive $g(x)=f(x,-x)$.\n\t\t\t\t\\[\n\t\t\t\tg'(x) = 2x - 1 \\Rightarrow h'(x) = 0 \\Leftrightarrow x = \\frac{1}{2}.\n\t\t\t\t\\]\n\t\t\t\t\n\t\t\t\tOn a $\\frac{1}{2} <\\frac{\\sqrt{2}}{2}$, on a donc le tableau suivant.\n\t\t\t\t\\medskip\n\t\t\t\t\n\t\t\t\t\\textbf{Tableau de variation :}\n\t\t\t\t\n\t\t\t\t\\begin{center}\n\t\t\t\t\t\\begin{tabular}{c|ccc}\n\t\t\t\t\t\t\\( x \\) & \\( -\\frac{\\sqrt{2}}{2} \\) & \\( \\frac{1}{2} \\) & \\( \\frac{\\sqrt{2}}{2} \\) \\\\\n\t\t\t\t\t\t\\hline\n\t\t\t\t\t\t\\( g'(x) \\) & $-$ & 0 & $+$ \\\\\n\t\t\t\t\t\t\\( g(x) \\) & $\\searrow$ & $h(\\frac{1}{2})$ & $\\nearrow$ \\\\\n\t\t\t\t\t\\end{tabular}\n\t\t\t\t\\end{center}\n\t\t\t\t\n\t\t\t\t\\textbf{Valeurs :}\n\t\t\t\t\\[\n\t\t\t\th\\left(-\\frac{\\sqrt{2}}{2}\\right) = \\left(-\\frac{\\sqrt{2}}{2}\\right)^2 - \\left(\\frac{\\sqrt{2}}{2}\\right) = \\frac{1}{2} -\\frac{\\sqrt{2}}{2},\n\t\t\t\t\\]\n\t\t\t\t\\[\n\t\t\t\th\\left(\\frac{\\sqrt{2}}{2}\\right) = \\left(\\frac{\\sqrt{2}}{2}\\right)^2 + \\left(\\frac{\\sqrt{2}}{2}\\right) = \\frac{1}{2} +\\frac{\\sqrt{2}}{2},\n\t\t\t\t\\]\n\t\t\t\t\\[\n\t\t\t\th\\left(\\frac{1}{2}\\right) = \\left(\\frac{1}{2}\\right)^2 - \\frac{1}{2} = -\\frac{1}{4}.\n\t\t\t\t\\]",
+        "html": "<p>On dérive <span class=\"math inline\">\\(g(x)=f(x,-x)\\)</span>. <span\nclass=\"math display\">\\[g&#39;(x) = 2x - 1 \\Rightarrow h&#39;(x) = 0\n\\Leftrightarrow x = \\frac{1}{2}.\\]</span></p>\n<p>On a <span class=\"math inline\">\\(\\frac{1}{2}\n&lt;\\frac{\\sqrt{2}}{2}\\)</span>, on a donc le tableau suivant.</p>\n<p><strong>Tableau de variation :</strong></p>\n<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(x\\)</span></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\frac{\\sqrt{2}}{2}\\)</span></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{1}{2}\\)</span></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{\\sqrt{2}}{2}\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(g&#39;(x)\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(+\\)</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(g(x)\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\searrow\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(h(\\frac{1}{2})\\)</span></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\nearrow\\)</span></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>Valeurs :</strong> <span\nclass=\"math display\">\\[h\\left(-\\frac{\\sqrt{2}}{2}\\right) =\n\\left(-\\frac{\\sqrt{2}}{2}\\right)^2 - \\left(\\frac{\\sqrt{2}}{2}\\right) =\n\\frac{1}{2} -\\frac{\\sqrt{2}}{2},\\]</span> <span\nclass=\"math display\">\\[h\\left(\\frac{\\sqrt{2}}{2}\\right) =\n\\left(\\frac{\\sqrt{2}}{2}\\right)^2 + \\left(\\frac{\\sqrt{2}}{2}\\right) =\n\\frac{1}{2} +\\frac{\\sqrt{2}}{2},\\]</span> <span\nclass=\"math display\">\\[h\\left(\\frac{1}{2}\\right) =\n\\left(\\frac{1}{2}\\right)^2 - \\frac{1}{2} = -\\frac{1}{4}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "ce797016-6851-484b-bde9-b649650b2a25",
+      "type": "question",
+      "value": {
+        "latex": "On pose \\(h(\\theta)=f(\\cos\\theta,\\sin\\theta)\\) pour tout $\\theta\\in\\left[-\\frac{\\pi}{4};\\frac{3\\pi}{4}\\right]$. Montrer que \\(h'\\) s'annule en \\(\\frac{\\pi}{2}\\) et en \\(\\frac{\\pi}{6}\\).",
+        "html": "<p>On pose <span\nclass=\"math inline\">\\(h(\\theta)=f(\\cos\\theta,\\sin\\theta)\\)</span> pour\ntout <span\nclass=\"math inline\">\\(\\theta\\in\\left[-\\frac{\\pi}{4};\\frac{3\\pi}{4}\\right]\\)</span>.\nMontrer que <span class=\"math inline\">\\(h&#39;\\)</span> s’annule en\n<span class=\"math inline\">\\(\\frac{\\pi}{2}\\)</span> et en <span\nclass=\"math inline\">\\(\\frac{\\pi}{6}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8a65a180-c969-482a-9950-537c5b2d7148",
+      "type": "indication",
+      "value": {
+        "latex": "Calculer la dérivée de \\(h(\\theta)\\) par rapport à \\(\\theta\\) et résoudre l'équation \\(h'(\\theta)=0\\) pour identifier les valeurs \\(\\theta=\\frac{\\pi}{2}\\) et \\(\\theta=\\frac{\\pi}{6}\\).",
+        "html": "<p>Calculer la dérivée de <span class=\"math inline\">\\(h(\\theta)\\)</span>\npar rapport à <span class=\"math inline\">\\(\\theta\\)</span> et résoudre\nl’équation <span class=\"math inline\">\\(h&#39;(\\theta)=0\\)</span> pour\nidentifier les valeurs <span\nclass=\"math inline\">\\(\\theta=\\frac{\\pi}{2}\\)</span> et <span\nclass=\"math inline\">\\(\\theta=\\frac{\\pi}{6}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cda1215b-a1fc-4401-9c9f-12dd3c76ec2e",
+      "type": "reponse",
+      "value": {
+        "latex": "On dérive :\n\t\t\t\t\\[\n\t\t\t\th'(\\theta) = -2\\cos\\theta \\sin\\theta + \\cos\\theta = \\cos\\theta (1 - 2\\sin\\theta).\n\t\t\t\t\\]\n\t\t\t\tDonc \\( h'(\\theta) = 0 \\) ssi \\( \\cos\\theta = 0 \\) ou \\( \\sin\\theta = \\frac{1}{2} \\).\\\\\n\t\t\t\tSur $\\left[-\\frac{\\pi}{4};\\frac{3\\pi}{4}\\right]$ cela donne :\n\t\t\t\t\\[\n\t\t\t\t\\theta = \\frac{\\pi}{2}\\ \\ \\text{ou}\\ \\ \\theta = \\frac{\\pi}{6}.\n\t\t\t\t\\]",
+        "html": "<p>On dérive : <span class=\"math display\">\\[h&#39;(\\theta) =\n-2\\cos\\theta \\sin\\theta + \\cos\\theta = \\cos\\theta (1 -\n2\\sin\\theta).\\]</span> Donc <span class=\"math inline\">\\(h&#39;(\\theta) =\n0\\)</span> ssi <span class=\"math inline\">\\(\\cos\\theta = 0\\)</span> ou\n<span class=\"math inline\">\\(\\sin\\theta = \\frac{1}{2}\\)</span>.<br />\nSur <span\nclass=\"math inline\">\\(\\left[-\\frac{\\pi}{4};\\frac{3\\pi}{4}\\right]\\)</span>\ncela donne : <span class=\"math display\">\\[\\theta = \\frac{\\pi}{2}\\ \\\n\\text{ou}\\ \\ \\theta = \\frac{\\pi}{6}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "9656b576-3308-4540-aa28-3f38d1544479",
+      "type": "question",
+      "value": {
+        "latex": "Dresser le tableau de variation de \\(h\\).",
+        "html": "<p>Dresser le tableau de variation de <span\nclass=\"math inline\">\\(h\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cf725a52-63a1-4c12-a6ae-5b22a4065374",
+      "type": "indication",
+      "value": {
+        "latex": "Étudier les variations de \\(h(\\theta)\\) sur l'intervalle \\(\\left[-\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right]\\) en utilisant les points critiques trouvés ainsi que les valeurs aux bornes.",
+        "html": "<p>Étudier les variations de <span\nclass=\"math inline\">\\(h(\\theta)\\)</span> sur l’intervalle <span\nclass=\"math inline\">\\(\\left[-\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right]\\)</span>\nen utilisant les points critiques trouvés ainsi que les valeurs aux\nbornes.</p>\n"
+      }
+    },
+    {
+      "id": "5dec4059-1e73-4ef3-acc7-bc3cd87b3a80",
+      "type": "reponse",
+      "value": {
+        "latex": "\\begin{center}\n\t\t\t\t\t\\begin{tabular}{c|ccccccc}\n\t\t\t\t\t\t\\( \\theta \\) & \\(-\\frac{\\pi}{4}  \\) & &\\( \\frac{\\pi}{6} \\) & &\\( \\frac{\\pi}{2} \\) & &\\(\\frac{\\pi}{4}  \\)\\\\\n\t\t\t\t\t\t\\hline\n\t\t\t\t\t\t\\( \\cos\\theta \\) & & $+$  &  &$+$ & 0 & $-$ &\\\\\n\t\t\t\t\t\t\\hline\n\t\t\t\t\t\t\\( 1 - 2\\sin\\theta \\) & & $+$  & 0 &$-$ &  & $-$ &\\\\\n\t\t\t\t\t\t\\hline\n\t\t\t\t\t\t\\( h'(\\theta) \\) & & $+$  & 0 &$-$ &0  & $+$ &\\\\\n\t\t\t\t\t\t\\hline\n\t\t\t\t\t\t\\( h(\\theta) \\)  & & $\\nearrow$ &  &$\\searrow$ & &$\\nearrow$ &\\\\\n\t\t\t\t\t\\end{tabular}\n\t\t\t\t\\end{center}\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tOn calcule les valeurs de \\( g \\) :\n\t\t\t\t\\[\n\t\t\t\tg\\left(\\frac{\\pi}{2}\\right) = \\cos^2\\left(\\frac{\\pi}{2}\\right) + \\sin\\left(\\frac{\\pi}{2}\\right) = 0 + 1 = 1,\n\t\t\t\t\\]\n\t\t\t\t\\[\n\t\t\t\tg\\left(\\frac{\\pi}{6}\\right) = \\cos^2\\left(\\frac{\\pi}{6}\\right) + \\sin\\left(\\frac{\\pi}{6}\\right) = \\left(\\frac{\\sqrt{3}}{2}\\right)^2 + \\frac{1}{2} = \\frac{3}{4} + \\frac{1}{2} = \\frac{5}{4},\n\t\t\t\t\\]\n\t\t\t\t\\[\n\t\t\t\tg\\left(-\\frac{\\pi}{4}\\right) = \\cos^2\\left(-\\frac{\\pi}{4}\\right) + \\sin\\left(-\\frac{\\pi}{4}\\right) =\\frac{1}{2}-\\frac{\\sqrt{2}}{2},\n\t\t\t\t\\]\n\t\t\t\t\\[\n\t\t\t\tg\\left(\\frac{\\pi}{4}\\right) = \\cos^2\\left(\\frac{\\pi}{4}\\right) + \\sin\\left(\\frac{\\pi}{4}\\right) =\\frac{1}{2}+\\frac{\\sqrt{2}}{2}.\n\t\t\t\t\\]",
+        "html": "<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\theta\\)</span></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\frac{\\pi}{4}\\)</span></th>\n<th style=\"text-align: center;\"></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{\\pi}{6}\\)</span></th>\n<th style=\"text-align: center;\"></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{\\pi}{2}\\)</span></th>\n<th style=\"text-align: center;\"></th>\n<th style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\frac{\\pi}{4}\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\cos\\theta\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(+\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(+\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\)</span></td>\n<td style=\"text-align: center;\"></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(1 -\n2\\sin\\theta\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(+\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\)</span></td>\n<td style=\"text-align: center;\"></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(h&#39;(\\theta)\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(+\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(-\\)</span></td>\n<td style=\"text-align: center;\">0</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(+\\)</span></td>\n<td style=\"text-align: center;\"></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(h(\\theta)\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\nearrow\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\searrow\\)</span></td>\n<td style=\"text-align: center;\"></td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\(\\nearrow\\)</span></td>\n<td style=\"text-align: center;\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>On calcule les valeurs de <span class=\"math inline\">\\(g\\)</span> :\n<span class=\"math display\">\\[g\\left(\\frac{\\pi}{2}\\right) =\n\\cos^2\\left(\\frac{\\pi}{2}\\right) + \\sin\\left(\\frac{\\pi}{2}\\right) = 0 +\n1 = 1,\\]</span> <span class=\"math display\">\\[g\\left(\\frac{\\pi}{6}\\right)\n= \\cos^2\\left(\\frac{\\pi}{6}\\right) + \\sin\\left(\\frac{\\pi}{6}\\right) =\n\\left(\\frac{\\sqrt{3}}{2}\\right)^2 + \\frac{1}{2} = \\frac{3}{4} +\n\\frac{1}{2} = \\frac{5}{4},\\]</span> <span\nclass=\"math display\">\\[g\\left(-\\frac{\\pi}{4}\\right) =\n\\cos^2\\left(-\\frac{\\pi}{4}\\right) + \\sin\\left(-\\frac{\\pi}{4}\\right)\n=\\frac{1}{2}-\\frac{\\sqrt{2}}{2},\\]</span> <span\nclass=\"math display\">\\[g\\left(\\frac{\\pi}{4}\\right) =\n\\cos^2\\left(\\frac{\\pi}{4}\\right) + \\sin\\left(\\frac{\\pi}{4}\\right)\n=\\frac{1}{2}+\\frac{\\sqrt{2}}{2}.\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "d73b9ffd-81f1-4382-992c-8db8705b1d62",
+      "type": "question",
+      "value": {
+        "latex": "En utilisant les questions précédentes, déterminer le maximum et le minimum global de \\(f\\) sur \\(\\mathcal{K}\\). En quels points ces extremums sont-ils atteints ?",
+        "html": "<p>En utilisant les questions précédentes, déterminer le maximum et le\nminimum global de <span class=\"math inline\">\\(f\\)</span> sur <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span>. En quels points ces\nextremums sont-ils atteints ?</p>\n"
+      }
+    },
+    {
+      "id": "c86d966c-9238-4244-8b51-7a4a814f66e2",
+      "type": "indication",
+      "value": {
+        "latex": "Comparer les valeurs de \\(f\\) obtenues dans le domaine intérieur et sur le bord de \\(\\mathcal{K}\\), en s'appuyant sur les études réalisées précédemment, pour identifier les points où \\(f\\) atteint son maximum et son minimum global.",
+        "html": "<p>Comparer les valeurs de <span class=\"math inline\">\\(f\\)</span>\nobtenues dans le domaine intérieur et sur le bord de <span\nclass=\"math inline\">\\(\\mathcal{K}\\)</span>, en s’appuyant sur les études\nréalisées précédemment, pour identifier les points où <span\nclass=\"math inline\">\\(f\\)</span> atteint son maximum et son minimum\nglobal.</p>\n"
+      }
+    },
+    {
+      "id": "f012f07c-4389-4ce0-8017-a157754d875b",
+      "type": "reponse",
+      "value": {
+        "latex": "On ordonne les différentes valeurs trouvées. Notons que $\\frac{1}{2}<\\frac{\\sqrt{2}}{2}<\\frac{3}{4}$ (ce voit en prenant le carré par exemple). On a donc :\n\t\t\t$$-\\frac{1}{4}<\\frac{1}{2}-\\frac{\\sqrt{2}}{2}<1<\\frac{1}{2}+\\frac{\\sqrt{2}}{2}<\\frac{5}{4}.$$\n\t\t\t\n\t\t\t\n\t\t\tLe minimum de $f$ est donc $-\\frac{1}{4}$ et le maximum est $\\frac{5}{4}$. Le minimum est atteint en $(\\frac{1}{2},-\\frac{1}{2})$ et le maximum est atteint en $\\left(\\cos\\left(\\frac{\\pi}{6}\\right),\\sin\\left(\\frac{\\pi}{6}\\right)\\right)=\\left(\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)$.",
+        "html": "<p>On ordonne les différentes valeurs trouvées. Notons que <span\nclass=\"math inline\">\\(\\frac{1}{2}&lt;\\frac{\\sqrt{2}}{2}&lt;\\frac{3}{4}\\)</span>\n(ce voit en prenant le carré par exemple). On a donc : <span\nclass=\"math display\">\\[-\\frac{1}{4}&lt;\\frac{1}{2}-\\frac{\\sqrt{2}}{2}&lt;1&lt;\\frac{1}{2}+\\frac{\\sqrt{2}}{2}&lt;\\frac{5}{4}.\\]</span></p>\n<p>Le minimum de <span class=\"math inline\">\\(f\\)</span> est donc <span\nclass=\"math inline\">\\(-\\frac{1}{4}\\)</span> et le maximum est <span\nclass=\"math inline\">\\(\\frac{5}{4}\\)</span>. Le minimum est atteint en\n<span class=\"math inline\">\\((\\frac{1}{2},-\\frac{1}{2})\\)</span> et le\nmaximum est atteint en <span\nclass=\"math inline\">\\(\\left(\\cos\\left(\\frac{\\pi}{6}\\right),\\sin\\left(\\frac{\\pi}{6}\\right)\\right)=\\left(\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la fonction <span class=\"math inline\">\\(f\\)</span>\ndéfinie par <span class=\"math inline\">\\(f(x,y)=x^2+y\\)</span> sur\nl’ensemble : <spa ..."
+}

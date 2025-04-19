@@ -1,0 +1,127 @@
+{
+  "uuid": "9Acu",
+  "titre": "Equivalents simples",
+  "theme": [
+    "limite"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Maxime NGUYEN",
+    "createdAt": "2025-04-12",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-04-12T16:11:27.196Z"
+  },
+  "contenu": [
+    {
+      "id": "1125c71b-18cb-465f-befd-475e7692098c",
+      "type": "description",
+      "value": {
+        "latex": "Trouver un équivalent simple pour chaque fonction suivante :",
+        "html": "<p>Trouver un équivalent simple pour chaque fonction suivante :</p>\n"
+      }
+    },
+    {
+      "id": "7aaee784-12c1-4377-b59a-349ab941d633",
+      "type": "question",
+      "value": {
+        "latex": "$\\frac{3x^2-x+4}{2x^3+5x+7} \\ \\text{ en } 0$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{3x^2-x+4}{2x^3+5x+7} \\ \\text{ en }\n0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "7e28aef0-2ef3-490f-afd6-7f1d47a318aa",
+      "type": "reponse",
+      "value": {
+        "latex": "Réponse : $\\frac{4}{7}$ \\\\ \n\t\t\tLorsque $x \\to 0$, le numérateur tend vers $3(0)^2-(0)+4 = 4$ et le dénominateur vers $2(0)^3+5(0)+7 = 7$. Donc la fonction est équivalente à $\\frac{4}{7}$ en $0$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{4}{7}\\)</span><br />\nLorsque <span class=\"math inline\">\\(x \\to 0\\)</span>, le numérateur tend\nvers <span class=\"math inline\">\\(3(0)^2-(0)+4 = 4\\)</span> et le\ndénominateur vers <span class=\"math inline\">\\(2(0)^3+5(0)+7 =\n7\\)</span>. Donc la fonction est équivalente à <span\nclass=\"math inline\">\\(\\frac{4}{7}\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "179b0c9d-d6e6-4970-814a-981b032eadfb",
+      "type": "question",
+      "value": {
+        "latex": "$ \\sqrt{\\frac{x^2+1}{x^2-1}} \\ \\text{ en } +\\infty$",
+        "html": "<p><span class=\"math inline\">\\(\\sqrt{\\frac{x^2+1}{x^2-1}} \\ \\text{ en }\n+\\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "d6fd98f2-74eb-4c0a-8021-9dd06e0d0570",
+      "type": "reponse",
+      "value": {
+        "latex": "Réponse : $1$ \\\\\n\t\t\tQuand $x \\to +\\infty$, $\\frac{x^2+1}{x^2-1} = \\frac{1+\\frac{1}{x^2}}{1-\\frac{1}{x^2}} \\sim 1$. Par continuité de la racine carrée, $\\sqrt{\\frac{x^2+1}{x^2-1}} \\sim \\sqrt{1} = 1$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(1\\)</span><br />\nQuand <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{x^2+1}{x^2-1} =\n\\frac{1+\\frac{1}{x^2}}{1-\\frac{1}{x^2}} \\sim 1\\)</span>. Par continuité\nde la racine carrée, <span\nclass=\"math inline\">\\(\\sqrt{\\frac{x^2+1}{x^2-1}} \\sim \\sqrt{1} =\n1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8ef3dc8a-1335-4fc3-adaa-2edb45304bdc",
+      "type": "question",
+      "value": {
+        "latex": "$e^{x}-1-x \\ \\text{ en } 0$",
+        "html": "<p><span class=\"math inline\">\\(e^{x}-1-x \\ \\text{ en } 0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "020a8c26-7546-45f0-8efb-352ef8bc4cf3",
+      "type": "reponse",
+      "value": {
+        "latex": "Réponse : $\\frac{x^2}{2}$ \\\\\n\t\t\tEn développant $e^x$ en $0$ : $e^x = 1 + x + \\frac{x^2}{2} + o(x^2)$. Donc $e^x-1-x = \\frac{x^2}{2} + o(x^2)$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{x^2}{2}\\)</span><br />\nEn développant <span class=\"math inline\">\\(e^x\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span> : <span class=\"math inline\">\\(e^x = 1 +\nx + \\frac{x^2}{2} + o(x^2)\\)</span>. Donc <span\nclass=\"math inline\">\\(e^x-1-x = \\frac{x^2}{2} + o(x^2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "0f4fcb02-3a6b-482c-a4ac-e70a82e3e5cc",
+      "type": "question",
+      "value": {
+        "latex": "$\\ln(1+\\frac{1}{x^4}) \\ \\text{ en } +\\infty$",
+        "html": "<p><span class=\"math inline\">\\(\\ln(1+\\frac{1}{x^4}) \\ \\text{ en }\n+\\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "5bc56b95-1344-4a3e-8d07-b80de2705d13",
+      "type": "reponse",
+      "value": {
+        "latex": "Réponse : $\\frac{1}{x^4}$ \\\\\n\t\t\tQuand $x \\to +\\infty$, $\\frac{1}{x^4} \\to 0$. En posant $t = \\frac{1}{x}$, on a $\\ln(1+t) \\sim t$ pour $t$ proche de $0$. Donc $\\ln(1+\\frac{1}{x^4}) \\sim \\frac{1}{x^4}$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{1}{x^4}\\)</span><br />\nQuand <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{1}{x^4} \\to 0\\)</span>. En posant <span\nclass=\"math inline\">\\(t = \\frac{1}{x}\\)</span>, on a <span\nclass=\"math inline\">\\(\\ln(1+t) \\sim t\\)</span> pour <span\nclass=\"math inline\">\\(t\\)</span> proche de <span\nclass=\"math inline\">\\(0\\)</span>. Donc <span\nclass=\"math inline\">\\(\\ln(1+\\frac{1}{x^4}) \\sim\n\\frac{1}{x^4}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "31da469b-2bce-49fe-a978-82649743f76a",
+      "type": "question",
+      "value": {
+        "latex": "$ \\frac{\\sin x - x\\cos x}{x^3} \\ \\text{ en } 0$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{\\sin x - x\\cos x}{x^3} \\ \\text{ en\n} 0\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "4e367037-7d25-49bf-a58b-b1d66b13baf8",
+      "type": "reponse",
+      "value": {
+        "latex": "Réponse : $\\frac{1}{6}$ \\\\\n\t\t\tDéveloppons $\\sin x = x - \\frac{x^3}{6} + o(x^3)$ et $\\cos x = 1 - \\frac{x^2}{2} + o(x^3)$ en $0$. Donc $\\sin x - x\\cos x = x - \\frac{x^3}{6} - x(1 - \\frac{x^2}{2}) + o(x^3) = x - \\frac{x^3}{6} - x + \\frac{x^3}{2} + o(x^3)= \\frac{x^3}{3} + o(x^3)$. Ainsi, $\\frac{\\sin x - x\\cos x}{x^3} \\sim \\frac{1}{3}$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{1}{6}\\)</span><br />\nDéveloppons <span class=\"math inline\">\\(\\sin x = x - \\frac{x^3}{6} +\no(x^3)\\)</span> et <span class=\"math inline\">\\(\\cos x = 1 -\n\\frac{x^2}{2} + o(x^3)\\)</span> en <span\nclass=\"math inline\">\\(0\\)</span>. Donc <span class=\"math inline\">\\(\\sin\nx - x\\cos x = x - \\frac{x^3}{6} - x(1 - \\frac{x^2}{2}) + o(x^3) = x -\n\\frac{x^3}{6} - x + \\frac{x^3}{2} + o(x^3)= \\frac{x^3}{3} +\no(x^3)\\)</span>. Ainsi, <span class=\"math inline\">\\(\\frac{\\sin x - x\\cos\nx}{x^3} \\sim \\frac{1}{3}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d913207a-7870-4d74-8de6-412708eca31b",
+      "type": "question",
+      "value": {
+        "latex": "$ \\frac{x^3+2\\sqrt{x}}{3x^3-x^2} \\ \\text{ en } +\\infty$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{x^3+2\\sqrt{x}}{3x^3-x^2} \\ \\text{\nen } +\\infty\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "35472cdb-aa61-428a-99dc-543967d0d41c",
+      "type": "reponse",
+      "value": {
+        "latex": "Réponse : $\\frac{1}{3}$ \\\\\n\t\t\tPour $x \\to +\\infty$, les termes dominants sont $x^3$ au numérateur et $3x^3$ au dénominateur. Donc $\\frac{x^3+2\\sqrt{x}}{3x^3-x^2} \\sim \\frac{x^3}{3x^3} = \\frac{1}{3}$.",
+        "html": "<p>Réponse : <span class=\"math inline\">\\(\\frac{1}{3}\\)</span><br />\nPour <span class=\"math inline\">\\(x \\to +\\infty\\)</span>, les termes\ndominants sont <span class=\"math inline\">\\(x^3\\)</span> au numérateur et\n<span class=\"math inline\">\\(3x^3\\)</span> au dénominateur. Donc <span\nclass=\"math inline\">\\(\\frac{x^3+2\\sqrt{x}}{3x^3-x^2} \\sim\n\\frac{x^3}{3x^3} = \\frac{1}{3}\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Trouver un équivalent simple pour chaque fonction suivante :</p>\n"
+}

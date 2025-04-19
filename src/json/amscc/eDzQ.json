@@ -1,0 +1,103 @@
+{
+  "uuid": "eDzQ",
+  "titre": "Equivalents simples",
+  "theme": [
+    "limite"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "",
+    "createdAt": "2025-04-12",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "Continuité, limite et étude de fonctions réelles",
+    "sousChapitre": "Fonctions équivalentes, fonctions négligeables",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-04-12T16:11:27.865Z"
+  },
+  "contenu": [
+    {
+      "id": "633d1fae-5a0e-409b-8266-ce53d631636d",
+      "type": "question",
+      "value": {
+        "latex": "$u_n=\\frac{1}{n-1}-\\frac{1}{n+1}$",
+        "html": "<p><span\nclass=\"math inline\">\\(u_n=\\frac{1}{n-1}-\\frac{1}{n+1}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "0e514593-d432-468f-a7f8-2c8aa7e325de",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{1}{n-1}-\\frac{1}{n+1}=\\frac{2}{n^{2}-1} \\underset{n \\rightarrow+\\infty}{\\sim} \\frac{2}{n^{2}}$, car $n^{2}-1 \\underset{n \\rightarrow+\\infty}{\\sim} n^{2} .$",
+        "html": "<p><span\nclass=\"math inline\">\\(\\frac{1}{n-1}-\\frac{1}{n+1}=\\frac{2}{n^{2}-1}\n\\underset{n \\rightarrow+\\infty}{\\sim} \\frac{2}{n^{2}}\\)</span>, car\n<span class=\"math inline\">\\(n^{2}-1 \\underset{n\n\\rightarrow+\\infty}{\\sim} n^{2} .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e340e26c-c214-4ed8-a90f-57ccd4786a15",
+      "type": "question",
+      "value": {
+        "latex": "$u_n=n+1+\\ln(n)$",
+        "html": "<p><span class=\"math inline\">\\(u_n=n+1+\\ln(n)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "91f805d9-1fe8-414a-8215-a6e76493ab50",
+      "type": "reponse",
+      "value": {
+        "latex": "$n+1+\\ln (n) \\underset{n \\rightarrow+\\infty}{\\sim} n$, car $\\lim\\limits_{n \\rightarrow+\\infty} \\frac{n+1+\\ln (n)}{n}=\\lim\\limits_{n \\rightarrow+\\infty} \\frac{n \\times\\left(1+\\frac{1}{n}+\\frac{\\ln (n)}{n}\\right)}{n}=\\lim\\limits_{n \\rightarrow+\\infty} 1+\\frac{1}{n}+\\frac{\\ln (n)}{n}=1 .$",
+        "html": "<p><span class=\"math inline\">\\(n+1+\\ln (n) \\underset{n\n\\rightarrow+\\infty}{\\sim} n\\)</span>, car <span\nclass=\"math inline\">\\(\\lim\\limits_{n \\rightarrow+\\infty} \\frac{n+1+\\ln\n(n)}{n}=\\lim\\limits_{n \\rightarrow+\\infty} \\frac{n\n\\times\\left(1+\\frac{1}{n}+\\frac{\\ln (n)}{n}\\right)}{n}=\\lim\\limits_{n\n\\rightarrow+\\infty} 1+\\frac{1}{n}+\\frac{\\ln (n)}{n}=1 .\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "57e7d833-73a0-402c-afca-e88243764d51",
+      "type": "question",
+      "value": {
+        "latex": "$u_n=\\sin\\left(\\frac{1}{\\sqrt{n+1}}\\right)$",
+        "html": "<p><span\nclass=\"math inline\">\\(u_n=\\sin\\left(\\frac{1}{\\sqrt{n+1}}\\right)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "e93dd6a4-0628-4274-9500-5c11d002d951",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\sin (u) \\underset{u \\rightarrow 0}{\\sim} u \\Rightarrow \\sin \\left(\\frac{1}{\\sqrt{n+1}}\\right) \\underset{n \\rightarrow+\\infty}{\\sim} \\frac{1}{\\sqrt{n+1}} \\underset{n \\rightarrow+\\infty}{\\sim} \\frac{1}{\\sqrt{n}}$",
+        "html": "<p><span class=\"math inline\">\\(\\sin (u) \\underset{u \\rightarrow 0}{\\sim}\nu \\Rightarrow \\sin \\left(\\frac{1}{\\sqrt{n+1}}\\right) \\underset{n\n\\rightarrow+\\infty}{\\sim} \\frac{1}{\\sqrt{n+1}} \\underset{n\n\\rightarrow+\\infty}{\\sim} \\frac{1}{\\sqrt{n}}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "92bd7eb2-50b9-43c8-81f8-961652395f22",
+      "type": "question",
+      "value": {
+        "latex": "$u_n=\\sqrt{n+1}-\\sqrt{n-1}$",
+        "html": "<p><span class=\"math inline\">\\(u_n=\\sqrt{n+1}-\\sqrt{n-1}\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "bb812596-14c3-4972-832c-34c1a438ecd9",
+      "type": "reponse",
+      "value": {
+        "latex": "On a : \n\t\t$\\sqrt{n+1}-\\sqrt{n-1}=\\frac{(\\sqrt{n+1}-\\sqrt{n-1})(\\sqrt{n+1}+\\sqrt{n-1})}{\\sqrt{n+1}+\\sqrt{n-1}}=\\frac{(n+1)-(n-1)}{\\sqrt{n+1}+\\sqrt{n-1}}=\\frac{2}{\\sqrt{n+1}+\\sqrt{n-1}}$\\\\\n\t\tet $\\sqrt{n+1}+\\sqrt{n-1} \\underset{n \\rightarrow+\\infty}{\\sim} 2 \\sqrt{n}$ car :\\\\\n\t\t$\\lim\\limits_{n \\rightarrow+\\infty} \\frac{\\sqrt{n+1}+\\sqrt{n-1}}{2 \\sqrt{n}}=\\lim\\limits_{n \\rightarrow+\\infty} \\frac{1}{2} \\sqrt{\\frac{n+1}{n}}+\\frac{1}{2} \\sqrt{\\frac{n-1}{n}}=\\lim\\limits_{n \\rightarrow+\\infty} \\frac{1}{2}+\\frac{1}{2}=1$\n\t\tAussi :\n\t\t$$\n\t\t\\sqrt{n+1}-\\sqrt{n-1} \\underset{n \\rightarrow+\\infty}{\\sim} \\frac{2}{2 \\sqrt{n}}=\\frac{1}{\\sqrt{n}}\n\t\t$$",
+        "html": "<p>On a : <span\nclass=\"math inline\">\\(\\sqrt{n+1}-\\sqrt{n-1}=\\frac{(\\sqrt{n+1}-\\sqrt{n-1})(\\sqrt{n+1}+\\sqrt{n-1})}{\\sqrt{n+1}+\\sqrt{n-1}}=\\frac{(n+1)-(n-1)}{\\sqrt{n+1}+\\sqrt{n-1}}=\\frac{2}{\\sqrt{n+1}+\\sqrt{n-1}}\\)</span><br />\net <span class=\"math inline\">\\(\\sqrt{n+1}+\\sqrt{n-1} \\underset{n\n\\rightarrow+\\infty}{\\sim} 2 \\sqrt{n}\\)</span> car :<br />\n<span class=\"math inline\">\\(\\lim\\limits_{n \\rightarrow+\\infty}\n\\frac{\\sqrt{n+1}+\\sqrt{n-1}}{2 \\sqrt{n}}=\\lim\\limits_{n\n\\rightarrow+\\infty} \\frac{1}{2} \\sqrt{\\frac{n+1}{n}}+\\frac{1}{2}\n\\sqrt{\\frac{n-1}{n}}=\\lim\\limits_{n \\rightarrow+\\infty}\n\\frac{1}{2}+\\frac{1}{2}=1\\)</span> Aussi : <span\nclass=\"math display\">\\[\\sqrt{n+1}-\\sqrt{n-1} \\underset{n\n\\rightarrow+\\infty}{\\sim} \\frac{2}{2\n\\sqrt{n}}=\\frac{1}{\\sqrt{n}}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "a359a2ca-19db-470f-87fd-e5658ab5deff",
+      "type": "question",
+      "value": {
+        "latex": "$u_n=\\ln\\left(\\frac{n^2+n+2}{n^2+n-1}\\right)$",
+        "html": "<p><span\nclass=\"math inline\">\\(u_n=\\ln\\left(\\frac{n^2+n+2}{n^2+n-1}\\right)\\)</span></p>\n"
+      }
+    },
+    {
+      "id": "c22e6856-06e3-4474-90ff-6a5258fbdbc5",
+      "type": "reponse",
+      "value": {
+        "latex": "$\\frac{n^{2}+n+2}{n^{2}+n-1}=\\frac{n^{2} \\times\\left(1+\\frac{1}{n}+\\frac{2}{n^{2}}\\right)}{n^{2} \\times\\left(1+\\frac{1}{n}-\\frac{1}{n^{2}}\\right)}=\\frac{1+\\frac{1}{n}+\\frac{2}{n^{2}}}{1+\\frac{1}{n}-\\frac{1}{n^{2}}}$\n\t\t\n\t\t$$\n\t\t\\frac{1+u+2 u^{2}}{1+u-u^{2}}=1+3 u^{2}+u^{2} . \\varepsilon(u)\n\t\t$$\n\t\t$\\ln (1+v)=v-\\frac{v^{2}}{2}+v^{2} . \\underset{v \\neq 0}{\\varepsilon(v)} \\Rightarrow \\ln \\left(\\frac{1+u+2 u^{2}}{1+u-u^{2}}\\right)=3 u^{2}+u^{2} . \\varepsilon(u)$\\\\\n\t\tAinsi : $\\ln \\left(\\frac{n^{2}+n+2}{n^{2}+n-1}\\right)=\\frac{3}{n^{2}}+\\frac{1}{n^{2}} \\cdot \\varepsilon\\left(\\frac{1}{n}\\right)$ ou encore $\\ln \\left(\\frac{n^{2}+n+2}{n^{2}+n-1}\\right) \\underset{n \\rightarrow+\\infty}{\\sim} \\frac{3}{n^{2}}$",
+        "html": "<p><span class=\"math inline\">\\(\\frac{n^{2}+n+2}{n^{2}+n-1}=\\frac{n^{2}\n\\times\\left(1+\\frac{1}{n}+\\frac{2}{n^{2}}\\right)}{n^{2}\n\\times\\left(1+\\frac{1}{n}-\\frac{1}{n^{2}}\\right)}=\\frac{1+\\frac{1}{n}+\\frac{2}{n^{2}}}{1+\\frac{1}{n}-\\frac{1}{n^{2}}}\\)</span></p>\n<p><span class=\"math display\">\\[\\frac{1+u+2 u^{2}}{1+u-u^{2}}=1+3\nu^{2}+u^{2} . \\varepsilon(u)\\]</span> <span class=\"math inline\">\\(\\ln\n(1+v)=v-\\frac{v^{2}}{2}+v^{2} . \\underset{v \\neq 0}{\\varepsilon(v)}\n\\Rightarrow \\ln \\left(\\frac{1+u+2 u^{2}}{1+u-u^{2}}\\right)=3 u^{2}+u^{2}\n. \\varepsilon(u)\\)</span><br />\nAinsi : <span class=\"math inline\">\\(\\ln\n\\left(\\frac{n^{2}+n+2}{n^{2}+n-1}\\right)=\\frac{3}{n^{2}}+\\frac{1}{n^{2}}\n\\cdot \\varepsilon\\left(\\frac{1}{n}\\right)\\)</span> ou encore <span\nclass=\"math inline\">\\(\\ln \\left(\\frac{n^{2}+n+2}{n^{2}+n-1}\\right)\n\\underset{n \\rightarrow+\\infty}{\\sim} \\frac{3}{n^{2}}\\)</span></p>\n"
+      }
+    }
+  ],
+  "preview": "<p><span\nclass=\"math inline\">\\(u_n=\\frac{1}{n-1}-\\frac{1}{n+1}\\)</span></p>\n"
+}

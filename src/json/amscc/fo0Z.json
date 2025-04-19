@@ -1,0 +1,103 @@
+{
+  "uuid": "fo0Z",
+  "titre": "Recherche des extremums globaux",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Grégoire MENET",
+    "createdAt": "2025-04-16",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-04-19T09:29:42.018Z"
+  },
+  "contenu": [
+    {
+      "id": "b7bb3e97-4d38-4216-83a7-5587f4900f75",
+      "type": "description",
+      "value": {
+        "latex": "On considère la fonction \\(f\\) définie par \\(f(x,y) = -x^2y + \\frac{1}{2}y^2 + y\\) pour tout \\((x,y)\\in\\R^2\\).",
+        "html": "<p>On considère la fonction <span class=\"math inline\">\\(f\\)</span>\ndéfinie par <span class=\"math inline\">\\(f(x,y) = -x^2y + \\frac{1}{2}y^2\n+ y\\)</span> pour tout <span\nclass=\"math inline\">\\((x,y)\\in\\R^2\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "98c83471-150b-4862-a467-8428c2626a57",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer les points critiques de \\(f\\).",
+        "html": "<p>Déterminer les points critiques de <span\nclass=\"math inline\">\\(f\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "936de1fd-9a88-4646-a1f3-6075496b2627",
+      "type": "indication",
+      "value": {
+        "latex": "Calculer les dérivées partielles par rapport à \\(x\\) et \\(y\\) puis résoudre le système \\(\\frac{\\partial f}{\\partial x}=0\\) et \\(\\frac{\\partial f}{\\partial y}=0\\).",
+        "html": "<p>Calculer les dérivées partielles par rapport à <span\nclass=\"math inline\">\\(x\\)</span> et <span\nclass=\"math inline\">\\(y\\)</span> puis résoudre le système <span\nclass=\"math inline\">\\(\\frac{\\partial f}{\\partial x}=0\\)</span> et <span\nclass=\"math inline\">\\(\\frac{\\partial f}{\\partial y}=0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "a445e0a2-ed38-4d65-87b0-fe23d3e6a93f",
+      "type": "reponse",
+      "value": {
+        "latex": "On commence par calculer les dérivées partielles premières :\n\t\t\t\\[\n\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = -2xy,\\quad \\frac{\\partial f}{\\partial y}(x,y) = -x^2 + y + 1.\n\t\t\t\\]\n\t\t\tPour les points critiques, on cherche les points où ces deux dérivées s'annulent simultanément :\n\t\t\t\\[\n\t\t\t\\frac{\\partial f}{\\partial x}(x,y) = 0 \\quad \\Rightarrow \\quad -2xy = 0,\n\t\t\t\\]\n\t\t\tce qui donne \\( x = 0 \\) ou \\( y = 0 \\).\n\t\t\t\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item Si \\( x = 0 \\), alors \\(\\frac{\\partial f}{\\partial y}(x,y) = -0 + y + 1 = y + 1 = 0 \\Rightarrow y = -1 \\).\n\t\t\t\t\\item Si \\( y = 0 \\), alors \\(\\frac{\\partial f}{\\partial y}(x,y) = -x^2 + 0 + 1 = 1 - x^2 = 0 \\Rightarrow x = \\pm 1 \\).\n\t\t\t\\end{itemize}\n\t\t\t\n\t\t\t\\textbf{Donc, les points critiques sont : } \\( (0,-1),\\ (1,0),\\ (-1,0) \\).",
+        "html": "<p>On commence par calculer les dérivées partielles premières : <span\nclass=\"math display\">\\[\\frac{\\partial f}{\\partial x}(x,y) = -2xy,\\quad\n\\frac{\\partial f}{\\partial y}(x,y) = -x^2 + y + 1.\\]</span> Pour les\npoints critiques, on cherche les points où ces deux dérivées s’annulent\nsimultanément : <span class=\"math display\">\\[\\frac{\\partial f}{\\partial\nx}(x,y) = 0 \\quad \\Rightarrow \\quad -2xy = 0,\\]</span> ce qui donne\n<span class=\"math inline\">\\(x = 0\\)</span> ou <span\nclass=\"math inline\">\\(y = 0\\)</span>.</p>\n<ul>\n<li><p>Si <span class=\"math inline\">\\(x = 0\\)</span>, alors <span\nclass=\"math inline\">\\(\\frac{\\partial f}{\\partial y}(x,y) = -0 + y + 1 =\ny + 1 = 0 \\Rightarrow y = -1\\)</span>.</p></li>\n<li><p>Si <span class=\"math inline\">\\(y = 0\\)</span>, alors <span\nclass=\"math inline\">\\(\\frac{\\partial f}{\\partial y}(x,y) = -x^2 + 0 + 1\n= 1 - x^2 = 0 \\Rightarrow x = \\pm 1\\)</span>.</p></li>\n</ul>\n<p><strong>Donc, les points critiques sont :</strong> <span\nclass=\"math inline\">\\((0,-1),\\ (1,0),\\ (-1,0)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "56e361eb-ef24-4bfc-a266-75b94e3fb19c",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la nature de ces points critiques.",
+        "html": "<p>Déterminer la nature de ces points critiques.</p>\n"
+      }
+    },
+    {
+      "id": "d2a9f5ce-117b-4f3c-b4a9-7642bba31f89",
+      "type": "indication",
+      "value": {
+        "latex": "Étudier la nature des points critiques à l'aide du critère de la matrice hessienne.",
+        "html": "<p>Étudier la nature des points critiques à l’aide du critère de la\nmatrice hessienne.</p>\n"
+      }
+    },
+    {
+      "id": "76aea487-0c67-44bc-995f-85097c04108d",
+      "type": "reponse",
+      "value": {
+        "latex": "On calcule maintenant les dérivées partielles secondes :\n\t\t\t\\[\n\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(x,y) = -2y,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial y^2}(x,y) = 1,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) = \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) = -2x.\n\t\t\t\\]\n\t\t\t\n\t\t\tLe déterminant de la matrice hessienne est :\n\t\t\t\\[\n\t\t\t\\Delta_f(x,y) = \n\t\t\t\\begin{vmatrix}\n\t\t\t\t\\frac{\\partial^2 f}{\\partial x^2} & \\frac{\\partial^2 f}{\\partial x \\partial y} \\\\\n\t\t\t\t\\frac{\\partial^2 f}{\\partial y \\partial x} & \\frac{\\partial^2 f}{\\partial y^2}\n\t\t\t\\end{vmatrix}\n\t\t\t= -2y-4x^2.\n\t\t\t\\]\n\t\t\t\n\t\t\t\\medskip\n\t\t\t\\textbf{En \\( (0,-1) \\) :}\n\t\t\t\\[\n\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(0,-1) = 2,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(0,-1) = 0,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial y^2}(0,-1) = 1.\n\t\t\t\\]\n\t\t\tDonc\n\t\t\t\\[\n\t\t\t\\Delta_f(0,-1) = 2 \\cdot 1 - 0 = 2 > 0,\\quad \\text{et} \\quad \\frac{\\partial^2 f}{\\partial x^2}(0,-1) > 0\n\t\t\t\\]\n\t\t\t$$\\Rightarrow \\text{la fonction}\\ f\\ \\text{admet un minimum local en} (0,-1).$$\n\t\t\t\\medskip\n\t\t\t\\textbf{En \\( (1,0) \\) :}\n\t\t\t\\[\n\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(1,0) = 0,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(1,0) = -2,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial y^2}(1,0) = 1.\n\t\t\t\\]\n\t\t\tDonc\n\t\t\t\\[\n\t\t\t\\Delta_f(1,0) = 0 \\cdot 1 - (-2)^2 = -4 < 0\n\t\t\t\\Rightarrow \\text{la fonction} f \\text{ admet un point selle  en}\\ (1,0).\n\t\t\t\\]\n\t\t\t\n\t\t\t\\medskip\n\t\t\t\\textbf{En \\( (-1,0) \\) :}\n\t\t\t\\[\n\t\t\t\\frac{\\partial^2 f}{\\partial x^2}(-1,0) = 0,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial x \\partial y}(-1,0) = 2,\\quad\n\t\t\t\\frac{\\partial^2 f}{\\partial y^2}(-1,0) = 1.\n\t\t\t\\]\n\t\t\tDonc\n\t\t\t\\[\n\t\t\t\\Delta_f(-1,0) = 0 \\cdot 1 - (2)^2 = -4 < 0\n\t\t\t\\Rightarrow \\text{la fonction} f \\text{ admet un point selle en}\\ (-1,0).\n\t\t\t\\]",
+        "html": "<p>On calcule maintenant les dérivées partielles secondes : <span\nclass=\"math display\">\\[\\frac{\\partial^2 f}{\\partial x^2}(x,y) =\n-2y,\\quad\n            \\frac{\\partial^2 f}{\\partial y^2}(x,y) = 1,\\quad\n            \\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) =\n\\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) = -2x.\\]</span></p>\n<p>Le déterminant de la matrice hessienne est : <span\nclass=\"math display\">\\[\\Delta_f(x,y) =\n            \\begin{vmatrix}\n                \\frac{\\partial^2 f}{\\partial x^2} &amp; \\frac{\\partial^2\nf}{\\partial x \\partial y} \\\\\n                \\frac{\\partial^2 f}{\\partial y \\partial x} &amp;\n\\frac{\\partial^2 f}{\\partial y^2}\n            \\end{vmatrix}\n            = -2y-4x^2.\\]</span></p>\n<p><strong>En <span class=\"math inline\">\\((0,-1)\\)</span> :</strong>\n<span class=\"math display\">\\[\\frac{\\partial^2 f}{\\partial x^2}(0,-1) =\n2,\\quad\n            \\frac{\\partial^2 f}{\\partial x \\partial y}(0,-1) = 0,\\quad\n            \\frac{\\partial^2 f}{\\partial y^2}(0,-1) = 1.\\]</span> Donc\n<span class=\"math display\">\\[\\Delta_f(0,-1) = 2 \\cdot 1 - 0 = 2 &gt;\n0,\\quad \\text{et} \\quad \\frac{\\partial^2 f}{\\partial x^2}(0,-1) &gt;\n0\\]</span> <span class=\"math display\">\\[\\Rightarrow \\text{la fonction}\\\nf\\ \\text{admet un minimum local en} (0,-1).\\]</span> <strong>En <span\nclass=\"math inline\">\\((1,0)\\)</span> :</strong> <span\nclass=\"math display\">\\[\\frac{\\partial^2 f}{\\partial x^2}(1,0) = 0,\\quad\n            \\frac{\\partial^2 f}{\\partial x \\partial y}(1,0) = -2,\\quad\n            \\frac{\\partial^2 f}{\\partial y^2}(1,0) = 1.\\]</span> Donc\n<span class=\"math display\">\\[\\Delta_f(1,0) = 0 \\cdot 1 - (-2)^2 = -4\n&lt; 0\n            \\Rightarrow \\text{la fonction} f \\text{ admet un point\nselle  en}\\ (1,0).\\]</span></p>\n<p><strong>En <span class=\"math inline\">\\((-1,0)\\)</span> :</strong>\n<span class=\"math display\">\\[\\frac{\\partial^2 f}{\\partial x^2}(-1,0) =\n0,\\quad\n            \\frac{\\partial^2 f}{\\partial x \\partial y}(-1,0) = 2,\\quad\n            \\frac{\\partial^2 f}{\\partial y^2}(-1,0) = 1.\\]</span> Donc\n<span class=\"math display\">\\[\\Delta_f(-1,0) = 0 \\cdot 1 - (2)^2 = -4\n&lt; 0\n            \\Rightarrow \\text{la fonction} f \\text{ admet un point selle\nen}\\ (-1,0).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "252ff574-ccf9-4a2e-985d-8e7bcf074b8c",
+      "type": "question",
+      "value": {
+        "latex": "La fonction \\(f\\) admet-elle des extremums globaux ? Justifier votre réponse.",
+        "html": "<p>La fonction <span class=\"math inline\">\\(f\\)</span> admet-elle des\nextremums globaux ? Justifier votre réponse.</p>\n"
+      }
+    },
+    {
+      "id": "b18b54e8-23aa-4880-91b4-b94a9be1b3bd",
+      "type": "indication",
+      "value": {
+        "latex": "On peut voir que la fonction n'est pas bornée en prenant la limite sur des chemins de $\\mathbb{R}^2$ bien choisis.",
+        "html": "<p>On peut voir que la fonction n’est pas bornée en prenant la limite\nsur des chemins de <span class=\"math inline\">\\(\\mathbb{R}^2\\)</span>\nbien choisis.</p>\n"
+      }
+    },
+    {
+      "id": "eb229816-2911-4230-902a-2cd3eea6f783",
+      "type": "reponse",
+      "value": {
+        "latex": "On examine le comportement de \\( f(x,y) = -x^2y + \\frac{1}{2}y^2 + y \\) à l'infini.\n\t\t\t\n\t\t\t\\textbf{Sur la courbe \\( y = x^2 \\) :}\n\t\t\t\\[\n\t\t\tf(x,x^2) = -x^2 \\cdot x^2 + \\frac{1}{2}x^4 + x^2 = -x^4 + \\frac{1}{2}x^4 + x^2 = -\\frac{1}{2}x^4 + x^2.\n\t\t\t\\]\n\t\t\tLorsque \\( x \\to \\infty \\), cette expression tend vers \\( -\\infty \\).\n\t\t\t\n\t\t\t\\textbf{Sur la droite \\( x = 0 \\) :}\n\t\t\t\\[\n\t\t\tf(0,y) = \\frac{1}{2}y^2 + y \\to +\\infty \\text{ lorsque } y \\to +\\infty.\n\t\t\t\\]\n\t\t\t\n\t\t\t\\textbf{Conclusion :} La fonction n'est pas bornée supérieurement ni inférieurement sur \\( \\mathbb{R}^2 \\).\\\\\n\t\t\tElle n'a donc ni minimum ni maximum global.",
+        "html": "<p>On examine le comportement de <span class=\"math inline\">\\(f(x,y) =\n-x^2y + \\frac{1}{2}y^2 + y\\)</span> à l’infini.</p>\n<p><strong>Sur la courbe <span class=\"math inline\">\\(y = x^2\\)</span>\n:</strong> <span class=\"math display\">\\[f(x,x^2) = -x^2 \\cdot x^2 +\n\\frac{1}{2}x^4 + x^2 = -x^4 + \\frac{1}{2}x^4 + x^2 = -\\frac{1}{2}x^4 +\nx^2.\\]</span> Lorsque <span class=\"math inline\">\\(x \\to \\infty\\)</span>,\ncette expression tend vers <span\nclass=\"math inline\">\\(-\\infty\\)</span>.</p>\n<p><strong>Sur la droite <span class=\"math inline\">\\(x = 0\\)</span>\n:</strong> <span class=\"math display\">\\[f(0,y) = \\frac{1}{2}y^2 + y \\to\n+\\infty \\text{ lorsque } y \\to +\\infty.\\]</span></p>\n<p><strong>Conclusion :</strong> La fonction n’est pas bornée\nsupérieurement ni inférieurement sur <span\nclass=\"math inline\">\\(\\mathbb{R}^2\\)</span>.<br />\nElle n’a donc ni minimum ni maximum global.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>On considère la fonction <span class=\"math inline\">\\(f\\)</span>\ndéfinie par <span class=\"math inline\">\\(f(x,y) = -x^2y + \\frac{1}{2}y^2\n+ y\\)</span ..."
+}
