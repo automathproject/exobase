@@ -1,10 +1,10 @@
 {
   "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi exponentielle par la méthode du maximum de vraisemblance, à partir d'un échantillon de $n$ variables aléatoires indépendantes et identiquement distribuées. Les compétences mises en œuvre sont : \n\n1.  Calcul de la vraisemblance $L(\\theta)$ et de la log-vraisemblance $\\ell(\\theta)$ de l'échantillon.\n2.  Calcul de la dérivée première $\\ell'(\\theta)$ de la log-vraisemblance.\n3.  Détermination de l'estimateur du maximum de vraisemblance $\\widehat{\\theta}_n$ en résolvant l'équation $\\ell'(\\theta) = 0$.\n4.  Vérification que $\\widehat{\\theta}_n$ est bien un maximum en étudiant le signe de la dérivée seconde $\\ell''(\\theta)$.\n5.  Démonstration du fait que $\\frac{1}{\\widehat{\\theta}_n}$ est un estimateur sans biais de $\\frac{1}{\\theta}$, en calculant son espérance.",
   "competences": [
-    "calculer le maximum de vraisemblance d'un paramètre",
+    "Appliquer la méthode / Calculer l'estimateur du maximum de vraisemblance",
     "calculer la dérivée d'une fonction log-vraisemblance",
-    "appliquer la définition de la vraisemblance pour un échantillon i.i.d.",
-    "calculer l'espérance d'une variable aléatoire",
+    "Calculer / Exprimer / Déterminer la fonction de vraisemblance",
+    "Calculer l'espérance (mathématique) d'une variable aléatoire (ou fonction de VA)",
     "interpréter le signe de la dérivée seconde pour déterminer un maximum"
   ],
   "niveau_difficulte": "intermédiaire",

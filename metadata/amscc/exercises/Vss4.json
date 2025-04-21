@@ -1,8 +1,8 @@
 {
   "resume": "L'exercice porte sur l'étude du nombre de pièces fausses dans un lot de 1000 pièces d'un euro, où la probabilité qu'une pièce soit fausse est de 0.05. Il évalue les compétences suivantes:\\n\\n1.  Identification de la loi de probabilité suivie par la variable aléatoire $X$ (nombre de pièces fausses), calcul de son espérance et de son écart-type: $X \\\\sim \\\\mathcal{B}(n, p)$, $\\\\mathbb{E}(X) = np$, $\\\\sigma(X) = \\\\sqrt{np(1-p)}$.\\n2.  Application de l'inégalité de Bienaymé-Tchebychev pour majorer la probabilité que le nombre de pièces fausses dépasse un seuil donné: $\\\\prob(|X - \\\\mathbb{E}(X)| > k) \\\\leq \\\\frac{\\\\sigma(X)^2}{k^2}$.\\n3.  Justification de l'approximation de la loi binomiale par une loi normale en utilisant le théorème central limite.\\n4.  Estimation de la probabilité que le nombre de pièces fausses se situe dans un intervalle donné en utilisant l'approximation normale et la fonction de répartition de la loi normale centrée réduite ($\\\\Phi$).",
   "competences": [
-    "appliquer le théorème central limite pour approximer une loi binomiale",
-    "calculer l'espérance et l'écart-type d'une loi binomiale",
+    "Appliquer le Théorème Central Limite (TCL) (y compris pour approximation de lois)",
+    "Calculer l'espérance et la variance / l'écart-type d'une loi binomiale",
     "appliquer l'inégalité de Bienaymé-Tchebychev pour majorer une probabilité",
     "calculer des probabilités à partir d'une approximation normale",
     "identifier la loi binomiale appropriée pour modéliser un problème"

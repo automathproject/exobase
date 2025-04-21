@@ -1,9 +1,9 @@
 {
   "resume": "Cet exercice porte sur l'optimisation d'une fonction de deux variables $f(x, y) = x^4 + y^4 - 2(x - y)^2$. Il évalue la capacité à:\n\n1.  **Démontrer l'existence d'une solution au problème d'optimisation** en utilisant la coercivité de la fonction $f$ et le théorème de Weierstrass, ce qui implique la manipulation d'inégalités et la compréhension de la norme euclidienne.\n\n2.  **Déterminer si une fonction est convexe** en calculant et analysant sa matrice hessienne. Il faut vérifier si la matrice hessienne est semi-définie positive en tout point.\n\n3.  **Trouver les points critiques** en résolvant le système d'équations $\\nabla f(x, y) = (0, 0)$, et à **déterminer leur nature** (minimum local, maximum local, point-selle) en utilisant la matrice hessienne. Enfin, il faut **résoudre le problème d'optimisation** en évaluant $f$ aux points critiques pertinents.",
   "competences": [
-    "résoudre un système d'équations non-linéaires",
+    "Résoudre un système d'équations non linéaires",
     "calculer une matrice hessienne",
-    "interpréter la nature des points critiques via la matrice hessienne",
+    "Appliquer le critère de la Hessienne pour classifier les points critiques",
     "appliquer le théorème de Weierstrass pour justifier l'existence d'un minimum",
     "démontrer une inégalité en utilisant des propriétés connues"
   ],

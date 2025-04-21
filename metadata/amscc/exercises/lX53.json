@@ -1,11 +1,11 @@
 {
   "resume": "L'exercice porte sur l'estimation du paramètre $a$ d'une loi géométrique par la méthode du maximum de vraisemblance. Il s'agit de : \n1. Définir la fonction de vraisemblance $L(x_1,...,x_n, a) = \\prod_{k=1}^n \\frac{a^{x_k}}{(1+a)^{x_k+1}}$.\n2. Calculer la dérivée partielle de la fonction de vraisemblance par rapport à $a$ et trouver la valeur de $a$ qui maximise cette fonction.\n3. Déterminer l'estimateur de $a$, soit $T = \\frac{1}{n} \\sum_{k=0}^n X_k$.\n4. Calculer le biais de l'estimateur $T$, soit $B(T) = \\mathbb{E}(T-a)$, en utilisant l'espérance de la loi géométrique.",
   "competences": [
-    "appliquer la méthode du maximum de vraisemblance pour estimer un paramètre",
-    "calculer l'espérance d'une variable aléatoire discrète",
+    "Appliquer la méthode / Calculer l'estimateur du maximum de vraisemblance",
+    "Calculer l'espérance (mathématique) d'une variable aléatoire discrète",
     "dériver une fonction de vraisemblance",
-    "interpréter le biais d'un estimateur",
-    "calculer des probabilités avec la loi géométrique"
+    "Appliquer / Interpréter les propriétés des estimateurs (biais, convergence, efficacité)",
+    "Appliquer / Calculer avec la loi géométrique"
   ],
   "niveau_difficulte": "intermédiaire",
   "mots_cles": [

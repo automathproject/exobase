@@ -1,8 +1,8 @@
 {
   "resume": "L'exercice porte sur la recherche du minimum d'une fonction de coût $c(x, y) = 10000 + 50x + 60y - 0.05xy$ sous contraintes $x \\geq 0$, $y \\geq 0$ et $x + y \\leq 3000$. Les compétences mises en œuvre sont :\n\n1.  La détermination et la représentation graphique du domaine de définition.\n2.  La justification de l'existence et de l'atteinte d'un minimum en utilisant le théorème des valeurs extrêmes.\n3.  La recherche des points critiques à l'intérieur du domaine, le calcul des dérivées partielles premières ($\\frac{\\partial c}{\\partial x}$, $\\frac{\\partial c}{\\partial y}$), la résolution du système d'équations pour trouver les points critiques, le calcul de la matrice Hessienne ($H_c$) et de son déterminant ($\\det H_c$) pour déterminer la nature des points critiques.\n4.  L'étude du comportement de la fonction sur le bord du domaine en utilisant la contrainte $x + y = 3000$ pour exprimer $y$ en fonction de $x$ ($y=3000-x$), la dérivation de la fonction d'une variable $f(x) = c(x, 3000-x)$ afin de déterminer les extremums sur le bord, et le calcul de la valeur minimale de la fonction.",
   "competences": [
-    "calculer des dérivées partielles",
-    "identifier et analyser des points critiques",
+    "Calculer des dérivées partielles (d'ordre 1 et/ou 2)",
+    "Calculer / Déterminer les points critiques / stationnaires d'une fonction (plusieurs variables)",
     "appliquer le théorème des valeurs extrêmes",
     "représenter graphiquement un domaine de définition",
     "substituer une variable dans une fonction à plusieurs variables"

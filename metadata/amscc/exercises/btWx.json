@@ -2,7 +2,7 @@
   "resume": "L'exercice porte sur l'analyse numérique et l'approximation de solutions d'équations différentielles ordinaires (EDO) à l'aide d'un $\\theta$-schéma. Il évalue la consistance de ce schéma.\n\n1.  Construction d'un schéma numérique pour résoudre une EDO $y'(t) = f(t, y)$ en utilisant une approximation intégrale avec un paramètre $\\theta$.\n\n2.  Identification des schémas d'Euler explicite, Euler implicite et Crank-Nicolson comme cas particuliers du $\\theta$-schéma pour des valeurs spécifiques de $\\theta$ ($\\theta = 0, 1/2, 1$).\n\n3.  Démonstration de la consistance d'ordre 1 du schéma lorsque $\\theta \\neq \\frac{1}{2}$ en utilisant un développement de Taylor pour estimer l'erreur de consistance $e_n(h)$ et montrer que $|e_n(h)| = O(h)$.",
   "competences": [
     "calculer une erreur de consistance",
-    "appliquer un développement de Taylor à une fonction",
+    "Calculer / Déterminer un développement limité",
     "construire un schéma numérique pour une EDO",
     "interpréter l'ordre de consistance d'un schéma",
     "identifier des schémas numériques usuels"

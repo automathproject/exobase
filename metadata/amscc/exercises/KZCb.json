@@ -1,11 +1,11 @@
 {
   "resume": "Cet exercice porte sur l'étude de la convergence d'une suite de variables aléatoires $(X_n)$ de densité $f_n(x) = \\frac{n}{\\pi(1+n^2x^2)}$. Il s'agit de:\n\n1.  Déterminer la constante de normalisation de la densité $f_n$, en utilisant le changement de variable $u = nx$ et l'intégrale $\\int_{-\\infty}^{+\\infty} \\frac{1}{1+u^2}du = \\pi$.\n2.  Étudier l'existence des moments de $X_n$, en montrant la divergence de $\\int_{-\\infty}^{+\\infty} |x|f_n(x)dx$.\n3.  Déterminer la fonction de répartition $F_n(x)$ de $X_n$ et étudier la convergence en loi de $(X_n)$ vers une variable aléatoire $X$ identiquement nulle en calculant la limite de $F_n(x)$ quand $n$ tend vers l'infini et en la comparant à la fonction de répartition $F_X(x)$ de $X$. La convergence en loi est vérifiée si $F_n(x)$ converge vers $F_X(x)$ en tout point de continuité de $F_X$.\n4.  Étudier la convergence en probabilité de $(X_n)$ vers 0 en calculant $P(|X_n| < \\epsilon)$ et en montrant que cette probabilité tend vers 1 quand $n$ tend vers l'infini, en utilisant le changement de variable $u = nx$ et la fonction arctangente.",
   "competences": [
-    "calculer une intégrale impropre",
+    "Calculer une intégrale impropre",
     "déterminer si une fonction est une densité de probabilité",
-    "étudier la convergence en loi d'une suite de variables aléatoires",
-    "étudier la convergence en probabilité d'une suite de variables aléatoires",
-    "calculer une fonction de répartition"
+    "Appliquer / Interpréter la convergence en loi",
+    "Appliquer / Interpréter la convergence en probabilité",
+    "Calculer / Déterminer une fonction de répartition (à partir d'une densité, de l'indépendance, etc.)"
   ],
   "niveau_difficulte": "intermédiaire",
   "mots_cles": [

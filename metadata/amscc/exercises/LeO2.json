@@ -2,9 +2,8 @@
   "resume": "L'exercice porte sur une variable aléatoire discrète $X$ représentant le résultat d'un dé truqué. Il évalue la capacité à:\n\n1.  Déterminer la loi de probabilité de $X$ en utilisant la relation de proportionnalité donnée et la propriété que la somme des probabilités est égale à 1. On calcule $\\prob(X=k)$ pour $k \\in \\{1,2,3,4,5,6\\}$.\n2.  Calculer l'espérance mathématique de $X$ en appliquant la formule $\\E(X) = \\sum_{k=1}^6 k \\cdot \\prob(X=k)$.\n3.  Déterminer la loi de probabilité de la variable aléatoire $Y=\\frac{1}{X}$ et calculer son espérance, $\\E(Y) = \\sum_{k=1}^6 \\frac{1}{k} \\cdot \\prob(Y=\\frac{1}{k})$. On utilise le fait que $\\prob(Y=\\frac{1}{k}) = \\prob(X=k)$.",
   "competences": [
     "calculer une probabilité à partir d'une proportionnalité",
-    "calculer l'espérance d'une variable aléatoire discrète",
+    "Calculer l'espérance (mathématique) d'une variable aléatoire discrète",
     "déterminer la loi d'une variable aléatoire discrète",
-    "appliquer la définition de l'espérance mathématique",
     "manipuler des sommes et des fractions"
   ],
   "niveau_difficulte": "intermédiaire",

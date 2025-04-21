@@ -1,9 +1,8 @@
 {
   "resume": "L'exercice porte sur l'estimation statistique à partir d'un sondage, dans le contexte d'un référendum. Les compétences mises en œuvre sont les suivantes:\n\n*   Compréhension de l'influence de la taille de l'échantillon et de la population sur la précision d'une estimation.\n*   Calcul d'un intervalle de confiance pour une proportion à partir d'une fréquence observée, en utilisant la formule $I_{conf}(F(\\omega))=\\left[f_{obs}-u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} ~;~ f_{obs} + u_{\\alpha/2} \\sqrt{\\frac{f_{obs}(1-f_{obs})}{n}} \\right]$ avec différents niveaux de confiance.\n*   Interprétation d'un intervalle de confiance pour déterminer si une proportion dépasse un seuil donné (50% dans ce cas).\n*   Calcul de la taille d'échantillon nécessaire pour obtenir une précision donnée sur l'estimation d'une proportion, en utilisant l'approximation de la longueur de l'intervalle de confiance proportionnelle à $\\frac{1}{\\sqrt{n}}$.",
   "competences": [
-    "calculer un intervalle de confiance pour une proportion",
-    "interpréter un intervalle de confiance dans un contexte réel",
-    "appliquer la formule de l'intervalle de confiance pour une proportion",
+    "Calculer / Construire un intervalle de confiance pour une proportion",
+    "Interpréter un intervalle de confiance",
     "comparer la précision de différents sondages",
     "estimer une taille d'échantillon nécessaire pour une précision donnée"
   ],

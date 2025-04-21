@@ -2,8 +2,8 @@
   "resume": "L'exercice porte sur l'approximation d'une intégrale $I=\\\\int_0^1 \\\\sin(\\\\sqrt{x})dx$ par la méthode de Monte Carlo. Il évalue la compréhension et l'application de la loi forte des grands nombres et du théorème central limite.\\n\\n1.  **Convergence presque sûre:** Démontrer que la moyenne empirique $I_n = \\\\frac{1}{n}\\\\sum_{k=1}^n \\\\sin(\\\\sqrt{X_k})$ converge presque sûrement vers l'intégrale $I$, en utilisant la loi forte des grands nombres.\\n\\n2.  **Implémentation Python:** Compléter un code Python pour calculer une approximation de $I$.\\n\\n3.  **Espérance et Variance de $I_n$:** Calculer l'espérance $\\\\mathbb{E}(I_n)$ et la variance $V(I_n)$ en fonction de l'espérance $\\\\mu$ et de l'écart-type $\\\\sigma$ de $Y_k = \\\\sin(\\\\sqrt{X_k})$, ainsi que de $n$.\\n\\n4.  **Théorème Central Limite:** Déterminer la loi limite de $\\\\frac{\\\\sqrt{n}}{\\\\sigma}(I_n-I)$ en utilisant le théorème central limite.\\n\\n5.  **Nombre d'itérations:** Déterminer le nombre d'itérations $N_0$ nécessaire pour obtenir une approximation de $I$ à $10^{-3}$ près avec une confiance de 95%, en utilisant l'approximation normale.\\n\\n6.  **Estimation de la Variance:** Vérifier que la suite $V_n = \\\\frac{1}{2n} \\\\sum_{k=1}^n (Y_{2k}-Y_{2k-1})^2$ permet d'approcher la variance $\\\\sigma^2$.",
   "competences": [
     "appliquer la loi forte des grands nombres",
-    "appliquer le théorème central limite",
-    "calculer une espérance et une variance",
+    "Appliquer le Théorème Central Limite (TCL) (y compris pour approximation de lois)",
+    "Calculer la variance / l'écart-type d'une variable aléatoire",
     "interpréter un algorithme de Monte Carlo",
     "compléter un code Python"
   ],

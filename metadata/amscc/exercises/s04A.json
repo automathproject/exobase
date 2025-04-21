@@ -1,8 +1,8 @@
 {
   "resume": "L'exercice porte sur l'application du théorème central limite (Moivre-Laplace) pour approcher une loi binomiale par une loi normale. Il s'agit de déterminer le nombre maximal de réservations $n$ qu'une compagnie aérienne peut accepter tout en maintenant la probabilité de surbooking en dessous d'un seuil donné (1%). Cela implique de : \n\n*   Modéliser le nombre de passagers présents par une variable aléatoire binomiale $X \\sim \\mathcal{B}(n, 0.9)$.\n*   Approximer la loi binomiale par une loi normale $\\mathcal{N}(0.9n, \\frac{9}{100}n)$.\n*   Standardiser la variable normale pour utiliser la table de la loi normale centrée réduite et trouver une borne supérieure pour $n$ telle que $P(X > 300) \\leq 0.01$.\n*   Résoudre une inéquation impliquant une racine carrée pour obtenir la valeur maximale de $n$.",
   "competences": [
-    "appliquer le théorème central limite",
-    "calculer des probabilités avec une loi binomiale",
+    "Appliquer le Théorème Central Limite (TCL) (y compris pour approximation de lois)",
+    "Appliquer / Calculer avec la loi binomiale",
     "approximer une loi binomiale par une loi normale",
     "résoudre une inéquation du second degré",
     "interpréter un résultat probabiliste dans un contexte concret"

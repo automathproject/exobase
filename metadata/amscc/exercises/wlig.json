@@ -1,9 +1,9 @@
 {
   "resume": "L'exercice illustre l'optimisation d'une fonction $f(x,y) = x^2 + y^2 - 4xy$ sous la contrainte $g(x,y) = x^2 + y^2 - 8 = 0$ à l'aide des multiplicateurs de Lagrange. Les compétences mises en œuvre sont :\n\n1.  **Construction du Lagrangien:** Formulation du Lagrangien $L(x, y, \\lambda) = f(x, y) - \\lambda g(x, y)$.\n\n2.  **Détermination des points stationnaires:** Calcul des dérivées partielles $\\frac{\\partial L}{\\partial x}$, $\\frac{\\partial L}{\\partial y}$, et $\\frac{\\partial L}{\\partial \\lambda}$, résolution du système d'équations pour trouver les points $(x, y, \\lambda)$ satisfaisant les conditions d'optimalité.\n\n3.  **Détermination de l'espace tangent:** Calcul du gradient $\\nabla g(x,y)$ de la contrainte et utilisation pour définir l'espace tangent $T$ à la contrainte en chaque point critique.\n\n4.  **Calcul de la forme quadratique associée à la Hessienne du Lagrangien:** Calcul des dérivées secondes de $L$ pour former la matrice Hessienne $H_L$ et construction de la forme quadratique $Q(u,v)$ associée.\n\n5.  **Analyse de la nature des points critiques:** Évaluation du signe de la forme quadratique $Q(u, v)$ sur l'espace tangent $T$ en chaque point critique pour déterminer si le point correspond à un minimum ou un maximum.",
   "competences": [
-    "résoudre un système d'équations non-linéaires",
+    "Résoudre un système d'équations non linéaires",
     "calculer les dérivées partielles d'une fonction à plusieurs variables",
-    "appliquer la méthode des multiplicateurs de Lagrange",
+    "Appliquer la méthode des multiplicateurs de Lagrange",
     "interpréter géométriquement l'espace tangent à une courbe",
     "déterminer la nature des points critiques en utilisant la forme quadratique de la Hessienne"
   ],

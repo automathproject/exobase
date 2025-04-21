@@ -1,8 +1,8 @@
 {
   "resume": "L'exercice porte sur la méthode du point milieu (Euler améliorée) pour la résolution numérique d'équations différentielles. Il s'agit de déterminer une fonction $G$ afin d'obtenir un schéma numérique consistant d'ordre 2. La réponse consiste à exprimer le schéma sous la forme $y_{n+1} = y_n + H(t_n,y_n,h)$, puis à dériver $H$ par rapport à $h$ et enfin à déterminer la condition sur $G$ pour obtenir la consistance d'ordre 2. La solution est $G(t,y,h)=f(t,y)$.",
   "competences": [
-    "calculer une dérivée partielle",
-    "appliquer un développement de Taylor",
+    "Calculer des dérivées partielles (d'ordre 1 et/ou 2)",
+    "Calculer / Déterminer un développement limité",
     "interpréter l'ordre de consistance d'une méthode numérique",
     "résoudre une équation pour une fonction",
     "déterminer une approximation numérique"
