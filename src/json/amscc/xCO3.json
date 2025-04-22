@@ -19,9 +19,9 @@
     "updatedAt": "2025-04-04T19:05:12.867Z",
     "resume": "L'exercice porte sur la manipulation de densités de probabilité continues et de fonctions caractéristiques. Il évalue les compétences suivantes:\n\n*   **Détermination de la constante de normalisation** d'une densité de probabilité jointe $f(x,y)$ en utilisant l'intégrale double $\\int_{\\mathbb{R}^2} f(x,y) dxdy = 1$.\n*   **Calcul des densités marginales** $f_X(x)$ et $f_Y(y)$ à partir de la densité jointe.\n*   **Calcul des fonctions caractéristiques** $\\phi_X(t)$ et $\\phi_Y(t)$ des variables aléatoires $X$ et $Y$ en utilisant la formule $\\phi_X(t) = \\mathbb{E}(e^{itX}) = \\int_{\\mathbb{R}} e^{itx} f_X(x) dx$.\n*   **Vérification de l'indépendance** de deux variables aléatoires en comparant la densité jointe au produit des densités marginales.\n*   **Calcul de la fonction caractéristique** d'une somme de variables aléatoires $\\phi_{X+Y}(t)$ en utilisant la formule $\\phi_{X+Y}(t) = \\mathbb{E}(e^{it(X+Y)})$.\n*   **Interprétation des résultats** en lien avec l'indépendance et la fonction caractéristique du couple.",
     "competences": [
-      "calculer une intégrale double",
-      "déterminer une densité marginale",
-      "calculer une fonction caractéristique",
+      "Calculer une intégrale (simple/double, définie)",
+      "Calculer / Déterminer les lois marginales (à partir d'une loi conjointe)",
+      "Calculer une fonction caractéristique",
       "vérifier qu'une fonction est une densité de probabilité",
       "appliquer le théorème de transfert"
     ],

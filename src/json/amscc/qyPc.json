@@ -20,10 +20,10 @@
     "resume": "L'exercice porte sur la simulation de variables aléatoires à partir d'une loi uniforme sur $[0, 1]$. Il aborde les compétences suivantes :\\n\\n*   Calcul de probabilités d'événements impliquant des variables aléatoires indépendantes.\\n*   Détermination de la fonction de répartition d'une variable aléatoire définie à partir d'autres variables aléatoires, notamment par l'utilisation du théorème des probabilités totales.\\n*   Identification de la loi d'une variable aléatoire à partir de sa fonction de répartition ou de sa densité.\\n*   Démonstration qu'une variable aléatoire suit une loi de Laplace $\\\\mathcal{L}(\\\\lambda)$ en dérivant sa fonction de répartition et en montrant que la dérivée correspond à la densité de la loi de Laplace : $f_X(x) = \\\\frac{\\\\lambda}{2} e^{-\\\\lambda |x|}$.\\n*   Détermination de la loi d'une variable aléatoire discrète définie à partir d'une variable aléatoire continue par calcul des probabilités $\\\\mathbb{P}(V=k)$ pour tout $k$ dans l'ensemble des valeurs possibles de $V$, et identification de la loi géométrique : $\\\\mathbb{P}(Z=k)=p(1-p)^{k-1}$.",
     "competences": [
       "calculer des probabilités d'événements",
-      "déterminer une fonction de répartition",
+      "Calculer / Déterminer une fonction de répartition (à partir d'une densité, de l'indépendance, etc.)",
       "dériver une fonction de répartition",
       "interpréter une fonction de répartition",
-      "appliquer le théorème des probabilités totales"
+      "Appliquer la formule de Bayes / des probabilités totales"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [

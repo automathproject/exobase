@@ -19,7 +19,7 @@
     "updatedAt": "2025-04-04T19:02:37.985Z",
     "resume": "L'exercice porte sur la simulation d'une loi exponentielle à partir d'une loi uniforme. Il évalue la capacité à: \n\n1.  Déterminer la loi de probabilité d'une variable aléatoire $Y$ définie comme une fonction d'une autre variable aléatoire $X$ ($Y = \\frac{-1}{\\lambda}\\ln(1-X)$) en utilisant la fonction de répartition et en identifiant la loi exponentielle. \n2.  Proposer une commande pour simuler une loi exponentielle de paramètre $\\lambda$ en utilisant une fonction de génération de nombres aléatoires suivant une loi uniforme sur $[0,1]$. L'élève doit comprendre que $1-X$ suit la même loi que $X$ si $X$ suit une loi uniforme sur $[0,1]$.",
     "competences": [
-      "calculer une fonction de répartition",
+      "Calculer / Déterminer une fonction de répartition (à partir d'une densité, de l'indépendance, etc.)",
       "appliquer la fonction réciproque pour simuler une variable aléatoire",
       "interpréter une fonction de répartition",
       "utiliser les propriétés des fonctions logarithme et exponentielle",

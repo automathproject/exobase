@@ -18,10 +18,10 @@
     "updatedAt": "2025-03-28T11:57:48.404Z",
     "resume": "Cet exercice porte sur l'estimation d'un paramètre $\\theta$ d'une loi de Poisson à partir d'un échantillon i.i.d. $X_1, \\ldots, X_n$. Il aborde la construction d'intervalles de confiance asymptotiques pour $\\theta$ en utilisant deux approches :\n\n1.  **Application directe du TCL :** Utilisation du TCL pour $\\theta_n = \\frac{1}{n} \\sum_{i=1}^n X_i$ et construction d'un intervalle de confiance asymptotique basé sur une estimation de la variance.\n\n2.  **Stabilisation de la variance et méthode Delta :**  Trouver une fonction $g$ telle que $\\sqrt{n}(g(\\theta_n) - g(\\theta))$ converge en loi vers une loi normale centrée réduite. Cela implique l'application de la méthode Delta pour trouver une transformation qui stabilise la variance, en l'occurrence $g(\\lambda) = 2\\sqrt{\\lambda}$. Ensuite, construction d'un intervalle de confiance basé sur la transformation $g(\\theta_n)$.\n\nEnfin, l'exercice demande de vérifier l'équivalence des deux intervalles de confiance obtenus par ces deux méthodes.",
     "competences": [
-      "appliquer le théorème de la limite centrale",
+      "Appliquer le Théorème Central Limite (TCL) (y compris pour approximation de lois)",
       "construire un intervalle de confiance asymptotique",
       "appliquer la méthode Delta",
-      "interpréter une convergence en loi",
+      "Appliquer / Interpréter la convergence en loi",
       "calculer la dérivée d'une fonction simple"
     ],
     "niveau_difficulte": "intermédiaire",

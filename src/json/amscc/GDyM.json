@@ -19,10 +19,10 @@
     "resume": "L'exercice porte sur la règle de Raabe-Duhamel pour déterminer la nature (convergence ou divergence) de séries numériques à termes positifs. Il met en oeuvre les compétences suivantes:\n\n*   **Question 1:** Comparaison de deux séries $\\sum u_n$ et $\\sum v_n$ à termes positifs. Utilisation du critère de comparaison de séries pour montrer que si $\\frac{u_{n+1}}{u_n} \\leq \\frac{v_{n+1}}{v_n}$ à partir d'un certain rang et $\\sum v_n$ converge, alors $\\sum u_n$ converge également.\n*   **Question 2:** Application de la règle de Raabe-Duhamel. Si $\\frac{u_{n+1}}{u_n} = 1 - \\frac{\\alpha}{n} + o(\\frac{1}{n})$, l'exercice demande de montrer que : \n    *   Si $\\alpha > 1$, alors $\\sum u_n$ converge. La démonstration repose sur la comparaison avec une série de Riemann convergente.\n    *   Si $\\alpha < 1$, alors $\\sum u_n$ diverge. La démonstration repose sur la comparaison avec une série de Riemann divergente.\n*   **Question 3:** Application de la règle de Raabe-Duhamel à une série particulière dont le terme général est $u_n = \\prod_{k=1}^{n} \\frac{2k}{2k+1}$.  Nécessite de calculer $\\frac{u_{n+1}}{u_n}$, d'obtenir un développement asymptotique de la forme $1 - \\frac{\\alpha}{n} + o(\\frac{1}{n})$ et d'appliquer le critère de Raabe-Duhamel. L'exercice souligne que le critère de d'Alembert est inopérant dans ce cas.",
     "competences": [
       "appliquer le critère de comparaison pour les séries numériques",
-      "effectuer un développement asymptotique d'une fraction rationnelle",
+      "Déterminer un équivalent (asymptotique) de suite/fonction",
       "déterminer la nature d'une série de Riemann",
       "calculer le quotient de deux termes consécutifs d'une suite",
-      "démontrer la convergence/divergence d'une série à termes positifs"
+      "Déterminer la nature / Étudier la convergence (simple, absolue) d'une série numérique"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [

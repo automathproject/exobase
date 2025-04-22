@@ -21,8 +21,7 @@
     "resume": "L'exercice porte sur l'estimation de paramètres et l'identification de lois de probabilité associées à des statistiques d'échantillon. Il aborde les compétences suivantes : \n\n*   **Calcul du biais d'estimateurs** ($T_1$ et $T_2$) pour le paramètre $\\mu$ d'une loi normale.\n*   **Comparaison de l'efficacité d'estimateurs sans biais** en calculant et comparant leurs variances $V(T_1)$ et $V(T_2)$.\n*   **Identification de la loi suivie par différentes statistiques** :\n    *   $T_1$ et $T_2$ (combinaisons linéaires de variables normales).\n    *   $U = \\frac{1}{\\sigma^2}\\sum_{i=1}^{4}  {(X_i-\\mu)^2}$ (loi du Chi2).\n    *   $V = \\frac{1}{\\sigma^2}\\sum_{i=1}^{4}  {(X_i-T_1)^2}$ (loi du Chi2).\n*   **Identification de la loi de Student** en manipulant des variables aléatoires et en utilisant la définition de la loi de Student, notamment pour la variable $\\frac{4(T_1-\\mu)}{{\\sigma \\sqrt{U}}}$. ",
     "competences": [
       "identifier les lois statistiques appropriées",
-      "calculer l'espérance et la variance d'estimateurs",
-      "évaluer le biais et l'efficacité d'estimateurs",
+      "Appliquer / Interpréter les propriétés des estimateurs (biais, convergence, efficacité)",
       "appliquer le théorème de Fisher",
       "interpréter la loi du Chi-deux et de Student"
     ],

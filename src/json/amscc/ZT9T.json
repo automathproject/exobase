@@ -18,11 +18,11 @@
     "updatedAt": "2025-04-04T19:02:45.269Z",
     "resume": "L'exercice porte sur une variable aléatoire réelle $X$ dont la densité $f_\\theta(x)$ dépend d'un paramètre $\\theta$. Il évalue les compétences suivantes:\n\n1.  Détermination de la condition sur $\\theta$ pour que $f_\\theta$ soit une densité de probabilité (positivité et intégrale égale à 1).\n2.  Calcul de l'espérance $\\mathbb{E}[X]$ d'une variable aléatoire continue à partir de sa densité.\n3.  Identification de la loi de Bernoulli d'une variable indicatrice $1_{]0;+\\infty[}(X_i)$ et détermination de son paramètre à partir de la densité de $X$.\n4.  Déduction de la loi binomiale de $V_n = \\sum_{i=1}^{n} 1_{]0;+\\infty[}(X_i)$ et identification de ses paramètres.\n5.  Vérification qu'une variable aléatoire $U_n + V_n$ est constante et égale à $n$.\n6.  Calcul de l'espérance $\\mathbb{E}\\left(\\frac{V_n-U_n}{n}\\right)$ en utilisant les propriétés de l'espérance et la loi de $V_n$.\n7.  Calcul de $\\mathbb{E}(U_nV_n)$ et déduction de la covariance $\\textrm{cov}(U_n, V_n)$ à l'aide de la loi de $V_n$.\n8.  Démonstration que la variance de $\\frac{V_n-U_n}{n}$ tend vers 0 lorsque $n$ tend vers l'infini, en utilisant les propriétés de la variance et de la covariance.",
     "competences": [
-      "calculer l'espérance d'une variable aléatoire continue",
+      "Calculer l'espérance (mathématique) d'une variable aléatoire continue / à densité",
       "déterminer les paramètres d'une loi binomiale",
-      "calculer la covariance de deux variables aléatoires",
+      "Calculer une covariance",
       "appliquer la définition d'une densité de probabilité",
-      "calculer la variance d'une variable aléatoire"
+      "Calculer la variance / l'écart-type d'une variable aléatoire"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [

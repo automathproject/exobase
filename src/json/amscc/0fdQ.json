@@ -18,9 +18,9 @@
     "updatedAt": "2025-04-04T19:01:26.064Z",
     "resume": "Cet exercice porte sur l'étude d'un réseau de neurones à deux couches et la mise en œuvre de la rétropropagation. Il évalue les compétences suivantes :\n\n*   Calcul de la sortie de chaque couche du réseau en fonction des entrées, des poids et des fonctions d'activation. La sortie de la première couche est exprimée en fonction de $x, y, a, b, \\omega_1, ..., \\omega_4$. Puis, l'expression de la sortie finale $F(x, y, a, b, c, \\omega_1, ..., \\omega_6)$ est déterminée.\n*   Calcul de la dérivée de la fonction d'activation sigmoïde $\\sigma'(x)$ en fonction de $\\sigma(x)$, c'est-à-dire : $\\sigma'(x) = \\sigma(x)(1-\\sigma(x))$.\n*   Calcul de dérivées partielles de la fonction de sortie $F$ par rapport aux poids, notamment $\\frac{\\partial F}{\\partial \\omega_5}$ et $\\frac{\\partial F}{\\partial \\omega_6}$, et $\\frac{\\partial F}{\\partial a}$ en fonction de $\\frac{\\partial F}{\\partial \\omega_5}$.\n*   Calcul du gradient de la fonction de sortie $F$ et de la fonction d'erreur quadratique $E$ par rapport aux poids, pour une entrée et des poids initiaux donnés.\n*   Application de la méthode du gradient à pas constant pour mettre à jour les poids du réseau, en utilisant un pas $\\delta = 0.1$ pour minimiser l'erreur.",
     "competences": [
-      "calculer des dérivées partielles",
+      "Calculer des dérivées partielles (d'ordre 1 et/ou 2)",
       "appliquer la méthode de rétropropagation du gradient",
-      "exprimer la sortie d'un réseau de neurones",
+      "Calculer la sortie d'un neurone / réseau de neurones",
       "calculer la valeur de fonctions sigmoïdes",
       "appliquer la méthode du gradient à pas constant"
     ],

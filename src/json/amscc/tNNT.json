@@ -18,9 +18,9 @@
     "updatedAt": "2025-04-04T19:05:03.292Z",
     "resume": "L'exercice porte sur les variables aléatoires à densité et leur transformation. Il s'agit de : \n1. Vérifier qu'une fonction $f(x)$ donnée est une densité de probabilité en montrant que $f(x) \\geq 0$ et que $\\int_{-\\infty}^{+\\infty} f(x)dx = 1$.  Ici,  $\\int_{-\\infty}^{+\\infty} f(x)dx = \\int_0^{+\\infty} xe^{-\\frac{x^2}{2}} dx = 1$.\n2. Déterminer la fonction de répartition $F_{X^2}(t)$ de la variable aléatoire $Y = X^2$ à partir de la densité de $X$, soit $F_{X^2}(t) = P(X^2 \\leq t)$ et en déduire la densité de probabilité $g(x)$ de $Y=X^2$ par dérivation de $F_{X^2}(t)$. Il faut identifier la loi suivie par la variable transformée. Ici, on montre que $Y=X^2$ suit une loi exponentielle de paramètre $\\lambda = \\frac{1}{2}$.",
     "competences": [
-      "calculer une intégrale impropre",
-      "déterminer une fonction de répartition à partir d'une densité",
-      "appliquer un changement de variable pour trouver une nouvelle densité",
+      "Calculer une intégrale impropre",
+      "Calculer / Déterminer une fonction de répartition (à partir d'une densité, de l'indépendance, etc.)",
+      "Calculer / Déterminer une densité (à partir d'une fonction de répartition, d'une transformation, etc.)",
       "interpréter une fonction comme une densité de probabilité",
       "vérifier qu'une fonction est une densité de probabilité"
     ],

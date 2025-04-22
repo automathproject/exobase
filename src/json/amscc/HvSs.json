@@ -19,10 +19,10 @@
     "updatedAt": "2025-04-04T19:02:11.123Z",
     "resume": "L'exercice porte sur l'application du théorème central limite et les propriétés de la loi normale dans un contexte de contrôle qualité de production de pièces. Il évalue la capacité à:\n\n*   Identifier les paramètres d'une variable aléatoire (espérance, variance).\n*   Déterminer l'espérance et la variance de la moyenne d'un échantillon ($\\overline{X}$) et approximer sa loi par une loi normale en utilisant le théorème central limite: $\\overline{X} \\sim \\mathcal{N}(\\mu, \\frac{\\sigma^2}{n})$.\n*   Modéliser le poids total d'un échantillon (variable aléatoire $P = n \\overline{X}$) et déterminer sa loi approximative: $P \\sim \\mathcal{N}(n\\mu, n\\sigma^2)$.\n*   Définir une variable aléatoire pour modéliser la différence de poids entre deux échantillons ($|P_1 - P_2|$).\n*   Calculer la probabilité d'un événement lié à la différence de poids, en utilisant les propriétés de la loi normale (différence de deux variables normales indépendantes) et en effectuant une standardisation:  $Z = \\frac{P_1 - P_2}{\\sqrt{\\sigma^2_{P_1} + \\sigma^2_{P_2}}} \\sim \\mathcal{N}(0,1)$.",
     "competences": [
-      "appliquer le théorème central limite",
-      "calculer l'espérance et la variance d'une variable aléatoire",
+      "Appliquer le Théorème Central Limite (TCL) (y compris pour approximation de lois)",
+      "Calculer la variance / l'écart-type d'une variable aléatoire",
       "interpréter les paramètres d'une loi normale",
-      "calculer une probabilité à partir d'une loi normale",
+      "Calculer une probabilité avec / à partir d'une loi normale",
       "définir une variable aléatoire pour modéliser un problème"
     ],
     "niveau_difficulte": "intermédiaire",

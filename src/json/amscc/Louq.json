@@ -18,10 +18,10 @@
     "updatedAt": "2025-04-04T19:02:18.369Z",
     "resume": "L'exercice porte sur une variable aléatoire $X$ suivant une loi uniforme sur $[0;1]$. Il s'agit de déterminer la loi de la variable aléatoire $2X$ en utilisant la fonction de répartition $F_{2X}(t) = P(2X \\le t)$. Le calcul de la fonction de répartition passe par le calcul de l'intégrale $\\\\int_{-\\\\infty}^{t/2} 1_{[0;1]}(x) dx$. Finalement, on identifie la densité de probabilité de $2X$ comme $g(x) = \\\\frac{1}{2}1_{[0;2]}(x)$ et on en déduit que $2X$ suit une loi uniforme sur $[0;2]$. Les compétences mises en œuvre sont donc le calcul de fonctions de répartition, le lien entre fonction de répartition et densité, et l'identification d'une loi uniforme.",
     "competences": [
-      "calculer une fonction de répartition",
+      "Calculer / Déterminer une fonction de répartition (à partir d'une densité, de l'indépendance, etc.)",
       "appliquer la définition d'une densité de probabilité",
       "interpréter une fonction indicatrice",
-      "calculer une intégrale simple",
+      "Calculer une intégrale (simple/double, définie)",
       "transformer une inégalité probabiliste"
     ],
     "niveau_difficulte": "intermédiaire",

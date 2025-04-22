@@ -19,8 +19,8 @@
     "updatedAt": "2025-04-04T19:03:12.638Z",
     "resume": "L'exercice porte sur l'estimation du paramètre $b$ d'une loi de Pareto de paramètre $a=3$ et $b$. Il s'agit de déterminer des estimateurs sans biais de $b$ à partir de deux statistiques : la moyenne empirique $Y_n$ et le minimum $Z_n$ d'un échantillon de variables aléatoires de Pareto. Les compétences mises en œuvre sont : \n\n*   Calcul d'espérance et de variance pour $Y_n = \\frac{1}{n} \\sum_{i=1}^n X_i$. \n*   Détermination d'un estimateur sans biais de $b$ de la forme $\\alpha_n Y_n$ en utilisant l'espérance de $Y_n$. \n*   Calcul de la fonction de répartition de $Z_n = \\min(X_1,X_2,\\cdots{},X_n)$. \n*   Identification de la loi de $Z_n$ comme une loi de Pareto de paramètres $(3n, b)$.\n*   Détermination d'un estimateur sans biais de $b$ de la forme $\\beta_n Z_n$ en utilisant l'espérance de $Z_n$.\n*   Comparaison de la qualité des estimateurs $\\alpha_n Y_n$ et $\\beta_n Z_n$ en comparant leurs variances.  L'estimateur $\\beta_n Z_n$ est démontré plus performant car sa variance est inférieure.",
     "competences": [
-      "calculer l'espérance et la variance d'une variable aléatoire",
-      "déterminer la fonction de répartition d'une variable aléatoire",
+      "Calculer la variance / l'écart-type d'une variable aléatoire",
+      "Calculer / Déterminer une fonction de répartition (à partir d'une densité, de l'indépendance, etc.)",
       "appliquer les propriétés des estimateurs (biais, variance)",
       "interpréter la loi de Pareto et ses paramètres",
       "manipuler des sommes et des produits d'intégrales"

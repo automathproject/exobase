@@ -21,7 +21,11 @@ function collectProperties(directoryPath, propertyPaths = ['metadata.competences
   propertyPaths.forEach(propPath => {
     // Extraire le nom de la propriété pour la clé dans results
     const propName = propPath.split('.').pop();
-    results[propName] = {};
+    results[propName] = {
+      _metadata: {
+        total_count: 0  // Compteur pour le nombre total de compétences uniques
+      }
+    };
   });
 
   try {
@@ -59,12 +63,18 @@ function collectProperties(directoryPath, propertyPaths = ['metadata.competences
             // Ajouter chaque valeur à notre map
             values.forEach(value => {
               if (!results[propName][value]) {
-                results[propName][value] = { uuid: [] };
+                results[propName][value] = { 
+                  uuid: [],
+                  count: 0  // Initialiser le compteur
+                };
+                // Incrémenter le compteur total des compétences uniques
+                results[propName]._metadata.total_count++;
               }
               
               // Ajouter l'UUID s'il n'est pas déjà présent
               if (!results[propName][value].uuid.includes(uuid)) {
                 results[propName][value].uuid.push(uuid);
+                results[propName][value].count++;  // Incrémenter le compteur
               }
             });
           }
@@ -77,10 +87,33 @@ function collectProperties(directoryPath, propertyPaths = ['metadata.competences
     // Déterminer le chemin du répertoire parent
     const parentDirPath = path.resolve(directoryPath, '..');
     
-    // Écrire un fichier de sortie pour chaque propriété
+    // Calculer quelques statistiques supplémentaires
+    for (const propName in results) {
+      // Calculer le nombre total d'occurrences (somme de tous les counts)
+      let totalOccurrences = 0;
+      for (const value in results[propName]) {
+        if (value !== '_metadata') {
+          totalOccurrences += results[propName][value].count;
+        }
+      }
+      
+      // Ajouter ces statistiques aux métadonnées
+      results[propName]._metadata.total_occurrences = totalOccurrences;
+    }
+    
+    // Écrire un fichier de sortie pour chaque propriété avec un format de JSON spécifique
     for (const [propName, propData] of Object.entries(results)) {
       const outputFilePath = path.join(parentDirPath, `${propName}_uniques.json`);
-      fs.writeFileSync(outputFilePath, JSON.stringify(propData, null, 2), 'utf8');
+      
+      // Configurer le JSON.stringify pour forcer l'écriture des UUID en ligne
+      const formattedJson = JSON.stringify(propData, null, 2)
+        // Cette regex remplace les tableaux d'UUID formattés sur plusieurs lignes par des tableaux en ligne
+        .replace(/\[\n\s+(?:".+",\n\s+)+".+"\n\s+\]/g, match => {
+          // Transformer le tableau formaté en tableau sur une seule ligne
+          return JSON.stringify(JSON.parse(match));
+        });
+      
+      fs.writeFileSync(outputFilePath, formattedJson, 'utf8');
       console.log(`Fichier "${outputFilePath}" créé avec succès`);
     }
 

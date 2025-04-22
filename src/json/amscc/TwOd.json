@@ -19,11 +19,11 @@
     "updatedAt": "2025-04-04T19:02:28.034Z",
     "resume": "Cet exercice porte sur un couple de variables aléatoires $(X, Y)$ admettant une densité conjointe. Il évalue la capacité à:\n\n*   Déterminer la constante de normalisation $a$ d'une densité conjointe en utilisant l'intégrale double $\\int_0^1 \\int_0^1 f(x,y) dxdy = 1$.\n*   Calculer les densités marginales $f_X(x)$ et $f_Y(y)$ à partir de la densité conjointe $f(x, y)$ par intégration, $f_X(x) = \\int f(x,y) dy$ et $f_Y(y) = \\int f(x,y) dx$.\n*   Calculer l'espérance $\\mathbb{E}(X) = \\int x f_X(x) dx$, la variance $\\sigma^2(X) = \\mathbb{E}(X^2) - \\mathbb{E}(X)^2$ et la covariance $cov(X, Y) = \\mathbb{E}(XY) - \\mathbb{E}(X)\\mathbb{E}(Y)$ à partir des densités marginales et de la densité conjointe.\n*   Déterminer si deux variables aléatoires sont indépendantes en comparant $f(x,y)$ et $f_X(x)f_Y(y)$, ou en vérifiant si $cov(X,Y) = 0$.",
     "competences": [
-      "calculer une intégrale double",
-      "déterminer une densité marginale",
-      "calculer une espérance et une variance",
-      "calculer une covariance",
-      "vérifier l'indépendance de deux variables aléatoires"
+      "Calculer une intégrale (simple/double, définie)",
+      "Calculer / Déterminer les lois marginales (à partir d'une loi conjointe)",
+      "Calculer la variance / l'écart-type d'une variable aléatoire",
+      "Calculer une covariance",
+      "Vérifier / Appliquer / Démontrer l'indépendance de variables aléatoires"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [

@@ -19,10 +19,10 @@
     "resume": "L'exercice porte sur l'estimation du paramètre $\\lambda$ d'une loi puissance de densité $f_\\lambda(x) = \\lambda x^{\\lambda - 1} \\mathbb{1}_{[0,1]}(x)$. Il s'agit de:\n\n1.  Construire l'estimateur du maximum de vraisemblance $\\widehat{\\lambda_n}$ de $\\lambda$, qui est trouvé comme $\\widehat{\\lambda_n} = \\frac{n}{-\\sum \\ln(x_i)}$.\n2.  Déterminer un intervalle de confiance de niveau $1-\\alpha$ pour $\\lambda$, en utilisant le fait que $2n \\frac{\\lambda}{\\widehat{\\lambda_n}}$ suit une loi du $\\chi^2(2n)$. L'intervalle de confiance trouvé est $]-\\infty~;~q_{\\alpha,2n}\\,\\frac{\\widehat{\\lambda_n}}{2n}]$.$",
     "competences": [
       "calculer un estimateur du maximum de vraisemblance",
-      "déterminer la fonction de vraisemblance",
-      "construire un intervalle de confiance",
-      "appliquer la loi du Chi-deux",
-      "interpréter un intervalle de confiance"
+      "Calculer / Exprimer / Déterminer la fonction de vraisemblance",
+      "Calculer / Construire un intervalle de confiance",
+      "Appliquer / Interpréter / Utiliser la loi du Chi-deux (χ²)",
+      "Interpréter un intervalle de confiance"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [

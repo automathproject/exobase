@@ -19,7 +19,7 @@
     "updatedAt": "2025-04-14T18:42:13.863Z",
     "resume": "L'exercice porte sur l'étude des extrema d'une fonction $f(x,y) = x\\ln(y) - y\\ln(x)$.\n\n1.  **Domaine de définition et régularité:** Détermination du domaine de définition $D_f$ de la fonction $f$ et justification de sa classe $\\mathcal{C}^2$ sur $D_f$.\n\n2.  **Étude d'une fonction auxiliaire:** Analyse des variations d'une fonction d'une variable $h(t) = t - \\ln(t) - \\frac{1}{t}$ sur son domaine de définition.\n\n3.  **Lien gradient et fonction auxiliaire:** Établissement d'une équivalence entre l'annulation du gradient de $f$, $\\mathrm{grad}_f(x,y) = (0,0)$, et un système d'équations impliquant la fonction $h$.\n\n4.  **Points stationnaires:** Déduction de l'ensemble des points stationnaires de $f$ à partir des résultats précédents.\n\n5.  **Nature des extrema:** Identification des extrema locaux et globaux de $f$, en utilisant la matrice hessienne $Hess_f(x,y)$ pour déterminer la nature du point stationnaire trouvé. Le calcul de la matrice Hessienne est le suivant: $$Hess_f(x,y)=\\begin{pmatrix} \\frac{\\partial^2 f}{\\partial x^2}(x,y) & \\frac{\\partial^2 f}{\\partial x \\partial y}(x,y) \\\\ \\frac{\\partial^2 f}{\\partial y \\partial x}(x,y) & \\frac{\\partial^2 f}{\\partial y^2}(x,y) \\end{pmatrix}$$",
     "competences": [
-      "calculer les dérivées partielles premières et secondes",
+      "Calculer des dérivées partielles (d'ordre 1 et/ou 2)",
       "déterminer l'ensemble de définition d'une fonction de deux variables",
       "étudier les variations d'une fonction d'une variable réelle",
       "résoudre un système d'équations",
