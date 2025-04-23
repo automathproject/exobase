@@ -1,0 +1,39 @@
+{
+  "td20": {
+    "competences": [
+      "calculer l'espérance et la variance d'une variable aléatoire",
+      "appliquer la définition de la fonction caractéristique pour identifier une loi",
+      "vérifier qu'une fonction est une densité de probabilité",
+      "effectuer des changements de variables dans des intégrales",
+      "utiliser l'indépendance de variables aléatoires pour calculer des fonctions caractéristiques"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "loi Gamma",
+      "fonction caractéristique",
+      "densité de probabilité",
+      "espérance",
+      "variance",
+      "loi du Chi-deux",
+      "indépendance",
+      "variables aléatoires"
+    ],
+    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "fonction caractéristique",
+      "espérance mathématique",
+      "variance",
+      "indépendance de variables aléatoires"
+    ],
+    "prerequis": [
+      "calcul intégral (intégrales impropres)",
+      "variables aléatoires et lois de probabilité",
+      "espérance et variance",
+      "fonction caractéristique",
+      "indépendance de variables aléatoires"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "90-120 minutes",
+    "resume": "Cet exercice porte sur la loi Gamma $\\gamma(p, \\theta)$. Il vise à :\n\n*   Vérifier qu'une fonction est bien une densité de probabilité.\n*   Calculer l'espérance $E[X^k]$ et la variance $\\text{Var}(X)$ d'une variable aléatoire suivant une loi Gamma, en utilisant la fonction Gamma $\\Gamma(p)$.\n*   Déterminer la densité de $Y^2$ où $Y \\sim \\mathcal{N}(0, 1)$, et en déduire que $Y^2$ suit une loi Gamma particulière, soit $\\gamma(1/2, 1/2) = \\chi^2(1)$.\n*   Montrer que si $X \\sim \\gamma(p, \\theta)$, alors $X/a \\sim \\gamma(p, a\\theta)$.\n*   Démontrer que la somme de deux variables aléatoires indépendantes suivant des lois Gamma de même paramètre $\\theta$, $X \\sim \\gamma(p_1, \\theta)$ et $Y \\sim \\gamma(p_2, \\theta)$, suit également une loi Gamma, $X + Y \\sim \\gamma(p_1 + p_2, \\theta)$, en utilisant les fonctions caractéristiques.\n*   Déterminer la loi de la somme $S_n$ de $n$ variables aléatoires indépendantes de même loi exponentielle, $X_i \\sim \\gamma(1, \\theta)$, et calculer son espérance $E[S_n]$ et sa variance $\\text{Var}(S_n)$.\n*   Déterminer la loi de la somme de carrés $S'_n$ de $n$ variables aléatoires indépendantes de même loi normale centrée réduite, $X_i \\sim \\mathcal{N}(0, 1)$, en déduire que $\\gamma(n/2, 1/2) = \\chi^2(n)$ et calculer son espérance $E[S'_n]$ et sa variance $\\text{Var}(S'_n)$. "
+  }
+}

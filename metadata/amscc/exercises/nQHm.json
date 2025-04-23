@@ -1,0 +1,38 @@
+{
+  "nQHm": {
+    "competences": [
+      "déterminer les extrema d'une fonction à deux variables",
+      "étudier les variations d'une fonction d'une variable réelle",
+      "calculer des dérivées partielles",
+      "représenter graphiquement un ensemble défini par des inégalités",
+      "appliquer le théorème des extrema liés"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "extremum",
+      "maximum",
+      "minimum",
+      "fonction à deux variables",
+      "domaine",
+      "compact",
+      "point critique",
+      "tableau de variation"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles",
+      "compacité",
+      "théorème des extrema sur un compact",
+      "points critiques",
+      "gradient"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées, gradient)",
+      "notions de topologie (ouvert, fermé, borné, compact)",
+      "théorème des valeurs extrêmes",
+      "trigonométrie"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "90 minutes",
+    "resume": "L'exercice porte sur la recherche des extremums globaux d'une fonction $f(x,y) = x^2 + y$ sur un domaine compact $\\mathcal{K}$ défini par $x^2 + y^2 \\leq 1$ et $x + y \\geq 0$. \n\nVoici les compétences mises en œuvre :\n\n1.  Représentation graphique du domaine $\\mathcal{K}$ et identification de sa nature topologique (fermé, non ouvert).\n2.  Justification que $B_1$ (segment de droite) et $B_2$ (arc de cercle) sont des sous-ensembles de $\\mathcal{K}$.\n3.  Justification de l'existence d'un maximum et d'un minimum global en utilisant le théorème des bornes.\n4.  Recherche de points critiques de $f$ sur l'intérieur de $\\mathcal{K}$ (montrer qu'il n'y en a pas).\n5.  Paramétrisation de $f$ sur le segment de droite $B_1$ et étude des variations de la fonction obtenue. ($g(x) = x^2 - x$)\n6.  Paramétrisation de $f$ sur l'arc de cercle $B_2$ et étude des variations de la fonction obtenue. ($h(\\theta) = \\cos^2(\\theta) + \\sin(\\theta)$)\n7.  Détermination des extremums globaux de $f$ sur $\\mathcal{K}$ en comparant les valeurs de $f$ aux points critiques et aux bornes du domaine, et identification des points où ces extremums sont atteints."
+  }
+}

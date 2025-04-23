@@ -1,717 +1,255 @@
 {
-  "avca": {
+  "td20": {
     "competences": [
-      "appliquer un test ANOVA",
-      "calculer les sommes des carrés (SCE, SCT, SCR)",
-      "déterminer les degrés de liberté",
-      "interpréter les résultats d'un test statistique",
-      "formuler des hypothèses statistiques"
+      "calculer l'espérance et la variance d'une variable aléatoire",
+      "appliquer la définition de la fonction caractéristique pour identifier une loi",
+      "vérifier qu'une fonction est une densité de probabilité",
+      "effectuer des changements de variables dans des intégrales",
+      "utiliser l'indépendance de variables aléatoires pour calculer des fonctions caractéristiques"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [
-      "ANOVA",
-      "test statistique",
-      "comparaison de moyennes",
+      "loi Gamma",
+      "fonction caractéristique",
+      "densité de probabilité",
+      "espérance",
       "variance",
-      "dépense",
-      "tabac",
-      "échantillon",
-      "hypothèse nulle"
+      "loi du Chi-deux",
+      "indépendance",
+      "variables aléatoires"
     ],
     "concepts_fondamentaux": [
-      "analyse de la variance",
-      "hypothèse nulle et alternative",
-      "degrés de liberté",
-      "statistique de test F"
-    ],
-    "prerequis": [
-      "notions de statistique descriptive (moyenne, variance)",
-      "compréhension des tests d'hypothèses",
-      "connaissance de la distribution F de Fisher"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "30-45 minutes",
-    "resume": "Cet exercice porte sur l'analyse de la variance (ANOVA) à un facteur. Il vise à déterminer s'il existe une différence significative entre les moyennes de trois populations (Anglais, Allemands et Italiens) en ce qui concerne leurs dépenses annuelles en tabac. La compétence mise en oeuvre est la capacité à réaliser un test statistique ANOVA afin de comparer des moyennes et de prendre une décision basée sur le résultat du test."
-  },
-  "a1ba": {
-    "competences": [
-      "réaliser un test du Chi-deux d'adéquation",
-      "calculer une statistique de test",
-      "interpréter une p-valeur",
-      "déterminer le nombre de degrés de liberté",
-      "comparer une statistique de test à une valeur critique"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "test du Chi-deux",
-      "test d'adéquation",
-      "statistique",
-      "loi uniforme",
-      "seuil de confiance",
-      "p-valeur",
-      "degrés de liberté",
-      "test non paramétrique"
-    ],
-    "concepts_fondamentaux": [
-      "test d'hypothèse",
-      "distribution du Chi-deux",
-      "degrés de liberté",
-      "p-valeur"
-    ],
-    "prerequis": [
-      "notion de loi uniforme",
-      "principe d'un test d'hypothèse",
-      "table de la loi du Chi-deux (ou utilisation d'un logiciel statistique)",
-      "calcul de fréquences observées et attendues"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "30-45 minutes",
-    "resume": "L'exercice porte sur la réalisation d'un test d'adéquation du $\\chi^2$ pour vérifier si une distribution observée (nombre d'apparitions de chaque élève tiré au sort) suit une loi uniforme. Il s'agit de comparer les fréquences observées aux fréquences théoriques attendues sous l'hypothèse d'uniformité, de calculer la statistique du $\\chi^2$ ($\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$) et de la comparer à la valeur critique du $\\chi^2$ avec le nombre de degrés de liberté approprié et le seuil de signification donné (5%) pour prendre une décision sur l'hypothèse nulle (uniformité) contre l'hypothèse alternative (non uniformité)."
-  },
-  "td22": {
-    "competences": [
-      "appliquer le théorème de la limite centrale",
-      "construire un intervalle de confiance asymptotique",
-      "appliquer la méthode Delta",
-      "interpréter une convergence en loi",
-      "calculer la dérivée d'une fonction simple"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "TCL",
-      "Théorème de la Limite Centrale",
-      "intervalle de confiance",
-      "méthode Delta",
-      "stabilisation de la variance",
-      "asymptotique",
-      "Poisson",
-      "estimateur"
-    ],
-    "concepts_fondamentaux": [
-      "Théorème de la Limite Centrale",
-      "Méthode Delta",
-      "Intervalle de confiance asymptotique",
-      "Loi de Poisson"
-    ],
-    "prerequis": [
-      "Connaissance des lois de probabilité usuelles (Poisson)",
-      "Théorème de la Limite Centrale (TCL)",
-      "Convergence en loi",
-      "Calcul différentiel de base"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "45 minutes",
-    "resume": "Cet exercice porte sur l'estimation d'un paramètre $\\theta$ d'une loi de Poisson à partir d'un échantillon i.i.d. $X_1, \\ldots, X_n$. Il aborde la construction d'intervalles de confiance asymptotiques pour $\\theta$ en utilisant deux approches :\n\n1.  **Application directe du TCL :** Utilisation du TCL pour $\\theta_n = \\frac{1}{n} \\sum_{i=1}^n X_i$ et construction d'un intervalle de confiance asymptotique basé sur une estimation de la variance.\n\n2.  **Stabilisation de la variance et méthode Delta :**  Trouver une fonction $g$ telle que $\\sqrt{n}(g(\\theta_n) - g(\\theta))$ converge en loi vers une loi normale centrée réduite. Cela implique l'application de la méthode Delta pour trouver une transformation qui stabilise la variance, en l'occurrence $g(\\lambda) = 2\\sqrt{\\lambda}$. Ensuite, construction d'un intervalle de confiance basé sur la transformation $g(\\theta_n)$.\n\nEnfin, l'exercice demande de vérifier l'équivalence des deux intervalles de confiance obtenus par ces deux méthodes."
-  },
-  "nSDY": {
-    "competences": [
-      "calculer une probabilité d'événements",
-      "définir un espace probabilisable discret",
-      "appliquer les règles de calcul des probabilités (union, intersection, complémentaire)",
-      "interpréter des événements en termes de probabilités",
-      "résoudre une équation linéaire simple"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "probabilité",
-      "événement",
-      "univers",
-      "dé à six faces",
-      "probabilité discrète",
-      "événements incompatibles",
-      "union d'événements",
-      "intersection d'événements"
-    ],
-    "concepts_fondamentaux": [
-      "probabilité d'un événement",
-      "espace probabilisable discret",
-      "événements incompatibles",
-      "union et intersection d'événements",
-      "complémentaire d'un événement"
-    ],
-    "prerequis": [
-      "notion d'ensemble",
-      "vocabulaire de base des probabilités (événement, univers)",
-      "opérations arithmétiques de base (addition, soustraction)"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "30-45 minutes",
-    "resume": "L'exercice porte sur le calcul de probabilités dans le cadre d'une expérience aléatoire simple : le lancer d'un dé à six faces. Il vise à évaluer la capacité à:\n\n1.  Définir l'univers associé à une expérience aléatoire.\n2.  Déterminer si un dé est truqué à partir des probabilités de chaque face.\n3.  Calculer les probabilités d'événements simples ($A$, $B$), de leur intersection ($A \\cap B$) et de leur union ($A \\cup B$) en utilisant les formules de probabilité: $\\PP(A \\cup B) = \\PP(A) + \\PP(B) - \\PP(A \\cap B)$.\n4.  Calculer la probabilité du complémentaire d'un événement ($\\bar{A}$, $\\bar{B}$) en utilisant : $\\PP(\\bar{A}) = 1 - \\PP(A)$.\n5.  Identifier et manipuler des événements incompatibles ($C$, $D$) et utiliser $\\PP(C \\cap D) = 0$ et $\\PP(C \\cup D) = \\PP(C) + \\PP(D)$."
-  },
-  "td21": {
-    "competences": [
-      "calculer l'espérance d'une variable aléatoire",
-      "calculer la variance d'une variable aléatoire",
-      "calculer l'estimateur sans biais",
-      "calculer l'erreur quadratique moyenne (EQM)",
-      "comparer des estimateurs statistiques"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "estimateur",
-      "biais",
-      "variance",
-      "erreur quadratique moyenne",
-      "estimateur sans biais",
-      "comparaison d'estimateurs",
-      "moyenne empirique",
-      "risque quadratique"
-    ],
-    "concepts_fondamentaux": [
+      "densité de probabilité",
+      "fonction caractéristique",
       "espérance mathématique",
       "variance",
-      "estimateur et propriétés",
-      "biais d'un estimateur",
-      "erreur quadratique moyenne (EQM)"
+      "indépendance de variables aléatoires"
     ],
     "prerequis": [
-      "théorie des probabilités de base",
-      "variables aléatoires",
+      "calcul intégral (intégrales impropres)",
+      "variables aléatoires et lois de probabilité",
       "espérance et variance",
-      "statistique descriptive"
+      "fonction caractéristique",
+      "indépendance de variables aléatoires"
     ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "30 minutes",
-    "resume": "L'exercice compare deux estimateurs de l'espérance $m$ d'une variable aléatoire $X_1$ i.i.d. d'un échantillon $(X_i)_{1 \\leq i \\leq n}$, où la variance $\\sigma^2$ est connue. Il s'agit de démontrer que les estimateurs $\\\\overline{X}_n = \\\\frac{1}{n}\\\\sum_{i=1}^{n}X_i$ et $Z_n = \\\\frac{1}{2}(X_n + X_{n-1})$ sont sans biais. Ensuite, il faut comparer les estimateurs en calculant et comparant leurs erreurs quadratiques moyennes (EQM) pour déterminer lequel est préférable au sens du risque quadratique."
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "90-120 minutes",
+    "resume": "Cet exercice porte sur la loi Gamma $\\gamma(p, \\theta)$. Il vise à :\n\n*   Vérifier qu'une fonction est bien une densité de probabilité.\n*   Calculer l'espérance $E[X^k]$ et la variance $\\text{Var}(X)$ d'une variable aléatoire suivant une loi Gamma, en utilisant la fonction Gamma $\\Gamma(p)$.\n*   Déterminer la densité de $Y^2$ où $Y \\sim \\mathcal{N}(0, 1)$, et en déduire que $Y^2$ suit une loi Gamma particulière, soit $\\gamma(1/2, 1/2) = \\chi^2(1)$.\n*   Montrer que si $X \\sim \\gamma(p, \\theta)$, alors $X/a \\sim \\gamma(p, a\\theta)$.\n*   Démontrer que la somme de deux variables aléatoires indépendantes suivant des lois Gamma de même paramètre $\\theta$, $X \\sim \\gamma(p_1, \\theta)$ et $Y \\sim \\gamma(p_2, \\theta)$, suit également une loi Gamma, $X + Y \\sim \\gamma(p_1 + p_2, \\theta)$, en utilisant les fonctions caractéristiques.\n*   Déterminer la loi de la somme $S_n$ de $n$ variables aléatoires indépendantes de même loi exponentielle, $X_i \\sim \\gamma(1, \\theta)$, et calculer son espérance $E[S_n]$ et sa variance $\\text{Var}(S_n)$.\n*   Déterminer la loi de la somme de carrés $S'_n$ de $n$ variables aléatoires indépendantes de même loi normale centrée réduite, $X_i \\sim \\mathcal{N}(0, 1)$, en déduire que $\\gamma(n/2, 1/2) = \\chi^2(n)$ et calculer son espérance $E[S'_n]$ et sa variance $\\text{Var}(S'_n)$. "
   },
-  "ovua": {
+  "fo0Z": {
     "competences": [
-      "appliquer le test du Chi-deux d'adéquation",
-      "calculer les fréquences observées et théoriques",
-      "déterminer les degrés de liberté",
-      "interpréter la p-value et la comparer au seuil de signification",
-      "formuler une conclusion basée sur le test d'hypothèse"
+      "calculer des dérivées partielles premières et secondes",
+      "déterminer les points critiques d'une fonction à deux variables",
+      "appliquer le critère de la matrice hessienne pour classifier les points critiques",
+      "interpréter la nature des points critiques (minimum local, maximum local, point selle)",
+      "justifier l'absence d'extremums globaux en étudiant le comportement à l'infini"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [
-      "test du Chi-deux",
-      "adéquation",
-      "loi Normale",
-      "statistique non paramétrique",
-      "hypothèse",
-      "seuil de signification",
-      "degrés de liberté",
-      "p-value"
+      "extremums globaux",
+      "points critiques",
+      "dérivées partielles",
+      "matrice hessienne",
+      "minimum local",
+      "maximum local",
+      "point selle",
+      "fonction à deux variables"
     ],
     "concepts_fondamentaux": [
-      "test d'hypothèse",
-      "loi du Chi-deux",
-      "distribution normale",
-      "degrés de liberté",
-      "seuil de signification"
+      "dérivées partielles d'ordre 1 et 2",
+      "points critiques",
+      "matrice hessienne et ses propriétés",
+      "nature des extremums locaux",
+      "bornes supérieures et inférieures d'une fonction"
     ],
     "prerequis": [
-      "connaissance de la loi Normale",
-      "compréhension des tests d'hypothèses",
-      "calcul de probabilités",
-      "notion de degrés de liberté"
+      "calcul différentiel à une variable",
+      "dérivées partielles",
+      "manipulation de matrices",
+      "notion de limite"
     ],
-    "type_exercice": "Exercice d'application directe",
+    "type_exercice": "Problème à étapes",
     "temps_estime": "45 minutes",
-    "resume": "L'exercice consiste à réaliser un test d'adéquation non paramétrique (test du $\\chi^2$) pour vérifier si les données observées (dépenses mensuelles de produits surgelés) suivent une loi normale de paramètres $\\mu = 100$ et $\\sigma = 50$ au niveau de signification de 5%. Il faut donc calculer les effectifs théoriques sous l'hypothèse de normalité, puis la statistique du $\\chi^2$ et la comparer à la valeur critique correspondante pour conclure."
+    "resume": "L'exercice porte sur la recherche d'extremums globaux d'une fonction $f(x,y) = -x^2y + \\frac{1}{2}y^2 + y$ définie sur $\\mathbb{R}^2$.\n\n1.  **Détermination des points critiques :** Calcul des dérivées partielles $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$, puis résolution du système d'équations $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$.\n\n2.  **Nature des points critiques :** Calcul des dérivées partielles secondes et du déterminant de la matrice hessienne $\\Delta_f(x,y) = \\frac{\\partial^2 f}{\\partial x^2} \\frac{\\partial^2 f}{\\partial y^2} - (\\frac{\\partial^2 f}{\\partial x \\partial y})^2$ pour déterminer si les points critiques sont des minima locaux, des maxima locaux, ou des points selles.\n\n3.  **Existence d'extremums globaux :** Analyse du comportement de la fonction à l'infini en considérant des courbes spécifiques (par exemple, $y = x^2$ et $x = 0$) afin de déterminer si la fonction est bornée supérieurement ou inférieurement. Conclusion sur l'existence ou non d'extremums globaux."
   },
-  "td26": {
+  "nQHm": {
     "competences": [
-      "calculer une fonction de répartition",
-      "étudier la convergence en moyenne quadratique",
-      "construire un intervalle de confiance",
-      "appliquer une transformation de variable aléatoire",
-      "calculer le minimum d'un ensemble de variables aléatoires"
+      "déterminer les extrema d'une fonction à deux variables",
+      "étudier les variations d'une fonction d'une variable réelle",
+      "calculer des dérivées partielles",
+      "représenter graphiquement un ensemble défini par des inégalités",
+      "appliquer le théorème des extrema liés"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [
-      "variable aléatoire",
-      "densité",
-      "fonction de répartition",
+      "extremum",
+      "maximum",
       "minimum",
-      "convergence moyenne quadratique",
-      "intervalle de confiance",
-      "loi exponentielle",
-      "échantillon i.i.d."
+      "fonction à deux variables",
+      "domaine",
+      "compact",
+      "point critique",
+      "tableau de variation"
     ],
     "concepts_fondamentaux": [
-      "variable aléatoire",
-      "fonction de répartition",
-      "convergence de variables aléatoires",
-      "estimation",
-      "intervalle de confiance"
+      "dérivées partielles",
+      "compacité",
+      "théorème des extrema sur un compact",
+      "points critiques",
+      "gradient"
     ],
     "prerequis": [
-      "probabilités",
-      "variables aléatoires",
-      "fonctions de répartition",
-      "lois usuelles (exponentielle)",
-      "statistique inférentielle"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "60 minutes",
-    "resume": "L'exercice porte sur une variable aléatoire réelle $X$ dont la densité dépend d'un paramètre $\\theta > 0$. Il s'agit de : \n\n1. Montrer que la variable aléatoire $X/\\theta - 1$ suit une loi exponentielle de paramètre 1.\n2. Déterminer la fonction de répartition du minimum $X^{(1)} = \\min_{1 \\leq i \\leq n} X_i$ d'un échantillon i.i.d. de loi identique à $X$.\n3. Étudier la convergence en moyenne quadratique de $X^{(1)}$ vers $\\theta$.\n4. Construire un intervalle de confiance pour $\\theta$ de niveau $(1-\\alpha)$. Cela implique d'identifier une quantité pivotale."
-  },
-  "TMrr": {
-    "competences": [
-      "appliquer un changement de variable dans une intégrale double",
-      "calculer l'espérance d'une fonction de variables aléatoires",
-      "déterminer la densité d'un couple de variables aléatoires transformées",
-      "interpréter la fonction indicatrice",
-      "calculer un déterminant 2x2"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "variables aléatoires",
-      "densité conjointe",
-      "théorème de transfert",
-      "changement de variable",
-      "loi d'un couple",
-      "intégrale double",
-      "matrice jacobienne"
-    ],
-    "concepts_fondamentaux": [
-      "densité de probabilité",
-      "théorème de transfert",
-      "changement de variable dans une intégrale",
-      "matrice jacobienne",
-      "espérance mathématique"
-    ],
-    "prerequis": [
-      "calcul intégral",
-      "variables aléatoires",
-      "théorème de transfert (cas discret et continu)",
-      "algèbre linéaire (déterminant)"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "45 minutes",
-    "resume": "L'exercice porte sur la détermination de la loi d'un couple de variables aléatoires $(U,V)$ où $U=X+Y$ et $V=X-Y$, connaissant la densité conjointe du couple $(X,Y)$. Les compétences mises en oeuvre sont: l'application du théorème de transfert pour calculer l'espérance $\\mathbb{E}(h(U,V))$, la réalisation d'un changement de variables (calcul du Jacobien et de son déterminant) pour exprimer l'intégrale en fonction de $u$ et $v$, et la détermination du nouveau domaine d'intégration $C$. La densité de $(U,V)$ est alors donnée par $g(u,v)=\\frac{3}{16}(u^2+v^2) \\textbf{1}_C(u,v)$. L'exercice mentionne également le calcul potentiel des lois marginales pour déterminer l'indépendance de $(X+Y)$ et $(X-Y)$. "
-  },
-  "zobz": {
-    "competences": [
-      "calculer l'estimateur du maximum de vraisemblance",
-      "déterminer la loi d'une statistique",
-      "construire un intervalle de confiance",
-      "construire un test d'hypothèse",
-      "calculer la puissance d'un test"
-    ],
-    "niveau_difficulte": "avancé",
-    "mots_cles": [
-      "maximum de vraisemblance",
-      "estimateur",
-      "intervalle de confiance",
-      "test d'hypothèse",
-      "puissance d'un test",
-      "loi exponentielle",
-      "statistique",
-      "test statistique"
-    ],
-    "concepts_fondamentaux": [
-      "estimation ponctuelle",
-      "estimation par intervalle",
-      "tests d'hypothèses",
-      "maximum de vraisemblance",
-      "loi exponentielle"
-    ],
-    "prerequis": [
-      "notions de probabilités",
-      "statistique descriptive",
-      "variables aléatoires",
-      "lois de probabilité usuelles",
-      "estimation statistique"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "120 minutes",
-    "resume": "Cet exercice porte sur l'estimation et les tests d'hypothèses dans le cadre d'une loi dont la densité est $f_\\theta(x) = exp(-(x - \\theta)) \\mathrm{1}_{[\\theta, +\\infty[}(x)$. Il évalue la capacité à:\n\n1.  Proposer des estimateurs de $\\theta$ par différentes méthodes.\n2.  Déterminer la loi de $n(\\hat{\\theta}_n - \\theta)$, où $\\hat{\\theta}_n$ est l'estimateur du maximum de vraisemblance, et construire un intervalle de confiance pour $\\theta$.\n3.  Construire et analyser des tests d'hypothèses pour $H_0: \\theta \\geq 0$ contre $H_1: \\theta < 0$, incluant le calcul de la puissance, la détermination de la taille et l'étude de la variation de la puissance en fonction de $\\alpha$ et $n$.\n4.  Proposer un test d'adéquation pour vérifier si la loi de $X_1$ est exponentielle et calculer sa puissance."
-  },
-  "tbue": {
-    "competences": [
-      "maximiser une fonction de vraisemblance",
-      "calculer la fonction de vraisemblance pour un échantillon i.i.d.",
-      "identifier et appliquer les propriétés des lois normales, de Laplace et uniforme",
-      "appliquer la méthode du maximum de vraisemblance dans différents contextes",
-      "interpréter les résultats de l'estimation du maximum de vraisemblance"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "vraisemblance",
-      "maximum de vraisemblance",
-      "estimateur",
-      "loi normale",
-      "loi de Laplace",
-      "densité de probabilité",
-      "i.i.d.",
-      "estimation"
-    ],
-    "concepts_fondamentaux": [
-      "fonction de vraisemblance",
-      "estimateur du maximum de vraisemblance (EMV)",
-      "densité de probabilité",
-      "indépendance et identité de distribution (i.i.d.)"
-    ],
-    "prerequis": [
-      "connaissance des lois de probabilité usuelles (normale, Laplace)",
-      "maîtrise du calcul différentiel (dérivation)",
-      "notions de statistique descriptive",
-      "compréhension de la notion de densité de probabilité"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "60 minutes",
-    "resume": "L'exercice porte sur l'estimation du maximum de vraisemblance (EMV) pour un paramètre de translation $\\theta$. Il s'agit de calculer l'EMV de $\\theta$ étant donné un échantillon i.i.d. $X_1, ..., X_n$ dont la densité est $f_\\theta(x) = f(x - \\theta)$, où $f$ est une densité connue. L'exercice explore trois cas différents pour la densité $f$ : une loi normale $\\mathcal{N}(0, \\sigma)$ avec $\\sigma$ connu, une loi de Laplace, et une densité polynomiale uniforme sur l'intervalle [-1, 1]. L'exercice vise à appliquer la méthode du maximum de vraisemblance pour estimer un paramètre de position."
-  },
-  "td27": {
-    "competences": [
-      "estimer une probabilité à partir d'observations",
-      "calculer le biais et la variance d'un estimateur",
-      "déterminer la loi limite d'un estimateur",
-      "construire un intervalle de confiance",
-      "appliquer les propriétés de la loi de Poisson"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "estimateur",
-      "biais",
-      "variance",
-      "risque quadratique",
-      "intervalle de confiance",
-      "loi de Poisson",
-      "loi limite",
-      "sans biais"
-    ],
-    "concepts_fondamentaux": [
-      "estimateur sans biais",
-      "risque quadratique",
-      "intervalles de confiance",
-      "loi de Poisson",
-      "convergence en loi"
-    ],
-    "prerequis": [
-      "probabilités",
-      "variables aléatoires",
-      "estimateurs",
-      "statistiques descriptives",
-      "théorème central limite"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "60 minutes",
-    "resume": "Cet exercice porte sur l'estimation de la probabilité d'absence de défaillance ($P(X_1 = 0)$) dans une chaîne de fabrication d'ampoules. L'exercice explore deux estimateurs différents :\n\n*   **Estimateur 1 ($p_{b1}$):** Basé sur la fréquence empirique des jours sans défaillance ($N_n/n$). Il s'agit de démontrer qu'il est sans biais, de calculer son risque quadratique, de déterminer sa loi limite et de construire des intervalles de confiance.\n*   **Estimateur 2 ($p_{b2}$):** Basé sur l'hypothèse que le nombre de défaillances suit une loi de Poisson de paramètre $\\lambda$ ($X_1 \\sim P(\\lambda)$), et estimant $P(X_1 = 0) = e^{-\\lambda}$ par $e^{-\\bar{X}_n}$. Il faut rappeler la loi de la somme de deux variables aléatoires de Poisson indépendantes, justifier la démarche de l'estimateur, montrer qu'il est biaisé, calculer sa variance et son biais, et déterminer des équivalents asymptotiques. Enfin, il faut comparer les deux estimateurs pour déterminer lequel est le plus approprié pour estimer $e^{-\\lambda}$."
-  },
-  "bz11": {
-    "competences": [
-      "réaliser un test d'adéquation du khi-deux",
-      "estimer un paramètre de loi binomiale",
-      "calculer des probabilités binomiales",
-      "calculer des fréquences observées et théoriques",
-      "interpréter un résultat de test statistique"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "test d'adéquation",
-      "khi-deux",
-      "loi binomiale",
-      "statistique",
-      "inférence statistique",
-      "paramètre",
-      "effectifs",
-      "risque d'erreur"
-    ],
-    "concepts_fondamentaux": [
-      "loi binomiale",
-      "test d'hypothèse",
-      "statistique du khi-deux",
-      "degré de liberté"
-    ],
-    "prerequis": [
-      "connaissance de la loi binomiale",
-      "notion de test d'hypothèse",
-      "calcul de probabilités",
-      "utilisation de tables statistiques (khi-deux)"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "45 minutes",
-    "resume": "L'exercice porte sur un test d'adéquation du khi-deux. Il s'agit de vérifier si la distribution du nombre de garçons dans des familles de 7 enfants suit une loi binomiale de paramètre $p$. Les compétences mises en œuvre sont: le calcul des probabilités théoriques sous l'hypothèse d'une loi binomiale, l'estimation du paramètre $p$, le calcul des effectifs théoriques, le calcul de la statistique du khi-deux, la détermination du nombre de degrés de liberté, et la prise de décision basée sur la comparaison de la statistique calculée avec la valeur critique du khi-deux pour un seuil de signification de 5%."
-  },
-  "12vb": {
-    "competences": [
-      "calculer un estimateur par la méthode des moments",
-      "calculer la fonction de vraisemblance",
-      "étudier la consistance d'un estimateur",
-      "déterminer la loi limite d'un estimateur",
-      "vérifier si un estimateur du maximum de vraisemblance est bien défini"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "estimateur",
-      "méthode des moments",
-      "maximum de vraisemblance",
-      "vraisemblance",
-      "consistance",
-      "loi limite",
-      "variable aléatoire",
-      "statistique"
-    ],
-    "concepts_fondamentaux": [
-      "méthode des moments",
-      "estimateur du maximum de vraisemblance",
-      "consistance d'un estimateur",
-      "théorème central limite",
-      "lois de probabilité"
-    ],
-    "prerequis": [
-      "probabilités",
-      "variables aléatoires",
-      "espérance et variance",
-      "convergence d'estimateurs",
-      "théorème central limite"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "60 minutes",
-    "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi de probabilité discrète à partir d'un échantillon $(X_1, ..., X_n)$. Il évalue la capacité à : \n\n1.  Calculer un estimateur de $\\theta$ par la méthode des moments en utilisant l'espérance de la variable aléatoire.\n2.  Déterminer si l'estimateur du maximum de vraisemblance est bien défini (existence et unicité du maximum).\n3.  Étudier la consistance de l'estimateur du maximum de vraisemblance et déterminer sa loi limite (convergence en probabilité et distribution asymptotique)."
-  },
-  "td23": {
-    "competences": [
-      "construire un intervalle de confiance",
-      "appliquer le théorème central limite",
-      "calculer un estimateur",
-      "déterminer la loi d'une statistique",
-      "réaliser un test d'hypothèse"
-    ],
-    "niveau_difficulte": "avancé",
-    "mots_cles": [
-      "loi normale",
-      "estimateur",
-      "intervalle de confiance",
-      "loi du chi-deux",
-      "théorème central limite",
-      "test d'hypothèse",
-      "niveau de test",
-      "p-valeur"
-    ],
-    "concepts_fondamentaux": [
-      "estimation ponctuelle",
-      "estimation par intervalle",
-      "test d'hypothèses",
-      "loi du Chi-deux",
-      "convergence en loi"
-    ],
-    "prerequis": [
-      "connaissances de base en probabilités",
-      "variables aléatoires",
-      "lois usuelles (normale, chi-deux)",
-      "estimation statistique",
-      "tests d'hypothèses"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "120 minutes",
-    "resume": "L'exercice porte sur l'estimation et les tests d'hypothèses pour le paramètre $\\theta$ d'une loi normale $\\mathcal{N}(0, \\theta)$.\n\n1.  **Estimation ponctuelle et loi de l'estimateur**: Il s'agit de proposer un estimateur de $\\theta$, $\\hat{\\theta}_n = \\frac{1}{n} \\sum_{i=1}^{n} X_i^2$, et de déterminer sa loi, qui est un $\\chi^2$ à n degrés de liberté, soit $\\frac{n\\hat{\\theta}_n}{\\theta} \\sim \\chi^2_n$.\n\n2.  **Construction d'intervalles de confiance**: Il faut construire trois intervalles de confiance de niveau $(1-\\alpha)$ pour $\\theta$. Le premier, $I_{1-\\alpha}^{(1)}$, est bilatéral, avec des probabilités $\\alpha/2$ dans chaque queue. Les deux autres, $I_{1-\\alpha}^{(2)}$ et $I_{1-\\alpha}^{(3)}$, sont unilatéraux, avec une probabilité $\\alpha$ dans une seule queue.  Une comparaison de ces intervalles est demandée, notamment en termes de longueur.\n\n3.  **Loi asymptotique et intervalle de confiance asymptotique**: Déterminer la loi asymptotique de $\\hat{\\theta}_n$ en utilisant le TCL et construire un intervalle de confiance asymptotique $J_{1-\\alpha}$. La loi asymptotique est une loi normale $\\mathcal{N}(\\theta, \\frac{2\\theta^2}{n})$.\n\n4.  **Comparaison numérique**: Comparer les intervalles de confiance non asymptotique $I_{1-\\alpha}^{(1)}$ et asymptotique $J_{1-\\alpha}$ pour des valeurs numériques spécifiques ($n=10$, $\\hat{\\theta}_n = 2$, $\\alpha = 5\\%$).\n\n5.  **Test d'hypothèses**: Construire un test d'hypothèse $T_\\alpha(X)$ de niveau $\\alpha$ pour $H_0 : \\theta \\leq 3$ contre $H_1 : \\theta > 3$. Il s'agit de déterminer la taille et la fonction puissance du test, de relier le test aux intervalles de confiance, et de calculer la p-valeur du test pour un seuil $\\alpha = 5\\%$ et $\\hat{\\theta}_n = 4$."
-  },
-  "YUII2": {
-    "competences": [
-      "réaliser un test d'hypothèse sur une variance",
-      "calculer la variance empirique d'un échantillon",
-      "appliquer la loi du Chi-deux pour un test de variance",
-      "interpréter un résultat de test d'hypothèse",
-      "calculer la moyenne d'un échantillon"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "test d'hypothèse",
-      "variance",
-      "loi normale",
-      "loi du Chi-deux",
-      "échantillon",
-      "risque",
-      "statistiques",
-      "test de variance"
-    ],
-    "concepts_fondamentaux": [
-      "test d'hypothèse",
-      "variance d'une population",
-      "distribution du Chi-deux",
-      "niveau de signification"
-    ],
-    "prerequis": [
-      "connaissance des tests d'hypothèses",
-      "maîtrise du calcul de la variance",
-      "connaissance de la loi normale et du Chi-deux"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "30 minutes",
-    "resume": "L'exercice propose un test d'hypothèse sur la variance d'une population normale. Il s'agit de déterminer si la variance d'un échantillon de $n=30$ pesées est conforme à une variance de référence $\\sigma_0^2 = 4 g^2$, avec un risque $\\alpha = 5\\%$. La compétence mise en oeuvre est la capacité à réaliser un test du $\\chi^2$ sur la variance d'une population normale en utilisant la statistique de test $S = \\sum_{i=1}^{n} \\left(\\frac{X_i-\\overline{X}}{\\sigma} \\right)^2$ qui suit une loi du $\\chi^2(n-1)$.  Il faut donc calculer la statistique de test à partir des données de l'échantillon, déterminer la région critique du test et conclure."
-  },
-  "v1bv": {
-    "competences": [
-      "calculer l'estimateur du maximum de vraisemblance",
-      "construire un intervalle de confiance asymptotique",
-      "appliquer la méthode des moments pour estimer un paramètre",
-      "vérifier la consistance et la normalité asymptotique d'un estimateur",
-      "réaliser un test d'hypothèse de niveau asymptotique"
-    ],
-    "niveau_difficulte": "avancé",
-    "mots_cles": [
-      "estimation",
-      "test d'hypothèse",
-      "loi uniforme",
-      "méthode des moments",
-      "maximum de vraisemblance",
-      "intervalle de confiance",
-      "normalité asymptotique",
-      "risque quadratique"
-    ],
-    "concepts_fondamentaux": [
-      "estimateur",
-      "convergence en loi",
-      "théorème central limite",
-      "méthode des moments",
-      "maximum de vraisemblance"
-    ],
-    "prerequis": [
-      "probabilités",
-      "statistique inférentielle",
-      "théorie de l'estimation",
-      "tests d'hypothèses",
-      "convergence stochastique"
-    ],
-    "type_exercice": "Problème à étapes",
-    "temps_estime": "120-180 minutes",
-    "resume": "Cet exercice porte sur l'estimation et les tests d'hypothèses pour une loi uniforme sur $[0, q]$. Il aborde les points suivants:\n\n*   **Estimation par la méthode des moments:** Calcul de l'estimateur $\\hat{q}_n$, preuve de sa consistance et normalité asymptotique, construction d'intervalles de confiance asymptotiques.\n*   **Tests d'hypothèses:** Proposition d'un test de niveau asymptotique $\\alpha$ pour tester $H_0 : q = q_0$ contre $H_1 : q \\neq q_0$.\n*   **Estimation du maximum de vraisemblance:** Calcul de l'estimateur du maximum de vraisemblance $q_{MV}$ et de son risque quadratique.\n*   **Loi limite:** Détermination de la loi limite de $n(q - X_{(n)})$, où $X_{(n)}$ est la statistique d'ordre maximale.\n*   **Intervalles de confiance:** Détermination de $c_{\\alpha,n}$ tel que $[X_{(n)}, c_{\\alpha,n}X_{(n)}]$ soit un intervalle de confiance de niveau $1 - \\alpha$.\n*   **Estimateur basé sur la médiane:** Calcul de la médiane de $X_1$, déduction d'un nouvel estimateur de $q$, étude de sa normalité asymptotique et construction d'un intervalle de confiance asymptotique associé.\n*   **Comparaison d'intervalles de confiance:** Comparaison des différents intervalles de confiance obtenus et justification du choix de l'intervalle le plus approprié."
-  },
-  "oyub": {
-    "competences": [
-      "tester une hypothèse statistique avec un test d'ANOVA",
-      "calculer une statistique de test",
-      "interpréter une p-value",
-      "comparer des moyennes d'échantillons",
-      "appliquer les conditions d'application d'un test d'ANOVA"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "ANOVA",
-      "test d'hypothèse",
-      "comparaison de moyennes",
-      "statistique",
-      "p-value",
-      "seuil de signification",
-      "variance",
-      "région"
-    ],
-    "concepts_fondamentaux": [
-      "test d'hypothèse",
-      "distribution d'échantillonnage",
-      "variance",
-      "seuil de signification",
-      "p-value"
-    ],
-    "prerequis": [
-      "connaissance des tests d'hypothèses",
-      "notion de moyenne et de variance",
-      "compréhension du concept de p-value",
-      "connaissance de la loi normale"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "30 minutes",
-    "resume": "Cet exercice porte sur la réalisation d'un test d'hypothèse pour comparer les moyennes de deux populations (consommation de chauffage dans deux régions) en utilisant des données d'échantillons. Il requiert de déterminer si la différence observée entre les moyennes des échantillons $\\bar{x}_A$ et $\\bar{x}_B$ est statistiquement significative, compte tenu des tailles des échantillons $n_A$ et $n_B$ et de leurs variances $\\sigma_A^2$ et $\\sigma_B^2$, avec un seuil de signification de 5%."
-  },
-  "td25": {
-    "competences": [
-      "calculer la fonction de densité d'une statistique d'ordre",
-      "calculer des moments d'une variable aléatoire",
-      "démontrer la convergence en probabilité d'une suite de variables aléatoires",
-      "construire un intervalle de confiance pour un paramètre",
-      "réaliser un test d'hypothèse statistique"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "statistique d'ordre",
-      "estimateur",
-      "convergence en probabilité",
-      "consistance",
-      "intervalle de confiance",
-      "test d'hypothèse",
-      "p-valeur",
-      "Loi Bêta"
-    ],
-    "concepts_fondamentaux": [
-      "statistiques d'ordre",
-      "convergence stochastique",
-      "estimation ponctuelle",
-      "estimation par intervalle",
-      "tests d'hypothèses"
-    ],
-    "prerequis": [
-      "probabilités de base",
-      "variables aléatoires continues",
-      "statistiques descriptives",
-      "théorie de l'estimation"
+      "calcul différentiel (dérivées, gradient)",
+      "notions de topologie (ouvert, fermé, borné, compact)",
+      "théorème des valeurs extrêmes",
+      "trigonométrie"
     ],
     "type_exercice": "Problème à étapes",
     "temps_estime": "90 minutes",
-    "resume": "L'exercice porte sur l'estimation du paramètre $\\theta$ d'une loi de densité $f_\\theta(x) = \\frac{2}{\\theta^2} x \\mathbf{1}_{[0,\\theta]}(x)$ à partir d'un échantillon i.i.d. $(X_i)_{1 \\leq i \\leq n}$. Il s'agit de déterminer les propriétés de l'estimateur du maximum $X^{(n)} = \\max_{1 \\leq i \\leq n} X_i$, notamment sa densité, ses moments, sa convergence en probabilité et sa consistance forte. Ensuite, il faut étudier la convergence de $X_n$, en déduire un estimateur consistant de $\\theta$ et comparer les performances des deux estimateurs. L'exercice demande aussi de construire un intervalle de confiance pour $\\theta$ et de réaliser un test d'hypothèse sur $\\theta$ en calculant la p-valeur et en prenant une décision statistique."
+    "resume": "L'exercice porte sur la recherche des extremums globaux d'une fonction $f(x,y) = x^2 + y$ sur un domaine compact $\\mathcal{K}$ défini par $x^2 + y^2 \\leq 1$ et $x + y \\geq 0$. \n\nVoici les compétences mises en œuvre :\n\n1.  Représentation graphique du domaine $\\mathcal{K}$ et identification de sa nature topologique (fermé, non ouvert).\n2.  Justification que $B_1$ (segment de droite) et $B_2$ (arc de cercle) sont des sous-ensembles de $\\mathcal{K}$.\n3.  Justification de l'existence d'un maximum et d'un minimum global en utilisant le théorème des bornes.\n4.  Recherche de points critiques de $f$ sur l'intérieur de $\\mathcal{K}$ (montrer qu'il n'y en a pas).\n5.  Paramétrisation de $f$ sur le segment de droite $B_1$ et étude des variations de la fonction obtenue. ($g(x) = x^2 - x$)\n6.  Paramétrisation de $f$ sur l'arc de cercle $B_2$ et étude des variations de la fonction obtenue. ($h(\\theta) = \\cos^2(\\theta) + \\sin(\\theta)$)\n7.  Détermination des extremums globaux de $f$ sur $\\mathcal{K}$ en comparant les valeurs de $f$ aux points critiques et aux bornes du domaine, et identification des points où ces extremums sont atteints."
   },
-  "H30c2": {
+  "S8kg": {
     "competences": [
-      "appliquer un test du Chi-deux",
-      "calculer une statistique de test",
-      "interpréter un résultat de test d'hypothèse",
-      "déterminer des effectifs théoriques",
-      "comparer des valeurs à une distribution de probabilité"
+      "étudier la différentiabilité d'une fonction de deux variables",
+      "calculer des dérivées partielles en un point",
+      "étudier la continuité d'une fonction de deux variables",
+      "interpréter géométriquement une courbe de niveau",
+      "calculer des limites en utilisant les coordonnées polaires"
     ],
     "niveau_difficulte": "intermédiaire",
     "mots_cles": [
-      "test d'adéquation",
-      "chi-deux",
-      "statistiques",
-      "hypothèse nulle",
-      "niveau de signification",
-      "degré de liberté",
-      "effectifs observés",
-      "effectifs théoriques"
+      "différentiabilité",
+      "continuité",
+      "dérivées partielles",
+      "courbe de niveau",
+      "coordonnées polaires",
+      "fonction de deux variables",
+      "limite",
+      "classe C1"
     ],
     "concepts_fondamentaux": [
-      "test d'hypothèse",
-      "distribution du Chi-deux",
-      "niveau de signification",
-      "degrés de liberté",
-      "variable aléatoire"
+      "définition de la continuité d'une fonction de deux variables",
+      "définition des dérivées partielles",
+      "définition de la différentiabilité",
+      "passage en coordonnées polaires",
+      "courbes de niveau"
     ],
     "prerequis": [
-      "notion de variable aléatoire",
-      "connaissance des tests d'hypothèses",
-      "compréhension du niveau de signification",
-      "calculs statistiques de base"
-    ],
-    "type_exercice": "Exercice d'application directe",
-    "temps_estime": "20 minutes",
-    "resume": "L'exercice porte sur la réalisation d'un test d'adéquation du $\\chi^2$ pour déterminer si un dé est truqué. Il s'agit de comparer les effectifs observés $O_i$ lors de 60 lancers avec les effectifs théoriques $e_i$ attendus sous l'hypothèse d'un dé non truqué. Le calcul de la statistique de test $Q = \\sum_{i=1}^6 \\frac{(O_i - e_i)^2}{e_i}$ est effectué. La valeur observée $Q_{obs}$ est ensuite comparée à la valeur critique issue d'une loi du $\\chi^2$ à 5 degrés de liberté avec un seuil de significativité de 5% pour déterminer si l'hypothèse nulle (le dé n'est pas truqué) doit être rejetée."
-  },
-  "bzou": {
-    "competences": [
-      "réaliser un test ANOVA à un facteur",
-      "calculer des statistiques descriptives (moyenne, variance)",
-      "formuler des hypothèses nulles et alternatives",
-      "interpréter la taille d'effet (êta carré)",
-      "calculer la somme des carrés inter et intra-groupes"
-    ],
-    "niveau_difficulte": "intermédiaire",
-    "mots_cles": [
-      "ANOVA",
-      "statistiques",
-      "test d'hypothèse",
-      "taille d'effet",
-      "variance",
-      "moyenne",
-      "psychologie cognitive",
-      "méthode d'apprentissage"
-    ],
-    "concepts_fondamentaux": [
-      "analyse de la variance (ANOVA)",
-      "hypothèses statistiques",
-      "degrés de liberté",
-      "statistique F",
-      "taille d'effet"
-    ],
-    "prerequis": [
-      "connaissance des statistiques descriptives (moyenne, variance)",
-      "compréhension des hypothèses statistiques",
-      "notions de base sur les tests d'hypothèses"
+      "définition de limite d'une fonction à deux variables",
+      "calcul des dérivées partielles",
+      "notion de continuité",
+      "connaissance des coordonnées polaires"
     ],
     "type_exercice": "Problème à étapes",
-    "temps_estime": "60-90 minutes",
-    "resume": "Cet exercice porte sur l'analyse de la variance (ANOVA) à un facteur. Il évalue la capacité à:\n\n*   Formuler les hypothèses nulles ($H_0: \\mu_1 = \\mu_2 = \\mu_3 = \\mu_4 = \\mu_5$) et alternatives ($H_1$: au moins un $\\mu_i \\neq \\mu_j$).\n*   Calculer des statistiques descriptives (moyenne, variance) pour chaque groupe.\n*   Réaliser un test ANOVA (calcul de SCA, SCE, SCT, degrés de liberté, CM, statistique F).\n*   Prendre une décision statistique basée sur la comparaison de la statistique F calculée avec la valeur critique et interprétation des résultats.\n*   Calculer et interpréter la taille d'effet ($\\eta^2 = SCA/SCT$) pour évaluer l'importance pratique des résultats."
+    "temps_estime": "60 minutes",
+    "resume": "Cet exercice porte sur l'étude de la continuité, de l'existence des dérivées partielles, de la différentiabilité et de la classe $C^1$ d'une fonction $f(x, y)$ définie par morceaux en $(0, 0)$.\\n\\n1.  Détermination de la courbe de niveau 0 de $f$ en résolvant l'équation $f(x, y) = 0$.\\n2.  Démonstration de la continuité de $f$ en $(0, 0)$ en utilisant les coordonnées polaires et en montrant que $\\lim_{(x,y) \\to (0,0)} f(x, y) = f(0, 0)$.\\n3.  Calcul des dérivées partielles $\\\\frac{\\\\partial f}{\\\\partial x}(0, 0)$ et $\\\\frac{\\\\partial f}{\\\\partial y}(0, 0)$ en utilisant la définition des dérivées partielles.\\n4.  Étude de la différentiabilité de $f$ en $(0, 0)$ en vérifiant si $\\\\lim_{(x, y) \\\\to (0,0)} \\\\frac{f(x,y) - f(0,0) - \\\\frac{\\\\partial f}{\\\\partial x}(0,0)x - \\\\frac{\\\\partial f}{\\\\partial y}(0,0)y}{\\\\sqrt{x^2 + y^2}} = 0$.\\n5.  Déduction de la classe $C^1$ de $f$ en $(0, 0)$ à partir des résultats précédents."
+  },
+  "CnBv": {
+    "competences": [
+      "appliquer la règle de dérivation en chaîne",
+      "tracer un domaine de définition dans le plan",
+      "interpréter graphiquement le domaine de définition d'une fonction",
+      "déterminer si un ensemble est ouvert, fermé ou ni l'un ni l'autre",
+      "calculer une dérivée partielle"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "domaine de définition",
+      "fonction de deux variables",
+      "dérivée partielle",
+      "dérivée composée",
+      "ensemble ouvert",
+      "ensemble fermé",
+      "continuité",
+      "graphe de fonction"
+    ],
+    "concepts_fondamentaux": [
+      "domaine de définition d'une fonction à plusieurs variables",
+      "dérivées partielles",
+      "dérivée d'une fonction composée",
+      "continuité d'une fonction à plusieurs variables",
+      "topologie de base dans R^2 (ouvert, fermé)"
+    ],
+    "prerequis": [
+      "calcul différentiel (dérivées)",
+      "fonctions à plusieurs variables",
+      "notion de limite",
+      "topologie de base dans R^2",
+      "représentation graphique de fonctions"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45-60 minutes",
+    "resume": "L'exercice porte sur l'étude de fonctions de deux variables. Il évalue les compétences suivantes:\n\n*   **Détermination et représentation de domaines de définition:** Identifier et représenter graphiquement des domaines de définition de fonctions à deux variables, définis par des inégalités et des exclusions. Déterminer si ces domaines sont ouverts, fermés ou ni l'un ni l'autre.\n*   **Calcul de dérivée partielle par composition:** Utiliser la dérivée d'une fonction composée pour calculer une dérivée partielle d'une fonction à deux variables, connaissant une expression de cette fonction composée.\n*   **Continuité et dérivabilité:** Évaluer si l'existence des dérivées partielles et la connaissance de la limite d'une fonction en un point impliquent la continuité de la fonction en ce point.\n*   **Identification de graphe:** Associer un graphe 3D à une fonction de deux variables en analysant les propriétés de son domaine de définition et les exclusions."
+  },
+  "9Acu": {
+    "competences": [
+      "déterminer un équivalent simple d'une fonction",
+      "appliquer des développements limités usuels",
+      "identifier les termes dominants d'une expression",
+      "utiliser la continuité d'une fonction pour trouver un équivalent",
+      "calculer des limites de fonctions"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "équivalent simple",
+      "limite",
+      "développement limité",
+      "fonction équivalente",
+      "asymptote",
+      "terme dominant",
+      "négligeable",
+      "continuité"
+    ],
+    "concepts_fondamentaux": [
+      "équivalence de fonctions",
+      "développement limité",
+      "limites",
+      "continuité"
+    ],
+    "prerequis": [
+      "connaissance des limites usuelles",
+      "maîtrise des développements limités classiques",
+      "notion de fonction équivalente",
+      "notion de continuité"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30-45 minutes",
+    "resume": "L'exercice consiste à déterminer des équivalents simples de fonctions en des points donnés. Les compétences évaluées incluent :\n\n*   Calcul de limites en utilisant les termes dominants des polynômes (questions 1, 2, 6).\n*   Utilisation des développements limités pour simplifier des expressions (questions 3, 5). Par exemple, $e^x = 1 + x + \\frac{x^2}{2} + o(x^2)$ et $\\sin(x) = x - \\frac{x^3}{6} + o(x^3)$ et $\\cos(x) = 1 - \\frac{x^2}{2} + o(x^2)$.\n*   Application des équivalents classiques comme $\\ln(1+u) \\sim u$ quand $u \\to 0$ (question 4).\n*   Utilisation de la continuité de fonctions (question 2, racine carrée)"
+  },
+  "eDzQ": {
+    "competences": [
+      "déterminer un équivalent simple d'une suite",
+      "appliquer les équivalents usuels des fonctions trigonométriques et logarithmiques",
+      "calculer des limites de suites",
+      "manipuler des expressions algébriques pour simplifier les suites",
+      "utiliser des développements limités"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "équivalent",
+      "suite",
+      "limite",
+      "équivalent simple",
+      "asymptotique",
+      "développement limité",
+      "croissance comparée",
+      "infini"
+    ],
+    "concepts_fondamentaux": [
+      "équivalence de suites",
+      "limites de suites",
+      "développements limités",
+      "croissance comparée des fonctions usuelles"
+    ],
+    "prerequis": [
+      "connaissance des limites usuelles",
+      "maîtrise des opérations algébriques",
+      "définition de l'équivalence de suites",
+      "connaissance des équivalents usuels (sin(x) ~ x quand x->0, ln(1+x) ~ x quand x->0)",
+      "notion de négligeabilité"
+    ],
+    "type_exercice": "Exercice d'application directe",
+    "temps_estime": "30-45 minutes",
+    "resume": "L'exercice consiste à déterminer un équivalent simple pour différentes suites $(u_n)$ lorsque $n$ tend vers $+\\infty$. Il évalue la capacité à :\n\n*   Simplifier des expressions algébriques.\n*   Utiliser les propriétés des fonctions équivalentes, notamment $\\sin(u) \\sim u$ quand $u \\to 0$ et $\\ln(1+u) \\sim u$ quand $u \\to 0$.\n*   Identifier les termes prépondérants dans une somme ou une différence.\n*   Appliquer des techniques de factorisation et de développement limité (au premier ordre) pour simplifier les expressions et trouver les équivalents.\n*   Calculer des limites de rapports pour justifier les équivalences proposées."
   }
 }

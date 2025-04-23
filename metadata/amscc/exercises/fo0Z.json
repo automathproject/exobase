@@ -1,0 +1,38 @@
+{
+  "fo0Z": {
+    "competences": [
+      "calculer des dérivées partielles premières et secondes",
+      "déterminer les points critiques d'une fonction à deux variables",
+      "appliquer le critère de la matrice hessienne pour classifier les points critiques",
+      "interpréter la nature des points critiques (minimum local, maximum local, point selle)",
+      "justifier l'absence d'extremums globaux en étudiant le comportement à l'infini"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "extremums globaux",
+      "points critiques",
+      "dérivées partielles",
+      "matrice hessienne",
+      "minimum local",
+      "maximum local",
+      "point selle",
+      "fonction à deux variables"
+    ],
+    "concepts_fondamentaux": [
+      "dérivées partielles d'ordre 1 et 2",
+      "points critiques",
+      "matrice hessienne et ses propriétés",
+      "nature des extremums locaux",
+      "bornes supérieures et inférieures d'une fonction"
+    ],
+    "prerequis": [
+      "calcul différentiel à une variable",
+      "dérivées partielles",
+      "manipulation de matrices",
+      "notion de limite"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "45 minutes",
+    "resume": "L'exercice porte sur la recherche d'extremums globaux d'une fonction $f(x,y) = -x^2y + \\frac{1}{2}y^2 + y$ définie sur $\\mathbb{R}^2$.\n\n1.  **Détermination des points critiques :** Calcul des dérivées partielles $\\frac{\\partial f}{\\partial x}$ et $\\frac{\\partial f}{\\partial y}$, puis résolution du système d'équations $\\frac{\\partial f}{\\partial x} = 0$ et $\\frac{\\partial f}{\\partial y} = 0$.\n\n2.  **Nature des points critiques :** Calcul des dérivées partielles secondes et du déterminant de la matrice hessienne $\\Delta_f(x,y) = \\frac{\\partial^2 f}{\\partial x^2} \\frac{\\partial^2 f}{\\partial y^2} - (\\frac{\\partial^2 f}{\\partial x \\partial y})^2$ pour déterminer si les points critiques sont des minima locaux, des maxima locaux, ou des points selles.\n\n3.  **Existence d'extremums globaux :** Analyse du comportement de la fonction à l'infini en considérant des courbes spécifiques (par exemple, $y = x^2$ et $x = 0$) afin de déterminer si la fonction est bornée supérieurement ou inférieurement. Conclusion sur l'existence ou non d'extremums globaux."
+  }
+}

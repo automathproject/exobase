@@ -1,0 +1,38 @@
+{
+  "S8kg": {
+    "competences": [
+      "étudier la différentiabilité d'une fonction de deux variables",
+      "calculer des dérivées partielles en un point",
+      "étudier la continuité d'une fonction de deux variables",
+      "interpréter géométriquement une courbe de niveau",
+      "calculer des limites en utilisant les coordonnées polaires"
+    ],
+    "niveau_difficulte": "intermédiaire",
+    "mots_cles": [
+      "différentiabilité",
+      "continuité",
+      "dérivées partielles",
+      "courbe de niveau",
+      "coordonnées polaires",
+      "fonction de deux variables",
+      "limite",
+      "classe C1"
+    ],
+    "concepts_fondamentaux": [
+      "définition de la continuité d'une fonction de deux variables",
+      "définition des dérivées partielles",
+      "définition de la différentiabilité",
+      "passage en coordonnées polaires",
+      "courbes de niveau"
+    ],
+    "prerequis": [
+      "définition de limite d'une fonction à deux variables",
+      "calcul des dérivées partielles",
+      "notion de continuité",
+      "connaissance des coordonnées polaires"
+    ],
+    "type_exercice": "Problème à étapes",
+    "temps_estime": "60 minutes",
+    "resume": "Cet exercice porte sur l'étude de la continuité, de l'existence des dérivées partielles, de la différentiabilité et de la classe $C^1$ d'une fonction $f(x, y)$ définie par morceaux en $(0, 0)$.\\n\\n1.  Détermination de la courbe de niveau 0 de $f$ en résolvant l'équation $f(x, y) = 0$.\\n2.  Démonstration de la continuité de $f$ en $(0, 0)$ en utilisant les coordonnées polaires et en montrant que $\\lim_{(x,y) \\to (0,0)} f(x, y) = f(0, 0)$.\\n3.  Calcul des dérivées partielles $\\\\frac{\\\\partial f}{\\\\partial x}(0, 0)$ et $\\\\frac{\\\\partial f}{\\\\partial y}(0, 0)$ en utilisant la définition des dérivées partielles.\\n4.  Étude de la différentiabilité de $f$ en $(0, 0)$ en vérifiant si $\\\\lim_{(x, y) \\\\to (0,0)} \\\\frac{f(x,y) - f(0,0) - \\\\frac{\\\\partial f}{\\\\partial x}(0,0)x - \\\\frac{\\\\partial f}{\\\\partial y}(0,0)y}{\\\\sqrt{x^2 + y^2}} = 0$.\\n5.  Déduction de la classe $C^1$ de $f$ en $(0, 0)$ à partir des résultats précédents."
+  }
+}
