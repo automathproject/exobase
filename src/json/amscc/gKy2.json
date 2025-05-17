@@ -1,0 +1,199 @@
+{
+  "uuid": "gKy2",
+  "titre": "Variable aléatoire à densité sinus",
+  "theme": [
+    ""
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Grégoire Menet",
+    "createdAt": "2025-05-05",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "",
+    "updatedAt": "2025-05-17T20:47:01.258Z"
+  },
+  "contenu": [
+    {
+      "id": "4000643c-198c-498c-b0d8-037ee0b7818b",
+      "type": "description",
+      "value": {
+        "latex": "Soit $X$ la variable aléatoire dont la fonction de densité est :\n\t\t$$ f(x) = \\begin{cases} a \\sin(x) & \\text{si } 0 < x < \\frac{\\pi}{2}, \\\\ 0 & \\text{sinon,} \\end{cases} $$\n\t\tavec $a \\in \\mathbb{R}$ une constante.",
+        "html": "<p>Soit <span class=\"math inline\">\\(X\\)</span> la variable aléatoire\ndont la fonction de densité est : <span class=\"math display\">\\[f(x) =\n\\begin{cases} a \\sin(x) &amp; \\text{si } 0 &lt; x &lt; \\frac{\\pi}{2}, \\\\\n0 &amp; \\text{sinon,} \\end{cases}\\]</span> avec <span\nclass=\"math inline\">\\(a \\in \\mathbb{R}\\)</span> une constante.</p>\n"
+      }
+    },
+    {
+      "id": "097199a2-2693-4bf1-a2a4-781aaf6d4947",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $a$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(a\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6a2cbd29-d264-45c2-8030-f0cba0c8f09f",
+      "type": "indication",
+      "value": {
+        "latex": "La fonction de densité doit intégrer à 1 sur $\\mathbb{R}$.",
+        "html": "<p>La fonction de densité doit intégrer à 1 sur <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8224185e-2192-42dc-9b79-72bdfe9602d2",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour que $f$ soit une fonction de densité, son intégrale sur $\\mathbb{R}$ doit être égale à 1.\n\t\t\tOn a :\n\t\t\t$$ \\int_{-\\infty}^{\\infty} f(x) dx = \\int_{0}^{\\pi/2} a \\sin x \\, dx = a [-\\cos x]_0^{\\pi/2} = a (-\\cos(\\pi/2) - (-\\cos(0))) = a (0 - (-1)) = a. $$\n\t\t\tDonc, il faut que $a=1$. La fonction de densité est $f(x) = \\sin x$ pour $x \\in ]0, \\pi/2[$ et $f(x)=0$ sinon.",
+        "html": "<p>Pour que <span class=\"math inline\">\\(f\\)</span> soit une fonction de\ndensité, son intégrale sur <span\nclass=\"math inline\">\\(\\mathbb{R}\\)</span> doit être égale à 1. On a :\n<span class=\"math display\">\\[\\int_{-\\infty}^{\\infty} f(x) dx =\n\\int_{0}^{\\pi/2} a \\sin x \\, dx = a [-\\cos x]_0^{\\pi/2} = a\n(-\\cos(\\pi/2) - (-\\cos(0))) = a (0 - (-1)) = a.\\]</span> Donc, il faut\nque <span class=\"math inline\">\\(a=1\\)</span>. La fonction de densité est\n<span class=\"math inline\">\\(f(x) = \\sin x\\)</span> pour <span\nclass=\"math inline\">\\(x \\in ]0, \\pi/2[\\)</span> et <span\nclass=\"math inline\">\\(f(x)=0\\)</span> sinon.</p>\n"
+      }
+    },
+    {
+      "id": "49db0603-8e23-40e0-889f-0ab9219bd704",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer la fonction de répartition de $X$.",
+        "html": "<p>Déterminer la fonction de répartition de <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "1579814b-5b03-4fe6-bd0f-9146a909300c",
+      "type": "indication",
+      "value": {
+        "latex": "La fonction de répartition $F$ est $x \\mapsto P(X \\le x) = \\int_{-\\infty}^{x} f(t) dt$.",
+        "html": "<p>La fonction de répartition <span class=\"math inline\">\\(F\\)</span> est\n<span class=\"math inline\">\\(x \\mapsto P(X \\le x) = \\int_{-\\infty}^{x}\nf(t) dt\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7339848c-7927-4ab3-9cf5-c7d66b3bec3c",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction de répartition $F$ est définie pour tout réel $x$ par $F(x) = P(X \\le x) = \\int_{-\\infty}^{x} f(t) dt$.\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item Pour $x \\le 0$, $f(t) = 0$ pour $t \\le x$, donc $F(x) = \\int_{-\\infty}^{x} 0 \\, dt = 0$.\n\t\t\t\t\\item Pour $0 < x < \\frac{\\pi}{2}$, on intègre la densité :\n\t\t\t\t$$ F(x) = \\int_{-\\infty}^{x} f(t) dt = \\int_{0}^{x} \\sin t \\, dt = [-\\cos t]_0^x = -\\cos x - (-\\cos 0) = 1 - \\cos x. $$\n\t\t\t\t\\item Pour $x \\ge \\frac{\\pi}{2}$, $F(x) = \\int_{-\\infty}^{x} f(t) dt = \\int_{0}^{\\pi/2} \\sin t \\, dt = [-\\cos t]_0^{\\pi/2} = 1 - \\cos(\\pi/2) = 1$.\n\t\t\t\\end{itemize}\n\t\t\tDonc :\n\t\t\t$$ F(x) = \\begin{cases} 0 & \\text{si } x \\le 0, \\\\ 1 - \\cos x & \\text{si } 0 < x < \\frac{\\pi}{2}, \\\\ 1 & \\text{si } x \\ge \\frac{\\pi}{2}. \\end{cases} $$",
+        "html": "<p>La fonction de répartition <span class=\"math inline\">\\(F\\)</span> est\ndéfinie pour tout réel <span class=\"math inline\">\\(x\\)</span> par <span\nclass=\"math inline\">\\(F(x) = P(X \\le x) = \\int_{-\\infty}^{x} f(t)\ndt\\)</span>.</p>\n<ul>\n<li><p>Pour <span class=\"math inline\">\\(x \\le 0\\)</span>, <span\nclass=\"math inline\">\\(f(t) = 0\\)</span> pour <span\nclass=\"math inline\">\\(t \\le x\\)</span>, donc <span\nclass=\"math inline\">\\(F(x) = \\int_{-\\infty}^{x} 0 \\, dt =\n0\\)</span>.</p></li>\n<li><p>Pour <span class=\"math inline\">\\(0 &lt; x &lt;\n\\frac{\\pi}{2}\\)</span>, on intègre la densité : <span\nclass=\"math display\">\\[F(x) = \\int_{-\\infty}^{x} f(t) dt = \\int_{0}^{x}\n\\sin t \\, dt = [-\\cos t]_0^x = -\\cos x - (-\\cos 0) = 1 - \\cos\nx.\\]</span></p></li>\n<li><p>Pour <span class=\"math inline\">\\(x \\ge \\frac{\\pi}{2}\\)</span>,\n<span class=\"math inline\">\\(F(x) = \\int_{-\\infty}^{x} f(t) dt =\n\\int_{0}^{\\pi/2} \\sin t \\, dt = [-\\cos t]_0^{\\pi/2} = 1 - \\cos(\\pi/2) =\n1\\)</span>.</p></li>\n</ul>\n<p>Donc : <span class=\"math display\">\\[F(x) = \\begin{cases} 0 &amp;\n\\text{si } x \\le 0, \\\\ 1 - \\cos x &amp; \\text{si } 0 &lt; x &lt;\n\\frac{\\pi}{2}, \\\\ 1 &amp; \\text{si } x \\ge \\frac{\\pi}{2}.\n\\end{cases}\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "547bb309-bf8c-46be-878b-7a8454257f39",
+      "type": "question",
+      "value": {
+        "latex": "On considère la variable aléatoire $Z = \\lfloor \\frac{4}{\\pi} X \\rfloor$ (où $\\lfloor \\cdot \\rfloor$ est la fonction partie entière). Déterminer la loi de $Z$.",
+        "html": "<p>On considère la variable aléatoire <span class=\"math inline\">\\(Z =\n\\lfloor \\frac{4}{\\pi} X \\rfloor\\)</span> (où <span\nclass=\"math inline\">\\(\\lfloor \\cdot \\rfloor\\)</span> est la fonction\npartie entière). Déterminer la loi de <span\nclass=\"math inline\">\\(Z\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8ed1f20f-3151-41c7-80b5-c5b42b9098b0",
+      "type": "indication",
+      "value": {
+        "latex": "Déterminer les valeurs possibles pour $Z$ puis calculer la probabilité de chaque valeur.",
+        "html": "<p>Déterminer les valeurs possibles pour <span\nclass=\"math inline\">\\(Z\\)</span> puis calculer la probabilité de chaque\nvaleur.</p>\n"
+      }
+    },
+    {
+      "id": "3939167c-4d9b-4fb1-8ed3-8711a2a12cb6",
+      "type": "reponse",
+      "value": {
+        "latex": "La variable $X$ prend ses valeurs dans $]0, \\pi/2[$.\n\t\t\tDonc, la variable $\\frac{4}{\\pi} X$ prend ses valeurs dans $]0, 2[$.\n\t\t\tLa variable $Z = \\lfloor \\frac{4}{\\pi} X \\rfloor$ peut donc prendre les valeurs $0$ et $1$.\n\t\t\tOn a :\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item $Z=0$ si $0 \\le \\frac{4}{\\pi} X < 1$, c'est-à-dire $0 \\le X < \\frac{\\pi}{4}$.\n\t\t\t\t$$ P(Z=0) = P(0 \\le X < \\pi/4) = F(\\pi/4) - F(0) = (1 - \\cos(\\pi/4)) - 0 = 1 - \\frac{\\sqrt{2}}{2}. $$\n\t\t\t\t(Puisque $X$ est continue, $P(X=0)=0$, donc $P(0 \\le X < \\pi/4) = P(0 < X < \\pi/4) = F(\\pi/4)$).\n\t\t\t\t\\item $Z=1$ si $1 \\le \\frac{4}{\\pi} X < 2$, c'est-à-dire $\\frac{\\pi}{4} \\le X < \\frac{\\pi}{2}$.\n\t\t\t\t$$ P(Z=1) = P(\\pi/4 \\le X < \\pi/2) = F(\\pi/2) - F(\\pi/4) = 1 - (1 - \\cos(\\pi/4)) = \\cos(\\pi/4) = \\frac{\\sqrt{2}}{2}. $$\n\t\t\t\\end{itemize}\n\t\t\tLa loi de $Z$ est une loi de Bernoulli de paramètre $p = P(Z=1) = \\frac{\\sqrt{2}}{2}$.\n\t\t\tOn vérifie que $P(Z=0) + P(Z=1) = (1 - \\frac{\\sqrt{2}}{2}) + \\frac{\\sqrt{2}}{2} = 1$.",
+        "html": "<p>La variable <span class=\"math inline\">\\(X\\)</span> prend ses valeurs\ndans <span class=\"math inline\">\\(]0, \\pi/2[\\)</span>. Donc, la variable\n<span class=\"math inline\">\\(\\frac{4}{\\pi} X\\)</span> prend ses valeurs\ndans <span class=\"math inline\">\\(]0, 2[\\)</span>. La variable <span\nclass=\"math inline\">\\(Z = \\lfloor \\frac{4}{\\pi} X \\rfloor\\)</span> peut\ndonc prendre les valeurs <span class=\"math inline\">\\(0\\)</span> et <span\nclass=\"math inline\">\\(1\\)</span>. On a :</p>\n<ul>\n<li><p><span class=\"math inline\">\\(Z=0\\)</span> si <span\nclass=\"math inline\">\\(0 \\le \\frac{4}{\\pi} X &lt; 1\\)</span>,\nc’est-à-dire <span class=\"math inline\">\\(0 \\le X &lt;\n\\frac{\\pi}{4}\\)</span>. <span class=\"math display\">\\[P(Z=0) = P(0 \\le X\n&lt; \\pi/4) = F(\\pi/4) - F(0) = (1 - \\cos(\\pi/4)) - 0 = 1 -\n\\frac{\\sqrt{2}}{2}.\\]</span> (Puisque <span\nclass=\"math inline\">\\(X\\)</span> est continue, <span\nclass=\"math inline\">\\(P(X=0)=0\\)</span>, donc <span\nclass=\"math inline\">\\(P(0 \\le X &lt; \\pi/4) = P(0 &lt; X &lt; \\pi/4) =\nF(\\pi/4)\\)</span>).</p></li>\n<li><p><span class=\"math inline\">\\(Z=1\\)</span> si <span\nclass=\"math inline\">\\(1 \\le \\frac{4}{\\pi} X &lt; 2\\)</span>,\nc’est-à-dire <span class=\"math inline\">\\(\\frac{\\pi}{4} \\le X &lt;\n\\frac{\\pi}{2}\\)</span>. <span class=\"math display\">\\[P(Z=1) = P(\\pi/4\n\\le X &lt; \\pi/2) = F(\\pi/2) - F(\\pi/4) = 1 - (1 - \\cos(\\pi/4)) =\n\\cos(\\pi/4) = \\frac{\\sqrt{2}}{2}.\\]</span></p></li>\n</ul>\n<p>La loi de <span class=\"math inline\">\\(Z\\)</span> est une loi de\nBernoulli de paramètre <span class=\"math inline\">\\(p = P(Z=1) =\n\\frac{\\sqrt{2}}{2}\\)</span>. On vérifie que <span\nclass=\"math inline\">\\(P(Z=0) + P(Z=1) = (1 - \\frac{\\sqrt{2}}{2}) +\n\\frac{\\sqrt{2}}{2} = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8c06cb25-ec5e-4653-a8e2-6343ee859aa0",
+      "type": "question",
+      "value": {
+        "latex": "Calculer la fonction caractéristique de $X$.",
+        "html": "<p>Calculer la fonction caractéristique de <span\nclass=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5a2b13a0-9d78-483d-9470-045ca8bffe96",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la définition $\\phi_X(t) = E[e^{itX}] = \\int_{-\\infty}^{\\infty} e^{itx} f(x) dx$ et la formule d'Euler pour $\\sin x$.",
+        "html": "<p>Utiliser la définition <span class=\"math inline\">\\(\\phi_X(t) =\nE[e^{itX}] = \\int_{-\\infty}^{\\infty} e^{itx} f(x) dx\\)</span> et la\nformule d’Euler pour <span class=\"math inline\">\\(\\sin x\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ac92cabe-a045-4fe0-a7ea-ff69ee97a5e7",
+      "type": "reponse",
+      "value": {
+        "latex": "On rappelle que la fonction caractéristique de $X$ est définie par :\n\t\t\t$$ \\phi_X(t) = E[e^{itX}] = \\int_{-\\infty}^{\\infty} e^{itx} f(x) dx. $$\n\t\t\tComme $f(x) = \\sin x$ pour $x \\in ]0, \\pi/2[$ et nul ailleurs, on a :\n\t\t\t$$ \\phi_X(t) = \\int_{0}^{\\pi/2} e^{itx} \\sin x \\, dx. $$\n\t\t\tOn utilise la formule d'Euler : $\\sin x = \\frac{e^{ix} - e^{-ix}}{2i}$.\n\t\t\tAlors :\n\t\t\t$$ \\phi_X(t) = \\int_{0}^{\\pi/2} e^{itx} \\frac{e^{ix} - e^{-ix}}{2i} dx = \\frac{1}{2i} \\int_{0}^{\\pi/2} (e^{i(t+1)x} - e^{i(t-1)x}) dx. $$\n\t\t\tSi $t \\ne 1$ et $t \\ne -1$ :\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2i} \\left[ \\frac{e^{i(t+1)x}}{i(t+1)} - \\frac{e^{i(t-1)x}}{i(t-1)} \\right]_0^{\\pi/2} $$\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2i^2} \\left[ \\frac{e^{i(t+1)x}}{t+1} - \\frac{e^{i(t-1)x}}{t-1} \\right]_0^{\\pi/2} $$\n\t\t\t$$ \\phi_X(t) = -\\frac{1}{2} \\left[ \\left( \\frac{e^{i(t+1)\\pi/2}}{t+1} - \\frac{e^{i(t-1)\\pi/2}}{t-1} \\right) - \\left( \\frac{1}{t+1} - \\frac{1}{t-1} \\right) \\right] $$\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2} \\left( \\frac{1 - e^{i(t+1)\\pi/2}}{t+1} - \\frac{1 - e^{i(t-1)\\pi/2}}{t-1} \\right) $$\n\t\t\tOn peut simplifier cette expression : $e^{i(t+1)\\pi/2} = e^{it\\pi/2} e^{i\\pi/2} = i e^{it\\pi/2}$ et $e^{i(t-1)\\pi/2} = e^{it\\pi/2} e^{-i\\pi/2} = -i e^{it\\pi/2}$.\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2} \\left( \\frac{1 - i e^{it\\pi/2}}{t+1} - \\frac{1 + i e^{it\\pi/2}}{t-1} \\right) $$\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2} \\frac{(1 - i e^{it\\pi/2})(t-1) - (1 + i e^{it\\pi/2})(t+1)}{(t+1)(t-1)} $$\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2} \\frac{(t-1 - ite^{it\\pi/2} + ie^{it\\pi/2}) - (t+1 + ite^{it\\pi/2} + ie^{it\\pi/2})}{t^2-1} $$\n\t\t\t$$ \\phi_X(t) = \\frac{1}{2} \\frac{-2 - 2ite^{it\\pi/2}}{t^2-1} = \\frac{-(1 + ite^{it\\pi/2})}{t^2-1} = \\frac{1 + ite^{it\\pi/2}}{1-t^2}. $$\n\t\t\tPour $t=1$, $\\phi_X(1) = \\int_0^{\\pi/2} e^{ix} \\sin x dx = \\frac{1}{2} + \\frac{i\\pi}{4}$.\n\t\t\tPour $t=-1$, $\\phi_X(-1) = \\int_0^{\\pi/2} e^{-ix} \\sin x dx = \\frac{1}{2} - \\frac{i\\pi}{4}$.\n\t\t\tOn peut vérifier que $\\lim_{t \\to \\pm 1} \\frac{1 + ite^{it\\pi/2}}{1-t^2}$ donne bien ces valeurs.",
+        "html": "<p>On rappelle que la fonction caractéristique de <span\nclass=\"math inline\">\\(X\\)</span> est définie par : <span\nclass=\"math display\">\\[\\phi_X(t) = E[e^{itX}] = \\int_{-\\infty}^{\\infty}\ne^{itx} f(x) dx.\\]</span> Comme <span class=\"math inline\">\\(f(x) = \\sin\nx\\)</span> pour <span class=\"math inline\">\\(x \\in ]0, \\pi/2[\\)</span> et\nnul ailleurs, on a : <span class=\"math display\">\\[\\phi_X(t) =\n\\int_{0}^{\\pi/2} e^{itx} \\sin x \\, dx.\\]</span> On utilise la formule\nd’Euler : <span class=\"math inline\">\\(\\sin x = \\frac{e^{ix} -\ne^{-ix}}{2i}\\)</span>. Alors : <span class=\"math display\">\\[\\phi_X(t) =\n\\int_{0}^{\\pi/2} e^{itx} \\frac{e^{ix} - e^{-ix}}{2i} dx = \\frac{1}{2i}\n\\int_{0}^{\\pi/2} (e^{i(t+1)x} - e^{i(t-1)x}) dx.\\]</span> Si <span\nclass=\"math inline\">\\(t \\ne 1\\)</span> et <span class=\"math inline\">\\(t\n\\ne -1\\)</span> : <span class=\"math display\">\\[\\phi_X(t) = \\frac{1}{2i}\n\\left[ \\frac{e^{i(t+1)x}}{i(t+1)} - \\frac{e^{i(t-1)x}}{i(t-1)}\n\\right]_0^{\\pi/2}\\]</span> <span class=\"math display\">\\[\\phi_X(t) =\n\\frac{1}{2i^2} \\left[ \\frac{e^{i(t+1)x}}{t+1} - \\frac{e^{i(t-1)x}}{t-1}\n\\right]_0^{\\pi/2}\\]</span> <span class=\"math display\">\\[\\phi_X(t) =\n-\\frac{1}{2} \\left[ \\left( \\frac{e^{i(t+1)\\pi/2}}{t+1} -\n\\frac{e^{i(t-1)\\pi/2}}{t-1} \\right) - \\left( \\frac{1}{t+1} -\n\\frac{1}{t-1} \\right) \\right]\\]</span> <span\nclass=\"math display\">\\[\\phi_X(t) = \\frac{1}{2} \\left( \\frac{1 -\ne^{i(t+1)\\pi/2}}{t+1} - \\frac{1 - e^{i(t-1)\\pi/2}}{t-1} \\right)\\]</span>\nOn peut simplifier cette expression : <span\nclass=\"math inline\">\\(e^{i(t+1)\\pi/2} = e^{it\\pi/2} e^{i\\pi/2} = i\ne^{it\\pi/2}\\)</span> et <span class=\"math inline\">\\(e^{i(t-1)\\pi/2} =\ne^{it\\pi/2} e^{-i\\pi/2} = -i e^{it\\pi/2}\\)</span>. <span\nclass=\"math display\">\\[\\phi_X(t) = \\frac{1}{2} \\left( \\frac{1 - i\ne^{it\\pi/2}}{t+1} - \\frac{1 + i e^{it\\pi/2}}{t-1} \\right)\\]</span> <span\nclass=\"math display\">\\[\\phi_X(t) = \\frac{1}{2} \\frac{(1 - i\ne^{it\\pi/2})(t-1) - (1 + i e^{it\\pi/2})(t+1)}{(t+1)(t-1)}\\]</span> <span\nclass=\"math display\">\\[\\phi_X(t) = \\frac{1}{2} \\frac{(t-1 -\nite^{it\\pi/2} + ie^{it\\pi/2}) - (t+1 + ite^{it\\pi/2} +\nie^{it\\pi/2})}{t^2-1}\\]</span> <span class=\"math display\">\\[\\phi_X(t) =\n\\frac{1}{2} \\frac{-2 - 2ite^{it\\pi/2}}{t^2-1} = \\frac{-(1 +\nite^{it\\pi/2})}{t^2-1} = \\frac{1 + ite^{it\\pi/2}}{1-t^2}.\\]</span> Pour\n<span class=\"math inline\">\\(t=1\\)</span>, <span\nclass=\"math inline\">\\(\\phi_X(1) = \\int_0^{\\pi/2} e^{ix} \\sin x dx =\n\\frac{1}{2} + \\frac{i\\pi}{4}\\)</span>. Pour <span\nclass=\"math inline\">\\(t=-1\\)</span>, <span\nclass=\"math inline\">\\(\\phi_X(-1) = \\int_0^{\\pi/2} e^{-ix} \\sin x dx =\n\\frac{1}{2} - \\frac{i\\pi}{4}\\)</span>. On peut vérifier que <span\nclass=\"math inline\">\\(\\lim_{t \\to \\pm 1} \\frac{1 +\nite^{it\\pi/2}}{1-t^2}\\)</span> donne bien ces valeurs.</p>\n"
+      }
+    },
+    {
+      "id": "803d321c-7762-46d5-b8ca-9ba0ac695bd6",
+      "type": "question",
+      "value": {
+        "latex": "Calculer l'espérance de $X$.",
+        "html": "<p>Calculer l’espérance de <span class=\"math inline\">\\(X\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8cbafa32-58da-4679-9209-69d7716a2443",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la définition $E[X] = \\int_{-\\infty}^{\\infty} x f(x) dx$ et une intégration par parties.",
+        "html": "<p>Utiliser la définition <span class=\"math inline\">\\(E[X] =\n\\int_{-\\infty}^{\\infty} x f(x) dx\\)</span> et une intégration par\nparties.</p>\n"
+      }
+    },
+    {
+      "id": "af4bd941-fad9-478f-af29-386a5d55e5f7",
+      "type": "reponse",
+      "value": {
+        "latex": "$$ \\E[X] = \\int_{-\\infty}^{\\infty} x f(x) dx = \\int_{0}^{\\pi/2} x \\sin x \\, dx. $$\n\t\t\tOn utilise une intégration par parties avec $u(x)=x$ et $v'(x)=\\sin x$. Alors $u'(x)=1$ et $v(x)=-\\cos x$.\n\t\t\t$$\\begin{align*} \\E[X] &= [-x \\cos x]_0^{\\pi/2} - \\int_{0}^{\\pi/2} 1 \\cdot (-\\cos x) \\, dx \\\\\n\t\t\t& = (0 - 0) + [\\sin x]_0^{\\pi/2} = \\sin(\\pi/2) - \\sin(0) = 1 - 0 = 1.\n\t\t\t\\end{align*}$$\n\t\t\tL'espérance de $X$ est $\\E[X]=1$.",
+        "html": "<p><span class=\"math display\">\\[\\E[X] = \\int_{-\\infty}^{\\infty} x f(x)\ndx = \\int_{0}^{\\pi/2} x \\sin x \\, dx.\\]</span> On utilise une\nintégration par parties avec <span class=\"math inline\">\\(u(x)=x\\)</span>\net <span class=\"math inline\">\\(v&#39;(x)=\\sin x\\)</span>. Alors <span\nclass=\"math inline\">\\(u&#39;(x)=1\\)</span> et <span\nclass=\"math inline\">\\(v(x)=-\\cos x\\)</span>. <span\nclass=\"math display\">\\[\\begin{align*} \\E[X] &amp;= [-x \\cos x]_0^{\\pi/2}\n- \\int_{0}^{\\pi/2} 1 \\cdot (-\\cos x) \\, dx \\\\\n            &amp; = (0 - 0) + [\\sin x]_0^{\\pi/2} = \\sin(\\pi/2) - \\sin(0)\n= 1 - 0 = 1.\n            \\end{align*}\\]</span> L’espérance de <span\nclass=\"math inline\">\\(X\\)</span> est <span\nclass=\"math inline\">\\(\\E[X]=1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d86ad99d-2d7c-46b3-8f0b-ac8f6ebfc9fa",
+      "type": "question",
+      "value": {
+        "latex": "On considère la variable aléatoire $Y = \\cos(X)$. Déterminer la loi de $Y$.",
+        "html": "<p>On considère la variable aléatoire <span class=\"math inline\">\\(Y =\n\\cos(X)\\)</span>. Déterminer la loi de <span\nclass=\"math inline\">\\(Y\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "8928d5a4-3611-43ee-aca7-8d358cf57d37",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la méthode de la fonction de répartition ou la méthode du théorème de transfert.",
+        "html": "<p>Utiliser la méthode de la fonction de répartition ou la méthode du\nthéorème de transfert.</p>\n"
+      }
+    },
+    {
+      "id": "3c66f4d3-7ce3-4ff6-ab51-45194463491d",
+      "type": "reponse",
+      "value": {
+        "latex": "Méthode 1 : Fonction de répartition.\n\t\t\t$X$ prend ses valeurs dans $]0, \\pi/2[$. Comme la fonction $\\cos$ est strictement décroissante sur cet intervalle, $Y = \\cos(X)$ prend ses valeurs dans $]\\cos(\\pi/2), \\cos(0)[ = ]0, 1[$.\n\t\t\tSoit $y \\in ]0, 1[$. La fonction de répartition de $Y$ est $F_Y(y) = P(Y \\le y) = P(\\cos(X) \\le y)$.\n\t\t\tPuisque $\\cos$ est décroissante sur $]0, \\pi/2[$ et $y \\in ]0, 1[$, l'inégalité $\\cos(X) \\le y$ est équivalente à $X \\ge \\arccos(y)$. Notez que $\\arccos(y) \\in ]0, \\pi/2[$.\n\t\t\t$$ F_Y(y) = P(X \\ge \\arccos(y)) = \\int_{\\arccos(y)}^{\\pi/2} f(x) dx = \\int_{\\arccos(y)}^{\\pi/2} \\sin x dx $$\n\t\t\t$$ F_Y(y) = [-\\cos x]_{\\arccos(y)}^{\\pi/2} = -\\cos(\\pi/2) - (-\\cos(\\arccos(y))) = 0 - (-y) = y. $$\n\t\t\tPour $y \\le 0$, $F_Y(y) = 0$. Pour $y \\ge 1$, $F_Y(y) = 1$.\n\t\t\tLa fonction de répartition est donc :\n\t\t\t$$ F_Y(y) = \\begin{cases} 0 & \\text{si } y \\le 0, \\\\ y & \\text{si } 0 < y < 1, \\\\ 1 & \\text{si } y \\ge 1. \\end{cases} $$\n\t\t\tC'est la fonction de répartition de la loi uniforme sur $[0, 1]$. Donc $Y \\sim U(0, 1)$.\n\t\t\t\n\t\t\tMéthode 2 : Théorème de transfert (comme dans l'image fournie).\n\t\t\tSoit $\\varphi$ une fonction continue bornée sur $[0, 1]$.\n\t\t\t$$ \\E[\\varphi(Y)] = \\E[\\varphi(\\cos X)] = \\int_{-\\infty}^{\\infty} \\varphi(\\cos x) f(x) dx = \\int_{0}^{\\pi/2} \\varphi(\\cos x) \\sin x dx. $$\n\t\t\tOn effectue le changement de variable $y = \\cos x$. Alors $dy = -\\sin x dx$.\n\t\t\tQuand $x=0$, $y=\\cos 0 = 1$. Quand $x=\\pi/2$, $y=\\cos(\\pi/2) = 0$.\n\t\t\t$$ \\E[\\varphi(Y)] = \\int_{1}^{0} \\varphi(y) (-dy) = \\int_{0}^{1} \\varphi(y) dy. $$\n\t\t\tCeci est l'espérance de $\\varphi(Y)$ pour une variable $Y$ de densité $f_Y(y) = 1$ sur $]0, 1[$ (et 0 ailleurs).\n\t\t\tPar le théorème d'identification (ou théorème de transfert), cela montre que $Y$ suit la loi uniforme $U(0, 1)$.",
+        "html": "<p>Méthode 1 : Fonction de répartition. <span\nclass=\"math inline\">\\(X\\)</span> prend ses valeurs dans <span\nclass=\"math inline\">\\(]0, \\pi/2[\\)</span>. Comme la fonction <span\nclass=\"math inline\">\\(\\cos\\)</span> est strictement décroissante sur cet\nintervalle, <span class=\"math inline\">\\(Y = \\cos(X)\\)</span> prend ses\nvaleurs dans <span class=\"math inline\">\\(]\\cos(\\pi/2), \\cos(0)[ = ]0,\n1[\\)</span>. Soit <span class=\"math inline\">\\(y \\in ]0, 1[\\)</span>. La\nfonction de répartition de <span class=\"math inline\">\\(Y\\)</span> est\n<span class=\"math inline\">\\(F_Y(y) = P(Y \\le y) = P(\\cos(X) \\le\ny)\\)</span>. Puisque <span class=\"math inline\">\\(\\cos\\)</span> est\ndécroissante sur <span class=\"math inline\">\\(]0, \\pi/2[\\)</span> et\n<span class=\"math inline\">\\(y \\in ]0, 1[\\)</span>, l’inégalité <span\nclass=\"math inline\">\\(\\cos(X) \\le y\\)</span> est équivalente à <span\nclass=\"math inline\">\\(X \\ge \\arccos(y)\\)</span>. Notez que <span\nclass=\"math inline\">\\(\\arccos(y) \\in ]0, \\pi/2[\\)</span>. <span\nclass=\"math display\">\\[F_Y(y) = P(X \\ge \\arccos(y)) =\n\\int_{\\arccos(y)}^{\\pi/2} f(x) dx = \\int_{\\arccos(y)}^{\\pi/2} \\sin x\ndx\\]</span> <span class=\"math display\">\\[F_Y(y) = [-\\cos\nx]_{\\arccos(y)}^{\\pi/2} = -\\cos(\\pi/2) - (-\\cos(\\arccos(y))) = 0 - (-y)\n= y.\\]</span> Pour <span class=\"math inline\">\\(y \\le 0\\)</span>, <span\nclass=\"math inline\">\\(F_Y(y) = 0\\)</span>. Pour <span\nclass=\"math inline\">\\(y \\ge 1\\)</span>, <span\nclass=\"math inline\">\\(F_Y(y) = 1\\)</span>. La fonction de répartition\nest donc : <span class=\"math display\">\\[F_Y(y) = \\begin{cases} 0 &amp;\n\\text{si } y \\le 0, \\\\ y &amp; \\text{si } 0 &lt; y &lt; 1, \\\\ 1 &amp;\n\\text{si } y \\ge 1. \\end{cases}\\]</span> C’est la fonction de\nrépartition de la loi uniforme sur <span class=\"math inline\">\\([0,\n1]\\)</span>. Donc <span class=\"math inline\">\\(Y \\sim U(0,\n1)\\)</span>.</p>\n<p>Méthode 2 : Théorème de transfert (comme dans l’image fournie). Soit\n<span class=\"math inline\">\\(\\varphi\\)</span> une fonction continue\nbornée sur <span class=\"math inline\">\\([0, 1]\\)</span>. <span\nclass=\"math display\">\\[\\E[\\varphi(Y)] = \\E[\\varphi(\\cos X)] =\n\\int_{-\\infty}^{\\infty} \\varphi(\\cos x) f(x) dx = \\int_{0}^{\\pi/2}\n\\varphi(\\cos x) \\sin x dx.\\]</span> On effectue le changement de\nvariable <span class=\"math inline\">\\(y = \\cos x\\)</span>. Alors <span\nclass=\"math inline\">\\(dy = -\\sin x dx\\)</span>. Quand <span\nclass=\"math inline\">\\(x=0\\)</span>, <span class=\"math inline\">\\(y=\\cos 0\n= 1\\)</span>. Quand <span class=\"math inline\">\\(x=\\pi/2\\)</span>, <span\nclass=\"math inline\">\\(y=\\cos(\\pi/2) = 0\\)</span>. <span\nclass=\"math display\">\\[\\E[\\varphi(Y)] = \\int_{1}^{0} \\varphi(y) (-dy) =\n\\int_{0}^{1} \\varphi(y) dy.\\]</span> Ceci est l’espérance de <span\nclass=\"math inline\">\\(\\varphi(Y)\\)</span> pour une variable <span\nclass=\"math inline\">\\(Y\\)</span> de densité <span\nclass=\"math inline\">\\(f_Y(y) = 1\\)</span> sur <span\nclass=\"math inline\">\\(]0, 1[\\)</span> (et 0 ailleurs). Par le théorème\nd’identification (ou théorème de transfert), cela montre que <span\nclass=\"math inline\">\\(Y\\)</span> suit la loi uniforme <span\nclass=\"math inline\">\\(U(0, 1)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "61d556dd-e515-4b98-9bc7-665782e10574",
+      "type": "question",
+      "value": {
+        "latex": "Notre ordinateur permet de simuler un variable aléatoire de loi uniforme sur $[0, 1]$ grâce à la fonction \\texttt{rand()}. On voudrait simuler la loi de $X$. Comment faudrait-il faire ?",
+        "html": "<p>Notre ordinateur permet de simuler un variable aléatoire de loi\nuniforme sur <span class=\"math inline\">\\([0, 1]\\)</span> grâce à la\nfonction <code>rand()</code>. On voudrait simuler la loi de <span\nclass=\"math inline\">\\(X\\)</span>. Comment faudrait-il faire ?</p>\n"
+      }
+    },
+    {
+      "id": "67fca623-0ad8-4d68-9da8-0a4f09a6962a",
+      "type": "indication",
+      "value": {
+        "latex": "Utiliser la méthode de la transformée inverse.",
+        "html": "<p>Utiliser la méthode de la transformée inverse.</p>\n"
+      }
+    },
+    {
+      "id": "45423c2b-0439-4847-9d27-55cb8ef70b77",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour simuler $X$, on utilise directement le résultat que $\\cos(X)$ suit une loi $U(0, 1)$. On pourrait retrouver le même résultat avec le théorème d'inversion de la fonction de répartition. \n\t\t\t\\begin{enumerate}\n\t\t\t\t\\item Générer une valeur $u$ à partir de la loi uniforme $U(0, 1)$ (en utilisant \\texttt{rand()}).\n\t\t\t\t\\item Calculer $x = \\arccos(1 - u)$.\n\t\t\t\\end{enumerate}\n\t\t\tLa valeur $x$ ainsi obtenue est une réalisation de la variable aléatoire $X$.\n\t\t\tAlternativement, puisque si $U \\sim U(0, 1)$, alors $1-U \\sim U(0, 1)$, on peut aussi calculer $x = \\arccos(u)$ où $u$ est générée par \\texttt{rand()}.",
+        "html": "<p>Pour simuler <span class=\"math inline\">\\(X\\)</span>, on utilise\ndirectement le résultat que <span class=\"math inline\">\\(\\cos(X)\\)</span>\nsuit une loi <span class=\"math inline\">\\(U(0, 1)\\)</span>. On pourrait\nretrouver le même résultat avec le théorème d’inversion de la fonction\nde répartition.</p>\n<ol>\n<li><p>Générer une valeur <span class=\"math inline\">\\(u\\)</span> à\npartir de la loi uniforme <span class=\"math inline\">\\(U(0, 1)\\)</span>\n(en utilisant <code>rand()</code>).</p></li>\n<li><p>Calculer <span class=\"math inline\">\\(x = \\arccos(1 -\nu)\\)</span>.</p></li>\n</ol>\n<p>La valeur <span class=\"math inline\">\\(x\\)</span> ainsi obtenue est\nune réalisation de la variable aléatoire <span\nclass=\"math inline\">\\(X\\)</span>. Alternativement, puisque si <span\nclass=\"math inline\">\\(U \\sim U(0, 1)\\)</span>, alors <span\nclass=\"math inline\">\\(1-U \\sim U(0, 1)\\)</span>, on peut aussi calculer\n<span class=\"math inline\">\\(x = \\arccos(u)\\)</span> où <span\nclass=\"math inline\">\\(u\\)</span> est générée par\n<code>rand()</code>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(X\\)</span> la variable aléatoire\ndont la fonction de densité est : <span class=\"math display\"> ..."
+}

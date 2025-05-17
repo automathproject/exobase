@@ -1,0 +1,95 @@
+{
+  "uuid": "kw9E",
+  "titre": "Etude d'une série positive",
+  "theme": [
+    "séries"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Quentin Liard",
+    "createdAt": "2025-05-05",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-05-17T20:47:01.814Z"
+  },
+  "contenu": [
+    {
+      "id": "d82beeb3-3940-4a3a-a484-332aa6a8c659",
+      "type": "description",
+      "value": {
+        "latex": "Pour tout $n \\in \\N^*$, on pose : $$u_n = \\sin\\left(\\frac{1}{n}\\right) - \\ln\\left(1+\\frac{1}{n}\\right)$$",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, on pose :\n<span class=\"math display\">\\[u_n = \\sin\\left(\\frac{1}{n}\\right) -\n\\ln\\left(1+\\frac{1}{n}\\right)\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "b8c172a7-c6f4-40d3-9214-861a1dd1363f",
+      "type": "question",
+      "value": {
+        "latex": "Calculer $\\lim\\limits_{n \\to +\\infty} u_n$.",
+        "html": "<p>Calculer <span class=\"math inline\">\\(\\lim\\limits_{n \\to +\\infty}\nu_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5de3d74e-1bb3-449e-809b-c553bdd2c729",
+      "type": "reponse",
+      "value": {
+        "latex": "Lorsque $n \\to +\\infty$, $\\frac{1}{n} \\to 0$.\n\t\tOn sait que $\\lim\\limits_{x \\to 0} \\sin(x) = \\sin(0) = 0$ et $\\lim\\limits_{x \\to 0} \\ln(1+x) = \\ln(1) = 0$.\n\t\tDonc, $\\lim\\limits_{n \\to +\\infty} \\sin\\left(\\frac{1}{n}\\right) = 0$ et $\\lim\\limits_{n \\to +\\infty} \\ln\\left(1+\\frac{1}{n}\\right) = 0$.\n\t\tPar conséquent, $\\lim\\limits_{n \\to +\\infty} u_n = 0 - 0 = 0$.",
+        "html": "<p>Lorsque <span class=\"math inline\">\\(n \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(\\frac{1}{n} \\to 0\\)</span>. On sait que <span\nclass=\"math inline\">\\(\\lim\\limits_{x \\to 0} \\sin(x) = \\sin(0) =\n0\\)</span> et <span class=\"math inline\">\\(\\lim\\limits_{x \\to 0} \\ln(1+x)\n= \\ln(1) = 0\\)</span>. Donc, <span class=\"math inline\">\\(\\lim\\limits_{n\n\\to +\\infty} \\sin\\left(\\frac{1}{n}\\right) = 0\\)</span> et <span\nclass=\"math inline\">\\(\\lim\\limits_{n \\to +\\infty}\n\\ln\\left(1+\\frac{1}{n}\\right) = 0\\)</span>. Par conséquent, <span\nclass=\"math inline\">\\(\\lim\\limits_{n \\to +\\infty} u_n = 0 - 0 =\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "92c6a4d5-89b4-4376-90a1-03ed1f238ab1",
+      "type": "question",
+      "value": {
+        "latex": "Donner le développement limité de $\\ln(1+x)$ à l'ordre $2$ quand $x \\to 0$.",
+        "html": "<p>Donner le développement limité de <span\nclass=\"math inline\">\\(\\ln(1+x)\\)</span> à l’ordre <span\nclass=\"math inline\">\\(2\\)</span> quand <span class=\"math inline\">\\(x \\to\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "6eef2fad-2437-4aac-9b0f-e306ca0138eb",
+      "type": "reponse",
+      "value": {
+        "latex": "Le développement limité de $\\ln(1+x)$ à l'ordre $2$ au voisinage de $x=0$ est donné par la formule de Taylor-Young :\n\t\t$\\ln(1+x) = x - \\frac{x^2}{2} + o(x^2)$.",
+        "html": "<p>Le développement limité de <span\nclass=\"math inline\">\\(\\ln(1+x)\\)</span> à l’ordre <span\nclass=\"math inline\">\\(2\\)</span> au voisinage de <span\nclass=\"math inline\">\\(x=0\\)</span> est donné par la formule de\nTaylor-Young : <span class=\"math inline\">\\(\\ln(1+x) = x - \\frac{x^2}{2}\n+ o(x^2)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "51f8fbe9-506a-4b16-bf29-20af8dd32453",
+      "type": "question",
+      "value": {
+        "latex": "En déduire le développement limité à l'ordre 2 de $u_n$ lorsque $n \\to +\\infty$ et en déduire qu'à partir d'un certain rang, $u_n \\geq 0$.",
+        "html": "<p>En déduire le développement limité à l’ordre 2 de <span\nclass=\"math inline\">\\(u_n\\)</span> lorsque <span class=\"math inline\">\\(n\n\\to +\\infty\\)</span> et en déduire qu’à partir d’un certain rang, <span\nclass=\"math inline\">\\(u_n \\geq 0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c4d7927e-e8c3-4031-9065-244a8b19ad6d",
+      "type": "reponse",
+      "value": {
+        "latex": "Posons $x = \\frac{1}{n}$. Lorsque $n \\to +\\infty$, $x \\to 0$.\n\tOn utilise les développements limités de $\\sin(x)$ et $\\ln(1+x)$ à l'ordre 2 en $x$ au voisinage de $0$.\n\t\n\t$\\sin(x) = x - \\frac{x^3}{6} + o(x^3)$. Pour un DL à l'ordre 2 en $x$, on écrit : $\\sin(x) = x + o(x^2)$ (car $x^3/6$ est un $o(x^2)$).\n\t\n\tDe la question précédente, $\\ln(1+x) = x - \\frac{x^2}{2} + o(x^2)$.\n\t\n\tEn remplaçant $x$ par $\\frac{1}{n}$ :\n\t$\\sin\\left(\\frac{1}{n}\\right) = \\frac{1}{n} + o\\left(\\frac{1}{n^2}\\right)$ et \n\t$\\ln\\left(1+\\frac{1}{n}\\right) = \\frac{1}{n} - \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right)$.\n\t\n\tAlors, $$\\begin{align*}u_n &= \\sin\\left(\\frac{1}{n}\\right) - \\ln\\left(1+\\frac{1}{n}\\right)\\\\\n\t\t &= \\left(\\frac{1}{n} + o\\left(\\frac{1}{n^2}\\right)\\right) - \\left(\\frac{1}{n} - \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right)\\right) \\\\\n\t     &= \\frac{1}{n} - \\frac{1}{n} + \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right) - o\\left(\\frac{1}{n^2}\\right) \\\\\n\t&= \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right).\n\t\\end{align*}$$\n\tCeci est le développement limité de $u_n$ à l'ordre 2 lorsque $n \\to +\\infty$.\n\t\n\tPour $n \\to +\\infty$, $u_n \\sim \\frac{1}{2n^2}$.\n\tComme $\\frac{1}{2n^2} > 0$ pour tout $n \\in \\N^*$, on en déduit que $u_n$ est du signe de son équivalent lorsque $n$ est suffisamment grand.\n\tAinsi, à partir d'un certain rang $N_0$, pour tout $n \\geq N_0$, $u_n > 0$ (donc $u_n \\geq 0$).",
+        "html": "<p>Posons <span class=\"math inline\">\\(x = \\frac{1}{n}\\)</span>. Lorsque\n<span class=\"math inline\">\\(n \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(x \\to 0\\)</span>. On utilise les développements\nlimités de <span class=\"math inline\">\\(\\sin(x)\\)</span> et <span\nclass=\"math inline\">\\(\\ln(1+x)\\)</span> à l’ordre 2 en <span\nclass=\"math inline\">\\(x\\)</span> au voisinage de <span\nclass=\"math inline\">\\(0\\)</span>.</p>\n<p><span class=\"math inline\">\\(\\sin(x) = x - \\frac{x^3}{6} +\no(x^3)\\)</span>. Pour un DL à l’ordre 2 en <span\nclass=\"math inline\">\\(x\\)</span>, on écrit : <span\nclass=\"math inline\">\\(\\sin(x) = x + o(x^2)\\)</span> (car <span\nclass=\"math inline\">\\(x^3/6\\)</span> est un <span\nclass=\"math inline\">\\(o(x^2)\\)</span>).</p>\n<p>De la question précédente, <span class=\"math inline\">\\(\\ln(1+x) = x -\n\\frac{x^2}{2} + o(x^2)\\)</span>.</p>\n<p>En remplaçant <span class=\"math inline\">\\(x\\)</span> par <span\nclass=\"math inline\">\\(\\frac{1}{n}\\)</span> : <span\nclass=\"math inline\">\\(\\sin\\left(\\frac{1}{n}\\right) = \\frac{1}{n} +\no\\left(\\frac{1}{n^2}\\right)\\)</span> et <span\nclass=\"math inline\">\\(\\ln\\left(1+\\frac{1}{n}\\right) = \\frac{1}{n} -\n\\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right)\\)</span>.</p>\n<p>Alors, <span class=\"math display\">\\[\\begin{align*}u_n &amp;=\n\\sin\\left(\\frac{1}{n}\\right) - \\ln\\left(1+\\frac{1}{n}\\right)\\\\\n         &amp;= \\left(\\frac{1}{n} + o\\left(\\frac{1}{n^2}\\right)\\right) -\n\\left(\\frac{1}{n} - \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right)\\right)\n\\\\\n         &amp;= \\frac{1}{n} - \\frac{1}{n} + \\frac{1}{2n^2} +\no\\left(\\frac{1}{n^2}\\right) - o\\left(\\frac{1}{n^2}\\right) \\\\\n    &amp;= \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right).\n    \\end{align*}\\]</span> Ceci est le développement limité de <span\nclass=\"math inline\">\\(u_n\\)</span> à l’ordre 2 lorsque <span\nclass=\"math inline\">\\(n \\to +\\infty\\)</span>.</p>\n<p>Pour <span class=\"math inline\">\\(n \\to +\\infty\\)</span>, <span\nclass=\"math inline\">\\(u_n \\sim \\frac{1}{2n^2}\\)</span>. Comme <span\nclass=\"math inline\">\\(\\frac{1}{2n^2} &gt; 0\\)</span> pour tout <span\nclass=\"math inline\">\\(n \\in \\N^*\\)</span>, on en déduit que <span\nclass=\"math inline\">\\(u_n\\)</span> est du signe de son équivalent\nlorsque <span class=\"math inline\">\\(n\\)</span> est suffisamment grand.\nAinsi, à partir d’un certain rang <span\nclass=\"math inline\">\\(N_0\\)</span>, pour tout <span\nclass=\"math inline\">\\(n \\geq N_0\\)</span>, <span\nclass=\"math inline\">\\(u_n &gt; 0\\)</span> (donc <span\nclass=\"math inline\">\\(u_n \\geq 0\\)</span>).</p>\n"
+      }
+    },
+    {
+      "id": "948ea21d-c8a8-4b8b-9f64-11171da9c7b5",
+      "type": "question",
+      "value": {
+        "latex": "La série  $\\displaystyle \\sum_{n \\geq 1} u_n$ est-elle convergente ?",
+        "html": "<p>La série <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1}\nu_n\\)</span> est-elle convergente ?</p>\n"
+      }
+    },
+    {
+      "id": "e6c65134-cca0-464d-8792-c2560c5c844e",
+      "type": "reponse",
+      "value": {
+        "latex": "D'après la question précédente, nous avons $u_n = \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right)$.\n\t\tCela implique que $u_n \\sim \\frac{1}{2n^2}$ lorsque $n \\to +\\infty$.\n\t\t\n\t\tDe plus, nous avons montré qu'à partir d'un certain rang, $u_n > 0$. La série $\\sum u_n$ est donc une série à termes positifs à partir d'un certain rang.\n\t\t\n\t\tConsidérons la série $\\displaystyle \\sum_{n \\geq 1} \\frac{1}{2n^2} = \\frac{1}{2} \\sum_{n \\geq 1} \\frac{1}{n^2}$.\n\t\tIl s'agit d'une série de Riemann convergente.\n\t\t\n\t\tPar conséquent, la série $\\displaystyle \\sum_{n \\geq 1} \\frac{1}{2n^2}$ converge également.\n\t\t\n\t\tPar le critère d'équivalence pour les séries à termes positifs, puisque $u_n \\sim \\frac{1}{2n^2}$ et que $\\displaystyle \\sum_{n \\geq 1} \\frac{1}{2n^2}$ converge, on en conclut que la série $\\displaystyle \\sum_{n \\geq 1} u_n$ est convergente.",
+        "html": "<p>D’après la question précédente, nous avons <span\nclass=\"math inline\">\\(u_n = \\frac{1}{2n^2} +\no\\left(\\frac{1}{n^2}\\right)\\)</span>. Cela implique que <span\nclass=\"math inline\">\\(u_n \\sim \\frac{1}{2n^2}\\)</span> lorsque <span\nclass=\"math inline\">\\(n \\to +\\infty\\)</span>.</p>\n<p>De plus, nous avons montré qu’à partir d’un certain rang, <span\nclass=\"math inline\">\\(u_n &gt; 0\\)</span>. La série <span\nclass=\"math inline\">\\(\\sum u_n\\)</span> est donc une série à termes\npositifs à partir d’un certain rang.</p>\n<p>Considérons la série <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n \\geq 1} \\frac{1}{2n^2} = \\frac{1}{2} \\sum_{n \\geq 1}\n\\frac{1}{n^2}\\)</span>. Il s’agit d’une série de Riemann\nconvergente.</p>\n<p>Par conséquent, la série <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n \\geq 1} \\frac{1}{2n^2}\\)</span> converge également.</p>\n<p>Par le critère d’équivalence pour les séries à termes positifs,\npuisque <span class=\"math inline\">\\(u_n \\sim \\frac{1}{2n^2}\\)</span> et\nque <span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1}\n\\frac{1}{2n^2}\\)</span> converge, on en conclut que la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1} u_n\\)</span> est\nconvergente.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Pour tout <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, on pose :\n<span class=\"math display\"> ..."
+}

@@ -1,0 +1,71 @@
+{
+  "uuid": "T3aW",
+  "titre": "Séries : vrai ou faux",
+  "theme": [
+    "séries"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Quentin Liard",
+    "createdAt": "2025-05-05",
+    "hasIndication": false,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-05-17T20:46:59.488Z"
+  },
+  "contenu": [
+    {
+      "id": "abd77d34-7bc7-4916-943c-f5dd62561a99",
+      "type": "description",
+      "value": {
+        "latex": "Vrai ou Faux ? Justifier.",
+        "html": "<p>Vrai ou Faux ? Justifier.</p>\n"
+      }
+    },
+    {
+      "id": "e701ba7f-5d1d-48db-b6f0-f113c5ec6526",
+      "type": "question",
+      "value": {
+        "latex": "Si pour tout $n \\in \\N^*$, $u_n = \\frac{4}{5^n}$ alors la série $\\displaystyle \\sum_{n \\geq 1} u_n$ converge et sa somme vaut $\\displaystyle \\sum_{n = 1}^{+\\infty} u_n = 5$.",
+        "html": "<p>Si pour tout <span class=\"math inline\">\\(n \\in \\N^*\\)</span>, <span\nclass=\"math inline\">\\(u_n = \\frac{4}{5^n}\\)</span> alors la série <span\nclass=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1} u_n\\)</span>\nconverge et sa somme vaut <span class=\"math inline\">\\(\\displaystyle\n\\sum_{n = 1}^{+\\infty} u_n = 5\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ad0c638d-c8ca-4439-b596-c2a5ce7ee61b",
+      "type": "reponse",
+      "value": {
+        "latex": "FAUX. Il s'agit d'une série géométrique de raison $q=\\frac{1}{5}$ convergente, en revanche sa somme vaut $\\displaystyle \\sum_{n = 1}^{+\\infty} u_n = \\sum_{n = 0}^{+\\infty} u_n - u_0 = 5 - 4 = 1$.",
+        "html": "<p>FAUX. Il s’agit d’une série géométrique de raison <span\nclass=\"math inline\">\\(q=\\frac{1}{5}\\)</span> convergente, en revanche sa\nsomme vaut <span class=\"math inline\">\\(\\displaystyle \\sum_{n =\n1}^{+\\infty} u_n = \\sum_{n = 0}^{+\\infty} u_n - u_0 = 5 - 4 =\n1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b4dfa43a-2645-4f91-a486-380040df461c",
+      "type": "question",
+      "value": {
+        "latex": "Soit $(u_n)$ une suite strictement positive telle que $u_n = \\frac{1}{n} + \\underset{+\\infty}{o}\\left(\\frac{1}{n}\\right)$ alors la série $\\displaystyle \\sum_{n \\geq 1} u_n$ diverge.",
+        "html": "<p>Soit <span class=\"math inline\">\\((u_n)\\)</span> une suite strictement\npositive telle que <span class=\"math inline\">\\(u_n = \\frac{1}{n} +\n\\underset{+\\infty}{o}\\left(\\frac{1}{n}\\right)\\)</span> alors la série\n<span class=\"math inline\">\\(\\displaystyle \\sum_{n \\geq 1} u_n\\)</span>\ndiverge.</p>\n"
+      }
+    },
+    {
+      "id": "7d0d2229-fcb8-401a-9201-1eefaa6f8745",
+      "type": "indication",
+      "value": {
+        "latex": "",
+        "html": "\n"
+      }
+    },
+    {
+      "id": "3e569385-caad-4ee1-b7ad-d51cf9fe3ee3",
+      "type": "reponse",
+      "value": {
+        "latex": "VRAI. Le terme général $u_n$ est positif et équivalent $\\frac{1}{n}$ quand $n \\to +\\infty$. Par comparaison à une série de Riemann divergente, la série $\\sum u_n$ diverge.",
+        "html": "<p>VRAI. Le terme général <span class=\"math inline\">\\(u_n\\)</span> est\npositif et équivalent <span class=\"math inline\">\\(\\frac{1}{n}\\)</span>\nquand <span class=\"math inline\">\\(n \\to +\\infty\\)</span>. Par\ncomparaison à une série de Riemann divergente, la série <span\nclass=\"math inline\">\\(\\sum u_n\\)</span> diverge.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Vrai ou Faux ? Justifier.</p>\n"
+}

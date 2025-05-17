@@ -11,12 +11,12 @@
     "auteur": "",
     "createdAt": "2024-06-17",
     "hasIndication": false,
-    "hasCorrection": false,
+    "hasCorrection": true,
     "youtube": "",
     "chapitre": "Série entière",
     "sousChapitre": "Equations différentielles",
     "organisation": "AMSCC",
-    "updatedAt": "2025-04-04T19:03:12.244Z",
+    "updatedAt": "2025-05-17T20:47:00.858Z",
     "resume": "L'exercice porte sur la résolution d'une équation différentielle du premier ordre. Il s'agit de: \n\n1. Déterminer les coefficients $a_n$ d'une solution exprimée sous forme de série entière $f(x)=\\sum_{n=0}^{\\infty}a_n x^{n}$, et de calculer son rayon de convergence, en utilisant l'équation différentielle $\\alpha y'-(1+x)y=0$ et la condition initiale $f(0)=1$.\n\n2. Résoudre directement l'équation différentielle $\\alpha y'-(1+x)y=0$ avec la condition initiale $f(0)=1$, afin d'obtenir une expression alternative de la solution $f$.",
     "competences": [
       "résoudre une équation différentielle linéaire du premier ordre",
@@ -54,7 +54,15 @@
   },
   "contenu": [
     {
-      "id": "de02252a-3669-45ac-aa7f-add91693302b",
+      "id": "1f4a009c-c967-44c1-8963-fda92b98aedb",
+      "type": "description",
+      "value": {
+        "latex": "Soit l'équation différentielle $(E)$ définie pour $\\alpha>0$ par :\n\t$$\n\t(1+x)y'-\\alpha\\,y=0.\n\t$$\n\t\n\tOn note $f$ la solution de cette équation différentielle vérifiant la condition initiale $f(0) = 1$.",
+        "html": "<p>Soit l’équation différentielle <span\nclass=\"math inline\">\\((E)\\)</span> définie pour <span\nclass=\"math inline\">\\(\\alpha&gt;0\\)</span> par : <span\nclass=\"math display\">\\[(1+x)y&#39;-\\alpha\\,y=0.\\]</span></p>\n<p>On note <span class=\"math inline\">\\(f\\)</span> la solution de cette\néquation différentielle vérifiant la condition initiale <span\nclass=\"math inline\">\\(f(0) = 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "e8a66c43-3e98-4c68-8407-36351b226d50",
       "type": "question",
       "value": {
         "latex": "On suppose que $f$ s'écrit sous la forme d'une série entière $f(x)=\\displaystyle\\sum_{n=0}^{\\infty}a_n\\,x^{n}$. Déterminer les coefficients $(a_n)$ pour $n$ entier et déterminer le rayon de convergence de $f$.",
@@ -62,13 +70,29 @@
       }
     },
     {
-      "id": "d8295818-89fa-433f-a1f4-4c9ce435a466",
+      "id": "94d09c3d-13dc-4845-90ee-3937bdf778a4",
+      "type": "reponse",
+      "value": {
+        "latex": "On pose $f(x)=\\displaystyle\\sum_{n=0}^{\\infty}a_n\\,x^{n}$. Alors $f'(x)=\\displaystyle\\sum_{n=1}^{\\infty}n a_n\\,x^{n-1}$.\n\t\tL'équation différentielle $(1+x)y'-\\alpha\\,y=0$ devient :\n\t\t$$ (1+x)\\sum_{n=1}^{\\infty}n a_n\\,x^{n-1} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} = 0 $$\n\t\t$$ \\sum_{n=1}^{\\infty}n a_n\\,x^{n-1} + \\sum_{n=1}^{\\infty}n a_n\\,x^{n} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} = 0 $$\n\t\tOn effectue un changement d'indice pour le premier terme. Soit $k=n-1$, donc $n=k+1$. Quand $n=1$, $k=0$.\n\t\t$$ \\sum_{k=0}^{\\infty}(k+1) a_{k+1}\\,x^{k} + \\sum_{n=1}^{\\infty}n a_n\\,x^{n} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} = 0 $$\n\t\tOn peut faire commencer la deuxième somme à $n=0$ car le terme pour $n=0$ est $0 \\cdot a_0 \\cdot x^0 = 0$.\n\t\tEn remplaçant $k$ par $n$ dans la première somme :\n\t\t$$ \\sum_{n=0}^{\\infty}(n+1) a_{n+1}\\,x^{n} + \\sum_{n=0}^{\\infty}n a_n\\,x^{n} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} = 0 $$\n\t\t$$ \\sum_{n=0}^{\\infty} \\left[ (n+1) a_{n+1} + n a_n - \\alpha a_n \\right] x^{n} = 0 $$\n\t\tPar unicité des coefficients d'une série entière, on a pour tout $n \\ge 0$ :\n\t\t$$ (n+1) a_{n+1} + (n-\\alpha) a_n = 0 $$\n\t\t$$ a_{n+1} = -\\frac{n-\\alpha}{n+1} a_n = \\frac{\\alpha-n}{n+1} a_n $$\n\t\tLa condition initiale $f(0)=1$ donne $a_0 = 1$ (car $f(0) = \\sum a_n 0^n = a_0$).\n\t\tCalculons les premiers termes :\n\t\t$a_0 = 1$\n\t\t$a_1 = \\frac{\\alpha-0}{1} a_0 = \\alpha$\n\t\t$a_2 = \\frac{\\alpha-1}{2} a_1 = \\frac{\\alpha(\\alpha-1)}{2}$\n\t\t$a_3 = \\frac{\\alpha-2}{3} a_2 = \\frac{\\alpha(\\alpha-1)(\\alpha-2)}{3 \\cdot 2 \\cdot 1}$\n\t\tPar récurrence, on montre que $a_n = \\frac{\\alpha(\\alpha-1)\\dots(\\alpha-n+1)}{n!}$.\n\t\tCeci est la définition du coefficient binomial généralisé $\\binom{\\alpha}{n}$.\n\t\tDonc, $a_n = \\binom{\\alpha}{n}$.\n\t\tLa solution est $f(x) = \\displaystyle\\sum_{n=0}^{\\infty} \\binom{\\alpha}{n} x^n$.\n\t\t\n\t\tPour déterminer le rayon de convergence $R$, on utilise la règle de d'Alembert :\n\t\t$$ \\lim_{n\\to\\infty} \\left| \\frac{a_{n+1}}{a_n} \\right| = \\lim_{n\\to\\infty} \\left| \\frac{\\alpha-n}{n+1} \\right| = \\lim_{n\\to\\infty} \\left| \\frac{-n(1-\\alpha/n)}{n(1+1/n)} \\right| = \\lim_{n\\to\\infty} \\left| \\frac{-(1-\\alpha/n)}{1+1/n} \\right| = |-1| = 1. $$\n\t\tLe rayon de convergence est $R = \\frac{1}{1} = 1$.\n\t\tLa série converge pour $|x|<1$.",
+        "html": "<p>On pose <span\nclass=\"math inline\">\\(f(x)=\\displaystyle\\sum_{n=0}^{\\infty}a_n\\,x^{n}\\)</span>.\nAlors <span\nclass=\"math inline\">\\(f&#39;(x)=\\displaystyle\\sum_{n=1}^{\\infty}n\na_n\\,x^{n-1}\\)</span>. L’équation différentielle <span\nclass=\"math inline\">\\((1+x)y&#39;-\\alpha\\,y=0\\)</span> devient : <span\nclass=\"math display\">\\[(1+x)\\sum_{n=1}^{\\infty}n a_n\\,x^{n-1} - \\alpha\n\\sum_{n=0}^{\\infty}a_n\\,x^{n} = 0\\]</span> <span\nclass=\"math display\">\\[\\sum_{n=1}^{\\infty}n a_n\\,x^{n-1} +\n\\sum_{n=1}^{\\infty}n a_n\\,x^{n} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} =\n0\\]</span> On effectue un changement d’indice pour le premier terme.\nSoit <span class=\"math inline\">\\(k=n-1\\)</span>, donc <span\nclass=\"math inline\">\\(n=k+1\\)</span>. Quand <span\nclass=\"math inline\">\\(n=1\\)</span>, <span\nclass=\"math inline\">\\(k=0\\)</span>. <span\nclass=\"math display\">\\[\\sum_{k=0}^{\\infty}(k+1) a_{k+1}\\,x^{k} +\n\\sum_{n=1}^{\\infty}n a_n\\,x^{n} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} =\n0\\]</span> On peut faire commencer la deuxième somme à <span\nclass=\"math inline\">\\(n=0\\)</span> car le terme pour <span\nclass=\"math inline\">\\(n=0\\)</span> est <span class=\"math inline\">\\(0\n\\cdot a_0 \\cdot x^0 = 0\\)</span>. En remplaçant <span\nclass=\"math inline\">\\(k\\)</span> par <span\nclass=\"math inline\">\\(n\\)</span> dans la première somme : <span\nclass=\"math display\">\\[\\sum_{n=0}^{\\infty}(n+1) a_{n+1}\\,x^{n} +\n\\sum_{n=0}^{\\infty}n a_n\\,x^{n} - \\alpha \\sum_{n=0}^{\\infty}a_n\\,x^{n} =\n0\\]</span> <span class=\"math display\">\\[\\sum_{n=0}^{\\infty} \\left[ (n+1)\na_{n+1} + n a_n - \\alpha a_n \\right] x^{n} = 0\\]</span> Par unicité des\ncoefficients d’une série entière, on a pour tout <span\nclass=\"math inline\">\\(n \\ge 0\\)</span> : <span\nclass=\"math display\">\\[(n+1) a_{n+1} + (n-\\alpha) a_n = 0\\]</span> <span\nclass=\"math display\">\\[a_{n+1} = -\\frac{n-\\alpha}{n+1} a_n =\n\\frac{\\alpha-n}{n+1} a_n\\]</span> La condition initiale <span\nclass=\"math inline\">\\(f(0)=1\\)</span> donne <span\nclass=\"math inline\">\\(a_0 = 1\\)</span> (car <span\nclass=\"math inline\">\\(f(0) = \\sum a_n 0^n = a_0\\)</span>). Calculons les\npremiers termes : <span class=\"math inline\">\\(a_0 = 1\\)</span> <span\nclass=\"math inline\">\\(a_1 = \\frac{\\alpha-0}{1} a_0 = \\alpha\\)</span>\n<span class=\"math inline\">\\(a_2 = \\frac{\\alpha-1}{2} a_1 =\n\\frac{\\alpha(\\alpha-1)}{2}\\)</span> <span class=\"math inline\">\\(a_3 =\n\\frac{\\alpha-2}{3} a_2 = \\frac{\\alpha(\\alpha-1)(\\alpha-2)}{3 \\cdot 2\n\\cdot 1}\\)</span> Par récurrence, on montre que <span\nclass=\"math inline\">\\(a_n =\n\\frac{\\alpha(\\alpha-1)\\dots(\\alpha-n+1)}{n!}\\)</span>. Ceci est la\ndéfinition du coefficient binomial généralisé <span\nclass=\"math inline\">\\(\\binom{\\alpha}{n}\\)</span>. Donc, <span\nclass=\"math inline\">\\(a_n = \\binom{\\alpha}{n}\\)</span>. La solution est\n<span class=\"math inline\">\\(f(x) = \\displaystyle\\sum_{n=0}^{\\infty}\n\\binom{\\alpha}{n} x^n\\)</span>.</p>\n<p>Pour déterminer le rayon de convergence <span\nclass=\"math inline\">\\(R\\)</span>, on utilise la règle de d’Alembert :\n<span class=\"math display\">\\[\\lim_{n\\to\\infty} \\left|\n\\frac{a_{n+1}}{a_n} \\right| = \\lim_{n\\to\\infty} \\left|\n\\frac{\\alpha-n}{n+1} \\right| = \\lim_{n\\to\\infty} \\left|\n\\frac{-n(1-\\alpha/n)}{n(1+1/n)} \\right| = \\lim_{n\\to\\infty} \\left|\n\\frac{-(1-\\alpha/n)}{1+1/n} \\right| = |-1| = 1.\\]</span> Le rayon de\nconvergence est <span class=\"math inline\">\\(R = \\frac{1}{1} =\n1\\)</span>. La série converge pour <span\nclass=\"math inline\">\\(|x|&lt;1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "047e5ccf-4e4f-4b3a-b77e-52e4742f9e29",
       "type": "question",
       "value": {
         "latex": "Donner une expression alternative de $f,$ solution de $(E)$, en résolvant directement l'équation différentielle avec la condition initiale $f(0)=1$.",
         "html": "<p>Donner une expression alternative de <span\nclass=\"math inline\">\\(f,\\)</span> solution de <span\nclass=\"math inline\">\\((E)\\)</span>, en résolvant directement l’équation\ndifférentielle avec la condition initiale <span\nclass=\"math inline\">\\(f(0)=1\\)</span>.</p>\n"
       }
+    },
+    {
+      "id": "fc146f7e-d480-4fa6-8c89-f7f904774cb6",
+      "type": "reponse",
+      "value": {
+        "latex": "L'équation différentielle est $(1+x)y' - \\alpha y = 0$. C'est une équation différentielle linéaire du premier ordre à variables séparables.\n\t\tPour $x \\neq -1$ et $y \\neq 0$:\n\t\t$$ (1+x)\\frac{dy}{dx} = \\alpha y $$\n\t\t$$ \\frac{dy}{y} = \\frac{\\alpha}{1+x} dx $$\n\t\tOn intègre les deux membres :\n\t\t$$ \\int \\frac{1}{y} dy = \\int \\frac{\\alpha}{1+x} dx $$\n\t\t$$ \\ln|y| = \\alpha \\ln|1+x| + C_1 $$\n\t\toù $C_1$ est une constante d'intégration.\n\t\t$$ \\ln|y| = \\ln|(1+x)^\\alpha| + C_1 $$\n\t\t$$ |y| = e^{C_1} |(1+x)^\\alpha| $$\n\t\tSoit $C = \\pm e^{C_1}$. On peut inclure la solution $y=0$ en autorisant $C=0$.\n\t\tLa solution générale est $y(x) = C(1+x)^\\alpha$.\n\t\t\n\t\tOn utilise la condition initiale $f(0)=1$.\n\t\t$f(0) = C(1+0)^\\alpha = C \\cdot 1^\\alpha = C$.\n\t\tDonc $C=1$.\n\t\tL'expression alternative de la solution $f$ est $f(x) = (1+x)^\\alpha$.\n\t\t\n\t\tOn remarque que la série entière trouvée à la question 1, $f(x) = \\displaystyle\\sum_{n=0}^{\\infty} \\binom{\\alpha}{n} x^n$, est le développement en série entière de $(1+x)^\\alpha$, ce qui est cohérent.",
+        "html": "<p>L’équation différentielle est <span class=\"math inline\">\\((1+x)y&#39;\n- \\alpha y = 0\\)</span>. C’est une équation différentielle linéaire du\npremier ordre à variables séparables. Pour <span class=\"math inline\">\\(x\n\\neq -1\\)</span> et <span class=\"math inline\">\\(y \\neq 0\\)</span>: <span\nclass=\"math display\">\\[(1+x)\\frac{dy}{dx} = \\alpha y\\]</span> <span\nclass=\"math display\">\\[\\frac{dy}{y} = \\frac{\\alpha}{1+x} dx\\]</span> On\nintègre les deux membres : <span class=\"math display\">\\[\\int \\frac{1}{y}\ndy = \\int \\frac{\\alpha}{1+x} dx\\]</span> <span\nclass=\"math display\">\\[\\ln|y| = \\alpha \\ln|1+x| + C_1\\]</span> où <span\nclass=\"math inline\">\\(C_1\\)</span> est une constante d’intégration.\n<span class=\"math display\">\\[\\ln|y| = \\ln|(1+x)^\\alpha| + C_1\\]</span>\n<span class=\"math display\">\\[|y| = e^{C_1} |(1+x)^\\alpha|\\]</span> Soit\n<span class=\"math inline\">\\(C = \\pm e^{C_1}\\)</span>. On peut inclure la\nsolution <span class=\"math inline\">\\(y=0\\)</span> en autorisant <span\nclass=\"math inline\">\\(C=0\\)</span>. La solution générale est <span\nclass=\"math inline\">\\(y(x) = C(1+x)^\\alpha\\)</span>.</p>\n<p>On utilise la condition initiale <span\nclass=\"math inline\">\\(f(0)=1\\)</span>. <span class=\"math inline\">\\(f(0)\n= C(1+0)^\\alpha = C \\cdot 1^\\alpha = C\\)</span>. Donc <span\nclass=\"math inline\">\\(C=1\\)</span>. L’expression alternative de la\nsolution <span class=\"math inline\">\\(f\\)</span> est <span\nclass=\"math inline\">\\(f(x) = (1+x)^\\alpha\\)</span>.</p>\n<p>On remarque que la série entière trouvée à la question 1, <span\nclass=\"math inline\">\\(f(x) = \\displaystyle\\sum_{n=0}^{\\infty}\n\\binom{\\alpha}{n} x^n\\)</span>, est le développement en série entière de\n<span class=\"math inline\">\\((1+x)^\\alpha\\)</span>, ce qui est\ncohérent.</p>\n"
+      }
     }
   ],
-  "preview": "<p>On suppose que <span class=\"math inline\">\\(f\\)</span> s’écrit sous la\nforme d’une série entière <span\nclass=\"math inline\"> ..."
+  "preview": "<p>Soit l’équation différentielle <span\nclass=\"math inline\">\\((E)\\)</span> définie pour <span\nclass=\"math inline\">\\(\\alpha&gt;0\\)</span> par : <span\nc ..."
 }

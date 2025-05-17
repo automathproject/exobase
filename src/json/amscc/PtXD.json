@@ -1,0 +1,153 @@
+{
+  "uuid": "PtXD",
+  "titre": "Étude d'une suite récurrente et de son équivalent",
+  "theme": [
+    "Suites numériques",
+    "Séries numériques",
+    "Équivalents"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Adapté de Quercia/Exo7",
+    "createdAt": "2023-10-27",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-05-17T20:46:59.363Z"
+  },
+  "contenu": [
+    {
+      "id": "f8151e5b-cf8c-499d-8260-314abbc47c14",
+      "type": "description",
+      "value": {
+        "latex": "Soit $a$ un réel strictement positif et $u_1$ un réel strictement positif.\n\t\tOn définit la suite $(u_n)_{n \\ge 1}$ par la relation de récurrence :\n\t\t$$u_{n+1} = u_n + \\frac{1}{n^a u_n}$$\n\nOn admet que $u_n$ existe et que $u_n>0$ pour tout $n \\in \\N^*$.",
+        "html": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel strictement\npositif et <span class=\"math inline\">\\(u_1\\)</span> un réel strictement\npositif. On définit la suite <span class=\"math inline\">\\((u_n)_{n \\ge\n1}\\)</span> par la relation de récurrence : <span\nclass=\"math display\">\\[u_{n+1} = u_n + \\frac{1}{n^a u_n}\\]</span></p>\n<p>On admet que <span class=\"math inline\">\\(u_n\\)</span> existe et que\n<span class=\"math inline\">\\(u_n&gt;0\\)</span> pour tout <span\nclass=\"math inline\">\\(n \\in \\N^*\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "5179c11d-040a-4d02-bbae-e19bdc652376",
+      "type": "question",
+      "value": {
+        "latex": "Étudier la monotonie de la suite $(u_n)$.",
+        "html": "<p>Étudier la monotonie de la suite <span\nclass=\"math inline\">\\((u_n)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "3017bbce-75f3-4b46-a2b2-3fc5e099a5e7",
+      "type": "indication",
+      "value": {
+        "latex": "Calculer la différence $u_{n+1} - u_n$.",
+        "html": "<p>Calculer la différence <span class=\"math inline\">\\(u_{n+1} -\nu_n\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "b8eabaa8-24de-441d-8e11-3b2095a0e099",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour tout $n \\ge 1$, $u_{n+1} - u_n = \\frac{1}{n^a u_n}$. Comme $n \\ge 1$, $a > 0$ et $u_n > 0$ (d'après Q1), on a $\\frac{1}{n^a u_n} > 0$. Donc $u_{n+1} - u_n > 0$, ce qui signifie que la suite $(u_n)$ est strictement croissante.",
+        "html": "<p>Pour tout <span class=\"math inline\">\\(n \\ge 1\\)</span>, <span\nclass=\"math inline\">\\(u_{n+1} - u_n = \\frac{1}{n^a u_n}\\)</span>. Comme\n<span class=\"math inline\">\\(n \\ge 1\\)</span>, <span\nclass=\"math inline\">\\(a &gt; 0\\)</span> et <span\nclass=\"math inline\">\\(u_n &gt; 0\\)</span> (d’après Q1), on a <span\nclass=\"math inline\">\\(\\frac{1}{n^a u_n} &gt; 0\\)</span>. Donc <span\nclass=\"math inline\">\\(u_{n+1} - u_n &gt; 0\\)</span>, ce qui signifie que\nla suite <span class=\"math inline\">\\((u_n)\\)</span> est strictement\ncroissante.</p>\n"
+      }
+    },
+    {
+      "id": "24fb9ea1-5a5d-40ba-9469-d37ada731863",
+      "type": "question",
+      "value": {
+        "latex": "Montrer que si la suite $(u_n)$ est majorée, il existe $\\ell >0$ tel que $\\lim\\limits_{n \\to +\\infty} u_n = \\ell$. \n\t\t\t\n\t\t\tSi la suite  $(u_n)$ n'est pas majorée, on admet qu'alors $\\lim\\limits_{n \\to +\\infty} u_n = +\\infty$.",
+        "html": "<p>Montrer que si la suite <span class=\"math inline\">\\((u_n)\\)</span>\nest majorée, il existe <span class=\"math inline\">\\(\\ell &gt;0\\)</span>\ntel que <span class=\"math inline\">\\(\\lim\\limits_{n \\to +\\infty} u_n =\n\\ell\\)</span>.</p>\n<p>Si la suite <span class=\"math inline\">\\((u_n)\\)</span> n’est pas\nmajorée, on admet qu’alors <span class=\"math inline\">\\(\\lim\\limits_{n\n\\to +\\infty} u_n = +\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "4bb669c5-e9f4-492e-99a6-6aa905347b6b",
+      "type": "reponse",
+      "value": {
+        "latex": "La suite $(u_n)$ est croissante (d'après Q2). Si la suite $(u_n)$ est majorée alors par théorème elle converge. Sinon, $\\lim_{n \\to \\infty} = +\\infty$.",
+        "html": "<p>La suite <span class=\"math inline\">\\((u_n)\\)</span> est croissante\n(d’après Q2). Si la suite <span class=\"math inline\">\\((u_n)\\)</span> est\nmajorée alors par théorème elle converge. Sinon, <span\nclass=\"math inline\">\\(\\lim_{n \\to \\infty} = +\\infty\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "f14a40df-bcc4-45a1-a842-a28d34b24449",
+      "type": "question",
+      "value": {
+        "latex": "On considère la série $\\displaystyle\\sum_{k \\geq 1} (u_{k+1} - u_k)$. Pour tout $N \\in \\N^*$, simplifier sa somme partielle : $$S_N = \\sum_{k=1}^{N}  (u_{k+1} - u_k).$$",
+        "html": "<p>On considère la série <span\nclass=\"math inline\">\\(\\displaystyle\\sum_{k \\geq 1} (u_{k+1} -\nu_k)\\)</span>. Pour tout <span class=\"math inline\">\\(N \\in\n\\N^*\\)</span>, simplifier sa somme partielle : <span\nclass=\"math display\">\\[S_N = \\sum_{k=1}^{N}  (u_{k+1} -\nu_k).\\]</span></p>\n"
+      }
+    },
+    {
+      "id": "1115edc1-71d7-4213-9dfc-e4a8f2ba9e62",
+      "type": "indication",
+      "value": {
+        "latex": "Il s'agit d'une série télescopique.",
+        "html": "<p>Il s’agit d’une série télescopique.</p>\n"
+      }
+    },
+    {
+      "id": "cc76114d-0547-4580-b4b2-554f0022a07c",
+      "type": "reponse",
+      "value": {
+        "latex": "Considérons la somme partielle de la série : $S_N = \\sum_{k=1}^{N} (u_{k+1} - u_k)$. Par télescopage, $S_N = (u_2 - u_1) + (u_3 - u_2) + \\dots + (u_{N+1} - u_N) = u_{N+1} - u_1$.",
+        "html": "<p>Considérons la somme partielle de la série : <span\nclass=\"math inline\">\\(S_N = \\sum_{k=1}^{N} (u_{k+1} - u_k)\\)</span>. Par\ntélescopage, <span class=\"math inline\">\\(S_N = (u_2 - u_1) + (u_3 - u_2)\n+ \\dots + (u_{N+1} - u_N) = u_{N+1} - u_1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "7a1af029-85f2-45a0-bdca-9a2699d18c65",
+      "type": "question",
+      "value": {
+        "latex": "En déduire que la suite $(u_n)$ converge vers une limite finie $\\ell$ si et seulement si la série $\\displaystyle \\sum_{k \\geq 1} (u_{k+1} - u_k)$ converge.",
+        "html": "<p>En déduire que la suite <span class=\"math inline\">\\((u_n)\\)</span>\nconverge vers une limite finie <span class=\"math inline\">\\(\\ell\\)</span>\nsi et seulement si la série <span class=\"math inline\">\\(\\displaystyle\n\\sum_{k \\geq 1} (u_{k+1} - u_k)\\)</span> converge.</p>\n"
+      }
+    },
+    {
+      "id": "33dc5811-64e0-4e27-88ce-84f1a2a580db",
+      "type": "indication",
+      "value": {
+        "latex": "Exprimer la somme partielle de la série $\\sum (u_{k+1} - u_k)$ en utilisant la définition de $u_{n+1}$. Il s'agit d'une série télescopique.",
+        "html": "<p>Exprimer la somme partielle de la série <span\nclass=\"math inline\">\\(\\sum (u_{k+1} - u_k)\\)</span> en utilisant la\ndéfinition de <span class=\"math inline\">\\(u_{n+1}\\)</span>. Il s’agit\nd’une série télescopique.</p>\n"
+      }
+    },
+    {
+      "id": "8193bb09-63c9-47ca-9a88-f9546689d11f",
+      "type": "reponse",
+      "value": {
+        "latex": "La série $\\sum (u_{n+1} - u_n)$ converge si et seulement si la suite de ses sommes partielles $(S_N)$ converge. Or, $\\lim_{N \\to \\infty} S_N = \\lim_{N \\to \\infty} (u_{N+1} - u_1)$. Cette limite existe et est finie si et seulement si $\\lim_{N \\to \\infty} u_{N+1}$ existe et est finie. Donc, la série converge si et seulement si la suite $(u_n)$ converge vers une limite finie $\\ell$.",
+        "html": "<p>La série <span class=\"math inline\">\\(\\sum (u_{n+1} - u_n)\\)</span>\nconverge si et seulement si la suite de ses sommes partielles <span\nclass=\"math inline\">\\((S_N)\\)</span> converge. Or, <span\nclass=\"math inline\">\\(\\lim_{N \\to \\infty} S_N = \\lim_{N \\to \\infty}\n(u_{N+1} - u_1)\\)</span>. Cette limite existe et est finie si et\nseulement si <span class=\"math inline\">\\(\\lim_{N \\to \\infty}\nu_{N+1}\\)</span> existe et est finie. Donc, la série converge si et\nseulement si la suite <span class=\"math inline\">\\((u_n)\\)</span>\nconverge vers une limite finie <span\nclass=\"math inline\">\\(\\ell\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ae556ef0-8824-4373-8abd-387e955dcf9c",
+      "type": "description",
+      "value": {
+        "latex": "On suppose que $(u_n)$ converge vers une limite finie $\\ell > 0$.",
+        "html": "<p>On suppose que <span class=\"math inline\">\\((u_n)\\)</span> converge\nvers une limite finie <span class=\"math inline\">\\(\\ell &gt;\n0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ef43ff56-74cd-4199-9ec4-e9b3ca2ad196",
+      "type": "question",
+      "value": {
+        "latex": "Déterminer un équivalent de $u_{n+1} - u_n$ lorsque $n \\to +\\infty$. En déduire les valeurs possibles de $a$ pour lesquelles la série $\\sum (u_{n+1} - u_n)$ convergente.",
+        "html": "<p>Déterminer un équivalent de <span class=\"math inline\">\\(u_{n+1} -\nu_n\\)</span> lorsque <span class=\"math inline\">\\(n \\to +\\infty\\)</span>.\nEn déduire les valeurs possibles de <span\nclass=\"math inline\">\\(a\\)</span> pour lesquelles la série <span\nclass=\"math inline\">\\(\\sum (u_{n+1} - u_n)\\)</span> convergente.</p>\n"
+      }
+    },
+    {
+      "id": "279cc66f-7a10-462b-bc75-b76a1ef83947",
+      "type": "indication",
+      "value": {
+        "latex": "Si $u_n \\to \\ell$ finie, utiliser cet équivalent dans l'expression $u_{n+1} - u_n = \\frac{1}{n^a u_n}$. Comparer à une série de Riemann.",
+        "html": "<p>Si <span class=\"math inline\">\\(u_n \\to \\ell\\)</span> finie, utiliser\ncet équivalent dans l’expression <span class=\"math inline\">\\(u_{n+1} -\nu_n = \\frac{1}{n^a u_n}\\)</span>. Comparer à une série de Riemann.</p>\n"
+      }
+    },
+    {
+      "id": "13f97a43-34bc-4318-931a-6c7621ae613a",
+      "type": "reponse",
+      "value": {
+        "latex": "Si $u_n \\to \\ell$ avec $\\ell \\in ]0, +\\infty[$, alors $u_n \\sim \\ell$ lorsque $n \\to +\\infty$. Par conséquent, $u_{n+1} - u_n = \\frac{1}{n^a u_n} \\sim \\frac{1}{n^a \\ell} = \\frac{1}{\\ell} \\frac{1}{n^a}$.\n\t\t\tLa série $\\sum (u_{n+1} - u_n)$ a la même nature que la série $\\sum \\frac{1}{\\ell n^a}$. Comme $\\ell > 0$, cette série a la même nature que la série de Riemann $\\sum \\frac{1}{n^a}$.\n\t\t\tD'après le critère de Riemann, $\\sum \\frac{1}{n^a}$ converge si et seulement si $a > 1$.\n\t\t\tDonc, si $(u_n)$ converge vers $\\ell$ finie, alors la série $\\sum (u_{n+1} - u_n)$ converge, ce qui implique $a > 1$.",
+        "html": "<p>Si <span class=\"math inline\">\\(u_n \\to \\ell\\)</span> avec <span\nclass=\"math inline\">\\(\\ell \\in ]0, +\\infty[\\)</span>, alors <span\nclass=\"math inline\">\\(u_n \\sim \\ell\\)</span> lorsque <span\nclass=\"math inline\">\\(n \\to +\\infty\\)</span>. Par conséquent, <span\nclass=\"math inline\">\\(u_{n+1} - u_n = \\frac{1}{n^a u_n} \\sim\n\\frac{1}{n^a \\ell} = \\frac{1}{\\ell} \\frac{1}{n^a}\\)</span>. La série\n<span class=\"math inline\">\\(\\sum (u_{n+1} - u_n)\\)</span> a la même\nnature que la série <span class=\"math inline\">\\(\\sum \\frac{1}{\\ell\nn^a}\\)</span>. Comme <span class=\"math inline\">\\(\\ell &gt; 0\\)</span>,\ncette série a la même nature que la série de Riemann <span\nclass=\"math inline\">\\(\\sum \\frac{1}{n^a}\\)</span>. D’après le critère de\nRiemann, <span class=\"math inline\">\\(\\sum \\frac{1}{n^a}\\)</span>\nconverge si et seulement si <span class=\"math inline\">\\(a &gt;\n1\\)</span>. Donc, si <span class=\"math inline\">\\((u_n)\\)</span> converge\nvers <span class=\"math inline\">\\(\\ell\\)</span> finie, alors la série\n<span class=\"math inline\">\\(\\sum (u_{n+1} - u_n)\\)</span> converge, ce\nqui implique <span class=\"math inline\">\\(a &gt; 1\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit <span class=\"math inline\">\\(a\\)</span> un réel strictement\npositif et <span class=\"math inline\">\\(u_1\\)</span> un réel strictement\npositif. On ..."
+}

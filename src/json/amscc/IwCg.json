@@ -1,0 +1,136 @@
+{
+  "uuid": "IwCg",
+  "titre": "Une fonction \"créneau\" simple et sa parité",
+  "theme": [
+    "Séries de Fourier",
+    "Coefficients de Fourier"
+  ],
+  "niveau": "",
+  "metadata": {
+    "exo7id": "",
+    "auteur": "Maxime Nguyen",
+    "createdAt": "2025-05-09",
+    "hasIndication": true,
+    "hasCorrection": true,
+    "youtube": "",
+    "chapitre": "",
+    "sousChapitre": "",
+    "organisation": "AMSCC",
+    "updatedAt": "2025-05-17T20:46:59.071Z"
+  },
+  "contenu": [
+    {
+      "id": "fbb77c63-294c-4704-be9b-68b340b694c3",
+      "type": "description",
+      "value": {
+        "latex": "Soit la fonction $g(x)$ définie sur $\\mathbb{R}$, $2\\pi$-périodique, telle que pour $x \\in [-\\pi, \\pi]$ :\n\t\t$$ g(x) = \\begin{cases} 1 & \\text{si } x \\in [-\\pi/2, \\pi/2] \\\\ 0 & \\text{si } x \\in ]-\\pi, -\\pi/2[ \\cup ]\\pi/2, \\pi[ \\end{cases} $$\n\t\tL'objectif de cet exercice est de calculer les coefficients de Fourier pour cette fonction paire simple et d'interpréter le coefficient $a_0$.",
+        "html": "<p>Soit la fonction <span class=\"math inline\">\\(g(x)\\)</span> définie\nsur <span class=\"math inline\">\\(\\mathbb{R}\\)</span>, <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique, telle que pour <span\nclass=\"math inline\">\\(x \\in [-\\pi, \\pi]\\)</span> : <span\nclass=\"math display\">\\[g(x) = \\begin{cases} 1 &amp; \\text{si } x \\in\n[-\\pi/2, \\pi/2] \\\\ 0 &amp; \\text{si } x \\in ]-\\pi, -\\pi/2[ \\cup ]\\pi/2,\n\\pi[ \\end{cases}\\]</span> L’objectif de cet exercice est de calculer les\ncoefficients de Fourier pour cette fonction paire simple et\nd’interpréter le coefficient <span\nclass=\"math inline\">\\(a_0\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "cdf1f194-0dc3-40ff-b360-34f6aa97874e",
+      "type": "question",
+      "value": {
+        "latex": "Tracer le graphe de $g(x)$ sur l'intervalle $[-2\\pi, 2\\pi]$.",
+        "html": "<p>Tracer le graphe de <span class=\"math inline\">\\(g(x)\\)</span> sur\nl’intervalle <span class=\"math inline\">\\([-2\\pi, 2\\pi]\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "d2cd2a2a-a770-4251-8d45-822e6b7840a2",
+      "type": "indication",
+      "value": {
+        "latex": "Commencez par tracer la fonction sur $[-\\pi, \\pi]$ puis utilisez la $2\\pi$-périodicité pour l'étendre.",
+        "html": "<p>Commencez par tracer la fonction sur <span\nclass=\"math inline\">\\([-\\pi, \\pi]\\)</span> puis utilisez la <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodicité pour l’étendre.</p>\n"
+      }
+    },
+    {
+      "id": "e5e0c85e-4b14-4060-add4-15485b2a496e",
+      "type": "reponse",
+      "value": {
+        "latex": "La fonction $g(x)$ vaut $1$ sur l'intervalle $[-\\pi/2, \\pi/2]$. Elle vaut $0$ sur les intervalles $]-\\pi, -\\pi/2[$ et $]\\pi/2, \\pi[$.\n\t\t\tPar $2\\pi$-périodicité ($g(x+2k\\pi)=g(x)$ pour $k \\in \\mathbb{Z}$):\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item Sur $[-2\\pi, -3\\pi/2]$: $x \\in [-2\\pi, -3\\pi/2] \\implies x+2\\pi \\in [0, \\pi/2]$. Sur cet intervalle, $g(x+2\\pi)=1$, donc $g(x)=1$.\n\t\t\t\t\\item Sur $]-3\\pi/2, -\\pi/2[$: $x \\in ]-3\\pi/2, -\\pi] \\implies x+2\\pi \\in ]\\pi/2, \\pi]$. Sur cet intervalle, $g(x+2\\pi)=0$. Et pour $x \\in ]-\\pi, -\\pi/2[$, $g(x)=0$ par définition. Donc $g(x)=0$ sur $]-3\\pi/2, -\\pi/2[$.\n\t\t\t\t\\item Sur $[-\\pi/2, \\pi/2]$: $g(x)=1$ par définition.\n\t\t\t\t\\item Sur $]\\pi/2, 3\\pi/2[$: $x \\in ]\\pi/2, \\pi] \\implies g(x)=0$ par définition. Et pour $x \\in ]\\pi, 3\\pi/2[ \\implies x-2\\pi \\in ]-\\pi, -\\pi/2[$. Sur cet intervalle, $g(x-2\\pi)=0$. Donc $g(x)=0$ sur $]\\pi/2, 3\\pi/2[$.\n\t\t\t\t\\item Sur $[3\\pi/2, 2\\pi]$: $x \\in [3\\pi/2, 2\\pi] \\implies x-2\\pi \\in [-\\pi/2, 0]$. Sur cet intervalle, $g(x-2\\pi)=1$, donc $g(x)=1$.\n\t\t\t\\end{itemize}\n\t\t\tLe graphe est le suivant :\n\t\t\t\\begin{center}\n\n\t\t\t\\end{center}",
+        "html": "<p>La fonction <span class=\"math inline\">\\(g(x)\\)</span> vaut <span\nclass=\"math inline\">\\(1\\)</span> sur l’intervalle <span\nclass=\"math inline\">\\([-\\pi/2, \\pi/2]\\)</span>. Elle vaut <span\nclass=\"math inline\">\\(0\\)</span> sur les intervalles <span\nclass=\"math inline\">\\(]-\\pi, -\\pi/2[\\)</span> et <span\nclass=\"math inline\">\\(]\\pi/2, \\pi[\\)</span>. Par <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodicité (<span\nclass=\"math inline\">\\(g(x+2k\\pi)=g(x)\\)</span> pour <span\nclass=\"math inline\">\\(k \\in \\mathbb{Z}\\)</span>):</p>\n<ul>\n<li><p>Sur <span class=\"math inline\">\\([-2\\pi, -3\\pi/2]\\)</span>: <span\nclass=\"math inline\">\\(x \\in [-2\\pi, -3\\pi/2] \\implies x+2\\pi \\in [0,\n\\pi/2]\\)</span>. Sur cet intervalle, <span\nclass=\"math inline\">\\(g(x+2\\pi)=1\\)</span>, donc <span\nclass=\"math inline\">\\(g(x)=1\\)</span>.</p></li>\n<li><p>Sur <span class=\"math inline\">\\(]-3\\pi/2, -\\pi/2[\\)</span>: <span\nclass=\"math inline\">\\(x \\in ]-3\\pi/2, -\\pi] \\implies x+2\\pi \\in ]\\pi/2,\n\\pi]\\)</span>. Sur cet intervalle, <span\nclass=\"math inline\">\\(g(x+2\\pi)=0\\)</span>. Et pour <span\nclass=\"math inline\">\\(x \\in ]-\\pi, -\\pi/2[\\)</span>, <span\nclass=\"math inline\">\\(g(x)=0\\)</span> par définition. Donc <span\nclass=\"math inline\">\\(g(x)=0\\)</span> sur <span\nclass=\"math inline\">\\(]-3\\pi/2, -\\pi/2[\\)</span>.</p></li>\n<li><p>Sur <span class=\"math inline\">\\([-\\pi/2, \\pi/2]\\)</span>: <span\nclass=\"math inline\">\\(g(x)=1\\)</span> par définition.</p></li>\n<li><p>Sur <span class=\"math inline\">\\(]\\pi/2, 3\\pi/2[\\)</span>: <span\nclass=\"math inline\">\\(x \\in ]\\pi/2, \\pi] \\implies g(x)=0\\)</span> par\ndéfinition. Et pour <span class=\"math inline\">\\(x \\in ]\\pi, 3\\pi/2[\n\\implies x-2\\pi \\in ]-\\pi, -\\pi/2[\\)</span>. Sur cet intervalle, <span\nclass=\"math inline\">\\(g(x-2\\pi)=0\\)</span>. Donc <span\nclass=\"math inline\">\\(g(x)=0\\)</span> sur <span\nclass=\"math inline\">\\(]\\pi/2, 3\\pi/2[\\)</span>.</p></li>\n<li><p>Sur <span class=\"math inline\">\\([3\\pi/2, 2\\pi]\\)</span>: <span\nclass=\"math inline\">\\(x \\in [3\\pi/2, 2\\pi] \\implies x-2\\pi \\in [-\\pi/2,\n0]\\)</span>. Sur cet intervalle, <span\nclass=\"math inline\">\\(g(x-2\\pi)=1\\)</span>, donc <span\nclass=\"math inline\">\\(g(x)=1\\)</span>.</p></li>\n</ul>\n<p>Le graphe est le suivant :</p>\n<div class=\"center\">\n\n</div>\n"
+      }
+    },
+    {
+      "id": "395d2c7a-0209-467f-9cdf-058d18ecd246",
+      "type": "question",
+      "value": {
+        "latex": "La fonction $g(x)$ est-elle paire ? Impaire ? Ni l'une ni l'autre ? Justifier.",
+        "html": "<p>La fonction <span class=\"math inline\">\\(g(x)\\)</span> est-elle paire\n? Impaire ? Ni l’une ni l’autre ? Justifier.</p>\n"
+      }
+    },
+    {
+      "id": "36530bad-4fcf-4146-94e9-2037b11c7282",
+      "type": "reponse",
+      "value": {
+        "latex": "Considérons $x \\in [-\\pi, \\pi]$.\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item Si $x \\in [-\\pi/2, \\pi/2]$, alors $g(x)=1$. Dans ce cas, $-x \\in [-\\pi/2, \\pi/2]$ également. Donc $g(-x)=1$. Ainsi $g(-x)=g(x)$.\n\t\t\t\t\\item Si $x \\in ]-\\pi, -\\pi/2[$, alors $g(x)=0$. Dans ce cas, $-x \\in ]\\pi/2, \\pi[$. Donc $g(-x)=0$. Ainsi $g(-x)=g(x)$.\n\t\t\t\t\\item Si $x \\in ]\\pi/2, \\pi[$, alors $g(x)=0$. Dans ce cas, $-x \\in ]-\\pi, -\\pi/2[$. Donc $g(-x)=0$. Ainsi $g(-x)=g(x)$.\n\t\t\t\\end{itemize}\n\t\t\tPour les points frontières $\\pi$ et $-\\pi$: $g(\\pi) = g(-\\pi)$ par périodicité ($g(\\pi)=g(-\\pi + 2\\pi)=g(-\\pi)$). De plus $g(\\pi) = 0$ (car $\\pi \\in ]\\pi/2, \\pi]$ en considérant la définition sur $[-\\pi, \\pi[$ ou en prenant la limite pour $x \\to \\pi^-$). Donc $g(-\\pi)=0$. Vérifions $g(-(-\\pi))=g(\\pi)=0$.\n\t\t\tLa fonction $g(x)$ est paire car $g(-x)=g(x)$ pour tout $x \\in \\mathbb{R}$.",
+        "html": "<p>Considérons <span class=\"math inline\">\\(x \\in [-\\pi,\n\\pi]\\)</span>.</p>\n<ul>\n<li><p>Si <span class=\"math inline\">\\(x \\in [-\\pi/2, \\pi/2]\\)</span>,\nalors <span class=\"math inline\">\\(g(x)=1\\)</span>. Dans ce cas, <span\nclass=\"math inline\">\\(-x \\in [-\\pi/2, \\pi/2]\\)</span> également. Donc\n<span class=\"math inline\">\\(g(-x)=1\\)</span>. Ainsi <span\nclass=\"math inline\">\\(g(-x)=g(x)\\)</span>.</p></li>\n<li><p>Si <span class=\"math inline\">\\(x \\in ]-\\pi, -\\pi/2[\\)</span>,\nalors <span class=\"math inline\">\\(g(x)=0\\)</span>. Dans ce cas, <span\nclass=\"math inline\">\\(-x \\in ]\\pi/2, \\pi[\\)</span>. Donc <span\nclass=\"math inline\">\\(g(-x)=0\\)</span>. Ainsi <span\nclass=\"math inline\">\\(g(-x)=g(x)\\)</span>.</p></li>\n<li><p>Si <span class=\"math inline\">\\(x \\in ]\\pi/2, \\pi[\\)</span>, alors\n<span class=\"math inline\">\\(g(x)=0\\)</span>. Dans ce cas, <span\nclass=\"math inline\">\\(-x \\in ]-\\pi, -\\pi/2[\\)</span>. Donc <span\nclass=\"math inline\">\\(g(-x)=0\\)</span>. Ainsi <span\nclass=\"math inline\">\\(g(-x)=g(x)\\)</span>.</p></li>\n</ul>\n<p>Pour les points frontières <span class=\"math inline\">\\(\\pi\\)</span>\net <span class=\"math inline\">\\(-\\pi\\)</span>: <span\nclass=\"math inline\">\\(g(\\pi) = g(-\\pi)\\)</span> par périodicité (<span\nclass=\"math inline\">\\(g(\\pi)=g(-\\pi + 2\\pi)=g(-\\pi)\\)</span>). De plus\n<span class=\"math inline\">\\(g(\\pi) = 0\\)</span> (car <span\nclass=\"math inline\">\\(\\pi \\in ]\\pi/2, \\pi]\\)</span> en considérant la\ndéfinition sur <span class=\"math inline\">\\([-\\pi, \\pi[\\)</span> ou en\nprenant la limite pour <span class=\"math inline\">\\(x \\to\n\\pi^-\\)</span>). Donc <span class=\"math inline\">\\(g(-\\pi)=0\\)</span>.\nVérifions <span class=\"math inline\">\\(g(-(-\\pi))=g(\\pi)=0\\)</span>. La\nfonction <span class=\"math inline\">\\(g(x)\\)</span> est paire car <span\nclass=\"math inline\">\\(g(-x)=g(x)\\)</span> pour tout <span\nclass=\"math inline\">\\(x \\in \\mathbb{R}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "c7fc0537-5741-447a-a3f7-84054f8c18b1",
+      "type": "question",
+      "value": {
+        "latex": "Quelle conséquence la parité de $g(x)$ a-t-elle sur ses coefficients de Fourier $b_n$ ?",
+        "html": "<p>Quelle conséquence la parité de <span\nclass=\"math inline\">\\(g(x)\\)</span> a-t-elle sur ses coefficients de\nFourier <span class=\"math inline\">\\(b_n\\)</span> ?</p>\n"
+      }
+    },
+    {
+      "id": "e5c5f370-a0bd-46ff-ad6f-76e1c4af836d",
+      "type": "reponse",
+      "value": {
+        "latex": "Si une fonction $f$ est $2\\pi$-périodique et paire, alors ses coefficients de Fourier $b_n$ sont tous nuls. En effet, $b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x)\\sin(nx) \\, dx$. L'intégrande $g(x)\\sin(nx)$ est le produit d'une fonction paire ($g(x)$) et d'une fonction impaire ($\\sin(nx)$), ce qui donne une fonction impaire. L'intégrale d'une fonction impaire sur un intervalle symétrique par rapport à l'origine ($[-\\pi, \\pi]$) est nulle.\n\t\t\tDonc, $b_n = 0$ pour tout $n \\ge 1$.",
+        "html": "<p>Si une fonction <span class=\"math inline\">\\(f\\)</span> est <span\nclass=\"math inline\">\\(2\\pi\\)</span>-périodique et paire, alors ses\ncoefficients de Fourier <span class=\"math inline\">\\(b_n\\)</span> sont\ntous nuls. En effet, <span class=\"math inline\">\\(b_n = \\frac{1}{\\pi}\n\\int_{-\\pi}^{\\pi} g(x)\\sin(nx) \\, dx\\)</span>. L’intégrande <span\nclass=\"math inline\">\\(g(x)\\sin(nx)\\)</span> est le produit d’une\nfonction paire (<span class=\"math inline\">\\(g(x)\\)</span>) et d’une\nfonction impaire (<span class=\"math inline\">\\(\\sin(nx)\\)</span>), ce qui\ndonne une fonction impaire. L’intégrale d’une fonction impaire sur un\nintervalle symétrique par rapport à l’origine (<span\nclass=\"math inline\">\\([-\\pi, \\pi]\\)</span>) est nulle. Donc, <span\nclass=\"math inline\">\\(b_n = 0\\)</span> pour tout <span\nclass=\"math inline\">\\(n \\ge 1\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "21ec084d-8c60-4e4f-8b82-62ab2ddac4b1",
+      "type": "question",
+      "value": {
+        "latex": "Calculer le coefficient $a_0$. Quelle est son interprétation graphique ?\n\t\t\tOn rappelle que $a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x) \\, dx$.",
+        "html": "<p>Calculer le coefficient <span class=\"math inline\">\\(a_0\\)</span>.\nQuelle est son interprétation graphique ? On rappelle que <span\nclass=\"math inline\">\\(a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x) \\,\ndx\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "25186b51-a834-479e-8c36-37e84243fbb9",
+      "type": "reponse",
+      "value": {
+        "latex": "$a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x) \\, dx$.\n\t\t\tComme $g(x)$ est paire, $\\int_{-\\pi}^{\\pi} g(x) \\, dx = 2 \\int_{0}^{\\pi} g(x) \\, dx$.\n\t\t\t$a_0 = \\frac{2}{\\pi} \\int_{0}^{\\pi} g(x) \\, dx$.\n\t\t\tSur $[0, \\pi]$, $g(x)=1$ pour $x \\in [0, \\pi/2]$ et $g(x)=0$ pour $x \\in ]\\pi/2, \\pi]$.\n\t\t\tDonc, $a_0 = \\frac{2}{\\pi} \\left( \\int_{0}^{\\pi/2} 1 \\, dx + \\int_{\\pi/2}^{\\pi} 0 \\, dx \\right) = \\frac{2}{\\pi} \\left( [x]_{0}^{\\pi/2} + 0 \\right) = \\frac{2}{\\pi} \\left( \\frac{\\pi}{2} - 0 \\right) = 1$.\n\t\t\tDonc $a_0 = 1$.\n\t\t\tInterprétation graphique : $a_0/2$ est la valeur moyenne de la fonction $g(x)$ sur une période. Ici, $a_0/2 = 1/2$.\n\t\t\tL'aire sous la courbe de $g(x)$ sur une période, par exemple $[-\\pi, \\pi]$, est $\\int_{-\\pi/2}^{\\pi/2} 1 \\, dx = \\pi/2 - (-\\pi/2) = \\pi$. La longueur de la période est $2\\pi$. La valeur moyenne est donc $\\frac{\\text{Aire}}{\\text{Longueur période}} = \\frac{\\pi}{2\\pi} = \\frac{1}{2}$.",
+        "html": "<p><span class=\"math inline\">\\(a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi}\ng(x) \\, dx\\)</span>. Comme <span class=\"math inline\">\\(g(x)\\)</span> est\npaire, <span class=\"math inline\">\\(\\int_{-\\pi}^{\\pi} g(x) \\, dx = 2\n\\int_{0}^{\\pi} g(x) \\, dx\\)</span>. <span class=\"math inline\">\\(a_0 =\n\\frac{2}{\\pi} \\int_{0}^{\\pi} g(x) \\, dx\\)</span>. Sur <span\nclass=\"math inline\">\\([0, \\pi]\\)</span>, <span\nclass=\"math inline\">\\(g(x)=1\\)</span> pour <span class=\"math inline\">\\(x\n\\in [0, \\pi/2]\\)</span> et <span class=\"math inline\">\\(g(x)=0\\)</span>\npour <span class=\"math inline\">\\(x \\in ]\\pi/2, \\pi]\\)</span>. Donc,\n<span class=\"math inline\">\\(a_0 = \\frac{2}{\\pi} \\left( \\int_{0}^{\\pi/2}\n1 \\, dx + \\int_{\\pi/2}^{\\pi} 0 \\, dx \\right) = \\frac{2}{\\pi} \\left(\n[x]_{0}^{\\pi/2} + 0 \\right) = \\frac{2}{\\pi} \\left( \\frac{\\pi}{2} - 0\n\\right) = 1\\)</span>. Donc <span class=\"math inline\">\\(a_0 = 1\\)</span>.\nInterprétation graphique : <span class=\"math inline\">\\(a_0/2\\)</span>\nest la valeur moyenne de la fonction <span\nclass=\"math inline\">\\(g(x)\\)</span> sur une période. Ici, <span\nclass=\"math inline\">\\(a_0/2 = 1/2\\)</span>. L’aire sous la courbe de\n<span class=\"math inline\">\\(g(x)\\)</span> sur une période, par exemple\n<span class=\"math inline\">\\([-\\pi, \\pi]\\)</span>, est <span\nclass=\"math inline\">\\(\\int_{-\\pi/2}^{\\pi/2} 1 \\, dx = \\pi/2 - (-\\pi/2) =\n\\pi\\)</span>. La longueur de la période est <span\nclass=\"math inline\">\\(2\\pi\\)</span>. La valeur moyenne est donc <span\nclass=\"math inline\">\\(\\frac{\\text{Aire}}{\\text{Longueur période}} =\n\\frac{\\pi}{2\\pi} = \\frac{1}{2}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "2f6b9875-134a-4a66-a518-2b2619ca203e",
+      "type": "question",
+      "value": {
+        "latex": "Calculer les coefficients $a_n$ pour $n \\ge 1$.\n\t\t\tOn rappelle que $a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x)\\cos(nx) \\, dx$. Discuter la valeur de $a_n$ selon la parité de $n$ (si $n$ est pair ou impair, en distinguant le cas $n=0$ déjà traité).",
+        "html": "<p>Calculer les coefficients <span class=\"math inline\">\\(a_n\\)</span>\npour <span class=\"math inline\">\\(n \\ge 1\\)</span>. On rappelle que <span\nclass=\"math inline\">\\(a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x)\\cos(nx)\n\\, dx\\)</span>. Discuter la valeur de <span\nclass=\"math inline\">\\(a_n\\)</span> selon la parité de <span\nclass=\"math inline\">\\(n\\)</span> (si <span\nclass=\"math inline\">\\(n\\)</span> est pair ou impair, en distinguant le\ncas <span class=\"math inline\">\\(n=0\\)</span> déjà traité).</p>\n"
+      }
+    },
+    {
+      "id": "2e8d88b7-0d9b-4894-80bf-ea273caa9231",
+      "type": "reponse",
+      "value": {
+        "latex": "Pour $n \\ge 1$, $a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x)\\cos(nx) \\, dx$.\n\t\t\tComme $g(x)$ est paire et $\\cos(nx)$ est paire, leur produit $g(x)\\cos(nx)$ est une fonction paire.\n\t\t\tDonc, $a_n = \\frac{2}{\\pi} \\int_{0}^{\\pi} g(x)\\cos(nx) \\, dx$.\n\t\t\tSur $[0, \\pi]$, $g(x)=1$ pour $x \\in [0, \\pi/2]$ et $g(x)=0$ pour $x \\in ]\\pi/2, \\pi]$.\n\t\t\t$a_n = \\frac{2}{\\pi} \\left( \\int_{0}^{\\pi/2} 1 \\cdot \\cos(nx) \\, dx + \\int_{\\pi/2}^{\\pi} 0 \\cdot \\cos(nx) \\, dx \\right) = \\frac{2}{\\pi} \\int_{0}^{\\pi/2} \\cos(nx) \\, dx$.\n\t\t\t$a_n = \\frac{2}{\\pi} \\left[ \\frac{\\sin(nx)}{n} \\right]_{0}^{\\pi/2} = \\frac{2}{\\pi n} \\left( \\sin\\left(\\frac{n\\pi}{2}\\right) - \\sin(0) \\right) = \\frac{2}{\\pi n} \\sin\\left(\\frac{n\\pi}{2}\\right)$.\n\t\t\t\n\t\t\tDiscussion de la valeur de $a_n$ :\n\t\t\t\\begin{itemize}\n\t\t\t\t\\item Si $n$ est pair, $n=2k$ pour $k \\in \\mathbb{N}^*$.\n\t\t\t\tAlors $\\sin\\left(\\frac{2k\\pi}{2}\\right) = \\sin(k\\pi) = 0$.\n\t\t\t\tDonc $a_{2k} = 0$ pour $k \\ge 1$.\n\t\t\t\t\\item Si $n$ est impair, $n=2k+1$ pour $k \\in \\mathbb{N}$.\n\t\t\t\tAlors $\\sin\\left(\\frac{(2k+1)\\pi}{2}\\right)$ vaut $1$ si $k$ est pair (e.g., $n=1, 5, 9, \\dots$) et $-1$ si $k$ est impair (e.g., $n=3, 7, 11, \\dots$).\n\t\t\t\tCeci peut s'écrire $\\sin\\left(\\frac{(2k+1)\\pi}{2}\\right) = (-1)^k$.\n\t\t\t\tDonc $a_{2k+1} = \\frac{2(-1)^k}{\\pi (2k+1)}$ pour $k \\ge 0$.\n\t\t\t\\end{itemize}\n\t\t\tEn résumé, pour $n \\ge 1$:\n\t\t\t$a_n = \\begin{cases} 0 & \\text{si } n \\text{ est pair} \\\\ \\frac{2(-1)^{(n-1)/2}}{\\pi n} & \\text{si } n \\text{ est impair} \\end{cases}$\n\t\t\tPar exemple : $a_1 = \\frac{2}{\\pi}$, $a_2=0$, $a_3 = -\\frac{2}{3\\pi}$, $a_4=0$, $a_5 = \\frac{2}{5\\pi}$.",
+        "html": "<p>Pour <span class=\"math inline\">\\(n \\ge 1\\)</span>, <span\nclass=\"math inline\">\\(a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} g(x)\\cos(nx)\n\\, dx\\)</span>. Comme <span class=\"math inline\">\\(g(x)\\)</span> est\npaire et <span class=\"math inline\">\\(\\cos(nx)\\)</span> est paire, leur\nproduit <span class=\"math inline\">\\(g(x)\\cos(nx)\\)</span> est une\nfonction paire. Donc, <span class=\"math inline\">\\(a_n = \\frac{2}{\\pi}\n\\int_{0}^{\\pi} g(x)\\cos(nx) \\, dx\\)</span>. Sur <span\nclass=\"math inline\">\\([0, \\pi]\\)</span>, <span\nclass=\"math inline\">\\(g(x)=1\\)</span> pour <span class=\"math inline\">\\(x\n\\in [0, \\pi/2]\\)</span> et <span class=\"math inline\">\\(g(x)=0\\)</span>\npour <span class=\"math inline\">\\(x \\in ]\\pi/2, \\pi]\\)</span>. <span\nclass=\"math inline\">\\(a_n = \\frac{2}{\\pi} \\left( \\int_{0}^{\\pi/2} 1\n\\cdot \\cos(nx) \\, dx + \\int_{\\pi/2}^{\\pi} 0 \\cdot \\cos(nx) \\, dx \\right)\n= \\frac{2}{\\pi} \\int_{0}^{\\pi/2} \\cos(nx) \\, dx\\)</span>. <span\nclass=\"math inline\">\\(a_n = \\frac{2}{\\pi} \\left[ \\frac{\\sin(nx)}{n}\n\\right]_{0}^{\\pi/2} = \\frac{2}{\\pi n} \\left(\n\\sin\\left(\\frac{n\\pi}{2}\\right) - \\sin(0) \\right) = \\frac{2}{\\pi n}\n\\sin\\left(\\frac{n\\pi}{2}\\right)\\)</span>.</p>\n<p>Discussion de la valeur de <span class=\"math inline\">\\(a_n\\)</span>\n:</p>\n<ul>\n<li><p>Si <span class=\"math inline\">\\(n\\)</span> est pair, <span\nclass=\"math inline\">\\(n=2k\\)</span> pour <span class=\"math inline\">\\(k\n\\in \\mathbb{N}^*\\)</span>. Alors <span\nclass=\"math inline\">\\(\\sin\\left(\\frac{2k\\pi}{2}\\right) = \\sin(k\\pi) =\n0\\)</span>. Donc <span class=\"math inline\">\\(a_{2k} = 0\\)</span> pour\n<span class=\"math inline\">\\(k \\ge 1\\)</span>.</p></li>\n<li><p>Si <span class=\"math inline\">\\(n\\)</span> est impair, <span\nclass=\"math inline\">\\(n=2k+1\\)</span> pour <span class=\"math inline\">\\(k\n\\in \\mathbb{N}\\)</span>. Alors <span\nclass=\"math inline\">\\(\\sin\\left(\\frac{(2k+1)\\pi}{2}\\right)\\)</span> vaut\n<span class=\"math inline\">\\(1\\)</span> si <span\nclass=\"math inline\">\\(k\\)</span> est pair (e.g., <span\nclass=\"math inline\">\\(n=1, 5, 9, \\dots\\)</span>) et <span\nclass=\"math inline\">\\(-1\\)</span> si <span\nclass=\"math inline\">\\(k\\)</span> est impair (e.g., <span\nclass=\"math inline\">\\(n=3, 7, 11, \\dots\\)</span>). Ceci peut s’écrire\n<span class=\"math inline\">\\(\\sin\\left(\\frac{(2k+1)\\pi}{2}\\right) =\n(-1)^k\\)</span>. Donc <span class=\"math inline\">\\(a_{2k+1} =\n\\frac{2(-1)^k}{\\pi (2k+1)}\\)</span> pour <span class=\"math inline\">\\(k\n\\ge 0\\)</span>.</p></li>\n</ul>\n<p>En résumé, pour <span class=\"math inline\">\\(n \\ge 1\\)</span>: <span\nclass=\"math inline\">\\(a_n = \\begin{cases} 0 &amp; \\text{si } n \\text{\nest pair} \\\\ \\frac{2(-1)^{(n-1)/2}}{\\pi n} &amp; \\text{si } n \\text{ est\nimpair} \\end{cases}\\)</span> Par exemple : <span\nclass=\"math inline\">\\(a_1 = \\frac{2}{\\pi}\\)</span>, <span\nclass=\"math inline\">\\(a_2=0\\)</span>, <span class=\"math inline\">\\(a_3 =\n-\\frac{2}{3\\pi}\\)</span>, <span class=\"math inline\">\\(a_4=0\\)</span>,\n<span class=\"math inline\">\\(a_5 = \\frac{2}{5\\pi}\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ca0136ae-f96b-4f30-993a-4cf3296141b9",
+      "type": "question",
+      "value": {
+        "latex": "Écrire les premiers termes non nuls de la série de Fourier de $g(x)$.",
+        "html": "<p>Écrire les premiers termes non nuls de la série de Fourier de <span\nclass=\"math inline\">\\(g(x)\\)</span>.</p>\n"
+      }
+    },
+    {
+      "id": "ffaa5297-c419-4527-8e01-b878a95b7eb3",
+      "type": "reponse",
+      "value": {
+        "latex": "La série de Fourier de $g(x)$ est donnée par $S_g(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} (a_n \\cos(nx) + b_n \\sin(nx))$.\n\t\t\tAvec $a_0=1$, $b_n=0$ pour tout $n$, et les $a_n$ calculés :\n\t\t\t$S_g(x) = \\frac{1}{2} + a_1 \\cos(x) + a_3 \\cos(3x) + a_5 \\cos(5x) + \\dots$\n\t\t\t$S_g(x) = \\frac{1}{2} + \\frac{2}{\\pi}\\cos(x) - \\frac{2}{3\\pi}\\cos(3x) + \\frac{2}{5\\pi}\\cos(5x) - \\dots$\n\t\t\tOn peut écrire la série sous forme compacte :\n\t\t\t$S_g(x) = \\frac{1}{2} + \\sum_{k=0}^{\\infty} a_{2k+1} \\cos((2k+1)x) = \\frac{1}{2} + \\sum_{k=0}^{\\infty} \\frac{2(-1)^k}{\\pi(2k+1)} \\cos((2k+1)x)$.\n\t\t\t$S_g(x) = \\frac{1}{2} + \\frac{2}{\\pi} \\left( \\cos(x) - \\frac{1}{3}\\cos(3x) + \\frac{1}{5}\\cos(5x) - \\frac{1}{7}\\cos(7x) + \\dots \\right)$.",
+        "html": "<p>La série de Fourier de <span class=\"math inline\">\\(g(x)\\)</span> est\ndonnée par <span class=\"math inline\">\\(S_g(x) = \\frac{a_0}{2} +\n\\sum_{n=1}^{\\infty} (a_n \\cos(nx) + b_n \\sin(nx))\\)</span>. Avec <span\nclass=\"math inline\">\\(a_0=1\\)</span>, <span\nclass=\"math inline\">\\(b_n=0\\)</span> pour tout <span\nclass=\"math inline\">\\(n\\)</span>, et les <span\nclass=\"math inline\">\\(a_n\\)</span> calculés : <span\nclass=\"math inline\">\\(S_g(x) = \\frac{1}{2} + a_1 \\cos(x) + a_3 \\cos(3x)\n+ a_5 \\cos(5x) + \\dots\\)</span> <span class=\"math inline\">\\(S_g(x) =\n\\frac{1}{2} + \\frac{2}{\\pi}\\cos(x) - \\frac{2}{3\\pi}\\cos(3x) +\n\\frac{2}{5\\pi}\\cos(5x) - \\dots\\)</span> On peut écrire la série sous\nforme compacte : <span class=\"math inline\">\\(S_g(x) = \\frac{1}{2} +\n\\sum_{k=0}^{\\infty} a_{2k+1} \\cos((2k+1)x) = \\frac{1}{2} +\n\\sum_{k=0}^{\\infty} \\frac{2(-1)^k}{\\pi(2k+1)} \\cos((2k+1)x)\\)</span>.\n<span class=\"math inline\">\\(S_g(x) = \\frac{1}{2} + \\frac{2}{\\pi} \\left(\n\\cos(x) - \\frac{1}{3}\\cos(3x) + \\frac{1}{5}\\cos(5x) -\n\\frac{1}{7}\\cos(7x) + \\dots \\right)\\)</span>.</p>\n"
+      }
+    }
+  ],
+  "preview": "<p>Soit la fonction <span class=\"math inline\">\\(g(x)\\)</span> définie\nsur <span class=\"math inline\">\\(\\mathbb{R}\\)</span>, <span\nclass=\"math inline\">\\ ..."
+}
