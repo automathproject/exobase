@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+	\begin{axis}[
+		title={A},
+		enlarge x limits,
+		view={0}{90},
+		xlabel=$x$, ylabel=$y$,
+		small,
+		axis equal,
+		axis x line=center,
+		axis y line=center,
+		]
+		\addplot3[
+		domain=-3:3,
+		domain y=-3:3,
+		contour lua={number=14,labels=false},
+		samples=40,
+		thick,
+		]
+		{sin(deg(x-y))};  % deg() convertit en degrés pour sin()
+	\end{axis}
+\end{tikzpicture}
