@@ -1,0 +1,36 @@
+\uuid{2LMS}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Ensemble}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+\duree{5}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Ensemble des parties}
+\contenu{
+\question{Déterminer les éléments de $\partie\left(\{0, 1, 2\}\right)$ et de $\partie \left( \{A, C, G, T\}\right )$.}
+\reponse{On doit déterminer tous les sous-ensembles de $\{0,1,2\}$ :
+\begin{itemize}[label=\textbullet]
+    \item à $0$ élément, il n'y a que $\vide$.
+    \item à $1$ éléments, il y a $\{0\}, \{1\}$ et $\{2\}$.
+    \item à $2$ éléments, il y a $\{0,1\}, \{0,2\}$ et $\{1,2\}$.
+    \item à $3$ éléments, il n'y a que $\{0,1,2\}$.
+\end{itemize}
+Ainsi,
+\[\partie\left(\{0,1,2\}\right)= \left \{
+\vide,
+\{0\}, \{1\}, \{2\},
+\{0,1\}, \{0,2\}, \{1,2\},
+\{0,1,2\}
+\right \}
+\]
+On obtient bien $2^3=8$ sous ensembles.
+
+De la même manière :
+\begin{align*}
+ \partie\left( \{A, C, G, T\}\right ) =&\left \{ \vide, \{A\}, \{C\},\{G\}, \{T\}, \{A, C\},\{A,G\},\{A,T\},\{C,G\}, \{C,T\}, \right.\\&\left. \{G,T\}, \{A,C,G\}, \{A,C,T\}, \{A,G,T\}, \{C,G,T\}, \{A,C,G,T\} \right \}.
+\end{align*}}
+}

@@ -1,0 +1,78 @@
+\uuid{wkYI}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Factorielle et coefficients binomiaux}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{3}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des sommes combinatoires plus difficiles}
+\contenu{
+\question{Soit $n$ un entier naturel non nul. Calculer les sommes suivantes :
+\[ \sum_{k=0}^n k\binom{n}{k},\quad\quad \sum_{k=0}^n k(k-1)\binom{n}{k}2^k,\quad\quad \sum_{k=0}^n \frac{1}{k+1} \binom{n}{k},\quad\quad \sum_{k=0}^{n-1} (-1)^kk\binom{n}{k}\]}
+\reponse{\begin{remarque}
+  De prime abord, on ne peut pas déterminer les sommes de cette exercice -- elles ne correspondent ni à des sommes usuelles, ni à des formules du binôme de Newton. L'idée est d'utiliser des formules du cours pour se ramener à de telles sommes. La principale formule qu'on utilisera ici est \[ k\binom{n}{k}=n\binom{n-1}{k-1} \]
+
+ On fera attention aux bornes des sommes, en enlevant des termes génants (qui souvent sont nuls)
+\end{remarque}
+  \begin{align*}
+  \forall~n\geq 1,\quad \sum_{k=0}^n k\binom{n}{k} &= \sum_{k=1}^n k\binom{n}{k} &\text{ (premier terme nul)}\\
+      &= \sum_{k=1}^{n} n\binom{n-1}{k-1}  & \text{ (formule rappelée)}\\
+      &= n\sum_{k=1}^{n} \binom{n-1}{k-1}  &\text{ par linéarité} \\
+      &= n\sum_{i=0}^{n-1} \binom{n-1}{i}  &\text{ en posant } i=k-1 \\
+      &= n\sum_{i=0}^{n-1} \binom{n-1}{i}1^{i}1^{n-1-i} &\text{ pour faire apparaître la formule du binôme}\\
+      &= n\left(1+1\right)^{n-1} = n2^{n-1}
+    \end{align*}
+On traite à part le cas $n=0$  (car on a appliqué la formule du chef, donc $n$ doit être supérieur ou égal à $1$) : on obtient  $0$, ce qui implique que le résultat précédent est en réalité valable pour $n=0$ : \[ \boxed{\forall~n\in \N,\, \sum_{k=0}^n k\binom{n}{k}=n2^{n-1}} \]
+Autre méthode que l'on peut utiliser ensuite : pour tout $x\in \R$, \[ (1+x)^n = \sum_{k=0}^n \binom{n}{k}x^k.\]
+En dérivant par rapport à $x$ :
+\[ n(1+x)^{n-1} = \sum_{k=1}^n k\binom{n}{k}x^{k-1}.\]
+En prenant $x=1$, on obtient bien le résultat précédent. De même, en dérivant une deuxième fois, pour $n\geq 2$ :
+\[ n(n-1)(1+x)^{n-2} = \sum_{k=2}^n k(k-1)\binom{n}{k}x^{k-2}.\]
+Ainsi
+\begin{align*}
+\sum_{k=2}^n k(k-1)\binom{n}{k}2^{k-2} &= n(n-1)3^{n-2} \\
+\text{soit } \sum_{k=0}^n k(k-1)\binom{n}{k}2^{k-2} &= n(n-1)3^{n-2} \text{ en ajoutant les termes nuls.}\\
+\text{et donc } \sum_{k=0}^n k(k-1)\binom{n}{k}2^{k} &= 4n(n-1)3^{n-2} \text{ en multipliant par $2^2$.}
+\end{align*}
+Remarquons que ce résultat convient pour $n=0$ et $n=1$ (la somme est nulle). Ainsi
+\[ \boxed{\forall n\in \N,\quad \sum_{k=0}^n k(k-1)\binom{n}{k} 2^k = 4n(n-1)3^{n-2}.}\]
+On peut le faire bien sûr avec la formule du Chef, pour $n\geq 2$ et $2\leq k \leq n$: 
+
+\[ k(k-1)\binom{n}{k} = (k-1) n \binom{n-1}{k-1} = n(n-1)\binom{n-2}{k-2}.\]
+Ainsi
+\begin{align*}
+\sum_{k=2}^n k(k-1)\binom{n}{k}2^k &= \sum_{k=2}^n n(n-1)\binom{n-2}{k-2}2^k\\
+&= n(n-1) \sum_{p=0}^{n-2} \binom{n-2}{p}2^{p+2}	 \text{ en posant } p = k-2\\
+&= n(n-1) 2^2 \left( 1+2\right)^{n-2} = 4n(n-1)3^{n-2}.
+\end{align*}
+Pour la troisième somme, appliquons à nouveau la formule du Chef, mais au rang $k+1$ et $n+1$ :
+\[ (k+1)\binom{n+1}{k+1} = (n+1) \binom{n}{k}\]
+soit
+\[ \frac{1}{k+1}\binom{n}{k} = \frac{1}{n+1}\binom{n+1}{k+1}.\]
+Ainsi
+\begin{align*}
+\sum_{k=0}^n\frac{1}{k+1}\binom{n}{k} &= \sum_{k=0}^n \frac{1}{n+1}\binom{n+1}{k+1}\\
+&= \frac{1}{n+1} \sum_{p=1}^{n+1} \binom{n+1}{p} \text{ en posant } p=k+1\\
+&= \frac{1}{n+1}\left(\sum_{p=0}^{n+1} \binom{n+1}{p} - \binom{n+1}{0}\right)\\
+&= \frac{1}{n+1}\left( 2^{n+1} - 1\right).
+\end{align*}
+Finalement
+\[ \boxed{\forall n\in \N,\quad \sum_{k=0}^n \frac{1}{k+1}\binom{n}{k} = \frac{2^{n+1}-1}{n+1}.}\]
+La dernière se fait comme la première. 
+\begin{align*}
+\sum_{k=0}^{n-1} (-1)^kk\binom{n}{k} &= \sum_{k=1}^{n-1}	 (-1)^kk\binom{n}{k} \\
+&= \sum_{k=1}^{n-1} (-1)^k n \binom{n-1}{k-1}\\
+&= n \sum_{p=0}^{n-2} (-1)^{p+1} \binom{n-1}{p} \text{ en posant } p=k-1\\
+&= -n \left( \sum_{p=0}^{n-1} (-1)^{p}\binom{n-1}{p} - (-1)^{n-1}\right)\\
+&= -n \left( (1-1)^{n-1} - (-1)^{n-1}\right).
+\end{align*}
+Si $n=1$, alors la somme vaut $0$. Sinon, 
+\[ \boxed{\forall n\geq 1,\quad \sum_{k=0}^{n-1} (-1)^k\binom{n}{k} = n(-1)^{n-1}.}\]}
+}
+
+%%% Fin exercice %%%

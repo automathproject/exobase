@@ -1,0 +1,48 @@
+\uuid{xcLe}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Suites et récurrence}
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Suite récurrente II}
+\contenu{
+\texte{Soit $(u_n)$ la suite définie par $u_0=1$ et $u_{n+1}=u_n+2n+3$.}
+\question{Etudier la monotonie de la suite $(u_n)$.}
+\reponse{\begin{align*}
+Constatons que pour tout entier $n$, on a
+		$$u_{n+1}-u_n=(u_n+2n+3)-u_n=2n+3$$
+		et $2n+3>0$ pour tout entier $n$.\\\textbf{Bilan} : la suite $(u_n)$ est strictement croissante.
+\end{align*}}
+\question{Démontrer par récurrence que $$\forall~n,~u_n> n^2$$}
+\reponse{\begin{align*}
+Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$u_n>n^2$''.
+		\begin{itemize}
+			\item[$\circ$] Pour $n=0$, $u_0=1$ et $1>0^2$. La proposition $P_0$ est donc vraie.
+			\item[$\circ$] Supposons la proposition $P_n$ vraie pour un certain entier $n$. Montrons que $P_{n+1}$ est vraie.\\
+				Par hypothèse de récurrence, $u_n>n^2$. Mais alors
+				$$u_n+2n+3 > n^2+2n+3$$
+				soit,
+				$$u_{n+1} > (n+1)^2+2 > (n+1)^2$$
+				La proposition $P_{n+1}$ est donc vraie
+		\end{itemize}
+		D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$.
+		\\\textbf{Bilan} : $\forall~n, ~u_n>n^2$.
+\end{align*}}
+\question{Conjecturer, puis démontrer, une expression de $u_n$ en fonction de $n$.}
+\reponse{\begin{align*}
+Après calcul des premières valeurs, il semblerait que $u_n=(n+1)^2$. Montrons-le par récurrence.
+	\\Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$u_n=(n+1)^2$''.
+		\begin{itemize}
+			\item[$\circ$] Pour $n=0$, $u_0=1$ et $1=(0+1)^2$. La proposition $P_0$ est donc vraie.
+			\item[$\circ$] Supposons la proposition $P_n$ vraie pour un certain entier $n$. Montrons que $P_{n+1}$ est vraie.\\
+				Par hypothèse de récurrence, $u_n=(n+1)^2$. Mais alors
+				$$u_{n+1}=u_n+2n+3=\underbrace{(n+1)^2}_{\textrm{H.R.}}+2n+3=n^2+2n+1+2n+3=n^2+4n+4=(n+2)^2$$
+				La proposition $P_{n+1}$ est donc vraie
+		\end{itemize}
+		D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$.
+		\\\textbf{Bilan} : $\forall~n,~u_n=(n+1)^2$.
+\end{align*}}
+}

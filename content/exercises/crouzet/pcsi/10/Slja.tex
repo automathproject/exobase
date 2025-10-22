@@ -1,0 +1,52 @@
+\uuid{Slja}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Suites monotones}
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Monotonie et limite I}
+\contenu{
+\texte{On considère la suite $(u_n)$ définie par :
+\[\forall n\geq 2,\quad u_{n+1}=u_{n}\left(
+1-\dfrac{1}{n^{2}}\right) \qeq u_{2}=1\]}
+\question{Montrer que $\forall n\geq 2,\quad 0\leq u_{n}\leq 1$
+puis donner la monotonie de la suite $(u_n)$.}
+\reponse{Soit $P$ la proposition définie pour tout entier $n\geq 2$ par $P_n$:``$0\leq u_n\leq 1$''.\\
+		\textbf{Initialisation} : pour $n=2$, $u_2=1$ et donc $0\leq u_2\leq 1$ : $P_2$ est vraie.\\
+		\textbf{Héréditié} : supposons la proposition $P_n$ vraie pour un certain entier $n\geq 2$ fixé, et montrons que $P_{n+1}$ est vraie.\\D'après l'hypothèse de récurrence, on a donc $0\leq u_n\leq 2$. Mais alors :
+		\begin{align*}
+			0\leq u_n\leq 1 &\implies 0\leq u_n\left(1-\frac{1}{n^2}\right) \leq 1-\frac{1}{n^2} &&\text{ car } 1-\frac{1}{n^2} > 0\\
+			&\implies 0\leq u_{n+1} \leq 1 &&\text{ car } \frac{1}{n^2}>0 \text{ donc } 1-\frac{1}{n^2}<1
+		\end{align*}
+		Ainsi, $P_{n+1}$ est vraie et la proposition est héréditaire.\\
+		D'après le principe de récurrence, on en déduit que la proposition $P_n$ est vraie pour tout $n\geq 2$, c'est-à-dire \[ \boxed{\forall~n\geq 2,\quad 0\leq u_n\leq 1} \]
+		Déterminons la monotonie. Soit $n\geq 2$. On a :
+		\begin{align*}
+			u_{n+1}-u_n &= u_n\left(1-\frac{1}{n^2}\right)-u_n\\
+			&= u_n - \frac{1}{n^2}u_n-u_n = -\frac{1}{n^2}u_n
+		\end{align*}
+		Or, d'après ce qui précède, $u_n\geq 0$ et $-\frac{1}{n^2}<0$. Par quotient, $u_{n+1}-u_n\leq 0$. Ceci étant vrai pour tout $n\geq 2$, on en déduit que \fbox{la suite $(u_n)_{n\geq 2}$ est décroissante}.}
+\question{En déduire que la suite $(u_n)$ est convergente.}
+\reponse{La suite $(u_n)$ est décroissante et minorée par $0$. D'après le théorème de la limite monotone, on en déduit que $(u_n)$ converge.}
+\question{Montrer que $\forall n\geq 2,\quad
+u_{n}=\dfrac{n}{2(n-1)}$ et en déduire
+$\lim\limits_{n\rightarrow +\infty }u_{n}.$}
+\reponse{Soit $Q$ la proposition définie pour tout entier $n\geq 2$ par $Q_n$:``$u_n=\frac{n}{2(n-1)}$''.\\
+	\textbf{Initialisation} : pour $n=2$, $u_2=1$ et $\frac{n}{2(n-1)}=\frac{2}{2\times 1}=1$. Ainsi, $Q_2$ est vraie.\\
+	\textbf{Hérédité} : supposons que la proposition $Q_n$ est vraie pour un certain entier $n\geq 2$ fixé, et montrons que $Q_{n+1}$ est vraie.\\
+	D'après l'hypothèse de récurrence, $u_n=\frac{n}{2(n-1)}$. Mais alors, en utilisant la définition :
+	\begin{align*}
+	  u_{n+1} &= u_n\left(1-\frac{1}{n^2}\right)\\
+	  &= \frac{n}{2(n-1)} \left(1-\frac{1}{n^2}\right) \text{ d'après l'hypothèse de récurrence} \\
+	  &= \frac{n}{2(n-1)} \frac{n^2-1}{n^2}\\
+	  &= \frac{n}{2(n-1)} \frac{(n-1)(n+1)}{n^2}\\
+	  &= \frac{n+1}{2n} = \frac{n+1}{2(n+1-1)}	
+	\end{align*}
+	ainsi, $Q_{n+1}$ est vraie et la proposition est héréditaire.\\D'après le principe de récurrence, la proposition $Q_n$ est vraie pour tout $n\geq 2$, et donc \[ \boxed{\forall~n\geq 2,\quad u_n=\frac{n}{2(n-1)}.}\]
+	Mais alors
+	\[ u_n \equi_{+\infty} \frac{n}{2n} = \frac{1}{2} \tendversen{n\to+\infty} \frac{1}{2} \]
+	Ainsi, \[ \boxed{\lim_{n\to +\infty} u_n=\frac12.}\]}
+}

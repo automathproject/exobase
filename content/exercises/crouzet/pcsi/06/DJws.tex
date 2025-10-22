@@ -1,0 +1,40 @@
+\uuid{DJws}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Études de fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Pair, impair ou manque}
+\contenu{
+\question{Déterminer la parité des fonctions suivantes :
+\[f:x\donne \frac{\ln(x^2+1)}{x^4+1}\quad \quad \quad g:x\donne \ln\left( \frac{x+1}{x-1}\right) \quad \quad \quad h:x\donne x(x^2+2)^3(\eu{x^2+1}+3)\]}
+\reponse{\begin{align*}
+\begin{remarque}
+On détermine d'abord le domaine de définition, avant de déterminer sa parité.
+\end{remarque}
+\begin{enumerate}
+	\item Puisque, pour tout réel $x$, $x^2+1>0$ et $x^4+1>0$, la fonction $f$ est définie sur $\R$, qui est bien symétrique par rapport à $0$. Enfin, pour tout réel $x$, \[f(-x)=\frac{\ln((-x)^2+1)}{(-x)^4+1}=\frac{\ln(x^2+1)}{x^4+1}=f(x)\] Ainsi, la fonction $f$ est paire.
+	\item $g$ n'est définie que si le quotient est strictement positif. Dressons le tableau de signes :
+		\[\begin{array}{|c|ccccccc|}\hline
+			x& -\infty & & -1 & & 1 & & \\\hline
+			x+1 & & - & 0 & + &  & + & \\\hline
+			x-1 & & - &  & - & 0 & + & \\\hline
+			\displaystyle{\frac{x+1}{x-1}} &  & + & 0 & - & || & + & \\\hline 	
+\end{array}\]
+	Ainsi, $g$ est définie sur $]-\infty;-1[\cup ]1;+\infty[$, qui est bien symétrique par rapport à $0$. Enfin, pour tout $x\in]-\infty;-1[\cup ]1;+\infty[$ :
+	\[g(-x)=\ln \left( \frac{-x+1}{-x-1} \right) = \ln \left(\frac{-(x-1)}{-(x+1)}\right) = \ln \left( \frac{x-1}{x+1}\right) = -\ln \left(\frac{x+1}{x-1}\right)=-g(x)\]
+	Ainsi, $g$ est une fonction impaire.
+	\item La fonction $h$ est clairement définie sur $\R$, qui est symétrique par rapport à $0$, et on a 
+		\[\forall~x\in \R,\quad h(-x)=(-x)((-x)^2+2)^3(\eu{(-x)^2+1}+3)=-x(x^2+2)^3(\eu{x^2+1}+3)=-h(x)\]
+		Ainsi, $h$ est impaire.
+\end{enumerate}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

@@ -1,0 +1,34 @@
+\uuid{6GOi}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Raisonnements}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{10}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Analyse et synthèse}
+\contenu{
+\question{A l'aide d'un raisonnement par analyse et synthèse, déterminer toutes les fonction $f$ définies sur $\R$ et à valeurs réelles, telles que, pour tout réels $x$ et $y$, $f(x+y)=f(y)+x$.}
+\reponse{Raisonnons par analyse et synthèse.
+
+\begin{itemize}
+  \item \textbf{Analyse}
+\end{itemize}
+Soit $f:\R \to \R$ vérifiant, pour tous $x$ et $y$, $f(x+y)=f(y)+x$. Pour $y=0$, on obtient, pour tout $x\in \R$, $f(x)=x+f(0)$. La fonction $f$ peut donc s'écrire $f:x\mapsto x+a$ avec $a\in \R$.
+
+On a bien réduit l'étendue des possibilités; on passe à la synthèse.
+\begin{itemize}
+  \item \textbf{Synthèse}
+\end{itemize}
+Soit $a\in \R$ et $f:x\mapsto x+a$. On remarque alors :
+\begin{align*}
+  \forall (x,y)\in \R^2,\,f(x+y) &= (x+y)+a \\
+  &= (y+a) + x = f(y)+x
+\end{align*}
+Ainsi, la $f$ vérifie bien l'équation fonctionnelle.
+
+\textbf{Bilan} : l'ensemble des fonctions de $\R$ dans $\R$, vérifiant pour tous réels $x$ et $y$, $f(x+y)=f(y)+x$ est \[ \left \{ x\mapsto x+a,\, a \in \R \right \} \]}
+}

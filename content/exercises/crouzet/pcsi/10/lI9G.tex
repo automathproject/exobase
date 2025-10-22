@@ -1,0 +1,35 @@
+\uuid{lI9G}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Suites adjacentes}
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Suites adjacentes I}
+\contenu{
+\question{On considère les suites $(u_n)_{n\geq 1}$ et $(v_n)_{n\geq 1}$ définies, pour $n\geq1$, par :
+$u_n=\displaystyle\sum_{k=1}^n \frac{1}{k^2}$ et $ v_n=u_n+\dfrac{1}{n}$.
+Montrer que $(u_n)$ et $(v_n)$ sont adjacentes. Que peut-on conclure ?}
+\reponse{Démontrons que $(u_n)_{n\geq 1}$ est croissante, $(v_n)_{n\geq 1}$ est décroissante et que $v_n-u_n\tendversen{n\to+\infty} 0$.
+
+Soit $n\geq 1$.
+\begin{align*}
+	u_{n+1}-u_n &= \sum_{k=1}^{n+1} \frac{1}{k^2} - \sum_{k=1}^n \frac{1}{k^2} \\
+			    &= \frac{1}{(n+1)^2} > 0
+\end{align*}
+	La suite $u$ est donc croissante. De même, soit $n\geq 1$.
+\begin{align*}
+	v_{n+1}-v_n &= u_{n+1}+\frac{1}{n+1} - \left(u_n+\frac1n\right) \\
+			    &= (u_{n+1}-u_n) + \frac{1}{n+1}-\frac1n\\
+				&= \frac{1}{(n+1)^2}+\frac{1}{n+1}-\frac1n\\
+				&= \frac{n}{n(n+1)^2}+\frac{n(n+1)}{n(n+)^2}-\frac{(n+1)^2}{n(n+1)^2}\\
+				&= \frac{n+n(n+1)-(n+1)^2}{n(n+1)^2} = \frac{-1}{n(n+1)^2} < 0
+\end{align*}
+La suite $v$ est donc décroissante. Enfin \[ v_n-u_n=\frac1n\tendversen{n\to+\infty} 0 \]
+Les suites $u$ et $v$ sont donc adjacentes. Par théorème, elles sont donc convergente et ont la même limite.
+\begin{remarque}
+	Leur limite commune est $\frac{\pi^2}{6}$, mais la démonstration n'est pas aisée.
+\end{remarque}}
+}

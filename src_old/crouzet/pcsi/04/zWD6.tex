@@ -1,0 +1,37 @@
+\uuid{zWD6}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Systèmes linéaires}
+\sousChapitre{Applications}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Décomposition en éléments simples}
+\contenu{
+\question{Montrer qu'il existe des réels $a, b$ et $c$ tels que,  pour tout $x\in \R \setminus \{-2, 0, 1\}$ :
+\[ \frac{3x+2}{x(x-1)(x+2)} = \frac{a}{x}+\frac{b}{x-1}+\frac{c}{x+2}. \]
+On a effectué la \textbf{décomposition en éléments simples} de $\dfrac{3x+2}{x(x-1)(x+2)}$.
+De même, décomposer en éléments simples \[ \frac{2}{x(x+1)(x+2)} \qeq \frac{8}{x^3 +3x^2 -x -3}. \]}
+\reponse{On met au même dénominateur, et on identifie les numérateurs qui sont des polynômes. Ainsi :
+\begin{align*}
+ \frac{a}{x}+\frac{b}{x-1}+\frac{c}{x+2} &= \frac{a(x-1)(x+2)+bx(x+2)+cx(x-1)}{x(x-1)(x+2)}\\
+ &= \frac{ (a+b+c)x^2+(a+2b-c)x-2a}{x(x-1)(x+2)}.
+\end{align*}
+Par identification des numérateurs, on doit avoir
+\[ \systeme{a+b+c=0, a+2b-c=3, -2a=2} \iff \systeme*{a=-1, b=\frac53,c=-\frac23}.\]
+Ainsi, pour tout réel $x\in \R\setminus \{-2,0,1\}$ :
+\[ \frac{3x+2}{x(x-1)(x+2)} = \frac{-1}{x} + \frac{\frac53}{x-1}- \frac{\frac23}{x+2}. \]
+
+Par le même raisonnement, on trouve, pour tout $x\in \R\setminus\{-2, -1, 0\}$ :
+\[ \frac{2}{x(x+1)(x+2)} = \frac{1}{x}-\frac{2}{x+1}+\frac{1}{x+2}. \]
+Enfin, après factorisation
+\[ x^3+3x^2-x-3=(x-1)(x+1)(x+3)\]
+et finalement, pour tout $x\in \R \setminus \{ -3, -1, 1\}$ :
+\[ \frac{8}{x^3+3x^2-x-3} = \frac{1}{x+3}+\frac{1}{x-1}-\frac{2}{x+1}. \]}
+}
+
+%%% Fin exercice %%%

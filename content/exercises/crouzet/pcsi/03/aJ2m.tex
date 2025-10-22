@@ -1,0 +1,31 @@
+\uuid{aJ2m}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Manipulations et calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Premiers calculs}
+\contenu{
+\question{Soient $x$ un réel, et $0\leq p\leq n$ des entiers. Déterminer \[ \sum_{k=0}^p k,\quad \sum_{k=p}^n k,\quad \sum_{k=0}^n x^k \qeq \sum_{k=p}^n x^k.\]}
+\reponse{On utilise les sommes usuelles. Si la somme ne commence pas à $0$, on peut utiliser la relation de Chasles pour s'y ramener :
+\begin{align*}
+ \sum_{k=0}^p k &= \frac{p(p+1)}{2}\\
+ \sum_{k=p}^n k &= \sum_{k=0}^n k - \sum_{k=0}^{p-1} k \\
+                &= \frac{n(n+1)}{2} - \frac{(p-1)p}{2} \\
+ \sum_{k=0}^n x^k &= \left \{ \begin{array}{lll} \dfrac{1-x^{n+1}}{1-x} & \text{si} & x\neq 1 \\
+                                                n+1 & \text{si} & x=1 \end{array}\right. \\
+ \sum_{k=p}^n x^k &= \sum_{k=0}^n x^k - \sum_{k=0}^{p-1} x^k \\
+                  &= \left \{ \begin{array}{lll} \dfrac{1-x^{n+1}}{1-x} - \dfrac{1-x^p}{1-x} & \text{si} & x\neq 1 \\
+                                                (n+1) - p & \text{si} & x=1 \end{array}\right. \\
+                  &= \left \{ \begin{array}{lll} \dfrac{x^p-x^{n+1}}{1-x} & \text{si} & x\neq  1 \\
+                                                  n-p+1 & \text{si} & x=1 \end{array}\right.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

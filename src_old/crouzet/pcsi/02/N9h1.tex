@@ -1,0 +1,49 @@
+\uuid{N9h1}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{\'Equations et inéquations}
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Second degré -- sans les racines}
+\contenu{
+\texte{On note $(E)$ l'équation $2x^2+11x-4=0$.}
+\question{Montrer que l'équation $(E)$ admet deux solutions, qu'on notera $x_1$ et $x_2$ et qu'on ne calculera pas.}
+\reponse{\begin{align*}
+On calcule le discriminant : \(\Delta = 11^2-4\times 2 \times (-4) = 153\).
+\end{align*}}
+\question{Donner les valeurs de $x_1+x_2$ et $x_1x_2$.}
+\reponse{\begin{align*}
+On peut alors factoriser \( 2x^2+11x-4 = 2(x-x_1)(x-x_2) \). Si on développe et on identifie, on obtient \[ 2x^2+11x-4 = 2x^2 - 2 (x_1+x_2)x + 2x_1x_2 \]
+	Ainsi, \( x_1+x_2=-\frac{11}{2} \qeq x_1x_2 = -\frac{4}{2}=-2 \).
+\end{align*}}
+\question{En déduire la valeur de $\ds{\frac{1}{x_1}+\frac{1}{x_2}}$.}
+\reponse{On met au même dénominateur, et on utilise la question précédente :
+	\begin{align*}
+		\frac{1}{x_1}+\frac{1}{x_2} &= \frac{x_1+x_2}{x_1x_2}\\
+				&= \frac{-\frac{11}{2}}{-2} = \frac{11}{4}
+	\end{align*}}
+\question{Calculer $\ds{x_1^2+x_2^2}$.
+	\vspace{0.25cm}}
+\reponse{\begin{align*}
+On développe \((x_1+x_2)^2\). Cela donne \( (x_1+x_2)^2 = x_1^2+2x_1x_2+x_2^2\). Ainsi :
+	\[ x_1^2+x_2^2 = (x_1+x_2)^2-2x_1x_2 = \left(-\frac{11}{2}\right)^2-2\times (-2) = \frac{137}{4}\]
+\end{align*}}
+\question{Calculer $\ds{x_1^3+x_2^3}$.}
+\reponse{\begin{align*}
+On factorise :
+	\[ x_1^3+x_2^3 = (x_1+x_2)(x_1^2-x_1x_2+x_2^2) \]
+	En utilisant les résultats précédents :
+	\[ x_1^3+x_2^3 = -\frac{11}{2}\left(\frac{137}{4} - (-2)  \right) = - \frac{1595}{8} \]
+\end{align*}}
+\question{Calculer $\ds{\frac{1}{x_1+1}+\frac{1}{x_2+1}}$.}
+\reponse{On met au même dénominateur et on développe pour retrouver les résultats précédents.
+	\begin{align*}
+		\frac{1}{x_1+1}+\frac{1}{x_2+1} &= \frac{x_1+x_2+2}{(x_1+1)(x_2+1)}\\
+		 &= \frac{x_1+x_2+2}{x_1x_2+x_1+x_2+1}
+	\end{align*}
+	Ainsi
+	\[ \frac{1}{x_1+1}+\frac{1}{x_2+1} = \frac{-\frac{11}{2}+2}{-2-\frac{11}{2}+1} =\frac{7}{13}\]}
+}

@@ -1,0 +1,114 @@
+\uuid{H0fC}
+\titre{Etude de points critiques et d'ue ligne de niveau}
+\theme{calcul différentiel}
+\chapitre{Fonction de plusieurs variables}
+\niveau{L2}
+\module{Analyse}
+\sousChapitre{Extremums locaux}
+\auteur{}
+\datecreate{2023-03-20}
+\organisation{AMSCC}
+\difficulte{}
+\contenu{
+
+\texte{
+	Une usine produit deux types de matériaux, notés $A$ et $B$. Si, en une semaine, elle produit $x$ kg de type $A$ et $y$ kg de type $B$, le coût total de production (en euros) est modélisé par la fonction
+	$$
+	c(x,y)=10000+50x+60y-0.05xy.
+	$$
+	En pleine capacité, la production hebdomadaire totale ne peut dépasser $3000$ kg, c’est-à-dire que
+	$$
+	x\geq0,\quad y\geq 0,\quad x+y\leq3000.
+	$$
+	Dans ce modèle, le coût reste toujours positif.
+}
+
+\begin{enumerate}
+	\item \question{Décrire et représenter graphiquement le domaine de définition $\mathcal{D}_c$.}
+	\reponse{
+		Le domaine de définition est l’ensemble des couples $(x,y)$ tels que $x\geq0$, $y\geq0$ et $x+y\leq3000$. Géométriquement, il s’agit d’un triangle du plan dont les sommets sont $(0,0)$, $(3000,0)$ et $(0,3000)$.
+		
+		\begin{center}
+			\begin{tikzpicture}[scale=0.0018]
+				\draw[thick,->] (-100,0) -- (3100,0) node[below right] {$x$ (kg)};
+				\draw[thick,->] (0,-100) -- (0,3100) node[above left] {$y$ (kg)};
+				\draw[ultra thick, color=blue, fill=blue!30, opacity=0.4] (0,0) -- (3000,0) -- (0,3000) -- cycle;
+				\node at (800,800) {$\mathcal{D}_c$};
+				\draw (3000,0) node[below] {$3000$};
+				\draw (0,3000) node[left] {$3000$};
+			\end{tikzpicture}
+		\end{center}
+	}
+	\item \question{ Justifier que la fonction $c$ admet un minimum sur $\mathcal{D}_c$ et que ce minimum est atteint.  }
+	\reponse{ On remarque que $\mathcal{D}_c$ est un fermé de $\mathbb{R}^2$. De plus il est borné (c'est un triangle). Par ailleurs, la fonction $c$ est polynomiale donc continue sur $\mathcal{D}_c$. D'après le théorème des valeurs extrêmes, la fonction $c$ admet donc un minimum sur $\mathcal{D}_c$ et ce minimum est atteint en au moins un point de $\mathcal{D}_c$. }
+	
+	\item \question{Rechercher les points critiques (minimum ou maximum locaux) à l’intérieur du domaine de définition.}
+	\reponse{
+		La fonction $c$ est polynomiale (donc de classe $\mathcal{C}^{\infty}$) sur $\mathbb{R}^2$. Calculons ses dérivées partielles :
+		$$
+		\frac{\partial c}{\partial x}(x,y)=50-0.05y,\quad \frac{\partial c}{\partial y}(x,y)=60-0.05x.
+		$$
+		En annulant ces dérivées, on obtient :
+		$$
+		\begin{cases}
+			50-0.05y=0 \quad\Rightarrow\quad y=1000,\\[1mm]
+			60-0.05x=0 \quad\Rightarrow\quad x=1200.
+		\end{cases}
+		$$
+		Le seul point critique intérieur est donc $(1200,1000)$.  
+		
+		Pour étudier sa nature, on calcule le Hessien :
+		$$
+		H_c(x,y)=
+		\begin{pmatrix}
+			\frac{\partial^2 c}{\partial x^2}(x,y) & \frac{\partial^2 c}{\partial x \partial y}(x,y)\\[1mm]
+			\frac{\partial^2 c}{\partial y \partial x}(x,y) & \frac{\partial^2 c}{\partial y^2}(x,y)
+		\end{pmatrix}
+		=
+		\begin{pmatrix}
+			0 & -0.05\\[1mm]
+			-0.05 & 0
+		\end{pmatrix}.
+		$$
+		Le déterminant de ce Hessien est
+		$$
+		\det H_c = 0\cdot0 - (-0.05)^2 = -0.0025 < 0,
+		$$
+		ce qui caractérise un point selle en $(1200,1000)$.
+	}
+	
+	\item \question{Étudier la fonction $c$ sur le bord du domaine en substituant une variable en fonction de l’autre.}
+	\reponse{
+		Sur le bord du domaine, la contrainte est $x+y=3000$. En posant $y=3000-x$, on définit la fonction d’une variable :
+		$$
+		f(x)=c\bigl(x,3000-x\bigr)=10000+50x+60(3000-x)-0.05x(3000-x).
+		$$
+		Calculons :
+		$$
+		f(x)=10000+50x+180000-60x-0.05\bigl(3000x-x^2\bigr)=190000-10x-150x+0.05x^2,
+		$$
+		soit
+		$$
+		f(x)=190000-160x+0.05x^2,\quad x\in[0,3000].
+		$$
+		
+		La dérivée de $f$ est
+		$$
+		f'(x)=-160+0.1x.
+		$$
+		En posant $f'(x)=0$, on trouve
+		$$
+		0.1x=160\quad\Longrightarrow\quad x=1600.
+		$$
+		Donc, $y=3000-1600=1400$.  
+		
+		La dérivée seconde vaut $f''(x)=0.1>0$, ce qui confirme que $x=1600$ est bien un minimum local sur le bord. Ainsi, pour minimiser le coût sur la frontière du domaine, l’usine doit produire $1600$ kg de type $A$ et $1400$ kg de type $B$.  
+		
+		Le coût minimal correspondant est
+		$$
+		c(1600,1400)=10000+50\times1600+60\times1400-0.05\times1600\times1400=62000\text{ euros}.
+		$$
+	}
+\end{enumerate}
+
+}

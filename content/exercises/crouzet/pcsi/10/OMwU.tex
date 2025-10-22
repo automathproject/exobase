@@ -1,0 +1,59 @@
+\uuid{OMwU}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Suites et limites}
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Exercice bilan III}
+\contenu{
+\texte{On définit deux suites $(u_n)$ et $(v_n)$ par $u_0=20$, $v_0=1$ et $$u_{n+1}=\frac{u_n+4v_n}{5}\textrm{  et  } v_{n+1}=\frac{u_n+5v_n}{6}$$}
+\question{Pour tout entier $n$, on pose $w_n=u_n-v_n$.
+		\begin{enumerate}
+			\item Montrer que $(w_n)$ est une suite géométrique, à termes positifs.
+			\item Déterminer la limite de $(w_n)$, et exprimer $w_n$ en fonction de $n$.
+		\end{enumerate}}
+\reponse{\begin{align*}
+~\begin{enumerate}
+            \item Pour tout entier $n$, on a
+               $$w_{n+1}=u_{n+1}-v_{n+1}=\frac{u_n+4v_n}{5}-\frac{u_n+5v_n}{6}=\frac{6u_n+24v_n-(5u_n+25v_n)}{30}=\frac{u_n-v_n}{30}=\frac{w_n}{30}$$
+               La suite $(w_n)$ est une suite géométrique, de raison $\frac{1}{30}$ et de premier terme $w_0=u_0-v_0=20-1=19$. Puisque $w_0>0$ et $\frac{1}{30}>0$, la suite $(w_n)$ est donc à terme strictement positifs.
+            \item Ainsi, pour tout entier $n$, on a $$w_n=19\left(\frac{1}{30}\right)^n$$
+            Puisque $\displaystyle{-1<\frac{1}{30}<1}$, $\displaystyle{\lim_{n\rightarrow +\infty} \left(\frac{1}{30}\right)^n = 0}$. Par produit, $$\lim_{n\rightarrow +\infty} w_n=0$$
+            \end{enumerate}
+\end{align*}}
+\question{Démontrer que la suite $(u_n)$ est décroissante, et que la suite $(v_n)$ est croissante.}
+\reponse{\begin{align*}
+Pour tout entier $n$, on a
+        $$u_{n+1}-u_{n} = \frac{u_n+4v_n}{5}-u_n=\frac{4v_n-4u_n}{5}= -\frac{4w_n}{5}$$
+        Puisque pour tout entier $n$, $w_n>0$, alors $u_{n+1}-u_{n}<0$ : la suite $u$ est bien décroissante.
+        \\De même,
+        $$v_{n+1}-v_n = \frac{u_n+5v_n}{6}-v_n=\frac{u_n-v_n}{6}=\frac{w_n}{6}$$
+        Ainsi, puisque pour tout $n$, $w_n>0$, alors $v_{n+1}-v_n>0$ : la suite $v$ est croissante.
+\end{align*}}
+\question{Démontrer que les suites $(u_n)$ et $(v_n)$ sont adjacentes.}
+\reponse{\begin{align*}
+D'après les questions $1b)$ et $2$, on vient de démontrer que la suite $u$ est décroissante, $v$ est croissante, et $\displaystyle{\lim_{n\rightarrow +\infty} u_n-v_n= \lim_{n\rightarrow +\infty} w_n=0}$. Les suites $u$ et $v$ sont bien adjacentes.\\Par théorème, les deux suites adjacentes convergent, et convergent vers la même limite que l'on note $\ell$.
+\end{align*}}
+\question{Pour tout entier $n$, on pose $t_n=5u_n+24v_n$.
+		\begin{enumerate}
+			\item Démontrer que la suite $(t_n)$ est constante.
+			\item En déduire l'expression de $u_n$ et $v_n$ en fonction de $n$, et déterminer la limite de $(u_n)$ et $(v_n)$.
+		\end{enumerate}}
+\reponse{\begin{align*}
+~\begin{enumerate}
+                \item Pour tout $n$, on a
+                $$t_{n+1}=5u_{n+1}+24v_{n+1}=u_n+4v_n+4(u_n+5v_n)=5u_n+24v_n=t_n$$
+                La suite $(t_n)$ est donc constante.
+                \item La suite étant constante, pour tout entier $n$, $t_n=t_0=124$. Par somme et produit, puisque $\ell$ désigne la limite de $(u_n)$ et $(v_n)$, on obtient
+                $$\lim_{n\rightarrow +\infty} t_n=5\ell+24\ell=29\ell$$
+                Ainsi, puisque la suite $(t_n)$ est constante, on a $29\ell=124$ et donc $\ell=\frac{124}{29}$.
+                \\Bilan :
+                $$\boxed{\lim_{n\rightarrow +\infty} u_n = \lim_{n\rightarrow +\infty} v_n=\frac{124}{29}}$$
+                Enfin, puisque $u_n-v_n=w_n$ et $5u_n+24v_n=t_n$, on obtient après résolution et pour tout entier $n$, que
+                \[u_n= \frac{t_n+24w_n}{29}=\frac{124+456\left(\frac{1}{30}\right)^n}{29} \textrm{  et  }   v_n=\frac{t_n-5w_n}{29}=\frac{124-95\left(\frac{1}{30}\right)^n}{29} \]
+            \end{enumerate}
+\end{align*}}
+}

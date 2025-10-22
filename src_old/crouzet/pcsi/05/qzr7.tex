@@ -1,0 +1,47 @@
+\uuid{qzr7}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des ensembles en bijection}
+\contenu{
+\texte{Montrer que les ensembles suivants sont en bijection, en explicitant une telle bijection :}
+\question{$\interff{0 1}$ et $\interff{a b}$.}
+\reponse{Pour chacun des cas, il faut d'une part déterminer une fonction puis montrer qu'elle est bijective.
+\begin{enumerate}
+	\item Soit $a<b$. Prenons $f:\interff{0 1} \to \interff{a b}$ définie par $f:x\mapsto (b-a)x+a$. Alors $f$ est strictement croissante (car $b-a>0$) donc injective. De plus, soit $y\in \interff{a b}$ :
+	\begin{align*}
+		(b-a)x+a = y &\Leftrightarrow (b-a)x = y-a \\
+		&\Leftrightarrow x =\frac{y-a}{b-a} \in \interff{0 1} \text{ car } y\in \interff{a b}
+	\end{align*}
+	\item Soit $f:}
+\question{$\interof{0 1}$ et $\interfo{0 +\infty}$.}
+\reponse{\interof{0 1} \to \interfo{0 +\infty}$ définie par $f:x\mapsto \frac{1}{x}-1$. $f$ est bijective; en effet, soit $y\in \interfo{0 +\infty}$ :
+	\begin{align*}
+		f(x)=y &\Leftrightarrow \frac{1}{x}-1=y\\
+		&\Leftrightarrow \frac{1}{x}=y+1\\
+		&\Leftrightarrow x=\frac{1}{y+1} \text{ car $y\geq 0$}
+	\end{align*}
+	On remarque que, si $y\in \interfo{0 +\infty}$, $y+1\in \interfo{1 +\infty}$ et donc $\frac{1}{y+1} \in \interof{0 1}$. $f$ est bien bijective.
+	\item Prenons $f:}
+\question{$\N$ et l'ensemble des entiers naturels pairs.}
+\reponse{\begin{align*}
+\N \to \{2p,\,p\in
+\end{align*}}
+\question{$\N$ et l'ensemble des entiers naturels impairs.}
+\reponse{\begin{align*}
+\N\}$ définie par $f(n)=2n$. $f$ est bijective. Soit $y\in \{2p,\,p\in \N\}$; on écrit $y=2p$ pour $p\in \N$. Alors \[ f(n)=y \Leftrightarrow 2n=2p \Leftrightarrow n=p \in \N \]
+	Ainsi, $f$ est bijective.
+	\item De la même manière, on introduit $f:\N \to \{2p+1,\,p\in \N\}$ définie par $f(n)=2n+1$. 
+\end{enumerate}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

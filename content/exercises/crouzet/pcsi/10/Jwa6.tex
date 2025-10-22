@@ -1,0 +1,27 @@
+\uuid{Jwa6}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Limites générales}
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Limites - le retour}
+\contenu{
+\question{Traiter les limites de l'exercice \lienexo{10} en utilisant les négligeabilités et équivalences (sauf limites $4$ et $5$).}
+\reponse{\begin{align*}
+On utilise les propriétés des équivalents et petit $o$. Ainsi,
+\begin{enumerate}
+  \item $u_n \underset{+\infty}{\sim} -n^3$ donc $\ds{\lim_{n\to +\infty} u_n=-\infty}$.
+  \item $u_n\underset{+\infty}{\sim} \frac{2n}{-4n}=-\frac{1}{2}$ donc $\ds{\lim_{n\to +\infty} u_n=-\frac12}$.
+  \item $u_n\underset{+\infty}{\sim} \frac{2n^2}{n}=2n$ donc $\ds{\lim_{n\to +\infty} u_n=+\infty}$.
+  \setcounter{enumi}{5}
+  \item On a $u_n\underset{+\infty}{\sim} 3n^3$ et donc $\ds{\lim_{n\to +\infty} u_n=+\infty}$.
+  \item De même, $u_n\underset{+\infty}{\sim} \frac{-3n}{-3n}=1$ et $\ds{\lim_{n\to +\infty} u_n = 1}$.
+  \item On a $u_n\underset{+\infty}{\sim} \frac{n^2}{2n} = \frac{n}{2}$, donc $\ds{\lim_{n\to \infty}u_n=+\infty}$.
+  \item Ici, en utilisant les comparaisons, $u_n\underset{+\infty}{\sim} \frac{-5^n}{2\times 5^n}=-\frac{1}{2}$ et donc $u_n \tendversen{n\to+\infty} -\frac{1}{2}$
+  \item Enfin, $u_n\underset{+\infty}{\sim} \frac{-4^n}{7^n}=-\left(\frac{4}{7}\right)^n \tendversen{n\to+\infty} 0$ (car $-1<\frac47<1$) et donc $\ds{\lim_{n\to +\infty} u_n=0}$
+\end{enumerate}
+\end{align*}}
+}

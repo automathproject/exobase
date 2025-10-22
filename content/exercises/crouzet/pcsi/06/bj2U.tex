@@ -1,0 +1,33 @@
+\uuid{bj2U}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Études de fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Je dérive, je dérive}
+\contenu{
+\question{Pour chacune des fonctions suivantes, déterminer le domaine de définition, de dérivabilité et calculer la dérivée :
+\[ f:x\mapsto \cos(x)\sin(2x)\eu{x}\quad \quad g:x\mapsto \frac{\tan(x)}{2+\sin(x)} \quad \quad h:x\mapsto \sqrt{x}\ln(1+x) \]}
+\reponse{$f$ est définie et dérivable sur $\R$, comme produit de fonctions trigonométrique et d'exponentielle. On dérive en deux temps puisqu'on a un triple produit. On pose $u:x\mapsto \cos(x)\sin(2x)$ et $v:x\mapsto \eu{x}$. Alors :
+\begin{align*}
+  \forall~x\in \R,\, f'(x) &= u'(x)v(x)+u(x)v'(x) \\
+  &= \left(-\sin(x)\sin(2x)+\cos(x)2\cos(2x)\right)\eu{x}+\cos(x)\sin(2x)\eu{x}\\
+  &= \eu{x}\left( 2\cos(x)\cos(2x)-\sin(x)\sin(2x)+\cos(x)\sin(2x)\right)
+\end{align*}
+$\tan$ est définie et dérivable sur son domaine de définition $\mathcal{D}_{\tan}=\left \{ x\in \R,\, x\not \equiv \frac{\pi}{2} [\pi] \right \}$, et $\sin$ l'est sur $\R$. Puisque pour tout $x$, $2+\sin(x)\neq 0$, on en déduit par quotient que $g$ est définie et dérivable sur $\mathcal{D}_{\tan}$. On a alors :
+\begin{align*}
+ \forall~x\in \mathcal{D}_{\tan},\,g'(x) &= \frac{(1+\tan^2(x))(2+\sin(x))-\tan(x)\cos(x)}{(2+\sin(x))^2}
+\end{align*}
+Enfin, racine est définie sur $\R+$ et dérivable sur $\R>$. $x\mapsto \ln(1+x)$ est définie et dérivable sur $\interoo{-1 +\infty}$. Ainsi, $h$ est définie sur $\R+$ et est dérivable  sur $\R>$. On a alors :
+\begin{align*}
+  \forall~x\in R>,\, h'(x) &= \frac{1}{2\sqrt{x}}\ln(1+x) + \sqrt{x}\frac{1}{1+x}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

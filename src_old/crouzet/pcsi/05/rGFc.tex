@@ -1,0 +1,32 @@
+\uuid{rGFc}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Ensemble}
+\duree{10}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Lois de de Morgan et distributivités}
+\contenu{
+\question{Soient $E$ un ensemble, et $A,B$ et $C$ des sous-ensembles de $E$. Montrer par double inclusion les résultats suivants :
+\begin{itemize}[label=\textbullet]
+    \item $\overline{A\cup B} = \overline{A} \cap \overline{B}$
+    \item $\overline{A\cap B} = \overline{A} \cup \overline{B}$
+    \item $A\cup (B\cap C) = (A\cup B) \cap (A\cup C)$
+    \item $A \cap (B\cup C) = (A \cap B) \cup (A \cap C)$.
+\end{itemize}}
+\reponse{\begin{align*}
+On raisonne par double inclusion : si $A\subset B$ et $B\subset A$ alors $A=B$.
+\begin{itemize}[label=\textbullet]
+    \item $[\subset]$ : si $x \in \overline{A\cup B}$, cela veut dire que $x$ n'est pas dans $A\cup B$, dont il n'est ni dans $A$, ni dans $B$. Il est ainsi dans $\overline{A}$ et $\overline{B}$ : donc $x\in \overline{A}\cap \overline{B}$.\\
+    $[\supset]$ : si $x\in \overline{A}\cap \overline{B}$, cela veut dire que $x$ n'est pas dans $A$ et $x$ n'est pas dans $B$. Il n'est donc ni dans $A$, ni dans $B$, donc pas dans $A\cup B$. Ainsi, $x\in \overline{A\cup B}$
+    \item $[\subset]$ : si $x \in \overline{A\cap B}$, cela veut dire que $x$ n'est pas dans $A\cap B$, donc il n'est pas dans $A$, ou pas dans $B$. Donc il est dans $\overline{A}$ ou dans $\overline{B}$ : donc $x\in \overline{A}\cup \overline{B}$.\\
+    $[\supset]$ : si $x\in \overline{A}\cup \overline{B}$, cela veut dire que $x$ est dans $\overline{A}$ ou dans $\overline{B}$. Ainsi, il n'est pas dans $A$ ou pas dans $B$. Dans tous les cas, il n'est pas dans $A\cap B$ : $x\in \overline{A\cap B}$.
+    \item $[\subset]$ : si $x \in A\cup (B\cap C)$, cela veut dire que $x$ est dans $A$, ou dans $B\cap C$, donc dans $A$ ou dans $B$ et $C$. Dans tous les cas, il est dans $A\cup B$ et dans $A \cup C$ : $x \in (A\cup B)\cap (A\cup C)$.\\
+    $[\supset]$ : si $x\in (A\cup B)\cap(A\cup C)$, cela veut dire que $x$ est dans$A\cup B$ et dans $A\cup C$. Donc $x$ est dans $A$, ou alors il est dans $B$ et $C$, donc dans $A$ ou dans $B\cap C$ : $x \in A\cup (B\cap C)$.
+    \item $[\subset]$ : si $x\in A\cap (B\cup C)$, cela veut dire que $x$ est dans $A$ et dans $B\cup C$, donc dans $A$ et dans $B$ ou $C$. Donc $x$ est dans $A$ et $B$, ou dans $A$ et $C$ : $x \in (A\cap B)\cup(A\cap C)$.
+    $[\supset]$ : si $x \in (A\cap B)\cup(A\cap C)$, cela veut dire que $x$ est dans $A\cap B$ ou dans $A\cap C$, donc dans $A$ et $B$, ou dans $A$ et $C$. Dans tous les cas, $x$ est dans $A$ et dans $B$ ou $C$ : $x \in A\cap(B\cup C)$.
+\end{itemize}
+\end{align*}}
+}

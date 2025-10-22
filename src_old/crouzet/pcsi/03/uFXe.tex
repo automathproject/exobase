@@ -1,0 +1,35 @@
+\uuid{uFXe}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Manipulations et calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Une somme plus difficile}
+\contenu{
+\texte{Soit $n$ un entier naturel non nul.}
+\question{Exprimer, en fonction de $n$, le plus grand entier naturel $m$ tel que $2m\leq n$ et le plus grand entier naturel $p$ tel que $2p+1\leq n$.}
+\reponse{\begin{align*}
+Soit $n\in \N$. Par définition, $m=\left [ \dfrac{n}{2}\right ]$ est le plus grand entier tel que $m\leq \dfrac{n}{2}$, soit $2m\leq n$, et $p=\left [ \dfrac{n-1}{2}\right ]$ est le plus grand entier tel que $p\leq  \dfrac{n-1}{2}$, soit $2p+1\leq n$.
+\end{align*}}
+\question{En déduire la valeur de $\ds{\sum_{k=1}^n (-1)^k k}$.}
+\reponse{On sépare, dans la somme, termes pairs et termes impairs. On fixe $n$ et on note $m$ et $p$ tels que définis dans la question précédente. Remarquons que si $n$ est pair, $p = m-1$ et si $n$ est impair, $m=p$.
+	
+	Alors : 
+	\begin{align*}
+		\sum_{k=1}^n (-1)^k k &= \sum_{\substack{k\in \ll 1, n\rr\\k \text{ pair}}} (-1)^k k + \sum_{\substack{k\in \ll 1, n\rr\\k \text{ impair}}} (-1)^k k \\
+		&= \sum_{i=1}^{m} 2i - \sum_{i=0}^{p} \left(2i+1\right)\\
+		&= \left \{ {\def\arraystretch{2.2}\begin{array}{rcl} \sum\limits_{i=1}^m 2i - \sum\limits_{i=0}^{m-1} (2i+1)& \text{ si }& n\text{ est pair}\\\sum\limits_{i=1}^p 2i - \sum\limits_{i=0}^{p} (2i+1)& \text{ si }& n\text{ est impair}\end{array} } \right.\\
+		&= \left \{ {\def\arraystretch{2.2}\begin{array}{lcl} \sum\limits_{i=1}^{m-1} 2i + 2m - \left(1 + \sum\limits_{i=1}^{m-1} (2i+1)\right)& \text{ si }& n\text{ est pair}\\\sum\limits_{i=1}^p 2i - \left(1+\sum\limits_{i=1}^{p} (2i+1)\right)& \text{ si }& n\text{ est impair}\end{array} } \right.\\
+		&= \left \{  \begin{array}{lcl} 2m- 1-\sum\limits_{i=1}^{m-1} 1 = m &\text{ si }& n\text{ est pair} \\ -1-\sum\limits_{i=1}^p 1 = -p-1 &\text{ si }& n\text{ est pair}\end{array}\right.
+	\end{align*}
+	En remarquant que si $n$ est pair, $m=\left [ \dfrac{n}{2}\right]$ et si $n$ est impair, $p=\left[ \dfrac{n-1}{2}\right]=\left[ \dfrac{n}{2} \right]$, on en déduit le résultat :
+	\[ \boxed{\sum_{k=1}^n (-1)^k k = \left[\frac{n}{2}\right] \text{ si $n$ est pair, } -\left[\frac{n}{2}\right]-1 \text{ si $n$ est impair.}}\]}
+}
+
+%%% Fin exercice %%%

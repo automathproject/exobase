@@ -1,0 +1,56 @@
+\uuid{8RjM}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Systèmes linéaires}
+\sousChapitre{Résolution de systèmes}
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Systèmes avec variable}
+\contenu{
+\question{Résoudre les systèmes suivants, en fonction de $a,b,c$ et $d$ :
+\[(S_1) \left \{
+   \begin{array}{ccccccc}
+       x & + & y & + & z & = & a \\
+       x & - & y & - & z & = & b \\
+       -3x & + & y & + & 3z &=& c
+   \end{array}
+\right.
+~~~~~~
+(S_2) \left \{
+   \begin{array}{ccccccc}
+       3x & - & 3y & - & 2z & = & a \\
+       -4x & + & 4y & + & 3z & = & b \\
+       2x & - & 2y & - & z & = & c
+   \end{array}
+\right.\]
+
+\[(S_3) \left \{
+   \begin{array}{ccccccc}
+       2x & + & y & - & 3z & = & a \\
+       3x & + & y & - & 5z & = & b \\
+       4x & + & 2y & - & z & = & c \\
+       x &  &  & - & 7z & = & d
+   \end{array}
+\right.\]}
+\reponse{\begin{align*}
+On applique également la méthode du pivot de Gauss. La seule difficulté ici repose sur les lettres inconnues, qui compliquent les calculs. Il est cependant important de savoir résoudre un tel système, que l'on reverra en fin d'année dans les applications linéaires. On obtient ici :
+\begin{itemize}[label=\textbullet]
+   \item Une unique solution pour $S_1$ :
+       \[\mathcal{S}=\left \{ \left( \frac{a+b}{2}; \frac{-3b-c}{2}; \frac{a+2b+c}{2} \right) \right \}\]
+   \item \textbf{Attention} : ici, selon les valeurs de $a,b$ et $c$, les résultats sont différents. Il faut donc traiter \textbf{tous} les cas par \textbf{disjonction de cas}. Ainsi :
+       \begin{itemize}
+           \item[$\circ$] Si $c\neq 2a+b$, le système est incompatible : $\mathcal{S}=\emptyset$.
+           \item[$\circ$] Si $c = 2a+b$, le système possède une infinité de solutions, par exemple
+           \[\mathcal{S}=\left \{ \left( 3c+b+2y; y; 2c+b \right),~y \in \R \right \}\]
+       \end{itemize}
+   \item On doit également traiter par disjonction de cas :
+   	\begin{itemize}[label=$\circ$]
+   		\item Si $a+b\neq c+d$, le système est incompatible : $\mathcal{S}=\emptyset$.
+   		\item Si $a+b=c+d$, le système possède une unique solution :
+   		\[\mathcal{S}=\left \{ \left( \frac{5d+7c-14a}{5};  \frac{27a-10d-11c}{5}; \frac{c-2a}{5} \right) \right \}\]
+   	\end{itemize}
+\end{itemize}
+\end{align*}}
+}

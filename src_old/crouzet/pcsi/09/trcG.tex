@@ -1,0 +1,38 @@
+\uuid{trcG}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Suites arithmético-géométrique et récurrente linéaire d'ordre 2}
+\duree{30}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Expressions en fonction de $n$}
+\contenu{
+\texte{Déterminer l'expression de $u_n$ en fonction de $n$ pour les suites suivantes :}
+\question{$u_0=4$ et $\forall~n,~u_{n+1}=2u_n-3$\vspace*{2mm}}
+\reponse{\begin{align*}
+La suite $u$ est arithmético-géométrique. En introduisant $x$ tel que $x=2x-3$, c'est-à-dire $x=3$, et en posant $v$ la suite définie par $v_n=u_n-3$, on en déduit que la suite $(v_n)$ est géométrique, de raison $2$ et de premier terme $v_0=1$. Ainsi,
+		$$\boxed{\forall~n,~v_n=2^n \textrm{  et  } u_n=2^n+3}$$
+\end{align*}}
+\question{$u_0=-2$ et $\forall~n,~u_{n+1}+3u_n=1$\vspace*{2mm}}
+\reponse{\begin{align*}
+La suite $u$ vérifie $u_{n+1}=-3u_n+1$ et est donc arithmético-géométrique. En notant le réel $l$ vérifiant $l=-3l+1$, c'est-à-dire $l=\frac{1}{4}$, et en introduisant la suite $v$ définie par $v_n=u_n-\frac{1}{4}$, on en déduit que la suite $v$ est géométrique, de raison $-3$ et de premier terme $v_0=-\frac{9}{4}$. Ainsi, $$\boxed{\forall~n,~v_n=-\frac{9}{4}(-3)^n \textrm{  et  } u_n=-\frac{9}{4}(-3)^n + \frac{1}{4}}$$
+\end{align*}}
+\question{$u_0=-1$ et $\forall~n,~u_{n+1}+u_n=2u_n-4$.\vspace*{2mm}}
+\reponse{\begin{align*}
+La suite $u$ vérifie $u_{n+1}=u_n-4$ et est donc arithmétique, de raison $-4$ et de premier terme $u_0=-1$. Ainsi, $$\boxed{\forall~n,~u_n=-1-4n}$$
+\end{align*}}
+\question{$u_0=1$, $u_1=2$ et $\forall~n,~u_{n+2}=-2u_{n+1}+15u_n$\vspace*{2mm}}
+\reponse{\begin{align*}
+$u$ est récurrente linéaire d'ordre $2$. En introduisant $(E)$ l'équation caractéristique $X^2=-2X+15$, de racines $-5$ et $3$. Ainsi, il existe $a$ et $b$ tels que, pour tout $n$, $u_n=a(-5)^n+b3^n$. En utilisant $u_0=1$ et $u_1=2$, on obtient le système
+		$$\left \{ \begin{array}{ccccc} a&+&b&=&1 \\ -5a & + & 3b & = & 2\end{array}\right. \Leftrightarrow \left \{ \begin{array}{ccc} a & = & \frac{1}{8} \\  b & = & \frac{7}{8}\end{array}\right.$$
+		Ainsi, $$\boxed{\forall~n,~u_n=\frac{1}{8}(-5)^n+\frac{7}{8}3^n}$$
+\end{align*}}
+\question{$u_0=2$, $u_1=4$ et $\forall~n,~u_{n+2}=8u_{n+1}-16u_n$\vspace*{2mm}}
+\reponse{\begin{align*}
+De la même manière, $u$ est récurrente linéaire d'ordre $2$, d'équation caractéristique $X^2=8X-16$, qui admet comme unique racine $4$. Ainsi, il existe deux réels $a$ et $b$ tels que, pour tout $n$, $u_n=(an+b)4^n$. En utilisant $u_0$ et $u_1$, on obtient le système
+			$$\left \{ \begin{array}{ccccc} 0 & + & b &= & 2 \\(a & + & b)4 & = & 4 \end{array}\right. \Leftrightarrow \left \{ \begin{array}{ccc} a &=& -1 \\ b &=& 2 \end{array}\right.$$
+			Ainsi, $$\boxed{\forall~n,~u_n=(-n+2)4^n}$$
+\end{align*}}
+}

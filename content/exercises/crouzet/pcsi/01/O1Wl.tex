@@ -1,0 +1,38 @@
+\uuid{O1Wl}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Raisonnements}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Absurde ou contraposée}
+\contenu{
+\texte{Démontrer les propositions suivantes par l'absurde ou par contraposée.}
+\question{En admettant que $\sqrt{2}\not\in \Q$, montrer que si $a$ et $b$ sont deux entiers tels que $b\neq 0$, alors $a+b\sqrt{2}\not\in \Q$.}
+\reponse{\begin{align*}
+Soient $a$ et $b$ deux entiers tels que $b\neq 0$. Supposons par l'absurde que $a+b\sqrt{2}\in \Q$. Alors il existe $p\in \Z$ et $q\in \N$ tels que $a+b\sqrt{2}=\dfrac{p}{q}$. Mais alors \[ b\sqrt{2}=\frac{p}{q}-a \Leftarrow \sqrt{2}= \frac{p}{bq}-\frac{a}{b} \in \Q \]
+  ce qui est absurde. Ainsi, $a+b\sqrt{2}\not \in \Q$.
+\end{align*}}
+\question{Si $x$ est un irrationnel positif, alors $\sqrt{x}$ est un irrationnel.}
+\reponse{\begin{align*}
+Raisonnons par contraposée. Supposons que $\sqrt{x}\in \Q$. Alors il existe $p\in \Z$ et $q\in \N$ tel que $\sqrt{x}=\dfrac{p}{q}$ soit, en élevant au carré, \[  x = \frac{p^2}{q^2} \in \Q. \]
+  On a montré que $\sqrt{x}\in \Q \implies x\in \Q$. Par contraposée, $x\not\in \Q \implies \sqrt{x}\not \in \Q$.
+\end{align*}}
+\question{Soit $n \in \N$. Si $n^2-1$ n'est pas divisible par $8$ alors $n$ est pair.}
+\reponse{\begin{align*}
+Raisonnons par contraposée. Prenons $n$ un entier impair. On écrit alors $n=2p+1$ avec $p\in \N$. Mais alors :
+  \[ n^2-1=\left(2p+1\right)^2-1 = 4p^2+4p = 4p(p+1) \]
+  Or, $p(p+1)$ est pair : on écrit $p(p+1)=2k$ avec $k\in \N$ et alors $n^2-1=8k$ : $n^2-1$ est divisible par $8$.
+
+  Par contraposée, si $n^2-1$ n'est pas divisible par $8$, alors $n$ est pair.
+\end{align*}}
+\question{Soit $x$ un réel. Montrer que si $\forall\eps>0,\,|x|\leq \eps$, alors $x=0$.}
+\reponse{\begin{align*}
+Raisonnons par l'absurde. On suppose que $x\neq 0$. Mais alors, $\frac{|x|}{2}>0$. On peut donc prendre $\eps=\frac{|x|}{2}$ et on a \[ |x| \leq \frac{|x|}{2} \Rightarrow \frac{|x|}{2}\leq 0 \]
+  et cela implique donc que $|x|=0$, c'est-à-dire $x=0$ ce qui est absurde.
+\end{align*}}
+}

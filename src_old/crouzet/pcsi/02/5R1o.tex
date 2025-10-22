@@ -1,0 +1,35 @@
+\uuid{5R1o}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+%!TeX root=../../../encours.nouveau.tex
+\duree{15}
+\difficulte{3}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Sur la somme de deux ensembles}
+\contenu{
+\texte{Soient $A$ et $B$ deux parties non vides de $\R$. On pose \[ A+B = \left \{a+b,\, a\in A,\, b\in B \right \}\] l'ensemble formé des réels qui s'écrivent comme la somme d'un réel de $A$ et d'un réel de $B$.
+
+On suppose de plus que $A$ et $B$ sont majorées.}
+\question{Montrer que $A+B$ admet une borne supérieure, et que $\sup(A+B)\leq \sup(A)+\sup(B)$.}
+\reponse{On suppose que $A$ et $B$ sont des parties non vides et majorées. Elles admettent donc toutes les deux des bornes supérieures. On a donc, pour tout $a\in A$, $a\leq \sup(A)$ et pour tout $b\in B$, $b\leq \sup(B)$. Mais alors :
+	\begin{align*}
+		\forall (a,b)\in A\times B,\quad a+b &\leq \sup(A)+\sup(B)
+	\end{align*}
+	Donc $A+B$ est une partie non vide (car $A$ et $B$ sont non vides), majorée par $\sup(A)+\sup(B)$ : elle admet une borne supérieure. De plus, par définition de la borne supérieure, \[ \sup(A+B) \leq \sup(A)+\sup(B). \]}
+\question{Montrer que $\sup(A+B)=\sup(A)+\sup(B)$.}
+\reponse{\begin{align*}
+Soit $\eps > 0$. Par définition de la borne supérieure :
+	\begin{itemize}
+		\item il existe $a_0\in A$ tel que $a_0 \geq \sup(A)-\frac{\eps}{2}$;
+		\item il existe $b_0\in B$ tel que $b_0\geq \sup(B)-\frac{\eps}{2}$.
+	\end{itemize}
+	Mais alors $a_0+b_0 \geq \sup(A)+\sup(B) - \eps$.
+
+	On a donc démontré que \[ \forall \eps>0,\quad \sup(A+B)\geq \sup(A)+\sup(B)-\eps \]
+	c'est-à-dire $\sup(A+B)\geq \sup(A)+\sup(B)$.
+
+	Finalement, $\sup(A+B)=\sup(A)+\sup(B)$.
+\end{align*}}
+}

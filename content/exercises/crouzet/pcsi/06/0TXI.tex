@@ -1,0 +1,36 @@
+\uuid{0TXI}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Études de fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Toujours se méfier des inconnues}
+\contenu{
+\texte{Soit $(E) : mx^2+x(2m-1)-2=0$ où $x$ et $m$ sont des réels.}
+\question{Soit $m$ fixé. Résoudre l'équation $(E)$ d'inconnue $x$.}
+\reponse{\begin{align*}
+Pour $m$ fixé \textbf{non nul}, il faut donc résoudre l'équation du second degré $mx^2+x(2m-1)-2=0$ d'inconnue $x$. Son discriminant vaut \[\Delta=(2m-1)^2-4m(-2)=4m^2-4m+1+8m=4m^2+4m+1=(2m+1)^2\]
+		L'équation possède donc deux solutions :
+		\[x_1=\frac{-(2m-1)-(2m+1)}{2m}=-2 \qeq  x_2=\frac{-(2m-1)+(2m+1)}{2m}=\frac{1}{m}\]
+		Ainsi, \[\mathcal{S}=\left \{ -2; \frac{1}{m} \right \}\]
+		Si $m=0$ l'équation devient $-x-2=0$ qui admet $-2$ comme unique solution.\\
+		\textbf{Bilan} : si $m\neq 0$, alors $\ds{\boxed{\mathcal{S}=\left\{ -2; \frac{1}{m} \right\}}}$, et si $m=0$, $\ds{\boxed{\mathcal{S}=\left\{-2\right\} }}$.
+\end{align*}}
+\question{Soit $x$ fixé. Résoudre l'équation $(E)$ d'inconnue $m$.}
+\reponse{\begin{align*}
+Pour $x$ fixé, c'est une équation du premier degré en $m$. Ainsi 
+		\[(E) \Longleftrightarrow m(x^2+2x) = 2+x\]
+		Soit $m(x(x+2)) =x+2$. Si $x\neq 0$ et $x\neq -2$ alors, on dispose d'une unique solution : \[\frac{x+2}{x(x+2)}=\frac{1}{x}\]
+		Si $x=0$, l'équation $(E)$ devient $-2=0$ ce qui est absurde, donc l'équation n'admet aucune solution.\\
+		Si $x=-2$, l'équation $(E)$ devient $0=0$, donc est vraie pour tout $m\in \R$.
+		\\\textbf{Bilan} : si $x=0$, l'équation n'admet aucune solution. Si $x=-2$, l'équation admet comme solution $\R$. Sinon, \[\boxed{\mathcal{S}= \left \{ \dfrac{1}{x} \right\}}\]
+\end{align*}}
+}
+
+%%% Fin exercice %%%

@@ -1,0 +1,27 @@
+\uuid{urss}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{Calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+\duree{10}
+\difficulte{3}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\contenu{
+\question{Simplifier $\sqrt[3]{5\sqrt{2}+7} - \sqrt[3]{5\sqrt{2}-7}$.}
+\reponse{On note $a = \sqrt[3]{5\sqrt{2}+7} - \sqrt[3]{5\sqrt{2}-7}$. On élève au cube et on utilise les propriétés des racines (cubiques, ici) :
+{\footnotesize
+\begin{align*}
+  \left(\sqrt[3]{5\sqrt{2}+7} - \sqrt[3]{5\sqrt{2}-7} \right)^3 &= \left(\sqrt[3]{5\sqrt{2}+7}\right)^3 - 3 \left(\sqrt[3]{5\sqrt{2}+7}\right)^2\sqrt[3]{5\sqrt{2}-7}+3\sqrt[3]{5\sqrt{2}+7}\left(\sqrt[3]{5\sqrt{2}-7}\right)^2 - \left(\sqrt[3]{5\sqrt{2}-7}\right)^3\\
+  &=\left(5\sqrt{2}+7\right) - 3 \sqrt[3]{\left(5\sqrt{2}+7\right)\left(5\sqrt{2}+7\right)\left(5\sqrt{2}-7\right)}\\&\quad+ 3 \sqrt[3]{\left(5\sqrt{2}+7\right)\left(5\sqrt{2}-7\right)\left(5\sqrt{2}-7\right)} - \left(5\sqrt{2}-7\right) \\
+  &= 14 - 3\sqrt[3]{\left(5\sqrt{2}+7\right)\left(\left(5\sqrt{2}\right)^2-7^2\right)} + 3\sqrt[3]{\left(5\sqrt{2}-7\right)\left(\left(5\sqrt{2}\right)^2-7^2\right)} \\
+  &= 14 - 3\sqrt[3]{5\sqrt{2}+7} + 3\sqrt[3]{5\sqrt{2}-7} = 14 - 3\left(\sqrt[3]{5\sqrt{2}+7} - \sqrt[3]{5\sqrt{2}-7}\right)
+\end{align*}
+}
+Ainsi, $a^3=14-3a$. Il faut trouver les solutions de cette équation. On constate que $2$ est une solution. En factorisant : 
+\[ a^3+3a-14 = (a-2)(a^2+2a+7) \]
+et l'équation $a^2+2a+7=0$ n'admet pas de solution ($\Delta=-24$). La seule solution possible est donc $2$ et finalement
+\[ \boxed{ \sqrt[3]{5\sqrt{2}+7} - \sqrt[3]{5\sqrt{2}-7} = 2.}\]}
+}

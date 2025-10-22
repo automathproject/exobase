@@ -1,0 +1,77 @@
+\uuid{Dzho}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Systèmes linéaires}
+\sousChapitre{Résolution de systèmes}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Systèmes à paramètre}
+\contenu{
+\question{Déterminer pour quelle(s) valeur(s) de $\lambda$ les systèmes suivants sont de Cramer. Résoudre alors les systèmes.
+\[(S_1) \left \{
+   \begin{array}{ccccc}
+       (2-\lambda)x & + & 3y &=& 0\\
+       3x & + & (2-\lambda)y &=& 0
+   \end{array}
+\right.
+~~~~~~
+(S_2) \left \{
+   \begin{array}{ccccccc}
+       (1-\lambda)x & - & y & - & z & = & 0\\
+       -2x &+&(2-\lambda)y&+&3z&=&0\\
+       2x&-&2y&+&(-3-\lambda)z&=&0
+   \end{array}
+\right.\]
+
+\[(S_3) \left \{
+   \begin{array}{ccccccc}
+       (2-\lambda)x & & & + & 4z &=& 0\\
+       3x & - & (4+\lambda)y & + & 12z &=&0\\
+       x &-& 2y & +& (5-\lambda)z&=&0
+   \end{array}
+\right.
+~~~~~~
+(S_4) \left \{
+   \begin{array}{ccccccc}
+       (3-\lambda)x & - &2y &  & &=& 0 \\
+       2x&-&\lambda y & - & 4z &=&0\\
+       &&y&-&(3+\lambda)z&=&0
+   \end{array}
+\right.\]}
+\reponse{\begin{align*}
+\begin{methode}
+Pour déterminer si un système à paramètre est de Cramer ou non, on applique la méthode du pivot de Gauss, en essayant de ne mettre le paramètre  que sur le dernier pivot. On utilise ensuite le résultat classique : un système est de Cramer si et seulement si ses pivots sont tous non nuls.
+\end{methode}
+\begin{itemize}[label=\textbullet]
+	\item Pour $(S_1)$, on a
+		\[(S_1) \Leftrightarrow \left \{ \begin{array}{ccccc}
+					3x & + & (2-\lambda)y &= & 0 \\
+					 & & \left(9-(2-\lambda)^2\right)y &= &0
+				 \end{array}\right. \]
+		Ainsi, $(S_1)$ est de Cramer si et seulement si $9-(2-\lambda)^2 \neq 0$. Or $9-(2-\lambda)^2=(3-(2-\lambda))(3+(2-\lambda)=(1+\lambda)(5-\lambda)$. Donc $(S_1)$ est de Cramer si et seulement si \[\boxed{\lambda \not \in \{-1;5\}}\]
+	\item Pour $(S_2)$, on a
+		\[(S_2) \Leftrightarrow \left \{ \begin{array}{ccccccc}
+				2x&-&2y&+&(-3-\lambda)z &=&0 \\
+				  &-&\lambda y & - &\lambda z &=& 0 \\
+				  & &  & & (\lambda^2 -1 )z &= & 0
+			 \end{array}\right.\]
+		Ainsi, $(S_2)$ est de Cramer si et seulement si $-\lambda \neq 0$ et $\lambda^2 -1  \neq 0$, c'est-à-dire $\lambda \neq -1$ et $\lambda \neq 1$. Donc $(S_2)$ est de Cramer si et seulement si \[\boxed{\lambda \not \in \left \{-1;0;1\right\}}\]
+	\item Pour $(S_3)$, on a
+		\[(S_3) \Leftrightarrow \left \{ \begin{array}{ccccccc}
+				x&-&2y&+&(5-\lambda)z &=&0 \\
+				  &&(2-\lambda) y & + &(-3+3\lambda) z &=& 0 \\
+				  & &  & & (\lambda -\lambda^2 )z &= & 0
+			 \end{array}\right.\]
+		Ainsi, $(S_3)$ est de Cramer si et seulement si $2-\lambda \neq 0$ et $\lambda-\lambda^2  \neq 0$, c'est-à-dire $\lambda \neq 2$, $\lambda \neq 0$ et $\lambda \neq 1$. Donc $(S_3)$ est de Cramer si et seulement si \[\boxed{\lambda \not \in \left \{0;1;2\right\}}\]
+	\item Pour $(S_4)$, on a
+		\[(S_4) \Leftrightarrow \left \{ \begin{array}{ccccccc}
+				2x&-&\lambda y&-&4z &=&0 \\
+				  && y & - &(3+\lambda) z &=& 0 \\
+				  & &  & & (\lambda(\lambda^2-1) )z &= & 0
+			 \end{array}\right.\]
+		Ainsi, $(S_4)$ est de Cramer si et seulement si $\lambda(\lambda^2 -1)  \neq 0$, c'est-à-dire $\lambda \neq -1$, $\lambda \neq 1$ et $\lambda \neq 0$. Donc $(S_4)$ est de Cramer si et seulement si \[\boxed{\lambda \not \in \left \{-1;0;1\right\}}\]
+\end{itemize}
+\end{align*}}
+}

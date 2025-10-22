@@ -1,0 +1,103 @@
+\uuid{grpY}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Limites générales}
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Limites}
+\contenu{
+\texte{Déterminer les limites des suites suivantes (sans utiliser les équivalents ou négligeabilités).}
+\question{sep}{5pt}}
+\reponse{\begin{enumerate}
+	\item Pour tout entier $n\neq 0$,
+     $$u_n=n^3\left(-1+\frac{3}{n}-\frac{2}{n^2}+\frac{1}{n^3}\right)$$
+    	Puisque $\displaystyle{\lim_{n\rightarrow +\infty} \frac{3}{n}=\lim_{n\rightarrow +\infty} \frac{2}{n^2}=\lim_{n\rightarrow +\infty} \frac{1}{n^3}=0}$, par somme on obtient
+     $$\lim_{n\rightarrow +\infty} -1+\frac{3}{n}-\frac{2}{n^2}+\frac{1}{n^3}=-1$$
+     Enfin, $\displaystyle{\lim_{n\rightarrow +\infty} n^3=+\infty}$. Par produit
+     $$\lim_{n\rightarrow +\infty} u_n = -\infty$$}
+\question{$\displaystyle{u_n=-n^3+3n^2-2n+1}$}
+\reponse{\textit{Autre possibilité} : d'après la règle du terme de plus haut degré,
+ 	$$\lim_{n\rightarrow +\infty} u_n = \lim_{n\rightarrow +\infty} -n^3 = -\infty$$
+	\item Pour tout entier $n\neq 0$,
+    $$u_n=\frac{n\left(2+\frac{1}{n}\right)}{n\left(\frac{1}{n}-4\right)}=\frac{\left(2+\frac{1}{n}\right)}{\left(\frac{1}{n}-4\right)}$$
+    Puisque $\displaystyle{\lim_{n\rightarrow +\infty} \frac{1}{n}=0}$, par somme et produit
+    $$\lim_{n\rightarrow +\infty} 2+\frac{1}{n}=2 \textrm{ et } \lim_{n\rightarrow +\infty} \frac{1}{n}-4=-4$$}
+\question{$\displaystyle{u_n=\frac{2n+1}{1-4n}}$}
+\reponse{Par quotient,
+    $$\lim_{n\rightarrow +\infty} u_n = \frac{2}{-4} = -\frac{1}{2}$$
+	\item     Même méthode que précédemment. Pour $n\neq 0$, on a
+    $$u_n=\frac{n^2\left( 2+\frac{1}{n^2} \right)}{n\left( 1-\frac{1}{n}\right)}=n\frac{\left( 2+\frac{1}{n^2} \right)}{\left( 1-\frac{1}{n}\right)}$$
+    Puisque $\displaystyle{\lim_{n\rightarrow +\infty} \frac{1}{n}=\lim_{n\rightarrow +\infty} \frac{1}{n^2}=0}$, par somme et produit
+    $$\lim_{n\rightarrow +\infty}  2+\frac{1}{n^2} =2 \textrm{ et } \lim_{n\rightarrow +\infty} 1-\frac{1}{n}=1$$}
+\question{$\displaystyle{u_n=\frac{2n^2+1}{n-1}}$}
+\reponse{Par quotient
+    $$\lim_{n\rightarrow +\infty} \frac{\left( 2+\frac{1}{n^2} \right)}{\left( 1-\frac{1}{n}\right)} = \frac{2}{1}=2$$
+    Enfin, puisque $\displaystyle{\lim_{n\rightarrow +\infty} n=+\infty}$, par produit
+    $$\lim_{n\rightarrow +\infty} u_n=+\infty$$
+	\item \textbf{Réflexe} : lorsqu'il y a $(-1)^n$, on pense directement au théorème d'encadrement.\\Pour tout $n$, on a
+$$-1\leq (-1)^n \leq 1$$
+Donc pour tout $n\neq 0$
+$$3\leq (-1)^n +4\leq 5$$
+et donc
+$$\frac{3}{n^2} \leq u_n \leq \frac{5}{n^2} \textrm{ car $n^2>0$.}$$}
+\question{$\displaystyle{u_n=\frac{(-1)^n+4}{n^2}}$}
+\reponse{Puisque $\displaystyle{\lim_{n\rightarrow +\infty} \frac{3}{n^2}=\lim_{n\rightarrow +\infty} \frac{5}{n^2}=0}$, d'après le théorème d'encadrement, la suite $(u_n)$ converge, et $$\lim_{n\rightarrow +\infty} u_n=0$$
+	\item Même réflexe que précédemment. Pour tout entier $n$,
+$$-1 \leq (-1)^{n^3+1} \leq 1$$
+donc
+$$\frac{-2}{n+2} \leq u_n \leq \frac{2}{n+2} \textrm{ (car $n+2>0$)}$$
+Puisque $\displaystyle{\lim_{n\rightarrow +\infty} \frac{-2}{n+2}=\lim_{n\rightarrow +\infty} \frac{2}{n+2}=0}$, d'après le théorème d'encadrement, la suite $(u_n)$ convege, et}
+\question{$\displaystyle{u_n=\frac{2(-1)^{n^3+1}}{n+2}}$}
+\reponse{$$\lim_{n\rightarrow +\infty} u_n=0$$
+	\item Pour $n\neq 0$, on a
+$$u_n=n^3\left( 3+\frac{4}{n}+\frac{2}{n^2}-\frac{1}{n^3}\right)$$
+Par somme,
+$$\lim_{n\rightarrow +\infty} 3+\frac{4}{n}+\frac{2}{n^2}-\frac{1}{n^3}=3$$
+Enfin, $\displaystyle{\lim_{n\rightarrow +\infty} n^3=+\infty}$. Par produit
+$$\lim_{n\rightarrow +\infty} u_n=+\infty$$
+	\item Pour tout $n\neq 0$, on a
+$$u_n=\frac{n\left( -3+\frac{1}{n}\right)}{n\left(\frac{2}{n}-3\right)}=
+\frac{\left( -3+\frac{1}{n}\right)}{\left(\frac{2}{n}-3\right)}$$}
+\question{$\displaystyle{u_n=3n^3+4n^2+2n-1}$}
+\reponse{Par somme et produit,
+$$\lim_{n\rightarrow +\infty} -3+\frac{1}{n} = -3 \textrm{ et } \lim_{n\rightarrow +\infty} \frac{2}{n}-3 = -3$$
+Par quotient,
+$$\lim_{n\rightarrow +\infty} u_n= \frac{-3}{-3}=1$$
+	\item Pour tout $n\neq 0$,
+$$u_n=\frac{n^2\left(1+\frac{3}{n}+\frac{1}{n^2}\right)}{n\left(2+\frac{1}{n}\right)}=
+n\frac{1+\frac{3}{n}+\frac{1}{n^2}}{2+\frac{1}{n}}$$
+Par somme et produit
+$$\lim_{n\rightarrow +\infty} 1+\frac{3}{n}+\frac{1}{n^2}=1 \textrm{ et } \lim_{n\rightarrow +\infty} 2+\frac{1}{n} =2$$}
+\question{$\displaystyle{u_n=\frac{-3n+1}{2-3n}}$}
+\reponse{Par quotient
+$$\lim_{n\rightarrow +\infty} \frac{1+\frac{3}{n}+\frac{1}{n^2}}{2+\frac{1}{n}}=\frac{1}{2}$$
+Enfin, $\displaystyle{\lim_{n\rightarrow +\infty} n = +\infty}$. Par produit,
+$$\lim_{n\rightarrow +\infty} u_n=+\infty$$
+	\item \textbf{Réflexe} : lorsque l'on a des puissances ainsi, on met en facteur la plus grande puissance, et on se ramène à des suites de la forme $(q^n)$. Ici, pour tout entier $n$, on a
+$$u_n=\frac{5^n\left( \frac{2^n}{5^n} +\frac{4^n}{5^n}-1\right)}{5^n\left(\frac{3^n}{5^n}+2\right) }=\frac{\left(\frac{2}{5}\right)^n +\left(\frac{4}{5}\right)^n-1}{\left(\frac{3}{5}\right)^n + 2}$$}
+\question{$\displaystyle{u_n=\frac{n^2+3n+1}{2n+1}}$}
+\reponse{Puisque $-1< \frac{2}{5} < 1$, $-1< \frac{4}{5}<1$ et $-1< \frac{3}{5} < 1$, on a
+$$\lim_{n\rightarrow +\infty} \left(\frac{2}{5}\right)^n=
+\lim_{n\rightarrow +\infty} \left(\frac{4}{5}\right)^n=
+\lim_{n\rightarrow +\infty} \left(\frac{3}{5}\right)^n=0$$
+Par somme,
+$$\lim_{n\rightarrow +\infty} \left(\frac{2}{5}\right)^n +\left(\frac{4}{5}\right)^n-1=-1 \textrm{ et } \lim_{n\rightarrow +\infty} \left(\frac{3}{5}\right)^n + 2=2$$
+Par quotient,
+$$\lim_{n\rightarrow +\infty} u_n=\frac{-1}{2}$$
+	\item Pour tout entier $n$,}
+\question{$\displaystyle{u_n=\frac{2^n+4^n-5^n}{3^n+2\times 5^n}}$}
+\reponse{$$u_n=\frac{4^n\left(2\left(\frac{3}{4}\right)^n - 1\right)}{7^n\left(1-\left(\frac{1}{7}\right)^n\right)}= \left(\frac{4}{7}\right)^n \frac{2\left(\frac{3}{4}\right)^n - 1}{1-\left(\frac{1}{7}\right)^n)}$$
+Puisque $-1 < \frac{4}{7} <1$, $-1<\frac{3}{4}<1$ et $-1<\frac{1}{7}<1$, on a
+$$\lim_{n\rightarrow +\infty} \left(\frac{4}{7} \right)^n =
+\lim_{n\rightarrow +\infty} \left(\frac{3}{4} \right)^n =
+\lim_{n\rightarrow +\infty} \left(\frac{1}{7} \right)^n = 0$$
+Par somme, produit et quotient
+$$\lim_{n\rightarrow +\infty} \frac{2\left(\frac{3}{4}\right)^n - 1}{1-\left(\frac{1}{7}\right)^n)}=\frac{-1}{1}=-1$$}
+\question{$\displaystyle{u_n=\frac{2\times 3^n-4^n}{7^n-1}}$}
+\reponse{et par produit
+$$\lim_{n\rightarrow +\infty} u_n=0$$
+\end{enumerate}}
+}

@@ -1,0 +1,34 @@
+\uuid{qZ4b}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Manipulations et calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des factorisations sympathiques}
+\contenu{
+\texte{Soient $x$ et $y$ deux réels.}
+\question{Montrer que, pour tout entier naturel $n$, on a \[ x^n-y^n = (x-y)\sum_{k=0}^{n-1} x^{n-1-k}y^k \]}
+\reponse{On part du membre de droite, et on va développer, puis faire un changement de variable :
+	\begin{align*}
+  (x-y) \sum_{k=0}^{n-1} x^{n-1-k}y^k &= x\sum_{k=0}^{n-1} x^{n-1-k}y^k - y\sum_{k=0}^{n-1} x^{n-1-k} y^k \\
+																		  &= \sum_{k=0}^{n-1} x^{n-k}y^k - \underbrace{\sum_{k=0}^{n-1} x^{n-1-k}y^{k+1}}_{i=k+1} \\
+																			&= \sum_{k=0}^{n-1} x^{n-k}y^k - \sum_{i=1}^n x^{n-i} y^i \\
+																			&= x^n + \sum_{k=1}^{n-1} x^{n-k}y^k - \left(\sum_{i=1}^{n-1} x^{n-i} y^i + y^n\right)\\
+																			&= x^n - y^n
+	\end{align*}}
+\question{En déduire que, pour tout entier naturel impair $n$, on a \[ x^n+y^n = (x+y)\sum_{k=0}^{n-1} (-1)^k x^{n-1-k}y^k \]}
+\reponse{On utilise le cas précédent, en remplaçant $y$ par $-y$, et en utilisant le fait que $n$ est impair :
+	\begin{align*}
+		x^n - (-y)^n &= (x-(-y))\sum_{k=0}^{n-1} x^{n-1-k} (-y)^k \\
+		&= (x+y)\sum_{k=0}^{n-1} (-1)^k x^{n-1-k} y^k
+	\end{align*}
+	Or, $n$ étant impair, $(-y)^n = (-1)^n y^n = -y^n$, d'où le résultat.}
+}
+
+%%% Fin exercice %%%

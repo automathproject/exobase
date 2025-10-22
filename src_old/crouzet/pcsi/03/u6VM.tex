@@ -1,0 +1,27 @@
+\uuid{u6VM}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Formule de Koenig-Huygens}
+\contenu{
+\question{Soient $x_1, \hdots, x_n$ des réels. On note $\ds{m=\frac{x_1+\hdots+x_n}{n}}$ la moyenne des $(x_i)$.
+
+Montrer la formule de Koenig-Huygens :
+\[ \frac{1}{n}\sum_{i=1}^n \left(x_i-m\right)^2 = \left(\frac{1}{n}\sum_{i=1}^n x_i^2\right) - m^2 \]}
+\reponse{On va développer, en constatant que $\sum\limits_{i=1}^n x_i = n\times m$.
+\begin{align*}
+ \frac{1}{n}\sum_{i=1}^n \left(x_i-m\right)^2 &= \frac{1}{n}\sum_{i=1}^n \left(x_i^2 - 2x_im+m^2\right) \\
+ &= \left( \frac{1}{n}\sum_{i=1}^n x_i^2\right) - \frac{2m\sum\limits_{i=1}^n x_i}{n} + \frac{1}{n}\sum_{i=1}^n m^2 \\
+ &= \left( \frac{1}{n}\sum_{i=1}^n x_i^2\right) - \frac{2m (nm)}{n} + \frac{1}{n}\left(n m^2\right) \\
+ &=  \left( \frac{1}{n}\sum_{i=1}^n x_i^2\right) - m^2.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

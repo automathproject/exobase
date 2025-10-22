@@ -1,0 +1,39 @@
+\uuid{g36c}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Manipulations et calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des produits}
+\contenu{
+\question{Soit $n$ un entier naturel non nul. Calculer les produits suivants :
+\[ \prod_{k=1}^n \frac{2k+3}{2k+1} \quad\quad \prod_{k=2}^n \left(1-\frac{1}{k^2}\right) \quad\quad \prod_{k=1}^n \left(1+\frac{1}{k}\right)^k.\]}
+\reponse{Pour le premier, on remarque un produit télescopique :
+\begin{align*}
+  \prod_{k=1}^n \frac{2k+3}{2k+1} &= \prod_{k=1}^n \frac{2(k+1)+1}{2k+1}\\
+  &= \frac{2(n+1)+1}{2\times 1+1} = \frac{2n+3}{3}
+\end{align*}
+Pour le deuxième, on ré-écrit pour faire apparaître deux produit télescopiques :
+\begin{align*}
+  \boxed{\prod_{k=2}^n \left(1-\frac{1}{k^2}\right)} &= \prod_{k=2}^n \frac{k^2-1}{k}\\
+  &= \prod_{k=2}^n \frac{(k-1)(k+1)}{k\times k} \\
+  &= \prod_{k=2}^n \frac{k-1}{k} \times \prod_{k=2}^n \frac{k+1}{k}\\
+  &= \frac{1}{n}\times \frac{n+1}{2}=\boxed{\frac{n+1}{2n}}
+\end{align*}
+Pour le dernier produit, on fait apparaître un produit télescopique en ajoutant un terme :
+\begin{align*}
+  \boxed{\prod_{k=1}^n \left(1+\frac{1}{k}\right)^k} &= \prod_{k=1}^n \left(\frac{k+1}{k}\right)^k\\
+  &=\prod_{k=1}^n \frac{(k+1)^k}{k^k}\\
+  &= \prod_{k=1}^n \frac{(k+1)^{k+1}}{k^k} \times \frac{1}{k+1} \\
+  &= \underbrace{\prod_{k=1}^n \frac{(k+1)^{k+1}}{k^k}}_{\text{telescopage}}\times \prod_{k=1}^n \frac{1}{k+1} \\
+  &= \frac{(n+1)^{n+1}}{1^1} \times \frac{1}{(n+1)!} = \boxed{\frac{(n+1)^n}{n!}}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

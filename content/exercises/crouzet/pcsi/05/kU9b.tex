@@ -1,0 +1,35 @@
+\uuid{kU9b}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{$\partie(\N)$ n'est pas dénombrable}
+\contenu{
+\question{Montrer qu'il n'existe pas de surjection de $\N$ dans $\partie(\N$).\\
+En déduire que $\partie(\N)$ n'est pas dénombrable.
+
+\textit{On pourra raisonner par l'absurde en introduisant une telle surjection $f$ et en posant \\$A=\left \{ x\in \N,\quad x\not \in f(x) \right \}$.}}
+\reponse{\begin{align*}
+Supposons qu'il existe une telle surjection, que l'on note $f$. Notons \[ A = \left \{ x\in \N,\quad x\notin f(x)\right\}. \]
+Remarquons que $A$ est bien définie (puisque $f(x)\in \mathcal{P}(\N)$) et est une partie de $\N$.
+
+Puisque $f$ est une surjection sur $\mathcal{P}(\N)$, il existe $x_0 \in \N$ tel que $f(x_0)=A$.  Montrons que ceci est une contradiction :
+\begin{itemize}
+  \item Si $x_0 \in A$, alors $x_0 \in f(x_0)=A$ et donc, par définition de $A$, $x_0\notin A$. C'est absurde.
+  \item Si $x_0\notin A$, alors $x_0 \notin f(x_0)=A$ et donc, par définition de $A$, $x_0 \in A$. C'est absurde.
+\end{itemize}
+Dans tous les cas, l'existence de $x_0$ est impossible, d'où la contradiction : il n'existe pas de surjection de $\N$ dans $\partie(\N)$. Mais alors, il ne peut exister de bijection de $\N$ dans $\partie(\N)$ : ainsi, $\partie(\N)$ n'est pas dénombrable.
+
+\begin{remarque}
+  Cette démonstration, et cette manière de raisonner, est due à \textbf{Georg Cantor} (1845--1918).
+\end{remarque}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

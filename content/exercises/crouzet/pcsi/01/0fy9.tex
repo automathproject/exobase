@@ -1,0 +1,46 @@
+\uuid{0fy9}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Logiques}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des équivalences}
+\contenu{
+\texte{Soient $\AA$, $\BB$ et $\CC$ trois propositions. Montrer les équivalences suivantes à l'aide de tables de vérité :}
+\question{$((\AA \et \BB) \ou \CC) \Longleftrightarrow ((\AA \ou \CC) \et (\BB \ou \CC))$.}
+\reponse{\begin{align*}
+En écrivant les tables de vérités :
+\[\begin{array}{|c|c|c|c|>{\columncolor{gray!20}}c|c|c|>{\columncolor{gray!20}}c|}\hline
+ \AA & \BB & \CC & \AA \et \BB & (\AA \et \BB) \ou \CC & \AA \ou \CC & \BB \ou \CC & ((\AA \ou \CC) \et (\BB \ou \CC))   \\\hline
+ V & V & V & V & V & V & V & V \\
+ V & V & F & V & V & V & V & V \\
+ V & F & V & F & V & V & V & V \\
+ V & F & F & F & F & V & F & F \\
+ F & V & V & F & V & V & V & V \\
+ F & V & F & F & F & F & V & F \\
+ F & F & V & F & V & V & V & V \\
+ F & F & F & F & F & F & F & F \\\hline
+ \end{array}
+\]
+\end{align*}}
+\question{$((\AA \ou \BB) \et \CC) \Longleftrightarrow ((\AA \et \CC) \ou (\BB \et \CC))$.}
+\reponse{\begin{align*}
+\[\begin{array}{|c|c|c|c|>{\columncolor{gray!20}}c|c|c|>{\columncolor{gray!20}}c|}\hline
+ \AA & \BB & \CC & \AA \ou \BB & (\AA \ou \BB) \et \CC & \AA \et \CC & \BB \et \CC & ((\AA \et \CC) \ou (\BB \et \CC))   \\\hline
+ V & V & V & V & V & V & V & V \\
+ V & V & F & V & F & F & F & F \\
+ V & F & V & V & V & V & F & V \\
+ V & F & F & V & F & F & F & F \\
+ F & V & V & V & V & F & V & V \\
+ F & V & F & V & F & F & F & F \\
+ F & F & V & F & F & F & F & F \\
+ F & F & F & F & F & F & F & F \\\hline
+ \end{array}
+\]
+\end{align*}}
+}

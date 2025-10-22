@@ -1,0 +1,44 @@
+\uuid{w0qK}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Généralités}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Images et antécédents}
+\contenu{
+\question{Déterminer les antécédents éventuels de $-\sqrt{\pi}$, $0$ et $121$ par $f:x\donne (x+1)^2$.}
+\reponse{Déterminer les antécédents éventuels, c'est résoudre l'équation $f(x)=a$ où $a$ représente le réel dont on cherche les antécédents. Puisque $(x+1)^2\geq 0$ pour tout $x$, on en déduit déjà que $-\sqrt{\pi}$ n'a pas d'antécédent par $f$. Ensuite, on résout :
+  \begin{align*}
+   f(x)=0 &\Longleftrightarrow (x+1)^2= 0 \\& \Longleftrightarrow x=-1\\
+   f(x)=121 & \Longleftrightarrow (x+1)^2=121 \\&\Longleftrightarrow x+1=11 \ou x+1=-11\\&\Longleftrightarrow x=10\ou x=-12
+  \end{align*}
+  Ainsi, l'antécédent de $0$ est $-1$, et les antécédents de $121$ sont $10$ et $-12$.}
+\question{Déterminer les antécédents éventuels de $343$ et $-216$ par  $x\mapsto x^3$.}
+\reponse{\begin{align*}
+De la même manière, on résout $x^3=343 \Longleftrightarrow x=7$ et $x^3=-216 \Longleftrightarrow x=-6$. L'antécédent de $343$ est donc $7$ et l'antécédent de $-216$ est $-6$.
+\end{align*}}
+\question{Déterminer $f(A)$ dans les cas suivants :
+    
+      \begin{enumerate}[label=\alph*)]
+        \item $f:x\mapsto x^2$ et $A=\interoo{-2 +\infty}$,
+        \item $f:x\mapsto |1+x|$ et $A=\interof{-1 -\frac12}$,
+        \item $f:x\mapsto \frac{1}{x}$ et $A=\interoo{-1 0} \cup \interof{0 2}$,
+        \item $f:x\mapsto \ln(x^2+1)$ et $A=\interfo{-4 2}$.
+      \end{enumerate}}
+\reponse{\begin{align*}
+\begin{enumerate}
+    \item On obtient $f(A)=\R^+$ (en effet, tout élément de $\R^+$ admet au moins un antécédent dans $\R^+$, donc dans $A$).
+    \item De même, si $-1<x\leq -\frac{1}{2}$ alors $0<1+x\leq\frac12$ et finalement $0<|1+x|\leq \frac12$. Réciproquement, si $y\in \interof{0 {\frac12}}$, alors il y a au moins un antécédent dans $A$ de $y$ : $y-1$. Finalement $\ds{f(A)=\interof{0 {\frac{1}{2}}}}$.
+    \item Remarquons que $-1<x<0 \Leftrightarrow \frac{1}{x}<-1$ et $0<x\leq 2 \Longleftrightarrow x\geq \frac{1}{2}$. Ainsi \[ f(A)=\interoo{-\infty{} -1} \cup \interfo{{\frac12} +\infty}\]
+    \item Enfin, $-4\leq x <2$ donne $0\leq x^2 < 16$ puis $0=\ln(1) \leq f(x)< \ln(17)$. Réciproquement, si $y\in \interfo{0 \ln(17)}$, il existera au moins un antécédent dans $A$ par $f$. Ainsi, \[ f(A)=\interfo{0 \ln(17)}.\]
+  \end{enumerate}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

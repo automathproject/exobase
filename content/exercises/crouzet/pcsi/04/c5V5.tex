@@ -1,0 +1,79 @@
+\uuid{c5V5}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Systèmes linéaires}
+\sousChapitre{Résolution de systèmes}
+\duree{30}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Systèmes}
+\contenu{
+\question{Résoudre les systèmes linéaires suivants :
+
+\[(S_1) \left \{
+   \begin{array}{ccccccc}
+       x & - & y & + & z & = & 1 \\
+       2x & + & y & - & z &  = & 2 \\
+       x & - & 2y & + & 3z & = & 0
+   \end{array}
+\right.
+~~~~~~
+(S_2) \left \{
+   \begin{array}{ccccccc}
+       2x & + & 3y & + & z & = & 4 \\
+      -x & + & y & + & 2z &  = & 3 \\
+       7x & + & 3y & - & 5z & = & 2
+   \end{array}
+\right.
+\]
+
+\[(S_3) \left \{
+   \begin{array}{ccccccc}
+        &  & y & - & z & = & 1 \\
+       2x & + & y & + & z &  = & 3 \\
+       x &  &  & + & z & = & 1
+   \end{array}
+\right.
+~~~~~~
+(S_4) \left \{
+   \begin{array}{ccccccc}
+        2x& - & y & + & z & = & 3 \\
+       x &  &  & + & 2z &  = & -1 \\
+       x & - & y & - & z & = & 2
+   \end{array}
+\right.
+\]
+
+\[(S_5) \left \{
+   \begin{array}{ccccccccc}
+    -3x & + & y & + & z & - &t &=&0 \\
+    x & - & 3y & + & z & + & t & = & 0\\
+    x & + & y & - & 3z & + & t & = & 0 \\
+    x & + & y & + & z &-& 3t &=& 0
+   \end{array}
+\right.
+~~~~~
+(S_6) \left \{
+   \begin{array}{ccccccccc}
+       -x & + & 3y & & &- & t & = & 0 \\
+       2x & - & y & + & 2z & + & 2t &=& 0\\
+       && 5y &+& 2z & & &=& 0\\
+       x &+& 2y & + &2z & +& t &=& 0
+   \end{array}
+\right.\]}
+\reponse{\begin{align*}
+On utilise la méthode du pivot de Gauss sur chacun des $6$ systèmes. Lorsqu'un système va avoir une infinité de solutions, on utilise une (ou plusieurs) inconnue(s) auxiliaire(s). En général, on prendra les inconnues dans l'ordre inverse (par exemple, si les inconnues sont $x_1, x_2, x_3, x_4$, on essaiera de prendre dans l'ordre $x_4$, puis $x_3$,...). On obtient ici :
+   \begin{itemize}[label=\textbullet]
+       \item Une unique solution pour $S_1$ : $\mathcal{S}=\left\lbrace (1;-1;-1)\right\rbrace$.
+       \item Une unique solution pour $S_2$ : $\mathcal{S}=\left\lbrace (-4;5;-3) \right\rbrace$.
+       \item Une infinité de solution pour $S_3$, par exemple
+       \[\mathcal{S}=\left \{ (1-z;1+z;z), z\in \R \right \}\]
+       \textbf{Remarque} : on peut obtenir d'autres réponses possibles selon la variable auxiliaire que l'on prend.
+       \item Aucune solution pour $S_4$, qui est en effet incompatible : $\mathcal{S}=\emptyset$.
+       \item Une unique solution pour $S_5$ qui est un système homogène et de Cramer : $\mathcal{S} = \left \{ (0;0;0;0) \right \}$.
+       \item Une infinité de solution pour $S_6$, par exemple
+       \[\mathcal{S}=\left \{ \left(-\frac{6}{5}z-t;-\frac{2}{5}z;z;t\right), (z,t)\in \R^2 \right\}\]
+   \end{itemize}
+\end{align*}}
+}

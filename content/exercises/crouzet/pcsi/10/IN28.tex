@@ -1,0 +1,55 @@
+\uuid{IN28}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Suites monotones}
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Monotonie et limite II}
+\contenu{
+\texte{Soit $(u_n)$ la suite définie par $u_{n+1}=\dfrac{2u_{n}^{2}}{1+5u_{n}}$ et $u_{0}\geq 0$.}
+\question{Montrer que $\forall $ $n\geq 0,\quad u_{n}\geq 0.$ En déduire la monotonie de $(u_n)$. Que peut-on en conclure ?}
+\reponse{\label{td7-6-q1}  Soit $P$ la proposition définie pour tout entier $n$ par $P_n$:``$u_n\geq 0$''.
+	\begin{description}
+		\item \textbf{Initialisation} : pour $n=0$, $u_0\geq 0$ par hypothèse donc $P_0$ est vraie.
+		\item \textbf{Hérédité} : supposons la proposition $P_n$ vraie pour un certain entier $n$ fixé, et démontrons que $P_{n+1}$ est vraie. \\Par hypothèse de récurrence, on a donc $u_n\geq 0$. Mais alors :
+		\[
+			1+5u_n \geq 1 \geq 0 \qeq 2u_n^2  \geq 0
+		\]
+		donc par quotient, $\ds{\frac{2u_n^2}{1+5u_n}\geq 0}$, c'est-à-dire $u_{n+1}\geq 0$ : $P_{n+1}$ est donc vraie et la proposition est héréditaire.
+	\end{description}
+	D'après le principe de récurrence, on en déduit que la proposition $P_n$ est vraie pour tout entier $n$, c'est-à-dire \[ \boxed{\forall~n,\quad u_n\geq 0}\] 
+	Déterminons alors la monotonie de $u$. Soit $n$ un entier. On a :
+	\begin{align*}
+		u_{n+1}-u_n &= \frac{2u_n^2}{1+5u_n} - u_n \\
+					&= \frac{2u_n^2}{1+5u_n} - \frac{u_n(1+5u_n)}{1+5u_n}\\
+					&= \frac{2u_n^2 -(u_n+5u_n^2)}{1+5u_n}\\
+					&= \frac{-u_n-3u_n^2}{1+5u_n}
+	\end{align*}
+	D'après l'étude précédente, puisque $u_n\geq 0$, alors $-u_n\leq 0$. De plus, $-3u_n^2\leq 0$; par somme, $-u_n-3u_n^2\leq 0$. Le dénominateur est quant à lui positif :$1+5u_n\geq 0$. Par quotient \[ u_{n+1}-u_n \leq 0 \]
+	Ceci étant vrai pour tout entier $n$, on en déduit que \fbox{la suite $(u_n)$ est décroissante.}\\
+	La suite est donc décroissante, minorée : d'après le théorème de la limite monotone, on en déduit que la suite $(u_n)$ converge.}
+\question{Montrer que $\forall $ $n\geq 0,$ $u_{n+1}\leq \dfrac{2u_{n}}{5}$.}
+\reponse{\begin{align*}
+\label{td7-6-q2} Fixons un entier $n$. On constate que $1+5u_n \geq 5u_n$. Puisque $u_n\geq 0$ et que la fonction inverse est décroissante sur $\R>$, on en déduit que \[ \frac{1}{1+5u_n} \leq \frac{1}{5u_n} \]
+	Mais alors, puisque $2u_n^2\geq 0$, on en déduit par produit que \[ \frac{2u_n^2}{1+5u_n} \leq \frac{2u_n^2}{5u_n}= \frac{2u_n}{5} \]
+\end{align*}}
+\question{En déduire que $\forall n\geq 0,$ $u_{n}\leq \left( \dfrac{2}{5}\right) ^{n}u_{0}.$ \newline En déduire la limite de la suite $(u_n)$.}
+\reponse{Soit $Q$ la proposition définie pour tout entier $n$ par $Q_n$ : ``$u_n\leq \left(\frac{2}{5}\right)^nu_0$''.
+	 \begin{description}
+			 \item \textbf{Initialisation} : pour $n=0$, on constate que $\left(\frac25\right)^0u_0=u_0$ : la proposition $Q_0$ est donc vraie.
+			 \item \textbf{Hérédité} : supposons la proposition $Q_n$ vraie pour un certian entier $n$ fixé, et démontrons que $Q_{n+1}$ est vraie.\\Par hypothèse de récurrence, on a donc \[  u_n\leq \left(\frac{2}{5}\right)^nu_0 \]
+			 En utilisant la question \ref{td7-6-q2}, on a alors :
+			 \begin{align*}
+				 u_{n+1} & \leq \frac{2u_n}{5} \\
+				  		 & \leq \frac{2}{5}\left(\frac{2}{5}\right)^nu_0 \text{ par H.R.}\\
+						 & \leq  \left(\frac{2}{5}\right)^{n+1} u_0
+			\end{align*}
+			Ainsi, $Q_{n+1}$ est vraie et la proposition est héréditaire.
+	 \end{description}
+	 D'après le principe de récurrence, on en déduit que $Q_n$ est vraie pour tout entier $n$, c'est-à-dire \[ \boxed{\forall~n\in \N,\quad u_n \leq \left(\frac25\right)^nu_9}\]
+	 En utilisant la question \ref{td7-6-q1}, on a plus précisement, pour tout $n$, \[ 0 \leq u_n \leq \left(\frac25\right)^n u_0 \]
+	 Constatons que, puisque $-1<\frac25<1$, alors $\ds{\left(\frac25\right)^n \tendversen{n\to+\infty} 0}$. D'après le théorème d'encadrement, on en déduit donc que \[ \boxed{ u_n\tendversen{n\to +\infty} 0 }\]}
+}

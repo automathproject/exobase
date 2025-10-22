@@ -1,0 +1,78 @@
+\uuid{nSDY}
+\chapitre{Probabilité discrète}
+\niveau{L2}
+\module{Probabilité et statistique}
+\sousChapitre{Probabilité et dénombrement}
+\titre{Calcul de probabilité}
+\theme{probabilités}
+\auteur{}
+\datecreate{2023-01-24}
+\organisation{AMSCC}
+\difficulte{}
+\contenu{
+	
+	\texte{ 	On  jette un dé à 6 faces et on observe le résultat. }
+	\begin{enumerate}
+		\item \question{ Quel univers peut-on définir pour modéliser cette expérience aléatoire ? }
+		\reponse{ L'univers $\Omega$ peut être défini comme l'ensemble des résultats possibles lorsqu'on jette un dé à 6 faces. Ainsi, $\Omega = \{1, 2, 3, 4, 5, 6\}$. }
+		\item \question{ On observe que $\PP(1)=0.3$, $\PP(2)=0.15$, $\PP(3)=0.1$, $\PP(4)=\PP(2)$, $\PP(5)=\PP(6)$. Le dé est-il truqué ? Déterminer $\PP(5)$ et $\PP(6)$. }
+		\reponse{ Le dé est truqué car les probabilités ne sont pas égales pour chaque face. Pour déterminer $\PP(5)$ et $\PP(6)$, nous utilisons la somme des probabilités égale à 1 :
+			$$
+			\PP(1) + \PP(2) + \PP(3) + \PP(4) + \PP(5) + \PP(6) = 1
+			$$
+			En substituant les valeurs données :
+			$$
+			0.3 + 0.15 + 0.1 + 0.15 + \PP(5) + \PP(5) = 1
+			$$
+			$$
+			0.7 + 2\PP(5) = 1
+			$$
+			$$
+			2\PP(5) = 0.3
+			$$
+			$$
+			\PP(5) = 0.15
+			$$
+			Donc, $\PP(5) = \PP(6) = 0.15$.
+		}
+		\item \texte{ On considère les deux événements suivants :
+			\begin{enumerate}
+				\item $A$ : \og le nombre obtenu est impair \fg{}
+				\item $B$ : \og le nombre obtenu est supérieur ou égal à 3 \fg{}.
+		\end{enumerate} }
+		\question{ Calculer les probabilités $\PP(A)$, $\PP(B)$, $\PP(A \cap B)$. }
+		\reponse{
+			\begin{align*}
+				\PP(A) &= \PP(1) + \PP(3) + \PP(5) = 0.3 + 0.1 + 0.15 = 0.55 \\
+				\PP(B) &= \PP(3) + \PP(4) + \PP(5) + \PP(6) = 0.1 + 0.15 + 0.15 + 0.15 = 0.55 \\
+				\PP(A \cap B) &= \PP(3) + \PP(5) = 0.1 + 0.15 = 0.25
+			\end{align*}
+		}
+		\item \question{ Calculer $\PP(A \cup B)$ de deux manières différentes. }
+		\reponse{ Première méthode :
+			$$
+			\PP(A \cup B) = \PP(A) + \PP(B) - \PP(A \cap B) = 0.55 + 0.55 - 0.25 = 0.85
+			$$
+			Deuxième méthode :
+			$$
+			\PP(A \cup B) = \PP(1) + \PP(3) + \PP(4) + \PP(5) + \PP(6) = 0.3 + 0.1 + 0.15 + 0.15 + 0.15 = 0.85
+			$$
+		}
+		\item \question{ Décrire à l'aide d'une phrase les événements $\bar A$ et $\bar B$ puis calculer leur probabilité. }
+		\reponse{ $\bar A$ : \og le nombre obtenu est pair \fg{}. $\bar B$ : \og le nombre obtenu est inférieur à 3 \fg{}.
+			\begin{align*}
+				\PP(\bar A) &= 1 - \PP(A) = 1 - 0.55 = 0.45 \\
+				\PP(\bar B) &= 1 - \PP(B) = 1 - 0.55 = 0.45
+			\end{align*}
+		}
+		\item\question{  Donner un exemple de deux événements incompatibles $C$ et $D$ puis calculer $\PP(C)$, $\PP(D)$, $\PP(C \cap D)$, $\PP(C \cup D)$. }
+		\reponse{ $C$ : \og le nombre obtenu est 1 \fg{}. $D$ : \og le nombre obtenu est 2 \fg{}.
+			\begin{align*}
+				\PP(C) &= 0.3 \\
+				\PP(D) &= 0.15 \\
+				\PP(C \cap D) &= 0 \quad \text{(puisque $C$ et $D$ sont incompatibles)} \\
+				\PP(C \cup D) &= \PP(C) + \PP(D) = 0.3 + 0.15 = 0.45
+			\end{align*}
+		}
+	\end{enumerate}
+}

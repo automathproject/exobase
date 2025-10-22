@@ -1,0 +1,29 @@
+\uuid{iOpj}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Premières limites}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Limites d'un quotient}
+\contenu{
+\texte{Déterminer la limite (si elle existe)  des suites $(u_n)$ définies par}
+\question{$u_n=\dfrac{\left({5}/{6}\right)^n-7}{5n^2}$}
+\reponse{\begin{align*}
+Puisque $-1<\frac56<1$, $\left(\frac56\right)^n\tendversen{n\to+\infty} 0$. Par somme,  \[ \lim_{n\to+\infty}\left(\frac56\right)^n-7=-7 \]
+	De plus, $5n^2\tendversen{n\to +\infty} +\infty$. Par quotient \[ \lim_{n\to +\infty} \dfrac{\left({5}/{6}\right)^n-7}{5n^2} = 0 \]
+\end{align*}}
+\question{$u_n=\dfrac{-2n-7}{\left({1}/{2}\right)^n}$}
+\reponse{\begin{align*}
+Puisque $n\tendversen{n\to +\infty} +\infty$, par produit, $-2n\tendversen{n\to +\infty} -\infty$. Par somme \[ \lim_{n\to +\infty} -2n-7=-\infty \]
+	De plus, $-1<\frac12<1$ et donc $\left(\frac12\right)^n \tendversen{n\to +\infty} 0^+$ ($0^+$ car pour tout $n$, $\left(\frac12\right)^n\geq 0$). Par quotient \[ \lim_{n\to +\infty} \dfrac{-2n-7}{\left({1}/{2}\right)^n} = -\infty \]
+\end{align*}}
+\question{$u_n=\dfrac{\left({5}/{6}\right)^n-7}{5n^{-2}+1}$}
+\reponse{\begin{align*}
+Puisque $-1<\frac56<1$, $\left({5}/{6}\right)^n\tendversen{n\to +\infty} 0$. Par somme \[ \lim_{n\to+\infty}\left({5}/{6}\right)^n-7=-7 \]
+	De plus, $n^{-2}=\frac{1}{n^2}\tendversen{n\to +\infty} 0$, donc par somme \[ \lim_{n\to +\infty} 5n^{-2}+1=1 \]
+	Par quotient \[ \lim_{n\to +\infty} \dfrac{\left({5}/{6}\right)^n-7}{5n^{-2}+1}=-7 \]
+\end{align*}}
+}

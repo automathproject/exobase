@@ -1,0 +1,38 @@
+\uuid{Jvgk}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Fonctions}
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Injectivité, surjectivité, bijectivité}
+\contenu{
+\question{Déterminer si les fonctions suivantes sont injectives, surjectives, bijectives.
+\begin{itemize}[label=\textbullet]
+    \item $f:\R \rightarrow \R$ définie pour tout $x\in \R$ par
+    $f(x)=x^2+1$.
+    \item $g:\R^*_+ \rightarrow \R$ définie pour tout $x>0$ par
+   $\ds{g(x)=\eu{3+\ln(x)}}$
+    \item $h:\R\setminus \{-1\} \rightarrow \R^*$ définie pour tout $x\in \R$ par
+    $h(x)=\dfrac{1}{x^3+1}$
+\end{itemize}}
+\reponse{\begin{align*}
+\begin{itemize}[label=\textbullet]
+  \item \textbf{Injectivité}. \textit{Rappel de la méthode : pour montrer qu'une fonction est injective, on écrit $f(x)=f(x')$ et on essaie de montrer que $x=x'$. Pour montrer qu'elle n'est pas injective, on exhibe un contre-exemple.}\\
+  	  $f$ n'est pas injective sur $\R$. En effet, $-1\neq 1$ et pourtant $f(-1)=f(1)=2$.\\
+  	  $g$ est injective sur $\R^*_+$. En effet, soient $x$ et $x'$ deux réels strictement positifs. Alors
+  	  \[g(x)=g(x')\Leftrightarrow \eu{3+\ln(x)}=\eu{3+\ln(x')} \Leftrightarrow 3+\ln(x)=3+\ln(x') \text{ car $\exp$ est strictement croissante sur $\R$.}\]
+  	  Ainsi, $\ln(x)=\ln(x')$ puis $x=x'$ car la fonction $\ln$ est strictement croissante sur $\R^*_+$.\\
+  	  $h$ est injective sur $\R$. En effet, soient $x$ et $x'$ deux réels. Alors
+  	  \[h(x)=h(x')\Leftrightarrow \frac{1}{x^3+1}=\frac{1}{x'^3+1} \Leftrightarrow x^3+1=x'^3+1 \text{ en appliquant la fonction inverse}\]
+  	  donc $x^3=x'^3$ puis $x=x'$ car la fonction cube est strictement croissante sur $\R$.
+  	  \item \textbf{Surjectivité}. \textit{Rappel de la méthode : pour montrer qu'une fonction est surjective sur un ensemble, on prend $y$ un élément de cet ensemble, et on lui cherche au moins un antécédent. Pour montrer qu'elle n'est pas surjective, on exhibe un élément $y$ de cet ensemble qui n'est pas atteint par la fonction.}\\
+  	  		$f$ n'est pas surjective. En effet, pour tout réel $x$, $x^2+1\geq 1$, donc (par exemple) $0$ n'est jamais atteint par la fonction $f$. \textit{En revanche, elle est surjective sur $[1;+\infty[$}.\\
+  	  		$g$ n'est pas surjective. En effet, pour tout réel $x>0$, $g(x)>0$ (car une exponentielle est toujours positive), donc (par exemple) $-1$ n'est jamais atteint par la fonction $g$. \textit{En revanche, elle est surjective sur $]0;+\infty[$.}\\
+  	  		$h$ est surjective. En effet, soit $y\in \R^*$. Alors $h(x)=y$ nous donne $\frac{1}{x^3+1}=y$ puis $x^3=\frac{1}{y}-1$ ($y\neq 0$) et enfin $x=\sqrt[3]{\frac{1}{y}-1}$ (fonction qui est bien définie sur $\R$). %% symbole racine cubique
+	\item \textbf{Bijectivité}. $f$ n'étant pas injective, elle n'est a fortiori par bijective. De même, $g$ n'étant pas surjective, elle n'est pas bijective. Enfin, $h$ étant à la fois injective et surjective, elle est bijective.
+\end{itemize}
+\end{align*}}
+}

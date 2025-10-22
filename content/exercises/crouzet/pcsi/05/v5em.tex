@@ -1,0 +1,37 @@
+\uuid{v5em}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Ensemble}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Unions nous, incluons nous}
+\contenu{
+\question{Expliciter les trois ensembles suivants :
+\[ \bigcap_{n\in \N*} \interoo{ -\frac{1}{n} \frac{1}{n}},\quad \quad \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}},\quad\qeq \bigcup_{k=1}^{+\infty} \left( \left [-k,\,-\frac{1}{k}\right[ \cup \left]\frac{1}{k},\, k\right]\right).\]}
+\reponse{\begin{align*}
+On va démontrer, par double inclusion, que :
+\[ \bigcap_{n\in \N*} \interoo{ -\frac{1}{n} \frac{1}{n}}=\left \{ 0 \right\},\quad \quad \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}}=\interff{0 2},\quad\qeq \bigcup_{k=1}^{+\infty} \left( \left [-k,\,-\frac{1}{k}\right[ \cup \left]\frac{1}{k},\, k\right]\right)=\R*.\]
+\begin{itemize}
+  \item
+  Tout d'abord, pour tout $n\geq 1$, $0 \in \left ] -\frac{1}{n},\, \frac{1}{n}\right[$ donc \[\left \{ 0 \right \} \subset \bigcap_{n\in \N*} \interoo{ -\frac{1}{n} \frac{1}{n}}.\]
+  Réciproquement, si $\ds{x \in \bigcap_{n\in \N*} \left] -\frac1n,\, \frac1n\right[}$, alors, pour tout $n$ \[ -\frac{1}{n} < x < \frac{1}{n} \]
+  soit par passage à la limite, $x=0$. Ainsi, $\ds{x \in \bigcap_{n\in \N*} \left] -\frac1n,\, \frac1n\right[ \subset \{ 0\}}$ et on conclut quant à l'égalité.
+  \item Remarquons que, pour tout entier $p\geq 1$ et pour tout $x\in \interff{0 2}$, on a \[ -\frac{1}{p} \leq x < 2+\frac{1}{p}=\frac{2p+1}{p} \]
+  Ainsi, pour tout $x \in \interff{0 2}$, \[ x\in \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}} \implies \interff{0 2} \subset \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}} \]
+  Réciproquement, soit $\ds{x\in \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}}}$. Alors, pour tout $p\geq 1$, on a \[ -\frac{1}{p} \leq x < \frac{2p+1}{p} \] soit, par passage à la limite \[ 0 \leq x \leq 2 \]
+  et finalement $x\in \interff{0 2}$ et donc \[ \interff{0 2} \supset \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}}\]
+  On peut alors conclure, par double inclusion, que \[\interff{0 2} = \bigcap_{p=1}^{+\infty} \interfo{-\frac{1}{p} \frac{2p+1}{p}}\]
+  \item Tout d'abord, pour tout $k\in \N*$, on a \[ \interfo{ -k -\frac{1}{k}} \cup \interof{\frac{1}{k} k} \subset \R* \]
+  Ainsi, \[ \bigcup_{k=1}^{+\infty} \left( \left [-k,\,-\frac{1}{k}\right[ \cup \left]\frac{1}{k},\, k\right]\right) \subset \R*\]
+  Réciproquement, soit $x\in \R*$. Si $x>0$, puisque $k\tendversen{k\to +\infty} +\infty$ et $\frac{1}{k} \tendversen{k\to +\infty} 0$, il existe un entier $p$ tel que $\frac{1}{p} < x \leq p$. Mais alors $x\in \interof{\frac{1}{p} p}$ et donc $x$ est dans l'union. Le cas $x<0$ se traite de la même manière. 
+\end{itemize}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

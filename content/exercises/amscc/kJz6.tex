@@ -1,0 +1,51 @@
+\uuid{kJz6}
+\chapitre{Probabilité discrète}
+\niveau{L2}
+\module{Probabilité et statistique}
+\sousChapitre{Probabilité et dénombrement}
+\titre{Probabilité d'événements}
+\theme{probabilités}
+\auteur{ }
+\datecreate{2023-08-30}
+\organisation{AMSCC}
+%Proba360
+
+\difficulte{1}
+\contenu{
+\texte{ Soit $(\Omega, \mathcal{T}, \prob)$ un espace probabilisé et deux événements $A$ et $B$. On note $\overline{A}$ et $\overline{B}$ les événements complémentaires de $A$ et $B$. 
+	
+	On dispose des valeurs suivantes : $$\prob(A) = \frac{1}{2} \quad , \quad \prob(A \cup B) = \frac{7}{8} \quad , \quad \prob(\overline{B}) = \frac{3}{8}$$
+}	
+
+
+Calculer les probabilités suivantes : 
+\begin{enumerate}
+	\item \question{ $\prob(A \cap B)$ ; }
+	\reponse{ 
+		On a $\prob(B) = 1 - \prob(\overline{B}) = 1 - \frac{3}{8} = \frac{5}{8}$. \\
+		D'après la formule de Poincaré pour deux événements :
+		$$ \prob(A \cap B) = \prob(A) + \prob(B) - \prob(A \cup B) $$
+		$$ \prob(A \cap B) = \frac{1}{2} + \frac{5}{8} - \frac{7}{8} = \frac{4}{8} + \frac{5}{8} - \frac{7}{8} = \frac{2}{8} = \frac{1}{4} $$
+	}
+	\item \question{ $\prob(\overline{A} \cap \overline{B})$ ; }
+	\reponse{ 
+		D'après les lois de De Morgan, $\overline{A} \cap \overline{B} = \overline{A \cup B}$.
+		$$ \prob(\overline{A} \cap \overline{B}) = \prob(\overline{A \cup B}) = 1 - \prob(A \cup B) $$
+		$$ \prob(\overline{A} \cap \overline{B}) = 1 - \frac{7}{8} = \frac{1}{8} $$
+	}
+	\item \question{ $\prob(\overline{A} \cup \overline{B})$ ; }
+	\reponse{ 
+		D'après les lois de De Morgan, $\overline{A} \cup \overline{B} = \overline{A \cap B}$.
+		$$ \prob(\overline{A} \cup \overline{B}) = \prob(\overline{A \cap B}) = 1 - \prob(A \cap B) $$
+		$$ \prob(\overline{A} \cup \overline{B}) = 1 - \frac{2}{8} = \frac{6}{8} = \frac{3}{4} $$
+	}
+	\item \question{ $\prob(\overline{A} \cup B)$. }
+	\reponse{ 
+		On a $\prob(\overline{A}) = 1 - \prob(A) = 1 - \frac{1}{2} = \frac{1}{2}$. \\
+		On calcule $\prob(\overline{A} \cap B) = \prob(B) - \prob(A \cap B) = \frac{5}{8} - \frac{2}{8} = \frac{3}{8}$. \\
+		D'après la formule de l'union :
+		$$ \prob(\overline{A} \cup B) = \prob(\overline{A}) + \prob(B) - \prob(\overline{A} \cap B) $$
+		$$ \prob(\overline{A} \cup B) = \frac{1}{2} + \frac{5}{8} - \frac{3}{8} = \frac{4}{8} + \frac{5}{8} - \frac{3}{8} = \frac{6}{8} = \frac{3}{4} $$
+	}
+\end{enumerate}
+}

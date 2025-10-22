@@ -1,0 +1,61 @@
+\uuid{UqDT}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Suites et limites}
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Exercice bilan II}
+\contenu{
+\texte{On considère les suites $u$ et $v$ définies par $u_0=1$, $v_0=12$ et pour tout entier naturel $n$ :
+$$u_{n+1}=\frac{u_n+2v_n}{3}~~~~\textrm{ et }~~~~v_{n+1}=\frac{u_n+3v_n}{4}$$}
+\question{Soit $(w_n)$ la suite définie pour tout entier naturel $n$ par $w_n=v_n-u_n$.
+	\begin{enumerate}
+		\item Démontrer que la suite $(w_n)$ est géométrique. On précisera la raison et le premier terme.
+		\item Déterminer l'expression de $w_n$ en fonction de $n$.
+		\item En déduire que pour tout entier $n$, $w_n>0$
+		\item Déterminer la limite de la suite $(w_n)$.
+	\end{enumerate}}
+\reponse{\begin{align*}
+~\begin{enumerate}
+            \item Pour tout entier $n$, on a
+               $$w_{n+1}=v_{n+1}-u_{n+1}=\frac{u_n+3v_n}{4}-\frac{u_n+2v_n}{3}=\frac{3u_n+9v_n-(4u_n+8v_n)}{12}=\frac{v_n-u_n}{12}=\frac{w_n}{12}$$
+               La suite $(w_n)$ est une suite géométrique, de raison $\frac{1}{12}$ et de premier terme $w_0=v_0-u_0=12-1=11$.
+            \item Ainsi, pour tout entier $n$, on a $\displaystyle{w_n=11\left(\frac{1}{12}\right)^n}$.
+            \item Puisque $11>0$ et $\frac{1}{12}>0$, pour tout entier $n$, $w_n>0$.
+            \item Puisque $\displaystyle{-1<\frac{1}{12}<1}$, $\displaystyle{\lim_{n\rightarrow +\infty} \left(\frac{1}{12}\right)^n = 0}$. Par produit, $$\lim_{n\rightarrow +\infty} w_n=0$$
+            \end{enumerate}
+\end{align*}}
+\question{Démontrer que la suite $(u_n)$ est croissante, et que la suite $(v_n)$ est décroissante.}
+\reponse{\begin{align*}
+Pour tout entier $n$, on a
+        $$u_{n+1}-u_{n} = \frac{u_n+2v_n}{3}-u_n=\frac{2v_n-2u_n}{3}= \frac{2w_n}{3}$$
+        Puisque pour tout entier $n$, $w_n>0$, alors $u_{n+1}-u_{n}>0$ : la suite $u$ est bien croissante.
+        \\De même,
+        $$v_{n+1}-v_n = \frac{u_n+3v_n}{4}-v_n=\frac{u_n-v_n}{4}=\frac{-w_n}{4}$$
+        Ainsi, puisque pour tout $n$, $w_n>0$, alors $v_{n+1}-v_n<0$ : la suite $v$ est décroissante.
+\end{align*}}
+\question{En déduire que les suites $(u_n)$ est $(v_n)$ sont adjacentes, et qu'elles ont la même limite que l'on notera $\ell$ dans la suite du problème.}
+\reponse{\begin{align*}
+D'après les questions $1d)$ et $2$, on vient de démontrer que la suite $u$ est croissante, $v$ est décroissante, et $\displaystyle{\lim_{n\rightarrow +\infty} v_n-u_n= \lim_{n\rightarrow +\infty} w_n=0}$. Les suites $u$ et $v$ sont bien adjacentes.\\Par théorème, les deux suites adjacentes convergent, et convergent vers la même limite que l'on note $\ell$.
+\end{align*}}
+\question{Soit $t$ la suite définie pour tout entier naturel par $t_n=3u_n+8v_n$.
+	\begin{enumerate}
+		\item Montrer que la suite $(t_n)$ est constante.
+		\item Déterminer alors la valeur de $\ell$.
+	\end{enumerate}}
+\reponse{\begin{align*}
+~\begin{enumerate}
+                \item Pour tout $n$, on a
+                $$t_{n+1}=3u_{n+1}+8v_{n+1}=u_n+2v_n+2(u_n+3v_n)=3u_n+8v_n=t_n$$
+                La suite $(t_n)$ est donc constante.
+                \item La suite étant constante, pour tout entier $n$, $t_n=t_0=99$. Par somme et produit, puisque $\ell$ désigne la limite de $(u_n)$ et $(v_n)$, on obtient
+                $$\lim_{n\rightarrow +\infty} t_n=3\ell+8\ell=11\ell$$
+                Ainsi, puisque la suite $(t_n)$ est constante, on a $11\ell=99$ et donc $\ell=9$.
+                \\Bilan :
+                $$\boxed{\lim_{n\rightarrow +\infty} u_n = \lim_{n\rightarrow +\infty} v_n=9}$$
+            \end{enumerate}
+\end{align*}}
+}

@@ -1,0 +1,34 @@
+\uuid{tLN1}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Logiques}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Négation et traducation}
+\contenu{
+\texte{Traduire en français, puis écrire la négation des propositions suivantes.}
+\question{$\forall x\in \R+,\,\exists~y\in \R,\, y^2=x$.}
+\reponse{\begin{align*}
+Pour tout réel positif $x$, il existe un réel $y$ tel que $y^2=x$. C'est la définition d'une racine carrée. Sa négation : \[ \exists~x\in \R+,\, \forall y\in \R,\, y^2\neq x \]
+\end{align*}}
+\question{$\forall x>1,\,\exists~n\in \N,\,x^n\geq 2021$.}
+\reponse{\begin{align*}
+Pour tout $x>1$, il existe un entier $n$ tel que $x^n\geq 2021$. Sa négation : \[ \exists~x>1,\,\forall n\in \N,\, x^n<2021 \]
+\end{align*}}
+\question{$\forall x\in X,\,\forall y\in Y,\, xy=0 \implies (x=0 \ou y=0)$.}
+\reponse{\begin{align*}
+Pour tous éléments $x\in X$ et $y\in Y$, si $xy=0$ alors $x=0$ ou $y=0$. C'est le \og{} théorème du produit nul\fg{} (appelé \textbf{intégrité} du corps des réels). Sa négation : \[ \exists~x\in X,\, \exists~y\in Y,\, xy=0 \text{ et pourtant } x\neq 0 \text{ et } y\neq 0 \]
+\end{align*}}
+\question{$\exists!x \in E,\, f(x)=0$.}
+\reponse{\begin{align*}
+Il existe un unique élément $x\in E$ tel que $f(x)=0$. Cela traduit l'unicité de la solution de l'équation $f(x)=0$. Sa négation : \[ \forall x\in E,\, f(x)\neq 0 \text{ ou } \exists~x\in E,\exists~y\in E,\, x\neq y,\, f(x)=0,\, f(y)=0 \]
+  \begin{attention}
+La négation d'un \og{} il existe un unique \fg{} est \og{} il n'existe pas ou bien il en existe au moins 2\fg{}. 
+  \end{attention}
+\end{align*}}
+}

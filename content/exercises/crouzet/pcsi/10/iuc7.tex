@@ -1,0 +1,38 @@
+\uuid{iuc7}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Premières limites}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Limites d'un polynôme ou de fraction rationnelle}
+\contenu{
+\texte{Déterminer la limite (si elle existe) de chacune des suites $(u_n)$ définies par}
+\question{$u_n=-2n^5+n^4-7n^3+8n+2$}
+\reponse{On utilise la mise en facteur pour lever l'indétermination. 
+\begin{enumerate}
+	\item On met $n^5$ en facteur : 
+	\begin{align*}
+		u_n &= n^5\left(-2+\frac{n^4}{n^5}-\frac{7n^3}{n^5}+\frac{8n}{n^5}+\frac{2}{n^5}\right)\\
+		    &= n^5\left( -2 +\frac{1}{n}-\frac{7}{n^2}+\frac{8}{n^4}+\frac{2}{n^5}\right)
+		\end{align*}
+	Par somme, on a \[ \lim_{n\to +\infty} -2 +\frac{1}{n}-\frac{7}{n^2}+\frac{8}{n^4}+\frac{2}{n^5} = -2 \]
+	De plus, $\ds{\lim_{n\to+\infty} n^5 = +\infty}$. Par produit, $\ds{\lim_{n\to+\infty} u_n=-\infty}$.}
+\question{$u_n=\dfrac{-2n-7}{n^2+2n-6}$}
+\reponse{\item De même :
+	\begin{align*}
+		u_n &= \frac{n\left(-2-\frac{7}{n}\right)}{n^2\left(1+\frac{2}{n}-\frac{6}{n}\right)}\\
+		&= \frac{\left(-2-\frac{7}{n}\right)}{n\left(1+\frac{2}{n}-\frac{6}{n}\right)}
+	\end{align*}
+	Par somme, \[ \lim_{n\to +\infty} -2-\frac{7}{n} = -2 \qeq \lim_{n\to +\infty} 1+\frac{2}{n}-\frac{6}{n}=1 \]
+	Puisque $n\tendversen{n\to +\infty} +\infty$, par produit \[ \lim_{n\to +\infty} n\left(1+\frac{2}{n}-\frac{6}{n}\right)=+\infty \]}
+\question{$u_n=3n+1+\dfrac{-3}{n^{2}+1}$}
+\reponse{\begin{align*}
+Par quotient, $\ds{\lim_{n\to +\infty} u_n=0}$.
+	\item Enfin, $n^2+1\tendversen{n\to \infty} +\infty$ par somme. Par quotient, \[ \lim_{n\to +\infty} \frac{-3}{n^2+1} = 0 \]
+	De plus, $3n+1\tendversen{n\to+\infty} +\infty$ par somme. On conclut donc par somme que $\ds{\lim_{n\to +\infty} u_n=+\infty}$
+\end{enumerate}
+\end{align*}}
+}

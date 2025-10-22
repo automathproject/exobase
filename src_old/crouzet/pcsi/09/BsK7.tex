@@ -1,0 +1,85 @@
+\uuid{BsK7}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Exercices bilans}
+\duree{30}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Exercice bilan III}
+\contenu{
+\texte{On consdière les suites $(u_n)$ et $(v_n)$ définies par :
+$$u_0=2\textrm{ et pour tout }n\in \mathbb{N},~~v_n=\frac{2}{u_n}\textrm{ et } u_{n+1}=\frac{u_n+v_n}{2}$$}
+\question{Calculer $v_0; u_1; v_1; u_2; v_2$. On donnera les résultats sous forme de fraction irréductible.}
+\reponse{\begin{align*}
+Rapidement on a $v_0=1$, $u_1=\frac{3}{2}$, $v_1=\frac{4}{3}$, $u_2=\frac{17}{12}$ et $v_2=\frac{24}{17}$.
+\end{align*}}
+\question{Démontrer que les suites $(u_n)$ et $(v_n)$ sont majorées par $2$ et minorées par $1$.}
+\reponse{\begin{align*}
+Faisons une récurrence liée. Soit $P$ la proposition définie pour tout entier $n$ par $P_n$ : ``$1\leq u_n \leq 2$ et $1\leq v_n \leq 2$''.
+		\begin{itemize}[label=\textbullet]
+			\item Pour $n=0$, $u_0=2$ et $v_0=1$ donc $1\leq u_0\leq 2$ et $1\leq v_0 \leq 2$. Ainsi, $P_0$ est vraie.
+			\item Supposons $P_n$ vraie pour un certain entier $n$. Montrons que $P_{n+1}$ est également vraie. Par hypothèse de récurrence, on a $1\leq u_n \leq 2$ et $1\leq v_n\leq 2$ et en additionnant ces deux inégalités
+				$$2\leq u_n+v_n \leq 4 \textrm{  soit  } 1\leq \frac{u_n+v_n}{2}\leq 2$$
+				donc $1\leq u_{n+1} \leq 2$. En appliquant la fonction inverse, qui est strictement décroissante sur $\R^*_+$, on a
+				$$1\geq \frac{1}{u_{n+1}} \geq \frac{1}{2} \textrm{  et donc  } 2 \geq \frac{2}{u_{n+1}} \geq 1$$
+				Ainsi, $P_{n+1}$ est vraie.
+		\end{itemize}
+		   	    D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$, et donc pour tout entier $n$, $1\leq u_n \leq 2$ et $1\leq v_n \leq 2$.
+\end{align*}}
+\question{Montrer que pour tout $n\in \mathbb{N}$, on a
+	$$u_{n+1}-v_{n+1}=\frac{(u_n-v_n)^2}{2(u_n+v_n)}$$}
+\reponse{\begin{align*}
+Pour tout entier $n$, on a
+		$$u_{n+1}-v_{n+1}=\frac{u_n+v_n}{2}-\frac{2}{u_{n+1}}=\frac{u_n+v_n}{2}-\frac{2}{\frac{u_n+v_n}{2}}=\frac{u_n+v_n}{2}- \frac{4}{u_n+v_n}$$
+		et donc
+		$$u_{n+1}-v_{n+1} = \frac{(u_n+v_n)^2-8}{2(u_n+v_n)}=\frac{u_n^2+2u_nv_n+v_n^2-8}{2(u_n+v_n)}$$
+		Or $v_n=\frac{2}{u_n}$ donc $u_nv_n=2$. Donc $8=4u_nv_n$. Ainsi,
+		$$u_{n+1}-v_{n+1}=\frac{u_n^2+2u_nv_n+v_n^2-4u_nv_n}{2(u_n+v_n)}=\frac{u_n^2-2u_nv_n+v_n^2}{2(u_n+v_n)}=\frac{(u_n-v_n)^2}{2(u_n+v_n)}$$
+\end{align*}}
+\question{Montrer que pour tout $n$, $u_n\geq v_n$.}
+\reponse{\begin{align*}
+Puisque, pour tout entier $n$, $u_n\geq 1>0$ et $v_n\geq 1 >0$, on a $2(u_n+v_n)>0$ et donc, par quotient, $u_{n+1}-v_{n+1}\geq 0$. Puisqu'on a également $u_0-v_0=1\geq 0$, on en déduit : $$\forall~n,~u_n\geq v_n$$
+\end{align*}}
+\question{Montrer que $(u_n)$ est décroissante, et $(v_n)$ est croissante.}
+\reponse{\begin{align*}
+Constatons que, pour tout entier $n$,
+		$$u_{n+1}-u_n=\frac{u_n+v_n}{2}-u_n=\frac{u_n+v_n-2u_n}{2}=\frac{v_n-u_n}{2}$$
+		D'après le résultat précédent, on en déduit donc que $u_{n+1}-u_n<0$ pour tout entier $n$. Donc $(u_n)$ est décroissante.\\
+		Enfin, puisque $0<u_{n+1} \leq u_n$, en appliquant la fonction inverse qui est strictement décroissante sur $\R^*_+$
+		$$\frac{1}{u_{n+1}}\geq \frac{1}{u_n} \textrm{  soit  } v_{n+1}\geq v_n$$
+		Ainsi, ceci étant vrai pour tout entier $n$, la suite $(v_n)$ est croissante.
+\end{align*}}
+\question{Montrer que pour tout $n$, $u_n-v_n\leq 1$, et en déduire que $(u_n-v_n)^2\leq u_n-v_n$.}
+\reponse{\begin{align*}
+Notons, pour tout entier $n$, $w_n=u_n-v_n$. On a alors, pour tout entier $n$, $$w_{n+1}-w_n=\underbrace{u_{n+1}-u_n}_{\leq 0} - (\underbrace{v_{n+1}-v_n}_{\geq 0}) \leq 0$$
+			La suite $(w_n)$ est donc décroissante. Ainsi, pour tout entier $n$, $$w_n \leq w_0=1$$
+			On a donc, d'après ce qui précède et la question $4.$, pour tout entier $n$, $$0\leq u_n-v_n \leq 1$$
+			Or, quand $x\in [0;1]$, on a $x^2\leq x$, donc
+			$$\forall~n,~(u_n-v_n)^2\leq u_n-v_n$$
+\end{align*}}
+\question{Montrer que pour tout $n$, $$u_{n+1}-v_{n+1}\leq \frac{1}{4}(u_n-v_n)$$
+	En déduire que pour tout $n$, $u_n-v_n\leq \frac{1}{4^n}$.}
+\reponse{\begin{align*}
+Pour tout entier $n$, on a
+			$$2\leq u_n+v_n \leq 4 \textrm{  et donc  } 4 \leq 2(u_n+v_n) \leq 8$$
+			soit, en appliquant la fonction inverse, strictement décroissante sur $\R^*_+$,
+			$$\frac{1}{4} \geq \frac{1}{2(u_n+v_n)} \geq \frac{1}{8}$$
+			Enfin, puisque $(u_n-v_n)^2\geq 0$,
+			$$\frac{(u_n-v_n)^2}{4} \geq \frac{(u_n-v_n)^2}{2(u_n+v_n)} \geq \frac{(u_n-v_n)^2}{8}$$
+			En utilisant le résultat de la question $6$, on obtient finalement que, pour tout entier $n$,
+			$$u_{n+1}-v_{n+1} \leq \frac{1}{4}(u_n-v_n)^2 \leq \frac{1}{4}(u_n-v_n)$$
+			Soit alors $P$ la proposition définie, pour tout entier $n$, par $P_n$ : ``$u_n-v_n \leq \frac{1}{4^n}$''.
+			\begin{itemize}[label=\textbullet]
+				\item Pour $n=0$, on a $u_0-v_0=1$ et $\frac{1}{4^0}=1$. Donc $u_0-v_0\leq \frac{1}{4^0}$ et $P_0$ est vraie.
+				\item Supposons que $P_n$ est vraie pour un certain entier $n$, et montrons que $P_{n+1}$ est vraie.\\
+					D'après ce qui précède, on a
+					$$u_{n+1}-v_{n+1}\leq \frac{1}{4}(u_n-v_n)$$
+					Par hypothèse de récurrence, $u_n-v_n\leq \frac{1}{4^n}$. Donc
+					$$u_{n+1}-v_{n+1} \leq \frac{1}{4} \frac{1}{4^n} =\frac{1}{4^{n+1}}$$
+					Donc $P_{n+1}$ est vraie.
+			\end{itemize}
+	 D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$, et donc pour tout entier $n$, $u_n-v_n\leq \frac{1}{4^n}$.
+\end{align*}}
+}

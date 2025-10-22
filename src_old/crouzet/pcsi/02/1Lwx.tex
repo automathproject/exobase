@@ -1,0 +1,40 @@
+\uuid{1Lwx}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{Inégalités et parties de $\R$}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\contenu{
+\texte{Pour chacune des parties de $\R$ suivantes, déterminer, s'ils existent, le minimum, maximum, borne inférieure et borne supérieure.}
+\question{$\interof{1 3}$,}
+\reponse{\begin{align*}
+Pour les trois premiers, on utilise les propriétés des intervalles vues dans le cours. Ainsi :
+\begin{enumerate}
+	\item $\interof{1 3}$ admet une borne supérieure qui est un maximum ($3$), et une borne inférieure qui n'est pas un minimum ($1$).
+	\item $\R<$ admet une borne supérieure ($0$) qui n'est pas un maximum, mais pas de borne inférieure.
+\end{align*}}
+\question{$\R<$,}
+\reponse{\begin{align*}
+\item $\interff{1 3} \cup \interoo{4 5}$ admet une borne inférieure ($1$) qui est un minimum, et une borne supérieure $5$ qui n'est pas un maximum.
+\end{enumerate}
+Pour le quatrième, on a d'une part que pour tout $n\in\N*$, $1+2n\geq 1+2=3$ donc $3$ est un minorant, qui un minimum car présent dans l'ensemble (donc un minimum). En revanche, l'ensemble n'est pas majorée (par exemple, parce que la suite $(1+2n)$ a pour limite $+\infty$), donc n'a pas de borne supérieure.
+\end{align*}}
+\question{$\interff{1 3} \cup \interoo{4 5}$,}
+\reponse{\begin{align*}
+Pour le cinquième, on a, pour tout entier $n\geq 1$ : \[ 0 \leq \frac{1+(-1)^n}{n} \leq \frac{2}{n}\leq 1 \]
+On remarque que $1$ est dans l'ensemble (pour $n=2$) donc $1$ est un maximum, et $0$ est dans l'ensemble (pour $n=1$ par exemple), donc $0$ est un minimum.
+\end{align*}}
+\question{$\left \{ 1+2n,\, n\in \N*\right \}$,}
+\reponse{\begin{align*}
+Enfin, pour le dernier, on constate que pour tout $x\in \interoo{1 +\infty}$, $1-x<0$ et donc $\dfrac{1}{1-x}<0$. Ainsi, $0$ est un majorant. De plus, $\ds{\lim_{x\to +\infty} \frac{1}{1-x}=0}$. $0$ est donc la borne supérieure mais n'est pas atteinte, donc n'est pas un maximum. Pour terminer, $\ds{\lim_{x\to 1^+} \frac{1}{1-x}=-\infty}$ donc la partie n'admet pas de minorant, ni de borne inférieure.
+\end{align*}}
+\question{$\left \{ \frac{1+(-1)^n}{n},\, n\in \N*\right \}$,}
+\reponse{}
+\question{$\left \{ \frac{1}{1-x},\, x\in \interoo{1 +\infty} \right \}$.}
+\reponse{}
+}

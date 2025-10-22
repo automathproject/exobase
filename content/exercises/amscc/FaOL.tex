@@ -1,0 +1,78 @@
+\uuid{FaOL}
+\chapitre{Matrice}
+\niveau{L1}
+\module{Algèbre}
+\sousChapitre{Propriétés élémentaires, généralités}
+\titre{Produit matriciel}
+\theme{calcul matriciel}
+\auteur{}
+\datecreate{2022-12-15}
+\organisation{AMSCC}
+
+\difficulte{}
+\contenu{
+	
+	\texte{ Soient les matrices $A=\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}$ et $B=\begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix}$. }
+	
+	\begin{enumerate}
+		\item \question{ A-t-on $A^2-B^2=(A+B)(A-B)$ ? Justifier. }
+		\item \question{ Déterminer une condition nécessaire et suffisante pour obtenir l'égalité. }
+	\end{enumerate}
+	
+	\reponse{ $$
+		\begin{aligned}
+		& A^2=\begin{pmatrix}
+		0 & 0 \\
+		0 & 1
+		\end{pmatrix} \cdot \begin{pmatrix}
+		0 & 0 \\
+		0 & 1
+		\end{pmatrix}=\begin{pmatrix}
+		0 & 0 \\
+		0 & 1
+		\end{pmatrix} \\
+		& B^2=\begin{pmatrix}
+		0 & 0 \\
+		1 & 0
+		\end{pmatrix} \cdot \begin{pmatrix}
+		0 & 0 \\
+		1 & 0
+		\end{pmatrix}=\begin{pmatrix}
+		0 & 0 \\
+		0 & 0
+		\end{pmatrix} \\
+		& A^2-B^2=\begin{pmatrix}
+		0 & 0 \\
+		0 & 1
+		\end{pmatrix} \\
+		& A+B=\begin{pmatrix}
+		0 & 0 \\
+		1 & 1
+		\end{pmatrix} \\
+		& A-B=\begin{pmatrix}
+		0 & 0 \\
+		-1 & 1
+		\end{pmatrix} \\
+		& (A+B) \cdot(A-B)=\begin{pmatrix}
+		0 & 0 \\
+		1 & 1
+		\end{pmatrix} \cdot \begin{pmatrix}
+		0 & 0 \\
+		-1 & 1
+		\end{pmatrix}=\begin{pmatrix}
+		0 & 0 \\
+		-1 & 1
+		\end{pmatrix}
+		\end{aligned}
+		$$
+		Ainsi :
+		$$
+		A^2-B^2 \neq(A+B)(A-B)
+		$$
+		Justification :
+		$$
+		(A+B)(A-B)=A^2 \underbrace{-AB+BA}_{\neq 0}-B^2
+		$$
+		car $BA \neq A B$.
+		Pour avoir l'égalité, il faut et il suffit que $A$ et $B$ commutent : $B A=A B$. }}
+

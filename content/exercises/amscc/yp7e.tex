@@ -1,0 +1,63 @@
+\uuid{yp7e}
+\chapitre{Série numérique}
+\niveau{L1}
+\module{Analyse}
+\sousChapitre{Autre}
+\titre{Calcul de sommes}
+\theme{séries}
+\auteur{}
+\datecreate{2023-05-17}
+\organisation{AMSCC}
+\difficulte{}
+\contenu{
+
+\texte{ On admet que $\displaystyle e=\sum_{n=0}^{+\infty} \frac{1}{n!}$. }
+
+\begin{enumerate}
+	\item \question{ En déduire la somme : $\displaystyle \sum_{n=1}^{+\infty} \frac{1}{(n-1)!}$. }
+	\indication{Faire un changement d'indice dans la somme pour faire apparaître la somme connue.}
+	\reponse{
+		\begin{align*}
+		\sum_{n=1}^{+\infty} \frac{1}{(n-1)!} &= \sum_{n'=0}^{+\infty} \frac{1}{n'!} \\
+		                                      &= e
+		\end{align*}
+}
+	\item \question{Calculer la somme : $\displaystyle \sum_{n=0}^{+\infty} \frac{n+1}{n!}$}
+	\indication{On peut décomposer en deux sommes et utiliser le résultat de la question précédente.}
+	\reponse{ On décompose la somme en deux sommes :
+		\begin{align*}
+			\sum_{n=0}^{+\infty} \frac{n+1}{n!} &= \sum_{n=0}^{+\infty} \frac{n}{n!} + \sum_{n=0}^{+\infty} \frac{1}{n!} \\
+			&= \sum_{n=1}^{+\infty} \frac{1}{(n-1)!} + \sum_{n=0}^{+\infty} \frac{1}{n!} \\
+			&= \sum_{n=0}^{+\infty} \frac{1}{n!} + \sum_{n=0}^{+\infty} \frac{1}{n!} \\
+			&= 2e
+		\end{align*}
+	}
+	
+	\item \question{Calculer la somme : $\displaystyle \sum_{n=0}^{+\infty} \frac{n^2-2}{n!}$}
+	\reponse{ On décompose la somme en deux sommes :
+		\begin{align*}
+			\sum_{n\geq0} \frac{n^2-2}{n!} &= \sum_{n\geq0} \frac{n^2}{n!} - 2\sum_{n\geq0} \frac{1}{n!} \\
+			&= \sum_{n\geq1} \frac{n}{(n-1)!} - 2\sum_{n\geq0} \frac{1}{n!} \\
+			&= \sum_{n\geq1} \frac{n-1+1}{(n-1)!} - 2\sum_{n\geq0} \frac{1}{n!} \\
+			&= \sum_{n\geq2} \frac{1}{(n-2)!} + \sum_{n\geq 1} \frac{1}{(n-1)!} - 2\sum_{n\geq0} \frac{1}{n!} \\
+			&= \sum_{n\geq0} \frac{1}{n!} + \sum_{n\geq 0} \frac{1}{n!} - 2\sum_{n\geq0} \frac{1}{n!} \\
+			&= 0
+		\end{align*}
+	}
+	
+	\item \question{Calculer la somme : $\displaystyle \sum_{n=0}^{+\infty} \frac{n^3}{n!}$}
+	\reponse{ On simplifie :
+		\begin{align*}
+			\sum_{n\geq0} \frac{n^3}{n!} &= \sum_{n\geq0} \frac{n^2}{(n-1)!} \\
+			&= \sum_{n\geq1} \frac{n(n-1)+n-1+1}{(n-1)!} \\
+			&= \sum_{n\geq1} \frac{n(n-1)}{(n-1)!} + \sum_{n\geq1} \frac{n-1}{(n-1)!} + \sum_{n\geq1} \frac{1}{(n-1)!} \\
+			&= \sum_{n\geq2} \frac{n}{(n-2)!} + \sum_{n\geq2} \frac{1}{(n-2)!} + \sum_{n\geq1} \frac{1}{(n-1)!} \\
+			&= \sum_{n\geq2} \frac{n-2+2}{(n-2)!} + \sum_{n\geq2} \frac{1}{(n-2)!} + \sum_{n\geq1} \frac{1}{(n-1)!} \\
+			&= \sum_{n\geq3} \frac{1}{(n-3)!} + \sum_{n\geq2} \frac{2}{(n-2)!} + \sum_{n\geq2} \frac{1}{(n-2)!} + \sum_{n\geq1} \frac{1}{(n-1)!} \\
+			&= \sum_{n\geq0} \frac{1}{n!} + 2\sum_{n\geq0} \frac{1}{n!} + \sum_{n\geq0} \frac{1}{n!} + \sum_{n\geq0} \frac{1}{n!} \\
+			&= 5e
+		\end{align*}
+	}
+\end{enumerate}
+
+}

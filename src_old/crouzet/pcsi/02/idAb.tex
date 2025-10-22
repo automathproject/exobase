@@ -1,0 +1,46 @@
+\uuid{idAb}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{\'Equations et inéquations}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{\'Equations}
+\contenu{
+\texte{Résoudre les équations suivantes, d'inconnue $x$.}
+\question{$|2x-1|=|3-x|$.}
+\reponse{\begin{align*}
+On applique les différentes propriétés des fonctions qui apparaissent.
+\begin{enumerate}
+	\item Par définition de la valeur absolue, $|2x-1|=|3-x|$ si et seulement si ($2x-1=3-x$ ou $2x-1=x-3$), c'est-à-dire $x=\frac43$ ou $x=-2$. Ainsi, $\boxed{\mathcal{S}=\left \{ \frac43,\, -2 \right \}}$.
+	\item De même, $|x+1|=|x-4|$ si et seulement si ($x+1=x-4$ ou $x+1=4-x$), c'est-à-dire $x=\frac32$ (la première équation n'ayant pas de solution). Ainsi, $\boxed{\mathcal{S}=\left \{ \frac32 \right \}}$.
+\end{align*}}
+\question{$|x+1|=|x-4|$.}
+\reponse{\begin{align*}
+\item Cette équation s'écrit également $3x^2+6x-24=0$, soit encore $x^2+2x-8=0$. Son discriminant vaut $\Delta=2^2-4\times 1\times (-8) = 36$ et ses racines sont donc \[ x_1=\frac{-2-\sqrt{36}}{2}=-4 \qeq x_2=\frac{-2+\sqrt{36}}{2}=2 \]
+	Ainsi, $\boxed{\mathcal{S}=\left \{ -4, 2 \right \}}$.
+	\item On développe. Cette équation devient $-x^2+2x+3=0$, dont les solutions sont $3$ et $-1$. Ainsi, $\boxed{\mathcal{S}=\left \{ 3, -1 \right \}}$.
+\end{align*}}
+\question{$3x^2+6x=24$.}
+\reponse{\begin{align*}
+\item On pose $X=x^2$. L'équation s'écrit alors $3X^2-9X-12=0$, soit encore $X^2-3X-4=0$, dont les solutions sont $X_1=4$ et $X_2=-1$. On revient à la variable de départ: l'équation de départ est équivalente à $x^2=4$ ou $x^2=-1$, c'est-à-dire $x=2$ ou $x=-2$ (la deuxième équation n'ayant pas de solution). Ainsi, $\boxed{\mathcal{S}=\left \{ -2, 2\right \}}$.
+\end{align*}}
+\question{$(-2-x)(x-4) = 5$.}
+\reponse{\begin{align*}
+\item ~\begin{attention}
+	On commence toujours par déterminer le domaine de définition des fonctions présentes.
+\end{attention}
+$\sqrt{x-1}$ a un sens si et seulement si $x-1\geq 0$, c'est-à-dire $x\geq 1$. De même, $\sqrt{2-x}$ a un sens si et seulement si $2-x\geq 0$, c'est-à-dire $x\leq 2$. On résout donc sur $\interff{1 2}$.
+\end{align*}}
+\question{$3x^4-9x^2-12=0$.}
+\reponse{\begin{align*}
+Sur $\interff{1 2}$, l'équation s'écrit $\sqrt{x-1}^2 = \sqrt{2-x}^2$, c'est-à-dire $x-1=2-x$, ou encore $x=\frac32$. De plus, $\frac32 \in \interff{1 2}$. \\Bilan : $\boxed{\mathcal{S}=\left \{ \frac32\right \}}$.
+\end{enumerate}
+\end{align*}}
+\question{$\sqrt{x-1}=\sqrt{2-x}$.}
+\reponse{}
+}

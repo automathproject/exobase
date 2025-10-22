@@ -1,0 +1,39 @@
+\uuid{9g2N}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Exercices bilans}
+\duree{30}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Exercice bilan IV}
+\contenu{
+\texte{Soit $u$ la suite vérifiant la relation $$\forall~n, u_{n+2}=\sqrt{u_{n+1}u_n} \textrm{ avec } u_0=1, u_1=2$$}
+\question{Démontrer que pour tout entier $n$, $u_n>0$. On considère alors la suite $w$ définie pour tout $n$ par $w_n=\ln(u_n)$.}
+\reponse{\begin{align*}
+Soit $P$ la proposition définie pour tout entier $n$ par $P_n$ : ``$u_n$ existe et $u_n>0$''. Démontrons $P$ par récurrence double.
+		\begin{itemize}[label=\textbullet]
+			\item Initialisation : pour $n=0$, $u_0$ existe bien et $u_0=1>0$. De même, $u_1$ existe et $u_1=2>0$. Donc $P_0$ et $P_1$ sont vraies.
+			\item Hérédité : supposons les propositions $P_n$ et $P_{n+1}$ vraies pour un certain entier $n$. Montrons que $P_{n+2}$ est vraie.\\
+				Par hypothèse de récurrence, $u_n>0$ et $u_{n+1}>0$. Par produit $u_nu_{n+1}>0$. Ainsi $u_{n+2}$ existe bien et $u_{n+2}=\sqrt{u_nu_{n+1}}>0$. Donc $P_{n+2}$ est vraie.
+		\end{itemize}
+   	    D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$, et donc $u_n>0$ pour tout entier $n$.
+\end{align*}}
+\question{Montrer que la suite $w$ suit une récurrence linéaire d'ordre 2. Expliciter alors le terme général de la suite $w$. En déduire celui de la suite $u$.}
+\reponse{\begin{align*}
+$w$ est bien définie d'après ce qui précède. Constatons alors que, pour tout entier $n$,
+		$$w_{n+2}=\ln\left(u_{n+2}\right) = \ln \left( \sqrt{u_nu_{n+1}} \right)$$
+		Donc, pour tout entier $n$ $$w_{n+2}=\frac{1}{2}\ln \left(u_n u_{n+1}\right) = \frac{1}{2} \left(\ln(u_n)+\ln(u_{n+1})\right)=\frac{1}{2}(w_n+w_{n+1})$$
+		Donc $(w_n)$ est une suite récurrent linéaire d'ordre $2$. Son équation caractéristique est
+		$$X^2=\frac{1}{2}X+\frac{1}{2}$$
+		de racines $1$ et $-\frac{1}{2}$. Ainsi, il existe deux réels $a$ et $b$ tels que, pour tout entier $n$, $w_n=a+b\left(-\frac{1}{2}\right)^n$. Puisque $w_0=\ln(u_0)=0$ et $w_1=\ln(u_1)=\ln(2)$, on en déduit
+		$$\left \{ \begin{array}{ccccc}a & + & b & = & 0 \\ a & - & \frac{1}{2}b & = & \ln(2)\end{array}\right. \Leftrightarrow \left \{ \begin{array}{ccc}a & = & \frac{2}{3}\ln(2) \\ b & = & -\frac{2}{3}\ln(2)\end{array}\right.$$
+		Ainsi, pour tout entier $n$,
+		$$w_n=\frac{2}{3}\ln(2) - \frac{2}{3}\ln(2)\left(-\frac{1}{2}\right)^n$$
+		et donc
+		$$u_n=\eu{w_n} = \eu{\frac{2}{3}\ln(2) - \frac{2}{3}\ln(2)\left(-\frac{1}{2}\right)^n}$$
+		ce qui donne, finalement
+		$$\boxed{\forall~n,~u_n=\eu{\frac{2}{3}\ln(2)}\eu{-\frac{2}{3}\ln(2)\left(-\frac{1}{2}\right)^n}}$$
+\end{align*}}
+}

@@ -1,0 +1,60 @@
+\uuid{wtmO}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+%!TeX root=../../../encours.nouveau.tex
+\duree{30}
+\difficulte{3}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Division euclidienne dans $\Z$}
+\contenu{
+\texte{Soient $a$ et $b$ deux entiers relatifs, tels que $b\neq 0$. L'objectif de cet exercice est de montrer qu'il existe deux entiers $q$ et $r$, uniques, tels que $a=bq+r$ avec $0\leq r < |b|$.}
+\question{Montrer que, sous réserve d'existence, $q$ et $r$ sont uniques.}
+\reponse{\begin{align*}
+On suppose l'existence de $q$ et $r$. Supposons que l'on ait deux couples, $q_0, r_0$ et $q_1, r_1$  vérifiant les hypothèses :
+	\[ a = bq_0+r_0 = bq_1+r_1,\quad 0\leq r_0< |b|\qeq 0\leq r_1 < |b|. \]
+	Par soustraction,
+	\[ b(q_1-q_0) = r_0-r_1 \qeq       -|b| <r_0-r_1 < |b|. \]
+	$r_0-r_1$ est donc un multiple de $b$, tel que $-|b| <r_0-r_1 < |b|$ : le seul multiple qui convient est $0$. Ainsi
+	\[ r_0-r_1=0 \implies b(q_1-q_0)=0 \implies q_1-q_0=0 \]
+	et finalement $r_0=r_1$ et $q_0=q_1$. On a ainsi démontré l'unicité.
+\end{align*}}
+\question{On suppose que $a$ et $b$ sont deux entiers naturels non nuls. On note $A=\left \{ n\in \N,\,nb>a \right \}$.
+		\begin{enumerate}
+			\item Justifier que $A$ admet un minimum, que l'on note $m$.
+			\item On pose $q=m-1$ et $r=a-bq$. Montrer que $0 \leq r < b$ et conclure.
+		\end{enumerate}}
+\reponse{\begin{align*}
+\begin{enumerate}
+	\item Soit $A=\left \{n\in \N,\quad nb>A\right\}$. $A$ est une partie de $\N$. De plus, $A$ est non vide; en effet, $b\neq 0$ et donc $nb\tendversen{n\to +\infty} +\infty$ : $nb$ dépassera $a$ à partir d'un certain rang.
+
+	$A$ étant une partie non vide de $\N$, elle admet un minimum, que l'on note $m$.
+	\item On note $q=m-1$ et $r=a-bq$. Tout d'abord, par définition de $m$ qui est le minimum de $A$ :
+	\[ mb>a \qeq (m-1)b \leq a. \]
+	Mais alors $a-qb\geq 0$ et
+	\[ mb> a \implies (q+1)b > a \implies b > a-bq. \]
+	Ainsi, $0\leq  < b$.
+
+	On a ainsi trouvé deux entiers $q$ et $r$ tels que $a=bq+r$ et $0\leq r<b$.
+	\end{enumerate}
+\end{align*}}
+\question{Montrer l'existence dans le cas général.}
+\reponse{\begin{align*}
+Les trois autres cas se ramènent au premier :
+	\begin{itemize}
+		\item Si $a<0$ et $b\geq 0$ : $-a\in \N$ et d'après ce qui précède, il existe $q$ et $r$ tels que $-a = bq+r$ et $0\leq r < b$. Mais alors
+		\[ a=-bq-r = b(-q)-r \]
+		En revanche, $-b<-r\leq 0$. Si $r=0$, le résultat est montré. Sinon, $-b<-r<0 \implies 0 < -r+b < b$. Et alors
+		\[ a = b(-q-1)-r+b \qeq 0<-r+b<b. \]
+		Cela démontre l'existence dans ce cas.
+		\item Si $a>0$ et $b<0$, alors $-b\in \N$ et il existe $q, r$ tels que \[ a=(-b)q+r \qeq 0\leq r < -b = |b| \]
+		ce qu'on peut écrire
+		\[ a = b(-q) +r \qeq 0 \leq r < |b|. \]
+		Cela démontre l'existence dans ce cas.
+		\item Enfin, si $a<0$ et $b<0$, alors $-a\in \N$et $-b\in \N$ : il existe $q, r$ tels que \[ -a=(-b)q +r \qeq 0\leq r < -b  = |b| \]
+		soit \[ a = bq - r \]
+		et par le même raisonnement qu'au premier point, on conclut quant à l'existence dans ce dernier cas.
+	\end{itemize}
+\end{align*}}
+}

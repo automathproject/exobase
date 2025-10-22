@@ -1,0 +1,27 @@
+\uuid{yqdS}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{\'Equations et inéquations}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Inéquation et racines}
+\contenu{
+\question{Résoudre l'équation suivante, d'inconnue $y$ :
+\[ 2y-5 - \sqrt{4y-7} \leq 0 \]}
+\reponse{\begin{align*}
+On commence par déterminer le domaine de définition : cette inéquation n'a de sens que si $4y-7\geq 0$, c'est-à-dire $y\in \left [ \frac{7}{4} +\infty\right [$.
+
+On raisonne ensuite par disjonction de cas :
+\begin{itemize}
+  \item Premier cas : $2y-5\leq 0$, c'est-à-dire $y\leq \frac{5}{2}$. Dans ce cas, l'inéquation est vérifiée (puisqu'une racine est toujours positive). Ainsi, l'inéquation est vérifiée si $y\in \left[ \frac{7}{4},\, \frac{5}{2}\right]$.
+  \item Deuxième cas : $2y-5\geq 0$. Dans ce cas, l'inéquation est équivalente à $(2y-5)^2 \leq \sqrt{4y-7}^2$, c'est-à-dire \[ (2y-5)^2 \leq 4y-7 \Longleftrightarrow 4y^2-24y+32\leq 0 \Longleftrightarrow y^2-6y+8\leq 0 \]
+  Les solutions de cette inéquation est $\interff{2 4}$, mais on a $2y-5\geq 0$, c'est-à-dire $y\geq \frac{5}{2}$. Ainsi, sur cet intervalle, les solutions sont $\left[ \frac{5}{2},\, 4\right]$.
+\end{itemize}
+On conclut : l'ensemble des solutions de cette inéquation est donc \[ \boxed{\mathcal{S}}=\left[ \frac{7}{4},\,\frac{5}{2}\right] \cup \left[\frac{5}{2},\,4\right] = \boxed{\left[ \frac{7}{4},\, 4\right]}\]
+\end{align*}}
+}

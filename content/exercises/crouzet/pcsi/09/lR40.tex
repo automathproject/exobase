@@ -1,0 +1,31 @@
+\uuid{lR40}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Suites arithmétiques et géométriques}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Justifications}
+\contenu{
+\texte{Les suites suivantes sont elles arithmétiques ? géométriques ?}
+\question{La suite $u$ définie pour tout $n$ par $u_n=3n+5$.\vspace*{2mm}}
+\reponse{Remarquons que, pour tout entier $n$, $u_{n+1}-u_n=3$. La suite $(u_n)$ est donc arithmétique, de raison $3$ et de premier terme $u_0=5$.}
+\question{La suite $v$ définie pour tout $n$ par $v_n=\frac{n+1}{n^2+1}$.\vspace*{2mm}}
+\reponse{\begin{align*}
+On a $v_0=1$, $v_1=1$ et $v_2=\frac{3}{5}$. On remarque alors que
+		$$v_1-v_0=0\textrm{ et } v_2-v_1=-\frac{2}{5} \neq v_1-v_0$$
+		La suite $v$ n'est donc pas arithmétique.\\
+		De même, on a
+		$$\frac{v_1}{v_0}=1 \textrm{ et } \frac{v_2}{v_1}=\frac{3}{5}\neq \frac{v_1}{v_0}$$
+		La suite $v$ n'est pas géométrique.
+\end{align*}}
+\question{La suite $w$ définie pour tout $n$ par  $w_n=3\times 2^n$.
+\begin{methode}
+Pour montrer qu'une suite est arithmétique, on calcule $u_{n+1}-u_n$. Pour montrer qu'elle est géométrique, on part de $u_{n+1}$ pour essayer de montrer qu'elle s'écrit $qu_n$.\\Pour montrer qu'une suite n'est ni arithmétique, ni géométrique, on calcule les premiers termes et on les utilise pour le montrer.
+\end{methode}}
+\reponse{\begin{align*}
+Remarquons que, pour tout entier $n$, $w_{n+1}=3\times 2^{n+1}=2\times 3\times 2^n=2\times w_n$. La suite $(w_n)$ est donc géométrique, de raison $2$ et de premier terme $w_0=3$.
+\end{align*}}
+}

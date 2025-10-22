@@ -1,0 +1,48 @@
+\uuid{y4ZW}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{3}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Les intervalles sont en bijection ?!?}
+\contenu{
+\question{On note $f:\interff{0 1}\to \interfo{0 1}$ définie par
+\begin{itemize}
+\item Si $x$ s'écrit $\frac1n$ avec $n\in \N*$, alors $f(x)=\frac{1}{n+1}$;
+\item Sinon, $f(x)=x$.	
+\end{itemize}
+
+Montrer que $f$ est bijective; en déduire que $\interff{0 1}$ et $\interfo{0 1}$ sont en bijection.
+
+\textit{On pourra écrire que $\interff{0 1} = A \cup \overline{A}$, où $A=\left\{ \frac{1}{n}, \quad n\in \N*\right\}$.}}
+\reponse{\begin{align*}
+Montrons que $f$ est injective. On utilise l'indication : $[0,1] = A\cup \overline{A}$ où $A=\left \{\frac1n,\quad n\in \N*\right\}$.
+Soient $(x,x')\in [0,1]^2$ tels que $f(x)=f(x')$. Raisonnons par disjonction de cas :
+\begin{itemize}
+	\item Si $x$ et $x'$ sont dans $A$. Il existe deux entiers non nuls $n$ et $p$ tels que $x=\frac1n$ et $x'=\frac1p$. Alors $f(x)=\frac{1}{n+1}$ et $f(x')=\frac{1}{p+1}$. Puisque $f(x)=f(x')$, on en déduit que $\frac{1}{n+1}=\frac{1}{p+1}$, c'est-à-dire $n=p$ : on en déduit donc que $x=x'$.
+	\item Si $x$ est dans $A$ et $x'$ est dans $\overline{A}$ (le cas $x$ dans $\overline{A}$ et $x'$ dans $A$ est symétrique). Il existe $n\in \N*$ tel que $x=\frac1n$. Alors
+	\[ f(x)=\frac{1}{n+1} \qeq f(x') = x'. \]
+	Or on ne peut pas avoir $f(x)=f(x')$, puisque dans ce cas $x'=\frac{1}{n+1}\in A$, ce qui est absurde car $x'\in \overline{A}$. Ce cas n'est pas possible.
+	\item Enfin, si $x$ et $x'$ sont des éléments de $\overline{A}$, alors $f(x)=x$ et $f(x')=x'$, et alors $f(x)=f(x') \implies x=x'$.
+\end{itemize}
+Dans tous les cas possibles, $f(x)=f(x')\implies x=x'$ : $f$ est injective.
+
+Montrons que $f$ est surjective. Soit $y\in \interfo{0 1}$. Deux possibilités à nouveau :
+\begin{itemize}
+	\item si $y\in A$, alors il existe $n\in \N*$ tel que $y=\frac{1}{n}$. Par ailleurs, puisque $y\in \interfo{0 1}$, $y\neq 1$ et donc $n\geq 2$. Mais alors 
+	\[ f\left(\frac{1}{n-1}\right) = \frac{1}{n} = y \]
+	et $\frac{1}{n-1}\in \interff{0 1}$.
+	\item si $y\notin A$, alors $f(y)=y$ et $y\in \interff{0 1}$.
+\end{itemize}
+Dans tous les cas il existe au moins un antécédent à $y\in \interfo{0 1}$ : $f$ est surjective.
+
+\textbf{Bilan} : $f$ est bijective; ainsi, $\interff{0 1}$ et $\interfo{0 1}$ sont en bijection.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

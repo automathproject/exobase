@@ -1,0 +1,27 @@
+\uuid{Ov62}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Premières limites}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Limites d'un produit}
+\contenu{
+\texte{Déterminer la limite (si elle existe) des suites $(u_n)$ définies par}
+\question{$u_n=2^n \times \left(\dfrac{5}{3}\right)^n$}
+\reponse{\begin{align*}
+Remarquons que $2>1$ et $\frac53>1$. Donc $2^n\tendversen{n\to+\infty} +\infty$ et $\left(\frac53\right)^n\tendversen{n\to +\infty} +\infty$. Par produit, \[ \lim_{n\to +\infty}2^n \times \left(\dfrac{5}{3}\right)^n = +\infty\]
+\end{align*}}
+\question{$u_n=\left(\dfrac{2}{3}\right)^n \times \left(1-\dfrac{5}{n^4}\right)$}
+\reponse{\begin{align*}
+Puisque $-1<\frac23<1$, $\left(\frac{2}{3}\right)^n\tendversen{n\to +\infty}0$. De plus, $\frac{5}{n^4}\tendversen{n\to+\infty} 0$, donc par somme \[ \lim_{n\to +\infty} 1-\frac{5}{n^4}=1 \]
+	On en déduit alors, par quotient, que \[ \lim_{n\to +\infty} \left(\dfrac{2}{3}\right)^n \times \left(1-\dfrac{5}{n^4}\right)=0 \]
+\end{align*}}
+\question{$u_n=n^3 \times \left(2+ \left(\dfrac{5}{6}\right)^n\right)$}
+\reponse{\begin{align*}
+On a $-1<\frac56<1$, donc $\left(\frac56\right)^n\tendversen{n\to+\infty} 0$. Par somme, \[ \lim_{n\to+\infty} 2+ \left(\dfrac{5}{6}\right)^n=2 \]
+	De plus, $n^3\tendversen{n\to +\infty} +\infty$. Par produit \[\lim_{n\to+\infty}n^3 \times \left(2+ \left(\dfrac{5}{6}\right)^n\right)=+\infty \]
+\end{align*}}
+}

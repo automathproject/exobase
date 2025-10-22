@@ -1,0 +1,32 @@
+\uuid{zPra}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Sens de variation, majoration, minoration}
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Variations}
+\contenu{
+\question{\begin{itemize}
+ 	\item Soit $u$ la suite définie pour tout $n$ par $u_n=\frac{n-1}{n+2}$. Démontrer que la suite $(u_n)$ est croissante.
+ 	\item Etudier le sens de variation des suites $\left(\frac{n^2+1}{n}\right)$,$\left(\frac{2^n}{n}\right)$ et $\left(\frac{n}{2n-1}\right)$
+ \end{itemize}}
+\reponse{\begin{align*}
+\begin{itemize}
+ 	\item Pour tout entier $n$, on a $$u_{n+1}-u_{n}=\frac{n+1-1}{n+1+2}-\frac{n-1}{n+2}=\frac{n}{n+3}-\frac{n-1}{n+2}=\frac{n(n+2)-(n-1)(n+3)}{(n+3)(n+2)}=\frac{3}{(n+3)(n+2)}$$
+ 	Puisque pour tout entier naturel $n$, $n+2>0$ et $n+3>0$, on en déduit que pour tout $n$, $u_{n+1}-u_{n}>0$.\\\textbf{Bilan} : la suite $(u_n)$ est strictement croissante.
+ 	\item Notons les suites respectivement $v, w$ et $z$. De la même manière, pour tout entier $n\geq 1$ :
+ 		$$v_{n+1}-v_n=\frac{(n+1)^2+1}{n+1}-\frac{n^2+1}{n}=\frac{n^2+n-1}{n(n+1)}$$
+ 		Pour tout $n\geq 1$, on a $n-1\geq 0$ et donc $n-1+n^2\geq 0$ (car $n^2\geq 0)$. Ainsi $$\forall~n\geq 1,~v_{n+1}-v_n\geq 0$$
+ 		\textbf{Bilan} : la suite $(v_n)_{n\geq 1}$ est croissante.
+ 	Pour tout $n\geq 1$, on a $$w_{n+1}-w_n=\frac{2^{n+1}}{n+1}-\frac{2^n}{n}=\frac{2^{n+1}n-2^n(n+1)}{n(n+1)}=\frac{2^n(n-1)}{n(n+1)}$$
+ 		Pour $n\geq 1$, on a $2^n>0$, $n-1\geq 0$ et $n(n+1)>0$. Par quotient, pour tout entier $n\geq 1$, $w_{n+1}-w_n\geq 0$.\\\textbf{Bilan} : la suite $(w_n)_{n\geq 1}$ est croissante.
+ 	Pour tout entier $n$, on a $$z_{n+1}-z_n=\frac{n+1}{2(n+1)-1}-\frac{n}{2n-1} = \frac{(n+1)(2n-1)-n(2n+1)}{(2n-1)(2n+1)}=\frac{}{(2n-1)(2n+1)}=\frac{-1}{(2n-1)(2n+1)}$$
+ 		Pour tout entier $n\geq 1$, on a $2n-1>0$ et $2n+1>0$ donc par quotient,
+ 		$$\forall~n\geq 1,~z_{n+1}-z_n<0$$
+ 		\textbf{Bilan} : la suite $(z_n)$ est strictement décroissante à partir du rang $1$.
+ \end{itemize}
+\end{align*}}
+}

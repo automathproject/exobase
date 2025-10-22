@@ -1,0 +1,31 @@
+\uuid{3337}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Systèmes linéaires}
+\sousChapitre{Applications}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des polynômes}
+\contenu{
+\question{Existe-t-il un polynôme $P\in \R[-3]$ vérifiant $P(1)=P(-1)=P'(1)=1$ ?
+
+Existe-t-il un polynôme $P\in \R[-3]$ vérifiant, pour tout entier $k\in \interent{0 3}$, $P(k)=k$ ?}
+\reponse{On écrit $P=aX^3+bX^2+cX+d$. Les hypothèses s'écrivent alors :
+\[ \systeme{a+b+c+d=1,-a+b-c+d=1, 3a+2b+c=1} \Leftrightarrow \systeme{a+b+c+d=1, 2b+2d=2,-b-2c-3d=-2} \Leftrightarrow \systeme{a+b+c+d=1, b+d=1, -2c-2d=-1}\]
+Ce système admet une infinité de solutions : il y a donc une infinité de polynôme vérifiant les hypothèses, par exemple $P=  -\frac12 X^3+X^2+ \frac12 X$.
+
+De même, si $P=aX^3+bX^2+cX+d$, les hypothèses s'écrivent :
+\begin{align*}
+  \systeme{a3^3+b3^2+c3+d=3, a2^3+b2^2+c2+d=2, a+b+c+d=1, d=0} &\iff \systeme{a+b+c=1, 9a+3b+c=1, 4a+2b+c=1, d=0}
+  \iff \systeme{a+b+c=1, -6b-8c=-8, -2b-3c=-3,d=0}\\
+  &\iff \systeme{a+b+c=1, -6b-8c=-8, -c=-1,d=0} \iff \systeme*{a=0,b=0,c=1,d=0}
+\end{align*}
+Il y a ainsi un unique polynôme qui convient, le polynôme $P=X$.}
+}
+
+%%% Fin exercice %%%

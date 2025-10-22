@@ -1,0 +1,55 @@
+\uuid{HThN}
+\chapitre{Probabilité discrète}
+\niveau{L2}
+\module{Probabilité et statistique}
+\sousChapitre{Probabilité et dénombrement}
+\titre{Probabilités et divisibilité}
+\theme{probabilités}
+\auteur{}
+\datecreate{2023-09-04}
+\organisation{AMSCC}
+\difficulte{4}
+\contenu{
+
+
+\texte{ Soit un entier $n$ naturel non nul et non premier. On note $k_1, k_2, \ldots , k_r$ les diviseurs premiers de $n$. 
+	
+	Une urne contient $n$ boules numérotées de $1$ à $n$. On tire une boule au hasard de l'urne et on définit les événements $A_{k_i}$ comme étant \og Le nombre est divisible par $k_i$ \fg{}. }
+
+\begin{enumerate}
+	\item \question{ Calculer la probabilité $\prob(A_{k_i})$. }
+	\indication{Il faut compter le nombre d'entiers inférieurs à $n$ divisibles par $k_i$.}
+	 \reponse{On tire une boule au hasard, ce qui signifie qu'il y a équiprobabilité sur le tirage. Il suffit donc de connaître le nombre d'entiers inférieurs à $n$ divisibles par $k_i$. Il y a $\frac n {k_i}$ multiples de $k_i$ inférieurs à $n$, donc $\prob(A_{k_i})=\frac{\frac{n}{k_i}}{n} = \frac{1}{k_i}$.
+	}
+	
+	\item \question{ Calculer $\prob(A_{k_{i_1}}\cap A_{k_{i_2}}\cap \ldots\cap A_{k_{i_k}})$ pour $m$ quelconques de ces $r$ événements. 
+	En déduire que $A_{k_{1}}, A_{k_{2}}, \ldots, A_{k_{r}}$ sont $r$ événements indépendants. }
+	\indication{Interpréter l'événement $A_{k_{i_1}}\cap A_{k_{i_2}}\cap \ldots\cap A_{k_{i_k}}$ en terme de divisibilité. }
+	\reponse{ 
+		L'événement $A_{k_{i_1}}\cap A_{k_{i_2}}\cap \ldots\cap A_{k_{i_m}}$ est réalisé si et seulement si le nombre est divisible à la fois par $k_{i_1}$, $k_{i_2}$, \ldots, $k_{i_m}$. Comme il s'agit de nombres premiers, ceci équivaut à dire que le nombre est divisible par $k_{i_1}\times k_{i_2} \times \ldots \times k_{i_m}$. Ainsi,
+		\begin{align*}
+			\prob(A_{k_{i_1}}\cap A_{k_{i_2}}\cap \ldots\cap A_{k_{i_m}})&=\prob(\text{``Le nombre est divisible par }k_{i_1}\times k_{i_2} \times \ldots \times k_{i_k}\text{''})\\
+			&=\frac{1}{k_{i_1}\times k_{i_2} \times \ldots \times k_{i_m}}\\
+			&=
+			\frac{1}{k_{i_1}}\times \frac{1}{k_{i_2}} \times \ldots \frac{1}{\times k_{i_m}}
+			\\
+			&=\prob(A_{k_{i_1}})\times \prob(A_{k_{i_2}}) \times \ldots \times \prob(A_{k_{i_m}}).
+		\end{align*}
+		On vient donc de montrer que $A_{k_{1}}, A_{k_{2}}, \ldots, A_{k_{r}}$ sont indépendants.
+	}
+	
+	\item \question{ On appelle $A$ l'événement \og le nombre choisi n'est divisible par aucun $k_i$ \fg{}. Calculer $\prob(A)$.
+	En déduire que le nombre d'entiers de $\{1,2,\ldots,n\}$ qui sont premiers avec $n$, c'est-à-dire qui n'ont aucun facteur premier commun avec $n$, est $\displaystyle \Phi(n)=n\prod_{i=1}^r\left(1-\frac{1}{k_i}\right)$. }
+	 \reponse{
+		L'événement $A$ se réécrit $\overline{A}_{k_1}\cap \overline{A}_{k_2}\cap \ldots \cap \overline{A}_{k_r}$. Comme les événements $A_{k_{1}}, A_{k_{2}}, \ldots, A_{k_{r}}$ sont indépendants, c'est aussi le cas des événements $\overline{A}_{k_{1}}, \ldots, \overline{A}_{k_{r}}$. Par conséquent,
+		\begin{align*}
+			\prob(A)&=\prob(\overline{A}_{k_1}\cap \overline{A}_{k_2}\cap \ldots \cap \overline{A}_{k_r}) \\
+			&= \prod_{i=1}^r \prob(\overline {A_{k_i}}) 
+			= \prod_{i=1}^r \left( 1-\frac{1}{k_i}\right)
+		\end{align*}
+		d'où $\displaystyle\frac{\Phi(n)}{n}= \prod_{i=1}^r \left( 1-\frac{1}{k_i}\right)$ et $\displaystyle\Phi(n)=n\prod_{i=1}^r \left( 1-\frac{1}{k_i}\right)$. \\
+		La fonction $\Phi$ est appelée l'indicatrice d'Euler. Elle associe à tout entier naturel n non nul, le nombre d'entiers compris entre 1 et n  et premiers avec n. 
+	}
+	
+\end{enumerate}
+}

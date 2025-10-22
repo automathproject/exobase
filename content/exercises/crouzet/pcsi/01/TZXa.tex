@@ -1,0 +1,38 @@
+\uuid{TZXa}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Raisonnements}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{10}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Analyse et synthèse}
+\contenu{
+\question{A l'aide d'un raisonnement par analyse et synthèse, déterminer toutes les fonction $f$ dérivables sur $\R$ et à valeurs réelles, telles que, pour tout réels $x$ et $y$, $f(x+y)=f(x)+f(y)$.}
+\reponse{Raisonnons par analyse et synthèse.
+
+  \begin{itemize}
+    \item \textbf{Analyse}
+  \end{itemize}
+  Soit $f:\R \to \R$ vérifiant, pour tous $x$ et $y$, $f(x+y)=f(x)+f(y)$. Pour $x=y=0$, on obtient $f(0)=f(0)+f(0)$,donc $f(0)=0$.
+
+  Fixons $y\in \R$, et dérivons par rapport à $x$ ($f$ est dérivable). On obtient alors, pour tout $x\in \R$ \[ f'(x+y)=f'(x) \]
+  En prenant $x=0$, cela donne $f'(y)=f'(0)$. Ceci étant valable pour tout $y\in \R$, on en déduit que $f'$ est une fonction constante. On écrit alors $f':x\mapsto a$, avec $a\in \R$, ce qui donne, en prenant une primitive : \[ f:x\mapsto ax+b \]
+  avec $a$ et $b$ deux réels. Mais puisque $f(0)=0$, on en déduit que $b=0$.
+
+  On a bien réduit l'étendue des possibilités; on passe à la synthèse.
+  \begin{itemize}
+    \item \textbf{Synthèse}
+  \end{itemize}
+  Soient $a\in \R$, et $f:x\mapsto ax$. On remarque alors :
+  \begin{align*}
+    \forall(x,y)\in \R^2,\,f(x+y) &= a(x+y) \\
+    &= ax+ay = f(x)+f(y)
+  \end{align*}
+  Ainsi, la $f$ vérifie bien l'équation fonctionnelle.
+
+  \textbf{Bilan} : l'ensemble des fonctions de $\R$ dans $\R$, vérifiant pour tous réels $x$ et $y$, $f(x+y)=f(x)+f(y)$ est \[ \left \{ x\mapsto ax,\, a \in \R \right \} \]}
+}

@@ -1,0 +1,56 @@
+\uuid{4cWY}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{Parties entières}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Partie entière}
+\contenu{
+\texte{Soient $x$ et $y$ deux réels.}
+\question{Calculer $\lfloor x\rfloor + \lfloor -x \rfloor$.}
+\reponse{\begin{align*}
+Remarquons que, si $x\in \Z$, alors $\lfloor x\rfloor + \lfloor -x\rfloor = x-x=0$.
+
+\textbf{Première méthode} :  soit $x\notin \Z$. Par définition $\lfloor x \rfloor < x < \lfloor x\rfloor +1$, et donc \[ -\lfloor x \rfloor -1 < -x < -\lfloor x \rfloor. \]
+	c'est-à-dire $\lfloor -x \rfloor = -\lfloor x \rfloor -1$, par définition de la partie entière; dans ce cas $\lfloor x \rfloor + \lfloor -x \rfloor = -1$.
+
+\textbf{Deuxième méthode} : soit $x\notin \Z$. Par propriété de la partie entière :
+	\[ x-1 < \lfloor x \rfloor < x \qeq -x-1 < \lfloor -x\rfloor < -x. \]
+	En ajoutant ces inégalités
+	\[ -2 < \lfloor x \rfloor + \lfloor-x \rfloor < 0. \]
+	Or $\lfloor x\rfloor+\lfloor -x\rfloor \in \Z$. Le seul entier strictement compris entre $-2$ et $0$ étant $1$, on conclut que $\lfloor x\rfloor+\lfloor -x\rfloor=-1$.
+
+	\textbf{Bilan} : \[ \forall x\in \R, \lfloor x \rfloor +\lfloor -x\rfloor = \left \{ \begin{array}{lll} 0 & \text{si} & x\in \Z\\ -1 & \text{si}& x\notin \Z\end{array}\right.. \]
+\end{align*}}
+\question{Montrer que $\lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor \in \{0, 1\}$.}
+\reponse{\begin{align*}
+On applique le même raisonnement :
+	\[ x+y-1 < \lfloor x+y \rfloor \leq x+y,\quad x-1< \lfloor x\rfloor \leq x \qeq y-1 < \lfloor y\rfloor \leq y \]
+	soit
+		\[ x+y-1 < \lfloor x+y \rfloor \leq x+y,\quad -x\leq  -\lfloor x\rfloor <-x+1 \qeq -y \leq  -\lfloor y\rfloor<-y+1. \]
+		En ajoutant les trois inégalités :
+		\[ -1 < \lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor <  2. \]
+		Puisque $\lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor\in \Z$, on peut en déduire que \[ \lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor \in \left \{ 0, 1\right \}. \]
+\end{align*}}
+\question{Montrer que pour tout entier $n\in \Z$, $\lfloor x+n \rfloor = \lfloor x \rfloor + n$.}
+\reponse{\begin{align*}
+Soit $n\in \Z$ et $x\in \R$. Puisque $\lfloor x\rfloor \leq x < \lfloor x\rfloor +1$, on a \[ \lfloor x\rfloor + n \leq x+n < \left(\lfloor x\rfloor +n \right)+1.\]
+		Puisque $\lfloor x\rfloor + n\in \Z$, par définition de la partie entière, \[ \lfloor x+n\rfloor = \lfloor x\rfloor + n.\]
+\end{align*}}
+\question{Soit $n$ un entier naturel non nul. \`A quelle condition sur $x$ a-t-on $\lfloor nx \rfloor = n \lfloor x \rfloor$ ?}
+\reponse{\begin{align*}
+Soit $x\in \R$ tel que $\lfloor nx\rfloor = n \lfloor x\rfloor$. Cela équivaut à écrire, puisque $n\lfloor x\rfloor \in \Z$,
+		\[ n\lfloor x\rfloor \leq  nx < n \lfloor x \rfloor +1 \]
+    ou encore
+		\[ \lfloor x \rfloor \leq x < \lfloor x \rfloor + \frac{1}{n}.\]
+		soit finalement \[ 0 \leq x-\lfloor x \rfloor < \frac{1}{n}. \]
+		Ainsi, $\lfloor nx\rfloor = n \lfloor x \rfloor$ si et seulement si $x\in \left [ p,\, {p+\frac{1}{n}}\right[$, avec $p\in \Z$.
+
+		\textbf{Bilan} : \[ \boxed{\lfloor nx\rfloor = n\lfloor x\rfloor \iff x \in \bigcup_{p\in \Z} \left [ p,\, {p+\frac{1}{n}}\right[.} \]
+\end{align*}}
+}

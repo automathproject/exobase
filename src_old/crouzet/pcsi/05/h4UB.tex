@@ -1,0 +1,56 @@
+\uuid{h4UB}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Ensemble}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des propriétés sur les ensembles}
+\contenu{
+\texte{Soit $E$ un ensemble, et $A, B, D$ des parties non vides de $E$. Montrer que :}
+\question{$(A\cup B=B\cap D) \implies (A\subset B\subset D)$.}
+\reponse{\begin{align*}
+Supposons $A \cup B = B\cap D$, et montrons les deux inclusions :
+	\begin{itemize}
+		\item Soit $x\in A$. Alors $x\in A\cup B$ et donc $x\in B\cap D$. On peut donc en déduire que $x \in B$. Ainsi, $A\subset B$.
+		\item Soit $x\in B$. Alors $x\in A\cup B$ et donc $x\in B\cap D$. Donc $x\in B$ et $x\in D$, c'est-à-dire $x\in D$. Ainsi, $B\subset D$.
+	\end{itemize}
+\end{align*}}
+\question{$(\overline{A}\subset B)\Longleftrightarrow (A\cup B=E)$.}
+\reponse{\begin{align*}
+Supposons que $\overline{A}\subset B$. D'une part, $A\cup B \subset E$ puisque $A$ et $B$ sont des sous-ensembles de $E$. Montrons l'inclusion inverse.\\Soit $x\in E$ et procédons par disjonction de cas :
+	\begin{itemize}
+		\item Soit $x\in A$, et alors $x\in A\cup B$.
+		\item Soit $x\notin A$, mais alors $x\in \overline{A}$. Or $\overline{A}\subset B$ donc $x\in B$ et finalement $x\in A\cup B$.
+	\end{itemize}
+	Ainsi, dans tous les cas, $x\in A\cup B$ et finalement $E \subset A\cup B$ : on a bien l'égalité des ensembles.
+\end{align*}}
+\question{$A\setminus B = \overline{B}\setminus \overline{A}$.}
+\reponse{\begin{align*}
+Soit $x\in A\setminus B$. Alors $x \in A$ et $x\notin B$. Ainsi, $x\notin \overline{A}$ et $x\in \overline{B}$, et finalement $x \in \overline{B}\setminus \overline{A}$.\\
+	Réciproquement, soit $x\in \overline{B}\setminus \overline{A}$. Alors $x\in \overline{B}$ et $x\notin \overline{A}$, et donc $x\notin B$ et $x\in A$, c'est-à-dire $x\in A\setminus B$.
+\end{align*}}
+\question{$A\cup B = A\cup D$ et $A \cap B=A\cap D \Longleftrightarrow B=D$.}
+\reponse{\begin{align*}
+Supposons que $A\cup B = A\cup D$ et $A \cap B=A\cap D$. Soit $x\in B$. Alors faisons une disjonction de cas :
+		\begin{itemize}
+			\item Si $x\in A$, alors $x\in A\cap B = A\cap D$ et donc $x\in D$.
+			\item Si $x\notin A$, alors $x\in A\cup B = A\cup D$, donc $x\in A\cup D$ et mais $x\notin A$, donc $x\in D$.
+		\end{itemize}
+		Dans tous les cas $x\in D$ et finalement $B\subset D$. L'autre inclusion se fait de la même manière, et $B=D$.\\
+		Réciproquement, si $B=D$, alors on a rapidement $A\cup B=A\cup D$ et $A\cap B=A\cap D$.
+\end{align*}}
+\question{$((A\times B)\cup(B\times A)=D^2) \Longleftrightarrow (A=B=D)$.}
+\reponse{\begin{align*}
+Si $A=B=D$ alors imédiatement $(A\times B)\cup(B\times A)= (D\times D) \cup (D\times D)=D^2$. \\Réciproquement, supposons que $(A\times B)\cup(B\times A)=D^2$. \\Soit $x\in D$. Alors $(x,x)\in D^2$ et donc $(x,x)\in (A\times B)\cup(B\times A)$, c'est-à-dire $(x,x)\in A\times B$ ou $(x,x)\in B\times A$ : dans tous les cas $x\in A$ et $x\in B$ : $D\subset A$ et $D\subset B$.\\
+		Soit $x\in A$ et $y\in B$. Alors $(x,y)\in A\times B$ et donc $(x,y)\in D^2$ : ainsi, $x\in D$ et $y\in D$. On a donc $A\subset D$ et $B\subset D$.
+		\\Par double inclusion, on en déduit donc que $A=D$ et $B=D$.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

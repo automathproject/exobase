@@ -1,0 +1,39 @@
+\uuid{OOqX}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Généralités}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Re des composée}
+\contenu{
+\texte{Déterminer, pour les fonctions $f$ et $g$ suivantes, le domaine de définition et une expression de $g\circ f$ et $f\circ g$.}
+\question{$f:x\mapsto x^2$ et $g:x\mapsto \ln(x)$,}
+\reponse{\begin{align*}
+On fera toujours bien attention de justifier le domaine de définition avant de déterminer la composée.
+\begin{enumerate}
+  \item $x\mapsto x^2$ est définie sur $\R$ et est strictement positive sur $\R*$. Ainsi, $g\circ f$ est définie sur $\R*$ par $g\circ f:x\mapsto \ln(x^2)$.
+
+  $\ln$ quant à elle est définie sur $\R>$, et $f$ est définie sur $\R$, donc $f\circ g$ est définie sur $\R>$ par $f\circ g:x\mapsto (\ln(x))^2$.
+\end{align*}}
+\question{$f:x\mapsto \tan(x)$ et $g:x\mapsto \frac{1}{1+x^2}$,}
+\reponse{\begin{align*}
+\item $f$ est définie sur $\mathcal{D}_{\tan} = \R \setminus \left \{x\in \R,\,x=\frac{\pi}{2}\, [\pi] \right \}$. $g$ est définie sur $\R$, et pour tout réel $x$, $1+x^2\geq 2$ donc $0<\frac{1}{1+x^2} \leq \frac{1}{2} < \frac{\pi}{2}$. Ainsi, $f\circ g$ est définie sur $\R$ et $g\circ f$ est définie sur $\mathcal{D}_{\tan}$, et on a \[ f\circ g: x\mapsto \tan\left(\frac{1}{1+x^2}\right) \qeq g\circ f:x\mapsto \frac{1}{1+\tan^2(x)}. \]
+\end{align*}}
+\question{$f:x\mapsto \cos(x)$ et $g:x\mapsto \ln\left(x^2 -1\right)$,}
+\reponse{\begin{align*}
+\item $\cos$ est définie sur $\R$, et $g$ est définie sur $\interoo{{-\infty} -1}\cup \interoo{1 +\infty}$. Remarquons que pour tout $x$, $-1\leq \cos(x)\leq1$ et donc $g\circ f$ n'est jamais définie. $f\circ g$, quant à elle, est définie sur $\interoo{{-\infty} -1}\cup \interoo{1 +\infty}$ et \[ f\circ g :x \mapsto \cos \left( \ln \left( x^2-1\right)\right). \]
+  \item $f$ est définie sur $\R$ et $g$ sur $\R*$. Comme $f$ est strictement positive, on peut conclure que $f\circ g$ est définie sur $\R*$ et $g\circ f$ est définie sur $\R$ et \[ f\circ g : x \mapsto \eu{x-\frac{1}{x}} \qeq g\circ f:x\mapsto \eu{x}-\frac{1}{\eu{x}}=\eu{x}-\eu{-x}.\]
+\end{align*}}
+\question{$f:x\mapsto \eu{x}$ et $g:x\mapsto x-\frac{1}{x}$.}
+\reponse{\begin{align*}
+\end{enumerate}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

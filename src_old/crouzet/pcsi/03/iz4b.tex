@@ -1,0 +1,27 @@
+\uuid{iz4b}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Factorielle et coefficients binomiaux}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Retour de l'inégalité de Bernoulli}
+\contenu{
+\question{Montrer, sans récurrence, l'inégalité de Bernoulli dans le cas où $q\ge 0$ :
+\[ \forall~n\in \N*,\, \forall~x\in \R+,\quad (1+x)^n\geq 1+nx \]}
+\reponse{D'après la formule du binôme de Newton :
+\begin{align*}
+  (1+x)^n &= \sum_{k=0}^n \binom{n}{k}x^k 1^{n-k} \\
+  &= \sum_{k=0}^n \binom{n}{k} x^k \\
+  &= \binom{n}{0}x^0 +\binom{n}{1} x^1 +\sum_{k=2}^n \binom{n}{k} x^k \\
+  &= 1+nx + \sum_{k=2}^n \binom{n}{k} x^k  \geq 1+nx
+\end{align*}
+cette dernière inégalité étant vraie car $x\geq 0$ et les coefficients binomiaux sont positifs, donc la somme elle-même est positive.}
+}
+
+%%% Fin exercice %%%

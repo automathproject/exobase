@@ -1,0 +1,35 @@
+\uuid{a3Ec}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Sens de variation, majoration, minoration}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Majoration, minoration}
+\contenu{
+\question{Déterminer si les suites suivantes sont majorées, minorées, ou bornées.
+\begin{itemize}
+ \item La suite $u$ définie par $\displaystyle{u_n=\frac{n+2}{2n+1}}$.\\
+ \item La suite $v$ définie par $\displaystyle{v_n=\frac{n^2+2}{n}}$.
+\end{itemize}
+
+\begin{methode}
+On peut calculer les premiers termes pour avoir une idée d'un majorant $M$ ou minorant $m$. On calcule ensuite $u_n-M$ ou $u_n-m$ et on étudie le signe de cette différence.
+\end{methode}}
+\reponse{\begin{align*}
+\begin{itemize}[label=\textbullet]
+	\item Pour tout entier $n$, on a $n+2>0$ et $2n+1>0$ donc par quotient, $$\forall~n,~u_n>0$$
+		Il semblerait qu'elle soit majorée par $2$. Calculons $u_n-2$ :
+		$$\forall~n,~u_n-2=\frac{n+2}{2n+1}-2=\frac{n+2-2(2n+1)}{2n+1}=\frac{-n}{2n+1}$$
+		Pour tout entier $n$, $-n\leq 0$ et $2n+1>0$ donc $u_n-2\leq 0$.\\
+		\textbf{Bilan} : $\forall~n,~0<u_n\leq 2$.
+		\\\textit{Remarque} : on peut aussi montrer que pour tout entier $n$, $u_n\geq \frac{1}{2}$.
+	\item Pour tout entier $n>0$, on a $n^2+2>0$ et donc $$\forall~n\geq 1,~v_n>0$$
+		Constatons également que pour tout entier $n\geq 1$, $$v_n=\frac{n^2+2}{n}=\frac{n^2}{n}+\frac{2}{n}=n+\frac{2}{n}\geq n$$
+		car $\frac{2}{n}>0$.\\
+		Or la suite $w$ définie pour tout $n$ par $w_n=n$ n'est pas majorée. Par comparaison, la suite $v$ n'est pas majorée.\\\textbf{Bilan} : $v$ est minorée par $0$ mais n'est pas majorée.
+\end{itemize}
+\end{align*}}
+}

@@ -1,0 +1,51 @@
+\uuid{skI3}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Logiques}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Sur la disjonction}
+\contenu{
+\question{Démontrer l'idempotence, la commutativité, l'associativité et le tiers exclu de la disjonction, à l'aide de tables de vérité.}
+\reponse{\begin{align*}
+En écrivant les tables de vérités :
+\begin{center}\[ \begin{array}{|c|c|}\hline
+ \AA & \AA \ou \AA  \\\hline
+ V & V  \\
+ F & F  \\\hline
+ \end{array}\]
+
+   \[\begin{array}{|c|c|c|c|}\hline
+   \AA & \BB & \AA \ou \BB & \BB \ou \AA  \\\hline
+   V & V & V & V \\
+   V & F & V & V \\
+   F & V & V & V \\
+   F & F & F & F \\\hline
+   \end{array}
+  	\]
+    \[ \begin{array}{|c|c|c|}\hline
+     \AA & \non \AA & \AA \ou \non \AA  \\\hline
+     V & F & V  \\
+     F & V & V \\\hline
+     \end{array}\]
+
+    \end{center} et
+    \[ \begin{array}{|c|c|c|c|>{\columncolor{gray!20}}c|c|>{\columncolor{gray!20}}c|}\hline
+     \AA & \BB & \CC & \AA \ou \BB & (\AA \ou \BB) \ou \CC & \BB \ou \CC & \AA \ou (\BB \ou \CC)   \\\hline
+     V & V & V & V & V & V & V\\
+     V & V & F & V & V & V & V\\
+     V & F & V & V & V & V & V\\
+     V & F & F & V & V & F & V\\
+     F & V & V & V & V & V & V\\
+     F & V & F & V & V & V & V\\
+     F & F & V & F & V & V & V\\
+     F & F & F & F & F & F & F\\\hline
+     \end{array}
+    	\]
+\end{align*}}
+}

@@ -1,0 +1,109 @@
+\uuid{vAL9}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Éléments de logique et raisonnement}
+\sousChapitre{Raisonnements}
+%!TeX root=../../../encours.nouveau.tex
+
+\duree{40}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Récurrences}
+\contenu{
+\texte{Démontrer par récurrence les résultats suivants :}
+\question{$\ds{\forall n\geq 1,\quad  1^3+2^3+\cdots+n^3=\left(\frac{n(n+1)}{2}\right)^2}$}
+\reponse{~
+\begin{enumerate}
+	\item Soit $P_n$ la propriété ``$1^3+\cdots + n^3 = \left(\frac{n(n+1)}{2}\right)^2$'' définie pour tout entier $n\geq 1$, et montrons par récurrence que $P_n$ est vraie pour tout $n\geq 1$.
+    \begin{itemize}[label=\textbullet]
+        \item \textbf{Initialisation} : Pour $n=1$, la somme vaut $1^3=1$ et
+        \[\left(\frac{1(1+1)}{2}\right)^2 = 1^2 = 1\]
+        La propriété $P_1$ est donc vraie.
+        \item \textbf{Hérédité} : supposons la propriété $P_n$ vraie pour un certain $n\geq 1$, et montrons que $P_{n+1}$ est vraie. On sait donc que
+        \[ 1^3+\cdots + n^3 = \left(\frac{n(n+1)}{2}\right)^2\]
+        donc
+        \[1^3+\cdots + n^3 +(n+1)^3= \left(\frac{n(n+1)}{2}\right)^2 + (n+1)^3\]
+        Or
+        \begin{align*}
+          \left(\frac{n(n+1)}{2}\right)^2 + (n+1)^3 &= (n+1)^2\left(\frac{n^2}{4}+(n+1)\right) \\&= (n+1)^2 \left( \frac{n^2+4n+4}{4}\right) \\&= (n+1)^2\left(\frac{n+2}{2}\right)^2=\left( \frac{(n+1)(n+2)}{2} \right)^2
+        \end{align*}
+        Ainsi, \[1^3+\cdots + n^3 +(n+1)^3=\left( \frac{(n+1)(n+2)}{2} \right)^2\]}
+\question{Si $a$ est un réel fixé $a\geq -1$, \[\ds{\forall n,\quad (1+a)^n\geq 1+na} \quad\quad \textrm{(inégalité de Bernoulli)}\]}
+\reponse{\begin{align*}
+La propriété $P_{n+1}$ est donc vraie.
+    \end{itemize}
+	\textbf{Bilan} : d'après le principe de récurrence, la propriété $P_n$ est vraie pour tout $n\geq 1$.
+	\item \emph{L'inégalité de Bernoulli nous sera utile plus tard. Elle est donc à retenir.}\\
+	Soit $P_n$ la propriété ``$(1+a)^n\geq 1+na$'' définie pour tout entier $n\geq 0$. Montrons par récurrence que $P_n$ est vraie pour tout entier naturel $n$.
+    \begin{itemize}[label=\textbullet]
+        \item \textbf{Initialisation} :
+        Pour $n=0$, on a $(1+a)^0=1$ et $1+0\times a = 1$. Ainsi, $(1+a)^0 \geq 1+0\times a$.\\
+        La propriété $P_0$ est donc vraie.
+        \item \textbf{Hérédité} : supposons la propriété $P_n$ vraie pour un certain $n$, et montrons que $P_{n+1}$ est vraie. On sait donc que
+        \[(1+a)^n \geq 1+na\]
+        En multipliant par $(1+a) > 0$ par hypothèse, on a
+        \[(1+a)(1+a)^n \geq (1+a)(1+na)\]
+        soit
+        \[(1+a)^{n+1} \geq 1+(n+1)a + na^2\]
+        Or $na^2 \geq 0$, donc
+        \[(1+a)^{n+1} \geq 1+(n+1)a + na^2 \geq 1+(n+1)a\]
+\end{align*}}
+\question{Si $u$ est la suite définie par $u_0=7$ et pour tout entier $n$, $u_{n+1}=2u_n-3$, alors \[\forall n, \quad u_n=2^{n+2}+3\]}
+\reponse{\begin{align*}
+La propriété $P_{n+1}$ est donc vraie.
+    \end{itemize}
+	\textbf{Bilan} : d'après le principe de récurrence, la propriété $P_n$ est vraie pour tout $n$.
+	\item Soit $P_n$ la propriété ``$u_n=2^{n+2}+3$'' définie pour tout entier $n\geq 0$. Montrons par récurrence que $P_n$ est vraie pour tout entier naturel $n$.
+   \begin{itemize}[label=\textbullet]
+        \item \textbf{Initialisation} : pour $n=0$, $u_0=7$ et $2^{0+2}+3=2^2+3=7$.\\
+        La propriété $P_0$ est donc vraie.
+        \item \textbf{Hérédité} : supposons la propriété $P_n$ vraie pour un certain $n$, et montrons que $P_{n+1}$ est vraie. On sait donc que
+            \[u_n=2^{n+2}+3\]
+            Or, par définition, $u_{n+1}=2u_n-3$. Donc, par hypothèse de récurrence (H.R.) :
+            \[u_{n+1}=2\left( \underbrace{2^{n+2}+3}_{\textrm{H.R.}} \right) - 3 = 2\times 2^{n+2}+6-3=2^{n+3}+3=2^{(n+1)+2}+3\]
+                La propriété $P_{n+1}$ est donc vraie.
+    \end{itemize}
+	\textbf{Bilan} : d'après le principe de récurrence, la propriété $P_n$ est vraie pour tout $n$.
+\end{align*}}
+\question{Si $q\neq 1$, alors
+	    \[\forall n, \quad 1+q+\cdots+q^n = \frac{1-q^{n+1}}{1-q}\]}
+\reponse{\begin{align*}
+\item \textit{Cette démonstration peut se faire sans récurrence, en calculant $(1-q)(1+q+\cdots+q^n)$.}\\
+		Soit $P_n$ la propriété ``$1+q+\cdots+q^n=\dfrac{1-q^{n+1}}{1-q}$'' définie pour tout entier $n\geq 0$. Montrons par récurrence que $P_n$ est vraie pour tout entier naturel $n$.
+	  \begin{itemize}[label=\textbullet]
+        \item \textbf{Initialisation} : pour $n=0$, la somme est réduite à $q^0=1$ et $\frac{1-q^1}{1-q}=1$.\\
+         La propriété $P_0$ est donc vraie.
+       \item \textbf{Hérédité} : supposons la propriété $P_n$ vraie pour un certain $n$, et montrons que $P_{n+1}$ est vraie. On sait donc que
+         \[1+q+\cdots +q^n = \frac{1-q^{n+1}}{1-q}\]
+         Donc
+         \[1+q+\cdots +q^n +q^{n+1}=\underbrace{\frac{1-q^{n+1}}{1-q}}_{\textrm{H.R.}} + q^{n+1}=\frac{1-q^{n+1}+q^{n+1}-q^{n+2}}{1-q}= \frac{1-q^{n+2}}{1-q}=\frac{1-q^{(n+1)+1}}{1-q}\]
+         La propriété $P_{n+1}$ est donc vraie.
+    \end{itemize}
+	\textbf{Bilan} : d'après le principe de récurrence, la propriété $P_n$ est vraie pour tout $n$.
+\end{align*}}
+\question{$\ds{\forall n\geq 1, \quad 1+3+5+\cdots+(2n-1)=n^2}$}
+\reponse{\begin{align*}
+\item Soit $P_n$ la propriété ``$1+3+\cdots +(2n-1)=n^2$'' définie pour tout entier $n\geq 1$. Montrons par récurrence que $P_n$ est vraie pour tout entier naturel $n\geq 1$.
+	  \begin{itemize}[label=\textbullet]
+        \item \textbf{Initialisation} : pour $n=1$, la somme est réduite à $1$ et $1^2=1$.\\
+        La propriété $P_1$ est donc vraie.
+       \item \textbf{Hérédité} : supposons la propriété $P_n$ vraie pour un certain $n\geq 1$, et montrons que $P_{n+1}$ est vraie. On sait donc que
+        \[1+3+\cdots +(2n-1) = n^2\]
+        Donc,
+        \[1+3+\cdots +(2n-1) + (2n+1)= \underbrace{n^2}_{\textrm{H.R.}} + (2n+1) = (n+1)^2\]
+         La propriété $P_{n+1}$ est donc vraie.
+    \end{itemize}
+	\textbf{Bilan} : d'après le principe de récurrence, la propriété $P_n$ est vraie pour tout $n\geq 1$.
+\end{enumerate}
+\end{align*}}
+}
+
+%
+%\begin{itemize}[label=\textbullet]
+%
+%\end{itemize}
+%
+%\solution{
+%
+%}

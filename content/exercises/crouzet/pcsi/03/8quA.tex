@@ -1,0 +1,53 @@
+\uuid{8quA}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Inégalité de Cauchy-Schwarz}
+\contenu{
+\texte{Soit $n$ un entier naturel non nul. Soient $x_1, \hdots, x_n, y_1, \hdots y_n$ des réels.}
+\question{Justifier que, pour tout $t\in \R$, \[ \sum_{i=1}^n \left(|x_i|+t|y_i|\right)^2 = at^2+bt+c \]
+	où $a, b$ et $c$ sont trois réels à exprimer en fonction des $(x_i)$ et des $(y_i)$.}
+\reponse{Soit $t\in \R$. On développe : \[ \left(|x_i|+t|y_i|\right)^2 = |x_i|^2+2|x_i|\cdot|y_i|t + t^2 |y_i|^2 = x_i^2+2|x_iy_i|t + t^2 y_i^2 \]
+	soit, en sommant
+	\begin{align*}
+		\sum_{i=1}^n \left(|x_i|+t|y_i|\right)^2 &= \sum_{i=1}^n x_i^2+2|x_iy_i|t + t^2 y_i^2 \\
+		&= \sum_{i=1}^n x_i^2 + 2t \sum_{i=1}^n |x_iy_i| + t^2\sum_{i=1}^n y_i^2\\
+		&= at^2+bt+c
+	\end{align*}
+	avec $\ds{a=\sum_{i=1}^n y_i^2,\, b=2\sum_{i=1}^n |x_iy_i|,\,\text{et}\,x=\sum_{i=1}^n x_i^2}$.}
+\question{En déterminant le signe du trinôme du second degré précédent de deux manières différentes, montrer que \[ \sum_{i=1}^n \left|x_iy_i\right| \leq \sqrt{\sum_{i=1}^n x_i^2} \sqrt{\sum_{i=1}^n y_i^2} \]
+	 Cette inégalité est appelée \textbf{inégalité de Cauchy-Schwarz}.}
+\reponse{\begin{align*}
+Tout d'abord, puisque $|x_i+ty_i|^2\geq 0$, par somme, \[ \sum_{i=1}^n \left( |x_i|+t|y_i|\right)^2 \geq 0 \]
+	Ainsi, le trinôme du second degré est de signe constant. Cela signifie que son discriminant $\Delta$ est négatif. Or
+	\[ \Delta = b^2-4ac = \left(2\sum_{i=1}^n |x_iy_i|\right)^2-4\sum_{i=1}^n x_i^2 \sum_{i=1}^n y_i^2 \]
+	et cela donne
+	\[ \left(\sum_{i=1}^n |x_iy_i|\right)^2 \leq \sum_{i=1}^n x_i^2 \sum_{i=1}^n y_i^2 \]
+	puis, en appliquant la fonction racine croissante sur $\R+$, et par positivité des termes
+
+	\[ \sum_{i=1}^n |x_iy_i| \leq \sqrt{\sum_{i=1}^n x_i^2}\sqrt{\sum_{i=1}^n y_i^2}. \]
+\end{align*}}
+\question{En appliquant la précédente inégalité à des réels bien choisis, montrer que \[ \frac{6n}{(n+1)(2n+1)} \leq \sum_{k=1}^n \frac{1}{k^2} \]}
+\reponse{Appliquons l'inégalité de Cauchy-Schwarz à $x_i=\frac{1}{i}$ et $y_i=i$, pour tout $i\in \interent{1 n}$. Cela donne :
+	\[ \sum_{i=1}^n \left|\frac{1}{i}i\right| \leq \sqrt{\sum_{i=1}^n \frac{1}{i^2}}\sqrt{\sum_{i=1}^n i^2}. \]
+	 Or :
+	 \begin{align*}
+   \sum_{i=1}^n 1 &= n \\
+	 \text{et }\sum_{i=1}^n i^2 &= \frac{n(n+1)(2n+1)}{6}
+	 \end{align*}
+et l'inégalité devient
+\[ n \leq \sqrt{\sum_{i=1}^n \frac{1}{i^2}} \sqrt{\frac{n(n+1)(2n+1)}{6}} \]
+soit, en appliquant la fonction carré, croissante sur $\R+$
+\[ n^2 \leq  \frac{n(n+1)(2n+1)}{6}\sum_{i=1}^n \frac{1}{i^2} \]
+et finalement
+\[ \frac{6n}{(n+1)(2n+1)} \leq \sum_{i=1}^n \frac{1}{i^2}. \]}
+}
+
+%%% Fin exercice %%%

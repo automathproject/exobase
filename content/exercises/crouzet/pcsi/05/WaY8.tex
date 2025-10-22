@@ -1,0 +1,40 @@
+\uuid{WaY8}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{5}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Image directe, image réciproque}
+\contenu{
+\question{Soit $f$ la fonction définie sur $\R$ par $f:x\mapsto \ln\left(x^2+1\right)$.
+\\Déterminer l'image directe par $f$ de $\interff{-1 1}$. Déterminer l'image réciproque par $f$ de $\R^+$ et de $\interff{1 \ln(10)}$.}
+\reponse{On raisonne par inégalité :
+  \begin{align*}
+    -1\leq x \leq 1 &\iff 0 \leq x^2 \leq 1 \\
+    &\iff 1 \leq x^2+1 \leq 2 \\
+    &\iff \ln(1) \leq \ln(x^2+1) \leq \ln(2) \text{ car $\ln$ est bijective.}
+  \end{align*}
+  Ainsi, \[ f\left(\interff{-1 1}\right)=\interff{0 \ln(2)}.\]
+  Réciproquement :
+  \begin{align*}
+    1\leq f(x) \leq \ln(10) &\Leftrightarrow 1\leq \ln(x^2+1)\leq \ln(10) \\
+    &\Leftrightarrow \E \leq x^2+1 \leq 10 \text{ car $\exp$ est bijective}\\
+    &\Leftrightarrow \E - 1 \leq x^2 \leq 9 \\
+    &\Leftrightarrow x \in \interff{-3 -\sqrt{\E-1}} \cup \interff{\sqrt{{\E-1}} 3}
+  \end{align*}
+  Ainsi, \[ f^{-1}\left(\interff{1 \ln(10)}\right) = \interff{-3 -\sqrt{\E-1}} \cup \interff{{\sqrt{\E-1}} 3} .\]
+  
+  Pour $\R+$ :
+  \begin{align*}
+  f(x) \geq 0 &\Leftrightarrow \ln(x^2+1)\geq 0\\
+  &\Leftrightarrow x^2+1\geq 1 \\
+  &\Leftrightarrow x^2 \geq 0 \text{ ce qui est vrai pour tout }x\in \R.	
+  \end{align*}
+  Ainsi, \[ f^{-1}\left(\R+\right) = \R.\]}
+}

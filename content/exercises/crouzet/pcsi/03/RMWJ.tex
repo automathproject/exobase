@@ -1,0 +1,62 @@
+\uuid{RMWJ}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Manipulations et calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des calculs}
+\contenu{
+\question{Soit $n$ un entier naturel non nul. Calculer les sommes suivantes :
+
+	\begin{itemize}[itemsep=10pt,label=]
+		\item $\ds{\sum_{i=1}^{3n} 2^i}$,
+		\item $\ds{\sum_{j=1}^{n} \sqrt{3^j}}$,
+		\item $\ds{\sum_{j=0}^n \frac{3^j - 3\times 5^j}{2^{2j}}}$,
+		\item $\ds{\sum_{k=2}^{n} \ln\left(\frac{1}{k}\right)}$,
+		\item $\ds{\sum_{j=1}^n \frac{1}{\sqrt{j}+\sqrt{j+1}}}$,
+		\item $\ds{\sum_{j=1}^n nj}$,
+		\item $\ds{\sum_{a=2}^n \ln \left(1-\frac{1}{a}\right)}$.
+		\item
+	\end{itemize}}
+\reponse{On se ramène autant que possible à des sommes usuelles. Ainsi :
+\begin{align*}
+  \sum_{i=1}^{3n} 2^i &= \sum_{i=0}^{3n} 2^i - 1\\ &= \frac{1-2^{3n+1}}{1-2}-1 = 2^{3n+1}-2\\
+	\sum_{j=1}^{n} \sqrt{3^j} &= \sum_{j=1}^n \left(\sqrt{3}\right)^j \\
+	&= \sum_{j=0}^n \left(\sqrt{3}\right)^j -1 \\
+	&= \frac{1-\left(\sqrt{3}\right)^{n+1}}{1-\sqrt{3}}-1
+\end{align*}
+\begin{align*}
+ \sum_{j=0}^n \frac{3^j - 3\times 5^j}{2^{2j}} &= \sum_{j=0}^n \frac{3^j}{2^{2j}} - 3\frac{5^j}{2^{2j}} \\
+ &= \sum_{j=0}^n \left(\frac{3}{4}\right)^j - 3\sum_{j=0}^n \left(\frac{5}{4}\right)^j \\
+ &= \frac{1-\left(\frac{3}{4}\right)^{n+1}}{1-\frac{3}{4}} - 3 \frac{1-\left(\frac54\right)^{n+1}}{1-\frac{5}{4}} \\
+ &= 4\left(1-\left(\frac34\right)^{n+1}\right) + 12\left(1-\left(\frac54\right)^{n+1}\right)
+\end{align*}
+\begin{align*}
+ \sum_{j=1}^n nj &= n \sum_{j=1}^n j \\ &= n\frac{n(n+1)}{2}= \frac{n^2(n+1)}{2}
+\end{align*}
+On peut ré-écrire les sommes pour simplifier :
+\begin{align*}
+ \sum_{k=2}^{n} \ln\left(\frac{1}{k}\right) &=  \sum_{k=2}^n -\ln(k) \\
+ &= -\sum_{k=2}^n \ln(k) \\
+ &= - \ln\left(\prod_{k=2}^n k \right) = -\ln(n!)
+\end{align*}
+Dans les autres cas, on essaie de se ramener à une somme télescopique :
+\begin{align*}
+ \boxed{\sum_{j=1}^n \frac{1}{\sqrt{j}+\sqrt{j+1}}} &= \sum_{j=1}^n \frac{\sqrt{j}-\sqrt{j+1}}{\left(\sqrt{j}+\sqrt{j+1}\right)\left(\sqrt{j}-\sqrt{j+1}\right)} \\
+ &= \sum_{j=1}^n \frac{\sqrt{j}-\sqrt{j+1}}{j-(j+1)} = \sum_{j=1}^n \frac{\sqrt{j}-\sqrt{j+1}}{-1} \\
+ &= \sum_{j=1}^n \sqrt{j+1}-\sqrt{j} = \sqrt{n+1}-\sqrt{1}=\boxed{\sqrt{n+1}-1}
+\end{align*}
+et
+\begin{align*}
+ \boxed{\sum_{a=2}^n \ln \left(1-\frac{1}{a}\right)} &= \sum_{a=2}^n \ln \left( \frac{a-1}{a}\right) \\
+ &= \sum_{a=2}^n \ln(a-1) - \ln(a) = \ln(1)-\ln(n)=\boxed{-\ln(n)}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

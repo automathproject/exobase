@@ -1,0 +1,25 @@
+\uuid{KiVm}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Convergence d'une suite}
+\sousChapitre{Premières limites}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Limites de somme}
+\contenu{
+\texte{Déterminer la limite (si elle existe)  des suites $(u_n)$ d\'efinies par}
+\question{$u_n=2^n -\dfrac{1}{n^2}$}
+\reponse{\begin{align*}
+Puisque $2>1$, $2^n\tendversen{n\to +\infty} +\infty$. De plus $\dfrac{1}{n^2}\tendversen{n\to +\infty} 0$. Par somme, \[ \lim_{n\to +\infty} 2^n-\dfrac{1}{n^2} = +\infty \]
+\end{align*}}
+\question{$u_n=\left(\dfrac{5}{3}\right)^n +\left(\dfrac{1}{2}\right)^n-1$}
+\reponse{\begin{align*}
+On a $\frac53 > 1$. Donc $\left(\frac53\right)^n \tendversen{n\to +\infty} +\infty$. De plus, $-1<\frac12<1$, donc $\left(\frac12\right)^n\tendversen{n\to+\infty} 0$. Par somme, \[ \lim_{n\to +\infty} \left(\dfrac{5}{3}\right)^n +\left(\dfrac{1}{2}\right)^n-1=+\infty \]
+\end{align*}}
+\question{$u_n=3n^5 -2n^{-3}$}
+\reponse{\begin{align*}
+Enfin, on remarque que $n^{-3}=\frac{1}{n^3}$. Donc $2n^{-3}\tendversen{n\to +\infty} 0$. De plus, $3n^5\tendversen{n\to +\infty} +\infty$. Par somme, \[ \lim_{n\to +\infty} 3n^5-2n^{-3}=+\infty \]
+\end{align*}}
+}

@@ -1,0 +1,47 @@
+\uuid{LAtu}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des composées et des propriétés}
+\contenu{
+\texte{Soient $E, F$, $G$ et $H$ des ensembles, $f:E\to F$, $g:F\to G$ et $h:G\to H$ trois applications.}
+\question{Montrer que si $g\circ f$ est injective, alors $f$ est injective. Qu'en est-il de $g$ ? Montrer que $g$ l'est si $f$ est surjective.}
+\reponse{\begin{align*}
+Supposons $g\circ f$ injective. Soient $x$ et $x'$ deux éléments de $E$ tels que $f(x)=f(x')$. Alors, en appliquant $g$ : \[ g(f(x))=g(f(x')) \implies x=x' \]
+	puisque $g\circ f$ est injective. Ainsi, $f$ est bien injective.
+
+	En revanche, $g$ ne l'est pas forcément. Par exemple, $g:\R\to \R$, et $f:\R^+\to \R$, définie par $g:x\mapsto x^2$ et $f:x\mapsto \sqrt{x}$. $g\circ f:\R^+ \to \R$ est égale à $x\mapsto x$ sur $\R+$ et est donc injective. Or $g$ ne l'est pas.
+	
+	Si $f$ est surjective, montrons que $g$ est injective. Soient $y,y'\in F^2$ tels que $g(y)=g(y')$. $f$ étant surjective, il existe $x,x'\in E^2$ tels que $y=f(x)$ et $y'=f(x')$. Mais alors
+	\[ g(y)=g(y') \implies g(f(x))=g(f(x'))\]
+	et par injectivité de $g\circ f$, $x=x'$. En appliquant $g$, $g(x)=g(x')$, c'est-à-dire $y=y'$ : $g$ est injective.
+\end{align*}}
+\question{Montrer que si $g\circ f$ est surjective, alors $g$ est surjective. Qu'en est-il de $f$ ? Montrer que $f$ l'est si $g$ est injective.}
+\reponse{\begin{align*}
+Supposons $g\circ f$ surjective. Montrons que $g$ est surjective : soit $y \in G$. $g\circ f$ étant surjective, il existe $x\in E$ tel que $g\circ f(x)=y$. Ce qu'on peut écrire $g(a) = y$ avec $a=f(x)$ : $g$ est bien surjective.
+	
+	En revanche, $f$ ne l'est pas forcément. Par exemple, prenons $f:R+\to R$ définie par $f(x)=\sqrt{x}$ et $g:\R\to \R^+$ définie par $g(x)=x^2$. $g\circ f:\R+ \to \R+$ est définie par $g\circ f(x)=x$ est surjective, mais $f$ ne l'est pas. 
+	
+	Si $g$ est injective, montrons que $f$ est surjective. Soit $y\in F$. $g(y)\in G$. $g\circ f$ étant surjective, il existe $x\in E$ tel que $g\circ f(x)=g(y)$, c'est-à-dire $g(f(x))=g(y)$. $g$ étant injective, $f(x)=y$ et on a bien prouvé que $f$ est surjective.
+\end{align*}}
+\question{Montrer que si $g\circ f$ et $h\circ g$ sont bijectives, alors $f, g$ et $h$ sont bijectives. La réciproque est-elle vraie ?}
+\reponse{\begin{align*}
+On utilise ce qui précède. $g\circ f$ est bijective, donc injective et surjective. On peut donc conclure que $g$ est surjective.
+
+	$h\circ g$ est bijective, donc injective et surjective. Ainsi, $g$ est injective.
+
+	On a donc déjà que $g$ est bijective. Puisque $g\circ f$ est bijective également, par composée $g^{-1} \circ (g\circ f)=f$ est bijective. De même, $h\circ g$ est bijective, donc $(h\circ g)\circ g^{-1} = h$ est bijective.
+
+	\textbf{Bilan} : $f, g$ et $h$ sont bijectives. La réciproque est bien sûr vraie, si $f, g$ et $h$ sont bijectives, leurs composées le sont.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

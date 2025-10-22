@@ -1,0 +1,48 @@
+\uuid{rwcl}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{15}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Image directe et image réciproque d'intersection}
+\contenu{
+\texte{Soit $f:E\to F$ une application.}
+\question{Montrer que, pour toutes parties $A$ et $B$ de $F$, on a 
+	\[ f^{-1}(A\cap B) = f^{-1}(A)\cap f^{-1}(B).\]}
+\reponse{\begin{align*}
+On procède par double inclusion. Soient $A$ et $B$ deux parties de $F$.
+	\begin{itemize}
+		\item $[\subset]$ Soit $x\in f^{-1}(A\cap B)$. Alors, par définition $f(x)\in A\cap B$. Ainsi, $f(x)\in A$ et $f(x)\in B$, et donc $x\in f^{-1}(A)$ et $x\in f^{-1}(B)$ : on peut conclure que $\boxed{x\in f^{-1}(A)\cap f^{-1}(B)}$.
+		\item $[\supset]$ Soit $x\in f^{-1}(A)\cap f^{-1}(B)$. Alors, $x\in f^{-1}(A)$ et $x\in f^{-1}(B)$. Par définition, $f(x)\in A$ et $f(x)\in B$, et donc $f(x)\in A\cap B$. On en déduit ainsi que $\boxed{x\in f^{-1}(A\cap B)}$.
+	\end{itemize}
+\end{align*}}
+\question{\begin{enumerate}
+	\item Montrer que, pour toutes parties $A$ et $B$ de $E$, on a 
+	\[ f(A\cap B) \subset f(A) \cap f(B). \]
+	\item On suppose que $f$ est injective. Montrer alors que \[ f(A\cap B) = f(A)\cap f(B). \]
+	\end{enumerate}}
+\reponse{\begin{align*}
+\begin{enumerate}
+	\item Soit $y\in f(A\cap B)$. Par définition, il existe $x\in A\cap B$ tel que $f(x)=y$. Puisque $x\in A\cap B$, $x \in A$ et $x\in B$. Ainsi, $y=f(x)$ avec $x\in A$, c'est-à-dire $y\in f(A)$, mais $y=f(x)$ également avec $x\in B$ : $y\in f(B)$. Finalement, $\boxed{y \in f(A)\cap f(B)}$. 
+	\item Montrons l'autre inclusion dans le cas où $f$ est injective. Soit $y\in f(A)\cap f(B)$. Par définition :
+	\begin{itemize}
+		\item $y\in f(A)$ : il existe $a\in A$ tel que $y=f(a)$	
+		\item $y\in f(B)$: il existe $b\in A$ tel que $y=f(b)$
+	\end{itemize}
+\begin{remarque}
+À ce niveau là, on ne peut pas conclure, parce qu'en théorie, ni $a$ ni $b$ ne sont dans $A\cap B$. On va utiliser l'hypothèse.	
+\end{remarque}
+ Ainsi, $y=f(a)=f(b)$. Mais $f$ est injective, donc $a=b$. Ainsi, $a\in A$ mais $a=b\in B$, donc finalement $a\in A\cap B$.
+ 
+ On peut conclure : $y=f(a)$ avec $a\in A\cap B$, et donc $y\in f(A\cap B)$, ce qui démontre l'autre inclusion.
+	\end{enumerate}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

@@ -1,0 +1,47 @@
+\uuid{7Jo3}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{3}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{$\N*$, $\Z$, $\N^2$ et $\Q$ sont dénombrables}
+\contenu{
+\texte{\begin{definition}
+	On dit qu'un ensemble $A$ est \textbf{dénombrable} s'il est en bijection avec une partie de $\N$.
+\end{definition}}
+\question{Montrer que $\N*$ et $\Z$ sont dénombrables.}
+\reponse{\begin{align*}
+Les applications suivantes sont bijectives :
+		\[ \begin{array}{rcl}f:\N &\to& \N*\\n&\donne &n+1 \end{array} \qeq \begin{array}{rcl}g: \N &\dans& \Z\\n&\mapsto & \left \{ \begin{array}{ll}\frac{n}{2} &\text{ si $n$ est pair}\\-\frac{n+1}{2}&\text{ si $n$ est impair}\end{array}\right. \end{array} \]
+		ce qui nous permet de conclure que $\N$, $\N*$ et $\Z$ sont en bijection, et que $\N*$ et $\Z$ sont dénombrables.
+\end{align*}}
+\question{\begin{enumerate}
+		\item Montrer que $\N^2$ et $\Z\times \N*$ sont en bijection.
+		\item Montrer que l'application $(j,k)\in \N^2 \donne 2^j(2k+1)$ est une bijection de $\N^2$ dans $\N*$.
+		\item En déduire que $\N^2$ et $\Z\times \N*$ sont dénombrables.
+	\end{enumerate}}
+\reponse{\begin{align*}
+\begin{enumerate}
+			\item On utilise les deux bijections précédentes : l'application $h:\N^2 \dans \Z\times \N*$ définie par $h(n, p) =(g(n), f(p))$ est une bijection.
+			\item Remarquons tout d'abord que tout nombre $n\in \N*$ peut s'écrire sous la forme $2^j(2k+1)$ : en mettant la plus grande puissance de $2$ en facteur, le reste n'est pas un multiple de $2$, donc est impair. L'application donnée est donc surjective. Pour l'injectivité, soient $(j,k)\in \N^2$ et $(m,n)\in \N^2$ ayant la même image. On a donc \[ 2^j(2k+1) = 2^m(2n+1) \]
+			Si $j\geq m$ (l'autre cas étant similaire), on peut écrire \[ 2^{j-m}(2k+1) = 2n+1 \]
+			Or, $2n+1$ est un nombre impair, donc non divisible par $2$. Nécessairement, $j-m=0$, c'est-à-dire $j=m$. Mais alors, on en déduit rapidement que $2k+1=2n+1$, c'est-à-dire $k=n$. L'application est bien injective, et finalement bijective.
+			\item D'après ce qui précède, $\N*$ étant dénombrable, $\N^2$ l'est également. Mais alors, par la question $(a)$, on en déduit que $\Z\times \N*$ est également dénombrable.
+		\end{enumerate}
+\end{align*}}
+\question{Soient $A$ et $B$ deux ensembles tels que $B$ est dénombrable. On suppose qu'il existe une injection de $A$ dans $B$. Montrer que $A$ est dénombrable.}
+\reponse{\begin{align*}
+On note $f$ l'injection de $A$ dans $B$. Par définition, $f$ est une bijection de $A$ dans $f(A)\subset B$. $B$ étant dénombrable, il existe une bijection $g$ de $B$ dans une partie $\N$. Notons alors $h:A\to \N$ définie par $h=g\circ f$. Par composition, $h$ est bien définie et est injective (composée de deux fonctions injectives). Donc $h$ est une bijection de $A$ dans $h(A)\subset \N$ : on a bien une bijection de $A$ dans une partie de $\N$, ce qui permet de conclure que $A$ est dénombrable.
+\end{align*}}
+\question{Construire une injection de $\Q$ dans une partie infinie de $\Z\times \N*$. Déduire de la question précédente que $\Q$ est dénombrable.}
+\reponse{\begin{align*}
+Pour construire une bijection de $\Q$ dans une partie de $\Z \times \N*$, on va simplement partir de la définition de $\Q$. Pour tout $r\in \Q$, on peut l'écrire de manière unique $r=\frac{p}{q}$ avec $p\in \Z$, $q\in \N*$ et $p$ et $q$ sont premiers entre eux (c'est-à-dire que la fraction est irréductible). Alors, on définit l'application $L$ par $L(r)=(p, q)$. On montre que c'est une injection de $\Q$ dans $\Z\times \N*$, et donc, puisque $\Z\times \N*$ est dénombrable, en vertu de la question précédente, $\Q$ est dénombrable.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

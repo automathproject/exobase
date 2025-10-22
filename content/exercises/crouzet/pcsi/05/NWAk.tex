@@ -1,0 +1,59 @@
+\uuid{NWAk}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Ensembles et applications}
+\sousChapitre{Ensemble}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Sur les ensembles de suites}
+\contenu{
+\texte{On se place dans $\R^{\N}$ l'ensemble des suites réelles. On note :
+
+	\begin{itemize}
+		\item $I_0$ l'ensemble des suites réelles de terme initial nul.
+		\item $M$ l'ensemble des suites réelles majorées.
+		\item $B$ l'ensemble des suites réelles bornées.
+		\item $L$ l'ensemble des suites réelles convergentes.
+		\item Pour tout $k\in \Z$, $L_k$ l'ensemble des suites réelles qui convergent vers un réel de $\interfo{k k+1}$.
+		\item $C$ l'ensemble des suites réelles croissantes.
+		\item $G$ l'ensemble des suites géométriques.
+	\end{itemize}}
+\question{\'Ecrire ces ensembles en compréhension, ainsi que l'ensemble $\overline{L}$.}
+\reponse{$I_0=\left \{ (u_n),\quad u_0=0 \right \}$,
+\begin{align*}
+	M&=\left \{ (u_n) ,\quad \exists M \in \R,\, \forall~n,\, u_n\leq M \right \} \\
+	B&=\left \{ (u_n) ,\quad \exists M \in \R+,\, \forall~n,\, |u_n|\leq M \right \} \\
+	L&=\left \{ (u_n) ,\quad \exists \ell \in \R,\, \lim u_n= \ell \right \} \\
+	\forall k\in \Z,\quad L_k&=\left \{ (u_n) ,\quad \exists \ell \in \interfo{k k+1},\, \lim u_n= \ell \right \} 		\\
+	C&=\left \{ (u_n) ,\quad \forall~n\in \N,\, u_{n}\leq u_{n+1} \right \} 	\\
+	G&=\left \{ (u_n) ,\quad \exists q \in \R,\, \forall~n\in \N,\, u_{n+1}=qu_n \right \}\\
+	\overline{L}&= \left \{ (u_n) ,\quad \forall \ell \in \R,\, \lim u_n\neq \ell \right \} 
+\end{align*}}
+\question{Montrer que $B \subsetneq M$, $L \subsetneq B$, $(C\cap M) \subsetneq L$.}
+\reponse{\begin{align*}
+Les inclusions sont immédiates (une suite bornée est majorée, une suite convergente est bornée, et une suite croissante majorée est convergente d'après le théorème de convergence monotone). Pour les non égalités :
+	\begin{itemize}
+		\item La suite $u$ définie pour tout $n$ par $u_n=-n$ est majorée (par $0$) mais pas bornée.
+		\item La suite $u$ définie par $u_n=(-1)^n$ est bornée mais pas convergente.
+		\item La suite $u$ définie par $u_n=\frac{(-1)^n}{n+1}$ est convergente mais pas monotone.
+	\end{itemize}
+\end{align*}}
+\question{Décrire $L\cap G$.}
+\reponse{\begin{align*}
+$L\cap G$ est composée des suites géométriques qui convergent dans $\R$. D'après le cours, il s'agit des suites géométriques de raison $q\in \interof{0 1}$.
+\end{align*}}
+\question{Montrer que $(L_k)_{k\in \Z}$ est une famille de partie non vides de $F$ qui sont deux à deux disjoints, et dont l'union est $L$.}
+\reponse{\begin{align*}
+Par définition et unicité de la limite, les $(L_k)$ sont deux à deux disjoints. Elles sont non vides (les suites constantes égales à $k$, avec $k\in \Z$, convergent vers $k$). Intuivivement, \[ L = \bigcup_{k\in \Z} L_k \]
+	On le montre par double inclusion.\\
+	Si $u \in L_k$ alors la suite converge donc $u\in L$. Ainsi, \[ L \supset  \bigcup_{k\in \Z} L_k \]
+	Réciproquement, soit $u\in L$. Puisque $u$ converge, notons $\ell$ sa limite. Par définition, en notant $k=\lfloor \ell \rfloor$, $\ell \in \interfo{k k+1}$ et donc $u \in L_{\lfloor \ell \rfloor}$. On a bien l'autre inclusion.
+\end{align*}}
+}
+
+%%% Fin exercice %%%

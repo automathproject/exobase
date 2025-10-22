@@ -1,0 +1,31 @@
+\uuid{OkbT}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Généralités}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{5}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des composées}
+\contenu{
+\question{On considère les fonctions $f:x\donne x^2, g:x\donne \sqrt{x}$ et $h:x\donne x-2$.
+Déterminer l'ensemble de définition et l'expression des fonctions suivantes :
+\[f\circ g, f\circ h, g\circ h, h\circ f, h\circ g, g\circ f\]}
+\reponse{\begin{align*}
+Remarquons tout d'abord que $f$ est définie sur $\R$, $g$ est définie sur $\R[+]$ et $h$ est définie sur $\R$. De plus, $f$ est toujours positive, et $h$ est positive sur $\interfo{2 \plusinf}$. Ainsi :
+\begin{itemize}
+    \item[$\bullet$] $f\circ g$ est définie sur $\R[+]$, et pour tout $x\pgq 0$, $f\circ g(x) = \left(\sqrt{x}\right)^2 = x$.
+    \item[$\bullet$] $f\circ h$ est définie sur $\R$, et pour tout $x\in \R$, $f\circ h(x) = \left(x-2\right)^2$.
+    \item[$\bullet$] $g\circ h$ est définie sur $\interfo{2 \plusinf}$, et pour tout $x\pgq 2$, $g\circ h(x) = \sqrt{x-2}$.
+    \item[$\bullet$] $h\circ f$ est définie sur $\R$, et pour tout $x\in \R$, $h\circ f(x) = x^2-2$.
+    \item[$\bullet$] $h\circ g$ est définie sur $\R[+]$, et pour tout $x\pgq 0$, $h\circ g(x) = \sqrt{x}-2$.
+    \item[$\bullet$] $g\circ f$ est définie sur $\R$, et pour tout $x\in \R$, $g\circ f(x) = \sqrt{x^2} = |x|$.    
+\end{itemize}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

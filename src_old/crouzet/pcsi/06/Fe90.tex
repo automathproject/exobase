@@ -1,0 +1,58 @@
+\uuid{Fe90}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les fonctions}
+\sousChapitre{Études de fonctions}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{20}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des sinus et des $x$}
+\contenu{
+\texte{Soit $f$ la fonction définie sur $\R$ par $f(x)=2\sin(x)+x$.}
+\question{Etudier $f$ sur $[-\pi;\pi]$.}
+\reponse{\begin{align*}
+$[-\pi;\pi]$ est symétrique par rapport à $0$. Pour tout réel $x\in [-\pi;\pi]$, on a \[f(-x)=2\sin(-x)-x=-2\sin(x)-x=-(2\sin(x)+x)=-f(x)\]
+		$f$ est donc impaire. Etudions $f$ sur $[0;\pi]$. $f$ est dérivable comme somme de fonctions dérivables, et on a pour tout $x\in [0;\pi]$
+		\[ f'(x) = 2\cos(x)+1 \]
+		On a alors, sur $[0;\pi]$ :
+		\begin{eqnarray*}
+			f'(x)>0 &\Leftrightarrow&  2\cos(x)+1>0 \\
+					&\Leftrightarrow& \cos(x)> -\frac{1}{2} \\
+					&\Leftrightarrow& x\in \left[0;\frac{2\pi}{3}\right]
+		\end{eqnarray*}
+		On obtient le tableau de variations suivant :
+		\begin{center}
+			\input{tab.ex4}
+		\end{center}
+		et par imparité :
+		\begin{center}
+			\input{tab.ex42}
+		\end{center}
+\end{align*}}
+\question{Montrer que la courbe de $f$ est invariante par translation de vecteur $\vv{u}\matrice{2\pi\\ 2\pi}$ (on montrera pour cela que pour tout réel $x$, $f(x+2\pi)=f(x)+2\pi$).}
+\reponse{\begin{align*}
+Pour tout réel $x$, on a \[ f(x+2\pi)=2\sin(x+2\pi)+x+2\pi=2\sin(x)+x+2\pi=f(x)+2\pi \]
+	 Ainsi, la courbe de $f$ est invariante par translation de vecteur $\vv{u}\matrice{2\pi\\2\pi}$.
+\end{align*}}
+\question{Représenter $f$ sur $[-2\pi; 4\pi]$.}
+\reponse{\begin{align*}
+En utilisant le tableau de variations sur $[-\pi;\pi]$, puis par translation, on obtient la courbe suivante sur $[-2\pi;4\pi]$. 
+	 		\begin{center}
+				\input{fig.ex4}
+			\end{center}
+\end{align*}}
+\question{Déterminer les limites de $f$ en $+\infty$ et en $-\infty$.}
+\reponse{\begin{align*}
+Pour tout réel $x$, on a
+	\[ -2 \leq 2\sin(x) \leq 2 \quad \text{et donc} \quad -2+x \leq 2\sin(x) \leq 2+x \]
+	Puisque $\ds{\lim_{x\rightarrow +\infty} -2+x = +\infty}$, par comparaison, \[ \lim_{x\rightarrow +\infty} f(x)=+\infty \]
+	De même, $\ds{\lim_{x\rightarrow -\infty} 2+x = -\infty}$ et donc 
+	\[ \lim_{x\rightarrow -\infty} f(x)=-\infty \]
+\end{align*}}
+}
+
+%%% Fin exercice %%%

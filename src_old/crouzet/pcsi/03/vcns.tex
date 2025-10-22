@@ -1,0 +1,24 @@
+\uuid{vcns}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Un autre produit}
+\contenu{
+\question{Exprimer le produit suivant à l'aide de factorielles :
+\[ \prod_{k=1}^n \left(\frac12 -k\right) \]}
+\reponse{On ré-écrit  :
+\begin{align*}
+  \prod_{k=1}^n \left(\frac12 - k\right) &= \prod_{k=1}^n \frac{1-2k}{2} \\
+  &=\frac{\prod\limits_{k=1}^n -(2k-1)}{\prod\limits_{k=1}^n 2}\\
+  &= \frac{(-1)^n \frac{(2n)!}{2^n !n}}{ 2^n} \\&= \frac{(-1)^n (2n)!}{2^{2n} n!}
+\end{align*}}
+}
+
+%%% Fin exercice %%%

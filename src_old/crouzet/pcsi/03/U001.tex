@@ -1,0 +1,57 @@
+\uuid{U001}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Sommes doubles}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{30}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Des sommes doubles}
+\contenu{
+\texte{Soit $n$ un entier naturel non nul. Déterminer les sommes suivantes :}
+\question{$\ds{\sum_{1\leq i,j\leq n} i}$}
+\reponse{Pour chacune des sommes, on applique le théorème de Fubini (y compris lorsqu'une des variables n'intervient pas !):
+\begin{align*}
+	\sum_{1\leq i,j\leq n} i &= \sum_{j=1}^n \sum_{i=1}^n i \\
+	&= \sum_{j=1}^n \frac{n(n+1)}{2} = n\frac{n(n+1)}{2}=\frac{n^2(n+1)}{2}
+\end{align*}}
+\question{$\ds{\sum_{1\leq i \leq j \leq n} i}$}
+\reponse{\begin{align*}
+\sum_{1\leq i\leq j\leq n} i &= \sum_{j=1}^n \sum_{i=1}^j i \\
+	&= \sum_{j=1}^n \frac{j(j+1)}{2} \\
+	&= \sum_{j=1}^n \frac{j^2}{2}+\frac{j}{2} \\&= \frac{n(n+1)(2n+1)}{12}+\frac{n(n+1)}{4}= \frac{n(n+1)(n+2)}{6}
+	
+\end{align*}}
+\question{$\ds{\sum_{1\leq i,j\leq n} n^{i+j}}$}
+\reponse{\begin{align*}
+\sum_{1\leq i,j\leq n} n^{i+j} &= \sum_{j=1}^n \sum_{i=1}^n n^jn^i \\
+	&= \sum_{j=1}^n n^j \frac{n-n^{n+1}}{1-n} = \left(\frac{n-n^{n+1}}{1-n}\right)^2
+
+\end{align*}}
+\question{$\ds{\sum_{1\leq i,j\leq n} (i+j)}$}
+\reponse{\sum_{1\leq i,j\leq n} i+j &= \sum_{j=1}^n \sum_{i=1}^n (i+j) \\
+	&= \sum_{j=1}^n \left(\sum_{i=1}^n i + \sum_{i=1}^n j\right)\\
+	&= \sum_{j=1}^n \frac{n(n+1)}{2}+nj = n\frac{n(n+1)}{2}+ n\frac{n(n+1)}{2}=n^2(n+1)
+\end{align*}
+\begin{align*}}
+\question{$\ds{\sum_{1\leq i<j\leq n} (i+j)}$}
+\reponse{\sum_{1\leq i<j\leq n} i &= \sum_{j=2}^n \sum_{i=1}^{j-1} (i+j)  &\text{par Fubini}\\
+	&= \sum_{j=2}^n \left( \sum_{i=1}^{j-1} i + \sum_{i=1}^{j-1} j \right) &\text{par linéarité}\\
+	&= \sum_{j=2}^n \left(\frac{(j-1)j}{2} +(j-1)j\right) \\
+	&= \sum_{j=1}^n\left( \frac{(j-1)j}{2} +(j-1)j\right) &\text{ car pour $j=1$, le terme est nul} \\
+	&= \frac{3}{2} \sum_{j=1}^n \left(j^2-j\right) \\
+	&= \frac{3}{2}\left ( \frac{n(n+1)(2n+1)}{6}-\frac{n(n+1)}{2} \right) = \frac{n(n+1)(n-1)}{2}
+\end{align*}
+Pour la dernière somme, on constate que $(i,j)\in A_n$ si et seulement si $i\in \interent{0 n}$ et $j=n-i$. On peut alors écrire
+\begin{align*}}
+\question{$\ds{\sum_{(i,j)\in A_n} (i+j)}$ où $A_n=\left \{ (i,j)\in \N^2,\quad i+j=n \right \}$.}
+\reponse{\begin{align*}
+\sum_{(i,j)\in A_n} (i+j) &= \sum_{i=0}^n i+(n-i) = \sum_{i=0}^n n = n(n+1)
+\end{align*}}
+}
+
+%%% Fin exercice %%%

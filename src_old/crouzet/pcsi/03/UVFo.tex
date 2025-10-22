@@ -1,0 +1,23 @@
+\uuid{UVFo}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Factorielle et coefficients binomiaux}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Formule du binôme}
+\contenu{
+\question{Calculer \[\sum_{k=0}^n \binom{n}{k}~~~~~\sum_{k=0}^n \binom{n}{k} x^k(1-x)^{n-k}~~~~~\sum_{k=0}^n (-1)^k \binom{n}{k}~~~~~\sum_{k=0}^n \binom{n}{k} 2^k\]}
+\reponse{Dans tous les cas, on utilise la formule du binôme de Newton avec des réels bien choisis :
+\begin{align*}
+2^n = (1+1)^n &= \sum_{k=0}^n \binom{n}{k} 1^{n-k} 1^k = \sum_{k=0}^n \binom{n}{k}\\
+1 = 1^n = ((1-x)+x)^n &= \sum_{k=0}^n \binom{n}{k} (1-x)^{n-k} x^k\\
+\text{si } n\geq 1,\quad 0=(1-1)^n &= \sum_{k=0}^n \binom{n}{k} 1^{n-k} (-1)^k= \sum_{k=0}^n \binom{n}{k} (-1)^k\\
+3^n = (1+2)^n &= \sum_{k=0}^n \binom{n}{k} 1^{n-k} 2^k = \sum_{k=0}^n \binom{n}{k} 2^k
+\end{align*}}
+}

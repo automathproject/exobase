@@ -1,0 +1,30 @@
+\uuid{MPpO}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Suites arithmétiques et géométriques}
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Calculs}
+\contenu{
+\question{Soit $(u_n)$ une suite arithmétique de raison $r$.
+\begin{itemize}
+	\item[$\bullet$] Sachant que $r=2$, et $u_4=30$, déterminer $u_0$ et $u_8$. Déterminer $u_0+u_1+\cdots+u_8$.\vspace*{2mm}
+	\item[$\bullet$] Sachant que $u_4=35$ et $u_2=15$, déterminer $r$ et $u_0$. Déterminer $u_0+u_1+\cdots+u_4$.\vspace*{2mm}
+	\item[$\bullet$] Soit $(v_n)$ une suite géométrique de raison $q$. Sachant que $v_2=5$ et $v_3=7$, déterminer $q$ et $v_4$.
+\end{itemize}}
+\reponse{\begin{align*}
+\begin{methode}
+On utilise les propriétés d'une suite arithmétique et géométrique, dont l'écriture en fonction de $n$.
+\end{methode}
+\begin{itemize}[label=\textbullet]
+	\item On a $u_0=u_4+(0-4)r = 30-8 = 22$. De même, $u_8=u_4+(8-4)r=30+8=38$. Enfin, d'après la formule de la somme des termes d'une suite arithmétique :
+		$$u_0+\cdots + u_8 = 9 \times \frac{u_0+u_8}{2}=9\times 30=270$$
+	\item De même, on a $u_4=u_2+(4-2)r$, c'est-à-dire $35=15+2r$, ce qui donne $r=10$. On a alors $$u_0=u_2+(0-2)r=15-20=-5$$ et enfin
+		$$u_0+\cdots +u_4 = 5 \times \frac{u_0+u_4}{2}=5\times 15=75$$
+	\item $(v_n)$ étant géométrique, on a $v_3=qv_2$, soit $q=\frac{v_3}{v_2}=\frac{7}{5}$. Mais alors, $$u_4=qu_3=\frac{7}{5}\times 7 = \frac{49}{5}$$
+\end{itemize}
+\end{align*}}
+}

@@ -1,0 +1,48 @@
+\uuid{UC5O}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Suites et récurrence}
+\duree{15}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Suite récurrente III}
+\contenu{
+\texte{On considère la suite $(u_n)$ définie par
+$$\left\{\begin{array}{rcl}u_0&=&2\\\forall~n,~u_{n+1}&=&\sqrt{4u_n-3}\end{array}\right.$$}
+\question{Montrer que pour tout $n$, $1\leq u_n \leq 3$.}
+\reponse{\begin{align*}
+Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$1\leq u_n\leq 3$''.
+		\begin{itemize}
+			\item[$\circ$] Pour $n=0$, $u_0=2$ et $1\leq 2 \leq 3$. La proposition $P_0$ est donc vraie.
+			\item[$\circ$] Supposons la proposition $P_n$ vraie pour un certain entier $n$. Montrons que $P_{n+1}$ est vraie.\\
+				Par hypothèse de récurrence, $1\leq u_n \leq 3$. Mais alors
+			 $4 \leq 4u_n \leq 12$ puis $1\leq 4u_n-3\leq 9$
+				soit, en appliquant la fonction racine qui est croissante sur $\R^+$,
+				$$\sqrt{1}\leq \sqrt{4u_n-3} \leq \sqrt{9}$$
+				c'est-à-dire
+				$$1 \leq u_{n+1} \leq 3$$
+				La proposition $P_{n+1}$ est donc vraie
+		\end{itemize}
+		D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$.
+		\\\textbf{Bilan} : $\forall~n,~1\leq u_n\leq 3$.
+\end{align*}}
+\question{Démontrer que la suite $(u_n)$ est croissante.}
+\reponse{\begin{align*}
+Soit $Q$ la proposition définie pour tout entier $n$ par $Q_n:$ ~``$u_n\leq u_{n+1}$''.
+		\begin{itemize}
+			\item[$\circ$] Pour $n=0$, $u_0=2$ et $u_1=\sqrt{7}$. On a donc $2<\sqrt{7}$ : la proposition $Q_0$ est donc vraie.
+			\item[$\circ$] Supposons la proposition $Q_n$ vraie pour un certain entier $n$. Montrons que $Q_{n+1}$ est vraie.\\
+				Par hypothèse de récurrence, $u_n\leq u_{n+1}$. Mais alors
+				$$4u_n-3\leq 4u_{n+1}-3$$
+				soit, en appliquant la fonction racine qui est croissante sur $\R^+$,
+				$$\sqrt{4u_n-3}\leq \sqrt{4u_{n+1}-3}$$
+				c'est-à-dire
+				$$u_{n+1}\leq u_{n+2}$$
+				La proposition $Q_{n+1}$ est donc vraie
+		\end{itemize}
+		D'après le principe de récurrence, la proposition $Q_n$ est vraie pour tout entier $n$.
+		\\\textbf{Bilan} : la suite $(u_n)$ est croissante.
+\end{align*}}
+}

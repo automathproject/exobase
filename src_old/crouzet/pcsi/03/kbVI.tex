@@ -1,0 +1,30 @@
+\uuid{kbVI}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Sommes et produits de réels}
+\sousChapitre{Factorielle et coefficients binomiaux}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+
+\duree{10}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Une somme combinatoire}
+\contenu{
+\question{Soient $n$ et $p$ deux entiers naturels tels que $p\leq n$. Montrer que \[ \sum_{i=p}^n \binom{i}{p} = \binom{n+1}{p+1} \]}
+\reponse{On fixe $p$. On démontre le résultat par récurrence sur $n$, pour $n\geq p$.
+\begin{itemize}
+  \item \textbf{Initialisation} : pour $n=p$, la somme vaut $\ds\binom{p}{p}=1$ et $\ds\binom{p+1}{p+1}=1$ : la proposition est donc vérifiée pour $n=p$.
+  \item \textbf{Hérédité} : supposons que l'égalité est vraie pour un certain entier $n\geq p$ fixé. Alors :
+  \begin{align*}
+    \sum_{i=p}^{n+1} \binom{i}{p} &= \sum_{i=p}^n \binom{i}{p}+\binom{n+1}{p} \\
+    &= \binom{n+1}{p+1}+\binom{n+1}{p} \text{ par hypothèse de récurrence}\\
+    &= \binom{n+2}{p+1} \text{ par la formule de Pascal}
+  \end{align*}
+  Ainsi, la proposition est vérifiée au rang $n+1$.
+\end{itemize}
+Conclusion : on a bien montré par récurrence que pour tout entier $n\geq p$, on a \[ \sum_{i=p}^n \binom{i}{p} = \binom{n+1}{p+1} \]}
+}
+
+%%% Fin exercice %%%

@@ -1,0 +1,23 @@
+\uuid{ihPY}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les nombres réels}
+\sousChapitre{Calculs}
+%!TeX root=../../../encours.nouveau.tex
+%%% Début exercice %%%
+\duree{5}
+\difficulte{2}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\contenu{
+\question{Soient $x$ et $y$ deux réels positifs tels que $y\leq x^2$. Montrer que \[ \sqrt{x+\sqrt{y}} = \sqrt{\frac{x+\sqrt{x^2-y}}{2}} + \sqrt{\frac{x-\sqrt{x^2-y}}{2}}. \]}
+\reponse{Les termes étant positifs, on va comparer leurs carrés. On part du membre de droite :
+{\footnotesize
+\begin{align*}
+ \left(\sqrt{\frac{x+\sqrt{x^2-y}}{2}} + \sqrt{\frac{x-\sqrt{x^2-y}}{2}}\right)^2 &= \left(\sqrt{\frac{x+\sqrt{x^2-y}}{2}}\right)^2 +2 \sqrt{\frac{x+\sqrt{x^2-y}}{2}} \times \sqrt{\frac{x-\sqrt{x^2-y}}{2}} + \left(\sqrt{\frac{x-\sqrt{x^2-y}}{2}}\right)^2 \\
+ &= \frac{x+\sqrt{x^2-y}}{2} + 2\sqrt{ \frac{x+\sqrt{x^2-y}}{2}\frac{x-\sqrt{x^2-y}}{2}} + \frac{x-\sqrt{x^2-y}}{2}\\
+ &= x + 2 \sqrt{ \frac{x^2-(x^2-y)}{4}} = x+ \sqrt{y}
+\end{align*}
+}
+Puisque $x+ \sqrt{y}$ et $\ds{\sqrt{\frac{x+\sqrt{x^2-y}}{2}} + \sqrt{\frac{x-\sqrt{x^2-y}}{2}}}$ sont positifs, on en déduit le résultat par passage à la racine.}
+}

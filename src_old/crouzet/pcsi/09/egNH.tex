@@ -1,0 +1,63 @@
+\uuid{egNH}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Exercices bilans}
+\duree{30}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Exercice bilan II}
+\contenu{
+\texte{On considère la suite $(u_n)$ définie par
+$u_0=3$ et pour tout entier $n$,
+$$u_{n+1}=\frac{2}{1+u_n}$$}
+\question{Calculer $u_1$ et $u_2$. La suite $(u_n)$ est-elle arithmétique ? Géométrique ?}
+\reponse{\begin{align*}
+On a $u_1=\frac{1}{2}$ et $u_2=\frac{4}{3}$. On constate alors que $u_1-u_0=-\frac{5}{2}$ et $u_2-u_1=\frac{5}{6} \neq u_1-u_0$. Donc $u$ n'est pas arithmétique. De même, $$\frac{u_1}{u_0} = \frac{1}{6} \textrm{  et  } \frac{u_2}{u_1}=\frac{8}{3}\neq \frac{u_1}{u_0}$$ Ainsi, la suite $u$ n'est pas géométrique.
+\end{align*}}
+\question{Démontrer que si $u_{n+1}=-2$ alors $u_n=-2$. En déduire que pour tout $n$, $$u_n \neq -2$$}
+\reponse{\begin{align*}
+Si $u_{n+1}=-2$, alors $\frac{2}{1+u_n}=-2$, c'est-à-dire $2=-2(1+u_n)$ et donc $4=-2u_n \Leftrightarrow u_n=-2$.\\Supposons alors par l'absurde qu'il existe un entier $n$ tel que $u_n=-2$. D'après ce qui précède, on a alors $u_{n-1}=-2$, puis $u_{n-2}=-2$, et ainsi, $u_0=-2$. Or, $u_0=3$, c'est donc absurde.\\\textbf{Bilan} : $\forall~n,~u_n\neq -2$.
+\end{align*}}
+\question{Démontrer que pour tout $n\in\mathbb{N}$, on a $$0\leq u_n \leq 3$$}
+\reponse{\begin{align*}
+Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$0\leq u_n\leq 3$''.
+		\begin{itemize}
+			\item[$\circ$] Pour $n=0$, $u_0=3$ et $0\leq 3 \leq 3$. La proposition $P_0$ est donc vraie.
+			\item[$\circ$] Supposons la proposition $P_n$ vraie pour un certain entier $n$. Montrons que $P_{n+1}$ est vraie.\\
+				Par hypothèse de récurrence, $0\leq u_n \leq 3$. Mais alors
+			 $1 \leq 1+u_n \leq 4$
+				soit, en appliquant la fonction inverse qui est décroissante sur $\R^*_+$,
+				$$\frac{2}{1}\geq \frac{2}{1+u_n} \geq \frac{2}{4}$$
+				c'est-à-dire
+				$$3\geq 2 \geq u_{n+1} \geq \frac{1}{2}\geq 0$$
+				La proposition $P_{n+1}$ est donc vraie
+		\end{itemize}
+		D'après le principe de récurrence, la proposition $P_n$ est vraie pour tout entier $n$.
+		\\\textbf{Bilan} : $\forall~n,~0\leq u_n\leq 3$.
+\end{align*}}
+\question{On considère la suite $(v_n)$ définie, pour tout entier $n$ par
+	$$v_n=\frac{u_n-1}{u_n+2}$$
+	\begin{enumerate}
+		\item Expliquer pourquoi la suite $(v_n)$ est bien définie pour tout $n$.
+		\item Calculer $v_0$, $v_1$ et $v_2$. Démontrer que la suite $(v_n)$ est géométrique. Quelle est sa raison ?
+		\item Exprimer $v_n$ en fonction de $n$.
+		\item Exprimer $u_n$ en fonction de $v_n$, puis en fonction de $n$. Que vaut $u_{10}$ ?
+	\end{enumerate}}
+\reponse{\begin{align*}
+\begin{enumerate}
+			\item D'après la question 2, on sait que pour tout $n$, $u_n\neq -2$, et donc $u_n+2\neq 0$. La suite $(v_n)$ est donc bien définie.
+			\item On a $v_0=\frac{2}{5}$, $v_1=-\frac{1}{5}$ et $v_2=\frac{1}{10}$. Ainsi, la suite $v$ semble géométrique de raison $-\frac{1}{2}$. Démontrons-le : pour tout entier $n$, on a
+				$$v_{n+1}=\frac{u_{n+1}-1}{u_{n+1}+2} = \frac{\frac{2}{1+u_n}-1}{\frac{2}{1+u_n}+2}=\frac{\frac{1-u_n}{1+u_n}}{\frac{4+2u_n}{1+u_n}}$$
+				et donc
+				$$v_{n+1}=\frac{1-u_n}{1+u_n}\frac{1+u_n}{4+2u_n} = \frac{-(u_n-1)}{2(u_n+2)} = -\frac{1}{2} \frac{u_n-1}{u_n+2}=-\frac{1}{2}v_n$$
+				Ainsi, la suite $v$ est géométrique, de raison $-\frac{1}{2}$ et de premier terme $v_0=\frac{2}{5}$.
+			\item On a donc, pour tout entier $n$,
+					$$v_n=\frac{2}{5}\left(-\frac{1}{2}\right)^n$$
+			\item Puisque $v_n=\frac{u_n-1}{u_n+2}$, on a alors
+				$$v_n(u_n+2)=u_n-1 \textrm{   soit   } u_n(v_n-1) = -1-2v_n \textrm{   et donc   } u_n=\frac{-1-2v_n}{v_n-1}=\frac{1+2v_n}{1-v_n}$$
+				\textbf{Bilan} : $$\boxed{\forall~n,~u_n=\frac{1+\frac{4}{5}\left(-\frac{1}{2}\right)^n}{1-\frac{2}{5}\left(-\frac{1}{2}\right)^n}=\frac{5\times 2^n + 4 \times (-1)^n}{5\times 2^n-2\times (-1)^n}}$$
+			\end{enumerate}
+\end{align*}}
+}

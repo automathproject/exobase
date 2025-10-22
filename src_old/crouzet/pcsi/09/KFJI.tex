@@ -1,0 +1,30 @@
+\uuid{KFJI}
+\niveau{PCSI}
+\module{Analyse}
+\chapitre{Généralités sur les suites}
+\sousChapitre{Exercices bilans}
+\duree{20}
+\difficulte{1}
+\auteur{Antoine Crouzet}
+\datecreate{01/12/2024}
+\titre{Exercice bilan I}
+\contenu{
+\texte{Soit $(u_n)$ la suite définie pour tout entier naturel par $u_0=2$ et $$u_{n+1}=\frac{5u_n-1}{u_n+3}$$}
+\question{Démontrer que si $u_{n+1}=1$ alors $u_n=1$. En déduire que pour tout $n$, $u_n\neq 1$.}
+\reponse{\begin{align*}
+Si on a $u_{n+1}=1$, alors $\displaystyle{\frac{5u_n-1}{u_n+3}=1}$, c'est-à-dire $5u_n-1=u_n+3$, soit $4u_n=4 \Leftrightarrow u_n=1$.\\ Supposons alors par l'absurde qu'il existe un entier $n$ tel que $u_n=1$. D'après ce qui précède, on a alors $u_{n-1}=1$, puis $u_{n-2}=1$, et ainsi, $u_0=1$. Or, $u_0=2$, c'est donc absurde.\\\textbf{Bilan} : $\forall~n,~u_n\neq 1$.
+\end{align*}}
+\question{On pose pour tout entier $n$,  $v_n=\displaystyle{\frac{1}{u_n-1}}$. Démontrer que la suite $(v_n)$ est arithmétique, puis exprimer $v_n$ en fonction de $n$.}
+\reponse{\begin{align*}
+Remarquons tout d'abord que la suite $v$ est bien définie, puisque $u_n \neq 1$. Pour montrer que $v$ est arithmétique, calculons $v_{n+1}-v_n$ pour tout entier $n$ :
+		$$v_{n+1}-v_n=\frac{1}{u_{n+1}-1}-\frac{1}{u_n-1}= \frac{1}{\frac{5u_n-1}{u_n+3}-1} -\frac{1}{u_n-1}$$
+		soit
+		$$v_{n+1}-v_n= \frac{1}{\frac{5u_n-1 - (u_n+3)}{u_n+3}}-\frac{1}{u_n-1}= \frac{u_n+3}{4u_n-4}-\frac{1}{u_n-1}=\frac{u_n+3-4}{4(u_n-1)} =\frac{1}{4}$$
+		Ainsi, la suite $v$ est arithmétique, de raison $\frac{1}{4}$, et de premier terme $v_0=1$. Ainsi, $$\forall~n,~v_n=1+\frac{n}{4}$$
+\end{align*}}
+\question{En déduire l'expression de $u_n$ en fonction de $n$.}
+\reponse{\begin{align*}
+Pour tout $n$, $v_n=\frac{1}{u_n-1}$, donc $u_n-1=\frac{1}{v_n}$, soit $u_n=1+\frac{1}{v_n}$. Ainsi,
+		$$\boxed{\forall~n,~u_n=1+\frac{1}{1+\frac{n}{4}} = 1 + \frac{4}{4+n}=\frac{8+n}{4+n}}$$
+\end{align*}}
+}
