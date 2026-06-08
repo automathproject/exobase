@@ -7,7 +7,7 @@ const targetArg = args.find(a => a !== '--dry-run');
 const defaultDir = path.join(__dirname, '..', 'src', 'latex', 'exo7');
 const targetPath = targetArg ? path.resolve(targetArg) : defaultDir;
 
-const metadataPath = path.join(__dirname, '..', 'info_migration', 'exo7', 'exercices.json');
+const metadataPath = path.join(__dirname, '..', '..', 'migrations', 'exo7', 'exercices.json');
 let metaByUuid = new Map();
 let metaByExo7id = new Map();
 
