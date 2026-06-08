@@ -1,0 +1,9 @@
+{
+  "source": "Exo7",
+  "url": "http://exo7.emath.fr",
+  "format_source": "exo7-tex",
+  "transformation": "import et renommage des images ; métadonnées enrichies via add-metadata.js",
+  "exercices": 7899,
+  "manifeste_detaille": "migrations/exo7/exercices.json",
+  "notes": "Chaque exercice conserve \\exo7id{} dans le .tex comme lien vers la source. Le mapping complet uuid ↔ exo7id est dans migrations/exo7/exercices.json."
+}
