@@ -82,7 +82,5 @@ Pour plusieurs questions, utiliser `\begin{enumerate}...\end{enumerate}` avec
 
 ## Incohérences connues
 
-- **Format de date** : les fichiers crouzet utilisent `DD/MM/YYYY` au lieu de `YYYY-MM-DD`.
-  Le format cible est `YYYY-MM-DD`.
-- **`\organisation{}`** : absent dans les fichiers crouzet importés. Valeur attendue : `Crouzet`.
 - **`\difficulte{}`** : souvent vide dans les fichiers amscc et exo7.
+- **`\organisation{}`** : absent ou vide dans les fichiers crouzet — comportement accepté.
