@@ -1,0 +1,86 @@
+\uuid{wrPE}
+\titre{Détection d'anomalies dans un système de sécurité réseau}
+
+\niveau{L3} 				
+\module{Statistiques} 	
+\chapitre{Tests statistiques}   			
+\sousChapitre{Test de conformité d'une moyenne}			
+
+\theme{Test d'hypothèses, intervalle de confiance, risque de deuxième espèce}				
+\auteur{Maxime Nguyen}
+\datecreate{2026-01-07}
+\organisation{AMSCC}			
+\difficulte{3}			
+
+\contenu{
+	
+	\texte{ 
+		Une entreprise de cybersécurité surveille les temps de réponse (en millisecondes) d'un serveur web critique. En fonctionnement normal, le temps de réponse moyen est de $\mu_0 = 85$ ms avec un écart-type $\sigma_0 = 15$ ms.
+		
+		Le système de détection d'intrusions doit identifier rapidement toute anomalie significative, spécifiquement une **augmentation** du temps de réponse pouvant indiquer une attaque par déni de service (DDoS). Pour cela, l'équipe de sécurité collecte un échantillon de 200 requêtes consécutives.
+		
+		Les données collectées sont disponibles dans le fichier \texttt{temps\_reponse.csv} (une valeur par ligne).
+		
+		On suppose que les temps de réponse suivent une loi normale et on considère un seuil de risque $\alpha = 5\%$ pour tous les tests.
+	}
+	
+	\begin{enumerate}
+		\item   \question{Après avoir importé les données dans un tableur, calculer la moyenne empirique $\overline{x}$ et l'écart-type empirique $s$ de l'échantillon.}
+		\indication{Utiliser les fonctions MOYENNE() et ECARTYPE.STANDARD() du tableur.}
+		\reponse{
+			On trouve : $\overline{x} = 87{,}90$ ms et $s = 13{,}78$ ms.
+			
+			La moyenne empirique est supérieure à la valeur théorique $\mu_0 = 85$ ms.
+		}
+		
+		\item   \question{Déterminer un intervalle de confiance à 95\% pour la moyenne $\mu$ des temps de réponse. Ce résultat suggère-t-il une anomalie ?}
+		\indication{Utiliser la loi de Student. Le quantile bilatéral $t_{0,975}$ (pour 199 ddl) vaut environ $1,972$.}
+		\reponse{
+			L'intervalle de confiance bilatéral à 95\% est :
+			$$IC_{95\%}(\mu) = \left[\overline{x} - 1{,}972 \frac{s}{\sqrt{n}} ; \overline{x} + 1{,}972 \frac{s}{\sqrt{n}}\right]$$
+			
+			Application numérique ($SE = 13{,}78/\sqrt{200} \approx 0{,}974$) :
+			$$IC_{95\%}(\mu) = \left[87{,}90 - 1{,}92 ; 87{,}90 + 1{,}92\right] = [85{,}98 ; 89{,}82] \text{ ms}$$
+			
+			Interprétation : La valeur nominale $\mu_0 = 85$ ms n'appartient pas à cet intervalle (elle est inférieure à la borne basse), ce qui suggère une anomalie.
+		}
+		
+		\item   \question{On soupçonne une attaque DDoS. Formuler les hypothèses d'un test \textbf{unilatéral} pour confirmer une augmentation anormale du temps de réponse. Effectuer ce test au seuil de 5\%.}
+		\indication{On teste $H_0 : \mu = 85$ contre $H_1 : \mu > 85$. La région critique est de la forme $T > t_{0,95}$. Pour 199 ddl, $t_{0,95} \approx 1{,}653$.}
+		\reponse{
+			\textbf{Hypothèses :}
+			\begin{itemize}
+				\item $H_0$ : $\mu = 85$ ms (fonctionnement normal)
+				\item $H_1$ : $\mu > 85$ ms (augmentation du temps de réponse / attaque)
+			\end{itemize}
+			
+			\textbf{Statistique de test :}
+			$$t_{obs} = \frac{\overline{x} - \mu_0}{s/\sqrt{n}} = \frac{87{,}90 - 85}{0{,}974} \approx 2{,}97$$
+			
+			\textbf{Région de rejet :} 
+			Puisque le test est unilatéral à droite, on place tout le risque $\alpha=5\%$ dans la queue supérieure. La valeur critique est le quantile $t_{0,95}$ de la loi Student(199).
+			$$t_{crit} \approx 1{,}653$$
+			On rejette $H_0$ si $t_{obs} > 1{,}653$.
+			
+			\textbf{Décision :} $2{,}97 > 1{,}653$, donc on rejette $H_0$. L'augmentation du temps de réponse est statistiquement significative.
+		}
+		
+		\item   \question{En réalité, une attaque augmente le temps moyen à $\mu_1 = 90$ ms (avec le même écart-type $\sigma_0 = 15$ ms). Calculer la probabilité $\beta$ de ne pas détecter cette attaque avec ce test unilatéral.}
+		\indication{On accepte $H_0$ si $T \leq 1{,}653$. Traduire cette condition sur $\overline{X}$ en utilisant $\sigma_0$, puis calculer la probabilité sous la loi $\mathcal{N}(90, \sigma_0^2/n)$.}
+		\reponse{
+			\textbf{Borne d'acceptation :}
+			On conserve $H_0$ si $t_{obs} \leq 1{,}653$, ce qui correspond à :
+			$$\frac{\overline{X} - 85}{15/\sqrt{200}} \leq 1{,}653 \iff \overline{X} \leq 85 + 1{,}653 \times 1{,}061 \iff \overline{X} \leq 86{,}75$$
+			
+			\textbf{Calcul du risque $\beta$ :}
+			C'est la probabilité d'accepter $H_0$ alors que $\mu = 90$.
+			Sous $H_1$, $\overline{X} \sim \mathcal{N}(90 ; 1{,}061^2)$.
+			$$\beta = \mathbb{P}(\overline{X} \leq 86{,}75) = \mathbb{P}\left(Z \leq \frac{86{,}75 - 90}{1{,}061}\right)$$
+			$$\beta = \mathbb{P}(Z \leq -3{,}06) = \Phi(-3{,}06) \approx 0{,}0011$$
+			
+			\textbf{Commentaire :} Le risque de manquer cette attaque est extrêmement faible ($0{,}11\%$). Le test unilatéral est plus puissant que le test bilatéral (où $\beta$ était d'environ $0{,}31\%$) car il concentre la zone de rejet du côté de l'anomalie attendue.
+		}
+		
+	\end{enumerate}
+	
+}
