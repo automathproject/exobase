@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Rename exercise images referenced with \\includegraphics.
 
-For every LaTeX exercise file under src/exo7 (excluding the images directory),
-this script searches for \\includegraphics commands, renames the corresponding
-image files inside src/exo7/images to follow the pattern
-<exercise-uuid>-<index>.<ext>, updates the LaTeX references, and logs the
-changes into a JSON file.
+For every LaTeX exercise file under content/exercises/exo7, this script
+searches for \\includegraphics commands, renames the corresponding image files
+inside content/images/exo7 (across all format sub-directories) to follow the
+pattern <exercise-uuid>-<index>.<ext>, updates the LaTeX references, and logs
+the changes into a JSON file.
 
 Usage:
-    python script/rename_exo7_images.py [--log LOG_PATH] [--dry-run]
+    python tools/normalize/rename_exo7_images.py [--log LOG_PATH] [--dry-run]
 
 The JSON log contains two keys:
   - "renames": list of successful rename operations.
@@ -26,9 +26,9 @@ from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Set
 
 # Directories relative to repository root
-REPO_ROOT = Path(__file__).resolve().parents[1]
-EXO7_DIR = REPO_ROOT / "src" / "exo7"
-IMAGES_DIR = EXO7_DIR / "images"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+EXO7_DIR = REPO_ROOT / "content" / "exercises" / "exo7"
+IMAGES_DIR = REPO_ROOT / "content" / "images" / "exo7"
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".pdf", ".eps"}
 INCLUDE_REGEX = re.compile(r"\\includegraphics(?:\[(?:(?!\]).)*\])?\{([^}]+)\}")
@@ -93,7 +93,7 @@ def collect_tex_files() -> List[TexFileData]:
 
 
 def find_image_variants(stem: str) -> List[Path]:
-    files = [p for p in IMAGES_DIR.glob(f"{stem}.*") if p.suffix.lower() in IMAGE_EXTENSIONS]
+    files = [p for p in IMAGES_DIR.rglob(f"{stem}.*") if p.suffix.lower() in IMAGE_EXTENSIONS]
     return files
 
 
