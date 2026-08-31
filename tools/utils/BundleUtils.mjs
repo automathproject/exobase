@@ -5,7 +5,7 @@
 import fs from 'fs';
 import path from 'path';
 import { promises as fsPromises } from 'fs';
-import { ensureDirectoryExists } from './FileUtils.js';
+import { ensureDirectoryExists } from './FileUtils.mjs';
 
 /**
  * Crée un bundle pour un répertoire spécifique en incluant tous ses fichiers .tex,

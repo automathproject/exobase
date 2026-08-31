@@ -57,13 +57,42 @@ node scripts/sync-exercices.mjs --check # utile en automatisation, échoue si un
 node scripts/sync-exercices.mjs --apply
 ```
 
-Par défaut, la source est résolue vers `../../COET/Exercices`. Pour une autre
-copie locale, définir `EXERCISES_ROOT=/chemin/vers/Exercices`. Le script refuse
-d'écraser une modification locale d'exobase ; `--force` ne doit être utilisé
-qu'après revue explicite.
+La comparaison est à trois versions : l'état d'Exercices, celui d'exobase, et
+l'état de référence — le commit d'Exercices enregistré dans
+`content/provenance/amscc.json` par la dernière synchronisation. C'est cette
+référence qui distingue les quatre situations :
+
+| Situation | Décision |
+| --- | --- |
+| Corrigé dans Exercices seulement | copié dans exobase |
+| Retravaillé dans exobase seulement | préservé, jamais écrasé |
+| Modifié des deux côtés | conflit : signalé, rien n'est copié |
+| Absent d'exobase | ajouté |
+
+Tant qu'un conflit subsiste, la référence n'avance pas et le script sort en
+code 1 : les autres fichiers sont bien copiés, mais le conflit reste visible à
+chaque exécution jusqu'à ce qu'il soit tranché.
+
+`--force` donne autorité à Exercices sur tout ce qui diffère côté exobase, les
+conflits comme le travail local délibérément préservé. C'est donc la façon
+d'abandonner une adaptation faite dans exobase au profit de l'amont. L'aperçu
+sans `--apply` liste nommément les fichiers concernés sous « Écrasés par
+--force » : relisez-le avant d'appliquer.
+
+Sans référence enregistrée — première exécution, ou historique amont réécrit —
+le script ne détruit rien : il préserve le côté exobase et enregistre le commit
+courant, ce qui permet aux exécutions suivantes de décider.
+
+`--apply` exige qu'Exercices n'ait pas de modification non committée, sans quoi
+la référence enregistrée serait fausse. Par défaut, la source est résolue vers
+`../../COET/Exercices` ; pour une autre copie locale, définir
+`EXERCISES_ROOT=/chemin/vers/Exercices`.
 
 Les fichiers qui existent seulement dans exobase ne sont jamais supprimés par
-la synchronisation.
+la synchronisation. Les suppressions et les renommages faits dans Exercices
+depuis la référence sont signalés, jamais répercutés automatiquement.
+
+Codes de sortie : `0` succès, `1` écart ou conflit, `2` usage, `3` erreur.
 
 Après une synchronisation : vérifier `git diff --check`, relire les changements
 puis les committer dans exobase. OpenYourMath importe ensuite ce commit avec

@@ -3,7 +3,7 @@
  */
 import fs from 'fs';
 import path from 'path';
-import { fsPromises, ensureDirectoryExists } from './FileUtils.js';
+import { fsPromises, ensureDirectoryExists } from './FileUtils.mjs';
 
 /**
  * Divise un bundle en plusieurs sous-bundles de taille limitée

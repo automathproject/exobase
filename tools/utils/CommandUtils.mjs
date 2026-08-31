@@ -1,19 +1,19 @@
 /**
  * Utilitaires pour l'extraction des commandes LaTeX
  */
-import { generateUniqueId } from './FileUtils.js';
+import { generateUniqueId } from './FileUtils.mjs';
 import { 
   preprocessLatex, 
   stripComments, 
   wrapAlignWithDollar, 
   isCommandCommented,
   convertLaTeXToHTML 
-} from './Tex2HtmlUtils.js';
+} from './Tex2HtmlUtils.mjs';
 import { 
   extractAndConvertTikzBlocks,
   checkDependencies 
-} from './Tikz2SvgUtils.js';
-import { generatePreview } from './PreviewUtils.js';
+} from './Tikz2SvgUtils.mjs';
+import { generatePreview } from './PreviewUtils.mjs';
 
 /**
  * Fonction pour extraire et remplacer les blocs TikZ par des identifiants uniques
