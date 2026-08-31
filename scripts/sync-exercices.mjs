@@ -18,6 +18,8 @@ const SOURCE_SOURCES = path.join(SOURCE_ROOT, 'src');
 const TARGET_SOURCES = path.join(ROOT, 'content/exercises/amscc');
 const SOURCE_IMAGES = path.join(SOURCE_ROOT, 'img');
 const TARGET_IMAGES = path.join(ROOT, 'content/images/amscc');
+const SOURCE_CODE = path.join(SOURCE_ROOT, 'code/python');
+const TARGET_CODE = path.join(ROOT, 'content/code/amscc/python');
 const IMAGE_FORMATS = ['svg', 'png', 'jpg', 'jpeg', 'pdf', 'tikz', 'contourdata'];
 
 const args = new Set(process.argv.slice(2));
@@ -92,12 +94,14 @@ async function main() {
   const imageEntries = (await Promise.all(IMAGE_FORMATS.map(format =>
     planDirectory(path.join(SOURCE_IMAGES, format), path.join(TARGET_IMAGES, format), () => true, 'images')
   ))).flat();
-  const entries = [...sourceEntries, ...imageEntries];
+  const codeEntries = await planDirectory(SOURCE_CODE, TARGET_CODE, name => name.endsWith('.py'), 'code');
+  const entries = [...sourceEntries, ...imageEntries, ...codeEntries];
   const selected = entries.filter(entry => entry.action !== 'unchanged');
 
   console.log(`Exercices : ${SOURCE_ROOT}`);
   for (const [kind, counts] of Object.entries(summary(entries))) {
-    console.log(`${kind === 'sources' ? 'Sources .tex' : 'Images et sources graphiques'} — ${counts.add} ajout(s), ${counts.update} mise(s) à jour, ${counts.unchanged} identique(s)`);
+    const label = { sources: 'Sources .tex', images: 'Images et sources graphiques', code: 'Extraits Python' }[kind];
+    console.log(`${label} — ${counts.add} ajout(s), ${counts.update} mise(s) à jour, ${counts.unchanged} identique(s)`);
   }
 
   if (!selected.length) {

@@ -18,6 +18,7 @@ Le dossier `content/` suit le contrat de contenu d’OpenYourMath :
 
 - `content/exercises/amscc/` : sources `.tex` ;
 - `content/images/amscc/<format>/` : images et sources graphiques ;
+- `content/code/amscc/python/` : extraits Python référencés par `\pythoncode` ;
 - `content/authors.json` : auteurs et licences.
 
 Les fichiers qui existent seulement dans exobase ne sont jamais supprimés par
