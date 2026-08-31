@@ -1,3 +1,0 @@
-x:=sin(t);
-y:=cos(t)^2/(2-cos(t));
-print(plot([x,y,t=0..2*Pi],scaling=constrained));
