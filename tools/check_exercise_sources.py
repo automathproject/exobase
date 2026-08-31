@@ -358,6 +358,77 @@ def count_top_level_items(source: str) -> int:
     return count
 
 
+ENVIRONMENT_REGEX = re.compile(r"\\(begin|end)\s*\{([^}]*)\}")
+VERBATIM_ENVIRONMENTS = ("verbatim", "Verbatim", "lstlisting", "minted")
+VERBATIM_REGEX = re.compile(
+    r"\\begin\s*\{(" + "|".join(VERBATIM_ENVIRONMENTS) + r")\}.*?\\end\s*\{\1\}",
+    re.DOTALL,
+)
+
+
+def blank_verbatim_blocks(source: str) -> str:
+    """Neutralise les blocs verbatim : leur contenu n'est pas du LaTeX à apparier.
+
+    Le blanchiment préserve les sauts de ligne, donc les positions signalées
+    restent celles du fichier d'origine.
+    """
+    chars = list(source)
+    for match in VERBATIM_REGEX.finditer(source):
+        blank_range(chars, match.start(), match.end())
+    return "".join(chars)
+
+
+@dataclass(frozen=True)
+class EnvironmentProblem:
+    index: int
+    kind: str
+    name: str
+    context: str | None
+
+
+def find_unbalanced_environments(source: str) -> list[EnvironmentProblem]:
+    """Environnements ouverts sans fermeture, et fermetures sans ouverture.
+
+    Un \\end{x} qui ferme un environnement plus profond dans la pile signale les
+    environnements laissés ouverts entre les deux, plutôt qu'une erreur par
+    \\end{} suivant : un seul \\begin{} égaré ne produit ainsi qu'un seul défaut.
+    """
+    stack: list[tuple[int, str]] = []
+    problems: list[EnvironmentProblem] = []
+
+    for match in ENVIRONMENT_REGEX.finditer(source):
+        if is_escaped(source, match.start()):
+            continue
+
+        name = match.group(2).strip()
+
+        if match.group(1) == "begin":
+            stack.append((match.start(), name))
+            continue
+
+        if not stack:
+            problems.append(EnvironmentProblem(match.start(), "stray", name, None))
+            continue
+
+        if stack[-1][1] == name:
+            stack.pop()
+            continue
+
+        depth = next((i for i in range(len(stack) - 1, -1, -1) if stack[i][1] == name), None)
+        if depth is None:
+            problems.append(EnvironmentProblem(match.start(), "stray", name, stack[-1][1]))
+            continue
+
+        for start, unclosed in stack[depth + 1 :]:
+            problems.append(EnvironmentProblem(start, "unclosed", unclosed, name))
+        del stack[depth:]
+
+    for start, name in stack:
+        problems.append(EnvironmentProblem(start, "unclosed", name, None))
+
+    return sorted(problems, key=lambda problem: problem.index)
+
+
 def add_issue(
     issues: list[Issue],
     source: str,
@@ -382,6 +453,25 @@ def validate_source(source: str, file_path: str = "<source>") -> list[Issue]:
         for call in content_calls
         if call.name == "question" and is_inside_range(call.start, contenu_ranges)
     ]
+
+    for problem in find_unbalanced_environments(blank_verbatim_blocks(clean_source)):
+        if problem.kind == "unclosed":
+            message = f"L'environnement \\begin{{{problem.name}}} n'est jamais fermé."
+        elif problem.context:
+            message = (
+                f"\\end{{{problem.name}}} ne correspond pas à "
+                f"\\begin{{{problem.context}}}, ouvert juste avant."
+            )
+        else:
+            message = f"\\end{{{problem.name}}} ne ferme aucun environnement ouvert."
+        add_issue(
+            issues,
+            source,
+            file_path,
+            problem.index,
+            "unbalanced-environment",
+            message,
+        )
 
     if not contenu_calls:
         add_issue(
