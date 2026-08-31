@@ -9,14 +9,6 @@
 \datecreate{2024-11-17}
 \organisation{ AMSCC }
 
-\begin{SaveVerbatim}{5NS7}
-def ReLu(y):
-	if y<0:
-		return 0
-	else:
-		return y
-\end{SaveVerbatim}
-
 \difficulte{}
 \contenu{
 
@@ -55,7 +47,7 @@ où $g_1$ et $g_2$ sont la fonction ReLu.
 
 
 
-	{\centering \fbox{\BUseVerbatim{5NS7}}\par}
+	\begin{center}\pythoncode{5NS7-relu.py}\end{center}
 
 La fonction d'erreur est : 
 $$E(a,b,c) = \frac{1}{3}\sum_{i=1}^3 E_i(a,b,c)$$
@@ -68,12 +60,12 @@ où $E_i = (F(x_i)-t_i)^2$ avec les données d'entraînement suivantes $(x_i,t_i
 		
 		Ainsi, $E(-1,2,1) = \frac13\left((1-2)^2+(4-0)^2+(0-3)^2\right) = \frac{26}{3}$.	
 	}
-	\item \texte{ Supposons que $x = 3$ et $(a,b,c) = (1,-1,2)$. }
+	\item \question{ Supposons que $x = 3$ et $(a,b,c) = (1,-1,2)$. }
 	\begin{enumerate}
 		\item \question{ Calculez $\frac{\partial F}{\partial c}$ en utilisant les règles ci-dessus.  }
 		\reponse{ On a $ax+b = 3-1 = 2$, donc $\frac{\partial F}{\partial c} = 1 \times 2 = 2$.  }
-		\item En déduire $\frac{\partial F}{\partial a}$, $\frac{\partial F}{\partial b}$ en utilisant $\frac{\partial F}{\partial c}$ et les règles ci-dessus. 
+		\item \question{En déduire $\frac{\partial F}{\partial a}$, $\frac{\partial F}{\partial b}$ en utilisant $\frac{\partial F}{\partial c}$ et les règles ci-dessus. 
 		\reponse{ On a $\frac{\partial F}{\partial a} = 3 \times \frac{1}{2} \times 2 \times \frac{\partial F}{\partial c} = 6$ et $\frac{\partial F}{\partial b} = \frac{1}{2}\times 2 \times \frac{\partial F}{\partial c} = 2$. }
 	\end{enumerate}
-\end{enumerate}
+\end{enumerate}}
 }
