@@ -37,7 +37,14 @@ Ce contrôle apparie `\begin{...}` et `\end{...}` avec une pile, et distingue :
 Les commentaires sont ignorés et les blocs verbatim neutralisés, donc un
 `\begin{}` cité en exemple ne déclenche rien.
 
-Cette règle n'existe pas encore dans le validateur JavaScript d'OpenYourMath :
+### `empty-content-block` — propre à exobase
+
+Signale un `\texte{}`, `\question{}`, `\indication{}` ou `\reponse{}` dont le
+corps est vide. L'appréciation se fait commentaires retirés : un bloc ne
+contenant qu'un `% TODO` est vide. Un bloc vide se renseigne ou se supprime,
+il ne se laisse pas en place.
+
+Ces deux règles n'existent pas encore dans le validateur JavaScript d'OpenYourMath :
 un fichier refusé ici passera `pnpm test:tex` là-bas. C'est le sens voulu — la
 sévérité appartient à l'usine — mais il faudra la porter si la CI d'aval doit
 bloquer sur les mêmes défauts.

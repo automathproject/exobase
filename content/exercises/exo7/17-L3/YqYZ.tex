@@ -39,14 +39,11 @@ Pour $k=1, \cdots , n$ faire
 
 \hspace{1cm}$q_k=z_k/r_{kk}$}
     \item \question{Algorithme de Gram--Schmidt modifi\'e
-
 L'algorithme pr\'ec\'edent est instable num\'eriquement d\^u \`a la perte d'orthogonalit\'e dans le calcul des $q_i$. On va reformuler l'algorithme pour le rendre stable.
-
 Pour $k=1, \cdots , n-1$, on d\'efinit $A^{(k)}\in\Rr^{m\times (n-k+1)}$ de la fa\c con suivante:
 $$[0 , A^{(k)}] =A-\sum_{i=1}^{k-1} q_ir_i^T = \sum_{i=k}^n q_ir_i^T$$
 et on va d\'ecrire l'\'etape $k$ de l'algorithme.
-\begin{enumerate}}
-\reponse{\begin{enumerate}}
+}
     \item \question{Montrer que si on pose
 $$ A^{(k)} =[z,B] ,\ \ \ z\in\Rr^m , \ \ \ B\in\Rr^{m\times (n-k)}$$
 alors

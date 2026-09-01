@@ -43,7 +43,6 @@ $$\begin{pmatrix}
 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0 \\     
   \end{pmatrix}$$
-
 Pour le cas général on calcule 
 \begin{align*}
 f(X^p)
@@ -51,7 +50,6 @@ f(X^p)
  &= \sum_{k=1}^p \binom{p}{k}X^k + \sum_{k=1}^p \binom{p}{k}X^k(-1)^{p-k} -2X^p\\
  &= \sum_{p-k \text{ pair et } k<p} 2\binom{p}{k}X^k  
 \end{align*}
-
 Donc la matrice est 
 $$\begin{pmatrix} 
 0 & 0 & 2\binom{2}{0} & 0             & \cdots & 2\binom{p}{0} & 0               &        \\
@@ -70,11 +68,9 @@ Nous savons que $f(1)=0$ et $f(X)=0$ donc $1$ et $X$ sont dans le noyau $\Ker f$
 Il est aussi clair que les colonnes de la matrices $f(X^2),\cdots, f(X^n)$ sont linéairement indépendantes
 (car la matrice est échelonnée). Donc $\Im f = \textrm{Vect}\{f(X^2),f(X^3),\ldots,f(X^n)\}$ 
 et $\dim \Im f = n-1$.
-
 Par la formule du rang $\dim \Ker f + \dim \Im f = \dim \Rr_n[X]$ donc
 $\dim \Ker f = 2$. Comme nous avons déjà deux vecteurs du noyau alors 
 $\Ker f =  \textrm{Vect}\{1,X\}$.
-\begin{enumerate}
 Soit $Q \in \Im f$. Il existe donc $R\in\Rr_n[X]$ tel que $f(R)=Q$.
 On pose ensuite $P(X)=R(X)-R(0)-R'(0)X$.
 On a tout fait pour que $P(0)=0$ et $P'(0)=0$.

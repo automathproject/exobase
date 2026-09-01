@@ -474,6 +474,18 @@ def validate_source(source: str, file_path: str = "<source>") -> list[Issue]:
             message,
         )
 
+    for call in content_calls:
+        if call.malformed or call.body.strip():
+            continue
+        add_issue(
+            issues,
+            source,
+            file_path,
+            call.start,
+            "empty-content-block",
+            f"Le bloc \\{call.name}{{...}} est vide : le renseigner ou le supprimer.",
+        )
+
     if not contenu_calls:
         add_issue(
             issues,

@@ -13,9 +13,6 @@
 \difficulte{}
 
 \contenu{
-\texte{
-
-}
 \begin{enumerate}
     \item \question{On donne $n$ droites du plan. On suppose qu'il n'en existe pas deux qui soient parallèles, ni trois qui soient concourantes. Déterminer le nombre $P(n)$ de régions délimitées par ces droites.}
 \reponse{On a bien sûr $P(1)=2$. Soit $n\geq1$. On trace $n$ droites vérifiant les conditions de l'énoncé. Elles partagent le plan en $P(n)$ régions. On trace ensuite $D_{n+1}$, une $(n+1)$ème droite. Par hypothèse, elle coupe chacune des $n$ premières droites en $n$ points deux à deux distincts. Ces $n$ points définissent $(n+1)$ intervalles sur la droite $D_{n+1}$. Chacun de ces $(n+1)$ intervalles partage une des $P(n)$ régions déjà existantes en deux régions et rajoute donc une nouvelle région. Ainsi, $P(n+1)=P(n)+(n+1)$.

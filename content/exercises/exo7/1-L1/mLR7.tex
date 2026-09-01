@@ -28,7 +28,6 @@ $\lambda_1,\hdots,\lambda_n$ des réels positifs ou nuls tels que
 $\sum_{k=1}^n\lambda_k=1$ et $z=\sum_{k=1}^n\lambda_ka_k$. 
 Si toutes les racines de $P$ sont réelles, que peut-on en déduire sur les racines de $P'$ ?}
 \reponse{
-\begin{enumerate}
 Puisque $P(X)=c(X-a_1)\cdots(X-a_n)$ : 
 \begin{eqnarray*}
 P'(X)=&c(X-a_2)\cdots(X-a_n)+c(X-a_1)(X-a_3)\cdots(X-a_n)\\
@@ -36,7 +35,6 @@ P'(X)=&c(X-a_2)\cdots(X-a_n)+c(X-a_1)(X-a_3)\cdots(X-a_n)\\
  &\ \ \ \ \ \ +\cdots+c(X-a_1)\cdots(X-a_{n-1})
 \end{eqnarray*}
 La dérivée est donc la somme des termes de la forme : $\frac{c(X-a_1)\cdots(X-a_n)}{X-a_k} = \frac{P(X)}{X-a_k}$.
-
 Ainsi 
 $$P'(X) = \frac{P(X)}{X-a_1}+ \cdots + \frac{P(X)}{X-a_k}+ \cdots + \frac{P(X)}{X-a_n}.$$
 Donc :
@@ -50,7 +48,6 @@ De même $P''$ est la somme de facteurs $c(X-a_1)\cdots(X-a_n)$
 avec deux facteurs en moins, c'est-à-dire de la forme $\frac{c(X-a_1)\cdots(X-a_n)}{(X-a_k)(X-a_\ell)} = \frac{P}{(X-a_k)(X-a_\ell)}$ :
 $$P'' = \sum_{\substack{1\le k,\ell\le n \\ k\not= \ell}}\frac{P}{(X-a_k)(X-a_\ell)} \quad \text{ donc } \quad
 \frac{P''}{P} = \sum_{\substack{1\le k,\ell\le n \\ k\not= \ell}}\frac{1}{(X-a_k)(X-a_\ell)}$$
-
 % \begin{eqnarray*}
 % \sum_{k\not=l}\frac{1}{(X-a_k)(X-a_l)}&=&\sum_{k=1}^n\frac{1}{X-a_k}\left(\sum_{l\not= k}\frac{1}{X-a_l}\right)\\
 %  &=&\sum_{k=1}^n\frac{1}{X-a_k}\left(\sum_{l=1}^n\frac{1}{X-a_l}-\frac{1}{X-a_k}\right)\\

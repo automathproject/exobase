@@ -26,9 +26,7 @@ $[a,b]$. Posons $$d_\omega (f,g) = \sup_{t\in[a,b]} |\omega (t)
     \item \question{Montrer que l'espace $(X, \|.\|_1)$ n'est pas complet (o\`u
  $\|f\|_1 = \int _0^1 |f(t)| \, dt$).}
 \reponse{
-\begin{enumerate}
 Montrons que $(X,d_\omega)$ est complet. Soit $(f_n)_n$ une suite de Cauchy pour cet distance. Alors pour chaque $t\in[a,b]$, $(f_n(t))_n$ est une suite de Cauchy pour $(\Rr,|.|)$. Comme $\Rr$ est complet alors cette suite converge, notons $f(t)$ sa limite.
-
 Il faut montrer deux choses : premièrement que $(f_n)$ converge vers $f$ pour la distance considérée, deuxièmement que $f$ est bien dans l'espace $X$.
 Comme $(f_n)$ est une suite de Cauchy. Pour $\epsilon > 0$. Il existe $n\ge0$ tel que pour tout $p\ge 0$ : $d_\omega(f_n,f_{n+p})  < \epsilon.$
 Donc 
@@ -42,7 +40,6 @@ il existe $\alpha >0$ tel que $\omega(t)>\alpha$ pour tout $t\in[a,b]$.
 On en déduit que 
 $$\|f_n-f\|_\infty \le \frac 1 \alpha d_\omega(f_n,f).$$
 Comme $ d_\omega(f_n,f)$ tend vers $0$ alors $f_n$ converge vers $f$ pour la norme infini. Donc $f$ est continue.
-
 Conclusion : $(X,d_\omega)$ est complet.
 }
 \indication{\begin{enumerate}

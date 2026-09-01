@@ -20,9 +20,9 @@
     \item \question{Déterminer en fonction de $n$ entier non nul, le nombre de chiffres de $n$ en base $10$.}
 \reponse{Soit $n\in\Nn^*$. Posons $n=\sum_{k=0}^{p}a_k10^k$, où $p\in\Nn$, et $\forall k\in\{0,...,p\},\;a_k\in\{0,...,9\}$, et $a_p\neq0$. Le nombre de chiffres de $n$ est alors $p+1$. L'entier $p$ vérifie $10^p\leq n<10^{p+1}$ ou encore $p\leq \log n<p+1$. Par suite, $p=E(\log n)$. Ainsi, le nombre de chiffres de $n$ en base $10$ est $E(\log n)+1$.}
     \item \question{Soit $\sigma(n)$ la somme des chiffres de $n$ en base $10$.
-\begin{enumerate}}
+}
 \reponse{Pour $n\in\Nn^*$, posons $u_n=\frac{\sigma(n+1)}{\sigma(n)}$
-\begin{enumerate}}
+}
     \item \question{Montrer que la suite $\left(\frac{\sigma(n+1)}{\sigma(n)}\right)_{n\geq 1}$ est bornée. Cette suite converge-t-elle~?}
 \reponse{Soit $n\in\Nn^*$. Posons $n=a_p10^p+...+10a_1+a_0=\overline{a_p...a_1a_0}_{10}$. Si au moins un des chiffres de $n$ n'est pas $9$, on note $k$ le plus petit indice tel que $a_k\neq9$. Alors, $0\leq k\leq p-1$ et $n=\overline{a_p...a_k9...9}_{10}$ et $n+1=\overline{a_p...a_{k+1}(a_k+1)0...0}_{10}$. Dans ce cas, si $k=0$,
 

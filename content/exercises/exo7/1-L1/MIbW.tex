@@ -14,7 +14,7 @@
 \difficulte{}
 
 \contenu{
-\texte{
+\question{
 Soient  
 $A=\begin{pmatrix} 
 1 & 2 & 1 \cr
@@ -32,7 +32,6 @@ Calculer $\textrm{rg}(A)$ et $\textrm{rg}(B)$. Déterminer une base du
 noyau et une base de l'image pour chacune des applications linéaires associées $f_A$ et $f_B$.
 }
 \reponse{
-\begin{enumerate}
 Commençons par des remarques élémentaires : la matrice est non nulle donc $\textrm{rg}(A) \ge 1$
 et comme il y a $p=4$ lignes et $n=3$ colonnes alors $\textrm{rg}(A) \le \min(n,p)=3$.
 Ensuite on va montrer $\textrm{rg}(A) \ge 2$ en effet le sous-déterminant $2\times 2$ 
@@ -48,7 +47,6 @@ L'application linéaire associée à la matrice $A$ est l'application
 $f_A : \Rr^3 \to \Rr^4$. Et le théorème du rang 
 $\dim \Ker f_A+ \dim \Im f_A = \dim \Rr^3$ donne ici
 $\dim \Ker f_A = 3 - \textrm{rg}(A)=1$.
-
 Mais la relation $v_2=v_1+v_3$ donne immédiatement un élément du noyau :
 en écrivant $v_1-v_2+v_3=0$ alors $A\begin{pmatrix}1\\-1\\1\end{pmatrix}=\begin{pmatrix}0\\0\\0\end{pmatrix}$
 Donc $\begin{pmatrix}1\\-1\\1\end{pmatrix} \in \Ker f_A$. Et comme le noyau est de dimension $1$ alors

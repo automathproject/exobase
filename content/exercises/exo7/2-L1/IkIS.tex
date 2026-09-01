@@ -24,7 +24,6 @@ Soit $\displaystyle I_n=\int_0^{\frac \pi 2}(\sin x)^n \, d x$ \ \ pour $n\in \N
 \frac \pi {2n}}$. En déduire 
 $\frac{1 \cdot 3 \cdots \left( 2n+1\right) }{2 \cdot 4 \cdots \left( 2n\right) }\sim 2\sqrt{\frac n \pi }$.}
 \reponse{
-\begin{enumerate}
 $$ I_{n+2}  = \int_0^{\frac \pi 2} \sin^{n+1} x \cdot \sin x \,  dx.$$
 En posant $u(x) = \sin^{n+1} x$ et $v'(x) = \sin x$ et en intégrant par parties nous obtenons
 \begin{align*}
@@ -32,7 +31,6 @@ I_{n+2} &= \bigg[ -\cos x \sin^{n+1}x \bigg]_0^{\frac \pi 2} \ \  + \ \ (n+1)\in
  &= 0 \ \  + \ \ (n+1)\int_0^{\frac \pi 2} (1-\sin^2x)\sin^nx \, dx \\
  &= (n+1)I_n-(n+1)I_{n+2}.  \\
 \end{align*}
-
 Donc $(n+2)I_{n+2}=(n+1)I_n$.
 Conclusion 
 $$I_{n+2} = \frac{n+1}{n+2} I_n.$$

@@ -37,10 +37,8 @@ Donc en particulier $d(a_{\phi(n+1)},a_{\phi(n)}) \le d(a_{\phi(n+1)},a_\infty)
 + d(a_\infty,a_{\phi(n)}) < \epsilon$.
 La propri\'eté pour $f$ s'écrit ici $d(a_k,b_{k'})\le d(a_{k+1},b_{k'+1}) \ge $.
 Donc $d(a_{\phi(n+1)-\phi(n)}, a_0) \le d(a_{\phi(n+1)-\phi(n)+1}, a_1) \le \ldots \le d(a_{\phi(n+1)-1}, a_{\phi(n)-1}) \le  d(a_{\phi(n+1)}, a_{\phi(n)}) < \epsilon$. Donc pour $k = \phi(n+1)-\phi(n)$, sachant que $a_0=a$ alors $d(a_{k}, a) < \epsilon$. Même chose avec $(b_n)$.
-\begin{enumerate}
 Soit $a \in E$ et $\epsilon >0$ alors il existe $k\ge 1$ tel que $a_k = f^k(a) \in f(E)$     avec $d(a,a_k) < \epsilon $. Donc $f(E)$ est dense dans $E$.
 Soit $u_n = d(a_n,b_n)$. Alors par la propriété pour $f$, $(u_n)$ est une suite croissante de $\Rr$. Comme $E$ est compact alors son diamètre est borné, donc $(u_n)$ est majorée. La suite $(u_n)$ est croissante et majorée donc converge vers $u$.
-
 Maintenant $u_n - u_0 \ge0$ et 
 $$0 \le u_n -u_0=d(a_n,b_n) -d(a,b) \le d(a_n,a) + d(a,b)+d(b,b_n)-d(a,b) = d(a_n,a)+d(b_n,b).$$
 Donc $u_n$ tend vers $u_0$. Comme $(u_n)$ est croissante alors $u_n = u_0$ pour tout $n$.

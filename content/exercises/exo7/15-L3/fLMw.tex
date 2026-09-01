@@ -31,9 +31,7 @@ tous les $K_n$ \`a partir d'un certain rang.}
 \reponse{
 Soit $x = \lim x_n$. Soit $N\in \Nn$ ; montrons que $x$ est dans $F_N$. On a $x_N \in F_N$, $x_{N+1} \in F_{N+1} \subset F_N$, $x_{N+2} \in F_{N+2} \subset F_{N+1} \subset F_N$, etc. Donc pour tout $n\ge N$ alors $x_n \in F_N$. Comme $F_N$ est fermé, alors la limite $x$ est aussi dans $F_N$.
 Ceci étant vrai quelque soit $N$, alors $x\in \bigcap_N F_N$.
-
 Pour construire un exemple comme demandé il est nécessaire que de toute suite on ne puisse pas extraire de sous-suite convergente. Prenons par exemple dans $\Rr$, $F_n = [n,+\infty[$, alors $\bigcap_n F_n = \varnothing$.
-\begin{enumerate}
 Pour chaque $n$ on prend $x_n \in K_n$, alors pour tout
 $n$, $x_n \in K_0$ qui est compact donc on peut extraire une sous-suite convergente. Si $x$ est la limite de cette sous-suite alors $x \in K$.
 Donc $K$ est non vide.
