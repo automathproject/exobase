@@ -83,6 +83,28 @@ Sans référence enregistrée — première exécution, ou historique amont ré�
 le script ne détruit rien : il préserve le côté exobase et enregistre le commit
 courant, ce qui permet aux exécutions suivantes de décider.
 
+## Remonter du travail vers Exercices
+
+`Exercices` reste l'atelier d'édition, mais une correction faite dans exobase peut
+y être remontée plutôt que d'y rester en travail local :
+
+```bash
+node scripts/sync-exercices.mjs --push          # aperçu
+node scripts/sync-exercices.mjs --push --apply  # écrit dans Exercices
+```
+
+Seuls les fichiers classés « travail exobase » partent, c'est-à-dire ceux que
+l'amont n'a pas touchés depuis la référence. Un conflit — modifié des deux côtés —
+bloque la remontée entière tant qu'il n'est pas tranché, et `Exercices` doit être
+propre pour que la remontée soit relisible.
+
+La remontée ne propage que des **modifications** : un fichier qui n'existerait
+que dans exobase n'est pas créé dans Exercices.
+
+Ensuite : relire et committer dans `Exercices`, puis relancer la synchro
+descendante (`--apply`) pour enregistrer la nouvelle référence. Les fichiers
+redeviennent alors identiques des deux côtés.
+
 `--apply` exige qu'Exercices n'ait pas de modification non committée, sans quoi
 la référence enregistrée serait fausse. Par défaut, la source est résolue vers
 `../../COET/Exercices` ; pour une autre copie locale, définir

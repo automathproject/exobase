@@ -47,9 +47,10 @@ const args = new Set(process.argv.slice(2));
 const apply = args.has('--apply');
 const check = args.has('--check');
 const force = args.has('--force');
-const unknownArgs = [...args].filter(arg => !['--apply', '--check', '--force'].includes(arg));
+const push = args.has('--push');
+const unknownArgs = [...args].filter(arg => !['--apply', '--check', '--force', '--push'].includes(arg));
 if (unknownArgs.length || (apply && check)) {
-  console.error('Usage: node scripts/sync-exercices.mjs [--check | --apply] [--force]');
+  console.error('Usage: node scripts/sync-exercices.mjs [--push] [--check | --apply] [--force]');
   process.exit(2);
 }
 
@@ -242,6 +243,42 @@ async function main() {
     for (const action of ['add', 'update']) report(entries, action);
   } else {
     for (const action of ['conflict', 'add', 'update', 'local']) report(entries, action);
+  }
+
+  // Remontée : le travail fait dans exobase repart vers Exercices, qui reste
+  // l'atelier d'édition. Seuls les fichiers que l'amont n'a pas touchés depuis la
+  // référence sont concernés ; un conflit doit être tranché avant.
+  if (push) {
+    const pushable = entries.filter(entry => entry.action === 'local');
+    const blocked = entries.filter(entry => entry.action === 'conflict');
+    if (blocked.length) {
+      throw new SyncError(
+        `${blocked.length} conflit(s) à trancher avant toute remontée : ` +
+        blocked.map(entry => entry.relativeTargetPath).join(', '));
+    }
+    if (!pushable.length) {
+      console.log('\n✅ Aucun travail exobase à remonter dans Exercices.');
+      return;
+    }
+    console.log('\nÀ remonter dans Exercices :');
+    for (const entry of pushable) console.log(`  ↑ ${entry.repoPath}`);
+    if (!apply) {
+      console.log('\nAperçu uniquement. Pour remonter : node scripts/sync-exercices.mjs --push --apply');
+      if (check) process.exitCode = 1;
+      return;
+    }
+    if (!upstreamIsClean() && !force) {
+      throw new SyncError(
+        'Exercices a des modifications non committées : la remontée serait illisible à la relecture. ' +
+        'Committez-les dans Exercices, ou relancez avec --force.');
+    }
+    for (const entry of pushable) {
+      await fs.mkdir(path.dirname(entry.sourcePath), { recursive: true });
+      await fs.copyFile(entry.targetPath, entry.sourcePath);
+    }
+    console.log(`\n✅ ${pushable.length} fichier(s) remonté(s) dans Exercices.`);
+    console.log('Relisez et committez dans Exercices, puis relancez sans --push pour enregistrer la nouvelle référence.');
+    return;
   }
 
   const conflicts = force ? [] : entries.filter(entry => entry.action === 'conflict');

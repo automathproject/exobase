@@ -13,35 +13,34 @@
 \difficulte{}
 
 \contenu{
-\texte{
-({\it 7 points}) Soient $M$ et $A$ deux matrices de ${\cal{M}}_n(\R)$ telles que 
+\texte{({\it 7 points}) Soient $M$ et $A$ deux matrices de ${\cal{M}}_n(\R)$ telles que 
 $MA=AM$.
 On suppose que $M$ admet $n$ valeurs propres distinctes.
- \begin {enumerate}
-  \item  Soit $x$ un vecteur propre de $M$ de valeur propre $\lambda$, montrer que 
+ \begin {enumerate}}
+\begin{enumerate}
+    \item \question{Soit $x$ un vecteur propre de $M$ de valeur propre $\lambda$, montrer que 
 $MAx=\lambda Ax,$
-en d\'eduire que les vecteurs $x$ et $Ax$ sont colin\'eaires, puis que tout vecteur propre de $M$ est un vecteur propre de $A$.
-
-  \item On note maintenant $\lambda_1,\cdots,\lambda_n$ les valeurs propres de $M$ et 
+en d\'eduire que les vecteurs $x$ et $Ax$ sont colin\'eaires, puis que tout vecteur propre de $M$ est un vecteur propre de $A$.}
+    \item \question{On note maintenant $\lambda_1,\cdots,\lambda_n$ les valeurs propres de $M$ et 
 $\mu_1,\cdots,\mu_n$ celles de $A$.
-  \begin {enumerate}
-    \item Montrer par r\'ecurrence sur $n$ l'\'egalit\'e suivante :
+  \begin {enumerate}}
+    \item \question{Montrer par r\'ecurrence sur $n$ l'\'egalit\'e suivante :
 $$\begin{vmatrix}1 &\lambda_1 &\cdots &\lambda_1^{n-1} \\ 
 \vdots& & &\vdots \\  1 &\lambda_n &\cdots & \lambda_n^{n-1}\end{vmatrix}=
 \prod_{1\leq i<j\leq n}(\lambda_i-\lambda_j).$$
 En d\'eduire que le syst\`eme suivant
 $$\left\{\begin{align*}\mu_1&=\alpha_0+\alpha_1\lambda_1+\cdots+\alpha_{n-1}\lambda_1^{n-1} \\ 
 \vdots \\  \mu_n &=\alpha_0+\alpha_1\lambda_n+\cdots+\alpha_{n-1}\lambda_n^{n-1} \\ \end{align*}\right.$$
-admet une unique solution $(\alpha_0,\cdots,\alpha_{n-1})\in\R^n.$
-    \item Soient $M'$ et $A'$ les matrices diagonales suivantes :
+admet une unique solution $(\alpha_0,\cdots,\alpha_{n-1})\in\R^n.$}
+    \item \question{Soient $M'$ et $A'$ les matrices diagonales suivantes :
 $$M'=\begin{pmatrix}\lambda_1 & 0 &\cdots & 0 \\  0 &\ddots  & & 0 \\ \vdots & &  & \vdots \\  0 & \cdots & 0 &\lambda_n \\  \end{pmatrix},\ \
 A'=\begin{pmatrix}\mu_1 & 0 &\cdots & 0 \\  0 &\ddots  & & 0 \\ \vdots & &  & \vdots \\  0 & \cdots & 0 &\mu_n \\ \end{pmatrix}.$$
 Montrer qu'il existe des r\'eels $\alpha_0,\cdots,\alpha_{n-1}$ tels que
 $$A'=\sum_{k=0}^{n-1}\alpha_k M'^k$$ et en d\'eduire qu'il existe des r\'eels $\alpha_0,\cdots,\alpha_{n-1}$ tels que
 $$A=\sum_{k=0}^{n-1}\alpha_k M^k.$$   
   \end {enumerate}
-\end {enumerate}
-}
+\end {enumerate}}
+\end{enumerate}
 \reponse{
 {\it Soient $M$ et $A$ deux matrices de ${\cal{M}}_n(\R)$ telles que 
 $MA=AM$.
