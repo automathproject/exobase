@@ -107,7 +107,7 @@ redeviennent alors identiques des deux côtés.
 
 `--apply` exige qu'Exercices n'ait pas de modification non committée, sans quoi
 la référence enregistrée serait fausse. Par défaut, la source est résolue vers
-`../../COET/Exercices` ; pour une autre copie locale, définir
+`../Exercices` ; pour une autre copie locale, définir
 `EXERCISES_ROOT=/chemin/vers/Exercices`.
 
 Les fichiers qui existent seulement dans exobase ne sont jamais supprimés par

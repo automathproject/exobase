@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const SOURCE_ROOT = process.env.EXERCISES_ROOT || path.resolve(ROOT, '../../COET/Exercices');
+const SOURCE_ROOT = process.env.EXERCISES_ROOT || path.resolve(ROOT, '../Exercices');
 const PROVENANCE = path.join(ROOT, 'content/provenance/amscc.json');
 const IMAGE_FORMATS = ['svg', 'png', 'jpg', 'jpeg', 'pdf', 'tikz', 'contourdata'];
 
