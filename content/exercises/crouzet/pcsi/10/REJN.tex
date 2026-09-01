@@ -12,10 +12,10 @@
 \texte{On définit la suite $(h_n)_{n\geq 1}$, pour $n\geq1$, par :
 $ h_n=\ds{\sum_{k=1}^n \frac{1}{k}}$.}
 \question{Montrer que $(h_n)$ est croissante. On note $\ell$ la limite, finie ou infinie, de $(h_n)$. Justifier son existence.}
-\reponse{\begin{align*}
+\reponse{
 Pour tout $n\geq 1$, on a \[ h_{n+1}-h_n = \sum_{k=1}^{n+1} \frac1k - \sum_{k=1}^n \frac1k = \frac{1}{n+1}. \]
   La suite $(h_n)_{n\geq 1}$ est donc croissante, et admet donc une limite (finie ou infinie).
-\end{align*}}
+}
 \question{Montrer que $h_{2n}-h_n\geq \frac{1}{2}$, pour tout $n\in\N*$.}
 \reponse{Pour tout $n\geq 1$ :
   \begin{align*}
@@ -30,11 +30,11 @@ h_{2n}-h_n &= \sum_{k=n+1}^{2n} \frac1k \\
 &\geq \sum_{k=n+1}^{2n} \frac{1}{2n} = \frac{1}{2n}\left(2n-(n+1)+1\right) = \frac12.
   \end{align*}}
 \question{En raisonnant par l'absurde, montrer que $\ell=+\infty$.}
-\reponse{\begin{align*}
+\reponse{
 Supposons par l'absurde que la limite de $(h_n)$ soit finie. On la note $\ell$. Mais alors \[ h_n \tendversen{n\to +\infty} \ell \qeq h_{2n}\tendversen{n\to +\infty} \ell \]
   $(h_{2n})$ étant une suite extraite de la suite $h$, elle a la même limite. Mais alors \[ h_{2n}-h_n \tendversen{n\to +\infty} 0. \]
   Or, pour tout $n\geq 1$, $h_{2n}-h_n \geq \frac12$ : c'est absurde.
 
   Ainsi \[ \boxed{\lim_{n\to +\infty} h_n = +\infty.}\]
-\end{align*}}
+}
 }

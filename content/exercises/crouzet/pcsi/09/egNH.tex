@@ -13,13 +13,13 @@
 $u_0=3$ et pour tout entier $n$,
 $$u_{n+1}=\frac{2}{1+u_n}$$}
 \question{Calculer $u_1$ et $u_2$. La suite $(u_n)$ est-elle arithmétique ? Géométrique ?}
-\reponse{\begin{align*}
+\reponse{
 On a $u_1=\frac{1}{2}$ et $u_2=\frac{4}{3}$. On constate alors que $u_1-u_0=-\frac{5}{2}$ et $u_2-u_1=\frac{5}{6} \neq u_1-u_0$. Donc $u$ n'est pas arithmétique. De même, $$\frac{u_1}{u_0} = \frac{1}{6} \textrm{  et  } \frac{u_2}{u_1}=\frac{8}{3}\neq \frac{u_1}{u_0}$$ Ainsi, la suite $u$ n'est pas géométrique.
-\end{align*}}
+}
 \question{Démontrer que si $u_{n+1}=-2$ alors $u_n=-2$. En déduire que pour tout $n$, $$u_n \neq -2$$}
-\reponse{\begin{align*}
+\reponse{
 Si $u_{n+1}=-2$, alors $\frac{2}{1+u_n}=-2$, c'est-à-dire $2=-2(1+u_n)$ et donc $4=-2u_n \Leftrightarrow u_n=-2$.\\Supposons alors par l'absurde qu'il existe un entier $n$ tel que $u_n=-2$. D'après ce qui précède, on a alors $u_{n-1}=-2$, puis $u_{n-2}=-2$, et ainsi, $u_0=-2$. Or, $u_0=3$, c'est donc absurde.\\\textbf{Bilan} : $\forall~n,~u_n\neq -2$.
-\end{align*}}
+}
 \question{Démontrer que pour tout $n\in\mathbb{N}$, on a $$0\leq u_n \leq 3$$}
 \reponse{\begin{align*}
 Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$0\leq u_n\leq 3$''.
@@ -45,7 +45,7 @@ Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$0\leq u_n\l
 		\item Exprimer $v_n$ en fonction de $n$.
 		\item Exprimer $u_n$ en fonction de $v_n$, puis en fonction de $n$. Que vaut $u_{10}$ ?
 	\end{enumerate}}
-\reponse{\begin{align*}
+\reponse{
 \begin{enumerate}
 			\item D'après la question 2, on sait que pour tout $n$, $u_n\neq -2$, et donc $u_n+2\neq 0$. La suite $(v_n)$ est donc bien définie.
 			\item On a $v_0=\frac{2}{5}$, $v_1=-\frac{1}{5}$ et $v_2=\frac{1}{10}$. Ainsi, la suite $v$ semble géométrique de raison $-\frac{1}{2}$. Démontrons-le : pour tout entier $n$, on a
@@ -59,5 +59,5 @@ Soit $P$ la proposition définie pour tout entier $n$ par $P_n:$ ~``$0\leq u_n\l
 				$$v_n(u_n+2)=u_n-1 \textrm{   soit   } u_n(v_n-1) = -1-2v_n \textrm{   et donc   } u_n=\frac{-1-2v_n}{v_n-1}=\frac{1+2v_n}{1-v_n}$$
 				\textbf{Bilan} : $$\boxed{\forall~n,~u_n=\frac{1+\frac{4}{5}\left(-\frac{1}{2}\right)^n}{1-\frac{2}{5}\left(-\frac{1}{2}\right)^n}=\frac{5\times 2^n + 4 \times (-1)^n}{5\times 2^n-2\times (-1)^n}}$$
 			\end{enumerate}
-\end{align*}}
+}
 }

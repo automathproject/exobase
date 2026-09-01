@@ -31,7 +31,7 @@ Soit $P_n$ la proposition définie pour tout entier $n$ par ``$0\leq u_n \leq 3$
 		\item Démontrer que la suite $(v_n)$ est géométrique.
 		\item Exprimer $v_n$ en fonction de $n$.
 	\end{enumerate}}
-\reponse{\begin{align*}
+\reponse{
 ~\begin{enumerate}
             \item Puisque pour tout entier $n$, $0\leq u_n$ alors $u_n+2 \geq 2 \neq 0$. Ainsi $(v_n)$ est bien définie.
             \item Montrons que la suite $(v_n)$ est géométrique :
@@ -39,13 +39,13 @@ Soit $P_n$ la proposition définie pour tout entier $n$ par ``$0\leq u_n \leq 3$
             La suite $(v_n)$ est donc géométrique, de raison $-\frac{1}{2}$ et de premier terme $v_0=\frac{u_0-1}{u_0+2} = \frac{2}{5}$.
             \item On a donc, pour tout entier $n$, $\displaystyle{v_n=\frac{2}{5}\left(-\frac{1}{2}\right)^n}$.
         \end{enumerate}
-\end{align*}}
+}
 \question{Exprimer $u_n$ en fonction de $n$. En déduire la limite de $(u_n)$.}
-\reponse{\begin{align*}
+\reponse{
 Puisque pour tout entier $n$, on a $\displaystyle{v_n=\frac{u_n-1}{u_n+2}}$, alors $$v_n=\frac{u_n-1}{u_n+2} \Leftrightarrow v_n(u_n+2)=u_n-1 \Leftrightarrow u_n=\frac{-1-2v_n}{v_n-1}$$
     Ainsi, pour tout entier $n$,
     $$u_n=\frac{-1-\frac{4}{5}\left(-\frac{1}{2}\right)^n}{\frac{2}{5}\left(-\frac{1}{2}\right)^n-1}$$
     Puisque $-1<-\frac{1}{2}<1$, par théorème, $\displaystyle{\lim_{n\rightarrow +\infty} \left(-\frac{1}{2}\right)^n=0}$. Par somme et quotient
     $$\lim_{n\rightarrow +\infty}u_n = \frac{-1}{-1} = 1$$
-\end{align*}}
+}
 }

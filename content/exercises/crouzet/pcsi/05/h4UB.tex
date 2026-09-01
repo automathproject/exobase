@@ -14,22 +14,22 @@
 \contenu{
 \texte{Soit $E$ un ensemble, et $A, B, D$ des parties non vides de $E$. Montrer que :}
 \question{$(A\cup B=B\cap D) \implies (A\subset B\subset D)$.}
-\reponse{\begin{align*}
+\reponse{
 Supposons $A \cup B = B\cap D$, et montrons les deux inclusions :
 	\begin{itemize}
 		\item Soit $x\in A$. Alors $x\in A\cup B$ et donc $x\in B\cap D$. On peut donc en déduire que $x \in B$. Ainsi, $A\subset B$.
 		\item Soit $x\in B$. Alors $x\in A\cup B$ et donc $x\in B\cap D$. Donc $x\in B$ et $x\in D$, c'est-à-dire $x\in D$. Ainsi, $B\subset D$.
 	\end{itemize}
-\end{align*}}
+}
 \question{$(\overline{A}\subset B)\Longleftrightarrow (A\cup B=E)$.}
-\reponse{\begin{align*}
+\reponse{
 Supposons que $\overline{A}\subset B$. D'une part, $A\cup B \subset E$ puisque $A$ et $B$ sont des sous-ensembles de $E$. Montrons l'inclusion inverse.\\Soit $x\in E$ et procédons par disjonction de cas :
 	\begin{itemize}
 		\item Soit $x\in A$, et alors $x\in A\cup B$.
 		\item Soit $x\notin A$, mais alors $x\in \overline{A}$. Or $\overline{A}\subset B$ donc $x\in B$ et finalement $x\in A\cup B$.
 	\end{itemize}
 	Ainsi, dans tous les cas, $x\in A\cup B$ et finalement $E \subset A\cup B$ : on a bien l'égalité des ensembles.
-\end{align*}}
+}
 \question{$A\setminus B = \overline{B}\setminus \overline{A}$.}
 \reponse{\begin{align*}
 Soit $x\in A\setminus B$. Alors $x \in A$ et $x\notin B$. Ainsi, $x\notin \overline{A}$ et $x\in \overline{B}$, et finalement $x \in \overline{B}\setminus \overline{A}$.\\

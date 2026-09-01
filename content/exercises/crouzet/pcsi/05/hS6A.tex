@@ -16,7 +16,7 @@
 Montrer que l'application $f:E\to \R*\times \R$ définie par 
 \[ f( (u_n) ) = (u_0, u_1) \]
 est bijective.}
-\reponse{\begin{align*}
+\reponse{
 Soient deux suites $u$ et $v$ de $E$ tels que $f(u)=f(v)$. Par définition
 	\[ (u_0, u_1) = (v_0,v_1) \iff u_0=v_0\qeq u_1=v_1. \]
 	Remarquons donc que les suites $u$ et $v$ ont le même premier terme, mais également la même raison; en effet, puisque $u_0\in \R*$ et $v_0\in \R*$, on constate que 
@@ -26,7 +26,7 @@ Soient deux suites $u$ et $v$ de $E$ tels que $f(u)=f(v)$. Par définition
 	
 	Elle est également surjective. Prenons deux réels $(a, b)\in \R*\times \R$. Posons la suite géométrique $u$ de premier terme $u_0=a\in \R*$ et de raison $q=\frac{b}{a}$ (qui a un sens car $a\neq 0$). Par construction, $u\in E$ et on a bien \[f(u) =(u_0, u_1) = (u_0, qu_0) = (a, b). \]
 	Finalement $f$ est bien surjective, et donc bijective.
-\end{align*}}
+}
 \question{Soit $E$ un ensemble, $A, B$ deux sous-ensembles de $E$. Soit $f:\partie(E)\to \partie(A)\times \partie(B)$ définie par 
 \[ f(X) = (A\cap X, B\cap X).\]
 \begin{enumerate}
@@ -52,12 +52,10 @@ Soient deux suites $u$ et $v$ de $E$ tels que $f(u)=f(v)$. Par définition
 			\item $X\cap B = (Y\cap B)\cup (Z\cap B) = Z$ car $Z\subset B$ et $Y\subset A$ avec $A\cap B=\vide$.
 		\end{itemize}
 		Ainsi, $f(X) = (Y,Z)$ : $f$ est donc surjective.
-		
 		Supposons $A\cap B \neq \vide$. Soit $x\in A\cap B$, et notons $Y=\{x\}$. $Y\in \partie(A)$. Prenons  $Z\in \partie(B)$ tel que $x\notin Z$. Alors le couple $(Y,Z)$ n'a pas d'antécédent par $f$. En effet, s'il existe $X\in \partie(E)$ tel que $f(X)=(Y,Z)$, cela implique que 
 	\[ X \cap A = Y \qeq X\cap B = Z. \]
 	Puisque $x \in Y$, nécessairement, puisque $X\cap A=Y$, $x\in X$. Mais alors $x\in X\cap B$ puisque $x\in B$ : c'est absurde puisque $x\notin Z$. $f$ n'est donc pas surjective.
 	\item D'après les résultats précédents, $f$ est bijective si elle est à la fois injective et surjective. Donc $f$ est bijective si et seulement si $A\cap B =\vide$ et $A\cup B = E$, c'est-à-dire si $A$ et $B$ sont complémentaires : $B=\overline{A}$. 
-	
 	$f$ s'écrit alors $f:X\donne (A\cap X, \overline{A}\cap X)$.
 Soit alors $(Y,Z)\in \partie{A}\times \partie{\overline{A}}$. Alors
 \[ f(X) = (Y,Z) \iff A\cap X = Y \qeq \overline{A}\cap X = Z \iff X = Y \cup Z. \]

@@ -24,7 +24,7 @@
 	avec $\ds{a=\sum_{i=1}^n y_i^2,\, b=2\sum_{i=1}^n |x_iy_i|,\,\text{et}\,x=\sum_{i=1}^n x_i^2}$.}
 \question{En déterminant le signe du trinôme du second degré précédent de deux manières différentes, montrer que \[ \sum_{i=1}^n \left|x_iy_i\right| \leq \sqrt{\sum_{i=1}^n x_i^2} \sqrt{\sum_{i=1}^n y_i^2} \]
 	 Cette inégalité est appelée \textbf{inégalité de Cauchy-Schwarz}.}
-\reponse{\begin{align*}
+\reponse{
 Tout d'abord, puisque $|x_i+ty_i|^2\geq 0$, par somme, \[ \sum_{i=1}^n \left( |x_i|+t|y_i|\right)^2 \geq 0 \]
 	Ainsi, le trinôme du second degré est de signe constant. Cela signifie que son discriminant $\Delta$ est négatif. Or
 	\[ \Delta = b^2-4ac = \left(2\sum_{i=1}^n |x_iy_i|\right)^2-4\sum_{i=1}^n x_i^2 \sum_{i=1}^n y_i^2 \]
@@ -33,7 +33,7 @@ Tout d'abord, puisque $|x_i+ty_i|^2\geq 0$, par somme, \[ \sum_{i=1}^n \left( |
 	puis, en appliquant la fonction racine croissante sur $\R+$, et par positivité des termes
 
 	\[ \sum_{i=1}^n |x_iy_i| \leq \sqrt{\sum_{i=1}^n x_i^2}\sqrt{\sum_{i=1}^n y_i^2}. \]
-\end{align*}}
+}
 \question{En appliquant la précédente inégalité à des réels bien choisis, montrer que \[ \frac{6n}{(n+1)(2n+1)} \leq \sum_{k=1}^n \frac{1}{k^2} \]}
 \reponse{Appliquons l'inégalité de Cauchy-Schwarz à $x_i=\frac{1}{i}$ et $y_i=i$, pour tout $i\in \interent{1 n}$. Cela donne :
 	\[ \sum_{i=1}^n \left|\frac{1}{i}i\right| \leq \sqrt{\sum_{i=1}^n \frac{1}{i^2}}\sqrt{\sum_{i=1}^n i^2}. \]
