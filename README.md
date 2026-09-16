@@ -12,7 +12,8 @@ Exercices  →  exobase  →  OpenYourMath
 ```
 
 `Exercices` reste le dépôt d'édition des exercices AMSCC. `exobase` en est le
-miroir canonique versionné, limité aux sources, images, codes et auteurs. Il ne
+miroir canonique versionné, limité aux sources, images, codes, auteurs et
+référentiels. Il ne
 contient pas les données dérivées d'OpenYourMath (cache, base SQLite, artefacts
 de rendu et embeddings).
 
@@ -32,6 +33,7 @@ Le dossier `content/` suit le contrat de contenu d'OpenYourMath :
 - `content/images/<source>/<format>/` : images et sources graphiques ;
 - `content/code/<source>/python/` : extraits Python référencés par `\pythoncode` ;
 - `content/provenance/` : manifestes de provenance par source ;
+- `content/referentials/` : taxonomies canoniques et tables de compatibilité ;
 - `content/authors.json` : auteurs et licences ;
 - `content/FORMAT.md` : documentation du format des exercices `.tex`.
 
@@ -120,8 +122,16 @@ Après une synchronisation : vérifier `git diff --check`, relire les changement
 puis les committer dans exobase. OpenYourMath importe ensuite ce commit avec
 son synchroniseur `scripts/sync-exobase.js`.
 
+Le référentiel AMSCC (`content/referentials/amscc/referentiel.md`) est synchronisé
+avec les sources. Les variations historiques des métadonnées sont normalisées sans
+réécrire les fichiers AMSCC, au moyen de `amscc-aliases.json`. La décision de
+projection vers la mémoire Exo7 est versionnée dans
+`amscc-exo7-compatibility.json` : chaque chapitre est soit associé à un code Exo7,
+soit explicitement conservé comme extension AMSCC.
+
 ## Validation des sources LaTeX
 
 ```bash
 python3 tools/check_exercise_sources.py
+python3 tools/check_amscc_referential.py
 ```

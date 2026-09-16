@@ -1,0 +1,45 @@
+{
+  "schema": "amscc-exo7-compatibility/v1",
+  "amsccReference": "content/referentials/amscc/referentiel.md",
+  "exo7Catalog": "migrations/exo7/chapitres_complet.json",
+  "policy": "Un code Exo7 n'est fourni que lorsqu'il existe un équivalent pédagogique clair. null signifie qu'OpenYourMath conserve la classification AMSCC, sans invention de code Exo7.",
+  "projections": [
+    { "amscc": ["Probabilité", "Probabilité discrète"], "exo7": { "chapter": 260, "subchapters": { "Probabilité et dénombrement": "260.01", "Probabilité conditionnelle": "260.02", "Théorème de Bayes": "260.02", "Loi, indépendance, loi conditionnelle": "260.02", "Variable aléatoire discrète": "260.03", "Lois de distributions": "260.04", "Reconnaissance de lois discrètes": "260.04", "Loi binomiale et approximation": "260.04", "Autre": "260.99" } } },
+    { "amscc": ["Probabilité", "Probabilité continue"], "exo7": { "chapter": 261, "subchapters": { "Densité de probabilité": "261.01", "Lois des grands nombres, théorème central limite": "261.02", "Théorème central limite": "261.02", "Convergence en loi": "261.03", "Loi normale": "261.04", "Autre": "261.99" } } },
+    { "amscc": ["Probabilité", "Fonctions caractéristiques"], "exo7": { "chapter": 481, "subchapters": { "Loi normale et somme de variables aléatoires": "481.00" } } },
+    { "amscc": ["Analyse de données", "Statistique"], "exo7": { "chapter": 262, "subchapters": { "Échantillonnage et estimation": "262.01", "Estimation": "262.01", "Estimation par maximum de vraisemblance": "262.01", "Intervalle de confiance": "262.02", "Tests d'hypothèses": "262.02", "Tests d'hypothèses, intervalle de confiance": "262.02", "Autre": "262.99" } } },
+    { "amscc": ["Analyse de données", "Prétraitement des données"], "exo7": null, "reason": "Extension AMSCC : le catalogue Exo7 ne distingue pas ce domaine." },
+    { "amscc": ["Analyse de données", "Apprentissage automatique"], "exo7": null, "reason": "Extension AMSCC : le catalogue Exo7 ne distingue pas ce domaine." },
+    { "amscc": ["Analyse de données", "Réseaux de neurones"], "exo7": null, "reason": "Extension AMSCC : le catalogue Exo7 ne distingue pas ce domaine." },
+
+    { "amscc": ["Analyse", "Série numérique"], "exo7": { "chapter": 122 } },
+    { "amscc": ["Analyse", "Série entière"], "exo7": { "chapter": 220 } },
+    { "amscc": ["Analyse", "Fonction de plusieurs variables"], "exo7": { "chapter": 223 } },
+    { "amscc": ["Analyse", "Continuité, limite et étude de fonctions réelles"], "exo7": { "chapter": 123 } },
+    { "amscc": ["Analyse", "Dérivabilité des fonctions réelles"], "exo7": { "chapter": 124 } },
+    { "amscc": ["Analyse", "Développement limité"], "exo7": { "chapter": 125 } },
+    { "amscc": ["Analyse", "Équation différentielle"], "exo7": { "chapter": 225 } },
+    { "amscc": ["Analyse", "Série de Fourier"], "exo7": { "chapter": 221 } },
+    { "amscc": ["Analyse", "Calcul d'intégrales"], "exo7": { "chapter": 127 } },
+    { "amscc": ["Analyse", "Suite"], "exo7": { "chapter": 121 } },
+    { "amscc": ["Analyse", "Topologie"], "exo7": { "chapter": 229 } },
+    { "amscc": ["Analyse", "Distributions"], "exo7": null, "reason": "Les distributions ne forment pas un chapitre Exo7 équivalent ; la granularité AMSCC est conservée." },
+    { "amscc": ["Analyse", "Systèmes linéaires causals"], "exo7": null, "reason": "Extension signal/électronique AMSCC sans équivalent Exo7." },
+    { "amscc": ["Analyse", "Transformée de Fourier"], "exo7": { "chapter": 407 } },
+
+    { "amscc": ["Algèbre", "Matrice"], "exo7": { "chapter": 108 } },
+    { "amscc": ["Algèbre", "Déterminant, système linéaire"], "exo7": { "chapter": 200 } },
+    { "amscc": ["Algèbre", "Polynôme, fraction rationnelle"], "exo7": { "chapter": 105 } },
+    { "amscc": ["Algèbre", "Application linéaire"], "exo7": { "chapter": 107 } },
+    { "amscc": ["Algèbre", "Nombres complexes"], "exo7": { "chapter": 104 } },
+    { "amscc": ["Algèbre", "Dénombrement"], "exo7": { "chapter": 102 } },
+
+    { "amscc": ["Analyse numérique", "Résolution de systèmes linéaires : méthode itérative"], "exo7": { "chapter": 456 } },
+    { "amscc": ["Analyse numérique", "Résolution de systèmes linéaires : méthode directe"], "exo7": { "chapter": 455 } },
+    { "amscc": ["Analyse numérique", "Interpolation polynomiale"], "exo7": { "chapter": 450 } },
+    { "amscc": ["Analyse numérique", "Résolution d'équation différentielle"], "exo7": { "chapter": 454 } },
+    { "amscc": ["Analyse numérique", "Méthodes numériques"], "exo7": { "chapter": 459 } },
+    { "amscc": ["Optimisation", "Fonction convexe"], "exo7": { "chapter": 470 } },
+    { "amscc": ["Optimisation", "Calcul différentiel"], "exo7": { "chapter": 370 } }
+  ]
+}

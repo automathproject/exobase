@@ -24,6 +24,18 @@ La cible par défaut est `content/exercises/`. Le format de sortie est aligné s
 `pnpm test:tex` dans `openyourmath-v2`, et les codes d'erreur le sont aussi à une
 exception près.
 
+## Référentiel AMSCC et mémoire Exo7
+
+```bash
+python3 tools/check_amscc_referential.py
+```
+
+Ce contrôle vérifie les trois éléments nécessaires avant l'import OpenYourMath :
+le référentiel AMSCC synchronisé, les alias des classifications historiques et la
+table de projection vers `migrations/exo7/chapitres_complet.json`. Chaque exercice
+doit être déjà canonique ou résolu par un alias ; chaque chapitre AMSCC doit avoir
+une décision Exo7, y compris une absence d'équivalent explicitement justifiée.
+
 ### `unbalanced-environment` — propre à exobase
 
 Ce contrôle apparie `\begin{...}` et `\end{...}` avec une pile, et distingue :

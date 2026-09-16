@@ -26,6 +26,12 @@ const IMAGE_FORMATS = ['svg', 'png', 'jpg', 'jpeg', 'pdf', 'tikz', 'contourdata'
 
 const MAPPINGS = [
   { kind: 'sources', from: 'src', to: 'content/exercises/amscc', accept: name => name.endsWith('.tex') },
+  {
+    kind: 'referential',
+    from: '.claude/skills/new-exercise/assets',
+    to: 'content/referentials/amscc',
+    accept: name => name === 'referentiel.md'
+  },
   ...IMAGE_FORMATS.map(format => ({
     kind: 'images',
     from: `img/${format}`,
@@ -35,7 +41,12 @@ const MAPPINGS = [
   { kind: 'code', from: 'code/python', to: 'content/code/amscc/python', accept: name => name.endsWith('.py') }
 ];
 
-const LABELS = { sources: 'Sources .tex', images: 'Images et sources graphiques', code: 'Extraits Python' };
+const LABELS = {
+  sources: 'Sources .tex',
+  referential: 'Référentiel AMSCC',
+  images: 'Images et sources graphiques',
+  code: 'Extraits Python'
+};
 const ACTIONS = {
   add: { mark: '＋', title: 'Ajouts' },
   update: { mark: '↻', title: 'Mises à jour depuis Exercices' },
@@ -184,13 +195,23 @@ async function recordSync(commit, entries, previous) {
     return totals;
   }, {});
   const provenance = JSON.parse(await fs.readFile(PROVENANCE, 'utf8'));
-  const unchangedBookmark = previous === commit && provenance.exercices === counts.sources;
+  const previousCounts = provenance.sync?.fichiers ?? {};
+  const unchangedBookmark = previous === commit &&
+    provenance.exercices === counts.sources &&
+    previousCounts.referential === (counts.referential ?? 0) &&
+    previousCounts.images === (counts.images ?? 0) &&
+    previousCounts.code === (counts.code ?? 0);
   if (unchangedBookmark) return false;
   provenance.exercices = counts.sources ?? 0;
   provenance.sync = {
     commit,
     date: new Date().toISOString(),
-    fichiers: { sources: counts.sources ?? 0, images: counts.images ?? 0, code: counts.code ?? 0 }
+    fichiers: {
+      sources: counts.sources ?? 0,
+      referential: counts.referential ?? 0,
+      images: counts.images ?? 0,
+      code: counts.code ?? 0
+    }
   };
   await fs.writeFile(PROVENANCE, `${JSON.stringify(provenance, null, 2)}\n`);
   return true;
