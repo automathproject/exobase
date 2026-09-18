@@ -272,7 +272,7 @@ restent dans le module **Probabilité** lorsqu'ils sont étudiés pour eux-même
 Les autres valeurs historiques sont traitées au cas par cas : l'intitulé du module seul ne
 suffit pas à déterminer la cible.
 
-| Variante présente dans le dépôt | Forme canonique |
+| Variante historique | Forme canonique |
 |---|---|
 | Probabilités et Statistiques | Voir les règles de migration ci-dessus |
 | Probabilités | Probabilité |
@@ -288,3 +288,7 @@ suffit pas à déterminer la cible.
 | Série à  termes positifs (double espace) | Série à termes positifs |
 | Théorème Central Limite (majuscules) | Théorème central limite |
 | Réseaux de neurones récurrents | Analyse de données / Réseaux de neurones / Réseaux récurrents, LSTM et GRU |
+
+Ces formes ont été rencontrées dans l'historique du dépôt. Elles ne doivent pas être
+réintroduites ; les alias conservent une projection non destructive pour les sources
+qui les emploient encore.
