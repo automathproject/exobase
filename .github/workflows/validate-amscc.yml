@@ -13,3 +13,5 @@ jobs:
         run: python3 tools/check_exercise_sources.py content/exercises/amscc --max-errors=0
       - name: Validate taxonomy, aliases and Exo7 compatibility
         run: python3 tools/check_amscc_referential.py
+      - name: Validate Exo7 referential
+        run: python3 tools/render_exo7_referential.py --check

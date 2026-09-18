@@ -129,9 +129,15 @@ projection vers la mémoire Exo7 est versionnée dans
 `amscc-exo7-compatibility.json` : chaque chapitre est soit associé à un code Exo7,
 soit explicitement conservé comme extension AMSCC.
 
+Le référentiel Exo7 lisible est dans `content/referentials/exo7/referentiel.md`.
+Il est dérivé de `migrations/exo7/chapitres_complet.json`, qui demeure la source
+canonique des codes ; il se régénère avec
+`python3 tools/render_exo7_referential.py`.
+
 ## Validation des sources LaTeX
 
 ```bash
 python3 tools/check_exercise_sources.py
 python3 tools/check_amscc_referential.py
+python3 tools/render_exo7_referential.py --check
 ```

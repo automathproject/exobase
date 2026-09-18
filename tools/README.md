@@ -36,6 +36,17 @@ table de projection vers `migrations/exo7/chapitres_complet.json`. Chaque exerci
 doit être déjà canonique ou résolu par un alias ; chaque chapitre AMSCC doit avoir
 une décision Exo7, y compris une absence d'équivalent explicitement justifiée.
 
+## Référentiel Exo7
+
+```bash
+python3 tools/render_exo7_referential.py         # régénère le Markdown
+python3 tools/render_exo7_referential.py --check # vérifie sa synchronisation
+```
+
+Le document produit dans `content/referentials/exo7/referentiel.md` présente les
+codes, chapitres et sous-chapitres Exo7, sans modifier le catalogue JSON qui reste
+la source canonique.
+
 ### `unbalanced-environment` — propre à exobase
 
 Ce contrôle apparie `\begin{...}` et `\end{...}` avec une pile, et distingue :
