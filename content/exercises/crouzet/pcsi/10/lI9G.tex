@@ -12,7 +12,7 @@
 \question{On considère les suites $(u_n)_{n\geq 1}$ et $(v_n)_{n\geq 1}$ définies, pour $n\geq1$, par :
 $u_n=\displaystyle\sum_{k=1}^n \frac{1}{k^2}$ et $ v_n=u_n+\dfrac{1}{n}$.
 Montrer que $(u_n)$ et $(v_n)$ sont adjacentes. Que peut-on conclure ?}
-\reponse{Démontrons que $(u_n)_{n\geq 1}$ est croissante, $(v_n)_{n\geq 1}$ est décroissante et que $v_n-u_n\tendversen{n\to+\infty} 0$.
+\reponse{Démontrons que $(u_n)_{n\geq 1}$ est croissante, $(v_n)_{n\geq 1}$ est décroissante et que $v_n-u_n\underset{n\to+\infty}{\longrightarrow} 0$.
 
 Soit $n\geq 1$.
 \begin{align*}
@@ -27,7 +27,7 @@ Soit $n\geq 1$.
 				&= \frac{n}{n(n+1)^2}+\frac{n(n+1)}{n(n+)^2}-\frac{(n+1)^2}{n(n+1)^2}\\
 				&= \frac{n+n(n+1)-(n+1)^2}{n(n+1)^2} = \frac{-1}{n(n+1)^2} < 0
 \end{align*}
-La suite $v$ est donc décroissante. Enfin \[ v_n-u_n=\frac1n\tendversen{n\to+\infty} 0 \]
+La suite $v$ est donc décroissante. Enfin \[ v_n-u_n=\frac1n\underset{n\to+\infty}{\longrightarrow} 0 \]
 Les suites $u$ et $v$ sont donc adjacentes. Par théorème, elles sont donc convergente et ont la même limite.
 \begin{remarque}
 	Leur limite commune est $\frac{\pi^2}{6}$, mais la démonstration n'est pas aisée.

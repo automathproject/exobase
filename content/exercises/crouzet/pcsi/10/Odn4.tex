@@ -56,7 +56,7 @@ définie par : $u_0=2,5$ et, pour tout $n\geq 0$, $u_{n+1}=f(u_n)$.}
 \question{Montrer que $(u_n)_{n\geq 0}$  est convergente puis déterminer sa limite.}
 \reponse{\begin{align*}
 D'après la question \ref{td11-9-q5}, la suite $(u_n)$ est décroissante. D'après la question \ref{td11-9-q2}, elle est minorée par $2$. D'après le théorème de la limite monotone, on en déduit que la suite $(u_n)$ est convergente.\\
-		Notons $\ell$ sa limite. Par somme et produit, on a \[ \frac12 u_n^2-\frac32 u_n+3 \tendversen{n\to+\infty} \frac12 \ell^2-\frac32 \ell+3 \]
+		Notons $\ell$ sa limite. Par somme et produit, on a \[ \frac12 u_n^2-\frac32 u_n+3 \underset{n\to+\infty}{\longrightarrow} \frac12 \ell^2-\frac32 \ell+3 \]
 		De plus, $\ds{\lim_{n\to+\infty} u_{n+1} = \lim_{n\to +\infty}u_n=\ell}$. En utilisant la définition de la suite $u$, on a \[ u_{n+1}=\frac12 u_n^2 -\frac32u_n+3 \]
 		et par passage à la limite \[ \ell = \frac12 \ell^2-\frac32\ell +3 \]
 		c'est-à-dire $\frac12\ell^2-\frac52\ell+3=0$, équation déja résolue dans la question \ref{td11-9-q4}, et qui admet comme solutions $2$ et $3$. Or, la suite $(u_n)$ est décroissante, et $u_0=2,5$; elle ne peut donc pas converger vers $3$. On en déduit finalement que \[ \boxed{\lim_{n\to +\infty} u_n = 2} \]
