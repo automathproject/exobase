@@ -14,24 +14,18 @@
 
 \contenu{
 \question{
-\catcode`\@=11
-\def\system#1{\left\{\null\,\vcenter{\openup1\jot\m@th
-\ialign{\strut\hfil$##$&$##$\hfil&&\enspace$##$\enspace&
-\hfil$##$&$##$\hfil\crcr#1\crcr}}\right.}
-\catcode`\@=12
-
 R{\'e}soudre
-$$S_1\system{
-        &x&+&\cosh a\ &y&+&\cosh 2a\ &z&=&&\cosh 3a\cr
-        \cosh a\ &x&+&\cosh 2a\ &y&+&\cosh 3a\ &z&=&&\cosh 4a\cr
-        \cosh 2a\ &x&+&\cosh 3a\ &y&+&\cosh 4a\ &z&=&&\cosh 5a\cr}$$
+$$S_1\left\{\begin{array}{rcrcrcl}
+        x&+&\cosh a\ y&+&\cosh 2a\ z&=&\cosh 3a\\[3pt]
+        \cosh a\ x&+&\cosh 2a\ y&+&\cosh 3a\ z&=&\cosh 4a\\[3pt]
+        \cosh 2a\ x&+&\cosh 3a\ y&+&\cosh 4a\ z&=&\cosh 5a\end{array}\right.$$
 et $$       
-S_2  \system{
-        &x_1&+&&x_2&+&\ldots&&+&&x_n&=&&1\cr
-        &x_1&+&2&x_2&+&\ldots&&+&n&x_n&=&&0\cr
-        &x_1&+&2^2&x_2&+&\ldots&&+&n^2&x_n&=&&0\cr
-        &   & &   &   & &\vdots&& &   &   & &&\cr
-        &x_1&+&2^{n-1}&x_2&+&\ldots&&+&n^{n-1}&x_n&=&&0\cr}   
+S_2  \left\{\begin{array}{rcrcrcrcl}
+        x_1&+&x_2&+&\ldots&+&x_n&=&1\\[3pt]
+        x_1&+&2x_2&+&\ldots&+&nx_n&=&0\\[3pt]
+        x_1&+&2^2x_2&+&\ldots&+&n^2x_n&=&0\\[3pt]
+           & &      & &\vdots& &     & & \\[3pt]
+        x_1&+&2^{n-1}x_2&+&\ldots&+&n^{n-1}x_n&=&0\end{array}\right.
 $$
 }
 \reponse{

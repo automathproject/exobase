@@ -51,9 +51,9 @@ Soit $P_n$ le polynôme de Lagrange défini par $P_n(x_i) = f_n(x_i)$
                           0                   & \text{ sinon}.\cr\end{cases}$$
     En prenant successivement $y=x_1$, \ldots, $y=x_n$, on obtient un
     système linéaire en $f_n(x)$, \dots, $f_n^{(p-1)}(x)$ de la forme~:
-    $$\left\{\begin{array}{lll} f_n(x) + (x_1-x)f_n'(x) + \dots + \frac{(x_1-x)^{p-1}}{(p-1)!}f_n^{(p-1)}(x) &= &- \int_{t=a}^b u_p(x,x_1,t)f_n^{(p)}(t)\,d t\cr
-             \noalign{\smallskip}\vdots\cr
-             f_n(x) + (x_p-x)f_n'(x) + \dots + \frac{(x_p-x)^{p-1}}{(p-1)!}f_n^{(p-1)}(x) &= &- \int_{t=a}^b u_p(x,x_p,t)f_n^{(p)}(t)\,d t\cr\end{array}\right.$$
+    $$\left\{\begin{array}{lll} f_n(x) + (x_1-x)f_n'(x) + \dots + \frac{(x_1-x)^{p-1}}{(p-1)!}f_n^{(p-1)}(x) &= &- \int_{t=a}^b u_p(x,x_1,t)f_n^{(p)}(t)\,d t\\[3pt]
+             \vdots\\
+             f_n(x) + (x_p-x)f_n'(x) + \dots + \frac{(x_p-x)^{p-1}}{(p-1)!}f_n^{(p-1)}(x) &= &- \int_{t=a}^b u_p(x,x_p,t)f_n^{(p)}(t)\,d t\end{array}\right.$$
     La matrice $M$ de ce système est la matrice de Vandermonde de $x_1-x,\dots,x_p-x$,
     inversible. On en déduit, avec les
     formules de Cramer, une expression de $f_n(x)$ à l'aide des intégrales du second membre,

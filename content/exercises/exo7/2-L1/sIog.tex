@@ -18,7 +18,7 @@
 \reponse{Pour $x>0$, posons $f(x)=x+\ln x$. $f$ est continue sur $]0,+\infty[$, strictement croissante sur $]0,+\infty[$ en tant que somme de deux fonctions continues et strictement croissantes sur $]0,+\infty[$. $f$ réalise donc une bijection de $]0,+\infty[$ sur $f\left(]0,+\infty[\right)=\left]\lim_{x\rightarrow 0,\;x>0}f(x),\lim_{x\rightarrow +\infty}f(x)\right[=]-\infty,+\infty[=\Rr$. En particulier,
 
 \begin{center}
-\shadowbox{
+\fbox{
 $\forall k\in\Rr,\;\exists!x_k\in]0,+\infty[/\;f(x_k)=k.$
 }
 \end{center}}
@@ -26,7 +26,7 @@ $\forall k\in\Rr,\;\exists!x_k\in]0,+\infty[/\;f(x_k)=k.$
 \reponse{$f\left(\frac{k}{2}\right)=\frac{k}{2}+\ln\frac{k}{2}<k$ pour $k$ suffisament grand (car $k-(\frac{k}{2}+\ln\frac{k}{2})=\frac{k}{2}-\ln\frac{k}{2}\underset{k\rightarrow+\infty}{\rightarrow}+\infty$ d'après les théorèmes de croissances comparées). Donc, pour $k$ suffisament grand, $f\left(\frac{k}{2}\right)<f(x_k)$. Puisque $f$ est strictement croissante sur $]0,+\infty[$, on en déduit que $x_k>\frac{k}{2}$ pour $k$ suffisament grand et donc que $\lim_{k\rightarrow +\infty}x_k=+\infty$. Mais alors, $k=x_k+\ln x_k\sim x_k$ et donc, quand $k$ tend vers $+\infty$,
 
 \begin{center}
-\shadowbox{
+\fbox{
 $x_k\underset{k\rightarrow+\infty}{=}k+o(k).$
 }
 \end{center}
@@ -36,7 +36,7 @@ $$y_k=-\ln(k+y_k)=-\ln(k+o(k))=-\ln k+\ln(1+o(1))=-\ln k+o(1).$$
 Donc,
 
 \begin{center}
-\shadowbox{
+\fbox{
 $x_k\underset{k\rightarrow+\infty}{=}k-\ln k+o(1).$
 }
 \end{center}
@@ -47,7 +47,7 @@ $$z_k=\ln k-\ln(k-\ln k+o(1))=-\ln\left(1-\frac{\ln k}{k}+o\left(\frac{\ln k}{k}
 Finalement,
 
 \begin{center}
-\shadowbox{
+\fbox{
 $x_k\underset{k\rightarrow+\infty}{=}k-\ln k+\frac{\ln k}{k}+o\left(\frac{\ln k}{k}\right).$
 }
 \end{center}}

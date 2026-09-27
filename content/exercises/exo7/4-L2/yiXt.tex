@@ -18,14 +18,14 @@ Soit $P\in\Rr_3[X]$ tel que $\int_{-1}^{1}P^2(t)\;dt=1$. Montrer que $\mbox{sup}
 }
 \reponse{
 L'application $(P,Q)\mapsto\int_{0}^{1}P(t)Q(t)\;dt$ est un produit scalaire sur $E=\Rr_3[X]$. Déterminons une base orthonormée de $E$. Pour cela, déterminons $(Q_0,Q_1,Q_2,Q_3)$ l'orthonormalisée de la base canonique $(P_0,P_1,P_2,P_3)=(1,X,X^2,X^3)$.
-\textbullet~$||P_0||^2=\int_{-1}^{1}1^2\;dt=2$ et on prend \shadowbox{$Q_0=\frac{1}{\sqrt{2}}$.}
-\textbullet~$P_1|Q_0=\frac{1}{\sqrt{2}}\int_{-1}^{1}t\;dt=0$ puis $P_1-(P_1|Q_0)Q_0=X$ puis $||P_1-(P_1|Q_0)Q_0||^2=\int_{-1}^{1}t^2\;dt=\frac{2}{3}$ et \shadowbox{$Q_1=\sqrt{\frac{3}{2}}X$.}
+\textbullet~$||P_0||^2=\int_{-1}^{1}1^2\;dt=2$ et on prend \fbox{$Q_0=\frac{1}{\sqrt{2}}$.}
+\textbullet~$P_1|Q_0=\frac{1}{\sqrt{2}}\int_{-1}^{1}t\;dt=0$ puis $P_1-(P_1|Q_0)Q_0=X$ puis $||P_1-(P_1|Q_0)Q_0||^2=\int_{-1}^{1}t^2\;dt=\frac{2}{3}$ et \fbox{$Q_1=\sqrt{\frac{3}{2}}X$.}
 \textbullet~$P_2|Q_0=\frac{1}{\sqrt{2}}\int_{-1}^{1}t^2\;dt=\frac{\sqrt{2}}{3}$ et $P_2|Q_1=0$. Donc, $P_2-(P_2|Q_0)Q_0-(P_2|Q_1)Q_1=X^2-\frac{1}{3}$,
 puis $||P_2-(P_2|Q_0)Q_0-(P_2|Q_1)Q_1||^2=\int_{-1}^{1}\left(t^2-\frac{1}{3}\right)^2\;dt=2\left(\frac{1}{5}-\frac{2}{9}+\frac{1}{9}\right)=
-\frac{8}{45}$ et \shadowbox{$Q_2=\frac{\sqrt{5}}{2\sqrt{2}}(3X^2-1)$.}
+\frac{8}{45}$ et \fbox{$Q_2=\frac{\sqrt{5}}{2\sqrt{2}}(3X^2-1)$.}
 \textbullet~$P_3|Q_0=P_3|Q_2=0$ et $P_3|Q_1=\sqrt{\frac{3}{2}}\int_{-1}^{1}t^4\;dt=\frac{\sqrt{6}}{5}$ et 
 $P_3-(P_3|Q_0)Q_0-(P_3|Q_1)Q_1-(P_3|Q_2)Q_2=X^3-\frac{3}{5}X$,
-puis $\left\|X^3-\frac{3}{5}X\right\|^2=\int_{-1}^{1}\left(t^3-\frac{3}{5}t\right)^2\;dt=2\left(\frac{1}{7}-\frac{6}{25}+\frac{3}{25}\right)=2\frac{25-21}{175}=\frac{8}{175}$, et \shadowbox{$Q_3=\frac{\sqrt{7}}{2\sqrt{2}}(5X^3-3X)$.}
+puis $\left\|X^3-\frac{3}{5}X\right\|^2=\int_{-1}^{1}\left(t^3-\frac{3}{5}t\right)^2\;dt=2\left(\frac{1}{7}-\frac{6}{25}+\frac{3}{25}\right)=2\frac{25-21}{175}=\frac{8}{175}$, et \fbox{$Q_3=\frac{\sqrt{7}}{2\sqrt{2}}(5X^3-3X)$.}
 Une base orthonormée de $E$ est $(Q_0,Q_1,Q_2,Q_3)$ où $Q_0=\frac{1}{\sqrt{2}}$, $Q_1=\frac{\sqrt{3}}{\sqrt{2}}X$, $Q_2=\frac{\sqrt{5}}{2\sqrt{2}}(3X^2-1)$ et $Q_3=\frac{\sqrt{7}}{2\sqrt{2}}(5X^3-3X)$.
 Soit alors $P$ un élément quelconque de $E=\Rr_3[X]$ tel que $\int_{-1}^{1}P^2(t)\;dt=1$. Posons $P=aQ_0+bQ_1+cQ_2+dQ_3$.
 Puisque $(Q_0,Q_1,Q_2,Q_3)$ est une base orthonormée de $E$, $\int_{-1}^{1}P^2(t)\;dt=||P||^2=a^2+b^2+c^2+d^2=1$. Maintenant, pour $x\in[-1,1]$, en posant $M_i=\mbox{Max}\{|Q_i(x)|,\;x\in[-1,1]\}$, on a~:

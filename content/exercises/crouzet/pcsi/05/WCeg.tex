@@ -46,14 +46,14 @@ Remarquons que $i$ est dérivable sur $\R$ (quotient de fonctions exponentielles
 \question{$j:\R^2\to \R^2$ définie par $j(x,y)=(x+2y, 5y-3x)$.}
 \reponse{Soient $(x,y)$ et $(x',y')$ deux couples de $\R^2$ tels que $j(x,y)=j(x',y')$. On a alors $(x+2y,5y-3x)=(x'+2y',5y'-3x')$. On résout le système :
 	\begin{align*}
-		\systeme[xy]{x+2y=x'+2y',5y-3x=5y'-3x'} &\Leftrightarrow \systeme[xy]{11y=11y',5y-3x=5y'-3x'}\\
-		&\Leftrightarrow \systeme*{x=x', y=y'}.
+		\left\{\begin{array}{rcrcl} x & + & 2y & = & x'+2y' \\ -3x & + & 5y & = & -3x'+5y' \end{array}\right. &\Leftrightarrow \left\{\begin{array}{rcrcl}  &  & 11y & = & 11y' \\ -3x & + & 5y & = & -3x'+5y' \end{array}\right.\\
+		&\Leftrightarrow \begin{cases} x=x' \\ y=y' \end{cases}.
 	\end{align*}
 	Ainsi, $(x,y)=(x',y')$ : la fonction $j$ est injective. \\
 	Pour la surjectivité, soit $(a,b)\in \R^2$. On cherche $(x,y)\in \R^2$ tel que $j(x,y)=(a,b)$. Alors :
 	\begin{align*}
-		\systeme{x+2y=a,5y-3x=b} &\Leftrightarrow \systeme{11y=3a+b, -3x+5y=b}\\
-		&= \systeme*{y=\frac{3}{11}a+\frac{1}{11}b,x=\frac{5}{11}a-\frac{2}{11}b }.
+		\left\{\begin{array}{rcrcl} x & + & 2y & = & a \\ -3x & + & 5y & = & b \end{array}\right. &\Leftrightarrow \left\{\begin{array}{rcrcl}  &  & 11y & = & 3a+b \\ -3x & + & 5y & = & b \end{array}\right.\\
+		&= \begin{cases} y=\frac{3}{11}a+\frac{1}{11}b \\ x=\frac{5}{11}a-\frac{2}{11}b \end{cases}.
 	\end{align*}
 	Ainsi, $j$ est surjective, et même bijective, d'application réciproque \[ (a,b) \mapsto \left( \frac{5}{11}a-\frac{2}{11}b, \frac{3}{11}a+\frac{1}{11}b\right). \]}
 }
