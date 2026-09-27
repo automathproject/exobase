@@ -11,15 +11,15 @@
 \datecreate{2024-12-01}
 \titre{Les intervalles sont en bijection ?!?}
 \contenu{
-\question{On note $f:\interff{0 1}\to \interfo{0 1}$ définie par
+\question{On note $f:\left[0,\,1\right]\to \left[0,\,1\right[$ définie par
 \begin{itemize}
 \item Si $x$ s'écrit $\frac1n$ avec $n\in \N^*$, alors $f(x)=\frac{1}{n+1}$;
 \item Sinon, $f(x)=x$.	
 \end{itemize}
 
-Montrer que $f$ est bijective; en déduire que $\interff{0 1}$ et $\interfo{0 1}$ sont en bijection.
+Montrer que $f$ est bijective; en déduire que $\left[0,\,1\right]$ et $\left[0,\,1\right[$ sont en bijection.
 
-\textit{On pourra écrire que $\interff{0 1} = A \cup \overline{A}$, où $A=\left\{ \frac{1}{n}, \quad n\in \N^*\right\}$.}}
+\textit{On pourra écrire que $\left[0,\,1\right] = A \cup \overline{A}$, où $A=\left\{ \frac{1}{n}, \quad n\in \N^*\right\}$.}}
 \reponse{
 Montrons que $f$ est injective. On utilise l'indication : $[0,1] = A\cup \overline{A}$ où $A=\left \{\frac1n,\quad n\in \N^*\right\}$.
 Soient $(x,x')\in [0,1]^2$ tels que $f(x)=f(x')$. Raisonnons par disjonction de cas :
@@ -32,16 +32,16 @@ Soient $(x,x')\in [0,1]^2$ tels que $f(x)=f(x')$. Raisonnons par disjonction de 
 \end{itemize}
 Dans tous les cas possibles, $f(x)=f(x')\implies x=x'$ : $f$ est injective.
 
-Montrons que $f$ est surjective. Soit $y\in \interfo{0 1}$. Deux possibilités à nouveau :
+Montrons que $f$ est surjective. Soit $y\in \left[0,\,1\right[$. Deux possibilités à nouveau :
 \begin{itemize}
-	\item si $y\in A$, alors il existe $n\in \N^*$ tel que $y=\frac{1}{n}$. Par ailleurs, puisque $y\in \interfo{0 1}$, $y\neq 1$ et donc $n\geq 2$. Mais alors 
+	\item si $y\in A$, alors il existe $n\in \N^*$ tel que $y=\frac{1}{n}$. Par ailleurs, puisque $y\in \left[0,\,1\right[$, $y\neq 1$ et donc $n\geq 2$. Mais alors 
 	\[ f\left(\frac{1}{n-1}\right) = \frac{1}{n} = y \]
-	et $\frac{1}{n-1}\in \interff{0 1}$.
-	\item si $y\notin A$, alors $f(y)=y$ et $y\in \interff{0 1}$.
+	et $\frac{1}{n-1}\in \left[0,\,1\right]$.
+	\item si $y\notin A$, alors $f(y)=y$ et $y\in \left[0,\,1\right]$.
 \end{itemize}
-Dans tous les cas il existe au moins un antécédent à $y\in \interfo{0 1}$ : $f$ est surjective.
+Dans tous les cas il existe au moins un antécédent à $y\in \left[0,\,1\right[$ : $f$ est surjective.
 
-\textbf{Bilan} : $f$ est bijective; ainsi, $\interff{0 1}$ et $\interfo{0 1}$ sont en bijection.
+\textbf{Bilan} : $f$ est bijective; ainsi, $\left[0,\,1\right]$ et $\left[0,\,1\right[$ sont en bijection.
 }
 }
 

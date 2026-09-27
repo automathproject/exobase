@@ -13,22 +13,22 @@
 \titre{Image directe, image réciproque}
 \contenu{
 \question{Soit $f$ la fonction définie sur $\R$ par $f:x\mapsto \ln\left(x^2+1\right)$.
-\\Déterminer l'image directe par $f$ de $\interff{-1 1}$. Déterminer l'image réciproque par $f$ de $\R^+$ et de $\interff{1 \ln(10)}$.}
+\\Déterminer l'image directe par $f$ de $\left[-1,\,1\right]$. Déterminer l'image réciproque par $f$ de $\R^+$ et de $\left[1,\,\ln(10)\right]$.}
 \reponse{On raisonne par inégalité :
   \begin{align*}
     -1\leq x \leq 1 &\iff 0 \leq x^2 \leq 1 \\
     &\iff 1 \leq x^2+1 \leq 2 \\
     &\iff \ln(1) \leq \ln(x^2+1) \leq \ln(2) \text{ car $\ln$ est bijective.}
   \end{align*}
-  Ainsi, \[ f\left(\interff{-1 1}\right)=\interff{0 \ln(2)}.\]
+  Ainsi, \[ f\left(\left[-1,\,1\right]\right)=\left[0,\,\ln(2)\right].\]
   Réciproquement :
   \begin{align*}
     1\leq f(x) \leq \ln(10) &\Leftrightarrow 1\leq \ln(x^2+1)\leq \ln(10) \\
     &\Leftrightarrow \mathrm{e} \leq x^2+1 \leq 10 \text{ car $\exp$ est bijective}\\
     &\Leftrightarrow \mathrm{e} - 1 \leq x^2 \leq 9 \\
-    &\Leftrightarrow x \in \interff{-3 -\sqrt{\mathrm{e}-1}} \cup \interff{\sqrt{{\mathrm{e}-1}} 3}
+    &\Leftrightarrow x \in \left[-3,\,-\sqrt{\mathrm{e}-1}\right] \cup \left[\sqrt{{\mathrm{e}-1}},\,3\right]
   \end{align*}
-  Ainsi, \[ f^{-1}\left(\interff{1 \ln(10)}\right) = \interff{-3 -\sqrt{\mathrm{e}-1}} \cup \interff{{\sqrt{\mathrm{e}-1}} 3} .\]
+  Ainsi, \[ f^{-1}\left(\left[1,\,\ln(10)\right]\right) = \left[-3,\,-\sqrt{\mathrm{e}-1}\right] \cup \left[{\sqrt{\mathrm{e}-1}},\,3\right] .\]
   
   Pour $\R^+$ :
   \begin{align*}

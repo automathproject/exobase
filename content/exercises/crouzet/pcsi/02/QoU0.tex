@@ -10,26 +10,26 @@
 \titre{Caractérisation des intervalles}
 \contenu{
 \texte{Soit $I$ une partie non vide de $\R$ vérifiant la propriété suivante :
-\[ \forall~x\in I,\,\forall~y\in I,\, x\leq y \implies \interff{x y} \subset I\]
+\[ \forall~x\in I,\,\forall~y\in I,\, x\leq y \implies \left[x,\,y\right] \subset I\]
 L'objectif est de démontrer que $I$ est un intervalle.}
 \question{On suppose que $I$ est majorée et non minorée.
 	\begin{enumerate}
-		\item Montrer qu'il existe un réel $a$ tel que $I~\subset \interof{-\infty{} a}$.
-		\item Soit $x\in \interoo{-\infty{} a}$. Montrer qu'il existe $y$ et $z$ dans $I$ tels que $y\leq x\leq z$.
-		\item En déduire que $\interoo{-\infty{} a}\subset I$ puis que $I$ est un intervalle.
+		\item Montrer qu'il existe un réel $a$ tel que $I~\subset \left]-\infty,\,a\right]$.
+		\item Soit $x\in \left]-\infty,\,a\right[$. Montrer qu'il existe $y$ et $z$ dans $I$ tels que $y\leq x\leq z$.
+		\item En déduire que $\left]-\infty,\,a\right[\subset I$ puis que $I$ est un intervalle.
 	\end{enumerate}}
 \reponse{
 \begin{enumerate}
-	\item $I$ est non vide (par hypothèse), et majorée. Elle admet une borne supérieure, que l'on note $a$. Ainsi, $I\subset \interof{-\infty{} a}$.
-	\item Soit $x\in \interoo{-\infty{} a}$. Puisque $I$ n'est pas minorée, il existe $y\in I$ tel que $y\leq x$ (sinon, $I$ est minorée par $y$).
+	\item $I$ est non vide (par hypothèse), et majorée. Elle admet une borne supérieure, que l'on note $a$. Ainsi, $I\subset \left]-\infty,\,a\right]$.
+	\item Soit $x\in \left]-\infty,\,a\right[$. Puisque $I$ n'est pas minorée, il existe $y\in I$ tel que $y\leq x$ (sinon, $I$ est minorée par $y$).
 
 	De plus, puisque $x<a$, par définition de la borne supérieure, il existe $z\in I$ tel que $x<z\leq a$.
 
 	Ainsi, il existe bien deux éléments $y$ et $z$ de $I$ tels que $y\leq x\leq z$.
-	\item Finalement, pour tout $x\in \interoo{-\infty{} a}$, il existe $y$ et $z$ dans $I$ tels que $y\leq x\leq z$, c'est-à-dire $x\in \interff{y z}$. Or, par propriété de $I$, $\interff{y z}\subset I$, et donc $x\in I$.
+	\item Finalement, pour tout $x\in \left]-\infty,\,a\right[$, il existe $y$ et $z$ dans $I$ tels que $y\leq x\leq z$, c'est-à-dire $x\in \left[y,\,z\right]$. Or, par propriété de $I$, $\left[y,\,z\right]\subset I$, et donc $x\in I$.
 
-	On a ainsi démontré que \[ \forall x\in \interoo{-\infty{} a},\quad x\in I \iff \interoo{-\infty{} a}\subset I. \]
-	Avec les deux inclusions démontrées en a) et c), on peut en déduire que $I=\interoo{-\infty{} a}$ ou $I=\interof{-\infty{} a}$ : $I$ est bien un intervalle.
+	On a ainsi démontré que \[ \forall x\in \left]-\infty,\,a\right[,\quad x\in I \iff \left]-\infty,\,a\right[\subset I. \]
+	Avec les deux inclusions démontrées en a) et c), on peut en déduire que $I=\left]-\infty,\,a\right[$ ou $I=\left]-\infty,\,a\right]$ : $I$ est bien un intervalle.
 	\end{enumerate}
 }
 \question{Traiter de même les trois autres cas.}

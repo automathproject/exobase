@@ -19,7 +19,7 @@
 		\item $M$ l'ensemble des suites réelles majorées.
 		\item $B$ l'ensemble des suites réelles bornées.
 		\item $L$ l'ensemble des suites réelles convergentes.
-		\item Pour tout $k\in \Z$, $L_k$ l'ensemble des suites réelles qui convergent vers un réel de $\interfo{k k+1}$.
+		\item Pour tout $k\in \Z$, $L_k$ l'ensemble des suites réelles qui convergent vers un réel de $\left[k,\,k+1\right[$.
 		\item $C$ l'ensemble des suites réelles croissantes.
 		\item $G$ l'ensemble des suites géométriques.
 	\end{itemize}}
@@ -29,7 +29,7 @@
 	M&=\left \{ (u_n) ,\quad \exists M \in \R,\, \forall~n,\, u_n\leq M \right \} \\
 	B&=\left \{ (u_n) ,\quad \exists M \in \R^+,\, \forall~n,\, |u_n|\leq M \right \} \\
 	L&=\left \{ (u_n) ,\quad \exists \ell \in \R,\, \lim u_n= \ell \right \} \\
-	\forall k\in \Z,\quad L_k&=\left \{ (u_n) ,\quad \exists \ell \in \interfo{k k+1},\, \lim u_n= \ell \right \} 		\\
+	\forall k\in \Z,\quad L_k&=\left \{ (u_n) ,\quad \exists \ell \in \left[k,\,k+1\right[,\, \lim u_n= \ell \right \} 		\\
 	C&=\left \{ (u_n) ,\quad \forall~n\in \N,\, u_{n}\leq u_{n+1} \right \} 	\\
 	G&=\left \{ (u_n) ,\quad \exists q \in \R,\, \forall~n\in \N,\, u_{n+1}=qu_n \right \}\\
 	\overline{L}&= \left \{ (u_n) ,\quad \forall \ell \in \R,\, \lim u_n\neq \ell \right \} 
@@ -45,13 +45,13 @@ Les inclusions sont immédiates (une suite bornée est majorée, une suite conve
 }
 \question{Décrire $L\cap G$.}
 \reponse{
-$L\cap G$ est composée des suites géométriques qui convergent dans $\R$. D'après le cours, il s'agit des suites géométriques de raison $q\in \interof{0 1}$.
+$L\cap G$ est composée des suites géométriques qui convergent dans $\R$. D'après le cours, il s'agit des suites géométriques de raison $q\in \left]0,\,1\right]$.
 }
 \question{Montrer que $(L_k)_{k\in \Z}$ est une famille de partie non vides de $F$ qui sont deux à deux disjoints, et dont l'union est $L$.}
 \reponse{Par définition et unicité de la limite, les $(L_k)$ sont deux à deux disjoints. Elles sont non vides (les suites constantes égales à $k$, avec $k\in \Z$, convergent vers $k$). Intuivivement, \[ L = \bigcup_{k\in \Z} L_k \]
 	On le montre par double inclusion.\\
 	Si $u \in L_k$ alors la suite converge donc $u\in L$. Ainsi, \[ L \supset  \bigcup_{k\in \Z} L_k \]
-	Réciproquement, soit $u\in L$. Puisque $u$ converge, notons $\ell$ sa limite. Par définition, en notant $k=\lfloor \ell \rfloor$, $\ell \in \interfo{k k+1}$ et donc $u \in L_{\lfloor \ell \rfloor}$. On a bien l'autre inclusion.}
+	Réciproquement, soit $u\in L$. Puisque $u$ converge, notons $\ell$ sa limite. Par définition, en notant $k=\lfloor \ell \rfloor$, $\ell \in \left[k,\,k+1\right[$ et donc $u \in L_{\lfloor \ell \rfloor}$. On a bien l'autre inclusion.}
 }
 
 %%% Fin exercice %%%
