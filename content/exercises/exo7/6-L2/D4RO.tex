@@ -24,7 +24,7 @@
 \reponse{
 Les expressions $x(t)=\cos^3t$ et $y(t)=\sin^3t$ sont bien définies pour tout $t\in\R$.
 \begin{itemize}
-Réduction de l'intervalle d'étude\\
+\item Réduction de l'intervalle d'étude\\
 Les fonctions $x$ et $y$ étant $2\pi$-périodiques, il suffit de restreindre l'étude à un intervalle de longueur $2\pi$ pour obtenir l'intégralité du support de la courbe.\\
 
 La fonction $x$ est paire, la fonction $y$ est impaire: on fait donc l'étude sur $[0;\pi]$, puis la courbe complète sera obtenue par symétrie par rapport à l'axe $(Ox)$.\\
@@ -32,7 +32,7 @@ La fonction $x$ est paire, la fonction $y$ est impaire: on fait donc l'étude su
 On constate que $x(\pi-t)=-x(t)$ et que $y(\pi-t)=y(t)$, par conséquent les points $M(\frac{\pi}{2}-t)$ et $M(\frac{\pi}{2}+t)$ sont symétriques par rapport à l'axe $(Oy)$: on restreint donc l'étude à $[0;\frac{\pi}{2}]$, puis on complète par symétrie par rapport à $(Oy)$.\\
 \fbox{Finalement, on fait l'étude sur $[0;\frac{\pi}{2}]$} puis on complète
 en utilisant successivement les symétries par rapport à $(Oy)$ et $(Ox)$.
-Tableau de variations conjointes\\
+\item Tableau de variations conjointes\\
 Les fonctions $x$ et $y$ sont de classe $\mathcal{C}^1$. Soit $t\in[0;\frac{\pi}{2}]$:
 $$\begin{array}{lcl}
 x(t)=\cos^3t&\ &y(t)=\sin^3t\\
@@ -54,16 +54,16 @@ y'(t)&0&+&0\\
 
 Cela signifie que lorsque $t$ varie de $0$ à $\frac\pi2$ la courbe va vers la gauche (car $x(t)$ décroît)
 en montant (car $y(t)$ croît) du point $(1,0)$ à $(0,1)$.
-Points particuliers\\
+\item Points particuliers\\
   \begin{itemize}
-$M(\frac\pi6) = \big(\frac{3\sqrt3}{8},\frac18\big) = (0.64\ldots,0.125) $ ; 
+\item $M(\frac\pi6) = \big(\frac{3\sqrt3}{8},\frac18\big) = (0.64\ldots,0.125) $ ; 
     la tangente est dirigée par $\big(x'(\frac\pi6),y'(\frac\pi6)\big) = \big(-\frac98,\frac{3\sqrt3}{8} \big) = (-1.125,0.64\ldots)$.
-$M(\frac\pi4) = \big(\frac{\sqrt2}{4},\frac{\sqrt2}{4}\big) = (0.35\ldots,0.35\ldots)$ ; 
+\item $M(\frac\pi4) = \big(\frac{\sqrt2}{4},\frac{\sqrt2}{4}\big) = (0.35\ldots,0.35\ldots)$ ; 
     la tangente est dirigée par $\big(x'(\frac\pi4),y'(\frac\pi4)\big) = \big(-\frac{3\sqrt2}{4},\frac{3\sqrt2}{4}\big) = (-1.06\ldots,1.06\ldots)$.
-$M(\frac\pi3) =  \big(\frac18,\frac{3\sqrt3}{8}\big) = (0.125,0.64\ldots)$ ;
+\item $M(\frac\pi3) =  \big(\frac18,\frac{3\sqrt3}{8}\big) = (0.125,0.64\ldots)$ ;
     la tangente est dirigée par $\big(x'(\frac\pi3),y'(\frac\pi3)\big) = \big(-\frac{3\sqrt3}{8},\frac98\big) = (-0.64\ldots,1.125)$. 
   \end{itemize}
-\'Etude des points singuliers\\
+\item \'Etude des points singuliers\\
 Le point $M(t)$ est singulier si $x'(t)=y'(t)=0$, ce qui est le cas dans le domaine d'étude $[0;\frac{\pi}{2}]$ uniquement pour $t=0$ et $t=\frac{\pi}{2}$. Pour déterminer la tangente au point $M(0)$ (de coordonnées cartésiennes $(1,0)$), on étudie la limite en 0 de 
 $$\frac{y(t)-y(0)}{x(t)-x(0)}=\frac{\sin^3t}{\cos^3t-1}$$ 
 Or $\sin^3t\underset{0}{\sim}t^3$ et $\cos^3t-1=(1-\frac{t^2}{2}+o(t^2))^3-1\underset{0}{\sim}-3\frac{t^2}{2}$, donc le quotient est équivalent à $-\frac{2}{3}t$ et tend vers 0 en 0. Ainsi, $\mathcal{C}$ admet au point $M(0)$ une tangente, de pente nulle c'est-à-dire horizontale.
@@ -109,9 +109,9 @@ Or $\sin^3t\underset{0}{\sim}t^3$ et $\cos^3t-1=(1-\frac{t^2}{2}+o(t^2))^3-1\und
 \end{center}
 Les expressions $x(t)=t-\tanh t$ et $y(t)=\frac{1}{\ch t}$ sont bien définies pour tout $t\in\R$.
 \begin{itemize}
-Réduction du domaine d'étude\\
+\item Réduction du domaine d'étude\\
 Comme $x$ est impaire et $y$ paire, \fbox{on restreint l'étude à $\R^+$} puis on complète par symétrie par rapport à l'axe $(Oy)$.
-Tableau de variations conjointes\\
+\item Tableau de variations conjointes\\
 Les fonctions $x$ et $y$ sont de classe $\mathcal{C}^1$. Pour $t\in\R^+$:
 $$\begin{array}{lcl}
 x(t)=t-\tanh t&\ &y(t)=\frac{1}{\ch t}\\
@@ -131,11 +131,11 @@ y&\ &\searrow &\ \\
 y'(t)&0& - &\ \\
 \end{array}$$
 Cela signifie que le courbe va vers la droite et vers le bas lorsque $t$ va de $0$ à $+\infty$.
-\'Etude des points singuliers\\
+\item \'Etude des points singuliers\\
 Le seul point singulier est $M(0)$, or $\displaystyle \frac{y(t)-y(0)}{x(t)-x(0)}=\frac{1-\ch t}{t\ch t-\mathrm{sh t}}$ et 
 $$\frac{1-\ch t}{t\ch t-\mathrm{sh t}}=\frac{-t^2/2+o(t^2)}{t(1+t^2/2+o(t^2))-(t+t^3/6+o(t^3))}\underset{0}{\sim}\frac{-t^2/2}{t^3/3}$$ 
 et par conséquent $\frac{y(t)-y(0)}{x(t)-x(0)}\xrightarrow[t\to 0^+]{}-\infty$. Ainsi $\mathcal{C}$ possède une tangente verticale au point $M(0)$ de coordonnées cartésiennes $(0,1)$.
-\'Etude des branches infinies\\
+\item \'Etude des branches infinies\\
 Comme $x(t)\xrightarrow[t\to+\infty]{}+\infty$ et $y(t)\xrightarrow[t\to+\infty]{}0$, l'axe des abscisses est asymptote à $\mathcal{C}$.
 \end{itemize}
 
@@ -163,7 +163,7 @@ Comme $x(t)\xrightarrow[t\to+\infty]{}+\infty$ et $y(t)\xrightarrow[t\to+\infty]
 \end{center}
 Les expressions $x(t)=t-\sin t$ et $y(t)=1-\cos t$ sont bien définies pour $t\in\R$.
 \begin{itemize}
-Réduction du domaine d'étude\\
+\item Réduction du domaine d'étude\\
 On remarque que $x(t+2\pi)=2\pi+x(t)$ et $y(t+2\pi)=y(t)$: le point $M(t+2\pi)$ 
 se déduit de $M(t)$ par translation de vecteur $2\pi\cdot\vec{i}$. 
 Il suffit donc d'étudier la courbe sur l'intervalle $[-\pi;\pi]$.
@@ -173,7 +173,7 @@ puis on complète par symétrie par rapport à l'axe $(Oy)$. \\
 \fbox{Finalement, on fait l'étude sur $[0;\pi]$} puis on complète
 en utilisant successivement la symétrie par rapport à $(Oy)$, puis des translations successives 
 de vecteur $2\pi\cdot\vec{i}$.
-Tableau de variations conjointes\\
+\item Tableau de variations conjointes\\
 Les fonctions $x$ et $y$ sont de classe $\mathcal{C}^1$. Soit $t\in[0;\pi]$:
 $$\begin{array}{lcl}
 x(t)=t-\sin t&\ &y(t)=1-\cos t\\
@@ -193,7 +193,7 @@ y&\ &\nearrow &\ \\
 y'(t)&0& + &0\ \\
 \end{array}$$
 La courbe va vers la droite en montant lorsque $t$ varie de $0$ à $\frac\pi2$.
-\'Etude des points singuliers\\
+\item \'Etude des points singuliers\\
 Le point $M(0)$, qui est l'origine, est singulier. Pour étudier l'existence d'une tangente en ce point, on considère
 $$\frac{y(t)-y(0)}{x(t)-x(0)}=\frac{1-\cos t}{t-\sin t}\underset{0}{\sim}\frac{t^2/2}{t^3/6}$$
 et donc $\frac{y(t)-y(0)}{x(t)-x(0)}\xrightarrow[t\to 0^+]{}+\infty$. Par conséquent, la courbe possède une tangente de pente verticale au point $M(0)$.

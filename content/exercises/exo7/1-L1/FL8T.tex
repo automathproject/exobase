@@ -30,10 +30,10 @@ et donc $\frac{1}{(2i)^{n-1}}\prod_{k=1}^{n-1}e^{ik\pi/n}=\frac{1}{2^{n-1}}$.
 Il reste à calculer $\prod_{k=1}^{n-1}(1-e^{-2ik\pi/n})$.
 
 \begin{itemize}
-[\textbf{1ère solution.}]
+\item[\textbf{1ère solution.}]
 Les $e^{-2ik\pi/n}$, $1\leq k\leq n-1$, sont les $n-1$ racines $n$-ièmes de $1$ distinctes de $1$ et puisque 
 $X^n-1=(X-1)(1+X+...+X^{n-1})$, ce sont donc les $n-1$ racines deux deux distinctes du polynôme $1+X+...+X^{n-1}$. Par suite, $1+X+...+X^{n-1}=\prod_{k=1}^{n-1}(X-e^{-2ik\pi/n})$, et en particulier $\prod_{k=1}^{n-1}(1-e^{-2ik\pi/n})=1+1...+1=n$.
-[\textbf{2ème solution.}]
+\item[\textbf{2ème solution.}]
 Pour $1\leq k\leq n-1$, posons $z_k=1-e^{-2ik\pi/n}$. Les $z_k$ sont deux à deux distincts et racines du polynôme 
 $P=(1-X)^n-1=-X+...+(-1)^nX^n=X(-n+X-...+(-1)^nX^{n-1})$. Maintenant, $z_k=0\Leftrightarrow e^{-2ik\pi/n}=1\leq k\in n\Zz$ (ce qui n'est pas pour $1\leq k\leq n-1$). Donc, les $z_k$, $1\leq k\leq n-1$, sont $n-1$ racines deux à deux distinctes du polynôme de degré $n-1$~:~$-n+X-...+(-1)^nX^{n-1}$. Ce sont ainsi toutes les racines de ce polynôme ou encore
 
@@ -77,7 +77,7 @@ Pour $1\leq k\leq n$, posons $\omega_k=e^{2i(a+k\pi/n)}$ puis $z_k=\frac{\omega_
 Puisque $z_k=\frac{\omega_k-1}{\omega_k+1}$, on a $\omega_k(1-z_k)=1+z_k$ et donc, pour $1\leq k\leq n$, $\omega_k^n(1-z_k)^n=(1+z_k)^n$ ou encore, les $z_k$ sont racines du polynôme $P=(1+X)^n-e^{2ina}(1-X)^n$. Maintenant, les $a+\frac{k\pi}{n}$ sont dans $[a,a+\pi[$ et donc deux à deux distincts puisque la fonction tangente est injective sur tout intervalle de cette forme.
 
 \begin{itemize}
-[1er cas.] Si $e^{2ina}\neq(-1)^n$ alors $P$ est de degré $n$ et $P=(1-(-1)^ne^{2ina})\prod_{k=1}^{n}(X-z_k)$. En évaluant en $0$, on obtient
+\item[1er cas.] Si $e^{2ina}\neq(-1)^n$ alors $P$ est de degré $n$ et $P=(1-(-1)^ne^{2ina})\prod_{k=1}^{n}(X-z_k)$. En évaluant en $0$, on obtient
 
 $$(1-(-1)^ne^{2ina})\prod_{k=1}^{n}(-z_k)=1-e^{2ina}.$$
 
@@ -90,7 +90,7 @@ Finalement, $c_n=(-1)^n\frac{\sin(na)}{\sin(n(a-\frac{\pi}{2}))}$.
 Si $n$ est pair, posons $n=2p$, $p\in\Nn^*$. $c_n=c_{2p}=\frac{\sin(2pa)}{\sin (2pa-p\pi)}=(-1)^p$.
 
 Si $n$ est impair, posons $n=2p+1$. $c_n=c_{2p+1}=(-1)^p\tan((2p+1)a)$.
-[2ème cas.] Si $e^{2ina}=(-1)^n$, alors $2na\in n\pi+2\pi\Zz$ ou encore $a\in\frac{\pi}{2}+\pi\Zz$. Dans ce cas, $c_n$ n'est pas défini.
+\item[2ème cas.] Si $e^{2ina}=(-1)^n$, alors $2na\in n\pi+2\pi\Zz$ ou encore $a\in\frac{\pi}{2}+\pi\Zz$. Dans ce cas, $c_n$ n'est pas défini.
 \end{itemize}
 }
 }

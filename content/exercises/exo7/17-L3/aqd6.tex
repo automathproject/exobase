@@ -39,19 +39,19 @@ $(\tilde{A}_kv,v)=(\tilde{A}_{k+1}v',v') +\frac{1}{a_{kk}^k} [(\sum_{i=k+1}^n a_
 $$(\tilde{A}_{k+1}v',v') +\frac{1}{a_{kk}^k} [a_kk^kv_k +\sum_{i=k+1}^na_{ik}^kv_i]^2$$
 Faisons un raisonnement par r\'ecurrence
 \begin{itemize}
-$\tilde{A}_1$ est sym\'etrique d\'efinie positive;
-Par hypoth\`ese supposons que $\tilde{A}_k$ est d\'efinie positive;
-Supposons par absurde que $\tilde{A}_{k+1}$ ne soit pas d\'efinie positive: alors $\exists v'\neq 0:\quad (\tilde{A}_{k+1}v',v')\leq 0$. On d\'efinit le vecteur $v\in\Rr^{n-k+1}$ par:
+\item $\tilde{A}_1$ est sym\'etrique d\'efinie positive;
+\item Par hypoth\`ese supposons que $\tilde{A}_k$ est d\'efinie positive;
+\item Supposons par absurde que $\tilde{A}_{k+1}$ ne soit pas d\'efinie positive: alors $\exists v'\neq 0:\quad (\tilde{A}_{k+1}v',v')\leq 0$. On d\'efinit le vecteur $v\in\Rr^{n-k+1}$ par:
 \begin{itemize}
-$v_i=v'_i,\quad k+1\leq i\leq n$
-$v_k$ est solution de $a_{kk}^k +\sum_{i=k+1}^n a_{ik}^k v_i=0$
+\item $v_i=v'_i,\quad k+1\leq i\leq n$
+\item $v_k$ est solution de $a_{kk}^k +\sum_{i=k+1}^n a_{ik}^k v_i=0$
 \end{itemize}
 Alors $(\tilde{A}_kv,v)=0$ et $v\neq 0$; donc $\tilde{A}_k$ n'est pas d\'efinie positive, ce qui contredit l'hypoth\`ese de r\'ecurrence.
 \end{itemize}
 Premi\`ere in\'egalit\'e: en utilisant la relation d'\'elimination on obtient: $a_{ii}^{k+1}=a_{ii}^k -\frac{\left|a_{ki}^k\right|^2}{a_{kk}^2}$
 \begin{itemize}
-une matrice d\'efinie positive a tous ses \'el\'ements diagonaux strictement positifs, donc $a_{ii}^{k+1}>0$
-$\left|a_{ki}^k\right|^2/\left|a_{kk}^k\right|^2 \geq 0, \quad k+1\leq i\leq n$
+\item une matrice d\'efinie positive a tous ses \'el\'ements diagonaux strictement positifs, donc $a_{ii}^{k+1}>0$
+\item $\left|a_{ki}^k\right|^2/\left|a_{kk}^k\right|^2 \geq 0, \quad k+1\leq i\leq n$
 \end{itemize}
 donc $a_{ii}^{k+1}\leq a_{ii}^k, k+1\geq i$
 

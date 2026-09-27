@@ -29,8 +29,8 @@ Soit l'hypoth\`ese de r\'ecurrence :
 $$(\mathcal{H}_n) : \quad x_n >3.$$
 
 \begin{itemize}
-[$\bullet$] La proposition $\mathcal{H}_0$ est vraie car $x_0 = 4 > 3$.
-[$\bullet$] Soit $n\geq 0$, supposons $\mathcal{H}_n$ vraie et montrons
+\item[$\bullet$] La proposition $\mathcal{H}_0$ est vraie car $x_0 = 4 > 3$.
+\item[$\bullet$] Soit $n\geq 0$, supposons $\mathcal{H}_n$ vraie et montrons
 que $\mathcal{H}_{n+1}$ est alors vraie.
 
 $$x_{n+1}-3 = \frac{2{x_n}^2-3}{x_n+2}-3 = \frac{2{x_n}^2-3x_n-9}{x_n+2}.$$
@@ -38,7 +38,7 @@ Par hypoth\`ese de r\'ecurrence $x_n > 3$, donc $x_n+2 > 0$ et
 $2{x_n}^2-3x_n-9>0$ (ceci par \'etude de la fonction $x \mapsto
 2{x}^2-3x-9$ pour $x>3$). Donc $x_{n+1}-3 $ et $\mathcal{H}_{n+1}$
 est vraie.
-[$\bullet$] Nous avons montré
+\item[$\bullet$] Nous avons montré
 $$\forall n \in \Nn \quad \mathcal{H}_{n} \Rightarrow \mathcal{H}_{n+1}$$
 et comme $\mathcal{H}_{0}$ est vraie alors $\mathcal{H}_{n}$ est
 vraie quelque soit $n$. Ce qui termine la d\'emonstration.
@@ -53,8 +53,8 @@ Soit notre nouvelle l'hypoth\`ese de r\'ecurrence :
 $$(\mathcal{H}_n) \quad x_n >\left( \frac{3}{2}\right)^n+3.$$
 
 \begin{itemize}
-[$\bullet$] La proposition $\mathcal{H}_0$ est vraie.
-[$\bullet$] Soit $n\geq 0$, supposons que $\mathcal{H}_n$ vraie et montrons
+\item[$\bullet$] La proposition $\mathcal{H}_0$ est vraie.
+\item[$\bullet$] Soit $n\geq 0$, supposons que $\mathcal{H}_n$ vraie et montrons
 que $\mathcal{H}_{n+1}$ est v\'erifi\'ee.
 
 D'apr\`es la question pr\'ec\'edente $ x_{n+1}-3 >
@@ -63,7 +63,7 @@ D'apr\`es la question pr\'ec\'edente $ x_{n+1}-3 >
 in\'egalit\'es nous avons $ x_{n+1}-3 >
 \frac{3}{2}(\left(\frac{3}{2}\right)^n) =
 \left(\frac{3}{2}\right)^{n+1}$.
-[$\bullet$] Nous concluons en r\'esumant la situation :\\
+\item[$\bullet$] Nous concluons en r\'esumant la situation :\\
 $\mathcal{H}_{0}$ est vraie, et $\mathcal{H}_{n} \Rightarrow
 \mathcal{H}_{n+1}$ quelque soit $n$. Donc $\mathcal{H}_{n}$ est
 toujours vraie.

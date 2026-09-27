@@ -67,10 +67,10 @@ $$\Delta_n=a^n-a^{n-2}\sum_{i=1}^{n-1}{i^2}$$
 par récurrence sur $n\ge 2$.
 
 \begin{itemize}
-\textbf{Initialisation.} Pour $n=2$,
+\item \textbf{Initialisation.} Pour $n=2$,
 $\Delta_2=\begin{vmatrix}a&1\\1&a\end{vmatrix}=a^2-1$
 donc la formule est vraie.
-\textbf{Hérédité.} Supposons la formule vraie vraie au rang $n-1$,
+\item \textbf{Hérédité.} Supposons la formule vraie vraie au rang $n-1$,
 c'est-à-dire $\Delta_{n-1}=a^{n-1}-a^{n-3}\sum_{i=1}^{n-2}{i^2}$.
 Calculons $\Delta_n$ :
 \begin{align*}
@@ -81,7 +81,7 @@ Calculons $\Delta_n$ :
   & = a^n-a^{n-2}\sum_{i=1}^{n-1}{i^2}
 \end{align*}
 La formule est donc vraie au rang $n$.
-\textbf{Conclusion.} Par le principe de récurrence la formule est vraie
+\item \textbf{Conclusion.} Par le principe de récurrence la formule est vraie
 pour tout entier $n\ge 2$.
 \end{itemize}
 }

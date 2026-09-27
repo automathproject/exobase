@@ -27,6 +27,7 @@ $$\lim\limits_{x\rightarrow 0}\frac{x}{2+\sin \frac{1}{x}}
  \item Utiliser que $e^t-1 = t \cdot \mu(t)$, pour une certaine fonction $\mu$ qui vérifie $\mu(t) \to 1$ lorsque $t\to 0$.
 \end{enumerate}}
 \reponse{
+\begin{enumerate}
  \item Comme $-1 \le \sin \frac 1x \le +1$ alors $1 \le 2 + \sin \frac 1x \le +3$.
 Donc pour $x>0$, nous obtenons $\frac x3 \le \frac{x}{2+\sin \frac{1}{x}} \le x$.
 On obtient une inégalité similaire pour $x<0$.
@@ -58,5 +59,6 @@ Maintenant $\mu(x) \to 1$ donc $\ln \mu(x) \to 0$, et $\ln x \to - \infty$ lorsq
 Donc $\frac{\ln \mu(x)}{\ln x} \to 0$.
 Cela donne 
 $$\lim\limits_{x\rightarrow 0^{+}}x^{\frac{1}{\ln (e^{x}-1)}} = \lim\limits_{x\rightarrow 0^{+}} \exp\left( \frac{1}{1 + \frac{\ln \mu(x)}{\ln x}} \right) = \exp\left(1\right) = e.$$
+\end{enumerate}
 }
 }

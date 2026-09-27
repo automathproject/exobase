@@ -32,13 +32,13 @@ $(P-Q)(2\cos\theta)=0$. Le polynôme $P-Q$ a une infinité
 de racines, donc il est nul, ce qui montre $P=Q$.
 Montrons l'existence de $P$ par récurrence forte sur $n$:
   \begin{itemize}
-Pour $n=0$, $P=2$ convient et pour $n=1$, $P=X$ convient.
-Passage des rangs $k\le n$ au rang $n+1$. 
+\item Pour $n=0$, $P=2$ convient et pour $n=1$, $P=X$ convient.
+\item Passage des rangs $k\le n$ au rang $n+1$. 
     Si on note $P_k$ le polynôme construit pour $k\le n$, on a 
 $$z^{n+1}+\frac{1}{z^{n+1}}=(z+\frac{1}{z})(z^n+\frac{1}{z^n})-(z^{n-1}+\frac{1}{z^{n-1}})
 =(z+\frac{1}{z})P_n(z+\frac{1}{z})-P_{n-1}(z+\frac{1}{z})$$
 donc $P_{n+1}(X)=XP_n(X)-P_{n-1}(X)$ convient.
-On a ainsi construit $P_n$ pour tout $n$ (avec $\deg P_n =n$). 
+\item On a ainsi construit $P_n$ pour tout $n$ (avec $\deg P_n =n$). 
   \end{itemize}
 Fixons $n$ et notons $P$ le polynôme obtenu.
   Pour tout $\theta\in\R$, $P(e^{i\theta}+e^{-i\theta})=e^{in\theta}+e^{-in\theta}$ 

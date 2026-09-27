@@ -80,10 +80,10 @@ Montrons en effet que $\Qq[x]/(x^{2}+1)\simeq\Qq[i]$~: l'application
 $\phi:\Qq[x]/(x^{2}+1)\to \Qq[i]$ définie par $\bar P\mapsto P(i)$ est un
 morphisme d'anneau.
 \begin{itemize}
-injectivité~:
+\item injectivité~:
   Soit $\bar{P}\in\ker\phi$. Alors $P(i)=0$. Comme $P$ est à coefficient
   rationnels donc réels, $-i$ est aussi raine de $P$. Donc $x^{2}+1|P$.
-surjectivité~:
+\item surjectivité~:
   Soit $z=a+ib\in\Qq[i]$. Alors $z=\phi(ax+b)$.
 \end{itemize}
 
@@ -94,7 +94,7 @@ morphisme $\phi~:\Qq[x]/(x^{4}+1)\to\Qq[e^{i\pi/4}]$ défini par
 $\phi(\bar P)=P(e^{i\pi/4})$. $\phi$ est bien définie, c'est un morphisme
 d'anneau.
 \begin{itemize}
-injectivité~:
+\item injectivité~:
   Soit $\bar{P}\in\ker\phi$. Alors $P(e^{i\pi/4})=0$. Par ailleurs
   $X^{4}+1$ est \emph{irréductible} dans $\Qq$~: sa factorisation sur
   $\Rr$ est $(x^{2}+\sqrt{2}x+1)(x^{2}-\sqrt{2}x+1)$, et aucun de ces
@@ -103,7 +103,7 @@ injectivité~:
   Il existerait donc $U,V\in\Qq[x]$, $UP+V(X^{4}+1)=1$. En évaluant en
   $x=e^{i\pi/4}$, on obtient une contradiction. Donc $X^{4}+1|P$. (cf.
   exexercice \ref{ex:bar9}).
-surjectivité~:
+\item surjectivité~:
   Soit $z=a+be^{i\pi/4}\in\Qq[e^{i\pi/4}]$. Alors $z=\phi(ax+b)$.
 \end{itemize}
 On a $K[x]/(f^{n}g^{m})\simeq K[x]/(f^{m})\times K[x]/(g^{m})$. On en
@@ -139,12 +139,12 @@ Les idéaux de $K[x]/(f^{n})$ sont les idéaux engendrés par les
    On a une flèche de $\mathcal{D}\to\mathcal{I}$, donnée par
    $d\mapsto(\bar{d})$.
    \begin{itemize}
-surjectivité
+\item surjectivité
      Soit $I\in\mathcal{I}$. $I$ est principal~: notons $I=(\bar{h})$.
      Soit $d=\pgcd(f,h)$, et $h_{1}$ le polynôme déterminé par
      $h=dh_{1}$. Alors $\pgcd(f,h_{1})=0$ et $h_{1}$ est inversible dans
      le quotient. On en déduit que $(\bar{h})=(\bar{d})=I$ (or $d\in\mathcal{D}$).
-injectivité
+\item injectivité
      Soit $d,d'\in\mathcal{D}$ tels que $(\bar{d})=(\bar{d'})$. On a
      alors $d=h_{1}d'+h_{2}f$ donc $d'|d$. De même, $d|d'$. On en déduit
      que $d\sim d'$.

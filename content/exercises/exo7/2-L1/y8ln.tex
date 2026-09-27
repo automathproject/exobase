@@ -94,14 +94,14 @@ Soient $n\in\Nn$ et $\theta\in\Rr$. Posons $C_n=\sum_{k=0}^{n}\cos(k\theta)$ et
 $S_n=\sum_{k=0}^{n}\sin(k\theta)$. Alors, d'après la formule de \textsc{Moivre},
 $$C_n+iS_n=\sum_{k=0}^{n}(\cos(k\theta)+i\sin(k\theta))=\sum_{k=0}^{n}e^{ik\theta}=\sum_{k=0}^{n}(e^{i\theta})^k.$$
 \begin{itemize}
-[\textbf{- 1er cas.}] Si $\theta\notin2\pi\Zz$, alors $e^{i\theta}\neq1$. Par suite,
+\item[\textbf{- 1er cas.}] Si $\theta\notin2\pi\Zz$, alors $e^{i\theta}\neq1$. Par suite,
 $$C_n+iS_n=\frac{1-e^{i(n+1)\theta}}{1-e^{i\theta}}=e^{i\theta(n+1-1)/2}\frac{-2i\sin\frac{(n+1)\theta}{2}}{-2i\sin
 \frac{\theta}{2}}=e^{in\theta/2}\frac{\sin\frac{(n+1)\theta}{2}}{\sin
 \frac{\theta}{2}}.$$
 Par suite,
 $$C_n=\Re(C_n+iS_n)=\frac{\cos\frac{n\theta}{2}\sin\frac{(n+1)\theta}{2}}{\sin\frac{\theta}{2}}\;\mbox{et}\;S_n=\Im(C_
 n+iS_n)=\frac{\sin\frac{n\theta}{2}\sin\frac{(n+1)\theta}{2}}{\sin\frac{\theta}{2}}.$$
-[\textbf{- 2ème cas.}] Si $\theta\in2\pi\Zz$, on a immédiatement $C_n=n+1$ et $S_n=0$.
+\item[\textbf{- 2ème cas.}] Si $\theta\in2\pi\Zz$, on a immédiatement $C_n=n+1$ et $S_n=0$.
 \end{itemize}
 Finalement,
 \begin{center}

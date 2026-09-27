@@ -24,14 +24,14 @@ donnés).}
 \reponse{
 Soient $n\in\Nn$ et $x\in\Rr$. Posons $S_n=\sum_{k=0}^{n}\cos(kx)$ et $S_n'=\sum_{k=0}^{n}\sin(kx)$.
 \begin{itemize}
-[\textbf{1ère solution.}]
+\item[\textbf{1ère solution.}]
 
 $$S_n+iS_n'=\sum_{k=0}^{n}(\cos(kx)+i\sin(kx))=\sum_{k=0}^{n}e^{ikx}=\sum_{k=0}^{n}(e^{ix})^k.$$
 Maintenant, $e^{ix}=1\Leftrightarrow x\in2\pi\Zz$. Donc,
 
 \begin{itemize}
-[\textbf{1er cas.}] Si $x\in2\pi\Zz$, on a immédiatement $S_n=n+1$ et $S_n'=0$.
-[\textbf{2ème cas.}] Si x$\notin2\pi\Zz$,
+\item[\textbf{1er cas.}] Si $x\in2\pi\Zz$, on a immédiatement $S_n=n+1$ et $S_n'=0$.
+\item[\textbf{2ème cas.}] Si x$\notin2\pi\Zz$,
 
 \begin{align*}
 S_n+iS_n'&=\frac{1-e^{i(n+1)x}}{1-e^{ix}}=\frac{e^{i(n+1)x/2}}{e^{ix/2}}\frac{e^{-i(n+1)x/2}-e^{i(n+1)x/2}}
@@ -62,7 +62,7 @@ $
 \end{center}
 
 \end{itemize}
-[\textbf{2ème solution.}]
+\item[\textbf{2ème solution.}]
 \begin{align*}
 2\sin\frac{x}{2}\sum_{k=0}^{n}\cos(kx)&=\sum_{k=0}^{n}2\sin\frac{x}{2}\cos(kx)=\sum_{k=0}^{n}(\sin(k+\frac{1}{2})x-\sin(
 k-\frac{1}{2})x)\\

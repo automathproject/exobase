@@ -36,16 +36,16 @@ $f$ est continue sur un intervalle ferm\'e et born\'e, donc elle est born\'ee
   et elle atteint ses bornes. Soit $x_0$ le r\'eel o\`u le maximum est atteint : 
 $f(x_0)=\sup_{a\leq x \leq b} f(x)$.
   \begin{itemize}
-si $x_0=a$, consid\'erons la suite $a_n=a+1/n$. Pour $n\geq
+\item si $x_0=a$, consid\'erons la suite $a_n=a+1/n$. Pour $n\geq
     \frac{1}{b-a}$ on a $a_n \in [a,b]$, donc on peut consid\'erer la suite
     $(f(a_n))_{n\geq \frac{1}{b-a}}$. Or $a_n$ tend vers $a$ quand $n$ tend
     vers $+\infty$, et comme $f$ est continue, ceci implique que $f(a_n)$ tend
     vers $f(a)$ quand $n$ tend    vers $+\infty$. Donc $\forall \epsilon>0,
     \exists n \in \N, f(x_0)-\epsilon \leq f(a_n) \leq f(x_0)$, ce qui
     implique que $f(x_0)=\sup_{a< x< b}    f(x)$.
-si $x_0=b$ on obtient le r\'esultat de mani\`ere identique en consid\'erant
+\item si $x_0=b$ on obtient le r\'esultat de mani\`ere identique en consid\'erant
     la suite $b_n=b-1/n$.
-si $a<x_0<b$ : $f(x_0)$ est major\'e par le sup de $f$ sur $]a,b[$, donc
+\item si $a<x_0<b$ : $f(x_0)$ est major\'e par le sup de $f$ sur $]a,b[$, donc
 $$f(x_0) \leq \sup_{a<x<b} f(x) \leq  \sup_{a\leq x \leq b} f(x)=f(x_0)$$
 donc $f(x_0) = \sup_{a<x<b} f(x)$.
   \end{itemize}

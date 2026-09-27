@@ -28,15 +28,15 @@ Si $f$ est linéaire et bornée sur la boule unité alors elle est continue
 Il reste à montrer que $f$ est linéaire : on a déjà 
 $f(x+y)=f(x)+f(y)$ pour tout $x,y$ reste donc à prouver $f(\lambda x) = \lambda f(x)$. Pour tout $\lambda \in \Rr$ et $x\in E$.
   \begin{itemize}
-Pour $\lambda \in \Zz$, c'est une récurrence, $f(2x) = f(x+x)= f(x)+f(x) = 2f(x)$. Puis $f(3x) = f(2x+x) =f(2x)+f(x)=2f(x)+f(x)=3f(x)$ etc.
+\item Pour $\lambda \in \Zz$, c'est une récurrence, $f(2x) = f(x+x)= f(x)+f(x) = 2f(x)$. Puis $f(3x) = f(2x+x) =f(2x)+f(x)=2f(x)+f(x)=3f(x)$ etc.
 Donc $f(nx) = nf(x)$ pour $n\in \Nn$.
 De plus $0=f(0)=f(x+(-x))=f(x)+f(-x)$ donc $f(-x)=-f(x)$.
 Ensuite on a $f(-nx) = -nf(x)$ pour $n \in \Nn$.
 Bilan : pour tout $\lambda \in \Zz$ on a $f(\lambda x) = \lambda f(x)$.
-Pour $\lambda \in \Qq$, soit $\lambda = \frac pq$, $p,q \in \Zz$.
+\item Pour $\lambda \in \Qq$, soit $\lambda = \frac pq$, $p,q \in \Zz$.
 $$f(\frac pq x) = pf(\frac 1 q x) = \frac pqq f(\frac x q) = \frac pq f(q \frac xq) = \frac pq f(x).$$
 Nous avons utilisé intensivement le premier point.
-Soit $\lambda \in \Rr$ alors il existe une suite $(\lambda_n)$ d'élément de $\Qq$ qui converge vers $\lambda$. Fixons $x\in E$.
+\item Soit $\lambda \in \Rr$ alors il existe une suite $(\lambda_n)$ d'élément de $\Qq$ qui converge vers $\lambda$. Fixons $x\in E$.
 $$f(\lambda x)-\lambda f (x) = f(\lambda x)-f(\lambda_nx)+f(\lambda_nx)-\lambda f(x)= f((\lambda-\lambda_n)x)+(\lambda_n-\lambda)f(x).$$
 Nous avons utilisé le second point.
 Soit $\epsilon \in \Qq_+^*$. Pour $n$ assez grand on a 

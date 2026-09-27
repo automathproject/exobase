@@ -26,7 +26,7 @@ Pour $f(x)=\sin^2x+\cos x$, le domaine de définition de $f$ est $\R$, et
 $f$ est de classe $\mathcal{C}^\infty$. On remarque que $f$ est $2\pi$-périodique et paire, 
 il suffit donc de faire l'étude de $f$ sur l'intervalle $[0;\pi]$. 
 \begin{itemize}
-Variations de $f$\\
+\item Variations de $f$\\
 Pour $x\in [0;\pi]$, $f'(x)=2\sin x\cos x-\sin x=\sin x(2\cos x-1)$ et donc $f'(x)=0$ 
 si et seulement si $x\in\{0;\frac{\pi}{3};\pi\}$. Comme $\sin x>0$ si $x\in]0;\pi[$, 
 pour étudier le signe de $f'(x)$, il suffit d'étudier le signe de $(2\cos x-1)$, et on obtient 
@@ -37,11 +37,11 @@ f'(x)&0&+&0&-&0\\\hline
 f&\ &\nearrow &\ &\searrow &\ \\
 \ &1 &\ &\ &\ &-1 \\
 \end{array}$$
-Tangentes horizontales\\
+\item Tangentes horizontales\\
 Le graphe de $f$ possède une tangente horizontale là où $f'$ s'annule, c'est-à-dire aux points de coordonnées $(0,1)$, $(\frac{\pi}{3},\frac{5}{4})$ et $(\pi,-1)$. En particulier, la tangente au point d'abscisse 0 est horizontale et a pour équation $y=1$. Pour déterminer la position de la courbe par rapport à sa tangente en ce point, on étudie le signe de $f(x)-1$ pour $x$ proche de 0:
 $$f(x)-1=\sin^2x-1+\cos x=-\cos^2x+\cos x=\cos x(1-\cos x)$$
 Cette expression est positive au voisinage de $0$ (et m\^eme $>0$ pour $x\not=0$ proche de $0$). La courbe est donc au-dessus de sa tangente.
-Points particuliers\\
+\item Points particuliers\\
 Le graphe de $f$ coupe l'axe des abscisses entre $0$ et $\pi$ en un unique point $x_0$, qu'on détermine en résolvant
 $$f(x)=0\Longleftrightarrow 1-\cos^2x+\cos x=0 \Longleftrightarrow X^2-X-1=0\ (X=\cos x)$$
 ce qui donne deux solutions pour $X$, mais une seule dans $[-1;1]$: $X=\frac{1-\sqrt{5}}{2}$ et donc 
@@ -88,18 +88,18 @@ puis sur $\R$ par $2\pi$-périodicité.
 \end{center}
 Pour $f(x)=x+\ln(1+e^x)$, le domaine de définition de $f$ est $\R$ et $f$ est de classe $\mathcal{C}^\infty$.
 \begin{itemize}
-Variations de $f$\\
+\item Variations de $f$\\
 Comme $f'(x)=1+\frac{e^x}{1+e^x}$, pour tout $x$, $f'(x)>1$. En particulier $f$ est strictement croissante sur $\R$.
-Allure du graphe en $+\infty$\\
+\item Allure du graphe en $+\infty$\\
 On a $f(x)\xrightarrow[x\to +\infty]{}+\infty$ et
 $$\frac{f(x)}{x}=1+\frac{\ln\big( e^x (e^{-x}+1)\big)}{x}=1+\frac{x+\ln(e^{-x}+1)}{x}\xrightarrow[x\to +\infty]{}2$$
 puis $f(x)-2x=\ln(e^{-x}+1)\xrightarrow[x\to +\infty]{}0^+$. Ainsi le graphe de $f$ a en $+\infty$ une asymptote, d'équation $y=2x$, et reste au-dessus de cette asymptote.
-Allure du graphe en $-\infty$\\
+\item Allure du graphe en $-\infty$\\
 On a $f(x)\xrightarrow[x\to -\infty]{}-\infty$ et
 $$\frac{f(x)}{x}=1+\frac{\ln(1+e^x)}{x}\xrightarrow[x\to -\infty]{}1$$
 puis $f(x)-x=\ln(1+e^{x})\xrightarrow[x\to -\infty]{}0^+$. Ainsi le graphe de $f$ 
 a en $-\infty$ une asymptote, d'équation $y=x$, et reste au-dessus de cette asymptote.
-Tangente au point d'abscisse $0$\\
+\item Tangente au point d'abscisse $0$\\
 L'équation de la tangente au graphe de $f$ au point d'abscisse $x_0$, 
 et la position du graphe par rapport à cette tangente, peuvent \^etre 
 obtenues simultanément à partir du développement limité de $f$ en $x_0$. 
