@@ -18,7 +18,7 @@
 Supposons $g\circ f$ injective. Soient $x$ et $x'$ deux éléments de $E$ tels que $f(x)=f(x')$. Alors, en appliquant $g$ : \[ g(f(x))=g(f(x')) \implies x=x' \]
 	puisque $g\circ f$ est injective. Ainsi, $f$ est bien injective.
 
-	En revanche, $g$ ne l'est pas forcément. Par exemple, $g:\R\to \R$, et $f:\R^+\to \R$, définie par $g:x\mapsto x^2$ et $f:x\mapsto \sqrt{x}$. $g\circ f:\R^+ \to \R$ est égale à $x\mapsto x$ sur $\R+$ et est donc injective. Or $g$ ne l'est pas.
+	En revanche, $g$ ne l'est pas forcément. Par exemple, $g:\R\to \R$, et $f:\R^+\to \R$, définie par $g:x\mapsto x^2$ et $f:x\mapsto \sqrt{x}$. $g\circ f:\R^+ \to \R$ est égale à $x\mapsto x$ sur $\R^+$ et est donc injective. Or $g$ ne l'est pas.
 	
 	Si $f$ est surjective, montrons que $g$ est injective. Soient $y,y'\in F^2$ tels que $g(y)=g(y')$. $f$ étant surjective, il existe $x,x'\in E^2$ tels que $y=f(x)$ et $y'=f(x')$. Mais alors
 	\[ g(y)=g(y') \implies g(f(x))=g(f(x'))\]
@@ -28,7 +28,7 @@ Supposons $g\circ f$ injective. Soient $x$ et $x'$ deux éléments de $E$ tels q
 \reponse{
 Supposons $g\circ f$ surjective. Montrons que $g$ est surjective : soit $y \in G$. $g\circ f$ étant surjective, il existe $x\in E$ tel que $g\circ f(x)=y$. Ce qu'on peut écrire $g(a) = y$ avec $a=f(x)$ : $g$ est bien surjective.
 	
-	En revanche, $f$ ne l'est pas forcément. Par exemple, prenons $f:R+\to R$ définie par $f(x)=\sqrt{x}$ et $g:\R\to \R^+$ définie par $g(x)=x^2$. $g\circ f:\R+ \to \R+$ est définie par $g\circ f(x)=x$ est surjective, mais $f$ ne l'est pas. 
+	En revanche, $f$ ne l'est pas forcément. Par exemple, prenons $f:R+\to R$ définie par $f(x)=\sqrt{x}$ et $g:\R\to \R^+$ définie par $g(x)=x^2$. $g\circ f:\R^+ \to \R^+$ est définie par $g\circ f(x)=x$ est surjective, mais $f$ ne l'est pas. 
 	
 	Si $g$ est injective, montrons que $f$ est surjective. Soit $y\in F$. $g(y)\in G$. $g\circ f$ étant surjective, il existe $x\in E$ tel que $g\circ f(x)=g(y)$, c'est-à-dire $g(f(x))=g(y)$. $g$ étant injective, $f(x)=y$ et on a bien prouvé que $f$ est surjective.
 }

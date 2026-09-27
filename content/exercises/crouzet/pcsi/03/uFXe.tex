@@ -22,7 +22,7 @@ Soit $n\in \N$. Par définition, $m=\left [ \dfrac{n}{2}\right ]$ est le plus gr
 	
 	Alors : 
 	\begin{align*}
-		\sum_{k=1}^n (-1)^k k &= \sum_{\substack{k\in \ll 1, n\rr\\k \text{ pair}}} (-1)^k k + \sum_{\substack{k\in \ll 1, n\rr\\k \text{ impair}}} (-1)^k k \\
+		\sum_{k=1}^n (-1)^k k &= \sum_{\substack{k\in \interent{1 n}\\k \text{ pair}}} (-1)^k k + \sum_{\substack{k\in \interent{1 n}\\k \text{ impair}}} (-1)^k k \\
 		&= \sum_{i=1}^{m} 2i - \sum_{i=0}^{p} \left(2i+1\right)\\
 		&= \left \{ {\def\arraystretch{2.2}\begin{array}{rcl} \sum\limits_{i=1}^m 2i - \sum\limits_{i=0}^{m-1} (2i+1)& \text{ si }& n\text{ est pair}\\\sum\limits_{i=1}^p 2i - \sum\limits_{i=0}^{p} (2i+1)& \text{ si }& n\text{ est impair}\end{array} } \right.\\
 		&= \left \{ {\def\arraystretch{2.2}\begin{array}{lcl} \sum\limits_{i=1}^{m-1} 2i + 2m - \left(1 + \sum\limits_{i=1}^{m-1} (2i+1)\right)& \text{ si }& n\text{ est pair}\\\sum\limits_{i=1}^p 2i - \left(1+\sum\limits_{i=1}^{p} (2i+1)\right)& \text{ si }& n\text{ est impair}\end{array} } \right.\\

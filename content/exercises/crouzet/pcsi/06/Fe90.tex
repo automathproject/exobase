@@ -14,8 +14,7 @@
 \contenu{
 \texte{Soit $f$ la fonction définie sur $\R$ par $f(x)=2\sin(x)+x$.}
 \question{Etudier $f$ sur $[-\pi;\pi]$.}
-\reponse{\begin{align*}
-$[-\pi;\pi]$ est symétrique par rapport à $0$. Pour tout réel $x\in [-\pi;\pi]$, on a \[f(-x)=2\sin(-x)-x=-2\sin(x)-x=-(2\sin(x)+x)=-f(x)\]
+\reponse{$[-\pi;\pi]$ est symétrique par rapport à $0$. Pour tout réel $x\in [-\pi;\pi]$, on a \[f(-x)=2\sin(-x)-x=-2\sin(x)-x=-(2\sin(x)+x)=-f(x)\]
 		$f$ est donc impaire. Etudions $f$ sur $[0;\pi]$. $f$ est dérivable comme somme de fonctions dérivables, et on a pour tout $x\in [0;\pi]$
 		\[ f'(x) = 2\cos(x)+1 \]
 		On a alors, sur $[0;\pi]$ :
@@ -26,23 +25,39 @@ $[-\pi;\pi]$ est symétrique par rapport à $0$. Pour tout réel $x\in [-\pi;\pi
 		\end{eqnarray*}
 		On obtient le tableau de variations suivant :
 		\begin{center}
-			\input{tab.ex4}
+			\begin{tikzpicture}
+				\tkzTabInit[lgt = 2, espcl = 3]{$x$ / 1 , $f'(x)$ / 1, var de $f$ / 2}{$0$, $\frac{2\pi}{3}$, $\pi$}
+				\tkzTabLine{, +, z, -, }
+				\tkzTabVar{-/ $0$, +/ $\sqrt{3}+\frac{2\pi}{3}$, -/ $\pi$}
+			\end{tikzpicture}
 		\end{center}
 		et par imparité :
 		\begin{center}
-			\input{tab.ex42}
-		\end{center}
-\end{align*}}
-\question{Montrer que la courbe de $f$ est invariante par translation de vecteur $\vv{u}\matrice{2\pi\\ 2\pi}$ (on montrera pour cela que pour tout réel $x$, $f(x+2\pi)=f(x)+2\pi$).}
+			\begin{tikzpicture}
+				\tkzTabInit[lgt = 2, espcl = 2.5]{$x$ / 1 , $f'(x)$ / 1, var de $f$ / 2}{$-\pi$, $-\frac{2\pi}{3}$, $0$, $\frac{2\pi}{3}$, $\pi$}
+				\tkzTabLine{, -, z, +, t, +, z, -, }
+				\tkzTabVar{+/ $-\pi$, -/ $-\sqrt{3}-\frac{2\pi}{3}$, R/ , +/ $\sqrt{3}+\frac{2\pi}{3}$, -/ $\pi$}
+				\tkzTabIma{2}{4}{3}{$0$}
+			\end{tikzpicture}
+		\end{center}}
+\question{Montrer que la courbe de $f$ est invariante par translation de vecteur $\overrightarrow{u}\matrice{2\pi\\ 2\pi}$ (on montrera pour cela que pour tout réel $x$, $f(x+2\pi)=f(x)+2\pi$).}
 \reponse{
 Pour tout réel $x$, on a \[ f(x+2\pi)=2\sin(x+2\pi)+x+2\pi=2\sin(x)+x+2\pi=f(x)+2\pi \]
-	 Ainsi, la courbe de $f$ est invariante par translation de vecteur $\vv{u}\matrice{2\pi\\2\pi}$.
+	 Ainsi, la courbe de $f$ est invariante par translation de vecteur $\overrightarrow{u}\matrice{2\pi\\2\pi}$.
 }
 \question{Représenter $f$ sur $[-2\pi; 4\pi]$.}
 \reponse{
 En utilisant le tableau de variations sur $[-\pi;\pi]$, puis par translation, on obtient la courbe suivante sur $[-2\pi;4\pi]$. 
 	 		\begin{center}
-				\input{fig.ex4}
+				\begin{tikzpicture}
+					\begin{axis}[axis lines = middle, width = 12cm, height = 9cm,
+						xmin = -7, xmax = 13.5, ymin = -9, ymax = 15,
+						xtick = {-6.2832, -3.1416, 3.1416, 6.2832, 9.4248, 12.5664},
+						xticklabels = {$-2\pi$, $-\pi$, $\pi$, $2\pi$, $3\pi$, $4\pi$},
+						xlabel = $x$, ylabel = $y$]
+						\addplot[thick, blue, domain = -2*pi:4*pi, samples = 300] {2*sin(deg(x)) + x};
+					\end{axis}
+				\end{tikzpicture}
 			\end{center}
 }
 \question{Déterminer les limites de $f$ en $+\infty$ et en $-\infty$.}

@@ -13,27 +13,24 @@
 \contenu{
 \texte{Soient $x$ et $y$ deux réels.}
 \question{Montrer que $xy \leq \dfrac{x^2+y^2}{2}$ avec égalité si et seulement si $x=y$.}
-\reponse{Soient $x$ et $y$ deux réels.
-\begin{enumerate}
-	\item On a
+\reponse{Soient $x$ et $y$ deux réels. On a
 \begin{align*}
 		\frac{x^2+y^2}{2}-xy &= \frac{x^2+y^2-2xy}{2} \\
 		&= \frac{(x-y)^2}{2} \geq 0
-	\end{align*}}
+	\end{align*}
+avec égalité si et seulement si $(x-y)^2=0$, c'est-à-dire $x=y$.}
 \question{Montrer que $(x+y)^2 \leq 2(x^2+y^2)$ avec égalité si et seulement si $x=y$.}
-\reponse{avec égalité si et seulement si $(x-y)^2=0$, c'est-à-dire $x=y$.
-	\item On a
+\reponse{On a
 \begin{align*}
 			2(x^2+y^2)-(x+y)^2 &= 2(x^2+y^2)-(x^2+2xy+y^2) \\
 			&= x^2+y^2-2xy = (x-y)^2
-	\end{align*}}
+	\end{align*}
+et on conclut de la même manière.}
 \question{On suppose désormais que $x$ et $y$ sont strictement positifs. Montrer que $\dfrac{x}{y}+\dfrac{y}{x}\geq 2$.}
-\reponse{et on conclut de la même manière.
-	\item Enfin, si $x$ et $y$ sont strictement positifs :
+\reponse{Si $x$ et $y$ sont strictement positifs :
 \begin{align*}
 		\frac{x}{y}+\frac{y}{x} - 2 &= \frac{x^2+y^2}{xy} - 2 \\
 		&= \frac{x^2+y^2-2xy}{xy} = \frac{(x-y)^2}{xy}
 	\end{align*}
-ce qui nous donne le résultat puisque $xy>0$ car $x$ et $y$ sont strictement positifs.
-\end{enumerate}}
+ce qui nous donne le résultat puisque $xy>0$ car $x$ et $y$ sont strictement positifs.}
 }

@@ -16,13 +16,13 @@ $ h_n=\ds{\sum_{k=1}^n \frac{1}{k}}$.}
 Pour tout $n\geq 1$, on a \[ h_{n+1}-h_n = \sum_{k=1}^{n+1} \frac1k - \sum_{k=1}^n \frac1k = \frac{1}{n+1}. \]
   La suite $(h_n)_{n\geq 1}$ est donc croissante, et admet donc une limite (finie ou infinie).
 }
-\question{Montrer que $h_{2n}-h_n\geq \frac{1}{2}$, pour tout $n\in\N*$.}
+\question{Montrer que $h_{2n}-h_n\geq \frac{1}{2}$, pour tout $n\in\N^*$.}
 \reponse{Pour tout $n\geq 1$ :
   \begin{align*}
      h_{2n} - h_n &= \sum_{k=1}^{2n} \frac1k - \sum_{k=1}^n \frac1k \\
      &= \sum_{k=n+1}^{2n} \frac1k
     \end{align*}
-    Remarquons que pour tout $k\in \interent{n+1 2n}$, on a, par décroissance de la fonction inverse sur $\R>$ :
+    Remarquons que pour tout $k\in \interent{n+1 2n}$, on a, par décroissance de la fonction inverse sur $\R_+^*$ :
     \[ n+1 \leq k \leq 2n \implies \frac{1}{2n} \leq \frac1k \leq \frac{1}{n+1}. \]
     Ainsi,
   \begin{align*}

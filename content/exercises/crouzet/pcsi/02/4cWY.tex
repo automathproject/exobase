@@ -13,8 +13,7 @@
 \contenu{
 \texte{Soient $x$ et $y$ deux réels.}
 \question{Calculer $\lfloor x\rfloor + \lfloor -x \rfloor$.}
-\reponse{\begin{align*}
-Remarquons que, si $x\in \Z$, alors $\lfloor x\rfloor + \lfloor -x\rfloor = x-x=0$.
+\reponse{Remarquons que, si $x\in \Z$, alors $\lfloor x\rfloor + \lfloor -x\rfloor = x-x=0$.
 \textbf{Première méthode} :  soit $x\notin \Z$. Par définition $\lfloor x \rfloor < x < \lfloor x\rfloor +1$, et donc \[ -\lfloor x \rfloor -1 < -x < -\lfloor x \rfloor. \]
 	c'est-à-dire $\lfloor -x \rfloor = -\lfloor x \rfloor -1$, par définition de la partie entière; dans ce cas $\lfloor x \rfloor + \lfloor -x \rfloor = -1$.
 \textbf{Deuxième méthode} : soit $x\notin \Z$. Par propriété de la partie entière :
@@ -22,8 +21,7 @@ Remarquons que, si $x\in \Z$, alors $\lfloor x\rfloor + \lfloor -x\rfloor = x-x=
 	En ajoutant ces inégalités
 	\[ -2 < \lfloor x \rfloor + \lfloor-x \rfloor < 0. \]
 	Or $\lfloor x\rfloor+\lfloor -x\rfloor \in \Z$. Le seul entier strictement compris entre $-2$ et $0$ étant $1$, on conclut que $\lfloor x\rfloor+\lfloor -x\rfloor=-1$.
-	\textbf{Bilan} : \[ \forall x\in \R, \lfloor x \rfloor +\lfloor -x\rfloor = \left \{ \begin{array}{lll} 0 & \text{si} & x\in \Z\\ -1 & \text{si}& x\notin \Z\end{array}\right.. \]
-\end{align*}}
+	\textbf{Bilan} : \[ \forall x\in \R, \lfloor x \rfloor +\lfloor -x\rfloor = \left \{ \begin{array}{lll} 0 & \text{si} & x\in \Z\\ -1 & \text{si}& x\notin \Z\end{array}\right.. \]}
 \question{Montrer que $\lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor \in \{0, 1\}$.}
 \reponse{
 On applique le même raisonnement :
@@ -35,10 +33,8 @@ On applique le même raisonnement :
 		Puisque $\lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor\in \Z$, on peut en déduire que \[ \lfloor x+y \rfloor - \lfloor x \rfloor - \lfloor y \rfloor \in \left \{ 0, 1\right \}. \]
 }
 \question{Montrer que pour tout entier $n\in \Z$, $\lfloor x+n \rfloor = \lfloor x \rfloor + n$.}
-\reponse{\begin{align*}
-Soit $n\in \Z$ et $x\in \R$. Puisque $\lfloor x\rfloor \leq x < \lfloor x\rfloor +1$, on a \[ \lfloor x\rfloor + n \leq x+n < \left(\lfloor x\rfloor +n \right)+1.\]
-		Puisque $\lfloor x\rfloor + n\in \Z$, par définition de la partie entière, \[ \lfloor x+n\rfloor = \lfloor x\rfloor + n.\]
-\end{align*}}
+\reponse{Soit $n\in \Z$ et $x\in \R$. Puisque $\lfloor x\rfloor \leq x < \lfloor x\rfloor +1$, on a \[ \lfloor x\rfloor + n \leq x+n < \left(\lfloor x\rfloor +n \right)+1.\]
+		Puisque $\lfloor x\rfloor + n\in \Z$, par définition de la partie entière, \[ \lfloor x+n\rfloor = \lfloor x\rfloor + n.\]}
 \question{Soit $n$ un entier naturel non nul. \`A quelle condition sur $x$ a-t-on $\lfloor nx \rfloor = n \lfloor x \rfloor$ ?}
 \reponse{
 Soit $x\in \R$ tel que $\lfloor nx\rfloor = n \lfloor x\rfloor$. Cela équivaut à écrire, puisque $n\lfloor x\rfloor \in \Z$,

@@ -13,18 +13,18 @@
 \contenu{
 \question{On note $E$ l'ensemble des suites $(u_n)$ géométriques, telles que $u_0\neq 0$.
 
-Montrer que l'application $f:E\to \R*\times \R$ définie par 
+Montrer que l'application $f:E\to \R^*\times \R$ définie par 
 \[ f( (u_n) ) = (u_0, u_1) \]
 est bijective.}
 \reponse{
 Soient deux suites $u$ et $v$ de $E$ tels que $f(u)=f(v)$. Par définition
 	\[ (u_0, u_1) = (v_0,v_1) \iff u_0=v_0\qeq u_1=v_1. \]
-	Remarquons donc que les suites $u$ et $v$ ont le même premier terme, mais également la même raison; en effet, puisque $u_0\in \R*$ et $v_0\in \R*$, on constate que 
+	Remarquons donc que les suites $u$ et $v$ ont le même premier terme, mais également la même raison; en effet, puisque $u_0\in \R^*$ et $v_0\in \R^*$, on constate que 
 	\[ \frac{v_1}{v_0} = \frac{u_1}{u_0}. \]
 	Ce quotient donnant la raison des suites géométriques, on peut conclure que $u$ et $v$ ayant même premier terme et même raison, elles sont égales.	
 	$f$ est donc injective.
 	
-	Elle est également surjective. Prenons deux réels $(a, b)\in \R*\times \R$. Posons la suite géométrique $u$ de premier terme $u_0=a\in \R*$ et de raison $q=\frac{b}{a}$ (qui a un sens car $a\neq 0$). Par construction, $u\in E$ et on a bien \[f(u) =(u_0, u_1) = (u_0, qu_0) = (a, b). \]
+	Elle est également surjective. Prenons deux réels $(a, b)\in \R^*\times \R$. Posons la suite géométrique $u$ de premier terme $u_0=a\in \R^*$ et de raison $q=\frac{b}{a}$ (qui a un sens car $a\neq 0$). Par construction, $u\in E$ et on a bien \[f(u) =(u_0, u_1) = (u_0, qu_0) = (a, b). \]
 	Finalement $f$ est bien surjective, et donc bijective.
 }
 \question{Soit $E$ un ensemble, $A, B$ deux sous-ensembles de $E$. Soit $f:\partie(E)\to \partie(A)\times \partie(B)$ définie par 
@@ -34,8 +34,7 @@ Soient deux suites $u$ et $v$ de $E$ tels que $f(u)=f(v)$. Par définition
 \item Montrer que $f$ est surjective si et seulement si $A\cap B = \vide$.
 \item \`A quelle condition sur $A$ et $B$ $f$ est-elle bijective ? Si tel est le cas, déterminer $f^{-1}$.
 \end{enumerate}}
-\reponse{\begin{align*}
-\begin{enumerate}
+\reponse{\begin{enumerate}
 	\item Soient $X$ et $Y$ tels que $f(X)=f(Y)$. Alors
 		\[ A\cap X = A\cap Y \qeq B\cap X=B\cap Y. \]
 		Si $A\cup B = E$, alors les résultats précédents donnent 
@@ -61,8 +60,7 @@ Soit alors $(Y,Z)\in \partie{A}\times \partie{\overline{A}}$. Alors
 \[ f(X) = (Y,Z) \iff A\cap X = Y \qeq \overline{A}\cap X = Z \iff X = Y \cup Z. \]
 Ainsi, 
 \[ \boxed{ f^{-1} : (Y,Z)\donne Y\cup Z.}\]
-	\end{enumerate}
-\end{align*}}
+	\end{enumerate}}
 }
 
 %%% Fin exercice %%%

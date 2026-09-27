@@ -13,21 +13,20 @@
 \titre{La différence symétrique}
 \contenu{
 \texte{{
-\newcommand{\DeltaB}{\,\Delta\,}
-Soit $E$ un ensemble. Pour toutes parties $A$ et $B$ de $E$, on note $A\DeltaB B=(A\setminus B)\cup(B\setminus A)$ la différence symétrique de $A$ et $B$.}
-\question{Déterminer $A\DeltaB A$ et $A\DeltaB \vide$.}
+Soit $E$ un ensemble. Pour toutes parties $A$ et $B$ de $E$, on note $A\,\Delta\, B=(A\setminus B)\cup(B\setminus A)$ la différence symétrique de $A$ et $B$.}
+\question{Déterminer $A\,\Delta\, A$ et $A\,\Delta\, \vide$.}
 \reponse{Par définition, $A\Delta A = \vide$ et $A\Delta \vide=A$.}
-\question{Montrer que $A\DeltaB B = (A\cup B)\setminus (A\cap B)$.}
+\question{Montrer que $A\,\Delta\, B = (A\cup B)\setminus (A\cap B)$.}
 \reponse{Procédons par double inclusion. \\Soit $x\in A\Delta B$. Alors $x\in A\setminus B$ ou $x\in B\setminus A$. Donc $x \in A$ ou $x\in B$ mais $x\notin A\cap B$, donc $x\in (A\cup B)\setminus (A\cap B)$.\\
 	Réciproquement, soit $x\in (A\cup B)\setminus (A\cap B)$. Alors, $x\in A\cup B$ donc soit $x\in A$ mais alors $x\notin A\cap B$ donc $x\notin B$, c'est-à-dire $x\in A\setminus B$; ou bien $x\in B$ mais alors $x\notin A$ et donc $x\in B\setminus A$. Dans tous les cas, $x\in A\Delta B$.}
-\question{Montrer que $\overline{A\DeltaB B} = (A\cap B) \cup (\overline{A\cup B})$.}
+\question{Montrer que $\overline{A\,\Delta\, B} = (A\cap B) \cup (\overline{A\cup B})$.}
 \reponse{Par définition de la différence, on a $A \Delta B = (A\cup B) \cap (\overline{A\cap B})$ d'après la question précédente. D'après les lois de de Morgan :
 	\begin{align*}
-		\overline{A \Delta B} &= \overline{(A\cup B) \cap ( \overline{A\cap B}) } \\
+		\overline{A~\Delta B} &= \overline{(A\cup B) \cap ( \overline{A\cap B}) } \\
 		&= \overline{A\cup B} \cup (\overline{\overline{A\cap B}}) \\
 		&= \overline{A\cup B} \cup (A\cap B)
 	\end{align*}}
-\question{Soit $D$ une partie de $A$. Montrer que $A\DeltaB B=A\DeltaB D$ si et seulement si $B=D$.
+\question{Soit $D$ une partie de $A$. Montrer que $A\,\Delta\, B=A\,\Delta\, D$ si et seulement si $B=D$.
 }}
 }
 
