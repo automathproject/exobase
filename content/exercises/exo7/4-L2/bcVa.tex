@@ -33,8 +33,8 @@ Le polyn\^ome caract\'eristique de $A$ admet une valeur propre triple $\lambda=1
 \reponse{{\it D\'eterminons les sous-espaces propres et caract\'eristiques de $A$.}
 
 La matrice $A$ admet une unique valeur propre $\lambda=1$ de multiplicit\'e $3$, le sous-espace propre associ\'e est l'espace $E_{1}=\ker(A-I)$, et on a
-$$(x,y,z)\in E_{1}\iff\left\{\begin{align*}x-y&=x \\  x-z&=y \\  -x+2z&=z\end{align*}\right.
-\iff\left\{\begin{align*}y&=0 \\  x&=z\end{align*}\right.$$
+$$(x,y,z)\in E_{1}\iff\left\{\begin{aligned}x-y&=x \\  x-z&=y \\  -x+2z&=z\end{aligned}\right.
+\iff\left\{\begin{aligned}y&=0 \\  x&=z\end{aligned}\right.$$
 Le sous-espace $E_{1}$ est la droite vectorielle engendr\'ee par le vecteur $(1,0,1)$.
 
 Le sous-espace caract\'eristique de $A$, associ\'e \`a l'unique valeur propre $\lambda=1$, est le sous-espace $N_{1}=\ker(A-I)^3$, or, compte tenu du th\'eor\`eme de Hamilton-Cayley, on sait que $P_A(A)=0$, ainsi, la matrice $(A-I)^3$ est la matrice nulle, ce qui implique $N_{1}=\R^3$, c'est donc l'espace tout entier.}
@@ -49,12 +49,12 @@ Le vecteur $e_1$ appartient \`a $E_1=\ker(A-I)$, et $\ker(A-I)$ est la droite d'
 $\{y=0,x=z\}$. On d\'etermine $e_2=(x,y,z)$ tel que
 $Ae_2=e_1+e_2$, on obtient le syst\`eme 
 $$\begin{pmatrix}1 & -1 & 0 \\  1&0&-1 \\ -1&0&2\end{pmatrix}\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\begin{pmatrix}1+x \\  1+y \\  z\end{pmatrix}\iff
-\left\{\begin{align*}x-y&=1+x \\  x-z&=y \\  -x+2z&=1+z\end{align*}\right.
-\iff\left\{\begin{align*}y&=-1 \\  x-z&=-1\end{align*}\right.$$
+\left\{\begin{aligned}x-y&=1+x \\  x-z&=y \\  -x+2z&=1+z\end{aligned}\right.
+\iff\left\{\begin{aligned}y&=-1 \\  x-z&=-1\end{aligned}\right.$$
 Ainsi, les vecteurs $e_1=(1,0,1)$ et $e_2=(-1,-1,0)$ conviennent. Il nous reste \`a chercher un vecteur $e_3$ tel que $Ae_3=e_2+e_3$, c'est-\`a-dire
 $$\begin{pmatrix}1 & -1 & 0 \\  1&0&-1 \\ -1&0&2\end{pmatrix}\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\begin{pmatrix}-1+x \\  -1+y \\  z\end{pmatrix}\iff
-\left\{\begin{align*}x-y&=x-1 \\  x-z&=y-1 \\  -x+2z&=z\end{align*}\right.
-\iff\left\{\begin{align*}y&=1 \\  x&=z\end{align*}\right.$$
+\left\{\begin{aligned}x-y&=x-1 \\  x-z&=y-1 \\  -x+2z&=z\end{aligned}\right.
+\iff\left\{\begin{aligned}y&=1 \\  x&=z\end{aligned}\right.$$
 Le vecteur $e_3=(0,1,0)$ convient. On obtient alors la matrice $P$ suivante qui est inversible et v\'erifie $A=PBP^{-1}$,
 $$P=\begin{pmatrix}1 & -1 & 0 \\  0&-1&1 \\ 1&0&0\end{pmatrix}$$}
     \item \question{Ecrire la d\'ecomposition de Dunford de $B$ (justifier).}

@@ -23,10 +23,10 @@ et $f$ l'endomorphisme de $\R^3$ associ\'e.
 \reponse{{\it Factorisons le polyn\^ome caract\'eristique de $A$}.
 
 Le polyn\^ome caract\'eristique de $A$ est le polyn\^ome 
-$$\begin{align*}P_A(X)=\begin{vmatrix}2-X&0&-1 \\ -1&1-X&1 \\  0&-1&-X\end{vmatrix}
+$$\begin{aligned}P_A(X)=\begin{vmatrix}2-X&0&-1 \\ -1&1-X&1 \\  0&-1&-X\end{vmatrix}
 &=(2-X)\begin{vmatrix}1-X&1 \\ -1&-X\end{vmatrix}-\begin{vmatrix}-1&1-X \\  0&-1\end{vmatrix} \\ 
 &=(2-X)(X^2-X+1)-1 \\ 
-&=-X^3+3X^2-3X+1=(1-X)^3\end{align*}$$}
+&=-X^3+3X^2-3X+1=(1-X)^3\end{aligned}$$}
     \item \question{D\'eterminer les sous-espaces propres et caract\'eristiques de $A$.}
 \reponse{{\it D\'eterminons les sous-espaces propres et caract\'eristiques de $A$}.
 
@@ -42,12 +42,12 @@ et trouver une matrice $P$ inversible telle que $A=PBP^{-1}$}.
 
 Le vecteur $\vec u_1$ v\'erifie $A\vec u_1=u_1$, on cherche un vecteur $\vec u_2=(x,y,z)$ tel que 
 $A\vec u_2=\vec u_1+\vec u_2$.
-$$\begin{align*}A\vec u_2=\vec u_1+\vec u_2&\iff\begin{pmatrix}2&0&-1 \\  -1&1&1 \\  0&-1&0\end{pmatrix}
+$$\begin{aligned}A\vec u_2=\vec u_1+\vec u_2&\iff\begin{pmatrix}2&0&-1 \\  -1&1&1 \\  0&-1&0\end{pmatrix}
 \begin{pmatrix}x \\  y \\  z\end{pmatrix}=\begin{pmatrix}1+x \\  -1+y \\  1+z\end{pmatrix} \\ 
-&\iff\begin{pmatrix}2x-z \\  -x+y+z \\  -y\end{pmatrix}=\begin{pmatrix}1+x \\  -1+y \\  1+z\end{pmatrix}\end{align*}$$
+&\iff\begin{pmatrix}2x-z \\  -x+y+z \\  -y\end{pmatrix}=\begin{pmatrix}1+x \\  -1+y \\  1+z\end{pmatrix}\end{aligned}$$
 On obtient donc $z-x=z+y=-1$, le vecteur $\vec u_2=(1,-1,0)$ convient. On cherche alors un vecteur $\vec u_3=(x,y,z)$ tel que $A\vec u_3=\vec u_2+\vec u_3$.
-$$\begin{align*}A\vec u_3=\vec u_2+\vec u_3\iff
-\begin{pmatrix}2x-z \\  -x+y+z \\  -y\end{pmatrix}=\begin{pmatrix}1+x \\ -1+y \\  z\end{pmatrix}\end{align*}$$
+$$\begin{aligned}A\vec u_3=\vec u_2+\vec u_3\iff
+\begin{pmatrix}2x-z \\  -x+y+z \\  -y\end{pmatrix}=\begin{pmatrix}1+x \\ -1+y \\  z\end{pmatrix}\end{aligned}$$
 on obtient alors $x+y=x-z=1$. Le vecteur $\vec u_3=(1,0,0)$ convient.
 Ainsi, dans la base $(\vec u_1, \vec u_2, \vec u_3)$ la matrice de $f$ est \'egale \`a $B$. La matrice $P$ cherch\'ee est 
 $$P=\begin{pmatrix}1& 1 & 1 \\ -1&-1&0 \\ 1&0&0\end{pmatrix},$$
@@ -74,12 +74,12 @@ o\`u $Y_0$ est un vecteur de $\R^3$.
 Int\'egrons alors le syst\`eme $X'=AX$. Remarquons que si $PY$ est solution de $X'=AX$, on a 
 $$(PY)'=A(PY)\iff PY'=APY\iff Y'=P^{-1}APY\iff Y'=BY$$
 ainsi $Y$ est solution de $Y'=BY$, la solution g\'en\'erale du syst\`eme $X'=AX$ s\'ecrit donc
-$$\begin{align*}X(t)=P(\exp tB)Y_0&=e^t\begin{pmatrix}1& 1 &1 \\  -1&-1&0 \\ 1&0&0\end{pmatrix}\begin{pmatrix}1&t&t^2/2 \\ 0&1&t \\ 0&0&1\end{pmatrix}Y_0 \\  &=e^t
-\begin{pmatrix}1& t+1& t^2/2+t+1 \\  -1&-t-1&-t^2/2-t \\  1&t&t^2/2\end{pmatrix}\begin{pmatrix}a \\  b \\  c\end{pmatrix}\end{align*}$$
+$$\begin{aligned}X(t)=P(\exp tB)Y_0&=e^t\begin{pmatrix}1& 1 &1 \\  -1&-1&0 \\ 1&0&0\end{pmatrix}\begin{pmatrix}1&t&t^2/2 \\ 0&1&t \\ 0&0&1\end{pmatrix}Y_0 \\  &=e^t
+\begin{pmatrix}1& t+1& t^2/2+t+1 \\  -1&-t-1&-t^2/2-t \\  1&t&t^2/2\end{pmatrix}\begin{pmatrix}a \\  b \\  c\end{pmatrix}\end{aligned}$$
 o\`u $Y_0=(a,b,c)$ est un vecteur de $\R^3$. Ou encore
-$$\left\{\begin{align*}
+$$\left\{\begin{aligned}
 x(t)&=e^t(a+b(t+1)+c(t^2/2+t+1)) \\  y(t)&=e^t(-a-b(t+1)-c(t^2/2+t)) \\  z(t)&=e^t(a+bt+ct^2/2)
-\end{align*}\right.$$ ou encore
+\end{aligned}\right.$$ ou encore
 
 $$\begin{pmatrix}x(t) \\  y(t) \\  z(t)\end{pmatrix}=a\begin{pmatrix}e^t \\  -e^t \\  e^t\end{pmatrix}+
 b\begin{pmatrix}e^t(t+1) \\  -e^t(t+1) \\  te^t\end{pmatrix}+c\begin{pmatrix}e^t(t^2/2+t+1) \\  -e^t(t^2/2+t) \\  e^t t^2/2\end{pmatrix}$$

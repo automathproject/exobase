@@ -30,8 +30,8 @@ $$\begin{vmatrix}1 &\lambda_1 &\cdots &\lambda_1^{n-1} \\
 \vdots& & &\vdots \\  1 &\lambda_n &\cdots & \lambda_n^{n-1}\end{vmatrix}=
 \prod_{1\leq i<j\leq n}(\lambda_i-\lambda_j).$$
 En d\'eduire que le syst\`eme suivant
-$$\left\{\begin{align*}\mu_1&=\alpha_0+\alpha_1\lambda_1+\cdots+\alpha_{n-1}\lambda_1^{n-1} \\ 
-\vdots \\  \mu_n &=\alpha_0+\alpha_1\lambda_n+\cdots+\alpha_{n-1}\lambda_n^{n-1} \\ \end{align*}\right.$$
+$$\left\{\begin{aligned}\mu_1&=\alpha_0+\alpha_1\lambda_1+\cdots+\alpha_{n-1}\lambda_1^{n-1} \\ 
+\vdots \\  \mu_n &=\alpha_0+\alpha_1\lambda_n+\cdots+\alpha_{n-1}\lambda_n^{n-1} \\ \end{aligned}\right.$$
 admet une unique solution $(\alpha_0,\cdots,\alpha_{n-1})\in\R^n.$}
     \item \question{Soient $M'$ et $A'$ les matrices diagonales suivantes :
 $$M'=\begin{pmatrix}\lambda_1 & 0 &\cdots & 0 \\  0 &\ddots  & & 0 \\ \vdots & &  & \vdots \\  0 & \cdots & 0 &\lambda_n \\  \end{pmatrix},\ \
@@ -73,19 +73,19 @@ $$\begin{vmatrix}
 \vdots&\vdots& &\vdots \\ \lambda_n-\lambda_1&\lambda_n^2-\lambda_1\lambda_n&\cdots&\lambda_n^{n-1}-\lambda_1\lambda_n^{n-2}
 \end{vmatrix}.$$
 On factorise alors chaque ligne par $(\lambda_i-\lambda_1)$ et on obtient
-$$\begin{align*}
+$$\begin{aligned}
 V(\lambda_1,\cdots,\lambda_n)&=(\lambda_2-\lambda_1)\cdots(\lambda_n-\lambda_1)
 \begin{vmatrix}1 &\lambda_2 &\cdots &\lambda_2^{n-2} \\ 
 \vdots& & &\vdots \\  1 &\lambda_n &\cdots & \lambda_n^{n-2}\end{vmatrix} \\ 
 &= \prod_{i=2}^n(\lambda_i-\lambda_1)V(\lambda_2,\cdots,\lambda_n)=\prod_{1\leq i<j\leq n}(\lambda_i-\lambda_j)
-\end{align*}$$
+\end{aligned}$$
 car $V(\lambda_2,\cdots,\lambda_n)=\prod_{2\leq i<j\leq n}(\lambda_j-\lambda_i)$ 
 par hypoth\`ese de r\'ecurrence.
 
 
 Ce d\'eterminant est le d\'eterminant du syst\`eme suivant, 
-$$\left\{\begin{align*}\mu_1&=\alpha_0+\alpha_1\lambda_1+\cdots+\alpha_{n-1}\lambda_1^{n-1} \\ 
-\vdots \\  \mu_n &=\alpha_0+\alpha_1\lambda_n+\cdots+\alpha_{n-1}\lambda_n^{n-1} \\ \end{align*} \right.$$
+$$\left\{\begin{aligned}\mu_1&=\alpha_0+\alpha_1\lambda_1+\cdots+\alpha_{n-1}\lambda_1^{n-1} \\ 
+\vdots \\  \mu_n &=\alpha_0+\alpha_1\lambda_n+\cdots+\alpha_{n-1}\lambda_n^{n-1} \\ \end{aligned} \right.$$
 or $V(\lambda_1,\cdots,\lambda_n)\neq0$ puisque les $\lambda_i$ sont suppos\'es distincts, c'est donc un syst\`eme de Cramer, il admet donc une unique solution $(\alpha_0,\cdots,\alpha_{n-1})\in\R^n.$
     \item {\it Soient $M'$ et $A'$ les matrices diagonales suivantes} :
 $$M'=\begin{pmatrix}

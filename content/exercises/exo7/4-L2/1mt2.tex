@@ -31,14 +31,14 @@ La matrice $A$ admet deux valeurs propres, $1$, valeur propre simple, et $-1$, v
 La valeur propre $1$ est simple, le sous-espace propre associé est égal au sous-espace caractéristique, c'est l'ensemble
 $$E_1=N_1=\{\vec u=(x,y,z)\in\R^3,\ A\vec u =\vec u\}.$$
 On a 
-$$\vec u\in E_1\iff \left\{\begin{align*}x&=x \\  x-y&=y \\  -x+2y-z&=z\end{align*}\right.\iff\left\{\begin{align*}x&=2y \\  z&=0\end{align*}\right.$$ 
+$$\vec u\in E_1\iff \left\{\begin{aligned}x&=x \\  x-y&=y \\  -x+2y-z&=z\end{aligned}\right.\iff\left\{\begin{aligned}x&=2y \\  z&=0\end{aligned}\right.$$ 
 L'espace $E_1$ est une droite vectorielle dont un vecteur directeur $\vec e_1$ est donné, par exemple, par $\vec e_1=(2,1,0)$.
 
 Le sous-espace propre associé à la valeur propre $-1$ est défini par
 $$E_{-1}=\{\vec u=(x,y,z)\in\R^3,\ A\vec u =-\vec u\}.$$
 On a 
-$$\vec u\in E_{-1}\iff \left\{\begin{align*}x&=-x \\  x-y&=-y \\  -x+2y-z&=-z\end{align*}\right.
-\iff\left\{ \begin{align*}x&=0 \\  y&=0\end{align*}\right.$$ 
+$$\vec u\in E_{-1}\iff \left\{\begin{aligned}x&=-x \\  x-y&=-y \\  -x+2y-z&=-z\end{aligned}\right.
+\iff\left\{ \begin{aligned}x&=0 \\  y&=0\end{aligned}\right.$$ 
 L'espace $E_{-1}$ est une droite vectorielle dont un vecteur directeur $\vec e_2$ est donné, par exemple, par $\vec e_2=(0,0,1)$. La dimension de $E_{-1}$ n'est pas égale à la multiplicité de la racine, la matrice n'est pas diagonalisable. Déterminons le sous-espace caractéristique associé à la valeur propre $-1$. Pour cela calculons la matrice $(A+I)^2$.
 $$(A+I)^2=\begin{pmatrix}2&0&0 \\  1&0&0 \\  -1&2&0\end{pmatrix}^2=\begin{pmatrix}4&0&0 \\  2&0&0 \\  0&0&0\end{pmatrix}$$
 $$N_{-1}=\ker(A+I)^2=\{\vec u=(x,y,z)\in\R^3,\ x=0\}$$
