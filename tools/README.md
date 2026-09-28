@@ -33,7 +33,7 @@ python3 tools/check_amscc_referential.py
 Ce contrôle vérifie les trois éléments nécessaires avant l'import OpenYourMath :
 le référentiel AMSCC synchronisé, les alias des classifications historiques et la
 table de projection vers `migrations/exo7/chapitres_complet.json`. Chaque exercice
-doit être déjà canonique ou résolu par un alias ; chaque chapitre AMSCC doit avoir
+doit être canonique (la liste d'alias est vide) ; chaque chapitre AMSCC doit avoir
 une décision Exo7, y compris une absence d'équivalent explicitement justifiée.
 
 ## Référentiel Exo7
