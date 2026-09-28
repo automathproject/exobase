@@ -123,8 +123,9 @@ puis les committer dans exobase. OpenYourMath importe ensuite ce commit avec
 son synchroniseur `scripts/sync-exobase.js`.
 
 Le référentiel AMSCC (`content/referentials/amscc/referentiel.md`) est synchronisé
-avec les sources. Les variations historiques des métadonnées sont normalisées sans
-réécrire les fichiers AMSCC, au moyen de `amscc-aliases.json`. La décision de
+avec les sources, qui portent toutes un triplet canonique : une variante se corrige
+dans la source d'Exercices. `amscc-aliases.json`, vide, reste disponible pour une
+projection exceptionnelle, qu'OpenYourMath n'applique pas. La décision de
 projection vers la mémoire Exo7 est versionnée dans
 `amscc-exo7-compatibility.json` : chaque chapitre est soit associé à un code Exo7,
 soit explicitement conservé comme extension AMSCC.
