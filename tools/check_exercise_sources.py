@@ -38,8 +38,12 @@ TOP_LEVEL_COMMANDS = {
     "exo7id",
     "isIndication",
     "isCorrection",
+    "cpge",
     "contenu",
 }
+
+CPGE_PROGRAMMES = ROOT / "content" / "referentials" / "cpge" / "programmes"
+CPGE_NODE_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*(?:\.[a-z0-9]+(?:-[a-z0-9]+)*)+$")
 
 CONTENT_COMMANDS = {"texte", "question", "indication", "reponse"}
 
@@ -609,6 +613,51 @@ def validate_source(source: str, file_path: str = "<source>") -> list[Issue]:
     return issues
 
 
+def load_cpge_node_ids(programmes_dir: Path = CPGE_PROGRAMMES) -> set[str] | None:
+    """Identifiants des sections et sous-sections du référentiel CPGE, lus dans
+    les titres ``{#…}`` des programmes. None si le référentiel est absent : seule
+    la forme des identifiants est alors contrôlée."""
+    if not programmes_dir.is_dir():
+        return None
+    ids: set[str] = set()
+    for path in sorted(programmes_dir.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        ids.update(re.findall(r"^#{3,4} .*\{#([^}\s]+)\}\s*$", text, flags=re.MULTILINE))
+    return ids
+
+
+def validate_cpge_references(
+    source: str, file_path: str, node_ids: set[str] | None = None
+) -> list[Issue]:
+    """Contrôle les identifiants de \\cpge{} : forme, répétition et présence dans
+    le référentiel CPGE. Mêmes codes que scripts/quality/check-exercise-sources.js
+    d'OpenYourMath."""
+    issues: list[Issue] = []
+    clean_source = strip_comments_preserve_length(source)
+    for call in find_command_calls(clean_source, {"cpge"}):
+        if call.malformed:
+            continue
+        seen: set[str] = set()
+        for raw in call.body.split(","):
+            node = raw.strip()
+            code = message = None
+            if not node:
+                code, message = "invalid-cpge", "Identifiant vide dans \\cpge{...}."
+            elif not CPGE_NODE_ID.match(node):
+                code, message = "invalid-cpge", f"Identifiant CPGE mal formé « {node} »."
+            elif node in seen:
+                code, message = "invalid-cpge", f"Identifiant CPGE « {node} » répété."
+            elif node_ids is not None and node not in node_ids:
+                code, message = (
+                    "unknown-cpge-node",
+                    f"Identifiant CPGE « {node} » absent du référentiel content/referentials/cpge/.",
+                )
+            seen.add(node)
+            if code:
+                add_issue(issues, source, file_path, call.start, code, message)
+    return issues
+
+
 def list_tex_files(input_path: Path) -> list[Path]:
     if input_path.is_file():
         return [input_path] if input_path.suffix == ".tex" else []
@@ -664,10 +713,13 @@ def main(argv: list[str] | None = None) -> int:
     input_path = Path(args.input).resolve()
     files = list_tex_files(input_path)
     all_issues: list[Issue] = []
+    cpge_node_ids = load_cpge_node_ids()
 
     for file_path in files:
         source = file_path.read_text(encoding="utf-8")
-        all_issues.extend(validate_source(source, relative_to_root(file_path)))
+        relative = relative_to_root(file_path)
+        all_issues.extend(validate_source(source, relative))
+        all_issues.extend(validate_cpge_references(source, relative, cpge_node_ids))
 
     if args.csv:
         output_path = Path(args.csv).resolve()
