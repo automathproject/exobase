@@ -1,0 +1,1830 @@
+{
+  "schema": "cpge-concordance/v1",
+  "politique": "Groupes de sous-sections équivalentes entre programmes d’une même famille (au plus une par programme), chacun avec ses écarts : notions, résultats ou méthodes exigibles dans un programme du groupe et absents, déclarés hors programme ou restreints dans un autre. Une sous-section absente de tout groupe est propre à son programme. L’étiquetage s’en sert pour ne rattacher un exercice qu’aux filières dont le programme contient les notions qu’il utilise.",
+  "familles": {
+    "tronc-2": {
+      "programmes": [
+        "mp-mpi",
+        "pc",
+        "psi",
+        "pt"
+      ],
+      "provenance": "Groupes formés par similarité de titres, puis relus et corrigés par Opus 5.5 (relecteur IA), écarts vérifiés dans le texte complet de chaque programme ; échantillon de 15 écarts et 8 groupes contrôlé par un enseignant le 5 octobre 2026, 23 verdicts « correct ».",
+      "groupes": [
+        {
+          "id": "C001",
+          "notion": "Sommes et sommes directes de sous-espaces vectoriels",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.a",
+            "pc.complements-espaces-vectoriels.a",
+            "psi.complements-espaces-vectoriels.a",
+            "pt.complements-algebre-lineaire.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Caractérisation d’une somme directe de plusieurs sous-espaces par les dimensions (dim ΣFi ≤ Σ dim Fi, égalité ssi directe)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « Pour la somme de plus de trois sous-espaces, toute autre caractérisation est hors programme. »"
+            }
+          ],
+          "note": "mp-mpi.reduction-endomorphismes.a ajouté (somme directe d’une famille finie, inégalité des dimensions, base adaptée). Cette sous-section MP couvre aussi les matrices par blocs, traitées en PC/PSI dans complements-espaces-vectoriels.b (groupe suivant)."
+        },
+        {
+          "id": "C002",
+          "notion": "Matrices par blocs et sous-espaces stables",
+          "noeuds": [
+            "pc.complements-espaces-vectoriels.b",
+            "psi.complements-espaces-vectoriels.b",
+            "pt.complements-algebre-lineaire.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Calcul par blocs (produit, transposition par blocs) et déterminant d’une matrice triangulaire par blocs",
+              "presente": [
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "opérations par blocs de tailles compatibles (combinaison linéaire, produit, transposition). ; Déterminant d’une matrice triangulaire par blocs."
+            },
+            {
+              "notion": "Si u et v commutent, le noyau de u (et les sous-espaces propres de u) sont stables par v",
+              "presente": [
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Si $u$ et $v$ commutent alors le noyau de $u$ est stable par $v$."
+            }
+          ],
+          "note": "PT se limite à la traduction matricielle de la stabilité. En MP-MPI, les blocs figurent en reduction-endomorphismes.a et les sous-espaces stables en reduction-endomorphismes.b."
+        },
+        {
+          "id": "C003",
+          "notion": "Trace",
+          "noeuds": [
+            "pc.complements-espaces-vectoriels.c",
+            "psi.complements-espaces-vectoriels.c",
+            "pt.complements-algebre-lineaire.c"
+          ],
+          "ecarts": [],
+          "note": "En MP-MPI, la trace relève de la première année."
+        },
+        {
+          "id": "C004",
+          "notion": "Polynômes d’un endomorphisme, d’une matrice carrée",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.g",
+            "pc.complements-espaces-vectoriels.d",
+            "psi.complements-espaces-vectoriels.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Polynôme minimal d'un endomorphisme, d'une matrice (racines = valeurs propres, degré = dim K[u])",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PC/PSI : « L’étude des classes de similitude est hors programme ainsi que la notion de polynôme minimal. »"
+            },
+            {
+              "notion": "Structure algébrique : morphisme d'algèbres P ↦ P(u), idéal annulateur, sous-algèbre K[u] et sa base (u^k)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Le noyau de ce morphisme est l’idéal annulateur de $u$. Son image est la sous-algèbre commutative $\\mathbb{K}[u]$"
+            }
+          ],
+          "note": "PT n’a pas d’équivalent : les polynômes d’endomorphisme y sont hors programme."
+        },
+        {
+          "id": "C005",
+          "notion": "Interpolation de Lagrange",
+          "noeuds": [
+            "pc.complements-espaces-vectoriels.e",
+            "psi.complements-espaces-vectoriels.e"
+          ],
+          "ecarts": [],
+          "note": "Pas d’équivalent en PT (interpolation de Lagrange absente) ; en MP-MPI, l’interpolation de Lagrange relève de la première année."
+        },
+        {
+          "id": "C006",
+          "notion": "Éléments propres d’un endomorphisme, d’une matrice carrée",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.b",
+            "pc.reduction.a",
+            "psi.reduction-endomorphismes.a",
+            "pt.reduction-endomorphismes.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Stabilité des sous-espaces propres (et du noyau, de l'image) de u par un endomorphisme v commutant avec u",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Si deux endomorphismes $u$ et $v$ commutent, tout sous-espace propre de $u$ est stable par $v$."
+            },
+            {
+              "notion": "Toute valeur propre de u est racine d’un polynôme annulateur de u",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « Tout développement sur les polynômes d’endomorphisme est hors programme. »"
+            }
+          ],
+          "note": "Fusion des groupes E001 et E036 (pc.reduction.a et psi.reduction-endomorphismes.a ajoutés). En MP-MPI, le lien polynôme annulateur / valeurs propres figure en reduction-endomorphismes.g."
+        },
+        {
+          "id": "C007",
+          "notion": "Polynôme caractéristique",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.c",
+            "pc.reduction.b",
+            "psi.reduction-endomorphismes.b",
+            "pt.reduction-endomorphismes.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème de Cayley-Hamilton (et plus généralement polynômes d'endomorphisme)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « Tout développement sur les polynômes d’endomorphisme est hors programme. »"
+            },
+            {
+              "notion": "Coefficients de degrés 0 et n-1 du polynôme caractéristique (déterminant, trace)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Coefficients du polynôme caractéristique de degrés $0$ et $n-1$."
+            }
+          ],
+          "note": "En MP-MPI, Cayley-Hamilton figure dans la sous-section j (Théorème de Cayley-Hamilton et sous-espaces caractéristiques)."
+        },
+        {
+          "id": "C008",
+          "notion": "Diagonalisation en dimension finie",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.d",
+            "pc.reduction.c",
+            "psi.reduction-endomorphismes.c",
+            "pt.reduction-endomorphismes.c"
+          ],
+          "ecarts": [],
+          "note": "Fusion des groupes E003 et E037 ; contenus équivalents."
+        },
+        {
+          "id": "C009",
+          "notion": "Trigonalisation en dimension finie",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.e",
+            "pc.reduction.e",
+            "psi.reduction-endomorphismes.e",
+            "pt.reduction-endomorphismes.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Trigonalisation effective (même en petite dimension, avec indication)",
+              "presente": [
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « Aucune technique de trigonalisation effective n’est au programme. »"
+            }
+          ],
+          "note": "Fusion de E004 et E038, avec pt.reduction-endomorphismes.d à la place de pt.complements-algebre-lineaire.d (hyperplans, sans rapport). MP-MPI : « La pratique de la trigonalisation n’est pas un objectif du programme. » L’écart du brouillon sur la démonstration du critère de trigonalisabilité est retiré (différence d’exigibilité de démonstration seule). Les endomorphismes nilpotents (mp-mpi.reduction-endomorphismes.f) sont propres à MP-MPI."
+        },
+        {
+          "id": "C010",
+          "notion": "Polynômes annulateurs et réduction",
+          "noeuds": [
+            "mp-mpi.reduction-endomorphismes.i",
+            "pc.reduction.d",
+            "psi.reduction-endomorphismes.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Lemme de décomposition des noyaux",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PC/PSI : « Le lemme de décomposition des noyaux est hors programme. »"
+            },
+            {
+              "notion": "Polynôme minimal d'un endomorphisme induit ; diagonalisabilité caractérisée par le polynôme minimal simplement scindé",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "Polynôme minimal d’un endomorphisme induit."
+            },
+            {
+              "notion": "Caractérisation de la trigonalisabilité par un polynôme annulateur scindé",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Un endomorphisme est trigonalisable si et seulement s’il annule un polynôme scindé"
+            },
+            {
+              "notion": "Sous-espaces caractéristiques et décomposition de E en leur somme directe",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Sous-espaces caractéristiques d’un endomorphisme à polynôme caractéristique scindé"
+            }
+          ],
+          "note": "Le lemme de décomposition des noyaux (mp-mpi h) et les sous-espaces caractéristiques (mp-mpi j) sont dans des sous-sections MP voisines sans équivalent PC/PSI ; PT n’a pas d’équivalent (polynômes d’endomorphisme hors programme). L’écart du brouillon sur la démonstration de la caractérisation de la diagonalisabilité est retiré (exigibilité de démonstration seule)."
+        },
+        {
+          "id": "C011",
+          "notion": "Produit scalaire",
+          "noeuds": [
+            "psi.espaces-prehilbertiens.a",
+            "pt.structure-prehilbertienne.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Produit scalaire canonique sur M_n(R), ⟨A,B⟩ = tr(A^T B)",
+              "presente": [
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "produit scalaire canonique sur $\\mathscr{M}_n(\\mathbb{R})$ ... Expression $\\operatorname{tr}(A^\\top B)$."
+            }
+          ],
+          "note": "Cauchy-Schwarz et la norme associée figurent en PT dans pt.structure-prehilbertienne.b (découpage différent). Pas d’équivalent en PC ni en MP-MPI (préhilbertien de première année)."
+        },
+        {
+          "id": "C012",
+          "notion": "Orthogonalité",
+          "noeuds": [
+            "psi.espaces-prehilbertiens.b",
+            "pt.structure-prehilbertienne.c"
+          ],
+          "ecarts": [],
+          "note": "Contenus équivalents (Pythagore, Gram-Schmidt). Pas d’équivalent en PC ni en MP-MPI (première année)."
+        },
+        {
+          "id": "C013",
+          "notion": "Bases orthonormées d’un espace euclidien",
+          "noeuds": [
+            "psi.espaces-prehilbertiens.c",
+            "pt.structure-prehilbertienne.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème de la base orthonormée incomplète",
+              "presente": [
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Théorème de la base orthonormée incomplète."
+            }
+          ],
+          "note": "Pas d’équivalent en PC."
+        },
+        {
+          "id": "C014",
+          "notion": "Projection orthogonale sur un sous-espace de dimension finie",
+          "noeuds": [
+            "psi.espaces-prehilbertiens.d",
+            "pt.structure-prehilbertienne.e"
+          ],
+          "ecarts": [],
+          "note": "La formule explicite de projection/distance à un hyperplan Vect(u)^⊥ (PSI) se déduit en PT du vecteur normal à un hyperplan ; pas d’écart d’exigible. Pas d’équivalent en PC."
+        },
+        {
+          "id": "C015",
+          "notion": "Isométries vectorielles d’un espace euclidien",
+          "noeuds": [
+            "mp-mpi.endomorphismes-euclidien.c",
+            "pc.endomorphismes-euclidiens.a",
+            "psi.endomorphismes-euclidien.a",
+            "pt.isometries-euclidien.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Caractérisation des isométries par u* = u^{-1} (adjoint)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PC/PSI : « La notion d’adjoint est hors programme. »"
+            }
+          ],
+          "note": "pt.isometries-euclidien.a ajouté (retiré de E039). L’écart « réduction d’une isométrie en dimension quelconque » est déplacé dans le groupe des isométries en dimension 3, où se trouve mp-mpi.endomorphismes-euclidien.e."
+        },
+        {
+          "id": "C016",
+          "notion": "Matrices orthogonales",
+          "noeuds": [
+            "mp-mpi.endomorphismes-euclidien.b",
+            "pc.endomorphismes-euclidiens.b",
+            "psi.endomorphismes-euclidien.b",
+            "pt.isometries-euclidien.b"
+          ],
+          "ecarts": [],
+          "note": "Contenus équivalents (MP-MPI : orientation en dimension finie quelconque ; PT : orientation traitée en dimensions 2 et 3 dans les sous-sections suivantes)."
+        },
+        {
+          "id": "C017",
+          "notion": "Isométries vectorielles du plan euclidien",
+          "noeuds": [
+            "mp-mpi.endomorphismes-euclidien.d",
+            "pc.endomorphismes-euclidiens.c",
+            "psi.endomorphismes-euclidien.d",
+            "pt.isometries-euclidien.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Morphisme t ↦ R(t) de R sur SO2(R) (surjectivité, noyau) ; isomorphisme de U sur SO2(R)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Morphisme $t\\mapsto\\begin{pmatrix}\\cos(t)&-\\sin(t)\\\\\\sin(t)&\\cos(t)\\end{pmatrix}$ de $\\mathbb{R}$ dans $\\mathrm{SO}_2(\\mathbb{R})$ ; surjectivité et noyau. Isomorphisme de $\\mathbb{U}$ sur $\\mathrm{SO}_2(\\mathbb{R})$."
+            },
+            {
+              "notion": "Commutativité de SO2(R)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Commutativité de $\\mathrm{SO}_2(\\mathbb{R})$."
+            }
+          ],
+          "note": "Fusion de E009 et E039 (pc.endomorphismes-euclidiens.c, psi.endomorphismes-euclidien.d et pt.isometries-euclidien.c). L’écart E009 est scindé : la commutativité de SO2(R) figure aussi en PC/PSI."
+        },
+        {
+          "id": "C018",
+          "notion": "Isométries en dimension 3, réduction des isométries",
+          "noeuds": [
+            "mp-mpi.endomorphismes-euclidien.e",
+            "psi.endomorphismes-euclidien.e",
+            "pt.isometries-euclidien.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Réduction d'une isométrie en base orthonormée (dimension quelconque)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Réduction d’une isométrie en base orthonormée."
+            },
+            {
+              "notion": "Détermination pratique de l’axe et de l’angle d’une rotation de SO3(R)",
+              "presente": [
+                "psi",
+                "pt"
+              ],
+              "absente": [
+                "mp-mpi"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "MP-MPI : « La pratique du calcul des éléments géométriques d’un élément de $\\mathrm{SO}_3(\\mathbb{R})$ n’est pas un attendu du programme. »"
+            }
+          ],
+          "note": "mp-mpi.endomorphismes-euclidien.e ajouté (réduction des isométries, cas de SO3). Pas d’équivalent en PC (étude limitée à la dimension 2). L’orientation en dimension 3 figure en PSI dans endomorphismes-euclidien.c."
+        },
+        {
+          "id": "C019",
+          "notion": "Endomorphismes autoadjoints et théorème spectral",
+          "noeuds": [
+            "mp-mpi.endomorphismes-euclidien.f",
+            "pc.endomorphismes-euclidiens.d",
+            "psi.endomorphismes-euclidien.f",
+            "pt.isometries-euclidien.e"
+          ],
+          "ecarts": [
+            {
+              "notion": "Endomorphisme autoadjoint (symétrique) et théorème spectral sous forme géométrique ; caractérisation des projecteurs orthogonaux comme autoadjoints",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « La notion d’endomorphisme symétrique est hors programme. »"
+            },
+            {
+              "notion": "Matrices symétriques positives, définies positives (et endomorphismes positifs) : caractérisation spectrale, S_n^+(R), S_n^{++}(R)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Matrice symétrique positive, définie positive. Caractérisation spectrale."
+            }
+          ],
+          "note": "mp-mpi.endomorphismes-euclidien.f ajouté ; les endomorphismes et matrices positifs, définis positifs sont en MP-MPI dans la sous-section voisine endomorphismes-euclidien.g. PT ne garde que la forme matricielle du théorème spectral. L’adjoint (mp-mpi.endomorphismes-euclidien.a) est propre à MP-MPI."
+        },
+        {
+          "id": "C020",
+          "notion": "Normes et espaces vectoriels normés",
+          "noeuds": [
+            "mp-mpi.topologie-espaces-normes.a",
+            "pc.espaces-vectoriels-normes.a",
+            "psi.espaces-vectoriels-normes.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Norme de la convergence en moyenne ‖ ‖1 (et en moyenne quadratique) sur les fonctions continues sur un segment",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Normes de la convergence en moyenne et de la convergence en moyenne quadratique sur l’espace des fonctions continues sur un segment à valeurs réelles ou complexes."
+            }
+          ],
+          "note": "Groupe issu des corrections de E011 et E041 (pc/psi.espaces-vectoriels-normes.a « Normes »). En PT, norme euclidienne et boules de R² et R³ figurent en pt.fonctions-deux-trois-variables.a (groupe Topologie)."
+        },
+        {
+          "id": "C021",
+          "notion": "Suites d’éléments d’un espace vectoriel normé",
+          "noeuds": [
+            "mp-mpi.topologie-espaces-normes.b",
+            "pc.espaces-vectoriels-normes.b",
+            "psi.espaces-vectoriels-normes.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Valeurs d'adhérence d'une suite (une suite à deux valeurs d'adhérence diverge)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Suites extraites, valeurs d’adhérence."
+            },
+            {
+              "notion": "Produit fini d'espaces vectoriels normés et convergence d'une suite dans un produit",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Convergence d’une suite à valeurs dans un produit fini d’espaces vectoriels normés."
+            }
+          ]
+        },
+        {
+          "id": "C022",
+          "notion": "Comparaison des normes",
+          "noeuds": [
+            "mp-mpi.topologie-espaces-normes.c",
+            "pc.espaces-vectoriels-normes.c",
+            "psi.espaces-vectoriels-normes.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Comparaison effective de normes (preuve d'équivalence ou de non-équivalence au-delà d'exemples élémentaires)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PC/PSI : « La comparaison effective de deux normes n’est pas un objectif du programme. On se limite en pratique à des exemples élémentaires. »"
+            }
+          ],
+          "note": "Correction de E011 et E041 : pc.espaces-vectoriels-normes.c et psi.espaces-vectoriels-normes.c (« Comparaison des normes ») au lieu des sous-sections « Normes »."
+        },
+        {
+          "id": "C023",
+          "notion": "Topologie d’un espace normé (ouverts, fermés, adhérence)",
+          "noeuds": [
+            "mp-mpi.topologie-espaces-normes.d",
+            "pc.espaces-vectoriels-normes.d",
+            "psi.espaces-vectoriels-normes.d",
+            "pt.fonctions-deux-trois-variables.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Intérieur et frontière d'une partie, voisinage d'un point",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Intérieur, adhérence, frontière d’une partie."
+            },
+            {
+              "notion": "Propriétés de l'adhérence autres que sa caractérisation séquentielle (adhérence fermée, plus petit fermé contenant la partie…)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PC/PSI : « Toute autre propriété de l’adhérence est hors programme. »"
+            },
+            {
+              "notion": "Ouverts, fermés et voisinages relatifs à une partie",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Si $A$ est une partie d’un espace normé, ouvert et fermé relatifs de $A$. Voisinage relatif."
+            },
+            {
+              "notion": "Produit fini d'ouverts, de fermés",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Un produit (fini) d’ouverts est un ouvert."
+            },
+            {
+              "notion": "Stabilité des ouverts et des fermés par réunion et intersection, caractérisation séquentielle des fermés et de l’adhérence, partie dense",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Stabilité par réunion quelconque, par intersection finie. […] Caractérisation séquentielle. […] Partie dense."
+            },
+            {
+              "notion": "Topologie d’un espace normé quelconque et invariance par passage à une norme équivalente (PT : R² et R³ munis de la norme euclidienne)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "PT : « Norme euclidienne dans $\\mathbb{R}^2$ et $\\mathbb{R}^3$. »"
+            }
+          ],
+          "note": "pt.fonctions-deux-trois-variables.a ajouté (ouverts, fermés, point intérieur, point adhérent dans R² et R³) ; elle contient aussi la norme euclidienne et les boules, qui relèvent pour les autres programmes du groupe « Normes et espaces vectoriels normés »."
+        },
+        {
+          "id": "C024",
+          "notion": "Limite et continuité en un point",
+          "noeuds": [
+            "mp-mpi.topologie-espaces-normes.e",
+            "pc.espaces-vectoriels-normes.e",
+            "psi.espaces-vectoriels-normes.e",
+            "pt.fonctions-deux-trois-variables.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Étude de la continuité d'une fonction de plusieurs variables (limites, continuité en un point dans un espace normé)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « L’étude de la continuité d’une fonction n’est pas un objectif du programme. »"
+            },
+            {
+              "notion": "Applications uniformément continues ; caractère 1-lipschitzien de x ↦ d(x,A)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Applications uniformément continues, applications lipschitziennes."
+            },
+            {
+              "notion": "Fonctions lipschitziennes et leur continuité",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Fonction lipschitzienne. Toute fonction lipschitzienne est continue."
+            },
+            {
+              "notion": "Deux applications continues qui coïncident sur une partie dense sont égales",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Deux applications continues qui coïncident sur une partie dense sont égales."
+            }
+          ],
+          "note": "Groupe issu de la séparation de E015 (mal formé) : mp-mpi.topologie-espaces-normes.e est l’homologue de pc/psi.espaces-vectoriels-normes.e et de pt.fonctions-deux-trois-variables.b. La continuité sur une partie (opérations, image réciproque, lipschitziennes) est en PC/PSI dans espaces-vectoriels-normes.f ; pt.fonctions-deux-trois-variables.b contient aussi le théorème des bornes atteintes (PC/PSI : espaces-vectoriels-normes.g)."
+        },
+        {
+          "id": "C025",
+          "notion": "Continuité sur une partie",
+          "noeuds": [
+            "pc.espaces-vectoriels-normes.f",
+            "psi.espaces-vectoriels-normes.f"
+          ],
+          "ecarts": [],
+          "note": "En MP-MPI, ces notions figurent dans topologie-espaces-normes.e ; en PT, dans pt.fonctions-deux-trois-variables.b (sans fonctions lipschitziennes), sous-sections rattachées au groupe « Limite et continuité en un point »."
+        },
+        {
+          "id": "C026",
+          "notion": "Espaces vectoriels normés de dimension finie",
+          "noeuds": [
+            "mp-mpi.topologie-espaces-normes.j",
+            "pc.espaces-vectoriels-normes.g",
+            "psi.espaces-vectoriels-normes.g"
+          ],
+          "ecarts": [
+            {
+              "notion": "Parties compactes (Bolzano-Weierstrass) ; compact ⇔ fermé borné en dimension finie ; suite bornée convergente ⇔ unique valeur d'adhérence",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Une partie d’un espace normé de dimension finie est compacte si et seulement si elle est fermée et bornée."
+            },
+            {
+              "notion": "Norme subordonnée (norme d'opérateur) ; continuité des applications linéaires en dimension finie formulée par L(E,F) = Lc(E,F)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PC/PSI : « La notion de norme subordonnée est hors programme. »"
+            },
+            {
+              "notion": "Un sous-espace de dimension finie d'un espace normé est fermé",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Un sous-espace de dimension finie d’un espace normé est fermé."
+            }
+          ],
+          "note": "PC/PSI énoncent le théorème des bornes atteintes sur un fermé borné de dimension finie, sans la notion de compact (mp-mpi g, h : parties compactes, propres à MP-MPI). L’écart du brouillon sur la démonstration de l’équivalence des normes est retiré (exigibilité de démonstration seule)."
+        },
+        {
+          "id": "C027",
+          "notion": "Séries absolument convergentes, séries vectorielles",
+          "noeuds": [
+            "mp-mpi.series-numeriques-vectorielles.a",
+            "pt.series-numeriques.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Séries à valeurs dans un espace vectoriel normé de dimension finie",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Une série absolument convergente d’éléments d’un espace vectoriel normé de dimension finie est convergente."
+            }
+          ],
+          "note": "Pas d’équivalent en PC/PSI (convergence absolue vue en première année). PT y ajoute règle de d’Alembert et produit de Cauchy (MP-MPI : series-numeriques-vectorielles.b et première année)."
+        },
+        {
+          "id": "C028",
+          "notion": "Compléments sur les séries numériques",
+          "noeuds": [
+            "mp-mpi.series-numeriques-vectorielles.b",
+            "pc.series-numeriques",
+            "psi.series-numeriques.a",
+            "pt.series-numeriques.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Sommation des relations de comparaison (domination, négligeabilité, équivalence) ; théorème de Cesàro",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Sommation des relations de comparaison : domination, négligeabilité, équivalence, dans les cas convergent et divergent."
+            },
+            {
+              "notion": "Estimation des restes de séries convergentes par comparaison série-intégrale",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "estimer des sommes partielles de séries divergentes ou des restes de séries convergentes"
+            },
+            {
+              "notion": "Formule de Stirling",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Formule de Stirling : équivalent de $n!$."
+            }
+          ],
+          "note": "pt.series-numeriques.a ajouté (comparaison série-intégrale, séries alternées). Stirling, séries alternées et produit de Cauchy relèvent en MP-MPI de la première année. L’écart du brouillon « semi-convergence hors séries alternées » est retiré : MP-MPI déclare aussi « L’étude des séries semi-convergentes n’est pas un objectif du programme. »"
+        },
+        {
+          "id": "C029",
+          "notion": "Modes de convergence d’une suite ou d’une série de fonctions",
+          "noeuds": [
+            "mp-mpi.suites-series-fonctions.a",
+            "pc.suites-series-fonctions.a",
+            "psi.suites-series-fonctions.a"
+          ],
+          "ecarts": [],
+          "note": "mp-mpi.suites-series-fonctions.a ajouté ; la convergence normale des séries de fonctions figure en mp-mpi.suites-series-fonctions.e. Pas d’équivalent en PT (suites et séries de fonctions hors programme)."
+        },
+        {
+          "id": "C030",
+          "notion": "Régularité de la limite d’une suite de fonctions",
+          "noeuds": [
+            "mp-mpi.suites-series-fonctions.b",
+            "pc.suites-series-fonctions.b",
+            "psi.suites-series-fonctions.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème de la double limite pour une suite de fonctions (et non seulement pour une série)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Théorème de la double limite : soit $(u_n)$ une suite de fonctions de $A$ dans $F$ convergeant uniformément vers $u$"
+            }
+          ],
+          "note": "Correction de E015 (mal formé) : mp-mpi.suites-series-fonctions.b est rattaché à pc/psi.suites-series-fonctions.b. Intégration et dérivation de la limite sont en MP-MPI dans les sous-sections voisines c et d. Pas d’équivalent en PT."
+        },
+        {
+          "id": "C031",
+          "notion": "Séries de fonctions",
+          "noeuds": [
+            "mp-mpi.suites-series-fonctions.e",
+            "pc.suites-series-fonctions.c",
+            "psi.suites-series-fonctions.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Suites et séries de fonctions définies sur une partie d'un espace normé de dimension finie, à valeurs vectorielles",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PC/PSI : « Les fonctions sont définies sur un intervalle $I$ de $\\mathbb{R}$ et à valeurs dans $\\mathbb{R}$ ou $\\mathbb{C}$. »"
+            },
+            {
+              "notion": "Théorème de la double limite en un point adhérent quelconque (pas seulement en une borne de l'intervalle)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PC/PSI : « $f_n$ admet une limite $\\ell_n$ en $a$ borne de $I$ (éventuellement infinie) »"
+            }
+          ],
+          "note": "Découpage différent : MP e) traite les modes de convergence des séries et adapte aux séries les théorèmes de régularité des sous-sections b à d. Le théorème d’approximation de Weierstrass (mp-mpi.suites-series-fonctions.f) est propre à MP-MPI."
+        },
+        {
+          "id": "C032",
+          "notion": "Séries entières : rayon de convergence",
+          "noeuds": [
+            "mp-mpi.series-entieres.a",
+            "pc.series-entieres.a",
+            "psi.series-entieres.a",
+            "pt.series-entieres.a"
+          ],
+          "ecarts": [],
+          "note": "Fusion de E017 et E045 ; contenus équivalents (lemme d’Abel, rayon, comparaison, d’Alembert, somme et produit de Cauchy)."
+        },
+        {
+          "id": "C033",
+          "notion": "Séries entières de la variable complexe : continuité, séries géométrique et exponentielle",
+          "noeuds": [
+            "mp-mpi.series-entieres.b",
+            "pc.series-entieres.d",
+            "psi.series-entieres.d",
+            "pt.series-entieres.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Continuité de la somme d’une série entière de la variable complexe sur le disque ouvert de convergence",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Continuité de la somme d’une série entière de la variable complexe sur le disque ouvert de convergence."
+            }
+          ],
+          "note": "mp-mpi.series-entieres.b ajouté (continuité sur le disque ouvert) ; les développements de exp(z) et 1/(1−z) figurent en MP-MPI dans series-entieres.d. En PT, le théorème de continuité ne porte que sur la variable réelle."
+        },
+        {
+          "id": "C034",
+          "notion": "Régularité de la somme d’une série entière de la variable réelle",
+          "noeuds": [
+            "mp-mpi.series-entieres.c",
+            "pc.series-entieres.b",
+            "psi.series-entieres.b",
+            "pt.series-entieres.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème d'Abel radial / continuité de la somme au bord de l'intervalle de convergence",
+              "presente": [
+                "mp-mpi",
+                "pt"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PC/PSI : « L’étude des propriétés de la somme au bord de l’intervalle ouvert de convergence n’est pas un objectif du programme. »"
+            }
+          ],
+          "note": "PT contient le théorème d'Abel radial sous la forme « continuité sur l’intervalle de définition », sans le formaliser."
+        },
+        {
+          "id": "C035",
+          "notion": "Développement en série entière, développements usuels",
+          "noeuds": [
+            "mp-mpi.series-entieres.d",
+            "pc.series-entieres.c",
+            "psi.series-entieres.c",
+            "pt.series-entieres.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème de Cauchy linéaire (existence et unicité) pour les équations différentielles linéaires scalaires d’ordre 2, utilisé pour justifier un développement en série entière via une équation différentielle",
+              "presente": [
+                "mp-mpi",
+                "psi",
+                "pt"
+              ],
+              "absente": [
+                "pc"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PC : « L’unicité de la solution d’un problème de Cauchy adapté sera explicitement admise. »"
+            }
+          ],
+          "note": "mp-mpi.series-entieres.d ajouté. MP-MPI, PSI et PT énoncent le théorème de Cauchy linéaire dans leur section d’équations différentielles ; PC n’en a pas en 2e année."
+        },
+        {
+          "id": "C036",
+          "notion": "Dérivabilité des fonctions vectorielles",
+          "noeuds": [
+            "mp-mpi.fonctions-vectorielles.b",
+            "pc.fonctions-vectorielles",
+            "psi.fonctions-vectorielles",
+            "pt.fonctions-vectorielles-courbes.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Formule de Taylor-Young pour une fonction vectorielle (développement limité d’une fonction de classe C^k)",
+              "presente": [
+                "mp-mpi",
+                "pt"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Formule de Taylor-Young."
+            },
+            {
+              "notion": "Dérivée de B(f,g) pour B bilinéaire quelconque et de M(f1,…,fp) pour M multilinéaire (application au déterminant)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Dérivée de $B(f,g)$, où $B$ est bilinéaire, de $M(f_1,\\dots,f_p)$, où $M$ est $p$-linéaire"
+            }
+          ],
+          "note": "Groupe E054 complété par pt.fonctions-vectorielles-courbes.a et mp-mpi.fonctions-vectorielles.b. Découpage différent en MP-MPI : la dérivabilité en un point est en a), l’intégration, l’inégalité des accroissements finis et les formules de Taylor en c) à e). PSI déclare l’étude et le tracé d’arcs paramétrés hors programme ; en PT, les courbes paramétrées (pt.fonctions-vectorielles-courbes.b à e) sont propres à ce programme."
+        },
+        {
+          "id": "C037",
+          "notion": "Fonctions continues par morceaux",
+          "noeuds": [
+            "pc.integration.a",
+            "psi.integration.a"
+          ],
+          "ecarts": [],
+          "note": "Pas d’équivalent en PT (intégration limitée aux fonctions continues) ; en MP-MPI, la continuité par morceaux relève de la première année."
+        },
+        {
+          "id": "C038",
+          "notion": "Intégrales généralisées sur [a,+∞[",
+          "noeuds": [
+            "mp-mpi.integration-intervalle.a",
+            "pc.integration.b",
+            "psi.integration.b",
+            "pt.integration.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Intégrales généralisées de fonctions continues par morceaux (PT : fonctions continues uniquement)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « définir, dans le cadre restreint des fonctions continues, les notions d’intégrale convergente et d’intégrabilité »"
+            }
+          ],
+          "note": "L’intégrabilité sur [a,+∞[ (mp-mpi.integration-intervalle.b) est une sous-section MP voisine, traitée ailleurs dans le cas d’un intervalle quelconque."
+        },
+        {
+          "id": "C039",
+          "notion": "Intégrales généralisées sur un intervalle quelconque",
+          "noeuds": [
+            "mp-mpi.integration-intervalle.c",
+            "pc.integration.c",
+            "psi.integration.c",
+            "pt.integration.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Intégrales généralisées de fonctions continues par morceaux sur un intervalle quelconque (PT : fonctions continues uniquement)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « Adaptation du paragraphe précédent aux fonctions continues définies sur un intervalle semi-ouvert ou ouvert »"
+            }
+          ],
+          "note": "Pour le reste (IPP, changement de variable), seule diffère l'exigibilité des démonstrations."
+        },
+        {
+          "id": "C040",
+          "notion": "Intégrales absolument convergentes et fonctions intégrables",
+          "noeuds": [
+            "mp-mpi.integration-intervalle.d",
+            "pc.integration.d",
+            "psi.integration.d",
+            "pt.integration.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Intégrabilité de fonctions continues par morceaux (PT : fonctions continues uniquement)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « Une fonction $f$ est dite intégrable sur $I$ si elle est continue sur $I$ et son intégrale sur $I$ est absolument convergente. »"
+            },
+            {
+              "notion": "Intégration des relations de comparaison (domination, négligeabilité, équivalence) pour les intégrales partielles ou les restes",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Intégration des relations de comparaison, pour les intégrales partielles ou les restes : domination, négligeabilité, équivalence."
+            }
+          ],
+          "note": "L'intégration des relations de comparaison figure dans la sous-section voisine mp-mpi.integration-intervalle.e, sans équivalent en PC, PSI, PT."
+        },
+        {
+          "id": "C041",
+          "notion": "Convergence dominée et intégration terme à terme",
+          "noeuds": [
+            "mp-mpi.integration-intervalle.g",
+            "pc.integration.e",
+            "psi.integration.e",
+            "pt.integration.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème de convergence dominée (suites de fonctions, famille à paramètre réel)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "l’intégration terme à terme peut être justifiée par le théorème de convergence dominée pour les sommes partielles"
+            },
+            {
+              "notion": "Intégration terme à terme d'une série de fonctions positives dans [0,+∞] (sans hypothèse de convergence de la série des intégrales)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "à valeurs dans $\\mathbb{R}^+$ [...] alors, dans $[0,+\\infty]$, $\\int_I\\Big(\\sum f_n(t)\\Big)\\,\\mathrm{d}t=\\sum\\int_I f_n(t)\\,\\mathrm{d}t$"
+            }
+          ],
+          "note": "Fusion de E022 et E049. PC/PSI énoncent convergence dominée et intégration terme à terme (version L1 seulement) ; en MP-MPI, la convergence dominée est dans la sous-section voisine integration-intervalle.f. PT énonce l’intégration terme à terme pour une somme continue, sans convergence dominée."
+        },
+        {
+          "id": "C042",
+          "notion": "Intégrales à paramètre",
+          "noeuds": [
+            "mp-mpi.integration-intervalle.h",
+            "pc.integration.f",
+            "psi.integration.f",
+            "pt.integration.e"
+          ],
+          "ecarts": [
+            {
+              "notion": "Théorème de convergence dominée à paramètre continu (limite d'une intégrale à paramètre)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Théorème de convergence dominée à paramètre continu"
+            },
+            {
+              "notion": "Extension à la classe C^k d'une intégrale à paramètre",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Extension à la classe $\\mathscr{C}^k$ d’une intégrale à paramètre"
+            },
+            {
+              "notion": "Domination locale (sur tout segment) utilisable directement",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « Le passage éventuel par une domination locale doit faire l’objet d’une question intermédiaire. »"
+            },
+            {
+              "notion": "Continuité d'une intégrale à paramètre vectoriel (paramètre dans une partie d'un espace normé de dimension finie)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "Soit $A$ une partie d’un espace normé de dimension finie, $I$ un intervalle de $\\mathbb{R}$"
+            }
+          ],
+          "note": "En MP-MPI, la convergence dominée à paramètre continu figure en mp-mpi.integration-intervalle.f (« Extension au cas d’une famille à paramètre réel »)."
+        },
+        {
+          "id": "C043",
+          "notion": "Ensembles dénombrables, familles sommables",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.a",
+            "pc.familles-sommables",
+            "psi.denombrables-familles-sommables",
+            "pt.probabilites-lois-usuelles.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Dénombrabilité de Q, non-dénombrabilité de R",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "L’ensemble $\\mathbb{R}$ n’est pas dénombrable."
+            },
+            {
+              "notion": "Réunion au plus dénombrable d'ensembles dénombrables, partie d'un ensemble dénombrable, produit fini quelconque",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « Toute autre connaissance sur la dénombrabilité est hors programme. »"
+            },
+            {
+              "notion": "Familles sommables comme théorie exigible hors contexte probabiliste (sommation par paquets, Fubini, support dénombrable)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PC/PSI : « Ces notions ne feront l’objet d’aucune évaluation spécifique, et leur usage est strictement réservé au contexte probabiliste. »"
+            },
+            {
+              "notion": "Notion de famille sommable",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « L’usage de ces résultats est strictement réservé au contexte probabiliste et la notion de famille sommable est hors programme. »"
+            }
+          ],
+          "note": "En MP-MPI, les familles sommables relèvent du programme de première année (MPSI-MP2I) et sont utilisées en seconde année."
+        },
+        {
+          "id": "C044",
+          "notion": "Univers, événements, variables aléatoires discrètes",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.e",
+            "pc.probabilites-lois-usuelles.a",
+            "psi.probabilites-lois-usuelles.a",
+            "pt.probabilites-lois-usuelles.b"
+          ],
+          "ecarts": [],
+          "note": "Découpage différent : la sous-section MP (définition d'une VAD, loi, couples, lois marginales et conditionnelles) correspond à pc/psi.probabilites-lois-usuelles.a + d et pt.probabilites-lois-usuelles.b + e ; la partie univers/tribu de PC/PSI/PT correspond à mp-mpi.variables-aleatoires-discretes.b. Aucun écart de contenu après vérification."
+        },
+        {
+          "id": "C045",
+          "notion": "Probabilité, espace probabilisé",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.b",
+            "pc.probabilites-lois-usuelles.b",
+            "psi.probabilites-lois-usuelles.b",
+            "pt.probabilites-lois-usuelles.c"
+          ],
+          "ecarts": [],
+          "note": "mp-mpi.variables-aleatoires-discretes.b ajouté (σ-additivité, continuité monotone, sous-additivité, événements négligeables). Les espaces probabilisés discrets (mp-mpi d) sont propres à MP-MPI."
+        },
+        {
+          "id": "C046",
+          "notion": "Probabilités conditionnelles",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.c",
+            "pc.probabilites-lois-usuelles.c",
+            "psi.probabilites-lois-usuelles.c",
+            "pt.probabilites-lois-usuelles.d"
+          ],
+          "ecarts": [],
+          "note": "Contenus équivalents. Découpage différent : l'indépendance d'événements, traitée en MP-MPI dans cette sous-section, figure en pc/psi.probabilites-lois-usuelles.e et pt.probabilites-lois-usuelles.f (« Événements indépendants »), avec les mêmes résultats."
+        },
+        {
+          "id": "C047",
+          "notion": "Loi d’une variable aléatoire discrète, lois usuelles",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.g",
+            "pc.probabilites-lois-usuelles.d",
+            "psi.probabilites-lois-usuelles.d",
+            "pt.probabilites-lois-usuelles.e"
+          ],
+          "ecarts": [],
+          "note": "mp-mpi.variables-aleatoires-discretes.g (lois géométrique et de Poisson) ajouté ; en MP-MPI, la loi d’une variable, les couples et les lois conjointes figurent dans variables-aleatoires-discretes.e (groupe « Univers, événements, variables aléatoires discrètes »)."
+        },
+        {
+          "id": "C048",
+          "notion": "Événements indépendants",
+          "noeuds": [
+            "pc.probabilites-lois-usuelles.e",
+            "psi.probabilites-lois-usuelles.e",
+            "pt.probabilites-lois-usuelles.f"
+          ],
+          "ecarts": [],
+          "note": "En MP-MPI, l’indépendance d’événements figure dans variables-aleatoires-discretes.c (groupe « Probabilités conditionnelles »)."
+        },
+        {
+          "id": "C049",
+          "notion": "Variables aléatoires indépendantes",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.f",
+            "pc.probabilites-lois-usuelles.f",
+            "psi.probabilites-lois-usuelles.f",
+            "pt.probabilites-lois-usuelles.g"
+          ],
+          "ecarts": [],
+          "note": "Contenus équivalents (MP mentionne l'existence d'un espace portant une suite de variables indépendantes, démonstration hors programme ; PC/PSI/PT n'en soulèvent pas la difficulté)."
+        },
+        {
+          "id": "C050",
+          "notion": "Espérance",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.h",
+            "pc.esperance-variance.a",
+            "psi.esperance-variance.a",
+            "pt.esperance-variance.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Espérance d'une variable aléatoire complexe",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « Espérance d’une variable aléatoire discrète réelle »"
+            },
+            {
+              "notion": "Espérance dans [0,+∞] d'une variable positive (éventuellement infinie), formule E(X)=ΣP(X≥n) pour X à valeurs dans N ∪ {+∞}",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Espérance d’une variable aléatoire à valeurs dans $[0,+\\infty]$"
+            }
+          ],
+          "note": "PT définit l'espérance par convergence absolue d'une série (familles sommables hors programme)."
+        },
+        {
+          "id": "C051",
+          "notion": "Variance, écart type et covariance",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.i",
+            "pc.esperance-variance.b",
+            "psi.esperance-variance.b",
+            "pt.esperance-variance.b"
+          ],
+          "ecarts": [
+            {
+              "notion": "Variables décorrélées ; variance d'une somme de variables deux à deux décorrélées",
+              "presente": [
+                "mp-mpi",
+                "pt"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "Variance d’une somme de $n$ variables aléatoires, cas de variables décorrélées."
+            }
+          ],
+          "note": "PC/PSI énoncent la variance d'une somme pour des variables deux à deux indépendantes."
+        },
+        {
+          "id": "C052",
+          "notion": "Fonctions génératrices",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.k",
+            "pc.esperance-variance.c",
+            "psi.esperance-variance.c",
+            "pt.esperance-variance.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Convergence normale de la série génératrice sur [-1,1] et continuité de G_X",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "La série entière définissant $G_X$ est de rayon $\\geqslant 1$ et converge normalement sur $[-1,1]$. Continuité de $G_X$."
+            },
+            {
+              "notion": "Fonction génératrice en variable complexe (convergence normale sur le disque fermé unité)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "converge normalement sur le disque fermé de centre 0 et de rayon 1"
+            }
+          ]
+        },
+        {
+          "id": "C053",
+          "notion": "Inégalités probabilistes et loi faible des grands nombres",
+          "noeuds": [
+            "mp-mpi.variables-aleatoires-discretes.j",
+            "pc.esperance-variance.d",
+            "psi.esperance-variance.d",
+            "pt.esperance-variance.d"
+          ],
+          "ecarts": [],
+          "note": "mp-mpi.variables-aleatoires-discretes.j ajouté ; contenus équivalents (Markov, Bienaymé-Tchebychev, loi faible des grands nombres)."
+        },
+        {
+          "id": "C054",
+          "notion": "Équations différentielles linéaires : théorème de Cauchy, structure des solutions",
+          "noeuds": [
+            "mp-mpi.equations-differentielles-lineaires.b",
+            "psi.equations-differentielles",
+            "pt.equations-differentielles.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Équations différentielles linéaires vectorielles x' = a(t)x + b(t), systèmes différentiels à coefficients variables, équations scalaires d'ordre n (Cauchy linéaire, isomorphisme x ↦ x(t0))",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Pour $t_0$ dans $I$, l’application $x\\mapsto x(t_0)$ est un isomorphisme de cet espace sur $E$."
+            },
+            {
+              "notion": "Équations différentielles linéaires non normalisées (recollement de solutions)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Exemples d’équations différentielles linéaires scalaires d’ordre 1 ou 2 non normalisées"
+            },
+            {
+              "notion": "Wronskien, variation des constantes à l'ordre 2, exponentielle de matrice",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "wronskien d’un couple de solutions [...] Méthode de variation des constantes pour les équations différentielles linéaires d’ordre 2."
+            }
+          ],
+          "note": "pt.equations-differentielles.a ajouté (même contenu que PSI : ordre 2 scalaire). PC n’a pas de section d’équations différentielles. Wronskien, exponentielle et variation des constantes sont dans des sous-sections MP voisines (c, d, e) ; les exemples de résolution PT (pt.equations-differentielles.b) sont propres à PT."
+        },
+        {
+          "id": "C055",
+          "notion": "Fonctions de classe C1, dérivées partielles",
+          "noeuds": [
+            "mp-mpi.calcul-differentiel-optimisation.d",
+            "pc.fonctions-plusieurs-variables.a",
+            "psi.fonctions-plusieurs-variables.a",
+            "pt.fonctions-deux-trois-variables.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Différentielle d’une fonction en un point",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "hors programme explicite",
+              "citation": "PT : « La notion de différentielle est hors programme. »"
+            },
+            {
+              "notion": "Fonctions de p variables, p quelconque (PT : p = 2 ou 3)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "PT : « Cette section est consacrée aux fonctions de $\\mathbb{R}^p$ dans $\\mathbb{R}$ pour $p = 2$ ou $3$, sauf dans le paragraphe (g). »"
+            },
+            {
+              "notion": "Formule f(b) − f(a) = ∫ df(γ(t))·γ′(t) dt le long d’un arc de classe C1",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "$\\displaystyle f(b)-f(a)=\\int_0^1\\mathrm{d}f(\\gamma(t))\\cdot\\gamma'(t)\\,\\mathrm{d}t.$"
+            }
+          ],
+          "note": "Groupe E055 complété par pt.fonctions-deux-trois-variables.c et mp-mpi.calcul-differentiel-optimisation.d. Découpage MP différent : dérivée selon un vecteur et dérivées partielles en a), différentielle en b). En PT, le gradient figure aussi dans cette sous-section."
+        },
+        {
+          "id": "C056",
+          "notion": "Règle de la chaîne",
+          "noeuds": [
+            "mp-mpi.calcul-differentiel-optimisation.c",
+            "pc.fonctions-plusieurs-variables.b",
+            "psi.fonctions-plusieurs-variables.b",
+            "pt.fonctions-deux-trois-variables.d"
+          ],
+          "ecarts": [
+            {
+              "notion": "Caractérisation des fonctions constantes sur un ouvert convexe (connexe par arcs en MP-MPI)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Caractérisation des fonctions constantes sur un ouvert convexe."
+            }
+          ],
+          "note": "Groupe E056 complété par pt.fonctions-deux-trois-variables.d et mp-mpi.calcul-differentiel-optimisation.c. En MP-MPI, la caractérisation des fonctions constantes figure en calcul-differentiel-optimisation.d."
+        },
+        {
+          "id": "C057",
+          "notion": "Différentielle et gradient",
+          "noeuds": [
+            "mp-mpi.calcul-differentiel-optimisation.b",
+            "pc.fonctions-plusieurs-variables.c",
+            "psi.fonctions-plusieurs-variables.c"
+          ],
+          "ecarts": [
+            {
+              "notion": "Courbes f(x,y)=0 et surfaces f(x,y,z)=0 : point régulier, gradient normal aux lignes de niveau, tangente et plan tangent",
+              "presente": [
+                "mp-mpi",
+                "psi"
+              ],
+              "absente": [
+                "pc"
+              ],
+              "nature": "contenu",
+              "citation": "PSI (d, Applications géométriques) : « Le plan tangent en un point régulier est défini comme orthogonal au gradient. »"
+            },
+            {
+              "notion": "Différentiabilité en un point (application différentiable, unicité de la différentielle) indépendamment du caractère C1",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PC/PSI : « Elle est définie comme la forme linéaire sur $\\mathbb{R}^p$ : $\\mathrm{d}f(a):(h_1,\\dots,h_p)\\mapsto\\sum_{i=1}^{p}\\frac{\\partial f}{\\partial x_i}(a)\\,h_i$ »"
+            }
+          ],
+          "note": "mp-mpi.calcul-differentiel-optimisation.b ajouté (gradient dans un espace euclidien et son interprétation géométrique). L’écart sur les courbes et surfaces définies par une équation provient de psi.fonctions-plusieurs-variables.d (groupe « Vecteurs tangents ») ; MP-MPI le traite en calcul-differentiel-optimisation.e. En PT, le gradient est en pt.fonctions-deux-trois-variables.c."
+        },
+        {
+          "id": "C058",
+          "notion": "Vecteurs tangents, tangente et plan tangent à une partie définie par une équation",
+          "noeuds": [
+            "mp-mpi.calcul-differentiel-optimisation.e",
+            "psi.fonctions-plusieurs-variables.d",
+            "pt.courbes-implicites-plan.a"
+          ],
+          "ecarts": [
+            {
+              "notion": "Vecteur tangent à une partie quelconque (via un arc) ; T_xX = ker dg(x) pour X = g^{-1}(0)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "si $x\\in X$ et $\\mathrm{d}g(x)\\neq0$, alors $T_xX$ est égal au noyau de $\\mathrm{d}g(x)$."
+            }
+          ],
+          "note": "PT sépare courbes du plan (pt.courbes-implicites-plan.a, rattachée) et surfaces définies par une équation cartésienne (pt.surfaces.b, au contenu identique à la seconde moitié de la sous-section PSI). Pas d’équivalent en PC."
+        },
+        {
+          "id": "C059",
+          "notion": "Fonctions de classe C2, théorème de Schwarz",
+          "noeuds": [
+            "mp-mpi.calcul-differentiel-optimisation.g",
+            "pc.fonctions-plusieurs-variables.d",
+            "psi.fonctions-plusieurs-variables.e",
+            "pt.fonctions-deux-trois-variables.e"
+          ],
+          "ecarts": [
+            {
+              "notion": "Formule de Taylor-Young à l’ordre 2 pour une fonction de p variables (forme ∇f(a)^T h + ½ h^T H_f(a) h)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « Formule de Taylor-Young à l’ordre 2 pour une fonction de deux variables de classe C^2. »"
+            },
+            {
+              "notion": "Résolution d’équations aux dérivées partielles simples du premier et du second ordre",
+              "presente": [
+                "mp-mpi",
+                "pt"
+              ],
+              "absente": [
+                "pc",
+                "psi"
+              ],
+              "nature": "contenu",
+              "citation": "PT : « Exemples simples de résolutions d’équations aux dérivées partielles du premier et du second ordres. »"
+            },
+            {
+              "notion": "Dérivées partielles d’ordre k et fonctions de classe C^k de plusieurs variables (k quelconque)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Dérivées partielles d’ordre $k$ d’une fonction définie sur un ouvert de $\\mathbb{R}^n$."
+            }
+          ],
+          "note": "Correction de E058 : pt.fonctions-deux-trois-variables.e (« Dérivées partielles d’ordre 2 ») au lieu de pt.fonctions-deux-trois-variables.g ; mp-mpi.calcul-differentiel-optimisation.g ajouté. Hessienne et Taylor-Young à l’ordre 2 figurent en PT dans pt.fonctions-deux-trois-variables.f et en MP-MPI dans calcul-differentiel-optimisation.h. Les fonctions de R^p dans R^n (pt g) sont propres à PT."
+        },
+        {
+          "id": "C060",
+          "notion": "Extremums d’une fonction de plusieurs variables",
+          "noeuds": [
+            "mp-mpi.calcul-differentiel-optimisation.h",
+            "pc.fonctions-plusieurs-variables.e",
+            "psi.fonctions-plusieurs-variables.f",
+            "pt.fonctions-deux-trois-variables.f"
+          ],
+          "ecarts": [
+            {
+              "notion": "Condition d’extremum d’ordre 2 pour p variables via H_f(a) ∈ S_p^{++}(R) / ∉ S_p^+(R)",
+              "presente": [
+                "mp-mpi",
+                "pc",
+                "psi"
+              ],
+              "absente": [
+                "pt"
+              ],
+              "nature": "restriction en commentaire",
+              "citation": "PT : « Extremums d’une fonction de R^2 dans R » ; « Classification à l’aide du déterminant et de la trace de la matrice hessienne. »"
+            },
+            {
+              "notion": "Optimisation sous une contrainte : extremum de f restreinte à g^{-1}(0), df(x) colinéaire à dg(x)",
+              "presente": [
+                "mp-mpi"
+              ],
+              "absente": [
+                "pc",
+                "psi",
+                "pt"
+              ],
+              "nature": "contenu",
+              "citation": "Théorème d’optimisation sous une contrainte"
+            }
+          ],
+          "note": "mp-mpi.calcul-differentiel-optimisation.h (étude au second ordre) ajouté ; l’étude au premier ordre (point critique, optimisation sous contrainte) est dans la sous-section voisine calcul-differentiel-optimisation.f."
+        }
+      ]
+    }
+  }
+}

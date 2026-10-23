@@ -1,0 +1,343 @@
+{
+  "schema": "cpge-correspondances/v1",
+  "statut": "pilote v4 : chapitres exo7 de L1 et crouzet ; extension L2-L3 pour mesurer l’abstention ; complétée d’après les candidats manquants signalés par l’étiquetage Opus de la v6",
+  "politique": "Pour un chapitre d'une source, les nœuds du référentiel CPGE (content/referentials/cpge/) où chercher les rattachements de ses exercices. Une section vaut toutes ses sous-sections. La table restreint les candidats proposés à l'étiquetage ; elle ne rattache rien à elle seule. Une liste vide signifie que le chapitre n'a pas d'équivalent en CPGE, ce que « raison » justifie. Les chapitres de L1 ne citent pas les programmes de 2e année ; ceux de L2-L3 peuvent citer la 1re année.",
+  "correspondances": [
+    {
+      "source": "exo7",
+      "chapitre": "Nombres complexes",
+      "noeuds": [
+        "mpsi-mp2i.nombres-complexes",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.d",
+        "pcsi.nombres-complexes",
+        "pcsi.calcul-algebrique-trigonometrie.d",
+        "ptsi.nombres-complexes",
+        "ptsi.calcul-algebrique-trigonometrie.d",
+        "bcpst1.nombres-complexes",
+        "bcpst1.trigonometrie",
+        "mpsi-mp2i.polynomes-fractions-rationnelles.c",
+        "pcsi.polynomes.c",
+        "ptsi.polynomes.c",
+        "bcpst1.polynomes-reels.b",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.a",
+        "pcsi.calcul-algebrique-trigonometrie.a",
+        "ptsi.calcul-algebrique-trigonometrie.a",
+        "bcpst1.methodes-calcul",
+        "ptsi.geometrie-plan",
+        "bcpst1.geometrie"
+      ]
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Suite",
+      "noeuds": [
+        "mpsi-mp2i.nombres-reels-suites",
+        "mpsi-mp2i.analyse-asymptotique",
+        "pcsi.nombres-reels-suites",
+        "pcsi.analyse-asymptotique",
+        "ptsi.nombres-reels-suites",
+        "ptsi.analyse-asymptotique",
+        "bcpst1.suites-reelles-usuelles",
+        "bcpst1.suites-reelles",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.c",
+        "pcsi.calcul-algebrique-trigonometrie.c",
+        "ptsi.calcul-algebrique-trigonometrie.c",
+        "mpsi-mp2i.limites-continuite",
+        "pcsi.limites-continuite",
+        "ptsi.limites-continuite",
+        "bcpst1.limites-continuite",
+        "mpsi-mp2i.derivabilite",
+        "pcsi.derivabilite",
+        "ptsi.derivabilite",
+        "bcpst1.derivation",
+        "mpsi-mp2i.procedes-sommatoires-discrets",
+        "pcsi.series-numeriques",
+        "ptsi.series-numeriques",
+        "mpsi-mp2i.integration",
+        "pcsi.integration",
+        "ptsi.integration",
+        "bcpst1.integration-segment"
+      ]
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Polynôme, fraction rationnelle",
+      "noeuds": [
+        "mpsi-mp2i.polynomes-fractions-rationnelles",
+        "pcsi.polynomes",
+        "ptsi.polynomes",
+        "bcpst1.polynomes-reels",
+        "bcpst2.polynomes",
+        "mpsi-mp2i.arithmetique-entiers",
+        "mpsi-mp2i.derivabilite.c",
+        "pcsi.derivabilite.c",
+        "ptsi.derivabilite.c",
+        "mpsi-mp2i.limites-continuite",
+        "pcsi.limites-continuite",
+        "ptsi.limites-continuite",
+        "mpsi-mp2i.nombres-complexes.f",
+        "pcsi.nombres-complexes.f",
+        "ptsi.nombres-complexes.f",
+        "mpsi-mp2i.applications-lineaires",
+        "pcsi.applications-lineaires",
+        "ptsi.applications-lineaires",
+        "mpsi-mp2i.espaces-vectoriels",
+        "pcsi.espaces-vectoriels",
+        "ptsi.espaces-vectoriels",
+        "mpsi-mp2i.dimension-finie",
+        "pcsi.dimension-finie",
+        "ptsi.dimension-finie",
+        "bcpst1.espace-vectoriel-kn",
+        "mpsi-mp2i.integration",
+        "pcsi.integration",
+        "ptsi.integration",
+        "mpsi-mp2i.structures-algebriques.c",
+        "bcpst1.derivation.b",
+        "bcpst1.limites-continuite.c"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Éléments de logique et raisonnement",
+      "noeuds": [
+        "mpsi-mp2i.raisonnement-vocabulaire-ensembliste",
+        "pcsi.raisonnement-vocabulaire-ensembliste",
+        "ptsi.raisonnement-vocabulaire-ensembliste",
+        "bcpst1.logique-ensembles-raisonnement",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.a",
+        "pcsi.calcul-algebrique-trigonometrie.a",
+        "ptsi.calcul-algebrique-trigonometrie.a",
+        "bcpst1.methodes-calcul"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Ensembles et applications",
+      "noeuds": [
+        "mpsi-mp2i.raisonnement-vocabulaire-ensembliste",
+        "pcsi.raisonnement-vocabulaire-ensembliste",
+        "ptsi.raisonnement-vocabulaire-ensembliste",
+        "bcpst1.logique-ensembles-raisonnement",
+        "bcpst1.vocabulaire-applications"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Généralités sur les nombres réels",
+      "noeuds": [
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.c",
+        "mpsi-mp2i.nombres-reels-suites.a",
+        "mpsi-mp2i.nombres-reels-suites.b",
+        "pcsi.calcul-algebrique-trigonometrie.c",
+        "pcsi.raisonnement-vocabulaire-ensembliste.c",
+        "pcsi.nombres-reels-suites.a",
+        "ptsi.calcul-algebrique-trigonometrie.c",
+        "ptsi.raisonnement-vocabulaire-ensembliste.c",
+        "ptsi.nombres-reels-suites.a",
+        "bcpst1.nombres-reels",
+        "mpsi-mp2i.raisonnement-vocabulaire-ensembliste.a",
+        "pcsi.raisonnement-vocabulaire-ensembliste.a",
+        "ptsi.raisonnement-vocabulaire-ensembliste.a",
+        "mpsi-mp2i.arithmetique-entiers.a",
+        "mpsi-mp2i.nombres-complexes.e",
+        "pcsi.nombres-complexes.e",
+        "ptsi.nombres-complexes.e",
+        "bcpst1.nombres-complexes.c",
+        "mpsi-mp2i.fonctions-valeurs-reelles-complexes.c",
+        "pcsi.techniques-calcul-fonctions.c",
+        "ptsi.techniques-calcul-fonctions.c",
+        "bcpst1.logique-ensembles-raisonnement"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Sommes et produits de réels",
+      "noeuds": [
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.a",
+        "pcsi.calcul-algebrique-trigonometrie.a",
+        "ptsi.calcul-algebrique-trigonometrie.a",
+        "bcpst1.methodes-calcul",
+        "mpsi-mp2i.raisonnement-vocabulaire-ensembliste.a",
+        "pcsi.raisonnement-vocabulaire-ensembliste.a",
+        "ptsi.raisonnement-vocabulaire-ensembliste.a",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.c",
+        "pcsi.calcul-algebrique-trigonometrie.c",
+        "ptsi.calcul-algebrique-trigonometrie.c",
+        "bcpst1.logique-ensembles-raisonnement.c",
+        "mpsi-mp2i.denombrement.b",
+        "pcsi.denombrement.b",
+        "ptsi.denombrement.b",
+        "bcpst1.denombrement"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Systèmes linéaires",
+      "noeuds": [
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.b",
+        "mpsi-mp2i.calcul-matriciel-systemes.c",
+        "pcsi.calcul-algebrique-trigonometrie.b",
+        "pcsi.calcul-matriciel-systemes-lineaires.c",
+        "ptsi.calcul-algebrique-trigonometrie.b",
+        "ptsi.calcul-matriciel-systemes-lineaires.c",
+        "bcpst1.systemes-lineaires",
+        "mpsi-mp2i.polynomes-fractions-rationnelles.i",
+        "pcsi.polynomes.f",
+        "ptsi.polynomes.f"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Généralités sur les fonctions",
+      "noeuds": [
+        "mpsi-mp2i.fonctions-valeurs-reelles-complexes",
+        "pcsi.techniques-calcul-fonctions",
+        "ptsi.techniques-calcul-fonctions",
+        "bcpst1.fonctions-reelles-usuelles",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.c",
+        "pcsi.calcul-algebrique-trigonometrie.c",
+        "ptsi.calcul-algebrique-trigonometrie.c",
+        "mpsi-mp2i.raisonnement-vocabulaire-ensembliste.c",
+        "pcsi.raisonnement-vocabulaire-ensembliste.d",
+        "ptsi.raisonnement-vocabulaire-ensembliste.d",
+        "bcpst1.derivation",
+        "bcpst1.vocabulaire-applications",
+        "mpsi-mp2i.nombres-complexes.e",
+        "pcsi.nombres-complexes.e",
+        "ptsi.nombres-complexes.e",
+        "bcpst1.nombres-reels",
+        "bcpst1.nombres-complexes.c",
+        "mpsi-mp2i.convexite",
+        "pcsi.derivabilite.e"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Généralités sur les suites",
+      "noeuds": [
+        "mpsi-mp2i.nombres-reels-suites",
+        "pcsi.nombres-reels-suites",
+        "ptsi.nombres-reels-suites",
+        "bcpst1.suites-reelles-usuelles",
+        "bcpst1.suites-reelles"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Convergence d'une suite",
+      "noeuds": [
+        "mpsi-mp2i.nombres-reels-suites",
+        "mpsi-mp2i.analyse-asymptotique",
+        "pcsi.nombres-reels-suites",
+        "pcsi.analyse-asymptotique",
+        "ptsi.nombres-reels-suites",
+        "ptsi.analyse-asymptotique",
+        "bcpst1.suites-reelles",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.c",
+        "pcsi.calcul-algebrique-trigonometrie.c",
+        "ptsi.calcul-algebrique-trigonometrie.c",
+        "mpsi-mp2i.limites-continuite",
+        "pcsi.limites-continuite",
+        "ptsi.limites-continuite",
+        "bcpst1.limites-continuite",
+        "mpsi-mp2i.derivabilite",
+        "pcsi.derivabilite",
+        "ptsi.derivabilite",
+        "bcpst1.derivation",
+        "mpsi-mp2i.procedes-sommatoires-discrets",
+        "pcsi.series-numeriques",
+        "ptsi.series-numeriques",
+        "bcpst1.suites-reelles-usuelles"
+      ]
+    },
+    {
+      "source": "crouzet",
+      "chapitre": "Nombres complexes",
+      "noeuds": [
+        "mpsi-mp2i.nombres-complexes",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.d",
+        "pcsi.nombres-complexes",
+        "pcsi.calcul-algebrique-trigonometrie.d",
+        "ptsi.nombres-complexes",
+        "ptsi.calcul-algebrique-trigonometrie.d",
+        "bcpst1.nombres-complexes",
+        "bcpst1.trigonometrie",
+        "mpsi-mp2i.polynomes-fractions-rationnelles.c",
+        "pcsi.polynomes.c",
+        "ptsi.polynomes.c",
+        "bcpst1.polynomes-reels.b",
+        "mpsi-mp2i.calcul-algebrique-trigonometrie.a",
+        "pcsi.calcul-algebrique-trigonometrie.a",
+        "ptsi.calcul-algebrique-trigonometrie.a",
+        "bcpst1.methodes-calcul"
+      ]
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Réduction d'endomorphisme, polynôme annulateur",
+      "noeuds": [
+        "mp-mpi.reduction-endomorphismes",
+        "pc.reduction",
+        "psi.reduction-endomorphismes",
+        "pt.reduction-endomorphismes",
+        "bcpst2.valeurs-propres-vecteurs-propres",
+        "mp-mpi.endomorphismes-euclidien.f",
+        "pc.endomorphismes-euclidiens.d",
+        "psi.endomorphismes-euclidien.f",
+        "pt.isometries-euclidien.e",
+        "bcpst2.produit-scalaire.c",
+        "mp-mpi.equations-differentielles-lineaires.c",
+        "mp-mpi.equations-differentielles-lineaires.d",
+        "mpsi-mp2i.determinants.f"
+      ]
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Série entière",
+      "noeuds": [
+        "mp-mpi.series-entieres",
+        "pc.series-entieres",
+        "psi.series-entieres",
+        "pt.series-entieres",
+        "mp-mpi.suites-series-fonctions",
+        "pc.suites-series-fonctions",
+        "psi.suites-series-fonctions"
+      ]
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Topologie",
+      "noeuds": [
+        "mp-mpi.topologie-espaces-normes",
+        "pc.espaces-vectoriels-normes",
+        "psi.espaces-vectoriels-normes",
+        "mpsi-mp2i.nombres-reels-suites.a",
+        "mpsi-mp2i.nombres-reels-suites.b",
+        "pcsi.nombres-reels-suites.a",
+        "ptsi.nombres-reels-suites.a"
+      ]
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Espace topologique, espace métrique",
+      "noeuds": [
+        "mp-mpi.topologie-espaces-normes",
+        "pc.espaces-vectoriels-normes",
+        "psi.espaces-vectoriels-normes"
+      ],
+      "note": "Ne recoupe qu’en partie la topologie des espaces vectoriels normés de 2e année : espaces métriques et topologiques généraux sont hors programme."
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Fonction holomorphe",
+      "noeuds": [],
+      "raison": "L’analyse complexe (fonctions holomorphes) n’est au programme d’aucune filière de CPGE."
+    },
+    {
+      "source": "exo7",
+      "chapitre": "Théorème de Sylow",
+      "noeuds": [],
+      "raison": "Les théorèmes de Sylow ne sont au programme d’aucune filière de CPGE."
+    }
+  ]
+}
