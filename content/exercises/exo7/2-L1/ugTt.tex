@@ -37,8 +37,13 @@ La suite $u$ est strictement positive, strictement décroissante, de limite null
 Déterminer un réel $\alpha$ tel que la suite $v_n=u_{n+1}^\alpha-u_n^\alpha$ ait une limite réelle non nulle. En appliquant le lemme de \textsc{Césaro} à la suite $(v_n)$, en déduire un équivalent simple de $u_n$ quand $n$ tend vers $+\infty$.}
 \reponse{Soit $\alpha\in\Rr$. Puisque $u_{n}$ tend vers $0$ quand $n$ tend vers $+\infty$,
 
-$$u_{n+1}^\alpha=(\sin(u_n))^\alpha=(u_n-\frac{u_n^3}{6}+o(u_n^3))^\alpha=u_n^\alpha(1-\frac{u_n^2}{6}+o(u_n^2))^\alpha
-=u_n^\alpha(1-\frac{\alpha u_n^2}{6}+o(u_n^2))=u_n^\alpha-\frac{\alpha u_n^{2+\alpha}}{6}+o(u_n^{2+\alpha}).$$
+\begin{align*}
+u_{n+1}^\alpha &= (\sin(u_n))^\alpha \\
+&= (u_n-\frac{u_n^3}{6}+o(u_n^3))^\alpha \\
+&= u_n^\alpha(1-\frac{u_n^2}{6}+o(u_n^2))^\alpha \\
+&= u_n^\alpha(1-\frac{\alpha u_n^2}{6}+o(u_n^2)) \\
+&= u_n^\alpha-\frac{\alpha u_n^{2+\alpha}}{6}+o(u_n^{2+\alpha}).
+\end{align*}
 
 et donc, $u_{n+1}^\alpha-u_n^\alpha=-\frac{\alpha u_n^{2+\alpha}}{6}+o(u_n^{2+\alpha})$. En prenant $\alpha=-2$, on obtient alors
 

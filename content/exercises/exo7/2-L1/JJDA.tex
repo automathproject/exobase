@@ -34,9 +34,11 @@ Pour tout naturel non nul $k$, on a
 $\frac{1}{k(k+1)(k+2)}=\frac{1}{2}\frac{(k+2)-k}{k(k+1)(k+2)}=\frac{1}{2}(\frac{1}{k(k+1)}-\frac{1}{(k+1)(k+2)})$,
 et donc
 
-$$\sum_{k=1}^{n}\frac{1}{k(k+1)(k+2)}=\frac{1}{2}\sum_{k=1}^{n}(\frac{1}{k(k+1)}-\frac{1}{(k+1)(k+2)})=\frac{1}{2}(
-\frac{1}{2}-\frac{1}{(n+1)(n+2)})=
-\frac{n(n+3)}{4(n+1)(n+2)}.$$
+\begin{align*}
+\sum_{k=1}^{n}\frac{1}{k(k+1)(k+2)} &= \frac{1}{2}\sum_{k=1}^{n}(\frac{1}{k(k+1)}-\frac{1}{(k+1)(k+2)}) \\
+&= \frac{1}{2}( \frac{1}{2}-\frac{1}{(n+1)(n+2)}) \\
+&= \frac{n(n+3)}{4(n+1)(n+2)}.
+\end{align*}
 Soit $n\in\Nn^*$.
 \begin{itemize}
 \item[\textbf{- Calcul de} $\bf{S_1}$.] Posons $P_1=aX^2+bX+c$. On a
@@ -56,7 +58,10 @@ Mais alors,
 $$\sum_{k=1}^{n}k=\sum_{k=1}^{n}(P_1(k+1)-P_1(k))=P_1(n+1)-P_1(1)=\frac{n(n+1)}{2}.$$
 \item[\textbf{- Calcul de} $\bf{S_2}$.] Posons $P_2=aX^3+bX^2+cX+d$. On a
 
-$$P_2(X+1)-P_2(X)=a((X+1)^3-X^3)+b((X+1)^2-X^2)+c((X+1)-X)=3aX^2+(3a+2b)X+a+b+c.$$
+\begin{align*}
+P_2(X+1)-P_2(X) &= a((X+1)^3-X^3)+b((X+1)^2-X^2)+c((X+1)-X) \\
+&= 3aX^2+(3a+2b)X+a+b+c.
+\end{align*}
 
 Par suite,
 
@@ -135,8 +140,11 @@ $$\Arctan\frac{1}{k^2+k+1}=\Arctan\frac{(k+1)-k}{1+k(k+1)}=\Arctan(k+1)-\Arctan 
 
 Par suite,
 
-$$\sum_{k=1}^{n}\Arctan\frac{1}{k^2+k+1}=\sum_{k=1}^{n}(\Arctan(k+1)-\Arctan
-k)=\Arctan(n+1)-\Arctan1=\Arctan(n+1)-\frac{\pi}{4}.$$
+\begin{align*}
+\sum_{k=1}^{n}\Arctan\frac{1}{k^2+k+1} &= \sum_{k=1}^{n}(\Arctan(k+1)-\Arctan k) \\
+&= \Arctan(n+1)-\Arctan1 \\
+&= \Arctan(n+1)-\frac{\pi}{4}.
+\end{align*}
 Soit $n\in\Nn^*$.
 
 Pour $k$ entier naturel non nul donné, on a

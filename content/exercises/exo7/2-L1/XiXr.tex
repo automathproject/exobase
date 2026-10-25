@@ -31,10 +31,12 @@ $\forall x\in\Rr^*,\;\tanh x=\frac{2}{\tanh(2x)}-\frac{1}{\tanh x}.$
 Soient $n$ un entier naturel non
 nul et $x$ un réel non nul. D'après ce qui précède,
 
-$$u_n
-=\sum_{k=0}^{n}2^k\tanh(2^kx)=\sum_{k=0}^{n}\left(\frac{2^{k+1}}{\tanh(2^{k+1}x)}-\frac{2^{k}}{\tanh(2^{k}x)}\right)
-=\sum_{k=1}^{n+1}\frac{2^{k}}{\tanh(2^{k}x)}-\sum_{k=0}^{n}\frac{2^{k}}{\tanh(2^{k}x)}=\frac{2^{n+1}}{\tanh(2^{n+1}x)}
--\frac{1}{\tanh x}.$$
+\begin{align*}
+u_n &= \sum_{k=0}^{n}2^k\tanh(2^kx) \\
+&= \sum_{k=0}^{n}\left(\frac{2^{k+1}}{\tanh(2^{k+1}x)}-\frac{2^{k}}{\tanh(2^{k}x)}\right) \\
+&= \sum_{k=1}^{n+1}\frac{2^{k}}{\tanh(2^{k}x)}-\sum_{k=0}^{n}\frac{2^{k}}{\tanh(2^{k}x)} \\
+&= \frac{2^{n+1}}{\tanh(2^{n+1}x)} -\frac{1}{\tanh x}.
+\end{align*}
 Ensuite, pour $x>0$, $\tanh(2^{n+1}x)$ tend vers $1$ quand $n$ tend vers l'infini. Donc $u_n$ tend vers $+\infty$ quand
 $n$ tend vers $+\infty$ si $x>0$ et vers $-\infty$ quand $n$ tend vers $+\infty$ si $x<0$.
 }

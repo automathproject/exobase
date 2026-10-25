@@ -139,16 +139,19 @@ On sait $\sin (x)= x -\frac{1}{3!}x^3 + o(x^4)$.
 
 
 Si l'on voulait calculer un dl de $\sin^2(x)$ à l'ordre $5$ on écrirait :
-$$\sin^2 (x)  =  \big(x -\frac{1}{3!}x^3 + o(x^4)\big)^2 =  
-\big(x -\frac{1}{3!}x^3 + o(x^4)\big) \times  \big(x -\frac{1}{3!}x^3 + o(x^4)\big) 
-= x^2 -2\frac{1}{3!}x^4 + o(x^5).$$
+\begin{align*}
+\sin^2 (x) &= \big(x -\frac{1}{3!}x^3 + o(x^4)\big)^2 \\
+&= \big(x -\frac{1}{3!}x^3 + o(x^4)\big) \times \big(x -\frac{1}{3!}x^3 + o(x^4)\big) \\
+&= x^2 -2\frac{1}{3!}x^4 + o(x^5).
+\end{align*}
 En effet tous les autres termes sont dans $o(x^5)$.
 
 
 Le principe est le même pour $\sin^6(x)$:
-$$\sin^6 (x)  =  \big(x -\frac{1}{3!}x^3 + o(x^4)\big)^6 =  
-\big(x -\frac{1}{3!}x^3 + o(x^4) \big) \times  \big(x -\frac{1}{3!}x^3 + o(x^4) \big) 
-\times  \big(x -\frac{1}{3!}x^3 + o(x^4) \big) \times \cdots$$
+\begin{align*}
+\sin^6 (x) &= \big(x -\frac{1}{3!}x^3 + o(x^4)\big)^6 \\
+&= \big(x -\frac{1}{3!}x^3 + o(x^4) \big) \times \big(x -\frac{1}{3!}x^3 + o(x^4) \big) \times \big(x -\frac{1}{3!}x^3 + o(x^4) \big) \times \cdots
+\end{align*}
 Lorsque l'on développe ce produit en commençant par les termes de plus petits degrés on obtient 
 $$\sin^6 (x)  =  x^6 + 6 \cdot x^5 \cdot (-\frac1{3!} x^3) + o(x^9) = x^6-x^8 + o(x^9)$$}
     \item \question{$\ln \big(\cos(x)\big)$ \quad à l'ordre $6$}

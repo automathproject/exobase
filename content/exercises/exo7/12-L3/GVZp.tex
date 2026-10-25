@@ -34,11 +34,12 @@ application ouverte.}
     \item \question{Conclure que $f$ est un diff\'eomorphisme de classe $C^1$ de $\mathbb{R}^n$ sur lui même.}
 \reponse{
 $f$ et $\varphi$ sont de classe $C^1$ car compos\'ees d'applications de classe $C^1$. On a
-$$
-D\varphi(t)= \varphi'(t)=(\Psi \circ f \circ \theta)(t)'(t)
-= D\Psi(f(\theta(t)))\circ Df(\theta(t))\circ D\theta(t)
-= \langle Df(a+t(b-a))(b-a),b-a \rangle.
-$$ 
+\begin{align*}
+D\varphi(t) &= \varphi'(t) \\
+&= (\Psi \circ f \circ \theta)(t)'(t) \\
+&= D\Psi(f(\theta(t)))\circ Df(\theta(t))\circ D\theta(t) \\
+&= \langle Df(a+t(b-a))(b-a),b-a \rangle.
+\end{align*} 
 Par cons\'equent:
 $$
 \varphi'(t) \geq \alpha \langle b-a,b-a \rangle.

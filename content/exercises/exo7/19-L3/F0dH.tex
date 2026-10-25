@@ -43,9 +43,10 @@ $$\forall\epsilon>0,\  P(|\frac{Y_n}{\sqrt{2\ln n}}-1|\geq
 \epsilon)\to 0\quad \mbox{quand}\quad n\to +\infty\quad 
 \mbox{(convergence en probabilité)}.$$
 On peut écrire
-$$\{|\frac{Y_n}{\sqrt{2\ln n}}-1|\geq\epsilon\}=\{|Y_n-\sqrt{2\ln n}|\geq \epsilon
-\sqrt{2\ln n}\}=\{Y_n\geq (1+\epsilon)\sqrt{2\ln n}\}\cup
-\{Y_n\leq (1-\epsilon)\sqrt{2\ln n}\}$$ 
+\begin{align*}
+\{|\frac{Y_n}{\sqrt{2\ln n}}-1|\geq\epsilon\} &= \{|Y_n-\sqrt{2\ln n}|\geq \epsilon \sqrt{2\ln n}\} \\
+&= \{Y_n\geq (1+\epsilon)\sqrt{2\ln n}\}\cup \{Y_n\leq (1-\epsilon)\sqrt{2\ln n}\}
+\end{align*} 
 et cette union est disjointe donc
 $$P(|\frac{Y_n}{\sqrt{2\ln n}}-1|\geq\epsilon)=P(Y_n\geq (1+\epsilon)\sqrt{2\ln n})
 +P(Y_n\leq (1-\epsilon)\sqrt{2\ln n}). $$

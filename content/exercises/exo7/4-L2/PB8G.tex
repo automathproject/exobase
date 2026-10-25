@@ -25,7 +25,10 @@ Si tous les coefficients $a_{i,j}$ de $\Delta_{n+1}$ sont égaux à $1$, puisque
 Sinon, on va changer petit à petit tous les $-1$ en $1$.
 Soit $(i,j)$ un couple d'indices tel que $a_{i,j}=-1$ et $\Delta_{n+1}'$ le déterminant dont tous les coefficients sont égaux à ceux de $\Delta_{n+1}$ sauf le coefficient ligne $i$ et colonne $j$ qui est égal à $1$.
 
-$$\Delta_{n+1}-\Delta_{n+1}'=\mbox{det}(C_1,...,C_j,...,C_n)-\mbox{det}(C_1,...,C_j',...,C_n)=\mbox{det}(C_1,...,C_j-C_j',...,C_n),$$ 
+\begin{align*}
+\Delta_{n+1}-\Delta_{n+1}' &= \mbox{det}(C_1,...,C_j,...,C_n)-\mbox{det}(C_1,...,C_j',...,C_n) \\
+&= \mbox{det}(C_1,...,C_j-C_j',...,C_n),
+\end{align*} 
 
 où  $C_j-C_j'=\left(
 \begin{array}{c}

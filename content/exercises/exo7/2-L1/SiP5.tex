@@ -19,10 +19,20 @@ Etudier les deux suites $u_n=\left(\sum_{k=1}^{n}\frac{1}{\sqrt{k}}\right)-2\sqr
 }
 \reponse{
 Pour $n$ entier naturel non nul donné, on a
-$$u_{n+1}-u_n=\frac{1}{\sqrt{n+1}}-2\sqrt{n+2}+2\sqrt{n+1}=\frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n+2}}>\frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n+1}}=0.$$
+\begin{align*}
+u_{n+1}-u_n &= \frac{1}{\sqrt{n+1}}-2\sqrt{n+2}+2\sqrt{n+1} \\
+&= \frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n+2}} \\
+&> \frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n+1}} \\
+&= 0.
+\end{align*}
 De même,
 
-$$v_{n+1}-v_n=\frac{1}{\sqrt{n+1}}-2\sqrt{n+1}+2\sqrt{n}=\frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n}}<\frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n+1}}=0.$$
+\begin{align*}
+v_{n+1}-v_n &= \frac{1}{\sqrt{n+1}}-2\sqrt{n+1}+2\sqrt{n} \\
+&= \frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n}} \\
+&< \frac{1}{\sqrt{n+1}}-\frac{2}{\sqrt{n+1}+\sqrt{n+1}} \\
+&= 0.
+\end{align*}
 La suite $u$ est strictement croissante et la suite $v$ est strictement décroissante. Enfin, 
 
 $$v_n-u_n=2\sqrt{n+1}-2\sqrt{n}=\frac{2}{\sqrt{n}+\sqrt{n+1}},$$

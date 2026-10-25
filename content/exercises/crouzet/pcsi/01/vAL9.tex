@@ -71,7 +71,12 @@ Soit $P_n$ la propriété ``$1+q+\cdots+q^n=\dfrac{1-q^{n+1}}{1-q}$'' définie p
     \item \textbf{Hérédité} : supposons la propriété $P_n$ vraie pour un certain $n$, et montrons que $P_{n+1}$ est vraie. On sait donc que
     \[1+q+\cdots +q^n = \frac{1-q^{n+1}}{1-q}\]
     Donc
-    \[1+q+\cdots +q^n +q^{n+1}=\underbrace{\frac{1-q^{n+1}}{1-q}}_{\textrm{H.R.}} + q^{n+1}=\frac{1-q^{n+1}+q^{n+1}-q^{n+2}}{1-q}= \frac{1-q^{n+2}}{1-q}=\frac{1-q^{(n+1)+1}}{1-q}\]
+    \begin{align*}
+1+q+\cdots +q^n +q^{n+1} &= \underbrace{\frac{1-q^{n+1}}{1-q}}_{\textrm{H.R.}} + q^{n+1} \\
+&= \frac{1-q^{n+1}+q^{n+1}-q^{n+2}}{1-q} \\
+&= \frac{1-q^{n+2}}{1-q} \\
+&= \frac{1-q^{(n+1)+1}}{1-q}
+\end{align*}
     La propriété $P_{n+1}$ est donc vraie.
 \end{itemize}
 \textbf{Bilan} : d'après le principe de récurrence, la propriété $P_n$ est vraie pour tout $n$.}

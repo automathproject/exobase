@@ -27,11 +27,13 @@ $$\forall x\in\Rr,\;\frac{1+ix}{1-ix}\in U\setminus\{-1\}.$$
 Réciproquement, soit $z\in U\setminus\{-1\}$. Il existe un réel $\theta\notin\pi+2\pi\Zz$ tel que $z=e^{i\theta}$. Mais
 alors,
 
-$$z=e^{i\theta}=\frac{e^{i\theta/2}}{e^{-i\theta/2}}=\frac{\cos\frac{\theta}{2}+i\sin\frac{\theta}{2}}
-{\cos\frac{\theta}{2}-i\sin\frac{\theta}{2}}=\frac{\cos\frac{\theta}{2}(1+i\tan\frac{\theta}{2})}
-{\cos\frac{\theta}{2}(1-i\tan\frac{\theta}{2})}=\frac{1+i\tan\frac{\theta}{2}}
-{1-i\tan\frac{\theta}{2}}\;(\cos\frac{\theta}{2}\neq0\;\mbox{car}\;\frac{\theta}{2}\notin\frac{\pi}{2}+\pi\Zz),
-$$
+\begin{align*}
+z &= e^{i\theta} \\
+&= \frac{e^{i\theta/2}}{e^{-i\theta/2}} \\
+&= \frac{\cos\frac{\theta}{2}+i\sin\frac{\theta}{2}} {\cos\frac{\theta}{2}-i\sin\frac{\theta}{2}} \\
+&= \frac{\cos\frac{\theta}{2}(1+i\tan\frac{\theta}{2})} {\cos\frac{\theta}{2}(1-i\tan\frac{\theta}{2})} \\
+&= \frac{1+i\tan\frac{\theta}{2}} {1-i\tan\frac{\theta}{2}}\;(\cos\frac{\theta}{2}\neq0\;\mbox{car}\;\frac{\theta}{2}\notin\frac{\pi}{2}+\pi\Zz),
+\end{align*}
 et $z$ est bien sous la forme voulue avec $x=\tan\frac{\theta}{2}$.
 }
 }

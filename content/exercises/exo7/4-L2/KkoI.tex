@@ -43,7 +43,13 @@ La matrice $A$ admet une valeur propre triple qui est $\lambda=1$, elle ne peut 
 $$(A-I)^2=\begin{pmatrix}2&2&-2 \\  -1&-1&1 \\ 1&1&-1 \\ \end{pmatrix}^2=\begin{pmatrix}0&0&0 \\  0&0&0 \\ 0&0&0 \\ \end{pmatrix}$$
 
  Montrons que $A^n=nA+(1-n)I$ en utilisant la formule du bin\^ome de Newton.
-$$A^n=(A-I+I)^n=\sum_{k=0}^{n}C_n^k(A-I)^kI^{n-k}=C_n^0I^n+C_n^1(A-I)=I+n(A-I)=nA+(1-n)I.$$
+\begin{align*}
+A^n &= (A-I+I)^n \\
+&= \sum_{k=0}^{n}C_n^k(A-I)^kI^{n-k} \\
+&= C_n^0I^n+C_n^1(A-I) \\
+&= I+n(A-I) \\
+&= nA+(1-n)I.
+\end{align*}
 Car, pour $k\geq2$, on a $(A-I)^k=0$.
   \item  {\it Soient $P(X)=(X-1)^2$ et $Q\in\R[X]$}. 
 

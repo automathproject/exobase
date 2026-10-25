@@ -41,11 +41,12 @@ car la fonction $f$ n'appartient pas \`a
 $\mathcal{L}^1([-1,1]\times[-1,1])$. En effet, soit
 $S_\varepsilon=\{(x,y)\in\mathbb{R}^2| \varepsilon\leq x^2+y^2\leq
 1\}$. On a
-$$\int_{[-1,1]\times[-1,1]}|f| d\mu 
-\geq \int_{S_\varepsilon} |f| d\mu =\int_{\theta=0}^{2\pi}\int_{r=\varepsilon}^1\frac{|\cos 2\theta|}{r}dr
-d\theta
-= 4\int_{\theta=0}^{\frac{\pi}{2}}\int_{r=\varepsilon}^1 \frac{|\cos 2\theta|}{r} dr
-d\theta = -4 \log \varepsilon\rightarrow \infty$$ lorsque
+\begin{align*}
+\int_{[-1,1]\times[-1,1]}|f| d\mu &\geq \int_{S_\varepsilon} |f| d\mu \\
+&= \int_{\theta=0}^{2\pi}\int_{r=\varepsilon}^1\frac{|\cos 2\theta|}{r}dr d\theta \\
+&= 4\int_{\theta=0}^{\frac{\pi}{2}}\int_{r=\varepsilon}^1 \frac{|\cos 2\theta|}{r} dr d\theta \\
+&= -4 \log \varepsilon\rightarrow \infty
+\end{align*} lorsque
 $\varepsilon\rightarrow 0,$ et donc $f\notin
 \mathcal{L}^1([-1,1]\times[-1,1]).$
 }

@@ -23,7 +23,11 @@ $$\int_{0}^{1}f(t)\;dt-\frac{1}{n}\sum_{k=1}^{n-1}f(\frac{k}{n})\underset{n\righ
 Supposons $f$ de classe $C^2$ sur $[0,1]$.
 Soit $F$ une primitive de $f$ sur $[0,1]$. Soit $n$ un entier naturel non nul.
 
-$$u_n=\int_{0}^{1}f(t)\;dt-\frac{1}{n}\sum_{k=0}^{n-1}f(\frac{k}{n})=\sum_{k=0}^{n-1}(\int_{k/n}^{(k+1)/n}f(t)\;dt-\frac{1}{n}f(\frac{k}{n}))=\sum_{k=0}^{n-1}(F(\frac{k+1}{n})-F(\frac{k}{n})-\frac{1}{n}F'(\frac{k}{n})).$$
+\begin{align*}
+u_n &= \int_{0}^{1}f(t)\;dt-\frac{1}{n}\sum_{k=0}^{n-1}f(\frac{k}{n}) \\
+&= \sum_{k=0}^{n-1}(\int_{k/n}^{(k+1)/n}f(t)\;dt-\frac{1}{n}f(\frac{k}{n})) \\
+&= \sum_{k=0}^{n-1}(F(\frac{k+1}{n})-F(\frac{k}{n})-\frac{1}{n}F'(\frac{k}{n})).
+\end{align*}
 
 $f$ est de classe $C^2$ sur le segment $[0,1]$. Par suite, $F^{(3)}=f''$ est définie et bornée sur ce segment. En notant $M_2$ la borne supérieure de $|f''|$ sur $[0,1]$, l'inégalité de \textsc{Taylor}-\textsc{Lagrange} à l'ordre 3 appliquée à $F$ sur le segment $[0,1]$ fournit
 

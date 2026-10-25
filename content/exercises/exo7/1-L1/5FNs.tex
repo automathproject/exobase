@@ -21,8 +21,10 @@ Soit $a$ un réel distinct de $\frac{1}{\sqrt{3}}$ et $-\frac{1}{\sqrt{3}}$.
     \item \question{Calculer $\tan(3\theta)$ en fonction de $\tan\theta$.}
 \reponse{Tout d'abord, d'après la formule de \textsc{Moivre},
 
-$$\cos(3\theta)+i\sin(3\theta)=(\cos\theta+i\sin\theta)^3=(\cos^3\theta-3\cos\theta\sin^2\theta)
-+i(3\cos^2\theta\sin\theta-\sin^3\theta),$$
+\begin{align*}
+\cos(3\theta)+i\sin(3\theta) &= (\cos\theta+i\sin\theta)^3 \\
+&= (\cos^3\theta-3\cos\theta\sin^2\theta) +i(3\cos^2\theta\sin\theta-\sin^3\theta),
+\end{align*}
 
 et par identification des parties réelles et imaginaires,
 
@@ -83,8 +85,13 @@ on a~:
 \end{align*}
 Ceci refournit les solutions $x=\tan\alpha=a$, puis
 
-$$x=\tan\left(\alpha+\frac{\pi}{3}\right)=\frac{\tan\alpha+\tan\frac{\pi}{3}}{1-\tan\alpha\tan\frac{\pi}{3}}=\frac{a+\sqrt{3}}{1
--\sqrt{3}a}=\frac{(a+\sqrt{3})(1+\sqrt{3}a)}{1-3a^2}=\frac{4a+\sqrt{3}(a^2+1)}{1-3a^2},$$
+\begin{align*}
+x &= \tan\left(\alpha+\frac{\pi}{3}\right) \\
+&= \frac{\tan\alpha+\tan\frac{\pi}{3}}{1-\tan\alpha\tan\frac{\pi}{3}} \\
+&= \frac{a+\sqrt{3}}{1 -\sqrt{3}a} \\
+&= \frac{(a+\sqrt{3})(1+\sqrt{3}a)}{1-3a^2} \\
+&= \frac{4a+\sqrt{3}(a^2+1)}{1-3a^2},
+\end{align*}
 et $x=\tan\left(\alpha-\frac{\pi}{3}\right)=\frac{4a-\sqrt{3}(a^2+1)}{1-3a^2}$.}
 \end{enumerate}
 }

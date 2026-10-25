@@ -64,8 +64,13 @@ Donc, $\forall x\in]0,\frac{\pi}{2}[,\;0<\sin x<x<\tan x$ et par passage à l'in
     \item \question{En déduire un encadrement de $u_n$ puis la limite de $(u_n)$.}
 \reponse{Pour $1\leq k\leq p$, $0<\frac{k\pi}{2p+1}<\frac{\pi}{2}$  et donc $0<\cotan\frac{k\pi}{2p+1}<\frac{2p+1}{k\pi}<\frac{1}{\sin\frac{k\pi}{2p+1}}$. Puis, $\cotan^2\frac{k\pi}{2p+1}<(\frac{(2p+1)^2}{\pi^2})\frac{1}{k^2}<\frac{1}{\sin\frac{k\pi}{2p+1}}$. En sommant ces inégalités, on obtient
 
-$$\frac{\pi^2p(2p-1)}{3(2p+1)^2}=\frac{\pi^2}{(2p+1)^2}\sum_{k=1}^{p}\cotan^2\frac{k\pi}{2p+1}<u_p=\sum_{k=1}^{p}
-\frac{1}{k^2}<\frac{\pi^2}{(2p+1)^2}\sum_{k=1}^{p}\frac{1}{\sin^2\frac{k\pi}{2p+1}}=\frac{2p(p+1)\pi^2}{3(2p+1)^2}.$$
+\begin{align*}
+\frac{\pi^2p(2p-1)}{3(2p+1)^2} &= \frac{\pi^2}{(2p+1)^2}\sum_{k=1}^{p}\cotan^2\frac{k\pi}{2p+1} \\
+&< u_p \\
+&= \sum_{k=1}^{p} \frac{1}{k^2} \\
+&< \frac{\pi^2}{(2p+1)^2}\sum_{k=1}^{p}\frac{1}{\sin^2\frac{k\pi}{2p+1}} \\
+&= \frac{2p(p+1)\pi^2}{3(2p+1)^2}.
+\end{align*}
 
 Les membres de gauche et de droite tendent vers $\frac{\pi^2}{6}$ quand $p$ tend vers l'infini et donc la suite $(u_p)$ tend vers $\frac{\pi^2}{6}$.}
 \end{enumerate}
