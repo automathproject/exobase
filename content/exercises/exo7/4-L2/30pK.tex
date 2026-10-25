@@ -14,77 +14,17 @@
 \difficulte{}
 
 \contenu{
-\question{
+\texte{
 Résoudre (en discutant en fonction des différents paramètres) les systèmes suivants~:
-
-$$
-\begin{array}{ccc}
-1)\;\left\{
+}
+\begin{enumerate}
+\item \question{$\left\{
 \begin{array}{l}
 2x+3y+z=4\\
 -x+my+2z=5\\
 7x+3y+(m-5)z=7
 \end{array}
-\right.&
-2)\;\left\{
-\begin{array}{l}
-2x+my+z=3m\\
-x-(2m+1)y+2z=4\\
-5x-y+4z=3m-2
-\end{array}
-\right.&
-3)\;\left\{
-\begin{array}{l}
-x+y+z+t=3\\
-x+my+z-mt=m+2\\
-mx-y-mz-t=-1
-\end{array}
-\right.\\
-4)\;\left\{
-\begin{array}{l}
-x+2y+3z+mt=m-1\\
-2x+y+mz+3t=1\\
-3x+my+z+2t=0\\
-mx+3y+2z+t=0
-\end{array}
-\right.&5)\;\left\{
-\begin{array}{l}
-mx+y+z=m+2\\
--x-y+mz=m-2\\
--mx+y+mz=-m\\
-x-y-mz=m-4
-\end{array}
-\right.&6)\;
-\left\{
-\begin{array}{l}
-x+y+z=1\\
-ax+by+cz=m\\
-\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=\frac{1}{m}
-\end{array}
-\right.\\
-7)\;
-\left\{
-\begin{array}{l}
-(b+c)^2x+b^2y+c^2z=1\\
-a^2x+(c+a)^2y+c^2z=1\\
-a^2x+b^2y+(a+b)^2z=1
-\end{array}
-\right.&8)\;\left\{
-\begin{array}{l}
-ax+by+cz=p\\
-cx+ay+bz=q\\
-bx+cy+az=r
-\end{array}
-\right.& \\
-9)\;\left\{
-\begin{array}{l}
-x+y+z=0\\
-ax+by+cz=2\\
-a^2x+b^2y+c^2z=3
-\end{array}
-\right.&(\mbox{où}\;a,\;b,\;\mbox{et}\;c\;\mbox{sont les racines de l'équation}&t^3-t+1=0).
-\end{array}$$
-}
+\right.$}
 \reponse{
 $\mbox{det}S=2(m(m-5)-6)+(3(m-5)-3)+7(6-m)=2m^2-14m+12=2(m-1)(m-6)$. Le système est de \textsc{Cramer} si et seulement si $m\in\{1,6\}$. 
 Si $m\notin\{1,6\}$, les formules de \textsc{Cramer} fournissent alors~:
@@ -136,6 +76,15 @@ La dernière équation fournit alors une condition nécessaire et suffisante de 
 \end{align*}
 
 Si $m=1$, le système n'a pas de solution et si $m=6$, l'ensemble des solutions est $\{(\frac{3}{5},y,-\frac{y}{5}),\;y\in\Rr\}$.
+}
+\item \question{$\left\{
+\begin{array}{l}
+2x+my+z=3m\\
+x-(2m+1)y+2z=4\\
+5x-y+4z=3m-2
+\end{array}
+\right.$}
+\reponse{
 $\mbox{det}S=2(-8m-4+2)-(4m+1)+5(2m+2m+1)=0$. Le système n'est jamais de \textsc{Cramer}. Un déterminant principal est $\left|
 \begin{array}{cc}
 2&1\\
@@ -154,6 +103,15 @@ z=\frac{-3m+8+(5m+2)y}{3}
 \end{align*}
 
 Si $m\neq-2$, le système n'a pas de solution. Si $m=-2$, l'ensemble des solutions est $\{(\frac{-16+7y}{3},y,\frac{14-8y}{3}),\;y\in\Rr\}$.
+}
+\item \question{$\left\{
+\begin{array}{l}
+x+y+z+t=3\\
+x+my+z-mt=m+2\\
+mx-y-mz-t=-1
+\end{array}
+\right.$}
+\reponse{
 $\left|
 \begin{array}{ccc}
 1&1&1\\
@@ -215,6 +173,16 @@ t=0\\
 x=1\\
 z=2-y
 \end{array}\right.$. Dans ce cas, l'ensemble de solutions est $\{(1,y,2-y,0),\;z\in\Rr\}$.
+}
+\item \question{$\left\{
+\begin{array}{l}
+x+2y+3z+mt=m-1\\
+2x+y+mz+3t=1\\
+3x+my+z+2t=0\\
+mx+3y+2z+t=0
+\end{array}
+\right.$}
+\reponse{
 \begin{align*}\ensuremath
 \mbox{det}(S)&=\left|
 \begin{array}{cccc}
@@ -433,6 +401,16 @@ D'où l'ensemble de solutions~:~$\{(x,x+\frac{1}{4},-x-\frac{1}{4};-x+\frac{1}{2
 Si $m=2$, on obtient pour ensemble de solutions~:~$\{(x,-x-\frac{5}{8},x+\frac{1}{2};-x-\frac{1}{8}),\;x\in\Rr\}$.
 
 Si $m=4$ ou $m=-6$, on voit en résolvant que le système est incompatible.
+}
+\item \question{$\left\{
+\begin{array}{l}
+mx+y+z=m+2\\
+-x-y+mz=m-2\\
+-mx+y+mz=-m\\
+x-y-mz=m-4
+\end{array}
+\right.$}
+\reponse{
 $\left|
 \begin{array}{ccc}
 m&1&1\\
@@ -454,6 +432,15 @@ La troisième équation fournit alors une condition nécessaire et suffisante de
 \end{align*}
 
 Le système est compatible si et seulement si $m$ est l'une des trois racines de l'équation $-2X^3+7X^2+3=0$.
+}
+\item \question{$\left\{
+\begin{array}{l}
+x+y+z=1\\
+ax+by+cz=m\\
+\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=\frac{1}{m}
+\end{array}
+\right.$}
+\reponse{
 $\mbox{det}S=\frac{1}{abc}\left|
 \begin{array}{ccc}
 a&b&c\\
@@ -499,6 +486,15 @@ z=\frac{m-a}{c-a}\\
 Le système est compatible si et seulement si $(m-a)(m-c)=0$ ou encore ($m=a$ ou $m=c$). Dans ce cas, l'ensemble des solutions est~:~$\{(x,\frac{m-c}{a-c}-x;\frac{m-a}{c-a}),\;x\in\Rr\}$.
 
 Si $a=b=c$, le système s'écrit~:~$x+y+z=1=\frac{m}{a}=\frac{a}{m}$. Le système est compatible si et seulement si $m=a=b=c$ et dans ce cas l'ensemble des solutions est~:~$\{(x,y,1-x-y),\;(x,y)\in\Rr^2\}$.
+}
+\item \question{$\left\{
+\begin{array}{l}
+(b+c)^2x+b^2y+c^2z=1\\
+a^2x+(c+a)^2y+c^2z=1\\
+a^2x+b^2y+(a+b)^2z=1
+\end{array}
+\right.$}
+\reponse{
 \begin{align*}\ensuremath
 \mbox{det}S&=\left|
 \begin{array}{ccc}
@@ -558,6 +554,15 @@ Si $a=b=c=0$, il n'y a pas de solution.
 Si $a=0$ et $c=-b\neq0$, l'ensemble des solutions est $\{(x,y-\frac{y}{b^2}),\;(x,y)\in\Rr^2\}$ (résultats analogues pour ($b=0$ et $c=-a\neq0$) et ($c=0$ et $b=-a\neq0$).
 
 Si $abc\neq0$ et $a+b+c=0$, le système équivaut à l'équation $a^2x+b^2y+c^2z=1$. L'ensemble  des solutions est $\{(x,y,\frac{1-a^2x-b^2y}{c^2}),\;(x,y)\in\Rr^2\}$.
+}
+\item \question{$\left\{
+\begin{array}{l}
+ax+by+cz=p\\
+cx+ay+bz=q\\
+bx+cy+az=r
+\end{array}
+\right.$}
+\reponse{
 \begin{align*}\ensuremath
 \mbox{det}S&=\left|
 \begin{array}{ccc}
@@ -594,6 +599,16 @@ r&c&a
 \right|=p(a^2-bc)+q(c^2-ab)+r(b^2-ac).$$
 
 Je n'ai pas envie de finir.
+}
+\item \question{$\left\{
+\begin{array}{l}
+x+y+z=0\\
+ax+by+cz=2\\
+a^2x+b^2y+c^2z=3
+\end{array}
+\right.$
+(o\`u $a$, $b$ et $c$ sont les racines de l'\'equation $t^3-t+1=0$).}
+\reponse{
 Soit $P=X^3-X-1$. $P$ et $P'=3X^2-1$ n'ont pas de racines communes dans $\Cc$ car $\frac{1}{\sqrt{3}}$ et $-\frac{1}{\sqrt{3}}$ ne sont pas racines de $P$ et donc les racines de $P$ sont simples ou encore, $a$, $b$ et $c$ sont deux à deux distincts.
 
 Ainsi, $\mbox{det}S=\mbox{Van}(a,b,c)\neq0$ et le système est de \textsc{Cramer}.
@@ -628,4 +643,5 @@ a^2&b^2&3
 
 et $z=\frac{3+2c}{(c-a)(c-b)}$ (difficile d'aller plus loin).
 }
+\end{enumerate}
 }
