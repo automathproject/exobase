@@ -30,8 +30,10 @@ V\'erifier que $B=M^{-1}N $ et $A=M-N$ avec $M=(I-E)(I-E^*)$ , $N=EE^*$.}
 $$x_{2k+2}=(I-E^*)^{-1}E(I-E)^{-1}E^*x_{2k}+(I-E^*)^{-1}E(I-E)^{-1}b +
 (I-E^*)^{-1}b$$
 Mais $E(I-E)^{-1}=(I-E)^{-1}E$ et alors
-$$x_{2k+2}=(I-E^*)^{-1}(I-E)^{-1}EE^*x_{2k}+
-(I-E^*)^{-1}(I-E)^{-1}(E+I-E)b=M^{-1}Nx_{2k}+M^{-1}b$$
+\begin{align*}
+x_{2k+2} &= (I-E^*)^{-1}(I-E)^{-1}EE^*x_{2k}+ (I-E^*)^{-1}(I-E)^{-1}(E+I-E)b \\
+&= M^{-1}Nx_{2k}+M^{-1}b
+\end{align*}
 avec
 $$M=(I-E)(I-E^*),\quad N=EE^*,\quad M-N=I-E-E^*=A$$}
     \item \question{Montrer que $M^*+N$ est une matrice d\'efinie positive. En d\'eduire une condition n\'ecessaire et suffisante pour la convergence de la m\'ethode.}

@@ -62,7 +62,11 @@ De même,
 \end{align*}
 Puis, 
 
-$$n\ln\left(\cos\frac{n\pi}{3n+1}+\sin\frac{n\pi}{6n+1}\right)=n\ln\left(1+\frac{\sqrt{3}\pi}{24n}+ o\left(\frac{1}{n}\right)\right)= n\left(\frac{\sqrt{3}\pi}{24n}+o\left(\frac{1}{n}\right)\right)=\frac{\sqrt{3}\pi}{24}+o(1),$$
+\begin{align*}
+n\ln\left(\cos\frac{n\pi}{3n+1}+\sin\frac{n\pi}{6n+1}\right) &= n\ln\left(1+\frac{\sqrt{3}\pi}{24n}+ o\left(\frac{1}{n}\right)\right) \\
+&= n\left(\frac{\sqrt{3}\pi}{24n}+o\left(\frac{1}{n}\right)\right) \\
+&= \frac{\sqrt{3}\pi}{24}+o(1),
+\end{align*}
 et donc
 
 \begin{center}
@@ -85,8 +89,12 @@ $\lim_{x\rightarrow 0}(\cos x)^{\ln|x|}=1$.
 $$(\cos x)e^{1/(1-\sin x)}=-\varepsilon|\sin h|e^{1/(1-\cos h)}=-\varepsilon e^{\ln|\sin h|+\frac{1}{1-\cos h}}.$$
 Or, quand $h$ tend vers $0$, 
 
-$$\ln|\sin h|+\frac{1}{1-\cos h}=\frac{(1-\cos h)\ln|\sin h|+1}{1-\cos h}=\frac{(-\frac{h^2}{2}+o(h^2))(\ln|h|+o(\ln|h|))+1}{\frac{h^2}{2}+o(h^2)}=\frac{1+o(1)}{\frac{h^2}{2}+o(h^2)}
-\sim\frac{2}{h^2},$$ et donc, quand $h$ tend vers $0$, $\ln|\sin h|+\frac{1}{1-\cos h}\sim\frac{2}{h^2}\rightarrow+\infty$. Par suite,
+\begin{align*}
+\ln|\sin h|+\frac{1}{1-\cos h} &= \frac{(1-\cos h)\ln|\sin h|+1}{1-\cos h} \\
+&= \frac{(-\frac{h^2}{2}+o(h^2))(\ln|h|+o(\ln|h|))+1}{\frac{h^2}{2}+o(h^2)} \\
+&= \frac{1+o(1)}{\frac{h^2}{2}+o(h^2)} \\
+&\sim \frac{2}{h^2},
+\end{align*} et donc, quand $h$ tend vers $0$, $\ln|\sin h|+\frac{1}{1-\cos h}\sim\frac{2}{h^2}\rightarrow+\infty$. Par suite,
 
 \begin{center}
 \fbox{
@@ -170,13 +178,23 @@ $\displaystyle\lim_{x\rightarrow+\infty}\frac{x\ln(\ch x-1)}{x^2+1}=1$.
 $$\ln(x-x^2)+x-\ln x=x+\ln(1-x)=-\frac{x^2}{2}+o(x^2)\sim-\frac{x^2}{2}.$$
 Ensuite,
 
-$$(\sin x)^x=e^{x\ln(\sin x)}=e^{x\ln(x-\frac{x^3}{6}+o(x^3))}=e^{x\ln x}e^{x\ln(1-\frac{x^2}{6}+o(x^2))}=x^xe^{-\frac{x^3}{6}+o(x^3)}=x^x\left(1-\frac{x^3}{6}+o(x^3)\right),$$
+\begin{align*}
+(\sin x)^x &= e^{x\ln(\sin x)} \\
+&= e^{x\ln(x-\frac{x^3}{6}+o(x^3))} \\
+&= e^{x\ln x}e^{x\ln(1-\frac{x^2}{6}+o(x^2))} \\
+&= x^xe^{-\frac{x^3}{6}+o(x^3)} \\
+&= x^x\left(1-\frac{x^3}{6}+o(x^3)\right),
+\end{align*}
 et,
 
 $$x^{\sin x}=e^{(x-\frac{x^3}{6}+o(x^3))\ln x}=e^{x\ln x}e^{-\frac{x^3\ln x}{6}+o(x^3\ln x)}=x^x\left(1-\frac{x^3\ln x}{6}+o(x^3\ln x)\right).$$
 Donc,
 
-$$(\sin x)^x-x^{\sin x}=x^x\left(1-\frac{x^3}{6}+o(x^3)\right)-x^x\left(1-\frac{x^3\ln x}{6}+o(x^3\ln x)\right)=x^x\left(\frac{x^3\ln x}{6}+o(x^3\ln x)\right)\sim\frac{x^3\ln x}{6},$$
+\begin{align*}
+(\sin x)^x-x^{\sin x} &= x^x\left(1-\frac{x^3}{6}+o(x^3)\right)-x^x\left(1-\frac{x^3\ln x}{6}+o(x^3\ln x)\right) \\
+&= x^x\left(\frac{x^3\ln x}{6}+o(x^3\ln x)\right) \\
+&\sim \frac{x^3\ln x}{6},
+\end{align*}
 et enfin
 
 $$\frac{(\sin x)^x-x^{\sin x}}{\ln(x-x2^)+x-\ln x}\sim\frac{x^3\ln x/6}{-x^2/2}=-\frac{x\ln x}{3}\rightarrow0.$$

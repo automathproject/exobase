@@ -168,7 +168,10 @@ $$D_n=\left|\begin{array}{ccccc}
     \item \question{$\mbox{det}(C_{n+i-1}^{j-1})_{1\leq i,j\leq p+1}$}
 \reponse{Pour $1\leq i\leq p$,
 
-$$L_{i+1}-L_i=(C_{n+i}^0-C_{n+i-1}^0,C_{n+i}^1-C_{n+i-1}^1,...,C_{n+i}^p-C_{n+i-1}^p)=(0,C_{n+i-1}^0,C_{n+i-1}^1,...,C_{n+i-1}^{p-1}).$$
+\begin{align*}
+L_{i+1}-L_i &= (C_{n+i}^0-C_{n+i-1}^0,C_{n+i}^1-C_{n+i-1}^1,...,C_{n+i}^p-C_{n+i-1}^p) \\
+&= (0,C_{n+i-1}^0,C_{n+i-1}^1,...,C_{n+i-1}^{p-1}).
+\end{align*}
 On remplace alors dans cet ordre $L_p$ par $L_p-L_{p-1}$ puis $L_{p-1}$ par $L_{p-1}-L_{p-2}$ puis ... puis $L_2$ par $L_2-L_1$ pour obtenir, avec des notations évidentes
 
 $$\mbox{det}(A_p)=\left|

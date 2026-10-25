@@ -19,7 +19,11 @@
 puis $f((0,1,0))=(0,1)$ et $f((0,0,1))=(-1,1)$. Calculer $f((3,-1,4))$ et $f((x,y,z))$ en général.}
 \reponse{Si $f$ existe alors nécessairement, pour tout $(x,y,z)\in\Rr^3$~:
 
-$$f((x,y,z))=xf((1,0,0))+yf((0,1,0))+zf((0,0,1))=x(1,1)+y(0,1)+z(-1,1)=(x-z,x+y+z).$$
+\begin{align*}
+f((x,y,z)) &= xf((1,0,0))+yf((0,1,0))+zf((0,0,1)) \\
+&= x(1,1)+y(0,1)+z(-1,1) \\
+&= (x-z,x+y+z).
+\end{align*}
 
 On en déduit l'unicité de $f$.
 

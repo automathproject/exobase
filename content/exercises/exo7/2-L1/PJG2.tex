@@ -70,9 +70,11 @@ Donc, $\forall n\in\Nn,\;I_n>0$.
 Soit $P_n=\frac{1}{n!}x^n(p-qx)^n$. $P_n$ est un polynôme de degré $2n$ et $0$ et $\frac{p}{q}$ sont racines d'ordre $n$ de $P_n$ et donc, pour $0\leq k\leq n$, racines d'ordre $n-k$ de $P_n^{(k)}$. En particulier, $P_n^{(k)}(0)$ et $P_n^{(k)}\left(\frac{p}{q}\right)$ sont, pour $0\leq k<n$, des entiers relatifs. De même, puisque $\mbox{deg }P_n=2n$, pour $k\geq2n+1$, $P_n^{(k)}\geq0$ et en particulier, $P_n^{(k)}(0)$ et $Pn^{(k)}\left(\frac{p}{q}\right)$ sont, pour $k\geq2n+1$, des entiers relatifs.
 Soit $k$ un entier tel que $n\leq k\leq2n$.
 
-$$\frac{1}{n!}x^n(p-qx)^n=\frac{1}{n!}x^n\sum_{i=0}^{n}C_n^ip^{n-i}(-1)^{i}q^ix^i
-=\sum_{i=0}^{n}\frac{C_n^i}{n!}p^{n-i}(-1)^{i}q^ix^{n+i}=
-\sum_{k=n}^{2n}\frac{C_n^{k-n}}{n!}p^{2n-k}(-1)^{k-n}q^{k-n}x^{k}.$$
+\begin{align*}
+\frac{1}{n!}x^n(p-qx)^n &= \frac{1}{n!}x^n\sum_{i=0}^{n}C_n^ip^{n-i}(-1)^{i}q^ix^i \\
+&= \sum_{i=0}^{n}\frac{C_n^i}{n!}p^{n-i}(-1)^{i}q^ix^{n+i} \\
+&= \sum_{k=n}^{2n}\frac{C_n^{k-n}}{n!}p^{2n-k}(-1)^{k-n}q^{k-n}x^{k}.
+\end{align*}
 On sait alors que 
 
 $$P_n^{(k)}(0)=k!\times(\mbox{coefficient de}\;x^k)=(-1)^{k-n}\frac{k!}{n!}C_n^{k-n}p^{2n-k}q^{k-n}.$$
@@ -109,7 +111,10 @@ $\pi$ est irrationnel.
 \textbullet~Soit $n\geq0$. Supposons que $e=\sum_{k=0}^{n}\frac{1}{k!}+\int_{0}^{1}\frac{(1-t)^n}{n!}e^t\;dt$.
 Une intégrations par parties fournit~:
 
-$$\int_{0}^{1}\frac{(1-t)^n}{n!}e^t\;dt=\left[-\frac{(1-t)^{n+1}}{(n+1)\times n!}e^t\right]_0^1+\int_{0}^{1}\frac{(1-t)^{n+1}}{(n+1)!}e^t\;dt=\frac{1}{(n+1)!}+\int_{0}^{1}\frac{(1-t)^{n+1}}{(n+1)!}e^t\;dt,$$
+\begin{align*}
+\int_{0}^{1}\frac{(1-t)^n}{n!}e^t\;dt &= \left[-\frac{(1-t)^{n+1}}{(n+1)\times n!}e^t\right]_0^1+\int_{0}^{1}\frac{(1-t)^{n+1}}{(n+1)!}e^t\;dt \\
+&= \frac{1}{(n+1)!}+\int_{0}^{1}\frac{(1-t)^{n+1}}{(n+1)!}e^t\;dt,
+\end{align*}
 et donc,
 
 $$e=\sum_{k=0}^{n}\frac{1}{k!}+\frac{1}{(n+1)!}+\int_{0}^{1}\frac{(1-t)^{n+1}}{(n+1)!}e^t\;dt=

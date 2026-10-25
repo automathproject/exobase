@@ -18,7 +18,10 @@
     \item \question{On suppose que $f$ est une fonction de classe $C^1$ sur $[a,b]$. Montrer que $\lim_{\lambda\rightarrow +\infty}\int_{a}^{b}\sin(\lambda t)f(t)\;dt=0$.}
 \reponse{Puisque $f$ est de classe $C^1$ sur $[a,b]$, on peut effectuer une intégration par parties qui fournit pour $\lambda>0$~:
 
-$$\left|\int_{a}^{b}f(t)\sin(\lambda t)\;dt\right|=\left|\frac{1}{\lambda}(-\left[\cos(\lambda t)f(t)\right]_{a}^{b}+\int_{a}^{b}f'(t)\cos(\lambda t)\;dt)\right|\leq\frac{1}{\lambda}(|f(a)|+|f(b)|+\int_{a}^{b}|f'(t)|\;dt).$$ 
+\begin{align*}
+\left|\int_{a}^{b}f(t)\sin(\lambda t)\;dt\right| &= \left|\frac{1}{\lambda}(-\left[\cos(\lambda t)f(t)\right]_{a}^{b}+\int_{a}^{b}f'(t)\cos(\lambda t)\;dt)\right| \\
+&\leq \frac{1}{\lambda}(|f(a)|+|f(b)|+\int_{a}^{b}|f'(t)|\;dt).
+\end{align*} 
 
 Cette dernière expression tend vers $0$ quand $\lambda$ tend vers $+\infty$, et donc $\int_{a}^{b}f(t)\sin(\lambda t)\;dt$ tend vers $0$ quand $\lambda$ tend vers $+\infty$.}
     \item \question{(***) Redémontrer le même résultat en supposant simplement que $f$ est continue par morceaux sur $[a,b]$ (commencer par le cas des fonctions en escaliers).}

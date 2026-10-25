@@ -19,7 +19,13 @@
 \reponse{
 ~\begin{enumerate}
             \item Pour tout entier $n$, on a
-               $$w_{n+1}=u_{n+1}-v_{n+1}=\frac{u_n+4v_n}{5}-\frac{u_n+5v_n}{6}=\frac{6u_n+24v_n-(5u_n+25v_n)}{30}=\frac{u_n-v_n}{30}=\frac{w_n}{30}$$
+               \begin{align*}
+w_{n+1} &= u_{n+1}-v_{n+1} \\
+&= \frac{u_n+4v_n}{5}-\frac{u_n+5v_n}{6} \\
+&= \frac{6u_n+24v_n-(5u_n+25v_n)}{30} \\
+&= \frac{u_n-v_n}{30} \\
+&= \frac{w_n}{30}
+\end{align*}
                La suite $(w_n)$ est une suite géométrique, de raison $\frac{1}{30}$ et de premier terme $w_0=u_0-v_0=20-1=19$. Puisque $w_0>0$ et $\frac{1}{30}>0$, la suite $(w_n)$ est donc à terme strictement positifs.
             \item Ainsi, pour tout entier $n$, on a $$w_n=19\left(\frac{1}{30}\right)^n$$
             Puisque $\displaystyle{-1<\frac{1}{30}<1}$, $\displaystyle{\lim_{n\rightarrow +\infty} \left(\frac{1}{30}\right)^n = 0}$. Par produit, $$\lim_{n\rightarrow +\infty} w_n=0$$

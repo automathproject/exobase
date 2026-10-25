@@ -40,11 +40,10 @@ de $f$ en~$0$, $R$ son rayon et~$d$ la distance de~$0$ à~$\mathrm{fr}(U)$
     D'après la première question on a~:
     $\Bigl|\frac{f^{(n)}(r_0e^{i\theta})}{n!}\Bigr| \le \frac M{\rho^n}$
     où $M$ majore $|f|$ sur $\overline D(0,r_0+\rho)$ d'où pour $|r-r_0|<\rho$~:
-    $$ \int_{\theta=0}^{2\pi}\frac{f(re^{i\theta})}{e^{in\theta}}\, d\theta
-      =  \int_{\theta=0}^{2\pi} \sum_{k=0}^\infty
-           \frac{f^{(k)}(r_0e^{i\theta})}{k!} (r-r_0)^k e^{i(k-n)\theta}\, d\theta
-      = \sum_{k=0}^\infty (r-r_0)^k  \int_{\theta=0}^{2\pi}
-           \frac{f^{(k)}(r_0e^{i\theta})}{k!} e^{i(k-n)\theta}\, d\theta.$$
+    \begin{align*}
+\int_{\theta=0}^{2\pi}\frac{f(re^{i\theta})}{e^{in\theta}}\, d\theta &= \int_{\theta=0}^{2\pi} \sum_{k=0}^\infty \frac{f^{(k)}(r_0e^{i\theta})}{k!} (r-r_0)^k e^{i(k-n)\theta}\, d\theta \\
+&= \sum_{k=0}^\infty (r-r_0)^k \int_{\theta=0}^{2\pi} \frac{f^{(k)}(r_0e^{i\theta})}{k!} e^{i(k-n)\theta}\, d\theta.
+\end{align*}
     ce qui démontre l'analycité de $\varphi = r \mapsto  \int_{\theta=0}^{2\pi}\frac{f(re^{i\theta})}{e^{in\theta}}\, d\theta$
     sur $]0,d[$.
     

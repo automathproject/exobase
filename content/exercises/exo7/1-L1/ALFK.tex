@@ -274,7 +274,12 @@ De plus, la matrice extraite $\left(
 \right)$ (lignes et colonnes 1 et 2) est inversible et finalement $\mbox{rg}A=2$.
 On suppose $n\geq2$. La $j$-ème colonne de la matrice s'écrit
 
-$$C_j=(\sin i\cos j+\sin j\cos i)_{1\leq i\leq n}=\sin jC+\cos jS\;\mbox{avec}\;C=(\cos i)_{1\leq i\leq n}\;\mbox{et}\;S=(\sin i)_{1\leq i\leq n}.$$
+\begin{align*}
+C_j &= (\sin i\cos j+\sin j\cos i)_{1\leq i\leq n} \\
+&= \sin jC+\cos jS\;\mbox{avec}\;C \\
+&= (\cos i)_{1\leq i\leq n}\;\mbox{et}\;S \\
+&= (\sin i)_{1\leq i\leq n}.
+\end{align*}
 
 Par suite, $\forall j\in\{1,...,n\}$, $C_j\in\mbox{Vect}(C,S)$ ce qui montre que $\mbox{rg}A\leq2$. De plus, la matrice extraite formée des termes lignes et colonnes 1 et 2 est inversible car son déterminant vaut
 $\sin2\sin4-\sin^23=-0,7...\neq0$ et finalement $\mbox{rg}A=2$.

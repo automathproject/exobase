@@ -73,7 +73,12 @@ Pour cela, on montre que si $x$ et $y$ sont des entiers naturels vérifiant
 $y+\frac{(x+y)(x+y+1)}{2}=n$, alors nécessairement, $x+y=p$ (et $y=n-\frac{p(p+1)}{2})$.
 Soient donc $x$ et $y$ deux entiers naturels. On a~:
 
-$$\frac{(x+y)(x+y+1)}{2}\leq\frac{(x+y)(x+y+1)}{2}+y=n<\frac{(x+y)(x+y+1)}{2}+(x+y+1)=\frac{(x+y+1)(x+y+2)}{2},$$
+\begin{align*}
+\frac{(x+y)(x+y+1)}{2} &\leq \frac{(x+y)(x+y+1)}{2}+y \\
+&= n \\
+&< \frac{(x+y)(x+y+1)}{2}+(x+y+1) \\
+&= \frac{(x+y+1)(x+y+2)}{2},
+\end{align*}
 et le lemme montre que $x+y=p$. L'unicité du couple $(x,y)$ est donc démontrée. $f$ est une application injective et
 surjective et donc $f$ est bijective. Sa réciproque est $\begin{array}[t]{cccc}
 f^{-1}~:&\Nn&\rightarrow&\Nn^2\\

@@ -27,7 +27,11 @@ Soit $(x_i)_{1\leq i\leq p}$ une famille obtusangle d'un espace $E$ de dimension
 Soit, pour $1\leq i\leq p-1$, $y_i=x_i-\frac{(x_i|x_p)}{||x_p||^2}x_p$ le projeté orthogonal de $x_i$ sur $H$.
 Vérifions que la famille $(y_i)_{1\leq i\leq p-1}$ est une famille obtusangle. Soit $(i,j)\in\llbracket1,p-1\rrbracket$ tel que $i\neq j$.
  
-$$y_i.y_j=x_i.x_j-\frac{(x_i|x_p)(x_j|x_p)}{||x_p||^2}-\frac{(x_j|x_p)(x_i|x_p)}{||x_p||^2}+\frac{(x_i|x_p)(x_j|x_p)(x_p|x_p)}{||x_p||^4}= x_i|x_j-\frac{(x_i|x_p)(x_j|x_p)}{||x_p||^2}<0.$$
+\begin{align*}
+y_i.y_j &= x_i.x_j-\frac{(x_i|x_p)(x_j|x_p)}{||x_p||^2}-\frac{(x_j|x_p)(x_i|x_p)}{||x_p||^2}+\frac{(x_i|x_p)(x_j|x_p)(x_p|x_p)}{||x_p||^4} \\
+&= x_i|x_j-\frac{(x_i|x_p)(x_j|x_p)}{||x_p||^2} \\
+&< 0.
+\end{align*}
 Mais alors, par hypothèse de récurrence, $p-1\leq 1+\mbox{dim}H=n+1$ et donc $p\leq n+2$. 
 Le résultat est démontré par récurrence.
 \textbf{2ème solution.}
