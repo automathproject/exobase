@@ -59,7 +59,7 @@ réponse) :
 ```latex
 \reponse{
   …
-  \animation{ebva-directionnelle}{Dérivée directionnelle en l'origine}
+  \animation[\exercisespath img/pdf/ebva-tikz-1]{ebva-directionnelle}{Dérivée directionnelle en l'origine}
 }
 ```
 
@@ -67,8 +67,11 @@ réponse) :
   `content/animations/<source>/<nom>.html`. Il doit être unique toutes sources
   confondues, car l'adresse publique `https://openyourmath.org/animation/<nom>`
   ne porte pas la source ; on le préfixe par l'uuid de l'exercice.
-- La **légende** est du texte simple, sans formule : c'est le titre de la figure
-  et la seule trace de l'animation dans un PDF, avec son adresse et son QR code.
+- L'**image fixe**, entre crochets et facultative, s'écrit comme le chemin d'un
+  `\includegraphics` : imprimée dans l'encadré du PDF, elle sert aussi de vignette
+  sur le site. On la dessine de préférence en TikZ.
+- La **légende** est du texte simple, sans formule : c'est le titre de la figure ;
+  dans un PDF, elle accompagne l'image fixe, l'adresse et son QR code.
 - L'exercice reste complet sans l'animation. La page est autonome (aucune
   ressource externe) ; la charte de création et la production sont décrites
   dans `docs/animations.md` d'OpenYourMath.
