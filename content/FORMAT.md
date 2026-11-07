@@ -51,6 +51,28 @@ Le contenu de l'exercice est encapsulé dans `\contenu{}`. Les commandes disponi
 Pour plusieurs questions, utiliser `\begin{enumerate}...\end{enumerate}` avec
 `\item \question{...}` (et `\indication{}` / `\reponse{}` associés si besoin).
 
+### Animation interactive
+
+Une figure interactive se place dans le bloc qu'elle illustre (énoncé, question,
+réponse) :
+
+```latex
+\reponse{
+  …
+  \animation{ebva-directionnelle}{Dérivée directionnelle en l'origine}
+}
+```
+
+- Le **nom** (lettres, chiffres, `-`, `_`) désigne la page
+  `content/animations/<source>/<nom>.html`. Il doit être unique toutes sources
+  confondues, car l'adresse publique `https://openyourmath.org/animation/<nom>`
+  ne porte pas la source ; on le préfixe par l'uuid de l'exercice.
+- La **légende** est du texte simple, sans formule : c'est le titre de la figure
+  et la seule trace de l'animation dans un PDF, avec son adresse et son QR code.
+- L'exercice reste complet sans l'animation. La page est autonome (aucune
+  ressource externe) ; la charte de création et la production sont décrites
+  dans `docs/animations.md` d'OpenYourMath.
+
 ## Exemple minimal
 
 ```latex

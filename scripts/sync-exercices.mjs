@@ -38,14 +38,21 @@ const MAPPINGS = [
     to: `content/images/amscc/${format}`,
     accept: () => true
   })),
-  { kind: 'code', from: 'code/python', to: 'content/code/amscc/python', accept: name => name.endsWith('.py') }
+  { kind: 'code', from: 'code/python', to: 'content/code/amscc/python', accept: name => name.endsWith('.py') },
+  {
+    kind: 'animations',
+    from: 'animations',
+    to: 'content/animations/amscc',
+    accept: name => name.endsWith('.html')
+  }
 ];
 
 const LABELS = {
   sources: 'Sources .tex',
   referential: 'Référentiel AMSCC',
   images: 'Images et sources graphiques',
-  code: 'Extraits Python'
+  code: 'Extraits Python',
+  animations: 'Animations interactives'
 };
 const ACTIONS = {
   add: { mark: '＋', title: 'Ajouts' },
@@ -200,7 +207,8 @@ async function recordSync(commit, entries, previous) {
     provenance.exercices === counts.sources &&
     previousCounts.referential === (counts.referential ?? 0) &&
     previousCounts.images === (counts.images ?? 0) &&
-    previousCounts.code === (counts.code ?? 0);
+    previousCounts.code === (counts.code ?? 0) &&
+    previousCounts.animations === (counts.animations ?? 0);
   if (unchangedBookmark) return false;
   provenance.exercices = counts.sources ?? 0;
   provenance.sync = {
@@ -210,7 +218,8 @@ async function recordSync(commit, entries, previous) {
       sources: counts.sources ?? 0,
       referential: counts.referential ?? 0,
       images: counts.images ?? 0,
-      code: counts.code ?? 0
+      code: counts.code ?? 0,
+      animations: counts.animations ?? 0
     }
   };
   await fs.writeFile(PROVENANCE, `${JSON.stringify(provenance, null, 2)}\n`);

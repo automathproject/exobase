@@ -12,8 +12,8 @@ Exercices  →  exobase  →  OpenYourMath
 ```
 
 `Exercices` reste le dépôt d'édition des exercices AMSCC. `exobase` en est le
-miroir canonique versionné, limité aux sources, images, codes, auteurs et
-référentiels. Il ne
+miroir canonique versionné, limité aux sources, images, codes, animations,
+auteurs et référentiels. Il ne
 contient pas les données dérivées d'OpenYourMath (cache, base SQLite, artefacts
 de rendu et embeddings).
 
@@ -32,6 +32,8 @@ Le dossier `content/` suit le contrat de contenu d'OpenYourMath :
 - `content/exercises/<source>/` : sources `.tex` ;
 - `content/images/<source>/<format>/` : images et sources graphiques ;
 - `content/code/<source>/python/` : extraits Python référencés par `\pythoncode` ;
+- `content/animations/<source>/` : pages interactives autonomes référencées par
+  `\animation{nom}{légende}`, servies par OpenYourMath à `/animation/<nom>` ;
 - `content/provenance/` : manifestes de provenance par source ;
 - `content/referentials/` : taxonomies canoniques et tables de compatibilité ;
 - `content/authors.json` : auteurs et licences ;
