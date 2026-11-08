@@ -63,8 +63,8 @@ réponse) :
 }
 ```
 
-- Le **nom** (lettres, chiffres, `-`, `_`) désigne la page
-  `content/animations/<source>/<nom>.html`. Il doit être unique toutes sources
+- Le **nom** (lettres, chiffres, `-`, `_`) désigne la figure
+  `content/animations/<source>/<nom>.js`, écrite avec le kit d'OpenYourMath. Il doit être unique toutes sources
   confondues, car l'adresse publique `https://openyourmath.org/animation/<nom>`
   ne porte pas la source ; on le préfixe par l'uuid de l'exercice.
 - L'**image fixe**, entre crochets et facultative, s'écrit comme le chemin d'un
@@ -72,8 +72,8 @@ réponse) :
   sur le site. On la dessine de préférence en TikZ.
 - La **légende** est du texte simple, sans formule : c'est le titre de la figure ;
   dans un PDF, elle accompagne l'image fixe, l'adresse et son QR code.
-- L'exercice reste complet sans l'animation. La page est autonome (aucune
-  ressource externe) ; la charte de création et la production sont décrites
+- L'exercice reste complet sans l'animation. La figure n'utilise que le kit
+  (aucune ressource externe) ; la charte de création et le kit sont décrits
   dans `docs/animations.md` d'OpenYourMath.
 
 ## Exemple minimal

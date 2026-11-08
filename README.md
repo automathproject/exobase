@@ -32,7 +32,7 @@ Le dossier `content/` suit le contrat de contenu d'OpenYourMath :
 - `content/exercises/<source>/` : sources `.tex` ;
 - `content/images/<source>/<format>/` : images et sources graphiques ;
 - `content/code/<source>/python/` : extraits Python référencés par `\pythoncode` ;
-- `content/animations/<source>/` : pages interactives autonomes référencées par
+- `content/animations/<source>/` : figures interactives (`<nom>.js`) référencées par
   `\animation{nom}{légende}`, servies par OpenYourMath à `/animation/<nom>` ;
 - `content/provenance/` : manifestes de provenance par source ;
 - `content/referentials/` : taxonomies canoniques et tables de compatibilité ;

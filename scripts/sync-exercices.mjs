@@ -43,7 +43,7 @@ const MAPPINGS = [
     kind: 'animations',
     from: 'animations',
     to: 'content/animations/amscc',
-    accept: name => name.endsWith('.html')
+    accept: name => name.endsWith('.js')
   }
 ];
 
