@@ -64,7 +64,9 @@ réponse) :
 ```
 
 - Le **nom** (lettres, chiffres, `-`, `_`) désigne la figure
-  `content/animations/<source>/<nom>.js`, écrite avec le kit d'OpenYourMath. Il doit être unique toutes sources
+  `content/animations/<source>/<nom>.js`, écrite avec le kit d'OpenYourMath, qui
+  déclare ses métadonnées écrites en dur (`meta: { title, description, author, kit }`,
+  plus `concepts`). Le nom doit être unique toutes sources
   confondues, car l'adresse publique `https://openyourmath.org/animation/<nom>`
   ne porte pas la source ; on le préfixe par l'uuid de l'exercice.
 - L'**image fixe**, entre crochets et facultative, s'écrit comme le chemin d'un
