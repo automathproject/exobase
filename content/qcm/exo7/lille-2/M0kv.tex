@@ -1,0 +1,48 @@
+\uuid{M0kv}
+\titre{Matrice d'une application linéaire}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{1}
+\theme{Matrice d'une application linéaire}
+\exo7qcmid{lille-2.matrice-application.004}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire}
+On considère $\Rr^2$ muni de sa base canonique et $f$ l'application linéaire définie par :
+$$\begin{array}{rccc}f:&\Rr^2 &\to& \Rr^2\\
+& (x,y)&\to &(2x+y,4x-3y).\end{array}$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{La matrice de $f$ dans la base canonique est : $
+\left(\begin{array}{rc}
+2&4\\
+1&-3\\
+\end{array}\right)$}.
+\good{La matrice de $f$ dans la base canonique est : $
+\left(\begin{array}{rc}
+2&1\\
+4&-3\\
+\end{array}\right)$}.
+\good{$f$ est injective}.
+\good{ $f$ est bijective}.
+\end{answers}
+\begin{explanations} Soit ${\cal {B}}=\{e_1,e_2\}$ la base canonique de $\Rr^2$. La matrice de $f$ dans la base  ${\cal {B}}$ est la matrice  dont la $j$ième colonne est constituée des coordonnées de  $f(e_j)$ dans la base ${\cal {B}}$. Cette matrice est :
+ $
+\left(\begin{array}{rc}
+2&1\\
+4&-3\\
+\end{array}\right)$.
+\vskip0mm
+On vérifie que $\ker f=\{(0,0)\}$, donc $f$ est un endomorphisme  injectif de $\Rr^2$,
+et donc $f$ est bijectif.
+\end{explanations}
+\end{question}
+}

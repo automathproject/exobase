@@ -1,0 +1,33 @@
+\uuid{Mbkz}
+\titre{Points stationnaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Géométrie}
+\chapitre{Courbes planes}
+\sousChapitre{Courbes paramétrées}
+\difficulte{3}
+\theme{Courbes paramétrées, points stationnaires}
+\exo7qcmid{lille-2.courbes.012}
+
+\contenu{
+\begin{question}
+\qclassification{244.01}
+\qtags{motcle=points stationnaires, asymptotes}
+La trajectoire $\Gamma$ d'une particule en mouvement est donnée par les équations
+$$x=\frac{t^2}{1-t}\quad \mbox{et} \quad y=\frac{3t-1}{1-t^2}.$$
+\begin{answers}
+\bad{$\Gamma$ admet un seul point stationnaire.}
+\bad{La droite d'équation $\displaystyle y=1/2$ est une asymptote quand $t$ tend vers $-1$.}
+\good{La droite d'équation $\displaystyle y=x+1$ est une asymptote quand $t$ tend vers $1$.}
+\good{Le point de paramètre $0$ est un méplat.}
+\end{answers}
+\begin{explanations}
+D'abord, $\Gamma$ n'a pas de point stationnaire car $y'(t)\neq 0$. Puis, $\displaystyle \lim_{t\to -1}x(t)=1/2$ et $\displaystyle \lim_{t\to -1^{\pm}}y(t)=\pm\infty$, donc la droite d'équation $x=1/2$ est une asymptote quand $t$ tend vers $-1$. De même, $\displaystyle \lim_{t\to 1^{\pm}}x(t)=\lim_{t\to 1^{\pm}}y(t)=\pm \infty$, $\displaystyle \lim_{t\to 1^{\pm}}\frac{y(t)}{x(t)}=1$ et $\displaystyle \lim_{t\to 2^{\pm}}[y(t)-x(t)]=1$. Donc la droite d'équation $\displaystyle y=x+1$ est une asymptote quand $t$ tend vers $1$. Enfin, le $DL_2(0)$ de $f(t)=(x(t),y(t))$ est
+$$f(t)=(0,-1)+t(0,3)+t^2(1,-1)+t^2\left(\varepsilon_1(t),\varepsilon_2(t)\right)\mbox{ avec }\lim _{t\to 0}\varepsilon_i(t)=0.$$
+Donc le point de paramètre $0$ est un point ordinaire.
+\end{explanations}
+\end{question}
+}

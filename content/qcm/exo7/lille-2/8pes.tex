@@ -1,0 +1,32 @@
+\uuid{8pes}
+\titre{Équation homogène/solution particulière}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{Equations du premier ordre, équation homogène, solution particulière}
+\exo7qcmid{lille-2.equations-differentielles.007}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+\qtags{motcle=équation homogène/solution particulière}
+On considère l'équation différentielle $(E)$ : $\displaystyle \left(1+\cos ^2x\right)y'+y\sin (2x)=0$. Parmi les affirmations suivantes cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle A(x)=\ln (1+\cos ^2x)$ est une primitive sur $\Rr$ de $\displaystyle a(x)=\frac{\sin (2x)}{1+\cos ^2x}$.}
+\good{Toute solution de $(E)$ vérifie $y'(0)=0$.}
+\bad{$(E)$ n'admet pas de solution vérifiant $y(0)=0$.}
+\good{La solution générale de $(E)$ est : $\displaystyle y=k+k\cos ^2x$, $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Toute solution $y$ de $(E)$ vérifie $y'(0)=0$ car ,en posant $x=0$ dans $(E)$, on obtient $y'(0)=0$. La relation $\sin(2x)=2\sin x \cos x$ montre que $a(x)$ est de la forme $\displaystyle \frac{-u'}{u}$ avec $u=1+\cos ^2x$. Donc toute primitive de $a$ est de la forme
+$$A(x)=-\ln (1+\cos ^2x)+C,\quad C\in \Rr.$$
+La solution générale de $(E)$ est $y=k(1+\cos ^2x)$, $k\in \Rr$.
+\end{explanations}
+\end{question}
+}

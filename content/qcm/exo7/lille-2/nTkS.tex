@@ -1,0 +1,37 @@
+\uuid{nTkS}
+\titre{Solution générale/raccord}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{Equations du premier ordre, solution générale, raccord}
+\exo7qcmid{lille-2.equations-differentielles.014}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+\qtags{motcle=solution générale/raccord}
+On considère l'équation différentielle $(E)$ : $t^2y'=y$. Parmi les
+affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$(E)$ est une équation linéaire homogène du premier ordre.}
+\bad{La fonction $\displaystyle y=\mathrm{e}^{1/t}$ est une solution de $(E)$ sur $]0,+\infty[$.}
+\good{La solution générale de $(E)$ sur $]0,+\infty[$ est $\displaystyle y=k\mathrm{e}^{-1/t}$, $k\in \Rr$.}
+\bad{La fonction nulle est l'unique solution de $(E)$ sur $\Rr$.}
+\end{answers}
+\begin{explanations}
+Une primitive de $-1/t^2$ est $1/t$, donc la solution générale de $(E)$, sur $]0,+\infty[$ (ou sur $]-\infty ,0[$) est
+$$y=k\mathrm{e}^{-1/t},\quad k\in \Rr.$$
+Si $y$ est une solution de $(E)$ sur $\Rr$, alors $y(0)=0$ et
+$$y(t)=\left\{\begin{array}{ll}k_1\mathrm{e}^{-1/t}&\mbox{si }t>0\\ k_2\mathrm{e}^{-1/t}&\mbox{si }t<0.\end{array}\right.$$
+La continuité en $0$ implique que $k_2=0$. Ainsi
+$$y(t)=k_1\mathrm{e}^{-1/t}\mbox{ si }t>0\mbox{ et }y(t)=0\mbox{ si }t\leq 0.\leqno{(\star)}$$
+De plus, une telle fonction est dérivable en $0$. Réciproquement, toute fonction définie par $(\star)$ est une solution de $(E)$ sur $\Rr$.
+\end{explanations}
+\end{question}
+}

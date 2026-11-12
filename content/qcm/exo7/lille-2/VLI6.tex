@@ -1,0 +1,34 @@
+\uuid{VLI6}
+\titre{Primitives usuelles/fractions rationnelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, primitives usuelles, fractions rationnelles}
+\exo7qcmid{lille-2.primitives.043}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=primitives usuelles/fractions rationnelles}
+Le changement de variable $t=x^2$, pour $x\in ]0,+\infty[$, donne :
+\begin{answers}
+\bad{$\displaystyle \int \frac{2\mathrm{d}x}{x(x^2+1)^2}=\int \frac{\mathrm{d}t}{(t+1)^2}$.}
+\good{$\displaystyle \int \frac{2\mathrm{d}x}{x(x^2+1)^2}=\int \frac{\mathrm{d}t}{t(t+1)^2}$.}
+\bad{$\displaystyle \int \frac{2\mathrm{d}x}{x(x^2+1)^2}=\int \frac{\mathrm{d}t}{\sqrt{t}(t+1)^2}$.}
+\good{$\displaystyle \int \frac{2\mathrm{d}x}{x(x^2+1)^2}=\int \frac{\mathrm{d}t}{t}-\int \frac{\mathrm{d}t}{t+1}-\int \frac{\mathrm{d}t}{(t+1)^2}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $t= x^2$, on a : $\mathrm{d}t=2x\mathrm{d}x$ et
+$$\int \frac{2\mathrm{d}x}{x(x^2+1)^2}=\int \frac{2x\mathrm{d}x}{x^2(x^2+1)^2}=\int \frac{\mathrm{d}t}{t(t+1)^2}.$$
+Ensuite, on décompose en éléments simples donne :
+$$\frac{1}{t(t+1)^2}=\frac{1}{t}-\frac{1}{t+1}-\frac{1}{(t+1)^2}.$$
+\end{explanations}
+\end{question}
+}

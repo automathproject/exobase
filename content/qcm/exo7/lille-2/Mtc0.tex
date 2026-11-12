@@ -1,0 +1,34 @@
+\uuid{Mtc0}
+\titre{Primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Calculs d'intégrales, primitives usuelles}
+\exo7qcmid{lille-2.integrales.001}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=primitives usuelles}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int _0^1\frac{\mathrm{d}x}{(x+1)^2}=\frac{1}{(1+1)^2}-\frac{1}{(0+1)^2}=-\frac{3}{4}$.}
+\bad{$\displaystyle \int _0^1\frac{\mathrm{d}x}{x+1}=\frac{1}{1+1}-\frac{1}{0+1}=-\frac{1}{2}$.}
+\good{$\displaystyle \int _0^1\frac{\mathrm{d}x}{\sqrt{x+1}}=2(\sqrt{2}-1)$.}
+\bad{$\displaystyle \int _0^1\sqrt{x+1}\,\mathrm{d}x=\frac{1}{2(\sqrt{2}-1)}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $u=1+x$, on a : $\mathrm{d}u=\mathrm{d}x$, $u(0)=1$, $u(1)=2$ et
+$$\int _0^1\frac{\mathrm{d}x}{(x+1)^2}=\int _1^2\frac{\mathrm{d}u}{u^2}=\left[\frac{-1}{u}\right]_1^2=\frac{1}{2}\quad \mbox{ et }\quad \int _0^1\frac{\mathrm{d}x}{x+1}=\int _1^2\frac{\mathrm{d}u}{u}=\Big[\ln u\Big]_1^2=\ln 2.$$
+De même, on vérifie que :
+$\displaystyle \int _0^1\frac{\mathrm{d}x}{\sqrt{x+1}}=2(\sqrt{2}-1)$ et $\displaystyle \int _0^1\sqrt{x+1}\,\mathrm{d}x=\frac{2}{3}(2\sqrt{2}-1)$.
+\end{explanations}
+\end{question}
+}

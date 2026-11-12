@@ -1,0 +1,35 @@
+\uuid{uNgV}
+\titre{Solution générale/raccord}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{Equations du premier ordre, solution générale, raccord}
+\exo7qcmid{lille-2.equations-differentielles.019}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+\qtags{motcle=solution générale/raccord}
+On considère l'équation différentielle $(E)$ : $(1-x^2)y'-(1+x)y=1$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{La solution générale de $(E)$ sur $]-\infty ,-1[$, $]-1,1[$ ou $]1,+\infty[$ est :
+$$\displaystyle y=\frac{k+\ln |1+x|}{1-x},\; k\in \Rr.$$}
+\bad{L'équation $(E)$ admet une solution sur $\Rr$.}
+\bad{L'équation $(E)$ admet une solution sur $]-\infty ,1[$.}
+\good{L'équation $(E)$ admet une unique solution sur $]-1,+\infty [$.}
+\end{answers}
+\begin{explanations}
+La solution générale de l'équation homogène sur l'un de ces intervalles  est $\displaystyle y=\frac{k}{1-x}$, $k\in \Rr$. La variation de la constante implique que $\displaystyle y_0=\frac{\ln |1+x|}{1-x}$ est une solution particulière. En posant $x=-1$ dans $(E)$, on obtient $0=1$ ce qui est absurde. Donc $(E)$ n'admet pas de solution ni sur $\Rr$ ni sur $]-\infty ,1[$.
+\vskip2mm
+\noindent Si $y$ est une solution sur $]-1,+\infty [$, on aura :
+$$y(x)=\left\{\begin{array}{lll}\displaystyle \frac{k_1+\ln (1+x)}{1-x}&\mbox{si}&x\in ]-1,1[ \\ \\ \displaystyle \frac{k_2+\ln (1+x)}{1-x}&\mbox{si}&x\in ]1,+\infty[ \end{array}\right.$$
+et $y(1)=-1/2$. La continuité en $1$ implique que $k_1=k_2=-\ln 2$. Une telle fonction est aussi dérivable en $1$. Ainsi $(E)$ admet une unique solution sur $]-1,+\infty [$.
+\end{explanations}
+\end{question}
+}

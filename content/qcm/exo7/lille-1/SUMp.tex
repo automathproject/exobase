@@ -1,0 +1,34 @@
+\uuid{SUMp}
+\titre{Fonction majorée/minorée}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Notion de fonctions, fonction majorée, minorée}
+\exo7qcmid{lille-1.continuite.009}
+
+\contenu{
+\begin{question}
+\qclassification{123.00}
+\qtags{motcle=fonction majorée/minorée}
+Soient $f,g : \Rr \to \Rr$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{Si $f$ est bornée et $g$ majorée alors $f-g$ est bornée.}
+
+    \good{Si $f$ bornée et $g$ majorée alors $f-g$ est minorée.}
+
+    \bad{Si $f$ et $g$ sont minorées, alors $f \times g$ est minorée.}
+
+    \bad{Si $f$ et $g$ sont minorées, alors $|f \times g|$ est bornée.}
+\end{answers}
+\begin{explanations}
+La somme de deux fonctions majorées (resp. minorées) est majorée (resp. minorée). Ce n'est pas le cas pour le produit : par exemple
+$f(x) = -1$ est minorée, $g(x) = \exp(x)$ aussi, mais $f \times g (x) = -\exp(x)$ ne l'est pas.
+\end{explanations}
+\end{question}
+}

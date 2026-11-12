@@ -1,0 +1,52 @@
+\uuid{NS04}
+\titre{Matrice d'une application linéaire/Noyau/Image/Changement de bases}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Noyau, Image, Changement de bases}
+\exo7qcmid{lille-2.matrice-application.018}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Changement de bases}
+Soit $f$ l'endomorphisme de $\Rr^3$ dont la matrice dans la base canonique ${\cal B}=\{e_1,e_2,e_3\}$ est :
+$$A = \left(\begin{array}{rcc}
+1&-1&1\\
+0&1&0\\
+0&-1&2\\
+\end{array}\right).$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\dim \ker (f-Id) = 2 $ et $\dim \ker (f-2Id) = 1 $}.
+\bad{$\dim \ker (f-Id) = 1 $ et $\dim \ker (f-2Id) = 2 $}.
+\good{Il existe une base de $\Rr^3$ dans laquelle la matrice de $f$ est : $B= \left(\begin{array}{rcc}
+1&0&0\\
+0&1&0\\
+0&0&2\\
+\end{array}\right)$}.
+\good{Il existe une matrice $C$ inversible telle que : $C^{-1}AC=  \left(\begin{array}{rcc}
+1&0&0\\
+0&1&0\\
+0&0&2\\
+\end{array}\right)$}.
+\end{answers}
+\begin{explanations} On vérifie que $\dim \ker (f-Id) = 2 $ et $\dim \ker (f-2Id) = 1 $. Soit $\{u_1,u_2\}$ une base de $\ker (f-Id)$ et  $\{u_3\}$ une base de $\ker (f-2Id)$.
+\vskip0mm
+Soit $\lambda_1, \lambda_2,\lambda_3$ des réels tels que $\lambda_1u_1+\lambda_2u_2+\lambda_3u_3=0$. En considérant l'image par $f$, on obtient $\lambda_1u_1+\lambda_2u_2+2\lambda_3u_3=0$. On déduit que $\lambda_3=0$ et comme $\{u_1,u_2\}$  est libre,
+$\lambda_1=\lambda_2=0$.
+\vskip0mm
+Par conséquent, ${\cal B}' = \{u_1,u_2,u_3\}$ est une base de $\Rr^3$. Dans cette base, la matrice de $f$ est : $B= \left(\begin{array}{rcc}
+1&0&0\\
+0&1&0\\
+0&0&2\\
+\end{array}\right)$. On prend $C$ la matrice de passage de la base  ${\cal B}$ à la base ${\cal B}'$, c.à.d la matrice de l'identité de $\Rr^3$ de la base ${\cal B}'$ à la base  ${\cal B}$.
+\end{explanations}
+\end{question}
+}

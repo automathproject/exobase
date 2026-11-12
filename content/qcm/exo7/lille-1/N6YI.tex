@@ -1,0 +1,32 @@
+\uuid{N6YI}
+\titre{Convergence}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, convergence}
+\exo7qcmid{lille-1.suites.021}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=convergence}
+Soient $a$ et $b$ deux réels tels que $a>b>0$. On pose $\displaystyle u_n=\frac{a^n-b^n}{a^n+b^n}$ et $\displaystyle v_n=\frac{na^{2n}-b^{2n}}{a^{2n}+b^{2n}}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{Les suites $(u_n)$ et $(v_n)$ sont divergentes.}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=1$ et $(v_n)$ est divergente.}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=1$ et $\displaystyle \lim _{n\to +\infty}v_n=+\infty$}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=+\infty$}
+\end{answers}
+\begin{explanations}
+D'abord, $\displaystyle u_n=\frac{a^n\times \left[1-\left(\frac{b}{a}\right)^n\right]}{a^n\times \left[1+\left(\frac{b}{a}\right)^n\right]}=\frac{1-\left(\frac{b}{a}\right)^n}{1+\left(\frac{b}{a}\right)^n}$. Or $\displaystyle \left(\frac{b}{a}\right)^n$ est le terme général d'une suite géométrique de limite $0$, donc $\displaystyle \lim _{n\to +\infty}u_n=1$. De même,
+$$\displaystyle v_n=\frac{na^{2n}\times \left[1-\frac{1}{n}\left(\frac{b}{a}\right)^{2n}\right]}{a^{2n}\times \left[1+\left(\frac{b}{a}\right)^{2n}\right]}=n\frac{1-\frac{1}{n}\left(\frac{b}{a}\right)^{2n}}{1+\left(\frac{b}{a}\right)^{2n}}.$$
+Donc $\displaystyle \lim _{n\to +\infty}v_n=+\infty$ car $\displaystyle \lim _{n\to +\infty}\frac{1-\frac{1}{n}\left(\frac{b}{a}\right)^{2n}}{1+\frac{1}{n}\left(\frac{b}{a}\right)^{2n}}=1$.
+\end{explanations}
+\end{question}
+}

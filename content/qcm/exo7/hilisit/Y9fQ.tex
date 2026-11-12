@@ -1,0 +1,31 @@
+\uuid{Y9fQ}
+\titre{Nombres premiers}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{3}
+\theme{Nombres premiers}
+\exo7qcmid{hilisit.arithmetique.038}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+ Soit $a = 79 \, 475 = 5^2 \times 11 \times 17^2$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+       \bad{$\pgcd(a,75) = 3 \times 5^2$}
+       \good{$\pgcd(a,75) = 5^2$}
+       \bad{$\ppcm(a,75) = 3 \times 11 \times 17^2$}
+       \bad{$75 | a$}
+    \end{answers}
+    \begin{explanations}
+    On a $75 = 3 \times 5^2$. En utilisant les décompositions en produits de facteurs premiers, on obtient :
+    $$ \pgcd(a,75) = 5^2 = 25 \qquad ; \qquad \ppcm(a,75) = 3 \times 5^2 \times 11 \times 17^2$$
+    Enfin $a$ n'est pas divisible par $3$ donc il n'est pas divisible par $75 = 3 \times 25$.
+    \end{explanations}
+\end{question}
+}

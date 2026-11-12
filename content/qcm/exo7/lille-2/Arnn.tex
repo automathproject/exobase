@@ -1,0 +1,33 @@
+\uuid{Arnn}
+\titre{Changements de variables/primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changements de variables, primitives usuelles}
+\exo7qcmid{lille-2.primitives.014}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changements de variables/primitives usuelles}
+Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Les primitives de $16x^3(x^4+1)^3$ sur $\Rr$ sont données par $\displaystyle F(x)=x^4(x^4+1)^4+k$, $k\in \Rr$.}
+\good{Les primitives de $16x^3(x^4+1)^3$ sur $\Rr$ sont données par $\displaystyle F(x)=(x^4+1)^4+k$, $k\in \Rr$.}
+\good{Les primitives de $\displaystyle \frac{4x^3}{\sqrt{x^4+1}}$ sur $\Rr$ sont données par $\displaystyle F(x)=2\sqrt{x^4+1}+k$, $k\in \Rr$.}
+\bad{Les primitives de $\displaystyle \frac{4x^3}{\sqrt{x^4+1}}$ sur $\Rr$ sont données par $\displaystyle F(x)=\frac{x^4}{\sqrt{x^4+1}}+k$, $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=x^4+1$, on a : $\mathrm{d}u=4x^3\, \mathrm{d}x$. D'où
+$$\int 16x^3(x^4+1)^3\mathrm{d}x=\int 4u^3\, \mathrm{d}u=u^4+k=(x^4+1)^4+k,\; k\in \Rr,$$
+et
+$$\int \frac{4x^3\, \mathrm{d}x}{\sqrt{x^4+1}}=\int \frac{\mathrm{d}u}{\sqrt{u}}=2\sqrt{u}+k=2\sqrt{x^4+1}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

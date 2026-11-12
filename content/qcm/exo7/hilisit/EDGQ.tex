@@ -1,0 +1,30 @@
+\uuid{EDGQ}
+\titre{Théorème de Bézout}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{1}
+\theme{Théorème de Bézout}
+\exo7qcmid{hilisit.arithmetique.017}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+ Soit $a$ et $b$ deux entiers tels que $\pgcd(a,b) = 4$. Alors on peut trouver deux entiers $u$ et $v$ tels que :
+    \begin{answers}
+        \bad{$au-bv=2$}
+        \bad{$au+bv=2$}
+        \good{$au-bv=4$}
+        \good{$au+bv=12$}
+    \end{answers}
+    \begin{explanations}
+    Une égalité $au \pm bv = 2$ nous indiquerait que tout diviseur de $a$ et $b$ diviserait $2$ donc $\pgcd(a,b) = 1$ ou $2$, ce qui n'est pas le cas ici.\\
+    Le théorème de Bézout nous garantit l'existence de deux entiers $U$ et $V$ tels que $aU + bV = 4$. Si l'on prend $v=-V$, on obtient $au-bv=4$. Si l'on multiplie l'égalité de Bézout par $3$, on a alors $a \times (3U) + b \times (3V) = 3 \times 4 = 12$.
+    \end{explanations}
+\end{question}
+}

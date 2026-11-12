@@ -1,0 +1,29 @@
+\uuid{opLv}
+\titre{Variables continues}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{}
+\theme{Variables continues}
+\exo7qcmid{worms.worms.046}
+
+\contenu{
+\begin{question}
+\qclassification{261.01}
+On suppose que $X$ désigne le montant du gain (en euros) que rapporte un employé à son entreprise en un mois, et que $X$ est de loi ${\cal N}(500,(150)^2)$. L'entreprise verse à l'employé une prime $Y$ égale à $0$ si ce gain est inférieur à 700 euros, et, si le gain $X$ excède 700 euros, à la moitié de l'excès en question.  Laquelle des affirmations suivantes est vraie ?
+\begin{answers}
+\bad{La loi de $Y$ est une loi continue et l'employé a environ $2,3\%$ de chances d'avoir une prime supérieure à 50 euros.}
+\good{La loi de $Y$ n'est pas une loi continue et l'employé a environ $2,3\%$ de chances d'avoir une prime supérieure à 50 euros.}
+\bad{La loi de $Y$ est une loi continue et l'employé a environ $17\%$ de chances d'avoir une prime supérieure à 50 euros.}
+\bad{La loi de $Y$ n'est pas une loi continue et l'employé a environ $17\%$ de chances d'avoir une prime supérieure à 50 euros.}
+\end{answers}
+\begin{explanations}
+On a $\{Y=0\} = \{X<700\}$, qui est de probabilité non nulle, ce qui contredit que $Y$ puisse être de loi continue (car on aurait alors $\mathbb{P}(Y=y)=0$ pour tout $y$ de $\Rr$). $Y$ n'est donc pas de loi continue, mais elle a une "composante" continue, on pourrait dire qu'elle continue conditionnellement au fait d'être $>0$. On a ensuite, pour $y >0$, $\{Y>y\} = \{Y>y \mbox{ , } X>700\} = \{ (X-700)/2 > y \mbox{ , } X>700\} = \{ X>700+2y \mbox{ , } X>700\} = \{X>700+2y\}$, donc $\{Y>50\} = \{X>800\} = \{ (X-500)/150 > (800-500)/150 \}$ qui est de probabilité $1-\Phi(2)$, qui vaut en effet environ $2.3\%$.  C'était une question plus difficile, mais très loin d'être inabordable ! Il faut juste écrire les événements tranquillement...
+\end{explanations}
+\end{question}
+}

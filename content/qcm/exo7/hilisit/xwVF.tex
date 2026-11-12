@@ -1,0 +1,32 @@
+\uuid{xwVF}
+\titre{Logique}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Logique}
+\difficulte{3}
+\theme{Logique}
+\exo7qcmid{hilisit.logique.017}
+
+\contenu{
+\begin{question}
+\qclassification{100.01}
+Quelles sont les assertions vraies ?
+\begin{answers}
+	\good{$\forall x \in \Rr \; \exists \, y \in \Rr \quad y = e^x$}
+	\bad{$\forall y \in \Rr \; \exists \, x \in \Rr \quad y = e^x$}
+	\bad{$\forall y \in \Rr \; \exists \, x > 0 \quad y = e^x$}
+	\good{$\forall y > 0 \; \exists \, x \in \Rr \quad y = e^x$}
+\end{answers}
+\begin{explanations}
+"$\forall x \in \Rr \; \exists \, y \in \Rr \quad y = e^x$" signifie : pour tout nombre réel $x$, il existe un nombre réel $y$ qui est égal à $e^x$ : c'est vrai ($e^x$ est bien un nombre réel).\\
+"$\forall y \in \Rr \; \exists \, x \in \Rr \quad y = e^x$" signifie : pour tout nombre réel $y$, il existe un nombre $x$ tel que $y = e^x$. Ceci est faux puisque si $y<0$, on ne pourra jamais l'écrire comme une exponentielle.\\
+"$\forall y \in \Rr \; \exists \, x > 0 \quad y = e^x$" signifie : pour tout nombre réel $y$, il existe un réel strictement positif $x$ tel que $y = e^x$. Ceci est faux : si $y<0$, on ne pourra jamais l'écrire comme une exponentielle. Et si $0 \leq y < 1$, on ne pourra jamais écrire $y$ comme une exponentielle d'un nombre strictement positif.\\
+"$\forall y > 0 \; \exists \, x \in \Rr \quad y = e^x$" signifie : pour tout nombre strictement positif $y$, il existe un nombre réel $x$ tel que $y = e^x$. Ceci est vrai : si $y>0$, alors on peut écrire $y = e^{\ln(y)}$. Donc on peut choisir $x = \ln(y)$.
+\end{explanations}
+\end{question}
+}

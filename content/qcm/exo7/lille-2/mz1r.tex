@@ -1,0 +1,36 @@
+\uuid{mz1r}
+\titre{Somme/Produit/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{1}
+\theme{Opérations sur les DL, Somme, Produit, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.002}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Somme/Produit/DL usuels}
+Soient $f$ et $g$ deux fonctions telles que :
+$$DL_3(0)f(x)=x+x^3+o(x^3)\; \mbox{ et }\; DL_3(0)g(x)=-x+x^3+o(x^3).$$
+On peut en déduire que :
+\begin{answers}
+\good{$DL_2(0)\left[f(x)+g(x)\right]=o(x^2)$.}
+\bad{$DL_2(0)\left[f(x)-g(x)\right]=o(x^2)$.}
+\good{$DL_2(0)\left[2f(x)+g(x)\right]=x+o(x^2)$.}
+\bad{$\displaystyle DL_6(0)f(x)\times g(x)=-x^2+x^6+o(x^6)$.}
+\end{answers}
+\begin{explanations}
+Découle des opérations sur les DL en remarquant que la somme ou le produit de deux DL du même ordre donne un DL du même ordre.
+\end{explanations}
+\end{question}
+}

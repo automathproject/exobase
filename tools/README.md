@@ -6,6 +6,13 @@ Outils de travail pour les flux `exobase`.
 - `validate/` : contrôles avant synchronisation ou publication.
 - `utils/` : code partagé par les outils.
 
+## QCM
+
+`import/import_qcm_exo7.py` importe les questions de qcm-exo7 dans
+`content/qcm/exo7/` et `validate/check_qcm_sources.py` contrôle le résultat
+(UUID uniques, y compris face aux exercices, réponses, séries, images). Le
+format et les règles d'import sont dans `content/qcm/FORMAT.md`.
+
 ## Validation LaTeX
 
 `check_exercise_sources.py` est le port Python du contrôle

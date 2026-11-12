@@ -1,0 +1,36 @@
+\uuid{vKlv}
+\titre{Limite en l'infini}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{3}
+\theme{Limites des fonctions réelles, limite en l'infini}
+\exo7qcmid{lille-1.limites.030}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en l'infini}
+%Soit  $f(x)=\frac{(x^x)^x}{x^{(x^x)}}$.
+Soit  $f(x)=\frac{(2x)^x}{x^{(2x)}}$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$\lim_{x\to +\infty} f(x)=+\infty$}
+
+    \good{$\lim_{x\to +\infty } f(x)=0$}
+
+    \bad{$f$ n'admet pas de limite en $+\infty$.}
+
+    \bad{$\lim_{x\to +\infty} f(x)=1$}
+
+\end{answers}
+\begin{explanations}
+Par définition, si $u$ et $v$ sont deux fonctions telles  que $u>0$, $u^v=e^{v\ln u}$. On en déduit que $f(x)=\exp[ x\ln (2x )- 2x\ln x] =  \exp[ x\ln 2 - x\ln x]$. Donc $\lim_{x\to +\infty } f(x)=0$.
+\end{explanations}
+\end{question}
+}

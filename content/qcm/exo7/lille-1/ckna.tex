@@ -1,0 +1,30 @@
+\uuid{ckna}
+\titre{Image directe}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles, applications, image directe}
+\exo7qcmid{lille-1.ensembles.022}
+
+\contenu{
+\begin{question}
+\qclassification{100.02,101.01,102.01,102.02}
+\qtags{motcle=image directe}
+Soient $E$ et $F$ deux ensembles non vides et $f$ une application de $E$ dans $F$. Soient $A,B$ deux sous-ensembles de $E$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$f(A\cup B)=f(A)\cup f(B)$}
+    \bad{$f(A\cup B)\varsubsetneq f(A)\cup f(B)$}
+    \bad{$f(A\cap B)=f(A)\cap f(B)$}
+    \good{$f(A\cap B)\subset f(A)\cap f(B)$}
+\end{answers}
+\begin{explanations}
+On a : $y\in f(A\cup B)\Leftrightarrow \exists x\in A\cup B,\; y=f(x)\Leftrightarrow (\exists x\in A,\; y=f(x))\mbox{ ou }(\exists x\in B,\; y=f(x))\Leftrightarrow (y\in f(A)\mbox{ ou }y\in f(B))$. Par ailleurs, si $y\in f(A\cap B)$, il existe $x\in A\cap B$ tel que $y=f(x)$. Donc $y\in f(A)$ et $y\in f(B)$, c'est-à-dire $y\in f(A)\cap f(B)$.
+\end{explanations}
+\end{question}
+}

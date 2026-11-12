@@ -1,0 +1,30 @@
+\uuid{S7tt}
+\titre{Dénombrement}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles, applications, dénombrement}
+\exo7qcmid{lille-1.ensembles.029}
+
+\contenu{
+\begin{question}
+\qclassification{100.02,101.01,102.01,102.02}
+\qtags{motcle=dénombrement}
+Soit $E$ un ensemble à $n$ éléments et $A\subset E$ une partie à $p < n$ éléments. On note $\mathcal{H}(E)$ l'ensemble des parties de $E$ qui contiennent un et un seul élément de $A$. Quel est le cardinal de $\mathcal{H}(E)$ ?
+\begin{answers}
+    \good{$\mathrm{Card}(\mathcal{H}(E))=p2^{n-p}$}
+    \bad{$\mathrm{Card}(\mathcal{H}(E))=p$}
+    \bad{$\mathrm{Card}(\mathcal{H}(E))=p2^p$}
+    \bad{$\mathrm{Card}(\mathcal{H}(E))=p2^n$}
+\end{answers}
+\begin{explanations}
+Si $A=\{a_1,\dots ,a_p\}$, les éléments de $\mathcal{H}(E)$ sont de la forme $\{a_i\}\cup B$, où $a_i\in A$ et $B\subset E\setminus A$. Donc $\mathrm{Card}(\mathcal{H}(E))=\mathrm{Card}(A)\times \mathrm{Card}(\mathcal{P}(E\setminus A))=p2^{n-p}$.
+\end{explanations}
+\end{question}
+}

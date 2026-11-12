@@ -1,0 +1,32 @@
+\uuid{CzJB}
+\titre{Changement de l'inconnue}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du deuxième ordre}
+\difficulte{3}
+\theme{Equations du second ordre, changement de l'inconnue}
+\exo7qcmid{lille-2.equations-differentielles.033}
+
+\contenu{
+\begin{question}
+\qclassification{225.02}
+\qtags{motcle=changement de l'inconnue}
+On considère les équations différentielles
+$$(E_1)\; :\; xy''+2(x+1)y'+(x+2)y=2\mathrm{e}^{-x}\quad\mbox{et}\quad (E_2)\; :\; y''+2y'+y=2\mathrm{e}^{-x}.$$
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Si $y$ est une solution de $(E_1)$, alors $\displaystyle z=xy$ est une solution de $(E_2)$.}
+\bad{$(E_2)$ admet une solution particulière sous la forme $\displaystyle y_0=a\mathrm{e}^{-x}$, $a\in \Rr$.}
+\good{La solution générale de $(E_1)$ sur $]0,+\infty[$ est $\displaystyle y=\left(x+a+\frac{b}{x}\right)\mathrm{e}^{-x}$, $a,b\in \Rr$.}
+\bad{Toute solution de $(E_1)$ sur $]0,+\infty[$ se prolonge par continuité en $0$.}
+\end{answers}
+\begin{explanations}
+On a : $z'=xy'+y$, $z''=xy''+2y'$ et $z''+2z'+z=xy''+2(x+1)y'+(x+2)y$. La solution générale de l'équation homogène associée à $(E_2)$ est : $Z=(ax+b)\mathrm{e}^{-x}$ et $z_0=x^2\mathrm{e}^{-x}$ est une solution particulière de $(E_2)$. Donc la solution générale de $(E_2)$ est $z=Z+z_0$. Ainsi, la solution générale de $(E_1)$ sur $]0,+\infty[$ est : $\displaystyle y=\left(x+a+\frac{b}{x}\right)\mathrm{e}^{-x}$, $a,b\in \Rr$. Une telle solution se prolonge par continuité en $0$ si et seulement si $b=0$.
+\end{explanations}
+\end{question}
+}

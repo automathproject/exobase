@@ -1,0 +1,30 @@
+\uuid{th3l}
+\titre{Variation de la constante/prolongement par continuité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{Equations du premier ordre, variation de la constante, prolongement par continuité}
+\exo7qcmid{lille-2.equations-differentielles.016}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+\qtags{motcle=variation de la constante/prolongement par continuité}
+On considère l'équation différentielle $(E)$ : $y'-y\tan x=1$ sur $]-\pi/2,\pi /2[$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{La solution générale de l'équation homogène est $\displaystyle y=\frac{k}{\cos (x)}$, $k\in \Rr$.}
+\good{Si $\displaystyle y=\frac{k(x)}{\cos (x)}$ est une solution de $(E)$, alors $k'(x)=\cos (x)$.}
+\bad{La solution générale de $(E)$ est $\displaystyle y=\frac{k}{\cos (x)}+\sin x$, $k\in \Rr$.}
+\bad{$(E)$ possède une solution qui se prolonge par continuité en $-\pi/2$ et en $\pi /2$.}
+\end{answers}
+\begin{explanations}
+Une primitive de $-\tan (x)$ est $\ln |\cos x|$, donc la solution générale de l'équation homogène est : $\displaystyle y(x)=\frac{k}{\cos (x)}$. La variation de la constante montre que $\displaystyle y_0=\frac{\sin (x)}{\cos (x)}$ est une solution particulière. Enfin, une solution $\displaystyle y=\frac{k+\sin (x)}{\cos (x)}$ de $(E)$ se prolonge par continuité en $-\pi/2$ si et seulement si $k=1$ et se prolonge par continuité en $\pi/2$ si et seulement si $k=-1$. Aucune solution de $(E)$ ne se prolonge par continuité en $-\pi/2$ et en $\pi /2$.
+\end{explanations}
+\end{question}
+}

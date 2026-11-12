@@ -1,0 +1,34 @@
+\uuid{gBzy}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.012}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int 4x^3(2+x^4)^3\mathrm{d}x=x^4(2+x^4)^3+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int 4x^3(2+x^4)^3\mathrm{d}x=\frac{(2+x^4)^4}{4}+k$, où $k\in \Rr$.}
+\bad{$\displaystyle \int \frac{6x\mathrm{d}x}{1+3x^2}=6\int x\mathrm{d}x\times\int \frac{\mathrm{d}x}{1+3x^2}=3x^2\times\ln (1+3x^2)+k$, $k\in \Rr$.}
+\good{$\displaystyle \int \frac{6x\mathrm{d}x}{1+3x^2}=\ln(1+3x^2)+k$, où $k\in \Rr$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $u=2+x^4$, on a : $\mathrm{d}u=4x^3\mathrm{d}x$ et
+$$\int 4x^3(2+x^4)^3\mathrm{d}x=\int u^3\mathrm{d}u=\frac{u^4}{4}+k=\frac{(2+x^4)^4}{4}+k,\; k\in \Rr.$$
+De m\^eme, avec $u=1+3x^2$, on a : $\mathrm{d}u=6x\mathrm{d}x$ et
+$$\int \frac{6x\mathrm{d}x}{1+3x^2}=\int \frac{\mathrm{d}u}{u}=\ln (u)+k=\ln(1+3x^2)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

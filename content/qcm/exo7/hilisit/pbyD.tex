@@ -1,0 +1,31 @@
+\uuid{pbyD}
+\titre{Théorème de Bézout}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{2}
+\theme{Théorème de Bézout}
+\exo7qcmid{hilisit.arithmetique.018}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+    Soient deux entiers positifs $a,b$, on calcule le pgcd de $a$ et $b$ par l'algorithme d'Euclide.
+    La première étape est d'écrire la division euclidienne de $a$ par $b$ : $a=bq+r$.
+    Quelle est la second étape ?
+    \begin{answers}
+        \bad{La division de $a$ par $r$.}
+        \good{La division de $b$ par $r$.}
+        \bad{La division de $q$ par $r$.}
+        \bad{Cela dépend des valeurs de $a$ et $b$.}
+    \end{answers}
+    \begin{explanations}
+        Une conséquence de l’égalité est que $\pgcd(a,b)=\pgcd(b,r)$. On remplace donc $a$ par $b$ et $b$ par $r$ dans l’étape suivante, c’est-à-dire qu’on fait la division euclidienne de $b$ par $r$.
+    \end{explanations}
+\end{question}
+}

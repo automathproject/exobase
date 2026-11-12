@@ -1,0 +1,34 @@
+\uuid{1V7Z}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.013}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\sin x$ donne $\displaystyle \int _{\pi/6}^{\pi/4}\frac{\mathrm{d}\, x}{\sin x\tan x}=\int _{1/2}^{1/\sqrt{2}}\frac{\mathrm{d}\, t}{t^2}$.}
+\bad{$\displaystyle \int _{\pi/6}^{\pi/4}\frac{\mathrm{d}\, x}{\sin x\tan x}=\frac{1}{\sqrt{2}}-\frac{1}{2}$.}
+\bad{Le changement de variable $t=\cos x$ donne $\displaystyle \int _{0}^{\pi/3}\sin x\mathrm{e}^{\cos x}\mathrm{d}\, x=\int _1^{1/2}\mathrm{e}^t\mathrm{d}\, t$.}
+\good{$\displaystyle \int _{0}^{\pi/3}\sin x\mathrm{e}^{\cos x}\mathrm{d}\, x=\mathrm{e}-\sqrt{\mathrm{e}}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\sin x\Rightarrow \mathrm{d}t=\cos x\, \mathrm{d}x$, on a : $t(\pi/6)=1/2$, $t(\pi/4)=1/\sqrt{2}$ et
+$$\displaystyle \int _{\pi/6}^{\pi/4}\frac{\mathrm{d}\, x}{\sin x\tan x}=\int _{\pi/6}^{\pi/4}\frac{\cos x\mathrm{d}\, x}{\sin ^2x}=\int _{1/2}^{1/\sqrt{2}}\frac{\mathrm{d}\, t}{t^2}=\left[-\frac{1}{t}\right]_{1/2}^{1/\sqrt{2}}=2-\sqrt{2}.$$
+Avec $t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$, on a : $t(0)=1$, $t(\pi/3)=1/2$ et
+$$\displaystyle \int _{0}^{\pi/3}\sin x\mathrm{e}^{\cos x}\mathrm{d}\, x=\int _{1/2}^1\mathrm{e}^t\mathrm{d}\, t=\mathrm{e}-\sqrt{\mathrm{e}}.$$
+\end{explanations}
+\end{question}
+}

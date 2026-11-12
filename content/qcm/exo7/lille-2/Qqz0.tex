@@ -1,0 +1,77 @@
+\uuid{Qqz0}
+\titre{Matrice d'une application linéaire/Matrice de passage/Espace des matrices}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Matrice de passage, Espace des matrices}
+\exo7qcmid{lille-2.matrice-application.026}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Matrice de passage/Espace des matrices}
+On considère $M_2(\Rr)$ l'espace vectoriel des matrices carrées d'ordre $2$ à coefficients réels muni des deux bases ${\cal {B}}= \{ A_1,A_2,A_3,A_4\}$ et ${\cal {B'}}= \{ B_1,B_2,B_3,B_4\}$, où
+$$A_1 = \left(\begin{array}{rc}1&0\\0&0\\ \end{array}\right) \; , \; A_2 = \left(\begin{array}{rc}0&1\\
+0&0\\ \end{array}\right) \; , \; A_3 = \left(\begin{array}{rc}
+0&0\\
+1&0\\ \end{array}\right) \; , \; A_4 = \left(\begin{array}{rc}
+0&0\\0&1\\ \end{array}\right) \; , $$
+$$ B_1 = \left(\begin{array}{rc}1&1\\
+0&0\\ \end{array}\right) \; , \; B_2 = \left(\begin{array}{rc}
+0&1\\0&1\\ \end{array}\right) \; , \; B_3 = \left(\begin{array}{rc}
+0&0\\ 1&1\\ \end{array}\right) \; ,\; B_4 = \left(\begin{array}{rc}
+1&0\\-1&0\\ \end{array}\right).$$
+On notera $P$ la matrice de passage de la base ${\cal {B}}$ à la base ${\cal {B'}}$ et $Q$ la matrice de passage de la base ${\cal {B'}}$ à la base ${\cal {B}}$.
+\vskip1mm
+Définition : Soit $E$ un espace vectoriel muni de deux bases ${\cal {B}}$ et ${\cal {B}}'$. La matrice de passage de la base ${\cal {B}}$ à la base  ${\cal {B}}'$ est la matrice de l'identité de $E$ de la base ${\cal {B}}'$ à la base  ${\cal {B}}$. Autrement dit, c'est la matrice dont la jième colonne est constituée des coordonnées du jième vecteur de la base ${\cal {B}'}$ dans la base  ${\cal {B}}$.
+\vskip1mm
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$P = \left(\begin{array}{rccc}
+1&0&0&1\\
+1&1&0&0\\
+0&0&1&-1\\
+0&1&1&0\\
+\end{array}\right).$}
+\bad{$\displaystyle P = \frac{1}{2}\left(\begin{array}{rccc}
+1&1&1&-1\\
+-1&1&-1&1\\
+1&-1&1&1\\
+1&-1&-1&1\\
+\end{array}\right).$}
+\bad{$Q=\left(\begin{array}{rccc}
+1&0&0&1\\
+1&1&0&0\\
+0&0&1&-1\\
+0&1&1&0\\
+\end{array}\right).$}
+\good{La matrice de l'application identité de $M_2(\Rr)$ de la base ${\cal {B}}$ à la base ${\cal {B'}}$ est :
+$\displaystyle \frac{1}{2}\left(\begin{array}{rccc}
+1&1&1&-1\\
+-1&1&-1&1\\
+1&-1&1&1\\
+1&-1&-1&1\\
+\end{array}\right).$}
+\end{answers}
+\vskip2mm
+\begin{explanations} $P = \left(\begin{array}{rccc}
+1&0&0&1\\
+1&1&0&0\\
+0&0&1&-1\\
+0&1&1&0\\
+\end{array}\right)$ et
+$\displaystyle Q= \frac{1}{2}\left(\begin{array}{rccc}
+1&1&1&-1\\
+-1&1&-1&1\\
+1&-1&1&1\\
+1&-1&-1&1\\
+\end{array}\right)$. Par définition, $Q$ est la matrice de l'application identité de $M_2(\Rr)$ de la base ${\cal {B}}$ à la base ${\cal {B'}}$.
+\end{explanations}
+\end{question}
+}

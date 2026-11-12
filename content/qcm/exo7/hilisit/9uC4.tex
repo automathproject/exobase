@@ -1,0 +1,32 @@
+\uuid{9uC4}
+\titre{Nombres premiers}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{2}
+\theme{Nombres premiers}
+\exo7qcmid{hilisit.arithmetique.032}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+    Soit $n$ un entier tel que $n^2-1$ est un multiple de $11$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+        \bad{$11$ divise $n-1$.}
+        \bad{$11$ divise $n+1$.}
+        \good{($11$ divise $n-1$) ou ($11$ divise $n+1$).}
+        \bad{($11$ divise $n-1$) et ($11$ divise $n+1$).}
+    \end{answers}
+    \begin{explanations}
+    $11$ est premier et divise $n^2-1 = (n-1)(n+1)$. D'après le lemme d'Euclide, soit $11 | (n-1)$, soit $11 | (n+1)$.\\
+    Pour $n=10$, on a $11 | (10^2-1)$ mais $11$ ne divise pas $10-1=9$.\\
+    Pour $n=12$, on a $11 | 12^2 - 1$ mais $11$ ne divise pas $12+1=13$.\\
+    Et si $11$ divisait $n-1$ et $n+1$ alors $11$ diviserait  $n+1-(n-1) = 2$.
+    \end{explanations}
+\end{question}
+}

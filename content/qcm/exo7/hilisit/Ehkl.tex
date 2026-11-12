@@ -1,0 +1,29 @@
+\uuid{Ehkl}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{2}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.049}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit $(E)$ l'équation différentielle $y'+5y = 5x^2 + 2x$. Alors :
+\begin{answers}
+	\bad{Si $f$ est solution de $(E)$, alors la fonction $x \mapsto f(x)-5x^2-2x$ est solution de l'équation différentielle $(H)$ : $y'+5y = 0$.}
+	\good{Si $f$ est solution de $(E)$, alors la fonction $x \mapsto f(x)-x^2$ est solution de l'équation différentielle $(H)$ : $y'+5y = 0$.}
+	\bad{Si $f$ est solution de $(E)$, alors la fonction $x \mapsto f(x)-e^{-5x}$ est solution de l'équation différentielle $(H)$ : $y'+5y = 0$.}
+	\bad{Si $f$ est solution de $(E)$, alors la fonction $x \mapsto f(x)-2x$ est solution de l'équation différentielle $(H)$ : $y'+5y = 0$.}
+\end{answers}
+\begin{explanations}
+Si $f$ est solution de $(E)$, alors $f'(x) + 5f(x) = 5x^2 + 2x$. On calcule alors que : $(f(x)-x^2)' + 5(f(x)-x^2) = f'(x) - 2x + 5f(x) - 5x^2 = f'(x)+5f(x) - 2x - 5x^2 = 5x^2+2x-2x-5x^2 = 0$. Ainsi la fonction $x \mapsto (f(x)-x^2)$ est bien solution de $(H)$. En revanche, lorsqu'on remplace dans $y'+5y$ avec les fonctions $x \mapsto f(x)-5x^2-2x$, $x \mapsto f(x)-e^{-5x}$ et $x \mapsto f(x)-2x$ (toujours en utilisant le fait que $f'(x)+5f(x)$ peut être remplacé par $5x^2+2x$) on ne trouve pas $0$.
+\end{explanations}
+\end{question}
+}

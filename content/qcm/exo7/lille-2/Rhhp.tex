@@ -1,0 +1,46 @@
+\uuid{Rhhp}
+\titre{Polynômes/Système linéaire}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires, Polynômes, Système linéaire}
+\exo7qcmid{lille-2.systemes.023}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Polynômes/Système linéaire}
+Soit $P$ un polynôme à coefficients réels de degré $\le 3$ vérifiant les conditions :
+$$P(1)=1,\quad P(0)=1,\quad P(-1)=-1\quad \mbox{et}\quad P'(1)= 3.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{Un tel polynôme $P$ n'existe pas.}
+\bad{Il existe une infinité de polynômes $P$ vérifiant ces conditions.}
+\good{Il existe un unique polynôme $P$  vérifiant ces conditions.}
+\bad{Si $P$ est un polynôme qui vérifie ces conditions, alors $P(2)=2$.}
+\end{answers}
+\begin{explanations} On pose : $P(X)=aX^3+bX^2+cX+d$, où $a,b,c$ et $d$ sont des réels à déterminer. En résolvant le système :
+$$(\mathtt{S})
+\left\{\begin{array}{rcc}
+P(1)&=&1\\
+P(0)&=&1\\
+P(-1)&=&-1\\
+P'(1)&=&3 \\
+\end{array}\right.
+\Leftrightarrow
+\left\{\begin{array}{rcc}
+a+b+c+d&=&1\\
+d&=&1\\
+-a+b-c+d&=&-1\\
+3a+2b+c&=&3. \\
+\end{array}\right. $$
+On obtient : $P(X)=2X^3-X^2-X+1$. Par conséquent il existe un unique polynôme vérifiant les conditions ci-dessus et $P(2)=11$.
+\end{explanations}
+\end{question}
+}

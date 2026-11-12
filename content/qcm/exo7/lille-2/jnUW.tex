@@ -1,0 +1,35 @@
+\uuid{jnUW}
+\titre{Intégration par parties/linéarité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, intégration par parties, linéarité}
+\exo7qcmid{lille-2.integrales.021}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=intégration par parties/linéarité}
+On pose $\displaystyle I=\int _0^{\pi/2}x\cos ^2x\, \mathrm{d}x$, $\displaystyle J=\int _0^{\pi/2}x\sin ^2x\, \mathrm{d}x$ et $\displaystyle K=\int _0^{\pi/2}x\cos (2x)\, \mathrm{d}x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Une intégration par parties donne : $\displaystyle K=\frac{1}{2}$.}
+\good{$\displaystyle I+J=\frac{\pi ^2}{8}$ et $I-J=K$.}
+\bad{$\displaystyle I=\frac{\pi ^2+4}{16}$.}
+\bad{$\displaystyle J=\frac{\pi ^2-4}{16}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Une intégration par parties, avec $u=x$ et $v=1/2\sin (2x)$, donne
+$$K=\left[\frac{x}{2}\sin (2x)\right]_0^{\pi/2}-\frac{1}{2}\int _0^{\pi/2} \sin (2x)\, \mathrm{d}x=-\frac{1}{2}.$$
+A l'aide des relations $\cos ^2x+\sin ^2x=1$ et  $\cos ^2x-\sin ^2x=\cos (2x)$, on obtient :
+$$I+J=\int _0^{\pi/2}x\mathrm{d}x=\frac{\pi ^2}{8}\mbox{ et }I-J=K=-\frac{1}{2}.$$
+La somme et la différence de ces égalités donnent : $\displaystyle I=\frac{\pi ^2-4}{16}$ et $\displaystyle J=\frac{\pi ^2+4}{16}$.
+\end{explanations}
+\end{question}
+}

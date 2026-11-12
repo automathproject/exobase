@@ -1,0 +1,33 @@
+\uuid{DqQZ}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.019}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int \frac{x\mathrm{d}x}{1+x^2}=\arctan (x)+k$, où $k\in \Rr$.}
+\bad{$\displaystyle \int x\mathrm{e}^{(1+x^2)}\mathrm{d}x=\frac{x^2}{2}\mathrm{e}^{(1+x^2)}+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int \frac{x\mathrm{d}x}{1+x^2}=\ln\sqrt{1+x^2}+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int x\mathrm{e}^{(1+x^2)}\mathrm{d}x=\frac{1}{2}\mathrm{e}^{(1+x^2)}+k$, où $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=1+x^2$, on a : $\mathrm{d}u=2x\mathrm{d}x$. D'où
+$$\int \frac{x\mathrm{d}x}{1+x^2}=\frac{1}{2}\int \frac{\mathrm{d}u}{u}=\frac{1}{2}\ln (u)+k=\ln\sqrt{1+x^2}+k,\; k\in \Rr,$$
+et
+$$\int x\mathrm{e}^{(1+x^2)}\mathrm{d}x=\frac{1}{2}\int \mathrm{e}^u\mathrm{d}u=\frac{1}{2}\mathrm{e}^u+k=\frac{1}{2}\mathrm{e}^{(1+x^2)}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

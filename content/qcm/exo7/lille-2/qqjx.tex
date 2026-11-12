@@ -1,0 +1,35 @@
+\uuid{qqjx}
+\titre{Noyau/Image/Bijection}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Bijection}
+\exo7qcmid{lille-2.applications-lineaires.033}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Bijection}
+Soit $E$ un espace vectoriel  et $f$ un endomorphisme de $E$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{Si $f^2 =0$, alors $f=0$}.
+\bad{Si $f^2 =0$, alors $f$ est bijective}.
+\good{Si $f^2 =0$, alors $\Im f \subset \ker f$}.
+\good{Si $\Im f \subset \ker f$, alors  $f^2 =0$}.
+\end{answers}
+\begin{explanations} Si $f^2 =0$, $f$ n'est pas forcément nulle. Exemple : $f:\Rr^2 \to \Rr^2$ définie par : $f(x,y)=(x-y,x-y)$.
+\vskip0mm
+Supposons que $f^2 =0$ et que $f\neq 0$. Alors, il existe $x_0\in E$ tel que $f(x_0) \neq 0$ et $f(x_0) \in \ker f$, puisque $f^2(x_0) =0$. Donc $f$ est non injective et donc non bijective.
+\vskip0mm
+Soit $y\in \Im f$, alors il existe $x\in E$ tel que $y=f(x)$. De l'égalité $f^2 =0$, on déduit que $f(y)=0$.
+\vskip0mm
+Soit $x\in E$, alors $f(x)\in \Im f$. Comme  $\Im f \subset \ker f$, $f^2(x)=0$.
+\end{explanations}
+\end{question}
+}

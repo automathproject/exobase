@@ -1,0 +1,38 @@
+\uuid{jHNz}
+\titre{Récurrence}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Absurde et contraposée}
+\difficulte{2}
+\theme{Raisonnement, récurrence}
+\exo7qcmid{lille-1.logique.025}
+
+\contenu{
+\begin{question}
+\qclassification{100.03,100.04}
+\qtags{motcle=récurrence}
+Je veux montrer que $e^x > x$ pour tout $x$ réel avec $x \ge 1$.
+L'initialisation est vraie pour $x=1$, car $e^1 = 2,718\ldots >1$.
+Pour l'hérédité, je suppose $e^x>x$ et je calcule :
+$$e^{x+1} = e^x \times e > x  \times e \ge x \times 2 \ge x + 1.$$
+Je conclus par le principe de récurrence.
+Pour quelles raisons cette preuve n'est pas valide ?
+\begin{answers}
+    \bad{Car il faudrait commencer l'initialisation à $x=0$.}
+
+    \good{Car $x$ est un réel.}
+
+    \bad{Car l'inégalité $e^x > x$ est fausse pour $x\le0$.}
+
+    \bad{Car la suite d'inégalités est fausse.}
+\end{answers}
+\begin{explanations}
+La récurrence c'est uniquement avec des entiers !
+\end{explanations}
+\end{question}
+}

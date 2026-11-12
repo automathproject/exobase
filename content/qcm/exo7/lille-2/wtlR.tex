@@ -1,0 +1,35 @@
+\uuid{wtlR}
+\titre{Noyau/Image/Injection/Surjection/Théorème du rang/Polynôôme}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Injection, Surjection, Théorème du rang, Polynôôme}
+\exo7qcmid{lille-2.applications-lineaires.022}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Injection/Surjection/Théorème du rang/Polynôôme}
+On considère $\Rr_3[X]$, l'espace des polynômes à coefficients réels de degré $\le 3$, muni de sa base canonique ${\cal{ B}}= \{1,X,X^2,X^3\} $ et $f$ l'endomorphisme de $\Rr_3[X]$
+défini par :
+$$f(1)=X,\;  f(X)=1+X,\; f(X^2)= (X-1)^2,\; f(X^3)=(X-1)^3.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\dim \ker f =1$}.
+\good{$f$ est injective}.
+\bad{$f$ n'est pas injective}.
+\good{$\mbox{rg} (f)=4$}.
+\end{answers}
+\begin{explanations}  Soit $P= aX^3+bX^2+cX+d,\, a,b,c,d \in \Rr $. On a :
+$$P\in \ker f\Leftrightarrow a(X-1)^3+b(X-1)^2+(c+d)(X-1)+2c+d=0.$$ Comme $\{1,X-1,(X-1)^2,(X-1)^3\}$ est une famille libre, on déduit que $P=0$. Donc $\dim \ker f=0$ et $f$ est injective.
+\vskip0mm
+D'après le théorème du rang, $\mbox{rg}(f)=\dim \Im f=4$ et comme $\Im f$ est un sous-espace vectoriel de $\Rr_3[X]$, $\Im f=\Rr_3[X]$ et donc $f$ est surjective.
+\end{explanations}
+\end{question}
+}

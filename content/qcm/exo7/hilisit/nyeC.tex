@@ -1,0 +1,34 @@
+\uuid{nyeC}
+\titre{Ensembles}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{2}
+\theme{Ensembles}
+\exo7qcmid{hilisit.logique.028}
+
+\contenu{
+\begin{question}
+\qclassification{100.02}
+Soient $f,g,h$ des fonctions définies par
+$$f(x) = x^2-3x \qquad g(x) = 2x+1 \qquad h(x) = \frac{x}{x-1}.$$
+Quelles sont les affirmations vraies ?
+\begin{answers}
+	\bad{$(f \circ g)(x) =4x^2-2x+4$}
+	\bad{$(g \circ f)(x) = 2x^2+5$}
+	\bad{$(h \circ f)(x) = \left(\frac{x}{x-1}\right)^2 - \frac{3x}{x-1}$}
+	\good{$(g \circ h)(x) = \frac{3x-1}{x-1}$}
+\end{answers}
+\begin{explanations}
+$(f \circ g)(x) = f(g(x)) = (2x+1)^2-3(2x+1) = 4x^2-2x-2$, \\
+$(g \circ f)(x) = g(f(x)) = 2(x^2-3x)+1 = 2x^2-6x+1$. \\
+$(h \circ f)(x) = h(f(x)) = \frac{x^2-3x}{x^2-3x-1}$ ce qui est proposé c'est $(f \circ h)(x)$.\\
+$(g \circ h)(x) = g(h(x)) = 2\frac{x}{x-1} +1 = \frac{2x}{x-1} + \frac{x-1}{x-1} = \frac{3x-1}{x-1}$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,33 @@
+\uuid{HLSL}
+\titre{Changement de variable/primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variable, primitives usuelles}
+\exo7qcmid{lille-2.primitives.017}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variable/primitives usuelles}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Sur $]1,+\infty[$, on a : $\displaystyle \int \frac{\mathrm{d}x}{x\ln ^2x}=\frac{-1}{\ln x}+k$, $k\in \Rr$.}
+\bad{Sur $]1,+\infty[$, on a : $\displaystyle \int \frac{\mathrm{d}x}{x\ln ^2x}=\ln (x\ln ^2x)+k$, $k\in \Rr$.}
+\bad{Sur $]1,+\infty[$, on a : $\displaystyle \int \frac{\mathrm{d}x}{2x\sqrt{\ln x}}=\int \frac{\mathrm{d}x}{x}\times \frac{1}{2\sqrt{\ln x}}=\frac{\sqrt{\ln x}}{2}+k$, $k\in \Rr$.}
+\good{Sur $]1,+\infty[$, on a : $\displaystyle \int \frac{\mathrm{d}x}{2x\sqrt{\ln x}}=\sqrt{\ln x}+k$, $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=\ln x$, on aura : $\displaystyle \mathrm{d}u=\frac{\mathrm{d}x}{x}$. D'où
+$$\int \frac{\mathrm{d}x}{x\ln ^2x}=\int \frac{\mathrm{d}u}{u^2}=\frac{-1}{u}+k=\frac{-1}{\ln x}+k,\; k\in \Rr$$
+et
+$$\int \frac{\mathrm{d}x}{2x\sqrt{\ln x}}=\int \frac{\mathrm{d}u}{2\sqrt{u}}=\sqrt{u}+k=\sqrt{\ln x}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

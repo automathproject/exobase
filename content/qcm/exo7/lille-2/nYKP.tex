@@ -1,0 +1,59 @@
+\uuid{nYKP}
+\titre{Matrice/Puissance/Suites}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Propriétés élémentaires, généralités}
+\difficulte{3}
+\theme{Calcul matriciel, Matrice, Puissance, Suites}
+\exo7qcmid{lille-2.matrices.018}
+
+\contenu{
+\begin{question}
+\qclassification{108.01}
+\qtags{motcle=Matrice/Puissance/Suites}
+Soit $A= \left(\begin{array}{rcc}1&2&3\\0&1&2\\ 0&0&1\\
+\end{array}\right)$ et  $N= A-I$, où $I= \left(\begin{array}{rcc}
+1&0&0\\0&1&0\\ 0&0&1\\ \end{array}\right).$\\
+On considère $3$ suites récurrentes  $(u_n)_{n\ge 0}$, $(v_n)_{n\ge 0}$ et $(w_n)_{n\ge 0}$ définies par $u_0,v_0,w_0$ des réels donnés et pour $n\ge 1$ :
+$$(\mathtt{S})\left\{\begin{array}{rcc}
+u_n&=&u_{n-1}+2v_{n-1}+3w_{n-1}\\
+v_n&=&v_{n-1}+2w_{n-1}\\ w_n&=&w_{n-1}. \\
+\end{array}\right.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$N^k = 0$, pour tout entier $k\ge 2$}.
+\good{Pour tout entier $n \ge 2,$ $A^n =I+nN+\frac{n(n-1)}{2}N^2  $}.
+\bad{Pour tout entier $n \ge 0,$
+$$(\mathtt{S}) \left\{\begin{array}{rcc}
+u_n&=&u_0+2nv_0+3nw_0\\v_n&=&v_0+2nw_0\\ w_n&=&w_0. \\
+\end{array}\right.$$}
+\good{Pour tout entier $n \ge 0,$
+$$(\mathtt{S})  \left\{\begin{array}{rcc}
+u_n&=&u_0+2nv_0+n(2n+1)w_0\\v_n&=&v_0+2nw_0\\ w_n&=&w_0. \\
+\end{array}\right.$$}
+\end{answers}
+\begin{explanations} On a : $N=\left(\begin{array}{rcc}
+0&2&3\\0&0&2\\ 0&0&0\\
+\end{array}\right)$, $N^2=\left(\begin{array}{rcc}
+0&0&4\\0&0&0\\
+0&0&0\\ \end{array}\right)$ et $N^k=0, $ pour tout $k\ge 3$.\\
+Comme $A= N+I$ et le produit des matrices $N$ et $I$ est commutatif, on peut appliquer la formule du binôme pour le calcul des
+puissances de $A$.
+\vskip0mm
+En calculant $A^n$ et  utilisant l'égalité : $\left(\begin{array}{r}
+u_n\\v_n\\ w_n\\
+\end{array}\right) = A^n \left(\begin{array}{r}
+u_0\\v_0\\ w_0\\
+\end{array}\right)$, on déduit que : $$\left\{\begin{array}{rcc}
+u_n&=&u_0+2nv_0+n(2n+1)w_0\\
+v_n&=&v_0+2nw_0\\
+w_n&=&w_0. \\
+\end{array}\right.$$
+\end{explanations}
+\end{question}
+}

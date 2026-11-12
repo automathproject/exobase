@@ -1,0 +1,34 @@
+\uuid{Lq5K}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.032}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+On se place sur $]0,+\infty[$. Le changement de variable $u=\mathrm{e}^{-x}$ donne
+\begin{answers}
+\bad{$\displaystyle \int \frac{\mathrm{d}x}{\sqrt{\mathrm{e}^{2x}-1}}=\int \frac{\mathrm{d}u}{\sqrt{1-u^2}}$.}
+\good{$\displaystyle \int \frac{\mathrm{d}x}{\sqrt{\mathrm{e}^{2x}-1}}=-\arcsin (u)+k$, $k\in \Rr$.}
+\bad{$\displaystyle \int \frac{\mathrm{e}^{-x}\mathrm{d}x}{\sqrt{\mathrm{e}^{2x}-1}}=\int \frac{u\mathrm{d}u}{\sqrt{1-u^2}}$.}
+\good{$\displaystyle \int \frac{\mathrm{e}^{-x}\mathrm{d}x}{\sqrt{\mathrm{e}^{2x}-1}}=\sqrt{(1-u^2)}+k$, $k\in \Rr$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $u=\mathrm{e}^{-x}$, on aura : $\mathrm{d}u=-\mathrm{e}^{-x}\mathrm{d}x$. D'où
+$$\displaystyle \int \frac{\mathrm{d}x}{\sqrt{\mathrm{e}^{2x}-1}}=\int \frac{\mathrm{e}^{-x}\mathrm{d}x}{\sqrt{1-\mathrm{e}^{-2x}}}=\int \frac{-\mathrm{d}u}{\sqrt{1-u^2}}=-\arcsin(u)+k,\; k\in \Rr.$$
+Et
+$$\displaystyle \int \frac{\mathrm{e}^{-x}\mathrm{d}x}{\sqrt{\mathrm{e}^{2x}-1}}=\int \frac{\mathrm{e}^{-2x}\mathrm{d}x}{\sqrt{1-\mathrm{e}^{-2x}}}=\int \frac{-u\mathrm{d}u}{\sqrt{1-u^2}}=\sqrt{(1-u^2)}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

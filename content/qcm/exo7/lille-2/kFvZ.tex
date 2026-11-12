@@ -1,0 +1,36 @@
+\uuid{kFvZ}
+\titre{Espaces supplémentaires/Base/Dimension}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Espace vectoriel}
+\sousChapitre{Somme directe}
+\difficulte{1}
+\theme{Espaces vectoriels supplémentaires, Espaces supplémentaires, Base, Dimension}
+\exo7qcmid{lille-2.espaces-vectoriels.051}
+
+\contenu{
+\begin{question}
+\qclassification{106.03}
+\qtags{motcle=Espaces supplémentaires/Base/Dimension}
+On considère les deux sous-espaces vectoriels de $\Rr^4$ :
+$$E= \mbox {vect} \{u_1,u_2,u_3\},\mbox{  où }u_1=(1,-1,0,1), \; u_2=(1,0,1,0),\; u_3=(3,-1,1,2)$$
+et
+$$F=\{(x,y,z,t)\in \Rr^4\, ;\, x+y-z=0\; \mbox{et}\; y+z=0\}.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\dim E = 3$}.
+\good{$\dim E\cap F = 1$}.
+\good{$E+F= \Rr^4$}.
+\bad{$E$ et $F$ sont supplémentaires dans $\Rr^4$}.
+\end{answers}
+\begin{explanations} On vérifie que $\{u_1,u_2,u_3\}$ est libre  et
+que $F=\mbox {vect} \{v_1,v_2\}$, où $v_1=(2,-1,1,0)$ et $ v_2=(0,0,0,1)$. Par conséquent, $\dim E=3$ et $\dim F=2$.
+\vskip1mm
+Il y a une seule relation de dépendance entre $u_1,u_2,u_3,v_1$ et $v_2$. Soit : $u_1+u_2-v_1-v_2=0$. On déduit que $\{u_1,u_2,u_3, v_1\}$ est une base de $E+F$, donc $\dim (E+F)=4$ et comme $E+F$ est un sous-espace de $\Rr^4$ et $\dim \Rr^4=4$, $E+F= \Rr^4$. Du théorème de la dimension d'une somme, on déduit que $\dim E\cap F=1$, donc $E$ et $F$ ne sont pas supplémentaires dans $\Rr^4$.
+\end{explanations}
+\end{question}
+}

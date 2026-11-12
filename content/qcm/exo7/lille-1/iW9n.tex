@@ -1,0 +1,30 @@
+\uuid{iW9n}
+\titre{Limite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Suites, limite}
+\exo7qcmid{lille-1.suites.006}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=limite}
+Soit $\displaystyle u_n=n\ln\left(1+\frac{1}{n}\right)$ et $\displaystyle v_n=\left(1+\frac{1}{n}\right)^n$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$ et $\displaystyle \lim _{n\to +\infty}v_n=1$}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=1$}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=1$ et $\displaystyle \lim _{n\to +\infty}v_n=1$}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=1$ et $\displaystyle \lim _{n\to +\infty}v_n=\mathrm{e}$}
+\end{answers}
+\begin{explanations}
+On utilise le fait que si $\displaystyle \lim _{n\to +\infty}a_n=0$, alors les suites $(a_n)$ et $\ln (1+a_n)$ sont équivalentes. Ainsi le terme $u_n$ est équivalent, en $+\infty$, à $\displaystyle n\times \frac{1}{n}=1$. Donc $\displaystyle \lim _{n\to +\infty}u_n=1$ et, puisque $v_n=\mathrm{e}^{u_n}$, $\displaystyle \lim _{n\to +\infty}v_n=\mathrm{e}$.
+\end{explanations}
+\end{question}
+}

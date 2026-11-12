@@ -1,0 +1,32 @@
+\uuid{NedA}
+\titre{Calcul de dérivée}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Dérivées, calcul de dérivée}
+\exo7qcmid{lille-1.derivees.006}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=calcul de dérivée}
+Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{La dérivée de $f(x)=\sin [(2x+1)^2]$ est $f'(x)=2\cos [(2x+1)^2]$.}
+    \good{La dérivée de $f(x)=\sin [(2x+1)^2]$ est $f'(x)=4(2x+1)\cos [(2x+1)^2]$.}
+    \good{La dérivée de $f(x)=\tan (1+x^2)$ est $\displaystyle f'(x)=\frac{2x}{\cos ^2(1+x^2)}$.}
+    \bad{La dérivée de $f(x)=\tan (1+x^2)$ est $\displaystyle f'(x)=1+\tan ^2(1+x^2)$.}
+\end{answers}
+\begin{explanations}
+De manière plus générale, $(\sin u)'=u'\cos u$ et
+$$(\tan v)'=\frac{v'}{\cos ^2v}=v'(1+\tan ^2v).$$
+Il suffit de prendre $u=(2x+1)^2$, $v=1+x^2\Rightarrow u'=4(2x+1)$ et $v'=2x$.
+\end{explanations}
+\end{question}
+}

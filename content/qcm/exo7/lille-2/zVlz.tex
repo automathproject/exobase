@@ -1,0 +1,37 @@
+\uuid{zVlz}
+\titre{Famille libre/Génératrice/Noyau/Image/Injection/Surjection}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Famille libre, Génératrice, Noyau, Image, Injection, Surjection}
+\exo7qcmid{lille-2.applications-lineaires.026}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Famille libre/Génératrice/Noyau/Image/Injection/Surjection}
+Soit $E$ et $F$ deux $\Rr$-espaces vectoriels et $f$ une application linéaire de $E$ dans $F$. Soit $k\in \Nn^*$, ${\cal F} = \{u_1,u_2, \dots , u_k\}$ une famille de vecteurs de $E$ et ${\cal F}' = \{f(u_1),f(u_2), \dots , f(u_k)\}$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{Si ${\cal F}$ est une famille libre, alors ${\cal F}'$ est une famille libre}.
+\good{Si ${\cal F}$ est une famille libre  et $f$ est injective, alors ${\cal F}'$ est une famille libre}.
+\bad{Si ${\cal F}$ est une famille génératrice de $E$, alors ${\cal F}'$ est  une famille génératrice de $F$}.
+\good{Si ${\cal F}$ est une famille génératrice de $E$ et $f$ est surjective, alors ${\cal F}'$ est une famille génératrice de $F$}.
+\end{answers}
+\begin{explanations} Si ${\cal F}$ est libre, ${\cal F}'$ n'est pas nécessairement libre. Exemple : l'application nulle de $\Rr^2$ dans $\Rr^2$ et ${\cal F}$ la base canonique de $\Rr^2$.
+\vskip0mm
+Par contre, si de plus $f$ est injective, alors ${\cal F}'$ est injective. En effet, soit $\lambda_1, \dots ,\lambda_k $ des réels tels que $\lambda_1f(u_1)+ \dots \lambda_kf(u_k)=0 $, alors
+$\lambda_1u_1+ \dots \lambda_ku_k \in \ker f$ et comme $f$ est injective, $\lambda_1u_1+ \dots \lambda_ku_k=0$. Puisque ${\cal F}$ est libre, on déduit que  $\lambda_1= \dots= \lambda_k=0 $.
+\vskip0mm
+Si ${\cal F}$ est génératrice de $E$, ${\cal F}'$ n'est pas nécessairement génératrice de $F$. Exemple : l'application nulle de
+$\Rr^2$ dans $\Rr^2$ et ${\cal F}$ la base canonique de $\Rr^2$.
+\vskip0mm
+Par contre, si de plus $f$ est surjective, alors ${\cal F}'$ est génératrice de $F$. En effet, puisque $f$ est surjective, $F=f(E)$ et comme  $E=\mbox{Vect} \, \left({\cal F}\right)$, on déduit que $F=\mbox{Vect} \, \left({\cal F'}\right)$.
+\end{explanations}
+\end{question}
+}

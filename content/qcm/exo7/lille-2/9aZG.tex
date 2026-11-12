@@ -1,0 +1,38 @@
+\uuid{9aZG}
+\titre{DL usuels/Calcul de limites}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{1}
+\theme{Applications des DL, DL usuels, Calcul de limites}
+\exo7qcmid{lille-2.developpements-limites.030}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL usuels/Calcul de limites}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle\lim _{x\to 0}\frac{\mathrm{e}^{x}-1}{\sqrt{1+x}-1}=2$.}
+\bad{$\displaystyle \lim _{x\to 0}\frac{\mathrm{e}^{x}-\sqrt{1+2x}}{\ln(1+x)}=1$.}
+\good{$\displaystyle \lim _{x\to 0}\frac{1-\cos x}{\sin ^2x}=\frac{1}{2}$.}
+\bad{$\displaystyle \lim _{x\to 0}\frac{\mathrm{e}^x-\cos x-x}{x^2}=2$.}
+\end{answers}
+\begin{explanations}
+On a : $\displaystyle DL_1(0)\mathrm{e}^{x}-1=x+o(x)$ et $\displaystyle DL_1(0)(\sqrt{1+x}-1)=\frac{x}{2}+o(x)$. Donc
+$$\displaystyle DL_0(0)\frac{\mathrm{e}^{x}-1}{\sqrt{1+x}-1}=2+o(1)\Rightarrow \displaystyle\lim _{x\to 0}\frac{\mathrm{e}^{x}-1}{\sqrt{1+x}-1}=2.$$
+De même, $\displaystyle DL_1(0)(\mathrm{e}^{x}-\sqrt{1+2x})=o(x)$ et $\displaystyle DL_1(0)\ln(1+x)=x+o(x)$. Donc
+$$\displaystyle DL_0(0)\frac{\mathrm{e}^{x}-\sqrt{1+2x}}{\ln(1+x)}=o(1)\Rightarrow \lim _{x\to 0}\frac{\mathrm{e}^{x}-\sqrt{1+2x}}{\ln(1+x)}=0.$$ Ensuite, $\displaystyle 1-\cos x=\frac{x^2}{2}+o(x^2)$ et $\displaystyle \sin ^2x=x^2+o(x^2)$. D'où $\displaystyle \frac{1-\cos x}{\sin ^2x}=\frac{1}{2}+o(1)$. On en déduit la limite en $0$. Enfin,
+$$\mathrm{e}^x-\cos x-x=x^2+o(x^2)\Rightarrow \frac{\mathrm{e}^x-\cos x-x}{x^2}=1+o(1)\Rightarrow \lim _{x\to 0}\frac{\mathrm{e}^x-\cos x-x}{x^2}=1.$$
+\end{explanations}
+\end{question}
+}

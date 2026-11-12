@@ -1,0 +1,35 @@
+\uuid{geFO}
+\titre{Limite en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{3}
+\theme{Limites des fonctions réelles, limite en un point}
+\exo7qcmid{lille-1.limites.021}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en un point}
+Soit $f(x)= xE(\frac{1}{x})$, où $E$ désigne la partie entière. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$\lim_{x\to 0} f(x)=0$}
+
+    \bad{$\lim_{x\to 0} f(x)=+\infty$}
+
+    \bad{$f$ n'admet pas de limite en $0$.}
+
+    \good{$\lim_{x\to 0} f(x)=1$}
+\end{answers}
+\begin{explanations}
+Pour tout $x\in \Rr$, on a : $x-1<E(x)\le x$. Donc $1-x < f(x) \le 1$, pour $x>0$ et
+$1 \le f(x) < 1-x$, pour $x<0$. On déduit que $\lim_{x\to 0} f(x) =1$.
+\end{explanations}
+\end{question}
+}

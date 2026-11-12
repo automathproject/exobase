@@ -1,0 +1,32 @@
+\uuid{i9ZW}
+\titre{Norme}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Géométrie}
+\chapitre{Géométrie du plan}
+\sousChapitre{Distance, norme, produit scalaire}
+\difficulte{2}
+\theme{norme}
+\exo7qcmid{lille-1.geometrie-plane.014}
+
+\contenu{
+\begin{question}
+\qclassification{140.01,140.02}
+\qtags{motcle=norme}
+Dans le plan muni d'une base orthonormée $(\vec{i},\vec{j})$, on considère deux vecteurs $\displaystyle \vec{u}$ et $\displaystyle \vec{v}$. On suppose que $\|\vec{u}\|=3$, $\|\vec{v}\|=3$ et que l'angle entre ces deux vecteurs est $\displaystyle \frac{\pi}{3}$. Quelle est la norme de $\vec{u}+\vec{v}$ ?
+\begin{answers}
+    \bad{$\displaystyle \|\vec{u}+\vec{v}\|=6$}
+    \bad{$\displaystyle \|\vec{u}+\vec{v}\|=3$}
+    \good{$\displaystyle \|\vec{u}+\vec{v}\|=3\sqrt{3}$}
+    \bad{$\displaystyle \|\vec{u}+\vec{v}\|=9$}
+\end{answers}
+\begin{explanations}
+La bilinéarité et la symétrie du produit scalaire donnent
+$$\|\vec{u}+\vec{v}\|^2=(\vec{u}+\vec{v})\cdot(\vec{u}+\vec{v})=\|\vec{u}\|^2+\|\vec{v}\|^2+2\vec{u}\cdot\vec{v}.$$
+Et puis $\displaystyle \vec{u}\cdot \vec{v}=\|\vec{u}\|\|\vec{v}\|\cos \left(\frac{\pi}{3}\right)=\frac{9}{2}$. Donc $\|\vec{u}+\vec{v}\|^2=9+9+9$.
+\end{explanations}
+\end{question}
+}

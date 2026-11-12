@@ -1,0 +1,31 @@
+\uuid{W0Io}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.053}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit l'équation différentielle $2y' = 3y + 1$.
+Quelles sont les affirmations vraies ?
+\begin{answers}
+  \bad{Il y a au moins une solution dont la limite en $-\infty$ est $0$.}
+  \good{La solution vérifiant $y(0)=0$ est $y(x) = \frac 13 (e^{\frac32x} - 1)$.}
+  \bad{La solution vérifiant $y(0)=0$ est $y(x) = 0$.}
+  \bad{La solution vérifiant $y(0)=0$ est $y(x) = e^{\frac32x} - 1$.}
+\end{answers}
+\begin{explanations}
+Notre équation différentielle peut se réécrire sous la forme $y' = \frac 32 y + \frac 12$. Les solutions d'une équation diffférentielle $y' = ay + b$ sont les fonctions $x \mapsto C e^{ax} - \frac ba$. Donc ici les solutions de l'équation différentielle sont les fonctions $f(x) = Ce^{\frac32x} -\frac13$.
+La solution vérifiant $y(0)=0$ est $y_0(x) = \frac13e^{\frac32x} -\frac13 = \frac 13 (e^{\frac 32 x} - 1)$. Enfin, puisque la limite de $e^{\frac 32 x}$ en $-\infty$ est nulle, la limite de toutes les fonctions solutions en $-\infty$ sera $-\frac 13$.
+\end{explanations}
+\end{question}
+}

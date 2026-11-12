@@ -1,0 +1,35 @@
+\uuid{12DK}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.022}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $t=\sin x$ donne $\displaystyle \int _{0}^{\pi/6}\frac{\mathrm{d}x}{\cos x}=\int _0^{1/2}\frac{\mathrm{d}t}{t^2-1}$.}
+\good{$\displaystyle \int _0^{\pi/6}\frac{\mathrm{d}x}{\cos x}=\ln \sqrt{3}$.}
+\bad{Le changement de variable $t=\cos x$ donne $\displaystyle \int _{0}^{\pi/3}\frac{\tan x\, \mathrm{d}x}{\cos x}=\int _1^{1/2}\frac{\mathrm{d}t}{t^2}$.}
+\good{$\displaystyle \int _{0}^{\pi/3}\frac{\tan x\, \mathrm{d}x}{\cos x}=1$.}
+\end{answers}
+\begin{explanations}
+Avec $t=\sin x\Rightarrow \mathrm{d}t=\cos x\, \mathrm{d}x$, on a : $t(0)=0$, $t(\pi/6)=1/2$ et
+$$\displaystyle \int _0^{\pi/6}\frac{\mathrm{d}\, x}{\cos x}=\int _0^{\pi/6}\frac{\cos x\, \mathrm{d}x}{\cos ^2x}=\int _0^{\pi/6}\frac{\cos x\, \mathrm{d}x}{1-\sin ^2x}=\int _0^{1/2}\frac{\mathrm{d}t}{1-t^2}.$$
+Or, $\displaystyle \frac{1}{1-t^2}=\frac{1}{2}\left(\frac{1}{1-t}+\frac{1}{1+t}\right)$. Donc $\displaystyle \int _0^{\pi/6}\frac{\mathrm{d}x}{\cos x}=\left[\ln \sqrt{\frac{1+t}{1-t}}\right]_0^{1/2}=\ln \sqrt{3}$.
+\vskip0mm
+Avec $t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$, on a : $t(0)=1$, $t(\pi/3)=1/2$ et
+$$\displaystyle \int _{0}^{\pi/3}\frac{\tan x\, \mathrm{d}x}{\cos x}=\int _{0}^{\pi/3}\frac{\sin x\, \mathrm{d}x}{\cos ^2x}=-\int _1^{1/2}\frac{\mathrm{d}t}{t^2}=1.$$
+\end{explanations}
+\end{question}
+}

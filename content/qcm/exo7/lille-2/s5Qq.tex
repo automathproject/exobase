@@ -1,0 +1,37 @@
+\uuid{s5Qq}
+\titre{Quotient/Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Quotient, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.021}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Quotient/Composée/DL usuels}
+Soit $\displaystyle f(x)=\ln\left(\frac{x}{\mathrm{e}^x-1}\right)$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle DL_2(0)(\mathrm{e}^x-1)=x+\frac{x^2}{2}+o(x^2)$ et $\displaystyle DL_2(0)\frac{x}{\mathrm{e}^x-1}=1-\frac{x}{2}+\frac{x^2}{4}+o(x^2)$.}
+\good{$\displaystyle DL_2(0)\ln (1+u)=u-\frac{u^2}{2}+o(u^2)$.}
+\bad{$\displaystyle DL_2(0)f(x)=-\frac{x}{2}+\frac{x^2}{8}+o(x^2)$.}
+\good{$\displaystyle DL_1(0)f(x)=-\frac{x}{2}+o(x)$.}
+\end{answers}
+\begin{explanations}
+On a : $\displaystyle DL_2(0)(\mathrm{e}^x-1)=x+\frac{x^2}{2}+o(x^2)$ et donc
+$$\frac{x}{\mathrm{e}^x-1}=\frac{x}{x+\frac{x^2}{2}+o(x^2)}=\frac{1}{1+\frac{x}{2}+o(x)}=1-\frac{x}{2}+o(x).$$
+Pour écrire le $\displaystyle DL_2(0)\frac{x}{\mathrm{e}^x-1}$, il faut considérer le $DL_3(0)(\mathrm{e}^x-1)$. Maintenant, avec $\displaystyle u=\frac{x}{\mathrm{e}^x-1}-1=-\frac{x}{2}+o(x)$, on obtient
+$$\ln\left(\frac{x}{\mathrm{e}^x-1}\right)=\ln (1+u)=u+o(u)=-\frac{x}{2}+o(x).$$
+\end{explanations}
+\end{question}
+}

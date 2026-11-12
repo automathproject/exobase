@@ -1,0 +1,32 @@
+\uuid{albb}
+\titre{Limite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Suites, limite}
+\exo7qcmid{lille-1.suites.013}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=limite}
+Soit $\displaystyle u_n=\frac{2n^2+1}{n^2+1}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\forall \varepsilon >0,\; \forall n\in \Nn,\; |u_n-2|<\varepsilon$}
+    \good{$\exists \varepsilon >0,\; \forall n\in \Nn,\; |u_n-2|<\varepsilon$}
+    \good{$\forall n\in \Nn,\; n>10\Rightarrow |u_n-2|<10^{-2}$}
+    \good{$\forall \varepsilon >0,\; \exists n_0\in \Nn,\; \forall n\in \Nn,\; n>n_0\Rightarrow |u_n-2|<\varepsilon$}
+\end{answers}
+\begin{explanations}
+D'abord, $\displaystyle u_n-2=\frac{-1}{n^2+1}$. D'une part, $\displaystyle |u_n-2|\leq 1$ pour tout $n\in \Nn$. D'autre part, si $n>10$ alors $\displaystyle n^2+1>10^2+1>10^2$. C'est-à-dire
+$$|u_n-2|=\frac{1}{n^2+1}<10^{-2}.$$
+De même, pour tout $\varepsilon >0$, si $n>n_0=E\left(\sqrt{\varepsilon ^{-1}}\right)+1$ alors $\displaystyle |u_n-2|=\frac{1}{n^2+1}<\varepsilon$.
+\end{explanations}
+\end{question}
+}

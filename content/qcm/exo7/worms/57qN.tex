@@ -1,0 +1,30 @@
+\uuid{57qN}
+\titre{Variables discrètes}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Variable aléatoire discrète}
+\difficulte{}
+\theme{Variables discrètes}
+\exo7qcmid{worms.worms.032}
+
+\contenu{
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Soit $X$ une variable aléatoire à valeurs dans $\Nn$ vérifiant $\mathbb{P}(X\geq 3)=64\%$. Que peut-on dire de la médiane de $X$ ?
+\begin{answers}
+\bad{Elle vaut 3.}
+\bad{Elle est inférieure ou égale à 3.}
+\good{Elle est supérieure ou égale à 3.}
+\bad{On manque d'informations pour affirmer l'une des propositions ci-dessus.}
+\end{answers}
+\begin{explanations}
+Elle ne vaut pas forcément $3$ (par exemple, on peut très bien avoir $\mathbb{P}(X=3)=11\%$ donc $\mathbb{P}(X\leq 3)=\mathbb{P}(X\leq 2)+\mathbb{P}(X= 3)=(1-0.64)+0.11=0.47=47\%$ donc $\mathbb{P}(X\leq 3)<1/2$), et elle est $\geq 3$ car si $k\leq 2$, par croissance de la fonction de répartition on a  $\mathbb{P}(X\leq k) \leq \mathbb{P}(X\leq 2)= 1-\mathbb{P}(X>2) =1-\mathbb{P}(X\geq 3) = 1-0.64 < 1/2$.
+\end{explanations}
+\end{question}
+}

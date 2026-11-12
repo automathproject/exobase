@@ -1,0 +1,32 @@
+\uuid{czPq}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.027}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+Soit $(u_n)_{n\geq 0}$ la suite définie par $u_0\geq 0$ et $\displaystyle u_{n+1}= \ln(1+u_n)$. Que peut-on en déduire ?
+\begin{answers}
+    \bad{Une telle suite $(u_n)$ n'existe pas.}
+    \good{$\forall n\in \Nn^*$, $u_n \geq 0$, et $(u_n)$ est décroissante}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=0$}
+\end{answers}
+\begin{explanations}
+On vérifie par récurrence que $\displaystyle 0\leq u_n$ pour tout $n\geq 0$. Donc la suite $(u_n)$ est bien définie. On vérifie aussi que $\ln (1+x)\leq x$ pour tout réel $x\geq 0$. En particulier,
+$$u_{n+1}=\ln (1+u_n)\leq u_n.$$
+Donc $(u_n)$ est décroissante. Étant à la fois décroissante est minorée, la suite $(u_n)$ est convergente et sa limite est l'unique solution de l'équation $x=\ln (1+x)$. Soit $\displaystyle \lim _{n\to +\infty}u_n=0$.
+\end{explanations}
+\end{question}
+}

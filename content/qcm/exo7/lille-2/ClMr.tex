@@ -1,0 +1,33 @@
+\uuid{ClMr}
+\titre{Intégration par parties}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, intégration par parties}
+\exo7qcmid{lille-2.primitives.035}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=intégration par parties}
+On se place sur $]-1,+\infty[$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int \ln (x+1)\, \mathrm{d}x=\mathrm{e}^{x+1}+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int \ln (x+1)\, \mathrm{d}x=(x+1)\ln (x+1)-\int \mathrm{d}x$.}
+\bad{$\displaystyle \int x\ln (1+x)\mathrm{d}x=\int x\mathrm{d}x\times\ln (1+x)=\frac{x^2}{2}\ln (1+x)+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int x\ln (1+x)\mathrm{d}x=\frac{x^2}{2}\ln (1+x)-\int \frac{x^2\mathrm{d}x}{2(1+x)}$.}
+\end{answers}
+\begin{explanations}
+Une intégration par parties avec $u=\ln (x+1)$ et $v=x+1$ donne
+$$\int \ln (x+1)\, \mathrm{d}x=(x+1)\ln (x+1)-\int \mathrm{d}x=(x+1)\ln (x+1)-x+k,\; k\in \Rr.$$
+Une intégration par parties avec $u=\ln (x+1)$ et $v=x^2/2$ donne
+$$\int x\ln (1+x)\mathrm{d}x=\frac{x^2}{2}\ln (1+x)-\int \frac{x^2\mathrm{d}x}{2(1+x)}.$$
+\end{explanations}
+\end{question}
+}

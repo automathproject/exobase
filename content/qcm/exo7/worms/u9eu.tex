@@ -1,0 +1,79 @@
+\uuid{u9eu}
+\titre{Pile ou face jusqu'au premier pile}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Variable aléatoire discrète}
+\difficulte{}
+\theme{Variables discrètes}
+\exo7qcmid{worms.worms.025}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+On considère qu'une personne un peu éméchée accepte de lancer une pièce de monnaie équilibrée jusqu'à faire pile, mais en donnant 10 euros à son voisin de table à chaque fois qu'elle fait face.
+}
+
+\begin{question}
+\qclassification{260.03}
+Quelle est la loi du nombre $N$ de fois que cette personne fait face (avant de finir par faire pile) ?
+\begin{answers}
+\bad{C'est une loi binomiale de paramètres $10$ et $1/2$.}
+\bad{C'est une loi binomiale négative de paramètres $10$ et $1/2$.}
+\good{C'est une loi géométrique sur $\Nn$ de paramètre $1/2$.}
+\bad{C'est une loi géométrique sur $\Nn^*$ de paramètre $1/2$.}
+\bad{C'est une loi de Poisson de paramètre $1/2$.}
+\end{answers}
+\begin{explanations}
+C'est le nombre d'échecs jusqu'à  réussite dans une succession d'essais indépendants et de même probabilité de réussite $p=\frac 1 2$, donc $\mathbb{P}(N=k)=p(1-p)^{k} \ (\forall k\in\mathbb{N})$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Que valent $\mathbb{E}(N)$, $\operatorname{Var}(N)$, $\mathbb{E}(N^2)$ ?
+\begin{answers}
+\good{$\mathbb{E}(N)=1 $, $\operatorname{Var}(N)=2$,  $\mathbb{E}(N^2)=3$.}
+\bad{$\mathbb{E}(N)=1 $, $\operatorname{Var}(N)=2$,  $\mathbb{E}(N^2)=1$.}
+\bad{$\mathbb{E}(N)=2 $, $\operatorname{Var}(N)=2$,  $\mathbb{E}(N^2)=6$.}
+\bad{$\mathbb{E}(N)=2 $, $\operatorname{Var}(N)=2$,  mais le calcul de $\mathbb{E}(N^2)$ est trop compliqué.}
+\bad{Aucune des réponses ci-dessus.}
+\end{answers}
+\begin{explanations}
+Il était conseillé  d'utiliser l'astuce souvent utile $\mathbb{E}(N^2)=\operatorname{Var}(N)+(\mathbb{E}(N))^2$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Que valent $\mathbb{P}(N\geq 2)$ et la médiane de $N$ ?
+\begin{answers}
+\bad{$\mathbb{P}(N\geq 2)=1/2$ et la médiane de $N$ vaut $1$.}
+\good{$\mathbb{P}(N\geq 2)=1/4$ et la médiane de $N$ vaut $0$.}
+\bad{$\mathbb{P}(N\geq 2)=3/4$ et la médiane de $N$ vaut $1$.}
+\bad{Aucune des réponses ci-dessus.}
+\end{answers}
+\begin{explanations} On a $\mathbb{P}(N\geq 2) = 1-\mathbb{P}(N=1)-\mathbb{P}(N=0) = 1 - p - p(1-p) = 1/4$. En outre, $\mathbb{P}(N\geq 0)=1/2$ est $\geq 1/2$ et $\mathbb{P}(N\leq 0)=1$ est bien $\geq 1/2$ donc $0$ est la médiane de $N$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Quel est le montant moyen que ce joueur devra donner à son voisin de table ?
+\begin{answers}
+\bad{5 euros.}
+\good{10 euros.}
+\bad{20 euros.}
+\bad{Aucune des réponses ci-dessus.}
+\end{answers}
+\begin{explanations} Le montant qu'il doit donner à son voisin est la variable aléatoire $X=10N$, donc $\mathbb{E}(X)=10\mathbb{E}(N) = 10$ euros.
+\end{explanations}
+\end{question}
+}

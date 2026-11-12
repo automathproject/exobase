@@ -1,0 +1,31 @@
+\uuid{QHzO}
+\titre{Raisonnements}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Absurde et contraposée}
+\difficulte{3}
+\theme{Raisonnements}
+\exo7qcmid{hilisit.logique.055}
+
+\contenu{
+\begin{question}
+\qclassification{100.03}
+Pour démontrer que, pour tout $x\in\Rr$, on a $|x+1| \le x^2+2$.
+\begin{answers}
+	\bad{Je distingue les cas $x\ge0$ et $x<0$.}
+	\good{Je distingue les cas $x\ge-1$ et $x<-1$.}
+	\good{Je suis amené à vérifier $x^2-x+1 \ge 0$.}
+	\good{Je suis amené à vérifier $x^2+x+3 \ge 0$.}
+\end{answers}
+\begin{explanations}
+Soit $x\in\Rr$. On discute selon le signe de $x+1$.\\
+Si $x+1\ge0$ alors $|x+1| = x+1$ donc $(x^2+2) - |x+1| = x^2+2 - (x+1) = x^2-x+1$ toujours positif (car le discriminant est négatif).\\
+Si $x+1<0$ alors $|x+1| = -(x+1)$ donc $(x^2+2) - |x+1| = x^2+2 + (x+1) = x^2+x+3$ toujours positif (car le discriminant est négatif).
+\end{explanations}
+\end{question}
+}

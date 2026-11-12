@@ -1,0 +1,34 @@
+\uuid{H1ak}
+\titre{Module/argument}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Nombres complexes}
+\sousChapitre{Forme cartésienne, forme polaire}
+\difficulte{3}
+\theme{Écritures algébrique et géométrique, module, argument}
+\exo7qcmid{lille-1.nombres-complexes.014}
+
+\contenu{
+\begin{question}
+\qclassification{104.01}
+\qtags{motcle=module/argument}
+Soit $z=e^{i\theta} + e^{i\phi} ,\theta, \phi \in \Rr$ tels que $-\pi < \theta - \phi < \pi$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$|z|=2 $}
+
+    \good{$|z|=2\cos (\frac{ \theta -\phi}{2}) $}
+
+    \bad{$\arg z = \theta +\phi  \, [2\pi]$}
+
+    \good{$\arg z = \frac{\theta+ \phi}{2} \, [2\pi]$}
+
+\end{answers}
+\begin{explanations}
+$ z=e^{i\frac{\theta+\phi}{2}} (e^{i\frac{\theta-\phi}{2}} + e^{i\frac{\phi - \theta}{2}}) = 2 \cos (\frac{\theta-\phi}{2}) e^{i\frac{\theta+\phi}{2}}$. Comme $\theta-\phi \in ]-\pi,\pi[$,   $\cos (\frac{\theta-\phi}{2})>0$. On déduit que : $|z|=2\cos (\frac{\theta-\phi}{2})$ et $\arg z =  \frac{\theta+\phi}{2} \, [2\pi]$.
+\end{explanations}
+\end{question}
+}

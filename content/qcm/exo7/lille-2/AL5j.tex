@@ -1,0 +1,37 @@
+\uuid{AL5j}
+\titre{DL Usuels/Calcul de limites/Étude locale/Inflexion}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{2}
+\theme{Applications des DL, DL Usuels, Calcul de limites, Étude locale, Inflexion}
+\exo7qcmid{lille-2.developpements-limites.035}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL Usuels/Calcul de limites/Étude locale/Inflexion}
+Soit $\displaystyle f(x)=x-\sin x$. On note $T_0$ la tangente au graphe de $f$ au point d'abscisse $0$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_3(0)f(x)=\frac{x^3}{6}+o(x^3)$.}
+\bad{$T_0$ est la droite d'équation $y=0$ et $f$ admet un extrémum en $0$.}
+\good{Le point d'abscisse $0$ est un point d'inflexion.}
+\bad{$\displaystyle \lim _{x\to 0}\frac{f(x)}{x^2}$ n'existe pas.}
+\end{answers}
+\begin{explanations}
+Le $DL_3(0)\sin x$ donne $\displaystyle DL_3(0)f(x)=\frac{x^3}{6}+o(x^3)$. Donc $T_0$ est la droite d'équation $y=0$. Or, au voisinage de $0$, on a :
+$$f(x)-y=\frac{x^3}{6}+o(x^3).$$
+Ce qui implique que le point d'abscisse $0$ est un point d'inflexion. Enfin,
+$$\displaystyle \lim _{x\to 0}\frac{f(x)}{x^2}=\lim _{x\to 0}\left(\frac{x}{6}+o(x)\right)=0.$$
+\end{explanations}
+\end{question}
+}

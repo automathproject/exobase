@@ -1,0 +1,40 @@
+\uuid{ixmC}
+\titre{Équation droite/plan}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Géométrie}
+\chapitre{Géométrie de l'espace}
+\sousChapitre{Plans}
+\difficulte{3}
+\theme{Plans -- Droites, équation droite, plan}
+\exo7qcmid{lille-1.geometrie-espace.015}
+
+\contenu{
+\texte{
+Pour ces questions, l'espace est muni d'un repère orthonormé direct  $(O, \vec{i}, \vec{j}, \vec{k})$.
+}
+
+\begin{question}
+\qclassification{141.03,141.04}
+\qtags{motcle=équation droite/plan}
+Soit $P$ et $P'$ deux plans non parallèles d'équations :  $ax+by+cz+d =0$ et $a'x+b'y+c'z+d' =0$ respectivement. Soit $D=P\cap P'$ et $Q$ un plan contenant $D$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+     \bad{Une équation cartésienne de $Q$ est $ax+by+cz+d =0$.}
+
+     \bad{Une équation cartésienne de $Q$ est $a'x+b'y+c'z+d' =0$.}
+
+     \good{Une équation cartésienne de $Q$ est  de la forme : $\alpha(ax+by+cz+d)+\beta(a'x+b'y+c'z+d')=0,$  où $ \alpha, \beta \in \Rr$  tels que  $(\alpha a+ \beta a', \alpha b+ \beta b', \alpha c+ \beta c', \alpha d+ \beta d') \neq (0,0,0,0)$.}
+
+      \good{Si $Q\neq P'$, une équation cartésienne de $Q$ est de la forme :
+       $(ax+by+cz+d)+\alpha(a'x+b'y+c'z+d')=0, $ où $ \alpha \in \Rr$  tel que $ (a+ \alpha a',  b+ \alpha b', c+ \alpha c',  d+ \alpha d') \neq (0,0,0,0)$.}
+
+\end{answers}
+\begin{explanations}
+$\vec{n}(a,b,c)$ est un vecteur normal à $P$ et $\vec{n'}(a',b',c')$ est un vecteur normal à $P'$, donc un vecteur normal à $Q$ est une combinaison linéaire de $\vec{n}$ et $\vec{n'}$. Par conséquent, une équation cartésienne de $Q$ est de la forme :  $\alpha(ax+by+cz)+\beta(a'x+b'y+c'z) + \gamma =0.$ D'autre part, si $A(x_0,y_0,z_0) \in D$, $A \in Q$. On déduit que $\gamma = \alpha d + \beta d'$.
+\end{explanations}
+\end{question}
+}

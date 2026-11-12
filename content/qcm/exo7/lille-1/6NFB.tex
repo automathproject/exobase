@@ -1,0 +1,36 @@
+\uuid{6NFB}
+\titre{Module/argument}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Nombres complexes}
+\sousChapitre{Forme cartésienne, forme polaire}
+\difficulte{3}
+\theme{Écritures algébrique et géométrique, module, argument}
+\exo7qcmid{lille-1.nombres-complexes.015}
+
+\contenu{
+\begin{question}
+\qclassification{104.01}
+\qtags{motcle=module/argument}
+Soit $x\in \Rr\backslash \{2k\pi, k \in \Zz\}$, $n \in \Nn^*$,
+$S_1= \sum_{k=0}^{n} \cos(kx)$ et $S_2= \sum_{k=0}^{n} \sin(kx)$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \good{$S_1= \cos (\frac{nx}{2})\cdot  \frac{\sin (\frac{n+1}{2})x}{\sin (\frac{x}{2})}$}
+
+    \bad{$S_1= \sin (\frac{nx}{2}) \cdot  \frac{\sin (\frac{n+1}{2})x}{\sin (\frac{x}{2})}$}
+
+    \good{$S_2=\sin (\frac{nx}{2}) \cdot  \frac{\sin (\frac{n+1}{2})x}{\sin (\frac{x}{2})}$}
+
+    \bad{$S_2= \cos (\frac{nx}{2}) \cdot  \frac{\sin (\frac{n+1}{2})x}{\sin (\frac{x}{2})}$}
+
+\end{answers}
+\begin{explanations}
+On calcule la somme géométrique $\sum_{k=0}^{n} e^{ikx}= \sum_{k=0}^{n} (e^{ix})^k = \frac{1-e^{i(n+1)x}}{1-e^{ix}}=\frac{e^{i\frac{(n+1)x}{2}}(e^{-i\frac{(n+1)x}{2}}-e^{i\frac{(n+1)x}{2}})}{e^{i\frac{x}{2}}(e^{-i\frac{x}{2}}-e^{i\frac{x}{2}})}= e^{i\frac{nx}{2}}\cdot  \frac{\sin (\frac{n+1}{2})x}{\sin (\frac{x}{2})}$; puis, la partie réelle
+et imaginaire de cette somme.
+\end{explanations}
+\end{question}
+}

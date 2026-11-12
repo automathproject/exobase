@@ -1,0 +1,38 @@
+\uuid{HzEr}
+\titre{Composée/Quotient/DL en l'infini}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Composée, Quotient, DL en l'infini}
+\exo7qcmid{lille-2.developpements-limites.015}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/Quotient/DL en l'infini}
+Les égalités suivantes portent sur des développements limités au voisinage de $+\infty$. Cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle \sin \left(\frac{1}{1+x}\right)=\frac{1}{x}-\frac{1}{x^2}+o\left(\frac{1}{x^2}\right)$.}
+\bad{$\displaystyle \cos \left(\frac{1}{1+x}\right)=1-\frac{1}{2x^2}+o\left(\frac{1}{x^3}\right)$.}
+\good{$\displaystyle \frac{x}{x^2-1}=\frac{1}{x}+\frac{1}{x^3}+o\left(\frac{1}{x^3}\right)$.}
+\bad{$\displaystyle \ln \left(1+\frac{x}{x^2-1}\right)=\frac{1}{x}+o\left(\frac{1}{x^2}\right)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Pour écrire un $DL(+\infty)$ de $f(x)$, on écrit un $DL(0^+)$ de $g(t)=f(1/t)$. Or
+$$\begin{array}{l}\displaystyle \sin\left(\frac{1}{1+1/t}\right)=\sin \left(\frac{t}{1+t}\right)=\sin \left(t-t^2+o(t^2)\right)=t-t^2+o(t^2)\\ \\ \displaystyle \cos\left(\frac{1}{1+1/t}\right)=\cos \left(\frac{t}{1+t}\right)=\cos \left(t-t^2+t^3+o(t^3)\right)=1-\frac{t^2}{2}+t^3+o(t^3),\\ \\ \displaystyle \frac{\frac{1}{t}}{\frac{1}{t^2}-1}=\frac{t}{1-t^2}=t+t^3+o(t^3)\Rightarrow \ln \left(1+\frac{t}{1-t^2}\right)=\ln \left(1+t+o(t^2)\right)=t-\frac{t^2}{2}+o(t^2).\end{array}$$
+Donc
+$$\begin{array}{ll}\displaystyle \sin \left(\frac{1}{1+x}\right)=\frac{1}{x}-\frac{1}{x^2}+o\left(\frac{1}{x^2}\right),&\displaystyle \cos \left(\frac{1}{1+x}\right)=1-\frac{1}{2x^2}+\frac{1}{x^3}+o\left(\frac{1}{x^3}\right),\\ \\ \displaystyle \frac{x}{x^2-1}=\frac{1}{x}+\frac{1}{x^3}+o\left(\frac{1}{x^3}\right),&\displaystyle \ln \left(1+\frac{x}{x^2-1}\right)=\frac{1}{x}-\frac{1}{2x^2}+o\left(\frac{1}{x^2}\right).\end{array}$$
+\end{explanations}
+\end{question}
+}

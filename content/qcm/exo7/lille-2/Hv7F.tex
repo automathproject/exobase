@@ -1,0 +1,32 @@
+\uuid{Hv7F}
+\titre{Primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, primitives usuelles}
+\exo7qcmid{lille-2.primitives.028}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=primitives usuelles}
+Le changement de variable $u=2+\sin x$ donne :
+\begin{answers}
+\good{$\displaystyle \int \cos x\mathrm{e}^{2+\sin x}\mathrm{d}x=\mathrm{e}^{2+\sin x}+k$, où $k\in \Rr$.}
+\bad{$\displaystyle \int \mathrm{e}^{2+\sin x}\mathrm{d}x=\int \mathrm{e}^u\mathrm{d}u$.}
+\bad{$\displaystyle \int \frac{\mathrm{d}x}{2+\sin x}=\int \frac{\mathrm{d}u}u$.}
+\good{$\displaystyle \int \frac{\cos x\mathrm{d}x}{2+\sin x}=\ln(2+\sin x)+k$, où $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=2+\sin x$, on a : $\mathrm{d}u=\cos x\mathrm{d}x$ et puis
+$$\int \cos x\mathrm{e}^{2+\sin x}\mathrm{d}x=\int \mathrm{e}^{u}\mathrm{d}u=\mathrm{e}^{u}+k=\mathrm{e}^{2+\sin x}+k,\; k\in \Rr.$$
+Ensuite, $\displaystyle \int \frac{\cos x\mathrm{d}x}{2+\sin x}=\int \frac{\mathrm{d}u}{u}=\ln |u|+k=\ln (2+\sin x)+k$, $k\in \Rr$.
+\end{explanations}
+\end{question}
+}

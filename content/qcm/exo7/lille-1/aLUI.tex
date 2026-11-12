@@ -1,0 +1,37 @@
+\uuid{aLUI}
+\titre{Calcul de dérivée}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, calcul de dérivée}
+\exo7qcmid{lille-1.derivees.030}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=calcul de dérivée}
+Soit $f(x)=\arcsin (1-2x^2)$ définie sur $[-1,1]$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\forall x\in [-1,1]$, $\displaystyle f'(x)=\frac{-2}{\sqrt{1-x^2}}$}
+    \bad{$\forall x\in [-1,1]$, $\displaystyle f(x)=-2\arcsin x+\frac{\pi}{2}$}
+    \good{$f'_d(0)=-2$ et $f'_g(0)=2$}
+    \good{La fonction $f$ est paire avec $\displaystyle f(x)=-2\arcsin x+\frac{\pi}{2}$ si $x\in [0,1]$.}
+\end{answers}
+\begin{explanations}
+La fonction $f$ est clairement paire. On calcule $f'(x)$ pour $x\in ]0,1[$ :
+$$f'(x)=\frac{(1-2x^2)'}{\sqrt{1-(1-2x^2)^2}}=\frac{-2x}{|x|\sqrt{1-x^2}}.$$
+Donc, pour $x\in ]0,1[$, $\displaystyle f'(x)=\frac{-2}{\sqrt{1-x^2}}=(-2\arcsin x)'$. Ainsi, par continuité,
+$$\forall x\in [0,1],\; f(x)=-2\arcsin x+C.$$
+Or $\displaystyle f(0)=\arcsin 1=\frac{\pi}{2}=-2\arcsin 0+C$, donc $\displaystyle C=\frac{\pi}{2}$. Par ailleurs,
+$$\left\{\begin{array}{l}f\mbox{ est continue sur }[0,1]\\ f\mbox{ est dérivable sur }]0,1[\\ \displaystyle \lim _{x\to 0^+}f'(x)=-2
+\end{array}\right\}\Rightarrow f'_d(0)=-2.$$
+On vérifie, de même, que $f'_g(0)=2$.
+\end{explanations}
+\end{question}
+}

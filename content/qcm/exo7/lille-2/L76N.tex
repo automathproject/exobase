@@ -1,0 +1,42 @@
+\uuid{L76N}
+\titre{Matrice d'une application linéaire/Noyau/Image/Changement de bases}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Noyau, Image, Changement de bases}
+\exo7qcmid{lille-2.matrice-application.020}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Changement de bases}
+Soit $f$ l'endomorphisme de $\Rr^3$ dont la matrice dans la base canonique ${\cal B}=\{e_1,e_2,e_3\}$ est :
+$$A = \left(\begin{array}{rcc}
+-1&1&1\\0&1&1\\ 0&-2&4\end{array}\right).$$
+On note $Id$ l'application identité de $\Rr^3$.
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\dim\ker (f+Id)=\dim \ker (f-2Id)= \dim \ker (f-3Id)=1 $}.
+\bad{$\dim\ker (f+Id)=\dim\ker (f-2Id)=1$ et $\dim\ker (f-3Id)=2$}.
+\good{Il existe une base de $\Rr^3$ dans laquelle la matrice de $f$ est :
+$B= \left(\begin{array}{rcc}-1&0&0\\
+0&2&0\\ 0&0&3\\\end{array}\right)$}.
+\good{L'application $(f+Id)o(f-2Id)o(f-3Id)$ est nulle}.
+\end{answers}
+\begin{explanations} On vérifie que $\{u_1=(1,0,0)\}$ est une base de $\ker (f+Id)$,
+$\{u_2=(2,3,3)\}$ est une base de $\ker (f-2Id)$ et que $\{u_3=(3,4,8)\}$ est une base de $\ker (f-3Id)$.
+Donc $\dim \ker (f+Id)=\dim \ker (f-2Id)= \dim \ker (f-3Id)=1$.
+\vskip0mm
+On vérifie que ${\cal B}' = \{u_1,u_2,u_3\}$ est une base de $\Rr^3$ et que la matrice de $f$ dans cette base
+est :  $B= \left(\begin{array}{rcc}-1&0&0\\0&2&0\\ 0&0&3\end{array}\right).$
+\vskip0mm
+Soit $g= (f+Id)o(f-2Id)o(f-3Id)$. On pose $\lambda_1=-1, \lambda_2=2, \lambda_3=3 $. On vérifie que pour $i=1,2,3$, $g(u_i)=(\lambda_i-\lambda_1)(\lambda_i-\lambda_2)(\lambda_i-\lambda_3)u_i=0$. Par conséquent, $g$ est l'application nulle, puisque ${\cal B}' = \{u_1,u_2,u_3\}$ est une base de $\Rr^3$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,36 @@
+\uuid{EpUJ}
+\titre{DL en l'infini/Asymptotes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{2}
+\theme{Applications des DL, DL en l'infini, Asymptotes}
+\exo7qcmid{lille-2.developpements-limites.037}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL en l'infini/Asymptotes}
+Soit $\displaystyle f(x)=x^2\ln \left(\frac{x+1}{x}\right)$. On note $\Gamma$ le graphe de $f$ et on pose $\displaystyle g(x)=xf\left(\frac{1}{x}\right)$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle DL_2(0)g(x)=1-\frac{x}{2}+o(x^2)$.}
+\good{Au voisinage de $+\infty$, on a : $\displaystyle f(x)=x-\frac{1}{2}+\frac{1}{3x}+o\left(\frac{1}{x}\right)$.}
+\good{$\Gamma$ admet la droite d'équation $\displaystyle y=x-\frac{1}{2}$ comme asymptote au voisinage de $+\infty$.}
+\bad{$\Gamma$ est au dessus de la droite d'équation $\displaystyle y=x-\frac{1}{2}$ au voisinage de $-\infty$.}
+\end{answers}
+\begin{explanations}
+D'abord, $\displaystyle g(x)=\frac{\ln (1+x)}{x}=1-\frac{x}{2}+\frac{x^2}{3}+o(x^2)$. Donc, au voisinage de $\pm\infty$, on a :
+$$f(x)=x-\frac{1}{2}+\frac{1}{3x}+o\left(\frac{1}{x}\right)\mbox{ car }f(x)=xg\left(\frac{1}{x}\right).$$
+La droite d'équation $\displaystyle y=x-\frac{1}{2}$ est une asymptote au voisinage de $\pm\infty$. De plus, au voisinage de $-\infty$, $\displaystyle f(x)-y=\frac{1}{3x}+o\left(\frac{1}{x}\right)\leq 0$. Donc $\Gamma$ est en dessous de cette droite au voisinage de $-\infty$.
+\end{explanations}
+\end{question}
+}

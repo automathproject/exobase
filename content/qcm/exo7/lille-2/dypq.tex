@@ -1,0 +1,39 @@
+\uuid{dypq}
+\titre{Matrice/Transposée/Inversibilité/Rang}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{3}
+\theme{Inverse d'une matrice, Matrice, Transposée, Inversibilité, Rang}
+\exo7qcmid{lille-2.matrices.029}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice/Transposée/Inversibilité/Rang}
+Soit $A$ et $B$ deux matrices carrées d'ordre $n\ge 1$. On notera $^tA$ la transposée de $A$ et $\mbox{rg}\, (A)$ le rang de $A$.
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\mbox{rg}(A)=\mbox{rg}( \, ^tA)$}.
+\good{Si $A$ est inversible, $\mbox{rg}(A)=\mbox{rg}(A^{-1})$}.
+\bad{$\mbox{rg}(A+B)=\max \big(\mbox{rg}(A), \mbox{rg}(B)\big)$}.
+\bad{$\mbox{rg}(AB)= \mbox{rg}(BA)$}.
+\end{answers}
+\begin{explanations} Le rang d'une matrice est le nombre maximum de vecteurs colonnes ou lignes qui sont linéairement indépendants. On en déduit que $\mbox{rg}(A)=\mbox{rg}(\, ^tA)$ et que, si $A$ est inversible, $\mbox{rg}(A)=\mbox{rg}(A^{-1})=n$.
+\vskip0mm
+En général, $\mbox{rg}(A+B)\neq \max \big(\mbox{rg}(A), \mbox{rg}(B)\big)$ et $\mbox{rg}(AB)\neq \mbox{rg}(BA)$. Contre-exemple : avec
+$$A = \left(\begin{array}{rc}
+1&-1\\-1&1\\ \end{array}\right),\quad B = \left(\begin{array}{rc}
+-1&1\\ 1&-1\\ \end{array}\right),\quad C =
+\left(\begin{array}{rc} 1&2\\1&2\\ \end{array}\right),$$
+on vérifie que :  $A+B =0$, $AC =0$ et $CA=
+\left(\begin{array}{rc}-1&1\\
+-1&1\\ \end{array}\right)$. Donc $\mbox{rg}(A)=\mbox{rg}(B)=1$ mais $\mbox{rg}(A+B)=0$ et $\mbox{rg}(AC)= 0$ est différent de $\mbox{rg}(CA)=1$.
+\end{explanations}
+\end{question}
+}

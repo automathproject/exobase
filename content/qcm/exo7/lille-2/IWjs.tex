@@ -1,0 +1,33 @@
+\uuid{IWjs}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.019}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+On pose $\displaystyle I_1=\int _{0}^{\pi/2}\frac{\cos x\,\mathrm{d}x}{1+2\sin x}$, $\displaystyle I_2=\int _{0}^{\pi/2}\frac{\sin (2x)\,\mathrm{d}x}{1+2\sin x}$ et $I=I_1+I_2$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle I=1$.}
+\bad{$\displaystyle I_1=2\ln 3$.}
+\good{$\displaystyle I_1=\frac{1}{2}\ln 3$.}
+\bad{$\displaystyle I_2=1-2\ln 3$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Dans $I_2$, on écrit $\sin (2x)=2\sin x\cos x$. D'où $\displaystyle I_1+I_2=\int _{0}^{\pi/2}\cos x\,\mathrm{d}x=1$.
+\vskip0mm
+Avec $t=1+2\sin x\Rightarrow \mathrm{d}t=2\cos x\, \mathrm{d}x$, on obtient : $\displaystyle I_1=\int _{1}^{3}\frac{\mathrm{d}t}{2t}=\frac{1}{2}\ln 3$. Enfin, $I_2=1-I_1$.
+\end{explanations}
+\end{question}
+}

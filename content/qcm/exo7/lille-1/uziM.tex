@@ -1,0 +1,35 @@
+\uuid{uziM}
+\titre{Limite en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{2}
+\theme{Limites des fonctions réelles, limite en un point}
+\exo7qcmid{lille-1.limites.017}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en un point}
+Soit $f(x)= \frac{\ln(1+x)}{x}$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$\lim_{x\to 0} f(x)=0$}
+
+    \bad{$\lim_{x\to 0} f(x)=+\infty$}
+
+    \bad{$f$ n'admet pas de limite en $0$.}
+
+   \good{$\lim_{x\to 0} f(x)=1$}
+
+\end{answers}
+\begin{explanations}
+La fonction $g: x\to \ln(1+x)$ est dérivable sur $]-1,+\infty[$  et $g'(x)= \frac{1}{1+x}$, pour tout $x>-1$. Donc  $\lim_{x\to 0}f(x)= \lim_{x\to 0}\frac{g(x)-g(0)}{x-0} = g'(0)=1$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,59 @@
+\uuid{K5g9}
+\titre{Matrice d'une application linéaire/Espaces supplémentaires/Polynômes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Espaces supplémentaires, Polynômes}
+\exo7qcmid{lille-2.matrice-application.015}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Espaces supplémentaires/Polynômes}
+On considère $\Rr_3[X]$, l'ensemble des polynômes à coefficients réels de degré $\le 3$, muni de sa base canonique notée ${\cal {B}}$ et $f$ l'application linéaire définie par :
+$$\begin{array}{rccc}f:&\Rr_3[X] &\to& \Rr_3[X]\\
+& P&\to &R, \end{array}$$
+où $R$ est le reste de la division euclidienne de $P$ par $(X-1)^2$. Soit ${\cal {B'}} =\{P_1,P_2,P_3,P_4\}$, où $P_1=1$, $P_2=1-X$, $P_3=(1-X)^2$ et $P_4=X(1-X)^2$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{La matrice de $f$ dans la base $ {\cal {B}}$ est : $\left(\begin{array}{rccc}
+1&0&-1&-2\\
+0&1&2&3\\
+0&0&0&0\\
+0&0&0&0\\
+\end{array}\right)$.}
+\good{${\cal {B'}} $  est une base de $\Rr_3[X]$}.
+\bad{La matrice de $f$ dans la base $ {\cal {B'}}$ est : $\left(\begin{array}{rccc}
+0&0&1&0\\
+0&0&0&1\\
+0&0&0&0\\
+0&0&0&0\\
+\end{array}\right)$.}
+\good{$\ker f$ et $\Im f$ sont supplémentaires dans  $\Rr_3[X]$.}
+\end{answers}
+\begin{explanations} La matrice de $f$  d'une base $ {\cal {B}}=(u_j)$ dans une autre base $ {\cal {B}}'=(v_i)$ est la matrice  dont la $j$ième colonne est constituée des coordonnées de  $f(u_j)$ dans la base $ {\cal {B}}'$.
+\vskip0mm
+La matrice de $f$ dans la base ${\cal {B}}$ est : $\left(\begin{array}{rccc}
+1&0&-1&-2\\
+0&1&2&3\\
+0&0&0&0\\
+0&0&0&0\\
+\end{array}\right)$.
+\vskip0mm
+La matrice de $f$ de la base $ {\cal {B'}}$ est : $
+\left(\begin{array}{rccc}
+1&0&0&0\\
+0&1&0&0\\
+0&0&0&0\\
+0&0&0&0\\
+\end{array}\right).$
+\vskip0mm
+De cette matrice, on déduit que $\{P_1,P_2\}$ est une base de $\Im f$ et $\{P_3,P_4\}$ est une base de $\ker f$. Comme $\{P_1,P_2,P_3,P_4\}$ est une base de $\Rr_3[X]$, $\Im f$ et $\ker f$ sont  supplémentaires dans  $\Rr_3[X]$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,34 @@
+\uuid{VID1}
+\titre{Changement de variable/positivité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changement de variable, positivité}
+\exo7qcmid{lille-2.integrales.033}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changement de variable/positivité}
+Soit $\displaystyle f(x)=\frac{6x+8}{(x+3)(x^2-4)}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{La d\'ecomposition en éléments simples de $f$ a la forme : $\displaystyle f(x)=\frac{a}{x+3}+\frac{b}{x^2-4}$.}
+\good{Une primitive de $f$ sur $]-2,2[$ est donn\'ee par $\displaystyle F(x)=\ln \frac{(4-x^2)}{(x+3)^2}$.}
+\good{$\displaystyle \int _{0}^1f(x)\, \mathrm{d}x=3\ln \frac{3}{4}$.}
+\good{$\displaystyle \int _0^{\pi/2}\frac{(8+6\cos t)\sin t}{(3+\cos t)(\cos ^2t-4)}\, \mathrm{d}t=3\ln \frac{3}{4}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On v\'erifie que : $\displaystyle f(x)=\frac{-2}{x+3}+\frac{1}{x-2}+\frac{1}{x+2}$. Donc, par linéarité,
+$$\int f(x)\, \mathrm{d}x=\ln \left|\frac{(x^2-4)}{(x+3)^2}\right|+k,\; k\in \Rr.$$
+Ainsi $\displaystyle \int _{0}^1f(x)\, \mathrm{d}x=3\ln \frac{3}{4}$. Avec $x=\cos t$, on a : $\mathrm{d}x=-\sin t\, \mathrm{d}t$, $x(0)=1$, $x(\pi/2)=0$ et
+$$\int _0^{\pi/2}\frac{(8+6\cos t)\sin t}{(3+\cos t)(\cos ^2t-4)}\, \mathrm{d}t=\int _0^1\frac{6x+8}{(x+3)(x^2-4)}\,\mathrm{d}x=3\ln \frac{3}{4}.$$
+\end{explanations}
+\end{question}
+}

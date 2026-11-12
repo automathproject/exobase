@@ -1,0 +1,29 @@
+\uuid{PEyv}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{2}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.048}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+On considère l'équation différentielle $y'+y = 2x^2(x+3)$. Quelles sont les affirmations vraies ?
+\begin{answers}
+	\bad{Il existe un nombre réel $r$ tel que $y(x) = e^{rx}$ soit une solution particulière.}
+	\good{Il existe deux nombres entiers $k$ et $n$ tels que $y(x) = kx^n$ soit une solution particulière.}
+	\bad{$y(x) = e^{-x} + 2x^3$ est une solution particulière vérifiant $y(0)=0$.}
+	\bad{$y(x) = -2e^{-x} + 2x^3$ est une solution particulière vérifiant $y(0)=0$.}
+\end{answers}
+\begin{explanations}
+Si l'on cherche une solution sous la forme $y(x) = kx^n$, on a $y'(x) = kn x^{n-1}$. En remplaçant dans l'équation différentielle, on obtient alors (en développant) : $ kn x^{n-1} + k x^n = 6x^2 + 2x^3 $. En identifiant, on vérifie que l'égalité est vraie pour $k=2$ et $n=3$. Ainsi $f(x) = 2x^3$ est une solution particulière. En revanche, si on cherche une solution sous la forme $f(x) = e^{rx}$, alors $f'(x) = r e^{rx}$, et en remplaçant on obtient $ (r+1)e^{rx} = 2x^2(x+3)$ ce qui est impossible (un côté est une exponentielle et l'autre un polynôme). Enfin, on vérifie que les fonctions $y(x) = e^{-x} + 2x^3$ et $y(x) = -2e^{-x}+2x^3$ sont bien solutions de notre équation différentielle, mais aucune des deux ne vaut $0$ en $x=0$ (elles valent respectivement $1$ et $-2$).
+\end{explanations}
+\end{question}
+}

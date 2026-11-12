@@ -1,0 +1,32 @@
+\uuid{6MeA}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.036}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Soit $\displaystyle f(x)=\frac{1}{\mathrm{e}^x+\mathrm{e}^{-x}}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$f$ admet une primitive sur $\Rr$.}
+\bad{La fonction $F$ telle que $\displaystyle F(x)=\ln \left(\mathrm{e}^x+\mathrm{e}^{-x}\right)$ est une primitive de $f$ sur $\Rr$.}
+\good{La fonction $F$ telle que $\displaystyle F(x)=\frac{\pi}{4}-\arctan \left(\mathrm{e}^{-x}\right)$ est une primitive de $f$ sur $\Rr$.}
+\bad{La primitive de $f$ sur $\Rr$ qui s'annule en $0$ est d\'efinie par $\displaystyle F(x)=\frac{\pi}{4}-\arctan \left(\mathrm{e}^{x}\right)$.}
+\end{answers}
+\begin{explanations}
+La fonction $f$ est continue sur $\Rr$, donc elle y admet des primitives. Avec $t=\mathrm{e}^{-x}$, on a : $\mathrm{d}t=-\mathrm{e}^{-x}\, \mathrm{d}x$ et
+$$\int \frac{\mathrm{d}x}{\mathrm{e}^x+\mathrm{e}^{-x}}=\int \frac{\mathrm{e}^{-x}\, \mathrm{d}x}{1+\mathrm{e}^{-2x}}=-\int \frac{\mathrm{d}t}{1+t^2}=-\arctan (t)+k=-\arctan \left(\mathrm{e}^{-x}\right)+k,\; k\in \Rr.$$
+La condition $F(0)=0$ implique que $\displaystyle k=\frac{\pi}{4}$.
+\end{explanations}
+\end{question}
+}

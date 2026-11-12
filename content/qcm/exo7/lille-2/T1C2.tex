@@ -1,0 +1,37 @@
+\uuid{T1C2}
+\titre{DL en l'infini/Calcul de limites/Asymptotes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{3}
+\theme{Applications des DL, DL en l'infini, Calcul de limites, Asymptotes}
+\exo7qcmid{lille-2.developpements-limites.042}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL en l'infini/Calcul de limites/Asymptotes}
+On considère les fonctions $f$ et $g$ telles que $\displaystyle f(x)=(1+x)\mathrm{e}^{1/(x+1)}$ et $\displaystyle g(x)=xf\left(\frac{1}{x}\right)$. On note $\Gamma$ le graphe de $f$ et $\Delta$ la droite d'équation $\displaystyle y=x+2$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_2(0^+)g(x)=1+2x+\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle \lim _{x\to 0^+}g(x)=1$ et $\displaystyle \lim _{x\to 0^-}g(x)=-1$.}
+\good{Au voisinage de $+\infty$, $\Gamma$ admet la droite $\Delta$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta$.}
+\bad{Au voisinage de $-\infty$, $\Gamma$ admet la droite $\Delta$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On a : $\displaystyle g(x)=(1+x)\mathrm{e}^{x/(1+x)}$. Dans $\displaystyle \mathrm{e}^u=1+u+\frac{u^2}{2}+o(u^2)$, on pose $\displaystyle u=\frac{x}{1+x}=x-x^2+o(x^2)$. Ceci donne :
+$$DL_2(0)g(x)=1+2x+\frac{x^2}{2}+o(x^2)\Rightarrow DL_1(+\infty)f(x)=x+2+\frac{1}{2x}+o\left(\frac{1}{x}\right).$$
+Ainsi, au voisinage de $+\infty$, $\Gamma$ admet $\Delta$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta$ car $\displaystyle f(x)-y=\frac{1}{2x}+o\left(\frac{1}{x}\right)\geq 0$ au voisinage de $+\infty$. Au voisinage de $-\infty$, $\Gamma$ est situé en dessous de $\Delta$ car $\displaystyle f(x)-y=\frac{1}{2x}+o\left(\frac{1}{x}\right)\leq 0$ au voisinage de $-\infty$.
+\end{explanations}
+\end{question}
+}

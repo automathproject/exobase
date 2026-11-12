@@ -1,0 +1,34 @@
+\uuid{miol}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.024}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+Soit $a>0$. On définit par récurrence une suite $(u_n)_{n\geq 0}$ par $u_0>0$ et, pour $n\geq 0$, $\displaystyle u_{n+1}= \frac{u_n^2+a^2}{2u_n}$. Que peut-on en déduire ?
+\begin{answers}
+    \bad{Le terme $u_n$ n'est pas défini pour tout $n\in \Nn$.}
+    \good{$\forall n\in \Nn^*$, $u_n \geq a$, et $(u_n)_{n\geq 1}$ est décroissante.}
+    \good{Pour tout $n\in \Nn$, $\displaystyle \left|u_{n+1}-a\right|\leq \frac{\left|u_1-a\right|}{2^n}$.}
+    \bad{La suite $(u_n)$ est divergente.}
+\end{answers}
+\begin{explanations}
+Par récurrence, $u_n>0$ pour tout $n\in \Nn$. Donc $(u_n)$ est bien définie. D'autre part,
+$$\displaystyle 0\leq (u_n-a)^2=u_n^2+a^2-2au_n \Rightarrow  a\leq \frac{u_n^2+a^2}{2u_n}.$$
+Donc $u_{n+1}\geq a>0$ pour tout $n\in \Nn$. On en déduit que
+$$\displaystyle u_{n+1}-u_n=\frac{a^2-u_n^2}{2u_n}\leq 0,\mbox{ pour }n\geq 1,$$
+donc $(u_n)_{n\geq 1}$ est décroissante. On vérifie aussi par récurrence que $\displaystyle \left|u_{n+1}-a\right|\leq \frac{\left|u_1-a\right|}{2^n}$, et donc, par passage à la limite, $\displaystyle \lim _{n\to +\infty}(u_n-a)=0$. C'est-à-dire, $(u_n)$ est convergente et $\displaystyle \lim _{n\to +\infty}u_n=a$.
+\end{explanations}
+\end{question}
+}

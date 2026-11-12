@@ -1,0 +1,34 @@
+\uuid{RDeZ}
+\titre{Intégration par parties/linéarité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, intégration par parties, linéarité}
+\exo7qcmid{lille-2.integrales.031}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=intégration par parties/linéarité}
+On pose $\displaystyle I=\int _0^{\pi}\mathrm{e}^x\cos ^2x\mathrm{d}x$, $\displaystyle J=\int _0^{\pi}\mathrm{e}^x\sin ^2x\mathrm{d}x$ et $\displaystyle K=\int _0^{\pi}\mathrm{e}^x\cos (2x)\mathrm{d}x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{A l'aide de deux intégrations par parties successives, on obtient : $\displaystyle K=\mathrm{e}^{\pi}-1-4K$ et donc $\displaystyle K=\frac{\mathrm{e}^{\pi}-1}{5}$.}
+\bad{$\displaystyle I+J=\mathrm{e}^{\pi}$ et $I-J=K$.}
+\bad{$\displaystyle I=\frac{6\mathrm{e}^{\pi}-1}{10}$.}
+\bad{$\displaystyle J=\frac{4\mathrm{e}^{\pi}+1}{10}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Deux intégrations par parties successives, avec $u=\cos (2x)$ et $v=\mathrm{e}^x$ et ensuite avec $u=\sin (2x)$ et $v=\mathrm{e}^x$, donnent
+$$K=\mathrm{e}^{\pi}-1+2\int _0^{\pi} \mathrm{e}^x\sin (2x)\mathrm{d}x=\mathrm{e}^{\pi}-1-4K\Rightarrow K=\frac{\mathrm{e}^{\pi}-1}{5}.$$
+A l'aide des relations $\cos ^2x+\sin ^2x=1$ et  $\cos ^2x-\sin ^2x=\cos (2x)$, on obtient :
+$$I+J=\mathrm{e}^{\pi}-1\mbox{ et }I-J=K\Rightarrow I=\frac{3(\mathrm{e}^{\pi}-1)}{5}\quad \mbox{et}\quad J=\frac{2(\mathrm{e}^{\pi}-1)}{5}.$$
+\end{explanations}
+\end{question}
+}

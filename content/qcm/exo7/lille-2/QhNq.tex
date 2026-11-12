@@ -1,0 +1,37 @@
+\uuid{QhNq}
+\titre{Matrice/Inversibilité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{3}
+\theme{Inverse d'une matrice, Matrice, Inversibilité}
+\exo7qcmid{lille-2.matrices.027}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice/Inversibilité}
+On considère la matrice : $A = \left(\begin{array}{rcc}
+1&-1&-2\\0&1&1\\ -1&1&2\\ \end{array}\right)$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$A$ est inversible}.
+\bad{$A^2$ est inversible}.
+\bad{$A^3+A^2$ est inversible}.
+\good{$A+\,^tA$ est inversible, où $^tA$ est la transposée de $A$}.
+\end{answers}
+\begin{explanations} $A$ n'est pas inversible, puisque les trois vesteurs colonnes sont linéairement dépendants.
+\vskip0mm
+Si $A^2$ est inversible, alors il existe une matrice  $B$ telle que $A^2B=I$, donc $A(AB)=I$ et donc $A$ est inversible,
+ce qui est absurde.
+\vskip0mm
+Si $A^3+A^2$ est inversible, alors il existe une matrice $B$ telle que $(A^3+A^2)B=I$. On en déduit que $A[(A^2+A)B]=I$ et donc $A$ est inversible, ce qui est absurde.
+\vskip0mm
+$A+\, ^tA$ est inversible, puisque les vecteurs colonnes de cette matrice sont linéairement indépendants.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,36 @@
+\uuid{V2El}
+\titre{Matrice/Transposée/Inversibilité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{2}
+\theme{Inverse d'une matrice, Matrice, Transposée, Inversibilité}
+\exo7qcmid{lille-2.matrices.025}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice/Transposée/Inversibilité}
+Soit $ A$ une matrice inversible. On notera  $^tA$ la transposée de $A$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$3A$ est inversible}.
+\good{$^tA$ est inversible}.
+\good{$A^tA$ est inversible}.
+\bad{$A+^tA$ est inversible}.
+\end{answers}
+\begin{explanations} Comme $A$ est inversible, il existe une matrice $B$ telle que $AB= BA=I$, où $I$ est la matrice identité. On en déduit : $3A$ est inversible et son inverse est $\displaystyle \frac{1}{3}B$.
+\vskip0mm
+$^tA$ est inversible et son inverse est $ ^tB$. En effet, $I=\, ^t (AB)=\, ^tB\, ^tA$.
+\vskip0mm
+$A^tA$ est inversible et son inverse est $^tBB$. En effet,  $(^tBB)A^tA=\, ^tB(BA)^tA= \, ^tB^tA=\, ^t (AB)=I$.
+\vskip0mm
+$A+^tA$ n'est pas nécessairement inversible. Contre exemple :
+$A=\left(\begin{array}{rc} 1&1\\ -1&0 \end{array}\right).$
+\end{explanations}
+\end{question}
+}

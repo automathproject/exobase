@@ -1,0 +1,30 @@
+\uuid{1iCr}
+\titre{Limite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Suites, limite}
+\exo7qcmid{lille-1.suites.018}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=limite}
+Soit $(u_n)$ une suite réelle. On suppose que $\displaystyle |u_{n+1}-1|\leq \frac{1}{2}|u_n-1|$ pour tout $n\geq 0$. Que peut-on en déduire ?
+\begin{answers}
+    \bad{La suite $(u_n)$ est convergente et $\displaystyle \lim _{n\to +\infty}u_n=0$.}
+    \bad{La suite $(u_n)$ est divergente.}
+    \good{Pour tout $n\geq 1$, $\displaystyle |u_n-1|\leq \frac{1}{2^n}|u_0-1|$.}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=1$}
+\end{answers}
+\begin{explanations}
+On vérifie par récurrence que $\displaystyle |u_n-1|\leq \frac{1}{2^n}|u_0-1|$, et donc, par passage à la limite, $\displaystyle \lim _{n\to +\infty}(u_n-1)=0$. C'est-à-dire, $\displaystyle \lim _{n\to +\infty}u_n=1$.
+\end{explanations}
+\end{question}
+}

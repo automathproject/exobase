@@ -1,0 +1,36 @@
+\uuid{hgNh}
+\titre{Composée/Somme/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{2}
+\theme{Opérations sur les DL, Composée, Somme, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.010}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/Somme/DL usuels}
+Les égalités suivantes portent sur des développements limités en $0$. Cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \ln\left(1+\mathrm{e}^x\right)=1+x+o(x)$.}
+\good{$\displaystyle \ln\left(\cos x\right)=-x^2/2+o(x^2)$.}
+\bad{$\displaystyle \ln\left(1+\sin x\right)=x+o(x^2)$.}
+\bad{$\displaystyle \ln(1-x^2)-\ln \left((1+x)^2\right)=o(x)$.}
+\end{answers}
+\begin{explanations}
+On a :
+$$\begin{array}{l}\displaystyle \ln\left(1+\mathrm{e}^x\right)=\ln \left(2+x+o(x)\right)=\ln 2+\frac{x}{2}+o(x)\\ \\ \displaystyle \ln\left(\cos x\right)=\ln \left(1-\frac{x^2}{2}+o(x^2)\right)=-\frac{x^2}{2}+o(x^2),\\ \\ \displaystyle \ln\left(1+\sin x\right)=\ln \left(1+x+o(x^2)\right)=x-x^2/2+o(x^2)\end{array}$$ et enfin
+$$\displaystyle \ln(1-x^2)-\ln \left((1+x)^2\right)=\ln(1-x^2)-\ln \left(1+2x+x^2\right)=-2x+o(x).$$
+\end{explanations}
+\end{question}
+}

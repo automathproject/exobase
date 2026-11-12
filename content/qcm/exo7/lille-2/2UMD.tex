@@ -1,0 +1,35 @@
+\uuid{2UMD}
+\titre{Noyau/Image/Injection/Surjection/Théorème du rang}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{2}
+\theme{Noyau et image, Noyau, Image, Injection, Surjection, Théorème du rang}
+\exo7qcmid{lille-2.applications-lineaires.015}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Injection/Surjection/Théorème du rang}
+On considère l' application linéaire :
+$$\begin{array}{rccc}f:&\Rr^3&\to&\Rr^3\\
+& (x,y,z)&\to &(x-z,y+z,x+y). \end{array}$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\{(1,-1,1)\}$ est une base de $\ker f$}.
+\bad{$f$ est injective}.
+\good{$\{(1,0,1), (0,1,1)\}$ est une base de $\Im f$}.
+\bad{$f$ est surjective}.
+\end{answers}
+\begin{explanations} $\ker f = \{(x,y,z) \in \Rr^3 \; ; \; (x-z,y+z,x+y)=(0,0,0)\} = \{(x,-x,x)  \; ; \; x\in \Rr\}$. Donc $ \{(1,-1,1)\}$ est une base de $\ker f$. Comme $\ker f \neq \{(0,0,0)\}$, $f$ n'est pas injective.
+\vskip0mm
+D'après le théorème du rang, $\dim \Im f = 2 $ et comme
+$f(e_1)=(1,0,1)$ et $ f(e_2)=(0,1,1)$ ne sont pas colinéaires, ils forment une base de  $\Im f$. Comme $\dim \Im f = 2 $, $\Im f \neq \Rr^3 $, donc $f$ n'est pas surjective.
+\end{explanations}
+\end{question}
+}

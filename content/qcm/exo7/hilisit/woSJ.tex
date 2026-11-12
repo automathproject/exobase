@@ -1,0 +1,31 @@
+\uuid{woSJ}
+\titre{Théorème de Bézout}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{2}
+\theme{Théorème de Bézout}
+\exo7qcmid{hilisit.arithmetique.023}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+ Soit deux nombres entiers $a$ et $b$ tels que $5a^2 - 4b^2 = 1$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+        \good{$\pgcd(a^2,b^2) = 1$.}
+        \good{$\pgcd(5a,4b) = 1$.}
+        \bad{$5$ divise $4b^2$.}
+        \good{$4$ divise $5a^2-1$.}
+    \end{answers}
+    \begin{explanations}
+    L'égalité fournie peut s'écrire sous les formes $5 \times a^2 + (-4) \times b^2 = 1 = a \times (5a) + (-b) \times 4b = 1$. Ce sont notamment des identités de Bézout pour les couples $(a^2,b^2)$ et $(5a,4b)$ qui sont donc premiers entre eux.\\
+    Si $5$ était un diviseur de $4b^2$, il diviserait $(5a^2 - 4b^2)$ et donc $1$ ce qui est impossible.\\
+    Enfin ayant $5a^2 - 1 = 4 b^2$, le nombre $5a^2-1$ est bien un multiple de $4$.
+    \end{explanations}
+\end{question}
+}

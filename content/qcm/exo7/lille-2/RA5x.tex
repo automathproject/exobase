@@ -1,0 +1,37 @@
+\uuid{RA5x}
+\titre{Produit/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{1}
+\theme{Opérations sur les DL, Produit, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.003}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Produit/DL usuels}
+Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_3(0)\frac{1}{1-x}=1+x+x^2+x^3+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)\frac{1}{1-x}=1-x+x^2-x^3+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)\frac{x}{1-x}=x-x^2+x^3+o(x^3)$.}
+\good{$\displaystyle DL_3(0)\frac{1+x}{1-x}=1+2x+2x^2+2x^3+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+On a le DL usuel suivant : $\displaystyle \frac{1}{1-x}=1+x+x^2+x^3+o(x^3)$. On en déduit que
+$$\frac{x}{1-x}=x(1+x+x^2+x^3+o(x^3))=x+x^2+x^3+o(x^3)$$
+et
+$$\frac{1+x}{1-x}=(1+x)(1+x+x^2+x^3+o(x^3))=1+2x+2x^2+2x^3+o(x^3).$$
+\end{explanations}
+\end{question}
+}

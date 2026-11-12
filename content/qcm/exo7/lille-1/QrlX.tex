@@ -1,0 +1,39 @@
+\uuid{QrlX}
+\titre{Domaine de définition}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Notion de fonctions, domaine de définition}
+\exo7qcmid{lille-1.continuite.007}
+
+\contenu{
+\begin{question}
+\qclassification{123.00}
+\qtags{motcle=domaine de définition}
+Soit $f(x) = \ln(x-1)$ et $g(x) = \sqrt{x+1}$.
+Quelles sont les assertions vraies concernant les domaines de définition ? (Rappel : le domaine de définition de $f$ est le plus grand ensemble $D_f \subset \Rr$ sur lequel $f$ est définie.)
+\begin{answers}
+    \good{$D_f \cup D_g = [-1,+\infty[$.}
+
+    \bad{Pour la composition $f \circ g$, $D_{f\circ g} = [-1,+\infty[$.}
+
+    \bad{Pour la composition $g \circ f$, $D_{g\circ f} = ]1,+\infty[$.}
+
+    \good{Pour la fonction $f \times g$, $D_{f\times g} = ]1,+\infty[$.}
+\end{answers}
+\begin{explanations}
+$D_f = ]1,+\infty[$ ; $D_g = [-1,+\infty[$ ;
+$D_f \cup D_g = [-1,+\infty[$ ;
+$D_{f \times g} = D_f \cap D_g = ]1,+\infty[$ ;
+$D_{f \circ g} = ]1,+\infty[$.
+$g \circ f$ n'est pas définie pour $x$ proche de $1$, en fait
+$D_{g\circ f} = [1+\frac1e,+\infty[$.
+\end{explanations}
+\end{question}
+}

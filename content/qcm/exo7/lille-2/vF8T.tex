@@ -1,0 +1,36 @@
+\uuid{vF8T}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.017}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+On pose $\displaystyle I=\int _{0}^{1/\sqrt{2}}\frac{x\ \mathrm{d}x}{\sqrt{1-x^2}}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $t=1-x^2$ donne $\displaystyle I=-\int _0^{1/\sqrt{2}}\frac{\mathrm{d}t}{2\sqrt{t}}$.}
+\good{Le changement de variable $t=1-x^2$ donne $\displaystyle I=\int _{1/2}^1\frac{\mathrm{d}t}{2\sqrt{t}}$.}
+\bad{Le changement de variable $t=x^2$ donne $\displaystyle I=\int _0^{1/\sqrt{2}}\frac{\mathrm{d}t}{2\sqrt{1-t}}$.}
+\good{Le changement de variable $x=\sin t$ donne $\displaystyle I=\int _{0}^{\pi/4}\sin t\, \mathrm{d}t$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=1-x^2$, on a : $t(0)=1$, $t(1/\sqrt{2})=1/2$, $\mathrm{d}t=-2x\mathrm{d}x$ et $\displaystyle I=\int _{1/2}^1\frac{\mathrm{d}t}{2\sqrt{t}}$.
+\vskip0mm
+Avec $t=x^2$, on a : $t(0)=0$, $t(1/\sqrt{2})=1/2$, $\mathrm{d}t=2x\mathrm{d}x$ et $\displaystyle I=\int _0^{1/2}\frac{\mathrm{d}t}{2\sqrt{1-t}}$.
+\vskip0mm
+Avec $x=\sin t$, on a : $t(0)=0$, $t(1/\sqrt{2})=\pi/4$, $\sqrt{1-x^2}=\cos t$, $\mathrm{d}x=\cos t\, \mathrm{d}t$ et
+$$\displaystyle I=\int _0^{\pi/4}\sin t\mathrm{d}t.$$
+\end{explanations}
+\end{question}
+}

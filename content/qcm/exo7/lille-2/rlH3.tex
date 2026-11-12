@@ -1,0 +1,35 @@
+\uuid{rlH3}
+\titre{Noyau/Image/Injection/Surjection/Bijection/Théorème du rang/Polynôme}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Injection, Surjection, Bijection, Théorème du rang, Polynôme}
+\exo7qcmid{lille-2.applications-lineaires.019}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Injection/Surjection/Bijection/Théorème du rang/Polynôme}
+On considère l' application linéaire :
+$$\begin{array}{rccc}f:&\Rr_2[X]&\to&\Rr_2[X]\\
+& P&\to &P',  \end{array}$$
+où $\Rr_2[X]$ est l'ensemble des polynômes à coefficients réels de degré $\le 2$ et $P'$ est la dérivée de $P$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\{1\}$ est une base de $\ker f $}.
+\good{$\{1, X\}$ est une base de $\Im f $}.
+\bad{$\{0, 1, X\}$ est une base de $\Im f $}.
+\bad{$f$ est  surjective}.
+\end{answers}
+\begin{explanations} $\ker f = \{P \in \Rr_2[X] \; ; \; P'=0\} = \Rr$. Donc $ \{1\}$ est une base de $\ker f$. Comme $\ker f \neq \{0\}$, $f$ n'est pas injective.
+\vskip0mm
+D'après le théorème du rang, $\dim \Im f = 2 $ et comme $f(X)=1$ et $ f(X^2) = 2X$ ne sont pas colinéaires, $\{1,X\}$ est une base de  $\Im f$. Donc $f$ n'est pas surjective, puisque $\dim \Im f = 2 $ et
+$\dim \Rr_2[X] =3 $.
+\end{explanations}
+\end{question}
+}

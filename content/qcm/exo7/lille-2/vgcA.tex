@@ -1,0 +1,35 @@
+\uuid{vgcA}
+\titre{Changement de variable/intégration par parties}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changement de variable, intégration par parties}
+\exo7qcmid{lille-2.integrales.035}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changement de variable/intégration par parties}
+Soit $f$ la fonction définie par $\displaystyle f(x)=\frac{1}{(4+x^2)^2}$. On pose $\displaystyle I=\int _0^2f(x)\,\mathrm{d}x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{On a : $\displaystyle \frac{2}{8^2}\leq I$ et $\displaystyle I>\frac{2}{4^2}$.}
+\bad{Le changement de variable $x=2t$ donne $\displaystyle I=\int _0^1\frac{\mathrm{d}t}{(1+t^2)^2}$.}
+\good{$\displaystyle I=\frac{1}{16}\left(\left[\frac{t}{1+t^2}\right]_0^1+\int _0^1\frac{\mathrm{d}t}{1+t^2}\right)$.}
+\good{$\displaystyle I=\frac{2+\pi}{64}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Pour tout $x\in [0,2]$, on a : $\displaystyle \frac{1}{8^2}\leq f(x)\leq \frac{1}{4^2}$. Donc $\displaystyle \frac{2}{8^2}\leq I\leq \frac{2}{4^2}$.
+\vskip0mm
+Le changement de variable $x=2t$ donne $\displaystyle I=\int _0^1\frac{2\mathrm{d}t}{(4+4t^2)^2}=\frac{2}{4^2}\int _0^1\frac{\mathrm{d}t}{(1+t^2)^2}$.
+\vskip0mm En intégrant $\displaystyle \int _0^1\frac{\mathrm{d}t}{1+t^2}$ par parties avec $\displaystyle u=\frac{1}{1+t^2}$ et $v=t$, on obtient :
+$$\int _0^1\frac{\mathrm{d}t}{(1+t^2)^2}=\frac{1}{2}\left(\left[\frac{t}{1+t^2}\right]_0^1+\int _0^1\frac{\mathrm{d}t}{1+t^2}\right)=\frac{2+\pi}{8} \Rightarrow I=\frac{2+\pi}{64}.$$
+\end{explanations}
+\end{question}
+}

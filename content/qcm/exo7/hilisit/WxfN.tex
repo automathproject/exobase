@@ -1,0 +1,30 @@
+\uuid{WxfN}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{1}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.042}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit l'équation différentielle $y'=2y-2x+1$.
+Quelles sont les affirmations vraies ?
+\begin{answers}
+   \bad{La seule solution constante est $y(x) = x - \frac 12$.}
+   \good{$y(x) = x$ est une solution particulière.}
+   \good{$y(x) = 3e^{2x} + x$ est une solution particulière.}
+   \bad{$y(x) = x^2$ est une solution particulière.}
+\end{answers}
+\begin{explanations}
+Si l'on recherche une solution constante $y=C$, avec donc $y'=0$, on obtient dans l'équation différentielle $0 = 2C - 2x + 1$ et donc $C = x - \frac 12$. Mais ceci n'est pas une constante ! Donc il n'existe aucune solution constante. Pour $f(x) = x$ et $f'(x) = 1$, on constate en remplaçant que $f$ est bien solution de l'équation différentielle puisque $f' = 1 = 2x - 2x + 1$. Il en va de même pour $f(x) = 3e^{2x} + x$, avec $f'(x) = 6e^{2x} + 1$ puisque $6e^{2x}+1 = 2(3e^{2x}+x) - 2x + 1$. En revanche, pour $f(x) = x^2$, et donc $f'(x) = 2x$, l'équation différentielle n'est pas vérifiée puisque $2x \neq 2x^2 - 2x +1$.
+\end{explanations}
+\end{question}
+}

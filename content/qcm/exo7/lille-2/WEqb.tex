@@ -1,0 +1,31 @@
+\uuid{WEqb}
+\titre{Base/Théorème de la base incomplète}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Espace vectoriel}
+\sousChapitre{Base}
+\difficulte{3}
+\theme{Base et dimension, Base, Théorème de la base incomplète}
+\exo7qcmid{lille-2.espaces-vectoriels.048}
+
+\contenu{
+\begin{question}
+\qclassification{106.04}
+\qtags{motcle=Base/Théorème de la base incomplète}
+Soit $n$ et $p$ deux entiers  tels que $n >p \ge 1$, $E$ un espace vectoriel sur $\Rr$ de dimension $n$, et $v_1,v_2, \dots, v_p$ des vecteurs linéairement indépendants de $E$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\{v_1,v_2, \dots, v_p\}$ est une base de $E$}.
+\good{Il existe des vecteurs $u_1, \dots , u_k$ de $E$ tels que $\{v_1,v_2, \dots, v_p, u_1, \dots , u_k\}$ soit une base de $E$}.
+\good{$\{v_1,v_2, \dots, v_{p-1}\}$ est une famille libre de $E$}.
+\bad{$\{v_1,v_2, \dots, v_{p}\}$ est une famille génératrice de $E$}.
+\end{answers}
+\begin{explanations} Comme $\dim E=n$ et $n>p$, $\{v_1,v_2, \dots, v_p\}$ n'est pas une famille génératrice de $E$. Puisque cette famille est libre, d'après le théorème de la base incomplète, on peut la compléter pour avoir une base de $E$.
+\vskip2mm
+D'autre part, $\{v_1,v_2, \dots, v_{p-1}\}$ est libre, puisque toute famille extraite d'une famille libre est libre.
+\end{explanations}
+\end{question}
+}

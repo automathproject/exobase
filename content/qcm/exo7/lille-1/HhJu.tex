@@ -1,0 +1,39 @@
+\uuid{HhJu}
+\titre{Limite en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{2}
+\theme{Limites des fonctions réelles, limite en un point}
+\exo7qcmid{lille-1.limites.011}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en un point}
+Soit $a\in \Rr$, $I$ un intervalle contenant $a$ et $f$ une fonction définie sur $I \setminus\{a\}$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \good{$\lim_{x\to a} f(x)=l \, (l\in \Rr)$ si et seulement si  $\forall \epsilon >0,  \exists \alpha > 0, \forall x \in I\setminus\{a\}, |x-a| < \alpha \Rightarrow |f(x)-l|<\epsilon$}
+
+    \bad{$\lim_{x\to a} f(x)=l \, (l\in \Rr)$ si et seulement si $\forall \epsilon >0,  \exists \alpha > 0, \forall x  \in I\setminus\{a\}, |x-a|<\epsilon \Rightarrow |f(x)-l|<\alpha $}
+
+    \bad{$\lim_{x\to a} f(x)=+\infty$ si et seulement si $\forall A > 0,  \exists \alpha > 0, \forall x \in I\setminus\{a\}, f(x) > A \Rightarrow |x-a| < \alpha$}
+
+    \good{$\lim_{x\to a} f(x)=-\infty$ si et seulement si $\forall A < 0,  \exists \alpha > 0, \forall x \in I\setminus\{a\}, |x-a| < \alpha \Rightarrow f(x) < A$}
+\end{answers}
+\begin{explanations}
+Voir la définition d'une limite finie ou infinie en un point $a\in\Rr$ :
+
+ $\lim_{x\to a} f(x)=l$ si et seulement si  $\forall \epsilon >0,  \exists \alpha > 0, \forall x \in I\setminus\{a\}, |x-a| < \alpha \Rightarrow |f(x)-l|<\epsilon$
+
+ $\lim_{x\to a} f(x)=-\infty$ si et seulement si $\forall A < 0,  \exists \alpha > 0, \forall x \in I\setminus\{a\}, |x-a| < \alpha \Rightarrow f(x) < A$
+
+\end{explanations}
+\end{question}
+}

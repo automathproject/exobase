@@ -1,0 +1,93 @@
+\uuid{RLPV}
+\titre{Deux dés à trois faces}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Probabilité et dénombrement}
+\difficulte{}
+\theme{Probabilités, événements}
+\exo7qcmid{worms.worms.014}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+Une expérience consiste à lancer deux dés à 3 "faces" (si, si, ça existe ! \'Equiprobables bien entendu.). On note $A_i=$"le premier dé vaut $i$" et $B_i=$"le second dé vaut $i$" pour chaque $i\in\{1,2,3\}$, ainsi que $S_k=$"la somme des deux dés vaut au plus $k$" pour $k\in \{2,3,4,5,6\}$. On note $\Omega$ l'univers associé à cette expérience.
+}
+
+\begin{question}
+\qclassification{260.01}
+Parmi les descriptions ci-dessous, laquelle/lesquelles désigne(nt) une partition de $\Omega$ ?
+\begin{answers}
+\good{$\{B_1,B_2,B_3\}$}
+\good{$\{A_1\cup A_2,A_3\}$}
+\bad{$\{S_2,S_3,S_4,S_5,S_6\}$}
+\end{answers}
+\begin{explanations}
+$\{S_2,S_3,S_4,S_5,S_6\}$ n'est pas du tout une partition car les événements $S_k$ ne sont pas incompatibles deux à deux.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Parmi les affirmations suivantes, laquelle/lesquelles est/sont erronée(s) ou n'a/n'ont aucun sens ?
+\begin{answers}
+\good{$(A_1\cup A_2\cup A_3)^c=B_1\cap B_2$}
+\bad{$\mathbb{P}(\Omega)=\cup_{i=1}^3\mathbb{P}(A_i)$}
+\good{$(A_1\cup A_2)\cap(B_1\cup A_3)=(A_1\cap B_1)\cup (A_2\cap B_1)$}
+\bad{$S_3=(A_1\cap B_1)\cup(A_1\cap B_2)$}
+\bad{$S_5^c=A_3\cup B_3$}
+\good{$\mathbb{P}(B_j|A_i)=\mathbb{P}(B_j)$ \ $(\forall (i,j)\in \{1,2,3\}^2)$}
+\end{answers}
+\begin{explanations}
+Pour le $(A_1\cup A_2\cup A_3)^c$,  on vérifie que les deux membres sont vides. Pour $\mathbb{P}(\Omega)=\ldots$, on ne réunit pas des probabilités ! Pour $(A_1\cup A_2)\cap\ldots$ on le vérifie en développant à gauche et en rencontrant certaines intersections vides.   Pour $S_3=\ldots$ il manque $A_2\cap B_1$. Pour $S^c_5=\ldots$ c'est une intersection plutôt. Pour $\mathbb{P}(B_j|A_i)=\ldots$ chaque $B_j$ est indépendant de chaque $A_i$, oui.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Que vaut la probabilité de $S_5$ ?
+\begin{answers}
+\bad{$5/6$}
+\bad{$7/9$}
+\good{$8/9$}
+\end{answers}
+\begin{explanations}
+Comme $S_5^c = A_3 \cap B_3$ et que $A_3$ et $B_3$ sont indépendants de probabilités $1/3$ alors
+on a $\mathbb{P}(S_5) = 1-1/9 = 8/9$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Que vaut la probabilité de $S_5\backslash S_2$ ?
+\begin{answers}
+\bad{$2/3$}
+\good{$7/9$}
+\bad{$6/9$}
+\bad{L'énoncé ne veut rien dire}
+\end{answers}
+\begin{explanations}
+$S_5\backslash S_2$ signifiant $S_5$ privé de $S_2$, et comme $S_2$ est inclus dans $S_5$, alors
+$\mathbb{P}(S_5\backslash S_2) = \mathbb{P}(S_5) - \mathbb{P}(S_2)
+= 8/9-1/9 = 7/9$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Que vaut la probabilité conditionnelle de $S_5$ sachant $S_2$ ?
+\begin{answers}
+\bad{$1/8$}
+\good{$1$}
+\bad{$8/9$}
+\bad{L'énoncé ne veut rien dire}
+\end{answers}
+\begin{explanations}
+C'est $1$ car $S_2$ est inclus dans $S_5$.
+\end{explanations}
+\end{question}
+}

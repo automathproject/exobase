@@ -1,0 +1,29 @@
+\uuid{1SuC}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.055}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit $f$ une solution de l'équation différentielle $(H)$ : $y'=4y$. De quelle équation différentielle la fonction $g : x \mapsto f(x)+e^{2x}$ sera-t-elle solution ?
+\begin{answers}
+	\bad{$y'=4y+e^{2x}$}
+	\bad{$y'-4y=4e^{2x}$}
+	\good{$y'=4y-2e^{2x}$}
+	\bad{$y'=2y$}
+\end{answers}
+\begin{explanations}
+Si $f$ est solution de $(H)$, alors $f'(x)=4f(x)$. On calcule alors la dérivée de $g$ : $g'(x) = f'(x) + 2e^{2x}$. Mais on a alors : $g'(x) = 4f(x) + 2e^{2x} = 4f(x) + 4e^{2x} - 2e^{2x} = 4(f(x)+e^{2x})-2e^{2x} = 4g(x) - 2e^{2x}$. De ce fait, $g$ est solution de $y'=4y-2e^{2x}$. On pouvait aussi exploiter le fait que $f(x)$ s'écrit sous la forme $C e^{4x}$ et tenter de remplacer directement dans chacune des équations différentielles les expressions de $g$ et de $g'$ pour voir quelle égalité était vérifiée.
+\end{explanations}
+\end{question}
+}

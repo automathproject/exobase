@@ -1,0 +1,34 @@
+\uuid{eFF8}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.027}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\sqrt{x+1}$ donne $\displaystyle \int _{3}^{8}\frac{\mathrm{d}\, x}{x\sqrt{x+1}}=\int _{2}^{3}\frac{2\mathrm{d}\, t}{t^2-1}$.}
+\good{$\displaystyle \int _{3}^{8}\frac{\mathrm{d}\, x}{x\sqrt{x+1}}=\ln \frac{3}{2}$.}
+\bad{Le changement de variable $t=\sqrt{x+1}$ donne $\displaystyle \int _3^8\frac{\sqrt{x+1}}{x}\mathrm{d}x=\int _2^3\frac{t^2\, \mathrm{d}t}{t^2-1}$.}
+\bad{$\displaystyle \int _3^8\frac{\sqrt{x+1}}{x}\mathrm{d}x=1+\frac{1}{2}\ln \frac{3}{2}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\sqrt{x+1}\Rightarrow x=t^2-1$, on a : $\mathrm{d}x=2t\, \mathrm{d}t$, on a : $t(3)=2$, $t(8)=3$ et
+$$\displaystyle \int _3^8\frac{\mathrm{d}\, x}{x\sqrt{x+1}}=\int _{2}^{3}\frac{2\mathrm{d}\, t}{t^2-1}=\left[\ln \frac{t-1}{t+1}\right]_{2}^{3}=\ln \frac{3}{2}.$$
+De même, $\displaystyle \int _3^8\frac{\sqrt{x+1}}{x}\mathrm{d}x=\int _{2}^{3}\frac{2t^2\, \mathrm{d}t}{t^2-1}$. Or $\displaystyle \frac{2t^2}{t^2-1}=2+\frac{1}{t-1}-\frac{1}{t+1}$, donc
+$$\displaystyle \int _3^8\frac{\sqrt{x+1}}{x}\mathrm{d}x=\left[2t+\ln \frac{t-1}{t+1}\right]_{2}^{3}=2+\ln \frac{3}{2}.$$
+\end{explanations}
+\end{question}
+}

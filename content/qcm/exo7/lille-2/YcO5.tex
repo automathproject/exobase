@@ -1,0 +1,39 @@
+\uuid{YcO5}
+\titre{Matrice d'une application linéaire/Noyau/Image/Rang}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Noyau, Image, Rang}
+\exo7qcmid{lille-2.matrice-application.025}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Rang}
+Soit $E$ un espace vectoriel de dimension $3$ et $f$ un endomorphisme non nul de $E$ tel que $f^2=0$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\Im f \subset \ker f$}.
+\bad{$\Im f = \ker f$}.
+\bad{Le rang de $f$ est $2$}.
+\good{Il existe une base de $E$ dans laquelle le matrice de $f$ est : $\left(\begin{array}{rcc}0&0&a\\
+0&0&0\\ 0&0&0\\\end{array}\right)$, où $a$ est un réel non nul}.
+\end{answers}
+\begin{explanations} Comme $f^2=0$, $\Im f \subset \ker f$.
+D'après le théorème du rang, on déduit que $\dim \ker f=2$ et $\mbox{rg} (f)=1$.
+\vskip0mm
+Soit $\{u\}$ une base de $\Im f$. On complète cette base pour obtenir une base $\{u,v\}$ de $\ker f$, puis, on complète cette
+dernière base pour obtenir une base $\{u,v,w\}$ de $E$. Alors, la matrice de $f$ dans cette base est de la forme :
+$\left(\begin{array}{rcc}
+0&0&a\\
+0&0&0\\
+0&0&0\\
+\end{array}\right)$, où $a$ est un réel non nul.
+\end{explanations}
+\end{question}
+}

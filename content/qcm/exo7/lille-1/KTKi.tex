@@ -1,0 +1,35 @@
+\uuid{KTKi}
+\titre{Concave/convexe}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, concave, convexe}
+\exo7qcmid{lille-1.derivees.028}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=concave/convexe}
+Soit $f(x)=\mathrm{e}^x$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$f''(x)$ s'annule au moins une fois sur $\Rr$.}
+    \good{$f$ est convexe sur $\Rr$.}
+    \bad{$f$ est concave sur $\Rr$.}
+    \good{$\forall t\in [0,1]$ et $\forall x,y\in \Rr^{+*}$, on a : $t\ln x+(1-t)\ln y\leq \ln \left[tx+(1-t)y\right]$.}
+\end{answers}
+\begin{explanations}
+On a $f''(x)=\mathrm{e}^x>0$. Donc $f$ est convexe sur $\Rr$. Ainsi, par définition,
+$$\forall t\in [0,1]\; \forall a,b\in \Rr,\; f\left[ta+(1-t)b\right]\leq tf(a)+(1-t)f(b).$$
+En prenant $a=\ln x$ et $b=\ln y$, avec $x,y>0$, on aura
+$$\mathrm{e}^{t\ln x+(1-t)\ln y}\leq tx+(1-t)y.$$
+Il suffit de composer par ln, qui est strictement croissante, pour avoir
+$$t\ln x+(1-t)\ln y\leq \ln \left[tx+(1-t)y\right].$$
+\end{explanations}
+\end{question}
+}

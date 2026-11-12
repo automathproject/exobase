@@ -1,0 +1,32 @@
+\uuid{LDFg}
+\titre{Primitive}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitive}
+\exo7qcmid{hilisit.equations-differentielles.012}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+Soit $f : I \to \Rr$ une fonction définie sur un intervalle. Soit $F$ une primitive de $f$.
+$C$ désigne une constante.
+Quelles sont les affirmations vraies ?
+\begin{answers}
+  \good{Si $f(x)=0$ sur $I$ alors $F(x)=C$.}
+  \bad{Si $f(x)=x$ alors $F(x) = x^2+C$.}
+  \bad{Si $f(x) \times \cos(x) = 1$ alors $F(x) = \frac{1}{\sin(x)} + C$.}
+  \bad{Si $f( \ln(x) ) = 0$ alors $F(x) = e^x + C$.}
+\end{answers}
+\begin{explanations}
+Si $f$ est la fonction nulle, alors $F$ est une fonction constante.
+Si $f(x)=x$, alors $F(x) = \frac12 x^2+ C$. Les autres affirmations sont fantaisistes : lorsqu'on dérive $\frac{1}{\sin(x)} + C$ on obtient $\frac{-\cos(x)}{\sin^2(x)}$ qui n'est pas du tout l'inverse de $\cos(x)$. Et si $F(x) = e^x + C$, alors $f(x) = F'(x) = e^x$ ce qui donne $f(\ln(x)) = e^{\ln(x)} = x \neq 0$ !
+\end{explanations}
+\end{question}
+}

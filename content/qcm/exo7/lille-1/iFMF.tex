@@ -1,0 +1,35 @@
+\uuid{iFMF}
+\titre{Concave/convexe}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, concave, convexe}
+\exo7qcmid{lille-1.derivees.029}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=concave/convexe}
+Soit $f(x)=\ln (x)$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$f''(x)$ s'annule au moins une fois sur $\Rr^{+*}$.}
+    \bad{$f$ est convexe sur $\Rr^{+*}$.}
+    \good{$f$ est concave sur $\Rr^{+*}$.}
+    \good{$\forall t\in [0,1]$ et $\forall x,y\in \Rr$, on a : $\mathrm{e}^{tx+(1-t)y}\leq t\mathrm{e}^x+(1-t)\mathrm{e}^y$.}
+\end{answers}
+\begin{explanations}
+On a $\displaystyle f''(x)=-\frac{1}{x^2}<0$. Donc $f$ est concave sur $\Rr^{+*}$. Ainsi, par définition,
+$$\forall t\in [0,1]\; \forall a,b\in \Rr^{+*},\; f\left[ta+(1-t)b\right]\geq tf(a)+(1-t)f(b).$$
+En prenant $a=\mathrm{e}^x$ et $b=\mathrm{e}^x$, où $x,y\in \Rr$, on aura
+$$\ln\left[t\mathrm{e}^x+(1-t)\mathrm{e}^y\right]\geq tx+(1-t)y.$$
+Il suffit de composer par la fonction exponentielle, qui est strictement croissante, pour avoir
+$$t\mathrm{e}^x+(1-t)\mathrm{e}^y\geq \mathrm{e}^{tx+(1-t)y}.$$
+\end{explanations}
+\end{question}
+}

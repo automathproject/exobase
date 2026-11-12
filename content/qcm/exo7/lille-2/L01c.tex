@@ -1,0 +1,51 @@
+\uuid{L01c}
+\titre{Matrice d'une application linéaire/Noyau/Image/Changement de bases}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Noyau, Image, Changement de bases}
+\exo7qcmid{lille-2.matrice-application.019}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Changement de bases}
+Soit $f$ l'endomorphisme de $\Rr^3$ dont la matrice dans la base canonique ${\cal B}=\{e_1,e_2,e_3\}$ est :
+$$A = \left(\begin{array}{rcc}
+3&-1&1\\
+-1&3&1\\
+2&2&2\\
+\end{array}\right).$$ On note $I$ la matrice identité.
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{Soit $a\in \Rr$. $A-aI$ est inversible si et seulement si $a\neq 0$ et $a\neq 4$}.
+\bad{$\mbox{rg} (A)=3$ et $\mbox{rg} (A-4I)=2$}.
+\bad{$\dim \ker f = 2 $ et $\dim \ker (f-4Id) = 1 $}.
+\good{Il existe une base de $\Rr^3$ dans laquelle la matrice de $f$ est :
+$B= \left(\begin{array}{rcc}
+0&0&0\\
+0&4&0\\
+0&0&4\\
+\end{array}\right).$}
+\end{answers}
+\vskip2mm
+\begin{explanations} On vérifie que $A-aI$ est inversible si et seulement si $a\neq 0$ et $a\neq 4$, que
+$\mbox{rg} (A)=2$ et $\mbox{rg} (A-4I)=1$.
+Une base de $\ker f$ est $\{u_1\}$, où $u_1=(1,1,-2)$, et donc $\dim \ker f = 1 $.
+Une base de $\ker (f-4I)$ est $\{u_2,u_3\}$, où $u_2=(1,-1,0)$ et $u_3=(1,0,1)$ donc $\dim \ker (f-4I) = 2 $.
+\vskip0mm
+La matrice de $f$ dans la base $\{u_1,u_2,u_3\}$ est :
+$B= \left(\begin{array}{rcc}
+0&0&0\\
+0&4&0\\
+0&0&4\\
+\end{array}\right).$
+\end{explanations}
+\end{question}
+}

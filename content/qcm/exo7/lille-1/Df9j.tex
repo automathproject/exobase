@@ -1,0 +1,33 @@
+\uuid{Df9j}
+\titre{Théorème de Rolle}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, théorème de Rolle}
+\exo7qcmid{lille-1.derivees.023}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=théorème de Rolle}
+Soit $\displaystyle f(x)=x^3+x^2+x-\frac{13}{12}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\displaystyle f(0)=-\frac{13}{12}<0$ et $\displaystyle f(1)=-\frac{1}{12}<0$, donc $f(x)=0$  n'a pas de solution dans $]0,1[$.}
+    \good{L'équation $f(x)=0$ admet une solution dans $]0,1[$.}
+    \good{Le théorème de Rolle s'applique à une primitive de $f$ sur $[0,1]$.}
+    \bad{Le théorème de Rolle s'applique à $f$ sur $[0,1]$.}
+\end{answers}
+\begin{explanations}
+Le théorème de Rolle ne s'applique pas à $f$ sur $[0,1]$ car $\displaystyle f(0)\neq f(1)$. Mais on peut l'appliquer à
+$$\displaystyle F(x)=\frac{x^4}{4}+\frac{x^3}{3}+\frac{x^2}{2}-\frac{13}{12}x.$$
+Cette fonction vérifie toutes les hypothèses du théorème, donc
+$$\exists c\in ]0,1[,\; F'(c)=0\Leftrightarrow f(c)=0.$$
+\end{explanations}
+\end{question}
+}

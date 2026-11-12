@@ -1,0 +1,37 @@
+\uuid{uo9i}
+\titre{Matrice/Puissance/Formule du binôme}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Propriétés élémentaires, généralités}
+\difficulte{3}
+\theme{Calcul matriciel, Matrice, Puissance, Formule du binôme}
+\exo7qcmid{lille-2.matrices.017}
+
+\contenu{
+\begin{question}
+\qclassification{108.01}
+\qtags{motcle=Matrice/Puissance/Formule du binôme}
+Soit $a,b\in \Rr$, $A=\left(\begin{array}{rcc}a&1&b\\0&a&2\\ 0&0&a\\
+\end{array}\right)$ et  $N= A-aI$, où $I= \left(\begin{array}{rcc}
+1&0&0\\0&1&0\\ 0&0&1\\ \end{array}\right)$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$N^k = 0$, pour tout entier $k\ge 3$}.
+\bad{On ne peut pas appliquer la formule du binôme pour le calcul de $A^n$}.
+\good{Pour tout entier $n \ge 2,$ $\displaystyle A^n =a^nI+na^{n-1}N+\frac{n(n-1)}{2}a^{n-2}N^2 $}.
+\good{Pour tout entier $n \ge 2,$ $A^n=\left(\begin{array}{rcc}
+a^n&na^{n-1}&na^{n-1}b+n(n-1)a^{n-2}\\0&a^n&2na^{n-1}\\ 0&0&a^n\\ \end{array}\right)$}.
+\end{answers}
+\vskip2mm
+\begin{explanations} On a : $N=\left(\begin{array}{rcc}
+0&1&b\\0&0&2\\ 0&0&0\\ \end{array}\right)$,  $N^2=\left(\begin{array}{rcc}0&0&2\\0&0&0\\ 0&0&0\\
+\end{array}\right)$ et $N^k=0, $ pour tout $k\ge 3$.
+\vskip0mm
+On a : $A= N+aI$. Comme le produit des matrices $N$ et $aI$ est commutatif, on peut appliquer la formule du binôme pour le calcul des puissances de $A$.
+\end{explanations}
+\end{question}
+}

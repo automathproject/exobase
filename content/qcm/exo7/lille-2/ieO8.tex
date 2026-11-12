@@ -1,0 +1,36 @@
+\uuid{ieO8}
+\titre{Intégration par parties}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, intégration par parties}
+\exo7qcmid{lille-2.primitives.037}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=intégration par parties}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int \frac{\mathrm{d}x}{\sqrt{1-x^2}}=-\arcsin (x)+k$, $k\in \Rr$.}
+\good{$\displaystyle \int \sqrt{1-x^2}\mathrm{d}x=x\sqrt{1-x^2}+\int \frac{x^2\mathrm{d}x}{\sqrt{1-x^2}}$.}
+\bad{L'égalité $x^2=(x^2-1)+1$ donne : $\displaystyle \int \frac{x^2\mathrm{d}x}{\sqrt{1-x^2}}=-\arcsin x-\int \sqrt{1-x^2}\mathrm{d}
+x$.}
+\good{Une primitive de $\displaystyle \sqrt{1-x^2}$ sur $]-1,1[$ est $\displaystyle \frac{1}{2}x\sqrt{1-x^2}+\frac{1}{2}\arcsin (x)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+D'abord $\displaystyle \int \frac{\mathrm{d}x}{\sqrt{1-x^2}}=\arcsin (x)+k$, $k\in \Rr$. Une intégration par parties avec $u=\sqrt{1-x^2}$ et $v=x$ donne
+$$\int \sqrt{1-x^2}\mathrm{d}x=x\sqrt{1-x^2}-\int \frac{-x^2\mathrm{d}x}{\sqrt{1-x^2}}.$$
+Ensuite, en écrivant $\displaystyle -x^2=(1-x^2)-1$, on obtient :
+$$\int \sqrt{1-x^2}\mathrm{d}x=x\sqrt{1-x^2}-\int \sqrt{1-x^2}\mathrm{d}x+\int \frac{\mathrm{d}x}{\sqrt{1-x^2}}.$$
+D'où : $\displaystyle 2\int \sqrt{1-x^2}\mathrm{d}x=x\sqrt{1-x^2}+\arcsin x+k$.
+\end{explanations}
+\end{question}
+}

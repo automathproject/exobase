@@ -1,0 +1,34 @@
+\uuid{JYfa}
+\titre{Changements de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables, éléments simples}
+\exo7qcmid{lille-2.integrales.026}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables/éléments simples}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $t=\cos x$ donne $\displaystyle \int _0^{\pi/3}\frac{\tan x\, \mathrm{d}x}{1+\cos ^2x}=\int _1^{1/2}\frac{\mathrm{d}t}{t(1+t^2)}$.}
+\good{$\forall t\in \Rr^*$, $\displaystyle \frac{1}{t(1+t^2)}=\frac{1}{t}-\frac{t}{1+t^2}$.}
+\good{Une primitive de $\displaystyle \frac{1}{t(1+t^2)}$ sur $]0,+\infty[$ est $\displaystyle \ln \left(\frac{t}{\sqrt{1+t^2}}\right)$.}
+\bad{$\displaystyle \int _0^{\pi/3}\frac{\tan x\, \mathrm{d}x}{1+\cos ^2x}=\frac{1+\ln 5}{2}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$, on a : $t(0)=1$, $t(\pi/3)=1/2$ et
+$$\int _0^{\pi/3}\frac{\tan x\, \mathrm{d}x}{1+\cos ^2x}=\int _0^{\pi/3}\frac{\sin x\, \mathrm{d}x}{\cos(1+\cos ^2x)}=-\int _1^{1/2}\frac{\mathrm{d}t}{t(1+t^2)}.$$
+Or, $\forall t\in \Rr^*$, $\displaystyle \frac{1}{t(1+t^2)}=\frac{1}{t}-\frac{t}{1+t^2}$ et $\displaystyle \int \left(\frac{1}{t}-\frac{t}{1+t^2}\right)\mathrm{d}t=\ln \frac{t}{\sqrt{1+t^2}}+k$. Donc
+$$\int _0^{\pi/3}\frac{\tan x\, \mathrm{d}x}{1+\cos ^2x}=\left[\ln \frac{t}{\sqrt{1+t^2}}\right]_{1/2}^1=\frac{\ln 5-\ln 2}{2}.$$
+\end{explanations}
+\end{question}
+}

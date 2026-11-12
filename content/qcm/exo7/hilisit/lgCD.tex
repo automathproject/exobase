@@ -1,0 +1,31 @@
+\uuid{lgCD}
+\titre{Primitive}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitive}
+\exo7qcmid{hilisit.equations-differentielles.007}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+Soit $F$ une primitive d'une fonction $f$ et $G$ une primitive d'une fonction $g$ sur un intervalle $I$.
+Quelles sont les affirmations vraies ?
+\begin{answers}
+  \bad{Si $f=g$ alors $F=G$.}
+  \good{Si $F=G$ alors $f=g$.}
+  \bad{Si $f=g^2$ alors $F=G^2$.}
+  \good{Si $F=G+C$ (où $C$ est une constante) alors $f=g$.}
+\end{answers}
+\begin{explanations}
+Si $f=g$ alors $F=G+C$ (où $C$ est une constante).
+On rappelle que $F'=f$ et $G'=g$, donc si $F=G+C$ alors en dérivant l'égalité on obtient $F'=f = (G+C)'=G'+0=g$. Remarquez par ailleurs que les primitives de $x^2$ sont $\frac{x^3}{3} + C$ (où $C$ est une constante) : ce ne sont les carrés des primitives de $x$ (qui sont $\frac{x^2}{2} + \widetilde{C}$, où $\widetilde{C}$ est une constante).
+\end{explanations}
+\end{question}
+}

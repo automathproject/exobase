@@ -1,0 +1,35 @@
+\uuid{uRwq}
+\titre{Pgcd}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Pgcd, ppcm, algorithme d'Euclide}
+\difficulte{3}
+\theme{pgcd}
+\exo7qcmid{hilisit.arithmetique.014}
+
+\contenu{
+\begin{question}
+\qclassification{103.03}
+    Soient $a$ et $b$ deux entiers positifs tels que $\pgcd(a,b) = 10$ et $\ppcm(a,b) = 140$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+        \good{$\pgcd(2a,2b) = 20$}
+        \bad{$\ppcm(2a,2b) = 70$}
+        \bad{$\pgcd(2a,2b) = 10$}
+        \good{$\ppcm(2a,2b) = 280$}
+    \end{answers}
+    \begin{explanations}
+    On utilise la relation $\pgcd(a,b) \times \ppcm(a,b) = a \times b$ pour obtenir $ab = 10 \times 140 = 1400$.\\
+    On a alors $\pgcd(2a,2b) = 2 \times \pgcd(a,b) = 2 \times 10 = 20$.\\
+    Mais on obtient aussi
+    $$ \pgcd(2a, 2b) \times \ppcm(2a,2b) = (2a) \times (2b) = 4 \times ab = 5600$$
+    donc
+    $$\ppcm(2a,2b) = \frac{5600}{\pgcd(2a,2b)} = \frac{5600}{20} = 280 $$
+    Remarquez qu'on a donc $\ppcm(2a,2b) = 2 \times \ppcm(2a,2b)$, et plus généralement $\ppcm(na,nb) = |n| \ppcm(a,b)$.
+    \end{explanations}
+\end{question}
+}

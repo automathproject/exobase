@@ -1,0 +1,30 @@
+\uuid{riuM}
+\titre{Théorème de Bézout}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{2}
+\theme{Théorème de Bézout}
+\exo7qcmid{hilisit.arithmetique.022}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+ Pour $a=41$ et $b=7$, on a notamment l'égalité $a \times (-3) + b \times 18 = 3$. Que peut-on en conclure ?
+    \begin{answers}
+        \bad{$\pgcd(a,b)=3$.}
+        \good{$\pgcd(a,b)$ est un diviseur de $3$.}
+        \good{Comme $3$ ne divise pas $7$ alors $a$ et $b$ sont premiers entre eux.}
+        \bad{$-3$ et $18$ sont premiers entre eux.}
+    \end{answers}
+    \begin{explanations}
+    Comme $\pgcd(a,b)$ divise $a$ et $b$, il divise aussi $a \times (-3) + b \times 18 = 3$. Donc $\pgcd(a,b)$ est un diviseur de $3$ : c'est donc soit $3$, soit $1$. Mais puisque $3$ ne divise pas $b$ (ni $a$ d'ailleurs), on a donc $\pgcd(a,b)=1$ : $a$ et $b$ sont premiers entre eux.\\
+    Enfin, les nombres $-3$ et $18$ sont divisibles par $3$.
+    \end{explanations}
+\end{question}
+}

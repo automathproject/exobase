@@ -1,0 +1,81 @@
+\uuid{frG6}
+\titre{Loi sur trois valeurs à paramètre}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Variable aléatoire discrète}
+\difficulte{}
+\theme{Variables discrètes}
+\exo7qcmid{worms.worms.034}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+Soit $X$ une variable aléatoire à valeurs dans $\{0,1,2\}$ et de loi donnée  par
+\[
+ \mathbb{P}(X=0)=\mathbb{P}(X=2)=a \makebox[1.cm][c]{et} \mathbb{P}(X=1)=1-2a
+\]
+où $a$ est une constante réelle.
+}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Quelles valeurs la constante $a$ a-t-elle le droit de prendre ?
+\begin{answers}
+\bad{Toutes les valeurs de $]0,1[$ car $\mathbb{P}(X=0)+\mathbb{P}(X=1)+\mathbb{P}(X=2)=1$.}
+\bad{Seulement la valeur $a=1/4$.}
+\good{Toutes les valeurs de $]0,1/2[$.}
+\bad{Une autre réponse que les précédentes.}
+\end{answers}
+\begin{explanations} Les probabilités $\mathbb{P}(X=k)$ doivent appartenir à $]0,1[$ (ni $0$ ni $1$, sinon une ou plusieurs modalités ne pourraient pas être déclarées dans l'espace d'état de $X$), d'où la réponse.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+Quel est le graphe de la fonction de répartition de $X$ parmi les graphes suivants ?
+
+%[[image]]
+\qimage{images/png/frG6-1.png}
+%
+%\begin{center}
+%\includegraphics[width=14.cm,height=5.cm]{ImagePourQCM2}
+%\end{center}
+
+\begin{answers}
+\bad{Le premier.}
+\good{Le second.}
+\bad{Le troisième.}
+\end{answers}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+Que valent l'espérance et la variance de $X$ ?
+\begin{answers}
+\bad{$\mathbb{E}(X)=1$ et $\operatorname{Var}(X)=1+2a$.}
+\bad{$\mathbb{E}(X)=2a$ et $\operatorname{Var}(X)=4a^2$.}
+\good{$\mathbb{E}(X)=1$ et $\operatorname{Var}(X)=2a$.}
+\end{answers}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+On pose $Y=4-2X$. \emph{Sans déterminer la loi de $Y$}, peut-on calculer l'espérance et l'écart-type de $Y$ ?
+\begin{answers}
+\good{Oui, ils valent respectivement $2$ et $\sqrt{8a}$.}
+\bad{Oui, ils valent respectivement $2$ et $\sqrt{4(1-a)}$.}
+\bad{Oui, ils valent respectivement $4(1-a)$ et $4a$.}
+\bad{Oui, mais aucune des propositions précédentes n'est correcte.}
+\bad{Non, il nous faut nécessairement la loi pour calculer ces caractéristiques de $Y$.}
+\end{answers}
+\begin{explanations} $\mathbb{E}(Y)=4-2\mathbb{E}(X)$, et $\mathbb{V}ar(Y)=(-2)^2\mathbb{V}ar(X)$, donc l'écart-type de $Y$ vaut 2 fois celui de $X$.
+\end{explanations}
+\end{question}
+}

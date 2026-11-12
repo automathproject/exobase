@@ -1,0 +1,29 @@
+\uuid{N19x}
+\titre{Variables continues}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{}
+\theme{Variables continues}
+\exo7qcmid{worms.worms.038}
+
+\contenu{
+\begin{question}
+\qclassification{261.01}
+Parmi les expressions ci-dessous, lesquelles permettent de définir des densités de lois continues ? (Ci-dessous, les lettres $c$ et $c'$ désignent des constantes qu'il n'est pas obligatoire de calculer, mais qui ont la valeur adéquate pour que les fonctions en question soient des densités, si elles le peuvent.)
+\begin{answers}
+\bad{$f_1(x) = \displaystyle\frac {c} x \, \mathbb{I}_{[1,+\infty[}(x)$}
+\good{$f_2(x) = c' \, x^{24} \, \mathbb{I}_{[-100,100]}(x)$}
+\bad{$f_3(x) = \frac 4{15} x^3 \, \mathbb{I}_{[-1,2]}(x)$}
+\good{$f_4(x) = \frac {\pi}2 \sin(\pi x) \, \mathbb{I}_{[0,1]}(x)$}
+\end{answers}
+\begin{explanations}
+Pour $f_1$, la fonction $x\mapsto 1/x$ n'est pas intégrable en $+\infty$. Pour $f_2$, $c'$ existe bien mais est de très faible valeur... Pour $f_3$, la fonction n'est pas positive partout donc non. Quant à $f_4$, contrairement aux apparences elle est bien positive partout, et intégrable, donc oui, et on vérifie qu'elle est bien d'intégrale $1$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,35 @@
+\uuid{esQK}
+\titre{Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{1}
+\theme{Opérations sur les DL, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.001}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/DL usuels}
+Soit $f$ une fonction définie sur un intervalle ouvert contenant $0$ telle que $f(0)=0$ et $DL_4(0)f(x)=x+x^2+o(x^4)$. On peut en déduire que :
+\begin{answers}
+\good{$f$ est continue en $0$, dérivable en $0$ et $f'(0)=1$.}
+\bad{Si $f$ est $2$ fois dérivable en $0$ alors $f^{(2)}(0)=1$.}
+\bad{$\displaystyle DL_4(0)f(2x)=2x+2x^2+o(x^4)$.}
+\good{$\displaystyle DL_4(0)f(x^2)=x^2+x^4+o(x^4)$.}
+\end{answers}
+\begin{explanations}
+On a : $\displaystyle \lim _{x\to 0}f(x)=0=f(0)$. Donc $f$ est continue en $0$. L'existence du $DL$ à l'ordre $1$ en $0$ implique que $f$ est dérivable en $0$ et si $f$ est $2$ fois dérivable en $0$ alors $f^{(2)}(0)=2$. Enfin, $DL_2(0)f(2x)=2x+4x^2+o(x^4)$ et
+$$DL_8(0)f(x^2)=x^2+x^4+o(x^8)\Rightarrow DL_4(0)f(x^2)=x^2+x^4+o(x^4).$$
+\end{explanations}
+\end{question}
+}

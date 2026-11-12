@@ -1,0 +1,30 @@
+\uuid{S6s9}
+\titre{Limite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Suites, limite}
+\exo7qcmid{lille-1.suites.007}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=limite}
+Soit $\displaystyle u_n=\frac{\cos n}{2n+1}$ et $\displaystyle v_n=\frac{2n+\cos n}{2n+1}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n$ et $\displaystyle \lim _{n\to +\infty}v_n$ n'existent pas}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=+\infty$}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=1$}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=1$ et $\displaystyle \lim _{n\to +\infty}v_n=1$}
+\end{answers}
+\begin{explanations}
+On utilise le théorème d'encadrement, $\displaystyle 0\leq \left|\frac{\cos n}{2n+1}\right|\leq \frac{1}{2n+1}\underset{+\infty}{\longrightarrow }0$. Donc $\displaystyle \lim _{n\to +\infty}u_n=0$ et, puisque $\displaystyle v_n=\frac{2n}{2n+1}+u_n$, $\displaystyle \lim _{n\to +\infty}v_n=\lim _{n\to +\infty}\frac{2n}{2n+1}+\lim _{n\to +\infty}u_n=1$.
+\end{explanations}
+\end{question}
+}

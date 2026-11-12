@@ -1,0 +1,30 @@
+\uuid{N9p6}
+\titre{Image réciproque}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles, applications, image réciproque}
+\exo7qcmid{lille-1.ensembles.024}
+
+\contenu{
+\begin{question}
+\qclassification{100.02,101.01,102.01,102.02}
+\qtags{motcle=image réciproque}
+Soient $E$ et $F$ deux ensembles non vides et $f$ une application de $E$ dans $F$. Soit $B$ un sous-ensemble de $F$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$B=f(f^{-1}(B))$}
+    \bad{$B\subset f(f^{-1}(B))$}
+    \good{$f(f^{-1}(B))\subset B$}
+    \bad{$f(f^{-1}(B))=F\setminus B$}
+\end{answers}
+\begin{explanations}
+Soit $y\in f(f^{-1}(B))$. Donc il existe $x\in f^{-1}(B)$ tel que $y=f(x)$. Mais, $x\in f^{-1}(B)\Leftrightarrow f(x)\in B$. Donc $y=f(x)\in B$.
+\end{explanations}
+\end{question}
+}

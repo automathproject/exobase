@@ -1,0 +1,32 @@
+\uuid{XeF4}
+\titre{Convergence}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Suites, convergence}
+\exo7qcmid{lille-1.suites.009}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=convergence}
+Soit $\displaystyle u_n=\ln \left(1+n\mathrm{e}^{-n}\right)$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{La suite $(u_n)$ est bornée.}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=0$}
+    \bad{La suite $(u_n)$ est divergente.}
+\end{answers}
+\begin{explanations}
+Par croissances comparées, $\displaystyle \lim _{n\to +\infty}n\mathrm{e}^{-n}=0$ et, par continuité de la fonction logarithme
+$$\lim _{n\to +\infty}u_n=\ln \left[\lim _{n\to +\infty}\left(1+n\mathrm{e}^{-n}\right)\right]=\ln (1)=0.$$
+Donc, $(u_n)$ converge et sa limite est $0$. En outre, elle est bornée comme toute suite convergente.
+\end{explanations}
+\end{question}
+}

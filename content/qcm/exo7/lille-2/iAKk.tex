@@ -1,0 +1,36 @@
+\uuid{iAKk}
+\titre{Application linéaire}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Applications linéaires, Application linéaire}
+\exo7qcmid{lille-2.applications-lineaires.007}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Application linéaire}
+On considère les deux applications suivantes :
+$$\begin{array}{rccc}f:&\Rr^2&\to&\Rr\\
+& (x,y)&\to & |x+y| \end{array} \quad \mbox{et} \quad \begin{array}{rccc}g:&\Rr^2&\to&\Rr^2\\
+& (x,y)&\to &\big(\max (x,y)\, , \, \min (x,y)\, \big). \end{array}$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$f(1,-1)=0$}.
+\bad{$f$ est une application linéaire}.
+\good{$g(0,0)=(0,0)$}.
+\bad{$g$ est une application linéaire}.
+\end{answers}
+\begin{explanations} $f$ n'est pas linéaire. Contre-exemple : $f((1,0)+(-1,0))=f(0,0)=0$ et $f(1,0)+f(-1,0)=|1|+|-1|=2$.
+\vskip0mm
+$g$ n'est pas linéaire. Contre-exemple :  $g((1,0)+(-1,0))=g(0,0)=(0,0)$
+et $g(1,0)+g(-1,0)=(1,0)+(0,-1)=(1,-1)$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,30 @@
+\uuid{bQNf}
+\titre{Pgcd}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Pgcd, ppcm, algorithme d'Euclide}
+\difficulte{2}
+\theme{pgcd}
+\exo7qcmid{hilisit.arithmetique.006}
+
+\contenu{
+\begin{question}
+\qclassification{103.03}
+    Pour $a=220$ et $b=60$, quelles sont les affirmations vraies ?
+    \begin{answers}
+        \bad{$\ppcm(a,b) = 440$.}
+        \bad{$440$ est un multiple commun à $a$ et $b$.}
+        \good{$10$ est un diviseur commun à $a$ et $b$.}
+        \good{$\pgcd(a,b) = 20$.}
+    \end{answers}
+    \begin{explanations}
+        Le plus grand diviseur commun à $a=220$ et $b=60$ est $\pgcd(220,60) = 20$ (on peut l'obtenir via l'algorithme d'Euclide, on en dressant les listes exhaustives des diviseurs communs à $220$ et $60$). Puisque $10$ est un diviseur de $20$, $10$ est bien un diviseur commun à $a$ et $b$ (ce qui se voit sur l'écriture des deux nombres : ils finissent par $0$).\\
+    En revanche $440$ n'est pas un multiple de $b=60$ (on a $60 \times 7 = 420$ et $60 \times 8 = 480$). On peut d'ailleurs calculer que $\ppcm(a,b) = \frac{a \times b}{\pgcd(a,b)} = 660$.
+    \end{explanations}
+\end{question}
+}

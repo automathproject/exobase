@@ -1,0 +1,34 @@
+\uuid{T9TC}
+\titre{Changements de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changements de variables, éléments simples}
+\exo7qcmid{lille-2.primitives.048}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changements de variables/éléments simples}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $\displaystyle t=\sqrt{x}$ donne $\displaystyle \int \frac{\mathrm{d}x}{\sqrt{x}(x+1)^2}=\int \frac{\mathrm{d}t}{(t^2+1)^2}$.}
+\good{$\displaystyle \int \frac{\mathrm{d}t}{t^2+1}=\frac{t}{t^2+1}+\int \frac{2t^2\, \mathrm{d}t}{(t^2+1)^2}$.}
+\good{$\displaystyle \int \frac{2\, \mathrm{d}t}{(t^2+1)^2}=\frac{t}{t^2+1}+\arctan t+k$, $k\in \Rr$.}
+\bad{Une primitive de $\displaystyle \frac{1}{\sqrt{x}(x+1)^2}$ sur $]0,+\infty[$ est $\displaystyle \frac{1}{2}\left(\frac{\sqrt{x}}{x+1}+\arctan \sqrt{x}\right)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $\displaystyle t=\sqrt{x}$, on a : $\displaystyle x=t^2\Rightarrow \mathrm{d}x=2t\, \mathrm{d}t$ et $\displaystyle \int \frac{\mathrm{d}x}{\sqrt{x}(x+1)^2}=\int \frac{2\, \mathrm{d}t}{(t^2+1)^2}$.
+Une intégration par parties avec $\displaystyle u=\frac{1}{t^2+1}$ et $v=t$ donne
+$$\int \frac{\mathrm{d}t}{t^2+1}=\frac{t}{t^2+1}+\int \frac{2t^2\, \mathrm{d}t}{(t^2+1)^2}=\frac{t}{t^2+1}+\int \frac{2\, \mathrm{d}t}{t^2+1}-\int \frac{2\, \mathrm{d}t}{(t^2+1)^2}.$$
+D'où $\displaystyle \int \frac{2\, \mathrm{d}t}{(t^2+1)^2}=\frac{t}{t^2+1}+\arctan t+k\Rightarrow \int \frac{\mathrm{d}x}{\sqrt{x}(x+1)^2}=\frac{\sqrt{x}}{x+1}+\arctan \sqrt{x}+k$, $k\in \Rr$.
+\end{explanations}
+\end{question}
+}

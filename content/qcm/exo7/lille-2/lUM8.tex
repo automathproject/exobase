@@ -1,0 +1,36 @@
+\uuid{lUM8}
+\titre{DL usuels/Etude locale}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{2}
+\theme{Applications des DL, DL usuels, Etude locale}
+\exo7qcmid{lille-2.developpements-limites.033}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL usuels/Etude locale}
+Soit $f$ telle que $\displaystyle f(x)=\frac{\mathrm{e}^{x}-1}{x+x^2}$ si $x\neq 0$ et $f(0)=1$. On note $T_0$ la tangente au graphe de $f$ au point d'abscisse $0$ lorsqu'elle existe. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle DL_2(0)f(x)=1-\frac{x}{2}+\frac{x^2}{2}+o(x^2)$.}
+\good{$\displaystyle \lim _{x\to 0}f(x)=1$ et $f$ est continue en $0$.}
+\good{$f$ est dérivable en $0$ et $\displaystyle f'(0)=-\frac{1}{2}$.}
+\bad{$T_0$ est la droite d'équation $\displaystyle y=1-\frac{x}{2}$ et le graphe de $f$ est en dessous de $T_0$ au voisinage de $0$.}
+\end{answers}
+\begin{explanations}
+Pour écrire le $DL_2(0)f(x)$, on utilise le $DL_3(0)(\mathrm{e}^{x}-1)$. La division suivant les puissances croissantes donne :
+$$\displaystyle DL_2(0)f(x)=1-\frac{x}{2}+\frac{2x^2}{3}+o(x^2).$$
+Ainsi $\displaystyle \lim _{x\to 0}f(x)=1$ et $f$ est continue en $0$ et, puisque $f$ admet un $DL_1(0)$, $f$ est dérivable en $0$. De plus, $T_0$ est la droite d'équation $\displaystyle y=1-\frac{x}{2}$ et puisque $\displaystyle f(x)-y=\frac{2x^2}{3}+o(x^2)\geq 0$ au voisinage de $0$ : le graphe de $f$ est au dessus de $T_0$ au voisinage de $0$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,33 @@
+\uuid{8JmW}
+\titre{Théorème de Rolle}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, théorème de Rolle}
+\exo7qcmid{lille-1.derivees.026}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=théorème de Rolle}
+Soit $f$ une fonction réelle continue sur $[a,b]$, dérivable sur $]a,b[$ et telle que $f(a)=f(b)=0$. Soit $\alpha \notin [a,b]$ et $\displaystyle g(x)=\frac{f(x)}{x-\alpha }$.
+\begin{answers}
+    \good{On peut appliquer le théorème de Rolle à $g$ sur $[a,b]$.}
+    \good{Il existe $c\in ]a,b[$ tel que $\displaystyle f'(c)=\frac{f(c)}{c-\alpha}$.}
+    \good{Il existe $c\in ]a,b[$ tel que la tangente à $\mathcal{C}_f$ en $c$ passe par $(\alpha ,0)$.}
+    \bad{La dérivée de $g$ est $\displaystyle g'(x)=\frac{f'(x)}{(x-\alpha )^2}$.}
+\end{answers}
+\begin{explanations}
+La fonction $g$ est continue sur $[a,b]$ et elle est dérivable sur $]a,b[$ avec
+$$g'(x)=\frac{f'(x)(x-\alpha)-f(x)}{(x-\alpha)^2}.$$
+De plus $g(a)=g(b)=0$. On peut donc appliquer le théorème de Rolle. Il existe alors $c\in ]a,b[$ tel que $$g'(c)=0\Leftrightarrow f'(c)(c-\alpha)-f(c)\Leftrightarrow f'(c)=\frac{f(c)}{c-\alpha}.$$
+La tangente à $\mathcal{C}_f$ en $c$ passe par le point $(\alpha ,0)$.
+\end{explanations}
+\end{question}
+}

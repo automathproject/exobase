@@ -1,0 +1,35 @@
+\uuid{Rixh}
+\titre{Changements de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables, éléments simples}
+\exo7qcmid{lille-2.integrales.034}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables/éléments simples}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $\displaystyle t=\cos x$ donne
+$$\displaystyle \int _{\pi/3}^{\pi/2}\frac{\mathrm{d}x}{\sin x(1+\cos ^2x)}=\int _0^{1/2}\frac{\mathrm{d}t}{(1-t^2)(1+t^2)}.$$}
+\good{$\forall t\in \Rr\setminus \{-1,1\}$, $\displaystyle \frac{4}{(1-t^2)(1+t^2)}=\frac{1}{1-t}+\frac{1}{1+t}+\frac{2}{1+t^2}$.}
+\bad{Une primitive de $\displaystyle \frac{1}{(1-t^2)(1+t^2)}$ sur $]-1,1[$ est $\displaystyle \ln \left(\frac{1+t}{1-t}\right)+2\arctan t$.}
+\bad{$\displaystyle \int _{\pi/3}^{\pi/2}\frac{\mathrm{d}x}{\sin x(1+\cos ^2x)}=\ln 3+2\arctan \frac{1}{2}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $\displaystyle t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$, on a : $t(\pi/3)=1/2$, $t(\pi/2)=0$ et
+$$\int _{\pi/3}^{\pi/2}\frac{\mathrm{d}x}{\sin x(1+\cos ^2x)}=\int _{\pi/3}^{\pi/2}\frac{\sin x\, \mathrm{d}x}{(1-\cos ^2x)(1+\cos ^2x)}=\int _0^{1/2}\frac{\mathrm{d}t}{(1-t^2)(1+t^2)}.$$
+Or, $\forall t\in \Rr\setminus \{-1,1\}$, $\displaystyle \frac{4}{(1-t^2)(1+t^2)}=\frac{1}{1-t}+\frac{1}{1+t}+\frac{2}{1+t^2}$. Donc
+$$\int _{\pi/3}^{\pi/2}\frac{\mathrm{d}x}{\sin x(1+\cos ^2x)}=\left[ \frac{1}{4}\ln\frac{1+t}{1-t}+\frac{1}{2}\arctan t\right]_{0}^{1/2}=\frac{1}{4}\ln 3+\frac{1}{2}\arctan \frac{1}{2}.$$
+\end{explanations}
+\end{question}
+}

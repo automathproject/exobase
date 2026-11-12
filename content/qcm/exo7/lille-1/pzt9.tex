@@ -1,0 +1,30 @@
+\uuid{pzt9}
+\titre{Ensemble}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{2}
+\theme{Ensembles, applications, ensemble}
+\exo7qcmid{lille-1.ensembles.015}
+
+\contenu{
+\begin{question}
+\qclassification{100.02,101.01,102.02,102.02}
+\qtags{motcle=ensemble}
+Pour tout $n\in \Nn ^*$, on pose $E_n=\{1,2,\dots ,n\}$. On note $\mathcal{P}(E_n)$ l'ensemble des parties de $E_n$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\mathcal{P}(E_2)=\{\{1\},\{2\}\}$}
+    \good{$\mathcal{P}(E_2)=\{\varnothing ,\{1\},\{2\},E_2\}$}
+    \bad{$\mathrm{Card}(\mathcal{P}(E_n))=n$}
+    \good{$\mathrm{Card}(\mathcal{P}(E_n))=2^n$}
+\end{answers}
+\begin{explanations}
+Le nombre de parties à $k$ éléments de $E_n$ est $\mathrm{C}^k_n$ et le nombre de toutes les parties de $E_n$ est $\displaystyle \sum _{k=0}^n\mathrm{C}^k_n=(1+1)^n=2^n$.
+\end{explanations}
+\end{question}
+}

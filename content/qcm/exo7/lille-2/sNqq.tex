@@ -1,0 +1,32 @@
+\uuid{sNqq}
+\titre{Changement de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changement de variables, éléments simples}
+\exo7qcmid{lille-2.integrales.020}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changement de variables/éléments simples}
+On note $\displaystyle I=\int _{\pi/6}^{\pi/4}\left(\tan x+\frac{1}{\tan x}\right)\mathrm{d}x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{En écrivant $\displaystyle \tan x=\frac{\sin x}{\cos x}$, on obtient : $\displaystyle I=\int _{\pi/6}^{\pi/4}\frac{2\, \mathrm{d}x}{\sin (2x)}$.}
+\bad{Le changement de variable $t=\cos (2x)$ donne $\displaystyle I=\int _{0}^{1/2}\frac{2\mathrm{d}t}{1-t^2}$.}
+\good{$\forall t\in \Rr\setminus \{-1,1\}$, $\displaystyle \frac{2}{1-t^2}=\frac{1}{1-t}+\frac{1}{1+t}$ et $\displaystyle \int \frac{2\, \mathrm{d}t}{1-t^2}=\ln \left|\frac{1+t}{1-t}\right|+k$, $k\in \Rr$.}
+\bad{$\displaystyle I=\ln 3$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $\displaystyle \tan x=\frac{\sin x}{\cos x}$, on obtient : $\displaystyle I=\int _{\pi/6}^{\pi/4}\frac{\mathrm{d}x}{\sin x\cos x}=\int _{\pi/6}^{\pi/4}\frac{2\, \mathrm{d}x}{\sin (2x)}$. On écrit $\displaystyle I=\int _{\pi/6}^{\pi/4}\frac{2\sin (2x)\, \mathrm{d}x}{\sin ^2(2x)}$. Posons, $t=\cos (2x)$, on obtient : $\mathrm{d}t=-2\sin (2x)\, \mathrm{d}x$, $t(\pi/6)=1/2$, $t(\pi/4)=0$ et
+$$\displaystyle I=\int _{0}^{1/2}\frac{\mathrm{d}t}{1-t^2}=\frac{1}{2}\left[\ln \left|\frac{1+t}{1-t}\right|\right]_0^{1/2}=\frac{1}{2}\ln 3.$$
+\end{explanations}
+\end{question}
+}

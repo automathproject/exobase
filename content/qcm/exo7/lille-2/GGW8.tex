@@ -1,0 +1,56 @@
+\uuid{GGW8}
+\titre{Système linéaire à paramètres/Méthode du Pivot de Gauss}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires, Système linéaire à paramètres, Méthode du Pivot de Gauss}
+\exo7qcmid{lille-2.systemes.018}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à paramètres/Méthode du Pivot de Gauss}
+On considère le système d'équations, d'inconnue $(x,y,z)\in \Rr^3$ et de paramètres des réels $a$ et $m$ :
+$$(\mathtt{S})
+\left\{\begin{array}{rcc}
+2x+y-z&=&2\\
+x-y+z&=&4\\
+3x+3y-z&=&4m \\
+mx-y+z&=&2a+2. \end{array}\right.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$(\mathtt{S})\Leftrightarrow
+\left\{\begin{array}{rcc}
+x-y+z&=&4\\
+y-z&=&-2\\
+z&=&2m \\
+0&=&m-a. \\
+\end{array}\right.$}
+\bad{Si $m=1$ et $a=-1$, $(\mathtt{S})$ admet une unique solution.}
+\bad{Si $m =a$, $(\mathtt{S})$ admet une infinité de solutions.}
+\good{Si $m\neq a$, $(\mathtt{S})$ n'admet pas de solution.}
+\end{answers}
+\begin{explanations}
+$$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x-y+z&=&4\\
+y-z&=&-2\\
+3y-2z&=&2m-6 \\
+(m-1)y+(1-m)z&=&2a-4m+2 \\
+\end{array}\right. \Leftrightarrow
+\left\{\begin{array}{rcc}
+x-y+z&=&4\\
+y-z&=&-2\\
+z&=&2m \\
+0&=&m-a. \\
+\end{array}\right.$$
+Si $m=a$, $(\mathtt{S})$ admet une unique solution et si $m\neq a$, $(\mathtt{S})$ n'admet pas de solution.
+\end{explanations}
+\end{question}
+}

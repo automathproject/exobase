@@ -1,0 +1,33 @@
+\uuid{713r}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.027}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Le changement de variable $u=2+\cos x$ donne :
+\begin{answers}
+\good{$\displaystyle \int \sin x(2+\cos x)^5\mathrm{d}x=-\frac{(2+\cos x)^6}{6}+k$, où $k\in \Rr$.}
+\bad{$\displaystyle \int (2+\cos x)^5\mathrm{d}x=\frac{((2+\cos x)^5)^6}{6}+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int \sin x\left(2+\cos x\right)^{-3}\mathrm{d}x=\frac{\left(2+\cos x\right)^{-2}}{2}+k$, où $k\in \Rr$.}
+\bad{$\displaystyle \int \left(2+\cos x\right)^{-3}\mathrm{d}x=\frac{\left(2+\cos x\right)^{-2}}{2}+k$, où $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=2+\cos x$, on a : $\mathrm{d}u=-\sin x\, \mathrm{d}x$. D'où
+$$\int \sin x(2+\cos x)^5\mathrm{d}x=-\int u^5\mathrm{d}u=-\frac{u^6}{6}+k,\; k\in \Rr,$$
+et
+$$\int \sin x(2+\cos x)^{-3}\mathrm{d}x=-\int u^{-3}\mathrm{d}u=\frac{u^{-2}}{2}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

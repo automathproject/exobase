@@ -1,0 +1,48 @@
+\uuid{n4HE}
+\titre{Système linéaire à paramètres/Méthode du Pivot de Gauss}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires, Système linéaire à paramètres, Méthode du Pivot de Gauss}
+\exo7qcmid{lille-2.systemes.009}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à paramètres/Méthode du Pivot de Gauss}
+On considère le système d'équations, d'inconnue $(x,y,z,t)\in \Rr^4$ et de paramètres des réels
+$a,b,c$ et $d$ :
+$$(\mathtt{S}) \; \left\{\begin{array}{rcc}
+x+y&=&a\\
+y+z&=&b\\
+z+t&=&c\\
+t+x&=&d.\end{array}\right.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y&=&a\\
+y+z&=&b\\
+z+t&=&c.\end{array}\right.$}
+\good{$(\mathtt{S})$ admet une  solution si et seulement si $a+c=b+d$.}
+\bad{$(\mathtt{S})$ admet une  solution si et seulement si $a+b=c+d$.}
+\good{Le rang de $(\mathtt{S})$ est $3$.}
+\end{answers}
+\begin{explanations}
+$$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y&=&a\\
+y+z&=&b\\
+z+t&=&c\\
+0&=&b+d-a-c.\end{array}\right.$$
+On en déduit que si $a+c\neq b+d$, $(\mathtt{S})$ n'admet pas de solution et que si $a+c= b+d$,
+$(\mathtt{S})$ en admet une infinité.
+\end{explanations}
+\end{question}
+}

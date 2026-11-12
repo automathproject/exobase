@@ -1,0 +1,32 @@
+\uuid{fccT}
+\titre{Changement de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables, éléments simples}
+\exo7qcmid{lille-2.primitives.045}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables/éléments simples}
+Pour $x\in ]-\pi/2,\pi/2[$, on pose $t=\cos x$. Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int \frac{\tan x\mathrm{d}x}{1+\cos ^2x}=\tan x\int \frac{\mathrm{d}t}{1+t^2}=\tan x.\arctan (\cos x)+k$, $k\in \Rr$.}
+\good{$\displaystyle \int \frac{\tan x\mathrm{d}x}{1+\cos ^2x}=-\int \frac{\mathrm{d}t}{t(1+t^2)}$.}
+\bad{$\forall t\in \Rr^*$, $\displaystyle \frac{1}{t(1+t^2)}=\frac{t}{1+t^2}-\frac{1}{t}$ et donc $\displaystyle \int \frac{\mathrm{d}t}{t(1+t^2)}=\ln \left(\frac{\sqrt{1+t^2}}{t}\right)+k$, $k\in \Rr$.}
+\good{Sur $]-\pi/2,\pi/2[$, on a : $\displaystyle \int \frac{\tan x\, \mathrm{d}x}{1+\cos ^2x}=\ln \left(\frac{\sqrt{1+\cos ^2x}}{\cos x}\right)+k$, $k\in \Rr$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $t=\cos x$, on aura $\displaystyle \frac{\tan x}{1+\cos ^2x}=\frac{\sin x}{\cos x(1+\cos ^2x)}$ et $\displaystyle \mathrm{d}t=-\sin x\mathrm{d}x$. D'où
+$$\int \frac{\tan x\mathrm{d}x}{1+\cos ^2x}=-\int \frac{\mathrm{d}t}{t(1+t^2)}=\frac{1}{2}\ln (1+t^2)-\ln |t|+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

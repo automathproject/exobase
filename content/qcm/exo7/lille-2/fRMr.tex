@@ -1,0 +1,33 @@
+\uuid{fRMr}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.026}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $u=\cos x$ donne $\displaystyle \int \cos ^3x\mathrm{d}x=\int u^3\mathrm{d}u$.}
+\good{Le changement de variable $u=\sin x$ donne $\displaystyle \int \cos ^3x\mathrm{d}x=\int (1-u^2)\mathrm{d}u$.}
+\bad{Le changement de variable $u=\sin x$ donne $\displaystyle \int \sin ^3x\mathrm{d}x=\int u^3\mathrm{d}u$.}
+\good{Le changement de variable $u=\cos x$ donne $\displaystyle \int \sin ^3x\mathrm{d}x=\int (u^2-1)\mathrm{d}u$.}
+\end{answers}
+\begin{explanations}
+On a : $\cos ^3x=(1-\sin ^2x)\cos x$. Donc, avec $u=\sin x$, on a : $\mathrm{d}u=\cos x\, \mathrm{d}x$ et
+$$\int \cos ^3x\mathrm{d}x=\int (1-\sin ^2x)\cos x\mathrm{d}x=\int (1-u^2)\mathrm{d}u.$$
+De m\^eme, on a : $\sin ^3x=(1-\cos ^2x)\sin x$. Donc, avec $u=\cos x$, on a : $\mathrm{d}u=-\sin x\mathrm{d}x$ et
+$$\int \cos ^3x\mathrm{d}x=\int (1-\cos ^2x)\sin x\mathrm{d}x=-\int (1-u^2)\mathrm{d}u.$$
+\end{explanations}
+\end{question}
+}

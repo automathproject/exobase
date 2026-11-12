@@ -1,0 +1,34 @@
+\uuid{Ekyd}
+\titre{Irrationnel}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Propriétés de R}
+\sousChapitre{Les rationnels}
+\difficulte{3}
+\theme{Rationnels, irrationnel}
+\exo7qcmid{lille-1.reels.006}
+
+\contenu{
+\begin{question}
+\qclassification{120.01}
+\qtags{motcle=irrationnel}
+Je veux montrer que $\log 13$, est un nombre irrationnel. On rappelle que $\log 13$ est le réel tel que $10^{\log 13} = 13$. Quelle démarche puis-je adopter ?
+\begin{answers}
+    \bad{Par division je calcule l'écriture décimale de $\log 13$ et je montre qu'elle est périodique.}
+
+    \bad{Je prouve par récurrence que $\log n$ est irrationnel pour $n\ge2$.}
+
+    \good{Je suppose par l'absurde que $\log 13 = \frac pq$, avec $p,q \in \Nn^*$ et je cherche une contradiction après avoir écrit $13^q = 10^p$.}
+
+    \bad{Il est faux que $\log 3$ soit un nombre irrationnel.}
+
+\end{answers}
+\begin{explanations}
+On raisonne par l'absurde en écrivant $\log 13 = \frac pq$, où $p,q$ sont des entiers strictement positifs. On en déduit que $13^q = 10^p$. Comme $13$ et $10$ sont premiers entre eux, alors on obtient $p=q=0$ et donc une contradiction.
+\end{explanations}
+\end{question}
+}

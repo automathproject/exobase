@@ -1,0 +1,31 @@
+\uuid{O1Ww}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.023}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Le changement de variable $u=\sqrt{x}$ donne :
+\begin{answers}
+\bad{$\displaystyle \int \frac{\sin (\sqrt{x})}{\sqrt{x}}\mathrm{d}x=\int \frac{\sin (u)}{u}\mathrm{d}u$.}
+\bad{$\displaystyle \int \frac{\sin (\sqrt{x})}{\sqrt{x}}\mathrm{d}x=\cos (u)+k$, $k\in \Rr$.}
+\good{$\displaystyle \int \frac{\sin (\sqrt{x})}{\sqrt{x}}\mathrm{d}x=2\int \sin (u)\mathrm{d}u$.}
+\good{$\displaystyle \int \frac{\sin (\sqrt{x})}{\sqrt{x}}\mathrm{d}x=-2\cos (u)+k$, $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=\sqrt{x}$, on a : $\displaystyle \mathrm{d}u=\frac{\mathrm{d}x}{2\sqrt{x}}$. D'où
+$$\int \frac{\sin (\sqrt{x})}{\sqrt{x}}\mathrm{d}x=2\int \sin (u)\mathrm{d}u=-2\cos (u)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

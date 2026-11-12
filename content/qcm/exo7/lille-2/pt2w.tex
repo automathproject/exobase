@@ -1,0 +1,36 @@
+\uuid{pt2w}
+\titre{Composée/Quotient/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Composée, Quotient, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.016}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/Quotient/DL usuels}
+Soit $\displaystyle f(x)=\frac{\ln (1+x+x^2)}{\sqrt{1+2x}-1}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_2(0)\ln (1+x+x^2)=x+\frac{x^2}{2}+o(x^2)$.}
+\good{$\displaystyle DL_2(0)\left(\sqrt{1+2x}-1\right)=x-\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle DL_2(0)f(x)=1+x+\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle DL_3(0)[xf(x)]=x+x^2+\frac{x^3}{2}+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+Pour écrire le $DL_2(0)f(x)$, il faut écrire les développements limités du numérateur et du dénominateur à l'ordre $3$ en $0$. Ensuite effectuer la division suivant les puissances croissantes à l'ordre $2$. On aura :
+$$DL_2(0)f(x)=1+x-\frac{2x^2}{3}+o(x^2).$$
+En multipliant par $x$, on obtient : $\displaystyle DL_3(0)xf(x)=x+x^2-\frac{2x^3}{3}+o(x^3)$.
+\end{explanations}
+\end{question}
+}

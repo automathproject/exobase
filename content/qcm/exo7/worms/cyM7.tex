@@ -1,0 +1,65 @@
+\uuid{cyM7}
+\titre{Somme de deux dés}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Variable aléatoire discrète}
+\difficulte{}
+\theme{Variables discrètes}
+\exo7qcmid{worms.worms.029}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+On considère la variable aléatoire $X$ égale au résultat de la somme de 2 dés à 6 faces équilibrés.
+}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Quelle est la loi de $X$ ?
+\begin{answers}
+\bad{$X$ suit la loi uniforme sur $\{1,2,\ldots,12\}$.}
+\bad{$X$ suit la loi uniforme sur $\{2,3,\ldots,12\}$.}
+\bad{$X$ suit la loi binomiale de paramètres 12 et $1/6$.}
+\good{Aucune des réponses ci-dessus.}
+\end{answers}
+\begin{explanations}
+C'est bien sûr la loi sur $\{2,3,...,12\}$ dont les poids sont (exo facile) :
+
+ $\{1/36,2/36,3/36,4/36,5/36,6/36,5/36,4/36,3/36,2/36,1/36\}$.
+
+Les questions qui suivent en découlent facilement.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Que valent l'espérance et la médiane de $X$ ?
+\begin{answers}
+\bad{L'espérance de $X$ vaut $6.5$ et la médiane vaut $7$.}
+\good{Elles valent toutes les deux 7.}
+\bad{Elles valent d'autres valeurs que celles proposées ci-dessus.}
+\end{answers}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+Que valent $\mathbb{P}(X\geq 4)$ et la variance de $X$ ?
+\begin{answers}
+\bad{$\mathbb{P}(X\geq 4)=3/4$ et $\mathbb{V}ar(X)=329/6$.}
+\bad{$\mathbb{P}(X\geq 4)=1/4$ et $\mathbb{V}ar(X)=35/6$.}
+\bad{$\mathbb{P}(X\geq 4)=14/36$ et $\mathbb{V}ar(X)=35/6$.}
+\good{$\mathbb{P}(X\geq 4)=11/12$ et $\mathbb{V}ar(X)\simeq 5.8$.}
+
+\end{answers}
+%\begin{explanations}
+%%% réponse=1-(1+2)/36=11/12   et var=329/6 - 7^2 = 35/6 =5.83333
+%\end{explanations}
+\end{question}
+}

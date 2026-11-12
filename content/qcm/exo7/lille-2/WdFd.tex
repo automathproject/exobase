@@ -1,0 +1,36 @@
+\uuid{WdFd}
+\titre{DL usuels/Calcul de limites}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{1}
+\theme{Applications des DL, DL usuels, Calcul de limites}
+\exo7qcmid{lille-2.developpements-limites.031}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL usuels/Calcul de limites}
+Soit $\displaystyle f(x)=\frac{\ln x}{x^2-1}$ et $\displaystyle g(x)=\frac{\ln (1+x)}{2x+x^2}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_1(0)g(x)=\frac{1}{2}-\frac{x}{2}+o(x)$.}
+\bad{$f(1+x)=g(x)$ et $\displaystyle DL_1(1)f(x)=\frac{1}{2}-\frac{x}{2}+o(x)$.}
+\bad{$\displaystyle \lim _{x\to 1}f(x)$ n'existe pas.}
+\good{$\displaystyle \lim _{x\to 1}f(x)=\frac{1}{2}$.}
+\end{answers}
+\begin{explanations}
+Les développements à l'ordre $2$ en $0$ de $\ln (1+x)$ donne :
+$$\displaystyle DL_1(0)g(x)=\frac{1}{2}-\frac{x}{2}+o(x) \Rightarrow DL_1(1)f(x)=\frac{1}{2}-\frac{x-1}{2}+o(x-1)$$
+car $f(x)=g(x-1)$. Enfin, $\displaystyle \lim _{x\to 1}f(x)=\lim _{x\to 0}g(x)=\frac{1}{2}$.
+\end{explanations}
+\end{question}
+}

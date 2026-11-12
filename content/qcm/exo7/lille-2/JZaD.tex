@@ -1,0 +1,44 @@
+\uuid{JZaD}
+\titre{Matrice d'une application linéaire/Noyau/Image/Changement de bases/Espaces supplémentaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Noyau, Image, Changement de bases, Espaces supplémentaires}
+\exo7qcmid{lille-2.matrice-application.021}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Changement de bases/Espaces supplémentaires}
+Soit $f$ l'endomorphisme de $\Rr^3$ dont la matrice dans la base canonique ${\cal B}=\{e_1,e_2,e_3\}$ est :
+$$A = \left(\begin{array}{rcc}
+0&2&-1\\
+2&-5&4\\
+3&-8&6\\
+\end{array}\right).$$
+Soit $v_1=(1,1,1), v_2=(1,0,-1),  v_3=(0,1,1)$ et ${\cal B}' = \{ v_1, v_2,  v_3\}$. On note $Id$ l'application identité de $\Rr^3$.
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\dim \ker (f^2-Id) =1$}.
+\bad{$\{v_2\}$ est une base de $\ker (f^2+Id)$}.
+\good{$\Rr^3=\ker (f^2-Id) \oplus \ker (f^2+Id)$}.
+\good{${\cal B}'$ est une base de $\Rr^3$ et la matrice de $f^2$ dans cette base est :
+$$\left(\begin{array}{rcc}
+1&0&0\\ 0 &-1&0\\ 0&0&-1\end{array}\right).$$}
+\end{answers}
+\begin{explanations} On vérifie que
+$\{v_1\}$ est une base de $\ker (f^2-Id)$, que
+$\{v_2 ,v_3\}$ est une base de $\ker (f^2+Id)$ et que  ${\cal B}' = \{ v_1, v_2,  v_3\}$ est une base de $\Rr^3$.
+On en déduit que :
+$$\Rr^3=\ker (f^2-Id) \oplus \ker (f^2+Id).$$
+La matrice de $f^2$ dans la base ${\cal B}'$ est : $\left(\begin{array}{rcc} 1&0&0\\ 0 &-1&0\\
+0&0&-1\end{array}\right)$.
+\end{explanations}
+\end{question}
+}

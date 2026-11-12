@@ -1,0 +1,29 @@
+\uuid{E7Z8}
+\titre{Variables continues}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{}
+\theme{Variables continues}
+\exo7qcmid{worms.worms.043}
+
+\contenu{
+\begin{question}
+\qclassification{261.01}
+Soit $X$ une variable aléatoire de loi ${\cal N}(0,1)$. On pose $Y=X^2$ (on dit que la loi de $Y$ est la loi du $\chi^2$ à 1 degré de liberté).  On a bien sûr $f_Y(x)=0$ si $x<0$ car $Y$ est une variable positive, mais quelle est l'expression de la densité de $Y$ pour $x>0$ ? (Ci-dessous, $\varphi$ désigne la densité de la loi ${\cal N}(0,1)$ bien sûr.)
+\begin{answers}
+\bad{$f_Y(x) = 2x\varphi(x^2)$}
+\good{$f_Y(x) = \varphi(\sqrt{x}) / \sqrt{x}$}
+\bad{$f_Y(x) = \varphi(\sqrt{x})$}
+\bad{$f_Y(x) = (\varphi(x))^2$}
+\end{answers}
+\begin{explanations}
+Si on note $F_Y$ la fonction de répartition de $Y$ et $\Phi$ celle de $X$, alors on a, pour $y>0$, $F_Y(y)= \mathbb{P}(Y\leq y)=\mathbb{P}(|X|\leq \sqrt{y})=2\Phi(\sqrt{y})-1$. On obtient alors la réponse en dérivant cette fonction composée (et avec $\Phi'=\varphi$). Noter que  la loi du $\chi^2$ à $n$ degrés de libertés est la loi de $Y=X_1^2+\cdots+X_n^2$ lorsque $X_1,\ldots,X_n$ sont des variables indépendantes gaussiennes centrées réduites. C'est une loi très importante en statistique. On prononce $\chi^2$ "ki-deux" ou "ki-carré". %Les plus curieux(ses) d'entre vous pourront aller voir dans un livre ou sur internet comment calculer des probabilités ou des quantiles de ces lois, à l'aide de tables, comme pour les gaussiennes.
+\end{explanations}
+\end{question}
+}

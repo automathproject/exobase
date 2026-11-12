@@ -1,0 +1,44 @@
+\uuid{4mf4}
+\titre{Matrice/Transposée/Base/Dimension/Espaces supplémentaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Propriétés élémentaires, généralités}
+\difficulte{3}
+\theme{Calcul matriciel, Matrice, Transposée, Base, Dimension, Espaces supplémentaires}
+\exo7qcmid{lille-2.matrices.019}
+
+\contenu{
+\begin{question}
+\qclassification{108.01}
+\qtags{motcle=Matrice/Transposée/Base/Dimension/Espaces supplémentaires}
+On note $ M_2(\Rr)$ l'espace des matrices carrées d'ordre $2$ à coefficients réels. Soit
+$$E= \{M \in M_2(\Rr)\mid ^tM = M\} \quad \mbox{et}\quad F= \{M \in M_2(\Rr) \; ; \;  ^tM = -M\},$$
+où $^tM$  désigne la transposée de $M$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$E$ est un espace vectoriel de dimension $3$}.
+\bad{$E$ est un espace vectoriel de dimension $2$}.
+\good{$F$ est un espace vectoriel de dimension $1$}.
+\good{$E$ et $F$ sont supplémentaires dans $ M_2(\Rr)$}.
+\end{answers}
+\begin{explanations} Soit $M=\left(\begin{array}{rc}
+a&b\\ c&d\\ \end{array}\right)$ telle que $^tM = M$, alors $b=c$. Donc la famille
+$$\left\{\left(\begin{array}{rc}
+1&0\\0&0\\
+\end{array}\right),\left(\begin{array}{rc}
+0&1\\1&0\\
+\end{array}\right),\left(\begin{array}{rc}
+0&0\\0&1\\ \end{array}\right)\right\}$$
+forme une base de $E$. D'où $\dim E = 3$.
+\vskip0mm
+Soit $M=\left(\begin{array}{rc}a&b\\c&d\end{array}\right)$ telle que $ ^tM = -M$, alors $a=d=0$ et $c=-b$. Donc $\left\{\left(\begin{array}{rc}
+0&1\\-1&0\\ \end{array}\right)\right\}$ est une base de $F$ et donc $\dim F=1$.
+\vskip0mm
+On vérifie que $E\cap F=\{0_E\}$ et en utilisant le théorème de la dimension d'une somme, on déduit que $E$ et $F$ sont supplémentaires dans $ M_2(\Rr)$.
+\end{explanations}
+\end{question}
+}

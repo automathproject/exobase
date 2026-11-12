@@ -1,0 +1,39 @@
+\uuid{0QaI}
+\titre{Graphe}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Fonctions usuelles, graphe}
+\exo7qcmid{lille-1.fonctions-usuelles.019}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=graphe}
+Soit $f(x)=\sqrt{\frac{x^3}{x-1}}$.  Quelles sont les assertions vraies ?
+
+\begin{answers}
+    \good{Le domaine de définition de $f$ est $]-\infty, 0]\cup ]1,+\infty[$.}
+
+    \bad{$y=x-\frac{1}{2}$ est une asymptote à la courbe de $f$ en $+\infty$.}
+
+    \good{$y=x+\frac{1}{2}$ est une asymptote à la courbe de $f$ en $+\infty$.}
+
+    \good{$y=-x-\frac{1}{2}$ est une asymptote en $-\infty$.}
+
+\end{answers}
+\begin{explanations}
+$f$ est définie si $x\neq 1$ et $\frac{x}{x-1}\ge 0$. On déduit que le domaine de définition de $f$ est $]-\infty, 0]\cup ]1,+\infty[$.
+
+$\lim_{x \to \pm \infty}f(x) = + \infty$,  $\lim_{x \to + \infty}\frac{f(x)}{x} = 1$, $\lim_{x \to + \infty}(f(x)-x) = \lim_{x \to + \infty}x(\sqrt{\frac{x}{x-1}}-1)= \lim_{x \to + \infty} \frac{x}{(x-1)(\sqrt{\frac{x}{x-1}}+1)}= \frac{1}{2}$. Donc $y=x+\frac{1}{2}$ est une asymptote à la courbe de $f$ en $+\infty$.
+
+$\lim_{x \to - \infty}\frac{f(x)}{x} = -1$,  $\lim_{x \to - \infty}(f(x)+x) = \lim_{x \to - \infty}x(1-\sqrt{\frac{x}{x-1}})= -\frac{1}{2}$. Donc $y=-x-  \frac{1}{2}$ est une asymptote à la courbe de $f$ en $-\infty$.
+\end{explanations}
+\end{question}
+}

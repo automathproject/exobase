@@ -30,6 +30,8 @@ de rendu et embeddings).
 Le dossier `content/` suit le contrat de contenu d'OpenYourMath :
 
 - `content/exercises/<source>/` : sources `.tex` ;
+- `content/qcm/<source>/` : contenus de type **qcm** (questions à choix multiples,
+  seules ou en séries ordonnées), au format décrit dans `content/qcm/FORMAT.md` ;
 - `content/images/<source>/<format>/` : images et sources graphiques ;
 - `content/code/<source>/python/` : extraits Python référencés par `\pythoncode` ;
 - `content/animations/<source>/` : figures interactives (`<nom>.js`) référencées par
@@ -38,6 +40,21 @@ Le dossier `content/` suit le contrat de contenu d'OpenYourMath :
 - `content/referentials/` : taxonomies canoniques et tables de compatibilité ;
 - `content/authors.json` : auteurs et licences ;
 - `content/FORMAT.md` : documentation du format des exercices `.tex`.
+
+## QCM
+
+Les QCM viennent du dépôt [qcm-exo7](https://github.com/exo7math/qcm-exo7),
+cloné à côté d'exobase. L'import produit un fichier par contenu et n'écrit rien
+sans `--apply` :
+
+```bash
+python3 tools/import/import_qcm_exo7.py
+python3 tools/import/import_qcm_exo7.py --apply
+python3 tools/validate/check_qcm_sources.py
+```
+
+Certaines questions ne sont pas indépendantes : elles forment alors une série
+ordonnée, portée par un seul fichier. Voir `content/qcm/FORMAT.md`.
 
 ## Flux principal
 

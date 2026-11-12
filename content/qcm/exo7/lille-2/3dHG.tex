@@ -1,0 +1,37 @@
+\uuid{3dHG}
+\titre{Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.022}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/DL usuels}
+Soit $\displaystyle f(x)=(1+x)^{1/x}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_2(0)\frac{\ln (1+x)}{x}=1-\frac{x}{2}+\frac{x^2}{3}+o(x^2)$.}
+\bad{$\displaystyle DL_2(0)\mathrm{e}^{1+u}=1+u+\frac{u^2}{2}+o(u^2)$.}
+\bad{$\displaystyle DL_2(0)f(x)=\frac{5}{2}-2x+\frac{3x^2}{2}+o(x^2)$.}
+\good{$\displaystyle DL_2(0)f(x)=\mathrm{e}-\frac{\mathrm{e}}{2}x+\frac{11\mathrm{e}}{24}x^2+o(x^2)$.}
+\end{answers}
+\begin{explanations}
+Le $\displaystyle DL_3(0)\ln (1+x)$ donne : $\displaystyle DL_2(0)\frac{\ln (1+x)}{x}=1-\frac{x}{2}+\frac{x^2}{3}+o(x^2)$.
+\vskip0mm
+Ensuite, $\mathrm{e}^{1+u}=\mathrm{e}.\mathrm{e}^u=\mathrm{e}.\left(1+u+\frac{u^2}{2}+o(u^2)\right)$. Ainsi, avec $\displaystyle u=-\frac{x}{2}+\frac{x^2}{3}+o(x^2)$, on obtient :
+$$f(x)=\mathrm{e}^{1-\frac{x}{2}+\frac{x^2}{3}+o(x^2)}=\mathrm{e}-\frac{\mathrm{e}}{2}x+\frac{11\mathrm{e}}{24}x^2+o(x^2).$$
+\end{explanations}
+\end{question}
+}

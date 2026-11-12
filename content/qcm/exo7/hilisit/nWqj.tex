@@ -1,0 +1,29 @@
+\uuid{nWqj}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{2}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.031}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit $f: x\mapsto -2 e^{3x}$. Quelles sont les affirmations vraies ?
+\begin{answers}
+  \bad{$f$ est la seule solution de l'équation différentielle $y'=3y$ dont la courbe représentative passe par le point $A(0,3)$.}
+  \bad{$f$ est la seule solution de l'équation différentielle $y'=3y$ qui tend vers $-\infty$ lorsque $x$ tend vers $+\infty$.}
+  \good{$f$ est la seule solution de l'équation différentielle $y'=3y$ valant $-2$ en $x=0$.}
+  \good{$f$ est la seule solution de l'équation différentielle $y'=3y$ dont la dérivée en $x=0$ est $-6$.}
+\end{answers}
+\begin{explanations}
+Les solutions de l'équation différentielle $y'=3y$ sont les fonctions $f_C:x\mapsto C e^{3x}$ avec $C$ constante réelle. $f=f_{-2}$ est donc bien solution de $y'=3y$. $f_C(0)=C$ : la valeur de la constante $C$ correspond à la valeur de la fonction en $x=0$. Ainsi $f(x) = -2e^{3x}$ est bien la seule solution valant $-2$ en $x=0$. Par contre, $f(0)\ne 3$ donc sa courbe représentative ne passe pas par $A(0,3)$. Puisque d'après l'équation différentielle on a $f_C'(0)=3 f_C(0) = 3C$, alors $f$ est la seule solution telle que $f'_C(0)=-6$ car cela impose $C=-2$. Enfin, dès que $C<0$, $C e^{3x}$ tend vers $-\infty$ lorsque $x$ tend vers $+\infty$ donc $f$ n'est pas la seule fonction ayant cette propriété.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,56 @@
+\uuid{st4S}
+\titre{Systèmes d'équations linéaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires}
+\exo7qcmid{lille-2.systemes.025}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à $n$ inconnus et à paramètres}
+On considère le système d'équations, d'inconnue $(x_1,x_2,\dots,x_n) \in \Rr^n$, $n \ge 2$ : et de paramètre des réels  $a,b$ :
+$$(\mathtt{S})
+\left\{\begin{array}{ccc}
+x_1+x_2 + x_3+\dots \quad \dots+ x_n&=&1\\
+ax_1+bx_2 + bx_3 +  \dots   +bx_n&=&1\\
+ax_1+ax_2+bx_3 + \dots +bx_n&=&1\\ \vdots &\vdots&\vdots\\
+ax_1+\dots + ax_{n-1}+bx_n&=&1,\end{array}\right.$$
+où $a$ et $b$ sont des paramètre réels. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x_1+x_2+x_3+\dots+ x_n&=&1\\
+(b-a)[x_2+x_3+\dots+ x_n]&=&1-a\\
+(b-a)[x_3+\dots +x_n]&=&1-a\\
+\vdots &\vdots&\vdots\\
+(b-a)x_n&=&1-a.\\
+\end{array}\right.$}
+\bad{Si $a=b$, $(\mathtt{S})$ admet une infinité de solutions.}
+\bad{Si $a\neq b$, $(\mathtt{S})$ n'admet pas de solution.}
+\good{$(\mathtt{S})$ admet une infinité de solutions si et seulement si $a=b=1$.}
+\end{answers}
+\begin{explanations} L'algorithme de Gauss donne :
+$$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x_1+x_2+x_3+\dots+ x_n&=&1\\
+(b-a)[x_2+x_3+\dots+ x_n]&=&1-a\\
+(b-a)[x_3+\dots +x_n]&=&1-a\\
+\vdots &\vdots&\vdots\\
+(b-a)x_n&=&1-a.
+\end{array}\right.$$
+\begin{enumerate}
+\item[-] Si $a=b=1$, le système $(\mathtt{S})\Leftrightarrow x_1+x_2+\dots+ x_n=1$. Donc $(\mathtt{S})$ admet une infinité de solutions.
+\item[-] Si $a=b \neq 1$, $(\mathtt{S})$ n'admet pas de solution.
+\item[-] Si $a\neq b$, $(\mathtt{S})$ admet une unique  solution.
+\end{enumerate}
+\end{explanations}
+\end{question}
+}

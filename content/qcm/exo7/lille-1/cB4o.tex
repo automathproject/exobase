@@ -1,0 +1,39 @@
+\uuid{cB4o}
+\titre{Équation}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Fonctions usuelles, équation}
+\exo7qcmid{lille-1.fonctions-usuelles.024}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=équation}
+Soit $f$ une fonction définie par l'équation $(E)$ : $ \arcsin f(x) + \arcsin x = \frac{\pi}{2}$. on notera $D_f$ le domaine de définition de $f$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$D_f= [-1,1]$}
+
+    \bad{$\forall x \in [-1,1], \, f(x)= -\sqrt{1-x^2}$}
+
+     \good{$\forall x \in [0,1], \, f(x)= \sqrt{1-x^2}$}
+
+    \good{$f$ est une bijection de $[0,1]$ dans $[0,1]$.}
+\end{answers}
+\begin{explanations}
+la fonction $x \to \arcsin x$ est définie sur $[-1,1]$ et prend ses valeurs dans $[-\frac{\pi}{2}, \frac{\pi}{2}]$. Si $-1\le x <0$, $-\frac{\pi}{2}  \le  \arcsin x <0$ et si $0\le  x \le 1$, $0\le   \arcsin x \le  \frac{\pi}{2}$. On déduit que $f$ n'est pas définie si  $-1\le x <0$.
+
+Soit $x \in [0,1]$, on a : $(E) \Rightarrow f(x)= \sin (\frac{\pi}{2} - \arcsin x) = \cos (\arcsin x) = \pm \sqrt{1-x^2} $. Or $\arcsin x \in [-\frac{\pi}{2}, \frac{\pi}{2}] $ et la fonction cosinus est positive sur $[-\frac{\pi}{2}, \frac{\pi}{2}] $, donc $(E) \Rightarrow f(x)= \sqrt{1-x^2}$.
+
+Réciproquement, on considère la fonction $g$ définie sur $[0,1]$ par : $g(x) =  \arcsin  \sqrt{1-x^2} + \arcsin x$. $g$ est dérivable sur $]0,1[$ et $g'(x)= 0$. Comme $g$ est continue sur $[0,1]$,  $g$ est constante sur cet intervalle et en identifiant en $0$, on obtient $g(x)= \frac{\pi}{2},$ pour tout $x \in [0,1]$. On déduit que $f(x) = \sqrt{1-x^2}$, pour tout $x \in [0,1]$.
+
+Soit $x, y \in [0,1]$, on a : $y=\sqrt{1-x^2} \Leftrightarrow x = \sqrt{1-y^2}$. Donc $f$ est une bijection de $[0,1]$ dans $[0,1]$ et $f^{-1} = f$.
+\end{explanations}
+\end{question}
+}

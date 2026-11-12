@@ -1,0 +1,30 @@
+\uuid{m2vU}
+\titre{Variation de la constante/prolongement par continuité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{Equations du premier ordre, variation de la constante, prolongement par continuité}
+\exo7qcmid{lille-2.equations-differentielles.015}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+\qtags{motcle=variation de la constante/prolongement par continuité}
+On considère l'équation différentielle $(E)$ : $\displaystyle y'\ln x+\frac{y}{x}=2x$ sur $]1,+\infty[$. Parmi les affirmations suivantes cocher celles qui sont vraies :
+\begin{answers}
+\bad{La solution générale de l'équation homogène est : $\displaystyle y(x)=k\ln x$, $k\in \Rr$.}
+\good{Si $\displaystyle y(x)=\frac{k(x)}{\ln x}$ est une solution de $(E)$ sur $]1,+\infty[$, alors $k'(x)=2x$.}
+\good{La solution générale de $(E)$ sur $]1,+\infty[$ est $\displaystyle y(x)=\frac{k+x^2}{\ln x}$, $k\in \Rr$.}
+\bad{$(E)$ possède une infinité de solutions sur $[1,+\infty[$.}
+\end{answers}
+\begin{explanations}
+Une primitive de $\displaystyle \frac{1}{x\ln x}$ est $\ln |\ln x|$, donc la solution générale de l'équation homogène est $\displaystyle y(x)=\frac{k}{\ln x}$. Si $\displaystyle y(x)=\frac{k(x)}{\ln x}$ est une solution de $(E)$ sur $]1,+\infty[$, alors $k'(x)=2x$ et donc $k=x^2+C$. Ainsi la solution générale de $(E)$ sur $]1,+\infty[$ est : $\displaystyle y(x)=\frac{k+x^2}{\ln x}$, $k\in \Rr$. On pose $x=1$ dans $(E)$, on aura $y(1)=2$. Or $\displaystyle \lim _{x\to 1^+}\frac{k+x^2}{\ln x}=2$ si, et seulement si, $k=-1$. Donc $(E)$ ne peut admettre une infinité de solutions sur $[1,+\infty[$.
+\end{explanations}
+\end{question}
+}

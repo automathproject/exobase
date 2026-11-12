@@ -1,0 +1,37 @@
+\uuid{1D68}
+\titre{Dérivée seconde ou plus}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Dérivées, dérivée seconde ou plus}
+\exo7qcmid{lille-1.derivees.020}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée seconde ou plus}
+Soit $f(x)=\left\{\begin{array}{ll}x^2\ln (x^2)&\mbox{si }x\neq 0\\ 0&\mbox{si }x=0.\end{array} \right.$
+
+Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$f$ est de classe $\mathcal{C}^1$ sur $\Rr$.}
+    \good{$\forall x\in \Rr^*$, $\displaystyle f''(x)=2\ln x^2+6$}
+    \bad{$f$ est deux fois dérivables sur $\Rr$.}
+    \bad{$f$ est de classe $\mathcal{C}^2$ sur $\Rr$.}
+\end{answers}
+\begin{explanations}
+Les théorèmes généraux assurent que $f$ est de classe $\mathcal{C}^2$ sur $\Rr^*$ avec
+$$f'(x)=2x\ln (x^2)+2x\mbox{ et }f''(x)=2\ln x^2+6\mbox{ si }x\neq 0$$
+et $\displaystyle \lim _{x\to 0}\frac{f(x)-f(0)}{x-0}=0=f'(0)$. On a aussi
+$$\lim _{x\to 0}f'(x)=0=f'(0) \Rightarrow f'\mbox{ est continue en }0.$$
+Ainsi $f$ de classe $\mathcal{C}^1$ sur $\Rr$ et est deux fois dérivable sur $\Rr^*$. Elle n'est pas deux fois dérivables en $0$ car
+$$\lim _{x\to 0}\frac{f'(x)-f'(0)}{x-0}=\lim _{x\to 0}[2\ln (x^2)+2]=-\infty.$$
+\end{explanations}
+\end{question}
+}

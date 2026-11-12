@@ -1,0 +1,34 @@
+\uuid{3uRq}
+\titre{Injection/surjection}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles, applications, injection, surjection}
+\exo7qcmid{lille-1.ensembles.030}
+
+\contenu{
+\begin{question}
+\qclassification{100.02,101.01,102.01,102.02}
+\qtags{motcle=injection/surjection}
+Soit $f:[-1,1]\to [-1,1]$ l'application définie par
+$$\forall x\in [-1,1],\; f(x)=\frac{2x}{1+x^2}.$$
+Quelle sont les bonnes réponses ?
+\begin{answers}
+    \bad{$f$ est injective mais non surjective.}
+    \bad{$f$ est surjective mais non injective.}
+    \bad{$f$ n'est ni injective ni surjective.}
+    \good{$f$ est bijective et $\displaystyle f^{-1}(x)=\frac{x}{1+\sqrt{1-x^2}}$.}
+\end{answers}
+\begin{explanations}
+Soit $y\in [-1,1]$. On a $\displaystyle f(x)=y\Leftrightarrow yx^2-2x+y=0$. On résout dans $[-1,1]$ cette équation, d'inconnue $x$. Si $y=0$, on aura $x=0$ et si $y\neq 0$, on calcule $\Delta =4(1-y^2)\geq 0$ et donc
+$$x=\frac{1-\sqrt{1-y^2}}{y}=\frac{y}{1+\sqrt{1-y^2}}\in [-1,1]\mbox{ car }\frac{1+\sqrt{1-y^2}}{y}\notin [-1,1].$$
+Ainsi tout $y\in [-1,1]$ admet un unique antécédent $\displaystyle x=\frac{y}{1+\sqrt{1-y^2}}\in [-1,1]$. Donc $f$ est bijective et $\displaystyle f^{-1}(y)=\frac{y}{1+\sqrt{1-y^2}}$.
+\end{explanations}
+\end{question}
+}

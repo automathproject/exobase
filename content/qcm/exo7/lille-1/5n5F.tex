@@ -1,0 +1,37 @@
+\uuid{5n5F}
+\titre{Produit}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Polynôme, fraction rationnelle}
+\sousChapitre{Définition, degré, produit}
+\difficulte{3}
+\theme{Polynômes, produit}
+\exo7qcmid{lille-1.polynomes.008}
+
+\contenu{
+\begin{question}
+\qclassification{105.05}
+\qtags{motcle=produit}
+Soit $A(X) = \sum_{i=0}^n a_i X^i$.
+Soit $B(X) = \sum_{j=0}^m b_j X^j$.
+Soit $C(X) = A(X) \times B(X) = \sum_{k=0}^{m+n} c_k X^k$.
+Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$c_k = a_k b_k$}
+
+    \good{$c_k = \sum_{i+j=k} a_ib_j$}
+
+    \bad{$c_k = \sum_{i=0}^k a_ib_i$}
+
+    \good{$c_k = \sum_{i=0}^k a_ib_{k-i}$}
+\end{answers}
+\begin{explanations}
+La formule (à connaître) est
+$$c_k = \sum_{i+j=k} a_ib_j = \sum_{i=0}^k a_ib_{k-i}.$$
+\end{explanations}
+\end{question}
+}

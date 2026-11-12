@@ -1,0 +1,32 @@
+\uuid{VhO7}
+\titre{Changement de variable/positivité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Calculs d'intégrales, changement de variable, positivité}
+\exo7qcmid{lille-2.integrales.014}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changement de variable/positivité}
+Soit $\displaystyle f(x)=\frac{x}{x^2+1}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int _0^2f(x)\, \mathrm{d}x=\int _0^{4}\frac{\mathrm{d}t}{t+1}$.}
+\good{$\displaystyle \frac{1}{5}\int _0^{2}x\, \mathrm{d}x<\int _0^2f(x)\, \mathrm{d}x<\int _0^{2}x\, \mathrm{d}x$.}
+\good{$\displaystyle \int _{-1}^1f(x)\, \mathrm{d}x=0$.}
+\bad{$\displaystyle \int _0^2f(x)\, \mathrm{d}x=\ln 5$.}
+\end{answers}
+\begin{explanations}
+Avec $t=x^2$, on a : $\mathrm{d}t=2x\, \mathrm{d}x$, $t(0)=0$, $t(2)=4$ et
+$$\int _0^2f(x)\,\mathrm{d}x=\frac{1}{2}\int _0^{4}\frac{\mathrm{d}t}{t+1}=\frac{1}{2}\Big[\ln (t+1)\Big]^4_0=\frac{1}{2}\ln 5.$$
+Pour tout $x\in ]0,2[$, on a : $\displaystyle \frac{x}{5}<f(x)<x$. Donc $\displaystyle \frac{1}{5}\int _0^{2}x\, \mathrm{d}x<\int _0^2f(x)\, \mathrm{d}x<\int _0^{2}x\, \mathrm{d}x$. Enfin, la fonction $f$ étant impaire sur $\Rr$, pour tout $a>0$, on a : $\displaystyle \int _{-a}^af(x)\, \mathrm{d}x=0$.
+\end{explanations}
+\end{question}
+}

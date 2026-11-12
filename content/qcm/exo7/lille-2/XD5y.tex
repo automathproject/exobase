@@ -1,0 +1,52 @@
+\uuid{XD5y}
+\titre{Système linéaire à un paramètre/Méthode du Pivot de Gauss}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires, Système linéaire à un paramètre, Méthode du Pivot de Gauss}
+\exo7qcmid{lille-2.systemes.011}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à un paramètre/Méthode du Pivot de Gauss}
+On considère le système d'équations, d'inconnue $(x,y,z)\in \Rr^3$ et de paramètre un réel $m$ :
+$$(\mathtt{S}) \; \left\{\begin{array}{rcc}
+x+y+z&=&-1\\
+x+2y+3z&=&1\\
+2x+3y+4z&=&m.\end{array}\right.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y+z&=&-1\\
+y+2z&=&m.\\
+\end{array}\right.$}
+    \bad{Pour tout réel $m$, $(\mathtt{S})$ admet une solution.}
+    \good{Si $m=1$, $(\mathtt{S})$ n'admet pas de solution.}
+    \good{Si $m=0$, l'ensemble des solutions de $(\mathtt{S})$ est une droite.}
+\end{answers}
+\begin{explanations}
+$$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y+z&=&-1\\
+y+2z&=&2\\
+y+2z&=&m+2\\
+\end{array}\right. \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y+z&=&-1\\
+y+2z&=&2\\
+0&=&m.\\
+\end{array}\right.$$
+On en déduit que si $m\neq 0$, $(\mathtt{S})$ n'admet pas de solution et que si $m=0$, l'ensemble des solutions de
+$(\mathtt{S})$ est la droite :
+$\{(-3+z,2-2z,z); \; z\in \Rr\}$.
+\end{explanations}
+\end{question}
+}

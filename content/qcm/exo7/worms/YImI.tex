@@ -1,0 +1,81 @@
+\uuid{YImI}
+\titre{Absences dans une équipe de basket}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Variable aléatoire discrète}
+\difficulte{}
+\theme{Variables discrètes}
+\exo7qcmid{worms.worms.021}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+On considère que dans une équipe de basket, chacun des 12 joueurs a 1 chance sur 4 d'être absent au moins une fois durant le mois de juin. On suppose que l'absence ou la présence d'un joueur n'a pas d'impact sur les chances qu'a un autre joueur de se retrouver absent. On s'intéresse au nombre $N$ de joueurs absents durant le mois de juin.
+}
+
+\begin{question}
+\qclassification{260.03}
+\qkeeporder
+Quelle est la probabilité que $N$ vaille 3 ?
+\begin{answers}
+\bad{Elle vaut $(1/4)^3\simeq 1.56\%$.}
+\bad{On ne peut pas savoir, car on ne connaît pas la loi de $N$.}
+\good{Aucune des réponses précédentes.}
+\end{answers}
+\begin{explanations}
+$N$ suit bien sûr la loi $B(12,1/4)$, donc la réponse vaut $\simeq 25.81\%$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+Quelle est la probabilité qu'il y ait au moins 4 joueurs absents durant le mois de juin ?
+\begin{answers}
+\bad{Elle vaut exactement $1-\sum_{k=0}^3 (1/4)^k$.}
+\good{Elle vaut environ $35\%$.}
+\bad{Elle vaut environ $19\%$.}
+\bad{On ne peut pas répondre car la loi de $N$ n'est pas connue.}
+\end{answers}
+\begin{explanations}
+C'est $\mathbb{P}(N\geq 4)=1-\mathbb{P}(N\leq 3)\simeq 35\%$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+Les familles d'événements
+$$
+( \; \{N=0\}\, , \, \{N=1\}\, , \ldots , \, \{N=12\} \; ) \makebox[1.5cm][c]{ et }
+( \;\{N\leq 0\}\, , \, \{N\leq 1\}\, , \ldots , \, \{N\leq 12\}\; )
+$$
+constituent-elles des partitions de l'univers $\Omega$ associé à cette expérience ?
+\begin{answers}
+\good{Oui pour la première, non pour la seconde.}
+\bad{Non pour la première, oui pour la seconde.}
+\bad{Non pour les deux familles.}
+\bad{On ne peut pas le savoir car on ne connaît pas l'univers $\Omega$ en question.}
+\end{answers}
+\begin{explanations}
+Dans la seconde famille, les événements sont imbriqués les uns dans les autres et ne sont donc pas incompatibles.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.03}
+Que valent l'espérance et le premier quartile de $N$ ?
+\begin{answers}
+\bad{Ils valent respectivement $3$ et $1$.}
+\good{Ils valent respectivement $3$ et $2$.}
+\bad{Ils valent respectivement $4$ et $1$.}
+\bad{On ne peut toujours pas le dire car on ne connaît toujours pas la loi de $N$ !}
+\end{answers}
+\begin{explanations}
+On a $\mathbb{P}(N\leq 2) \simeq 39,07\% \geq 1/4$ et $\mathbb{P}(N\geq 1) \simeq  84,16\% \geq 3/4$, le premier quartile vaut donc $1$.
+\end{explanations}
+\end{question}
+}

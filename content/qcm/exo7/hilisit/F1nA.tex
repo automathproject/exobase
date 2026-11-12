@@ -1,0 +1,31 @@
+\uuid{F1nA}
+\titre{Logique}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Logique}
+\difficulte{2}
+\theme{Logique}
+\exo7qcmid{hilisit.logique.010}
+
+\contenu{
+\begin{question}
+\qclassification{100.01}
+Quelles sont les assertions vraies, quel que soit $x>0$, un réel strictement positif ?
+\begin{answers}
+	\bad{$\exists y > 0 \quad \ln(x) = y$}
+	\good{$\exists y >0 \quad e^x = y$}
+	\good{$\exists y > 0 \quad \ln(y) = x$}
+	\bad{$\exists y > 0 \quad e^y = x$}
+\end{answers}
+\begin{explanations}
+La valeur $y=\ln(x)$ est un nombre réel bien défini (car $x>0$), mais elle n'est pas nécessairement strictement supérieure à $0$ (prenez $x\leq 1$ pour que ce soit faux).\\
+Tout nombre réel $x>0$ possède un antécédent par la fonction exponentielle. Si l'on note $y$ cet antécédent, cela signifie que $e^y = x$. Mais cet antécédent n'est pas nécessairement strictement positif ! En effet, pour $x=1$ par exemple, on aura $e^0 = 1$.\\
+En revanche, le nombre $y=e^x$ sera toujours un réel strictement positif. Et en appliquant le logarithme à cette égalité, on obtient bien $\ln(y) = x$ avec ce même nombre $y>0$.
+\end{explanations}
+\end{question}
+}

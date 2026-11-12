@@ -1,0 +1,32 @@
+\uuid{Yn7O}
+\titre{Calcul de dérivée}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Dérivées, calcul de dérivée}
+\exo7qcmid{lille-1.derivees.008}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=calcul de dérivée}
+Soit $\displaystyle f(x)=x^2-\mathrm{e}^{x^2-1}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$f$ admet un minimum local en $0$.}
+    \bad{$f$ admet un maximum local en $0$.}
+    \bad{$f$ admet un point d'inflexion en $0$.}
+    \bad{la tangente à $\mathcal{C}_f$ en $0$ est une droite verticale.}
+\end{answers}
+\begin{explanations}
+On calcule $f'(x)=2x-2x\mathrm{e}^{x^2-1}$ et $f''(x)=2-2(1+2x^2)\mathrm{e}^{x^2-1}$. Ensuite, on vérifie que
+$$f'(x)=0\mbox{ et }f''(0)=2-2\mathrm{e}^{-1}>0.$$
+Donc $f$ admet un minimum local en $0$ et la tangente à $\mathcal{C}_f$ en $0$ est une droite horizontale.
+\end{explanations}
+\end{question}
+}

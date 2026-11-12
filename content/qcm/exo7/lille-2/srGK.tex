@@ -1,0 +1,33 @@
+\uuid{srGK}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.007}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\pi -x$ donne $\displaystyle \int _{\pi /2}^{\pi}\sin x\,\mathrm{d}x=\int _0^{\pi /2}\sin x\,\mathrm{d}x$.}
+\bad{Le changement de variable $t=2x$ donne $\displaystyle \int _0^{\pi /2}\sin (2x)\,\mathrm{d}x=\int _0^{\pi /2}\sin t\,\frac{\mathrm{d}t}{2}$.}
+\bad{Le changement de variable $t=2x$ donne $\displaystyle \int _0^{\pi /2}\sin (2x)\,\mathrm{d}x=\int _0^{\pi /4}\sin t\,\frac{\mathrm{d}t}{2}$.}
+\good{Le changement de variable $t=2x$ donne $\displaystyle \int _0^{\pi /2}\sin (2x)\,\mathrm{d}x=\int _0^{\pi /2}\sin t\,\mathrm{d}t$.}
+\end{answers}
+\begin{explanations}
+Avec $t=\pi -x$, on a : $\mathrm{d}t=-\mathrm{d}x$, $t(\pi/2)=\pi/2$, $t(\pi)=0$ et
+$$\int _{\pi /2}^{\pi}\sin x\,\mathrm{d}x=-\int _{\pi /2}^0\sin (\pi-t)\,\mathrm{d}t=\int _0^{\pi /2}\sin t\,\mathrm{d}t.$$
+Avec le changement de variable $t=2x$, on a : $\mathrm{d}t=2\mathrm{d}x$, $t(0)=0$, $t(\pi/2)=\pi$ et
+$$\int _0^{\pi /2}\sin (2x)\,\mathrm{d}x=\frac{1}{2}\int _0^{\pi }\sin t\,\mathrm{d}t=\int _0^{\pi /2}\sin t\,\mathrm{d}t\quad \mbox{car}\quad \int _{\pi /2}^{\pi}\sin t\,\mathrm{d}t=\int _0^{\pi /2}\sin t\,\mathrm{d}t.$$
+\end{explanations}
+\end{question}
+}

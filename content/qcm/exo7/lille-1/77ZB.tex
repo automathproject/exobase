@@ -1,0 +1,35 @@
+\uuid{77ZB}
+\titre{Dérivée en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Dérivées, dérivée en un point}
+\exo7qcmid{lille-1.derivees.015}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée en un point}
+Soit $f(x)=\left\{\begin{array}{cl}\displaystyle x+x^2\sin \frac{1}{x}&\mbox{si }x\neq 0\\ \\ 0&\mbox{si }x=0.\end{array}\right.$
+
+Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$f$ n'est pas dérivable en $0$.}
+    \bad{$f$ est dérivable en $0$ est $f'(0)=0$.}
+    \good{$f$ est dérivable en $0$ est $f'(0)=1$.}
+    \good{Pour $x\neq 0$, $\displaystyle f'(x)=1+2x\sin \frac{1}{x}-\cos \frac{1}{x}$.}
+\end{answers}
+\begin{explanations}
+On a
+$$\lim_{x\to 0}\frac{f(x)-f(0)}{x-0}=\lim_{x\to 0}\left(1+x\sin \frac{1}{x}\right)=1.$$
+Donc, $f$ est dérivable en $0$ et $f'(0)=1$. Par ailleurs, les règles de calcul donnent, pour $x\neq 0$,
+$$f'(x)=(x)'+(x^2)'\sin \frac{1}{x}+x^2\left(\sin \frac{1}{x}\right)'=1+2x\sin \frac{1}{x}-\cos \frac{1}{x}.$$
+\end{explanations}
+\end{question}
+}

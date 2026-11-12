@@ -1,0 +1,32 @@
+\uuid{S2k3}
+\titre{Logique}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Logique}
+\difficulte{3}
+\theme{Logique}
+\exo7qcmid{hilisit.logique.011}
+
+\contenu{
+\begin{question}
+\qclassification{100.01}
+Pour quelles phrases, l'assertion est vraie si on remplace "$??$" par "$\exists$", mais est fausse si on remplace "$??$ " par "$\forall$" ?
+\begin{answers}
+	\good{$??\; n \in \Nn^* \quad n \text{ est pair}$}
+	\bad{$??\; n \in \Nn^* \quad n(n+1) \text{ est pair}$}
+	\good{$??\; n \in \Nn^* \quad n \text{ et } n + 2 \text{ sont des nombres premiers}$}
+	\good{$??\; n \in \Nn^* \quad$ si $n$ n'est pas premier alors $n$ admet au moins deux facteurs premiers distincts}
+\end{answers}
+\begin{explanations}
+Il existe des entiers pairs (par exemple $n=4$), mais tous les entiers ne sont pas pairs (par exemple $n=5$).\\
+Pour tous les entiers, $n(n+1)$ est pair.\\
+Il existe un entier (par exemple $n=11$) tel que $n$ et $n+2$ soient deux nombres premiers ; mais ce n'est pas vrai pour tous les entiers (par exemple pour $n=13$, $n+2$ n'est pas premier). \\
+Il existe un entier (par exemple $n=21$) qui a deux facteurs premiers distincts (ici $3$ et $7$) ; mais ce n'est pas vrai pour tous les entiers (par exemple $n=9$, a pour seul facteur premier $3$).
+\end{explanations}
+\end{question}
+}

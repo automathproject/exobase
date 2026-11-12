@@ -1,0 +1,35 @@
+\uuid{sQnD}
+\titre{Primitives des éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, primitives des éléments simples}
+\exo7qcmid{lille-2.integrales.037}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=primitives des éléments simples}
+Soit $n\in \Nn^*$. On note $\displaystyle F_n(x)=\int _0^x\frac{\mathrm{d}t}{(t^2+1)^n}$ et $\displaystyle I_n=\int _1^{\mathrm{e}}\frac{\mathrm{d}x}{x\left(\ln ^2x+1\right)^n}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle F_{n}(x)=\frac{x}{(x^2+1)^n}+2n\int _0^x\frac{t^2\,\mathrm{d}t}{(t^2+1)^{n+1}}$.}
+\bad{$\displaystyle F_1(x)=\arctan x$ et $\displaystyle F_2(x)=\left(\arctan x\right)^2$.}
+\good{Le changement de variable $t=\ln x$ donne $\displaystyle I_n=F_n(1)$.}
+\bad{$\displaystyle I_1=\frac{\pi}{4}$ et $\displaystyle I_2=\left(\frac{\pi }{4}\right)^2$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Une intégration par parties, avec $\displaystyle u=(t^2+1)^{-n}$ et $v=t$, donne
+$$F_n(x)=\frac{x}{(x^2+1)^n}+2n\int _0^x \frac{t^2}{(t^2+1)^{n+1}}\mathrm{d}t.$$
+En écrivant $t^2=(t^2+1)-1$, on obtient : $\displaystyle F_n(x)=\frac{x}{(x^2+1)^n}+2nF_n(x)-2nF_{n+1}(x)$. D'où
+$$F_{n+1}(x)=\frac{1}{2n}\left[\frac{x}{(x^2+1)^n}+(2n-1)F_n(x)\right].$$
+En particulier, $F_1(x)=\arctan x$ et $\displaystyle F_2(x)=\frac{1}{2}\left[\frac{x}{x^2+1}+\arctan x\right]$. Le changement de variable $t=\ln x$ donne $I_n=F_n(1)$. On en déduit que $\displaystyle I_1=\arctan 1=\frac{\pi}{4}$ et $\displaystyle I_2=\frac{1}{4}+\frac{\pi}{8}$
+\end{explanations}
+\end{question}
+}

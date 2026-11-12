@@ -1,0 +1,33 @@
+\uuid{iPGb}
+\titre{Changement de variable}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changement de variable}
+\exo7qcmid{lille-2.integrales.015}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changement de variable}
+On note $\displaystyle I=\int _{0}^{\ln \sqrt{3}}\frac{\mathrm{e}^x\, \mathrm{d}x}{1+\mathrm{e}^{2x}}$ et $\displaystyle J=\int _{0}^{\ln 2}\frac{\mathrm{d}x}{1+\mathrm{e}^{x}}$. Le changement de variable $t=\mathrm{e}^x$ donne :
+\begin{answers}
+\good{$\displaystyle I=\int _1^{\sqrt{3}}\frac{\mathrm{d}t}{1+t^2}=\frac{\pi}{12}$.}
+\bad{$\displaystyle I=\int _1^{\sqrt{3}}\frac{t\mathrm{d}t}{1+t^2}=\frac{1}{2}\ln 2$.}
+\bad{$\displaystyle J=\int _1^{2}\frac{\mathrm{d}t}{1+t}=\ln 3-\ln 2$.}
+\good{$\displaystyle J=\int _1^{2}\frac{\mathrm{d}t}{t(1+t)}=2\ln 2-\ln 3$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\mathrm{e}^x\Rightarrow \mathrm{d}t=\mathrm{e}^x\, \mathrm{d}x$, on a : $\displaystyle I=\int _1^{\sqrt{3}}\frac{\mathrm{d}t}{1+t^2}=\Big[\arctan t\Big]_1^{\sqrt{3}}=\frac{\pi}{12}$.
+\vskip0mm
+Avec $t=\mathrm{e}^x\Rightarrow \mathrm{d}t=\mathrm{e}^x\, \mathrm{d}x$, on a : $\displaystyle J=\int _1^{2}\frac{\mathrm{d}t}{t(1+t)}=\left[\ln \frac{t}{1+t}\right]_1^{2}=2\ln 2-\ln 3$.
+\end{explanations}
+\end{question}
+}

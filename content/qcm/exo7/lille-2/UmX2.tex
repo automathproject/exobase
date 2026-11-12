@@ -1,0 +1,37 @@
+\uuid{UmX2}
+\titre{Application linéaire}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Applications linéaires, Application linéaire}
+\exo7qcmid{lille-2.applications-lineaires.008}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Application linéaire}
+On considère les applications suivantes :
+$$\begin{array}{rccc}f:&\Rr^3&\to&\Rr^2\\
+& (x,y,z)&\to &(x-y,y+2z+a) \,  \end{array}  \quad \mbox{et} \quad  \begin{array}{rccc}g:&\Rr^3&\to&\Rr\\
+& (x,y,z)&\to &(ax+b)(x+y).\end{array} $$
+où $a$ et $b$  sont des réels. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{Pour tout $a\in \Rr$, $f$ est une application linéaire}.
+\good{$f$ est une application linéaire si et seulement si $a=0$}.
+\bad{$g$ est une application linéaire si et seulement si $a=b=0$}.
+\good{$g$ est une application linéaire si et seulement si $a=0$}.
+\end{answers}
+\begin{explanations} Si $a\neq 0$, alors $f(0,0,0)=(0,a)\neq(0,0)$, donc $f$ n'est pas linéaire. On vérifie aussi que, si $a=0$, alors $f$ est linéaire.
+\vskip0mm
+Si $a\neq 0$, $g(2(1,0,0))=4a+2b$ et $2g(1,0,0)=2a+2b \neq 4a+2b$, donc $g$ n'est pas linéaire.
+\vskip0mm
+On vérifie que si $a=0$ et $b$ est quelconque, $g$ est linéaire.
+\end{explanations}
+\end{question}
+}

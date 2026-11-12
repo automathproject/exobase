@@ -1,0 +1,31 @@
+\uuid{KiEI}
+\titre{Extremum}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, extremum}
+\exo7qcmid{lille-1.derivees.027}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=extremum}
+Soit $n\geq 2$ un entier et $\displaystyle f(x)=\frac{1+x^n}{(1+x)^n}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$\displaystyle f'(x)=\frac{n(x^{n-1}-1)}{(1+x)^{n+1}}$ et $f$ admet un minimum en $1$.}
+    \bad{$f'(1)\neq 0$ et donc $f$ n'admet pas d'extremum en $1$.}
+    \bad{Le théorème de Rolle s'applique à $f$ sur $[-1,1]$ car $f(-1)=f(1)$.}
+    \good{$\forall x\geq 0,\; (1+x)^n\leq 2^{n-1}(1+x^n)$.}
+\end{answers}
+\begin{explanations}
+La dérivée de $f(x)$ est $\displaystyle f'(x)=\frac{n(x^{n-1}-1)}{(1+x)^{n+1}}$ et $f$ admet bien un minimum en $1$ (dresser le tableau de variations de $f$). En particulier,
+$$\forall x\geq 0,\; f(1)\leq f(x)\Leftrightarrow (1+x)^n\leq 2^{n-1}(1+x^n).$$
+\end{explanations}
+\end{question}
+}

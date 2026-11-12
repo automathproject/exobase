@@ -1,0 +1,33 @@
+\uuid{UL3Y}
+\titre{Nombres premiers}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{2}
+\theme{Nombres premiers}
+\exo7qcmid{hilisit.arithmetique.031}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+    Soient $p$ un nombre premier et $a,b$ des entiers avec $p | ab$.
+    Par application du lemme d'Euclide, quelles sont les affirmations vraies ?
+    \begin{answers}
+        \bad{$p$ divise $a$ et $p$ divise $b$.}
+        \good{$p$ divise $a$ ou $p$ divise $b$.}
+        \bad{$p$ divise $a$ ou $p$ divise $b$, mais pas les deux en même temps.}
+        \bad{$p$ ne divise ni $a$, ni $b$.}
+    \end{answers}
+    \begin{explanations}
+        Lemme d'Euclide : Si $p$ premier et $p | ab$, alors $p|a$ ou $p|b$.
+        Les autres affirmations sont fausses. Voici des contre-exemples :
+        $2 | (3 \times 4)$ mais $2$ ne divise pas $3$, mais divise bien $4$ ;
+        $2 | (4 \times 6)$ et $2|4$ et $2|6$.
+    \end{explanations}
+\end{question}
+}

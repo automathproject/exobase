@@ -1,0 +1,32 @@
+\uuid{feME}
+\titre{Dérivée seconde ou plus}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Dérivées, dérivée seconde ou plus}
+\exo7qcmid{lille-1.derivees.016}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée seconde ou plus}
+Soit $\displaystyle f(x)=\mathrm{e}^{3x^4-4x^3}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\forall x\in \Rr$, $f''(x)>0$}
+    \good{$f$ admet un minimum en $1$.}
+    \bad{$f$ admet un maximum en $1$.}
+    \good{Il existe $a\in ]0,1[$ tel que $f''(a)=0$.}
+\end{answers}
+\begin{explanations}
+On a $f'(x)=(12x^3-12x^2)\mathrm{e}^{3x^4-4x^3}=12x^2(x-1)\mathrm{e}^{3x^4-4x^3}$. On en déduit que $f'(1)=0$ et $f'(x)<0$ pour $x<1$ et $f'(x)>0$ pour $x>1$. Donc $f$ admet un minimum en $1$.
+
+Par ailleurs, $f'(0)=f'(1)=0$ et, puisque $f'$ est continue sur $[0,1]$ et est dérivable sur $]0,1[$, le théorème de Rolle implique qu'il existe $a\in ]0,1[$ tel que $f''(a)=0$.
+\end{explanations}
+\end{question}
+}

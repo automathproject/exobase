@@ -1,0 +1,32 @@
+\uuid{OVpA}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.029}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\forall t\in \Rr\setminus\{-1\}$, $\displaystyle \frac{2t}{t^2+2t+1}=\frac{1}{t+1}-\frac{1}{(t+1)^2}$.}
+\bad{$\displaystyle \ln (t+1)+\frac{1}{t+1}$ est une primitive de $\displaystyle \frac{2t}{t^2+2t+1}$ sur $]-1,+\infty[$.}
+\good{Le changement de variable $t=\sqrt{x}$ donne $\displaystyle \int _0^1\frac{\mathrm{d}\, x}{x+2\sqrt{x}+1}=\int _0^1\frac{2t\mathrm{d}\, t}{t^2+2t+1}$.}
+\good{$\displaystyle \int _0^1\frac{\mathrm{d}\, x}{x+2\sqrt{x}+1}=2\ln 2-1$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\sqrt{x}\Rightarrow x=t^2$, on a : $\mathrm{d}x=2t\, \mathrm{d}t$, $t(0)=0$, $t(1)=1$ et
+$$\displaystyle \int _0^1\frac{\mathrm{d}\, x}{x+1+2\sqrt{x}}=\int _0^1\frac{2t\mathrm{d}\, t}{t^2+2t+1}=\left[2\ln (t+1)+\frac{2}{t+1}\right]_{0}^1=2\ln 2-1.$$
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,33 @@
+\uuid{mVFe}
+\titre{Primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, primitives usuelles}
+\exo7qcmid{lille-2.primitives.042}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=primitives usuelles}
+Pour $x\in [0,+\infty[$, on pose $t=x^2$. Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \int \frac{x\mathrm{d}x}{x^4-x^2-2}=\int \frac{\sqrt{t}\mathrm{d}t}{t^2-t-2}$.}
+\good{$\displaystyle \int \frac{x\mathrm{d}x}{x^4-x^2-2}=\frac{1}{2}\int \frac{\mathrm{d}t}{t^2-t-2}$.}
+\good{$\forall t\in \Rr\setminus \{-1,2\}$, $\displaystyle \frac{3}{t^2-t-2}=\frac{1}{t-2}-\frac{1}{t+1}$ et $\displaystyle \int \frac{3\, \mathrm{d}t}{t^2-t-2}=\ln\left|\frac{t-2}{t+1}\right|+k$, $k\in \Rr$.}
+\bad{$\displaystyle \int \frac{x\mathrm{d}x}{x^4-x^2-2}=\frac{1}{2}\ln\left|\frac{x^2-2}{x^2+1}\right|+k$, $k\in \Rr$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $t= x^2$, on a : $\mathrm{d}t=2x\mathrm{d}x$ et
+$\displaystyle \int \frac{\mathrm{d}x}{x^4-x^2-2}=\frac{1}{2}\int \frac{\mathrm{d}t}{(t-2)(t+1)}$. Or, $\forall t\in \Rr\setminus \{-1,2\}$, $\displaystyle \frac{3}{t^2-t-2}=\frac{1}{t-2}-\frac{1}{t+1}$. Donc $\displaystyle \int \frac{3\, \mathrm{d}t}{t^2-t-2}=\ln\left|\frac{t-2}{t+1}\right|+k$, $k\in \Rr$, et ensuite :
+$\displaystyle \int \frac{x\mathrm{d}x}{x^4-x^2-2}=\frac{1}{6}\ln\left|\frac{x^2-2}{x^2+1}\right|+k$, $k\in \Rr$.
+\end{explanations}
+\end{question}
+}

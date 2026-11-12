@@ -1,0 +1,32 @@
+\uuid{2D0M}
+\titre{Nombres premiers}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{2}
+\theme{Nombres premiers}
+\exo7qcmid{hilisit.arithmetique.035}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+ Soit $p$ un nombre premier tel que $10 < p < 100$. On note $A$ le chiffre des dizaines et $B$ le chiffre des unités de l'écriture décimale de $p$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+        \good{$A$ peut être pair.}
+        \bad{$B$ peut être pair.}
+        \good{On peut avoir $A = B$.}
+        \bad{On peut avoir $B = 9 - A$.}
+    \end{answers}
+    \begin{explanations}
+    Pour $p = 23$ qui est premier, on a bien $A = 2$ qui est pair.\\
+    Si le chiffre des unités $B$ est pair, alors $p$ est pair ce qui est impossible pour un nombre premier $\geq 3$.\\
+    Pour $p=11$ premier, on a bien $A=B$ (les autres nombres avec deux chiffres identiques sont justement les multiples de $11$, et ne sont donc pas premiers).\\
+    Si $B = 9-A$, alors la somme des chiffres de $p$ vaut $A + B = 9$ : ainsi $p$ est divisible par $9$, ce qui contredit sa primalité.
+    \end{explanations}
+\end{question}
+}

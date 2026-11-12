@@ -1,0 +1,31 @@
+\uuid{vDlr}
+\titre{Variables continues}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{}
+\theme{Variables continues}
+\exo7qcmid{worms.worms.042}
+
+\contenu{
+\begin{question}
+\qclassification{261.01}
+On considère que la quantité de pain (en centaines de kg) qu'une boulangerie vend en une journée est une variable aléatoire de loi de densité définie par
+\[
+ f_X(x) = \left\{  \begin{array}[c]{cl} x & \mbox{ si $0\leq x\leq 1$} \\ 2-x & \mbox{ si $1\leq x\leq 2$} \\ 0 & \mbox{ sinon}    \end{array} \right.
+\]
+On introduit les événements $A$="la boulangerie vendra demain au moins 100kg de pain" et $B$="la boulangerie vendra demain entre 50 et 150kg de pain". Les événements $A$ et $B$ sont ils indépendants ?
+\begin{answers}
+\good{Oui.}
+\bad{Non.}
+\end{answers}
+\begin{explanations}
+On a $A = \{ X \geq 1 \}$, $B = \{ 0.5 \leq X \leq 1.5 \}$, $A \cap B = \{ 1 \leq X \leq 1.5 \}$ ; il suffit alors de déterminer la fonction de répartition $F$ de $X$, et de vérifier que $\mathbb{P}( A \cap B ) = \mathbb{P}(A)  \mathbb{P}(B)$, c'est-à-dire que $F(1.5) - F(1) = (1-F(1)) (F(1.5) - F(0.5))$. On trouve alors qu'il y a bien égalité.
+\end{explanations}
+\end{question}
+}

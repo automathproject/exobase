@@ -1,0 +1,33 @@
+\uuid{zqDg}
+\titre{Noyau/Image/Bijection/Espaces supplémentaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Bijection, Espaces supplémentaires}
+\exo7qcmid{lille-2.applications-lineaires.032}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Bijection/Espaces supplémentaires}
+Soit $E$ un espace vectoriel et $f$ un endomorphisme involutif de $E$, c.à.d. un endomorphisme non nul de $E$ tel que $f^2=Id$, où $Id$ est l'identité de $E$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$f$ est bijective}.
+\bad{$\Im (Id+f) \cap \Im (Id-f) = E$}.
+\good{$E=\Im (Id+f) + \Im (Id-f)$}.
+\bad{$\Im (Id+f)$ et $\Im (Id-f)$ ne sont pas supplémentaires dans $E$}.
+\end{answers}
+\begin{explanations} De l'égalité $f^2=Id$, on déduit que $f$ est bijective et $f^{-1}=f$.
+\vskip0mm
+Soit $y\in \Im (Id+f) \cap \Im (Id-f)$, alors il existe $x,x'\in E$ tels que $y=x+f(x)=x'-f(x')$. De l'égalité $f^2=Id$, on déduit que  $f(y)=f(x)+x=f(x')-x'=y=-y$, donc $y=0$.
+\vskip0mm
+Soit $x\in E$, alors $\displaystyle x=\frac{1}{2}(x+f(x))+\frac{1}{2}(x-f(x)) \in \Im (Id+f)+\Im (Id-f)$. On en déduit que $E= \Im (Id+f) + \Im (Id-f)$. Par conséquent, $\Im (Id+f)$ et $\Im (Id-f)$ sont supplémentaires dans $E$.
+\end{explanations}
+\end{question}
+}

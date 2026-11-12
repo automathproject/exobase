@@ -1,0 +1,35 @@
+\uuid{Lx5M}
+\titre{Congruences}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Congruences}
+\exo7qcmid{hilisit.arithmetique.050}
+
+\contenu{
+\begin{question}
+\qclassification{103.99}
+ Soit un entier $k$ tel que $k \equiv 2 \;[7]$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+        \bad{$2k^2 + k \equiv k^3 \;[7]$}
+        \good{$3(k^4-k) \equiv 0 \;[7]$}
+        \good{$14k-2 \equiv 5 \;[7]$}
+        \bad{$k^{18} + k^{12} + k^6 \equiv k \;[7]$}
+    \end{answers}
+    \begin{explanations}
+    On calcule que $k^2 \equiv 4 \;[7]$ ; $k^3 \equiv 2^3 \equiv 1 \;[7]$ et
+    $k^4 \equiv 2^4 \equiv 2 \;[7]$. On a alors :\\
+    $2k^2 + k \equiv 2 \times 2^2 + 2 \equiv 10 \equiv 3 \;[7]$.\\
+    $k^4 \equiv k \;[7]$ donc $3(k^4-k) \equiv 3 \times 0 \equiv 0 \;[7]$.\\
+    $14k \equiv 7 \times 2k \equiv 0 \;[7]$ donc $14k-2 \equiv -2 \equiv 5 \;[7]$.\\
+    Enfin on a $k^{18} \equiv k^{12} \equiv k^6 \equiv 1 \;[7]$ (c'est le théorème de Fermat, ou une conséquence directe de $k^3 \equiv 1 \;[7]$). Donc
+    $k^{18} + k^{12} + k^6 \equiv 3 \;[7]$.
+    \end{explanations}
+\end{question}
+}

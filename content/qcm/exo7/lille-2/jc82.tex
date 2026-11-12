@@ -1,0 +1,39 @@
+\uuid{jc82}
+\titre{Matrice/Application linéaire/Noyau/Image/Dimension}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Propriétés élémentaires, généralités}
+\difficulte{3}
+\theme{Calcul matriciel, Matrice, Application linéaire, Noyau, Image, Dimension}
+\exo7qcmid{lille-2.matrices.016}
+
+\contenu{
+\begin{question}
+\qclassification{108.01}
+\qtags{motcle=Matrice/Application linéaire/Noyau/Image/Dimension}
+Soit $ M_2(\Rr)$ l'ensemble des matrices carrées d'ordre $2$ à coefficients réels et
+$f$ l'application  définie par :
+$$\begin{array}{rccc}f:&M_2(\Rr)&\to& M_2(\Rr)\\
+& M = \left(\begin{array}{rc}
+a&b\\c&d\\ \end{array}\right) &\to &M- \, ^t M =
+\left(\begin{array}{rc}0&b-c\\c-b&0\\
+\end{array}\right),  \end{array}$$
+$^tM$ est la transposée de $M$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$f$ est une application linéaire}.
+\good{$\dim \ker f = 3$}.
+\bad{$\dim \Im f = 2$}.
+\bad{$\dim \Im f = 3$}.
+\end{answers}
+\begin{explanations} On vérifie que $f$ est une application linéaire, $\ker f=\left\{ \left(\begin{array}{rc}
+a&b\\b&d\\ \end{array}\right) \; ; \; a,b,d \in \Rr \right \}$ et
+$\Im f = \left\{ \left(\begin{array}{rc}0&\alpha\\-\alpha&0\\
+\end{array}\right) \; ; \; \alpha \in \Rr  \right \}$. On  déduit que  $\dim \ker f=3$ et $\dim \Im f = 1$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,36 @@
+\uuid{tAHl}
+\titre{Étude de fonction}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Fonctions usuelles, étude de fonction}
+\exo7qcmid{lille-1.fonctions-usuelles.030}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=étude de fonction}
+Soit $f(x)= (1+\frac{1}{x})^x$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$D_f=]0,+\infty[$}
+
+    \good{$\forall x >0, 1 < f(x) < e$ }
+
+    \bad{$\forall x >0, f(x) > e$ }
+
+    \good{$\forall x <-1, f(x) > e$}
+
+\end{answers}
+\begin{explanations}
+Par définition, $f(x)= \exp [x\ln (1+\frac{1}{x})]$, on déduit que  $f$ est définie si  $x\in ]-\infty, -1[\cup ]0,+\infty[$.
+
+$f$ est dérivable sur son domaine de définition et $f'(x)= [\ln (1+\frac{1}{x}) - \frac{1}{x+1}] f(x)$. En étudiant les variations de la fonction $x \mapsto  \ln (1+\frac{1}{x}) - \frac{1}{x+1}$, on déduit les variations de $f$. En particulier, $f$ est croissante sur  $]-\infty, -1[$ et sur $]0,+\infty[$,   $f(]-\infty, -1[)= ]e,+\infty[$  et $f(]0, +\infty[)= ]1,e[$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,33 @@
+\uuid{Khcl}
+\titre{Primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, primitives usuelles}
+\exo7qcmid{lille-2.primitives.022}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=primitives usuelles}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle \int x\cos(1+x^2)\mathrm{d}x=\frac{1}{2}\sin(1+x^2)+k$, où $k\in \Rr$.}
+\bad{$\displaystyle \int \mathrm{e}^x\sin\left(2+\mathrm{e}^x\right)\mathrm{d}x=\int \mathrm{e}^x\mathrm{d}x\times \int\sin\left(2+\mathrm{e}^x\right)\mathrm{d}x$.}
+\bad{$\displaystyle \int x\cos(1+x^2)\mathrm{d}x=\frac{x^2}{2}\sin(1+x^2)+k$, où $k\in \Rr$.}
+\good{$\displaystyle \int \mathrm{e}^x\sin\left(2+\mathrm{e}^x\right)\mathrm{d}x=-\cos\left(2+\mathrm{e}^x\right)+k$, où $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=1+x^2$, on a : $\mathrm{d}u=2x\mathrm{d}x$ et
+$$\int x\cos(1+x^2)\mathrm{d}x=\frac{1}{2}\int \cos (u)\mathrm{d}u=\frac{1}{2}\times \sin (u)+k=\frac{1}{2}\sin(1+x^2)+k,\; k\in \Rr.$$
+De même, avec $u=2+\mathrm{e}^x$, on a : $\mathrm{d}u=\mathrm{e}^x\mathrm{d}x$ et
+$$\int \mathrm{e}^x\sin\left(2+\mathrm{e}^x\right)\mathrm{d}x=\int \sin (u)\mathrm{d}u=-\cos (u)+k=-\cos\left(2+\mathrm{e}^x\right)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

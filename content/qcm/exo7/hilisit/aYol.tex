@@ -1,0 +1,31 @@
+\uuid{aYol}
+\titre{Primitive}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitive}
+\exo7qcmid{hilisit.equations-differentielles.011}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+Quelles sont les affirmations vraies ?
+\begin{answers}
+  \good{Une primitive de $\sin(x)e^{\cos(x)}$ est $-e^{\cos(x)}$.}
+  \bad{Une primitive de $\cos(x^3+x)$ est $\sin(x^3+x)$.}
+  \good{Une primitive de $\ln(x)$ est $x\ln(x)-x$ (sur $]0,+\infty[$).}
+  \good{Une primitive de $4x^3+4x$ est $(x^2+1)^2$.}
+\end{answers}
+\begin{explanations}
+Une primitive de $\sin(x)e^{\cos(x)}$ est bien $-e^{\cos(x)}$ puisque $(-e^{\cos(x)})' = -(-\sin(x))e^{\cos(x)} = \sin(x) e^{\cos(x)}$.
+La dérivée de $\sin(x^3+x)$ est $(3x^2+1)\cos(x^3+x)$, donc $\sin(x^3+x)$ n'est pas une primitive de $\cos(x^3+x)$. Oui une primitive de $\ln(x)$ est $x\ln(x)-x$ puisque la dérivée de cette-dernière donne bien $\ln(x) + x \cdot \frac 1x - 1 = \ln(x)$.
+Enfin, la dérivée de $(x^2+1)^2$ est $2 \times 2x \times (x^2+1) = 4x^3+4x$, donc  $(x^2+1)^2$ est bien une primitive de $4x^3+4x$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,38 @@
+\uuid{Nzr7}
+\titre{Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{2}
+\theme{Opérations sur les DL, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.008}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/DL usuels}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle DL_1(0)(8+3x)^{2/3}=4+2x+o(x)$.}
+\good{$\displaystyle DL_1(0)1/\sqrt{1-2x}=1+x+o(x)$.}
+\good{$\displaystyle DL_3(0)\sqrt[3]{1+3x^3}=1+x^3+o(x^3)$.}
+\bad{$\displaystyle DL_1(0)\sqrt[3]{3+x}=1+\frac{x}{3}+o(x)$.}
+\end{answers}
+\begin{explanations}
+On a :
+$$(8+3x)^{2/3}=8^{2/3}\left(1+\frac{3x}{8}\right)^{2/3}=4\left(1+\frac{2}{3}.\frac{3x}{8}+o(x)\right)=4+x+o(x)$$
+et
+$$\sqrt[3]{3+x}=\sqrt[3]{3}.\sqrt[3]{1+\frac{x}{3}}=\sqrt[3]{3}\left(1+\frac{1}{3}.\frac{x}{3}+o(x)\right)=\sqrt[3]{3}+\frac{\sqrt[3]{3}}{9}x+o(x).$$
+Enfin, applique le $\displaystyle DL_1(0)(1+t)^{\alpha}$ avec $\displaystyle \alpha =-\frac{1}{2}$ et $t=-2x$, ensuite avec $\displaystyle \alpha =\frac{1}{3}$ et $t=3x^3$.
+\end{explanations}
+\end{question}
+}

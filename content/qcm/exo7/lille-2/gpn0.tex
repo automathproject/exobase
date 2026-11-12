@@ -1,0 +1,44 @@
+\uuid{gpn0}
+\titre{DL usuels/Calcul de limites}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{2}
+\theme{Applications des DL, DL usuels, Calcul de limites}
+\exo7qcmid{lille-2.developpements-limites.032}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL usuels/Calcul de limites}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \lim _{x\to 0}\left(1+x\right)^{1/x}=1$.}
+\good{$\displaystyle\lim _{x\to 0}\left(\cos x\right)^{1/\sin ^2x}=\frac{1}{\sqrt{\mathrm{e}}}$.}
+\good{$\displaystyle \lim _{x\to 0}\left(\frac{1}{\sin ^2x}-\frac{1}{x^2}\right)=\frac{1}{3}$.}
+\bad{$\displaystyle \lim _{x\to 0}\frac{\cos x-\sqrt{1-x^2}}{x^2\sin ^2x}$ n'existe pas.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On a : $\displaystyle \left(1+x\right)^{1/x}=\mathrm{e}^{\frac{\ln (1+x)}{x}}$ et $\displaystyle \frac{\ln (1+x)}{x}=1+o(1)$. Donc
+$$\mathrm{e}^{\frac{\ln (1+x)}{x}}=\mathrm{e}+o(1) \Rightarrow \lim _{x\to 0}\left(1+x\right)^{1/x}=\mathrm{e}.$$
+De même, $\displaystyle \left(\cos x\right)^{1/\sin ^2x}=\mathrm{e}^{\ln (\cos x)/\sin ^2x}$. Or $\sin ^2x=x^2+o(x^2)$ et
+$$\displaystyle \ln (\cos x)=\ln \left(1-\frac{x^2}{2}+o(x^2)\right)=-\frac{x^2}{2}+o(x^2).$$
+Donc
+$$\frac{\ln (\cos x)}{\sin ^2x}=-\frac{1}{2}+o(1)\Rightarrow \lim _{x\to 0}\left(\cos x\right)^{1/\sin ^2x}=\mathrm{e}^{-1/2}.$$
+Ensuite, $\displaystyle \frac{1}{\sin ^2x}-\frac{1}{x^2}=\frac{x^2-\sin ^2x}{x^2\sin ^2x}$, et le $\displaystyle DL_4(0)\sin ^2x=x^2-\frac{x^4}{3}+o(x^4)$ donne
+$$DL_0(0)\frac{x^2-\sin ^2x}{x^2\sin ^2x}=\frac{1}{3}+o(1)\Rightarrow \lim _{x\to 0}\left(\frac{1}{\sin ^2x}-\frac{1}{x^2}\right)=\frac{1}{3}.$$
+Enfin, $\displaystyle \cos x=1-\frac{x^2}{2}+\frac{x^4}{24}+o(x^4)$, $\displaystyle \sqrt{1-x^2}=1-\frac{x^2}{2}-\frac{x^4}{8}+o(x^4)$ et $x^2\sin ^2x=x^4+o(x^4)$. Donc
+$$\frac{\cos x-\sqrt{1-x^2}}{x^2\sin ^2x}=\frac{x^4/6+o(x^4)}{x^4+o(x^4)}=\frac{1}{6}+o(1)\Rightarrow \lim _{x\to 0}\frac{\cos x-\sqrt{1-x^2}}{x^2\sin ^2x}=\frac{1}{6}.$$
+\end{explanations}
+\end{question}
+}

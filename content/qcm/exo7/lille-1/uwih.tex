@@ -1,0 +1,34 @@
+\uuid{uwih}
+\titre{Zéros de fonction}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Continuité : théorie}
+\difficulte{3}
+\theme{Théorèmes des valeurs intermédiaires, zéros de fonction}
+\exo7qcmid{lille-1.continuite.023}
+
+\contenu{
+\begin{question}
+\qclassification{123.01,123.02}
+\qtags{motcle=zéros de fonction}
+Soit $f : [a,b] \to \Rr$ une fonction continue (avec $a < b$). Quelles assertions sont vraies ?
+\begin{answers}
+    \bad{Si $f(a) \cdot f(b) < 0$ et $f$ croissante alors $f$ s'annule une unique fois sur $[a,b]$.}
+
+    \bad{Si $f(a) \cdot f(b) < 0$ et $f$ n'est pas strictement monotone alors $f$ s'annule au moins deux fois sur $[a,b]$.}
+
+    \bad{Si $f(a) \cdot f(b) < 0$ alors $f$ s'annule un nombre fini de fois sur $[a,b]$.}
+
+    \good{Si $f(a) \cdot f(b) < 0$ et $f$ strictement décroissante, alors $f$ s'annule une unique fois sur $[a,b]$.}
+\end{answers}
+\begin{explanations}
+Le théorème des valeurs intermédiaires implique que si $f : [a,b] \to \Rr$ est continue avec $f(a) \cdot f(b) < 0$ alors
+il existe une valeur $c \in [a,b]$ telle que $f(c)=0$. Pour avoir l'unicité de ce zéro, il suffit que $f$ soit strictement croissante ou bien strictement décroissante.
+\end{explanations}
+\end{question}
+}

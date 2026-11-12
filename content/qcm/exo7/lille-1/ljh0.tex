@@ -1,0 +1,34 @@
+\uuid{ljh0}
+\titre{Pgcd}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Polynôme, fraction rationnelle}
+\sousChapitre{Division euclidienne}
+\difficulte{3}
+\theme{Arithmétique des polynômes, pgcd}
+\exo7qcmid{lille-1.polynomes.017}
+
+\contenu{
+\begin{question}
+\qclassification{105.01,105.02}
+\qtags{motcle=pgcd}
+Soit $A(X) = X^4-X^2$. Soit $B(X) = X^2+X-2$.
+Soit $D$ le pgcd de $A$ et $B$ dans $\Rr[X]$.
+\begin{answers}
+    \bad{$D(X) = 1$}
+
+    \good{Il existe $U,V \in \Rr[X]$ tels que $AU+BV = X-1$.}
+
+    \good{Il existe $u \in \Rr$ et $V \in \Rr[X]$ tels que $Au+BV = X-1$.}
+
+    \bad{Il existe $U\in \Rr[X]$ et $v \in \Rr$ tels que $AU+Bv = X-1$.}
+\end{answers}
+\begin{explanations}
+$A(X)=X^2(X-1)^2$, $B(X)=(X-1)(X+2)$, $D(X)=X-1$. $U(X)= -\frac14$, $V(X)=\frac14(X^2-X+2)$ donnent $AU+BV=D$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,35 @@
+\uuid{0auy}
+\titre{Limite en l'infini}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{3}
+\theme{Limites des fonctions réelles, limite en l'infini}
+\exo7qcmid{lille-1.limites.027}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en l'infini}
+Soit  $f(x)=x+\sqrt[5]{1-x^5}$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \good{$\lim_{x\to +\infty} f(x)=0$}
+
+    \bad{$\lim_{x\to +\infty } f(x)=+\infty$}
+
+    \bad{$\lim_{x\to -\infty } f(x)=-\infty$}
+
+    \good{$\lim_{x\to -\infty} f(x)=0$}
+\end{answers}
+\begin{explanations}
+En utilisant l'égalité : $a^5+b^5=(a+b)(a^4-a^3b+a^2b^2-ab^3+b^4)$, on pourra multiplier $f$ par l'expression conjuguée de $x+\sqrt[5]{1-x^5}$. On obtient :
+ $f(x)=\big[x^4-x^3\sqrt[5]{1-x^5} +x^2(\sqrt[5]{1-x^5})^2-x(\sqrt[5]{1-x^5})^3+(\sqrt[5]{1-x^5})^4\big]^{-1}$.
+\end{explanations}
+\end{question}
+}

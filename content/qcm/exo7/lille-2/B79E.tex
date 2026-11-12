@@ -1,0 +1,42 @@
+\uuid{B79E}
+\titre{Matrice d'une application linéaire/Inversibilité/Espace des fonctions}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Inversibilité, Espace des fonctions}
+\exo7qcmid{lille-2.matrice-application.024}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Inversibilité/Espace des fonctions}
+On considère ${\cal F}$ l'espace vectoriel des fonctions réelles engendré par les fonctions $f_1, \; f_2$ et  $f_3$ définies par  :
+$f_1(x)=1, \; f_2(x)=e^x$ et  $f_3(x)=xe^x$. Soit $\phi$ l'application linéaire définie :
+$$\begin{array}{rccc}\phi:& {\cal F}&\to& {\cal F}\\
+& f&\to &f+f'-f'',  \end{array}$$
+où $f'$ (resp. $f''$) est la dérivée première (resp. seconde) de $f$. On notera $M$ la matrice de $\phi$ dans la base ${\cal B}=\{f_1, f_2,f_3\}$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$M=\left(\begin{array}{rcc}
+1&0&0\\0&1&-1\\
+0&0&1\\\end{array}\right)$.}
+\bad{Le rang de la matrice $M$ est $2$}.
+\good{$\phi $ est bijective.}
+\good{$M$ est inversible et $M^{-1} =
+\left(\begin{array}{rcc}1&0&0\\0&1&1\\ 0&0&1\end{array}\right)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations} La matrice de $\phi$ d'une base $ {\cal {B}}=(u_j)$ dans une base $ {\cal {B}}'=(v_i)$ est la matrice  dont la $j$ième colonne est constituée des coordonnées de $\phi(u_j)$ dans la base $ {\cal {B}}'$. Donc
+$$M= \left(\begin{array}{rcc}
+1&0&0\\0&1&-1\\ 0&0&1\end{array}\right).$$
+Le rang d'une matrice est le nombre maximum de vecteurs colonnes ou lignes linéairement indépendants. Donc le rang de $M$ est $3$. Par conséquent, $\phi$ est bijective et $M$ est inversible. On vérifie que
+$M^{-1} = \left(\begin{array}{rcc}1&0&0\\
+0&1&1\\ 0&0&1\end{array}\right)$.
+\end{explanations}
+\end{question}
+}

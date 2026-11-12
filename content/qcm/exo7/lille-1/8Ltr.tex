@@ -1,0 +1,40 @@
+\uuid{8Ltr}
+\titre{Trigonométrie}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Fonctions usuelles, trigonométrie}
+\exo7qcmid{lille-1.fonctions-usuelles.025}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=trigonométrie}
+Soit $f(x)= \arcsin (\frac{2x}{1+x^2})$. On notera $D_f$ le domaine de définition de $f$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$D_f=[-1,1]$}
+
+    \good{$D_f=\Rr$}
+
+    \good{Si $x \in [-1,1] $, $f(x) = 2 \arctan x$}
+
+    \good{Si $x \ge 1 $, $f(x) = -2 \arctan x+\pi$}
+
+\end{answers}
+\begin{explanations}
+$f$ est définie si $-1\le \frac{2x}{1+x^2} \le 1 $, c'est-à-dire $-1-x^2 \le 2x \le 1+x^2$, ce qui revient à : $(x+1)^2\ge 0$ et $(x-1)^2\ge 0$, ce qui est le cas pour tout $x \in \Rr$.
+
+$f$ est dérivable sur $\Rr \backslash \{-1,1\}$ et
+$f'(x) = \frac{2(1-x^2)}{|1-x^2|(1+x^2)} = \left\{\begin{array}{cc}\frac{2}{1+x^2},& \mbox{si} \, -1 < x < 1 \\ -\frac{2}{1+x^2},& \mbox{si} \, x > 1 \, \mbox{ou} \, x < -1 \end{array}\right. $. Comme $f$ est continue sur $\Rr$, on déduit que :
+$f(x)= \left\{\begin{array}{ccc}2\arctan x + c_1, & \mbox{si} \, -1\le x\le 1 \\ -2\arctan x + c_2, & \mbox{si} \, x\le -1 \\ -2\arctan x + c_3, & \mbox{si} \, x\ge 1 \end{array}\right.$, où $c_1, c_2$ et $c_3$ sont des constantes.
+En identifiant en $0$, en $-\infty$ et en $+\infty$, on obtient :
+$f(x)= \left\{\begin{array}{ccc}2\arctan x, & \mbox{si} \, -1\le x\le 1 \\ -2\arctan x -\pi, & \mbox{si} \, x\le -1 \\ -2\arctan x +\pi, & \mbox{si} \, x\ge 1 \end{array}\right.$.
+\end{explanations}
+\end{question}
+}

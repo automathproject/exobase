@@ -1,0 +1,34 @@
+\uuid{y8Bw}
+\titre{Limite en l'infini}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{1}
+\theme{Limites des fonctions réelles, limite en l'infini}
+\exo7qcmid{lille-1.limites.005}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en l'infini}
+Soit $f(x)= \sqrt{x^2+x+1}+x$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$\lim_{x\to -\infty} f(x)=+\infty$}
+
+    \bad{$\lim_{x\to -\infty} f(x)=-\infty$}
+
+    \good{$\lim_{x\to -\infty} f(x)=-\frac{1}{2}$}
+
+    \bad{$f$ n'admet pas de limite en $-\infty$.}
+\end{answers}
+\begin{explanations}
+On multiplie le numérateur et le dénominateur de $f$ par l'expression conjuguée de $\sqrt{x^2+x+1}+x$, c'est-à-dire par  $\sqrt{x^2+x+1}-x$. On obtient :
+$f(x)= \frac{x+1}{\sqrt {x^2+x+1}-x}$. Attention !  $\sqrt {x^2+x+1}=|x|\sqrt {1+\frac{1}{x}+ \frac{1}{x^2}}= -x\sqrt {1+\frac{1}{x}+ \frac{1}{x^2}}, $ pour $x<0$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,36 @@
+\uuid{K4Wy}
+\titre{Dérivée en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Dérivées, dérivée en un point}
+\exo7qcmid{lille-1.derivees.014}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée en un point}
+Soit $a,b\in \Rr$ et $f(x)=\left\{\begin{array}{cl}\displaystyle \mathrm{e}^{x^2+x}&\mbox{si }x\leq 0\\ \\ a \arctan x+b &\mbox{si }x>0.\end{array}\right.$
+
+Quelles valeurs faut-il donner à $a$ et $b$ pour que $f$ soit dérivable sur $\Rr$ ?
+\begin{answers}
+    \bad{$a=1$ et $b=0$}
+    \bad{$a=0$ et $b=1$}
+    \bad{$a=0$ et $b=0$}
+    \good{$a=1$ et $b=1$}
+\end{answers}
+\begin{explanations}
+La fonction $f$ est continue sur $\Rr^*$ et pour qu'elle soit continue en $0$, il faut que
+$$\lim _{x\to 0^-}f(x)=\lim _{x\to 0^+}f(x)\Rightarrow 1=b.$$
+De plus, $f$ est dérivable sur $\Rr^*$ avec
+$$f'(x)=\left\{\begin{array}{cl}\displaystyle (2x+1)\mathrm{e}^{x^2+x}&\mbox{si }x<0\\ \\ \displaystyle \frac{a}{1+x^2} &\mbox{si }x>0\end{array}\right.$$
+et $f'_g(0)=1$ et $f'_d(0)=a$. Donc, pour que $f$ soit dérivable en $0$, on doit avoir $f'_g(0)=f'_d(0)$. D'où $a=1$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,34 @@
+\uuid{g7q7}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.028}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+Soit $(u_n)$ une suite croissante. On suppose que $\displaystyle 0\leq u_{n+1}\leq \frac{1}{2}u_n+\frac{1}{2^n}$ pour tout $n\geq 0$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$(u_n)$ est majorée.}
+    \bad{$(u_n)$ est divergente.}
+    \good{$(u_n)$ est convergente et $\displaystyle 0\leq \lim _{n\to +\infty}u_n\leq 2$.}
+    \good{$u_n=0$ pour tout $n\geq 1$.}
+\end{answers}
+\begin{explanations}
+On vérifie par récurrence que, pour tout $n\geq 1$,
+$$\displaystyle 0\leq u_n\leq \frac{1}{2^n}u_0+1+\frac{1}{2}+\frac{1}{2^2}+\dots +\frac{1}{2^{n-1}}=\frac{1}{2^n}u_0+2-\frac{1}{2^{n-1}}.$$
+Donc, $(u_n)$ est majorée car $\displaystyle \frac{1}{2^{n-1}}\underset{+\infty}{\longrightarrow}0$. \'Etant à la fois croissante est majorée, la suite $(u_n)$ converge vers $\ell \in \Rr$ et, par passage à la limite, $\displaystyle 0\leq \ell\leq 2$. Par ailleurs, l'hypothèse faite sur $u_n$ donne
+$$0\leq \ell \leq \frac{\ell}{2} \Rightarrow \ell =0$$
+et comme $(u_n)_{n\geq 1}$ est croissante positive, $u_n=0$ pour tout $n\geq 1$.
+\end{explanations}
+\end{question}
+}

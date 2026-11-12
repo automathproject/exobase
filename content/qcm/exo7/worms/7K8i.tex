@@ -1,0 +1,75 @@
+\uuid{7K8i}
+\titre{Tirage au sort de SMS}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Probabilité et dénombrement}
+\difficulte{}
+\theme{Probabilités, événements}
+\exo7qcmid{worms.worms.010}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+On suppose que 2000 personnes ont envoyé un SMS dans le cadre d'un mini-jeu télé qui consistait à répondre à une question (particulièrement idiote) à 2 choix. On suppose que la société qui gère ce "jeu-SMS" sélectionne 30 SMS au hasard parmi les 2000.
+}
+
+\begin{question}
+\qclassification{260.01}
+Dans cette question et les suivantes, on note $\Omega$ l'ensemble de tous les sous-ensembles de 30 SMS (distincts). Combien d'éléments $\Omega$ contient-il ?
+\begin{answers}
+\good{$C_{2000}^{30}$}
+\bad{$A_{2000}^{30}$}
+\bad{1971}
+\bad{$2000!/30!$}
+\end{answers}
+\begin{explanations}
+C'est $C_{2000}^{30}$, voir le cours !
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+A-t-on équiprobabilité dans cette situation ?
+\begin{answers}
+\good{Oui.}
+\bad{Non.}
+\end{answers}
+\begin{explanations}
+Bien sûr que oui. Tous les sous-ensembles de 30 SMS ont autant de chances d'être tirés.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+On considère maintenant que vous faites partie des personnes qui ont envoyé un SMS. Quelle est la probabilité que vous soyez sélectionné(e) ?
+\begin{answers}
+\good{$1.5\%$}
+\bad{$0.03\%$}
+\bad{$0.15\%$}
+\bad{Environ $1.2\%$.}
+\end{answers}
+\begin{explanations}
+L'événement en question correspond au sous-ensemble de $\Omega$ contenant tous les sous-ensembles de 30 SMS dont le sien, et cet événement est de cardinal $C_{1999}^{29}$, et cela donne, après simplifications, $\mathbb{P}(A) = 30/2000 = 1,5\%$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+\qkeeporder
+Votre ami(e) fait également partie des personnes ayant envoyé un SMS. Quelle est la probabilité qu'au moins l'un(e) d'entre vous soit tiré(e) au sort ?
+\begin{answers}
+\bad{Deux fois la réponse à la question précédente.}
+\good{Environ 3\% (mais pas 3\%).}
+\bad{Environ 0,3\% (mais pas 0,3\%).}
+\bad{Une autre valeur.}
+\end{answers}
+\begin{explanations}
+Le cardinal du complémentaire $B^c$ de l'événement étudié est clairement $C_{1998}^{30}$,  nombre de sous-ensembles de 30 éléments parmi les 1998 SMS restants. Cela donne $\mathbb{P}(B)=1- (1970\times 1969)/(2000\times 1999) \simeq  2.98\%$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,36 @@
+\uuid{tesK}
+\titre{Changements de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables, éléments simples}
+\exo7qcmid{lille-2.integrales.036}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables/éléments simples}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $\displaystyle t=\sqrt{\frac{1+x}{1-x}}$ donne :
+$$\displaystyle \int _0^{1/2}\sqrt{\frac{1+x}{1-x}}\mathrm{d}x=\int _1^{\sqrt{3}}\frac{4t^2\, \mathrm{d}t}{(t^2+1)^2}.$$}
+\bad{$\displaystyle \int _1^{\sqrt{3}}\frac{\mathrm{d}t}{t^2+1}=\frac{\pi}{6}$.}
+\good{$\displaystyle \int _1^{\sqrt{3}}\frac{\mathrm{d}t}{t^2+1}=\left[\frac{t}{1+t^2}\right]_1^{\sqrt{3}}+\int _1^{\sqrt{3}}\frac{2t^2\mathrm{d}t}{(t^2+1)^2}$.}
+\bad{$\displaystyle \int _0^{1/2}\sqrt{\frac{1+x}{1-x}}\mathrm{d}x=\frac{\pi}{3}-\frac{\sqrt{3}}{2}+1$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $\displaystyle t=\sqrt{\frac{1+x}{1-x}}$, on a : $\displaystyle x=\frac{t^2-1}{t^2+1}$. D'où $\displaystyle \mathrm{d}x=\frac{4t\, \mathrm{d}t}{(t^2+1)^2}$ et
+$$\int _0^{1/2}\sqrt{\frac{1+x}{1-x}}\mathrm{d}x=\int _1^{\sqrt{3}}\frac{4t^2\, \mathrm{d}t}{(t^2+1)^2}.$$
+Une intégration par parties avec $\displaystyle u=\frac{1}{t^2+1}$ et $v=t$ donne
+$$\int _1^{\sqrt{3}}\frac{\mathrm{d}t}{t^2+1}=\left[\frac{t}{1+t^2}\right]_1^{\sqrt{3}}+\int _1^{\sqrt{3}}\frac{2t^2\mathrm{d}t}{(t^2+1)^2}.$$
+Donc $\displaystyle \int _0^{1/2}\sqrt{\frac{1+x}{1-x}}\mathrm{d}x=2\int _1^{\sqrt{3}}\frac{\mathrm{d}t}{t^2+1}-2\left[\frac{t}{1+t^2}\right]_1^{\sqrt{3}}=\frac{\pi}{6}-\frac{\sqrt{3}}{2}+1$.
+\end{explanations}
+\end{question}
+}

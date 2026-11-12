@@ -1,0 +1,35 @@
+\uuid{Rrg2}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.024}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\cos x$ donne
+$$\displaystyle \int _{\pi/3}^{\pi/2}\frac{\mathrm{d}x}{\sin x(1+\cos x)}=\int _0^{1/2}\frac{\mathrm{d}t}{(1-t)(1+t)^2}.$$}
+\good{$\forall t\in \Rr\setminus \{-1,1\}$, $\displaystyle \frac{4}{(1-t)(1+t)^2}=\frac{1}{1-t}+\frac{1}{1+t}+\frac{2}{(1+t)^2}$.}
+\bad{Une primitive de $\displaystyle \frac{1}{(1-t)(1+t)^2}$ sur $]-1,1[$ est $\displaystyle \ln \frac{1+t}{1-t}-\frac{2}{1+t}$.}
+\bad{$\displaystyle \int _{\pi/3}^{\pi/2}\frac{\mathrm{d}x}{\sin x(1+\cos x)}=\ln 3+\frac{2}{3}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$, on a : $t(\pi/3)=1/2$, $t(\pi/2)=0$ et
+$$\displaystyle \int _{\pi/3}^{\pi/2}\frac{\mathrm{d}\, x}{\sin x(1+\cos x)}=\int _{\pi/6}^{\pi/3}\frac{\sin x\, \mathrm{d}x}{\sin ^2x(1+\cos x)}=\int _{1/2}^{0}\frac{-\mathrm{d}\, t}{(1-t^2)(1+t)}.$$
+Or, $\displaystyle \frac{4}{(1-t)(1+t)^2}=\frac{1}{1-t}+\frac{1}{1+t}+\frac{2}{(1+t)^2}$. Donc, en tenant compte de la linéarité,
+$$\int _{\pi/3}^{\pi/2}\frac{\mathrm{d}\, x}{\sin x(1+\cos x)}=\frac{1}{4}\left[\ln \frac{1+t}{1-t}-\frac{2}{1+t}\right]_0^{1/2}=\frac{1}{4}\left(\ln 3+\frac{2}{3}\right).$$
+\end{explanations}
+\end{question}
+}

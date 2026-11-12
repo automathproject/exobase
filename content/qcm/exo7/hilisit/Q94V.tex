@@ -1,0 +1,36 @@
+\uuid{Q94V}
+\titre{Pgcd}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Pgcd, ppcm, algorithme d'Euclide}
+\difficulte{2}
+\theme{pgcd}
+\exo7qcmid{hilisit.arithmetique.007}
+
+\contenu{
+\begin{question}
+\qclassification{103.03}
+    Grâce à l'application de l'algorithme d'Euclide, on obtient pour $a=630$ et $b=165$ :
+    \begin{answers}
+        \good{$\pgcd(a,b) = \pgcd(165,135)$}
+        \good{$\pgcd(a,b) = \pgcd(135,30)$}
+        \bad{$\pgcd(a,b) = \pgcd(30,0)$}
+        \good{$\pgcd(a,b) = 15$}
+    \end{answers}
+    \begin{explanations}
+     L'algorithme d'Euclide nous donne :\\
+     $$ 630 = 165 \times 3 + 135 $$
+     $$ 165 = 135 \times 1 + 30 $$
+     $$ 135 = 30 \times 4 + \boxed{ \; 15 \; } $$
+     $$ 30 = 15 \times 2 + 0 $$
+     Ainsi on a :
+     $$ \pgcd(a,b) = \pgcd(165,135) = \pgcd(135,30) = \pgcd(30,15) = \pgcd(15,0) = 15 $$
+     En revanche, $ \pgcd(30,0) = 30 \neq \pgcd(a,b)$.
+    \end{explanations}
+\end{question}
+}

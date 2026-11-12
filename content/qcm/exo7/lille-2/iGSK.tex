@@ -1,0 +1,32 @@
+\uuid{iGSK}
+\titre{Changement de l'inconnue}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du deuxième ordre}
+\difficulte{3}
+\theme{Equations du second ordre, changement de l'inconnue}
+\exo7qcmid{lille-2.equations-differentielles.034}
+
+\contenu{
+\begin{question}
+\qclassification{225.02}
+\qtags{motcle=changement de l'inconnue}
+On considère les équations différentielles
+$$(E_1)\; :\; xy''+2y'-xy=2\mathrm{e}^{x}\quad\mbox{et}\quad (E_2)\; :\; z''-z=2\mathrm{e}^{x}.$$
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Si $y$ est une solution de $(E_1)$, alors $\displaystyle z=xy$ est une solution de $(E_2)$.}
+\bad{$(E_1)$ admet une solution particulière sous la forme $\displaystyle y_0=a\mathrm{e}^{x}$, $a\in \Rr$.}
+\good{La solution générale de $(E_1)$ sur $]0,+\infty[$ est $\displaystyle y=\left(\frac{a}{x}+1\right)\mathrm{e}^{x}+\frac{b}{x}\mathrm{e}^{-x}$, $a,b\in \Rr$.}
+\bad{$(E_1)$ n'admet pas de solution sur $\Rr$.}
+\end{answers}
+\begin{explanations}
+On a : $z'=xy'+y$, $z''=xy''+2y'$ et $z''-z=xy''+2y'-xy$. La solution générale de l'équation homogène associée à $(E_2)$ est : $Z=a\mathrm{e}^{x}+b\mathrm{e}^{-x}$ et $z_0=x\mathrm{e}^{x}$ est une solution particulière de $(E_2)$. Donc la solution générale de $(E_2)$ est $z=Z+z_0$. Ainsi, la solution générale de $(E_1)$ sur $]0,+\infty[$ est : $\displaystyle y=\left(\frac{a}{x}+1\right)\mathrm{e}^{x}+\frac{b}{x}\mathrm{e}^{-x}$, $a,b\in \Rr$. Une telle solution se prolonge par continuité en $0$ si et seulement si $a=b=0$. D'où $\displaystyle y=\mathrm{e}^{x}$. Réciproquement, on vérifie qu'une telle fonction est bien une solution de $(E_1)$ sur $\Rr$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,63 @@
+\uuid{g7FN}
+\titre{Matrice d'une application linéaire/Matrice de passage}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{1}
+\theme{Matrice d'une application linéaire, Matrice de passage}
+\exo7qcmid{lille-2.matrice-application.007}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Matrice de passage}
+Dans $\Rr^3$, on considère la base canonique ${\cal {B}} =\{e_1,e_2,e_3\}$ et  la base ${\cal {B'}} =\{u_1,u_2,u_3\}$, où
+$u_1=(1,1,-1), u_2=(0,2,1)$ et $u_3=(0,1,1)$. On notera $P$ la matrice de passage de la base ${\cal {B}}$ à la base ${\cal {B'}}$ et $Q$ la matrice de passage de la base ${\cal {B'}}$ à la base ${\cal {B}}$.
+\vskip0mm
+Définition : Soit $E$ un espace vectoriel muni de deux bases ${\cal {B}}$ et ${\cal {B}}'$.
+La matrice de passage de la base ${\cal {B}}$ à la base  ${\cal {B}}'$ est la matrice de l'identité de $E$ de la base
+${\cal {B}}'$ à la base  ${\cal {B}}$. Autrement dit, c'est la matrice dont la jième colonne
+est constituée des coordonnées du jième vecteur de la base ${\cal {B}'}$ dans la base  ${\cal {B}}$.
+\vskip2mm
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$P = \left(\begin{array}{rcc}
+1&0&0\\
+1&2&1\\
+-1&1&1\\
+\end{array}\right).$}
+\bad{$Q = \left(\begin{array}{rcc}
+1&0&0\\
+1&2&1\\
+-1&1&1\\
+\end{array}\right).$}
+\good{$Q = \left(\begin{array}{rcc}
+1&0&0\\
+-2&1&-1\\
+3&-1&2\\
+\end{array}\right).$}
+\bad{$P$ est inversible et $P^{-1}=\left(\begin{array}{rcc}
+1&0&0\\
+1&2&1\\
+-1&1&1\\
+\end{array}\right).$}
+\end{answers}
+\begin{explanations} Une matrice de passage est inversible, puisque l'application linéaire associée est bijective. L'inverse de la matrice de passage de la base ${\cal {B}}$ à la base ${\cal {B}}'$ est la matrice de passage de la base ${\cal {B}}'$ à la base ${\cal {B}}$.\\
+$P = \left(\begin{array}{rcc}
+1&0&0\\
+1&2&1\\
+-1&1&1\\
+\end{array}\right)$ et $
+Q = P^{-1} = \left(\begin{array}{rcc}
+1&0&0\\
+-2&1&-1\\
+3&-1&2\\
+\end{array}\right)$.
+\end{explanations}
+\end{question}
+}

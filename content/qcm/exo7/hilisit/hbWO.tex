@@ -1,0 +1,31 @@
+\uuid{hbWO}
+\titre{Raisonnements}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Absurde et contraposée}
+\difficulte{3}
+\theme{Raisonnements}
+\exo7qcmid{hilisit.logique.053}
+
+\contenu{
+\begin{question}
+\qclassification{100.03}
+Pour démontrer que, pour tout $x\in\Rr$, on a $|x-2| \le x^2-x+2$.
+\begin{answers}
+	\bad{Je distingue les cas $x\ge0$ et $x<0$.}
+	\good{Je distingue les cas $x\ge2$ et $x<2$.}
+	\bad{Je suis amené à vérifier $x^2-x+2 \ge 0$.}
+	\good{Je suis amené à vérifier $x^2-2x+4 \ge 0$.}
+\end{answers}
+\begin{explanations}
+Soit $x\in\Rr$. On discute selon le signe de $x-2$.\\
+Si $x-2\ge0$ alors $|x-2| = x-2$ donc $(x^2-x+2) - |x-2| = x^2-x+2 - (x-2) = x^2-2x+4$ toujours positif (car le discriminant est négatif).\\
+Si $x-2<0$ alors $|x-2| = -(x-2)$ donc $(x^2-x+2) - |x-2| = x^2-x+2 + (x-2) = x^2$ toujours positif.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,28 @@
+\uuid{7eY6}
+\titre{Primitive}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitive}
+\exo7qcmid{hilisit.equations-differentielles.009}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+Parmi les fonctions suivantes, laquelle est une primitive de $\sqrt x$ sur l'intervalle $]0,+\infty[$ ?
+\begin{answers}
+  \bad{$2x\sqrt x$}
+  \bad{$\frac 1{2\sqrt x}$}
+  \bad{$x^2\sqrt x$}
+  \good{$\frac 23 x\sqrt x$}
+\end{answers}
+\begin{explanations} La dérivée de $x\sqrt x$ est $\sqrt x+x\times \frac 1{2\sqrt x}=\sqrt x+ \frac {(\sqrt x)^2}{2\sqrt x}=\sqrt x+\frac 12\sqrt x= \frac 32\sqrt x$ donc $\frac 23x\sqrt x$ est une primitive de  $\sqrt x$. Remarquez d'ailleurs que $x \sqrt{x}$ peut aussi s'écrire $x^{3/2}$, ce qui permet d'obtenir différemment sa dérivée : $(x^{3/2})' = \frac{3}{2} x^{3/2 - 1}= \frac{3}{2} x^{1/2} = \frac{3}{2} \sqrt{x}$. Par ailleurs, les dérivées de $x^2\sqrt x$ et de $\frac 1{2\sqrt x}$ donnent respectivement $\frac{5}{2} x \sqrt{x}$ et $\frac{-1}{4x \sqrt{x}}$, qui sont donc bien distinctes de $\sqrt{x}$.
+\end{explanations}
+\end{question}
+}

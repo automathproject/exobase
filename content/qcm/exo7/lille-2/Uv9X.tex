@@ -1,0 +1,33 @@
+\uuid{Uv9X}
+\titre{Tangentes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Géométrie}
+\chapitre{Courbes planes}
+\sousChapitre{Courbes paramétrées}
+\difficulte{3}
+\theme{Courbes paramétrées, tangentes}
+\exo7qcmid{lille-2.courbes.009}
+
+\contenu{
+\begin{question}
+\qclassification{244.01}
+\qtags{motcle=tangentes, asymptotes}
+La trajectoire $\Gamma$ d'une particule en mouvement est donnée par les équations
+$$x(t)=\frac{1}{1-t^2}\quad \mbox{et}\quad y(t)=\frac{1}{1+t^4}.$$
+\begin{answers}
+\bad{$\Gamma$ est symétrique par rapport à l'origine du repère.}
+\good{$\Gamma$ admet la droite d'équation $y=1/2$ comme asymptote quand $t$ tend vers $1$.}
+\good{Le point de paramètre $t=0$ est un point de rebroussement de seconde espèce.}
+\bad{La tangente à $\Gamma$ au point de paramètre $t=0$ est verticale.}
+\end{answers}
+\begin{explanations}
+$y$ étant strictement positive, $\Gamma$ ne peut être symétrique par rapport à l'origine du repère. Ensuite, $\displaystyle \lim_{t\to 1^{\pm}}x(t)=\pm \infty$ et $\displaystyle \lim_{t\to 1}y(t)=1/2$, donc la droite d'équation $y=1/2$ est une asymptote. Le $DL_4(0)$ de $f(t)=(x(t),y(t))$ est
+$$f(t)=(1,1)+t^2(1,0)+t^4(1,-1)+t^4\left(\varepsilon_1(t),\varepsilon_2(t)\right)\mbox{ avec }\lim _{t\to 0}\varepsilon_i(t)=0.$$
+On en déduit que le point de paramètre $t=0$ est un point de rebroussement de seconde espèce et que la tangente en ce point est horizontale.
+\end{explanations}
+\end{question}
+}

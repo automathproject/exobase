@@ -1,0 +1,34 @@
+\uuid{ZHM4}
+\titre{Dérivée sur un intervalle}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, dérivée sur un intervalle}
+\exo7qcmid{lille-1.derivees.021}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée sur un intervalle}
+Soit $f(x)=\arctan x+\arctan \frac{1}{x}$ définie sur $\Rr^*$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$\forall x\in \Rr^*$, $f'(x)=0$}
+    \bad{$\forall x\in \Rr^*$, $\displaystyle f(x)=\frac{\pi}{2}$}
+    \bad{La fonction $f$ est paire.}
+    \good{$\displaystyle f(x)=\frac{\pi}{2}$ si $x>0$ et $\displaystyle f(x)=-\frac{\pi}{2}$ si $x<0$}
+\end{answers}
+\begin{explanations}
+La fonction $f$, tout comme la fonction $\arctan$, est impaire. On calcule $f'(x)$ pour $x\neq 0$ :
+$$f'(x)=\frac{1}{1+x^2}+\frac{\left(\frac{1}{x}\right)'}{1+\left(\frac{1}{x}\right)^2}=0$$
+Donc $f$ est constante sur chaque intervalle de son domaine de définition :
+$$f(x)=\left\{\begin{array}{ll}\displaystyle f(1)=\frac{\pi}{2}&\mbox{si }x>0\\ \\ f(-1)=-\frac{\pi}{2}&\mbox{si }x<0.\end{array}
+\right.$$
+\end{explanations}
+\end{question}
+}

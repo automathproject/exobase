@@ -1,0 +1,34 @@
+\uuid{5rZ5}
+\titre{Limite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Suites, limite}
+\exo7qcmid{lille-1.suites.012}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=limite}
+Soit $\displaystyle u_n=\left(1-\frac{1}{n}\right)^n$ et $\displaystyle v_n=\left(1+\frac{(-1)^{n}}{n}\right)^n$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=\mathrm{e}^{-1}$}
+    \bad{$\displaystyle \lim _{n\to +\infty}v_n=\mathrm{e}^{-1}$}
+    \bad{La suite $(u_n)$ est divergente.}
+    \good{La suite $(v_n)$ est divergente.}
+\end{answers}
+\begin{explanations}
+On utilise le fait que si $\displaystyle \lim _{n\to +\infty}a_n=0$, alors les suites $(a_n)$ et $\ln (1+a_n)$ sont équivalentes. Ainsi
+$$\ln (u_n)=n\ln \left(1-\frac{1}{n}\right)\sim n\times \frac{-1}{n}=-1.$$
+Donc $(u_n)$ est convergente et sa limite est $\mathrm{e}^{-1}$. On vérifie, de même, que
+$$\displaystyle \lim _{n\to +\infty}v_{2n}=\mathrm{e}\mbox{ et }\lim _{n\to +\infty}v_{2n+1}=\mathrm{e}^{-1}.$$
+Donc, d'après le théorème des suites extraites, $(v_n)$ est divergente.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,33 @@
+\uuid{1pjN}
+\titre{Changement de variable/primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variable, primitives usuelles}
+\exo7qcmid{lille-2.primitives.016}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variable/primitives usuelles}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Sur $]0,+\infty[$, on a : $\displaystyle \int \frac{\ln x}{x}\mathrm{d}x=\int \frac{\mathrm{d}x}{x}\ln x=\ln x\times \ln x+k$, $k\in \Rr$.}
+\good{Sur $]0,+\infty[$, on a : $\displaystyle \int \frac{\ln x}{x}\mathrm{d}x=\frac{1}{2}\ln x\times \ln x+k$, $k\in \Rr$.}
+\good{Sur $]1,+\infty[$, on a : $\displaystyle \int \frac{\mathrm{d}x}{x\ln x}=\ln (\ln x)+k$, $k\in \Rr$.}
+\bad{Sur $]1,+\infty[$, on a : $\displaystyle \int \frac{\mathrm{d}x}{x\ln x}=\ln (x\ln x)+k$, $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Avec $u=\ln x$, on aura : $\displaystyle \mathrm{d}u=\frac{\mathrm{d}x}{x}$. D'où
+$$\int \frac{\ln x}{x}\mathrm{d}x=\int u\,\mathrm{d}u=\frac{1}{2}u^2+k=\frac{1}{2}\left(\ln x\right)^2+k,\; k\in \Rr$$
+et
+$$\int \frac{\mathrm{d}x}{x\ln x}=\int \frac{\mathrm{d}u}{u}=\ln |u|+k=\ln (\ln x)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

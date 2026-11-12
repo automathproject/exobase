@@ -1,0 +1,34 @@
+\uuid{L0fd}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.030}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\forall t\in \Rr$, $\displaystyle \frac{2t}{t^2+t+1}=\frac{2t+1}{t^2+t+1}-\frac{4}{3}\frac{1}{\left(\frac{2t+1}{\sqrt{3}}\right)^2+1}$.}
+\good{$\displaystyle \ln (t^2+t+1)-\frac{2}{\sqrt{3}}\arctan \left(\frac{2t+1}{\sqrt{3}}\right)$ est une primitive de $\displaystyle \frac{2t}{t^2+t+1}$ sur $\Rr$.}
+\bad{Le changement de variable $t=\sqrt{x}$ donne $\displaystyle \int _0^1\frac{\mathrm{d}x}{x+\sqrt{x}+1}=\int _0^1\frac{t\, \mathrm{d}t}{t^2+t+1}$.}
+\bad{$\displaystyle \int _0^1\frac{\mathrm{d}x}{x+\sqrt{x}+1}=\frac{\ln 3}{2}-\frac{\pi}{6\sqrt{3}}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+D'abord, $\forall t\in \Rr$, $\displaystyle \frac{2t}{t^2+t+1}=\frac{2t+1}{t^2+t+1}-\frac{4}{3}\frac{1}{\left(\frac{2t+1}{\sqrt{3}}\right)^2+1}$. Donc, par linéarité,
+$$\int \frac{2t\, \mathrm{d}t}{t^2+t+1}=\ln (t^2+t+1)-\frac{2}{\sqrt{3}}\arctan \left(\frac{2t+1}{\sqrt{3}}\right)+k,\; k\in \Rr.$$
+Ensuite, avec $t=\sqrt{x}\Rightarrow x=t^2$, on a : $\mathrm{d}x=2t\, \mathrm{d}t$, $t(0)=0$, $t(1)=1$ et
+$$\int _0^1\frac{\mathrm{d}x}{x+\sqrt{x}+1}=\left[\ln (t^2+t+1)-\frac{2}{\sqrt{3}}\arctan \left(\frac{2t+1}{\sqrt{3}}\right)\right]_0^1=\ln 3-\frac{\pi}{3\sqrt{3}}.$$
+\end{explanations}
+\end{question}
+}

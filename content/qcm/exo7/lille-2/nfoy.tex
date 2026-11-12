@@ -1,0 +1,34 @@
+\uuid{nfoy}
+\titre{Changements de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changements de variables, éléments simples}
+\exo7qcmid{lille-2.primitives.049}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changements de variables/éléments simples}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $\displaystyle t=\sqrt{x}$ donne $\displaystyle \int \frac{\mathrm{d}x}{\sqrt{x}(x-1)^2}=\int \frac{\mathrm{d}t}{(t^2-1)^2}$.}
+\good{$\forall t\in \Rr\setminus \{-1,1\}$, $\displaystyle \frac{4}{(t^2-1)^2}=\frac{1}{t+1}-\frac{1}{t-1}+\frac{1}{(t+1)^2}+\frac{1}{(t-1)^2}$.}
+\good{$\displaystyle \int \frac{4\mathrm{d}t}{(t^2-1)^2}=\ln \left|\frac{t+1}{t-1}\right|-\frac{2t}{t^2-1}+k$, $k\in \Rr$.}
+\bad{Une primitive de $\displaystyle \frac{1}{\sqrt{x}(x-1)^2}$ sur $]1,+\infty[$ est $\displaystyle \ln \left|\frac{\sqrt{x}+1}{\sqrt{x}-1}\right|-\frac{2\sqrt{x}}{x-1}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $\displaystyle t=\sqrt{x}$, on a : $\displaystyle x=t^2\Rightarrow \mathrm{d}x=2t\, \mathrm{d}t$ et $\displaystyle \int \frac{\mathrm{d}x}{\sqrt{x}(x-1)^2}=\int \frac{2\, \mathrm{d}t}{(t^2-1)^2}$. La décomposition en éléments simples donne : $\displaystyle \frac{4}{(t^2-1)^2}=\frac{1}{t+1}-\frac{1}{t-1}+\frac{1}{(t+1)^2}+\frac{1}{(t-1)^2}$. Donc
+$$\int \frac{4\mathrm{d}t}{(t^2-1)^2}=\ln \left|\frac{t+1}{t-1}\right|-\frac{2t}{t^2-1}+k,\; k\in \Rr.$$
+D'où
+$$\int \frac{\mathrm{d}x}{\sqrt{x}(x-1)^2}=\frac{1}{2}\left(\ln \left|\frac{t+1}{t-1}\right|-\frac{2t}{t^2-1}\right)+k=\frac{1}{2}\left(\ln \left|\frac{\sqrt{x}+1}{\sqrt{x}-1}\right|-\frac{2\sqrt{x}}{x-1}\right)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

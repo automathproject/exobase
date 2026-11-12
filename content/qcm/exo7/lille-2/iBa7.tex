@@ -1,0 +1,34 @@
+\uuid{iBa7}
+\titre{Somme/Produit/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{1}
+\theme{Opérations sur les DL, Somme, Produit, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.005}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Somme/Produit/DL usuels}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_3(0)\cos x=1-\frac{x^2}{2}+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)\mathrm{e}^x=1+x+\frac{x^2}{2}+\frac{x^3}{3}+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)\left(\cos x+\mathrm{e}^x\right)=2+x+\frac{x^3}{3}+o(x^3)$.}
+\good{$\displaystyle DL_3(0)\left(\cos x\mathrm{e}^{x}\right)=1+x-\frac{x^3}{3}+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+On a : $\displaystyle DL_3(0)\cos x=1-\frac{x^2}{2}+o(x^3)$ et $\displaystyle DL_3(0)\mathrm{e}^x=1+x+\frac{x^2}{2}+\frac{x^3}{6}+o(x^3)$. Donc $\displaystyle DL_3(0)\left(\cos x+\mathrm{e}^x\right)=2+x+\frac{x^3}{6}+o(x^3)$ et $\displaystyle DL_3(0)\cos x\mathrm{e}^x=1+x-\frac{x^3}{3}+o(x^3)$.
+\end{explanations}
+\end{question}
+}

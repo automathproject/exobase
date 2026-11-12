@@ -1,0 +1,37 @@
+\uuid{fBUh}
+\titre{Raisonnements}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Absurde et contraposée}
+\difficulte{3}
+\theme{Raisonnements}
+\exo7qcmid{hilisit.logique.056}
+
+\contenu{
+\begin{question}
+\qclassification{100.03}
+Soit $n\ge2$ un entier. Que pensez-vous du raisonnement par récurrence suivant : on note ${\cal P}_n$ la propriété "$n$ points distincts quelconques dans le plan sont toujours alignés".
+
+Initialisation : pour $n=2$, la propriété est vraie. En effet, deux points distincts du plan sont toujours alignés.
+
+Hérédité : soit $n$ un entier naturel quelconque supérieur ou égal à deux. Supposons la propriété ${\cal P}_n$ vraie. Soient $n+1$ points quelconques du plan, $A_1$, $A_2$,\ldots, $A_n$, $A_{n+1}$, tous distincts. D'après l'hypothèse de récurrence, les $n$ points $A_1$, $A_2$,\ldots, $A_n$ sont alignés. Ils le sont donc sur la droite $(A_2A_n)$.
+De même, les $n$ points $A_2$, \ldots, $A_n$, $A_{n+1}$ sont alignés. Ils le sont donc également sur la droite $(A_2A_n)$.
+On en déduit donc que les $n+1$ points sont tous sur la droite $(A_2A_n)$, donc ils sont alignés. La propriété ${\cal P}_{n+1}$ est donc vraie, d'où la propriété est héréditaire.
+
+En conclusion, on a montré par récurrence que ${\cal P}_n$ est vraie pour tout entier $n\ge 2$ : $n$ points distincts du plan sont toujours alignés.
+\begin{answers}
+	\bad{Le raisonnement par récurrence est juste donc le résultat est juste.}
+	\bad{Le raisonnement par récurrence est juste mais le résultat est faux.}
+	\good{Il y a une erreur dans l'étape d'hérédité.}
+	\bad{Il y a une erreur dans l'étape d'initialisation.}
+\end{answers}
+\begin{explanations}
+Il y a une erreur dans l'étape d'hérédité : en effet, pour $n=2$, $A_2=A_n$ et on ne peut pas parler de la droite $(A_2A_n)$. On n'a donc pas ${\cal P}_2\implies {\cal P}_3$, ce qui suffit à rendre faux le raisonnement par récurrence.
+\end{explanations}
+\end{question}
+}

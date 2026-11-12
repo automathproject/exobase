@@ -1,0 +1,36 @@
+\uuid{JKUg}
+\titre{Fonction croissante/décroissante}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Notion de fonctions, fonction croissante, décroissante}
+\exo7qcmid{lille-1.continuite.008}
+
+\contenu{
+\begin{question}
+\qclassification{123.00}
+\qtags{motcle=fonction croissante/décroissante}
+Soit $f : \Rr \to \Rr$ une fonction à valeurs strictement positives. Quels arguments sont valables pour montrer que $f$ est croissante ?
+\begin{answers}
+    \bad{Pour tout $x\in\Rr$, on a $f(x+1) \ge f(x)$.}
+
+    \bad{Pour tout $x\in\Rr$, on a $\frac{f(x+1)}{f(x)} \ge 1$.}
+
+    \bad{Pour tout $x\in\Rr$, il existe $h>0$ tel que $f(x+h) \ge f(x)$.}
+
+    \good{Pour tout $x\in\Rr$, pour tout $h>0$, on a $\frac{f(x+h)}{f(x)} \ge 1$.}
+
+\end{answers}
+\begin{explanations}
+En notant $y = x+h$ avec $h>0$ on a $y > x$ et donc il suffit d'avoir $\frac{f(y)}{f(x)} \ge 1$.
+Par contre, il n'est pas suffisant de comparer $f$ en des valeurs distantes de $1$ ! Essayez de dessiner un contre-exemple : $f$ vaut $0$ partout, sauf $1$ en chaque entier.
+
+\end{explanations}
+\end{question}
+}

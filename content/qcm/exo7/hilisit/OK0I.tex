@@ -1,0 +1,32 @@
+\uuid{OK0I}
+\titre{Pgcd}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Pgcd, ppcm, algorithme d'Euclide}
+\difficulte{2}
+\theme{pgcd}
+\exo7qcmid{hilisit.arithmetique.008}
+
+\contenu{
+\begin{question}
+\qclassification{103.03}
+    Soit $a>0$ un entier strictement positif dont le reste dans la division euclidienne par $8$ est $r=5$. Quelles sont les affirmations vraies ?
+    \begin{answers}
+        \bad{$a$ est pair.}
+        \good{$a$ est impair.}
+        \bad{$a$ est nécessairement divisible par $13$.}
+        \good{$(a-5)$ est un multiple de $8$.}
+    \end{answers}
+    \begin{explanations}
+     Puisque le reste dans la division euclidienne de $a$ par $8$ est $5$, on peut écrire $ a = 8k + 5 $, avec $k$ un nombre entier (positif car $a > 0$).\\
+     On peut réécrire $a = 8k+5 = 2(4k+2) + 1$ : ainsi $a$ est impair.\\
+     Pour $k=0$, on a $a=5$ qui n'est pas divisible par $13$ (ou aussi pour $k=2$ avec $a = 21$ par exemple).\\
+     Puisqu'on a $(a-5) = 8k$, cela signifie que $(a-5)$ est bien un multiple de $8$.
+    \end{explanations}
+\end{question}
+}

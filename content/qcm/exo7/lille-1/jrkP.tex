@@ -1,0 +1,35 @@
+\uuid{jrkP}
+\titre{Limite en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{2}
+\theme{Limites des fonctions réelles, limite en un point}
+\exo7qcmid{lille-1.limites.020}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en un point}
+Soit $f(x)= \frac{\cos x-1}{x^2}$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$f$ n'admet pas de limite en $0$.}
+
+    \bad{$\lim_{x\to 0} f(x)=+\infty$}
+
+    \good{$\lim_{x\to 0} f(x)=-\frac{1}{2}$}
+
+    \bad{$\lim_{x\to 0} f(x)=\frac{1}{2}$}
+
+\end{answers}
+\begin{explanations}
+On a : $\cos x = \cos^2 (\frac{x}{2}) -  \sin^2 (\frac{x}{2})$ et $1= \cos^2 (\frac{x}{2}) + \sin^2 (\frac{x}{2})$, donc $\cos x - 1 = -2 \sin ^2 (\frac{x}{2})$. D'autre part, $\lim_{x\to 0}\frac{\sin x}{x} = 1$. On déduit que   $\lim_{x\to 0} f(x) = \lim_{x\to 0} -\frac{1}{2}  \big(\frac{\sin (\frac{x}{2})}{\frac{x}{2}}\big)^2 = -\frac{1}{2}$.
+\end{explanations}
+\end{question}
+}

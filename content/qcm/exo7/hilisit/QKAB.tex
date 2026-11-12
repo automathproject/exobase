@@ -1,0 +1,52 @@
+\uuid{QKAB}
+\titre{Ensembles}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles}
+\exo7qcmid{hilisit.logique.035}
+
+\contenu{
+\begin{question}
+\qclassification{100.02}
+Les fonctions $f$ et $g$ définies par les expressions suivantes sont-elles bijections réciproques l'une de l'autre ?
+(On ne se préoccupera pas des ensembles de départ et d'arrivée.)
+\begin{answers}
+	\bad{$f(x) = \exp(2x)$ et $g(x) = \ln(\tfrac12x)$}
+	\bad{$f(x) = \cos(x-1)$ et $g(x) = \sin(x+1)$}
+	\good{$f(x) = \frac{1}{1+x}$ et $g(x) = \frac{1-x}{x}$}
+	\bad{$f(x)= \sqrt{2x+1}$ et $g(x) = \frac12x^2-1$}
+\end{answers}
+\begin{explanations}
+Si $f(x) = \exp(2x)$ et $g(x) = \ln(\tfrac12x)$ alors
+$$(f \circ g)(x)
+= e^{2 \ln(\tfrac12x) }
+= e^{2 \ln(x) + 2\ln(\tfrac12) }
+= e^{2 \ln(x))}\times e^{2\ln(\tfrac12) }
+= x^2 \times (\tfrac12)^2 = \frac{x^2}{4}$$
+et ne vaut donc pas $x$.
+
+Si $f(x) = \cos(x-1)$ et $g(x) = \sin(x+1)$ alors $(f \circ g)(x) = \cos( \sin(x+1) -1)$ ne se simplifie pas du tout et n'a aucune chance d'être égal à $x$. Prendre par exemple $x=10$, alors $(f \circ g)(x)$ est une valeur renvoyée par un cosinus donc est compris entre $-1$ et $+1$ donc ne peut pas être égale à $10$.
+
+Si $f(x) = \frac{1}{1+x}$ et $g(x) = \frac{1-x}{x}$
+$$(f \circ g)(x)
+= f\left(\frac{1-x}{x} \right)
+=  \frac{1}{1+\frac{1-x}{x}}
+= \frac{x}{x+(1-x)} = x.$$
+On vérifie de même que $(g \circ f)(x) = x$. Donc $f$ et $g$ sont des bijections réciproques l'une de l'autre.
+
+Si $f(x)= \sqrt{2x+1}$ et $g(x) = \frac12x^2-1$ alors
+$$(f \circ g)(x)
+= f\left(\tfrac12x^2-1  \right)
+= \sqrt{ 2(\tfrac12x^2-1)+1 }
+= \sqrt{ x^2-1}$$
+qui n'est pas égale à $x$ (par exemple pour $x=10$, $(f\circ g)(10)= \sqrt{10^2-1}=\sqrt{99} \neq 10$).
+\end{explanations}
+\end{question}
+}

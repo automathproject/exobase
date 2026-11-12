@@ -1,0 +1,37 @@
+\uuid{zJyd}
+\titre{Étude de fonction}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Fonctions usuelles, étude de fonction}
+\exo7qcmid{lille-1.fonctions-usuelles.018}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=étude de fonction}
+Soit $f(x)= (-1)^{E(x)}$, où  $E(x)$ est la partie entière de $x$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{$f$ est périodique de période $1$.}
+
+    \good{$f$ est périodique de période $2$.}
+
+    \bad{$f$ est une fonction paire.}
+
+    \good{$f$ est bornée.}
+\end{answers}
+\begin{explanations}
+$|f(x)|=1$, donc $f$ est bornée.
+
+$\forall x \in \Rr, n\in \Zz, \, E(x+n)= E(x)+n$. On déduit que  $f(x+1)=-f(x)$ et $f(x+2)=f(x)$, donc $f$ est de période $2$.
+
+On a : $ \forall x \in \Rr, \, E(x)\le x< E(x)+1$,  donc $\forall x \in \Rr, \, -E(x)-1< -x\le - E(x)$, on déduit que : $E(-x)=\left\{\begin{array}{cc}-x,& \mbox{si} \, \, x \in \Zz \\ -E(x)-1,& \mbox{si} \,  x \notin \Zz  \end{array}\right.$. Il en découle :  $f(-x)=\left\{\begin{array}{cc}f(x),& \mbox{si} \, \, x \in \Zz \\ -f(x),& \mbox{si} \,  x \notin \Zz  \end{array}\right.$. Donc $f$ n'est ni paire ni impaire.
+\end{explanations}
+\end{question}
+}

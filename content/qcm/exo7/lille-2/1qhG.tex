@@ -1,0 +1,31 @@
+\uuid{1qhG}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.008}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $t=\ln x$ donne $\displaystyle \int _1^{\mathrm{e}}\frac{\ln x}{x}\mathrm{d}x=\int _1^{\mathrm{e}}t\, \mathrm{d}t=\frac{\mathrm{e}^2-1}{2}$.}
+\bad{Le changement de variable $t=1-x^2$ donne $\displaystyle \int _0^{1}2x\mathrm{e}^{1-x^2}\mathrm{d}x=-\int _0^{1}\mathrm{e}^{t}\mathrm{d}t$.}
+\good{Le changement de variable $t=1+\mathrm{e}^x$ donne $\displaystyle \int _0^{\ln 3}\frac{\mathrm{e}^x}{1+\mathrm{e}^x}\mathrm{d}x=\ln 2$.}
+\good{Pour tout réel $a>0$, on a : $\displaystyle \int _{-a}^{a}\frac{\sin x\, \mathrm{d}x}{1+\cos ^2x}=0$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Le changement de variable $t=\ln x$ donne : $\displaystyle \int _1^{\mathrm{e}}\frac{\ln x}{x}\mathrm{d}x=\int _0^1t\, \mathrm{d}t=\frac{1}{2}$. Avec $t=1-x^2$ dans la seconde intégrale, on obtient : $\displaystyle \int _0^{1}2x\mathrm{e}^{1-x^2}\mathrm{d}x=-\int _{1}^0\mathrm{e}^{t}\mathrm{d}t=\mathrm{e}-1$. Ensuite, avec $t=1+\mathrm{e}^x$ dans la troisième intégrale, on obtient : $\displaystyle \int _0^{\ln 3}\frac{\mathrm{e}^x}{1+\mathrm{e}^x}\mathrm{d}x=\int _2^4\frac{\mathrm{d}t}{t}=\ln 2$. Enfin, la fonction $\displaystyle x\mapsto \frac{\sin x}{1+\cos ^2x}$ est impaire. Donc, pour tout $a>0$ : $\displaystyle \int _{-a}^{a}\frac{\sin x\, \mathrm{d}x}{1+\cos ^2x}=0$.
+\end{explanations}
+\end{question}
+}

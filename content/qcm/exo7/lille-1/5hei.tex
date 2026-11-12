@@ -1,0 +1,37 @@
+\uuid{5hei}
+\titre{Dérivée en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Dérivées, dérivée en un point}
+\exo7qcmid{lille-1.derivees.003}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée en un point}
+Soit $\displaystyle f(x)=|x-1|$. On note $f'_d(a)$ (resp. $f'_g(a)$) pour désigner la dérivée à droite (resp. à gauche) en $a$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$f'_d(1)=1$ et $f'_g(1)=1$}
+    \bad{$f$ est dérivable en $1$ et $f'(1)=1$.}
+    \good{$f$ est dérivable en $0$ et $f'(0)=-1$.}
+    \good{$f$ n'est pas dérivable en $1$ car $f'_d(1)=1$ et $f'_g(1)=-1$.}
+\end{answers}
+\begin{explanations}
+Par définition, on a :
+$$f(x)=\left\{ \begin{array}{ll}x-1&\mbox{si }x\geq 1\\ 1-x&\mbox{si }x\leq 1.
+\end{array}\right.$$
+Donc, $f$ est dérivable sur $\Rr\setminus\{1\}$, et
+$$f'(x)=\left\{ \begin{array}{ll}1&\mbox{si }x> 1\\ -1&\mbox{si }x< 1.
+\end{array}\right.$$
+En particulier, $f'(0)=-1$. Par contre $f$ n'est pas dérivable en $1$ car
+$$\lim _{x\to 1^+}\frac{f(x)-f(1)}{x-1}=1 \mbox{ et }\lim _{x\to 1^-}\frac{f(x)-f(1)}{x-1}=-1.$$
+\end{explanations}
+\end{question}
+}

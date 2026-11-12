@@ -1,0 +1,33 @@
+\uuid{Sz3c}
+\titre{Noyau/Image/Injection/Surjection/Théorème du rang}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Injection, Surjection, Théorème du rang}
+\exo7qcmid{lille-2.applications-lineaires.023}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Injection/Surjection/Théorème du rang}
+Soit $E$ et $F$ deux $\Rr$-espaces vectoriels de dimensions finies et $f$ une application linéaire de $E$ dans $F$. On pose $\dim E=n $ et $\dim F=m$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{Si $f$ est injective, alors $n \le m$}.
+\bad{Si $n \le m$, alors $f$ est injective}.
+\good{Si $f$ est surjective, alors $n \ge m$}.
+\bad{Si $n \ge m$, alors $f$ est surjective}.
+\end{answers}
+\begin{explanations} On a : $\dim Im f \le \dim F=m$.
+\vskip0mm
+Du théorème du rang, on déduit que si $n>m$,  $\dim \ker f >0$ et donc $f$ n'est pas injective et que si $n<m$,  $\dim \Im f <m$ et donc $f$ n'est pas surjective.
+\vskip0mm
+Si $n\le m$, alors $f$ n'est pas nécessairement injective et si $n \ge m$, alors $f$ n'est pas nécessairement surjective. Exemple : L'application nulle de  $\Rr$ dans $\Rr$.
+\end{explanations}
+\end{question}
+}

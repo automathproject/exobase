@@ -1,0 +1,35 @@
+\uuid{HcOc}
+\titre{Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{2}
+\theme{Opérations sur les DL, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.006}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/DL usuels}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle DL_3(0)\sin (2x)=2x-\frac{x^3}{3}+o(x^3)$.}
+\good{$\displaystyle DL_2(0)\sin \left(\frac{\pi}{2}-x\right)=1-\frac{x^2}{2}+o(x^2)$.}
+\good{$\displaystyle DL_2(0)\cos (\sin x)=1-\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle DL_3(0)\cos (x-x^2)=1-\frac{x^2}{2}+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+Le $DL_3(0)\sin(t)$, avec $t=2x$, donne : $\displaystyle DL_3(0)\sin (2x)=2x-\frac{4x^3}{3}+o(x^3)$. Ensuite $\displaystyle \sin \left(\frac{\pi}{2}-x\right)=\cos (x)=1-\frac{x^2}{2}+o(x^2)$. Enfin, en posant $t=\sin x$ et puis $t=x-x^2$ dans le $DL_3(0)\cos (t)$, on obtient :
+$$\displaystyle DL_2(0)\cos (\sin x)=1-\frac{x^2}{2}+o(x^2)\; \mbox{ et }\; DL_3(0)\cos (x-x^2)=1-\frac{x^2}{2}+x^3+o(x^3).$$
+\end{explanations}
+\end{question}
+}

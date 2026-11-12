@@ -1,0 +1,32 @@
+\uuid{p4OW}
+\titre{Dérivée en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Dérivées, dérivée en un point}
+\exo7qcmid{lille-1.derivees.004}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée en un point}
+Soit $\displaystyle f(x)=\sqrt[3]{(x-2)^2}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$f$ est continue et dérivable en $2$.}
+    \good{$f$ est continue et non dérivable en $2$.}
+    \good{La tangente à $\mathcal{C}_f$ en $2$ est une droite verticale.}
+    \bad{La tangente à $\mathcal{C}_f$ en $2$ est une droite horizontale.}
+\end{answers}
+\begin{explanations}
+Les théorèmes généraux impliquent que $f$ est continue sur $\Rr$ et est dérivable sur $\Rr\setminus\{2\}$. Mais
+$$\lim_{x\to 2^{\pm}}\frac{f(x)-f(2)}{x-2}=\lim_{x\to 2^{\pm}}\frac{1}{\sqrt[3]{x-2}}={\pm}\infty $$
+Donc, $f$ n'est pas dérivable en $2$ et la tangente à $\mathcal{C}_f$ en $2$ est une droite verticale.
+\end{explanations}
+\end{question}
+}

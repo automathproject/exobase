@@ -1,0 +1,38 @@
+\uuid{fCpe}
+\titre{Zéros de fonction}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Continuité : théorie}
+\difficulte{3}
+\theme{Théorèmes des valeurs intermédiaires, zéros de fonction}
+\exo7qcmid{lille-1.continuite.024}
+
+\contenu{
+\begin{question}
+\qclassification{123.01,123.02}
+\qtags{motcle=zéros de fonction}
+Soit $f : [0,1] \to \Rr$ une fonction continue avec $f(0)>0$ et $f(1)<0$.
+Par dichotomie on construit deux suites $(a_n)$ et $(b_n)$, avec $a_0 = 0$ et $b_0 = 1$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \good{$(a_n)$ et $(b_n)$ sont des suites adjacentes.}
+
+    \bad{$(f=0)$ admet une unique solution sur $[a_n,b_n]$.}
+
+    \good{Si $f(a_n)<0$ et $f\big(\frac{a_n+b_n}{2}\big) >0$ alors $a_{n+1} =\frac{a_n+b_n}{2}$ et $b_{n+1}=b_n$.}
+
+    \good{Pour $n=10$, $a_{10}$ approche une solution de $(f=0)$ à moins de $\frac{1}{1000}$.}
+
+\end{answers}
+\begin{explanations}
+Par dichotomie les suites construites vérifient : $(a_n)$ est croissante, $(b_n)$ est décroissante et $a_n \le b_n$, et $b_n-a_n \to 0$. Ce sont donc des suites adjacentes. En plus la limite de ces deux suites est une solution de l'équation $(f=0)$.
+Le méthode implique ici que si $f(a_n)>0$, $f(b_n)<0$ et $f\big(\frac{a_n+b_n}{2}\big) >0$ alors $a_{n+1} =\frac{a_n+b_n}{2}$ et $b_{n+1}=b_n$.
+L'intervalle $[a_n,b_n]$ où se trouve un zéro est divisé par deux à chaque étape. Donc au bout de $10$ étapes l'intervalle
+$[a_{10},b_{10}]$ est un sous intervalle de l'intervalle de départ $[0,1]$, et sa longueur est $\frac{1}{2^{10}} = \frac{1}{1024} < \frac1{1000}$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,71 @@
+\uuid{PaTt}
+\titre{Matrice d'une application linéaire/Noyau/Image/Changement de bases/Puissance de matrices/Polynômes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Noyau, Image, Changement de bases, Puissance de matrices, Polynômes}
+\exo7qcmid{lille-2.matrice-application.030}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Changement de bases/Puissance de matrices/Polynômes}
+On considère $\Rr_3[X]$, l'ensemble des polynômes à coefficients réels de degré $\le 3$, muni de sa base canonique ${\cal B}=\{1,X,X^2,X^3\}$ et $f$ l'endomorphisme de $\Rr_3[X]$ défini par :
+$$f(1)=1,\; f(X)= X-X^2,\;  f(X^2)=-X+X^2,\; f(X^3)= X+X^2+2X^3.$$ On note $A$ la matrice de $f$ dans la base ${\cal B}$. Soit $P_1=X+X^2, P_2=1, P_3=X+X^3, P_4=X^2+X^3$ et ${\cal B}' = \{ P_1, P_2,  P_3, P_4\}$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\{P_2\}$ est une base de $\ker f$ et $\{P_1\}$ est une base de $\ker (f-Id)$}.
+\good{$\{P_3,P_4\}$ est une base de $\ker (f-2Id)$}.
+\good{${\cal B}'$ est une base de $\Rr_3[X]$ et la matrice de $f$ dans cette base est :
+$$B= \left(\begin{array}{rccc}0&0&0&0\\
+0&1&0&0\\ 0&0&2&0\\0&0&0&2\end{array}\right).$$}
+\good{$A^n=\left(\begin{array}{rccc}
+1&0&0&0\\
+0 &2^{n-1}&-2^{n-1}&2^{n-1}\\
+0 &-2^{n-1}&2^{n-1}&2^{n-1}\\
+0 &0&0&2^n\\
+\end{array}\right)$,  pour tout entier $n\ge1$}.
+\end{answers}
+\begin{explanations} La matrice de $f$ dans la base ${\cal B}$ est :
+ $A= \left(\begin{array}{rccc}
+1&0&0&0\\
+0&1&-1&1\\
+0&-1&1&1\\
+0&0&0&2\\
+\end{array}\right)$. On vérifie que $\{P_1\}$ est une base de $\ker f$, $\{P_2\}$ est une base de $\ker (f-Id)$, $\{P_3,P_4\}$ est une base de $\ker (f-2Id)$ et que  ${\cal B}'$ est une base de $\Rr_3[X]$.
+\vskip0mm
+La matrice de $f$ dans la base ${\cal B}'$ est :
+$B= \left(\begin{array}{rccc}
+0&0&0&0\\
+0&1&0&0\\
+0&0&2&0\\
+0&0&0&2\\
+\end{array}\right)$. La matrice de passage de la base ${\cal B}$ à la base ${\cal B}'$ est :
+$P= \left(\begin{array}{rccc}
+0&1&0&0\\
+1&0&1&0\\
+1&0&0&1\\
+0&0&1&1\\
+\end{array}\right)$ et donc
+$\displaystyle P^{-1}= \frac{1}{2}\left(\begin{array}{rccc}
+0&1&1&-1\\
+2&0&0&0\\
+0&1&-1&1\\
+0&-1&1&1\\
+\end{array}\right).$
+\vskip0mm
+Enfin, la relation $A=PBP^{-1}$ donne
+$A^n= PB^nP^{-1} = \left(\begin{array}{rccc}
+1&0&0&0\\
+0 &2^{n-1}&-2^{n-1}&2^{n-1}\\
+0 &-2^{n-1}&2^{n-1}&2^{n-1}\\
+0 &0&0&2^n\\
+\end{array}\right)$, pour tout entier $n\ge1$.
+\end{explanations}
+\end{question}
+}

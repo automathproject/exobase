@@ -1,0 +1,32 @@
+\uuid{0ZJI}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{2}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.024}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Le changement de variable $\displaystyle u=\frac{1}{x}$ donne :
+\begin{answers}
+\good{$\displaystyle \int \frac{\sin (1/x)}{x^2}\mathrm{d}x=-\int \sin (u)\mathrm{d}u$.}
+\good{$\displaystyle \int \frac{\sin (1/x)}{x^2}\mathrm{d}x=\cos\left(1/x\right)+k$, $k\in \Rr$.}
+\bad{$\displaystyle \int \sin (1/x)\mathrm{d}x=\int \sin (u)\mathrm{d}u$.}
+\bad{$\displaystyle \int \sin (1/x)\mathrm{d}x=-\cos (u)+k$, $k\in \Rr$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $\displaystyle u=\frac{1}{x}$, on aura : $\displaystyle \mathrm{d}u=\frac{-\mathrm{d}x}{x^2}$. D'où
+$$\int \frac{\sin (1/x)}{x^2}\mathrm{d}x=-\int \sin (u)\mathrm{d}u=\cos (u)+k=\cos\left(1/x\right)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

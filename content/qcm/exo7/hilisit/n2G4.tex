@@ -1,0 +1,31 @@
+\uuid{n2G4}
+\titre{Théorème de Bézout}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Nombres premiers, nombres premiers entre eux}
+\difficulte{3}
+\theme{Théorème de Bézout}
+\exo7qcmid{hilisit.arithmetique.026}
+
+\contenu{
+\begin{question}
+\qclassification{103.04}
+ Soient $5$ entiers relatifs $a,b,c,u,v$ tels que $au+bv=1$ et $a | bc$. Quelles sont alors les affirmations vraies ?
+    \begin{answers}
+        \bad{$\pgcd(a,c)=1$.}
+        \good{$\pgcd(a,b)=1$.}
+        \good{$a|c$.}
+        \good{$\pgcd(a,c) = |a|$.}
+    \end{answers}
+    \begin{explanations}
+    $au+bv=1$ est une identité de Bézout qui garantit que $\pgcd(a,b)=1$. D'après le lemme de Gauss, puisque $a|bc$, on a alors $a|c$.\\
+    Puisque $a|c$, $|a|$ est un diviseur de $c$. Or c'est le plus grand diviseur de $a$ : donc $|a| = \pgcd(a,c)$.\\
+    Un contre-exemple pour établir que $\pgcd(a,c)$ n'est pas nécessairement égal à $1$ peut par exemple être $a=5$, $b=7$ (bien premiers entre eux) et $c=10$. On a bien $a | bc $ mais $\pgcd(a,c) = 5$. Plus généralement, on peut toujours respecter la condition $a | bc$ avec $c=a$, ce qui contredit $\pgcd(a,c)=1$ dès que $a$ n'est pas égal à $\pm 1$.
+    \end{explanations}
+\end{question}
+}

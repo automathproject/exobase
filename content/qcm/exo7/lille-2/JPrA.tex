@@ -1,0 +1,34 @@
+\uuid{JPrA}
+\titre{Espaces supplémentaires/Base/Dimension}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Espace vectoriel}
+\sousChapitre{Somme directe}
+\difficulte{1}
+\theme{Espaces vectoriels supplémentaires, Espaces supplémentaires, Base, Dimension}
+\exo7qcmid{lille-2.espaces-vectoriels.052}
+
+\contenu{
+\begin{question}
+\qclassification{106.03}
+\qtags{motcle=Espaces supplémentaires/Base/Dimension}
+On considère les deux sous-espaces vectoriels de $\Rr^4$ :
+$$E=\{(x,y,z,t)\in \Rr^4\, ; \, x+y = y+z=0\}\; \mbox{ et }\; F=\{(x,y,z,t)\in \Rr^4\, ;\, x+y+z+t=0\}.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\dim E= 1$}.
+\good{$\dim F = 3$}.
+\good{$\dim E\cap F = 1$}.
+\bad{$E$ et $F$ sont supplémentaires dans $\Rr^4$}.
+\end{answers}
+\begin{explanations} Une base de $E$ est $\{u_1,u_2\}$, où $u_1= (1,-1,1,0)$ et $u_2= (0,0,0,1)$,  donc $\dim E=2$.
+Une base de $F$ est $\{v_1,v_2,v_3\}$, où $v_1= (1,0,0,-1), v_2= (0,1,0,-1)$ et $v_3= (0,0,1,-1)$, donc $\dim F=3$.
+$E\cap F =\{(x,y,z,t) \in \Rr^4 \, ; \, x+y = y+z=z+t=0\}$. Une base de $E\cap F$ est $\{w\}$, où $w=(1,-1,1,-1)$, donc
+$\dim E\cap F =1$ et donc $E$ et $F$ ne sont pas supplémentaires dans $\Rr^4$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,35 @@
+\uuid{7SuV}
+\titre{Densité}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{3}
+\theme{Limites des fonctions réelles, densité}
+\exo7qcmid{lille-1.limites.023}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=densité}
+Soit  $f$ une fonction définie sur $[0,1]$ par : $f(x)=\left\{\begin{array}{cc}x-1,& \mbox{si} \, x \in \Rr \setminus \Qq\\ 1,&  \mbox{si} \, x \in \Qq  \end{array}\right.$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$\lim_{x\to 0} f(x)=1$}
+
+    \bad{$\lim_{x\to 0} f(x)=0$}
+
+    \bad{$\lim_{x\to 0} f(x)=-1$}
+
+    \good{$f$ n'admet pas de limite en $0$.}
+
+\end{answers}
+\begin{explanations}
+L'ensemble des rationnels est dense dans $\Rr$. Donc il existe une suite de rationnels $(u_n)$ qui tend vers $0$ et donc  $\lim_{n\to +\infty} f(u_n)=1$.  D'autre part, l'ensemble des irrationnels est dense dans $\Rr$.  Donc il existe une suite d'irrationnels $(v_n)$ qui tend vers $0$ et donc  $\lim_{n\to +\infty} f(v_n)=\lim_{n\to +\infty} (v_n-1) = -1 $. On en déduit que  $f$ n'admet pas de limite en $0$.
+\end{explanations}
+\end{question}
+}

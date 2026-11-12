@@ -1,0 +1,32 @@
+\uuid{EPhZ}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{2}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.045}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Le graphique ci-dessous représente plusieurs solutions de l'équation différentielle \(y'+2y=b\), où \(b\) est un réel. Quelle est la valeur de \(b\) ?
+
+\qimage{images/png/EPhZ-1.png}
+
+\begin{answers}
+	\good{\(b=-2\)}
+	\bad{\(b=-1\)}
+	\bad{\(b=1/2\)}
+	\bad{\(b=1\)}
+\end{answers}
+\begin{explanations}
+L'équation différentielle peut s'écrire \(y'=ay+b\) avec \(a=-2\) donc ses solutions  sont les fonctions \(x\mapsto C e^{ax}-\frac ba=C e^{-2x}+\frac b2\). De plus \(\lim_{x\to +\infty} e^{-2x}=0\) donc \(b/2\) est la limite des solutions lorsque \(x\) tend vers \(+\infty\). On lit graphiquement que cette limite vaut $-1 = b/2$ donc on en déduit que $b=-2$.
+\end{explanations}
+\end{question}
+}

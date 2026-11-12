@@ -1,0 +1,35 @@
+\uuid{3fY4}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changements de variables}
+\exo7qcmid{lille-2.primitives.050}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changements de variables}
+Soient $a$ et $b$ deux réels et $f$ la fonction telle que $\displaystyle f(x)=\frac{1}{\sqrt{ax^2+b}}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Si $a$ et $b$ sont strictement positifs, il existe une constante $C$ telle que $F(x)=C\arcsin \left(x\sqrt{a/b}\right)$ soit une primitive de $f(x)$.}
+\good{Si $a$ et $b$ sont strictement positifs, il existe une constante $C$ telle que $F(x)=C\sqrt{ax^2+b}$ soit une primitive de $xf(x)$.}
+\good{Si $a$ est strictement négatif et $b$ est strictement positif, il existe une constante $C$ telle que $F(x)=C\arcsin \left(x\sqrt{-a/b}\right)$ soit une primitive de $f(x)$.}
+\bad{Si $a$ est strictement positif et $b$ est strictement négatif, il existe une constante $C$ telle que $F(x)=C\arcsin \left[x\sqrt{a/(-b)}\right]$ soit une primitive de $f(x)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Il suffit de dériver : $\displaystyle \left[C\arcsin \left(x\sqrt{a/b}\right)\right]'=\frac{C\sqrt{a}}{\sqrt{b-ax^2}}\neq f(x)$ pour tout $C\in \Rr$. Par contre,
+$$\left(C\sqrt{ax^2+b}\right)'=\frac{Cax}{\sqrt{ax^2+b}}=xf(x)\quad \mbox{si}\quad C=a^{-1}.$$
+Si $a$ est strictement négatif et $b$ est strictement positif,
+$$\left[C\arcsin \left(x\sqrt{-a/b}\right)\right]'=\frac{C\sqrt{-a}}{\sqrt{b+ax^2}}=f(x)\quad \mbox{si}\quad C\sqrt{-a}=1.$$
+Par contre, si $a$ est strictement positif et $b$ est strictement négatif alors, pour tout $C\in \Rr$, $\left[C\arcsin \left(x\sqrt{a/(-b)}\right)\right]'\neq f(x)$.
+\end{explanations}
+\end{question}
+}

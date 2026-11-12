@@ -1,0 +1,34 @@
+\uuid{Szzc}
+\titre{Intégration par parties}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Calculs d'intégrales, intégration par parties}
+\exo7qcmid{lille-2.integrales.005}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=intégration par parties}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle \int _1^{\mathrm{e}}\ln t\mathrm{d}t=\Big[t\ln t\Big]_1^{\mathrm{e}}-\int _1^{\mathrm{e}}\mathrm{d}t$.}
+\good{$\displaystyle \int _1^{\mathrm{e}}\ln t\mathrm{d}t=1$.}
+\bad{$\displaystyle \int _1^{2}t\ln t\mathrm{d}t=\Big[t^2\ln t\Big]_1^{\mathrm{e}}-\int _1^{\mathrm{e}}t\mathrm{d}t$.}
+\bad{$\displaystyle \int _1^{2}t\ln t\mathrm{d}t=\frac{\mathrm{e}^2+1}{2}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Une intégration par parties avec $u=\ln t$ et $v=t\Rightarrow v'=1$ donne :
+$$\displaystyle \int _1^{\mathrm{e}}\ln t\mathrm{d}t=\Big[t\ln t\Big]_1^{\mathrm{e}}-\int _1^{\mathrm{e}}\mathrm{d}t=1.$$
+Une intégration par parties, avec $u=\ln t$ et $v=t^2/2\Rightarrow v'=t$, donne :
+$$\displaystyle \int _1^{2}t\ln t\mathrm{d}t=\left[\frac{t^2}{2}\ln t\right]_1^{\mathrm{e}}-\int _1^{\mathrm{e}}\frac{t}{2}\mathrm{d}t=\frac{\mathrm{e}^2+1}{4}.$$
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,36 @@
+\uuid{yjv0}
+\titre{Noyau/Image/Espaces supplémentaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Espaces supplémentaires}
+\exo7qcmid{lille-2.applications-lineaires.034}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Espaces supplémentaires}
+Soit $E$ un $\Rr$-espace vectoriel de dimension finie et $f$ un endomorphisme de $E$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$E= \ker f \oplus \Im f$}.
+\good{Si $\ker f= \ker f^2$, alors $E= \ker f \oplus \Im f$}.
+\good{Si $\Im f= \Im f^2$, alors $\ker f= \ker f^2$}.
+\good{Si $E= \ker f \oplus \Im f $, alors $\ker f= \ker f^2$}.
+\end{answers}
+\begin{explanations} Le noyau et l'image d'un endomorphisme ne sont pas nécessairement supplémentaires.
+\vskip0mm
+Soit $y\in \ker f \cap \Im f$. Donc $f(y)=0$ et il existe $x\in E$ tel que $y=f(x)$, donc  $f^2(x)=0$. Or $\ker f^2 \subset ker f$, donc $f(x)=0$ et donc $y=0$. En utilisant le théorème du rang, on déduit que $E= \ker f \oplus \Im f $.
+\vskip0mm
+D'après le théorème du rang, $\dim \ker f+ \dim \Im f = \dim \ker f^2+ \dim \Im f^2=\dim E$. Si  $\Im f= \Im f^2$,
+on déduit que $\dim \ker f= \dim \ker f^2$. Or $\ker f$ est un sous-espace de $\ker f^2$, donc $\ker f= \ker f^2$.
+\vskip0mm
+On suppose que $E= \ker f \oplus \Im f $. Soit $x\in \ker f^2$, alors $f^2(x)=f(f(x))=0$. Donc $f(x) \in \Im f \cap \ker f$. Or $\Im f \cap \ker f = \{0\}$, donc $x\in \ker f$ et donc $\ker f^2 \subset \ker f$. On déduit que $\ker f^2 = \ker f$, puisque $\ker f \subset \ker f^2$ pour tout endomorphisme $f$.
+\end{explanations}
+\end{question}
+}

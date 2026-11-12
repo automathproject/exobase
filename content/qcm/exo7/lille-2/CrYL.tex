@@ -1,0 +1,36 @@
+\uuid{CrYL}
+\titre{Changement de variables/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables, éléments simples}
+\exo7qcmid{lille-2.primitives.047}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables/éléments simples}
+On se place dans l'intervalle $]-\pi,\pi[$ et on rappelle que $\displaystyle \cos x=\frac{1-\tan ^2(x/2)}{1+\tan ^2(x/2)}$ et que $\displaystyle \sin x=\frac{2\tan (x/2)}{1+\tan ^2(x/2)}$. Le changement de variable $t=\tan (x/2)$ donne :
+\begin{answers}
+\good{$\displaystyle \int \frac{\mathrm{d}x}{2+\cos x}=\int \frac{2\mathrm{d}t}{3+t^2}$.}
+\good{$\displaystyle \int \frac{\mathrm{d}x}{2+\sin x}=\int \frac{\mathrm{d}t}{t^2+t+1}$.}
+\bad{$\displaystyle \int \frac{\mathrm{d}x}{2+\cos x}=\frac{1}{\sqrt{3}}\arctan\left(\frac{t}{\sqrt{3}}\right)+k$, $k\in \Rr$.}
+\bad{$\displaystyle \int \frac{\mathrm{d}x}{2+\sin x}=\frac{1}{\sqrt{2t+1}}\ln (t^2+t+1)+k$, $k\in \Rr$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $t=\tan (x/2)$, on a : $\displaystyle \mathrm{d}x=\frac{2\mathrm{d}t}{1+t^2}$,
+$$\frac{1}{2+\cos x}=\frac{1+t^2}{3+t^2}\quad \mbox{et}\quad \frac{1}{2+\sin x}=\frac{1+t^2}{2(t^2+t+1)}.$$
+D'où
+$$\int \frac{\mathrm{d}x}{2+\cos x}=\int \frac{2\mathrm{d}t}{3+t^2}=\frac{2}{\sqrt{3}}\arctan\left(\frac{t}{\sqrt{3}}\right)+k,\; k\in \Rr.$$
+et
+$$\int \frac{\mathrm{d}x}{2+\sin x}=\int \frac{\mathrm{d}t}{t^2+t+1}=\frac{2}{\sqrt{3}}\arctan\left(\frac{2t+1}{\sqrt{3}}\right)+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

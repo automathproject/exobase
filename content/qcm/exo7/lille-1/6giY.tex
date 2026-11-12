@@ -1,0 +1,34 @@
+\uuid{6giY}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.030}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+On admet que $\forall x \in [0,1[$, $\ln (1+x)\leq x\leq -\ln (1-x)$. Soit $\displaystyle u_n=\sum _{k=1}^n\frac{1}{n+k}$, $n\geq 1$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{La suite $(u_n)$ est croissante non majorée.}
+    \good{Pour tout $n\geq 1$, $\displaystyle \ln \left(\frac{2n+1}{n+1}\right)\leq u_n\leq \ln (2)$.}
+    \good{$(u_n)$ est convergente et $\displaystyle \lim _{n\to +\infty}u_n=\ln (2)$.}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$}
+\end{answers}
+\begin{explanations}
+Avec $\displaystyle x=\frac{1}{n+k}$, on aura :
+$$\ln(n+k+1)-\ln (n+k)\leq \frac{1}{n+k}\leq \ln(n+k)-\ln (n+k-1).$$
+On somme sur $k$ de $1$ à $n$, on obtient :
+$$\ln \left(\frac{2n+1}{n+1}\right)\leq u_n\leq \ln (2n)-\ln (n)=\ln (2).$$
+Le théorème d'encadrement implique que $(u_n)$ converge et que sa limite est $\ln (2)$.
+\end{explanations}
+\end{question}
+}

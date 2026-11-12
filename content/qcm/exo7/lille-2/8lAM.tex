@@ -1,0 +1,35 @@
+\uuid{8lAM}
+\titre{Intégration/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{2}
+\theme{Opérations sur les DL, Intégration, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.012}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Intégration/DL usuels}
+Soit $\displaystyle f(x)=\arcsin (x)$ et $\displaystyle g(x)=\arctan (x)$. Alors
+\begin{answers}
+\good{$\displaystyle DL_2(0)f'(x)=1+\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle DL_2(0)g'(x)=1+x^2+o(x^2)$.}
+\good{$\displaystyle DL_3(0)f(x)=x+\frac{x^3}{6}+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)g(x)=x+\frac{x^3}{3}+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+On a : $\displaystyle f'(x)=(1-x^2)^{-1/2}=1+\frac{x^2}{2}+o(x^2)$ et $\displaystyle g'(x)=\frac{1}{1+x^2}=1-x^2+o(x^2)$. Par intégration, et puisque $\arcsin (0)=0$ et $\arctan (0)=0$, on obtient :
+$$DL_3(0)f(x)=x+\frac{x^3}{6}+o(x^3)\quad \mbox{ et }\quad DL_3(0)g(x)=x-\frac{x^3}{3}+o(x^3).$$
+\end{explanations}
+\end{question}
+}

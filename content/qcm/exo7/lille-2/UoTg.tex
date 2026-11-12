@@ -1,0 +1,31 @@
+\uuid{UoTg}
+\titre{Espaces supplémentaires/Base/Dimension/Polynômes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Espace vectoriel}
+\sousChapitre{Somme directe}
+\difficulte{2}
+\theme{Espaces vectoriels supplémentaires, Espaces supplémentaires, Base, Dimension, Polynômes}
+\exo7qcmid{lille-2.espaces-vectoriels.054}
+
+\contenu{
+\begin{question}
+\qclassification{106.03}
+\qtags{motcle=Espaces supplémentaires/Base/Dimension/Polynômes}
+Dans $\Rr_3[X]$, l'espace des polynômes à coefficients réels  de degré $\le 3$, on considère les deux sous-espaces vectoriels :
+$$E= \{P \in \Rr_3[X] \, ; \; P(0)=P(1)=0\}\; \mbox{ et }\; F= \{(P\in \Rr_3[X] \, ; \; P'(0)=P''(0)=0 \},$$
+où $P'$ (resp. $P''$) est la dérivée première (resp. seconde) de $P$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\dim E= 3$}.
+\bad{$\dim F = 1$}.
+\good{$E+F=\Rr_3[X]$}.
+\good{$E$ et $F$ sont supplémentaires dans $\Rr_3[X]$}.
+\end{answers}
+\begin{explanations} Une base de $E$ est $\{P_1,P_2\}$,  où $P_1=X^3-X$ et $P_2=X^2-X$, donc $\dim E=2$. Une base de $F$ est $\{Q_1,Q_2\}$, où $Q_1=1$ et $Q_2=X^3$, donc $\dim F=2$. On vérifie que $E\cap F =\{0\}$. Donc, d'après le théorème de la dimension d'une somme, $\dim (E+F) = 4$ et comme $E+F$ est un sous-espace de $\Rr_3[X]$ et $\dim \Rr_3[X]=4$, $E+F= \Rr_3[X]$. Par conséquent, $E$ et $F$ sont  supplémentaires dans $\Rr_3[X]$.
+\end{explanations}
+\end{question}
+}

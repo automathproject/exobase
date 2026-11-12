@@ -1,0 +1,59 @@
+\uuid{LkhI}
+\titre{Système linéaire à paramètres/Méthode du Pivot de Gauss}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires, Système linéaire à paramètres, Méthode du Pivot de Gauss}
+\exo7qcmid{lille-2.systemes.013}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à paramètres/Méthode du Pivot de Gauss}
+On considère le système d'équations, d'inconnue $(x,y,z,t) \in \Rr^4$ et  de paramètres des réels  $a$ et $m$ :
+$$(\mathtt{S})
+\left\{\begin{array}{rcc}
+x-z-t&=&0\\
+-x+y+z&=&a\\
+2x+y-z&=&m \\
+x-mz-t&=&a \\
+x+y+t&=&m.\end{array}\right.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x-z-t&=&0\\
+y-t&=&a\\
+z+3t&=&m-a \\
+(1-m)z&=&a.\end{array}\right.$}
+\bad{Si $m=1$ et $a=0$,  $(\mathtt{S})$ admet une unique solution.}
+\good{Si $m \neq 1$ et $a$ un réel quelconque,  $(\mathtt{S})$ admet une unique solution.}
+\bad{Si $m \neq 1$ et $a\neq 0$, $(\mathtt{S})$ admet une infinité de solutions.}
+\end{answers}
+\begin{explanations}
+$$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x-z-t&=&0\\
+y-t&=&a\\
+y+z+2t&=&m \\
+(1-m)z&=&a \end{array}\right.
+\Leftrightarrow
+\left\{\begin{array}{rcc}
+x-z-t&=&0\\
+y-t&=&a\\
+z+3t&=&m-a \\
+(1-m)z&=&a.\end{array}\right.$$
+\begin{enumerate}
+\item[-]Si $m=1$ et $a\neq 0$, $(\mathtt{S})$ n'admet pas  de solution.
+\item[-]Si $m=1$ et $a= 0$, $(\mathtt{S})$ admet une infinité de solutions.
+\item[-]Si $m\neq1$, $(\mathtt{S})$ admet une unique solution.
+\end{enumerate}
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,67 @@
+\uuid{udMr}
+\titre{Systèmes d'équations linéaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires}
+\exo7qcmid{lille-2.systemes.024}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à $n$ inconnus et à un paramètre}
+On considère le système d'équations, d'inconnue $(x_1,x_2,\dots,x_n) \in \Rr^n$, $n \ge 2$ :
+$$(\mathtt{S})
+\left\{\begin{array}{ccc}
+x_1+x_2+\dots+ x_{n-2}+x_{n-1}+ax_n&=&1\\
+x_1+x_2+\dots+ x_{n-2}+ax_{n-1}+x_n&=&1\\
+x_1+x_2+\dots+ ax_{n-2}+x_{n-1}+x_n&=&1\\
+\vdots  &\vdots&\vdots\\
+ax_1+x_2+\dots+ x_{n-2}+x_{n-1}+x_n&=&1,
+\end{array}\right.$$
+où $a$ est un paramètre réel. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$(\mathtt{S})\Leftrightarrow
+\left\{\begin{array}{rcc}
+x_1+x_2+\dots+ x_{n-2}+x_{n-1}+ax_n \qquad  \qquad  &=&1\\
+(a-1)[x_{n-1}-x_n]\qquad \qquad&=&0\\
+(a-1)[x_{n-2}-x_n]\qquad \qquad&=&0\\
+ \vdots \qquad \qquad&\vdots&\vdots\\
+(a-1)[x_2-x_n]\qquad \qquad&=&0\\
+(1-a)[x_2+\dots+x_{n-2}+x_{n-1}+(1+a)x_n]&=&1-a.\end{array}\right.$}
+\good{Si $a=1$, $(\mathtt{S})$ admet une infinité de solutions.}
+\bad{Si $a \neq 1$, $(\mathtt{S})$ admet une unique solution.}
+\good{$a=1-n$, $(\mathtt{S})$ n'admet pas de solution.}
+\end{answers}
+\begin{explanations}
+$$(\mathtt{S})  \Leftrightarrow
+\left\{\begin{array}{rcc}
+x_1+x_2+\dots+ x_{n-2}+x_{n-1}+ax_n \qquad  \qquad  &=&1\\
+(a-1)[x_{n-1}-x_n]\qquad \qquad&=&0\\
+(a-1)[x_{n-2}-x_n]\qquad \qquad&=&0\\
+\vdots \qquad \qquad&\vdots&\vdots\\
+(a-1)[x_2-x_n]\qquad \qquad&=&0\\
+(1-a)[x_2+\dots+x_{n-2}+x_{n-1}+(1+a)x_n]&=&1-a.\\
+\end{array}\right.$$
+\begin{enumerate}
+\item[-]Si $a=1$, $(\mathtt{S}) \Leftrightarrow x_1+x_2+\dots+ x_n =1$, donc $(\mathtt{S})$ admet une infinité de solutions.
+\item[-]Si $a\neq 1$, $$(\mathtt{S})  \Leftrightarrow \left\{\begin{array}{rcc}
+x_1+x_2+\dots+ x_{n-2}+x_{n-1}+ax_n   &=&1\\
+x_{n-1}&=&x_n\\
+x_{n-2}&=&x_n\\
+\vdots &\vdots&\vdots\\
+x_2&=&x_n\\
+(n-1+a)x_n&=&1.\\
+\end{array}\right.$$
+\item[-]Si $a=1-n$, $(\mathtt{S})$ n'admet pas de solution.
+\item[-]Si $a\neq 1-n$, $(\mathtt{S})$ admet une unique solution.
+\end{enumerate}
+\end{explanations}
+\end{question}
+}

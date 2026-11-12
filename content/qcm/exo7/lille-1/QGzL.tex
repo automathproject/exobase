@@ -1,0 +1,39 @@
+\uuid{QGzL}
+\titre{Trigonométrie}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Fonctions usuelles, trigonométrie}
+\exo7qcmid{lille-1.fonctions-usuelles.026}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=trigonométrie}
+Soit $f(x)= \arccos (\frac{1-x^2}{1+x^2})$. On notera $D_f$ le domaine de définition de $f$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \good{$D_f= \Rr$}
+
+    \bad{$D_f=[-1,1]$}
+
+    \good{$ f(x)= 2\arctan x, \, \forall x\ge 0$}
+
+    \good{$f(x)  = 2\arctan |x|, \, \forall x \in \Rr$}
+\end{answers}
+\begin{explanations}
+$f$ est définie si $-1\le \frac{1-x^2}{1+x^2} \le 1 $, ce qui est le cas pour tout $x \in \Rr$.
+$f$ est dérivable sur $\Rr^*$ et $f'(x) = \frac{2x}{|x|(1+x^2)} =\left\{\begin{array}{cc}\frac{2}{1+x^2},& \mbox{si} \, x>0 \\ -\frac{2}{1+x^2},& \mbox{si} \, x<0 \end{array}\right. $.
+On déduit que
+$f(x)= \left\{\begin{array}{cc}2\arctan x + c_1, & \mbox{si} \, x\ge 0 \\ -2\arctan x + c_2, & \mbox{si} \, x\le 0 \end{array}\right. $, où $c_1$ et $ c_2$  sont des constantes.
+Comme $f$ est continue en $0$ (ou par identification en $+\infty$ et en $-\infty$), on obtient $c_1=c_2=0$. Ainsi
+$f(x)= \left\{\begin{array}{cc}2\arctan x, & \mbox{si} \, x\ge 0 \\ -2\arctan x, & \mbox{si} \, x\le 0 \end{array}\right.$.  Donc $f(x)  = 2\arctan |x|, \, \forall x \in \Rr$.
+
+\end{explanations}
+\end{question}
+}

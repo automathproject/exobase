@@ -1,0 +1,704 @@
+{
+ "source": "QCM Exo7",
+ "url": "https://github.com/exo7math/qcm-exo7",
+ "commit": "abbf5cae5fbb6dd1b2dc0d04f9da91465bd51d30",
+ "licence": "CC BY-NC-SA 4.0",
+ "licence_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+ "format_source": "exo7qcm (LaTeX)",
+ "type_de_contenu": "qcm",
+ "destination": "content/qcm/exo7/<lot>/<uuid>.tex",
+ "transformation": "tools/import/import_qcm_exo7.py",
+ "contenus": 934,
+ "questions": 959,
+ "series_ordonnees": 8,
+ "manifeste_detaille": "sources/manifests/qcm-exo7-id-map.json",
+ "normalisation": {
+  "series": "Une sous-section dont les questions suivent un énoncé commun devient un seul contenu, marqué \\serie{ordonnee}.",
+  "preambule": "Les conventions posées en tête de chapitre sont répétées dans \\texte{} devant chaque question concernée.",
+  "difficulte": "Facile/Moyen/Difficile -> 1/2/3 ; Niveau 1/2/3/4 -> 1/2/3/3 (le libellé d'origine reste dans le manifeste détaillé).",
+  "classification": "Codes Exo7 de la source quand ils existent, sinon attribués par la table CLASSIFICATION de l'outil.",
+  "ordre_des_reponses": "\\qkeeporder ajouté quand une réponse en désigne d'autres par leur position.",
+  "enonce_par_defaut": "« Quelles sont les assertions vraies ? » ajouté aux questions sans énoncé."
+ },
+ "corrections_editoriales": [
+  {
+   "source": "worms.worms.038",
+   "uuid": "N19x",
+   "motif": "f_2 est une densité d'après l'explication de la source (« c' existe bien »)."
+  },
+  {
+   "source": "worms.worms.038",
+   "uuid": "N19x",
+   "motif": "f_4 est une densité d'après l'explication de la source (« donc oui »)."
+  }
+ ],
+ "qkeeporder_ajoute": [
+  "lille-1.logique.009",
+  "lille-2.espaces-vectoriels.025",
+  "worms.worms.008",
+  "worms.worms.013",
+  "worms.worms.019",
+  "worms.worms.021",
+  "worms.worms.026",
+  "worms.worms.027",
+  "worms.worms.028",
+  "worms.worms.029",
+  "worms.worms.030",
+  "worms.worms.032",
+  "worms.worms.034",
+  "worms.worms.037"
+ ],
+ "enonce_par_defaut_ajoute": [
+  "arnaud.arnaud.012",
+  "arnaud.arnaud.013",
+  "arnaud.arnaud.015",
+  "arnaud.arnaud.016",
+  "arnaud.arnaud.018",
+  "arnaud.arnaud.019",
+  "arnaud.arnaud.020",
+  "arnaud.arnaud.021",
+  "arnaud.arnaud.023",
+  "arnaud.arnaud.025",
+  "arnaud.arnaud.026",
+  "arnaud.arnaud.027",
+  "arnaud.arnaud.028",
+  "arnaud.arnaud.029",
+  "arnaud.arnaud.030"
+ ],
+ "sans_bonne_reponse": [],
+ "texte_ecarte": [
+  "questions-systemes.tex: yste"
+ ],
+ "lots": {
+  "lille-1": {
+   "dossier": "questions-lille-1",
+   "niveau": "L1",
+   "fichiers": [
+    {
+     "fichier": "questions-continuite.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_fonctions.pdf",
+       "titre": "Limites et fonctions continues"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/TJLpXWXPsFs",
+       "titre": "Continuité en un point"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/_cA6CkKYZxU",
+       "titre": "Continuité sur un intervalle"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/TAUg4HL5fHs",
+       "titre": "Fonctions monotones et bijections"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00012.pdf",
+       "titre": "Fonctions continues"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-derivees.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_derivee.pdf",
+       "titre": "Dérivée d'une fonction"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/5wpc0nsbBm4",
+       "titre": "Définition"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/TNfUA1PxosI",
+       "titre": "Calculs"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/t1uRmjrMnp8",
+       "titre": "Extremum local, théorème de Rolle"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/VdsiZNpZs2A",
+       "titre": "Théorème des accroissements finis"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00013.pdf",
+       "titre": "Fonctions dérivables"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-ensembles.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_ensembles.pdf",
+       "titre": "Ensembles et applications"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/bPT6-g3B5wQ",
+       "titre": "Ensembles"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/Y8cV0zcFijs",
+       "titre": "Applications"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/1qax9qMxz4c",
+       "titre": "Injection, surjection, bijection"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/NElSI5_NIsk",
+       "titre": "Ensembles finis"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/WuJyP_7VIu8",
+       "titre": "Relation d'équivalence"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00002.pdf",
+       "titre": "Logique, ensembles, raisonnements"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00003.pdf",
+       "titre": "Injection, surjection, bijection"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00005.pdf",
+       "titre": "Dénombrement"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-fonctions-usuelles.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_usuelles.pdf",
+       "titre": "Fonctions usuelles"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/l8ZaQUjM5h8",
+       "titre": "partie 1. Logarithme et exponentielle"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/lGfC0R_FGaM",
+       "titre": "partie 2. Fonctions circulaires inverses"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/tsN8Wn8j-1U",
+       "titre": "partie 3. Fonctions hyperboliques et hyperboliques inverses"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00014.pdf",
+       "titre": "Fonctions circulaires et hyperboliques inverses"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-geometrie-espace.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00159.pdf",
+       "titre": "Droites du plan ; droites et plans de l'espace"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-geometrie-plane.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00159.pdf",
+       "titre": "Droites du plan ; droites et plans de l'espace"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-limites.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_fonctions.pdf",
+       "titre": "Limites et fonctions continues"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/_4okV9eXD8k",
+       "titre": "Notions de fonction"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/9L12nIsoYX0",
+       "titre": "partie 2. Limites"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00011.pdf",
+       "titre": "Limites de fonctions"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-logique.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_logique.pdf",
+       "titre": "Logique et raisonnements"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/aWSe1fjJHEM",
+       "titre": "Logique"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/B-I5yZd0Wbk",
+       "titre": "Raisonnements"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00002.pdf",
+       "titre": "Logique, ensembles, raisonnements"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-nombres-complexes.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_complexes.pdf",
+       "titre": "Nombres complexes"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/utABzdEXLuE",
+       "titre": "Les nombres complexes, définitions et opérations"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/KmPyB3Twjio",
+       "titre": "Racines carrées, équation du second degré"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/k9eqlVv535o",
+       "titre": "Argument et trigonométrie"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/ej9zpQYsQs8",
+       "titre": "Nombres complexes et géométrie"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00001.pdf",
+       "titre": "Nombres complexes"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-polynomes.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_polynomes.pdf",
+       "titre": "Polynômes"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/dDKI3jkMjfw",
+       "titre": "Définitions"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/CnMrf9aW-LU",
+       "titre": "Arithmétique des polynômes"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/qCMnvqc2t8A",
+       "titre": "Racine d'un polynôme, factorisation"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/wf-eEQPBX0Y",
+       "titre": "Fractions rationnelles"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00007.pdf",
+       "titre": "Polynômes"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00008.pdf",
+       "titre": "Fractions rationnelles"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-reels.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_reels.pdf",
+       "titre": "Les nombres réels"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/NCWWVven9Cs",
+       "titre": "L'ensemble des nombres rationnels"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/83z7Bpz7Fzo",
+       "titre": "Propriétés des réels"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/rYOyqI9YLgA",
+       "titre": "Densité des rationnels"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/sBnmcj3jTFY",
+       "titre": "Borne supérieure"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00009.pdf",
+       "titre": "Propriétés des réels"
+      }
+     ]
+    },
+    {
+     "fichier": "questions-suites.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": [
+      {
+       "type": "cours",
+       "url": "http://exo7.emath.fr/cours/ch_suites.pdf",
+       "titre": "Les suites"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/eKWRb_wLczo",
+       "titre": "Premières définitions"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/253AEiNBvGw",
+       "titre": "Limite"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/tvbsvRGI_38",
+       "titre": "Exemples remarquables"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/0W5KVpj769E",
+       "titre": "Théorèmes de convergence"
+      },
+      {
+       "type": "video",
+       "url": "http://youtu.be/hqPxTPEqDXw",
+       "titre": "Suites récurrentes"
+      },
+      {
+       "type": "exercices",
+       "url": "http://exo7.emath.fr/ficpdf/fic00010.pdf",
+       "titre": "Suites"
+      }
+     ]
+    }
+   ]
+  },
+  "lille-2": {
+   "dossier": "questions-lille-2",
+   "niveau": "L1",
+   "fichiers": [
+    {
+     "fichier": "questions-applications-lineaires.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 34,
+     "questions": 34,
+     "liens": []
+    },
+    {
+     "fichier": "questions-courbes.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 12,
+     "questions": 12,
+     "liens": []
+    },
+    {
+     "fichier": "questions-developpements-limites.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 47,
+     "questions": 47,
+     "liens": []
+    },
+    {
+     "fichier": "questions-equations-differentielles.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 34,
+     "questions": 34,
+     "liens": []
+    },
+    {
+     "fichier": "questions-espaces-vectoriels.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 56,
+     "questions": 56,
+     "liens": []
+    },
+    {
+     "fichier": "questions-integrales.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 37,
+     "questions": 37,
+     "liens": []
+    },
+    {
+     "fichier": "questions-matrice-application.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": []
+    },
+    {
+     "fichier": "questions-matrices.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 34,
+     "questions": 34,
+     "liens": []
+    },
+    {
+     "fichier": "questions-primitives.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 50,
+     "questions": 50,
+     "liens": []
+    },
+    {
+     "fichier": "questions-systemes.tex",
+     "auteurs": [
+      "Abdellah Hanani",
+      "Mohamed Mzari"
+     ],
+     "contenus": 26,
+     "questions": 26,
+     "liens": []
+    }
+   ]
+  },
+  "hilisit": {
+   "dossier": "questions-hilisit",
+   "niveau": "L1",
+   "fichiers": [
+    {
+     "fichier": "questions-arithmetique.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Barnabé Croizat",
+      "Christine Sacré"
+     ],
+     "contenus": 52,
+     "questions": 52,
+     "liens": []
+    },
+    {
+     "fichier": "questions-equations-differentielles.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Barnabé Croizat",
+      "Christine Sacré"
+     ],
+     "contenus": 55,
+     "questions": 55,
+     "liens": []
+    },
+    {
+     "fichier": "questions-logique.tex",
+     "auteurs": [
+      "Arnaud Bodin",
+      "Barnabé Croizat",
+      "Christine Sacré"
+     ],
+     "contenus": 56,
+     "questions": 56,
+     "liens": []
+    }
+   ]
+  },
+  "worms": {
+   "dossier": "questions-probabilites-worms",
+   "niveau": "L2",
+   "fichiers": [
+    {
+     "fichier": "questions-worms.tex",
+     "auteurs": [
+      "Julien Worms"
+     ],
+     "contenus": 21,
+     "questions": 46,
+     "liens": []
+    }
+   ]
+  },
+  "arnaud": {
+   "dossier": "questions-arnaud",
+   "niveau": "L1",
+   "fichiers": [
+    {
+     "fichier": "questions-arnaud.tex",
+     "auteurs": [
+      "Arnaud Bodin"
+     ],
+     "contenus": 30,
+     "questions": 30,
+     "liens": []
+    }
+   ]
+  }
+ }
+}

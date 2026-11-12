@@ -1,0 +1,37 @@
+\uuid{Ik2A}
+\titre{Intégration/DL usuels/Dl en l'infini}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Intégration, DL usuels, Dl en l'infini}
+\exo7qcmid{lille-2.developpements-limites.028}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Intégration/DL usuels/Dl en l'infini}
+Soit $\displaystyle f(x)=\arctan\left(\frac{x}{x+1}\right)$. On considère la fonction $g$ définie par $\displaystyle g(t)=f\left(\frac{1}{t}\right)$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Pour $0<t$, $\displaystyle g(t)=\frac{\pi}{2}-\arctan (1+t)$ et $\displaystyle DL_1(0)g'(t)=-\frac{1}{2}+\frac{t}{2}+o(t)$.}
+\bad{$\displaystyle DL_2(0^+)g(t)=-\frac{t}{2}+\frac{t^2}{4}+o(t^2)$.}
+\bad{$\displaystyle DL_2(+\infty)f(x)=-\frac{1}{2x}+\frac{1}{4x^2}+o\left(\frac{1}{x^2}\right)$.}
+\good{$\displaystyle DL_2(+\infty)f(x)=\frac{\pi}{4}-\frac{1}{2x}+\frac{1}{4x^2}+o\left(\frac{1}{x^2}\right)$.}
+\end{answers}
+\begin{explanations}
+Pour $0<t$, on a : $\displaystyle g(t)=\arctan\left(\frac{1}{1+t}\right)=\frac{\pi}{2}-\arctan (1+t)$ et
+$$g'(t)=\frac{-1}{1+(1+t)^2}=\frac{-1}{2}\times \frac{1}{1+(t+t^2/2)}=-\frac{1}{2}+\frac{t}{2}+o(t).$$
+Par intégration, et puisque $\displaystyle \arctan 1=\frac{\pi}{4}$, on obtient :
+$$DL_2(0^+)g(t)=\frac{\pi}{4}-\frac{t}{2}+\frac{t^2}{4}+o(t^2)\Rightarrow DL_2(+\infty)f(x)=\frac{\pi}{4}-\frac{1}{2x}+\frac{1}{4x^2}+o\left(\frac{1}{x^2}\right).$$
+\end{explanations}
+\end{question}
+}

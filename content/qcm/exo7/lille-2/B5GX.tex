@@ -1,0 +1,40 @@
+\uuid{B5GX}
+\titre{Intégration/DL en l'infini}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Intégration, DL en l'infini}
+\exo7qcmid{lille-2.developpements-limites.019}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Intégration/DL en l'infini}
+Soit $\displaystyle f(x)=\arctan x$. Pour $t\neq 0$, on pose $\displaystyle g(t)=f\left(\frac{1}{t}\right)$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Pour $t>0$, on a : $\displaystyle g(t)=\frac{\pi}{2}+\arctan (t)$.}
+\good{Pour tout $x>0$, $\displaystyle g'(t)=\frac{-1}{1+t^2}$.}
+\bad{$\displaystyle DL_3(0^+)g(t)=-t+\frac{t^3}{3}+o(t^3)$.}
+\good{$\displaystyle DL_3(+\infty)f(x)=\frac{\pi}{2}-\frac{1}{x}+\frac{1}{3x^3}+o\left(\frac{1}{x^3}\right)$.}
+\end{answers}
+
+\vskip2mm
+
+\begin{explanations}
+Pour $t>0$, on a : $\displaystyle g(t)=\arctan \left(\frac{1}{t}\right)=\frac{\pi}{2}-\arctan (t)$. Donc
+$$\displaystyle g'(t)=-\frac{1}{1+t^2}=-1+t^2+o(t^2)$$
+et, par intégration, $\displaystyle DL_3(0^+)g(t)=\frac{\pi}{2}-t+\frac{t^3}{3}+o(t^3)$ car $\arctan 0=0$. Ainsi
+$$\displaystyle DL_3(+\infty)f(x)=\frac{\pi}{2}-\frac{1}{x}+\frac{1}{3x^3}+o\left(\frac{1}{x^3}\right).$$
+\end{explanations}
+\end{question}
+}

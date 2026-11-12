@@ -1,0 +1,32 @@
+\uuid{mfpt}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.022}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+Soit $\displaystyle u_n=\left|\frac{1}{n}-\frac{2}{n}+\frac{3}{n}-\dots+\frac{(-1)^{n-1}n}{n}\right|$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{La suite $(u_n)$ est monotone.}
+    \good{Les suites $(u_{2n})$ et $(u_{2n+1})$ convergent vers la même limite.}
+    \bad{La suite $(u_n)$ est divergente.}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=\frac{1}{2}$}
+\end{answers}
+\begin{explanations}
+On vérifie que, pour tout $n\geq 1$,
+$$u_{2n}=\frac{1}{2}\mbox{ et }u_{2n+1}=\frac{n+1}{2n+1}.$$
+Donc les suites $(u_{2n})$ et $(u_{2n+1})$ convergent vers la même limite, à savoir $\displaystyle \frac{1}{2}$. D'après le théorème des suites extraites, la suite $(u_n)$ converge aussi vers $\displaystyle \frac{1}{2}$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,32 @@
+\uuid{ZCaa}
+\titre{Dérivée sur un intervalle}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, dérivée sur un intervalle}
+\exo7qcmid{lille-1.derivees.022}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée sur un intervalle}
+Soit $f$ une fonction continue sur $[-1,1]$ telle que $f(0)=\pi$ et, pour tout $x\in ]-1,1[$, $\displaystyle f'(x)=\frac{1}{\sqrt{1-x^2}}$. Comment peut-on exprimer $f$ ?
+\begin{answers}
+    \bad{$f(x)=\sqrt{1-x^2}-1+\pi$}
+    \good{$f(x)=\arcsin (x)+\pi$}
+    \good{$\displaystyle f(x)=-\arccos x+\frac{3\pi}{2}$}
+    \bad{Une telle fonction $f$ n'existe pas.}
+\end{answers}
+\begin{explanations}
+On remarque que $f'(x)=(\arcsin x)'=(-\arccos x)'$. Donc, par continuité,
+$$\forall x\in [-1,1],\; f(x)=\arcsin x+C_1=-\arccos x+C_2.$$
+Mais $f(0)=\pi \Rightarrow C_1=\pi$ et $\displaystyle C_2=\frac{3\pi}{2}$.
+\end{explanations}
+\end{question}
+}

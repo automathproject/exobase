@@ -1,0 +1,29 @@
+\uuid{TNy0}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{2}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.050}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit l'équation différentielle $y'=y+2e^{3x} + 4x e^{3x}$. On recherche une solution particulière sous la forme $f(x) = ax e^{bx}$. Quelles doivent être les valeurs de $a$ et $b$ ?
+\begin{answers}
+	\bad{$a=4$, $b=3$}
+	\good{$a=2$, $b=3$}
+	\bad{$a=1$, $b=3$}
+	\bad{$a=1$, $b=4$}
+\end{answers}
+\begin{explanations}
+On calcule qu'avec la forme voulue, on a $f'(x) = a e^{bx} + abxe^{bx}$. Ainsi en remplaçant dans l'équation différentielle, on obtient : $a e^{bx} + abxe^{bx} = ax e^{bx} + 2e^{3x} + 4x e^{3x}$, ce qu'on peut écrire $(a+a(b-1)x)e^{bx} = (2+4x)e^{3x}$ pour y voir plus clair. On peut donc identifier dans l'exposant de l'exponentielle que $b=3$. Puis cela donne pour le polynôme qui accompagne les exponentielles $a+2ax = 2 + 4x$, et donc $a=2$.
+\end{explanations}
+\end{question}
+}

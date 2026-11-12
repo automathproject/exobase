@@ -1,0 +1,32 @@
+\uuid{TQuJ}
+\titre{Pour tout/il existe}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Logique}
+\difficulte{3}
+\theme{Logique, pour tout, il existe}
+\exo7qcmid{lille-1.logique.016}
+
+\contenu{
+\begin{question}
+\qclassification{100.01}
+\qtags{motcle=pour tout/il existe}
+Soit $f : \Rr \to \Rr$ la fonction définie par $f(x)=\exp(x)-1$.
+Quelles sont les assertions vraies ?
+\begin{answers}
+    \good{$\forall x,x' \in \Rr  \qquad x \neq x' \implies f(x) \neq f(x')$}
+    \good{$\forall x,x' \in \Rr  \qquad x \neq x' \Longleftarrow f(x) \neq f(x')$}
+    \bad{$\forall x,x' \in \Rr  \qquad x \neq x' \implies (\exists y \in \Rr \quad f(x) < y < f(x'))$}
+    \good{$\forall x,x' \in \Rr  \qquad  f(x)\times f(x') < 0 \implies x\times x' < 0$}
+\end{answers}
+\begin{explanations}
+Dessiner le graphe de $f$ pour mieux comprendre !
+Même si $f(x) \neq f(x')$ cela ne veut pas dire que $f(x) < f(x')$, l'inégalité pourrait être dans l'autre sens.
+\end{explanations}
+\end{question}
+}

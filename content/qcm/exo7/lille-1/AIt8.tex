@@ -1,0 +1,38 @@
+\uuid{AIt8}
+\titre{Continuité en un point}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Continuité : théorie}
+\difficulte{2}
+\theme{Fonctions continues, continuité en un point}
+\exo7qcmid{lille-1.continuite.014}
+
+\contenu{
+\begin{question}
+\qclassification{123.01,123.02}
+\qtags{motcle=continuité en un point}
+Parmi les propriétés suivantes, quelles sont celles qui implique que $f$ est continue en $x_ 0$ ?
+\begin{answers}
+    \good{$\lim_{x\to x_0} f(x) = f(x_0)$}
+
+    \good{$\forall \epsilon >0 \quad \exists \delta > 0 \qquad
+    |x-x_0| \le \delta \implies |f(x)-f(x_0)| \le \epsilon$}
+
+    \bad{$\exists \delta > 0 \quad \forall \epsilon >0 \qquad
+    |x-x_0| < \delta \implies |f(x)-f(x_0)| < \epsilon$}
+
+    \good{$\big| f(x) - f(x_0) \big| \to 0$ lorsque $x \to x_0$}
+
+\end{answers}
+\begin{explanations}
+$f$ est continue en $x_0$ si $\lim_{x\to x_0} f(x) = f(x_0)$, ce qui s'écrit aussi $\big| f(x) - f(x_0) \big| \to 0$, ou encore :
+$\forall \epsilon >0 \quad \exists \delta > 0 \qquad
+    |x-x_0| < \delta \implies |f(x)-f(x_0)| < \epsilon$ (et on peut remplacer les inégalités strictes par des inégalités larges).
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,35 @@
+\uuid{1pBQ}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.041}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Le changement de variable $x=\sin t$ pour $t\in [-\pi/2,\pi/2]$ donne :
+$$\int \sqrt{1-x^2}\mathrm{d}x=\int \sqrt{1-\sin ^2t}\, \mathrm{d}t=\int \cos t\, \mathrm{d}t.$$}
+\good{Le changement de variable $x=\sin t$ pour $t\in [-\pi/2,\pi/2]$ donne :
+$$\int \sqrt{1-x^2}\, \mathrm{d}x=\int \cos ^2t\, \mathrm{d}t.$$}
+\bad{$\displaystyle \int \cos ^2t\, \mathrm{d}t=\frac{t}{2}-\frac{\sin (2t)}{4}+k=\frac{t}{2}-\frac{\sin t\cos t}{2}+k$, $k\in\Rr$.}
+\good{Une primitive de $\displaystyle \sqrt{1-x^2}$ sur $[-1,1]$ est $\displaystyle \frac{\arcsin x}{2}+\frac{x\sqrt{1-x^2}}{2}$.}
+\end{answers}
+\begin{explanations}
+Avec $x=\sin t$, on a : $\mathrm{d}x=\cos t\, \mathrm{d}t$ et $\sqrt{1-x^2}=\cos t$ car $t\in [-\pi/2,\pi/2]$. D'où
+$$\int \sqrt{1-x^2}\, \mathrm{d}x=\int \cos ^2t\, \mathrm{d}t=\int \left(\frac{1}{2}+\frac{\cos (2t)}{2}\right)\mathrm{d}t=\frac{t}{2}+\frac{\sin (2t)}{4}+k,\; k\in \Rr.$$
+Ainsi
+$$\int \sqrt{1-x^2}\, \mathrm{d}x=\frac{t}{2}+\frac{\sin t\cos t}{2}+k=\frac{\arcsin x}{2}+\frac{x\sqrt{1-x^2}}{2}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

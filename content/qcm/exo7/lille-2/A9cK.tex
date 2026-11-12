@@ -1,0 +1,35 @@
+\uuid{A9cK}
+\titre{Matrice nilpotente/Inversibilité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{3}
+\theme{Inverse d'une matrice, Matrice nilpotente, Inversibilité}
+\exo7qcmid{lille-2.matrices.034}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice nilpotente/Inversibilité}
+Soit $A$ une matrice nilpotente, c.à.d il existe un entier $n\ge 1$ tel que $A^n=0$. On notera $I$ la matrice identité. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$A$ est inversible}.
+\bad{$A$ est inversible et $A^{-1} = A^{n-1}$}.
+\good{Il existe $a\in \Rr$, tel que $A-aI$ n'est pas inversible}.
+\good{Pour tout $a\in \Rr^*$, $A-aI$ est inversible}.
+\end{answers}
+\begin{explanations} On suppose que $A$ est inversible, alors $A$ est non nul et il existe une matrice $C$ telle que $AC=I$.
+Soit $m$ le plus petit entier $\ge 1$ tel que $A^m=0$. Alors, $0=A^mC=A^{m-1}(AC)=A^{m-1}$, ce qui est absurde.
+Par conséquent, $A$ n'est pas inversible.\\
+Comme $A$ n'est pas inversible, pour $a=0$, $A-aI$ n'est pas inversible.\\
+Soit $a\in \Rr^*$, de l'égalité : $(A-aI)(a^{n-1}I+a^{n-2}A+\dots + aA^{n-2}+A^{n-1})=A^n-a^nI=-a^nI$, on déduit que
+$A-aId$ est inversible et que
+$\displaystyle (A-aId)^{-1}=-\frac{1}{a^n}\left(a^{n-1}I+a^{n-2}A+\dots + aA^{n-2}+A^{n-1}\right)$.
+\end{explanations}
+\end{question}
+}

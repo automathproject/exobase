@@ -1,0 +1,32 @@
+\uuid{cE0h}
+\titre{Bijection}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Dérivées, bijection}
+\exo7qcmid{lille-1.derivees.025}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=bijection}
+Soit $\displaystyle f:\Rr\to \Rr$ telle que $f(x)=x^3+3x+1$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{$\forall x\in \Rr$, $f'(x)>0$}
+    \good{$f$ est une bijection et $\displaystyle (f^{-1})'(1)=\frac{1}{3}$.}
+    \bad{$f$ est une bijection et $\displaystyle (f^{-1})'(1)=\frac{1}{f'(1)}=\frac{1}{6}$.}
+    \bad{$f$ est une bijection et $\displaystyle (f^{-1})'(x)=\frac{1}{f'(x)}$.}
+\end{answers}
+\begin{explanations}
+On a $f'(x)=3x^2+3>0$ pour tout $x\in \Rr$. Ainsi $f$ est continue et est strictement croissante sur $\Rr$. Donc, d'après le théorème de la bijection, $f$ est une bijection et
+$$\forall x\in \Rr,\; (f^{-1})'(x)=\frac{1}{f'\left(f^{-1}(x)\right)}.$$
+En particulier, et puisque $f(0)=1$, $\displaystyle (f^{-1})'(1)=\frac{1}{f'(f^{-1}(1))}=\frac{1}{f'(0)}=\frac{1}{3}$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,31 @@
+\uuid{sMxX}
+\titre{Intégration par parties}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, intégration par parties}
+\exo7qcmid{lille-2.primitives.033}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=intégration par parties}
+On note par $F$ une primitive de $f(x)=\arcsin (x)$ sur $]-1,1[$. Parmi les propositions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle F(x)=\frac{1}{\sqrt{1-x^2}}+k$, où $k\in \Rr$.}
+\good{$\displaystyle F(x)=x\arcsin (x)-\int \frac{x\mathrm{d}x}{\sqrt{1-x^2}}$.}
+\bad{$\displaystyle F(x)=\arccos (x)+k$, où $k\in \Rr$.}
+\good{$\displaystyle F(x)=x\arcsin (x)+\sqrt{1-x^2}+k$, où $k\in \Rr$.}
+\end{answers}
+\begin{explanations}
+Une intégration par parties avec $u=\arcsin (x)$ et $v=x$ donne
+$$F(x)=x\arcsin (x)-\int \frac{x\mathrm{d}x}{\sqrt{1-x^2}}=x\arcsin (x)+\sqrt{1-x^2}+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

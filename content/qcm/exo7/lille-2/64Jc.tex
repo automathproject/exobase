@@ -1,0 +1,40 @@
+\uuid{64Jc}
+\titre{DL en l'infini/Calcul de limites/Asymptotes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{3}
+\theme{Applications des DL, DL en l'infini, Calcul de limites, Asymptotes, asymptote}
+\exo7qcmid{lille-2.developpements-limites.046}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL en l'infini/Calcul de limites/Asymptotes}
+\qtags{motcle=asymptote}
+Soit $\displaystyle f(x)=x\arctan \left(\frac{1}{\sqrt{1+x^2}}\right)$. On considère la fonction $g$ telle que $\displaystyle g(x)=f\left(\frac{1}{x}\right)$ et on note $\Gamma$ le graphe de $f$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_2(0^+)g(x)=1-\frac{5x^2}{6}+o(x^2)$.}
+\bad{$\displaystyle \lim _{x\to 0}g(x)=1$ et $g$ se prolonge par continuité en $0$.}
+\good{$\Gamma$ admet la droite d'équation $\displaystyle y=1$ comme asymptote au voisinage de $+\infty$.}
+\bad{$\Gamma$ admet la droite d'équation $\displaystyle y=1$ comme asymptote au voisinage de $-\infty$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On a : $\displaystyle g(x)=\frac{1}{x}\arctan \left(\frac{x}{\sqrt{1+x^2}}\right)$ si $x>0$ et $\displaystyle g(x)=\frac{-1}{x}\arctan \left(\frac{x}{\sqrt{1+x^2}}\right)$ si $x<0$. Dans le $DL_3(0)\arctan u$, on pose $\displaystyle u=\frac{x}{\sqrt{1+x^2}}=x-\frac{x^3}{2}+o(x^3)$. Ceci donne :
+$$DL_2(0^+)g(x)=1-\frac{5x^2}{6}+o(x^2)\Rightarrow DL_2(+\infty)f(x)=1-\frac{5}{6x^2}+o\left(\frac{1}{x^2}\right)$$
+et
+$$DL_2(0^-)g(x)=-1+\frac{5x^2}{6}+o(x^2)\Rightarrow DL_2(-\infty)f(x)=-1+\frac{5}{6x^2}+o\left(\frac{1}{x^2}\right).$$
+Ainsi $\Gamma$ admet la droite d'équation $\displaystyle y=1$ (resp. $y=-1$) comme asymptote au voisinage de $+\infty$ (resp. $-\infty$). Enfin, $g$ n'admet pas de limite en $0$ car $\displaystyle \lim _{x\to 0^+}g(x)=1$ et $\displaystyle \lim _{x\to 0^-}g(x)=-1$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,38 @@
+\uuid{gWsK}
+\titre{Étude de fonction}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{3}
+\theme{Limites des fonctions réelles, étude de fonction}
+\exo7qcmid{lille-1.limites.025}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=étude de fonction}
+Soit  $f:\Rr \to \Rr$ une fonction croissante. Quelles sont les assertions vraies ?
+\begin{answers}
+
+      \bad{$f$ n'admet pas de limite en $+\infty$.}
+
+      \good{$f$ admet une  limite en $+\infty$.}
+
+    \good{Si $f$ est majorée, $f$ admet une  limite finie en $+\infty$.}
+
+    \good{Si $f$ est non majorée, $\lim_{x\to +\infty } f(x)=+\infty$.}
+
+\end{answers}
+\begin{explanations}
+(a)  On suppose que $f$ est majorée et on pose $M=\sup_{x\in \Rr} f(x)$ (le plus petit des majorants de $f$). Alors, $ \lim_{x\to +\infty } f(x)=M$. En effet,
+soit $\epsilon >0$, alors il existe $a>0$ tel que : $M-\epsilon < f(a)\le M $. Comme $f$ est croissante, si $x\ge a$, alors $M-\epsilon < f(a)\le f(x)\le M $. D'où le résultat, d'après la définition d'une limite.
+
+(b)  On suppose que $f$ n'est pas majorée. Alors, $ \lim_{x\to +\infty } f(x)=+\infty$. En effet, soit $A>0$, alors il existe $a>0$ tel que $f(a)>A$. Comme $f$ est croissante, si $x\ge a$, alors $f(x)\ge f(a)>A$. D'où le résultat, d'après la définition d'une limite.
+\end{explanations}
+\end{question}
+}

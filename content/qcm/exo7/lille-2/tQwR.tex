@@ -1,0 +1,40 @@
+\uuid{tQwR}
+\titre{Matrice/Puissance/Inversibilité/Rang}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{3}
+\theme{Inverse d'une matrice, Matrice, Puissance, Inversibilité, Rang}
+\exo7qcmid{lille-2.matrices.032}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice/Puissance/Inversibilité/Rang}
+On considère la matrice $A = \left(\begin{array}{rc}
+\cos x&-\sin x\\\sin x&\cos x\\ \end{array}\right) \, , \; x \in \Rr$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{Le rang de $A$ est $1$}.
+\good{$A$ est inversible et $A^{-1} = \left(\begin{array}{rc}
+\cos x&\sin x\\-\sin x&\cos x\\ \end{array}\right)$, $x\in \Rr$}.
+\good{Pour tout $n \in \Nn$, $(A+A^{-1})^n = (2^n\cos^n x) I$, où $I$ est la matrice identité}.
+\good{Pour tout $n \in \Zz, $ $A^n =  \left(\begin{array}{rc}
+\cos (nx)&-\sin (nx)\\\sin (nx)&\cos (nx)\\ \end{array}\right)$}.
+\end{answers}
+\begin{explanations} On vérifie que $A$ est inversible et que $A^{-1} = \left(\begin{array}{rc}\cos x&\sin x\\-\sin x&\cos x\\
+\end{array}\right)$. le rang de $A$ est donc $2$.
+\vskip0mm
+De l'égalité $A+A^{-1}=(2\cos x) I$, on déduit que $(A+A^{-1})^n = (2^n\cos^n x) I$, pour tout entier $n$.
+\vskip0mm
+Par récurrence sur $n\in \Nn$, on démontre que
+$$A^n =  \left(\begin{array}{rc}\cos (nx)&-\sin (nx)\\
+\sin (nx)&\cos (nx) \end{array}\right)\quad \mbox{et}\quad (A^{-1})^n =  \left(\begin{array}{rc}\cos (nx)&\sin (nx)\\ -\sin (nx)&\cos (nx)\end{array}\right).$$
+On déduit que, pour tout $n \in \Zz$, $A^n=\left(\begin{array}{rc}\cos (nx)&-\sin (nx)\\\sin (nx)&\cos (nx)\end{array}\right)$.
+\end{explanations}
+\end{question}
+}

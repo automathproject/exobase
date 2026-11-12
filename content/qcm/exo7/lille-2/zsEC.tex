@@ -1,0 +1,32 @@
+\uuid{zsEC}
+\titre{Noyau/Image/Théorème du rang/Polynôme}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Théorème du rang, Polynôme}
+\exo7qcmid{lille-2.applications-lineaires.020}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Théorème du rang/Polynôme}
+On considère l'application linéaire :
+$$\begin{array}{rccc}f:&\Rr_2[X]&\to&\Rr_2[X]\\
+& P&\to &XP'-X^2P'',  \end{array}$$
+où $\Rr_2[X]$ est l'ensemble des polynômes à coefficients réels de degré $\le 2$ et $P'$ (resp. $P''$) est la dérivée première (resp. seconde) de $P$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\{1+X^2\}$ est une base de $\ker f $}.
+\good{$\{1, X^2\}$ est une base de $\ker f $}.
+\bad{$\{1+X\}$ est une base de $\Im f $}.
+\good{ $\mbox{rg} (f) =1$}.
+\end{answers}
+\begin{explanations}  $\ker f=\{P \in \Rr_2[X] \; ; \; XP'-X^2P''=0\}=\{aX^2+b \, ; \; a,b\in \Rr\}$. Donc $\{1,X^2\}$ est une base de $\ker f$. Du théorème du rang, on déduit que $\mbox{rg}(f)=\dim \Im f=1 $ et comme $f(X)=X\neq 0$, $\{X\}$ est une base de $\Im f$.
+\end{explanations}
+\end{question}
+}

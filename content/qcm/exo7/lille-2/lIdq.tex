@@ -1,0 +1,37 @@
+\uuid{lIdq}
+\titre{Matrice d'une application linéaire}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{2}
+\theme{Matrice d'une application linéaire}
+\exo7qcmid{lille-2.matrice-application.010}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire}
+Soit $u_1=(1,0,0), \;  u_2=(1,1,0), \;  u_3=(0,1,1), \; v_1=(1,1), \; v_2=(1,-1)$  et $f$ l'application linéaire définie par :
+$$\begin{array}{rccc}f:&\Rr^3 &\to& \Rr^2\\
+& (x,y,z)&\to &(x+y,x-z).  \end{array}$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\{ u_1, u_2, u_3\}$ est une base de $\Rr^3$.}
+\good{$\{ v_1, v_2\}$ est une base de $\Rr^2$.}
+\bad{La matrice de $f$ par rapport aux bases  $\{ u_1, u_2, u_3\}$ et $\{ v_1, v_2\}$ est :
+$\displaystyle \frac{1}{2}\left(\begin{array}{rc}
+2&0\\ 3&1\\ 0&2\end{array}\right)$.}
+\good{La matrice de $f$ par rapport aux bases  $\{ u_1, u_2, u_3\}$ et $\{ v_1, v_2\}$ est :
+$$\displaystyle
+\frac{1}{2} \left(\begin{array}{rcc}
+2&3&0\\ 0&1&2\end{array}\right).$$}
+\end{answers}
+\begin{explanations} On vérifie que $\{ u_1, u_2, u_3\}$ est une base de $\Rr^3$ et que $\{ v_1, v_2\}$ est une base de $\Rr^2$. La matrice de $f$  par rapport à ces  bases    est la matrice  dont la $j$ième colonne est constituée des coordonnées de  $f(u_j)$ dans la base $\{ v_1, v_2\}$. Cette matrice est : $\displaystyle \frac{1}{2} \left(\begin{array}{rcc} 2&3&0\\ 0&1&2\end{array}\right)$.
+\end{explanations}
+\end{question}
+}

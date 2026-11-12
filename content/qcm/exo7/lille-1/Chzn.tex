@@ -1,0 +1,34 @@
+\uuid{Chzn}
+\titre{Zéros de fonction}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Continuité : théorie}
+\difficulte{2}
+\theme{Théorèmes des valeurs intermédiaires, zéros de fonction}
+\exo7qcmid{lille-1.continuite.022}
+
+\contenu{
+\begin{question}
+\qclassification{123.01,123.02}
+\qtags{motcle=zéros de fonction}
+Soit $f : [0,1] \to \Rr$ une fonction continue avec $f(0)<0$ et $f(1)>0$.
+Par dichotomie on construit deux suites $(a_n)$ et $(b_n)$, avec $a_0 = 0$ et $b_0 = 1$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \bad{Si $f(\frac12)>0$ alors $a_1 = \frac12$ et $b_1 = \frac12$.}
+
+    \good{$f$ s'annule sur $[a_n,b_n]$ (quel que soit $n\ge0$).}
+
+    \bad{$(a_n)$ et $(b_n)$ sont des suites croissantes.}
+
+    \bad{$a_n \to 0$ ou $b_n \to 0$.}
+\end{answers}
+\begin{explanations}
+Par dichotomie on construit deux suites adjacentes. $(a_n)$ est croissante, $(b_n)$ est décroissante et $a_n \le b_n$. Ces deux suites convergent vers une valeur $c\in]a,b[$, telle que $f(c)=0$.
+\end{explanations}
+\end{question}
+}

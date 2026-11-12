@@ -1,0 +1,32 @@
+\uuid{K8Xj}
+\titre{Chasles/changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Calculs d'intégrales, Chasles, changements de variables}
+\exo7qcmid{lille-2.integrales.011}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=Chasles/changements de variables}
+L'intégrale $\displaystyle \int _{-\pi/6}^{\pi/3}\tan x\, \mathrm{d}x$ est égale à :
+\begin{answers}
+\bad{$\displaystyle \frac{4}{3}$.}
+\bad{$\displaystyle \frac{2\sqrt{3}}{3}$.}
+\good{$\displaystyle \int _{\pi/6}^{\pi/3}\tan x\, \mathrm{d}x$.}
+\good{$\displaystyle \frac{1}{2}\ln 3$.}
+\end{answers}
+\vskip3mm
+\begin{explanations} La relation de Chasles donne
+$\displaystyle \int _{-\pi/6}^{\pi/3}\tan x\, \mathrm{d}x=\int _{-\pi/6}^{\pi/6}\tan x\, \mathrm{d}x+\int _{\pi/6}^{\pi/3}\tan x\, \mathrm{d}x$ et $\displaystyle \int _{-\pi/6}^{\pi/6}\tan x\, \mathrm{d}x=0$ car $\tan $ est impaire. Ensuite, on écrit $\displaystyle \tan x=\frac{\sin x}{\cos x}$ et on pose $t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$. D'où,
+$\displaystyle \int _{\pi/6}^{\pi/3}\tan x\, \mathrm{d}x=-\int _{\sqrt{3}/2}^{1/2}\frac{\mathrm{d}t}{t}=\ln \sqrt{3}$.
+\end{explanations}
+\end{question}
+}

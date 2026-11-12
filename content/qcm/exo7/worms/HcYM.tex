@@ -1,0 +1,78 @@
+\uuid{HcYM}
+\titre{Deux événements de probabilités données}
+\auteur{worms}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2017-08-28}
+\niveau{L2}
+\module{Probabilité et statistique}
+\chapitre{Probabilité discrète}
+\sousChapitre{Probabilité et dénombrement}
+\difficulte{}
+\theme{Probabilités, événements}
+\exo7qcmid{worms.worms.001}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+Soit ${\cal E}$ une expérience aléatoire et $\Omega$ l'univers qui lui a été associé. Soient $A$ et $B$ deux événements de probabilités respectives $0.5$ et $0.6$.
+}
+
+\begin{question}
+\qclassification{260.01}
+Parmi les affirmations suivantes, lesquelles sont vraies ?
+\begin{answers}
+\bad{$A$ est inclus dans $B$ car $\mathbb{P}(A)\leq \mathbb{P}(B)$.}
+\good{$A$ et $B$ ne peuvent pas être incompatibles car $\mathbb{P}(A)+\mathbb{P}(B)=1.1>1$.}
+\good{Il est impossible que $A$ et $B$ soient indépendants si $A$ implique $B$.}
+\good{$\Omega$ est indépendant de tout autre événement.}
+\good{Deux événements quelconques (mais non impossibles) ne peuvent être simultanément incompatibles et indépendants.}
+\end{answers}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Supposons maintenant que $\mathbb{P}(A\cup B)=4/5$. $A$ et $B$ sont-ils indépendants ?
+\begin{answers}
+\good{Oui.}
+\bad{Non.}
+\bad{On ne peut pas se prononcer car on ne dispose pas de $\mathbb{P}(A\cap B)$.}
+\bad{On ne peut pas se prononcer car on ne dispose pas de détails sur l'expérience, sur $\Omega$, $A$ et $B$.}
+\end{answers}
+\begin{explanations}
+Oui. Il suffit d'utiliser $\mathbb{P}(A \cap B) = \mathbb{P}(A)+\mathbb{P}(B) - \mathbb{P}(A\cup B)$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Soit $\omega\in\Omega$. Et supposons que $B\subset A$ (dans cette question seulement). Parmi les propositions suivantes, laquelle/lesquelles désigne(nt) un événement ?
+\begin{answers}
+\bad{$\omega$}
+\good{$\{\omega\}$}
+\bad{$(\omega)$}
+\good{$A\backslash B$}
+\bad{$B\backslash A$}
+\bad{$A|B$}
+\end{answers}
+\begin{explanations}
+Un événement est un ensemble. $\omega$ est seulement un élément pas un ensemble, $(\omega)$ ne veut rien d'autre que $\omega$.
+On n'a pas le droit d'écrire $B\backslash A$ si on ne sait pas que $A$ est inclus dans $B$.
+$A|B$ n'est pas un événement !
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qclassification{260.01}
+Parmi les affirmations suivantes, lesquelles n'ont aucun sens (c'est-à-dire ne sont pas correctes au niveau du langage mathématique) ?
+\begin{answers}
+\good{Dans certaines circonstances, on a $\mathbb{P}(A\cup B)=\mathbb{P}(A)\cup\mathbb{P}(B)$.}
+\good{Si $C$ est un autre événement impliqué par $A$, on a $A\cup C\cap B=A\cap B$.}
+\good{On a $A\subset A+B$.}
+\good{$\{A,B\} \subset \Omega$}
+\end{answers}
+\begin{explanations}
+Quelques commentaires en vrac : on ne réunit pas des probabilités ... on n'a pas le droit d'enchaîner l'utilisation des symboles $\cap$ et $\cup$ sans parenthèses... on n'additionne pas des événements... et $\{ A,B\}$ est un ensemble contenant deux ensembles, donc n'est pas une sous-ensemble de $\Omega$, mais un sous-ensemble de l'ensemble des parties de $\Omega$.
+\end{explanations}
+\end{question}
+}

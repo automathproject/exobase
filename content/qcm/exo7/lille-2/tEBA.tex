@@ -1,0 +1,32 @@
+\uuid{tEBA}
+\titre{Changement de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitives, changement de variables}
+\exo7qcmid{lille-2.primitives.046}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=changement de variables}
+Le changement de variable $t=\sin x$ donne :
+\begin{answers}
+\bad{$\displaystyle \int \frac{\cos ^3x\mathrm{d}x}{1+\sin ^2x}=\cos ^3 x\int \frac{\mathrm{d}t}{1+t^2}$.}
+\bad{$\displaystyle \int \frac{\cos ^3x\mathrm{d}x}{1+\sin ^2x}=\cos ^3 x.\arctan (\sin x)+k$, $k\in \Rr$.}
+\good{$\displaystyle \int \frac{\cos ^3x\mathrm{d}x}{1+\sin ^2x}=\int \frac{1-t^2}{1+t^2}\mathrm{d}t$.}
+\good{$\displaystyle \int \frac{\cos ^3x\mathrm{d}x}{1+\sin ^2x}=-t+2\arctan t+k$, $k\in \Rr$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+D'abord, $\displaystyle \frac{\cos ^3x}{1+\sin ^2x}=\frac{\cos x(1-\sin ^2x)}{1+\sin ^2x}$. Ensuite $t=\sin x\Rightarrow\mathrm{d}t=\cos x\mathrm{d}x$ et
+$$\int \frac{\cos ^3x\mathrm{d}x}{1+\sin ^2x}=\int \frac{1-t^2}{1+t^2}\mathrm{d}t=\int \left(-1+\frac{2}{1+t^2}\right)\mathrm{d}t=-t+2\arctan t+k,\; k\in \Rr.$$
+\end{explanations}
+\end{question}
+}

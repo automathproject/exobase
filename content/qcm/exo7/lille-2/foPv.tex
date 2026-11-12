@@ -1,0 +1,35 @@
+\uuid{foPv}
+\titre{Intégration/Quotient/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Intégration, Quotient, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.025}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Intégration/Quotient/DL usuels}
+Soit $\displaystyle f(x)=\int _0^x\frac{\ln (1+t)}{\sqrt{1+t}}\mathrm{d}t$ et $\displaystyle g(x)=\frac{\ln (1+x)}{\sqrt{1+x}}$. Alors
+\begin{answers}
+\good{$\displaystyle DL_2(0)g(x)=x-x^2+o(x^2)$.}
+\bad{$f'(x)$ ne possède pas de $DL(0)$.}
+\bad{$f(x)$ ne possède pas de $DL(0)$.}
+\good{$\displaystyle DL_3(0)f(x)=\frac{x^2}{2}-\frac{x^3}{3}+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+On a : $\displaystyle f'(x)=g(x)$ et $DL_2(0)g(x)=x-x^2+o(x^2)$. Par intégration, et puisque $f(0)=0$, on obtient :
+$$DL_3(0)f(x)=\frac{x^2}{2}-\frac{x^3}{3}+o(x^3).$$
+\end{explanations}
+\end{question}
+}

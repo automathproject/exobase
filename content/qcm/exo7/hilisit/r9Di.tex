@@ -1,0 +1,34 @@
+\uuid{r9Di}
+\titre{Résolution d'équation différentielle du premier ordre}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{}
+\exo7qcmid{hilisit.equations-differentielles.037}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+Soit la solution de l'équation différentielle $y'= 2y$ vérifiant $y(0) = -1$.
+Quelles sont les affirmations vraies ?
+\begin{answers}
+  \good{La solution est toujours négative.}
+  \good{La solution est une fonction décroissante.}
+  \bad{La pente de la tangente en $x=0$ vaut $1$.}
+  \good{La pente de la tangente en $x=1$ vaut $-2e^2$.}
+\end{answers}
+\begin{explanations}
+Les solutions générales sont $y(x) = Ce^{2x}$. Comme $y(0)=-1$ alors $C = -1$.
+La solution est donc  $f(x) = -e^{2x}$.
+La pente de la tangente en $x_0$ est donnée par $f'(x_0)$.
+Comme $f(0)=-1$ alors $f'(0) = -2$, la pente de la tangente en $x=0$ vaut $-2$.
+De façon générale, comme $f(x) = -e^{2x}$, alors $f'(x) = -2e^{2x}$ qui est une fonction toujours négative : ainsi $f$ est une fonction décroissante. La pente de sa tangente en $x=1$ vaut bien $f'(1) = -2e^2$.
+\end{explanations}
+\end{question}
+}

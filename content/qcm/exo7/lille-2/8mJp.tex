@@ -1,0 +1,39 @@
+\uuid{8mJp}
+\titre{DL en l'infini}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, DL en l'infini}
+\exo7qcmid{lille-2.developpements-limites.027}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=DL en l'infini}
+Soit $\displaystyle f(x)=\sqrt{x^2+x}-\sqrt{x^2-1}$. On considère la fonction $g$ définie par $\displaystyle g(t)=f\left(\frac{1}{t}\right)$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Pour $0<t<1$, $\displaystyle g(t)=\frac{\sqrt{1+t}-\sqrt{1-t^2}}{t}$ et $\displaystyle DL_2(0^+)g(t)=\frac{1}{2}+\frac{3t}{8}+o(t^2)$.}
+\bad{$\displaystyle DL_2(+\infty)f(x)=\frac{1}{2}+\frac{3}{8x}+o\left(\frac{1}{x^2}\right)$.}
+\good{$\displaystyle DL_2(+\infty)f(x)=\frac{1}{2}+\frac{3}{8x}+\frac{1}{16x^2}+o\left(\frac{1}{x^2}\right)$.}
+\bad{$\displaystyle DL_2(-\infty)f(x)=\frac{1}{2}-\frac{3}{8x}+\frac{1}{16x^2}+o\left(\frac{1}{x^2}\right)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On a : $\displaystyle g(t)=\sqrt{\frac{1}{t^2}+\frac{1}{t}}-\sqrt{\frac{1}{t^2}-1}=\frac{\sqrt{1+t}-\sqrt{1-t^2}}{|t|}$. Donc, pour $0<t<1$,
+$$\displaystyle g(t)=\frac{\sqrt{1+t}-\sqrt{1-t^2}}{t}\Rightarrow DL_2(0^+)g(t)=\frac{1}{2}+\frac{3t}{8}+\frac{t^2}{16}+o(t^2).$$
+Ainsi : $\displaystyle DL_2(+\infty)f(x)=\frac{1}{2}+\frac{3}{8x}+\frac{1}{16x^2}+o\left(\frac{1}{x^2}\right)$. Pour $-1<t<0$,
+$$\displaystyle g(t)=\frac{\sqrt{1+t}-\sqrt{1-t^2}}{-t}\Rightarrow DL_2(0^-)g(t)=-\frac{1}{2}-\frac{3t}{8}-\frac{t^2}{16}+o(t^2).$$
+D'où, $\displaystyle DL_2(-\infty)f(x)=-\frac{1}{2}-\frac{3}{8x}-\frac{1}{16x^2}+o\left(\frac{1}{x^2}\right)$.
+\end{explanations}
+\end{question}
+}

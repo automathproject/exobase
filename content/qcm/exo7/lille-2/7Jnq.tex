@@ -1,0 +1,33 @@
+\uuid{7Jnq}
+\titre{Base/Dimension/Espace des fonctions}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Espace vectoriel}
+\sousChapitre{Base}
+\difficulte{3}
+\theme{Base et dimension, Base, Dimension, Espace des fonctions}
+\exo7qcmid{lille-2.espaces-vectoriels.049}
+
+\contenu{
+\begin{question}
+\qclassification{106.04}
+\qtags{motcle=Base/Dimension/Espace des fonctions}
+On considère les fonctions réelles $f_1, f_2$ et $f_3$ définies par :
+$$f_1(x)=\sin x,\quad f_2(x)= \cos x,\quad f_3(x)= \sin x \cos x$$
+et $E$ l'espace engendré par ces fonctions. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\{f_1,f_2\}$ est une base de $E$}.
+\bad{$\{f_1,f_3\}$ est une base de $E$}.
+\bad{$\dim E=2$}.
+\good{$\dim E=3$}.
+\end{answers}
+\begin{explanations} Soit $a,b,c \in \Rr$ tels que  $af_1+bf_2+cf_3=0$. Alors,
+$$a\sin x +b\cos x+c\sin x \cos x = 0,\mbox{ pour tout }x\in \Rr.$$
+En prenant $x=0$, puis, $x=\frac{\pi}{2}$, on démontre que $b=a=c=0$. Par conséquent, $\{f_1, f_2, f_3\}$ est une base de $E$ et donc $\dim E =3$.
+\end{explanations}
+\end{question}
+}

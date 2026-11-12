@@ -1,0 +1,32 @@
+\uuid{9DYh}
+\titre{Intégration par parties}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, intégration par parties}
+\exo7qcmid{lille-2.integrales.016}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=intégration par parties}
+On note $\displaystyle I=\int _{0}^{2}x^2\ln (x+1)\, \mathrm{d}x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle I\leq 4\int _{0}^{2}\ln (x+1)\, \mathrm{d}x$.}
+\bad{$\displaystyle I\geq \ln 3\int _{0}^{2}x^2\, \mathrm{d}x$.}
+\bad{$\displaystyle I=\frac{8}{3}\ln 3+\frac{1}{3}\int _{0}^{2}\frac{x^3\, \mathrm{d}x}{x+1}$.}
+\good{$\displaystyle I=3\ln 3-\frac{8}{9}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Pour tout $x\in ]0,2[$, $x^2\ln (x+1)< 4\ln (x+1)$ et $x^2\ln (x+1)<x^2\ln 3$. Donc $\displaystyle I<4\int _{0}^{2}\ln (x+1)\, \mathrm{d}x$ et $\displaystyle I<\ln 3\int _{0}^{2}x^2\, \mathrm{d}x$. Enfin, une intégration par parties avec $u=\ln (x+1)$ et $v=x^3/3$ donne :
+$$I=\frac{8}{3}\ln 3-\frac{1}{3}\int _{0}^{2}\frac{x^3\, \mathrm{d}x}{x+1}=3\ln 3-\frac{8}{9}.$$
+\end{explanations}
+\end{question}
+}

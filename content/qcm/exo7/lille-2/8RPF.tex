@@ -1,0 +1,34 @@
+\uuid{8RPF}
+\titre{Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{2}
+\theme{Opérations sur les DL, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.009}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/DL usuels}
+Les égalités suivantes portent sur des développements limités en $0$. Cocher celles qui sont vraies :
+\begin{answers}
+\bad{$\displaystyle \ln(1+2x)=2\left(x-\frac{x^2}{2}+o(x^2)\right)$.}
+\good{$\displaystyle \ln(1-2x)=-2x-2x^2+o(x^2)$.}
+\good{$\displaystyle \ln(1+x^2)=x^2-\frac{x^4}{2}+o(x^4)$.}
+\bad{$\displaystyle \ln(1-x^2)=-\left[x^2-\frac{x^4}{2}+o(x^4)\right]$.}
+\end{answers}
+\begin{explanations}
+On applique le développement : $\displaystyle DL_2(0)\ln(1+t)=t-\frac{t^2}{2}+o(t^2)$ avec $t=2x$, $t=-2x$, $t=x^2$ et enfin avec $t=-x^2$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,37 @@
+\uuid{uD8Z}
+\titre{Noyau/Image/Espaces supplémentaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Espaces supplémentaires}
+\exo7qcmid{lille-2.applications-lineaires.030}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Espaces supplémentaires}
+Soit $E$ un espace vectoriel et $f$ un projecteur de $E$, c.à.d. un endomorphisme de $E$ tel que $f^2=f$. On notera $Id$ l'identité de $E$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$f$ est injective}.
+\good{$Id-f$ est un projecteur de $E$}.
+\good{$E=\ker f\oplus \Im f $}.
+\good{$\Im f =\ker (Id- f) $}.
+\end{answers}
+\begin{explanations} $f$ n'est pas nécessairement injective. Contre exemple : l'application nulle de $\Rr $ dans $ \Rr$.
+\vskip0mm
+Comme $f^2=f$, $(Id - f)o(Id - f)=Id - 2f+f^2= Id - f$, donc $Id - f$ est un projecteur.
+\vskip0mm
+Soit $y\in  \Im f \cap \ker f$, alors il existe $x\in E$ tel que $y=f(x)$ et $f(y)=0$, donc $f^2(x)=0$. Or $f^2=f$, on déduit que $y=0$.
+\vskip0mm
+Soit $x\in E$, alors $x= f(x) + (x-f(x))$. Comme $f(x)\in\Im f$ et $x-f(x)\in\ker f$, on déduit que $E=\ker f+\Im f $. Par conséquent,   $E=\ker f \oplus \Im f$.
+\vskip0mm
+Soit $y\in\Im f,$  alors il existe $x\in E$ tel que $y=f(x)$, donc $(Id-f)(y)=f(x)-f^2(x)=0,$ puisque $f^2=f$. Réciproquement, si $(Id - f)(y)=0$, alors $y=f(y)$ et donc $y\in \Im f$. Par conséquent,  $ \Im f =\ker (Id - f) $.
+\end{explanations}
+\end{question}
+}

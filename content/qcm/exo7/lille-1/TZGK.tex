@@ -1,0 +1,33 @@
+\uuid{TZGK}
+\titre{Convergence}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Suites, convergence}
+\exo7qcmid{lille-1.suites.016}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=convergence}
+Soit $\displaystyle u_n=\sin\left(\frac{2n\pi}{3}\right)$ et $\displaystyle v_n=\sin\left(\frac{3}{2n\pi}\right)$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{La suite $(u_n)$ diverge et la suite $(v_n)$ converge.}
+    \bad{Les suites $(u_n)$ et $(v_n)$ sont divergentes.}
+    \good{La suite $(u_n)$ n'a pas de limite et $\displaystyle \lim _{n\to +\infty}v_n=0$.}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=0$}
+\end{answers}
+\begin{explanations}
+Par continuité de la fonction sinus, on a :
+$$\displaystyle \lim _{n\to +\infty}\frac{3}{2n\pi}=0\mbox{ donc }\displaystyle \lim _{n\to +\infty}\sin\left(\frac{2n\pi}{3}\right)=\sin\left(\lim _{n\to +\infty}\frac{3}{2n\pi}\right)=\sin 0=0.$$
+Ainsi, $(v_n)$ converge et sa limite est $0$. Par ailleurs, $$u_{3n}=\sin (2n\pi)=0\mbox{ et }u_{3n+1}=\sin \left(\frac{2\pi}{3}\right)=\frac{\sqrt{3}}{2}.$$
+Donc, d'après le théorème des suites extraites, $(u_n)$ diverge ; elle n'a pas de limite.
+\end{explanations}
+\end{question}
+}

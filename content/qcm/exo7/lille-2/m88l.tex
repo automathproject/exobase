@@ -1,0 +1,36 @@
+\uuid{m88l}
+\titre{Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.020}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Composée/DL usuels}
+Soit $\displaystyle f(x)=\mathrm{e}^{\sin x}$ et $g(x)=\mathrm{e}^{\cos x}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_3(0)f(x)=1+x+\frac{x^2}{2}+o(x^3)$.}
+\bad{Pour tout $x\in \Rr$, $\displaystyle f'(x)=g(x)$.}
+\bad{$\displaystyle DL_2(0)g(x)=\left(1+x+\frac{x^2}{2}+o(x^3)\right)'=1+x+o(x^2)$.}
+\good{$\displaystyle DL_2(0)g(x)=\mathrm{e}-\frac{\mathrm{e}x^2}{2}+o(x^2)$.}
+\end{answers}
+\begin{explanations}
+Avec $\displaystyle u=\sin x=x-\frac{x^3}{6}+o(x^3)$ et $\displaystyle \mathrm{e}^u=1+u+\frac{u^2}{2}+\frac{u^3}{6}+o(u^3)$, on obtient
+$$\displaystyle DL_3(0)f(x)=1+x+\frac{x^2}{2}+o(x^3).$$
+Or $\displaystyle g(x)=\mathrm{e}.\mathrm{e}^{\cos x-1}$. Donc, avec $\displaystyle u=\cos x-1=-\frac{x^2}{2}+o(x^2)$ et $\mathrm{e}^u=1+u+\frac{u^2}{2}+o(u^3)$, on obtient : $\displaystyle DL_2(0)g(x)=\mathrm{e}-\frac{\mathrm{e}.x^2}{2}+o(x^2)$.
+\end{explanations}
+\end{question}
+}

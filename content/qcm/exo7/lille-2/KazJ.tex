@@ -1,0 +1,35 @@
+\uuid{KazJ}
+\titre{Endomorphisme/Injectif/Surjectif/Bijectif}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Endomorphisme, Injectif, Surjectif, Bijectif}
+\exo7qcmid{lille-2.applications-lineaires.031}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Endomorphisme/Injectif/Surjectif/Bijectif}
+Soit $E$ un espace vectoriel et $f$ un endomorphisme nilpotent de $E$, c.à.d. un endomorphisme non nul de $E$ tel qu'il existe un entier $n\ge 2$, vérifiant  $f^n=0$. On notera $Id$ l'identité de $E$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$f$ est injective}.
+\bad{$f$ est surjective}.
+\good{$Id-f$ est injective}.
+\good{$Id-f$ est bijective}.
+\end{answers}
+\begin{explanations} Soit $f$ l'endomorphisme de $\Rr^2$ défini par $f(x,y)=(x-y,x-y)$. Alors, $f^2=0$ et $f$ n'est ni injective, ni surjective.
+\vskip0mm
+D'une manière générale, si $f$ est nilpotent, $f$ n'est pas bijectif. En effet, supposons qu'il existe une application $g$ telle que $gof=Id$ et considérons un élément $x\in E$ tel que $f(x)\neq 0$ et $k$ le plus petit entier $\ge 2$ tel que $f^k(x)=0$. Alors, $g(f^k(x))=0=gof(f^{k-1}(x)) = f^{k-1}(x)$, ce qui est absurde.
+\vskip0mm
+Soit $x\in E$ tel que $(Id-f)(x)=0,$ alors $f(x)=x$ et, par récurrence, $f^n(x)=x$. Or $f^n=0$, donc $x=0$. On en déduit que  $Id-f$ est injective.
+\vskip0mm
+De l'égalité : $(Id-f)(Id+f+f^2+\dots + f^{n-1})=Id-f^n=Id$, on déduit que $Id-f$ est bijective et que $(Id-f)^{-1}=Id+f+f^2+\dots + f^{n-1}$.
+\end{explanations}
+\end{question}
+}

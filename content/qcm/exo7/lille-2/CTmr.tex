@@ -1,0 +1,30 @@
+\uuid{CTmr}
+\titre{Matrice/Inversibilité/Rang}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{3}
+\theme{Inverse d'une matrice, Matrice, Inversibilité, Rang}
+\exo7qcmid{lille-2.matrices.033}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice/Inversibilité/Rang}
+Soit $ M_n(\Rr)$ l'ensemble des matrices carrées d'ordre $n$  à coefficients réels  et $I$ la matrice identité.
+Soit $A \in M_n(\Rr)$ telle qu'il existe un entier  $m \ge 1$ vérifiant :  $A^m+A^{m-1}+ \dots + A + I = 0$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$A$ est inversible et $A^{-1} = A^m$}.
+\good{$A$ est inversible et $A^{-1} = -(A^{m-1}+ \dots + A+I)$}.
+\good{Le rang de $A$ est $n$}.
+\bad{$A$ n'est pas inversible}.
+\end{answers}
+\begin{explanations} De l'égalité : $A \times  (A^{m-1}+A^{m-2}+ \dots + I)= -I$, on déduit que  $A$ est inversible et que $A^{-1}=-(A^{m-1}+ \dots + A+I)=A^m$. Puisque $A$ est inversible, le rang de $A$ est $n$.
+\end{explanations}
+\end{question}
+}

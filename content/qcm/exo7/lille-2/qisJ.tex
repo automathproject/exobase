@@ -1,0 +1,70 @@
+\uuid{qisJ}
+\titre{Matrice d'une application linéaire}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{2}
+\theme{Matrice d'une application linéaire}
+\exo7qcmid{lille-2.matrice-application.011}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire}
+On considère $\Rr^3$ muni de sa base canonique notée ${\cal {B}}$ et
+$f$ l'application linéaire définie  par :
+$$\begin{array}{rccc}f:&\Rr^3 &\to& \Rr^3\\
+& (x,y,z)&\to &(y+z,x+z,x+y).  \end{array}$$
+Soit ${\cal {B'}} = \{u_1,u_2,u_3\}$, où
+$ u_1=(1,0,0), u_2=(1,1,0), u_3=(1,1,1)$. Quelles sont les assertions vraies ?
+\begin{answers}
+\good{${\cal {B'}}$ est une base de  $\Rr^3$}.
+\bad{La matrice de $f$ dans la base $ {\cal {B}}$ est : $
+\left(\begin{array}{rcc}
+0&1&1\\
+1&0&1\\
+1&1&1\\
+\end{array}\right)$}.
+\good{La matrice de $f$ de la base $ {\cal {B'}}$ dans la base $ {\cal {B}}$ est : $
+\left(\begin{array}{rcc}
+0&1&2\\
+1&1&2\\
+1&2&2\\
+\end{array}\right)$}.
+\bad{La matrice de $f$ dans la base $ {\cal {B'}}$ est : $
+\left(\begin{array}{rcc}
+-1&0&0\\
+0&-1&0\\
+1&2&1\\
+\end{array}\right)$}.
+\end{answers}
+\begin{explanations} La matrice de $f$  d'une base $ {\cal {B}}=(u_j)$ dans une autre base $ {\cal {B}}'=(v_i)$ est la matrice  dont la $j$ième colonne est constituée des coordonnées de  $f(u_j)$ dans la base $ {\cal {B}}'$. On déduit que :
+\vskip0mm
+La matrice de $f$ dans la base canonique est : $
+\left(\begin{array}{rcc}
+0&1&1\\
+1&0&1\\
+1&1&0\\
+\end{array}\right)$.
+\vskip0mm
+La matrice de $f$ de la base $ {\cal {B'}}$ dans la base $ {\cal {B}}$ est : $
+\left(\begin{array}{rcc}
+0&1&2\\
+1&1&2\\
+1&2&2\\
+\end{array}\right).$
+\vskip0mm
+La matrice de $f$ dans la base $ {\cal {B'}}$ est : $
+\left(\begin{array}{rcc}
+-1&0&0\\
+0&-1&0\\
+1&2&2\\
+\end{array}\right)$.
+\end{explanations}
+\end{question}
+}

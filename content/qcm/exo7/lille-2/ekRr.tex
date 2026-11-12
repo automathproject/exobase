@@ -1,0 +1,38 @@
+\uuid{ekRr}
+\titre{Quotient/Composée/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{3}
+\theme{Opérations sur les DL, Quotient, Composée, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.026}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Quotient/Composée/DL usuels}
+Soit $\displaystyle f(x)=(1+x)^{1/(\mathrm{e}^x-1)}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_2(0)\ln (1+x)=x-\frac{x^2}{2}+o(x^2)$ et $\displaystyle DL_2(0)(\mathrm{e}^x-1)=x+\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle DL_2(0)\frac{\ln (1+x)}{\mathrm{e}^x-1}=1-x+\frac{x^2}{2}+o(x^2)$.}
+\bad{$\displaystyle DL_2(0)f(x)=\mathrm{e}.\mathrm{e}^{-x+x^2/2+o(x^2)}=\mathrm{e}-\mathrm{e}.x+\mathrm{e}.x^2+o(x^2)$.}
+\good{$\displaystyle DL_2(0)f(x)=\mathrm{e}-\mathrm{e}.x+\frac{7\mathrm{e}}{6}x^2+o(x^2)$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On a : $\displaystyle f(x)=\mathrm{exp}\left(\frac{\ln (1+x)}{\mathrm{e}^x-1}\right)$. Donc, pour écrire le $\displaystyle DL_2(0)f(x)$, on utilise le $DL_3(0)\ln (1+x)$ et le $DL_3(0)(\mathrm{e}^x-1)$. La division suivants les puissances croissantes donne
+$$DL_2(0)\frac{\ln (1+x)}{\mathrm{e}^x-1}=1-x+\frac{2x^2}{3}+o(x^2).$$
+Ensuite, avec $\displaystyle \mathrm{e}^{1+u}=\mathrm{e}.\mathrm{e}^u=\mathrm{e}.\left(1+u+\frac{u^2}{2}+o(u^2)\right)$ où $\displaystyle u=-x+\frac{2x^2}{3}+o(x^2)$, on obtient :
+$$f(x)=\mathrm{e}-\mathrm{e}.x+\frac{7\mathrm{e}}{6}x^2+o(x^2).$$
+\end{explanations}
+\end{question}
+}

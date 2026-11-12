@@ -1,0 +1,31 @@
+\uuid{4rCp}
+\titre{Suite arithmétique/géométrique}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Suites, suite arithmétique, géométrique}
+\exo7qcmid{lille-1.suites.008}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=suite arithmétique/géométrique}
+Soit $\displaystyle u_n=1+\frac{1}{2}+\frac{1}{2^2}+\dots +\frac{1}{2^n}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{La suite $(u_n)$ est divergente.}
+    \good{La suite $(u_n)$ est strictement croissante.}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=2$}
+\end{answers}
+\begin{explanations}
+Le terme $u_n$ est la somme des premiers termes de la suite géométrique de raison $\displaystyle \frac{1}{2}$. Donc $(u_n)$ est strictement croissante et
+$$u_n=\frac{1-\frac{1}{2^{n+1}}}{1-\frac{1}{2}}=2-\frac{1}{2^n}\underset{+\infty}{\longrightarrow }2.$$
+\end{explanations}
+\end{question}
+}

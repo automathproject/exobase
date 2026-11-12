@@ -1,0 +1,36 @@
+\uuid{pjiP}
+\titre{Fonction croissante/décroissante}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Notion de fonctions, fonction croissante, décroissante}
+\exo7qcmid{lille-1.continuite.001}
+
+\contenu{
+\begin{question}
+\qclassification{123.00}
+\qtags{motcle=fonction croissante/décroissante}
+Quels arguments sont valides pour justifier que la fonction $x \mapsto \sin(x)$ n'est pas une fonction croissante sur $\Rr$ ?
+
+\begin{answers}
+    \bad{$\sin(\pi) = \sin(0)$ et pourtant $\pi \neq 0$.}
+
+    \bad{$\sin(\frac\pi2) > \sin(0)$ et pourtant $0 < \frac\pi2$.}
+
+    \good{$\sin(\frac{3\pi}{4}) > \sin(\pi)$ et pourtant $\frac{3\pi}{4} < \pi$.}
+
+    \bad{On a $|\sin x| \le |x|$ pour tout $x\in\Rr$.}
+\end{answers}
+\begin{explanations}
+Une fonction $f$ est croissante si $x \le y$ implique $f(x) \le f(y)$.
+Donc une fonction n'est pas croissante si on peut trouver $x \le y$ mais avec
+$f(x) > f(y)$. Le seul argument valable est donc $\frac{3\pi}{4} < \pi$ avec $\sin(\frac{3\pi}{4}) > \sin(\pi)$.
+\end{explanations}
+\end{question}
+}

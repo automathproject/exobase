@@ -1,0 +1,30 @@
+\uuid{0RlI}
+\titre{Dénombrement}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles, applications, dénombrement}
+\exo7qcmid{lille-1.ensembles.027}
+
+\contenu{
+\begin{question}
+\qclassification{100.02,101.01,102.01,102.02}
+\qtags{motcle=dénombrement}
+Soit $E$ un ensemble à $n$ éléments et $a\in E$. On note $\mathcal{P}_a(E)$ l'ensemble des parties de $E$ qui contiennent $a$. Quel est le cardinal de $\mathcal{P}_a(E)$ ?
+\begin{answers}
+    \bad{$\mathrm{Card}(\mathcal{P}_a(E))=n-1$}
+    \bad{$\mathrm{Card}(\mathcal{P}_a(E))=n$}
+    \good{$\mathrm{Card}(\mathcal{P}_a(E))=2^{n-1}$}
+    \bad{$\mathrm{Card}(\mathcal{P}_a(E))=2^n$}
+\end{answers}
+\begin{explanations}
+Les éléments de $\mathcal{P}_a(E)$ sont de la forme $\{a\}\cup A$ où $A\subset E\setminus \{a\}$. Donc $\mathrm{Card}(\mathcal{P}_a(E))=\mathrm{Card}(\mathcal{P}(E\setminus \{a\}))=2^{n-1}$.
+\end{explanations}
+\end{question}
+}

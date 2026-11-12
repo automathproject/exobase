@@ -1,0 +1,45 @@
+\uuid{db2e}
+\titre{Matrice d'une application linéaire/Noyau/Image/Espaces supplémentaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{2}
+\theme{Matrice d'une application linéaire, Noyau, Image, Espaces supplémentaires}
+\exo7qcmid{lille-2.matrice-application.012}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Noyau/Image/Espaces supplémentaires}
+On considère $\Rr^3$ muni de sa base canonique notée ${\cal {B}}$ et
+$f$ l'application linéaire définie  par :
+$$\begin{array}{rccc}f:&\Rr^3 &\to& \Rr^3\\
+& (x,y,z)&\to &(x+z,2x+2z,-x-z).  \end{array}$$
+Soit $ u_1=(0,1,0), u_2=(1,2,-1)$ et $ u_3=(1,0,0)$.
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$\{u_1,u_2,u_3\}$ est une base de $\Rr^3$}.
+\good{$\{u_1 , u_2\}$  est une base de $\ker f$.}
+\bad{$\ker f$ et $\Im f$ sont supplémentaires dans $\Rr^3$}.
+\good{La matrice de $f$ dans la base  $\{u_1,u_2,u_3\}$ est :
+$\left(\begin{array}{rcc}
+0&0&0\\
+0&0&1\\
+0&0&0\\
+\end{array}\right)$}.
+\end{answers}
+\begin{explanations} $\{u_1,u_2,u_3\}$ est une base de $\Rr^3$,
+$\{u_1 , u_2\}$  est une base de $\ker f$ et  $\{u_2\}$  est une base de $\Im f$. Comme $ \ker f \cap \Im f$ est non nul, $\ker f $ et $\Im f$ ne sont pas supplémentaires dans $\Rr^3$. Comme $f(u_1)=f(u_2)=0$ et $f(u_3)=u_2$, la matrice dans la base
+$\{u_1,u_2,u_3\}$ est :
+$$\left(\begin{array}{rcc}
+0&0&0\\
+0&0&1\\
+0&0&0\end{array}\right).$$
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,31 @@
+\uuid{p0lm}
+\titre{Points stationnaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Géométrie}
+\chapitre{Courbes planes}
+\sousChapitre{Courbes paramétrées}
+\difficulte{3}
+\theme{Courbes paramétrées, points stationnaires}
+\exo7qcmid{lille-2.courbes.011}
+
+\contenu{
+\begin{question}
+\qclassification{244.01}
+\qtags{motcle=points stationnaires, asymptotes, points doubles}
+La trajectoire $\Gamma$ d'une particule en mouvement est donnée par les équations
+$$x=\frac{t}{4-t^2}\quad \mbox{et} \quad  y=\frac{t^2}{2-t}.$$
+\begin{answers}
+\bad{$\Gamma$ admet un seul point stationnaire.}
+\bad{La droite d'équation $x=1$ est une asymptote quand $t$ tend vers $-2$.}
+\good{La droite d'équation $y=8x-3$ est une asymptote quand $t$ tend vers $2$.}
+\good{Le point de coordonnées $(1/2,2)$ est un point double.}
+\end{answers}
+\begin{explanations}
+D'abord, $\Gamma$ n'a pas de point stationnaire car $x'(t)\neq 0$. Puis, $\displaystyle \lim_{t\to -2^{\pm}}x(t)=\pm \infty$ et $\displaystyle \lim_{t\to -2}y(t)=1$, donc la droite d'équation $y=1$ est une asymptote quand $t$ tend vers $-2$. De même, $\displaystyle \lim_{t\to 2^{\pm}}x(t)=\lim_{t\to 2^{\pm}}y(t)=\pm \infty$, $\displaystyle \lim_{t\to 2^{\pm}}\frac{y(t)}{x(t)}=8$ et $\displaystyle \lim_{t\to 2^{\pm}}[y(t)-x(t)]=-3$. Donc la droite d'équation $y=8x-3$ est une asymptote quand $t$ tend vers $2$. Enfin, la résolution de $(x(t_1),y(t_1))=(x(t_2),y(t_2))$ montre que $(1/2,2)$ est un point double obtenu avec les paramètres $-1+\sqrt{5}$ et $-1-\sqrt{5}$.
+\end{explanations}
+\end{question}
+}

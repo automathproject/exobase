@@ -1,0 +1,33 @@
+\uuid{4Qvs}
+\titre{Dérivée seconde ou plus}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Dérivabilité des fonctions réelles}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Dérivées, dérivée seconde ou plus}
+\exo7qcmid{lille-1.derivees.012}
+
+\contenu{
+\begin{question}
+\qclassification{124.00}
+\qtags{motcle=dérivée seconde ou plus}
+Soit $\displaystyle f(x)=x\ln (1+x)$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\displaystyle f'(x)=(x)'[\ln (1+x)]'=1\times \frac{1}{1+x}$}
+    \good{$\displaystyle f'(x)=\ln (1+x)+\frac{x}{1+x}$}
+    \bad{Pour $n\geq 2$, $\displaystyle f^{(n)}(x)=n\times \frac{1}{(1+x)^n}$.}
+    \good{Pour $n\geq 2$, $\displaystyle f^{(n)}(x)=\frac{(-1)^{n}(n-2)!}{(1+x)^n}\left(x+n\right)$.}
+\end{answers}
+\begin{explanations}
+On applique la formule de Leibniz
+$$\displaystyle f^{(n)}(x)=\sum _{k=0}^n\mathrm{C}_n^k(x)^{(k)}(\ln (1+x))^{(n-k)}.$$
+Mais $\displaystyle \left[\ln (1+x)\right]^{(k)}=\frac{(-1)^{k-1}(k-1)!}{(1+x)^k}$. Ce qui donne
+$$f^{(n)}(x)=\frac{(-1)^{n}(n-2)!}{(1+x)^n}\left(x+n\right).$$
+\end{explanations}
+\end{question}
+}

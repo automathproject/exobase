@@ -1,0 +1,30 @@
+\uuid{36j0}
+\titre{Limite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{1}
+\theme{Suites, limite}
+\exo7qcmid{lille-1.suites.005}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=limite}
+Soit $\displaystyle u_n=3^n-2^n$ et $\displaystyle v_n=3^n-(-3)^n$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$ et $\displaystyle \lim _{n\to +\infty}v_n=+\infty$ }
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=0$}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=0$ et $\displaystyle \lim _{n\to +\infty}v_n=-\infty$}
+    \good{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$ et $\displaystyle \lim _{n\to +\infty}v_n$ n'existe pas}
+\end{answers}
+\begin{explanations}
+D'abord, $\displaystyle u_n=3^n\times \left[1-\left(\frac{2}{3}\right)^n\right]$. Or $\displaystyle \left(\frac{2}{3}\right)^n$ est le terme général d'une suite géométrique de limite $0$, donc $\displaystyle \lim _{n\to +\infty}u_n=+\infty\times (1-0)=+\infty$. Par ailleurs, $\displaystyle v_{2n}=0$ et $v_{2n+1}=2\times 3^{2n+1}$. Donc $\displaystyle \lim _{n\to +\infty}v_{2n}=0$ et $\displaystyle \lim _{n\to +\infty}v_{2n+1}=+\infty$. Le théorème des suites extraites implique que $(v_n)$ n'a pas de limite.
+\end{explanations}
+\end{question}
+}

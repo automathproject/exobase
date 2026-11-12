@@ -1,0 +1,30 @@
+\uuid{JoKV}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.023}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+On considère les suites de termes généraux $\displaystyle u_n=\sum _{k=1}^n\frac{(-1)^k}{k}$, $\displaystyle v_n=\sum _{k=1}^{2n}\frac{(-1)^k}{k}$ et $\displaystyle w_n=\sum _{k=1}^{2n+1}\frac{(-1)^k}{k}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \good{Les suites $(v_n)$ et $(w_n)$ sont convergentes.}
+    \good{La suite $(u_n)$ est convergente.}
+    \bad{La suite $(u_n)$ est divergente.}
+    \bad{L'une au moins des suites $(v_n)$ ou $(w_n)$ est divergente.}
+\end{answers}
+\begin{explanations}
+On vérifie que $(v_n)$ est décroissante, $(w_n)$ est croissante et que $\displaystyle \lim _{n\to +\infty}(v_n-w_n)=0$. Donc ces deux suites sont adjacentes. En particulier, elles convergent et elles ont la même limite $\ell \in \Rr$. Or $v_n=u_{2n}$ et $w_n=u_{2n+1}$, donc, d'après le théorème des suites extraites, la suite $(u_n)$ converge aussi vers $\displaystyle \ell$.
+\end{explanations}
+\end{question}
+}

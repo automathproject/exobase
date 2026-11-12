@@ -1,0 +1,34 @@
+\uuid{t18L}
+\titre{Solution générale/raccord}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Equation différentielle}
+\sousChapitre{Résolution d'équation différentielle du premier ordre}
+\difficulte{3}
+\theme{Equations du premier ordre, solution générale, raccord}
+\exo7qcmid{lille-2.equations-differentielles.020}
+
+\contenu{
+\begin{question}
+\qclassification{225.01}
+\qtags{motcle=solution générale/raccord}
+On considère l'équation différentielle $(E)$ : $x(1-x)y'+y=x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{La solution générale de l'équation homogène sur $]1,+\infty[$ est $\displaystyle y=\frac{k(x-1)}{x}$, $k\in \Rr$.}
+\good{La fonction $\displaystyle y=\frac{1-x}{x}\ln |1-x|+\frac{1}{x}$ est une solution de $(E)$ sur $]1,+\infty[$.}
+\bad{L'équation $(E)$ admet une infinité de solutions sur $]-\infty ,1[$.}
+\bad{L'équation $(E)$ admet une solution sur $]0,+\infty[$.}
+\end{answers}
+\begin{explanations}
+Si $(E)$ admet une solution $y$ sur $]-\infty ,1[$, on aura :
+$$y(x)=\left\{\begin{array}{lll}\displaystyle \frac{k_1(x-1)}{x}+\frac{1-x}{x}\ln |1-x|+\frac{1}{x}&\mbox{si}&x\in ]-\infty ,0[ \\ \\ \displaystyle \frac{k_2(x-1)}{x}+\frac{1-x}{x}\ln |1-x|+\frac{1}{x}&\mbox{si}&x\in ]0,1[ \end{array}\right.$$
+et $y(0)=0$. La continuité de $y$ en $0$, implique que $k_1=k_2=1$. De plus, une telle fonction est dérivable en $0$. Ainsi $(E)$ admet une unique solution sur $]-\infty ,1[$. De même, si $(E)$ admet une solution $y$ sur $]0,+\infty [$, on aura :
+$$y(x)=\left\{\begin{array}{lll}\displaystyle \frac{k_1(x-1)}{x}+\frac{1-x}{x}\ln |1-x|+\frac{1}{x}&\mbox{si}&x\in ]0,1[ \\ \\ \displaystyle\frac{k_2(x-1)}{x}+\frac{1-x}{x}\ln |1-x|+\frac{1}{x}&\mbox{si}&x\in ]1,+\infty[ \end{array}\right.$$
+et $y(1)=1$. Une telle fonction est continue en $1$ mais elle n'est pas dérivable en $1$. Ainsi $(E)$ n'admet pas de solution sur $]0,+\infty [$.
+\end{explanations}
+\end{question}
+}

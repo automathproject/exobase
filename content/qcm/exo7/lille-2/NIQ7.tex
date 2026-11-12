@@ -1,0 +1,33 @@
+\uuid{NIQ7}
+\titre{Points stationnaires}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Géométrie}
+\chapitre{Courbes planes}
+\sousChapitre{Courbes paramétrées}
+\difficulte{3}
+\theme{Courbes paramétrées, points stationnaires}
+\exo7qcmid{lille-2.courbes.008}
+
+\contenu{
+\begin{question}
+\qclassification{244.01}
+\qtags{motcle=points stationnaires, tangentes}
+La trajectoire $\Gamma$ d'une particule en mouvement est donnée par les équations
+$$x=1+\cos t\quad \mbox{et} \quad y=t-\sin t.$$
+\begin{answers}
+\bad{$\Gamma$ est symétrique par rapport à l'axe des $y$.}
+\bad{$\Gamma$ admet un point double.}
+\good{Le point de paramètre $t=0$ est un point de rebroussement de première espèce.}
+\good{La tangente à $\Gamma$ au point de paramètre $t=0$ est horizontale.}
+\end{answers}
+\begin{explanations}
+D'abord, $x$ est paire et $y$ est impaire, donc $\Gamma$ est symétrique par rapport à l'axe des $x$. Ensuite, en notant $f(t)=(x(t),y(t))$, la résolution du système $f(t_1)=f(t_2)$ donne $t_1=t_2$, donc $\Gamma$ ne possède pas de point double. Enfin, on a :
+$$f(t)=(2,0)+t^2(-1/2,0)+t^3(0,1/6)+t^3\left(\varepsilon_1(t),\varepsilon_2(t)\right)\mbox{ avec }\lim _{t\to 0}\varepsilon_i(t)=0.$$
+Donc le point de paramètre $t=0$ est un point de rebroussement de première espèce et la tangente en ce point est horizontale.
+\end{explanations}
+\end{question}
+}

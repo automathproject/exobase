@@ -1,0 +1,34 @@
+\uuid{GhSs}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.023}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\sin x$ donne $\displaystyle \int _{\pi/6}^{\pi/4}\frac{\mathrm{d}\, x}{\sin x\cos x}=\int _{1/2}^{1/\sqrt{2}}\frac{\mathrm{d}\, t}{t(1-t^2)}$.}
+\bad{$\forall t\in \Rr\setminus \{-1,0,1\}$, $\displaystyle \frac{1}{t(1-t^2)}=\frac{1}{t}+\frac{1}{1-t}-\frac{1}{1+t}$.}
+\bad{Une primitive de $\displaystyle \frac{1}{t(1-t^2)}$ sur $]0,1[$ est $\displaystyle F(t)=\ln \frac{t}{1-t^2}$.}
+\good{$\displaystyle \int _{\pi/6}^{\pi/4}\frac{\mathrm{d}\, x}{\sin x\cos x}=\ln \sqrt{3}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\sin x\Rightarrow \mathrm{d}t=\cos x\, \mathrm{d}x$, on a : $t(\pi/6)=1/2$, $t(\pi/4)=1/\sqrt{2}$ et
+$$\displaystyle \int _{\pi/6}^{\pi/4}\frac{\mathrm{d}\, x}{\sin x\cos x}=\int _{\pi/6}^{\pi/4}\frac{\cos x\, \mathrm{d}x}{\sin x\cos ^2x}=\int _{\pi/6}^{\pi/4}\frac{\cos x\, \mathrm{d}x}{\sin x(1-\sin ^2x)}=\int _{1/2}^{1/\sqrt{2}}\frac{\mathrm{d}\, t}{t(1-t^2)}.$$
+Or, $\displaystyle \frac{1}{t(1-t^2)}=\frac{1}{t}+\frac{1}{2-2t}-\frac{1}{2+2t}$. Donc
+$$\displaystyle \int _{1/2}^{1/\sqrt{2}}\frac{\mathrm{d}\, t}{t(1-t^2)}=\left[\ln \frac{t}{\sqrt{1-t^2}}\right]_{1/2}^{1/\sqrt{2}}=\ln \sqrt{3}.$$
+\end{explanations}
+\end{question}
+}

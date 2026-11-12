@@ -1,0 +1,39 @@
+\uuid{8I0p}
+\titre{Limite en l'infini}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{2}
+\theme{Limites des fonctions réelles, limite en l'infini}
+\exo7qcmid{lille-1.limites.012}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=limite en l'infini}
+Soit  $f$ une fonction définie sur $\Rr$. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$\lim_{x\to +\infty} f(x)=l \, (l\in \Rr)$  si et seulement si $ \forall \epsilon >0,  \exists A >0, \forall x \in \Rr, |f(x)-l|<\epsilon \Rightarrow x>A$}
+
+    \good{$\lim_{x\to +\infty} f(x)=l \, (l\in \Rr)$  si et seulement si $\forall \epsilon >0,  \exists A >0, \forall x \in \Rr, x\ge A \Rightarrow |f(x)-l|\le \epsilon$}
+
+    \good{$\lim_{x\to -\infty} f(x)=+\infty$  si et seulement si $ \forall A >0,  \exists B <0, \forall x \in \Rr, x\le B \Rightarrow f(x)\ge A$}
+
+    \bad{$\lim_{x\to -\infty} f(x)=-\infty$  si et seulement si $  \exists B<0, \forall A < 0,   \forall x \in \Rr, x < B \Rightarrow f(x) < A$}
+
+\end{answers}
+\begin{explanations}
+Voir la définition d'une limite en $+\infty$ ou $-\infty$ vers une valeur finie ou infinie :
+
+$\lim_{x\to +\infty} f(x)=l \, (l\in \Rr)$  si et seulement si $\forall \epsilon >0,  \exists A >0, \forall x \in \Rr, x\ge A \Rightarrow |f(x)-l|\le \epsilon$
+
+$\lim_{x\to -\infty} f(x)=+\infty$  si et seulement si $ \forall A >0,  \exists B <0, \forall x \in \Rr, x\le B \Rightarrow f(x)\ge A$
+\end{explanations}
+\end{question}
+}

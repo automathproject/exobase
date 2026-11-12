@@ -1,0 +1,36 @@
+\uuid{gLWQ}
+\titre{Produit/Quotient/DL usuels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Calculs}
+\difficulte{2}
+\theme{Opérations sur les DL, Produit, Quotient, DL usuels}
+\exo7qcmid{lille-2.developpements-limites.011}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.02}
+\qtags{motcle=Produit/Quotient/DL usuels}
+On rappelle que $\displaystyle \tan x=\frac{\sin (x)}{\cos (x)}$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_3(0)\frac{1}{\cos (x)}=1+\frac{x^2}{2}+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)\frac{1}{\cos (x)}=1-\frac{x^2}{2}+o(x^3)$.}
+\good{$\displaystyle DL_3(0)\tan (x)=x+\frac{x^3}{3}+o(x^3)$.}
+\bad{$\displaystyle DL_3(0)\tan (x)=x-\frac{2x^3}{3}+o(x^3)$.}
+\end{answers}
+\begin{explanations}
+On utilise $\displaystyle DL_3(0)\frac{1}{1+t}=1-t+t^2-t^3+o(t^2)$ avec $\displaystyle t=\cos (x)-1=\frac{x^2}{2}+o(x^3)$. On obtient :
+$\displaystyle DL_3(0)\frac{1}{\cos (x)}=1+\frac{x^2}{2}+o(x^3)$. Ensuite, on effectue le produit $\displaystyle \sin (x)\times \frac{1}{\cos (x)}$ :
+$$\displaystyle DL_3(0)\tan (x)=x+\frac{x^3}{3}+o(x^3).$$
+\end{explanations}
+\end{question}
+}

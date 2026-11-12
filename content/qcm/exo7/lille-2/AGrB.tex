@@ -1,0 +1,36 @@
+\uuid{AGrB}
+\titre{Linéarité/éléments simples}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Calculs d'intégrales, linéarité, éléments simples}
+\exo7qcmid{lille-2.integrales.012}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=linéarité/éléments simples}
+Parmi les égalités suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle \int _{1}^{4}\left(\frac{1}{t^2}-\frac{1}{\sqrt{t}}\right)\mathrm{d}\, t=\frac{-5}{4}$.}
+\good{$\forall x\in \Rr\setminus\{1\}$, $\displaystyle\frac{x}{(x-1)^2}=\frac{1}{x-1}+\frac{1}{(x-1)^2}$, et donc $\displaystyle \int _{-1}^{0}\frac{x\, \mathrm{d}x}{(x-1)^2}=\frac{1}{2}-\ln 2$.}
+\bad{$\displaystyle \int _{0}^{1/2}\frac{\mathrm{d}x}{1-x^2}=\Big[\arctan x\Big]_0^{1/2}=\arctan (1/2)$.}
+\bad{$\displaystyle \int _{0}^{1/2}\frac{\mathrm{d}x}{1-x^2}=\Big[\arctan (-x)\Big]_0^{1/2}=\arctan (-1/2)$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Par linéarité, on a : $\displaystyle \int _{1}^{4}\left(\frac{1}{t^2}-\frac{1}{\sqrt{t}}\right)\mathrm{d}\, t=\left[-\frac{1}{t}-2\sqrt{t}\right]_1^4=\frac{-5}{4}$.
+\vskip0mm
+On vérifie que : $\displaystyle\frac{x}{(x-1)^2}=\frac{1}{x-1}+\frac{1}{(x-1)^2}$, donc, par linéarité,
+$$\displaystyle \int _{-1}^{0}\frac{x\, \mathrm{d}x}{(x-1)^2}=\int _{-1}^{0}\frac{\mathrm{d}x}{x-1}+\int _{-1}^{0}\frac{\mathrm{d}x}{(x-1)^2}=\left[\ln |x-1|-\frac{1}{x-1}\right]_{-1}^{0}=\frac{1}{2}-\ln 2.$$
+Enfin, $\displaystyle \frac{1}{1-x^2}=\frac{1}{2}\left(\frac{1}{1-x}+\frac{1}{1+x}\right)$. Donc, par linéarité,
+$$\displaystyle \int _0^{1/2}\frac{\mathrm{d}x}{1-x^2}=\frac{1}{2}\int _0^{1/2}\frac{\mathrm{d}x}{1-x}+\frac{1}{2}\int _0^1\frac{\mathrm{d}x}{1+x}=\frac{1}{2}\left[\ln \left|\frac{1+x}{1-x}\right|\right]_0^{1/2}=\ln \sqrt{3}.$$
+\end{explanations}
+\end{question}
+}

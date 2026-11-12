@@ -1,0 +1,32 @@
+\uuid{CrPH}
+\titre{Pgcd}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Pgcd, ppcm, algorithme d'Euclide}
+\difficulte{3}
+\theme{pgcd}
+\exo7qcmid{hilisit.arithmetique.013}
+
+\contenu{
+\begin{question}
+\qclassification{103.03}
+    Soit $a>0$ un entier impair qui est un multiple de $3$. Quelles sont alors les affirmations vraies ?
+    \begin{answers}
+        \bad{$a$ est un multiple de $6$.}
+        \bad{L'écriture décimale de $a$ finit nécessairement soit par $7$ soit par $9$.}
+        \good{$\pgcd(a,3) = 3$.}
+        \good{$\ppcm(a,3) = a$.}
+    \end{answers}
+    \begin{explanations}
+    Les multiples positifs de $3$ s'écrivent $3N$, avec $N$ un entier positif. Si $N=2k$ est pair, alors $3N = 6k$ est un entier pair. Donc $a$, notre entier impair multiple de $3$, s'écrit $a = 3N$ avec $N = 2k+1$ un nombre impair ; ou encore $a = 3(2k+1) = 6k + 3$.\\
+    Le reste de la division euclidienne de $a$ par $6$ est $3$. Donc $a$ n'est pas un multiple de $6$.\\
+    Pour $k=2$ par exemple, on a $a = 6 \times 2 + 3 = 15$ qui est un entier impair, multiple de $3$, dont l'écriture décimale ne finit ni par $7$ ni par $9$.\\
+    La liste des diviseurs de $3$ se réduit à $1$ et $3$. Puisque $3$ divise $a$, $3$ est un multiple commun à $3$ et $a$ : on a donc $\pgcd(a,3) = 3$. Par conséquent, on a aussi $\ppcm(a,3) = a$ de sorte que $\pgcd(a,3) \times \ppcm(a,3) = a \times 3$.
+    \end{explanations}
+\end{question}
+}

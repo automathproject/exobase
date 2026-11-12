@@ -1,0 +1,34 @@
+\uuid{Ek72}
+\titre{Changements de variables}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables}
+\exo7qcmid{lille-2.integrales.028}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables}
+Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\sqrt{x}$ donne $\displaystyle \int _{1}^{3}\frac{\mathrm{d}\, x}{(x+1)\sqrt{x}}=\int _{1}^{\sqrt{3}}\frac{2\mathrm{d}\, t}{t^2+1}$.}
+\good{$\displaystyle \int _1^3\frac{\mathrm{d}\, x}{(x+1)\sqrt{x}}=\frac{\pi}{6}$.}
+\bad{Le changement de variable $t=\sqrt{x}$ donne $\displaystyle \int _1^3\frac{\sqrt{x}}{x+1}\mathrm{d}x=\int _1^{\sqrt{3}}\frac{t^2\, \mathrm{d}t}{t^2+1}$.}
+\bad{$\displaystyle \int _1^3\frac{\sqrt{x}}{x+1}\mathrm{d}x=\sqrt{3}-1-\frac{\pi}{12}$.}
+\end{answers}
+\vskip3mm
+\begin{explanations}
+Avec $t=\sqrt{x}\Rightarrow x=t^2$, on a : $\mathrm{d}x=2t\, \mathrm{d}t$, $t(1)=1$, $t(3)=\sqrt{3}$ et
+$$\displaystyle \int _1^3\frac{\mathrm{d}\, x}{(x+1)\sqrt{x}}=\int _{1}^{\sqrt{3}}\frac{2\mathrm{d}\, t}{t^2+1}=\Big[2\arctan t\Big]_{1}^{\sqrt{3}}=\frac{\pi}{6}.$$
+De même, $\displaystyle \int _1^3\frac{\sqrt{x}}{x+1}\mathrm{d}x=\int _{1}^{\sqrt{3}}\frac{2t^2\, \mathrm{d}t}{t^2+1}$. Or $\displaystyle \frac{2t^2}{t^2+1}=2-\frac{2}{t^2+1}$, donc
+$$\displaystyle \int _1^3\frac{\sqrt{x}}{x+1}\mathrm{d}x=\Big[2t-2\arctan t\Big]_{1}^{\sqrt{3}}=2\sqrt{3}-2-\frac{\pi}{6}.$$
+\end{explanations}
+\end{question}
+}

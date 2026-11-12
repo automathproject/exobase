@@ -1,0 +1,32 @@
+\uuid{YeNv}
+\titre{Primitives usuelles}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{1}
+\theme{Primitives, primitives usuelles}
+\exo7qcmid{lille-2.primitives.008}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+\qtags{motcle=primitives usuelles}
+Parmi les assertions suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\bad{Une primitive de $\displaystyle \cos (\pi x)+\frac{1}{x}$ sur $]0,+\infty[$ est $\displaystyle \sin (\pi x)+\ln x$.}
+\good{Une primitive de $\displaystyle \cos (\pi x)+\frac{1}{x}$ sur $]0,+\infty[$ est $\displaystyle \frac{\sin (\pi x)}{\pi}+\ln (\pi x)$.}
+\bad{La primitive de $\displaystyle \cos (\pi x)+\frac{1}{x}$ sur $]0,+\infty[$ qui s'annule en $1$ est $\displaystyle \sin (\pi x)+\ln x$.}
+\good{La primitive de $\displaystyle \cos (\pi x)+\frac{1}{x}$ sur $]0,+\infty[$ qui s'annule en $1$ est $\displaystyle \frac{\sin (\pi x)}{\pi}+\ln x$.}
+\end{answers}
+\begin{explanations}
+Par linéarité, les primitives de $\displaystyle \cos (\pi x)+\frac{1}{x}$ sur $]0,+\infty[$ sont
+$$F(x)=\int \left(\cos (\pi x)+\frac{1}{x}\right)\mathrm{d}x=\frac{\sin (\pi x)}{\pi}+\ln x+k,\; k\in \Rr.$$
+Ensuite $F(1)=0\Rightarrow k=0$. Donc la primitive de $\displaystyle \cos (\pi x)+\frac{1}{x}$ sur $]0,+\infty[$ qui s'annule en $1$ est $\displaystyle F(x)=\frac{\sin (\pi x)}{\pi}+\ln x$.
+\end{explanations}
+\end{question}
+}

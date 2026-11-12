@@ -1,0 +1,63 @@
+\uuid{2JCC}
+\titre{Système linéaire à un paramètre/Méthode du Pivot de Gauss}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Déterminant, système linéaire}
+\sousChapitre{Système linéaire, rang}
+\difficulte{3}
+\theme{Systèmes d'équations linéaires, Système linéaire à un paramètre, Méthode du Pivot de Gauss}
+\exo7qcmid{lille-2.systemes.015}
+
+\contenu{
+\begin{question}
+\qclassification{200.03}
+\qtags{motcle=Système linéaire à un paramètre/Méthode du Pivot de Gauss}
+On considère le système d'équations, d'inconnue $(x,y,z,t)\in \Rr^4$  et de paramètre un réel  $m$ :
+$$(\mathtt{S})
+\left\{\begin{array}{rcc}
+x+y+z+mt&=&1 \\
+x+y+mz+t&=&1\\
+x+my+z+t&=&1\\
+mx+y+z+t&=&1.\end{array}\right.$$
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y+z+mt&=&1\\
+(m-1)y+(1-m)t&=&0\\
+(m-1)z+(1-m)t&=&0\\
+(1-m)(3+m)t&=&1-m. \\
+\end{array}\right.$}
+\good{Si $m=1$, $(\mathtt{S})$ admet une infinité de solutions.}
+\bad{Si $m =-3$, $(\mathtt{S})$ admet une unique solution.}
+\bad{Si $m\neq 1$, $(\mathtt{S})$ admet une unique solution.}
+\end{answers}
+\begin{explanations}
+$$(\mathtt{S}) \Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y+z+mt&=&1\\
+(m-1)y+(1-m)t&=&0\\
+(m-1)z+(1-m)t&=&0 \\
+(1-m)y+(1-m)z+(1-m^2)t&=&1-m\\
+\end{array}\right.
+$$
+
+$$\Leftrightarrow
+\left\{\begin{array}{rcc}
+x+y+z+mt&=&1\\
+(m-1)y+(1-m)t&=&0\\
+(m-1)z+(1-m)t&=&0 \\
+(1-m)(3+m)t&=&1-m. \\
+\end{array}\right. $$
+\begin{enumerate}
+\item[-]Si $m=1$, $(\mathtt{S}) \Leftrightarrow  x+y+z+t=1 $ admet une infinité de solutions.
+\item[-]Si $m=-3$, $(\mathtt{S})$ n'admet pas de solution.
+\item[-]Si $m\neq 1$ et $m\neq -3$ $(\mathtt{S})$ admet une unique solution.
+\end{enumerate}
+\end{explanations}
+\end{question}
+}

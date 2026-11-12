@@ -1,0 +1,32 @@
+\uuid{KWX9}
+\titre{Noyau/Image/Théorème du rang/Polynôme}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Application linéaire}
+\sousChapitre{Définition}
+\difficulte{3}
+\theme{Noyau et image, Noyau, Image, Théorème du rang, Polynôme}
+\exo7qcmid{lille-2.applications-lineaires.021}
+
+\contenu{
+\begin{question}
+\qclassification{107.01}
+\qtags{motcle=Noyau/Image/Théorème du rang/Polynôme}
+On note $\Rr_n[X]$ l'espace des polynômes à coefficients réels de degré $\le n$, $n\in \Nn$. On considère l'application linéaire :
+$$\begin{array}{rccc}f:&\Rr_3[X]&\to&\Rr_2[X]\\
+& P&\to & R,  \end{array}$$
+où $R$ est le reste de la division euclidienne de $P$ par $(X+1)^3$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$\{X^3\}$ est une base de $\ker f $}.
+\good{$\dim \ker f =1$}.
+\bad{$\{1+X+X^2\}$ est une base de $\Im f $}.
+\bad{$\mbox{rg} (f) =3$}.
+\end{answers}
+\begin{explanations}  $\ker f=\{P \in \Rr_3[X] \; ; \; R=0\}=\{(X+1)^3Q \; ; \; Q\in\Rr\}$. Donc $\{(1+X)^3\}$ est une base de $\ker f$. D'après le théorème du rang, $\mbox{rg}(f)=\dim \Im f=3$ et l'on vérifie que $\{1,X,X^2\}$ est une base de $\Im f$.
+\end{explanations}
+\end{question}
+}

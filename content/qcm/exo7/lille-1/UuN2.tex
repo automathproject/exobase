@@ -1,0 +1,32 @@
+\uuid{UuN2}
+\titre{Convergence}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Suites, convergence}
+\exo7qcmid{lille-1.suites.017}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=convergence}
+Soit $\displaystyle u_n=\frac{1}{1^2}+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{n^2}$ et $\displaystyle v_n=u_n+\frac{1}{n}$. Quelles sont les bonnes réponses ?
+\begin{answers}
+    \bad{Si les limites existent, alors $\displaystyle \lim _{n\to +\infty}u_n<\lim _{n\to +\infty}v_n$.}
+    \bad{Les suites $(u_n)$ et $(v_n)$ sont divergentes.}
+    \good{Les suites $(u_n)$ et $(v_n)$ sont adjacentes.}
+    \good{Les suites $(u_n)$ et $(v_n)$ convergent vers la même limite finie.}
+\end{answers}
+\begin{explanations}
+On vérifie que $(u_n)$ est croissante, $(v_n)$ est décroissante et que
+$$\displaystyle \lim _{n\to +\infty}(u_n-v_n)=0.$$
+Donc $(u_n)$ et $(v_n)$ sont adjacentes. En conséquence, elles convergent vers la même limite finie.
+\end{explanations}
+\end{question}
+}

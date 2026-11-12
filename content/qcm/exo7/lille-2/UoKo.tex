@@ -1,0 +1,33 @@
+\uuid{UoKo}
+\titre{Espaces vectoriels}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Espace vectoriel}
+\sousChapitre{Définition, sous-espace}
+\difficulte{2}
+\theme{Espaces vectoriels}
+\exo7qcmid{lille-2.espaces-vectoriels.006}
+
+\contenu{
+\begin{question}
+\qclassification{106.01}
+\qtags{motcle=Sous-espace vectoriel de $\Rr^n$}
+Soit $E=\{(x,y,z) \in \Rr^3 \,  ; \; (x+y)(x+z)=0\}$, muni des opérations usuelles. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$E=\{(x,y,z) \in \Rr^3 \, ; \; x+y=x+z=0\}$.}
+\bad{$E=\{(x,y,z) \in \Rr^3 \, ; \;  x+y=0\} \cap   \{(x,y,z) \in \Rr^3 ; \; x+z=0\}$.}
+\good{$E=\{(x,y,z) \in \Rr^3 \, ; \;  x+y=0\} \cup   \{(x,y,z) \in \Rr^3 ; \; x+z=0\}$.}
+\good{$E$ n'est pas un espace vectoriel, car $E$ n'est pas stable par addition.}
+\end{answers}
+\begin{explanations}
+$E= \{(x,y,z) \in \Rr^3 \,  ;\;  x+y=0 \; \mbox{ou} \;  x+z=0  \} =\{(x,y,z) \in \Rr^3 \,  ;\;  x+y=0\} \cup
+\{(x,y,z) \in \Rr^3 \,  ; \;  x+z=0\}$.
+$E$ n'est pas un espace vectoriel, car $E$ n'est pas stable par addition : $(1,-1,0), (1,0,-1) \in E$, mais,
+$(2,-1,-1) \notin E$.
+\end{explanations}
+\end{question}
+}

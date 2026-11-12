@@ -1,0 +1,32 @@
+\uuid{0XGr}
+\titre{Étude de suite}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Suite}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Suites, étude de suite}
+\exo7qcmid{lille-1.suites.026}
+
+\contenu{
+\begin{question}
+\qclassification{121.00}
+\qtags{motcle=étude de suite}
+Soit $(u_n)$ une suite croissante. On suppose que $\displaystyle u_{n+1}-u_n\leq \frac{1}{2^n}$ pour tout $n\geq 0$. Que peut-on en déduire ?
+\begin{answers}
+    \bad{$(u_n)$ est divergente.}
+    \good{$(u_n)$ est bornée et $u_0\leq u_n\leq u_0+2$.}
+    \good{$(u_n)$ est convergente et $\displaystyle u_0\leq \lim _{n\to +\infty}u_n\leq u_0+2$.}
+    \bad{$\displaystyle \lim _{n\to +\infty}u_n=+\infty$}
+\end{answers}
+\begin{explanations}
+On vérifie par récurrence que
+$$\displaystyle u_0\leq u_n\leq u_0+1+\frac{1}{2}+\frac{1}{2^2}+\dots +\frac{1}{2^{n-1}}=u_0+2-\frac{1}{2^{n-1}}.$$
+Donc, $u_0\leq u_n\leq u_0+2$. Étant à la fois croissante est majorée, la suite $(u_n)$ est convergente et, par passage à la limite, $\displaystyle u_0\leq \lim _{n\to +\infty}u_n\leq u_0+2$.
+\end{explanations}
+\end{question}
+}

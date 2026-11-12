@@ -1,0 +1,29 @@
+\uuid{WW8M}
+\titre{Primitive}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Primitives diverses}
+\difficulte{3}
+\theme{Primitive}
+\exo7qcmid{hilisit.equations-differentielles.010}
+
+\contenu{
+\begin{question}
+\qclassification{127.11}
+Quelles sont les affirmations vraies ?
+\begin{answers}
+  \good{$x^2 e^{1/x}$ est une primitive de $(2x-1) e^{1/x}$ sur $]-\infty,0[$.}
+  \bad{$\ln(\vert x\vert)$ est une primitive de $1/x$ sur $\Rr$.}
+  \bad{$\ln(x^2+x+1)$ est une primitive de $\frac{2x}{x^2+x+1}$ sur $\Rr$.}
+  \good{$ e^x\ln(x)$ est une primitive de $ e^x\ln(x)+ e^x/x$ sur $]0,+\infty[$.}
+\end{answers}
+\begin{explanations}
+On calcule que $(x^2 e^{1/x})'=2x e^{1/x}+x^2  (-1/x^2) e^{1/x}=(2x-1) e^{1/x}$. Ensuite, la fonction $x \mapsto \ln(x^2+x+1)$ est bien définie sur $\Rr$ puisque $x^2+x+1>0$ pour tout nombre réel $x$. Mais on a : $(\ln(x^2+x+1))'=\frac{(x^2+x+1)'}{x^2+x+1}=\frac{2x+1}{x^2+x+1}$. La fonction $x \mapsto \frac1x$ n'est pas définie en $x=0$ : il est donc impossible de lui déterminer une primitive sur $\Rr$ ($x \mapsto\ln(\vert x\vert)$ est une primitive de $x \mapsto \frac1x$ seulement sur $\Rr^*$). Enfin, on calcule que $( e^x\ln(x))'= (e^x)'\ln(x)+ e^x (\ln(x))' = e^x \ln(x) + e^x \cdot \frac 1x$.
+\end{explanations}
+\end{question}
+}

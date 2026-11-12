@@ -1,0 +1,39 @@
+\uuid{MpYj}
+\titre{DL en l'infini/Calcul de limites/Asymptotes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Développement limité}
+\sousChapitre{Applications}
+\difficulte{3}
+\theme{Applications des DL, DL en l'infini, Calcul de limites, Asymptotes}
+\exo7qcmid{lille-2.developpements-limites.044}
+
+\contenu{
+\texte{
+Soit $a\in \Rr$ et $f$ une fonction. On dit que $f(x)$ est un $o\left((x-a)^n\right)$ au voisinage de $a$ et on écrit $f(x)=o((x-a)^n)$ si $\displaystyle \lim _{x\to a}\frac{f(x)}{(x-a)^n}=0$. On note par $DL_n(a)f(x)$ le développement limité de $f$ à l'ordre $n$ en $a$. On note aussi $DL_n(a^+)f(x)$ (resp. $DL_n(a^-)f(x)$) le développement limité de $f$ à l'ordre $n$ à droite en $a$ (resp. à gauche en $a$).
+}
+
+\begin{question}
+\qclassification{125.03}
+\qtags{motcle=DL en l'infini/Calcul de limites/Asymptotes}
+On considère les fonctions $f$ et $g$ telles que $\displaystyle f(x)=x\arctan x$ et $\displaystyle g(x)=xf\left(\frac{1}{x}\right)$. On note $\Gamma$ le graphe de $f$ et $\Delta$ la droite d'équation $\displaystyle y=\frac{\pi}{2}x-1$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{$\displaystyle DL_3(0^+)g(x)=\frac{\pi}{2}-x+\frac{x^3}{3}+o(x^3)$.}
+\bad{$\displaystyle \lim _{x\to 0}g(x)=\frac{\pi}{2}$ et $g$ se prolonge par continuité en $0$.}
+\good{Au voisinage de $+\infty$, $\Gamma$ admet la droite $\Delta$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta$.}
+\bad{Au voisinage de $-\infty$, $\Gamma$ admet la droite $\Delta$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+On a : $\displaystyle g(x)=\arctan \frac{1}{x}=\frac{\pi}{2}-\arctan x$ si $x>0$ et $\displaystyle g(x)=-\frac{\pi}{2}-\arctan x$ si $x<0$. Or, $\displaystyle g'(x)=-\frac{1}{1+x^2}=-1+x^2+o(x^2)$. Donc, par intégration :
+$$DL_3(0^+)g(x)=\frac{\pi}{2}-x+\frac{x^3}{3}+o(x^3)\Rightarrow DL_2(+\infty)f(x)=\frac{\pi}{2}x-1+\frac{1}{3x^2}+o\left(\frac{1}{x^2}\right)$$
+et
+$$DL_3(0^-)g(x)=-\frac{\pi}{2}-x+\frac{x^3}{3}+o(x^3)\Rightarrow DL_2(-\infty)f(x)=-\frac{\pi}{2}x-1+\frac{1}{3x^2}+o\left(\frac{1}{x^2}\right).$$
+Ainsi, au voisinage de $+\infty$, $\Gamma$ admet $\Delta$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta$ car $\displaystyle f(x)-y=\frac{1}{3x^2}+o\left(\frac{1}{x^2}\right)\geq 0$. Par contre, au voisinage de $-\infty$, $\Gamma$ admet la droite $\Delta '$ d'équation $\displaystyle y=-\frac{\pi}{2}x-1$ comme asymptote et $\Gamma$ est situé au dessus de $\Delta '$ car $\displaystyle f(x)-y=\frac{1}{3x^2}+o\left(\frac{1}{x^2}\right)\geq 0$. Enfin, $g$ n'admet pas de limite en $0$ car $\displaystyle \lim _{x\to 0^+}g(x)=\frac{\pi}{2}$ et $\displaystyle \lim _{x\to 0^-}g(x)=-\frac{\pi}{2}$.
+\end{explanations}
+\end{question}
+}

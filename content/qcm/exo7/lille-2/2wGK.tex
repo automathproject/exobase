@@ -1,0 +1,32 @@
+\uuid{2wGK}
+\titre{Matrice/Inversibilité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Inverse, méthode de Gauss}
+\difficulte{3}
+\theme{Inverse d'une matrice, Matrice, Inversibilité}
+\exo7qcmid{lille-2.matrices.031}
+
+\contenu{
+\begin{question}
+\qclassification{108.05}
+\qtags{motcle=Matrice/Inversibilité}
+On considère $ M_n(\Rr)$ l'ensemble des matrices carrées d'ordre $n$ à coefficients réels et $A$, $B$ et $C$ trois matrices non nulles deux à deux distinctes telles que $AB=AC$. Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$B=C$}.
+\bad{$A=0$}.
+\good{$A$ n'est pas inversible}.
+\bad{Le rang de $A$ est $n$}.
+\end{answers}
+\begin{explanations} On a : $A(B-C)=0$, $A \neq 0$ et $B-C\neq 0$ (le produit de deux matrices peut être nul sans que les
+deux matrices soient nulles).
+\vskip0mm
+Si $A$ est inversible, alors il existe une matrice $D$ telle que $DA=I$, où $I$ est la matrice identité. Donc  $(DA)(B-C) =B-C$. Or $(DA)(B-C)=D(A(B-C))$ et $A(B-C)=0$, donc $B-C=0$, ce qui est absurde. On déduit que $A$ n'est pas inversible et donc le rang de $A$ est $<n$.
+\end{explanations}
+\end{question}
+}

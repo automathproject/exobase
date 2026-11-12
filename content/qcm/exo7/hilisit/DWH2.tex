@@ -1,0 +1,32 @@
+\uuid{DWH2}
+\titre{Pgcd}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Arithmétique dans Z}
+\sousChapitre{Pgcd, ppcm, algorithme d'Euclide}
+\difficulte{1}
+\theme{pgcd}
+\exo7qcmid{hilisit.arithmetique.002}
+
+\contenu{
+\begin{question}
+\qclassification{103.03}
+    Quelles sont les valeurs qui correspondent à la division euclidienne $a=bq+r$ de $a$ par $b$ ?
+    \begin{answers}
+        \good{$a=48$, $b=7$, $q=6$, $r=6$}
+        \good{$a=101$, $b=11$, $q=9$, $r=2$}
+        \bad{$a=56$, $b=9$, $q=5$, $r=11$}
+        \bad{$a=123$, $b=10$, $q=13$, $r=-7$}
+    \end{answers}
+    \begin{explanations}
+    $48 = 7 \times 6 + 6$ \\
+    $101 = 11 \times 9 + 2$ \\
+    $56 = 9 \times 6 + 2$. Attention $56 = 9 \times 5 + 11$, mais on n'a pas $0 \le 11 \le 9-1$, donc cette écriture n’est pas la division euclidienne de $56$ par $9$.\\
+    $123 = 10 \times 12 + 3$. Attention $123 = 10 \times 13 + (-7)$, mais on n'a pas $0 \le -7 \le 10-1$, donc cette écriture n’est pas la division euclidienne de $123$ par $10$.\\
+    \end{explanations}
+\end{question}
+}

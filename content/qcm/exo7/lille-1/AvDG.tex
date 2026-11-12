@@ -1,0 +1,35 @@
+\uuid{AvDG}
+\titre{Densité}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Continuité, limite et étude de fonctions réelles}
+\sousChapitre{Limite de fonctions}
+\difficulte{3}
+\theme{Limites des fonctions réelles, densité}
+\exo7qcmid{lille-1.limites.024}
+
+\contenu{
+\begin{question}
+\qclassification{123.03}
+\qtags{motcle=densité}
+Soit  $f$ une fonction définie sur $]0,1[$ par :
+$f(x)=1$, si $x \in \Rr \setminus \Qq$ et $f(x)=\frac{1}{m},$ si $x= \frac{n}{m},$ où  $n, m \in \Nn^*$ tels que $ \frac{n}{m}$ soit une fraction irréductible. Quelles sont les assertions vraies ?
+\begin{answers}
+
+    \bad{$\lim_{x\to 1^-} f(x)=0$}
+
+    \good{$f$ n'admet pas de limite en $1^-$.}
+
+    \bad{$\lim_{x\to 1^-} f(x)=1$}
+
+    \bad{$\lim_{x\to 1^-} f(x)=+\infty$}
+\end{answers}
+\begin{explanations}
+L'ensemble des irrationnels est dense dans $\Rr$. Donc il existe une suite d'irrationnels $(u_n)$ qui tend vers $1^-$ et donc  $\lim_{n\to +\infty} f(u_n)=1$.  D'autre part, la suite $(\frac{n}{n+1})$  tend vers $1^-$ et $\lim_{n\to +\infty} f(\frac{n}{n+1})=\lim_{n\to +\infty} \frac{1}{n+1} = 0 $. On déduit que  $f$ n'admet pas de limite en $1^-$.
+\end{explanations}
+\end{question}
+}

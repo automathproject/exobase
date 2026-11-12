@@ -1,0 +1,35 @@
+\uuid{qL4I}
+\titre{Changements de variables/linéarité}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Calcul d'intégrales}
+\sousChapitre{Autre}
+\difficulte{3}
+\theme{Calculs d'intégrales, changements de variables, linéarité}
+\exo7qcmid{lille-2.integrales.032}
+
+\contenu{
+\begin{question}
+\qclassification{127.99}
+\qtags{motcle=changements de variables/linéarité}
+On pose $\displaystyle I=\int _0^{\pi}\frac{x\sin x}{1+\cos ^2x}\mathrm{d}x$ et $\displaystyle J=\int _0^{\pi}\frac{\sin x}{1+\cos ^2x}\mathrm{d}x$. Parmi les affirmations suivantes, cocher celles qui sont vraies :
+\begin{answers}
+\good{Le changement de variable $t=\cos x$ donne $\displaystyle J=\int _{-1}^1\frac{\mathrm{d}t}{1+t^2}=\frac{\pi}{2}$.}
+\good{Le changement de variable $t=\pi -x$ donne $\displaystyle I=\pi J-I$.}
+\bad{$\displaystyle I=\int _0^{\pi}x\, \mathrm{d}x.\int _0^{\pi}\frac{\sin x}{1+\cos ^2x}\mathrm{d}x=\frac{\pi ^2}{2}J$.}
+\bad{$\displaystyle I=\frac{\pi ^3}{4}$.}
+\end{answers}
+\vskip2mm
+\begin{explanations}
+Avec $t=\cos x\Rightarrow \mathrm{d}t=-\sin x\, \mathrm{d}x$, on obtient :
+$$J=\int _{-1}^1\frac{\mathrm{d}t}{1+t^2}=\Big[\arctan t\Big]_{-1}^1=\frac{\pi}{2}.$$
+Avec $t=\pi -x\Rightarrow \mathrm{d}t=-\mathrm{d}x$ et puisque $\sin (\pi -t)=\sin t$, on obtient :
+$$I=-\int _{\pi}^0\frac{(\pi -t)\sin t}{1+\cos ^2t}\mathrm{d}t=\int _0^{\pi}\frac{(\pi -t)\sin t}{1+\cos ^2t}\mathrm{d}t=\pi J-I.$$
+On en déduit que : $\displaystyle I=\frac{\pi }{2}J=\frac{\pi ^2}{4}$.
+\end{explanations}
+\end{question}
+}

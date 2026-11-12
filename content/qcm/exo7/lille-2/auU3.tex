@@ -1,0 +1,56 @@
+\uuid{auU3}
+\titre{Matrice d'une application linéaire/Matrice de passage/Polynômes}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{2}
+\theme{Matrice d'une application linéaire, Matrice de passage, Polynômes}
+\exo7qcmid{lille-2.matrice-application.009}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Matrice de passage/Polynômes}
+Dans $\Rr_2[X]$, l'ensemble des polynômes à coefficients réels de degré $\le 2$, on considère la base canonique ${\cal {B}} =\{1,X,X^2\}$ et  la base ${\cal {B'}} =\{P_1,P_2,P_3\}$, où
+$P_1=X, P_2=1-X$ et $P_3=(1-X)^2$. On notera $P$ la matrice de passage de la base ${\cal {B}}$ à la base ${\cal {B'}}$ et $Q$ la matrice de passage de la base ${\cal {B'}}$ à la base ${\cal {B}}$.
+\vskip1mm
+Définition : Soit $E$ un espace vectoriel muni de deux bases ${\cal {B}}$ et ${\cal {B}}'$. La matrice de passage de la base ${\cal {B}}$ à la base  ${\cal {B}}'$ est la matrice de l'identité de $E$ de la base ${\cal {B}}'$ à la base  ${\cal {B}}$. Autrement dit, c'est la matrice dont la jième colonne est constituée des coordonnées du jième vecteur de la base ${\cal {B}'}$ dans la base  ${\cal {B}}$.
+\vskip1mm
+Quelles sont les assertions vraies ?
+\begin{answers}
+\bad{$P = \left(\begin{array}{rcc}
+1&1&1\\
+1&0&-1\\
+0&0&1\\
+\end{array}\right).$}
+\good{$Q = \left(\begin{array}{rcc}
+1&1&1\\
+1&0&-1\\
+0&0&1\\
+\end{array}\right).$}
+\bad{$Q = \left(\begin{array}{rcc}
+0&1&1\\
+1&-1&-2\\
+0&0&1\\
+\end{array}\right).$}
+\good{La matrice de l'application identité de $\Rr_2[X]$ de la base ${\cal {B'}}$ à la base ${\cal {B}}$ est :
+$$\left(\begin{array}{rcc}
+0&1&1\\
+1&-1&-2\\
+0&0&1\\
+\end{array}\right).$$}
+\end{answers}
+\vskip2mm
+\begin{explanations} Par définition, $P$ est la matrice de l'application identité de $\Rr_2[X]$ de la base ${\cal {B'}}$ à la base ${\cal {B}}$ :
+$$P= \left(\begin{array}{rcc}
+0&1&1\\1&-1&-2\\ 0&0&1\end{array}\right)\quad \mbox{et}\quad
+Q = \left(\begin{array}{rcc}1&1&1\\
+1&0&-1\\ 0&0&1\end{array}\right).$$
+\end{explanations}
+\end{question}
+}

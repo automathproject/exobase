@@ -1,0 +1,37 @@
+\uuid{ta3n}
+\titre{Graphe}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Analyse}
+\chapitre{Fonctions circulaires et hyperboliques inverses}
+\sousChapitre{Autre}
+\difficulte{2}
+\theme{Fonctions usuelles, graphe}
+\exo7qcmid{lille-1.fonctions-usuelles.017}
+
+\contenu{
+\begin{question}
+\qclassification{126.00}
+\qtags{motcle=graphe}
+Soit $ f(x)= \frac{2x+1}{x-1}$. Quelles sont les assertions vraies ?
+\begin{answers}
+    \good{$y=2$ est une asymptote à la courbe de $f$ en $+\infty$.}
+
+    \good{La courbe de $f$ admet une asymptote verticale $(x=1)$.}
+
+    \bad{Le point de coordonnées $(1,1)$ est un centre de symétrie du graphe de $f$.}
+
+    \good{Le point de coordonnées $(1,2)$ est un centre de symétrie du graphe de $f$.}
+\end{answers}
+\begin{explanations}
+$\lim_{x\to +\infty}f(x)=2$, donc $y=2$ est une asymptote à la courbe de $f$ en $+\infty$.
+
+$\lim_{x\to 1^+}f(x)=+\infty$ et $\lim_{x\to 1^-}f(x)=-\infty$, donc la droite $x=1$ est une asymptote (verticale) à la courbe de $f$ en $1$.
+
+Le graphe de $f$ admet un centre de symétrie d'abscisse $1$ si et seulement si la fonction $x\to f(1+x)+f(1-x)$ est constante, pour tout $x\neq 0$. Ce qui revient à ce que la fonction $x\to f(x)+f(2-x)$ soit constante, pour tout $x\neq 1$. Or $f(x)+f(2-x)=4=2\times 2, \, \forall x \neq 1$. Donc le point de coordonnées $(1,2)$ est un centre de symétrie du graphe de $f$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,37 @@
+\uuid{5bQE}
+\titre{Division euclidienne}
+\auteur{bodin ; hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Polynôme, fraction rationnelle}
+\sousChapitre{Division euclidienne}
+\difficulte{3}
+\theme{Arithmétique des polynômes, division euclidienne}
+\exo7qcmid{lille-1.polynomes.015}
+
+\contenu{
+\begin{question}
+\qclassification{105.01,105.02}
+\qtags{motcle=division euclidienne}
+Soit $A$ un polynôme de degré $n\ge1$. Soit $B$ un polynôme de degré $m\ge1$, avec $m \le n$.
+Soit $A = B \times Q + R$ la division euclidienne de $A$ par $B$. On note
+$q = \deg Q$ et $r = \deg R$ (avec $r=-\infty$ si $R=0$).
+Quelles sont les assertions vraies (quelque soient $A$ et $B$) ?
+\begin{answers}
+    \good{$q = n-m$}
+
+    \good{$r < m$}
+
+    \bad{$r=0 \implies A$ divise $B$.}
+
+    \bad{$n = mq + r$}
+\end{answers}
+\begin{explanations}
+On a $\deg R < \deg B$. Il ne faut pas confondre $R=0$ et $r=0$.
+En plus $\deg(A) = \deg(B\times Q) = \deg(A) + \deg(Q)$.
+\end{explanations}
+\end{question}
+}

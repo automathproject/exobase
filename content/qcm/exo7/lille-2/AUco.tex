@@ -1,0 +1,49 @@
+\uuid{AUco}
+\titre{Matrice d'une application linéaire/Changement de bases/Puissance de matrices}
+\auteur{hanani ; mzari}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2020-01-20}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Matrice}
+\sousChapitre{Matrice et application linéaire}
+\difficulte{3}
+\theme{Matrice d'une application linéaire, Changement de bases, Puissance de matrices}
+\exo7qcmid{lille-2.matrice-application.027}
+
+\contenu{
+\begin{question}
+\qclassification{108.03}
+\qtags{motcle=Matrice d'une application linéaire/Changement de bases/Puissance de matrices}
+Soit $f$ l'endomorphisme de $\Rr^3$ dont la matrice dans la base canonique ${\cal B}=\{e_1,e_2,e_3\}$ est :
+$$A=\left(\begin{array}{rcc}1&0&0\\ -1&1&1\\
+0&1&1 \end{array}\right).$$
+Soit ${\cal B}' = \{u_1, u_2,  u_3\}$, où  $u_1=(0,1,-1), u_2=(1,0,1), u_3=(0,1,1)$, une base de  $\Rr^3$. On note $P$ la matrice de passage de la base ${\cal B}$ à la base ${\cal B}'$ et $B$ la matrice de $f$ dans la base ${\cal B}'$.
+\vskip0mm
+Définition : Soit $E$ un espace vectoriel muni de deux bases ${\cal {B}}$ et ${\cal {B}}'$. La matrice de passage de la base ${\cal {B}}$ à la base  ${\cal {B}}'$ est la matrice de l'identité de $E$ de la base ${\cal {B}}'$ à la base  ${\cal {B}}$. Autrement dit, c'est la matrice dont la jième colonne est constituée des coordonnées du jième vecteur de la base ${\cal {B}'}$ dans la base  ${\cal {B}}$.
+\vskip0mm
+Quelles sont les assertions vraies ?
+\begin{answers}
+\good{$P= \left(\begin{array}{rcc}
+0&1&0\\1&0&1\\ -1&1&1\end{array}\right).$}
+\bad{$\displaystyle P= \frac{1}{2}\left(\begin{array}{rcc}
+1&1&-1\\2&0&0\\ -1&1&1\end{array}\right).$}
+\good{$\displaystyle P^{-1}= \frac{1}{2}\left(\begin{array}{rcc}
+1&1&-1\\2&0&0\\ -1&1&1\end{array}\right).$}
+\good{$A^n= \left(\begin{array}{rcc}
+1&0&0\\-2^{n-1}&2^{n-1}&2^{n-1}\\
+1-2^{n-1}&2^{n-1}&2^{n-1}\end{array}\right)$, pour tout entier $n\ge1$}.
+\end{answers}
+\begin{explanations}Soit $E$ est un espace vectoriel, de dimension finie, muni de deux bases ${\cal B}$ et ${\cal B}'$ et $f$ un endomorphisme de $E$. On note $P$ la matrice de passage de la base ${\cal B}$ à la base ${\cal B}'$, $A$ la matrice de $f$ dans la base ${\cal B}$ et $B$ la matrice de $f$ dans la base ${\cal B}'$. Alors $AP=PB$. De cette relation, on déduit que $A^n=PB^nP^{-1}$. Par définition, on a :
+$$P= \left(\begin{array}{rcc}
+0&1&0\\1&0&1\\ -1&1&1\end{array}\right) \Rightarrow P^{-1}= \frac{1}{2}\left(\begin{array}{rcc}
+1&1&-1\\2&0&0\\
+-1&1&1\end{array}\right).$$
+On vérifie aussi que $B=\left(\begin{array}{rcc}0&0&0\\0&1&0\\
+0&0&2\end{array}\right)$. D'où $A^n= \left(\begin{array}{rcc}
+1&0&0\\-2^{n-1}&2^{n-1}&2^{n-1}\\
+1-2^{n-1}&2^{n-1}&2^{n-1}\end{array}\right)$, pour tout entier $n\ge1$.
+\end{explanations}
+\end{question}
+}

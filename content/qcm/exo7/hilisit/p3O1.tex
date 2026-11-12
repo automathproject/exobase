@@ -1,0 +1,50 @@
+\uuid{p3O1}
+\titre{Ensembles}
+\auteur{bodin ; croizat ; sacre}
+\organisation{exo7}
+\licence{CC BY-NC-SA 4.0}
+\datecreate{2022-03-08}
+\niveau{L1}
+\module{Algèbre}
+\chapitre{Logique, ensemble, raisonnement}
+\sousChapitre{Ensemble}
+\difficulte{3}
+\theme{Ensembles}
+\exo7qcmid{hilisit.logique.038}
+
+\contenu{
+\begin{question}
+\qclassification{100.02}
+Les fonctions $f$ et $g$ définies par les expressions suivantes sont-elles bijections réciproques l'une de l'autre ?
+(On ne se préoccupera pas des ensembles de départ et d'arrivée.)
+\begin{answers}
+	\good{$f(x) = \exp(-3x)$ et $g(x) = -\frac13\ln(x)$}
+	\bad{$f(x) = \cos(x+1)$ et $g(x) = \frac 1{\cos(x)}-1$}
+	\good{$f(x) = \frac{x}{1+x}$ et $g(x) = \frac{x}{1-x}$}
+	\bad{$f(x)= \sqrt{x+1}$ et $g(x) = x^2+1$}
+\end{answers}
+\begin{explanations}
+Si $f(x) = \exp(-3x)$ et $g(x) = -\frac13\ln(x))$ alors
+$$(f \circ g)(x)
+= e^{(-3) \times (-\frac13\ln(x)) }
+= e^{ \ln(x)  }
+= x$$
+On vérifie de même que $(g\circ f)(x)=x$, donc $f$ et $g$ sont bijections réciproques l'une de l'autre.
+
+Si $f(x) = \cos(x+1)$ et $g(x) =  \frac 1{\cos(x)}-1$ alors $(f \circ g)(x) = \cos( \frac 1{\cos(x)})$ ne se simplifie pas du tout et n'a aucune chance d'être égal à $x$. Prendre $x=10$, alors $(f \circ g)(x)$ est une valeur renvoyée par un cosinus donc est compris entre $-1$ et $+1$ donc ne peut pas être égale à $10$.
+
+Si $f(x) = \frac{x}{1+x}$ et $g(x) = \frac{x}{1-x}$
+$$(f \circ g)(x)
+= f\left(\frac{x}{1-x} \right)
+=  \frac{\frac{x}{1-x}}{1+\frac{x}{1-x}}=\frac{\frac{x}{1-x}}{\frac{1-x}{1-x}+\frac x{1-x}}=\frac x{1-x+x} = x.$$
+On vérifie de même que $(g \circ f)(x) = x$. Donc $f$ et $g$ sont bijections réciproques l'une de l'autre.
+
+Si $f(x)= \sqrt{x+1}$ et $g(x) = x^2+1$ alors
+$$(f \circ g)(x)
+= f\left(x^2+1 \right)
+= \sqrt{ x^2+2 }
+$$
+qui n'est pas égal à $x$ (par exemple pour $x=0$, $(f\circ g)(0)= \sqrt{2} \neq 0$).
+\end{explanations}
+\end{question}
+}
