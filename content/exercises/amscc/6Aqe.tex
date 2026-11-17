@@ -27,10 +27,10 @@
 		}
 		\item \question{ Déterminer les lois marginales du couple $(X,Y)$. }
 		\reponse{
-			Si $(x,y) \notin T$, alors $f(x,y) = 0$. Donc pour tout $x \notin [0,1]$, $f_X(x) = 0$. De même pour tout $y \notin [0,1]$, $f_Y(y) = 0$.} 
+			Si $(x,y) \notin T$, alors $f(x,y) = 0$. Donc pour tout $x \notin [0,1]$, $f_X(x) = 0$. De même pour tout $y \notin [0,1]$, $f_Y(y) = 0$. 
 
 			Si $x \in [0,1]$, alors $f_X(x) = \int_{-\infty}^{+\infty}f(x,y)dy = 2 \int_0^{1-x} dy = 2(1-x)$. De même pour tout $y \in [0,1]$, $f_Y(y) = 2(1-y)$.
-		
+		}
 		\item \question{ Les variables aléatoires $X$ et $Y$ sont-elles indépendantes ?}
 		\reponse{
 			Si elles l'étaient, on aurait $f(x,y) = f_X(x) \times f_Y(y) = 4(1-x)(1-y)$ pour tout $(x,y) \in \R^2$. Or $f(0,0) = 2 \neq 4$. Donc $X$ et $Y$ ne sont pas indépendantes.
