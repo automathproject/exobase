@@ -1,0 +1,40 @@
+\uuid{sopC}
+\titre{Valeurs prises et support de la densité}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{2}
+\theme{densité, support, fonction de répartition, espérance}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable aléatoire de densité
+$$f(x) = \frac12\left(\mathbf{1}_{[0;1]}(x) + \mathbf{1}_{[2;3]}(x)\right),$$
+où $\mathbf{1}_I$ désigne l'indicatrice de l'intervalle $I$ ($1$ sur $I$, $0$ ailleurs) : $f$ vaut $\frac12$ sur $[0;1]$ et sur $[2;3]$, et $0$ ailleurs. On note $F_X$ la fonction de répartition de $X$.
+Quelles affirmations sont vraies ?
+\begin{answers}
+\good{$\mathbb{P}(0 \leq X \leq 3) = 1$ : presque sûrement, $X$ prend ses valeurs dans $[0;3]$.}
+\good{$\mathbb{P}(1 < X < 2) = 0$.}
+\good{$F_X$ est constante, égale à $\frac12$, sur $[1;2]$.}
+\bad{$\mathbb{P}\left(\left|X - \mathbb{E}(X)\right| < \frac12\right) > 0$.}
+\bad{$\mathbb{P}(X \leq 1{,}5) = f(1{,}5) = 0$.}
+\end{answers}
+\begin{explanations}
+A, B : $\mathbb{P}(X \in A) = \int_A f$ est nul dès que $f$ est nulle sur $A$. Les valeurs prises par $X$ sont, presque sûrement, dans l'ensemble où $f > 0$, ici $[0;1] \cup [2;3]$.
+
+C : $F_X(t) = \int_{-\infty}^t f$ n'augmente pas là où $f$ est nulle ; elle reste plate sur $[1;2]$, à la valeur $\int_0^1 \frac12\,\mathrm{d}x = \frac12$. De même $F_X = 0$ sur $]-\infty;0]$ et $F_X = 1$ sur $[3;+\infty[$.
+
+D : $\mathbb{E}(X) = \int_0^1 \frac{x}{2}\,\mathrm{d}x + \int_2^3 \frac{x}{2}\,\mathrm{d}x = \frac14 + \frac54 = \frac32$, donc l'événement $\left|X - \frac32\right| < \frac12$ est $\{1 < X < 2\}$, de probabilité nulle. $X$ ne prend jamais de valeur proche de son espérance.
+
+E : $f(1{,}5) = 0$, mais $\mathbb{P}(X \leq 1{,}5) = F_X(1{,}5) = \frac12$ : toute la masse de $[0;1]$ est déjà à gauche.
+
+Contre-sens visés : ne pas relier l'ensemble des valeurs de $X$ à l'ensemble
+où la densité est non nulle ; croire que l'espérance est une valeur « typique »
+de $X$ ; confondre $f(t)$ et $F_X(t)$.
+\end{explanations}
+\end{question}
+}

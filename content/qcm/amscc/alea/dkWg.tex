@@ -1,0 +1,40 @@
+\uuid{dkWg}
+\titre{Hauteur du pic d'une densité normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, densité, écart-type}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$ ; sa densité est $x \mapsto \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$. Soit $X \sim \mathcal{N}(0;\,0{,}1)$. La valeur de la densité de $X$ en $x = 0$ est :
+\begin{answers}
+\bad{$\dfrac{1}{\sqrt{2\pi}}$}
+\good{$\dfrac{10}{\sqrt{2\pi}}$}
+\bad{$\dfrac{1}{10\sqrt{2\pi}}$}
+\bad{un réel nécessairement inférieur ou égal à $1$, sans plus de précision}
+\end{answers}
+\begin{explanations}
+En $x = 0$, la densité vaut
+$\frac{1}{0{,}1\sqrt{2\pi}} = \frac{10}{\sqrt{2\pi}}$, qui est plus grand que
+$1$ puisque $\sqrt{2\pi} < 10$ (il vaut environ $3{,}99$). A est la valeur pour
+$\mathcal{N}(0,1)$ ($\sigma$ oublié) ; C multiplie par $\sigma$ au lieu de
+diviser ; D repose sur l'idée fausse qu'une densité est majorée par 1.
+
+Le maximum de la densité de $\mathcal{N}(\mu,\sigma)$ est
+$\frac{1}{\sigma\sqrt{2\pi}}$ : l'aire totale reste égale à 1, donc plus
+$\sigma$ est petit, plus la courbe est étroite et haute. Et
+$\mathbb{P}(X = 0) = 0$.
+
+Contre-sens visés : confondre la densité avec une probabilité, et en
+déduire qu'elle est toujours inférieure à 1 (D) ; mal placer $\sigma$ dans la
+formule de la densité (A, C).
+\end{explanations}
+\end{question}
+}

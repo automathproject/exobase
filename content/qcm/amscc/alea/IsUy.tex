@@ -1,0 +1,37 @@
+\uuid{IsUy}
+\titre{Ce que représente une densité}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{1}
+\theme{densité, probabilité d'un point}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable aléatoire de densité $f$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{Pour tout réel $x$, $f(x) = \mathbb{P}(X = x)$.}
+\bad{Pour tout réel $x$, $f(x) \leq 1$.}
+\good{$\displaystyle\int_{-\infty}^{+\infty} f(x)\,\mathrm{d}x = 1$.}
+\good{Pour tout réel $x$, $\mathbb{P}(X = x) = 0$.}
+\bad{$f$ est continue sur $\mathbb{R}$.}
+\end{answers}
+\begin{explanations}
+A est faux : $\mathbb{P}(X = x) = \int_x^x f = 0$, alors que $f(x)$ peut être non nul.
+
+B est faux : la fonction qui vaut $2$ sur $[0;1/2]$ et $0$ ailleurs est une densité (positive, d'aire $2 \times \frac12 = 1$), et elle dépasse $1$.
+
+D est vrai pour toute variable à densité.
+
+E est faux : la densité de la loi uniforme sur $[a;b]$, qui vaut $\frac{1}{b-a}$ sur $[a;b]$ et $0$ ailleurs, est discontinue en $a$ et en $b$.
+
+Contre-sens visés : confondre la densité avec une probabilité (une densité
+n'est pas une probabilité ; c'est l'aire sous sa courbe qui en est une) ;
+croire qu'une variable « continue » a forcément une densité continue.
+\end{explanations}
+\end{question}
+}

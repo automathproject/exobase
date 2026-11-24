@@ -1,0 +1,40 @@
+\uuid{EyOj}
+\titre{Saut de la fonction de répartition}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Espérance et Fonction de répartition}
+\difficulte{2}
+\theme{fonction de répartition, loi mixte, probabilité d'un point}
+
+\contenu{
+\begin{question}
+Une variable aléatoire réelle $X$ a pour fonction de répartition $F(t) = \mathbb{P}(X \leq t)$ :
+$$F(t) = \begin{cases} 0 & \text{si } t < 0,\\ 0{,}35\,t & \text{si } 0 \leq t < 2,\\ 1 & \text{si } t \geq 2.\end{cases}$$
+On note $F(2^-) = \lim\limits_{t \to 2,\, t < 2} F(t)$ la limite à gauche de $F$ en $2$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$X$ est une variable à densité.}
+\bad{$X$ est une variable discrète.}
+\good{$\mathbb{P}(X = 2) = 0{,}3$.}
+\good{$\mathbb{P}(X \leq 1) = 0{,}35$.}
+\bad{Pour toute variable aléatoire réelle $Y$, $\mathbb{P}(Y = 2) = 0$.}
+\end{answers}
+\begin{explanations}
+A : la fonction de répartition d'une variable à densité est continue, or $F$ saute en $2$.
+
+B : la fonction de répartition d'une variable discrète est en escalier, or $F$ croît continûment sur $[0;2[$. $X$ n'est ni discrète ni à densité : sa loi est mixte.
+
+C : la hauteur du saut est $\mathbb{P}(X = 2) = F(2) - F(2^-) = 1 - 0{,}7 = 0{,}3$.
+
+D : $\mathbb{P}(X \leq 1) = F(1) = 0{,}35$.
+
+E : faux, $X$ elle-même est un contre-exemple.
+
+Contre-sens visés : croire que $\mathbb{P}(X = a) = 0$ pour toute
+variable réelle ; croire que toute variable est soit discrète, soit à densité.
+\end{explanations}
+\end{question}
+}

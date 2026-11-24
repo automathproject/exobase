@@ -1,0 +1,33 @@
+\uuid{H5av}
+\titre{Loi uniforme}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Lois usuelles et approximations}
+\difficulte{1}
+\theme{loi uniforme, densité, espérance, variance}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable de loi uniforme sur l'intervalle $[2;6]$, notée $X \sim \mathcal{U}([2;6])$. On note $\mathbb{V}(X)$ sa variance et $\mathbf{1}_{[2;6]}$ l'indicatrice de $[2;6]$ ($1$ sur $[2;6]$, $0$ ailleurs). Quelles affirmations sont vraies ?
+\begin{answers}
+\good{Une densité de $X$ est $f(x) = \frac14\,\mathbf{1}_{[2;6]}(x)$.}
+\good{$\mathbb{E}(X) = 4$.}
+\bad{$\mathbb{V}(X) = \frac13$.}
+\bad{$\mathbb{P}(X = 4) = \frac14$.}
+\good{$\mathbb{P}(X \leq 3) = \frac14$.}
+\end{answers}
+\begin{explanations}
+C : pour la loi uniforme sur $[a;b]$, $\mathbb{V}(X) = \frac{(b-a)^2}{12}$, ici $\frac{16}{12} = \frac43$ (le carré a été oublié).
+
+D : $\mathbb{P}(X = 4) = 0$ ; $\frac14$ est la valeur de la densité.
+
+E : $\frac{3 - 2}{6 - 2} = \frac14$.
+
+Contre-sens visé : lire la hauteur de la densité comme la probabilité d'un point.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,34 @@
+\uuid{EupT}
+\titre{Propriétés de la fonction de répartition}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Espérance et Fonction de répartition}
+\difficulte{1}
+\theme{fonction de répartition, continuité, dérivabilité}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable à densité $f$ et $F_X$ sa fonction de répartition. Quelles affirmations sont vraies ?
+\begin{answers}
+\good{$F_X$ est continue sur $\mathbb{R}$.}
+\bad{$F_X$ est strictement croissante sur $\mathbb{R}$.}
+\bad{$F_X$ est dérivable en tout point de $\mathbb{R}$.}
+\good{Pour tout $t$, $F_X(t) = \mathbb{P}(X < t)$.}
+\good{Pour tout $t$, $F_X(t) = \displaystyle\int_{-\infty}^{t} f(x)\,\mathrm{d}x$.}
+\end{answers}
+\begin{explanations}
+B est faux : $F_X$ est seulement croissante. Elle est constante là où $f$ est nulle ; pour la loi uniforme sur $[a;b]$, $F_X = 0$ sur $]-\infty;a]$ et $F_X = 1$ sur $[b;+\infty[$.
+
+C est faux : la fonction de répartition de la loi uniforme sur $[a;b]$ n'est pas dérivable en $a$ ni en $b$. $F_X$ est dérivable sauf éventuellement en un nombre fini de points (pour les densités du cours), et $F_X' = f$ là où $f$ est continue.
+
+D est vrai car $\mathbb{P}(X = t) = 0$.
+
+Contre-sens visés : croire que « à densité » signifie « $F$ partout
+dérivable » ou « $F$ strictement croissante » ; refuser D par réflexe du discret.
+\end{explanations}
+\end{question}
+}

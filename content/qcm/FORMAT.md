@@ -106,3 +106,55 @@ contenu, et `content/provenance/qcm-exo7.json` consigne le commit importé et le
   énoncé vide.
 - **Corrections éditoriales** : les erreurs manifestes de la source sont
   corrigées par la table `PATCHES` et listées dans le manifeste de provenance.
+
+## Import depuis un markdown
+
+Des qcm peuvent être rédigés dans un document markdown, rangé avec le cours
+qu'ils servent (par exemple `cours-ALEA/qcm/qcm-revision-chap01.md`). Ce
+document est alors **la source** : on le modifie, puis on relance l'import, qui
+réécrit `content/qcm/<source>/<lot>/`. On ne retouche pas les `.tex` produits.
+
+```bash
+python3 tools/import/import_qcm_markdown.py CHEMIN/qcm.md            # simulation
+python3 tools/import/import_qcm_markdown.py CHEMIN/qcm.md --apply
+python3 tools/validate/check_qcm_sources.py content/qcm/<source>/<lot>
+```
+
+`--prune` supprime en plus les fichiers du lot qui ne figurent plus dans le
+markdown (sinon ils sont seulement signalés). `content/provenance/qcm-markdown.json`
+consigne, par lot, le dépôt et le fichier source, son commit, et si le fichier
+avait des modifications non commitées au moment de l'import.
+
+### Structure du document
+
+Les métadonnées se placent dans des commentaires HTML, invisibles à la lecture
+du markdown : `<!-- exobase: clé=valeur; clé=valeur -->`.
+
+- **Commentaire de document**, avant la première question : `source` et `lot`
+  (dossier de destination), puis les valeurs communes `auteur`, `organisation`,
+  `datecreate`, `niveau`, `module`, `chapitre` (toutes obligatoires).
+- **Une question** commence par un titre de niveau 3, `### Q1 — Titre`, suivi
+  immédiatement de son commentaire : `uuid`, `titre`, `sousChapitre`,
+  `difficulte`, `theme`, et au besoin toute valeur du document à remplacer
+  (`datecreate`, `licence`…). Sans `titre`, on reprend celui du markdown, sauf
+  s'il contient une formule. Sans `uuid`, l'import en tire un et, avec
+  `--apply`, l'écrit dans le commentaire : l'identifiant suit la question même
+  si on la renumérote.
+- **L'énoncé** est le texte qui précède les options. La mention
+  `(*une seule réponse*)`, dans le titre ou l'énoncé, donne `\qtype{onlyone}`
+  et est retirée du texte.
+- **Les options** sont des lignes `- A. texte`, `- B. texte`… dans l'ordre ; une
+  ligne de suite s'indente de deux espaces. L'ordre est conservé tel quel.
+- **La correction** est un bloc `<details><summary>Correction</summary> …
+  </details>`. Sa première ligne est `Réponse juste : **C**.` ou
+  `Réponses justes : **A, D**.` (elle fixe les `\good`) ; le texte qui suit,
+  sur la même ligne ou après, devient `explanations`. Chaque puce `- ` y devient
+  un paragraphe.
+- **Une série ordonnée** est une question dont le corps contient des
+  sous-questions `**Q8a.** énoncé`, chacune avec ses options et sa correction ;
+  le texte placé avant la première devient `\texte{}`.
+
+Tout ce qui n'est pas une question (introduction, titres `##`, tableau final)
+est ignoré. Le markdown en ligne est retiré hors des formules (`**gras**`,
+`*italique*`), et `%`, `&`, `#` y sont échappés, conformément aux consignes
+d'écriture ci-dessus.

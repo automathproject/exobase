@@ -1,0 +1,38 @@
+\uuid{jTB5}
+\titre{Constante de normalisation d'une densité}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{1}
+\theme{densité, constante de normalisation}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathbf{1}_{[0;1]}$ l'indicatrice de $[0;1]$ : elle vaut $1$ sur $[0;1]$ et $0$ ailleurs.
+Pour quelle valeur de la constante $c > 0$ la fonction $f(x) = c\,x\,\mathbf{1}_{[0;1]}(x)$ est-elle une densité de probabilité ?
+\begin{answers}
+\bad{$c = 1$}
+\bad{$c = \frac12$}
+\good{$c = 2$}
+\bad{Aucune : la fonction atteint son maximum $c$ en $x = 1$, et il faudrait à la fois $c \leq 1$ et $\int f = 1$.}
+\end{answers}
+\begin{explanations}
+$\int_0^1 c\,x\,\mathrm{d}x = c\left[\frac{x^2}{2}\right]_0^1 = \frac{c}{2} = 1$,
+donc $c = 2$, et $f$ vaut $2$ en $x = 1$ : c'est permis.
+
+A : c'est la plus grande valeur de $c$ pour laquelle $f \leq 1$, ou le résultat d'une primitive fausse ($x^2$ au lieu de $\frac{x^2}{2}$).
+
+B : l'équation $\frac{c}{2} = 1$ mal résolue.
+
+D : la condition $c \leq 1$ n'existe pas ; une densité peut dépasser $1$.
+
+Contre-sens visé : croire qu'une densité est majorée par 1, et choisir $c$
+pour respecter cette fausse contrainte au lieu d'écrire $\int f = 1$.
+\end{explanations}
+\end{question}
+}

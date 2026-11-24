@@ -1,0 +1,96 @@
+\uuid{VZFM}
+\titre{Une fonction de répartition donnée}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Espérance et Fonction de répartition}
+\difficulte{2}
+\theme{fonction de répartition, densité, espérance, variance, médiane}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+On considère la fonction $F$ définie par
+$$F(t) = \begin{cases} 0 & \text{si } t < 1,\\[2pt] 1 - \dfrac{1}{t^2} & \text{si } t \geq 1.\end{cases}$$
+On admet que $F$ est la fonction de répartition d'une variable à densité $X$. Dans les réponses, $\mathbf{1}_{[1;+\infty[}$ désigne l'indicatrice de $[1;+\infty[$ : elle vaut $1$ sur cet intervalle et $0$ ailleurs.
+}
+
+\begin{question}
+\qtype{onlyone}
+Une densité de $X$ est :
+\begin{answers}
+\good{$f(x) = \dfrac{2}{x^3}\,\mathbf{1}_{[1;+\infty[}(x)$}
+\bad{$f(x) = \dfrac{2}{x^3}$ pour tout $x \neq 0$}
+\bad{$f(x) = \left(1 - \dfrac{1}{x^2}\right)\mathbf{1}_{[1;+\infty[}(x)$}
+\bad{$X$ n'a pas de densité, car $F$ n'est pas dérivable en $1$.}
+\end{answers}
+\begin{explanations}
+$F'(t) = \frac{2}{t^3}$ pour $t > 1$ et $F'(t) = 0$ pour $t < 1$.
+
+B oublie le support : on a dérivé la formule $1 - \frac{1}{t^2}$ hors de son
+domaine de validité, et la fonction obtenue est négative pour $x < 0$ et non
+intégrable près de $0$. C est la fonction de répartition elle-même. D : $F$ est
+continue et $\mathcal{C}^1$ par morceaux, un point de non-dérivabilité
+n'empêche pas l'existence d'une densité.
+
+Contre-sens visé : dériver une formule sans tenir compte de son domaine.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qtype{onlyone}
+$\mathbb{P}(X > 3)$ vaut :
+\begin{answers}
+\bad{$\frac{8}{9}$}
+\bad{$\frac{25}{27}$}
+\bad{$\frac{2}{27}$}
+\good{$\frac{1}{9}$}
+\end{answers}
+\begin{explanations}
+$\mathbb{P}(X > 3) = 1 - F(3) = \frac19$.
+
+A donne $F(3) = \mathbb{P}(X \leq 3)$ ; C donne $f(3)$ et B donne $1 - f(3)$,
+deux calculs qui prennent la densité pour une probabilité.
+
+Contre-sens visé : confondre $F(t)$, $1 - F(t)$ et $f(t)$.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qtype{onlyone}
+$\mathbb{E}(X)$ vaut :
+\begin{answers}
+\good{$2$}
+\bad{$1$}
+\bad{$\sqrt2$}
+\bad{$+\infty$ : $X$ n'a pas d'espérance.}
+\end{answers}
+\begin{explanations}
+$\mathbb{E}(X) = \int_1^{+\infty} x\cdot\frac{2}{x^3}\,\mathrm{d}x = \int_1^{+\infty}\frac{2}{x^2}\,\mathrm{d}x = 2$.
+
+B correspond à $\int f = 1$ (oubli du facteur $x$). C est la médiane :
+$F(t) = \frac12$ pour $t = \sqrt2$. D : la queue de la densité en
+$\frac{2}{x^3}$ décroît assez vite pour que $x f(x)$ soit intégrable.
+
+Contre-sens visé : confondre espérance et médiane.
+\end{explanations}
+\end{question}
+
+\begin{question}
+Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$X$ admet une variance, que l'on calcule par $\mathbb{E}(X^2) - \mathbb{E}(X)^2$.}
+\good{$\mathbb{E}(X^2) = +\infty$, donc $X$ n'admet pas de variance.}
+\bad{Une variable qui admet une espérance admet toujours une variance.}
+\end{answers}
+\begin{explanations}
+$\int_1^{+\infty} x^2\cdot\frac{2}{x^3}\,\mathrm{d}x = \int_1^{+\infty}\frac{2}{x}\,\mathrm{d}x = +\infty$.
+C est faux : cette variable en est un contre-exemple.
+
+Contre-sens visé : croire que toute variable a une espérance et une variance finies.
+\end{explanations}
+\end{question}
+}

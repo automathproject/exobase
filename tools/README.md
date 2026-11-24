@@ -10,8 +10,11 @@ Outils de travail pour les flux `exobase`.
 
 `import/import_qcm_exo7.py` importe les questions de qcm-exo7 dans
 `content/qcm/exo7/` et `validate/check_qcm_sources.py` contrôle le résultat
-(UUID uniques, y compris face aux exercices, réponses, séries, images). Le
-format et les règles d'import sont dans `content/qcm/FORMAT.md`.
+(UUID uniques, y compris face aux exercices, réponses, séries, images).
+`import/import_qcm_markdown.py` importe un document de QCM rédigé en markdown
+(par exemple dans un dépôt de cours) vers `content/qcm/<source>/<lot>/` : le
+markdown reste la source. Le format et les règles d'import sont dans
+`content/qcm/FORMAT.md`.
 
 ## Validation LaTeX
 

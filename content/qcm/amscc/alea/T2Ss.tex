@@ -1,0 +1,32 @@
+\uuid{T2Ss}
+\titre{Intervalle centré pour une loi normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale, standardisation, intervalle centré}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. Soit $X \sim \mathcal{N}(2, 3)$. $\mathbb{P}(-1 \leq X \leq 5)$ vaut :
+\begin{answers}
+\bad{$\Phi(5) - \Phi(-1)$}
+\bad{$\Phi(1) \approx 0{,}841$}
+\good{$2\Phi(1) - 1 \approx 0{,}683$}
+\bad{$2\Phi\left(\frac13\right) - 1 \approx 0{,}261$}
+\end{answers}
+\begin{explanations}
+On standardise : $Z = \frac{X - 2}{3}$ suit la loi $\mathcal{N}(0,1)$ et
+$\mathbb{P}\left(\frac{-1 - 2}{3} \leq Z \leq \frac{5 - 2}{3}\right) = \mathbb{P}(-1 \leq Z \leq 1) = 2\Phi(1) - 1$.
+
+Contre-sens visés : appliquer $\Phi$ aux bornes non standardisées (A) ;
+oublier la borne inférieure (B) ; diviser par la variance $9$ au lieu de
+l'écart-type $3$, ce qui donne les bornes $\pm\frac13$ (D).
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,33 @@
+\uuid{bdVH}
+\titre{Lecture des paramètres d'une loi normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, écart-type, variance, standardisation}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\mathbb{V}(X)$ la variance de $X$. Soit $X \sim \mathcal{N}(5, 2)$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$\mathbb{V}(X) = 2$.}
+\good{$\mathbb{V}(X) = 4$.}
+\good{$\dfrac{X - 5}{2}$ suit la loi $\mathcal{N}(0,1)$.}
+\bad{$\dfrac{X - 5}{4}$ suit la loi $\mathcal{N}(0,1)$.}
+\bad{$\dfrac{X - 2}{5}$ suit la loi $\mathcal{N}(0,1)$.}
+\end{answers}
+\begin{explanations}
+Le second paramètre est l'écart-type :
+$\sigma = 2$ et $\mathbb{V}(X) = \sigma^2 = 4$. On centre puis on divise par
+l'écart-type.
+
+Contre-sens visés : confondre écart-type et variance (A, D) ; intervertir
+les rôles des deux paramètres (E). Attention : d'autres ouvrages notent
+$\mathcal{N}(\mu, \sigma^2)$ ; il faut toujours vérifier la convention.
+\end{explanations}
+\end{question}
+}

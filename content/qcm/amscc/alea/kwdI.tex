@@ -1,0 +1,33 @@
+\uuid{kwdI}
+\titre{Espérance et médiane de la loi exponentielle}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi exponentielle}
+\difficulte{1}
+\theme{loi exponentielle, espérance, médiane, mode}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable de loi exponentielle de paramètre $2$, notée $X \sim \mathcal{E}(2)$ : sa densité est $f(x) = 2e^{-2x}$ pour $x \geq 0$ et $f(x) = 0$ pour $x < 0$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$\mathbb{E}(X) = 2$.}
+\good{$\mathbb{E}(X) = \frac12$.}
+\bad{$\mathbb{P}\big(X \leq \mathbb{E}(X)\big) = \frac12$.}
+\good{La médiane de $X$, c'est-à-dire le réel $m$ tel que $\mathbb{P}(X \leq m) = \frac12$, est strictement inférieure à $\mathbb{E}(X)$.}
+\end{answers}
+\begin{explanations}
+Pour la loi $\mathcal{E}(\lambda)$, l'espérance
+vaut $\frac{1}{\lambda}$, ici $\frac12$ (A confond le paramètre et l'espérance).
+La fonction de répartition de $X$ est $F(t) = 1 - e^{-2t}$ pour $t \geq 0$, donc
+$\mathbb{P}\left(X \leq \frac12\right) = F\left(\frac12\right) = 1 - e^{-1} \approx 0{,}63 > \frac12$.
+La médiane vaut $\frac{\ln 2}{2} \approx 0{,}35 < \frac12$. Le mode (point où la densité est maximale) vaut $0$.
+
+Contre-sens visés : confondre $\lambda$ et $\frac1\lambda$ (A) ; espérance =
+médiane (C). Pour une loi dissymétrique, mode, médiane et espérance diffèrent.
+\end{explanations}
+\end{question}
+}

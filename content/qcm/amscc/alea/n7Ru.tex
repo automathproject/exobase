@@ -1,0 +1,32 @@
+\uuid{n7Ru}
+\titre{Loi de Cauchy et existence de l'espérance}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Lois usuelles et approximations}
+\difficulte{2}
+\theme{loi de Cauchy, existence de l'espérance, symétrie}
+
+\contenu{
+\begin{question}
+Soit $X$ de densité $f(x) = \dfrac{1}{\pi(1 + x^2)}$ (loi de Cauchy de centre $x_0 = 0$ et de paramètre d'échelle $\lambda = 1$ ; sa densité est symétrique par rapport à $x_0$). Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$f$ est paire, donc $\mathbb{E}(X) = 0$.}
+\good{$X$ n'a pas d'espérance, car $\displaystyle\int_0^{+\infty} x f(x)\,\mathrm{d}x = +\infty$.}
+\good{$\mathbb{P}(X \leq 0) = \frac12$.}
+\bad{$f$ n'est pas une densité, puisque $X$ n'a pas d'espérance.}
+\end{answers}
+\begin{explanations}
+$\int_0^{+\infty} \frac{x}{\pi(1+x^2)}\,\mathrm{d}x = +\infty$,
+donc $x \mapsto x f(x)$ n'est pas intégrable. L'argument de parité ne
+s'applique qu'à une fonction intégrable. En revanche la symétrie donne bien
+C, et $f$ est une densité (positive, d'intégrale 1).
+
+Contre-sens visé : « la densité est symétrique autour de $x_0$, donc l'espérance vaut $x_0$ »,
+sans vérifier l'existence de l'espérance.
+\end{explanations}
+\end{question}
+}

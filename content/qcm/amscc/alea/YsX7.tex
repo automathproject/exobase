@@ -1,0 +1,35 @@
+\uuid{YsX7}
+\titre{Symétrie de la loi normale centrée réduite}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale centrée réduite, symétrie, fonction de répartition}
+
+\contenu{
+\begin{question}
+Soit $Z$ une variable de loi normale centrée réduite $\mathcal{N}(0,1)$, $\Phi$ sa fonction de répartition ($\Phi(t) = \mathbb{P}(Z \leq t)$) et $t > 0$. Quelles égalités sont vraies ?
+\begin{answers}
+\bad{$\Phi(-t) = -\Phi(t)$}
+\good{$\Phi(-t) = 1 - \Phi(t)$}
+\bad{$\Phi(0) = 0$}
+\good{$\mathbb{P}(|Z| \leq t) = 2\Phi(t) - 1$}
+\good{$\mathbb{P}(Z \geq t) = \Phi(-t)$}
+\end{answers}
+\begin{explanations}
+A donnerait une probabilité négative. C : $Z$
+est centrée et sa densité est paire, donc $\Phi(0) = \mathbb{P}(Z \leq 0) = \frac12$ ;
+c'est la densité, pas $\Phi$, qui est symétrique par rapport à $0$. Par
+symétrie de la densité, $\mathbb{P}(Z \leq -t) = \mathbb{P}(Z \geq t) = 1 - \Phi(t)$,
+et $\mathbb{P}(-t \leq Z \leq t) = \Phi(t) - \Phi(-t) = 2\Phi(t) - 1$.
+
+Contre-sens visé : confondre la symétrie de la densité (paire) avec une
+imparité de $\Phi$ (A, C). Le réflexe : faire un dessin de la cloche et
+colorier l'aire.
+\end{explanations}
+\end{question}
+}

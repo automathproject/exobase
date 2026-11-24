@@ -1,0 +1,37 @@
+\uuid{qFW8}
+\titre{Variance d'une transformation affine}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Espérance et Fonction de répartition}
+\difficulte{1}
+\theme{variance, transformation affine}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathbb{V}(X)$ la variance d'une variable $X$. Soit $X$ une variable telle que $\mathbb{V}(X) = 4$. Alors $\mathbb{V}(-2X + 3)$ vaut :
+\begin{answers}
+\bad{$8$}
+\bad{$11$}
+\good{$16$}
+\bad{$19$}
+\end{answers}
+\begin{explanations}
+Pour tous réels $a$ et $b$, $\mathbb{V}(aX + b) = a^2\,\mathbb{V}(X)$ : la constante
+ne change pas la dispersion et le facteur passe au carré.
+
+A : $|-2| \times 4$, le carré a été oublié.
+
+B : $2 \times 4 + 3$, la variance traitée comme une espérance (en corrigeant le signe).
+
+D : $(-2)^2 \times 4 + 3$, la constante a été gardée.
+
+Contre-sens visé : traiter la variance comme l'espérance (linéarité), en
+tout ou en partie.
+\end{explanations}
+\end{question}
+}

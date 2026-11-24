@@ -1,0 +1,32 @@
+\uuid{Um0a}
+\titre{Théorème de transfert}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Espérance et Fonction de répartition}
+\difficulte{1}
+\theme{espérance, théorème de transfert, loi uniforme}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable de loi uniforme sur $[0;1]$, notée $X \sim \mathcal{U}([0;1])$ : sa densité vaut $1$ sur $[0;1]$ et $0$ ailleurs. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$\mathbb{E}(X^2) = \mathbb{E}(X)^2 = \frac14$.}
+\good{$\mathbb{E}(X^2) = \displaystyle\int_0^1 x^2\,\mathrm{d}x = \frac13$.}
+\bad{$\mathbb{E}\left(\frac1X\right) = \dfrac{1}{\mathbb{E}(X)} = 2$.}
+\good{$\mathbb{E}\left(\frac1X\right) = \displaystyle\int_0^1 \frac{1}{x}\,\mathrm{d}x = +\infty$.}
+\end{answers}
+\begin{explanations}
+Si $X$ a pour densité $f$, le théorème de
+transfert donne $\mathbb{E}(\varphi(X)) = \int \varphi(x) f(x)\,\mathrm{d}x$
+pour une fonction $\varphi$ (ici $\varphi(x) = x^2$, puis $\varphi(x) = \frac1x$). En général
+$\mathbb{E}(\varphi(X)) \neq \varphi(\mathbb{E}(X))$ ; l'égalité est vraie
+quand $\varphi$ est affine.
+
+Contre-sens visé : « l'espérance passe à travers les fonctions ».
+\end{explanations}
+\end{question}
+}

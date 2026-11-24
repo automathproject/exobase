@@ -1,0 +1,30 @@
+\uuid{2vTY}
+\titre{Standardiser une loi normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, standardisation, fonction de répartition}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$ : $\Phi(t) = \mathbb{P}(Z \leq t)$ pour $Z \sim \mathcal{N}(0,1)$. Soit $X \sim \mathcal{N}(10, 2)$. $\mathbb{P}(X \leq 13)$ est égale à :
+\begin{answers}
+\good{$\Phi(1{,}5)$}
+\bad{$\Phi(13)$}
+\bad{$\Phi(0{,}75)$}
+\bad{$\Phi(6{,}5)$}
+\end{answers}
+\begin{explanations}
+$\mathbb{P}(X \leq 13) = \mathbb{P}\left(\frac{X - 10}{2} \leq \frac{13 - 10}{2}\right) = \Phi(1{,}5) \approx 0{,}9332$.
+
+Contre-sens visés : utiliser $\Phi$ sans standardiser (B) ; diviser par la
+variance (C) ; oublier de centrer (D).
+\end{explanations}
+\end{question}
+}

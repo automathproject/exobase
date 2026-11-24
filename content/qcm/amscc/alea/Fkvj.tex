@@ -1,0 +1,37 @@
+\uuid{Fkvj}
+\titre{Support et modélisation}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{1}
+\theme{support, loi normale, loi exponentielle, modélisation}
+
+\contenu{
+\begin{question}
+Notations : $\mathcal{N}(\mu,\sigma)$ est la loi normale d'espérance $\mu$ et d'écart-type $\sigma$ ; $\mathcal{E}(\lambda)$, pour $\lambda > 0$, est la loi exponentielle de densité $x \mapsto \lambda e^{-\lambda x}$ sur $[0;+\infty[$ et $0$ ailleurs ; $F_X$ est la fonction de répartition de $X$.
+Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{La taille $T$ (en cm) d'un adulte est modélisée par $\mathcal{N}(175, 7)$. Dans ce modèle, $\mathbb{P}(T < 0) = 0$.}
+\good{Si $X \sim \mathcal{E}(\lambda)$, alors $\mathbb{P}(X < 0) = 0$ et $F_X(t) = 0$ pour tout $t < 0$.}
+\bad{Si $X \sim \mathcal{E}(\lambda)$, la formule $F_X(t) = 1 - e^{-\lambda t}$ est valable pour tout réel $t$.}
+\good{Si $X \sim \mathcal{N}(0,1)$, une densité de $Y = X^2$ est nulle sur $]-\infty;0[$.}
+\end{answers}
+\begin{explanations}
+A : la densité de la loi normale est strictement positive sur tout $\mathbb{R}$, donc $T$ peut prendre n'importe quelle valeur réelle. Ici $\mathbb{P}(T < 0) = \Phi(-25) \approx 3 \times 10^{-138}$, où $\Phi$ est la fonction de répartition de $\mathcal{N}(0,1)$ : non nulle, mais négligeable. Le modèle n'est qu'une approximation de la réalité.
+
+B : la densité de $\mathcal{E}(\lambda)$ est nulle sur $]-\infty;0[$.
+
+C : pour $t < 0$, $1 - e^{-\lambda t} < 0$, ce qui est impossible pour une probabilité. La formule n'est valable que pour $t \geq 0$.
+
+D : $Y = X^2 \geq 0$, donc $\mathbb{P}(Y < 0) = 0$ ; toute densité de $Y$ est nulle (presque partout) sur $]-\infty;0[$. Penser au support est la première étape d'un changement de variable.
+
+Contre-sens visés : oublier le support en recopiant une formule (C) ;
+confondre « valeurs possibles dans la réalité » et « valeurs possibles dans le
+modèle » (A).
+\end{explanations}
+\end{question}
+}

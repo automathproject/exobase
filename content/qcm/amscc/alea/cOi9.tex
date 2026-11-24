@@ -1,0 +1,35 @@
+\uuid{cOi9}
+\titre{Bornes larges ou strictes}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{1}
+\theme{densité, fonction de répartition, probabilité d'un intervalle}
+
+\contenu{
+\begin{question}
+Soit $X$ une variable à densité $f$, de fonction de répartition $F$, et $a < b$. Quelles égalités sont vraies ?
+\begin{answers}
+\good{$\mathbb{P}(a \leq X \leq b) = \mathbb{P}(a < X < b)$}
+\good{$\mathbb{P}(a \leq X \leq b) = F(b) - F(a)$}
+\bad{$\mathbb{P}(a \leq X \leq b) = f(b) - f(a)$}
+\good{$\mathbb{P}(a \leq X \leq b) = \displaystyle\int_a^b f(x)\,\mathrm{d}x$}
+\bad{$\mathbb{P}(a \leq X \leq b) = F(b) - F(a) + f(a)$}
+\end{answers}
+\begin{explanations}
+A est vrai parce que $\mathbb{P}(X=a) = \mathbb{P}(X=b) = 0$ ; ce n'est pas
+vrai pour une variable discrète.
+
+E est faux : la formule générale est $F(b) - F(a) + \mathbb{P}(X = a)$, et ici
+$\mathbb{P}(X = a) = 0$. Remplacer $\mathbb{P}(X = a)$ par $f(a)$ revient à
+prendre la densité pour une probabilité.
+
+Contre-sens visé : transposer les réflexes du discret (« inclure la borne
+ajoute de la probabilité ») ; confondre $F$ et $f$ dans un calcul de probabilité.
+\end{explanations}
+\end{question}
+}

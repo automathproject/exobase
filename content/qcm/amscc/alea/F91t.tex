@@ -1,0 +1,34 @@
+\uuid{F91t}
+\titre{Absence de mémoire de la loi exponentielle}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi exponentielle}
+\difficulte{2}
+\theme{loi exponentielle, absence de mémoire, probabilité conditionnelle}
+
+\contenu{
+\begin{question}
+Soit $\lambda > 0$ et $X$ une variable de loi exponentielle de paramètre $\lambda$, notée $X \sim \mathcal{E}(\lambda)$ : pour tout $t \geq 0$, $\mathbb{P}(X > t) = e^{-\lambda t}$. La probabilité conditionnelle $\mathbb{P}(X > 5 \mid X > 3)$ est égale à :
+\begin{answers}
+\good{$\mathbb{P}(X > 2)$}
+\bad{$\mathbb{P}(X > 5)$}
+\good{$e^{-2\lambda}$}
+\bad{$1 - e^{-2\lambda}$}
+\good{$\dfrac{\mathbb{P}(X > 5)}{\mathbb{P}(X > 3)}$}
+\bad{$\mathbb{P}(X > 8)$}
+\end{answers}
+\begin{explanations}
+E est la définition de la probabilité
+conditionnelle (car $\{X > 5\} \subset \{X > 3\}$) ; elle vaut
+$\frac{e^{-5\lambda}}{e^{-3\lambda}} = e^{-2\lambda} = \mathbb{P}(X > 2)$.
+
+Contre-sens visés : croire que l'information « $X > 3$ » ne change rien (B) ;
+confondre $\mathbb{P}(X > t)$ et $\mathbb{P}(X \leq t)$ (D) ; appliquer
+l'absence de mémoire en ajoutant les durées au lieu de les retrancher (F).
+\end{explanations}
+\end{question}
+}

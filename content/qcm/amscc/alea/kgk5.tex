@@ -1,0 +1,34 @@
+\uuid{kgk5}
+\titre{Paramètre d'une loi exponentielle}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi exponentielle}
+\difficulte{1}
+\theme{loi exponentielle, paramètre, temps d'attente}
+
+\contenu{
+\begin{question}
+La durée d'attente $T$ (en minutes) à un guichet suit une loi exponentielle ; l'attente moyenne est de $10$ minutes. On note $\mathcal{E}(\lambda)$, pour $\lambda > 0$, la loi exponentielle de paramètre $\lambda$, de densité $x \mapsto \lambda e^{-\lambda x}$ sur $[0;+\infty[$ et $0$ ailleurs, et $\mathbb{V}(T)$ la variance de $T$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{$T \sim \mathcal{E}(10)$.}
+\good{$T \sim \mathcal{E}\left(\frac{1}{10}\right)$.}
+\bad{$\mathbb{V}(T) = 10$.}
+\good{$\mathbb{P}(T > 10) = e^{-1} \approx 0{,}37$.}
+\end{answers}
+\begin{explanations}
+$\mathbb{E}(T) = \frac1\lambda = 10$ donne
+$\lambda = \frac1{10}$ (en min$^{-1}$), puis
+$\mathbb{P}(T > t) = e^{-\lambda t}$, soit $\mathbb{P}(T > 10) = e^{-1}$ : on
+dépasse l'attente moyenne un peu plus d'une fois sur trois, et non une fois sur
+deux. C : $\mathbb{V}(T) = \frac{1}{\lambda^2} = 100$ (en min$^2$) ; c'est
+l'écart-type qui vaut $10$ minutes.
+
+Contre-sens visés : confondre le paramètre $\lambda$ et l'espérance $\frac1\lambda$ ;
+confondre variance et écart-type.
+\end{explanations}
+\end{question}
+}

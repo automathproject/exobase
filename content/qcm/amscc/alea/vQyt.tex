@@ -1,0 +1,32 @@
+\uuid{vQyt}
+\titre{Formule de l'espérance}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Espérance et Fonction de répartition}
+\difficulte{1}
+\theme{espérance, mode}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+Soit $X$ une variable de densité $f$ et de fonction de répartition $F$, admettant une espérance. Alors $\mathbb{E}(X)$ est égal à :
+\begin{answers}
+\bad{$\displaystyle\int_{-\infty}^{+\infty} f(x)\,\mathrm{d}x$}
+\bad{l'abscisse du point où $f$ est maximale}
+\bad{$\displaystyle\int_{-\infty}^{+\infty} x\,F(x)\,\mathrm{d}x$}
+\good{$\displaystyle\int_{-\infty}^{+\infty} x\,f(x)\,\mathrm{d}x$}
+\end{answers}
+\begin{explanations}
+A vaut toujours $1$. B est le mode, qui n'a pas de
+raison d'être égal à l'espérance : pour la loi exponentielle de paramètre
+$\lambda$, la densité est maximale en $0$ alors que l'espérance vaut
+$\frac1\lambda$. C mélange densité et fonction de répartition.
+
+Contre-sens visé : confondre espérance et « valeur la plus probable ».
+\end{explanations}
+\end{question}
+}

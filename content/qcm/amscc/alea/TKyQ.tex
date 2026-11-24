@@ -1,0 +1,39 @@
+\uuid{TKyQ}
+\titre{Reconnaître une densité}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-24}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Densité de probabilité}
+\difficulte{1}
+\theme{densité, positivité, normalisation, support}
+
+\contenu{
+\begin{question}
+Pour un intervalle $I$, on note $\mathbf{1}_I$ son indicatrice : $\mathbf{1}_I(x) = 1$ si $x \in I$ et $\mathbf{1}_I(x) = 0$ sinon.
+Quelles fonctions sont des densités de probabilité sur $\mathbb{R}$ ?
+\begin{answers}
+\good{$f(x) = 2\cdot\mathbf{1}_{[0;1/2]}(x)$}
+\bad{$f(x) = \left(x + \frac12\right)\mathbf{1}_{[-1;1]}(x)$}
+\good{$f(x) = 3x^2\cdot\mathbf{1}_{[0;1]}(x)$}
+\bad{$f(x) = e^{-x}$ pour tout $x \in \mathbb{R}$}
+\good{$f(x) = \frac{1}{2}e^{-|x|}$ pour tout $x \in \mathbb{R}$}
+\end{answers}
+\begin{explanations}
+A : positive, d'intégrale $2 \times \frac12 = 1$.
+
+B : $\int_{-1}^{1}\left(x + \frac12\right)\mathrm{d}x = 0 + 1 = 1$, mais la fonction est négative sur $\left[-1;-\frac12\right[$. Vérifier l'intégrale ne suffit pas.
+
+C : positive, $\int_0^1 3x^2\,\mathrm{d}x = 1$.
+
+D : positive, mais $\int_{-\infty}^{0} e^{-x}\,\mathrm{d}x = +\infty$ ; il manque l'indicatrice $\mathbf{1}_{[0;+\infty[}$.
+
+E : paire, $2\int_0^{+\infty}\frac12 e^{-x}\,\mathrm{d}x = 1$.
+
+Contre-sens visé : ne vérifier qu'une des deux conditions (positivité
+et intégrale égale à 1), ou oublier l'indicatrice qui fixe le support.
+\end{explanations}
+\end{question}
+}
