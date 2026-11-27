@@ -1,0 +1,43 @@
+\uuid{TESq}
+\titre{Probabilités à un, deux et trois écarts-types}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, standardisation, ordres de grandeur}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. On donne $\Phi(1) \approx 0{,}841$, $\Phi(2) \approx 0{,}977$ et $\Phi(3) \approx 0{,}9987$. Soit $X \sim \mathcal{N}(100, 15)$. Quelles affirmations sont vraies ?
+\begin{answers}
+\good{$\mathbb{P}(85 \leq X \leq 115) \approx 0{,}68$.}
+\bad{$\mathbb{P}(X \geq 130) \approx 0{,}05$.}
+\good{$\mathbb{P}(70 \leq X \leq 130) \approx 0{,}95$.}
+\good{$\mathbb{P}(X \leq 55) \approx 0{,}0013$.}
+\bad{$\mathbb{P}(X \leq 115) \approx 0{,}68$.}
+\end{answers}
+\begin{explanations}
+Avec $Z = \frac{X - 100}{15}$ de loi $\mathcal{N}(0,1)$ :
+
+A : $\mathbb{P}(-1 \leq Z \leq 1) = 2\Phi(1) - 1 \approx 0{,}68$.
+
+B : $\mathbb{P}(Z \geq 2) = 1 - \Phi(2) \approx 0{,}023$. La valeur $0{,}05$ est la probabilité de sortir de $[70;130]$ des deux côtés.
+
+C : $\mathbb{P}(-2 \leq Z \leq 2) = 2\Phi(2) - 1 \approx 0{,}95$.
+
+D : $\mathbb{P}(Z \leq -3) = 1 - \Phi(3) \approx 0{,}0013$.
+
+E : $\mathbb{P}(Z \leq 1) = \Phi(1) \approx 0{,}84$ ; $0{,}68$ est la probabilité de l'intervalle centré.
+
+À retenir : environ $68\,\%$, $95\,\%$ et $99{,}7\,\%$ de la masse à moins de
+un, deux et trois écarts-types de l'espérance.
+
+Contre-sens visés : confondre une queue et les deux queues (B) ; confondre
+$\Phi(t)$ et $2\Phi(t) - 1$ (E).
+\end{explanations}
+\end{question}
+}

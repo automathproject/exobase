@@ -1,0 +1,37 @@
+\uuid{vQKw}
+\titre{Propriétés de la fonction de répartition de la loi normale centrée réduite}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale centrée réduite, fonction de répartition, monotonie}
+
+\contenu{
+\begin{question}
+Soit $\varphi(x) = \frac{1}{\sqrt{2\pi}}\,e^{-\frac{x^2}{2}}$ la densité de la loi normale centrée réduite $\mathcal{N}(0,1)$ et $\Phi$ sa fonction de répartition. Quelles affirmations sont vraies ?
+\begin{answers}
+\good{$\Phi$ est strictement croissante sur $\mathbb{R}$.}
+\bad{Il existe un réel $t$ tel que $\Phi(t) = 1$.}
+\good{$\Phi$ est dérivable sur $\mathbb{R}$ et $\Phi' = \varphi$.}
+\bad{$\Phi$ est concave sur $\mathbb{R}$.}
+\bad{Pour tout réel $t$, $\Phi(t) = \displaystyle\int_0^t \varphi(x)\,\mathrm{d}x$.}
+\end{answers}
+\begin{explanations}
+A, C : $\varphi$ est continue et strictement positive sur $\mathbb{R}$, donc $\Phi$ est dérivable de dérivée $\varphi > 0$.
+
+B est faux : $1 - \Phi(t) = \int_t^{+\infty}\varphi > 0$ pour tout $t$. $\Phi(t)$ tend vers $1$ sans l'atteindre ; une table qui affiche $1{,}0000$ arrondit.
+
+D est faux : $\Phi'' = \varphi'$, et $\varphi'(x) = -x\,\varphi(x)$ est positive pour $x < 0$. $\Phi$ est convexe sur $]-\infty;0]$ et concave sur $[0;+\infty[$.
+
+E est faux : $\Phi(t) = \int_{-\infty}^t \varphi$ ; l'intégrale de $0$ à $t$ vaut $\Phi(t) - \frac12$.
+
+Contre-sens visés : croire qu'une probabilité de queue devient nulle « loin »
+(B) ; oublier la borne $-\infty$ dans la définition de la fonction de
+répartition (E).
+\end{explanations}
+\end{question}
+}

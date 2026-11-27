@@ -1,0 +1,39 @@
+\uuid{6act}
+\titre{Probabilité qu'une variable normale dépasse une autre}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale, différence de variables indépendantes, standardisation}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. Soit $X \sim \mathcal{N}(10, 3)$ et $Y \sim \mathcal{N}(6, 4)$, indépendantes. $\mathbb{P}(X > Y)$ vaut :
+\begin{answers}
+\bad{$1 - \Phi(0{,}8)$}
+\bad{$\Phi(4)$}
+\bad{$\Phi\left(\frac47\right)$}
+\good{$\Phi(0{,}8)$}
+\end{answers}
+\begin{explanations}
+$D = X - Y$ est normale, d'espérance $10 - 6 = 4$ et de
+variance $9 + 16 = 25$ (les variances s'ajoutent, même pour une
+différence), donc $D \sim \mathcal{N}(4, 5)$. Puis
+$\mathbb{P}(D > 0) = \mathbb{P}\left(Z > -\frac45\right) = 1 - \Phi(-0{,}8) = \Phi(0{,}8)$.
+
+A : erreur de signe au moment de la symétrie ; contrôle : $\mathbb{E}(D) > 0$, donc $\mathbb{P}(D > 0) > \frac12$.
+
+B : on a soustrait les écarts-types ($4 - 3 = 1$).
+
+C : on a ajouté les écarts-types ($3 + 4 = 7$).
+
+Contre-sens visé : croire que la dispersion d'une différence est la
+différence des dispersions.
+\end{explanations}
+\end{question}
+}

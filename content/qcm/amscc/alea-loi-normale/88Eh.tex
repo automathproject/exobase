@@ -1,0 +1,40 @@
+\uuid{88Eh}
+\titre{Constante de normalisation d'une densité gaussienne}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale, densité, constante de normalisation}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$ ; sa densité est $x \mapsto \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$. Pour quelle valeur de la constante $c > 0$ la fonction $f(x) = c\,e^{-x^2}$, définie sur $\mathbb{R}$, est-elle une densité de probabilité ?
+\begin{answers}
+\bad{$c = \dfrac{1}{\sqrt{2\pi}}$}
+\good{$c = \dfrac{1}{\sqrt{\pi}}$}
+\bad{$c = \sqrt{\pi}$}
+\bad{Aucune : $e^{-x^2}$ n'a pas la forme de la densité d'une loi normale.}
+\end{answers}
+\begin{explanations}
+On identifie $e^{-x^2} = e^{-\frac{x^2}{2\sigma^2}}$
+avec $2\sigma^2 = 1$, soit $\sigma = \frac{1}{\sqrt2}$ et $\mu = 0$. La
+constante de $\mathcal{N}\left(0, \frac{1}{\sqrt2}\right)$ est
+$\frac{1}{\sigma\sqrt{2\pi}} = \frac{\sqrt2}{\sqrt{2\pi}} = \frac{1}{\sqrt\pi}$.
+On en déduit au passage $\int_{-\infty}^{+\infty} e^{-x^2}\,\mathrm{d}x = \sqrt\pi$.
+
+A recopie la constante de $\mathcal{N}(0,1)$ sans tenir compte de $\sigma$.
+
+C est la valeur de l'intégrale, et non son inverse.
+
+D : toute fonction $x \mapsto c\,e^{-a(x-b)^2}$ avec $a > 0$ est, à la constante près, une densité normale.
+
+Contre-sens visé : ne savoir reconnaître la loi normale que sous la forme
+exacte du cours, sans identifier $\sigma$ dans l'exposant.
+\end{explanations}
+\end{question}
+}

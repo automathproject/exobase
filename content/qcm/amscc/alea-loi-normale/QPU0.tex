@@ -1,0 +1,84 @@
+\uuid{QPU0}
+\titre{Approximation normale d'une loi binomiale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Théorème central limite}
+\difficulte{2}
+\theme{théorème de Moivre-Laplace, loi binomiale, correction de continuité}
+\serie{ordonnee}
+
+\contenu{
+\texte{
+On lance $100$ fois une pièce équilibrée et on note $S$ le nombre de « pile » : $S$ suit la loi binomiale $\mathcal{B}\left(100, \frac12\right)$. On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$.
+}
+
+\begin{question}
+\qtype{onlyone}
+D'après le théorème de Moivre-Laplace, on peut approcher la loi de $S$ par la loi :
+\begin{answers}
+\bad{$\mathcal{N}(50, 25)$}
+\good{$\mathcal{N}(50, 5)$}
+\bad{$\mathcal{N}\left(100, \frac12\right)$}
+\bad{$\mathcal{N}\left(50, \frac12\right)$}
+\end{answers}
+\begin{explanations}
+On garde l'espérance $np = 50$ et l'écart-type
+$\sqrt{np(1-p)} = \sqrt{25} = 5$. A donne la variance $25$ ; C et D prennent
+les paramètres $n$ et $p$ de la loi binomiale pour ceux de la loi normale.
+
+Contre-sens visé : recopier les paramètres $(n, p)$ au lieu de calculer
+l'espérance et l'écart-type.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qtype{onlyone}
+On note $Z'$ une variable de loi $\mathcal{N}(50, 5)$. Quelle approximation de $\mathbb{P}(S = 50)$ est pertinente ?
+\begin{answers}
+\good{$\mathbb{P}(S = 50) \approx \mathbb{P}(49{,}5 \leq Z' \leq 50{,}5) = 2\Phi(0{,}1) - 1$}
+\bad{$\mathbb{P}(S = 50) \approx \mathbb{P}(Z' = 50) = 0$}
+\bad{$\mathbb{P}(S = 50) = \frac12$, puisque $50$ est l'espérance de $S$}
+\end{answers}
+\begin{explanations}
+Elle vaut environ $0{,}080$ (la valeur exacte est
+environ $0{,}0796$). C'est la correction de continuité : on remplace la
+valeur entière $50$ par l'intervalle $[49{,}5;50{,}5]$ de longueur $1$.
+
+B : une variable à densité donne une probabilité nulle à chaque point ; il faut donner une épaisseur à $\{S = 50\}$.
+
+C confond $\mathbb{P}(S = 50)$ et $\mathbb{P}(S \leq 50)$ ; même cette dernière vaut un peu plus de $\frac12$, car elle contient la valeur $50$.
+
+Contre-sens visé : approcher un événement ponctuel d'une loi discrète par
+l'événement ponctuel de la loi continue.
+\end{explanations}
+\end{question}
+
+\begin{question}
+\qtype{onlyone}
+Avec la correction de continuité, $\mathbb{P}(S \leq 55)$ est approchée par :
+\begin{answers}
+\bad{$\Phi(1)$}
+\bad{$\Phi(0{,}9)$}
+\good{$\Phi(1{,}1)$}
+\bad{$\Phi(0{,}22)$}
+\end{answers}
+\begin{explanations}
+$\{S \leq 55\}$ contient la valeur $55$, donc on
+l'approche par $\{Z' \leq 55{,}5\}$, et $\frac{55{,}5 - 50}{5} = 1{,}1$.
+
+A est l'approximation sans correction ($55$ au lieu de $55{,}5$).
+
+B corrige dans le mauvais sens ($54{,}5$) : cela revient à exclure la valeur $55$.
+
+D divise par la variance $25$ au lieu de l'écart-type $5$.
+
+Contre-sens visé : appliquer la correction de continuité dans le mauvais
+sens. Le réflexe : se demander si la valeur frontière est incluse dans
+l'événement.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,40 @@
+\uuid{RYXc}
+\titre{Loi de la moyenne d'un échantillon normal}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, moyenne empirique, somme de variables indépendantes}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$. La taille (en cm) d'un adulte est modélisée par la loi $\mathcal{N}(170, 10)$. On mesure $25$ adultes ; leurs tailles $X_1, \dots, X_{25}$ sont indépendantes, de même loi $\mathcal{N}(170, 10)$. La moyenne $\overline{X} = \frac{1}{25}\sum_{i=1}^{25} X_i$ suit la loi :
+\begin{answers}
+\bad{$\mathcal{N}(170, 10)$}
+\bad{$\mathcal{N}(170, 4)$}
+\bad{$\mathcal{N}(170;\, 0{,}4)$}
+\good{$\mathcal{N}(170, 2)$}
+\end{answers}
+\begin{explanations}
+La somme suit $\mathcal{N}(25 \times 170,\ \sqrt{25} \times 10)$,
+soit $\mathcal{N}(4250, 50)$ ; en divisant par $25$, on obtient
+$\mathcal{N}\left(170, \frac{50}{25}\right) = \mathcal{N}(170, 2)$. En général,
+$\overline{X} \sim \mathcal{N}\left(\mu, \frac{\sigma}{\sqrt n}\right)$.
+
+A : la moyenne de $25$ mesures est moins dispersée qu'une mesure seule.
+
+B : $\frac{\sigma^2}{n} = 4$ est la variance de $\overline{X}$.
+
+C : $\frac{\sigma}{n}$, on a divisé par $n$ au lieu de $\sqrt n$.
+
+Contre-sens visés : croire que moyenner ne réduit pas la dispersion (A) ;
+diviser l'écart-type par $n$ au lieu de $\sqrt n$ (C) ; confondre écart-type et
+variance (B).
+\end{explanations}
+\end{question}
+}

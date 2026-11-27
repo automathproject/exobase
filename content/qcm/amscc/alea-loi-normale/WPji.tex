@@ -1,0 +1,38 @@
+\uuid{WPji}
+\titre{Variables de loi normale centrée réduite}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, standardisation, symétrie}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$. Soit $X \sim \mathcal{N}(\mu, \sigma)$ avec $\mu \neq 0$ et $\sigma \neq 1$. Quelles variables suivent la loi $\mathcal{N}(0,1)$ ?
+\begin{answers}
+\good{$\dfrac{X - \mu}{\sigma}$}
+\bad{$\dfrac{X - \mu}{\sigma^2}$}
+\bad{$\dfrac{X}{\sigma} - \mu$}
+\bad{$\left(\dfrac{X - \mu}{\sigma}\right)^2$}
+\good{$\dfrac{\mu - X}{\sigma}$}
+\end{answers}
+\begin{explanations}
+A est la standardisation du cours.
+
+B a pour écart-type $\frac{\sigma}{\sigma^2} = \frac{1}{\sigma} \neq 1$.
+
+C a pour espérance $\frac{\mu}{\sigma} - \mu$, qui n'est nulle que si $\sigma = 1$ : il faut centrer avant de diviser.
+
+D est positive : elle ne peut pas suivre une loi normale (sa loi est la loi du $\chi^2$ à un degré de liberté).
+
+E $= -\frac{X - \mu}{\sigma}$ ; si $Z \sim \mathcal{N}(0,1)$, alors $-Z \sim \mathcal{N}(0,1)$ par symétrie de la densité.
+
+Contre-sens visés : diviser par la variance (B) ; diviser puis centrer avec
+la mauvaise constante (C) ; refuser E parce que « le signe change ».
+\end{explanations}
+\end{question}
+}

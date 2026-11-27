@@ -1,0 +1,38 @@
+\uuid{Ty8y}
+\titre{Reconnaître les paramètres d'une densité normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, densité, paramètres}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$ ; sa densité est $x \mapsto \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$. Une variable $X$ a pour densité
+$$f(x) = \frac{1}{3\sqrt{2\pi}}\,e^{-\frac{(x+1)^2}{18}}.$$
+La loi de $X$ est :
+\begin{answers}
+\good{$\mathcal{N}(-1, 3)$}
+\bad{$\mathcal{N}(1, 3)$}
+\bad{$\mathcal{N}(-1, 9)$}
+\bad{$\mathcal{N}(-1, 18)$}
+\end{answers}
+\begin{explanations}
+On lit $x - \mu = x + 1$, donc $\mu = -1$, et
+$2\sigma^2 = 18$, donc $\sigma^2 = 9$ et $\sigma = 3$, ce que confirme le
+facteur $\frac{1}{3\sqrt{2\pi}}$.
+
+B : le signe de $\mu$ est mal lu ($x + 1 = x - (-1)$).
+
+C donne la variance au lieu de l'écart-type, D le dénominateur $2\sigma^2$.
+
+Contre-sens visés : lire $\mu$ avec le mauvais signe ; confondre $\sigma$,
+$\sigma^2$ et $2\sigma^2$.
+\end{explanations}
+\end{question}
+}

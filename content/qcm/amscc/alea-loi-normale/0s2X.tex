@@ -1,0 +1,41 @@
+\uuid{0s2X}
+\titre{Image affine d'une variable normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, transformation affine, écart-type}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma > 0$. Soit $X \sim \mathcal{N}(2, 3)$ et $Y = -2X + 1$. La loi de $Y$ est :
+\begin{answers}
+\bad{$\mathcal{N}(-3, -6)$}
+\bad{$\mathcal{N}(5, 6)$}
+\good{$\mathcal{N}(-3, 6)$}
+\bad{$\mathcal{N}(-3, 36)$}
+\bad{$\mathcal{N}(-3, 7)$}
+\end{answers}
+\begin{explanations}
+Une image affine $aX + b$ d'une variable normale
+($a \neq 0$) est normale, d'espérance $a\mu + b = -4 + 1 = -3$ et d'écart-type
+$|a|\,\sigma = 2 \times 3 = 6$.
+
+A : un écart-type est positif ; c'est $|a|$ qui intervient.
+
+B : erreur de signe sur l'espérance ($2 \times 2 + 1$).
+
+D donne la variance $36$ à la place de l'écart-type.
+
+E ajoute la constante $1$ à l'écart-type ; une translation ne change pas la dispersion.
+
+Contre-sens visés : écart-type négatif (A) ; confusion écart-type /
+variance (D) ; croire que la constante modifie la dispersion (E).
+\end{explanations}
+\end{question}
+}

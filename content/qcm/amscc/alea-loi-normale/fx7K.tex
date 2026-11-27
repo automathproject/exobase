@@ -1,0 +1,38 @@
+\uuid{fx7K}
+\titre{Effet des paramètres sur la densité normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, densité, espérance, écart-type}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$ ; sa densité est $x \mapsto \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$. On note $f_1$, $f_2$ et $f_3$ les densités respectives de $\mathcal{N}(0,1)$, $\mathcal{N}(0,2)$ et $\mathcal{N}(3,1)$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{Pour tout réel $x$, $f_2(x) = f_1\left(\frac{x}{2}\right)$.}
+\good{La courbe de $f_3$ est l'image de celle de $f_1$ par la translation de $3$ unités vers la droite.}
+\bad{L'aire sous la courbe de $f_2$ vaut $2$.}
+\good{Le maximum de $f_2$ est la moitié du maximum de $f_1$.}
+\bad{Pour tout réel $x$, $f_2(x) \leq f_1(x)$.}
+\end{answers}
+\begin{explanations}
+A est faux : $f_2(x) = \frac{1}{2}\,f_1\left(\frac{x}{2}\right)$. Étirer la courbe horizontalement d'un facteur $2$ double l'aire ; il faut diviser la hauteur par $2$ pour qu'elle reste égale à $1$.
+
+B : $f_3(x) = f_1(x - 3)$ ; changer $\mu$ déplace la courbe sans la déformer.
+
+C est faux : toute densité a une aire égale à $1$.
+
+D : les maxima valent $\frac{1}{\sqrt{2\pi}}$ et $\frac{1}{2\sqrt{2\pi}}$.
+
+E est faux : $f_1$ et $f_2$ ont la même aire, donc $f_2$, plus basse au centre, est forcément plus haute ailleurs ; par exemple $f_1(4) = \frac{e^{-8}}{\sqrt{2\pi}}$ et $f_2(4) = \frac{e^{-2}}{2\sqrt{2\pi}}$, qui est plus grand.
+
+Contre-sens visés : croire que $\sigma$ ne fait qu'étirer la courbe sans
+l'aplatir (A) ; oublier que l'aire reste égale à $1$ (C, E).
+\end{explanations}
+\end{question}
+}

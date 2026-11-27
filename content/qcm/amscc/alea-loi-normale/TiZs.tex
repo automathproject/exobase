@@ -1,0 +1,38 @@
+\uuid{TiZs}
+\titre{Approximation normale d'une somme de durées exponentielles}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Théorème central limite}
+\difficulte{2}
+\theme{théorème central limite, loi exponentielle, approximation}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. Les durées de traitement de $100$ dossiers, en heures, sont des variables $X_1, \dots, X_{100}$ indépendantes de loi exponentielle de paramètre $1$ (densité $x \mapsto e^{-x}$ sur $[0;+\infty[$, espérance $1$, variance $1$). On note $S = X_1 + \dots + X_{100}$ la durée totale. D'après le théorème central limite, $\mathbb{P}(S \leq 110)$ vaut environ :
+\begin{answers}
+\good{$\Phi(1)$}
+\bad{$\Phi(0{,}1)$}
+\bad{$\Phi(10)$}
+\bad{$1 - e^{-110}$}
+\end{answers}
+\begin{explanations}
+$\mathbb{E}(S) = 100$ et $\mathbb{V}(S) = 100$, donc
+$S$ suit approximativement $\mathcal{N}(100, 10)$ et
+$\mathbb{P}(S \leq 110) \approx \Phi\left(\frac{110 - 100}{10}\right) = \Phi(1) \approx 0{,}84$.
+
+B : écart-type $100$, obtenu en multipliant l'écart-type par $n$.
+
+C : écart-type $1$, celui d'une seule durée.
+
+D applique à la somme la fonction de répartition d'une seule durée : $S$ ne suit pas une loi exponentielle.
+
+Contre-sens visés : se tromper d'écart-type pour la somme (B, C) ; croire
+que la somme garde la loi de ses termes (D).
+\end{explanations}
+\end{question}
+}

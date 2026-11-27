@@ -1,0 +1,42 @@
+\uuid{548P}
+\titre{Intervalle centré à 95 % pour une loi normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale, intervalle centré, quantile, intervalle de confiance}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. On donne $\Phi(1{,}645) \approx 0{,}95$ et $\Phi(1{,}96) \approx 0{,}975$. Soit $X \sim \mathcal{N}(\mu, \sigma)$. Le réel $h > 0$ tel que $\mathbb{P}(\mu - h \leq X \leq \mu + h) = 0{,}95$ vaut environ :
+\begin{answers}
+\bad{$1{,}96$}
+\bad{$1{,}645\,\sigma$}
+\bad{$1{,}96\,\sigma^2$}
+\good{$1{,}96\,\sigma$}
+\end{answers}
+\begin{explanations}
+En posant $t = \frac{h}{\sigma}$, on veut
+$\mathbb{P}(-t \leq Z \leq t) = 2\Phi(t) - 1 = 0{,}95$, soit $\Phi(t) = 0{,}975$,
+donc $t \approx 1{,}96$ et $h \approx 1{,}96\,\sigma$.
+
+A oublie de revenir à l'échelle de $X$.
+
+B : $\Phi(1{,}645) = 0{,}95$ laisse $5\,\%$ dans une queue ; un intervalle centré à $95\,\%$ laisse $2{,}5\,\%$ de chaque côté.
+
+C multiplie par la variance.
+
+C'est le calcul qui sert, au chapitre sur l'estimation, à construire les
+intervalles de confiance à $95\,\%$.
+
+Contre-sens visé : chercher $\Phi(t) = 0{,}95$ au lieu de
+$\Phi(t) = 0{,}975$, c'est-à-dire oublier qu'un intervalle centré partage le
+risque entre deux queues.
+\end{explanations}
+\end{question}
+}

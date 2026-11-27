@@ -1,0 +1,37 @@
+\uuid{5ZfL}
+\titre{Somme de deux variables normales indépendantes}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, somme de variables indépendantes, variance}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$. Soit $X_1 \sim \mathcal{N}(1, 3)$ et $X_2 \sim \mathcal{N}(2, 4)$, indépendantes. La loi de $X_1 + X_2$ est :
+\begin{answers}
+\good{$\mathcal{N}(3, 5)$}
+\bad{$\mathcal{N}(3, 7)$}
+\bad{$\mathcal{N}(3, 25)$}
+\bad{$\mathcal{N}(3, \sqrt7)$}
+\end{answers}
+\begin{explanations}
+Les espérances s'ajoutent toujours ; par indépendance,
+ce sont les variances qui s'ajoutent : $9 + 16 = 25$, donc l'écart-type
+vaut $\sqrt{25} = 5$.
+
+B ajoute les écarts-types.
+
+C donne la variance à la place de l'écart-type.
+
+D : $\sqrt{3 + 4}$, les écarts-types n'ont pas été élevés au carré.
+
+Contre-sens visé : additionner les écarts-types au lieu des variances.
+\end{explanations}
+\end{question}
+}

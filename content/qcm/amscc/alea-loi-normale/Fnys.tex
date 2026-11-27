@@ -1,0 +1,34 @@
+\uuid{Fnys}
+\titre{Énoncé du théorème central limite}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Théorème central limite}
+\difficulte{2}
+\theme{théorème central limite, convergence en loi, loi normale}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$. Soit $(X_k)_{k \geq 1}$ une suite de variables indépendantes de même loi, d'espérance $\mu$ et de variance $\sigma^2 > 0$, et $S_n = X_1 + \dots + X_n$. Quelles affirmations sont vraies ?
+\begin{answers}
+\bad{Pour $n$ grand, $S_n$ suit approximativement la loi $\mathcal{N}(n\mu, n\sigma)$.}
+\good{$\dfrac{S_n - n\mu}{\sigma\sqrt n}$ converge en loi vers une variable de loi $\mathcal{N}(0,1)$.}
+\bad{Ce résultat n'est valable que si les $X_k$ suivent une loi normale.}
+\good{Pour $n$ grand, $S_n$ suit approximativement la loi $\mathcal{N}(n\mu, \sigma\sqrt n)$.}
+\good{Si les $X_k$ suivent la loi $\mathcal{N}(\mu,\sigma)$, alors $\dfrac{S_n - n\mu}{\sigma\sqrt n}$ suit exactement la loi $\mathcal{N}(0,1)$ pour tout $n$.}
+\end{answers}
+\begin{explanations}
+B est l'énoncé du cours, D sa lecture pratique : $\mathbb{E}(S_n) = n\mu$ et $\mathbb{V}(S_n) = n\sigma^2$, donc l'écart-type de $S_n$ est $\sigma\sqrt n$ (et A est faux).
+
+C est faux : c'est tout l'intérêt du théorème, il s'applique à n'importe quelle loi ayant une variance (Bernoulli, exponentielle, uniforme…).
+
+E : dans le cas normal, $S_n \sim \mathcal{N}(n\mu, \sigma\sqrt n)$ exactement, par la règle de la somme ; il n'y a rien à approcher.
+
+Contre-sens visés : multiplier l'écart-type par $n$ au lieu de $\sqrt n$
+(A) ; croire que le théorème suppose des variables normales (C).
+\end{explanations}
+\end{question}
+}

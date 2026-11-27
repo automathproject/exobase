@@ -1,0 +1,32 @@
+\uuid{3oQ5}
+\titre{Somme de variables normales non indépendantes}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale, indépendance, somme de variables aléatoires}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$, pour $\sigma > 0$, la loi normale d'espérance $\mu$ et d'écart-type $\sigma$. Soit $X \sim \mathcal{N}(0, 1)$ et $Y = -X$. Quelles affirmations sont vraies ?
+\begin{answers}
+\good{$Y$ suit la loi $\mathcal{N}(0,1)$.}
+\bad{$X + Y$ suit la loi $\mathcal{N}(0, \sqrt2)$.}
+\good{$X + Y$ est la variable constante égale à $0$ ; elle n'a pas de densité.}
+\bad{La somme de deux variables de loi normale suit toujours une loi normale.}
+\end{answers}
+\begin{explanations}
+A : la densité de $\mathcal{N}(0,1)$ est paire, donc $-X$ a la même loi que $X$.
+
+B, D sont faux : la règle « les espérances et les variances s'ajoutent, la somme est normale » suppose les variables indépendantes. Ici $X$ et $Y$ ont la même loi que dans le cas indépendant, mais $X + Y = 0$ : une constante n'est pas une variable à densité, donc pas une variable de loi normale.
+
+Contre-sens visé : appliquer la règle de la somme en oubliant
+l'hypothèse d'indépendance. Connaître la loi de $X$ et celle de $Y$ ne suffit
+pas pour connaître celle de $X + Y$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,38 @@
+\uuid{msxR}
+\titre{Quantile d'une loi normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, quantile, standardisation}
+
+\contenu{
+\begin{question}
+\qtype{onlyone}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. On donne $\Phi(1{,}96) \approx 0{,}975$. Soit $X \sim \mathcal{N}(20, 4)$. Le réel $a$ tel que $\mathbb{P}(X \leq a) = 0{,}975$ vaut environ :
+\begin{answers}
+\bad{$1{,}96$}
+\bad{$12{,}16$}
+\good{$27{,}84$}
+\bad{$51{,}36$}
+\end{answers}
+\begin{explanations}
+$\mathbb{P}(X \leq a) = \Phi\left(\frac{a - 20}{4}\right) = 0{,}975$
+donne $\frac{a - 20}{4} = 1{,}96$, soit $a = 20 + 4 \times 1{,}96 = 27{,}84$.
+
+A est le quantile de $\mathcal{N}(0,1)$ : on a oublié de revenir à $X$.
+
+B : $20 - 4 \times 1{,}96$, erreur de signe ; on sait que $a > 20$ puisque la probabilité dépasse $\frac12$.
+
+D : $20 + 16 \times 1{,}96$, la variance a pris la place de l'écart-type.
+
+Contre-sens visés : s'arrêter au quantile de la loi centrée réduite ;
+multiplier par la variance. Contrôle rapide : une probabilité supérieure à
+$\frac12$ donne un quantile supérieur à $\mu$.
+\end{explanations}
+\end{question}
+}

@@ -1,0 +1,38 @@
+\uuid{6Q1s}
+\titre{Probabilité d'une queue droite pour une loi normale}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{1}
+\theme{loi normale, standardisation, symétrie, complémentaire}
+
+\contenu{
+\begin{question}
+On note $\mathcal{N}(\mu,\sigma)$ la loi normale d'espérance $\mu$ et d'écart-type $\sigma$, et $\Phi$ la fonction de répartition de $\mathcal{N}(0,1)$. Soit $X \sim \mathcal{N}(50, 10)$. Quelles égalités sont vraies ?
+\begin{answers}
+\bad{$\mathbb{P}(X > 65) = \Phi(1{,}5)$}
+\good{$\mathbb{P}(X > 65) = 1 - \Phi(1{,}5)$}
+\bad{$\mathbb{P}(X > 65) = 1 - \Phi(15)$}
+\good{$\mathbb{P}(X > 65) = \mathbb{P}(X < 35)$}
+\good{$\mathbb{P}(X > 65) = \Phi(-1{,}5)$}
+\end{answers}
+\begin{explanations}
+On standardise : $\frac{65 - 50}{10} = 1{,}5$ et
+$\mathbb{P}(X > 65) = \mathbb{P}(Z > 1{,}5) = 1 - \Phi(1{,}5) = \Phi(-1{,}5)$
+pour $Z \sim \mathcal{N}(0,1)$.
+
+A donne $\mathbb{P}(X \leq 65)$ : on a oublié le complémentaire.
+
+C : on a centré sans diviser par l'écart-type.
+
+D : la densité de $X$ est symétrique par rapport à $\mu = 50$, et $65$ et $35$ sont à la même distance $15$ de $50$.
+
+Contre-sens visés : oublier le complémentaire pour un événement « $>$ » ;
+standardiser à moitié ; ne voir la symétrie qu'autour de $0$.
+\end{explanations}
+\end{question}
+}

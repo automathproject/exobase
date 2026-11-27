@@ -1,0 +1,33 @@
+\uuid{307T}
+\titre{Carré d'une variable normale centrée réduite}
+\auteur{Maxime Nguyen}
+\organisation{AMSCC}
+\datecreate{2026-11-27}
+\niveau{L2}
+\module{Probabilité}
+\chapitre{Probabilité continue}
+\sousChapitre{Loi normale}
+\difficulte{2}
+\theme{loi normale centrée réduite, moment d'ordre 2, changement de variable}
+
+\contenu{
+\begin{question}
+Soit $Z$ une variable de loi normale centrée réduite $\mathcal{N}(0,1)$ et $\Phi$ sa fonction de répartition. Quelles affirmations sont vraies ?
+\begin{answers}
+\good{$\mathbb{E}(Z^2) = 1$.}
+\bad{$Z^2$ suit la loi $\mathcal{N}(0,1)$.}
+\bad{$\mathbb{P}(Z^2 \leq 1) = \Phi(1)$.}
+\good{$\mathbb{P}(Z^2 \leq 1) = 2\Phi(1) - 1$.}
+\end{answers}
+\begin{explanations}
+A : $\mathbb{E}(Z^2) = \mathbb{V}(Z) + \mathbb{E}(Z)^2 = 1 + 0$.
+
+B est faux : $Z^2 \geq 0$, alors qu'une variable normale prend des valeurs négatives avec une probabilité non nulle. (Sa loi est la loi du $\chi^2$ à un degré de liberté.)
+
+C, D : $\{Z^2 \leq 1\} = \{-1 \leq Z \leq 1\}$, de probabilité $\Phi(1) - \Phi(-1) = 2\Phi(1) - 1$.
+
+Contre-sens visés : croire qu'une fonction d'une variable normale est
+normale ; résoudre $Z^2 \leq 1$ en $Z \leq 1$ (C).
+\end{explanations}
+\end{question}
+}
