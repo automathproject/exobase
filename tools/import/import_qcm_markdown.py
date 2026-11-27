@@ -219,6 +219,13 @@ def parse_item(heading: re.Match, lines: list[str], start: int, end: int) -> Ite
         if "$" in title:
             raise FormatError(f"{where} : titre avec formule ; donner titre=… dans le commentaire")
         meta["titre"] = title
+    # Les métadonnées sont recopiées telles quelles dans \titre{…}, \theme{…} :
+    # un « % » y ouvrirait un commentaire LaTeX (titre vide, contenu écarté par
+    # OpenYourMath) ; « & » et « # » y sont aussi des caractères spéciaux.
+    for key, value in meta.items():
+        bad = re.search(r"[%&#]", value) if isinstance(value, str) else None
+        if bad:
+            raise FormatError(f"{where} : « {bad.group()} » interdit dans {key}=… ; le reformuler en toutes lettres")
     body = lines[k + 1:end]
     while body and body[-1].strip() in {"", "---"}:
         body.pop()
